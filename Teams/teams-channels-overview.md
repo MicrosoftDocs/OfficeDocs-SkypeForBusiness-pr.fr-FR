@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 83b95032e89accca311eb66933a9991d4f0ca195
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186803"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252639"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -47,9 +47,9 @@ Commençons par nous pencher sur la façon dont Microsoft Teams permet aux équ
     
 Pour obtenir de l’aide sur l’utilisation des équipes et des canaux, consultez l’article [Teams and les canaux](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-Affichez cette courte vidéo pour en savoir plus sur les meilleures pratiques pour la création d’équipes et canaux.
+Regardez cette courte vidéo pour en savoir plus sur les meilleures pratiques en matière de création d’équipes et de canaux :
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [TechTip : Conseils pour la création Teams & canaux privés,](https://youtu.be/WkAVgNKn0hs) y compris les canaux privés Microsoft Teams (21:08 min)
 
 ## <a name="membership-roles-and-settings"></a>Appartenance, rôles et paramètres
 
@@ -77,7 +77,7 @@ Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de
 
 Si vous êtes administrateur Teams dans Microsoft 365, vous avez accès aux paramètres à l’échelle du système dans le Teams d’administration. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal « Général » par défaut, pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 
-Par défaut, tous les utilisateurs sont autorisés à créer une équipe. Pour modifier ceci, voir [Attribuer des rôles et des autorisations dans Teams.](assign-roles-permissions.md)
+Par défaut, tous les utilisateurs sont autorisés à créer une équipe. Pour modifier ce système, voir [Attribuer des rôles et des autorisations dans Teams.](assign-roles-permissions.md)
 
 Une activité de planification anticipée pour impliquer les utilisateurs au Teams consiste à aider les utilisateurs à réfléchir et à comprendre comment Teams améliorer la collaboration au quotidien. Discutez avec les utilisateurs et aidez-les à sélectionner les scénarios d’entreprise dans lesquels ils collaborent actuellement de manière fragmentée. Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel. 
 

@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec6b257f91c7e5003a4a69079e37b20b5f338528
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
-ms.translationtype: HT
+ms.openlocfilehash: c99fc4bfb185ec291a98a96572167b389b3e6252
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617756"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252649"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gérer les stratégies de rétention pour Microsoft Teams
 
@@ -63,13 +63,17 @@ Ces deux principes de rétention s’adressent à la plupart des conflits qui pe
 
 Dans de nombreux cas, les organisations considèrent les données de conversation privé plus comme une responsabilité que les messages de canal, qui sont généralement des conversations plus liées au projet.
 
-Vous pouvez configurer des stratégies de conservation distinctes pour les conversations privées (1:1 ou 1 : plusieurs conversations) et les messages de canal. Vous pouvez également configurer des stratégies uniques qui s'appliquent à des utilisateurs ou des équipes spécifiques de votre organisation. Pour les conversations Teams, vous pouvez sélectionner les utilisateurs auxquels la stratégie s’applique. Pour les conversations Teams, vous pouvez sélectionner les équipes auxquels la stratégie s’applique.
+Vous pouvez configurer très efficacement une stratégie de rétention unique pour tous Teams messages. Pour un contrôle plus fin, vous pouvez également :
 
-Par exemple, pour les messages de canal, vous pouvez appliquer une stratégie de rétention à des équipes spécifiques au sein de votre organisation, et cette stratégie est configurée avec une action de suppression après 1 an. Appliquez ensuite une autre stratégie de rétention à toutes les autres équipes, et cette stratégie est configurée avec une action de suppression après 3 ans.
+- Avoir des stratégies de rétention distinctes pour les conversations privées (conversations 1:1 ou 1:1: plusieurs), les messages provenant de canaux standard ou les messages de canaux privés.
+
+- Appliquez les stratégies uniquement à des utilisateurs ou équipes spécifiques de votre organisation. Pour Teams conversations et canaux privés, vous pouvez sélectionner les utilisateurs auquel s’applique la stratégie. Pour les conversations Teams, vous pouvez sélectionner les équipes auxquels la stratégie s’applique.
+
+Par exemple, pour les messages de canal standard : Créer une stratégie de rétention pour des équipes spécifiques de votre organisation et configurer cette stratégie avec une action de suppression après un an. Ensuite, créez une autre stratégie de rétention pour les messages de canal standard pour toutes les autres équipes et configurez cette stratégie avec une action de suppression au bout de 3 ans.
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Créer et gérer des stratégies de rétention pour Teams
 
-Pour créer ou modifier une stratégie de rétention pour les conversations et les messages de canal Teams, utilisez les instructions de [Stratégie de rétention pour les emplacements Teams](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations).
+Pour créer ou modifier une stratégie de rétention pour Teams messages électroniques, utilisez les instructions de la stratégie de rétention [pour Teams emplacements.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
 Cette page présente des informations supplémentaires sur la création et la gestion des stratégies de rétention pour d’autres charges de travail dans Microsoft 365. Par exemple, vous pouvez également créer une stratégie de rétention pour les groupes Microsoft 365 afin de conserver et de supprimer les fichiers accessibles dans Teams et qui sont stockés dans OneDrive ou SharePoint.  
 
@@ -91,7 +95,7 @@ Pour les messages de canal, les utilisateurs (membres du canal) voient les messa
 > [!NOTE]
 > Pour l’instant, les messages affichés qui résultent de la suppression ne sont pas configurables.
 
-Les liens dans ces messages affichés sont disponibles dans [messages Teams concernant les stratégies de rétention](https://support.microsoft.com/fr-FR/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). Cette documentation pour les utilisateurs finaux répond aux questions de base sur la raison pour laquelle leurs messages ont été supprimés. Toutefois, dans le cadre du déploiement de votre stratégie de rétention, veillez à communiquer aux utilisateurs et au service d’aide l’impact de vos paramètres configurés.
+Les liens dans ces messages affichés sont disponibles dans [messages Teams concernant les stratégies de rétention](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b). Cette documentation pour les utilisateurs finaux répond aux questions de base sur la raison pour laquelle leurs messages ont été supprimés. Toutefois, dans le cadre du déploiement de votre stratégie de rétention, veillez à communiquer aux utilisateurs et au service d’aide l’impact de vos paramètres configurés.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
