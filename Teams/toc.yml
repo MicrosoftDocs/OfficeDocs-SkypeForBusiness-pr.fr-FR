@@ -1525,6 +1525,8 @@ items:
             href: g1-trial-license.md
           - name: Gérer l’expérience Teams Exploratory
             href: teams-exploratory.md
+          - name: Mise à niveau des utilisateurs de Teams Exploratory
+            href: upgrade-from-teams-exploratory.md
           - name: Gérer la version gratuite de Teams
             href: manage-freemium.md
           - name: Mettre à niveau la version gratuite de Teams vers une version avec abonnement
