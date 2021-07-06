@@ -18,16 +18,16 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble des commandes de transfert et de la manière de transférer des numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: d7ca4769dcd1f320a7d0b8a8ed18fdba5b06abbd
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: f30bdc825caf7feadbb09bd4bbe65a4d5771a6a6
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615050"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278647"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
-Si vous êtes opérateur ou fournisseur de services téléphoniques et que vous disposezdéjà de numéros de téléphone pour vos utilisateurs ou services, vous devez créer une « demande de transfert » pour transférer ces numéros de téléphone vers Microsoft Teams. Lorsque les numéros sont portés, vous pouvez affecter ces numéros de téléphone à vos utilisateurs et à des services tels que les audioconférences (pour les ponts de conférence), le port automatique et les files d’attente d’appels.
+Si vous êtes opérateur ou fournisseur de services téléphoniques et que vous disposezdéjà de numéros de téléphone pour vos utilisateurs ou services, vous devez créer une « demande de transfert » pour transférer ces numéros de téléphone vers Microsoft Teams. Lorsque les numéros sont portés, vous pouvez affecter ces numéros de téléphone à vos utilisateurs et à des services tels que les audioconférences (pour les ponts de conférence), les ports automatiques et les files d’attente d’appels.
   
 Une fois vos numéros de téléphone Teams, Microsoft devient votre fournisseur de services et vous pouvez déconnecter votre service auprès de votre ancien opérateur ou fournisseur de services.
 
@@ -65,7 +65,7 @@ En règle générale, vous pouvez transférer n’importe quel numéro de télé
 
 - des numéros de téléphone VoIP provenant d'un fournisseur de téléphone, comme Vonage ou RingCentral.
 
-- Skype Entreprise numéros de téléphone hybrides. Si vous voulez transférer ces numéros, envoyez-nous un e-mail à <ptn@microsoft.com> l’adresse .
+- Skype Entreprise numéros de téléphone hybrides. Si vous souhaitez transférer ces numéros, envoyez-nous un e-mail à <ptn@microsoft.com> l’adresse .
 
   **Vous ne pouvez pas transférer :**
   
@@ -97,7 +97,7 @@ Lorsque vous transférez des numéros de téléphone vers Teams, vous avez la po
 
 - **Port partiel** Il s’agit du transfert de certains de vos numéros de téléphone entre votre fournisseur de services actuel et Teams. Lorsque vous souhaitez faire porter certains des numéros de téléphone liés au même réseau btn, **** ne devez pas inclure ** le réseau btn avec tous les autres numéros de téléphone sur votre compte.
 
-    Par exemple, supposons que votre numéro de téléphone btn est *+1 425 555 1234* et que vous souhaitez uniquement porter 5 de vos 25 numéros de téléphone (+1 *425 555 1235 à 1259).* Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir **+1 425 555 1235 - +1 425 555 1239**.
+    Par exemple, supposons que votre numéro de téléphone btn *est +1 425 555 1234* et que vous voulez uniquement porter 5 de vos 25 numéros de téléphone (+1 *425 555 1235 à 1259).* Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir **+1 425 555 1235 - +1 425 555 1239**.
     
 ## <a name="can-i-submit-a-single-number-porting-request-for-all-of-my-numbers-at-one-time"></a>Puis-je envoyer une demande de transfert de numéro unique pour tous mes numéros à la fois ?
 <a name="bkmk_type_1"> </a>
@@ -171,7 +171,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. La personne autorisée à modifier le compte doit envoyer une commande à l’opérateur actuel pour supprimer le blocage. Selon l’opérateur, ce processus peut prendre de une à trois semaines.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

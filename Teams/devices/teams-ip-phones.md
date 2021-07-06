@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 52a3930db5dfed90b28b98a8bfc2a87dd57dabb5
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: 475753931cc2620e6ea51491abda74c2ea3f4d84
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203633"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278497"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
 Les Microsoft Teams de certification s’assurent que les clients qui utilisent des téléphones de bureau et des téléphones de conférence certifiés expérienceront des appels audio et des réunions de haute qualité.
 
-Microsoft Teams Les programmes de certification garantissent une barre de qualité supérieure avec des objectifs de performance plus élevés et des mesures de qualité audio. Les partenaires travaillent activement pour répondre à cette barre supérieure et sont des appareils éligibles pour répondre aux exigences de certification. Certains de nos partenaires travaillent également à la prise en charge du service Skype Entreprise sur le même matériel que les Teams téléphones. Les avantages Microsoft Teams appareils certifiés sont les suivants :
+Microsoft Teams Les programmes de certification garantissent une barre de qualité supérieure avec des objectifs de performance plus élevés et des mesures de qualité audio. Les partenaires travaillent activement pour répondre à cette barre supérieure et sont des appareils éligibles pour répondre aux exigences de certification. Certains de nos partenaires travaillent également à assurer la prise en charge du service Skype Entreprise sur le même matériel que les Teams téléphones. Les avantages Microsoft Teams appareils certifiés sont les suivants :
 
 - Expérience de Teams native avec l’intégration des boutons matériels et les notifications LED
 - Intégration du calendrier et rejoindre une réunion à l’écran tactile
@@ -57,12 +57,12 @@ Les appareils suivants sont certifiés dans le cadre du programme Microsoft Team
 | Crestron M100                          | Ce produit a été arrêté. Pour plus d’informations, visitez Le site web de [Crestron M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) sur le site web de Crestron. | Arrêté (11/05/2020) |
 | Crestron Flex UC-P100-T & UC-P110-T    | Ce produit a été arrêté. Pour plus d’informations, visitez [le site web de UC Téléphone](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) le site web de Crestron.                  | Arrêté (11/05/2020) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | Avril 2020                   |
-| Poly Premierc C60,Sin C60 NR, Celaa C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | Avril 2020                   |
+| Poly Premierc C60,Sin C60 NR, Série C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | Avril 2020                   |
 | Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | Janvier 2020                 |
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | Janvier 2020                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | Décembre 2019                |
 | PolyGone 8500/8800 (mode partagé uniquement) | 5.9.0.10869                                                                                                                                                                                                                                | Juin 2019                    |
-| Yealink EXP50 pris en charge sur T56, T58, MP56, MP58, VP59| Pour chaque modèle d’appareil pris en charge, voir la mise à jour #7 version du microprogramme | Janvier 2021 |
+| Yealink EXP50 pris en charge sur T56, T58, MP56, MP58, VP59| Pour chaque modèle d’appareil pris en charge, consultez la mise à jour #7 version du microprogramme | Janvier 2021 |
 | Yealink MP58 | 122.15.0.27| Décembre 2020 |
 | Yealink MP54 | 122.15.0.27| Novembre 2020 |
 | Yealink MP56 | 122.15.0.6 | Mars 2020    |
@@ -103,7 +103,7 @@ Les appareils suivants sont certifiés dans le cadre du programme Microsoft Team
 |:------------------------|:-----------------|:--------------|
 |Crestron TSS-770 | 1.003.0082 |Février 2021 |
 |Crestron TSS-1070 | 1.003.0082 |Février 2021 |
-|Yealink RoomPanel | 147.15.0.2 |Mai 2021 |
+|Yealink RoomPanel | 147.15.0.1 |Mai 2021 |
 
 ### <a name="product-release-information-for-teams-phones"></a>Informations de publication de produit pour Teams téléphones cellulaires
 

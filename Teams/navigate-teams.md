@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: edf8c342ced18245e6dd56fe3916cebea3fa9f9e
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: bc05be5d107c2394c959b56866b2a5cda143278d
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856253"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278667"
 ---
 # <a name="navigate-microsoft-teams"></a>Naviguer dans Microsoft Teams
 
@@ -30,13 +30,13 @@ La mise en place d’un Kaizala en Teams est plus facile que jamais grâce à no
 
 ## <a name="starting-new-chats-11-audio-and-video-calls"></a>Démarrage de nouvelles conversations, appels audio et vidéo en deux: 1:1
 
-Créez des conversations à deux ou de groupe pour collaborer avec un groupe plus petit ou pour discuter en privé au sein Teams. Vous pouvez épingler des conversations et enregistrer des messages pour y accéder rapidement. Pour commencer à discuter avec notre mise en forme de texte enrichi, emojis et gifs, consultez [les conversations dans Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us).
+Créez des conversations à deux ou de groupe pour collaborer avec un groupe plus petit ou parler en privé au sein Teams. Vous pouvez épingler des conversations et enregistrer des messages pour y accéder rapidement. Pour commencer à discuter avec notre mise en forme de texte enrichi, emojis et gifs, consultez [les conversations dans Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us).
 
 Communiquez efficacement en commençant des appels à deux ou de groupe avec l’un des membres de votre organisation. Avec Teams, vous avez la possibilité d’effectuer des appels audio et vidéo.  Pour commencer, consultez [Passer des appels.](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)
 
 ## <a name="getting-work-done"></a>Travail
 
-La fonctionnalité des cartes d Kaizala’action existe actuellement dans Microsoft Teams. En matière de travail, les outils qui s’offrent à vous peuvent vous permettre d’être plus efficace. Plus de 300 applications externes sont disponibles dans Microsoft Teams. Continuez à lire pour découvrir comment utiliser des applications et des modèles pour créer des [invitations](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)à des réunions, des annonces et des vérifications précises de l’emplacement pour rester connecté au sein de votre organisation.
+La fonctionnalité des cartes d Kaizala’action existe actuellement dans Microsoft Teams. En matière de travail, les outils qui s’offrent à vous peuvent vous permettre d’être plus efficace. Plus de 300 applications externes sont disponibles dans Microsoft Teams. Continuez à lire pour découvrir comment utiliser des applications et des modèles pour créer des [invitations](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)à des réunions, des annonces et des vérifications précises de lieu pour rester connecté au sein de votre organisation.
 
 ### <a name="announcements"></a>Annonces
 
@@ -78,7 +78,7 @@ Profitez d’analyses enrichies [](https://www.office.com/launch/forms?auth=2)gr
 
 Pour activer [les extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) au sein d’une équipe, utilisez l’option Connecteurs du menu (...), pour n’importe quel canal pour lequel le connecteur est requis.
 
-Pour afficher les rapports d’utilisation, d’activité et d’adoption globale, les propriétaires d’équipe peuvent accéder aux rapports pour leurs équipes en accédant au menu (...) pour gérer les données d> analyse.
+Pour afficher les rapports d’utilisation, d’activité et d’adoption globale, les propriétaires d’équipe peuvent accéder aux rapports pour leurs équipes en accédant au menu (...), afin de gérer les données d> analyse.
 
 ## <a name="kaizala-group-dissolution"></a>Kaizala Dissolution du groupe
 

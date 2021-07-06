@@ -13,16 +13,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Configurez salles Teams appareils et des Surface Hub pour participer à des réunions quand un appareil ou un autre participe à une réunion.
-ms.openlocfilehash: 57dc91e4a7d923e218cd1f8f6f0ce22679d550e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b81d6fca5c263bb8ba1dcd07e80167425bd42fc0
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117562"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278677"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>Configurer des réunions coordonnées avec des Salles Microsoft Teams et des Surface Hub
 
-Si vous avez un ou plusieurs Salles Microsoft Teams surface Hub dans une salle de réunion, vous pouvez configurer des réunions coordonnées. Les réunions coordonnées vous permet de configurer vos appareils salles Teams et Surface Hubs de façon à ce que, lorsque vous rejoignez une réunion sur un appareil, les autres appareils de la salle soient également joints à la même réunion. Vous pouvez configurer vos caméras, haut-parleurs et microphones afin que ceux qui donnent aux participants une expérience utilisateur soient activés tandis que d’autres sont désactivés. Cela permet d’éviter l’écho dreaded et le bruit des commentaires que les participants peuvent rencontrer lors de l’ajout de plusieurs appareils à une réunion.
+Si vous avez un ou plusieurs Salles Microsoft Teams surface Hub dans une salle de réunion, vous pouvez configurer des réunions coordonnées. Les réunions coordonnées vous permet de configurer vos appareils salles Teams et Surface Hubs de façon à ce que, lorsque vous rejoignez une réunion sur un appareil, les autres appareils de la salle soient également joints à la même réunion. Vous pouvez configurer vos caméras, haut-parleurs et microphones de façon à ce que ceux qui offrent le meilleur expérience aux participants soient activés tandis que d’autres sont désactivés. Cela permet d’éviter l’écho dreaded et le bruit des commentaires que les participants peuvent rencontrer lors de l’ajout de plusieurs appareils à une réunion.
 
 Pour configurer des réunions coordonnées, vous devez vous assurer que vos appareils salles Teams et Surface Hub sont déjà correctement configurés pour participer aux réunions. Mais surtout, chaque appareil doit avoir sa propre boîte aux lettres Exchange salle. Pour plus d’informations sur leur mise en place, consultez les articles suivants :
 
@@ -35,7 +35,7 @@ Les étapes suivantes doivent être effectuées pour chaque salle de réunion s�
 
 ## <a name="step-1-plan-your-coordinated-meeting-experience"></a>Étape 1 : planifier votre expérience de réunion coordonnée
 
-Avant d’apporter des modifications de configuration, vous devez décider des appareils qui feront quoi dans chaque salle de réunion. Autrement dit, pour une salle de réunion donnée, vous devez choisir quel périphérique aura le microphone, la caméra et le tableau blanc actifs. La configuration de vos appareils dépend de votre environnement spécifique, mais voici quelques recommandations générales à commencer par :
+Avant d’apporter des modifications de configuration, vous devez décider des périphériques qui feront quoi dans chaque salle de réunion. Autrement dit, pour une salle de réunion donnée, vous devez choisir quel périphérique aura le microphone, la caméra et le tableau blanc actifs. La configuration de vos appareils dépend de votre environnement spécifique, mais voici quelques recommandations générales à commencer par :
 
 - **Microphone** salles Teams device
 - **Appareil** photo salles Teams (par défaut) et Surface Hub (désactivé par défaut, mais autorisé à être allumé par les participants)
@@ -46,16 +46,16 @@ Avant d’apporter des modifications de configuration, vous devez décider des a
 
 ## <a name="step-2-get-your-devices-upns"></a>Étape 2 : obtenir les upns de vos appareils
 
-Lorsque vous définissez une expérience de réunion coordonnée dans une salle de réunion, vous devez indiquer aux appareils salles Teams et surface Hubs de cette salle avec lesquels les appareils doivent être coordonnés. Pour ce faire, ajoutez le nom d’utilisateur principal (UPN) des appareils avec qui il doit s’coordonner à sa configuration. Si vous ne connaissez pas les upns de chacun des appareils que vous souhaitez configurer pour les réunions coordonnées, vous pouvez les trouver à l’aide du Centre d’administration Microsoft 365 utilisateurs. 
+Lorsque vous définissez une expérience de réunion coordonnée dans une salle de réunion, vous devez indiquer aux appareils salles Teams et surface Hubs de cette salle avec lesquels les appareils doivent être coordonnés. Pour ce faire, ajoutez le nom d’utilisateur principal (UPN) des appareils avec qui il doit s’coordonner à sa configuration. Si vous ne connaissez pas les upns de chacun des appareils que vous souhaitez configurer pour les réunions coordonnées, vous pouvez les trouver à l’aide de la Centre d’administration Microsoft 365. 
 
-Un rôle d’administrateur doit vous être attribué pour pouvoir accéder Microsoft 365 centre d’administration. Pour plus d’informations, voir [À propos des rôles d’administrateur.](/microsoft-365/admin/add-users/about-admin-roles)
+Un rôle d’administrateur doit vous être attribué pour pouvoir accéder à la Centre d’administration Microsoft 365. Pour plus d’informations, voir [À propos des rôles d’administrateur.](/microsoft-365/admin/add-users/about-admin-roles)
 
 Pour obtenir les upns de vos appareils salles Teams et Surface Hub, vous pouvez :
 
-1. Connectez-vous au Microsoft 365 d’administration en vous rendant sur le https://admin.microsoft.com site.
+1. Connectez-vous au Centre d’administration Microsoft 365 par https://admin.microsoft.com visite.
 2. Allez à **Utilisateurs**  >  **actifs.**
 3. Recherchez le nom de votre salles Teams ou Surface Hub  dans la colonne Nom  complet (vous pouvez utiliser la zone de recherche si vous avez de nombreux utilisateurs).
-4. Recherchez le nom d’utilisateur utilisateur dans la colonne **Nom** d’utilisateur (il ressemblera à alias@contoso.com ou alias@contoso.onmicrosoft.com).
+4. Recherchez le nom d’utilisateur utilisateur dans la colonne **Nom** d’utilisateur (il ressemblera alias@contoso.com ou alias@contoso.onmicrosoft.com).
 5. Répétez cette opération pour chaque appareil qui participera aux réunions coordonnées.
 
 ## <a name="step-3-create-a-deployment-worksheet"></a>Étape 3 : créer une feuille de calcul de déploiement
@@ -67,9 +67,9 @@ Dans une application de feuille de calcul, ajoutez des lignes pour ce qui suit d
 | Paramètres                | Description      |
 |------------------------|-----------------|
 | **Audio default**      | Détermine le périphérique sur lequel le microphone sera actif lorsqu’une réunion débute. Un seul appareil (généralement un appareil salles Teams) peut définir ce champ tandis que le champ de ce champ doit être utilisé pour éviter l’écho et les commentaires des autres `true` `false` appareils.          |
-| **Audio activé**      | Détermine si les participants à une réunion peuvent faire bascule le microphone. Les périphériques sur lesquels  `false` l’audio est réglé par défaut doivent avoir ce paramètre réglé de sorte que les participants ne peuvent pas activer accidentellement un microphone et provoquer un écho ou des commentaires `false` audio.<p>Si **la valeur par** défaut de l’audio est définie sur, ce paramètre est ignoré et les participants peuvent activer ou désactiver le `true` micro.          |
+| **Audio activé**      | Détermine si les participants à une réunion peuvent ou non éteindre le microphone. Les périphériques sur lesquels  `false` l’audio est réglé par défaut doivent avoir ce paramètre réglé de sorte que les participants ne peuvent pas activer accidentellement un microphone et provoquer un écho ou des commentaires `false` audio.<p>Si **la valeur par** défaut de l’audio est définie sur, ce paramètre est ignoré et les participants peuvent activer ou désactiver le `true` micro.          |
 | **Vidéo par défaut**      | Détermine le périphérique sur lequel l’appareil photo sera actif lorsqu’une réunion commence. Pour une expérience qui soit la meilleure possible, nous vous recommandons de définir l salles Teams de l’appareil lorsque tous les autres appareils `true` sont sur `false` .          |
-| **Vidéo activée**      | Détermine si les participants à une réunion peuvent faire bascule la caméra sur ou non. Vous pouvez définir cette action sur tous les autres appareils de l’événement pour que les participants partagent des perspectives vidéo différentes (par exemple, si un participant utilise le `true` Surface Hub tableau blanc). Si vous ne voulez pas que les participants activer ou désactiver une caméra sur un appareil, définissez cette fonction sur `false` .<p> Si **la vidéo est** définie par défaut sur, ce paramètre est ignoré et les participants peuvent activer ou désactiver la `true` caméra.         |
+| **Vidéo activée**      | Détermine si les participants à une réunion peuvent faire bascule la caméra sur ou non. Vous pouvez définir cette action sur tous les autres appareils dans l’événement que les participants souhaitent partager avec d’autres perspectives vidéo (par exemple, si un participant utilise le `true` Surface Hub blanc). Si vous ne voulez pas que les participants activer ou désactiver une caméra sur un appareil, définissez cette fonction sur `false` .<p> Si **la vidéo est** définie par défaut sur, ce paramètre est ignoré et les participants peuvent activer ou désactiver la `true` caméra.         |
 | **Tableau blanc par défaut** | Détermine si l’appareil salles Teams affichera un tableau blanc partagé par l’un des participants à la réunion. Nous vous recommandons de le définir si vous avez une Surface Hub `false` et `true` si vous n’en avez pas. Ce paramètre n’a aucun effet sur les Surface Hubs. Les Surface Hubs afficheront toujours un tableau blanc partagé par les participants à la réunion.         |
 | **Tableau blanc activé** | Détermine si les participants à une réunion peuvent ou non utiliser le tableau blanc. Si vous ne voulez pas que les participants activer ou désactiver le tableau blanc sur un appareil, définissez cette fonction sur `false` . <p>Si **l’option Tableau** blanc par défaut est définie sur, ce paramètre est ignoré et les participants peuvent activer ou désactiver le tableau `true` blanc.
 | **Comptes de confiance**   | Il s’agit d’une liste séparée par des virgules des upns pour chaque appareil ou Surface Hub de salle Teams à partir duquel l’appareil doit accepter les demandes de réunion ou vers laquelle les demandes de réunion doivent être envoyées. |
@@ -118,7 +118,7 @@ Une fois que vous **avez sélectionné Enregistrer et quitter,** l’appareil re
 
 ### <a name="use-the-teams-rooms-xml-configuration-file"></a>Utiliser le fichier salles Teams de configuration XML complet
 
-Les réunions coordonnées peuvent être définies à l’aide du salles Teams de configuration XML de votre `SkypeSettings.xml` appareil. Le `SkypeSettings.xml` fichier n’est pas statique. Au démarrage salles Teams d’un appareil, celui-ci recherche `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` un fichier nommé `SkypeSettings.xml` . Si le fichier existe, l’appareil lit et applique la configuration spécifiée dans le fichier. Une fois la configuration appliquée, le fichier est supprimé. Pour plus d’informations sur `SkypeSettings.xml` le fichier, voir [Gérer les paramètres de la console avec un fichier de configuration XML.](../rooms/xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)
+Les réunions coordonnées peuvent être définies à l’aide du salles Teams de configuration XML de votre `SkypeSettings.xml` appareil. Le `SkypeSettings.xml` fichier n’est pas statique. Au démarrage salles Teams d’un appareil, celui-ci recherche `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` un fichier `SkypeSettings.xml` nommé. Si le fichier existe, l’appareil lit et applique la configuration spécifiée dans le fichier. Une fois la configuration appliquée, le fichier est supprimé. Pour plus d’informations sur `SkypeSettings.xml` le fichier, voir [Gérer les paramètres de la console avec un fichier de configuration XML.](../rooms/xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)
 
 Voici la syntaxe des paramètres de réunion coordonnées dans le fichier de configuration :
 

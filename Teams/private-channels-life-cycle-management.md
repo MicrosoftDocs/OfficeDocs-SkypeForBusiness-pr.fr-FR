@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les canaux privés dans votre organisation à l’aide de Graph API.
-ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117742"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278527"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft Teams
 
@@ -149,7 +149,7 @@ Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.m
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **Response**
 
     ```Graph API
@@ -177,7 +177,8 @@ Vous pouvez essayer ces commandes via l’[Afficheur Graph](https://developer.m
               }
           ]
     }
-    ```    
+    ```
+
 2. Utilisez les lignes de commande suivantes pour promouvoir le membre au rôle de propriétaire, dans lesquelles &lt;group_id&gt;, &lt;channel_id&gt; et &lt;id&gt; sont renvoyés par l’appel précédent. Notez que &lt;id&gt; et &lt;userId&gt; renvoyés par l’appel précédent ne sont pas les mêmes et ne sont pas interchangeables. Assurez-vous d’utiliser &lt;id&gt;.
 
     **Demande**

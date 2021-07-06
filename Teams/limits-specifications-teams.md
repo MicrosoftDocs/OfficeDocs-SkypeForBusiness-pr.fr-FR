@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e35ad06e8123bc2525439dd81334a8600fd0a555
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: 16713d115dafaac4667fcf8ca1b52624a3b95424
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203603"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275653"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -120,7 +120,7 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC mais pas encore pour GCCH, DoD ou A1 (300). **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC, GCCH et DoD, mais pas A1 (300). **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |

@@ -15,56 +15,53 @@ f1.keywords:
 description: Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du Centre de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e52b10f0a7a8dd3ac67f7a2c15b9d1e082186ab
-ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
+ms.openlocfilehash: b78fba2a85cd45c07183ebc9df8016f16036dce5
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929290"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275663"
 ---
-<a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
-==================================================
+# <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 
-Lorsqu’il existe des attentes raisonnables en cas de litige, les organisations sont tenues de conserver électroniquement les informations stockées (ESI), Teams messages de conversation pertinents pour ce cas. Les organisations doivent conserver tous les messages liés à un sujet spécifique ou à certaines personnes. Cet article traite de la mise en attente légale dans Microsoft Teams (Pour résoudre le problème de mise en œuvre des contenus dans l’espace M365, consultez l’article Gérer les cas de découverte électronique : mettre les emplacements de contenu [en attente).](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)
+Lorsqu’une attente raisonnable concernant un litige existe, les organisations doivent conserver électroniquement des informations stockées (ESI), Teams messages de conversation pertinents pour un cas particulier. Les organisations doivent conserver tous les messages liés à un sujet spécifique ou à certaines personnes. Cet article traite de la Microsoft Teams. Pour conserver du contenu Microsoft 365, voir [Créer une hold eDiscovery.](https://docs.microsoft.com/microsoft-365/compliance/create-ediscovery-holds)
 
 > [!NOTE]
-> En février 2020, nous avons activé la tenue légale ou la conversation de cas sur des canaux privés (les conversations de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, les conversations de canal normales sont stockées dans la boîte aux lettres de groupe d’une équipe). Si une boîte aux lettres utilisateur est déjà conservée, la stratégie de hold-in s’applique désormais automatiquement aux messages de canal privé stockés dans cette boîte aux lettres. Aucune autre action n’est requise pour qu’un administrateur l’activer. La propriété légale des fichiers partagés dans des canaux privés est également prise en charge.
+> En février 2020, nous avons désactivé l’action légale pour les canaux privés. Les conversations de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, tandis que les conversations de canal normales sont stockées dans la boîte aux lettres Teams groupe de l’utilisateur. Si une boîte aux lettres utilisateur est déjà conservée, la stratégie de hold-in s’applique désormais automatiquement aux messages de canal privé stockés dans cette boîte aux lettres. Aucune autre action n’est requise pour qu’un administrateur l’activer. La propriété légale des fichiers partagés dans des canaux privés est également prise en charge.
 
-Dans Microsoft Teams, une équipe entière ou des utilisateurs sélectionnés peuvent être mis en attente ou dans le cadre légal. Cela permet de s’assurer que tous les messages échangés dans ces équipes (y compris les canaux privés) ou les messages échangés par ces personnes sont découvrons par les responsables de la conformité ou les administrateurs de l’Teams de l’organisation.
+Dans Microsoft Teams, une équipe entière ou des utilisateurs sélectionnés peuvent être mis en attente légale. Cela permet de s’assurer que tous les messages échangés dans ces équipes (y compris les canaux privés) ou les messages échangés par ces personnes sont découvrons par les responsables de la conformité ou les administrateurs de l’Teams de l’organisation.
 
 > [!NOTE]
 > Placer un utilisateur en conservation n'implique pas automatiquement le placement d'un groupe en conservation, et inversement.
-> Les notifications envoyées dans le flux d’activités ne peuvent pas être placées en attente légale.
+> Les notifications envoyées dans le flux d’activités ne peuvent pas être mises en attente.
 
-Pour placer un utilisateur ou une équipe en attente légale :
+Pour placer un utilisateur ou une équipe en attente légale dans un cas de découverte électronique principal :
 
-1. Accédez au [Centre de & sécurité et conformité.](https://go.microsoft.com/fwlink/?linkid=854628) Lorsque vous créez un cas, la possibilité de placer des boîtes aux lettres ou des sites en attente s’offre à vous.
+1. Allez à la [Centre de conformité Microsoft 365.](https://compliance.microsoft.com) Lorsque vous créez un cas, la possibilité de placer des boîtes aux lettres ou des sites en attente s’offre à vous.
 
-2. Allez à eDiscovery ou Advanced eDiscovery et créez un cas en cliquant sur « Créer un cas ». Une fois le cas créé, ouvrez-le.
-
-   > [!div class="mx-imgBorder"]
-   > ![Microsoft Teams’onglet eDiscovery est sélectionné et affiche le bouton Créer un cas.](media/LegalHold1.png)
-
-3. Dans le menu supérieur, dans la section « En attente », cliquez sur « + Créer » pour créer une attente. Mettre un utilisateur ou une équipe en attente enregistre tous les messages échangés par ces utilisateurs ou messages. Lorsque vous créez un cas, la possibilité de placer des boîtes aux lettres ou des sites en attente s’offre à vous.
-
-   > [!div class="mx-imgBorder"]
-   > ![An image showing the Holds tab selected, and the Create button underneath.](media/LegalHold2.png)
-
-   1. **Nommez votre attente.** Sélectionnez un nom descriptif et unique pour la hold que vous allez créer.
-
-      > [!div class="mx-imgBorder"]
-      > ![Cette capture d’écran montre l’onglet Nommer votre attente, dans lequel vous pouvez entrer un nom et une description pour la hold-in que vous créez.](media/LegalHold3.png)
-
-    2. **Choisissez un emplacement.** Choisissez si vous souhaitez appliquer la attente à un utilisateur ou à une équipe entière (le hold ne peut pas être appliqué à des canaux individuels pour le moment). Remarque : si un utilisateur est en attente, tous ses messages sont en attente, y compris tout ce qu’il a envoyé dans une conversation en tête-à-tête, une conversation à deux ou de groupe ou une conversation de canal (y compris les canaux privés).
+2. Allez à **eDiscovery**  >  **Core** et créez un cas en cliquant **sur Créer un cas.** Une fois le cas créé, ouvrez-le.
   
-       > [!div class="mx-imgBorder"]
-       > ![Voici la section Choisir des emplacements de La création d’une attente, dans laquelle vous pouvez prendre des décisions sur les options M365, y compris les Microsoft Teams, à laquelle vous souhaitez que la Microsoft Teams s’applique.](media/LegalHold4.png)
+   ![Microsoft Teams’onglet eDiscovery est sélectionné et affiche le bouton Créer un cas.](media/LegalHold1.png)
 
-    3. **Créer une requête.** Vous pouvez personnaliser le hold si vous souhaitez plus de granularité dans la stratégie de hold. Par exemple, vous pouvez spécifier des mots clés à rechercher ou vous pouvez ajouter des conditions, qui doivent être satisfaites pour que la attente prenne effet.
+   > [!NOTE]
+   > Vous pouvez également placer un utilisateur en attente associé à Advanced eDiscovery cas. Pour plus d’informations, voir [Gérer les Advanced eDiscovery.](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)
+
+3. Dans le menu **supérieur,** sous l’onglet Attentes, cliquez **sur** Créer pour créer une attente. Le placement en attente d’un utilisateur ou d’une équipe conserve tous les messages échangés par ces utilisateurs ou messages. Lorsque vous créez un cas, la possibilité de placer des boîtes aux lettres ou des sites en attente s’offre à vous.
+
+   ![An image showing the Holds tab selected, and the Create button underneath.](media/LegalHold2.png)
     
-    4. **Examinez vos paramètres** avant de les publier dans votre organisation.
+    1. **Nommez votre attente.** Sélectionnez un nom descriptif et unique pour la hold que vous allez créer.
+  
+       ![Cette capture d’écran montre l’onglet Nommer votre attente, dans lequel vous pouvez entrer un nom et une description pour la hold-in que vous créez.](media/LegalHold3.png)
 
-Une fois la rétention légale définie, vous pouvez découvrir tout le contenu conservé par une stratégie de [Teams’article eDiscovery.](eDiscovery-investigation.md)
+    1. **Choisissez un emplacement.** Choisissez si vous souhaitez appliquer la attente à un utilisateur ou à une équipe entière (le hold ne peut pas être appliqué à des canaux individuels pour le moment). Remarque : si un utilisateur est en attente, tous ses messages sont en attente, y compris les messages envoyés dans une conversation à deux, une conversation à deux ou de groupe ou une conversation de canal (y compris les canaux privés).
+    ![Voici la section Choisir des emplacements de Créer une nouvelle attente, dans laquelle vous pouvez prendre des décisions sur les options M365, y compris les Microsoft Teams, à laquelle vous souhaitez que la attente s’applique.](media/LegalHold4.png)
+
+    2. **Créer une requête.** Vous pouvez personnaliser le hold si vous souhaitez plus de granularité dans la stratégie de hold. Par exemple, vous pouvez spécifier des mots clés à rechercher ou vous pouvez ajouter des conditions, qui doivent être satisfaites pour que la attente prenne effet.
+    
+    3. **Examinez vos paramètres** avant de créer la mise en attente.
+
+Une fois la rétention légale créée, vous pouvez effectuer une recherche dans le contenu conservé par n’importe quelle stratégie de rétention. Pour plus d’informations, [voir Effectuer une enquête de découverte électronique dans Teams.](eDiscovery-investigation.md)
 
 > [!IMPORTANT]
 > Lorsqu’un utilisateur ou un groupe est mis en attente, toutes les copies des messages sont conservées. Par exemple, si un utilisateur a publié un message dans un canal, puis l’a modifié, dans un scénario de mise en attente, les deux copies du message sont conservées. Sans la rétention légale sur place, seul le dernier message est conservé.
