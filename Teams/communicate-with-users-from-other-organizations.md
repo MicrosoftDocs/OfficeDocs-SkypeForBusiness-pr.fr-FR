@@ -18,21 +18,21 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Découvrez comment appeler, discuter, rechercher, puis ajouter des utilisateurs extérieures à l’organisation dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
-ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115992"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53301999"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
-Lorsque vous avez besoin de communiquer, puis de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux options :
+Lorsque vous avez besoin de communiquer, puis de collaborer avec des personnes extérieures à votre organisation, Microsoft Teams vous propose deux options :
 
-- **Accès externe** : type de fédération qui permet aux utilisateurs de rechercher, d’appeler des personnes d’autres organisations, puis de discuter avec elles. Vous ne pouvez pas ajouter ces personnes à des équipes, sauf en tant qu’invitées.
-- **Accès invité** : l’accès invité vous permet d’inviter des personnes extérieures à votre organisation à rejoindre une équipe. Les personnes invitées obtiennent un compte invité dans Azure Active Directory.
+- **Accès externe** : type de fédération qui permet aux utilisateurs de rechercher, d’appeler des personnes d’autres organisations, puis de discuter avec elles. Vous ne pouvez pas ajouter ces personnes à des équipes, sauf en tant qu’invitées.
+- **Accès invité** : l’accès invité vous permet d’inviter des personnes extérieures à votre organisation à rejoindre une équipe. Les personnes invitées obtiennent un compte invité dans Azure Active Directory.
 
-Note : Teams vous permet d’inviter des personnes extérieures à votre organisation à des réunions. Cela ne nécessite pas de configuration de l’accès externe ou invité.
+Note : Teams vous permet d’inviter des personnes extérieures à votre organisation à des réunions. Cela ne nécessite pas de configuration de l’accès externe ou invité.
 
 ## <a name="external-access-federation"></a>Accès externe (fédération)
 
@@ -77,7 +77,7 @@ Les tableaux suivants montrent les différences entre l’utilisation de l’acc
 | Les personnes extérieures à votre organisation peuvent | Utilisateurs de l’accès externe | Invités |
 |---------|-----------------------|--------------------|
 | Accéder aux ressources Teams | Non | Oui |
-| Être ajoutées à une conversation de groupe | Non | Oui |
+| Être ajoutées à une conversation de groupe | Oui | Oui |
 | Être invitées à une réunion | Oui | Oui |
 | Passer des appels privés | Oui | Oui<sup>5</sup> |
 | Afficher le numéro de téléphone des participants à la réunion rendez-vous | Non<sup>4</sup> | Oui |
@@ -95,7 +95,7 @@ Les tableaux suivants montrent les différences entre l’utilisation de l’acc
 <br>
 
 <sup>1</sup> À condition que l’utilisateur ait été ajouté en tant qu’invité et soit connecté avec le compte invité.<br>
-<sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
+<sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
 <sup>3</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. <br>
 <sup>4</sup> Par défaut, les participants externes n’ont pas accès aux numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **type d’annonce d’entrée/sortie** (cela permet d’éviter que les numéros soient lus par les équipes). Pour plus d’informations, voir [Activer ou désactiver l’entrée et quitter les annonces pour les réunions dans Microsoft teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Fonction autorisée par défaut, mais l’administrateur Teams peut la désactiver
