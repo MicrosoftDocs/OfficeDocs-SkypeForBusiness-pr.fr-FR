@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir les technologies de Système téléphonique à Microsoft 365 et Office 365.
-ms.openlocfilehash: 0c750a4abe92b9fee83a3d152db92c767147d295
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0b05c5e0f3fe0f684f160e75e62cec2f36fc86b
+ms.sourcegitcommit: 70f47cc2333e790c15c3f9f209302afdbb5a07d7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100920"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53333088"
 ---
 # <a name="what-is-phone-system"></a>Qu’est-ce Système téléphonique ?
 
@@ -55,7 +55,7 @@ Système téléphonique peut être connecté au réseau PSTN de deux façons :
 
   Pour vos Teams utilisateurs, vous pouvez connecter votre infrastructure téléphonique locale à Système téléphonique à l’aide du routage direct. Pour plus d’informations, [voir Système téléphonique routage direct.](direct-routing-landing-page.md)
 
-  Pour plus d’informations sur toutes les solutions de téléphonie Microsoft, consultez [les solutions de téléphonie Microsoft.](/SkypeForBusiness/hybrid/msft-telephony-solutions)
+  Pour plus d’informations sur toutes les solutions de téléphonie Microsoft, voir [Planifier votre solution Teams voix.](cloud-voice-landing-page.md)
 
 
 ## <a name="phone-system-with-services"></a>Système téléphonique services
@@ -70,7 +70,7 @@ Système téléphonique peut être connecté au réseau PSTN de deux façons :
 
 Pour plus d’informations sur les fonctionnalités, voir les fonctionnalités que vous obtenez [avec Système téléphonique.](here-s-what-you-get-with-phone-system.md) Si vous êtes prêt à commencer, consultez configurer des Système téléphonique [votre organisation.](setting-up-your-phone-system.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Système téléphonique fonctionnalités](here-s-what-you-get-with-phone-system.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

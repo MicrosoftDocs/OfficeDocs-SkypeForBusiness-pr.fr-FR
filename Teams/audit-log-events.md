@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer des Microsoft Teams dans le journal d’audit du Centre de conformité Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
+ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275673"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53324457"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -69,11 +69,11 @@ Voici des conseils pour rechercher des Teams dans le journal d’audit.
 
   ![Capture d’écran de la recherche dans le journal d’audit](media/audit-log-search.png)
 
-- Pour afficher des événements pour des activités qui s’exécutent à l’aide d’lets de cmdlets, sélectionnez Afficher les résultats **pour toutes** les activités dans la **liste Activités.** Si vous connaissez le nom de l’opération pour ces activités, recherchez toutes les activités, puis filtrez les résultats en tapant le nom de l’opération dans la zone de la colonne **Activité.** Pour en savoir plus, voir [l’étape 3 : filtrer les résultats de recherche.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)
+- Pour afficher les événements pour les activités s’exécutent à l’aide d’lets de cmdlets, sélectionnez Afficher les résultats pour **toutes** les activités dans **la liste Activités.** Si vous connaissez le nom de l’opération pour ces activités, recherchez toutes les activités, puis filtrez les résultats en tapant le nom de l’opération dans la zone de la colonne **Activité.** Pour en savoir plus, voir [l’étape 3 : filtrer les résultats de recherche.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
 
 - Pour effacer les critères de recherche actuels, cliquez sur **Effacer.** La plage de dates reprend la valeur par défaut des sept derniers jours. Vous pouvez également cliquer **sur Effacer tout pour afficher les résultats de toutes les activités** afin d’annuler toutes les activités sélectionnées.
 
-- Si 5 000 résultats sont trouvés, vous pouvez partir du principe que plus de 5 000 événements ont répondu aux critères de recherche. Vous pouvez affiner les critères de recherche et réexécuter la recherche pour renvoyer moins de résultats, ou exporter tous les résultats de recherche en sélectionnant **Exporter** les résultats  >  **Télécharger tous les résultats.**
+- Si 5 000 résultats sont trouvés, vous pouvez probablement supposer que plus de 5 000 événements ont répondu aux critères de recherche. Vous pouvez affiner les critères de recherche et réexécuter la recherche pour renvoyer moins de résultats, ou exporter tous les résultats de recherche en sélectionnant **Exporter** les résultats  >  **Télécharger tous les résultats.**
 
 Regardez cette [vidéo pour utiliser](https://www.youtube.com/embed/UBxaRySAxyE) la recherche dans le journal audio. Rejoignez Ansuman Acharya, un responsable de programme pour Teams, pour apprendre à effectuer une recherche dans le journal d’audit Teams.
 
@@ -87,13 +87,13 @@ Une fois que vous avez définie une stratégie de détection d’activité, elle
 
 L’un des scénarios que vous voudrez peut-être garder à l’œil, du point de vue de l’entreprise, est l’ajout d’utilisateurs externes à votre Teams personnel. Si les utilisateurs externes sont activés, il est bon de surveiller leur présence.  Vous pouvez utiliser des [Sécurité des applications cloud](/cloud-app-security/what-is-cloud-app-security) pour identifier les menaces potentielles.
 
-![Capture d’écran d’une liste d’événements déclenchés par des suppressions de masse](media/TeamsExternalUserAddPolicy.png)
+![Stratégie de surveillance de l’ajout d’utilisateurs externes](media/TeamsExternalUserAddPolicy.png)
 
 La capture d’écran de cette stratégie pour surveiller l’ajout d’utilisateurs externes vous permet de nommer la stratégie, de définir la gravité en fonction des besoins de votre entreprise, de la définir en tant qu’activité unique (dans ce cas), puis d’établir les paramètres qui surveilleront spécifiquement l’ajout d’utilisateurs non internes et limiteront cette activité à Teams.
 
 Les résultats de cette stratégie peuvent être vus dans le journal d’activité :
 
-![Capture d’écran d’une liste d’événements déclenchés par des suppressions de masse](media/TeamsExternalUserList.png)
+![Événements déclenchés par une stratégie d’utilisateurs externes](media/TeamsExternalUserList.png)
 
 Vous pouvez passer en revue les correspondances à la stratégie que vous avez définie et apporter les ajustements nécessaires, ou exporter les résultats pour les utiliser ailleurs.
 
@@ -101,15 +101,15 @@ Vous pouvez passer en revue les correspondances à la stratégie que vous avez d
 
 Comme mentionné précédemment, vous pouvez surveiller les scénarios de suppression. Il est possible de créer une stratégie qui surveille la suppression de masse de Teams sites. Dans cet exemple, une stratégie basée sur les alertes est définie pour détecter la suppression de masse des équipes sur une période de 30 minutes.
 
-![Capture d’écran de la page Créer une stratégie montrant la configuration d’une stratégie pour la détection de la suppression de masse des équipes](media/TeamsMassDeletePolicy.png)
+![Stratégie montrant la configuration d’une stratégie pour la détection de la suppression de masse des équipes](media/TeamsMassDeletePolicy.png)
 
 Comme le montre la capture d’écran, vous pouvez définir de nombreux paramètres différents pour cette stratégie afin de surveiller les suppressions d’Teams, notamment la gravité, les actions simples ou répétées et les paramètres limitant cette action à Teams et la suppression de site. Cette fonction peut être effectuée indépendamment d’un modèle, ou vous pouvez créer un modèle pour baser cette stratégie sur les besoins de votre organisation.
 
 Après avoir établi une stratégie qui fonctionne pour votre entreprise, vous pouvez examiner les résultats dans le journal d’activité à mesure que les événements sont déclenchés :
 
-![Capture d’écran d’une liste d’événements déclenchés par des suppressions de masse](media/TeamsMassDeleteList.png)
+![Événements de capture d’écran déclenchés par des suppressions de masse](media/TeamsMassDeleteList.png)
 
-Vous pouvez filtrer vers le bas jusqu’à la stratégie que vous avez définie pour voir ses résultats. Si les résultats que vous avez obtenus dans le journal d’activité ne sont pas satisfaisants (vous voyez peut-être un grand nombre de résultats ou rien du tout), cela peut vous aider à affiner la requête pour la rendre plus pertinente par rapport à ce que vous devez faire.
+Vous pouvez filtrer vers le bas jusqu’à la stratégie que vous avez définie pour voir ses résultats. Si les résultats que vous avez obtenus dans le journal d’activité ne sont pas satisfaisants (vous voyez peut-être un grand nombre de résultats ou rien du tout), cela peut vous aider à affiner la requête pour la rendre plus pertinente en rapport avec ce que vous avez besoin de faire.
 
 ### <a name="alert-and-governance-scenario"></a>Scénario d’alerte et de gouvernance
 
@@ -119,7 +119,7 @@ Vous pouvez définir des alertes et envoyer des courriers électroniques aux adm
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Utiliser Sécurité des applications cloud pour définir les stratégies de détection anormale
 
-[](/cloud-app-security/anomaly-detection-policy) Les stratégies de détection anormale dans Sécurité des applications cloud permettent à l’utilisateur et aux entités d’obtenir des données d’analyse de l’environnement informatique (UEBA) et de l’apprentissage automatique (ML), de sorte que vous pouvez exécuter immédiatement la détection avancée des menaces dans votre environnement cloud. Étant donné qu’elles sont activées automatiquement, les nouvelles stratégies de détection anormale fournissent des résultats immédiats en fournissant des détections immédiates, en ciblant de nombreuses relationurs au sein de vos utilisateurs, ainsi que les ordinateurs et appareils connectés à votre réseau. De plus, les nouvelles stratégies exposent davantage de données provenant du moteur de détection Sécurité des applications cloud pour vous aider à accélérer le processus d’examen et à contenir des menaces en cours.
+[](/cloud-app-security/anomaly-detection-policy) Les stratégies de détection anormale dans Sécurité des applications cloud permettent à l’utilisateur et aux entités d’obtenir des données d’analyse de l’environnement informatique (UEBA) et de l’apprentissage automatique (ML), de sorte que vous pouvez exécuter immédiatement la détection avancée des menaces dans votre environnement cloud. Étant donné qu’elles sont activées automatiquement, les nouvelles stratégies de détection des anormales fournissent des résultats immédiats en fournissant des détections immédiates, en ciblant de nombreuses relationurs au sein de vos utilisateurs et des ordinateurs et appareils connectés à votre réseau. De plus, les nouvelles stratégies exposent davantage de données provenant du moteur de détection Sécurité des applications cloud pour vous aider à accélérer le processus d’examen et à contenir des menaces en cours.
 
 Nous travaillons à l’intégration des événements Teams à des stratégies de détection anormale. Pour l’instant, vous pouvez définir des stratégies de détection anormales pour d’autres produits Office et prendre des mesures sur les utilisateurs qui correspondent à ces stratégies.
 
@@ -146,10 +146,10 @@ Voici une liste de tous les événements enregistrés pour les activités utilis
 |Équipe supprimée  |TeamDeleted            |Un propriétaire d’équipe supprime une équipe.      |
 |Message modifié avec un lien URL dans Teams     |MessageEditedHasLink         |Un utilisateur modifie un message et ajoute un lien d’URL vers ce message dans Teams.         |
 |Messages exportés <sup>1</sup> |   MessagesExported |Les messages de conversation ou de canal ont été exportés|.
-|Récupération de conversations <sup>1</sup> |ChatRetrieved  |Une Microsoft Teams conversation instantanée a été récupérée.|
+|Récupération d’une <sup>conversation 1</sup>  |ChatRetrieved  |Une Microsoft Teams conversation instantanée a été récupérée.|
 |Récupération de tout le contenu hébergé d’un message<sup>1</sup>    |MessageHostedContentsListed    |Tout le contenu hébergé dans un message, tel que les images ou les extraits de code, a été récupéré.|
 |Application installée |AppInstalled         |Une application a été installée.   |
-|Action effectuée sur la carte|PerformedCardAction|Un utilisateur a fait une action sur une carte adaptative dans une conversation. Les cartes adaptatives sont généralement utilisées par les bots pour permettre l’affichage enrichi des informations et des interactions dans les conversations. <br/><br/>**Remarque :** Seules les actions d’entrée en ligne sur une carte adaptative à l’intérieur d’une conversation seront disponibles dans le journal d’audit. Par exemple, lorsqu’un utilisateur envoie une réponse de sondage dans une conversation de canal sur une carte adaptative générée par un bot de sondage. Les actions de l’utilisateur, telles que « Afficher le résultat », qui ouvre une boîte de dialogue, ou les actions de l’utilisateur à l’intérieur de boîtes de dialogue ne seront pas disponibles dans le journal d’audit.|
+|Action effectuée sur la carte|PerformedCardAction|Un utilisateur a fait une action sur une carte adaptative dans une conversation. Les cartes adaptatives sont généralement utilisées par les bots pour permettre l’affichage enrichi des informations et des interactions dans les conversations. <br/><br/>**Remarque :** Seules les actions d’entrée en ligne sur une carte adaptative à l’intérieur d’une conversation seront disponibles dans le journal d’audit. Par exemple, lorsqu’un utilisateur envoie une réponse de sondage dans une conversation de canal sur une carte adaptative générée par un bot de sondage. Les actions de l’utilisateur telles que « Afficher le résultat », qui ouvre une boîte de dialogue, ou les actions de l’utilisateur à l’intérieur de boîtes de dialogue ne seront pas disponibles dans le journal d’audit.|
 |Publié un nouveau message <sup>1</sup>  |MessageSent un nouveau message a été publié dans une conversation ou un canal.|
 |Application publiée |AppPublishedToCatalog           |Une application a été ajoutée au catalogue.     |
 |Lire un message <sup>1</sup>    |MessageRead    |Le message d’une conversation ou d’un canal a été récupéré.|
@@ -221,6 +221,6 @@ Vous pouvez utiliser l’API Office 365 d’activité de gestion des données po
 
 Les changements d’appartenance à des Teams (par exemple, utilisateurs ajoutés ou supprimés) via Azure Active Directory (Azure AD), le portail d’administration Microsoft 365 ou l’API Graph Groups Microsoft 365 apparaissent dans les messages d’audit d’Teams et dans le canal Général avec une attribution à un propriétaire existant de l’équipe, et non au véritable initiateur de l’action. Dans ces scénarios, consultez les journaux d’audit d’Azure AD [Microsoft 365 des groupes](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) pour consulter les informations pertinentes.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Effectuer des recherches dans le journal d’audit dans la Centre de conformité Microsoft 365](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
