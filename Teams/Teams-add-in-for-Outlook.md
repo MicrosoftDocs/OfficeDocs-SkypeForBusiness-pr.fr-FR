@@ -19,15 +19,14 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5242d4b836f159484caf5575d23937ddaba97816
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: c37a87ba5ec1d06b6bc2441292989e52a3076ca5
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278537"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337823"
 ---
-<a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
-=======================================
+# <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 
 Le complément réunion Teams permet aux utilisateurs de planifier une réunion Teams à partir d’Outlook. Le complément est disponible pour Outlook sur Windows, Mac, web et mobile.
 
@@ -141,7 +140,7 @@ Si vous ne parvenez pas à obtenir le complément de la réunion Teams pour inst
 Vous pouvez également effectuer les étapes suivantes manuellement :
 
 - Les utilisateurs Windows 7 doivent installer la[mise à jour pour Universal Runtime C dans Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) pour le complément de réunion Teams afin de l’utiliser.
-- Vérifiez que l’utilisateur a une stratégie de mise à niveau Teams qui permet de planifier les réunions dans Teams. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
+- Vérifiez que l’utilisateur a une stratégie de mise à niveau Teams qui permet de planifier les réunions dans Teams. Pour plus d’informations, consultez [Effectuer la mise à niveau de Skype Entreprise vers Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Vérifiez que l’utilisateur a une stratégie de réunion Teams qui autorise le complément Outlook. Voir [Paramètres de la stratégie de réunion – Général](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in) pour plus de détails.
 - Assurez-vous que le client de bureau Teams est installé sur l’utilisateur. Le complément de réunion ne sera pas installé lorsque vous utiliserez uniquement le client web Teams.
 - Vérifiez que l’utilisateur dispose de l’installation d’Outlook 2013 ou version ultérieure.

@@ -1,5 +1,5 @@
 ---
-title: Activer le routage direct pour les utilisateurs
+title: Permettre aux utilisateurs d’obtenir un routage direct
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment permettre aux utilisateurs d Téléphone Microsoft routage direct du système.
-ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
-ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53129324"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345710"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale
 
@@ -53,7 +53,9 @@ Si votre déploiement Skype Entreprise Online coexiste avec Skype Entreprise 201
 
 Pour plus d’informations sur les conditions de licence, voir licences et [autres conditions requises](direct-routing-plan.md#licensing-and-other-requirements) dans [Planifier le routage direct.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>Vérifier que l’utilisateur est homed online (applicable Skype Entreprise Server Voix Entreprise utilisateurs en cours de migration vers Teams routage direct)
+## <a name="ensure-that-the-user-is-homed-online"></a>Vérifier que l’utilisateur est bien homed online 
+
+Cette étape s’applique aux Skype Entreprise Server Voix Entreprise en cours de migration vers Teams routage direct.
 
 Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com bureau d’enregistrement. Il est également recommandé, mais pas obligatoire, de modifier la gestion de l’uri lineURI de l’offre en local vers le web lors de la migration des utilisateurs vers Teams routage direct. 
 
@@ -126,7 +128,7 @@ Après avoir créé l’utilisateur et attribué une licence, l’étape suivant
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configuration de l’envoi d’appels directement sur la messagerie vocale
 
-Le routage direct vous permet de mettre fin à l’appel à un utilisateur et de l’envoyer directement à la messagerie vocale de l’utilisateur. Si vous voulez envoyer l’appel directement sur la messagerie vocale, joignez opaque=application:voicemail à l’en-tête URI de demande. Par exemple, « sip:user@yourdomain.com;opaque=app:voicemail ». Dans ce cas, l Teams de l’utilisateur ne reçoit pas la notification d’appel, l’appel est connecté directement à la messagerie vocale de l’utilisateur.
+Le routage direct vous permet de mettre fin à l’appel à un utilisateur et de l’envoyer directement à sa messagerie vocale. Si vous voulez envoyer l’appel directement sur la messagerie vocale, joignez opaque=application:voicemail à l’en-tête URI de demande. Par exemple, « sip:user@yourdomain.com;opaque=app:voicemail ». Dans ce cas, l Teams de l’utilisateur ne reçoit pas la notification d’appel, l’appel est connecté directement à la messagerie vocale de l’utilisateur.
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Affecter Teams mode uniquement aux utilisateurs pour s’assurer que les appels sont bien Microsoft Teams
 
