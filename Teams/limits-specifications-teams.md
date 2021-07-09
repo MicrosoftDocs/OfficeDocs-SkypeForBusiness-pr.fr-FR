@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 16713d115dafaac4667fcf8ca1b52624a3b95424
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: abff04e9fd51f0d7e399b8619442dbf9e3070c43
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275653"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345720"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -120,10 +120,14 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC, GCCH et DoD, mais pas A1 (300). **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).|
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC, GCCH et DoD, mais pas A1 (300). **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).<sup>1,2</sup>.|
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
+  
+<sup>1</sup> Pour une expérience optimale dans les grandes réunions, nous vous recommandons d’utiliser le client de bureau Teams ou les clients mobiles Teams.
+  
+<sup>2</sup> Dans les grandes réunions, nous recommandons aux présentateurs d’utiliser le client de bureau Teams. Pour obtenir des conseils supplémentaires sur l’hébergement de réunions volumineuses, consultez [Meilleures pratiques pour une réunion Teams de grande taille](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
   
 > [!NOTE]
 > Les salles de groupe restreint ne peuvent être créées que dans les réunions qui ont moins de 300 participants. En outre, la création de salles de groupe restreint dans une réunion limite automatiquement le nombre de participants à la réunion à 300. Informez vos utilisateurs finaux de ne pas lancer les salles de groupe restreint auxquelles ils attendent plus de 300 participants. Pour plus d’informations sur les grandes réunions d’équipe, partagez les conseils [Meilleures pratiques pour une réunion Teams volumineuse](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) avec vos utilisateurs finaux. 
