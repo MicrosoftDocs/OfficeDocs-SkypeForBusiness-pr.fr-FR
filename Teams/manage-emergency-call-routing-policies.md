@@ -1,7 +1,7 @@
 ---
-title: Gérer les stratégies de routage d’appel d’urgence
-author: cichur
-ms.author: v-cichur
+title: Gérer les stratégies de routage d’appel d’urgence pour le routage direct
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -21,14 +21,14 @@ description: Découvrez comment utiliser et gérer les stratégies de routage de
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096178"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354304"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gérer les stratégies de routage d’appel d’urgence Microsoft Teams
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Gérer les stratégies de routage d’appel d’urgence pour le routage direct
 
 Si vous avez [](direct-routing-landing-page.md) déployé Système téléphonique Routage direct dans votre organisation, vous pouvez utiliser les stratégies de routage des appels d’urgence dans Microsoft Teams pour configurer les numéros d’urgence et spécifier le routage des appels d’urgence. Une stratégie de routage d’appel d’urgence détermine si les services d’urgence améliorés sont activés pour les utilisateurs à qui la stratégie est affectée, les numéros utilisés pour appeler les services d’urgence (par exemple, le 112 en France) et la manière dont les appels vers les services d’urgence sont acheminés.
 
@@ -92,7 +92,7 @@ Cet exemple montre comment affecter une stratégie appelée Stratégie de routag
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer les stratégies d’appel d’urgence Teams](manage-emergency-calling-policies.md)
 

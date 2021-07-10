@@ -3,8 +3,8 @@ title: 'Démarrage rapide pour les administrateurs : réunions et évènements e
 ms.reviewer: ''
 description: Guide de démarrage rapide pour les administrateurs pour obtenir des licences pour, déployer et configurer des réunions en ligne et des événements en direct dans Microsoft Teams.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 03611f2d166883ce960e272e2f3b11300cd20c54
+ms.sourcegitcommit: 616b6d0d5be2b333519b79ab59a4117036ba647e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517737"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363579"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams
 
@@ -42,15 +42,9 @@ Deux méthodes s’offrent à vous pour rencontrer Microsoft Teams : réunions e
 
 Tout le monde peut participer à une réunion Teams ou à un événement en direct public pour le cas où aucune licence n’est requise. Les participants joignent une réunion Teams ou un événement en direct en cliquant sur le bouton **Participer** dans Teams ou l’invitation à une réunion. L’audio de la réunion fait partie d’une réunion Teams, mais si vous voulez que les utilisateurs puissent se connecter à une réunion par téléphone, vous devez fournir un numéro de connexion.
 
-Pour les personnes qui organisent, planifient et hébergent des réunions ou des événements en direct, ils ont besoin d’une des licences Microsoft 365 ou Office 365 répertoriées dans le tableau ci-dessous. Si vous utilisez déjà Teams, vous disposez probablement de la licence dont vous avez besoin pour organiser et héberger des réunions et des événements en direct.
+Pour les personnes qui organisent, planifient et hébergent des réunions ou des événements en direct, elles ont besoin de l’un des plans de licence décrits dans la [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description). 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tableau des licences requises pour les réunions ou événements en direct Teams":::
-
-> <sup>1</sup>  Les organisateurs de réunions doivent disposer d’une [Licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) pour envoyer une invitation incluant la conférence rendez-vous.
->
-> <sup>2</sup>  L’appel sortant de réunion vers la fonctionnalité [**M’appeler** au numéro](set-up-the-call-me-feature-for-your-users.md) exige des organisateurs qu’ils disposent de E5 ou d’une [licence de composant additionnel pour l’audioconférence](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Un [plan de numérotation](what-are-dial-plans.md) peut également être nécessaire.
-
-Pour en savoir plus sur les licences, lisez [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).
+Si vous êtes déjà un utilisateur de Teams, vous disposez probablement de la licence nécessaire pour organiser et héberger des réunions et des événements en direct.
 
 ## <a name="make-sure-your-networks-ready"></a>Veillez à ce que le réseau soit prêt
 

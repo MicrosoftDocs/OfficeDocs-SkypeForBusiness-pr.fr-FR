@@ -1,5 +1,5 @@
 ---
-title: Permettre aux utilisateurs d’obtenir un routage direct
+title: Activer le routage direct pour les utilisateurs
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,18 +16,18 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment permettre aux utilisateurs d Téléphone Microsoft routage direct du système.
-ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345710"
+ms.locfileid: "53354294"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale
 
 Cet article explique comment permettre aux utilisateurs d’obtenir Système téléphonique routage direct.  Voici l’étape 2 de la procédure de configuration du routage direct :
 
-- Étape 1. [Connecter SBC avec votre système Téléphone Microsoft données et valider la connexion](direct-routing-connect-the-sbc.md) 
+- Étape 1. [Connecter SBC avec Téléphone Microsoft et valider la connexion](direct-routing-connect-the-sbc.md) 
 - **Étape 2. Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale**   (cet article)
 - Étape 3. [Configurer le routage vocal](direct-routing-voice-routing.md)
 - Étape 4. [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md) 
@@ -37,7 +37,7 @@ Pour plus d’informations sur les étapes requises pour configurer le routage d
 
 Lorsque vous êtes prêt à activer le routage direct pour les utilisateurs, suivez ces étapes : 
 
-1. Créez un utilisateur dans Microsoft 365 ou Office 365 et attribuez une licence Système téléphonique utilisateur. 
+1. Créez un utilisateur dans Microsoft 365 ou Office 365 et affectez une licence Système téléphonique utilisateur. 
 2. Assurez-vous que l’utilisateur est bien familialement Skype Entreprise Online. 
 3. Configurez le numéro de téléphone et activez la voix entreprise et la messagerie vocale. 
 4. Affectez Teams mode uniquement aux utilisateurs.
@@ -53,11 +53,11 @@ Si votre déploiement Skype Entreprise Online coexiste avec Skype Entreprise 201
 
 Pour plus d’informations sur les conditions de licence, voir licences et [autres conditions requises](direct-routing-plan.md#licensing-and-other-requirements) dans [Planifier le routage direct.](direct-routing-plan.md)
 
-## <a name="ensure-that-the-user-is-homed-online"></a>Vérifier que l’utilisateur est bien homed online 
+## <a name="ensure-that-the-user-is-homed-online"></a>Vérifier que l’utilisateur est bien familialement en ligne 
 
 Cette étape s’applique aux Skype Entreprise Server Voix Entreprise en cours de migration vers Teams routage direct.
 
-Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans le domaine infra.lync.com bureau d’enregistrement. Il est également recommandé, mais pas obligatoire, de modifier la gestion de l’uri lineURI de l’offre en local vers le web lors de la migration des utilisateurs vers Teams routage direct. 
+Le routage direct nécessite que l’utilisateur soit domicile en ligne. Vous pouvez vérifier le paramètre RegistrarPool, qui doit avoir une valeur dans infra.lync.com domaine. Il est également recommandé, mais pas obligatoire, de modifier la gestion de l’uri lineURI de l’offre en local vers le web lors de la migration des utilisateurs vers Teams routage direct. 
 
 1. Connecter une session Skype Entreprise PowerShell online.
 
@@ -126,9 +126,9 @@ Après avoir créé l’utilisateur et attribué une licence, l’étape suivant
     > Si le numéro de téléphone de l’utilisateur est géré en local, utilisez l’shell de gestion Skype Entreprise local ou le Panneau de configuration pour configurer le numéro de téléphone de l’utilisateur. 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configuration de l’envoi d’appels directement sur la messagerie vocale
+## <a name="configure-sending-calls-directly-to-voicemail"></a>Configurer l’envoi d’appels directement sur la messagerie vocale
 
-Le routage direct vous permet de mettre fin à l’appel à un utilisateur et de l’envoyer directement à sa messagerie vocale. Si vous voulez envoyer l’appel directement sur la messagerie vocale, joignez opaque=application:voicemail à l’en-tête URI de demande. Par exemple, « sip:user@yourdomain.com;opaque=app:voicemail ». Dans ce cas, l Teams de l’utilisateur ne reçoit pas la notification d’appel, l’appel est connecté directement à la messagerie vocale de l’utilisateur.
+Le routage direct vous permet de mettre fin à l’appel à un utilisateur et de l’envoyer directement à la messagerie vocale de l’utilisateur. Si vous voulez envoyer l’appel directement sur la messagerie vocale, joignez opaque=application:voicemail à l’en-tête URI de demande. Par exemple, « sip:user@yourdomain.com;opaque=app:voicemail ». Dans ce cas, l Teams de l’utilisateur ne reçoit pas la notification d’appel, l’appel est connecté directement à la messagerie vocale de l’utilisateur.
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Affecter Teams mode uniquement aux utilisateurs pour s’assurer que les appels sont bien Microsoft Teams
 

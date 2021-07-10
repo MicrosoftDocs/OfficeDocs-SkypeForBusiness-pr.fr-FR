@@ -587,6 +587,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: Supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs
                     href: meeting-policies-restricted-anonymous-access.md
+          - name: Stratégies de réunion et expiration de la réunion
+            href: meeting-expiration.md
           - name: Gérer les paramètres de réunions
             href: meeting-settings-in-teams.md
           - name: Messages électroniques envoyés aux utilisateurs lors de la modification de leurs paramètres
