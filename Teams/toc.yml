@@ -1558,6 +1558,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaction de SharePoint Online et OneDrive Entreprise avec Microsoft Teams
             href: sharepoint-onedrive-interact.md
+          - name: Expérience Teams dans une location compatible avec Multi-Geo Microsoft 365 ou Office 365
+            href: teams-experience-o365odb-spo-multi-geo.md
       - name: Appareils pris en charge
         items:
           - name: Gérer vos périphériques dans Teams
