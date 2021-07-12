@@ -82,8 +82,8 @@ Voici une illustration du rapport.
          > [!NOTE]
          > Les appels transférés vers un utilisateur à partir de l’application de lauc, telle qu’un attendant automatique ou une file d’attente d’appels, ne s’affichent pas dans le rapport d’utilisation PSTN, car ces appels sont des appels audio d’égal à égal (P2P). Vous pouvez accéder aux appels P2P dans le Centre d’administration Skype Entreprise sous « Outils d’analyse des appels > Skype Entreprise » et effectuer une recherche par nom d’utilisateur ou adresse SIP en corrélant l’appel par date/heure et/ou en provenance de la CLID (calling line ID). 
 
-     **Nationaux/Internationaux** vous indique si l’appel qui a été placé était considéré comme national (dans un pays ou une région) ou international (en dehors d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur. 
-*    **L’appel de** destination est le nom de la destination du pays/de la région dialed (Par exemple, France, Allemagne ou États-Unis). 
+     **Nationaux/Internationaux** vous indique si l’appel placé a été considéré comme national (dans un pays ou une région) ou international (en dehors d’un pays ou d’une région) en fonction de l’emplacement de l’utilisateur. 
+*    **L’appel de** destination est le nom de la destination du pays/de la région composé, par exemple, la France, l’Allemagne ou les États-Unis. 
 *    **Le type de** numéro de téléphone est le type de numéro de téléphone provenant du numéro de téléphone d’un utilisateur, d’un service ou d’un numéro gratuit.  
 *    **Heure de début (UTC)** est l'heure à laquelle l'appel a commencé. 
 *    **Durée** indique le temps de connexion de l'appel.  
@@ -118,7 +118,7 @@ Cela exportera les données de tous les utilisateurs et vous permettra de trier 
 
 Le processus d’exportation peut prendre de quelques secondes à plusieurs minutes, selon la quantité de données. Une fois l’exportation terminée par le serveur, vous recevrez un fichier zip nommé «**Calls.Export.[ `identifier` ] .zip**« , l’identificateur étant un ID unique pour l’exportation, qui peut être utilisé pour résoudre des problèmes.
 
-Si vous avez à la fois des plans d’appels et un routage direct, le fichier exporté peut contenir des données pour les deux produits. Le fichier du rapport d’utilisation PSTN aura le nom de fichier **« PSTN.calls.[ `UTC date` ] .csv**« . En plus des fichiers RSTN et du routage direct, l’archive contient le fichier «parameters.json **»,** avec l’plage et les fonctionnalités d’exportation sélectionnées (le cascher).
+Si vous avez à la fois des plans d’appels et un routage direct, le fichier exporté peut contenir des données pour les deux produits. Le fichier du rapport d’utilisation PSTN aura le nom de fichier **« PSTN.calls.[ `UTC date` ] .csv**» En plus des fichiers RSTN et du routage direct, l’archive contient le fichier «parameters.json **»,** avec l’plage et les fonctionnalités d’exportation sélectionnées (le cascher).
 
 Le fichier exporté est un fichier de valeurs séparées par des virgules (CSV), conforme à la norme [RFC 4180.](https://tools.ietf.org/html/rfc4180) Le fichier peut être ouvert en même temps que Excel’éditeur conforme aux normes sans nécessiter de transformation.
 
@@ -167,11 +167,11 @@ Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans 
     
 - [Skype Entreprise les utilisateurs bloqués](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués et ne peuvent plus effectuer d’appels PSTN.
 
-- [Skype Entreprise des pools de minutes PSTN](pstn-minute-pools-report.md) vous indiquent le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
+- Skype Entreprise des pools de [minutes PSTN](pstn-minute-pools-report.md) vous indiquent le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   
