@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Les administrateurs peuvent en savoir plus sur les contrôleurs de session en bordure certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e06b3eeeec6f5e383f6fd4aaafcb1f034dd43338
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 97a3c69f6fee5b14e5c2252b51b9b17d8a810799
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230571"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388659"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -32,7 +32,7 @@ Microsoft établit des partenariats avec certains fournisseurs de contrôleurs S
 Microsoft collabore avec chaque fournisseur pour :
 
 - Travaillez conjointement sur les protocoles d’interconnexion SIP.
-- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les périphériques qui ont réussi les tests sont certifiés.
+- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les appareils qui ont réussi les tests sont certifiés.
 - Exécutez des tests quotidiens avec tous les périphériques certifiés dans les environnements de production et de pré-production. La validation des périphériques en préproduction permet de s'assurer que les nouvelles versions de code de routage direct dans le cloud fonctionneront avec les SBC certifiés.
 - Établissez un processus de support conjointe avec les fournisseurs SBC.
 
@@ -74,8 +74,8 @@ Si vous avez des questions concernant le programme de certification SBC pour le 
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Prise en charge 3.20 (recommandé 4.0)        |  &#10004;    |  &#10004;   |    
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 pour contournement média)      |     |    |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour les routeurs des services intégrés des séries 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |   |  
-|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs De services intégrés de série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |   &#10004;      |    |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés des séries 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |   |  
+|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés de série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |   &#10004;      |    |  
 |                                   |     Cisco Unified Border Element (CUBE) pour routeur Cloud Services de série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |    |  
 |                                 |     Cisco Unified Border Element (CUBE) pour les routeurs Aggregation Services de série 1000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) pour Les plateformes Edge de Cisco 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    &#10004;     |    |
@@ -90,6 +90,7 @@ Si vous avez des questions concernant le programme de certification SBC pour le 
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
+|                     [M5 Technologies (anciennement Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel Series   |     &#10004;     |         |      DGW 48.0.2340 (DGW recommandé 48.1.2503)      |     |    |
 
 <br/>
 * 911 fournisseurs de services

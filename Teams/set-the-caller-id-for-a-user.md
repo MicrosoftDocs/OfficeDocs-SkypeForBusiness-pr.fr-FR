@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur Microsoft 365 et Office 365'ID d’appelant par défaut (le numéro de téléphone affecté d’un utilisateur), également appelé ID de ligne d’appel. Vous pouvez modifier ou bloquer l’ID d’appelant d’un utilisateur.
-ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230601"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388649"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Définir l'ID d'appelant d'un utilisateur
 
@@ -35,11 +35,11 @@ Système téléphonique dans Microsoft 365 fournit un ID d’appelant par défau
   
 Par défaut, les paramètres d’ID d’appelant suivants **sont désactivés.** Cela signifie que le Teams de téléphone de l’utilisateur peut être vu quand cet utilisateur appelle un téléphone PSTN. Vous pouvez modifier ces paramètres comme suit :
   
-- **ID de l’appelant sortant** Vous pouvez remplacer l’ID d’appelant d’un utilisateur, qui est son numéro de téléphone par défaut, par un autre numéro de téléphone. Par exemple, vous pouvez redéfinir l'ID d'appelant de l'utilisateur constitué par son numéro de téléphone sur un numéro de téléphone principal de votre entreprise ou redéfinir son ID de ligne d'appel constitué par son numéro de téléphone sur un numéro de téléphone principal du service juridique. Vous pouvez modifier le numéro d’ID d’appel en n’importe quel numéro de service en ligne (gratuit ou gratuit). Vous pouvez également changer le numéro d’ID d’appel en numéro de téléphone local via un routage direct affecté à un compte de ressource utilisé par une Standard automatique ou une file d’attente d’appels.
+- **ID de l’appelant sortant** Vous pouvez remplacer l’ID d’appelant d’un utilisateur, qui est son numéro de téléphone par défaut, par un autre numéro de téléphone. Par exemple, vous pouvez modifier l’ID d’appelant de l’utilisateur de son numéro de téléphone en numéro de téléphone principal de votre entreprise ou en numéro de téléphone principal du service juridique. En outre, vous pouvez définir le numéro d’ID d’appel sur n’importe quel numéro de service en ligne (gratuit ou gratuit) ou sur un numéro de téléphone local via un routage direct affecté à un compte de ressource utilisé par une Standard automatique ou une file d’attente d’appels.
     
   > [!NOTE]
   > Si vous souhaitez utiliser le paramètre *Service,* vous devez spécifier un numéro de service valide.
-  > Vous devez utiliser les cmdlets PowerShell pour le numéro de compte de la ressource si cette valeur n’est pas visible dans la ligne du bas.
+  > Si ce n’est pas le cas, vous devez utiliser les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity du module Teams PowerShell 2.3.1 ou une date ultérieure.
   
 - **Bloquer l’ID d’appelant sortant** Vous pouvez empêcher l’ID d’appelant sortant d’être envoyé lors des appels RSTN sortants d’un utilisateur. Ce faisant, vous empêchez son numéro de téléphone d'être affiché sur le téléphone d'une personne contactée.
     
@@ -57,7 +57,7 @@ Pour en savoir plus sur ces paramètres et sur leur utilisation, consultez comme
 ## <a name="set-your-caller-id-policy-settings"></a>Définir vos paramètres de stratégie d'ID d'appelant
 
 > [!NOTE]
-> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Centre Microsoft Teams’administration.) 
+> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Microsoft Teams d’administration.) 
 
 Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes :
 
@@ -90,7 +90,7 @@ Connect-MicrosoftTeams -Credential $credential
 3. Appliquez la nouvelle stratégie que vous avez créée à l’aide Grant-CsCallingIdentity cmdlet. Par exemple, l’exemple suivant applique la nouvelle stratégie à l’utilisateur Amos Marble.
     
      ```PowerShell
-      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
    Pour plus d’informations, [voir la cmdlet Grant-CsCallingLineIdentity.](/powershell/module/skype/Grant-CsCallingLineIdentity)
     
