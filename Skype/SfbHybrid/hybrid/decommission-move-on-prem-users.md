@@ -16,13 +16,13 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Déplacez les utilisateurs avant de désaffecter un environnement Skype Entreprise local.
-ms.openlocfilehash: f04ebeec51b739faa89f907de6c363f0ef70a78e
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+description: Déplacez les utilisateurs avant de désaffecter Skype Entreprise environnement local.
+ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656670"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420809"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Déplacer les utilisateurs requis avant de désaffecter votre environnement local
 
@@ -30,33 +30,33 @@ Cet article explique comment déplacer les utilisateurs requis vers le cloud Mic
 
 - **Étape 1. Déplacez tous les utilisateurs requis de l’local vers le site en ligne.** (Cet article)
 
-- Étape 2. [Désactivez votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
+- Étape 2. [Désactivez votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
 
-- Étape 3. [Déplacez les points de terminaison de l’application hybride de l’local vers le mode en ligne.](decommission-move-on-prem-endpoints.md)
+- Étape 3. [Migrez les points de terminaison de l’application hybride de l’local vers le mode en ligne.](decommission-move-on-prem-endpoints.md) N’ignorez pas que les points de terminaison d’applications hybrides existants ne seront pas découvrables entre le moment où vous effectuez l’étape 2 ci-dessus, jusqu’à ce que vous complétiez cette étape. Vous devez planifier les deux étapes 2 et 3 dans la même fenêtre de maintenance.
 
-- Étape 4. [Supprimez votre déploiement Skype Entreprise local.](decommission-remove-on-prem.md)
+- Étape 4. [Supprimez votre déploiement Skype Entreprise local.](decommission-remove-on-prem.md)
 
 
 ## <a name="move-all-required-users-from-on-premises-to-the-cloud"></a>Déplacer tous les utilisateurs requis de l’local vers le cloud
 
 Tous les utilisateurs que vous continuerez à utiliser après avoir effectué la migration doivent d’abord être déplacés de l’local vers le cloud. Vous déplacez les utilisateurs à l’aide des outils d’administration locaux. Pour plus d’informations, voir [Move users between on-premises and cloud](move-users-between-on-premises-and-cloud.md).
 
-Bien qu’il soit possible pour les utilisateurs ayant des comptes Skype Entreprise Server locaux d’utiliser Teams, ces utilisateurs n’ont pas toutes les fonctionnalités de Teams. Ces utilisateurs ne peuvent pas interopérer ou fédérer avec d’autres utilisateurs qui utilisent encore Skype Entreprise (en ligne ou en local). Ces utilisateurs ne peuvent pas non plus recevoir d’appels PSTN dans leur client Teams. Par conséquent, vous devez déplacer ces utilisateurs en ligne. Cette étape garantit également que tous les contacts ou réunions créés dans Skype Entreprise Server sont migrés vers Teams.
+Bien qu’il soit possible pour les utilisateurs ayant des comptes Skype Entreprise Server locaux d’utiliser Teams, ces utilisateurs n’ont pas toutes les fonctionnalités de Teams. Ces utilisateurs ne peuvent pas interopérer ou fédérer avec d’autres utilisateurs qui utilisent encore Skype Entreprise (en ligne ou en local). Ces utilisateurs ne peuvent pas non plus recevoir d’appels PSTN dans leur client Teams client. Par conséquent, vous devez déplacer ces utilisateurs en ligne. Cette étape garantit également que les contacts ou réunions créés dans Skype Entreprise Server sont migrés vers Teams.
 
-Pour vérifier s’il reste des utilisateurs dans votre déploiement local, exécutez l’cmdlet suivante dans une fenêtre PowerShell Skype Entreprise Server.
+Pour vérifier s’il reste des utilisateurs dans votre déploiement local, exécutez l’cmdlet suivante dans Skype Entreprise Server fenêtre PowerShell.
 
 ```PowerShell
 Get-CsUser -Filter { HostingProvider -eq "SRV:"}
 ```
 
-Si des utilisateurs sont renvoyés, examinez la sortie pour déterminer si des comptes doivent être déplacés vers le cloud et, pour ces utilisateurs, suivez les étapes [ci-après.](move-users-between-on-premises-and-cloud.md) Pour les comptes d’utilisateurs qui ne sont plus nécessaires, exécutez l’cmdlet PowerShell Skype Entreprise Server suivante :
+Si des utilisateurs sont renvoyés, examinez la sortie pour déterminer si des comptes doivent être déplacés vers le cloud et, pour ces utilisateurs, suivez les étapes [ci-après.](move-users-between-on-premises-and-cloud.md) Pour les comptes d’utilisateurs qui ne sont plus nécessaires, exécutez l’Skype Entreprise Server cmdlet PowerShell suivante :
 
 ```PowerShell
 Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 ```
 
 > [!NOTE]
-> L'Disable-CsUser supprimera tous les attributs Skype Entreprise pour tous les utilisateurs qui ont les critères de filtre. Avant de continuer, confirmez que ces comptes ne sont plus nécessaires à l’avenir.
+> L'Disable-CsUser supprimera tous les attributs Skype Entreprise de tous les utilisateurs qui ont les critères de filtre. Avant de continuer, confirmez que ces comptes ne sont plus nécessaires à l’avenir.
 
 
 Vous êtes maintenant prêt à [désactiver votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
