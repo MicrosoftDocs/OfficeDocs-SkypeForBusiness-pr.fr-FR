@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230551"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408753"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 
@@ -69,7 +69,7 @@ Les utilisateurs doivent être autorisés à s’inscrire aux applications et au
 
 Les utilisateurs inéligibles sont les utilisateurs qui :
 
-- disposent ou ont disposé de Teams grâce à une licence payée, non payée ou d’évaluation ;
+- Disposez actuellement de Teams à partir d’une licence payante ou d’une licence d’évaluation, ou d’une licence d’évaluation antérieure
 - se trouvent dans un client qui utilise ou a reçu au moins une offre spéciale COVID.
 
 Votre organisation n’est pas éligible pour cette offre si vous êtes un client partenaire de syndication ou un client GCC, GCC élevé, DoD ou EDU.

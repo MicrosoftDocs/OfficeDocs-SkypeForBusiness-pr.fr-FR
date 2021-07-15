@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420849"
+ms.locfileid: "53428200"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -111,6 +111,9 @@ Les clients suivants sont pris en charge lors de l’utilisation d Teams pour le
 
   - Microsoft Teams Windows client
   - Client Microsoft Teams pour Mac
+
+> [!NOTE]
+> Si vous utilisez cette option, l’utilisation de la file d’attente d’appels peut prendre jusqu’à 24 heures.
 
 ##### <a name="users-and-groups"></a>Utilisateurs et groupes
 

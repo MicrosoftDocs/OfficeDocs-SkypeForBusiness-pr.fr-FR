@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e37efe19e5256d4722cca54f128e8131e24a116
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 677f642bdb940706079370635a5aa9eec87241fb
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282471"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437631"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>Outils pour la mise à niveau vers Teams &mdash; administrateurs informatiques
 
@@ -41,15 +41,11 @@ Quelle que soit la méthode de mise à niveau que vous choisissez, pour les util
 > [!NOTE]
 > Si vous utilisez actuellement Skype Entreprise Online Connector pour gérer vos services, vous devez passer au module Teams PowerShell et mettre à jour vos scripts PowerShell existants. Pour [plus d’Skype Entreprise, voir Déplacer du connecteur en ligne vers Teams module PowerShell.](teams-powershell-move-from-sfbo.md)
 
-Que vous effectuez une transition de fonctionnalités sélectionnées en utilisant les modes Skype Entreprise ou que vous passiez simplement à la mise à niveau vers le mode TeamsOnly à partir de la configuration îles par défaut, TeamsUpgradePolicy est l’outil principal pour les utilisateurs qui ont déjà Skype Entreprise Online. Comme toute autre stratégie Teams, vous pouvez affecter TeamsUpgradePolicy directement à un utilisateur. Vous pouvez également définir la stratégie comme stratégie par défaut à l’échelle du client. Toute affectation à un utilisateur est prioritaire sur le paramètre par défaut du client.  Vous pouvez gérer la stratégie dans la console d’administration Teams et dans PowerShell.
+Que vous effectuez une transition de fonctionnalités sélectionnées à l’aide des modes Skype Entreprise ou que vous passiez simplement à niveau vers le mode TeamsOnly à partir de la configuration îles par défaut, TeamsUpgradePolicy est l’outil principal. Comme toute autre stratégie Teams, vous pouvez affecter TeamsUpgradePolicy directement à un utilisateur. Vous pouvez également définir la stratégie comme stratégie par défaut à l’échelle du client. Toute affectation à un utilisateur est prioritaire sur le paramètre par défaut du client.  Vous pouvez gérer la stratégie dans la console d’administration Teams et dans PowerShell.
 
-Vous pouvez également affecter n’importe quel mode de TeamsUpgradePolicy, à l’exception du mode TeamsOnly, aux utilisateurs Skype Entreprise sur site. **Le mode TeamsOnly ne peut être affecté** qu’à un utilisateur déjà homed dans Skype Entreprise Online. Cela est dû au fait qu’interoper avec les utilisateurs Skype Entreprise et la fédération et les fonctionnalités de Microsoft 365 Système téléphonique ne sont possibles que si l’utilisateur est dopé à Skype Entreprise Online. En outre, vous ne pouvez pas attribuer le **mode TeamsOnly** comme mode par défaut à l’échelle du client si vous avez un déploiement Skype Entreprise local (détecté par la présence d’un enregistrement DNS lyncdiscover qui pointe vers un emplacement autre que Office 365).
+Vous pouvez affecter n’importe quel mode de TeamsUpgradePolicy, à l’exception du mode TeamsOnly, aux utilisateurs Skype Entreprise sur site. À l’inverse, seul le mode TeamsOnly peut être attribué aux utilisateurs homed in the cloud. Le **mode TeamsOnly** ne peut être affecté qu’à un utilisateur qui est déjà dopé dans le cloud, car interop et la fédération avec des utilisateurs Skype Entreprise ainsi que des fonctionnalités de Microsoft 365 Système téléphonique ne sont possibles que si l’utilisateur est doté sur Skype Entreprise Online.  En outre, vous ne pouvez pas attribuer le **mode TeamsOnly** comme mode par défaut à l’échelle du client si vous avez un déploiement Skype Entreprise local (détecté par la présence d’un enregistrement DNS lyncdiscover qui pointe vers un emplacement autre que Office 365). Pour plus d’informations, voir Désactiver votre configuration hybride pour achever la [migration vers Teams uniquement.](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-Les utilisateurs qui Skype Entreprise des comptes locaux doivent être déplacés en ligne [(vers](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) Skype Entreprise Online ou directement vers Teams) à l’aide de Move-CsUser dans le jeu d’outils Skype Entreprise local. Ces utilisateurs peuvent être déplacés vers TeamsOnly en 1 ou 2 étapes :
-
--   1 étape : spécifier le commutateur -MoveToTeams dans Move-CsUser. Pour ce faire, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015 avec CU8 ou une date ultérieure.
-
--   2 étapes : Après avoir exécutez Move-CsUser, accordez le mode TeamsOnly à l’utilisateur utilisant TeamsUpgradePolicy.
+Les utilisateurs Skype Entreprise comptes locaux doivent être [](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) déplacés en ligne vers le mode Teams Uniquement à l’aide de Move-CsUser dans le jeu d’outils Skype Entreprise local. 
 
 Contrairement à d’autres stratégies, il n’est pas possible de créer de nouvelles instances de TeamsUpgradePolicy Microsoft 365 ou Office 365. Toutes les instances existantes sont intégrées au service.  (Notez que le mode est une propriété dans TeamsUpgradePolicy, plutôt que le nom d’une instance de stratégie.) Dans certains cas, mais pas tous, le nom de l’instance de stratégie est identique à celui du mode. En particulier, pour affecter le mode TeamsOnly à un utilisateur, vous accordez l’instance « UpgradeToTeams » de TeamsUpgradePolicy à cet utilisateur. Pour voir la liste de toutes les instances, vous pouvez exécuter la commande suivante :
 
@@ -66,7 +62,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $user
 Pour mettre à niveau un utilisateur Skype Entreprise site vers le mode TeamsOnly, utilisez Move-CsUser dans le jeu d’outils local :
 
 ```PowerShell
-Move-CsUser -identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred
+Move-CsUser -identity $user -Target sipfed.online.lync.com -credential $cred
 ```
 
 Pour modifier le mode pour tous les utilisateurs du client, à l’exception de ceux qui ont une autorisation explicite par utilisateur (qui prend la priorité), exécutez la commande suivante :
@@ -77,7 +73,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->Si vous avez des utilisateurs Skype Entreprise comptes locaux, vous ne pouvez pas affecter le mode TeamsOnly au niveau du client. Vous devez déplacer ces utilisateurs individuellement vers le cloud à l’aide de Move-CsUser.
+>Si vous avez des utilisateurs Skype Entreprise comptes locaux, vous ne pouvez pas affecter le mode TeamsOnly au niveau du client. Vous devez déplacer ces utilisateurs individuellement vers Teams mode Uniquement à l’aide de Move-CsUser.
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>Utilisation des notifications dans Skype Entreprise clients

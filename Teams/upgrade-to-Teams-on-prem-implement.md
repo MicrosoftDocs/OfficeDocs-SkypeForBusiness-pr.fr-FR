@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: f11d14bc7bf302a864afe3062ef8f2bb8eccd7da
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306038"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437641"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Stratégies de mise à niveau pour les administrateurs informatiques
 
@@ -41,7 +41,7 @@ Avant d’implémenter votre mise à niveau, nous vous recommandons les articles
 Cette section explique comment implémenter votre mise à niveau à l’aide de l’une des options de mise à niveau suivantes :
 
 - [Mise à niveau des fonctionnalités superposées (à l’aide du mode Îles)](#overlapping-capabilities-upgrade-using-islands-mode)
-- [Mise à niveau des fonctionnalités de sélection pour une organisation qui n’a pas encore commencé à utiliser Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
+- [Mise à niveau des fonctionnalités sélectionnées pour une organisation qui n’a pas encore commencé à utiliser Teams](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
 - [Mise à niveau des fonctionnalités sélectionnées pour une organisation qui utilise déjà Teams en mode Îles](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)
 
 Si vous avez besoin d’informations supplémentaires sur les options, assurez-vous que vous avez déjà lu Choisir votre chemin de mise à niveau [d’Skype Entreprise à Teams.](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
@@ -86,12 +86,10 @@ Voici les principales commandes :
 Remarques
  
 - Au lieu de définir la stratégie à l’échelle du client sur SfbWithTeamsCollab, vous pouvez la définir sur SfbWithTeamsCollabAndMeetings. Ainsi, tous les utilisateurs peuvent planifier toutes les nouvelles réunions dans Teams.
-- `Move-CsUser` est une cmdlet dans les outils locaux. Le `MoveToTeams` basculement Skype Entreprise Server 2019 ou Skype Entreprise Server 2015 avec CU8 ou une date ultérieure. Si vous utilisez une version antérieure, vous pouvez d’abord déplacer l’utilisateur vers Skype Entreprise Online, puis lui octroyer le mode TeamsOnly.
 - Par défaut, Skype Entreprise réunions sont migrées vers Teams lors de la mise à niveau vers le mode TeamsOnly ou lors de l’affectation du mode SfbWithTeamsCollabAndMeetings.  
 
 > [!NOTE]
-> En vue de la prochaine mise à l’Skype Entreprise Online, Microsoft simplifiera la façon dont les organisations passeront à Teams à l’avenir. Lors du déplacement d’un utilisateur du site vers Teams, il n’est bientôt plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement du site vers `-MoveToTeams` `Move-CsUser` TeamsOnly. Si ce commutateur n’est pas spécifié, les utilisateurs passeront de l’domicile à Skype Entreprise Server local à Skype Entreprise Online et leur mode reste inchangé. Après la retraite, lors du déplacement d’un utilisateur du cloud local vers le cloud, les utilisateurs sont automatiquement affectés au mode TeamsOnly et leurs réunions à partir du site sont converties automatiquement en réunions Teams, comme si le commutateur était spécifié ou `Move-CsUser` `-MoveToTeams switch had been specified` non. Cette fonctionnalité devrait être publiée avant le retrait effectif du 31 juillet 2021.
-
+> En préparation de la mise à l’abandon prochaine d Skype Entreprise Online, Microsoft a simplifié la façon dont les organisations passeront à l’Teams. Il n’est plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement du site `-MoveToTeams` `Move-CsUser` directement vers TeamsOnly. Auparavant, si ce commutateur n’était pas spécifié, les utilisateurs passaient de l’domicile des utilisateurs à Skype Entreprise Server en local vers Skype Entreprise Online, et leur mode restait inchangé. Désormais, lors du déplacement d’un utilisateur du cloud local vers le cloud, les utilisateurs sont automatiquement affectés au mode TeamsOnly et leurs réunions à partir du site sont automatiquement converties en réunions Teams de façon automatique, comme si le commutateur était spécifié ou `Move-CsUser` `-MoveToTeams switch had been specified` non. Ce comportement est disponible sur toutes les versions de Skype Entreprise Server et Lync Server 2013 (qui n’ont jamais été pris en `-MoveToTeams` charge).
 
 Le diagramme ci-dessous montre les phases conceptuelles de la mise à niveau des fonctionnalités de sélection pour une organisation sans utilisation préalable d’Teams. La hauteur des barres représente le nombre d’utilisateurs. Pendant toute phase de la mise à niveau, tous les utilisateurs peuvent communiquer entre eux.  Skype Entreprise communiquent avec les utilisateurs de TeamsOnly à l’aide d’Interop, et inversement. Les utilisateurs en mode Îles doivent s’assurer d’exécuter les deux clients.
 
@@ -104,7 +102,7 @@ Si certains utilisateurs de votre organisation utilisent activement Teams en mod
 
 1. Recherchez les utilisateurs actifs dans Teams de la façon suivante :
 
-   1. Dans le Microsoft 365 d’administration, dans le panneau de navigation gauche, allez dans Rapports, puis Utilisation. 
+   1. À partir Centre d’administration Microsoft 365, dans la barre de navigation gauche, allez dans Rapports, puis Utilisation. 
    2. Dans la sous-Microsoft Teams « Sélectionner un rapport », sélectionnez Activité de l’utilisateur. Vous aurez ainsi une table exportable d’utilisateurs qui ont été actifs dans Teams. 
    3. Cliquez sur Exporter, ouvrez Excel et filtrez pour afficher uniquement les utilisateurs actifs dans Teams.
 
@@ -122,7 +120,7 @@ Si certains utilisateurs de votre organisation utilisent activement Teams en mod
    Grant-CsTeamsUpgradePolicy -Global -PolicyName SfbWithTeamsCollab 
    ```
 
-4. Mettre à niveau les utilisateurs sélectionnés vers le mode TeamsOnly. Vous pouvez choisir de mettre à niveau soit les utilisateurs en mode Islands, soit en mode SfbWithTeamsCollab, même si vous pouvez d’abord hiérarchiser la mise à niveau des utilisateurs en mode Islands afin de minimiser le risque de confusion qui peut survenir lorsque les utilisateurs sont en mode Islands.   
+4. Mettre à niveau les utilisateurs sélectionnés vers le mode TeamsOnly. Vous pouvez choisir de mettre à niveau soit les utilisateurs en mode Islands, soit en mode SfbWithTeamsCollab, même si vous pouvez d’abord hiérarchiser la mise à niveau des utilisateurs en mode Islands afin de minimiser la confusion potentielle qui peut survenir lorsque les utilisateurs sont en mode Islands.   
 
    Pour les utilisateurs homed in Skype Entreprise Online :  
 

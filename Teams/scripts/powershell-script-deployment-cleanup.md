@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b7f12f9d7b531de2c50ba2de197f2f799916a2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96f3c7f6d9d9fa52edd09b7ecf690f43d6730367
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117292"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53428190"
 ---
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemple de script PowerShell - nettoyage Teams de déploiement
 
@@ -40,7 +40,7 @@ Use this script to remove and clear the Teams app from a computer. Run this Powe
 #>
 
 $TeamsPath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 'Teams')
-$TeamsUpdateExePath = [System.IO.Path]::Combine($env:LOCALAPPDATA, 'Microsoft', 'Teams', 'Update.exe')
+$TeamsUpdateExePath = [System.IO.Path]::Combine($TeamsPath, 'Update.exe')
 
 try
 {
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](../msi-deployment.md)
 - [Déployer des Teams à l’Microsoft 365 Apps](/deployoffice/teams-install)
