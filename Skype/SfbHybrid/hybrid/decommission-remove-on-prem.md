@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions de désaffectation des Skype Entreprise Server.
-ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420789"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454337"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Supprimez votre déploiement sur site de Skype pour entreprises.
 
@@ -32,15 +32,15 @@ Cet article explique comment supprimer votre déploiement Skype Entreprise local
 
 - Étape 2. [Désactivez votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
 
-- Étape 3. [Migrer les points de terminaison de l’application hybride de l’local vers le mode en ligne](decommission-move-on-prem-endpoints.md)
+- Étape 3. [Migrer des points de terminaison d’application hybride de l’local vers le mode en ligne](decommission-move-on-prem-endpoints.md)
 
 - **Étape 4. Supprimez votre déploiement Skype Entreprise local.** (Cet article)
 
 
 > [!IMPORTANT] 
-> Les étapes décrites dans cet article s’appliquent uniquement si vous utilisez la méthode 2 pour gérer les attributs utilisateur, comme décrit [ici.](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) Si vous utilisez la méthode 1, n’utilisez pas les étapes décrites dans cet article pour supprimer Skype Entreprise serveurs. Au lieu de cela, vous pouvez ré-imager les serveurs.
+> Les étapes décrites dans cet article s’appliquent uniquement si vous utilisez la méthode 2 pour gérer les attributs utilisateur, comme décrit [ici.](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) Si vous utilisez la méthode 1, n’utilisez pas les étapes décrites dans cet article pour supprimer Skype Entreprise serveurs. Au lieu de cela, vous pouvez ré-imager les serveurs.
 
-Pour effectuer les étapes de cet article, vous avez besoin de privilèges pour le groupe Administrateurs du schéma et le groupe Administrateurs Enterprise schéma. Vous aurez besoin de ces privilèges pour annuler le schéma Skype Entreprise Server et les modifications au niveau de la forêt apportées aux services de domaine Active Directory. Vous devez également être membre du groupe RTCUniversalServerAdmins.
+Pour effectuer les étapes de cet article, vous avez besoin de privilèges pour le groupe Administrateurs du schéma et le groupe Administrateurs Enterprise de schéma. Vous aurez besoin de ces privilèges pour annuler le schéma Skype Entreprise Server et les modifications au niveau de la forêt apportées aux services de domaine Active Directory. Vous devez également être membre du groupe RTCUniversalServerAdmins.
 
 
 ## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>Préparer la suppression du déploiement Skype Entreprise déploiement
