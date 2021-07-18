@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: cd4d8b4136639a057250bf72aa969e13f8619e1d
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219121"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454347"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
@@ -161,9 +161,9 @@ Les sous-titres Teams enregistrements des réunions ne seront disponibles pendan
 
 Les sous-titres permettent de créer du contenu accessible à tous les viewers, quelles que soient leurs capacités. En tant que propriétaire, vous pouvez masquer des sous-titres dans l’enregistrement de la réunion, bien que la transcription de la réunion reste disponible sur Teams sauf si vous l’y supprimez. 
 
-Nous prenons en charge les sous-titres codés pour les enregistrements de réunion Teams pendant 60 jours à compter de la date d’enregistrement de la réunion.
+Aujourd’hui, les sous-titres du fichier vidéo d’enregistrement sont liés à Teams transcription de la réunion. Dans la plupart des cas, ce lien restera en place pendant la durée de vie du fichier, mais peut parfois être rompu si le fichier vidéo est copié sur le même site OneDrive ou SharePoint, ce qui aurait pour effet que les sous-titres ne seront pas disponibles sur le nouveau fichier vidéo d’enregistrement.
 
-Nous ne prenons pas entièrement en charge les sous-titres codés si vous déplacez ou copiez l’enregistrement de réunion Teams depuis son emplacement d’origine sur OneDrive Entreprise ou SharePoint.
+Les modifications ultérieures seront clarifiez ici et dans les notifications du centre de messages, et vous veillez à enregistrer les fichiers de moins de 60 jours, afficher la transcription de la réunion en tant que légendes pendant toute la période de migration.
 
 > [!NOTE]
 > Il y aura des sous-titres en anglais uniquement (la transcription des réunions n’est pas encore disponible dans Cloud de la communauté du secteur public).

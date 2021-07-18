@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Les administrateurs peuvent en savoir plus sur les contrôleurs de session en bordure certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97a3c69f6fee5b14e5c2252b51b9b17d8a810799
-ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
+ms.openlocfilehash: 33df0f9d00d0c02d28c5f69ef26ae151586803d2
+ms.sourcegitcommit: 9b794b579e57d478e5e4bd76b8ca79fdea6f90c4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53388659"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53465382"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -32,7 +32,7 @@ Microsoft établit des partenariats avec certains fournisseurs de contrôleurs S
 Microsoft collabore avec chaque fournisseur pour :
 
 - Travaillez conjointement sur les protocoles d’interconnexion SIP.
-- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les appareils qui ont réussi les tests sont certifiés.
+- Effectuez des tests intenses en utilisant un laboratoire tiers. Seuls les périphériques qui ont réussi les tests sont certifiés.
 - Exécutez des tests quotidiens avec tous les périphériques certifiés dans les environnements de production et de pré-production. La validation des périphériques en préproduction permet de s'assurer que les nouvelles versions de code de routage direct dans le cloud fonctionneront avec les SBC certifiés.
 - Établissez un processus de support conjointe avec les fournisseurs SBC.
 
@@ -47,52 +47,56 @@ Si vous avez des questions concernant le programme de certification SBC pour le 
 
 ## <a name="certified-sbc-vendors"></a>Fournisseurs SBC certifiés
 
-|                                                       Fournisseur                                                        |       Product       | Contournement non multimédia | Contournement de média | Version logicielle | Fournisseur de services 911 capable* | ELIN capable
-|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   | &#10004;   |  &#10004;  |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   | &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   |   &#10004;   |  &#10004;  |    
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   |  &#10004;   |  &#10004;  |    
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)  |  &#10004;   |  &#10004;  |    
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   | &#10004;     |  &#10004;  |                                                                       
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258) |  &#10004;    |  &#10004;  |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Pris en charge 8.2 et 7.2 (recommandé 9.2)       | &#10004;   |     |    
-|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Pris en charge 8.2 et 7.2 (recommandé 9.2)       |   &#10004; |    |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Pris en charge 8.2 et 7.2 (recommandé 9.2)       |   &#10004;  ||    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       Pris en charge 8.2 et 7.2 (recommandé 9.2)       |    &#10004;  |  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       Pris en charge 8.2 et 7.2 (recommandé 9.2)          |  &#10004;    |    |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.x ou 9.x     |   &#10004;  |  &#10004;     |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.x ou 9.x     |   &#10004;   |     &#10004;     |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x ou 9.x    |   &#10004;    |     &#10004;     |   
-| | EdgeMarc Series |  &#10004; | | 15.6.1 | 
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   &#10004;    |  &#10004;  |    
-|    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  &#10004;    |  &#10004;  |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |    
-|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Prise en charge 3.20 (recommandé 4.0)        |  &#10004;    |  &#10004;   |    
+|                                                       Fournisseur                                                        |       Product       | Contournement non multimédia | Contournement de média | Version logicielle | Fournisseur de services 911 capable* | ELIN capable |  
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pending     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Prise en charge 7.20A.250 (recommandé 7.20A.258) |  &#10004;    |  &#10004;  |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Pris en charge 8.2 et 7.2 (recommandé 9.2)       | &#10004;   |     |
+|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Pris en charge 8.2 et 7.2 (recommandé 9.2)       |   &#10004; |    |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       Pris en charge 8.2 et 7.2 (recommandé 9.2)       |   &#10004;  | |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       Pris en charge 8.2 et 7.2 (recommandé 9.2)       |    &#10004;  |  |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       Pris en charge 8.2 et 7.2 (recommandé 9.2)          |  &#10004;    |    |
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.x ou 9.x     |   &#10004;  |  &#10004;     |
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.x ou 9.x     |   &#10004;   |     &#10004;     |
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      8.x ou 9.x    |   &#10004;    |     &#10004;     |
+| | EdgeMarc Series |  &#10004; | | 15.6.1 | |  
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       1.4       |     |    |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   &#10004;    |  &#10004;  |
+|    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  &#10004;    |  &#10004;  |
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  &#10004;    |  &#10004;  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Prise en charge 3.20 (recommandé 4.0)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 pour contournement média)      |     |    |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés des séries 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |   |  
-|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés de série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |   &#10004;      |    |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour les routeurs des services intégrés des séries 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |   |  
+|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs De services intégrés de série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |   &#10004;      |    |  
 |                                   |     Cisco Unified Border Element (CUBE) pour routeur Cloud Services de série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |    |  
 |                                 |     Cisco Unified Border Element (CUBE) pour les routeurs Aggregation Services de série 1000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) pour Les plateformes Edge de Cisco 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    &#10004;     |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de bordure pour session Avaya pour Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Publication 8.1.1 (8.1.2 pour Contournement média)      |     |    | 
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    | 
-|                     |    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    | 
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Prise en charge 5.0 (recommandé 5.1)     |     |    | 
-|                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
-|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    | 
-|                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Contrôleur de bordure de session OpenScape sur Atos Unify   |     &#10004;     |          |      V10R1.2       |     |    | 
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de bordure pour session Avaya pour Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Publication 8.1.1 (8.1.2 pour Contournement média)      |     |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
+|                     |    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       Prise en charge 5.0 (recommandé 5.1)     |     |    |
+|                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
+|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
+|                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Contrôleur de bordure de session OpenScape sur Atos Unify   |     &#10004;     |          |      V10R1.2       |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 |                     [M5 Technologies (anciennement Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel Series   |     &#10004;     |         |      DGW 48.0.2340 (DGW recommandé 48.1.2503)      |     |    |
+|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Contrôleur de bordure de session Ekinops (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
+|                     |    Contrôleur de bordure de session virtuelle Ekinops (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
+|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Voix hyperconvergée   |     &#10004;     |         |      HCVoice 1.0.6       |     |    |
 
 <br/>
+
 * 911 fournisseurs de services
 
 - [Routage de l’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
@@ -108,7 +112,7 @@ Le tableau suivant répertorie les appareils dont l’interopérabilité est vé
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     | 
-| [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Adaptateur de téléphone analogique à plusieurs plaques |     &#10004;     |
+| [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Adaptateur de téléphone analogique à plusieursplats |     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 Software Version 8.3.0.1.2 |     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Logiciel AP3900 Version 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 Software Version 8.3.0.1.2|     &#10004;     |

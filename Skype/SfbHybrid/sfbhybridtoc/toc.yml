@@ -14,7 +14,7 @@
       items:
         - name: Déplacer des utilisateurs de l’environnement local vers Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: "Déplacer les utilisateurs de l’environnement local vers Skype\_Entreprise\_Online"
+        - name: Déplacer les utilisateurs de l’environnement local vers Skype Entreprise Online
           href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: Déplacer des utilisateurs du cloud vers l’environnement local
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
@@ -26,8 +26,14 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: Déplacer des utilisateurs vers le cloud
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: Désactiver l'hybride pour achever la migration vers le cloud
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: Désactiver l'hybride pour achever la migration vers Teams uniquement
+          items:
+            - name: Désactiver l'hybride pour achever la migration vers Teams uniquement
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: Mise à jour des entrées DNS
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: Décider de la façon de gérer les attributs après la mise hors service
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: Déplacer les utilisateurs et les points d'extrémité vers le cloud
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: Supprimez votre déploiement sur site de Skype pour entreprises.
