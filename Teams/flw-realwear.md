@@ -1,5 +1,5 @@
 ---
-title: Informations ITAdmin sur le client RealWear pour Microsoft Teams (préversion)
+title: Informations sur l’administrateur informatique pour le client Microsoft Teams for Real Windows (préversion)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Une démonstration ITAdmin de Microsoft Teams pour le client RealWear.
+description: Procédure pas à pas de l’administrateur informatique du client Microsoft Teams pour RealUgh.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,25 +18,25 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222cb12e38061c81a860092f90bf42d5412fdb63
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e7977aae272f13a0ffe59ccd9febad2b501dbd54
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092282"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536700"
 ---
-# <a name="microsoft-teams-for-realwear"></a>Microsoft Teams pour RealWear
+# <a name="microsoft-teams-for-realwear"></a>Microsoft Teams pour RealWear
 
-Cet article traite du client Microsoft Teams pour les casques ou lunettes wearable RealWear. Les employés de bureau utilisant RealWear HMT-1 et HMT-1Z1 peuvent désormais collaborer avec un expert à distance grâce à l’utilisation des appels vidéo sur Teams. Par l’intermédiaire d’une interface utilisateur vocale, Teams pour RealWear permet aux employés de conserver leurs mains libres à 100 %, tout en gardant une idée précise de la situation dans des environnements bruyants et dangereux. Avec l’affichage en temps réel de ce qu’ils voient, les employés de terrain peuvent réduire le temps nécessaire pour résoudre des problèmes et limiter les risques d’interruption de service.
+Cet article traite du client Microsoft Teams pour les casques ou lunettes wearable RealWear. Les employés de première ligne utilisant RealMt HMT-1 et HMT-1Z1 peuvent désormais collaborer avec un expert distant à l’aide d’appels vidéo sur Teams. Par l’intermédiaire d’une interface utilisateur vocale, Teams pour RealWear permet aux employés de conserver leurs mains libres à 100 %, tout en gardant une idée précise de la situation dans des environnements bruyants et dangereux. Avec l’affichage en temps réel de ce qu’ils voient, les employés de terrain peuvent réduire le temps nécessaire pour résoudre des problèmes et limiter les risques d’interruption de service.
 
-## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>Comment déployer Microsoft Teams pour RealWear
+## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>Comment déployer Microsoft Teams pour RealWear
 
 - Des appareils RealWear mis à jour vers la version 11.2 ou ultérieure. Plus d’informations [ici](https://realwear.com/knowledge-center/configure-on-release-10/wireless-update/).
 - Accès à [Prospective RealWear](https://cloud.realwear.com/) pour la distribution du client Microsoft Teams pour Realwear.
 
 ## <a name="required-licenses"></a>Licences requises
 
-Les licences Microsoft Teams font partie des abonnements Microsoft 365 et Office 365. Aucune licence supplémentaire n’est nécessaire pour l’utilisation de Teams pour RealWear. Pour plus d’informations sur l'obtention de Teams, consultez  [Comment obtenir l’accès à Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
+Les licences Microsoft Teams font partie des abonnements Microsoft 365 et Office 365. Aucune licence supplémentaire n’est nécessaire pour l’utilisation de Teams pour RealWear. Pour plus d’informations sur l'obtention de Teams, consultez  [Comment obtenir l’accès à Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b).
 
 ## <a name="managing-realwear-devices"></a>Gestion des appareils RealWear
 
@@ -53,4 +53,4 @@ Pour obtenir des instructions sur les EMM tiers, voir [Fournisseurs d’EMM pris
 
 ## <a name="end-user-content"></a>Contenu de l’utilisateur final
 
-Pour en savoir plus sur ce point de vue de l’utilisateur final, veuillez consulter [Utilisation de Microsoft Teams pour RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
+Pour plus d’informations à ce sujet du point de vue de l’utilisateur final, consultez [Utilisation de Microsoft Teams pour RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).

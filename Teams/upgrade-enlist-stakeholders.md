@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81a20980530f28f20fb48fa06a2068088dc1a305
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 8fc726dbe05358844c23a3ee90a8885e8b97f54d
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282521"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586963"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Inscription des parties prenantes du projet
 
@@ -40,7 +40,7 @@ De l’implémentation des livrables du projet à la conduite de la responsabili
 
 Vous pouvez également créer un comité directeur. Parfois, les projets de grande envergure ou plus complexes se terminent par un « trop grand nombre de recettes en cuisine », ce qui entraîne des déconnexions entre les groupes de parties prenantes. Pour ces projets, vous voudrez peut-être former un comité directeur. Un comité directeur est chargé de conduire les décisions, de fournir une surveillance stratégique, de prendre en charge les initiatives du projet et, le cas échéant, de supprimer les bloqueurs. Pour plus d’informations sur l’implémentation d’un comité directeur, voir le [guide du comité exécutif.](./envision-steering-committee-complete-guide.md)
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision | <ul><li>Qui êtes-vous les personnes les plus à même de faire office d’équipe de parties prenantes pour ce projet ?</li></ul> |
 | ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes | <ul><li>Prenez en compte l’étendue de votre projet et affectez les parties prenantes concernées.</li><li>Utilisez le tableau suivant comme directives, mais notez que cette liste n’est pas exhaustive.<br><strong>Conseil</strong><br>Créez une matrice [RACI](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) (Responsible-Accountable-consulted-informed), pour distinguer plus précisément ceux qui seront tenus pour responsables de ceux qui doivent simplement être informés dans un domaine particulier du projet.</li> |
@@ -63,7 +63,7 @@ Vous pouvez également créer un comité directeur. Parfois, les projets de gran
 | Directeur de la téléphonie | Fournit des informations sur la conception et l’implémentation de téléphonie |
 | Propriétaire du service/Quality Champion | Propriétaire de l’Teams de l’ensemble, y compris la qualité de l’expérience utilisateur |
 | Lead Sur ordinateurs de bureau et appareils | Fournit des entrées dans les clients, les appareils et les applications de bureau |
-| Administrateur Pro/client | Vérifier que la préparation réseau et les configurations Microsoft 365 centre d’administration sont en place |
+| Administrateur Pro/client | Vérifier que la préparation réseau et les configurations Centre d’administration Microsoft 365 sont en place |
 | Responsable du support | Gère la préparation de votre support technique |
 | Responsable de la gestion des changements | Supervise le programme de gestion et d’adoption des changements d’utilisateurs |
 | Responsable marketing | Conceptions et implémente des campagnes de communication |

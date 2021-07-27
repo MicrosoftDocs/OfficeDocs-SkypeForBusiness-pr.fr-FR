@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6e7f20bc34b22449a115b0742a7cfdac88792f4c
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856373"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506393"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 
@@ -38,7 +38,7 @@ Les files d’attente d’appels cloud incluent des salutations qui sont utilis�
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Gestion d’un traitement automatique ou d’un appel de la file d’attente d’appels
 
-Les utilisateurs pourront différencier les appels entrants à partir d’un traitement automatique ou d’une file d’attente d’appels avant de répondre à l’appel. En plus du nom et/ou du numéro de l’appelant, chaque appel inclut des informations sur les personnes que l’appelant essayait de joindre, afin de donner aux utilisateurs un meilleur contexte pour s’adresser à l’appelant.
+Les utilisateurs pourront différencier les appels entrants d’un traitement automatique ou d’une file d’attente d’appels avant de répondre à l’appel. En plus du nom et/ou du numéro de l’appelant, chaque appel inclut des informations sur les personnes que l’appelant essayait de joindre, afin de donner aux utilisateurs un meilleur contexte pour s’adresser à l’appelant.
 
 L’illustration suivante montre comment un appel entrant d’un employé de service automatique ou d’une file d’attente d’appels s’affiche pour un utilisateur.
 
@@ -59,6 +59,8 @@ La prise en charge du service de support automatique et des appels en file d’a
 -    Client Microsoft Teams pour Mac
 -    Application Microsoft Teams pour iPhone
 -    Application Microsoft Teams pour Android
+
+Le Teams client n’est pris en charge qu’avec un mode de [co-existence Teams uniquement.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurer le support automatique et la prise en charge des files d’attente pour les Microsoft Teams
 

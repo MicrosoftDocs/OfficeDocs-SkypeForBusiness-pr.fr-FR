@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1048b6451163cd7b0cdbcd3f52e48c6b0f4811d1
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: df03c4d59b55780f38b5f99983a11fd5dc905e40
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717795"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587013"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
@@ -35,7 +35,7 @@ Microsoft Teams organisations de fournir des affichages personnalisés de l’an
 > [!NOTE]
 > Dans Exchange environnements hybrides, cette fonctionnalité fonctionne uniquement avec Exchange Online, et non avec les boîtes aux lettres locaux.
 
-Voir aussi [Stratégies du carnet d’adresses Exchange Online.](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)
+Voir aussi [Stratégies du carnet d’adresses Exchange Online.](/exchange/address-books/address-book-policies/address-book-policies)
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>Quand devez-vous utiliser des recherches dans l’annuaire dans l’étendue ?
 

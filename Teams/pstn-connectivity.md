@@ -24,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur les options Teams d’appel (connectivité PSTN) et les décisions que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b1b06178b269529b1d0227ff02d529c91ba1480
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: 57327c408331acb3deb4d2269d87a2a30de13a75
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354516"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486254"
 ---
 # <a name="pstn-connectivity-options"></a>Options de connectivité PSTN
 
@@ -41,9 +41,10 @@ Pour vous Système téléphonique au réseau PSTN, vous avez le choix entre les 
 
 - [**Forfait d’appels.**](#phone-system-with-calling-plan) Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN.
 
+- [**L’Connecter**](#phone-system-with-operator-connect),qui est actuellement disponible uniquement en **prévisualisation publique.**  Grâce aux Connecter opérateurs, si votre opérateur existant participe au programme Microsoft Operator Connecter ( Opérateur Microsoft), il peut gérer les contrôleurs de session et d’appel RTC. 
+
 - [**Routage direct,**](#phone-system-with-direct-routing)qui vous permet d’utiliser votre propre opérateur PSTN en connectant votre ou vos contrôleurs de session (SBC) à Système téléphonique.
 
-- [**L’Connecter**](#phone-system-with-operator-connect),qui est actuellement disponible uniquement en **prévisualisation publique.**  Grâce aux Connecter opérateurs, si votre opérateur existant participe au programme Microsoft Operator Connecter ( Opérateur Microsoft), il peut gérer les contrôleurs de session et d’appel RTC. 
 
 Vous pouvez également choisir une combinaison d’options qui vous permet de concevoir une solution pour un environnement complexe ou de gérer une migration en plusieurs étapes.
 
@@ -78,6 +79,19 @@ Pour plus d’informations sur le plan d’appels, consultez les articles suivan
 - [Comment acheter un forfait d’appels](calling-plans-for-office-365.md)
 - [Disponibilité des forfaits d’appels par pays et par région](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Configurer le forfait d’appels](set-up-calling-plans.md)
+
+
+## <a name="phone-system-with-operator-connect"></a>Système téléphonique’opérateur Connecter
+
+Avec l’Connecter d’opérateur actuellement en prévisualisation publique, si votre opérateur existant participe au programme Connecter d’opérateur Microsoft, il peut gérer le service afin de mettre en place les appels R TEAMS. Votre opérateur gère les services d’appel PSTN et les contrôleurs de session en bordure, ce qui vous permet d’économiser sur l’achat et la gestion du matériel.
+
+L’Connecter peut être la solution appropriée pour votre organisation si :
+
+- Le plan d’appels Microsoft n’est pas disponible dans votre emplacement géographique.
+- Votre opérateur préféré est un participant au programme d’Connecter Microsoft.
+- Vous souhaitez rechercher un nouvel opérateur pour activer les appels Teams.
+
+Pour plus d’informations sur les avantages et les conditions requises de la Connecter opérateur, et pour obtenir la liste des opérateurs participant à ce programme, consultez la liste des opérateurs [Connecter.](operator-connect-plan.md) Pour plus d’informations sur la configuration des opérateurs Connecter, voir [Configurer l’Connecter.](operator-connect-configure.md)
 
 
 ## <a name="phone-system-with-direct-routing"></a>Système téléphonique le routage direct
@@ -121,23 +135,21 @@ Pour plus d’informations sur le routage direct, voir les articles suivants :
 - [Liste des contrôleurs de frontière de session certifiés pour le routage direct](direct-routing-border-controllers.md)
 
 
-## <a name="phone-system-with-operator-connect"></a>Système téléphonique’opérateur Connecter
-
-Avec l’Connecter d’opérateur actuellement en prévisualisation publique, si votre opérateur existant participe au programme Connecter d’opérateur Microsoft, il peut gérer le service afin de mettre en place les appels R TEAMS. Votre opérateur gère les services d’appel PSTN et les contrôleurs de session en bordure, ce qui vous permet d’économiser sur l’achat et la gestion du matériel.
-
-L’Connecter peut être la solution appropriée pour votre organisation si :
-
-- Le plan d’appels Microsoft n’est pas disponible dans votre emplacement géographique.
-- Votre opérateur préféré est un participant au programme d’Connecter Microsoft.
-- Vous souhaitez rechercher un nouvel opérateur pour activer les appels Teams.
-
-Pour plus d’informations sur les avantages et les conditions requises de la Connecter opérateur, et pour obtenir la liste des opérateurs participant à ce programme, consultez la liste des opérateurs [Connecter.](operator-connect-plan.md) Pour plus d’informations sur la configuration des opérateurs Connecter, voir [Configurer l’Connecter.](operator-connect-configure.md)
 
 ## <a name="configuration-considerations"></a>Considérations en cas de configuration
 
 La plupart Système téléphonique fonctionnalités sont identiques quelle que soit l’option de connectivité PSTN que vous choisissez. Par exemple, les paramètres Sans réponse et transfert d’appel, le transfert d’appel, la musique personnalisée mise en attente, le parcage d’appel, la ligne partagée et les applications vocales sont tous disponibles. Pour obtenir la liste complète des Système téléphonique fonctionnalités, consultez les fonctionnalités de la liste des [Système téléphonique.](here-s-what-you-get-with-phone-system.md)
 
 Il existe toutefois certaines différences de fonctionnalités qui affectent la façon dont vous configurez Système téléphonique fonctionnalités. Par exemple, le routage direct nécessite des étapes supplémentaires pour configurer le routage des appels. Autre exemple : le routage direct fournit un routage basé sur l’emplacement (LBR) pour vous permettre de restreindre la dérivation contre les frais dans certains emplacements géographiques où il n’est pas autorisé. 
+
+Le tableau suivant met en évidence les différences de configuration principale. Les sections qui suivent le tableau fournissent des liens vers des informations et des détails supplémentaires.
+
+| Option | Description | Téléphone gestion des nombres | Routage des appels | Disponibilité des appels d’urgence |
+| :------------| :-------| :-------| :-------| :-------| 
+| Forfaits d’appel | -Microsoft agit en tant qu’opérateur PSTN.<br>-Vous n’avez pas besoin d’acheter ou de gérer des SBCS.| Obtenu auprès de Microsoft.| -Géré par Microsoft. <br> -L’administrateur configure les plans de numérotation utilisateur pour la traduction des numéros. | -Activé par Microsoft. <br> -L’administrateur enregistre les adresses. <br> -Appels dynamiques pris en charge. |
+| Connecter | -Carrier gère la connectivité PSTN et les SBCs. <br> -Vous n’avez pas besoin d’acheter ou de gérer des SBCS. | -Obtenu via un opérateur. <br> - Numéros associés à des adresses de secours gérées par un opérateur.  | -Géré par un opérateur. <br>-L’administrateur configure les plans de numérotation utilisateur pour la traduction des numéros. | -Activé par un opérateur. <br> -L’administrateur enregistre les adresses. <br> -Appels dynamiques pris en charge. |
+| Routage direct | - Nécessite l’achat de SBC certifié auprès d’un fournisseur tiers.<br>-Connecter votre SBC à Système téléphonique.<br> -Utilisez votre opérateur PSTN existant. | Obtenu auprès d’un opérateur. | -Nécessite une configuration supplémentaire par l’administrateur.<br>-L’administrateur configure les plans de numérotation à des fin de traduction des numéros. <br>-LBR est disponible pour restreindre la dérivation toll. | -Nécessite une configuration supplémentaire par l’administrateur. <br>-Adresses enregistrées non prise en charge. <br>-Appels dynamiques pris en charge, mais nécessite une configuration supplémentaire. |
+|||||
 
 
 ### <a name="phone-number-management"></a>Téléphone gestion des nombres
@@ -154,9 +166,9 @@ La façon dont vous acquérir et gérer les numéros de téléphone diffère sel
 
 - Pour plus d’informations sur la gestion des numéros de téléphone pour le plan d’appels, voir [Gérer les numéros de téléphone pour votre organisation.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-- Pour plus d’informations sur la gestion des numéros de téléphone pour le routage direct, voir Configurer le numéro de téléphone et activer la messagerie vocale et la voix [d’entreprise.](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)
-
 - Pour plus d’informations sur la gestion des numéros de téléphone avec la Connecter opérateur, voir Configurer des numéros de [téléphone avec l’opérateur Connecter.](operator-connect-configure.md#set-up-phone-numbers)
+
+- Pour plus d’informations sur la gestion des numéros de téléphone pour le routage direct, voir Configurer le numéro de téléphone et activer la messagerie vocale et la voix [d’entreprise.](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)
 
 
 ### <a name="call-routing-and-dial-plans"></a>Routage des appels et plans de numérotation
@@ -165,9 +177,9 @@ La manière dont vous configurez le routage des appels diffère selon l’option
 
 - Pour les forfaits d’appels, la plupart du routage des appels est géré par l’infrastructure du plan d’appels Microsoft. Vous configurez les plans de numérotation utilisateur en vue de la traduction des numéros à des fins d’autorisation et de routage des appels. Pour plus d’informations, voir [Les plans de numérotation.](what-are-dial-plans.md)
 
-- Pour le routage direct, vous devez configurer le routage des appels en spécifiant les itinéraires vocaux et en attribuant des stratégies de routage vocal aux utilisateurs. Vous pouvez configurer des plans de numérotation pour la traduction des numéros sur le niveau de ligne afin de garantir l’interopérabilité avec les contrôleurs de session en bordure (SBCs). Pour plus d’informations, voir Configurer le routage vocal pour le [routage](direct-routing-voice-routing.md)direct, Gérer les stratégies de [routage](manage-voice-routing-policies.md) vocal et [Traduire les numéros de téléphone.](direct-routing-translate-numbers.md) 
-
 - Pour l’Connecter, la plupart du routage des appels est géré par l’opérateur.  Vous configurez les plans de numérotation utilisateur en vue de la traduction des numéros à des fins d’autorisation et de routage des appels. Pour plus d’informations, voir [Les plans de numérotation.](what-are-dial-plans.md)
+
+- Pour le routage direct, vous devez configurer le routage des appels en spécifiant les itinéraires vocaux et en attribuant des stratégies de routage vocal aux utilisateurs. Vous pouvez configurer des plans de numérotation pour la traduction des numéros sur le niveau de ligne afin de garantir l’interopérabilité avec les contrôleurs de session en bordure (SBCs). Pour plus d’informations, voir Configurer le routage vocal pour le [routage](direct-routing-voice-routing.md)direct, Gérer les stratégies de [routage](manage-voice-routing-policies.md) vocal et [Traduire les numéros de téléphone.](direct-routing-translate-numbers.md) 
 
 
 ### <a name="location-based-routing-for-direct-routing"></a>Location-Based routage pour le routage direct
@@ -187,13 +199,13 @@ La configuration des appels d’urgence diffère en fonction de l’option de co
 
 - Pour le plan d’appels, chaque utilisateur est automatiquement activé pour les appels d’urgence et une adresse d’urgence enregistrée doit être associée à son numéro de téléphone affecté. Les appels d’urgence dynamiques (en fonction de l’emplacement Teams client) sont pris en charge.  
 
-- Pour le routage direct, vous devez définir des stratégies d’appel d’urgence pour les utilisateurs à l’aide d’une stratégie de routage d’appel d’urgence Teams (TeamsEmergencyCallRoutingPolicy) pour définir les numéros d’urgence et leur destination de routage associée. Les emplacements d’urgence enregistrés ne sont pas pris en charge pour les utilisateurs du routage direct. Pour les appels d’urgence dynamiques, une configuration supplémentaire est requise pour router les appels d’urgence et éventuellement pour la connectivité partenaire.
-
 - Pour l’Connecter opérateur, chaque utilisateur est automatiquement activé pour les appels d’urgence et une adresse d’urgence enregistrée doit être associée à son numéro de téléphone affecté, mais ne peut être définie que par le partenaire de l’opérateur. Les appels d’urgence dynamiques (en fonction de l’emplacement Teams client) sont pris en charge.
+
+- Pour le routage direct, vous devez définir des stratégies d’appel d’urgence pour les utilisateurs à l’aide d’une stratégie de routage d’appel d’urgence Teams (TeamsEmergencyCallRoutingPolicy) pour définir les numéros d’urgence et leur destination de routage associée. Les emplacements d’urgence enregistrés ne sont pas pris en charge pour les utilisateurs du routage direct. Pour les appels d’urgence dynamiques, une configuration supplémentaire est requise pour router les appels d’urgence et éventuellement pour la connectivité partenaire.
 
 Pour plus d’informations sur les concepts d’appel d’urgence et la terminologie, ainsi que sur la configuration des appels d’urgence et des appels d’urgence dynamiques, consultez les articles suivants :
 
-- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Planifier et configurer un appel d’urgence dynamique](configure-dynamic-emergency-calling.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage d’appel d’urgence pour le routage direct](manage-emergency-call-routing-policies.md)

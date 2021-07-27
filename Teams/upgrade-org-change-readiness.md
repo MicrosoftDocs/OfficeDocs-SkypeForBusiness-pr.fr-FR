@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6131883d4d3711b99006b3b54d51dd50ee37daa
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3e18ecaf8d4149542008d2e1bba719d2ddaf7da6
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282321"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587273"
 ---
 # <a name="assess-organizational-change-readiness"></a>Évaluer la préparation au changement de l’organisation
 
@@ -46,7 +46,7 @@ Après avoir sécurisé votre équipe de projet et défini votre vision, votre �
 > [!Note]
 > Vous pouvez adapter les activités d’évaluation ci-dessous à toute initiative de changement de votre organisation. Répondez aux questions en fonction de l’étendue de votre projet. Dans les discussions suivantes, la « nouvelle solution » peut s’appliquer aux appels audio, aux audioconférences ou à la mise à niveau d’Skype Entreprise à Teams.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quelle est la culture de votre organisation en matière de changement ?</li><li>Comment la nouvelle technologie peut-elle optimiser la façon dont les utilisateurs travaillent ?</li><li>Quels utilisateurs ont besoin d’une attention particulière pour leur demander de modifier leur mode de travail ?</li></ul> |
 | ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Utilisez les recommandations suivantes et les activités associées pour capturer le profil de disponibilité des utilisateurs de votre organisation.</li></ul>|
@@ -106,7 +106,7 @@ Comprendre le fonctionnement du travail des utilisateurs et la manière dont ils
 
 Pour obtenir le meilleur des Teams, créez une stratégie de travail d’équipe qui inclut les deux scénarios, aidant les utilisateurs à comprendre comment les Teams peuvent fonctionner pour eux.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Quels scénarios de travail d’équipe liés allez-vous utiliser pour accélérer l’adoption des utilisateurs Teams et faciliter la mise à niveau à partir d’Skype Entreprise ?</li></ul> |
 | ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Utilisez les exemples ci-dessous pour créer vos propres scénarios de travail d’équipe. Documentez-les dans le [workbook de mise à niveau.](https://aka.ms/upgradesuccesskit)</li><li>Pour des scénarios et exemples supplémentaires, voir la [Bibliothèque de productivité](https://www.microsoft.com/microsoft-365/success/)</li></ul>|

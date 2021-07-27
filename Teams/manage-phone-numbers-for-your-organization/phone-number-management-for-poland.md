@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Pologne pour Microsoft Teams.
-ms.openlocfilehash: 1df4a766c5b45c45f7eac83edced16463592f849
-ms.sourcegitcommit: fc1177a5080a18ddc1429848dd9352923107b647
+ms.openlocfilehash: abba192cdb4b94a6e5c6032980923c02d338c27f
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "53166540"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509965"
 ---
 # <a name="phone-number-management-for-poland"></a>Téléphone gestion des nombres pour la Pologne
 
@@ -40,10 +40,10 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.  |En Pologne, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en nous l’envoyant.](mailto:ptneu@microsoft.com)<br/><br/>[Nouvelle demande de numéro de téléphone pour la Pologne (v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf). <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Téléphone numéros sont commandés par blocs de dix. Les clients ne seront facturés que pour les licences de forfait d’appels souscrites.<br/><br/>Le remplissage de ce marché peut prendre de quatre à six semaines. |
-|Obtenez des numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour la Pologne (tous les nombres) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Remplissez-le et [envoyez-le-nous](mailto:ptneu@microsoft.com). <br/><br/>Le transfert de numéros peut prendre de quatre à six semaines dans ce marché. <br/><br/> Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.    |
-|Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros de téléphone que vous souhaitez publier/dont vous souhaitez annuler la publication. <br/> |
-|Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Envoyez-nous](mailto:ptneu@microsoft.com) la liste des numéros d'utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.  |En Pologne, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant PTSN pour obtenir des instructions.](contact-pstn-service-desk.md)<br/><br/>[Nouvelle demande de numéro de téléphone pour la Pologne (v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf). <br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter PTSN pour obtenir [des instructions.](contact-pstn-service-desk.md)<br/><br/>Téléphone numéros sont commandés par blocs de dix. Les clients ne seront facturés que pour les licences de forfait d’appels souscrites.<br/><br/>Le remplissage de ce marché peut prendre de quatre à six semaines. |
+|Obtenez des numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour la Pologne (tous les nombres) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>Remplissez-le et [contactez PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) <br/><br/>Le transfert de numéros peut prendre de quatre à six semaines dans ce marché. <br/><br/> Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.    |
+|Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md) sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
+|Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md) sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
 |Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
 
    

@@ -1,5 +1,5 @@
 ---
-title: Teams cas Contoso voix
+title: 'Teams cas De Contoso voix : files d’attente d’appels et de files d’attente automatiques'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams cas de voix pour une entreprise multinationale
+description: 'Teams cas de voix pour une entreprise multinationale : des files d’attente de service automatique et des files d’attente d’appels'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cb8029a8f4e979a76afe069ee9b22e7be897913
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0251c4baa9aca86f871b7c1dc1af44695bd1585
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121292"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587163"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Étude de cas Contoso : attendants automatiques et files d’attente d’appels
 
@@ -92,7 +92,7 @@ Contoso a dû configurer le numéro de téléphone fourni par l’opérateur loc
 
 Contoso a dû porter le numéro de téléphone utilisé pour Skype Entreprise Voix Entreprise les employés à Système téléphonique Office 365. Cela permettait d’attribuer le même numéro en tant que numéro de service à un employé de service automatique. 
 
-- Pour transférer le numéro de téléphone, Contoso a suivi les instructions de transfert de numéros de téléphone vers [Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) et a obtenu des instructions supplémentaires sur la gestion des numéros de téléphone [pour votre organisation.](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- Pour transférer le numéro de téléphone, Contoso a suivi les instructions de transfert des numéros de téléphone vers [Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) et a obtenu des instructions supplémentaires sur la gestion des numéros de téléphone [pour votre organisation.](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 - Pour configurer un attendant automatique cloud, Contoso a suivi les étapes décrites dans [La configuration d’un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
 

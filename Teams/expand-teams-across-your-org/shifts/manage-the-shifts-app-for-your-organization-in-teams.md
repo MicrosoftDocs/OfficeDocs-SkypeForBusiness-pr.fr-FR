@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Découvrez comment configurer et gérer l’application Plannings dans Teams pour les employés de bureau de votre organisation.
+description: Découvrez comment configurer et gérer l’application Shifts dans Teams pour les employés en ligne de votre organisation.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 218b041d83cde91a23201ab864160ce3b8b7cb6e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 7af23cf4586074420f7f95b916ababaf797cdb4b
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909088"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536760"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -36,12 +36,12 @@ ms.locfileid: "49909088"
 
 ## <a name="overview-of-shifts"></a>Vue d’ensemble de Plannings
 
-L’application Plannings de Microsoft Teams maintient la connexion et la synchronisation des employés de bureau. Il est conçu en avant-première pour la gestion du temps et la communication rapides et efficaces pour les équipes. Plannings permet aux employés de première ligne et à leurs responsables d’utiliser leurs appareils mobiles pour gérer les plannings et communiquer.  
+L’application Shifts dans Microsoft Teams les employés en contact direct et synchronisés. Il est conçu en premier lieu pour une gestion et une communication rapides et efficaces pour les équipes. Shifts permet aux employés en contact direct et à leurs responsables d’utiliser leurs appareils mobiles pour gérer les plannings et rester en contact.
 
-- Les responsables créent, mettent à jour et gèrent les plannings relatifs aux roulements de équipes. Ils peuvent envoyer des messages à un membre en particulier (« du liquide s’est renversé sur le sol ») ou à toute l’équipe (« le directeur régional arrive dans 20 minutes »). Ils peuvent aussi envoyer des documents stratégiques, des bulletins d’informations et des vidéos. 
-- Les employés peuvent consulter leurs horaires de travail, voir qui est prévu pour la journée, demander à échanger ou offrir une shift, et demander des congés. 
+- Les responsables créent, mettent à jour et gèrent les plannings relatifs aux roulements de équipes. Ils peuvent envoyer des messages à un membre en particulier (« du liquide s’est renversé sur le sol ») ou à toute l’équipe (« le directeur régional arrive dans 20 minutes »). Ils peuvent aussi envoyer des documents stratégiques, des bulletins d’informations et des vidéos.
+- Les employés peuvent consulter leurs horaires de travail, voir qui est prévu pour la journée, demander à échanger ou offrir une shift, et demander des congés.
 
-Il est important de savoir que Plannings ne prend pas en charge les utilisateurs invités pour le moment. Cela signifie que les invités d’une équipe ne peuvent pas être ajoutés à des plannings de shift ou utiliser ceux-ci lorsque l’accès invité est désactivé dans Teams. 
+Il est important de savoir que Shifts ne prend pas en charge les invités pour le moment. Cela signifie que les invités d’une équipe ne peuvent pas être ajoutés à des plannings de shift ou utiliser ceux-ci lorsque l’accès invité est désactivé dans Teams. 
 
 > [!Note]
 > Pour plus d’informations sur les fonctionnalités Shifts sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -68,19 +68,19 @@ Plannings est activé par défaut pour tous les utilisateurs Teams de votre orga
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Activer ou désactiver Plannings pour des utilisateurs spécifiques de votre organisation
 
-Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Plannings, assurez-vous que Plannings est activé pour votre organisation sur la page [Gérer les applications](../../manage-apps.md), puis créez une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
+Pour autoriser ou empêcher des utilisateurs spécifiques de votre organisation d’utiliser Shifts, assurez-vous que Shifts est désactivé pour votre organisation sur la page [Gérer les applications.](../../manage-apps.md) Ensuite, créez une stratégie d’autorisation d’application personnalisée et attribuez-la à ces utilisateurs. Pour plus d’informations, consultez [Gérer les stratégies d’autorisation d’application dans Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-the-frontlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Utiliser une stratégie de configuration d’application pour épingler Tasks dans Teams
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Utilisez la stratégie de configuration de l’application FirstLineWorker pour épingler Shifts à Teams
 
 Les stratégies de configuration des applications vous permettent de personnaliser Teams pour mettre en évidence les applications les plus importantes pour les utilisateurs de votre organisation. Les applications que vous définissez dans une stratégie sont épinglées à la barre d’applications&mdash;, la barre se trouvant sur le côté du client Teams pour ordinateur de bureau et en bas des clients mobiles Teams&mdash; là où les utilisateurs peuvent y accéder rapidement et facilement.
  
-Teams inclut une stratégie de configuration d’application FrontlineWorker intégrée que vous pouvez affecter aux employés de terrain dans votre organisation. Par défaut, la stratégie inclut les applications Activité, Plannings, Conversation et Appel. 
+Teams inclut une stratégie de configuration intégrée de l’application FirstLineWorker que vous pouvez affecter aux employés en ligne de votre organisation. Par défaut, la stratégie inclut les applications Activité, Plannings, Conversation et Appel.
 
-Pour afficher la stratégie FrontlineWorker, dans le menu de navigation gauche du Centre d’administration Microsoft Teams, consultez **Application Teams** > **Stratégies configuration d’application**.
+Pour afficher la stratégie FirstLineWorker, dans le menu de navigation gauche du Centre d’administration Microsoft Teams, voir Teams **de** configuration d’application.  >  
 
-![Capture d’écran de la stratégie de configuration de l’application FrontlineWorker](../../media/firstline-worker-app-setup-policy.png "Capture d’écran de la stratégie de configuration de l’application FrontlineWorker dans le Centre d’administration Microsoft Teams")
+![Capture d’écran de la stratégie de configuration de l’application FirstLineWorker](../../media/firstline-worker-app-setup-policy.png "Capture d’écran de la stratégie de configuration de l’application FirstLineWorker dans le Microsoft Teams d’administration")
 
-#### <a name="assign-the-frontlineworker-app-setup-policy-to-users"></a>Attribuer la stratégie de configuration de l’application FrontlineWorker aux utilisateurs
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Affecter la stratégie de configuration de l’application FirstLineWorker aux utilisateurs
 
 [!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
@@ -94,5 +94,5 @@ Pour effectuer une recherche dans le journal d’audit, vous devez au préalable
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Aide Plannings pour les employés de bureau](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Aide shifts pour les employés en avant-plan](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Attribuer des stratégies à vos utilisateurs](../../assign-policies.md)

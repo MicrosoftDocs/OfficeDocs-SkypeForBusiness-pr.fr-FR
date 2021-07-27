@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 949c3189b80e9843b4b256f8d3f65cc3b52e2d1a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282581"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586973"
 ---
 # <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 
@@ -37,7 +37,7 @@ Cet article fait partie de la phase Project Définition de votre parcours vers l
 
 Prenez le temps de définir votre vision, votre étendue, vos objectifs et votre gouvernance de projet pour vous assurer que toutes les parties prenantes du projet sont alignées et travaillent sur les mêmes résultats finals. Ce point est particulièrement critique dans la la direction où l’équipe de préparation technique et l’équipe de préparation des utilisateurs travailleront de manière indépendante afin de réunir leurs éléments respectifs. Une fois que vous avez terminé cette section, consultez-la tout au long de votre projet pour vous assurer que vous êtes sur la bonne voie pour atteindre l’état final souhaité. Utilisez les objectifs ci-dessous pour mesurer par rapport à vos résultats et réduire au besoin.
 
-| | |
+| &nbsp;| &nbsp;|
 |---|---|
 | ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Que voulez-vous accomplir avec ce projet (en d’autres termes, pourquoi le faites-vous ) ?</li><li>À quoi ressemble le succès ?</li><li>Quels sont les risques et quel est votre plan d’atténuation de ces risques ?</li></ul> |
 | ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Discutez des sections suivantes avec votre équipe de projet et les sponsors.</li><li>Documentez votre vision, l’étendue, les objectifs et les risques pour ce projet.</li><li>Revisitez votre équipe de projet pour vérifier que vous avez impliqué l’équipe qui vous a été la bonne.</li></ul>|

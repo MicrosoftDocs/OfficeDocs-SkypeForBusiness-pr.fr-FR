@@ -1,5 +1,5 @@
 ---
-title: Teams cas Contoso voix
+title: 'Teams cas De Contoso voix : Audioconférence'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,21 +13,21 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams cas de voix pour une entreprise multinationale
+description: 'Teams cas de voix pour une entreprise multinationale : audioconférence'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 085c9994bc2522d1ab56abc1670113e22d35f642
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e9f4dd4781a8ea6a60528aaa3e4b208efc1a8f5e
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121302"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587303"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Étude de cas Contoso : Audioconférence
 
 Pour comprendre ce qu’est l’audioconférence, ses coûts, sa disponibilité et son fonctionnement, l’audioconférence examinée par &mdash; &mdash; Contoso [dans Office 365.](deploy-audio-conferencing-teams-landing-page.md) 
 
-## <a name="overview"></a>Présentation 
+## <a name="overview"></a>Vue d’ensemble 
 
 Pour l’audioconférence, Contoso utilisait des numéros de téléphone bien connus au sein de l’organisation ainsi qu’à l’extérieur. Comme Contoso souhaitait conserver ces numéros autant que possible, il a examiné les informations sur l’affectation de numéros de téléphone dédiés et partagés au pont de conférence audio. 
 

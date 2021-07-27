@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32bd773975ff6b67d28ab765ffa7c932e978af7d
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 7980b062d864b7354a329ce5743b0209d9a54e2a
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145934"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565700"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Gérer l’accès des utilisateurs à Education Insights
 
@@ -39,32 +39,65 @@ Pour fournir des informations au niveau de l’organisation, vous devez [importe
 
 
 
-## <a name="grant-permissions"></a>Accorder des autorisations
+## <a name="manange-permissions"></a>Gérer les autorisations
 
 * Ouvrez l’application Insights, cliquez **Paramètres**, puis sélectionnez **Autorisations utilisateur**.
 
 :::image type="content" source="media/insights-user-permissions.png" alt-text="Paramètres":::
 
-* Sélectionnez **Ajouter des utilisateurs**.
-* Entrez le nom d’utilisateur ou l’adresse e-mail de chaque utilisateur.
-* Sélectionnez le niveau d’autorisation :
-  * **L’accès à toute l’organisation** signifie que l’utilisateur a accès à toutes les unités de l’organisation à tous les niveaux.
-  * **L’accès à des établissements spécifiques** signifie que l’utilisateur a accès aux établissements scolaires sélectionnés. Commencez à taper, puis sélectionnez l’établissement dans la liste. Vous pouvez ajouter plusieurs établissements scolaires simultanément.
-* Cliquez sur **Ajouter de nouveaux utilisateurs**.
-
-:::image type="content" source="media/insights-add-users.png" alt-text="Accorder des autorisations":::
-
 > [!NOTE]
+> Lorsque vous fournissez une autorisation pour un niveau de l’organisation, l’utilisateur peut voir toutes les unités d’organisation en dessous. Fournissez uniquement une autorisation aux leaders éducatifs qui en ont besoin.
+> 
 > Accordez uniquement les autorisations aux responsables de l’éducation qui en ont besoin, ainsi qu’aux unités d’organisation dont ils sont responsables. Si vous ne savez pas si une autorisation d’utilisateur est nécessaire pour une organisation spécifique, veuillez consulter les experts en matière de confidentialité de votre établissement, tels que le personnel juridique ou celui des ressources humaines.
 
-## <a name="edit-permissions"></a>Modifier les autorisations
-* Sélectionnez un utilisateur spécifique, puis sélectionnez **Modifier les autorisations**.
-* Mettez à jour le niveau d’autorisation ou la liste des établissements scolaires, puis cliquez sur **Mettre à jour les autorisations**.
+## <a name="role-based-permissions"></a>Autorisations basées sur des rôles
 
-:::image type="content" source="media/insights-edit-users.png" alt-text="Modifier les autorisations":::
+Si vous utilisez le [format de fichier SDS V2.1](/schooldatasync/sds-v2.1-csv-file-format) ou le [format de fichier SDS V2](/schooldatasync/sds-v2-csv-file-format), vous pouvez importer tous les rôles et la hiérarchie complète des écoles au sein du système éducatif. Ce mappage complet vous permet d’affecter des autorisations aux rôles. 
 
-## <a name="remove-permissions"></a>Supprimer les autorisations
-* Sélectionnez les utilisateurs à supprimer, puis sélectionnez **Supprimer les utilisateurs**.
-* Ces utilisateurs n’auront plus accès à Insights au niveau de l’organisation, mais pourront toujours accéder à Insights au niveau de la classe s’ils sont membres d’une équipe de classe.
+> [!NOTE]
+> Lorsqu’un utilisateur se voit affecter un rôle, il reçoit automatiquement les autorisations appropriées pour consulter les données qui les intéressent.
 
-:::image type="content" source="media/insights-remove-users.png" alt-text="Supprimer des autorisations":::
+* Au besoin, cliquez sur l’onglet **Autorisations basées sur des rôles**.
+
+  Vous verrez une liste des rôles dans votre organisation éducative, le niveau dans cette hiérarchie pour chacun d’entre eux, le nombre d’utilisateurs affectés à ce rôle et le niveau d’autorisation du rôle. 
+  
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Autorisations basées sur des rôles":::
+  
+  S’il existe un rôle sur plus d’un niveau de l’organisation, celui-ci s’affiche plusieurs fois, une fois par niveau. Dans la capture d’écran, nous avons des chefs d’établissement au niveau de l’établissement scolaire et du district. Il y a donc deux lignes pour « chef d’établissement ».
+  
+* Pour chaque rôle, cliquez sur l’icône crayon pour sélectionner le niveau d'autorisation. Le rôle par défaut ne dispose pas de l’autorisation pour afficher des informations.
+* Sélectionnez le niveau d'autorisation : **Afficher les données pour leur organisation** ou **Aucun**.
+* Cliquez sur **Enregistrer les modifications**.
+
+  Ce niveau d'autorisation est désormais automatiquement affecté à tous les nouveaux utilisateurs ayant ce rôle ou niveau d’organisation. L’utilisateur affiche les données pour toutes les unités d’organisation à son niveau de hiérarchie et en dessous.
+  
+  Si vous voyez un utilisateur de la liste qui a besoin d’un niveau d'autorisation plus nuancé, ajustez-le dans les Autorisations individuelles.
+  
+  Si un utilisateur n’est plus dans un rôle, son autorisation pour celui-ci est automatiquement révoquée (bien qu’il puisse encore avoir des autorisations individuelles).
+
+
+## <a name="individual-permissions"></a>Autorisations individuelles
+
+Utilisez les autorisations individuelles pour ajuster l’autorisation d’un utilisateur ou pour affecter des autorisations à chaque utilisateur si vous n’avez pas utilisé SDS V2 pour importer les données SIS pour votre organisation.
+
+* Cliquez sur l’onglet **Autorisations individuelles**.
+  
+  Les utilisateurs auxquels une autorisation individuelle est accordée s’affichent dans votre organisation éducative. 
+  
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Autorisations individuelles":::
+  
+### <a name="grant-individual-permission-to-a-user"></a>Accorder des autorisations individuelles à une utilisateur
+* Cliquez sur **Accorder des autorisations individuelles** dans le côté gauche de l’écran.
+* Entrez le nom d’utilisateur ou l’adresse e-mail de chaque utilisateur.
+* Sélectionnez le niveau d’autorisation :
+  * **L’accès à toute l’organisation** signifie que l’utilisateur a accès à toutes les unités d’organisation à tous les niveaux. Il est rarement utilisé.
+  * **Organisation spécifique** signifie que l’utilisateur voit l’unité d’organisation sélectionnée et toutes les unités d’organisation en dessous. Commencez à taper, puis sélectionnez l’unité d’organisation dans la liste.
+* Cliquez sur **Accorder des autorisations** pour enregistrer.
+
+### <a name="change-the-individual-permission-of-a-user"></a>Modifier les autorisations individuelles d’un utilisateur
+* Pour l’utilisateur concerné, cliquez sur l’icône crayon pour sélectionner le niveau d'autorisation individuelle.
+* Sélectionnez le niveau d’autorisation :
+  * **L’accès à toute l’organisation** signifie que l’utilisateur a accès à toutes les unités d’organisation à tous les niveaux. Il est rarement utilisé.
+  * **Organisation spécifique** signifie que l’utilisateur voit l’unité d’organisation sélectionnée et toutes les unités d’organisation en dessous. Commencez à taper, puis sélectionnez l’unité d’organisation dans la liste.
+  * **Aucun** signifie que l’utilisateur ne voit que les unités d’organisation automatiquement affectées par son rôle (le cas échéant).
+* Cliquez sur **Enregistrer les modifications** pour enregistrer.

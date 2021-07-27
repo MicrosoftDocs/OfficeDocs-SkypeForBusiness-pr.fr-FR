@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78215457177689b549112a19a9477fdd01c91de2
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282511"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586993"
 ---
 # <a name="about-the-upgrade-framework"></a>À propos du cadre de mise à niveau
 
@@ -55,7 +55,7 @@ Pour vous aider à montrer la manière dont votre voyage de mise à niveau peut 
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan : créer votre plan de mise à niveau pour garantir la réussite de votre organisation à long terme
 
-| Étape |  | Résumé | Ressource |
+| Étape |&nbsp;| Résumé | Ressource |
 |------|--|---------|----------|
 | **1** | **Définir les parties prenantes** | Affectez des membres de l’équipe de projet responsables de la réussite de la mise à niveau. | [Demandez à vos parties prenantes](upgrade-enlist-stakeholders.md) |
 | **2** | **Définir la vision et l’étendue de votre projet** | Concevez votre vision d’ensemble et l’étendue du projet en cours pour créer un plan pour votre voyage de mise à niveau. | [Project vision](upgrade-define-project-scope.md#project-vision) <br> <br>[Project étendue](upgrade-define-project-scope.md#project-scope) |
@@ -67,7 +67,7 @@ Pour vous aider à montrer la manière dont votre voyage de mise à niveau peut 
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Préparer : évaluer la disponibilité de votre organisation pour l’Teams
 
-| Étape |  | Résumé | Ressource |
+| Étape |&nbsp;  | Résumé | Ressource |
 |------|--|---------|----------|
 | **1** | **Évaluer votre environnement et effectuer une intégration Teams technique** | Assurez-vous que votre environnement est prêt pour Teams optimiser l’expérience utilisateur et faciliter votre mise à niveau au fil du temps. | [Évaluez votre environnement avant de mettre à niveau vers Teams.](upgrade-plan-journey-evaluate-environment.md)<br><br> [Préparer votre service pour la mise à niveau vers Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **Optimiser le réseau pour Teams, en particulier pour les scénarios multimédias en temps réel** | Si vous déployez des réunions audio, vidéo ou vidéo, vous devez suivre ces étapes supplémentaires pour optimiser votre réseau pour cette fonctionnalité. | [Préparer votre réseau pour la mise à niveau vers Teams](prepare-network.md) |
@@ -78,7 +78,7 @@ Pour vous aider à montrer la manière dont votre voyage de mise à niveau peut 
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Pilote : exécutez un pilote pour confirmer que votre organisation est prête et vous informer de votre expérience optimale pour Teams
 
-| Étape |  | Résumé | Ressource |
+| Étape | &nbsp; | Résumé | Ressource |
 |------|--|---------|----------|
 | **1** | **Plan de logistique du pilote** | Définissez une logistique pilote formelle pour valider la disponibilité de votre organisation en matière de mise à niveau ou de coexistence. | [Plan de logistique du pilote](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **Sélectionnez vos participants pilotes et scénarios de test** | Identifiez les utilisateurs qui peuvent aider à valider les scénarios d’équipe et à Teams préparation. | [Sélectionnez vos participants pilotes et scénarios de test](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
@@ -89,7 +89,7 @@ Pour vous aider à montrer la manière dont votre voyage de mise à niveau peut 
 
 ### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>Déploiement : exécuter une Teams coexistence avec d’Skype Entreprise
 
-| Étape |  | Résumé | Ressource |
+| Étape |&nbsp;  | Résumé | Ressource |
 |------|--|---------|----------|
 | **1** | **Annoncer le lancement officiel de l’Teams** | Générez de l’enthousiasme et une dynamique en envoyant une annonce de lancement officiel lorsque Teams êtes prêt. | [Kit de réussite de la mise à niveau](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **Implémenter votre mise à niveau** | Les étapes à suivre dépendent de votre déploiement actuel de Skype Entreprise. | [Implémenter votre mise à niveau](upgrade-to-teams.md) |
@@ -102,7 +102,7 @@ Pour vous aider à montrer la manière dont votre voyage de mise à niveau peut 
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Mise à niveau : Implémenter la mise à niveau Skype Entreprise vers Teams
 
-| Étape |  | Résumé | Ressource |
+| Étape |&nbsp;  | Résumé | Ressource |
 |------|--|---------|----------|
 | **1** | **Vérifier que vous avez terminé les activités de pré-mise à niveau décrites ci-dessus** | Garantissez le succès de la mise à niveau en confirmant l’achèvement de toutes les activités de planification et de préparation. | Tout ce qui précède |
 | **2** | **Démarrer des communications avec les utilisateurs de votre premier groupe de mise à niveau** | Informez les utilisateurs du démarrage des mises à niveau et gardez-les informés tout au long du processus. | [Préparer un plan de préparation utilisateur](upgrade-user-readiness.md) <br><br> [Kit de réussite de la mise à niveau](https://aka.ms/UpgradeSuccessKit) |
@@ -116,7 +116,7 @@ Pour vous aider à montrer la manière dont votre voyage de mise à niveau peut 
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>Utiliser : mesurer le succès de votre mise à niveau
 
-| Étape |  | Résumé | Ressource |
+| Étape | &nbsp; | Résumé | Ressource |
 |------|--|---------|----------|
 | **1** | **Évaluer le succès de votre mise à niveau initiale** | Évaluez la progression par rapport aux objectifs que vous avez fixés au cours de la phase de pré-mise à niveau. | [Project objectifs](upgrade-define-project-scope.md#project-goals) |
 | **2** | **Implémenter un plan d’atténuation pour les objectifs non fixés** | Définissez des stratégies d’atténuation ou de correction des cours pour les objectifs non atteints. | [Project objectifs](upgrade-define-project-scope.md#project-goals) |

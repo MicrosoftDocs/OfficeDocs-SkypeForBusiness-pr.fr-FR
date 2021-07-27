@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 17e6113b19a09500fba1050b7f8f33efd110ef44
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428200"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506373"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -72,11 +72,11 @@ Cliquez sur **Ajouter des comptes**, recherchez le compte de ressource que vous 
 
 ![Capture d’écran des paramètres d’ID d’appel](media/call-queue-assign-calling-id.png)
 
-Si vous envisagez d’utiliser un canal Teams pour vos télétribueurs, vous pouvez leur attribuer un numéro d’ID d’appelant sortant en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone.
+Si vous envisagez d’utiliser un canal Teams pour vos téléphonés, vous pouvez leur attribuer un numéro d’ID d’appelant sortant en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone.
 
 Cliquez **sur** Ajouter, recherchez les comptes de ressources que vous voulez autoriser les agents à appeler à des fins d’ID lors des appels sortants, cliquez sur **Ajouter,** puis sur **Ajouter.**
 
-Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance de l’agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
+Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance à un agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
 
 ## <a name="language"></a>Langue
 
@@ -93,7 +93,7 @@ Indiquez si vous souhaitez diffuser un message d’accueil aux appelants lorsqu�
 Teams fournit une musique par défaut aux appelants lorsqu’ils sont en attente dans une file d’attente. La musique par défaut fournie dans les files d’attente des appels Teams est exempte de toute redevance payable par votre organisation. Si vous souhaitez diffuser un fichier audio spécifique, choisissez **Lire un fichier audio** et téléchargez un fichier MP3, WAV ou WMA.
 
 > [!NOTE]
-> Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou musical avec votre service Microsoft Teams groupe, qui peuvent inclure des droits de propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques de musique, les noms et autres contenus du fichier audio de tous les titulaires des droits concernés, à savoir des artistes, des acteurs, des acteurs, des produire, des produire, des composers, des étiquettes d’enregistrement, des éditeurs de musique, des éditeurs de musique, des clips, des bandes sonores, des droits de propriété collective et toute autre partie qui possède, contrôle ou licence les droits de copyright de la musique, les effets sonores, les audio et autres droits de propriété intellectuelle.
+> Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations nécessaires pour utiliser tout fichier audio ou audio avec votre service Microsoft Teams musique, qui peuvent inclure des droits de propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques de musique, les noms et autres contenus du fichier audio de tous les titulaires des droits concernés, notamment les artistes, les acteurs, les acteurs, les fêtes, les composers, les étiquettes d’enregistrement, les éditeurs de musique, les écoutes, les droits de copyright, les organisations de gestion collective et toute autre partie qui possède, contrôle ou licence les droits de copyright de la musique, les effets sonores, les droits audio et autres droits de propriété intellectuelle.
 
 ## <a name="call-agents"></a>Agents d’appel
 
@@ -167,7 +167,7 @@ Vous pouvez activer le routage des appels basé sur la présence avec toutes les
 Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste de routage des appels, quel que soit son statut de disponibilité. 
 
 > [!NOTE]
-> Lorsque  l’inactivité la plus longue est sélectionnée comme méthode de routage, un routage basé sur la  présence est nécessaire et activé automatiquement, même si le basculement de routage en fonction de la présence est éteint et grisé.
+> Lorsque  l’inactive la plus longue est sélectionnée comme méthode de routage, un routage basé sur la  présence est nécessaire et activé automatiquement, même si le basculement de routage en fonction de la présence est éteint et grisé.
 >
 > Si le routage basé sur la présence n’est pas activé et qu’il y a plusieurs appels dans la file d’attente, le système présentera ces appels simultanément aux agents, quel que soit leur statut de présence. Cela entraînera plusieurs notifications d’appels aux agents, en particulier si certains agents ne répondent pas à l’appel initial qui leur est présenté.
 > 
@@ -229,7 +229,7 @@ Les clients suivants sont pris en charge pour les agents d’appel dans une file
   - Application Microsoft Teams pour Android
 
     > [!NOTE]
-    > Les files d’attente des appels auxquelles un numéro de routage direct est attribué ne prennent pas en charge les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents.
+    > Les files d’attente des appels auxquelles un numéro de routage direct est attribué ne prennent pas en charge les clients Skype Entreprise, les clients Lync ou les téléphones IP Skype Entreprise en tant qu’agents. Le Teams client n’est pris en charge qu’avec un mode de [co-existence Teams uniquement.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets de files d’attente des appels
 

@@ -1,7 +1,7 @@
 ---
 title: Limites et spécifications de Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: microsoftheidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: abff04e9fd51f0d7e399b8619442dbf9e3070c43
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345720"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506343"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites et spécifications de Microsoft Teams
 
@@ -120,14 +120,14 @@ Les noms des canaux ne peuvent pas non plus commencer par un trait de souligneme
 
 |Fonctionnalité     | Limite maximale |
 |------------|---------------|
-|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC, GCCH et DoD, mais pas A1 (300). **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).<sup>1,2</sup>.|
+|Nombre de participants à une réunion (possibilité de conversation et appel entrant)  | 1000, inclut GCC, GCCH et DoD, mais pas A1 (300). **La fonction de visualisation** permet à un maximum de 20 000 participants en mode écoute de se joindre à une réunion pour laquelle l'organisateur dispose d'une licence pour E3/E5/A3/A5 SKU, ainsi que pour les gouvernements (GCC, GCC High, DoD). L’expérience d’affichage en lecture seule sera bientôt disponible pour les webinaires. En savoir plus sur l'[Expérience d’affichage seul](view-only-meeting-experience.md).<sup>1,2</sup>.|
 |Nombre de personnes dans un appel vidéo ou audio de la conversation | 20 |
 |Taille maximale des fichiers PowerPoint | 2 Go|
 |Teams garde les [enregistrements de réunions](cloud-recording.md) non chargés dans Microsoft Stream, disponibles en téléchargement local | 20 jours |
   
-<sup>1</sup> Pour une expérience optimale dans les grandes réunions, nous vous recommandons d’utiliser le client de bureau Teams ou les clients mobiles Teams.
+<sup>1</sup> Pour une expérience optimale dans les réunions de grande taille, les webinaires et les événements en direct, Microsoft recommande d’utiliser le client de bureau Teams ou les clients mobiles Teams.
   
-<sup>2</sup> Dans les grandes réunions, nous recommandons aux présentateurs d’utiliser le client de bureau Teams. Pour obtenir des conseils supplémentaires sur l’hébergement de réunions volumineuses, consultez [Meilleures pratiques pour une réunion Teams de grande taille](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+<sup>2</sup> Les présentateurs dans les grandes réunions, les webinaires et les événements en direct doivent utiliser le client de bureau Teams. Pour obtenir des conseils supplémentaires sur l’hébergement de réunions volumineuses, consultez [Meilleures pratiques pour une réunion Teams de grande taille](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
   
 > [!NOTE]
 > Les salles de groupe restreint ne peuvent être créées que dans les réunions qui ont moins de 300 participants. En outre, la création de salles de groupe restreint dans une réunion limite automatiquement le nombre de participants à la réunion à 300. Informez vos utilisateurs finaux de ne pas lancer les salles de groupe restreint auxquelles ils attendent plus de 300 participants. Pour plus d’informations sur les grandes réunions d’équipe, partagez les conseils [Meilleures pratiques pour une réunion Teams volumineuse](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16) avec vos utilisateurs finaux. 

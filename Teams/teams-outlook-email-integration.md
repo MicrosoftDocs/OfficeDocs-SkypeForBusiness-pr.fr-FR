@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
+ms.openlocfilehash: b77f63afe0307d9dcf3c883d8b93242d26c7f7cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397557"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587243"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams’intégration de Outlook messagerie électronique
 
@@ -31,7 +31,7 @@ Microsoft Teams inclut des fonctionnalités qui permet aux utilisateurs de votre
 
 ![Capture d’écran montrant la fonctionnalité Partager Outlook partage dans Teams](media/share-to-outlook.png)
 
-Pour utiliser cette fonctionnalité, Outlook sur le web doit être désactivé pour l’utilisateur. Si Outlook sur le web est désactivée, **l’option** Partager vers Outlook ne s’affiche pas dans Teams pour l’utilisateur. Pour savoir comment activer et désactiver Outlook sur le web, voir Activer ou désactiver Outlook sur le web pour [une boîte aux lettres.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
+Pour utiliser cette fonctionnalité, Outlook sur le web doit être désactivé pour l’utilisateur. Si Outlook sur le web est désactivée, l’option **Partager Outlook’est** pas affichée dans Teams’utilisateur. Pour savoir comment activer et désactiver les Outlook sur le web, voir Activer ou désactiver des Outlook sur le web [pour une boîte aux lettres.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)
 
 ## <a name="actionable-activity-emails"></a>E-mails d’activité actionnable
 
@@ -46,4 +46,4 @@ Les utilisateurs obtiennent automatiquement des messages d’activité manquée 
 
 Vous pouvez utiliser l’cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) avec le paramètre **SmtpActionableMessagesEnabled** pour désactiver les e-mails actionnables. Par défaut, le **paramètre SmtpActionableMessagesEnabled** **est** true. La définition du paramètre sur **False** a pour rôle de couper ou de Office 365. Pour Teams utilisateurs, cela signifie  que l’option Répondre directement dans Outlook n’est pas disponible dans les e-mails d’activité manquée. Au lieu de cela, les e-mails d’activité manquées incluent une **option** Répondre dans Teams que les utilisateurs peuvent répondre dans Teams.
 
-Voir également [Messages actionnables dans Outlook et Office 365 Groupes d’équipes.](https://docs.microsoft.com/outlook/actionable-messages/)
+Voir également [Messages actionnables dans Outlook et Office 365 Groupes d’équipes.](/outlook/actionable-messages/)

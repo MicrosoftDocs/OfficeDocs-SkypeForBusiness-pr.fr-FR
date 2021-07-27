@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams présence aux réunions
+title: Rapport de participation aux réunions Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -9,32 +9,32 @@ ms.service: msteams
 ms.reviewer: asappiah
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Obtenir un rapport de participation aux réunions à partir de l’Teams. Ce rapport complète les rapports d’utilisation disponibles à partir du Centre Teams’administration.
+description: Obtenez un rapport de participation à une réunion à partir de Teams. Ce rapport complète les rapports d’utilisation disponibles à partir du Centre d’administration Teams.
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 22d727adb211718e9734446f2202635e180f5fc3
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: MT
+ms.openlocfilehash: f31c541f06c9de46312647cd6dcd97b19812cb24
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598493"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506303"
 ---
-# <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams présence aux réunions
+# <a name="microsoft-teams-meeting-attendance-report"></a>Rapport de participation aux réunions Microsoft Teams
 
-Les organisateurs de réunion peuvent afficher et télécharger un rapport de présence aux réunions. Recherchez ce rapport dans **le volet Participants** de la réunion, en cliquant sur la flèche de téléchargement comme illustré ci-dessous. Vous pouvez télécharger le rapport en tant .CSV fichier (format texte).
+Les organisateurs de réunions peuvent télécharger des rapports de présence pendant les réunions. Recherchez ce rapport dans le volet **Participants** de la réunion, en cliquant sur la flèche de téléchargement comme indiqué ci-dessous. Vous pouvez télécharger le rapport en tant que fichier .CSV (format texte).
 
-:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Contrôle de téléchargement des rapports de présence de réunion dans Microsoft Teams":::
+:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Contrôle de téléchargement des rapports de participation aux réunions dans Microsoft Teams":::
 
-Pour les locataires Éducation, ce rapport est utile pour suivre la participation des étudiants aux cours en ligne. Par exemple, l’enseignant peut télécharger le rapport de présence au début de la classe comme moyen simple d’appeler. Pour en savoir plus, lisez télécharger les rapports [de présence dans Teams.](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
+Pour les clients dans l’éducation, ce rapport est utile pour suivre la participation des étudiants aux cours en ligne. Par exemple, l’enseignant peut télécharger le rapport de présence au début de la classe comme moyen simple d’effectuer un « appel cumulatif ». Pour en savoir plus, lisez [Télécharger les rapports de présence dans Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 
-En tant qu’administrateur, vous contrôlez si les organisateurs de réunion peuvent télécharger les rapports de présence aux réunions en Teams stratégie de réunion. Par défaut, la possibilité de télécharger le rapport est désactivée. Pour savoir comment activer cette fonctionnalité, reportez-vous aux paramètres de stratégie de réunion [- Rapport de présence aux réunions.](../meeting-policies-in-teams-general.md#meeting-attendance-report)
+En tant qu’administrateur, vous contrôlez si les organisateurs de réunion peuvent télécharger les rapports de participation aux réunions en définissant une stratégie de réunion Teams. Par défaut, la possibilité de télécharger le rapport est désactivée. Pour savoir comment activer cette fonctionnalité, consultez [Paramètres de stratégie de réunion – Rapport de participation aux réunions](../meeting-policies-in-teams-general.md#meeting-attendance-report).
 
-Si les organisateurs de la réunion ont besoin d’accéder à plus de  données de présence aux réunions qu’ils n’en obtiennent à partir du rapport disponible dans la réunion, vous pouvez attribuer le rôle de lecteur de rapport afin qu’ils peuvent accéder aux rapports d’administrateur Teams eux-mêmes. Pour en savoir plus, lisez cet [Qui pouvez accéder aux Teams d’activité des personnes.](../teams-activity-reports.md#who-can-access-the-teams-activity-reports) 
+Si les organisateurs de réunion ont besoin d’accéder à plus de données de participation aux réunions qu’ils n’obtiennent du rapport disponible dans la réunion, vous pouvez attribuer le rôle *lecteur de rapport* afin qu’ils puissent accéder aux rapports d’administration Teams eux-mêmes. Pour en savoir plus, lisez [Qui peut accéder aux rapports d’activité Teams](../teams-activity-reports.md#who-can-access-the-teams-activity-reports). 
 
 ## <a name="related-topics"></a>Voir aussi
 

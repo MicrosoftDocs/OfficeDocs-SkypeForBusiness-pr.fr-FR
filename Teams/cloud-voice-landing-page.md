@@ -24,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur les Microsoft Teams fonctionnalités vocales cloud et les décisions de déploiement que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b8f60f9d664432fbb68c48ee61d6f26902eeae
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354380"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486124"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution Teams voix 
 
@@ -61,7 +61,7 @@ Toutefois, votre situation peut être plus complexe. Par exemple, vous pouvez av
 | Obligatoire pour tous | Description |
 | :------------|:-------|
 | [**Système téléphonique**](#phone-system) | La technologie de Microsoft qui permet d’activer le contrôle des appels et les fonctionnalités Exchange de branche privée (PBX) dans le cloud Microsoft 365'Microsoft Teams. |
-| [**Options de connectivité de réseau téléphonique commuté (PSTN)**](#public-switched-telephone-network-connectivity-options) | Choix entre l’utilisation de Microsoft comme opérateur de téléphonie ou la connexion de votre propre opérateur téléphonique à Microsoft Teams à l’aide du routage direct ou de l’opérateur Connecter. Combinées avec Système téléphonique, les options de connectivité PSTN permettent à vos utilisateurs de effectuer des appels téléphoniques dans le monde entier.|
+| [**Options de connectivité de réseau téléphonique commuté (PSTN)**](#public-switched-telephone-network-connectivity-options) | Choix entre l’utilisation de Microsoft comme opérateur de téléphonie ou la connexion de votre propre opérateur téléphonique à Microsoft Teams à l’aide de l’opérateur Connecter ou du routage direct. Combinées avec Système téléphonique, les options de connectivité PSTN permettent à vos utilisateurs de effectuer des appels téléphoniques dans le monde entier.|
 
 **En fonction de vos besoins.** Certaines des sections de cet article et des articles connexes sont pertinentes en fonction de votre déploiement et des exigences existantes. Par exemple, un Location-Based routage n’est nécessaire que pour les clients de routage direct dans des emplacements géographiques qui n’autorisent pas la dérivation contre les frais.
 
@@ -143,9 +143,9 @@ Système téléphonique fournit des fonctionnalités PBX complètes pour votre o
 
 - [**Système téléphonique’aide d’un forfait d’appels.**](pstn-connectivity.md#phone-system-with-calling-plan) Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN.
 
-- Système téléphonique avec votre propre opérateur [**PSTN en**](pstn-connectivity.md#phone-system-with-direct-routing) utilisant le routage direct pour connecter votre environnement local à Teams.
-
 - [**Système téléphonique votre propre opérateur PSTN à**](operator-connect-plan.md)l’aide de l’opérateur Connecter, actuellement disponible uniquement en **prévisualisation publique.**  Avec la Connecter opérateur, si votre opérateur existant participe au programme Connecter de l’opérateur Microsoft, il peut gérer le service de mise à niveau des appels R TEAMS. Pour plus d’informations sur les avantages et les exigences de la Connecter opérateur, et pour obtenir la liste des opérateurs participant à ce programme, consultez la liste des opérateurs [Connecter.](operator-connect-plan.md)
+
+- Système téléphonique avec votre propre opérateur [**PSTN en**](pstn-connectivity.md#phone-system-with-direct-routing) utilisant le routage direct pour connecter votre environnement local à Teams.
 
 Vous pouvez également choisir une combinaison d’options qui vous permet de concevoir une solution pour un environnement complexe ou de gérer une migration en plusieurs étapes (en savoir plus sur la migration ultérieure).
 

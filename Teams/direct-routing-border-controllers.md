@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Les administrateurs peuvent en savoir plus sur les contrôleurs de session en bordure certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33df0f9d00d0c02d28c5f69ef26ae151586803d2
-ms.sourcegitcommit: 9b794b579e57d478e5e4bd76b8ca79fdea6f90c4
-ms.translationtype: MT
+ms.openlocfilehash: af721c97d809204eacc897c09a6f504a0d6d5722
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53465382"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482327"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -93,7 +93,7 @@ Si vous avez des questions concernant le programme de certification SBC pour le 
 |                     [M5 Technologies (anciennement Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel Series   |     &#10004;     |         |      DGW 48.0.2340 (DGW recommandé 48.1.2503)      |     |    |
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Contrôleur de bordure de session Ekinops (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Contrôleur de bordure de session virtuelle Ekinops (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
-|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Voix hyperconvergée   |     &#10004;     |         |      HCVoice 1.0.6       |     |    |
+|                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Voix hyperconvergée   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>
 
@@ -112,7 +112,7 @@ Le tableau suivant répertorie les appareils dont l’interopérabilité est vé
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     | 
-| [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Adaptateur de téléphone analogique à plusieursplats |     &#10004;     |
+| [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Adaptateur de téléphone analogique à plusieurs plaques |     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 Software Version 8.3.0.1.2 |     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Logiciel AP3900 Version 8.3.0.1.2|     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 Software Version 8.3.0.1.2|     &#10004;     |

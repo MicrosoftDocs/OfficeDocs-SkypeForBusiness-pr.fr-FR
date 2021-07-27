@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809074"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586983"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de courriers électroniques et d’enquêtes pour les communications De base de mise à niveau
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Teams et s’il existe une ou plusieurs activités dont vous souhaitez en savoir plus.
 
-| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | N/A | Vous ne savez pas ou ne vous connaissez pas | | | | |
+| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | N/A | Vous ne savez pas ou ne vous connaissez pas |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Utiliser des Teams messagerie instantanée/discuter avec d’autres personnes | | | | | | | | | | |
 | Utiliser des Teams pour les réunions en ligne | | | | | | | | | | |

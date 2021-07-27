@@ -1,5 +1,5 @@
 ---
-title: Teams cas Contoso voix
+title: 'Étude de cas Contoso : Système téléphonique pour une entreprise multinationale'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,17 +13,17 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams cas de voix pour une entreprise multinationale
+description: 'Teams cas de voix pour une entreprise multinationale : système téléphonique'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101030"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587143"
 ---
-# <a name="contoso-case-study-phone-system"></a>Étude de cas Contoso : Système téléphonique
+# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Étude de cas Contoso : Système téléphonique pour une entreprise multinationale
 
 En fonction de l’emplacement géographique et d’autres facteurs, les bureaux de Contoso ont été bureaux à l’aide des solutions téléphoniques suivantes :
 
@@ -74,7 +74,7 @@ En se basant sur les réponses à leurs questions, Contoso a décidé de :
 
 Le diagramme suivant montre le déploiement initial Skype Entreprise Voix Entreprise et la façon dont ce déploiement a été migré vers les plans d’appels Microsoft et le routage direct :
 
-![Diagramme montrant les états avant et après](media/voice-case-study-1.png)
+![Le diagramme indique les états avant et après.](media/voice-case-study-1.png)
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>Type de site B : systèmes de téléphonie hérités traditionnels
 
@@ -102,12 +102,12 @@ En se basant sur les réponses à leurs questions, Contoso a décidé de :
 Les diagrammes suivants montrent le déploiement d’origine du système hérité avec des sites distants et la migration vers un déploiement de routage direct avec l’optimisation des médias locaux :
 
 **Déploiement hérité d’origine**  
- ![ Diagramme montrant les états avant et après](media/voice-case-study-2.png)
+ ![ Un diagramme indique les états avant et après.](media/voice-case-study-2.png)
 
 
 **Déploiement avec routage direct**
 
-![Diagramme montrant les états avant et après](media/voice-case-study-3.png)
+![Diagramme montrant les états avant et après.](media/voice-case-study-3.png)
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>Type de site C : combinaison de Skype Entreprise Voix Entreprise et de systèmes de téléphonie hérités traditionnels
 
@@ -137,10 +137,10 @@ En se basant sur les réponses à leurs questions, Contoso a décidé des soluti
 Les diagrammes suivants montrent le réseau d Skype Entreprise Voix Entreprise et l’ancien déploiement du système téléphonique et la migration vers un déploiement mixte à l’aide du routage direct :
 
 **Déploiement mixte d’origine** 
- ![ Diagramme montrant avant l’état](media/voice-case-study-4.png)
+ ![ Diagramme 1 montrant l’état avant.](media/voice-case-study-4.png)
 
 **Déploiement mixte avec routage direct** 
- ![ Diagramme montrant avant l’état](media/voice-case-study-4a.png)
+ ![ Diagramme 2 montrant l’état avant.](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>Forfaits d’appel

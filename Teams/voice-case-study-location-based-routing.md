@@ -1,5 +1,5 @@
 ---
-title: Teams cas Contoso voix
+title: 'Teams cas Voice Contoso : routage basé sur l’emplacement'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,21 +13,21 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams cas de voix pour une entreprise multinationale
+description: 'Teams cas de voix pour une entreprise multinationale : routage en fonction de l’emplacement'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786008"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587153"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Étude de cas Contoso : Location-Based routage
 
 Location-Based routage des appels (LBR) est une fonctionnalité qui restreint la dérivation contre les frais en fonction d’une stratégie et de l’emplacement physique de l’utilisateur au moment du placement ou de la réception d’un appel.  
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Contoso a deux bureaux dans un pays où il n’est pas illégal d’ignorer le fournisseur de réseau téléphonique commuté (PSTN) afin de diminuer les coûts des appels longue distance. Le bureau principal dispose d’une connexion Internet qui est utilisée par le bureau principal et par le deuxième bureau. Chaque bureau possède son propre contrôleur de session en bordure (SBC) connecté à un opérateur PSTN.  
  
@@ -47,11 +47,11 @@ Les diagrammes suivants montrent les déploiements avant et après pour un pays 
 
 **Déploiement d’origine**
 
-![Diagramme montrant avant l’état](media/voice-case-study-5.png)
+![Diagramme montrant l’état avant.](media/voice-case-study-5.png)
 
 **Déploiement avec routage direct**
 
-![Diagramme montrant avant l’état](media/voice-case-study-6.png)
+![Diagramme 2 présentant l’état avant.](media/voice-case-study-6.png)
 
 
 ## <a name="configuration"></a>Configuration : 

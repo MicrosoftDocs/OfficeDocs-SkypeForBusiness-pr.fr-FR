@@ -1,5 +1,5 @@
 ---
-title: Gérer les équipes dans le centre Microsoft Teams’administration
+title: Gérer les équipes dans le Centre d’administration Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,8 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: Découvrez comment afficher ou mettre à jour les équipes que votre organisation a définies pour la collaboration dans le Microsoft Teams d’administration.
-localization_priority: Normal
+description: Découvrez comment afficher ou mettre à jour les équipes que votre organisation a configurées pour la collaboration dans le Centre d’administration Microsoft Teams.
+localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,81 +19,80 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea81ad854224e08142f9c87725d25176dcc60d44
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
-ms.translationtype: MT
+ms.openlocfilehash: c856763cc642b3790a159b404ba27cd3d16fc727
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237540"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506313"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le centre Microsoft Teams’administration
-==========================================
+# <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le Centre d’administration Microsoft Teams
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
-Cet article fournit une vue d’ensemble des outils de gestion Teams dans le Microsoft Teams d’administration.
+Cet article fournit une vue d’ensemble des outils de gestion pour Teams dans le Centre d’administration Microsoft Teams.
 
-En tant qu’administrateur, vous devrez peut-être afficher ou mettre à jour les équipes que votre organisation a définies pour la collaboration, ou vous devrez peut-être effectuer des actions de correction, telles que l’attribution de propriétaires à des équipes sans propriétaire. Vous pouvez gérer les équipes utilisées dans votre organisation à la fois via le module Microsoft Teams PowerShell et le Microsoft Teams d’administration. Vous pouvez accéder au Centre d’administration à <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> l’adresse . Pour des fonctionnalités d’administration complètes utilisant ces deux jeux d’outils, vous devez vous assurer qu’un des rôles suivants vous est attribué :
+En tant qu’administrateur, vous devrez peut-être afficher ou mettre à jour les équipes que votre organisation a configurées pour la collaboration, ou vous devrez peut-être effectuer des actions de correction telles que l’attribution de propriétaires pour les équipes sans propriétaire. Vous pouvez gérer les équipes utilisées dans votre organisation via le module Microsoft Teams PowerShell et le Centre d’administration Microsoft Teams. Vous pouvez accéder au Centre d’administration sur <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>. Pour bénéficier de fonctionnalités d’administration complètes à l’aide de ces deux ensembles d’outils, vous devez vous assurer que l’un des rôles suivants vous est attribué :
 
 - Administrateur général
 - Administrateur Teams
 
-Vous pouvez en savoir plus sur les rôles d’administrateur dans Teams dans Utiliser les rôles d’administrateur Microsoft Teams pour gérer [des Teams,](using-admin-roles.md)et en savoir plus sur l’utilisation des cmdlets PowerShell pour la gestion des équipes dans la référence de l’cmdlet [Microsoft Teams.](/powershell/teams/?view=teams-ps)
+Vous pouvez en savoir plus sur les rôles d’administrateur dans Teams dans [Utiliser les rôles d’administrateur Microsoft Teams pour gérer Teams](using-admin-roles.md), et vous pouvez en savoir plus sur l’utilisation des applets de commande PowerShell pour la gestion des équipes dans les [informations de référence sur les applets de commande Microsoft Teams](/powershell/teams/?view=teams-ps).
 
 
 
-## <a name="teams-overview-grid"></a>Teams de vue d’ensemble
+## <a name="teams-overview-grid"></a>Grille de vue d’ensemble de Teams
 
-Les outils de gestion pour les équipes se **Teams** le nœud de gestion dans Microsoft Teams d’administration. (Dans le Centre d’administration, **sélectionnez Teams**  >  **Gérer les équipes**.) Chaque équipe est backed by a Microsoft 365 group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
+Les outils de gestion pour les équipes se trouvent sous le nœud **Teams** dans le Centre d’administration Microsoft Teams. (Dans le Centre d’administration, sélectionnez **Teams** > **Gérer les équipes**.) Chaque équipe est soutenue par un groupe Microsoft 365, et ce nœud fournit une vue des groupes qui ont été compatibles avec Microsoft Teams dans votre organisation.
 
-![Capture d’écran de la Teams de vue d’ensemble](media/manage-teams-in-modern-portal-grid.png)  
+![Capture d’écran de la grille de vue d’ensemble de Teams](media/manage-teams-in-modern-portal-grid.png)  
 
 La grille affiche les propriétés suivantes :
 
 - **Nom de l’équipe**
-- **Canaux** : un nombre de canaux dans l’équipe, y compris le canal Général par défaut.
-- **Membres d’une** équipe : un nombre total d’utilisateurs, y compris les propriétaires, invités et membres de votre client.
-- **Propriétaires** : un nombre de propriétaires pour cette équipe.
-- **Invités** : nombre d’Azure Active Directory invités B2B qui sont membres de cette équipe.
-- **Confidentialité** - Visibilité/Type d’accès du groupe Microsoft 365 de sécurité.
-- **État** : état Archivé ou Actif pour cette équipe. En savoir plus sur l’archivage des équipes [dans Archiver ou restaurer une équipe.](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
-- **Description** : description du groupe de Microsoft 365.)
-- **Classification** : classification (si elle est utilisée dans votre organisation) assignée au groupe Microsoft 365 personnel. Pour plus d’informations sur les [classifications, Office classifications pour les groupes de votre organisation.](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)
-- **GroupID** - GroupID unique du groupe de Microsoft 365 groupe.
+- **Canaux** : Nombre de tous les canaux de l’équipe, y compris le canal Général par défaut.
+- **Les membres de l’équipe** : Nombre total d’utilisateurs, y compris les propriétaires, les invités et les membres de votre client.
+- **Propriétaires** : Nombre de propriétaires pour cette équipe.
+- **Invités** : Nombre d’utilisateurs invités B2B Azure Active Directory membres de cette équipe.
+- **Privacy** : Visibilité et accès au groupe de sauvegardes Microsoft 365.
+- **Status** : État archivé ou actif pour cette équipe. En savoir plus sur l’archivage des équipes dans [Archiver ou restaurer une équipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- **Description** : Description du groupe de sauvegardes Microsoft 365.
+- **Classification** : Classification (si elle est utilisée dans votre organisation) affectée au groupe de sauvegardes Microsoft 365. Pour en savoir plus sur les classifications, consultez [Créer des classifications pour les groupes Office dans votre organisation](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization).
+- **GroupID** : l’ID de groupe unique du groupe de sauvegardes Microsoft 365.
 
 > [!NOTE]
-> Si vous ne voyez pas toutes ces propriétés dans la grille, cliquez sur **l’icône Modifier les colonnes.** Dans le **volet Modifier les** colonnes, vous pouvez utiliser les boutons bascule pour activer ou désactiver les colonnes dans la grille. Lorsque vous avez terminé, cliquez sur **Appliquer.**
+> Si vous ne voyez pas toutes ces propriétés dans la grille, cliquez sur l’icône **Modifier les colonnes** . Dans le volet **Modifier les colonnes**, vous pouvez utiliser les boutons bascules pour activer ou désactiver les colonnes de la grille. Lorsque vous avez terminé, cliquez sur **Appliquer**.
 
 ### <a name="add"></a>Ajouter
 
-Pour ajouter une équipe, cliquez sur **Ajouter.** Dans le **volet Ajouter** une nouvelle équipe, donnez un nom et une description à l’équipe, définissez si vous souhaitez en faire une équipe privée ou publique et définissez la classification.
+Pour ajouter une nouvelle équipe, cliquez sur **Ajouter**. Dans le volet **Ajouter une nouvelle équipe**, donnez un nom et une description à l’équipe, indiquez si vous souhaitez en faire une équipe privée ou publique, puis définissez la classification.
 
 > [!NOTE]
-> Les équipes nouvellement créées peuvent être gérées immédiatement dans le Teams d’administration, contrairement à l’expérience d’autres clients tels que Outlook.
+> Les équipes nouvellement créées peuvent être gérées immédiatement dans le Centre d’administration Teams, contrairement à l’expérience d’autres clients comme Outlook.
 
 ### <a name="edit"></a>Modifier
 
-Pour modifier les paramètres des groupes et des équipes, sélectionnez l’équipe en cliquant à gauche du nom de l’équipe, puis sélectionnez **Modifier.**
+Pour modifier les paramètres spécifiques au groupe et à l’équipe, sélectionnez l’équipe en cliquant à gauche du nom de l’équipe, puis sélectionnez **Modifier**.
 
-### <a name="archive"></a>Archivage
+### <a name="archive"></a>Archiver
 
-Vous pouvez archiver une équipe. L’archivage d’une équipe place l’équipe en mode lecture seule dans Teams. En tant qu’administrateur, vous pouvez archiver et dés archiver des équipes pour le compte de votre organisation dans le Centre d’administration. 
+Vous pouvez archiver une équipe. L’archivage d’une équipe place l’équipe en mode lecture seule dans Teams. En tant qu’administrateur, vous pouvez archiver et annuler l’archivage des équipes au nom de votre organisation dans le Centre d’administration. 
 
 ### <a name="delete"></a>Supprimer
 
-La suppression d’une équipe est une suppression (suppression soft) de l’équipe et de la Microsoft 365 groupe. Pour restaurer une équipe supprimée par erreur, suivez les instructions dans [Restaurer un groupe supprimé.](/microsoft-365/admin/create-groups/restore-deleted-group)
+La suppression d’une équipe est une suppression réversible de l’équipe et du groupe Microsoft 365 correspondant. Pour restaurer une équipe supprimée par erreur, suivez les instructions de [Restaurer un groupe supprimé](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="search"></a>Rechercher
 
-La recherche prend actuellement en charge la chaîne « Commence par » et recherche dans le champ Nom de **l’équipe.**
+La recherche prend actuellement en charge la chaîne « Commence par » et effectue une recherche dans le champ **nom de l’équipe**.
 
 ## <a name="team-profile"></a>Profil d’équipe
 
-Vous pouvez accéder à la page de profil d’une équipe à partir de la grille de vue d’ensemble principale des équipes en cliquant sur le nom de l’équipe. La page de profil d’équipe affiche les membres, les propriétaires et les invités qui appartiennent à l’équipe (et son groupe Microsoft 365), ainsi que les canaux et paramètres de l’équipe. Dans la page de profil de l’équipe, vous pouvez :
+Vous pouvez accéder à la page de profil d’équipe de n’importe quelle équipe à partir de la grille principale de vue d’ensemble des équipes en cliquant sur le nom de l’équipe. La page de profil d’équipe affiche les membres, les propriétaires et les invités qui appartiennent à l’équipe (et le groupe de sauvegardes Microsoft 365), ainsi que les canaux et paramètres de l’équipe. À partir de la page de profil d’équipe, vous pouvez :
 
 - Ajoutez ou supprimez des membres et des propriétaires.
 - Ajouter ou supprimer des canaux (notez que vous ne pouvez pas supprimer le canal Général).
-- Modifiez les paramètres des équipes et des groupes.
+- Modifiez les paramètres d’équipe et de groupe.
  
 ![Capture d’écran d’un exemple de profil d’équipe](media/manage-teams-in-modern-portal-team-profile-page.png)
 
@@ -101,43 +100,43 @@ Vous pouvez accéder à la page de profil d’une équipe à partir de la grille
 
 Dans la page de profil de l’équipe, vous pouvez modifier les éléments suivants d’une équipe :
 
-- **Membres :** ajouter ou supprimer des membres et promouvoir ou rétrograder des propriétaires.
-- **Canaux** : ajoutez de nouveaux canaux et modifiez ou supprimez des canaux existants. N’oubliez pas que vous ne pouvez pas supprimer le canal Général par défaut.
+- **Membres** : Ajouter ou supprimer des membres et promouvoir ou rétrograder des propriétaires.
+- **Canaux** : Ajoutez de nouveaux canaux et modifiez ou supprimez des canaux existants. N’oubliez pas que vous ne pouvez pas supprimer le canal Général par défaut.
 - **Nom de l’équipe**
 - **Description**
-- **Confidentialité** : définir si l’équipe est publique ou privée.
-- **Classification** : cette classification est backed by your Microsoft 365 group classifications. Sélectionnez **Confidentiel,** **Hautement confidentiel** ou **Général.**
-- **Paramètres des conversations** : définir si les membres peuvent modifier et supprimer les messages envoyés.
-- **Paramètres des canaux** : définir si les membres peuvent créer et modifier des canaux existants, et ajouter, modifier et supprimer des onglets, des connecteurs et des applications.
+- **Confidentialité** : Définissez si l’équipe est publique ou privée.
+- **Classification** : Elle est sauvegardée par vos classifications de groupe Microsoft 365. Choisissez **confidentiel**, **hautement confidentiel** ou **général**.
+- **Paramètres de conversation** : Définissez si les membres peuvent modifier et supprimer des messages envoyés.
+- **Paramètres de canaux** : Définissez si les membres peuvent créer des canaux et modifier des canaux existants, et ajouter, modifier et supprimer des onglets, des connecteurs et des applications.
 
-Les modifications que vous a apportées à une équipe sont enregistrées. Si vous modifiez les paramètres du groupe (modification du nom, de la description, de la photo, de la confidentialité, de la classification ou des membres d’une équipe), les modifications vous sont attribuées via le pipeline d’audit. Si vous effectuez des actions par rapport Teams paramètres spécifiques, vos modifications sont suivis et vous sont attribuées dans le canal Général de l’équipe.
+Les modifications que vous apportez à une équipe sont enregistrées. Si vous modifiez les paramètres de groupe (modification du nom, de la description, de la photo, de la confidentialité, de la classification ou des membres de l’équipe), les modifications vous sont attribuées via le pipeline d’audit. Si vous effectuez des actions sur des paramètres spécifiques à Teams, vos modifications sont suivies et attribuées à vous dans le canal Général de l’équipe.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-**Problème : Teams manquants dans la grille de vue d’ensemble de l’équipe**
+**Problème : Teams manquant dans la grille de vue d’ensemble de l’équipe**
 
-Certaines de vos équipes sont manquantes dans la liste des équipes dans la Teams de vue d’ensemble.
+Certaines de vos équipes sont manquantes dans la liste des équipes dans la grille de vue d’ensemble de Teams.
 
-**Cause**: ce problème se produit lorsque l’équipe a été profilée de façon incorrecte (ou pas encore) par le système, ce qui peut entraîner une propriété manquante pour qu’elle soit reconnue.
+**Cause**: Ce problème se produit lorsque l’équipe a été incorrectement (ou pas encore) profilée par le système, ce qui peut entraîner une propriété manquante pour qu’elle soit reconnue.
 
-**Résolution : définir manuellement la propriété sur la valeur correcte via MS Graph**
+**Résolution : Définir manuellement la propriété sur la valeur correcte via MS Graph**
 
-Remplacez **{groupid}** dans la requête pour le GroupId réel en question, que vous pouvez obtenir via la Exchange Online powershell, par l’attribut « **[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»** comme attribut **« ExternalDirectoryObjectId**».
+Remplacez **{groupid}** dans la requête pour le GroupId réel en question, que vous pouvez obtenir via Exchange Online PowerShell, par l'applet de commande **«[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)»**, en tant qu’attribut «**ExternalDirectoryObjectId**».
 
-1. Accédez [Graph Explorer.](https://developer.microsoft.com/graph/graph-explorer)
+1. Accéder à [l’Afficheur Graph](https://developer.microsoft.com/graph/graph-explorer).
 
-2. Connectez-vous Graph explorer dans le menu de gauche.
+2. Connectez-vous à l’Afficheur Graph dans le menu de gauche.
 
-3. Modifiez la ligne de requête en : PATCH > v1.0 https://graph.microsoft.com/v1.0/groups/{groupid} >.
+3. Remplacez la ligne de requête par : PATCH > v1.0 > https://graph.microsoft.com/v1.0/groups/{groupid}.
 
-4. Ajoutez la valeur suivante dans le corps de la demande : {"resourceProvisioningOptions »: ["Team"]}.
+4. Ajoutez la valeur suivante dans le corps de la demande : {"resourceProvisioningOptions »: ["Team"]}.
 
 5. Exécutez la requête en haut à droite.
 
-6. Confirmez que l’équipe s’affiche correctement dans le Microsoft Teams d’administration - Vue d’ensemble de l’équipe.
+6. Vérifiez que l’équipe s’affiche correctement dans le Centre d’administration Microsoft Teams – Vue d’ensemble de l’équipe.
 
 ## <a name="learn-more"></a>En savoir plus
 
-- [Teams des cmdlet](/powershell/teams/?view=teams-ps)  
-- [Utiliser Teams rôles d’administrateur pour gérer les Teams](using-admin-roles.md)
+- [Informations de référence sur les applets de commande Teams](/powershell/teams/?view=teams-ps)  
+- [Utiliser des rôles d’administrateur Teams pour gérer Teams](using-admin-roles.md).
 - [Planifier la gestion du cycle de vie dans Teams](plan-teams-lifecycle.md)

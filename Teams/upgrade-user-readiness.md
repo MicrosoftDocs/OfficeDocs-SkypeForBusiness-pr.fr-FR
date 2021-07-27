@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dfc2be330f0890a73bdfa34077c910e7cfc3e84
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 705ad7ab9dbfccf12f269636e8c38312c3b8a3c7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282711"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587223"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Préparer un plan de préparation utilisateur
 
@@ -43,9 +43,9 @@ Un plan de préparation des utilisateurs optimal incorpore la manière dont vous
 > [!Tip]
 > Téléchargez le Kit de réussite [de](https://aka.ms/UpgradeSuccessKit) la mise à niveau pour les modèles de matériel de préparation des utilisateurs, tels que des communications et des enquêtes auprès des utilisateurs, en plus d’un exemple de plan de projet de mise à niveau et de plan de test pilote.
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment créer un plan de préparation pour faciliter et accélérer l’adoption de la nouvelle solution par les utilisateurs ?</li><li>Disposez-vous des ressources de sensibilisation, de formation et de support appropriées qui s’alignent sur la capacité de vos utilisateurs à gérer les changements et le personnage que vous avez défini ?</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment créer un plan de préparation pour faciliter et accélérer l’adoption de la nouvelle solution par les utilisateurs ?</li><li>Disposez-vous des ressources de sensibilisation, de formation et de support appropriées qui s’alignent sur la capacité de vos utilisateurs à gérer le changement et le personnage que vous avez défini ?</li></ul> |
 | ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez la liste ci-dessous pour générer des idées pour votre plan de préparation. Sélectionnez les activités les plus pertinentes, ou ajoutez les vôtres, pour concevoir un plan de préparation optimisé pour votre organisation. Pensez à utiliser une combinaison de campagnes à grande portée (pour l’ensemble de votre organisation) et ciblées (pour des retards ou des personnage spécifiques) pour un résultat maximal.</li></ul>|
 
 <div class="mx-tableFixed">
