@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Migrez les points de terminaison d’application hyrid avant de désaffecter Skype Entreprise environnement local.
-ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 556c6dca43f1fb273d1934dfe581bdc86356ca15
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574239"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510535"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Migrer des points de terminaison d’application hybride avant de désaffecter votre environnement local
 
@@ -57,7 +57,7 @@ Avant de pouvoir déplacer ces points de terminaison en ligne, vous devez vous a
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. Étant donné qu’il est possible que les numéros de téléphone de ces comptes ont été gérés en Microsoft 365 plutôt qu’en local, exécutez la commande suivante dans Teams PowerShell :
+5. Étant donné qu’il est possible que les numéros de téléphone de ces comptes ont été gérés en Microsoft 365 plutôt qu’en local, exécutez la commande suivante dans Skype Entreprise Online PowerShell :
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"

@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Instructions d’implémentation de la connectivité hybride entre Skype Entreprise Server et Teams.
-ms.openlocfilehash: 832aa989d8f698ac939dbf522476fb9dd6bfb2b8
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+description: Instructions pour l’implémentation de la connectivité hybride entre Skype Entreprise Server et Teams.
+ms.openlocfilehash: 2b0e9aabbe029dd292afabf3b7cac579f1029384
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574059"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510545"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Configurer la connectivité hybride entre Skype Entreprise Server et Teams
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-**Résumé :** Lisez cette rubrique pour découvrir comment configurer la connectivité hybride entre Skype Entreprise Server et Teams.  La connectivité hybride vous permet de déplacer vos utilisateurs locaux vers Teams, et permet à vos utilisateurs de tirer parti des services cloud.
+**Résumé :** Lisez cette rubrique pour découvrir comment configurer la connectivité hybride entre Skype Entreprise Server et Teams (ou Skype Entreprise Online jusqu’à son retrait).  La connectivité hybride vous permet de déplacer vos utilisateurs locaux vers Teams (ou Skype Entreprise Online) et permet à vos utilisateurs de tirer parti des services cloud.
   
 Avant d’effectuer les étapes de [cette](plan-hybrid-connectivity.md)rubrique, vous devez avoir lu Planifier la connectivité hybride entre Skype Entreprise Server et Teams .
   
@@ -36,8 +36,8 @@ Le tableau suivant répertorie les tâches requises pour configurer Skype Entrep
   
 |Étape|Description|
 |:-----|:-----|
-|Créer un compte client pour Microsoft 365   <br/> |Pour en savoir Microsoft 365, [Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> Pour vous assurer que votre environnement est prêt pour la Microsoft 365, consultez la [system requirements](https://products.office.com/office-system-requirements).  <br/> Pour plus d’informations sur la configuration de Microsoft 365, voir [Getting Started with Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
+|Créer un compte client pour Microsoft 365   <br/> |Pour en savoir Microsoft 365, [Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=254980).  <br/> Pour vous assurer que votre environnement est prêt pour la Microsoft 365, consultez la [system requirements](https://products.office.com/office-system-requirements).  <br/> Pour plus d’informations sur la configuration Microsoft 365, voir [Getting Started with Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=254982).  <br/> |
 |Ajouter votre domaine à votre organisation Microsoft 365 et vérifier la propriété  <br/> | Vous devez ajouter votre domaine à votre organisation Microsoft 365, puis suivre les étapes pour valider le domaine avec Microsoft 365. Il s’agit de confirmer que vous êtes le propriétaire du domaine. <br/> Pour ajouter votre domaine à votre organisation Microsoft 365, suivez les étapes décrites dans Ajouter un domaine [à Microsoft 365](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US).  <br/> |
-|Configurer la synchronisation Active Directory  <br/> |La synchronisation Active Directory conserve la synchronisation continue de votre annuaire Active Directory local avec Microsoft 365. Cela vous permet de créer des versions synchronisées de chaque compte d’utilisateur et groupe.  <br/> <br> **Important :** Vous devez synchroniser les comptes AD pour tous les utilisateurs Skype Entreprise de votre organisation entre vos déploiements locaux et en ligne, même si les utilisateurs ne sont pas déplacés vers Teams. Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne de votre organisation risque de ne pas fonctionner comme prévu. Pour plus d’informations, [voir Configurer azure ad Connecter pour les environnements hybrides.](configure-azure-ad-connect.md)         |
-| Configurer Skype Entreprise hybride | Il existe trois étapes de base : <br><br> 1. Configurez votre environnement local pour la fédération avec Microsoft 365. <br> 2. Configurez votre environnement local pour qu’il Microsoft 365 et activez l’espace d’adressare SIP partagé avec Microsoft 365.<br> 3. Activez l’espace d’adressare SIP partagé dans Microsoft 365 organisation. <br><br> En outre, si vous Exchange local, vous pouvez configurer OAuth entre vos environnements Exchange local et en ligne. <br> <br>Pour plus d’informations, [voir Configurer Skype Entreprise hybride.](configure-federation-with-skype-for-business-online.md)
-|Déplacer des utilisateurs pilotes  <br/> |Une fois que vous avez effectué les étapes de préparation et de configuration de votre environnement pour Teams, vous pouvez commencer à déplacer des utilisateurs pilotes vers votre organisation Microsoft 365 en ligne. Pour plus d’informations, voir [Move users from on premises to Teams](move-users-from-on-premises-to-Teams.md).  <br/> |
+|Configurer la synchronisation Active Directory  <br/> |La synchronisation Active Directory conserve la synchronisation continue de votre annuaire Active Directory local avec Microsoft 365. Cela vous permet de créer des versions synchronisées de chaque compte d’utilisateur et groupe.  <br/> <br> **Important :** Vous devez synchroniser les comptes AD pour tous les utilisateurs Skype Entreprise de votre organisation entre vos déploiements locaux et en ligne, même si les utilisateurs ne sont pas déplacés vers Teams (ou Skype Entreprise Online). Si vous ne synchronisez pas tous les utilisateurs, la communication entre les utilisateurs locaux et en ligne de votre organisation risque de ne pas fonctionner comme prévu. Pour plus d’informations, [voir Configurer azure ad Connecter pour les environnements hybrides.](configure-azure-ad-connect.md)         |
+| Configurer Skype Entreprise hybride | Il existe trois étapes de base : <br><br> 1. Configurez votre environnement local pour la fédération avec Microsoft 365. <br> 2. Configurez votre environnement local pour qu’il Microsoft 365 et activez l’espace d’adressare SIP partagé avec Microsoft 365.<br> 3. Activez l’espace d’adressare SIP partagé dans Microsoft 365 organisation. <br><br> De plus, si vous avez Exchange en local, vous pouvez configurer OAuth entre vos environnements Exchange local et Skype Entreprise Online. <br> <br>Pour plus d’informations, [voir Configurer Skype Entreprise hybride.](configure-federation-with-skype-for-business-online.md)
+|Déplacer des utilisateurs pilotes  <br/> |Une fois que vous avez terminé les étapes de préparation et de configuration de votre environnement pour Teams (ou Skype Entreprise Online), vous pouvez commencer à déplacer les utilisateurs pilotes vers votre organisation Microsoft 365 en ligne. Pour plus d’informations, voir [Move users from on premises to Teams](move-users-from-on-premises-to-Teams.md) and Move users from on [premises to Skype Entreprise Online](move-users-from-on-premises-to-skype-for-business-online.md).  <br/> |

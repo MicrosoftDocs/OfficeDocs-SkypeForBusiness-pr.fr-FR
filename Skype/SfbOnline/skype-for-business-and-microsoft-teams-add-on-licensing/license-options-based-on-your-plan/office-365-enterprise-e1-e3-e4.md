@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les licences, les fonctionnalités des modules complémentaires, et comment acheter pour les offres Office 365 Entreprise, E1, E3 et E4. '
-ms.openlocfilehash: 44f55fff23a048a85ad220e03a24af58f099833e
-ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
+ms.openlocfilehash: 2d228889c38cac925f82a5e8e4c024052e220969
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53495164"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574269"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Entreprise E1, E3 et E4
 
@@ -34,19 +34,18 @@ ms.locfileid: "53495164"
 
 Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) ou E4, voici les compléments de licences que vous pouvez acheter pour obtenir d'autres fonctionnalités Skype Entreprise.
 
-|||
+| Pour ajouter cette fonctionnalité | Voici ce que vous devez acheter |
 |:-----|:-----|
-|**Pour ajouter cette fonctionnalité** <br/> |**Voici les compléments que vous devez acheter :** <br/> |
-|**Audioconférence** <br/> Achetez 1 **licence d’audioconférence** pour chaque personne qui planifiera ou organisera une réunion rendez-vous. Les participants n'ont pas besoin de licences. <br/> |Complément **Audioconférence** <br/>Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
-|**Des numéros gratuits pour un accès rendez-vous à vos réunions et la possibilité de faire un appel sortant depuis une réunion pour ajouter une personne en appelant n’importe quel numéro de téléphone dans le monde entier** <br/> |[Crédits de communication](/microsoftteams/add-funds-and-manage-communications-credits)|
-|**Système téléphonique** <br/> |1. **Système téléphonique Office 365** le module <br/> 2. Forfaits d’appels : achetez un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|**Messagerie vocale infonuagique**<sup>1</sup> <br/> |Pour les offres E1 et E4, achetez Exchange Online Plan 2 <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |
-|**Forfaits d’appel** <br/> |1. Module complémentaire **Système téléphonique** <br/> 2. [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) : vous ne pouvez l’acquérir qu’après avoir acheté le complément **Système téléphonique**. <br/> |
+|**Audioconférence** <br/> Achetez 1 **licence d’audioconférence** pour chaque personne qui planifiera ou organisera une réunion rendez-vous. Les participants n'ont pas besoin de licences. |Complément **Audioconférence** <br/>Une fois la licence achetée, Microsoft sera votre fournisseur d’audioconférence. |
+|**Des numéros gratuits pour un accès rendez-vous à vos réunions et la possibilité de faire un appel sortant depuis une réunion pour ajouter une personne en appelant n’importe quel numéro de téléphone dans le monde entier** |[Crédits de communication](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**Système téléphonique** |1. **Système téléphonique Office 365** le module <br/> 2. Forfaits d’appels : achetez un [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) d’Office 365. <br/>  Ou bien, utilisez le [service de téléphone de votre fournisseur existant](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  |
+|**Messagerie vocale infonuagique**<sup>1</sup> |Pour les offres E1 et E4, achetez Exchange Online Plan 2 <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |
+|**Forfaits d’appel** |1. Module complémentaire **Système téléphonique** <br/> 2. [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) : vous ne pouvez l’acquérir qu’après avoir acheté le complément **Système téléphonique**. |
 
 <sup>1</sup> Pour les utilisateurs locaux. Pour plus d’informations, [voir Planifier Messagerie vocale infonuagique service pour les utilisateurs locaux.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
    
- > [!IMPORTANT]
- > Office 365 Les licences E4 ont été officiellement retirées. Pour plus [d’informations, voir Office 365 Entreprise E4 vos](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) clients.
+> [!IMPORTANT]
+> Office 365 Les licences E4 ont été officiellement retirées. Pour plus [d’informations, voir Office 365 Entreprise E4 vos](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) clients.
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clients E1 et E3 : comment connaître les prix et procéder à l'achat
 <a name="bkmk_buypremium"> </a>

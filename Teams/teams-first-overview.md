@@ -15,12 +15,12 @@ description: Utilisez ces instructions pour déployer votre Microsoft Teams char
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81ecf9a0f963a1be577149c585424c140df2abd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119353"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587363"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Déployer et Microsoft Teams d’abord
 
@@ -64,9 +64,9 @@ Votre chemin vers Microsoft 365 ou Office 365 fonctionnalités disponibles dans 
 
 **Conversation / Communication externe dans Teams**: les services de conversation font référence à des conversations d’égal à égal ou de groupe au sein et à l’organisation, ou externes à l’organisation. La communication externe est également appelée fédération dans Skype Entreprise.
 
-Créer et afficher des réunions dans Teams : un utilisateur peut toujours créer des réunions en ligne via le composant logiciel Outlook Teams et que la connexion RSTN est disponible dans tous les **scénarios** une fois l’utilisateur titulaire d’une licence. Teams et Skype Entreprise d’informations de calendrier dans la boîte aux lettres de l’Exchange utilisateur. Sur un serveur Exchange doit être Exchange Server 2016 CU3 ou une interface supérieure pour que le client Teams puisse interagir avec la boîte aux lettres de l’utilisateur. Sans Exchange boîte aux lettres, l’icône Calendrier de Teams ne s’affiche pas et les utilisateurs ne pourront pas afficher, créer ou modifier des réunions dans le client Teams.
+Créer et afficher des réunions dans **Teams**: un utilisateur peut toujours créer des réunions en ligne via le composant logiciel Outlook Teams et que la conférence rendez-vous PSTN est disponible dans tous les scénarios une fois l’utilisateur titulaire d’une licence. Teams et Skype Entreprise d’informations de calendrier dans la boîte aux lettres de l’Exchange utilisateur. Sur un serveur Exchange doit être Exchange Server 2016 CU3 ou une interface supérieure pour que le client Teams puisse interagir avec la boîte aux lettres de l’utilisateur. Sans Exchange boîte aux lettres, l’icône Calendrier de Teams ne s’affiche pas et les utilisateurs ne pourront pas afficher, créer ou modifier des réunions dans le client Teams.
 
-**Fonctionnalités d’appel VoIP/PSTN** dans Teams : l’appel peut être de voix sur IP (VoIP) ou de réseau téléphonique commuté (PSTN). La connectivité VoIP se produit en natif entre Teams clients, tandis qu’une connectivité RSTN se produit lorsqu’un utilisateur compose un numéro de téléphone extérieur.  
+**Fonctionnalités d’appel VoIP/PSTN** dans Teams : l’appel peut être de voix sur IP (VoIP) ou de réseau téléphonique commuté (PSTN). La connectivité VoIP se produit en natif entre Teams clients, tandis qu’une connectivité PSTN se produit lorsqu’un utilisateur compose un numéro de téléphone extérieur.  
 
 Teams deux types de connectivité PSTN. Microsoft Calling Plan, lorsque Microsoft fournit une infrastructure téléphonique comprenant le numéro de téléphone d’un utilisateur, ou une configuration de routage direct, où le client fournit la connectivité téléphonique sur un contrôleur de session border controller (SBC) pour l’Teams utilisateur.  
 Pour en savoir plus, [lisez quel plan d’appels](calling-plan-landing-page.md) vous est le mieux [? Système téléphonique routage direct.](direct-routing-landing-page.md)
@@ -113,7 +113,8 @@ Ce point de départ suppose que votre organisation n’utilise pas Skype Entrepr
 <td><p>Possibilité de créer des réunions internes et externes via Outlook-in.</p>
 <p>Les fonctionnalités de connexion et d’appel sortant PSTN sont disponibles avec les licences d’audioconférence.</p>
 <p>Teams accès au calendrier nécessite Exchange 2016 CU3+ en local déployé avec Exchange hybride établi : créer un déploiement hybride avec l’Assistant <a href="/exchange/hybrid-deployment/deploy-hybrid">Configuration hybride.</a> </p>
-<p>Outre une configuration Exchange hybride, établissez Exchange authentification OAuth : configurer l’authentification OAuth entre les Exchange et <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> Exchange Online utilisateurs ».</p>
+
+Outre une configuration Exchange hybride, établissez l’authentification OAuth Exchange : configurer l’authentification [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)entre les Exchange et Exchange Online utilisateurs. 
 
 </p></td>
 </tr>
@@ -192,7 +193,7 @@ Ce point de départ suppose que votre organisation utilise Skype Entreprise 2019
 <p>Les fonctionnalités de connexion et d’appel sortant PSTN sont disponibles avec les licences d’audioconférence.</p>
 <p>Teams accès au calendrier nécessite Exchange 2016 CU3+ en local déployé avec une version Exchange hybride établie :<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">Créez un déploiement hybride à l’aide de l’Assistant Configuration hybride.</a></p>
-<p>Un administrateur peut contrôler le Skype Entreprise Outlook par le biais de l’attribut PreferredMeetingProviderForIslandsMode de la stratégie de réunion Teams :<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps"> set-csteamsmeetingpolicy.</a></p> 
+<p>Un administrateur peut contrôler le Skype Entreprise Outlook par le biais de l’attribut PreferredMeetingProviderForIslandsMode de la stratégie de réunion Teams :<a href="/powershell/module/skype/set-csteamsmeetingpolicy"> set-csteamsmeetingpolicy.</a></p> 
 </td>
 </tr>
 <tr class="even">

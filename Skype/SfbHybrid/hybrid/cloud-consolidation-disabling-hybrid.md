@@ -1,5 +1,5 @@
 ---
-title: Désactiver l’hybride pour terminer la migration vers Teams uniquement
+title: Désactiver l'hybride pour achever la migration vers Teams uniquement
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,14 +21,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cet article comprend des étapes détaillées pour la désactivation de l’hybride dans le cadre de la consolidation du cloud pour Teams et Skype Entreprise.
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453643"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510505"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Désactiver votre configuration hybride pour terminer la migration vers Teams uniquement 
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 
 Cet article explique comment désactiver votre configuration hybride avant de désaffecter votre environnement Skype Entreprise local. Il s’agit de l’étape 2 des étapes suivantes pour désaffecter votre environnement local :
 
@@ -46,7 +49,7 @@ Cet article explique comment désactiver votre configuration hybride avant de d�
 
 ## <a name="summary"></a>Résumé
 
-Une fois que vous avez mis à niveau tous les utilisateurs de Skype Entreprise en local vers Teams Uniquement en Microsoft 365, vous pouvez désaffecter le déploiement Skype Entreprise local.
+Une fois que vous avez mis à niveau tous les utilisateurs de Skype Entreprise local vers Teams Uniquement en Microsoft 365, vous pouvez désaffecter le déploiement Skype Entreprise local.
 
 Avant de désaffecter le déploiement Skype Entreprise local et de supprimer du matériel, vous devez séparer logiquement le déploiement local de Microsoft 365 en désactivant l’hybride. La désactivation hybride se compose des quatre étapes suivantes :
 
@@ -54,7 +57,7 @@ Avant de désaffecter le déploiement Skype Entreprise local et de supprimer du 
 
 2. [Modifiez le mode de coexistence de votre](#change-the-coexistence-mode-for-your-organization-to-teams-only)organisation en Teams uniquement.
 
-3. [Désactivez l’espace d’adressaie sip partagé (également](#disable-shared-sip-address-space-in-microsoft-365-organization)appelé « domaine fractioné ») dans l’Microsoft 365.
+3. [Désactivez l’espace d’adressa ment sip partagé (également](#disable-shared-sip-address-space-in-microsoft-365-organization)appelé « domaine fractioné ») dans l’Microsoft 365.
 
 4. [Désactiver la communication entre les locaux et les Microsoft 365](#disable-communication-between-on-premises-and-microsoft-365)
 

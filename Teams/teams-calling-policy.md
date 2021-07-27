@@ -1,5 +1,5 @@
 ---
-title: Stratégies de conservation dans Microsoft Teams
+title: 'Stratégies d’appel Microsoft Teams : fonctionnalités d’appel et de forwardage'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -20,15 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51653941"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596639"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Stratégies de conservation dans Microsoft Teams
-===================================
+#  <a name="calling-and-call-forwarding-in-teams"></a>Appels et appels de Teams
 
 Dans Microsoft Teams, les stratégies d’appel contrôlent les fonctionnalités d’appel et de forwardage disponibles pour les utilisateurs. Les stratégies d’appel déterminent si un utilisateur peut passer des appels privés, utiliser le forwarding d’appel ou une sonnerie simultanée vers d’autres utilisateurs ou des numéros de téléphone externes, router les appels vers la messagerie vocale, envoyer des appels à des groupes d’appels, utiliser la délégation pour les appels entrants et sortants, etc.
 
@@ -106,6 +105,6 @@ Ce paramètre vous permet d’activer ou de désactiver l’attente musicale lor
 
 ## <a name="related-topics"></a>Sujets associés
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [Attribuer des stratégies à vos utilisateurs](assign-policies.md)

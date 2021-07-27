@@ -17,28 +17,28 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 'Résumé : Dans un déploiement local de Skype Entreprise Server activé pour un environnement hybride, vous pouvez déplacer des utilisateurs entre l’environnement local et le cloud.'
-ms.openlocfilehash: a1c8c5874eaca5fa6527e65085d35eab4e0d2950
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+description: 'Résumé : Dans un déploiement local de Skype Entreprise Server activé pour un environnement hybride, vous pouvez déplacer des utilisateurs entre l’environnement local et le cloud (qu’il s’agit de Microsoft Teams ou de Skype Entreprise Online avant son retrait).'
+ms.openlocfilehash: 9a8099d5825eda6820bb8746d543e955524111be
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574099"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510775"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Déplacer des utilisateurs entre l’environnement local et le cloud
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Dans un déploiement local de Skype Entreprise Server activé pour l’environnement hybride, vous pouvez déplacer des utilisateurs entre l’environnement local et Teams. La présence d’un utilisateur local ou dans le Cloud est appelée page d’accueil Skype Entreprise de l’utilisateur :
+Dans un déploiement local de Skype Entreprise Server activé pour l’environnement hybride, vous pouvez déplacer des utilisateurs entre l’environnement local et le cloud (qu’il s’agit de Microsoft Teams ou de Skype Entreprise Online avant son retrait). La présence d’un utilisateur local ou dans le Cloud est appelée page d’accueil Skype Entreprise de l’utilisateur :
 
 - Les utilisateurs qui sont sur site interagissent avec les serveurs Skype Entreprise locaux.
-- Les utilisateurs qui sont en ligne peuvent interagir avec Teams service.
+- Les utilisateurs hébergés en ligne interagissent avec d'autres services en ligne de Skype Entreprise Online.
 
-*Les utilisateurs de Teams ont par nature un accueil Skype Entreprise, qu’ils utilisent Skype Entreprise ou non.* Si vous avez des utilisateurs Skype Entreprise locaux qui utilisent également Teams (côte à côte), ces utilisateurs sont locaux. Teams les utilisateurs avec Skype Entreprise locaux n’ont pas la possibilité d’interopérer avec les utilisateurs Skype Entreprise à partir de leur client Teams, ni de communiquer à partir de Teams avec les utilisateurs d’une organisation fédérée. Ces fonctionnalités sont entièrement disponibles uniquement une fois que l’utilisateur est Skype Entreprise en local vers teamsOnly en ligne. Il est vivement recommandé de déplacer vos utilisateurs vers le mode TeamsOnly, ce qui garantit que le routage de toutes les conversations et appels entrants arrive dans leur client Teams client. Pour plus d’informations, voir [Teams coexistence](/microsoftteams/coexistence-chat-calls-presence) avec Skype Entreprise et les instructions de migration et d’interopérabilité pour les organisations qui utilisent Teams avec [Skype Entreprise](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
+*Les utilisateurs de Teams ont par nature un accueil Skype Entreprise, qu’ils utilisent Skype Entreprise ou non.* Si vous avez des utilisateurs Skype Entreprise locaux qui utilisent également Teams (côte à côte), ces utilisateurs sont locaux. Teams les utilisateurs avec Skype Entreprise locaux n’ont pas la possibilité d’interopérer avec les utilisateurs Skype Entreprise à partir de leur client Teams, ni de communiquer à partir de Teams avec les utilisateurs d’une organisation fédérée. Ces fonctionnalités sont entièrement disponibles uniquement une fois que l’utilisateur est Skype Entreprise en local vers teamsOnly en ligne. Lorsque vous déplacez un utilisateur vers Online, vous pouvez soit l’autoriser à utiliser Skype Entreprise Online (et, éventuellement, Teams), soit les mettre en Teams Only. Il est vivement recommandé de déplacer vos utilisateurs vers le mode Teams Uniquement, ce qui garantit que le routage de toutes les conversations et appels entrants arrive dans leur client Teams. Pour plus d’informations, voir [Teams coexistence](/microsoftteams/coexistence-chat-calls-presence) avec Skype Entreprise et les instructions de migration et d’interopérabilité pour les organisations qui utilisent Teams avec [Skype Entreprise](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
 
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Configuration requise
 
-Conditions préalables au déplacement d’un utilisateur en mode TeamsOnly :
+Conditions préalables au déplacement d’un utilisateur vers le cloud (que ce soit Teams mode Uniquement ou Skype Entreprise Online avant son retrait) :
 
 - Azure AD Connecter doit être correctement configuré et synchroniser tous les attributs pertinents pour l’utilisateur, comme décrit dans Configurer [Azure AD Connecter](configure-azure-ad-connect.md).
 - Skype Entreprise hybride doit être configuré, comme décrit dans La configuration [Skype Entreprise hybride](configure-federation-with-skype-for-business-online.md).
@@ -52,14 +52,14 @@ Conditions préalables au déplacement d’un utilisateur en mode TeamsOnly :
 Lorsqu’un utilisateur est déplacé d’un environnement local vers le cloud :
 
 - Teams utilisateurs sont activés pour l’interopérabilité avec Skype Entreprise utilisateurs, et s’ils sont TeamsOnly, ils peuvent également se fédérer avec d’autres organisations.
-
-- Les contacts locaux sont déplacés vers Teams.
-
+- L’utilisateur commence à utiliser les services Skype Entreprise Online disponibles dans le cloud pour toutes les fonctionnalités de Skype Entreprise.
+- Les contacts locaux sont déplacés vers le cloud (vers Teams ou Skype Entreprise Online).
 - Les réunions existantes qu’ils ont organisées et qui sont prévues à l’avenir sont migrées vers le site en ligne : si les utilisateurs sont déplacés directement vers TeamsOnly (voir ci-dessous), les réunions sont converties en réunions Teams, sinon les réunions restent Skype Entreprise mais seront migrées de sorte qu’elles soient hébergées en ligne plutôt que sur site.  La migration des réunions se produit de façon asynchrone et commence environ 90 minutes après le déplacement de l’utilisateur.  Pour déterminer l’état de la migration de la réunion, vous pouvez utiliser [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms). Notez que les contenus téléchargés avant la réunion ne seront pas migrés.
 
-Pour déplacer des utilisateurs vers Teams, utilisez la cmdlet Move-CsUser ou le Panneau de Skype Entreprise Admin, qui sont tous deux des outils locaux. Ces outils de prise en charge des chemins de déplacement suivants :
+Pour déplacer des utilisateurs entre l’ordinateur local et le cloud (que ce soit Teams ou Skype Entreprise Online), utilisez la cmdlet Move-CsUser ou le Panneau de contrôle d’administration Skype Entreprise, qui sont tous deux des outils locaux. Ces outils prennent en charge trois chemins de déplacement différents :
 
 - [De Skype Entreprise Server (local)](move-users-from-on-premises-to-teams.md) directement à Teams uniquement (qui les déplace également vers Skype Entreprise Online).  Le comportement à déplacer directement de l’local vers Teams Seul est désormais automatique, quelle que soit la version de Skype Entreprise Server ou de Lync Server utilisée. Il n’est plus nécessaire de spécifier le `-MoveToTeams` commutateur pour obtenir ce comportement.  
+- [De Skype Entreprise Server (local) à Skype Entreprise Online.](move-users-from-on-premises-to-skype-for-business-online.md) Les clients qui doivent toujours déplacer des utilisateurs vers Skype Entreprise Online sans devenir TeamsOnly peuvent y parvenir en déplaçant d’abord l’utilisateur vers le cloud avec le mode TeamsOnly, puis en mettant à jour le mode de l’utilisateur pour qu’il soit autre que TeamsOnly à l’aide de l’un ou de l’autre ou du Centre d’administration `Grant-CsTeamsUpgradePolicy` Teams. Cette option n’est plus disponible une fois Skype Entreprise Online est retiré.
 - [À partir de la ligne (Teams uniquement ou non), vers l’local.](move-users-from-the-cloud-to-on-premises.md)
 
 > [!NOTE] 
@@ -79,7 +79,7 @@ Pour déplacer des utilisateurs entre l’environnement local et le cloud, vous 
     > [!Important]
     > - Si vous utilisez le Panneau de Skype Entreprise Admin, vous serez invité à fournir les informations d’identification d’un compte Microsoft 365 avec les rôles appropriés, comme indiqué ci-dessus. Vous devez fournir un compte qui se termine par .onmicrosoft.com. Si ce n’est pas possible, utilisez l'Move-CsUser cmdlet.
     >- Si vous utilisez Move-CsUser dans PowerShell, vous pouvez utiliser un compte qui se termine par .onmicrosoft.com ou utiliser n’importe quel compte local synchronisé dans Azure AD, à condition que vous spécifiant également le paramètre HostedMigrationOverrideUrl dans l’cmdlet. La valeur de l’URL de remplacement de migration hébergée est une variante de l’URL suivante : https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>Dans l’URL ci-dessus, remplacez la XX par deux ou trois caractères, déterminés comme suit :
-    >   - Dans une session Teams PowerShell, exécutez l’cmdlet suivante :<br>`Get-CsTenant|ft identity`
+    >   - Dans une Teams PowerShell, exécutez l’cmdlet suivante :<br>`Get-CsTenant|ft identity`
     >   - La valeur résultante sera au format suivant :<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
     >   - Le code à deux ou trois chiffres est le XX contenu dans la section DC=lyncXX001. S’il s’agit d’un code à deux caractères, il s’agit d’un chiffre suivi d’un nombre (par exemple, 0a). S’il s’agit d’un code à trois caractères, il s’agit de deux lettres suivies d’un chiffre (par exemple, jp1). Dans tous les cas, vous verrez 001 immédiatement après le code XX.
 
@@ -97,11 +97,13 @@ Pour plus d’informations sur les options de téléphonie dans les environnemen
 
 ## <a name="other-considerations"></a>Autres considérations
 
-Dans les environnements locaux et cloud, les stratégies (telles que le contrôle de la messagerie, des réunions et du comportement d’appel) sont indépendantes. Vous pouvez envisager de configurer des stratégies dans l’environnement et de les affecter à l’utilisateur avant de le déplacer de l’environnement local vers le cloud, afin qu’il soit correctement configuré dès qu’il est migré vers le cloud.
+Dans les environnements locaux et cloud, les stratégies (telles que le contrôle de la messagerie, des réunions et du comportement d’appel) sont indépendantes. Vous pouvez envisager de configurer des stratégies dans l’environnement et de les affecter à l’utilisateur avant de le déplacer de l’environnement local vers le cloud, afin qu’il soit configuré correctement dès qu’il est migré vers le cloud.
 
 ## <a name="see-also"></a>Voir aussi
 
 [Déplacer des utilisateurs de l’environnement local vers Teams](move-users-from-on-premises-to-teams.md)
+
+[Déplacer les utilisateurs de l’environnement local vers Skype Entreprise Online](move-users-from-on-premises-to-skype-for-business-online.md)
 
 [Configuration de Meeting Migration Service (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 

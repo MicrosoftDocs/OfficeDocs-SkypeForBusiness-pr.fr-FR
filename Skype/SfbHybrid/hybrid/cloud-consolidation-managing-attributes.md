@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cet article explique comment gérer les attributs après la désaffectation de votre environnement local.
-ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574319"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510645"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>Décider de la façon de gérer les attributs après la mise hors service
 
@@ -35,20 +35,20 @@ ms.locfileid: "53574319"
 
 Par défaut, tous les utilisateurs qui ont été précédemment activés pour Skype Entreprise Server puis déplacés vers le cloud ont toujours des attributs msRTCSIP configurés dans votre annuaire Active Directory local. 
 
-Ces attributs, en particulier l’adresse sip (msRTCSIP-PrimaryUserAddress) et potentiellement le numéro de téléphone (msRTCSIP-Line), continuent de se synchroniser avec Azure AD. Si des modifications sont requises pour l’un des attributs msRTCSIP, ces modifications doivent être apportées dans l’annuaire Active Directory local, puis synchronisées avec Azure AD. Toutefois, une fois le déploiement Skype Entreprise Server supprimé, les outils Skype Entreprise Server ne seront pas disponibles pour gérer ces attributs.
+Ces attributs, en particulier l’adresse sip (msRTCSIP-PrimaryUserAddress) et potentiellement le numéro de téléphone (msRTCSIP-Line), continuent de se synchroniser avec Azure AD. Si des modifications sont requises pour l’un des attributs msRTCSIP, ces modifications doivent être apportées dans l’annuaire Active Directory local, puis synchronisées avec Azure AD. Toutefois, une fois le déploiement Skype Entreprise Server supprimé, les outils de Skype Entreprise Server ne seront pas disponibles pour gérer ces attributs.
 
 Deux options sont disponibles pour gérer cette situation :
 
-1. Laissez les utilisateurs qui ont été activés pour Skype Entreprise comptes serveur tels qu’ils sont et gérez les attributs msRTCSIP à l’aide des outils Active Directory. Cela garantit l’absence de perte de service pour les utilisateurs migrés et vous permet de supprimer facilement le déploiement Skype Entreprise Server en éliminant (par exemple, la suppression) des serveurs, sans désaffectation complète. Toutefois, les utilisateurs nouvellement titulaires d’une licence n’auront pas ces attributs dans votre annuaire Active Directory local et devront être gérés en ligne.
+1. Laissez les utilisateurs qui ont été activés pour Skype Entreprise comptes de serveur tels qu’ils sont et gérez les attributs msRTCSIP à l’aide des outils Active Directory. Cela garantit l’absence de perte de service pour les utilisateurs migrés et vous permet de supprimer facilement le déploiement Skype Entreprise Server en éliminant (par exemple, la suppression) des serveurs, sans désaffectation complète. Toutefois, les utilisateurs nouvellement titulaires d’une licence n’auront pas ces attributs dans votre annuaire Active Directory local et devront être gérés en ligne.
 
-2.  Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. Cette méthode permet une approche de gestion cohérente pour les utilisateurs existants et nouveaux, mais elle peut entraîner une perte temporaire de service pendant le processus de désaffectation sur site.
+2.  Clear all msRTCSIP attributes from migrated users in your on-premises Active Directory and manage these attributes using online tools. Cette méthode permet une approche de gestion cohérente pour les utilisateurs existants et nouveaux, mais elle peut potentiellement entraîner une perte temporaire de service pendant le processus de mise hors service local.
 
 
 ## <a name="method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory"></a>Méthode 1 : gérer les adresses SIP et les numéros de téléphone des utilisateurs dans Active Directory
 
 Les administrateurs peuvent gérer les utilisateurs qui ont été précédemment déplacés d’une Skype Entreprise Server sur site vers le cloud, même après la désaffectation du déploiement local. 
 
-Si vous souhaitez apporter des modifications à l’adresse SIP d’un utilisateur ou au numéro de téléphone d’un utilisateur (et que l’adresse sip ou le numéro de téléphone a déjà une valeur dans l’annuaire Active Directory local), vous devez le faire dans l’annuaire Active Directory local et laisser les valeurs s’écouler jusqu’à Azure AD. Cela ne nécessite PAS de Skype Entreprise Server. Au lieu de cela, vous pouvez modifier ces attributs directement dans Active Directory local, à l’aide du logiciel en snap-in MMC Utilisateurs et ordinateurs Active Directory (comme illustré ci-dessous) ou à l’aide de PowerShell. Si vous utilisez le logiciel en snap-in MMC, ouvrez la page des propriétés de l’utilisateur, cliquez sur l’onglet Éditeur d’attributs et recherchez les attributs appropriés à modifier :
+Si vous souhaitez apporter des modifications à l’adresse SIP d’un utilisateur ou au numéro de téléphone d’un utilisateur (et que l’adresse sip ou le numéro de téléphone a déjà une valeur dans l’annuaire Active Directory local), vous devez le faire dans l’annuaire Active Directory local et laisser les valeurs s’écouler jusqu’à Azure AD. Cela ne nécessite PAS de Skype Entreprise Server. Au lieu de cela, vous pouvez modifier ces attributs directement dans Active Directory local, à l’aide du logiciel en ligne MMC Utilisateurs et ordinateurs Active Directory (comme illustré ci-dessous) ou à l’aide de PowerShell. Si vous utilisez le logiciel en snap-in MMC, ouvrez la page des propriétés de l’utilisateur, cliquez sur l’onglet Éditeur d’attributs et recherchez les attributs appropriés à modifier :
 
 - Pour modifier l’adresse SIP d’un utilisateur, modifiez le `msRTCSIP-PrimaryUserAddress` .
 
@@ -59,7 +59,7 @@ Si vous souhaitez apporter des modifications à l’adresse SIP d’un utilisate
 
   ![Outil utilisateurs et ordinateurs Active Directory](../media/disable-hybrid-1.png)
   
--  Si l’utilisateur n’avait à l’origine pas de valeur pour l’environnement local avant le déplacement, vous pouvez modifier le numéro de téléphone à l’aide du paramètre - dans `msRTCSIP-Line` l’cmdlet `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) du module Teams PowerShell.
+-  Si l’utilisateur n’avait à l’origine pas de valeur pour l’environnement local avant le déplacement, vous pouvez modifier le numéro de téléphone à l’aide du paramètre - dans `msRTCSIP-Line` l’cmdlet `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) du module Skype Entreprise Online PowerShell.
 
 Ces étapes ne sont pas nécessaires pour les nouveaux utilisateurs créés après la désactivation de l’hybride, et ces utilisateurs peuvent être gérés directement dans le cloud. Si vous êtes à l’aise avec la combinaison de ces méthodes et si vous souhaitez laisser les attributs msRTCSIP en place dans votre environnement Active Directory local, vous pouvez simplement ré-imager les serveurs Skype Entreprise locaux. Toutefois, si vous préférez effacer tous les attributs msRTCSIP et faire une désinstallation traditionnelle de Skype Entreprise Server, utilisez la méthode 2.
 
@@ -140,13 +140,13 @@ Cette option nécessite des efforts supplémentaires et une planification approp
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. Attendez la fin de la mise en service de l’utilisateur. Vous pouvez surveiller la progression de l’approvisionnement des utilisateurs en exécutant la commande powershell Teams suivante. La commande Teams PowerShell suivante renvoie un résultat vide dès que le processus est terminé.
+7. Attendez la fin de la mise en service de l’utilisateur. Vous pouvez surveiller la progression de l’approvisionnement des utilisateurs en exécutant la commande powershell Skype Entreprise Online. La commande Skype Entreprise Online PowerShell renvoie un résultat vide dès que le processus est terminé.
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. Exécutez la commande PowerShell Teams suivante pour affecter des numéros de téléphone et activer les utilisateurs pour Système téléphonique :
+8. Exécutez la commande PowerShell Skype Entreprise Online suivante pour affecter des numéros de téléphone et activer les utilisateurs pour Système téléphonique :
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -161,7 +161,7 @@ Cette option nécessite des efforts supplémentaires et une planification approp
    > [!Note]
    >  Si vous avez encore Skype Entreprise points de terminaison (clients Skype ou téléphones tiers), vous devez également définir -HostedVoiceMail sur $true. Si votre organisation utilise uniquement des points Teams pour les utilisateurs à reconnaissance vocale, ce paramètre n’est pas applicable à vos utilisateurs. 
 
-9. Confirmez que les utilisateurs Système téléphonique fonctionnalités ont été correctement mis en service. La commande Teams PowerShell suivante renvoie un résultat vide dès que le processus est terminé.
+9. Confirmez que les utilisateurs Système téléphonique fonctionnalités ont été correctement mis en service. La commande Skype Entreprise Online PowerShell renvoie un résultat vide dès que le processus est terminé.
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -187,13 +187,11 @@ Cette option nécessite des efforts supplémentaires et une planification approp
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-
-    Teams Commande PowerShell :
+    Skype Entreprise Commande PowerShell en ligne :
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-
 12. Après avoir effectué toutes les étapes de la méthode 2, voir Déplacer des points de terminaison [d’application](decommission-move-on-prem-endpoints.md) hybride de l’local vers l’application en ligne et Supprimer votre Skype Entreprise Server sur site pour obtenir des [étapes](decommission-remove-on-prem.md) supplémentaires pour supprimer votre déploiement local Skype Entreprise Server.
 
 

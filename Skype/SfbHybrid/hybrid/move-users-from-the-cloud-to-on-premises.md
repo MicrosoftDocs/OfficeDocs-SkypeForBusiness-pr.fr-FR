@@ -17,24 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: Découvrez comment déplacer des utilisateurs de Skype Entreprise Online vers l’ordinateur local.
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: Découvrez comment déplacer des utilisateurs de Teams vers l’ordinateur local.
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509785"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574089"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Déplacer des utilisateurs du cloud vers l’local 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Si nécessaire, vous pouvez déplacer un utilisateur précédemment migré de l’local vers le cloud (en utilisant Skype Entreprise Online ou Teams uniquement) vers l’local. Pour déplacer les utilisateurs du mode Skype Entreprise Online ou TeamsOnly vers un déploiement local de Skype Entreprise Server, utilisez la cmdlet Move-CsUser ou le Panneau de contrôle Skype Entreprise Server, qui sont tous deux des outils locaux. Lorsque vous déplacez un utilisateur vers un déploiement local, vous devez décider du pool vers lequel déplacer l’utilisateur.
+Si nécessaire, vous pouvez déplacer un utilisateur précédemment migré de l’local vers Teams vers l’ordinateur local. Pour déplacer les utilisateurs du mode Skype Entreprise Online ou TeamsOnly vers un déploiement local de Skype Entreprise Server, utilisez la cmdlet Move-CsUser ou le Panneau de contrôle Skype Entreprise Server, qui sont tous deux des outils locaux. Lorsque vous déplacez un utilisateur vers un déploiement local, vous devez décider du pool vers lequel déplacer l’utilisateur.
 
 > [!Important]
 > Si l’utilisateur était auparavant en mode TeamsOnly et que vous utilisez une version antérieure à Skype Entreprise Server 2015 avec cu8, vous devez également supprimer l’affectation du mode TeamsOnly de TeamsUpgradePolicy pour cet utilisateur. Les utilisateurs locaux ne doivent pas avoir le mode = TeamsOnly.  Les versions ultérieures Skype Entreprise Server supprimer automatiquement cette affectation. Pour plus d’informations, [voir Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy).
 
-## <a name="prerequisites"></a>Configuration requise
+## <a name="prerequisites"></a>Conditions préalables
 
 - Azure AD Connecter doit être correctement configuré et synchroniser tous les attributs pertinents pour l’utilisateur, comme décrit dans Configurer [Azure AD Connecter](configure-azure-ad-connect.md).
 - L’utilisateur en cours de revenir en ligne vers l’ordinateur local doit déjà exister dans l’annuaire Active Directory local.
@@ -60,7 +60,7 @@ Pour déplacer un utilisateur vers l’ordinateur local à l’aide de Move-CsUs
 - Si vous n’avez pas un compte avec des autorisations suffisantes à la fois sur site et dans le service cloud (Microsoft 365 ou Office 365), utilisez le paramètre -credential pour fournir à un compte des autorisations suffisantes dans Microsoft 365 ou Office 365.
 - Si le compte spécifiant des autorisations dans Microsoft 365 ou Office 365 ne se termine pas par « on.microsoft.com », vous devez spécifier le paramètre -HostedMigrationOverrideUrl, avec la valeur correcte comme décrit dans les informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
-La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers Skype Entreprise Server et suppose que les informations d’identification Microsoft 365 ou Office 365 sont un compte distinct et fournies en tant qu’entrées pour l’invite Get-Credential.
+La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers Skype Entreprise Server et suppose que les informations d’identification Microsoft 365 ou Office 365 sont un compte distinct et fournies en tant qu’entrées pour l’invite de Get-Credential.
 
 ```PowerShell
 $cred=Get-Credential
@@ -83,7 +83,7 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 
 Si vous utilisez une version antérieure à Skype Entreprise 2015 avec cu8 et que l’utilisateur est déplacé vers l’ordinateur local en mode TeamsOnly, vous devez supprimer l’instance UpgradeToTeams avant de déplacer l’utilisateur en `TeamsUpgradePolicy` local. Vous pouvez accorder explicitement une stratégie avec un autre mode ou simplement supprimer l’attribution de stratégie existante pour que cet utilisateur utilise la stratégie globale (tant que la stratégie globale de votre client n’est pas UpgradeToTeams).
 
-Pour supprimer l’affectation de TeamsUpgradePolicy à l’utilisateur, exécutez l’cmdlet suivante à partir d’une Skype Entreprise PowerShell en ligne :
+Pour supprimer l’affectation de TeamsUpgradePolicy à l’utilisateur, exécutez l’cmdlet suivante à partir d’une fenêtre PowerShell Skype Entreprise Online :
 
 `Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName $null`
 

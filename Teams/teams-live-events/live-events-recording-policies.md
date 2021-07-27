@@ -17,18 +17,18 @@ description: En savoir plus sur les stratégies d’enregistrement d’événeme
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: c0f5f089bf4f1a0dc2c28a0b718d89b9200a4676
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739654"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587333"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Stratégies d’enregistrement d’événements en direct Microsoft Teams
 
 Plusieurs options s’offrent à vous pour enregistrer Microsoft Teams événement en direct. Les options d’enregistrement sont définies à l’aide de stratégies d’enregistrement. Cet article décrit les différents paramètres.
 
-Les options d’enregistrement sont définies à l’aide de la commande PowerShell [Set-CsTeamsMeetingBroadcastPolicy.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+Les options d’enregistrement sont définies à l’aide de la commande PowerShell [Set-CsTeamsMeetingBroadcastPolicy.](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)
 
 ## <a name="scheduling-and-option-behaviors"></a>Planification et comportements des options
 
@@ -48,7 +48,7 @@ Deux options d’organisateur sont disponibles lors de la planification de l’e
 
 Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement pour un événement en direct.
 
-|                                 | Enregistrement disponible pour les producteurs et les présentateurs | Enregistrement disponible pour les participants |
+| &nbsp;| Enregistrement disponible pour les producteurs et les présentateurs | Enregistrement disponible pour les participants |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | Toujours enregistrer               | Désactivé et sélectionné                                | Activé et sélectionné         |
 | L’organisateur peut enregistrer ou non | Activé et sélectionné par défaut                  | Activé et sélectionné par défaut   |

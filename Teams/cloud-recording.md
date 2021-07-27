@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486144"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565710"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -179,6 +179,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Je souhaite que la transcription de l’enregistrement soit 100 % désactivée. |<ol><li>Confirmer que la stratégie globale CsTeamsMeetingPolicy a AllowTranscription = False. <li>Tous les utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowTranscription = False. </ol>|
 |Je souhaite que la transcription soit désactivée pour la majorité des utilisateurs, mais activer de manière sélective des utilisateurs spécifiques qui sont autorisés à transcrire. |<ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False. <li>La majorité des utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False. <li>Tous les autres utilisateurs ont reçu une des stratégies de CsTeamsMeetingPolicy avec AllowCloudRecording = True. </ol>|
 
+### <a name="terms-of-use-acceptance"></a>Acceptation des Conditions d’utilisation
+Si votre organisation dispose d’une stratégie d’enregistrement des réunions que vous souhaitez que vos utilisateurs acceptent avant d’enregistrer une réunion, utiliser la fonctionnalité [Conditions d’utilisation Azure Active Directory](/azure/active-directory/conditional-access/terms-of-use). Cette fonctionnalité permet à vos utilisateurs d’accepter les conditions de la stratégie utilisateur de votre organisation avant d’accéder à Microsoft Teams. Cette fonctionnalité ne s’applique pas spécifiquement au clic sur le bouton Enregistrer. Elle est associée à l’utilisation de Teams ou d’autres applications Microsoft 365 en général. Notre suggestion est d’ajouter votre information d’enregistrement de la réunion aux conditions d'utilisation générales pour l’utilisateur de Teams ou de Microsoft 365. 
 
 ## <a name="permissions-and-storage"></a>Autorisations et stockage
 
@@ -262,9 +264,9 @@ Pour les réunions hors canal, les enregistrements sont stockés dans le OneDriv
 
 Les sous-titres des enregistrements de réunion Teams ne seront disponibles pendant la lecture que si la transcription de l’utilisateur était activée au moment de l’enregistrement. Les administrateurs doivent [activer l’enregistrement de la transcription via la stratégie](#turn-on-or-turn-off-recording-transcription) pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer des réunions avec la transcription.
 
-Les sous-titres permettent de créer du contenu accessible à tous les visiteurs. En tant que propriétaire, vous pouvez masquer les sous-titres de l’enregistrement de la réunion, bien que la transcription de la réunion soit toujours disponible sur Teams, sauf si vous les avez supprimé de cet emplacement.
+Les légendes permettent de créer du contenu inclusif pour les visiteurs de tous niveaux. En tant que propriétaire, vous pouvez masquer les sous-titres de l’enregistrement de la réunion, bien que la transcription de la réunion soit toujours disponible sur Teams, sauf si vous l’avez supprimé de cet emplacement.
 
-Aujourd’hui, les sous-titres du fichier vidéo d’enregistrement sont liés à la transcription de la réunion Teams. Ce lien restera pendant la durée de vie du fichier dans la plupart des cas, mais il peut être corrompu si le fichier vidéo est copié dans le même OneDrive Entreprise ou le même site SharePoint Online, ce qui empêcherait aux sous-titres d’être copiés sur le fichier vidéo.
+Les sous-titres pour le fichier vidéo de l’enregistrement sont aujourd’hui liés à la transcription de la réunion Teams. Ce lien restera pendant la durée de vie du fichier dans la plupart des cas, mais il peut être corrompu si le fichier vidéo est copié dans le même OneDrive Entreprise ou le même site SharePoint Online, ce qui empêcherait aux sous-titres d’être copiés sur le fichier vidéo.
 
 Les modifications futures apportées au lien entre la transcription dans Teams et l’enregistrement seront précisées ici et dans les notifications du centre de messages. Si nous apportons des modifications à l’avenir, nous nous assurerons que les fichiers d’enregistrement datant de moins de 60 jours affichent la transcription de la réunion sous forme de sous-titre.
 

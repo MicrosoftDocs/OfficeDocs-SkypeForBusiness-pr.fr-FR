@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: c996df5c0253f3eee02a2b76297952ccf9cf56d3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637726"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587483"
 ---
 # <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
 
@@ -33,28 +33,28 @@ Vous gérez l’accès Teams utilisateur en attribuant ou en supprimant une Micr
 Par défaut, lorsqu’un plan de gestion des licences (par exemple, Microsoft 365 Entreprise E3 ou Microsoft 365 Business Premium) est attribué à un utilisateur, une licence Teams est attribuée automatiquement et l’utilisateur est activé pour les Teams. Vous pouvez désactiver ou activer Teams utilisateur en supprimant ou en attribuant une licence à tout moment.
 
 Utilisez les stratégies de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>messagerie, gérées à partir du Centre Teams’administration, pour contrôler les fonctionnalités de conversation et de messagerie de canal disponibles pour les utilisateurs Teams. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies de messagerie personnalisées pour les membres de votre organisation. Pour en savoir plus, lisez Gérer les stratégies de [messagerie dans Teams.](messaging-policies-in-teams.md)
-Vous gérez Teams licences dans le Microsoft 365 d’administration ou à l’aide de PowerShell. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
+Vous gérez Teams licences dans le Centre d’administration Microsoft 365 ou à l’aide de PowerShell. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
 
 > [!NOTE]
 > Nous vous recommandons d’activer Teams pour tous les utilisateurs afin que les équipes soient formés de manière interne pour les projets et autres initiatives dynamiques. Même si vous exécutez un pilote, il peut s’avérer utile de garder les Teams activées pour tous les utilisateurs, mais de cibler uniquement les communications avec le groupe pilote d’utilisateurs.
 
-## <a name="using-the-microsoft-365-admin-center"></a>Utilisation du Microsoft 365 d’administration
+## <a name="using-the-microsoft-365-admin-center"></a>Utilisation de la Centre d’administration Microsoft 365
 
-Teams licences utilisateur sont gérées directement via les interfaces de gestion des utilisateurs Microsoft 365 centre d’administration. Un administrateur peut attribuer des licences aux nouveaux utilisateurs lors de la création de comptes d’utilisateurs, ou aux utilisateurs qui ont déjà des comptes. 
+Teams licences utilisateur sont gérées directement via les interfaces Centre d’administration Microsoft 365 gestion des utilisateurs. Un administrateur peut attribuer des licences aux nouveaux utilisateurs lors de la création de comptes d’utilisateurs, ou aux utilisateurs qui ont déjà des comptes. 
 
 > [!IMPORTANT]
 > L’administrateur doit avoir des privilèges d’administrateur général ou d’administrateur de gestion des utilisateurs pour Microsoft Teams licences.
-Utilisez le Centre Microsoft 365 d’administration pour gérer les licences Teams utilisateurs individuels ou de petits groupes d’utilisateurs à la fois. Vous pouvez gérer Teams licences dans la page Licences (jusqu’à 20 utilisateurs à la **fois)** ou la page **Utilisateurs** actifs. La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
+Utilisez l’Centre d’administration Microsoft 365 pour gérer Teams licences utilisateur individuel ou petit groupe d’utilisateurs à la fois. Vous pouvez gérer Teams licences dans la page Licences (jusqu’à 20 utilisateurs à la **fois)** ou la page **Utilisateurs** actifs. La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
 
-Si vous devez gérer des licences Teams pour un grand nombre d’utilisateurs (par exemple, des centaines ou des milliers d’utilisateurs), utilisez [PowerShell](#using-powershell) ou des licences basées sur les groupes dans [Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign) 
+Si vous devez gérer des licences Teams pour un grand nombre d’utilisateurs (par exemple, des centaines ou des milliers d’utilisateurs), utilisez [PowerShell](#using-powershell) ou des licences basées sur les groupes [dans Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign) 
 
 ### <a name="assign-a-teams-license"></a>Attribuer une licence Teams licence
 
 Les étapes diffèrent selon que vous utilisez la page Licences ou la **page** **Utilisateurs** actifs.  Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![Capture d’Teams d’une licence activée pour un utilisateur](media/assign-teams-licenses-1.png)    | ![Capture d’Teams d’une licence activée pour un utilisateur](media/assign-teams-licenses-2.png)        |
+|![Capture d’écran 1 de Teams licence activée pour un utilisateur](media/assign-teams-licenses-1.png)    | ![Capture d’écran 2 de Teams licence activée pour un utilisateur](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>Supprimer une licence Teams licence
 
@@ -63,9 +63,9 @@ Les étapes diffèrent selon que vous utilisez la page Licences ou la **page** *
 
 Lorsque vous supprimez la licence Teams d’un utilisateur, Teams est désactivé pour cet utilisateur et les Teams ne sont plus Teams dans le lanceur d’applications ou la page d’accueil. Pour obtenir la procédure détaillée, voir [Désaffecter les licences des utilisateurs.](/microsoft-365/admin/manage/remove-licenses-from-users)
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![Capture d’écran Teams de licence désactivée pour un utilisateur](media/remove-teams-licenses-1.png)    | ![Capture d’écran Teams de licence désactivée pour un utilisateur](media/remove-teams-licenses-2.png)        |
+|![Capture d’écran 1 de la Teams de licence désactivée pour un utilisateur](media/remove-teams-licenses-1.png)    | ![Capture d’écran 2 de la Teams de licence désactivée pour un utilisateur](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 

@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Déplacez les utilisateurs avant de désaffecter Skype Entreprise environnement local.
-ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420809"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510715"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>Déplacer les utilisateurs requis avant de désaffecter votre environnement local
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Cet article explique comment déplacer les utilisateurs requis vers le cloud Microsoft avant de désaffecter votre environnement Skype Entreprise local. Il s’agit de l’étape 1 des étapes suivantes pour désaffecter votre environnement local :
 
@@ -41,7 +43,7 @@ Cet article explique comment déplacer les utilisateurs requis vers le cloud Mic
 
 Tous les utilisateurs que vous continuerez à utiliser après avoir effectué la migration doivent d’abord être déplacés de l’local vers le cloud. Vous déplacez les utilisateurs à l’aide des outils d’administration locaux. Pour plus d’informations, voir [Move users between on-premises and cloud](move-users-between-on-premises-and-cloud.md).
 
-Bien qu’il soit possible pour les utilisateurs ayant des comptes Skype Entreprise Server locaux d’utiliser Teams, ces utilisateurs n’ont pas toutes les fonctionnalités de Teams. Ces utilisateurs ne peuvent pas interopérer ou fédérer avec d’autres utilisateurs qui utilisent encore Skype Entreprise (en ligne ou en local). Ces utilisateurs ne peuvent pas non plus recevoir d’appels PSTN dans leur client Teams client. Par conséquent, vous devez déplacer ces utilisateurs en ligne. Cette étape garantit également que les contacts ou réunions créés dans Skype Entreprise Server sont migrés vers Teams.
+Bien qu’il soit possible pour les utilisateurs ayant des comptes Skype Entreprise Server locaux d’utiliser Teams, ces utilisateurs ne peuvent pas utiliser toutes les fonctionnalités de Teams. Ces utilisateurs ne peuvent pas interopérer ou fédérer avec d’autres utilisateurs qui utilisent encore Skype Entreprise (en ligne ou en local). Ces utilisateurs ne peuvent pas non plus recevoir d’appels PSTN dans leur client Teams client. Par conséquent, vous devez déplacer ces utilisateurs en ligne. Cette étape garantit également que tous les contacts ou réunions créés dans Skype Entreprise Server sont migrés vers Teams.
 
 Pour vérifier s’il reste des utilisateurs dans votre déploiement local, exécutez l’cmdlet suivante dans Skype Entreprise Server fenêtre PowerShell.
 

@@ -1,7 +1,7 @@
 ---
 title: Utilisation de la mémoire par Microsoft Teams
 author: msdmaguire
-ms.author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: d3e694dcba73cd90b2faa131776210c5d3faf4d5
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878718"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587313"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Utilisation de la mémoire par Microsoft Teams
 
@@ -30,9 +30,9 @@ Certains utilisateurs Microsoft Teams des questions sur la façon dont Teams uti
 
 ## <a name="how-teams-works"></a>Fonctionnement des Teams
 
-Teams conception sur Electron permet un développement plus rapide, ainsi que la parité entre les versions Teams sur différents systèmes d’exploitation (Windows, Mac et Linux). Cette parité est possible, car Electron et Chromium maintenir une base de code similaire dans toutes les versions. Un autre avantage de cette architecture est qu’il existe un profil d’utilisation de mémoire similaire entre l’application web Teams et la version de bureau. L’application web et les versions de bureau utilisent la mémoire de la même façon qu’un navigateur l’utiliserait. Des informations supplémentaires sur Electron sont disponibles sur [son site web.](https://electronjs.org/)
+Teams conception sur Electron permet un développement plus rapide, ainsi que la parité entre les versions Teams sur différents systèmes d’exploitation (Windows, Mac et Linux). Cette parité est possible, car Electron et Chromium maintenir une base de code similaire dans toutes les versions. Un autre avantage de cette architecture est qu’il existe un profil d’utilisation de mémoire semblable entre l’application web Teams et la version de bureau. L’application web et les versions de bureau utilisent la mémoire de la même façon qu’un navigateur l’utiliserait. Des informations supplémentaires sur Electron sont disponibles sur [leur site web.](https://electronjs.org/)
 
-Pour [plus d Chromium, voir l’utilisation de](https://www.chromium.org/developers/memory-usage-backgrounder) la mémoire et les concepts clés de la mémoire [Chrome.](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)
+Voir [Chromium utilisation de la mémoire et](https://www.chromium.org/developers/memory-usage-backgrounder) les concepts clés de la mémoire [Chrome](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md) pour plus d’informations.
 
 L’image suivante illustre les utilisations de la mémoire côte à côte de l’application de bureau Teams pour Windows et de l’application web Teams (dans cet exemple, s’exécutant dans Google Chrome).
 

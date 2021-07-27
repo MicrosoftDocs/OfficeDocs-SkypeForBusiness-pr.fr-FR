@@ -18,18 +18,21 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Découvrez comment configurer la fédération pour un fournisseur de services d’audioconférence dans Skype Entreprise Online.'
-ms.openlocfilehash: 5d9c49299452f579cd7c58adf54facb09f0b8a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4c2f0b9163202ff8469f2a2223c88ba10db193c3
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118973"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510565"
 ---
 # <a name="configure-federation-for-an-audio-conferencing-provider-in-your-hybrid-deployment"></a>Configurer la fédération pour un fournisseur de services d’audioconférence dans votre déploiement hybride
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
 **Résumé :** Découvrez comment configurer la fédération pour un fournisseur de services d’audioconférence dans Skype Entreprise Online.
 
-Si vous souhaitez utiliser un fournisseur de services d’audioconférence (ACP) dans votre déploiement hybride (en local avec online), vous devez configurer la fédération entre votre déploiement local et le partenaire ACP en tant que serveur partenaire autorisé. Vous pouvez configurer la fédération en ajoutant le domaine partenaire ACP et le serveur Edge (également appelé proxy d’accès) à la liste des domaines fédérés pour votre déploiement local. Votre partenaire ACP doit ensuite ajouter le nom de domaine général de votre pool de serveurs Edge local à la liste des domaines fédérés autorisés. Pour plus d’informations, contactez votre fournisseur ACP. Votre partenaire ACP doit ensuite ajouter le nom de domaine général (FQDN) de votre pool de serveurs Edge local à la liste des domaines fédérés autorisés.
+Si vous souhaitez utiliser un fournisseur de services d’audioconférence (ACP) dans votre déploiement hybride (en local avec online), vous devez configurer la fédération entre votre déploiement local et le partenaire ACP en tant que serveur partenaire autorisé. Vous pouvez configurer la fédération en ajoutant le domaine partenaire ACP et le serveur Edge (également appelé proxy d’accès) à la liste des domaines fédérés pour votre déploiement local. Votre partenaire ACP doit ensuite ajouter le nom de domaine général (FQDN) de votre pool de serveurs Edge local à la liste des domaines fédérés autorisés. Pour plus d’informations, contactez votre fournisseur ACP. Votre partenaire ACP doit ensuite ajouter le nom de domaine général (FQDN) de votre pool de serveurs Edge local à la liste des domaines fédérés autorisés.
 
 - **Ajout du domaine ACP et du serveur Edge en tant que domaine fédéré autorisé**
 

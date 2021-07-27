@@ -1,5 +1,5 @@
 ---
-title: Teams cas Contoso voix
+title: 'Teams cas Voice Contoso : appels d’urgence'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,21 +13,21 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams cas de voix pour une entreprise multinationale
+description: 'Teams cas de voix pour une entreprise multinationale : appels d’urgence'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 69231adb4588039012cceec1063571ddc201c2bb
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786027"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587473"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Étude de cas Contoso : appels d’urgence
 
 Pour comprendre la disponibilité des appels d’urgence et la terminologie relatives aux appels d’urgence: Adresse de secours, Emplacement, Emplacement d’urgence et Adresse enregistrée, Contoso a examiné Gérer les appels d’urgence et Planifier et configurer les appels d’urgence &mdash; &mdash; [dynamiques.](configure-dynamic-emergency-calling.md) [](what-are-emergency-locations-addresses-and-call-routing.md)
 
-Dans Office 365, un utilisateur d’un plan d’appels est automatiquement activé pour les appels d’urgence. Seuls les utilisateurs aux États-Unis peuvent utiliser des emplacements dynamiques pour router des appels d’urgence. 
+Dans Office 365, un utilisateur du plan d’appels est automatiquement activé pour les appels d’urgence. Seuls les utilisateurs aux États-Unis peuvent utiliser des emplacements dynamiques pour router des appels d’urgence. 
 
 Pour le routage direct, Contoso a appris que des configurations supplémentaires sont nécessaires pour router des appels d’urgence et éventuellement pour la connectivité des partenaires. L’administrateur doit configurer la connexion à un fournisseur de services de routage d’urgence (ERSP) (États-Unis) OU configurez le contrôleur de session border Controller (SBC) pour une application ELIN (Emergency Location Identification Number).
 
