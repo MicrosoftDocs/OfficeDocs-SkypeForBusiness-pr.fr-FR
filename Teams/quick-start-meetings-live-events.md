@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
-ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
+ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
+ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53479051"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463297"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Démarrage rapide : réunions, webinaires et événements en direct 
 
@@ -54,7 +54,7 @@ Le tableau suivant récapitule brièvement les trois types de réunions, le nomb
 
 *Les 10 000 habituels sont passés à 20 000 jusqu’au 31 décembre 2021.<br>
 
-**Les 10 000 habituels sont passés à 20 000 jusqu’au 31 décembre 2021. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance). 
+**Les 10 000 habituels sont passés à 20 000 jusqu’au 31 décembre 2021. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](https://docs.microsoft.com/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](https://docs.microsoft.com/stream/live-events-assistance). 
 
 Pour une expérience optimale dans les grandes réunions, Microsoft recommande d’utiliser le client de bureau Teams ou les clients mobiles Teams. Les présentateurs des grandes réunions doivent utiliser le client de bureau Teams. Pour plus d’informations sur l’hébergement de grandes réunions, consultez [Meilleures pratiques pour une grande réunion Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 

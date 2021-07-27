@@ -293,8 +293,6 @@ items:
             href: legal-hold.md
           - name: Recherche de contenu
             href: content-search.md
-          - name: Flux de travail Teams dans Advanced eDiscovery
-            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: Audit
             href: audit-log-events.md
           - name: Clé client
@@ -901,13 +899,7 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: Disponibilité des forfaits d’appels selon les pays et les régions
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Operator Connect
-            items:
-              - name: Planifier Operator Connect
-                href: operator-connect-plan.md
-              - name: Configurer Operator Connect
-                href: operator-connect-configure.md
-          - name: Routage direct
+          - name: Routage direct via le Système téléphonique
             items:
               - name: Vue d’ensemble
                 href: direct-routing-landing-page.md
@@ -983,6 +975,12 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: Routage direct pour le Survivable Branch Appliance
                     href: direct-routing-survivable-branch-appliance.md
+          - name: Operator Connect
+            items:
+              - name: Planifier Operator Connect
+                href: operator-connect-plan.md
+              - name: Configurer Operator Connect
+                href: operator-connect-configure.md
       - name: Numéros de téléphone
         items:
           - name: Gérer les numéros de téléphone pour votre organisation
@@ -1471,8 +1469,6 @@ items:
                 href: class-insights.md
               - name: Synchronisation des données du système d'informations sur les élèves avec Insights
                 href: education-insights-sis-data-sync.md
-              - name: Gérer l’accès utilisateur à Insights
-                href: education-insights-manage-access.md
               - name: Prise en main de Reflect
                 href: reflect.md
           - name: Devoirs dans Microsoft Teams pour l’éducation
@@ -1489,7 +1485,7 @@ items:
             href: sku-reference-edu.md
       - name: Teams pour les travailleurs de première ligne
         items:
-          - name: Guide de démarrage rapide pour les travailleur de première ligne
+          - name: Démarrage rapide pour les travailleurs de première ligne
             href: flw-quickstart.yml
           - name: Déploiement par script pour les travailleurs de première ligne
             href: flw-scripted-deployment.md
