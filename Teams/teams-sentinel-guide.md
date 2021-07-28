@@ -19,47 +19,47 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712766"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587043"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel et Microsoft Teams
 
 > [!IMPORTANT]
 > Azure Sentinel dispose désormais d'un connecteur intégré. Pour plus d'informations, voir [Connecter les journaux d'Office 365 à Azure Sentinel](/azure/sentinel/connect-office-365) . Il s'agit de la méthode recommandée pour collecter ces journaux et elle remplace les méthodes de collecte décrites ci-dessous.
 
-Teams joue un rôle central dans la communication et le partage des données dans le cloud Microsoft 365. Étant donné que le service Teams s’accompagne de nombreuses technologies sous-jacentes dans le cloud, celui-ci peut tirer parti d’une analyse humaine et automatisée. Cela s'applique à la fois au *repérage dans les journaux* et à la *surveillance en temps réel des réunions*. Azure Sentinel offre aux administrateurs ces solutions.
+Teams joue un rôle central dans la communication et le partage des données dans le cloud Microsoft 365. Étant donné que le service Teams s’accompagne de nombreuses technologies sous-jacentes dans le cloud, celui-ci peut tirer parti d’une analyse humaine et automatisée. Cela s'applique à la fois au *repérage dans les journaux* et à la *surveillance en temps réel des réunions*. Azure Sentinel offre aux administrateurs ces solutions.
 
 > [!NOTE]
-> Vous avez besoin d’un rappel sur Azure Sentinel ? [Cet article](/azure/sentinel/overview) est exactement ce qu'il faut.
+> Vous avez besoin d’un rappel sur Azure Sentinel ? [Cet article](/azure/sentinel/overview) est exactement ce qu'il faut.
 
 ## <a name="sentinel-and-microsoft-teams-activity-logs"></a>Journaux d’activité Sentinel et Microsoft Teams
 
 Cet article traite de la collecte des journaux d’activité Teams dans Azure Sentinel.
 
-Il permet aux administrateurs d’assurer la gestion de la sécurité dans un emplacement unique. Cela inclut la gestion :
+Sentinel permet aux administrateurs de gérer la sécurité en un seul endroit. Cela inclut la gestion :
 
 - Appareils tiers
 - Protection Microsoft contre les menaces
-- Charges de travail Microsoft 365
+- Charges de travail Microsoft 365
 
 Les livres de travail et les livres d'exécution Sentinel peuvent rendre la surveillance de la sécurité *systématique*. La première étape de ce processus consiste à collecter les journaux nécessaires à l’analyse.
 
 > [!NOTE]
-> Plusieurs abonnements Microsoft 365 peuvent être exposés dans la même instance d’Azure Sentinel. Cela permet de [surveillance en temps réel](/azure/sentinel/livestream) et de le repérage de menaces dans les fichiers journaux historiques. Les administrateurs pourront repérer à l’aide des [requêtes de ressources croisées](/azure/azure-monitor/log-query/cross-workspace-query), au sein d’un même groupe de ressources, au sein de groupes de ressources ou dans un autre abonnement.
+> Plusieurs abonnements Microsoft 365 peuvent être exposés dans la même instance d’Azure Sentinel. Cela permet de [surveillance en temps réel](/azure/sentinel/livestream) et de le repérage de menaces dans les fichiers journaux historiques. Les administrateurs pourront repérer à l’aide des [requêtes de ressources croisées](/azure/azure-monitor/log-query/cross-workspace-query), au sein d’un même groupe de ressources, au sein de groupes de ressources ou dans un autre abonnement.
 
-## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>Étape 1 : collecter les journaux Teams : activer les journaux d’audit dans Microsoft 365
+## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>Étape 1 : collecter les journaux Teams : activer les journaux d’audit dans Microsoft 365
 
-Étant donné que Teams enregistre l'activité par le biais de Microsoft 365, les journaux d'audit ne sont pas collectés par défaut. Activez cette fonctionnalité en [procédant comme suit](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off). Les données relatives de Teams sont collectées dans l'audit Microsoft 365 sous *Audit.General*.
+Étant donné que Teams enregistre l'activité par le biais de Microsoft 365, les journaux d'audit ne sont pas collectés par défaut. Activez cette fonctionnalité en [procédant comme suit](/microsoft-365/compliance/turn-audit-log-search-on-or-off). Les données relatives de Teams sont collectées dans l'audit Microsoft 365 sous *Audit.General*.
 
-## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>Étape 2 : connecter les journaux Office 365 à Microsoft Azure Sentinel
+## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>Étape 2 : connecter les journaux Office 365 à Microsoft Azure Sentinel
 
-Microsoft Azure Sentinel offre un connecteur intégré pour les journaux Office 365, qui vous permet d’ingérer les données Teams dans Azure Sentinel avec d’autres données Office 365.
+Microsoft Azure Sentinel offre un connecteur intégré pour les journaux Office 365, qui vous permet d’ingérer les données Teams dans Azure Sentinel avec d’autres données Office 365.
  
-Dans Azure Sentinel, activez le connecteur de données Office 365. Pour plus d’informations, voir la [documentation Azure Sentinel](/azure/sentinel/connect-office-365).
+Dans Azure Sentinel, activez le connecteur de données Office 365. Pour plus d’informations, voir la [documentation Azure Sentinel](/azure/sentinel/connect-office-365).
 
 ## <a name="helpful-hunting-kql-queries"></a>Requêtes KQL utiles pour le repérage
 
@@ -86,7 +86,7 @@ OfficeActivity
 
 ### <a name="who-recently-joined--whose-role-changed"></a>Les personnes qui ont récemment rejoint/dont le rôle a changé
 
-Interrogez un utilisateur spécifique pour vérifier s’il a été ajouté à un canal Teams au cours des sept derniers jours ou dans une semaine :
+Interrogez un utilisateur spécifique pour vérifier s’il a été ajouté à un canal Teams au cours des sept derniers jours ou dans une semaine :
 
 ```Kusto
 OfficeActivity
@@ -96,7 +96,7 @@ OfficeActivity
 | project TeamName, Operation, UserId, Members
 ```
 
-Déterminer si le rôle d’un utilisateur a changé pour une équipe au cours des sept derniers jours :
+Déterminer si le rôle d’un utilisateur a changé pour une équipe au cours des sept derniers jours :
 
 ```Kusto
 OfficeActivity
@@ -140,7 +140,7 @@ Pour plus d’informations, voir la requête dans le [hub git de la communauté 
 
 ### <a name="expanding-your-threat-hunting-opportunities"></a>Développez vos opportunités de repérage de menaces
 
-Vous pouvez utiliser la combinaison de requêtes à partir de ressources telles qu’Azure Active Directory (Azure AD) ou d’autres charges de travail Office 365 avec des requêtes Teams. Par exemple, combinez la détection de modèles suspects dans Azure AD SigninLogs et utilisez ce résultat lors du repérage pour les propriétaires d’équipe.
+Vous pouvez utiliser la combinaison de requêtes à partir de ressources telles qu’Azure Active Directory (Azure AD) ou d’autres charges de travail Office 365 avec des requêtes Teams. Par exemple, combinez la détection de modèles suspects dans Azure AD SigninLogs et utilisez ce résultat lors du repérage pour les propriétaires d’équipe.
 
 ```Kusto
 let timeRange = 1d;
@@ -187,7 +187,7 @@ OfficeActivity
 | where Members in (failed_signins)
 ```
 
-De plus, vous pouvez rendre les détections SigninLogs spécifiques à Teams en ajoutant un filtre pour les connexions basées sur Teams uniquement à l’aide des éléments suivants :
+De plus, vous pouvez rendre les détections SigninLogs spécifiques à Teams en ajoutant un filtre pour les connexions basées sur Teams uniquement à l’aide des éléments suivants :
 
 ```Kusto
 | where AppDisplayName has 'Teams'
@@ -226,8 +226,8 @@ Surveillez les mises à jour de l’[analyseur](https://github.com/Azure/Azure-S
 
 Vous pouvez également participer (et contribuer) à la [communauté Azure Sentinel](https://github.com/Azure/Azure-Sentinel/wiki). Nous recherchons activement des commentaires sur cet article, alors veuillez utiliser l'option de commentaires ci-dessous. Merci et bon repérage.
 
-[Inscrire votre application dans Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Inscrire votre application dans Azure AD](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[Activer ou désactiver la recherche dans le journal d’audit](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[Activer ou désactiver la recherche dans le journal d’audit](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
-[Qu’est-ce que Azure Sentinel ?](/azure/sentinel/overview)
+[Qu’est-ce que Azure Sentinel ?](/azure/sentinel/overview)
