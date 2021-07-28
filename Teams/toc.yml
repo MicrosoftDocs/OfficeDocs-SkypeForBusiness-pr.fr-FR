@@ -1487,7 +1487,7 @@ items:
             href: sku-reference-edu.md
       - name: Teams pour les travailleurs de première ligne
         items:
-          - name: Démarrage rapide pour les travailleurs de première ligne
+          - name: Guide de démarrage rapide pour les travailleur de première ligne
             href: flw-quickstart.yml
           - name: Déploiement par script pour les travailleurs de première ligne
             href: flw-scripted-deployment.md
