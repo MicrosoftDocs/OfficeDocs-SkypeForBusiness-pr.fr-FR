@@ -14,8 +14,6 @@
       items:
         - name: Déplacer des utilisateurs de l’environnement local vers Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: Déplacer les utilisateurs de l’environnement local vers Skype Entreprise Online
-          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: Déplacer des utilisateurs du cloud vers l’environnement local
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: Gérer la migration de réunion

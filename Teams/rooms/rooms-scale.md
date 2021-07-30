@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
-ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
+ms.openlocfilehash: 1dabc8e4b3f2e238945bf68fdbad73cebebd7fd5
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51410110"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646675"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Déployer des Salles Microsoft Teams l’aide de Microsoft Endpoint Configuration Manager
 
@@ -82,7 +82,7 @@ Pour déployer des Salles Microsoft Teams avec Configuration Manager, assurez-vo
     > [!NOTE]
     > Pour Surface Pro, le démarrage à partir du réseau (démarrage PXE) n’est pris en charge que lorsque vous utilisez un adaptateur Ethernet ou une station d’accueil microsoft. Les cartes Ethernet tierces ne supportent pas le démarrage PXE avec Surface Pro. Pour [plus d’informations,](/surface/ethernet-adapters-and-surface-device-deployment) voir les cartes Ethernet et le déploiement de Surface.
 
-## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>Configurer des Microsoft Endpoint Configuration Manager pour le déploiement de système d’exploitation
+## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>Configurer des Microsoft Endpoint Configuration Manager pour le déploiement du système d’exploitation
 
 Cet article part du principe que vous avez déjà un déploiement de Configuration Manager sain et ne détaille pas toutes les étapes requises pour déployer et configurer Configuration Manager de toutes pièces. La [documentation et les conseils de configuration sur](/configmgr/) le Microsoft Endpoint Configuration Manager ressources sont très précieuses ; nous vous recommandons de commencer avec ces ressources si vous n’avez pas encore déployé Configuration Manager.
 
@@ -122,7 +122,7 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 3.  Sélectionnez **l’onglet Compte d’accès** réseau. Configurer un ou plusieurs comptes, puis sélectionner **OK.**
 
 > [!NOTE]
-> Les comptes n’ont pas besoin de droits spéciaux, à l’exception de **l’ordinateur Access** de ce réseau, directement sur le serveur du point de distribution. Un compte d’utilisateur de domaine générique sera approprié. Pour plus d’informations, [voir Comptes utilisés dans Configuration Manager.](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)
+> Les comptes n’ont pas besoin de droits spéciaux, à l’exception de **l’ordinateur Access de** ce réseau, directement sur le serveur du point de distribution. Un compte d’utilisateur de domaine générique sera approprié. Pour plus d’informations, [voir Comptes utilisés dans Configuration Manager.](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)
 
 ### <a name="configure-a-boot-image"></a>Configurer une image de démarrage
 
@@ -196,7 +196,7 @@ Créez la structure de dossiers suivante sur le Microsoft Endpoint Configuration
 > [!TIP]
 > Vous pouvez [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) également télécharger et utiliser le fichier zip qui inclut la structure des dossiers pour les packages, les scripts que vous devez utiliser et le modèle de séquence des tâches, que vous devez importer.
 
-### <a name="create-the-monitoring-agent-package"></a>Créer le package de l’Agent de surveillance
+### <a name="create-the-monitoring-agent-package"></a>Créer le package de l’agent de surveillance
 
 1. Téléchargez l’Agent de surveillance à partir <https://go.microsoft.com/fwlink/?LinkId=828603> de .
 
@@ -282,7 +282,7 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
 
 1.  Téléchargez la dernière version du kit de déploiement **Salles Microsoft Teams et** <https://go.microsoft.com/fwlink/?linkid=851168> installez-la sur une station de travail.
 
-2.  Copiez le contenu de **C: \\ Program Files (x86) \\ Skype Room System Deployment Kit** vers le dossier **SRS v2 - Package d’application SRS.**
+2.  Copiez le contenu de **C : Program Files \\ (x86) \\ Skype Room System Deployment Kit** vers le dossier Package d’application **SRS v2 - SRS.**
 
 3.  Dans la console Configuration Manager, sélectionnez **Packages** de gestion d’application de bibliothèque de \>  \> **logiciels,** puis **sélectionnez Créer un package.**
 
@@ -482,7 +482,7 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
 
 2.  Dans la console Configuration Manager, sélectionnez **Images** du système d’exploitation de la bibliothèque de logiciels, puis \>  \>  **sélectionnez Ajouter une image du système d’exploitation.**
 
-3.  Spécifiez le chemin **d’accès au fichier install.wim** que vous viennent de copier, puis sélectionnez **Suivant.**
+3.  Spécifiez le chemin **d’accès au fichier install.wim** que vous avez copié, puis sélectionnez **Suivant.**
 
 4.  Mettez à **jour le** champ Version pour qu’il corresponde au numéro de build Windows 10 Entreprise’image, puis sélectionnez **Suivant.**
 
@@ -517,9 +517,9 @@ Salles Microsoft Teams est pris en charge pour les Surface Pro et Surface Pro 4.
 
 7.  Sélectionnez **Nouveau package.**
 
-8.  Spécifiez le nom du package qui correspond au modèle Surface Pro, entrez un chemin d’accès de dossier pour stocker les fichiers de package de pilote, sélectionnez **OK,** puis **Suivant.**
+8.  Spécifiez le nom du package qui correspond au modèle Surface Pro, entrez un chemin d’accès de dossier pour stocker les fichiers de package de pilote dans, sélectionnez **OK,** puis **Suivant.**
 
-9.  Dans la page **des images de** démarrage, assurez-vous qu’aucune image de démarrage n’est sélectionnée, puis sélectionnez **Suivant.**
+9.  Sur la page **des images de** démarrage, assurez-vous qu’aucune image de démarrage n’est sélectionnée, puis sélectionnez **Suivant.**
 
 10. Sélectionnez **Fermer.**
 
@@ -672,7 +672,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 
    16. **Ajouter un utilisateur Skype** local : cette étape crée le compte Skype local utilisé pour se Windows et démarrer l’application Salles Microsoft Teams local. Aucun package logiciel n’est associé à cette étape et aucune personnalisation n’est requise pour cette étape.
 
-   17. **Configurer et configurer l’application SRS**: cette étape configure Salles Microsoft Teams installation de l’application pour le prochain démarrage du système d’exploitation.
+   17. **Configurer et configurer l’application SRS**: cette étape configure l’installation Salles Microsoft Teams’application pour le prochain démarrage du système d’exploitation.
        -   Vérifiez que la configuration du package d’installation **SRS v2** et la désactivation de la redirection du système de fichiers **64 bits** sont sélectionnées.
 
 > [!IMPORTANT]
@@ -709,8 +709,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 
 12. Sélectionnez **Fermer.**
 
-<a name="validate-and-troubleshoot-the-solution"></a>Valider et résoudre les problèmes de la solution
---------------------------------------
+**Valider et résoudre les problèmes de la solution**
 
 Une fois que vous avez terminé les séquences de tâches Microsoft Endpoint Configuration Manager, vous devez effectuer une exécuter un test pour vérifier que la séquence des tâches peut être déployée et configurer Salles Microsoft Teams unités.
 
@@ -776,4 +775,4 @@ Pour résoudre les problèmes de démarrage PXE, vérifiez les deux fichiers jou
 
 -   **Smspxe.log,** situé dans le répertoire des journaux du point de gestion configuration manager (MP)
 
-Pour obtenir la liste complète des fichiers journaux que vous pouvez utiliser pour résoudre les problèmes d’installation de Configuration Manager, consultez la Microsoft Endpoint Configuration Manager référence du fichier [journal.](/configmgr/core/plan-design/hierarchy/log-files)
+Pour obtenir la liste complète des fichiers journaux que vous pouvez utiliser pour résoudre les problèmes d’installation de Configuration Manager, consultez la Microsoft Endpoint Configuration Manager [référence du fichier journal.](/configmgr/core/plan-design/hierarchy/log-files)

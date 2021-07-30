@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855953"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646205"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Interaction entre SharePoint et les OneDrive interactions entre Microsoft Teams
 
 > [!Tip]
 > Regardez la session suivante pour découvrir comment Teams interagit avec les groupes Azure Active Directory, Microsoft 365, Exchange, SharePoint et OneDrive : bases de [Microsoft Teams](https://aka.ms/teams-foundations)
 
-Chaque équipe dans Microsoft Teams a un site d’équipe dans SharePoint, et chaque canal standard d’une équipe reçoit un dossier dans la bibliothèque de documents du site d’équipe par défaut. Chaque [canal privé possède](private-channels.md) son propre canal et SharePoint site.
+Chaque équipe dans Microsoft Teams a un site d’équipe dans SharePoint, et chaque canal standard d’une équipe reçoit un dossier dans la bibliothèque de documents du site d’équipe par défaut. Chaque [canal privé possède](private-channels.md) son propre canal et SharePoint site. Pour en savoir plus sur ces sites d’équipe et de canal, voir [Teams sites connectés et les sites de canaux.](/sharepoint/teams-connected-sites)
 
 Les fichiers partagés dans une conversation sont automatiquement ajoutés à la bibliothèque de documents, et les autorisations et options de sécurité des fichiers définies dans SharePoint sont automatiquement reflétées dans Teams. Pour voir l’impact de la modification d’une adresse de site dans SharePoint, [lisez Modifier une adresse de site.](/sharepoint/change-site-address)
 
@@ -77,7 +77,7 @@ Notez que pour les équipes publiques, SharePoint site d’équipe est mis en se
 
 Type de lien de partage affiché par défaut lorsqu’un utilisateur a partagé un fichier est SharePoint centre d’administration. Voir [Modifier le type de lien par défaut lorsque les utilisateurs obtiennent des liens de partage pour](/sharepoint/change-default-sharing-link) plus d’informations.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [SharePoint et Teams la collaboration .](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 

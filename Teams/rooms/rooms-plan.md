@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Cet article décrit les considérations pertinentes en rapport avec la planification du déploiement d Salles Microsoft Teams, de la prochaine génération de systèmes Skype de salle.
-ms.openlocfilehash: fae50e076467efdfe69115d967f3d6564ba9266a
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726275"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646985"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planifier Salles Microsoft Teams
 
@@ -56,7 +56,7 @@ En règle générale, les offres groupées et les unités intégrées incluent l
 
 Vous pouvez déployer des déploiements Salles Microsoft Teams avec Microsoft Teams, Skype Entreprise Online ou Skype Entreprise déploiements hybrides ou locaux.  Consultez la [Teams Salle de réunion mise à jour des](rooms-licensing.md) licences pour plus d’informations sur les licences nécessaires.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![décider du déploiement](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Allez-vous déployer Salles Microsoft Teams dans votre organisation ? </li><li>Comment allez-vous obtenir vos systèmes Salles Microsoft Teams-groupés, comme des composants distincts ou en tant qu’unité intégrée ?</li></ul> |
 | ![Identifier les activités](../media/audio_conferencing_image9.png)<br/>Étapes suivantes | <ul><li>Identifiez qui entreprendrea les activités clés tout au long de votre déploiement.</li><li>Examinez les salles de réunion dont vous disposez (et prévoyez de les configurer) pour comprendre où vous voulez déployer Salles Microsoft Teams et les périphériques appropriés à la taille de la salle.</li></ul> |
@@ -90,11 +90,11 @@ Vous devrez peut-être coordonner ces activités au sein de plusieurs équipes. 
 
 La première étape consiste à inventorier les salles de réunion et de conférence existantes de votre organisation afin de comprendre leur environnement, leur taille, leur disposition et leur objet, et d’identifier les fonctionnalités dont vous souhaitez que chaque salle dans l’étendue soit à l’avenir, telles que les fonctionnalités de collaboration enrichies qui seront activées dans la salle. 
 
-Après avoir créé l’inventaire de l’équipement et des fonctionnalités de chaque salle existante, vos besoins en matière de flux de salle dans la planification de la sélection de votre appareil pour créer une solution de conférence enrichie. Les qualités (audio et vidéo) nécessaires pour chaque salle, en plus de la taille et de l’objectif de la salle, jouent un rôle important dans la décision de la solution la plus appropriée pour chaque salle. 
+Après avoir créé l’inventaire de l’équipement et des fonctionnalités de chaque salle existante, les exigences relatives à cette salle s’inséront dans la planification de la sélection de votre appareil pour créer une solution de conférence enrichie. Les qualités (audio et vidéo) nécessaires pour chaque salle, en plus de la taille et de l’objectif de la salle, jouent un rôle important dans la décision de la solution la plus appropriée pour chaque salle. 
 
 Dans le cadre de votre découverte, il est important de tenir compte de l’acoustique et de la disposition de la pièce. Par exemple, vérifiez que les chaises dans la salle ne bloquent pas la vue de la caméra. Vérifiez que la pièce n’a pas d’écho excessif ni de panne de l’air bruyant, et qu’elle est suffisamment puissant pour les écrans et les Salles Microsoft Teams. Il existe de nombreux facteurs à prendre en compte pour que votre équipe ou partenaire audio-visuel (AV) soit en mesure de vous en conseiller. 
 
-|    |     |
+| &nbsp;   | &nbsp;    |
 |-----------|------------|
 | ![salles de resserr](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Examinez les salles dans l’étendue et définissez Salles Microsoft Teams configuration pour elles.</li></ul>|
 
@@ -115,7 +115,7 @@ En fonction du fournisseur que vous préférez, utilisez les informations fourni
 
 **Pro conseil : certains** types de salle peuvent ne pas être applicables à votre déploiement.
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![salles dans l’étendue](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>À partir de votre inventaire, quels types de salles sont dans l’étendue de votre déploiement ?</li><li>Quels systèmes allez-vous déployer pour chaque type de salle ?</li></ul>|
 | ![rassembler les ressources](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à rassembler les ressources opérationnelles clés pour les systèmes que vous avez choisis, et impliquez votre équipe d’approvisionnement.</li></ul>|
@@ -126,20 +126,20 @@ _Exemple Salles Microsoft Teams modèle de déploiement pour votre organisation_
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
 | Focus 10' par 9'      | 2 &ndash; 4                   |                                  |                         |                 |
 | Petite taille : 16' par 16'     | 4 &ndash; 6                   |                                  |                         |                 |
-| Moyenne 18' par 20'    | 6 &ndash; 12                  |                                  |                         |                 |
+| Moyen 18' par 20'    | 6 &ndash; 12                  |                                  |                         |                 |
 | Grand 15' par 32'     | 12 &ndash; 16                 |                                  |                         |                 |
 
-**Pro conseil –** C’est le moment idéal pour commencer à recueillir des informations sur Salles Microsoft Teams solution que vous avez choisie.
+**Pro conseil –** C’est le moment idéal pour commencer à collecter des informations sur Salles Microsoft Teams solution que vous avez choisie.
 
 ## <a name="procurement"></a>Approvisionnement 
 
-Vous pouvez obtenir le système choisi en tant qu’offre groupée ou solution intégrée via des partenaires d’appareils. Vous pouvez également acquérir une station d’accueil d’appareil partenaire et préparer votre propre solution Salles Microsoft Teams à l’aide d’un appareil Surface Pro et de périphériques _AV_ existants pris en charge. 
+Vous pouvez obtenir le système que vous avez choisi en tant qu’offre groupée ou solution intégrée via des partenaires d’appareils. Vous pouvez également acquérir une station d’accueil d’appareil partenaire et préparer votre propre solution Salles Microsoft Teams à l’aide d’un appareil Surface Pro et de périphériques _AV_ existants pris en charge. 
 
 Vous pouvez faire l Salles Microsoft Teams de nombreux partenaires répertoriés dans [l’article requis.](requirements.md) Visitez les sites web des partenaires pour en savoir plus sur ces solutions et les options d’approvisionnement. 
 
 En fonction de l’échelle et de l’approche de déploiement, vous pouvez décider d’expédier les périphériques Salles Microsoft Teams pris en charge vers un emplacement central pour la configuration initiale et l’affectation. Il peut s’agit d’une bonne approche pour un déploiement par étape sur de nombreux sites. Vous pouvez également décider d’expédier les offres groupées directement sur vos sites. 
 
-|    |     |
+|   &nbsp; |  &nbsp;   |
 |-----------|------------|
 | ![composants d’expédition](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Allez-vous expédier les composants directement à un site ou à une installation intermédiaire ?</li><li>Qui gérera l’installation intermédiaire (si vous décidez d’en utiliser une) ?</li></ul>|
 | ![opérations de plan](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Planifiez les opérations.</li><li>Planifier l’adoption et la gestion des changements.</li></ul>|
@@ -150,9 +150,9 @@ Votre organisation doit effectuer régulièrement la surveillance, l’administr
 
 De nombreuses organisations ont une équipe av ou un partenaire qui gère leurs salles de conférence et leurs appareils. Cette équipe doit être impliquée afin d’accepter qui gérera les appareils Salles Microsoft Teams à l’avenir afin de surveiller les performances et de déployer les mises à jour logicielles et les correctifs logiciels. 
 
-Pensez à la file d’attente d’aide que vous allez router Salles Microsoft Teams Microsoft Teams Rooms</DICT__Salles⚐Microsoft⚐Teams> et les principales étapes de résolution des problèmes qu’elles peuvent suivre. L’aide de l’utilisateur [](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) et les problèmes connus constitue un bon point de départ pour cette [FAQ.](known-issues.md)
+Pensez à la file d’attente de l’aide que vous allez router Salles Microsoft Teams Microsoft Teams Rooms</DICT__Salles⚐Microsoft⚐Teams> et les principales étapes de résolution des problèmes qu’elles peuvent suivre. L’aide de l’utilisateur [](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) et les problèmes connus constitue un bon point de départ pour cette [FAQ.](known-issues.md)
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![choisir le responsable](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez qui gérera Salles Microsoft Teams.</li><li>Déterminez la file d’attente du Salles Microsoft Teams vers laquelle router les appels associés.</li></ul>|
 | ![Préparer des comptes hôtes](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Préparez les comptes d’hôtes. </li></ul>|
@@ -162,4 +162,4 @@ Pensez à la file d’attente d’aide que vous allez router Salles Microsoft Te
 
 Salles Microsoft Teams de nouveaux systèmes présentent de nouvelles fonctionnalités à vos utilisateurs. Il est important de reconnaître qu’il s’agit d’un changement pour vos utilisateurs, et vous devez vous assurer que votre campagne identifie les avantages que le nouveau système aura pour vos utilisateurs, et que les principaux points de discussion pourront les utiliser pour discuter avec leurs équipes. 
 
-Envisagez de planifier des événements d’affichage et de présentation et de chutes d’affiche sur chaque site pour informer vos utilisateurs des nouvelles fonctionnalités. Vous pouvez également créer des « guides de démarrage rapide » dans la salle. Songez à trouver un champion des réunions sur chaque site qui peut aider d’autres personnes à se mettre à niveau et à commencer à utiliser les appareils.
+Envisagez de planifier des événements d’affichage et d’affiche sur chaque site pour informer vos utilisateurs des nouvelles fonctionnalités. Vous pouvez également créer des « guides de démarrage rapide » dans la salle. Songez à trouver un champion des réunions sur chaque site qui peut aider d’autres personnes à se mettre à niveau et à commencer à utiliser les appareils.

@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 061573176da10c48dc5cbee72a49f22eb4994c09
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53596639"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53661925"
 ---
 #  <a name="calling-and-call-forwarding-in-teams"></a>Appels et appels de Teams
 
@@ -79,11 +79,11 @@ Ce paramètre permet d’envoyer des appels entrants vers la messagerie vocale. 
 - **Désactivé**  La messagerie vocale n’est pas disponible pour les appels entrants.
 - **Utilisateur contrôlé** Les utilisateurs peuvent déterminer s’ils souhaitent que la messagerie vocale soit disponible.
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Les appels entrants peuvent être acheminés vers des groupes d’appels 
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Les appels entrants peuvent être acheminés vers des groupes d’appels
 
 Ce paramètre contrôle si les appels entrants peuvent être transmis à un groupe d’appels.
 
-### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Autoriser la délégation pour les appels entrants et sortants
+### <a name="delegation-for-inbound-and-outbound-calls"></a>Délégation pour les appels entrants et sortants
 
 Ce paramètre permet de router les appels entrants vers des délégués, ce qui permet aux délégués de réaliser des appels sortants pour le compte des utilisateurs pour lesquels ils ont des autorisations de délégué. Pour plus d’informations, [voir Partager une ligne téléphonique avec un délégué.](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
@@ -91,19 +91,23 @@ Ce paramètre permet de router les appels entrants vers des délégués, ce qui 
 
 La définition de ce paramètre sur **Ôter** envoie des appels via le réseau PSTN et incurver des frais au lieu de les envoyer via le réseau sans passer par les frais de téléphone gratuits.
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>Occupé(elle) est disponible pendant un appel
+### <a name="busy-on-busy-is-available-when-in-a-call"></a>Occupé(elle) est disponible lors d’un appel
 
-Busy on Busy (Busy Options) is a new setting that lets you configure how incoming calls are handled when a user is already in a call or conference or has a call placed on hold. Les appels entrants ou nouveaux peuvent être rejetés avec un signal occupé ou acheminés en conséquence vers les paramètres sans réponse de l’utilisateur. Vous pouvez activer les options de occupé(ive) au niveau du client ou de l’utilisateur. Quelle que soit la configuration de leurs options de occupé, les utilisateurs d’un appel ou d’une conférence ou ceux avec un appel en attente ne sont pas empêchés de lancer de nouveaux appels ou conférences. Ce paramètre est désactivé par défaut.
+Occupé(e) sur Occupé(e) (Options de occupé(e) vous permet de configurer la façon dont les appels entrants sont gérés lorsqu’un utilisateur est déjà en appel ou en conférence ou qu’un appel est mis en attente. Les appels entrants ou nouveaux peuvent être rejetés avec un signal occupé ou acheminés en conséquence vers les paramètres sans réponse de l’utilisateur. Vous pouvez activer les options de occupé(ive) au niveau du client ou de l’utilisateur. Quelle que soit la configuration de leurs options de occupé, les utilisateurs d’un appel ou d’une conférence ou ceux avec un appel en attente ne sont pas empêchés de lancer de nouveaux appels ou conférences. Ce paramètre est désactivé par défaut.
 
-### <a name="allow-web-pstn-calling"></a>Autoriser les appels PSTN Web
+### <a name="web-pstn-calling"></a>Appels PSTN Web
 
 Ce paramètre permet aux utilisateurs d’appeler des numéros PSTN à l’aide Teams client web.
+
+### <a name="incoming-meeting-invites-are-automatically-answered"></a>Les invitations aux réunions entrantes sont automatiquement répondues
+
+Ce paramètre contrôle si les invitations aux réunions entrantes sont automatiquement répondues. Cette option est désactivée par défaut. N’oubliez pas que ce paramètre s’applique uniquement aux invitations aux réunions entrantes. Cela ne s’applique pas aux autres types d’appels.
 
 ### <a name="allow-music-on-hold"></a>Autoriser l’attente musicale
 
 Ce paramètre vous permet d’activer ou de désactiver l’attente musicale lorsqu’un appelant PSTN est mis en attente. Elle est désactivée par défaut. Ce paramètre ne s’applique pas aux fonctionnalités de parcage d’appel et de délégué de responsable et est actuellement disponible uniquement via PowerShell.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-articles"></a>Articles connexes
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 

@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques des Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd6214871a471341ed2d3836e72c5f729e3f6a9f
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111510"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660692"
 ---
 # <a name="what-are-the-requirements"></a>Quelles sont les exigences ? 
 Vous devez avoir installé Power BI Desktop installées. Vous pouvez l’installer à partir du [Microsoft Windows Store.](https://aka.ms/pbidesktopstore)
@@ -98,7 +98,7 @@ Effectuez les étapes suivantes :
 |Standard automatique début de la chaîne         |DateHeure                 |Heure de début d’une chaîne AA                    |
 |Standard automatique de recherche dans l’annuaire  |chaîne                   |Méthode de recherche du dernier carnet d’adresses        |
 |Standard automatique action de transfert          |chaîne                   |Type cible de transfert d’appel<br>Valeurs possibles ;<br>§ inconnu - Le type d’entité n’a pas été spécifié<br>§ user - user entity<br>§ orgaa - Entité Standard automatique organisation<br>§ hunt_group - Entité de la file d’attente d’appels<br>Application § - entité d’application vocale<br>§ external_pstn - entité PSTN externe<br>§ shared_voicemail - entité de messagerie vocale partagée|
-|Standard automatique’appel              |chaîne                   |Résultat de l’appel :<br>§ inconnu<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|Standard automatique’appel              |chaîne                   |Résultat de l’appel :<br>§ inconnu - Échec de l’appel de configuration ou de transfert et le service n’a reçu aucun motif d’échec significatif <br>§ transferred_to_user - Appel transféré vers un utilisateur via la numérotation par nom/extension ou une option de menu configurée <br>§ transferred_to_operator - L’appel a été transféré vers un opérateur configuré, par exemple, si AA est configuré avec un opérateur pour les heures de travail supplémentaires <br>§ failover_to_operator : la récupération de l’opérateur en cas d’échec du transfert ou la reconnaissance du nom ne fonctionne pas après trois tentatives<br>§ user_terminated - L’appelant a terminé l’appel <br>§ service_declined - Appel refusé par le service, cela peut se produire si le service ne parvient pas à récupérer Standard automatique configuration <br>§ service_terminated : le service principale a mis fin à l’appel, peut-être en cas d’échec du transfert vers la cible et qu’aucun opérateur n’est configuré comme une récupération. <br>§ failed_to_establish_media - Échec de la mise en place des médias entre l’appelant et le service <br>§ terminated_no_operator - Échec de la reconnaissance des noms après trois tentatives et aucun opérateur n’est configuré <br>§ terminated_transfer_failed - Échec du transfert à la cible et aucun opérateur n’est configuré <br>§ terminated_automatic_selection - Si aucune action n’est configurée pendant ou après les heures d’ouverture, l’appel prend fin par défaut. <br>§ transferred_to_shared_voicemail - Appel transféré vers la messagerie vocale partagée si configuré en tant que cible <br>§ oaa_chain_too_long - Lorsqu’une chaîne de Standard automatique excède cinq attendants automatiques l’un après l’autre, l’appel se termine pour éviter les boucles d’appel possibles <br>§ oaa_session_too_long - L’appel a dépassé la durée maximale de la session et a dépassé le délai d’attente |
 |Standard automatique la Flow                |chaîne                   |Encapsule les différents états d’un Standard automatique<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ annonce|
 |Is Standard automatique Involved              |Boolean                  |Indiqué si AA participer à l’appel |
 |Standard automatique d’action de l’appelant      |int                      |Nombre d’actions utilisées par l’appelant         |

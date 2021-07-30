@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement Salles Microsoft Teams, y compris les phases de déploiement.
-ms.openlocfilehash: 3ac6ceabd1d421551ab3b9404688bd4a9302e3d6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86564c8b90b0c7c8269d5de258c31d140eca7dc4
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117462"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646695"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
@@ -47,7 +47,7 @@ Pour plus d’informations sur ces dépendances, voir les liens d’aide à la p
 
 **Pro conseil** : si vous avez l’intention d’utiliser des serveurs proxy pour fournir l’accès à Teams ou Skype Entreprise Online, examinez tout d’abord [cet article.](../proxy-servers-for-skype-for-business-online.md) En ce qui concerne le trafic Skype Entreprise serveur proxy, nous vous recommandons de contourner complètement les serveurs proxy. Skype Entreprise trafic est déjà chiffré, les serveurs proxy ne le rendent pas plus sécurisé. Dans le cadre de votre déploiement à plus grande échelle, nous vous recommandons de suivre les instructions de la guide Préparer votre réseau pour [Teams](../prepare-network.md) à des fin de planification de la bande passante et d’évaluation de l’adapter à votre réseau en cas de trafic en temps réel.
 
-|    |     |
+|  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![confirmer les sites](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Confirmez que vos sites répondent aux exigences essentielles pour Salles Microsoft Teams.</li><li>Confirmez que vous avez fourni suffisamment de bande passante pour chaque site.</li></ul>| 
 | ![planifier le déploiement d’appareils](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement et la configuration de votre appareil.</li></ul>| 
@@ -72,7 +72,7 @@ Selon les scénarios de collaboration que vous avez décidé d’activer avec vo
 Pour plus d’informations sur Salles Microsoft Teams comptes, voir Configurer [des comptes pour Salles Microsoft Teams.](rooms-configure-accounts.md)
 
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![prise en charge des scénarios](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Déterminez les scénarios que vous prendrez en charge et identifiez les conditions de licence pour Salles Microsoft Teams comptes de service.</li></ul>| 
 | ![préparer l’ordinateur hôte](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Préparez-vous à héberger des comptes d’ordinateurs et de services.</li></ul>| 
@@ -121,7 +121,7 @@ Chaque Salles Microsoft Teams nécessite un compte de ressource dédié et uniqu
 
 **Pro conseil :** rendre les noms d’affichage de ces comptes descriptifs et faciles à comprendre. Voici les noms que les utilisateurs voient lors de la recherche et de l’ajout Salles Microsoft Teams systèmes à des réunions. Certaines organisations utilisent le nom de salle de *site* de la convention (Capacité maximale de salle )-RS, par exemple Domaine (salle de conférence de 12 personnes à Londres) qui peut avoir le nom complet - LON-X(12)-RS. 
 
-|    |     |
+|  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![Décider d’une convention d’attribution de noms](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez de la convention d’Salles Microsoft Teams comptes.</li><li>Décidez si vous devez créer des comptes individuels ou utiliser des scripts d’approvisionnement en bloc.</li></ul>| 
 | ![étapes suivantes](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement de votre appareil.</li></ul>| 
@@ -146,7 +146,7 @@ Nous fournissons des instructions sur l’utilisation du moniteur [Microsoft Azu
 
 Vous de même déterminer si l’Salles Microsoft Teams sera joint au domaine. Des informations sur les avantages de l’adhésion à un domaine sont disponibles dans [Skype considérations pour la jointation](domain-joining-considerations.md)du domaine Room System. 
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![Attribution d’un nom de périphérique à des points de décision](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez Salles Microsoft Teams convention d’affectation de noms d’appareils à utiliser lors de votre déploiement.</li><li>Décidez si vous devez rejoindre Salles Microsoft Teams votre domaine et comment gérer et configurer les comptes locaux. </li><li>Décidez si vous allez utiliser la suite Gestion des opérations pour surveiller le Salles Microsoft Teams déploiement.</li><li>Déterminez la méthode que vous utiliserez pour déployer le logiciel et les agents sur le Salles Microsoft Teams en vue du déploiement de l’appareil. </li></ul>| 
 | ![Étapes suivantes pour planifier un appareil](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier l’approche de déploiement de votre appareil.</li></ul>| 
@@ -157,7 +157,7 @@ Vous de même déterminer si l’Salles Microsoft Teams sera joint au domaine. D
 Après avoir déployé votre logiciel sur les unités de Salles Microsoft Teams, créez votre plan pour expédier les appareils et les périphériques affectés à vos salles, puis procédez à l’installation et à la configuration. 
 
 
-|    |     |
+|  &nbsp;  |   &nbsp;  |
 |-----------|------------|
 | ![gérer le déploiement site par site](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez qui gérera le déploiement site par site.</li><li> Identifiez les ressources qui seront en mesure d’installer les Salles Microsoft Teams sur site et entreprenons la configuration et le test.</li></ul>| 
 | ![Démarrer le test de l’appareil](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Démarrez le test de l’appareil.</li></ul>| 
@@ -179,7 +179,7 @@ Pour plus d’informations sur l’utilisation du fichier de configuration XML, 
 
 Vous pouvez utiliser [PowerShell à distance pour](rooms-operations.md#remote-management-using-powershell) tirer le Salles Microsoft Teams aux besoins en matière de rapport. 
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![configuration du point de décision](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si vous devez configurer manuellement chaque Salles Microsoft Teams système informatique ou utiliser un fichier XML central (un par Salles Microsoft Teams appareil).</li></ul>| 
 | ![Approche à distance des étapes suivantes](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Définissez votre approche de la gestion à distance.</li></ul>| 

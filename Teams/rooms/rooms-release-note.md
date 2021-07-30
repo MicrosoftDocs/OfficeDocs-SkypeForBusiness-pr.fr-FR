@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Les administrateurs peuvent lire les notes de publication de l Salles Microsoft Teams pour lesquelles les améliorations cumulatives ont été apportées Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796848"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646875"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -29,6 +29,7 @@ Cet article décrit les améliorations cumulatives apportées à Salles Microsof
 
 |Publication |Publié sur <br/> Microsoft Store |
 |--- |--- |
+|4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
@@ -74,6 +75,15 @@ Cet article décrit les améliorations cumulatives apportées à Salles Microsof
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Salles Microsoft Teams présentation des fonctionnalités et la résolution des problèmes
 
+### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
+
+Introduite dans cette mise à jour :
+- Microsoft Teams mode uniquement est désormais disponible dans les paramètres de l’application. Vous n’avez donc plus besoin de configurer Skype Entreprise compte. Dans ce mode, les appareils connectés au Teams seul mode rejoignent Skype Entreprise réunions en tant qu’utilisateur invité.
+- Correctif pour le son HDMI qui réduit le volume des appels. La fonctionnalité audio HDMI est automatiquement activée pour tous les appareils avec l’application build 4.9.12.0.
+
+> [!NOTE]
+> À Skype Entreprise fin de vie, il est recommandé de mettre à Teams mode uniquement.
+
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
 Introduite dans cette mise à jour :
@@ -96,7 +106,7 @@ Introduite dans cette mise à jour :
 - Cloud de la communauté du secteur public Prise en charge élevée (GCCH) des salles Teams. Les clients GCCH disposent d’salles Teams existants peuvent télécharger la version 4.8.19.0 à partir de la mise à jour manuelle [d’Salles Microsoft Teams appareil](manual-update.md)
 - Participer à des réunions de zoom avec une meilleure qualité vidéo (prise en charge de 720p) et recevoir la galerie de vidéos des participants
 - Skype Entreprise bannière d’échec de la inscription supprimée pour Teams mode par défaut. Ce changement prend en charge la suppression d’Skype Entreprise infrastructure
-- Teams l’examen des liens de jointage des liens de réunion traite désormais les liens sécurisés Microsoft Defender Advanced Thread Protection pour permettre la jointité des utilisateurs Teams en toute transparence
+- Teams d’équipe qui participent à des réunions, l’Coffre liens de protection avancée des liens permet désormais de joindre des utilisateurs externes Teams en toute transparence
 - Correctif pour les problèmes de mise à l’échelle du contenu partagé Skype Entreprise réunions lorsque le PC de la partageur a un jeu d’ID DPI personnalisé dans Windows
 - Correctifs en matière de qualité et de fiabilité
 
@@ -110,12 +120,12 @@ Introduite dans cette mise à jour :
 Introduite dans cette mise à jour :
 
 - Partager le système audio HDMI pour les participants d’Teams réunion
-- Compétences vocales de Cortana (aperçu)
+- Cortana de voix (aperçu)
 - Empêchez la désmutation en fonction des autorisations audio lorsque Teams salle rejoint en tant que participant. Pour plus d’informations, [voir Gérer les autorisations audio des](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)participants Teams réunions.
 - Mettre en valeur la vidéo d’une personne à partir Teams console de salle et utiliser les vidéos à la une sur les écrans des salles
 
 > [!NOTE]
-> Les compétences vocales de Cortana sont disponibles pour certains périphériques audio pour les locataires situés aux États-Unis. D’autres pays ou régions seront ajoutés ultérieurement. Pour plus d’informations, [consultez l’assistance vocale de Cortana dans Teams](../cortana-in-teams.md)
+> Cortana de voix sont disponibles pour certains périphériques audio pour les locataires situés aux États-Unis. D’autres pays ou régions seront ajoutés ultérieurement. Pour plus d’informations, [voir Cortana l’assistance vocale dans Teams](../cortana-in-teams.md)
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -195,7 +205,7 @@ Introduite dans cette mise à jour :
 
 - Correctif pour un problème de resizing/scintillement de fenêtre visible dans certaines configurations
 - Traitement du calendrier pour les réunions tierces supprimés
-- Paramètre de statut de Cortana supprimé
+- Cortana statut supprimé
 
 ### <a name="43230-12132019"></a>4.3.23.0 (12/13/2019)
 

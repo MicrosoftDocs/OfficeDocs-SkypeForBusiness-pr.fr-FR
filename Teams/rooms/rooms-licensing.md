@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez les licences disponibles pour différents types d’appels et fonctionnalités de réunion dans Salles Microsoft Teams.
-ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 03557d1e833241b36bb1bc5df3a5ef36ff2ca450
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117452"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646685"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Salle de réunion mise à jour des licences
 
@@ -35,7 +35,7 @@ ms.locfileid: "51117452"
 
 Microsoft propose deux SDK dédiées pour la gestion des licences des réunions et les appels sur un appareil pour les appareils de salle de réunion (par exemple, Salles Microsoft Teams, Microsoft Surface Hub et barres de collaboration pour les Microsoft Teams).
 
-||Salles Microsoft Teams Standard |Salles Microsoft Teams Premium |
+|&nbsp;|Salles Microsoft Teams Standard |Salles Microsoft Teams Premium |
 |:--- |:---: |:---: |
 |Skype Entreprise |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -64,7 +64,7 @@ Le tableau suivant répertorie les fonctionnalités disponibles dans Salles Micr
 > [!NOTE]
 > Ces licences doivent être affectées à la salle configurée et elle doit être un objet utilisateur.
 
-|  | Vous avez Microsoft Teams ou Skype Entreprise Online <br/> Voici les compléments que vous devez acheter :   |Vous avez Skype Entreprise Server 2015/2019 (local ou hybride). <br/> Voici les compléments que vous devez acheter :|
+| &nbsp; | Vous avez Microsoft Teams ou Skype Entreprise Online <br/> Voici les compléments que vous devez acheter :   |Vous avez Skype Entreprise Server 2015/2019 (local ou hybride). <br/> Voici les compléments que vous devez acheter :|
 |:-----|:-----|:-----|
 |Rejoindre une réunion planifiée  | Salles Microsoft Teams Standard ou Premium  |Skype Entreprise Licence d'accès client Server standard  |
 |Créer une réunion ad hoc | Salles Microsoft Teams Standard ou Premium  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|

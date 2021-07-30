@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Découvrez comment configurer les téléphones communs pour les centres d’accueil, les zones de réception et les salles de conférence '
-ms.openlocfilehash: bb17b21eac262c160abc3e16a4b552fb32b97d00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d04b1262c88a2600e2167cbaf5498672983cb0b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117112"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646215"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
@@ -40,7 +40,7 @@ Tout d’abord, vous devez acheter une licence zone Téléphone (CAP) et vous as
 
 ## <a name="step-1---buy-the-licenses"></a>Étape 1 - Acheter les licences
 
-1. Dans le centre Microsoft 365 d’administration, allez aux services **d’achat** de  >   facturation, puis développez **Autres plans.**
+1. Dans le Centre d’administration Microsoft 365, allez aux services **d’achat** de  >   facturation, puis développez **Autres plans.**
 
     ![Capture d’écran montrant la vignette Téléphone commun](media/set-up-common-area-phone-image1.png)
 
@@ -61,7 +61,7 @@ Pour plus d’informations sur les licences, voir [Microsoft Teams licences de m
 La licence Zone Téléphone prend en charge : 
 
 
-|   |  Téléphone de zone commune  |
+| &nbsp;  |  Téléphone de zone commune  |
 |---------|---------|
 |Skype Entreprise |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
@@ -80,7 +80,7 @@ La licence Zone Téléphone prend en charge :
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Étape 2 - Créer un nouveau compte utilisateur pour le téléphone et attribuer les licences
 
-1. Dans le centre Microsoft 365 d’administration, allez aux **utilisateurs**  >  **actifs pour** ajouter un  >  **utilisateur.**
+1. Dans le Centre d’administration Microsoft 365, allez aux **utilisateurs**  >  **actifs ajouter** un  >  **utilisateur.**
 
 2. Entrez un nom d’utilisateur tel que « Principal » pour le prénom et « Réception » pour le deuxième nom.
 
@@ -92,7 +92,7 @@ La licence Zone Téléphone prend en charge :
 
 6. Attribuez les licences à l’utilisateur. Sur la même page, cliquez pour développer **Licences produit**. Vous pouvez activer la zone Téléphone et choisir un **plan** d’appels nationaux ou un **plan d’appels nationaux et internationaux.** 
 
-    ![Capture d’écran montrant l’attribution de licences](media/set-up-common-area-phone-image2.png)
+    ![Capture d’écran montrant l’attribution de licences avec les options plan d’appels nationaux et nationaux et internationaux mises en évidence](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > Si vous utilisez un Téléphone Microsoft routage direct du système, vous n’avez pas besoin d’affecter une licence de plan d’appels.
@@ -113,7 +113,7 @@ Utilisez le Teams centre d’administration pour attribuer un numéro à l’uti
 
 6. Cliquez sur **Enregistrer** et votre utilisateur devrait ressembler à ceci :
 
-   ![Capture d’écran montrant l’attribution de licences](media/set-up-common-area-phone-image3.png)
+   ![La capture d’écran montre un exemple d’attribution de licence utilisateur](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > Les utilisateurs ne s’afficheront que s’ils ont Système téléphonique licence utilisateur. Si vous venez d’attribuer, il faudra parfois attendre un moment pour que l’utilisateur apparaisse dans la liste.

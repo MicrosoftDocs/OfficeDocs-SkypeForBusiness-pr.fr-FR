@@ -21,25 +21,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae3efe06e36c653069c06127c98f228fb25cac37
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6daa5391e90c1931e7de1e3008c41782b0b22976
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831204"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646825"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Comprendre les équipes et les canaux dans Microsoft Teams
 
 Les concepts d’équipes et de canaux sont fondamentaux pour une implémentation saine et productive de Microsoft Teams. 
 
-- Une équipe est un ensemble de personnes, de contenu et d’outils qui collaborent pour produire des résultats commerciaux pour votre entreprise. Les équipes sont centrées autour de groupes Microsoft 365, et les modifications apportées à l’appartenance à un groupe Microsoft 365 sont synchronisées avec l’équipe.
+- Une équipe est un ensemble de personnes, de contenu et d’outils qui collaborent pour produire des résultats commerciaux pour votre entreprise. Les équipes sont centrées autour de groupes Microsoft 365, et les modifications apportées à l’appartenance à un groupe Microsoft 365 sont synchronisées avec l’équipe.
 
 - Les canaux sont les espaces de collaboration au sein desquels les tâches réelles sont effectuées. 
 
 Pour en savoir plus sur les équipes et les canaux, veuillez consulter la [vue d’ensemble des équipes et des canaux dans Microsoft Teams](teams-channels-overview.md). Pour recevoir des instructions complètes sur l’adoption de Teams, veuillez consulter le [Guide d’adoption de Teams](https://aka.ms/teamstoolkit). Pour en savoir plus sur les groupes Teams et Microsoft 365 groupe, voir groupes Microsoft 365 et groupes Microsoft Teams [et](office-365-groups.md) En savoir plus sur [Microsoft 365 groupes.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
-|  |  |
+| &nbsp; |&nbsp;  |
 |---------|---------|
 | Regardez cette courte vidéo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 

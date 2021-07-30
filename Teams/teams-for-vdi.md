@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
-description: Découvrez comment exécuter une Microsoft Teams dans un environnement VDI (Virtualized Desktop Infrastructure).
+description: Découvrez comment exécuter des Microsoft Teams dans un environnement VDI (Virtualized Desktop Infrastructure).
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: b4ed46623d741d0bf370203a90a24e5bbaa0750f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203623"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646525"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -32,11 +32,11 @@ Cet article décrit les exigences et les limitations relatives à l’utilisatio
 
 L’infrastructure VDI (Virtual Desktop Infrastructure) est une technologie de virtualisation qui héberge un système d’exploitation de bureau et des applications sur un serveur centralisé dans un centre de données. Cela permet aux utilisateurs d’une source centralisée entièrement sécurisée et conforme d’obtenir une expérience de bureau entièrement personnalisée.
 
-Microsoft Teams dans un environnement virtualisé prend en charge la conversation et la collaboration. Par ailleurs, grâce aux Windows Virtual Desktop, Citrix et VMware, les fonctionnalités d’appel et de réunion sont également pris en charge.
+Microsoft Teams dans un environnement virtualisé prend en charge la conversation et la collaboration. Par ailleurs, grâce aux plateformes Azure Virtual Desktop, Citrix et VMware, les fonctionnalités d’appel et de réunion sont également pris en charge.
 
 Teams dans un environnement virtualisé prend en charge plusieurs configurations. Il s’agit notamment des modes VDI, dédiés, partagés, persistants et non persistants. Les fonctionnalités sont en développement continu et sont régulièrement ajoutées, et elles seront étendues dans les mois et les années à venir.
 
-L Teams dans un environnement virtualisé peut être quelque peu différent de l’utilisation de Teams dans un environnement non virtualisé. Par exemple, certaines fonctionnalités avancées peuvent ne pas être disponibles dans un environnement virtualisé, et la résolution vidéo peut différer.
+L Teams dans un environnement virtualisé peut être quelque peu différent de l’utilisation de Teams dans un environnement non virtualisé. Par exemple, certaines fonctionnalités avancées peuvent ne pas être disponibles dans un environnement virtualisé et la résolution vidéo peut différer.
 
 Pour garantir une expérience utilisateur optimale, suivez les instructions de cet article.
 
@@ -58,7 +58,7 @@ L’Teams dans un environnement virtualisé nécessite les composants suivants.
 
 L Teams de bureau a été validée avec les principaux fournisseurs de solutions de virtualisation. Avec plusieurs fournisseurs de marché, nous vous recommandons de consulter votre fournisseur de solutions de virtualisation pour vous assurer que vous répondez aux conditions minimales requises.
   
-Actuellement, Teams sur VDI avec l’optimisation audio/vidéo (AV) est certifiée avec Windows Virtual Desktop, Citrix et VMware. Examinez les informations de cette section pour vous assurer que vous répondez à toutes les exigences en matière de fonctionnalités adéquates.
+Actuellement, Teams sur VDI avec l’optimisation audio/vidéo (AV) est certifiée avec Azure Virtual Desktop, Citrix et VMware. Examinez les informations de cette section pour vous assurer que vous répondez à toutes les exigences en matière de fonctionnalités adéquates.
 
 ### <a name="platforms-certified-for-teams"></a>Plateformes certifiées pour les Teams
 
@@ -66,17 +66,17 @@ Les plateformes suivantes ont des solutions d’infrastructure de bureau virtuel
 
 |Plateforme|Solution|
 |----|---|
-|![Logo représentant Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Bureau virtuel</a> |
+|![Logo représentant Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Bureau virtuel Azure</a> |
 |![Logo représentant Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Applications et bureaux virtuels Citrix</a> |
 |![Logo représentant VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### <a name="windows-virtual-desktop"></a>Windows Bureau virtuel
+### <a name="azure-virtual-desktop"></a>Bureau virtuel Azure
 
-Windows Virtual Desktop fournit l’optimisation AV Teams sur VDI. Pour en savoir plus sur la exigences et l’installation, voir [Utiliser Teams sur Windows Virtual Desktop.](/azure/virtual-desktop/teams-on-wvd)
+Azure Virtual Desktop fournit l’optimisation av pour Teams sur VDI. Pour en savoir plus sur la exigences et l’installation, voir [Utiliser Teams sur Azure Virtual Desktop.](/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops requirements
 
-Citrix Virtual Apps and Desktops (anciennement XenApp et XenDesktop) fournit l’optimisation d’AV pour Teams sur VDI. Avec Citrix Virtual Apps et Desktops, Teams sur VDI prend en charge les fonctionnalités d’appel et de réunion en plus de la conversation et de la collaboration.
+Citrix Virtual Apps and Desktops (anciennement XenApp et XenDesktop) fournit l’optimisation d’AV pour les Teams sur VDI. Avec Citrix Virtual Apps et Desktops, Teams sur VDI prend en charge les fonctionnalités d’appel et de réunion en plus de la conversation et de la collaboration.
 
 Vous pouvez télécharger la dernière version des applications et bureaux virtuels Citrix sur le site de [téléchargements de Citrix.](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/) (Vous devez tout d’abord vous connectez.) Les composants nécessaires sont regroupés dans l’application [Citrix Workspace (CWA)](https://www.citrix.com/downloads/workspace-app/) et l’agent de remise virtuelle (VDA) par défaut. Vous n’avez pas besoin d’installer d’autres composants ou plug-ins sur CWA ou VDA.
 
@@ -84,15 +84,15 @@ Pour obtenir les dernières exigences en matière de serveur et de client, [cons
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware Horizon Workspace and Desktop requirements
 
-VMware Horizon est une plateforme moderne qui offre une livraison sécurisée des bureaux et applications virtuels dans le cloud hybride. Pour offrir une expérience excellente aux utilisateurs finaux, VMware Horizon offre l’optimisation des médias Teams. Cette optimisation améliore la productivité globale sur les bureaux virtuels et les applications, et améliore l’expérience utilisateur lors des appels et des réunions à l’aide Teams.
+VMware Horizon est une plateforme moderne qui permet d’assurer la livraison sécurisée des bureaux et applications virtuels dans le cloud hybride. Pour offrir une expérience excellente aux utilisateurs finaux, VMware Horizon offre une optimisation des médias pour Teams. Cette optimisation améliore la productivité globale sur les bureaux virtuels et les applications, et améliore l’expérience utilisateur lors des appels et des réunions à l’aide Teams.
 
 Vous pouvez télécharger la dernière version de VMware Horizon à partir de la page [Téléchargements de VMware.](https://my.vmware.com/web/vmware/downloads/#all_products) Les composants d’optimisation multimédia requis font partie de l’agent Horizon et du client Horizon par défaut et il n’est pas nécessaire d’installer de plug-in supplémentaire pour utiliser la fonctionnalité d’optimisation de Teams.
 
 Pour obtenir les dernières exigences et instructions sur la configuration de l’optimisation des médias pour Teams, consultez ce [site web VMware.](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)
 
-## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Installer ou mettre à jour Teams’application de bureau en environnement VDI
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Installer ou mettre à jour Teams application de bureau sur VDI
 
-Vous pouvez déployer l’Teams de bureau pour VDI à l’aide d’une installation par ordinateur ou par utilisateur à l’aide du package MSI. Le choix de l’approche à utiliser dépend de l’utilisation d’une configuration permanente ou non permanente et des besoins en fonctionnalités associées de votre organisation.
+Vous pouvez déployer l’Teams pour VDI à l’aide d’une installation par ordinateur ou par utilisateur à l’aide du package MSI. Le choix de l’approche à utiliser dépend de l’utilisation d’une configuration permanente ou non permanente et des besoins en fonctionnalités associées de votre organisation.
 
 Pour une configuration permanente dédiée, l’une ou l’autre approche fonctionnerait. Toutefois, pour une configuration sans Teams, une installation par ordinateur est nécessaire pour fonctionner efficacement. Consultez la section [configuration non](#non-persistent-setup) permanente.
 
@@ -118,7 +118,7 @@ Voici la configuration VM minimale recommandée.
 
 Dans une configuration non permanente, les modifications apportées au système d’exploitation local des utilisateurs ne sont pas conservées une fois que les utilisateurs se déconnectent. De telles configurations sont généralement partagées entre utilisateurs. La configuration de la VM varie en fonction du nombre d’utilisateurs et des ressources physiques disponibles.
 
-Pour une configuration non permanente, l’application de bureau Teams doit être installée par ordinateur sur l’image d’or. (Pour en savoir plus, consultez la section Installer ou mettre à jour Teams l’application de [bureau VDI.)](#install-or-update-the-teams-desktop-app-on-vdi) Cela garantit un lancement efficace de l’Teams pendant une session utilisateur.
+Pour une configuration non permanente, l’application de bureau Teams doit être installée par ordinateur sur l’image d’or. (Pour plus d’informations, voir la section Installer ou mettre à jour Teams l’application de [bureau VDI.)](#install-or-update-the-teams-desktop-app-on-vdi) Cela garantit un lancement efficace de l’Teams pendant une session utilisateur.
 
 L Teams dans une configuration non permanente nécessite également un gestionnaire de mise en cache de profil, pour une synchronisation des données Teams runtime. Une synchronisation efficace des données garantit que les informations spécifiques de l’utilisateur appropriées (telles que les données, le profil ou les paramètres d’un utilisateur) sont mises en cache pendant la session de l’utilisateur. Assurez-vous que les données de ces deux dossiers sont synchronisées :<br>
 
@@ -150,11 +150,11 @@ Teams via Applications Microsoft 365 pour les grandes entreprises est installé 
 
 #### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Teams des déploiements via Applications Microsoft 365 pour les grandes entreprises mises à jour
 
-Teams est également ajouté aux installations existantes d’Applications Microsoft 365 pour les grandes entreprises. Étant donné Applications Microsoft 365 pour les grandes entreprises est Teams par utilisateur uniquement, consultez la section Installer ou mettre à jour l’application de bureau Teams sur [VDI.](#install-or-update-the-teams-desktop-app-on-vdi)
+Teams des installations existantes d’Applications Microsoft 365 pour les grandes entreprises sont également ajoutées. Étant donné Applications Microsoft 365 pour les grandes entreprises est Teams par utilisateur uniquement, consultez la section Installer ou mettre à jour l’application de bureau Teams sur [VDI.](#install-or-update-the-teams-desktop-app-on-vdi)
 
 #### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>Utilisation d Teams avec l’installation par ordinateur et la mise à Applications Microsoft 365 pour les grandes entreprises
 
-Applications Microsoft 365 pour les grandes entreprises ne prend pas en charge les installations par ordinateur d’Teams. Pour utiliser une installation par ordinateur, vous devez exclure l’Teams du Applications Microsoft 365 pour les grandes entreprises. Consultez la rubrique Déployer [l Teams appeil](#deploy-the-teams-desktop-app-to-the-vm) de bureau sur la messagerie vm et comment exclure Teams [déploiement via Applications Microsoft 365 pour les grandes entreprises](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) sections.
+Applications Microsoft 365 pour les grandes entreprises ne prend pas en charge les installations par ordinateur d’Teams. Pour utiliser une installation par ordinateur, vous devez exclure l’Teams du Applications Microsoft 365 pour les grandes entreprises. Consultez [la rubrique Déployer Teams’application](#deploy-the-teams-desktop-app-to-the-vm) de bureau sur la messagerie automatique et comment exclure Teams déploiement via [Applications Microsoft 365 pour les grandes entreprises](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise) sections.
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Comment exclure un déploiement Teams via Applications Microsoft 365 pour les grandes entreprises
 
@@ -165,12 +165,12 @@ Pour en savoir plus sur Teams et Applications Microsoft 365 pour les grandes ent
 1. Téléchargez le Teams package MSI qui correspond à votre système d’exploitation VDI VM à l’aide de l’un des liens suivants :
 
     - [Version 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
-    - [version 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
+    - [Version 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
     > [!NOTE]
-    > Pour les nuages de gouvernement, voir [Installer Microsoft Teams à l Microsoft Endpoint Configuration Manager](msi-deployment.md) pour consulter les liens de téléchargement vers les fichiers MSI.
+    > Pour les cloud du gouvernement, voir [Installer Microsoft Teams à l Microsoft Endpoint Configuration Manager](msi-deployment.md) pour consulter les liens de téléchargement vers les fichiers MSI.
 
-    La version minimale de Teams de bureau requise est la version 1.3.00.4461. (La prise en charge PSTN n’est pas prise en charge dans les versions antérieures.)
+    La version minimale de l Teams de bureau requise est la version 1.3.00.4461. (La prise en charge PSTN n’est pas prise en charge dans les versions antérieures.)
 
 2. Installez le MSI sur la VDI VM en exécutant l’une des commandes suivantes :
 
@@ -219,7 +219,7 @@ Il existe plusieurs configurations de configuration virtualisées, avec une atte
 
 - Configuration minimale requise : certaines charges de travail peuvent nécessiter une configuration à l’aide de ressources qui dépassent la configuration minimale requise. Par exemple, les charges de travail des développeurs qui utilisent des applications qui demandent plus de ressources informatiques.
 - Dépendances : il peut s’agir de dépendances en relation avec l’infrastructure, la charge de travail et d’autres considérations environnementales en dehors de l Teams de bureau.
-- Fonctionnalités désactivées sur VDI : Teams fonctionnalités intensives de l’UC pour une utilisation VDI qui peuvent contribuer à améliorer l’utilisation intensive de l’UC. Les fonctionnalités suivantes sont désactivées :
+- Fonctionnalités désactivées sur VDI : Teams fonctionnalités intensives de l’UC pour une utilisation VDI, qui peuvent contribuer à améliorer l’utilisation intensive de l’UC. Les fonctionnalités suivantes sont désactivées :
     - Teams Animation CSS
     - Démarrage automatique de Giphy
 
@@ -230,7 +230,7 @@ Outre la conversation et la collaboration, les Teams sur VDI avec les appels et 
 ![Diagramme montrant des Teams sur une architecture VDI](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
-> Si vous exécutez actuellement des Teams sans optimisation AV dans VDI et que vous utilisez des fonctionnalités qui ne sont pas encore pris en charge pour l’optimisation (telles que Donner et prendre le contrôle du partage d’application), vous devez définir les stratégies des fournisseurs de virtualisation pour désactiver la redirection Teams. Cela signifie que Teams sessions multimédias ne seront pas optimisées. Pour savoir comment définir des stratégies pour désactiver Teams redirection, contactez votre fournisseur de virtualisation.
+> Si vous exécutez actuellement des Teams sans optimisation AV dans VDI et que vous utilisez des fonctionnalités qui ne sont pas encore pris en charge pour l’optimisation (telles que Donner et prendre le contrôle du partage d’application), vous devez définir les stratégies de fournisseur de virtualisation pour désactiver Teams redirection. Cela signifie que Teams sessions multimédias ne seront pas optimisées. Pour savoir comment définir des stratégies pour désactiver Teams redirection, contactez votre fournisseur de virtualisation.
 
 ### <a name="network-requirements"></a>Configuration réseau requise
 
@@ -240,14 +240,14 @@ Pour en savoir plus sur la préparation de votre réseau pour Teams, voir Prépa
 
 ### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>Migrer à partir Skype Entreprise DDI vers un Teams VDI
 
-Si vous migrez de Skype Entreprise sur VDI vers Teams sur un VDI, outre les différences entre les deux applications, il existe quelques différences lorsque VDI est également implémenté. Certaines fonctionnalités qui ne sont pas actuellement pris en charge dans Teams VDI qui sont dans Skype Entreprise VDI sont les suivantes :
+Si vous migrez de Skype Entreprise sur VDI vers Teams sur un VDI, outre les différences entre les deux applications, il existe quelques différences lorsque VDI est également implémenté. Certaines fonctionnalités qui ne sont pas actuellement pris en charge dans Teams VDI qui sont Skype Entreprise VDI sont les suivantes :
 
 - Stratégie par plate-forme pour la désactivation de certaines fonctionnalités AV dans VDI
 - Donner et prendre le contrôle lors du partage d’application
 - Partage d’écran à partir d’une conversation sans son
 - Envoi et réception simultanés de vidéos et de partages d’écran
 
-### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Teams dans le navigateur Chrome et dans l Teams appe de bureau pour VDI
+### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Teams dans le navigateur Chrome et Teams application de bureau pour VDI
 
 Teams navigateur Chrome ne remplace pas l’application de bureau Teams pour VDI avec l’optimisation AV. L’expérience de conversation et de collaboration fonctionne comme prévu. Lorsque des médias sont nécessaires, certaines expériences peuvent ne pas répondre aux attentes des utilisateurs sur le navigateur Chrome :
 
@@ -304,7 +304,7 @@ Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 
 Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies d’appel, voir [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy)
 
-L’exemple suivant montre comment utiliser [grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
+L’exemple suivant montre comment utiliser la stratégie de réunion [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
@@ -320,7 +320,7 @@ Si vous avez déjà mis en œuvre Teams sur un environnement VDI avec la convers
 
 Vous pouvez utiliser le Centre Microsoft Teams’administration de l’entreprise ou PowerShell pour définir et affecter des stratégies d’appel et de réunion à vos utilisateurs. La propagation des modifications de stratégie peut prendre un certain temps (quelques heures). Si vous ne voyez pas immédiatement de modifications pour un compte donné, essayez à nouveau après quelques heures.
 
-[**Polices d’appel**](teams-calling-policy.md): les stratégies d’Teams contrôlent quelles fonctionnalités d’appel sont disponibles pour les utilisateurs. Teams inclut la stratégie d’appel AllowCalling intégrée, dans laquelle toutes les fonctionnalités d’appel sont désactivées. Pour activer toutes les fonctionnalités d’appel, affectez la stratégie AllowCalling. Vous pouvez également créer une stratégie d’appel personnalisée pour activer les fonctionnalités d’appel de votre souhaitez et les affecter aux utilisateurs.
+[**Polices d’appel**](teams-calling-policy.md): stratégies d’appel Teams contrôler quelles fonctionnalités d’appel sont disponibles pour les utilisateurs. Teams inclut la stratégie d’appel AllowCalling intégrée, dans laquelle toutes les fonctionnalités d’appel sont désactivées. Pour activer toutes les fonctionnalités d’appel, affectez la stratégie AllowCalling. Vous pouvez également créer une stratégie d’appel personnalisée pour activer les fonctionnalités d’appel de votre souhaitez et les affecter aux utilisateurs.
 
 [**Stratégies de**](meeting-policies-in-teams.md)réunion : les stratégies de réunion dans Teams contrôlent les types de réunions que les utilisateurs peuvent créer et les fonctionnalités disponibles aux participants à la réunion qui sont prévues par les utilisateurs de votre organisation. Teams inclut la stratégie de réunion AllOn intégrée, dans laquelle toutes les fonctionnalités de réunion sont désactivées. Pour activer toutes les fonctionnalités de réunion, affectez la stratégie AllOn. Vous pouvez également créer une stratégie de réunion personnalisée pour activer les fonctionnalités de réunion que vous souhaitez et affecter aux utilisateurs.
 
@@ -345,7 +345,7 @@ Vous pouvez également :
 
 1. Dans le navigation gauche du Microsoft Teams d’administration, allez à la stratégie que vous voulez attribuer. Par exemple :
     - Consultez **les**  >  **stratégies d’appel** vocal, puis cliquez **sur AllowCalling.**
-    - Allez dans **stratégies**  >  **de réunion Réunions,** puis cliquez sur **AllOn.**
+    - Allez aux **stratégies**  >  **de réunion,** puis cliquez sur **AllOn.**
 2. Sélectionnez **Gérer les utilisateurs**.
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis cliquez sur **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, cliquez sur **Enregistrer.**
@@ -381,7 +381,7 @@ Cette fonctionnalité est disponible dans Teams version 1.3.00.13565 et ultérie
 
 ## <a name="disable-audio-and-video-settings-for-vdi"></a>Désactiver les paramètres audio et vidéo pour VDI
 
-Teams Les stratégies VDI sont disponibles dans le module Microsoft Teams ressources. Ces stratégies sont actives et appliquées sur des environnements VDI non optimisés.
+Teams Les stratégies VDI sont disponibles dans le module Microsoft Teams’équipe. Ces stratégies sont actives et appliquées sur des environnements VDI non optimisés.
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
@@ -467,10 +467,10 @@ if($cleanup){
 
 ### <a name="client-deployment-installation-and-setup"></a>Déploiement, installation et configuration de clients
 
-- Avec l’installation par ordinateur, Teams’installation sur VDI n’est pas automatiquement mise à jour comme le sont les clients de Teams-VDI. Vous devez mettre à jour l’image VM en installant un nouveau MSI comme décrit dans la section Installer ou mettre à jour l’application de bureau [Teams sur VDI.](#install-or-update-the-teams-desktop-app-on-vdi) Vous devez désinstaller la version actuelle pour la mettre à jour vers une version plus récente.
+- Avec l’installation par ordinateur, Teams’installation sur VDI n’est pas automatiquement mise à jour comme le sont les clients de Teams-VDI. Vous devez mettre à jour l’image VM en installant un nouveau MSI comme décrit dans la section Installer ou mettre à jour l’application de bureau [Teams sur VDI.](#install-or-update-the-teams-desktop-app-on-vdi) Vous devez désinstaller la version actuelle pour effectuer une mise à jour vers une version plus récente.
 - Dans les environnements Citrix, si l’utilisateur se déconnecte de la machine virtuelle pendant que Teams est en cours d’exécution, les mises à jour Teams peuvent avoir pour effet que l’utilisateur soit dans un état non optimisé pour AV lorsqu’il se reconnecte. Nous recommandons aux utilisateurs de quitter Teams se déconnecter de Citrix Virtual Machine pour éviter ce scénario.
 - Teams doivent être déployés par utilisateur ou par ordinateur. Le déploiement de Teams pour les utilisateurs simultanés et par ordinateur n’est pas pris en charge. Pour passer d’un mode par ordinateur ou par utilisateur à l’un de ces modes, suivez la procédure de désinstallation et redéployer l’un ou l’autre.
-- Windows Virtual Desktop ne prend pas en charge les clients macOS et Linux pour le moment.
+- Pour le moment, Azure Virtual Desktop ne prend pas en charge les clients macOS et Linux.
 
 ### <a name="calling-and-meetings"></a>Appels et réunions
 
@@ -501,8 +501,8 @@ Voici des problèmes connus et des limitations pour les appels et les réunions 
     - Le partage d’applications n’est pas pris en charge.
 - Prenez le contrôle :
     - Non pris en charge lors d’une session de partage d’écran ou d’application.
-    - Pris en charge pendant PowerPoint session de partage.
-- Limitations citrix-only
+    - Prise en charge pendant PowerPoint session de partage.
+- Limites de Citrix-only
     - Lors du partage d’écran dans une configuration multi-écran, seul le moniteur principal est partagé.
     - La mise à l’échelle DPI élevée sur CWA n’est pas prise en charge.
 
@@ -518,10 +518,10 @@ Il s’agit d’un problème connu avec Citrix VDA versions 1906 et 1909. Pour c
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
-Redémarrez ensuite VDA. Pour en savoir plus, consultez cet article de support citrix, qui explique comment résoudre les problèmes [d’optimisation HDX pour Teams.](https://support.citrix.com/article/CTX253754)
+Redémarrez ensuite VDA. Pour en savoir plus, consultez cet article de support de Citrix, qui décrit l’optimisation [HDX pour Teams.](https://support.citrix.com/article/CTX253754)
 
 ## <a name="related-topics"></a>Voir aussi
 
 - [Installer et Microsoft Teams À l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Utiliser Microsoft Teams sur Windows bureau virtuel](/azure/virtual-desktop/teams-on-wvd)
+- [Utiliser Microsoft Teams bureau virtuel Azure](/azure/virtual-desktop/teams-on-wvd)

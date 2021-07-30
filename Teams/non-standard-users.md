@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 046a8f08db43062586230c5d7016ebb117027398
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096268"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646865"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams comportement des applications pour les utilisateurs non standard
 
@@ -35,7 +35,7 @@ Cet article décrit le comportement des applications dans Teams lorsque des util
   > [!Note]
   > Pour une comparaison plus détaillée des utilisateurs invités et externes, voir [Communiquer avec des utilisateurs d’autres organisations.](./communicate-with-users-from-other-organizations.md)
 
-- Un **utilisateur anonyme** est un concept dans le Teams au cours des réunions où l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou le compte de son organisation.
+- Un **utilisateur anonyme** est un concept dans le Teams au cours des réunions où l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou celui de son organisation.
 
 ## <a name="guest-users"></a>Utilisateurs invités
 
@@ -43,7 +43,7 @@ Cet article décrit le comportement des applications dans Teams lorsque des util
 
 Les invités ne peuvent pas installer, mettre à jour ou supprimer des applications dans un contexte partagé, tel qu’une conversation, un canal ou une réunion, mais ils peuvent l’utiliser dans leur étendue personnelle à l’aide d’extensions de messages et de liens directs. Les invités n’ont pas accès à l’App Store Teams à partir de l’application de bureau Teams, mais ils peuvent y accéder à l’aide d’un lien direct.
 
-### <a name="usage-behavior-and-policy-for-guest-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs invités 
+### <a name="usage-behavior-and-policy-for-guest-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs invités
 
 Les invités peuvent utiliser une application si l’application a été installée par un utilisateur natif.
 
@@ -78,8 +78,12 @@ Les utilisateurs externes ne peuvent pas installer, mettre à jour ou supprimer 
 
 Les utilisateurs anonymes ne peuvent pas installer, mettre à jour ou supprimer des applications dans les réunions.
 
-### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs anonymes
+### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation des utilisateurs anonymes
 
 Les utilisateurs anonymes ne peuvent pas utiliser directement des applications dans les réunions. Les utilisateurs natifs peuvent continuer à utiliser les applications de réunion si des utilisateurs anonymes sont présents. Si une application envoie une carte adaptative dans la conversation, les utilisateurs anonymes peuvent interagir avec la carte. Pour plus d’informations, [voir Autoriser les utilisateurs anonymes à participer à des réunions.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
-Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ils peuvent interagir avec les applications dans Teams réunions si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
+Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ils peuvent interagir avec des applications dans Teams réunions si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
+
+## <a name="related-topics"></a>Voir aussi
+
+[Gérer les stratégies de mise en application dans Microsoft Teams](teams-app-setup-policies.md)
