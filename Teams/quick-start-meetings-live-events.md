@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
-ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
+ms.openlocfilehash: 854443e529736207520cbfdbe845c0b4992f9cd6
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53463297"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53647015"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Démarrage rapide : réunions, webinaires et événements en direct 
 
@@ -42,29 +42,35 @@ Cet article, destiné aux administrateurs et aux professionnels de l’informati
 
 Les différents types de réunions ont également des limites de participants et des fonctionnalités de participants différentes. 
 
-Le tableau suivant récapitule brièvement les trois types de réunions, le nombre de participants recommandés et la façon dont les participants peuvent interagir dans la réunion. Pour plus d’informations sur chaque type de réunion, suivez le tableau.
-<br><br>
+Le tableau suivant récapitule brièvement les trois types de réunions, le nombre de participants recommandés et la façon dont les participants peuvent interagir dans la réunion.<br><br>
 
 | Type de réunion | Nombre de participants | Interaction | Inscription prise en charge |
 |----------|--------|--------|-----|
-| Réunions  | Jusqu’à 20 000* <br> | - Les participants jusqu’à 1 000 disposent de fonctionnalités de réunion égales entièrement interactives <br> - Les participants de plus de 1 000 jusqu’ à 20 000 participants ont des fonctionnalités de [Affichage seul](view-only-meeting-experience.md)  | Non |
-| Séminaires web | Jusqu’à 20 000* |- Les participants jusqu’à 1 000 disposent de fonctionnalités entièrement interactives <br> - Les participants de plus de 1 000 jusqu’ à 20 000 participants ont des fonctionnalités de [Affichage seul](view-only-meeting-experience.md)  <br> -Interaction d’audience configurable <br> -Peut spécifier des présentateurs | Oui |
-| Événements en direct | Jusqu’à 20 000** |-Diffuser au grand public <br>-Questions et réponses modérées pour l’interaction de l’audience <br> -Peut spécifier des producteurs et des présentateurs, y compris des présentateurs externes<br>-Prend en charge des fonctionnalités de production plus avancées | Non |
+| Réunions  | Jusqu’à 20 000* <br> | - Jusqu’à 1 000, les participants disposent des mêmes fonctionnalités de réunion totalement interactives. <br> - Au delà de 1 000 et jusqu’ à 20 000, les participants ont des fonctionnalités en [lecture seule](view-only-meeting-experience.md).  | Non |
+| Séminaires web | - Jusqu'à 1 000<br>- Des limites accrues avec des fonctionnalités en [lecture seule](view-only-meeting-experience.md) seront bientôt disponibles. |- Jusqu’à 1 000, les participants disposent de fonctionnalités totalement interactives. <br> -Interaction de l’audience configurable. <br> - Peut spécifier des présentateurs. | Oui |
+| Événements en direct | Jusqu’à 20 000** |- Diffuser au grand public. <br>- Questions et réponses modérées pour l’interaction de l’audience. <br> - Peut spécifier des producteurs et des présentateurs, y compris des présentateurs externes.<br>- Prend en charge des fonctionnalités de production plus avancées. | Non |
 ||||
 
 *Les 10 000 habituels sont passés à 20 000 jusqu’au 31 décembre 2021.<br>
 
-**Les 10 000 habituels sont passés à 20 000 jusqu’au 31 décembre 2021. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](https://docs.microsoft.com/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](https://docs.microsoft.com/stream/live-events-assistance). 
+**Les 10 000 habituels sont passés à 20 000 jusqu’au 31 décembre 2021. Vous pouvez planifier des nombres encore plus importants avec des événements en direct dans Yammer et/ou Microsoft Stream. Pour plus d’informations, consultez [Événements en direct sur Microsoft 365](/stream/live-event-m365). Notez que les événements de plus de 20 000 participants nécessitent le [Programme d’assistance aux événements en direct](/stream/live-events-assistance). 
 
-Pour une expérience optimale dans les grandes réunions, Microsoft recommande d’utiliser le client de bureau Teams ou les clients mobiles Teams. Les présentateurs des grandes réunions doivent utiliser le client de bureau Teams. Pour plus d’informations sur l’hébergement de grandes réunions, consultez [Meilleures pratiques pour une grande réunion Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
+**Considérations relatives aux grandes réunions, aux webinaires et aux événements en direct** : lors de l’hébergement de réunions de grande taille, tenez compte des points suivants :
+
+- Pour une expérience optimale dans les grandes réunions, Microsoft recommande d’utiliser le client de bureau Teams ou les clients mobiles Teams. 
+
+- Les présentateurs des grandes réunions doivent utiliser le client de bureau Teams. 
+
+- Pour plus d’informations sur l’hébergement de grandes réunions, consultez [Meilleures pratiques pour une grande réunion Teams](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16).
 
 Pour plus d’informations sur l’expérience de réunion en lecture seule, consultez [Expérience de réunion en lecture seule Teams](view-only-meeting-experience.md).
 
 Notez que NDI est entièrement pris en charge dans les réunions, les webinaires et les événements en direct, ce qui vous permet de produire la diffusion à l’aide d’outils tels que OBS et Wirecast. Pour plus d’informations, consultez [Utiliser la technologie NDI® dans Microsoft Teams](use-ndi-in-meetings.md).
 
+
 ### <a name="meetings"></a>Réunions
 
-**Les réunions** dans Teams incluent le partage audio, vidéo et d’écran pour jusqu’à 1 000 personnes et des[fonctionnalités d’affichage uniquement](view-only-meeting-experience.md) pour les événements de plus de 1 000 participants. Les participants n’ont pas besoin d’être membres d’une organisation (ou d’avoir un compte Teams) pour participer à une réunion Teams. Ils peuvent participer directement à partir de l’invitation au calendrier via le lien Rejoindre la réunion ou appeler via audio, le cas échéant.  
+**Les réunions** dans Teams incluent le partage audio, vidéo et d’écran pour jusqu’à 1 000 personnes et des [fonctionnalités d’affichage uniquement](view-only-meeting-experience.md) pour les événements de plus de 1 000 participants. Les participants n’ont pas besoin d’être membres d’une organisation (ou d’avoir un compte Teams) pour participer à une réunion Teams. Ils peuvent participer directement à partir de l’invitation au calendrier via le lien Rejoindre la réunion ou appeler via audio, le cas échéant.  
 
 En tant qu’administrateur, vous allez configurer les paramètres de réunion et contrôler les fonctionnalités de réunion activées pour votre organisation en spécifiant des stratégies de réunion.  
 

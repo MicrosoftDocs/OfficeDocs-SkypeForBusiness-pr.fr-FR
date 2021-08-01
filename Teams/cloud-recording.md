@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: b66a65f9c3c5bf42911062d1af0a68b975363cfa
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565710"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660742"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -83,7 +83,7 @@ Dans le Centre d’administration Microsoft Teams, activez ou désactivez le par
 
 À l’aide de PowerShell, vous configurez le paramètre AllowCloudRecording dans TeamsMeetingPolicy. Pour en savoir plus, consultez[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
-Notez que l’organisateur de la réunion et l’initiateur de l’enregistrement doivent avoir les autorisations d’enregistrement pour enregistrer la réunion. Sauf si vous avez affecté une stratégie personnalisée aux utilisateurs, les utilisateurs reçoivent la stratégie globale, laquelle AllowCloudRecording est activée par défaut.
+L’organisateur de la réunion et l’initiateur d’enregistrement doivent disposer des autorisations d’enregistrement pour enregistrer la réunion. Sauf si vous avez affecté une stratégie personnalisée aux utilisateurs, les utilisateurs reçoivent la stratégie globale, laquelle AllowCloudRecording est activée par défaut.
 
 > [!NOTE]
 > Pour plus d’informations sur l’utilisation des rôles Teams pour configurer les utilisateurs autorisés à enregistrer une réunion, consultez [Rôles dans une réunion Teams](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us).
@@ -103,15 +103,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 |Scénario|Étapes|
 |--|--|
 | Je souhaite que tous les utilisateurs de mon entreprise puissent enregistrer leurs réunions. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = True.<li>Tous les utilisateurs ont la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True.</ol> |
-| Je souhaite que la majorité de mes utilisateurs puissent enregistrer leurs réunions, mais désactiver de manière sélective des utilisateurs spécifiques qui ne sont pas autorisés à enregistrer. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = True.<li>La majorité des utilisateurs ont la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True.<li>Tous les autres utilisateurs ont reçu l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False.</ol> |
+| Je souhaite que la plupart de mes utilisateurs puissent enregistrer leurs réunions, mais désactiver de manière sélective des utilisateurs spécifiques qui ne sont pas autorisés à enregistrer. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = True.<li>La plupart des utilisateurs ont la stratégie CsTeamsMeetingPolicy globale OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = True.<li>Tous les autres utilisateurs ont reçu l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False.</ol> |
 | Je souhaite que l’enregistrement soit 100 % désactivé. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False.<li>Tous les utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False. |
-| Je souhaite désactiver l’enregistrement pour la majorité des utilisateurs, mais activer de manière sélective des utilisateurs spécifiques autorisés à enregistrer. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False.<li>La majorité des utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False.<li>Tous les autres utilisateurs ont reçu une des stratégies de CsTeamsMeetingPolicy avec AllowCloudRecording = True. <ol> |
+| Je souhaite désactiver l’enregistrement pour la majorité des utilisateurs, mais activer de manière sélective des utilisateurs spécifiques autorisés à enregistrer. | <ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False.<li>La plupart des utilisateurs ont reçu la stratégie CsTeamsMeetingPolicy globale ou l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False.<li>Tous les autres utilisateurs ont reçu une des stratégies de CsTeamsMeetingPolicy avec AllowCloudRecording = True. <ol> |
 
 
 <a name="bd-channel"></a>
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>Bloquer ou autoriser le téléchargement des enregistrements de réunion de canal
 
-Ce paramètre contrôle si les réunions de canal sont enregistrées dans un dossier « Recordings » ou un dossier « Recordings\View only » dans le canal.
+Ce paramètre contrôle si les réunions de canal sont enregistrées dans un dossier « Recordings » ou un dossier « Recordings\View only » dans le canal. Le paramètre s’applique à la stratégie de l’utilisateur qui sélectionne l’enregistrement pour la réunion de canal. 
 
 Les deux valeurs de ce paramètre sont les suivantes :
 
@@ -175,7 +175,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Scénario|Étapes |
 |---|---|
 |Je souhaite que tous les utilisateurs de ma société soient en mesure de transcrire lors du lancement de l’enregistrement d’une réunion. |<ol><li>Confirmer que la stratégie globale CsTeamsMeetingPolicy a AllowTranscription = True. <li>Tous les utilisateurs ont la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowTranscription = True. </ol>|
-|Je souhaite que la majorité de mes utilisateurs puissent transcrire les enregistrements de réunion, mais désactiver de manière sélective des utilisateurs spécifiques qui ne sont pas autorisés à transcrire. |<ol><li>Confirmer que la stratégie globale CsTeamsMeetingPolicy a AllowTranscription = True. <li>La plupart des utilisateurs ont la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowTranscription = True. <li>Tous les autres utilisateurs ont reçu l’une des stratégies CsTeamsMeetingPolicy avec AllowTranscription = False. </ol>|
+|Je souhaite que la plupart de mes utilisateurs puissent transcrire les enregistrements de réunion, mais désactiver de manière sélective des utilisateurs spécifiques qui ne sont pas autorisés à transcrire. |<ol><li>Confirmer que la stratégie globale CsTeamsMeetingPolicy a AllowTranscription = True. <li>La plupart des utilisateurs ont la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowTranscription = True. <li>Tous les autres utilisateurs ont reçu l’une des stratégies CsTeamsMeetingPolicy avec AllowTranscription = False. </ol>|
 |Je souhaite que la transcription de l’enregistrement soit 100 % désactivée. |<ol><li>Confirmer que la stratégie globale CsTeamsMeetingPolicy a AllowTranscription = False. <li>Tous les utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowTranscription = False. </ol>|
 |Je souhaite que la transcription soit désactivée pour la majorité des utilisateurs, mais activer de manière sélective des utilisateurs spécifiques qui sont autorisés à transcrire. |<ol><li>Vérifiez que la stratégie globale CsTeamsMeetingPolicy a AllowCloudRecording = False. <li>La majorité des utilisateurs ont reçu la stratégie globale CsTeamsMeetingPolicy OU l’une des stratégies CsTeamsMeetingPolicy avec AllowCloudRecording = False. <li>Tous les autres utilisateurs ont reçu une des stratégies de CsTeamsMeetingPolicy avec AllowCloudRecording = True. </ol>|
 
@@ -236,7 +236,7 @@ Pour plus d’informations sur des types de réunions spécifiques, consultez le
 <a name="temp-storage"></a>
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>Stockage temporaire en cas d’impossibilité de chargement vers OneDrive Entreprise et SharePoint Online
 
-Si un enregistrement de réunion ne peut pas être chargé sur OneDrive Entreprise et SharePoint Online, il sera temporairement disponible en téléchargement à partir de Teams pendant 21 jours avant sa suppression. À ce stade, ce n’est pas quelque chose qu’un administrateur peut contrôler ou gérer, y compris la possibilité de le supprimer.
+Si un enregistrement de réunion ne peut pas être chargé sur OneDrive Entreprise et SharePoint Online, il sera temporairement disponible en téléchargement à partir de Teams pendant 21 jours avant sa suppression. À ce stade, ce n’est pas quelque chose qu’un administrateur peut contrôler ou gérer pour inclure la possibilité de le supprimer.
 
 Les enregistrements de réunion peuvent se retrouver dans ce stockage temporaire pour les raisons suivantes :
 
@@ -254,6 +254,114 @@ La rétention d’enregistrement pour ce stockage temporaire est affectée par l
 
 La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien comprendre la capacité requise pour les fichiers enregistrés et à disposer d’un espace de stockage suffisant dans OneDrive Entreprise et SharePoint Online.  Lisez [Définissez l’espace de stockage par défaut pour OneDrive Entreprise](/onedrive/set-default-storage-space) et [Gérer les limites de stockage de site SharePoint Online](/sharepoint/manage-site-collection-storage-limits) pour comprendre le stockage de base inclus dans l’abonnement et comment acheter du stockage supplémentaire.
 
+ <a name="auto-expiration"></a>
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Expiration automatique des enregistrements de réunion Teams : 
+
+> [!IMPORTANT] 
+>
+> La fonctionnalité d’expiration automatique décrite dans cet article n’est pas encore lancée. Veuillez-vous référer à [la feuille de route (ID de fonctionnalité : 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) pour plus d’informations sur sa date de livraison. 
+> 
+> Nous fournissons des informations sur le fonctionnement de cette fonctionnalité dans l’avenir, afin que vous puissiez planifier cette modification et modifier les paramètres de stratégie Teams à l’avance. 
+
+Consultez les questions fréquemment posées aux administrateurs et aux utilisateurs finaux pour recueillir des informations sur le fonctionnement de l’expiration automatique des enregistrements de réunion Teams, les actions que vous pouvez effectuer maintenant et les actions que vous pouvez effectuer après le lancement de la fonctionnalité. 
+  
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
+
+**Quelle est la modification ?**
+  
+Nous ’ introduisons un paramètre d’expiration par défaut de 60 jours pour tous les enregistrements de réunion Teams nouvellement créés. Cela signifie que, par défaut, tous les TMR créés après l’activation de cette fonctionnalité seront supprimés 60 jours après leur date de création. Si les administrateurs souhaitent que les enregistrements de réunion expirent plus tôt ou plus tard que la valeur par défaut, ils peuvent modifier le paramètre d’expiration. Les systèmes OneDrive et SharePoint surveillent la date d’expiration définie sur tous les enregistrements de réunion et les déplacent automatiquement vers la Corbeille à leur date d’expiration. 
+
+**Qui est concerné ?**
+  
+Toute personne stockant un enregistrement de réunion Teams (sans canal, canal ou réunion ad hoc) dans OneDrive ou SharePoint. 
+
+**Pourquoi dois-je utiliser cette fonctionnalité ?**
+  
+Vous devez utiliser cette fonctionnalité pour limiter le stockage OneDrive ou SharePoint consommé par les enregistrements de réunion Teams (remarque : ils utilisent généralement environ 400 Mo par heure d’enregistrement). 
+  
+**Pourquoi introduisons-nous ce changement ?**
+  
+Les clients ont envoyé des commentaires excessifs indiquant qu’ils souhaitent davantage de contrôles pour réduire l’encombrement du stockage créé à partir des enregistrements de réunion Teams, dont 99 % en moyenne ne sont jamais revus après 60 jours.
+  
+**Pourquoi cette option est-elle activée par défaut ?**
+  
+Nous pensons que presque tous les clients tireront parti de la charge de stockage réduite sur leur locataire en supprimant les enregistrements qui ne seront probablement jamais revus après 60 jours. Notre objectif est de fournir une expérience aussi propre que possible à tous les clients par défaut. 
+  
+**Comment la date d’expiration est-elle calculée ?**
+  
+La date d’expiration est calculée en tant que jour de création de l’enregistrement de réunion, plus le nombre de jours par défaut défini dans le paramètre Teams par l’administrateur. 
+  
+**Comment un administrateur peut-il modifier la date d’expiration ?**
+  
+Les administrateurs peuvent modifier le paramètre d’expiration par défaut dans PowerShell aujourd’hui. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
+
+Le nombre maximal de jours d’expiration qu’un administrateur peut appliquer est de 99 999 jours, ou de 273 ans. Les administrateurs ne peuvent pas modifier la date d’expiration des tmrs existants déjà chargés sur OneDrive ou SharePoint avant la publication de cette fonctionnalité. Cela protège l’intention de l’utilisateur propriétaire du TMR. 
+
+  Exemple de commande PowerShell : 
+  
+  ```powershell
+  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
+  ```
+  
+**Quelle est l’étendue du contrôle de la stratégie d’administration ?**
+  
+Les réunions et les appels sont contrôlés par le même `CsTeamsMeetingPolicy`paramètre,`MeetingRecordingExpirationDays`. 
+  
+**Comment les utilisateurs finaux peuvent-ils modifier la date d’expiration sur un fichier TMR spécifique ?**
+  
+Toute personne disposant d’autorisations de modification et de suppression sur un TMR peut modifier la date d’expiration dans le ’ volet d’informations du fichier dans OneDrive ou SharePoint. 
+
+L’utilisateur peut différer l’expiration 14, 30 ou 60 jours, ou choisir une date spécifique à l’avenir, ou il peut sélectionner que le fichier n’a jamais expiré. 
+  
+**Les administrateurs doivent-ils s’appuyer sur cette fonctionnalité pour un respect strict de la sécurité et de la conformité ?**
+  
+Non, les administrateurs ne doivent pas s’appuyer sur cette fonctionnalité pour bénéficier d’une protection légale, car les utilisateurs finaux peuvent modifier la date d’expiration de tous les enregistrements qu’ils contrôlent. 
+  
+**Cette fonctionnalité appliquera-t-elle la rétention des fichiers ?**
+  
+Non, les fichiers ne seront pas conservés en raison de cette fonctionnalité ou de ses paramètres. Si un utilisateur disposant d’autorisations de suppression tente de supprimer un TMR dont le paramètre d’expiration est défini, l’action de suppression de cet utilisateur ’ est exécutée.
+ 
+**Une stratégie de rétention et/ou de suppression que j’ai définie dans le centre de sécurité et conformité (S+C) remplacera-t-elle le paramètre d’expiration TMR ?**
+  
+Oui, toutes les stratégies que vous avez définies dans le centre S+C sont prioritaires. Par exemple : 
+  
+- Si vous avez une stratégie qui indique que tous les fichiers d’un site doivent être conservés pendant 100 jours et que le paramètre d’expiration d’un TMR est de 30 jours, le fichier d’enregistrement est conservé pendant les 100 jours complets.  
+- Si vous avez une stratégie de suppression qui indique que tous les tmrs seront supprimés après 5 jours et que vous avez un paramètre d’expiration sur un fichier d’enregistrement de 30 jours, ce fichier sera supprimé au bout de cinq jours. 
+
+**Que se passe-t-il lorsqu’un TMR « expire » ?**
+  
+À la date d’expiration, le TMR est déplacé dans la Corbeille OneDrive ou SharePoint et le champ date d’expiration est effacé. Cette action du système est exactement la même que si un utilisateur a supprimé le fichier. Le cycle de vie de la corbeille suit ensuite le chemin d’accès normal. Si l’utilisateur récupère le TMR à partir de la Corbeille, le TMR ne sera plus supprimé par cette fonctionnalité depuis que la date d’expiration a été effacée, sauf si l’utilisateur final définit une nouvelle date d’expiration sur le fichier. 
+  
+**Comment être averti de l’expiration d’un fichier ?**
+  
+Toutes les personnes disposant d’un accès à l’affichage verront une notification concernant la date d’expiration dans l’applet de commande d’enregistrement dans la fenêtre de conversation Teams. 
+  
+Toutes les personnes ayant accès à l’affichage verront une icône rouge en regard du fichier dans votre dossier OneDrive ou SharePoint 14 jours avant l’expiration du fichier. 
+  
+Le propriétaire du fichier reçoit une notification par e-mail lorsque le TMR expire et est dirigé vers la Corbeille pour récupérer le TMR s’il le souhaite.
+  
+**Quelles sont les références SKU requises pour cette fonctionnalité ?**
+  
+Toutes les références SKU auront cette fonctionnalité par défaut. Les utilisateurs A1 ont par défaut une période d’expiration de 30 jours et ne ’ peuvent pas modifier la date d’expiration
+  
+**L’expiration du fichier est-elle un événement audité et puis-je le voir dans mes journaux d’audit ?**
+  
+Oui, les expirations de fichiers s’affichent en tant qu’événements de suppression du système dans le journal d’audit. 
+  
+**Que se passe-t-il si je souhaite que l’administrateur ait un contrôle total sur le cycle de vie des tmrs et ne ’ souhaite pas donner aux utilisateurs finaux la possibilité de remplacer la date d’expiration ?**
+  
+Nous vous recommandons d’utiliser les stratégies de rétention et/ou de suppression S+C disponibles dans le cadre de la référence SKU de conformité E5. Cette offre vise à résoudre des problèmes juridiques d’administration complexes basés sur des stratégies et des contrats SLA. 
+
+Cette fonctionnalité est uniquement conçue comme un mécanisme léger de nettoyage pour réduire l’encombrement du stockage créé à partir de TMR froids. 
+  
+**Quand le fichier sera-t-il supprimé ?**
+  
+Le fichier sera supprimé dans les 5 jours suivant la date d’expiration, bien qu’il ne s’agit pas d’une garantie stricte. 
+  
+**L’expiration automatique sera-t-elle également appliquée aux futures tmrs migrées à partir de Classic Stream après la publication de cette fonctionnalité ?**
+  
+Non, les tmrs migrés ne sont pas fournis avec un délai d’expiration défini sur eux. Au lieu de cela, nous encourageons les administrateurs à migrer uniquement les TMR qu’ils souhaitent conserver. Vous trouverez plus de détails dans la documentation de migration.
+  
 ## <a name="manage-meeting-recordings"></a>Gérer les enregistrements de réunion
 
 Les enregistrements de réunion sont stockés sous forme de fichiers vidéo dans OneDrive Entreprise et SharePoint Online, et suivent les options de gestion et de gouvernance disponibles sur ces plateformes. Pour plus d’informations, consultez [vue d’ensemble de la gouvernance SharePoint Online](/sharepoint/governance-overview), [OneDrive Entreprise guide pour les entreprises](/onedrive/plan-onedrive-enterprise)ou [OneDrive Entreprise guide pour les petites entreprises](/onedrive/one-drive-quickstart-small-business) .
@@ -273,7 +381,7 @@ Les modifications futures apportées au lien entre la transcription dans Teams e
 > [!NOTE]
 > Il y aura des sous-titres en anglais uniquement (la transcription de réunion n’est pas encore disponible dans GCC).
 
-## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Conformité et eDiscovery pour les enregistrements de réunion
+## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>eDiscovery et conformité pour les enregistrements de réunion
 
 ### <a name="ediscovery"></a>eDiscovery
 

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536830"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646425"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
@@ -54,6 +54,12 @@ L’accès invité dans Teams nécessite la configuration d’autres paramètres
 - Pour collaborer avec une organisation partenaire qui utilise Azure Active Directory et autoriser les invités à s’inscrire automatiquement pour l’accès d’équipe, consultez [créer un extranet B2B avec des invités gérés](/microsoft-365/solutions/b2b-extranet).
 
 L'accès invité dans Teams est un paramètre qui s'applique à toute l'organisation et qui est désactivé par défaut. Vous pouvez contrôler l’accès invité à des équipes individuelles à l’aide d’[étiquettes de confidentialité](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
+### <a name="turning-guest-access-off"></a>Désactivation de l’accès invité
+
+Si vous désactivez l’accès invité dans Teams, les invités existants perdent l’accès à leur équipe. Toutefois, ils ne sont pas supprimés de l’équipe. Ils sont toujours visibles par les membres de l’équipe et peuvent être @mentioned. Si vous réactivez l’accès invité Teams, celui-ci retrouvera l’accès.
+
+Si vous envisagez de laisser l’accès invité désactivé, vous pouvez conseiller aux propriétaires de votre équipe de supprimer manuellement les comptes invités de leurs équipes. Bien que ces invités n’aient pas accès, le fait d’avoir leurs comptes visibles dans l’équipe peut entraîner une confusion pour d’autres membres de l’équipe.
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>Comment un invité peut devenir membre d'une équipe
 
