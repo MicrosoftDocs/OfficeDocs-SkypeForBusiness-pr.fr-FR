@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: Découvrez la prise en charge du cycle de Salles Microsoft Teams, notamment la structure de support dynamique et ses phases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6ac865a59f2342b97ddb8cb0ae5807427c10b85
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c34f448eeaadbf946ab708378caa835a94836ccc
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469676"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679729"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salles Microsoft Teams prise en charge de la version de l’application
  
@@ -30,7 +30,7 @@ L Salles Microsoft Teams appil est mis à jour plusieurs fois par an. Chaque mis
 - Phase uniquement des mises à jour de sécurité : lors de la publication d’une nouvelle  version de l’application Salles Microsoft Teams, les versions **antérieures** de l’application ont un niveau de support réduit avec les mises à jour de sécurité uniquement pour le reste du cycle de vie de douze (12) mois.
 
 > [!NOTE]
-> La dernière version est toujours dans la phase de maintenance et de mise à jour critique. Lorsque vous rencontrez une défaillance de code qui justifie une mise à jour critique, vous devez également avoir installé la dernière version pour recevoir un correctif. Toutes les autres versions pris en charge ne pourront recevoir que les mises à jour de sécurité.
+> La dernière version est toujours dans la phase de maintenance et de mise à jour critique. Si vous rencontrez une défaillance de code qui justifie une mise à jour critique, vous devez également avoir installé la dernière version pour recevoir un correctif. Toutes les autres versions pris en charge ne seront éligibles qu’à la réception des mises à jour de sécurité.
 
 Tout le support prend fin après le cycle de vie de douze (12) mois expiré pour une version ou si plus de deux mises à jour ont été publiées depuis. Ensuite, les clients doivent mettre à jour vers une version prise en charge.
 
@@ -73,13 +73,9 @@ Lorsque vous utilisez une version d’Windows 10 prise en charge, vous obtenez t
 > 
 > Les appareils avec des problèmes d’incompatibilité sont les :
 > 
-> - Secteur HP Elite
-> - HP Elite Slice G2 MS SRS Audio Ready
-> - Partenaire HP Elite Slice MS SRS prêt
-> - Secteur HP Elite G2 avec MS MTR
 > - La UC-Engine(version/date BIOS) contient « KYSKLI » - indiquant un crâne Canyon BIOS) 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

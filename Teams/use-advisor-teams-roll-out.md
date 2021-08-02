@@ -21,21 +21,21 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Utilisez Advisor for Teams pour faciliter la planification et l’exécution de votre déploiement de Microsoft Teams.
-ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b86ade0aa067e895ebf21b912801c761e7657ba
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240549"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646615"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams
 
-Advisor for Teams vous guide tout au long du processus de déploiement de Microsoft Teams. Il évalue l’environnement de votre organisation Microsoft 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams. Advisor for Teams crée ensuite une équipe Déploiement (dans Teams) avec des canaux pour chaque charge de travail à déployer. Chaque charge de travail de l’équipe Déploiement s’accompagne d’un plan complet du Planificateur qui comprend toutes les tâches de déploiement pour chaque charge de travail.  Ce plan du Planificateur vous permet d’affecter des tâches aux différentes personnes responsables de chaque phase du déploiement, à savoir le responsable du projet, les administrateurs de Teams, les personnes en charge du support technique et votre équipe d’adoption et de préparation des utilisateurs. Chaque tâche de déploiement contient toutes les ressources et tous les conseils dont vous avez besoin pour la mener à bien.
+Advisor for Teams vous guide tout au long du processus de déploiement de Microsoft Teams. Il évalue l’environnement de votre organisation Microsoft 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams. Advisor for Teams crée ensuite une équipe Déploiement (dans Teams) avec des canaux pour chaque charge de travail à déployer. Chaque charge de travail de l’équipe Déploiement s’accompagne d’un plan complet du Planificateur qui comprend toutes les tâches de déploiement pour chaque charge de travail.  Ce plan du Planificateur vous permet d’affecter des tâches aux différentes personnes responsables de chaque phase du déploiement, à savoir le responsable du projet, les administrateurs de Teams, les personnes en charge du support technique et votre équipe d’adoption et de préparation des utilisateurs. Chaque tâche de déploiement contient toutes les ressources et tous les conseils dont vous avez besoin pour la mener à bien.
 
-Advisor for Teams fait partie intégrante du [Centre d’administration Teams](https://admin.teams.microsoft.com). Vous aurez besoin d’une licence Microsoft 365 Business Basic au minimum pour profiter de l’intégration d’Advisor pour Teams avec Forms et le Planificateur. Pour commencer à utiliser Advisor for Teams, cliquez sur le bouton **Démarrer** dans le widget **Déploiement de charges de travail Teams** situé dans le tableau de bord. Ou accédez à **Planification** > **Teams Advisor**.
+Advisor for Teams fait partie intégrante du [Centre d’administration Teams](https://admin.teams.microsoft.com). Vous aurez besoin d’une licence Microsoft 365 Business Basic au minimum pour profiter de l’intégration d’Advisor pour Teams avec Forms et le Planificateur. Pour commencer à utiliser Advisor for Teams, cliquez sur le bouton **Démarrer** dans le widget **Déploiement de charges de travail Teams** situé dans le tableau de bord. Ou accédez à **Planification** > **Teams Advisor**.
 
 > [!IMPORTANT]
-> Advisor for Teams n’est pas disponible pour les déploiements Microsoft 365 Secteur Public (GCC High ou DoD).
+> Advisor for Teams n’est pas disponible pour les déploiements Microsoft 365 Secteur Public (GCC High ou DoD).
 
 Pour une vue d’ensemble guidée de l’expérience Advisor for Teams, consultez la vidéo [déployer & configurer Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50) sur les Mécanismes Microsoft.
 
@@ -53,7 +53,7 @@ Pour une vue d’ensemble guidée de l’expérience Advisor for Teams, consulte
 
 ## <a name="available-advisor-for-teams-plans"></a>Plans Advisor for Teams disponibles
 
-Advisor for Teams fournit actuellement les plans suivants :
+Advisor for Teams fournit actuellement les plans suivants :
 
 1. Conversations, équipes, canaux et applications
     - Évaluation du client
@@ -70,16 +70,24 @@ Advisor for Teams fournit actuellement les plans suivants :
     - Plan du Planificateur, y compris les tâches d’adoption
     - Enquête utilisateur Forms
     - Bot Advisor for Teams
-    - Conçu pour les clients qui utilisent actuellement Skype Entreprise Online ou des environnements locaux Skype Entreprise, le plan de mise à niveau Skype Entreprise vous aide à éliminer vos activités de mise à niveau. Tirant parti d’un cadre de réussite éprouvé pour l’implémentation des modifications, le plan vous guide tout au long du processus étape par étape, que vous débutiez avec Teams, que vous utilisiez déjà Teams parallèles à Skype Entreprise, ou que vous soyez prêt à procéder à la mise à niveau. Le plan vous permet également de vous connecter à [conseils et pratiques recommandées en ligne](./upgrade-start-here.md), [biens téléchargeables](https://aka.ms/UpgradeSuccessKit), [live 1 : nombreux ateliers de planification](./upgrade-workshops-landing-page.yml)et des ressources supplémentaires pour vous aider.
+    - Conçu pour les clients qui utilisent actuellement Skype Entreprise Online ou des environnements locaux Skype Entreprise, le plan de mise à niveau Skype Entreprise vous aide à éliminer vos activités de mise à niveau. Tirant parti d’un cadre de réussite éprouvé pour l’implémentation des modifications, le plan vous guide tout au long du processus étape par étape, que vous débutiez avec Teams, que vous utilisiez déjà Teams parallèles à Skype Entreprise, ou que vous soyez prêt à procéder à la mise à niveau. Le plan vous permet également de vous connecter à [conseils et pratiques recommandées en ligne](./upgrade-start-here.md), [biens téléchargeables](https://aka.ms/UpgradeSuccessKit), [live 1 : nombreux ateliers de planification](./upgrade-workshops-landing-page.yml)et des ressources supplémentaires pour vous aider.
+1. Éducation (visible uniquement pour les organismes éducatifs)
+    - Évaluation du client
+    - Plan du Planificateur, y compris les tâches d’adoption
+    - Enquête utilisateur Forms
+    - Bot Advisor for Teams
+    - Conçu pour les Organisations d’enseignement, le plan Éducation vous aidera à déployer, adopter et gérer Teams dans votre établissement d’enseignement.
 
-Nous vous recommandons de commencer par le plan Conversations, équipes, canaux et applications. Une fois que vous avez déployé cette charge de travail, revenez à Advisor for Teams et sélectionnez **Ajouter un canal** pour enchaîner sur la charge de travail suivante.
+Pour les organisations commerciales, nous vous recommandons de commencer avec le forfait Chat, équipes, canaux et applications. Pour les établissements d'enseignement, nous vous recommandons de commencer par le plan Education. Une fois que vous avez déployé cette charge de travail, revenez à Advisor for Teams et sélectionnez **Ajouter un canal** pour enchaîner sur la charge de travail suivante.
+
+
 
 ## <a name="tenant-assessment"></a>Évaluation du client
 
 Chaque plan comprend une évaluation de la préparation du client dont vous pouvez vous servir pour identifier rapidement les aspects de votre environnement pouvant nécessiter des corrections avant de déployer Teams. Les évaluations comportent des conditions préalables et des pratiques recommandées. Chaque test d’évaluation présente une coche verte ou un triangle d’avertissement orange.
 
 - <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>Une coche verte signifie que votre client a réussi un certain test.
-- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Un triangle d’avertissement orange indique une suggestion de suivi pour déterminer si une action est nécessaire (par exemple, une stratégie d’expiration de groupe Microsoft 365 est recommandée, bien qu’elle ne soit pas obligatoire).
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Un triangle d’avertissement orange indique une suggestion de suivi pour déterminer si une action est nécessaire (par exemple, une stratégie d’expiration de groupe Microsoft 365 est recommandée, bien qu’elle ne soit pas obligatoire).
 
 > [!IMPORTANT]
 > Lorsqu’un utilisateur doté d’un rôle d’administrateur démarre Advisor for Teams, toutes les évaluations s’exécutent en arrière-plan. Si vous mettez à jour ou corrigez quelque chose, il est possible que cela ne se reflète pas dans vos évaluations pendant 24 heures.
@@ -90,8 +98,8 @@ Les sections ci-dessous décrivent chaque évaluation, notamment s’il s’agit
 
 |Test d’évaluation  |Ce qu’il vous indique  |
 |---------|---------|
-|Domaine personnalisé configuré     |Si un domaine autre que @onmicrosoft.com est configuré pour votre client (par exemple, @contoso.onmicrosoft.com). Vous pouvez utiliser le domaine @onmicrosoft.com bien sûr, ou configurer un domaine personnalisé de votre choix. Pour en savoir plus, lire [Ajouter un domaine à Microsoft 365](/microsoft-365/admin/setup/add-domain). |
-|Licences Teams     |Il s’agit d’une condition préalable : vous **devez avoir** des licences Teams pour déployer Teams. Interroger Microsoft Graph pour déterminer si vous avez des licences Teams (avec au moins une licence disponible à attribuer). Pour plus d’informations, lire [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).    |
+|Domaine personnalisé configuré     |Si un domaine autre que @onmicrosoft.com est configuré pour votre client (par exemple, @contoso.onmicrosoft.com). Vous pouvez utiliser le domaine @onmicrosoft.com bien sûr, ou configurer un domaine personnalisé de votre choix. Pour en savoir plus, lire [Ajouter un domaine à Microsoft 365](/microsoft-365/admin/setup/add-domain). |
+|Licences Teams     |Il s’agit d’une condition préalable : vous **devez avoir** des licences Teams pour déployer Teams. Interroger Microsoft Graph pour déterminer si vous avez des licences Teams (avec au moins une licence disponible à attribuer). Pour plus d’informations, lire [Description du service Microsoft Teams](/office365/servicedescriptions/teams-service-description).    |
 |Licences Exchange Online     |Si vous disposez d’un abonnement actif avec des licences Exchange Online disponibles. Même si Exchange n’est pas nécessaire pour les fonctionnalités Teams de base, l’intégration avec Exchange offre une expérience Teams optimale. Interroger Microsoft Graph pour analyser les abonnements associés à votre client et vérifier si vous avez des abonnements ayant une licence Exchange Online valide (avec au moins une licence disponible à attribuer). Pour en savoir plus, lire [Interaction de Exchange et Teams](exchange-teams-interact.md).    |
 |Licences SharePoint Online     |Si vous disposez d’un abonnement actif avec des licences SharePoint Online disponibles. Nous recommandons un licence SharePoint Online par utilisateur afin de fournir OneDrive Entreprise pour le stockage de fichiers dans des conversations. Interroger Microsoft Graph pour déterminer si vous avez des licences SharePoint Online (avec au moins une licence disponible à attribuer). Pour en savoir plus, voir [Intéraction de SharePoint Online et OneDrive Entreprise avec Teams](./sharepoint-onedrive-interact.md).    |
 |Accès invité activé     |Si l’[accès invité](guest-access.md) est activé. Accès invité vous permet d’inviter des utilisateurs externes à rejoindre vos équipes. Consultez [Collaborer avec des invités au sein d’une équipe](/microsoft-365/solutions/collaborate-as-team) pour parcourir l’activation de l’accès invité dans Teams. La liste de contrôle inclut les configurations Azure AD requises. |
@@ -99,16 +107,16 @@ Les sections ci-dessous décrivent chaque évaluation, notamment s’il s’agit
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>Évaluations pour les conversations, équipes, canaux et applications
 
-Outre les [tests d’évaluation de pour toutes les charges de travail](#assessment-tests-for-all-workloads), les évaluations supplémentaires suivantes sont exécutées pour la charge de travail de conversations, d’équipes, de canaux et d’applications :
+Outre les [tests d’évaluation de pour toutes les charges de travail](#assessment-tests-for-all-workloads), les évaluations supplémentaires suivantes sont exécutées pour la charge de travail de conversations, d’équipes, de canaux et d’applications :
 
 |Test d’évaluation  |Ce qu’il vous indique  |
 |---------|---------|
-|Stratégie de nommage de Groupe Microsoft 365 configurée     |Si les standards d’attribution de noms ont été configurés pour les Groupes Microsoft 365. La stratégie de noms de Groupes Microsoft 365 permet à votre organisation d’appliquer une stratégie d’attribution de noms cohérente avec les équipes créées par l’utilisateur et elle s’applique également aux autres charges de travail de groupes (notamment Outlook, SharePoint, Planner et Yammer). Ce test interroge Azure AD via Microsoft Graph pour vérifier l’existence de stratégies d’attribution de nom qui s’appliquent aux Groupes Microsoft 365. Si vous voulez en savoir plus, consultez [Stratégie de noms de groupes](/microsoft-365/admin/create-groups/groups-naming-policy).    |
-|Stratégie d’Expiration de Groupe Microsoft 365 configurée     |Si une stratégie d’expiration de groupe a été définie pour les Groupes Microsoft 365. Cela permet à votre organisation de supprimer automatiquement des Teams inactives. Cette option est désactivée par défaut. Ce test interroge Azure AD via Microsoft Graph et indique si la valeur a été modifiée par rapport à celle par défaut. Pour en savoir plus, consultez [Stratégie d’Expiration de groupes Microsoft 365](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Stratégie de nommage de Groupe Microsoft 365 configurée     |Si les standards d’attribution de noms ont été configurés pour les Groupes Microsoft 365. La stratégie de noms de Groupes Microsoft 365 permet à votre organisation d’appliquer une stratégie d’attribution de noms cohérente avec les équipes créées par l’utilisateur et elle s’applique également aux autres charges de travail de groupes (notamment Outlook, SharePoint, Planner et Yammer). Ce test interroge Azure AD via Microsoft Graph pour vérifier l’existence de stratégies d’attribution de nom qui s’appliquent aux Groupes Microsoft 365. Si vous voulez en savoir plus, consultez [Stratégie de noms de groupes](/microsoft-365/admin/create-groups/groups-naming-policy).    |
+|Stratégie d’Expiration de Groupe Microsoft 365 configurée     |Si une stratégie d’expiration de groupe a été définie pour les Groupes Microsoft 365. Cela permet à votre organisation de supprimer automatiquement des Teams inactives. Cette option est désactivée par défaut. Ce test interroge Azure AD via Microsoft Graph et indique si la valeur a été modifiée par rapport à celle par défaut. Pour en savoir plus, consultez [Stratégie d’Expiration de groupes Microsoft 365](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Évaluations pour réunions et conférences
 
-Outre les [Tests d’évaluation pour toutes les charges de travail](#assessment-tests-for-all-workloads), les évaluations supplémentaires suivantes sont exécutées pour les charges de travail relatives à des réunions et à des conférences :
+Outre les [Tests d’évaluation pour toutes les charges de travail](#assessment-tests-for-all-workloads), les évaluations supplémentaires suivantes sont exécutées pour les charges de travail relatives à des réunions et à des conférences :
 
 |Test d’évaluation  |Ce qu’il vous indique  |
 |---------|---------|
@@ -121,9 +129,9 @@ Outre les [Test d’évaluation pour toutes les charges de travail](#assessment-
 
 ### <a name="advisor-for-teams-bot"></a>Bot Advisor for Teams
 
-Une fois l’équipe déploiement créée par Advisor for Teams, le bot Advisor affiche le message suivant sur le canal général :
+Une fois l’équipe déploiement créée par Advisor for Teams, le bot Advisor affiche le message suivant sur le canal général :
 
->**Bienvenue dans votre équipe déploiement pour Microsoft Teams !**
+>**Bienvenue dans votre équipe déploiement pour Microsoft Teams !**
 >  
 >La finalité de cette équipe est de vous accompagner tout au long du déploiement de Teams dans votre organisation en mettant à votre disposition toutes les ressources dont vous avez besoin et en dotant l’équipe du projet d’un espace de collaboration. À chaque canal créé avec Advisor for Teams correspondent un plan du Planificateur étape par étape ainsi que d’autres ressources, comme une enquête utilisateurs Forms qui peut être utilisée tout au long de votre déploiement. Vous pouvez à tout moment revenir en arrière et examiner l’évaluation de la préparation du client ou ajouter d’autres plans de charge de travail à partir du Centre d’administration Teams.
 >
@@ -143,7 +151,7 @@ Une fois l’équipe déploiement créée par Advisor for Teams, le bot Advisor 
 
 ## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Conseiller pour les parcours d’apprentissage Teams et Microsoft 365
 
-[Les parcours d’apprentissage de Microsoft 365](/office365/customlearning/) est une solution d’apprentissage à la demande que vous pouvez personnaliser pour former vos utilisateurs, et améliorer l’utilisation et l’adoption des équipes au sein de votre organisation. Utilisez les parcours d’apprentissage avec conseiller pour Teams afin de permettre à vos utilisateurs d’être rapidement opérationnels et de stimuler l’adoption.
+[Les parcours d’apprentissage de Microsoft 365](/office365/customlearning/) est une solution d’apprentissage à la demande que vous pouvez personnaliser pour former vos utilisateurs, et améliorer l’utilisation et l’adoption des équipes au sein de votre organisation. Utilisez les parcours d’apprentissage avec conseiller pour Teams afin de permettre à vos utilisateurs d’être rapidement opérationnels et de stimuler l’adoption.
 
 La fonctionnalité parcours d’apprentissage vous permet de créer un modèle de site SharePoint Online et de créer facilement un site de formation pour vos utilisateurs. Vous pouvez personnaliser le portail d’apprentissage sur les parcours d’apprentissage pour y inclure une formation et du contenu de support propre aux besoins de vos utilisateurs. Utilisez les playlists Teams à partir du catalogue Microsoft Online et ajoutez les vôtres.
 
@@ -163,15 +171,15 @@ Pour configurer une nouvelle solution de parcours d’apprentissage dans votre e
 
 #### <a name="plan-your-learning-content"></a>Planifier le contenu d’apprentissage
 
-Avant de créer votre site dans les parours d’apprentissage, prenez le temps de passer en revue et de collecter les ressources et les fonctionnalités de formation à votre disposition. Avec les parcours d’apprentissage, vous pouvez utiliser le contenu de la page de formation Microsoft 365 et ajouter du contenu que vous créez pour adapter votre site à vos besoins uniques.
+Avant de créer votre site dans les parours d’apprentissage, prenez le temps de passer en revue et de collecter les ressources et les fonctionnalités de formation à votre disposition. Avec les parcours d’apprentissage, vous pouvez utiliser le contenu de la page de formation Microsoft 365 et ajouter du contenu que vous créez pour adapter votre site à vos besoins uniques.
 
 Pour plus d’informations, consultez [Planifier le contenu de vos parcours d’apprentissage](/office365/customlearning/custom_plancontent) et [Ressources pour la prise en charge de vos employés travaillant à distance](/office365/customlearning/custom_plancontent_remoteresources).
 
 #### <a name="explore-teams-content-in-learning-pathways"></a>Explorer le contenu Teams dans les parcours d’apprentissage
 
-Les parcours d'apprentissage fournissent un site SharePoint avec un composant WebPart qui est connectée à un catalogue en ligne. La page formation Microsoft 365, qui héberge le composant WebPart, présente toutes les formations disponibles dans les parcours d’apprentissage. Jetez un coup d’œil pour découvrir les fonctionnalités disponibles et l’organisation du contenu.
+Les parcours d'apprentissage fournissent un site SharePoint avec un composant WebPart qui est connectée à un catalogue en ligne. La page formation Microsoft 365, qui héberge le composant WebPart, présente toutes les formations disponibles dans les parcours d’apprentissage. Jetez un coup d’œil pour découvrir les fonctionnalités disponibles et l’organisation du contenu.
 
-[Accédez à votre site de parcours d’apprentissage](/office365/customlearning/custom_goto), sélectionnez **Formation Microsoft 365**, puis **Microsoft Teams** pour afficher toutes les playlists de formation Teams dans le catalogue en ligne. Sélectionnez une playlist, puis sélectionnez les boutons **Suivant** et **Précédent** pour naviguer dans la playlist. Vous pouvez également cliquer sur la flèche vers le bas pour afficher le contenu de la playlist et accéder à un sujet spécifique.
+[Accédez à votre site de parcours d’apprentissage](/office365/customlearning/custom_goto), sélectionnez **Formation Microsoft 365**, puis **Microsoft Teams** pour afficher toutes les playlists de formation Teams dans le catalogue en ligne. Sélectionnez une playlist, puis sélectionnez les boutons **Suivant** et **Précédent** pour naviguer dans la playlist. Vous pouvez également cliquer sur la flèche vers le bas pour afficher le contenu de la playlist et accéder à un sujet spécifique.
 
 #### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>Retrouvez les ressources d’apprentissage Teams au sein de votre organisation
 
@@ -200,13 +208,13 @@ Utilisez les ressources de votre site de parcours d’apprentissage pour intégr
 
 Pour obtenir des instructions et des ressources sur la préparation de votre support et de vos champions pour Teams, consultez [Former votre organisation](https://adoption.microsoft.com/microsoft-teams/#train-your-org) et [Créer des champions](https://adoption.microsoft.com/microsoft-teams/#build-champions).
 
-En tant que contact pour vos utilisateurs pour les questions de type « Comment faire », votre support et vos champions peuvent utiliser le site des parcours d’apprentissage pour former les utilisateurs et en guise d’alternative à la création de tickets de support. Encouragez votre support et vos champions à [personnaliser votre site de parcours d’apprentissage](/office365/customlearning/) en créant une page de formation et de support, puis [l’ajouter comme onglet à un canal](#add-your-site-to-teams) dans une équipe pour permettre aux utilisateurs d’être autonomes.
+En tant que contact pour vos utilisateurs pour les questions de type « Comment faire », votre support et vos champions peuvent utiliser le site des parcours d’apprentissage pour former les utilisateurs et en guise d’alternative à la création de tickets de support. Encouragez votre support et vos champions à [personnaliser votre site de parcours d’apprentissage](/office365/customlearning/) en créant une page de formation et de support, puis [l’ajouter comme onglet à un canal](#add-your-site-to-teams) dans une équipe pour permettre aux utilisateurs d’être autonomes.
 
 ### <a name="drive-adoption"></a>Favoriser l’adoption
 
 Une fois que vous avez personnalisé votre site et rassemblé vos plans d’apprentissage, réfléchissez à la façon dont vous allez sensibiliser vos utilisateurs afin de les inciter à utiliser les parcours d’apprentissage pour les apprentissages en cours.
 
-Utilisez vos canaux de communication pour promouvoir le site et le faire connaître. Par exemple, vous pouvez inclure un slogan standard tel que « Consultez notre site de formation et de support pour savoir comment être productif avec Teams » en communication avec vos utilisateurs.
+Utilisez vos canaux de communication pour promouvoir le site et le faire connaître. Par exemple, vous pouvez inclure un slogan standard tel que « Consultez notre site de formation et de support pour savoir comment être productif avec Teams » en communication avec vos utilisateurs.
 
 Informez vos utilisateurs en mettant en évidence les façons dont ils peuvent collaborer dans Teams, puis redirigez-les vers le site des parcours d’apprentissage pour découvrir comment faire.
 
@@ -220,7 +228,7 @@ Consultez ces ressources, qui incluent des conseils, des kits d’adoption, des 
 
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Quelles sont les conditions d’octroi de licences pour Conseiller pour Teams
 
-Vous aurez besoin, au minimum, de Microsoft 365 Business Basic pour profiter de l’intégration d’Advisor pour Teams avec Forms et le Planificateur.
+Vous aurez besoin, au minimum, de Microsoft 365 Business Basic pour profiter de l’intégration d’Advisor pour Teams avec Forms et le Planificateur.
 
 ### <a name="can-i-delete-the-deployment-team"></a>Puis-je supprimer l’équipe de déploiement
 
