@@ -1,5 +1,5 @@
 ---
-title: Activer la prise d’appel de groupe pour les utilisateurs et attribuer un numéro de groupe dans Skype Entreprise
+title: Activer la prise d’appel de groupe pour les utilisateurs et affecter un numéro de groupe dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Activez les utilisateurs pour la prise d’appel de groupe dans Skype Entreprise Server Voix Entreprise et attribuez un numéro de groupe.
-ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Activez les utilisateurs pour la prise d’appel de Skype Entreprise Server Voix Entreprise et attribuez un numéro de groupe.
+ms.openlocfilehash: 6765cfab12cd888bb5e86f7b1c9b709b8edc7a8855d35de071ebb25619e48ce8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111830"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305906"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Activer la prise d’appel de groupe pour les utilisateurs et attribuer un numéro de groupe dans Skype Entreprise
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Activer la prise d’appel de groupe pour les utilisateurs et affecter un numéro de groupe dans Skype Entreprise
 
-Activez les utilisateurs pour la prise d’appel de groupe dans Skype Entreprise Server Voix Entreprise et attribuez un numéro de groupe.
+Activez les utilisateurs pour la prise d’appel de Skype Entreprise Server Voix Entreprise et attribuez un numéro de groupe.
 
 Après avoir ajouté des numéros de groupe de prise d’appel à la table des orbites de parcage d’appel, vous utilisez l’outil SEFAUtil pour affecter les numéros de groupe aux utilisateurs et activer la prise d’appel de groupe pour eux.
 

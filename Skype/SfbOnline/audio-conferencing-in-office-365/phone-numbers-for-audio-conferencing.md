@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
-ms.openlocfilehash: 0e5d38f604e7236d8e924b8799c5c4ec0dd01b42
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a0984a4bab89724f0dd00a50a1dbe0161ad837555180086f807f099396c9445e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306227"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Numéros de téléphone pour l'Audioconférence dans Skype Entreprise Online
 
@@ -89,6 +89,6 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

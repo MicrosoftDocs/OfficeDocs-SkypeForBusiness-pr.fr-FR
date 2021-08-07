@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez les étapes requises pour affecter un nouveau numéro de téléphone de service à votre pont de conférence afin de développer la couverture pour vos utilisateurs.
-ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4514c9cf34049f9c9b92be697176c7897e560605
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102660"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724507"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d’audioconférence
 
@@ -37,7 +37,7 @@ Lorsque vous achetez **des licences d’audioconférence,** Microsoft héberge v
 Outre les numéros de téléphone déjà affectés à votre pont de conférence, vous pouvez obtenir des numéros de [service](./getting-service-phone-numbers.md) supplémentaires (numéros gratuits et gratuits utilisés pour l’audioconférence) à partir d’autres emplacements, puis les affecter au pont de conférence afin d’étendre la couverture pour vos utilisateurs.
   
 > [!NOTE]
-> Pour pouvoir affecter/désaffecter un numéro de téléphone pour un pont de conférence, le numéro de téléphone doit être un numéro *de « service*». Vous pouvez voir le type de numéro en naviguant vers les numéros Voice Téléphone dans le Centre d’administration Microsoft Teams et en regardant dans la colonne  >   **Type de** nombre. Microsoft 365 ou Office 365 les crédits de communication doivent être d’abord réglés pour que les utilisateurs utilisent un numéro gratuit pour se rendre sur le pont.
+> Pour pouvoir affecter/désaffecter un numéro de téléphone pour un pont de conférence, le numéro de téléphone doit être un numéro de *« service*». Vous pouvez voir le type de numéro en naviguant vers les numéros Voice Téléphone dans le Centre d’administration Microsoft Teams et en regardant dans la colonne  >   **Type de** nombre. Microsoft 365 ou Office 365 les crédits de communication doivent être d’abord réglés pour que les utilisateurs utilisent un numéro gratuit pour se rendre sur le pont.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Procédure d'affectation d'un nouveau numéro de téléphone de service à votre pont de conférence
 
@@ -83,7 +83,7 @@ Une fois les modifications appliquées, les nouveaux numéros de téléphone par
 
 Pour les deux étapes suivantes, vous devrez commencer à Windows PowerShell.
   
-Si vous avez mis à jour les numéros de téléphone par défaut inclus dans les invitations à des réunions pour certains ou l’ensemble de vos utilisateurs, vous pouvez éventuellement mettre à jour les invitations aux réunions envoyées aux utilisateurs de votre organisation avant la modification de leurs numéros de téléphone par défaut à l’aide du service Meeting Migration Service (DNS). Pour plus d'informations, reportez-vous à la rubrique [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Si vous avez mis à jour les numéros de téléphone par défaut inclus dans les invitations à des réunions pour certains ou l’ensemble de vos utilisateurs, vous pouvez éventuellement mettre à jour les invitations aux réunions envoyées aux utilisateurs de votre organisation avant la modification de leurs numéros de téléphone par défaut à l’aide du service Meeting Migration Service .) Pour plus d'informations, reportez-vous à la rubrique [Configuration de Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Exécutez Meeting Migration Service (MMS) pour les utilisateurs dont le numéro de téléphone par défaut a été modifié à l’étape 2. Pour cela, exécutez la commande suivante :
 
@@ -133,13 +133,14 @@ Pour plus d'informations sur le service Meeting Migration Service (MMS), reporte
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Étape 3 : désaffecter l’ancien numéro de téléphone du pont de conférence audio
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+Utiliser la cmdlet Unregister-CsOnlineDialInConferencingServiceNumber pour désinsinser un numéro gratuit ou gratuit d’un pont de conférence
 
-1. Dans le groupe de navigation de gauche, allez sur  >  **Numéros Téléphone voix.**
+```PowerShell
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
+```
+Remarque : pour trouver l’ID de pont de conférence, exécutez powerShell suivant : Get-CsOnlineDialInConferencingBridge.
 
-2. Si le numéro de téléphone est un numéro gratuit, sélectionnez-le dans la liste, puis cliquez sur **Publication.** Si le numéro de téléphone est un numéro gratuit, contactez le [support Technique Microsoft](/microsoft-365/admin/contact-support-for-business-products) pour que l’on ne l’utilise pas.
-
-3. Si le numéro de téléphone est un numéro gratuit, cliquez sur **Oui** dans la fenêtre de confirmation.
 
    > [!IMPORTANT]
    > Une fois le numéro de téléphone non signé dans un pont de conférence audio, il ne sera plus disponible pour les utilisateurs qui participent à des réunions nouvelles ou existantes.
@@ -180,7 +181,7 @@ Pour gagner du temps en automatisant ce processus, vous pouvez utiliser les [cmd
   ```
 
     > [!NOTE]
-    > L’emplacement utilisé ci-dessus doit correspondre aux informations de contact du ou des utilisateurs définies dans le Microsoft 365 d’administration.
+    > L’emplacement utilisé ci-dessus doit correspondre aux informations de contact du ou des utilisateurs définies dans le Centre d’administration Microsoft 365.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
@@ -195,7 +196,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 
 Le résultat, à côté d’autres informations telles que Identity, Name et Region, doit également contenir DefaultServiceNumber.
 
-**Exemple**, pour désaffecter, DefaultServiceNumber « 8005551234 »
+**Exemple**, pour désaffecter l’affectation, defaultServiceNumber « 8005551234 »
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
@@ -208,13 +209,13 @@ Avec Windows PowerShell, vous pouvez gérer les utilisateurs et leurs autorisati
 
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
-  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Modifier les paramètres d’un pont d’audioconférence.](change-the-settings-for-an-audio-conferencing-bridge.md)

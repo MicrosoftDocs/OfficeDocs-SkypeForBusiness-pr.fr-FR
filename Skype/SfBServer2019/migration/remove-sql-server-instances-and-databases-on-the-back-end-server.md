@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Vous supprimez les Microsoft SQL Server et les instances après avoir supprimé les serveurs en cours d’exécution qui en dépendent ou après avoir reconfiguré les serveurs pour utiliser une autre base de données. Vous devez effectuer la procédure de cette rubrique lorsque vous retirez le SQL Server actuel ou reconfigurez le serveur actuel de telle sorte qu’il rende les bases de données obsolètes ou indisponibles.
-ms.openlocfilehash: 6e108e4dfef86b482b839bd440f54702ab42107d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f9e942f1f5516c0bf3437dd3fc9e2dc25b4cc4236e3cffabbf07ff08dde1e404
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752156"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306207"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Suppression des instances et des bases de données SQL Server sur le serveur principal
 

@@ -1,5 +1,5 @@
 ---
-title: Contacter le service PSTN
+title: Contacter l’assistance RTC
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - ms.teamsadmincenter.voice.contactPSTNsupport
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
-description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et une assistance au service PSTN.
+description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et du support auprès de l’assistance RTC.
 ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
 ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
@@ -30,186 +30,186 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 07/21/2021
 ms.locfileid: "53510275"
 ---
-# <a name="pstn-service-desk"></a>PSTN Service Desk 
+# <a name="pstn-service-desk"></a>Assistance RTC 
 
-Un nouveau processus d’interaction avec le service PSTN est lancé. Vous pouvez désormais ouvrir des tickets, afficher les tickets et suivre les communications dans un seul endroit intégré au Centre Teams’administration. Cet article décrit tout ce que vous devez savoir pour contacter le service.
-
-> [!NOTE]
-> Depuis le 22 juillet 2021, le système de courrier actuel a été retiré.
-
-Pour contacter le service de service :
-
-1. Connectez-vous au Teams d’administration de votre admin.teams.microsoft.com.
-
-2. Dans le volet gauche, sélectionnez les **Téléphone gauche.**
-
-3. En haut de la page, sélectionnez **Obtenir un numéro de téléphone d’assistance.** Le Centre de Téléphone numéro s’offre à vous.  
+Il existe un nouveau processus pour interagir avec l’assistance RTC. Vous pouvez désormais ouvrir des tickets, afficher des tickets et suivre la communication dans un emplacement unique intégré au Centre d’administration Teams. Cet article décrit tout ce que vous devez savoir pour contacter l’assistance.
 
 > [!NOTE]
-> Seule une personne du même client sera autorisée à créer un cas. Autrement dit, une personne de @fabrikam.com ne peut pas créer de cas au nom de @contoso.com. 
+> Depuis le 22 juillet 2021, le système de messagerie actuel a été mis hors service.
 
-À partir Téléphone de services de gestion des chiffres, vous pouvez créer des cas, consulter des cas existants, communiquer avec le service clientèle et gérer votre profil utilisateur. Ces tâches sont décrites plus en détail dans les sections suivantes.
+Pour contacter l’assistance :
 
-- **Téléphone de services de numéro**   – Accédez à la page d’accueil du portail. 
+1. Connectez-vous à votre Centre d’administration Teams - admin.teams.microsoft.com.
 
-- **[Créer un cas](#create-a-new-case)**   – Envoyer une nouvelle demande ou une demande générale. 
+2. Dans le volet gauche, sélectionnez **Numéros de téléphone**.
 
-- **[Consulter mes cas existants](#view-and-manage-existing-cases)** – Suivre et surveiller vos cas existants. 
+3. En haut de la page, sélectionnez **Obtenir la prise en charge des numéros de téléphone**. Le Centre de services de numéro de téléphone s’affiche.  
 
-- **[Consulter les cas de mon entreprise](#view-and-manage-existing-cases)**   – Suivez et surveillez les cas existants de votre entreprise. Si vos collègues de votre entreprise ont ouvert des dossiers, vous pouvez les consulter dans cet affichage.  
+> [!NOTE]
+> Seule une personne du même client sera autorisée à créer un cas. Autrement dit, une personne de @fabrikam.com ne peut pas créer de cas pour le compte de @contoso.com. 
 
-- **[Donnez des](#view-and-manage-existing-cases)** commentaires – Partagez vos commentaires avec nous. 
+À partir du Centre de services de numéro de téléphone, vous pouvez créer de nouveaux cas, afficher les cas existants, communiquer avec l’assistance et gérer votre profil utilisateur. Ces tâches sont décrites plus en détail dans les sections suivantes.
 
-- **[Votre nom]**   – Mettez à jour votre page de profil. 
+- **Centre de services de numéro de téléphone** – accédez à la page d’accueil du portail. 
+
+- **[Créer un cas](#create-a-new-case)** – soumettre une nouvelle demande ou une demande générale. 
+
+- **[Afficher mes cas existants](#view-and-manage-existing-cases)**– Suivre et surveiller vos cas existants. 
+
+- **[Afficher les cas de mon entreprise](#view-and-manage-existing-cases)** suivre et surveiller les – cas existants de votre ’ entreprise. Si vos collègues de votre entreprise ont ouvert des cas, vous pouvez les consulter dans cet affichage.  
+
+- **[Faites part de vos commentaires](#view-and-manage-existing-cases)**– partagez vos commentaires avec nous. 
+
+- **[Votre nom]**  : mettre à jour votre page de profil. 
 
 
-## <a name="create-a-new-case"></a>Créer un cas
+## <a name="create-a-new-case"></a>Créer un nouveau cas
 
-Pour insérer un nouveau cas, suivez les étapes suivantes :
+Pour créer un nouveau cas, procédez comme suit :
 
-1. Sélectionnez **Créer un cas à** partir de l’un des endroits suivants :  
+1. Sélectionnez **Créer un cas** à partir de l’un des emplacements suivants :  
 
-   - À partir Téléphone page Centre de services **de numéro,** en haut de la page ou en bas.
+   - À partir de la page **Centre de services de numéro de téléphone** , en haut de la page ou en bas de la vignette.
 
-   - Dans la page **Afficher mes cas existants.**
+   - À partir de la page **Afficher mes cas existants**  .
 
-   - Dans la page **Afficher les cas de mon** entreprise.
+   - À partir de la page **Afficher les cas de mon entreprise** .
 
-2. Fournissez les détails de votre cas, comme décrit en détail dans [la section suivante.](#provide-case-details)
+2. Fournissez les détails de votre cas comme décrit en détail dans la [section suivante](#provide-case-details).
 
-3. Après avoir entré toutes les valeurs, sélectionnez **Envoyer.** Un nouvel écran s’affiche, dans lequel vous pouvez voir le numéro de votre cas.  
+3. Après avoir entré toutes les valeurs, sélectionnez **Soumettre**. Vous verrez un nouvel écran dans lequel vous pouvez voir votre numéro de cas.  
 
-### <a name="provide-case-details"></a>Fournir des détails sur un cas
+### <a name="provide-case-details"></a>Fournir les détails du cas
 
-Pour comprendre les détails d’un cas, Microsoft a besoin des informations suivantes :
+Pour comprendre les détails du cas, Microsoft a besoin des informations suivantes :
 
 - [Catégorie de cas](#case-category)
 - [Pays ou région](#country-or-region)
 - [Type de cas](#case-type)
-- [Titre du cas](#case-title)
+- [Titre de cas](#case-title)
 - [Contacts supplémentaires pour les notifications](#additional-contacts-for-notifications)
 - [Description](#description)
-- [Autres documents de support](#additional-supporting-documents)
+- [Documents de prise en charge supplémentaires](#additional-supporting-documents)
 
 #### <a name="case-category"></a>Catégorie de cas
 
 Un cas peut avoir l’une des deux catégories suivantes : 
 
-- **Envoyer une nouvelle demande**- Choisissez cette option si vous souhaitez envoyer une nouvelle demande. Par exemple, vous voulez envoyer une demande de port ou acheter des numéros de téléphone auprès de Microsoft.  
+- **Soumettre une nouvelle demande**- Choisissez cette option si vous souhaitez envoyer une nouvelle demande. Par exemple, vous souhaitez envoyer une demande de port ou acheter des numéros de téléphone auprès de Microsoft.  
 
-- **Demande générale : choisissez** cette option si vous avez des questions qui vous aideront à déterminer votre demande. Par exemple, vous devez savoir si vous pouvez porter vos numéros sans fil vers Microsoft, ou si Microsoft prend en charge des numéros gratuits. 
+- **Investigation générale** - Choisissez cette option si vous avez des questions qui vous aideront à déterminer votre demande. Par exemple, vous devez savoir si vous pouvez porter vos numéros sans fil vers Microsoft ou si Microsoft prend en charge les numéros gratuits personnalisés. 
 
 #### <a name="country-or-region"></a>Pays ou région
 
-Sélectionnez le pays/la région pour lequel vous envoyez ce cas. Si vous avez des demandes pour plusieurs pays, vous devez ouvrir un cas par pays/région.  
+Sélectionnez le pays/la région pour lequel vous soumettez ce cas. Si vous avez des demandes pour plusieurs pays, vous devez ouvrir un cas par pays/région.  
 
 #### <a name="case-type"></a>Type de cas
 
 Le type de cas peut être l’un des suivants :
 
-- **Nom d’appel personnalisé (États-Unis uniquement)** : définissez un nom d’appel personnalisé sur vos numéros de téléphone Microsoft. Cela s’applique uniquement aux numéros de téléphone aux États-Unis. 
+- **Nom d’appel personnalisé (ÉTATS-UNIS uniquement)** : définissez un nom d’appel personnalisé sur vos numéros de téléphone Microsoft. Cela s’applique uniquement aux numéros de téléphone États-Unis. 
 
-  - **Nom d’appel personnalisé à définir (15 chars uniquement)** - Nom d’appel personnalisé que vous souhaitez définir. Le nom présente une limite maximale de 15 caractères.  
+  - **Nom d’appel personnalisé à définir (15 caractères uniquement)** : nom d’appel personnalisé que vous souhaitez définir. Le nom a une limite maximale de 15 caractères.  
 
-  - **Liste des numéros de téléphone** : liste des numéros de téléphone pour lesquels vous souhaitez définir une valeur de nom d’appel personnalisée. Télécharger fichier CSV avec la liste des numéros de téléphone.  
+  - **Liste des numéros de téléphone** : liste des numéros de téléphone pour lesquels vous souhaitez définir une valeur de nom d’appel personnalisée. Chargez un fichier csv avec la liste des numéros de téléphone.  
 
-- **Port inter client** : déplacer des numéros de téléphone d’un client vers un autre. Par exemple, vous avez deux clients différents au sein de Microsoft et vous voulez déplacer vos numéros de téléphone d’un client à l’autre.  
+- **Port inter-client**– déplacer des numéros de téléphone d’un client à un autre. Par exemple, vous avez deux clients différents au sein de Microsoft et vous souhaitez déplacer vos numéros de téléphone d’un client vers l’autre.  
 
-  - **Nom de domaine du client source** : client à partir duquel vous souhaitez déplacer des numéros de téléphone vers un autre client.  
+  - **Nom de domaine du client source** : le client à partir duquel vous souhaitez déplacer des numéros de téléphone vers un autre client.  
 
-  - **Identificateur unique du client source** : ID de locataire du client source. Ce champ est facultatif.  
+  - **Identificateur unique du client source** : ID du client pour le client source. Ce champ est facultatif.  
 
-  - **Nom du domaine du client de destination** : client vers lequel vous souhaitez déplacer des numéros de téléphone.  
+  - **Nom de domaine du client de destination** : le client vers lequel vous souhaitez déplacer des numéros de téléphone.  
 
-  - **Identificateur unique du client** de destination : ID de locataire du client de destination. Ce champ est facultatif.  
+  - **Identificateur unique du client de destination** : ID client pour le client de destination. Ce champ est facultatif.  
 
-  - **Heure demandée*** - Date et heure de la destination de vos numéros à partir du client source vers le client de destination. Voir Date et heure.
+  - **Date et heure demandées*** : date et heure auxquelles vous souhaitez déplacer vos numéros du client source vers le client de destination. Consultez Date et heure.
 
-  - **Liste des numéros de** téléphone : liste des numéros de téléphone à déplacer du client source vers le client de destination. Télécharger fichier CSV avec la liste des numéros de téléphone. 
+  - **Liste des numéros de téléphone** : liste des numéros de téléphone que vous souhaitez déplacer du client source vers le client de destination. Chargez un fichier csv avec la liste des numéros de téléphone. 
 
-- **Modification du type de** stock : modifier le type de numéro de téléphone. Par exemple, vous voulez modifier vos numéros d’abonné Microsoft en numéros de service. Pour plus d’informations sur les types de numéros de téléphone que Microsoft prend en charge, voir [Types de numéros de téléphone.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- **Modification du type d’inventaire**– Modifier le type de numéro de téléphone. Par exemple, vous souhaitez remplacer vos numéros d’abonné Microsoft par des numéros de service. Pour plus d’informations sur les types de numéros de téléphone pris en charge par Microsoft, consultez [Types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - **Convertir en** - Sélectionnez pour convertir vos numéros en numéros d’utilisateur ou en numéros de service. 
+  - **Convertir en** - Sélectionnez cette option pour convertir vos numéros en numéros d’utilisateur ou en numéros de service. 
 
-  - **Datetime préférée*** - Date et heure à laquelle vous souhaitez modifier le type d’inventaire de vos numéros. Pour plus d’informations, voir Date et heure.
+  - **Datetime préférée*** : date et heure auxquelles vous souhaitez modifier le type d’inventaire de vos numéros. Pour plus d’informations, consultez Date et heure.
 
-  - Case à cocher – Je comprends que pour pouvoir mettre à jour le type de stock, mes numéros de téléphone doivent être non attribués. Microsoft ne peut pas traiter les demandes de modification de type de numéro de téléphone, sauf si les numéros de téléphone au sein de votre client ne sont pas **attribués.** Si vous demandez cette modification pour une date ultérieure, vous devrez vous assurer que les numéros ne sont pas engagés avant la date et l’heure demandées. 
+  - **case à cocher :je comprends que pour pouvoir mettre à jour le type d’inventaire, mes numéros de téléphone doivent être non attribués** - Microsoft ne peut pas traiter les demandes de modification de type de numéro de téléphone, sauf si les numéros de téléphone au sein de votre client ne sont pas attribués. Si vous demandez cette modification pour une date ultérieure, vous devez vous assurer que les numéros ne sont pas attribués avant la date et l’heure que vous avez demandées. 
 
-  - **Liste des numéros de téléphone** : liste des numéros de téléphone dont vous voulez modifier le type. Télécharger fichier CSV avec la liste des numéros de téléphone. 
+  - **Liste des numéros de téléphone** : liste des numéros de téléphone dont vous souhaitez modifier le type. Chargez un fichier csv avec la liste des numéros de téléphone. 
 
-- **Nouvelle acquisition TN** : acheter de nouveaux numéros de téléphone auprès de Microsoft.  
+- **Nouvelle acquisition TN**– Achetez de nouveaux numéros de téléphone auprès de Microsoft.  
 
-  - **Type de** nombre : sélectionnez le type de vos nombres. Voir [Types de numéros de téléphone.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+  - **Type de nombre** - Sélectionnez le type de vos nombres. Consultez [Types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - Vous avez essayé d’obtenir des numéros de téléphone à partir du portail du Centre d’administration **Teams** ? Avez-vous essayé d’acheter ces numéros de téléphone à partir du portail du Centre d’administration Microsoft Teams, dans lequel vous pouvez utiliser la libre-service ?  
+  - **Essai d’obtention des numéros de téléphone à partir du portail du centre d’administration Teams** - Avez-vous essayé d’acheter ces numéros de téléphone à partir du portail du Centre d’administration Microsoft Teams, où vous pouvez effectuer un libre-service ?  
 
-  - **Quantité de numéros de téléphone requis** : nombre de numéros de téléphone à acheter.  
+  - **Quantité de numéros de téléphone requis** : nombre de numéros de téléphone que vous souhaitez acheter.  
 
-  - **État/Province** : état/province au sein de votre pays/région pour lequel vous souhaitez des numéros de téléphone.  
+  - **State/Province/province** : état/province au sein de votre pays/région pour lequel vous souhaitez obtenir des numéros de téléphone.  
 
-  - **Ville** - Ville du département ou de la province pour lequel vous souhaitez obtenir des numéros de téléphone.  
+  - **City** : ville au sein de l’état/province pour lequel vous souhaitez obtenir des numéros de téléphone.  
 
-  - **Office de l’adresse de** l’équipe - Spécifique à certains pays uniquement. Il s’agit de l’adresse de site de votre bureau.  
+  - **Adresse d’Office** : cela est spécifique à certains pays uniquement. Il s’agit de l’adresse de site de votre bureau.  
 
-  - **Liste d’annuaires** : spécifique à certains pays uniquement. Voulez-vous publier les informations de votre société avec les numéros de téléphone ?  
+  - **Référencement de répertoire** : ceci est spécifique à certains pays uniquement. Voulez-vous publier les informations de votre entreprise avec les numéros de téléphone ?  
 
-- **Port in** – Port existing phone numbers from your current service provider to Microsoft.  
+- **Porter dans** Porter – les numéros de téléphone existants de votre fournisseur de services actuel vers Microsoft.  
 
-  - **Nommez votre demande de** port : nommez-la facilement. 
+  - **Nommez votre de commande de port** : fournissez un nom facile à mémoriser pour votre demande de port. 
 
-  -  **Date/heure de port** demandée * - Date et heure de portage des numéros vers Microsoft. Veuillez noter qu’il ne s’agit pas d’une date de portage garantie, car le propriétaire du numéro actuel doit d’abord approuver notre demande de port. Voir Date et heure. 
+  -  **Date/heure de portage demandée*** : date et heure auxquelles vous souhaitez que les numéros sont transférés vers Microsoft. Notez qu’il ne s’agit pas d’une date de portage garantie, car le propriétaire du numéro actuel doit d’abord approuver notre demande de port. Consultez Date et heure. 
 
-  - **Liste des numéros de portage** : liste des numéros de téléphone que vous souhaitez faire porter vers Microsoft. Télécharger fichier CSV avec la liste des numéros de téléphone. 
+  - **Liste des numéros de portage** : liste des numéros de téléphone que vous souhaitez porter vers Microsoft. Chargez un fichier csv avec la liste des numéros de téléphone. 
 
-  - **Courrier d’autorisation (LOA)** : joignez un LOA signé et rempli ici. Microsoft ne peut pas traiter une demande de port sans LOA.  
+  - **Courrier d'autorisation (LOA)** : joignez un courrier d'autorisation signé et rempli ici. Microsoft ne peut pas traiter une demande de port sans courrier d’autorisation.  
 
-- **Mise à jour de l’adresse** – Mettre à jour l’adresse des appels d’urgence. Notez que ce champ s’applique uniquement aux pays sélectionnés. 
+- **Mise à jour d’adresse** – Mettre à jour l’adresse d’appel d’urgence. Notez que ce champ s’applique uniquement à certains pays. 
 
-  - **ID d’emplacement** : ID d’emplacement pour votre adresse de secours. 
+  - **Id d’emplacement** : ID d’emplacement de votre adresse d’urgence. 
 
-  - **Liste des numéros** de téléphone : liste des numéros de téléphone pour lesquels vous souhaitez modifier l’adresse d’urgence (entrez l’adresse souhaitée dans le champ Description). Télécharger fichier CSV avec la liste des numéros de téléphone. 
+  - **Liste des numéros de téléphone** : liste des numéros de téléphone pour lesquels vous souhaitez modifier l’adresse d’urgence (entrez l’adresse souhaitée dans le champ Description). Chargez un fichier csv avec la liste des numéros de téléphone. 
 
-***Date et heure.** Si vous sélectionnez Pays = France, date = 14/08/2021 et heure = 10 h, la demande sera exécutée le 14/08/2021 à 10 h. Heure française. 
+***Date et heure.** Si vous sélectionnez Pays = France, date = 14/08/2021 et heure = 10h00, la demande sera exécutée le 14/08/2021 à 10h00. Français heure. 
 
-#### <a name="case-title"></a>Titre du cas
+#### <a name="case-title"></a>Titre de l’incident
 
-Entrez un titre qui résume votre question.  
+Entrez un titre qui résume votre demande.  
 
 #### <a name="additional-contacts-for-notifications"></a>Contacts supplémentaires pour les notifications
 
-Entrez la liste des personnes qui recevront des notifications d’état automatisées de la part de Microsoft. Par exemple, vous souhaitez placer un port-in dans l’ordre et souhaitez que deux autres collègues en plus de vous-même reçoivent des notifications d’état automatiques. Fournissez les adresses e-mail de vos collègues dans la section **Notification par courrier électronique.** Ces informations sont facultatives. 
+Entrez la liste des personnes qui recevront des notifications d’état automatisées de Microsoft. Par exemple, vous souhaitez placer un port dans l’ordre et vous souhaitez que deux autres collègues, en plus de vous-même, reçoivent des notifications d’état automatisées. Indiquez les adresses e-mail de vos collègues dans la section **Notification par e-mail**. Ces informations sont facultatives. 
 
 #### <a name="description"></a>Description
 
-Décrivez ce que vous essayez d’obtenir et énumérez vos questions pour le service PSTN De Microsoft.  
+Décrivez ce que vous essayez d’obtenir et répertoriez vos questions pour le service Microsoft RTC.  
 
-#### <a name="additional-supporting-documents"></a>Autres documents de prise en charge
+#### <a name="additional-supporting-documents"></a>Documents de prise en charge supplémentaires
 
-Télécharger documents supplémentaires pour votre cas.  
+Chargez tous les documents supplémentaires pour votre cas.  
 
-## <a name="view-and-manage-existing-cases"></a>Afficher et gérer des cas existants
+## <a name="view-and-manage-existing-cases"></a>Afficher et gérer les cas existants
 
-Vous pouvez consulter vos cas en sélectionnant **Consulter mes cas existants** et en sélectionnant le numéro de cas. La sélection d’un numéro de cas vous redirige vers les détails de celui-ci. (Vous pouvez également afficher les cas de société en sélectionnant **Afficher les cas de l’entreprise.)**  Vous pouvez également :
+Vous pouvez afficher vos cas en sélectionnant **Afficher mes cas existants** et en sélectionnant le numéro de cas. La sélection d’un numéro de cas vous redirige vers les détails du cas. (Vous pouvez également afficher les cas d’entreprise en sélectionnant **Afficher les cas d’entreprise**.)  Vous pouvez également :
 
-- **Filtrez vos cas en** sélectionnant **Cas d’ouverture,** Tous les **cas** ou **Cas fermés.**
+- **Filtrez vos cas** en sélectionnant **Cas ouverts**,  **Tous les cas**, ou **Cas fermés**.
 
-- **Communiquez avec le service PSTN** concernant votre cas en ouvrant un cas existant, en faisant défiler la page vers le bas et en sélectionnant **Ajouter un commentaire.** Une nouvelle fenêtre s’affiche. Entrez votre message dans la zone de commentaire. Joignez tout document de prise en charge (le cas possible) qui peut vous aider dans votre demande, puis sélectionnez **Envoyer.**  
+- **Communiquer avec l’assistance RTC** concernant votre cas en ouvrant un cas existant, en faisant défiler vers le bas, et en sélectionnant **Ajouter un commentaire**. Une nouvelle fenêtre s’affiche. Entrez votre message dans la zone de commentaire. Joignez tous les documents de prise en charge (le cas échéant) susceptibles d’aider à votre demande, puis sélectionnez **Soumettre**.  
 
-  Les réponses du service PSTN seront affichées sous la même chronologie. En cas de mise à jour de votre cas, vous recevez une notification automatique par courrier électronique de la mise à jour. 
+  Les réponses du service PSTN s’affichent sous la même chronologie. En cas de mise à jour de votre cas, vous recevez une notification par e-mail automatisée de la mise à jour. 
 
-- **Annulez un cas** en naviguant vers un cas existant, en faisant défiler la page vers le bas et en sélectionnant **Annuler le cas.** Sélectionnez un motif d’annulation dans la liste de liste, puis sélectionnez **Annuler.**  
+- **Annuler une cas** en accédant à un cas existant, en faisant défiler vers le bas, et en sélectionnant **Annuler le cas.** Sélectionnez une raison pour l’annulation dans la liste déroulante, puis sélectionnez **Annuler**.  
 
-- **Résoudre un** cas : si vous pensez que votre demande a été complétée, vous pouvez résoudre un cas en naviguant jusqu’à un cas existant, en faisant défiler la page vers le bas et en sélectionnant Résoudre le **cas.** Sélectionnez **Fermer**; Le cas s’affiche alors **comme Résolu – Problème résolu.**  
+- **Résoudre un cas** : si vous pensez que votre demande est terminée, vous pouvez résoudre un cas en accédant à un cas existant, en faisant défiler vers le bas, et en sélectionnant **Résoudre le cas**. Sélectionnez **Fermer**; le cas s’affiche désormais comme **Résolu – Problème résolu**.  
 
 
 ## <a name="related-topics-and-additional-resources"></a>Rubriques connexes et ressources supplémentaires
 
-- Pour obtenir de l’aide relative à la configuration et à la configuration des numéros, aux licences, aux frais ou à la facturation, voir Contact de support pour les produits professionnels - Aide de [l’administrateur.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
+- Pour obtenir de l’aide sur la configuration et la configuration des numéros, les licences, les frais ou la facturation, consultez [Contact de support pour les produits professionnels - Aide de l’administrateur](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 
-- Pour plus d’informations sur les forfaits d’appels disponibles dans votre pays/région, consultez la disponibilité des pays et de la région pour les plans [d’audioconférence et d’appel.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- Pour plus d’informations sur les forfaits d’appels disponibles dans votre pays/région, consultez la[Disponibilité des pays et de la région pour l’audioconférence et les forfaits d’appels](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
-- Pour plus d’informations sur la sélection du ou des types de numéros de téléphone appropriés pour votre organisation, voir [Différents types de numéros de téléphone.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- Pour plus d’informations qui peuvent vous aider à sélectionner le ou les types de numéros de téléphone appropriés pour votre organisation, consultez [Différents types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-- Pour plus d’informations sur la gestion des numéros de téléphone pour votre organisation, voir [Gérer les numéros de téléphone pour votre organisation.](manage-phone-numbers-for-your-organization.md)
+- Pour plus d’informations sur la gestion des numéros de téléphone de votre organisation, consultez [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization.md).
 
-- Pour plus d’informations sur les conditions générales des appels d’urgence, consultez les conditions [générales d’appel d’urgence.](../emergency-calling-terms-and-conditions.md)
+- Pour plus d’informations sur les conditions générales d’appel d’urgence, consultez [Conditions générales d’appel d’urgence](../emergency-calling-terms-and-conditions.md).

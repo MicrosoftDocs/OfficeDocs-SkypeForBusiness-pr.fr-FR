@@ -1,5 +1,5 @@
 ---
-title: Paramètres de sécurité du bureau d’enregistrement d’inscriptions en créer une nouvelle ou en modifier une existante
+title: Création d’Paramètres du bureau d’enregistrement d’inscriptions ou modification d’une version existante
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: b490e9f92102c1986e6fae68be9192dfe7ff805e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 73ae222a8884547f9a31b9ded8fa93f7fd3db19998d258e3b98d6064b9a50f47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108070"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305596"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>Paramètres de sécurité du serveur d’inscriptions : création d’un nouveau ou modification d’un paramètre existant
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Gérer les paramètres de configuration du serveur d’inscriptions dans Skype Entreprise Server 2015](../../manage/authentication/registrar-configuration-settings.md)
+- [Gérer les paramètres de configuration du Skype Entreprise Server 2015](../../manage/authentication/registrar-configuration-settings.md)
 
 - [Modifier un bureau d’enregistrement existant](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-registrar-configuration-settings)
 
 - [Supprimer un bureau d’enregistrement](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-registrar-configuration-settings)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).

@@ -1,5 +1,5 @@
 ---
-title: Configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
+title: 'Business Server 2015 : Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 0b58f820c1157da8ff36f8dcc68d9e08465bcddc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Découvrez comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015.
+ms.openlocfilehash: 02eda20ae9db1a623fd17534cce4fb9ef7963b05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772435"
 ---
-# <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
+# <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015 : Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente
  
-**Résumé :** Lisez cette rubrique pour découvrir comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015.
+**Résumé :** Lisez cette rubrique pour découvrir comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015.
   
-Skype Entreprise Server prend en charge plusieurs modes de haute disponibilité pour vos serveurs principaux, y compris la mise en miroir de bases de données. Pour plus d’informations, voir [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Skype Entreprise Server prend en charge plusieurs modes de haute disponibilité pour vos serveurs principaux, y compris la mise en miroir de bases de données. Pour plus d’informations, voir [Plan for high availability and disaster recovery in Skype Entreprise Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
 > Les groupes de disponibilité AlwaysOn ne sont pas pris en charge avec les serveurs de conversation permanente. 
   
-Avant de configurer votre déploiement de conversation permanente pour la haute disponibilité et la récupération d’urgence, assurez-vous que vous connaissez bien les concepts de [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans ces rubriques repose sur un pool de serveurs de conversation permanente étiré. Le contenu de planification décrit les besoins en ressources et la topologie de pool étirée qui permet la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et de la livraison de journaux de SQL Server pour la récupération d’urgence.
+Avant de configurer votre déploiement de conversation permanente pour la haute disponibilité et la récupération d’urgence, assurez-vous que vous êtes familiarisé avec les concepts de plan de haute disponibilité et de récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans ces rubriques repose sur un pool de serveurs de conversation permanente étiré. Le contenu de planification décrit les besoins en ressources et la topologie de pool étirée qui permet la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et de la livraison des journaux de SQL Server pour la récupération d’urgence.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Utiliser le Générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence
 
@@ -45,7 +45,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
     c. Activez la base SQL Server de livraison des journaux de bord.
     
-    d. Ajoutez la SQL Server secondaire SQL Server de livraison des journaux de bord.
+    d. Ajoutez la SQL Server secondaire SQL Server de livraison de journaux de bord.
     
     e. Ajoutez le SQL Server miroir du magasin pour la base de données secondaire.
     
@@ -53,7 +53,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
 ## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journaux de serveurs de conversation permanente pour la base de données principale du serveur de conversation permanente
 
-À l’SQL Server Management Studio, connectez-vous à l’instance de base de données de livraison de journaux secondaire du serveur de conversation permanente et assurez-vous que SQL Server agent est en cours d’exécution. Connectez-vous ensuite à l’instance de base de données principale de conversation permanente et effectuez les étapes suivantes :
+À l’SQL Server Management Studio, connectez-vous à l’instance de base de données de livraison de journaux secondaire du serveur de conversation permanente et assurez-vous que SQL Server Agent est en cours d’exécution. Connectez-vous ensuite à l’instance de base de données principale de conversation permanente et effectuez les étapes suivantes :
   
 1. Cliquez avec le bouton droit sur la base de données mgc, puis cliquez sur **Propriétés**.
     
@@ -72,13 +72,13 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
   
 7. Configurez les paramètres **Supprimer les fichiers antérieurs à** et **Envoyer une alerte si aucune sauvegarde ne se produit en l’espace de**.
     
-8. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification SQL Server’agent si nécessaire.
+8. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification de SQL Server’agent si nécessaire.
     
 9. Sous **Compression**, sélectionnez **Utiliser le paramètre du serveur par défaut**, puis cliquez sur **OK**.
     
 10. Sous **Instances de serveurs et bases de données secondaires**, cliquez sur **Ajouter**.
     
-11. Cliquez **sur** Se connecter à l’instance de SQL Server que vous avez configurée en tant que serveur secondaire.
+11. Cliquez **Connecter** et connectez-vous à l’instance de SQL Server que vous avez configurée en tant que serveur secondaire.
     
 12. Dans la zone **Base de données secondaire** sélectionnez la base de données **mgc** dans la liste.
     
@@ -86,7 +86,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
 14. Sous l’onglet **Copier les fichiers**, dans la zone **Dossier de destination des fichiers copiés**, tapez le chemin d’accès au dossier dans lequel les sauvegardes des journaux de transactions doivent être copiées. Ce dossier se trouve souvent sur le serveur secondaire.
     
-15. Examinez la planification des copies dans la zone **Planification** sous **Copier le travail**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification SQL Server’agent si nécessaire. Cette planification doit être approximativement la même que celle des sauvegardes.
+15. Examinez la planification des copies dans la zone **Planification** sous **Copier le travail**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification de SQL Server’agent si nécessaire. Cette planification doit être approximativement la même que celle des sauvegardes.
     
 16. Sous l’onglet **Restaurer**, sous **État de la base de données lors de la restauration des sauvegardes**, choisissez l’option **Mode sans récupération**.
     
@@ -102,7 +102,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
 
 Effectuez les étapes suivantes pour que la livraison des journaux de bord continue si la base de données de conversation permanente principale est retentée vers sa base de données miroir.
   
-1. Faire échouer manuellement la base de données de conversation permanente principale vers le miroir. Pour ce faire, vous pouvez utiliser Skype Entreprise Server Management Shell et l';cmdlet **Invoke-CsDatabaseFailover.**
+1. Faire échouer manuellement la base de données de conversation permanente principale vers le miroir. Pour ce faire, utilisez l’Skype Entreprise Server Management Shell et l’cmdlet **Invoke-CsDatabaseFailover.**
     
 2. À l’SQL Server Management Studio, connectez-vous à l’instance miroir du serveur de conversation permanente principale.
     
@@ -125,7 +125,7 @@ Effectuez les étapes suivantes pour que la livraison des journaux de bord conti
   
 10. Configurez les paramètres **Supprimer les fichiers antérieurs à** et **Envoyer une alerte si aucune sauvegarde ne se produit en l’espace de**.
     
-11. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification de SQL Server’agent, si nécessaire.
+11. Examinez l’échéancier des sauvegardes dans la zone **Planification** sous **Travail de sauvegarde**. Pour personnaliser la planification de votre installation, cliquez sur **Planifier** et ajustez la planification de SQL Server’agent, le cas échéant.
     
     > [!IMPORTANT]
     > Utilisez les mêmes paramètres que ceux de la base de données primaire. 
@@ -153,6 +153,6 @@ Effectuez les étapes suivantes pour que la livraison des journaux de bord conti
   
 21. Sélectionnez **Annuler** pour fermer le panneau de configuration de copie des journaux de transaction et établir une configuration de travail qui implémente correctement la copie des journaux de transaction pour la base de données primaire et la base de données en miroir (en cas de basculement).
     
-22. Retourne manuellement la base de données de conversation permanente principale à la base de données principale. Pour ce faire, utilisez Skype Entreprise Server Management Shell et l';cmdlet **Invoke-CsDatabaseFailover.**
+22. Retourne manuellement la base de données de conversation permanente principale à la base de données principale. Pour ce faire, utilisez l’Skype Entreprise Server Management Shell et l’cmdlet **Invoke-CsDatabaseFailover.**
     
 

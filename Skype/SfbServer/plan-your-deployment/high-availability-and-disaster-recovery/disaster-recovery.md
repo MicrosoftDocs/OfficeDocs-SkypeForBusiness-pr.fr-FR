@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec le failover en cas de panne d’un pool.
-ms.openlocfilehash: 949b0c51ba3ad545210f70c311f8db1912623291
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec leover en cas de panne d’un pool.
+ms.openlocfilehash: a7e658e10718ac45ee6c2122433137ac4a198a459baa0171aec2453963636d32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093132"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276625"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Récupération d’urgence du pool frontal dans Skype Entreprise Server
  
-Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec le failover en cas de panne d’un pool.
+Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec leover en cas de panne d’un pool.
   
-Pour les options de récupération d’urgence les plus robustes dans Skype Entreprise Server, déployez des paires de pools frontaux sur deux sites géographiquement dispersés. Chaque site possède un pool frontal associé à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs et le service de sauvegarde fournit une réplication des données en temps réel pour maintenir la synchronisation des pools. Pour implémenter le jumelage de pools frontux, voir Deploy [paired Front End pools for disaster recovery in Skype for Business Server.](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+Pour les options de récupération d’urgence les plus robustes Skype Entreprise Server, déployez des paires de pools frontaux sur deux sites géographiquement dispersés. Chaque site possède un pool frontal associé à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs et le service de sauvegarde fournit une réplication des données en temps réel pour maintenir la synchronisation des pools. Voir [Déployer des pools frontux](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) couplés pour la récupération d’urgence dans Skype Entreprise Server si vous souhaitez implémenter le jumelage de pool frontal.
   
 ![Affiche les pools frontux sur deux sites différents, associés l’un à l’autre](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
-Si le pool d’un site échoue, vous pouvez faire échouer les utilisateurs de ce pool vers le pool de l’autre site, qui sert ensuite tous les utilisateurs des deux pools. Pour la planification de la capacité, vous devez concevoir chaque pool pour être en mesure de gérer la charge de travail de tous les utilisateurs des deux pools en cas d’incident.
+Si le pool d’un site échoue, vous pouvez faire échouer les utilisateurs de ce pool vers le pool de l’autre site, qui sert ensuite tous les utilisateurs des deux pools. Pour la planification de la capacité, vous devez concevoir chaque pool pour gérer la charge de travail de tous les utilisateurs des deux pools en cas d’incident.
   
 Deux centres de données qui incluent des pools frontaux associés l’un à l’autre peuvent être séparés à n’importe quelle distance. Nous vous recommandons de coupler deux centres de données dans la même région du monde, avec des liens haut débit entre eux. 
   
-Il est possible d’avoir deux centres de données dans différentes régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence dans la réplication des données.
+Il est possible d’avoir deux centres de données dans différentes régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence de la réplication des données.
   
 Lorsque vous planifiez les pools à jumeler, vous devez garder à l’esprit que seuls les jumelages suivants sont pris en charge :
   
@@ -56,13 +56,13 @@ Notez que Skype Entreprise n’étend pas la prise en charge de la récupératio
 
 Pour leover de pool et la restauration de pool, la cible d’ingénierie pour l’objectif de temps de récupération (RTO) est de 15 à 20 minutes. Il s’agit du temps nécessaire pour que le failover se produise, une fois que les administrateurs ont déterminé qu’il y avait un sinistre et démarré les procédures deover. Cette durée ne comprend pas le temps nécessaire aux administrateurs pour évaluer la situation et prendre une décision, ni le temps nécessaire aux utilisateurs pour se connecter une fois le basculement terminé.
   
-Pour le failover et la restauration du pool, la cible d’ingénierie pour l’objectif de point de récupération (RPO) est de 5 minutes. Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde. Par exemple, si un pool est en panne à 10 h 00 et que le RPO est de 5 minutes, les données écrites dans le pool entre 9 h 55 et 09 h 55. et 10:00 A.M.might not have replicated to the backup pool, and would be lost.
+Pour le failover et la restauration de pool, la cible d’ingénierie pour l’objectif de point de récupération (RPO) est de 5 minutes. Cela représente une mesure en temps des données qui pourraient être perdues en raison de la panne, en raison de la latence de réplication du service de sauvegarde. Par exemple, si un pool est en panne à 10 h 00 et que le RPO est de 5 minutes, les données écrites dans le pool entre 9 h 55 et 09 h 55. et 10:00 A.M.might not have replicated to the backup pool, and would be lost.
   
 Les chiffres de RTO et de RPO de ce document considèrent que les deux centres de données sont situés dans la même région du monde avec un transport haute vitesse à faible latence entre les deux sites. Ces nombres sont mesurés pour un pool avec 40 000 utilisateurs actifs simultanément et 200 000 utilisateurs activés pour Skype Entreprise par rapport à un modèle utilisateur prédéfiny où il n’existe aucun journal des travaux en souffrance dans la réplication des données. Ces chiffres peuvent changer en fonction du test et de la validation des performances.
   
 ## <a name="central-management-store-failover"></a>Failover du magasin central de gestion
 
-Le magasin central de gestion contient des données de configuration sur les serveurs et les services de votre déploiement. Chaque déploiement Skype Entreprise Server comprend un magasin central de gestion, qui est hébergé par le serveur principal d’un pool frontal.
+Le magasin central de gestion contient des données de configuration sur les serveurs et les services de votre déploiement. Chaque Skype Entreprise Server comprend un magasin central de gestion, qui est hébergé par le serveur principal d’un pool frontal.
   
 Si vous associez le pool qui héberge le magasin central de gestion, une base de données du magasin central de gestion de sauvegarde est définie dans le pool de sauvegarde. À tout moment, l’une des deux bases de données du magasin central de gestion est active et l’autre est une base de données de veille. Le contenu est répliqué par le service de sauvegarde de la base de données active vers la base de données de secours.
   
@@ -76,17 +76,17 @@ Les objectifs d’ingénierie pour le failover du magasin central de gestion son
   
 ## <a name="front-end-pool-pairing-data-security"></a>Sécurité des données de jumelage de pool frontal
 
-Le service de sauvegarde transfère en continu les données utilisateur et le contenu des conférences entre deux pools frontux couplés. Les données utilisateur contiennent des UR SIP utilisateur, ainsi que des planifications de conférence, des listes de contacts et des paramètres. Le contenu de conférence inclut les téléchargements Microsoft PowerPoint, ainsi que les tableaux blancs utilisés dans les conférences.
+Le service de sauvegarde transfère en continu les données utilisateur et le contenu des conférences entre deux pools frontux couplés. Les données utilisateur contiennent des UR SIP utilisateur, ainsi que des planifications de conférence, des listes de contacts et des paramètres. Le contenu des conférences inclut PowerPoint téléchargements Microsoft, ainsi que les tableaux blancs utilisés dans les conférences.
   
 À partir du pool source, ces données sont exportées à partir du stockage local, compressées, puis transférées vers le pool cible, où elles sont décompressées et importées vers le stockage local. Le service de sauvegarde suppose que le lien de communications entre les deux centres de données se trouve dans le réseau d’entreprise protégé contre Internet. Il ne chiffre pas les données transférées entre les deux centres de données, et les données ne sont pas encapsulées en natif dans un protocole sécurisé, tel que HTTPS. Par conséquent, une attaque de l’intermédiaire de la part du personnel interne au sein du réseau d’entreprise est possible.
   
-Toute entreprise qui déploie Skype Entreprise Server sur plusieurs centres de données et utilise la fonctionnalité de récupération d’urgence doit s’assurer que le trafic entre les centres de données est protégé par son intranet d’entreprise. Les entreprises qui se soucient de la protection contre les attaques internes doivent sécuriser les liens de communication entre les centres de données. Il s’agit d’une exigence standard qui permet également aux protech de nombreux autres types de données sensibles d’entreprise transférées entre des centres de données.
+Toute entreprise qui déploie des Skype Entreprise Server plusieurs centres de données et utilise la fonctionnalité de récupération d’urgence doit s’assurer que le trafic entre les centres de données est protégé par leur intranet d’entreprise. Les entreprises qui se soucient de la protection contre les attaques internes doivent sécuriser les liens de communication entre les centres de données. Il s’agit d’une exigence standard qui permet également aux protech de nombreux autres types de données sensibles d’entreprise transférées entre des centres de données.
   
 Bien que le risque d’attaques de l’intermédiaire au sein du réseau d’entreprise existe, il est relativement contenu par rapport à l’exposition du trafic vers Internet. Plus précisément, les données utilisateur exposées par le service de sauvegarde (telles que les UR SIP) sont généralement disponibles pour tous les employés au sein de l’entreprise via d’autres moyens tels que le carnet d’adresses global ou d’autres logiciels d’annuaire. Par conséquent, vous devez vous concentrer sur la sécurisation du WAN entre les deux centres de données lorsque le service de sauvegarde est utilisé pour copier des données entre les deux pools couplés.
   
 ### <a name="mitigating-security-risks"></a>Atténuation des risques de sécurité
 
-Vous avez plusieurs façons d’améliorer la protection de la sécurité pour le trafic du service de sauvegarde. Cela va de la restriction de l’accès aux centres de données à la sécurisation du transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises déployant Skype Entreprise Server peuvent déjà avoir l’infrastructure de sécurité requise. Pour les entreprises qui recherchent des conseils, Microsoft fournit une solution qui illustre comment créer une infrastructure informatique sécurisée. Pour plus d’informations, voir [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) . 
+Vous avez plusieurs façons d’améliorer la protection de la sécurité pour le trafic du service de sauvegarde. Cela va de la restriction de l’accès aux centres de données à la sécurisation du transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises qui déploient Skype Entreprise Server ont peut-être déjà l’infrastructure de sécurité requise. Pour les entreprises qui recherchent des conseils, Microsoft fournit une solution qui illustre comment créer une infrastructure informatique sécurisée. Pour plus d’informations, voir [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) . 
   
 Nous ne voulons pas dire qu’il s’agit de la seule solution, ni qu’il s’agit de la solution préférée pour Skype Entreprise Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques, en fonction de leur infrastructure et de leurs exigences en matière de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine.
   

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Résumé : Découvrez le rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: 1962d2d39ce23b6cdfeaedf7db6a3ada3b1e8eab
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32f68fcf4d191896fc86aa1bc18007920f0b0f7cb29ba446385ced478dc5879c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823494"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276809"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Rapport de messagerie instantanée D’égal à égal dans Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Le rapport de messagerie instantanée D’égal à égal fournit des information
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Accès au rapport de messagerie instantanée D’égal à égal
 
-Vous pouvez accéder au rapport de messagerie instantanée p2013 uniquement en ouvrant le rapport de synthèse des activités P2E dans Skype Entreprise [Server,](peer-to-peer-activity-summary-report.md) puis en cliquant sur l’une des mesures suivantes :
+Vous pouvez accéder au rapport de messagerie instantanée D’égal à égal uniquement en ouvrant le rapport de synthèse des activités D’égal à égal dans [Skype Entreprise Server](peer-to-peer-activity-summary-report.md) puis en cliquant sur l’une des mesures suivantes :
   
 - Nombre total de sessions de messagerie instantanée d’égal à égal
     
@@ -46,7 +46,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher par semaine ou par mois, entrez une date qui se situe n’importe où dans la semaine ou le mois (vous n’avez pas besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si les dates de début et de fin dépassent le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à partir de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début du 7/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours 8/7/2015 de 12:00 au 07/09/2015 12:00 (c’est-à-dire, un total de 31 jours de données). <br/> |
 |**Établir un rapport par** <br/> | Indique les valeurs à utiliser dans le rapport. Sélectionnez l’une des options suivantes : <br/>  Nombre de sessions <br/>  Nombre de messages <br/> |
    

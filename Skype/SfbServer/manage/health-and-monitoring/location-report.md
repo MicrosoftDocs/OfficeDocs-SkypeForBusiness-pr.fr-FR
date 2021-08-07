@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 'Résumé : Découvrez le rapport d’emplacement dans Skype Entreprise Server.'
-ms.openlocfilehash: 4c99b958c4cdf129338b263486dc12adc3ef64a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bebc7e04ae97cb90a5a2b2382bfceb679315d5b3442248852b3fb9a4aa31e5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276779"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>Rapport d’emplacement dans Skype Entreprise Server
  
@@ -44,7 +44,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Emplacement de l’appelant** <br/> |Sous-réseau IP de l’utilisateur qui a émis l’appel. Vous pouvez uniquement sélectionner **[Tous]** pour indiquer tous les sous-réseaux.<br/> |
 |**Emplacement de l’appelé** <br/> |Sous-réseau IP de l’utilisateur qui a reçu l’appel. Vous pouvez uniquement sélectionner **[Tous]** pour indiquer tous les sous-réseaux.<br/> |
 |**Type de réseau** <br/> | Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Câblé <br/>  Sans fil <br/> |

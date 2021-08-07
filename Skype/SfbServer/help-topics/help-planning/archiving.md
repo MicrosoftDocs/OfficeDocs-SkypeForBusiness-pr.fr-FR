@@ -1,5 +1,5 @@
 ---
-title: Archiving (Planning Tool)
+title: 'Skype Entreprise Server : outil de planification de l’archivage'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,17 +16,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: L’archivage dans Skype Entreprise Server vous permet d’archiver les communications envoyées via Skype Entreprise Server.
-ms.openlocfilehash: 053924727c43d43387bd759797754ba2ff45c4c1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 18f40ef42a83895056790a87a365aad1372c0555
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810684"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772765"
 ---
-# <a name="archiving-planning-tool"></a>Archiving (Planning Tool)
+# <a name="skype-for-business-server-archiving-planning-tool"></a>Skype Entreprise Server : outil de planification de l’archivage
  
 L’archivage dans Skype Entreprise Server vous permet d’archiver les communications envoyées via Skype Entreprise Server.
   
-Pour plus d’informations sur la préparation de votre environnement pour le serveur d’archivage, voir [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md).
+Pour plus d’informations sur la préparation de votre environnement pour le serveur d’archivage, voir [Plan for archiving in Skype Entreprise Server 2015](../../plan-your-deployment/archiving/archiving.md).
   
 

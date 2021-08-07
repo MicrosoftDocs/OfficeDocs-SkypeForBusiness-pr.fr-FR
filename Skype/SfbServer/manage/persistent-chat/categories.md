@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
-description: 'Résumé : Découvrez comment gérer les catégories de serveurs de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 648629e42994c59f5d6ba5ee5592729f4dff0bbe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment gérer les catégories de serveur de conversation permanente dans Skype Entreprise Server 2015.'
+ms.openlocfilehash: 1785f541765075160573907955630ee395d4f9773daebff7895842689327a3ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276749"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer les catégories dans le serveur de conversation permanente dans Skype Entreprise Server 2015
  
 **Résumé :** Découvrez comment gérer les catégories de serveur de conversation permanente dans Skype Entreprise Server 2015.
   
-Une catégorie est une structure logique pour l’organisation des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour contrôler les utilisateurs et les groupes d’utilisateurs qui peuvent créer ou rejoindre les salles de conversation. Les catégories de salles de conversation contiennent des salles de conversation, mais pas d’autres catégories. Chaque catégorie décrit son contenu avec des métadonnées, telles que Nom et Description. La catégorie possède des propriétés qui peuvent être définies pour contrôler le comportement des salles de conversation qui lui appartiennent . par exemple, si les salles de conversation autorisent les invitations ou les téléchargements de fichiers, ou contiennent l’historique des conversation. 
+Une catégorie est une structure logique pour l’organisation des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour contrôler les utilisateurs et les groupes d’utilisateurs qui peuvent créer ou rejoindre les salles de conversation. Les catégories de salles de conversation contiennent des salles de conversation, mais pas d’autres catégories. Chaque catégorie décrit son contenu avec des métadonnées, telles que Nom et Description. La catégorie possède des propriétés qui peuvent être définies pour contrôler le comportement des salles de conversation qui lui appartiennent ; par exemple, si les salles de conversation autorisent les invitations ou les téléchargements de fichiers, ou contiennent l’historique de conversation. 
   
 La création et la gestion des salles de conversation sont beaucoup plus faciles avec l’utilisation correcte des catégories. En tant qu’administrateur de serveur de conversation permanente, vous pouvez définir AllowedMembers et Creators pour chaque catégorie, ainsi que les paramètres et comportements de salle de conversation par défaut qui seront appliqués à toutes les salles de conversation créées dans la catégorie. Par exemple, si vous définissez allowedMembers de la catégorie sur contoso.com, vous pouvez ajouter n’importe quel groupe ou utilisateur de Contoso en tant que membre aux salles de conversation de cette catégorie. Si vous définissez les membres autorisés d’une catégorie sur Ventes, seuls les groupes et les utilisateurs de cette liste de distribution peuvent être ajoutés en tant que membres aux salles de conversation de cette catégorie. La propriété Creators vous permet de contrôler qui peut créer des salles de conversation dans cette catégorie. Une fois la salle de conversation créée, toute personne du groupe AllowedMembers peut être désignée comme responsable des opérations de gestion en cours sur les salles (par exemple, modification de l’appartenance et approbation).
   
@@ -36,18 +36,18 @@ La définition de AllowedMembers et Créateurs pour une catégorie comporte les 
     
 Les utilisateurs, les unités d’organisation et les groupes d’utilisateurs identifiés comme créateurs de la catégorie sont les seuls individus et groupes autorisés à créer des salles dans la catégorie. Une fois la catégorie créée, vous pouvez choisir des utilisateurs, des utilisateurs et des groupes d’utilisateurs dans la liste AllowedMembers de la catégorie en tant que responsables et membres de salle de conversation pour gérer et participer à la salle. 
   
-Avant de configurer les catégories, veillez à lire les catégories de conversation permanente, les salles de conversation et les rôles d’utilisateur dans Skype Entreprise [Server 2015.](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)
+Avant de configurer les catégories, veillez à lire les catégories de conversation permanente, les salles de conversation et les rôles d’utilisateur dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)
   
-Vous pouvez configurer et gérer des catégories à l’aide du Panneau de configuration ou à l’aide Windows PowerShell cmdlets.
+Vous pouvez configurer et gérer des catégories à l’aide du Panneau de configuration ou d’Windows PowerShell cmdlets.
 
 > [!NOTE]
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Configurer des catégories à l’aide du Panneau de configuration
 
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Catégorie**.
     
@@ -79,7 +79,7 @@ Vous pouvez configurer et gérer des catégories à l’aide du Panneau de confi
     
 8. Cliquez sur **Valider**.
     
-## <a name="configure-categories-by-using-windows-powershell"></a>Configurer des catégories à l’aide de Windows PowerShell
+## <a name="configure-categories-by-using-windows-powershell"></a>Configurer des catégories à l’aide Windows PowerShell
 
 Vous pouvez configurer des catégories à l’aide des cmdlets Windows PowerShell suivantes :
   
@@ -105,7 +105,7 @@ Vous pouvez configurer les paramètres suivants pour les catégories :
     
 - DeniedMembers. Liste les utilisateurs qui ne sont pas autorisés à accéder aux salles de conversation de la catégorie.
     
-Pour obtenir des informations complètes sur la syntaxe des cmdlet, y compris tous les paramètres, voir [Skype Entreprise Server 2015 Management Shell](../management-shell.md).
+Pour plus d’informations sur la syntaxe de cmdlet, y compris tous les paramètres, voir [Skype Entreprise Server 2015 Management Shell](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>Créer une catégorie
 

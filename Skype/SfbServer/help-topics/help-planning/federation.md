@@ -1,5 +1,5 @@
 ---
-title: Federation (Planning Tool)
+title: Outil de planification de la fédération Lync Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 description: Les serveurs Edge peuvent être configurés pour permettre à vos utilisateurs internes et externes d’accéder aux contacts au niveau des organisations ou services partenaires.
-ms.openlocfilehash: 290de3666318750f766cc57a1c771fa520597320
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 05683829abf10d090062a43dd48a2405e900ef07
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772385"
 ---
-# <a name="federation-planning-tool"></a>Federation (Planning Tool)
+# <a name="lync-server-federation-planning-tool"></a>Outil de planification de la fédération Lync Server
  
 Les serveurs Edge peuvent être configurés pour permettre à vos utilisateurs internes et externes d’accéder aux contacts au niveau des organisations ou services partenaires.
   

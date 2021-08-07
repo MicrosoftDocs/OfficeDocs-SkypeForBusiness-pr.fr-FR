@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le parc d’appels et récupérer pour mettre un appel en attente dans Microsoft Teams.
-ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772605"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -53,7 +53,7 @@ Pour activer une stratégie de parc d’appels
 
 1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez à **Stratégies**  >  **de parc d’appel vocal.**
 2. Sous **l’onglet Gérer les stratégies,** cliquez sur **Ajouter.**
-3. Donnez un nom à la stratégie, puis basculez **l’accès au parc d’appels** **sur On.**
+3. Donnez un nom à la stratégie, puis basculez **l’accès au parc d’appels** **sur On.** (La plage d’appel et le délai d’appel ne peuvent pas être personnalisés.)
 
     ![Capture d’écran des paramètres de stratégie de parc d’appel](media/call-park-add-policy.png)
 
@@ -74,7 +74,7 @@ Pour affecter une stratégie de parc d’appels à un groupe
 
 5. Sélectionnez **Appliquer.**
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Par parcer un appel dans Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

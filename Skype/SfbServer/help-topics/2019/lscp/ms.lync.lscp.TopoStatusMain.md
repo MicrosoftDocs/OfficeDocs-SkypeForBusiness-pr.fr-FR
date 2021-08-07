@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'La page Topologie : État affiche l’état des serveurs dans votre topologie Skype Entreprise.'
-ms.openlocfilehash: c324f56304ef6b5cb0d34686d4c89e914d03f8e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'La page Topologie : État affiche l’état des serveurs dans Skype Entreprise topologie.'
+ms.openlocfilehash: 81a91df2e3a7953204b305f2a09e7e2d2347584c8faee1d202e17aed3f012154
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277389"
 ---
 # <a name="topology-status"></a>Topologie : état
 
-La **page Topologie**: **État** affiche l’état des serveurs dans votre topologie Skype Entreprise.
+La **page Topologie**: **État** affiche l’état des serveurs dans Skype Entreprise topologie.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 

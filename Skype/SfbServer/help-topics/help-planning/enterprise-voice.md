@@ -1,5 +1,5 @@
 ---
-title: Voix Entreprise (Planning Tool)
+title: Skype Entreprise Server Voix Entreprise de planification
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,17 +16,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: Avec Voix Entreprise, Skype Entreprise Server 2015 propose une offre VoIP (Voice over Internet Protocol) autonome pour améliorer ou remplacer les systèmes PBX traditionnels. Voix Entreprise utilisateurs peuvent appeler des collègues sur le réseau VoIP ou le PBX de votre organisation, et ils peuvent appeler des numéros de téléphone traditionnels en dehors de votre organisation. La solution Voix Entreprise inclut des fonctionnalités d’appel courantes telles que la réponse, le transfert, le transfert, la mise en attente, le transfert, le transfert, la libération et le parc. Les appels Enhanced 9-1-1 (E9-1-1) sont disponibles uniquement aux États-Unis.) Voix Entreprise prend également en charge un large éventail de périphériques IP et USB actuels et plus anciens.
-ms.openlocfilehash: ec06d38e52278057de08e022be6008b88c59b2d3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f0bf6048141f2273799b843d17df72d9c51141d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800064"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772565"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Voix Entreprise (Planning Tool)
+# <a name="skype-for-business-server-enterprise-voice-planning-tool"></a>Skype Entreprise Server Voix Entreprise de planification
  
 Avec Voix Entreprise, Skype Entreprise Server 2015 propose une offre VoIP (Voice over Internet Protocol) autonome pour améliorer ou remplacer les systèmes PBX traditionnels. Voix Entreprise utilisateurs peuvent appeler des collègues sur le réseau VoIP ou le PBX de votre organisation, et ils peuvent appeler des numéros de téléphone traditionnels en dehors de votre organisation. La solution Voix Entreprise inclut des fonctionnalités d’appel courantes telles que la réponse, le transfert, le transfert, la mise en attente, le transfert, le transfert, la libération et le parc. Les appels Enhanced 9-1-1 (E9-1-1) sont disponibles uniquement aux États-Unis.) Voix Entreprise prend également en charge un large éventail de périphériques IP et USB actuels et plus anciens.
   
-Pour plus d’informations sur la planification Voix Entreprise, voir [Plan for Voix Entreprise in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Pour plus d’informations sur le déploiement d’un serveur de médiation autonome, voir [Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Pour plus d’informations sur la planification Voix Entreprise, voir [Plan for Voix Entreprise in Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md). Pour plus d’informations sur le déploiement d’un serveur de médiation autonome, voir [Deploy a Mediation Server in Topology Builder in Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

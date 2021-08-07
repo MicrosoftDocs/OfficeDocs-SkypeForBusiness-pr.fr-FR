@@ -1,5 +1,5 @@
 ---
-title: Rapport de tendance générale de l’emplacement dans Skype Entreprise Server
+title: Rapport de tendance de l’emplacement Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
-description: 'Résumé : Découvrez le rapport de tendance générale des emplacements dans Skype Entreprise Server.'
-ms.openlocfilehash: cde443757da903daa261d12fd34f50a9288870d0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez le rapport de tendance générale des emplacements Skype Entreprise Server.'
+ms.openlocfilehash: 1ca84e4122c26743cfc97addad6c3ef09d568a28b838e1b93dc1f4e900d2e48a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276769"
 ---
-# <a name="location-trend-report-in-skype-for-business-server"></a>Rapport de tendance générale de l’emplacement dans Skype Entreprise Server
+# <a name="location-trend-report-in-skype-for-business-server"></a>Rapport de tendance de l’emplacement Skype Entreprise Server
  
-**Résumé :** Découvrez le rapport de tendance générale de l’emplacement dans Skype Entreprise Server.
+**Résumé :** Découvrez le rapport de tendance générale des emplacements Skype Entreprise Server.
   
 Le rapport de tendance générale des emplacements fournit des informations de tendance sur la qualité des appels pour les emplacements réseau.
   
@@ -36,7 +36,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début le 1/1/2011 et une date de fin le 28/2/2011, les données s’affichent pour les jours compris entre le 1/8/2011 à minuit et le 1/9/2011 à minuit (c’est-à-dire, un total de 31 jours de données). <br/> |
 |**Type d’accès** <br/> | Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Interne <br/>  Externe <br/> |
 |**Type de réseau** <br/> | Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Câblé <br/>  Sans fil <br/> |

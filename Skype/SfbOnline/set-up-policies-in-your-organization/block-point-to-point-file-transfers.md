@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Dans Skype Entreprise Online, vous avez la possibilité de contrôler les transferts de fichiers de point à point (P2P) dans le cadre des paramètres de stratégie de conférence existants. Toutefois, cela permet ou bloque les transferts de fichiers pour les utilisateurs, qu’ils transférent ou non des fichiers à un utilisateur de la même organisation ou à un utilisateur fédéré d’une autre organisation. En suivant les étapes ci-dessous, vous pouvez bloquer les transferts de fichiers P2P avec des organisations ou partenaires fédérés.
-ms.openlocfilehash: e20cf0d5ff7a884e81fe2ee5de57ed026c53552e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f09f67793303d393b24cb40077fd3dd3b16d38f278460a2f4d747ef67b97aa96
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306197"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquer les transferts de fichiers point à point
 
@@ -56,7 +56,7 @@ Pour que cela fonctionne, l’utilisateur doit utiliser une version prise en cha
 ## <a name="start-windows-powershell"></a>Démarrer Windows PowerShell
 
 > [!NOTE]
-> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
@@ -101,7 +101,7 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
   - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -109,7 +109,7 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

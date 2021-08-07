@@ -1,5 +1,5 @@
 ---
-title: Supprimer une collection existante de paramètres de configuration cdR dans Skype Entreprise Server
+title: Supprimer une collection existante de paramètres de configuration d’Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
-description: 'Résumé : Découvrez comment supprimer les paramètres de configuration de l’cdr dans Skype Entreprise Server.'
-ms.openlocfilehash: 3ac961df352f26891ece9c69b7d62b37c4c015d6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment supprimer les paramètres de configuration de l’Skype Entreprise Server.'
+ms.openlocfilehash: ad23743e6361a0931499c373e337bb9869738fa8e00d5d856ad272e96798655b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276819"
 ---
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Supprimer une collection existante de paramètres de configuration d’cdr dans Skype Entreprise Server
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Supprimer une collection existante de paramètres de configuration d’Skype Entreprise Server
  
-**Résumé :** Découvrez comment supprimer les paramètres de configuration de l’cdr dans Skype Entreprise Server.
+**Résumé :** Découvrez comment supprimer les paramètres de configuration de l’Skype Entreprise Server.
   
 L’enregistrement des détails des appels permet d’assurer le suivi des sessions de messagerie instantanée d’égal à égal, des appels téléphoniques VoIP (Voice over Internet Protocol) et des téléconférences. Ces données d’utilisation permettent de savoir qui appelle qui, à quelle heure et la durée de la communication.
   
@@ -29,21 +29,21 @@ Lorsque vous installez Skype Entreprise Server, une collection unique et globale
   
 Notez que vous pouvez également « supprimer » les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, la purge par défaut est activée dans une collection de paramètres de configuration d’cdr. Supposons que vous modifiez la collection globale pour que la purge soit désactivée. Si vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que la purge sera de nouveau activée.
   
-Vous pouvez supprimer les paramètres de configuration de l’cdr à l’aide du Panneau de configuration de Skype Entreprise Server ou de l’cmdlet [Remove-CsCdrConfiguration.](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)
+Vous pouvez supprimer les paramètres de configuration de l’Skype Entreprise Server à l’aide du Panneau de configuration Skype Entreprise Server ou de l’cmdlet [Remove-CsCdrConfiguration.](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps)
   
-### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration de l’cdr avec le Panneau de configuration de Skype Entreprise Server
+### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration d’Skype Entreprise Server cdr avec le Panneau de configuration
 
-1. Dans le Panneau de contrôle Skype Entreprise Server, cliquez **sur Surveillance et archivage.** 
+1. Dans Skype Entreprise Server de contrôle, cliquez **sur Surveillance et archivage.** 
     
 2. Sous l’onglet **Enregistrement des détails des appels**, sélectionnez la collection (ou les collections) de paramètres CDR à supprimer. Pour sélectionner plusieurs collections, cliquez sur la première collection, maintenez la touche Ctrl enfoncée, puis cliquez sur les autres.
     
 3. Cliquez sur **Modifier**, puis sur **Supprimer**.
     
-4. Dans la boîte de dialogue Panneau de contrôle Skype Entreprise Server, cliquez sur **OK.**
+4. Dans la boîte Skype Entreprise Server panneau de Skype Entreprise Server, cliquez sur **OK.**
     
-## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration cdR à l’aide Windows PowerShell cmdlets
+## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration cdR à l’Windows PowerShell cmdlets
 
-Vous pouvez supprimer les paramètres de configuration de l’enregistrement des détails des appels à l’Windows PowerShell et à l’aide de l’cmdlet **Remove-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion [de Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez supprimer les paramètres de configuration de l’enregistrement des détails des appels à l’aide Windows PowerShell’une cmdlet **Remove-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>Pour supprimer une collection spécifique de paramètres de configuration CDR
 

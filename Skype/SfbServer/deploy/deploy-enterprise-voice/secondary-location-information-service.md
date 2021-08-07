@@ -1,5 +1,5 @@
 ---
-title: Configurer un service informations d’emplacement secondaire dans Skype Entreprise Server
+title: Configurer un service Informations d’emplacement secondaire dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Configurez une base de données SLS (Secondary Location Source) pour E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 7a81d8573ca0425d4d445dc00f257f014a39d8c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fe548c30dd7f90f854143a9d3e8261214f9c837a692a0afe07173ac98a730b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305896"
 ---
-# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Configurer un service informations d’emplacement secondaire dans Skype Entreprise Server
+# <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Configurer un service Informations d’emplacement secondaire dans Skype Entreprise Server
  
 Configurez une base de données SLS (Secondary Location Source) pour E9-1-1 dans Skype Entreprise Server Voix Entreprise. 
   
@@ -31,7 +31,7 @@ Skype Entreprise Server fournit une interface de service web que vous pouvez uti
   
 ### <a name="to-configure-a-secondary-location-database"></a>Pour configurer une base de données d’emplacements secondaires
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 2. Exécutez l’applet de commande suivante pour configurer l’URL de l’emplacement de la base de données d’emplacements secondaires. 
     

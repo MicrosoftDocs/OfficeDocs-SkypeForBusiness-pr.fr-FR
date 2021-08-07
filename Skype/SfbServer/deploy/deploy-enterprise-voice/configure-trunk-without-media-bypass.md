@@ -1,5 +1,5 @@
 ---
-title: Configurer une trunk sans déviation du média dans Skype Entreprise Server
+title: 'Skype Entreprise Server : configurer une trunk sans contournement de média'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Résumé : Configurez une trunk sans la déviation du média activée pour Skype Entreprise Server.'
-ms.openlocfilehash: ff1c34e36906c8b9f5c88495e3c24239f572184a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4cf17da7233697d31f386501be6f7089bf803205
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772425"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer une trunk sans déviation du média dans Skype Entreprise Server
+# <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype Entreprise Server : configurer une trunk sans contournement de média
 
 **Résumé :** Configurez une trunk sans déviation du média activée pour Skype Entreprise Server.
 
-Pour configurer une jonction sur laquelle le contournement de média est désactivé, procédez comme suit. Si vous souhaitez configurer une trunk avec la déviation du média activée, voir [Configure a trunk with media bypass in Skype for Business Server](configure-trunk-with-media-bypass.md).
+Pour configurer une jonction sur laquelle le contournement de média est désactivé, procédez comme suit. Si vous souhaitez configurer une trunk avec la déviation du média activée, voir [Configure a trunk with media bypass in Skype Entreprise Server](configure-trunk-with-media-bypass.md).
 
 Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de paramètres appliqués aux jonctions affectées à cette configuration de jonction. Une configuration de jonction spécifique peut s’étendre au niveau global (à toutes les jonctions qui ne disposent plus d’une configuration de site ou de pool spécifique) ou au niveau d’un site ou d’un pool. La configuration de jonction au niveau du pool est utilisée pour étendre une configuration de jonction spécifique à une jonction unique.
 
 ### <a name="to-configure-a-trunk-without-media-bypass"></a>Pour configurer une jonction sans contournement de média
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de contrôle.
 
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Configuration de la jonction**.
 
@@ -64,7 +64,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 
 7. Si l’homologue de la passerelle prend en charge la réception de demandes SIP REFER à partir du serveur de médiation, activez la case à cocher Activer l’envoi pour **la** passerelle.
 
-8. (Facultatif) Pour permettre le routage interjonction, associez et configurez les enregistrements d’utilisation PSTN à la configuration de cette jonction. Les utilisations PSTN associées à cette configuration de trunk seront appliquées pour tous les appels entrants via la trunk qui ne provient pas d’un point de terminaison Skype Entreprise Server. Pour gérer les enregistrements d’utilisation PSTN associés à une configuration de jonction, utilisez l’une des méthodes suivantes :
+8. (Facultatif) Pour permettre le routage interjonction, associez et configurez les enregistrements d’utilisation PSTN à la configuration de cette jonction. Les utilisations PSTN associées à cette configuration de Skype Entreprise Server sont appliquées pour tous les appels entrants via la Skype Entreprise Server point de terminaison. Pour gérer les enregistrements d’utilisation PSTN associés à une configuration de jonction, utilisez l’une des méthodes suivantes :
 
    - Pour sélectionner un ou plusieurs enregistrements dans une liste de tous les enregistrements d’utilisation PSTN disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner.** Sélectionnez les enregistrements à associer à cette configuration de jonction, puis cliquez sur **OK**.
 
@@ -85,7 +85,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 
      - Pour supprimer un itinéraire de l’enregistrement d’utilisation PSTN, sélectionnez l’itinéraire et cliquez sur **Supprimer**.
 
-     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
      - Pour modifier un itinéraire associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
@@ -101,25 +101,25 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 
      - Pour supprimer un itinéraire de l’enregistrement d’utilisation PSTN, sélectionnez l’itinéraire et cliquez sur **Supprimer**.
 
-     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
      - Pour modifier un itinéraire associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
      c. Cliquez sur **OK**.
 
      > [!IMPORTANT]
-     > Il est important d’associer les enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation associé à la trunk en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de la connexion ne soit pas associée à un enregistrement d’utilisation PSTN qui approvisionnement vers une destination PSTN ou tout autre système en aval connecté via Skype Entreprise Server.
+     > Il est important d’associer des enregistrements d’utilisation PSTN en fonction de l’homologue du serveur de médiation associé à la trunk en cours de configuration. Si l’homologue du serveur de médiation est une passerelle PSTN ou un contrôleur de frontière de session (SBC), il est vivement recommandé que la configuration de la connexion ne soit pas associée à un enregistrement d’utilisation PSTN qui approvisionnement vers une destination PSTN ou tout autre système en aval connecté via Skype Entreprise Server.
 
 9. Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, sélectionnez l’enregistrement d’utilisation PSTN, puis cliquez sur les flèches vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > L’ordre des enregistrements d’utilisation PSTN dans la liste de la configuration de jonction a son importance. Skype Entreprise Server parcourt la liste de haut en bas.
+    > L’ordre des enregistrements d’utilisation PSTN dans la liste de la configuration de jonction a son importance. Skype Entreprise Server la liste de haut en bas.
 
 10. **Activer l’accrochage RTP** doit être sélectionné pour activer la déviation du trafic multimédia pour les clients se trouvant derrière une NAT ou un pare-feu et un contrôleur SBC prenant en charge l’accrochage.
 
 11. **Activez l’historique des** appels de transmission pour permettre l’envoi d’informations d’historique des appels à l’homologue de passerelle du serveur de médiation.
 
-12. **Activez le forward P-Asserted-Identity** pour que les informations d’origine de l’appel PAI soient transmis entre le serveur de médiation et le côté passerelle (et vice versa), le cas présent.
+12. **Activez le forward P-Asserted-Identity** pour que les informations d’origine de l’appel PAI soient transmis entre le serveur de médiation et le côté passerelle (et vice versa), le cas contraire.
 
 13. **Activer le minuteur de basculement de routage de trafic sortant** doit être sélectionné pour permettre un basculement rapide. La passerelle associée à cette jonction peut informer dans les 10 secondes du traitement de l’appel sortant. Le réroutage vers une autre ligne se produit si cette notification n’est pas reçue par le serveur de médiation. Sur des réseaux avec une latence qui peut retarder le temps de réponse ou si la passerelle prend plus de 10 secondes à répondre, le basculement rapide doit être désactivé.
 
@@ -127,7 +127,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 
     - Pour choisir une ou plusieurs règles dans une liste de toutes les règles de traduction disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner.** Dans **Sélectionner les règles de traduction**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
 
-    - Si vous voulez définir une nouvelle règle de traduction et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, voir [Règles de traduction dans Skype Entreprise Server.](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+    - Si vous voulez définir une nouvelle règle de traduction et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, voir Règles de [traduction dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
     - Pour modifier une règle de traduction associée à une jonction, cliquez sur son nom, puis sur **Afficher les détails**.
 
@@ -142,7 +142,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 
     - Pour choisir une ou plusieurs règles dans une liste de toutes les règles de traduction disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner.** Dans **Sélectionner les règles de traduction**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.
 
-    - Si vous voulez définir une nouvelle règle de traduction et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, voir [Règles de traduction dans Skype Entreprise Server.](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)
+    - Si vous voulez définir une nouvelle règle de traduction et l’associer à la jonction, cliquez sur **Nouvelle**. Pour plus d’informations sur les règles de traduction, voir Règles de [traduction dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md).
 
     - Pour modifier une règle de traduction associée à une jonction, cliquez sur son nom, puis sur **Afficher les détails**.
 
@@ -163,10 +163,10 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 18. Dans la page **Configuration de la jonction**, cliquez sur **Valider**, puis sur **Valider tout**.
 
     > [!NOTE]
-    > À chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir Publier les modifications en attente de la configuration du [routage](voice-route-config-changes.md) des voix dans Skype Entreprise dans la documentation des opérations.
+    > À chaque fois que vous créez ou modifiez une configuration de jonction, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configuration d’une trunk avec déviation du média dans Skype Entreprise Server](configure-trunk-with-media-bypass.md)
+[Configurer une trunk avec déviation du média dans Skype Entreprise Server](configure-trunk-with-media-bypass.md)
 
 [Définition des règles de traduction](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)

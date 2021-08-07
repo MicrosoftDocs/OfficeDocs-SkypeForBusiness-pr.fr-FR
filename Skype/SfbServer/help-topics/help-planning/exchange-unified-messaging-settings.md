@@ -1,5 +1,5 @@
 ---
-title: Paramètres de messagerie unifiée Exchange (outil de planification)
+title: Skype Entreprise Server Exchange outil de planification de Paramètres messagerie unifiée
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.
-ms.openlocfilehash: 7f73e3ea6f7033103242c9ff8ee425963e9f6729
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype Entreprise Server prend en charge l’intégration Exchange messagerie unifiée pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.
+ms.openlocfilehash: e17be4642c2d9d09cc0468a49fde024f2ccd19fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772585"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Paramètres de messagerie unifiée Exchange (outil de planification)
+# <a name="skype-for-business-server-exchange-unified-messaging-settings-planning-tool"></a>Skype Entreprise Server Exchange outil de planification de Paramètres messagerie unifiée
 
 Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.
 
-Pour obtenir des informations détaillées, voir :
+Pour obtenir des informations détaillées, voir :
 
 - [Planification de l’intégration de la messagerie unifiée Exchange](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)
 

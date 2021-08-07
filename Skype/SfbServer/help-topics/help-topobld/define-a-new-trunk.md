@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 description: 'Vous définissez une nouvelle jonction (SIP) en fournissant les informations suivantes :'
-ms.openlocfilehash: 1b58da8880c65b0beecbd2756d0b5a5028f45e19
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c799062cfb303a121d4fd666a9197cb12a296669799306a278c6e1d73f636c20
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095588"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305496"
 ---
 # <a name="define-a-new-trunk"></a>Définir une nouvelle jonction
 
@@ -40,6 +40,6 @@ Vous définissez une nouvelle jonction (SIP) en fournissant les informations sui
 
 ## <a name="see-also"></a>Voir aussi
 
-[M:N trunk in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
+[M:N trunk in Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 
 [Comment implémenter une trunking SIP ?](/previous-versions/office/lync-server-2013/lync-server-2013-how-do-i-implement-sip-trunking)

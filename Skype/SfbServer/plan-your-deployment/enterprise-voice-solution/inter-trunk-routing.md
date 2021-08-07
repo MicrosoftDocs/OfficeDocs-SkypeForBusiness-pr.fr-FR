@@ -1,5 +1,5 @@
 ---
-title: Routage inter-acheminements dans Skype Entreprise Server
+title: À propos du routage inter-Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Découvrez comment Skype Entreprise Server Voix Entreprise prend en charge le routage inter-acheminements.
-ms.openlocfilehash: fc03f0df530be12ad1d08148850c11d8f92a2791
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e064aa5a182a5c2a800fad0e51e864b66d1dcf9c
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825595"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724687"
 ---
-# <a name="inter-trunk-routing-in-skype-for-business-server"></a>Routage inter-acheminements dans Skype Entreprise Server
+# <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>À propos du routage inter-Skype Entreprise Server
  
 Découvrez comment Skype Entreprise Server Voix Entreprise prend en charge le routage inter-acheminements.
   
-Skype Entreprise Server offre une gestion de session de base par le biais de la prise en charge du routage entre les éléments. Cela permet à Skype Entreprise Server de fournir des fonctionnalités de contrôle des appels aux systèmes téléphoniques en aval. Le routage entre les connexions peut interconnecter un SYSTÈME IP-PBX à une passerelle de réseau téléphonique commuté (PSTN) afin que les appels provenant d’un téléphone PBX (autoconnexion privé) soient acheminés vers le réseau téléphonique commuté et que les appels PSTN entrants soient acheminés vers un téléphone PBX. De même, Skype Entreprise Server peut interconnecter au moins deux systèmes IP-PBX afin que les appels soient passé et reçus entre des téléphones PBX à partir des différents systèmes IP-PBX. 
+Skype Entreprise Server gestion des sessions de base via la prise en charge du routage entre les éléments. Cela permet aux Skype Entreprise Server de fournir des fonctionnalités de contrôle des appels aux systèmes téléphoniques en aval. Le routage entre les connexions peut interconnecter un SYSTÈME IP-PBX à une passerelle de réseau téléphonique commuté (PSTN) afin que les appels provenant d’un téléphone PBX (autoconnexion privé) soient acheminés vers le réseau téléphonique commuté et que les appels PSTN entrants soient acheminés vers un téléphone PBX. De même, Skype Entreprise Server peut interconnecter au moins deux systèmes IP-PBX afin que les appels soient passé et reçus entre des téléphones PBX à partir des différents systèmes IP-PBX. 
   
-La figure suivante illustre Skype Entreprise Server fournissant une interconnectivité entre une passerelle PSTN et un système IP-PBX.
+La figure suivante illustre Skype Entreprise Server l’interconnectivité entre une passerelle PSTN et un SYSTÈME IP-PBX.
   
 ![Diagramme Lync Server connectant la passerelle PSTN/IP-PBX](../../media/inter_trunk01.jpg)
   
-La figure suivante illustre la connexion de deux systèmes IP-PBX à Skype Entreprise Server.
+La figure suivante illustre la Skype Entreprise Server deux systèmes IP-PBX.
   
 ![Diagramme Lync Server interconnectant les systèmes IP-PAX](../../media/inter_trunk02.jpg)
   

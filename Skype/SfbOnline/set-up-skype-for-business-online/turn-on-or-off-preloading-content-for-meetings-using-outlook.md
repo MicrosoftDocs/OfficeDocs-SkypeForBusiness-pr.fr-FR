@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: b6ff40e34c6459a75d0b79a8d750902a3457e00d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 212491b6a21cb2586237bc3ba8d5bf48382e23d888af044f40908b73ff0fbc9c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304616"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Activation ou désactivation de l'autorisation de préchargement de contenu pour les réunions à l'aide d'Outlook
 
@@ -40,7 +40,7 @@ Les utilisateurs peuvent précharger du contenu, des fichiers ou des pièces joi
 ## <a name="start-windows-powershell"></a>Démarrer Windows PowerShell
 
 > [!NOTE]
-> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
@@ -82,7 +82,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Six raisons d’utiliser des Windows PowerShell pour gérer des Microsoft 365 ou des Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -90,7 +90,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

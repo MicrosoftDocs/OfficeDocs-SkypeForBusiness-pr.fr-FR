@@ -11,32 +11,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
-description: Lisez cette rubrique pour découvrir comment affecter des stratégies de conférence pour les comptes Skype Room System.
-ms.openlocfilehash: 3fb462168bd4121f5feef365f881ed9f02620e25
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Lisez cette rubrique pour découvrir comment affecter des stratégies de conférence pour Skype comptes Room System.
+ms.openlocfilehash: 7f9d1e349563e20d29736d33900b4afce99f39c10b9222b23d291f5a9fa417b7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306016"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Stratégie de conférence pour les comptes Skype Room System
  
-Lisez cette rubrique pour découvrir comment affecter des stratégies de conférence pour les comptes Skype Room System.
+Lisez cette rubrique pour découvrir comment affecter des stratégies de conférence pour Skype comptes Room System.
   
 ## <a name="conferencing-policy-features"></a>Fonctionnalités de stratégie de conférence
 
-La stratégie de conférence attribuée au compte Skype Room System doit avoir certaines caractéristiques. La plupart du temps, le client Skype Room System participe à une réunion programmée et, par conséquent, la stratégie de conférence de l’organisateur de la réunion affecte la conférence. Toutefois, dans Skype Entreprise Server, certaines fonctionnalités dépendent de la configuration du participant. Par exemple, si la stratégie du participant autorise une résolution vidéo maximale de 1080 p, les participants auront besoin de cette fonctionnalité vidéo de résolution supérieure dans la conférence, même si la stratégie de l’organisateur ne l’autorise pas. Le tableau suivant décrit plusieurs de ces paramètres que vous devez connaître lors de la configuration des stratégies de conférence pour les comptes Skype Room System dans votre organisation. 
+La stratégie de conférence attribuée au compte Skype Room System doit avoir certaines caractéristiques. La plupart du temps, le client Skype Room System rejoint une réunion programmée et, par conséquent, la stratégie de conférence de l’organisateur de la réunion affecte la conférence. Toutefois, Skype Entreprise Server, certaines fonctionnalités dépendent de la configuration du participant. Par exemple, si la stratégie du participant autorise une résolution vidéo maximale de 1080 p, les participants auront besoin de cette fonctionnalité vidéo de résolution supérieure dans la conférence, même si la stratégie de l’organisateur ne l’autorise pas. Le tableau suivant décrit plusieurs paramètres de ce type que vous devez connaître lors de la configuration des stratégies de conférence pour les comptes Skype Room System dans votre organisation. 
   
 |Fonctionnalité  <br/> |Valeur  <br/> |Commentaire  <br/> |
 |:-----|:-----|:-----|
-|AllowIPAudio  <br/> |TRUE  <br/> |Doit être vrai pour l’audio de Skype Room System  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |Doit être true pour que l’audio Skype Room System fonctionne dans les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
-|AllowMultiView  <br/> |TRUE  <br/> |Permet à Skype Room System d’afficher plusieurs flux vidéo multiviseurs  <br/> |
+|AllowIPAudio  <br/> |TRUE  <br/> |Doit être vrai pour le Skype Room System  <br/> |
+|AllowIPVideo  <br/> |TRUE  <br/> |Doit être true pour que Skype’audio Room System fonctionne dans les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
+|AllowMultiView  <br/> |TRUE  <br/> |Permet à Skype Room System de restituer plusieurs flux vidéo à plusieurs vues  <br/> |
 |AllowParticipantControl  <br/> |TRUE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |AllowAnnotations  <br/> |TRUE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |Dépend si le compte est activé Voix Entreprise (EV) (voir la section Activation des comptes Skype Room System pour Skype Entreprise)  <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |Dépend si le compte est activé Voix Entreprise (EV) (voir la section Activation Skype Room System pour Skype Entreprise)  <br/> |
 |AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |Dépend si le compte est activé Voix Entreprise (EV)  <br/> |
 |AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
@@ -45,12 +45,12 @@ La stratégie de conférence attribuée au compte Skype Room System doit avoir c
 |AllowPolls  <br/> |TRUE  <br/> |N/A dans les réunions Conférence maintenant (ad hoc), mais Skype Room System peut répondre aux sondages à l’écran à l’avant de la salle  <br/> |
 |AllowSharedNotes  <br/> |TRUE  <br/> |N/A dans les réunions Conférence maintenant (ad hoc), mais Skype Room System peut répondre aux sondages à l’écran à l’avant de la salle  <br/> |
 |EnableDialInConferencing  <br/> |TRUE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
-|EnableAppDesktopSharing  <br/> |Desktop  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
+|EnableAppDesktopSharing  <br/> |Bureau  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |N/A pour Skype Room System. Si la valeur est TRUE, une partie distante peut enregistrer  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |N/A pour Skype Room System. Si la valeur est TRUE, une partie distante peut enregistrer  <br/> |
 |EnableFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
 |EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
-|EnableP2PVideo  <br/> |TRUE  <br/> |Permet au client Skype Room System de participer à des sessions vidéo D’égal à égal  <br/> |
+|EnableP2PVideo  <br/> |TRUE  <br/> |Permet au client Skype Room System de participer à des sessions vidéo d’égal à égal  <br/> |
 |AllowLargeMeetings  <br/> |FALSE  <br/> |N/A  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Affecte les sessions de tableau blanc Conférence maintenant (ad hoc) dans Skype Room System  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Ignoré par Skype Entreprise Server, Skype Room System utilise HD1080  <br/> |
@@ -60,16 +60,16 @@ La stratégie de conférence attribuée au compte Skype Room System doit avoir c
 |AppSharingBitRateKb  <br/> |5000  <br/> |Voir la remarque à la fin du tableau\*  <br/> |
 |FileTransferBitRateKb  <br/> |5000  <br/> |N/A  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Nous vous recommandons de définir cette valeur aussi élevée que possible. La bande passante effective dépend des conditions réseau au moment des conférences.\*  <br/> |
-|EnableMultiViewJoin  <br/> |TRUE  <br/> |Doit être TRUE pour Skype Room System afin de garantir des flux vidéo à vue multiple  <br/> |
+|EnableMultiViewJoin  <br/> |TRUE  <br/> |Doit être TRUE pour Skype Room System pour garantir des flux vidéo multi-affichage  <br/> |
    
 * Pour plus d’informations sur la planification de la bande passante, voir [La bande passante réseau requise pour le trafic multimédia.](../../plan-your-deployment/network-requirements/network-requirements.md#network-bandwidth-requirements-for-media-traffic)
   
 > [!NOTE]
-> Si le client Skype Room System tente de participer à une réunion programmée organisée par un utilisateur qui est homed sur un pool Lync Server 2010, la stratégie de conférence de l’organisateur de la réunion peut empêcher le client Skype Room System d’effectuer une collaboration. 
+> Si le client Skype Room System tente de participer à une réunion programmée organisée par un utilisateur qui est homed sur un pool Lync Server 2010, la stratégie de conférence de l’organisateur de la réunion peut empêcher le client Skype Room System d’effectuer la collaboration. 
   
 ## <a name="meeting-authentication"></a>Authentification de réunion
 
-Skype Room System invite les utilisateurs à s’authentifier lorsqu’ils utilisent le lien de rejoindre une réunion pour participer à une réunion restreinte. par exemple, une réunion pour laquelle les options de salle d’accueil de réunion ont été configurées dans Outlook. Ce paramètre est toujours en cours pour les réunions personnalisées et les utilisateurs sont toujours invités. Toutefois, pour les réunions non restreintes, les utilisateurs peuvent participer à la réunion sans authentification. 
+Skype Le système de salle invite les utilisateurs à s’authentifier lorsqu’ils utilisent le lien de rejoindre une réunion pour participer à une réunion restreinte. par exemple, une réunion pour laquelle les options de salle d’Outlook. Ce paramètre est toujours en cours pour les réunions personnalisées et les utilisateurs sont toujours invités. Toutefois, pour les réunions non restreintes, les utilisateurs peuvent participer à la réunion sans authentification. 
   
 La commande suivante permet aux administrateurs d’exiger une authentification pour toutes les réunions, y compris les réunions non restreintes : 
   

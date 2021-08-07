@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, multimédias et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider dans la surveillance et la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: d6baa1b7cbaff690899945ac554d1a3bcf9ff170
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689692"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724957"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utilisez les fichiers journaux pour surveiller les données et résoudre les Microsoft Teams
 
@@ -48,7 +48,7 @@ Mac : sélectionnez le menu Aide, puis **sélectionnez Recueillir les fichiers d
 
 Les journaux de débogage, de bureau et multimédia sont collectés dans un dossier avec le nom Journal de diagnostic MSTeams. <local data and time> Ce dossier peut être compressé et partagé lorsque vous ouvrez une demande de support auprès du Support Microsoft. Le dossier contiendra des dossiers pour bureau, réunion (média) et débogage (web). Vous pouvez collecter les fichiers à l’aide des raccourcis clavier suivants :
 
-Windows : Crtl + Alt + Shift + 1
+Windows : Ctrl + Alt + Shift + 1
 
 Mac : Option + Commande + Shift + 1
 
@@ -85,7 +85,7 @@ Les journaux de débogage contiennent les flux de données suivants :
 
 Pour collecter les journaux pour Linux : raccourci clavier : Ctrl + Alt + Shift + 1 Les fichiers seront disponibles dans ~/Downloads
 
-Pour collecter des journaux pour le navigateur : Raccourci clavier : Crtl + Alt + Shift + 1 Les fichiers seront disponibles dans %userprofile%\Downloads
+Pour collecter des journaux pour le navigateur : Raccourci clavier : Ctrl + Alt + Shift + 1 Les fichiers seront disponibles dans %userprofile%\Downloads
 
 ## <a name="media-logs"></a>Journaux des médias
 

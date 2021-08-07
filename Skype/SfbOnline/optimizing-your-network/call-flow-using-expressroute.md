@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Cet article décrit les principes du flux d'appels pour Skype Entreprise Online et ExpressRoute, et vous présente des exemples détaillés de flux d'appels afin de vous permettre de comprendre et de planifier correctement.
-ms.openlocfilehash: bca31191356d127245d251117904c0a300862aa5
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 098949c41430bc939197a21373489b1aaa10c1678943d0ee695cd7ade02be142
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237160"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304636"
 ---
 # <a name="call-flow-using-expressroute"></a>Flux d'appels avec ExpressRoute
 
@@ -83,7 +83,7 @@ Le trafic réseau d Skype Entreprise Online est en deux grandes catégories, rep
 
 Les destinations de ce trafic sont trouvées dans les URL Office 365 et les [plages](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) d’adresses IP pour tous Microsoft 365 services Office 365'adresses IP. Pour chaque URL, elle indique si cette partie du trafic peut traverser ExpressRoute pour une Microsoft 365 ou une Office 365. Pour les diagrammes qui montrent qu’Internet est toujours utilisé pour une partie du trafic quand ExpressRoute est activé, consultez [Azure ExpressRoute pour Office 365.](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd) Il est important de comprendre que même les URL répertoriées comme routables sur ExpressRoute sont également routables sur Internet. Cela signifie que dans certains scénarios, le choix de l’utilisation d’Internet ou d’ExpressRoute dépend de l’emplacement du client et de la configuration des serveurs proxy et des pare-feu. Il est également important de comprendre que, dans la mesure où toutes les URL associées à Microsoft 365 ou Office 365 ne sont pas en mesure d’utiliser ExpressRoute, une connexion Internet est requise même si vous achetez ExpressRoute auprès d’un partenaire ExpressRoute.
 
-Le trafic qui ne peut être envoyé qu’via Internet inclut des dépendances Internet courantes, telles que les listes de révocation de certificats, les listes de choix et la résolution de noms DNS, les URL pour les services Microsoft 365 partagés ou Office 365, comme pour le centre d’administration Microsoft 365, ainsi que certaines fonctionnalités de communication en temps non réel d’Skype Entreprise Online, telles que la télémétrie et la fédération pour l’interopérabilité avec le grand public Skype, ainsi que des médias diffusés en continu pour la diffusion Réunion Skype. Afin de faciliter vos prises de décisions, reportez-vous à la section [Acheminement avec ExpressRoute pour Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) pour obtenir davantage de détails en vue de la planification du routage de votre réseau.
+Le trafic qui peut uniquement être envoyé sur Internet inclut des dépendances Internet courantes, telles que les listes de révocation de certificats, les listes de recherche et la résolution de noms DNS, les URL pour les services Microsoft 365 ou Office 365 partagés, comme pour les Centre d’administration Microsoft 365, ainsi que certaines fonctionnalités de communication en temps non réel d’Skype Entreprise Online, telles que la télémétrie et la fédération pour l’interopérabilité avec le grand public Skype, ainsi que des médias diffusés en continu pour Réunion Skype Broadcast. Afin de faciliter vos prises de décisions, reportez-vous à la section [Acheminement avec ExpressRoute pour Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) pour obtenir davantage de détails en vue de la planification du routage de votre réseau.
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>Principes du flux d'appels avec Skype Entreprise
 
@@ -234,6 +234,6 @@ Les utilisateurs qui se connectent à la version Cloud Connector sont tous domic
 |Appel RTC  <br/> |Utilisateur en ligne sur votre réseau utilisant la version Cloud Connector.  <br/> |local  <br/> |local  <br/> |[Appel RTC utilisant Skype Entreprise version Cloud Connector](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Appel RTC  <br/> |Utilisateur en ligne sur Internet utilisant la version Cloud Connector.  <br/> |Internet  <br/> |Internet  <br/> |Combinaison de serveur Edge sur site avec des [conférences](call-flow-using-expressroute.md#bk_Figure5) Microsoft 365 ou Office 365 et des appels [PSTN](call-flow-using-expressroute.md#bk_Figure6)utilisant Skype Entreprise Cloud Connector Edition.  <br/> |Les utilisateurs sur Internet se connecteront via le serveur Edge inclus dans Cloud Connector, et Cloud Connector se connectera au réseau RTC.  <br/> |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Documentation ExpressRoute](/azure/expressroute/)

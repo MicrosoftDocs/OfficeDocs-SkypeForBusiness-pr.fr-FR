@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 'Résumé : Découvrez comment supprimer les paramètres de qualité de l’expérience (QoE) dans Skype Entreprise Server.'
-ms.openlocfilehash: b48ddb9af715cd33b11d3c2f1c7ea90b3746aa4a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f97ed5fc1a59b68a4087406c14ad4414cc106ad25401322f025101f09aabe4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305426"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Supprimer les paramètres de configuration de la qualité de l’expérience dans Skype Entreprise Server
  
@@ -29,13 +29,13 @@ Lorsque vous installez Skype Entreprise Server, une collection globale et unique
   
 Notez que vous pouvez également « supprimer » les paramètres globaux. Cependant, les paramètres globaux ne seront pas réellement supprimés. Toutes les propriétés de la collection seront en revanche réinitialisées à leurs valeurs par défaut. Par exemple, la purge est activée par défaut dans une collection de paramètres de configuration QoE. Supposons que vous modifiez la collection globale pour que la purge soit désactivée. Si vous supprimez ultérieurement les paramètres globaux, toutes les propriétés seront réinitialisées à leurs valeurs par défaut. Dans ce cas, cela signifie que la purge sera de nouveau activée.
   
-Vous pouvez supprimer les paramètres de configuration QoE à l’aide du Panneau de configuration de Skype Entreprise Server ou de l’cmdlet [Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
+Vous pouvez supprimer les paramètres de configuration QoE à l’aide du Panneau de configuration Skype Entreprise Server ou de l’cmdlet [Remove-CsQoEConfiguration.](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)
   
-### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration QoE à l’aide du Panneau de configuration de Skype Entreprise Server
+### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration QoE à l’aide Skype Entreprise Server Panneau de configuration
 
 1.  Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus de détails, voir **Déléguer des autorisations de configuration**.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis cliquez sur **Données de qualité de l’expérience**.
     
@@ -43,9 +43,9 @@ Vous pouvez supprimer les paramètres de configuration QoE à l’aide du Pannea
     
 5. Cliquez sur **OK**.
     
-## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration QoE à l’aide Windows PowerShell cmdlets
+## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration QoE Paramètres l’aide Windows PowerShell cmdlets
 
-Vous pouvez supprimer les paramètres de configuration QoE à l’aide de Windows PowerShell et de l’cmdlet **Remove-CsQoEConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez supprimer les paramètres de configuration QoE à l’aide Windows PowerShell’une cmdlet **Remove-CsQoEConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>Pour supprimer une collection spécifiée de paramètres de configuration QoE
 

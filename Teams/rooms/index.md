@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Découvrez comment configurer des Salles Microsoft Teams, notamment planifier, déployer et gérer le système afin de créer votre salle de réunion virtuelle idéale.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: a809b2a0e66b391a001956dabddc2763915be14f
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: 56034a4e01b7bebd8c25efc8e15e8b7294fefa4f
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471478"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725087"
 ---
 # <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
 
@@ -43,6 +43,9 @@ ms.locfileid: "51471478"
 |    <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
 |  **[Plan](./rooms-plan.md)** |  **[Déployer](./rooms-deploy.md)** |  **[Gestion](./rooms-manage.md)** |
+
+
+[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
 > Salles Microsoft Teams est destiné à être utilisé avec Microsoft Teams, Skype Entreprise Online, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015.

@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personnalisez Skype invitations aux réunions avec des logos graphiques, des URL d’aide et juridiques, et du texte de pied de plan. '
-ms.openlocfilehash: 9998b2edb49b8b1c248fc388974051fe04c69051
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237520"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306177"
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
@@ -75,7 +75,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
     ![Voici à quoi ressemble une invitation personnalisée, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 <a name="__top"> </a>
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

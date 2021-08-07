@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Consultez Skype Entreprise la procédure en ligne pour affecter une licence de conférence rendez-vous et un ID de conférence à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 3a0f6d37612c345c8561fbd2a64b4c90fdb27957
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0bed95f9f5b8429dce52333046cd8c732c4bc0e9d94539d92c1e96f2d3284172
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306237"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gérer les paramètres d'Audioconférence de mon organisation dans Skype Entreprise Online
 
@@ -41,7 +41,7 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence Skyp
 ## <a name="assign-an-audio-conferencing-license"></a>Affecter une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences à l’aide du **Skype Entreprise d’administration.** Vous devez utiliser le Centre Microsoft 365'administration. Consultez [Attribuer des licences Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> Vous ne pouvez pas attribuer de licences à l’aide du **Skype Entreprise d’administration.** Vous devez utiliser l’Centre d’administration Microsoft 365. Consultez [Attribuer des licences Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **Pour attribuer une licence à un utilisateur**
 
@@ -333,6 +333,6 @@ Voici les paramètres au niveau de l’organisation :
 
     Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gestion des paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user.md)

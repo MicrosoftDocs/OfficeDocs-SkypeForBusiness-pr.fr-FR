@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Si votre déploiement hérité contenait un serveur d’archivage ou un serveur de surveillance, après la migration vers Skype Entreprise Server 2019, ces serveurs peuvent être supprimés de l’environnement hérité à condition que tous les utilisateurs soient supprimés des pools hérités restants. Vous pouvez supprimer le serveur d’archivage ou le serveur de surveillance dans n’importe quel ordre. La principale condition est que tous les utilisateurs aient été supprimés de tous les pools hérités restants.
-ms.openlocfilehash: f5f4da7f7ebf5772bc930d1f92ea3feb590465fd
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 204c68a50585bae033149ea75077ab0801b0bcc4aecb642c52fa96442bfc42ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752166"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304716"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Suppression des serveurs d’archivage et de surveillance hérités
 

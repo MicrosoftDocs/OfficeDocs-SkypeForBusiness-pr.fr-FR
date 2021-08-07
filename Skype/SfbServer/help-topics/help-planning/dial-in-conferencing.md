@@ -1,5 +1,5 @@
 ---
-title: Dial-in Conferencing (Planning Tool)
+title: Skype Entreprise Server Outil de planification des conférences téléphoniques
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
-description: Skype Entreprise Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.
-ms.openlocfilehash: 4b14193144dc8f1323fbc8ccdebf08409a8cfdaa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Entreprise Server 2015 permet aux utilisateurs de participer à la partie audio d’une conférence Skype Entreprise Server 2015 à l’aide d’un téléphone PSTN (réseau téléphonique commuté) sans avoir besoin d’un fournisseur de services d’audioconférence tiers.
+ms.openlocfilehash: 538141da2f3b1ff6239079f6255a6f73d687fe62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772895"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
+# <a name="skype-for-business-server-dial-in-conferencing-planning-tool"></a>Skype Entreprise Server Outil de planification des conférences téléphoniques
  
-Skype Entreprise Server 2015 dial-in conferencing enables users to join the audio portion of a Skype for Business Server 2015 conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.
+Skype Entreprise Server 2015 permet aux utilisateurs de participer à la partie audio d’une conférence Skype Entreprise Server 2015 à l’aide d’un téléphone PSTN (réseau téléphonique commuté) sans avoir besoin d’un fournisseur de services d’audioconférence tiers.
   
 Pour plus d’informations sur la planification de l’activation de la conférence rendez-vous pour votre organisation, consultez les rubriques suivantes et les rubriques vers qui il est lié : 
   

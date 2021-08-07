@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 description: Utilisez cet Assistant pour définir le nouveau pool frontal d’un site. Chaque site doit avoir au moins un pool Enterprise Edition ou un serveur Standard Edition. Pour plus d’informations sur les exigences relatives à l’utilisation de l’Assistant pour créer un pool frontal, voir Define and Configure a Front End Pool dans la documentation de déploiement.
-ms.openlocfilehash: 5134c77c15616675a860e137ae8e724407f38869
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5fe3a8d2c234f7548f2bf90b5fef3d4fdc6b653159bd60d39c3cb0e8794a53fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106860"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276979"
 ---
 # <a name="front-end-start-page"></a>Page de création du pool frontal
 

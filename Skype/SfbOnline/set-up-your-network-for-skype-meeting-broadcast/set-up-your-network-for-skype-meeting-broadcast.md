@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: da27110313765bb50df92e3bafb6f09ceae5f301
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237550"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725357"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurer votre réseau pour la Diffusion de réunion Skype
 
@@ -43,9 +43,7 @@ Pour ignorer cette étape et ajouter une autre entreprise à votre fédération 
 
 Pour **configurer** des domaines autorisés, utilisez l’une des méthodes suivantes :
 
-## #
-
- **Méthode 1 : utiliser le Centre d’administration**
+### <a name="method-1-use-the-admin-center"></a>Méthode 1 : utiliser le Centre d’administration
 
 1. Dans le Centre d’administration, dans le navigation gauche, cliquez sur **Paramètres**  >  **&amp; services,** puis sélectionnez **Skype Entreprise.**
 
@@ -61,9 +59,7 @@ Pour **configurer** des domaines autorisés, utilisez l’une des méthodes suiv
 
 3. Cliquez sur **Enregistrer**.
 
-## #
-
- **Méthode 2 : utiliser la Windows PowerShell**
+### <a name="method-2-use-windows-powershell"></a>Méthode 2 : utiliser la Windows PowerShell
 
 - Dans le **menu Démarrer, cliquez** avec le bouton droit sur **Windows PowerShell** puis cliquez sur Exécuter en **tant qu’administrateur.** In the **Windows PowerShell** window, type each line and press Enter.
 
@@ -101,7 +97,7 @@ La deuxième étape du processus de configuration consiste à ajouter les domain
 
 Si vous avez une organisation Skype Entreprise Online et un déploiement local de Lync Server 2010, de Microsoft Lync Server 2013 et de Skype Entreprise Server 2015 et que vous avez des utilisateurs à la fois en ligne et sur site, vous devez suivre d’autres étapes de configuration en plus de celle ci-dessus pour permettre à votre organisation sur site de communiquer avec Skype Entreprise Online et autoriser tous vos utilisateurs à rejoindre une diffusion Réunion Skype Broadcast. Pour consulter les conditions requises, voir Configurer votre déploiement [local pour Réunion Skype Diffusion.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Activer une diffusion de réunion Skype](enable-skype-meeting-broadcast.md)
 

@@ -13,21 +13,21 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Découvrez la gestion des pools frontux dans Skype Entreprise Server, notamment la gestion des pools, la perte de quorum et les étapes spéciales pour les pools avec seulement deux serveurs frontux.
-ms.openlocfilehash: 47e4b2157961a2856256e3d96a0676dd86d3f996
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 697cebf352d4fa0e2f245f50395107477ac3bae712346302e94746f173ce4d39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276619"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Haute disponibilité et gestion du pool frontal
  
 Découvrez la gestion des pools frontux dans Skype Entreprise Server, notamment la gestion des pools, la perte de quorum et les étapes spéciales pour les pools avec seulement deux serveurs frontux.
   
-Dans Skype Entreprise Server, l’architecture des pools frontaux utilise un modèle de systèmes distribués, avec les données de chaque utilisateur conservées sur jusqu’à trois serveurs frontaux dans le pool. Nous vous recommandons d’inclure au moins trois serveurs frontux dans tous vos pools frontux Enterprise Edition.
+Dans Skype Entreprise Server, l’architecture des pools frontaux utilise un modèle de systèmes distribués, avec les données de chaque utilisateur conservées sur jusqu’à trois serveurs frontaux dans le pool. Il est recommandé que tous vos pools front Êdition Entreprise comprennent au moins trois serveurs frontux.
 
 > [!NOTE]
-> Skype Entreprise Server 2019 ne prend pas en charge les pools frontux Enterprise Edition avec deux serveurs frontux et n’autorise pas la publication de la topologie dans ce scénario.
+> Skype Entreprise Server 2019 ne prend pas en charge les pools front Êdition Entreprise avec deux serveurs frontux et n’autorise pas la publication de la topologie dans ce scénario.
   
 ## <a name="planning-for-the-management-of-front-end-pools"></a>Planification de la gestion des pools frontux
 
@@ -48,41 +48,41 @@ La première fois que vous démarrez un nouveau pool frontal, il est essentiel q
 |2  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
 |4   <br/> |3  <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
-|8   <br/> |6   <br/> |
-|9   <br/> |7   <br/> |
-|10   <br/> |8   <br/> |
-|11  <br/> |9   <br/> |
-|12   <br/> |10   <br/> |
-|16 **pour Skype Entreprise Server 2019** <br/> |12   <br/> |
+|5   <br/> |4   <br/> |
+|6   <br/> |5   <br/> |
+|7   <br/> |5   <br/> |
+|8   <br/> |6   <br/> |
+|9   <br/> |7   <br/> |
+|10   <br/> |8   <br/> |
+|11  <br/> |9   <br/> |
+|12   <br/> |10   <br/> |
+|16 **pour Skype Entreprise Server 2019** <br/> |12   <br/> |
 
 
    
-Chaque fois que le pool est démarré, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). Si ce nombre de serveurs ne peut pas être démarré (mais que suffisamment de serveurs peuvent être démarrés afin de ne pas être en perte de quorum au niveau du pool), vous pouvez utiliser la cmdlet pour permettre au pool de récupérer de cette perte de quorum au niveau du groupe de routage et  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` d’avancer. Pour plus d’informations sur l’utilisation de cette cmdlet, voir [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
+Chaque fois que le pool est démarré, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). Si ce nombre de serveurs ne peut pas être démarré (mais qu’un nombre suffisant de serveurs peut être démarré afin de ne pas être en perte de quorum au niveau du pool), vous pouvez utiliser la cmdlet pour permettre au pool de récupérer de cette perte de quorum au niveau du groupe de routage et  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` d’avancer. Pour plus d’informations sur l’utilisation de cette cmdlet, voir [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
-> Dans les pools avec un nombre de serveurs commun, Skype Entreprise Server utilise la base de données SQL principal comme témoin. Dans un pool comme celui-ci, si vous fermez la base de données principale et que vous basculez vers la copie miroir et que vous fermez suffisamment de serveurs frontux afin que suffisamment de serveurs ne s’exécutent pas en fonction du tableau précédent, tout le pool est arrêté. Pour plus d’informations, [voir Témoin de mise en miroir de bases de données.](/sql/database-engine/database-mirroring/database-mirroring-witness) 
+> Dans les pools avec un nombre de serveurs Skype Entreprise Server, la base de données SQL principal en tant que témoin. Dans un pool comme celui-ci, si vous fermez la base de données principale et que vous basculez vers la copie miroir, et que vous fermez suffisamment de serveurs frontux afin que suffisamment de serveurs ne fonctionnent pas en fonction du tableau précédent, tout le pool est arrêté. Pour plus d’informations, [voir Témoin de mise en miroir de bases de données.](/sql/database-engine/database-mirroring/database-mirroring-witness) 
   
 #### <a name="pool-level-quorum-loss"></a>Perte de quorum au niveau du pool
 
-Pour qu’un pool frontal fonctionne, il ne peut pas se trouver dans une perte de quorum au niveau du pool. Si le nombre de serveurs en cours d’exécution est inférieur au niveau fonctionnel indiqué dans le tableau suivant, les serveurs restants du pool arrêteront tous les services Skype Entreprise Server. Notez que les nombres du tableau suivant supposent que les serveurs du pool sont en cours d’exécution.
+Pour qu’un pool frontal fonctionne, il ne peut pas se trouver dans une perte de quorum au niveau du pool. Si le nombre de serveurs en cours d’exécution est inférieur au niveau fonctionnel indiqué dans le tableau suivant, les serveurs restants du pool arrêteront tous les services Skype Entreprise Server serveur. Notez que les nombres du tableau suivant supposent que les serveurs du pool sont en cours d’exécution.
   
 |Nombre total de serveurs frontaux dans le pool  <br/> |Nombre de serveurs devant s’exécuter pour que le pool soit opérationnel  <br/> |
 |:-----|:-----|
 |2  <br/> |1  <br/> |
 |3-4  <br/> |N’importe quel 2  <br/> |
 |5-6  <br/> |N’importe quel 3  <br/> |
-|7   <br/> |N’importe quel 4  <br/> |
+|7   <br/> |N’importe quel 4  <br/> |
 |8-9  <br/> |4 des 7 premiers serveurs  <br/> |
 |10-12  <br/> |5 des 9 premiers serveurs  <br/> |
-|12-16  **pour Skype Entreprise Server 2019**  <br/> |7 des 12 premiers serveurs  <br/> |
+|12-16 **pour Skype Entreprise Server 2019**  <br/> |7 des 12 premiers serveurs  <br/> |
    
 Dans le tableau précédent, les « premiers serveurs » sont les serveurs qui ont été élevés en premier, dans l’ordre chronologique, lorsque le pool a été démarré pour la première fois. Pour déterminer ces serveurs, vous pouvez utiliser la  `Get-CsComputer` cmdlet avec `-PoolFqdn` l’option. Cette applet de commande affiche les serveurs dans l’ordre où ils apparaissent dans la topologie, et ceux en haut de la liste sont les premiers serveurs.
   
 > [!IMPORTANT]
-> Le nombre maximal de serveurs frontux a été augmenté jusqu’à 16 [dans Skype Entreprise Server 2019](../../../SfBServer2019/plan/user-model-2019.md)
+> Le nombre maximal de serveurs frontux a été augmenté jusqu’à 16 [Skype Entreprise Server 2019](../../../SfBServer2019/plan/user-model-2019.md)
 > 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Étapes supplémentaires pour s’assurer que les pools sont fonctionnels
 
@@ -90,11 +90,11 @@ Vous devez surveiller quelques autres facteurs pour vous assurer que vos pools f
   
 - Lorsque vous déplacez des utilisateurs vers le pool pour la première fois, assurez-vous qu’au moins trois serveurs frontaux sont en cours d’exécution.
     
-- Si vous établissez une relation d’appariement entre ce pool et un autre pool à des fins de récupération d’urgence, après avoir établi cette relation, vous devez vous assurer que ce pool dispose de trois serveurs frontaux en cours d’exécution simultanément à un moment donnée pour synchroniser correctement les données avec le pool de sauvegarde. Pour plus d’informations sur les fonctionnalités de jumelage de pool et de récupération d’urgence, voir Planifier la haute disponibilité et la récupération d’urgence [dans Skype Entreprise Server.](high-availability-and-disaster-recovery.md) 
+- Si vous établissez une relation de jumelage entre ce pool et un autre pool à des fins de récupération d’urgence, après avoir établi cette relation, vous devez vous assurer que ce pool dispose de trois serveurs frontaux en cours d’exécution simultanément à un moment donnée pour synchroniser correctement les données avec le pool de sauvegarde. Pour plus d’informations sur les fonctionnalités de jumelage de pool et de récupération d’urgence, voir Planifier la haute disponibilité et la récupération d’urgence [dans Skype Entreprise Server](high-availability-and-disaster-recovery.md). 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Pool frontal avec deux serveurs frontux
 
-Nous vous déconseillons de déployer un pool frontal qui ne contient que deux serveurs frontux. Ce petit pool ne fournit pas de solution de haute disponibilité robuste comme le ferait un pool plus important et nécessite une attention supplémentaire en ce qui a été fait. En outre, si le serveur principal d’un pool à deux serveurs est en panne, il est probable que l’intégralité du pool proprement dit soit bientôt également en panne. Si vous souhaitez déployer un ou deux serveurs exécutant Skype Entreprise Server, nous vous recommandons de les déployer en tant que serveurs Standard Edition Server.
+Nous vous déconseillons de déployer un pool frontal qui ne contient que deux serveurs frontiers. Ce petit pool ne fournit pas de solution de haute disponibilité robuste comme le ferait un pool plus important et nécessite une attention supplémentaire en ce qui a été fait. En outre, si le serveur principal d’un pool à deux serveurs est en panne, l’intégralité du pool proprement dit sera probablement bientôt également en panne. Si vous souhaitez déployer un ou deux serveurs exécutant Skype Entreprise Server, nous vous recommandons de les déployer en tant que Édition Standard serveurs.
   
 Si vous avez besoin de déployer un pool avec deux serveurs frontux, suivez les instructions suivantes :
   

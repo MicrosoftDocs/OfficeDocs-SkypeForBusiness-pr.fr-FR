@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: bcda542dce245b0a69e6b751790befe8a67f5518
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5182b66b3fa70ddf21c0f4e39b8b935636ea2721b0414ca341e657768d854cd8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305766"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Données de qualité de l’expérience (QoE) : création de nouvelles données ou modification de données existantes
  

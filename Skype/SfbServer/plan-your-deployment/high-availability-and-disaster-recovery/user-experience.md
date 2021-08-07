@@ -1,5 +1,5 @@
 ---
-title: Expérience utilisateur en cas de défaillance d’un pool dans Skype Entreprise Server
+title: Expérience utilisateur lors de la défaillance d’un pool Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Découvrez ce que les utilisateurs peuvent faire lorsqu’un pool frontal échoue ou revient en arrière pendant la récupération d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: 137ad9076febccb272e88e457ee56e6474cff107
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f17e589175c0d91db074f7ff1a1808a32d65410a5c5d7639fa2bcb284ed67680
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276599"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Expérience utilisateur en cas de défaillance d’un pool dans Skype Entreprise Server
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Expérience utilisateur lors de la défaillance d’un pool Skype Entreprise Server
  
 Découvrez ce que les utilisateurs peuvent faire lorsqu’un pool frontal échoue ou revient en arrière pendant la récupération d’urgence dans Skype Entreprise Server.
   
-Si un pool est retenté, tous les utilisateurs du pool concerné sont obligés de se quitter, puis de se connecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. En mode Résistance, les utilisateurs ne peuvent pas effectuer des tâches qui entraîneraient un changement persistant sur Skype Entreprise Server, comme l’ajout d’un contact. Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
+Si un pool est retenté, tous les utilisateurs du pool concerné sont obligés de se quitter, puis de se connecter au pool de sauvegarde. Pendant quelques instants, les utilisateurs qui se connectent au pool de sauvegarde peuvent être en mode Résistance. En mode résistance, les utilisateurs ne peuvent pas effectuer des tâches qui entraîneraient un changement persistant sur Skype Entreprise Server, telles que l’ajout d’un contact. Une fois le basculement terminé, tous les utilisateurs peuvent obtenir tous les services du pool de sauvegarde.
   
 Tous les appels, réunions ou conversations qu’un utilisateur a en cas de panne du pool sont interrompus, et l’utilisateur doit rétablir ces sessions après le passage à la ligne pour continuer.
   
-Les utilisateurs ne sont pas rapatriés pendant le basculement ou la restauration automatique. Les utilisateurs hébergés sur un pool qui subit une défaillance sont temporairement pris en charge par le pool de sauvegarde. Lorsque le pool d’accueil est restauré, l’administrateur peut restaurer ces utilisateurs pour qu’ils soient restaurés par leur pool d’origine, où ils sont toujours dos à dos.
+Les utilisateurs ne sont pas rapatriés pendant le basculement ou la restauration automatique. Les utilisateurs hébergés sur un pool qui subit une défaillance sont temporairement pris en charge par le pool de sauvegarde. Lorsque le pool d’accueil est restauré, l’administrateur peut restaurer ces utilisateurs pour qu’ils soient remis en service par leur pool d’origine, où ils sont toujours dos à dos.
   
 Notez que la base de données location Information Server n’est pas répliquée sur le pool de sauvegarde. Il est recommandé que l’administrateur sauvegarde régulièrement la base de données LIS et utilise la dernière copie de sauvegarde pour la restaurer dans le pool de sauvegarde après le basculement.
   

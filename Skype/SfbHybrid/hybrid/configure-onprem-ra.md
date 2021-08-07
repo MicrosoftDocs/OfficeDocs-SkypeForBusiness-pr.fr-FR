@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurer un compte de ressource pour Skype Entreprise Server 2019.
-ms.openlocfilehash: 312947b379f62686e16718cc40f2be69b9eb6474
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 87db9779a6f90730d6aa53e3084a2014a71bad5aba91844d2e545f7d78ae37cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304696"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressource
 
@@ -26,22 +26,22 @@ ms.locfileid: "53510835"
 
 Skype Entreprise Server 2019 hybrides utilisent uniquement les services Cloud fournis par Système téléphonique pour la messagerie unifiée et ne s’intègrent pas à Exchange Online. Dans Skype Entreprise Server 2019, vous pouvez désormais utiliser les files [d’attente d’appels](/MicrosoftTeams/here-s-what-you-get-with-phone-system)cloud et les attendants automatiques décrits dans voici ce que vous obtenez avec Système téléphonique dans Microsoft 365 ou Office 365 .
 
-Pour utiliser un attendant automatique Système téléphonique ou une file d’attente d’appels avec Skype Entreprise Server 2019, vous devez créer des comptes de ressources qui agissent en tant que points de terminaison d’application et peuvent se voir attribuer des numéros de téléphone, puis utiliser le Centre d’administration Teams en ligne pour configurer la file d’attente d’appels ou le attendant automatique. Ce compte de ressource peut être en ligne (voir Gérer les comptes de ressources dans [Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressources en ligne) ou en local, comme décrit dans cet article. En règle générale, vous avez plusieurs Système téléphonique de file d’attente d’appels ou de attendant automatiques, chacun d’eux est mappé à un compte de ressource, qui peut être homed online ou dans Skype Entreprise Server 2019.
+Pour utiliser un attendant automatique Système téléphonique ou une file d’attente d’appels avec Skype Entreprise Server 2019, vous devez créer des comptes de ressources qui agissent comme des points de terminaison d’application et peuvent se voir attribuer des numéros de téléphone, puis utiliser le Centre d’administration Teams en ligne pour configurer la file d’attente d’appels ou le attendant automatique. Ce compte de ressource peut être en ligne (voir Gérer les comptes de ressources dans [Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressources en ligne) ou en local, comme décrit dans cet article. En règle générale, vous avez plusieurs Système téléphonique de file d’attente d’appels ou de attendant automatiques, chacun d’eux est mappé sur un compte de ressource, qui peut être Skype Entreprise Server 2019.
 
 Si vous avez un standard automatique de Exchange et un système de files d’attente d’appels de Exchange, avant de basculer vers Exchange Server 2019 ou Exchange online, vous devrez enregistrer manuellement les détails comme décrit ci-dessous, puis implémenter un système entièrement nouveau à l’aide du Centre d’administration Teams.
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Si votre Système téléphonique automatique ou la file d’attente d’appels a besoin d’un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant :
+Si votre Système téléphonique ou file d’attente d’appels aura besoin d’un numéro de service, les différentes dépendances peuvent être satisfaites dans l’ordre suivant :
 
 1. Obtenez un numéro de service.
 2. Obtenez une licence Système téléphonique gratuite - [Utilisateur](/MicrosoftTeams/teams-add-on-licensing/virtual-user) virtuel ou une licence Système téléphonique payante à utiliser avec le compte de ressource.
-3. Créez le compte de ressource. Un service de gestion automatique ou une file d’attente d’appels doit être associé à un compte de ressource.
+3. Créez le compte de ressource. Un attendant automatique ou une file d’attente d’appels doit être associé à un compte de ressource.
 4. Attendez une synchronisation Active Directory en ligne et en local.
 5. Attribuez la Système téléphonique licence au compte de ressource.
 6. Affectez un numéro de service au compte de ressource.
 7. Créez un Système téléphonique file d’attente d’appels ou un attendant automatique.
-8. Associez le compte de ressource à un service de gestion automatique ou à une file d’attente d’appels : (New-CsApplicationInstanceAssociation).
+8. Associez le compte de ressource à un attendant automatique ou à une file d’attente d’appels : (New-CsApplicationInstanceAssociation).
 
 Si le attendant automatique ou la file d’attente d’appels est imbrique sous un attendant automatique de niveau supérieur, le compte de ressource associé a uniquement besoin d’un numéro de téléphone si vous souhaitez plusieurs points d’entrée dans la structure des attendants automatiques et des files d’attente d’appels.
 
@@ -60,7 +60,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
 1. Portez ou obtenez un numéro de service gratuit ou gratuit. Le numéro ne peut pas être affecté à d’autres services vocaux ou comptes de ressources.
 
-   Avant d’affecter un numéro de téléphone à un compte de ressource, vous devez obtenir ou porter vos numéros de service gratuits ou gratuits existants. Une fois que vous avez reçu les numéros de téléphone de service gratuits ou gratuits, ils s’afficheront dans les numéros Microsoft Teams du Centre d’administration  >  **Voice**  >  **Téléphone**  et le type de numéro répertorié sera répertorié en tant que **Service -** Gratuit . Pour obtenir vos numéros de service, consultez Obtenir des numéros de téléphone de [service](/MicrosoftTeams/getting-service-phone-numbers) ou si vous souhaitez transférer un numéro de service [existant,](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)consultez Transférer des numéros de téléphone vers Teams .
+   Avant d’affecter un numéro de téléphone à un compte de ressource, vous devez obtenir ou mettre en port vos numéros de service gratuits ou gratuits existants. Une fois que vous avez reçu les numéros de téléphone de service gratuits ou gratuits, ils s’afficheront dans les numéros Microsoft Teams du Centre d’administration  >  **Voice**  >  **Téléphone**  et le type de numéro répertorié sera répertorié en tant que **Service -** Gratuit . Pour obtenir vos numéros de service, consultez Obtenir des numéros de téléphone de [service](/MicrosoftTeams/getting-service-phone-numbers) ou si vous souhaitez transférer un numéro de service [existant,](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams)consultez Transférer des numéros de téléphone vers Teams .
 
    Si vous êtes en dehors des États-Unis, vous ne pouvez pas utiliser le centre d’administration Microsoft Teams pour obtenir des numéros de service. Go to [Manage phone numbers for your organization](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) instead to see how to do it from the outside of the United States.
 
@@ -159,7 +159,7 @@ La meilleure façon de tester l’implémentation consiste à appeler le numéro
 
 ## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Déplacement d’un Exchange ou d’une file d’attente d’appels de la Système téléphonique
 
-La migration de la Exchange vers la Système téléphonique nécessitera la recréation de la file d’attente d’appels et de la structure du attendant automatique, la migration directe de l’une vers l’autre n’est pas prise en charge. Pour ré-implémenter un ensemble de files d’attente d’appels et de attendants automatiques :
+La migration de la Exchange vers la Système téléphonique nécessite la recréation de la file d’attente d’appels et de la structure du attendant automatique, la migration directe de l’une vers l’autre n’est pas prise en charge. Pour ré-implémenter un ensemble de files d’attente d’appels et de attendants automatiques :
 
 1. Obtenez la liste de tous les attendants automatiques et files d’attente d’appels de Exchange de la Exchange en exécutant la commande suivante sur le système Exchange 2013 ou 2016 lorsque vous êtes connecté en tant qu’administrateur :
 
@@ -189,7 +189,7 @@ La migration de la Exchange vers la Système téléphonique nécessitera la recr
 
 6. Réaffectez le numéro de téléphone lié à la file d’attente d’appels de Exchange de la Exchange ou au attendant automatique au Système téléphonique ou à la file d’attente d’appels.  
 
-   À ce stade, si vous avez déjà migré la messagerie vocale de messagerie un Exchange Server 2019, vous devez être en mesure de le faire.
+   À ce stade, si vous avez déjà migré la messagerie vocale de messagerie unée, vous devez être en mesure de migrer vers Exchange Server 2019.
 
 ## <a name="see-also"></a>Voir aussi
 

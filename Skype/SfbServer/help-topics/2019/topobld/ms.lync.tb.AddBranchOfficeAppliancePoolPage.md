@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 56915c5d-9991-4d16-949d-a75883767d44
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir le nom de domaine complet du Survivable Branch Appliance, tapez le nom de domaine complet (FQDN) (tel que défini dans le DNS (Domain Name System) du Survivable Branch Appliance ou du Serveur Survivable Branch Server dans la zone de texte FQDN. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: 342712e40f308327254a93cd9482c69cf7aec980
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c159d73c44982fe9c53a233f58671e2799317d313734f67560c4b2e8ad010756
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277259"
 ---
 # <a name="add-survivable-branch-appliance-pool"></a>Ajouter un pool Survivable Branch Appliance
  
