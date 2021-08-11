@@ -16,12 +16,12 @@ MS.collection:
 description: Découvrez l’analyse multi-équipe, l’analyse par équipe et l’analyse par canal dans Teams, qui permet aux utilisateurs de voir les données d’utilisation des équipes ou canaux dont ils font partie.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ac44638a3f1b79ba98d1b2ebc6cf3645ef44bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292951"
 ---
 # <a name="view-analytics-in-teams"></a>Afficher les données d’analyse dans Teams
 
@@ -61,7 +61,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 
     |Option |Description  |
     |--------|-------------|
-    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** Nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
+    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
     |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs et inactifs.|
     |**Rôle**   |Nombre d’utilisateurs par rôle, y compris les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Graphique Utilisateurs actifs**  |Nombre d’activités quotidiennes actives. Pointez sur le point sur une date donnée pour voir le nombre d’utilisateurs actifs à cette date.|
@@ -89,7 +89,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 > [!NOTE]
 > Nous définissons les utilisateurs actifs comme utilisateurs qui effectuent une action intentionnelle dans le client de bureau, le client mobile et le client web. Il peut s’agir, par exemple, de démarrer une conversation, d’appeler, de partager un fichier, de modifier un document au sein d’une équipe, de participer à une réunion, etc. Nous masons les actions passives telles que le démarrage automatique, la réduction d’un écran ou la fermeture de l’application. De plus, nous désuppions toutes les actions au sein d’un ID utilisateur unique.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Afficher les données d’analyse de vos équipes](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Analyses et rapports Teams](teams-reporting-reference.md)

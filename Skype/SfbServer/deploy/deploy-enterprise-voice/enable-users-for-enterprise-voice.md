@@ -1,5 +1,5 @@
 ---
-title: Activer les utilisateurs Voix Entreprise dans Skype Entreprise Server
+title: Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Résumé : Découvrez comment permettre aux utilisateurs de prendre et de recevoir des appels à l’aide de Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 3c18836f1c2b03d2c6d50712f33d9e3a900b43b3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bc680872d2b339c9db9d4b8f4e9acbe0106e3869b918e1b48e16d3676a45cd3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312062"
 ---
-# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Activer les utilisateurs Voix Entreprise dans Skype Entreprise Server
+# <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment permettre aux utilisateurs de prendre et de recevoir des appels à l’aide de Voix Entreprise dans Skype Entreprise Server.
   
 Après avoir déployé Voix Entreprise ou appel via le travail, vous pouvez utiliser les procédures suivantes pour permettre à un utilisateur d’effectuer des appels à l’aide Voix Entreprise :
   
 > [!NOTE]
-> Des procédures suivantes, seule la première peut être effectuée à l’aide du Panneau de contrôle Skype Entreprise Server. Pour les autres procédures, vous pouvez utiliser uniquement Skype Entreprise Server Management Shell. 
+> Des procédures suivantes, seule la première peut être effectuée à l’aide Skype Entreprise Server panneau de commande. Pour les autres procédures, vous pouvez utiliser uniquement Skype Entreprise Server Management Shell. 
   
 - Activez le compte d’utilisateur pour Voix Entreprise.
     
@@ -42,7 +42,7 @@ Après avoir déployé Voix Entreprise ou appel via le travail, vous pouvez util
 
 1. Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins, ou en tant que membre du rôle d’administrateur **CsVoiceAdministrator**, **CsServerAdministrator** ou **CsAdministrator**.
     
-2. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2. Ouvrez Skype Entreprise Server panneau de contrôle.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -52,7 +52,7 @@ Après avoir déployé Voix Entreprise ou appel via le travail, vous pouvez util
     
 6. Dans le menu **Edition**, cliquez sur **Afficher les détails**.
     
-7. Dans la page **Modifier l’utilisateur Skype** Entreprise Server, sous **Téléphonie,** cliquez **sur Voix Entreprise**.
+7. Dans la page **Modifier Skype Entreprise Server utilisateur,** sous **Téléphonie,** cliquez **sur Voix Entreprise**.
     
 8. Cliquez **sur URI** de ligne, puis tapez un numéro de téléphone unique et normal (par exemple, tel:+14255550200).
     
@@ -67,7 +67,7 @@ Les stratégies de voix au niveau global et au niveau du site sont automatiqueme
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Pour assigner une stratégie de voix utilisateur existante à un utilisateur, exécutez la commande suivante à l’invite :
     
@@ -81,7 +81,7 @@ Les stratégies de voix au niveau global et au niveau du site sont automatiqueme
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
-    Dans cet exemple, la stratégie de voix **VoicePolicyJapan** est attribuée à l’utilisateur dont le nom complet est Bob Kelly.
+    Dans cet exemple, la stratégie de voix **VoicePolicyJapan** est affectée à l’utilisateur dont le nom complet est Bob Kelly.
     
 ## <a name="dial-plan-assignment"></a>Affectation de plan de numérotation
 <a name="BKMK_DialPlanAssignment"> </a>
@@ -92,7 +92,7 @@ Pour terminer la configuration des comptes d’utilisateurs des utilisateurs de 
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Pour assigner un plan de numérotation spécifique à un utilisateur, exécutez la commande suivante à l’invite :
     

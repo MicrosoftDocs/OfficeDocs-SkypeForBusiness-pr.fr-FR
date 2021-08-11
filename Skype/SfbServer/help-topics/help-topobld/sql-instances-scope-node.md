@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: 'Le SQL magasins répertorie les bases SQL Server données de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 38d11c4074fea1df299e8394e7a7fc93f88ace15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 01fd1aaa286f350a98f267acef565c5182bbf0d0faf489b117b7aeb6e1850099
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320306"
 ---
 # <a name="sql-instances-scope-node"></a>Nœud d’étendue des instances SQL
  
-Le **SQL magasins** répertorie les SQL Server de données de votre topologie. Vous pouvez effectuer l’action suivante :
+Le **SQL stocke** les listes SQL Server bases de données de votre topologie. Vous pouvez effectuer l’action suivante :
   
-- **Nouveau magasin SQL**. Démarre **l’Assistant Définir SQL Store,** que vous utilisez pour ajouter une nouvelle base de données SQL Server à la topologie.
+- **Nouveau magasin SQL**. Démarre **l’Assistant Définir SQL Store,** que vous utilisez pour ajouter une nouvelle base SQL Server de données à la topologie.
     
 Outre les options de SQL Server de données, vous pouvez effectuer les tâches générales suivantes :
   

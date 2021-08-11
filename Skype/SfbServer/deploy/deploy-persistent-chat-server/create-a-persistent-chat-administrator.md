@@ -13,23 +13,23 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Résumé : Lisez cette rubrique pour découvrir comment créer un rôle d’administrateur de serveur de conversation permanente pour activer la configuration initiale et la gestion des services de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: eea989b0284353e193ebf99a0be99b2d0811e532
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61b601399f1e21fa36a7f7b9ead1a458b577179295c40154a78f861c6bc0c156
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337094"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Créer un administrateur de conversation permanente dans Skype Entreprise Server 2015
  
 **Résumé :** Lisez cette rubrique pour découvrir comment créer un rôle d’administrateur de serveur de conversation permanente pour activer la configuration initiale et la gestion des services de conversation permanente dans Skype Entreprise Server 2015.
   
-Dans Skype Entreprise Server, les utilisateurs qui effectuent des tâches spécifiques doivent être affectés en tant que membres d’un ou plusieurs groupes spécifiques. Role-Based contrôle d’accès (RBAC) est utilisé pour accorder des privilèges en attribuant des utilisateurs à des rôles d’administration Skype Entreprise Server prédéfincis. Ces rôles correspondent aux groupes de sécurité universels dans les services de domaine Active Directory. Les membres du groupe de sécurité Administrateur de conversation permanente, CsPersistentChatAdministrator, ont accès aux cmdlets du serveur de conversation permanente, qui peuvent être exécutées à l’aide de Skype Entreprise Server Management Shell ou du Panneau de contrôle Skype Entreprise Server.
+Dans Skype Entreprise Server, les utilisateurs qui effectuent des tâches spécifiques doivent être affectés en tant que membres d’un ou plusieurs groupes spécifiques. Role-Based contrôle d’accès (RBAC) est utilisé pour accorder des privilèges en attribuant des utilisateurs à des rôles d’Skype Entreprise Server prédéfinés. Ces rôles correspondent aux groupes de sécurité universels dans les services de domaine Active Directory. Les membres du groupe de sécurité Administrateur de conversation permanente, CsPersistentChatAdministrator, ont accès aux cmdlets du serveur de conversation permanente, qui peuvent être exécutées à l’aide de l’Skype Entreprise Server Management Shell ou du Panneau de Skype Entreprise Server.
   
 Avant de configurer et d’administrer le serveur de conversation permanente, assurez-vous que les droits et autorisations utilisateur appropriés sont en place et que tous les utilisateurs qui agiraient en tant qu’administrateurs de conversation permanente sont ajoutés au groupe de sécurité Administrateur de conversation permanente.
   
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015.
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015.
 
 ## <a name="create-a-persistent-chat-administrator"></a>Créer un administrateur de conversation permanente
 

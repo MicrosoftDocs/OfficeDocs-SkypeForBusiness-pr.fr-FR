@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: ed304be8ea6f46d3bcbd16537da9b23c84227f9b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8ded9db153aa9bf5388c4afe9957e86bb739be05085e669e8bd36feb472e2ed6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823304"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278402"
 ---
 # <a name="planning-tool-ui-reference"></a>Référence de l’interface utilisateur de l’outil de planification
  
@@ -33,7 +33,7 @@ Ces rubriques documentent l’interface de l’outil de planification disponible
     
 - [Voix Entreprise (Planning Tool)](../../help-topics/help-planning/enterprise-voice.md)
     
-- [Paramètres de messagerie unifiée Exchange (outil de planification)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [Exchange Unified Messaging Paramètres (Planning Tool)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
 - [Contrôle d’admission des appels (outil de planification)](../../help-topics/help-planning/call-admission-control.md)
     
@@ -53,13 +53,13 @@ Ces rubriques documentent l’interface de l’outil de planification disponible
     
 - [Vue d’ensemble des fonctionnalités (outil de planification)](../../help-topics/help-planning/feature-overview.md)
     
-- [Messagerie unifiée Exchange (outil de planification)](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [Exchange Messagerie unifiée (outil de planification)](../../help-topics/help-planning/exchange-unified-messaging.md)
     
 - [Équilibrage de charge (outil de planification)](../../help-topics/help-planning/load-balancer.md)
     
 - [Director (Planning Tool)](../../help-topics/help-planning/director.md)
     
-- [Client Settings (Planning Tool)](../../help-topics/help-planning/client-settings.md)
+- [Client Paramètres (Planning Tool)](../../help-topics/help-planning/client-settings.md)
     
 - [Mediation Collocation (Planning Tool)](../../help-topics/help-planning/mediation-collocation.md)
     

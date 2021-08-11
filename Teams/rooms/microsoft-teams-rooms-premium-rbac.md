@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur le contrôle d’accès en fonction du rôle avec Salles Microsoft Teams service géré.
 f1keywords: ''
-ms.openlocfilehash: d673a20b122af876d95bac9d11a1db0433a396e4
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: c73ad1385a0654f3ef50dab46b803debe418b834b6497acfcb27f5a4de736f98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301060"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Contrôle d’accès en fonction du rôle avec le service Salles Microsoft Teams géré
 
@@ -34,7 +34,7 @@ Pour créer, modifier ou attribuer des rôles, votre compte doit avoir l’une d
 
 ## <a name="what-is-a-role"></a>Qu’est-ce qu’un rôle ?
 
-Un rôle définit le jeu d’autorisations accordées aux utilisateurs qui le sont. Pour l’instant, le service Salles Microsoft Teams géré a trois rôles intégrés : Administrateur de **services** gérés, Responsable de **site** et **Tech de site.** Ils couvrent certains scénarios courants pour les utilisateurs de votre organisation qui peuvent être impliqués dans la gestion de vos salles.
+Un rôle définit l’ensemble des autorisations accordées aux utilisateurs qui le sont. Pour l’instant, le service géré Salles Microsoft Teams a trois rôles intégrés : Administrateur de **services** gérés, Responsable de **site** et **Tech de site.** Ils couvrent certains scénarios courants pour les utilisateurs de votre organisation qui peuvent être impliqués dans la gestion de vos salles.
 
 Pour voir les rôles, dans le navigation gauche du portail du service géré par Salles Microsoft Teams, sélectionnez Rôles, puis sélectionnez un des rôles pour voir les propriétés, autorisations et affectations du rôle.  
 
@@ -92,6 +92,6 @@ Pour attribuer des rôles, vous devez être administrateur général ou administ
 6. Dans la page **Étendue,** dans la zone Rechercher une salle ou un groupe de salles, tapez le nom d’une salle ou d’un groupe de salles que l’utilisateur sera autorisé à gérer.  Sélectionnez **Suivant.**
 7. Dans la page **Fin,** examinez les détails du devoir. Si vous êtes satisfait de la configuration, sélectionnez **Ajouter un devoir.** Si vous voulez modifier une section, utilisez le **bouton** Précédent ou sélectionnez l’étape dans le volet de navigation de gauche.  
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Salles Microsoft Teams service géré](microsoft-teams-rooms-premium.md)

@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 185ff0c5631ac900a3df07e56202f33b777316e7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e59018f458d3d88f015b10207a74ed5941b3d562a433893bdf2f2e0707b6d2a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301030"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Votre organisation est-elle prête pour Microsoft Teams ?
 
-Maintenant que votre équipe de projet s’est rassemblée et que vous commencent à voir ce que Teams peut faire pour votre organisation, il est important d’évaluer la disponibilité de votre organisation pour la transition de Teams projet. Pour évaluer votre préparation, vous devrez :
+Maintenant que votre équipe de projet s’est rassemblée et que vous commencent à voir ce que Teams peut faire pour votre organisation, il est important d’évaluer la disponibilité de votre organisation pour la transition de Teams projet. Pour évaluer votre disponibilité, vous devrez :
 
 1. Évaluez les parties prenantes.
 2. Identifiez les premiers utilisateurs.
@@ -64,7 +64,7 @@ Les premiers utilisateurs partagent certains traits d’caractère, quelle que s
 - Souhaitant partager ses observations et apprentissages avec le groupe
 - sont des personnes qui prennent des risques ; autrement dit, ils veulent essayer quelque chose pour voir si cela fonctionne
 
-Utilisez un formulaire simple dans Microsoft 365 ou Office 365 pour permettre à ces personnes de choisir votre programme d’utilisateurs précoces pour Teams. Selon la taille et la complexité de votre organisation, vous pouvez choisir d’activer une partie ou la plupart de ces individus pour votre phase de expérimentation. Dans ce programme, ils conviennent de participer activement à votre phase de expérimentation et de fournir des commentaires réguliers à l’équipe de projet. Évitez d’avoir des personnes qui souhaitent simplement tester la nouvelle technologie. Faites-leur savoir qu’en leur faisant part de ces commentaires actifs, ils contribuent à élaborer le résultat de votre projet. Vous utiliserez cette liste de personnes dans la [phase 2 (expérimentation).](teams-adoption-phase2-experiment.md)
+Utilisez un formulaire simple dans Microsoft 365 ou Office 365 pour permettre à ces personnes de choisir votre programme d’utilisateurs précoces pour Teams. Selon la taille et la complexité de votre organisation, vous pouvez choisir d’activer une partie ou l’ensemble de ces individus pour votre phase de expérimentation. Dans ce programme, ils conviennent de participer activement à votre phase de expérimentation et de fournir des commentaires réguliers à l’équipe de projet. Évitez d’avoir des personnes qui souhaitent simplement tester la nouvelle technologie. Faites-leur savoir qu’en leur faisant part de ces commentaires actifs, ils contribuent à élaborer le résultat de votre projet. Vous utiliserez cette liste de personnes dans la [phase 2 (expérimentation).](teams-adoption-phase2-experiment.md)
 
 Notre guide des premiers utilisateurs est une ressource utile pour mettre un coup d’avance à ce programme dans votre environnement.  
  
@@ -87,10 +87,10 @@ Chaque organisation se rapproche différemment, selon la région, le style de tr
 2. Quelle est la compétence des utilisateurs pour le changement ? *(Formation)*
     - **Les démarrages autonomes** nécessitent uniquement un lien vers une vidéo.
     - **Les créateurs d’équipe** se sont bien passé des formations de groupe.
-    - **Les apprenants un-à-un ont besoin** d’un support personnel.
+    - **Les étudiants un-à-un ont besoin d’un** support personnel.
 
     > [!TIP]
-    > Personasz le type et la quantité de formation pour la compétence et les personnage. Continuez à mettre à jour les formations lorsque de nouvelles fonctionnalités sont disponibles en ligne.
+    > Personas le type et la quantité de formation pour la compétence et les personnage. Continuez à mettre à jour les formations lorsque de nouvelles fonctionnalités sont disponibles en ligne.
 
 3. En plus de ce déploiement de service, combien d’autres modifications sont en cours ? *(Insérabilité)* <br/>Les modifications peuvent inclure Office/Windows mises à niveau, les déplacements d’office, les fusions, les reorgs, etc.
     - Aucun

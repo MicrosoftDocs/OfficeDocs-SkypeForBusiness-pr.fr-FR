@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 'Résumé : Découvrez comment bloquer les sessions de messagerie instantanée et de conférence en cas de défaillance de Skype Entreprise Server qui empêcherait l’archivage.'
-ms.openlocfilehash: 8bfe4d3f8e02fa0d7d7d3f1f6b55f224aaa1451a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment bloquer les sessions de messagerie instantanée et de conférence en cas d’Skype Entreprise Server qui empêcherait l’archivage.'
+ms.openlocfilehash: 8baf245b1c8e95394aec756cb019b9562555f4bbe17dc0444615d5815da846df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320266"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurer les options d’archivage pour gérer les défaillances dans Skype Entreprise Server
 
-**Résumé :** Découvrez comment bloquer les sessions de messagerie instantanée et de conférence en cas de défaillance de Skype Entreprise Server qui empêcherait l’archivage.
+**Résumé :** Découvrez comment bloquer les sessions de messagerie instantanée et de conférence en cas de Skype Entreprise Server d’archivage.
   
-Si l’archivage est une condition requise pour votre organisation, vous pouvez bloquer les sessions de messagerie instantanée et de conférence en cas de défaillance de Skype Entreprise Server qui empêcherait l’archivage. Ce mode est parfois appelé mode critique. Par exemple, en cas de problème avec un service de stockage, la messagerie instantanée est bloquée pour les utilisateurs dont les communications sont activées pour l’archivage. La récupération des sessions de messagerie instantanée et de conférence s’effectue automatiquement après la correction des défaillances. 
+Si l’archivage est une condition requise pour votre organisation, vous pouvez bloquer les sessions de messagerie instantanée et de conférence en cas d’échec Skype Entreprise Server qui empêcherait l’archivage. Ce mode est parfois appelé mode critique. Par exemple, en cas de problème avec un service de stockage, la messagerie instantanée est bloquée pour les utilisateurs dont les communications sont activées pour l’archivage. La récupération des sessions de messagerie instantanée et de conférence s’effectue automatiquement après la correction des défaillances. 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>Configurer le mode critique à l’aide du Panneau de configuration
 
@@ -31,7 +31,7 @@ Pour spécifier si les sessions de communication doivent être autorisées en ca
   
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     

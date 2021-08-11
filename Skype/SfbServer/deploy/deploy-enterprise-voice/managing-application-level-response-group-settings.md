@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Gestion des paramètres Response Group au niveau de l’application, tels que les paramètres d’attente musicale et de rappel, dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Gestion des paramètres Response Group au niveau de l’application, tels que les paramètres d’attente musicale et de rappel, Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: a6883247f7be8816a8363c9b2790d6d0e45599484037d23af860b3e0f191dc10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103470"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337154"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gestion des paramètres Response Group au niveau de l’application dans Skype Entreprise
  
-Gestion des paramètres Response Group au niveau de l’application, tels que les paramètres d’attente musicale et de rappel, dans Skype Entreprise Server Voix Entreprise.
+Gestion des paramètres Response Group au niveau de l’application, tels que les paramètres d’attente musicale et de rappel, Skype Entreprise Server Voix Entreprise.
   
 Les paramètres au niveau de l’application Response Group incluent la configuration de l’attente musicale par défaut, le fichier audio d’attente musicale par défaut, la période de grâce de rappel de l’agent et la configuration du contexte de l’appel. Vous pouvez définir un seul jeu de paramètres de niveau application par pool. Pour afficher les paramètres de niveau application, utilisez l’applet de commande **Get-CsRgsConfiguration**. Pour modifier les paramètres de niveau application, utilisez l’applet de commande **Set-CsRgsConfiguration**.
   
@@ -35,7 +35,7 @@ L’attente musicale par défaut est lue lorsqu’un appel est mis en attente un
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. À partir de la ligne de commande, exécutez la commande suivante :
     

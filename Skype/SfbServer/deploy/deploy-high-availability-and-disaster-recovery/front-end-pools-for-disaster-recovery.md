@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Vous pouvez décider d’utiliser des pools frontux couplés pour fournir une protection contre la récupération d’urgence, mais cela n’est pas obligatoire.
-ms.openlocfilehash: 7d066de60bf3ab98d73d8aeee08044803fad983c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bc061e05931c6a4b58d754623bde580e35c2c51367228a05126783d83d3fd27a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830604"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312052"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server
  
@@ -55,7 +55,7 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
     
 9. Une fois que Bootstrapper a terminé l’installation des composants requis pour le jumelage de sauvegarde sur chaque serveur frontal des deux pools, n’oubliez pas de réappl attention à appliquer à nouveau toute mise à jour cumulative existante précédemment appliquée sur ces serveurs frontaux dans les deux pools, puis de poursuivre l’étape suivante.
 
-10. À partir d’une invite de commandes Skype Entreprise Server Management Shell, exécutez la commande suivante : 
+10. À partir d Skype Entreprise Server’invite de commandes Management Shell, exécutez la commande suivante : 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP

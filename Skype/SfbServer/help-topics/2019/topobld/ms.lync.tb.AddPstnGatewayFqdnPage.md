@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
-ms.openlocfilehash: fb9fc10c9fca8235bea20bffb5e5fab090afaf69
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8c85168d14a4e095c690e846a8bf720d4dd9f8c5c3d666d71e2a6e8ce01ea6cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337074"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Définir le nom complet de la passerelle PSTN
 
 Vous spécifiez le nom de domaine complet (FQDN) de la passerelle du réseau téléphonique commuté (PSTN) qui connectera vos composants Voix Entreprise à un réseau téléphonique commuté (PBX).
 
-Pour plus d’informations, voir composants de [connectivité PSTN dans Skype Entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Pour plus d’informations, [voir composants de connectivité PSTN dans Skype Entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Voir aussi
 

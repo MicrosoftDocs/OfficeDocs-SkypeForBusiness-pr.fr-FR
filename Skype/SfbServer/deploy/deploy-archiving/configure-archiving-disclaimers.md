@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer une clause d’exclusion de responsabilité d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: 055c94f0fba18dcd9de35ff5a73e37de0b45595b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1afacace566cc75659e5b53e05346461b99f0cb888497f79da6340130585c959
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312142"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurer des clauses d’exclusion de responsabilité d’archivage pour les utilisateurs externes dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "49820664"
   
 Si votre organisation communique avec des partenaires externes, vous devez leur faire savoir que vous archivez les communications avec eux. Lorsque vous déployez un serveur Edge et activez la fédération pour votre organisation, vous êtes invité à envoyer automatiquement une clause d’exclusion de responsabilité d’archivage à des partenaires externes. 
   
-Si vous devez modifier cette configuration, vous pouvez utiliser le Panneau de configuration Skype Entreprise Server ou l’Windows PowerShell **Set-CsAccessEdgeConfiguration.** Les cmdlets peuvent être exécutés à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell.
+Si vous devez modifier cette configuration, vous pouvez utiliser le Panneau de configuration Skype Entreprise Server ou l’Windows PowerShell cmdlet **Set-CsAccessEdgeConfiguration.** Les cmdlets peuvent être exécutés à partir de l’Skype Entreprise Server de gestion ou d’une session distante de Windows PowerShell.
   
 Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dans votre déploiement Skype Entreprise Server, vous devez également configurer au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs externes. Pour plus d’informations, voir Manage XMPP Federated Partners for Your Organization. Pour plus d’informations sur le contrôle de l’accès pour des domaines fédérés spécifiques, voir Control Access by Individual Federated Domains.
   
@@ -33,7 +33,7 @@ Pour permettre aux utilisateurs externes de collaborer avec des utilisateurs dan
 
 1. Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Fédération et accès externe**, puis sur **Configuration du serveur Edge d’accès**.
     

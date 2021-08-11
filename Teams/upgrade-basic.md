@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9453ad770b7ca21b5300b193cbafb932ea7645a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24e13e7f1a47f993b6afc1d7e51496040c91c0ffb4ed1b0eff39ac47d62e2f3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300760"
 ---
 # <a name="upgrade-basic"></a>Mise à niveau de base
 
@@ -115,7 +115,7 @@ Les utilisateurs qui sont fortement adoptées sur Skype Entreprise peuvent avoir
 En fournissant aérité à vos utilisateurs, vous leur donnez le temps de vous familiariser avec les Teams sans affecter négativement leur productivité, ce qui donne une expérience utilisateur plus positive. Envoyez une communication pour lui dire ce qui change, pourquoi elle change et comment elle peut se préparer.
 
 > [!Note]
-> Si nécessaire, vous pouvez activer l Teams de vos utilisateurs via le Centre Microsoft 365'administration de l’entreprise pour le moment.
+> Si nécessaire, vous pouvez activer Teams pour vos utilisateurs via le Centre d’administration Microsoft 365 pour le moment.
 
 **Ressources :**
 

@@ -1,5 +1,5 @@
 ---
-title: Configuration des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
+title: Configurer des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
-description: 'Résumé : Lisez cette rubrique pour découvrir comment créer des stratégies utilisateur initiales pour le serveur de conversation permanente dans Skype Entreprise Server 2015. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.'
-ms.openlocfilehash: 531146a55b0282db191f503ef39e9be9e4d5f879
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Lisez cette rubrique pour découvrir comment créer des stratégies utilisateur initiales pour le serveur de conversation permanente Skype Entreprise Server 2015. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.'
+ms.openlocfilehash: fc0033eee8886ddccbe00ff3b3a7014a22eca2a9d19359c18cea46b9c9bdf6af
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283616"
 ---
-# <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configuration des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
+# <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurer des stratégies utilisateur de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Lisez cette rubrique pour découvrir comment créer des stratégies utilisateur initiales pour le serveur de conversation permanente dans Skype Entreprise Server 2015. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.
+**Résumé :** Lisez cette rubrique pour découvrir comment créer des stratégies utilisateur initiales pour le serveur de conversation permanente Skype Entreprise Server 2015. Les stratégies utilisateur de conversation permanente déterminent si les utilisateurs sont autorisés à accéder aux salles de conversation.
   
 Vous pouvez gérer les stratégies utilisateur du serveur de conversation permanente aux niveaux suivants : global, site ou utilisateur. Initialement, vous configurez la stratégie globale pour activer les paramètres de conversation permanente pour tous les utilisateurs de votre déploiement, puis créez des stratégies utilisateur et de site supplémentaires pour contrôler si la conversation permanente est activée pour des utilisateurs et des sites spécifiques.
   
@@ -37,7 +37,7 @@ Cette rubrique comprend les sections suivantes :
 - Appliquer une stratégie à un utilisateur ou à un groupe d’utilisateurs
     
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015.
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015.
 
 ## <a name="configure-the-global-policy"></a>Configurer la stratégie globale
 
@@ -45,9 +45,9 @@ Pour configurer la stratégie globale :
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
-3. Dans le Panneau de contrôle Skype Entreprise Server, cliquez sur **Conversation** permanente, puis sur **Stratégie de conversation permanente.**
+3. Dans Skype Entreprise Server de contrôle, cliquez sur **Conversation** permanente, puis sur **Stratégie de conversation permanente.**
     
 4. Cliquez sur **Globale** dans la liste des stratégies, sur **Modifier**, puis sur **Afficher les détails**.
     
@@ -57,7 +57,7 @@ Pour configurer la stratégie globale :
     
    - Dans **Description,** fournissez des détails sur la stratégie utilisateur (par exemple, stratégie globale pour  _centralSiteName_).
     
-   - Pour contrôler la conversation permanente pour tous les sites et utilisateurs qui ne  sont pas spécifiquement contrôlés par le biais d’une stratégie de site ou d’une stratégie utilisateur, activez ou activez la case à cocher Activer la conversation permanente.
+   - Pour contrôler la conversation permanente pour tous les sites et utilisateurs qui ne sont pas spécifiquement contrôlés par le biais d’une stratégie de site ou d’une stratégie utilisateur, activez ou activez la case à cocher Activer la **conversation** permanente.
     
 6. Cliquez sur **Valider**.
     
@@ -67,7 +67,7 @@ Pour chaque site que vous avez déployé, vous pouvez créer une stratégie de c
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Stratégie de conversation permanente**.
     
@@ -91,7 +91,7 @@ Vous pouvez créer des stratégies spécifiques à l’utilisateur qui remplacen
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Stratégie de conversation permanente**.
     
@@ -113,13 +113,13 @@ Après avoir créé des stratégies, vous pouvez les appliquer à un compte d’
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator, CsAdministrator ou CsUserAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis recherchez le compte d’utilisateur que vous souhaitez configurer.
     
 4. Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
     
-5. Dans **Modifier l’utilisateur Skype Entreprise Server sous** **stratégie** de conversation permanente, sélectionnez la stratégie utilisateur de conversation permanente à appliquer.
+5. Dans **Modifier Skype Entreprise Server utilisateur sous** **stratégie** de conversation permanente, sélectionnez la stratégie utilisateur de conversation permanente à appliquer.
     
     > [!NOTE]
     > Les **\<Automatic\>** paramètres appliquent la stratégie effective par défaut. Ces paramètres sont appliqués automatiquement par le serveur.

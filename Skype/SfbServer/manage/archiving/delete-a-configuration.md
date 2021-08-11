@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Résumé : Découvrez comment supprimer une configuration d’archivage dans Skype Entreprise Server.'
-ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6a8aec925bf6bfb7914b6cf830ee6e38751ed7187c862ca2d26104ca3384f39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095408"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320256"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Supprimer une configuration d’archivage dans Skype Entreprise Server
 
@@ -31,7 +31,7 @@ Pour supprimer une configuration d’archivage à l’aide du Panneau de configu
   
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     
@@ -58,7 +58,7 @@ La commande suivante supprime tous les paramètres de configuration d’archivag
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
-La commande suivante supprime tous les paramètres de configuration d’archivage pour lequel l’archivage Exchange a été désactivé :
+La commande suivante supprime tous les paramètres de configuration d’archivage pour Exchange’archivage a été désactivé :
   
 ```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration

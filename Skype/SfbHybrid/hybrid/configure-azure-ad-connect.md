@@ -1,5 +1,5 @@
 ---
-title: Configurer azure AD Connecter
+title: Configurer Azure AD Connecter
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions de configuration d’Azure AD Connecter dans un environnement hybride.
-ms.openlocfilehash: 208d44a9bb8db909d5d562b23cbcfeada41318a7
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: e9e043e8cded2e9e55741cd0abe37488c4b621c6fb7cbfc5e9fd1e35917f8b84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660682"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292481"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a> Configurer Azure AD Connexion pour les Teams et Skype pour les entreprises 
 
@@ -32,12 +32,12 @@ ms.locfileid: "53660682"
 Les organisations qui ont Skype Entreprise Server (ou Lync Server) localement et qui prévoient d’utiliser Teams doivent configurer Azure AD Connecter pour synchroniser leur annuaire local avec Microsoft 365. Cette exigence inclut les organisations qui passe directement de Skype Entreprise local à Teams. Les organisations Skype Entreprise locales doivent s’assurer que les attributs msRTCSIP appropriés sont synchronisés dans Azure AD.
 
 > [!NOTE]
-> Les utilisateurs Teams existants qui ont également Skype Entreprise en local doivent avoir leur compte local Skype Entreprise déplacé vers le cloud afin d’obtenir toutes les fonctionnalités, telles que la possibilité d’interopérer avec les utilisateurs Skype Entreprise et de communiquer avec les utilisateurs des organisations fédérées. Même si l’utilisateur n’utilise que Teams, ce compte Skype Entreprise en ligne est requis par l’infrastructure pour offrir des fonctionnalités supplémentaires. Pour que cette migration soit effectuée, vous devez vous assurer qu’Azure AD Connect est correctement configuré de sorte que vous puissiez activer hybride.
+> Les utilisateurs Teams existants qui ont également Skype Entreprise en local devront déplacer leur compte local Skype Entreprise vers le cloud afin d’obtenir toutes les fonctionnalités, telles que la possibilité d’interopérer avec les utilisateurs Skype Entreprise et de communiquer avec les utilisateurs d’organisations fédérées. Même si l’utilisateur n’utilise que Teams, ce compte Skype Entreprise en ligne est requis par l’infrastructure pour offrir des fonctionnalités supplémentaires. Pour que cette migration soit effectuée, vous devez vous assurer qu’Azure AD Connect est correctement configuré de sorte que vous puissiez activer hybride.
  
 
 ## <a name="background-information"></a>Informations contextuelles
 
-Azure Active Directory Connecter active Directory local reste synchronisé en permanence avec Microsoft 365. Votre annuaire local reste la source d’identité faisant autorité et les modifications de votre environnement local sont synchronisées avec Azure AD. Pour plus d’informations, [voir Azure AD Connecter Sync](/azure/active-directory/hybrid/how-to-connect-sync-whatis).  
+Azure Active Directory Connecter votre annuaire Active Directory local reste synchronisé en continu avec Microsoft 365. Votre annuaire local reste la source d’identité faisant autorité et les modifications de votre environnement local sont synchronisées avec Azure AD. Pour plus d’informations, [voir Azure AD Connecter Sync](/azure/active-directory/hybrid/how-to-connect-sync-whatis).  
 
 Si vous ne souhaitez pas déplacer tous les utilisateurs locaux vers le cloud, tous les utilisateurs qui utilisent Teams ou Skype Entreprise en local doivent être synchronisés de l’local vers Azure AD pour assurer la communication entre les utilisateurs locaux et en ligne. *Les utilisateurs de votre organisation seront représentés à la fois dans vos annuaires locaux et en ligne.*
 

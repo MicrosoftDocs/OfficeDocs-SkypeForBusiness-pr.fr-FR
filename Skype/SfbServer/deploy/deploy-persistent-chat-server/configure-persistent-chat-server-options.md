@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Résumé : Découvrez comment configurer les options du serveur de conversation permanente au niveau global, du site ou du pool dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 9c0b6d5e03b9bc4f7d955ea0dae3e1c45b14ada3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8b9e351e32b0a255cfca0f0996961075c94b17b3b9c0ab45704b27d10b709a23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337124"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurer les options du serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -26,16 +26,16 @@ ms.locfileid: "49802124"
   
 Vous pouvez spécifier plusieurs options pour le serveur de conversation permanente qui peuvent être appliquées globalement, à tous les pools au sein d’un site ou à un pool spécifique au sein d’un site. Les options de serveur de conversation permanente sont les suivantes : 
   
-- Historique de conversation par défaut. Nombre de messages de conversation disponibles pour chaque salle de conversation lors de la première demande. La valeur par défaut globale est de 30 messages de conversation. 
+- Historique de conversation par défaut. Nombre de messages de conversation disponibles pour chaque salle de conversation lors de la première demande. La valeur globale par défaut est de 30 messages de conversation. 
     
-- Taille maximale du fichier. Taille maximale d’un fichier qui peut être téléchargé à partir d’une salle. La valeur globale par défaut est 20 Mo.
+- Taille maximale du fichier. Taille maximale d’un fichier qui peut être téléchargé à partir d’une salle. La valeur par défaut globale est 20 Mo.
     
 - Limite de mise à jour des participants. Nombre maximal de participants dans une salle de conversation donnée pour lequel la conversation permanente enverra des mises à jour de listes. La valeur par défaut globale est 75.
     
 - URL de gestion de salle. URL utilisée pour la gestion personnalisée des salles de conversation. Le paramètre permet l’utilisation d’une solution de gestion de salle personnalisée. 
    
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015.
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015.
  
 ## <a name="configure-persistent-chat-server-global-options"></a>Configurer les options globales du serveur de conversation permanente
 
@@ -43,7 +43,7 @@ Pour configurer les options globales du serveur de conversation permanente :
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Configuration de la conversation permanente**.
     
@@ -79,7 +79,7 @@ Pour configurer les options d’un pool de serveurs de conversation permanente s
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server, ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server, ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Configuration de la conversation permanente**.
     

@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner à partir d’Active Directory pour rechercher les utilisateurs que vous souhaitez activer pour Skype Entreprise Server. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous souhaitez trouver. Pour récupérer tous les utilisateurs disponibles, ne tapez rien dans la zone de recherche.
-ms.openlocfilehash: 835ebe1b2a5a3097c314bd8e24dabf1a1a40e62c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2348d8e72101aec4cde4263fbe4f3d28b5e37c83db975fc368b257dbe8f0c0b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283546"
 ---
 # <a name="select-from-active-directory"></a>Sélectionner à partir d’Active Directory
  
-Utilisez la boîte de dialogue Sélectionner à **partir d’Active Directory** pour rechercher les utilisateurs que vous souhaitez activer pour Skype Entreprise Server. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous souhaitez trouver. Pour récupérer tous les utilisateurs disponibles, ne tapez rien dans la zone de recherche.
+Utilisez la boîte de dialogue Sélectionner à partir **d’Active Directory** pour rechercher les utilisateurs que vous souhaitez activer pour Skype Entreprise Server. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous souhaitez trouver. Pour récupérer tous les utilisateurs disponibles, ne tapez rien dans la zone de recherche.
   
  
   

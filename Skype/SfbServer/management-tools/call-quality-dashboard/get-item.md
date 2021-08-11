@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Résumé : Découvrez l’opération Obtenir un élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 896540c4572fb3991356ce055f01690ed702c6f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fa82d158b41826a950a852633e6c039e9262543d4aabece5c04397eba40be8ae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278442"
 ---
 # <a name="get-item"></a>Obtenir l’élément
  
@@ -66,6 +66,6 @@ Obtenir l’élément renvoie un élément spécifique dans le référentiel.
   
  *type*  : type du contenu. Ce champ est définie par les applications.
   
- *subItemIds*  : ID des sous-éléments, le cas cas. Il s’agit d’un court-circuit de l’opération Get Sub-Items pour enregistrer un appel. Les applications peuvent également obtenir les mêmes informations à l’aide de l’opération Get Sub-Items.
+ *subItemIds*  : ID des sous-éléments, le cas cas. Il s’agit d’un court-circuit de l’opération Get Sub-Items pour enregistrer un appel. Les applications peuvent également obtenir les mêmes informations à l’aide de l'Sub-Items get.
   
 

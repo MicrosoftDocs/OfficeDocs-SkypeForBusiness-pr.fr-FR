@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous définissez les adresses IPv4 ou IPv6 pour la passerelle IP ou PSTN en sélectionnant Activer IPv4 ou Activer IPv6. Vous pouvez choisir soit Utiliser toutes les adresses IP configurées, soit Limiter l’utilisation des services aux adresses IP sélectionnées.
-ms.openlocfilehash: 6b21d2cb3d117c41654e1245bdfb80ad1ae93e8e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc202ad8be1b83eaeaf13b51dee80870fd1de5108eace1c71ed95e3fba1e4408
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337064"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Définir l’adresse IP de la passerelle IP ou PSTN
 

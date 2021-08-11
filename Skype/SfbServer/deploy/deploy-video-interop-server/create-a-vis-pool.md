@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: 'Résumé : Créez un pool de serveurs d’interconnexion vidéo dans Skype Entreprise Server à l’aide du Générateur de topologie.'
-ms.openlocfilehash: 7c6f45b232151d99cbce169826c8110cf4a8d494
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Créez un pool de serveurs d’interconnexion vidéo dans Skype Entreprise Server l’aide du Générateur de topologies.'
+ms.openlocfilehash: 91a1ed8b5b8d5ce728a666be507a1c1026b0c88460d9ba33b519f1f3d3825aa8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283576"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Créer un pool VIS dans Skype Entreprise Server
  
-**Résumé :** Créez un pool de serveurs d’interconnexion vidéo dans Skype Entreprise Server à l’aide du Générateur de topologie.
+**Résumé :** Créez un pool de serveurs d’interconnexion vidéo Skype Entreprise Server l’aide du Générateur de topologie.
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Créer un vis ou un pool VIS à l’aide du Générateur de topologie
 
-1. Ouvrez le Générateur de topologie sur le serveur frontal. Dans le volet gauche du Générateur de  topologies, cliquez avec le bouton droit sur pools de serveurs d’interop vidéo et choisissez Nouveau pool de serveurs **d’interop res vidéo.** 
+1. Ouvrez le Générateur de topologie sur le serveur frontal. Dans le volet gauche du Générateur de  topologie, cliquez avec le bouton droit sur Pools de serveurs d’interconnexion vidéo et choisissez Nouveau pool de serveurs d’interconnexion **vidéo.** 
     
-2. Cela ouvre un Assistant Créer un nouveau pool de serveurs **d’interconnexion** vidéo. Fournissez le nom de groupe du pool pour le nouveau serveur d’opation vidéo et sélectionnez soit ce **pool** possède un serveur, soit ce **pool** dispose de plusieurs serveurs en fonction de vos besoins, puis appuyez sur **Suivant**.
+2. Cela ouvre un Assistant Créer un nouveau pool de serveurs **d’interop vidéo.** Fournissez le nom de groupe du pool pour le nouveau serveur d’opation vidéo et sélectionnez soit ce **pool** possède un serveur, soit ce **pool** dispose de plusieurs serveurs en fonction de vos besoins, puis appuyez sur **Suivant**.
     
     Si vous souhaitez déployer un pool de serveurs d’interconnexion vidéo pour fournir une haute disponibilité, sélectionnez **Ce pool dispose de plusieurs serveurs.** Gardez à l’esprit cette option qui : 
     
@@ -36,7 +36,7 @@ ms.locfileid: "49802054"
     
    - Dans la page suivante, pour définir les ordinateurs  de cet élément **de pool,** entrez le nom de domaine complet de chaque serveur du pool dans le champ de texte, puis cliquez sur **Ajouter**. Répétez cette étape pour ajouter un autre serveur d’opation vidéo au pool. Lorsque vous avez défini tous les ordinateurs du pool, appuyez sur **Suivant**.
     
-     Si vous souhaitez déployer un seul serveur d’opation vidéo dans le pool, car vous n’avez pas besoin d’une haute disponibilité, sélectionnez Ce **pool** a un serveur et appuyez sur **Suivant**.
+     Si vous souhaitez déployer un seul serveur d’opation vidéo dans le pool, car vous n’avez pas besoin d’une haute disponibilité, sélectionnez Ce **pool** possède un serveur et appuyez sur **Suivant**.
     
 3. Sélectionnez le pool/fe du saut suivant dans la liste de listes et appuyez sur **Suivant.**
     
@@ -54,21 +54,21 @@ ms.locfileid: "49802054"
     
 9. Sélectionnez le port d’écoute de la passerelle vidéo. Sélectionnez le protocole de transport (TCP ou TLS) et associez-le à un serveur d’opation vidéo qui est installé pour une trunk SIP vidéo. Le protocole de transport de la passerelle vidéo doit correspondre au protocole de transport configuré pour le VIS.
     
-10. Une vidéo SIP correspondante est ajoutée une fois l’étape ci-dessus terminée. Cliquez avec le bouton droit sur la trunk vidéo SIP, puis sélectionnez la trunk qui vient d’être ajoutée. Le nom de la trunk sip vidéo, le serveur d’interopage vidéo associé, le protocole de transport SIP et le port peuvent tous être modifiés. 
+10. Une vidéo SIP correspondante est ajoutée une fois l’étape ci-dessus terminée. Cliquez avec le bouton droit sur la trunke vidéo SIP, puis sélectionnez la trunk qui vient d’être ajoutée. Le nom de la trunk sip vidéo, le serveur d’interopage vidéo associé, le protocole de transport SIP et le port peuvent tous être modifiés. 
     
     > [!NOTE]
-    >  Un serveur d’interconnexion vidéo prend en charge les trunks 1:N. Par conséquent, plusieurs branches peuvent être ajoutées, qui sont associées à un seul serveur d’interopivité vidéo, où chaque trunk s’termine sur une passerelle vidéo différente. La limitation est qu’une passerelle vidéo particulière dispose d’une seule et unique passerelle qui peut être définie pour le déploiement de Skype Entreprise Server.
+    >  Un serveur d’interconnexion vidéo prend en charge les trunks 1:N. Par conséquent, plusieurs branches peuvent être ajoutées, qui sont associées à un seul serveur d’interopivité vidéo, où chaque trunk s’termine sur une passerelle vidéo différente. La limitation est qu’une passerelle vidéo particulière dispose d’une seule et unique trunk qui peut être définie pour le Skype Entreprise Server déploiement.
   
-11. Publiez le document de topologie comme décrit dans Créer et publier [une nouvelle topologie dans Skype Entreprise Server 2015.](../../deploy/install/create-and-publish-new-topology.md)
+11. Publiez le document de topologie comme décrit dans Créer et publier une nouvelle [topologie dans Skype Entreprise Server 2015](../../deploy/install/create-and-publish-new-topology.md).
     
     > [!NOTE]
-    > Pour améliorer la résilience, vous souhaitez peut-être configurer un deuxième serveur d’interconnexion vidéo ou pool VIS, ou un pool frontal de sauvegarde. Pour plus [d’informations, voir mécanismes](../../plan-your-deployment/video-interop-server.md#resiliency) de résilience.
+    > Pour améliorer la résilience, vous pouvez configurer un deuxième serveur d’interopation vidéo ou pool VIS, ou un pool frontal de sauvegarde. Pour plus [d’informations, voir mécanismes](../../plan-your-deployment/video-interop-server.md#resiliency) de résilience.
   
 Toutes les tâches effectuées à l’aide du Générateur de topologie doivent maintenant être terminées. Procédez à l’installation du logiciel sur le ou les nouveaux serveurs VIS.
 ## <a name="see-also"></a>Voir aussi
 
 [Déployer le rôle serveur VIS dans Skype Entreprise Server](deploy-the-vis-server-role.md)
 
-[Planifier le serveur d’opation vidéo dans Skype Entreprise Server](../../plan-your-deployment/video-interop-server.md)
+[Planifier le serveur d’interconnexion vidéo dans Skype Entreprise Server](../../plan-your-deployment/video-interop-server.md)
   
-[Création et publication d’une topologie dans Skype Entreprise Server 2015](../../deploy/install/create-and-publish-new-topology.md)
+[Créer et publier une topologie dans Skype Entreprise Server 2015](../../deploy/install/create-and-publish-new-topology.md)
