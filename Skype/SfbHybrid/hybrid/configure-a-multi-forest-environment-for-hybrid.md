@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Les sections suivantes dcriront comment configurer un environnement qui possède plusieurs forêts dans un modèle de forêt ressource/utilisateur afin de fournir des fonctionnalités dans un scénario hybride.
-ms.openlocfilehash: 84014d7564265de5c2fb87ef91deb0ba291ccff0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277449"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Déployer une topologie de forêt de ressources
 
@@ -32,7 +32,7 @@ ms.locfileid: "53660722"
  
 Les sections suivantes décrivent comment configurer un environnement qui possède plusieurs forêts dans un modèle de forêt ressource/utilisateur afin de fournir des fonctionnalités dans un scénario hybride. 
   
-![Environnement à forêts multiples pour un environnement hybride](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![Environnement à forêts multiples pour les environnements hybrides](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>Configuration requise pour la topologie
 
@@ -55,7 +55,7 @@ Dans une topologie de forêt de ressources, les forêts de ressources qui héber
 
 Si vous avez plusieurs forêts d’utilisateurs, pour activer l’authentification entre forêts, il est important que le routage de suffixe de nom soit activé pour chacune de ces bases de données de forêt. Pour obtenir des instructions, voir [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). 
 
-Si vous avez déployé Exchange Server dans une autre forêt et que Exchange fournit des fonctionnalités pour les utilisateurs Skype Entreprise, le Exchange d’hébergement de forêt doit faire confiance à la forêt hébergeant Skype Entreprise Server. Par exemple, si Exchange ont été déployés dans la forêt de comptes, une relation d’Skype Entreprise entre le compte et les forêts de comptes est requise.
+Si vous avez déployé Exchange Server dans une autre forêt et que Exchange fournit des fonctionnalités aux utilisateurs Skype Entreprise, le Exchange d’hébergement de forêt doit faire confiance à la forêt hébergeant Skype Entreprise Server. Par exemple, si Exchange ont été déployés dans la forêt de comptes, une relation d’Skype Entreprise entre le compte et les forêts de comptes est requise.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchroniser les comptes dans la forêt hébergeant des Skype Entreprise
 
@@ -70,7 +70,7 @@ Pour obtenir une synchronisation d’identité appropriée, les attributs suivan
 |**Forêts d’utilisateurs**|**Forêts de ressources**|
 |:-----|:-----|
 |attribut de lien de compte choisi  <br/> |attribut de lien de compte choisi  <br/> |
-|mail  <br/> |mail  <br/> |
+|messagerie  <br/> |messagerie  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
@@ -94,7 +94,7 @@ Seuls les déploiements avec SIP/SMTP et UPN correspondants ont été testés. L
   
 À moins d’utiliser un SIP/SMTP/UPN unique pour les utilisateurs de chaque forêt, vous pouvez toujours être en butte à des problèmes DSO, quel que soit l’endroit où AD FS est déployé : 
   
-- Les confiances à sens unique ou double entre les forêts de ressources/utilisateurs avec une batterie de serveurs AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
+- Les confiances à sens unique ou double entre les forêts ressource/utilisateur avec une batterie AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
     
 - Les relations d’confiance entre les forêts ressource/utilisateur avec une batterie AD FS déployée uniquement dans la forêt de ressources, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
     
@@ -128,7 +128,7 @@ Les Connecter Azure AD doivent être installés à l’aide des valeurs par déf
     
 2. Connecter vos répertoires : ajoutez tous les domaines.
     
-3. Identifiez les utilisateurs dans les répertoires locaux : sélectionnez les identités des **utilisateurs** dans plusieurs répertoires, puis sélectionnez les attributs **ObjectSID** et **msExchangeMasterAccountSID.**
+3. Identifiez les utilisateurs dans les répertoires locaux : sélectionnez les identités utilisateur **existantes** dans plusieurs répertoires, puis sélectionnez les attributs **ObjectSID** et **msExchangeMasterAccountSID.**
     
 4. Identifiez les utilisateurs dans Azure AD : Ancre source : sélectionnez l’attribut que vous avez choisi après avoir lu Sélectionner un attribut [sourceAnchor](/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), Nom d’utilisateur principal - **userPrincipalName**.
     

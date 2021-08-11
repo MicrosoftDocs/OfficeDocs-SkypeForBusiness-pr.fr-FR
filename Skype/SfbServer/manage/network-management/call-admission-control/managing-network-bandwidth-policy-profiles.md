@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Utilisez les procédures de cet article pour afficher, créer, modifier ou supprimer des profils de stratégie de bande passante réseau.
-ms.openlocfilehash: 47a4d268c24cd8d57c8aeda4deacc6b03e795c2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4905a80f402b15328f4bca5476dc47262030f323cee8ec12910b25e35aee6eda
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096670"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590958"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gestion de profils de stratégie de bande passante réseau dans Skype Entreprise Server
 
@@ -24,13 +24,13 @@ Utilisez les procédures de cet article pour afficher, créer, modifier ou suppr
 
 ## <a name="view-network-bandwidth-policy-profile-information"></a>Afficher les informations de profil de stratégie de bande passante réseau
 
-La stratégie de bande passante utilisée dans le cadre du contrôle d’admission des appels (CAC) permet de définir des restrictions de bande passante pour des modes bien précis. Dans Skype Entreprise Server, seules les modalités audio et vidéo peuvent être affectées à des restrictions de bande passante. Vous pouvez définir des restrictions de bande passante et de session globales. Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies. Chaque profil de stratégie de bande passante peut être associé à un ou plusieurs sites réseau. Utilisez les procédures suivantes pour afficher un profil de stratégie de bande passante. 
+La stratégie de bande passante utilisée dans le cadre du contrôle d’admission des appels (CAC) permet de définir des restrictions de bande passante pour des modes bien précis. Dans Skype Entreprise Server, seules les modalités audio et vidéo peuvent être affectées à des restrictions de bande passante. Vous pouvez définir des restrictions de bande passante et de session globales. Vous pouvez utiliser le Panneau de Skype Entreprise Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies. Chaque profil de stratégie de bande passante peut être associé à un ou plusieurs sites réseau. Utilisez les procédures suivantes pour afficher un profil de stratégie de bande passante. 
 
 ### <a name="to-view-a-bandwidth-policy-profile"></a>Pour afficher un profil de stratégie de bande passante
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**, puis sur **Stratégie de bande passante**.
 
@@ -41,38 +41,37 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de profil de stratégie de bande passante réseau à l’Windows PowerShell cmdlets
 
-Vous pouvez afficher les profils de bande passante réseau à l’Windows PowerShell l'Get-CsNetworkBandwidthPolicyProfile cmdlet. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Les profils de bande passante réseau peuvent être Windows PowerShell l’aide Get-CsNetworkBandwidthPolicyProfile cmdlet. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>Pour afficher les informations de profil de stratégie de bande passante réseau
 
   - Pour afficher des informations sur tous vos profils de stratégie de bande passante réseau, tapez la commande suivante dans Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
     
-        Get-CsNetworkBandwidthPolicyProfile
+    **Get-CsNetworkBandwidthPolicyProfile**
     
     Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
-        Identity          : RedmondBandwidthPolicy
-        BWPolicy          : {BWLimit=200;BWSessionLimit=200;
-                            BWPolicyModality=Audio, 
-                            BWLimit=1400;BWSessionLimit=500;
-                            BWPolicyModality=Video}
-        BWPolicyProfileID : RedmondBandwidthPolicy
-        Description       :
-
+    Identity : RedmondBandwidthPolicy<br/>
+    BWPolicy : {BWLimit=200; BWSessionLimit=200;<br/>
+                        BWPolicyModality=Audio, <br/>
+                        BWLimit=1400; BWSessionLimit=500;<br/>
+                        BWPolicyModality=Video}<br/>
+    BWPolicyProfileID : RedmondBandwidthPolicy<br/>
+    Description :
 
 Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Get-CsNetworkBandwidthPolicyProfile.](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>Créer ou modifier des profils de stratégie de bande passante
 
-La stratégie de bande passante utilisée dans le cadre du contrôle d’admission des appels (CAC) permet de définir des restrictions de bande passante pour des modes bien précis. Dans Skype Entreprise Server, seules les modalités audio et vidéo peuvent être affectées à des restrictions de bande passante. Vous pouvez définir des restrictions de bande passante et de session globales. Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies. Chaque profil de stratégie de bande passante peut être associé à un ou plusieurs sites réseau. Effectuez les procédures suivantes pour créer ou modifier un profil de stratégie de bande passante. 
+La stratégie de bande passante utilisée dans le cadre du contrôle d’admission des appels (CAC) permet de définir des restrictions de bande passante pour des modes bien précis. Dans Skype Entreprise Server, seules les modalités audio et vidéo peuvent être affectées à des restrictions de bande passante. Vous pouvez définir des restrictions de bande passante et de session globales. Vous pouvez utiliser le Panneau de Skype Entreprise Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies. Chaque profil de stratégie de bande passante peut être associé à un ou plusieurs sites réseau. Effectuez les procédures suivantes pour créer ou modifier un profil de stratégie de bande passante. 
 
 ### <a name="to-create-a-new-bandwidth-policy-profile"></a>Pour créer un profil de stratégie de bande passante
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur Stratégie de bande **passante.**
 
@@ -100,7 +99,7 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur Stratégie de bande **passante.**
 
@@ -118,13 +117,13 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
   
 ## <a name="delete-network-bandwidth-policy-profiles"></a>Supprimer les profils de stratégie de bande passante réseau
 
-La stratégie de bande passante utilisée dans le cadre du contrôle d’admission des appels (CAC) permet de définir des restrictions de bande passante pour des modes bien précis. Dans Skype Entreprise Server, seules les modalités audio et vidéo peuvent être affectées à des restrictions de bande passante. Vous pouvez définir des restrictions de bande passante et de session globales. Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies. Utilisez les procédures suivantes pour supprimer des profils de stratégies de bande passante réseau. 
+La stratégie de bande passante utilisée dans le cadre du contrôle d’admission des appels (CAC) permet de définir des restrictions de bande passante pour des modes bien précis. Dans Skype Entreprise Server, seules les modalités audio et vidéo peuvent être affectées à des restrictions de bande passante. Vous pouvez définir des restrictions de bande passante et de session globales. Vous pouvez utiliser le Panneau de Skype Entreprise Server pour créer, modifier ou supprimer un profil de conteneur pour ces stratégies. Utilisez les procédures suivantes pour supprimer des profils de stratégies de bande passante réseau. 
 
 ### <a name="to-delete-a-bandwidth-policy-profile"></a>Pour supprimer un profil de stratégie de bande passante
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis sur Stratégie de bande **passante.**
 

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
-description: La cmdlet Search-CcLog recherche les journaux des appels entrants et sortants dans le répertoire des journaux des appliances de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Search-CcLog recherche les journaux des appels entrants et sortants dans Skype Entreprise Cloud Connector Edition répertoire des journaux de l’appliance.
+ms.openlocfilehash: 5fd062295ac9145660ca9a53f56973f77783cd9730993d958c7348b7761c4387
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306605"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
-La cmdlet Search-CcLog recherche les journaux des appels entrants et sortants dans le répertoire des journaux des appliances de la version Cloud Connector de Skype Entreprise.
+La cmdlet Search-CcLog recherche les journaux des appels entrants et sortants dans Skype Entreprise Cloud Connector Edition répertoire des journaux de l’appliance.
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
@@ -69,7 +69,7 @@ Aucun. La cmdlet Search-CcLog n’accepte pas la saisie de données pipeline.
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

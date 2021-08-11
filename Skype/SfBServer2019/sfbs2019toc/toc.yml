@@ -9,14 +9,14 @@
       href: ../virtualization-guidance.md
     - name: Solutions de téléphonie Microsoft
       href: /microsoftteams/cloud-voice-landing-page.md
-    - name: "Téléchargements et mises à jour de Skype\_Entreprise"
+    - name: Téléchargements et mises à jour de Skype Entreprise
       href: ../../SfbServer/software-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
       items:
         - name: Mises à jour du client
           href: ../../SfbServer/sfb-client-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Mises à jour du serveur
           href: ../../SfbServer/sfb-server-updates.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-    - name: "Solutions hybrides pour Teams et Skype\_Entreprise"
+    - name: Solutions hybrides pour Teams et Skype Entreprise
       href: ../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
     - name: Planification
       items:
@@ -103,10 +103,10 @@
         - name: Solutions vocales
           href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
-            - name: "Voix\_Entreprise"
+            - name: Voix Entreprise
               href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
-                - name: "Composants requis pour Voix\_Entreprise"
+                - name: Composants requis pour Voix Entreprise
                   href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
                     - name: Serveur de médiation
@@ -118,7 +118,7 @@
                 - name: Connectivité RTC
                   href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
-                    - name: "Jonction\_SIP"
+                    - name: Jonction SIP
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/sip-trunking.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                       items:
                         - name: Site de succursale
@@ -133,14 +133,14 @@
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/translation-rules.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Routage des communications vocales sortantes
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: "Résilience de Voix\_Entreprise"
+                - name: Résilience de Voix Entreprise
                   href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Paramètres réseau pour les fonctionnalités avancées
                   href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Contrôle d’admission des appels
                   href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-admission-control.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
-                    - name: "Exemple\_: déterminer la configuration requise"
+                    - name: 'Exemple : déterminer la configuration requise'
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Composants et topologies
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/components-and-topologies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -162,7 +162,7 @@
                           href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/elin-gateways.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Acquisition manuelle d’un emplacement
                           href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/manually-acquiring-a-location.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                        - name: "Conception de la jonction\_SIP"
+                        - name: Conception de la jonction SIP
                           href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/design-the-sip-trunk.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                         - name: Bureau de sécurité
                           href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/security-desk.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -190,7 +190,7 @@
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/call-park.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Prise d’appel de groupe
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/group-call-pickup.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: "Response\_Group"
+                    - name: Response Group
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/response-group.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Annonce
                       href: ../../SfbServer/plan-your-deployment/enterprise-voice-solution/announcement.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -220,7 +220,7 @@
                   href: ../../SfbHybrid/hybrid/plan-call-queue.md
                 - name: Configurer des comptes de ressource
                   href: ../../SfbHybrid/hybrid/configure-onprem-ra.md
-        - name: "Planifier l’intégration de Skype\_Entreprise et d’Exchange"
+        - name: Planifier l’intégration de Skype Entreprise et d’Exchange
           href: ../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
             - name: Messagerie unifiée
@@ -318,7 +318,7 @@
               href: ../../SfbServer/deploy/install/create-dns-records.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Créer et publier une nouvelle topologie
               href: ../../SfbServer/deploy/install/create-and-publish-new-topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: "Installer Skype\_Entreprise\_Server"
+            - name: Installer Skype Entreprise Server
               href: ../../SfbServer/deploy/install/install-skype-for-business-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Vérification de la topologie
               href: ../../SfbServer/deploy/install/verify-the-topology.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -342,7 +342,7 @@
           items:
             - name: Associer un magasin de surveillance
               href: ../../SfbServer/deploy/deploy-monitoring/associate-a-monitoring-store.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: "Installer SQL\_Server\_Reporting\_Services"
+            - name: Installer SQL Server Reporting Services
               href: ../../SfbServer/deploy/deploy-monitoring/install-sql-server-reporting-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Installer des rapports de surveillance
               href: ../../SfbServer/deploy/deploy-monitoring/install-monitoring-reports.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -389,9 +389,9 @@
                   href: ../../SfbServer/deploy/deploy-enterprise-voice/trunk-configuration-settings.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Supprimer la configuration de la jonction
                   href: ../../SfbServer/deploy/deploy-enterprise-voice/delete-trunk-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: "Modification de la configuration d’une jonction\_SIP"
+                - name: Modification de la configuration d’une jonction SIP
                   href: ../../SfbServer/deploy/deploy-enterprise-voice/modify-sip-trunk-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: "Test de la configuration des jonctions\_SIP"
+                - name: Test de la configuration des jonctions SIP
                   href: ../../SfbServer/deploy/deploy-enterprise-voice/test-sip-trunk-configuration.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Affichage des informations SIP
                   href: ../../SfbServer/deploy/deploy-enterprise-voice/view-sip-info.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -418,9 +418,9 @@
                   href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-route-configuration-import-export.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Modifications de configuration d’itinéraire de communications vocales
                   href: ../../SfbServer/deploy/deploy-enterprise-voice/voice-route-config-changes.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: "Activation des utilisateurs pour Voix\_Entreprise"
+            - name: Activation des utilisateurs pour Voix Entreprise
               href: ../../SfbServer/deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: "Déploiement des fonctionnalités avancées Voix\_Entreprise"
+            - name: Déploiement des fonctionnalités avancées Voix Entreprise
               href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
               items:
                 - name: Déployer un réseau
@@ -443,7 +443,7 @@
                 - name: Déploiement de services d’urgence
                   href: ../../SfbServer/deploy/deploy-enterprise-voice/deploy-emergency-services.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                   items:
-                    - name: "Configuration d’un itinéraire des communications vocales\_E9-1-1"
+                    - name: Configuration d’un itinéraire des communications vocales E9-1-1
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-an-e9-1-1-voice-route.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Création de stratégies d’emplacement
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/create-location-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -451,7 +451,7 @@
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Configurer la base de données d’emplacements
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-the-location-database.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                    - name: "Configuration d’une application\_SNMP"
+                    - name: Configuration d’une application SNMP
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/configure-an-snmp-application.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                     - name: Service Informations d’emplacement secondaire
                       href: ../../SfbServer/deploy/deploy-enterprise-voice/secondary-location-information-service.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -547,11 +547,11 @@
         - name: Déploiement d’une conférence
           href: ../../SfbServer/deploy/deploy-conferencing/deploy-conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
-            - name: "Serveur Office\_Web\_App"
+            - name: Serveur Office Web App
               href: ../../SfbServer/deploy/deploy-conferencing/office-web-app-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
             - name: Conférence rendez-vous
               href: ../../SfbServer/deploy/deploy-conferencing/dial-in-conferencing.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-            - name: "Portail web d’administration du système de salle\_v1"
+            - name: Portail web d’administration du système de salle v1
               href: ../../SfbServer/deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: Déploiement d’un serveur Edge
           href: ../../SfbServer/deploy/deploy-edge-server/deploy-edge-server.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -610,7 +610,7 @@
               href: ../migration/migration-process.md
             - name: Phases de migration
               href: ../migration/migration-phases.md
-        - name: "Étape 1\_: Planifier la migration"
+        - name: 'Étape 1 : Planifier la migration'
           href: ../migration/phase-1-plan-your-migration.md
           items:
             - name: Migration des utilisateurs
@@ -623,7 +623,7 @@
               href: ../migration/migrating-multiple-sites-and-pools.md
             - name: Migration de la fédération XMPP
               href: ../migration/migrating-xmpp-federation.md
-        - name: "Étape 2\_: Préparer la migration"
+        - name: 'Étape 2 : Préparer la migration'
           href: ../migration/phase-2-prepare-for-migration.md
           items:
             - name: Appliquer des mises à jour à l’installation héritée
@@ -636,7 +636,7 @@
               href: ../migration/configure-clients-for-migration.md
             - name: Vérifier l’environnement hérité de départ de la migration
               href: ../migration/verify-environment.md
-        - name: "Étape 3\_: Déployer un pool pilote"
+        - name: 'Étape 3 : Déployer un pool pilote'
           href: ../migration/phase-3-deploy-pilot-pool.md
           items:
             - name: Préparation d’Active Directory pour le pool pilote
@@ -651,7 +651,7 @@
               href: ../migration/connect-pilot-pool-to-legacy-edge-servers.md
             - name: Configuration des certificats et des stratégies d’accès de passerelle XMPP
               href: ../migration/configure-xmpp-gateway-access-policies-and-certificates.md
-        - name: "Étape 4\_: Déplacer des utilisateurs de test vers le pool pilote"
+        - name: 'Étape 4 : Déplacer des utilisateurs de test vers le pool pilote'
           href: ../migration/phase-4-move-test-users-to-the-pilot-pool.md
           items:
             - name: Afficher les utilisateurs actuels dans le pool hérité
@@ -662,14 +662,14 @@
               href: ../migration/move-a-single-user-to-the-pilot-pool.md
             - name: Déplacer plusieurs utilisateurs vers le pool pilote
               href: ../migration/move-multiple-users-to-the-pilot-pool.md
-        - name: "Étape 5\_: Ajouter un serveur Edge au pool pilote"
+        - name: 'Étape 5 : Ajouter un serveur Edge au pool pilote'
           href: ../migration/phase-5-add-edge-server-to-pilot-pool.md
           items:
             - name: Déploiement d’un serveur Edge pilote
               href: ../migration/deploy-pilot-edge-server.md
             - name: Vérifier les paramètres de configuration
               href: ../migration/verify-configuration-settings.md
-        - name: "Phase\_6\_: Transition d’un déploiement pilote vers un environnement de production"
+        - name: 'Phase 6 : Transition d’un déploiement pilote vers un environnement de production'
           href: ../migration/phase-6-move-from-pilot-deployment-into-production.md
           items:
             - name: Configurer les itinéraires de fédération et le trafic multimédia
@@ -680,7 +680,7 @@
               href: ../migration/change-simple-urls-after-migration.md
             - name: Déplacer les utilisateurs restants
               href: ../migration/move-remaining-users.md
-        - name: "Étape 7\_: Exécuter les tâches post-migration"
+        - name: 'Étape 7 : Exécuter les tâches post-migration'
           href: ../migration/phase-7-complete-post-migration-tasks.md
           items:
             - name: Migration des réunions existantes et du contenu des réunions
@@ -709,7 +709,7 @@
               href: ../migration/migrate-common-area-phones.md
             - name: Migration des périphériques analogiques
               href: ../migration/migrate-analog-devices.md
-        - name: "Étape 8\_: Mettre des pools hérités hors service"
+        - name: 'Étape 8 : Mettre des pools hérités hors service'
           href: ../migration/phase-8-decommission-legacy-pools.md
           items:
             - name: Mettre à jour les enregistrements SRV DNS
@@ -967,7 +967,7 @@
                   href: ../../SfbServer/manage/conferencing/pin-policies.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Participer à des annonces et les quitter
                   href: ../../SfbServer/manage/conferencing/join-and-leave-announcements.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
-                - name: "Mappage des clés des commandes\_DTMF"
+                - name: Mappage des clés des commandes DTMF
                   href: ../../SfbServer/manage/conferencing/key-mapping-for-dtmf-commands.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
                 - name: Participation à une réunion sans code confidentiel
                   href: ../../SfbServer/manage/conferencing/pin-less-meeting-join.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
@@ -1054,7 +1054,7 @@
           items:
             - name: Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
               href: ../../SfbServer/management-tools/statistics-manager/plan.md
-            - name: "Déployer le Gestionnaire de Statistiques pour Skype\_Entreprise\_Server"
+            - name: Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
               href: ../../SfbServer/management-tools/statistics-manager/deploy.md
             - name: Mise à niveau du Gestionnaire de statistiques pour Skype Entreprise Server
               href: ../../SfbServer/management-tools/statistics-manager/upgrade.md
@@ -1072,5 +1072,5 @@
               items:
                 - name: Paramètres et utilisateurs de test
                   href: ../tools/test-users-and-settings-2019.md
-        - name: "Calculateur de planification de la capacité Skype\_Entreprise\_Server"
+        - name: Calculateur de planification de la capacité Skype Entreprise Server
           href: ../../SfbServer/management-tools/capacity-planning-calculator.md

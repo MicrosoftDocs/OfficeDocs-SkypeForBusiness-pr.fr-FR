@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment rechercher des numéros de téléphone que vous pouvez affecter à vos utilisateurs, par pays ou région et ville, et spécifier la quantité de numéros dont vous avez besoin.
-ms.openlocfilehash: 3b62812829f2c8742fb9910b1997b64101fe2ff8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 732f2128be87e71c2ce4e7d1a2ff618b5bf4960d07080bf0fa23218a736e9ad7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117252"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275970"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
@@ -60,9 +60,9 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 7. Sous **Quantité,** entrez le nombre de numéros de téléphone que vous souhaitez pour votre organisation, puis cliquez sur **Suivant.** Vous avez 10 minutes pour sélectionner vos numéros de téléphone. Si vous prenez plus de 10 minutes, les numéros seront retournées au pool de numéros de téléphone.
 
     > [!NOTE]
-    > Vous pouvez voir le nombre de numéros de téléphone disponibles (en fonction du nombre de licences), en regard **de Quantité.** 
+    > Vous pouvez voir le nombre de numéros de téléphone disponibles (en fonction du nombre de licences), répertoriés en regard **de Quantité.** 
   
-8. Dans la page **Obtenir des** numéros, sélectionnez les numéros de téléphone de votre choix, cliquez sur **Acquérir** les numéros, puis sur **Suivant.**
+8. Dans la page **Obtenir des** numéros, sélectionnez les numéros de téléphone de votre choix, cliquez sur Acquérir les **numéros,** puis sur **Suivant.**
 
     > [!IMPORTANT]
     > Vous pouvez acquérir plus de numéros de téléphone que le nombre de licences en votre possession. Pour déterminer le nombre de numéros de téléphone que vous pouvez acquérir, prenez votre nombre de licences, augmentez ce nombre de 10 pour cent, puis ajoutez encore 10. Par exemple, si vous avez 100  licences Plan d’appels nationaux et/ou Forfait d’appels internationaux, vous pouvez réserver 120 numéros de téléphone, en supposant que vous n’avez pas encore acquis certains numéros de téléphone pour ces 100 utilisateurs.  Pour plus d’informations, consultez la rubrique [Combien de numéros de téléphone pouvez-vous obtenir ?](./how-many-phone-numbers-can-you-get.md)
@@ -80,4 +80,4 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 
 [Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)
 
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7946d6c098979d478f91d8ef67a3214c11823d7d
-ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
+ms.openlocfilehash: 0ee333cd789b908851358f537e940c77543210e48feb86b2174cb9e289a2d160
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52929320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304896"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barrières de l’information au Microsoft Teams
 
@@ -115,7 +115,7 @@ Les stratégies IB sont activées lorsque les événements Teams événements su
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Impact des modifications de stratégie sur les conversations existantes
 
-Lorsque l’administrateur de stratégie de l’organisation modifie une stratégie ou lorsqu’une modification de stratégie est activée en raison d’une modification du profil d’un utilisateur (par exemple pour un changement de poste), le service d’évaluation de la stratégie de barrière des informations effectue automatiquement une recherche dans les membres pour s’assurer que leur appartenance à l’équipe n’enfreigne aucune stratégie.
+Lorsque l’administrateur de stratégie de l’organisation modifie une stratégie ou lorsqu’une modification de stratégie est activée en raison d’une modification du profil d’un utilisateur (par exemple, pour un changement de poste), le service d’évaluation de la stratégie de barrière des informations recherche automatiquement les membres pour s’assurer que leur appartenance à l’équipe ne constitue pas une violation des stratégies.
 
 S’il existe une conversation ou une autre communication entre utilisateurs, et qu’une nouvelle stratégie est définie ou qu’une stratégie existante est modifiée, le service évalue les communications existantes pour s’assurer que les communications sont toujours autorisées à se produire. 
 
@@ -184,7 +184,7 @@ Actuellement, les utilisateurs sont les scénarios suivants si une stratégie DE
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams stratégies et sites SharePoint web
 
-Lorsqu’une équipe est créée, un site SharePoint est mis en service et associé Microsoft Teams aux fichiers. Les stratégies de barrière de l’information ne sont pas respecter sur SharePoint site et fichiers par défaut. Pour faire tomber les barrières de l’information SharePoint et OneDrive, suivez les recommandations et les [étapes](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) qui permettent d’utiliser les barrières de l’information grâce SharePoint d’informations.
+Lorsqu’une équipe est créée, un site SharePoint est mis en service et associé Microsoft Teams aux fichiers. Les stratégies de barrière de l’information ne sont pas respecter sur SharePoint site et fichiers par défaut. Pour faire tomber les barrières de l’information SharePoint et OneDrive, suivez les instructions et les [étapes](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) qui permettent d’utiliser les barrières de l’information grâce SharePoint sur ce sujet.
 
 ## <a name="required-licenses-and-permissions"></a>Licences et autorisations requises
 
@@ -192,7 +192,7 @@ Pour plus d’informations sur les licences et les autorisations, notamment sur 
 
 ## <a name="known-issues"></a>Problèmes connus
 
-- Les utilisateurs ne peuvent pas participer à des réunions ad hoc : si les stratégies de **l’ORGANISATION sont activées,** les utilisateurs ne sont pas autorisés à participer à des réunions si la taille de la liste de réunion est supérieure aux limites de participation aux [réunions.](limits-specifications-teams.md) La raison principale est que les vérifications de l’organisation de l’organisation dépendent du fait que les utilisateurs peuvent être ajoutés à une liste de conversation de réunion et que seul le moment où ils peuvent y être ajoutés est autorisé à participer à la réunion. Un utilisateur rejoignant une réunion l’ajoute à la liste ; par conséquent, pour les réunions périodiques, la liste peut se remplir rapidement. Une fois que la liste de conversation a atteint le nombre limite de participation [à](limits-specifications-teams.md)la réunion, aucun utilisateur supplémentaire n’est autorisé à y être ajouté. Si l’offre IB est activée pour le client et que la liste de conversation est pleine pour une réunion, les nouveaux utilisateurs (utilisateurs qui ne sont pas déjà dans la liste) ne sont pas autorisés à participer à la réunion. Toutefois, si l’offre IB n’est pas activée pour le client et que la liste de conversation de la réunion est pleine, les nouveaux utilisateurs (utilisateurs qui ne sont pas déjà dans la liste) sont autorisés à participer à la réunion, même s’ils ne voient pas l’option de conversation dans la réunion. Une solution à court terme consiste à supprimer les membres inactifs de la liste de conversation de réunion afin de faire de l’espace pour les nouveaux utilisateurs. Nous augmenterons toutefois la taille des listes de conversation de réunion à une date ultérieure.
+- Les utilisateurs ne peuvent pas participer à des réunions ad hoc : si les stratégies de **l’ORGANISATION sont activées,** les utilisateurs ne sont pas autorisés à participer à des réunions si la taille de la liste de réunions est supérieure aux limites de participation aux [réunions.](limits-specifications-teams.md) La raison principale est que les vérifications de l’organisation de l’organisation dépendent du fait que les utilisateurs peuvent être ajoutés à une liste de conversation de réunion et que seul le moment où ils peuvent y être ajoutés est autorisé à participer à la réunion. Un utilisateur rejoignant une réunion l’ajoute à la liste ; par conséquent, pour les réunions périodiques, la liste peut se remplir rapidement. Une fois que la liste de conversation a atteint le nombre limite de participation [à](limits-specifications-teams.md)la réunion, aucun utilisateur supplémentaire n’est autorisé à y être ajouté. Si l’offre IB est activée pour le client et que la liste de conversation est pleine pour une réunion, les nouveaux utilisateurs (utilisateurs qui ne sont pas déjà dans la liste) ne sont pas autorisés à participer à la réunion. Toutefois, si l’offre IB n’est pas activée pour le client et que la liste de conversation de la réunion est pleine, les nouveaux utilisateurs (utilisateurs qui ne sont pas déjà dans la liste) sont autorisés à participer à la réunion, même s’ils ne voient pas l’option de conversation dans la réunion. Une solution à court terme consiste à supprimer les membres inactifs de la liste de conversation de réunion afin de faire de l’espace pour les nouveaux utilisateurs. Nous augmenterons toutefois la taille des listes de conversation de réunion à une date ultérieure.
 - **Les utilisateurs ne peuvent** pas participer aux réunions de canal : si les stratégies de l’organisation sont activées, les utilisateurs ne sont pas autorisés à participer aux réunions de canal si ils ne sont pas membres de l’équipe. La raison principale est que les vérifications de l’organisation de l’organisation dépendent du fait que les utilisateurs peuvent être ajoutés à une liste de conversation de réunion et que seul le moment où ils peuvent y être ajoutés est autorisé à participer à la réunion. Le thread de conversation dans une réunion de canal est disponible uniquement pour les membres de l’équipe/canal, et les non-membres ne peuvent pas voir ou accéder au fil de conversation. Si l’organisation est activée pour le client et qu’un membre non-équipe tente de rejoindre une réunion de canal, cet utilisateur n’est pas autorisé à participer à la réunion. Toutefois, si  l’organisation n’est pas activée pour le client et qu’un membre non-membre tente de rejoindre une réunion de canal, l’utilisateur est autorisé à participer à la réunion, mais il ne verra pas l’option de conversation dans la réunion.
 - Les propriétaires d’équipe ne sont pas supprimés : si une nouvelle stratégie DE l’organisation d’entreprise est appliquée et entraîne la présence de plusieurs segments en conflit dans un canal Teams, les segments avec les propriétaires d’équipe voient leur préférence augmenter et les autres utilisateurs de segments sont supprimés. De plus, pour le moment, les propriétaires d’équipe ne sont pas supprimés, même s’ils sont en conflit avec d’autres propriétaires/utilisateurs. Les administrateurs de client et les autres propriétaires de canaux devront supprimer manuellement les propriétaires en conflit.
 - **Nombre maximal de segments autorisés dans** un client : chaque client peut configurer jusqu’à 100 segments lors de la configuration des stratégies de l’organisation de l’organisation. Il n’y a pas de limite au nombre de stratégies qui peuvent être configurées.
@@ -209,5 +209,5 @@ Pour plus d’informations sur les licences et les autorisations, notamment sur 
 
 ## <a name="availability"></a>Disponibilité
 
-- La fonctionnalité est disponible dans notre cloud public. En janvier 2021, nous avons déployé des barrières à l’information dans Cloud de la communauté du secteur public cloud.
+- La fonctionnalité est disponible dans notre cloud public. En janvier 2021, nous avons déployé les barrières de l’information dans Cloud de la communauté du secteur public cloud.
 - La fonctionnalité n’est pas encore disponible dans les nuages GCCH et DOD.

@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment envoyer manuellement une demande de demande de port.
-ms.openlocfilehash: 92b5754a78cb0949b2788b33000ecbfa5d1f2e53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13732092921951ee60749e91f4963942f31cb9c45211a0d66cbd9b6f688d220a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098260"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276140"
 ---
 # <a name="manually-submit-a-port-order"></a>Envoyer manuellement une demande de transfert
 
@@ -45,10 +45,10 @@ Pour envoyer manuellement une nouvelle demande de port, envoyez votre formulaire
 
 - Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Consultez [Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gérer des numéros de téléphone pour votre entreprise](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
-- [Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
-description: La cmdlet Set-CcApplianceDirectory définit l’annuaire de travail sur le serveur hôte de la version Cloud Connector de Skype Entreprise. Tous les fichiers de déploiement sont stockés dans ce répertoire.
-ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Set-CcApplianceDirectory définit le répertoire de travail sur Skype Entreprise Cloud Connector Edition serveur hôte. Tous les fichiers de déploiement sont stockés dans ce répertoire.
+ms.openlocfilehash: 8ca6b8b8e175058e5f19c86a9dd1c6e0cf8a43ab6ef7a439eee4e09b5430f6a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306595"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
-La cmdlet Set-CcApplianceDirectory définit l’annuaire de travail sur le serveur hôte de la version Cloud Connector de Skype Entreprise. Tous les fichiers de déploiement sont stockés dans ce répertoire.
+La cmdlet Set-CcApplianceDirectory définit le répertoire de travail sur Skype Entreprise Cloud Connector Edition serveur hôte. Tous les fichiers de déploiement sont stockés dans ce répertoire.
   
 ```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
@@ -54,11 +54,11 @@ Aucun. La cmdlet Set-CcApplianceDirectory n’accepte pas la saisie de données 
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 

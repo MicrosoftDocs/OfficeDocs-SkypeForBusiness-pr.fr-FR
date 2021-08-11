@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les principaux services et fonctionnalités qui existent dans votre environnement hérité avant de déployer un pool pilote Skype Entreprise Server 2019. Avant de déployer XMPP Microsoft Skype Entreprise Server 2019 dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré pris en charge par la configuration XMPP héritée.
-ms.openlocfilehash: 2600cc2e6f4fac258431bcf505af10d1f8c212fe
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 67583f875a8da0e58cc2c380352a0e1a96415003a9f493ee4f3172f8942972ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751676"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277649"
 ---
 # <a name="verify-the-legacy-environment"></a>Vérifier l’environnement hérité
 
-Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les principaux services et fonctionnalités existant dans votre environnement hérité avant de déployer un pool pilote Skype Entreprise Server 2019. Avant de déployer XMPP Microsoft Skype Entreprise Server 2019 dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré pris en charge par la configuration XMPP héritée. La vérification de votre déploiement hérité implique les choses suivantes :
+Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les principaux services et fonctionnalités qui existent dans votre environnement hérité avant de déployer un pool pilote Skype Entreprise Server 2019. Avant de déployer XMPP Microsoft Skype Entreprise Server 2019 dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré pris en charge par la configuration XMPP héritée. La vérification de votre déploiement hérité implique les choses suivantes :
   
 - Vérifier que les services hérités sont démarrés
     
@@ -38,19 +38,19 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
      ![Liste des services en cours d’exécution sur le serveur frontal](../media/migration_lyncserver_config_w14_services.jpg)
   
-## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Examiner la topologie héritée dans le Panneau de contrôle Skype Entreprise Server
+## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Examiner la topologie héritée dans le Skype Entreprise Server de contrôle
 
 1. Ouvrez une session sur le serveur frontal avec un compte membre du groupe RTCUniversalServerAdmins ou membre du rôle d’administrateur CsAdministrator ou CsUserAdministrator.
     
-2. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2. Ouvrez Skype Entreprise Server panneau de bord.
     
 3. Sélectionnez **Topologie**. Vérifiez que les différents serveurs de votre déploiement hérité sont répertoriés.
     
      ![Page topologie du Panneau de contrôle](../media/migration_lyncserver_2010_topology.JPG)
   
-## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Passer en revue les utilisateurs hérités dans le Panneau de contrôle Skype Entreprise Server
+## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Passer en revue les utilisateurs hérités dans le Skype Entreprise Server de contrôle
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de bord.
     
 2. Sélectionnez **Utilisateurs,** puis cliquez sur **Rechercher.**
     
@@ -72,7 +72,7 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
      ![Générateur de topologie, itinéraire de fédération de site](../media/migration_lyncserver_w14_federation.jpg)
   
-6. Sélectionnez le serveur Standard Edition Server ou le pool frontal Enterprise Edition. Déterminez si un pool edge a été configuré pour les médias sous **Associations.** 
+6. Sélectionnez le Édition Standard serveur ou Êdition Entreprise pool frontal. Déterminez si un pool edge a été configuré pour les médias sous **Associations.** 
     
      ![Générateur de topologie affichant les serveurs et les pools](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
@@ -86,6 +86,6 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
 2. Vérifiez que le service de passerelle XMPP Office Communications Server est démarré. 
     
-     ![Service de passerelle XMPP Office Communications Server](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Office Service de passerelle XMPP Communications Server](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 

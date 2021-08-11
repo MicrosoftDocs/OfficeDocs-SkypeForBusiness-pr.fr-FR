@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Découvrez comment l’audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
-ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111270"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799065"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audioconférence en Microsoft 365
-L’audioconférence Microsoft 365 et Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence rendez-vous accepte jusqu'à 250 participants.
+L’audioconférence Microsoft 365 et Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence permet d’autoriser jusqu’à 1 000 participants téléphoniques.
 
 ## <a name="what-is-audio-conferencing"></a>Qu-est-ce que l’audioconférence ?
 L’appel entrant vers une réunion est particulièrement utile pour les personnes qui sont en déplacement et ne peuvent pas utiliser le client Skype Entreprise ou Microsoft Teams sur leur ordinateur ou leur appareil mobile. Mais dans d’autres cas, l’utilisation d’un téléphone pour participer à une réunion Skype Entreprise ou Microsoft Teams peut constituer une meilleure option qu’une application sur un ordinateur :

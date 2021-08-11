@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment utiliser PowerShell pour obtenir la fonctionnalité SEFAUtil dans Skype Entreprise Server 2019 après l’installation de la mise à jour cumulative 1.'
-ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: afb0c34afedde91bac40ee90b155809ed3c2b557d88608028b77e0835eb9661d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277619"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Utilisation de la fonctionnalité SEFAUtil via PowerShell Skype Entreprise Server 2019
 
@@ -34,11 +34,11 @@ Les administrateurs peuvent modifier les paramètres de forwarding d’appel à 
 
 - `Get-CsUserCallForwardingSettings -Identity <UserIdParameter>`
 
-Cette cmdlet renvoie les paramètres de forwardage d’appel de l’utilisateur spécifié en tant qu’objet et s’affiche de la même façon à l’écran.
+Cette cmdlet renvoie les paramètres de forwarding d’appel de l’utilisateur spécifié en tant qu’objet et affiche la même chose à l’écran.
 
 - `Set-CsUserCallForwardingSettings -Identity <UserIdParameter> [Param1 <Value>] [Param2 <Value>]…`
 
-Cette cmdlet modifie les paramètres de forwardage d’appel de l’utilisateur spécifié. Cette cmdlet renvoie les paramètres de forwardage d’appel de l’utilisateur spécifié en tant qu’objet et affiche la même chose à l’écran, en cas de réussite. En cas d’échec, un message d’erreur approprié s’affiche.
+Cette cmdlet modifie les paramètres de forwarding d’appel de l’utilisateur spécifié. Cette cmdlet renvoie les paramètres de forwardage d’appel de l’utilisateur spécifié en tant qu’objet et affiche la même chose à l’écran, en cas de réussite. En cas d’échec, un message d’erreur approprié s’affiche.
 
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToVoicemail] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -DisableForwarding  [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
@@ -52,7 +52,7 @@ Cette cmdlet modifie les paramètres de forwardage d’appel de l’utilisateur.
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToVoicemail]  [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>] [-Team <PSListModifier>] [-TeamDelegateRingWaitTime <TimeSpan>] [-SettingsActiveWorkHours]`
 - `Set-CsUserCallForwardingSettings [-Identity] <UserIdParameter> -EnableSimulRing <String> [-UnansweredToOther <String>] [-UnansweredWaitTime <TimeSpan>] [-Delegates <PSListModifier>]  [-Team <PSListModifier>]  [-TeamDelegateRingWaitTime <TimeSpan>]  [-SettingsActiveWorkHours]`
 
-Cette cmdlet modifie les paramètres de sonnerie simultanée (là encore, avec deux exemples de paramètres, un pour la messagerie vocale sans réponse et l’autre pour un autre).
+Cette cmdlet modifie les paramètres de sonnerie simultanée (là encore, avec deux exemples de paramètres, l’un pour la messagerie vocale sans réponse et l’autre pour les autres).
 
 ## <a name="delegation-settings"></a>Paramètres de délégation
 
@@ -72,7 +72,7 @@ Cette cmdlet ajoute ou supprime un délégué.
 
 - `Set-CsUserDelegates -Identity <UserIdParameter> [-Delegates @{replace=[list]}]`
 
-Cette cmdlet définit une liste de délégués à des délégués spécifiques.
+Cette cmdlet définit une liste de délégués pour des délégués spécifiques.
 
 ## <a name="team-members-and-related-settings"></a>Membres de l’équipe et paramètres associés
 

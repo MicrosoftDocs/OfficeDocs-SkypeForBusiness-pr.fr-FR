@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Pour définir les propriétés sous Paramètres externes, configurez les paramètres suivants :'
-ms.openlocfilehash: 6075fab9dbc820b725beec8be4a674a828b4c7d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d8c800051dcbc6aa2c1a533940c3d3d558ef86ba8db115e557846dc04a08c795
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307155"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Développeur des paramètres FQDN du serveur Edge pour Lync Server 2010
  
@@ -37,7 +37,7 @@ Pour les services Edge activés, tapez un **FQDN** de pool et un port sous **Por
   
 - Définissez le FQDN du pool de **services Edge** d’accès et un port qui identifie le service de manière unique.
     
-- Définissez le FQDN du pool de **services Edge** de conférence Web (si activer un FQDN et une adresse IP distincts pour la conférence web et qu’A/V n’est pas sélectionné) et un port qui identifie le service de manière unique.
+- Définissez le FQDN du pool de **services Edge** de conférence Web (si vous activez un FQDN et une adresse IP distincts pour la conférence web et qu’A/V n’est pas sélectionné) et un port qui identifie le service de manière unique.
     
 - Définissez le FQDN du pool de **services Edge A/V** (si vous activez un FQDN et une adresse IP distincts pour la conférence web et qu’A/V n’est pas sélectionné) et un port qui identifie le service de manière unique.
     

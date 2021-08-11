@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article décrit la configuration de votre organisation et de vos salles Teams pour prendre en charge la prise en charge de la prise en charge de la réunion tierce à Cisco WebEx et Zoom.
-ms.openlocfilehash: ef14d1f342c6f2b34ad7c948a2688fa39a09801d
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 9857c4dee31c02c96212ccead33408b9e55b989de5b00d1d38aa975dc0413aab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796688"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275930"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Activer Teams de salle pour participer à des réunions tierces
 
@@ -56,19 +56,19 @@ En savoir plus [sur Exchange Online PowerShell.](/powershell/exchange/exchange-o
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>Étape 2 : configurer Office 365 protection contre les menaces et réécrire le lien
 
-Pour permettre une expérience de participer en une seule fois, les informations de lien d’accès à la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité liens sécurisés [Office 365 Advanced Threat Protection,](/microsoft-365/security/office-365-security/atp-safe-links) ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes de menaces, cela peut modifier les URL de participer à la réunion et rendre la réunion non reconnue par l’appareil salles Teams. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à la liste « Ne pas réécrire » des liens sécurisés ATP ou la liste des exceptions de réécriture d’URL tierces.
+Pour permettre une expérience de participer en une seule fois, les informations de lien d’accès à la réunion tierce doivent être présentes et lisibles dans l’invitation à la réunion. Si votre organisation utilise la fonctionnalité Liens vers l’Office 365 Advanced [Threat Protection Coffre](/microsoft-365/security/office-365-security/atp-safe-links) ou si vous utilisez une solution tierce qui analyse toutes les URL entrantes et sortantes de menaces, elle peut modifier les URL de participer à la réunion et rendre la réunion non reconnue par l’appareil salles Teams. Pour vous assurer que cela ne se produit pas, vous devez ajouter les URL du service de réunion tiers à la liste Des liens « ne pas réécrire » ou la liste d’exception Coffre s de réécriture d’URL tierces.
 
-Pour ajouter des URL de service de réunion tierces à la liste Liens sécurisés ATP, suivez les étapes de la procédure Configurer une liste d’URL de ne pas réécrire personnalisée à l’aide de liens [sécurisés ATP.](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide) Si vous utilisez une solution tierce, consultez les instructions de cette solution pour ajouter des URL à sa liste d’exceptions de réécriture d’URL.
+Pour ajouter des URL de service de réunion tierces à la liste Liens « Ne pas réécrire » du Coffre atP, suivez les étapes de la procédure Configurer une liste personnalisée d’URL ne pas réécrire à l’aide des liens d’Coffre [ATP.](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide) Si vous utilisez une solution tierce, consultez les instructions de cette solution pour ajouter des URL à sa liste d’exceptions de réécriture d’URL.
 
-Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre liste de liens sécurisés ATP « Ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierces :
+Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre liste d’exceptions ATP Coffre Liens « Ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierces :
 
 - **Cisco WebEx**`*.webex.com*`
 - **Zoom,** `*.zoom.us*` `*.zoom.com*` , `*.zoomgov.com*`
 
-Pour obtenir la liste complète des URL à ajouter à votre liste de liens sécurisés ATP, « ne pas réécrire » ou la liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir de qui vous souhaitez accepter les invitations aux réunions. 
+Pour obtenir la liste complète des URL à ajouter à votre Coffre Liens « Ne pas réécrire » liste ou liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir de qui vous voulez accepter les invitations aux réunions. 
 
 > [!CAUTION]
-> Ajoutez uniquement les URL de confiance à votre liste de liens sécurisés ATP « Ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierces.
+> Ajoutez uniquement les URL de confiance à votre liste d’adresses Coffre Liens « Ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierces.
 
 ## <a name="step-3-enable-third-party-meetings-on-device"></a>Étape 3 : activer les réunions tierces sur l’appareil
 

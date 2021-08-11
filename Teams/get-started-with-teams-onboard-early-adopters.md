@@ -1,5 +1,5 @@
 ---
-title: Intégrer des premiers utilisateurs dans Microsoft Teams
+title: Intégrer des premiers utilisateurs dans Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,24 +19,24 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c85d22179887fa797bb91fedbc0e5ec40b08a03
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 34573ba9083f436fec93ca0f1fa58494f6c952e26fa74f4b93ac942a1b9b633a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101190"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304907"
 ---
-# <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des premiers utilisateurs dans Microsoft Teams
+# <a name="onboard-early-adopters-to-microsoft-teams"></a>Intégrer des premiers utilisateurs dans Microsoft Teams
 
 ## <a name="invite-users-to-teams"></a>Inviter des utilisateurs à rejoindre Teams
 
-Envoyez un message de bienvenue aux utilisateurs avec les noms et les descriptions des équipes que vous avez créées et invitez-les à rejoindre les conversations dans Teams. N’oubliez pas d’inclure les liens suivants dans le courrier électronique pour qu’ils sachent où obtenir la prise en charge, les formations et le support :
+Envoyez un message de bienvenue aux utilisateurs avec les noms et les descriptions des équipes que vous avez créées et invitez-les à rejoindre les conversations dans Teams. N’oubliez pas d’inclure les liens suivants dans le courrier électronique pour qu’ils sachent où obtenir la prise en charge, les formations et le support :
 - [Client Web Teams](https://teams.microsoft.com)
 - [Liens de téléchargement du client de bureau et mobile](https://teams.microsoft.com/downloads)
 - [Vidéos de formation Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Documentation d'aide Teams](https://support.office.com/teams)
 
-Par exemple, pour l’équipe « Découvrez Teams », vous pouvez démarrer votre message comme suit :
+Par exemple, pour l’équipe « Découvrez Teams », vous pouvez démarrer votre message comme suit :
 
    ```console
    Welcome to Microsoft Teams for <insert_company_name>. Teams is a chat-based workspace that brings together chat, files, people, and tools in one place. 
@@ -51,7 +51,7 @@ Veillez à interagir avec les utilisateurs lorsqu’ils se connectent pour la pr
 ## <a name="get-teams-clients"></a>Obtenir les clients Teams
 Teams a des clients pour le bureau (Windows et Mac), pour le web et pour les applications mobile (iOS et Android). Nous recommandons que les utilisateurs installent le client bureau et le client mobile pour profiter au mieux de Teams. 
 
-Accédez à : [Teams pour Windows](#teams-for-windows) | [Teams pour Mac](#teams-for-mac) | [Teams pour les navigateurs internet](#web-client) | [Teams pour iOS](#teams-for-ios)  |  [Teams pour Android](#teams-for-android)
+Accédez à : [Teams pour Windows](#teams-for-windows) | [Teams pour Mac](#teams-for-mac) | [Teams pour les navigateurs internet](#web-client) | [Teams pour iOS](#teams-for-ios)  |  [Teams pour Android](#teams-for-android)
 
 ### <a name="desktop-client"></a>Client de bureau 
 
@@ -61,7 +61,7 @@ Le client de bureau Teams assure aux utilisateurs de Windows et Mac la meilleure
 > En tant qu’administrateur, vous pouvez choisir la méthode de distribution des fichiers d’installation sur les ordinateurs dans votre organisation, tels que Microsoft Endpoint Configuration Manager (Windows) ou Jamf Pro (macOS).
 
 #### <a name="teams-for-windows"></a>Teams pour Windows 
-Pour installer le client de bureau Windows, le plus simple consiste à :
+Pour installer le client de bureau Windows, le plus simple consiste à :
 
 1. Télécharger le client de bureau Windows à partir de [ https://teams.microsoft.com/downloads ](https://teams.microsoft.com/downloads).
 2. Exécuter le programme d’installation (ne nécessite pas d’autorisations d’administrateur). 
@@ -71,7 +71,7 @@ Pour installer le client de bureau Windows, le plus simple consiste à :
 > Plus tard, lorsque vous envisagez un déploiement plus formel en masse de Teams au sein de votre organisation, consultez la vidéo [Client de bureau Windows pour Teams](https://aka.ms/teams-clients) pour découvrir comment planifier et le déployer. 
 
 #### <a name="teams-for-mac"></a>Teams pour Mac 
-Pour installer le client de bureau Mac, le plus simple consiste à :
+Pour installer le client de bureau Mac, le plus simple consiste à :
 
 1. Télécharger le client de bureau Mac à partir de [ https://teams.microsoft.com/downloads ](https://teams.microsoft.com/downloads).
 2. Exécuter le programme d’installation (nécessite une autorisation d’administrateur). 
@@ -95,7 +95,7 @@ Les utilisateurs exécutant Android 4.4 ou version ultérieure peuvent télécha
 
 ## <a name="drive-initial-adoption"></a>Favoriser l’adoption initiale
 
-Il est important d’encourager activement les premiers clients à utiliser Teams pour promouvoir les nouvelles expériences de collaboration et développer des spécialistes enthousiastes de Teams. Nous vous recommandons d’utiliser le canal « Comment » dans l’équipe « Découvrir Teams » créé pour partager des conseils avec vos utilisateurs et de favoriser l’adoption. 
+Il est important d’encourager activement les premiers clients à utiliser Teams pour promouvoir les nouvelles expériences de collaboration et développer des spécialistes enthousiastes de Teams. Nous vous recommandons d’utiliser le canal « Comment » dans l’équipe « Découvrir Teams » créé pour partager des conseils avec vos utilisateurs et de favoriser l’adoption. 
 
 Pour obtenir une aide détaillée sur l’adoption de Teams dans votre organisation, voir [Adopter Teams](adopt-microsoft-teams-landing-page.md).
 

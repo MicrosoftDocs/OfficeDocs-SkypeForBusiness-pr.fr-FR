@@ -11,29 +11,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Comment tester les autorisations d’administrateur dans Skype Entreprise Server
-ms.openlocfilehash: 535911c26bac5e3f1dadb2c8d59cffe82dc20c7a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1c828eeb965ee98aae72b00c7da9fa65016d2ed90e56c7cc982a59763c2703ae
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122398"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590768"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Test des autorisations d’administrateur dans Skype Entreprise Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
-|Planification de vérification|Après le déploiement initial de Skype Entreprise Server. Si nécessaire si des problèmes liés aux autorisations surviennent.|
+|Planification de vérification|Après le déploiement initial Skype Entreprise Server' Si nécessaire si des problèmes liés aux autorisations surviennent.|
 |Outil de test|Windows PowerShell|
-|Autorisations requises|Lorsqu’ils sont exécutés localement à l’aide de Skype Entreprise Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.<br><br/>Lorsqu’il est exécuté à l’aide d’une instance distante de Windows PowerShell, un rôle RBAC doit être attribué aux utilisateurs qui disposent de l’autorisation d’exécuter la cmdlet Test-CsOUPermission commande. Pour voir la liste de tous les rôles RBAC qui peuvent utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell suivante :<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match « Test-CsOUPermission"}|
+|Autorisations requises|Lorsqu’ils sont exécutés localement à l’Skype Entreprise Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.<br><br/>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, les utilisateurs doivent se voir attribuer un rôle RBAC autorisé à exécuter l'Test-CsOUPermission cmdlet. Pour voir la liste de tous les rôles RBAC qui peuvent utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell suivante :<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match « Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>Description
 
-Lorsque vous installez Skype Entreprise Server, l’une des tâches effectuées par le programme d’installation donne au groupe RTCUniversalUserAdmins les autorisations Active Directory nécessaires pour gérer les utilisateurs, les ordinateurs, les contacts, les contacts d’application et les personnes InetOrg. Si vous avez désactivé l’héritage des autorisations dans Active Directory, le programme d’installation ne pourra pas attribuer ces autorisations. Par conséquent, les membres du groupe RTCUniversalUserAdmins ne pourront pas gérer les entités Skype Entreprise Server. Ces privilèges de gestion seront uniquement disponibles pour les administrateurs de domaine. 
+Lorsque vous installez Skype Entreprise Server, l’une des tâches effectuées par le programme d’installation donne au groupe RTCUniversalUserAdmins les autorisations Active Directory nécessaires pour gérer les utilisateurs, les ordinateurs, les contacts, les contacts d’application et les personnes InetOrg. Si vous avez désactivé l’héritage des autorisations dans Active Directory, le programme d’installation ne pourra pas attribuer ces autorisations. Par conséquent, les membres du groupe RTCUniversalUserAdmins ne pourront pas gérer Skype Entreprise Server entités. Ces privilèges de gestion seront uniquement disponibles pour les administrateurs de domaine. 
 
 LTest-CsOUPermission cmdlet vérifie que les autorisations requises pour gérer les utilisateurs, les ordinateurs et d’autres objets sont définies sur un conteneur Active Directory. Si ces autorisations ne sont pas définies, vous pouvez résoudre ce problème en exécutant [l’cmdlet Grant-CsOUPermission](/powershell/module/skype/Grant-CsOUPermission). 
 
-Notez Grant-CsOUPermission pouvez uniquement attribuer des autorisations aux membres du groupe RTCUniversalUserAdmins. Vous ne pouvez pas utiliser cette cmdlet pour accorder des autorisations à un utilisateur ou un groupe arbitraire. Si vous souhaitez qu’un autre utilisateur ou groupe soit autorisé à gérer les utilisateurs, vous devez ajouter cet utilisateur (ou groupe) au groupe RTCUniversalUserAdmins. 
+Notez Grant-CsOUPermission pouvez uniquement attribuer des autorisations aux membres du groupe RTCUniversalUserAdmins. Vous ne pouvez pas utiliser cette cmdlet pour accorder des autorisations à un utilisateur ou un groupe arbitraire. Si vous souhaitez qu’un autre utilisateur ou groupe soit autorisé à gérer les utilisateurs, vous devez ajouter cet utilisateur (ou ce groupe) au groupe RTCUniversalUserAdmins. 
 
 
 ## <a name="running-the-test"></a>Exécution du test
@@ -54,13 +54,13 @@ Si les autorisations requises ont déjà été définies, Test-CsOUPermission re
 
 Vrai
 
-Si les autorisations requises ne sont pas définies, Test-CsOUPermission renvoyer la valeur False. Vous de devez peut-être rechercher un moment pour trouver cette valeur. Il est généralement incorporé dans plusieurs avertissements qui l’accompagnent. Par exemple :
+Si les autorisations requises ne sont pas définies, Test-CsOUPermission renvoyer la valeur False. Vous de devez peut-être rechercher un moment pour trouver cette valeur. Il est généralement incorporé dans plusieurs avertissements qui l’accompagnent. Par exemple :
 
 AVERTISSEMENT : entrée de contrôle d’accès (ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup; allow; ReadProperty; ContainerInherit; Descendants ; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 
 AVERTISSEMENT : les entrées de contrôle d’accès sur l’objet « OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com » ne sont pas prêtes. 
 
-False 
+Faux 
 
 AVERTISSEMENT : le traitement « Test-CsOUPermission » s’est terminé avec des avertissements. « 2 » avertissements ont été enregistrés au cours de cette run. 
 

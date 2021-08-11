@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 17e9a1c0e6fd35787ee451c0fc96f57da0a1dcaf736155d38aedcec05f90ae41
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646225"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799045"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
@@ -183,6 +183,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| CESSEURS DÉVELOPPENT VISION 3T |1.2.2.21182.10   | Mise à jour pour 2021 #2 |
 | AudioCodes RXV80 |1.13.361   | Mise à jour pour 2021 #2 |
 | Yealink VC210 |118.15.0.54   | Mise à jour pour 2021 #2    |
 | Barre de réunions Yealink A20 | 133.15.0.60     | Mise à jour pour 2021 #2    |

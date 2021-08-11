@@ -1,5 +1,5 @@
 ---
-title: Branch site SIP trunking in Skype for Business Server
+title: Branch site SIP trunking in Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
-description: En savoir plus sur la trunking SIP sur les sites de succursale dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: f8b875fca8adc1ac78c0b24cf3e53fab2ec2cd89
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Découvrez la trunking SIP sur les sites de succursale dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 3a009e7e2a94cd9c172adb4cfb0496efc9a44a03749f6c40c6ee63fb321b7f62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813714"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306955"
 ---
-# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Branch site SIP trunking in Skype for Business Server
+# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Branch site SIP trunking in Skype Entreprise Server
  
-En savoir plus sur la trunking SIP sur les sites de succursale dans Skype Entreprise Server Voix Entreprise.
+Découvrez la trunking SIP sur les sites de succursale dans Skype Entreprise Server Voix Entreprise.
   
-Dans certains cas, vous devrez peut-être implémenter une trunking SIP distribuée sur des sites de succursale sélectionnés. Pour déterminer si une trunk SIP est nécessaire pour un site de succursale et pour plus d’informations sur les options de topologie prise en charge pour le déploiement de trunks SIP dans des sites de succursale, voir [siP trunking in Skype for Business Server](sip-trunking.md).
+Dans certains cas, vous devrez peut-être implémenter une trunking SIP distribuée sur des sites de succursale sélectionnés. Pour déterminer si une trunk SIP est nécessaire pour un site de succursale et pour plus d’informations sur les options de topologie prise en charge pour le déploiement de trunks SIP dans des sites de succursale, voir la section [sip trunking in Skype Entreprise Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Conditions requises pour le déploiement d’une jonction SIP sur un site de succursale : exemple d’analyse
 

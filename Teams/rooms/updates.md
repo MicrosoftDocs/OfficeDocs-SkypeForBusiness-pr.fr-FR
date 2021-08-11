@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: Les administrateurs peuvent en savoir plus sur la gestion des mises Windows jour et Windows mises à jour des fonctionnalités pour Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bb233ceedadeaf9c7f14ddf831bd9d324d9211
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 67144ff29077a3dec6be79b9b68efb1162d31a9069b3436b29f9ac50a4857914
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275960"
 ---
 # <a name="manage-windows-updates"></a>Gérer Windows mises à jour
 

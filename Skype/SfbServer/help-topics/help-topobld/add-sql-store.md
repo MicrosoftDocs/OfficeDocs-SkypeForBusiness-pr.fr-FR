@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
-description: Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (une instance par défaut ou une instance nommée), vous devez spécifier ce qui suit.
-ms.openlocfilehash: 28018a7320bc42761a668aaff385302016781592
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (instance par défaut ou instance nommée), vous devez spécifier ce qui suit.
+ms.openlocfilehash: dfc1c891e3f64df0b8ba96f9f917ec502c272cb50ea87c022977bfc6c7c116b7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307335"
 ---
 # <a name="add-sql-store"></a>Ajouter un magasin SQL
 
 Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (instance par défaut ou instance nommée), vous devez spécifier ce qui suit.
 
-Spécifiez le nom de domaine complet (FQDN) du SQL Server qui hébergera l’instance de base de données que vous définissez.
+Spécifiez le nom de domaine complet (FQDN) de la SQL Server qui hébergera l’instance de base de données que vous définissez.
 
 Spécifiez l’instance de SQL Server qui hébergera les données. Vous pouvez spécifier l’instance par défaut ou une instance nommée.
 

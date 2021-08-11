@@ -1,5 +1,5 @@
 ---
-title: Voice Traffic (Planning Tool)
+title: Skype Entreprise Server Outil de planification du trafic vocal
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,16 +15,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
-description: L’outil de planification utilise des informations sur le trafic utilisateur pour déterminer le nombre de ports à utiliser dans le déploiement. Ce nombre détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. Pour plus d’informations, voir Estimateing voice usage and traffic for Skype for Business Server 2015.
-ms.openlocfilehash: f2d6edf73e8ff2f76b0d63467362c61d9047a811
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: L’outil de planification utilise des informations sur le trafic utilisateur pour déterminer le nombre de ports à utiliser dans le déploiement. Ce nombre détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. Pour plus d’informations, voir Estimateing voice usage and traffic for Skype Entreprise Server 2015.
+ms.openlocfilehash: 1b710fc99252c23637be21b7fbd5507d187df475e69f3488d33bf92ed2e1370c
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810494"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590738"
 ---
-# <a name="voice-traffic-planning-tool"></a>Voice Traffic (Planning Tool)
+# <a name="skype-for-business-server-voice-traffic-planning-tool"></a>Skype Entreprise Server Outil de planification du trafic vocal
  
-L’outil de planification utilise des informations sur le trafic utilisateur pour déterminer le nombre de ports à utiliser dans le déploiement. Ce nombre détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. Pour plus d’informations, [voir Estimateing voice usage and traffic for Skype for Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).
+L’outil de planification utilise des informations sur le trafic utilisateur pour déterminer le nombre de ports à utiliser dans le déploiement. Ce nombre détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. Pour plus d’informations, [voir Estimateing voice usage and traffic for Skype Entreprise Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).
   
 

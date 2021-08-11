@@ -1,5 +1,5 @@
 ---
-title: Configurer les numéros Microsoft 365 Business voix
+title: Configurer Microsoft 365 Business Voice numéros de téléphone
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Découvrez comment configurer des numéros Microsoft 365 Business voix pour les utilisateurs et les services de votre organisation.
+description: Découvrez comment configurer des numéros de Microsoft 365 Business Voice pour les utilisateurs et services de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89cb3764e30fa0bf4fcfa9d6a18d29ca69786cef
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: b8c4201930866c844a967c1f236222f7e9611602e5f9990c986a9700b5191d19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306575"
 ---
 # <a name="step-2-set-up-business-voice-phone-numbers"></a>Étape 2 : configurer les numéros de téléphone d’entreprise
 

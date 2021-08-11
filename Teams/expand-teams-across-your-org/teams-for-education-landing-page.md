@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0262d50ec74bfdb2934ced0d17eb015f742a9fbc1ec2d093a2f936e91c61edd6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306476"
 ---
 # <a name="teams-for-education"></a>Teams pour l’éducation
 
@@ -35,6 +35,6 @@ Grâce Teams, les enseignants et les enseignants peuvent créer des classes coll
 | ------------- | ------------- |
 | ![Capture d’écran de l’icône en forme de flèche droite](../media/arrow-right-2-teams.svg)  |  [Guide de démarrage rapide : administrateurs de Teams pour l’éducation](../teams-quick-start-edu.yml) |
 | ![Capture d’écran de l’icône de papier et de crayon](../media/sign-up-teams.svg) | [Devoirs dans Teams pour l’éducation](./assignments-in-teams.md) |
-| ![Capture d’écran de l’icône Insights](../media/insights-teams.svg) | [Insights dans Teams éducation](../class-insights.md) |
-| ![Capture d’écran de l’icône de boîte à outils](../media/toolbox.svg)  |  [Ressources pour les administrateurs Teams Éducation](../resources-teams-edu.md) |
-| ![Capture d’écran de l’icône de liste de vérification](../media/task-checklist-planning-teams.svg)  |  [FAQ sur la gouvernance pour Teams pour les administrateurs Éducation](../plan-teams-governance-edu.md) |
+| ![Capture d’écran de l’icône Insights](../media/insights-teams.svg) | [Informations dans Teams pour l’éducation](../class-insights.md) |
+| ![Capture d’écran de l’icône de boîte à outils](../media/toolbox.svg)  |  [Ressources pour les Teams pour l’éducation administrateurs](../resources-teams-edu.md) |
+| ![Capture d’écran de l’icône de liste de vérification](../media/task-checklist-planning-teams.svg)  |  [FAQ sur la gouvernance pour Teams pour l’éducation administrateurs](../plan-teams-governance-edu.md) |

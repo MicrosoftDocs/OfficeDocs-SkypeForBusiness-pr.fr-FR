@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le port SIP TCP par défaut pour la communication avec les clients, les pools et serveurs frontaux hérités est 5061. Si la valeur par défaut n’est pas utilisée, sélectionnez Port SIP pour tous les pools et serveurs et tapez la nouvelle valeur.
-ms.openlocfilehash: e9bab801a5cf5df3e7aa38d1214f9aa0b6fce053
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c1edad0c098937dd6cd518f295f65c690982fec2b3c8c6b42d2f6cf0480eebe5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307565"
 ---
 # <a name="legacy-merge-sip-port"></a>Port SIP de la fusion héritée
  

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article explique comment configurer des plages de ports pour les serveurs Edge et comment configurer une stratégie de qualité de service pour vos serveurs Edge A/V.
-ms.openlocfilehash: c88f784fe1956fa16b8464caa4f9f26e5c61005e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f21a5612889e0368a93bc8a55e5f023a28b226a9aa8843275faa696675b94d7e
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832904"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591128"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs Edge dans Skype Entreprise Server
 
@@ -28,16 +28,13 @@ Cet article explique comment configurer des plages de ports pour les serveurs Ed
 
 ## <a name="configure-port-ranges"></a>Configurer des plages de ports
 
-Avec les serveurs Edge, vous n’avez pas besoin de configurer des plages de ports distinctes pour l’audio, la vidéo et le partage d’applications . De même, les plages de ports utilisées pour les serveurs Edge n’ont pas besoin de correspondre aux plages de ports utilisées avec vos serveurs de conférence, d’application et de médiation. Avant de poursuivre notre exemple, il est important de souligner que même si cette option existe, nous vous recommandons de ne pas modifier les plages de ports, car cela peut nuire à certains scénarios si vous vous déplacez hors de la plage de ports 50000.
+Avec les serveurs Edge, vous n’avez pas besoin de configurer des plages de ports distinctes pour l’audio, la vidéo et le partage d’application . De même, les plages de ports utilisées pour les serveurs Edge n’ont pas besoin de correspondre aux plages de ports utilisées avec vos serveurs de conférence, d’application et de médiation. Avant de poursuivre notre exemple, il est important de souligner que même si cette option existe, nous vous recommandons de ne pas modifier les plages de ports, car cela peut nuire à certains scénarios si vous vous déplacez hors de la plage de ports 50000.
 
 Par exemple, supposons que vous ayez configuré vos serveurs de conférence, d’applications et de médiation afin d’utiliser ces plages de ports :
 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -71,23 +68,23 @@ Par exemple, supposons que vous ayez configuré vos serveurs de conférence, d�
 </table>
 
 
-Comme vous pouvez le constater, vos plages de ports pour l’audio, la vidéo et le partage d’application commencent au port 40803 et englobent un total de 24 732 ports. Si vous préférez, vous pouvez configurer un serveur Edge donné pour utiliser ces valeurs de port globales en exécutant une commande semblable à celle-ci à partir de Skype Entreprise Server Management Shell :
+Comme vous pouvez le voir, vos plages de ports pour l’audio, la vidéo et le partage d’application commencent au port 40803 et englobent un total de 24 732 ports. Si vous préférez, vous pouvez configurer un serveur Edge donné pour utiliser ces valeurs de port globales en exécutant une commande semblable à celle-ci à partir de l’Skype Entreprise Server Management Shell :
 
-    Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
+  **Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730**
 
 Ou utilisez la commande suivante pour configurer simultanément tous les serveurs Edge de votre organisation :
 
-    Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
+  **Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_. Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}**
 
-Vous pouvez vérifier les paramètres de port actuels de vos serveurs Edge à l’aide de cette commande Skype Entreprise Server Management Shell :
+Vous pouvez vérifier les paramètres de port actuels de vos serveurs Edge à l’aide de la commande Skype Entreprise Server Management Shell :
 
-    Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
+  **Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount**
 
 Là encore, bien que nous fournissions ces options, nous vous recommandons vivement de laisser les éléments tels qu’ils sont pour la configuration du port.
 
-## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurer une stratégie QoS pour vos serveurs Edge A/V
+## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurer une stratégie de QoS pour vos serveurs Edge A/V
 
-En plus de créer des stratégies de QoS pour vos serveurs de conférence, d’application et de médiation, vous devez également créer des stratégies audio et vidéo pour le côté interne de vos serveurs Edge A/V. Toutefois, les stratégies utilisées sur vos serveurs Edge sont différentes des stratégies utilisées sur vos serveurs de conférence, d’application et de médiation. Pour les serveurs de conférence, d’application et de médiation, vous avez spécifié une plage de ports source ; avec les serveurs Edge, vous devez spécifier une plage de ports de destination. Pour cette raison, vous ne pouvez pas simplement appliquer les stratégies de qualité de service de conférence, d’application et de serveur de médiation à vos serveurs Edge : ces stratégies ne fonctionneront simplement pas. Au lieu de cela, vous devez créer de nouvelles stratégies et appliquer ces stratégies à vos serveurs Edge uniquement.
+En plus de créer des stratégies de QoS pour vos serveurs de conférence, d’application et de médiation, vous devez également créer des stratégies audio et vidéo pour le côté interne de vos serveurs Edge A/V. Toutefois, les stratégies utilisées sur vos serveurs Edge sont différentes des stratégies utilisées sur vos serveurs de conférence, d’application et de médiation. Pour les serveurs de conférence, d’application et de médiation, vous avez spécifié une plage de ports source ; avec les serveurs Edge, vous devez spécifier une plage de ports de destination. Pour cette raison, vous ne pouvez pas simplement appliquer les stratégies de qualité de service de conférence, d’application et de serveur de médiation à vos serveurs Edge : ces stratégies ne fonctionneront tout simplement pas. Au lieu de cela, vous devez créer de nouvelles stratégies et appliquer ces stratégies à vos serveurs Edge uniquement.
 
 La procédure suivante décrit le processus de création d’objets de stratégie de groupe Active Directory qui peuvent être utilisés pour gérer la qualité de service sur les serveurs Edge. Bien entendu, il est possible que vos serveurs Edge soient des serveurs autonomes qui n’ont pas de compte Active Directory. Si c’est le cas, vous pouvez utiliser la stratégie de groupe locale au lieu de la stratégie de groupe Active Directory : la seule différence est que vous devez créer ces stratégies locales à l’aide de l’Éditeur de stratégie de groupe local et créer individuellement le même ensemble de stratégies sur chaque serveur Edge. Pour démarrer l’Éditeur de stratégie de groupe locale sur un serveur Edge, vous pouvez :
 
@@ -95,21 +92,21 @@ La procédure suivante décrit le processus de création d’objets de stratégi
 
 2.  Dans la **boîte de** dialogue Exécuter, **tapez gpedit.msc,** puis appuyez sur Entrée.
 
-Si vous créez des stratégies basées sur Active Directory, vous devez vous connecter à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Dans ce cas, ouvrez la gestion des stratégies de groupe (cliquez sur **Démarrer,** pointez sur Outils d’administration, puis cliquez sur Gestion des stratégies de **groupe),** puis complétez les étapes suivantes :
+Si vous créez des stratégies basées sur Active Directory, vous devez vous connecter à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Dans ce cas, ouvrez la gestion des stratégies de groupe (cliquez sur **Démarrer,** pointez sur Outils d’administration, puis cliquez sur **Gestion** des stratégies de groupe), puis complétez les étapes suivantes :
 
-1.  Dans la gestion des stratégies de groupe, accédez au conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs Skype Entreprise Server se trouvent dans une ou plusieurs de vos ordinateurs nommés Skype Entreprise Server, la nouvelle stratégie doit être créée dans l’ou Skype Entreprise Server.
+1.  Dans la gestion des stratégies de groupe, accédez au conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs Skype Entreprise Server sont situés dans une ou plusieurs Skype Entreprise Server, la nouvelle stratégie doit être créée dans l’Skype Entreprise Server’une autre.
 
 2.  Cliquez avec le bouton droit sur le conteneur approprié, puis cliquez sur Créer un GPO dans ce domaine, puis le **lier ici.**
 
-3.  Dans la **boîte** de dialogue Nouvel objet de stratégie de  groupe, tapez un nom pour le nouvel objet de stratégie de groupe dans la zone Nom (par exemple, Skype Entreprise **Server Audio),** puis cliquez sur **OK**.
+3.  Dans la **boîte** de dialogue Nouvel objet de stratégie de  groupe, tapez un nom pour le nouvel objet de stratégie de groupe dans la zone Nom (par exemple, **Skype Entreprise Server Audio),** puis cliquez sur **OK**.
 
 4.  Cliquez avec le bouton droit sur la stratégie nouvellement créée, puis cliquez sur **Modifier.**
 
 À partir de là, le processus est identique, que vous créiez une stratégie Active Directory ou une stratégie locale :
 
-1.  Dans l’Éditeur de gestion des stratégies de groupe ou l’Éditeur de stratégie de groupe local, développez **Configuration** ordinateur, Développez Stratégies, Développez **Paramètres Windows,** cliquez avec le bouton droit sur **QoS** basé sur la stratégie, puis cliquez sur Créer une **stratégie.**
+1.  Dans l’Éditeur de gestion des stratégies de groupe ou l’Éditeur de stratégie de groupe local, développez **Configuration** ordinateur, Développez Stratégies,  **développez Windows Paramètres**, cliquez avec le bouton droit sur **QoS** basé sur la stratégie, puis cliquez sur Créer une **stratégie.**
 
-2.  Dans la boîte de dialogue **QoS** basée sur la stratégie, dans la page d’ouverture, tapez un nom pour la nouvelle stratégie (par exemple, Skype Entreprise **Server Audio)** dans la zone **Nom.** Sélectionnez **Spécifier la valeur DSCP** et indiquez la valeur **46**. Laissez la case à cocher **Spécifier le taux d’accélération en sortie** désactivée, puis cliquez sur **Suivant**.
+2.  Dans la boîte de dialogue **QoS** basée sur la stratégie, sur la page d’ouverture, tapez un nom pour la nouvelle stratégie (par exemple, **Skype Entreprise Server Audio**) dans la zone **Nom.** Sélectionnez **Spécifier la valeur DSCP** et indiquez la valeur **46**. Laissez la case à cocher **Spécifier le taux d’accélération en sortie** désactivée, puis cliquez sur **Suivant**.
 
 3.  Sur la page suivante, assurez-vous que toutes les **applications** sont sélectionnées, puis cliquez sur **Suivant**. Ce paramètre indique au réseau de rechercher tous les paquets avec un marquage DSCP de 46, et pas seulement les paquets créés par une application spécifique.
 
@@ -121,7 +118,7 @@ Si vous créez des stratégies basées sur Active Directory, vous devez vous con
 
 Après avoir créé la stratégie QoS pour le trafic audio, vous devez créer une deuxième stratégie pour le trafic vidéo. Pour créer une stratégie pour la vidéo, suivez la procédure indiquée pour l’audio, et remplacez les éléments suivants :
 
-  - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server Video).**
+  - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server Vidéo).**
 
   - Attribuez à la valeur DSCP la valeur **34** au lieu de 46. (Notez que vous n’êtes pas obligé d’attribuer la valeur 34 à la valeur DSCP. Le seul impératif est d’utiliser une valeur DSCP pour la vidéo différente de celle utilisée pour l’audio).
 
@@ -129,7 +126,7 @@ Après avoir créé la stratégie QoS pour le trafic audio, vous devez créer un
 
 Si vous décidez de créer une stratégie pour la gestion du trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
 
-  - Utilisez un nom de stratégie différent (et unique) (par exemple, partage d’application Skype Entreprise **Server).**
+  - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server partage d’application).**
 
   - Attribuez à la valeur DSCP la valeur **24** au lieu de 46. (Là encore, vous n’êtes pas obligé d’attribuer la valeur 24 à la valeur DSCP. Le seul impératif est d’utiliser une valeur DSCP pour le partage d’application différente de celle utilisée pour l’audio ou la vidéo).
 
@@ -137,9 +134,9 @@ Si vous décidez de créer une stratégie pour la gestion du trafic de partage d
 
 Les nouvelles stratégies que vous avez créées ne prennent effet qu’une fois la stratégie de groupe actualisée sur vos serveurs Edge. Bien que la stratégie de groupe s’actualise périodiquement, vous pouvez forcer une actualisation immédiate en utilisant la commande suivante sur les ordinateurs sur lesquels la stratégie de groupe doit être actualisée :
 
-    Gpudate.exe /force
+ **Gpudate.exe /force**
 
-Cette commande peut être exécuté à partir de Skype Entreprise Server ou à partir de n’importe quelle fenêtre de commande qui s’exécute sous les informations d’identification de l’administrateur. Pour exécuter une fenêtre de commande avec des droits d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Notez que vous devrez peut-être redémarrer le serveur Edge même après avoir Gpudate.exe.
+Cette commande peut être exécuté à partir de l’Skype Entreprise Server ou de toute fenêtre de commande qui s’exécute sous les informations d’identification de l’administrateur. Pour exécuter une fenêtre de commande avec des droits d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Notez que vous devrez peut-être redémarrer le serveur Edge même après avoir Gpudate.exe.
 
 Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP appropriée, vous devez également créer une entrée de Registre sur chaque ordinateur. Pour cela, procédez comme suit :
 

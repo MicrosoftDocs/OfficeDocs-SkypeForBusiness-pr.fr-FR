@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Découvrez la fonctionnalité Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: 558d7486ca7aaa794c3114f5c210702a54e02fc4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9c752ebfbfc24f250b1dc9ad68118d1795cfc356cb1332ff7d1d5c66026cfca1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306945"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planifier les options Busy pour Skype Entreprise Server
  
@@ -30,7 +30,7 @@ Busy Options est une nouvelle stratégie de voix introduite dans la mise à jour
   
 La stratégie Busy Options est prise en charge pour leover et la récupération d’urgence sur les pools frontaux couplés et les serveurs Survivable Branch Servers (SBS).
   
-Cette rubrique décrit les fonctionnalités de Busy Options. Pour plus d’informations sur l’installation et la configuration de Busy Options, voir [Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
+Cette rubrique décrit les fonctionnalités de Busy Options. Pour plus d’informations sur l’installation et la configuration de Busy Options, voir Installer et [configurer Busy Options pour Skype Entreprise Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
   
 ## <a name="configuration-options"></a>Options de configuration
 
@@ -40,19 +40,19 @@ Si Busy Options est activée pour l’organisation, tous les utilisateurs de vot
     
 - Messagerie vocale sur Busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
     
-La fonctionnalité Busy Options offre une fonctionnalité deover. Si un problème se produit et que les utilisateurs reviennent vers un autre serveur frontal ou vers un autre pool dans Skype Entreprise Server, leurs paramètres Busy Options sont conservés.
+La fonctionnalité Busy Options offre une fonctionnalité deover. Si un problème se produit et que les utilisateurs reviennent à un autre serveur frontal ou à un autre pool dans Skype Entreprise Server, leurs paramètres Busy Options sont conservés.
   
-Quelle que soit la façon dont les options de occupé(s) sont configurées, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences. 
+Quelle que soit la manière dont les options de occupé(s) sont configurées, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences. 
   
-Après la configuration, le paramètre Busy Options est en vigueur pour tous les clients et périphériques d’appel Skype Entreprise de l’utilisateur. En fonction des paramètres Busy Options de l’utilisateur, l’appel rejeté ou envoyé à la messagerie vocale ne sonne pas sur les périphériques d’appel de l’utilisateur (y compris Macintosh, Windows Desktop, clients mobiles ou téléphones IP) sur lesquels l’utilisateur est connecté. 
+Après la configuration, le paramètre Busy Options est en vigueur pour tous les appareils et clients d’appel Skype Entreprise utilisateur. Selon les paramètres Busy Options de l’utilisateur, l’appel rejeté ou envoyé à la messagerie vocale ne sonne pas sur les périphériques d’appel de l’utilisateur (y compris Macintosh, Windows Desktop, clients mobiles ou téléphones IP) sur lesquels l’utilisateur est connecté. 
   
-Les utilisateurs voient les notifications d’appels manqués sur leurs clients et appareils Skype Entreprise, et ils sont également avertis par courrier électronique. Les appelants dont l’appel a été rejeté en raison de Busy on Busy voient une notification dans leur client Skype Entreprise indiquant que l’utilisateur qu’ils ont tenté de joindre est occupé sur un autre appel.
+Les utilisateurs voient les notifications d’appel manqué sur leurs clients et appareils Skype Entreprise, et ils sont également avertis par courrier électronique. Les appelants dont l’appel a été rejeté en raison de Busy on Busy voient une notification dans leur client Skype Entreprise indiquant que l’utilisateur qu’ils ont tenté de joindre est occupé lors d’un autre appel.
   
-Vous pouvez configurer la fonctionnalité Busy Options à l’aide des cmdlets PowerShell Skype Entreprise pour :
+Vous pouvez configurer la fonctionnalité Busy Options en utilisant Skype Entreprise cmdlets PowerShell pour :
   
-- Activez ou désactivez la stratégie Busy Options Voice pour l’entreprise.
+- Activez ou désactivez la stratégie Busy Options Voice pour le Enterprise.
     
-- Administrer Busy on Busy ou Voicemail on Busy pour tous les utilisateurs de l’entreprise.
+- Administrer Busy on Busy ou Voicemail on Busy pour tous les utilisateurs du Enterprise.
     
 - Administrer Busy on Busy ou Voicemail on Busy pour tous les utilisateurs d’un pool frontal particulier.
     
@@ -62,7 +62,7 @@ Vous pouvez configurer la fonctionnalité Busy Options à l’aide des cmdlets P
     
 ## <a name="interoperability-with-voice-applications"></a>Interopérabilité avec les applications vocales
 
-Busy Options offre une interopérabilité avec les applications vocales suivantes dans Skype Entreprise :
+Busy Options offre une interopérabilité avec les applications Voice suivantes dans Skype Entreprise :
   
 - Response Groups (RGS)
     

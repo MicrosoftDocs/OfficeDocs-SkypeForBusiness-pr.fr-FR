@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Luxembourg pour Microsoft Teams.
-ms.openlocfilehash: 180b5b7717ee072f38d4f845fb5ef409fc26f146
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: afbd9583b95451114bbf3384d33ec112c157928588cba0d24e7dd227b81c45d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276420"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Téléphone gestion des nombres pour le Luxembourg
 
@@ -37,11 +37,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration. |Au Luxembourg, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant PTSN pour obtenir des instructions.](contact-pstn-service-desk.md)<ul><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Allemand (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour Luxembourg - Luxembourg (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Français (version 1.0) (lu-FR)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li></ul> <br/>Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter PTSN pour obtenir [des instructions.](contact-pstn-service-desk.md)<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines. |
-|Obtenez des numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Luxembourg (tous les numéros) (v.1.0) (en-lu)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>Remplissez-le et [contactez PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) <br/><br/>Le transfert de numéros peut prendre deux à trois semaines pour s’effectuer sur ce marché.<br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.    |
-|Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md) sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
-|Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md) sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |Au Luxembourg, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant PTSN pour obtenir des instructions.](contact-pstn-service-desk.md)<ul><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Allemand (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour Luxembourg - Luxembourg (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Français (version 1.0) (lu-FR)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li></ul> <br/>Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter PTSN pour obtenir [des instructions.](contact-pstn-service-desk.md)<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines. |
+|Obtenez les numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Luxembourg (tous les numéros) (v.1.0) (en-lu)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>Renseignez-le et [contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md). <br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché.<br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.    |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md) sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contacter PTSN pour obtenir des instructions](contact-pstn-service-desk.md) concernant la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier la file d’attente des appels ou les numéros de standard automatique, contactez l’[assistance du service PSTN](contact-pstn-service-desk.md). |
 |Connaître votre client|formulaire|
    
 ## <a name="related-topics"></a>Rubriques connexes
@@ -52,4 +52,4 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
   
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Étiquette d’exclusion de responsabilité d’appel d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

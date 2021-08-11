@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le tronçon suivant du pool de serveurs Edge est un pool frontal (qui peut être au choix un pool d’entreprise ou un serveur Standard Edition Server) ou, si votre déploiement inclut un directeur, le tronçon suivant est le directeur.
-ms.openlocfilehash: e997ebaa78e91156b92f56b11503759d23325389
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aeb679c3ed8b583a44e836dd32de2ca84a0aa30638b927034dfdb0b07ba41611
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307585"
 ---
 # <a name="add-edge-server-next-hop"></a>Ajouter le tronçon suivant du pool de serveurs Edge
 

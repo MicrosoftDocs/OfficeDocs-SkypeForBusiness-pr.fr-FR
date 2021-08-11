@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Un itinéraire de région réseau définit l’itinéraire entre deux régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels requiert un itinéraire de région réseau.
-ms.openlocfilehash: c91f46ff45dd50f638cdb4f256fb93f2d33781ec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 822785657020e9f1f071623f844766cfb1a12dd1b5cee1c20c23edcf584addad
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118553"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590758"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gestion d’itinéraires de région réseau dans Skype Entreprise Server
 
@@ -24,20 +24,20 @@ Un *itinéraire de région réseau* définit l’itinéraire entre deux régions
 
 ## <a name="view-network-region-route-information"></a>Afficher les informations d’itinéraire de région réseau 
 
-Chaque région au sein d’un contrôle d’admission des appels doit disposer d’un moyen lui permettant d’accéder à toutes les autres régions. Alors que les liens de région définissent des restrictions de bande passante sur les connexions entre les régions et qu’ils représentent également des liens physiques, un itinéraire détermine le chemin lié que la connexion traverse d’une région à une autre. Utilisez les procédures suivantes pour afficher les itinéraires de région réseau existants dans le Panneau de contrôle Skype Entreprise Server ou Skype Entreprise Server Management Shell. 
+Chaque région au sein d’un contrôle d’admission des appels doit disposer d’un moyen lui permettant d’accéder à toutes les autres régions. Alors que les liens de région définissent des restrictions de bande passante sur les connexions entre les régions et qu’ils représentent également des liens physiques, un itinéraire détermine le chemin lié que la connexion traverse d’une région à une autre. Utilisez les procédures suivantes pour afficher les itinéraires de région réseau existants dans Skype Entreprise Server Panneau de Skype Entreprise Server Management Shell. 
 
-### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Pour afficher les informations d’itinéraire de région réseau dans le Panneau de contrôle Skype Entreprise Server
+### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Pour afficher les informations d’itinéraire de région réseau dans le Skype Entreprise Server de contrôle
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Itinéraire de région.**
 
 4.  Dans la page **Itinéraire de région**, cliquez sur l’itinéraire de région que vous souhaitez modifier.
 
 
-    > [!NOTE]  
+    > [!NOTE]
     > Vous ne pouvez afficher qu’un itinéraire de région à la fois.
 
 
@@ -46,34 +46,34 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 ### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations d’itinéraire de région réseau à l’Windows PowerShell cmdlets
 
-Les informations d’itinéraire de région réseau peuvent être vues à l’Windows PowerShell l'Get-CsNetworkInterRegionRoute cmdlet. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Les informations d’itinéraire de région réseau peuvent être vues à l’Windows PowerShell l'Get-CsNetworkInterRegionRoute cmdlet. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ### <a name="to-view-network-region-route-information"></a>Pour afficher les informations d’itinéraire de région réseau
 
   - Pour afficher des informations sur tous vos itinéraires de région réseau, tapez la commande suivante dans Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
     
-        Get-CsNetworkInterRegionRoute
+    **Get-CsNetworkInterRegionRoute**
     
     Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
-        Identity                  : TransAmericaRoute
-        NetworkRegionLinks        : {NorthwestToNortheast}
-        InterNetworkRegionRouteID : TransAmericaRoute
-        NetworkRegionID1          : Pacific Northwest
-        NetworkRegionID2          : Northeast
+    Identity : TransAmericaRoute<br/>
+    NetworkRegionLinks : {NorthwestToNortheast}<br/>
+    InterNetworkRegionRouteID : TransAmericaRoute<br/>
+    NetworkRegionID1 : Nord-Ouest pacifique<br/>
+    NetworkRegionID2 : Nord-est<br/>
 
 Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 
 
 ## <a name="create-or-modify-network-region-routes"></a>Créer ou modifier des itinéraires de région réseau
 
-Chaque région au sein d’un contrôle d’admission des appels doit disposer d’un moyen lui permettant d’accéder à toutes les autres régions. Alors que les liens de région définissent des restrictions de bande passante sur les connexions entre les régions et qu’ils représentent également des liens physiques, un itinéraire détermine le chemin lié que la connexion traverse d’une région à une autre. Vous pouvez utiliser le Panneau de configuration de Skype Entreprise Server pour configurer des itinéraires de région réseau. À partir du Panneau de contrôle Skype Entreprise Server, vous pouvez créer, modifier ou supprimer un itinéraire de région réseau. Utilisez cette rubrique pour créer ou modifier un itinéraire de région réseau. 
+Chaque région au sein d’un contrôle d’admission des appels doit disposer d’un moyen lui permettant d’accéder à toutes les autres régions. Alors que les liens de région définissent des restrictions de bande passante sur les connexions entre les régions et qu’ils représentent également des liens physiques, un itinéraire détermine le chemin lié que la connexion traverse d’une région à une autre. Vous pouvez utiliser le Panneau de configuration Skype Entreprise Server pour configurer des itinéraires de région réseau. À partir Skype Entreprise Server Panneau de Skype Entreprise Server, vous pouvez créer, modifier ou supprimer un itinéraire de région réseau. Utilisez cette rubrique pour créer ou modifier un itinéraire de région réseau. 
 
 ### <a name="to-create-a-network-region-route"></a>Pour créer un itinéraire de région réseau
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Itinéraire de région.**
 
@@ -82,7 +82,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 5.  Dans **Nouvel itinéraire de région**, tapez une valeur dans le champ **Nom**.
    
     > [!NOTE]  
-    > Cette valeur doit être unique dans votre déploiement Skype Entreprise Server.
+    > Cette valeur doit être unique au sein de votre Skype Entreprise Server déploiement.
 
 6.  Dans la liste de listes bas Région réseau **\# 1,** sélectionnez l’une des deux régions à connecter par cet itinéraire.
 
@@ -100,7 +100,7 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Itinéraire de région.**
 
@@ -115,13 +115,13 @@ Chaque région au sein d’un contrôle d’admission des appels doit disposer d
 
 ## <a name="delete-existing-network-region-routes"></a>Supprimer des itinéraires de région réseau existants
 
-Chaque région au sein d’un contrôle d’admission des appels doit disposer d’un moyen lui permettant d’accéder à toutes les autres régions. Alors que les liens de région définissent des restrictions de bande passante sur les connexions entre les régions et qu’ils représentent également des liens physiques, un itinéraire détermine le chemin lié que la connexion traverse d’une région à une autre. Vous pouvez utiliser le Panneau de configuration de Skype Entreprise Server pour configurer des itinéraires de région réseau. À partir du Panneau de contrôle Skype Entreprise Server, vous pouvez créer, modifier ou supprimer un itinéraire de région réseau. Utilisez cette rubrique pour supprimer des itinéraires de région réseau existants. 
+Chaque région au sein d’un contrôle d’admission des appels doit disposer d’un moyen lui permettant d’accéder à toutes les autres régions. Alors que les liens de région définissent des restrictions de bande passante sur les connexions entre les régions et qu’ils représentent également des liens physiques, un itinéraire détermine le chemin lié que la connexion traverse d’une région à une autre. Vous pouvez utiliser le Panneau de configuration Skype Entreprise Server pour configurer des itinéraires de région réseau. À partir Skype Entreprise Server Panneau de Skype Entreprise Server, vous pouvez créer, modifier ou supprimer un itinéraire de région réseau. Utilisez cette rubrique pour supprimer des itinéraires de région réseau existants. 
 
 ### <a name="to-delete-a-network-region-route"></a>Pour supprimer un itinéraire de région réseau
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Itinéraire de région.**
 

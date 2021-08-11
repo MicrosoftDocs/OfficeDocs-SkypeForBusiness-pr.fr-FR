@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer Power BI connecteur pour utiliser des modèles de requête de tableau de bord de qualité des appels
-ms.openlocfilehash: 26229c59fc666afbc6bcdade67050e1e9b536ea6
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689802"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799055"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Installer le connecteur Qualité d’appel de Microsoft Power BI utiliser des modèles de requête Tableau de bord de qualité d’appel
 
@@ -85,6 +85,9 @@ Une fois la configuration terminée, vous devriez voir les noms de plusieurs cen
 3. Ensuite, sélectionnez les dimensions que vous voulez  filtrer et faites-les glisser vers les filtres de ce champ visuel dans *le volet Filtres.* Le connecteur Qualité d’appel Microsoft prend actuellement en charge le filtrage de base *(sélection* de valeurs dans une liste de valeurs de dimension *possibles),* le filtrage avancé (spécifier manuellement les valeurs et opérandes à filtrer, similaire au tableau de bord de qualité de l’appel) et le filtrage de *date* relatif (disponible uniquement pour les dimensions Heure de fin et *Heure* de début).  Le filtrage en fonction de *la première N n’est* pas pris en charge par le tableau de bord de qualité des appels.
 
     ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector5-resize.png)
+
+    > [!IMPORTANT]
+    > Les filtres sont uniquement pris en charge lorsqu’ils sont appliqués aux dimensions. Le filtrage des valeurs des mesures n’est pas pris en charge dans le tableau de bord qualité des appels.
 
 4. Enfin, sélectionnez *l’onglet Format* dans le volet *Visualisations* pour mettre en forme votre requête.
 
@@ -184,6 +187,6 @@ Au lieu d’essayer d’augmenter le nombre de lignes des résultats, il est pr�
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser les données du CQD à des Teams](CQD-Power-BI-query-templates.md)

@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consultez Microsoft Teams pour affecter une licence de conférence rendez-vous et un ID de conférence à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101090"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276410"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -40,13 +40,13 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence Micr
 ## <a name="assign-an-audio-conferencing-license"></a>Affecter une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences à l’aide Teams. Vous devez utiliser le Centre Microsoft 365'administration. Voir [Attribuer Microsoft Teams licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> Vous ne pouvez pas attribuer de licences à l’aide Teams. Vous devez utiliser l’Centre d’administration Microsoft 365. Voir [Attribuer Microsoft Teams licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **Pour attribuer une licence à un utilisateur**
   
 1. Connectez-vous Microsoft 365 votre compte scolaire ou scolaire.
     
-2. Dans le navigation gauche du centre **d’administration Microsoft 365,** sélectionnez Utilisateurs actifs, puis sélectionnez le ou les utilisateurs dans la liste   >  des utilisateurs disponibles.
+2. Dans le navigation gauche du **Centre d’administration Microsoft 365,** sélectionnez Utilisateurs actifs, puis sélectionnez le ou les utilisateurs dans la liste  >  des utilisateurs disponibles.
     
     > [!NOTE]
     > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage**, puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier**, deux fois sur **Suivant**, puis sélectionnez la licence et cliquez sur **Envoyer**.  
