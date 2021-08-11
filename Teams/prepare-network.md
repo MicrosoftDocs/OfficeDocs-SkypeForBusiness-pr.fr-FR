@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: 282a6646c321d14618b9aaede36918db8db58c774d7bd99ff79f15cac729f83e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312692"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Préparer le réseau de votre organisation pour Microsoft Teams 
 
@@ -306,7 +306,7 @@ Le tableau suivant décrit la manière dont Teams utilise la bande passante. Tea
 
 - Les exigences **minimales** en matière de bande passante pour les appels vidéo sont d’une résolution maximale de 240 p, de fréquences d’images de contenu de partage d’écran adaptatives de 1 875 à 7,5fps et de vidéo en mode ensemble/grande galerie jusqu’à une résolution de 540 p.  
 
-- Les exigences **recommandées** en matière de bande passante pour les appels vidéo sont jusqu’à 1 080p de résolution<sup>\*</sup>, les fréquences d’images de contenu de partage d’écran s’adaptent de 7,5 à 30fps, et la vidéo en mode ensemble/grande galerie jusqu’à 1 080p de résolution<sup>\*</sup>.  
+- Les exigences **recommandées** en matière de bande passante pour les appels vidéo sont jusqu’à 1 080p de résolution <sup>\*</sup>, les fréquences d’images de contenu de partage d’écran s’adaptent de 7,5 à 30fps, et la vidéo en mode ensemble/grande galerie jusqu’à 1 080p de résolution <sup>\*</sup>.  
 
 - **Meilleures performances** Les conseils offrent une meilleure fidélité vidéo pour les réunions de plus grands participants, des environnements à perte élevée et un contenu de mouvement plus élevé avec des fréquences d’images de contenu de partage d’écran adaptatives de 15 à 30fps.
 

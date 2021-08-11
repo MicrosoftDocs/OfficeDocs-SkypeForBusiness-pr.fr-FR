@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: 'Découvrez comment configurer le mode de confidentialité pour vos utilisateurs afin qu’ils contrôlent mieux la façon dont les utilisateurs voient leur disponibilité. '
-ms.openlocfilehash: f8589dfb648693f0c0c4331a1a16119a3d7fe748
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29eb3baad5ee270d594d283ba51cb1cde75222d8ad66e34ca4df33676aeab2da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339318"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurer le mode de confidentialité de la présence
 
@@ -48,7 +48,7 @@ Le Skype Entreprise de présence en ligne donne aux personnes davantage de contr
 |**Afficher automatiquement des informations de présence** <br/> |Tout Skype Entreprise utilisateur qui n’appartient pas **au** groupe de confidentialité externe **ou** bloqué. <br/> |
 |**Afficher les informations de présence uniquement aux contacts d’un utilisateur** <br/> |Toute personne dans la liste des contacts d’un utilisateur qui n’appartient pas au groupe de confidentialité **Externe** **ou** Bloqué. <br/> Les utilisateurs individuels peuvent modifier ce paramètre dans la boîte Skype Entreprise **Options** de l’utilisateur. <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

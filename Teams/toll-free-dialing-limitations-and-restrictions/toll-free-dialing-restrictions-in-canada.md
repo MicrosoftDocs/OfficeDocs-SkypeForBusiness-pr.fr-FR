@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits au Canada, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
-ms.openlocfilehash: 85ac884050c69e5be64c99c9c07df7549b2b2a9a
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: c3b39e327780e2a949a51eb85473714a1875a39a4e80f636bb234140bfedd710
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339342"
 ---
 # <a name="toll-free-dialing-restrictions-in-canada"></a>Restrictions de numérotation gratuites au Canada
 
@@ -58,7 +58,7 @@ ms.locfileid: "53142910"
 > [!IMPORTANT]
 > **Numéros gratuits** d’Amérique du Nord : les tarifs par minute des numéros gratuits pour les forfaits de numéro gratuits pour l’Amérique du Nord sont déterminés par le pays d’origine. Le tarif à la minute gratuit pour les appels provenant des États-Unis est map au taux défini comme « Amérique du Nord ». Toutefois, les appels provenant d’autres pays nord-américains tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Pools de médiation répertorie les pools de médiation de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: f806cb62f4e56b3676e0e379ea619da4a627af60
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b6497fb26d8c50ee6d1e5fa6233211cf60d9642d4ec4efce0489c432c4865852
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302768"
 ---
 # <a name="mediation-servers-scope-node"></a>Nœud d’étendue des serveurs de médiation
  

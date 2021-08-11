@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms.openlocfilehash: 34d4e2dc5783b1455ef482af4a9daed44a025fd3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a40ba37b0cec1fe80f7172da865c0cf16dbeba1e5fc606453e5439fcbb012e3c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278252"
 ---
 # <a name="schema-reference-for-skype-for-business-server-2015"></a>Référence de schéma pour Skype Entreprise Server 2015
  
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Schéma de base de données d’enregistrement des détails des appels (CDR) dans Skype Entreprise Server 2015](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
+- [Schéma de base de données d’enregistrement des détails des appels Skype Entreprise Server 2015](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
     
 - [Schéma de base de données de qualité de l’expérience (QoE)](quality-of-experience-qoe-database-schema/quality-of-experience-qoe-database-schema.md)
     

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez si les services d’audioconférence, de Système téléphonique, d’appels, de crédits de communication et de numéros de téléphone gratuits et gratuits sont disponibles dans un pays ou une région.
-ms.openlocfilehash: 099548bc9b88293dcb1fcc0acddd49ac295ab56e
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: 7711f9a978b3733dd305f5b35a125bfe2ea1c19555262d860205fb38b7530eae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278153"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays
 
@@ -176,7 +176,7 @@ Parfois, des personnes de votre organisation devront utiliser un téléphone pou
 Avec l’audioconférence, certains numéros de téléphone gratuits et gratuits peuvent être utilisés par vos utilisateurs pour se rendre aux réunions. Les numéros de téléphone des pays ou régions suivants sont automatiquement attribués en tant que numéros d’audioconférence partagés aux organisations lorsqu’elles sont activées pour l’audioconférence. Des numéros gratuits et gratuits peuvent être attribués à votre organisation pour des villes supplémentaires.
 
 > [!IMPORTANT]
-> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone pour les appels entrants sont disponibles dans votre pays/région, accédez à **Centre d’administration Skype Entreprise** > **Voix** > **Numéros de téléphone**, cliquez sur **Ajouter**, puis sur **Nouveaux numéros de service**. Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Si vous recherchez des numéros de service gratuits, sélectionnez un numéro gratuit **dans** la liste **État/Région.**
+> Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence. Pour savoir si des numéros de téléphone pour les appels entrants sont disponibles dans votre pays/région, accédez à **Centre d’administration Skype Entreprise** > **Voix** > **Numéros de téléphone**, cliquez sur **Ajouter**, puis sur **Nouveaux numéros de service**. Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Si vous recherchez des numéros de service gratuits, sélectionnez un numéro **gratuit dans** la liste **État/Région.**
 
 Pour en savoir plus sur les audioconférences, consultez [Questions fréquentes à propos de l'audioconférence](../audio-conferencing-common-questions.md)
 
@@ -184,7 +184,7 @@ Pour en savoir plus sur les audioconférences, consultez [Questions fréquentes 
   
 #### <a name="using-the-call-me-feature-or-when-adding-other-people-to-a-meeting-so-they-can-join-it"></a>Utilisation de la fonctionnalité M’appeler ou lors de l’ajout d’autres personnes à une réunion afin de pouvoir y participer
 
-Dans l’audioconférence, la fonctionnalité «*M’appeler*» permet aux autres personnes de participer à une réunion rendez-vous. Utilisez la liste de listes dans cet article pour rechercher le pays/la région et voir si cette fonctionnalité est disponible.
+Dans l’audioconférence, la fonctionnalité *«* M’appeler » permet aux autres personnes de participer à une réunion rendez-vous. Utilisez la liste de listes dans cet article pour rechercher le pays/la région et voir si cette fonctionnalité est disponible.
 
 > [!CAUTION]
 > Il est parfois impossible d’appeler des numéros gratuits ou gratuits, car certains numéros d’appel gratuits fonctionnent uniquement à l’intérieur d’un pays ou d’une région. Par exemple, si vous appelez depuis les États-Unis vers un numéro gratuit au Brésil, l’appel peut ne pas aboutir car l’appel ne provenait pas du Brésil ou d’une région spécifique au Brésil. La possibilité d’appeler des numéros gratuits varie considérablement en fonction des restrictions liées aux numéros gratuits composés. Malheureusement, nous ne pouvons pas contrôler ce comportement et, par conséquent, votre expérience peut varier en fonction du numéro gratuit composé et des restrictions qui s’appliquent au numéro gratuit.
@@ -217,7 +217,7 @@ Pour plus d’informations sur les licences, vous pouvez également consulter [L
 
 Outre l’obtention de numéros de téléphone pour des utilisateurs individuels, il est également possible de rechercher et d’acquérir des numéros de téléphone gratuits ou gratuits pour des services tels que l’Audioconférence (pour les ponts de conférence), les files d’attente automatiques et les files d’attente d’appels. Il s’agit de numéros de service.
   
-La liste suivante répertorie les majuscules et les principales villes dans lesquelles vous pouvez obtenir des numéros de service payants à utiliser avec les forfaits d’appels et d’audioconférence. Vous obtenez des numéros de service gratuits à partir de ces emplacements à l’aide **du Skype Entreprise d’administration.**
+La liste suivante répertorie les majuscules et les principales villes dans lesquelles vous pouvez obtenir des numéros de service payants à utiliser avec les forfaits d’appels et d’audioconférence. Vous obtenez des numéros de service gratuits à partir de ces emplacements à l’aide **du Centre Skype Entreprise’administration.**
   
 Si vous souhaitez obtenir un numéro de service gratuit ou gratuit, vous pouvez consulter l’obtention de numéros [de téléphone de service.](../getting-service-phone-numbers.md) Si vous avez déjà un numéro de service gratuit ou gratuit que vous souhaitez transférer à partir d’un autre fournisseur, consultez Gérer les numéros de [téléphone pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
@@ -227,7 +227,7 @@ Utilisez la liste déroulante en haut de la page pour rechercher un pays ou une 
 
 Nous vous recommandons de configurer les crédits de communications pour les utilisateurs de votre audioconférence et de nos forfaits d’appels qui ont besoin de la possibilité d’appeler **n’importe quelle destination**. De nombreux pays/régions sont compris, mais il est possible que certaines destinations ne soient pas comprises dans votre forfait d'appel ou d’audioconférence.
   
-Si vous ne définissez pas les crédits de communication et n’attribuez pas de licence aux utilisateurs, et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre pays/région), ils ne pourront plus appeler ou sortir d’une réunion. Vous pouvez obtenir plus d’informations, notamment des montants de financement recommandés en lisant [Qu’est-ce que les crédits de communication ?](../what-are-communications-credits.md)
+Si vous ne définissez pas les crédits de communication et si vous n’attribuez pas de licence aux utilisateurs et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre pays/région), ils ne pourront plus appeler ou sortir d’une réunion. Vous pouvez obtenir plus d’informations, notamment des montants de financement recommandés en lisant [Qu’est-ce que les crédits de communication ?](../what-are-communications-credits.md)
 
 ## <a name="related-topics"></a>Sujets associés
 

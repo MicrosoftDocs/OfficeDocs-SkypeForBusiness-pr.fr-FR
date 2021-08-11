@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Chaque enregistrement représente une ligne de média. (Une session audio contient généralement une ligne de média audio. Une session audio et vidéo (A/V) contient généralement une ligne de média audio et une ligne de média vidéo, bien que la session puisse contenir deux lignes de média vidéo si un périphérique de conférence est utilisé ou si la vue Galerie est utilisée.
-ms.openlocfilehash: 99a54fe7a4ee4e91506069873c98d423b9069f06
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bb4efba0477193232991732c821aaaa547a19583f8899156a1f92cca119c6b3a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321636"
 ---
 # <a name="medialine-table"></a>Table MediaLine
  
@@ -46,9 +46,9 @@ Chaque enregistrement représente une ligne de média. (Une session audio contie
 |**CallerCaptureDevDriver** <br/> |int  <br/> |Étranger  <br/> |Pilote de l’appareil de capture de l’appelant, référencé à partir de la [table DeviceDriver](devicedriver.md).  <br/> |
 |**CallerRenderDevDriver** <br/> |int  <br/> |Étranger  <br/> |Pilote du périphérique de rendu de l’appelant, référencé à partir de la [table DeviceDriver](devicedriver.md).  <br/> |
 |**CallerNetworkConnectionType** <br/> |tinyint  <br/> |Étranger  <br/> |Indique comment l’appelant s’est connecté au réseau. Les valeurs sont obtenues à partir de [la table NetworkConnectionDetail.](networkconnectiondetail.md) Les valeurs types sont 0 pour une connexion câblé' 1 pour une connexion WiFi ; et 3 pour une connexion Ethernet.  <br/> |
-|**CallerBssid** <br/> |int  <br/> |Étranger  <br/> |BSSID de l’appelant si la connexion sans fil est utilisée. Référencé à partir [de la table MacAddress](macaddress.md).  <br/> |
+|**CallerBssid** <br/> |int  <br/> |Étranger  <br/> |BSSID de l’appelant si la technologie sans fil est utilisée. Référencé à partir [de la table MacAddress](macaddress.md).  <br/> |
 |**CallerVPN** <br/> |bit  <br/> ||Lien de l’appelant. 1 est un réseau privé virtuel (VPN), 0 est un réseau non VPN.  <br/> |
-|**CallerLinkSpeed** <br/> |décimal(18,0)  <br/> ||Vitesse de liaison réseau, en bps, du point de terminaison de l’appelant.  <br/> |
+|**CallerLinkSpeed** <br/> |decimal(18,0)  <br/> ||Vitesse de liaison réseau, en bps, du point de terminaison de l’appelant.  <br/> |
 |**CalleeIPAddr** <br/> |int  <br/> |Étranger  <br/> |Adresse IP du récepteur d’appel. Pour plus [d’informations, voir la table IPAddress.](ipaddress.md) <br/> |
 |**CalleePort** <br/> |bit  <br/> ||Port utilisé par le récepteur d’appels.  <br/> |
 |**CalleeSubnet** <br/> |int  <br/> |Étranger  <br/> |Sous-réseau de l’appelé. Pour plus [d’informations, voir la table IPAddress.](ipaddress.md) <br/> |
@@ -56,20 +56,20 @@ Chaque enregistrement représente une ligne de média. (Une session audio contie
 |**CalleeMacAddress** <br/> |int  <br/> |Étranger  <br/> |Adresse Mac de l’appelé. Référencé à partir [de la table MacAddress](macaddress.md).  <br/> |
 |**CalleeRelayIPAddr** <br/> |int  <br/> |Étranger  <br/> |Adresse IP du service Edge A/V utilisé par le récepteur d’appels. Pour plus [d’informations, voir la table IPAddress.](ipaddress.md) <br/> |
 |**CalleeRelayPort** <br/> |int  <br/> | <br/> |Port utilisé sur le service Edge A/V par le récepteur d’appels.  <br/> |
-|**CalleeCaptureDev** <br/> |int  <br/> |foreign  <br/> |Périphérique de capture utilisé par le récepteur d’appels. Référencé à partir de la [table Device](device.md).  <br/> |
+|**CalleeCaptureDev** <br/> |int  <br/> |étranger  <br/> |Appareil de capture utilisé par le récepteur d’appels. Référencé à partir de la [table Device](device.md).  <br/> |
 |**CalleeRenderDev** <br/> |int  <br/> |Étranger  <br/> |Périphérique de rendu utilisé par le récepteur d’appels. Référencé à partir de la [table Device](device.md).  <br/> |
 |**CalleeCaptureDevDriver** <br/> |int  <br/> |Étranger  <br/> |Pilote de l’appareil de capture du récepteur d’appels. Référencé à partir [de la table DeviceDriver.](devicedriver.md)  <br/> |
 |**CalleeRenderDevDriver** <br/> |varchar(256)  <br/> |Étranger  <br/> |Pilote du périphérique de rendu du récepteur d’appels. Référencé à partir [de la table DeviceDriver.](devicedriver.md)  <br/> |
 |**CalleeNetworkConnectionType** <br/> |tinyint  <br/> |Étranger  <br/> |Indique comment l’appelé s’est connecté au réseau. Les valeurs sont obtenues à partir de [la table NetworkConnectionDetail.](networkconnectiondetail.md) Les valeurs types sont 0 pour une connexion câblé' 1 pour une connexion WiFi ; et 3 pour une connexion Ethernet.  <br/> |
 |**CalleeBssid** <br/> |int  <br/> |Étranger  <br/> |BSSID de l’appelé si la connexion sans fil est utilisée. Référencé à partir [de la table MacAddress](macaddress.md).  <br/> |
 |**CalleeVPN** <br/> |bit  <br/> | <br/> |Lien du récepteur d’appels ; 1 est un réseau privé virtuel (VPN), 0 est un réseau non VPN.  <br/> |
-|**CalleeLinkSpeed** <br/> |décimal(18,0)  <br/> | <br/> |Vitesse de liaison réseau, en bps, du point de terminaison du récepteur d’appels.  <br/> |
+|**CalleeLinkSpeed** <br/> |decimal(18,0)  <br/> | <br/> |Vitesse de liaison réseau, en bps, du point de terminaison du récepteur d’appels.  <br/> |
 |**ConversationalMOS** <br/> |décimal(3,2)  <br/> | <br/> |Note MOS qualité conversation à bande étroite des sessions audio (basés sur les deux flux audio).  <br/> |
 |**AppliedBandwidthLimit** <br/> |int  <br/> ||Il s’agit de la bande passante réelle appliquée au flux côté envoi donné en fonction de différents paramètres de stratégie (TURN, API, SDP, serveur de stratégie, et ainsi de suite). À ne pas confondre avec la bande passante effective car il peut exister une bande passante effective plus basse basée sur l’estimation de la bande passante. Il s’agit en fait de la bande passante maximale pouvant être traitée par le flux d’envoi en ne tenant pas compte des limites imposées par l’estimation de la bande passante.  <br/> |
-|**AppliedBandwidthSourceKey** <br/> |smallint  <br/> ||Il s’agit de la source de la capacité de bande passante imposée. Il décrit l’emplacement d’où vient la limite de bande passante ( « Serveur de stratégie », « SERVEUR TURN », « Modalité », et ainsi de suite). Référencé à partir de [la table AppliedBandwidthSource](appliedbandwidthsource.md).  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |smallint  <br/> ||Il s’agit de la source de la capacité de bande passante imposée. Il décrit l’emplacement d’où vient la limite de bande passante ( « Serveur de stratégie », « SERVEUR TURN », « Modalité », et ainsi de suite). Référencé à partir [de la table AppliedBandwidthSource](appliedbandwidthsource.md).  <br/> |
 |**Caller** <br/> |bit  <br/> | <br/> |Indique si les mesures de l’appelant ont été reçues ; 1 est oui, une valeur null est non.  <br/> |
 |**Appelé** <br/> |bit  <br/> | <br/> |Indique si les mesures du récepteur d’appels ont été reçues ; 1 est oui, une valeur null est non.  <br/> |
-|**MidCallReport** <br/> |bit  <br/> ||Indique si le rapport s’agit d’une partie de la session ou de la session complète.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**MidCallReport** <br/> |bit  <br/> ||Indique si le rapport est pour une partie de la session ou pour la session complète.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ClassifiedPoorCall** <br/> |bit  <br/> ||Indique si un appel a été considéré médiocre (valeur 1) ou bon appel (0).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**CallerConnectivityICE** <br/> |tinyInt  <br/> ||Indique si l’appelant s’est connecté au réseau à l’aide du protocole ICE (Internet Connectivity Establishment).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**CalleeConnectivityICE** <br/> |tinyint  <br/> ||Indique si l’appelant s’est connecté au réseau à l’aide du protocole ICE (Internet Connectivity Establishment).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

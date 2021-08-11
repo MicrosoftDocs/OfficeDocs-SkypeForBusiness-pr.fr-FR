@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Découvrez comment utiliser la recherche de contenu dans le Centre de conformité Microsoft 365 pour rechercher du contenu Microsoft Teams stocké dans Exchange Online, SharePoint Online, OneDrive Entreprise et OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb63f3668ef03cdaf760a24ae1df0a815e7f282d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6810355304371564a2a305c82290df7667f5efd41889e598021636cc9ccd11d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278212"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>Utiliser la recherche de contenu dans Microsoft Teams
 
@@ -89,6 +89,6 @@ Avant d’effectuer ces étapes, assurez-vous que vous avez installé la [derni�
     ```
 3. Incluez les boîtes aux lettres de tous les membres de chaque canal privé de l’équipe dans votre requête de recherche de contenu.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Cas d’eDiscovery dans le Centre Microsoft 365 conformité](/Office365/SecurityCompliance/ediscovery-cases)

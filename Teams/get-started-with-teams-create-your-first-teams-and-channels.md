@@ -7,7 +7,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: serdars
-description: Découvrez comment créer vos premiers canaux et équipes dans le client Microsoft Teams ou le centre d’administration Microsoft Teams.
+description: Découvrez comment créer vos premiers canaux et équipes dans le client Microsoft Teams ou le centre d’administration Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33efab40cb8c2579712a06ad6c2d7dcbf58fbdde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7e4105b9ab205a3a409ae166cfe2d0221509fd17028b7fb394a58ae8b3380f67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312922"
 ---
-# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Créer vos premiers canaux et équipes dans Microsoft Teams
+# <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Créer vos premiers canaux et équipes dans Microsoft Teams
 
 En procédant à la configuration et en utilisant votre première série d’équipes et de canaux, vous améliorez votre expérience avec Teams et identifiez les spécialistes qui peuvent vous aider à la promotion de l’adoption de Teams au sein de votre organisation. Si vous n’avez pas encore installé Teams, consultez l’article [Obtenir les clients Teams](get-clients.md) et [Se connecter à Teams à l’aide d’une fonctionalité d’authentification moderne](sign-in-teams.md).
 
@@ -35,10 +35,10 @@ En procédant à la configuration et en utilisant votre première série d’éq
 
 Pour plus d’informations, voir [Vue d’ensemble des équipes et canaux dans Teams](teams-channels-overview.md) et [Meilleures pratiques pour organiser des équipes dans Teams](best-practices-organizing.md).
 
- Nous vous conseillons de commencer avec une équipe « Découvrir Teams » où les premiers utilisateurs peuvent s’entraîner, poser des questions et découvrir les fonctionnalités de Teams. Cette équipe peut se révéler très importante pour la réussite de Teams lorsque vous commencez à effectuer des essais. 
+ Nous vous conseillons de commencer avec une équipe « Découvrir Teams » où les premiers utilisateurs peuvent s’entraîner, poser des questions et découvrir les fonctionnalités de Teams. Cette équipe peut se révéler très importante pour la réussite de Teams lorsque vous commencez à effectuer des essais. 
 
-### <a name="get-to-know-teams-team"></a>Équipe « Découvrir Teams »
-Votre équipe de projet peut utiliser l’équipe « Découvrir Teams » pour s’assurer que les clients Teams sont bien définis, tenir des conversations initiales et explorer les possibilités offertes par Teams. Il existe peut-être déjà un groupe de personnes dans votre organisation qui apprécient d’accéder en avant-première aux nouvelles fonctionnalités. Cela peut être une de leurs équipes initiales lorsque vous les ajoutez à Teams, et ils vous aideront à rassembler des commentaires initiaux.
+### <a name="get-to-know-teams-team"></a>Équipe « Découvrir Teams »
+Votre équipe de projet peut utiliser l’équipe « Découvrir Teams » pour s’assurer que les clients Teams sont bien définis, tenir des conversations initiales et explorer les possibilités offertes par Teams. Il existe peut-être déjà un groupe de personnes dans votre organisation qui apprécient d’accéder en avant-première aux nouvelles fonctionnalités. Cela peut être une de leurs équipes initiales lorsque vous les ajoutez à Teams, et ils vous aideront à rassembler des commentaires initiaux.
 
 Voici une structure suggérée pour l’équipe.
 
@@ -46,9 +46,9 @@ Voici une structure suggérée pour l’équipe.
 | ------------ | -------------------- | -------------------- |
 | Général | Toutes les équipes commencent avec un canal Général. Ce canal permet de publier des annonces quand vous débutez avec Teams. |  |
 | Présentez-vous | Présentez-vous à l’équipe et partagez ce que vous attendez de Teams. |  |
-| Comment... ? | Un canal pour poser des questions sur les procédures.</br>Étape 1 : installer les clients de bureau et mobiles.</br>Étape 2 : accéder à Teams.| Onglet épinglé avec un lien vers le [Centre d’assistance Teams](https://support.office.com/teams)</br>Onglet épinglé avec un lien vers les [Vidéos de formation Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Onglet épinglé avec un lien vers [le téléchargement des clients de bureau et mobile de Teams](https://teams.microsoft.com/downloads) |
+| Comment... ? | Un canal pour poser des questions sur les procédures.</br>Étape 1 : installer les clients de bureau et mobiles.</br>Étape 2 : accéder à Teams.| Onglet épinglé avec un lien vers le [Centre d’assistance Teams](https://support.office.com/teams)</br>Onglet épinglé avec un lien vers les [Vidéos de formation Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)</br>Onglet épinglé avec un lien vers [le téléchargement des clients de bureau et mobile de Teams](https://teams.microsoft.com/downloads) |
 | Commentaires | Partager vos idées concernant votre utilisation de Teams. | Onglet épinglé vers Polly Poll|
-| Idées pour les équipes à venir | Partager vos idées sur comment Teams peut ajouter de la valeur dans votre organisation. Comment peut-on appeler ces équipes ? Qui seraient les membres ? ||
+| Idées pour les équipes à venir | Partager vos idées sur comment Teams peut ajouter de la valeur dans votre organisation. Comment peut-on appeler ces équipes ? Qui seraient les membres ? ||
 | Support | Si quelque chose ne fonctionne pas comme prévu, utilisez ce canal pour obtenir de l’aide. ||
 
 ## <a name="get-your-first-teams-up-and-running"></a>Préparez vos premières équipes et mettez-les en route
@@ -63,7 +63,7 @@ Pour commencer, nous vous recommandons de créer des équipes privées et d’aj
 
 Sur le côté gauche de l’écran de Teams, cliquez sur **Équipes**, puis, en bas de la liste des équipes, cliquez sur **Rejoindre ou créer une équipe**, puis sur **Créer une équipe**.
 
-Une fois que vous avez créé l’équipe, invitez des personnes à la rejoindre. Vous pouvez ajouter des utilisateurs individuels, des groupes et même des groupes complets de contacts (anciennement appelés des « listes de distribution »). 
+Une fois que vous avez créé l’équipe, invitez des personnes à la rejoindre. Vous pouvez ajouter des utilisateurs individuels, des groupes et même des groupes complets de contacts (anciennement appelés des « listes de distribution »). 
 
 ![Capture d’écran d’un exemple d’équipe, affichant le nom de l’équipe et une description](media/get-started-with-teams-create-team.png "Capture d’écran d’un exemple d’équipe Découvrir Teams, montrant le nom de l’équipe et la description") 
 
@@ -79,7 +79,7 @@ Donnez un nom descriptif au canal pour que les utilisateurs puissent facilement 
 
 En tant qu’un propriétaire d’une équipe, vous pouvez automatiquement nommer comme favoris des canaux pour toute l’équipe : ces canaux deviennent alors plus visibles pour tous les membres de l’équipe. Vous pouvez également épingler des onglets au canal pour ajouter des outils tels que OneNote, des liens vers des pages Web et d’autres contenus pour que les utilisateurs puissent facilement trouver ce dont ils ont besoins et partager leurs idées.  
 
-Voici un exemple du canal « Comment...? » dans l’équipe « Découvrir Teams », montrant des onglets épinglés avec des liens vers des pages Web Teams, des&ndash; vidéos de formation Teams, le centre d’assistance Teams et des liens de téléchargement Teams. 
+Voici un exemple du canal « Comment...? » dans l’équipe « Découvrir Teams », montrant des onglets épinglés avec des liens vers des pages Web Teams, des&ndash; vidéos de formation Teams, le centre d’assistance Teams et des liens de téléchargement Teams. 
 
 ![Capture d’écran d’onglets épinglés à l’exemple d’équipe](media/get-started-with-teams-add-tabs.png "Capture d’écran des onglets épinglés dans l’exemple d’équipe Découvrir Teams.") 
 

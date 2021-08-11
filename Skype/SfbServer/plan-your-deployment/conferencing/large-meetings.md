@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion de grandes réunions dans Skype Entreprise Server.'
-ms.openlocfilehash: 8e982f08b1ff65ac6a4ea6f47a15e57f1eded163
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion des grandes réunions Skype Entreprise Server.'
+ms.openlocfilehash: 97d2f501c4ebf203e03b2229af4469c89d827f4ef9e74de6360982c782ba83e0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331136"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planifier des réunions de grande taille dans Skype Entreprise Server
  
-**Résumé :** Lisez cette rubrique pour en savoir plus sur les meilleures pratiques pour l’implémentation et la gestion de grandes réunions dans Skype Entreprise Server.
+**Résumé :** Lisez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion de grandes réunions Skype Entreprise Server.
   
 La taille des réunions que Skype Entreprise Server peut prendre en charge varie selon que la conférence est hébergée sur un pool partagé ou dédié : entre 250 participants sur un pool partagé et 1 000 participants sur un pool dédié. 
   
 > [!NOTE]
-> Cette rubrique se concentre sur les meilleures pratiques pour les grandes réunions pris en charge par Skype Entreprise Server. Si votre organisation nécessite des fonctionnalités de réunion plus importantes, vous devez envisager d’implémenter un environnement hybride qui tire parti de diffusion de réunion Skype, un nouveau service en ligne qui fait partie de Microsoft 365 et Office 365. 
+> Cette rubrique se concentre sur les meilleures pratiques pour les grandes réunions pris en charge par les Skype Entreprise Server. Si votre organisation nécessite des fonctionnalités de réunion plus importantes, vous devez envisager d’implémenter un environnement hybride qui tire parti de Réunion Skype Broadcast, un nouveau service en ligne qui fait partie de Microsoft 365 et Office 365. 
 
 > [!NOTE]
-> Diffusion de réunion Skype permet aux utilisateurs d’héberger et de diffuser des réunions à un large public en ligne de 10 000 participants au plus. L’utilisation de la diffusion de réunion Skype nécessite que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec une organisation De production Microsoft 365 ou Office 365. Tous les utilisateurs doivent avoir un client en ligne établi en tant que prérequis. Si vous souhaitez déployer une solution hybride qui peut tirer parti de diffusion de réunion Skype, voir Qu’est-ce qu’une diffusion de réunion [Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et configurer votre déploiement local pour la diffusion de réunion [Skype.](../../deploy/configure-skype-meeting-broadcast.md) 
+> Réunion Skype La diffusion permet aux utilisateurs d’héberger et de diffuser des réunions à un large public en ligne de 10 000 participants au plus. L’utilisation Réunion Skype diffusion nécessite que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec une organisation Microsoft 365 ou Office 365 production. Tous les utilisateurs doivent avoir un client en ligne établi en tant que prérequis. Si vous souhaitez déployer une solution hybride qui peut tirer parti de la diffusion Réunion Skype, consultez Qu’est-ce qu’une diffusion [Réunion Skype ?](https://go.microsoft.com/fwlink/?LinkId=617071) et configurez votre déploiement local pour la diffusion [Réunion Skype](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Les grandes réunions ont généralement les caractéristiques suivantes :
   
@@ -45,7 +45,7 @@ Les grandes réunions ont généralement les caractéristiques suivantes :
     
 - Le personnel dédié (et non les présentateurs) est chargé de mener la réunion, notamment en ce qui concerne la connexion à une réunion en ligne, la vérification du bon fonctionnement de l’audio, de la vidéo et du partage des diapositives, la gestion de la salle d’attente et des rôles utilisateurs, l’activation ou la désactivation du son des participants, la gestion des questions, ainsi que la gestion des enregistrements, le cas échéant.
     
-Lorsqu’un utilisateur planifiera une réunion, Skype Entreprise Server crée un enregistrement dans la base de données de conférence, qui stocke les données de conférence, mais ne réserve aucune ressource matérielle pour la réunion prévue à l’avance. Au lieu de cela, Skype Entreprise Server dispose d’une logique d’équilibrage de charge intégrée pour allouer dynamiquement des ressources de conférence sur des serveurs frontaux de manière à répartir les charges de manière égale sur tous les serveurs frontaux du pool. Cela permet de mettre en place et d’utiliser efficacement des ressources matérielles, mais il est important de planifier correctement la prise en charge de très grandes réunions. 
+Lorsqu’un utilisateur planifiera une réunion, Skype Entreprise Server crée un enregistrement dans la base de données de conférence, qui stocke les données de conférence, mais ne réserve aucune ressource matérielle pour la réunion prévue à l’avance. Au lieu de cela, Skype Entreprise Server dispose d’une logique d’équilibrage de charge intégrée pour allouer dynamiquement des ressources de conférence sur les serveurs frontaux de manière à répartir les charges de manière égale sur tous les serveurs frontaux du pool. Cela permet de mettre en place et d’utiliser efficacement des ressources matérielles, mais il est important de planifier correctement la prise en charge de très grandes réunions. 
   
 Par exemple, lorsqu’un pool Skype Entreprise Server est proche de sa capacité maximale, chaque serveur frontal peut héberger environ 125 réunions de taille moyenne. L’ajout d’une autre petite réunion ne serait pas un problème, mais l’ajout d’une réunion à 1 000 utilisateurs serait un problème, car les serveurs frontaux ne pourraient probablement pas prendre en charge une réunion aussi importante en même temps que les 125 autres réunions.
   
@@ -59,7 +59,7 @@ Pour avoir suffisamment de ressources de processeur et de mémoire pour les réu
   
 Un pool Skype Entreprise Server dédié à l’hébergement de grandes réunions doit héberger une seule réunion de 1 000 utilisateurs au plus en même temps, de sorte que les heures de réunion doivent être réservées à l’avance via un processus de planification hors bande pour garantir une prise en charge dédiée des serveurs frontaux. Pour prendre en charge plusieurs grandes réunions en même temps, vous devez configurer plusieurs pools dédiés aux grandes réunions.
   
-Pour plus d’informations sur la configuration matérielle et logicielle requise et la planification d’une topologie qui prend en charge les grandes réunions, voir Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise [Server](hardware-and-software-requirements.md) et Planifier votre topologie de conférence pour [Skype Entreprise Server.](conferencing-topology.md)
+Pour plus d’informations sur la configuration matérielle et logicielle requise et la planification d’une topologie qui prend en charge les grandes réunions, voir Configuration matérielle et logicielle requise pour les conférences dans [Skype Entreprise Server](hardware-and-software-requirements.md) et Planifier votre topologie de conférence pour [Skype Entreprise Server](conferencing-topology.md).
   
 ## <a name="implement-best-practices-for-large-meetings"></a>Implémenter les meilleures pratiques pour les grandes réunions
 
@@ -89,7 +89,7 @@ Pour réduire le trafic des communications en temps réel dans le pool de grande
 
 Avec plusieurs centaines à un millier d’utilisateurs dans une réunion, il est bon d’avoir une personne dédiée qui modère la session en ligne d’une grande réunion. Cette personne dédiée peut être déléguée de l’organisateur de la réunion ou membre du personnel de support technique des grandes réunions de l’organisation. Il est important d’ajouter le modérateur de réunion dédié comme présentateur au moment où la réunion est programmée, même s’il soit possible de promouvoir un participant de la réunion en ligne au rôle de présentateur pendant la réunion.
   
-Le modérateur de réunion peut utiliser toutes les fonctionnalités de présentateur des clients Skype Entreprise pour gérer la grande réunion. Ces fonctionnalités sont les suivantes :
+Le modérateur de réunion peut utiliser toutes les fonctionnalités de présentateur Skype Entreprise clients pour gérer la grande réunion. Ces fonctionnalités sont les suivantes :
   
 - Surveillance de la salle d’accueil et admission ou rejet des utilisateurs dans la salle d’accueil
     
@@ -108,13 +108,13 @@ Le modérateur de réunion peut utiliser toutes les fonctionnalités de présent
     
 ### <a name="maintain-a-separate-calendar"></a>Gérer un calendrier distinct
 
-Pour chaque pool de grandes réunions, vous devez conserver un calendrier distinct des grandes réunions prévues sur ce pool. Par exemple, vous pouvez home a single user account on the large-meeting pool and use Outlook with Exchange and Online Meeting Add-in for Skype for Business to maintain a separate calendar. Si vous utilisez plusieurs comptes d’utilisateurs pour permettre au personnel de support technique de créer des réunions de grande taille, vous pouvez configurer un calendrier distinct qui regroupe toutes les réunions de grande taille créées par les membres du personnel de support technique. 
+Pour chaque pool de grandes réunions, vous devez conserver un calendrier distinct de grandes réunions prévues sur ce pool. Par exemple, vous pouvez home a single user account on the large-meeting pool and use Outlook with Exchange and Online Meeting Add-in for Skype Entreprise to maintain a separate calendar. Si vous utilisez plusieurs comptes d’utilisateurs pour permettre au personnel de support technique de créer des réunions de grande taille, vous pouvez configurer un calendrier distinct qui regroupe toutes les réunions de grande taille créées par les membres du personnel de support technique. 
   
 La gestion d’un calendrier distinct des réunions de grande taille contribue à éviter les conflits et permet de s’assurer que seule une réunion de grande taille est active à un moment donné.
   
 ### <a name="implement-a-scheduling-process"></a>Implémenter un processus de planification
 
-Étant donné qu’une seule grande réunion à la fois est prise en charge sur le pool dédié aux grandes réunions, vous devez implémenter un processus de planification de grandes réunions pour faciliter la configuration de grandes réunions et éviter les conflits. Cette fonctionnalité n’est pas fournie directement par les clients Skype Entreprise Server ou Skype Entreprise. L’une des façons d’implémenter un tel processus consiste à utiliser le système de tickets de l’équipe de support de votre organisation, si disponible.
+Étant donné qu’une seule grande réunion à la fois est prise en charge sur le pool dédié aux grandes réunions, vous devez implémenter un processus de planification de grandes réunions pour faciliter la configuration de grandes réunions et éviter les conflits. Cette fonctionnalité n’est pas fournie directement par Skype Entreprise Server ou Skype Entreprise clients. L’une des façons d’implémenter un tel processus consiste à utiliser le système de tickets de l’équipe de support de votre organisation, si disponible.
   
 La planification d’une grande réunion implique d’effectuer les étapes suivantes :
   
@@ -124,13 +124,13 @@ La planification d’une grande réunion implique d’effectuer les étapes suiv
     
 - Si la demande est approuvée, le personnel de planification (à l’aide des informations d’identification sur le pool dédié) utilise le add-in de réunion en ligne pour Skype Entreprise avec Outlook pour configurer une réunion sur le pool dédié aux grandes réunions. L’URL à utiliser pour participer à la réunion est fournie par le demandeur dans le cadre de l’avis d’approbation.
     
-- L’organisateur ou le délégué de la réunion utilise Outlook pour planifier la réunion à venir, en ajoutant l’URL de la réunion à l’invitation à la réunion. L’organisateur de réunion ou le délégué spécifie alors les utilisateurs à inviter et envoie les invitations à la réunion.
+- L’organisateur de réunion ou le délégué utilise Outlook pour planifier la réunion à venir, en ajoutant l’URL de la réunion à l’invitation à la réunion. L’organisateur de réunion ou le délégué spécifie alors les utilisateurs à inviter et envoie les invitations à la réunion.
     
 ### <a name="specify-appropriate-scheduling-details"></a>Spécifier les détails de planification appropriés
 
 Après s’être assurée qu’aucune autre réunion n’est prévue à l’heure demandée, l’équipe de support des grandes réunions qui traite la demande planifie la réunion dans le pool de grandes réunions. 
   
-Pour garantir la meilleure expérience utilisateur possible, il est important de planifier une grande réunion avec les niveaux d’accès appropriés et les paramètres de réunion adaptés aux besoins de l’organisateur de la réunion. Prenez en compte les paramètres de planification suivants configurés dans les options de réunion Skype Entreprise :
+Pour garantir la meilleure expérience utilisateur possible, il est important de planifier une grande réunion avec les niveaux d’accès appropriés et les paramètres de réunion adaptés aux besoins de l’organisateur de la réunion. Prenez en compte les paramètres de planification suivants configurés dans Skype Entreprise options de réunion :
   
 - Utilisez un nouvel espace de réunion pour chaque grande réunion au lieu de réutiliser l’espace de réunion dédié. 
     
@@ -160,7 +160,7 @@ Pour garantir la meilleure expérience utilisateur possible, il est important de
     
   - liste des présentateurs fournie par les demandeurs de grande réunion.
     
-    En gérant explicitement les présentateurs, vous pouvez limiter le nombre de présentateurs à un nombre suffisant pour rendre possible une grande réunion efficace. Si la majorité des participants à la réunion ont un rôle de participant, cela limite les chances de voir des personnes prendre accidentellement le contrôle de la présentation, supprimer une présentation PowerPoint, désactiver ou activer le son pour les présentateurs et perturber le déroulement de la réunion. 
+    En gérant explicitement les présentateurs, vous pouvez limiter le nombre de présentateurs à un nombre suffisant pour qu’il soit possible d’avoir une grande réunion efficace. Si la majorité des participants à la réunion ont un rôle de participant, cela limite les chances de voir des personnes prendre accidentellement le contrôle de la présentation, supprimer une présentation PowerPoint, désactiver ou activer le son pour les présentateurs et perturber le déroulement de la réunion. 
     
 - Cochez le paramètre **Désactiver le son pour tous les participants** pour faire en sorte que seuls les présentateurs puissent diffuser du son au cours de la réunion.
     
@@ -189,7 +189,7 @@ Créez une stratégie de conférence spécifique aux grandes réunions, puis aff
 - Définissez l’option **EnableMultiviewJoin** à **False**.
     
 > [!NOTE]
-> La prise en charge des grandes réunions dans Skype Entreprise Server nécessite que le paramètre **AllowLargeMeetings** soit définie sur true. Lorsque ce paramètre est vrai, l’expérience Skype Entreprise est optimisée pour les réunions très importantes lorsque les utilisateurs rejoignent la réunion. Plus précisément, dans le cas d’une grande réunion, Skype Entreprise n’affichera pas la liste initiale ou la mise à jour de la liste complète des participants à la réunion, ce qui constitue un goulot d’étranglement des performances pour le client et Skype Entreprise Server. Au lieu de cela, Skype Entreprise affiche uniquement les informations sur l’utilisateur et la liste des présentateurs de la réunion. Skype Entreprise affiche toujours le nombre total de participants disponibles dans les grandes réunions.
+> La prise en charge des grandes réunions Skype Entreprise Server nécessite que le paramètre **AllowLargeMeetings** soit définie sur true. Lorsque ce paramètre est vrai, l’expérience Skype Entreprise est optimisée pour les réunions très importantes lorsque les utilisateurs rejoignent la réunion. Plus précisément, dans une grande réunion, Skype Entreprise n’affiche pas l’initiale ou la mise à jour de la liste complète des participants à la réunion, ce qui constitue un goulot d’étranglement des performances pour le client et les Skype Entreprise Server. Au lieu de cela, Skype Entreprise affichera uniquement les informations sur l’utilisateur et la liste des présentateurs de la réunion. Skype Entreprise affiche toujours le nombre total de participants disponibles dans les grandes réunions.
 
 Le **paramètre de $true AllowLargeMeetings** provoque les problèmes suivants :
 
@@ -205,20 +205,20 @@ Le **paramètre de $true AllowLargeMeetings** provoque les problèmes suivants :
 
 - Désactive la possibilité d’appliquer la fonctionnalité Verrouiller la vidéo à la une aux participants.
 
-- Les utilisateurs de la numérotation PSTN ne pourront pas se réactiver à l’aide du numéro 6, car l’Assistance virtuelle personnelle qui est responsable des commandes DTMF dans les grandes réunions actives est manquante.
+- Les utilisateurs de la numérotation PSTN ne pourront pas se réactiver à l’aide du numéro 6 car l’Assistance virtuelle personnelle chargée des commandes DTMF dans les grandes réunions actives est manquante.
 
-- Si le présentateur/l’organisateur planifiera une réunion dans laquelle tout le monde doit être d’abord muté (« Désactiver tout ») les utilisateurs PSTN seront mutés tout au long de l’appel et ne pourront pas se réactiver eux-mêmes.
+- Si le présentateur/l’organisateur planifiera une réunion dans laquelle tout le monde doit être d’abord muté (« Désactiver tout ») les utilisateurs PSTN seront mutés tout au long de l’appel et ne pourront pas se désactiver eux-mêmes.
 
 À l’exception du paramètre **Taille maximale de la réunion**, tous les autres paramètres de stratégie de conférence spécifiés ici sont requis afin de désactiver les fonctionnalités de conférence qui ne sont pas nécessaires pour les grandes réunions.
   
-En outre, vous devez configurer le pool dédié aux grandes réunions afin que chaque utilisateur de Skype Entreprise Server qui est sur le pool et responsable de la gestion de la planification des réunions dispose des autorisations appropriées. Pour ce faire, procédez ainsi :
+En outre, vous devez configurer le pool dédié aux grandes réunions afin que chaque utilisateur Skype Entreprise Server qui est sur le pool et responsable de la gestion du planning de réunion dispose des autorisations appropriées. Pour ce faire, procédez ainsi :
   
 - Définissez l’option **Désigné comme présentateur** à **Aucun**. En règle générale, un ou quelques utilisateurs parmi tous les participants sont des présentateurs, et les participants ne doivent pas être automatiquement admis dans des grandes réunions en tant que présentateurs. Les présentateurs doivent être explicitement désignés au moment de la planification de la réunion ou promus explicitement au cours de la réunion.
     
-- Assurez-vous que la case à cocher **Type de conférence affecté par défaut** n’est pas sélectionnée. Ce paramètre contrôle si le add-in de réunion en ligne pour Skype Entreprise planifiera toujours des conférences à l’aide de la conférence attribuée par l’organisateur, ce qui signifie que les réunions programmées ont la même URL et les mêmes informations audio. Dans des scénarios de collaboration de petit groupe, l’utilisation de ce type de conférence est pratique, car tout le monde a sa conférence assignée individuelle et l’URL pour participer ainsi que les informations audio constantes permettent de rejoindre facilement la réunion. Cependant, dans des scénarios de grande réunion, l’équipe de support planifie les grandes réunions avec un ensemble d’informations d’identification d’utilisateur et fournit les URL et les informations audio aux demandeurs de la réunion. Dans ce cas, l’utilisation d’une URL différente pour rejoindre chaque réunion est préférable.
+- Assurez-vous que la case à cocher **Type de conférence affecté par défaut** n’est pas sélectionnée. Ce paramètre contrôle si le add-in de réunion en ligne pour Skype Entreprise planifiera toujours des conférences à l’aide de la conférence attribuée par l’organisateur, ce qui signifie que les réunions programmées ont la même URL de rejoindre et les mêmes informations audio. Dans des scénarios de collaboration de petit groupe, l’utilisation de ce type de conférence est pratique, car tout le monde a sa conférence assignée individuelle et l’URL pour participer ainsi que les informations audio constantes permettent de rejoindre facilement la réunion. Cependant, dans des scénarios de grande réunion, l’équipe de support planifie les grandes réunions avec un ensemble d’informations d’identification d’utilisateur et fournit les URL et les informations audio aux demandeurs de la réunion. Dans ce cas, l’utilisation d’une URL différente pour rejoindre chaque réunion est préférable.
     
-- Vérifiez que la case à cocher **Admettre les utilisateurs anonymes par défaut** n’est pas sélectionnée, sauf si elle est nécessaire. Ce paramètre affecte le type d’accès aux réunions par défaut prévu par le module de réunion en ligne pour Skype Entreprise lorsque vous n’utilisez pas de conférence affectée. L’option appropriée pour ce paramètre dépend des besoins de votre organisation. Si les grandes réunions de votre organisation sont des réunions internes, ne sélectionnez pas cette option. Si la plupart des grandes réunions nécessitent la participation d’utilisateurs externes, sélectionnez cette option.
+- Vérifiez que la case à cocher **Admettre les utilisateurs anonymes par défaut** n’est pas sélectionnée, sauf si elle est nécessaire. Ce paramètre affecte le type d’accès à la réunion par défaut prévu par le Skype Entreprise réunion en ligne lorsqu’aucune conférence n’est affectée. L’option appropriée pour ce paramètre dépend des besoins de votre organisation. Si les grandes réunions de votre organisation sont des réunions internes, ne sélectionnez pas cette option. Si la plupart des grandes réunions nécessitent la participation d’utilisateurs externes, sélectionnez cette option.
     
-Pour plus d’informations sur la création d’une stratégie de conférence, voir Gérer les stratégies de conférence [dans Skype Entreprise Server.](../../manage/conferencing/conferencing-policies.md)
+Pour plus d’informations sur la création d’une stratégie de conférence, voir Gérer les stratégies de conférence [dans Skype Entreprise Server](../../manage/conferencing/conferencing-policies.md).
   
 

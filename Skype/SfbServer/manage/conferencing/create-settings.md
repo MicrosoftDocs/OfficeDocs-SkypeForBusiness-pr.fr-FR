@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Résumé : Découvrez comment créer des paramètres de configuration de réunion dans Skype Entreprise Server.'
-ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11871685d51a73f5f2e9dbcbaa2835060d8a7cdc59958af1785d689c3c9246ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321687"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Créer des paramètres de configuration de réunion dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment créer des paramètres de configuration de réunion dans Skype Entreprise Server.
   
-Vous pouvez créer des paramètres de configuration de réunion à l’aide du Panneau de configuration de Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez créer des paramètres de configuration de réunion à l’Skype Entreprise Server du Panneau de configuration ou Skype Entreprise Server Management Shell.
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Créer des paramètres de configuration de réunion à l’aide du Panneau de configuration de Skype Entreprise Server
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Créer des paramètres de configuration de réunion à l’aide Skype Entreprise Server panneau de configuration
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Configuration de **la réunion.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur **Configuration de la réunion.**
     
 4. Dans la page **Configuration de la réunion**, cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
@@ -53,7 +53,7 @@ Vous pouvez créer des paramètres de configuration de réunion à l’aide du P
     
 8. Pour empêcher les utilisateurs anonymes (non identifiés) d’être automatiquement admis, désactivez la case à cocher **Admettre les utilisateurs anonymes par défaut**. Par défaut, les utilisateurs anonymes sont automatiquement admis aux réunions.
     
-9. Pour personnaliser l’invitation à la réunion envoyée aux participants, procédez comme suit. Notez que la longueur maximale des URL et du texte de pied de page personnalisé est de 1 Ko. Sauf pour l’**URL de l’aide**, si vous ne spécifiez pas une valeur pour les personnalisations, elles ne seront pas incluses dans la réunion. Si vous n’incluez pas d’URL d’aide personnalisée, l’URL d’aide par défaut pour Skype Entreprise s’affiche dans l’invitation. 
+9. Pour personnaliser l’invitation à la réunion envoyée aux participants, procédez comme suit. Notez que la longueur maximale des URL et du texte de pied de page personnalisé est de 1 Ko. Sauf pour l’**URL de l’aide**, si vous ne spécifiez pas une valeur pour les personnalisations, elles ne seront pas incluses dans la réunion. Si vous n’incluez pas d’URL d’aide personnalisée, l’URL d’aide par Skype Entreprise’aide par défaut s’affiche dans l’invitation. 
     
    - Pour personnaliser le logo qui apparaît dans l’invitation à la réunion, dans **URL du logo**, entrez l’emplacement du logo. Le logo doit être une image GIF ou JPG d’une taille de 188 par 30 pixels. 
     
@@ -65,7 +65,7 @@ Vous pouvez créer des paramètres de configuration de réunion à l’aide du P
     
 10. Cliquez sur **Valider**.
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Créer des paramètres de configuration de réunion à l’aide de Skype Entreprise Server Management Shell
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Créer des paramètres de configuration de réunion à l’aide Skype Entreprise Server Management Shell
 
 Pour créer des paramètres de configuration de réunion, utilisez l’cmdlet **New-CsMeetingConfiguration.**
   

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: Utilisez la boîte de dialogue Lien de région pour rechercher les liens de région disponibles dans votre environnement. Pour utiliser un lien de région existant, cliquez sur un lien de région dans la liste, puis sur OK.
-ms.openlocfilehash: b465dc5b275161c80bc596f70e9bcce58b2ab89c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d493093e55ae1ce1c53061ae616c98459bc6e806c147eb8cca1157b407a39610
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302698"
 ---
 # <a name="select-a-region-link"></a>Sélectionner un lien de région
  
@@ -29,6 +29,6 @@ Utilisez la **boîte de dialogue Lien** de région pour rechercher les liens de 
 > [!NOTE]
 > Pour récupérer tous les liens de régions disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche. 
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
   
 

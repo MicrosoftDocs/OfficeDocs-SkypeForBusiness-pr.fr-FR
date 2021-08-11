@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Appel sortant et m’appeler en l’avantage de minutes. À partir du 1er décembre 2019, chaque abonnement d’audioconférence fournit 60 minutes par utilisateur et par mois aux pays de la zone A.
-ms.openlocfilehash: effd0794a554288634af1634bcf7417050ad16b9
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: d532664abee611fe9ced2e744415edb91e3dae03b8aaea36e705d8bed59b10e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278232"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audio conferencing subscription « Dial-Out"/"Call Me At » minutes benefit
 
@@ -98,7 +98,7 @@ Prenons l’exemple suivant. Un client a acheté 115 licences d’abonnement à 
 
 Pour plus d’informations sur les crédits de communication, voir [Crédits de communication.](what-are-communications-credits.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Zones de pays et de région pour l’audioconférence](audio-conferencing-zones.md)

@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit comment déployer la gestion des appareils Salles Microsoft Teams de bout en bout à l’aide d’Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117592"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312682"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Gestion :::no-loc text="Microsoft Teams Rooms"::: du déploiement avec :::no-loc text="Azure Monitor":::
 
@@ -377,9 +377,9 @@ Configurez une règle d’alerte qui vérifie les appareils qui ont rencontré d
 7. Configurer des groupes d’actions :
     1.  Sélectionnez **Créer nouveau**
     2.  Fournissez des noms appropriés *pour les champs Nom du groupe d’actions* et Nom *court.*
-    3.  Spécifiez un *nom d’action unique,* sélectionnez **E-mail/SMS/Push/Voice,** puis sélectionnez **Modifier les détails.**
+    3.  Spécifiez un nom *d’action unique,* **sélectionnez E-mail/SMS/Push/Voix,** puis **sélectionnez Modifier les détails.**
     4.  Cochez **la case** Par e-mail et fournissez l’adresse e-mail de la personne ou du groupe qui recevra les alertes.
-    5.  Vous pouvez également fournir votre numéro de téléphone pour être averti par SMS, un appel vocal ou les deux.
+    5.  Vous pouvez également fournir votre numéro de téléphone pour être averti par SMS, par appel vocal ou les deux.
     6. Sélectionnez **OK.**
 
 8. **Personnalisez les actions** si vous souhaitez remplacer la ligne d’objet des courriers électroniques d’alerte.

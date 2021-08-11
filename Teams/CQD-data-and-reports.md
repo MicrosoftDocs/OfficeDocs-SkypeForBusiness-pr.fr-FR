@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: En savoir plus sur les données et rapports disponibles dans le tableau de bord de qualité des appels de Microsoft.
-ms.openlocfilehash: 47fce642bf90b1be9285a11cf19a5e6421aa262b
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 9d13823981ced4d631ed50fe9fd964765c761a029831d630de103bdc5c43e206
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331116"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels
 
@@ -42,8 +42,8 @@ Vous pouvez accéder aux données du CQD par différentes façons. Choisissez ce
 |---------|---------|
 |Teams d’administration [de https://admin.teams.microsoft.com) l’administration (](https://admin.teams.microsoft.com)    | Les données du CQD sont incluses dans la **page** Utilisateurs du Centre d’administration Teams. Elles affichent les données les plus courantes dont vous avez besoin dans un format facile à lire. Vous ne pouvez pas personnaliser les données de CQD disponibles sous **Utilisateurs.**  |
 |Portail du CQD [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Synthèse robuste et rapports détaillés qui répondent à la plupart des besoins, avec un filtrage détaillé. Vous pouvez également personnaliser les rapports dans le portail du CQD. <br><br>Obtenez deux [modèles de rapport du CQD](#import-the-cqd-report-templates) pour vous aider à analyser les données dans le portail du deQD.       |
-|Power BI     | Utilisez des requêtes directes pour afficher les données de votre Power BI à l’aide de modèles [Power BI personnalisés.](CQD-Power-BI-query-templates.md) [Téléchargez Power BI modèles de requête pour le CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Vous pouvez également [utiliser l’API REST pour accéder aux données du CQD via](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) Power BI. Utilisez cette méthode si vous voulez télécharger vos données de qualité des fichiers CQD afin de pouvoir travailler dessus en mode hors connexion. L’avantage de cette méthode est d’obtenir de meilleures performances, particulièrement utiles pour les grands ensembles de données qui se Power BI lorsque vous êtes en ligne.       |
-|API Graph     | Accédez aux données de qualité des appels vous-même à [l’aide Graph API.](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta) Il s’agit de la méthode la plus complexe, mais elle vous offre un contrôle et une flexibilité accrues pour analyser vos données de qualité des appels. Par exemple, si vous devez la joindre à d’autres données pour votre organisation, vous pouvez utiliser l’API Graph pour créer un modèle de données et incorporer des données de qualité des appels.        |
+|Power BI     | Utilisez des requêtes directes pour afficher les données de votre Power BI à l’aide de modèles [Power BI personnalisés.](CQD-Power-BI-query-templates.md) [Téléchargez Power BI modèles de requête pour le CQD.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Vous pouvez également [utiliser l’API REST pour accéder aux données du CQD via](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) Power BI. Utilisez cette méthode si vous voulez télécharger vos données de qualité des fichiers CQD afin de pouvoir travailler dessus en mode hors connexion. L’avantage de cette méthode est d’obtenir de meilleures performances, particulièrement utiles pour les jeux de données de grande taille qui se Power BI lorsque vous êtes en ligne.       |
+|API Graph     | Accédez aux données de qualité des appels vous-même à [l’aide de Graph API.](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta) Il s’agit de la méthode la plus complexe, mais elle vous offre un contrôle et une flexibilité accrues pour analyser vos données de qualité des appels. Par exemple, si vous devez la joindre à d’autres données pour votre organisation, vous pouvez utiliser l’API Graph pour créer un modèle de données et incorporer des données de qualité des appels.        |
 
 ## <a name="import-the-cqd-report-templates"></a>Importer les modèles de rapport du CQD
 
@@ -111,14 +111,14 @@ Le paramètre Date de l’URL accepte un champ Day. Les rapports jour après jou
 |<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /00/</span>        |Jour actuel|
 |||
 
-Par défaut, le jour en cours du mois est utilisé comme dernier jour de la tendance Jour consécutif.
+Par défaut, le jour en cours du mois est utilisé comme dernier jour de la tendance jour consécutif.
 
 
-## <a name="data-available-in-cqd-reports"></a>Données disponibles dans les rapports du CQD
+## <a name="data-available-in-cqd-reports"></a>Données disponibles dans les rapports du DQD
 
 Le résumé par défaut et les rapports détaillés du tableau de qualité des appels peuvent vous aider à gérer la qualité des appels pour votre organisation. Si nécessaire, vous pouvez créer [des rapports personnalisés.](#create-custom-detailed-reports) 
 
-Si vous voulez utiliser des Power BI pour analyser vos données de qualité des données, lisez Utiliser Power BI pour analyser les données du même [Teams.](CQD-Power-BI-query-templates.md)
+Si vous voulez utiliser des Power BI pour analyser vos données de CQD, lisez Utiliser Power BI pour analyser les données du même [Teams.](CQD-Power-BI-query-templates.md)
 
 |Fonctionnalité|Rapports de synthèse|Rapports détaillés|
 |:--- |:--- |:--- |
@@ -201,8 +201,8 @@ De même, l’onglet Client-Client'onglet a cinq sections réductibles :
 
 - Filé à l’intérieur — filé à l’intérieur
 - Filé à l’intérieur — filé à l’extérieur
-- Fil filé extérieur — Filé à l’extérieur
-- Connexion filée interne — WiFi interne
+- Wired Outside — Wired Outside
+- Connexion filée interne — WiFi Interne
 - Connexion filée interne — WiFi externe
 
 #### <a name="inside-versus-outside"></a>Intérieur et Extérieur
@@ -242,7 +242,7 @@ Nous vous recommandons de charger les données de votre client, bâtiment et emp
 |Évaluer mes rapports d’appel     |Analysez les évaluations des appels par région, emplacement ou par utilisateur. Inclut des commentaires verbatim.         |
 |Rapports du service d’aide     |Les rapports du service d’aide utilisent les données relatives aux appels et aux réunions pour les utilisateurs individuels, les groupes d’utilisateurs ou tout le monde. L’intégration des données de création et de la fonction EUII permet d’identifier les problèmes système possibles en fonction de l’emplacement réseau, des détails des conférences, des appareils ou du microprogramme.         |
 |Rapports sur les versions des clients     |Résumé de la version du client : afficher le nombre de sessions et d’utilisateurs pour chaque version de l’application cliente<br><br>Version client par utilisateur : afficher les noms d’utilisateur pour chaque version de l’application client <br><br>Les filtres pré-intégrés pour les produits et les types de clients aident à axer les versions sur des clients spécifiques.         |
-|Rapports sur les points de terminaison     |Affiche la qualité des appels par point de terminaison d’ordinateur (produit et modèle). Ces rapports incluent les données de bâtiment, si vous les avez téléchargées.         |
+|Rapports sur les points de terminaison     |Affiche la qualité des appels par point de terminaison d’ordinateur (produit et modèle d’ordinateur). Ces rapports incluent les données de bâtiment, si vous les avez téléchargées.         |
 
 
 ## <a name="create-custom-detailed-reports"></a>Créer des rapports détaillés personnalisés
@@ -311,7 +311,7 @@ Pour sélectionner plusieurs valeurs de filtre, commencez par ajouter un nouveau
 
 ![Capture d’écran de l’ajout d’un filtre sélection multiple](media/qerguide-image-addmultiselectfilter.png)
 
-Cliquez ensuite sur **Recherche** (icône de loupe à côté du nouveau filtre). Un champ de texte et plusieurs options s’offrent à vous, notamment Sélectionner **tout** **et Inverser.** Entrez une valeur, puis cliquez **sur Rechercher** en côté de ce champ pour effectuer une recherche. Vous pouvez également laisser le champ de texte vide et cliquer **sur Rechercher** pour afficher les 100 premières options.
+Cliquez ensuite sur **Recherche** (icône de loupe à côté du nouveau filtre). Un champ de texte et plusieurs options s’offrent à vous, notamment Sélectionner **tout** **et Inverser.** Entrez une valeur, puis cliquez **sur Rechercher en** côté de ce champ pour effectuer une recherche. Vous pouvez également laisser le champ de texte vide et cliquer **sur Rechercher** pour afficher les 100 premières options.
 
 ```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -356,7 +356,7 @@ L’URL entière ressemblerait à ceci :
 
 `https://cqd.teams.microsoft.com/spd/#/Dashboard/2624085/2018-9/filter/[AllStreams].[Is%20Teams]|[True]`
 
-Pour appliquer des filtres d’URL avec des valeurs à sélection multiple, séparez-les par un caractère de |. Par exemple :
+Pour appliquer des filtres d’URL avec des valeurs à sélection multiple, séparez-les par un caractère de |. Par exemple :
 
 `filter/[AllStreams].[Media%20Type]|[Video]|[Audio]|[VBSS]`
 
@@ -388,7 +388,7 @@ Vous pouvez également trouver votre ID de locataire à l’aide de PowerShell :
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparaison de Teams et Skype Entreprise du CQD
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Comparaison des Teams du Skype Entreprise et des données du CQD
 
 Lors de l’examen de vos données, vous pouvez constater des différences entre les Teams et Skype Entreprise. Voici quelques raisons :
 - Différences entre les mécanismes permettant de garantir les performances et la fiabilité :
@@ -400,7 +400,7 @@ Lors de l’examen de vos données, vous pouvez constater des différences entre
 > Depuis le 1er juillet 2020, l’ancienne version du CQD (cqd.lync.com) accède aux données à partir du nouveau CQD (et vous ne pouvez plus exporter les données de création et de création de https://CQD.teams.microsoft.com) rapports). À compter du 31 juillet 2021, date de l’abandon d’Skype Entreprise Online, nous désactiverons le CQD hérité et vous ne serez plus en mesure d’y accéder.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 

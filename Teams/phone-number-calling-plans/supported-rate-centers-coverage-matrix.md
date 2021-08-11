@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Répertorie les centres de tarifs pris en charge et la couverture des forfaits d’appels.
-ms.openlocfilehash: dbf0280bf26452d6bfdf40e669f43dbf131cc88b
-ms.sourcegitcommit: 67dac7a8c9c5d0151b94db81c979e2f6bafe28c3
+ms.openlocfilehash: 7c294f01e84c7b846da81d1e685673ba309fd9398f0fe34513d292c01589e32a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724512"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339482"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>Centres de tarifs pris en charge et couverture des forfaits d’appels
 
@@ -33,10 +33,10 @@ Si vous avez de nouveaux numéros et que nous n’avons pas les numéros que vou
 
 Si vous avez de nouveaux numéros et que nous n’avons pas les numéros que vous avez demandés, nous vous proposons des numéros dans le même centre de taux.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
-- [Gérer les numéros de téléphone pour votre organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [Différents types de numéros de téléphone utilisés pour les appels d’offre](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Gérer des numéros de téléphone pour votre entreprise](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Obtention de numéros de téléphone pour vos utilisateurs](../getting-phone-numbers-for-your-users.md)
 - [Obtenir des numéros de téléphone de service](../getting-service-phone-numbers.md)

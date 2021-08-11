@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Découvrez comment utiliser le Microsoft Teams d’administration pour consulter la liste de tous les numéros de téléphone de votre organisation ainsi que ceux attribués à des utilisateurs ou non attribués.
-ms.openlocfilehash: 41eceb3618fae61308b90a88165ce1935ad6b30b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6d66b1fb1b4118bca60dc37fed7f4eac8c18090c34fa68ba6a61fba860fb5710
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339442"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -130,7 +130,7 @@ Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,
 
 [Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)
 
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
   

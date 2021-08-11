@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 3f2ca560f934f5b907d05a1f768a0cadd8435f2a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d62a3af74607c3f4868ed1d808160556a765844f298ec889b37137b3133d8a30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294211"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Empêcher les nouvelles connexions à Skype Entreprise Server pour la maintenance du serveur
 
@@ -25,7 +25,7 @@ Skype Entreprise Server vous permet de mettre un serveur hors connexion (par exe
 
 Quand vous spécifiez l’option qui empêche toute nouvelle connexion ou tout nouvel appel sur un serveur appartenant à un pool, Lync Server n’accepte plus de nouvelles connexions, ni de nouveaux appels une fois cette option implémentée. Quand un serveur empêche toute nouvelle connexion, il autorise ses sessions sur des connexions existantes à se poursuivre, jusqu’à ce qu’elles se terminent normalement. Une fois toutes les sessions existantes parvenues à terme, le serveur est prêt à être mis hors connexion.
 
-Lorsque vous empêchez de nouvelles connexions à un serveur frontal, certaines fonctionnalités et services Skype Entreprise Server reposent sur l’équilibrage de charge DNS pour s’assurer qu’il fonctionne correctement. Si vous n’utilisez pas l’équilibrage de charge DNS sur le pool, il se peut que les connexions via ces services ne soient pas ré-acheminées vers d’autres serveurs pendant la période où le serveur empêche de nouvelles connexions, et par conséquent, lorsque le serveur est mis hors connexion, certaines sessions et appels peuvent être interrompus. Les fonctionnalités qui s’appuient sur l’équilibrage de charge DNS pour s’assurer que cette option fonctionne correctement sont les suivantes :
+Lorsque vous empêchez de nouvelles connexions à un serveur frontal, certaines fonctionnalités et services Skype Entreprise Server reposent sur l’équilibrage de charge DNS pour s’assurer qu’il fonctionne correctement. Si vous n’utilisez pas l’équilibrage de charge DNS sur le pool, il se peut que les connexions via ces services ne soient pas ré-acheminées vers d’autres serveurs pendant la période où le serveur empêche de nouvelles connexions, et par conséquent, lorsque le serveur est mis hors connexion, certaines sessions et appels peuvent être interrompus. Les fonctionnalités qui reposent sur l’équilibrage de charge DNS pour s’assurer que cette option fonctionne correctement sont les suivantes :
 
   - Attendant
 
@@ -50,7 +50,7 @@ En plus d’empêcher les nouvelles connexions pour tous les services sur un ser
 
 2.  Ouvrez la console en ligne Services : **Cliquez** sur Démarrer, pointez sur Tous les **programmes,** pointez sur **Outils** d’administration, puis cliquez sur **Services**.
 
-3.  Dans la liste, double-cliquez sur le service Windows Skype Entreprise Server auquel vous souhaitez empêcher les nouvelles connexions.
+3.  Dans la liste, double-cliquez sur Skype Entreprise Server Windows service auquel vous souhaitez empêcher de nouvelles connexions.
 
 4.  Dans la boîte de dialogue Propriétés, sous **État du service : Démarré**, cliquez sur **Suspendre**.
 

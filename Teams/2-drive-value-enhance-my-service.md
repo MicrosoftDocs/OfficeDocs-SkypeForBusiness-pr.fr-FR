@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa5102934cdeadf6b2418ab437bc0be28764307cda075139bfc6435c9d61948e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779190"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278242"
 ---
 # <a name="enhance-my-service"></a>Améliorer mon service
 
@@ -32,7 +32,7 @@ Cet article donne une vue d’ensemble des conditions requises pour 100% des ser
 ## <a name="enhance-my-service-overview"></a>Améliorer la vue d’ensemble de mon service
 Après avoir déployé des services d’audioconférence ou des Système téléphonique avec les services d’appels vers votre organisation et que vous avez la qualité et la fiabilité de ce service, l’étape suivante consiste à évaluer régulièrement si vous avez la possibilité d’améliorer vos services. Cela fait partie d’une planification d’amélioration continue du service qui est une norme moderne en matière de gestion des services cloud. 
 
-Un bon moyen de vous assurer de toujours 1000 points d’intérêt de vos services consiste à surveiller les feuilles de route [publiques d’Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) en ce qui a trait aux nouvelles améliorations des fonctionnalités qui pourraient intéresser votre organisation. Si vous avez accès au Microsoft 365 d’administration, vous recevrez régulièrement des mises à jour sur les nouvelles fonctionnalités et la modification de fonctionnalités via notre Centre de messages. 
+Un bon moyen de vous assurer de toujours 1000 points d’intérêt de vos services consiste à surveiller les feuilles de route [publiques d’Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) en ce qui a trait aux nouvelles améliorations des fonctionnalités qui pourraient intéresser votre organisation. Si vous avez accès au Centre d’administration Microsoft 365 vous recevrez régulièrement des mises à jour sur les nouvelles fonctionnalités et la modification via notre Centre de messages. 
 
 De plus, étant donné que les organisations grandissent et changent, vous devez prendre le temps de revoir et de mettre à jour régulièrement vos cas d’utilisation professionnelle pour vous assurer que le service est configuré pour répondre aux besoins actuels de votre organisation.  Assurez-vous d’obtenir des commentaires réels de la part de vos utilisateurs et des champions internes en établissant des canaux de commentaires dans votre organisation. Il peut s’agit de conversations informelles, de réunions régulières, ou via un Teams d’équipe ou Yammer communauté. 
 
