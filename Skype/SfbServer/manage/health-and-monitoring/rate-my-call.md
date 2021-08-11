@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Résumé : Découvrez la fonctionnalité Évaluer mon appel dans Skype Entreprise Server.'
-ms.openlocfilehash: 597a8213576e7aa2316ace68ed91288475df2a0d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814334"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326430"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Évaluer mon appel dans Skype Entreprise Server
 
@@ -31,15 +31,15 @@ Les données Évaluer mon appel collectées ne sont actuellement incluses dans a
 
 ## <a name="rate-my-call-prerequisites"></a>Évaluer les conditions préalables de mon appel
 
-Pour que les utilisateurs de votre déploiement Skype Entreprise Server accèdent à la fonctionnalité Évaluer mon appel, l’ensemble de composants suivant doit être déployé et configuré :
+Pour que les utilisateurs de votre déploiement Skype Entreprise Server peuvent accéder à la fonctionnalité Évaluer mon appel, l’ensemble de composants suivant doit être déployé et configuré :
 
--  Skype Entreprise Server doit être installé (version 9160 ou supérieure).
+-  Vous devez avoir Skype Entreprise Server installé (version 9160 ou supérieure).
 
-- Demandez à vos utilisateurs d’installer et de mettre à jour la dernière version de Skype Entreprise et de leur demander d’utiliser l’interface utilisateur de Skype Entreprise.
+- Demandez à vos utilisateurs d’installer et de mettre à jour la dernière version de Skype Entreprise et de leur demander d’utiliser l Skype Entreprise’interface utilisateur.
 
-- Les utilisateurs doivent être homed sur le pool frontal Skype Entreprise Server.
+- Les utilisateurs doivent être homed on the Skype Entreprise Server front end pool.
 
-- Une base de données de surveillance Skype Entreprise Server doit être déployée et associée à vos pools Skype Entreprise Server.
+- Une base de données Skype Entreprise Server de surveillance doit être déployée et associée à vos pools Skype Entreprise Server réseau.
 
 - Nous vous recommandons de déployer le Tableau de bord de qualité des appels (CQD).
 
@@ -51,7 +51,7 @@ La fonctionnalité Évaluer mon appel est activée par défaut dans la stratégi
 
 - Évaluer mon appel autoriser les commentaires des utilisateurs personnalisés - désactivé
 
-Toutefois, aucune action n’est requise pour activer la fonctionnalité de base, mais si vous souhaitez des commentaires personnalisés, vous devrez l’activer séparément. L’Windows PowerShell suivante est un exemple d’activation des commentaires personnalisés de l’utilisateur final et de la modification de l’intervalle de 10 % à 80 %.
+Toutefois, aucune action n’est requise pour activer la fonctionnalité de base, mais si vous souhaitez des commentaires personnalisés, vous devrez l’activer séparément. La cmdlet Windows PowerShell suivante est un exemple d’activation des commentaires personnalisés de l’utilisateur final et de la modification de l’intervalle de 10 % à 80 %.
 
 ```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
@@ -69,11 +69,11 @@ Les définitions de jeton sont codées comme suit :
 
 |||
 |:-----|:-----|
-|1   <br/> |DistortedSpeech  <br/> |
-|2   <br/> | ElectronicFeedback <br/> |
-|3   <br/> | BackgroundNoise <br/> |
+|1  <br/> |DistortedSpeech  <br/> |
+|2  <br/> | ElectronicFeedback <br/> |
+|3  <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
-|5   <br/> |Écho  <br/> |
+|5   <br/> |Écho  <br/> |
 | 21  <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
 |23  <br/> | BlurryImage <br/> |
@@ -110,7 +110,7 @@ Les définitions de jeton sont codées comme suit :
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Ce tableau contient les résultats des sondages provenant du vote « Étoile » et des commentaires des clients si activés.
 
-Les données des tables peuvent être appelées à l’aide d’une requête **\* select from [Table.Name]** ou à l’aide de Microsoft SQL Server Management Studio.
+Les données des tables peuvent être appelées à l’aide d’une requête **\* [Table.Name]** ou à l’aide de Microsoft SQL Server Management Studio.
 
 Les requêtes SQL suivantes peuvent être utilisées :
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Mise à jour des définitions de jeton
 
-Les derniers clients Skype Entreprise signalent de nouveaux ID de jeton de problème ( 100) qui ne sont peut-être pas présents dans \> votre [QoeMetrics].[ dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les définitions de jeton les plus récentes, la commande SQL suivante peut être exécuté sur la base de données de surveillance à l’aide Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées de [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
+Les derniers Skype Entreprise clients signalent de nouveaux ID de jeton de problème ( 100) qui ne sont peut-être pas présents dans \> votre [QoeMetrics].[ dbo]. Table [CallQualityFeedbackTokenDef]. Pour mettre à jour la table de base de données avec les définitions de jeton les plus récentes, la commande SQL suivante peut être exécuté sur la base de données de surveillance à l’aide Microsoft SQL Server Management Studio. Cette commande remplace toutes les entrées de [QoeMetrics]. [dbo]. Table [CallQualityFeedbackTokenDef].
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

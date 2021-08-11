@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: Feuille de route vers des articles sur la gestion et la surveillance des Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1682565d015d104ca4a60d2770e526453bea535a
-ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
+ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279701"
 ---
 # <a name="manage-and-monitor-teams"></a>Gérer et surveiller les Teams
 
@@ -43,7 +43,7 @@ Cet article fournit une feuille de route vers le contenu dont vous aurez besoin 
 
 - [Surveillez et gérez la qualité des appels.](monitor-call-quality-qos.md) Lisez cet article pour comprendre comment utiliser les outils disponibles pour la surveillance et l’amélioration de la qualité des appels pour votre organisation.
 
-- [Rapports dans le Teams d’administration](teams-analytics-and-reports/teams-reporting-reference.md) et [rapports dans le Microsoft 365 d’administration.](teams-activity-reports.md) Lisez ces articles pour comprendre quels rapports sont disponibles et comment les utiliser pour surveiller leur Teams’utilisation et l’état des services.
+- [Rapports dans le Teams d’administration](teams-analytics-and-reports/teams-reporting-reference.md) et [rapports dans le Centre d’administration Microsoft 365](teams-activity-reports.md). Lisez ces articles pour comprendre quels rapports sont disponibles et comment les utiliser pour surveiller leur Teams’utilisation et l’état des services.
 
 - [Exploitez votre service](teams-analytics-and-reports/teams-reporting-reference.md) et [améliorez-le.](upgrade-enhance-my-service.md) Consultez les articles suivants pour obtenir des instructions et des feuilles de route sur l’exploitation et l’amélioration Teams service.
 
@@ -55,5 +55,5 @@ Certains sujets de gestion demeurent sous les sections de charge de travail pert
 - [Applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md)
 
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 

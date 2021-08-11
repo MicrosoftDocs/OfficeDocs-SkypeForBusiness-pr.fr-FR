@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les topologies et les composants du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 548fc5ebecb0f123172ee4733346c03cf44aba7f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Consultez cette rubrique pour en savoir plus sur les topologies et les composants du serveur de conversation permanente Skype Entreprise Server 2015.'
+ms.openlocfilehash: 7aadfd9f899fd2f28e9ae628e9f2c7221cfdd61b545fa393379c370d5d3b59dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289542"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planifier la topologie du serveur de conversation permanente
  
-**Résumé :** Lisez cette rubrique pour en savoir plus sur les topologies et les composants du serveur de conversation permanente dans Skype Entreprise Server 2015.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur les topologies et les composants du serveur de conversation permanente Skype Entreprise Server 2015.
   
-Le serveur de conversation permanente prend en charge les configurations à serveur unique et à plusieurs serveurs. Vous pouvez installer le serveur de conversation permanente sur un serveur Skype Entreprise Server 2015 Enterprise Edition ou Standard Edition Server. 
+Le serveur de conversation permanente prend en charge les configurations à serveur unique et à plusieurs serveurs. Vous pouvez installer le serveur de conversation permanente sur un serveur Skype Entreprise Server 2015 Êdition Entreprise ou Édition Standard Server. 
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
   
 ## <a name="persistent-chat-server-components"></a>Composants du serveur de conversation permanente
 
@@ -46,49 +46,49 @@ Le serveur de conversation permanente se compose des composants suivants :
   
 - Si la conformité est activée, un ou plusieurs serveurs (plusieurs si la mise en miroir est utilisée) exécutant la base de données principale SQL Server pour l’hébergement de la base de données de conformité de conversation permanente, où sont stockés les événements de conformité et le contenu de conversation à des fins de conformité.
     
-Pour plus d’informations sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente, voir Server [requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and Hardware and software requirements for Persistent Chat Server in Skype for Business Server [2015](hardware-and-software-requirements.md). 
+Pour plus d’informations sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente, voir Configuration requise pour le serveur de conversation permanente pour [Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) et configuration matérielle et logicielle requise pour le serveur de conversation permanente [dans Skype Entreprise Server 2015.](hardware-and-software-requirements.md) 
   
 ## <a name="persistent-chat-server-topologies"></a>Topologies de serveur de conversation permanente
 
 Vous pouvez déployer un serveur de conversation permanente dans des pools à serveur unique ou à plusieurs serveurs, et avec une topologie à pool unique ou à plusieurs pools. Le serveur de conversation permanente prend en charge les topologies suivantes :
   
--  Serveur Standard Edition avec serveur de conversation permanente cotérisé sur le serveur frontal
+-  Édition Standard Serveur avec serveur de conversation permanente cocté sur le serveur frontal
     
--  Serveur Standard Edition avec serveur de conversation permanente sur un serveur distinct
+-  Édition Standard Serveur avec serveur de conversation permanente sur un serveur distinct
     
--  Serveur Enterprise Edition avec un seul serveur de conversation permanente sur un serveur distinct
+-  Êdition Entreprise Serveur avec un serveur de conversation permanente unique sur un serveur distinct
     
--  Serveur Enterprise Edition avec plusieurs serveurs de conversation permanente sur des serveurs distincts
+-  Êdition Entreprise Serveur avec plusieurs serveurs de conversation permanente sur des serveurs distincts
     
-Bien que vous pouvez déployer un serveur de conversation permanente sur un serveur Standard Edition Server, sachez que les performances et l’échelle seront affectées et que la haute disponibilité n’est pas une option. Par conséquent, il est recommandé de déployer la conversation permanente sur un serveur Standard Edition Server principalement à des fins de preuve de concept et d’évaluation. 
+Bien que vous pouvez déployer un serveur de conversation permanente sur un serveur Édition Standard, sachez que les performances et l’échelle seront affectées et que la haute disponibilité n’est pas une option. Par conséquent, il est recommandé de déployer la conversation permanente sur un serveur Édition Standard principalement à des fins de preuve de concept et d’évaluation. 
   
-Skype Entreprise Server 2015 prend en charge divers scénarios de c cocation, ce qui vous offre la possibilité d’économiser des coûts matériels en exécutant plusieurs composants sur un serveur (si vous avez une petite organisation) ou d’exécuter des composants individuels sur différents serveurs (si vous avez une grande organisation qui a besoin d’évolutivité et de performances). Vous devez prendre en compte les facteurs d’évolutivité avant de décider s’il convient de c cécalier des composants. Les scénarios de cocation diffèrent pour les serveurs Skype Entreprise Server 2015 Enterprise Edition et Standard Edition. 
+Skype Entreprise Server 2015 prend en charge divers scénarios de césion, ce qui vous offre la possibilité d’économiser des coûts matériels en exécutant plusieurs composants sur un serveur (si vous avez une petite organisation) ou d’exécuter des composants individuels sur différents serveurs (si vous avez une grande organisation qui a besoin d’évolutivité et de performances). Vous devez tenir compte des facteurs d’évolutivité avant de décider s’il convient de cérer des composants. Les scénarios de cocation diffèrent pour Skype Entreprise Server 2015 Êdition Entreprise serveurs Édition Standard serveurs. 
   
-Les sections suivantes décrivent les topologies plus en détail, y compris les scénarios de cocation et les options pour les serveurs de base de données principaux. Pour plus d’informations sur la cocation de tous les rôles serveur et bases de données, voir [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
+Les sections suivantes décrivent les topologies plus en détail, y compris les scénarios de cocation et les options pour les serveurs de base de données principaux. Pour plus d’informations sur la cocation de tous les rôles serveur et bases de données, voir [Topology Basics for Skype Entreprise Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
   
-### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Serveur Standard Edition avec serveur de conversation permanente cotérisé sur le serveur frontal
+### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Édition Standard Serveur avec serveur de conversation permanente cocté sur le serveur frontal
 
-Avec Standard Edition, vous pouvez céquequer la conversation permanente sur le serveur frontal. Il s’agit de la configuration la plus simple et la plus simple. Vous devez vous assurer que le serveur frontal existant dispose d’une capacité suffisante en termes de ressources physiques : processeur, mémoire, espace disque, etc.
+Avec Édition Standard, vous pouvez céquequer la conversation permanente sur le serveur frontal. Il s’agit de la configuration la plus simple et la plus simple. Vous devez vous assurer que le serveur frontal existant dispose d’une capacité suffisante en termes de ressources physiques : processeur, mémoire, espace disque, etc.
   
-En outre, vous pouvez céquequer le serveur principal du serveur de conversation permanente et la base de données de conformité de conversation permanente (si elle est activée) sur le serveur principal SQL Server Express. Vous pouvez également choisir d’utiliser une instance SQL Server avec une instance dédiée. 
+En outre, vous pouvez céquequer le serveur principal du serveur de conversation permanente et la base de données de conformité de conversation permanente (si elle est activée) sur le serveur SQL Server Express principal. Vous pouvez également choisir d’utiliser une instance SQL Server avec une instance dédiée. 
   
 > [!IMPORTANT]
-> Vous ne pouvez pas ajouter de serveurs supplémentaires à un pool de serveurs de conversation permanente si le premier serveur de conversation permanente est coqueté avec un serveur frontal Standard Edition. Il est recommandé d’installer le premier serveur en tant qu’instance autonome afin de pouvoir ajouter d’autres serveurs ultérieurement, si nécessaire. 
+> Vous ne pouvez pas ajouter de serveurs supplémentaires à un pool de serveurs de conversation permanente si le premier serveur de conversation permanente est coqueté avec Édition Standard serveur frontal. Il est recommandé d’installer le premier serveur en tant qu’instance autonome afin de pouvoir ajouter d’autres serveurs ultérieurement, si nécessaire. 
   
-### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Serveur Standard Edition avec serveur de conversation permanente installé sur un serveur distinct
+### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Édition Standard Serveur avec serveur de conversation permanente installé sur un serveur distinct
 
-Avec Standard Edition, vous pouvez installer le serveur de conversation permanente en tant qu’instance autonome et ajouter d’autres serveurs ultérieurement si nécessaire. 
+Avec Édition Standard, vous pouvez installer le serveur de conversation permanente en tant qu’instance autonome et ajouter d’autres serveurs ultérieurement si nécessaire. 
   
-Vous pouvez céquequer le serveur principal du serveur de conversation permanente et la base de données de conformité de conversation permanente (si elle est activée) sur le serveur principal SQL Server Express. Vous pouvez également choisir d’utiliser une instance SQL Server avec une instance dédiée. 
+Vous pouvez céquequer le serveur principal du serveur de conversation permanente et la base de données de conformité de conversation permanente (si elle est activée) sur le serveur SQL Server Express principal. Vous pouvez également choisir d’utiliser une instance SQL Server avec une instance dédiée. 
   
-### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Serveur Enterprise Edition avec un seul serveur de conversation permanente
+### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Êdition Entreprise Serveur avec un seul serveur de conversation permanente
 
-Avec Enterprise Edition, vous devez installer le serveur de conversation permanente sur un ordinateur distinct. En d’autres cas, vous ne pouvez pas céquer le serveur de conversation permanente sur le serveur frontal Enterprise Edition. Ce déploiement nécessite un serveur distinct qui exécute le serveur de conversation permanente et le service de conformité (s’il est activé).
+Avec Êdition Entreprise, vous devez installer le serveur de conversation permanente sur un ordinateur distinct. C’est-à-dire que vous ne pouvez pas c céquerifier le serveur de conversation permanente sur Êdition Entreprise serveur frontal. Ce déploiement nécessite un serveur distinct qui exécute le serveur de conversation permanente et le service de conformité (s’il est activé).
   
-Toutefois, vous pouvez céquequer la base de données SQL Server pour le serveur de conversation permanente sur la base de données principale d’un pool frontal Enterprise Edition.
+Toutefois, vous pouvez céquequer la base de données SQL Server pour le serveur de conversation permanente sur la base de données principale d’Êdition Entreprise pool frontal.
   
 > [!NOTE]
-> Si vous prévoyez d’utiliser SQL groupes de disponibilité AlwaysOn pour la haute disponibilité de haute disponibilité, notez qu’il n’est pas pris en charge pour les bases de données du serveur de conversation permanente. 
+> Si vous prévoyez d’SQL groupes de disponibilité AlwaysOn pour la haute disponibilité de haute disponibilité, notez qu’il n’est pas pris en charge pour les bases de données du serveur de conversation permanente. 
   
 Si vous coloquez la base de données de conversation permanente avec la base de données principale, vous pouvez utiliser une instance unique de SQL Server pour une ou l’ensemble des bases de données, ou vous pouvez utiliser une instance distincte de SQL Server pour chaque base de données.
   
@@ -101,9 +101,9 @@ La figure suivante montre tous les composants d’une topologie pour un serveur 
 
 ![Serveur de conversation permanente - Topologie à serveur unique](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
-### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Serveur Enterprise Edition avec plusieurs serveurs de conversation permanente
+### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Êdition Entreprise Serveur avec plusieurs serveurs de conversation permanente
 
-Avec Enterprise Edition, vous pouvez déployer une topologie à plusieurs serveurs pour une capacité et une fiabilité accrues. Une topologie à plusieurs serveurs est identique à la topologie à serveur unique, sauf que plusieurs serveurs hébergent un serveur de conversation permanente et peuvent être plus importantes. La topologie à plusieurs serveurs peut inclure jusqu’à quatre ordinateurs actifs exécutant le serveur de conversation permanente (les configurations de haute disponibilité et de récupération d’urgence autorisent jusqu’à huit, mais seuls quatre peuvent être actifs et les quatre autres en veille). Chaque serveur peut prendre en charge jusqu’à 20 000 utilisateurs simultanés, pour un total de 80 000 utilisateurs simultanés connectés à un pool de serveurs de conversation permanente avec 4 serveurs. Plusieurs ordinateurs exécutant le serveur de conversation permanente doivent résider dans le même domaine services de domaine Active Directory que Skype Entreprise Server et le service de conformité.
+Avec Êdition Entreprise, vous pouvez déployer une topologie à plusieurs serveurs pour une capacité et une fiabilité accrues. Une topologie à plusieurs serveurs est identique à la topologie à serveur unique, sauf que plusieurs serveurs hébergent un serveur de conversation permanente et peuvent être plus importantes. La topologie à plusieurs serveurs peut inclure jusqu’à quatre ordinateurs actifs exécutant le serveur de conversation permanente (les configurations de haute disponibilité et de récupération d’urgence autorisent jusqu’à huit, mais seuls quatre peuvent être actifs et les quatre autres en veille). Chaque serveur peut prendre en charge jusqu’à 20 000 utilisateurs simultanés, pour un total de 80 000 utilisateurs simultanés connectés à un pool de serveurs de conversation permanente avec 4 serveurs. Plusieurs ordinateurs exécutant le serveur de conversation permanente doivent résider dans le même domaine services de domaine Active Directory que Skype Entreprise Server et le service de conformité.
   
 La figure suivante montre tous les composants d’une topologie à plusieurs serveurs avec plusieurs ordinateurs exécutant le serveur de conversation permanente, le service de conformité facultatif et une base de données de conformité distincte.
   

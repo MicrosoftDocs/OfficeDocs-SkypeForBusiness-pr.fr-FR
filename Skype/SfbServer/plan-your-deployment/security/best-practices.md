@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
-description: Vous avez probablement déjà pris des mesures afin d’intégrer la tolérance de panne dans votre système, en utilisant diverses pratiques courantes telles que la mise en place d’une redondance au niveau du matériel, la protection contre les coupures de courant, l’installation régulière de mises à jour de sécurité, l’utilisation d’antivirus et le contrôle de l’activité du serveur. Ces pratiques profitent non seulement à votre infrastructure Skype Entreprise Server, mais également à l’ensemble de votre réseau. Si vous n’avez pas implémenté ces pratiques, nous vous recommandons de le faire avant de déployer Skype Entreprise Server.
-ms.openlocfilehash: f2e9e019c5aadab57dddc8d8dcbb1b9090a160f4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Vous avez probablement déjà pris des mesures afin d’intégrer la tolérance de panne dans votre système, en utilisant diverses pratiques courantes telles que la mise en place d’une redondance au niveau du matériel, la protection contre les coupures de courant, l’installation régulière de mises à jour de sécurité, l’utilisation d’antivirus et le contrôle de l’activité du serveur. Ces pratiques bénéficient non seulement à votre infrastructure Skype Entreprise Server, mais également à l’ensemble de votre réseau. Si vous n’avez pas implémenté ces pratiques, nous vous recommandons de le faire avant de déployer Skype Entreprise Server.
+ms.openlocfilehash: 21173b6fe924938ebabfecc0c36b3abdce092b4c9e902284530ec47d2c1ca8bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318697"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Meilleures pratiques pour votre infrastructure principale dans Skype Entreprise Server
  
-Vous avez probablement déjà pris des mesures afin d’intégrer la tolérance de panne dans votre système, en utilisant diverses pratiques courantes telles que la mise en place d’une redondance au niveau du matériel, la protection contre les coupures de courant, l’installation régulière de mises à jour de sécurité, l’utilisation d’antivirus et le contrôle de l’activité du serveur. Ces pratiques profitent non seulement à votre infrastructure Skype Entreprise Server, mais également à l’ensemble de votre réseau. Si vous n’avez pas implémenté ces pratiques, nous vous recommandons de le faire avant de déployer Skype Entreprise Server.
+Vous avez probablement déjà pris des mesures afin d’intégrer la tolérance de panne dans votre système, en utilisant diverses pratiques courantes telles que la mise en place d’une redondance au niveau du matériel, la protection contre les coupures de courant, l’installation régulière de mises à jour de sécurité, l’utilisation d’antivirus et le contrôle de l’activité du serveur. Ces pratiques bénéficient non seulement à votre infrastructure Skype Entreprise Server, mais également à l’ensemble de votre réseau. Si vous n’avez pas implémenté ces pratiques, nous vous recommandons de le faire avant de déployer Skype Entreprise Server.
   
 Pour protéger les serveurs de votre déploiement Skype Entreprise Server contre les dommages accidentels ou intentionnables qui peuvent entraîner un temps d’arrêt, prenez les précautions suivantes :
   
@@ -31,7 +31,7 @@ Pour protéger les serveurs de votre déploiement Skype Entreprise Server contre
     
 - Installez vos serveurs dans un environnement physique protégé contre les accès non autorisés. Vérifiez que les logiciels antivirus appropriés sont installés sur tous vos serveurs. Mettez à jour ces logiciels à l’aide des fichiers de signatures de virus les plus récents. Utilisez la fonction de mise à jour automatique de vos logiciels antivirus pour mettre à jour vos signatures de virus.
     
-- Nous vous recommandons de désactiver les services de système d’exploitation Windows Server qui ne sont pas requis sur les ordinateurs où vous installez Skype Entreprise Server.
+- Nous vous recommandons de désactiver les services de système d’exploitation Windows Server qui ne sont pas requis sur les ordinateurs sur Skype Entreprise Server.
     
 - Chiffrez les systèmes d’exploitation et les lecteurs de disques où les données sont stockées avec un système de chiffrement de volume complet, à moins que vous puissiez garantir un contrôle constant et total des serveurs, un isolement physique total, ainsi qu’une désaffectation en bonne et due forme des disques remplacés ou en échec.
     

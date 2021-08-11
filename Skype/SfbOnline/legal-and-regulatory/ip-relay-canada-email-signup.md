@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: Comment faire la recherche d’un compte relais IP pour le Canada.
-ms.openlocfilehash: 1d1a5f4c493c29ceaa0c0ac885dfb8f4aea81523
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: Recherchez un compte IP Relay pour le Canada.
+ms.openlocfilehash: 142f56aac8c80cb9a316e294985d8c7736b1ccd8d8d06f5b2d925633686c1bb4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237140"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298764"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>Relais IP au Canada - inscription
 
@@ -54,6 +54,6 @@ Pour configurer un compte relais IP pour le Canada, complétez les informations 
 Une fois votre compte prêt (dans les 24 heures), nous vous en utiliserons le nom d’utilisateur et le mot de passe par e-mail. 
 
 
-Consultez ensuite le relais [IP au Canada - Guide de l’utilisateur](ip-relay-canada-user-guide.md) pour commencer. 
+Consultez ensuite le relais [IP au Canada ( guide de l’utilisateur](ip-relay-canada-user-guide.md) pour commencer). 
 
 

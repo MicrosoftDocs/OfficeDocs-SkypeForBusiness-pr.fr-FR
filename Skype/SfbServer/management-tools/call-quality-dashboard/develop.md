@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
 description: 'Résumé : Découvrez comment développer des solutions pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 246a88654438ce4f4fd6138d17b9c53f9fdedf32
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d96f314621ab69eb6ad445d9567d7eb7f313aef2c9dc958ef6f93bed58d7eca9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278702"
 ---
 # <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Développer le tableau de bord de qualité des appels pour Skype Entreprise Server
  
 **Résumé :** Découvrez comment développer des solutions pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-Cette rubrique fournit une documentation de développement pour le tableau de bord de qualité des appels (CQD) pour Skype Entreprise Server.
+Cette rubrique fournit une documentation de développement pour le Tableau de bord de qualité des appels (CQD) pour Skype Entreprise Server.
   
 ## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Développer le tableau de bord de qualité des appels pour Skype Entreprise Server
 
 Le CQD peut être étendu et intégré à votre environnement de création de rapports à l’aide d’un développement personnalisé. 
   
-Deux ensembles d’API web sont disponibles : un pour accéder aux données du cube (via les API de données) et un autre pour accéder aux métadonnées du rapport (via l’API référentiel). 
+Deux ensembles d’API web sont disponibles: un pour accéder aux données du cube (via les API de données) et un autre pour accéder aux métadonnées du rapport (via l’API référentiel). 
   
 - [API de données pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server](data-api.md)
     

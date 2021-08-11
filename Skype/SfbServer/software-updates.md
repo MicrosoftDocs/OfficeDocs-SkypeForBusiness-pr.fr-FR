@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Recherchez et gérez les mises à jour pour Skype Entreprise Server ou Lync 2013. Utilisez les liens pour obtenir plus d’informations, puis téléchargez les mises à jour.
-ms.openlocfilehash: 9a3b2cb94c74e5f33a3643f3490a1d09014f4175
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Recherchez et gérez les mises à jour Skype Entreprise Server ou Lync 2013. Utilisez les liens pour obtenir plus d’informations, puis téléchargez les mises à jour.
+ms.openlocfilehash: 7358bf9c35ca516de84ca81ab91564946e13a754d6816c8e6378ccb9cf85d3c0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279850"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise
 
-La page web _de téléchargement et_ de mise à jour de Skype Entreprise qui était une fois sur Technet a été retirée. Le contenu a été réorganisé en pages client et serveur. Suivez ces liens vers le contenu dont vous avez besoin :
+Le Skype Entreprise page web _de téléchargements et_ de mises à jour qui était une fois sur Technet a été retiré. Le contenu a été réorganisé en pages client et serveur. Suivez ces liens vers le contenu dont vous avez besoin :
 
-- [Mises à jour pour les clients Skype Entreprise](sfb-client-updates.md) qui contiennent les sections suivantes :
-    - [Mises à jour du client Skype Entreprise 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Mises à jour du client Skype Entreprise 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
-    - [Mises à jour du client Skype Entreprise sur Mac](sfb-client-updates.md)
+- [Mises à jour pour Skype Entreprise clients qui](sfb-client-updates.md) contient les sections :
+    - [Skype Entreprise client 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
+    - [Skype Entreprise client 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
+    - [Skype Entreprise mises à jour du client Mac](sfb-client-updates.md)
     - [Mises à jour du client Lync 2013](sfb-client-updates.md)
-        - [Mises à jour de Lync Phone Edition](sfb-client-updates.md#lync-phone-edition-updates)
-        - [Clients Lync Phone Edition dans le Centre de téléchargement](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
+        - [Mises à jour de Lync Téléphone Edition](sfb-client-updates.md#lync-phone-edition-updates)
+        - [Clients Lync Téléphone Edition dans le Centre de téléchargement](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Logiciel d’essai Lync Basic 2013](sfb-client-updates.md)
     - [Mises à jour du client Lync pour Mac 2011](sfb-client-updates.md#lync-for-mac-2011-client-updates)
     - [Mises à jour du client Lync 2010](sfb-client-updates.md#lync-2010-client-updates)
         - [Mises à jour de Lync 2010 Attendant](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Mises à jour de Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- [Mises à jour de Skype Entreprise Server](sfb-server-updates.md) qui contient les sections suivantes :
-    - [Historique des mises à jour de Skype Entreprise Server 2019](sfb-server-updates.md#skype-for-business-server-2019-update-history)
-    - [Historique des mises à jour de Skype Entreprise Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
+- [Skype Entreprise Server mises à jour](sfb-server-updates.md) qui contiennent les sections :
+    - [Skype Entreprise Server de mise à jour 2019](sfb-server-updates.md#skype-for-business-server-2019-update-history)
+    - [Skype Entreprise Server de mise à jour 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Historique des mises à jour de Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
         - [Outils de développement Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)
         - [Disques durs durs (VHD) pré-configurés](sfb-server-updates.md#pre-configured-vhds)
@@ -51,7 +51,7 @@ La page web _de téléchargement et_ de mise à jour de Skype Entreprise qui ét
         - [Outils Lync 2010](sfb-server-updates.md#lync-2010-tools)
         - [Documentation téléchargeable pour Lync 2010](sfb-server-updates.md#lync-2010-downloadable-documentation)
         - [Kit de ressources (référence technique)](sfb-server-updates.md#resource-kit-technical-reference)
-        - [Group Chat](sfb-server-updates.md#group-chat)
+        - [Conversation de groupe](sfb-server-updates.md#group-chat)
         - [Logiciel d’essai](sfb-server-updates.md#trial-software)
     - [Informations supplémentaires](sfb-server-updates.md#additional-information)
     - [Rubriques connexes](sfb-server-updates.md#related-topics)

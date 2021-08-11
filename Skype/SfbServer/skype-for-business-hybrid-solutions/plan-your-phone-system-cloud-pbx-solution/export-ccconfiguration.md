@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
-description: Exporte la configuration de la version Cloud Connector de Skype Entreprise vers un fichier local sur le serveur hôte de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: cd0745081e3f069aaf58c9ffdbf24494bfb3ece1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Exporte la configuration Skype Entreprise Cloud Connector Edition vers un fichier local sur Skype Entreprise Cloud Connector Edition serveur hôte.
+ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801464"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288837"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
-Exporte la configuration de la version Cloud Connector de Skype Entreprise vers un fichier local sur le serveur hôte de la version Cloud Connector de Skype Entreprise.
+Exporte la configuration Skype Entreprise Cloud Connector Edition vers un fichier local sur Skype Entreprise Cloud Connector Edition serveur hôte.
   
 ```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres d’audioconférence Skype Entreprise Online (fournisseur, numéro gratuit ou gratuit par défaut, ID de conférence ou code confidentiel) pour un utilisateur de votre organisation. '
-ms.openlocfilehash: f31648c9b2d50f595dc113b65318f9c6f9204e24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 648bb27ce8e6745d765b8fc400494188fd43b5e866ecf0cf927f36fd4d7ca676
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335714"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gérer les paramètres d’audioconférence d’un utilisateur dans Skype Entreprise Online
 
@@ -65,7 +65,7 @@ En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier le
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gestion des paramètres d'audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md)
 

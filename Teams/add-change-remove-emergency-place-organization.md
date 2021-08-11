@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le Microsoft Teams d’administration.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f9a612bc89972d06bbb87c6905c3ec25c85a5e9171095c46e065a9692e2514b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279830"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation
 
@@ -71,7 +71,7 @@ Voir [Set-CsOnlineLisLocation.](/powershell/module/skype/set-csonlinelislocation
 
 Voir [Remove-CsOnlineLisLocation.](/powershell/module/skype/remove-csonlinelislocation)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)

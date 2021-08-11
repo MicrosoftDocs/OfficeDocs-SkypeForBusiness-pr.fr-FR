@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Découvrez comment mettre à niveau votre déploiement de la version Cloud Connector.
-ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279970"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Effectuer une mise à niveau vers une nouvelle version de Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
  
 Découvrez comment mettre à niveau votre déploiement de la version Cloud Connector.
   
-Si vous avez installé un compte client de gestion en ligne et activé les mises à jour automatiques, votre déploiement existant de Skype Entreprise, version Cloud Connector sera automatiquement mise à niveau vers la version la plus récente, en fonction de la configuration de votre fenêtre de temps de mise à jour automatique. Vous pouvez également effectuer une mise à niveau manuelle. 
+Si vous avez installé un compte client de gestion en ligne et activé les mises à jour automatiques, votre déploiement existant de Skype Entreprise Cloud Connector Edition sera automatiquement mis à niveau vers la version la plus récente, en fonction de la configuration de votre fenêtre de temps de mise à jour automatique. Vous pouvez également effectuer une mise à niveau manuelle. 
   
 Les versions 1.4.1 et ultérieures de Cloud Connector effectuent des mises à jour automatiques par défaut. Si vous souhaitez mettre à niveau vers la dernière version (2.1) manuellement, voir Mettre à niveau un site unique vers une [nouvelle version](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) plus loin dans cette rubrique.
   
@@ -54,11 +54,11 @@ La mise à jour automatique nécessite que le service Cloud Connector soit en co
     
   - Téléchargez et vérifiez le fichier de version à partir du site de téléchargement.
     
-  - Téléchargez le fichier .msi de la nouvelle version. 
+  - Téléchargez la nouvelle version .msi fichier. 
     
   - Désinstallez l’ancien fichier msi ; installez le nouveau fichier msi.
     
-  - Téléchargez la nouvelle version de Skype Entreprise Bits.
+  - Téléchargez la nouvelle version de Skype Entreprise bits.
     
   - Enregistrez l’appliance en appelant Register-CcAppliance.
     
@@ -78,7 +78,7 @@ S’il n’existe qu’une seule appliance dans le site que vous souhaitez mettr
     
 2. Installez la nouvelle version de CloudConnector.msi à partir [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) de .
     
-3. Confirmez que vous avez le fichier CloudConnector.ini pour la version que vous installez et que vous avez mis à jour toutes les valeurs requises pour votre environnement. Vous ne pouvez pas utiliser le fichier .ini d’une version précédente. Si vous êtes en cours de mise à niveau de Cloud Connector, reportez-vous à la rubrique Préparer votre appliance [Cloud Connector](prepare-your-cloud-connector-appliance.md) et assurez-vous que SiteName et EnableReferSupport sont définies sur la valeur correcte dans le fichier CloudConnector.ini.
+3. Confirmez que vous avez le fichier CloudConnector.ini pour la version que vous installez et que vous avez mis à jour toutes les valeurs requises pour votre environnement. Vous ne pouvez pas utiliser le .ini d’une version précédente. Si vous êtes en cours de mise à niveau de Cloud Connector, reportez-vous à la rubrique Préparer votre appliance [Cloud Connector](prepare-your-cloud-connector-appliance.md) et assurez-vous que SiteName et EnableReferSupport sont définies sur la valeur correcte dans le fichier CloudConnector.ini.
     
 4. Démarrez une console PowerShell en tant qu’administrateur et exécutez l’cmdlet suivante pour inscrire l’appliance actuelle :
     
@@ -104,9 +104,9 @@ S’il n’existe qu’une seule appliance dans le site que vous souhaitez mettr
    Switch-CcVersion
    ```
 
-S’il existe plusieurs appliances dans le site, suivez les étapes précédentes pour mettre à niveau chaque appliance une par une.
+Si le site contient plusieurs appliances, suivez les étapes précédentes pour mettre à niveau chaque appliance une par une.
   
-Si vous souhaitez mettre à jour les informations d’identification d’administrateur de domaine, d’administrateur d’ordinateur virtuel, d’administrateur en mode sans échec et d’administrateur client, vous pouvez exécuter l’cmdlet avec le paramètre  _UpdateAllCredentials_ pour réinitialiser toutes les informations d’identification :
+Si vous souhaitez mettre à jour les informations d’identification d’administrateur de domaine, d’administrateur de machine virtuelle, d’administrateur de mode Coffre et d’administrateur client, vous pouvez exécuter la cmdlet avec le paramètre _UpdateAllCredentials_ pour réinitialiser toutes les informations d’identification :
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials

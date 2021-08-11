@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 09bbc5d0bda469b94a069e27532bc1507f406bf8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 257a67c057f31e7ef97eb42adf1aa77b41fbbe304a38adca11a0f4546c07e090
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335624"
 ---
 # <a name="configure-a-network-region-create-new-or-edit-existing"></a>Configuration d’une région de réseau : création d’une nouvelle ou modification d’une configuration existante
 

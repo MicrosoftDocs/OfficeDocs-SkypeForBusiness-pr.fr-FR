@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: LRemove-CcLegacyServerCertificate cmdlet supprime les certificats de serveur hérités sur le magasin central de gestion, le serveur de médiation et le serveur Edge après l’exécution des cmdlets Renew-CcCACertificate ou Renew CcServerCertificate.
-ms.openlocfilehash: f3fe17e8c6c559d1a2c8ab14543807f82c4b6813
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6c1665d0c21e5afd25ed630fc1da4f1987264d9325fec2058981fe91a1edc0bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824280"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288732"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
@@ -62,7 +62,7 @@ Aucun. La cmdlet Remove-CcLegacyServerCertificate n’accepte pas la saisie de d
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

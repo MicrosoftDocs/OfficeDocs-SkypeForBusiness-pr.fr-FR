@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Découvrez comment déplacer des utilisateurs de Teams vers l’ordinateur local.
-ms.openlocfilehash: 782fd16fb4ad5c8567600ffcf781410a4532c213
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: 0ecfc5ab89fc8ed1e9f0a9c0d7dbc854049e3424bc6f689a329af31cde443850
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660712"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310293"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Déplacer des utilisateurs du cloud vers l’local 
 
@@ -36,7 +36,7 @@ Si nécessaire, vous pouvez déplacer un utilisateur précédemment migré de l�
 
 ## <a name="prerequisites"></a>Configuration requise
 
-- Azure AD Connecter doit être correctement configuré et synchroniser tous les attributs pertinents pour l’utilisateur, comme décrit dans Configurer [Azure AD Connecter](configure-azure-ad-connect.md).
+- L’organisation doit avoir azure AD Connecter correctement configuré et synchroniser tous les attributs pertinents pour l’utilisateur, comme décrit dans [Configurer Azure AD Connecter](configure-azure-ad-connect.md).
 - L’utilisateur en cours de revenir en ligne vers l’local doit déjà exister dans l’annuaire Active Directory local.
 - Skype Entreprise hybride doit être configuré, comme décrit dans La configuration [Skype Entreprise hybride](configure-federation-with-skype-for-business-online.md).
 
@@ -67,7 +67,7 @@ $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc
 Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Credential $cred -HostedMigrationOverrideUrl $url
 ```
 
-### <a name="move-users-with-the-skype-for-business-server-control-panel"></a>Déplacer des utilisateurs à l’Skype Entreprise Server de contrôle
+### <a name="move-users-with-the-skype-for-business-server-control-panel"></a>Déplacer des utilisateurs avec le Panneau Skype Entreprise Server de contrôle
 
 1. Ouvrez l Skype Entreprise Server du Panneau de Skype Entreprise Server.
 2. Dans le navigation de gauche, sélectionnez **Utilisateurs.**

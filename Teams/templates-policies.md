@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment gérer les modèles d’équipe dans le Centre d’administration
-ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310403"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration
 
@@ -90,7 +90,7 @@ Vous pouvez masquer jusqu’à 100 modèles par stratégie. Le **bouton** Masque
 
 **Q : Puis-je affecter par lots des utilisateurs à des stratégies de modèles d’équipe ?**
   
-R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [Pour en savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [En savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q : Les groupes peuvent-ils être affectés à des stratégies de modèles d’équipe ?**
 
@@ -132,7 +132,7 @@ R : Non, la gestion des modèles dans PowerShell n’est pas prise en charge.
 
 R : Non, les stratégies de modèle pour EDU ne sont pas pris en charge.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](./get-started-with-teams-templates-in-the-admin-console.md)
 

@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - seo-marvel-mar2020
 description: Répertorie les zones de l’audioconférence ainsi que le pays et les régions de chaque zone.
-ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8f09956b2d5a2e0e874926c50b78f79f5357117ce76ba47126842c266777ceca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279781"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>Zones de pays et de région pour l’audioconférence
 
 Cet article répertorie les zones de pays et de région pour l’audioconférence.
 
-## <a name="zone-a-countries-and-regions"></a>Zone A pays et régions
+## <a name="zone-a-countries-and-regions"></a>Pays et régions de la zone A
 
 |Pays ou région    |
 |-----|
@@ -80,7 +80,7 @@ Cet article répertorie les zones de pays et de région pour l’audioconférenc
 |Royaume-Uni  <br/> |
 |États-Unis  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Période complémentaire pour la numérotation de l'audioconférence](complimentary-dial-out-period.md)

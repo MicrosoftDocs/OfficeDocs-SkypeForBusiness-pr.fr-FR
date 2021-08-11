@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Après avoir supprimé un serveur d’archivage, vous pouvez supprimer les bases de données SQL Server qui hébergeaient les données du pool. Utilisez les procédures suivantes pour supprimer les définitions du Générateur de topologie, puis supprimez la base de données et les fichiers journaux du serveur de base de données.
-ms.openlocfilehash: f8a08b7ea73fa954726bdef986e5a28919c90ceb
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 3b0b41944941cd6984dec72c52405a1bce63fd8bff87e14cfd94fc723e262d49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753306"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279562"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Suppression de la base de données SQL Server pour un serveur d’archivage
 
@@ -24,7 +24,7 @@ Après avoir supprimé un serveur d’archivage, vous pouvez supprimer les bases
   
 ## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>Pour supprimer la base de données SQL Server à l’aide du Générateur de topologie
 
-1. Sur le serveur frontal Skype Entreprise Server 2019, ouvrez le Générateur de topologie.
+1. Sur le Skype Entreprise Server frontal 2019, ouvrez le Générateur de topologie.
     
 2. Dans le Générateur de topologie, accédez à **Composants partagés,** puis **SQL Server Stores,** cliquez avec le bouton droit sur l’instance SQL Server associée au serveur d’archivage supprimé ou reconfiguré, puis cliquez sur **Supprimer.**
     
@@ -34,7 +34,7 @@ Après avoir supprimé un serveur d’archivage, vous pouvez supprimer les bases
 
 1. Pour supprimer les bases de données sur le serveur SQL Server, vous devez être membre du groupe des administrateurs système SQL Server chargés du serveur sur lequel vous voulez supprimer les fichiers de base de données. 
     
-2. Ouvrez Skype Entreprise Server Management Shell.
+2. Ouvrez l Skype Entreprise Server Management Shell.
     
 3. Dans la ligne de commande, tapez le code suivant :
     

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Après avoir migré vers Microsoft Skype Entreprise Server 2019, vous devez effectuer quelques tâches pour configurer Skype Entreprise Server 2019 afin qu’il fonctionne avec System Center Operations Manager.
-ms.openlocfilehash: ef40890cb3ac01d8223c4b9a9cd0c4712e544376
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 477fbd3c405328ffac4aa70a722120d375e95b295bf5a23d19882248d1ece54e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279612"
 ---
 # <a name="configure-scom-monitoring"></a>Configuration de la surveillance SCOM
 
@@ -26,7 +26,7 @@ Après avoir migré vers Skype Entreprise Server 2019, vous devez effectuer quel
     
 - Mettez à jour la clé de Registre du serveur candidat de détection centrale.
     
-- Configurez votre serveur de gestion System Center Operations Manager principal pour remplacer le nœud de découverte centrale candidat.
+- Configurez votre serveur de System Center Operations Manager principal pour remplacer le nœud de découverte centrale candidat.
     
 Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dessous.
   
@@ -38,7 +38,7 @@ Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dess
     
 ### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Mettez à jour la clé de Registre du serveur candidat de détection centrale.
 
-1. Sur le serveur choisi pour gérer la logique de découverte centrale, ouvrez une fenêtre Windows PowerShell commande. 
+1. Sur le serveur choisi pour gérer la logique de découverte centrale, ouvrez Windows PowerShell fenêtre de commande. 
     
 2. Sur la ligne de commande, tapez ce qui suit :
     
@@ -53,7 +53,7 @@ Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dess
     > [!NOTE]
     > À chaque modification du Registre, une erreur liée à l’échec de la commande risque de se produire si la clé de Registre existe déjà. Dans ce cas, vous pouvez ignorer cette erreur sans risque. 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Configurez votre serveur de gestion System Center Operations Manager principal pour remplacer le nœud de détection centrale du candidat.
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Configurez votre serveur de System Center Operations Manager principal pour remplacer le nœud de détection centrale du candidat.
 
 1. Sur un ordinateur doté de la console System Center Operations Manager, développez **Objets du pack d’administration**, puis sélectionnez **Détections d’objets**.
     
@@ -63,6 +63,6 @@ Des instructions pour mener à bien chacune de ces tâches sont fournies ci-dess
     
 4. Remplacez la **Valeur effective du candidat de détection LS** par le nom du serveur candidat choisi dans la procédure précédente. 
     
-Pour finaliser vos modifications, redémarrez le service d’état d’état sur le serveur de gestion racine System Center Operations Manager.
+Pour finaliser vos modifications, redémarrez le service d’état d’System Center du serveur d’administration racine Operations Manager.
   
 

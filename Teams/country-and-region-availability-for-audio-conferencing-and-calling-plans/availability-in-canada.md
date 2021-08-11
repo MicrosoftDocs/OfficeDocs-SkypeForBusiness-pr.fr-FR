@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Canada.
-ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: b1b28b9caa3479de81d64639a0d638e3d5eada59967e1328f806b55993363472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279771"
 ---
 # <a name="availability-in-canada"></a>Disponibilité au Canada
 
@@ -88,7 +88,7 @@ Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Micro
 
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

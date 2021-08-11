@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Découvrez le déploiement de plusieurs sites PSTN dans Cloud Connector Edition.
-ms.openlocfilehash: 059b9a39a082e876b1dd9cd772a235c384a29107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289382"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Déployer plusieurs sites dans Cloud Connector
 
 > [!Important] 
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
 Découvrez le déploiement de plusieurs sites PSTN dans Cloud Connector Edition.
   
@@ -34,7 +34,7 @@ Cette section décrit comment déployer plusieurs sites de réseau téléphoniqu
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>Plusieurs sites de réseau téléphonique commuté (PSTN)
 
-L’exemple suivant montre un exemple de configuration pour déployer Skype Entreprise, version Cloud Connector pour différents sites PSTN. Assurez-vous que vos paramètres de configuration sont corrects avant de commencer un déploiement.
+L’exemple suivant montre un exemple de configuration pour déployer Skype Entreprise Cloud Connector Edition pour différents sites PSTN. Assurez-vous que vos paramètres de configuration sont corrects avant de commencer un déploiement.
   
 Site PSTN 1
   
@@ -72,7 +72,7 @@ ExternalMRIPs=192.168.1.5
 ExternalMRPublicIPs=104.42.226.134
 ```
 
-Pour chaque site PSTN que vous souhaitez ajouter, suivez les étapes de déploiement d’un [site unique dans Cloud Connector.](deploy-a-single-site-in-cloud-connector.md)
+Pour chaque site PSTN que vous souhaitez ajouter, suivez les étapes de la procédure de déploiement d’un [site unique dans Cloud Connector.](deploy-a-single-site-in-cloud-connector.md)
   
 > [!IMPORTANT]
 > Le dossier partagé pour la préparation de la haute disponibilité (HA) est par site PSTN. Le dossier partagé **doit être** différent entre les sites PSTN. N’utilisez pas le même dossier partagé pour plusieurs sites.> 
@@ -95,7 +95,7 @@ Le tableau suivant répertorie les différences entre un site unique avec prise 
 |Configurer  <br/> |FQDN externe  <br/> |**Identique pour** toutes les appliances <br/> |**Différents sites** PSTN <br/> |
 |Configurer  <br/> |Fournisseurs d’IP externes  <br/> |**Différents d’une** appliances à l’autre <br/> |**Différents sites** PSTN <br/> |
 |Configurer  <br/> |Paramètres PSTN GW  <br/> |**Identique pour** toutes les appliances <br/> |**Différents sites** PSTN <br/> |
-|Configurer  <br/> |Enregistrement DNS  <br/> |Ajouter des enregistrements avec les **mêmes** FQDN d’accès externe et **différentes** adresses IP <br/> |Ajouter des enregistrements avec **différents** FQDN d’accès externe et **différentes adresses** IP <br/> |
+|Configurer  <br/> |Enregistrement DNS  <br/> |Ajouter des enregistrements avec les **mêmes FQDN** d’accès externe et différentes **adresses** IP <br/> |Ajouter des enregistrements avec **différents** FQDN d’accès externe et **différentes adresses** IP <br/> |
 |Configuration  <br/> |Client hybride  <br/> |Définir HybridPSTNSite  <br/> Définir PeerDestination pour le retour  <br/> |Définir HybridPSTNSite  <br/> Définir PeerDestination pour le retour  <br/> |
-|Configuration  <br/> |Passerelle  <br/> |Mappage **M:N MS** GW dans ce site <br/> |Les passerelles PSTN de chaque site PSTN doivent uniquement se connecter au(s) serveur(s) de médiation dans le même site  <br/> |
+|Configuration  <br/> |Passerelle  <br/> |Mappage **M:N MS** GW dans ce site <br/> |Les passerelles PSTN de chaque site PSTN doivent uniquement se connecter au(s) serveur(s) de médiation du même site  <br/> |
 |Configuration  <br/> |Utilisateur  <br/> |Définir UserPSTNSettings  <br/> |Définir UserPSTNSettings  <br/> |

@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
-description: LExit-CcUpdate cmdlet quitte le mode maintenance des mises à jour sur le serveur hôte de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: 315d6b7dccb6708901128bf8faa29a60f712e833
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: LExit-CcUpdate cmdlet quitte le mode maintenance de mise à jour Skype Entreprise Cloud Connector Edition serveur hôte.
+ms.openlocfilehash: d55004f071caa67492d5368e36007d9c3c307b90aabbc33d79d1feeb4aa37356
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288834"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
-LExit-CcUpdate cmdlet quitte le mode maintenance des mises à jour sur le serveur hôte de la version Cloud Connector de Skype Entreprise. 
+LExit-CcUpdate cmdlet quitte le mode maintenance de mise à jour Skype Entreprise Cloud Connector Edition serveur hôte. 
   
-Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2. 
+Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 1.4.1, 1.4.2. 
   
 ```powershell
 Exit-CcUpdate
@@ -60,7 +60,7 @@ Aucun. La cmdlet Exit-CcUpdate n’accepte pas la saisie de données pipeline.
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun 
+Néant 
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

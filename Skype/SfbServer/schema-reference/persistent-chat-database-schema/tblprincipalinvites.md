@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
 description: tblPrincipalInvites contient des invitations pour tous les utilisateurs configurés pour l’ensemble des nœuds avec l’option d’invitation automatique activée.
-ms.openlocfilehash: 5bbccd582442001bd2122dcbacdbe3634fcfd649
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fa90d112ce7b3397f055023034888b45bc5b8bcabc7948f7c4af0bb59788c2d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318687"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
@@ -26,7 +26,7 @@ tblPrincipalInvites contient des invitations pour tous les utilisateurs configur
   
 **Columns**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID principal.  <br/> |
 |invID  <br/> |int, non null  <br/> |Numéro séquentiel unique (par ID principal) généré depuis la table tblLastInviteId.  <br/> |

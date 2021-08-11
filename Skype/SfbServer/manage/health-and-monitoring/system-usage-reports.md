@@ -1,5 +1,5 @@
 ---
-title: Rapports d’utilisation du système dans Skype Entreprise Server
+title: Rapports d’utilisation du système Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
-description: 'Résumé : Découvrez les rapports d’utilisation du système dans Skype Entreprise Server.'
-ms.openlocfilehash: acebebaa88c95a879b4287c5bc9dd5eebdeb7b67
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez les rapports d’utilisation du système Skype Entreprise Server.'
+ms.openlocfilehash: 05704b507e52785e0b34c69616fce338a0e6c3a271e72d4f15eb5a126771bb11
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280059"
 ---
-# <a name="system-usage-reports-in-skype-for-business-server"></a>Rapports d’utilisation du système dans Skype Entreprise Server
+# <a name="system-usage-reports-in-skype-for-business-server"></a>Rapports d’utilisation du système Skype Entreprise Server
  
 **Résumé :** Découvrez les rapports d’utilisation du système dans Skype Entreprise Server.
   
-Les rapports d’utilisation du système fournissent des informations d’utilisation système basées sur les données d’enregistrement des détails des appels collectées par Skype Entreprise Server.
+Les rapports d’utilisation du système fournissent des informations d’utilisation système basées sur les données d’enregistrement des détails des appels collectées par le Skype Entreprise Server.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Rapport d’enregistrement de l’utilisateur dans Skype Entreprise Server](user-registration-report.md)
+- [Rapport d’enregistrement de l’utilisateur Skype Entreprise Server](user-registration-report.md)
     
-    Fournit un résumé de la connectivité utilisateur au déploiement de Skype Entreprise Server en fonction des événements d’inscription tels que les ouvertures de session des utilisateurs. Le rapport permet d’afficher les connexions internes et externes et de comparer le nombre d’utilisateurs qui se sont connectés à Skype Entreprise Server avec le nombre d’utilisateurs qui ont réellement utilisé le service pendant qu’ils étaient connectés.
+    Fournit un résumé de la connectivité utilisateur au déploiement Skype Entreprise Server en fonction des événements d’inscription tels que les ouvertures de session utilisateur. Le rapport permet d’afficher les connexions internes et externes et de comparer le nombre d’utilisateurs qui se sont connectés à Skype Entreprise Server avec le nombre d’utilisateurs qui ont réellement utilisé le service pendant qu’ils étaient connectés.
     
 - [Rapport de synthèse des activités D’égal à égal dans Skype Entreprise Server](peer-to-peer-activity-summary-report.md)
     
@@ -39,19 +39,19 @@ Les rapports d’utilisation du système fournissent des informations d’utilis
     
     Fournit une synthèse de toutes les activités de conférence. Les conférences sont des sessions qui impliquent plus de deux personnes.
     
-- [Rapport de synthèse des conférences PSTN dans Skype Entreprise Server](pstn-conference-summary-report.md)
+- [Rapport de synthèse de conférence PSTN en Skype Entreprise Server](pstn-conference-summary-report.md)
     
-    Fournit un résumé de toutes les conférences PSTN. Il s’agit de conférences où au moins un utilisateur se compose à l’aide du réseau téléphonique commuté (PSTN), également appelé conférences téléphoniques.
+    Fournit une synthèse de toutes les conférences PSTN. Il s’agit de conférences où au moins un utilisateur compose un numéro sur le réseau téléphonique commuté (PSTN). Ces conférences sont aussi appelées conférence rendez-vous.
     
 - [Rapport d’utilisation de Response Group dans Skype Entreprise Server](response-group-usage-report.md)
     
     Fournit un résumé de l’utilisation de Response Group. L’application Response Group vous permet de router automatiquement les appels téléphoniques vers des entités telles qu’une ligne de support technique ou de support technique.
     
-- [Rapport d’inventaire de téléphonie IP dans Skype Entreprise Server](ip-phone-inventory-report.md)
+- [Rapport d’inventaire Téléphone IP dans Skype Entreprise Server](ip-phone-inventory-report.md)
     
     Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De même, vous pouvez également avoir de nouveaux téléphones qui n’entrent pas dans le rapport simplement parce que les utilisateurs ne se sont pas encore connectés à Skype Entreprise Server avec leurs nouveaux téléphones.
     
-- [Rapport de contrôle d’admission des appels dans Skype Entreprise Server](call-admission-control-report.md)
+- [Rapport de contrôle d’admission des appels Skype Entreprise Server](call-admission-control-report.md)
     
     Fournit une liste d’activités d’égal à égal et de conférence qui utilisent le contrôle d’admission des appels. Le contrôle d’admission des appels (CAC, Call Admission Control) permet de déterminer si les sessions de communication en temps réel, comme les appels audio et vidéo, doivent ou non être autorisées, en fonction des restrictions de bande passante.
     

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
-description: La cmdlet Register-CcAppliance enregistre les informations d’appliance sur un site PSTN dans une configuration client en ligne. Une appliance doit être inscrite avant de pouvoir être déployée et gérée par le service de gestion de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: a94f9d7189f4872fcee2439afd2b210933f8bb06
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Register-CcAppliance enregistre les informations d’appliance sur un site PSTN dans une configuration client en ligne. Une appliance doit être inscrite avant de pouvoir être déployée et gérée par le service de gestion Skype Entreprise Cloud Connector Edition de l’appareil.
+ms.openlocfilehash: 5b63ce38b358d41fea15551df1e8134d1b56db00851317cbc5c81ac8f3aea058
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288802"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
-La cmdlet Register-CcAppliance enregistre les informations d’appliance sur un site PSTN dans une configuration client en ligne. Une appliance doit être inscrite avant de pouvoir être déployée et gérée par le service de gestion de la version Cloud Connector de Skype Entreprise.
+La cmdlet Register-CcAppliance enregistre les informations d’appliance sur un site PSTN dans une configuration client en ligne. Une appliance doit être inscrite avant de pouvoir être déployée et gérée par le service de gestion Skype Entreprise Cloud Connector Edition de l’appareil.
   
 ```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
@@ -89,7 +89,7 @@ Dans la situation suivante, l’cmdlet échoue et indique que l’appliance est 
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|SiteName  <br/> |Facultatif  <br/> |System.String  <br/> |Nom du site PSTN sur lequel l’appliance est inscrite. La valeur par défaut est La valeur SiteName dans CloudConnector.ini fichier.  <br/> |
+|SiteName  <br/> |Facultatif  <br/> |System.String  <br/> |Nom du site PSTN sur lequel l’appliance est inscrite. La valeur par défaut est La valeur SiteName dans le CloudConnector.ini fichier.  <br/> |
 |ApplianceName  <br/> |Facultatif  <br/> |System.String  <br/> |Nom de l’appliance actuelle. La valeur par défaut est le nom de l’ordinateur du serveur hôte.  <br/> |
 |Local  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Vérifiez les configurations d’inscription localement sans vous connecter à la configuration du client en ligne.  <br/> |
    
@@ -101,7 +101,7 @@ Aucun. La cmdlet Register-CcAppliance n’accepte pas la saisie de données pipe
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

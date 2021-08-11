@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone au Canada pour Microsoft Teams.
-ms.openlocfilehash: 885d10d3372c676771d451745559e737b2ea0cd8
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: HT
+ms.openlocfilehash: 68430413afa5ecf765404ab55ef930cd4637c114f658f9f0eb44e3186e2867e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279711"
 ---
 # <a name="phone-number-management-for-canada"></a>Gestion des numéros de téléphone pour le Canada
 

@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Le 31 juillet 2021, le programme de fin de vie se terminera par l’intégration d’Skype Entreprise à des fournisseurs de services d’audioconférence tiers.
-ms.openlocfilehash: ca97e2f243cbc9884cc724b976829fbe8f421b2c
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7da07f0c53d74965f5dd34dc26cecd41d94ab5e03ef68c0f2641ba9bb3950941
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298784"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programme de fin de vie pour l’intégration d Skype Entreprise aux fournisseurs de services d’audioconférence tiers 
 

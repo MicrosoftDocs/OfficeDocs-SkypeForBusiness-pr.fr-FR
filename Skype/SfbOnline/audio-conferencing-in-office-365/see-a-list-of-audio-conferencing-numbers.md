@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment rechercher vos numéros de conférences à partir d’Skype Entreprise Online. '
-ms.openlocfilehash: dfb9e0acc57019fa64b6233b37272eb7901f4dc7
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 6168451038d1abf5bc73a60630e56aced355af7d58a0024aff480595c71c6c2a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52236980"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310233"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Voir la liste des numéros d’audioconférence dans Skype Entreprise Online
 
@@ -40,7 +40,7 @@ Lorsque vous définissez des services d’audioconférence pour les utilisateurs
  **Vous recherchez les prix ?** Consultez [les tarifs de l’audioconférence.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
   
 > [!IMPORTANT]
-> **Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence.** Si vous cherchez à savoir si des numéros de téléphone à composer sont disponibles dans votre région ou pays/région, rendez-vous dans le Centre d’administration **Skype Entreprise** Numéros de la voix  >    >  **Téléphone,** cliquez sur Ajouter, puis sur Nouveaux numéros de **service.** Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Par ailleurs, si vous recherchez des numéros de service gratuits, sélectionnez **Gratuit** dans la liste **État/Région.**
+> **Il n’existe pas de ressource qui contient la liste de tous les numéros de connexion pour l’audioconférence.** Si vous cherchez à savoir si des numéros de téléphone à composer sont disponibles dans votre région ou pays/région, rendez-vous dans le Centre d’administration **Skype Entreprise** Numéros de Téléphone , cliquez sur Ajouter, puis sur Nouveaux numéros de  >    >   **service.**  Utilisez les listes pour **Pays/région**, **État/région** et **Ville** pour filtrer votre recherche. Par ailleurs, si vous recherchez des numéros de service gratuits, sélectionnez **Gratuit** dans la liste **État/Région.**
   
 S'il n'existe qu'un numéro de téléphone disponible pour votre organisation, il est utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut sera inclus dans les invitations Skype Entreprise réunion.
   
@@ -58,7 +58,7 @@ Vous pouvez voir [Définir les numéros de téléphone inclus dans les invitatio
     
 2. Dans le centre d’administration, > **Skype Entreprise.**
     
-3. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez à l’audioconférence   >  **Pont Microsoft,** puis :
+3. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez au pont Microsoft de l’audioconférence,   >  puis :
     
    - Vous pouvez afficher les numéros de téléphone disponibles pour l’audioconférence.
     
@@ -78,7 +78,7 @@ Vous pouvez voir [Définir les numéros de téléphone inclus dans les invitatio
     
   - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour plusieurs utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Présentation de Windows PowerShell et Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -89,6 +89,6 @@ Vous pouvez voir [Définir les numéros de téléphone inclus dans les invitatio
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

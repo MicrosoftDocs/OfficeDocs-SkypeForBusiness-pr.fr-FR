@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Créez ou modifiez des groupes de congés Response Group dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Créez ou modifiez des groupes de congés Response Group, Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: a265f1c8a09133dec6a9f88a705ca6041b1a09a167b5a24252a540e8152deca8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103680"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298694"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise
  
-Créez ou modifiez des groupes de congés Response Group dans Skype Entreprise Server Voix Entreprise.
+Créez ou modifiez des groupes de congés Response Group, Skype Entreprise Server Voix Entreprise.
   
 Les paramètres relatifs aux congés définissent les jours de fermeture d’un groupe Response Group et spécifient l’action à effectuer pendant ces jours. Une période de congé est un ensemble de congés qui s’applique à un groupe Response Group.
   
@@ -33,7 +33,7 @@ Les paramètres relatifs aux congés définissent les jours de fermeture d’un 
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Pour chaque congé que vous souhaitez définir, exécutez :
     

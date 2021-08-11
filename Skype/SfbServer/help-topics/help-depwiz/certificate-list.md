@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 description: Pour affecter un certificat, sélectionnez un certificat dans le magasin de certificats local. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: b63117ceb0c9caa896ba39adf7b44e1e764d1817
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d2a9d267542acb537f999e6946c406ca8e4c66a6617eca3da49366c9f8449814
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278882"
 ---
 # <a name="certificate-list"></a>Liste de certificats
  
