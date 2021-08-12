@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push dont vous avez besoin.
-ms.openlocfilehash: 493c8138e7c5dcaeab154ce1a44054cc082d1672
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2b018a6274d3e6a446a8bace17259ecf515423733c972b702c6413adec67167a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320596"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Client mobile : configuration des notifications push
  
@@ -50,7 +50,7 @@ La création d’une stratégie et la modification d’une stratégie existante 
   
 - **Commit** L’action de validation crée ou met à jour la stratégie et enregistre les modifications
     
-- **Annuler** L’action d’annulation annule toutes les modifications qui ont été apportées depuis la dernière action de validation. Si vous annulez, les modifications apportées seront perdues.
+- **Annuler** L’action d’annulation annule toutes les modifications qui ont été apportées depuis la dernière action de validation. Si vous annulez, toutes les modifications apportées seront perdues.
     
 Deux paramètres sont possibles pour **Configuration des notifications push**. Les paramètres sont associés aux services de notification push pour Microsoft et Apple. Vous pouvez activer la notification push pour l’un ou l’autre service en activant la case à cocher en regard du nom du service. Vous pouvez désactiver la case à cocher en cliquant dessus à nouveau. Une fois vos sélections effectuées, vous pouvez valider ou annuler. Cliquez sur Valider pour enregistrer les modifications apportées à la stratégie.
   

@@ -16,14 +16,14 @@ localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La plupart des composants Edge sont déployés dans un réseau de périmètre. Les composants suivants font la topologie Edge du réseau de périmètre. Sauf remarque, les composants font partie des scénarios de serveur Edge dans Skype Entreprise Server et se trouve dans le réseau de périmètre. Ces composants de périphérie sont les suivants :'
-ms.openlocfilehash: 73f908905980a03ece98725fad480d33e775d06c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f3f9f3bbdbfb385229ffc221de38462b0dccd182654f8625784531796a2efc0b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311902"
 ---
-# <a name="edge-network-planning-tool-in-skype-for-business"></a>Réseau Edge (outil de planification) dans Skype Entreprise 
+# <a name="edge-network-planning-tool-in-skype-for-business"></a>Edge Network (Planning Tool) in Skype Entreprise 
  
 La plupart des composants Edge sont déployés dans un réseau de périmètre. Les composants suivants font la topologie Edge du réseau de périmètre. Sauf remarque, les composants font partie des [scénarios](../../../plan-your-deployment/edge-server-deployments/scenarios.md) de serveur Edge dans Skype Entreprise Server et se trouve dans le réseau de périmètre. Ces composants de périphérie sont les suivants :
   
@@ -41,4 +41,4 @@ La plupart des composants Edge sont déployés dans un réseau de périmètre. L
 
 [Planifier les déploiements de serveurs Edge dans Skype Entreprise Server](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Système de serveur Edge requis dans Skype Entreprise Server](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[Conditions requises pour le système du serveur Edge dans Skype Entreprise Server](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)

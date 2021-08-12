@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
-ms.openlocfilehash: fddbca47630eeab6c923f12fbaf210cba3bca766
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 85802576f982cca31d201b8f87ab3b585a99bf85df5ed47aa697d49c45c84b1d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279013"
 ---
 # <a name="office-communications-server-scope-node"></a>Nœud d’étendue d’Office Communications Server
 
 Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
 
-Vous cliquez sur **Office Communications Server 2007 R2** pour développer les sections sous le nœud, ou cliquez avec le bouton droit pour accéder aux **options** de topologie ou pour accéder à cette page **d’aide.**
+Cliquez sur **Office Communications Server 2007 R2** pour développer les sections sous le nœud, ou cliquez avec le bouton droit pour accéder aux **options** de topologie ou pour accéder à cette **page** d’aide.
 
 ## <a name="see-also"></a>Voir aussi
 

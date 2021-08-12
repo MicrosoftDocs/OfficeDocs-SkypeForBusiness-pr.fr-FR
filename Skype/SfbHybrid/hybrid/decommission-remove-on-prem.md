@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions de désaffectation des Skype Entreprise Server.
-ms.openlocfilehash: bdd38578d8ee98c26e6515c1cd4baa0ef8a825cf
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: d3da949cf5838f73e1818b87e51f7d524389fffcafc640d7754176eab1bd7473
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312262"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>Supprimez votre déploiement sur site de Skype pour entreprises.
 
@@ -34,7 +34,7 @@ Cet article explique comment supprimer votre déploiement Skype Entreprise local
 
 - Étape 2. [Désactivez votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
 
-- Étape 3. [Migrer des points de terminaison d’application hybride de l’local vers le mode en ligne](decommission-move-on-prem-endpoints.md)
+- Étape 3 : [Migrer les points de terminaison de l’application hybride de l’local vers le mode en ligne](decommission-move-on-prem-endpoints.md)
 
 - **Étape 4. Supprimez votre déploiement Skype Entreprise local.** (Cet article)
 
@@ -47,7 +47,7 @@ Pour effectuer les étapes de cet article, vous avez besoin de privilèges pour 
 
 ## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>Préparer la suppression du déploiement Skype Entreprise déploiement
 
-Après avoir fait passer tous les comptes d’utilisateur requis vers le cloud, il se peut qu’il reste des objets locaux, tels que des contacts et des applications, que vous devrez nettoyer.
+Après avoir passé tous les comptes d’utilisateur requis vers le cloud, il se peut qu’il reste des objets locaux, tels que des contacts et des applications, que vous devrez nettoyer.
 
 Utilisez les étapes ci-dessous pour nettoyer ces objets et assurez-vous que vous êtes membre du groupe Administrateur local et du groupe RTCUniversalServerAdmins. Notez que ExUmContacts et PersistantChatEndPoints ne sont pas disponibles Skype Entreprise Server 2019. Si vous avez Skype Entreprise Server 2019, les cmdlets correspondantes dans les étapes ci-dessous doivent être omises.
 
@@ -133,7 +133,7 @@ Après avoir effectué toutes les étapes préliminaires, vous pouvez supprimer 
 
 - [Mise hors service de votre environnement Skype pour entreprises sur site](decommission-on-prem-overview.md)
 
-- [Déplacer tous les utilisateurs requis de l’local vers le réseau en ligne](decommission-move-on-prem-users.md)
+- [Déplacer tous les utilisateurs requis de l’local vers le site en ligne](decommission-move-on-prem-users.md)
 
 - [Désactiver votre configuration hybride](cloud-consolidation-disabling-hybrid.md)
 

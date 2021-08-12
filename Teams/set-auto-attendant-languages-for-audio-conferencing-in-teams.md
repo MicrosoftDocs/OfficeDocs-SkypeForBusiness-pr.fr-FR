@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez comment sélectionner les langues du attendant automatique d’audioconférence pour un numéro d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 0a27015fefe8c290f8e122f5d9edf46aa3c8583f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1238cebfa9be1c37e6754234338273738f06e07a8e495631361cb76fdcbc63cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280639"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues de standard automatique pour l’audioconférence dans Microsoft Teams
 
-Le attendant automatique d’audioconférence de Microsoft Teams peut accueillir les appelants audio dans différentes langues lorsqu’ils rejoignent une réunion.
+Le attendant automatique de l’audioconférence de Microsoft Teams peut accueillir les appelants audio dans différentes langues lorsqu’ils rejoignent une réunion.
   
 Choisir une langue principale et jusqu’à quatre langues secondaires. La langue principale que vous définissez est utilisée en premier et les langues secondaires sont utilisées par le attendant automatique dans l’ordre dans l’ordre dans celui-ci. 
   
@@ -69,6 +69,6 @@ Choisir une langue principale et jusqu’à quatre langues secondaires. La langu
 
 Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powershell/module/teams/?view=teams-ps)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

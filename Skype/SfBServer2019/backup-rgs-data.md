@@ -1,5 +1,5 @@
 ---
-title: Backing up Service Response Group (RGS) data in Skype for Business Server 2019
+title: Backing up Service Response Group (RGS) data in Skype Entreprise Server 2019
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Découvrez comment back up Service Response Group (RGS) dans Skype Entreprise Server 2019.
-ms.openlocfilehash: f9c62953dcb859be2aa34bdee84ca76e3303d738
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Découvrez comment back up Service Response Group (RGS) data in Skype Entreprise Server 2019.
+ms.openlocfilehash: 8b0cbbb41c7bf2a61d21043141d2475a8c69a79696e8cf5cbde6709e2d196c52
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280469"
 ---
 # <a name="back-up-response-group-service-rgs-data"></a>Back up Service Response Group (RGS) data
 
-Avec la mise à jour cumulative de juillet 2019 de Skype Entreprise Server, nous avons inclus la possibilité d’inclure des données RGS dans le cadre de la sauvegarde standard.
+Avec la Skype Entreprise Server cumulative de juillet 2019, nous avons inclus la possibilité d’inclure des données RGS dans le cadre de la sauvegarde standard.
 
 ## <a name="rgs-data-replication"></a>Réplication des données RGS
 
@@ -68,7 +68,7 @@ Pour essayer la fonctionnalité de réplication des données RGS, suivez les ét
     - `Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN> -BackupModule ApplicationServer.RGSDataStore`
 - Pour synchroniser entièrement le filestore RGS sur le pool de sauvegarde (cela synchronisera les données RGS complètes sur le pool de sauvegarde.) :
     - `Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN> -BackupModule ApplicationServer.RGSFileStore`
-- Pour synchroniser les données delta RGS sur le pool de sauvegarde (cela synchronisera les données delta sur le pool de sauvegarde pour RGS uniquement) :
+- Pour synchroniser les données delta RGS sur le pool de sauvegarde (les données delta seront synchronisées sur le pool de sauvegarde uniquement pour RGS) :
     - `Backup-CsPool -PoolFqdn <Pool FQDN> -Category RGS`
 - Pour synchroniser toutes les données de module, y compris RGS :
     - `Backup-CsPool -PoolFqdn <Pool FQDN>`

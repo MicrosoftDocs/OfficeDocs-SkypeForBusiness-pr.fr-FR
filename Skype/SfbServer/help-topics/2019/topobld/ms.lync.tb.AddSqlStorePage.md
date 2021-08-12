@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (une instance par défaut ou une instance nommée), vous devez spécifier ce qui suit.
-ms.openlocfilehash: ad0e821f07fb94f48a3484b3a2de1327ee8ef57e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37b195fa74b3df657c85f0ce169719c5825629a563baf92a75ac884e890baf86
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116402"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279212"
 ---
 # <a name="add-sql-store"></a>Ajouter un magasin SQL
 
 Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (une instance par défaut ou une instance nommée), vous devez spécifier ce qui suit.
 
-Spécifiez le nom de domaine complet (FQDN) du SQL Server qui hébergera l’instance de base de données que vous définissez.
+Spécifiez le nom de domaine complet (FQDN) de la SQL Server qui hébergera l’instance de base de données que vous définissez.
 
 Spécifiez l’instance de SQL Server qui hébergera les données. Vous pouvez spécifier l’instance par défaut ou une instance nommée.
 

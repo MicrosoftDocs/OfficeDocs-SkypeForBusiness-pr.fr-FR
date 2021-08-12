@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité pour Skype Entreprise Server. Il est essentiel de comprendre comment ces éléments fonctionnent ensemble pour prendre des décisions éclairées sur la sécurisation de votre déploiement Skype Entreprise Server particulier.
-ms.openlocfilehash: 94d2ffac30e029ab6631557a69d6da3ec108657f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité pour Skype Entreprise Server. Il est essentiel de comprendre comment ces éléments fonctionnent ensemble pour prendre des décisions éclairées sur la sécurisation de Skype Entreprise Server déploiement.
+ms.openlocfilehash: a0f6513f86d7416f546c6a744fc1b40df7c7137a18dae5d76fcf18166a4f2eb1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337712"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Infrastructure de sécurité pour Skype Entreprise Server
  
-Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité pour Skype Entreprise Server. Il est essentiel de comprendre comment ces éléments fonctionnent ensemble pour prendre des décisions éclairées sur la sécurisation de votre déploiement Skype Entreprise Server particulier.
+Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité pour Skype Entreprise Server. Il est essentiel de comprendre comment ces éléments fonctionnent ensemble pour prendre des décisions éclairées sur la sécurisation de Skype Entreprise Server déploiement.
   
 Ces éléments sont les suivants :
   
@@ -42,7 +42,7 @@ Ces éléments de sécurité fondamentaux fonctionnent ensemble pour définir de
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-Les rubriques de cette section décrivent comment chacun de ces éléments fondamentaux fonctionne pour améliorer la sécurité de votre infrastructure Skype Entreprise Server.
+Les rubriques de cette section décrivent le fonctionnement de chacun de ces éléments fondamentaux pour améliorer la sécurité de Skype Entreprise Server infrastructure.
   
 - [Services de domaine Active Directory pour Skype Entreprise Server](active-directory-domain-services.md)
     
@@ -56,6 +56,6 @@ Les rubriques de cette section décrivent comment chacun de ces éléments fonda
     
 - [Authentification des utilisateurs et des clients pour Skype Entreprise Server](user-and-client-authentication.md)
     
-- [Windows PowerShell de gestion de Skype Entreprise Server](management-tools.md)
+- [Windows PowerShell et Skype Entreprise Server gestion des données](management-tools.md)
     
 

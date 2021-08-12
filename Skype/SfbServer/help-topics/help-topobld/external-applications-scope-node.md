@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'Le nœud Serveurs d’applications approuvées répertorie les pools d’applications approuvées sur ce site. Les pools d’applications fiables contiennent des serveurs qui exécutent des applications de communications unifiées Microsoft, mais n’exécutent pas de rôles Skype Entreprise Server. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: b200593ea206f2c23f8c521dddbf3498d6ced838
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Le nœud Serveurs d’applications approuvées répertorie les pools d’applications approuvées sur ce site. Les pools d’applications fiables contiennent des serveurs qui exécutent des applications Microsoft Unified Communications de confiance, mais n’exécutent pas Skype Entreprise Server rôles. Vous pouvez effectuer l’action suivante :'
+ms.openlocfilehash: 6615a113e8c2169db6105675de816558d29bff808bf6b90fda4ad4f9d2e51f8d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290742"
 ---
 # <a name="external-applications-scope-node"></a>Nœud d’étendue des applications externes
  
-Le nœud **Serveurs d’applications approuvées** répertorie les pools d’applications approuvées sur ce site. Les pools d’applications fiables contiennent des serveurs qui exécutent des applications de communications unifiées Microsoft, mais n’exécutent pas de rôles Skype Entreprise Server. Vous pouvez effectuer l’action suivante :
+Le nœud **Serveurs d’applications approuvées** répertorie les pools d’applications approuvées sur ce site. Les pools d’applications fiables contiennent des serveurs qui exécutent des applications Microsoft Unified Communications de confiance, mais n’exécutent pas Skype Entreprise Server rôles. Vous pouvez effectuer l’action suivante :
   
 - **Nouveau pool d’applications approuvées** Démarre l’Assistant **Définir un nouveau pool d’applications approuvées** qui permet d’ajouter un nouveau pool d’applications approuvées à la topologie.
     

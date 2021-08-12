@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
-description: 'Résumé : Découvrez comment gérer les stratégies utilisateur pour l’archivage de Skype Entreprise Server.'
-ms.openlocfilehash: 949ac807faea4f563ee078512a3c0a335a517d2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment gérer les stratégies utilisateur pour l’archivage des Skype Entreprise Server.'
+ms.openlocfilehash: d04406de44510c1d1bc63921e5fa6c5dab817ad81c8cba7dc391ec0ee8454716
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329588"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Gérer les stratégies d’archivage dans Skype Entreprise Server
 
-**Résumé :** Découvrez comment gérer les stratégies utilisateur pour l’archivage de Skype Entreprise Server.
+**Résumé :** Découvrez comment gérer les stratégies utilisateur pour l’archivage des Skype Entreprise Server.
   
 Vous définissez initialement les stratégies d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des configurations après le déploiement. Les stratégies d’archivage déterminent s’il faut archiver : 
   
@@ -33,7 +33,7 @@ Vous définissez initialement les stratégies d’archivage lorsque vous déploy
 Les stratégies d’archivage peuvent être définies au niveau global, du site ou de l’utilisateur.
   
 > [!NOTE]
-> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies Exchange contrôlent si l’archivage est activé pour les utilisateurs qui sont homed on Exchange et dont les boîtes aux lettres sont mises en In-Place archive. Pour plus d’informations, voir [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies Exchange contrôlent si l’archivage est activé pour les utilisateurs qui sont Exchange et dont les boîtes aux lettres sont mises en In-Place. Pour plus d’informations, voir [Plan for archiving in Skype Entreprise Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype Entreprise Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="manage-archiving-policies-by-using-the-control-panel"></a>Gérer les stratégies d’archivage à l’aide du Panneau de contrôle
 
@@ -41,13 +41,13 @@ Vous pouvez gérer les stratégies d’archivage à l’aide du Panneau de contr
   
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Stratégie d’archivage**
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Gérer les stratégies d’archivage à l’aide Windows PowerShell
 
-Vous pouvez également configurer des stratégies d’archivage à l’aide Windows PowerShell cmdlets répertoriées dans le tableau suivant. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, voir [Skype Entreprise Server Management Shell.](../management-shell.md)
+Vous pouvez également configurer des stratégies d’archivage à l’aide Windows PowerShell cmdlets répertoriées dans le tableau suivant. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server Management Shell.](../management-shell.md)
   
 
 |**Applet de commande**|**Description**|

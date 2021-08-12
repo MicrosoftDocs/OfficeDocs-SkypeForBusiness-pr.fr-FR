@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article décrit l’utilisation de l’outil de récupération pour Salles Microsoft Teams, que vous utiliseriez pour mettre un système hors limites à l’état pris en charge.
-ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280689"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
 
@@ -29,7 +29,7 @@ Cet article décrit l’utilisation de l’outil de récupération pour Salles M
 Téléchargez le [package d Salles Microsoft Teams d’installation](https://go.microsoft.com/fwlink/?linkid=851168) le plus récent et extrayez-le sur une clé USB ou un partage réseau accessible à Salles Microsoft Teams appareil.
 
 > [!NOTE]
-> L’extraction des fichiers du fichier MSI peut être réalisée par de nombreux moyens. Tout mécanisme qui extrait tous les fichiers et préserve leur structure d’annuaire est acceptable. Une de ces manières consiste à utiliser la commande qui représente le chemin d’accès complet au package d’installation de Microsoft Teams Room et représente le chemin d’accès complet au dossier dans lequel vous souhaitez extraire les `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` fichiers.
+> L’extraction des fichiers du fichier MSI peut être réalisée par plusieurs moyens. Tout mécanisme qui extrait tous les fichiers et préserve leur structure d’annuaire est acceptable. Une de ces manières consiste à utiliser la commande qui représente le chemin d’accès complet au package d’installation de Microsoft Teams Room et représente le chemin d’accès complet au dossier dans lequel vous souhaitez extraire les `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` fichiers.
 
 ## <a name="running-the-tool"></a>Exécution de l’outil
 
@@ -38,7 +38,7 @@ Téléchargez le [package d Salles Microsoft Teams d’installation](https://go.
 3) `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`Exécuter.
 4) Pour effectuer une restauration d’usine :
    1. Lorsque le script vous y invite, sélectionnez l’option 2 : **Réinitialiser.**
-   2. Si BitLocker est désactivé, suivez les instructions fournies à la fin de la sortie du script pour la désactiver.
+   2. Si BitLocker est sous, suivez les instructions fournies à la fin de la sortie du script pour la désactiver.
    3. Effectuez la restauration d’usine.
       1. Ouvrez **l’Paramètres,** puis sélectionnez Mettre à jour **& sécurité**
       2. Accédez à **l’onglet** Récupération.

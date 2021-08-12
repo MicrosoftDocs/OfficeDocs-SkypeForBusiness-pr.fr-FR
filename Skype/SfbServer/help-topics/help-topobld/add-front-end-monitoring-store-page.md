@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Vous pouvez définir le magasin SQL Server pour la surveillance en configurant les propriétés suivantes :'
-ms.openlocfilehash: 5f8a3ccb22aea1efde0b214b9afa61c140e63014
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: db0956b14f7fa4f594c752bfe16a366b166ac7274abc303d947e2511b334378d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290762"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Page Ajouter un magasin d’analyse frontal
  
@@ -30,13 +30,13 @@ Vous pouvez **définir le magasin SQL Server pour la surveillance** en configura
     
     Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin du serveur de surveillance.
     
-- Activez **la case à SQL Server la** mise en miroir du magasin si vous souhaitez ajouter la mise en miroir de base de données pour le serveur de surveillance.
+- Activez **la case à cocher SQL Server la** mise en miroir si vous souhaitez ajouter la mise en miroir de base de données pour le serveur de surveillance.
     
     Sélectionnez un **Miroir du magasin SQL Server de surveillance** existant dans la liste.
     
-    Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin miroir.
+    Cliquez **sur** Nouveau pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin miroir.
     
-- Si vous avez sélectionné Activer la mise en **miroir** du magasin SQL Server, sélectionnez éventuellement Utiliser le témoin de mise en miroir **SQL Server** pour activer le fait de faire échouer automatiquement la sélection d’un magasin de témoins de mise en miroir SQL Server dans la liste.
+- Si vous avez sélectionné Activer la mise en **miroir** du magasin SQL Server , sélectionnez éventuellement Utiliser le témoin de mise en miroir SQL Server pour activer le **failover** automatique afin de sélectionner un magasin de témoins de mise en miroir SQL Server dans la liste.
     
     Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin témoin de mise en miroir.
     

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Cette section contient des exemples de requêtes pour la base de données de conversation permanente.
-ms.openlocfilehash: 74cb6c1029cdeaabcd74a34898731b44c71f05a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0b79d7753d6fca7ef27c2274416d17793c9c886ab05bad6b485b899700a3df51
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337642"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Exemples de requêtes de base de données de conversation permanente
  
@@ -44,7 +44,7 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-Utilisez l’exemple suivant pour obtenir la liste de toutes les personnes qui ont envoyé un message avec « Hello World ».
+Utilisez l’exemple suivant pour obtenir la liste de toutes les personnes qui ont déjà envoyé un message avec « Hello World ».
   
 ```SQL
 SELECT nodeName as ChatRoom, prinName as Name, content as Message

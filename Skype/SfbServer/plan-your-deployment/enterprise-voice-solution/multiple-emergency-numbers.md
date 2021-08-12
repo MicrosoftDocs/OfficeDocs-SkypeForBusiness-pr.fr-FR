@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lisez cette rubrique pour découvrir comment planifier plusieurs numéros d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: 47ac1a93a39a95710bf1581aace0ec12a39caec6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329548"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planifier plusieurs numéros d’urgence dans Skype Entreprise Server
  
@@ -35,14 +35,14 @@ Cette fonctionnalité est également utile pour les fournisseurs de soins de san
 
 Vous configurez les appels d’urgence en créant des stratégies d’emplacement qui définissent la façon dont les appels d’urgence seront implémentés. Vous utilisez la stratégie d’emplacement pour définir le numéro qui constitue un appel d’urgence, par exemple, 911 aux États-Unis ; 999 et 112 au Royaume-Uni. La stratégie d’emplacement détermine si un utilisateur est activé pour les appels d’urgence et, si tel est le cas, le comportement d’un appel d’urgence. Vous pouvez également définir si la sécurité d’entreprise doit être avertie automatiquement et comment l’appel doit être acheminé.
   
-Pour plus d’informations sur la définition et la modification d’une stratégie d’emplacement, voir [Plan location policies for Skype for Business Server](location-policies.md) and Create location policies in Skype for Business [Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Ces rubriques décrivent les concepts liés aux stratégies d’emplacement . Toutefois, vous devez suivre les instructions de la procédure De configuration de plusieurs numéros [d’urgence](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) dans Skype Entreprise pour configurer plusieurs numéros d’urgence.
+Pour plus d’informations sur la définition et la modification d’une stratégie d’emplacement, voir [Plan location policies for Skype Entreprise Server](location-policies.md) and Create location policies in [Skype Entreprise Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Ces rubriques décrivent les concepts liés aux stratégies d’emplacement . Toutefois, vous devez suivre les instructions de la procédure [Configure multiple emergency numbers in Skype Entreprise](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) to configure multiple emergency numbers.
   
 Lorsque vous planifiez plusieurs numéros d’urgence, gardez les points suivants à l’esprit :
   
 - Avec la mise à jour cumulative de juin 2016, vous pouvez définir jusqu’à 5 numéros d’urgence pour une stratégie d’emplacement donnée. Avec la mise à jour cumulative de novembre 2016, ce nombre augmente jusqu’à 100.
     
     > [!NOTE]
-    > Si vous n’avez pas encore mis à niveau vers la mise à jour cumulative de novembre 2016, voir Mises à jour de Skype Entreprise [Server 2015.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) 
+    > Si vous n’avez pas encore mis à niveau vers la mise à jour cumulative de novembre 2016, voir Mises à jour [Skype Entreprise Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
 - Pour chaque numéro d’urgence, vous pouvez spécifier zéro ou plusieurs masques de numérotation d’urgence, qui sont propres à une stratégie d’emplacement donnée.
     
@@ -55,13 +55,13 @@ Lorsque vous planifiez plusieurs numéros d’urgence, gardez les points suivant
 - Pour plus d’informations sur les clients Skype Entreprise et Lync qui peuvent recevoir plusieurs numéros d’urgence, masques de numérotation et utilisations du réseau téléphonique commuté (PSTN), voir Prise en charge du [client.](multiple-emergency-numbers.md#BKMK_Clients)
     
 > [!NOTE]
-> Vous ne pouvez pas configurer plusieurs numéros d’urgence à l’aide du Panneau de configuration de Skype Entreprise. Vous devez utiliser PowerShell pour configurer plusieurs numéros d’urgence. 
+> Vous ne pouvez pas configurer plusieurs numéros d’urgence à l’aide Skype Entreprise panneau de configuration. Vous devez utiliser PowerShell pour configurer plusieurs numéros d’urgence. 
   
 Avant de configurer plusieurs numéros d’urgence, gardez les points suivants à l’esprit :
   
 - Pour configurer plusieurs numéros d’urgence, vous devez utiliser l’cmdlet New-CsEmergencyNumber et définir des stratégies d’emplacement qui prendre en charge plusieurs numéros d’urgence en spécifiant le paramètre EmergencyNumbers avec les cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) et [Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
     
-- Si vous avez des numéros existants définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask, les valeurs spécifiées avec le paramètre EmergencyNumbers prévalent sur les anciennes valeurs. Autrement dit, les valeurs des paramètres EmergencyDialString et EmergencyDialMask seront ignorées.
+- Si des numéros existants sont définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask, les valeurs spécifiées avec le paramètre EmergencyNumbers seront prioritaires sur les anciennes valeurs. Autrement dit, les valeurs des paramètres EmergencyDialString et EmergencyDialMask seront ignorées.
     
 - Si vous avez des numéros existants définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask  *et*  que vous ne configurez pas de nouveaux numéros d’urgence, les numéros existants continueront d’être utilisés.
     
@@ -69,7 +69,7 @@ Avant de configurer plusieurs numéros d’urgence, gardez les points suivants �
     
 - Si les utilisateurs composeront un numéro qui correspond à la chaîne de numérotation, aucun masque de numérotation n’est requis. Par exemple, si le numéro composé par un utilisateur est 911, la chaîne de numérotation est 911 et aucun masque n’est requis. 
     
-Pour plus d’informations sur la configuration de plusieurs numéros d’urgence, voir Configurer plusieurs numéros [d’urgence dans Skype Entreprise.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
+Pour plus d’informations sur la configuration de plusieurs numéros d’urgence, voir Configurer plusieurs numéros [d’urgence dans Skype Entreprise](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
 Le tableau suivant présente des exemples de stratégies d’emplacement (pour les besoins de l’exemple, tous les attributs ne sont pas affichés) :
   
@@ -101,9 +101,9 @@ Le tableau suivant indique la prise en charge de plusieurs numéros d’urgence 
 ||DC (Canal différé) publié le 11 octobre 2016 - Version 1605 (build 6965.2092)  <br/> |
 |**MSI** <br/> |Mise à jour du 7 juin - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac et iOS** <br/> |**Version** <br/> |
-||Client Mac Skype Entreprise version 16.9  <br/> Client Skype Entreprise iOS version 6.16  <br/> |
+||Skype Entreprise Client Mac version 16.9  <br/> Skype Entreprise client iOS version 6.16  <br/> |
 |**Android** <br/> |**Version** <br/> |
-||Client Android Skype Entreprise version 6.17  <br/> |
+||Skype Entreprise Client Android version 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**Version** <br/> |
 || Téléphones Aastra 6721ip et Aastra 6725ip - Mise à jour cumulative de septembre 2016 (build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || Téléphones HP 4110 et HP 4120 - Mise à jour cumulative de septembre 2016 (build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

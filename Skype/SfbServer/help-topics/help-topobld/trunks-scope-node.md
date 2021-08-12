@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Cliquez avec le bouton droit sur Trunks dans le Générateur de topologie pour effectuer les choses suivantes :'
-ms.openlocfilehash: 373ebb533ff02c6cf37d6db543d80bd33ca2af33
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d5cf58ffad359c4504fba8f8a039c8a05d9bc4aa718a091fb0908ab40ba2e5db
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818016"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290702"
 ---
 # <a name="trunks-scope-node"></a>Nœud d’étendue des jonctions
  

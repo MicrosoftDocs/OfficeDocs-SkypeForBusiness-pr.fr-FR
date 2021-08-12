@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd54902e00e984de740b7bbf6d0fd96e37e88aa9
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
+ms.openlocfilehash: 52bc263c799ff631a53f25761e8d88c1ff52fb1dd0be9202a95605871022e555
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424554"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280549"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Démarrage rapide pour la gouvernance de Microsoft Teams
 
-Les activités suivantes se produisent simultanément et peuvent impliquer l’ensemble ou une partie de votre équipe clé. Il est donc préférable de différer les conversations de gouvernance et de sécurité à grande échelle une fois que vous avez terminé votre expérience initiale avec Teams. Il est important de comprendre la façon dont les décisions de gouvernance peuvent avoir une incidence sur l’expérience utilisateur final et simplifiera les décisions que vous devrez prendre à cette date ultérieure. Pour cette phase, certaines décisions doivent être prises. Pour les rendre correctement, vous devez tout d’abord répondre aux questions suivantes :
+Les activités suivantes se produisent simultanément et peuvent impliquer l’ensemble ou une partie de votre équipe clé. Il est préférable de différer les conversations de gouvernance et de sécurité à grande échelle une fois que vous avez terminé votre expérience initiale avec Teams. Il est important de comprendre la façon dont les décisions de gouvernance peuvent avoir une incidence sur l’expérience utilisateur final et simplifiera les décisions que vous devrez prendre à cette date ultérieure. Pour cette phase, certaines décisions doivent être prises. Pour les rendre correctement, vous devez tout d’abord répondre aux questions suivantes :
 
 - Quelle partie prenante de votre évaluation précédente est la plus à même de participer à cette intégration limitée à l’entreprise ?
 - Cet individu (ou groupe d’individus) a-t-il suggéré des cas d’utilisation qui seraient les bons choix pour cette phase ?  
@@ -70,6 +70,6 @@ En vue de votre déploiement à grande échelle, vous pouvez choisir d’utilise
 
 ### <a name="decision-8-length-of-your-experiment"></a>Décision 8 : durée de vos expérimentations
 
-Une phase Teams implémentation continue à un rythme sain afin de garantir une dynamique, une attention et des apprentissages appropriés. Nous vous recommandons d’allonger cette phase de votre projet de 60 jours pour garantir à vos premiers utilisateurs un cycle d’entreprise suffisant. Étendre la pratique d’une durée trop longue accroît le risque d’échec d’un programme de modification . toutefois, cette période peut varier pour chaque organisation.  
+Une phase Teams implémentation continue à un rythme sain afin de garantir une dynamique, une attention et des apprentissages appropriés. Nous vous recommandons d’avoir 60 jours pour que les premiers utilisateurs terminent un cycle d’entreprise suffisant. Étendre la pratique d’une durée trop longue accroît le risque d’échec d’un programme de modification . toutefois, cette période peut varier pour chaque organisation.  
 
 ![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) définir [des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)
