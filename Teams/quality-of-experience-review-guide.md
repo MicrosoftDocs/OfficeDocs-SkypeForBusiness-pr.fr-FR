@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 85b860965c7883d5df9bc734bc336fb2d24a5ed8
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 45fe1737aec2fca951ab71e0925961ada57873ab289abcafd33b2588f189e259
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574143"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332566"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>Utiliser le CQD pour gérer les appels et la qualité des réunions dans Microsoft Teams 
 
-Cet article vous aide, en tant qu’administrateur ou support Teams, à développer un processus de surveillance et de maintenance des appels et de la qualité des réunions pour votre organisation à l’aide du tableau de bord de qualité des appels d’Microsoft Teams. Nos recommandations mettent l’accent sur les scénarios de qualité audio, car les améliorations que vous a apportées au réseau en matière d’amélioration de l’expérience audio se traduit par des améliorations en matière de vidéo et de partage.
+Cet article vous aide, en tant qu’administrateur ou support technique Teams, à développer un processus de surveillance et de maintenance des appels et de la qualité des réunions pour votre organisation à l’aide du tableau de bord de qualité des appels d’Microsoft Teams. Nos recommandations mettent l’accent sur les scénarios de qualité audio, car les améliorations que vous a apportées au réseau en matière d’amélioration de l’expérience audio se traduit par des améliorations en matière de vidéo et de partage.
 
 Les deux [modèles organisés de DQD](https://aka.ms/QERtemplates) sont clés pour ces conseils. Nous vous recommandons de les télécharger avant de passer en revue les instructions de cet article.
 
@@ -213,10 +213,10 @@ L’analyse de l’expérience utilisateur est plus une technique que la science
 
 #### <a name="rate-my-call"></a>Évaluer mon appel 
 
-La fréquence d’appel (RMC) est intégrée dans les Teams et Skype Entreprise. Elle apparaît automatiquement après un appel sur chaque 10 appels, ou 10 %. Cette courte enquête demande à l’utilisateur d’évaluer l’appel et de fournir un peu de contexte sur les raisons pour lesquelles la qualité de l’appel est médiocre. Une ou deux évaluation est considérée médiocre, trois à quatre est bonne et cinq est excellent. Bien qu’il s’agit un peu d’un indicateur lent, cette valeur est utile pour découvrir des problèmes que les mesures de service peuvent manquer.
+La fréquence d’appel (RMC) est intégrée dans les Teams et Skype Entreprise. Elle apparaît automatiquement après un appel sur chaque 10 appels, ou 10 %. Cette courte enquête demande à l’utilisateur d’évaluer l’appel et de fournir un peu de contexte sur les raisons pour lesquelles la qualité de l’appel est médiocre. Une ou deux évaluation est considérée médiocre, trois à quatre est bonne et cinq est excellent. Bien qu’il s’agit un peu d’un indicateur lent, c’est une mesure utile pour découvrir des problèmes que les mesures de service peuvent manquer.
 
 > [!Note]
-> Facteur humain : les utilisateurs ignorent souvent l’enquête quand la qualité des appels est bonne et les remplissent quand la qualité de l’appel est mauvaise. Par conséquent, vos rapports RMC peuvent être asymétriques par rapport au côté médiocre, même si les mesures de service sont bonnes.
+> Facteur humain : les utilisateurs ignorent souvent l’enquête quand la qualité des appels est bonne et ils le remplissent quand la qualité de l’appel est mauvaise. Par conséquent, vos rapports RMC peuvent être asymétriques par rapport au côté médiocre, même si les mesures de service sont bonnes.
 
 Vous pouvez utiliser le DQD pour signaler les réponses des utilisateurs de la chaîne de travail RMC. Des exemples de rapports sont inclus dans le modèle de de nom de la liste de bord. Toutefois, ils ne sont pas abordés en détail dans cet article. 
 
@@ -264,7 +264,7 @@ Il existe deux catégories de tâches réseau : fiabilité et qualité. La fiabi
 
 #### <a name="endpoints-tasks"></a>Tâches de points de terminaison
 
-La tâche principale dans cette catégorie supprime les obstacles aux mises à jour [Teams client.](teams-client-update.md) Par défaut, Teams mises à jour sont automatiquement mises à jour régulièrement (sauf si vous éteiez ce paramètre, ce que nous vous déconseillons). 
+La tâche principale dans cette catégorie supprime les obstacles aux mises à jour [Teams client.](teams-client-update.md) Par défaut, Teams est automatiquement mis à jour régulièrement (sauf si vous éteiez ce paramètre, ce que nous vous déconseillons). 
 
 Vous devez également surveiller les appareils et fournir des mises à jour chaque fois que vous identifiez les problèmes liés à un appareil.
 
@@ -303,11 +303,11 @@ Nouveautés de janvier 2020 : télécharger Power BI modèles de [requête pour 
 
 ### <a name="teams-vs-skype-for-business"></a>Teams et Skype Entreprise
 
-Le CQD peut prendre des rapports sur les Teams et les Skype Entreprise. Il peut toutefois être possible que vous vouliez développer un rapport pour examiner Teams données de télémétrie distinctes Skype Entreprise.
+Le CQD peut prendre des rapports sur les Teams et les Skype Entreprise. Toutefois, il peut être possible que vous vouliez développer un rapport pour examiner Teams données de télémétrie distinctes Skype Entreprise.
 
 #### <a name="summary-reports"></a>Rapports de synthèse
 
-Pour modifier la page des rapports de synthèse afin de ne  rechercher que Teams ou Skype Entreprise, sélectionnez le menu déroulant Filtre de produit dans la partie supérieure de l’écran, puis sélectionnez le produit de votre choix.
+Pour modifier la page des rapports de synthèse afin de ne  rechercher que Teams ou Skype Entreprise, sélectionnez le menu déroulant Filtre produit dans la partie supérieure de l’écran, puis sélectionnez le produit de votre choix.
 
 ![Capture d’écran du menu déroulant affichant les options de filtre](media/qerguide-image-productfilter.png)
 
@@ -352,7 +352,7 @@ Par exemple, une requête de bonne qualité est **Show me Poor Flux [Measure] pa
 
 ### <a name="first-vs-second"></a>Premier et deuxième 
 
-De nombreuses dimensions et mesures du même nom sont classées en premier ou en deuxième position. Le CQD n’utilise pas les champs Appelant/Appelant  :  ceux-ci ont été renommés en premier et en deuxième, car des étapes intermédiaires sont nécessaires entre l’appelant et l’appelé. La logique suivante détermine quel point de terminaison impliqué est étiqueté comme premier :
+Bon nombre des dimensions et mesures du même nom sont classées comme première ou deuxième. Le CQD n’utilise pas les champs Appelant/Appelant  :  ceux-ci ont été renommés en premier et deuxième en raison d’étapes intermédiaires entre l’appelant et l’appelé. La logique suivante détermine quel point de terminaison impliqué est étiqueté comme premier :
 
 -   **Le premier** sera toujours un point de terminaison serveur (serveur de conférence, serveur de médiation, etc.) si un serveur est impliqué dans le flux ou l’appel.
 
@@ -483,7 +483,7 @@ Les échecs signalés ici indiquent que l’appel a été supprimé de façon in
 
 ##### <a name="remediation"></a>Correction
 
-Les rapports de tableau inclus vous permet d’isoler les zones de problème dans le réseau où le taux de chute est supérieur à la mesure cible que vous avez définie. Concentrez vos premiers efforts de correction sur les bâtiments ou sous-réseaux dont le total de flux est le plus élevé, pour en faire le plus grand impact.
+Les rapports de tableau inclus vous permet d’isoler les zones de problème dans le réseau où le taux de chute est supérieur à la mesure cible que vous avez définie. Concentrez vos premiers efforts de correction sur les bâtiments ou sous-réseaux dont le total de flux est le plus élevé, pour en faire le plus gros impact.
 
 Causes courantes des chutes d’appel :
 
@@ -500,7 +500,7 @@ Le tableau suivant répertorie certaines méthodes courantes pour gérer et corr
 
 | Correction                              | Aide                      |
 |------------------------------------------|-------------------------------|
-| **Réseau/Internet**                         | **Congestion**: Travaillez avec votre équipe réseau pour surveiller la bande passante sur des bâtiments ou sous-réseaux spécifiques pour vérifier la surutilisation. Si vous confirmez l’encombrement du réseau, envisagez d’augmenter la bande passante pour construire ou appliquer la QoS. Utilisez les rapports de synthèse [Quality Poor Stream](#quality-investigations) inclus pour examiner les sous-réseaux du problème en cas de problèmes de gigue, de latence et de perte de paquets, car ceux-ci précèdent souvent un flux supprimé.<br><br>**QoS**: si l’augmentation de la bande passante est impraticable ou interdit par le coût, envisagez d’implémenter la QoS. Cet outil est très efficace pour gérer le trafic encombré et peut garantir que les paquets multimédias sur le réseau géré sont prioritaires sur le trafic non multimédia. Par contre, s’il n’existe aucune preuve claire que la bande passante est à l’origine du problème, envisagez les solutions ci-après :<ul><li>[Microsoft Teams Conseils sur la QoS](qos-in-teams.md)</li></ul><br>**Évaluation** de la disponibilité du réseau : une évaluation du réseau fournit des détails sur l’utilisation attendue de la bande passante, la manière de gérer les changements de bande passante et de réseau, et les pratiques réseau recommandées pour les réseaux Teams et Skype Entreprise. En utilisant la table précédente comme source, vous avez une liste de bâtiments ou sous-réseaux qui sont d’excellents choix pour une évaluation.<ul><li>[Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)</li></ul> |
+| **Réseau/Internet**                         | **Congestion**: Travaillez avec votre équipe réseau pour surveiller la bande passante sur des bâtiments ou sous-réseaux spécifiques pour vérifier la surutilisation. Si vous confirmez l’encombrement du réseau, envisagez d’augmenter la bande passante pour construire ou appliquer la QoS. Utilisez les rapports de synthèse [Quality Poor Stream](#quality-investigations) inclus pour examiner les sous-réseaux du problème en cas de problèmes de gigue, de latence et de perte de paquets, car ceux-ci précèdent souvent un flux supprimé.<br><br>**QoS**: si l’augmentation de la bande passante est impraticable ou interdit par le coût, envisagez d’implémenter la QoS. Cet outil est très efficace pour gérer le trafic encombré et peut garantir que les paquets multimédias sur le réseau géré sont prioritaires sur le trafic non multimédia. Par contre, s’il n’existe aucune preuve claire que la bande passante est à l’origine du problème, envisagez les solutions ci-après :<ul><li>[Microsoft Teams Conseils sur la QoS](qos-in-teams.md)</li></ul><br>**Effectuer une évaluation** de la disponibilité du réseau : une évaluation du réseau fournit des détails sur l’utilisation attendue de la bande passante, la manière de gérer les changements de bande passante et de réseau, et les pratiques réseau recommandées pour les réseaux Teams et Skype Entreprise. En utilisant la table précédente comme source, vous avez une liste de bâtiments ou sous-réseaux qui sont d’excellents candidats pour une évaluation.<ul><li>[Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)</li></ul> |
 | **Clients (Skype Entreprise Online uniquement)** | Certains clients Skype Entreprise connus et documentés en matière de fiabilité des médias. Examinez les rapports d’analyse des appels de plusieurs utilisateurs concernés ou créez un rapport personnalisé de tableau de la version client dans le tableau de table des appels filtré sur des bâtiments ou sous-réseaux spécifiques avec la mesure % total de l’échec d’appel supprimé. Ces informations vous aideront à déterminer s’il existe une relation entre les chutes d’appel dans ce bâtiment spécifique et une version spécifique du client.     |
 | **Appareils**                                  |Si les périphériques sont à l’origine des problèmes de qualité des appels, envisagez de mettre à jour les appareils incriminés. Lisez [Téléphones pour Teams](./devices/phones-for-teams.md) pour en savoir plus. |
 | **Comportement de l’utilisateur**                            | Si vous déterminez qu’aucun réseau, appareil ou client n’est problématique, vous pouvez développer une stratégie d’adoption des utilisateurs pour informer les utilisateurs de la meilleure façon de participer aux réunions et de les quitter. Un utilisateur Teams et Skype Entreprise’utilisateur pourra améliorer son expérience utilisateur pour tous les participants à la réunion. Par exemple, un utilisateur qui met son ordinateur portable en veille (en fermant le clavier) sans quitter la réunion est considéré comme une chute d’appel inattendue.   |
@@ -520,10 +520,10 @@ Pour évaluer le pourcentage de flux médiocres, utilisez les rapports de qualit
 
 #### <a name="quality-trend-analysis"></a>Analyse des tendances de qualité
 
-Les rapports tendance affichent des informations sur la qualité au fil du temps et sont utilisés pour identifier et comprendre les tendances de qualité dans chaque domaine d’intérêt. Comme indiqué ci-dessus, des arbres signalés sont inclus dans les modèles pour examiner la qualité. conférence, à deux, appel PSTN, VPN et salles de réunion. À des fins d’analyse de la qualité, le processus d’analyse est le même. Toutefois, nous vous recommandons de commencer par la conférence, car toute amélioration de la qualité des conférences peut également avoir un effet positifs sur tous les autres aspects. 
+Les rapports tendance affichent des informations sur la qualité au fil du temps et sont utilisés pour identifier et comprendre les tendances de qualité dans chaque domaine d’intérêt. Comme indiqué ci-dessus, des arbres signalés sont inclus dans les modèles pour examiner la qualité. conférence, à deux, appel PSTN, VPN et salles de réunion. À des fins d’analyse de la qualité, le processus d’analyse est le même. Toutefois, nous vous recommandons de commencer par les conférences, car toute amélioration de la qualité des conférences peut également avoir un effet positifs sur tous les autres aspects. 
 
 > [!Note]
-> L’étude de salles de réunion à deux, d’appels PSTN et de salles de réunion est semblable à celle des conférences. L’objectif est d’isoler les bâtiments ou sous-réseaux dont la qualité est la moins bonne et d’identifier la raison pour laquelle la qualité est médiocre.
+> L’étude de salles de réunion à deux, d’appels PSTN et de salles de réunion est semblable à celle des conférences. L’objectif est d’isoler des bâtiments ou sous-réseaux dont la qualité est la moins bonne et d’identifier la raison pour laquelle la qualité est médiocre.
 
 > [!Important]
 > Les rapports vpn sont filtrés à l’aide de la deuxième dimension VPN. Cette dimension nécessite que l’adaptateur réseau VPN soit correctement inscrit en tant qu’adaptateur d’accès à distance. Les fournisseurs vpn n’utilisent pas cet indicateur de façon fiable et votre kilométrage peut varier en fonction du fournisseur VPN déployé au niveau de votre organisation. Modifiez les [rapports VPN](CQD-upload-tenant-building-data.md#vpn) si nécessaire en utilisant le nom du bâtiment ou du réseau.
@@ -560,7 +560,7 @@ Concentrez vos efforts de correction sur les bâtiments ou sous-réseaux qui ont
 -   **Perte de paquets**: les paquets multimédias sont supprimés, ce qui crée l’effet des mots manquants ou des syllabes.
 -   **RTT**: l’accès des paquets multimédias à leur destination prend beaucoup de temps, ce qui crée un effet de walkie-talkie.
 
-Pour vous aider à analyser les problèmes de qualité, utilisez [l’analyse des appels par utilisateur.](use-call-analytics-to-troubleshoot-poor-call-quality.md) L’analyse des appels vous permet d’examiner une conférence ou un rapport d’appel d’utilisateur spécifique. Ce rapport contient des données EUII/PII et est utile lorsque vous recherchez la cause d’un échec. Une fois que vous savez quel bâtiment est affecté, il devrait être simple de suivre les utilisateurs dans ce bâtiment. 
+Pour vous aider à analyser les problèmes de qualité, utilisez [l’analyse des appels par utilisateur.](use-call-analytics-to-troubleshoot-poor-call-quality.md) Les données d’analyse des appels vous permet d’examiner une conférence spécifique ou le rapport d’appels d’un utilisateur. Ce rapport contient des données EUII/PII et est utile lorsque vous recherchez la cause d’un échec. Une fois que vous savez quel bâtiment est affecté, il devrait être simple de suivre les utilisateurs dans ce bâtiment. 
 
 N’oubliez pas de faire savoir à votre service d’aide que ces réseaux rencontrent des problèmes de qualité. Ils peuvent ainsi trier les appels entrants et y répondre rapidement.
 
@@ -568,13 +568,13 @@ N’oubliez pas de faire savoir à votre service d’aide que ces réseaux renco
 |------------------------------------------|----------------------------------|
 | **Réseaux**                                 | **Congestion**: un réseau inutilisé ou sous-mis en service peut entraîner des problèmes de qualité multimédia. Travaillez avec l’équipe réseau pour déterminer si les connexions réseau entre l’utilisateur et le point de sortie Internet disposent d’une bande passante suffisante pour prendre en charge les médias. <br><br>**Effectuer une évaluation** de la disponibilité du réseau : une évaluation du réseau fournit des détails sur l’utilisation attendue de la bande passante, la manière de gérer les changements de bande passante et de réseau, et les pratiques réseau recommandées pour les réseaux Teams et Skype Entreprise. En utilisant la table précédente comme source, vous avez une liste de bâtiments ou sous-réseaux qui sont d’excellents candidats pour une évaluation.<ul><li>[Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)</li></ul>|
 | **Qualité de service (QoS)**  | QoS est un outil éprouvée qui permet de hiérarchiser les paquets sur un réseau encombré pour s’assurer qu’ils arrivent à destination, en temps et en heure. Envisagez d’implémenter la QoS dans votre organisation pour optimiser la qualité de l’expérience utilisateur où la bande passante est limitée. La QoS vous aidera à résoudre les problèmes généralement associés à des niveaux élevés de perte de paquets et, dans un moindre degré, de gigue et de temps d’aller-retour.<ul><li>[Teams Conseils sur la QoS](qos-in-teams.md)</li></ul> |
-| **Wi-Fi**               | Wi-Fi peut avoir un impact significatif sur la qualité des appels. Wi-Fi déploiements ne prennent généralement pas en considération la qualité réseau requise pour les services VoIP et sont souvent une source de mauvaise qualité. Pour plus d’informations sur l’optimisation de Wi-Fi infrastructure informatique, [consultez cet article sur Wi-Fi de projet.](/skypeforbusiness/certification/plan-wifi)<br><br>**Pilote sans fil**: assurez-vous que les pilotes sans fil sont à jour. Cela permettra d’atténuer toute expérience utilisateur médiocre liée à un pilote obsolète. De nombreuses organisations n’incluent pas de pilotes sans fil dans leurs cycles de correctifs, et ces pilotes peuvent être non compatibles pendant des années. De nombreux problèmes de connexion sans fil sont résolus en veillant à ce que les pilotes sans fil soient à jour.<br><br>**WMM**: WMM (Wireless Multimedia Extensions), également appelé Wi-Fi Multimedia, fournit des fonctionnalités de QoS de base aux réseaux sans fil. Les réseaux sans fil modernes doivent prendre en charge de nombreux appareils. Ces appareils sont en concurrence pour la bande passante et peuvent entraîner des problèmes de qualité pour les services VoIP, pour lequel la vitesse et la latence sont essentielles. Pour plus d’information, consultez votre fournisseur sans fil et envisagez d’implémenter WMM sur votre réseau sans fil pour hiérarchiser les Skype Entreprise et Teams multimédia.<br><br>**Densité des points d’accès**: les points d’accès peuvent être trop éloignés ou ne pas se trouve dans un emplacement idéal. Pour minimiser les interférences potentielles, placez des points d’accès supplémentaires dans les salles de conférence et dans des emplacements qui ne sont pas obstrués par des murs ou d’autres objets sur lequel le signal Wi-Fi est faible.<br><br>**2,4 GHz ou 5 GHz**: 5 GHz offre moins d’interférences et de vitesses supérieures en arrière-plan et doit être hiérarchisé lors du déploiement de VoIP sur Wi-Fi. Toutefois, 5 GHz n’est pas aussi fort que 2,4 GHz et n’insérez pas des murs aussi facilement. Examinez la mise en page de votre bâtiment pour déterminer la fréquence à utiliser pour la meilleure connexion. |
+| **Wi-Fi**               | Wi-Fi peut avoir un impact significatif sur la qualité des appels. Wi-Fi déploiements ne prennent généralement pas en considération la qualité réseau requise pour les services VoIP et sont souvent une source de mauvaise qualité. Pour plus d’informations sur l’optimisation de Wi-Fi infrastructure informatique, [consultez cet article sur Wi-Fi de projet.](/skypeforbusiness/certification/plan-wifi)<br><br>**Pilote sans fil**: assurez-vous que les pilotes sans fil sont à jour. Cela permettra d’atténuer toute expérience utilisateur médiocre liée à un pilote obsolète. De nombreuses organisations n’incluent pas de pilotes sans fil dans leurs cycles de correctifs, et ces pilotes peuvent être non compatibles pendant des années. De nombreux problèmes de connexion sans fil sont résolus en veillant à ce que les pilotes sans fil soient à jour.<br><br>**WMM**: WMM (Wireless Multimedia Extensions), également appelé Wi-Fi Multimedia, fournit des fonctionnalités de QoS de base aux réseaux sans fil. Les réseaux sans fil modernes doivent prendre en charge de nombreux appareils. Ces appareils sont en concurrence pour la bande passante et peuvent entraîner des problèmes de qualité pour les services VoIP, pour lequel la vitesse et la latence sont essentielles. Pour plus d’information, consultez votre fournisseur sans fil et envisagez d’implémenter WMM sur votre réseau sans fil afin de hiérarchiser les Skype Entreprise et Teams multimédia.<br><br>**Densité des points d’accès**: les points d’accès peuvent être trop éloignés ou ne pas se trouve dans un emplacement idéal. Pour minimiser les interférences potentielles, placez des points d’accès supplémentaires dans les salles de conférence et dans des emplacements qui ne sont pas obstrués par des murs ou d’autres objets sur lequel le signal Wi-Fi est faible.<br><br>**2,4 GHz ou 5 GHz**: 5 GHz offre moins d’interférences et de vitesses supérieures en arrière-plan et doit être hiérarchisé lors du déploiement de VoIP sur Wi-Fi. Toutefois, 5 GHz n’est pas aussi fort que 2,4 GHz et n’insérez pas des murs aussi facilement. Examinez la mise en page de votre bâtiment pour déterminer la fréquence à utiliser pour la meilleure connexion. |
 |**Périphérique réseau** | Les grandes organisations peuvent avoir des centaines d’appareils répartis sur le réseau. Travaillez avec votre équipe réseau pour vous assurer que les périphériques réseau de l’utilisateur vers Internet sont conservés et à jour. |
 | **VPN**  | Les équipements VPN ne sont pas traditionnellement conçus pour gérer les charges de travail multimédia en temps réel. Certaines configurations VPN interdit l’utilisation du protocole UDP (qui est le protocole préféré pour les médias) et s’appuient sur TCP uniquement. Envisagez d’implémenter une solution vpn à tunnel fractionnel afin de réduire le vpn en tant que source de mauvaise qualité. |
 | **Clients** <br>(Skype Entreprise Online uniquement) | Assurez-vous que tous les clients sont régulièrement mis à jour. |
 | **Appareils** | Si les périphériques sont à l’origine des problèmes de qualité des appels, envisagez de mettre à jour les appareils incriminés. Lisez [Téléphones pour Teams](./devices/phones-for-teams.md) pour en savoir plus. |
 | **Pilotes** | L’application de correctifs réseau (Ethernet et Wi-Fi), audio, vidéo et USB devrait faire partie de votre stratégie globale de gestion des correctifs. De nombreux problèmes de qualité sont résolus en mettant à jour les pilotes. |
-| **Salles de réunion sur Wi-Fi** | Nous vous recommandons vivement d’connecter les appareils des salles de réunion au réseau à l’aide d’une connexion Ethernet d’au moins 1 Gbps. Les appareils de salle de réunion incluent généralement plusieurs flux audio et vidéo, ainsi que le contenu de la réunion tel que le partage d’écran, et ont une qualité réseau plus élevée que les autres points de terminaison Teams ou Skype Entreprise réunion. Par définition, les salles de réunion sont des appareils en Wi-Fi,ce qui n’offre un avantage que pendant l’installation.<br><br>Les salles de réunion doivent être traitées avec davantage de soin et d’attention pour garantir que l’expérience d’utilisation de ces appareils dépasse ou dépasse les attentes. Les problèmes de qualité des salles de réunion vont généralement être rapidement multipliés, car ils sont souvent utilisés par le personnel de niveau supérieur.<br><br>Toutes étant égales (sauf dans le cadre de la commodité), Wi-Fi performances sont généralement inférieures à celles d’une connexion câblé. Avec l’augmentation des stratégies « apportez votre propre appareil » et l’utilisation des ordinateurs portables, Wi-Fi points d’accès sont souvent sur-utilisés. Les médias en temps réel peuvent ne pas être prioritaires sur Wi-Fi réseaux, ce qui peut entraîner des problèmes de qualité pendant les heures de pointe. Cette utilisation importante peut coïncider avec une réunion où une douzaine de personnes peuvent assister, chacune possède son ordinateur portable et son smartphone connectés au même point d’accès Wi-Fi que l’appareil de la salle de réunion.<br><br>Wi-Fi ne doit être considéré qu’comme une solution temporaire, pour une installation mobile, ou lorsqu'Wi-Fi a été correctement mis en service pour prendre en charge des médias de classe professionnelle en temps réel. |
+| **Salles de réunion sur Wi-Fi** | Nous vous recommandons vivement d’connecter les appareils des salles de réunion au réseau à l’aide d’une connexion Ethernet d’au moins 1 Gbps. Les appareils de salle de réunion incluent généralement plusieurs flux audio et vidéo, ainsi que le contenu de la réunion tel que le partage d’écran, et ont une qualité réseau plus élevée que les autres points de terminaison Teams ou Skype Entreprise réunion. Par définition, les salles de réunion sont des appareils en Wi-Fi,ce qui n’offre un avantage que pendant l’installation.<br><br>Les salles de réunion doivent être traitées avec davantage de soin et d’attention pour garantir que l’expérience d’utilisation de ces appareils dépasse ou dépasse les attentes. Les problèmes de qualité des salles de réunion vont généralement être rapidement multipliés, car ils sont souvent utilisés par le personnel de niveau supérieur.<br><br>Toutes étant égales (sauf dans le cadre de la commodité), les Wi-Fi performances sont généralement inférieures à celles d’une connexion câblé. Avec l’augmentation des stratégies « apportez votre propre appareil » et l’utilisation des ordinateurs portables, Wi-Fi points d’accès sont souvent sur-utilisés. Il est possible que les médias en temps réel ne soient pas prioritaires Wi-Fi réseaux, ce qui peut entraîner des problèmes de qualité pendant les heures de pointe. Cette utilisation importante peut coïncider avec une réunion où une douzaine de personnes peuvent assister, chacune possède son ordinateur portable et son smartphone connectés au même point d’accès Wi-Fi que l’appareil de la salle de réunion.<br><br>Wi-Fi ne doit être considéré qu’comme une solution temporaire, pour une installation mobile, ou lorsqu'Wi-Fi a été correctement mis en service pour prendre en charge des médias de classe professionnelle en temps réel. |
 
 
 ### <a name="tcp"></a>TCP 
@@ -588,13 +588,13 @@ Les rapports de cette section ne font pas de distinction entre les flux bon et m
 
 #### <a name="tcp-usage"></a>Utilisation du protocole TCP
 
-Les rapports TCP indiquent l’utilisation globale de TCP au cours des sept derniers mois. Tous les autres rapports de cette section porteront sur le narrowing de bâtiments et sous-réseaux spécifiques où le TCP est fréquemment utilisé. Des rapports distincts sont disponibles pour les flux de conférence et à deux.
+Les rapports TCP indiquent l’utilisation globale de TCP au cours des sept derniers mois. Tous les autres rapports de cette section porteront sur le narrowing de bâtiments et sous-réseaux spécifiques où le TCP est fréquemment utilisé. Des rapports distincts sont disponibles pour les flux de conférence et les flux à deux.
 
 ![Graphique montrant le pourcentage de flux audio qui utilisent le protocole TCP](media/qerguide-image-audiostreamswithtcp.png)
 
-##### <a name="investigation"></a>Examen
+##### <a name="investigation"></a>Examens
 
-Ce rapport vous permet de répondre aux questions suivantes :
+En utilisant ce rapport, vous pouvez répondre aux questions suivantes :
 
 -   Quel est le volume total de flux TCP pour le mois en cours ?
 -   Est-ce pire ou mieux que le mois précédent ?
@@ -677,7 +677,7 @@ Cette section se concentre sur les tâches de rapport sur les versions client et
 
 ### <a name="client-versions"></a>Versions client
 
-Ces rapports se concentrent sur l’identification Skype Entreprise versions client en cours d’utilisation et leur volume relatif dans l’environnement.
+Ces rapports se concentrent sur l’Skype Entreprise versions client en cours d’utilisation et leur volume relatif dans l’environnement.
 
 > [!IMPORTANT]
 > Actuellement, Teams clients sont distribués et mis à jour automatiquement via le service Azure réseau de distribution de contenu et sont mis à jour par le service. Par conséquent, vous n’avez pas besoin de surveiller Teams versions clientes (sauf si vous désactiver la mise à jour automatique, ce qui n’est pas recommandé).
@@ -711,7 +711,7 @@ Vous trouverez les numéros de version Skype Entreprise via les liens ci-dessous
 
 ### <a name="devices"></a>Appareils
 
-Pour utiliser le rapport de périphérique de microphone, nous devons comprendre le concept du score d’opinion moyenne (MOS). MOS est la mesure standard doré qui permet d’évaluer la qualité audio percevoir. Il s’agit d’un classement de 0 à 5.
+Pour utiliser le rapport de périphériques microphone, nous devons comprendre le concept de la note moyenne d’opinion (MOS). MOS est la mesure standard doré qui permet d’évaluer la qualité audio percevoir. Il s’agit d’un classement de 0 à 5.
 
 La base de toutes les mesures de la qualité de la voix est la manière dont une personne perçoive la qualité de la voix. Étant donné qu’il est affecté par la perception humaine, il est intrinsèquement subjectif. Il existe plusieurs méthodologies différentes pour les tests subjectifs. La plupart des mesures de qualité vocale sont basées sur une échelle absolue d’évaluation des catégories.
 
@@ -738,7 +738,7 @@ En règle générale, vous devez découvrir et progressivement les appareils non
 
 -   Les appareils utilisés sont-ils certifiés pour les Teams et Skype Entreprise ? 
 -   Vous pouvez identifier les utilisateurs d’un appareil spécifique à l’aide de [l’analyse des appels par utilisateur.](use-call-analytics-to-troubleshoot-poor-call-quality.md) Vérifiez qu’il a les pilotes de périphérique les plus récents et que son appareil n’est pas connecté via un concentrateur USB ou une station d’accueil. 
--   Combien de versions différentes de divers pilotes sont utilisés ? Font-ils l’objet de correctifs régulièrement ? S’assurer que les pilotes audio, vidéo et Wi-Fi sont régulièrement mis à jour permettra de les éliminer comme sources de problèmes de qualité et de rendre l’expérience utilisateur plus prévisible et cohérente.
+-   Combien de versions différentes de divers pilotes sont utilisés ? Font-ils l’objet de correctifs régulièrement ? S’assurer que les pilotes audio, vidéo et Wi-Fi sont régulièrement mis à jour permettra d’éliminer ceux-ci comme sources de problèmes de qualité et de rendre l’expérience utilisateur plus prévisible et cohérente.
 
 ##### <a name="audio"></a>Audio
 
@@ -753,7 +753,7 @@ Il est également important de mettre à jour les pilotes vidéo. S’assurer qu
 Wi-Fi correctifs doivent également être régulièrement mises à jour et inclus dans votre stratégie de gestion des correctifs. De nombreux problèmes de qualité peuvent être corrigés en conservant les pilotes à Wi-Fi jour. Pour plus d’informations sur l’optimisation de Wi-Fi infrastructure informatique, [consultez cet article sur Wi-Fi de projet.](/skypeforbusiness/certification/networking-wifi)
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Advisor pour Teams](use-advisor-teams-roll-out.md)
 

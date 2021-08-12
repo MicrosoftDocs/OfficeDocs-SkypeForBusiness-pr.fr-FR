@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312502"
 ---
 # <a name="share-to-teams-from-outlook"></a>Partager du Teams à partir de Outlook
 
@@ -49,9 +49,9 @@ Pour activer le Outlook utilisé par Share to Teams, exécutez [l’cmdlet trouv
 
 ## <a name="browsers-and-single-sign-on"></a>Navigateurs et sign-on unique
 
-La fonction Partager Teams, dans Outlook sur le web et Outlook bureau, utilise un navigateur WebView. Pour plus d’informations sur les clients qui utilisent des [navigateurs spécifiques,](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) voir Navigateurs utilisés Office par défaut. 
+Share to Teams, dans les clients Outlook sur le web et Outlook bureau, utilise un navigateur WebView. Pour plus d’informations sur les clients qui utilisent des [navigateurs spécifiques,](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins) voir Navigateurs utilisés Office par défaut. 
 
 > [!IMPORTANT]
 > Le partage Teams nécessite que les cookies tiers et l’accès au stockage local soient activés pour les navigateurs des utilisateurs.
 
-La fonction Partager vers Teams utilise l' signer unique, ce qui signifie que les utilisateurs n’ont pas besoin de fournir leurs informations d’identification lors de l’utilisation du module via l’outil Partager Teams. L' serveur de Outlook sur le web prend en charge les URL de réponse et les prend https://outlook.office365.com/owa/extSSO.aspx https://outlook.office.com/owa/extSSO.aspx en charge par défaut. Pour les domaines personnel, les administrateurs doivent ajouter les adresses appropriées Azure Active Directory’URL de réponse.
+La fonction Partager vers Teams utilise l' signer unique, ce qui signifie que les utilisateurs n’ont pas besoin de fournir leurs informations d’identification lors de l’utilisation du module via l’outil Partager Teams. L’oSO Outlook sur le web prend en charge les URL de réponse https://outlook.office365.com/owa/extSSO.aspx et les prend en charge par https://outlook.office.com/owa/extSSO.aspx défaut. Pour les domaines personnel, les administrateurs doivent ajouter les adresses appropriées Azure Active Directory URL de réponse.

@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité du flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 400dcd953805595b4457b4ca9443c31b66f7425d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 595ed77fd0fa6c2fb3a9bf778ff8b94e837314da1c83acb5a099bb0c795eabe1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909038"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341150"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels
 
-Le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide des services Microsoft Teams et Skype Entreprise’appels. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le tableau de bord de qualité des appels et découvrir comment le configurer, voir Configurer le tableau de [bord de qualité des appels.](turning-on-and-using-call-quality-dashboard.md)
+Le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide des services Microsoft Teams et Skype Entreprise’appels. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le tableau de bord de qualité des appels et découvrir comment le configurer, voir [Configurer le tableau de bord de qualité des appels.](turning-on-and-using-call-quality-dashboard.md)
 
 ## <a name="classifier-definitions"></a>Définitions du classificateur
 

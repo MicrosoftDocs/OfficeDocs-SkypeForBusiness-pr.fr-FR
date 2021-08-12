@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 938c2e549cea153b2a6b42991ae65df5d07a4c4d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c1108e47500ce127adb780b1f40af5973cef04f873267002bbf87b1b8e69e4cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296631"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
 
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Attribuer des stratégies à vos utilisateurs](../assign-policies.md)

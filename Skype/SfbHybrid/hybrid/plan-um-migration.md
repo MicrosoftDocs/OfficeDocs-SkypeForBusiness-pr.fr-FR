@@ -11,12 +11,12 @@ ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Cette rubrique traite de ce que vous devez prendre en compte lorsque vous décidez de migrer vos déploiements Skype Entreprise Server ou Exchange Server existants vers la dernière version ou vers Skype Entreprise Online ou Exchange Online.
-ms.openlocfilehash: 1972da1afbfb4d7b3236a5b6f03b904181cc1701
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: e933f1754023daa0991961204224176c34254f7821168eedbc30956c0188410a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341070"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planifier la migration pour Skype Entreprise Server et Exchange Server
 
@@ -45,7 +45,7 @@ Messagerie vocale infonuagique ne fournit pas de fonctionnalité de messagerie v
 
 ### <a name="exchange-online-um-support-in-skype-for-business-server-2019"></a>Exchange Online Prise en charge de la Skype Entreprise Server 2019
 
-Avec Skype Entreprise Server 2019, nous allons passer de la Exchange Online à la Messagerie vocale infonuagique. Lorsqu’un utilisateur est déplacé vers un serveur Skype Entreprise 2019, il commence automatiquement à utiliser Messagerie vocale infonuagique quand il est configuré pour la messagerie vocale hébergée. Si vous utilisez actuellement la Exchange Online, vous n’avez rien d’autre à faire que de déplacer un utilisateur vers Skype Entreprise Server 2019 pour commencer à utiliser Messagerie vocale infonuagique. Toutefois, vous devez connaître certaines modifications apportées aux fonctionnalités :
+Avec Skype Entreprise Server 2019, nous allons passer de la Exchange Online à la Messagerie vocale infonuagique. Lorsqu’un utilisateur est déplacé vers un serveur Skype Entreprise 2019, il commence automatiquement à utiliser Messagerie vocale infonuagique lorsqu’il est configuré pour la messagerie vocale hébergée. Si vous utilisez actuellement la Exchange Online, vous n’avez rien d’autre à faire que de déplacer un utilisateur vers Skype Entreprise Server 2019 pour commencer à utiliser Messagerie vocale infonuagique. Toutefois, vous devez connaître certaines modifications apportées aux fonctionnalités :
 
 - Le Standard automatique d’organisation remplace le attendant automatique dans Exchange Online la Exchange Online de l’organisation.
 - Les paramètres de messagerie vocale de l Outlook sur le Web ne s’appliquent pas aux Messagerie vocale infonuagique.
@@ -57,7 +57,7 @@ Nous allons prendre en charge les scénarios suivants qui vous permettront de mi
 - Exchange 2013/Exchange 2016 et Skype Entreprise Server 2015 vers Exchange 2019 et Skype Entreprise Server 2019
 - Skype Entreprise Server 2015 Skype Entreprise Server 2019 avec Exchange 2013/Exchange 2016
 
-Les scénarios suivants nécessitent qu’aucune configuration PBX ou SBC n’existe dans le cadre de votre déploiement actuel et supposent que vous avez configuré la messagerie unée sur vos serveurs Exchange locaux. Chacune de ces solutions part également du principe que vous avez décidé de configurer un déploiement hybride entre vos serveurs Skype Entreprise locaux et Microsoft 365 ou Office 365. Pour plus d’informations Skype Entreprise déploiements hybrides, voir [Planifier la connectivité hybride.](plan-hybrid-connectivity.md)
+Les scénarios suivants nécessitent qu’aucune configuration PBX ou SBC n’existe dans le cadre de votre déploiement actuel et supposent que vous avez configuré la messagerie unée sur vos serveurs Exchange locaux. Chacune de ces solutions suppose également que vous avez décidé de configurer un déploiement hybride entre vos serveurs Skype Entreprise locaux et Microsoft 365 ou Office 365. Pour plus d’informations Skype Entreprise déploiements hybrides, voir [Planifier la connectivité hybride.](plan-hybrid-connectivity.md)
 
 ### <a name="exchange-2013exchange-2016-and-skype-for-business-2015-to-exchange-2019-and-skype-for-business-2019"></a>Exchange 2013/Exchange 2016 et Skype Entreprise 2015 vers Exchange 2019 et Skype Entreprise 2019
 
@@ -81,7 +81,7 @@ Avant de commencer la migration vers Skype Entreprise Server 2019 et Exchange 20
 Voici les étapes de haut niveau pour effectuer cette migration.
 
 1. Installez et configurez Skype Entreprise Server 2019 sur un nouveau serveur.
-2. Mettez à jour votre configuration de déploiement hybride pour inclure le nouveau Skype Entreprise 2019.
+2. Mettez à jour votre configuration de déploiement hybride pour inclure le nouveau serveur Skype Entreprise 2019.
 3. Installez et configurez Exchange Server 2019 sur un nouveau serveur.
 4. Déplacez les utilisateurs Skype Entreprise serveur 2015 vers votre serveur Skype Entreprise 2019.
 5. Définissez la stratégie de messagerie vocale hébergée pour chaque utilisateur déplacé vers Skype Entreprise Server 2019 pour utiliser Messagerie vocale infonuagique.
@@ -96,7 +96,7 @@ Voici les étapes de haut niveau pour effectuer cette migration.
 
 Dans ce scénario, vous souhaitez migrer votre serveur Skype Entreprise 2015 existant vers Skype Entreprise Server 2019, mais rester sur Exchange 2013 ou Exchange 2016.
 
-Lorsque Skype Entreprise Server 2015 et Skype Entreprise Server 2019 coexistent dans la même organisation, ils fonctionnent en toute transparence avec la messagerie un Exchange et les Messagerie vocale infonuagique pour s’assurer que la messagerie vocale est correctement remis aux boîtes aux lettres Exchange. Le Exchange messagerie un Messagerie vocale infonuagique messagerie un Messagerie vocale infonuagique la messagerie vocale varie selon que l’utilisateur se trouve sur Skype Entreprise Server 2015 ou Skype Entreprise Server 2019 :
+Lorsque Skype Entreprise Server 2015 et Skype Entreprise Server 2019 coexistent dans la même organisation, ils fonctionnent en toute transparence avec la messagerie un Exchange et les Messagerie vocale infonuagique pour s’assurer que la messagerie vocale est correctement remis aux boîtes aux lettres Exchange. La Exchange messagerie un Messagerie vocale infonuagique ou la messagerie Messagerie vocale infonuagique la messagerie vocale varie selon que l’utilisateur se trouve sur Skype Entreprise Server 2015 ou Skype Entreprise Server 2019 :
 
 - Si un utilisateur se trouve sur Skype Entreprise Server 2015, Exchange messagerie un Exchange traitera le message vocal.
 - Si un utilisateur se trouve sur Skype Entreprise Server 2019, Messagerie vocale infonuagique traitera le message vocal.
@@ -111,7 +111,7 @@ Avant de commencer la migration vers Skype Entreprise Server 2019, gardez à l�
 Voici les étapes de haut niveau pour effectuer cette migration.
 
 1. Installez et configurez Skype Entreprise Server 2019 sur un nouveau serveur.
-2. Mettez à jour votre configuration de déploiement hybride pour inclure le nouveau Skype Entreprise 2019.
+2. Mettez à jour votre configuration de déploiement hybride pour inclure le nouveau serveur Skype Entreprise 2019.
 3. Déplacez les utilisateurs Skype Entreprise serveur 2015 vers votre serveur Skype Entreprise 2019.
 4. Définissez la stratégie de messagerie vocale hébergée pour chaque utilisateur déplacé vers Skype Entreprise Server 2019 pour utiliser Messagerie vocale infonuagique.
 5. Désaffectez vos Skype Entreprise 2015 une fois que le dernier utilisateur a été déplacé hors de ces serveurs.

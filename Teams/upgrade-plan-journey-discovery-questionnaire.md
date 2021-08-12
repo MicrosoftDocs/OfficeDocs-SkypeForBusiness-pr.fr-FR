@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d1349cf32e652cc308bb85c187db90303aa959
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 32687604a0ad531ab06b67401d27001ab9559eb95f77fabaaea5ef57dc9e2b9a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332336"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>Questionnaire de découverte - Évaluer votre environnement
 
@@ -95,7 +95,7 @@ Le cas échéant, capturez les détails de votre déploiement Skype Entreprise O
 
 > | Question | Réponse | Commentaires |
 > |---|---|---|
-> | Types d’utilisateurs activés pour l’Skype <br>entreprise Online ? | <input type="checkbox"> Tous les utilisateurs de l’organisation <br/> <input type="checkbox"> Utilisateurs/groupes d’utilisateurs spécifiques <br>&nbsp;&nbsp; &nbsp; (Spécifier dans la colonne Commentaires) | |
+> | Types d’utilisateurs activés pour l’Skype <br>Pour Les Entreprises Online ? | <input type="checkbox"> Tous les utilisateurs de l’organisation <br/> <input type="checkbox"> Utilisateurs/groupes d’utilisateurs spécifiques <br>&nbsp;&nbsp; &nbsp; (Spécifier dans la colonne Commentaires) | |
 > | Fonctionnalités et caractéristiques actuellement <br>en cours d’utilisation aujourd’hui ? | <input type="checkbox"> Messagerie instantanée et présence (MI/P)<br/> <input type="checkbox"> Réunions <br/> <input type="checkbox"> Fédération <br/> <input type="checkbox"> Enregistrement de la réunion <br/> <input type="checkbox"> Audioconférence Microsoft <br/> <input type="checkbox"> Audioconférence tierce <br>&nbsp;&nbsp; &nbsp; (Notez les détails dans la colonne Commentaires.) <br/> <input type="checkbox"> Forfaits d’appels (anciennement PSTN Calling) <br/> <input type="checkbox"> Attendant automatiques de l’organisation <br/> <input type="checkbox"> Files d’attente d’appels | |
 > | Avez-vous spécifiquement bloqué des Skype pour <br>Fonctionnalités de Business Online ? <br>Si c’est le cas, notez les détails de la colonne Commentaires. | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non | |
 > | Quelle méthode utilisez-vous ou prévoyez-vous d’utiliser pour <br>se Système téléphonique (anciennement CLOUD PBX) à <br>le PSTN ? <br/>Sélectionnez toutes les sélections applicables. | <input type="checkbox"> Forfaits d’appels (anciennement PSTN Calling) <br/> <input type="checkbox"> Connectivité PSTN sur site (en tirant parti d’une connexion existante) <br>&nbsp;&nbsp; &nbsp; Skype Entreprise 2015 ou Lync Server 2013 <br>&nbsp;&nbsp; &nbsp; déploiement) <br/> <input type="checkbox"> Connectivité PSTN sur site (à l’aide de Cloud Connector) | |
@@ -127,7 +127,7 @@ Utilisez le tableau suivant pour capturer les détails réseau de votre organisa
 > | ExpressRoute est-il utilisé actuellement ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non <br/> <input type="checkbox"> Non, mais il est planifié | |
 > | Avez-vous effectué une évaluation de la disponibilité du réseau ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non | |
 > | Les utilisateurs doivent-ils utiliser un réseau privé virtuel (VPN) lors de la connexion à <br>ressources de l’entreprise à distance ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non | |
-> | En cas d’utilisation d’un réseau privé virtuel (VPN), Teams en exclure le trafic <br>le VPN pour accéder directement Microsoft 365 aux services Office 365 privés ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non | |
+> | En cas d’utilisation d’un réseau privé virtuel (VPN), Teams en exclure le trafic <br>le VPN pour accéder directement Microsoft 365 aux Services Office 365 privés ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non | |
 > | Votre réseau prend-il en charge QoS ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non | |
 > | Pouvez-vous hiérarchiser Teams trafic audio et vidéo ? <br>pour une expérience de haute qualité ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non | |
 > | Faire en sorte que tous les emplacements au sein d’une région ont une sortie Internet, <br>ou la sortie Internet est-elle centralisée pour la région entière ? | <input type="checkbox"> Accès régional à Internet <br/> <input type="checkbox"> Accès centralisé à Internet | |

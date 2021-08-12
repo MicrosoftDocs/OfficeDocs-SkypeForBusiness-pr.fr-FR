@@ -1,5 +1,5 @@
 ---
-title: Modifier les paramètres de configuration de la trunk SIP dans Skype Entreprise Server
+title: Skype Entreprise ServerModify siP trunk configuration settings
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
-ms.openlocfilehash: e426f2d9980f49a5203bec2cb47555f94f7551f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Les paramètres de configuration de la liaison siP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle du réseau téléphonique commuté, un pbX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services. '
+ms.openlocfilehash: 7f6a0d0bd39ff466b279bbef3b5727e1d3ea17e3285e71f646b26ff2689fa760
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849919"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration de la trunk SIP dans Skype Entreprise Server
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype Entreprise ServerModify siP trunk configuration settings
 
 Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. Ces paramètres permettent de spécifier ce qui suit :
 
@@ -26,9 +26,9 @@ Les paramètres de configuration de jonction SIP définissent la relation et les
 - Les conditions d’envoi des paquets RTCP (Real-time Transport Control Protocol).
 - L’application ou non du chiffrement SRTP (Secure Real-Time Protocol) sur chaque jonction.
 
-Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). Ces collections peuvent être modifiées ultérieurement à l’aide du Panneau de Windows PowerShell Skype Entreprise Server.
+Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). L’une de ces collections peut ultérieurement être modifiée à l’aide du Panneau de Skype Entreprise Server ou de Windows PowerShell.
 
-Lorsque vous modifiez les paramètres de configuration d’une trunk SIP à l’aide du Panneau de configuration de Skype Entreprise Server Server, les options suivantes sont disponibles :
+Lorsque vous modifiez les paramètres de configuration de la Skype Entreprise Server sip à l’aide du Panneau de configuration du serveur, les options suivantes sont disponibles :
 
 |Paramètre de l’interface utilisateur |Paramètre PowerShell |Description |
 |--|--|--|
@@ -53,13 +53,13 @@ Lorsque vous modifiez les paramètres de configuration d’une trunk SIP à l’
 |||
 
 > [!Note]
-> Les cmdlets CsTrunkConfiguration de Skype Entreprise Server prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans le Panneau de configuration de Skype Entreprise Server. Pour plus d’informations, voir la rubrique d’aide pour [l';set-CsTrunkConfiguration.)](/powershell/module/skype/Set-CsTrunkConfiguration) 
+> Les Skype Entreprise Server cmdlets CsTrunkConfiguration peuvent prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans Skype Entreprise Server panneau de configuration. Pour plus d’informations, voir la rubrique d’aide pour [l';set-CsTrunkConfiguration.)](/powershell/module/skype/Set-CsTrunkConfiguration) 
 
-**Pour modifier les paramètres de configuration des trunks SIP à l’aide du Panneau de configuration de Skype Entreprise Server**
+**Pour modifier les paramètres de configuration de la trunk SIP à l’aide du Skype Entreprise Server de configuration**
 
-1. Dans le Panneau de configuration de Skype Entreprise Server, cliquez sur **Routage** des voix, puis sur **Configuration de la configuration de la configuration des branches.**
+1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
 2. Sous l’onglet **Configuration de la jonction**, double-cliquez sur les paramètres de configuration de la jonction à modifier. Notez que vous ne pouvez modifier qu’une collection de paramètres à la fois. Si vous voulez apporter les mêmes modifications à plusieurs collections, utilisez Windows PowerShell à la place.
 3. Dans la **boîte de dialogue Modifier la configuration** de la trunk, faites les sélections appropriées, puis cliquez sur **OK**.
 4. La propriété État de la collection est mise à jour et présente la valeur Non validé. Pour valider les modifications et supprimer la collection, cliquez sur **Valider,** puis sur **Valider tout.**
 5. Dans la **boîte de dialogue Paramètre de configuration** de la voix noncommand, cliquez sur **OK.**
-6. Dans la boîte de dialogue Panneau de contrôle Skype **Entreprise Server,** cliquez sur **OK.**
+6. Dans la **boîte Skype Entreprise Server panneau de bord,** cliquez sur **OK.**

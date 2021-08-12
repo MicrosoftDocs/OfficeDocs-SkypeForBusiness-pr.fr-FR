@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
-description: Pour déléguer l’administration de Skype Entreprise Server, vous pouvez ajouter des autorisations aux unités d’organisation spécifiées afin que les membres des groupes universels RTC créés par la préparation de la forêt peuvent accéder aux unités d’organisation sans être membres du groupe Administrateurs du domaine.
-ms.openlocfilehash: 09a6d6baf554b18db0a388619ffb74c85c6963fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Pour déléguer l’administration Skype Entreprise Server, vous pouvez ajouter des autorisations aux unités d’organisation spécifiées afin que les membres des groupes universels RTC créés par la préparation de la forêt peuvent accéder aux unités d’organisation sans être membres du groupe Administrateurs du domaine.
+ms.openlocfilehash: fc537ed927e5eb430b4c379218b4400b6ab12761a272f37bba68a281481c9531
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349716"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Modifications apportées par Grant-CsOUPermission dans Skype Entreprise Server
  
-Pour déléguer l’administration de Skype Entreprise Server, vous pouvez ajouter des autorisations aux unités d’organisation spécifiées afin que les membres des groupes universels RTC créés par la préparation de la forêt peuvent accéder aux unités d’organisation sans être membres du groupe Administrateurs du domaine. 
+Pour déléguer l’administration Skype Entreprise Server, vous pouvez ajouter des autorisations aux unités d’organisation spécifiées afin que les membres des groupes universels RTC créés par la préparation de la forêt peuvent accéder aux unités d’organisation sans être membres du groupe Administrateurs du domaine. 
   
 La cmdlet **Grant-CsOuPermission** des autorisations à des objets dans des unités d’organisation définies, comme indiqué dans les tableaux suivants.
   

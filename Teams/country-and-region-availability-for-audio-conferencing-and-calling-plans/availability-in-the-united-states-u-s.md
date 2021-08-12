@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 services Skype Entreprise et Microsoft Teams disponibles pour les États-Unis.
-ms.openlocfilehash: b3503c3a8c5421c7a2059019d3798bf23823960d
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les États-Unis.
+ms.openlocfilehash: ecfb6d3ccf33c45a7fb5a34baf2745ef48e291f45159822ed19051a32d17b02f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296911"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 services Skype Entreprise et Microsoft Teams disponibles pour les États-Unis. Pour [plus d’informations, consultez](../calling-plans-for-office-365.md) comment acheter une offre d’appels.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les États-Unis. Pour [plus d’informations, consultez](../calling-plans-for-office-365.md) comment acheter une offre d’appels.
 
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -87,7 +87,7 @@ Voici les services Microsoft 365 et Office 365 services Skype Entreprise et Micr
 
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

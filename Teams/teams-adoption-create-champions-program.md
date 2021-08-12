@@ -21,12 +21,12 @@ f1.keywords:
 description: Découvrez comment former une équipe de champions pour promouvoir l’adoption Teams’adoption en faisant de la sensibilisation, de l’adoption et de l’éducation dans votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a81e143d0b8d9d026c2e24a0469bc6d241d840f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a29e99a85e0759ca67cb94bd690dac3e690b07fd1269b33aa76e4ca315207d0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825304"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296621"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme d’ambassadeurs de Microsoft Teams
 
@@ -45,7 +45,7 @@ Champions doit :
 
 Utilisez notre [Guide du programme Champions pour](https://go.microsoft.com/fwlink/?linkid=854665) créer ce programme dans votre organisation. Nos meilleures pratiques pour cette communauté sont les autres :
 
-- Participez [au programme Champions.](https://aka.ms/O365Champions) Assurez-vous qu’au minimum les chefs d’équipe du programme Champions (et éventuellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel vous fournira des informations précieuses pour gérer votre propre programme et obtenir le meilleur Teams et d’Microsoft 365 services Office 365'entreprise. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
+- Participez [au programme Champions.](https://aka.ms/O365Champions) Assurez-vous qu’au minimum les chefs d’équipe du programme Champions (et éventuellement tous les champions de l’entreprise) sont membres du programme. Cet appel communautaire gratuit et mensuel vous fournira des informations utiles pour gérer votre propre programme et obtenir le meilleur Teams et d’Microsoft 365 services Office 365'entreprise. Les documents du programme peuvent être réutilisés dans votre propre programme interne.
 
 - Utilisez l’équipe Team Teamwork Champion : Vos champions doivent utiliser l’équipe que vous avez configurée pour toutes les communications, commentaires et ressources du programme.  Ce faisant, ils se familiariserront de plus en plus avec le produit et ses avantages.
 

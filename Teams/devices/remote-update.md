@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Mettez à jour Microsoft Teams téléphones portables, Teams panneaux et barres de collaboration à distance à l’aide du Centre Teams d’administration
-ms.openlocfilehash: 67b76d8330de5a801625a22c25cd1f9637048d05
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 8ff925756e91c72c42d1557a1c735e5323691272a82405d5e4047ab4ff9828b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322686"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Mettre à jour Microsoft Teams appareils à distance
 
@@ -78,4 +78,4 @@ Lorsque vous sélectionnez plusieurs appareils, vous pouvez choisir les types de
 
 Lorsque vous sélectionnez un seul appareil, les mises à jour disponibles pour l’appareil sont affichées. Si plusieurs types de mises à jour sont disponibles pour l’appareil, sélectionnez chaque type de mise à jour à appliquer. Vous pouvez afficher **la version actuelle appliquée** sur l’appareil et la nouvelle **version** qui sera appliquée. Sélectionnez la ou les mises à jour que vous voulez appliquer, puis sélectionnez **Mettre à jour.**
 
-Après avoir sélectionné **Mettre à** jour, les mises à jour sont appliquées à vos appareils à la date et à l’heure que vous avez sélectionnées si vous avez prévu une mise à jour. Si vous n’avez pas sélectionné de date et d’heure futures, les mises à jour sont appliquées à vos appareils en quelques minutes.
+Après avoir sélectionné **Mettre à** jour, les mises à jour sont appliquées à vos appareils à la date et l’heure que vous avez sélectionnées si vous avez prévu une mise à jour. Si vous n’avez pas sélectionné de date et d’heure futures, les mises à jour sont appliquées à vos appareils en quelques minutes.

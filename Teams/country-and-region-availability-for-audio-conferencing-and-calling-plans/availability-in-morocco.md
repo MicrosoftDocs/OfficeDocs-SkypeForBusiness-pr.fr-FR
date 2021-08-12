@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 la france pour Skype Entreprise et Microsoft Teams disponibles au Maroc.
-ms.openlocfilehash: ee6cea4fa3d5995fe99086667f8e5d6e83878dab
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 70fb0596e9ba9c8d78fffb659dba58c996977382b587c18869fddd746b4fd539
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102430"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296901"
 ---
 # <a name="availability-in-morocco"></a>Disponibilité au Maroc
 
@@ -82,7 +82,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

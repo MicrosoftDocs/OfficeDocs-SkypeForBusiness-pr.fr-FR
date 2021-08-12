@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64d790e775ac0d76de48a71de8d165656f2e6927
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bea2f250e91b8a02cefea70db0b80fcd8cc35cce6ecb079c6417c0a6c31bc55c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322756"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
 
@@ -32,9 +32,9 @@ Une fois que vous avez choisi votre ou vos partenaires [Cloud Video Interop,](cl
 
 ## <a name="plan"></a>Plan
 
-Pour [plus d’informations sur l’Microsoft Teams](cloud-video-interop.md) d’identification d’un partenaire ou partenaire à utiliser dans votre organisation, voir Cloud Video Interop. 
+Pour [plus d’informations sur l’Microsoft Teams](cloud-video-interop.md) d’un partenaire ou d’un partenaire à utiliser dans votre organisation, voir Cloud Video Interop. 
 
-Pour planifier l’enablement à l’échelle de l’utilisateur, des concurrents/des sites : 
+Pour planifier l’enablement à l’échelle de l’utilisateur, du concurrent/du site : 
 
 - Sélectionner un modèle de déploiement/hébergé pour votre utilisation
 - Sélectionnez le plan de licences idéal pour votre organisation. 
@@ -46,7 +46,7 @@ Pour configurer Cloud Video Interop, suivez ces étapes.
 
 1. Obtenez des informations de configuration auprès du partenaire/partenaire que vous avez choisi (clé client, appIds, etc.). Vous pouvez utiliser un ou plusieurs partenaires d’interop vidéo dans votre organisation 
 
-2. Assurez-vous que votre réseau est correctement configuré. Configurez votre pare-feu vidéo basé sur les normes pour le travers de réseau de périmètre à prendre en charge. Par exemple : 
+2. Assurez-vous que votre réseau est correctement configuré. Configurez votre pare-feu vidéo basé sur les normes pour le travers de réseau de périmètre à prendre en charge. Par exemple : 
     - Cisco VCS-e                  
     - Polycom RPAD
 
@@ -80,7 +80,7 @@ Vous devrez exécuter les cmdlets suivantes pour mettre en service la clé clien
 
 Vous devrez fournir l’autorisation d’autoriser les périphériques de téléconférence vidéo (VCS) à rejoindre les réunions de votre organisation via le service partenaire. Ce lien d’accord sera également fourni par votre partenaire.  
  
-Une fois ces étapes terminées, les utilisateurs activés individuellement via l’cmdlet Grant ci-dessus, ou tous les utilisateurs de l’organisation si le client est activé, auront des coordonnées VTC dans toutes les réunions Teams qu’ils ont prévues. N’importe quel VTC peut participer à ces réunions via ces coordonnées.
+Une fois ces étapes terminées, les utilisateurs qui sont activés individuellement via l’cmdlet Grant ci-dessus, ou tous les utilisateurs de l’organisation si le client est activé, auront des coordonnées VTC dans toutes les réunions Teams qu’ils ont prévues. N’importe quel VTC peut participer à ces réunions via ces coordonnées.
 
 
 |Nom|Courte description des autorisations d’application| Description|

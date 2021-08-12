@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type d’audioconférence et d’appels PSTN d’utilisateur final qui peuvent être effectués par les utilisateurs.
-ms.openlocfilehash: 86622b493fbb8d31f98f600acb7158afc82e15e5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: bbe2641cfd642e4ffd0cf6af901df059190740bf60ddbb8dfc5d82ba58c98380
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526727"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332546"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
 

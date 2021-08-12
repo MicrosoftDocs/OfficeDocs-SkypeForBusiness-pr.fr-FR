@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenez les instructions nécessaires pour le port de vos numéros de téléphone vers Microsoft Teams.
-ms.openlocfilehash: bb63e22b7cc3aa787ddb984f82180937c5aaf9fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296711"
 ---
 # <a name="more-information-about-porting"></a>Informations supplémentaires sur le portage
 
@@ -52,7 +52,7 @@ Lorsque vous vous trouverez sur la **page** Ajouter des informations de compte d
 - Nom de la personne autorisée à apporter des modifications au compte
     
     > [!NOTE]
-    > Ce dernier n’accepte que 15 caractères, espaces inclus. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
+    > Ce qui n’accepte que 15 caractères, espaces inclus. Si le nom de la personne autorisant contient plus de 15 caractères, les 15 premiers caractères sont envoyés et la demande de transfert est traitée malgré tout. 
   
 - Adresse du service
   
@@ -110,10 +110,10 @@ Lorsque vous soumettez une demande de port, vous devez utiliser un fichier CSV c
 
 Quel [est le statut de vos demande de port ?](port-order-status.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gérer des numéros de téléphone pour votre entreprise](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
-- [Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

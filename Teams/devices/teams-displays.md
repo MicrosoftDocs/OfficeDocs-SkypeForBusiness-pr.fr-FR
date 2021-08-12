@@ -16,16 +16,16 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Cet article fournit une vue d’ensemble des fonctionnalités qui sont Microsoft Teams aux affichages.
-ms.openlocfilehash: 8b91667265531833920e31a5ab99fca307d151d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a812aad7b26758ce41052672b20e5031da0729e7d1b1b802513ed2b311353b30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322676"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams s’affiche
 
-Microsoft Teams présentations sont une catégorie d’appareils Teams connectés tout-en-un qui offrent un écran tactile connecté et une expérience mains libres optimisée par Cortana. Cet article donne une vue d’Teams présentation des affichages et peut vous aider à planifier, livrer et gérer Teams présentations dans votre organisation.
+Microsoft Teams’affichage sont une catégorie d’appareils Teams dédiés tout-en-un qui offrent un écran tactile connecté et une expérience mains libres optimisée par Cortana. Cet article donne une vue d’Teams présentation des affichages et peut vous aider à planifier, livrer et gérer Teams présentations dans votre organisation.
 
 Teams permet de réunir vos fonctionnalités Teams fonctionnalités de conversation, de réunions, d’appels, de calendrier et de fichiers &ndash; &ndash; dans un seul appareil. Grâce Teams affichages, les utilisateurs peuvent utiliser un microphone, une caméra et des haut-parleurs (ou un casque Bluetooth) pour appeler et utiliser une expérience de réunion fiable. Teams s’intègre aux pc Windows des utilisateurs pour apporter une expérience compagne qui permet une interaction transparente entre les appareils.
 
@@ -70,4 +70,4 @@ Teams’affiche est l’évolution des Teams téléphones. Vous pouvez mettre à
 
 [Mise à niveau de téléphones IP vers Teams’affichages](upgrade-phones-to-displays.md)
 
-[Assistance vocale Cortana dans Teams](../cortana-in-teams.md)
+[Cortana’assistance vocale dans Teams](../cortana-in-teams.md)

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Découvrez comment charger des données de client et de bâtiment dans le tableau de bord de qualité des appels.
-ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: be51f4ec7eb19f56a07413749abf5455856754ed0984d00cd27ed72d9aaa8316
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067139"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322806"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Télécharger du client et du bâtiment dans le tableau de bord de qualité des appels
 
@@ -138,7 +138,7 @@ Voici quelques éléments à prendre en compte avant d’implémenter la superne
 -   Il est assez courant de trouver la valeur 192.168.0.0 dans les données. Pour de nombreuses organisations, cela indique que l’utilisateur est à la maison. Pour d’autres, il s’agit du modèle d’adresses IP d’un bureau satellitaire. Si votre organisation a des bureaux qui utilisent cette configuration, ne l’incluez pas dans votre fichier de construction, car il est difficile de faire la distinction entre les réseaux internes et d’accueil à l’aide de [sous-réseaux communs.](quality-of-experience-review-guide.md#common-subnets) 
 
 > [!IMPORTANT]
-> La plage réseau peut être utilisée pour représenter un supernet. Tous les téléchargements de fichiers de données du nouveau bâtiment seront vérifiés pour toutes les plages superposées. Si vous avez déjà téléchargé un fichier de bâtiment, vous devez télécharger le fichier actuel et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème. Tout chevauchement dans les fichiers précédemment chargés peut entraîner le mappage erroné des sous-réseaux vers les bâtiments dans les rapports.
+> La plage réseau peut être utilisée pour représenter un supernet. Tous les téléchargements de fichiers de données du nouveau bâtiment seront vérifiés pour toutes les plages superposées. Si vous avez déjà téléchargé un fichier de bâtiment, vous devez télécharger le fichier actuel et le télécharger à nouveau pour identifier les chevauchements et résoudre le problème. Tout chevauchement dans des fichiers précédemment chargés peut entraîner le mappage erroné des sous-réseaux vers les bâtiments dans les rapports.
 
 ### <a name="vpn"></a>VPN
 
@@ -173,7 +173,7 @@ L’autre type de fichier de données client du point de terminaison est celui d
 
 - Il doit y avoir sept colonnes pour chaque ligne et les colonnes doivent être dans l’ordre suivant :
 
-  **Ordre de champ :**
+  **Ordre des champs :**
 
   EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
@@ -224,7 +224,7 @@ Une fois les informations de bâtiment téléchargées pour les réseaux gérés
 > N’oubliez pas d’ajuster le filtre du rapport Month Year au mois en cours. Sélectionnez Modifier, puis ajustez le **filtre du rapport Month Year** pour enregistrer le nouveau mois par défaut. 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Créer une carte de bâtiment pour le CQD](CQD-building-mapping.md)
 

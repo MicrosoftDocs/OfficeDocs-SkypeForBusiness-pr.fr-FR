@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment utiliser les contrôles PowerShell pour gérer les Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a1e969a1310a64a281434a630f4fb608b8cfb30
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312452"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>Installer Microsoft Teams module PowerShell
 
@@ -47,7 +47,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-Répondez **Oui** ou **Oui à Tous pour** poursuivre l’installation.
+Répondez **Oui** **ou Oui à Tous pour** poursuivre l’installation.
 
 ## <a name="installing-using-the-powershellgallery"></a>Installation à l’aide de PowerShellGallery
 
@@ -103,9 +103,9 @@ Uninstall-Module MicrosoftTeams -Allversions
 
 ## <a name="next-steps"></a>Étapes suivantes 
 
-Vous êtes maintenant prêt à gérer votre travail Microsoft Teams’Microsoft Teams PowerShell. Consultez [Gérer Teams avec Teams PowerShell](teams-powershell-managing-teams.md) pour commencer. 
+Vous êtes maintenant prêt à gérer votre travail Microsoft Teams’Microsoft Teams PowerShell. Consultez [Gérer Teams avec Teams PowerShell pour](teams-powershell-managing-teams.md) commencer. 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gestion des Teams à l’Teams PowerShell](teams-powershell-managing-teams.md)
 

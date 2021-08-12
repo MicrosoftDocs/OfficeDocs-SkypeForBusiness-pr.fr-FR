@@ -11,29 +11,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Processus de vérification de la coexistence du pool pilote avec le pool hérité.
-ms.openlocfilehash: e9fe944c03c88aad2ca2b40f0e995842363e7a85
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: f9a3fa8a9716d880b8fa2381fd5cafe88509504c2c142ebd5da5c5ab43667cf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751656"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341120"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Vérification de la coexistence du pool pilote avec le pool hérité
 
  **Contenu de cet article :**
   
-[Vérifier que les services Skype Entreprise Server 2019 ont démarré](#sectionSection0)
+[Vérifier que Skype Entreprise Server services 2019 ont démarré](#sectionSection0)
   
-[Ouvrir le Panneau de commande Skype Entreprise Server 2019](#sectionSection1)
+[Ouvrir le Panneau de Skype Entreprise Server 2019](#sectionSection1)
   
 [N’essayez pas d’ouvrir la topologie dans le Générateur de topologie hérité](#sectionSection2)
   
-Après avoir déployé le premier pool, vous devez vérifier la coexistence des deux pools à l’aide des outils d’administration pour afficher les informations des pools. Pour les pools Skype Entreprise Server 2019 et les pools hérités, vous devez utiliser le Panneau de contrôle skype entreprise Server 2019 et les outils de générateur de topologie. 
+Après avoir déployé le premier pool, vous devez vérifier la coexistence des deux pools à l’aide des outils d’administration pour afficher les informations des pools. Pour les pools Skype Entreprise Server 2019 et les pools hérités, vous devez utiliser le Panneau de Skype Entreprise Server 2019 et les outils du Générateur de topologies. 
   
-## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Vérifier que les services Skype Entreprise Server 2019 ont démarré
+## <a name="verify-that-skype-for-business-server-2019-services-have-started"></a>Vérifier que Skype Entreprise Server services 2019 ont démarré
 <a name="sectionSection0"> </a>
 
-1. À partir du serveur frontal Skype Entreprise Server 2019, accédez à l’applet Outils d’administration\Services.
+1. À partir Skype Entreprise Server serveur frontal 2019, accédez à l’applet Outils d’administration\Services.
     
 2. Vérifiez que les services suivants sont exécutés sur le serveur frontal :
 
@@ -43,7 +43,7 @@ Après avoir déployé le premier pool, vous devez vérifier la coexistence des 
     - Conférence audio/vidéo
     - Parcage d’appel
     - Annonce de conférence
-    - Attendant de conférence
+    - Assistant de conférence
     - Serveur frontal
     - Conférence de messagerie instantanée
     - Médiation
@@ -53,21 +53,21 @@ Après avoir déployé le premier pool, vous devez vérifier la coexistence des 
     - Passerelle de traduction XMPP
 
   
-## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Ouvrir le Panneau de commande Skype Entreprise Server 2019
+## <a name="open-the-skype-for-business-server-2019-control-panel"></a>Ouvrir le Panneau de Skype Entreprise Server 2019
 <a name="sectionSection1"> </a>
 
-À partir du serveur frontal de votre déploiement Skype Entreprise Server 2019, ouvrez le Panneau de contrôle Skype Entreprise Server 2019 et sélectionnez le pool hérité. Répétez la procédure pour ouvrir le pool Skype Entreprise Server 2019.
+À partir du serveur frontal de votre déploiement Skype Entreprise Server 2019, ouvrez le Panneau de Skype Entreprise Server 2019 et sélectionnez le pool hérité. Répétez la procédure pour ouvrir Skype Entreprise Server pool 2019.
   
 > [!IMPORTANT]
-> Sur Skype Entreprise Server 2019, vous devez mettre à niveau Silverlight vers Silverlight version 5 avant d’utiliser le Panneau de contrôle Skype Entreprise Server. 
+> Sur Skype Entreprise Server 2019, vous devez mettre à niveau Silverlight vers Silverlight version 5 avant d’utiliser Skype Entreprise Server panneau de Skype Entreprise Server. 
   
-Cette topologie inclut désormais les rôles serveur hérités et Skype Entreprise Server 2019. 
+Cette topologie inclut désormais les rôles serveur hérités Skype Entreprise Server 2019. 
 
   
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>N’essayez pas d’ouvrir la topologie dans le Générateur de topologie hérité
 <a name="sectionSection2"> </a>
 
-La topologie peut uniquement être vue à l’aide du Générateur de topologies Skype Entreprise Server 2019. Le Générateur de topologie Skype Entreprise Server 2019 doit être utilisé pour créer des pools pour Skype Entreprise Server 2019 et l’installation héritée.
+La topologie peut uniquement être vue à l’aide Skype Entreprise Server générateur de topologie 2019. Le Skype Entreprise Server de topologie 2019 doit être utilisé pour créer des pools pour Skype Entreprise Server 2019 et l’installation héritée.
 
   
 

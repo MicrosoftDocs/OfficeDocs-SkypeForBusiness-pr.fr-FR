@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: La nouvelle Skype Entreprise rapports du Centre d’administration affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Par exemple, vous pouvez utiliser le rapport Skype Entreprise des groupes de minutes PSTN pour consulter le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
-ms.openlocfilehash: d82f360c48b6e7478ef552826ee80ecaf508db0f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850249"
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
@@ -40,7 +40,7 @@ Consultez la vue [d’ensemble des](https://support.office.com/article/0d6dfb17-
 Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des détails sur les activités au sein de votre organisation. Ces informations détaillées sont très utiles pour examiner, planifier et prendre des décisions pour votre entreprise, ainsi que pour définir les [crédits de communication](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Microsoft 365 d’administration. 
+> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Comment obtenir le rapport de Skype Entreprise de minutes PSTN
 
@@ -56,8 +56,6 @@ Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des 
 Vous pouvez obtenir un affichage des pools de Skype Entreprise minutes de l’utilisateur en regardant chacune des colonnes affichées.
   
 Voici une illustration du rapport.
-  
-## 
 
 ![Skype Entreprise Rapport sur les pools de minutes PSTN](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
@@ -95,7 +93,7 @@ Voici une illustration du rapport.
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

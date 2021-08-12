@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lisez cette rubrique pour plus d’informations sur le déploiement d Salles Microsoft Teams dans un environnement hybride avec des Exchange en local.
-ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117352"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296651"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déployer Salles Microsoft Teams avec Exchange local
 
@@ -69,7 +69,7 @@ Si vous déployez Salles Microsoft Teams avec Exchange en local, vous utiliserez
     > [!NOTE]
     > La sélection **du mot de passe n’expire** jamais est une obligation pour Skype Entreprise Server sur Salles Microsoft Teams. Il est possible que des règles de votre domaine interdisent la non-expiration des mots de passe. Si c’est le cas, vous devez créer une exception pour Salles Microsoft Teams compte d’appareil.
   
-4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’étape terminée, dans la page utilisateurs de votre centre d’administration Microsoft 365, vérifiez que le compte créé lors des étapes précédentes a été fusionné en ligne.
+4. Une fois le compte créé, exécutez une synchronisation de répertoire. Une fois l’étape terminée, allez dans la page utilisateurs de votre Centre d’administration Microsoft 365 et vérifiez que le compte créé lors des étapes précédentes a été fusionné sur le web.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Activation de la boîte aux lettres distante et définition des propriétés
 
@@ -142,7 +142,7 @@ Skype Entreprise PowerShell en ligne est utilisé pour gérer les services pour 
 
 1. Créez une session Windows PowerShell distance à partir d’un PC comme suit :
 > [!NOTE]
-> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
 >
 > Si vous utilisez la dernière version [Teams public PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
@@ -185,7 +185,7 @@ Skype Entreprise PowerShell en ligne est utilisé pour gérer les services pour 
 
 ### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Attribuer une licence à votre Salles Microsoft Teams compte
 
-1. Connectez-vous en tant qu’administrateur client, ouvrez Microsoft 365 centre d’administration, puis cliquez sur l’application Administrateur.
+1. Connectez-vous en tant qu’administrateur client, ouvrez le Centre d’administration Microsoft 365, puis cliquez sur l’application Administrateur.
 2. Cliquez sur **Utilisateurs et groupes**, puis sur **Ajoutez des utilisateurs, réinitialisez les mots de passe, et plus encore**.
 3. Cliquez sur Salles Microsoft Teams compte, puis sur l’icône de stylet pour modifier les informations du compte.
 4. Cliquez sur **Licences**.
@@ -194,7 +194,7 @@ Skype Entreprise PowerShell en ligne est utilisé pour gérer les services pour 
 
 Pour validation, vous pouvez utiliser n’importe quel client pour vous connecter à ce compte.
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Configurer Microsoft Teams dans votre petite entreprise
+title: Configurer Microsoft Teams dans votre petite entreprise
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -18,28 +18,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2fd7865823cffdfd2f2b2932a78744786c59cfd0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 92bd4ef4d53cbae8902719da3ce55a5b88a270c4b18d43bfe75ab89578fe204a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322696"
 ---
-# <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurer Microsoft Teams dans votre petite entreprise
+# <a name="set-up-microsoft-teams-in-your-small-business"></a>Configurer Microsoft Teams dans votre petite entreprise
 
-Il existe de nombreuses façons de personnaliser Teams. Les sections suivantes vous montrent comment configurer chaque charge de travail Teams : **conversations, équipes et canaux** ; **réunions et conférences** ; et **voix cloud**. Vous devez définir l’ordre de configuration de chaque charge de travail. Nous vous recommandons de commencer par définir d’abord les conversations, les équipes et les canaux de charge de travail. Cependant, vous pouvez commencer par des réunions et des conférences, voire la voix cloud. Le choix vous appartient.
+Il existe de nombreuses façons de personnaliser Teams. Les sections suivantes vous montrent comment configurer chaque charge de travail Teams : **conversations, équipes et canaux** ; **réunions et conférences** ; et **voix cloud**. Vous devez définir l’ordre de configuration de chaque charge de travail. Nous vous recommandons de commencer par définir d’abord les conversations, les équipes et les canaux de charge de travail. Cependant, vous pouvez commencer par des réunions et des conférences, voire la voix cloud. Le choix vous appartient.
 
 > [!NOTE]
-> Si vous ne l’avez pas déjà fait, nous vous recommandons vivement de commencer votre déploiement Teams par un pilote. Un pilote vous permettra, ainsi qu'à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement éventuel. Si vous souhaitez en savoir plus sur le démarrage de votre pilote, veuillez consulter la page [Prise en main de Microsoft Teams](get-started-with-teams-quick-start.md).
+> Si vous ne l’avez pas déjà fait, nous vous recommandons vivement de commencer votre déploiement Teams par un pilote. Un pilote vous permettra, ainsi qu'à quelques utilisateurs précoces, de vous familiariser avec Teams et ses fonctionnalités avant votre planification et votre déploiement éventuel. Si vous souhaitez en savoir plus sur le démarrage de votre pilote, veuillez consulter la page [Prise en main de Microsoft Teams](get-started-with-teams-quick-start.md).
 
 Avant de déployer Teams à grande échelle, pour vérifier que votre organisation est prête, veuillez consulter la section [Vérifiez que vous êtes prêt](get-started-with-teams-quick-start.md#make-sure-youre-ready).
 
-Passez à la section qui vous intéresse :
+Passez à la section qui vous intéresse :
 
 - [Charges de travail](#workloads)
   - [Conversation, équipes et canaux](#chat-teams-and-channels)
   - [Réunions et conférences](#meetings-and-conferencing)
-  - [Business Voice](#business-voice)
+  - [Business Voice](#business-voice)
 - [Déploiement des clients](#deploy-clients)
 - [Formation](#training)
 
@@ -55,11 +55,11 @@ Lorsque vous pensez à déployer des équipes et des canaux, vous devez décider
 
 | Decision | Description |
 |--|--|
-| [Qui doit être administrateur Teams ?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-administrators) | Les rôles d'administrateur vous permettent d’accorder des autorisations spécifiques aux personnes qui doivent, selon vous, administrer Teams. Les petites entreprises n’ont pas besoin de ces rôles supplémentaires, car la même personne peut être responsable de tous les aspects de Teams. Vous pouvez toujours ajouter ou supprimer des administrateurs ultérieurement.<br><br>[Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md) |
-| [Qui doit être propriétaire et membre d’une équipe ?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | Les propriétaires d’équipe contrôlent qui peut accéder à une équipe et à ses canaux. Ils peuvent décider si une équipe ou un canal est public (pour l’organisation) ou privé, puis définir des stratégies telles que la modération d’un canal. Les membres peuvent accéder à l’équipe et à ses canaux (sauf si un canal est donné comme privé et qu’ils ne sont pas membres de ce canal) et peuvent être désignés comme modérateurs.<br><br>[Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md) |
-| [Dois-je activer l’accès invité ?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |L’accès invité permet aux contacts de votre organisation d’inviter des contacts externes à votre organisation à accéder à vos équipes et canaux. L’accès invité sert souvent à collaborer avec des contacts extérieurs à votre organisation qui n’ont pas de relation officielle avec la vôtre. Par exemple, vous pouvez inviter un planificateur de projet à travailler temporairement sur un projet.<br>L’accès invité est différent de l’accès externe. L'accès invité permet d’inviter des personnes spécifiques à interagir avec les contacts de votre organisation.  <br>L’accès invité est **désactivé** par défaut. <br><br>[Activer ou désactiver l'accès invité dans Microsoft Teams](set-up-guests.md)  |
+| [Qui doit être administrateur Teams ?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-administrators) | Les rôles d'administrateur vous permettent d’accorder des autorisations spécifiques aux personnes qui doivent, selon vous, administrer Teams. Les petites entreprises n’ont pas besoin de ces rôles supplémentaires, car la même personne peut être responsable de tous les aspects de Teams. Vous pouvez toujours ajouter ou supprimer des administrateurs ultérieurement.<br><br>[Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md) |
+| [Qui doit être propriétaire et membre d’une équipe ?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | Les propriétaires d’équipe contrôlent qui peut accéder à une équipe et à ses canaux. Ils peuvent décider si une équipe ou un canal est public (pour l’organisation) ou privé, puis définir des stratégies telles que la modération d’un canal. Les membres peuvent accéder à l’équipe et à ses canaux (sauf si un canal est donné comme privé et qu’ils ne sont pas membres de ce canal) et peuvent être désignés comme modérateurs.<br><br>[Affecter des propriétaires d’équipe et des membres dans Microsoft Teams](assign-roles-permissions.md) |
+| [Dois-je activer l’accès invité ?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |L’accès invité permet aux contacts de votre organisation d’inviter des contacts externes à votre organisation à accéder à vos équipes et canaux. L’accès invité sert souvent à collaborer avec des contacts extérieurs à votre organisation qui n’ont pas de relation officielle avec la vôtre. Par exemple, vous pouvez inviter un planificateur de projet à travailler temporairement sur un projet.<br>L’accès invité est différent de l’accès externe. L'accès invité permet d’inviter des personnes spécifiques à interagir avec les contacts de votre organisation.  <br>L’accès invité est **désactivé** par défaut. <br><br>[Activer ou désactiver l'accès invité dans Microsoft Teams](set-up-guests.md)  |
 
-Vous n’avez rien d’autre à faire pour que vos utilisateurs commencent à utiliser la conversation, les équipes et les canaux. Toutefois, de nombreuses options vous permettent de contrôler l’utilisation de Teams. Vous pouvez apporter des modifications maintenant ou attendre de voir comment les personnes utilisent Teams. Si vous souhaitez en savoir plus veuillez, consulter les articles suivants :
+Vous n’avez rien d’autre à faire pour que vos utilisateurs commencent à utiliser la conversation, les équipes et les canaux. Toutefois, de nombreuses options vous permettent de contrôler l’utilisation de Teams. Vous pouvez apporter des modifications maintenant ou attendre de voir comment les personnes utilisent Teams. Si vous souhaitez en savoir plus veuillez, consulter les articles suivants :
 
 - [Gérer les stratégies de messagerie dans Teams](messaging-policies-in-teams.md)
 - [Paramètres de Teams](enable-features-office-365.md#teams-settings)
@@ -73,20 +73,20 @@ Le **système d’audioconférence** permet aux participants de rejoindre les r�
 > [!TIP]
 > Familiarisez-vous avec les réunions et événements en exécutant le module [Gérer les réunions, les conférences et les événements avec Microsoft Teams](/learn/modules/m365-teams-collab-manage-meetings) sur Microsoft Learn.
 
-Les réunions sont activées par défaut dans Teams. Toutefois, vous pouvez contrôler l’expérience des organisateurs et des participants en matière de réunions. Vous pouvez également définir des stratégies sur ce que les personnes peuvent et ne peuvent pas faire avant et pendant les réunions. Si vous souhaitez en savoir plus veuillez, consulter les articles suivants :
+Les réunions sont activées par défaut dans Teams. Toutefois, vous pouvez contrôler l’expérience des organisateurs et des participants en matière de réunions. Vous pouvez également définir des stratégies sur ce que les personnes peuvent et ne peuvent pas faire avant et pendant les réunions. Si vous souhaitez en savoir plus veuillez, consulter les articles suivants :
 
-- [Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams](quick-start-meetings-live-events.md)
+- [Démarrage rapide pour les administrateurs : réunions et événements en direct dans Microsoft Teams](quick-start-meetings-live-events.md)
 - [Configurer l’audioconférence pour les petites et moyennes entreprises](audio-conferencing-smb.md)
 
-### <a name="business-voice"></a>Business Voice
+### <a name="business-voice"></a>Business Voice
 
-[Microsoft 365 Business Voice](business-voice/whats-business-voice.md) est une solution idéale pour les entreprises de moins de 300 utilisateurs. Elle offre toutes les fonctionnalités d’un système de téléphonie de bureau. Business Voice inclut la messagerie vocale, l’identification de l'appelant, des menus de système téléphonique, des numéros gratuits, et bien plus encore, sans devoir gérer un système téléphonique local complexe et coûteux.
+[Microsoft 365 Business Voice](business-voice/whats-business-voice.md) est une solution idéale pour les entreprises de moins de 300 utilisateurs. Elle offre toutes les fonctionnalités d’un système de téléphonie de bureau. Business Voice inclut la messagerie vocale, l’identification de l'appelant, des menus de système téléphonique, des numéros gratuits, et bien plus encore, sans devoir gérer un système téléphonique local complexe et coûteux.
 
-Basé sur le Système téléphonique Microsoft 365, Business Voice simplifie l’ajout de voix à votre organisation en regroupant les fonctionnalités et les modules supplémentaires du système téléphonique, puis en fournissant un assistant facile à suivre pour vous aider à configurer votre système téléphonique. Si votre organisation se trouve dans un pays ou une région [qui prend en charge Business Voice](business-voice/country-region-availability.md), vous pouvez transférer vos numéros de téléphone vers Microsoft 365 et nous laisser gérer votre système téléphonique à votre place.
+Basé sur le Système téléphonique Microsoft 365, Business Voice simplifie l’ajout de voix à votre organisation en regroupant les fonctionnalités et les modules supplémentaires du système téléphonique, puis en fournissant un assistant facile à suivre pour vous aider à configurer votre système téléphonique. Si votre organisation se trouve dans un pays ou une région [qui prend en charge Business Voice](business-voice/country-region-availability.md), vous pouvez transférer vos numéros de téléphone vers Microsoft 365 et nous laisser gérer votre système téléphonique à votre place.
 
-Avec Microsoft 365 comme système téléphonique, vous pouvez transformer n’importe quel appareil en téléphone en y installant le client Teams. Sinon, si vous préférez un téléphone classique de bureau ou de conférence, vous pouvez le choisir parmi un grand nombre d’appareils certifiés Teams. Dans les deux cas, les appels parviennent toujours à l’endroit où vous vous trouvez, et votre numéro de téléphone de bureau s’affiche toujours lorsque vous passez des appels.
+Avec Microsoft 365 comme système téléphonique, vous pouvez transformer n’importe quel appareil en téléphone en y installant le client Teams. Sinon, si vous préférez un téléphone classique de bureau ou de conférence, vous pouvez le choisir parmi un grand nombre d’appareils certifiés Teams. Dans les deux cas, les appels parviennent toujours à l’endroit où vous vous trouvez, et votre numéro de téléphone de bureau s’affiche toujours lorsque vous passez des appels.
 
-Si vous souhaitez essayer Business Voice, veuillez consulter la rubrique [Que dois-je me procurer pour utiliser Microsoft 365 Business Voice ?](business-voice/what-to-buy.md).
+Si vous souhaitez essayer Business Voice, veuillez consulter la rubrique [Que dois-je me procurer pour utiliser Microsoft 365 Business Voice ?](business-voice/what-to-buy.md).
 
 ## <a name="deploy-clients"></a>Déployer les clients
 

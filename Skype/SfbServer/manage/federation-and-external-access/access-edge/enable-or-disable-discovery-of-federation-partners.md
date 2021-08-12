@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lorsque vous déployez vos serveurs Edge et activez la fédération pour votre entreprise, vous devez spécifier si la découverte des domaines partenaires fédérés doit être prise en charge automatiquement.
-ms.openlocfilehash: e1f076b725dff149f024a3fd59f9f7d52da4e6a8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c66dd9750c8fdd36af5fad75f40b6939a04b0971cec4c9e57fe97bd06047ed9d
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849189"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Activer ou désactiver la découverte de partenaires de fédération dans Skype Entreprise Server
 
@@ -33,7 +33,7 @@ Lorsque vous déployez vos serveurs Edge et activez la fédération pour votre e
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, puis sur **Configuration du serveur Edge d’accès**.
 
@@ -43,24 +43,20 @@ Lorsque vous déployez vos serveurs Edge et activez la fédération pour votre e
 
 6.  Cliquez sur **Valider**.
 
-Pour permettre aux utilisateurs fédérés de collaborer avec des utilisateurs dans votre déploiement Skype Entreprise Server, vous devez également avoir configuré au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs fédérés. Pour plus d’informations, [voir Activer ou désactiver la fédération et la connectivité DE messagerie instantanée publique.](enable-or-disable-federation-and-public-im-connectivity.md) Pour plus d’informations sur le contrôle de l’accès pour des domaines fédérés spécifiques, voir Gérer les domaines fédérés [SIP](../sip-domains/manage-sip-federated-domains-for-your-organization.md) et Gérer les fournisseurs fédérés [SIP.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+Pour permettre aux utilisateurs fédérés de collaborer avec des utilisateurs dans votre déploiement Skype Entreprise Server, vous devez également avoir configuré au moins une stratégie d’accès externe pour prendre en charge l’accès des utilisateurs fédérés. Pour plus d’informations, [voir Activer ou désactiver la fédération et la connectivité DE messagerie instantanée publique.](enable-or-disable-federation-and-public-im-connectivity.md) Pour plus d’informations sur le contrôle d’accès pour des domaines fédérés spécifiques, voir Gérer les domaines fédérés [SIP](../sip-domains/manage-sip-federated-domains-for-your-organization.md) et Gérer les fournisseurs [fédérés SIP.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 
 ## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de la découverte de partenaires de fédération à l’aide Windows PowerShell cmdlets
 
-La découverte des partenaires de fédération peut être gérée à l’Windows PowerShell l'Set-CsAccessEdgeConfiguration cmdlet. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+La découverte des partenaires de fédération peut être gérée à l’aide Windows PowerShell et de la cmdlet Set-CsAccessEdgeConfiguration de fédération. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>Pour activer la découverte des partenaires de fédération
 
-  - Pour activer la découverte des partenaires de fédération, définissez la valeur de la propriété **EnablePartnerDiscovery** à True ($True). Notez que vous devez activer le routage DNS SRV afin de changer la valeur de cette propriété.
-    
-        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
+  - Pour activer la découverte des partenaires de fédération, définissez la valeur de la propriété **EnablePartnerDiscovery** à True ($True). Notez que vous devez activer le routage DNS SRV afin de changer la valeur de cette propriété.<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
 ## <a name="to-disable-discovery-of-federation-partners"></a>Pour désactiver la découverte des partenaires de fédération
 
-  - Pour désactiver la découverte des partenaires de fédération, définissez la valeur de la propriété **EnablePartnerDiscovery** à False ($False).
-    
-        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
+  - Pour désactiver la découverte des partenaires de fédération, définissez la valeur de la propriété **EnablePartnerDiscovery** à False ($False).<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 

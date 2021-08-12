@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Configurer l’analyse des appels par utilisateur afin d’identifier et de résoudre les Microsoft Teams de qualité des appels.
-ms.openlocfilehash: 209fcad851f5ba7b0183a9988372e249f99cc4fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 968a4c06d4b1be1384303241d0eb6b45721e833560d46169acf96caa1f18a576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117132"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332536"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Configurer l’analyse des appels pour Microsoft Teams
 
@@ -59,7 +59,7 @@ Si vous êtes un administrateur Teams ou Skype Entreprise, vous pouvez utiliser 
   
 Si vous créez le fichier .tsv ou .csv à partir de zéro, consultez les informations relatives Télécharger [client et à la création.](CQD-upload-tenant-building-data.md)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser les données d’analyse des appels par utilisateur pour résoudre les problèmes de qualité des appels médiocres](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 

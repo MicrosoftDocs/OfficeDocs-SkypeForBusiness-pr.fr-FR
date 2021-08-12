@@ -1,5 +1,5 @@
 ---
-title: Détails du tableau des détails des appels dans Skype Entreprise Server 2015
+title: Détails de la table des détails des détails des Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: Les rubriques suivantes présentent en détail les colonnes de chacune des tables de schéma de la base de données des enregistrements des détails des appels.
-ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7b22676a675d70359cf895261f3f0ad3cec13a6835805efefaacb6be7a7416ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296971"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Détails du tableau des détails des appels dans Skype Entreprise Server 2015
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Détails de la table des détails des détails des Skype Entreprise Server 2015
  
 Les rubriques suivantes présentent en détail les colonnes de chacune des tables de schéma de la base de données des enregistrements des détails des appels.
   
@@ -38,7 +38,7 @@ Les rubriques suivantes présentent en détail les colonnes de chacune des table
     
 - [Table ConferenceMessageCount dans Skype Entreprise Server 2015](conferencemessagecount.md)
     
-- [Table Conferences in Skype for Business Server 2015](conferences.md)
+- [Table Conferences in Skype Entreprise Server 2015](conferences.md)
     
 - [Table ConferenceSessionDetails dans Skype Entreprise Server 2015](conferencesessiondetails-0.md)
     
@@ -50,7 +50,7 @@ Les rubriques suivantes présentent en détail les colonnes de chacune des table
     
 - [Table Devices dans Skype Entreprise Server 2015](devices.md)
     
-- [Table Dialogs in Skype for Business Server 2015](dialogs.md)
+- [Table Dialogs dans Skype Entreprise Server 2015](dialogs.md)
     
 - [Table EdgeServers dans Skype Entreprise Server 2015](edgeservers.md)
     
@@ -74,7 +74,7 @@ Les rubriques suivantes présentent en détail les colonnes de chacune des table
     
 - [Table Locations dans Skype Entreprise Server 2015](locations.md)
     
-- [Table Manufacturers in Skype for Business Server 2015](manufacturers.md)
+- [Table Manufacturers dans Skype Entreprise Server 2015](manufacturers.md)
     
 - [Table McuJoinsAndLeaves dans Skype Entreprise Server 2015](mcujoinsandleaves.md)
     

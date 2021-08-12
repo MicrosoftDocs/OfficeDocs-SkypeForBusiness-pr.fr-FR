@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: ce5d80b8be0fe2e6983229be8185bcdf02e06ab6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237640"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341090"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurer l’audioconférence pour Skype Entreprise
 
@@ -133,7 +133,7 @@ Vous devez effectuer cette opération pour toutes les personnes de votre entrepr
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **utilisant le Centre d’administration Skype Entreprise :**
 
-1. Allez au Centre **Microsoft 365'administration**  >    >  **Teams’administration hérité.**
+1. Go to the **Centre d’administration Microsoft 365**  >  **Teams**  >  **legacy portal.**
 2. Sélectionnez **Utilisateurs de l’audioconférence,** sélectionnez l’utilisateur dans la liste  >  et cliquez sur **Modifier.** 
 
 Si vous avez besoin de plus de détails, consultez [Sélectionner Microsoft en tant que fournisseur d’audioconférences](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
