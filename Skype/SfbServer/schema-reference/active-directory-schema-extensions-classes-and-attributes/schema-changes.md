@@ -1,5 +1,5 @@
 ---
-title: Modifications apportées au schéma dans Skype Entreprise Server
+title: Modifications de schéma dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Avant de déployer et d’exploiter Skype Entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype Entreprise Server.
-ms.openlocfilehash: 4ca18b0ccfde6b247f1c29e140004804462d0f56
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Avant de déployer et d’Skype Entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype Entreprise Server.
+ms.openlocfilehash: 486d642621869cbb23051d2957614f35aa2c67fcda1c539862b05925787f180d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281657"
 ---
-# <a name="schema-changes-in-skype-for-business-server"></a>Modifications apportées au schéma dans Skype Entreprise Server
+# <a name="schema-changes-in-skype-for-business-server"></a>Modifications de schéma dans Skype Entreprise Server
  
-Avant de déployer et d’exploiter Skype Entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype Entreprise Server.
+Avant de déployer et d’Skype Entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype Entreprise Server.
 
 > [!NOTE]
-> Si vous faites une mise à niveau de Lync Server 2013 vers Skype Entreprise Server 2015, aucune modification de schéma n’est apportée et, par conséquent, cet article ne s’applique pas.
+> Si vous êtes en cours de mise à niveau de Lync Server 2013 vers Skype Entreprise Server 2015, aucune modification de schéma n’est apportée et, par conséquent, cet article ne s’applique pas.
   
-Skype Entreprise Server nécessite plusieurs nouvelles classes et attributs et modifie certaines classes et attributs existants. En outre, de nombreuses informations de configuration pour Skype Entreprise Server sont stockées dans le magasin central de gestion et non dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS dans Skype Entreprise Server :
+Skype Entreprise Server nécessite plusieurs nouvelles classes et attributs et modifie certaines classes et attributs existants. En outre, de nombreuses informations de configuration pour Skype Entreprise Server sont stockées dans le magasin central de gestion et non dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS Skype Entreprise Server :
   
 - **Extensions de schéma** :
     
@@ -35,7 +35,7 @@ Skype Entreprise Server nécessite plusieurs nouvelles classes et attributs et m
     
   - Extensions pour les classes afin de maintenir la compatibilité ascendante avec les versions précédentes de Lync Server.
     
-- **Données** (stockées dans le schéma étendu Skype Entreprise Server et dans les classes de schéma existantes) :
+- **Données** (stockées dans Skype Entreprise Server schéma étendu et dans des classes de schéma existantes) :
     
   - URI (Uniform Resource Identifier) SIP de l’utilisateur et autres paramètres utilisateur
     
@@ -45,9 +45,9 @@ Skype Entreprise Server nécessite plusieurs nouvelles classes et attributs et m
     
   - Compte d’authentification Kerberos (un objet ordinateur facultatif)
     
-Cette rubrique décrit les modifications de schéma Active Directory requises par Skype Entreprise Server. Il ne décrit pas les modifications de schéma introduites par les versions précédentes d’Office Communications Server. Pour obtenir la liste des classes et leurs descriptions, voir Classes de schéma [et descriptions dans Skype Entreprise Server.](schema-classes-and-descriptions.md) Pour obtenir la liste des attributs et leurs descriptions, voir [Schema attributes and descriptions in Skype for Business Server](schema-attributes-and-descriptions.md). Pour obtenir la liste des classes avec les attributs qu’elles peuvent contenir, voir Attributs de schéma par classe [dans Skype Entreprise Server.](schema-attributes-by-class.md)
+Cette rubrique décrit les modifications de schéma Active Directory requises par Skype Entreprise Server. Il ne décrit pas les modifications de schéma introduites par les versions précédentes de Office Communications Server. Pour obtenir la liste des classes et leurs descriptions, voir classes de schéma [et descriptions dans Skype Entreprise Server](schema-classes-and-descriptions.md). Pour obtenir la liste des attributs et leurs descriptions, voir attributs de schéma et [descriptions dans Skype Entreprise Server](schema-attributes-and-descriptions.md). Pour obtenir la liste des classes avec les attributs qu’elles peuvent contenir, voir [Attributs](schema-attributes-by-class.md)de schéma par classe dans Skype Entreprise Server .
   
-Le préfixe msRTCSIP identifie les classes et les attributs spécifiques de Skype Entreprise Server.
+Le préfixe msRTCSIP identifie les classes et les attributs spécifiques aux Skype Entreprise Server.
   
 ## <a name="new-active-directory-attributes"></a>Nouveaux attributs Active Directory
 

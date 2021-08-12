@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment obtenir et gérer les utilisateurs (abonnés) et les numéros de téléphone de service (gratuits et gratuits) pour les utilisateurs Microsoft Teams de votre organisation.
-ms.openlocfilehash: 3979604f281a75a5c3062a1a54630f34253788d0
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 534f0d17413e24f221ce04731e0f617355392fec5f08e04814b85c15eb3369ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129633"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310632"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gérer les numéros de téléphone de votre organisation
 
@@ -115,8 +115,8 @@ Une fois votre LOA **remplie** et signée, contactez notre service [PSTN Service
 - Pour vous aider à choisir le type de numéros de téléphone correct, lisez les différents types de numéros utilisés [pour les plans d’appel.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - Pour obtenir de l’aide sur la configuration des numéros de téléphone pour votre organisation, lisez : Contact du support pour les [produits pour les entreprises - Aide de l’administrateur.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Étiquette d’exclusion de responsabilité d’appel d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

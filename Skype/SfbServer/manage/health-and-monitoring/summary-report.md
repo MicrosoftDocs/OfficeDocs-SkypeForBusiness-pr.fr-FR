@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Résumé : Découvrez le rapport de synthèse de diagnostic des appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: a0e024abfc083588a755a0d922c0eca23e526058
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 35b6a9ac84bf504b218200ec2ac49e6f19632e520eba90335e9ab0257f4bcfcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281837"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de diagnostic des appels dans Skype Entreprise Server
  
@@ -37,7 +37,7 @@ Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble de
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Accès au rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. À partir du rapport de synthèse de diagnostic des appels, vous pouvez accéder au rapport de diagnostic des activités P2E dans Skype Entreprise [Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure Taux d’échec sous la section Synthèse de session P2E du rapport. Vous pouvez également accéder au rapport [de diagnostic de conférence](conference-diagnostic-report.md) dans Skype Entreprise Server en cliquant sur l’une des mesures de conférence suivantes :
+Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. À partir du rapport de synthèse de diagnostic des appels, vous pouvez accéder au rapport de diagnostic des activités D’égal à égal dans [Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure Taux d’échec sous la section Synthèse de session P2E du rapport. Vous pouvez également accéder au rapport de diagnostic de conférence [dans Skype Entreprise Server](conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes :
   
 - Taux d’échec de session global
     
@@ -47,7 +47,7 @@ Le rapport de synthèse de diagnostic des appels est accessible à partir de la 
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Utilisation efficace du rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse de diagnostic des appels inclut des graphiques qui comparent les taux d’échec pour les différentes modalités utilisées dans Skype Entreprise Server. Les colonnes de ces graphiques sont en fait des liens à chaud ; Par exemple, si vous cliquez sur la colonne Messagerie instantanée pour les sessions P2E, vous allez consulter une instance du rapport de diagnostic des activités P2E dans Skype Entreprise [Server](peer-to-peer-activity-diagnostic-report.md), un rapport qui fournit des détails supplémentaires sur toutes les sessions de messagerie instantanée incluses dans le rapport de synthèse de diagnostic des appels.
+Le rapport de synthèse de diagnostic des appels inclut des graphiques qui comparent les taux d’échec pour les différentes modalités utilisées dans Skype Entreprise Server. Les colonnes de ces graphiques sont en fait des liens à chaud ; Par exemple, si vous cliquez sur la colonne messagerie instantanée pour les sessions D’égal à égal, vous allez consulter une instance du rapport de diagnostic des activités P2E dans [Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md), un rapport qui fournit des détails supplémentaires sur toutes les sessions de messagerie instantanée incluses dans le rapport de synthèse de diagnostic des appels.
   
 ## <a name="filters"></a>Filtres
 
@@ -60,7 +60,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début du 7/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours 8/7/2015 de 12:00 au 07/09/2015 12:00 (c’est-à-dire, un total de 31 jours de données). <br/> |
 |**Pool** <br/> |Nom de domaine complet du pool de serveurs d’inscriptions ou du serveur Edge. Vous pouvez sélectionner un pool spécifique ou cliquer sur **[Tout]** pour afficher des données pour tous les pools. Cette liste déroulante est remplie automatiquement pour vous en fonction des enregistrements de la base de données.<br/> |
    

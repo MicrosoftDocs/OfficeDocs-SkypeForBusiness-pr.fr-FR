@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
-description: La page Nom et paramètres de sécurité fournit une zone de texte qui permet de définir un nom convivial, une liste de listes de texte pour la longueur en bits de la paire de clés privées et publiques, ainsi qu’une case à cocher qui vous permet de marquer la clé privée du certificat comme exportable.
-ms.openlocfilehash: 5ae91c6fbe1c84d0fee0486dec0ca2efd9717e10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: La page Nom et sécurité Paramètres fournit une zone de texte qui permet de définir un nom convivial, une liste de listes de texte pour la longueur de bits de la paire de clés privées et publiques et une case à cocher qui vous permet de marquer la clé privée du certificat comme exportable.
+ms.openlocfilehash: f84e28f6d3e8d067b06cd640e1a532084edc61d9d789f569bae546a6331cae4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282221"
 ---
 # <a name="certificate-request-basic"></a>Demande de certificat (élémentaire)
  
-La page Nom et **paramètres** de sécurité fournit une zone de texte pour définir un nom **convivial,** une liste de listes listes pour la longueur de **bits** de la paire de clés privées et publiques, et une case à cocher qui vous permet de marquer la clé privée du certificat comme **exportable.**
+La page Nom et sécurité **Paramètres** fournit une zone de texte pour définir un nom **convivial,** une liste de listes listes pour la longueur de **bits** de la paire de clés privées et publiques, et une case à cocher qui vous permet de marquer la clé privée du certificat comme **exportable.**
   
 Le nom convivial sur un certificat est un nom facilement reconnaissable qui permet à la personne qui consulte le certificat de l’identifier plus facilement.
   

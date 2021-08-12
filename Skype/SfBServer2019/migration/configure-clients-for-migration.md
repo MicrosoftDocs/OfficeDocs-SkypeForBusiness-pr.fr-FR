@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cette rubrique contient les étapes de déploiement de client recommandées que vous devez suivre avant de migrer vers Skype Entreprise Server 2019. Ces modifications de configuration doivent être apportées sur Lync Server 2013 ou Skype Entreprise Server 2015.
-ms.openlocfilehash: 46a193e3896b6e7ad2dddd405eda413a2544fe3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2eae39832a88e0dcbc9b56308718478ab801d5efc262cbfe78e5be756e08970b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281377"
 ---
 # <a name="configure-clients-for-migration"></a>Configurer les clients pour la migration
 

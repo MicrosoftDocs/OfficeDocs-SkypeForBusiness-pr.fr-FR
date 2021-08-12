@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Cliquez avec le bouton droit sur pool de conversation permanente dans le Générateur de topologies pour effectuer les choses suivantes :'
-ms.openlocfilehash: 87512ae3ecba6eab5bb3e896b16c9c33a1716786
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b9c5849fbf841d026b33a9deb0a68acffc18188977d75a8316297b4569b7571a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281877"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Créer un nœud d’étendue des serveurs de conversation permanente
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les mêmes fonctionnalités sont disponibles dans Teams. Pour plus d’informations, voir [Mise à niveau de Skype Entreprise vers Microsoft Teams.](/MicrosoftTeams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015.
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, [voir Skype Entreprise à Microsoft Teams mise à niveau.](/MicrosoftTeams/upgrade-start-here) Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité pour Teams ou continuer à utiliser Skype Entreprise Server 2015.

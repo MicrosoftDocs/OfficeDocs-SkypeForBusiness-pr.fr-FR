@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation mais qui ne sont pas attribués à un utilisateur ou un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
-ms.openlocfilehash: aeb81aef1b2dba23dc3daaa6ec8a788c0b232529
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c3f6bcf9c60b8126416bd330eeb67b2a58cff3d9cf2ce8f905f429936f011a05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122518"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309453"
 ---
 # <a name="unassigned-phone-number"></a>Numéro de téléphone non attribué
 
@@ -53,19 +53,19 @@ La liste suivante décrit les commandes de la page.
 
 - **Modifier** Ouvre la plage de numéro non assignées sélectionnée pour modification, sélectionne toutes les plages de numéro non assignées dans la liste ou supprime la plage de numéro non assignées sélectionnée.
 
-- **Monter** Déplace la plage de numéros non spécifiés sélectionnée vers le haut dans la liste afin que Skype Entreprise Server la trouve plus tôt et applique l’action spécifiée avant d’appliquer les actions spécifiées pour les autres plages de la liste.
+- **Monter** Déplace la plage de numéro non spécifiés sélectionnée vers le haut dans la liste afin que Skype Entreprise Server la trouve plus tôt et applique l’action spécifiée avant d’appliquer les actions spécifiées pour les autres plages de la liste.
 
     > [!NOTE]
-    > Skype Entreprise Server recherche la table des numéros non assignés de haut en bas et utilise la première plage qui correspond au numéro non assigné. Par exemple, si une plage spécifie une action de dernier recours, assurez-vous qu’elle se trouve en bas de la liste.
+    > Skype Entreprise Server recherche de haut en bas dans la table des chiffres non signés et utilise la première plage qui correspond au numéro non assigné. Par exemple, si une plage spécifie une action de dernier recours, assurez-vous qu’elle se trouve en bas de la liste.
 
-- **Déplacer vers le bas** Déplace la plage de numéro non signés sélectionnée vers le bas dans la liste.
+- **Déplacer vers le bas** Déplace la plage de numéro non assignés sélectionnée vers le bas dans la liste.
 
 - **Valider tout** Enregistre toutes les modifications que vous avez apportées aux plages de numéro non assignés.
 
     > [!IMPORTANT]
     > Cette commande enregistre toutes les modifications que vous avez effectuées dans la page **Nouveau numéro non attribué** et dans la page **Modifier le numéro non attribué**.
 
-- **Actualiser** Actualise la liste des plages de numéro non assignées.
+- **Actualiser** Actualise la liste des plages de nombres non résignés.
 
 La liste suivante décrit les champs de la page.
 
@@ -73,7 +73,7 @@ La liste suivante décrit les champs de la page.
 
 - **État** Indique les plages de nombres qui ont été enregistrées dans la base de données et qui n’ont pas été enregistrées.
 
-- **Plage de début** Numéro de début de la plage de numéro non assignés.
+- **Plage de début** Numéro de début de la plage de numéro non signés.
 
 - **Plage de fin** Numéro de fin de la plage de numéro non assignés.
 
@@ -81,4 +81,4 @@ La liste suivante décrit les champs de la page.
 
 - **Annonce** Annonce à lire pour cette plage de numéros non signés.
 
-Pour plus d’informations sur les fonctionnalités d’annonce, voir [Plan for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation. Pour plus d’informations sur l’utilisation de plages de numéros non attribués, voir [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités d’annonce, voir [Plan for the Announcement application in Skype Entreprise 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation. Pour plus d’informations sur l’utilisation de plages de numéros non attribués, voir [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) dans la documentation des opérations.

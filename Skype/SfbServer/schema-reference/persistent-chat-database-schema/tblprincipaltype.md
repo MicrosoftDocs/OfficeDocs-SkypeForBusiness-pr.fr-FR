@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: La table tblPrincipalType contient les types principaux qui permettent de catégoriser le contenu de la table tblPrincipal.
-ms.openlocfilehash: 110818db0fb3c742491adfeed23362a2bcbebab2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e058af1fa45c87f97b34ac9c5b931b7d7cb9114205c702c732984adafc04d3fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831534"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281647"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -26,7 +26,7 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
   
 **Columns**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |ptypeID  <br/> |smallint, non null  <br/> |ID de type Principal.  <br/> |
 |ptypeDesc  <br/> |nvarchar (256), non null  <br/> |Description du type.  <br/> |
@@ -43,14 +43,14 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
 
 |**ID**|**Role**|**Description**|**Utilisateur**|
 |:-----|:-----|:-----|:-----|
-|1   <br/> |N’importe lequel  <br/> |Principal générique sans type connu. Inutilisé dans la table tblPrincipal.  <br/> ||
-|2   <br/> |AnyUser  <br/> |Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.  <br/> |Oui  <br/> |
-|3   <br/> |AnyGroup  <br/> |Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.  <br/> ||
+|1  <br/> |N’importe lequel  <br/> |Principal générique sans type connu. Inutilisé dans la table tblPrincipal.  <br/> ||
+|2  <br/> |AnyUser  <br/> |Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.  <br/> |Oui  <br/> |
+|3  <br/> |AnyGroup  <br/> |Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.  <br/> ||
 |4   <br/> |SystemUser  <br/> |Principal utilisé en interne par le serveur de conversation permanente.  <br/> ||
-|5   <br/> |Utilisateur  <br/> |Utilisateur régulier.  <br/> |Oui  <br/> |
-|8   <br/> |DC  <br/> |Contrôleur de domaine des services de domaine Active Directory.  <br/> ||
-|9   <br/> |Group  <br/> |Groupe de sécurité Active Directory.  <br/> ||
-|10   <br/> |Folder  <br/> |Conteneur ou unité d’organisation Active Directory.  <br/> ||
+|5   <br/> |Utilisateur  <br/> |Utilisateur régulier.  <br/> |Oui  <br/> |
+|8   <br/> |DC  <br/> |Contrôleur de domaine des services de domaine Active Directory.  <br/> ||
+|9   <br/> |Group  <br/> |Groupe de sécurité Active Directory.  <br/> ||
+|10   <br/> |Folder  <br/> |Conteneur ou unité d’organisation Active Directory.  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi
 

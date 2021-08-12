@@ -1,5 +1,5 @@
 ---
-title: Déploiements locaux à forêts multiples de Skype Room System
+title: Skype Déploiements locaux à forêts multiples du système de salle
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêts multiples.
-ms.openlocfilehash: d215ce13059c414d6c6142d7cd1e93ea9011c97b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc1d7fa3a3ca7cbcf62f7c038fb8fd6b4fcedc84319452ec8eaf02781f311bf3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310063"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Déploiements locaux à forêts multiples de Skype Room System
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Déploiements locaux à forêts multiples du système de salle
  
 Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêts multiples.
   
 > [!NOTE]
-> Pour pouvoir être déployé dans plusieurs forêts, Skype Room System nécessite Exchange Server CU6 2013 publiée le 26 août 2014. Évitez de ré-utiliser une boîte aux lettres existante pour Skype Room System. Utilisez une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System. Pour restaurer les réunions perdues en supprimant la boîte aux lettres, voir Connecter ou [restaurer une boîte aux lettres supprimée.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
+> Pour être déployé dans plusieurs forêts, Skype Room System nécessite Exchange Server 2013 CU6 publiée le 26 août 2014. Évitez de ré-utiliser une boîte aux lettres existante pour Skype Room System. Utilisez une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System. Pour restaurer les réunions perdues en supprimant la boîte aux lettres, consultez [la Connecter ou restituer une boîte aux lettres supprimée.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
   
-Après avoir créé la boîte aux lettres, vous pouvez utiliser Set-CalendarProcessing pour configurer la boîte aux lettres. Pour plus d’informations, reportez-vous aux étapes 3 à 6 sous Déploiements locaux à forêt unique. Après avoir créé une boîte aux lettres de ressources Exchange pour Skype Room System, activez le compte pour Skype Entreprise en suivant les étapes de la procédure d’activation des comptes Skype Room System pour Skype Entreprise dans le cadre de déploiements locaux à forêt unique.
+Après avoir créé la boîte aux lettres, vous pouvez utiliser Set-CalendarProcessing pour configurer la boîte aux lettres. Pour plus d’informations, reportez-vous aux étapes 3 à 6 sous Déploiements locaux à forêt unique. Après avoir créé une boîte aux lettres de ressources Exchange pour Skype Room System, activez le compte pour Skype Entreprise en suivant les étapes de l’activation des comptes Skype Room System pour Skype Entreprise dans le cadre de déploiements locaux à forêt unique.
   
 ## <a name="option-1-create-a-new-resource-mailbox"></a>Option 1 : Créer une boîte aux lettres de ressources
 
@@ -41,7 +41,7 @@ Pour déployer Skype Room System dans un environnement à forêts multiples :
    new-mailbox -Alias LinkedRoomTest -LinkedMasterAccount AuthForest\LinkedRoomTest -LinkedDomainController AuthForest-4939.AuthForest.extest.contoso.com -UserPrincipalName LinkedRoomTest@ExchangeForest.contoso.comm -Name LinkedRoomTest -LinkedCredential $cred -LinkedRoom
    ```
 
-## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Option 2 : Modifier une boîte aux lettres de salle existante en boîte aux lettres de ressources Skype Room System (liée)
+## <a name="option-2-change-an-existing-room-mailbox-to-skype-room-system-linked-resource-mailbox"></a>Option 2 : Modifier une boîte aux lettres de salle existante Skype boîte aux lettres de ressources (liée) du système de salle
 
 ```powershell
 $cred=Get-Credential AuthForest\LinkedRoomTest1

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Finlande Microsoft Teams.
-ms.openlocfilehash: e89d87ecb9010fe42717d2bd3dff8db906580b92
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: efe358fc42ca6c2cb12bb1b55b9e6ddb44fd447385c273eec491f9e6bef284f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281577"
 ---
 # <a name="phone-number-management-for-finland"></a>Téléphone gestion des nombres pour la Finlande
 
@@ -37,11 +37,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez les nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Microsoft Teams d’administration.<br/> |En Finlande, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant PTSN pour obtenir des instructions.](contact-pstn-service-desk.md)<br/><br/>Nouvelle demande de numéro de téléphone pour la Finlande (v.1.0) (en-fi).<br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client pour la Finlande [(v.1.0) (fi-FI)](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) Connaissez votre formulaire client, complétez-le et envoyez-le-nous.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.   |
-|Obtenez des numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour la Finlande (tous les nombres) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Remplissez-le et [contactez PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) <br/><br/>Le transfert de numéros peut prendre deux à trois semaines pour s’effectuer sur ce marché. <br/><br/> Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.   |
-|Publier/désabolier des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md) sur la liste des numéros de téléphone que vous voulez publier/désabolier. <br/> |
-|Modifiez le numéro d’un utilisateur en numéro de service.  <br/> |[Contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md) sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.<br/> |En Finlande, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant PTSN pour obtenir des instructions.](contact-pstn-service-desk.md)<br/><br/>Nouvelle demande de numéro de téléphone pour la Finlande (v.1.0) (en-fi).<br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client pour la Finlande [(v.1.0) (fi-FI)](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) Connaissez votre formulaire client, complétez-le et envoyez-le-nous.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.   |
+|Obtenez les numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour la Finlande (tous les nombres) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Renseignez-le et [contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md). <br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché. <br/><br/> Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.   |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contacter PTSN pour obtenir des instructions](contact-pstn-service-desk.md) concernant la liste des numéros de téléphone que vous souhaitez publier/annuler la publication. <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contacter PTSN pour obtenir des instructions](contact-pstn-service-desk.md) concernant la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier la file d’attente des appels ou les numéros de standard automatique, contactez l’[assistance du service PSTN](contact-pstn-service-desk.md). |
    
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -51,4 +51,4 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
   
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Étiquette d’exclusion de responsabilité d’appel d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

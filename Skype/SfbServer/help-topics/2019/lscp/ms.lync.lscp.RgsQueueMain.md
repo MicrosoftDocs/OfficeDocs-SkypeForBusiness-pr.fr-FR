@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
-ms.openlocfilehash: a59cab44df89a6091f463d677a5771983166a42b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a04d80d3ecea5d10c85c11cf4705b481daa1b12b3a9b152fd87430f8cb23c355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309883"
 ---
 # <a name="response-groups-queue"></a>File d’attente des services Response Groups
 
@@ -30,7 +30,7 @@ La page **File d’attente Response Groups** affiche la liste de toutes les file
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir de la page **File d’attente Response Groups**  -   :
+Vous pouvez effectuer les tâches suivantes à partir de la page File **d’attente des groupes Response Groups**  -   :
 
 - Créer une file d’attente
 
@@ -56,4 +56,4 @@ La liste suivante décrit les champs de la page.
 
 - **Description** Description de la file d’attente.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’exploitation des files d’attente Response Group, voir [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) in the Operations documentation.
+Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype Entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’exploitation des files d’attente Response Group, voir [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) in the Operations documentation.

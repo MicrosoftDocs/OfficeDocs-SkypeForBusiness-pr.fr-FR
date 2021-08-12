@@ -16,67 +16,67 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
-description: 'Résumé : Les professionnels de l’informatique doivent examiner les exigences de prise en charge de Skype Entreprise Web App et de l’application Réunions Skype lors de la planification de Skype Entreprise Server. Cet article n’est pas destiné aux utilisateurs de ces applications.'
-ms.openlocfilehash: 4956a11c0ed163cbe50c49233e9aa05a0fbbd872
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Les professionnels de l’informatique doivent examiner les exigences de prise en charge de l’application Application Web Skype Entreprise et Skype Meetings lors de la planification de Skype Entreprise Server. Cet article n’est pas destiné aux utilisateurs de ces applications.'
+ms.openlocfilehash: 575b1c7a5d335350ade6008cd0713b89b7e14ad07e86f290c98b72fcfdcd7cd4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826014"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281697"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planifier les clients Meetings (application Web et application réunions)
  
-**Résumé :** Les professionnels de l’informatique doivent examiner les exigences de prise en charge pour Skype Entreprise Web App et l’application Réunions Skype lors de la planification de Skype Entreprise Server. Cet article n’est pas destiné aux utilisateurs de ces applications.
+**Résumé :** Les professionnels de l’informatique doivent examiner les exigences de prise en charge de Application Web Skype Entreprise et Skype l’application Réunions lors de la planification de Skype Entreprise Server. Cet article n’est pas destiné aux utilisateurs de ces applications.
   
-Une fois que vous avez implémenté Skype Entreprise Server, les utilisateurs de votre organisation auront probablement installé le client Skype Entreprise dans le cadre du processus de déploiement. 
+Une fois que vous avez implémenté Skype Entreprise Server, les utilisateurs de votre organisation auront probablement le client Skype Entreprise installé dans le cadre du processus de déploiement. 
   
-Par la suite, ces utilisateurs peuvent créer des réunions et inviter des utilisateurs extérieurs à l’organisation, et ces invités peuvent ne pas avoir de version du client Skype Entreprise. Lorsque ces utilisateurs cliquent sur l’URL de l’invitation à la réunion, l’absence de client est détectée et l’invité sans client Skype Entreprise est invité à télécharger et installer un client léger, uniquement pour les réunions, afin qu’il puisse participer à la réunion.
-  
-> [!NOTE]
-> Skype Entreprise Web App et l’application Réunions Skype sont disponibles uniquement lorsque vous essayez de vous connecter à une réunion sans avoir Skype Entreprise. L’aide de l’utilisateur pour ces applications est sur [https://aka.ms/smahelp](https://aka.ms/smahelp) . 
+Par la suite, ces utilisateurs peuvent créer des réunions et inviter des utilisateurs extérieurs à l’organisation, et ces invités peuvent ne pas avoir de version du client Skype Entreprise client. Lorsque ces utilisateurs cliquent sur l’URL de l’invitation à la réunion, l’absence de client est détectée et l’invité sans client Skype Entreprise est invité à télécharger et installer un client léger, uniquement pour les réunions, afin qu’il puisse participer à la réunion.
   
 > [!NOTE]
-> Vous ne pouvez pas préinstaller Skype Entreprise Web App ou [](https://products.office.com/skype-for-business/download-app?tab=tabs-1) Skype [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) Meetings App, mais les utilisateurs de smartphones et de tablettes peuvent installer des clients mobiles peu coûteux qu’ils peuvent utiliser pour participer à des réunions.
-  
-Par défaut, le serveur hébergeant la réunion demande à l’utilisateur de télécharger et d’installer Skype Entreprise Web App pour participer à la réunion. Skype Entreprise Web App est stocké sur le serveur frontal et est envoyé au participant à la réunion. 
-  
-Pour Skype Entreprise Server, Skype Meetings App (sur Windows) et Skype Entreprise pour Mac (sur Mac) sont disponibles en remplacement de Skype Entreprise Web App à partir de CU5, mais la fourniture des applications de remplacement nécessite la configuration supplémentaire décrite dans Enable Skype Meetings App pour remplacer Skype Entreprise [Web App (facultatif).](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable) Si l’application Réunions Skype et Skype Entreprise pour Mac sont activées, les utilisateurs téléchargent la dernière version des applications à partir du réseau de distribution de contenu (CDN) Microsoft 365 ou Office 365 plutôt que de votre serveur Skype Entreprise. Pour Skype Entreprise Server 2019, l’utilisation de l’application réunions Skype et de Skype Entreprise pour Mac est la seule option.
-  
-L’application Réunions Skype offre une expérience de navigateur simplifiée pour télécharger et installer l’application et participer à des réunions, notamment en un clic pour les utilisateurs d’Internet Explorer. L’application Réunions Skype présente également de nombreuses améliorations par rapport à Skype Entreprise Web App pour la fiabilité et l’expérience de réunion. 
+> L Application Web Skype Entreprise et Skype meetings app sont disponibles uniquement lorsque vous essayez de vous connecter à une réunion sans avoir Skype Entreprise. L’aide de l’utilisateur pour ces applications est sur [https://aka.ms/smahelp](https://aka.ms/smahelp) . 
   
 > [!NOTE]
-> À partir de Skype Entreprise Server 2015 CU5 ou version ultérieure, les réunions organisées à l’aide de Skype Entreprise Online n’envoient plus à un utilisateur sans client l’application web Skype Entreprise, mais l’application Réunions Skype (sur Windows) ou Skype Entreprise pour Mac (sur Mac). À partir de Skype Entreprise Server 2015 CU5 ou ultérieur, si vous activez l’application Réunions Skype pour remplacer Skype Entreprise [Web App (facultatif),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)les utilisateurs sans client seront envoyés à l’application Réunions Skype ou Skype Entreprise pour Mac au lieu de Skype Entreprise Web App. 
+> Vous ne pouvez pas préinstaller l’application Application Web Skype Entreprise ou Skype Meetings, [](https://products.office.com/skype-for-business/download-app?tab=tabs-2) mais les utilisateurs de smartphones et de tablettes peuvent installer des clients mobiles peu coûteux qu’ils peuvent utiliser pour participer à des réunions. [](https://products.office.com/skype-for-business/download-app?tab=tabs-1)
+  
+Par défaut, le serveur hébergeant la réunion dirige l’utilisateur vers le téléchargement et l’installation Application Web Skype Entreprise pour participer à la réunion. Le Application Web Skype Entreprise est stocké sur le serveur frontal et est envoyé au participant à la réunion. 
+  
+Pour Skype Entreprise Server, Skype Meetings App (sur Windows) et Skype Entreprise pour Mac (sur Mac) sont disponibles en remplacement de Application Web Skype Entreprise à partir de CU5, mais la fourniture des applications de remplacement nécessite la configuration supplémentaire décrite dans Enable Skype Meetings App pour remplacer [Application Web Skype Entreprise (facultatif).](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable) Si Skype Meetings App et Skype Entreprise pour Mac sont activés, les utilisateurs téléchargeront la dernière version des applications à partir du Microsoft 365 ou du Office 365 réseau de distribution de contenu (CDN) plutôt que de votre serveur Skype Entreprise. Pour Skype Entreprise Server 2019, l’utilisation Skype l’application Meetings Skype Entreprise pour Mac est la seule option.
+  
+Skype L’application Meetings offre une expérience de navigateur simplifiée pour télécharger et installer l’application et participer à des réunions, notamment en un clic pour les utilisateurs d’Internet Explorer. Skype L’application Meetings présente également de nombreuses améliorations par rapport à la Application Web Skype Entreprise pour la fiabilité et l’expérience de réunion. 
+  
+> [!NOTE]
+> À Skype Entreprise Server CU5 2015 ou version ultérieure, les réunions organisées à l’aide de Skype Entreprise Online n’envoient plus l’Application Web Skype Entreprise à un utilisateur sans client, mais elles sont envoyées Skype Meetings App (sur Windows) ou Skype Entreprise pour Mac (sur Mac). À Skype Entreprise Server CU5 2015 ou ultérieure, si vous activez l’application réunions Skype pour remplacer [Application Web Skype Entreprise (facultatif),](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)les utilisateurs sans client seront envoyés Skype Meetings App ou Skype Entreprise pour Mac au lieu de Application Web Skype Entreprise. 
   
 ## <a name="software-requirements"></a>Configuration logicielle requise
 <a name="OS-Browser"> </a>
 
-Pour utiliser Skype Entreprise Web App, un utilisateur doit avoir l’une des combinaisons de navigateur et de système d’exploitation prise en charge suivantes. 
+Pour utiliser le Application Web Skype Entreprise, un utilisateur doit avoir l’une des combinaisons de navigateur et de système d’exploitation prise en charge suivantes. 
   
-**Prise en charge minimale du système d’exploitation et du navigateur pour Skype Entreprise Web App**
+**Prise en charge minimale du système d’exploitation et du navigateur pour Application Web Skype Entreprise**
 
-| Système d’exploitation | Microsoft Edge | Internet Explorer 11 32 et 64 bits ou ultérieur | Internet Explorer 32 et 64 bits 10 ou ultérieur | Internet Explorer 9 32 et 64 bits ou ultérieur | Version 32 et 64 bits de Safari 6.2.8 - 11.X | Version 32 et 64 bits de Chrome 18.X ou version ultérieure |
+| Système d’exploitation | Microsoft Edge | Internet Explorer 11 32 et 64 bits ou ultérieur | 32 bits et 64 bits Internet Explorer 10 ou ultérieure | Internet Explorer 9 32 et 64 bits ou ultérieur | Version 32 et 64 bits de Safari 6.2.8 - 11.X | Version 32 et 64 bits de Chrome 18.X ou version ultérieure |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Oui  <br/> |Oui  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Oui, &#x2778; <br/> |
+|Windows 10  <br/> |Oui  <br/> |Oui  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Oui, &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |N/D  <br/> |Oui  <br/> |N/A  <br/> |N/A  <br/> |N/A <br/> |Oui, &#x2778; <br/> |
 |Windows 8 (basé sur Intel) &#x2776; <br/> |N/A  <br/> |N/A  <br/> |Oui  <br/> |N/A <br/> |N/A  <br/> |Oui, &#x2778; <br/> |
-|Windows 7 avec SP1 &#x2777; <br/> |N/D  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |N/D <br/>|Oui, &#x2778; <br/> |
-|Windows Server 2008 R2 avec SP1 &#x2777; <br/> |N/D  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |N/D <br/>|Oui, &#x2778; <br/> |
+|Windows 7 avec sp1 &#x2777; <br/> |N/D  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |N/D <br/>|Oui, &#x2778; <br/> |
+|Windows Serveur 2008 R2 avec sp1 &#x2777; <br/> |N/D  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |N/D <br/>|Oui, &#x2778; <br/> |
 |MacOS 10.8 et les ultérieures (basés sur Intel) &#x2777; <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Oui  <br/> |Oui <br/> |
    
-&#x2776; Le plug-in de navigateur Skype Entreprise Web App nécessite un plug-in de partage spécifique pour utiliser la voix, la vidéo, le partage et l’affichage continus du partage d’écran et d’autres fonctionnalités basées sur l’ordinateur. Un participant à la réunion a la possibilité d’installer le plug-in de partage lorsqu’il rejoint la réunion ou lorsqu’il lance l’une de ces fonctionnalités. Sur Windows 8 et Windows 8.1, le plug-in de partage peut être installé uniquement si vous exécutez Internet Explorer 10 ou Internet Explorer 11 pour le Bureau. Ces fonctionnalités ne sont pas disponibles avec les versions non de bureau d’Internet Explorer 10 et 11. Notez que Firefox et Safari version 12.0 et ultérieures ne sont plus pris en charge.
+&#x2776; le plug-in du navigateur Application Web Skype Entreprise nécessite un plug-in de partage spécifique pour utiliser la voix, la vidéo, le partage et l’affichage en continu du partage d’écran et d’autres fonctionnalités basées sur l’ordinateur. Un participant à la réunion a la possibilité d’installer le plug-in de partage lorsqu’il rejoint la réunion ou lorsqu’il lance l’une de ces fonctionnalités. Sur Windows 8 et Windows 8.1, le plug-in de partage ne peut être installé que si vous exécutez Internet Explorer 10 ou Internet Explorer 11 pour le Bureau. Ces fonctionnalités ne sont pas disponibles avec les versions non de bureau de Internet Explorer 10 et 11. Notez que Firefox et Safari version 12.0 et ultérieures ne sont plus pris en charge.
   
-&#x2777; sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix sur ordinateur, la vidéo, l’affichage d’applications, le partage d’applications, l’affichage de bureau et le partage de bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in lorsque vous y êtes invité. Notez que Mac OS X version 10.7 n’est plus pris en charge.  Notez également que l’application web ne s’installera pas sur OS X 10.15 ou une ultérieure.  Nous vous recommandons d’utiliser la dernière version de Skype Entreprise pour Mac qui prend en charge les scénarios de joints anonymes à l’avenir.
+&#x2777; Sur les systèmes d’exploitation Windows 7, Windows Server 2008 R2 et Macintosh pris en charge, toutes les fonctionnalités sont disponibles, notamment la voix sur ordinateur, la vidéo, l’affichage d’applications, le partage d’applications, l’affichage de bureau et le partage de bureau. Pour utiliser ces fonctionnalités, vous devez installer un plug-in lorsque vous y êtes invité. Notez que Mac OS X version 10.7 n’est plus pris en charge.  Notez également que l’application web ne s’installera pas sur OS X 10.15 ou une ultérieure.  Nous vous recommandons d’utiliser la dernière version de Skype Entreprise pour Mac qui prend en charge les scénarios de jointeurs anonymes à l’avenir.
   
-&#x2778;'accès à l’application Web à partir de Chrome sur Windows lance un petit programme qui charge l’application Web dans un cadre Internet Explorer incorporé. Ce programme nécessite l’installation de l’une des versions d’Internet Explorer pris en charge pour que Web App se charge correctement.
+&#x2778;'accès à l’application Web à partir de Chrome sur Windows lance un petit programme qui charge l’application web dans un cadre Internet Explorer incorporé. Ce programme nécessite l’installation de l’une des versions d’Internet Explorer pris en charge pour que Web App se charge correctement.
   
 > [!NOTE]
-> Les utilisateurs de Microsoft 365 et Office 365 peuvent utiliser Internet Explorer 10 ou une ultérieure avec Skype Entreprise. 
+> Microsoft 365 et Office 365 utilisateurs peuvent utiliser Internet Explorer 10 ou une Skype Entreprise. 
   
 ### <a name="skype-meetings-app"></a>Application Réunions Skype
 
-L’application Réunions Skype s’exécute en tant qu’application sur des ordinateurs utilisant Windows 10, Windows 8.1, Windows 8, Windows 7, avec Internet Explorer 11 32 et 64 bits ou ultérieur installé. 
+Skype Meetings App s’exécute en tant qu’application sur des ordinateurs utilisant Windows 10, Windows 8.1, Windows 8, Windows 7, avec Internet Explorer 11 32 et 64 bits ou ultérieur installé. 
   
-Pour toute autre dépendance, reportez-vous aux plateformes prise en [charge pour l’application Réunions Skype](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+Pour toutes les autres dépendances, reportez-vous aux plateformes prise en charge [pour Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
 ### <a name="skype-for-business-for-mac"></a>Skype Entreprise pour Mac
 
@@ -85,21 +85,21 @@ Skype Entreprise pour Mac s’exécute sur des ordinateurs utilisant macOS versi
 ## <a name="hardware-requirements"></a>Configuration matérielle requise
 <a name="OS-Browser"> </a>
 
-La configuration matérielle requise est déterminée par le système d’exploitation et le navigateur. Les fonctionnalités vocales et téléphoniques nécessitent un microphone et des haut-parleurs, un casque avec microphone ou un périphérique équivalent compatible avec l’ordinateur. Les fonctionnalités vidéo nécessitent un périphérique vidéo compatible avec l’ordinateur. Pour plus d’informations sur la prise en charge du matériel vidéo et la qualité vidéo attendue, voir résolutions vidéo [du client Skype Entreprise.](video-resolutions.md)
+La configuration matérielle requise est déterminée par le système d’exploitation et le navigateur. Les fonctionnalités vocales et téléphoniques nécessitent un microphone et des haut-parleurs, un casque avec microphone ou un périphérique équivalent compatible avec l’ordinateur. Les fonctionnalités vidéo nécessitent un périphérique vidéo compatible avec l’ordinateur. Pour plus d’informations sur la prise en charge du matériel vidéo et la qualité vidéo attendue, [voir Skype Entreprise résolutions vidéo clientes.](video-resolutions.md)
   
 ## <a name="network-requirements"></a>Configuration réseau requise
 <a name="Network"> </a>
 
-Si un utilisateur de Skype Entreprise Web App ou de l’application Réunions Skype rencontre des problèmes de connexion, il est fort possible que l’infrastructure réseau de son organisation ne soit pas configurée pour prendre en charge Office 365, comme décrit dans les URL et [plages d’adresses IP Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) C’est le cas si la réunion a été créée par un utilisateur de Skype Entreprise Online ou Skype Entreprise Server. 
+Si un utilisateur de l’application réunions Application Web Skype Entreprise ou Skype rencontre des problèmes de connexion, il est fort possible que l’infrastructure réseau de son organisation ne soit pas configurée pour prendre en charge les Office 365 comme décrit dans les URL et [plages d’adresses IP Office 365.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) C’est le cas si la réunion a été créée par un utilisateur de Skype Entreprise Online ou Skype Entreprise Server. 
   
 Si l’utilisateur se trouve sur un réseau qui n’est pas configuré comme décrit, de nombreuses fonctionnalités d’application peuvent ou non fonctionner et ne pas être en mesure de se connecter à la réunion.
   
 ## <a name="supported-meetings-features"></a>Fonctionnalités de réunions prise en charge
 <a name="BKMK_Conferencing"> </a>
 
-Ce tableau compare les fonctionnalités réunions disponibles pour les utilisateurs du client Skype Entreprise, Skype Entreprise Web App, Skype Meetings App et Lync Web App. Lync Web App est répertorié à des fins de comparaison des fonctionnalités : un utilisateur téléchargerait et utiliserait uniquement Lync Web App si la réunion était hébergée sur un serveur Lync 2013.
+Ce tableau compare les fonctionnalités Réunions disponibles pour les utilisateurs du client Skype Entreprise, Application Web Skype Entreprise, Skype Meetings App et Lync Web App. Lync Web App est répertorié à des fins de comparaison des fonctionnalités : un utilisateur téléchargerait et utiliserait uniquement Lync Web App si la réunion était hébergée sur un serveur Lync 2013.
 
-| Fonctionnalité/fonctionnalité | Client Skype Entreprise 2016 ou 2019 | Client Skype Entreprise sur Mac | Application Réunions Skype | Skype Entreprise Web App | Lync Web App |
+| Fonctionnalité/fonctionnalité | Skype Entreprise client 2016 ou 2019 | Skype Entreprise client mac | Application Réunions Skype | Skype Entreprise Web App | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Ajouter l’audio de l’ordinateur  <br/> |&#x2714;|&#x2714;|&#x2714; (nécessite un plug-in)  <br/> |&#x2714; (nécessite un plug-in)  <br/> |&#x2714; (nécessite un plug-in)  <br/> |
 |Ajouter la vidéo  <br/> |&#x2714;|&#x2714;|&#x2714; (nécessite un plug-in)  <br/> |&#x2714; (nécessite un plug-in)  <br/> |&#x2714; (nécessite un plug-in)  <br/> |
@@ -112,7 +112,7 @@ Ce tableau compare les fonctionnalités réunions disponibles pour les utilisate
 |Prendre part à une conversation par messagerie instantanée à plusieurs  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Définir les messages instantanés comme étant de haute importance  <br/> |&#x2714;|||||
 |Partager le Bureau (si activée)  <br/> |&#x2714;|&#x2714;|&#x2714; (nécessite un plug-in)  <br/> |&#x2714; (nécessite un plug-in)  <br/> |&#x2714; (nécessite un plug-in)  <br/> |
-|Partager un programme (si activée)  <br/> |&#x2714;||&#x2714;(sur Windows uniquement ; nécessite un plug-in)  <br/> |&#x2714;(sur Windows uniquement ; nécessite un plug-in)  <br/> |&#x2714;(sur Windows uniquement ; nécessite un plug-in)  <br/> |
+|Partager un programme (si activée)  <br/> |&#x2714;||&#x2714;(Sur Windows uniquement ; nécessite un plug-in)  <br/> |&#x2714;(Sur Windows uniquement ; nécessite un plug-in)  <br/> |&#x2714;(Sur Windows uniquement ; nécessite un plug-in)  <br/> |
 |Prendre le contrôle du bureau ou du programme partagé d’un autre utilisateur  <br/> |&#x2714;||&#x2714; (&#x2776; sur Windows uniquement ; nécessite un plug-in)  <br/> |&#x2714; (&#x2776; sur Windows uniquement ; nécessite un plug-in)  <br/> |&#x2714; (&#x2776; sur Windows uniquement ; nécessite un plug-in)  <br/> |
 |Laisser un autre utilisateur prendre le contrôle de votre bureau ou programme partagé  <br/> |&#x2714;|||||
 |Ajouter des participants anonymes (si activée)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -124,24 +124,24 @@ Ce tableau compare les fonctionnalités réunions disponibles pour les utilisate
 |Enregistrer une réunion  <br/> |&#x2714;|||||
 |Ajouter et télécharger des pièces jointes  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Ajouter et présenter des fichiers Microsoft PowerPoint  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Naviguer dans les fichiers Microsoft PowerPoint  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Ajouter et modifier des notes de réunion OneNote  <br/> |&#x2714;||Modifier uniquement (pas ajouter)  <br/> |Modifier uniquement (pas ajouter)  <br/> |Modifier uniquement (pas ajouter)  <br/> |
+|Naviguer dans les fichiers PowerPoint Microsoft  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Ajouter et modifier des OneNote de réunion  <br/> |&#x2714;||Modifier uniquement (pas ajouter)  <br/> |Modifier uniquement (pas ajouter)  <br/> |Modifier uniquement (pas ajouter)  <br/> |
 |Utiliser un tableau blanc  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Mener des sondages  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Télécharger des fichiers à partager avec d’autres personnes  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
-|Planifier une réunion ou une conférence  <br/> |Outlook ou Skype Entreprise Web Scheduler  <br/> |Outlook ou Skype Entreprise Web Scheduler  <br/> |Skype Entreprise Web Scheduler  <br/> |Skype Entreprise Web Scheduler  <br/> |Skype Entreprise Web Scheduler  <br/> |
+|Télécharger fichiers à partager avec d’autres personnes  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
+|Planifier une réunion ou une conférence  <br/> |Outlook ou Planificateur Web Skype Entreprise  <br/> |Outlook ou Planificateur Web Skype Entreprise  <br/> |Planificateur Web Skype Entreprise  <br/> |Planificateur Web Skype Entreprise  <br/> |Planificateur Web Skype Entreprise  <br/> |
 |Q &amp; A Manager  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Désactiver la vidéo du participant  <br/> |&#x2714;|||||
 |Désactiver la messagerie instantanée de réunion  <br/> |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |Désactiver le son de l’audience  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Faire de tout le monde un participant  <br/> |&#x2714;|||||
-|Produire une diffusion de réunion Skype  <br/> |&#x2714;|||||
+|Produire une Réunion Skype diffusion  <br/> |&#x2714;|||||
    
- &#x2776; participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Skype Entreprise pour Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Cela ne fonctionne pas non plus pour Skype Entreprise Web App sur Max OSX.
+ &#x2776; participants ne peuvent pas contrôler les bureaux partagés par les utilisateurs de Skype Entreprise pour Mac, Lync pour Mac 2011 ou Communicator pour Mac 2011. Cela ne fonctionne pas non plus pour les Application Web Skype Entreprise sur Max OSX.
   
- &#x2777; pour Skype Entreprise Online, cette fonctionnalité nécessite la conférence RNC Microsoft, la messagerie unifiée Exchange ou un fournisseur tiers de services d’audioconférence.
+ &#x2777; pour Skype Entreprise Online, cette fonctionnalité nécessite la conférence PSTN Microsoft, la messagerie unifiée Exchange ou un fournisseur tiers de services d’audioconférence.
   
- &#x2778; Le client Lync pour Mac 2011 ne peut pas afficher les présentations PowerPoint Microsoft Office 2013 lorsqu’elles ont été partagées dans une conférence par Skype Entreprise Web App.
+ &#x2778; le client Lync pour Mac 2011 ne peut pas afficher les présentations Microsoft Office 2013 PowerPoint lorsqu’elles ont été partagées dans une conférence par le Application Web Skype Entreprise.
   
 ## <a name="known-issues-and-troubleshooting"></a>Problèmes connus et résolution des problèmes
 <a name="BKMK_Conferencing"> </a>
@@ -156,19 +156,19 @@ Pour les utilisateurs finaux, [l’aide en ligne](https://aka.ms/smahelp) pour c
     
 - Les utilisateurs peuvent voir un avertissement de pare-feu la première fois qu’ils exécutent l’application de réunions. Ils peuvent être invités à ouvrir des ports pour optimiser l’expérience, ce qui peut nécessiter des privilèges d’administrateur sur l’ordinateur qu’ils n’ont peut-être pas. L’application doit toujours fonctionner et l’utilisateur peut refuser en toute sécurité d’ouvrir les ports demandés. 
     
-- Vous devez avoir [activé ActiveX](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) sans filtrage dans Internet Explorer, même si Internet Explorer n’est pas votre navigateur par défaut. Dans Skype Entreprise Web App, un contrôle ActiveX (un petit module qui ajoute des fonctionnalités supplémentaires à une application web ou à un autre programme) est requis pour l’audio, la vidéo et le partage d’écran.
+- Vous devez avoir activé [ActiveX](https://support.office.com/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) sans filtrage dans Internet Explorer, même si Internet Explorer n’est pas votre navigateur par défaut. Dans Application Web Skype Entreprise, un contrôle ActiveX (un petit module qui ajoute des fonctionnalités supplémentaires à une application web ou à un autre programme) est requis pour l’audio, la vidéo et le partage d’écran.
     
-- Pour que certaines fonctionnalités de Skype Entreprise Web App fonctionnent correctement, vous devez autoriser votre navigateur à enregistrer les [cookies](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) sur votre ordinateur ou appareil.
+- Pour que certaines fonctionnalités Application Web Skype Entreprise fonctionnent correctement, vous devez autoriser votre navigateur à enregistrer les [cookies](https://support.office.com/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) sur votre ordinateur ou appareil.
     
-- Vous devrez peut-être activer la prise en charge [de JavaScript](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) dans votre navigateur pour que certaines fonctionnalités de Skype Entreprise Web App fonctionnent comme prévu.
+- Vous devrez peut-être activer la prise en charge [de JavaScript](https://support.office.com/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) dans votre navigateur pour que certaines fonctionnalités Application Web Skype Entreprise fonctionnent comme prévu.
     
 ### <a name="aes-support"></a>Prise en charge d’AES 
 
-À partir de Skype Entreprise Server 2015 CU5, AES n’est pas pris en charge pour ASP.NET 4.6, ce qui peut entraîner l’échec du démarrage de l’application Réunions Skype. [Les exigences de chiffrement dues à ASP .NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) sont plus détaillées.
+Depuis Skype Entreprise Server CU5 2015, AES n’est pas pris en charge pour ASP.NET 4.6, ce qui peut entraîner l’échec du démarrage de Skype Meetings App. [Les exigences de chiffrement en ASP.NET 4.5](../security/user-and-client-authentication.md#cryptographic-requirements-due-to-asp-net-45) sont plus détaillées.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="BKMK_Conferencing"> </a>
 
 [Déployer des clients web téléchargeables dans Skype Entreprise Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-[Plateformes prise en charge pour l’application Réunions Skype](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Plateformes pris en charge pour Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

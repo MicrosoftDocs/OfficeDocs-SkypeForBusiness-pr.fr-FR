@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Skype Entreprise En ligne vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfinie qui peuvent couvrir la plupart des scénarios.
-ms.openlocfilehash: f9d99789bdb400cee9b7597bfcdc4079c1d3612d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 4db20c286f342662adffeeaeae17737651791f56f74be6558138756b7e65e767
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240143"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282387"
 ---
 # <a name="create-custom-external-access-policies"></a>Créer des stratégies d'accès externe personnalisées
 
@@ -32,7 +32,7 @@ ms.locfileid: "52240143"
 
 Skype Entreprise En ligne vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfinie qui peuvent couvrir la plupart des scénarios. Voici ce qui s’intait :
   
-- Pas d’accès Skype fédéré ou non _(balise :NoFederationAndPIC)_
+- Pas d’accès grand public Skype fédéré ou non (_Tag:NoFederationAndPIC)_
     
 - Accès fédéré uniquement (_Balise:FédérationOnly)_
     
@@ -40,7 +40,7 @@ Skype Entreprise En ligne vous permet de créer des stratégies d’accès exter
     
 Les stratégies externes personnalisées vous permettent de créer des polices supplémentaires qui ne sont pas couvertes par les paramètres ci-dessus. Lorsque la stratégie a été créée, vous devez définir tous les paramètres requis et vous ne pouvez pas les modifier ultérieurement. La création de stratégies personnalisées vous permet de contrôler des fonctionnalités telles que l’accès Skype grand public ou une stratégie de désactivation de l’audio/vidéo cloud public, qui n’était pas couverte par des paramètres prédéfinie. Les stratégies d’accès externe personnalisées suivent la même syntaxe que les stratégies de client, de mobilité et de conférence. Pour en savoir plus sur ces paramètres, [cliquez ici.](/previous-versions//mt228132(v=technet.10))
   
-Pour ce faire, l’utilisateur doit utiliser une version prise en charge de l’application « Exécuter en un clic » 2016 Skype Entreprise qui la prend en charge. La version minimale suivante du client « Skype Entreprise - Exécuter en un clic 2016 est requise :
+Pour ce faire, l’utilisateur doit utiliser une version prise en charge de l’application « Exécuter en un clic » 2016 Skype Entreprise qui la prend en charge. La version minimale suivante Skype Entreprise client « Click-to-Run 2016 ) est requise :
   
 |**Type**|**Date de publication**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
@@ -54,7 +54,7 @@ Pour ce faire, l’utilisateur doit utiliser une version prise en charge de l’
 ## <a name="start-windows-powershell"></a>Démarrer Windows PowerShell
 
 > [!NOTE]
-> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
@@ -90,7 +90,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
     
   - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation du Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+- Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
   - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -98,7 +98,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

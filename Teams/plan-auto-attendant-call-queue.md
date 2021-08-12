@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les files d’attente et les files d’attente automatiques et comment les utiliser pour aider les appelants à se déplacer dans un système de menus pour atteindre des personnes ou des services de votre organisation.
-ms.openlocfilehash: 51ab11603a957dad9748def3a1508de6e42577f5
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: 45617fa683c726cf7f2432fed6008b6626ae30ad1a551db842974ea7a9bc18c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310453"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier la mise Teams automatiques et des files d’attente d’appels
 
@@ -199,7 +199,7 @@ Une fois que vous avez terminé les tâches de planification de cet article, sui
 
 1. Obtenez les numéros de service dont vous avez besoin pour les files d’attente et les files d’attente automatiques que vous souhaitez rendre accessibles en appelant directement depuis l’extérieur de votre organisation. Cela peut inclure [le transfert de numéros d’un autre fournisseur](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou la demande de nouveaux numéros de [service.](getting-service-phone-numbers.md)
 
-2. Obtenez une [Système téléphonique - Licence Utilisateur virtuel](teams-add-on-licensing/virtual-user.md) pour chaque compte de ressource que vous prévoyez de créer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier vos comptes de ressources à l’avenir.
+2. Obtenez une [Système téléphonique - Licence Utilisateur virtuel](teams-add-on-licensing/virtual-user.md) pour chaque compte de ressource que vous prévoyez de créer. Ces licences sont gratuites. Nous vous suggérons donc de recevoir quelques supplémentaires au cas où vous décideriez de modifier vos comptes de ressources à l’avenir.
 
 3. [Créez un compte de ressource pour](manage-resource-accounts.md) chaque employé automatique et chaque file d’attente d’appels que vous souhaitez créer. Attribuez à chaque compte une Système téléphonique - Licence Utilisateur virtuel et éventuellement un numéro de service.
 
@@ -218,9 +218,9 @@ Consultez les articles suivants pour plus d’informations sur la création de a
 - [Configurer un attendant automatique](create-a-phone-system-auto-attendant.md)
 - [Créer une file d’attente d’appel](create-a-phone-system-call-queue.md)
 
-Si vous avez besoin de fonctionnalités plus étendues, telles que l’intégration aux flux de travail, aux bots et aux SMS, envisagez [Azure Communication Services.](/azure/communication-services/overview)
+Si vous avez besoin de fonctionnalités plus étendues, telles que l’intégration aux flux de travail, bots et SMS, envisagez [Azure Communication Services.](/azure/communication-services/overview)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Planifier le routage direct](direct-routing-plan.md)
 

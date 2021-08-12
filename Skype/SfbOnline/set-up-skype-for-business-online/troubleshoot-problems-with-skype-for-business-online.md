@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Découvrez comment résoudre les problèmes pour les administrateurs et les utilisateurs d Skype Entreprise dans Microsoft 365 et Office 365.
-ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310103"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Résolution des problèmes liés à Skype Entreprise Online
 
@@ -86,7 +86,7 @@ En tant qu’administrateur de Applications Microsoft 365 pour les PME, vous pou
 > [!NOTE]
 > Si vous utilisez Office 365 géré par 21Vianet en Chine, veuillez [contacter l'équipe de support de 21Vianet](/microsoft-365/Admin/contact-support-for-business-products).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

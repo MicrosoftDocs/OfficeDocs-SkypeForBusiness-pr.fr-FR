@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Le serveur frontal ne peut pas exister en tant qu’ordinateur autonome. Il doit être défini comme un pool frontal, même s’il n’y a qu’un seul ordinateur dans le pool.
-ms.openlocfilehash: 7675ba119fa2937d765d5f4e497fca0a040b3b62
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 962948c02e8890fce05db513e4839b4e179d23ebfad83e98003a88122e538d9a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281357"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>Supprimer un serveur frontal d’un pool
 
 Le serveur frontal ne peut pas exister en tant qu’ordinateur autonome. Il doit être défini comme un pool frontal, même s’il n’y a qu’un seul ordinateur dans le pool.
   
-Cette rubrique vous guide tout au long du processus de suppression d’un serveur frontal individuel d’un pool frontal existant. Si le serveur frontal est le dernier serveur du pool ou si vous supprimez complètement le pool, voir Supprimer le pool frontal ou [le serveur Standard Edition.](remove-front-end-pool-or-standard-edition-server.md) Il n’est pas nécessaire de supprimer les serveurs frontux individuels avant de supprimer le pool frontal. Lorsque vous supprimez le pool, vous supprimez chaque serveur frontal.
+Cette rubrique vous guide tout au long du processus de suppression d’un serveur frontal individuel d’un pool frontal existant. Si le serveur frontal est le dernier serveur du pool ou si vous supprimez complètement le pool, voir Supprimer le pool frontal ou [Édition Standard serveur.](remove-front-end-pool-or-standard-edition-server.md) Il n’est pas nécessaire de supprimer les serveurs frontux individuels avant de supprimer le pool frontal. Lorsque vous supprimez le pool, vous supprimez chaque serveur frontal.
   
 ### <a name="to-remove-a-front-end-server-from-a-pool"></a>Pour supprimer un serveur frontal d’un pool
 
-1. Sur le serveur frontal Skype Entreprise Server 2019, ouvrez le Générateur de topologie.
+1. Sur le Skype Entreprise Server frontal 2019, ouvrez le Générateur de topologie.
     
 2. Accédez au nœud d’installation hérité.
     
-3. Développez les pools frontux **Enterprise Edition,** développez le pool frontal avec le serveur frontal à supprimer, cliquez avec le bouton droit sur le serveur frontal à supprimer, puis cliquez sur **Supprimer.**
+3. Développez **Êdition Entreprise pools** frontux, développez le pool frontal avec le serveur frontal à supprimer, cliquez avec le bouton droit sur le serveur frontal à supprimer, puis cliquez sur **Supprimer.**
     
 

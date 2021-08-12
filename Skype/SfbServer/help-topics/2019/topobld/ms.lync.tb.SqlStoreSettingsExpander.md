@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour modifier les propriétés d’une base SQL Server de données, vous devez modifier l’instance SQL Server base de données. Vous ne pouvez pas utiliser la boîte de dialogue Modifier les propriétés pour effectuer des tâches comme le déplacement de votre base de données de serveur d’archivage d’un ordinateur sur un autre. En outre, vous ne pouvez pas utiliser la boîte de dialogue Modifier les propriétés pour modifier l’instance de SQL Server qui héberge le magasin central de gestion.
-ms.openlocfilehash: 96eeb4302bd904fe3622e7135d34d374f56766e4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c40f50ad7b2341c62b26fd973fd8b91061f49675ed0ca31813a893ba31f2b0e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309793"
 ---
 # <a name="sql-store-settings-expander"></a>Expandeur des paramètres du magasin SQL
  

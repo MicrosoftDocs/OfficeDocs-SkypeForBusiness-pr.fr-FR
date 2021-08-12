@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 02afbcc062501a14f0d5d9f3ed905b88b4060992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f384baff6aa12b241e69e0214f5aa9561e5c1df68970c949d9448a344b94cb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282557"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Outils et ateliers : planifier, fournir et adopter Microsoft Teams
 
@@ -42,9 +42,9 @@ Téléchargez ces outils pour vous orienter dans la planification, la livraison 
 
 - [Office 365 Secteur Public Clients](plan-for-government-gcc.md)
 
-   Votre parcours vers Teams est très comme l’expérience de nos clients d’entreprise. À mesure Teams deviennent disponibles pour vos clients, nous vous encourageons à commencer avec notre article Plan pour le gouvernement Microsoft 365 [- déploiements](plan-for-government-gcc.md) Cloud de la communauté du secteur public et guide de démarrage rapide de l’administrateur. [](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Notre [vue d’ensemble de la](security-compliance-overview.md) sécurité et de la conformité vous permettra de vous sentir en confiance Teams de votre environnement.
+   Votre parcours vers Teams’est très comme l’expérience de nos clients d’entreprise. À mesure Teams deviennent disponibles pour vos clients, nous vous encourageons à commencer avec notre article Plan pour le gouvernement Microsoft 365 [- déploiements](plan-for-government-gcc.md) Cloud de la communauté du secteur public et guide de démarrage rapide de l’administrateur. [](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) Notre [vue d’ensemble de la](security-compliance-overview.md) sécurité et de la conformité vous permettra de vous sentir en confiance Teams de votre environnement.
 
-- [Teams Éducation - Démarrage rapide pour les administrateurs](./teams-quick-start-edu.yml)
+- [Teams pour l’éducation - Démarrage rapide pour les administrateurs](./teams-quick-start-edu.yml)
 
     Utilisez ce didacticiel pour vous guide dans le Teams de votre organisation Éducation.
 

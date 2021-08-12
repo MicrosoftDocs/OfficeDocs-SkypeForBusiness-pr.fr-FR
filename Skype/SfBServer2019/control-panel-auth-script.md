@@ -1,5 +1,5 @@
 ---
-title: Script d’authentification du panneau de contrôle Skype Entreprise Server 2019
+title: Skype Entreprise Server authentification du panneau de contrôle 2019
 ms.reviewer: rogupta
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Script d’aide pour configurer l’authentification du panneau de configuration SFB 2019 avec Microsoft 365 ou Office 365 via le protocole OAuth.
-ms.openlocfilehash: 76f8444e78dfe31e008ea24be31c0e7b788b3130
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+description: Script d’aide pour configurer l’authentification du panneau de configuration SFB 2019 Microsoft 365 ou Office 365 via le protocole OAuth.
+ms.openlocfilehash: c52e799740188e85e41af46339f40f4c29b61c037bc1c28b8257b1001a5b43c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756220"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281497"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Script d’authentification du panneau de contrôle Skype Entreprise Server 2019
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype Entreprise Server authentification du panneau de contrôle 2019
 
 Voici les scripts d’aide associés à l’authentification pour le Panneau de contrôle d’administration moderne (MACP).
 
 ## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>Configurer l’authentification MACP avec Microsoft 365 ou Office 365
 
-Ce script doit être exécuté après l’installation de la mise à jour cumulative 1 ou ultérieure de Skype Entreprise Server 2019, dans le cadre de la mise en place du nouveau Panneau de contrôle. 
+Ce script doit être exécuté après l’installation Skype Entreprise Server mise à jour cumulative 2019 1 ou ultérieure, dans le cadre de la mise en place du nouveau Panneau de contrôle. 
 
 ```powershell
 <#
@@ -133,7 +133,7 @@ Set-CsHybridConfiguration -ClientId $azureADApplication.AppId
 ```
 ## <a name="configure-macp-application-in-adfs-farm"></a>Configurer l’application MACP dans la batterie de serveurs ADFS
 
-Ce script doit être exécuté après l’installation de la dernière mise à jour cumulative de Skype Entreprise Server 2019, dans le cadre de la mise en place du nouveau Panneau de contrôle.
+Ce script doit être exécuté après l’installation Skype Entreprise Server la dernière mise à jour cumulative 2019, dans le cadre de la mise en place du nouveau Panneau de contrôle.
 
 ```powershell
 <#
@@ -311,7 +311,7 @@ Get-AdfsNativeClientApplication -Identifier $clientIdentifier
 ```
 ## <a name="configure-oauth-for-macp"></a>Configurer OAuth pour MACP
 
-Ce script doit être exécuté après l’installation de la dernière mise à jour cumulative de Skype Entreprise Server 2019, dans le cadre de la mise en place du nouveau Panneau de contrôle.
+Ce script doit être exécuté après l’installation Skype Entreprise Server la dernière mise à jour cumulative 2019, dans le cadre de la mise en place du nouveau Panneau de contrôle.
 
 ```powershell
 <#

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), le serveur de médiation associé et d’autres informations basiques sur cette passerelle de réseau téléphonique commuté (PSTN). Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 9b9a9b54a52a78aa0f1262dc2c045785304b104c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d6feb83a76ef1cd1df27e5c03fe7918df0ff7bf8f988e7f2fd1939904e3cc75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281867"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nœud d’étendue de la passerelle PSTN
  

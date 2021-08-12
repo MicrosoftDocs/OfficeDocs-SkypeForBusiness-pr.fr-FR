@@ -20,12 +20,12 @@ description: Configurer des événements en direct dans Teams, notamment configu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cc9f50e2f6a0b2433bbff07e674453a63854bf51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 30dd21b106c68aaad2760800184bc3daf4dd1741c86a19a1ce1f583186d5c3cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282517"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -114,7 +114,7 @@ Une fois que vous avez configuré la solution SDN ou eCDN, vous pouvez configure
 
 Accédez à [Configurer les paramètres d’événements en direct dans Teams](configure-teams-live-events.md).
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 - [Comprendre un événement en direct Teams](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)

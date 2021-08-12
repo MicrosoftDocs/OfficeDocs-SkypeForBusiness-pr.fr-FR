@@ -1,5 +1,5 @@
 ---
-title: 'Filtre de fichiers : création d’un fichier ou modification d’un filtre existant'
+title: 'Filtre de fichiers : en créer une autre ou en modifier une existante'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: bcd41554d7c18f4b77abc74eb17f307623df619a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b85a9b95362d3a9a2122eae02144c8ba959b4b7586420e6225b54ca5a26c1b7a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099810"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309503"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>Filtre de fichier : création d’un nouveau ou modification d’un filtre existant
 
@@ -30,4 +30,4 @@ Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous
 
 - [Créer un filtre de transfert de fichiers pour un site spécifique](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).

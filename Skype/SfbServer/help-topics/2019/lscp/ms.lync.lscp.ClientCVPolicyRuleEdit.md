@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de version du client est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
-ms.openlocfilehash: a461dad500f0c7d3095ef56483a6b592cec6c20d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f30ddcc69ad8ebc4374bfed67b84de0317c584192b58ccb09bf1842eb311bd5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282167"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 
@@ -44,17 +44,17 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 |:-----|:-----|
 |Lync 2013, Lync 2010, Office Communicator  <br/> |OC  <br/> |
 |Lync Web App, Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
-|Communicator Phone Edition Platform  <br/> |CPE  <br/> |
+|Lync Téléphone Edition, Office Communicator Téléphone  <br/> |OCPhone  <br/> |
+|Communicator Téléphone Edition Platform  <br/> |CPE  <br/> |
 |Plateforme de communications unifiées  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
 |Live Meeting Add-In  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
 |Windows Messenger  <br/> |WM  <br/> |
 |Client communications en temps réel  <br/> |RTC  <br/> |
-|Lync 2010 pour iPad  <br/> |iPadLync  <br/> |
-|Lync 2010 pour iPhone  <br/> |iPhoneLync  <br/> |
-|Lync 2010 pour Windows Phone  <br/> |WPLync  <br/> |
+|Lync 2010 for iPad  <br/> |iPadLync  <br/> |
+|Lync 2010 for iPhone  <br/> |iPhoneLync  <br/> |
+|Lync 2010 for Windows Phone  <br/> |WPLync  <br/> |
 |Lync 2010 pour Nokia  <br/> |NokiaLync  <br/> |
 |Lync 2010 pour Android  <br/> |AndroidLync  <br/> |
 |Service de mobilité  <br/> |McxService  <br/> |
@@ -87,16 +87,16 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
   - **Autoriser** Permet au client de se connecter.
 
-  - **Autoriser et mettre à niveau** Permet au client de se connecter et de recevoir des mises à jour à partir de Windows Server Update Service ou De Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
+  - **Autoriser et mettre à niveau** Permet au client de se connecter et de recevoir des mises à jour de Windows Service de mise à jour du serveur ou Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
 
     > [!NOTE]
-    > La sélection de cette action entraîne l’affichage d’une notification la prochaine fois que les utilisateurs se connectent à Skype Entreprise. La notification indique qu’une mise à jour est disponible, même si les mises à jour n’ont pas encore été publiées sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.
+    > La sélection de cette action entraîne l’affichage d’une notification la prochaine fois que les utilisateurs se connectent Skype Entreprise. La notification indique qu’une mise à jour est disponible, même si les mises à jour n’ont pas encore été publiées sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.
 
-  - **Autoriser avec une URL** Permet au client de se connecter et affiche un message sur l’endroit où télécharger une autre version du client. Vous spécifiez l’URL dans le **champ URL.**
+  - **Autoriser avec l’URL** Permet au client de se connecter et affiche un message sur l’endroit où télécharger une autre version du client. Vous spécifiez l’URL dans le **champ URL.**
 
   - **Bloquer** Empêche le client de se connecter.
 
-  - **Bloquer et mettre à niveau** Empêche le client de se connecter et permet au client de recevoir des mises à jour à partir de Windows Server Update Service ou de Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
+  - **Bloquer et mettre à niveau** Empêche le client de se connecter et permet au client de recevoir des mises à jour de Windows Server Update Service ou Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
 
   - **Bloquer avec une URL** empêche le client de se connecter et affiche un message sur l’endroit où télécharger une autre version du client. Vous spécifiez l’URL dans le **champ URL.**
 

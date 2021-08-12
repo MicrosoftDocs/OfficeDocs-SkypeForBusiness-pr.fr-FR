@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Chine (nord), notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, ainsi que les restrictions.
-ms.openlocfilehash: 8aa0a330e51a99dc53ebdacd94e53691dc165367
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c30a0225e552f669300b9f087002712bbe89a986c89693b6431ba7f56c5e04a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116792"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310433"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>Restrictions de numérotation gratuit en Chine- Nord (plage(10 800 714 XXXX) 
 
@@ -47,7 +47,7 @@ ms.locfileid: "51116792"
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Inaccessible à partir d'une cabine téléphonique  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
