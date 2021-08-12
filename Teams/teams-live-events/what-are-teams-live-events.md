@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 83a1311df59ccad264951e8eeffa5052ac2231c15b000e4c25b1a36de227bca9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f18a6963c59aa371715d35b40137946d1b29b163b905d3ef842e8b3ddc434d63
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848259"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Présentation des événements en direct Microsoft Teams
 
@@ -43,7 +43,7 @@ Les événements en direct des équipes sont considérés comme la prochaine ver
 
 C’est parti ! Tout d’abord, regardez le diagramme suivant qui montre les composants de niveau élevés impliqués dans les événements en direct de Microsoft 365 et comment ils sont connectés.
 
-![Les éléments clés des événements en direct](../media/live-event-flow-diagram.png  "Composants clés des événements en direct, planification, production, plateforme Stream, fournisseurs tiers certifiés eCDN")
+![Les éléments clés des événements en direct](../media/live-event-flow-diagram1.png  "Composants clés des événements en direct, planification, production, plateforme Stream, fournisseurs tiers certifiés eCDN")
 
 > [!Note]
 > Nous aimerions souligner que les événements en direct Teams, étant donné la nature de la technologie de diffusion, dépassent souvent les populations de réunions normales (internes).
@@ -91,7 +91,7 @@ L’entrée vidéo est la base de l’événement en direct et vous pouvez utili
 
 La plateforme de diffusion en continu d’événements en direct est composée des éléments suivants :
 
-- **Azure Media Services** :  [Azure Media Services](/azure/media-services/previous/) vous offre des services de diffusion vidéo en continu pour atteindre un public plus large sur les appareils mobiles les plus populaires du moment. Media Services améliore l’accessibilité, la distribution et l’évolutivité, et permettent de diffuser facilement et à moindre coût du contenu auprès de votre public local ou mondial, tout en protégeant votre contenu.
+- **Azure Media Services** :  [Azure Media Services](/azure/media-services/previous/) vous offre des services de diffusion vidéo en continu pour atteindre un public plus large sur les appareils mobiles les plus populaires du moment. Media Services améliore l’accessibilité, la distribution et l’évolutivité, et permettent de diffuser facilement et à faible coût du contenu auprès de votre public local ou international, tout en protégeant votre contenu.
 - **Azure Content Delivery Network (CDN)** :  Une fois votre flux mis en ligne, il est diffusé via [Azure Content Delivery Network (CDN)](/azure/cdn/). Azure Media Services fournit un CDN intégré pour les points de terminaison de diffusion en continu. Cela permet aux flux d’être visualisés dans le monde entier sans mise en mémoire tampon.
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Réseau de diffusion de contenu d’entreprise (eCDN)

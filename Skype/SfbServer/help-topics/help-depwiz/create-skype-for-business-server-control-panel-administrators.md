@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-description: 'Pour accorder l’accès à Skype Entreprise Server 2015, vous pouvez :'
-ms.openlocfilehash: 40c119f99182dc2416a1414db2a2fc143e818352
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Pour accorder l’accès au Skype Entreprise Server 2015, faites les choses suivantes :'
+ms.openlocfilehash: 84be74295a4c6f345fcfb0b852f10d5897974d22219476e583085a0794a6c379
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301640"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Créer des administrateurs du Panneau de configuration Skype Entreprise Server
  
-Pour accorder l’accès à Skype Entreprise Server 2015, vous pouvez :
+Pour accorder l’accès au Skype Entreprise Server 2015, faites les choses suivantes :
   
 1. Ouvrez une session en tant que membre du groupe Administrateurs du domaine ou du groupe RTCUniversalServerAdmins.
     
@@ -37,7 +37,7 @@ Pour accorder l’accès à Skype Entreprise Server 2015, vous pouvez :
 5. Sous l’onglet Membre, confirmez que les utilisateurs ou les groupes que vous avez sélectionnés sont présents. Cliquez sur **OK**.
     
 > [!TIP]
-> Le Panneau de contrôle Skype Entreprise Server est un outil de contrôle d’accès basé sur les rôles. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le Panneau de configuration Skype Entreprise Server un contrôle total pour toutes les fonctions de configuration disponibles. D’autres rôles conçus pour des fonctions spécifiques sont disponibles. Les utilisateurs n’ont pas besoin d’être activés pour Skype Entreprise Server pour être membres des groupes de gestion. 
+> Le Skype Entreprise Server de contrôle d’accès est un outil de contrôle d’accès basé sur un rôle. L’appartenance au groupe CsAdministrator donne à un utilisateur qui utilise le Panneau de configuration Skype Entreprise Server un contrôle total pour toutes les fonctions de configuration disponibles. D’autres rôles conçus pour des fonctions spécifiques sont disponibles. Les utilisateurs n’ont pas besoin d’être activés Skype Entreprise Server pour être membres des groupes de gestion. 
   
 Les autres rôles sont les suivants :
   
@@ -53,10 +53,10 @@ Les autres rôles sont les suivants :
     
 - **CsUserAdministrator :** les membres de ce groupe peuvent gérer, activer et désactiver des utilisateurs, et assigner des stratégies existantes aux utilisateurs.
     
-- **CsViewOnlyAdministrator :** Les membres peuvent afficher le déploiement et la configuration des informations du serveur. Cette appartenance permet à un membre de surveiller l’état d’état des serveurs exécutant Skype Entreprise Server 2015.
+- **CsViewOnlyAdministrator :** Les membres peuvent afficher le déploiement et la configuration des informations du serveur. Cette appartenance permet à un membre de surveiller l’état d’Skype Entreprise Server 2015.
     
 - **CsVoiceAdministrator :** Les membres peuvent créer, configurer et gérer les paramètres liés à la voix dans Skype Entreprise Server.
     
-Pour préserver la sécurité et l’intégrité du contrôle d’accès basé sur les rôles, ajoutez des utilisateurs aux groupes qui définissent le rôle que l’utilisateur joue dans la gestion du déploiement de Skype Entreprise Server.
+Pour vous aider à conserver la sécurité et l’intégrité du contrôle d’accès basé sur les rôles, ajoutez des utilisateurs aux groupes qui définissent le rôle que l’utilisateur joue dans la gestion du Skype Entreprise Server déploiement.
   
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: 'Le nœud Lync Server répertorie les sites centraux de votre topologie. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: fef2ccbf7e321aff7b2538b53f53e4381163d986
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cd97307d5f6f959d40f5f553addce4293aae1cee7e33d8e2572658fb3c7a945a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818194"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338182"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nœud d’étendue racine Skype Entreprise Server
  

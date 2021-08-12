@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c4b95081be4c7a0e900099dd4c81a1807a30bfb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c64e4ffc576bea4a68c8eac41d0cb533aad7e9fa55a97dd5f59d9d2fcb54df27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337892"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Mise à Microsoft Teams version gratuite vers la version par abonnement
 
@@ -36,7 +36,7 @@ Si votre organisation utilise la version gratuite de Microsoft Teams, vous pouve
 
 ## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>Quelle est la Teams gratuite par rapport à la version complète de Teams ?
 
-Teams gratuite est conçue pour les petites et moyennes entreprises et offre les fonctionnalités suivantes :
+Teams gratuite est conçu pour les petites et moyennes entreprises et offre les fonctionnalités suivantes :
 
 - 500 000 utilisateurs au maximum
 - Messages de conversation illimités et recherche

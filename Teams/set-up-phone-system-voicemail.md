@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer des Messagerie vocale infonuagique pour vos utilisateurs. '
-ms.openlocfilehash: c6fbd02e30c5be0280b05088a1cec281c2534039
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316700"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -60,7 +60,7 @@ Pour configurer les utilisateurs Skype Entreprise serveur pour Messagerie vocale
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Activation de la messagerie vocale protégée dans votre organisation
 
-Lorsqu’un utilisateur laisse un message vocal pour un utilisateur de votre organisation, ce dernier est remis dans sa boîte aux lettres sous la mesure où il est joint à un message électronique. En utilisant des règles de flux de courrier pour appliquer le chiffrement des messages, vous pouvez empêcher le courrier d’être transmis à d’autres destinataires. Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou dans Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans des Skype Entreprise ou Microsoft Teams.
+Lorsqu’un utilisateur laisse un message vocal pour un utilisateur de votre organisation, ce dernier est remis dans sa boîte aux lettres sous la mesure où il est joint à un message électronique. En utilisant des règles de flux de courrier pour appliquer le chiffrement des messages, vous pouvez empêcher le courrier d’être transmis à d’autres destinataires. Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans des Skype Entreprise ou Microsoft Teams.
 
 Pour plus d’informations sur le chiffrement des messages, voir [Chiffrement des e-mails.](/microsoft-365/compliance/email-encryption?view=o365-worldwide)
 

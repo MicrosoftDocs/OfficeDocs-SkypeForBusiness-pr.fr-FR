@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Cette rubrique définit les conditions de performances du réseau pour les services Skype Entreprise Online et la manière dont vous pouvez choisir d’utiliser Internet ou ExpressRoute pour établir une connectivité entre votre réseau et Skype Entreprise Online en fonction de votre évaluation de la connectivité réseau. Si vous avez décidé de déployer Azure ExpressRoute pour une connectivité dédiée à Microsoft 365 ou Office 365, ce document fournit également des instructions sur la façon de planifier vos connexions ExpressRoute selon différents scénarios de déploiement d’Skype Entreprise Online.
-ms.openlocfilehash: 0bb750be4d4c21c8fec3cc8dc5d0ab5cf0b4cb6a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1ab00ad969b7de6432607abfdd0b9a7d4adaa579ca7274eedb98890291a615d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326680"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Qualité multimédia et performances de connectivité réseau dans Skype Entreprise Online
 
@@ -342,7 +342,7 @@ Voici une autre option de déploiement pour Contoso. Dans ce cas, ils ont décid
   
 ![Deux ExpressRoute Cloud Connector.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
 

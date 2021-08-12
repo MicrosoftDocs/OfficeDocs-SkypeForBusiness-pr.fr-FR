@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 9a711020358a4aaa6860b4bec9341c1db89e2606
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7593dfcd17a47e2bac6f167b19a4643afde5fe8c35645a2bb9e10b6466be58ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115070"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301556"
 ---
 # <a name="users-view-voice-policy"></a>Utilisateurs : afficher une stratégie de voix
 
@@ -30,4 +30,4 @@ Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous
 
 - [Modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).

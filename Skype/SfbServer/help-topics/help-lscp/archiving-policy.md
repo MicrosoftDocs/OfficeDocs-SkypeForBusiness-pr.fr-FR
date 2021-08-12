@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
-description: 'Les stratégies d’archivage vous permettent d’activer et de désactiver l’archivage pour les utilisateurs de Skype Entreprise Server. Dans chaque stratégie d’archivage, vous pouvez activer ou désactiver l’archivage pour l’une des opérations suivantes ou les deux :'
-ms.openlocfilehash: 19bc0612208e719b7a963bf4c7f0dc6a9cc69537
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Vous utilisez les stratégies d’archivage pour activer et désactiver l’archivage pour les utilisateurs Skype Entreprise Server. Dans chaque stratégie d’archivage, vous pouvez activer ou désactiver l’archivage pour l’une des opérations suivantes ou les deux :'
+ms.openlocfilehash: e4c51ed2103bf7abee6bc91fd4a5bd44cb68a2556ec409757d064ecdd7f745d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826944"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301610"
 ---
 # <a name="archiving-policy"></a>Stratégie d’archivage
  
-Les stratégies d’archivage vous permettent d’activer et de désactiver l’archivage pour les utilisateurs de Skype Entreprise Server. Dans chaque stratégie d’archivage, vous pouvez activer ou désactiver l’archivage pour l’une des opérations suivantes ou les deux :
+Vous utilisez les stratégies d’archivage pour activer et désactiver l’archivage pour les utilisateurs Skype Entreprise Server. Dans chaque stratégie d’archivage, vous pouvez activer ou désactiver l’archivage pour l’une des opérations suivantes ou les deux :
   
 - Communications internes
     
@@ -39,7 +39,7 @@ Les stratégies d’archivage incluent la stratégie globale et, éventuellement
 - **Stratégie utilisateur (facultative)** Vous pouvez spécifier une ou plusieurs stratégies d’archivage utilisateur, que vous pouvez configurer pour activer et désactiver l’archivage des communications internes ou externes pour un utilisateur ou un groupe d’utilisateurs spécifique. Une stratégie utilisateur remplace la stratégie globale et les stratégies de site, mais uniquement pour les utilisateurs et les groupes d’utilisateurs auxquels vous attribuez des stratégies d’archivage au niveau de l’utilisateur. Vous pouvez modifier ou supprimer les stratégies utilisateur.
     
 > [!NOTE]
-> Les stratégies d’archivage s’appliquent uniquement aux utilisateurs sur Skype Entreprise Server. Si vous utilisez l’intégration Exchange pour stocker des données d’archivage dans Microsoft Exchange, les stratégies Exchange 2013 contrôlent l’archivage pour les utilisateurs d’Exchange 2013. Pour activer l’archivage pour ces utilisateurs, la boîte aux lettres de l’utilisateur doit être placée en In-Place archive. 
+> Les stratégies d’archivage s’appliquent uniquement aux utilisateurs Skype Entreprise Server. Si vous utilisez l’intégration Exchange pour stocker les données d’archivage dans Microsoft Exchange, les stratégies Exchange 2013 contrôlent l’archivage pour les utilisateurs Exchange 2013. Pour activer l’archivage pour ces utilisateurs, la boîte aux lettres de l’utilisateur doit être placée en In-Place archive. 
   
 La page **Stratégie d’archivage** répertorie chaque stratégie d’archivage configurée pour votre déploiement. Il indique également le nom de la stratégie, l’étendue (globale, de site ou utilisateur) et les options d’archivage activées pour chaque stratégie d’archivage. Dans la page **Stratégie d’archivage,** vous avez les options suivantes :
 - **Nouveau** Vous pouvez ajouter une ou plusieurs des stratégies d’archivage facultatives suivantes :
@@ -68,5 +68,5 @@ La page **Stratégie d’archivage** répertorie chaque stratégie d’archivage
     
 - **Actualiser** Vous pouvez actualiser la page **Stratégie** d’archivage pour vérifier l’état des options de toutes les stratégies d’archivage.
     
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, y compris l’intégration d’Exchange, voir [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server 2015,](../../plan-your-deployment/archiving/archiving.md)Déployer l’archivage pour [Skype Entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et Gérer l’archivage dans [Skype Entreprise Server 2015.](../../manage/archiving/archiving.md)
 

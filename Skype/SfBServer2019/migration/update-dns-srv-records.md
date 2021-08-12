@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Pour effectuer correctement cette procédure, vous devez être connecté au serveur ou au domaine en tant que membre du groupe Administrateurs du domaine ou du groupe DnsAdmins.
-ms.openlocfilehash: 26bb80618868a2bec03d1de32f6c010869b8cf8c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0c3454bd4fbf8ecdc28730da378357e9d50efec3c12ba5b3926abb61010979ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327050"
 ---
 # <a name="update-dns-srv-records"></a>Mettre à jour les enregistrements SRV DNS
 
@@ -28,11 +28,11 @@ Cette rubrique décrit comment mettre à jour les enregistrements DNS (Domain Na
 
 1. Sur le serveur DNS, cliquez sur **Démarrer**, sur **Outils d’administration**, puis sur **DNS**.
     
-2. Dans l’arborescence de la console pour votre domaine SIP, développez zones de recherche **avant,** développez le domaine SIP dans lequel Skype Entreprise Server 2019 est installé et accédez au **paramètre _tcp.** 
+2. Dans l’arborescence de la console pour votre domaine SIP, développez zones de recherche **avant,** développez le domaine SIP dans lequel Skype Entreprise Server 2019 est installé et accédez au **paramètre _tcp..** 
     
 3. Dans le volet droit, cliquez avec le bouton **droit sur _sipinternaltls** puis sélectionnez **Propriétés.**
     
-4. Dans **l’offre hôte de ce service,** mettez à jour le nom de domaine complet de l’hôte pour qu’il pointe vers le pool Skype Entreprise Server 2019.
+4. Dans **host offering this service**, update the host FQDN to point to the Skype Entreprise Server 2019 pool.
     
 5. Cliquez sur **OK**.
     

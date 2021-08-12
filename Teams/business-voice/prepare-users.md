@@ -1,5 +1,5 @@
 ---
-title: Comment puis-je préparer mes utilisateurs pour Microsoft 365 Business Voice ?
+title: Comment puis-je préparer mes utilisateurs pour Microsoft 365 Business Voice ?
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,16 +17,16 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72cb35b2927dfb8cc1db65018d107bc209fd7ed2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af0d35bf1c7183926607ec2aa6b35d0e74c67133a97fb8eb7de57b5acc45c053
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301969"
 ---
-# <a name="how-do-i-get-my-users-ready-for-microsoft-365-business-voice"></a>Comment puis-je préparer mes utilisateurs pour Microsoft 365 Business Voice ?
+# <a name="how-do-i-get-my-users-ready-for-microsoft-365-business-voice"></a>Comment puis-je préparer mes utilisateurs pour Microsoft 365 Business Voice ?
 
-Il est recommandé de préparer vos utilisateurs avant de configurer Business Voice :
+Il est recommandé de préparer vos utilisateurs avant de configurer Business Voice :
 - Assurez-vous que Microsoft Teams et Microsoft Office sont installés sur leur ordinateur. 
 - Configurez les appareils nécessaires sur leur ordinateur.
 - Montrez-leur la configuration de messages d'accueil pour la messagerie vocale et d'autres fonctions Business Voice.
@@ -43,16 +43,16 @@ Vous devez utiliser un [navigateur pris en charge](../get-clients.md#web-client)
 
 ## <a name="choose-devices-for-teams-and-business-voice"></a>Choisir les appareils pour Teams et Business Voice
 
-Les utilisateurs Business Voice ont besoin d'un microphone et de haut-parleurs pour passer et recevoir des appels téléphoniques. Il existe de nombreuses options en fonction des besoins de chaque utilisateur ou environnement. Voici quelques suggestions à prendre en considération lorsque vous décidez de ce qu'il faut se procurer :
+Les utilisateurs Business Voice ont besoin d'un microphone et de haut-parleurs pour passer et recevoir des appels téléphoniques. Il existe de nombreuses options en fonction des besoins de chaque utilisateur ou environnement. Voici quelques suggestions à prendre en considération lorsque vous décidez de ce qu'il faut se procurer :
 
-* **Utilisateurs mobiles ou utilisateurs dans des environnements bruyants** : envisagez d'utiliser des casques USB ou sans fil avec microphones. Couplé à Microsoft Teams, un ordinateur peut s'utiliser comme un téléphone tant qu'il dispose d'une connexion Internet.
-* **Réceptionnistes et cadres :** des combinés de bureau multifonctions complets peuvent être utilisés, comme les téléphones classiques. La numérotation automatique, les conférences, le mode mains libres et les supports de casques rendent ces appareils extrêmement flexibles.
-* **Les salles de conférence** : les appareils d'audioconférence vous permettent de configurer des salles de conférence avec la fonctionnalité mains livres qui peut être utilisée avec les ponts de conférence Teams pour accueillir de plus grandes réunions.
+* **Utilisateurs mobiles ou utilisateurs dans des environnements bruyants** : envisagez d'utiliser des casques USB ou sans fil avec microphones. Couplé à Microsoft Teams, un ordinateur peut s'utiliser comme un téléphone tant qu'il dispose d'une connexion Internet.
+* **Réceptionnistes et cadres :** des combinés de bureau multifonctions complets peuvent être utilisés, comme les téléphones classiques. La numérotation automatique, les conférences, le mode mains libres et les supports de casques rendent ces appareils extrêmement flexibles.
+* **Les salles de conférence** : les appareils d'audioconférence vous permettent de configurer des salles de conférence avec la fonctionnalité mains livres qui peut être utilisée avec les ponts de conférence Teams pour accueillir de plus grandes réunions.
 
-Si vous utilisez un appareil USB ou sans fil, branchez-le à un ordinateur qui exécute Teams. Il se peut que vous deviez utiliser les paramètres de l’appareil dans Teams : sélectionnez votre photo de profil en haut de Teams, puis sélectionnez **Paramètres** > **Appareils**. Sélectionnez votre appareil à partir des **Appareils audio**. Si votre appareil n’existe pas dans Teams, suivez les instructions du fabricant pour le configurer sur votre ordinateur.
+Si vous utilisez un appareil USB ou sans fil, branchez-le à un ordinateur qui exécute Teams. Il se peut que vous deviez utiliser les paramètres de l’appareil dans Teams : sélectionnez votre photo de profil en haut de Teams, puis sélectionnez **Paramètres** > **Appareils**. Sélectionnez votre appareil à partir des **Appareils audio**. Si votre appareil n’existe pas dans Teams, suivez les instructions du fabricant pour le configurer sur votre ordinateur.
 
 > [!NOTE]
-> Pour tester Teams, les haut-parleurs et votre microphone et vous assurer que tout fonctionne correctement, suivez les étapes décrites dans [Vérifier que vos appareils en réseau peuvent accéder à Microsoft 365](get-ready-internet.md#make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365).
+> Pour tester Teams, les haut-parleurs et votre microphone et vous assurer que tout fonctionne correctement, suivez les étapes décrites dans [Vérifier que vos appareils en réseau peuvent accéder à Microsoft 365](get-ready-internet.md#make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365).
 
 Pour afficher tous les appareils pris en charge par Teams, visitez le [magasin des appareils Teams](https://products.office.com/microsoft-teams/across-devices/devices). Pour acheter des appareils, contactez votre revendeur local. La plupart des principales boutiques en ligne proposent également la plupart des appareils Teams.
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Résumé : Affectez un certificat d’authentification de serveur à serveur pour Skype Entreprise Server.'
-ms.openlocfilehash: 122c2a1783fe4370027b4412ae5be8058e4914ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b3d662dc3d0e18f0aefd1d8e643e09554fc39d652d31ac0bf8ed5540a5e34d8f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338148"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Affecter un certificat d’authentification de serveur à serveur à Skype Entreprise Server
 **Résumé :** Affecter un certificat d’authentification de serveur à serveur pour Skype Entreprise Server.
@@ -62,15 +62,15 @@ Le 1er juillet 2015, le nouveau certificat sera configuré en tant que certifica
 Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez aussi faire appel à la console MMC Certificats pour exporter un certificat d’un serveur frontal puis l’importer sur tous vos autres serveurs frontaux. Assurez-vous dans ce cas d’exporter la clé privée en plus du certificat même.
   
 > [!CAUTION]
-> Dans ce cas, vous devez effectuer la procédure sur chaque serveur frontal. Lors de l’exportation et de l’importation de certificats de cette manière, Skype Entreprise Server ne réplique pas ce certificat sur chaque serveur frontal. 
+> Dans ce cas, vous devez effectuer la procédure sur chaque serveur frontal. Lors de l’exportation et de l’importation de certificats de cette Skype Entreprise Server ne réplique pas ce certificat sur chaque serveur frontal. 
   
-Une fois que le certificat a été importé sur tous vos serveurs frontux, ce certificat peut être affecté à l’aide de l’Assistant Déploiement de Skype Entreprise Server au lieu de Windows PowerShell. Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez les étapes suivantes sur un ordinateur où l’Assistant est installé :
+Une fois que le certificat a été importé sur tous vos serveurs frontux, ce certificat peut être affecté à l’aide de l’Assistant Déploiement Skype Entreprise Server au lieu de Windows PowerShell. Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez les étapes suivantes sur un ordinateur où l’Assistant est installé :
   
-1. Cliquez sur Démarrer, sur Tous les programmes, sur Skype Entreprise **Server,** puis sur Assistant Déploiement de **Skype Entreprise Server.**
+1. Cliquez sur Démarrer, sur Tous **les programmes, sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
     
-2. Dans l’Assistant Déploiement, cliquez sur **Installer ou mettre à jour le système Skype Entreprise Server.**
+2. Dans l’Assistant Déploiement, cliquez sur Installer ou mettre **à jour Skype Entreprise Server système.**
     
-3. Dans la page Skype Entreprise  Server, cliquez sur le bouton Exécuter sous l’en-tête **Étape 3 : Demander,** installer ou attribuer des certificats. (Remarque : Si vous avez déjà installé des certificats sur cet ordinateur, le bouton **Exécuter** s’appelle **Réexécuter**.)
+3. Dans la page Skype Entreprise Server, cliquez  sur le bouton Exécuter sous l’en-tête **Étape 3 : Demander,** installer ou attribuer des certificats. (Remarque : Si vous avez déjà installé des certificats sur cet ordinateur, le bouton **Exécuter** s’appelle **Réexécuter**.)
     
 4. Dans l’Assistant Certificat, sélectionnez le certificat **OAuthTokenIssuer**, puis cliquez sur **Affecter**.
     

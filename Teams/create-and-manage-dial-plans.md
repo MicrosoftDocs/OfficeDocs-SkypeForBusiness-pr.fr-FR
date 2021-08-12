@@ -21,16 +21,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le Centre Microsoft Teams d’administration Windows PowerShell pour créer et gérer des plans de numérotation (plans de numérotation PSTN).
-ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849199"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
-Après avoir plané les plans de numérotation de votre organisation et compris toutes les règles de normalisation à créer pour le routage des appels, vous êtes prêt à créer les plans de numérotation. Avec un compte d’administrateur dispose d’une licence de numérotation Teams valide, vous pouvez utiliser le Centre d’administration Microsoft Teams ou la Windows PowerShell pour créer et gérer des plans de numérotation.  
+Après avoir plané les plans de numérotation de votre organisation et compris toutes les règles de normalisation à créer pour le routage vocal, vous êtes prêt à créer les plans de numérotation. Avec un compte d’administrateur dispose d’une licence de numérotation Teams valide, vous pouvez utiliser le Centre d’administration Microsoft Teams ou la Windows PowerShell pour créer et gérer des plans de numérotation.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
@@ -187,7 +187,7 @@ Exécutez l’événement pour rechercher tous les utilisateurs qui ont reçu le
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Exécutez l’événement pour supprimer toute tenantDialPlan affectée à tous les utilisateurs qui ont un HostingProvider de sipfed.online.lync.com.
+Exécutez cette tâche pour supprimer tout TenantDialPlan affecté à tous les utilisateurs qui ont un HostingProvider of sipfed.online.lync.com.
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```

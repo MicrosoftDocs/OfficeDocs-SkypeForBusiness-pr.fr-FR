@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Avant de déployer le pool pilote, vous devez mettre à jour les entrées d’hôte DNS A pour le pool pilote. Pour effectuer correctement cette procédure, vous devez être connecté au serveur ou au domaine en tant que membre du groupe Administrateurs du domaine ou du groupe DnsAdmins.
-ms.openlocfilehash: d934e3bdc46ab9deffa3c588b15ab793111c1a68
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 270b0bda7da679cb0c75e9a99e10a898dcee6ac70413ce276abfe19ba1eb2231
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337832"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>Configuration des enregistrements DNS pour le déploiement d’un pool pilote
 
@@ -30,7 +30,7 @@ Avant de déployer le pool pilote, vous devez mettre à jour les entrées d’h�
     
 3. Cliquez sur **Nouvel hôte (A ou AAAA)**.
     
-4. Cliquez sur Nom , tapez le nom d’hôte pour le pool Skype Entreprise Server 2019 (le nom de domaine est supposé dans la zone où l’enregistrement est défini et n’a pas besoin d’être entré dans l’enregistrement A).
+4. Cliquez sur Nom **,** tapez le nom d’hôte pour le pool Skype Entreprise Server 2019 (le nom de domaine est supposé dans la zone où l’enregistrement est défini et n’a pas besoin d’être entré dans le cadre de l’enregistrement A).
     
 5. Cliquez **sur Adresse IP,** puis tapez l’adresse IP du pool frontal.
     

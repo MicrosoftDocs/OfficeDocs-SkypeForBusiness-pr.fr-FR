@@ -20,16 +20,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: En savoir plus sur les notifications de priorité Microsoft Teams messagerie instantanée.
-ms.openlocfilehash: 19eaec4d724dced16d8ca67c5ce0bfb0d03e1b53
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f5d68de25daebe79604d8069966a855e0c5b2db9971c35e973c0a726df92bbcd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316670"
 ---
 # <a name="messaging-policies-licensing"></a>Gestion des licences des stratégies de messagerie
 
-Des clients du monde entier nous ont fait part de la façon dont l’équipe COVID-19 (Coronavirus) a créé de nouveaux défis, car elle gère des changements drastiques au quotidien. La possibilité de communiquer directement et rapidement avec des collègues pendant des conditions à l’évolution rapide est essentielle pour assurer la continuité de l’activité pendant la réponse à la situation de crise et autant d’entre nous revenir sur l’espace de travail.
+Des clients du monde entier nous ont fait part de la façon dont l’équipe COVID-19 (Coronavirus) a créé de nouveaux défis, car elle gère des changements drastiques au quotidien. La possibilité de communiquer directement et rapidement avec des collègues pendant des conditions à changement rapide est essentielle pour assurer la continuité de l’activité pendant la réponse à la situation de crise et autant d’entre nous revenir sur l’espace de travail.
 
 Annoncées à l’origine en juin 2019, les notifications de priorité pour Microsoft Teams offrent aux [utilisateurs](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) la possibilité d’envoyer continuellement des notifications qui se répètent toutes les deux minutes pendant 20 minutes sur tous les messages marqués comme urgents. Des notifications de priorité ont été rendues disponibles en tant que promotion pour tous Teams clients jusqu’au deuxième semestre 2020.
 

@@ -17,16 +17,16 @@ description: Comment utiliser le rapport Teams pools de minutes PSTN dans le Cen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d28e33ae820407ffe8c9561cae8c79863532417
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 6e1d87ac58c6f5916a393e9e85351be12bdd7ae2ba0cd62f467b44b418470f6b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305988"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316620"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams Rapport sur les pools de minutes PSTN
 
-Le rapport Teams pools de minutes PSTN dans le Centre d’administration Microsoft Teams donne une vue d’ensemble de l’activité d’audioconférence et d’appel dans votre organisation en vous indiquant le nombre de minutes consommées au cours du mois en cours. Vous pouvez consulter le détail de l’activité, notamment la licence utilisée pour les appels, le nombre total de minutes disponibles, les minutes utilisées et l’utilisation des licences par emplacement.
+Le rapport Teams pools de minutes PSTN dans le Centre d’administration Microsoft Teams donne une vue d’ensemble de l’activité d’audioconférence et d’appels dans votre organisation en vous indiquant le nombre de minutes consommées au cours du mois en cours. Vous pouvez consulter le détail de l’activité, notamment la licence utilisée pour les appels, le nombre total de minutes disponibles, les minutes utilisées et l’utilisation des licences par emplacement.
 
 ## <a name="view-the-pstn-minute-pools-report"></a>Afficher le rapport sur les pools de minutes PSTN
 

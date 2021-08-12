@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenez la liste des problèmes connus lorsque Microsoft est utilisé comme fournisseur de conférences téléphoniques, leur statut et quelques solutions de contournement. '
-ms.openlocfilehash: 71d363ff98fc4590fb6d96cc3e8a8cb77b1fa24c
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: ee47417941ae39eff966ab2a2d4eb0e07e7d451e404b95ddb66816c61be42664
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237190"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301840"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Problèmes connus et dépannage à propos de l'audioconférence
 
@@ -48,6 +48,6 @@ Pour l’instant, utilisez cette référence pour résoudre les problèmes poten
 |Lorsqu’un appelant appelle un pont de conférence après qu’un utilisateur Skype Entreprise a verrouillé la réunion, l’application Skype Entreprise n’Skype Entreprise pas avertissant que l’utilisateur est en attente.  <br/> |Cette fonctionnalité est actuellement à l'étude, mais nous avons recueilli les derniers commentaires afin de la mettre en œuvre dans les prochaines mises à jour de service.  <br/> |Aucune solution.  <br/> |30/8/2017  <br/> |
 |Un Skype Entreprise Server (sur site) qui a affecté la licence d’audioconférence avant le 1er mars 2019 ne peut pas voir les coordonnées de numérotation dans ses invitations à la réunion.  <br/> |L’approvisionnement Skype Entreprise Server utilisateurs pour l Teams conférence audio n’a pas été pris en charge avant cette date. Il est désormais pris en charge et fait partie de [Réunions En premier.](/microsoftteams/meetings-first) L’utilisateur doit avoir une licence Teams utilisateur.  <br/> |Le pipeline d’approvisionnement doit être réactivé. Supprimez la licence d’audioconférence de l’utilisateur, attendez quelques heures, puis réattribuez la licence.  <br/> |1/3/2019  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

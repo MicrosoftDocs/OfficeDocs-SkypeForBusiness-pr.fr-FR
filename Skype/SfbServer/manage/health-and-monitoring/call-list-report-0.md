@@ -1,5 +1,5 @@
 ---
-title: Rapport des listes d’appels dans Skype Entreprise Server
+title: Rapport de liste d’appels dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Résumé : Découvrez le rapport de liste d’appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 8deb14cc8d2b8ff4b47701502de414d7460a81ef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 301ace0e4d9af8b2635f95f6c3a750c859ca1300f6f3cc277870bdac2c8cc989
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338122"
 ---
-# <a name="call-list-report-in-skype-for-business-server"></a>Rapport des listes d’appels dans Skype Entreprise Server
+# <a name="call-list-report-in-skype-for-business-server"></a>Rapport de liste d’appels dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de liste d’appels utilisé dans Skype Entreprise Server.
   
-Le rapport des listes d’appels fournit des mesures de qualité de l’expérience (QoE) pour les appels individuels effectués et reçus dans votre organisation. Notez que les mesures réelles signalées dépendent de la façon dont vous accédez au rapport liste des appels. Par exemple, si vous ouvrez le rapport à partir du rapport de périphérique dans Skype Entreprise [Server,](device-report.md)vous verrez des mesures telles que les suivantes, qui sont également signalées dans le rapport de périphérique :
+Le rapport des listes d’appels fournit des mesures de qualité de l’expérience (QoE) pour les appels individuels effectués et reçus dans votre organisation. Notez que les mesures réelles signalées dépendent de la façon dont vous accédez au rapport liste des appels. Par exemple, si vous ouvrez le rapport à partir du rapport de périphérique dans [Skype Entreprise Server](device-report.md), vous verrez des mesures telles que les suivantes, qui sont également signalées dans le rapport de périphérique :
   
 - Microphone de l’appelant
     
@@ -35,7 +35,7 @@ Le rapport des listes d’appels fournit des mesures de qualité de l’expérie
     
 - Ratio de la durée du basculement vocal 
     
-Toutefois, si vous ouvrez le rapport des listes d’appels à partir du rapport d’emplacement dans Skype Entreprise [Server,](location-report.md)vous ne verrez aucune de ces mesures . Au lieu de cela, vous verrez des mesures comme celles-ci :
+Toutefois, si vous ouvrez le rapport de liste d’appels à partir du rapport d’emplacement dans [Skype Entreprise Server](location-report.md), vous ne verrez aucune de ces mesures . Au lieu de cela, vous verrez des mesures comme celles-ci :
   
 - Boucle (ms)
     
@@ -51,15 +51,15 @@ Il s’adresse aux mesures signalées dans le rapport d’emplacement. Toutefois
 
 Le rapport de liste d’appels est accessible à partir de l’un des rapports suivants :
   
-- Rapport [d’emplacement dans Skype Entreprise Server](location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- Rapport [d’emplacement en Skype Entreprise Server](location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- Rapport [de périphérique dans Skype Entreprise Server](device-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- Rapport [de périphérique en Skype Entreprise Server](device-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- Rapport [de synthèse de la qualité des médias](summary.md) dans Skype Entreprise Server (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- Le [rapport de synthèse de la](summary.md) qualité des médias Skype Entreprise Server (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- Rapport [sur les performances du serveur dans Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- Rapport [sur les performances du serveur Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-À partir du rapport de liste d’appels, vous pouvez accéder au rapport détaillé des appels dans Skype Entreprise [Server](call-detail-report.md) en cliquant sur la mesure Détails.
+À partir du rapport de liste d’appels, vous pouvez accéder au rapport détaillé des appels [Skype Entreprise Server](call-detail-report.md) en cliquant sur la mesure Détail.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Utilisation du rapport des listes d’appels au mieux
 

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Résumé : Découvrez comment configurer les options d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: ee0145ac0896e1bbb8d18c6a51116f2ddd75ee05
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b2ed0644e64df1606141b94157920d98599fb020db7bdf39d522699fb88555ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817534"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338142"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Gérer les options d’archivage dans Skype Entreprise Server
 
@@ -33,7 +33,7 @@ Vous configurez initialement l’archivage lors du déploiement, mais vous pouve
     
 - Bloquer l’activité lorsque l’archivage n’est pas disponible
     
-- Utiliser l’intégration Exchange
+- Utiliser l’intégration Exchange des données
     
 - Configurer le purgement et l’exportation des données
     
@@ -45,7 +45,7 @@ Vous pouvez spécifier des options de configuration aux niveaux suivants :
     
 - Configurations facultatives au niveau du pool qui spécifient comment l’archivage est implémenté pour un pool spécifique
     
-Vous pouvez supprimer une configuration de site ou de pool, mais vous ne pouvez pas supprimer la configuration globale. Si vous supprimez la configuration globale, elle est réinitialisée automatiquement aux valeurs par défaut. Pour plus d’informations sur la façon dont les configurations d’archivage sont implémentées et la hiérarchie des configurations d’archivage, voir [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).
+Vous pouvez supprimer une configuration de site ou de pool, mais vous ne pouvez pas supprimer la configuration globale. Si vous supprimez la configuration globale, elle est réinitialisée automatiquement aux valeurs par défaut. Pour plus d’informations sur la façon dont les configurations d’archivage sont implémentées et la hiérarchie des configurations d’archivage, voir Planifier l’archivage [dans Skype Entreprise Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurer les options d’archivage à l’aide du Panneau de configuration
 
@@ -53,13 +53,13 @@ Vous pouvez configurer les options d’archivage à l’aide du Panneau de confi
   
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Configuration de l’archivage.**
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configurer les options d’archivage à l’aide Windows PowerShell
 
-Vous pouvez également configurer les options d’archivage à l’aide Windows PowerShell cmdlets répertoriées dans le tableau suivant. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, voir [Skype Entreprise Server Management Shell.](../management-shell.md)
+Vous pouvez également configurer les options d’archivage à l’aide Windows PowerShell cmdlets répertoriées dans le tableau suivant. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server Management Shell.](../management-shell.md)
   
 
 |**Applet de commande**|**Description**|

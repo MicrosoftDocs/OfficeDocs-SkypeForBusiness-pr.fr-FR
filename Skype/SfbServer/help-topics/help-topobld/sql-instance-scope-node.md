@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) de cette Microsoft SQL Server et l’instance de SQL Server sur ce serveur, ainsi que les pools ou serveurs qui utilisent cette SQL Server. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 4c152cdcc9fd29f25573749934d7a7197360be9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1abf5a3cf011d90f8efc81531d5f7fa052a57941ec7484b00435d285364ec134
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338162"
 ---
 # <a name="sql-instance-scope-node"></a>Nœud d’étendue d’une instance SQL
  

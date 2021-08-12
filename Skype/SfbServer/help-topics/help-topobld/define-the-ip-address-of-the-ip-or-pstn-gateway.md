@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Vous définissez les adresses IPv4 ou IPv6 pour la passerelle IP ou PSTN en sélectionnant Activer IPv4 ou Activer IPv6. Vous pouvez choisir soit Utiliser toutes les adresses IP configurées, soit Limiter l’utilisation des services aux adresses IP sélectionnées.
-ms.openlocfilehash: 00e62163a6a710ab9e0ed0189425b3a6022e1b70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fc62cc1b65fdb486f63bcebc0b337e9eed0f9cad1ddc2e250f4135b1be1478a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301551"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Définir l’adresse IP de la passerelle IP ou PSTN
 

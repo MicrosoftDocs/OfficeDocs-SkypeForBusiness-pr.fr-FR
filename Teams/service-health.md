@@ -16,12 +16,12 @@ f1.keywords:
 description: Il est donc pratique de vérifier l’état du service Teams, ainsi que d’autres composants Microsoft 365 ou Office 365 tels que Exchange, SharePoint et OneDrive Entreprise.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2a3cfb82522a731d8902223e070a9f1c3dd1b95
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: c7aebfec6aedd018580ddece9d3d7dac4e30ca731b91decf5d74bc0acf9c3e91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316690"
 ---
 # <a name="verify-service-health-for-microsoft-teams"></a>Vérifier l'intégrité du service pour Microsoft Teams
 

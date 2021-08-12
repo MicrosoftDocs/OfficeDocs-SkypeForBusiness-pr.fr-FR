@@ -1,5 +1,5 @@
 ---
-title: Surveiller et améliorer de la qualité des appels pour Microsoft Teams
+title: Surveiller et améliorer la qualité des appels pour les Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: Serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: vkorlep, siunies
-description: Utilisez les paramètres de qualité de service (QoS), puis analyse des appels et tableau de bord de qualité des appels dans Microsoft Teams.
+description: Utilisez les paramètres de qualité de service (QoS), puis le tableau de bord d’analyse des appels et de la qualité des Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,54 +17,54 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ed9bab3ad0cde91bc8faa4298956b07f73438e823e3e3c110ce09610fee5e7c0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 82edaaa1458897365cf5857837610070bb43137d385d73d084e73db9e6d6f82f
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "58190992"
 ---
-# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>Surveiller et améliorer de la qualité des appels pour Microsoft Teams
+# <a name="microsoft-teams-monitor-and-improve-call-quality"></a>Microsoft Teams : surveiller et améliorer la qualité des appels
 
-Cet article présente trois outils clés que vous pouvez utiliser pour surveiller, dépanner, gérer et améliorer la qualité des appels dans Microsoft Teams. 
+Cet article présente trois outils clés que vous pouvez utiliser pour surveiller, résoudre des problèmes, gérer et améliorer la qualité des appels Microsoft Teams. 
 
-- **Tableau de bord de qualité des appels :** pour analyser les tendances ou les problèmes à l’échelle de l’organisation, améliorez les performances
+- **Tableau de bord de qualité** des appels : pour analyser les tendances ou problèmes à l’échelle de l’organisation, améliorer les performances
 
-- **Analyse des appels**: pour analyser la qualité des appels et des réunions pour des utilisateurs individuels
+- **Analyse des appels**: analyser la qualité des appels et des réunions pour des utilisateurs individuels
 
 - **Qualité de service (QoS)**: pour hiérarchiser le trafic réseau important
 
 
 
-## <a name="monitor-and-troubleshoot-call-quality"></a>Surveiller et résoudre les problèmes de qualité des appels
-Vous utiliserez l’analyse des  appels par utilisateur et le Tableau de bord de qualité des appels pour rechercher et résoudre les problèmes de qualité des appels qui surviennent au cours des opérations en cours.  Cela vous permet d’améliorer les performances sur votre réseau. Ces deux outils sont dans le centre d Teams’administration.
+## <a name="monitor-and-troubleshoot-call-quality"></a>Surveiller la qualité des appels et résoudre les problèmes
+Vous utiliserez l’analyse des  appels et le tableau de bord de qualité des appels par utilisateur pour rechercher et résoudre les problèmes de qualité des appels qui surviennent en cours d’opération.  Cela vous permet d’améliorer les performances sur votre réseau. Ces deux outils sont disponibles dans le Teams d’administration.
 
- - **L’analyse** des appels affiche des informations détaillées sur les appareils, les réseaux et la connectivité liés à des appels et réunions **_spécifiques_** pour chaque utilisateur Teams. Teams administrateur et les agents du service d’aide utilisent ces informations pour résoudre les problèmes de qualité et de connexion des appels dans un appel spécifique. Pour en savoir plus, [lisez Configurer l’analyse des appels](set-up-call-analytics.md) et utiliser l’analyse des appels [pour résoudre les problèmes de qualité des appels médiocres.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+ - **L’analyse** des appels affiche des informations détaillées sur les appareils, les réseaux et la connectivité liés à des appels et réunions **_spécifiques_** pour chaque utilisateur Teams. Teams et les agents du service d’aide utilisent ces informations pour résoudre les problèmes de qualité et de connexion d’un appel spécifique. Pour en savoir plus, lisez [Configurer l’analyse](set-up-call-analytics.md) des appels et Utiliser l’analyse des appels pour [résoudre les problèmes de qualité des appels.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
  
- - Le Tableau de bord de qualité **** des appels **(CQD)** vous donne une vue à l’échelle du réseau de la qualité des appels au sein de votre organisation. Utilisez les informations de CQD pour vous aider à identifier et résoudre les problèmes. Tout [d’abord, configurer le CQD](turning-on-and-using-call-quality-dashboard.md). Lisez ensuite [Gérer la qualité des appels et des réunions dans Teams](quality-of-experience-review-guide.md).
+ - **Le tableau de bord de** qualité **** des appels offre une vue d’ensemble de la qualité des appels au sein de votre organisation. Utilisez les informations du CQD pour identifier et résoudre les problèmes. Tout [d’abord, définissez le CQD.](turning-on-and-using-call-quality-dashboard.md) Lisez ensuite [Gérer l’appel et la qualité des réunions dans Teams.](quality-of-experience-review-guide.md)
 
- L’analyse des appels et le CQD s’exécutent en parallèle et peuvent être utilisés indépendamment ou ensemble. Par exemple, si un spécialiste du support des communications détermine qu’il a besoin d’aide supplémentaire pour résoudre le problème d’appel d’un utilisateur, il passe l’appel à un ingénieur du support des communications, qui a accès à des informations supplémentaires sur l’appel. À son tour, l’ingénieur du support des communications avertit un ingénieur réseau d’un éventuel problème lié au site qu’il a remarqué dans l’analyse des appels. L’ingénieur réseau vérifie le CQD pour voir si un problème global lié au site peut être à l’origine du problème d’appel de l’utilisateur.
+ L’analyse des appels et le CQD s’exécutent en parallèle et peuvent être utilisés indépendamment ou ensemble. Par exemple, si un spécialiste des communications détermine qu’il lui faut une aide supplémentaire pour résoudre un problème d’appel d’un utilisateur, il le fait à un ingénieur du support des communications, qui a accès à des informations supplémentaires sur l’appel. L’ingénieur du support des communications avertit également un ingénieur réseau d’un problème lié au site qu’il a remarqué dans l’analyse des appels. L’ingénieur réseau vérifie le CQD pour voir si un problème global lié au site peut être une cause de contribution du problème d’appel de l’utilisateur.
 
 
 ## <a name="prioritize-important-network-traffic-using-qos"></a>Hiérarchiser le trafic réseau important à l’aide de QoS
-Lorsque vos utilisateurs commencent à utiliser Teams pour les appels et les réunions, ils peuvent rencontrer la coupure de voix d’un appelant ou l’coupure d’un appel ou d’une réunion. La vidéo partagée peut se figer, pixelner ou échouer complètement. Cela est dû aux paquets IP qui représentent le trafic vocal et vidéo qui rencontre une congestion du réseau et arrive en dehors de l’ordre ou pas du tout. Si cela se produit (ou pour l’empêcher de se produire en premier lieu), utilisez la qualité **de service (QoS).** 
+Lorsque vos utilisateurs commencent à utiliser des Teams pour les appels et les réunions, ils peuvent rencontrer la coupure de voix d’un appelant ou la coupure ou l’coupure d’un appel ou d’une réunion. La vidéo partagée peut se figer ou pixelner, ou échouer. Cela est dû aux paquets IP qui représentent le trafic voix et vidéo rencontré une congestion du réseau et l’arrivée ou non d’une séquence. Si cela se produit (ou pour éviter qu’il se produise en premier lieu), utilisez la qualité de **service (QoS).** 
 
-Avec QoS, vous hiérarchisez le trafic réseau retardé (par exemple, les flux vocaux ou vidéo), ce qui lui permet de « couper en ligne » devant le trafic qui est moins sensible (comme le téléchargement d’une nouvelle application, où une seconde supplémentaire à télécharger n’est pas une grande affaire). QoS identifie et marque tous les paquets dans les flux en temps réel à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée Listes de contrôle d’accès basée sur les ports, qui demande à votre réseau de fournir la voix, la vidéo et le partage d’écran de sa propre bande passante réseau dédiée.
+Avec QoS, vous hiérarchisez le trafic réseau qui demande un délai important (par exemple, les flux vocaux ou vidéo), ce qui permet de l’aligner sur le trafic moins sensible (par exemple, le téléchargement d’une nouvelle application, qui ne demande pas une seconde supplémentaire de téléchargement). QoS identifie et marque tous les paquets dans des flux en temps réel à l’aide des objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée Listes de contrôle d’accès basée sur les ports, qui demande à votre réseau de fournir à la voix, à la vidéo et au partage d’écran sa propre bande passante réseau dédiée.
 
-Dans l’idéal, vous allez implémenter la QoS sur votre réseau interne tout en vous préparez à déployer Teams, mais vous pouvez le faire à tout moment. Si vous êtes assez petit, vous n’aurez peut-être pas besoin de QoS.
+Dans l’idéal, vous devez implémenter QoS sur votre réseau interne lorsque vous êtes prêt à déployer Teams, mais vous pouvez le faire à tout moment. Si vous êtes assez petit, vous n’aurez peut-être pas besoin de QoS.
 
-Lorsque vous êtes prêt, lisez Implémenter la qualité de [service (QoS) dans Microsoft Teams](QoS-in-Teams.md).
+Lorsque vous êtes prêt, lisez Implémenter la qualité de [service (QoS) dans Microsoft Teams.](QoS-in-Teams.md)
 
-Pour utiliser la QoS pour gérer le trafic des réunions, lisez Définir la façon dont vous souhaitez gérer le trafic multimédia en temps réel pour [Teams réunions.](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+Pour utiliser la QoS pour gérer le trafic des réunions, lisez Définir la façon dont vous voulez gérer le trafic de médias en temps réel pour [Teams réunions.](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer l’analyse des appels](set-up-call-analytics.md)
 
-[Utiliser l’Analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Configurer le TBQA](turning-on-and-using-call-quality-dashboard.md)
+[Configurer le CQD](turning-on-and-using-call-quality-dashboard.md)
 
 [Gérer la qualité des appels et des réunions dans Teams](quality-of-experience-review-guide.md)
 

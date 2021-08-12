@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Résumé : Configurez une trunk avec la déviation du média activée pour Skype Entreprise Server. Cela vous permettra de réduire le nombre de serveurs de médiation, en présumant que votre fournisseur de trunks SIP le prend en charge.'
-ms.openlocfilehash: d5178a4adedb380193dc0ce55c0a8a4a414e59d3
+ms.openlocfilehash: f009cc15279cde28b531747adf77a7adf89fa407efaa9a30ff731e37f2f23f0e
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772745"
+ms.locfileid: "54287623"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype Entreprise Server : configurer une trunk avec la déviation du média
 

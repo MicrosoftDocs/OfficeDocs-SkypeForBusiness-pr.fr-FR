@@ -1,5 +1,5 @@
 ---
-title: Ressources Microsoft Teams pour les administrateurs dans l’éducation
+title: 'Microsoft Teams : Ressources pour les administrateurs Éducation'
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f44a2bcb6bca642a4006ba398ccbd5393b9ee2b5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1ed3e57b22fa97acc68afc930f2bf10ab687abd5ab4d2442c45012ca034889d1
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849109"
 ---
-<a name="microsoft-teams-resources-for-education-admins"></a>Ressources Microsoft Teams pour les administrateurs dans l’éducation
-==============================================
+# <a name="microsoft-teams-resources-for-education-admins"></a>Ressources Microsoft Teams pour les administrateurs dans l’éducation
 
 ## <a name="resources-for-remote-learning"></a>Ressources pour l’apprentissage à distance
 
@@ -39,26 +38,26 @@ Veuillez lire les [conditions générales avant](https://github.com/MicrosoftDoc
 
 ### <a name="physical-assets"></a>Biens physiques
 
-| |  |
+|&nbsp; | &nbsp; |
 |---------|---------|
-|Posters - [personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) et [prêts à l’impression](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Capture d’écran d’une affiche](media/edu-adoption-posters.png)     |[Handouts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Capture d’écran d’un handout](media/edu-adoption-handouts.png)|
-|[Prospectus](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Capture d’écran d’un prospectus](media/edu-adoption-flyers.png)   |[Publicités dans un livre](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Capture d’écran d’une publicité dans un livre](media/edu-adoption-book-adverts.png)         |
-|[livret Astuces conseils et astuces](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Capture d’écran](media/edu-adoption-get-started.png)    |
+|Posters - [personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) et [prêts à l’impression](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Photo d’une affiche](media/edu-adoption-posters.png)     |[Handouts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Photo d’un handout](media/edu-adoption-handouts.png)|
+|[Prospectus](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Photo d’un prospectus](media/edu-adoption-flyers.png)   |[Publicités dans un livre](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Photo d’une publicité dans un livre.](media/edu-adoption-book-adverts.png)         |
+|[Photo du livret Astuces et astuces.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Photo d’un exemple de livret](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Biens numériques
 
 N’oubliez pas de consulter le [guide Shared Computer Toolkit numérique](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) pour optimiser Teams lancement . 
 
-|  |  |
+| &nbsp; |&nbsp;  |
 |---------|---------|
-|[Modèles de courrier électronique](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Capture d’écran](media/edu-adoption-email-templates.png)    |[GIF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Capture d’écran d’une image GIF](media/edu-adoption-gifs.png)      |
-|[Bannières web](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Capture d’écran d’une bannière web](media/edu-adoption-web-banners.png)    |[Videos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Capture d’écran](media/edu-adoption-videos.png)          |
-|[Publicités à l’écran numérique](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Capture d’écran d’une publicité à l’écran numérique](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[Modèles de courrier électronique](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Photo d’exemple de disposition.](media/edu-adoption-email-templates.png)    |[GIF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Capture d’écran d’une image GIF](media/edu-adoption-gifs.png)      |
+|[Bannières web](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Photo d’une exemple de bannière web](media/edu-adoption-web-banners.png)    |[Videos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Capture d’écran d’un exemple d’ouverture de vidéo](media/edu-adoption-videos.png)          |
+|[Publicités à l’écran numérique](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Photo d’une publicité à l’écran numérique](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>Appel à l’action
 
-- Visitez la [page Teams Éducation pour](https://www.microsoft.com/en-us/education/products/teams/default.aspx) des formations, des vidéos et des démonstrations interactives
-- Activer les Teams dans le [Microsoft 365 d’administration](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (connectez-vous en tant qu’Office 365 administrateur)
+- Visitez la [page Teams pour l’éducation des formations,](https://www.microsoft.com/en-us/education/products/teams/default.aspx) des vidéos et des démonstrations interactives
+- Activer les Teams dans la [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (connectez-vous en tant qu’Office 365 administrateur)
 - Télécharger les clients Teams : [Obtenir Teams sur tous vos périphériques](https://teams.microsoft.com/downloads)
 - En savoir plus sur Office 365 pour l’éducation dans le [centre d’aide pour l’éducation](https://support.office.com/education)
 

@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: Votre déploiement de serveur de conversation permanente peut héberger plusieurs salles de conversation permanente simultanées. Les salles de conversation peuvent être organisées en un ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure utile pour l’identification des conversations en fonction de leur objectif professionnel et simplifie la délégation de l’administration ainsi que la gestion.
-ms.openlocfilehash: 720e171bfe05105b650fabfdb17172f34d8b69b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f02bd8eef8accc36b2e05525db180c8483aded94be08c06d090e42377b023c4c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120187"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301760"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>Configuration de conversation permanente – Page principale
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise à niveau de Skype Entreprise vers Microsoft Teams.](/MicrosoftTeams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015.
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, [voir Skype Entreprise à Microsoft Teams mise à niveau.](/MicrosoftTeams/upgrade-start-here) Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité pour Teams ou continuer à utiliser Skype Entreprise Server 2015.

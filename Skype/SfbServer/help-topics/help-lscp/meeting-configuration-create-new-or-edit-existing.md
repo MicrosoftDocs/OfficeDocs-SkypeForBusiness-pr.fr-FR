@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres s’appliquent uniquement aux réunions planifiées. Elles ne s’appliquent pas aux réunions ad hoc créées en cliquant sur l’option Conférence maintenant dans le client.
-ms.openlocfilehash: 21cc12cd025edfc573e1e2f21ed08181f1a0c926
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 290de1525079810b25e7a2f8eac755015be345d32739ccc2e921dd343ff83ca3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099670"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301570"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuration de la réunion : création d’une nouvelle ou modification d’une configuration existante
 
@@ -44,7 +44,7 @@ La liste suivante décrit les champs de la page.
 
   - **Tout le monde** Sélectionnez cette option pour désigner automatiquement quiconque comme présentateur.
 
-- **Type de conférence affecté par défaut** Ce paramètre contrôle si le addin de conférence Outlook planifiera toujours des conférences à l’aide de la conférence attribuée par l’organisateur, ce qui signifie que les conférences programmées ont toujours la même URL de rejoindre et les mêmes informations audio. Cochez cette case pour que les conférences programmées utilisent toujours la même URL de jointeur. Cochez cette case pour utiliser une URL de jointeur différente pour chaque conférence.
+- **Type de conférence affecté par défaut** Ce paramètre contrôle si le Outlook Conferencing Addin planifiera toujours les conférences à l’aide de la conférence attribuée par l’organisateur, ce qui signifie que les conférences programmées ont toujours la même URL de rejoindre et les mêmes informations audio. Cochez cette case pour que les conférences programmées utilisent toujours la même URL de jointeur. Cochez cette case pour utiliser une URL de jointeur différente pour chaque conférence.
 
 - **Admettre les utilisateurs anonymes par défaut** Cochez cette case si les utilisateurs anonymes (c’est-à-dire non authentifiés) sont autorisés à participer à des conférences par défaut. Cochez cette case si les utilisateurs anonymes ne sont pas autorisés à participer aux conférences par défaut.
 
@@ -52,7 +52,7 @@ La liste suivante décrit les champs de la page.
 
 - **URL de l’aide** Tapez l’URL d’un site web où les utilisateurs peuvent obtenir de l’aide pour participer à la conférence.
 
-- **URL de texte légal** Tapez l’URL d’un site web qui possède les informations légales et les clauses d’exclusion de responsabilité pour la conférence.
+- **URL de texte légal** Tapez l’URL d’un site web qui dispose des informations légales et des clauses d’exclusion de responsabilité pour la conférence.
 
 - **Texte de pied de groupe personnalisé** Tapez le texte à utiliser sur les invitations aux conférences personnalisées.
 

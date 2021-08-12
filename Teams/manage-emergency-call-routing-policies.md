@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies de routage d’appel d’urgence pour le routage direct
+title: Gérer les stratégies de routage vocal d’urgence pour le routage direct
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -17,28 +17,28 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer les stratégies de routage des appels d’urgence Microsoft Teams configurer des numéros d’urgence et spécifier la manière dont les appels d’urgence sont acheminés.
+description: Découvrez comment utiliser et gérer les stratégies de routage vocal d’urgence dans Microsoft Teams pour configurer les numéros d’urgence et spécifier la manière dont les appels d’urgence sont acheminés.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: e83b33d7e6b9c13b178a7481f5061615836d0c94c4bfcc7c97ec42a3b8250777
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848899"
 ---
-# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Gérer les stratégies de routage d’appel d’urgence pour le routage direct
+# <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Gérer les stratégies de routage vocal d’urgence pour le routage direct
 
-Si vous avez [](direct-routing-landing-page.md) déployé Système téléphonique Routage direct dans votre organisation, vous pouvez utiliser les stratégies de routage des appels d’urgence dans Microsoft Teams pour configurer les numéros d’urgence et spécifier le routage des appels d’urgence. Une stratégie de routage d’appel d’urgence détermine si les services d’urgence améliorés sont activés pour les utilisateurs à qui la stratégie est affectée, les numéros utilisés pour appeler les services d’urgence (par exemple, le 112 en France) et la manière dont les appels vers les services d’urgence sont acheminés.
+Si vous avez [](direct-routing-landing-page.md) déployé Système téléphonique Routage direct dans votre organisation, vous pouvez utiliser les stratégies de routage vocal d’urgence dans Microsoft Teams pour configurer les numéros d’urgence et spécifier le routage des appels d’urgence. Une stratégie de routage vocal d’urgence détermine si les services d’urgence améliorés sont activés pour les utilisateurs à qui la stratégie est affectée, les numéros utilisés pour appeler les services d’urgence (par exemple, le 112 en France) et la manière dont les appels vers les services d’urgence sont acheminés.
 
-Pour gérer les stratégies de routage d’appel d’urgence, vous devez vous rendre sur Voice Emergency center Microsoft Teams centre d’administration ou à l’aide  >   de Windows PowerShell. Les stratégies peuvent être affectées à des utilisateurs et [à des sites réseau.](cloud-voice-network-settings.md)
+Pour gérer les stratégies de routage voix d’urgence, vous devez vous rendre sur Voice Emergency center Microsoft Teams centre d’administration ou à l’aide  >   de Windows PowerShell. Les stratégies peuvent être affectées à des utilisateurs et [à des sites réseau.](cloud-voice-network-settings.md)
 
 Pour les utilisateurs, vous pouvez utiliser la stratégie globale (à l’échelle de l’organisation par défaut) ou créer et attribuer des stratégies personnalisées. Les utilisateurs obtiennent automatiquement la stratégie globale, sauf si vous créez et attribuez une stratégie personnalisée. N’oubliez pas que vous pouvez modifier les paramètres de la stratégie globale, mais que vous ne pouvez pas le renommer ou le supprimer. Pour les sites réseau, vous créez et attribuez des stratégies personnalisées.
 
-Si vous avez affecté une stratégie de routage des appels d’urgence à un site réseau et à un utilisateur, et si cet utilisateur se trouve sur ce site réseau, la stratégie attribuée au site réseau remplace la stratégie qui lui est affectée.
+Si vous avez affecté une stratégie de routage voix d’urgence à un site réseau et à un utilisateur, et si cet utilisateur se trouve sur ce site réseau, la stratégie attribuée au site réseau remplace la stratégie qui lui est affectée.
 
-## <a name="create-a-custom-emergency-call-routing-policy"></a>Créer une stratégie de routage d’appel d’urgence personnalisée
+## <a name="create-a-custom-emergency-voice-routing-policy"></a>Créer une stratégie personnalisée de routage vocal d’urgence
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
@@ -62,7 +62,7 @@ Si vous avez affecté une stratégie de routage des appels d’urgence à un sit
 
 Voir [New-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/new-csteamsemergencycallroutingpolicy)
 
-## <a name="edit-an-emergency-call-routing-policy"></a>Modifier une stratégie de routage d’appel d’urgence
+## <a name="edit-an-emergency-voice-routing-policy"></a>Modifier une stratégie de routage vocal d’urgence
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
@@ -76,13 +76,13 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 Voir [Set-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Affecter une stratégie personnalisée de routage des appels d’urgence aux utilisateurs
+## <a name="assign-a-custom-emergency-voice-routing-policy-to-users"></a>Affecter une stratégie personnalisée de routage vocal d’urgence aux utilisateurs
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 Voir également [Grant-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>Affecter une stratégie de routage d’appel d’urgence personnalisée à un site réseau
+## <a name="assign-a-custom-emergency-voice-routing-policy-to-a-network-site"></a>Affecter une stratégie personnalisée de routage vocal d’urgence à un site réseau
 
 Utilisez la cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) pour affecter une stratégie de routage des appels d’urgence à un site réseau.
 

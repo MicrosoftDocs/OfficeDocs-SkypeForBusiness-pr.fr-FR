@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation média avec Système téléphonique routage direct, ce qui vous permet de raccourcir le chemin d’accès au trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0a498f432c927cf8e3818c42a538949d81e99f69d0f8af84ff2734b6ce9b25ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6806af0889f3667e85cc49856e605bbe0334d1be3ea3601a844a3b9f568e7619
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848939"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -223,7 +223,7 @@ Le point de connexion pour le routage direct est le FQDN suivant :
 
 Le problème de sip.pstnhub.gov.teams.microsoft.us de sip.pstnhub.gov.teams.microsoft.us sera résolu en tant qu’adresse IP provenant du sous-réseau suivant :
 
-- 52.127.64.0/21
+- 52.127.88.0/21
 
 Vous devez ouvrir des ports pour toutes ces plages d’adresses IP de votre pare-feu pour autoriser le trafic entrant et sortant à se rendre ou à partir des adresses pour le trafic de signalisation.  Si votre pare-feu prend en charge les noms DNS, le sip.pstnhub.gov.teams.microsoft.us de noms de domaine (FQDN) est résolu pour tous ces sous-réseaux IP. 
 

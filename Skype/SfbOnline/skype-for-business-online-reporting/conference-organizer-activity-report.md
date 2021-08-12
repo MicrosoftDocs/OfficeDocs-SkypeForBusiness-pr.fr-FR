@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 405d6eb151542b5e95651fc5903afc7b41fcfb3b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 14b46f6050b7634513b02cc5eaab11eac5d83f78a8e39b1cdca7cb301e7fa64b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326650"
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d'activités de l'organisateur de conférence
 
@@ -38,7 +38,7 @@ Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-
 Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des détails sur les conférences organisées dans votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise. 
   
 > [!NOTE]
-> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Microsoft 365 d’administration. 
+> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>Comment obtenir le rapport d'organisateur de conférences Skype Entreprise
 
@@ -119,7 +119,7 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

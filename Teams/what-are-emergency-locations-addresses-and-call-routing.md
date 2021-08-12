@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: En savoir plus sur les appels d’urgence, y compris les informations sur les adresses de secours, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: 4f2ef86d05537a147a459fd6bc121f0680b534bd
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: ef3f9bcf3a8eab2edc4cff4d99c31a1eb4028cb26a32f40adf4e0eaaa68deeee
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849079"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -120,7 +120,7 @@ Lorsqu’un utilisateur Teams Plan d’appels compose un numéro d’urgence, la
 
   **Au Canada, en Irlande** et au Royaume-Uni, les appels d’urgence sont d’abord filés pour déterminer l’emplacement actuel de l’utilisateur avant de le connecter au centre d’urgence approprié. 
 
-  **En France, en Allemagne** et en Espagne, les appels d’urgence sont acheminés directement vers le centre d’urgence CENTRE.PUBLIC qui sert l’adresse d’urgence associée au numéro, quel que soit l’emplacement de l’appelant.
+  **En France, en Allemagne** et en Espagne, les appels d’urgence sont acheminés directement vers le centre de données PUBLIC PUBLIC (PUBLICP) et l’adresse d’urgence associée au numéro, quel que soit l’emplacement de l’appelant.
 
   **Aux Pays-Bas,** les appels d’urgence sont acheminés directement vers le centre CENTRE DNS pour l’code de la zone locale du numéro, quel que soit l’emplacement de l’appelant.
 
@@ -133,7 +133,7 @@ Pour plus d’informations, consultez :
 
 - [Forfaits d’appel](calling-plan-landing-page.md)
 
-- [Différents types de numéros de téléphone utilisés pour les appels d’offre](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [Différents types de numéros de téléphone utilisés pour les offres d'appel](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 - [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
@@ -149,7 +149,7 @@ Vous pouvez affecter une stratégie de routage des appels d’urgence à un comp
 
 - Si une stratégie de routage d’appel d’urgence est associée au site, la stratégie de site est utilisée pour configurer les appels d’urgence.
 
-- Si aucune stratégie de routage des appels d’urgence n’est associée au site, ou si le client est connecté à un site non indéfini, la stratégie de routage des appels d’urgence associée au compte d’utilisateur est utilisée pour configurer les appels d’urgence. 
+- Si aucune stratégie de routage des appels d’urgence n’est associée au site, si le client est connecté sur un site non défini, ou si le numéro à composer ne correspond à aucun des numéros d’urgence définis dans la stratégie de routage des appels d’urgence associée au site, la stratégie de routage des appels d’urgence associée au compte d’utilisateur est utilisée pour configurer les appels d’urgence. 
 
 - Si le Teams n’est pas en mesure d’obtenir une stratégie de routage des appels d’urgence, l’utilisateur n’est pas activé pour les appels d’urgence.
 
@@ -159,7 +159,7 @@ Teams clients pour les utilisateurs du routage direct peuvent acquérir une adre
 
 ### <a name="emergency-call-routing"></a>Routage d’appel d’urgence
 
-La stratégie de routage d’appel d’urgence fait référence à une utilisation PSTN en ligne, qui doit avoir la configuration de routage direct appropriée pour router correctement les appels d’urgence vers la ou les passerelles RSTN appropriées. Vous devez notamment vous assurer qu’il existe une chaîne de numérotation d’urgence sur OnlineVoiceRoute. Pour plus d’informations, [voir Configurer le routage direct.](direct-routing-configure.md) 
+La stratégie de routage des appels d’urgence fait référence à une utilisation PSTN en ligne, qui doit avoir la configuration de routage direct appropriée pour router correctement les appels d’urgence vers la ou les passerelles RSTN appropriées. Vous devez notamment vous assurer qu’il existe une chaîne de numérotation d’urgence sur OnlineVoiceRoute. Pour plus d’informations, [voir Configurer le routage direct.](direct-routing-configure.md) 
 
 (Remarque : Teams clients ajoutent le signe « + » devant les numéros d’urgence de la même manière que Skype Entreprise client ; c’est-à-dire, le signe +911. Ce comportement sera modifié dans les mois à venir afin que les Teams d’urgence n’envoient plus de « + » avant le numéro . autrement dit, 911.)
 
@@ -212,7 +212,7 @@ Une stratégie d’appel d’urgence peut être octroyée à un Teams utilisateu
 Pendant un appel d’urgence, un service de sécurité est téléphoniquement appelé et l’expérience de l’utilisateur du service de sécurité est contrôlée en fonction de Teams d’appel d’urgence. Une conversation de groupe commence avec chaque membre du service de sécurité, et l’emplacement de l’appelant d’urgence est partagé via une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du service de sécurité est appelé en outre dans le cadre de la conférence.
 
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage d’appel d’urgence ](manage-emergency-call-routing-policies.md)
