@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Résumé : Découvrez le rapport vocal et vidéo D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: 7e07c5778f43c3a0cac4ff162ed3d7dd1108eb43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 66d121965d7046a823e26bff8a14fba6ce8213690fcaa4a21ab7a31f4db9f904
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324323"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Rapport vocal et vidéo D’égal à égal dans Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Le rapport vocal et vidéo d’égal-à-égal offre un examen détaillé de la d
   
 - Appels par pool
     
-- Appels par type d’appel (par exemple, un appel de Skype Entreprise à Skype Entreprise ou un appel Skype Entreprise à une personne sur le réseau PSTN)
+- Appels par type d’appel (par exemple, un appel Skype Entreprise un appel Skype Entreprise et un appel Skype Entreprise à une personne sur le réseau PSTN)
     
 - Appels par type d’accès (utilisateurs connectés au réseau interne par opposition aux utilisateurs connectés au réseau externe)
     
@@ -58,7 +58,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début du 7/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours 8/7/2015 de 12:00 au 07/09/2015 12:00 (c’est-à-dire, un total de 31 jours de données). <br/> |
 |**Type de média** <br/> | Indique le type de média utilisé dans la session. Sélectionnez l’une des options suivantes : <br/>  Les deux <br/>  Audio <br/>  Vidéo <br/> |
 |**Distribution des appels** <br/> | Indique la réussite ou l’échec de la session. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Appels ayant abouti <br/>  Appels n’ayant pas abouti <br/> |

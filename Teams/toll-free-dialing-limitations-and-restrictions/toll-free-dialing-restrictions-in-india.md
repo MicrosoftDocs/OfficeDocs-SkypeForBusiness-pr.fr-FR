@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Inde, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: 3e8dc705b5a8f762899433e0fbd2cc4bfe3aba94
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dae597170f8ea4a56a908087a85a1b12777341ba277e72e3a1ca599037a393e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098079"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335884"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restrictions de numérotation gratuit en Inde
 
@@ -47,7 +47,7 @@ ms.locfileid: "51098079"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès disponible à partir des réseaux suivants : Loop Mobile, BSNL - fixe (toutes les régions sauf Bignal), Vodafone, IDEA/SPICE (toutes les régions sauf Punjab Spice), MTS India/Shyam (fixe), MTNL - mobile fixe, Reliance (toutes les régions à l’aide d’Un compte à l’aide &amp; d’Un compte), &amp; &amp; Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Blmi/Airtel.  <br/> Accès non disponible auprès des réseaux suivants : TTSL (Prépayé), Etisalat DB Telecom et Jio.  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)

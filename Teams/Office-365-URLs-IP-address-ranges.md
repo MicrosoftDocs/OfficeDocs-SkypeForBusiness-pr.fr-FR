@@ -20,15 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5925a8896667adde58d71d01a062d975ea2fe1c5c1aec629af8db88c79b623
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6b42865666538c6af431ab8f6e69ef495f3d5daf89c673a118eb4a2dd429564
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850159"
 ---
-<a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 url Office 365 et des plages d’adresses IP
-=======================================================
+# <a name="microsoft-365-and-office-365-urls-and-ip-address-ranges"></a>Microsoft 365 url Office 365 et des plages d’adresses IP
 
 Pour obtenir une liste détaillée et à jour des URL, adresses IP, ports et protocoles qui doivent être correctement configurés pour Teams, allez aux URL et [plages](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) d’adresses IP Microsoft 365 et Office 365. Microsoft améliore en permanence les services Microsoft 365 et Office 365 et ajoute de nouvelles fonctionnalités, ce que signifie que les ports, URL et adresses IP requis peuvent changer au fil du temps. Nous vous recommandons de vous [abonner via RSS](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) pour recevoir des notifications lorsque ces informations sont mises à jour ou modifiées.
 

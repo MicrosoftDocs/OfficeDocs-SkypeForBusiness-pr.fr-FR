@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Effectuer une récupération système pour un serveur de pool Skype Entreprise Server pour tester votre processus documenté de récupération d’urgence
-ms.openlocfilehash: 92515a59f4ada2589a371cc9384c63a376e96cf8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Effectuer une récupération système pour un serveur Skype Entreprise Server pool de serveurs pour tester votre processus de récupération d’urgence documenté
+ms.openlocfilehash: 147f947ca0f43f3ca3f05557e992026efb4d524c81073e2d5db3be42f51aa47d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832814"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324203"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Test de récupération d’urgence dans Skype Entreprise Server
 
-Effectuez une récupération système pour un serveur de pool Skype Entreprise Server afin de tester votre processus documenté de récupération d’urgence. Ce test simule une défaillance matérielle complète pour un serveur et garantit que les ressources, les plans et les données sont disponibles pour la récupération. Essayez de faire pivoter le focus du test chaque mois afin que votre organisation teste chaque fois la défaillance d’un autre serveur ou d’un autre équipement. 
+Effectuez une récupération système pour un serveur Skype Entreprise Server pool de serveurs pour tester votre processus de récupération d’urgence documenté. Ce test simule une défaillance matérielle complète pour un serveur et garantit que les ressources, les plans et les données sont disponibles pour la récupération. Essayez de faire pivoter le focus du test chaque mois afin que votre organisation teste chaque fois la défaillance d’un autre serveur ou d’un autre équipement. 
 
 Notez que la planification selon laquelle les organisations effectuent des tests de récupération d’urgence varie. Il est très important que les tests de récupération d’urgence ne sont pas ignorés ou ignorés. 
 
-Exportez votre topologie, vos stratégies et vos paramètres de configuration Skype Entreprise Server dans un fichier. Ce fichier peut, entre autres, être utilisé pour restaurer ces informations dans le magasin central de gestion après une mise à niveau, une défaillance matérielle ou un autre problème qui a entraîné une perte de données.
+Exportez Skype Entreprise Server topologie, stratégies et paramètres de configuration dans un fichier. Ce fichier peut, entre autres, être utilisé pour restaurer ces informations dans le magasin central de gestion après une mise à niveau, une défaillance matérielle ou un autre problème qui a entraîné une perte de données.
 
-Importez votre topologie, stratégies et paramètres de configuration Skype Entreprise Server dans le magasin central de gestion ou sur l’ordinateur local, comme indiqué dans les commandes suivantes : 
+Importez Skype Entreprise Server topologie, stratégies et paramètres de configuration dans le magasin central de gestion ou sur l’ordinateur local, comme indiqué dans les commandes suivantes : 
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
@@ -38,15 +38,15 @@ Pour la protection des données de production :
 - Utilisez une application de sauvegarde tierce pour sauvegarder les données dans un fichier ou sur bande.
 - Utilisez la cmdlet Export-CsUserData pour créer une exportation XML de toute la base de données RTC.
 - Utilisez la sauvegarde du système de fichiers ou la sauvegarde tierce pour sauvegarder le contenu des réunions et les journaux de conformité.
-- Utilisez lExport-CsConfiguration de ligne de commande pour la back up des paramètres Skype Entreprise Server.
+- Utilisez lExport-CsConfiguration de ligne de commande pour Skype Entreprise Server paramètres.
 
 La première étape de la procédure de récupération d’urgence comprend un déplacement forcé d’utilisateurs du pool de production vers le pool de récupération d’urgence. Il s’agit d’un déplacement forcé, car le pool de production ne sera pas disponible pour accepter le déplacement de l’utilisateur.
 
-Le processus de déplacement d’utilisateur Skype Entreprise Server est en fait une modification d’un attribut sur l’objet de compte d’utilisateur en plus d’une mise à jour d’enregistrement sur la base de données SQL RTC. Ces données peuvent être restaurées à partir du périphérique de vidage de sauvegarde d’origine à partir du SQL Server de production à l’aide du processus de restauration SQL Server standard ou à l’aide d’un utilitaire de sauvegarde/restauration tiers.
+Le Skype Entreprise Server de déplacement d’utilisateurs est en fait une modification d’un attribut sur l’objet de compte d’utilisateur en plus d’une mise à jour d’enregistrement sur la base de données SQL RTC. Ces données peuvent être restaurées à partir du périphérique de vidage de sauvegarde d’origine à partir du SQL Server de production à l’aide du processus de restauration SQL Server standard ou à l’aide d’un utilitaire de sauvegarde/restauration tiers.
 
 Une fois ces données restaurées, les utilisateurs peuvent effectivement se connecter au pool de récupération d’urgence et fonctionner comme d’habitude. Pour permettre aux utilisateurs de se connecter au pool de récupération d’urgence, une modification d’enregistrement DNS est requise.
 
-Le pool Skype Entreprise de production sera référencé par les clients à l’aide de la configuration automatique et des enregistrements DNS SRV des :
+Le pool de Skype Entreprise production sera référencé par les clients à l’aide de la configuration automatique et des enregistrements SRV DNS des :
 
 - SRV : _sip._tls.\<domain> /CNAME : SIP.\<domain>
 - CNAME : SIP.\<domain> /cvc-pool-1.\<domain>

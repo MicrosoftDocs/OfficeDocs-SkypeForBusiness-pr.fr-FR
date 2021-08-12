@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit comment déployer la gestion des appareils Salles Microsoft Teams de bout en bout à l’aide d’Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6fe149f2d2cb0e6e68ad50c0c9cf1d2328439ff8dc0f43f56646e8a0152da7b8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850309"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Gestion :::no-loc text="Microsoft Teams Rooms"::: du déploiement avec :::no-loc text="Azure Monitor":::
 
@@ -396,13 +396,13 @@ Configurez une règle d’alerte qui vérifie les appareils qui ont rencontré d
 
 Répétez la même procédure, mais utilisez la requête suivante pour ré lister les appareils qui ont rencontré des problèmes d’application au cours de la dernière heure.
 
-    ```
-    Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
-    | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
-    | sort by TimeGenerated desc
-    ```
+ ```
+ Event
+ | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+ | summarize arg_max(TimeGenerated, *) by Computer
+ | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+ | sort by TimeGenerated desc
+ ```
 
 Vous avez à présent défini les alertes. Vous pouvez définir des alertes supplémentaires à l’aide des exemples ci-dessus.
 

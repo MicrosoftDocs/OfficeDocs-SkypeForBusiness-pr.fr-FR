@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
-description: 'Résumé : Découvrez comment ajouter d’autres bases de données Skype Entreprise Server à un groupe de disponibilité AlwaysOn existant et découvrez les étapes supplémentaires nécessaires après avoir corrigé ou mis à niveau un serveur principal faisant partie d’un groupe de disponibilité AlwaysOn dans Skype Entreprise Server.'
-ms.openlocfilehash: 444194c9cda5f4c3f82e6f3f7698395dce1a5d07
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment ajouter des bases de données Skype Entreprise Server à un groupe de disponibilité AlwaysOn existant et découvrez les étapes supplémentaires nécessaires après avoir corrigé ou mis à niveau un serveur principal faisant partie d’un groupe de disponibilité AlwaysOn dans Skype Entreprise Server.'
+ms.openlocfilehash: 705fc69d1c29807a0f32276a28268f2da932056d38e306db45b8c68e81f9a11b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314450"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Gérer les bases de données avec un groupe de disponibilité AlwaysOn dans Skype Entreprise Server
 
-Utilisez les étapes de cet article pour ajouter d’autres bases de données Skype Entreprise Server à un groupe de disponibilité AlwaysOn existant dans Skype Entreprise Server, et découvrez les étapes supplémentaires nécessaires après avoir corrigé ou mis à niveau un serveur principal faisant partie d’un groupe de disponibilité AlwaysOn dans Skype Entreprise Server.
+Utilisez les étapes de cet article pour ajouter des bases de données Skype Entreprise Server à un groupe de disponibilité AlwaysOn existant dans Skype Entreprise Server et découvrez les étapes supplémentaires nécessaires après avoir corrigé ou mis à niveau un serveur principal faisant partie d’un groupe de disponibilité AlwaysOn dans Skype Entreprise Server.
 
 ## <a name="add-databases-to-an-alwayson-availability-group"></a>Ajouter des bases de données à un groupe de disponibilité AlwaysOn 
 
@@ -29,9 +29,9 @@ Utilisez les étapes de cet article pour ajouter d’autres bases de données Sk
     
 2. Dans le Générateur de topologie, définissez SQL Server FQDN du groupe de disponibilité AlwaysOn sur le FQDN du nœud principal de ce groupe.
     
-   - Ouvrez le Générateur de topologie, **sélectionnez Télécharger** la topologie à partir d’un déploiement existant, puis cliquez sur **OK.**
+   - Ouvrez le Générateur de topologie, **sélectionnez Télécharger la topologie** à partir d’un déploiement existant, puis cliquez sur **OK.**
     
-   - Développez Skype Entreprise Server, développez votre topologie et **développez SQL Server Stores.** Cliquez avec le bouton droit SQL magasin du nouveau groupe de disponibilité AlwaysOn, puis cliquez sur **Modifier les propriétés.**
+   - Développez Skype Entreprise Server, développez votre topologie et développez **SQL Server Stores.** Cliquez avec le bouton droit SQL magasin du nouveau groupe de disponibilité AlwaysOn, puis cliquez sur **Modifier les propriétés.**
     
    - En bas de la page, dans la zone **SQL Server FQDN,** tapez le FQDN du nœud principal du groupe de disponibilité AlwaysOn.
     
@@ -43,7 +43,7 @@ Utilisez les étapes de cet article pour ajouter d’autres bases de données Sk
 
 Après avoir corrigé un serveur principal faisant partie d’un groupe de disponibilité AlwaysOn, vous devez republier la topologie.
 
-1. Installez la mise à jour sur votre ou vos serveurs Skype Entreprise.
+1. Installez la mise à jour sur Skype Entreprise serveurs.
     
 2. Exécutez la commande PowerShell suivante dans votre Skype Entreprise Management Shell (connecté avec un compte autorisé à appliquer les modifications aux bases de données SQL AlwaysOn) comme suit :
     

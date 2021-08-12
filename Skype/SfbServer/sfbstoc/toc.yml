@@ -3,9 +3,9 @@
   items:
     - name: Diagrammes techniques
       href: ../technical-diagrams.md
-    - name: "Nouveautés de Skype\_Entreprise\_Server"
+    - name: Nouveautés de Skype Entreprise Server
       href: ../what-s-new-in-skype-for-business-server.md
-    - name: "Téléchargements et mises à jour de Skype\_Entreprise"
+    - name: Téléchargements et mises à jour de Skype Entreprise
       href: ../software-updates.md
       items:
         - name: Mises à jour du client
@@ -15,9 +15,9 @@
     - name: Solutions de téléphonie Microsoft
       href: /MicrosoftTeams/cloud-voice-landing-page.md
       items:
-        - name: "Planifier un système téléphonique avec une connectivité\_PSTN en local dans Skype\_Entreprise\_Server"
+        - name: Planifier un système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
-        - name: "Activation des utilisateurs pour le Système téléphonique avec une connectivité\_PSTN en local dans Skype\_Entreprise\_Server"
+        - name: Activation des utilisateurs pour le Système téléphonique avec une connectivité PSTN en local dans Skype Entreprise Server
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system.md
           items:
             - name: Activation des utilisateurs pour Voix Entreprise en local
@@ -42,9 +42,9 @@
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-a-single-site-in-cloud-connector.md
             - name: Déployer plusieurs sites dans Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-multiple-sites-in-cloud-connector.md
-            - name: "Configurer l’intégration de Cloud Connector avec votre organisation Office\_365"
+            - name: Configurer l’intégration de Cloud Connector avec votre organisation Office 365
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/configure-cloud-connector-integration-with-your-office-365-tenant.md
-            - name: "Validation de votre déploiement de Cloud\_Connector"
+            - name: Validation de votre déploiement de Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/validate-your-cloud-connector-deployment.md
             - name: Effectuer une mise à niveau vers une nouvelle version de Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/upgrade-to-a-new-version-of-cloud-connector.md
@@ -54,7 +54,7 @@
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/deploy-media-bypass-in-cloud-connector.md
             - name: Surveiller Cloud Connector à l’aide d’Operations Management Suite (OMS)
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/monitor-cloud-connector-using-operations-management-suite-oms.md
-            - name: "Référence d’applet de commande Cloud\_Connector"
+            - name: Référence d’applet de commande Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/cloud-connector-cmdlet-reference.md
               items:
                 - name: Backup-CcCertificationAuthority
@@ -133,9 +133,9 @@
                   href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-cccacertificate.md
                 - name: Update-CcServerCertificate
                   href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/update-ccservercertificate.md
-            - name: "Résolution des problèmes liés à votre déploiement de Cloud\_Connector"
+            - name: Résolution des problèmes liés à votre déploiement de Cloud Connector
               href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/troubleshoot-your-cloud-connector-deployment.md
-    - name: "Solutions hybrides pour Teams et Skype\_Entreprise"
+    - name: Solutions hybrides pour Teams et Skype Entreprise
       href: ../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
     - name: Planifier votre déploiement
       href: ../plan-your-deployment/plan-your-deployment.md
@@ -195,9 +195,9 @@
             - name: Clients de réunions
               href: ../plan-your-deployment/clients-and-devices/meetings-clients.md
               items:
-                - name: "Configuration réseau minimale requise pour l’application Réunions\_Skype"
+                - name: Configuration réseau minimale requise pour l’application Réunions Skype
                   href: ../plan-your-deployment/clients-and-devices/minimum-network-requirements.md
-            - name: "Configuration requise pour Windows\_Phone"
+            - name: Configuration requise pour Windows Phone
               href: ../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md
             - name: Environnements VDI
               href: ../plan-your-deployment/clients-and-devices/vdi-environments.md
@@ -231,13 +231,13 @@
               href: ../plan-your-deployment/persistent-chat-server/capacity-planning.md
             - name: 'Catégories, salles de conversation et rôles utilisateur'
               href: ../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md
-        - name: "Solution Voix\_Entreprise"
+        - name: Solution Voix Entreprise
           href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
           items:
-            - name: "Voix\_Entreprise"
+            - name: Voix Entreprise
               href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md
               items:
-                - name: "Composants requis pour Voix\_Entreprise"
+                - name: Composants requis pour Voix Entreprise
                   href: ../plan-your-deployment/enterprise-voice-solution/components-required-for-enterprise-voice.md
                   items:
                     - name: Serveur de médiation
@@ -249,7 +249,7 @@
                 - name: Connectivité RTC
                   href: ../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md
                   items:
-                    - name: "Jonction\_SIP"
+                    - name: Jonction SIP
                       href: ../plan-your-deployment/enterprise-voice-solution/sip-trunking.md
                       items:
                         - name: Site de succursale
@@ -264,14 +264,14 @@
                       href: ../plan-your-deployment/enterprise-voice-solution/translation-rules.md
                     - name: Routage des communications vocales sortantes
                       href: ../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md
-                - name: "Résilience de Voix\_Entreprise"
+                - name: Résilience de Voix Entreprise
                   href: ../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md
                 - name: Paramètres réseau pour les fonctionnalités avancées
                   href: ../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md
                 - name: Contrôle d’admission des appels
                   href: ../plan-your-deployment/enterprise-voice-solution/call-admission-control.md
                   items:
-                    - name: "Exemple\_: déterminer la configuration requise"
+                    - name: 'Exemple : déterminer la configuration requise'
                       href: ../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md
                     - name: Composants et topologies
                       href: ../plan-your-deployment/enterprise-voice-solution/components-and-topologies.md
@@ -293,7 +293,7 @@
                           href: ../plan-your-deployment/enterprise-voice-solution/elin-gateways.md
                         - name: Acquisition manuelle d’un emplacement
                           href: ../plan-your-deployment/enterprise-voice-solution/manually-acquiring-a-location.md
-                        - name: "Conception de la jonction\_SIP"
+                        - name: Conception de la jonction SIP
                           href: ../plan-your-deployment/enterprise-voice-solution/design-the-sip-trunk.md
                         - name: Bureau de sécurité
                           href: ../plan-your-deployment/enterprise-voice-solution/security-desk.md
@@ -321,7 +321,7 @@
                       href: ../plan-your-deployment/enterprise-voice-solution/call-park.md
                     - name: Prise d’appel de groupe
                       href: ../plan-your-deployment/enterprise-voice-solution/group-call-pickup.md
-                    - name: "Response\_Group"
+                    - name: Response Group
                       href: ../plan-your-deployment/enterprise-voice-solution/response-group.md
                     - name: Annonce
                       href: ../plan-your-deployment/enterprise-voice-solution/announcement.md
@@ -440,11 +440,11 @@
               href: ../deploy/install/create-dns-records.md
             - name: Créer et publier une nouvelle topologie
               href: ../deploy/install/create-and-publish-new-topology.md
-            - name: "Installer Skype\_Entreprise\_Server"
+            - name: Installer Skype Entreprise Server
               href: ../deploy/install/install-skype-for-business-server.md
             - name: Vérification de la topologie
               href: ../deploy/install/verify-the-topology.md
-        - name: "Effectuer la mise à niveau vers Skype\_Entreprise\_Server"
+        - name: Effectuer la mise à niveau vers Skype Entreprise Server
           href: ../deploy/upgrade-to-skype-for-business-server.md
         - name: Déployer l’appel via le bureau
           href: ../deploy/deploy-call-via-work.md
@@ -481,7 +481,7 @@
           items:
             - name: Associer un magasin de surveillance
               href: ../deploy/deploy-monitoring/associate-a-monitoring-store.md
-            - name: "Installer SQL\_Server\_Reporting\_Services"
+            - name: Installer SQL Server Reporting Services
               href: ../deploy/deploy-monitoring/install-sql-server-reporting-services.md
             - name: Installer des rapports de surveillance
               href: ../deploy/deploy-monitoring/install-monitoring-reports.md
@@ -534,9 +534,9 @@
                   href: ../deploy/deploy-enterprise-voice/trunk-configuration-settings.md
                 - name: Supprimer la configuration de la jonction
                   href: ../deploy/deploy-enterprise-voice/delete-trunk-configuration.md
-                - name: "Modification de la configuration d’une jonction\_SIP"
+                - name: Modification de la configuration d’une jonction SIP
                   href: ../deploy/deploy-enterprise-voice/modify-sip-trunk-configuration.md
-                - name: "Test de la configuration des jonctions\_SIP"
+                - name: Test de la configuration des jonctions SIP
                   href: ../deploy/deploy-enterprise-voice/test-sip-trunk-configuration.md
                 - name: Affichage des informations SIP
                   href: ../deploy/deploy-enterprise-voice/view-sip-info.md
@@ -563,9 +563,9 @@
                   href: ../deploy/deploy-enterprise-voice/voice-route-configuration-import-export.md
                 - name: Modifications de configuration d’itinéraire de communications vocales
                   href: ../deploy/deploy-enterprise-voice/voice-route-config-changes.md
-            - name: "Activation des utilisateurs pour Voix\_Entreprise"
+            - name: Activation des utilisateurs pour Voix Entreprise
               href: ../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md
-            - name: "Déploiement des fonctionnalités avancées Voix\_Entreprise"
+            - name: Déploiement des fonctionnalités avancées Voix Entreprise
               href: ../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md
               items:
                 - name: Déployer un réseau
@@ -588,7 +588,7 @@
                 - name: Déploiement de services d’urgence
                   href: ../deploy/deploy-enterprise-voice/deploy-emergency-services.md
                   items:
-                    - name: "Configuration d’un itinéraire des communications vocales\_E9-1-1"
+                    - name: Configuration d’un itinéraire des communications vocales E9-1-1
                       href: ../deploy/deploy-enterprise-voice/configure-an-e9-1-1-voice-route.md
                     - name: Création de stratégies d’emplacement
                       href: ../deploy/deploy-enterprise-voice/create-location-policies.md
@@ -596,7 +596,7 @@
                       href: ../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md
                     - name: Configurer la base de données d’emplacements
                       href: ../deploy/deploy-enterprise-voice/configure-the-location-database.md
-                    - name: "Configuration d’une application\_SNMP"
+                    - name: Configuration d’une application SNMP
                       href: ../deploy/deploy-enterprise-voice/configure-an-snmp-application.md
                     - name: Service Informations d’emplacement secondaire
                       href: ../deploy/deploy-enterprise-voice/secondary-location-information-service.md
@@ -694,11 +694,11 @@
         - name: Déploiement d’une conférence
           href: ../deploy/deploy-conferencing/deploy-conferencing.md
           items:
-            - name: "Serveur Office\_Web\_App"
+            - name: Serveur Office Web App
               href: ../deploy/deploy-conferencing/office-web-app-server.md
             - name: Conférence rendez-vous
               href: ../deploy/deploy-conferencing/dial-in-conferencing.md
-            - name: "Portail web d’administration du système de salle\_v1"
+            - name: Portail web d’administration du système de salle v1
               href: ../deploy/deploy-conferencing/room-system-v1-administrative-web-portal.md
         - name: Déploiement d’un serveur Edge
           href: ../deploy/deploy-edge-server/deploy-edge-server.md
@@ -741,7 +741,7 @@
                       href: ../deploy/deploy-clients/single-forest-on-premises-deployments.md
                     - name: Déploiements sur site de plusieurs forêts
                       href: ../deploy/deploy-clients/multiple-forest-on-premises-deployments.md
-                    - name: "Approvisionnement de comptes de système de salle Skype dans Office\_365"
+                    - name: Approvisionnement de comptes de système de salle Skype dans Office 365
                       href: ../deploy/deploy-clients/provisioning-skype-room-system-accounts-in-office-365.md
                     - name: Déploiements hybrides
                       href: ../deploy/deploy-clients/hybrid-deployments.md
@@ -757,20 +757,20 @@
                   href: ../deploy/deploy-clients/migration-considerations.md
                 - name: Considérations sur la jonction de domaine
                   href: ../deploy/deploy-clients/domain-joining-considerations.md
-                - name: "Licence de logiciel Skype\_Entreprise"
+                - name: Licence de logiciel Skype Entreprise
                   href: ../deploy/deploy-clients/skype-for-business-software-liicense.md
                 - name: Outils et facilité de gestion
                   href: ../deploy/deploy-clients/manageability-and-tools.md
                 - name: Scripts de configuration de salle
                   href: ../deploy/deploy-clients/room-setup-scripts.md
-            - name: "Systèmes de salle\_v2"
+            - name: Systèmes de salle v2
               href: /MicrosoftTeams/rooms/rooms-deploy
               items:
-                - name: "Avec Office\_365"
+                - name: Avec Office 365
                   href: /MicrosoftTeams/rooms/with-office-365
-                - name: "Avec Skype\_Entreprise\_Server\_2015"
+                - name: Avec Skype Entreprise Server 2015
                   href: /MicrosoftTeams/rooms/with-skype-for-business-server-2015
-                - name: "Avec Exchange\_Online"
+                - name: Avec Exchange Online
                   href: /MicrosoftTeams/rooms/with-exchange-online
                 - name: Avec Exchange local
                   href: /MicrosoftTeams/rooms/with-exchange-on-premises
@@ -814,7 +814,7 @@
               href: ../manage/topology/manage-databases.md
             - name: Déplacer les données d’un magasin de fichiers
               href: ../manage/topology/move-file-store-data.md
-            - name: "Désactiver le protocole TLS\_1.0/1.1"
+            - name: Désactiver le protocole TLS 1.0/1.1
               href: ../manage/topology/disable-tls-1.0-1.1.md
             - name: Gérer les services
               href: ../manage/manage-services.md
@@ -1041,7 +1041,7 @@
                   href: ../manage/conferencing/pin-policies.md
                 - name: Participer à des annonces et les quitter
                   href: ../manage/conferencing/join-and-leave-announcements.md
-                - name: "Mappage des clés des commandes\_DTMF"
+                - name: Mappage des clés des commandes DTMF
                   href: ../manage/conferencing/key-mapping-for-dtmf-commands.md
                 - name: Participation à une réunion sans code confidentiel
                   href: ../manage/conferencing/pin-less-meeting-join.md
@@ -1334,7 +1334,7 @@
                   href: ../management-tools/planning-tool/dial-in-conferencing.md
                 - name: Conférence web
                   href: ../management-tools/planning-tool/web-conferencing.md
-                - name: "Voix\_Entreprise"
+                - name: Voix Entreprise
                   href: ../management-tools/planning-tool/enterprise-voice.md
                 - name: Paramètres de messagerie unifiée Exchange
                   href: ../management-tools/planning-tool/exchange-unified-messaging-settings.md
@@ -1858,47 +1858,47 @@
               href: ../help-topics/help-depwiz/startservices-intro.md
             - name: Démarrer les services (appeler)
               href: ../help-topics/help-depwiz/start-services-invoke.md
-            - name: "Assistant Déploiement\_: demande de certificat"
+            - name: 'Assistant Déploiement : demande de certificat'
               href: ../help-topics/help-depwiz/deployment-wizard-request-a-certificate.md
-            - name: "Assistant Déploiement\_: utilisation des outils d’administration"
+            - name: 'Assistant Déploiement : utilisation des outils d’administration'
               href: ../help-topics/help-depwiz/deployment-wizard-using-the-admin-tools.md
-            - name: "Assistant Déploiement\_: outils d’administration"
+            - name: 'Assistant Déploiement : outils d’administration'
               href: ../help-topics/help-depwiz/deployment-wizard-admin-tools.md
-            - name: "Assistant Déploiement\_: chemin d’accès du fichier d’installation MSI"
+            - name: 'Assistant Déploiement : chemin d’accès du fichier d’installation MSI'
               href: ../help-topics/help-depwiz/deployment-wizard-path-to-msi-installer.md
-            - name: "Assistant Déploiement\_: Windows Update"
+            - name: 'Assistant Déploiement : Windows Update'
               href: ../help-topics/help-depwiz/deployment-wizard-windows-update.md
-            - name: "Assistant Déploiement\_: API web Communications unifiées"
+            - name: 'Assistant Déploiement : API web Communications unifiées'
               href: ../help-topics/help-depwiz/deployment-wizard-unified-communications-api.md
         - name: Help-LSCP
           items:
             - name: Utiliser le Panneau de configuration
               href: ../help-topics/help-lscp/use-the-control-panel.md
-            - name: "Stratégie de version du client\_: création d’une nouvelle ou modification d’une stratégie existante"
+            - name: 'Stratégie de version du client : création d’une nouvelle ou modification d’une stratégie existante'
               href: ../help-topics/help-lscp/client-version-policy-create-new-or-edit-existing.md
             - name: Stratégie de version du client
               href: ../help-topics/help-lscp/client-version-policy.md
             - name: Règle de version du client
               href: ../help-topics/help-lscp/client-version-rule.md
-            - name: "Configuration de version du client\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration de version du client : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/client-version-configuration-create-new-or-edit-existing.md
             - name: Configuration de version du client
               href: ../help-topics/help-lscp/client-version-configuration.md
             - name: Configuration du fichier journal de l’appareil
               href: ../help-topics/help-lscp/device-log-configuration.md
-            - name: "Test d’appareil\_: création d’un nouveau ou modification d’un test existant"
+            - name: 'Test d’appareil : création d’un nouveau ou modification d’un test existant'
               href: ../help-topics/help-lscp/test-device-create-new-or-edit-existing.md
             - name: Test d’appareil
               href: ../help-topics/help-lscp/test-device.md
-            - name: "Configuration du fichier journal de l’appareil\_: Modifier"
+            - name: 'Configuration du fichier journal de l’appareil : Modifier'
               href: ../help-topics/help-lscp/device-log-configuration-edit.md
             - name: Mise à jour de l’appareil
               href: ../help-topics/help-lscp/device-update.md
-            - name: "Configuration de l’appareil\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration de l’appareil : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md
             - name: Configuration de l’appareil
               href: ../help-topics/help-lscp/device-configuration.md
-            - name: "Numéro d’accès entrant\_: création d’un nouveau ou modification d’un numéro existant"
+            - name: 'Numéro d’accès entrant : création d’un nouveau ou modification d’un numéro existant'
               href: ../help-topics/help-lscp/dial-in-access-number-create-new-or-edit-existing.md
             - name: Numéro d’accès entrant
               href: ../help-topics/help-lscp/dial-in-access-number.md
@@ -1906,27 +1906,27 @@
               href: ../help-topics/help-lscp/select-languages.md
             - name: Sélectionner des régions
               href: ../help-topics/help-lscp/select-regions.md
-            - name: "Stratégie de conférence\_: création d’une stratégie ou modification d’une stratégie existante"
+            - name: 'Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante'
               href: ../help-topics/help-lscp/conferencing-policy-create-new-or-edit-existing.md
             - name: Stratégie de conférence
               href: ../help-topics/help-lscp/conferencing-policy.md
-            - name: "Configuration de la réunion\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration de la réunion : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/meeting-configuration-create-new-or-edit-existing.md
             - name: Configuration de la réunion
               href: ../help-topics/help-lscp/meeting-configuration.md
-            - name: "Domaines fédérés\_: création d’un nouveau ou modification d’un domaine existant"
+            - name: 'Domaines fédérés : création d’un nouveau ou modification d’un domaine existant'
               href: ../help-topics/help-lscp/federated-domains-create-new-or-edit-existing.md
             - name: Domaines fédérés
               href: ../help-topics/help-lscp/federated-domains.md
-            - name: "Configuration du serveur Microsoft Edge d’accès\_: modification"
+            - name: 'Configuration du serveur Microsoft Edge d’accès : modification'
               href: ../help-topics/help-lscp/access-edge-configuration-edit.md
             - name: Configuration du serveur Microsoft Edge d’accès
               href: ../help-topics/help-lscp/access-edge-configuration.md
-            - name: "Stratégie d’accès externe\_: création d’une nouvelle ou modification d’une stratégie existante"
+            - name: 'Stratégie d’accès externe : création d’une nouvelle ou modification d’une stratégie existante'
               href: ../help-topics/help-lscp/external-access-policy-create-new-or-edit-existing.md
             - name: Stratégie d’accès externe
               href: ../help-topics/help-lscp/external-access-policy.md
-            - name: "Fournisseurs fédérés SIP\_: création d’un nouveau ou modification d’un fournisseur existant"
+            - name: 'Fournisseurs fédérés SIP : création d’un nouveau ou modification d’un fournisseur existant'
               href: ../help-topics/help-lscp/sip-federated-providers-create-new-or-edit-existing.md
             - name: Fournisseurs fédérés SIP
               href: ../help-topics/help-lscp/sip-federated-providers.md
@@ -1938,51 +1938,51 @@
               href: ../help-topics/help-lscp/select-file-type-extensions.md
             - name: Sélectionner un préfixe de lien hypertexte
               href: ../help-topics/help-lscp/select-hyperlink-prefix.md
-            - name: "Filtre de fichier\_: création d’un nouveau ou modification d’un filtre existant"
+            - name: 'Filtre de fichier : création d’un nouveau ou modification d’un filtre existant'
               href: ../help-topics/help-lscp/file-filter-create-new-or-edit-existing.md
             - name: Filtre de fichier
               href: ../help-topics/help-lscp/file-filter.md
-            - name: "Filtre d’URL\_: création d’un nouveau ou modification d’un filtre existant"
+            - name: 'Filtre d’URL : création d’un nouveau ou modification d’un filtre existant'
               href: ../help-topics/help-lscp/url-filter-create-new-or-edit-existing.md
             - name: Filtre d’URL
               href: ../help-topics/help-lscp/url-filter.md
-            - name: "Enregistrement des détails des appels\_: création d’un nouveau ou modification d’un enregistrement existant"
+            - name: 'Enregistrement des détails des appels : création d’un nouveau ou modification d’un enregistrement existant'
               href: ../help-topics/help-lscp/call-detail-recording-create-new-or-edit-existing.md
             - name: Enregistrement des détails des appels
               href: ../help-topics/help-lscp/call-detail-recording.md
-            - name: "Stratégie d’archivage\_: création d’une nouvelle ou modification d’une stratégie existante"
+            - name: 'Stratégie d’archivage : création d’une nouvelle ou modification d’une stratégie existante'
               href: ../help-topics/help-lscp/archiving-policy-create-new-or-edit-existing.md
             - name: Stratégie d’archivage
               href: ../help-topics/help-lscp/archiving-policy.md
-            - name: "Données de qualité de l’expérience (QoE)\_: création de nouvelles données ou modification de données existantes"
+            - name: 'Données de qualité de l’expérience (QoE) : création de nouvelles données ou modification de données existantes'
               href: ../help-topics/help-lscp/quality-of-experience-qoe-data-create-new-or-edit-existing.md
             - name: Données de qualité de l’expérience (QoE)
               href: ../help-topics/help-lscp/quality-of-experience-qoe-data.md
-            - name: "Configuration de l’archivage\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/archiving-configuration-create-new-or-edit-existing.md
             - name: Configuration de l’archivage
               href: ../help-topics/help-lscp/archiving-configuration.md
-            - name: "Configuration du réseau\_: Modifier la configuration globale"
+            - name: 'Configuration du réseau : Modifier la configuration globale'
               href: ../help-topics/help-lscp/network-configuration-edit-global-setting.md
-            - name: "Configuration du réseau\_: paramètres globaux"
+            - name: 'Configuration du réseau : paramètres globaux'
               href: ../help-topics/help-lscp/network-configuration-global-setting.md
-            - name: "Stratégie d’emplacement\_: création d’une nouvelle ou modification d’une stratégie existante"
+            - name: 'Stratégie d’emplacement : création d’une nouvelle ou modification d’une stratégie existante'
               href: ../help-topics/help-lscp/location-policy-create-new-or-edit-existing.md
             - name: Stratégie d’emplacement
               href: ../help-topics/help-lscp/location-policy.md
-            - name: "Profil de stratégie de bande passante\_: création d’un nouveau ou modification d’un profil existant"
+            - name: 'Profil de stratégie de bande passante : création d’un nouveau ou modification d’un profil existant'
               href: ../help-topics/help-lscp/bandwidth-policy-profile-create-new-or-edit-existing.md
             - name: Profil de stratégie de bande passante
               href: ../help-topics/help-lscp/bandwidth-policy-profile.md
-            - name: "Configuration d’une région de réseau\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration d’une région de réseau : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/configure-a-network-region-create-new-or-edit-existing.md
-            - name: "Configuration d’un lien de région réseau\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration d’un lien de région réseau : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/configure-a-network-region-link-create-new-or-edit-existing.md
             - name: Configurer un lien de région réseau
               href: ../help-topics/help-lscp/configure-a-network-region-link.md
             - name: Configurer une région réseau
               href: ../help-topics/help-lscp/configure-a-network-region.md
-            - name: "Configuration d’un itinéraire de région réseau\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration d’un itinéraire de région réseau : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/configure-a-network-region-route-create-new-or-edit-existing.md
             - name: Configurer un itinéraire de région réseau
               href: ../help-topics/help-lscp/configure-a-network-region-route.md
@@ -1990,19 +1990,19 @@
               href: ../help-topics/help-lscp/assign-properties.md
             - name: Sélectionner un lien de région
               href: ../help-topics/help-lscp/select-a-region-link.md
-            - name: "Configuration d’un site réseau\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration d’un site réseau : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/configure-a-network-site-create-new-or-edit-existing.md
             - name: Configurer un site réseau
               href: ../help-topics/help-lscp/configure-a-network-site.md
-            - name: "Association d’un sous-réseau\_: ajout d’une nouvelle ou modification d’une association existante"
+            - name: 'Association d’un sous-réseau : ajout d’une nouvelle ou modification d’une association existante'
               href: ../help-topics/help-lscp/associate-a-subnet-add-new-or-edit-existing.md
             - name: Associer un sous-réseau
               href: ../help-topics/help-lscp/associate-a-subnet.md
-            - name: "Services Response Group\_: création d’un nouveau ou modification d’un groupe existant"
+            - name: 'Services Response Group : création d’un nouveau ou modification d’un groupe existant'
               href: ../help-topics/help-lscp/response-groups-create-new-or-edit-existing-agent-group.md
-            - name: "Services Response Group\_: groupe"
+            - name: 'Services Response Group : groupe'
               href: ../help-topics/help-lscp/response-groups-group.md
-            - name: "File d’attente des services Response Groups\_: création d’une nouvelle ou modification d’une file existante"
+            - name: 'File d’attente des services Response Groups : création d’une nouvelle ou modification d’une file existante'
               href: ../help-topics/help-lscp/response-groups-queue-create-new-or-edit-existing.md
             - name: File d’attente des services Response Groups
               href: ../help-topics/help-lscp/response-groups-queue.md
@@ -2016,15 +2016,15 @@
               href: ../help-topics/help-lscp/select-time-out-queue.md
             - name: Flux de travail des services Response Groups
               href: ../help-topics/help-lscp/response-groups-workflow.md
-            - name: "Stratégie de code confidentiel\_: création d’une nouvelle ou modification d’une stratégie existante"
+            - name: 'Stratégie de code confidentiel : création d’une nouvelle ou modification d’une stratégie existante'
               href: ../help-topics/help-lscp/pin-policy-create-new-or-edit-existing.md
             - name: Stratégie de code confidentiel
               href: ../help-topics/help-lscp/pin-policy.md
-            - name: "Paramètres de sécurité du serveur d’inscriptions\_: création d’un nouveau ou modification d’un paramètre existant"
+            - name: 'Paramètres de sécurité du serveur d’inscriptions : création d’un nouveau ou modification d’un paramètre existant'
               href: ../help-topics/help-lscp/registrar-security-settings-create-new-or-edit-existing.md
             - name: Paramètres de sécurité du serveur d’inscriptions
               href: ../help-topics/help-lscp/registrar-security-settings.md
-            - name: "Paramètres de sécurité du service web\_: création d’un nouveau ou modification d’un paramètre existant"
+            - name: 'Paramètres de sécurité du service web : création d’un nouveau ou modification d’un paramètre existant'
               href: ../help-topics/help-lscp/web-service-security-settings-create-new-or-modify-existing.md
             - name: Paramètres de sécurité du service web
               href: ../help-topics/help-lscp/web-service-security-settings.md
@@ -2032,33 +2032,33 @@
               href: ../help-topics/help-lscp/select-a-service.md
             - name: Sélection d’un site
               href: ../help-topics/help-lscp/select-a-site.md
-            - name: "Topologie\_: serveur d’applications"
+            - name: 'Topologie : serveur d’applications'
               href: ../help-topics/help-lscp/topology-server-application.md
-            - name: "Topologie\_: application approuvée"
+            - name: 'Topologie : application approuvée'
               href: ../help-topics/help-lscp/topology-trusted-application.md
-            - name: "Topologie\_: afficher des détails d’URL simple"
+            - name: 'Topologie : afficher des détails d’URL simple'
               href: ../help-topics/help-lscp/topology-view-simple-url-detail.md
-            - name: "Topologie\_: afficher une URL simple"
+            - name: 'Topologie : afficher une URL simple'
               href: ../help-topics/help-lscp/topology-view-simple-url.md
-            - name: "Topologie\_: afficher le détail de l’ordinateur"
+            - name: 'Topologie : afficher le détail de l’ordinateur'
               href: ../help-topics/help-lscp/topology-view-computer-detail.md
-            - name: "Topologie\_: état"
+            - name: 'Topologie : état'
               href: ../help-topics/help-lscp/topology-status.md
-            - name: "Topologie\_: afficher le détail des services"
+            - name: 'Topologie : afficher le détail des services'
               href: ../help-topics/help-lscp/topology-view-service-detail.md
-            - name: "Utilisateurs\_: attribuer des stratégies"
+            - name: 'Utilisateurs : attribuer des stratégies'
               href: ../help-topics/help-lscp/users-assign-policies.md
-            - name: "Utilisateurs\_: modifier l’utilisateur"
+            - name: 'Utilisateurs : modifier l’utilisateur'
               href: ../help-topics/help-lscp/users-edit-user.md
-            - name: "Panneau de configuration\_- Mise à jour\_: recherche d’un utilisateur"
+            - name: 'Panneau de configuration - Mise à jour : recherche d’un utilisateur'
               href: ../help-topics/help-lscp/control-panelupdated-user-search.md
             - name: Déplacer un utilisateur
               href: ../help-topics/help-lscp/move-user.md
             - name: Déplacement de tous les utilisateurs
               href: ../help-topics/help-lscp/move-all-users.md
-            - name: "Utilisateurs\_: nouvel utilisateur Lync Server"
+            - name: 'Utilisateurs : nouvel utilisateur Lync Server'
               href: ../help-topics/help-lscp/users-new-lync-server-user.md
-            - name: "Utilisateurs\_: nouveaux objets contact"
+            - name: 'Utilisateurs : nouveaux objets contact'
               href: ../help-topics/help-lscp/users-new-contact-objects.md
             - name: Code confidentiel défini correctement
               href: ../help-topics/help-lscp/pin-set-successfully.md
@@ -2068,37 +2068,37 @@
               href: ../help-topics/help-lscp/select-contacts-from-active-directory.md
             - name: Définir le code confidentiel
               href: ../help-topics/help-lscp/set-pin.md
-            - name: "Utilisateurs\_: afficher ou configurer la stratégie d’archivage"
+            - name: 'Utilisateurs : afficher ou configurer la stratégie d’archivage'
               href: ../help-topics/help-lscp/users-view-or-configure-archiving-policy.md
-            - name: "Utilisateurs\_: afficher ou configurer la stratégie de conférence"
+            - name: 'Utilisateurs : afficher ou configurer la stratégie de conférence'
               href: ../help-topics/help-lscp/users-view-or-configure-conferencing-policy.md
-            - name: "Utilisateurs\_: afficher ou configurer la stratégie de version du client"
+            - name: 'Utilisateurs : afficher ou configurer la stratégie de version du client'
               href: ../help-topics/help-lscp/users-view-or-configure-client-version-policy.md
-            - name: "Utilisateurs\_: Afficher ou configurer le plan de numérotation"
+            - name: 'Utilisateurs : Afficher ou configurer le plan de numérotation'
               href: ../help-topics/help-lscp/users-view-or-configure-dial-plan.md
-            - name: "Utilisateurs\_: afficher ou configurer la stratégie d’accès externe"
+            - name: 'Utilisateurs : afficher ou configurer la stratégie d’accès externe'
               href: ../help-topics/help-lscp/users-view-or-configure-external-access-policy.md
-            - name: "Utilisateurs\_: afficher ou configurer la stratégie d’emplacement"
+            - name: 'Utilisateurs : afficher ou configurer la stratégie d’emplacement'
               href: ../help-topics/help-lscp/users-view-or-configure-location-policy.md
-            - name: "Utilisateurs\_: Afficher le statut du code confidentiel"
+            - name: 'Utilisateurs : Afficher le statut du code confidentiel'
               href: ../help-topics/help-lscp/users-view-pin-status.md
-            - name: "Utilisateurs\_: afficher une stratégie de voix"
+            - name: 'Utilisateurs : afficher une stratégie de voix'
               href: ../help-topics/help-lscp/users-view-voice-policy.md
-            - name: "Utilisateurs\_: afficher ou configurer la stratégie de code confidentiel"
+            - name: 'Utilisateurs : afficher ou configurer la stratégie de code confidentiel'
               href: ../help-topics/help-lscp/users-view-or-configure-pin-policy.md
             - name: Enregistrer les informations de cas de test de routage des communications vocales
               href: ../help-topics/help-lscp/save-voice-routing-test-case-information.md
             - name: Sélectionner des utilisateurs Voix Entreprise
               href: ../help-topics/help-lscp/select-enterprise-voice-users.md
-            - name: "Plan de numérotation\_: en créer une autre ou en modifier une existante"
+            - name: 'Plan de numérotation : en créer une autre ou en modifier une existante'
               href: ../help-topics/help-lscp/dial-plan-create-new-or-edit-existing.md
             - name: Plan de numérotation
               href: ../help-topics/help-lscp/dial-plan.md
-            - name: "Règle de normalisation\_: en créer une nouvelle ou en modifier une existant"
+            - name: 'Règle de normalisation : en créer une nouvelle ou en modifier une existant'
               href: ../help-topics/help-lscp/normalization-rule-create-new-or-edit-existing.md
             - name: Sélectionner des règles de normalisation
               href: ../help-topics/help-lscp/select-normalization-rules.md
-            - name: "Parcage d’appel\_: créer un nouveau ou modifier un parcage existant"
+            - name: 'Parcage d’appel : créer un nouveau ou modifier un parcage existant'
               href: ../help-topics/help-lscp/call-park-create-new-or-edit-existing.md
             - name: Parcage d’appel
               href: ../help-topics/help-lscp/call-park.md
@@ -2106,67 +2106,67 @@
               href: ../help-topics/help-lscp/select-an-announcement-service.md
             - name: Sélectionner le standard automatique de la messagerie unifiée Exchange
               href: ../help-topics/help-lscp/select-exchange-um-auto-attendant.md
-            - name: "Numéro de téléphone non attribué\_: créer un nouveau ou modifier un numéro existant"
+            - name: 'Numéro de téléphone non attribué : créer un nouveau ou modifier un numéro existant'
               href: ../help-topics/help-lscp/unassigned-phone-number-create-new-or-edit-existing.md
             - name: Numéro de téléphone non attribué
               href: ../help-topics/help-lscp/unassigned-phone-number.md
             - name: Afficher les passerelles (importer la configuration)
               href: ../help-topics/help-lscp/view-gateways-import-configuration.md
-            - name: "Stratégie de la voix\_: créer une nouvelle ou modifier la stratégie existante"
+            - name: 'Stratégie de la voix : créer une nouvelle ou modifier la stratégie existante'
               href: ../help-topics/help-lscp/voice-policy-create-new-or-edit-existing.md
             - name: Stratégie vocale
               href: ../help-topics/help-lscp/voice-policy.md
             - name: Sélectionner un enregistrement d’utilisation PSTN
               href: ../help-topics/help-lscp/select-pstn-usage-record.md
-            - name: "Stratégie de la voix\_: créer un nouvel enregistrement d’utilisation PSTN ou en modifier un existant"
+            - name: 'Stratégie de la voix : créer un nouvel enregistrement d’utilisation PSTN ou en modifier un existant'
               href: ../help-topics/help-lscp/voice-policy-create-new-or-edit-existing-pstn-usage-record.md
-            - name: "Routage des communications vocales\_: état de la validation des modifications pour la configuration du routage des communications vocales"
+            - name: 'Routage des communications vocales : état de la validation des modifications pour la configuration du routage des communications vocales'
               href: ../help-topics/help-lscp/voice-routing-status-of-commit-changes-for-voice-routing-configuration.md
-            - name: "Itinéraire des communications vocales\_: créer un nouveau ou modifier un itinéraire existant"
+            - name: 'Itinéraire des communications vocales : créer un nouveau ou modifier un itinéraire existant'
               href: ../help-topics/help-lscp/voice-route-create-new-or-edit-existing.md
             - name: Itinéraire des communications vocales
               href: ../help-topics/help-lscp/voice-route.md
             - name: Edition du préfixe
               href: ../help-topics/help-lscp/prefix-edit.md
-            - name: "Règle de normalisation\_: taper une expression régulière"
+            - name: 'Règle de normalisation : taper une expression régulière'
               href: ../help-topics/help-lscp/normalization-rule-type-a-regular-expression.md
             - name: Sélectionner une jonction
               href: ../help-topics/help-lscp/select-trunk.md
-            - name: "Règle de traduction\_: taper une expression régulière"
+            - name: 'Règle de traduction : taper une expression régulière'
               href: ../help-topics/help-lscp/translation-rule-type-a-regular-expression.md
-            - name: "Tester le routage des communications vocales\_: création d’un nouveau ou modification d’un cas de test existant"
+            - name: 'Tester le routage des communications vocales : création d’un nouveau ou modification d’un cas de test existant'
               href: ../help-topics/help-lscp/test-voice-routing-create-new-or-edit-existing-test-cases.md
-            - name: "Tester le routage des communications vocales\_: cas de test"
+            - name: 'Tester le routage des communications vocales : cas de test'
               href: ../help-topics/help-lscp/test-voice-routing-test-cases.md
-            - name: "Configuration de la jonction\_: création d’une nouvelle ou modification d’une configuration existante"
+            - name: 'Configuration de la jonction : création d’une nouvelle ou modification d’une configuration existante'
               href: ../help-topics/help-lscp/trunk-configuration-create-new-or-edit-existing.md
             - name: Configuration de la jonction
               href: ../help-topics/help-lscp/trunk-configuration.md
-            - name: "Règle de traduction\_: création d’une nouvelle ou modification d’une règle existante"
+            - name: 'Règle de traduction : création d’une nouvelle ou modification d’une règle existante'
               href: ../help-topics/help-lscp/translation-rule-create-new-or-edit-existing.md
             - name: Sélectionner les règles de traduction
               href: ../help-topics/help-lscp/select-translation-rules.md
-            - name: "Utilisation PSTN\_: création d’une nouvelle ou modification d’une règle existante"
+            - name: 'Utilisation PSTN : création d’une nouvelle ou modification d’une règle existante'
               href: ../help-topics/help-lscp/pstn-usage-create-new-or-edit-existing.md
             - name: Utilisation PSTN
               href: ../help-topics/help-lscp/pstn-usage.md
             - name: Sélectionner des itinéraires
               href: ../help-topics/help-lscp/select-routes.md
-            - name: "Paramètres de configuration de la voix non validés\_: passer en revue"
+            - name: 'Paramètres de configuration de la voix non validés : passer en revue'
               href: ../help-topics/help-lscp/uncommitted-voice-configuration-settings-review.md
-            - name: "Paramètres de configuration de la voix non validés\_: valider"
+            - name: 'Paramètres de configuration de la voix non validés : valider'
               href: ../help-topics/help-lscp/uncommitted-voice-configuration-settings-commit.md
             - name: Politique d’utilisation de la voix
               href: ../help-topics/help-lscp/voice-usage-policy.md
             - name: Modifier la stratégie de mobilité client
               href: ../help-topics/help-lscp/edit-client-mobility-policy.md
-            - name: "Clients\_: stratégie de mobilité"
+            - name: 'Clients : stratégie de mobilité'
               href: ../help-topics/help-lscp/clients-mobility-policy.md
-            - name: "Client mobile\_: Créer ou modifier une configuration des notifications push"
+            - name: 'Client mobile : Créer ou modifier une configuration des notifications push'
               href: ../help-topics/help-lscp/mobile-client-create-or-edit-push-notification-configuration.md
-            - name: "Client mobile\_: configuration des notifications push"
+            - name: 'Client mobile : configuration des notifications push'
               href: ../help-topics/help-lscp/mobile-client-push-notification-configuration.md
-            - name: "Partenaires fédérés XMPP\_: création d’un nouveau ou modification d’un partenaire existant"
+            - name: 'Partenaires fédérés XMPP : création d’un nouveau ou modification d’un partenaire existant'
               href: ../help-topics/help-lscp/xmpp-federated-partners-create-new-or-edit-existing.md
             - name: Partenaires fédérés XMPP
               href: ../help-topics/help-lscp/xmpp-federated-partners.md
@@ -2192,21 +2192,21 @@
               href: ../help-topics/help-lscp/select-creators.md
             - name: Sélection des membres refusés
               href: ../help-topics/help-lscp/select-denied-members.md
-            - name: "Utilisateurs\_: afficher une stratégie de mobilité"
+            - name: 'Utilisateurs : afficher une stratégie de mobilité'
               href: ../help-topics/help-lscp/users-view-mobility-policy.md
-            - name: "Utilisateurs\_: afficher la conversation permanente"
+            - name: 'Utilisateurs : afficher la conversation permanente'
               href: ../help-topics/help-lscp/users-view-persistent-chat.md
             - name: Nouvelle règle de traduction de numéros d’appel
               href: ../help-topics/help-lscp/new-calling-number-translation-rule.md
             - name: Sélectionner les règles de traduction des numéros d’appel
               href: ../help-topics/help-lscp/select-calling-number-rules-translation.md
-            - name: "Assistant hybride\_: modification des utilisateurs"
+            - name: 'Assistant hybride : modification des utilisateurs'
               href: ../help-topics/help-lscp/hybrid-wizard-edit-users.md
-            - name: "Assistant hybride\_: déplacer un utilisateur"
+            - name: 'Assistant hybride : déplacer un utilisateur'
               href: ../help-topics/help-lscp/hybrid-wizard-move-user.md
             - name: Assistant de facilité de gestion hybride
               href: ../help-topics/help-lscp/hybrid-manageability-wizard.md
-            - name: "Assistant hybride\_: connexion à Office\_365"
+            - name: 'Assistant hybride : connexion à Office 365'
               href: ../help-topics/help-lscp/hybrid-wizard-sign-in-to-office-365.md
         - name: Help-Planning
           items:
@@ -2228,7 +2228,7 @@
               href: ../management-tools/planning-tool/disaster-recovery.md
             - name: Réseau Microsoft Edge
               href: ../management-tools/planning-tool/edge-network.md
-            - name: "Voix\_Entreprise"
+            - name: Voix Entreprise
               href: ../management-tools/planning-tool/enterprise-voice.md
             - name: Messagerie unifiée Exchange
               href: ../management-tools/planning-tool/exchange-unified-messaging.md
@@ -2296,19 +2296,19 @@
               href: ../help-topics/help-topobld/add-director-pool.md
             - name: 'Service web : ajouter un directeur'
               href: ../help-topics/help-topobld/add-director-web-service.md
-            - name: "Ajouter l’adresse\_IP\_2010 externe de l’ordinateur Edge"
+            - name: Ajouter l’adresse IP 2010 externe de l’ordinateur Edge
               href: ../help-topics/help-topobld/add-edge-machine-external-ip-2010.md
             - name: Ajouter l’adresse IPv4 externe de l’ordinateur Edge
               href: ../help-topics/help-topobld/add-edge-machine-external-ipv4.md
             - name: Ajouter l’adresse IPv6 externe de l’ordinateur Edge
               href: ../help-topics/help-topobld/add-edge-machine-external-ipv6.md
-            - name: "Ajouter l’adresse\_IP interne de l’ordinateur Edge"
+            - name: Ajouter l’adresse IP interne de l’ordinateur Edge
               href: ../help-topics/help-topobld/add-edge-machine-internal-ip.md
-            - name: "Ajouter l’adresse\_IP\_2010 interne de l’ordinateur Edge"
+            - name: Ajouter l’adresse IP 2010 interne de l’ordinateur Edge
               href: ../help-topics/help-topobld/add-edge-machine-internal-ip-2010.md
             - name: Ajouter l’adresse IP du NAT de l’ordinateur Edge
               href: ../help-topics/help-topobld/add-edge-machine-nat-ip.md
-            - name: "Ajouter l’adresse IP NAT\_2010 de l’ordinateur Edge"
+            - name: Ajouter l’adresse IP NAT 2010 de l’ordinateur Edge
               href: ../help-topics/help-topobld/add-edge-machine-nat-ip-2010.md
             - name: Ajouter des associations de serveur Edge
               href: ../help-topics/help-topobld/add-edge-server-associations.md
@@ -2320,21 +2320,21 @@
               href: ../help-topics/help-topobld/add-edge-server-external-ipv6.md
             - name: Ajouter un nom de domaine complet du serveur Edge
               href: ../help-topics/help-topobld/add-edge-server-fqdn.md
-            - name: "Ajouter l’adresse\_IP interne du serveur Edge"
+            - name: Ajouter l’adresse IP interne du serveur Edge
               href: ../help-topics/help-topobld/add-edge-server-internal-ip.md
-            - name: "Ajouter l’adresse\_IP\_2010 interne du serveur Edge"
+            - name: Ajouter l’adresse IP 2010 interne du serveur Edge
               href: ../help-topics/help-topobld/add-edge-server-internal-ip-2010.md
             - name: Ajouter des options IP de serveur Edge
               href: ../help-topics/help-topobld/add-edge-server-ip-options.md
-            - name: "Ajouter l’adresse\_IP NAT du serveur Edge"
+            - name: Ajouter l’adresse IP NAT du serveur Edge
               href: ../help-topics/help-topobld/add-edge-server-nat-ip.md
-            - name: "Ajouter l’adresse\_IP NAT du serveur Edge\_2010"
+            - name: Ajouter l’adresse IP NAT du serveur Edge 2010
               href: ../help-topics/help-topobld/add-edge-server-nat-ip-2010.md
             - name: Ajouter le tronçon suivant du pool de serveurs Edge
               href: ../help-topics/help-topobld/add-edge-server-next-hop.md
             - name: Ajouter des options de serveur Edge
               href: ../help-topics/help-topobld/add-edge-server-options.md
-            - name: "Ajouter des options de serveur Edge pour Lync Server\_2010"
+            - name: Ajouter des options de serveur Edge pour Lync Server 2010
               href: ../help-topics/help-topobld/add-edge-server-options-for-lync-server-2010.md
             - name: Ajouter un serveur Edge
               href: ../help-topics/help-topobld/add-edge-server.md
@@ -2352,15 +2352,15 @@
               href: ../help-topics/help-topobld/add-front-end-archiving-store.md
             - name: Ajouter des associations au pool frontal
               href: ../help-topics/help-topobld/add-front-end-associations.md
-            - name: "Ajouter des associations au pool frontal\_2010"
+            - name: Ajouter des associations au pool frontal 2010
               href: ../help-topics/help-topobld/add-front-end-associations-2010.md
             - name: Ajouter des colocalisations du serveur frontal
               href: ../help-topics/help-topobld/add-front-end-server-collocations.md
-            - name: "Ajouter des colocalisations du serveur frontal\_2010"
+            - name: Ajouter des colocalisations du serveur frontal 2010
               href: ../help-topics/help-topobld/add-front-end-server-collocations-2010.md
             - name: Ajouter des fonctionnalités frontales
               href: ../help-topics/help-topobld/add-front-end-features.md
-            - name: "Ajouter des fonctionnalités frontales\_2010"
+            - name: Ajouter des fonctionnalités frontales 2010
               href: ../help-topics/help-topobld/add-front-end-features-2010.md
             - name: Ajouter un magasin de fichiers frontal
               href: ../help-topics/help-topobld/add-front-end-file-store.md
@@ -2372,7 +2372,7 @@
               href: ../help-topics/help-topobld/add-front-end-pool-fqdn.md
             - name: Ajouter un magasin SQL Server frontal
               href: ../help-topics/help-topobld/add-front-end-sql-server-store.md
-            - name: "Page Ajouter un magasin Sql pour le pool frontal pour Lync Server\_2010"
+            - name: Page Ajouter un magasin Sql pour le pool frontal pour Lync Server 2010
               href: ../help-topics/help-topobld/add-front-end-sql-store-page-for-lync-server-2010.md
             - name: Ajouter des services web frontaux
               href: ../help-topics/help-topobld/add-front-end-web-services.md
@@ -2390,7 +2390,7 @@
               href: ../help-topics/help-topobld/add-monitoring-server-sql-server-store.md
             - name: Ajouter Office Web Apps Server
               href: ../help-topics/help-topobld/add-office-web-apps-server.md
-            - name: "Ajouter un magasin SQL\_Server de sauvegarde de conformité de conversation permanente"
+            - name: Ajouter un magasin SQL Server de sauvegarde de conformité de conversation permanente
               href: ../help-topics/help-topobld/add-persistent-chat-compliance-backup-sql-server-store.md
             - name: Ajouter un magasin SQL Server de sauvegarde de conversation permanente
               href: ../help-topics/help-topobld/add-persistent-chat-backup-sql-server-store.md
@@ -2458,7 +2458,7 @@
               href: ../help-topics/help-topobld/av-mcus-scope-node.md
             - name: Expandeur des paramètres généraux du Branch Office Appliance
               href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander.md
-            - name: "Expandeur des paramètres généraux d’un Branch Office Appliance pour Lync Server\_2010"
+            - name: Expandeur des paramètres généraux d’un Branch Office Appliance pour Lync Server 2010
               href: ../help-topics/help-topobld/branch-office-appliance-general-settings-expander-for-lync-server-2010.md
             - name: Nœud d’étendue d’un Branch Office Appliance
               href: ../help-topics/help-topobld/branch-office-appliance-scope-node.md
@@ -2472,7 +2472,7 @@
               href: ../help-topics/help-topobld/deployment-settings-expander.md
             - name: Expandeur des paramètres généraux du directeur
               href: ../help-topics/help-topobld/director-general-settings-expander.md
-            - name: "Expandeur des paramètres généraux du directeur pour Lync Server\_2010"
+            - name: Expandeur des paramètres généraux du directeur pour Lync Server 2010
               href: ../help-topics/help-topobld/director-general-settings-expander-for-lync-server-2010.md
             - name: Nœud d’étendue du directeur
               href: ../help-topics/help-topobld/director-scope-node.md
@@ -2480,11 +2480,11 @@
               href: ../help-topics/help-topobld/directors-scope-node.md
             - name: Expandeur des paramètres de noms de domaine complets du serveur Edge
               href: ../help-topics/help-topobld/edge-server-fqdns-settings-expander.md
-            - name: "Développeur des paramètres FQDN du serveur Edge pour Lync Server\_2010"
+            - name: Développeur des paramètres FQDN du serveur Edge pour Lync Server 2010
               href: ../help-topics/help-topobld/edge-server-fqdn-settings-expander-for-lync-server-2010.md
             - name: Expandeur des paramètres de l’ordinateur Edge
               href: ../help-topics/help-topobld/edge-machine-settings-expander.md
-            - name: "Expandeur des paramètres de l’ordinateur Edge pour Lync Server\_2010"
+            - name: Expandeur des paramètres de l’ordinateur Edge pour Lync Server 2010
               href: ../help-topics/help-topobld/edge-machine-settings-expander-for-lync-server-2010.md
             - name: Expandeur des paramètres du tronçon suivant du serveur Edge
               href: ../help-topics/help-topobld/edge-next-hop-settings-expander.md
@@ -2496,7 +2496,7 @@
               href: ../help-topics/help-topobld/edge-servers-scope-node.md
             - name: Expandeur des paramètres du pool de serveurs Edge
               href: ../help-topics/help-topobld/edge-settings-expander.md
-            - name: "Modifier l’expandeur des paramètres de l’ordinateur Edge pour Lync Server\_2010"
+            - name: Modifier l’expandeur des paramètres de l’ordinateur Edge pour Lync Server 2010
               href: ../help-topics/help-topobld/edit-edge-settings-expander-for-lync-server-2010.md
             - name: Expandeur des paramètres généraux d’une application externe
               href: ../help-topics/help-topobld/external-application-general-settings-expander.md
@@ -2510,7 +2510,7 @@
               href: ../help-topics/help-topobld/federation-route-settings-expander.md
             - name: Expandeur des paramètres du service de médiation
               href: ../help-topics/help-topobld/mediation-service-settings-expander.md
-            - name: "Expandeur des paramètres du service de médiation frontal pour Lync Server\_2010"
+            - name: Expandeur des paramètres du service de médiation frontal pour Lync Server 2010
               href: ../help-topics/help-topobld/front-end-mediation-service-settings-expander-for-lync-server-2010.md
             - name: Nœud d’étendue du magasin de fichiers
               href: ../help-topics/help-topobld/file-store-scope-node.md
@@ -2520,7 +2520,7 @@
               href: ../help-topics/help-topobld/file-stores-scope-node.md
             - name: Expandeur des paramètres généraux du serveur frontal
               href: ../help-topics/help-topobld/front-end-general-settings-expander.md
-            - name: "Expandeur des paramètres généraux du serveur frontal pour Lync Server\_2010"
+            - name: Expandeur des paramètres généraux du serveur frontal pour Lync Server 2010
               href: ../help-topics/help-topobld/front-end-general-settings-expander-for-lync-server-2010.md
             - name: Nœud d’étendue du serveur frontal
               href: ../help-topics/help-topobld/front-end-server-scope-node.md
@@ -2530,7 +2530,7 @@
               href: ../help-topics/help-topobld/front-end-start-page.md
             - name: Installer et créer des bases de données
               href: ../help-topics/help-topobld/install-and-create-databases.md
-            - name: "Page Installer une base de données\_: créer une base de données miroir"
+            - name: 'Page Installer une base de données : créer une base de données miroir'
               href: ../help-topics/help-topobld/install-database-create-mirror-database-page.md
             - name: Page des options Installer une base de données
               href: ../help-topics/help-topobld/install-database-options-page.md
@@ -2544,7 +2544,7 @@
               href: ../help-topics/help-topobld/legacy-merge.md
             - name: 'Fusion hérité : type de serveur Edge'
               href: ../help-topics/help-topobld/legacy-merge-edge-type.md
-            - name: "Fusion héritée\_: nom de domaine complet"
+            - name: 'Fusion héritée : nom de domaine complet'
               href: ../help-topics/help-topobld/legacy-merge-fqdn.md
             - name: 'Fusion héritée : accueil'
               href: ../help-topics/help-topobld/legacy-merge-landing.md
@@ -2554,25 +2554,25 @@
               href: ../help-topics/help-topobld/legacy-merge-results.md
             - name: Port SIP de la fusion héritée
               href: ../help-topics/help-topobld/legacy-merge-sip-port.md
-            - name: "Fusion héritée\_: démarrage"
+            - name: 'Fusion héritée : démarrage'
               href: ../help-topics/help-topobld/legacy-merge-start.md
             - name: Page de résumé de la fusion héritée
               href: ../help-topics/help-topobld/legacy-merge-summary-page.md
-            - name: "Lync Server 2010\_: créer un expandeur"
+            - name: 'Lync Server 2010 : créer un expandeur'
               href: ../help-topics/help-topobld/lync-server-2010-create-new-expander.md
-            - name: "Lync Server 2013\_: créer un expandeur"
+            - name: 'Lync Server 2013 : créer un expandeur'
               href: ../help-topics/help-topobld/lync-server-2013-create-new-expander.md
             - name: Nœud d’étendue d’ordinateur
               href: ../help-topics/help-topobld/machine-scope-node.md
             - name: Expandeur des paramètres du serveur
               href: ../help-topics/help-topobld/server-settings-expander.md
-            - name: "Expandeur des paramètres du serveur pour Lync Server\_2010"
+            - name: Expandeur des paramètres du serveur pour Lync Server 2010
               href: ../help-topics/help-topobld/server-settings-expander-for-lync-server-2010.md
             - name: Expandeur des paramètres du tronçon suivant du serveur de médiation
               href: ../help-topics/help-topobld/mediation-next-hop-settings-expander.md
             - name: Expandeur des paramètres généraux du serveur de médiation
               href: ../help-topics/help-topobld/mediation-server-general-settings-expander.md
-            - name: "Expandeur des paramètres généraux du serveur de médiation pour Lync Server\_2010"
+            - name: Expandeur des paramètres généraux du serveur de médiation pour Lync Server 2010
               href: ../help-topics/help-topobld/mediation-server-general-settings-expander-for-lync-server-2010.md
             - name: Nœud d’étendue du serveur de médiation
               href: ../help-topics/help-topobld/mediation-server-scope-node.md
@@ -2580,7 +2580,7 @@
               href: ../help-topics/help-topobld/mediation-servers-scope-node.md
             - name: Expandeur des paramètres du service de médiation
               href: ../help-topics/help-topobld/mediation-service-setting-expander.md
-            - name: "Expandeur des paramètres du service de médiation pour Lync Server\_2010"
+            - name: Expandeur des paramètres du service de médiation pour Lync Server 2010
               href: ../help-topics/help-topobld/mediation-service-settings-expander-for-lync-server-2010.md
             - name: Expandeur des paramètres généraux du serveur de surveillance
               href: ../help-topics/help-topobld/monitoring-server-general-settings-expander.md
@@ -2620,11 +2620,11 @@
               href: ../help-topics/help-topobld/pstn-gateways-scope-node.md
             - name: Création de base de données
               href: ../help-topics/help-topobld/create-database.md
-            - name: "Publier la topologie\_: page Créer une base de données miroir"
+            - name: 'Publier la topologie : page Créer une base de données miroir'
               href: ../help-topics/help-topobld/publish-topology-create-mirror-database-page.md
             - name: Étape ultérieure à la publication de la topologie
               href: ../help-topics/help-topobld/publish-topology-next-step.md
-            - name: "Publier la topologie\_: page Réinitialiser les pools"
+            - name: 'Publier la topologie : page Réinitialiser les pools'
               href: ../help-topics/help-topobld/publish-topology-reset-pool-page.md
             - name: 'Publier la topologie : page Sélectionner un CMS'
               href: ../help-topics/help-topobld/publish-topology-select-cms-page.md
@@ -2634,7 +2634,7 @@
               href: ../help-topics/help-topobld/registrar-sba-settings-expander.md
             - name: Expandeur des paramètres du serveur d’inscriptions
               href: ../help-topics/help-topobld/registrar-settings-expander.md
-            - name: "Expandeur des paramètres du serveur d’inscriptions avancé pour Lync Server\_2010"
+            - name: Expandeur des paramètres du serveur d’inscriptions avancé pour Lync Server 2010
               href: ../help-topics/help-topobld/registrar-settings-expander-for-lync-server-for-2010.md
             - name: Supprimer le déploiement
               href: ../help-topics/help-topobld/remove-deployment.md
@@ -2662,9 +2662,9 @@
               href: ../help-topics/help-topobld/trunks-scope-node.md
             - name: Expandeur des paramètres des services web
               href: ../help-topics/help-topobld/web-services-settings-expander.md
-            - name: "Ajouter une association au directeur pour Lync Server\_2010"
+            - name: Ajouter une association au directeur pour Lync Server 2010
               href: ../help-topics/help-topobld/add-director-association-for-lync-server-2010.md
-            - name: "Page Associer un directeur au serveur de surveillance pour Lync Server\_2010"
+            - name: Page Associer un directeur au serveur de surveillance pour Lync Server 2010
               href: ../help-topics/help-topobld/associate-director-with-monitoring-page-for-lync-server-2010.md
             - name: Ajouter des services web frontaux 2010
               href: ../help-topics/help-topobld/add-front-end-web-services-2010.md
@@ -2672,7 +2672,7 @@
               href: ../help-topics/help-topobld/add-persistent-chat-next-hop-page.md
             - name: Ajout du nom de domaine complet de la passerelle vidéo
               href: ../help-topics/help-topobld/add-video-gateway-fqdn.md
-            - name: "Ajout d’une adresse\_IP de passerelle vidéo"
+            - name: Ajout d’une adresse IP de passerelle vidéo
               href: ../help-topics/help-topobld/add-video-gateway-ip.md
             - name: Ajout d’une jonction de passerelle vidéo
               href: ../help-topics/help-topobld/add-video-gateway-trunk.md
@@ -2686,13 +2686,13 @@
               href: ../help-topics/help-topobld/add-vis-usage.md
             - name: Association du serveur d’interopérabilité vidéo (VIS) à un serveur Edge
               href: ../help-topics/help-topobld/associate-vis-with-edge.md
-            - name: "Nœud d’étendue Lync Server\_2013"
+            - name: Nœud d’étendue Lync Server 2013
               href: ../help-topics/help-topobld/lync-server-2013-scope-node.md
-            - name: "Nœud d’étendue des jonctions vidéo\_SIP"
+            - name: Nœud d’étendue des jonctions vidéo SIP
               href: ../help-topics/help-topobld/sip-video-trunk-scope-node.md
-            - name: "Expandeur des paramètres de jonction vidéo\_SIP"
+            - name: Expandeur des paramètres de jonction vidéo SIP
               href: ../help-topics/help-topobld/sip-video-trunk-setting-expander.md
-            - name: "Nœud d’étendue des jonctions vidéo\_SIP"
+            - name: Nœud d’étendue des jonctions vidéo SIP
               href: ../help-topics/help-topobld/sip-video-trunks-scope-node.md
             - name: Paramètres généraux de passerelle vidéo
               href: ../help-topics/help-topobld/video-gateway-general-settings.md
@@ -2708,9 +2708,9 @@
               href: ../help-topics/help-topobld/video-interop-server-next-hop-settings.md
             - name: Expandeur des paramètres de port du serveur d’interopérabilité vidéo (VIS)
               href: ../help-topics/help-topobld/video-interop-server-port-settings-expander.md
-            - name: "Serveur d’interopérabilité vidéo\_- Étendue du nœud"
+            - name: Serveur d’interopérabilité vidéo - Étendue du nœud
               href: ../help-topics/help-topobld/video-interop-serverscope-the-node.md
-            - name: "Serveurs d’interopérabilité vidéo\_- Étendue du nœud"
+            - name: Serveurs d’interopérabilité vidéo - Étendue du nœud
               href: ../help-topics/help-topobld/video-interop-serversscope-the-node.md
             - name: Page Ajouter un serveur Edge avec un nom de domaine complet (FQDN) unique
               href: ../help-topics/help-topobld/add-edge-server-with-single-fqdn-page.md

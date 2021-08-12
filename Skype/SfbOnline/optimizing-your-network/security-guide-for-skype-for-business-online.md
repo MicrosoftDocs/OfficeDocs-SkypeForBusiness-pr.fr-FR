@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Guide de sécurité pour Skype Entreprise Online <add description>
-ms.openlocfilehash: 5b99744b9b798f7748870f9155b48bff16ad2b24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0100eaab0a06cdbc618f39bd02ae832dca71abd5ac0498143fd51e8da9ea0e3e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295941"
 ---
 # <a name="security-and-skype-for-business-online"></a>Sécurité et Skype Entreprise Online
 
@@ -49,8 +49,8 @@ Une clé est un code ou un nombre secret utilisé pour chiffrer, déchiffrer ou 
 Skype Entreprise Online utilise les fonctionnalités PKI du système d’exploitation Windows Server pour protéger les données clés utilisées pour le chiffrement des connexions TLS (Transport Layer Security). Les clés utilisées pour le chiffrement multimédia sont échangées via des connexions TLS. 
 
 ### <a name="network-denial-of-service-attack"></a>Attaque par déni de service réseau
-L’attaque par déni de service se produit lorsque l’agresseur empêche l’utilisation normale du réseau et la fonctionnement par des utilisateurs valides. À l’aide d’une attaque par déni de service, l’agresseur peut :
-- envoyer des données non valides à des applications et des services exécutés sur le réseau faisant l’objet de l’attaque, afin de perturber leur exécution normale ;
+L’attaque par déni de service se produit lorsque l’agresseur empêche l’utilisation normale du réseau et la fonctionnement par des utilisateurs valides. À l’aide d’une attaque par déni de service, l’agresseur peut :
+- envoyer des données non valides à des applications et des services exécutés sur le réseau faisant l’objet de l’attaque, afin de perturber leur exécution normale ;
 - envoyer un volume de trafic important, de manière à surcharger le système jusqu’à ce que celui-ci cesse de fonctionner ou nécessite beaucoup de temps pour répondre aux demandes légitimes ;
 - masquer les signes d’attaque ;
 - empêcher les utilisateurs d’accéder aux ressources réseau.
@@ -79,16 +79,16 @@ Une attaque de l’intercepteur peut également se produire avec le trafic multi
 ### <a name="rtp-replay-attack"></a>Attaque par relecture RTP
 Une attaque par relecture se produit lorsqu’une transmission multimédia valide entre deux correspondants est interceptée, puis retransmise à des fins malveillantes. SfBO utilise le protocole SRTP conjointement avec un protocole de signalisation sécurisé qui protège les transmissions contre les attaques par relecture en permettant au destinataire de conserver un index des paquets RTP déjà reçus et de comparer chaque nouveau paquet avec ceux déjà répertoriés dans l’index.
 
-### <a name="spim"></a>SPIM
+### <a name="spim"></a>Spim
 Le spim correspond à des messages instantanés commerciaux ou des demandes d’abonnement aux informations de présence non sollicités. S’il ne constitue pas à lui seul une menace envers le réseau, il peut néanmoins perturber les activités des utilisateurs et avoir un impact négatif sur la disponibilité des ressources et la production. Il représente donc un risque potentiel pour le réseau. Prenons le cas d’utilisateurs qui génèrent du spim en s’envoyant mutuellement des demandes. Un utilisateur peut en bloquer un autre pour ne plus recevoir de messages instantanés indésirables. Toutefois, dans le cas de la fédération, il peut s’avérer difficile de faire face à une attaque de spim coordonnée, à moins de désactiver la fédération pour le partenaire.
 
 ### <a name="viruses-and-worms"></a>Virus et vers
-Un virus est une unité de code ayant pour finalité la reproduction d’unités de code similaires supplémentaires. Pour fonctionner, un virus a besoin d’un hôte, par exemple un fichier, un e-mail ou un programme. Comme un virus, un ver est une unité de code codée pour reproduire des unités de code similaires, mais contrairement à un virus, il n’a pas besoin d’hôte. Les virus et les vers apparaissent principalement lors des transferts de fichiers entre clients ou lorsque des URL sont envoyées par d’autres utilisateurs. Si vous avez un virus sur votre ordinateur, il peut, par exemple, utiliser votre identité et envoyer des messages instantanés en votre nom. Les meilleures pratiques standard de sécurité client, telles que la recherche périodique de virus, peuvent atténuer ce problème. 
+Un virus est une unité de code dont le but est de reproduire d'autres unités de code similaires. Pour fonctionner, un virus a besoin d'un hôte, tel qu'un fichier, un courriel ou un programme. Comme un virus, un ver est une unité de code qui est codée pour reproduire d'autres unités de code similaires, mais qui, contrairement à un virus, n'a pas besoin d'un hôte. Les virus et les vers apparaissent principalement lors des transferts de fichiers entre clients ou lorsque des URL sont envoyés par d'autres utilisateurs. Si un virus se trouve sur votre ordinateur, il peut, par exemple, utiliser votre identité et envoyer des messages instantanés en votre nom. Les meilleures pratiques standard en matière de sécurité des clients, telles que l'analyse périodique des virus, peuvent atténuer ce problème. 
 
 ## <a name="personally-identifiable-information"></a>Informations d’identification personnelle
 SfBO peut divulguer des informations sur un réseau public qui peut être lié à une personne. Ces informations appartiennent à deux catégories :
 - **Données de présence améliorées** &nbsp; &nbsp; &nbsp; Les données de présence améliorées sont des informations qu’un utilisateur peut choisir de partager ou non sur un lien vers un partenaire fédéré ou avec des contacts au sein d’une organisation. Elles ne sont pas partagées avec les utilisateurs d’un réseau public de messagerie instantanée. Selon les stratégies de groupe en vigueur et la configuration du client, l’administrateur système peut contrôler ces informations. Dans le service SfBO, le mode de confidentialité de présence amélioré peut être configuré pour un utilisateur individuel afin d’empêcher les utilisateurs de SfBO de ne pas voir les informations de présence de l’utilisateur dans la liste des contacts de l’utilisateur. 
-- **Données obligatoires**&nbsp;&nbsp;&nbsp;Les données obligatoires sont les données requises pour que le serveur ou le client s’exécute correctement. Il s’agit d’informations nécessaires au niveau d’un serveur ou réseau à des fins de routage, de maintenance de l’état et de signalisation.
+- **Données obligatoires**&nbsp;&nbsp;&nbsp;Les données obligatoires sont les données requises pour que le serveur ou le client s’exécute correctement. Il s’agit d’informations nécessaires au niveau d’un serveur ou d’un réseau à des fins de routage, de maintenance de l’état et de signalisation.
 Les tableaux suivants répertorient les données nécessaires au fonctionnement de SFBO.
 
 ***Tableau 1 - Données de présence enrichies***
@@ -132,10 +132,10 @@ Cette section fournit une vue d’ensemble des éléments fondamentaux qui const
 Les rubriques de cette section décrivent la manière dont chacun de ces éléments fondamentaux fonctionne pour améliorer la sécurité du service SfBO.
  
 ### <a name="azure-active-directory"></a>Azure Active Directory
-Azure Active Directory sert de service d’annuaire pour Microsoft 365 et Office 365. Il stocke toutes les affectations de stratégie et les informations de l’annuaire utilisateur. 
+Azure Active Directory sert de service d’annuaire pour Microsoft 365 et Office 365. Il stocke toutes les affectations de stratégie et les informations de l’annuaire utilisateur. 
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>Infrastructure à clé publique pour SFBO
-Le service SfBO s’appuie sur des certificats pour l’authentification du serveur et pour établir une chaîne de confiance entre les clients et les serveurs et entre les différents rôles des serveurs. L’infrastructure à clé publique (PKI) de Windows Server fournit l’infrastructure nécessaire à l’établissement et à la validation de cette chaîne de confiance.
+Le service SfBO s’appuie sur des certificats pour l’authentification du serveur et pour établir une chaîne de confiance entre les clients et les serveurs, ainsi qu’entre les différents rôles des serveurs. L’infrastructure à clé publique (PKI) de Windows Server fournit l’infrastructure nécessaire à l’établissement et à la validation de cette chaîne de confiance.
 Les certificats sont des ID numériques. Ils identifient un serveur par son nom et indiquent ses propriétés. Pour garantir la validité des informations d’un certificat, le certificat doit être émis par une autorité de certification fiable par des clients ou d’autres serveurs connectés au serveur. Si le serveur se connecte uniquement avec d’autres clients et serveurs sur un réseau privé, la CA peut être une CA d’entreprise. Si le serveur interagit avec des entités en dehors du réseau privé, une CA publique peut être requise.
 
 Même si les informations du certificat sont valides, il doit exister un moyen de vérifier que le serveur présentant le certificat est en fait celui représenté par le certificat. C’est ici que le PKI de Windows entre en jeu.
@@ -144,7 +144,7 @@ Chaque certificat est lié à une clé publique. Le serveur nommé sur le certif
 #### <a name="crl-distribution-points"></a>Points de distribution
 SfBO nécessite que tous les certificats de serveur contiennent un ou plusieurs points de distribution de liste de révocation de certificats. Les points de distribution CRL (CDP) sont des emplacements à partir desquels les CRL peuvent être téléchargés en vue de vérifier que le certificat n’a pas été révoqué depuis son émission et qu’il est toujours dans sa période de validité. Un point de distribution CRL est indiqué dans les propriétés du certificat sous forme d’URL et il s’agit d’une adresse HTTP sécurisée. Le service SfBO vérifie la liste de révocation de certificats avec chaque authentification de certificat.
 
-#### <a name="enhanced-key-usage"></a>Utilisation avancée de la clé :
+#### <a name="enhanced-key-usage"></a>Utilisation améliorée des clés
 Toutes les composantes du service SfBO exigent que tous les certificats de serveur prennent en charge l’utilisation améliorée de la clé (EKU) aux fins de l’authentification du serveur. La configuration du champ EKU pour l’authentification du serveur signifie que le certificat est valide pour l’authentification des serveurs. Cette EKU est essentielle pour MTLS. 
 
 ### <a name="tls-and-mtls-for-sfbo"></a>TLS et MTLS pour SfBO
@@ -154,7 +154,7 @@ TLS permet aux utilisateurs, via leur logiciel client, d’authentifier les serv
 
 Les connexions de serveur à serveur reposent sur le protocole TLS (MTLS) mutuel pour l’authentification mutuelle. Sur une connexion MTLS, le serveur à l’origine d’un message et le serveur le recevant échangent des certificats à partir d’une autorité de certification mutuellement approuvée. Les certificats prouvent l’identité d’un serveur à un autre. Dans le service SfBO, cette procédure est adoptée.
 
-TLS et MTLS permettent d’empêcher les attaques par écoute et les attaques d’intercepteur. Dans le cas d’une attaque d’intercepteur, l’attaquant réachemine les communications entre deux entités de réseau via l’ordinateur de l’attaquant sans que l’autre partie n’en ait connaissance. La spécification des serveurs fiables TLS et SfBO réduit le risque d’une attaque entre les hommes en milieu, partiellement sur la couche d’application, à l’aide d’un chiffrement de bout en bout coordonné à l’aide du chiffrement de clé publique entre les deux points de terminaison, et un pirate informatique doit avoir un certificat valide et approuvé avec la clé privée correspondante et émis au nom du service sur lequel le client communique pour déchiffrer la communication. 
+TLS et MTLS permettent d’empêcher les attaques par écoute et les attaques d’intercepteur. Dans le cas d’une attaque d’intercepteur, l’attaquant réachemine les communications entre deux entités de réseau via l’ordinateur de l’attaquant sans que l’autre partie n’en ait connaissance. La spécification des serveurs fiables TLS et SfBO réduit le risque d’une attaque de man-in-the-middle partiellement sur la couche d’application à l’aide d’un chiffrement de bout en bout coordonné à l’aide du chiffrement de clé publique entre les deux points de terminaison, et un pirate informatique doit avoir un certificat valide et approuvé avec la clé privée correspondante et émis au nom du service sur lequel le client communique pour déchiffrer la communication. 
 
 ### <a name="encryption-for-sfbo"></a>Chiffrement pour SFBO
 SfBO utilise les technologie TLS et MTLS pour chiffrer les messages instantanés. Tout le trafic de serveur à serveur requiert MTLS, que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre réseau interne.
@@ -244,7 +244,7 @@ Pour permettre aux utilisateurs externes et aux utilisateurs internes d’échan
 5. Un utilisateur reçoit un e-mail contenant une invitation pour rejoindre une réunion SfBO. L’e-mail contient une clé de conférence et une URL au format HTTP établissant un lien vers la conférence. La clé et l’URL sont spécifiques à une réunion particulière.
 
 ### <a name="federation-safeguards-for-sfbo"></a>Protections de la fédération pour SfBO
-La fédération fournit à votre organisation la possibilité de communiquer avec d’autres organisations pour partager la messagerie instantanée et la présence. Dans SFBO, la fédération est activée par défaut. Toutefois, les administrateurs des locataires ont la possibilité de contrôler ceci via le portail Microsoft 365 ou Office 365 Admin client. En savoir plus.
+La fédération fournit à votre organisation la possibilité de communiquer avec d’autres organisations pour partager la messagerie instantanée et la présence. Dans SFBO, la fédération est activée par défaut. Toutefois, les administrateurs des locataires peuvent contrôler ceci via le portail Microsoft 365 ou Office 365 Admin client. En savoir plus.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Répondre aux menaces pesant sur les conférences SFBO
 
@@ -259,7 +259,7 @@ Permettre aux utilisateurs externes de participer aux réunions SFBO augmente co
 
 ### <a name="participant-roles"></a>Rôles des participants
 Les participants à la réunion se répartissent en trois groupes, chacun ayant ses propres privilèges et restrictions :
--  &nbsp; Organisateur &nbsp; Utilisateur qui crée une réunion, que ce soit improvisé ou en programmant. Un organisateur doit être un utilisateur d’entreprise authentifié et contrôler tous les aspects des utilisateurs finaux d’une réunion.
+-  &nbsp; Organisateur &nbsp; Utilisateur qui crée une réunion, que ce soit improvisée ou en programmant. Un organisateur doit être un utilisateur d’entreprise authentifié et contrôler tous les aspects des utilisateurs finaux d’une réunion.
 -  &nbsp; Présentateur &nbsp; Un utilisateur autorisé à présenter des informations lors d’une réunion, à l’aide de tout support multimédia pris en charge. Un organisateur de réunion est par définition également un présentateur et détermine qui d’autre peut être un présentateur. Il peut effectuer cette détermination lorsqu’une réunion est planifiée ou pendant son déroulement.
 -  &nbsp; Participant &nbsp; Utilisateur qui a été invité à participer à une réunion, mais qui n’est pas autorisé à agir en tant que présentateur.
 
@@ -269,7 +269,7 @@ Un présentateur peut également promouvoir un participant au rôle de présenta
 
 Les participants à la réunion sont également classés par localisation et informations d’identification. Vous pouvez utiliser ces deux caractéristiques pour préciser les utilisateurs pouvant avoir accès à des réunions spécifiques. Les utilisateurs peuvent être répartis globalement dans les catégories suivantes :
 1.  **Utilisateurs appartenant au client** &nbsp; &nbsp; Ces utilisateurs ont des informations d’identification Azure Active Directory pour le client.<br/>
-    a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Utilisateurs distants* : ces utilisateurs se rejoignent en dehors du réseau de l’entreprise. Ce sont, par exemple, des employés qui travaillent à domicile ou en déplacement, ou d’autres personnes, comme les employés de fournisseurs de confiance, qui ont reçu des informations d’identification d’entreprise pour leurs conditions d’utilisation du service. Les utilisateurs distants peuvent créer et rejoindre des conférences et agir en tant que présentateurs.
+    a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Utilisateurs distants* : ces utilisateurs se rejoignent en dehors du réseau de l’entreprise. Ce sont, par exemple, des employés qui travaillent à domicile ou en déplacement, ou d’autres personnes, comme les employés de fournisseurs de confiance, qui ont reçu des informations d’identification d’entreprise pour leurs conditions d’utilisation du service. Les utilisateurs distants peuvent créer et rejoindre des conférences et agir en tant que présentateurs.
 2.  **Utilisateurs n'appartenant pas au client** &nbsp;&nbsp; Ces utilisateurs n'ont pas d'informations d'identification dans Azure Active Directory pour le client.<br/>a. *Utilisateurs fédérés* : les utilisateurs fédérés possèdent des informations d’identification valides auprès de partenaires fédérés et sont par conséquent traités comme authentifiés par SfBO. Les utilisateurs fédérés peuvent se joindre à des conférences et être promus au rôle de présentateur après avoir rejoint la réunion, mais ils ne peuvent pas créer de conférences dans les entreprises avec lesquelles ils sont fédérés.<br/>b. *Les utilisateurs anonymes*-les utilisateurs anonymes n’ont pas d’identité Active Directory et ne sont pas fédérés avec le client. 
 
 Les données client indiquent que de nombreuses conférences impliquent des utilisateurs externes. Ces mêmes clients veulent également être rassurés en ce qui concerne l’identité des utilisateurs externes avant de permettre à ces utilisateurs de participer à une conférence. Comme le décrit la section suivante, SfBO limite l’accès aux réunions aux types d’utilisateurs qui ont été explicitement autorisés et exige que tous les types d’utilisateurs présentent des informations d’identification appropriées en entrant dans une réunion.

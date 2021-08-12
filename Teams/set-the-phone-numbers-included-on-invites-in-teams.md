@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Pour créer un numéro de téléphone par défaut, les appelants pourront rejoindre une Microsoft Teams réunion.
-ms.openlocfilehash: 476075ccf5e261695564b78ec084605af9e6898c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11c9a31d723b5da63152f1a8a79d54938f9ecc31644afbe3421a2bd59f0f5626
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335894"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Définir les numéros de téléphone inclus sur les invitations dans Microsoft Teams.
 
@@ -47,9 +47,9 @@ Les numéros de téléphone inclus dans les invitations aux réunions des utilis
 
 Pour un nouvel utilisateur, les numéros gratuits de conférence par défaut sont affectés en fonction de l’emplacement d’utilisation qui est définie dans le centre d’administration Microsoft 365 de l’utilisateur lorsque l’utilisateur est activé pour le service d’audioconférence. Si le pont de conférence compte un numéro de téléphone qui correspond au pays de l’utilisateur, ce numéro est automatiquement affecté comme numéro de téléphone par défaut à l’utilisateur. S’il n’y en a pas, le numéro défini comme numéro toll par défaut du pont de conférence sera affecté au numéro de téléphone par défaut de l’utilisateur.  
 
-Une fois le service d’audioconférence activé pour l’utilisateur, les numéros de téléphone gratuits et gratuits par défaut peuvent être modifiés par l’administrateur client par rapport à leurs valeurs initiales à tout moment.
+Une fois le service d’audioconférence activé pour l’utilisateur, les numéros de téléphone gratuits et gratuits par défaut peuvent être modifiés à tout moment par l’administrateur client par rapport à leurs valeurs initiales.
 
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Définir ou modifier le numéro de téléphone d’audioconférence par défaut d’un organisateur ou d’un utilisateur de la réunion
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Définir ou modifier le numéro de téléphone d’audioconférence par défaut pour un organisateur ou un utilisateur de la réunion
 
 ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 

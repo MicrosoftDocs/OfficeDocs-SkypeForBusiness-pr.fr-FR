@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
-description: LStop-CcLogging cmdlet arrête de générer le journal des appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: 8a012e9b1a94c3698cc61da4326eb0ccbb27bca2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Stop-CcLogging arrête de générer le journal des appels entrants et sortants pour une appliance Skype Entreprise Cloud Connector Edition’appareil.
+ms.openlocfilehash: 7813acf9867829cadaa26d84a0e8a6c33f825ef45b9fca781840a44f94574930
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347559"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
-LStop-CcLogging cmdlet arrête de générer le journal des appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.
+La cmdlet Stop-CcLogging arrête de générer le journal des appels entrants et sortants pour une appliance Skype Entreprise Cloud Connector Edition’appareil.
   
 ```powershell
 Stop-CcLogging [-RemoveCache]
@@ -67,7 +67,7 @@ Aucun. La cmdlet Stop-CcLogging n’accepte pas la saisie de données pipeline.
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

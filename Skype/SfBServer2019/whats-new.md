@@ -1,5 +1,5 @@
 ---
-title: Nouveautés de Skype Entreprise Server 2019 | Fonctionnalités
+title: Nouveautés de la Skype Entreprise Server 2019 | Fonctionnalités
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Résumé : Ces fonctionnalités sont nouvelles dans Skype Entreprise Server 2019.'
-ms.openlocfilehash: f20abfa7d48717052c8ee0144e143a21b168286d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Ces fonctionnalités sont nouvelles Skype Entreprise Server 2019.'
+ms.openlocfilehash: cbdfcd92fbb6fbaefb75024dcb1e393ad5049e636e463bc4ad97588279702151
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295961"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>What’s in Skype for Business Server 2019
+# <a name="whats-in-skype-for-business-server-2019"></a>Que se passe-t-il Skype Entreprise Server 2019
 
-**Résumé :** Lisez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités de Skype Entreprise Server 2019.  
+**Résumé :** Lisez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités Skype Entreprise Server 2019.  
 
-Les nouvelles fonctionnalités de Skype Entreprise Server 2019 sont les suivantes :
+Les nouvelles fonctionnalités Skype Entreprise Server 2019 sont les suivantes :
   
 - Messagerie vocale cloud  
 - Connecteur de données d’appel
 - Migration côte à côte
 
-## <a name="unified-messaging-services-cloud-voicemail"></a>Services de messagerie unifiée : messagerie vocale cloud
+## <a name="unified-messaging-services-cloud-voicemail"></a>Services de messagerie unifiée : Messagerie vocale infonuagique
 
-La messagerie un utilisateur Exchange reste disponible dans Skype Entreprise Server 2019 lorsque vous intégrez Skype Entreprise 2019 à Exchange 2013 ou Exchange 2016. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la messagerie un Standard automatique Cloud est mise en avant.  
+Exchange La um reste disponible dans Skype Entreprise Server 2019 lorsque vous intégrez Skype Entreprise 2019 à Exchange 2013 ou Exchange 2016. En raison des modifications apportées à la prise en charge dans Exchange 2019, l’intégration de la Exchange de la Exchange est mise en avant au profit des fonctionnalités Messagerie vocale infonuagique et Cloud Standard automatique.  
 
-La messagerie vocale cloud permet à tous vos utilisateurs Skype Entreprise 2019&#x2014;qu’ils soient en local ou en ligne&#x2014;d’avoir accès au même service de messagerie vocale dans Microsoft Cloud. La messagerie vocale cloud offre les avantages suivants pour vos utilisateurs locaux et en ligne :
+Messagerie vocale infonuagique permet à tous vos utilisateurs Skype Entreprise 2019 de&#x2014;qu’ils soient en local ou en ligne&#x2014;d’avoir accès au même service de messagerie vocale dans Microsoft Cloud. Messagerie vocale infonuagique offre les avantages suivants pour vos utilisateurs locaux et en ligne :
 
-- Accès à la messagerie vocale dans leur boîte aux lettres Exchange à l’aide des clients Skype Entreprise Online, Teams ou Outlook
+- Accès à la messagerie vocale dans leur boîte aux lettres Exchange à l’aide des clients Skype Entreprise Online, Teams ou Outlook client
 - Possibilité d’utiliser le portail web pour gérer leurs options de messagerie vocale
 
-Pour plus d’informations, voir [Plan Cloud Voicemail service](../sfbhybrid/hybrid/plan-cloud-voicemail.md) and Plan for Skype for Business Server and Exchange Server [migration.](../sfbhybrid/hybrid/plan-um-migration.md)
+Pour [plus d’Messagerie vocale infonuagique,](../sfbhybrid/hybrid/plan-cloud-voicemail.md) voir Plan Skype Entreprise Server [and Exchange Server migration.](../sfbhybrid/hybrid/plan-um-migration.md)
   
 ## <a name="call-monitoring-call-data-connector"></a>Surveillance des appels : connecteur de données d’appel
 
@@ -54,4 +54,4 @@ Pour plus [d’informations, voir Plan Call Data Connector.](../sfbhybrid/hybrid
 
 ### <a name="see-also"></a>Voir aussi
 
-[What’s deprecated from Skype for Business Server 2019](deprecated.md)
+[What’s deprecated from Skype Entreprise Server 2019](deprecated.md)

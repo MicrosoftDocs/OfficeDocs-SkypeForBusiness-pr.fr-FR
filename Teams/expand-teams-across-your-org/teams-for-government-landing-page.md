@@ -3,6 +3,7 @@ title: Teams pour le secteur public
 description: Découvrez comment planifier et déployer des Teams dans Microsoft 365 environnements gouvernementaux.
 author: cichur
 ms.author: v-cichur
+ms.topic: article
 manager: serdars
 audience: admin
 f1.keywords:
@@ -13,18 +14,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80af2201502b40c48f36a00858dc0b1355e423bbefb94cb6571c1768049d4c8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 557c8b5ca5ad4f48a25f20fe717d40635eb53e43dc7e26b29291d37afeb21645
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850129"
 ---
 # <a name="teams-for-government"></a>Teams pour le secteur public
 
 Utilisez ces ressources pour en savoir plus sur des considérations spécifiques pour le déploiement d Teams dans Microsoft 365 environnements gouvernementaux. Lorsque vous êtes prêt, suivez la même trajectoire de déploiement recommandée pour les déploiements Teams décrite dans la manière de déployer [Microsoft Teams.](../deploy-overview.md)
 
-|               |               |
+| &nbsp; |&nbsp; |
 | ------------- | ------------- |
 | ![Capture d’écran de l’icône de liste numéroée](../media/list-123-teams.svg)  |  [Planifier les déploiements Microsoft 365 administration publique Cloud de la communauté du secteur public déploiements](../plan-for-government-gcc.md) |
 | ![Capture d’écran du Presse-papiers avec une icône de liste de tâches](../media/tasks-teams.svg) | [Plan pour Microsoft 365 pour entités publiques - GCC High](../plan-for-government-gcc-high.md) |

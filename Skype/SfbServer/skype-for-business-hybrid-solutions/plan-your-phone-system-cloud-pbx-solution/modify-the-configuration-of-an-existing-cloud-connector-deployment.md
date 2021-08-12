@@ -15,20 +15,20 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: Suivez les étapes de cette rubrique pour modifier la configuration d’un déploiement existant de Skype Entreprise, version Cloud Connector 1.4.1 ou ultérieure.
-ms.openlocfilehash: 7fdfdd5ac5a76ebbc3ac58e12a69e2e3af1330cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Suivez les étapes de cette rubrique pour modifier la configuration d’un déploiement Skype Entreprise Cloud Connector Edition 1.4.1 ou ultérieur.
+ms.openlocfilehash: 151408d48f7623d72d5af4f8fef605d9dcc7d690a915cc7e8454a91f051dd0f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324183"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modifier la configuration d’un déploiement de Cloud Connector existant
 
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
-Suivez les étapes de cette rubrique pour modifier la configuration d’un déploiement existant de Skype Entreprise, version Cloud Connector 1.4.1 ou ultérieure. 
+Suivez les étapes de cette rubrique pour modifier la configuration d’un déploiement Skype Entreprise Cloud Connector Edition 1.4.1 ou ultérieur. 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>Modifier la configuration d’un site unique
 <a name="BKMK_SIngleSite"> </a>
@@ -61,7 +61,7 @@ S’il n’existe qu’une seule appliance dans le site, lorsque vous souhaitez 
    Register-CcAppliance
    ```
 
-6. Exécutez l’cmdlet suivante pour installer Skype Entreprise, version Cloud Connector :
+6. Exécutez l’cmdlet suivante pour installer Skype Entreprise Cloud Connector Edition :
     
    ```powershell
    Install-CcAppliance
@@ -115,9 +115,9 @@ Pour modifier la configuration de plusieurs sites dans un déploiement, suivez l
 ## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>Modifier la configuration de votre organisation Microsoft 365 ou Office 365 pour activer les mises à jour automatiques
 <a name="BKMK_MultipleSites"> </a>
 
-Pour activer les mises à jour automatiques du système d’exploitation et les mises à jour automatiques des bits, vous devez utiliser le compte d’administrateur client Skype Entreprise pour la gestion en ligne et utiliser powerShell à distance client comme suit.
+Pour activer les mises à jour automatiques du système d’exploitation et les mises à jour automatiques bits, vous devez utiliser le compte d’administrateur du client Skype Entreprise pour la gestion en ligne et utiliser powerShell à distance du client comme suit.
   
-Si vous avez désactivé les mises à jour automatiques du système d’exploitation ou les mises à jour automatiques bits, votre ordinateur hôte et votre ordinateur virtuel risquent de manquer des mises à jour Windows importantes et Cloud Connector ne sera pas mis à niveau automatiquement vers la nouvelle version. Il est vivement recommandé d’activer les mises à jour automatiques.
+Si vous avez désactivé les mises à jour automatiques du système d’exploitation ou les mises à jour automatiques bits, votre ordinateur hôte et virtuel peut manquer des mises à jour Windows importantes et Cloud Connector ne sera pas mis à niveau automatiquement vers la nouvelle version. Il est vivement recommandé d’activer les mises à jour automatiques.
   
 1. La propriété EnableAutoUpdate du site doit être définie sur true (valeur par défaut). Exécutez l’cmdlet suivante pour vous assurer que EnableAutoUpdate est définie sur true :
     
@@ -164,7 +164,7 @@ Si vous avez désactivé les mises à jour automatiques du système d’exploita
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Mettre à jour les informations d’identification de l’administrateur client dédié
 <a name="BKMK_MultipleSites"> </a>
 
-Les modifications administratives apportées dans l’organisation Microsoft 365 ou Office 365 pour Cloud Connector sont apportées à partir d’un compte avec les autorisations nécessaires. Dans les versions de Cloud Connector antérieures à la version 2.0, ce compte est un compte d’administrateur client global dédié. Dans les versions 2.0 et ultérieures de Cloud Connector, ce compte peut être un compte Microsoft 365 ou Office 365 avec des droits d’administrateur Skype Entreprise.
+Les modifications administratives apportées Microsoft 365 ou Office 365'organisation cloud pour Cloud Connector sont apportées à partir d’un compte avec les autorisations nécessaires. Dans les versions de Cloud Connector antérieures à la version 2.0, ce compte est un compte d’administrateur client global dédié. Dans les versions 2.0 et ultérieures de Cloud Connector, ce compte peut être un compte Microsoft 365 ou Office 365 avec des droits Skype Entreprise administrateur.
   
 Si les informations d’identification de votre compte d’administrateur changent dans Microsoft 365 ou Office 365, vous devez également mettre à jour les informations d’identification mises en cache localement dans Cloud Connector en exécutant la commande Administrateur PowerShell suivante sur chaque appliance Cloud Connector que vous avez déployée :
   
@@ -178,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > Cette section s’applique aux versions 2.0 et ultérieures de Cloud Connector. 
   
-Toutes les informations d’identification Cloud Connector sont stockées dans le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> xml ». Lorsque le mot de passe du serveur hôte change, vous devez mettre à jour les informations d’identification stockées localement.
+Toutes les informations d’identification Cloud Connector sont stockées dans le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ». Lorsque le mot de passe du serveur hôte change, vous devez mettre à jour les informations d’identification stockées localement.
   
 Pour mettre à jour les informations d’identification stockées localement sur l’appliance Cloud Connector, utilisez les cmdlets [Get-CcCredential](get-cccredential.md) et [Set-CcCredential](set-cccredential.md) et suivez les étapes suivantes :
   
@@ -194,9 +194,9 @@ Pour mettre à jour les informations d’identification stockées localement sur
     
 3. Redémarrez le serveur hôte.
     
-4. Supprimez le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> xml ».
+4. Supprimez le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
     
-5. Lancez une console PowerShell en tant qu’administrateur, puis exécutez « Register-CcAppliance -Local » pour entrer à nouveau les mots de passe suivant la description. Veillez à entrer le mot de passe que vous avez entré auparavant pour le déploiement Cloud Connector.
+5. Lancez une console PowerShell en tant qu’administrateur, puis exécutez « Register-CcAppliance -Local » pour entrer à nouveau les mots de passe suivant la description. Veillez à entrer le même mot de passe que celui que vous avez entré auparavant pour le déploiement Cloud Connector.
     
 Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceService. Si les mots de passe DomainAdmin, VMAdmin et CceService renvoyés à l’étape 1 sont différents, vous devez effectuer les étapes suivantes :
   
@@ -218,13 +218,13 @@ Par défaut, VmAdmin et DomainAdmin utilisent le même mot de passe que CceServi
 > [!NOTE]
 > Cette section s’applique aux versions 2.0.1 et ultérieures de Cloud Connector. 
   
-Le service Cloud Connector exécute le service de gestion Cloud Connector. Le compte CceService est créé lors du déploiement de Cloud Connector Edition et stocké dans les fichiers suivants : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> xml » et « %SystemDrive%\Programdata\Cloudconnector\credentials..CceService.xml ».
+Le service Cloud Connector exécute le service de gestion Cloud Connector. Le compte CceService est créé lors du déploiement de Cloud Connector Edition et stocké dans les fichiers suivants : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml » et « %SystemDrive%\Programdata\Cloudconnector\credentials..CceService.xml ».
   
-Pour vous assurer que toutes les appliances peuvent accéder au partage d’annuaire de sites, le mot de passe du compte CceService doit être le même sur toutes les appliances déployées sur le site. Gardez les éléments suivants à l’esprit :
+Pour vous assurer que toutes les appliances peuvent accéder au partage d’annuaire de sites, le mot de passe du compte CceService doit être le même sur toutes les appliances déployées sur le site. Gardez les éléments suivants à l’esprit :
   
 - Par défaut, le compte CceService est configuré comme « Le mot de passe n’expire jamais ». Lorsque vous mettez à jour le mot de passe, Microsoft recommande de conserver cette configuration.
     
-- Vous devez mettre à jour le mot de passe pendant les périodes d’utilisation en dehors des périodes de pointe et en dehors des fenêtres d’heure de mise à jour automatique pour les bits ou les mises à jour Windows. Lorsque vous mettez à jour le mot de passe, l’appliance doit être drainée et redémarré, ce qui prend un certain temps. Le redémarrage de l’appliance interrompra les opérations de mise à jour automatique. 
+- Vous devez mettre à jour le mot de passe pendant les périodes d’utilisation en dehors des périodes de pointe et en dehors des fenêtres d’heure de mise à jour automatique pour les bits ou Windows mises à jour. Lorsque vous mettez à jour le mot de passe, l’appliance doit être drainée et redémarré, ce qui prend un certain temps. Le redémarrage de l’appliance interrompra les opérations de mise à jour automatique. 
     
 - Lorsque vous modifiez le mot de passe du compte CceService, vous devez spécifier toutes les informations d’identification et les mettre à jour dans le fichier stocké localement. 
     
@@ -285,7 +285,7 @@ Pour chaque appliance qui appartient au même site PSTN, vous devez spécifier l
 
 Pour ajouter un nouveau domaine SIP (ou plusieurs domaines SIP) à votre déploiement Cloud Connector existant, vous pouvez :
   
-1. Assurez-vous que vous avez effectué les étapes de mise à jour de votre domaine dans Microsoft 365 ou Office 365 et que vous avez la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Microsoft 365 ou Office 365, voir Ajouter un domaine à [Microsoft 365 ou Office 365.](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+1. Assurez-vous que vous avez effectué les étapes de mise à jour de votre domaine dans Microsoft 365 ou Office 365 et que vous avez la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Microsoft 365 ou Office 365, voir Ajouter un domaine à Microsoft 365 [ou Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Mettez à jour le fichier de configuration Cloud Connector avec le ou les nouveaux domaines SIP.
     
@@ -306,7 +306,7 @@ Pour ajouter un nouveau domaine SIP (ou plusieurs domaines SIP) à votre déploi
 
 Si vous devez modifier le domaine SIP principal dans votre déploiement Cloud Connector, faites les choses suivantes :
   
-1. Assurez-vous que vous avez effectué les étapes de mise à jour de votre domaine dans Microsoft 365 ou Office 365 et que vous avez la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Microsoft 365 ou Office 365, voir Ajouter un domaine à [Microsoft 365 ou Office 365.](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+1. Assurez-vous que vous avez effectué les étapes de mise à jour de votre domaine dans Microsoft 365 ou Office 365 et que vous avez la possibilité d’ajouter des enregistrements DNS. Pour plus d’informations sur la façon de configurer votre domaine dans Microsoft 365 ou Office 365, voir Ajouter un domaine à Microsoft 365 [ou Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Mettez à jour le fichier de configuration Cloud Connector avec le nouveau domaine SIP.
     
@@ -365,7 +365,7 @@ Lorsque vous devez remplacer le certificat Edge externe sur vos appliances Cloud
   
 1. Placez l’appliance en mode maintenance à l’aide Enter-CcUpdate cmdlet.
     
-2. Exécutez la commande suivante : 
+2. Exécutez la commande suivante : 
     
    ```powershell
    Set-CcExternalCertificateFilePath -Target EdgeServer -Path <Full file path of new certificate including filename> -Import
@@ -375,4 +375,4 @@ Lorsque vous devez remplacer le certificat Edge externe sur vos appliances Cloud
     
     Si le mot de passe du nouveau certificat est identique à l’ancien, l’importation réussit. Si le mot de passe est différent, vous recevrez une erreur vous faisant part d’une erreur, et vous devrez réinitialiser le mot de passe en exécutant la cmdlet Register-CcAppliance avec le paramètre -Local, puis en répétant l’étape 2. 
     
-4. Sortir l’appliance du mode maintenance à l’aide de la cmdlet Exit -CcUpdate.
+4. Sortir l’appliance du mode maintenance à l’aide de l’cmdlet Exit -CcUpdate.

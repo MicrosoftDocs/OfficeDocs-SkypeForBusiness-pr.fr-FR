@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
-description: La cmdlet Get-CcApplianceDirectory récupère l’annuaire de travail sur le serveur hôte de la version Cloud Connector de Skype Entreprise. Tous les fichiers de déploiement sont stockés dans ce répertoire.
-ms.openlocfilehash: 04764f312138132fb34c0979423da5dc4696ee63
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Get-CcApplianceDirectory récupère le répertoire de travail sur le Skype Entreprise Cloud Connector Edition hôte. Tous les fichiers de déploiement sont stockés dans ce répertoire.
+ms.openlocfilehash: 9be21029aaf582ce080b85af87b8d3f02be11ffea3b615f2b003bb6aeb29002d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347589"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
-La cmdlet Get-CcApplianceDirectory récupère l’annuaire de travail sur le serveur hôte de la version Cloud Connector de Skype Entreprise. Tous les fichiers de déploiement sont stockés dans ce répertoire. 
+La cmdlet Get-CcApplianceDirectory récupère le répertoire de travail sur le Skype Entreprise Cloud Connector Edition hôte. Tous les fichiers de déploiement sont stockés dans ce répertoire. 
   
-Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcApplianceDirectory

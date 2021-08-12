@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2833a548ccf66b327d9feb71155f1ed33a671f1c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a5dadf59457813f1bd25b43c13d361ca4302aaa7891003f09dd231aced7441f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094656"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314160"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations des applications et accorder le consentement de l’administrateur dans le Microsoft Teams’administration
 
@@ -88,7 +88,7 @@ Pour afficher les autorisations RSC d’une application, suivez ces étapes :
 
 Actuellement, la possibilité de passer en revue les autorisations et d’accorder le consentement n’est pas disponible pour toutes les applications tierces inscrites dans Azure AD qui demandent des autorisations. Au lieu du lien **Afficher les détails,** vous verrez dans **--** la colonne **Autorisations.** Nous travaillons avec des téléviseurs pour activer cette fonctionnalité pour leurs applications.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)
 - [Autorisations et consentement dans le point de terminaison Plateforme d’identités Microsoft’utilisateur](/azure/active-directory/develop/v2-permissions-and-consent)

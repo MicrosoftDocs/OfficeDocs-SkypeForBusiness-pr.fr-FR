@@ -18,15 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cf53c22895df1ad164ef688ad922c78a9c3ec761a6117ddf24eed633fe8e056a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 232c22c4d96796a983c3c65770f3fbabcce7753e5e6a5ae1daba693fa154a630
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850139"
 ---
-<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Améliorer les groupes de Microsoft 365 existants grâce à Microsoft Teams
-=======================================================
+# <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Améliorer les groupes de Microsoft 365 existants grâce à Microsoft Teams
 
 Microsoft Teams utilisateurs peuvent améliorer un groupe de Microsoft 365 existant avec Teams fonctionnalités. Les utilisateurs peuvent améliorer un groupe de Microsoft 365 public si le nombre de membres est inférieur ou égal à 5 000.
 

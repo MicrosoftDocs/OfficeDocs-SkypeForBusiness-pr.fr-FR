@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir comment créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: 21824c360e26e568ae47a9729960fca01a100ae8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324104"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -47,7 +47,7 @@ Chaque compte de ressource nécessite une licence pour l’utilisation des files
 
 Nous vous expliquerons comment attribuer la licence à un compte de ressource plus loin dans cet article.
 
-Pour obtenir la licence Utilisateur virtuel, dans le Centre d’administration Microsoft 365,  >    >  **rendez-vous** sur abonnements  au module ajout de services d’achat de facturation et faites défiler jusqu’à la fin - la licence utilisateur virtuel Système téléphonique s’affiche. Sélectionnez **Acheter maintenant.** Il n’y a pas de coût nul, mais vous devez tout de même suivre ces étapes pour acquérir la licence.
+Pour obtenir la licence Utilisateur virtuel, dans l’Centre d’administration Microsoft 365, allez aux   >    >  **abonnements** au module ajout  de services d’achat de facturation et faites défiler jusqu’à la fin - vous verrez Système téléphonique - Licence utilisateur virtuel. Sélectionnez **Acheter maintenant.** Il n’y a pas de coût nul, mais vous devez tout de même suivre ces étapes pour acquérir la licence.
 
 ### <a name="obtain-service-numbers"></a>Obtenir des numéros de service
 
@@ -79,13 +79,13 @@ Vous pouvez créer un compte de ressource dans le Teams d’administration.
 
 Pour chaque compte de ressource, vous devez attribuer une *Microsoft 365 Système téléphonique utilisateur* virtuel ou une *Système téléphonique* utilisateur virtuel.
 
-![Capture d’écran de l’interface utilisateur d’attribution de licences dans Microsoft 365 centre d’administration](media/resource-account-assign-virtual-user-license.png)
+![Capture d’écran de l’interface utilisateur attribuer des licences dans le Centre d’administration Microsoft 365](media/resource-account-assign-virtual-user-license.png)
 
-1. Dans le Microsoft 365 d’administration, cliquez sur le compte de ressource auquel vous voulez attribuer une licence.
+1. Dans la Centre d’administration Microsoft 365, cliquez sur le compte de ressource auquel vous voulez attribuer une licence.
 
 2. Sous **l’onglet Licences et** applications, sous **Licences,** sélectionnez **Microsoft 365 Système téléphonique - Utilisateur virtuel.**
 
-3. Cliquez **sur Enregistrer les modifications.**
+3. Cliquez sur **Enregistrer les modifications**.
 
 ## <a name="assign-a-service-number"></a>Affecter un numéro de service
 
@@ -150,7 +150,7 @@ Pour les implémentations hybrides avec Skype Entreprise Server :
 
 Assurez-vous de dissocier le numéro de téléphone du compte de ressource avant de le supprimer, afin d’éviter que votre numéro de service reste bloqué en mode En attente.
 
-Vous pouvez ensuite supprimer le compte de ressource dans le centre d Microsoft 365 d’administration, sous l’onglet Utilisateurs.
+Vous pouvez ensuite supprimer le compte de ressource dans le Centre d’administration Microsoft 365, sous l’onglet Utilisateurs.
 
 Pour dissocier un numéro de téléphone de routage direct du compte de ressource, utilisez l’cmdlet suivante :
 

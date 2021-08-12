@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
-description: 'Résumé : Découvrez comment démarrer ou arrêter une session de capture du journal du service de journalisation centralisée dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 773b93f62690b01d33f84bc5eb68b135280842ea
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment démarrer ou arrêter une session de capture du journal du service de journalisation centralisée Skype Entreprise Server 2015.'
+ms.openlocfilehash: 9979af3724a245fb71f14f3db07dba7899269d904d5dfcc1d548dae3a2890559
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098820"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324114"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Démarrer ou arrêter la capture du journal CLS dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment démarrer ou arrêter une session de capture du journal du service de journalisation centralisée dans Skype Entreprise Server 2015.
+**Résumé :** Découvrez comment démarrer ou arrêter une session de capture du journal du service de journalisation centralisée Skype Entreprise Server 2015.
   
 Pour capturer les journaux de suivi à l’aide du service de journalisation centralisée, vous devez émettre une commande pour commencer la journalisation sur un ou plusieurs ordinateurs et pools. Vous devez également émettre des paramètres qui définissent les ordinateurs ou pools, les scénarios à exécuter (par exemple, AlwaysOn, un autre scénario prédéféré ou un scénario que vous avez créé), les composants Skype Entreprise Server (par exemple, S4, SipStack) à suivre.
   
@@ -31,11 +31,11 @@ Pour obtenir les informations appropriées concernant un problème, vous devez u
   
 Le scénario par défaut est appelé **AlwaysOn**. Comme son nom l’indique, AlwaysOn est constamment exécuté. Le scénario AlwaysOn recueille des informations de niveau de journalisation Info (notez que le niveau de journalisation Info inclut les messages d’erreur fatale, d’erreur et d’avertissement en plus des messages Info) pour de nombreux composants serveur parmi les plus courants. AlwaysOn recueille des informations avant, pendant et après qu’un problème se produit. Ce comportement est considérablement différent du comportement type des anciens outils de journalisation tels qu’OCSLogger. Vous deviez en effet exécuter OCSLogger après qu’un problème se soit produit, ce qui rendait la résolution plus difficile, car les données dont vous disposiez étaient réactives et non proactives. Si AlwaysOn ne contient pas les informations que vous recherchez concernant le composant à l’origine du problème et vous indiquant la marche à suivre pour le résoudre (ce qui ne risque pas d’être le cas étant donnée les informations fournies par AlwaysOn), il fournit un niveau raisonnable d’informations pour déterminer les autres actions que vous devez effectuer, comme créer un nouveau scénario, recueillir d’autres informations, exécuter une autre recherche pour obtenir des détails plus précis, etc.
   
-Le service de journalisation centralisée propose deux façons d’émettre des commandes. Un certain nombre de rubriques ont été axées sur l’utilisation de Windows PowerShell via Skype Entreprise Server Management Shell. La possibilité d’utiliser un certain nombre de configurations et de commandes complexes favorise Windows PowerShell l’utilisation du service de journalisation centralisée. Étant donné Windows PowerShell skype entreprise Server Management Shell est presque omniprésent pour toutes les fonctions dans Skype Entreprise Server, seules les commandes Windows PowerShell sont abordées. 
+Le service de journalisation centralisée propose deux façons d’émettre des commandes. Plusieurs rubriques ont été axées sur l’utilisation de Windows PowerShell l’Skype Entreprise Server Management Shell. La possibilité d’utiliser un certain nombre de configurations et de commandes complexes favorise Windows PowerShell l’utilisation du service de journalisation centralisée. Étant donné Windows PowerShell’Skype Entreprise Server Management Shell est presque omniprésente pour toutes les fonctions dans Skype Entreprise Server, seules les commandes Windows PowerShell sont abordées. 
   
-### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Pour exécuter des Start-CsClsLogging avec Windows PowerShell à l’aide de commandes de base
+### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>Pour exécuter des Start-CsClsLogging avec des Windows PowerShell à l’aide de commandes de base
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 2. Démarrez un scénario de journalisation avec le service de journalisation centralisée en tapant ce qui suit :
     
@@ -70,7 +70,7 @@ Le service de journalisation centralisée propose deux façons d’émettre des 
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>Pour exécuter des Start-CsClsLogging avec Windows PowerShell à l’aide de commandes avancées
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 2. Il existe d’autres paramètres pour gérer les commandes de journalisation. Vous pouvez utiliser -Duration pour ajuster la durée d’utilisation du scénario. Vous pouvez également définir -Computers, une liste de noms de domaine complets (FQDN) d’ordinateurs séparés par une virgule, ou -Pools, une liste séparée par des virgules de noms de domaine complets pour les pools sur qui vous souhaitez exécuter la journalisation.
     
@@ -96,24 +96,24 @@ Vous pouvez arrêter une session de journalisation en cours avec l’applet de c
   
 Une fois que vous avez compris l’origine du problème et avez déterminé son impact, vous devez choisir soigneusement les scénarios à exécuter sur quels ordinateurs et pools. Bien qu’il soit judicieux d’exécuter le scénario AlwaysOn pour une application large, car il recueille des informations sur une grande variété de fournisseurs, certains scénarios ne sont utiles que sur certains ordinateurs ou pools. De plus, lorsque vous lancez une session de journalisation vous devez choisir au préalable le scénario offrant les meilleurs résultats. Si vous utilisez un scénario inapproprié, ou si vous utilisez un scénario qui est approprié pour la tâche mais pas adapté au niveau d’application envisagé (global, site, pool ou ordinateur), vous risquez d’obtenir des données inutiles, comme si vous n’aviez pas exécuté de scénario du tout.
   
-Pour contrôler les fonctions du service de journalisation centralisée à l’aide de Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC attribués à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de Skype Entreprise Server Management Shell ou de l’invite Windows PowerShell :
+Pour contrôler les fonctions du service de journalisation centralisée à l’aide de l’environnement de ligne de commande Skype Entreprise Server Management Shell, vous devez être membre des groupes de sécurité RBAC CsAdministrator ou CsServerAdministrator, ou d’un rôle RBAC personnalisé qui contient l’un de ces deux groupes. Pour retourner la liste de tous les rôles RBAC attribués à cette cmdlet (y compris les rôles RBAC personnalisés que vous avez créés vous-même), exécutez la commande suivante à partir de l’invite Skype Entreprise Server Management Shell ou Windows PowerShell suivante :
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-Par exemple :
+Par exemple :
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Vous vous demandez peut-être : maintenant que vous avez activé la journalisation, où sont conservés les journaux ? Étant donné que vous accéderez aux informations stockées dans les journaux à l’aide de requêtes de l’shell de gestion envoyées aux agents CLS, et que vous pouvez obtenir les résultats dans plusieurs formats de fichiers possibles, où, sur chaque serveur, un agent CLS conserve ses enregistrements n’est pas vraiment important à connaître.  Les fichiers journaux peuvent être enregistrés à un emplacement que vous spécifiez, que vous lisez et analysez à l’aide de divers outils, notamment **Snooper.exe** et tout outil qui peut lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie des outils de débogage de Skype Entreprise Server 2015 et est disponible en téléchargement [Web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
+> Vous vous demandez peut-être : maintenant que vous avez activé la journalisation, où sont conservés les journaux ? Étant donné que vous accéderez aux informations stockées dans les journaux à l’aide de requêtes de l’shell de gestion envoyées aux agents CLS, et que vous pouvez obtenir les résultats dans plusieurs formats de fichier possibles, où, sur chaque serveur, un agent CLS conserve ses enregistrements n’est pas vraiment important à connaître.  Les fichiers journaux peuvent être enregistrés à un emplacement que vous spécifiez, que vous lisez et analysez à l’aide de divers outils, notamment **Snooper.exe** et tout outil qui peut lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie des outils de débogage Skype Entreprise Server 2015 et est disponible en téléchargement [Web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Pour arrêter une session du service de journalisation centralisée en cours d’exécution
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 2. Interrogez le service de journalisation centralisée pour connaître les scénarios en cours d’exécution en tapant les données suivantes :
     
@@ -145,4 +145,4 @@ Faisant pendant à l’applet de commande Start-CsClsLogging, l’applet de comm
 ## <a name="see-also"></a>Voir aussi
 <a name="stop"> </a>
 
-[Service de journalisation centralisée dans Skype Entreprise 2015](centralized-logging-service.md)
+[Service de journalisation centralisée Skype Entreprise 2015](centralized-logging-service.md)

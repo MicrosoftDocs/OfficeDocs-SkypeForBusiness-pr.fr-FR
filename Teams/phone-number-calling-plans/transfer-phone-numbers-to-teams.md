@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Transfert pour transférer votre numéro de téléphone de votre fournisseur de services actuel vers Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dfc3141eea8d16a86c0f37221e597feac3bb957e
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: bb098a13b157a7f95e93ab693ad2a83530571316689803069c696eccfede3929
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336014"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transférer des numéros de téléphone vers Microsoft Teams
 
@@ -91,10 +91,10 @@ Lorsque nous recevrons votre demande de port, vous recevrez un courrier électro
 
 Pour afficher l’état de votre demande de port, dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur > **Commandes** de port voix, puis cliquez sur Historique  >   **des commandes.** Le statut de chaque commande de port est répertorié dans la **colonne** Statut. Pour en savoir plus, [consultez le statut de vos commandes de ports.](port-order-status.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gérer des numéros de téléphone pour votre entreprise](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
-- [Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

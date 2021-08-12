@@ -22,13 +22,13 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Porter réclamation pour les services Skype d’appels d’entreprise (appels RSTN au Royaume-Uni), chronologie des réponses et résolution des litiges pour les réclamations non résolues.
-ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Portez réclamation pour les Skype d’appels d’entreprise (appels RSTN au Royaume-Uni), le calendrier des réponses et la résolution des litiges pour les réclamations non résolues.
+ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347409"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels Microsoft 365 - Code de traitement des réclamations pour le Royaume-Uni
 
@@ -40,7 +40,7 @@ La satisfaction des clients est une priorité pour Skype Entreprise. Toutefois, 
 
 - Numéro de téléphone gratuit : 0800 032 6417
 
-- En ligne : Connectez-vous au Centre Microsoft 365 d’administration et envoyez une demande de service en sélectionnant Nouvelle demande **de service** sous **Support.**
+- En ligne : connectez-vous à la Centre d’administration Microsoft 365 et envoyez une demande de service en sélectionnant Nouvelle demande **de service** sous **Support.**
 
 ## <a name="timelines"></a>Délais
 
@@ -87,6 +87,6 @@ Vous pouvez contacter Ombudsman Services en remplissant un formulaire de contact
     WA4 6WU
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

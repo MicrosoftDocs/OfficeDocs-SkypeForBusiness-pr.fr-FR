@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cette annexe comprend des étapes détaillées pour mettre à jour les Connecter AAD afin d’inclure plusieurs forêts dans le cadre de la consolidation du cloud pour Teams et Skype Entreprise.
-ms.openlocfilehash: 5ca5789ca50f24266ce5fccf16bcf06118e42742
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295931"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>Mettre à jour AAD Connect pour inclure plusieurs forêts
 
@@ -34,8 +34,8 @@ ms.locfileid: "53510525"
 
 Azure AD Connecter prend en [charge la synchronisation à partir de plusieurs forêts.](/azure/active-directory/connect/active-directory-aadconnect-topologies) Toutefois, il ne prend en charge qu’une seule instance d’Azure AD Connecter synchronisation avec AAD. Par conséquent, dans les cas où Azure AD est déjà installé dans une forêt, l’instance existante d’AAD Connecter doit être mise à jour pour être synchronisée à partir de la forêt supplémentaire.
 
- - Si toutes les identités ne sont représentées qu’une seule fois dans les deux forêts (c’est-à-dire que vous n’avez pas de contacts à messagerie), vous pouvez simplement ré-exécuter l’Assistant AAD Connecter, choisir « Personnaliser les options de synchronisation », puis dans la page **Connecter** Vos répertoires, entrez le nom de la forêt supplémentaire et ajoutez des informations.<br><br>
- ![Page Connecter répertoires](../media/cloud-consolidation-connect-your-directories.png)
+ - Si toutes les identités ne sont représentées qu’une seule fois dans les deux forêts (c’est-à-dire que vous n’avez pas de contacts à messagerie), vous pouvez simplement ré-exécuter l’Assistant AAD Connecter, choisir « Personnaliser les options de synchronisation », puis dans la page **Connecter** Vos répertoires, entrez le nom de la forêt supplémentaire et ajoutez des creds.<br><br>
+ ![La Connecter page de vos répertoires](../media/cloud-consolidation-connect-your-directories.png)
  - Toutefois, si des utilisateurs peuvent exister dans plusieurs répertoires et que vous fusionnez les données (par exemple, si des objets contact existent dans une forêt correspondant aux utilisateurs d’une autre forêt), vous devrez désinstaller Azure AD Connecter et le réinstaller.  Cela est dû au fait que la condition de règles de jointeur entre forêts ne peut être configurée que lors de la première installation. Pour ce faire, voir la page suivante :<br><br>
  ![Page Identifiant de manière unique vos utilisateurs](../media/cloud-consolidation-uniquely-identifying-your-users.png)
 

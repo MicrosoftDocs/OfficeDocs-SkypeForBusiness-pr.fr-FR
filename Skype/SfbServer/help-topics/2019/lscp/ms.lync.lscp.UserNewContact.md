@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 21271d2659d9cffa0ebbc25b036c3d8d512fa504
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: eea59ef42d30a22e2f976883f3fe72325ef878d0dde9d9042f06b106ac65cfd2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313662"
 ---
 # <a name="users-new-contact-objects"></a>Utilisateurs : nouveaux objets contact
 
@@ -32,7 +32,7 @@ Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous
 
 - [Spécifier les versions des clients pris en charge pour la signature par un utilisateur](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Attribuer une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Affecter une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [Configurer la fédération, l’accès des utilisateurs distants et la connectivité DE MESSAGERIE INSTANTANÉE publique pour les utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -40,7 +40,7 @@ Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous
 
 - [Affecter une stratégie d’emplacement à un utilisateur](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [Activer les utilisateurs Voix Entreprise dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [Configurer la fédération, l’accès des utilisateurs distants et la connectivité DE MESSAGERIE INSTANTANÉE publique pour les utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

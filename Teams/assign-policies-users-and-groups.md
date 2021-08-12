@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’attribuer des stratégies a
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ce10ead528e2e5615d23bd784131ed04416f1349
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 3b53c887536a3bd033b6c1feaeabae58a609f90e8ecbb0a7197de851173f46cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314150"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Attribuer des stratégies aux utilisateurs et aux groupes
 
@@ -45,8 +45,8 @@ Pour affecter une stratégie à un utilisateur :
 
 Vous pouvez également :
 
-1. Dans le navigation gauche du Microsoft Teams d’administration, allez sur la page stratégie.
-2. Sélectionnez la stratégie à attribuer en cliquant à gauche du nom de la stratégie.
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur la page stratégie.
+2. Sélectionnez la stratégie que vous voulez attribuer en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, sélectionnez **Appliquer.**
@@ -60,7 +60,7 @@ Chaque type de stratégie dispose de son propre ensemble d’lets de cmdlets pou
  Téléchargez et installez [la Teams publique PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si vous ne l’avez pas déjà fait), puis exécutez l’application suivante pour vous connecter.
 
 > [!NOTE]
-> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
+> Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
 >
 > Si vous utilisez la dernière version [Teams public PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
@@ -98,14 +98,14 @@ Avant de commencer, il est important de comprendre les règles de priorité et l
 
 Pour un type de stratégie donné, la stratégie efficace d’un utilisateur est déterminée selon les informations suivantes :
 
-- Une stratégie assignée directement à un utilisateur est prioritaire sur toute autre stratégie du même type que celle affectée à un groupe. En d’autres termes, si une stratégie d’un type donné est assignée directement à un utilisateur, cet utilisateur n’hérite pas d’une stratégie du même type à partir d’un groupe. Cela signifie également que si un utilisateur a une stratégie d’un type donné qui lui a été directement attribuée, vous devez supprimer cette stratégie de l’utilisateur pour qu’il puisse hériter d’une stratégie du même type à partir d’un groupe.
+- Une stratégie assignée directement à un utilisateur est prioritaire sur toute autre stratégie du même type que celle affectée à un groupe. En d’autres termes, si un utilisateur est directement affecté à une stratégie d’un type donné, cet utilisateur n’hérite pas d’une stratégie du même type à partir d’un groupe. Cela signifie également que si un utilisateur a une stratégie d’un type donné qui lui a été directement attribuée, vous devez supprimer cette stratégie de l’utilisateur pour qu’il puisse hériter d’une stratégie du même type à partir d’un groupe.
 - Si un utilisateur ne dispose pas directement d’une stratégie et est membre de deux groupes ou plus et que chaque groupe a une stratégie du même type qui lui est attribuée, l’utilisateur hérite de la stratégie de l’affectation de groupe qui présente le classement le plus élevé.
 - Si un utilisateur n’est membre d’aucun groupe pour qui une stratégie est attribuée, la stratégie globale (à l’échelle de l’organisation) pour ce type de stratégie s’applique à l’utilisateur.
 
 La stratégie efficace d’un utilisateur est mise à jour en fonction des règles ci-après :
 
 - lorsqu’un utilisateur est ajouté ou supprimé d’un groupe pour qui une stratégie est assignée.
-- une stratégie n’est pas assignée à partir d’un groupe.
+- une stratégie n’est pas signée à partir d’un groupe.
 - une stratégie directement attribuée à l’utilisateur est supprimée.
 
 #### <a name="group-assignment-ranking"></a>Classement des affectations de groupe
@@ -265,7 +265,7 @@ Pour affecter une stratégie aux utilisateurs en bloc :
 3. Dans la colonne **&#x2713;** (coche), sélectionnez les utilisateurs. Pour sélectionner tous les utilisateurs, cliquez sur &#x2713; (coche) en haut du tableau.
 4. Sélectionnez **Modifier les paramètres,** a apporter les modifications de votre choix, puis **sélectionnez Appliquer.**
 
-Pour afficher l’état de votre affectation de stratégie, dans la bannière  qui apparaît en haut de la **page** Utilisateurs après avoir sélectionné Appliquer pour envoyer votre affectation de stratégie, sélectionnez Journal **d’activité.** Dans le navigation gauche du centre d’administration Microsoft Teams, sélectionnez Tableau de **bord,** puis sous Journal d’activité, sélectionnez Afficher les **détails.** Le journal d’activité affiche les affectations de stratégie à des lots de plus de 20 utilisateurs via le Microsoft Teams d’administration depuis les 30 derniers jours. Pour plus d’informations, [voir Afficher vos affectations de stratégie dans le journal d’activité.](activity-log.md)
+Pour afficher l’état de votre affectation de stratégie, dans la bannière  qui apparaît en haut de la **page** Utilisateurs après avoir sélectionné Appliquer pour envoyer votre affectation de stratégie, sélectionnez Journal **d’activité.** Dans le navigation gauche du centre d’administration Microsoft Teams, sélectionnez Tableau de **bord,** puis sous Journal d’activité, sélectionnez Afficher les **détails.** Le journal d’activité affiche les affectations de stratégie à des lots de plus de 20 utilisateurs via le Centre Microsoft Teams d’administration à partir des 30 derniers jours. Pour plus d’informations, [voir Afficher vos affectations de stratégie dans le journal d’activité.](activity-log.md)
 
 ### <a name="use-powershell-method"></a>Utiliser la méthode PowerShell
 
@@ -339,7 +339,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 Pour en savoir plus, [consultez Get-CsBatchPolicyAssignmentOperation.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les Teams des stratégies](manage-teams-with-policies.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

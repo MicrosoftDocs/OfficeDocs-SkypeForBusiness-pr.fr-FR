@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 description: 'Le tableau ErrorCategory contient le nom convivial de chaque classification de diagnostic Skype Entreprise Server 2015. Par défaut, Skype Entreprise Server 2015 utilise les classifications suivantes :'
-ms.openlocfilehash: ca3719f6d284cf715be1a87b1c7a5dc04ae84b04
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 68114e96e04ca8e2cb45fbb2b9ba0b3934df4e363700f8a872f05cb1aa0e8a37
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347769"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Table ErrorCategory dans Skype Entreprise Server 2015
  

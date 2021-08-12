@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5514e550bb8ba259779f390b1a87d74dcb7e3e3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335870"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
@@ -35,14 +35,14 @@ La meilleure façon de conduire l’adoption Teams’utilisation du produit. Nou
 | Nom de l’équipe | Noms de canal proposés |
 | --------- | ---------------------- |
 | Se faire connaître Teams | Général</br> Présentez-vous</br> Comment puis-je ?</br>Commentaires </br> Idées pour les équipes à venir </br> Support |
-| Microsoft Teams Implémentation | Général <br/> Sensibilisation et adoption <br/> Engagement d’entreprise <br/> Programme des utilisateurs précoces <br/> Commentaires et informations <br/> Sécurité et conformité <br/> Stratégie et planification <br/> État du service et incidents <br/> Formation <br/> Watercooler Chat |
+| Microsoft Teams Implémentation | Général <br/> Sensibilisation et adoption <br/> Engagement d’entreprise <br/> Programme des utilisateurs précoces <br/> Commentaires et commentaires Informations <br/> Sécurité et conformité <br/> Stratégie et planification <br/> État du service et incidents <br/> Formation <br/> Watercooler Chat |
 | Champions du travail d’équipe | Général <br/> Meilleures pratiques, formation et méthodes <br/> Champion Corner <br/> Commentaires et support <br/> Prospects de programme <br/> Social Hub |
 
 Dans Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview) galerie d’onglets vous permet d’accéder à toutes les Microsoft 365 ou Office 365 et applications tierces qui ont été désactivées par l’administrateur. Pour obtenir le meilleur de votre produit, nous vous suggérons d’épingler des ressources clés sous forme d’onglets dans chacun des canaux appropriés. Consultez l’exemple ci-dessous.
 
 ![Capture d’écran montrant les onglets par défaut et personnalisés](media/teams-adoption-tab-example.png)
 
-Dans vos équipes initiales, nous vous suggérons d’épingler les éléments suivants à des fin de référence facile dans vos canaux d’équipe. Ces ressources sont en plus de vos sections OneNote bloc-notes. Si vous travaillez avec notre équipe FastTrack, elle vous aidera à configurer ces premières équipes. 
+Dans vos équipes initiales, nous vous suggérons d’épingler les éléments suivants à des fin de référence facile dans vos canaux d’équipe. Ces ressources sont en plus de vos sections OneNote bloc-notes. Si vous travaillez avec notre équipe de FastTrack, elle vous aidera dans la configuration de ces premières équipes. 
 
 |Nom de l’équipe/du canal | Onglet épinglé |
 |----------------- | ---------- |

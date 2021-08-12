@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell distante pour vous connecter à Skype Entreprise Online, notamment l’importation-module, l’environnement de ligne de commande simultané, l’ID Live ID et les problèmes d’autorisation.
-ms.openlocfilehash: eb2eb90c978b54999e04277d0c77cbdfb7ef54c7
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: cb9268efc5e35ec5f25ed93314a77347b4a9363f038744c4de9a934528ae371f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295951"
 ---
 # <a name="diagnose-connection-problems-using-skype-for-business-online-connector"></a>Diagnostiquer les problèmes de connexion à l’Skype Entreprise Online Connector
 
@@ -96,7 +96,7 @@ Il existe généralement trois raisons pour lesquelles votre tentative de connex
 ## <a name="failed-to-load-live-id-module"></a>Échec du chargement du module Live ID
 <a name="BKMKFailedLoad"> </a>
 
-L’une des conditions préalables à l’utilisation de PowerShell pour gérer Skype Entreprise Online consiste à installer l’Assistant de Microsoft Online Services de base. Si l’Assistant de session n’est pas installé, le message d’erreur suivant s’affiche lorsque vous tentez d’établir une session à distance avec Skype Entreprise Online :
+L’une des conditions préalables à l’utilisation de PowerShell pour gérer Skype Entreprise Online consiste à installer l’Assistant de Microsoft Online Services de base. Si l’Assistant de session n’est pas installé, le message d’erreur suivant s’affiche lorsque vous tentez d’établir une session distante avec Skype Entreprise Online :
 
 - **Erreur**: *Get-CsWebTicket : vous ne pouvez pas charger le module Live Id. Assurez-vous que la version correcte de l’Assistant de connect-vous Live Id est installée.*
 
@@ -115,9 +115,9 @@ Lorsque vous tentez de établir une connexion à distance à Skype Entreprise On
 ## <a name="the-user-doesnt-have-permission-to-manage-this-tenant"></a>L’utilisateur n’est pas autorisé à gérer ce client
 <a name="BKMKUserPermission"> </a>
 
-Vous ne pouvez pas établir de connexion PowerShell distante àSkype Entreprise Online, sauf si vous êtes membre du groupe Administrateurs clients. Si ce n’est pas le cas, votre tentative de connexion échouera et vous recevrez le message d’erreur suivant :
+Vous ne pouvez pas établir de connexion PowerShell distante àSkype Pour Les Entreprises Online, sauf si vous êtes membre du groupe Administrateurs clients. Si ce n’est pas le cas, votre tentative de connexion échouera et vous recevrez le message d’erreur suivant :
 
-- Erreur **:** *New-PSSession : [admin.vdomain.com] Le traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : L’utilisateur « user@foo.com » n’est pas autorisé à gérer ce client. Les autorisations peuvent être octroyées en attribuant à l’utilisateur le rôle de CBAC approprié. Pour plus d’informations, voir [la résolution des problèmes à distance.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
+- Erreur **:** *New-PSSession : [admin.vdomain.com] Le traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : L’utilisateur « user@foo.com » n’est pas autorisé à gérer ce client. Les autorisations peuvent être octroyées en attribuant à l’utilisateur le rôle de CBAC approprié. Pour plus d’informations, voir [le dépannage à distance.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
 
 - **Résolution**: Si vous pensez que vous êtes ou êtes sensé être membre du groupe Administrateurs client, contactez le Support Microsoft.
   
@@ -126,7 +126,7 @@ Vous ne pouvez pas établir de connexion PowerShell distante àSkype Entreprise 
 
 Pour utiliser PowerShell pour gérer Skype Entreprise Online, la propriété EnableRemotePowerShellAccess de votre stratégie PowerShell client doit être définie sur `True` . Si ce n’est pas le cas, votre connexion échouera et vous recevrez le message d’erreur suivant :
 
-- Erreur **:** *New-PSSession : [admin vdomain.com] Le traitement des données à partir de l’administrateur de serveur distant vdomain.com a échoué avec le message d’erreur suivant : la connexion à ce client à l’aide d’une session PowerShell distante a été \. désactivée. \. Contactez l’aide de Lync pour vérifier la stratégie PowerShell du client. Pour plus d’informations, voir [la résolution des problèmes à distance.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
+- Erreur **:** *New-PSSession : [admin vdomain.com] Le traitement des données de l’administrateur de serveur distant vdomain.com a échoué avec le message d’erreur suivant : la possibilité de se connecter à ce client à l’aide d’une session PowerShell distante a été \. désactivée. \. Contactez l’aide de Lync pour vérifier la stratégie PowerShell du client. Pour plus d’informations, voir [la résolution des problèmes à distance.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
 
 - **Résolution**: si vous voyez ce message d’erreur, vous devez contacter le Support Microsoft et activer l’accès à distance à PowerShell.
   

@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Découvrez comment créer une carte de bâtiment que vous pouvez utiliser pour charger des données client et bâtiment dans le tableau de bord de qualité des appels.
-ms.openlocfilehash: 890e5e9b394cf8b600e635014c90ebb9053a1e07
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: fbe033511ad0c717dd79bb5d0bb5b480037175abaa9ce7e5dd40aee334094fff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46584033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314290"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Créer une carte de bâtiments pour le tableau de bord de qualité des appels
 
@@ -42,6 +42,6 @@ Il existe plusieurs façons de ma carte des sous-réseaux de votre organisation.
 1. Validez un fichier de construction existant, en vérifiant la recherche de doublons et de chevauchements.
 1. Recherchez des sous-réseaux non mis en réseau dans le DQD.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Télécharger données relatives au client et à la création dans le CQD](CQD-upload-tenant-building-data.md)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40f88c93e20fde89eb9791cc90760d554e52a004
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44512811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314320"
 ---
 # <a name="document-my-success-plan"></a>Documenter mon plan de réussite
 
@@ -56,7 +56,7 @@ Les modèles de déploiement possibles sont les suivants :
 
 ## <a name="raci-modeling"></a>Modélisation RACI
 
-Pour vous assurer d’avoir une bonne clarté sur qui est responsable de ce qui se passe dans votre projet, utilisez une matrice d’affectations de responsabilités (également appelée RACI— responsable, responsable, consultée et informée). Énumérez la personne ou le groupe qui est responsable de chaque tâche, ainsi que les parties prenantes devant être consultées dans le processus de prise de décision, et les parties prenantes pour être informées de chaque décision et action tout au long de l’exécution du projet.
+Pour vous assurer d’avoir une bonne clarté sur l’qui est responsable de ce qui se passe dans votre projet, utilisez une matrice d’affectations de responsabilités (également appelée RACI— responsable, responsable, consultée et informée). Énumérez la personne ou le groupe qui est responsable de chaque tâche, ainsi que les parties prenantes devant être consultées dans le processus de prise de décision, et les parties prenantes pour être informées de chaque décision et action tout au long de l’exécution du projet.
 
 Voici un exemple de matrice RACI pour une implémentation Voix cloud.
 
@@ -101,14 +101,14 @@ Voici un exemple de plan d’exécution trimestrielle pour la phase de conceptio
 <table>
 
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez le plan d’exécution trimestrielle pour obtenir les résultats clés de l’objectif (OKR).</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documentez le plan d’exécution trimestrielle.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Documenter le plan d’exécution trimestrielle.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
 ## <a name="communications-and-governance-plan"></a>Plan de gouvernance et de communication
 
-Pour tenir les parties prenantes du projet au courant de l’avancement du déploiement, vous devez établir un plan pour la façon dont les communications seront établies entre les membres de l’équipe de projet principales et avec les parties prenantes pour discuter des questions relatives à l’état du projet, aux jalons clés, aux bloqueurs et à diverses révisions du projet par rapport à des KSI établis. , des mesures opérationnelles et des objectifs stratégiques.
+Pour tenir les parties prenantes du projet au courant de l’avancement du déploiement, vous devez établir un plan pour la façon dont les communications seront établies entre les membres de l’équipe de projet principales et avec les parties prenantes pour discuter des questions relatives à l’état du projet, aux jalons clés, aux bloqueurs et aux diverses révisions du projet par rapport aux KSI établis,  mesures opérationnelles et objectifs stratégiques.
 
 Voici un exemple de plan de communications et de gouvernance que vous pouvez utiliser dans votre projet d’implémentation de voix cloud.
 
@@ -133,7 +133,7 @@ Voici un exemple de plan de communications et de gouvernance que vous pouvez uti
 
 Un plan de réussite est le résumé de la documentation que vous avez créée au cours de la phase de conception.
 
-Le plan de réussite fournit à l’équipe de projet, qui peut inclure FastTrack ou un partenaire de déploiement, des informations suffisantes pour réaliser les objectifs de votre organisation en mettant en œuvre l’audioconférence ou la Système téléphonique avec le service Plan d’appel.
+Le plan de réussite fournit à l’équipe de projet, qui peut inclure des FastTrack ou un partenaire de déploiement, des informations suffisantes pour réaliser les objectifs de votre organisation avec l’implémentation du service d’audioconférence ou d’Système téléphonique avec le service Plan d’appel.
 
 En règle générale, un plan de réussite contient les sections principales suivantes, sur lesquelles vous aurez travaillé au cours de la phase de conception :
 
@@ -177,7 +177,7 @@ Téléchargez des modèles pour les activités d’adoption à partir [Microsoft
 
 ### <a name="operational-plan"></a>Plan opérationnel
 
-L’exercice de mappage des rôles opérationnels établira les rôles et responsabilités, ainsi que les équipes affectées à chaque rôle opérationnel, dont vous devrez prendre en charge l’implémentation de l’audioconférence.
+L’exercice de mappage des rôles opérationnels établira les rôles et responsabilités, ainsi que les équipes affectées à chaque rôle opérationnel, que vous devrez prendre en charge l’implémentation de l’audioconférence.
 
 Vous devez effectuer cette étape et inclure le plan opérationnel dans le plan de réussite pour garantir la préparation opérationnelle de la solution.
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: L’affichage Session stocke des informations sur les sessions pour lesquelles il existe des enregistrements dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 34619c1555fac5935563dd72895f52d045c388ae
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9f8fc3b22677da6794aeaaecdd180ade454fc36fbf9659c5f8196880c42c907b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314430"
 ---
 # <a name="session-view"></a>Affichage de session
  
@@ -29,9 +29,9 @@ L’affichage Session stocke des informations sur les sessions pour lesquelles i
 |ConferenceDateTime  <br/> |DateHeure  <br/> |Référencé depuis la table MediaLine.  <br/> |
 |ConferenceURI  <br/> |nvarchar(450)  <br/> |URI de conférence s’il s’agit d’une conférence, ou DialogID s’il s’agit d’une session d’égal à égal.  <br/> |
 |Correlation  <br/> |varchar(max)  <br/> |ID de corrélation de la session.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Catégorie de boîte de dialogue ; 0 est la partie Skype Entreprise Server vers serveur de médiation ; 1 est la partie serveur de médiation vers passerelle PSTN.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Catégorie de boîte de dialogue ; 0 est Skype Entreprise Server la partie serveur de médiation ; 1 est la partie serveur de médiation vers passerelle PSTN.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Indique si l’appel a été contourné ou non.  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |Ce champ, s’il est présent, indique pourquoi un appel n’a pas été contourné même si les ID de contournement correspondaient. Pour Skype Entreprise Server, une seule valeur est définie :  <br/> 0x0001 - ID de contournement inconnu pour la carte réseau par défaut  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |Ce champ, s’il est présent, indique pourquoi un appel n’a pas été contourné même si les ID de contournement correspondaient. Par Skype Entreprise Server, une seule valeur est définie :  <br/> 0x0001 - ID de contournement inconnu pour la carte réseau par défaut  <br/> |
 |StartTime  <br/> |DateHeure  <br/> |Heure de début de l’appel.  <br/> |
 |EndTime  <br/> |DateHeure  <br/> |Heure de fin de l’appel.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |Nom de domaine complet du pool des appelants.  <br/> |
