@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 40eb9a930c2365531a064f4af03e23cafcd3919a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e8fe6ceb147c996c25a85b69d30ae7bd5547666a0b082a4817790a7e48bc5144
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291142"
 ---
 # <a name="sip-federated-providers-create-new-or-edit-existing"></a>Fournisseurs fédérés SIP : création d’un nouveau ou modification d’un fournisseur existant
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Décisions nécessaires à la planification d’un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 39397064fe525a2b1324b8ef0a0f0bb1df287653
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0fb334f612c2e63a7c2e47779ee4f02ee0e543741a460933cb632bdd8e54d279
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290062"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Définir l’étendue du déploiement E9-1-1 dans Skype Entreprise Server
 
@@ -39,14 +39,14 @@ Avant de configurer Skype Entreprise pour E9-1-1, vous devez planifier votre dé
 
  **Comment allez-vous déployer E9-1-1 sur des sites de succursales ?**
 
- La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des branches SIP E-9-1-1 et qu’une panne de réseau wan se produit, les clients qui se connectent peuvent ne pas être en mesure d’obtenir un emplacement à partir du service Informations sur l’emplacement ou de se connecter au fournisseur de services d’urgence. Skype Entreprise fournit plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une ligne SIP dans chaque succursale ou faire passer des appels d’urgence vers la passerelle locale en cas de panne. Pour plus d’informations, voir [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
+ La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des connexions SIP E-9-1-1 et qu’une panne de réseau wan se produit, les clients qui se connectent risquent de ne pas pouvoir obtenir un emplacement à partir du service Informations sur l’emplacement ou se connecter au fournisseur de services d’urgence. Skype Entreprise propose plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une branche SIP dans chaque succursale ou faire passer des appels d’urgence vers la passerelle locale en cas de panne. Pour plus d’informations, voir [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
 
  **Allez-vous activer E9-1-1 pour les utilisateurs travaillant en dehors du réseau ?**
 
- L’acquisition automatique d’emplacement est disponible uniquement pour les clients situés au sein du réseau de l’organisation. Votre organisation doit donc décider si elle prendra en charge les appels E9-1-1 effectués à partir de clients Skype Entreprise hors site. Par exemple, allez-vous autoriser les utilisateurs à passer des appels d’urgence quand ils travaillent de chez eux ou chez un client ? Si un client se trouve en dehors du réseau d’entreprise, il peut être configuré de sorte à inviter l’utilisateur à indiquer son emplacement. Toutefois, les emplacements fournis par l’utilisateur ne peuvent pas être prévalidés par rapport au guide MSAG (Master Street Address Guide), le répartiteur du fournisseur de services d’urgence devra donc confirmer verbalement avec l’appelant la validité de son emplacement avant d’acheminer l’appel vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP).
+ L’acquisition automatique d’emplacement est disponible uniquement pour les clients situés au sein du réseau de l’organisation. Votre organisation doit donc décider si elle prendra en charge les appels E9-1-1 effectués à partir de clients Skype Entreprise en dehors de l’organisation. Par exemple, allez-vous autoriser les utilisateurs à passer des appels d’urgence quand ils travaillent de chez eux ou chez un client ? Si un client se trouve en dehors du réseau d’entreprise, il peut être configuré de sorte à inviter l’utilisateur à indiquer son emplacement. Toutefois, les emplacements fournis par l’utilisateur ne peuvent pas être prévalidés par rapport au guide MSAG (Master Street Address Guide), le répartiteur du fournisseur de services d’urgence devra donc confirmer verbalement avec l’appelant la validité de son emplacement avant d’acheminer l’appel vers le centre téléphonique de sécurité publique (Public Safety Answering Point ou PSAP).
 
 > [!NOTE]
-> Les clients Skype Entreprise des utilisateurs qui se connectent au réseau de votre organisation à l’aide de VPN peuvent récupérer des informations d’adresse IP internes, mais comme ces adresses ne peuvent pas être utilisées pour identifier l’emplacement réel de l’utilisateur, il est essentiel que les sous-réseaux VPN soient exclus du service Informations d’emplacement.
+> Skype Entreprise clients d’utilisateurs qui se connectent au réseau de votre organisation à l’aide d’un VPN peuvent récupérer des informations d’adresse IP internes, mais comme ces adresses ne peuvent pas être utilisées pour identifier l’emplacement réel de l’utilisateur, il est essentiel que les sous-réseaux VPN soient exclus du service Informations d’emplacement.
 
  **Voulez-vous que les appels d’urgence soient acheminés vers des sites en dehors des États-Unis ?**
 

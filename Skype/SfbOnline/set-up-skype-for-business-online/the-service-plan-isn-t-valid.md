@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
 description: 'Découvrez où affecter un plan de service valide pour un utilisateur lorsqu’Skype Entreprise Online n’est pas valide. '
-ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f683a3f12e9149017c5f62375f188360a03f0e9fd8bb286f1e44f09b2c2b6ef7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239467"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314960"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Le plan de service Skype Entreprise Online de l’utilisateur n’est pas valide
 
@@ -34,9 +34,9 @@ ms.locfileid: "52239467"
 
 Désolé, le plan de service Skype Entreprise Online attribué à cet utilisateur n’est pas reconnu ou n’est pas valide.
   
-Allez dans le centre *Microsoft 365 d’administration*  * > utilisateurs actifs et attribuez un plan de service valide à cet utilisateur.
+Allez à *l’Centre d’administration Microsoft 365** > utilisateurs actifs **et** affectez un plan de service valide à cet utilisateur.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en France pour Microsoft Teams.
-ms.openlocfilehash: 81f0e3abda408d7e229c3a9066a668e182d47488
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: HT
+ms.openlocfilehash: 495976306785e4012774fd5fa1c898f0fb95c2ae613c89e464657ec418f0cba4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282657"
 ---
 # <a name="phone-number-management-for-france"></a>Gestion des numéros de téléphone pour la France
 

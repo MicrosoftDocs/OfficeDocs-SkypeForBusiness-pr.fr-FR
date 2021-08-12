@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
-description: Importe la configuration de la version Cloud Connector de Skype Entreprise à partir d’un fichier local vers le serveur hôte Cloud Connector.
-ms.openlocfilehash: 626ba52d4d67f99dd67d3d1f91d26d6e6d03f95e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Importe la configuration Skype Entreprise Cloud Connector Edition d’un fichier local vers le serveur hôte Cloud Connector.
+ms.openlocfilehash: 4ac32f460c2c493f5d78f1a38adcdd0728763bbbcf57a67470823fb88d407d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349496"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
-Importe la configuration de la version Cloud Connector de Skype Entreprise à partir d’un fichier local vers le serveur hôte Cloud Connector.
+Importe la configuration Skype Entreprise Cloud Connector Edition d’un fichier local vers le serveur hôte Cloud Connector.
   
 ```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]

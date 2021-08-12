@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros, transférer ou transférer des numéros existants pour Teams et comment montrer les modifications à vos utilisateurs. '
-ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: cb74b070e9c9c74c71e98309e9a06e3f9a85021872a2072f4852f89de52cbd01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315280"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -68,7 +68,7 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
   
 - Si vous avez besoin d’au moins 999 numéros de téléphone pour vos utilisateurs, utilisez l’Assistant De portage du Microsoft Teams d’administration. Suivez les étapes de [la procédure de transfert de numéros de téléphone Teams.](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) Si votre pays ou région n’est pas répertorié(e) dans l’Assistant [](/microsoftteams/manage-phone-numbers-for-your-organization) Demande de portage, vous pouvez envoyer manuellement une demande de port ou consulter gérer les numéros de téléphone de votre organisation pour télécharger la lettre d’autorisation appropriée. [](phone-number-calling-plans/manually-submit-port-order.md)
 
-- Si vous devez transférer plus de 999 [](phone-number-calling-plans/manually-submit-port-order.md) numéros de téléphone, [](/microsoftteams/manage-phone-numbers-for-your-organization) vous pouvez envoyer manuellement une demande de transfert ou consulter Gérer les numéros de téléphone pour votre organisation afin de télécharger la lettre d’autorisation appropriée, puis l’envoyer au service de service [RSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) pour que tous vos numéros soit transférés.
+- Si vous devez transférer plus de 999 [](phone-number-calling-plans/manually-submit-port-order.md) numéros de téléphone, [](/microsoftteams/manage-phone-numbers-for-your-organization) vous pouvez envoyer manuellement une demande de transfert ou consulter Gérer les numéros de téléphone pour votre organisation afin de télécharger la lettre d’autorisation appropriée, puis l’envoyer au service de service [RSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) pour obtenir tous vos numéros transférés.
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Afficher les numéros de téléphone pour votre organisation
 
@@ -93,4 +93,4 @@ Après avoir reçu vos numéros de téléphone, vous devrez attribuer un numéro
 
 [Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)
 
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

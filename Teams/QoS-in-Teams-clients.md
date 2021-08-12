@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 263e2d07992bd491259b82856413548fcd9741fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: efe36f1ada9e8c98a82d8d5ece0cee2d9058aa318ef174f6d1b704f1c7f1e178
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094782"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282887"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implémenter la qualité de service (QoS) dans Microsoft Teams clients
 
@@ -53,7 +53,7 @@ Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 joints à u
 
 1. Dans l’Éditeur de gestion des stratégies de groupe, développez **Configuration** ordinateur, développez **Windows Paramètres,** cliquez avec le bouton droit sur **QoS** basé sur une stratégie, puis cliquez sur **Créer une stratégie.**
 
-1. Dans la **boîte de dialogue QoS** basée sur une stratégie, dans la page d’ouverture, tapez le nom de la nouvelle stratégie dans la **zone** Nom. Sélectionnez **Spécifier la valeur DSCP** et définissez la valeur **sur 46.** Laissez **Spécifier la fréquence de limitation** sortante non sélectionné, puis cliquez sur **Suivant.**
+1. Dans la **boîte de dialogue QoS** basée sur une stratégie, dans la page d’ouverture, tapez un nom pour la nouvelle stratégie dans la **zone** Nom. Sélectionnez **Spécifier la valeur DSCP** et définissez la valeur **sur 46.** Laissez **Spécifier la fréquence de limitation** sortante non sélectionné, puis cliquez sur **Suivant.**
 
 1. Sur la page suivante, sélectionnez Uniquement les applications avec ce nom **exécutable,** entrez le **Teams.exe,** puis cliquez sur **Suivant.** Ce paramètre indique à la stratégie de ne hiérarchiser que les trafics correspondants en provenance Teams client.
 
@@ -87,7 +87,7 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
    gpresult /R > gp.txt
    ```
 
-   Cela génère un rapport sur les os de groupe appliqués et l’envoie à un fichier texte nommé *gp.txt.*
+   Cela génère un rapport sur les GGP appliqués et l’envoie à un fichier texte nommé *gp.txt.*
 
    Pour un rapport HTML plus lisible nommé *gp.html,* entrez la commande suivante :
 
@@ -122,6 +122,6 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
 1. Vérifiez que la valeur de l’entrée Nom de l’application est correcte pour le client que vous utilisez, et vérifiez que les entrées de port DSCP et de port local reflètent les paramètres dans l’objet de stratégie de groupe.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Implémenter la qualité de service (QoS) dans Teams](QoS-in-Teams.md)

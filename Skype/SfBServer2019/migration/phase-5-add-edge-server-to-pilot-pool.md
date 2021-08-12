@@ -1,5 +1,5 @@
 ---
-title: Phase 5 Ajouter un serveur Edge Skype Entreprise Server 2019 au pool pilote
+title: Phase 5 Ajouter Skype Entreprise Server serveur Edge 2019 au pool pilote
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Les rubriques de cette section expliquent comment ajouter un serveur Edge Skype Entreprise Server 2019 au déploiement du pool pilote. Les rubriques donnent des conseils quant à la configuration et à la vérification lors de l’exécution de l’Assistant Déploiement d’un nouveau pool de serveurs Edge.
-ms.openlocfilehash: adcbe7ef5c999328879d395f0e5439fa952cfda0
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a646b5400c9448349eacb06da67001c9d2ed4e1e0d7716ad83d74e29deb5bfb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752306"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315060"
 ---
-# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Phase 5 : Ajout d’un serveur Edge Skype Entreprise Server 2019 au pool pilote
+# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>Phase 5 : Ajouter Skype Entreprise Server serveur Edge 2019 au pool pilote
 
 Les rubriques de cette section expliquent comment ajouter un serveur Edge Skype Entreprise Server 2019 au déploiement du pool pilote. Les rubriques donnent des conseils quant à la configuration et à la vérification lors de l’exécution de l’Assistant Déploiement d’un nouveau pool de serveurs Edge. 
   

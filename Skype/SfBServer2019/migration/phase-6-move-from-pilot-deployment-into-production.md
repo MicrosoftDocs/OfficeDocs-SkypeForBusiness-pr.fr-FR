@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Les rubriques de cette section décrivent les tâches que vous devez effectuer avant de déplacer votre déploiement de Skype Entreprise Server 2019 d’un déploiement pilote vers un déploiement de niveau production.
-ms.openlocfilehash: 2af1d78d866a935a975b3baa520f54fc780b0922
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: aaeb1f30f71d802e91e7243ce6ce07c6da57167421d5c4f5ba98ea855c20e240
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315070"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>Phase 6 : Transition d’un déploiement pilote vers un environnement de production
 

@@ -21,22 +21,22 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le Centre Microsoft Teams d’administration Windows PowerShell pour créer et gérer des plans de numérotation (plans de numérotation PSTN).
-ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
-ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
+ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "53046231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282867"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
-Après avoir plané les plans de numérotation de votre organisation et compris toutes les règles de normalisation à créer pour le routage des appels, vous êtes prêt à créer les plans de numérotation. Avec un compte d’administrateur ayant une licence de numérotation Teams valide, vous pouvez utiliser le Centre d’administration Microsoft Teams ou la Windows PowerShell pour créer et gérer des plans de numérotation.  
+Après avoir plané les plans de numérotation de votre organisation et compris toutes les règles de normalisation à créer pour le routage des appels, vous êtes prêt à créer les plans de numérotation. Avec un compte d’administrateur dispose d’une licence de numérotation Teams valide, vous pouvez utiliser le Centre d’administration Microsoft Teams ou la Windows PowerShell pour créer et gérer des plans de numérotation.  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 ### <a name="create-a-dial-plan"></a>Créer un plan de numérotation
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez **dans** le  >  **plan de numérotation vocale.**
+1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez dans **le**  >  **plan de numérotation vocale.**
 2. Cliquez **sur** Ajouter, puis entrez un nom et une description pour le plan de numérotation.
     ![Capture d’écran montrant la page Ajouter pour la création d’un plan de numérotation](media/create-dial-plan.png)
 3. Sous les **détails** du plan de numérotation, spécifiez un préfixe de numérotation externe si les utilisateurs doivent composer un ou plusieurs chiffres de tête supplémentaires (par exemple, 9) pour obtenir une ligne externe. Pour ce faire :
@@ -49,14 +49,14 @@ Après avoir plané les plans de numérotation de votre organisation et compris 
 5. Organisez les règles de normalisation dans l’ordre voulu. Cliquez **sur Monter** ou **Descendre** pour modifier la position des règles dans la liste.
 
     > [!NOTE]
-    > Teams traverse la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous avez installé un plan de numérotation de sorte qu’un numéro composé corresponde à plusieurs règles de normalisation, veillez à ce que les règles les plus restrictives soient triées au-dessus des règles moins restrictives. Si vous définissez un plan de numérotation qui normalise un numéro composé sans le « + », le service d’appel essaiera de revenir à la normale à l’aide des règles du client et du plan de numérotation régional. Pour éviter une normalisation en double, il est recommandé que toutes les règles de normalisation entraînent des nombres commençant par un « + ». Les clients de routage direct peuvent utiliser des règles de [traduction](direct-routing-translate-numbers.md) de ligne pour supprimer le « + » si nécessaire. 
+    > Teams traverse la liste des règles de normalisation du haut vers le bas et utilise la première règle qui correspond au numéro composé. Si vous avez installé un plan de numérotation de sorte qu’un numéro composé corresponde à plusieurs règles de normalisation, veillez à ce que les règles plus restrictives soient triées au-dessus des règles moins restrictives. Si vous définissez un plan de numérotation qui normalise un numéro composé sans le « + », le service d’appel essaiera de revenir à la normale à l’aide des règles du client et du plan de numérotation régional. Pour éviter une normalisation en double, il est recommandé que toutes les règles de normalisation entraînent des nombres commençant par un « + ». Les clients de routage direct peuvent utiliser des règles de [traduction](direct-routing-translate-numbers.md) de ligne pour supprimer le « + » si nécessaire. 
 
 6. Cliquez sur **Enregistrer**.
 7. Si vous voulez tester le plan de numérotation, sous Tester le **plan** de numérotation, entrez un numéro de téléphone, puis cliquez sur **Test.**
 
 ### <a name="edit-a-dial-plan"></a>Modifier un plan de numérotation
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez **dans** le  >  **plan de numérotation vocale.**
+1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez dans **le**  >  **plan de numérotation vocale.**
 2. Sélectionnez le plan de numérotation en cliquant à gauche du nom du plan de numérotation, puis cliquez sur **Modifier.**
 3. A apporter les modifications de votre souhaitez, puis cliquez sur **Enregistrer.**
 
@@ -181,7 +181,7 @@ $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-Exécutez l’événement pour rechercher tous les utilisateurs élisant le plan de numérotation client RedmondDialPlan.
+Exécutez l’événement pour rechercher tous les utilisateurs qui ont reçu le plan de numérotation client RedmondDialPlan.
   
 ```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 - [Questions fréquentes à propos du transfert de numéros de téléphone](./phone-number-calling-plans/port-order-overview.md)

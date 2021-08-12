@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Découvrez comment utiliser des modèles Teams pour créer des structures d’équipe conçues pour des besoins financiers en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.
+description: Découvrez comment utiliser Teams pour créer des structures d’équipe conçues pour des besoins financiers en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34e1140fe1551c0e0bc52449735755fc6d6428ca
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 749fa9a3a4264f5e4231082dcf097151377fff069bf5b123afa6b1abc5ba017b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684441"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349466"
 ---
 # <a name="use-financial-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe financière dans le Centre d’administration
 

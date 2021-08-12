@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088b36f546cebe67e10d840075e601e96a6df6e2
-ms.sourcegitcommit: 39d26edd43b6066d5a6dee2a5ad1354a1e560a0d
+ms.openlocfilehash: adc229264513d7ec4ca692dca1731d7390b80dc243b4571757607c1c76b7cacb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694539"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323946"
 ---
 # <a name="plan-for-operator-connect"></a>Planifier l’opérateur Connecter
 
@@ -55,7 +55,7 @@ Avec la Connecter opérateur, si votre opérateur existant participe au programm
 
 - Le plan d’appels Microsoft n’est pas disponible dans votre emplacement géographique.
 - Votre opérateur préféré est un participant au programme d’Connecter Microsoft.
-- Vous souhaitez trouver un nouvel opérateur pour activer les appels dans Teams.
+- Vous souhaitez trouver un nouvel opérateur pour activer les appels Teams.
 
 Pour activer les affectations de numéros de téléphone à l’Connecter, assurez-vous que vos utilisateurs sont :
 

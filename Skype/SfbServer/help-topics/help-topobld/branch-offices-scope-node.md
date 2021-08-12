@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: 'Le nœud Sites de succursale répertorie les sites de succursale associés à ce site central. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 8e0685d75a7f53981c215723a19b535f2cf0fea9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: af440d91320d50b461bc874030d271cbd2214802f34040fac7e29df818d0436f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333756"
 ---
 # <a name="branch-offices-scope-node"></a>Nœud d’étendue des Branch Office
  

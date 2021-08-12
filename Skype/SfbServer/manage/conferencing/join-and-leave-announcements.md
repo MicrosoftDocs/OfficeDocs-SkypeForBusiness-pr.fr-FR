@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Résumé : Découvrez comment gérer les annonces de rejoindre et de quitter une conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment gérer les annonces de participer à une conférence et de laisser des annonces dans Skype Entreprise Server.'
+ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290382"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Gérer les annonces de rejoindre et de quitter une conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment gérer les annonces de participer à une conférence et de laisser des annonces dans Skype Entreprise Server.
   
-Lorsque des utilisateurs d’appels sortants rejoignent ou quittent une conférence, l’application Annonce de conférence peut annoncer leur entrée ou leur sortie en nonçant une tonalité ou en nonçant leurs noms. Vous pouvez modifier le fonctionnement des annonces à l’aide de Skype Entreprise Server Management Shell et de l’cmdlet **Set-CsDialinConferencing** avec les paramètres suivants :
+Lorsque les utilisateurs d’appels sortants rejoignent ou quittent une conférence, les application Annonce de conférence peuvent annoncer leur entrée ou leur sortie en nonant une tonalité ou en nonant leurs noms. Vous pouvez modifier le fonctionnement des annonces à l’aide de Skype Entreprise Server Management Shell et de l’cmdlet **Set-CsDialinConferencing** avec les paramètres suivants :
   
-- EnableNameRecording : détermine si les participants anonymes sont invités à enregistrer leur nom avant de participer à la conférence. La valeur par défaut est « $true », ce qui signifie que les participants anonymes sont invités à donner leur nom avant de participer à une conférence. (Les participants authentifiés ne sont pas tenus d’indiquer leur nom, car leur nom complet est utilisé.)
+- EnableNameRecording : détermine si les participants anonymes sont invités à enregistrer leur nom avant d’accéder à la conférence. La valeur par défaut est « $true », ce qui signifie que les participants anonymes sont invités à donner leur nom avant de participer à une conférence. (Les participants authentifiés ne sont pas tenus d’indiquer leur nom, car leur nom complet est utilisé.)
     
 - EntryExitAnnouncementsEnabledByDefault : indique si les annonces sont allumées ou désactivées par défaut. La valeur par défaut est « $false », ce qui signifie qu’aucune annonce n’est effectuée lorsque les participants rejoignent ou quittent une conférence. Lorsqu’il planifie une réunion, l’organisateur peut ignorer ce paramètre.
     
@@ -38,7 +38,7 @@ Vous pouvez configurer ces paramètres globalement ou au niveau d’un site. (Le
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou membre du rôle Cs-ServerAdministratorr ou CsAdministrator.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Exécutez la commande suivante à l’invite de commandes :
     
@@ -46,7 +46,7 @@ Vous pouvez configurer ces paramètres globalement ou au niveau d’un site. (Le
    Get-CsDialinConferencingConfiguration
    ```
 
-Cette cmdlet récupère des informations pour savoir si les participants doivent enregistrer leur nom lors de leur participation à une conférence et comment Skype Entreprise Server répond lorsque les participants rejoignent ou quittent une conférence téléphonique.
+Cette cmdlet récupère des informations sur l’nécessité pour les participants d’enregistrer leur nom lors de leur participation à une conférence et la façon dont Skype Entreprise Server répond lorsque les participants rejoignent ou quittent une conférence d’accès.
     
 4. Exécutez la commande suivante à l’invite de commandes :
     

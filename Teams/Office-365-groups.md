@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Découvrez comment les groupes Microsoft 365 et les appartenances aux groupes fonctionnent avec Microsoft Teams.
-ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105240"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282897"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groupes et groupes Microsoft Teams
 
@@ -42,17 +42,17 @@ Lorsque vous créez un Microsoft 365 groupe dans Outlook ou SharePoint, la boît
 
 ## <a name="group-membership"></a>Adhésion à un groupe
 
-Si vous supprimez un membre d’une équipe, il est également supprimé du Microsoft 365 groupe. La suppression du groupe supprime immédiatement l’équipe et les canaux du client Teams client. Si vous supprimez une personne d’un groupe à l’aide du Centre d’administration Microsoft 365, celle-ci n’aura plus accès aux autres aspects de collaboration tels que la bibliothèque de documents SharePoint Online, le groupe Yammer ou les OneNote partagés. Toutefois, ils auront toujours accès aux fonctionnalités de conversation de l’équipe pendant environ deux heures.
+Si vous supprimez un membre d’une équipe, il est également supprimé du Microsoft 365 groupe. La suppression du groupe supprime immédiatement l’équipe et les canaux du client Teams client. Si vous supprimez une personne d’un groupe à l’aide du Centre d’administration Microsoft 365, elle n’aura plus accès aux autres aspects de collaboration tels que la bibliothèque de documents SharePoint Online, le groupe Yammer ou les groupes partagés OneNote. Toutefois, ils auront toujours accès aux fonctionnalités de conversation de l’équipe pendant environ deux heures.
 
-Pour gérer les membres d’une équipe, il est préférable de les ajouter et de les supprimer du client Teams pour vous assurer que les mises à jour des autorisations pour les autres charges de travail liées aux groupes se produisent rapidement. Si vous ajoutez ou supprimez des membres d’équipe en dehors du client Teams (à l’aide du Centre d’administration Microsoft 365, d’Azure AD ou de Exchange Online PowerShell), jusqu’à 24 heures peuvent être nécessaires pour que les modifications soient reflétées dans Teams.
+Pour gérer les membres d’une équipe, il est préférable de les ajouter et de les supprimer du client Teams pour vous assurer que les mises à jour des autorisations pour les autres charges de travail liées aux groupes se produisent rapidement. Si vous ajoutez ou supprimez des membres d’équipe en dehors du client Teams (à l’aide de Centre d’administration Microsoft 365, Azure AD ou Exchange Online PowerShell), jusqu’à 24 heures peuvent être nécessaires pour que les modifications soient reflétées dans Teams.
 
 ## <a name="deleting-groups-and-teams"></a>Supprimer des groupes et des équipes
 
-La suppression d’un groupe Microsoft 365 supprime l’alias de boîte aux lettres des conversations Outlook/OWA persistantes et les invitations aux réunions Teams et marque le site SharePoint pour suppression. La suppression d’une équipe et son effet sur les Outlook prennent environ 20 minutes. La suppression d’une équipe du client Teams supprimera immédiatement la vue de tous les membres de l’équipe. Si vous supprimez des membres d’un groupe Microsoft 365 qui avait activé les fonctionnalités d’Teams, il peut y avoir un délai d’environ deux heures avant que l’équipe ne soit supprimée du client Teams pour les personnes concernées qui ont été supprimées.
+La suppression d’un groupe Microsoft 365 supprime l’alias de boîte aux lettres pour les conversations Outlook/OWA persistantes et les invitations à des réunions Teams et marque le site SharePoint pour suppression. La suppression d’une équipe et son effet sur les Outlook prennent environ 20 minutes. La suppression d’une équipe du client Teams supprimera immédiatement la vue de tous les membres de l’équipe. Si vous supprimez des membres d’un groupe Microsoft 365 qui avait activé les fonctionnalités d’Teams, il peut y avoir un délai d’environ deux heures avant que l’équipe ne soit supprimée du client Teams pour les personnes concernées qui ont été supprimées.
 
 Pour plus d’informations sur les options de fin de cycle de vie des groupes et équipes, consultez les options de fin de cycle de vie des [groupes,](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) équipes et Yammer et archivez ou supprimez une équipe [dans Microsoft Teams.](./archive-or-delete-a-team.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Bases de Microsoft Teams (vidéo)](https://aka.ms/teams-foundations)
 

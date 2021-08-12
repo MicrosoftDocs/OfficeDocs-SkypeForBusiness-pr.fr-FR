@@ -18,41 +18,41 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: 'Résumé : Lisez cette rubrique pour découvrir comment affecter une stratégie de voix pour les utilisateurs utilisant le système téléphonique avec une connectivité PSTN sur site.'
-ms.openlocfilehash: 43e2b560cc0886bacd6faaec6c113ee1f237eff7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Lisez cette rubrique pour découvrir comment affecter une stratégie de voix pour les utilisateurs qui utilisent Système téléphonique avec une connectivité PSTN sur site.'
+ms.openlocfilehash: f01fcc314cd618150df2c67a2de8b4ea3ee8f9bd7fdb5f4a4c8b3ae24537ee3f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282996"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Affecter une stratégie de routage des voix
  
 > [!Important]
-> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams à l’aide [du routage direct.](/MicrosoftTeams/direct-routing-landing-page)
+> Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
-**Résumé :** Lisez cette rubrique pour découvrir comment affecter une stratégie de voix pour les utilisateurs utilisant le système téléphonique avec une connectivité PSTN sur site. 
+**Résumé :** Lisez cette rubrique pour découvrir comment affecter une stratégie de voix pour les utilisateurs qui utilisent Système téléphonique avec une connectivité PSTN sur site. 
   
-Lorsqu’un utilisateur utilise Skype Entreprise Online et utilise le système téléphonique avec une connectivité PSTN sur site, deux stratégies de voix s’appliquent à lui. L’une d’entre elle est une stratégie de routage des voix sur site que vous allez affecter en local. Cette stratégie peut être spécifique à l’utilisateur ou globale et définit les enregistrements d’utilisation PSTN associés à l’utilisateur. Cette rubrique explique comment affecter cette stratégie.
+Lorsqu’un utilisateur est sur Skype Entreprise Online et utilise Système téléphonique avec une connectivité PSTN sur site, deux stratégies de voix s’appliquent à lui. L’une d’entre elle est une stratégie de routage des voix sur site que vous allez affecter en local. Cette stratégie peut être spécifique à l’utilisateur ou globale et définit les enregistrements d’utilisation PSTN associés à l’utilisateur. Cette rubrique explique comment affecter cette stratégie.
   
-L’autre stratégie de voix définit les fonctionnalités d’appel disponibles pour l’utilisateur . Cette stratégie de voix est définie par Microsoft et est identique pour tout le système téléphonique avec des utilisateurs de connectivité PSTN locaux. Il est automatiquement attribué aux utilisateurs du système téléphonique.
+L’autre stratégie de voix définit les fonctionnalités d’appel disponibles pour l’utilisateur . Cette stratégie de voix est définie par Microsoft et est identique pour tous les Système téléphonique avec des utilisateurs de connectivité PSTN locaux. Elle est automatiquement attribuée aux utilisateurs Système téléphonique utilisateurs.
   
 ||**Utilisateur local**|**Système téléphonique avec un utilisateur de connectivité PSTN local**|
 |:-----|:-----|:-----|
-|Fonctionnalités d’appel définies dans  <br/> |Stratégie de la voix  <br/> |Stratégie de voix prédéfinée, attribuée automatiquement lorsque l’utilisateur est titulaire d’une licence pour le système téléphonique.  <br/> |
+|Fonctionnalités d’appel définies dans  <br/> |Stratégie de la voix  <br/> |Stratégie de voix prédéfinée, attribuée automatiquement lorsque l’utilisateur est titulaire d’une licence Système téléphonique.  <br/> |
 |Enregistrements d’utilisation PSTN associés à  <br/> |Stratégie de la voix  <br/> |Stratégie de routage des voix, attribuée alors que l’utilisateur est toujours en local.  <br/> |
    
 Vous effectuez les étapes suivantes à l’aide de votre déploiement local, tandis que l’utilisateur est toujours homed dans le déploiement local.
   
 ## <a name="using-a-global-voice-routing-policy"></a>Utilisation d’une stratégie globale de routage des voix
 
-Avant d’utiliser une stratégie de routage des voix globale pour votre système téléphonique avec des utilisateurs de connectivité PSTN locaux, vous devez ajouter des enregistrements d’utilisation PSTN à la stratégie.
+Avant d’utiliser une stratégie de routage des voix globale pour votre Système téléphonique avec des utilisateurs de connectivité PSTN locaux, vous devez ajouter des enregistrements d’utilisation PSTN à la stratégie.
   
 ### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a>Pour affecter des enregistrements d’utilisation PSTN à la stratégie globale de routage des voix
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Ajoutez les enregistrements d’utilisation PSTN à la stratégie :
     
@@ -60,7 +60,7 @@ Avant d’utiliser une stratégie de routage des voix globale pour votre systèm
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
@@ -72,7 +72,7 @@ Avant d’utiliser une stratégie de routage des voix globale pour votre systèm
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Créez une stratégie de routage des voix :
     
@@ -80,7 +80,7 @@ Avant d’utiliser une stratégie de routage des voix globale pour votre systèm
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
@@ -96,7 +96,7 @@ Que vous utilisiez la stratégie globale de routage des voix ou des stratégies 
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Affectez une stratégie de voix existante à un utilisateur :
     
@@ -104,7 +104,7 @@ Que vous utilisiez la stratégie globale de routage des voix ou des stratégies 
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
@@ -112,4 +112,4 @@ Que vous utilisiez la stratégie globale de routage des voix ou des stratégies 
 
 Dans cet exemple, l’utilisateur avec le nom complet Bob Kelly est affecté à la stratégie de voix créée précédemment avec le nom HybridVoice.
   
-Pour plus d’informations sur les stratégies de routage des voix, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation PSTN dans Skype Entreprise [2015,](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)et [Grant-CsVoicePolicy.](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)
+Pour plus d’informations sur les stratégies de routage des voix, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation [PSTN dans Skype Entreprise 2015,](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)et [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).

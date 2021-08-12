@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Tout comme d’autres rapports Skype Entreprise, ce rapport vous fournit des détails sur l’activité, y compris l’utilisation PSTN dans votre organisation. '
-ms.openlocfilehash: 174a186b2f629dced46910fd206d33ce82b701c8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: beacb15a283402c4ba4c7f2ec223eb6d9f48b2702e9aaabc565224eb0b391fc8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314940"
 ---
 # <a name="users-blocked-report"></a>Rapport d'utilisateurs bloqués
 
@@ -35,7 +35,7 @@ Le nouveau tableau de Skype Entreprise **de rapports** vous offre une vue d’en
  Consultez la vue [d’ensemble des](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) rapports pour découvrir d’autres rapports disponibles.
   
 > [!NOTE]
-> Vous pouvez consulter tous les rapports Skype Entreprise vous connectez en tant qu’administrateur au Microsoft 365 d’administration. 
+> Vous pouvez consulter tous les rapports Skype Entreprise vous connectez en tant qu’administrateur du Centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Comment obtenir le rapport de blocage Skype Entreprise utilisateurs
 
@@ -87,7 +87,7 @@ Cela exportera les données de tous les utilisateurs et vous permettra de trier 
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

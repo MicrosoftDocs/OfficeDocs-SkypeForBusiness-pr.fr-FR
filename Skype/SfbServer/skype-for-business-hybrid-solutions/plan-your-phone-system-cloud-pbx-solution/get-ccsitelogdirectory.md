@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
-description: La cmdlet Get-CcSiteLogDirectory affiche l’annuaire actuel dans lequel sont stockés les journaux au niveau du site pour Skype Entreprise, version Cloud Connector.
-ms.openlocfilehash: cace3ce3757294adbb3c55db24c619925f55ce5a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: LGet-CcSiteLogDirectory cmdlet affiche le répertoire actuel dans lequel les journaux au niveau du site pour Skype Entreprise Cloud Connector Edition sont stockés.
+ms.openlocfilehash: 7c15d0b715384fd18522122571da69f58a83ed337d46420e83f7ac35cfd0c018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349516"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
-La cmdlet Get-CcSiteLogDirectory affiche l’annuaire actuel dans lequel sont stockés les journaux au niveau du site pour Skype Entreprise, version Cloud Connector. 
+LGet-CcSiteLogDirectory cmdlet affiche le répertoire actuel dans lequel les journaux au niveau du site pour Skype Entreprise Cloud Connector Edition sont stockés. 
   
-Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcSiteLogDirectory

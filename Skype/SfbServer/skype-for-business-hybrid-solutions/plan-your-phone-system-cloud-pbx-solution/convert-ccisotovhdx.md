@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
-description: LConvert-CcIsoToVhdx cmdlet crée un fichier de disque dur virtuel de base (VHDX) à l’aide d’un fichier ISO de Windows Server 2012 R2 fourni par le client. Le fichier VHDX sera utilisé lors du déploiement de Skype Entreprise, version Cloud Connector.
-ms.openlocfilehash: f6b16c27b82919f24b9ee0e3094fb03fffa6443b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: LConvert-CcIsoToVhdx cmdlet crée un fichier de disque dur virtuel de base (VHDX) à l’aide d’un client fourni Windows Server 2012 fichier ISO R2. Le fichier VHDX sera utilisé lors du déploiement de Skype Entreprise Cloud Connector Edition.
+ms.openlocfilehash: d168155c918ba1e8a3a576e543eed6693d0fb6faa5bd4fc23efd8c95b2b50fa1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802424"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349546"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
-LConvert-CcIsoToVhdx cmdlet crée un fichier de disque dur virtuel de base (VHDX) à l’aide d’un fichier ISO de Windows Server 2012 R2 fourni par le client. Le fichier VHDX sera utilisé lors du déploiement de Skype Entreprise, version Cloud Connector.
+LConvert-CcIsoToVhdx cmdlet crée un fichier de disque dur virtuel de base (VHDX) à l’aide d’un client fourni Windows Server 2012 fichier ISO R2. Le fichier VHDX sera utilisé lors du déploiement de Skype Entreprise Cloud Connector Edition.
   
 ```powershell
 Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpdate]
@@ -32,9 +32,9 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|IsoFilePath  <br/> | Requis <br/> |System.String  <br/> | Chemin d’accès au fichier ISO Windows Server 2012 R2. <br/> |
-|GeneralizeOnly  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Si le processus de conversion échoue pendant la mise à jour de Windows, vous pouvez essayer de configurer un réseau/proxy et de mettre à jour Windows manuellement. Une fois le travail manuel terminé, vous pouvez exécuter cette cmdlet avec le paramètre -GeneralizeOnly et terminera les travaux restants.  <br/> |
-|PauseBeforeUpdate  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Pour mettre à jour Windows, une configuration manuelle réseau/proxy sur l’ordinateur VM de base peut être nécessaire. Le processus de conversion sera suspendu avant la mise à jour de Windows si ce paramètre est fourni. Une fois la configuration manuelle effectuée, vous pouvez reprendre le processus.  <br/> |
+|IsoFilePath  <br/> | Requis <br/> |System.String  <br/> | Chemin d’accès Windows Server 2012 fichier ISO R2. <br/> |
+|GeneralizeOnly  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Si le processus de conversion échoue pendant Windows mise à jour, vous pouvez essayer de configurer un réseau/proxy et de mettre à jour Windows manuellement. Une fois le travail manuel terminé, vous pouvez exécuter cette cmdlet avec le paramètre -GeneralizeOnly et terminera les travaux restants.  <br/> |
+|PauseBeforeUpdate  <br/> |Facultatif  <br/> |System.Management.Automation.SwitchParameter  <br/> |Pour mettre à Windows jour, une configuration manuelle réseau/proxy sur la VM de base peut être nécessaire. Le processus de conversion est suspendu avant Windows mise à jour si ce paramètre est fourni. Une fois la configuration manuelle effectuée, vous pouvez reprendre le processus.  <br/> |
    
 ## <a name="examples"></a>Exemples
 <a name="Examples"> </a>
@@ -49,7 +49,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>Exemple 2
 
-Si l'Convert-CcIsoToVhdx cmdlet échoue pendant la mise à jour de Windows, c’est probablement en raison d’une configuration réseau/proxy incorrecte. Vous pouvez suivre les instructions du message d’erreur et vous connecter à la machine virtuelle de base pour résoudre le problème et mettre à jour Windows manuellement. Une fois le travail manuel terminé, ré-exécutez l’cmdlet avec le paramètre -GeneralizeOnly pour terminer les travaux restants : 
+Si la cmdlet Convert-CcIsoToVhdx échoue pendant Windows mise à jour, c’est probablement en raison d’une configuration réseau/proxy incorrecte. Vous pouvez suivre les instructions du message d’erreur et vous connecter à la machine virtuelle de base pour résoudre le problème et mettre à jour Windows manuellement. Une fois le travail manuel terminé, ré-exécutez l’cmdlet avec le paramètre -GeneralizeOnly pour terminer les travaux restants : 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
@@ -57,7 +57,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 ### <a name="example-3"></a>Exemple 3
 
-Si la configuration manuelle est nécessaire pour mettre à jour Windows, vous pouvez utiliser le paramètre -PauseBeforeUpdate. Avec ce paramètre, Cloud Connector sera suspendu avant le processus de mise à jour de Windows. Vous pouvez ensuite terminer la configuration manuelle et reprendre le processus de conversion comme suit :
+Si la configuration manuelle est nécessaire pour mettre Windows jour, vous pouvez utiliser le paramètre -PauseBeforeUpdate. Avec ce paramètre, Cloud Connector sera suspendu avant le Windows de mise à jour. Vous pouvez ensuite terminer la configuration manuelle et reprendre le processus de conversion comme suit :
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -66,7 +66,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>Description détaillée
 <a name="DetailedDescription"> </a>
 
-LConvert-CcIsoToVhdx cmdlet crée d’abord une VM de base, installe certains composants de base dont dépend Cloud Connector, puis installe les mises à jour Windows. Enfin, il généralise la machine virtuelle (sysprep) pour obtenir un fichier VHDX de base qui sera utilisé par les machines virtuelles d’une appliance Cloud Connector. 
+LConvert-CcIsoToVhdx d’entreprise crée d’abord une VM de base, installe certains composants de base dont dépend Cloud Connector, puis installe Windows mises à jour. Enfin, il généralise la machine virtuelle (sysprep) pour obtenir un fichier VHDX de base qui sera utilisé par les machines virtuelles d’une appliance Cloud Connector. 
   
 ## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
@@ -76,11 +76,11 @@ Aucun. La cmdlet Convert-CcIsoToVhdx n’accepte pas la saisie de données pipel
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 

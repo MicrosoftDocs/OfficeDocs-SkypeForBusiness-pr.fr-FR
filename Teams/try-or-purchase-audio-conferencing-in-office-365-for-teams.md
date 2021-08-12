@@ -24,16 +24,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Découvrez comment essayer ou acheter des licences d’audioconférence (PSTN Conferencing) pour Microsoft 365 ou Office 365 afin de configurer des téléconférences à composer. '
-ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bcf67443b395e5951d9499124d360061c4ea9a21c130eef5e9efe4187caa7088
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323766"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Essayez ou achetez l’audioconférence dans Microsoft 365 pour Microsoft Teams
 
-Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft Teams inclut la fonctionnalité d’audioconférence uniquement dans cette situation ! Les personnes peuvent se rendre par téléphone Microsoft Teams réunions à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft Teams sur un appareil mobile ou un PC.
+Parfois, des personnes de votre organisation devront utiliser un téléphone pour rejoindre une réunion. Microsoft Teams inclut la fonction d’audioconférence uniquement pour cette situation ! Les personnes peuvent appeler pour Microsoft Teams réunions à l’aide d’un téléphone, au lieu d’utiliser l’application Microsoft Teams sur un appareil mobile ou un PC.
 
 Il vous suffit de configurer l’audioconférence pour les personnes qui prévoient de planifier ou de mener des réunions. Les participants à la réunion qui se connectent par téléphone n’ont pas besoin de licence ou de configuration particulière.
 
@@ -96,7 +96,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients utilisant Office 365 géré par 21Vianet en Chine. Pour plus d’informations, consulter la rubrique [En savoir plus à propos d’Office 365 géré par 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Activer Teams dans votre organisation](office-365-set-up.md)
 

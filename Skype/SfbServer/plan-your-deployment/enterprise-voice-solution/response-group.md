@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: La planification des groupes Response Groups dans Skype Entreprise Server Voix Entreprise, qui vous permet de configurer le routage des appels vers des groupes d’utilisateurs. Inclut les conditions requises pour les fichiers audio.
-ms.openlocfilehash: b27f3d1c40a384bd7465e7d2c8843a0523687d19
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: La planification des groupes Response Groups Skype Entreprise Server Voix Entreprise, qui vous permet de configurer le routage des appels vers des groupes d’utilisateurs. Inclut les conditions requises pour les fichiers audio.
+ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290082"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planifier l’application Response Group dans Skype Entreprise Server
 
-La planification des groupes Response Groups dans Skype Entreprise Server Voix Entreprise, qui vous permet de configurer le routage des appels vers des groupes d’utilisateurs. Inclut les conditions requises pour les fichiers audio.
+La planification des groupes Response Groups Skype Entreprise Server Voix Entreprise, qui vous permet de configurer le routage des appels vers des groupes d’utilisateurs. Inclut les conditions requises pour les fichiers audio.
 
 Si votre organisation dispose de groupes de personnes qui répondent et gèrent certains types d’appels, tels que le service clientèle, un support technique interne ou le support téléphonique général pour un service, vous pouvez déployer l’application Response Group pour gérer ces types d’appels. L’application Response Group a pour effet d’approvisionnement et de mise en file d’attente des appels entrants vers des personnes désignées, appelées agents. L’utilisation des groupes Response Group vous permet d’améliorer l’utilisation des services de support téléphonique et de réduire la charge liée à l’exécution de ces services.
 
@@ -37,7 +37,7 @@ Si aucun agent n’est disponible, l’appel est mis en file d’attente jusqu�
 > Seuls les utilisateurs locaux peuvent être des agents. Si un agent est déplacé de l’local vers le site en ligne, les appels Response Group ne seront pas acheminés vers cet agent.
 
 > [!NOTE]
-> L’application Response Group utilise un service interne, appelé Correspondances, pour mettre les appels en file d’attente et rechercher les agents disponibles. Chaque ordinateur qui exécute l’application Response Group exécute le service d’égalisation des correspondances, mais un seul service d’application de correspondance par pool est actif à la fois, les autres sont passifs. En cas d’indisponibilité du service d’établissement des correspondances actif au cours d’une interruption de service imprévue, l’un des services passifs devient actif. L’application Response Group fait de son mieux pour s’assurer que le routage et la mise en file d’accès des appels se poursuivent sans interruption. Cependant, lorsqu’une transition du service d’établissement des correspondances se produit, tous les appels en transfert à ce moment-là sont perdus. Par exemple, si la transition est due à la panne du serveur frontal, tous les appels actuellement gérés par le service de correspondance actif sur ce serveur frontal sont également perdus.
+> L’application Response Group utilise un service interne, appelé Correspondances, pour mettre les appels en file d’attente et rechercher les agents disponibles. Chaque ordinateur qui exécute l’application Response Group exécute le service d’application de correspondance, mais un seul service d’application de correspondance par pool est actif à la fois, les autres sont passifs. En cas d’indisponibilité du service d’établissement des correspondances actif au cours d’une interruption de service imprévue, l’un des services passifs devient actif. L’application Response Group fait de son mieux pour s’assurer que le routage et la mise en file d’accès des appels se poursuivent sans interruption. Cependant, lorsqu’une transition du service d’établissement des correspondances se produit, tous les appels en transfert à ce moment-là sont perdus. Par exemple, si la transition est due à la panne du serveur frontal, tous les appels actuellement gérés par le service de correspondance actif sur ce serveur frontal sont également perdus.
 
 ## <a name="response-group-workflows"></a>Flux de travail Response Group
 
@@ -48,7 +48,7 @@ Un flux de travail définit le comportement d’un appel, depuis le déclencheme
 
 ## <a name="management-of-response-groups"></a>Gestion des groupes Response Groups
 
-Dans Skype Entreprise Server, deux rôles de gestion sont disponibles pour la gestion des groupes Response Group : Gestionnaire Response Group et Administrateur Response Group. Les administrateurs Response Group peuvent gérer n’importe quel aspect de n’importe quel groupe Response Group. Les responsables Response Group peuvent gérer uniquement certains aspects, et uniquement pour les groupes Response Group qu’ils possèdent. Le rôle gestionnaire peut vous aider à réduire vos coûts d’administration, car vous pouvez déléguer des responsabilités limitées pour des groupes Response Groups spécifiques à tout utilisateur activé pour Voix Entreprise. Notez qu’un utilisateur peut être à la fois gestionnaire Response Group et administrateur Response Group.
+Dans Skype Entreprise Server, deux rôles de gestion sont disponibles pour la gestion des groupes Response Group : Gestionnaire Response Group et Administrateur Response Group. Les administrateurs Response Group peuvent gérer n’importe quel aspect de n’importe quel groupe Response Group. Les responsables Response Group ne peuvent gérer que certains aspects, et uniquement pour les groupes Response Group qu’ils possèdent. Le rôle gestionnaire peut vous aider à réduire vos coûts d’administration, car vous pouvez déléguer des responsabilités limitées pour des groupes Response Groups spécifiques à tout utilisateur activé pour Voix Entreprise. Notez qu’un utilisateur peut être à la fois gestionnaire Response Group et administrateur Response Group.
 
 Pour prendre en charge le rôle de gestionnaire, l’application Response Group utilise un **type** de flux de travail géré ou non géré. Le tableau suivant décrit les groupes Response Group gérés et non gérés.
 
@@ -72,13 +72,13 @@ Les responsables Response Group peuvent utiliser les outils suivants pour gérer
 - Panneau de configuration Skype Entreprise Server
 
     > [!NOTE]
-    > Les responsables Response Group peuvent uniquement gérer les paramètres Response Group à l’aide de cet outil. Les autres paramètres Skype Entreprise Server ne sont pas disponibles pour les responsables.
+    > Les responsables Response Group peuvent uniquement gérer les paramètres Response Group à l’aide de cet outil. Les autres Skype Entreprise Server de gestion ne sont pas disponibles pour les responsables.
 
 - outil de configuration Response Group
 
 - Skype Entreprise Server Management Shell
 
-Response Group s’dimensionnait bien aux environnements de service ou de groupe de travail (pour plus d’informations, voir Planification de la capacité pour [Response Group)](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)et peut être déployé dans de nouvelles installations téléphoniques. Il prend en charge les appels entrants provenant Voix Entreprise déploiement et du réseau de l’opérateur local. Les agents peuvent utiliser Skype Entreprise, Lync 2013, Lync 2010, Lync 2010 Attendant ou Lync Phone Edition pour prendre les appels qui leur sont acheminés.
+Response Group s’dimensionnait bien aux environnements de service ou de groupe de travail (pour plus d’informations, voir Planification de la capacité pour [Response Group)](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)et peut être déployé dans de nouvelles installations téléphoniques. Il prend en charge les appels entrants Voix Entreprise déploiement et à partir du réseau de l’opérateur local. Les agents peuvent utiliser Skype Entreprise, Lync 2013, Lync 2010, Lync 2010 Attendant ou Lync Téléphone Edition pour prendre les appels qui leur sont acheminés.
 
 ## <a name="deployment-and-requirements"></a>Déploiement et conditions requises
 
@@ -88,9 +88,9 @@ L’application Response Group est automatiquement activée lorsque vous déploy
 
 L’application Response Group a la même configuration matérielle requise, la même configuration requise pour le système d’exploitation et les mêmes logiciels que les serveurs frontaux.
 
-Si vous utilisez des fichiers Windows Media Audio (.wma) pour la musique et les annonces Response Group, le runtime du format Windows Media doit être installé sur tous les serveurs frontaux ou Standard Editions pour tous les serveurs frontaux ou Standard Editions qui exécutent l’application Response Group. Le runtime du format Windows Media doit être installé pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime du format Windows Media est installé dans le cadre de Windows Desktop Experience.
+Si vous utilisez des fichiers Windows Media Audio (.wma) pour la musique et les annonces Response Group, le runtime du format multimédia Windows doit être installé sur tous les serveurs frontaux ou Standard Editions server qui exécutent l’application Response Group pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le Windows du format multimédia est installé dans le cadre Windows Expérience utilisateur.
 
-Response Group utilise **des packs de langue** pour prendre en charge la reconnaissance vocale et la reconnaissance vocale. Ces technologies vocales servent lors de la configuration de messages (message de bienvenue et autres messages, ou les questions et réponses d’une réponse vocale interactive, par exemple). Par défaut, les 26 packs de langue pris en charge sont installés lorsque vous déployez Skype Entreprise Server.
+Response Group utilise des **packs de langue pour** prendre en charge la reconnaissance vocale et la reconnaissance vocale. Ces technologies vocales servent lors de la configuration de messages (message de bienvenue et autres messages, ou les questions et réponses d’une réponse vocale interactive, par exemple). Par défaut, les 26 packs de langue pris en charge sont installés lorsque vous déployez Skype Entreprise Server.
 
 ### <a name="port-requirements"></a>Configuration requise pour les ports
 
@@ -104,13 +104,13 @@ L’application Response Group utilise les ports suivants :
     > Ce port est utilisé pour le service d’application de correspondance et est requis lorsque l’application Response Group est déployée dans un pool qui possède plusieurs serveurs frontux.
 
    > [!NOTE]
-   > Ces ports sont des paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande **Set-CsApplicationServer**. Pour plus d’informations sur cette cmdlet, voir la documentation de Skype Entreprise Server Management Shell.
+   > Ces ports sont des paramètres par défaut que vous pouvez modifier à l’aide de l’applet de commande **Set-CsApplicationServer**. Pour plus d’informations sur cette cmdlet, voir la documentation Skype Entreprise Server Management Shell.
 
 ### <a name="audio-file-requirements"></a>Conditions requises pour les fichiers audio
 
 L’application Response Group prend en charge le format de fichier wave (.wav) et le format de fichier audio Windows Media (.wma) pour les messages Response Group, la musique d’attente ou les questions de réponse vocale interactive (IVR).
 
-Le format de fichier audio Windows Media nécessite que le runtime du format Windows Media soit installé sur les serveurs frontaux exécutant Windows Server 2008 R2 et Windows Server 2008. Pour plus d’informations, voir « Configuration logicielle requise » plus haut dans cette section.
+Le format de fichier audio Windows Media nécessite que le runtime du format multimédia Windows soit installé sur les serveurs frontaux exécutant Windows Server 2008 R2 et Windows Server 2008. Pour plus d’informations, voir « Configuration logicielle requise » plus haut dans cette section.
 
 #### <a name="supported-wave-file-formats"></a>Formats de fichiers Wave pris en charge
 
@@ -172,7 +172,7 @@ La console des agents prend en charge les combinaisons de systèmes d’exploita
 
 L’application Response Group prend en charge les clients suivants :
 
-- Client de bureau Skype Entreprise
+- Skype Entreprise client de bureau
 
 - Client de bureau Lync 2013
 
@@ -191,7 +191,7 @@ Le client spécifique que vous pouvez utiliser dépend du type d’utilisateur R
 
 - Les **appelants** peuvent appeler un groupe de réponse à l’aide de l’un des clients répertoriés précédemment, et en utilisant un téléphone standard sur le réseau téléphonique commuté (RTC).
 
-- **Les agents informels** (agents qui ne se connectent pas à leurs groupes et ne se dé connectent pas à leurs groupes pour accepter les appels) peuvent accepter des appels à l’aide de Attendant, Lync ou Lync Phone Edition. Les agents informels se connectent automatiquement à leurs groupes lorsqu’ils se connectent à Skype Entreprise Server à l’aide de l’un de ces clients.
+- **Les agents** informels (agents qui ne se connectent pas à leurs groupes et n’en sortent pas pour accepter des appels) peuvent accepter des appels à l’aide de Attendant, Lync ou Lync Téléphone Edition. Les agents informels sont automatiquement connectés à leurs groupes lorsqu’ils se connectent Skype Entreprise Server à l’aide de l’un de ces clients.
 
 - Les **agents** formels (agents qui doivent se connecter et se sortir de leurs groupes pour accepter des appels) peuvent accepter des appels à l’aide de Skype Entreprise et accéder à la console de l’agent à partir de l’élément de menu, ou à l’aide de Attendant et d’accéder à la console de l’agent directement à partir d’Internet Explorer.
 
@@ -207,12 +207,12 @@ Le tableau suivant décrit le modèle utilisateur Response Group que vous pouvez
 
 **Modèle utilisateur de Response Group**
 
-|**Métrique**|**Par pool Enterprise Edition  <br/> (avec 8 serveurs frontux)**|**Par serveur Standard Edition**|
+|**Métrique**|**Par Êdition Entreprise pool <br/> (avec 8 serveurs frontux)**|**Par serveur Standard Edition**|
 |:-----|:-----|:-----|
 |Appels entrants par seconde  <br/> |16   <br/> |2  <br/> |
 |Appels simultanés connectés à la réponse vocale interactive ou à l’attente musicale  <br/> |480  <br/> |60  <br/> |
 |Sessions anonymes simultanées (sans messagerie instantanée)  <br/> |224  <br/> |28  <br/> |
-|Sessions anonymes simultanées (avec messagerie instantanée)  <br/> |64  <br/> |8   <br/> |
+|Sessions anonymes simultanées (avec messagerie instantanée)  <br/> |64  <br/> |8   <br/> |
 |Agents actifs (formels et informels)  <br/> |2400  <br/> |2400  <br/> |
 |Nombre de groupes de recherche  <br/> |800  <br/> |800  <br/> |
 |Nombre de groupes de réponse vocale interactive (utilisation de la reconnaissance vocale)  <br/> |400  <br/> |400  <br/> |

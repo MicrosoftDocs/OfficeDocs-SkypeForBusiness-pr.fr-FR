@@ -1,5 +1,5 @@
 ---
-title: Intégration entre Skype Entreprise Online et Exchange Server
+title: Intégration entre Skype Entreprise Online et Exchange server
 ms.reviewer: cbland
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
-description: La configuration de l’authentification OAuth entre Exchange local et Skype Entreprise Online active les fonctionnalités Skype Entreprise et Intégration Exchange décrites dans la prise en charge des fonctionnalités.
-ms.openlocfilehash: 342362926ad0af169acd6c9af4715008425e71c7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: La configuration de l’authentification OAuth entre Exchange local et Skype Entreprise Online active les fonctionnalités d’intégration Skype Entreprise et Exchange décrites dans la prise en charge des fonctionnalités.
+ms.openlocfilehash: 8342fefa10fcd66cd7cd10c121b787a05a7a0401d5235bbc70b2412bb538e5e4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300280"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurer l’intégration et OAuth entre Skype Entreprise Online et Exchange Server 
 
-La configuration de l’intégration entre Exchange Server et Skype Entreprise Online active les fonctionnalités Skype Entreprise et Intégration Exchange décrites dans la prise en charge [des fonctionnalités.](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)
+La configuration de l’intégration entre Exchange serveur et Skype Entreprise Online active les fonctionnalités d’intégration Skype Entreprise et Exchange décrites dans la prise en charge [des fonctionnalités.](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)
 
 Cette rubrique s’applique à l’intégration Exchange Server 2013 à 2019.
 
@@ -31,11 +31,11 @@ Cette rubrique s’applique à l’intégration Exchange Server 2013 à 2019.
 
 - Durée d'exécution estimée de cette tâche : 15 minutes
 
--  Des autorisations doivent vous être attribuées avant de pouvoir exécuter cette procédure. Pour voir les autorisations qui vous sont nécessaires, consultez la rubrique [Autorisations d’infrastructure Exchange et Shell.](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help)
+-  Des autorisations doivent vous être attribuées avant de pouvoir exécuter cette procédure. Pour voir les autorisations qui vous sont nécessaires, consultez la [rubrique Exchange’autorisations d’infrastructure de l’Exchange shell.](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help)
 
 - Pour obtenir des informations sur les raccourcis clavier applicables aux procédures de cette rubrique, reportez-vous à l’article [Raccourcis clavier dans le Centre d’administration Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
-- Pour plus d’informations sur la compatibilité, voir Compatibilité de Skype Entreprise [avec les applications Office.](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
+- Pour plus d’informations sur la compatibilité, [voir Skype Entreprise compatibilité avec Office applications.](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>Configurer l’intégration entre Exchange Server et O365
 
@@ -43,13 +43,13 @@ Cette rubrique s’applique à l’intégration Exchange Server 2013 à 2019.
 
 Effectuez les étapes de l’article suivant :
 
-[Configurer l’authentification OAuth entre des organisations Exchange et Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Configurer l’authentification OAuth entre des organisations Exchange et Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
-### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Étape 2 : Créer un compte d’utilisateur de messagerie pour l’application partenaire Skype Entreprise Online
+### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Étape 2 : Créer un compte d’utilisateur de messagerie pour l’application Skype Entreprise Online Partner
 
-Cette étape est effectuée sur le serveur Exchange. Il crée un utilisateur de messagerie et lui attribue les droits de rôle de gestion appropriés. Ce compte sera ensuite utilisé à l’étape suivante.
+Cette étape est effectuée sur le Exchange serveur. Il crée un utilisateur de messagerie et lui attribue les droits de rôle de gestion appropriés. Ce compte sera ensuite utilisé à l’étape suivante.
 
-Spécifiez un domaine vérifié pour votre organisation Exchange. Ce domaine doit être le même domaine que celui utilisé comme domaine SMTP principal pour les comptes Exchange locaux. Ce domaine est appelé dans \<your Verified Domain\> la procédure suivante. En outre, \<DomainControllerFQDN\> il doit s’agit du nom de domaine (FQDN) d’un contrôleur de domaine.
+Spécifiez un domaine vérifié pour votre Exchange organisation. Ce domaine doit être le même domaine que celui utilisé comme domaine SMTP principal pour les comptes Exchange locaux. Ce domaine est appelé dans \<your Verified Domain\> la procédure suivante. En outre, \<DomainControllerFQDN\> il doit s’agit du nom de domaine (FQDN) d’un contrôleur de domaine.
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
@@ -99,11 +99,11 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 [System.IO.File]::WriteAllBytes($CertFile, $certBytes)
 ```
 
-Dans Exchange PowerShell dans votre organisation Exchange sur site, exécutez le script PowerShell que vous vient de créer. Par exemple : .\ExportAuthCert.ps1
+Dans Exchange PowerShell dans votre organisation Exchange local, exécutez le script PowerShell que vous vient de créer. Par exemple : .\ExportAuthCert.ps1
 
-### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Étape 5 : Télécharger le certificat d’autorisation local vers Azure Active Directory ACS
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Étape 5 : Télécharger certificat d’autorisation local pour Azure Active Directory ACS
 
-Ensuite, utilisez Windows PowerShell pour télécharger le certificat d’autorisation local que vous avez exporté à l’étape précédente vers Azure Active Directory Access Control Services (ACS). Pour ce faire, le module Azure Active Directory pour Windows PowerShell cmdlets doivent déjà être installés. Si elle n'est pas installée, accédez à [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) pour installer la cmdlet Module Azure Active Directory pour Windows PowerShell. Effectuez les étapes suivantes une fois que la cmdlet Module Azure Active Directory pour Windows PowerShell est installée.
+Ensuite, utilisez Windows PowerShell pour télécharger le certificat d’autorisation local que vous avez exporté à l’étape précédente vers Azure Active Directory Access Control Services (ACS). Pour ce faire, le module Azure Active Directory pour Windows PowerShell cmdlets doit déjà être installé. Si elle n'est pas installée, accédez à [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) pour installer la cmdlet Module Azure Active Directory pour Windows PowerShell. Effectuez les étapes suivantes une fois que la cmdlet Module Azure Active Directory pour Windows PowerShell est installée.
 
 1. Cliquez sur le raccourci **Module Windows Azure Active Directory pour Windows PowerShell** afin d'ouvrir un espace de travail Windows PowerShell pour lequel les cmdlets Azure AD sont installées. Dans cette étape, toutes les commandes seront exécutées à l'aide de la console Windows PowerShell pour Azure Active Directory.
 
@@ -128,30 +128,30 @@ Ensuite, utilisez Windows PowerShell pour télécharger le certificat d’autori
 
 4. Une fois le script lancé, une boîte de dialogue d'informations d'identification s'affiche. Entrez les informations d’identification du compte d’administrateur client de votre organisation Microsoft Online Azure AD. Après avoir exécuté le script, laissez la session Windows PowerShell pour Azure AD ouverte. Vous l'utiliserez pour exécuter un script PowerShell à l'étape suivante.
 
-### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Étape 6 : Vérifier que le certificat a été téléchargé vers le principal de service Skype Entreprise
-1. Dans PowerShell ouvert et authentifié sur Azure Active Directory, exécutez la méthode suivante :
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Étape 6 : Vérifier que le certificat a été téléchargé vers le principal Skype Entreprise service
+1. Dans le PowerShell ouvert et authentifié Azure Active Directory, exécutez la liste suivante :
 ```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. Appuyez sur Entrée lorsque vous y invitez ReturnKeyValues
-3. Confirmez que vous voyez une clé avec des données de date de début et de fin qui correspond à vos dates de début et de fin de certificat Oauth Exchange
+3. Confirmez que vous voyez une clé avec des données de date de début et de fin qui correspond à vos dates de début et de fin Exchange certificat Oauth
 
 ### <a name="verify-your-success"></a>Vérifier votre réussite
 
 Vérifiez que la configuration est correcte en vérifiant que certaines fonctionnalités fonctionnent correctement. 
 
-1. Confirmez que les utilisateurs De Skype Entreprise avec le service de messagerie vocale cloud, dans une organisation avec une configuration Exchange Server hybride, peuvent modifier correctement leurs messages d’accueil de messagerie vocale.
+1. Confirmez que Skype Entreprise utilisateurs ayant un service Messagerie vocale infonuagique, dans une organisation avec une configuration Exchange Server hybride, peuvent modifier correctement leurs messages d’accueil vocaux.
 
-2. Confirmez que l’historique des conversations pour les clients mobiles est visible dans le dossier Historique des conversations Outlook.
+2. Confirmez que l’historique des conversations pour les clients mobiles est visible dans Outlook’historique des conversations.
 
 3. Confirmez que les messages de conversation archivés sont déposés dans la boîte aux lettres sur site de l’utilisateur dans le dossier Purges à l’aide [d’EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor).
 
-Vous pourz également examiner votre trafic. Le trafic dans une poignée de main OAuth est vraiment distinct (et ne ressemble pas à l’authentification de base), en particulier autour des domaines, où vous allez commencer à voir le trafic de l’émetteur qui ressemble à ceci : 00000004-0000-0ff1-ce00-000000000000@ (parfois avec un / avant le signe @), dans les jetons transmis. Vous ne verrez pas de nom d’utilisateur ou de mot de passe, qui est le point d’OAuth. Mais vous verrez l’émetteur « Office » (dans ce cas, « 4 » est Skype Entreprise) et le domaine de votre abonnement.
+Vous pourz également examiner votre trafic. Le trafic dans une poignée de main OAuth est vraiment distinct (et ne ressemble pas à l’authentification de base), en particulier autour des domaines, où vous allez commencer à voir le trafic de l’émetteur qui ressemble à ceci : 00000004-0000-0ff1-ce00-000000000000@ (parfois avec un / avant le signe @), dans les jetons transmis. Vous ne verrez pas de nom d’utilisateur ou de mot de passe, qui est le point d’OAuth. Mais vous verrez l’émetteur « Office » (dans ce cas, « 4 » est Skype Entreprise ) et le domaine de votre abonnement.
 
 Si vous voulez être sûr d’utiliser OAuth avec succès, assurez-vous que vous savez à quoi vous attendre et à quoi le trafic doit ressembler. Voici donc ce à quoi vous devez vous attendre, voici un exemple assez standard de trafic [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) dans une application Microsoft (vraiment utile pour lire, bien [qu’il](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)n’utilise pas de jetons d’actualisation), et il existe des extensions Fiddler qui vous permet d’examiner votre JWT OAuth (jeton web JSON).
 
 Voici un exemple de [configuration](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)d’un outil de suivi réseau, mais vous pouvez utiliser n’importe quel outil de suivi réseau pour effectuer ce processus.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets connexes
 
-[Configurer l’authentification OAuth entre des organisations Exchange et Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Configurer l’authentification OAuth entre des organisations Exchange et Exchange Online](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre serveur Edge Skype Entreprise Server 2019. Les processus de déploiement et de configuration de Skype Entreprise Server 2019 sont très similaires à Skype Entreprise Server 2015. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour obtenir la procédure détaillée, voir Deploying external user access in Skype for Business Server 2019 dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
-ms.openlocfilehash: 00c371b917f2649dba9011fbbce6162b153822d1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre serveur Edge Skype Entreprise Server 2019. Les processus de déploiement et de configuration Skype Entreprise Server 2019 sont très similaires à Skype Entreprise Server 2015. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour obtenir la procédure détaillée, voir Déploiement de l’accès des utilisateurs externes dans Skype Entreprise Server 2019 dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
+ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752866"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315080"
 ---
 # <a name="deploy-pilot-edge-server"></a>Déploiement d’un serveur Edge pilote
 
-Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre serveur Edge Skype Entreprise Server 2019. Les processus de déploiement et de configuration de Skype Entreprise Server 2019 sont très similaires à Skype Entreprise Server 2015. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. <!-- For detailed steps, see 
+Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre serveur Edge Skype Entreprise Server 2019. Les processus de déploiement et de configuration Skype Entreprise Server 2019 sont très similaires à Skype Entreprise Server 2015. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. <!-- For detailed steps, see 
  [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) in the Deployment documentation, which describes the deployment process and also gives configuration information for external user access.  -->
   
 À mesure que vous parcourez l’Assistant **Définir un nouveau pool Edge**, examinez les principaux paramètres de configuration mentionnés aux étapes suivantes. Notez que seules quelques pages de l’Assistant **Définir un nouveau pool Edge** sont illustrées. 
@@ -58,6 +58,6 @@ Cette rubrique présente les paramètres de configuration que vous devez connaî
 Il est très important de suivre les instructions des rubriques de la documentation de déploiement. Cette section ne fait que fournir des recommandations concernant les paramètres de configuration lors de l’installation de ces rôles de serveur. 
 <!-- [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) -->
   
-Vous devez maintenant avoir un serveur Edge hérité déployé en parallèle avec un déploiement de serveur Edge Skype Entreprise Server 2019. Vérifiez que les deux déploiements fonctionnent correctement, que les services ont démarré et que vous pouvez administrer chaque déploiement avant de passer à la phase suivante. 
+Vous devez maintenant avoir un serveur Edge hérité déployé en parallèle avec un déploiement de Skype Entreprise Server Edge 2019. Vérifiez que les deux déploiements fonctionnent correctement, que les services ont démarré et que vous pouvez administrer chaque déploiement avant de passer à la phase suivante. 
   
 

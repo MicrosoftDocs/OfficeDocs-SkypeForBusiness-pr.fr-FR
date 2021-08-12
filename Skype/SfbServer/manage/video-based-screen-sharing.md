@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: Informations sur la planification et la configuration de Skype Entreprise Server pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: 9d2466a314876a4ce576727c7673474003994365
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype Entreprise Server de planification et de configuration pour le partage d’écran vidéo (VbSS)
+ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349276"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Partage d’écran vidéo pour Skype Entreprise Server 
  
-Le partage d’écran vidéo (VbSS) dans Skype Entreprise Server 2015 est désormais disponible en téléchargement : Mise à jour cumulative Skype Entreprise [Server 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS est inclus dans Skype Entreprise Server 2019.
+Le partage d’écran vidéo (VbSS) dans Skype For Business Server 2015 est désormais disponible en téléchargement : mise à jour cumulative [Skype Entreprise Server 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS est inclus dans Skype Entreprise Server 2019.
   
-Le partage d’écran vidéo, ou VbSS, s’est développé en dehors du partage d’écran Lync. La différence entre VbSS et le partage d’écran traditionnel a une relation avec les protocoles sous-jacents utilisés et ce qu’ils excelent. Le partage d’écran utilise le protocole RDP (Remote Desktop Protocol), qui permet de créer des milliers de sessions 1 à 1 entre les ordinateurs des utilisateurs. Une technologie plus récente, VbSS, utilisera le protocole UDP (User Datagram Protocol).
+Le partage d’écran vidéo, ou VbSS, s’est développé en dehors du partage d’écran Lync. La différence entre VbSS et le partage d’écran traditionnel a une relation avec les protocoles sous-jacents utilisés et ce à quoi ils excellent. Le partage d’écran utilise le protocole RDP (Remote Desktop Protocol), qui permet de créer des milliers de sessions 1 à 1 entre les ordinateurs des utilisateurs. Une technologie plus récente, VbSS, utilisera le protocole UDP (User Datagram Protocol).
   
-Skype Entreprise Server souhaitait améliorer le 1-à-1 des utilisateurs, ainsi que leurs conversations et expériences de réunion entre plusieurs utilisateurs. VbSS utilise la plateforme multimédia (qui repose sur UDP comme protocole sous-jacent), dans le but d’améliorer les heures de début de la vidéo, la qualité d’affichage de ce que vous regardez (en particulier si ce que vous regardez est en cours de déplacement rapide) et la fiabilité globale.
+Skype Entreprise Server souhaitait améliorer le 1-à-1 des utilisateurs, ainsi que leurs conversations et expériences de réunion 1-à-plusieurs (multi-parties). VbSS utilise la plateforme multimédia (qui repose sur UDP comme protocole sous-jacent), dans le but d’améliorer les heures de début de la vidéo, la qualité d’affichage de ce que vous regardez (en particulier si ce que vous regardez est en cours de déplacement rapide) et la fiabilité globale.
   
-L’un des objectifs de l’amélioration du partage d’écran est que les transitions entre VbSS et RDP soient aussi transparentes que possible lorsqu’elles se produisent. Étant donné que VbSS est une mise à jour de la technologie sous-jacente utilisée dans le partage d’écran pour Skype Entreprise Server, il peut être difficile de détecter la technologie que vous tirent parti, sauf si vous regardez des détails SIP dans le trafic réseau ou si vous partagez du contenu à déplacement rapide ou 3D. Si, par exemple, votre espace de travail possède un grand nombre de clients hérités, RDP reste disponible en tant que sécurité d’échec pour vos réunions et conversations. Skype Entreprise Server utilise une logique interne pour déterminer laquelle des deux méthodes (VbSS ou partage d’écran traditionnel) à appliquer lorsque les clients se connectent. RDP peut et sera remplacé par VbSS lorsque la situation l’exige, afin que votre expérience d’affichage ne soit pas interrompue.
+L’un des objectifs de l’amélioration du partage d’écran est que les transitions entre VbSS et RDP soient aussi transparentes que possible lorsqu’elles se produisent. Étant donné que VbSS est une mise à jour de la technologie sous-jacente utilisée dans le partage d’écran pour Skype Entreprise Server, il peut être difficile de détecter la technologie que vous tirent parti, sauf si vous recherchez des détails SIP dans le trafic réseau ou si vous partagez du contenu à déplacement rapide ou 3D. Si, par exemple, votre espace de travail possède un grand nombre de clients hérités, RDP reste disponible en tant que sécurité d’échec pour vos réunions et conversations. Skype Entreprise Server utilise une logique interne pour déterminer laquelle des deux méthodes (VbSS ou partage d’écran traditionnel) à appliquer lorsque les clients se connectent. RDP peut et sera remplacé par VbSS lorsque la situation l’exige, afin que votre expérience d’affichage ne soit pas interrompue.
   
 ## <a name="planning"></a>Planification
 
@@ -52,8 +52,8 @@ Vous devez également être conscient que la fiabilité, la vitesse et l’effic
 
 |**Rôle serveur**|**Nom du service**|**Port ou plage de ports**|**Protocole**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
-|Serveurs frontaux  <br/> |Service de partage d’application Skype Entreprise Server  <br/> |5065  <br/> |TCP  <br/> |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  <br/> |
-|Serveurs frontaux  <br/> |Service de partage d’application Skype Entreprise Server  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour le partage d’application.  <br/> |
+|Serveurs frontaux  <br/> |Skype Entreprise Server Service de partage d’application  <br/> |5065  <br/> |TCP  <br/> |Utilisé pour les demandes d’écoute SIP entrantes dans le cadre du partage d’application.  <br/> |
+|Serveurs frontaux  <br/> |Skype Entreprise Server Service de partage d’application  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Plage de ports multimédias utilisée pour le partage d’application.  <br/> |
    
 **Ports clients requis**
 
@@ -68,7 +68,7 @@ Si QoS est activé pour les ports multimédias suivants et que VbSS est égaleme
   
 **Paramètres requis de la QoS/VbSS du serveur d’applications**
 
-|**Propriété**|**Valeur du port**|**Protocole**|
+|**Property**|**Valeur du port**|**Protocole**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
@@ -79,23 +79,23 @@ Si QoS est activé pour les ports multimédias suivants et que VbSS est égaleme
    
 ### <a name="capacity-planning"></a>Planification de la capacité
 
-Chaque serveur frontal exécutant skype entreprise server 2015 mise à jour cumulative 2 (CU2) ou version ultérieure prend en charge jusqu’à 375 participants pour le partage d’écran à l’aide de RDP (mais seulement 250 par réunion). Cette capacité ne change pas après CU3, lorsque VbSS est introduit et utilisé.
+Chaque serveur frontal exécutant la mise à jour cumulative 2 Skype Entreprise Server 2015 (CU2) ou version ultérieure prend en charge jusqu’à 375 participants pour le partage d’écran à l’aide de RDP (mais seulement 250 par réunion). Cette capacité ne change pas après CU3, lorsque VbSS est introduit et utilisé.
   
 Cela étant dit, nous avons effectué des tests de performances et de contrainte dans notre laboratoire, et les mesures suivantes doivent également être prises en compte en ce qui concerne votre propre déploiement (en fonction de l’utilisation, bien entendu).
   
 En supposant :
   
-- Vous utilisez Skype Entreprise Server 2015 CU2 ou une ultérieure dans votre déploiement.
+- Vous utilisez Skype Entreprise Server CU2 2015 ou une ultérieure dans votre déploiement.
     
 - Tous les utilisateurs de votre environnement Skype Entreprise Server ont des résolutions d’écran supérieures à 1920 x 1080.
     
-À pleine capacité (comme indiqué ci-dessus, 375 participants au partage d’écran par serveur frontal au total, mais seulement 250 par réunion), votre serveur frontal peut utiliser environ 89 % des 1 Gigabit de carte réseau. Cela est dû au fait que la technologie de partage d’écran existante dans Skype Entreprise Server CU2 (RDP) transmet le contenu à l’écran à la résolution native du PC du présentateur. Ainsi, avec des résolutions d’écran plus élevées, vous rencontrez peut-être déjà des goulots d’étranglement réseau pour le partage d’écran avec Skype Entreprise Server 2015 CU2.
+À pleine capacité (comme indiqué ci-dessus, 375 participants au partage d’écran par serveur frontal au total, mais seulement 250 par réunion), votre serveur frontal peut utiliser environ 89 % des 1 Gigabit de carte réseau. Cela est dû au fait que la technologie de partage d’écran existante dans Skype Entreprise Server CU2 (RDP) transmet le contenu à l’écran à la résolution native du PC du présentateur. Ainsi, avec des résolutions d’écran plus élevées, vous rencontrez peut-être déjà des goulots d’étranglement réseau pour le partage d’écran avec Skype Entreprise Server CU2 2015.
   
-Pour atténuer ce risque, une ou plusieurs des options suivantes peuvent être utiles :
+Pour atténuer ce risque, une ou plusieurs des options suivantes peuvent s’avérer utiles :
   
 - Mettre à niveau votre serveur frontal d’une carte réseau 1 Gigabit vers une carte Ethernet 10 Gigabit.
 
-- Augmenter le nombre de serveurs frontux pour équilibrer la charge du trafic.
+- Augmentez le nombre de serveurs frontux pour équilibrer la charge du trafic.
 
 - Limitez la bande passante (vitesse de bit) utilisée pour VbSS et RDP en limitant la bande passante maximale utilisée par les deux canaux.
     
@@ -113,19 +113,19 @@ La bande passante VbSS est :
   
 |**Codec vidéo**|**Résolution et proportions**|**Vitesse de bits de charge utile vidéo maximale (Kbits/s)**|**Vitesse de bits de charge utile vidéo minimale (Kbits/s)**|
 |:-----|:-----|:-----|:-----|
-|H.264  <br/> |1920x1080 (16:9)  <br/> (Les proportions dépendent de la résolution du moniteur du partageur et ne sont pas toujours de 16:9)  <br/> |4000  <br/> |1500  <br/> |
+|H.264  <br/> |1920x1080 (16:9)  <br/> (Les proportions dépendent de la résolution du moniteur du partageur et ne seront pas toujours de 16:9)  <br/> |4000  <br/> |1500  <br/> |
    
 ## <a name="clients-and-servers-support"></a>Prise en charge des clients et des serveurs
 
-Le partage d’écran vidéo nécessite Skype Entreprise Server 2015 CU3 ou version ultérieure, et une version actuelle des clients de prise en charge répertoriés dans la comparaison des [fonctionnalités](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)client mobiles pour la prise en charge de [Skype](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) Entreprise et réunions. 
+Le partage d’écran vidéo nécessite Skype Entreprise Server 2015 CU3 ou version ultérieure, et une version actuelle des clients de prise en charge répertoriés dans la comparaison des [fonctionnalités](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)du [client mobile](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) pour la prise en charge de Skype Entreprise et de réunions. 
   
 Il existe des situations dans lesquelles le partage d’écran passe à RDP, comme celles-ci :
   
 - Si votre compte est hébergé dans un environnement où l’ASMCU ne répond pas à la build minimale qui prend en charge VbSS.
-- Si une personne qui utilise une version antérieure du client Skype Entreprise rejoint votre session, par exemple toute personne utilisant une version de client Windows inférieure à la version 16.0.6330.1000, les appareils système Skype Entreprise Room ou les applications mobiles Skype Entreprise. 
-- Si un utilisateur partage à partir de Skype Entreprise Web App.
-- Si quelqu’un utilise Skype Entreprise sur Mac et qu’il n’est pas sur Skype Entreprise Online ou Skype Entreprise Server 2015 avec la mise à jour cumulative de juillet 2018 (ou version ultérieure).
-- Si quelqu’un démarre un partage Programme/Windows.
+- Si une personne qui utilise une version antérieure du client Skype Entreprise rejoint votre session, par exemple toute personne utilisant une version de client Windows inférieure à la version 16.0.6330.1000, Skype Entreprise Room System Devices ou Skype Entreprise Mobile Apps. 
+- Si un utilisateur partage à partir du Application Web Skype Entreprise.
+- Si une personne utilise Skype Entreprise sur Mac et qu’elle n’est pas Skype Entreprise Online ou Skype Entreprise Server 2015 avec la mise à jour cumulative de juillet 2018 (ou version ultérieure).
+- Si quelqu’un démarre un programme/Windows partage.
 - Si quelqu’un commence à enregistrer la session.
 - Si quelqu’un appelle le contrôle d’écran distant pendant la session. 
 - Réunions de plus de 250 participants (où VbSS n’est pas pris en charge actuellement).
@@ -133,7 +133,7 @@ Il existe des situations dans lesquelles le partage d’écran passe à RDP, com
 N’ignorez pas qu’une fois que la session passe à RDP, elle ne revenira pas à VbSS. Là encore, la transition à partir de VbSS est destinée à être transparente et, espérons-le, ne sera pas facile à détecter dans la plupart des situations.
     
 > [!NOTE]
-> Il n’est pas pris en charge pour bloquer ou tenter de bloquer la transition de VbSS vers RDP dans le partage d’écran Skype Entreprise. 
+> Il n’est pas pris en charge pour bloquer ou tenter de bloquer la transition de VbSS vers RDP dans Skype Entreprise partage d’écran. 
   
 ## <a name="enabling-disabling-and-configuring-vbss"></a>Activation, désactivation et configuration de VbSS
 
@@ -141,7 +141,7 @@ La meilleure chose est qu’une fois que vous avez installé la mise à jour cum
   
 ### <a name="how-to-disable-users-from-using-vbss"></a>Comment désactiver l’utilisation de VbSS pour les utilisateurs
 
-- Vous pouvez affecter une stratégie utilisateur qui n’autorise pas VbSS à tous les utilisateurs qui ne doivent pas utiliser VbSS en exécutant cette cmdlet dans la console de gestion Skype Entreprise (remplacez [PolicyName] par la stratégie pour qui vous exécutez cette commande) :
+- Vous pouvez affecter une stratégie utilisateur qui n’autorise pas VbSS aux utilisateurs qui ne doivent pas utiliser VbSS en exécutant cette cmdlet dans la console de gestion Skype Entreprise (remplacez [PolicyName] par la stratégie pour qui vous exécutez cette commande) :
     
   ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
@@ -161,10 +161,10 @@ La meilleure chose est qu’une fois que vous avez installé la mise à jour cum
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Pour plus d’informations sur cette commande, voir [Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
+    Pour plus d’informations sur cette commande, [voir Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
-> Dans une réunion Skype Entreprise à plusieurs, tous les points de terminaison des clients respectent le paramètre de stratégie pour l’organisateur de la réunion. 
+> Dans une réunion à plusieurs Skype Entreprise, tous les points de terminaison clients respectent le paramètre de stratégie pour l’organisateur de la réunion. 
   
 ### <a name="how-to-enable-users-to-use-vbss"></a>Comment permettre aux utilisateurs d’utiliser VbSS
 
@@ -182,7 +182,7 @@ La meilleure chose est qu’une fois que vous avez installé la mise à jour cum
 
     Pour plus d’informations sur cette commande, voir [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
-- Si vous devez remettre VbSS sur le service après l’avoir éteint (c’est le cas par défaut), vous pouvez exécuter la commande ci-après :
+- Si vous avez besoin de remettre VbSS sur le service après l’avoir éteint (c’est le cas par défaut), vous pouvez exécuter la commande ci-après :
     
   ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
@@ -191,10 +191,10 @@ La meilleure chose est qu’une fois que vous avez installé la mise à jour cum
     Pour plus d’informations sur cette commande, [voir Set-CsMediaConfiguration](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
-> Dans une réunion Skype Entreprise à plusieurs, tous les points de terminaison des clients respectent le paramètre de stratégie de l’organisateur de la réunion. 
+> Dans une réunion à plusieurs Skype Entreprise, tous les points de terminaison clients respectent le paramètre de stratégie pour l’organisateur de la réunion. 
   
 ## <a name="see-also"></a>Voir aussi
 
-[Mise à jour cumulative Skype Entreprise Server 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
+[Skype Entreprise Server cumulative 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
   
-[Le partage d’écran vidéo (VBSS) est disponible dans Skype Entreprise Server 2015](https://support.microsoft.com/kb/3170163)
+[Le partage d’écran vidéo (VBSS) est disponible Skype Entreprise Server 2015](https://support.microsoft.com/kb/3170163)

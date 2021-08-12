@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Vous pouvez configurer les propriétés de cette page pour faire pointer le serveur Edge vers les emplacements externes du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V.
-ms.openlocfilehash: b93330d1e3e93d516264748fedba1ad1b6bde4da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7b903009cee0633a04a5c1fb335418ec3c2a3b0a0a0c0128ff993be71203f2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291082"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Ajouter l’adresse IP externe 2010 du serveur Edge
 

@@ -1,5 +1,5 @@
 ---
-title: Déployer l’apparence des lignes partagées dans Skype Entreprise Server 2015
+title: Déployer l’apparence des lignes partagées Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,27 +16,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: Lisez cette rubrique pour découvrir comment déployer le partage de lignes dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015. Le SLA est une fonctionnalité qui permet de gérer plusieurs appels sur un numéro spécifique appelé numéro partagé.
-ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Lisez cette rubrique pour découvrir comment déployer l’apparence de ligne partagée (SLA) dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015. Le SLA est une fonctionnalité qui permet de gérer plusieurs appels sur un numéro spécifique appelé numéro partagé.
+ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314910"
 ---
-# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Déployer l’apparence des lignes partagées dans Skype Entreprise Server 2015
+# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Déployer l’apparence des lignes partagées Skype Entreprise Server 2015
 
-Lisez cette rubrique pour découvrir comment déployer le partage de lignes dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015. Le SLA est une fonctionnalité qui permet de gérer plusieurs appels sur un numéro spécifique appelé numéro partagé.
+Lisez cette rubrique pour découvrir comment déployer l’apparence de ligne partagée (SLA) dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015. Le SLA est une fonctionnalité qui permet de gérer plusieurs appels sur un numéro spécifique appelé numéro partagé.
 
-Pour plus d’informations sur cette fonctionnalité, voir [Plan for Shared Line Appearance in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
+Pour plus d’informations sur cette fonctionnalité, voir [Plan for Shared Line Appearance in Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md).
 
-Le partage de lignes (SLA) est une nouvelle fonctionnalité de Skype Entreprise Server, mise à jour cumulative de novembre 2015. Pour activer cette fonctionnalité, vous devez d’abord avoir déployé cette mise à jour cumulative.
+Le partage de lignes est une nouvelle fonctionnalité de la mise à jour cumulative Skype Entreprise Server novembre 2015. Pour activer cette fonctionnalité, vous devez d’abord avoir déployé cette mise à jour cumulative.
 
 ### <a name="install-shared-line-appearance"></a>Installer l’apparence des lignes partagées
 
-1. Après le déploiement de Skype Entreprise Server, la mise à jour cumulative de novembre 2015, exécutez le correctif sur chaque serveur  `SkypeServerUpdateInstaller.exe` frontal du pool.
+1. Après Skype Entreprise Server, la mise à jour cumulative de novembre 2015 est déployée, exécutez le correctif sur chaque serveur `SkypeServerUpdateInstaller.exe` frontal du pool.
 
-2. Le programme d’installation déploiera la dernière version de l’application SLA, mais l’application n’est pas activée par défaut. Il est activé en suivant les étapes décrites ci-dessous :
+2. Le programme d’installation déploiera la dernière version de l’application SLA, mais l’application n’est pas activée par défaut. Elle est activée en suivant les étapes décrites ci-dessous :
 
     a. Inscrivez le SLA en tant qu’application serveur en exécutant la commande suivante pour chaque pool :
 
@@ -68,7 +68,7 @@ Le partage de lignes (SLA) est une nouvelle fonctionnalité de Skype Entreprise 
 
     LSet-CsSlaConfiguration cmdlet marque le compte Voix Entreprise SLAGroup1 en tant qu’entité SLA, et le nombre de SLAGroup1 devient le numéro du groupe de SLA. Tous les appels à SLAGroup1 sonnent dans l’ensemble du groupe SLA.
 
-    L’exemple suivant crée un groupe de SLA pour un utilisateur Voix Entreprise existant, SLAGroup1, et utilise le numéro affecté à SLAGroup1 comme numéro principal du SLA.
+    L’exemple suivant crée un groupe de SLA pour un utilisateur Voix Entreprise existant, SLAGroup1, et utilise le numéro affecté à SLAGroup1 comme numéro de ligne principale du SLA.
 
     La commande définit le nombre maximal d’appels simultanés pour le nouveau groupe de SLA sur 3, et pour les appels qui dépassent cette valeur pour écouter une signal occupé :
 
@@ -76,10 +76,10 @@ Le partage de lignes (SLA) est une nouvelle fonctionnalité de Skype Entreprise 
    Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
    ```
 
-    Vous pouvez utiliser Set-CsSlaConfiguration pour créer un groupe de SLA ou en modifier un existant.
+    Vous pouvez utiliser Set-CsSlaConfiguration pour créer un groupe de SLA ou modifier un groupe existant.
 
     > [!NOTE]
-    > Notez que ce que vous spécifiez doit être un compte d’utilisateur  `-Identity` Voix Entreprise valide.
+    > Notez que ce que vous spécifiez doit être un compte d’utilisateur `-Identity` Voix Entreprise valide.
 
 2. Ajoutez des délégués au groupe à l’aide de l’cmdlet [Add-CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps) :
 
@@ -96,7 +96,7 @@ Le partage de lignes (SLA) est une nouvelle fonctionnalité de Skype Entreprise 
 
     Répétez la cmdlet pour chaque utilisateur que vous souhaitez ajouter au groupe. Les utilisateurs ne peuvent appartenir qu’à un seul groupe de SLA.
 
-### <a name="configure-the-sla-group-busy-option"></a>Configurer le groupe SLA Busy Option
+### <a name="configure-the-sla-group-busy-option"></a>Configurer l’option Occupé du groupe de SLA
 
 - Configurez le groupe SLA Busy Option à l’aide de [l';set-CsSlaConfiguration:](/powershell/module/skype/set-csslaconfiguration?view=skype-ps)
 
@@ -132,7 +132,7 @@ Le partage de lignes (SLA) est une nouvelle fonctionnalité de Skype Entreprise 
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    Par exemple :
+    Par exemple :
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com

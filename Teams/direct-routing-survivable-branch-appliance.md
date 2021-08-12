@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
-ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
+ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282667"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Appliance de branche (SBA) survivable pour le routage direct
 
@@ -57,7 +57,7 @@ La fonctionnalité SBA est prise en charge sur les clients Microsoft Teams suiva
 
 ## <a name="how-it-works"></a>Mode de fonctionnement
 
-En cas de panne d’Internet, Teams client doit basculer automatiquement vers le SBA et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte que vous avez accès à Internet et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte à d’Teams services. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de sorte que ces informations soient disponibles pour révision par l’administrateur client. 
+En cas d’interruption d’Internet, Teams client doit basculer automatiquement vers le SBA et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte que vous avez accès à Internet et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte à d’Teams services. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de telle sorte que ces informations soient disponibles pour révision par l’administrateur client. 
 
 Lorsque le Microsoft Teams client est en mode hors connexion, la fonctionnalité d’appel suivante est disponible : 
 
@@ -92,7 +92,7 @@ Pour créer les SBA, vous devez utiliser l'New-CsTeamsSurvivableBranchAppliance 
 | Description | Mise en forme gratuite du texte |
 |||
 
-Par exemple :
+Par exemple :
 
 ``` powershell
 C:\> New-CsTeamsSurvivableBranchAppliance  -Fqdn sba1.contoso.com -Description "SBA 1" 
@@ -112,7 +112,7 @@ Pour créer une stratégie, vous devez utiliser l'New-CsTeamsSurvivableBranchApp
 | BranchApplianceFqdns  | FQDN des SBA dans le site |
 ||
 
-Par exemple :
+Par exemple :
 
 ``` powershell
 C:\> new-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "sba1.contoso.com","sba2.contoso.com" 
@@ -120,7 +120,7 @@ Identity             : Tag:CPH
 BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
-Vous pouvez ajouter ou supprimer des SBE d’une stratégie à l’aide de Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet. Par exemple : 
+Vous pouvez ajouter ou supprimer des SBE d’une stratégie à l’aide de Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet. Par exemple : 
 
 ``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
@@ -137,7 +137,7 @@ Pour affecter la stratégie à des utilisateurs individuels, vous devez utiliser
 | PolicyName | L’identité de la stratégie |
 ||
 
-Par exemple :
+Par exemple :
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
@@ -170,12 +170,12 @@ Pour l’application SBA, gardez les choses suivantes à l’esprit :
 
 - Le nom peut être ce que vous décidez.  
 - Types de comptes pris en charge = Compte dans cet annuaire de l’organisation uniquement. 
-- Uri de redirection web = https://login.microsoftonline.com/common/oauth2/nativeclient .
+- The Web Redirect Uri = https://login.microsoftonline.com/common/oauth2/nativeclient .
 - Jetons d’octroi implicites = jetons Access et ID. 
 - Autorisations de l’API = Skype et Teams’accès de l’administrateur client ->'application - > application_access_custom_sba_appliance.
 - Secret client : vous pouvez utiliser n’importe quelle description et expiration. 
 - N’oubliez pas de copier le secret client immédiatement après l’avoir créé. 
-- L’ID d’application (client) s’affiche dans l’onglet Vue d’ensemble.
+- L’ID d’application (client) s’affiche sous l’onglet Vue d’ensemble.
 
 Ensuite, suivez ces étapes :
 

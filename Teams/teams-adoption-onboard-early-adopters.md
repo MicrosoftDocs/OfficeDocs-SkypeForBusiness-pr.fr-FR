@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba82d305d48471e414c8da18aadf598d42445d6d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 60314eb711fdcdf0f48ec607486acc119f3efcac575c10bec79c80c59d65dc22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323926"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
 
@@ -35,8 +35,8 @@ Revenir à la liste des employés qui ont exprimé de l’intérêt pour votre p
 Pour les premiers utilisateurs, vous de suivre les étapes suivantes :
 
 1. Envoyez-leur un e-mail d’invitation pour les inviter dans la communauté,
-2. Organisez un appel de lancement pour partager avec eux les objectifs et les résultats du programme des premiers utilisateurs,
-3. Assurez-vous que l’accès au canal de commentaires de votre équipe champions du travail d’équipe et de tout autre outil de réseau social interne que vous pouvez utiliser. 
+2. Organisez un appel de lancement pour partager avec eux les objectifs et résultats du programme des premiers utilisateurs,
+3. Assurez-vous d’accéder au canal de commentaires de votre équipe champions du travail d’équipe et de tout autre outil de réseau social interne que vous pouvez utiliser. 
 4. Envisagez de créer régulièrement des enquêtes destinées à recueillir des informations ciblées.
 
 ## <a name="gather-feedback"></a>Recueillir des commentaires

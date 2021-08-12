@@ -1,5 +1,5 @@
 ---
-title: Correction ou mise à jour d’un serveur principal ou d’un serveur Standard Edition server dans Skype Entreprise Server
+title: Patch or update a Back End Server or Édition Standard server in Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Résumé : Découvrez comment installer une mise à jour ou un correctif sur un serveur principal dans Skype Entreprise Server.'
-ms.openlocfilehash: 3e5e0cda1604f3144e853cfa3bf7bcc45e7d0c2f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6da04dda24400e8dfa00bcaac5d3620cbf6509a5f4bef2d7d988682597b732f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826304"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290282"
 ---
-# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Correction ou mise à jour d’un serveur principal ou d’un serveur Standard Edition server dans Skype Entreprise Server
+# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Patch or update a Back End Server or Édition Standard server in Skype Entreprise Server
  
 **Résumé :** Découvrez comment installer une mise à jour ou un correctif sur un serveur principal dans Skype Entreprise Server.
   
-Cette rubrique explique comment installer une mise à jour sur un serveur principal Enterprise Edition ou standard.
+Cette rubrique explique comment installer une mise à jour sur un serveur Êdition Entreprise principal ou un Édition Standard serveur principal.
   
 Si un serveur principal est arrêté durant au moins 30 minutes lors de sa mise à niveau, les utilisateurs peuvent être placés en mode Résilience. Lorsque la mise à mise à niveau est terminée et que les serveurs principaux sont encore connectés aux serveurs frontaux du pool, les utilisateurs repassent en fonctionnalité complète. Si la mise à niveau dure moins de 30 minutes, les utilisateurs ne seront pas affectés.
   
-### <a name="to-update-a-back-end-server-or-standard-edition-server"></a>Pour mettre à jour un serveur principal ou un serveur Standard Edition
+### <a name="to-update-a-back-end-server-or-standard-edition-server"></a>Pour mettre à jour un serveur principal ou un Édition Standard serveur principal
 
 1. Connectez-vous au serveur que vous mettez à niveau en tant que membre du rôle CsAdministrator.
     
 2. Téléchargez la mise à jour et extrayez-la sur le disque dur local.
     
-3. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype** Entreprise, puis sur Skype Entreprise **Server Management Shell.**
+3. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise,** puis sur Skype Entreprise Server **Management Shell..**
     
-4. Arrêtez les services Skype Entreprise Server. À partir de la ligne de commande, tapez :
+4. Arrêtez Skype Entreprise Server services. À partir de la ligne de commande, tapez :
     
     ```PowerShell
     Stop-CsWindowsService
     ```
 
-5. Arrêtez les services World Wide Web. À partir de la ligne de commande, tapez :
+5. Arrêtez le service World Wide Web. À partir de la ligne de commande, tapez :
     
     ```PowerShell
     net stop w3svc
@@ -51,9 +51,9 @@ Si un serveur principal est arrêté durant au moins 30 minutes lors de sa mis
     
 7. Installez la mise à jour.
     
-8. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype** Entreprise, puis sur Skype Entreprise **Server Management Shell.**
+8. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise,** puis sur Skype Entreprise Server **Management Shell.**
     
-9. Arrêtez de nouveau les services Skype Entreprise Server pour capturer les assemblys GAC (Global Assembly Cache). À partir de la ligne de commande, tapez :
+9. Arrêtez Skype Entreprise Server services pour capturer les assemblys GAC (Global Assembly Cache) -d. À partir de la ligne de commande, tapez :
     
     ```PowerShell
     Stop-CsWindowsService
@@ -67,19 +67,19 @@ Si un serveur principal est arrêté durant au moins 30 minutes lors de sa mis
 
 11. Appliquez les modifications apportées aux bases SQL Server données en faisant l’une des choses suivantes :
     
-    - S’il s’agit d’un serveur principal Enterprise Edition et qu’il n’y a pas de bases de données cingl es sur ce serveur, telles que les bases de données d’archivage ou de surveillance, tapez ce qui suit sur une ligne de commande :
+    - S’il s’agit d’un serveur principal Êdition Entreprise et qu’il n’y a pas de bases de données cingl es sur ce serveur, telles que les bases de données d’archivage ou de surveillance, tapez ce qui suit sur une ligne de commande :
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     ```
 
-    - S’il s’agit d’un serveur principal Enterprise Edition et qu’il existe des bases de données c c colloquées sur ce serveur, tapez ce qui suit sur une ligne de commande :
+    - S’il s’agit d’Êdition Entreprise principal et qu’il existe des bases de données c c colloquées sur ce serveur, tapez ce qui suit sur une ligne de commande :
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
-    - S’il s’agit d’un serveur Standard Edition, tapez ce qui suit sur une ligne de commande :
+    - S’il s’agit d Édition Standard serveur, tapez ce qui suit sur une ligne de commande :
     
     ```PowerShell
     Install-CsDatabase -Update -LocalDatabases
