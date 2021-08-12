@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype Entreprise Server conférence audio/vidéo (A/V) 2015 permet aux utilisateurs de participer à des conférences audio ou vidéo en temps réel.
-ms.openlocfilehash: fbef474813acb6dde060f35efeb2797f383cd3a3
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: f655f67c740f40de373d3d67a18a56f0ed935f00cf75679889cbe84ca5f08639
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53647035"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318877"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Outil de planification de l’audioconférence
  

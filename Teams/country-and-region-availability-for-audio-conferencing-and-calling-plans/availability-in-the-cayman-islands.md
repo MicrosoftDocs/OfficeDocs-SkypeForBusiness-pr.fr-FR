@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et de Office 365 que vous Skype Entreprise et Microsoft Teams aux îles Caïmans.
-ms.openlocfilehash: 4f05b0df8b86f6b19d5f14ca93b2a34472f0a50a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2065769b03aaaa8575a28652ff4f200acfb779c6e35f3cfdd1ca5dbab72df0b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284225"
 ---
 # <a name="availability-in-the-cayman-islands"></a>Disponibilité aux îles Caïmans
 
@@ -82,7 +82,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

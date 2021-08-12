@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Un directeur est un serveur exécutant le logiciel de communication Skype Entreprise Server qui peut authentifier les demandes des utilisateurs, mais n’a pas de compte d’utilisateur.
-ms.openlocfilehash: 0c76fb5290715bb394b4c84ffadad3a2e9dd74db
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Un directeur est un serveur exécutant un logiciel de communication Skype Entreprise Server qui peut authentifier les demandes des utilisateurs, mais n’a pas de compte d’utilisateur.
+ms.openlocfilehash: 6ab7231aabdfead417b61324cfffa2bc8cc621999515da8964be749f3c1f5574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294701"
 ---
 # <a name="director-planning-tool"></a>Director (Planning Tool)
  
-Un directeur est un serveur exécutant le logiciel de communication Skype Entreprise Server qui peut authentifier les demandes des utilisateurs, mais n’a pas de compte d’utilisateur. 
+Un directeur est un serveur exécutant un logiciel de communication Skype Entreprise Server qui peut authentifier les demandes des utilisateurs, mais n’a pas de compte d’utilisateur. 
   
 Ce rôle est facultatif, vous pouvez choisir de déployer un directeur dans les deux scénarios suivants :
   

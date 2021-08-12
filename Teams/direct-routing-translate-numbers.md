@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer Téléphone Microsoft routage direct du système.
-ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337412"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traduire des numéros de téléphone dans un autre format
 
@@ -72,8 +72,8 @@ Dans les exemples suivants, il y a deux utilisateurs,Soy et Bob. Il s’agit Tea
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Exemple 1 : appel entrant vers un numéro à dix chiffres
 
-Bob appelle Contrôle à l’aide d’un numéro non E.164 à dix chiffres. Bob compose le 2065550100 pour atteindreSontso.
-SBC utilise 2065550100 dans les en-têtes RequestURI et To, et 4255550100 dans l’en-tête De.
+Bob appelle Contrôle à l’aide d’un numéro non E.164 à dix chiffres. Bob appelle 2065550100 pour atteindreSinsoin.
+SBC utilise des 2065550100 dans les en-têtes RequestURI et To 4255550100'en-tête De.
 
 
 |En-tête  |Langue source |En-tête traduit |Paramètre et règle appliqués  |
@@ -85,7 +85,7 @@ SBC utilise 2065550100 dans les en-têtes RequestURI et To, et 4255550100 dans l
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Exemple 2 : appel entrant vers un numéro à quatre chiffres
 
 Bob appelle Tous les membres de l’équipe à l’aide d’un numéro à quatre chiffres. Bob compose le 0100 pour joindre Tous.
-SBC utilise 0100 dans les en-têtes RequestURI et To, et 4255550100 dans l’en-tête De.
+SBC utilise 0100 dans les en-têtes RequestURI et To 4255550100'en-tête De.
 
 
 |En-tête  |Langue source |En-tête traduit |Paramètre et règle appliqués  |
@@ -99,7 +99,7 @@ SBC utilise 0100 dans les en-têtes RequestURI et To, et 4255550100 dans l’en-
 Contrôle appelle Bob à l’aide d’un numéro à dix chiffres. Il compose le 425 555 0100 pour joindre Bob.
 SBC est configuré pour utiliser des numéros non E.164 à dix chiffres pour les utilisateurs Teams et PSTN.
 
-Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envoyer vers l’interface de routage direct. Lorsque Vostit 425 555 0100 dans le client Teams, le numéro est converti en +14255550100 par le plan de numérotation du pays. Les numéros qui en résultent sont une normalisation cumulative des règles de plan de numérotation et Teams de traduction. Les Teams de traduction suppriment le « + 1 » ajouté par le plan de numérotation.
+Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envoyer vers l’interface de routage direct. LorsqueSi entre 425 555 0100 dans le client Teams, le numéro est converti en + 14255550100 par le plan de numérotation du pays. Les numéros qui en résultent sont une normalisation cumulative des règles de plan de numérotation et Teams de traduction. Les Teams de traduction suppriment le « + 1 » ajouté par le plan de numérotation.
 
 
 |En-tête  |Langue source |En-tête traduit |Paramètre et règle appliqués  |

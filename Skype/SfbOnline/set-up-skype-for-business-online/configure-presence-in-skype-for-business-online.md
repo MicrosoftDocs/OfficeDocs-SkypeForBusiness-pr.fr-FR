@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Découvrez comment configurer des Skype Entreprise vous pouvez voir la disponibilité de vos collègues. '
-ms.openlocfilehash: 5eec57f295dbb45649fea6590147798881297a1b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0675d9c24f85fa66e3d1eec2e470af2ffcf3d3e6a77719c63130320ce7e89fbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303338"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuration de la présence dans Skype Entreprise Online
 
@@ -59,7 +59,7 @@ Pour plus d’informations sur les changements que vos utilisateurs peuvent Skyp
 
 - [Définir les options d’état dans Skype Entreprise](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 

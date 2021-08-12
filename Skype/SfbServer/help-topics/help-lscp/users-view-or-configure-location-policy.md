@@ -1,5 +1,5 @@
 ---
-title: Les utilisateurs visualisent ou configurent la stratégie d’emplacement
+title: Affichage ou configuration de la stratégie d’emplacement par les utilisateurs
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 105fff4cf55dcacbbe08d3f35c794a9310406f5f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f6596ccbd58526a14f814a0655f65d7547987c14d28d5a63bc823282bcf20dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115090"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345073"
 ---
 # <a name="users-view-or-configure-location-policy"></a>Utilisateurs : afficher ou configurer la stratégie d’emplacement
 
@@ -28,4 +28,4 @@ Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous
 
 - [Affecter une stratégie d’emplacement à un utilisateur](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).

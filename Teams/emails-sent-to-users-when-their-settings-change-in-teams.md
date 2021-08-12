@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférences Microsoft Teams. '
-ms.openlocfilehash: 590d2b9431950464aab051b73a70a1c30e6a55ad
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférence Microsoft Teams. '
+ms.openlocfilehash: 44c9cf7fc2c8d0bb4beadb7c2f124b74ddcabc868a21836690ec58f5ab9e06a4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284135"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Par défaut, quatre types de messages électroniques sont envoyés aux utilisate
 
      ![Skype for Business Verify License](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    Pour en savoir plus sur les licences, voir [Microsoft Teams licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+    Pour en savoir plus sur les licences, voir [Microsoft Teams de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - **L'ID de conférence ou le numéro de téléphone par défaut d'une conférence pour un utilisateur change.**
 
@@ -90,7 +90,7 @@ Par défaut, des courriers électroniques sont envoyés à vos utilisateurs, mai
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
-2. En haut de la page Ponts **de** conférence, cliquez **sur Paramètres du pont.** 
+2. En haut de la page Ponts **de** conférence, cliquez sur **Paramètres du pont.** 
 
 3. Dans le **volet Paramètres du** pont, activez ou désactivez automatiquement l’envoi de courriers électroniques aux utilisateurs en cas de modification de **leurs paramètres de connexion.**
 
@@ -113,7 +113,7 @@ Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powers
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Vous souhaitez en savoir plus sur Windows PowerShell ?
 
-Par défaut, l’expéditeur des courriers électroniques est de Microsoft 365 ou Office 365, mais vous pouvez modifier son adresse électronique et son nom d’affichage à l’aide de Windows PowerShell. 
+Par défaut, l’expéditeur des courriers électroniques est de Microsoft 365 ou Office 365, mais vous pouvez modifier l’adresse de messagerie et le nom d’affichage à l’aide de Windows PowerShell. 
 
 Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En Windows PowerShell, vous pouvez gérer vos tâches Microsoft 365 Office 365 d’un seul point d’administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour prendre en main Windows PowerShell, consultez ces rubriques :
 

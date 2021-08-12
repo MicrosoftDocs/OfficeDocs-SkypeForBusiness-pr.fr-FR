@@ -1,5 +1,5 @@
 ---
-title: Résolutions vidéo du client Skype Entreprise
+title: Skype Entreprise résolutions vidéo clientes
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Résumé : Examinez la vidéo client requise lors de la planification de Skype Entreprise Server.'
-ms.openlocfilehash: 9be23512462781c55ef94b72b4dbbba60e15e5ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 895345ddee8ac17338977bdb161172bf975de343d7d86be1a053ccac8f4f0e7f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293931"
 ---
-# <a name="skype-for-business-client-video-resolutions"></a>Résolutions vidéo du client Skype Entreprise
+# <a name="skype-for-business-client-video-resolutions"></a>Skype Entreprise résolutions vidéo clientes
  
 **Résumé :** Examinez la vidéo client requise lors de la planification de Skype Entreprise Server.
   
@@ -31,11 +31,11 @@ Cet article décrit la prise en charge du matériel vidéo pour les appels vidé
   
 Les professionnels de l’informatique trouveront ces informations utiles pour évaluer l’pertinence des ordinateurs portables déjà utilisés dans leur organisation, ou en cas d’utilisation. Ils peuvent également rechercher des [informations sur](https://partnersolutions.skypeforbusiness.com/solutionscatalog) des appareils spécifiques dans le catalogue de solutions.
   
-## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Conditions requises et fonctionnalités vidéo pour ordinateur de bureau, Mac et tablette Windows
+## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows et fonctionnalités vidéo pour ordinateur de bureau, Mac et tablette
 
 Skype Entreprise utilise l’accélération matérielle pour le codage et le décodage vidéo basés sur la norme H.264/MPEG-4 Part 10 Advanced Video Coding. Cela permet aux ordinateurs dont la vitesse d’horloge du processeur est inférieure d’encoder et décoder des vidéos de résolution supérieure. La configuration requise pour le matériel vidéo dépend de la configuration de l’ordinateur et de la résolution vidéo souhaitée.
   
-Voir également [la configuration matérielle requise pour Windows et Mac.](https://products.office.com/office-system-requirements)
+Consultez également [Windows configuration matérielle requise pour Mac et la configuration requise.](https://products.office.com/office-system-requirements)
   
 ### <a name="video-hardware-requirements"></a>Configuration matérielle requise pour la vidéo
 
@@ -43,7 +43,7 @@ Voir également [la configuration matérielle requise pour Windows et Mac.](http
 |:-----|:-----|
 |Décodage matériel accéléré H.264 à l’aide de l’accélération vidéo DirectX (DXVA)  <br/> |• La carte graphique doit prendre en charge DirectX 9.0 et exposer le mode DXVA2_ModeH264_VLD_NoFGT décodage et l’API DirectX 9.  <br/> • Le dernier pilote de carte graphique doit être installé.  <br/> |
 |Encodage matériel accéléré H.264 : chipset requis  <br/> |Les solutions d’encodage vidéo matériel accéléré Intel suivantes sont pris en charge :  <br/> • Puces Intel HD Graphics 2000, 2500, 3000 et 4000 de deuxième et troisième générations (ou versions ultérieures) avec des encodeurs vidéo matériels intégrés. L’installation du pilote Intel HD Graphics 15.28.9.2884 ou du pilote le plus récent contenant les éléments suivants est requise :  <br/> • Pilote d’affichage 9.17.10.2884 ou pilote le plus récent  <br/> • Hardware Media Foundation Transform (HMFT) version 3.12.10.31 ou la dernière version HMFT  <br/> Les solutions d’encodage vidéo matériel accéléré AMD suivantes sont pris en charge :  <br/> • Moteur de codec vidéo AMD, disponible dans plusieurs cartes graphiques discrètes et dans les unités de traitement accéléré intégrées des processeurs accélérés AMD A-Series. Le pilote AMD Video Codec Engine 9.12.0.0 ou supérieur doit être installé.  <br/> |
-|Encodage matériel accéléré H.264 : caméra requise  <br/> |Caméras vidéo USB avec encodeur matériel H.264 intégré conforme à la spécification USB Video Class (UVC) version 1.5.  <br/> **Remarque :** Skype Entreprise prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d’UVC 1.5. Étant donné que Windows 7 n’inclut pas la prise en charge d’UVC 1.5, Skype Entreprise traite les caméras UVC 1.5 comme des caméras ordinaires sans prise en charge du codage matériel. <br/> |
+|Encodage matériel accéléré H.264 : caméra requise  <br/> |Caméras vidéo USB avec encodeur matériel H.264 intégré conforme à la spécification USB Video Class (UVC) version 1.5.  <br/> **Remarque :** Skype Entreprise prend en charge les caméras UVC 1.5 avec Windows 8 ou Windows 8.1, qui inclut la prise en charge d’UVC 1.5. Comme Windows 7 n’inclut pas la prise en charge d’UVC 1.5, Skype Entreprise traite les caméras UVC 1.5 comme des caméras ordinaires sans prise en charge du codage matériel. <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>Détermination des fonctionnalités de codage et de décodage vidéo H.264
 
@@ -103,7 +103,7 @@ Le tableau suivant décrit les résolutions vidéo maximales disponibles sur les
   
 |**Fonctionnalité**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
-|Résolution maximale d’encodage H.264  <br/> |VGA  <br/> |QVGA : iPhone 4S  <br/> VGA : iPhone 5  <br/> 720p : iPhone 5S et ultérieurs  <br/> |VGA : iPad 2 et ultérieur/iPad mini 1 et ultérieur  <br/> 720p : iPad Air/iPad mini 2/iPad Pro et ultérieurs  <br/> |Jusqu’à VGA en fonction du modèle d’appareil  <br/> |
-|Résolution maximale de décodage H.264  <br/> |VGA  <br/> |QVGA : iPhone 4S  <br/> VGA : iPhone 5  <br/> 720p : iPhone 5S et ultérieurs  <br/> |VGA : iPad 2 et ultérieur/iPad mini 1 et ultérieur  <br/> 720p : iPad Air/iPad mini 2/iPad Pro et ultérieurs  <br/> |Jusqu’à VGA en fonction du modèle d’appareil  <br/> |
+|Résolution maximale d’encodage H.264  <br/> |VGA  <br/> |QVGA : iPhone 4S  <br/> VGA : iPhone 5  <br/> 720p : iPhone 5S et ultérieures  <br/> |VGA : iPad 2 et ultérieures/iPad mini 1 et ultérieures  <br/> 720p : iPad Air/iPad mini 2/iPad Pro et ultérieures  <br/> |Jusqu’à VGA en fonction du modèle d’appareil  <br/> |
+|Résolution maximale de décodage H.264  <br/> |VGA  <br/> |QVGA : iPhone 4S  <br/> VGA : iPhone 5  <br/> 720p : iPhone 5S et ultérieures  <br/> |VGA : iPad 2 et ultérieures/iPad mini 1 et ultérieures  <br/> 720p : iPad Air/iPad mini 2/iPad Pro et ultérieures  <br/> |Jusqu’à VGA en fonction du modèle d’appareil  <br/> |
    
 

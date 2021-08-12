@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La boîte de dialogue Sélectionner les règles de traduction du numéro d’appel affiche les règles de traduction configurées pour votre déploiement. Pour plus d’informations sur les règles de traduction, voir les rubriques suivantes :'
-ms.openlocfilehash: 3d9bc60acacdfa876f82f36a2f346a18390d0f80
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aa0bb395fe292c4d8e12610269d192cb413ce4df1bc0ac53d35f6c150d0fb87f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294721"
 ---
 # <a name="select-calling-number-rules-translation"></a>Sélectionner les règles de traduction des numéros d’appel
 

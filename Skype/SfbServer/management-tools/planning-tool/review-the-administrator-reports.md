@@ -1,5 +1,5 @@
 ---
-title: Examiner les rapports de l’administrateur dans Skype Entreprise Server 2015
+title: Examiner les rapports de l’administrateur Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Les rapports de l’administrateur contiennent des informations détaillées sur le déploiement et les opérations. Les rapports sont générés en fonction des sélections marquées dans les sites de conception. Le concepteur peut compléter les rapports de l’administrateur en modifiant les diagrammes des réseaux et en définissant les adresses IP complètes et les noms de domaine complets (FQDN) pour les serveurs, les pools et les programmes d’équilibrage de charge.
-ms.openlocfilehash: dbef33351e7032e769e1d5ee68c5f0d582317eb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c74237f5d92d54a1a421ede7707565bba59582141e00d1a944a88c2e8c096c88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104320"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293971"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Examiner les rapports de l’administrateur dans Skype Entreprise Server 2015
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Examiner les rapports de l’administrateur Skype Entreprise Server 2015
 
 Les rapports de l’administrateur contiennent des informations détaillées sur le déploiement et les opérations. Les rapports sont générés en fonction des sélections marquées dans les **sites de conception.** Le concepteur peut compléter les rapports de l’administrateur en modifiant les diagrammes des réseaux et en définissant les adresses IP complètes et les noms de domaine complets (FQDN) pour les serveurs, les pools et les programmes d’équilibrage de charge.
 
@@ -29,7 +29,7 @@ La fonctionnalité Rapports de l’administrateur vous permet de :
 
 - [Consulter le rapport de synthèse](review-the-administrator-reports.md#Summary_report)
 
-- [Examiner le rapport certificats](review-the-administrator-reports.md#Certificates_Report)
+- [Consulter le rapport certificats](review-the-administrator-reports.md#Certificates_Report)
 
 - [Consulter le rapport de pare-feu](review-the-administrator-reports.md#Firewall_report)
 
@@ -38,7 +38,7 @@ La fonctionnalité Rapports de l’administrateur vous permet de :
 ## <a name="review-the-summary-report"></a>Consulter le rapport de synthèse
 <a name="Summary_report"> </a>
 
-Le rapport Administrateur Skype Entreprise est le premier des quatre rapports précieux qui documentent en détail votre conception. Les informations de ce rapport, ainsi que les trois autres rapports associés, sont utiles pour vos équipes informatiques :
+Le rapport Skype Entreprise’administrateur général est le premier des quatre rapports précieux qui documentent en détail votre conception. Les informations de ce rapport, ainsi que les trois autres rapports associés, sont utiles pour votre Teams :
 
 ![Rapport d’administration de synthèse générale](../../media/General_Summary_Report_Admin_Report.png)
 
@@ -57,11 +57,11 @@ Vous pouvez également afficher des rapports plus détaillés :
 ## <a name="review-the-certificates-report"></a>Consulter le rapport certificats
 <a name="Certificates_Report"> </a>
 
-Le rapport des certificats contient tous les certificats requis dans le déploiement de Skype Entreprise Server 2015 recommandé. L’outil de planification compte les noms du sujet et les autres noms du sujet entrés. Le texte par défaut qui n’est pas mis à jour peut représenter un défi potentiel pour l’équipe responsable de la demande et de l’émission des certificats. Les informations de certificat contiennent également des données sur l’emplacement à partir duquel le certificat peut généralement être émis. Si l’infrastructure ne dispose pas d’une PKI interne, tous les certificats peuvent être demandés par l’intermédiaire d’un fournisseur de certificats public. Les champs EKU et Affecter à du rapport sont très utiles pour connaître ce que doivent être l’objectif et l’emplacement de chaque certificat.
+Le rapport des certificats contient tous les certificats requis dans le déploiement Skype Entreprise Server 2015. L’outil de planification compte les noms des sujets et les autres noms du sujet qui sont entrés. Le texte par défaut qui n’est pas mis à jour peut représenter un défi potentiel pour l’équipe responsable de la demande et de l’émission des certificats. Les informations de certificat contiennent également des données sur l’emplacement à partir duquel le certificat peut généralement être émis. Si l’infrastructure ne dispose pas d’une PKI interne, tous les certificats peuvent être demandés par l’intermédiaire d’un fournisseur de certificats public. Les champs EKU et Affecter à du rapport sont très utiles pour connaître ce que doivent être l’objectif et l’emplacement de chaque certificat.
 
 ![Rapport d’administration des certificats](../../media/Certificates_Report_Admin_Report.png)
 
-Examinez attentivement et assurez-vous de bien comprendre l’utilisation et l’objectif de chaque certificat dans le déploiement. S’il existe une question sur l’objectif d’un certificat, déterminez le serveur ou le service avec lequel il s’agit. Les certificats dans Skype Entreprise Server 2015 sont utilisés à deux fins principales :
+Examinez attentivement et assurez-vous de comprendre l’utilisation et l’objectif de chaque certificat dans le déploiement. S’il existe une question sur l’objectif d’un certificat, déterminez le serveur ou le service avec lequel il s’agit. Les certificats Skype Entreprise Server 2015 sont utilisés à deux fins principales :
 
 - MTLS (Mutual Transport Layer Security) : les ordinateurs impliqués dans la communication présentent chacun un certificat qui prouve leur identité à un autre ordinateur. C’est ce qu’on appelle l’authentification de serveur. La communication ne peut pas commencer tant que chaque ordinateur n’a pas confiance en l’identité de l’autre ordinateur.
 

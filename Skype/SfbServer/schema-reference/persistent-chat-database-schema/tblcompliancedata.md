@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: tblComplianceData contient les événements de conformité qui n’ont pas encore été traités par l’ensemble des traducteurs inscrits.
-ms.openlocfilehash: e4ceda662b2f601660c144319a4231cebeea39ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 70929cd85499fb015489054d11e11d492fe00e145e7da32dbf7477deb5e7c60d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284464"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
@@ -26,7 +26,7 @@ tblComplianceData contient les événements de conformité qui n’ont pas encor
   
 **Columns**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |cmplEventID  <br/> |bigint, non null  <br/> |ID d’événement.  <br/> |
 |entryDate  <br/> |smalldatetime, non null  <br/> |Moment de l’insertion (peut être éloigné dans le futur pour cmplType=9, car l’entrée est juste un espace réservé dans ce cas).  <br/> |

@@ -16,20 +16,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 08073551b77956a4b7ff77739e6fc0fa7b1101d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e064548e1a4879fda88d41584de9ada096a61feb18126d9d73b67a5aea928ef4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284125"
 ---
-# <a name="steering-committee"></a>Comité exécutif
+# <a name="steering-committee"></a>Comité spécial
 
-## <a name="steering-committee-overview"></a>Vue d’ensemble du comité complet
+## <a name="steering-committee-overview"></a>Présentation générale du comité d’équipe
 
 Un comité directeur est un groupe régissant les principales parties prenantes et les chefs de projet qui ont été rassemblés pour guider un projet ou un programme vers les résultats d’entreprise définis. Le comité directeur n’est  pas directement responsable de la  livraison du projet, mais plutôt de ses résultats.
 
-Chaque projet nécessite une vision et une charte d’accord. Pour fournir les résultats escomptés pour les projets, la vision doit être clairement définie, elle doit être contrôlée et maintenue. Cela devient la responsabilité du comité directeur : conduire des décisions, conseiller, fournir une surveillance stratégique, faire office d’intervenants pour l’organisation pour les initiatives du projet et, si nécessaire, supprimer des bloqueurs.
+Chaque projet nécessite une vision et une charte d’accord. Pour fournir les résultats escomptés pour les projets, la vision doit être clairement définie, elle doit être contrôlée et maintenue. Cela devient la responsabilité du comité directeur : conduire des décisions, conseiller, fournir une surveillance stratégique, servir d’intervenants pour l’organisation pour les initiatives du projet et, si nécessaire, supprimer des bloqueurs.
 
 Votre organisation doit réfléchir de façon significative à la formation du comité directeur. Le comité doit s’assurer que le projet atteint les objectifs d’entreprise que vous avez définis pour l’conduite des changements dans l’organisation, se réunir régulièrement pour discuter du pulse actuel du projet et aider à supprimer les obstacles rencontrés au cours du parcours.
 
@@ -61,7 +61,7 @@ Le comité directeur se réunit à intervalles périodiques pendant toute la dur
 
 Un comité n’a plus la même efficacité que ses participants. Le comité directeur doit assurer la représentation des décideurs d’entreprise et techniques, ainsi que de l’une des principales équipes de projet et équipes partenaires qui contribuent à la solution.
 
-Chaque comité directeur a besoin d’une équipe de direction forte et de rôles et de responsabilités clairement définis. Pour définir des attentes réalistes pour les performances du comité et la participation de ses membres, vous devez documenter et accepter les rôles et responsabilités attribués. Vous devez absolument avoir un cadre délégué réactif et des dirigeants d’entreprise au sein de ce comité pour influencer efficacement l’organisation et garantir une perspective différente.
+Chaque comité directeur a besoin d’une équipe de direction forte et de rôles et de responsabilités clairement définis. Pour définir des attentes réalistes pour les performances du comité et la participation de ses membres, vous devez documenter et accepter les rôles et responsabilités attribués. Vous devez absolument avoir un sponsor exécutif réactif et des dirigeants d’entreprise au sein de ce comité pour influencer efficacement l’organisation et garantir une perspective différente.
 
 > [!NOTE]
 > Ajustez les rôles et les responsabilités en fonction de la conception de votre organisation et de l’équipe de projet. Dans les plus petites organisations, ces rôles peuvent se chevaucher.
@@ -72,7 +72,7 @@ Chaque comité directeur a besoin d’une équipe de direction forte et de rôle
 | Décideurs d’entreprise | Intervenant pour le projet, assurez-vous que son orientation reste alignée avec la vision de l’organisation | | |
 | Architect | Assurez-vous que les décisions technologiques sont facilement accessibles et alignées sur les résultats d’entreprise acceptés. | | |
 | Équipe principale Project de base | Fournissez des informations sur un composant spécifique, technique ou non (adoption et gestion des changements, par exemple) | | |
-| Quality Champion | Soyez responsable de la mise en place des mesures de qualité. | | |
+| Quality Champion | Être responsable de la mise en place des mesures de qualité. | | |
 | Program/Project Manager | Intégrez la responsabilité de la présentation et de la collection de commentaires dans le projet. | | |
 | Équipe de comptes partenaires | Fournir des commentaires à partir du point de vue du partenaire dans une perspective plus large, à l’aide d’autres activités de partenaire. | | |
 | Équipe de Project partenaire | Fournir des commentaires à partir du point de vue du partenaire en ce qui concerne la livraison du projet | | |
@@ -142,7 +142,7 @@ Les ressources suivantes doivent être complétées et incluses dans la présent
 
 Ensuite, planifier un appel pour préparer la réunion du comité directeur. Cet appel doit inclure uniquement les membres de l’équipe qui sont essentiels au cœur de l’équipe de projet, notamment les ressources de mise en réseau, de bureau, d’opérations ou d’autres équipes dont les éléments seront résolus pendant la réunion du comité. Les membres principaux de l’équipe de projet ne doivent jamais être pris en garde par les éléments que vous prévoyez de couvrir durant l’appel du comité directeur.
 
-Cet appel est un excellent moyen de se synchroniser avant la réunion du comité directeur. C’est également le moment de faire en sorte que les éléments ouverts, les conflits ou les conflits au sein de l’équipe de projet soient mis à jour. Celui-ci est destiné à favoriser la communication ouverte et à empêcher toute surprise lors de la réunion.
+Cet appel est un excellent moyen de se synchroniser avant la réunion du comité directeur. C’est également le moment de faire en sorte que les éléments ouverts, les conflits ou les conflits au sein de l’équipe de projet soient mis à jour. Celui-ci est destiné à favoriser la communication ouverte et à éviter toute surprise pendant la réunion.
 
 Examinez les rapports de la semaine avec l’équipe principale et les partenaires concernés, et répondez aux questions qui se posent. Travaillez au sein de l’équipe à ajuster, ajouter ou supprimer tout contenu en fonction de vos discussions, ou acceptez de demander des clarifications supplémentaires de la part du comité directeur. Affectez les membres de l’équipe qui présenteront chaque section afin d’assurer un flux et une continuité.
 
@@ -154,13 +154,13 @@ La réunion proprement dite doit être une continuation naturelle du travail de 
 
 2.  Essayez de rester sur l’ordre du jour, même si vous ne doutez pas que des distractions devront être résolus. Si possible (en fonction de leur importance), ajoutez ces éléments à une section « parking lot » et adressez-les ultérieurement. Si ce sujet est trop important à reporter, vous pouvez poursuivre l’discussion, mais vous vous rendez compte que vous devrez déplacer d’autres éléments de l’ordre du jour vers des réunions futures. Acceptez de mettre de temps (cinq à dix minutes) pour prendre en compte tous les éléments urgents qui ont besoin de l’attention immédiate du comité.
 
-3.  Soyez prêt à discuter de tout cas de support ouvert. Essayez de maintenir la discussion aussi haut niveau que possible pour cette réunion : nombre de tickets, types de tickets, éléments ouverts majeurs. Vous devez être prêt à résoudre tous les problèmes, même s’ils sont mineurs, à comprendre l’impact sur l’entreprise et les effets sur le projet
+3.  Soyez prêt à discuter de tout cas de support ouvert. Essayez de maintenir la discussion aussi haut niveau que possible pour cette réunion : nombre de tickets, types de tickets, principaux éléments ouverts. Vous devez être prêt à résoudre tous les problèmes, même s’ils sont mineurs, à comprendre l’impact sur l’entreprise et les effets sur le projet
 
 4.  Déléguer une prendre des notes. Il est trop difficile de prendre des notes lors d’une présentation ou en cours de discussions difficiles. Assurez-vous que les détails sont documentés pour toutes les décisions prises par le comité. Soyez prêt à envoyer ces décisions et notes dans le cadre d’un e-mail de suivi.
 
 5.  Essayez toujours de mettre en avant les bonnes nouvelles concernant l’effort de travail des utilisateurs et les commentaires des utilisateurs (le caser disponible). Racontez et vendez l’histoire. Si les commentaires sont négatifs, soyez prêt à en discuter et à expliquer ce qui est fait pour résoudre les problèmes d’expérience utilisateur négative.
 
-    a.  Donnez un coup de chance aux membres individuels de l’équipe pour le travail qu’ils font. Il est important de reconnaître l’excellent travail accompli par les membres de l’équipe, en particulier devant leur équipe de direction.
+    a.  Donnez un coup de chance aux membres individuels de l’équipe pour le travail qu’ils font. Il est important de reconnaître que d’excellents travaux sont accompli par les membres de l’équipe, en particulier devant leur équipe de direction.
 
 6.  Enregistrez toujours la fin de la réunion pour accepter les étapes suivantes et identifiez le propriétaire de ces points d’action acceptés pendant la réunion.
 
@@ -174,7 +174,7 @@ Après avoir passé en revue la vue d’ensemble du comité directeur, il est te
 
     -   Avons-nous la bonne représentation de l’entreprise et du leadership ?
 
-    -   Les membres que nous avons identifiés peuvent-ils influencer leur unité d’entreprise ou leurs pairs dans d’autres unités ?
+    -   Les membres identifiés peuvent-ils influencer leur unité d’entreprise ou leurs pairs dans d’autres unités ?
 
 2.  Créez une communication à envoyer à chaque membre du comité directeur :
 
@@ -202,7 +202,7 @@ La réussite du comité ne se produit pas par chance. Choisir les membres qui s�
 
 -   Un ordre du jour bien organisé qui conduit à des réunions volontaires.
 
--   Une alors qu’une communication ouverte est à votre service.
+-   Une alors qu’il s’agit d’une communication ouverte.
 
     -   La communication et la collaboration ouvertes donnent les moyens au comité. Créez un environnement dans lequel toutes les voix sont entendus et les avis respectés. Des perspectives uniques peuvent avoir le plus grand impact.
 
@@ -222,4 +222,4 @@ Pendant le cycle de vie de la solution, le rôle du comité changera. Au terme d
 
 -   Définition et rapport de rapports sur des OKR opérationnels. Les principaux résultats et indicateurs de réussite changeront pendant le cycle de vie de la solution. Les résultats commerciaux souhaités doivent continuer d’être suivis et signalés. Continuez à rapporter sur la qualité et la fiabilité de la solution vocale dans le contexte de l’amélioration du résultat d’entreprise. Des mesures supplémentaires et des résultats clés, tels que les indicateurs de sentiment des utilisateurs, d’adoption des utilisateurs et de support seront les principaux indicateurs de réussite.
 
--   Utilisez un plus grand groupe de membres du comité directeur pour couvrir les phases de valeur de lecteur de plusieurs solutions. Cherchez les possibilités d’utiliser plus efficacement le comité directeur. Utilisez le comité pour fournir des conseils à travers une plus grande sphère de solutions.
+-   Utilisez un plus grand groupe de membres du comité directeur pour couvrir les phases de valeur de lecteur de plusieurs solutions. Recherchez les opportunités d’utiliser plus efficacement le comité directeur. Utilisez le comité pour fournir des conseils à travers une plus grande sphère de solutions.

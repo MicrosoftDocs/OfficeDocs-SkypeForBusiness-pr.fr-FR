@@ -19,24 +19,24 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
-ms.openlocfilehash: 68bb6a33741c1508765c0808b69934073e220445
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 2d4d64232d0422a4ff0c2857f10cf7f2dbb2ea6fb9b2f0a258dc06fb1a7a5263
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509995"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293791"
 ---
 # <a name="phone-number-management-for-japan"></a>Téléphone gestion des nombres pour le Japon
 
-Au Japon, nous nous sommes associés à SoftBank pour l’achat et la mise en service de plans d’appels pour les clients ayant une adresse de facturation au Japon. SoftBank va vendre ses forfaits d’appels, fournir des numéros d’utilisateur pour le Japon et assurer la gestion des numéros de téléphone. Toutefois, les numéros de service et les licences pour l’audioconférence, les attendants automatiques et les files d’attente d’appels seront toujours vendus et gérés par Microsoft 365 et Office 365.
+Au Japon, nous nous sommes associés à SoftBank pour l’achat et la mise en service de plans d’appels pour les clients ayant une adresse de facturation au Japon. SoftBank va vendre ses forfaits d’appels, fournir des numéros d’utilisateur pour le Japon et assurer la gestion des numéros de téléphone. Toutefois, les numéros de service et les licences pour l’audioconférence, les attendants automatiques et les files d’attente d’appels restent vendus et gérés par Microsoft 365 et Office 365.
 
 Pour plus d’informations [sur SoftBank Calling.](https://aka.ms/SoftBankVoicePlan)
 
 Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
 
-Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre organisation.](manage-phone-numbers-for-your-organization.md)
+Pour plus d’informations, [voir Gérer les numéros de téléphone pour votre organisation.](manage-phone-numbers-for-your-organization.md)
   
-|**Que voulez-vous faire ?**|**Suivez la procédure suivante et téléchargez les formulaires corrects**|
+|**Que voulez-vous faire ?**|**Suivez la procédure suivante et téléchargez les formulaires corrects**|
 |:-----|:-----|
 |Obtenez de nouveaux numéros de téléphone utilisateur pour les forfaits d’appels au Japon.|Contactez [SoftBank Calling pour obtenir](https://aka.ms/SoftBankVoicePlan) de nouveaux numéros de téléphone pour vos utilisateurs. Ils ajouteront alors ces numéros à votre organisation de sorte que vous les affectiez à vos utilisateurs. <br/>
 |Obtenez de nouveaux numéros de téléphone de service pour l’audioconférence, les files d’attente automatiques et les files d’attente d’appels au Japon.|[Pour obtenir des instructions, contactez PTSN.](contact-pstn-service-desk.md)|
@@ -44,7 +44,7 @@ Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre 
 |Obtenez les numéros de téléphone transférés vers les Microsoft 365 ou Office 365 pour les files **d’attente d’appels** au Japon.|Contactez [SoftBank Calling pour](https://aka.ms/SoftBankVoicePlan) transférer des numéros de téléphone de service. Ils ajouteront alors ces numéros à votre organisation.|
 |Modifiez l’adresse d’urgence affectée aux utilisateurs qui ont un numéro de téléphone de plan d’appels.|Contactez [SoftBank Calling pour](https://aka.ms/SoftBankVoicePlan) apporter des modifications d’adresse d’urgence. Ils peuvent mettre à jour ces informations pour vous.|
 |Modifiez un numéro d’utilisateur en numéro de service. |Pas de prise en charge actuellement lors de l’utilisation de SoftBank Calling.|
-|Mettre à jour le service d’annuaire pour les numéros de files d’attente ou de service automatique|Pour ajouter ou modifier les numéros de file d’attente d’appels ou de service automatique, contactez [le service PSTN.](contact-pstn-service-desk.md) |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier la file d’attente des appels ou les numéros de standard automatique, contactez l’[assistance du service PSTN](contact-pstn-service-desk.md). |
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -54,4 +54,4 @@ Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre 
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
+[Étiquette d’exclusion de responsabilité d’appel d’urgence](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

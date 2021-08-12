@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Guide détaillé détaillant la manière de configurer Système téléphonique (PBX cloud) pour votre organisation dans Microsoft 365 ou Office 365.
-ms.openlocfilehash: c00b628716a54adcb19c3dd1f00e8e9e2b6f4c40
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 1fd75870b53dafa5ade4db4f66a82593cce81836994cd4b5e01f1f1bda4864b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701212"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293001"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>La configuration système téléphonique de votre organisation
 
@@ -122,12 +122,12 @@ Pour plus d’informations sur les files d’attente d’appels, voir [Créer un
 
 Les employés automatiques peuvent appeler votre organisation et parcourir un système de menus pour accéder au service, à la file d’attente d’appels, au personnel ou à l’opérateur qui leur sont proposés. Vous pouvez créer un attendant automatique pour votre organisation à l’aide du Centre Teams’administration.
 
-Pour plus d’informations sur la configuration d’une fonction de attendendant automatique dans le cloud, voir [Configurer un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
+Pour plus d’informations sur la configuration d’un service de réunion automatique dans le cloud, voir [Configurer un attendant automatique cloud.](create-a-phone-system-auto-attendant.md)
 
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Étape 9 : Affecter les numéros de téléphone des services (services d’audioconférence, files d’attente des appels, standards automatiques)
 
-Une fois vos numéros de service à **l’étape 4 ci-dessus**, vous devez les affecter à chaque type de service que vous souhaitez. Par exemple, si vous souhaitez un numéro de téléphone de service dédié (gratuit ou gratuit), vous devez affecter le numéro au pont de conférence.
+Une fois vos numéros de service à **l’étape 4 ci-dessus**, vous devez les affecter à chaque type de service que vous souhaitez. Par exemple, si vous souhaitez un numéro de téléphone de service dédié (gratuit ou gratuit), vous devrez affecter le numéro au pont de conférence.
 
 - Pour l’audioconférence, vous pouvez affecter un numéro dédié à un pont de conférence en Teams des ponts de conférence du Centre d’administration Et en respectant les  >    >   invites.  Pour plus d’informations, voir Modifier les numéros gratuits ou gratuits [sur votre pont d’audioconférence.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
@@ -144,10 +144,10 @@ Si vous voulez utiliser des numéros gratuits avec Microsoft Teams, vous devez c
 Si vous ne définissez pas la facturation des crédits de communication et si vous n’affectez pas de licences crédits de communication à vos **utilisateurs** et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre forfait d’audioconférence dans votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’un appel sortant d’une réunion d’audioconférence. Pour plus d’informations, notamment sur les montants des fonds [recommandés,](what-are-communications-credits.md) voir Quels sont les crédits de communication ? et Configurer les [crédits de communication pour votre organisation.](set-up-communications-credits-for-your-organization.md)
   
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Voici ce que vous obtenez avec les Système téléphonique dans Microsoft 365 ou Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](getting-service-phone-numbers.md)
 

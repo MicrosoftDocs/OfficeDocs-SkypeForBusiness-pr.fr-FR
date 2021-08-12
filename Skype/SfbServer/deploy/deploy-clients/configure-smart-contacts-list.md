@@ -1,5 +1,5 @@
 ---
-title: Configurer la liste de contacts intelligents dans les clients Skype Entreprise
+title: Configurer la liste de contacts intelligents dans Skype Entreprise clients
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
-description: 'Résumé : Découvrez comment activer la fonctionnalité liste de contacts intelligents dans le client Skype Entreprise.'
-ms.openlocfilehash: 1f049493d591cd561b87611f8a34f9176ace165a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment activer la fonctionnalité liste de contacts intelligents dans le client Skype Entreprise client.'
+ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303148"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurer la liste de contacts intelligents dans les clients Skype Entreprise
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurer la liste de contacts intelligents dans Skype Entreprise clients
 
-**Résumé :** Découvrez comment activer la fonctionnalité de liste de contacts intelligents dans le client Skype Entreprise.
+**Résumé :** Découvrez comment activer la fonctionnalité liste de contacts intelligents dans le client Skype Entreprise client.
 
-La fonctionnalité liste de contacts actifs permet à vos utilisateurs finaux d’avoir une population automatique de listes de contacts. Lors de la première utilisation de Skype Entreprise, vos utilisateurs voient automatiquement leur responsable et d’autres personnes dans leur équipe. Cette fonctionnalité est activée par défaut pour les utilisateurs de Microsoft 365 et d’Office 365, mais vous devez l’activer explicitement pour vos utilisateurs locaux en configurant le paramètre de stratégie du client.
+La fonctionnalité liste de contacts actifs permet à vos utilisateurs finaux d’avoir une population automatique de listes de contacts. Lors de la première utilisation Skype Entreprise, vos utilisateurs voient automatiquement leur responsable et d’autres personnes dans leur équipe. Cette fonctionnalité est activée par défaut pour les utilisateurs Microsoft 365 et Office 365, mais vous devez l’activer explicitement pour vos utilisateurs locaux en configurant le paramètre de stratégie du client.
 
-Gardez les choses à l’esprit lors de la configuration de cette fonctionnalité :
+Gardez à l’esprit les questions suivantes lors de la configuration de cette fonctionnalité :
 
-- Les utilisateurs, jusqu’à 13, sont automatiquement ajoutés à la liste des contacts actifs dans l’ordre suivant :
+- Les utilisateurs, jusqu’à 13, sont automatiquement ajoutés à la liste de contacts actifs dans l’ordre suivant :
 
-  1. Manager
+  1. Responsable
 
   2. Directs par ordre alphabétique
 
   3. Homologues dans l’ordre alphabétique
 
-- La première fois qu’un utilisateur se connecte, un nouveau groupe, nommé Mon groupe, est créé. Le groupe est automatiquement rempli avec des personnes dans la relation de groupe AD de l’utilisateur en fonction de l’alias utilisateur rempli dans le champ Gestionnaire. Notez que les modifications apportées à l’appartenance au groupe AD n’entraînent pas de mises à jour du groupe Mon groupe une fois qu’il est initialement rempli. Si un utilisateur supprime un contact ou le groupe, ni le contact ni le groupe ne sont re-créés. 
+- La première fois qu’un utilisateur se connecte, un nouveau groupe, nommé Mon groupe, est créé. Le groupe est automatiquement rempli avec des personnes dans la relation de groupe AD de l’utilisateur en fonction de l’alias d’utilisateur rempli dans le champ Gestionnaire. Notez que les modifications apportées à l’appartenance au groupe AD n’entraînent pas de mises à jour du groupe Mon groupe une fois qu’il est initialement rempli. Si un utilisateur supprime un contact ou le groupe, ni le contact ni le groupe n’est re-créé. 
 
-- Si le marquage automatique est désactivé, les contacts de la liste sont marqués pour les modifications de présence. Le marquage automatique est allumé par défaut, mais vous pouvez choisir de le désactiver. 
+- Si le marquage automatique est allumé, les contacts de la liste sont marqués pour les modifications de présence. Le marquage automatique est désactivé par défaut, mais vous pouvez choisir de le désactiver. 
 
 - Tous les nouveaux utilisateurs du groupe seront informés qu’ils ont été ajoutés à la liste des contacts. Les utilisateurs peuvent ajouter manuellement de nouveaux membres à leur groupe Mon groupe ou à d’autres groupes de leur choix.
 
@@ -53,7 +53,7 @@ Pour activer la fonctionnalité liste de contacts actifs pour vos utilisateurs, 
 
 ### <a name="create-a-policy-entry-to-enable-smart-contacts-list"></a>Créer une entrée de stratégie pour activer la liste de contacts intelligents
 
-Pour créer une entrée de stratégie afin d’activer la fonctionnalité Liste de contacts intelligents, utilisez l’cmdlet [New-CsClientPolicyEntry](/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) avec l’option EnableClientAutoPopulateWithTeam comme suit :
+Pour créer une entrée de stratégie afin d’activer la fonctionnalité liste de contacts intelligents, utilisez l’cmdlet [New-CsClientPolicyEntry](/powershell/module/skype/new-csclientpolicyentry?view=skype-ps) avec l’option EnableClientAutoPopulateWithTeam comme suit :
 
 ```powershell
 $x=New-CsClientPolicyEntry -Name EnableClientAutoPopulateWithTeam -Value $True
@@ -74,7 +74,7 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 Vous devez également définir le paramètre AddressBookAvailability pour la stratégie correspondante sur WebSearchOnly. Pour plus d’informations, [voir Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
 
-### <a name="troubleshoot"></a>Résoudre les problèmes
+### <a name="troubleshoot"></a>Résoudre des problèmes
 
 Si la liste de contacts intelligents ne fonctionne pas comme prévu, vérifiez ce qui suit :
 
@@ -82,8 +82,8 @@ Si la liste de contacts intelligents ne fonctionne pas comme prévu, vérifiez c
 
 - Confirmez que les informations de l’organisation AD sont remplies.
 
-- Collectez les journaux du client Skype Entreprise sur un nouvel utilisateur pour une analyse plus approfondie.
+- Collectez Skype Entreprise journaux client sur un nouvel utilisateur pour une analyse plus approfondie.
 
-- Confirmez que l’interface utilisateur du client Skype Entreprise n’affiche pas de message lui notant qu’elle ne peut pas se connecter au carnet d’adresses. Pour confirmer la connectivité du carnet d’adresses, effectuez une recherche pour un utilisateur dans la barre de recherche du client Skype Entreprise.
+- Confirmez que l’Skype Entreprise’interface utilisateur du client n’affiche pas de message lui notant qu’il ne peut pas se connecter au carnet d’adresses. Pour confirmer la connectivité du carnet d’adresses, effectuez une recherche pour un utilisateur dans la barre Skype Entreprise de recherche du client.
 
-- Les problèmes de réplication AD DS peuvent entraîner la non-résolue des contacts lorsqu’un utilisateur se signe pour la première fois dans Skype Entreprise.
+- Les problèmes de réplication AD DS peuvent entraîner la non-résolue des contacts lorsqu’un utilisateur se Skype Entreprise.

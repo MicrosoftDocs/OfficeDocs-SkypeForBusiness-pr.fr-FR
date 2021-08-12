@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions d’implémentation de la messagerie vocale en nuage pour les utilisateurs Skype Entreprise Server.
-ms.openlocfilehash: 76d65efcc0df59396942c8a38ebc22006427a0f0
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8a0c04d90d77b0843ef8b9097abec91c04ee7bb336bf04e0cbfcc9c7fe5fe38a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510575"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337254"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service Messagerie vocale infonuagique pour les utilisateurs locaux
 
@@ -77,7 +77,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 Pour vous assurer que la messagerie vocale de votre organisation est acheminée vers le service Messagerie vocale infonuagique, vous devez configurer une stratégie de messagerie vocale hébergée pour votre organisation. Dans de nombreux cas, une seule stratégie de messagerie vocale hébergée est requise et vous pouvez modifier la stratégie globale pour répondre à vos besoins. Si votre organisation nécessite plusieurs stratégies de messagerie vocale hébergée, vous pouvez ajouter des stratégies à l’aide de la cmdlet new-cshostedvoicemailpolicy.
 
-Pour modifier la stratégie globale, exécutez la commande suivante dans l’environnement de Skype Entreprise Server management Shell après avoir mis à jour votre Organisation et tenantID :
+Pour modifier la stratégie globale, exécutez la commande suivante dans l’environnement de Skype Entreprise Server management Shell après avoir mis à jour votre Organisation et TenantID :
 
 ```PowerShell
 Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com
@@ -89,13 +89,13 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     Le nom de l’organisation est également le nom de domaine par défaut Microsoft 365 ou Office 365.
 
-Pour vous assurer qu’une stratégie de messagerie vocale hébergée a été correctement créée, exécutez la commande suivante :
+Pour vous assurer qu’une stratégie de messagerie vocale hébergée a été créée correctement, exécutez la commande suivante :
 
 ```PowerShell
 Get-CsHostedVoicemailPolicy
 ```
 
-## <a name="assign-a-hosted-voicemail-policy"></a>Attribuer une stratégie de messagerie vocale hébergée
+## <a name="assign-a-hosted-voicemail-policy"></a>Affecter une stratégie de messagerie vocale hébergée
 
 Par défaut, la stratégie de messagerie vocale hébergée globale est affectée à tous les utilisateurs. Si vous utilisez une stratégie différente, avant d’activer les utilisateurs pour la messagerie vocale hébergée, vous devez d’abord accorder aux utilisateurs la stratégie de messagerie vocale hébergée souhaitée à l’aide de l’cmdlet [Grant-CSHostedVoicemailPolicy.](/powershell/module/skype/grant-cshostedvoicemailpolicy?view=skype-ps)
 
@@ -116,7 +116,7 @@ Par exemple, la commande suivante active un compte d’utilisateur pour Messager
 Set-CsUser -Identity "User1" -HostedVoiceMail $True
 ```
 
-L’cmdlet vérifie qu’une stratégie Messagerie vocale infonuagique(au niveau global, du site ou de l’utilisateur) s’applique à cet utilisateur. Si aucune stratégie ne s’applique, la cmdlet échoue.  
+L’cmdlet vérifie qu’une stratégie Messagerie vocale infonuagique au niveau global, du site ou de l’utilisateur s’applique à cet utilisateur. Si aucune stratégie ne s’applique, la cmdlet échoue.  
 
 L’exemple suivant désactive un compte d’utilisateur pour Messagerie vocale infonuagique :
 

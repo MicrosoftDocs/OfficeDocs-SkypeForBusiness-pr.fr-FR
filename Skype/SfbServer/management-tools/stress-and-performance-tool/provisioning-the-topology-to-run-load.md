@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
-description: Modifications ou approvisionnement de la topologie de Skype Entreprise Server 2015 pour permettre aux utilisateurs d’exécuter correctement l’outil Stress and Performance.
-ms.openlocfilehash: 8d422497d11c9e56e4d5b205269a09f96dffc136
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Entreprise Server la topologie 2015 ou la mise en service pour permettre aux utilisateurs d’exécuter correctement l’outil Stress and Performance.
+ms.openlocfilehash: 750a53882344d4a1df357b049fbd1dcbf01c3368fb903552bc5f398761cce66a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328109"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Mise en service de la topologie pour exécuter la charge dans les scénarios de contrainte et de performances
  
-Modifications ou approvisionnement de la topologie de Skype Entreprise Server 2015 pour permettre aux utilisateurs d’exécuter correctement l’outil Stress and Performance.
+Skype Entreprise Server la topologie 2015 ou la mise en service pour permettre aux utilisateurs d’exécuter correctement l’outil Stress and Performance.
   
 En fonction de vos paramètres existants et de la configuration de votre déploiement de Skype Entreprise Server 2015, vous devrez peut-être apporter des modifications à votre environnement. Voici une liste de ces modifications :
   
-1. Définissez la stratégie Windows PowerShell’exécution sur Non restreint. Si vous ne savez pas exactement ce qu’il est actuellement, vous pouvez ouvrir Skype Entreprise Server Management Shell et exécuter la commande ci-après :
+1. Définissez la stratégie Windows PowerShell’exécution sur Non restreint. Si vous ne savez pas exactement ce qu’il est actuellement, vous pouvez ouvrir l’Skype Entreprise Server Management Shell et exécuter la commande ci-après :
     
    ```PowerShell
    Get-ExecutionPolicy
@@ -39,9 +39,9 @@ En fonction de vos paramètres existants et de la configuration de votre déploi
    Set-ExecutionPolicy -Unrestricted
    ```
 
-2. Pour configurer Efficacement Skype Entreprise Server, vous devez :
+2. Pour configurer efficacement Skype Entreprise Server, vous devez :
     
-    - Familiarisez-vous avec votre topologie Skype Entreprise Server 2015 (par exemple, les noms d’ordinateur, les instances de service, les noms de site et les stratégies).
+    - Familiarisez-vous avec votre topologie Skype Entreprise Server 2015 (telle que les noms d’ordinateur, les instances de service, les noms de site et les stratégies).
     
     - Attribuez certains des utilisateurs créés à des groupes, tels que des groupements de recherche Response Group (par exemple, des URI SIP).
     

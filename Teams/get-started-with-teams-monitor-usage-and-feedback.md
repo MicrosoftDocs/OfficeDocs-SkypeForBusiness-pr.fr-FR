@@ -1,5 +1,5 @@
 ---
-title: Surveiller l’utilisation et les commentaires dans Microsoft Teams
+title: Surveiller l’utilisation et les commentaires dans Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,14 +18,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc18dedc06618f2c9f64ead446a82829ad494bc9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 481e83f7a76332b052516ce557b77594be16736f06c30c30082aeba2afcccafe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337382"
 ---
-# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
+# <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
 Il est important de savoir comment les utilisateurs utilisent Teams et quelle est leur expérience avec Teams. Les rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et, avec les commentaires des utilisateurs, vous donne la perspective nécessaire pour procéder au déploiement à plus large échelle et savoir où hiérarchiser les efforts de formation et de communication.
 
 ## <a name="monitor-usage"></a>Surveiller l’utilisation
@@ -54,8 +54,8 @@ Pour afficher ces rapports, vous devez être un administrateur général dans Mi
 
 Pour en savoir plus, consultez l’article [Rapports analytiques et création de rapports](teams-analytics-and-reports/teams-reporting-reference.md). 
 
-### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Rapports d’activité Teams (centre d’administration Microsoft 365)
-Vous pouvez également consulter l’activité des équipes avec des rapports qui sont disponibles dans le centre d’administration Microsoft 365. Ces rapports font partie des rapports Microsoft 365 dans le Centre d’administration Microsoft 365 et fournissent des informations sur l’activité des utilisateurs et l’utilisation des périphériques. 
+### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Rapports d’activité Teams (centre d’administration Microsoft 365)
+Vous pouvez également consulter l’activité des équipes avec des rapports qui sont disponibles dans le centre d’administration Microsoft 365. Ces rapports font partie des rapports Microsoft 365 dans le Centre d’administration Microsoft 365 et fournissent des informations sur l’activité des utilisateurs et l’utilisation des périphériques. 
 
 Pour afficher ces rapports, accédez au centre d’administration Microsoft 365, cliquez sur **Rapports** > **Utilisation**. Sous **Sélectionner un rapport**, cliquez sur **Microsoft Teams**. À partir de là, sélectionnez le rapport que vous voulez afficher.
 
@@ -68,7 +68,7 @@ Vous pouvez utiliser les rapports analytiques concernant l’utilisation de Micr
 Pour plus d’informations, voir [Rapports analytiques d’utilisation de Microsoft 365](https://support.office.com/article/Microsoft-365-usage-analytics-77ff780d-ab19-4553-adea-09cb65ad0f1f). 
 
 ## <a name="gather-feedback"></a>Recueillir des commentaires
-L’adoption d’une nouvelle expérience de collaboration dépend en grande partie de la modification du comportement des utilisateurs. Pour encourager le changement, il faut offrir de la formation, des encouragements et des exemples d’utilisation positifs. Il est important que les utilisateurs puissent s’exprimer lors de la transition vers Teams et puissent ouvertement partager leur expérience. Nous vous recommandons d’utiliser le canal de commentaires dans l’équipe « Découverte de Teams » créée pour collecter et répondre aux commentaires des utilisateurs concernant leur expérience avec Teams. 
+L’adoption d’une nouvelle expérience de collaboration dépend en grande partie de la modification du comportement des utilisateurs. Pour encourager le changement, il faut offrir de la formation, des encouragements et des exemples d’utilisation positifs. Il est important que les utilisateurs puissent s’exprimer lors de la transition vers Teams et puissent ouvertement partager leur expérience. Nous vous recommandons d’utiliser le canal de commentaires dans l’équipe « Découverte de Teams » créée pour collecter et répondre aux commentaires des utilisateurs concernant leur expérience avec Teams. 
 
 ## <a name="next-steps"></a>Étapes suivantes
 [Obtenir des ressources pour planifier le déploiement à l’échelle de votre organisation de Teams](get-started-with-teams-resources-for-org-wide-rollout.md).

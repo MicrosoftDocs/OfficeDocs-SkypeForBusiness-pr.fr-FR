@@ -20,16 +20,16 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer Téléphone Microsoft routage système direct pour connecter votre infrastructure téléphonique locale à Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284175"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
-Téléphone Microsoft Le routage direct du système vous permet de connecter votre infrastructure téléphonique locale à Microsoft Teams. Cet article répertorie les étapes de haut niveau requises pour connecter un contrôleur de session en ligne local pris en charge au routage direct, et comment configurer les utilisateurs d’Teams de façon à utiliser le routage direct pour se connecter au réseau téléphonique commuté (PSTN). Cet article intait des liens vers des articles associés pour plus d’informations.  
+Téléphone Microsoft Le routage direct du système vous permet de connecter votre infrastructure téléphonique locale à Microsoft Teams. Cet article répertorie les étapes de haut niveau requises pour connecter un contrôleur de session en ligne local pris en charge au routage direct, et comment configurer les utilisateurs d’Teams de façon à utiliser le routage direct pour se connecter au réseau téléphonique commuté (PSTN). Cet article est associé à des articles pour plus d’informations.  
 
 Pour savoir si le routage direct est la solution adaptée à votre organisation, voir [Système téléphonique routage direct.](direct-routing-landing-page.md) Pour plus d’informations sur les conditions préalables et la planification de votre déploiement, voir [Plan de routage direct.](direct-routing-plan.md)
 
@@ -58,7 +58,7 @@ Pour configurer Téléphone Microsoft routage direct et permettre aux utilisateu
 Si vous configurez un SBC pour plusieurs locataires, vous pouvez également lire Configurer un SBC pour [plusieurs locataires.](direct-routing-sbc-multiple-tenants.md)
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 

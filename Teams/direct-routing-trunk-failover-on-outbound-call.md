@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lisez cette rubrique pour découvrir comment gérer les failovers de ligne lors des appels sortants d’un Teams vers le contrôleur de session border Controller (SBC).
-ms.openlocfilehash: c88394cba0a98316ac272901a6ab2972e9eaf3c8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 874372c27a88a912d575317fa9ab960ff9b2d4ccfe8eb7e280425667826e9f1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293851"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Basculement de jonction sur les appels sortants
 
@@ -42,7 +42,7 @@ Supposons qu’un SBC a répondu à une invitation entrante avec le code « Dél
 
 Ce SBC particulier peut avoir des difficultés de connexion au contact de l’appelant, peut-être en raison d’une configuration réseau mal configurée ou d’une autre erreur. Toutefois, il existe un autre SBC dans l’itinéraire, qui pourra peut-être joindre l’appelé.
 
-Dans le diagramme suivant, lorsqu’un utilisateur appelle un numéro de téléphone, deux SCS peuvent potentiellement fournir cet appel dans l’itinéraire. Au début, SBC1.contoso.com est sélectionné pour l’appel, mais SBC1.contoso.com n’est pas en mesure d’accéder à un réseau PTSN en raison d’un problème de réseau.
+Dans le diagramme suivant, lorsqu’un utilisateur appelle un numéro de téléphone, deux SCS peuvent potentiellement remettre cet appel dans l’itinéraire. Au début, SBC1.contoso.com est sélectionné pour l’appel, mais SBC1.contoso.com n’est pas en mesure d’accéder à un réseau PTSN en raison d’un problème de réseau.
 Par défaut, l’appel sera effectué à ce moment-là. 
  
 ![Diagramme montrant SBC ne parvient pas à joindre PSTN en raison d’un problème de réseau](media/direct-routing-failover-response-codes1.png)

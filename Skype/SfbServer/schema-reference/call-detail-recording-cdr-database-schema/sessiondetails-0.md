@@ -12,29 +12,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
-description: La vue SessionDetails stocke des informations sur les sessions D’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou un autre type de session. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 71875dd1f3399b382c1fac3754436ada052873af
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: La vue SessionDetails stocke des informations sur les sessions d’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou tout autre type de session. Cette vue a été introduite dans Microsoft Lync Server 2013.
+ms.openlocfilehash: 7b8822766b885ea729bed28e3191846281033225383faada0120b14d00e1a1ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284514"
 ---
 # <a name="sessiondetails-view"></a>Affichage SessionDetails
  
-La vue SessionDetails stocke des informations sur les sessions D’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou un autre type de session. Cette vue a été introduite dans Microsoft Lync Server 2013.
+La vue SessionDetails stocke des informations sur les sessions d’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou tout autre type de session. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
 |**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus d’informations, voir le tableau Boîtes de dialogue du tableau Skype Entreprise [Server 2015.](dialogs.md) <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus d’informations, voir le tableau Dialogs dans Skype Entreprise [Server 2015.](dialogs.md) <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**InviteTime** <br/> |DateHeure  <br/> |Heure de la première requête INVITE. Ce champ est généralement renseigné avec des données issues du message INVITE initial de la session. En l’absence de message INVITE, le champ est renseigné avec la date et l’heure du premier message SIP pertinent (BYE, CANCEL, MESSAGE ou INFO). Ce champ est généralement renseigné avec des données issues du message INVITE initial de la session. En l’absence de message INVITE, le champ est renseigné avec la date et l’heure du premier message SIP pertinent (BYE, CANCEL, MESSAGE ou INFO).  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a démarré la session.  <br/> |
 |**ToUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a rejoint la session.  <br/> |
 |**FromUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a démarré la session. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a rejoint la session. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**FromTenant** <br/> |nvarchar(450)  <br/> |Client de l’utilisateur qui a démarré la session. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a rejoint la session. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
+|**FromTenant** <br/> |nvarchar(450)  <br/> |Client de l’utilisateur qui a démarré la session. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a rejoint la session. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
 |**FromEndpointId** <br/> |uniqueidentifier  <br/> |Identificateur unique du point de terminaison de l’utilisateur qui a démarré la session.  <br/> |
 |**ToEndpointId** <br/> |uniqueidentifier  <br/> |Identificateur unique du point de terminaison de l’utilisateur qui a rejoint la session.  <br/> |
 |**EndTime** <br/> |DateHeure  <br/> |Heure de fin de la session.  <br/> |
@@ -56,8 +56,8 @@ La vue SessionDetails stocke des informations sur les sessions D’égal à éga
 |**ReferredByTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a référencé la session. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
 |**DialogId** <br/> |varchar(775)  <br/> |ID de dialogue SIP. Le format est :  <br/> dialog;from-tag;to-tag  <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> |GUID utilisé pour corréler plusieurs sessions.  <br/> |
-|**ReplaceDialogIdTime** <br/> |DateHeure  <br/> |Heure de la boîte de dialogue qui a été remplacée par la session. Utilisé conjointement avec ReplaceDialogIdSeq pour identifier de manière unique une boîte de dialogue remplacée par la session. Pour plus d’informations, voir le tableau Dialogs dans Skype Entreprise [Server 2015.](dialogs.md) <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec ReplaceDialogIdTime pour identifier de manière unique une boîte de dialogue remplacée par la session. Pour plus d’informations, voir le tableau Dialogs dans Skype Entreprise [Server 2015.](dialogs.md) <br/> |
+|**ReplaceDialogIdTime** <br/> |DateHeure  <br/> |Heure de la boîte de dialogue qui a été remplacée par la session. Utilisé conjointement avec ReplaceDialogIdSeq pour identifier de manière unique une boîte de dialogue remplacée par la session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec ReplaceDialogIdTime pour identifier de manière unique une boîte de dialogue remplacée par la session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**ReplacesDialogId** <br/> |varchar(775)  <br/> |ID de dialogue SIP de la session. Le format est :  <br/> dialog;from-tag;to-tag  <br/> |
 |**ResponseTime** <br/> |DateHeure  <br/> |Heure de la réponse au premier message INVITE. Ce champ est généralement renseigné avec des données issues du message INVITE initial de la session. En l’absence de message INVITE, le champ est renseigné avec la date et l’heure du premier message SIP pertinent (BYE, CANCEL, MESSAGE ou INFO).  <br/> |
 |**ResponseCode** <br/> |int  <br/> |Code de réponse SIP à l’invitation de session. Ce champ est généralement renseigné avec des données issues du message INVITE initial de la session. En l’absence de message INVITE, le champ est renseigné avec la date et l’heure du premier message SIP pertinent (BYE, CANCEL, MESSAGE ou INFO).  <br/> |

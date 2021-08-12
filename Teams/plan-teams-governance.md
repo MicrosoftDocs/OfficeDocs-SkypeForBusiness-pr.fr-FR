@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f55183b114919048776b7fcb6f39ae6a084c29832652c32f87b97d258fb7f835
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293071"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planifier la gouvernance dans Teams
 
@@ -75,14 +75,14 @@ Votre organisation peut avoir des exigences supplémentaires pour définir des s
 > [!TIP]
 > Utilisez le tableau suivant pour capturer les besoins de votre organisation.
 
-|Fonctionnalité |Détails |Licence de produit Azure AD Premium requise |Decision |
+|Fonctionnalité |Détails |Azure AD Premium licence requise |Decision |
 |---------|---------|---------|---------|
 |Stratégie d’expiration |Gérez le cycle de vie Microsoft 365 de groupes en fixant une stratégie d’expiration. |P1 |TBD|
 |Stratégie de rétention |Conservez ou supprimez des données pour une période spécifique en fixant des stratégies de rétention Teams dans le Centre de sécurité et & conformité. **Remarque**: l’utilisation de cette fonctionnalité nécessite la Microsoft 365 licence Office 365 Entreprise E3 ou une licence supérieure. |Non |TBD |
 |Archiver et restaurer |Archivez une équipe quand elle n’est plus active mais que vous souhaitez la conserver pour référence ou pour la réactiver ultérieurement. |Non |TBD |
 
 > [!Note]
-> L’expiration de groupe est une fonctionnalité de Premium Azure AD. Pour que cette fonctionnalité soit disponible, votre client doit avoir un abonnement à Azure AD Premium et des licences pour l’administrateur qui configure les paramètres et les membres des groupes concernés.
+> L’expiration de groupe est Azure AD Premium fonctionnalité de regroupement. Pour que cette fonctionnalité soit disponible, votre client doit avoir un abonnement à Azure AD Premium et des licences pour l’administrateur qui configure les paramètres et les membres des groupes concernés.
 
 #### <a name="additional-information"></a>Informations supplémentaires
 
@@ -108,7 +108,7 @@ La gestion cohérente des membres de groupes restreints ou basés sur un projet 
 > [!TIP]
 > Utilisez le tableau suivant pour capturer les besoins de votre organisation.
 
-| Fonctionnalité | Détails | Licence de produit Azure AD Premium requise | Decision |
+| Fonctionnalité | Détails | Azure AD Premium licence requise | Decision |
 |:-|:-|:-|:-|
 | Avis sur Access | Révisions de l’accès à la configuration pour recertifier l’appartenance à intervalles réguliers d’équipes spécifiques | P2 | TBD |
 | Gestion des droits | Configurer le package d’accès pour permettre aux utilisateurs et aux invités de demander l’accès aux équipes | P2 | TBD |

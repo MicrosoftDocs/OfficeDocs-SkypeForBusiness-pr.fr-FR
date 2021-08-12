@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de session en bordure (SBC) pour servir plusieurs clients à des partenaires Microsoft et/ou des opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293911"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -79,7 +79,7 @@ Dans l’exemple suivant :
 
 Les sous-noms doivent correspondre au nom de nom de domaine complet (FQDN) de la ligne qui sera configurée pour le client et au nom de domaine complet dans l’en-tête Contact lors de l’envoi de l’invitation à Microsoft 365 ou Office 365.  
 
-Lorsqu’un appel arrive dans l’interface de Microsoft 365 ou Office 365 Routage direct, l’interface utilise l’en-tête Contact pour trouver le client dans lequel l’utilisateur doit être cherché. Le routage direct n’utilise pas la recherche de numéro de téléphone dans l’invitation, car certains clients peuvent avoir des numéros non DID qui peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de nom de domaine complet dans l’en-tête du contact est nécessaire pour identifier le client exact à rechercher sur le numéro de téléphone de l’utilisateur.
+Lorsqu’un appel arrive dans l’interface de Microsoft 365 ou Office 365 Routage direct, l’interface utilise l’en-tête Contact pour trouver le client dans lequel l’utilisateur doit être cherché. Le routage direct n’utilise pas la recherche de numéro de téléphone dans l’invitation, car certains clients peuvent avoir des numéros non DID qui peuvent se chevaucher dans plusieurs clients. Par conséquent, le nom de nom de domaine complet dans l’en-tête du contact est nécessaire pour identifier le client exact sur la base du numéro de téléphone de l’utilisateur.
 
 *Consultez [l’aide sur Office 365 domaines pour](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) plus d’informations sur la création de noms de domaine Microsoft 365 ou Office 365 organisation.*
 
@@ -114,13 +114,13 @@ Pour configurer la base et les sous-domaine, suivez les étapes décrites ci-des
 
 Vous ne pouvez ajouter des domaines que si vous vous êtes inscrit au Centre d’administration Microsoft 365 en tant qu’administrateur général. 
 
-Pour valider votre rôle, connectez-vous au Centre d’administration Microsoft 365 (, sur Utilisateurs actifs), puis vérifiez que vous avez un rôle Administrateur https://portal.office.com)   >  général. 
+Pour valider votre rôle, connectez-vous au Centre d’administration Microsoft 365 ( , allez à Utilisateurs actifs utilisateurs, puis vérifiez que vous avez un rôle Administrateur https://portal.office.com)   >  général. 
 
 Pour plus d’informations sur les rôles d’administrateur et la manière d’attribuer un rôle dans Microsoft 365 ou Office 365 rôles, voir À propos des [rôles d’administrateur.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Ajouter un domaine de base au client et le vérifier
 
-1. Dans le centre Microsoft 365 d’administration, allez à **Configurer**  >  **l’ajout de**  >  **domaines.**
+1. Dans le Centre d’administration Microsoft 365, allez à **Configurer**  >  **les domaines** Ajouter un  >  **domaine.**
 2. Dans la **zone Entrer un domaine dont vous êtes** propriétaire, tapez le nom de domaine (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *customers.adatum.biz.*
 
     ![Capture d’écran montrant la page Ajouter un domaine](media/direct-routing-2-sbc-add-domain.png)
@@ -158,12 +158,12 @@ Vous devrez créer un nom de sous-domaine unique pour chaque client. Dans cet ex
 
 Vous ne pouvez ajouter des domaines que si vous vous êtes inscrit au Centre d’administration Microsoft 365 en tant qu’administrateur général. 
 
-Pour valider votre rôle, connectez-vous au Centre d’administration Microsoft 365 (, sur Utilisateurs actifs), puis vérifiez que vous avez un rôle Administrateur https://portal.office.com)   >  général. 
+Pour valider votre rôle, connectez-vous au Centre d’administration Microsoft 365 ( , allez à Utilisateurs actifs utilisateurs, puis vérifiez que vous avez un rôle Administrateur https://portal.office.com)   >  général. 
 
 Pour plus d’informations sur les rôles d’administrateur et la manière d’attribuer un rôle dans Microsoft 365 ou Office 365 rôles, voir À propos des [rôles d’administrateur.](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Ajouter un sous-domaine au client et le vérifier
-1. Dans le centre Microsoft 365 d’administration, allez à **Configurer**  >  **l’ajout de**  >  **domaines.**
+1. Dans le Centre d’administration Microsoft 365, allez à **Configurer**  >  **les domaines** Ajouter un  >  **domaine.**
 2. Dans la **zone Entrer un domaine dont vous êtes** propriétaire, tapez le nom de domaine (FQDN) du sous-domaine de ce client. Dans l’exemple ci-dessous, le sous-domaine est sbc1.customers.adatum.biz.
 
     ![Capture d’écran de la page Ajouter un domaine](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
 
     Pour plus d’informations, voir Créer des enregistrements [DNS chez n’importe quel fournisseur d’hébergement DNS.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
 
-7. Revenir au Centre d’administration Microsoft 365 client et cliquer sur **Vérifier.** 
+7. Revenir à la base de données du Centre d’administration Microsoft 365 et cliquer sur **Vérifier.** 
 8. Sur la page suivante, **sélectionnez J’ajoute** les enregistrements DNS moi-même, puis je clique **sur Suivant.**
 
     ![Capture d’écran des options dans la page Mettre à jour les paramètres DNS](media/direct-routing-9-sbc-update-dns.png)
@@ -201,7 +201,7 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
     ![Capture d’écran de la page montrant l’état du programme d’installation terminé](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
-> L’URL de base et le sous-domaine du client doivent se trouver sur le même client pour pouvoir vous permettre d’ajouter une ligne _d’itinéraire_ directe.
+> L’URL de base et le sous-domaine du client doivent se trouver sur le même client pour pouvoir ajouter une ligne _d’itinéraire_ directe.
 
 ### <a name="activate-the-subdomain-name"></a>Activer le nom du sous-domaine
 
@@ -259,7 +259,7 @@ Reportez-vous aux [instructions du](#deploy-and-configure-the-sbc) fournisseur S
 
 Pour configurer leover pour un environnement multi-client, vous devez faire les choses suivantes :
 
-- Pour chaque client, ajoutez les FQDN pour deux SBCs différents.  Par exemple :
+- Pour chaque client, ajoutez les FQDN pour deux SBCs différents.  Par exemple :
 
    customer1.sbc1.contoso.com <br>
    customer1.sbc2.contoso.com <br>

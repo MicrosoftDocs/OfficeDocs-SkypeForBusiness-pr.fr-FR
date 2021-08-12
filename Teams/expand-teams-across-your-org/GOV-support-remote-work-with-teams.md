@@ -15,21 +15,21 @@ search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de l’organisation du service public grâce à Microsoft Teams, en particulier lorsqu’ils travaillent à domicile en réponse à l’épidémie de COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7e132251623de86ad9635b03b13b9eb6dbc0aed40752fb916fcff23b9fd4ede1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284115"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Prise en charge des employés du secteur public travaillant à distance avec Microsoft Teams
 
-Si vous utilisez Microsoft Teams dans Office 365 pour le secteur public, suivez ces instructions pour prendre en charge vos employés travaillant à distance.
+Si vous utilisez Microsoft Teams dans Office 365 pour le secteur public, suivez ces instructions pour prendre en charge vos employés travaillant à distance.
 
 
 ## <a name="it-guidance"></a>Instructions techniques
 
-Découvrez comment préparer Teams dans votre organisation :
+Découvrez comment préparer Teams dans votre organisation :
 
   - Assurez-vous que tout le monde a accès à Teams avec un [abonnement payant qui inclut Teams](/office365/servicedescriptions/teams-service-description). 
 
@@ -41,11 +41,11 @@ Découvrez comment préparer Teams dans votre organisation :
 
 ## <a name="end-user-communication"></a>Communication de l'utilisateur final
 
-Vous êtes prêt à déployer Teams pour vos utilisateurs ? Vous trouverez d’excellents modèles de courrier électronique dans le **[Kit de réussite pour les clients du secteur public](https://aka.ms/TeamsCSKGov)**  :
+Vous êtes prêt à déployer Teams pour vos utilisateurs ? Vous trouverez d’excellents modèles de courrier électronique dans le **[Kit de réussite pour les clients du secteur public](https://aka.ms/TeamsCSKGov)** :
 
   - Suscitez l’intérêt avec une **lettre** **d’annonce** et un **modèle de** **compte à rebours**
 
-  - Communiquez sur l’évènement de façon hebdomadaire avec des courriers électroniques attrayants :
+  - Communiquez sur l’évènement de façon hebdomadaire avec des courriers électroniques attrayants :
     
       - Faites la promotion du lancement de Teams avec un **e-mail de compte à rebours**
     
@@ -55,7 +55,7 @@ Vous êtes prêt à déployer Teams pour vos utilisateurs ? Vous trouverez d’
 
 ## <a name="end-user-guidance"></a>Conseils à l'utilisateur final
 
-Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider à prendre rapidement en main Microsoft Teams :
+Partagez ces ressources et vidéos avec vos utilisateurs finaux pour les aider à prendre rapidement en main Microsoft Teams :
 
   - Téléchargez le **[Guide de démarrage rapide pour le secteur public](https://aka.ms/quickstartgov)** pour découvrir les fonctions de base de Teams.
 

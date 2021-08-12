@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer la dérivation média avec Système téléphonique routage direct pour Microsoft Teams en changeant tous les utilisateurs en une fois ou en implémentant une approche progressive (recommandé).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
-ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
+ms.openlocfilehash: 74cfdb0d0bd92849b062d84df20e4ca1428f4034b2e8864bfc89ff70b77c6c3c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "44416894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284185"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurer le contournement de média avec un routage direct
 
@@ -47,7 +47,7 @@ Vous pouvez changer tous les utilisateurs en une fois ou implémenter une approc
 
   Il s’agit de l’approche recommandée, car elle permet une transition plus fluide et une expérience utilisateur ininterrompue. Cette approche nécessite la configuration du SBC, d’un nouveau nom de nom de domaine complet (FQDN) et de la configuration du pare-feu. Notez que vous devez vous assurer que votre certificat prend en charge les deux ligne. En san san, vous devez avoir deux noms **(sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
 
-![Migrer des ligne sans contournement vers des ligne activées par dérivation)](media/direct-routing-media-bypass-8.png)
+![Migrer des ligne sans contournement vers des ligne sans contournement)](media/direct-routing-media-bypass-8.png)
 
 Pour obtenir des instructions sur la configuration des ligne et l’étape de migration, consultez la documentation de votre fournisseur SBC :
 
@@ -60,7 +60,7 @@ Pour obtenir la liste des contrôleurs de session en bordure certifiés pour le 
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Planifier la dérivation média avec le routage direct](direct-routing-plan-media-bypass.md)
 
