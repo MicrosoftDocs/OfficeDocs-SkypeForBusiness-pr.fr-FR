@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies de réunion
+title: Gérer les stratégies de réunion dans Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams et les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 0b8a7c04140249b2017872857cdcb2b0daa178bf6d70a14cf20133197a1bce8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12ba479cd88da3f1c77e53750608817bdda40c1d2176e7055ed7d04cd8d29de7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850049"
 ---
-# <a name="manage-meeting-policies-in-teams"></a>Voir Gérer les stratégies de réunion dans Teams.
+# <a name="manage-meeting-policies-in-microsoft-teams"></a>Gérer les stratégies de réunion dans Microsoft Teams
 
 <a name="bkautomatically-admit-people"> </a>
 
@@ -60,14 +60,14 @@ Vous pouvez modifier les paramètres dans la stratégie globale ou créer et aff
 4. Sélectionnez les paramètres de votre choix.
 5. Cliquez sur **Enregistrer**.
 
-Par exemple, imaginons que vous avez un grand nombre d’utilisateurs et que vous voulez limiter la quantité de bande passante requise par la réunion. Vous devez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
+Par exemple, imaginons que vous avez un grand nombre d’utilisateurs et que vous voulez limiter la quantité de bande passante requise par la réunion. Vous devez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
 
-Sous **Audio & vidéo** :
+Sous **Audio & vidéo** :
 
 - Désactivez l’option Autoriser l’enregistrement Cloud.
 - Désactivez Autoriser la vidéo IP.
 
-Sous **Partage de contenu** :
+Sous **Partage de contenu** :
 
 - Désactiver le mode de partage d’écran.
 - Désactivez  Autoriser le tableau blanc.

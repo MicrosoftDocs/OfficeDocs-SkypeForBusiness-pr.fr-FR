@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 'Pour ajouter un nouveau serveur à un pool de serveurs existant, où le pool est l’un des suivants :'
-ms.openlocfilehash: e40cf71b0ab52e66a3a28e0362de4f9106ddd831
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4a0b06f12a53d933388770fe658712cd73162bbd0a003be38876e735c783b60d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344913"
 ---
 # <a name="add-server"></a>Ajouter un serveur
  

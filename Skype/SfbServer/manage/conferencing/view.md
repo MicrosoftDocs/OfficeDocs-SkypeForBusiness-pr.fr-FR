@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 'Résumé : Découvrez comment afficher les stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: afe86f0a77e73c3fa7bf96339c4865598a7bc609
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9cc55d9546337bd50e9508f85fc5f79e449df42278fe6166c7b32342a80babd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313212"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Afficher les stratégies de conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment afficher les stratégies de conférence dans Skype Entreprise Server.
   
-Vous pouvez afficher les stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez afficher les stratégies de conférence à l’Skype Entreprise Server du Panneau de Skype Entreprise Server Management Shell.
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Afficher les stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Afficher les stratégies de conférence à l’aide Skype Entreprise Server panneau de bord
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
     
@@ -39,9 +39,9 @@ Vous pouvez afficher les stratégies de conférence à l’aide du Panneau de co
     
     **Modifier la stratégie de \<policy\> conférence -** affiche les paramètres de la stratégie sélectionnée.
     
-    Pour plus d’informations sur la configuration des paramètres, voir Créer des stratégies de conférence [dans Skype Entreprise Server.](create-policies.md)
+    Pour plus d’informations sur la configuration des paramètres, voir Créer des stratégies de conférence [dans Skype Entreprise Server](create-policies.md).
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Afficher les stratégies de conférence à l’aide de Skype Entreprise Server Management Shell
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Afficher les stratégies de conférence à l’aide Skype Entreprise Server Management Shell
 
 Pour afficher les stratégies de conférence, utilisez l’cmdlet **Get-CsConferencingPolicy** :
   

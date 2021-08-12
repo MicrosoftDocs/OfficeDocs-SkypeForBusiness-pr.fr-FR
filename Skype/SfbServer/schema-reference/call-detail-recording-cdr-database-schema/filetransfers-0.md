@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 description: Chaque enregistrement représente une session de transfert de fichiers.
-ms.openlocfilehash: fde871bb434a2aa458bc59cfdf098c82ba3a7093
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ca1386919027e7f64444014f3569a2c4251e0ad7dbef79484eb812dc33eabf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334806"
 ---
 # <a name="filetransfers-table-in-skype-for-business-server-2015"></a>Table FileTransfers dans Skype Entreprise Server 2015
  
@@ -26,8 +26,8 @@ Chaque enregistrement représente une session de transfert de fichiers.
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session. Utilisée conjointement avec **SessionIdSeq** pour identifier de manière unique une session. Pour plus d’informations, voir le tableau Dialogs dans Skype Entreprise [Server 2015.](dialogs.md) <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’ID pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session. Pour plus d’informations, voir le tableau Dialogs dans Skype Entreprise [Server 2015.](dialogs.md) <br/> |
+|**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session. Utilisée conjointement avec **SessionIdSeq** pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’ID pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**Nom de fichier** <br/> |nvarchar(256)  <br/> ||Nom du fichier.  <br/> |
 |**FileIdentity** <br/> |uniqueidentifier  <br/> ||Identificateur unique permettant de différencier les transferts de fichiers concernant le même nom de fichier.  <br/> |
 |**Cookie** <br/> |nvarchar(128)  <br/> |Primaire  <br/> |Utilisé pour identifier chaque message de suivi comme étant associé à celui-ci.  <br/> |

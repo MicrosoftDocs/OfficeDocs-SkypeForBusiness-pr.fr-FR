@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: Le contrôle d’admission des appels détermine, en fonction de la bande passante réseau disponible, si des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, peuvent être établies.
-ms.openlocfilehash: 91739e3bf7c6d91add391eb27930cb9325faa017
+ms.openlocfilehash: 1e9919d43a7ebcbee4b85f29d12a8856eccf2529c14d9f65c17a7484f5dc4f02
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772905"
+ms.locfileid: "54345003"
 ---
 # <a name="skype-for-business-server-call-admission-control-planning-tool"></a>Skype Entreprise Server Outil de planification du contrôle d’admission des appels
  

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud montre l’un des sites définis sur votre topologie. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 015176937b37c8d13d4ebdbbf39c90af1e08668f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 868b3144166a1e5514d361ec029c00ac62ff335453e93d44779d485366ac7c65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311692"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Test - Nœud d’étendue de site Skype Entreprise Server
  

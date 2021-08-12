@@ -1,5 +1,5 @@
 ---
-title: Routage direct via le système téléphonique
+title: Téléphone vue d’ensemble du routage direct du système
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,17 +14,17 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Protocoles de routage direct
+description: HHw Direct Routing prend en charge la dérivation média avec un contrôleur de session Border Controller activé pour ICE Lite.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550836275a1ea060d6004c75e0f2bf301f3094a7752ae80ad44dc2c91bbf96bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15ec422b59cfb19e63acb0c8b2768792d0e4387dc3200db720ec9c0d8d00f67b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849529"
 ---
-# <a name="overview"></a>Vue d’ensemble
+# <a name="overview"></a>Présentation
 
 Cet article décrit la façon dont le routage direct prend en charge la dérivation média avec un contrôleur de session border controller (SBC) activé pour ICE Lite, comme décrit dans le [RFC 5245.](https://tools.ietf.org/html/rfc5245) Cet article est destiné aux administrateurs vocaux chargés de configurer la connexion entre le serveur SBC local et le service proxy SIP.
 

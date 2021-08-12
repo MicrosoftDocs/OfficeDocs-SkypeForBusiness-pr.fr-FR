@@ -1,5 +1,5 @@
 ---
-title: Configurer SharePoint Server pour rechercher des données Skype Entreprise archivées
+title: Configurer SharePoint server pour rechercher des données Skype Entreprise archivées
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: 'Résumé : Configurez SharePoint Server pour rechercher des données archivées par Exchange Server et Skype Entreprise Server.'
-ms.openlocfilehash: 406e0a713c65bc147ce6eb492f251a25ea2a3afc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Configurez SharePoint server pour rechercher des données archivées par Exchange Server et Skype Entreprise Server.'
+ms.openlocfilehash: 42bffc09c78295909969ec0da0bb5ccd212c8fc6ad6fb286bc243684df8b7dd3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833944"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295721"
 ---
-# <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurer SharePoint Server pour rechercher des données Skype Entreprise archivées
+# <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurer SharePoint server pour rechercher des données Skype Entreprise archivées
  
-**Résumé :** Configurez SharePoint Server pour rechercher des données archivées par Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.
+**Résumé :** Configurez SharePoint server pour rechercher des données archivées par Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.
   
 L’un des principaux avantages du stockage des transcriptions de messagerie instantanée et de conférence Web dans Exchange Server au lieu de Skype Entreprise Server est que le stockage de données au même emplacement permet aux administrateurs d’utiliser un seul outil pour rechercher des données Exchange archivées et/ou des données Skype Entreprise Server archivées. Étant donné que toutes les données sont stockées au même endroit (Exchange), tout outil qui peut rechercher des données Exchange archivées peut également rechercher des données Skype Entreprise Server archivées.
   
-Microsoft SharePoint Server 2013 est un outil qui facilite la recherche de données archivées. Si vous souhaitez utiliser SharePoint pour rechercher des données Skype Entreprise Server, vous devez d’abord effectuer toutes les étapes impliquées dans la configuration de l’archivage Exchange dans Skype Entreprise Server. Une fois Exchange Server et Skype Entreprise Server correctement intégrés, vous devez installer l’API gérée des [services web](https://go.microsoft.com/fwlink/p/?LinkId=258305) Exchange sur votre serveur SharePoint. Le fichier téléchargé (EWSManagedAPI.msi) peut être enregistré dans n’importe quel dossier de votre serveur SharePoint.
+Un outil qui facilite la recherche de données archivées est Microsoft SharePoint Server 2013. Si vous souhaitez utiliser SharePoint pour rechercher des données Skype Entreprise Server, vous devez d’abord effectuer toutes les étapes nécessaires à la configuration de l’archivage Exchange dans Skype Entreprise Server. Une Exchange Server et Skype Entreprise Server correctement intégrées, vous devez installer l’API gérée des [services web](https://go.microsoft.com/fwlink/p/?LinkId=258305) Exchange sur votre serveur SharePoint. Le fichier téléchargé (EWSManagedAPI.msi) peut être enregistré dans n’importe quel dossier de SharePoint serveur.
   
 Une fois le fichier téléchargé, procédez comme suit sur le serveur SharePoint :
   
@@ -51,7 +51,7 @@ Une fois le fichier téléchargé, procédez comme suit sur le serveur SharePoin
    iisreset
    ```
 
-Une fois les services web Exchange installés, vous devez configurer l’authentification de serveur à serveur entre SharePoint Server et Exchange Server. Pour ce faire, ouvrez d’abord SharePoint Management Shell et exécutez l’ensemble de commandes suivant :
+Une fois Exchange services Web, vous devez configurer l’authentification de serveur à serveur entre SharePoint Server et Exchange Server. Pour ce faire, ouvrez d’abord SharePoint Management Shell et exécutez l’ensemble de commandes suivant :
   
 ```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > Utilisez l’URI de votre service de découverte automatique. N’utilisez pas l’exemple d’URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 . 
   
-Après avoir créé l’émetteur de jeton et configuré le service d’émission de jeton, exécutez ces commandes, en vous assurez de remplacer l’URL de votre site SharePoint par l’EXEMPLE d’URL. http://atl-sharepoint-001:
+Après avoir créé l’émetteur de jeton et configuré le service d’émission de jeton, exécutez ces commandes, en vous assurez de remplacer l’URL de votre site SharePoint par l’URL d’exemple.http://atl-sharepoint-001:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -74,13 +74,13 @@ $site = Get-SPSite  "https://atl-sharepoint-001"
 Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "SiteSubscription" -Right "FullControl" -EnableAppOnlyPolicy
 ```
 
-Pour configurer l’authentification de serveur à serveur pour Exchange Server, ouvrez l’Exchange Management Shell et exécutez une commande semblable à celle-ci (en supposant qu’Exchange a été installé sur le lecteur C: et qu’il utilise le chemin d’accès du dossier par défaut) :
+Pour configurer l’authentification de serveur à serveur pour Exchange Server, ouvrez l’Exchange Management Shell et exécutez une commande semblable à celle-ci (en supposant que Exchange a été installé sur le lecteur C: et qu’il utilise le chemin d’accès du dossier par défaut) :
   
 ```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
-Après avoir configuré l’application partenaire, il est recommandé d’arrêter et de redémarrer Internet Information Services (IIS) sur tous vos serveurs de boîtes aux lettres et d’accès au client Exchange. Vous pouvez redémarrer les services Internet (IIS) à l’aide d’une commande ressemblant à celle-ci, qui permet de redémarrer le service sur l’ordinateur atl-exchange-001 :
+Après avoir configuré l’application partenaire, il est recommandé d’arrêter et de redémarrer Internet Information Services (IIS) sur tous vos serveurs de boîtes aux lettres Exchange et d’accès au client. Vous pouvez redémarrer les services Internet (IIS) à l’aide d’une commande ressemblant à celle-ci, qui permet de redémarrer le service sur l’ordinateur atl-exchange-001 :
   
 ```powershell
 iisreset atl-exchange-001
@@ -104,19 +104,19 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
 > [!NOTE]
 > « eDiscovery » est l’abréviation de « découverte électronique » et désigne généralement la recherche, dans des archives électroniques, d’éléments susceptibles d’être « raisonnablement conçus pour conduire à une preuve admissible » devant une cour de justice. 
   
-Lorsque le nouveau site est prêt, l’étape suivante consiste à configurer Exchange Server pour qu’il agisse en tant qu’origine des résultats pour SharePoint. Pour ce faire, vous pouvez effectuer la procédure suivante à partir de la page Administration centrale de SharePoint :
+Lorsque le nouveau site est prêt, l’étape suivante consiste à configurer Exchange Server pour qu’il agisse en tant qu’origine des résultats pour SharePoint. Pour ce faire, vous pouvez effectuer la procédure suivante à partir de la page SharePoint Administration centrale :
   
 1. Dans la page Administration centrale, cliquez sur **Gérer les applications de service** et sur **Application de service de recherche**.
     
 2. Dans la page Application de service de recherche : Administration de la recherche, cliquez sur **Origines des résultats**, puis sur **Nouvelle origine des résultats**.
     
-3. Dans le volet **Nouvelle origine des résultats**, attribuez un nom à la nouvelle origine des résultats (par exemple, **Microsoft Exchange**) dans la zone **Nom**. Sélectionnez **Exchange** comme protocole d’origine des résultats, puis entrez l’URL source des services web pour votre serveur Exchange dans la zone URL source **d’Exchange.** L’URL source doit ressembler à ceci :
+3. Dans le volet **Nouvelle origine des résultats**, attribuez un nom à la nouvelle origine des résultats (par exemple, **Microsoft Exchange**) dans la zone **Nom**. Sélectionnez **Exchange** comme protocole d’origine des **résultats,** puis entrez l’URL source des services web pour votre serveur Exchange dans la **zone EXCHANGE URL source.** L’URL source doit ressembler à ceci :
     
     https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
     
 4. Vérifiez que **Utiliser la découverte automatique** n’est pas sélectionné, puis cliquez sur **OK**.
     
-Enfin, créez un nouveau cas eDiscovery et un nouvel ensemble eDiscovery en effectuant la procédure suivante à partir du site de découverte SharePoint (par exemple, https://atl-sharepoint-001/sites/discovery):
+Enfin, créez un nouveau cas eDiscovery et un nouvel ensemble eDiscovery en effectuant la procédure suivante à partir du site SharePoint Discovery (par exemple,https://atl-sharepoint-001/sites/discovery):
   
 1. Dans la page Contenu du site, cliquez sur **Créer un cas**.
     

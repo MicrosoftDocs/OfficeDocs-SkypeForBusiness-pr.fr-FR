@@ -1,5 +1,5 @@
 ---
-title: Scripts de configuration de salle Skype Room System
+title: Skype Scripts de configuration de salle système de salle
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Consultez cette rubrique pour trouver des exemples de scripts pour la mise en service des comptes Skype Room System.
-ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: Consultez cette rubrique pour trouver des exemples de scripts de mise en service Skype comptes Room System.
+ms.openlocfilehash: b485a8d08dc5b121d43545ab89ce9c992b4a5860eb874ba806b57c4ac09cfbe3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294931"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuration de salle Skype Room System
+# <a name="skype-room-system-room-setup-scripts"></a>Skype Scripts de configuration de salle système de salle
  
-Consultez cette rubrique pour trouver des exemples de scripts pour la mise en service des comptes Skype Room System.
+Consultez cette rubrique pour trouver des exemples de scripts de mise en service Skype comptes Room System.
   
-Cette section illustre des exemples de scripts qui peuvent être utilisés pour mettre en service des comptes Skype Room System. Ces scripts sont uniquement à titre d’illustration. Elles ne doivent être utilisées qu’après avoir consulté votre expert informatique ou votre administrateur de domaine.
+Cette section illustre des exemples de scripts qui peuvent être utilisés pour mettre en service Skype comptes Room System. Ces scripts sont uniquement à titre d’illustration. Elles ne doivent être utilisées qu’après avoir consulté votre expert informatique ou votre administrateur de domaine.
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Exemple de script d’installation : Skype Entreprise et Exchange Server (local)
 
@@ -45,7 +45,7 @@ Assurez-vous que vous avez passé en revue les conditions préalables suivantes 
   
 - Assistant Microsoft Online Services Sign-In pour les professionnels de l’informatique BETA
     
-- Windows Azure Module Active Directory pour Windows PowerShell (version 64 bits) ou (version 32 bits)
+- Windows Azure Active Directory module pour Windows PowerShell (version 64 bits) ou (version 32 bits)
     
 - Teams PowerShell Module
     

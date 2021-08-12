@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Si un pool frontal hérité héberge le contrôle d’admission des appels (CAC), vous devez déplacer l’hébergement cac vers un pool Skype Entreprise Server 2019 avant de pouvoir supprimer le pool frontal hérité.
-ms.openlocfilehash: 850ab5c13483d024d52c483c63ef09468f8374b3
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: c3ebb748d877e88060b699b1599c39038124565df361c5032533260e4c5643e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334566"
 ---
 # <a name="reset-call-admission-control"></a>Réinitialisation du contrôle d’admission des appels
 

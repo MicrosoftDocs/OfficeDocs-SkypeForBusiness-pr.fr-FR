@@ -16,18 +16,18 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement des barres de collaboration pour Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115602"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334715"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Créer un Microsoft 365 de ressources à l’aide de PowerShell
 
 Lisez cette rubrique pour plus d’informations sur la création de comptes de ressources pour les barres de collaboration Microsoft Teams l’aide de PowerShell.
 
-La méthode la plus simple pour créer un compte de ressource consiste à utiliser le Microsoft 365 d’administration. [Consultez cet article sur la façon de faire.](resource-account-ui.md)
+La méthode la plus simple pour créer un compte de ressource consiste à utiliser la Centre d’administration Microsoft 365. [Consultez cet article sur la façon de faire.](resource-account-ui.md)
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -137,4 +137,4 @@ Avant de déployer Salles Microsoft Teams avec Office 365, assurez-vous que vous
 
 [Déployer des barres de collaboration pour des Microsoft Teams](collab-bar-deploy.md)
 
-[Barres de collaboration pour les licences Microsoft Teams collaboration](../rooms/rooms-licensing.md)
+[Barres de collaboration pour la gestion Microsoft Teams des licences](../rooms/rooms-licensing.md)

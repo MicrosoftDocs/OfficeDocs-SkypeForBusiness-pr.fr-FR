@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
 description: 'Découvrez comment travailler dans les limites de l’affichage Skype Entreprise’affichage des utilisateurs par un administrateur Online. '
-ms.openlocfilehash: 00726dd76d59bfd177d6626d97c69ecb259bb2ec
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d2a5903f2ce5fb5671123e7b8fca090826f39a69a8f98f5c628d0351a4b73bd9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239676"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334466"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype Entreprise Limitations de la page utilisateurs du Centre d’administration en ligne
 
@@ -45,7 +45,7 @@ Vous pouvez modifier le nombre d’utilisateurs affichés sur chaque page avec l
   
 ![Navigation dans la page Utilisateurs pour modifier le nombre d’utilisateurs sur la page](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

@@ -1,5 +1,5 @@
 ---
-title: Envoyer un e-mail de bienvenue aux utilisateurs de connexion dans Skype Entreprise Server
+title: Envoyer un e-mail de bienvenue aux utilisateurs d’appels Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 'Résumé : Découvrez comment accueillir les utilisateurs à des conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: dea63f02bcdd3fab323f7f4eff8f420bf012e9a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment accueillir les utilisateurs à la conférence Skype Entreprise Server.'
+ms.openlocfilehash: 1b585d4e0ff05bdb1faca0aa9c8b0863dd26f10f7d06bb1140211a2f1663e6b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817494"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313192"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Envoyer un e-mail de bienvenue aux utilisateurs de connexion dans Skype Entreprise Server
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Envoyer un e-mail de bienvenue aux utilisateurs d’appels Skype Entreprise Server
  
 **Résumé :** Découvrez comment accueillir les utilisateurs à des conférences téléphoniques dans Skype Entreprise Server.
   
-Après avoir configuré les conférences téléphoniques et vérifié qu’elles fonctionnent correctement, vous devez définir des numéros d’identification personnelle initiaux pour les utilisateurs et informer les utilisateurs de la disponibilité de la fonctionnalité. Vous pouvez inclure des instructions d’introduction telles que le code confidentiel initial et le lien vers la page web Paramètres de conférence conférence. 
+Après avoir configuré les conférences téléphoniques et vérifié qu’elles fonctionnent correctement, vous devez définir des numéros d’identification personnelle initiaux pour les utilisateurs et informer les utilisateurs de la disponibilité de la fonctionnalité. Vous pouvez inclure des instructions d’introduction telles que le code confidentiel initial et le lien vers la page web conférence Paramètres conférence. 
   
 En règle générale, vous utilisez l’cmdlet **Set-CsClientPin** pour réinitialiser les code confidentiels, mais vous pouvez utiliser la procédure de cette rubrique si vous souhaitez envoyer un message électronique d’introduction avec les informations de code confidentiel. Si vous ne souhaitez pas envoyer ce message, utilisez plutôt **Set-CsClientPin**.
   
@@ -37,7 +37,7 @@ Vous pouvez créer un script qui exécute le script **Set-CsPinSendCAWelcomeMail
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Exécutez la commande suivante à l’invite de commandes :
     
@@ -65,7 +65,7 @@ Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"
 -From "marco@contoso.com"
 ```
 
-L’exemple suivant force un nouveau code confidentiel avec la valeur « 383042650 » pour Bob, même si Bob avait un code confidentiel existant, puis envoie un message électronique de bienvenue de Marco à Bob. Comme le paramètre Credential est spécifié, la personne exécutant la commande est invitée à entrer un mot de passe. Le courrier électronique est envoyé à l’aide du SSL (Secure Sockets Layer) :
+L’exemple suivant force un nouveau code confidentiel avec la valeur « 383042650 » pour Bob, même si Bob en avait déjà un, puis envoie un message électronique de bienvenue de Marco à Bob. Comme le paramètre Credential est spécifié, la personne exécutant la commande est invitée à entrer un mot de passe. Le courrier électronique est envoyé à l’aide du SSL (Secure Sockets Layer) :
   
 ```PowerShell
 Set-CsPinSendCAWelcomeMail -UserUri "bob@contoso.com"

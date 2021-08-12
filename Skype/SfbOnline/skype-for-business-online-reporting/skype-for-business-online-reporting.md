@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: e9ef3d9090ff494afe8595c139bcc9206215435b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 3eb1228e06dbf5880789ea5a8175d325a5439d9aefc7642c045963884fde70c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238140"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334436"
 ---
 # <a name="skype-for-business-online-reporting"></a>Création de rapports Skype Entreprise Online
 
@@ -32,7 +32,7 @@ ms.locfileid: "52238140"
 
 En tant qu’administrateur de votre organisation, il serait pratique de avoir une liste complète de tous les rapports disponibles dans Skype Entreprise Online. Cela inclut tous les rapports et les informations qu'ils comprennent.
   
-Pour accéder aux rapports Skype Entreprise Online, connectez-vous au Centre d’administration Microsoft 365'aide de votre compte d’utilisateur et de votre mot de passe. Le compte que vous utilisez pour ouvrir une session doit disposer du rôle d'administrateur global ou du rôle d'administrateur de service Skype Entreprise délégué pour afficher les rapports.
+Pour accéder aux rapports Skype Entreprise Online, connectez-vous à l’Centre d’administration Microsoft 365 à l’aide de votre compte d’utilisateur et de votre mot de passe. Le compte que vous utilisez pour ouvrir une session doit disposer du rôle d'administrateur global ou du rôle d'administrateur de service Skype Entreprise délégué pour afficher les rapports.
   
 > [!NOTE]
 > Pour vérifier les autorisations, dans le Centre d’administration, > **utilisateurs**  >  **actifs.** Cliquez sur le nom d’affichage de l’utilisateur, puis **sur** Modifier, puis sur une page de propriétés de compte, cliquez sur **Rôles**
@@ -60,7 +60,7 @@ Dans les centres d’administration, vous pouvez utiliser différents types de r
 |[Skype Entreprise Rapport sur les pools de minutes PSTN](pstn-minute-pools-report.md) <br/> | Il s’agit de la licence/plan de service utilisé pour l’appel. <br/> Type de licence <br/> Description de la fonctionnalité <br/> Country Minute Pool  <br/> Minutes utilisées <br/> Total Minutes <br/> Pourcentage de minutes utilisées au cours du mois <br/> |
 |[Skype Entreprise détails de la session](session-details-report.md) <br/> | Alias de l’utilisateur <br/> ID de boîte de dialogue  <br/> Types de médias  <br/> Heures de début et de fin <br/> Vers et à partir de l’URI <br/> URL de la conférence <br/> Téléphone numéro <br/> |
  
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

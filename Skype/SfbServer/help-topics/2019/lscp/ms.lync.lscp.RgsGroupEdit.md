@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes d’agents définissent les personnes qui peuvent répondre aux appels adressés à un groupe Response Group (appelées agents), ainsi que les paramètres qui s’appliquent à tous les agents dans le groupe.
-ms.openlocfilehash: 944cd48745a2524ccfcd795d9edc60e806859301
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 732aef1d5c4e6c23fc084e8f178705888d1fec0ef938f5aeef65eb250b48f42b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118963"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291562"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Services Response Group : création d’un nouveau ou modification d’un groupe existant
 
@@ -52,11 +52,11 @@ La liste suivante décrit les champs de la page.
 
   - Sélectionnez **Série** pour qu’un nouvel appel soit toujours présenté aux agents dans l’ordre dans lequel il apparaît dans la liste **Agent**.
 
-  - Sélectionnez **Attendant** pour qu’il propose un nouvel appel à tous les agents qui sont inscrits et à l’application Response Group en même temps, quelle que soit leur présence actuelle. Les attendants et les utilisateurs clients configurés en tant qu’agents peuvent voir tous les appels en attente et répondre aux appels en attente dans n’importe quel ordre. L’appel est envoyé au premier agent qui l’accepte, et les autres attendants et utilisateurs ne voient plus l’appel.
+  - Sélectionnez **Attendant** pour qu’il propose un nouvel appel à tous les agents qui sont inscrits et à l’application Response Group en même temps, quelle que soit leur présence actuelle. Les attendants et les utilisateurs clients configurés en tant qu’agents peuvent voir tous les appels en attente et répondre aux appels en attente dans n’importe quel ordre. L’appel est envoyé au premier agent qui l’accepte, et les autres agents et utilisateurs ne voient plus l’appel.
 
 - **Agents** Sélectionnez les utilisateurs qui doivent être des agents pour le groupe Response Group de l’une des manières suivantes :
 
-  - Sélectionnez **Utiliser une liste de distribution** de courrier électronique existante pour utiliser une liste de distribution Exchange. Tapez l’adresse de messagerie de la liste de distribution dans **Adresse de la liste de distribution**.
+  - Sélectionnez **Utiliser une liste de distribution** de courrier électronique existante pour utiliser une liste Exchange distribution. Tapez l’adresse de messagerie de la liste de distribution dans **Adresse de la liste de distribution**.
 
     > [!NOTE]
     > Vous pouvez sélectionner une seule liste de distribution pour un groupe d’agents. Si la liste de distribution inclut des listes de distribution imbriquées, ces dernières ne sont pas incluses dans le groupe d’agents.
@@ -65,10 +65,10 @@ La liste suivante décrit les champs de la page.
     > L’ordre dans lequel les agents sont répertoriés dans la liste de distribution affecte l’ordre dans lequel les agents reçoivent des appels pour le routage en série et de tourniquet.
 
     > [!NOTE]
-    > Les appartenances masquées ou les listes masquées peuvent devenir visibles pour les administrateurs ou les utilisateurs Response Group. Pour plus d’informations, [voir Créer ou modifier un groupe d’agents dans Skype Entreprise.](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)
+    > Les appartenances masquées ou les listes masquées peuvent devenir visibles pour les administrateurs ou les utilisateurs Response Group. Pour plus d’informations, [voir Créer ou modifier un groupe d’agents dans Skype Entreprise](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
 
   - Sélectionnez **Définir un groupe personnalisé d’agents** pour sélectionner les utilisateurs que vous voulez attribuer en tant qu’agents pour le groupe Response Group. Cliquez sur **Sélectionner** pour ajouter un agent à la liste. Cliquez sur **Supprimer** pour supprimer un agent sélectionné de la liste.
 
     Les flèches Haut et Bas déplacent un agent sélectionné vers le haut et vers le bas dans la liste des agents. L’ordre des agents dans la liste affecte l’ordre dans lequel les agents reçoivent des appels pour le routage en série et de tourniquet.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype Entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des groupes d’agents, voir [Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups) dans la documentation des opérations.

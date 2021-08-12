@@ -22,15 +22,14 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 481e087a6cfe2b641f6b81fcfc893d50f27cbf47
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: 2b04b75ca85a3a1ac148434de00cadfc78680ef2259a85c2eb2dab0a4181db82
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849509"
 ---
-<a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de rapport
-============================
+# <a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de rapport
 
 Les étiquettes de rapports sont utilisées dans votre organisation pour indiquer les emplacements physiques des bureaux, bâtiments ou sites organisationnels. La page Étiquettes de rapports du Centre d’administration Microsoft Teams vous permet de fournir un fichier texte (.csv ou .tsv) contenant la liste des emplacements physiques et les sous-réseaux réseau associés. Ce fichier est utilisé par Call Analytics pour générer des rapports. Lorsque vous chargez votre mappage de sous-réseau, les rapports fournis par ces services contiennent également le nom des emplacements, ce qui facilite la compréhension et l’utilisation des rapports afin de corriger les problèmes potentiels.
 
@@ -62,7 +61,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 
 Pour plus d’informations sur la mise en forme de votre fichier de données, voir Format de fichier de données client et [Structure du fichier de données du bâtiment.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer l’analyse des appels](set-up-call-analytics.md)
 

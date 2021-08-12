@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
-ms.openlocfilehash: 2d4d64232d0422a4ff0c2857f10cf7f2dbb2ea6fb9b2f0a258dc06fb1a7a5263
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a5922c866113523a54f55aee823c7529da3d4ac6cb45034354292524a8d9582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849709"
 ---
 # <a name="phone-number-management-for-japan"></a>Téléphone gestion des nombres pour le Japon
 
@@ -39,12 +39,12 @@ Pour plus d’informations, [voir Gérer les numéros de téléphone pour votre 
 |**Que voulez-vous faire ?**|**Suivez la procédure suivante et téléchargez les formulaires corrects**|
 |:-----|:-----|
 |Obtenez de nouveaux numéros de téléphone utilisateur pour les forfaits d’appels au Japon.|Contactez [SoftBank Calling pour obtenir](https://aka.ms/SoftBankVoicePlan) de nouveaux numéros de téléphone pour vos utilisateurs. Ils ajouteront alors ces numéros à votre organisation de sorte que vous les affectiez à vos utilisateurs. <br/>
-|Obtenez de nouveaux numéros de téléphone de service pour l’audioconférence, les files d’attente automatiques et les files d’attente d’appels au Japon.|[Pour obtenir des instructions, contactez PTSN.](contact-pstn-service-desk.md)|
+|Obtenez de nouveaux numéros de téléphone de service pour l’audioconférence, les files d’attente automatiques et les files d’attente d’appels au Japon.|[Contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)|
 |Obtenez les numéros de téléphone transférés vers le Microsoft 365 ou Office 365 pour les **utilisateurs** au Japon.|Contactez [SoftBank Calling pour](https://aka.ms/SoftBankVoicePlan) transférer les numéros de téléphone des utilisateurs. Ils ajouteront alors ces numéros à votre organisation.  <br/> |
 |Obtenez les numéros de téléphone transférés vers les Microsoft 365 ou Office 365 pour les files **d’attente d’appels** au Japon.|Contactez [SoftBank Calling pour](https://aka.ms/SoftBankVoicePlan) transférer des numéros de téléphone de service. Ils ajouteront alors ces numéros à votre organisation.|
 |Modifiez l’adresse d’urgence affectée aux utilisateurs qui ont un numéro de téléphone de plan d’appels.|Contactez [SoftBank Calling pour](https://aka.ms/SoftBankVoicePlan) apporter des modifications d’adresse d’urgence. Ils peuvent mettre à jour ces informations pour vous.|
 |Modifiez un numéro d’utilisateur en numéro de service. |Pas de prise en charge actuellement lors de l’utilisation de SoftBank Calling.|
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier la file d’attente des appels ou les numéros de standard automatique, contactez l’[assistance du service PSTN](contact-pstn-service-desk.md). |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente ou de service automatique, contactez le service de service [PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

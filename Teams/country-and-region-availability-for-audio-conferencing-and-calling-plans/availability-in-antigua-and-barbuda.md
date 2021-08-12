@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams à Antigua-et-Barbuda.
-ms.openlocfilehash: 31eba4812e0c0d323236663258986663c5390b10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1ff0c88c2391a69d1bf176fa36c25e77240e331fcfb6a3de244fcb6b87b830e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334775"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Disponibilité à Antigua-et-Barbuda
 
@@ -83,7 +83,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

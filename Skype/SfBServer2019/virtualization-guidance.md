@@ -1,5 +1,5 @@
 ---
-title: 'Prise en charge de la virtualisation pour Skype Entreprise Server 2019 '
+title: 'Prise en charge de la virtualisation Skype Entreprise Server 2019 '
 ms.reviewer: corbinm
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez la prise en charge de la virtualisation pour Skype Entreprise Server 2019.'
-ms.openlocfilehash: edced9b0f884cbf76b224c9049cf3498c8f8b45c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 61b54a7e2d8fc170fe63137f637246f56dcce2a01dc7af0b41ea6dc5c5c56099
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509031"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334556"
 ---
-# <a name="virtualization-support-for-skype-for-business-server-2019"></a>Prise en charge de la virtualisation pour Skype Entreprise Server 2019
+# <a name="virtualization-support-for-skype-for-business-server-2019"></a>Prise en charge de la virtualisation Skype Entreprise Server 2019
 
 Skype Entreprise Server 2019 est pris en charge sur la virtualisation.
 
@@ -40,15 +40,15 @@ SfB Server 2019 est pris en charge sur Windows Server 2016 et Windows Server 201
 
 Pour les hyperviseurs tiers, vous avez besoin d’un hyperviseur qui a réussi le test SVVP (Server Virtualization Validation Program) pour le système d’exploitation approprié.
 
-- Consultez [les versions de Windows Server 2016](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) dans la liste SVVP.
-- Consultez [les versions de Windows Server 2019 dans](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) la liste SVVP.
+- Consultez les [Windows Server 2016 dans](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) la liste SVVP.
+- Voir les [Windows Server 2019 dans](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) la liste SVVP.
 
 ## <a name="stress-and-performance-tool"></a>Outil Stress and performance
 
-L’outil Stress and Performance de Skype Entreprise Server 2019 inclut des outils qui simplifient la planification de la capacité pour Skype Entreprise Server 2019. L’outil Stress and Performance de Skype Entreprise Server 2019 vous aidera à :
+L Skype Entreprise Server 2019 Stress and Performance Tool inclut des outils qui simplifient la planification de la capacité Skype Entreprise Server 2019. L Skype Entreprise Server 2019 Stress and Performance Tool vous aidera à :
 
-- Simplifier la planification de votre matériel pour Skype Entreprise Server 2019
+- Simplifier la planification matérielle pour Skype Entreprise Server 2019
 - Vous fournir des connaissances accrues et des meilleures pratiques pour l’optimisation des performances
-- Mesurer les performances de vos déploiements Skype Entreprise Server 2019 prévus
+- Mesurer les performances de vos déploiements Skype Entreprise Server 2019
  
 Vous pouvez télécharger l’outil à partir [d’ici.](https://www.microsoft.com/download/details.aspx?id=101447)

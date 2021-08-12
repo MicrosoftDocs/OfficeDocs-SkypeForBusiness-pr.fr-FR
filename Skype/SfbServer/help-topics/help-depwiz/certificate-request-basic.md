@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
-description: La page Nom et paramètres de sécurité fournit une zone de texte qui permet de définir un nom convivial, une liste de listes de texte pour la longueur en bits de la paire de clés privées et publiques, ainsi qu’une case à cocher qui vous permet de marquer la clé privée du certificat comme exportable.
-ms.openlocfilehash: f0d0339a483056276d400654f897b898b002cf03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: La page Nom et sécurité Paramètres fournit une zone de texte qui permet de définir un nom convivial, une liste de listes de texte pour la longueur de bits de la paire de clés privées et publiques et une case à cocher qui vous permet de marquer la clé privée du certificat comme exportable.
+ms.openlocfilehash: a1460f78af07a81b3c02e673a7e81dec0ef0f344987835e4efaadb5309910072
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805344"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323276"
 ---
 # <a name="certificate-request-basic"></a>Demande de certificat (élémentaire)
  
-La page Nom et **paramètres** de sécurité fournit une zone de texte pour définir un nom **convivial,** une liste de listes listes pour la longueur de **bits** de la paire de clés privées et publiques, et une case à cocher qui vous permet de marquer la clé privée du certificat comme **exportable.**
+La page Nom et sécurité **Paramètres** fournit une zone de texte pour définir un nom **convivial,** une liste de listes listes pour la longueur de **bits** de la paire de clés privées et publiques, et une case à cocher qui vous permet de marquer la clé privée du certificat comme **exportable.**
   
 Le nom convivial sur un certificat est un nom facilement reconnaissable qui permet à la personne qui consulte le certificat de l’identifier plus facilement.
   

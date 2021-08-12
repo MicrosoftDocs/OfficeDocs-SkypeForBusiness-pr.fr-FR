@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable Branch Server, sous Général, configurez :'
-ms.openlocfilehash: 72bbd89ffd20108cc6b4bcf0786fec7130eea382
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 178e7acd1a5e8b34bc4d3b01a10be369834636e6a67c6a2145f650e2211cadca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313322"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux d’un Branch Office Appliance pour Lync Server 2010
  
@@ -44,7 +44,7 @@ Pour modifier les propriétés du Survivable Branch Appliance ou du Survivable B
     
     **Associer un serveur de surveillance** Dans la liste, sélectionnez le serveur de surveillance à associer au Survivable Branch Appliance ou au Serveur Survivable Branch Server
     
-    Cliquez **sur Nouveau** si vous n’avez pas créé le serveur de surveillance à associer à ce Survivable Branch Appliance ou survivable Branch Server
+    Cliquez **sur Nouveau** si vous n’avez pas créé le serveur de surveillance que vous souhaitez associer à ce Survivable Branch Appliance ou survivable Branch Server
     
     **Associer un pool edge (pour les composants multimédias)** Dans la liste, sélectionnez le serveur Edge ou le pool edge que vous souhaitez associer au Survivable Branch Appliance ou au serveur Survivable Branch Server
     

@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies de réunion
+title: Gérer les stratégies de réunion dans Teams
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams. Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 09d821eb4a0ae6f1315ff5ff817c4b702512a974
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 02dd4cdca98f021230aed937317070ba1202d2969b185e624b6910a9dc19e298
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850099"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans Teams
 
@@ -60,14 +60,14 @@ Vous pouvez modifier les paramètres dans la stratégie globale ou créer et aff
 4. Sélectionnez les paramètres de votre choix.
 5. Sélectionnez **Enregistrer**.
 
-Par exemple, imaginons que vous avez un grand nombre d’utilisateurs et que vous voulez limiter la quantité de bande passante requise par la réunion. Vous devez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
+Par exemple, imaginons que vous avez un grand nombre d’utilisateurs et que vous voulez limiter la quantité de bande passante requise par la réunion. Vous devez créer une stratégie personnalisée nommée « bande passante limitée » et désactiver les paramètres suivants :
 
-Sous **Audio & vidéo** :
+Sous **Audio & vidéo** :
 
 - Désactivez l’option Autoriser l’enregistrement Cloud.
 - Désactivez Autoriser la vidéo IP.
 
-Sous **Partage de contenu** :
+Sous **Partage de contenu** :
 
 - Désactiver le mode de partage d’écran.
 - Désactivez  Autoriser le tableau blanc.
@@ -107,7 +107,7 @@ Sélectionnez une stratégie existante dans la page **Stratégies de réunion** 
 
 <a name="bkgeneral"> </a>
 
-## <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
+## <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
 
 - [Autoriser la conférence maintenant dans les canaux](#allow-meet-now-in-channels)
 - [Autoriser le complément Outlook](#allow-the-outlook-add-in)
@@ -143,7 +143,7 @@ La sélection de canal est désactivée.
 
 ![l’option calendrier pour la sélection d’un canal dans lequel vous voulez planifier une réunion.](media/meeting-policies-select-a-channel-to-meet-in.png)
 
-Dans la page billets de canal, les fonctionnalités suivantes seront désactivées :
+Dans la page billets de canal, les fonctionnalités suivantes seront désactivées :
 
 - Bouton **Planifier une réunion** dans la zone composer une réponse du canal.
   ![bouton planifier une réunion de la zone composer une réponse](media/schedule-meeting-disabled-in-chat2.png)
@@ -151,7 +151,7 @@ Dans la page billets de canal, les fonctionnalités suivantes seront désactivé
 - Bouton **planifier une réunion** dans l’en-tête de canal.
   ![bouton planifier une réunion dans l’en-tête de canal](media/schedule-now-in-header.png)
 
-Dans le calendrier de canal :
+Dans le calendrier de canal :
 
 - Le bouton **Ajouter un événement** dans l’en-tête du calendrier est désactivé.
   ![bouton dans l’en-tête du calendrier de canal désactivé](media/add-new-event-disabled.png)
@@ -160,7 +160,7 @@ Dans le calendrier de canal :
 
 - Les utilisateurs ne peuvent pas utiliser les raccourcis clavier pour créer une réunion dans le calendrier par canal.
 
-Dans le centre d’administration :
+Dans le centre d’administration :
 
 L’application Calendrier du canal s’affiche dans la section **Applications Microsoft** sur la page stratégies d’autorisation d’application.
 
@@ -178,7 +178,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="meeting-policy-settings---audio--video"></a>Paramètres de stratégie de réunion : Audio et vidéo
+## <a name="meeting-policy-settings---audio--video"></a>Paramètres de stratégie de réunion : Audio et vidéo
 
 - [Autoriser la transcription](#allow-transcription)
 - [Autoriser l’enregistrement dans le cloud](#allow-cloud-recording)
@@ -249,7 +249,7 @@ Ce paramètre ne s’applique pas non plus aux appareils de salle de conférence
 Ce paramètre n’est pas encore disponible pour les environnements Microsoft 365 Cloud de la communauté du secteur public(GCC), GCC High ou Department of Defense (DoD).
 
 > [!NOTE]
-> Gardez à l’esprit que ce paramètre contrôle à la fois la vidéo sortante et la vidéo entrante, tandis que la **Autoriser la vidéo sur IP** contrôle la vidéo sortante. Pour plus d’informations, consultez [Quelle stratégie de vidéo sur IP est prioritaire ?](#which-ip-video-policy-setting-takes-precedence) et [Gérer l'audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
+> Gardez à l’esprit que ce paramètre contrôle à la fois la vidéo sortante et la vidéo entrante, tandis que la **Autoriser la vidéo sur IP** contrôle la vidéo sortante. Pour plus d’informations, consultez [Quelle stratégie de vidéo sur IP est prioritaire ?](#which-ip-video-policy-setting-takes-precedence) et [Gérer l'audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
 
 Pour plus d’informations, consultez [Gérer l’audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
 
@@ -260,7 +260,7 @@ Autoriser la vidéo sur IP est la combinaison d’une stratégie par organisateu
 Les réunions organisées par un utilisateur pour lequel ce paramètre de stratégie est activé permettent le partage de vidéos dans la réunion par les participants, si ces derniers ont également activé le paramètre de stratégie. Les participants à la réunion qui n'ont pas de stratégie attribuée (par exemple, les participants anonymes et fédérés) héritent de la stratégie de l'organisateur de la réunion.
 
 > [!NOTE]
-> Gardez à l’esprit que ce paramètre contrôle la vidéo sortante, tandis que le **Mode pour la vidéo sur IP** contrôle la vidéo sortante et entrante. Pour plus d’informations, consultez [Quelle stratégie de vidéo sur IP est prioritaire ?](#which-ip-video-policy-setting-takes-precedence) et [Gérer l'audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
+> Gardez à l’esprit que ce paramètre contrôle la vidéo sortante, tandis que le **Mode pour la vidéo sur IP** contrôle la vidéo sortante et entrante. Pour plus d’informations, consultez [Quelle stratégie de vidéo sur IP est prioritaire ?](#which-ip-video-policy-setting-takes-precedence) et [Gérer l'audio/vidéo pour les participants à la réunion](#manage-audiovideo-for-meeting-participants).
 
 | Ordinateur de bureau et client web Teams |Client mobile Teams  |
 |:-------:|:-------:|
@@ -287,20 +287,20 @@ Pour un utilisateur, le paramètre de stratégie le plus restrictif pour la vid�
 
 |Autoriser la vidéo sur IP|Mode pour la vidéo sur IP|Expérience de réunion|
 |---------|---------|---------|
-|Organisateur : **Activé**<br><br>Participant : **Activé** |Participant : **Désactivé**        |Le paramètre **Mode pour vidéo sur IP** est prioritaire. Le participant auquel cette stratégie est attribuée ne peut pas activer ou afficher les vidéos partagées par d’autres personnes.|
-|Organisateur : **Activé**<br><br>Participant : **Activé** |Participant : **Vidéo sortante et entrante activée**          |Le participant auquel cette stratégie est attribuée peut activer ou afficher les vidéos partagées par d’autres personnes.         |
-|Organisateur : **Activé**<br><br>Participant : **Désactivé** |Participant : **Vidéo sortante et entrante activée**         |Le paramètre **Autoriser la vidéo sur IP** est prioritaire. Les participants peuvent uniquement afficher la vidéo entrante et ne peuvent pas envoyer de vidéo sortante.         |
-|Organisateur : **Activé**<br><br>Participant : **Désactivé** |Participant : **Désactivé**         |Le paramètre **Mode pour vidéo sur IP** est prioritaire. Le participant ne peut pas afficher la vidéo entrante ou sortante.|
-|Organisateur : **Désactivé**    |       |Le paramètre **Autoriser la vidéo sur IP** est prioritaire, car il est désactivé pour l’organisateur. Personne ne peut activer la vidéo pendant les réunions organisées par l’utilisateur auquel cette stratégie est attribuée.         |
+|Organisateur : **Activé**<br><br>Participant : **Activé** |Participant : **Désactivé**        |Le paramètre **Mode pour vidéo sur IP** est prioritaire. Le participant auquel cette stratégie est attribuée ne peut pas activer ou afficher les vidéos partagées par d’autres personnes.|
+|Organisateur : **Activé**<br><br>Participant : **Activé** |Participant : **Vidéo sortante et entrante activée**          |Le participant auquel cette stratégie est attribuée peut activer ou afficher les vidéos partagées par d’autres personnes.         |
+|Organisateur : **Activé**<br><br>Participant : **Désactivé** |Participant : **Vidéo sortante et entrante activée**         |Le paramètre **Autoriser la vidéo sur IP** est prioritaire. Les participants peuvent uniquement afficher la vidéo entrante et ne peuvent pas envoyer de vidéo sortante.         |
+|Organisateur : **Activé**<br><br>Participant : **Désactivé** |Participant : **Désactivé**         |Le paramètre **Mode pour vidéo sur IP** est prioritaire. Le participant ne peut pas afficher la vidéo entrante ou sortante.|
+|Organisateur : **Désactivé**    |       |Le paramètre **Autoriser la vidéo sur IP** est prioritaire, car il est désactivé pour l’organisateur. Personne ne peut activer la vidéo pendant les réunions organisées par l’utilisateur auquel cette stratégie est attribuée.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>Gérer l’audio/vidéo pour les participants à la réunion
 
 |Si vous souhaitez...  |Configurer les paramètres de stratégie suivants  |
 |---------|---------|
-|Désactiver l’audio et la vidéo pour les participants aux réunions  |Mode pour l’audio sur IP : **Désactivé**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A       |
-|Activer uniquement les éléments audio et vidéo entrants pour les participants aux réunions  |Mode pour l’audio sur IP : **Audio sortant et entrant activé**<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée**<br>Autoriser la vidéo sur IP : **Désactivé**       |
-|Désactiver la vidéo pour les participants aux réunions (les participants ont un son uniquement)|  Mode pour l’audio sur IP : **Activer l’audio sortant et entrant**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A
-|Activer l’audio et la vidéo pour les participants aux réunions    |Mode pour l’audio sur IP : **Audio sortant et entrant activé** (par défaut)<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée** (par défaut)<br>Autoriser la vidéo sur IP : **Activé** (par défaut)    |
+|Désactiver l’audio et la vidéo pour les participants aux réunions  |Mode pour l’audio sur IP : **Désactivé**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A       |
+|Activer uniquement les éléments audio et vidéo entrants pour les participants aux réunions  |Mode pour l’audio sur IP : **Audio sortant et entrant activé**<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée**<br>Autoriser la vidéo sur IP : **Désactivé**       |
+|Désactiver la vidéo pour les participants aux réunions (les participants ont un son uniquement)|  Mode pour l’audio sur IP : **Activer l’audio sortant et entrant**<br> Mode pour la vidéo sur IP : **Désactivé**<br>Autoriser la vidéo sur IP : N/A
+|Activer l’audio et la vidéo pour les participants aux réunions    |Mode pour l’audio sur IP : **Audio sortant et entrant activé** (par défaut)<br> Mode pour la vidéo sur IP : **Vidéo sortante et entrante activée** (par défaut)<br>Autoriser la vidéo sur IP : **Activé** (par défaut)    |
 
 La stratégie la plus restrictive entre la stratégie de l’organisateur de la réunion et la stratégie de l’utilisateur s’applique. Par exemple, si un organisateur a une stratégie qui restreint la vidéo et que la stratégie d’un utilisateur ne limite pas la vidéo, les participants à la réunion héritent de la stratégie de l’organisateur de la réunion et n’ont pas accès à la vidéo dans les réunions. Cela signifie qu’ils peuvent participer à la réunion avec le son uniquement.
 
@@ -319,7 +319,7 @@ S’il n’y a pas assez de bande passante pour une réunion, les participants v
 
 Pour les réunions qui nécessitent une expérience vidéo de la plus haute qualité, telles que les réunions du conseil d'administration du PDG et les événements en direct Teams, nous vous recommandons de régler la bande passante à 10 Mbps. Même lorsque l'expérience maximale est fixée, la pile média Teams s'adapte aux conditions de faible largeur de bande lorsque certaines conditions de réseau sont détectées, selon le scénario.
 
-## <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion : partage de contenu
+## <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion : partage de contenu
 
 - [Mode de partage d’écran](#screen-sharing-mode)
 - [Autoriser un participant à donner ou demander le contrôle](#allow-a-participant-to-give-or-request-control).
@@ -380,7 +380,7 @@ Pour utiliser PowerShell afin de contrôler qui peut donner le contrôle ou acce
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à donner ou demander le contrôle
 
-Il s’agit d’une stratégie par utilisateur. Le fait qu’une organisation ait cette définition pour un utilisateur ne contrôle pas ce que les participants externes peuvent effectuer, quel que soit l’organisateur de la réunion. Ce paramètre détermine si les participants externes peuvent bénéficier d’un contrôle ou demander le contrôle de l’écran du destinataire, en fonction de ce que le partage a défini dans les stratégies de réunion de leur organisation. Les participants externes aux réunions Teams peuvent être classés comme suit :  
+Il s’agit d’une stratégie par utilisateur. Le fait qu’une organisation ait cette définition pour un utilisateur ne contrôle pas ce que les participants externes peuvent effectuer, quel que soit l’organisateur de la réunion. Ce paramètre détermine si les participants externes peuvent bénéficier d’un contrôle ou demander le contrôle de l’écran du destinataire, en fonction de ce que le partage a défini dans les stratégies de réunion de leur organisation. Les participants externes aux réunions Teams peuvent être classés comme suit :  
 
 - Utilisateur anonyme
 - Utilisateurs invités  
@@ -419,7 +419,7 @@ Amanda ne peut pas partager le tableau blanc pendant une réunion, même si elle
 
 ### <a name="allow-shared-notes"></a>Autoriser les notes partagées
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** est pris en charge pour les réunions comptant jusqu’à 100 participants.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si un utilisateur peut créer et partager des notes pendant une réunion. Les utilisateurs externes, y compris les utilisateurs anonymes, B2B et fédérés, héritent de la stratégie de l’organisateur de la réunion. L’onglet **Notes de réunion** est pris en charge pour les réunions comptant jusqu’à 100 participants.
 
 Examinons l’exemple suivant.
 
@@ -434,7 +434,7 @@ Daniela peut prendre des notes dans les réunions d’Amanda et Amanda ne peut p
 <a name="bkmeetingparticipants"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-## <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
+## <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
 Ces paramètres contrôlent les participants à la réunion qui attendent dans la salle d’attente avant d’être admis à la réunion et le niveau de participation à une réunion.
 
@@ -464,15 +464,15 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
  Les organisateurs de réunion peuvent sélectionner les **Options de réunion** dans l’invitation à la réunion afin de modifier ce paramètre pour chaque réunion planifiée.
 
 > [!NOTE]
-> Dans les options de la réunion, le paramètre est intitulé « Qui peut ignorer la salle d’attente ». Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
+> Dans les options de la réunion, le paramètre est intitulé « Qui peut ignorer la salle d’attente ». Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
   
 |Valeur du paramètre  |Comportement de jointure |
 |---------|---------|
 |**Tout le monde**   |Tous les participants à la réunion joignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs externes d’organisations approuvées (fédérées), les invités et les utilisateurs anonymes.     |
 |**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs anonymes patientent dans la salle d’attente.   |
-|**Membres de mon organisation et invités**    |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, joignent directement la réunion sans attendre dans la salle d’attente. Les utilisateurs des organisations approuvées et des utilisateurs anonymes attendent dans la salle d’attente. Il s’agit du paramètre par défaut.           |
+|**Membres de mon organisation et invités**    |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs d’organisations approuvées et utilisateurs anonymes patientent dans la salle d’attente.           |
 |**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Toutes les autres personnes, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs des organisations approuvées et les utilisateurs anonymes, doivent attendre dans la salle d’attente.           |
-|**Membres de mon organisation**  |Les utilisateurs authentifiés au sein de l’organisation, à l’exclusion des utilisateurs invités, joignent directement la réunion sans attendre dans la salle d’attente. Des invités et des utilisateurs des organisations approuvées et des utilisateurs anonymes attendent dans la salle d’attente.|
+|**Membres de mon organisation**  |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente. Les utilisateurs anonymes patientent dans la salle d’attente.|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 
@@ -504,19 +504,19 @@ Il s’agit d’un paramètre par participant. Ce paramètre détermine si la co
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>Paramètres de stratégie de réunion : mode de rôle de présentateur désigné
+## <a name="meeting-policy-settings---designated-presenter-role-mode"></a>Paramètres de stratégie de réunion : mode de rôle de présentateur désigné
 
-Il s’agit d’une stratégie par utilisateur. Ce paramètre vous permet de modifier la valeur par défaut du paramètre **Qui peut présenter ?** dans **Options de réunion** dans le client Teams. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant.
+Il s’agit d’une stratégie par utilisateur. Ce paramètre vous permet de modifier la valeur par défaut du paramètre **Qui peut présenter ?** dans **Options de réunion** dans le client Teams. Ce paramètre de stratégie affecte toutes les réunions, y compris les réunions Conférence maintenant.
 
-Le paramètre **Qui peut présenter ?** permet aux organisateurs de réunions de choisir qui peuvent être présentateurs pendant une réunion. Pour plus d’informations, consulte [Modifier les paramètres des participants pour une réunion Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) et [Rôles dans une réunion Teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+Le paramètre **Qui peut présenter ?** permet aux organisateurs de réunions de choisir qui peuvent être présentateurs pendant une réunion. Pour plus d’informations, consulte [Modifier les paramètres des participants pour une réunion Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) et [Rôles dans une réunion Teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
 Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
-Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** dans Teams, définissez le paramètre **DesignatedPresenterRoleMode** sur l’un des paramètres suivants :
+Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** dans Teams, définissez le paramètre **DesignatedPresenterRoleMode** sur l’un des paramètres suivants :
 
 - **EveryoneUserOverride**: tous les participants à la réunion peuvent être présentateurs. Ceci est la valeur par défaut. Ce paramètre correspond au paramètre **Tout le monde** dans Teams.
-- **EveryoneInCompanyUserOverride** : les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au paramètre **Contacts dans mon organisation** dans Teams.
-- **OrganizerOnlyUserOverride** : seul l’organisateur de la réunion peut être présentateur et tous les participants à la réunion sont désignés comme participants. Ce paramètre correspond au paramètre **Uniquement moi** dans Teams.
+- **EveryoneInCompanyUserOverride** : les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, peuvent être présentateurs. Ce paramètre correspond au paramètre **Contacts dans mon organisation** dans Teams.
+- **OrganizerOnlyUserOverride** : seul l’organisateur de la réunion peut être présentateur et tous les participants à la réunion sont désignés comme participants. Ce paramètre correspond au paramètre **Uniquement moi** dans Teams.
 
 De plus, vous pouvez modifier cette stratégie dans le centre d’administration Teams.
 
@@ -524,7 +524,7 @@ De plus, vous pouvez modifier cette stratégie dans le centre d’administration
 
 Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, les organisateurs de réunion peuvent toujours modifier ce paramètre dans Teams et choisir les personnes pouvant présenter les réunions qu’ils planifient.
 
-## <a name="meeting-policy-settings---meeting-attendance-report"></a>Paramètres de stratégie de réunion : rapport participation à une réunion
+## <a name="meeting-policy-settings---meeting-attendance-report"></a>Paramètres de stratégie de réunion : rapport participation à une réunion
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre permet de contrôler si les organisateurs de réunion peuvent télécharger le [Rapport de participation aux réunions](teams-analytics-and-reports/meeting-attendance-report.md).
 
@@ -534,7 +534,7 @@ Pour permettre à un organisateur de la réunion de télécharger le rapport par
 
 Pour empêcher un organisateur de la réunion de télécharger le rapport, définissez le paramètre sur **Désactivé**. Par défaut, ce paramètre est désactivé, et l’option de téléchargement du rapport n’est pas disponible.
 
-## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Paramètres de stratégie de réunion : fournisseur de réunions pour le mode îles
+## <a name="meeting-policy-settings---meeting-provider-for-islands-mode"></a>Paramètres de stratégie de réunion : fournisseur de réunions pour le mode îles
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine quel complément de réunion Outlook est utilisé pour *les utilisateurs en mode îles*. Vous pouvez spécifier si les utilisateurs peuvent utiliser uniquement le complément réunion Teams ou les deux compléments réunion et Skype® Entreprise pour planifier des réunions dans Outlook.
 
@@ -542,20 +542,20 @@ Vous ne pouvez appliquer cette stratégie uniquement aux utilisateurs qui sont e
 
 Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
-Pour spécifier le complément de la réunion que vous voulez mettre à la disposition des utilisateurs, définissez le paramètre **PreferredMeetingProviderForIslandsMode** comme suit :
+Pour spécifier le complément de la réunion que vous voulez mettre à la disposition des utilisateurs, définissez le paramètre **PreferredMeetingProviderForIslandsMode** comme suit :
 
 - Définir le paramètre sur **TeamsAndSfB** pour activer le complément réunion Teams et Skype® Entreprise dans Outlook. Ceci est la valeur par défaut.
 - Définir le paramètre sur **Teams** pour activer uniquement le complément réunion équipes dans Outlook. Ce paramètre de stratégie permet de s’assurer que toutes les réunions ultérieures ont un lien participer à une réunion Teams. Il ne migre pas les liens de jointure de réunion Skype Entreprise existants vers Teams. Ce paramètre de stratégie n’affecte pas les fonctionnalités de présence, de conversation, d’appel RTC ou d’autres fonctionnalités de Skype Entreprise, ce qui signifie que les utilisateurs continueront à utiliser Skype Entreprise pour ces fonctionnalités.
 
   Si vous avez défini le paramètre sur **Teams**, puis revenez à **TeamsAndSfB**, les deux compléments de réunion sont activés. Les liens de réunion Teams existants **ne seront pas** migrés vers Skype Entreprise. Seules les réunions Skype Entreprise planifiées après la modification auront un lien de jointure de réunion Skype Entreprise.
 
-## <a name="meeting-policy-settings---video-filters-mode"></a>Paramètres de stratégie de réunion : mode de filtres vidéo
+## <a name="meeting-policy-settings---video-filters-mode"></a>Paramètres de stratégie de réunion : mode de filtres vidéo
 
 Il s’agit d’un paramètre par participant. Ce paramètre contrôle si les utilisateurs peuvent personnaliser leur arrière-plan vidéo lors d'une réunion.
 
 Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
 
-Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de la vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** comme suit :
+Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de la vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** comme suit :
 
 |Définition de la valeur dans PowerShell |Comportement  |
 |---------|---------|
@@ -570,7 +570,7 @@ Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de l
 > [!NOTE]
 > Ces fonctionnalités ne sont pas disponibles pour tous les clients Teams. Si vous souhaitez en savoir plus, consultez le titre _Vidéo et arrière-plans_ dans l’article [Réunions et événements en direct](https://support.microsoft.com/office/meetings-and-live-events-5c3e0646-dc37-45ad-84a4-1666fac62d4e).
 
-## <a name="meeting-policy-settings---meeting-reactions"></a>Paramètres de stratégie de réunion : réactions pendant les réunions
+## <a name="meeting-policy-settings---meeting-reactions"></a>Paramètres de stratégie de réunion : réactions pendant les réunions
 
 Le paramètre AllowMeetingReactions ne peut être appliqué qu’avec PowerShell. Il n’y a pas d’option pour activer ou désactiver AllowMeetingReactions dans le centre d’administration Teams.
 

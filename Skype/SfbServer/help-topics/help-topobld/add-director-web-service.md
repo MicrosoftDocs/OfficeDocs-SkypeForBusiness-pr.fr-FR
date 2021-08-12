@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 description: L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète des services Web du pool est , l’URL de https://pool01.contoso.net base est pool01.contoso.net.
-ms.openlocfilehash: aa3c96a6a47a35ae8c65b0a7a6bcb5df696bada4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b89aef8be436171de76f5d5e172823ae3b0e72161cfbf6c26ea9933a8fb14ac5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344943"
 ---
 # <a name="add-director-web-service"></a>Service web : ajouter un directeur
  
