@@ -16,12 +16,12 @@ description: Découvrez comment acheter des applications tierces pour votre Team
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 57530ec952b6bbe806e685d0980fcee3a21d1887
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc46ea58421901a4d11f20160c2e9528a5311794bb084291c3c72e5e006ddc18
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117682"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285653"
 ---
 <a name="purchase-third-party-apps-for-teams"></a>Acheter des applications tierces pour Teams
 ======================================================
@@ -59,7 +59,7 @@ Après avoir acheté l’offre SaaS associée à l’application Teams, vous pou
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Capture d’écran de l’onglet Plans et tarifs de la page des détails de l’application":::
 
-Sélectionnez **Gérer les licences** pour consulter et Microsoft 365 centre d’administration pour afficher et gérer les licences que vous avez achetées et gérer les attributions de licences pour les utilisateurs.
+Sélectionnez **Gérer les licences** pour consulter et Centre d’administration Microsoft 365 les licences que vous avez achetées et gérer les attributions de licences pour les utilisateurs.
 
 Les administrateurs globaux peuvent afficher les achats effectués par tous les membres de l’organisation, tandis Teams n’ont accès qu’aux achats effectués par eux-mêmes.  
 
@@ -69,7 +69,7 @@ Les développeurs peuvent créer des offres SaaS associées à Teams application
  
 Les développeurs d’applications tierces peuvent se rendre [sur l’offre SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer) pour plus d’informations.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)
 - [Créer une offre SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer)

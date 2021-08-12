@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 5b69837d6f7333703c63ca7b5ba8e9e29882b7b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bbcb117e2392f403df34d9b5a98565cf6f14d066f327a8321b8a6e3c9577cc70
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097700"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350266"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovenia"></a>Restrictions de numérotation gratuit en Slovénie
 
@@ -48,7 +48,7 @@ ms.locfileid: "51097700"
    
 ## <a name="see-also"></a>Voir aussi
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42ded974ba5f4400bdcb5796410a8277fbed4488
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a8aa2818cb2b4be85054f8804fa6a11112c4e8a68cc171e9b9f7191e3f3a5bfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103970"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322916"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -56,7 +56,7 @@ Bien qu’il soit recommandé de suivre les listes de vérification dans l’ord
 Lorsque vous intégration des utilisateurs sur une base par site, nous vous recommandons vivement d’utiliser le manuel d' allocation du site pour [Voix](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme guide supplémentaire pour ces listes de vérification.
 
 >[!NOTE]
->La plupart des paramètres de configuration sont courants entre Teams et Skype Entreprise Online. Pour configurer ces paramètres, Microsoft 365 centre d’administration Microsoft Teams et le Centre d’administration central.
+>La plupart des paramètres de configuration sont courants entre Teams et Skype Entreprise Online. Pour configurer ces paramètres, Administration Microsoft 365 centre d Microsoft Teams de gestion de données et de gestion de projet.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui responsable de la surveillance de l’achèvement des listes de vérification d’intégration ?</li></ul></td></tr>

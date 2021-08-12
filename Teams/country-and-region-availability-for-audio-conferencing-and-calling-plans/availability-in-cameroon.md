@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et de Office 365 d Skype Entreprise et Microsoft Teams disponibles pour le Cameroun.
-ms.openlocfilehash: f804fa22be5b735177ed69632d3a012e9e8cf3cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8633073a2da75c92fd29d4f2b240439435a6acfcecb7a787acfd8347c7becd0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332836"
 ---
 # <a name="availability-in-cameroon"></a>Disponibilité au Cameroun
 
@@ -82,7 +82,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

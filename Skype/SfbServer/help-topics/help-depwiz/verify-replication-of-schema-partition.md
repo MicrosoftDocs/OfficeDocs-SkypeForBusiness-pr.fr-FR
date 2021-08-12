@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-description: 'Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt des services de domaine Active Directory, faites les choses suivantes :'
-ms.openlocfilehash: db30087e6b996b70fe97e3249c1bf2eaa97a694c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt des services de domaine Active Directory, vous devez :'
+ms.openlocfilehash: 315a37267b2bdcae89c098858aa9419eff262c46b7cd37c39799dd5642d2a295
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284994"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Vérifier la réplication de la partition du schéma
  
-Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt des services de domaine Active Directory, faites les choses suivantes :
+Pour vérifier que l’extension de schéma a bien été répliquée dans votre forêt des services de domaine Active Directory, vous devez :
   
 1. Log on to a domain controller (other than the domain controller that holds the schema master role) in your Active Directory Domain Services forest, where the schema extensions were applied as a member of the Enterprise Admins group.
     

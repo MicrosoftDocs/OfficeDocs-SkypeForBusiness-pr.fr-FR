@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Découvrez comment activer ou désactiver l’accès des appelants anonymes à une réunion à partir du Teams d’administration. '
-ms.openlocfilehash: 520bf720a01a686a103748cdbbf26cb8426e94f2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 20fdf9a86da2daec297de88a435b70e84c191ff5af846a51aeae06ae4ba8832f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285673"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams
 
@@ -35,7 +35,7 @@ Il peut être frustrant pour des utilisateurs qui se sont appelés à une réuni
   
 Si l’organisateur de la réunion appelle la réunion, un code confidentiel est nécessaire par défaut pour commencer une réunion. Vous pouvez configurer de sorte que tout le monde puisse composer le numéro de téléphone d’une réunion sans être invité à composer un code confidentiel pour commencer la réunion. Vous pouvez utiliser le Centre d’administration pour activer ou désactiver ce paramètre pour un seul utilisateur.
   
-Un code confidentiel n’est pas nécessaire pour l’organisateur de la réunion si quelqu’un a commencé la réunion à partir de l Microsoft Teams appeille de messagerie. Un code confidentiel n'est nécessaire que lorsque l'organisateur d'une réunion participe à sa réunion sur un téléphone. Le code confidentiel des réunions est envoyé à l’utilisateur audio lorsqu’il est affecté à la licence **Audioconférence** et activé pour l’audioconférence. Consultez [envoyer un courrier](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) électronique à un utilisateur avec ses informations d’audioconférence et des messages électroniques envoyés automatiquement aux utilisateurs en cas de modification de [leurs paramètres.](emails-sent-to-users-when-their-settings-change-in-teams.md)
+Un code confidentiel n’est pas nécessaire pour l’organisateur de la réunion si quelqu’un a commencé la réunion à partir de l Microsoft Teams appeille de messagerie. Un code confidentiel n'est nécessaire que lorsque l'organisateur d'une réunion participe à sa réunion sur un téléphone. Le code confidentiel des réunions est envoyé à l’utilisateur audio lorsqu’il est affecté à la licence **Audioconférence** et activé pour l’audioconférence. Consultez Envoyer [un courrier](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) électronique à un utilisateur avec ses informations d’audioconférence et ses courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de [leurs paramètres.](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -80,7 +80,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
   

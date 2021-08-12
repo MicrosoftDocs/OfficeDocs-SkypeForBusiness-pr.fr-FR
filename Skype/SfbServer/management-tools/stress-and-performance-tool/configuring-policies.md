@@ -1,5 +1,5 @@
 ---
-title: Configuration des stratégies pour l’outil Stress and Performance de Skype Entreprise Server 2015
+title: Configuration des stratégies pour l Skype Entreprise Server 2015 Stress and Performance Tool
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
-description: Configuration de la stratégie pour l’outil Stress and Performance de Skype Entreprise Server 2015.
-ms.openlocfilehash: bb049d5740d74e5ebeacd8a21d00e2644da61a7c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Configuration de stratégie pour Skype Entreprise Server 2015 Stress and Performance Tool.
+ms.openlocfilehash: 0a7e93e0e6a25195b1e9723ce6eb31b4c9f9fbd200d390f225a2be29c4106b0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333186"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuration des stratégies pour l’outil Stress and Performance de Skype Entreprise Server 2015
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuration des stratégies pour l Skype Entreprise Server 2015 Stress and Performance Tool
  
-Configuration de la stratégie pour l’outil Stress and Performance de Skype Entreprise Server 2015.
+Configuration de stratégie pour Skype Entreprise Server 2015 Stress and Performance Tool.
   
 Vous pouvez configurer plusieurs stratégies et autres domaines dans Skype Entreprise Server 2015 avant d’utiliser l’outil Stress and Performance :
   
@@ -50,7 +50,7 @@ Vous pouvez configurer plusieurs stratégies et autres domaines dans Skype Entre
 ## <a name="archiving-policy"></a>Stratégie d’archivage
 <a name="ArchivingPolicy"> </a>
 
-Si vous avez un serveur d’archivage déployé dans votre topologie Skype Entreprise Server, vous pouvez examiner ArchivingPolicy.ps1 script. Si vous avez besoin d’une assistance supplémentaire, consultez les cmdlets d’archivage et de conférence Web.
+Si vous avez un serveur d’archivage déployé dans votre topologie Skype Entreprise Server, vous pouvez examiner le script ArchivingPolicy.ps1'archivage. Si vous avez besoin d’une assistance supplémentaire, consultez les cmdlets d’archivage et de conférence Web.
   
 ## <a name="conferencing-policy"></a>Stratégie de conférence
 <a name="ConferencingPolicy"> </a>
@@ -79,16 +79,16 @@ Vous aurez besoin de l’exemple RoutingRules.ps1 script pour le routage des voi
   
 Par exemple, le paramètre SimpleName dans l’appel à l’cmdlet **New-CsDialPlan** dans l’exemple RoutingRules.ps1 doit être utilisé pour la valeur LocationProfile dans la figure suivante de UserProfileGenerator.exe :
   
-![Outil de configuration de charge Skype Entreprise, onglet Scénarios vocaux, Paramètres avancés des conversations.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
+![Skype Entreprise outil de configuration de chargement, onglet Scénarios vocaux, Paramètres avancés des conversations.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
 Pour plus d’informations, vous pouvez consulter les Voix Entreprise cmdlets.
   
 ## <a name="conference-attendant-application"></a>Application Conference Attendant
 <a name="ConfAttendantApp"> </a>
 
-Tout d’abord, examinez ConferenceAutoAttendantConfiguration.ps1 script. Vous devez prendre note du numéro de téléphone ConferencingAutoAttendant (11211111111 par défaut), afin de pouvoir l’entrer dans l’outil de configuration LyncPerfTool pour la génération de configuration, comme ci-dessous :
+Tout d’abord, examinez ConferenceAutoAttendantConfiguration.ps1 script. Notez le numéro de téléphone ConferencingAutoAttendant (1121111111 par défaut), afin de pouvoir l’entrer dans l’outil de configuration LyncPerfTool pour la génération de configuration, comme ci-dessous :
   
-![Onglet Scénarios vocaux affichant le niveau de charge de conférence et le numéro de téléphone.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
+![Onglet Scénarios de voix affichant le niveau de charge de conférence et le numéro de téléphone.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
   
 Vous trouverez plus d’informations dans les cmdlets conférence et conférences téléphoniques.
   
@@ -105,7 +105,7 @@ Vous devez effectuer les étapes suivantes pour configurer le test de contrainte
 1. Configurer un itinéraire de voix pour les appels d’urgence. Vous pouvez utiliser le script RoutingRules.ps1 et vérifier sous le commentaire « **Router E911 vers PSTN** » pour obtenir un exemple de la façon de configurer cet itinéraire de voix.
     
     > [!CAUTION]
-    > L’exemple de commande RoutingRules.ps1 a un modèle de numéro qui inclut le numéro 119 au lieu de 911. Vous devez éviter d’utiliser le 911 (ou votre numéro d’urgence local réel) pour éviter les appels accidentels à vos opérateurs d’urgence locaux lors de vos tests de charge. N’oubliez pas que cette configuration est uniquement à des fins de simulation ! 
+    > L’exemple de commande RoutingRules.ps1 a un modèle de numéro qui inclut le numéro 119 au lieu de 911. Évitez d’utiliser le 911 (ou votre numéro d’urgence local réel) pour éviter les appels accidentels vers vos opérateurs d’urgence locaux pendant les tests de charge. N’oubliez pas que cette configuration est uniquement à des fins de simulation ! 
   
 2. Configurez les adresses en remplissant les valeurs sous l’onglet Configuration du **service** d’informations d’emplacement dans UserProvisioningTool, comme illustré dans la figure suivante :
     

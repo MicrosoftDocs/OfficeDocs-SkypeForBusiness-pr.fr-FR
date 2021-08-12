@@ -11,26 +11,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Résumé : Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service de mobilité Mcx de Skype Entreprise Server.'
-ms.openlocfilehash: d711ada11cee9cb12a5cde25cab583f8b174ac50
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service Skype Entreprise Server Mcx Mobility Service.'
+ms.openlocfilehash: 83097ed6e1503fafa8b82815ef36a3411fa09f8af1c8f83470d9e8ee02ae6b88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286783"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performances de mobilité dans Skype Entreprise Server
  
-**Résumé :** Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API UCWA (Unified Communications Web API) et le service de mobilité Mcx de Skype Entreprise Server.
+**Résumé :** Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API UCWA (Unified Communications Web API) et le service Skype Entreprise Server Mcx Mobility Service.
   
-Les tableaux suivants répliquent les noms et descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service de mobilité Mcx de Skype Entreprise Server. 
+Les tableaux suivants réexistent les noms et les descriptions des compteurs de performance que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service Skype Entreprise Server Mcx Mobility Service. 
   
 Le nom de catégorie pour les compteurs dans la table UCWA est **LS:WEB - UCWA**.
   
 Le nom de catégorie des compteurs dans la table Service de mobilité Mcx est **LS:WEB - Mobile Communication Service**.
 
 > [!NOTE]
-> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
 ## <a name="performance-counters-for-ucwa"></a>Compteurs de performance pour UCWA
 
@@ -49,20 +49,20 @@ Le nom de catégorie des compteurs dans la table Service de mobilité Mcx est **
 |Instances utilisateur actives sans application  <br/> |Nombre actuel d’instances utilisateur sans application  <br/> |
 |Active Video Modality Count  <br/> |Nombre actuel de modalités vidéo  <br/> |
 |Demandes de création d’applications reçues/seconde  <br/> |Taux de demandes de création d’applications reçues par seconde  <br/> |
-|AS MCU Join Failures  <br/> |Nombre d’échecs de jointeurs du MCU AS  <br/> |
+|AS MCU Join Failures  <br/> |Nombre d’échecs de joint du MCU AS  <br/> |
 |Échecs de joints du MCU av  <br/> |Nombre d’échecs de joint du MCU antivirus  <br/> |
 |Durée moyenne de démarrage de l’application (ms)  <br/> |Durée moyenne de démarrage de l’application en millisecondes  <br/> |
 |Durée de vie moyenne de la session (ms)  <br/> |Durée de vie moyenne d’une session en millisecondes  <br/> |
 |Data MCU Join Failures  <br/> |Nombre d’échecs de joint du MCU de données  <br/> |
-|Latence de recherche de contact Exchange (ms)  <br/> |Ce compteur indique le temps moyen (en millisecondes) de recherche d’un contact dans Exchange  <br/> |
-|Exchange HD Photo Get Latency (ms)  <br/> |Ce compteur indique le temps moyen (en millisecondes) pour récupérer une photo à partir d’Exchange  <br/> |
+|Exchange Latence de recherche de contact (ms)  <br/> |Ce compteur indique la durée moyenne (en millisecondes) de la recherche de contact dans Exchange  <br/> |
+|Exchange HD Photo Get Latency (ms)  <br/> |Ce compteur indique le temps moyen (en millisecondes) pour récupérer une photo à partir d Exchange  <br/> |
 |HTTP 4xx Responses/Second  <br/> |Taux de réponses par seconde avec code HTTP 4xx  <br/> |
 |HTTP 5xx Responses/Second  <br/> |Taux de réponses par seconde avec code HTTP 5xx  <br/> |
 |Échecs de joints au MCU de messagerie instantanée  <br/> |Nombre d’échecs de joint du MCU de messagerie instantanée  <br/> |
 |Nombre d’échecs d’obtenir des photos Active Directory  <br/> |Nombre total d’échecs de récupération de photos à partir d’Active Directory  <br/> |
 |Nombre d’échecs de recherche de contacts  <br/> |Nombre total d’échecs de recherche de contacts dans Exchange  <br/> |
 |Nombre d’échecs de désérialisation  <br/> |Nombre total d’échecs de désérialisation  <br/> |
-|Nombre d’échecs d’obtenir une photo HD  <br/> |Nombre total d’échecs de récupération de photos HD à partir d’Exchange  <br/> |
+|Nombre d’échecs d’obtenir une photo HD  <br/> |Nombre total d’échecs de récupération de photos HD à partir de Exchange  <br/> |
 |Over The Maximum Subscriptions Per Application  <br/> |Nombre de demandes d’abonnement au-dessus du nombre maximal autorisé par application  <br/> |
 |Au-dessus du nombre maximal d’abonnements par lot  <br/> |Nombre de demandes d’abonnement au-dessus du nombre maximal autorisé par lot  <br/> |
 |Échecs d’abonnement de présence  <br/> |Nombre d’échecs d’abonnement à la présence  <br/> |
@@ -85,7 +85,7 @@ Le nom de catégorie des compteurs dans la table Service de mobilité Mcx est **
 |**Compteur**|**Description**|
 |:-----|:-----|
 |Durée de vie moyenne d’une session en millisecondes  <br/> |Durée de vie moyenne d’une session en millisecondes  <br/> |
-|Abonnements actuels aux notifications push  <br/> |Quantité actuelle d’abonnements aux notifications push. Ce nombre, conjointement avec le nombre de sessions actuellement actives, représente le sous-ensemble des sessions actuellement actives inscrites pour les appareils Windows Mobile ou iPhone.  <br/> |
+|Abonnements actuels aux notifications push  <br/> |Quantité actuelle d’abonnements aux notifications push. Ce nombre, conjointement avec le nombre de sessions actuellement actives, représente le sous-ensemble des sessions actuellement actives inscrites pour Windows mobile ou iPhone appareils mobiles.  <br/> |
 |Nombre d’interrogations réseau expirées actuellement actives  <br/> |Nombre d’interrogations réseau sont le délai d’attente a expiré  <br/> |
 |Nombre d’interrogations actuellement actives  <br/> |Nombre d’interrogations actuellement actives (longues connexions au serveur)  <br/> |
 |Nombre de sessions actuellement actives  <br/> |Quantité actuelle de points de terminaison enregistrés dans le service de mobilité  <br/> |
@@ -117,4 +117,4 @@ Le nom de catégorie des compteurs dans la table Service de mobilité Mcx est **
 |Quantité totale d’appels vocaux sortants réussis  <br/> |Quantité totale d’appels vocaux sortants ayant été réussis  <br/> |
    
 > [!NOTE]
-> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.

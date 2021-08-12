@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams en Autriche.
-ms.openlocfilehash: 96ef030f814c4f261092d2e2d9a8a7e46f4a9be6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bdf47a162c9028f8a5afab82be330906c4cfa4fec1436e0ada89a74e2aed647b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341390"
 ---
 # <a name="availability-in-austria"></a>Disponibilité en Autriche
 
@@ -83,7 +83,7 @@ Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Micro
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service](../getting-service-phone-numbers.md)
 

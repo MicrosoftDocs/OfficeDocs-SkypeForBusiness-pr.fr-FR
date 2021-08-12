@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
-description: LGet-CcCredential cmdlet renvoie les informations d’identification du déploiement actuel de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: c4e2d47ffc31eb7afef76c710fc93024ce2c593e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: LGet-CcCredential cmdlet renvoie les informations d’identification du déploiement Skype Entreprise Cloud Connector Edition actuel.
+ms.openlocfilehash: 277062068c6e5e630fd22cd1bd4c6dbfb873db1cb90b915424aa6e3a3eb6ce50
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800394"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322886"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
-LGet-CcCredential cmdlet renvoie les informations d’identification du déploiement actuel de la version Cloud Connector de Skype Entreprise. 
+LGet-CcCredential cmdlet renvoie les informations d’identification du déploiement Skype Entreprise Cloud Connector Edition actuel. 
   
 Avec les versions 2.0 et ultérieures, vous pouvez également utiliser le paramètre -DisplayPassword pour afficher les mots de passe pour TenantAdmin, DomainAdmin et VMAdmin.
   

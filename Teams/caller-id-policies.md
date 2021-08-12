@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft Teams modifier ou bloquer l’ID d’appelant des Teams utilisateurs dans votre organisation.
-ms.openlocfilehash: cd928af5213a1e6fa927662adaba0fefecb687d5
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7157f1a2a7997a8278ac05ac74db676cb551b20d5858b8732e373429f4b5e5aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341439"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’ID d’appelant dans Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "52308373"
 
 Par défaut, lorsqu’Teams un utilisateur appelle un téléphone PSTN, le numéro de téléphone de l’Teams est visible. De même, lorsqu’un appelant PSTN appelle un Teams, le numéro de téléphone de l’appelant PSTN est visible.
 
-En tant qu’administrateur, vous pouvez utiliser les stratégies d’ID d’appelant pour modifier ou bloquer l’ID de l’appelant (également appelé ID de ligne d’appel). Vous pouvez utiliser les stratégies d’ID d’appelant pour afficher un autre numéro de téléphone pour les utilisateurs Teams de votre organisation, bloquer l’affichage du numéro de téléphone sortant, bloquer l’affichage d’un numéro entrant ou définir le nom de l’appelant (CNAM). Par exemple, lorsqu’un utilisateur passe un appel, vous pouvez modifier l’ID de l’appelant pour afficher le numéro de téléphone principal et le nom de la société de votre organisation à la place du numéro de téléphone de l’utilisateur.
+En tant qu’administrateur, vous pouvez utiliser les stratégies d’ID d’appelant pour modifier ou bloquer l’ID de l’appelant (également appelé ID de ligne d’appel). Vous pouvez utiliser les stratégies d’ID d’appelant pour afficher un autre numéro de téléphone pour les Teams utilisateurs de votre organisation, bloquer l’affichage du numéro de téléphone sortant, bloquer l’affichage d’un numéro entrant ou définir le nom de l’appelant (CNAM). Par exemple, lorsqu’un utilisateur passe un appel, vous pouvez modifier l’ID de l’appelant pour afficher le numéro de téléphone principal et le nom de la société de votre organisation à la place du numéro de téléphone de l’utilisateur.
 
 Pour gérer les stratégies d’ID d’appelant, vous devez vous rendre sur les stratégies d’ID d’appelant vocal dans le   >   Microsoft Teams d’administration. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
@@ -68,7 +68,7 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 

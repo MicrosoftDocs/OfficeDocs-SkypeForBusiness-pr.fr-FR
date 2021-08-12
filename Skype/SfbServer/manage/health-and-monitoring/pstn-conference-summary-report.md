@@ -1,5 +1,5 @@
 ---
-title: Rapport de synthèse des conférences PSTN dans Skype Entreprise Server
+title: Rapport de synthèse de conférence PSTN en Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Résumé : Découvrez le rapport de synthèse des conférences PSTN dans Skype Entreprise Server.'
-ms.openlocfilehash: aab91995a2c987e1a6e3a10d1f6fc8791b19a4b1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez le rapport de synthèse des conférences PSTN Skype Entreprise Server.'
+ms.openlocfilehash: 4fdcac31c5f674ca3289a275cc253f798fabdf5fb9ab221e5872e8b5d82fccb2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286763"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse des conférences PSTN dans Skype Entreprise Server
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de conférence PSTN en Skype Entreprise Server
  
-**Résumé :** Découvrez le rapport de synthèse des conférences PSTN dans Skype Entreprise Server.
+**Résumé :** Découvrez le rapport de synthèse de conférence PSTN dans Skype Entreprise Server.
   
 Dans Skype Entreprise Server, une conférence PSTN est une conférence dans laquelle au moins un participant se compose de la partie audio à l’aide d’un téléphone PSTN (réseau téléphonique commuté). (Un téléphone PSTN est une « ligne fixe », un téléphone portable ou tout autre téléphone qui n’utilise pas Voice over IP.) Bien que appelées conférences PSTN dans les rapports de surveillance, ces conférences sont peut-être plus communément appelées conférences d’accès.
   
@@ -33,9 +33,9 @@ Le rapport de synthèse de conférence PSTN est accessible uniquement à partir 
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Utilisation efficace du rapport de synthèse de conférence PSTN
 
-Pour déterminer le pourcentage de toutes vos conférences qui incluent des utilisateurs de conférences, comparez la valeur de la mesure Nombre total de conférences PSTN à la mesure Nombre total de conférences trouvée dans le rapport de synthèse de conférence dans [Skype Entreprise Server.](conference-summary-report.md)
+Pour déterminer le pourcentage de toutes vos conférences qui incluent des utilisateurs de conférences, comparez la valeur de la mesure Nombre total de conférences PSTN à la mesure Nombre total de conférences trouvée dans le rapport de synthèse de conférence dans [Skype Entreprise Server](conference-summary-report.md).
   
-Si les conférences PSTN que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence assignée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences PSTN, vous verrez peu de conférences PSTN. Vous pouvez rapidement vérifier quelles stratégies de conférence autorisent les utilisateurs à planifier des conférences PSTN en exécutant la commande suivante à partir de Skype Entreprise Server Management Shell :
+Si les conférences PSTN que vous vous attendiez à voir ne s’affichent pas, n’oubliez pas que la possibilité d’organiser une conférence qui autorise les utilisateurs connectés dépend de la stratégie de conférence assignée à un utilisateur : si peu d’utilisateurs sont autorisés à organiser des conférences PSTN, vous verrez peu de conférences PSTN. Vous pouvez rapidement vérifier quelles stratégies de conférence autorisent les utilisateurs à planifier des conférences PSTN en exécutant la commande suivante à partir de l’environnement de ligne de commande Skype Entreprise Server Management Shell :
   
 ```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
@@ -64,7 +64,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début du 7/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours 8/7/2015 de 12:00 au 07/09/2015 12:00 (c’est-à-dire, un total de 31 jours de données). <br/> |
    
 ## <a name="metrics"></a>Mesures
@@ -75,7 +75,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Toutes les heures** <br/> **Journalière** <br/> **Hebdomadaire** <br/> **Mensuelle** <br/> |Non  <br/> |Indique l’intervalle de temps sélectionné. Si applicable, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
+|**Toutes les heures** <br/> **Tous les jours** <br/> **Toutes les semaines** <br/> **Tous les mois** <br/> |Non  <br/> |Indique l’intervalle de temps sélectionné. Si applicable, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
 |**Nombre total de conférences PSTN** <br/> |Non  <br/> |Nombre total de conférences ayant autorisé l’accès de rendez-vous.  <br/> |
 |**Nombre total de participants** <br/> |Non  <br/> |Nombre total de personnes ayant participé à des conférences ayant autorisé l’accès de rendez-vous.  <br/> |
 |**Nombre total de minutes par conférence A/V** <br/> |Non  <br/> |Durée totale de conférence audio/vidéo.  <br/> |

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: La table TraceRoute contient les informations de routage émanant des appels. Ce tableau a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 7ecad93cca80a9b7cea73f64158b3c0008a1d6e7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f08b3cf1e007d9ba2258db1d4db86e9af160a8c9286bc75e27ab9c0ea8ece441
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831319"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322926"
 ---
 # <a name="traceroute-table"></a>Table TraceRoute
  

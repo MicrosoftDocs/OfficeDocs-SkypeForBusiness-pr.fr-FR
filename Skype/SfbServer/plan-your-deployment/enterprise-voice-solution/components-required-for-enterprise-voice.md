@@ -1,5 +1,5 @@
 ---
-title: Composants requis pour Voix Entreprise dans Skype Entreprise Server
+title: Composants requis pour les Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,32 +15,32 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
-description: Résumé des composants Voix Entreprise dans Skype Entreprise Server.
-ms.openlocfilehash: 1a7f13cc171af44ecbd0f48706ec12d882e50b33
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Résumé des composants de Voix Entreprise dans Skype Entreprise Server.
+ms.openlocfilehash: e07c075fad0dcbad8fecfc9183b6ab1a4a1901d848d072a893444c295e56a59d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333096"
 ---
-# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Composants requis pour Voix Entreprise dans Skype Entreprise Server
+# <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Composants requis pour les Voix Entreprise dans Skype Entreprise Server
  
-Résumé des composants Voix Entreprise dans Skype Entreprise Server.
+Résumé des composants de Voix Entreprise dans Skype Entreprise Server.
   
 Pour déployer Voix Entreprise, les composants suivants sont requis dans votre topologie. 
   
-- Un ou plusieurs serveurs de médiation, qui traduisent la signalisation et, dans certaines configurations, les médias entre votre infrastructure skype entreprise interne, votre infrastructure Voix Entreprise et une passerelle de réseau téléphonique commuté (PSTN) ou une session SIP (Session Initiation Protocol). Les serveurs de médiation sont le composant le plus crucial de votre déploiement Voix Entreprise de médiation. Pour plus d’informations, [voir composant serveur de médiation dans Skype Entreprise Server.](mediation-server.md)
+- Un ou plusieurs serveurs de médiation, qui traduisent la signalisation et, dans certaines configurations, les médias entre votre infrastructure Skype Entreprise Server interne, votre infrastructure Voix Entreprise et une passerelle PSTN (réseau téléphonique commuté) ou une session SIP (Session Initiation Protocol). Les serveurs de médiation sont le composant le plus crucial de votre déploiement Voix Entreprise de médiation. Pour plus d’informations, [voir composant serveur de médiation dans Skype Entreprise Server](mediation-server.md).
     
     Les serveurs de médiation peuvent être cocalisé avec des serveurs frontaux ou installés en tant que serveurs autonomes.
     
-- Composants de connectivité PSTN, qui peuvent inclure des passerelles SIP ou PSTN. Pour plus d’informations, voir composants de [connectivité PSTN dans Skype Entreprise Server.](pstn-connectivity.md)
+- Composants de connectivité PSTN, qui peuvent inclure des passerelles SIP ou PSTN. Pour plus d’informations, voir les composants de connectivité [PSTN dans Skype Entreprise Server](pstn-connectivity.md).
     
-- Les serveurs Edge, qui permettent à vos utilisateurs d’utiliser Voix Entreprise fonctionnalités de sécurité lorsqu’ils sont en dehors du pare-feu de votre organisation. 
+- Les serveurs Edge, qui permettent à vos utilisateurs d’utiliser Voix Entreprise fonctionnalités lorsqu’ils sont en dehors du pare-feu de votre organisation. 
     
-    Le service Edge d’accès fournit une signalisation SIP pour les appels provenant d’utilisateurs Skype Entreprise qui se sont produits à l’extérieur du pare-feu de votre organisation. Le service Edge A/V permet aux médias de traverser les NAT et les pare-feu. Un appelant qui utilise un client de communications unifiées en dehors du pare-feu de l’entreprise compte sur le service Edge A/V pour les appels individuels et téléconférences.
+    Le service Edge d’accès fournit une signalisation SIP pour les appels Skype Entreprise utilisateurs qui se sont en dehors du pare-feu de votre organisation. Le service Edge A/V permet aux médias de traverser les NAT et les pare-feu. Un appelant qui utilise un client de communications unifiées en dehors du pare-feu de l’entreprise compte sur le service Edge A/V pour les appels individuels et téléconférences.
     
     Le service d’authentification A/V est colocalisé avec le service Edge A/V et fournit des services d’authentification pour ce service. Les utilisateurs extérieurs qui tentent de se connecter au service Edge A/V ont besoin d’un jeton d’authentification fourni par le service d’authentification A/V pour que leurs appels puissent aboutir.
     
-- En outre, certains composants Voix Entreprise s’exécutent sur des serveurs frontaux. Pour plus d’informations sur ces composants, voir [Composants VoIP](front-end-server-voip.md) du serveur frontal pour Skype Entreprise Server
+- En outre, certains composants Voix Entreprise s’exécutent sur des serveurs frontaux. Pour plus d’informations sur ces composants, voir [composants VoIP](front-end-server-voip.md) du serveur frontal pour Skype Entreprise Server
     
 

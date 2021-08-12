@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df8a0f5b33bbea100b0303d224d7ba50946c6e5b
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 2b0f5fb378287d820762b66375d86903b9e89cebdd74378b302f62bf121fc1c5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513877"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285633"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Présentation de l Teams’enregistrement basé sur une stratégie pour les appels et & réunions
 
@@ -40,7 +40,7 @@ Teams a été amélioré pour prendre en charge l’intégration de solutions d�
 
 - Nouvelles stratégies d’administration pour l’enregistrement de la conformité, notamment l’intégration avec les stratégies et Teams d’appel d’administration et de réunion existants
 
-L’enregistrement de conformité peut être activé pour les Microsoft 365 utilisateurs A3/A5/E3/E5/Business Premium et Office 365 A3/A5/E3/E5. 
+L’enregistrement de conformité peut être activé pour les utilisateurs Microsoft 365 A3/A5/E3/E5/Business Premium et Office 365 A3/A5/E3/E5. 
 
 Les fonctionnalités d’intégration de la solution d’enregistrement de la conformité ont également été examinées dans Ignite 2019 dans la [session Compliance Recording and Microsoft Teams session.](https://myignite.microsoft.com/archives/IG19-VCE40)
 
@@ -116,7 +116,7 @@ Les solutions d’enregistrement de conformité sont intégrées aux Teams comme
 ## <a name="recorder"></a>Enregistreur
 
 Le composant principal de la solution d’enregistrement de conformité est l’enregistreur.
-Les enregistreurs sont conçus sous la forme de services Azure évolutifs (bots) qui tirent parti de la plateforme de communication de Microsoft et s’inscrivent en tant [qu’applications](/graph/cloud-communications-concept-overview) auprès de Microsoft Graph. L’enregistreur fournit une interaction directe avec les Teams et les API de [communication](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) de la plateforme de réunions et fournit le point de terminaison pour l’ingestion de médias.
+Les enregistreurs sont conçus sous la forme de services Azure évolutifs (bots) qui tirent parti de la plateforme de communication de Microsoft et s’inscrivent en tant [qu’applications](/graph/cloud-communications-concept-overview) auprès de Microsoft Graph. L’enregistreur fournit l’interaction directe avec les Teams et les API de [communication](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) de la plateforme de réunions et fournit le point de terminaison pour l’ingestion de médias.
 
 Un [exemple d’application](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) enregistreur de conformité est disponible pour vous aider à configurer le robot, à créer l’instance d’application et à attribuer les stratégies de conformité. L’exemple présente également des exemples sur l’utilisation de l’API pour enregistrer des interactions spécifiques telles que la gestion du [routage](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) d’appel [entrant,](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)la modification des états d’enregistrement et la suppression de l’utilisateur en [cours d’enregistrement.](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)
 Graph documentation sur les API spécifiques est ici pour [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) et [incomingContext.](/graph/api/resources/incomingcontext?view=graph-rest-1.0)

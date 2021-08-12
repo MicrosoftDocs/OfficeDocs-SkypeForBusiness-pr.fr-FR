@@ -1,5 +1,5 @@
 ---
-title: Créer une collection de paramètres de configuration de la trunk dans Skype Entreprise Server
+title: 'Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services.
-ms.openlocfilehash: a1be9ff54da001b1d59cdc2bda47c8bd3611418a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Les paramètres de configuration de la configuration de la liaison de session SIP définissent la relation entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un PBX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services.
+ms.openlocfilehash: 4e9e6164b7776181b85478c5d420f0bf5e296ac4c02fc23494c5af8808474566
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849939"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Créer une collection de paramètres de configuration de la trunk dans Skype Entreprise Server
+# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk
 
 Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. Ces paramètres permettent de spécifier ce qui suit :
 - L’activation ou non du contournement de média sur les jonctions.
@@ -52,14 +52,14 @@ Lorsque vous créez des paramètres de configuration de la trunk SIP à l’aide
 ||||
 
 > [!Note]
-> Les cmdlets CsTrunkConfiguration de Skype Entreprise Server prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans le Panneau de configuration de Skype Entreprise Server. Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/New-CsTrunkConfiguration) 
+> Les Skype Entreprise Server cmdlets CsTrunkConfiguration peuvent prendre en charge des propriétés supplémentaires qui ne sont pas affichées Skype Entreprise Server panneau de configuration. Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/New-CsTrunkConfiguration) 
 
-**Pour créer des paramètres de configuration de la trunk à l’aide du Panneau de configuration de Skype Entreprise Server**
+**Pour créer de nouveaux paramètres de configuration de la Skype Entreprise Server panneau de configuration**
 
-1. Dans le Panneau de configuration de Skype Entreprise Server, cliquez sur **Routage** des voix, puis sur **Configuration de la configuration de la configuration des branches.**
+1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
 2. Sous l’onglet **Configuration de la jonction**, cliquez sur **Nouveau**, puis cliquez sur **Jonction de site** pour créer les paramètres au niveau de l’étendue Site, ou cliquez sur **Jonction de pool** pour créer les paramètres au niveau de l’étendue Service.
-3. Dans la boîte de dialogue Sélectionner un **site** ou Sélectionner un **service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue site ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK.** Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun endroit pour créer les nouveaux paramètres ; Par exemple,  si la boîte de dialogue Sélectionner un site est vide, cela signifie que tous vos sites ont déjà été affectés à une collection de sites de configuration de trunk, et que chaque site (et chaque service) ne peut héberger qu’une seule collection de ce type. Dans ce cas, vous pouvez supprimer la collection existante et créer une collection, ou simplement modifier la collection existante.
+3. Dans la boîte de dialogue Sélectionner un **site** ou Un **service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue site ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK.** Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun endroit pour créer les nouveaux paramètres ; Par exemple,  si la boîte de dialogue Sélectionner un site est vide, cela signifie que tous vos sites ont déjà été affectés à une collection de sites de configuration de troncation, et que chaque site (et chaque service) ne peut héberger qu’une seule collection de ce type. Dans ce cas, vous pouvez supprimer la collection existante et créer une collection, ou simplement modifier la collection existante.
 4. Dans la boîte de dialogue **Nouvelle configuration de jonction**, effectuez les sélections appropriées, puis cliquez sur **OK**.
 5. La propriété **État** de la collection aura la valeur **Non validé**. Pour valider les modifications et pour supprimer la collection, cliquez sur **Valider**, puis sur **Valider tout**.
 6. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.
-7. Dans la **boîte de dialogue Panneau de contrôle Skype** Entreprise, cliquez sur **OK.**
+7. Dans la **boîte Skype Entreprise panneau de bord,** cliquez sur **OK.**

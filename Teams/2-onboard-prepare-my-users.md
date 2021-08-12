@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322876"
 ---
 # <a name="prepare-my-users"></a>Préparer mes utilisateurs
 
@@ -52,7 +52,7 @@ L’image suivante est un exemple d’énoncé de vision à valeur pour un clien
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous formulé l’avantage et la valeur pour vos utilisateurs d’une manière qui gagne leur achat pour cette nouvelle solution ?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Créez vos énoncés de vision et de valeur pour l’étendue de votre projet en cours, en veillant à ce qu’ils s’alignent avec vos objectifs.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Créez vos énoncés de vision et de valeur pour l’étendue de votre projet actuel, en veillant à ce qu’ils s’alignent avec vos objectifs.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -92,13 +92,13 @@ La préparation organisationnelle permet de déterminer la manière dont vos uti
 
  
 > [!TIP]
-> L’apprentissage n’est pas une solution à tous. En vous faisant comprendre comment vos utilisateurs apprendnt le mieux, vous pouvez créer un programme de formation puissant pour accélérer leur apprentissage. Si de nombreux utilisateurs sont motivé, la liaison de vidéos et de guides d’utilisation peut suffire. Pour ceux qui ont besoin d’une attention spéciale, n’oubliez pas de programmer un face-à-un ou de s’inscrire vos champions pour aider ces utilisateurs &mdash; dans la courbe d’apprentissage.
+> Learning n’est pas une seule taille. En vous faisant comprendre comment vos utilisateurs apprendnt le mieux, vous pouvez créer un programme de formation puissant pour accélérer leur apprentissage. Si de nombreux utilisateurs sont motivé, la liaison de vidéos et de guides d’utilisation peut suffire. Pour ceux qui ont besoin d’une attention spéciale, n’oubliez pas de programmer un face-à-un ou de s’inscrire vos champions pour aider ces utilisateurs dans &mdash; la courbe d’apprentissage.
 
 <!--ENDOFSECTION-->
 
 ## <a name="assess-your-user-base"></a>Évaluer votre base d’utilisateurs
 
-L’analyse au niveau des personnes vous donne une compréhension de vos personnage d’utilisateurs, de vos préliminaires et de vos cas d’utilisation. En prenant le temps de comprendre qui sont vos utilisateurs et comment ils fonctionnent, vous pouvez vous assurer qu’ils ont ce dont ils ont besoin pour réussir lorsque vous implémentez le changement. Cela peut inclure une messagerie ciblée, des formations ou même des appareils tels que des casques et des webcams. Par exemple, un cadre peut s’attendre à une formation à deux, tandis que les responsables de terrain en déplacement peuvent bénéficier d’une vidéo de formation qu’ils peuvent regarder à leur rythme. De plus, l’analyse au niveau des personnes peut vous aider à identifier les personnes devant commencer à utiliser la nouvelle fonctionnalité aujourd’hui et celles qui seront peut-être mieux servis en attendant.
+L’analyse au niveau des personnes vous donne plus de compréhension de vos personnage d’utilisateurs, de vos anses et de vos cas d’utilisation. En prenant le temps de comprendre qui sont vos utilisateurs et comment ils fonctionnent, vous pouvez vous assurer qu’ils ont ce dont ils ont besoin pour réussir lorsque vous implémentez le changement. Cela peut inclure une messagerie ciblée, des formations ou même des appareils tels que des casques et des webcams. Par exemple, un cadre peut s’attendre à une formation à deux, tandis que les responsables de terrain en déplacement peuvent bénéficier d’une vidéo de formation qu’ils peuvent regarder à leur rythme. De plus, l’analyse au niveau des personnes peut vous aider à identifier les personnes devant commencer à utiliser la nouvelle fonctionnalité aujourd’hui et celles qui seront peut-être mieux servis en attendant.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Certains utilisateurs ou clients ont-ils une dépendance essentielle sur cette solution pour travailler efficacement ?</li><li>Existe-t-il des cas d’utilisation spécifiques qui peuvent être facilités à l’aide de cette nouvelle solution ?</li></ul></td></tr>
@@ -124,7 +124,7 @@ Pour chaque groupe de personnage, discutez des sujets suivants avec votre équip
 
     -   Support (libre-service, support technique, champions) ?  
 
--   Ce groupe est-il idéal pour un programme pilote ou de nouveaux utilisateurs ? Si c’est le cas, planifiez l’achat auprès de ces utilisateurs pour participer à la phase pilote. Pour plus d’informations sur la mise en œuvre d’un programme pilote réussi, voir Pilote [Teams en parallèle Skype Entreprise.](pilot-essentials.md)
+-   Ce groupe est-il un bon candidat pour un programme pilote ou de nouveaux utilisateurs ? Si c’est le cas, planifiez l’achat auprès de ces utilisateurs pour participer à la phase pilote. Pour plus d’informations sur la mise en œuvre d’un programme pilote réussi, voir Pilote [Teams en parallèle Skype Entreprise.](pilot-essentials.md)
 
 L’image suivante est un exemple de tableau de personnage.
 
@@ -140,7 +140,7 @@ Pour chaque cas d’utilisation, discutez des sujets suivants avec votre équipe
 
 -   Comment la nouvelle solution optimisera-t-elle l’expérience utilisateur ?
 
-Pour consulter des exemples de cas d’utilisation, visitez [la bibliothèque de productivité FastTrack.](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)
+Pour consulter des exemples de cas d’utilisation, consultez [FastTrack Bibliothèque de productivité.](https://fasttrack.microsoft.com/microsoft365/productivitylibrary)
 
 <!--ENDOFSECTION-->
 
@@ -156,5 +156,5 @@ Après avoir compris qui sont vos utilisateurs et comment ils travailleront au s
 
 <table>
 <tr><th>Communication</th><th>Formation</th><th>Support</th></tr>
-<tr><td><ul><li>Personnaliser &mdash; nos modèles <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">de messagerie vocale par courrier électronique</a></li><li>Affiches et signature numérique </li><li>Lancer des événements</li><li>Responsables de département</li><li>Champions</li><li>Équipes et canaux</li><li>Gamification</li></ul></td><td><ul><li>Articles et vidéos de Microsoft :<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Basculer vers Teams à partir de Skype Entreprise</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Teams vidéo de formation</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Réunions et appels</a></li></li></ul><li>Assistance interne (Aide)</li><li>Équipe de formation interne</li><li>Équipe de formation partenaire</li></ul></td><td><ul><li>Aide interne</li><li>Support technique externe</li><li>Libre-aide (site intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Aide et comment en ligne</a></li><li>Les équipes de plancher et les champions</li><li>Boucle de commentaires : &mdash; consultez les <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">exemples d’enquêtes de commentaires des utilisateurs</a></li></td></tr>
+<tr><td><ul><li>Personnaliser &mdash; nos modèles <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">de messagerie vocale par courrier électronique</a></li><li>Affiches et signature numérique </li><li>Lancer des événements</li><li>Responsables de département</li><li>Champions</li><li>Équipes et canaux</li><li>Gamification</li></ul></td><td><ul><li>Articles et vidéos de Microsoft :<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Basculer vers Teams à partir de Skype Entreprise</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Teams vidéo de formation</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Réunions et appels</a></li></li></ul><li>Assistance interne (Aide)</li><li>Équipe de formation interne</li><li>Équipe de formation partenaire</li></ul></td><td><ul><li>Aide interne</li><li>Support technique externe</li><li>Libre-aide (site intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Aide et comment en ligne</a></li><li>Les champions et les danses</li><li>Boucle de commentaires : &mdash; consultez les <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">exemples d’enquêtes de commentaires des utilisateurs</a></li></td></tr>
 </table>

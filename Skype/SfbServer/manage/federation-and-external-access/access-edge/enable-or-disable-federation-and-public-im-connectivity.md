@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: La fédération doit être prise en charge pour permettre aux utilisateurs possédant un compte auprès d’un client approuvé ou d’une organisation partenaire, y compris les domaines partenaires et les utilisateurs de fournisseurs de services de messagerie instantanée publics que vous prenez en charge, de collaborer avec des utilisateurs de votre entreprise.
-ms.openlocfilehash: 34991040e6eed9cfec8d2e3abd3fd3d944057d868f0ca9b83cd4131d3fd13ad0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9c7b4ee7a861bc395c8599283f8d993b25ef4774d9487263e334207e9e277c8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849969"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Activer ou désactiver la fédération et la connectivité de messagerie instantanée publique dans Skype Entreprise Server
 
@@ -28,7 +28,7 @@ La fédération doit être prise en charge pour permettre aux utilisateurs poss�
 
 Pour prendre en charge l’accès des utilisateurs de domaines fédérés, vous devez activer la fédération. Si vous activez la fédération pour votre entreprise, vous devez également préciser si vous voulez implémenter les options suivantes :
 
-  - **Activer la découverte de domaine partenaire**   Si vous activez cette option, Skype Entreprise Server utilise des enregistrements DNS (Domain Name System) pour essayer de découvrir les domaines non répertoriés dans la liste des domaines autorisés, en évaluant automatiquement le trafic entrant provenant de partenaires fédérés découverts et en limitant ou bloquant ce trafic en fonction du niveau de confiance, de la quantité de trafic et des paramètres d’administrateur. Si vous ne sélectionnez pas cette option, l’accès des utilisateurs fédérés est uniquement activé pour les utilisateurs des domaines inclus dans la liste des domaines autorisés. Que vous choisissiez ou non cette option, vous pouvez bloquer ou autoriser des domaines individuels, et restreindre l’accès à des serveurs spécifiques exécutant le service Edge d’accès dans le domaine fédéré. Pour plus d’informations sur le contrôle de l’accès par les domaines fédérés, voir Configurer la prise en charge [des domaines externes autorisés.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
+  - **Activer la découverte de domaine partenaire**   Si vous activez cette option, Skype Entreprise Server utilise des enregistrements DNS (Domain Name System) pour essayer de découvrir les domaines non répertoriés dans la liste des domaines autorisés, en évaluant automatiquement le trafic entrant provenant de partenaires fédérés découverts et en limitant ou bloquant ce trafic en fonction du niveau de confiance, de la quantité de trafic et des paramètres d’administrateur. Si vous ne sélectionnez pas cette option, l’accès des utilisateurs fédérés est uniquement activé pour les utilisateurs des domaines inclus dans la liste des domaines autorisés. Que vous choisissiez ou non cette option, vous pouvez bloquer ou autoriser des domaines individuels, et restreindre l’accès à des serveurs spécifiques exécutant le service Edge d’accès dans le domaine fédéré. Pour plus d’informations sur le contrôle de l’accès par les domaines fédérés, voir Configurer la prise en charge des [domaines externes autorisés.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
 
   - **Envoyer une notification d’exclusion aux partenaires fédérés relative à l’archivage**    Une notification d’exclusion est envoyée aux partenaires fédérés pour les informer que l’archivage est mis en œuvre dans votre déploiement. Si vous prenez en charge l’archivage des communications externes avec des domaines de partenaires fédérés, vous devez activer la notification d’exclusion relative à l’archivage afin de prévenir les partenaires que leurs messages sont archivés.
 
@@ -67,19 +67,15 @@ Pour permettre aux utilisateurs fédérés de collaborer avec des utilisateurs d
 
 ## <a name="enabling-or-disabling-federation-and-public-im-connectivity-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de la fédération et de la connectivité de messagerie instantanée publique à l’aide Windows PowerShell cmdlets
 
-La fédération et la connectivité de messagerie instantanée publique peuvent également être gérées à l’aide de Windows PowerShell et de la cmdlet Set-CsAccessEdgeConfiguration public. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+La fédération et la connectivité de messagerie instantanée publique peuvent également être gérées à l’aide Windows PowerShell et de la cmdlet Set-CsAccessEdgeConfiguration public. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>Pour activer la fédération et la connectivité DE MESSAGERIE INSTANTANÉE publique
 
-  - Pour activer la fédération et la connectivité PIC, définissez la valeur de la propriété **AllowFederatedUsers** à True ($True) :
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
+  - Pour activer la fédération et la connectivité PIC, définissez la valeur de la propriété **AllowFederatedUsers** à True ($True) :<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>Pour désactiver la fédération et la connectivité de messagerie instantanée publique
 
-  - Pour désactiver la fédération et la connectivité PIC, définissez la valeur de la propriété **AllowFederatedUsers** à False ($False) :
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+  - Pour désactiver la fédération et la connectivité PIC, définissez la valeur de la propriété **AllowFederatedUsers** à False ($False) :<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

@@ -12,30 +12,30 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Résumé : Découvrez le rapport de synthèse des activités D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: b1dddaefc7e824bc7b4387d13c92143e253d69f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: da8d23a0a51b23ccfbe0e15b7e2c79f81c88bf3559deb7005dc5d4f75f512ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816794"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286793"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Rapport de synthèse des activités D’égal à égal dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de synthèse des activités D’égal à égal dans Skype Entreprise Server.
   
-Le rapport de synthèse des activités d’égal à égal fournit un aperçu de vos sessions de communication d؊’égal à égal. Une session d’égal à égal n’implique généralement que deux utilisateurs et ne nécessite pas l’utilisation des services de conférence Skype Entreprise Server. En comparaison, une conférence implique généralement plus de deux utilisateurs et nécessite l’utilisation des services de conférence Skype Entreprise Server. L’activité de conférence est reportée sur le rapport de synthèse de conférence.
+Le rapport de synthèse des activités d’égal à égal fournit un aperçu de vos sessions de communication d؊’égal à égal. Une session d’égal à égal n’implique généralement que deux utilisateurs et ne nécessite pas l’utilisation des services Skype Entreprise Server conférence. En comparaison, une conférence implique généralement plus de deux utilisateurs et nécessite l’utilisation Skype Entreprise Server services de conférence. L’activité de conférence est reportée sur le rapport de synthèse de conférence.
   
 Le rapport de synthèse des activités d’égal à égal vous aide à répondre à des questions telles que :
   
 - Combien de messages instantanés d’égal à égal mes utilisateurs envoient-ils généralement par jour ?
     
-- Mes utilisateurs tirez-ils réellement parti des fonctionnalités de partage d’application et de transfert de fichiers Skype Entreprise Server ?
+- Mes utilisateurs tirez-ils réellement parti des fonctionnalités Skype Entreprise Server partage d’application et de transfert de fichiers ?
     
 - Les utilisateurs ont signalé que le réseau semblait lent à certains moments de la journée. Combien de minutes sont consacrées à des sessions audio et vidéo d’égal à égal durant ces périodes ?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Accès au rapport de synthèse des activités d’égal à égal
 
-Vous pouvez accéder au rapport de synthèse des activités d’égal à égal à partir de la page d’accueil des rapports de surveillance. Vous ouvrez [le rapport de](im-report.md) messagerie instantanée P2E dans Skype Entreprise Server en cliquant sur l’une des mesures suivantes :
+Vous pouvez accéder au rapport de synthèse des activités d’égal à égal à partir de la page d’accueil des rapports de surveillance. Vous ouvrez [le rapport de messagerie](im-report.md) instantanée D’égal à égal dans Skype Entreprise Server en cliquant sur l’une des mesures suivantes :
   
 - Nombre total de sessions de messagerie instantanée d’égal à égal
     
@@ -66,8 +66,8 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, Si vous sélectionnez l’intervalle Tous les jours avec une date de début du 17/07/12015 et une date de fin du 28/02/2015, les données s’affichent pour les jours 8/7/12015 12:00 et 9/7/12015 12:00 AM (autrement dit, un total de 31 jours d’valeur de données). <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, Si vous sélectionnez l’intervalle Quotidien avec une date de début du 17/07/12015 et une date de fin du 28/02/2015, les données s’affichent pour les jours 8/7/12015 de 12:00 au 07/09/12015 12:00 (autrement dit, un total de 31 jours d’activité de données). <br/> |
    
 ## <a name="metrics"></a>Mesures
 
@@ -77,7 +77,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Toutes les heures** <br/> **Journalière** <br/> **Hebdomadaire** <br/> **Mensuelle** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 17/07/12015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
+|**Toutes les heures** <br/> **Tous les jours** <br/> **Toutes les semaines** <br/> **Tous les mois** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 17/07/12015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
 |**Nombre total de sessions d’égal à égal** <br/> |Non  <br/> |Nombre total de sessions d’égal à égal menées, quel qu’en soit le type.  <br/> |
 |**Nombre total de sessions de messagerie instantanée d’égal à égal** <br/> |Non  <br/> |Nombre total de sessions de messagerie instantanée (IM) d’égal à égal. Lorsque vous cliquez sur cet élément, le rapport vous présente le rapport de messagerie instantanée d’égal à égal pour la période sélectionnée.  <br/> |
 |**Nombre total de messages de messagerie instantanée d’égal à égal** <br/> |Non  <br/> |Nombre total de messages instantanés envoyés lors des sessions d’égal à égal. Lorsque vous cliquez sur cet élément, le rapport vous présente le rapport de messagerie instantanée d’égal à égal pour la période sélectionnée.  <br/> |

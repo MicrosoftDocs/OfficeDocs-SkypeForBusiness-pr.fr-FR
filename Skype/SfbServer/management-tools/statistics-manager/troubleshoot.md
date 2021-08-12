@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes de déploiement du Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: ea3d6f66003841e893ebe2dcc5d3fe02d0da125b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 457790514cb769edce6deafc23857a59749b1102cf4c33206eac836d11c75c6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333206"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Résolution des problèmes du Gestionnaire de statistiques pour Skype Entreprise Server
  
@@ -37,9 +37,9 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
 
 - **1000** — Impossible de configurer le limiteur de processeur (Objet travail) — Raison inconnue
     
-- **1001** — La limitation des processus n’est pas autorisée sur le processus (probablement déjà dans un objet Job)
+- **1001** — La limitation des processus n’est pas autorisée sur le processus (probablement déjà à l’intérieur d’un objet Job)
     
-    L’agent s’exécute à l’intérieur d’un objet de travail Windows pour limiter automatiquement son encombrement mémoire. Si l’agent ne démarre pas et que ces entrées d’événement sont présentes dans le journal des événements, l’objet de travail ne peut pas être inséré sur le serveur. Pour contourner ce besoin, vous pouvez supprimer la limite de mémoire supérieure en modifiant une valeur dans le fichier de config :
+    L’agent s’exécute à l’intérieur d’un objet Windows travail pour limiter automatiquement son encombrement mémoire. Si l’agent ne démarre pas et que ces entrées d’événement sont présentes dans le journal des événements, l’objet de travail ne peut pas être inséré sur le serveur. Pour contourner ce besoin, vous pouvez supprimer la limite de mémoire supérieure en modifiant une valeur dans le fichier de config :
     
   ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
@@ -52,7 +52,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
   ```
 
     > [!NOTE]
-    > Si cette modification est réalisée, l’agent consomme généralement toujours 100 Mo de mémoire, mais il ne sera pas forcément limité à 300 Mo comme c’est le cas par \< défaut. Si cette modification est réalisée, nous vous recommandons de surveiller attentivement l’utilisation de la mémoire pour vous assurer que l’agent ne consomme pas une grande quantité de mémoire sur son ordinateur hôte. 
+    > Si cette modification est faite, l’agent consomme généralement toujours 100 Mo de mémoire, mais il ne sera pas forcément limité à 300 Mo comme c’est le cas par \< défaut. Si cette modification est réalisée, nous vous recommandons de surveiller attentivement l’utilisation de la mémoire pour vous assurer que l’agent ne consomme pas une grande quantité de mémoire sur son ordinateur hôte. 
   
 - **2000** — Échec de l’initialisation du client
     
@@ -66,7 +66,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
         
     2. Utilisez un outil de connectivité tel que telnet pour vérifier la connectivité de l’ordinateur agent à l’écoute sur le port correct.
         
-        Si ce n’est pas le cas, assurez-vous que la règle de pare-feu entrant est activée sur l’ordinateur d’écoute pour le type de réseau à qui l’ordinateur d’écoute est connecté (privé/public/domaine). Si l’ordinateur d’écoute n’est pas joint à un domaine, le réseau peut être répertorié comme public et, dans ce cas, les règles de pare-feu installées avec le Gestionnaire de statistiques ne s’appliqueront pas par défaut.
+        Si ce n’est pas le cas, assurez-vous que la règle de pare-feu entrant est activée sur l’ordinateur d’écoute pour le type de réseau à qui l’ordinateur d’écoute est connecté (privé/public/domaine). Si l’ordinateur d’écoute n’est pas joint à un domaine, le réseau peut être répertorié comme public et dans ce cas, les règles de pare-feu installées avec le Gestionnaire de statistiques ne s’appliqueront pas par défaut.
     
 - **4000** : échec du téléchargement des informations sur le serveur à partir de l’écoute (raison inconnue)
     
@@ -76,7 +76,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - Assurez-vous que vous avez suivi les instructions d’importation de la topologie. Voir [Importer la topologie.](deploy.md#BKMK_ImportTopology) 
     
-  - Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un [](deploy.md#BKMK_ImportTopology)cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’importation de la topologie.
+  - Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’instruction [Import the topology](deploy.md#BKMK_ImportTopology).
     
   - **4002** — Mot de passe d’écoute non valide
     
@@ -84,7 +84,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **4003** — Non-matage de l’empreinte numérique du certificat
     
-    L’empreinte numérique du certificat donnée à l’agent au moment de l’installation ne correspond pas à l’empreinte du certificat que l’écoute utilise actuellement et par conséquent, la connexion sera refusée. Désinstallez l’agent et réinstallez-le à l’aide de l’empreinte de certificat correcte.
+    L’empreinte numérique de certificat donnée à l’agent au moment de l’installation ne correspond pas à l’empreinte du certificat que l’écoute utilise actuellement et par conséquent, la connexion sera refusée. Désinstallez l’agent et réinstallez-le à l’aide de l’empreinte de certificat correcte.
     
   - **4004** — Réponse non valide ou HttpStatusCode
     
@@ -101,7 +101,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
 ## <a name="listener-events"></a>Événements d’écoute
 <a name="BKMK_Listener"> </a>
 
-- **10000** — Échec du démarrage Pour une raison inconnue (ces erreurs sont irrécables et le service s’arrête/se crashe par conséquent)
+- **10000** — Échec du démarrage Raison inconnue (ces erreurs sont irrécables et le service s’arrête/se crashe en conséquence)
     
   - **10001** — Problème de configuration
     
@@ -115,7 +115,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **10004** : défaillance de l’infrastructure de mise en cache
     
-  - **10007** — Paramètres (stockés dans redis)
+  - **10007** — Paramètres (stocké dans redis)
     
     L’écouteur n’a pas pu contacter Redis ou récupérer des données bien formées à partir du cache et n’a pas pu démarrer. Assurez-vous que le service Redis est démarré et configuré correctement sur le serveur.
     
@@ -127,7 +127,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **10101** — Panne continue de redis PING (toutes les 60 secondes)
     
-  - **30100** — Restauration de la panne PING redis
+  - **30100** — Restauration de la panne ping de Redis
     
     Ceux-ci sont enregistrés lorsque l’écoute ne peut pas se connecter à Redis. Assurez-vous que Redis est démarré et que la connectivité réseau entre l’écoute et Redis est disponible.
     
@@ -145,7 +145,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
 - **22000** : l’initialisation de l’agent du gestionnaire de statistiques a réussi.
     
-- **23000** : l’initialisation de EventLogQueryManager a réussi (première fois ou après un échec)
+- **23000** — Initialisation de EventLogQueryManager réussi (première fois ou après un échec)
     
 - **24000** : l’initialisation de serverinfo a réussi (première fois ou après échec)
     
@@ -166,7 +166,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - Cliquez avec le bouton droit StatsManHubWebSite.dll et affichez ses propriétés.
     
-  - Si vous ne pouvez pas trouver un ordinateur dans l’affichage Paysage KHI ou l’affichage Détails du compteur, assurez-vous qu’il est membre d’un site et d’un pool. Si ce n’est pas le cas, il n’apparaîtra pas dans ces affichages. Pour plus d’informations sur la définition d’un site et d’un pool pour un serveur dans la topologie, voir [Importer la topologie.](deploy.md#BKMK_ImportTopology)
+  - Si un ordinateur est in trouver dans l’affichage Paysage KHI ou l’affichage Détails du compteur, assurez-vous qu’il est membre d’un site et d’un pool. Si ce n’est pas le cas, il n’apparaîtra pas dans ces affichages. Pour plus d’informations sur la définition d’un site et d’un pool pour un serveur dans la topologie, voir [Importer la topologie.](deploy.md#BKMK_ImportTopology)
     
   - La version du produit s’affiche dans les détails de description.
     

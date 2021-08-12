@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1d8ed8e964d1ffeda8e862992335560c9a6aab
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 379b5ea63e32cec08343a65ce06c4aaf21e016814875c444947fa0dac6a9fecd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341340"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Gérer l’accès par équipe pour les employés en première ligne dans Teams
 
@@ -124,7 +124,7 @@ Dans cet exemple, nous affectons une stratégie nommée Off Shift Teams Access C
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer l’application Shifts pour votre organisation dans Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Présentation de Teams PowerShell](../../teams-powershell-overview.md)

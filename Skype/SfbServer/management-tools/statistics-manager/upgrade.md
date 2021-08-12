@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment mettre à niveau le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 6f2f0b885faad7bd650b3ff90650b64af98e9eee
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f3ce2a6f92ee1d3bd12994f2fe490b0acd5987e4801a98fa57a3527b9fa47dd8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333196"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du Gestionnaire de statistiques pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour découvrir comment mettre à niveau le Gestionnaire de statistiques pour Skype Entreprise Server.
   
-Cette rubrique décrit comment mettre à niveau une installation existante du Gestionnaire de statistiques pour Skype Entreprise Server, un outil puissant qui vous permet d’afficher les données d’état et de performances de Skype Entreprise Server en temps réel. Vous pouvez sonder les données de performances sur des centaines de serveurs toutes les quelques secondes et afficher les résultats instantanément sur le site web du Gestionnaire de statistiques. 
+Cette rubrique décrit comment mettre à niveau une installation existante du Gestionnaire de statistiques pour Skype Entreprise Server, un outil puissant qui vous permet d’afficher les données d’état et de performances Skype Entreprise Server en temps réel. Vous pouvez sonder les données de performances sur des centaines de serveurs toutes les quelques secondes et afficher les résultats instantanément sur le site web du Gestionnaire de statistiques. 
   
-Pour plus d’informations sur le Gestionnaire de statistiques et les nouvelles fonctionnalités de la version 2.0, voir [Plan for Statistics Manager for Skype for Business Server](plan.md) and Deploy Statistics Manager for Skype for Business [Server](deploy.md).
+Pour plus d’informations sur le Gestionnaire de statistiques et les nouvelles fonctionnalités de la version 2.0, voir [Plan for Statistics Manager for Skype Entreprise Server](plan.md) and Deploy Statistics Manager for [Skype Entreprise Server](deploy.md).
   
 Il existe deux méthodes pour la mise à niveau :
   
@@ -48,7 +48,7 @@ Avant de mettre à niveau, assurez-vous que vous avez les informations suivantes
 
 Le script collecte les informations de certificat et le mot de passe de l’écoute actuels, désinstalle l’ancienne version du produit, puis installe la nouvelle version du produit. L’instance Redis installée sur le serveur ne sera pas touché, de sorte que les données stockées dans le cache seront conservées pendant le processus de mise à niveau.
   
-1. Placez les fichiers MSI pour la nouvelle version de l’agent, de l’écoute et du site web avec le script Update-StatsMan.ps1 dans un dossier unique sur l’ordinateur d’écoute.
+1. Placez les fichiers MSI de la nouvelle version de l’agent, de l’écoute et du site web avec le script Update-StatsMan.ps1 dans un dossier unique sur l’ordinateur d’écoute.
     
 2. Ouvrez une fenêtre d’administration PowerShell. Mettre à niveau le composant d’écoute :
     
@@ -61,7 +61,7 @@ Le script collecte les informations de certificat et le mot de passe de l’éco
   
 1. Lors de l’exécution du script, vous devez être invité à désinstaller l’ancienne version du produit. Réponse Oui.
     
-2. Si le service d’écoute est en cours d’exécution, vous êtes invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’écoute du Gestionnaire de statistiques sera arrêté).
+2. Si le service d’écoute est en cours d’exécution, vous serez invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’écoute du Gestionnaire de statistiques sera arrêté).
     
 3. Poursuivez le processus d’installation. Notez que le mot de passe de service et l’empreinte numérique du certificat sont pré-remplis. Si ce n’est pas le cas, ajoutez les valeurs que vous avez enregistrées avant de continuer.
     

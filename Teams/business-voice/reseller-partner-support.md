@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Découvrez comment obtenir une assistance de la part d’un revendeur ou d’un partenaire Microsoft pour vous aider à configurer Microsoft 365 Business Voice sans forfait d'appels.
+description: Découvrez comment obtenir une assistance de la part d’un revendeur ou d’un partenaire Microsoft pour vous aider à configurer Microsoft 365 Business Voice sans forfait d'appels.
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,31 +24,31 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 4f48219fab34c668e16b28f781594218e9f8b3c9
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 8ff4c2dd21e04f10023d5bd038b303eb6dac40355df4af1a50867029ac77e093
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129733"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341449"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft
 
 > [!IMPORTANT]
-> Les informations contenues dans cet article s’appliquent uniquement à Business Voice **sans** forfait d’appels. Avant de lire cet article, consultez celui sur [Les pays et les régions dans lesquels Business Voice est disponible ](country-region-availability.md) pour savoir si votre pays ou votre région prend en charge Business Voice avec forfait d’appels.
+> Les informations contenues dans cet article s’appliquent uniquement à Business Voice **sans** forfait d’appels. Avant de lire cet article, consultez celui sur [Les pays et les régions dans lesquels Business Voice est disponible ](country-region-availability.md) pour savoir si votre pays ou votre région prend en charge Business Voice avec forfait d’appels.
 >
-> Si votre client se trouve dans un pays ou une région qui prend en charge Business Voice avec forfait d’appels, consultez l’article [Configurer Microsoft 365 Business Voice](set-up-overview.md).
+> Si votre client se trouve dans un pays ou une région qui prend en charge Business Voice avec forfait d’appels, consultez l’article [Configurer Microsoft 365 Business Voice](set-up-overview.md).
 
-La configuration de Business Voice sans forfait d’appels nécessite la configuration du routage direct du système téléphonique. Le routage direct permet l’interopérabilité entre votre équipement téléphonique local, le système téléphonique Microsoft, qui est la fonction principale de Business Voice, et votre opérateur de réseau téléphonique public commuté (RTCP) tiers. Le routage direct nécessitant une connaissance approfondie du système téléphonique Microsoft, de la connectivité RTCP, de la mise en réseau ainsi que d’autres compétences techniques, nous vous recommandons d’utiliser un partenaire ou un revendeur Microsoft pour le configurer. De plus, les licences Business Voice sans forfait d’appels sont disponibles uniquement auprès des partenaires et revendeurs Microsoft.
+La configuration de Business Voice sans forfait d’appels nécessite la configuration du routage direct du système téléphonique. Le routage direct permet l’interopérabilité entre votre équipement téléphonique local, le système téléphonique Microsoft, qui est la fonction principale de Business Voice, et votre opérateur de réseau téléphonique public commuté (RTCP) tiers. Le routage direct nécessitant une connaissance approfondie du système téléphonique Microsoft, de la connectivité RTCP, de la mise en réseau ainsi que d’autres compétences techniques, nous vous recommandons d’utiliser un partenaire ou un revendeur Microsoft pour le configurer. De plus, les licences Business Voice sans forfait d’appels sont disponibles uniquement auprès des partenaires et revendeurs Microsoft.
 
-Un partenaire ou un revendeur Microsoft peut :
+Un partenaire ou un revendeur Microsoft peut :
 
-- Obtenir les licences Business Voice appropriées pour le client et les utilisateurs de téléphone
-- Vous aider à comprendre les exigences techniques pour la configuration de Business Voice
-- Se mettre en relation avec votre opérateur téléphonique pour s’assurer que vos numéros de téléphone sont correctement configurés pour être utilisés avec Business Voice
-- Configurer la communication entre votre équipement téléphonique local et Microsoft 365
-- Vous aider à configurer les fonctionnalités de Business Voice comme les mises en attente des appels, le standard automatique, la messagerie vocale et bien plus encore
+- Obtenir les licences Business Voice appropriées pour le client et les utilisateurs de téléphone
+- Vous aider à comprendre les exigences techniques pour la configuration de Business Voice
+- Se mettre en relation avec votre opérateur téléphonique pour s’assurer que vos numéros de téléphone sont correctement configurés pour être utilisés avec Business Voice
+- Configurer la communication entre votre équipement téléphonique local et Microsoft 365
+- Vous aider à configurer les fonctionnalités de Business Voice comme les mises en attente des appels, le standard automatique, la messagerie vocale et bien plus encore
 
-Lorsque vous demandez à un partenaire ou revendeur Microsoft de configurer Business Voice sans forfait d’appels, vous devez lui communiquer les informations suivantes :
+Lorsque vous demandez à un partenaire ou revendeur Microsoft de configurer Business Voice sans forfait d’appels, vous devez lui communiquer les informations suivantes :
 
 - Le nombre d’utilisateurs, de téléphones et autres appareils qui vont passer et recevoir des appels vers et depuis des numéros de téléphone externes
 - Des détails sur le système téléphonique existant
