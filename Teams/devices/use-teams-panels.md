@@ -1,6 +1,6 @@
 ---
 title: Comment utiliser des panneaux Microsoft Teams panneaux
-ms.author: v-mdhiman
+ms.author: serdars
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Cet article fournit des conseils sur l’utilisation des panneaux Teams panneaux.
-ms.openlocfilehash: f5afdb5ec9ec7cb6d6c7e86487dbaf27af98bafc
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: d7f7e34bec83d8d1debeed39eeed162e98d011ac3656517025005ce31db24b65
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848079"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Utilisation de panneaux Microsoft Teams panneaux
 
@@ -212,7 +212,7 @@ Les administrateurs peuvent choisir la couleur rouge ou violette comme couleur L
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Cette capture d’écran présente les paramètres d’état occupé de couleur LED":::
 4. Revenir à l’écran d’accueil et vérifier que la couleur LED de l’état occupé est mise à jour. Si l’espace de réunion est actuellement disponible, essayez de planifier une réunion test pour vérifier la modification de la couleur du LED pour l’état occupé.
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 Trouvez des réponses aux questions les plus fréquemment posées sur les Teams panneaux.
 

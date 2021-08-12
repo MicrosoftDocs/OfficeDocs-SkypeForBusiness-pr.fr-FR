@@ -1,5 +1,5 @@
 ---
-title: Routage direct via le système téléphonique
+title: Téléphone routage direct du système dans Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,20 +15,20 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: En savoir plus sur le routage direct, comme la configuration, les décisions de déploiement essentielles nécessaires et les considérations relatives au routage vocal.
+description: Découvrez la configuration du routage direct, les décisions de déploiement essentielles nécessaires et les considérations relatives au routage vocal.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0f6aecf2dfeb708d51ff6ebd98f13a36167125f295329f3e37b2e39c0daf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848069"
 ---
-# <a name="phone-system-direct-routing"></a>Routage direct via le système téléphonique
+# <a name="phone-system-direct-routing"></a>Téléphone routage direct du système
 
 Vous avez terminé la [Prise en main](get-started-with-teams-quick-start.md). Vous avez déployé Teams avec [des conversations, des équipes, des canaux et des applications](deploy-chat-teams-channels-microsoft-teams-landing-page.md) au sein de votre organisation. Vous avez peut-être déployé [des réunions & conférences.](deploy-meetings-microsoft-teams-landing-page.md) Vous êtes maintenant prêt à ajouter des charges de travail vocales dans le cloud, et vous avez décidé d’utiliser votre propre opérateur de téléphonie pour la connectivité de réseau téléphonique public commuté (PSTN) à l’aide du Système téléphonique routage direct. Le routage direct vous permet d’utiliser le système téléphonique avec presque tous les opérateurs.
 
@@ -60,7 +60,7 @@ Il s’agit des principales décisions à prendre en considération pour le rout
 Ai-je les licences requises pour le routage direct ? | Pour plus d’informations, voir [Licences et autres conditions requises.](direct-routing-plan.md#licensing-and-other-requirements)
 |||
 
-### <a name="session-border-controller-sbc-considerations"></a>Considérations en considérations du contrôleur de bordure de session (SBC)
+### <a name="session-border-controller-sbc-considerations"></a>Considérations en considérations du contrôleur de session border Controller (SBC)
 
 Avec le routage direct, vous connectez votre propre contrôleur de session Border Controller (SBC) directement à Système téléphonique.  Pour obtenir la liste des SBCs [certifiés,](direct-routing-border-controllers.md)voir Contrôleurs de session en bordure pris en charge.
 

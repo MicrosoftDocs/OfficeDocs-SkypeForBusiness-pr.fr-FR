@@ -1,5 +1,5 @@
 ---
-title: Routage direct via le système téléphonique
+title: 'Routage direct du système téléphonique Teams : définitions et normes de mise en service des appels en ligne'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,28 +14,28 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Protocoles de routage direct
+description: Comment le routage direct de Microsoft Phone System implémente les protocoles standard RFC.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88fb4459192ad9ff5af8702878d1cbf6a59d8e9d
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: 19e3b459cef954bc432f97c93c90eaa92091d27bb17c77cecc17e8699e83e65b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848059"
 ---
-# <a name="direct-routing---definitions-and-rfc-standards"></a>Routage direct - Définitions et normes de mise en service desfc
+# <a name="direct-routing---definitions-and-rfc-standards"></a>Routage direct - définitions et normes de mise en service desfc
 
-Cet article décrit la façon dont Téléphone Microsoft routage système direct implémente les protocoles standard RFC. Cet article est destiné aux administrateurs vocaux qui sont responsables de la configuration de la connexion entre le contrôleur de session border controller (SBC) local et le service proxy SIP (Session Initiation Protocol).
+Cet article décrit la façon dont le routage direct de Microsoft Phone System implémente les protocoles standard RFC. Cet article est destiné aux administrateurs vocaux chargés de configurer la connexion entre le contrôleur de session en session en local (SBC) et le service proxy SIP (Session Initiation Protocol).
 
-Les interfaces SBC du client avec les composants suivants dans le Microsoft Teams principal : 
+Les interfaces SBC du client avec les composants suivants dans le backend Microsoft Teams : 
 
 - **Proxy SIP pour** le signalisation. Il s’agit du composant Internet du routage direct qui gère les connexions SIP (TLS) entre les SBCs et le routage direct.
 
 - **Processeurs multimédias pour** le média. Il s’agit du composant Internet du routage direct qui gère le trafic de médias. Ce composant utilise les protocoles SRTP et SRTCP.
 
 
-Pour plus d’informations sur le routage direct, voir [Système téléphonique routage direct.](direct-routing-landing-page.md)
+Pour plus d’informations sur le routage direct, voir [Routage direct du](direct-routing-landing-page.md)système téléphonique.
 
 Pour plus d’informations sur la façon dont le routage direct implémente le protocole SIP, voir [Routage direct - Protocole SIP.](direct-routing-protocols-sip.md)
 
@@ -62,7 +62,7 @@ Les normes suivantes s’appliquent aux appareils qui ne supportent que le mode 
 En plus des normes répertoriées comme applicables au mode sans contournement, les normes suivantes sont utilisées pour le mode de dérivation média :
 
 - [Connectivité interactive ICE (RFC 5245 Interactive Connectivity Bypass) pour la dérivation média.](https://tools.ietf.org/html/rfc5245)  Le SBC doit prendre en charge les états suivants :
-  - ICE Lite - les clients Teams de projet sont des clients ICE complets
+  - ICE Lite - Les clients Teams sont des clients ICE complets
   - [Redémarrages DE LA GLACE.](https://tools.ietf.org/html/rfc5245#section-9.1.1.1) En savoir plus sur le cas d’utilisation des redémarrages ICE et les exemples dans ICE Restart : Appel de dérivation média transféré vers un point de terminaison qui ne prend pas en charge la dérivation média   
 - [Contrôle d’appel DUP (RFC RFC RFC 5589 Session Initiation Protocol) – Transfert.](https://tools.ietf.org/html/rfc5589) 
 - [RFC 3960 Early Media and Ringing Tone Generation in the Session Initiation Protocol (SIP),](https://tools.ietf.org/html/rfc3960)voir les sections 3.1, Forking et 3.2, Ringing Tone Generation 
@@ -71,7 +71,7 @@ En plus des normes répertoriées comme applicables au mode sans contournement, 
 
 ### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>Normes applicables à la prise en charge de la transmission des informations d’emplacement aux fournisseurs E911
 
-- [RFC 6442, communication d’emplacement pour le protocole d’initiation à la session](https://tools.ietf.org/html/rfc6442)
+- [RFC 6442, Communication d’emplacement pour le protocole d’initiation à la session](https://tools.ietf.org/html/rfc6442)
 
 ### <a name="deviations-from-the-rfcs"></a>Écarts par rapport aux CTXT
 
@@ -88,7 +88,7 @@ Il existe deux modes opérationnels pour le routage direct :
 
 - **Sans contournement multimédia** dans lequel tout le trafic RTP circule entre le client Teams, les processeurs de média et le SBC.  
 
-- **Avec la dérivation** média dans laquelle tous les médias RTP circulent entre Teams points de terminaison et le SBC. 
+- **Avec la dérivation** média dans laquelle tous les médias RTP circulent entre les points de terminaison Teams et le SBC. 
 
 Notez que le trafic SIP est toujours flux via le proxy SIP. 
 

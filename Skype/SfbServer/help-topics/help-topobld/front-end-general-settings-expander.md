@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: a899f7adc670009aaafff3b946432c13702935be
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c2dc27177898c4ec8dbd260b6539e877d5eaf4ede8f402e44f09c5d4e095f1f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120936"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348069"
 ---
 # <a name="front-end-general-settings-expander"></a>Expandeur des paramètres généraux du serveur frontal
 
@@ -36,7 +36,7 @@ Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Sur
 
 ## <a name="front-end-pool"></a>Pool frontal
 
-Pour un pool frontal, vous pouvez configurer les paramètres généraux, de résistance, des services Web et du serveur de médiation. Pour en savoir plus, consultez les informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal, voir [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
+Dans le cas d’un pool frontal, vous pouvez configurer les paramètres généraux, de résilience, des services web et du serveur de médiation. Pour en savoir plus, consultez les informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres du pool frontal, voir [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
 
 ### <a name="general-settings"></a>Paramètres généraux
 
@@ -50,7 +50,7 @@ Vous pouvez configurer les paramètres généraux suivants :
 
   - **Conférence**. Inclut le partage audio, vidéo et d’applications. Avec cette option sélectionnée, vous pouvez sélectionner Conférence rendez-vous (PSTN). Vous spécifiez et définissez une passerelle de réseau téléphonique commuté (PSTN) dans une sous-section ultérieure relative aux paramètres du serveur de médiation.
 
-  - **Voix Entreprise**. Active les appels voix sur IP internes vers des combinés et appareils qualifiés et des clients Skype Entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir la sous-section relative aux paramètres du serveur de médiation ci-dessous.
+  - **Voix Entreprise**. Active les appels voix sur IP internes vers les combinés et appareils qualifiés et Skype Entreprise clients. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir la sous-section relative aux paramètres du serveur de médiation ci-dessous.
 
 - Dans **Associations**, modifiez ou définissez les éléments suivants :
 
@@ -103,7 +103,7 @@ Pour modifier ou spécifier un paramètre supplémentaire pour les services Web 
 Dans **Services Web internes**, spécifiez les éléments suivants :
 
 > [!CAUTION]
-> Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le nom de groupe des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
+> Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le FQDN des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de n’importe quel autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
 
 - Si vous sélectionnez **Remplacer le nom de domaine complet**, vous pouvez indiquer un nom de domaine complet différent pour l’identité des **Services web internes** sur le pool. Par défaut, le paramètre est le nom du pool actuel tel que défini pour le pool frontal.
 
@@ -113,7 +113,7 @@ Dans **Services web externes**, spécifiez les éléments suivants :
 
 - Le nom de domaine complet des services Web externes. Le nom de domaine complet spécifié ici sera généralement défini par les exigences de votre connexion externe, comme le proxy inverse.
 
-- Ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut du port 8080 pour HTTP et du port 4443 pour HTTPS sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences pour votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour HTTP et le port 443 pour HTTPS. Ces valeurs déterminent quels seront les ports d’écoute du pool pour les demandes entrantes. En règle générale, elles n’ont pas besoin d’être modifiées, sauf en cas de conflit d’exigences de port sur le pool. Les ports publiés internes et externes utilisant les mêmes valeurs de port sont attendus. Il ne s’agit pas d’un conflit.
+- Ports d’écoute et publiés pour HTTP et HTTPS nécessaires à votre déploiement. Les paramètres par défaut du port 8080 pour HTTP et du port 4443 pour HTTPS sont définis initialement. Vous pouvez modifier ces paramètres pour les ports d’écoute en fonction des exigences pour votre proxy inverse et de votre réseau externe. Les ports publiés sont définis par défaut sur le port 80 pour HTTP et le port 443 pour HTTPS. Ces valeurs déterminent quels seront les ports d’écoute du pool pour les demandes entrantes. En règle générale, elles n’ont pas besoin d’être modifiées, sauf en cas de conflit entre les exigences de port sur le pool. Les ports publiés internes et externes utilisant les mêmes valeurs de port sont attendus. Il ne s’agit pas d’un conflit.
 
 ### <a name="mediation-server"></a>Serveur de médiation
 
@@ -131,7 +131,7 @@ Pour plus d’informations sur la définition et la configuration des paramètre
 
 ## <a name="standard-edition-server"></a>Serveur Standard Edition
 
-Pour un serveur Standard Edition, vous pouvez configurer des paramètres généraux, de résistance, des services Web et du serveur de médiation. Pour en savoir plus, consultez les informations des sous-sections suivantes. Pour plus d’informations sur la définition et la configuration des paramètres du serveur Standard Edition, voir [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) et [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
+Pour un serveur Standard Edition, vous pouvez configurer des paramètres généraux, de résistance, des services Web et du serveur de médiation. Pour en savoir plus, consultez les informations des sous-sections suivantes. Pour plus d‘informations sur la définition et la configuration des paramètres du serveur Standard Edition, voir [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) et [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
 
 ### <a name="general-settings"></a>Paramètres généraux
 
@@ -147,7 +147,7 @@ Vous pouvez configurer les paramètres généraux suivants :
 
   - **Conférence**. Inclut le partage audio, vidéo et d’applications. Avec cette option sélectionnée, vous pouvez sélectionner **Conférence rendez-vous (PSTN)**. Vous pouvez spécifier et définir une passerelle PSTN ultérieurement dans les paramètres du serveur de médiation.
 
-  - **Voix Entreprise**. Active les appels voix sur IP internes vers des combinés et appareils qualifiés et des clients Skype Entreprise. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir la sous-section relative aux paramètres du serveur de médiation ci-dessous.
+  - **Voix Entreprise**. Active les appels voix sur IP internes vers les combinés et appareils qualifiés et Skype Entreprise clients. Pour activer les fonctionnalités d’appel externe, vous devez inclure un serveur de médiation. Pour plus d’informations, voir la sous-section relative aux paramètres du serveur de médiation ci-dessous.
 
 - Dans **Associations**, vous pouvez modifier ou spécifier les paramètres suivants :
 

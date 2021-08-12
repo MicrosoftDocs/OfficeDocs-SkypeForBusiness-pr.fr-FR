@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’attribuer des stratégies e
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 00f78b3b134c6741a89c0d7b3f43d32a11c182cc
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 9d0f82ab377b1c09f60db7f953c1016f396b2e706417f0f7acb17903ad83c8bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574322"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328999"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Attribuer des stratégies dans Teams mise en place
 
@@ -82,7 +82,7 @@ Pour définir les stratégies globales (à l’échelle de l’organisation par 
 2. Sélectionnez **la stratégie globale (à l’échelle de l’organisation par défaut)** pour afficher les paramètres actuels.
 3. Mettez à jour la stratégie si nécessaire, puis sélectionnez **Appliquer.**
 
-![Mettre à jour la stratégie globale dans Teams d’administration](media/assign-globalpolicy.png)
+![Mettre à jour la stratégie globale dans Teams centre d’administration](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -142,7 +142,7 @@ Pour afficher vos affectations de stratégie dans le journal d’activité :
 > [!NOTE]
 > Vous pouvez également ouvrir le journal d’activité à partir de la page **Utilisateurs.** Après avoir **cliqué sur Appliquer** pour envoyer une affectation de stratégie en bloc, une bannière s’affiche en haut de la page. Cliquez sur le **lien Journal d’activité** dans la bannière.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Attribuer des stratégies aux utilisateurs et aux groupes](assign-policies-users-and-groups.md)
 - [Attribuer des packages de stratégies à des utilisateurs et groupes](assign-policy-packages.md)

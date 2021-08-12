@@ -1,5 +1,5 @@
 ---
-title: Conditions préalables de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server
+title: Conditions préalables à la sécurité et à la configuration Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Résumé : Découvrez les conditions préalables de sécurité et de configuration requises pour Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 77efbf231f83c6d3c31254c9ab742de7e2b226e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 86c7432ea32f4809d2b69d79583caca578c661950a217f7c1e3977925d524d3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340190"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Conditions préalables de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Conditions préalables à la sécurité et à la configuration Voix Entreprise dans Skype Entreprise Server
  
-**Résumé :** Découvrez les conditions préalables de sécurité et de configuration requises pour Voix Entreprise dans Skype Entreprise Server.
+**Résumé :** Découvrez les conditions préalables de sécurité et de configuration pour Voix Entreprise dans Skype Entreprise Server.
   
 Avant de déployer Voix Entreprise, vérifiez que votre infrastructure répond aux conditions préalables suivantes en matière de sécurité, de configuration utilisateur et de matériel spécifique au scénario. 
   
@@ -46,13 +46,13 @@ Avant de déployer, vérifiez ce qui suit :
 - L’infrastructure MKI (Managed Key Infrastructure) est déployée et configurée, à l’aide d’une infrastructure d’autorité de certification Microsoft ou tierce.
     
     > [!NOTE]
-    > Pour plus d’informations sur les certificats requis dans Skype Entreprise Server, voir [Environmental requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md). 
+    > Pour plus d’informations sur les certificats requis dans Skype Entreprise Server, voir [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype Entreprise Server [2019](../../../SfBServer2019/plan/system-requirements.md). 
   
 ## <a name="user-configuration"></a>Configuration utilisateur
 
-Si vous avez coqueté le serveur de médiation avec chaque pool frontal ou serveur Standard Edition Server lors du déploiement frontal, les paramètres utilisateur nécessaires pour Voix Entreprise ont été configurés automatiquement lors de l’installation des fichiers pour ces rôles serveur.
+Si vous avez coqueté le serveur de médiation avec chaque pool frontal ou serveur Édition Standard pendant le déploiement frontal, les paramètres utilisateur nécessaires pour Voix Entreprise ont été configurés automatiquement lors de l’installation des fichiers pour ces rôles serveur.
   
-Si vous procédez à un nouveau déploiement de la charge de travail de Voix Entreprise, avant de commencer le processus de déploiement, désignez un numéro de téléphone principal pour chaque utilisateur pour lequel vous envisagez d’activer Voix Entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, tous les numéros de téléphone principaux doivent être normalisés (correctement formatés) et copiés dans la propriété **d’URI** de ligne de chaque utilisateur à l’aide du Panneau de contrôle Skype Entreprise Server.
+Si vous procédez à un nouveau déploiement de la charge de travail de Voix Entreprise, avant de commencer le processus de déploiement, désignez un numéro de téléphone principal pour chaque utilisateur pour lequel vous envisagez d’activer Voix Entreprise. En tant qu’administrateur, vous devez vous assurer que ce numéro est unique. Avant l’implémentation, tous les numéros de téléphone principaux doivent être normalisés (correctement formatés) et copiés dans la propriété **URI** de ligne de chaque utilisateur à l’aide du Panneau de Skype Entreprise Server.
   
 > [!NOTE]
 > Pour obtenir des exemples de numéros de téléphone principaux requis pour Voix Entreprise déploiement, voir [exemples de règles de normalisation.](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules) 
@@ -61,8 +61,8 @@ Si vous procédez à un nouveau déploiement de la charge de travail de Voix Ent
 
 Après avoir vérifié les conditions préalables logicielles et environnementales pour Voix Entreprise vous pouvez :
   
-- Installez le serveur de médiation, comme décrit dans Déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise [Server,](deploy-a-mediation-server.md)mais uniquement si vous souhaitez déployer un serveur de médiation ou un pool autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement du pool frontal ou du serveur Standard Edition lors de la cocation.
+- Installez le serveur de médiation, comme décrit dans Déployer un serveur de médiation dans le Générateur de topologies dans [Skype Entreprise Server,](deploy-a-mediation-server.md)mais uniquement si vous souhaitez déployer un serveur de médiation ou un pool autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement du pool frontal ou du serveur Édition Standard lors de la c cocation.
     
-- Vous pouvez également commencer à configurer les paramètres pour router les appels pour Voix Entreprise utilisateurs, comme décrit dans La configuration des [trunks dans Skype Entreprise Server.](configure-trunks.md)
+- Vous pouvez également commencer à configurer les paramètres pour router les appels pour Voix Entreprise [utilisateurs,](configure-trunks.md)comme décrit dans La configuration des Skype Entreprise Server .
     
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant les options suivantes :'
-ms.openlocfilehash: bcb63361291d241139fb9eb126b26cd038ea8b34
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad9f98eae7220294ab18e48d49b01ee2fdcb6a97ce95fab28f2165760762a416
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303717"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Définir la jonction racine d’une nouvelle passerelle IP ou PSTN
 
@@ -38,8 +38,8 @@ Vous définissez la jonction racine pour la passerelle IP ou PSTN en configurant
 
 ## <a name="see-also"></a>Voir aussi
 
-[Configure a trunk with media bypass in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[Configuration d’une trunk avec déviation du Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[Configuration d’une trunk sans déviation du média dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[Configuration d’une trunk sans contournement de média Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
 [Prise en charge de l’acheminement SIP](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

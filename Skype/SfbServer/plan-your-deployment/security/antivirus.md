@@ -1,5 +1,5 @@
 ---
-title: Exclusions de l’analyse antivirus pour Skype Entreprise Server
+title: Exclusions d’analyse antivirus pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Vue d’ensemble de l’interopérabilité du scanneur antivirus avec Skype Entreprise Server.
-ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Vue d’ensemble de l’interopérabilité du scanneur antivirus Skype Entreprise Server.
+ms.openlocfilehash: 2f44b5a07bf62f06f3363b2f6938e48d9f5866626be44626bd0bd3cb4cf3a2d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104240"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347810"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusions de l’analyse antivirus pour Skype Entreprise Server
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusions d’analyse antivirus pour Skype Entreprise Server
 
-Vue d’ensemble de l’interopérabilité du scanneur antivirus avec Skype Entreprise Server.
+Vue d’ensemble de l’interopérabilité du scanneur antivirus Skype Entreprise Server.
 
-Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionnement de Skype Entreprise Server, vous devez exclure des processus et des répertoires spécifiques pour chaque serveur ou rôle serveur Skype Entreprise Server sur lequel vous exécutez un scanneur antivirus. Les répertoires et processus suivants doivent être exclus :
+Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionnement de Skype Entreprise Server, vous devez exclure des processus et des répertoires spécifiques pour chaque serveur Skype Entreprise Server ou rôle serveur sur lequel vous exécutez un scanneur antivirus. Les répertoires et processus suivants doivent être exclus :
 
 > [!NOTE]
 > Les emplacements de dossiers et de fichiers répertoriés ci-dessous sont les emplacements par défaut pour Skype Entreprise Server. Pour tout emplacement pour lequel vous n’avez pas utilisé le paramètre par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut mentionnés dans cette rubrique.
@@ -32,7 +32,7 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
 > [!IMPORTANT]
 > Notez que certains programmes antivirus peuvent avoir besoin de chemins absolus, et non relatifs, pour leur liste d’exclusions.
 
-- Processus Skype Entreprise Server :
+- Skype Entreprise Server processus de gestion :
 
   - ABServer.exe
 
@@ -82,7 +82,7 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
 
   - XmppTGW.exe
 
-- Processus du service hôte Windows Fabric :
+- Windows Fabric Processus du service hôte :
 
   - Fabric.exe
 
@@ -113,7 +113,7 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - Instance RTC d’installation Standard Edition
+  - Édition Standard Installation RTC Instance
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
@@ -126,13 +126,13 @@ Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionn
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Notez que ces chemins d’accès sont spécifiques à la version de Skype Entreprise Server.
+    > Notez que ces chemins d’accès sont spécifiques Skype Entreprise Server version.
 
   - %programfiles%\Skype Entreprise Server 2015
 
-  - %programfiles%\Common Files\Skype for Business Server 2015\Watcher Node
+  - %programfiles%\Common Files\Skype Entreprise Server 2015\Watcher Node
 
-  - %programfiles%\Common Files\Skype for Business Server 2015
+  - %programfiles%\Common Files\Skype Entreprise Server 2015
 
   - %programfiles%\Common Files\Skype Entreprise Online
 

@@ -14,18 +14,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet (FQDN) et les adresses IP du site. Pour cela, sur la page Topologie globale, double-cliquez sur le site que vous souhaitez modifier.
-ms.openlocfilehash: 9a345c753195c32907d078d5ee4a267b8b96d6b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 017b1e9e04851d321c9fd6f08508c8ffeccb4b4b558a3b0668c7e6f0efdd1f15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347909"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Modifier la topologie dans Skype Entreprise Server 2015
 
 Après avoir répondu aux questions initiales, vous pouvez modifier le nom de domaine complet (FQDN) et les adresses IP du site. Pour cela, sur la page **Topologie globale**, double-cliquez sur le site que vous souhaitez modifier.
 
-L’outil de planification affiche la topologie de site pour le site sélectionné. Le bas de la page du site comporte quatre onglets :
+L’outil de planification affiche la topologie du site sélectionné. Le bas de la page du site comporte quatre onglets :
 
 ![Topologie du site de l’outil de planification](../../media/Planning_Tool_Site_Topology.png)
 
@@ -53,7 +53,7 @@ L’outil de planification affiche la topologie de site pour le site sélectionn
 ## <a name="edit-the-network-configuration-diagram"></a>Modifier le diagramme de configuration réseau
 <a name="Edit_Network_diagram"> </a>
 
-La majeure partie du travail qu’un concepteur fait dans l’outil de planification de Skype Entreprise Server 2015 consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les entrées sur le diagramme réseau. Les informations entrées sur cette page sont contenues dans les rapports et les autres informations contenues dans l’outil de planification.
+La majeure partie du travail qu’un concepteur fait dans l’outil de planification Skype Entreprise Server 2015 consiste à définir les entrées pour les adresses IP et les noms de domaine complets (FQDN) pour les entrées sur le diagramme réseau. Les informations entrées sur cette page sont contenues dans les rapports et autres informations contenues dans l’outil de planification.
 
 ![Diagramme réseau de l’outil de planification](../../media/Planning_Tool_Network_Diagram.png)
 
@@ -73,7 +73,7 @@ Une fonction utile de l’outil de planification est la possibilité d’affecte
 
 2. Par exemple, la valeur de départ du premier serveur est fe0101.contoso.com et l’adresse IP 192.168.21.122.
 
-3. Tapez fe0.contoso.com dans le **FQDN** du serveur frontal, tapez 192.168.21.131 dans l’adresse IP du serveur **frontal,** puis cliquez sur **OK.**
+3. Tapez fe0.contoso.com **FQDN** du serveur frontal, tapez 192.168.21.131 dans l’adresse IP du serveur **frontal,** puis cliquez sur **OK.**
 
 4. La fonctionnalité d’incrémentation automatique met à jour tous les serveurs du pool vers fe01 à fe06, et toutes les adresses IP de 192.168.21.131 à 136.
 

@@ -1,5 +1,5 @@
 ---
-title: Assistant hybride Se connectez à Microsoft 365 ou Office 365
+title: Assistant hybride Connectez-vous Microsoft 365 ou Office 365
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -18,19 +18,19 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Utilisez l’Assistant Gestion hybride de Skype Entreprise Server pour vous aider à configurer votre environnement hybride avec Skype Entreprise Online.
-ms.openlocfilehash: 558d78845f19a67c1700d47c94404290479d5603
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Utilisez l Skype Entreprise Server de gestion hybride hybride pour vous aider à configurer votre environnement hybride avec Skype Entreprise Online.
+ms.openlocfilehash: 7e3feecccc4b256c045735ac278579db4f6a94a95a8bb285d44cbb395578c735
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099740"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319257"
 ---
-# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Assistant hybride : se connectez à Microsoft 365 ou Office 365
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Assistant hybride : connectez-vous Microsoft 365 ou Office 365
 
-Utilisez l’Assistant Gestion hybride de Skype Entreprise Server pour vous aider à configurer votre environnement hybride avec Skype Entreprise Online.
+Utilisez l Skype Entreprise Server de gestion hybride hybride pour vous aider à configurer votre environnement hybride avec Skype Entreprise Online.
 
-## <a name="sign-in-to-microsoft-365-or-office-365"></a>Connectez-vous à Microsoft 365 ou Office 365
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Connectez-vous Microsoft 365 ou Office 365
 
 Entrez le nom d’utilisateur et le mot de passe de votre organisation Microsoft 365 ou Office 365 pour vous connecter à votre déploiement local avec votre organisation Microsoft 365 ou Office 365. Vous devez utiliser le compte d’administrateur qui a été créé pour le domaine onmicrosoft lorsque vous vous êtes inscrit à Microsoft 365 ou Office 365, par exemple, admin@contoso.onmicrosoft.com.
 

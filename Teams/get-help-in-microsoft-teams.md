@@ -17,15 +17,14 @@ description: Découvrez les rubriques d’aide, les vidéos, les notes de public
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cf562ae3ead64d263681cb29bc97264af1e319bd5be36610468182c721a1b54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50026fba70ae817eb8325d52c3bcf1bd0153e2c803ee7d7c76935570c6e45420
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848369"
 ---
-<a name="get-help-in-microsoft-teams"></a>Obtenir de l’aide dans Microsoft Teams
-============================================
+# <a name="get-help-in-microsoft-teams"></a>Obtenir de l’aide dans Microsoft Teams
 
 Le bouton Aide dans Microsoft Teams où vos utilisateurs et champions peuvent trouver toute l’assistance dont ils peuvent avoir besoin lors de l’utilisation Teams.
 

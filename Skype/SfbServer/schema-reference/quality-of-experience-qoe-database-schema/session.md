@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: Chaque enregistrement représente une session qui implique l’audio ou l’audio et la vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
-ms.openlocfilehash: cdf639e7360248e02378c66eb68a60d49acb9749
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Chaque enregistrement représente une session qui implique de l’audio ou de l’audio et de la vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
+ms.openlocfilehash: 749f151def046abdb5169b39ccbd81ea5f07f5d4ee3d1c971ac112a2d4b90cce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340030"
 ---
 # <a name="session-table"></a>Table Session
  
-Chaque enregistrement représente une session qui implique l’audio ou l’audio et la vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
+Chaque enregistrement représente une session qui implique de l’audio ou de l’audio et de la vidéo. Il contient des informations générales sur la session. Une session est définie comme une boîte de dialogue SIP (Session Initiation Protocol) audio ou vidéo entre deux points de terminaison.
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
@@ -30,9 +30,9 @@ Chaque enregistrement représente une session qui implique l’audio ou l’audi
 |**SessionSeq** <br/> |int  <br/> |Primaire  <br/> |Référencé à partir de [la table Dialog](dialog.md).  <br/> |
 |**ConferenceKey** <br/> |int  <br/> |Étranger  <br/> |Clé de conférence. Référencé à partir de la [table Conference](conference.md).  <br/> |
 |**CorrelationKey** <br/> |int  <br/> |Étranger  <br/> |Clé de corrélation. Référencé à partir [de la table SessionCorrelation](sessioncorrelation.md).  <br/> |
-|**DialogCategory** <br/> |bit  <br/> | <br/> |Catégorie de boîte de dialogue ; 0 est la partie Skype Entreprise Server vers serveur de médiation ; 1 est la partie serveur de médiation vers passerelle PSTN.  <br/> |
+|**DialogCategory** <br/> |bit  <br/> | <br/> |Catégorie de boîte de dialogue ; 0 est Skype Entreprise Server la partie serveur de médiation ; 1 est la partie serveur de médiation vers passerelle PSTN.  <br/> |
 |**MediationServerBypassFlag** <br/> |bit  <br/> ||Indicateur signalant si l’appel a été contourné ou non.  <br/> |
-|**MediaBypassWarningFlag** <br/> |int  <br/> ||Ce champ, s’il est présent, indique pourquoi un appel n’a pas été contourné même si les ID de contournement correspondaient. Pour Skype Entreprise Server, une seule valeur est définie.  <br/> 0x0001 - ID de contournement inconnu pour la carte réseau par défaut.  <br/> |
+|**MediaBypassWarningFlag** <br/> |int  <br/> ||Ce champ, s’il est présent, indique pourquoi un appel n’a pas été contourné même si les ID de contournement correspondaient. Par Skype Entreprise Server, une seule valeur est définie.  <br/> 0x0001 - ID de contournement inconnu pour la carte réseau par défaut.  <br/> |
 |**StartTime** <br/> |DateHeure  <br/> | <br/> |Heure de début de l’appel.  <br/> |
 |**EndTime** <br/> |DateHeure  <br/> | <br/> |Heure de fin de l’appel.  <br/> |
 |**CallerPool** <br/> |int  <br/> |Étranger  <br/> |Pool de l’appelant. Référencé à partir de la [table Pool](pool.md).  <br/> |

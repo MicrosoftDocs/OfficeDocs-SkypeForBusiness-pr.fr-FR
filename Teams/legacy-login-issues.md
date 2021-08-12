@@ -17,15 +17,14 @@ description: Résoudre les problèmes liés à la réception de messages et d’
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1c209d1acc83e63792722b00b63be5a6b9f3721a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b013817ab363b91f7041d285616f7bd919dc84b9afd1298ec74d8e9dc64046a5
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848379"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur des systèmes hérités
-==============================================================
+# <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur des systèmes hérités
 
 Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des appels s’ils utilisent des versions antérieures d’Teams ou s’ils se sont connectés avec d’autres applications.
 
@@ -38,7 +37,7 @@ Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des 
   0x00000001 (1)
 
 > [!NOTE]
-> Lorsque vous ignorez ou ignorez le nom d’utilisateur, les noms d’utilisateur qui se terminent par « . local » ou « . Corp » sont activés par défaut. vous n’avez donc pas besoin de définir une clé de Registre pour les désactiver.
+> Lorsque vous ignorez ou ignorez le nom d’utilisateur, les noms d’utilisateur qui se terminent par « . local » ou « . Corp » sont activés par défaut. vous n’avez donc pas besoin de définir une clé de Registre pour les désactiver.
 
 Pour [plus d’informations, voir Se Microsoft Teams à l’aide](sign-in-teams.md) de l’authentification moderne.
 

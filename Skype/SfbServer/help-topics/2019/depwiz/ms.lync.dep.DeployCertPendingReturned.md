@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page État de la demande de certificat en ligne renvoie le statut actuel du certificat. Si le certificat est toujours en attente d’approbation par l’administrateur de l’autorité de certification, autrement dit, s’il n’a pas encore été approuvé, le statut indiquera que le certificat est encore en cours de traitement.
-ms.openlocfilehash: 7ba807b8e4309c9614df66b7c727a7e964dcea74
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 90e5a7fad323319faf837af2112334e230196648fe3ac24310fabc115390dc89
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836954"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291792"
 ---
 # <a name="pending-certificate-returned"></a>Certificat en attente (retourné)
  

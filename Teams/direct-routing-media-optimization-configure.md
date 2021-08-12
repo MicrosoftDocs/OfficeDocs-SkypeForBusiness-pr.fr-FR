@@ -1,5 +1,5 @@
 ---
-title: Optimisation directe des médias locaux de routage
+title: Configurer l’optimisation des médias locaux pour le routage direct dans Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,16 +16,16 @@ f1.keywords:
 description: Configurer l’optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecbbb4f01267265f9f1041e7d51652d063ced353
-ms.sourcegitcommit: 2aea6ec07149a3054ee4434c8a0bffabf1a16d25
+ms.openlocfilehash: e53296b54cd55d6444f665476de020be1ee314e807f905d561ee181e50486333
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46576986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848639"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurer l’optimisation des médias locaux pour le routage direct
 
-La configuration de l’optimisation des médias locaux est basée sur des paramètres réseau courants avec d’autres fonctionnalités voix cloud, telles que le routage Location-Based et les appels d’urgence dynamiques. Pour en savoir plus sur les régions réseau, les sites réseau, les sous-réseaux et les adresses IP de confiance, voir Paramètres réseau des [fonctionnalités vocales cloud.](cloud-voice-network-settings.md)
+La configuration de l’optimisation des médias locaux est basée sur des paramètres réseau courants avec d’autres fonctionnalités voix cloud, telles que le routage Location-Based et les appels d’urgence dynamiques. Pour en savoir plus sur les régions réseau, les sites réseau, les sous-réseaux et les adresses IP de confiance, consultez Paramètres réseau pour les [fonctionnalités vocales cloud.](cloud-voice-network-settings.md)
 
 Avant de configurer l’optimisation des médias locaux, consultez l’optimisation des médias [locaux pour le routage direct.](direct-routing-media-optimization.md)  
 
@@ -56,7 +56,7 @@ Cet article décrit la configuration des composants Microsoft. Pour plus d’inf
 
 L’optimisation des médias locaux est prise en charge par les fournisseurs SBC suivants :
 
-| Fournisseur | Product |    Version logicielle |
+| Fournisseur | Product |    Version logicielle requise |
 |:------------|:-------|:-------|
 | [CodesAudio](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
 |            |  Mediant 800 SBC |   7.20A.256 | 
@@ -87,7 +87,7 @@ L’optimisation des médias locaux est prise en charge par les fournisseurs SBC
 
 Les IPS fiables externes sont les IPS externes Internet du réseau d’entreprise. Ces adresses IP sont les adresses IP utilisées par Microsoft Teams clients lorsqu’ils se connectent à Microsoft 365. Vous devez ajouter ces IPS externes pour chaque site où vous avez des utilisateurs utilisant l’optimisation des médias locaux.
 
-Pour ajouter les adresses IP publiques pour chaque site, utilisez l'New-CsTenantTrustedIPAddress cmdlet. Vous pouvez définir un nombre illimité d’adresses IP fiables pour un client. Si les adresses IP externes vues par Microsoft 365 sont des adresses IPv4 et IPv6, vous devez ajouter les deux types d’adresses IP. Pour IPv4, utilisez le masque 32. Pour IPv6, utilisez le masque 128. Vous pouvez ajouter des adresses IP externes individuelles et des sous-réseaux IP externes en spécifiant différents masques sur l’cmdlet.
+Pour ajouter les adresses IP publiques pour chaque site, utilisez l'New-CsTenantTrustedIPAddress cmdlet. Vous pouvez définir un nombre illimité d’adresses IP fiables pour un client. Si les adresses IP externes vus par Microsoft 365 sont des adresses IPv4 et IPv6, vous devez ajouter les deux types d’adresses IP. Pour IPv4, utilisez le masque 32. Pour IPv6, utilisez le masque 128. Vous pouvez ajouter des adresses IP externes individuelles et des sous-réseaux IP externes en spécifiant différents masques sur l’cmdlet.
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -111,7 +111,7 @@ Tous les paramètres respectent la cas. Vous devez donc vous assurer d’utilise
 
 ### <a name="define-network-regions"></a>Définir les régions réseau
 
-Pour définir les régions du réseau, utilisez l'New-CsTenantNetworkRegion de cmdlet. Le paramètre RegionID est un nom logique qui représente la géographie de la région et ne présente aucune dépendance ou restriction. Le paramètre CentralSite <site ID> est facultatif.
+Pour définir les régions du réseau, utilisez l'New-CsTenantNetworkRegion de cmdlet. Le paramètre RegionID est un nom logique qui représente la géographie de la région et ne présente aucune dépendance ou restriction. Le paramètre CentralSite `<site ID>` est facultatif.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -170,7 +170,7 @@ Remarques :
    - Si le paramètre SBC n’a pas de paramètre -BypassMode, les en-têtes X-MS ne seront pas envoyés. 
    - Tous les paramètres respectent la cas, aussi devez-vous vous assurer d’utiliser le même cas que celui utilisé lors de l’installation.  (Par exemple, les valeurs GatewaySiteID « Vietnam » et « vietnam » seront traitées comme des sites différents.)
 
-L’exemple suivant ajoute trois SBE aux sites réseau du Vietnam, de l’Indonésie et de Singapour dans la région APAC avec le mode Toujours ignorer :
+L’exemple suivant ajoute trois SBE aux sites réseau vietnam, Indonésie et Singapour dans la région APAC avec le mode Toujours contourner :
 
 ```
 Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
@@ -244,7 +244,7 @@ Le tableau suivant indique les en-têtes X-MS envoyés par routage direct :
 |:------------|:-------|
 | Inviter+8443926300@VNsbc.contoso.com | Le nom de sécurité (FQDN) cible du SBC défini dans la stratégie de routage voix en ligne est envoyé dans l’URI de demande | 
 | X-MS-UserLocation : interne | Le champ indique que l’utilisateur se trouve dans le réseau d’entreprise |
-| X-MS-MediaPath : VNsbc.contoso.com |   Indique quel SBC le client doit traverser jusqu’au SBC cible. Dans ce cas, comme nous avons Toujours contourné, et le client est interne au nom de la cible envoyé comme seul nom dans l’en-tête. | 
+| X-MS-MediaPath : VNsbc.contoso.com |   Indique quel SBC le client doit traverser jusqu’au SBC cible. Dans ce cas, comme nous avons Toujours contournement, et le client est interne au nom de la cible envoyé en tant que seul nom dans l’en-tête. | 
 |X-MS-UserSite : Vietnam |   Champ indiqué sur le site où se trouve l’utilisateur. |
 
 
@@ -262,19 +262,19 @@ Remarque : Étant donné qu’un utilisateur peut avoir plusieurs points de term
 
 Le diagramme suivant montre l’évolution SIP d’un appel entrant avec le mode AlwaysBypass, et l’utilisateur se trouve au même emplacement que le SBC.
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-11.png)
+![Diagramme montrant l’évolution de SIP.](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>Appels sortants et l’utilisateur est externe avec Toujours contourner
 
 | Mode |    Utilisateur |  Site |  Direction de l’appel
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  N/A | Sortant |
+AlwaysBypass |  Externe |  S/O | Sortant |
 
 
 Le diagramme suivant illustre l’évolution SIP d’un appel sortant avec le mode AlwaysBypass et l’utilisateur est externe :
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-12.png)
+![Le diagramme indique l’évolution de SIP.](media/direct-routing-media-op-12.png)
 
 Le tableau suivant indique les en-têtes X-MS envoyés par le service de routage direct :
 
@@ -284,17 +284,17 @@ Le tableau suivant indique les en-têtes X-MS envoyés par le service de routage
 | X-MS-UserLocation : externe | Le champ indique que l’utilisateur se trouve en dehors du réseau d’entreprise. |
 | X-MS-MediaPath : proxysbc.contoso.com, VNsbc.contoso.com    | Indique quel SBC le client doit traverser jusqu’au SBC cible. Dans ce cas, nous avons Toujours contourné et le client est externe. |
 
-#### <a name="inbound-calls-and-the-user-is-external-with-always-bypass"></a>Appels entrants et l’utilisateur est externe avec Toujours contourner
+#### <a name="inbound-calls-and-the-user-is-external-with-always-bypass"></a>Appels entrants et l’utilisateur est externe avec Toujours contournement
 
 | Mode | Utilisateur | Site |  Direction de l’appel |
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  N/A |   Entrant |
+AlwaysBypass |  Externe |  S/O |   Entrant |
 
 Pour un appel entrant, le SBC connecté au routage direct doit envoyer une nouvelle invitation (par défaut, les candidats aux médias locaux sont toujours proposés) si l’emplacement de l’utilisateur est externe.  Le X-MediaPath est calculé sur la base des Record-Route et de l’utilisateur SBC spécifié.
 
 Le diagramme suivant illustre l’évolution SIP d’un appel entrant avec le mode AlwaysBypass et l’utilisateur est externe.
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-13.png)
+![Diagramme montrant de nouveau l’évolution de SIP.](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>Uniquement pour le mode utilisateur local
@@ -322,7 +322,7 @@ Le tableau suivant indique la configuration et l’action de l’utilisateur fin
 
 Le diagramme suivant illustre un appel sortant avec le mode OnlyForLocalUsers et l’utilisateur se trouve au même emplacement que le SBC. Il s’agit du même flux affiché dans les appels sortants lorsque l’utilisateur se trouve au même emplacement [que le SBC.](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-14.png)
+![Le diagramme montre de nouveau l’évolution de SIP.](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Appels entrants et l’utilisateur se trouve au même emplacement que le SBC avec uniquement pour les utilisateurs locaux
@@ -333,7 +333,7 @@ Le diagramme suivant illustre un appel sortant avec le mode OnlyForLocalUsers et
 
 Le diagramme suivant illustre un appel entrant avec le mode OnlyForLocalUsers et l’utilisateur se trouve au même emplacement que le SBC. Il s’agit du même flux que celui affiché dans les appels entrants lorsque l’utilisateur se trouve au même emplacement [que le SBC.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-15.png)
+![Autre diagramme montrant l’évolution de SIP.](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>L’utilisateur n’est pas au même emplacement que le SBC, mais se trouve sur le réseau d’entreprise avec uniquement pour les utilisateurs locaux
@@ -347,7 +347,7 @@ Le routage direct calcule X-MediaPath en fonction de l’emplacement signalé de
 
 Le diagramme suivant montre un appel sortant avec le mode OnlyForLocalUsers et un utilisateur interne qui n’est pas au même emplacement que le SBC.
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-16.png)
+![Un autre diagramme indique l’évolution de SIP.](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>Appel entrant et l’utilisateur est interne, mais n’est pas au même emplacement que le SBC avec uniquement pour les utilisateurs locaux
@@ -358,7 +358,7 @@ Le diagramme suivant montre un appel sortant avec le mode OnlyForLocalUsers et u
 
 Le diagramme suivant montre un appel entrant avec le mode OnlyForLocalUsers et un utilisateur interne qui n’est pas au même emplacement que le SBC.
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-17.png)
+![Un autre diagramme montrant l’évolution de SIP.](media/direct-routing-media-op-17.png)
 
 
 

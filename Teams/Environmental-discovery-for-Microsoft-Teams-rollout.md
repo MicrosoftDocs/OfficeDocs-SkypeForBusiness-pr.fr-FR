@@ -18,15 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 50c6845eabb56ea270e6eafa699fbba57d0639e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 09a231690815be5be2109b1079195bdeb8100ca935a6b2bdcd06962cc4c08c92
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848109"
 ---
-<a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Découverte de l’environnement pour un déploiement Microsoft Teams environnement
-===================================================
+# <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Découverte de l’environnement pour un déploiement Microsoft Teams environnement
 
 La découverte est l’une des premières étapes clés que vous devez suivre lorsque vous planifiez votre parcours vers Microsoft Teams.
 
@@ -43,8 +42,7 @@ Le questionnaire est divisé en plusieurs sections pour confirmer que votre orga
 > [!TIP]
 > Vous pouvez commencer par copier le questionnaire dans un Microsoft Word document. Essayez de répondre à toutes les questions et capturez tous les détails à mesure que vous vous déplacez.
 
-<a name="project-team"></a>Project d’équipe
----
+### <a name="project-team"></a>Project d’équipe
 
 Capturez des informations détaillées sur les principales parties prenantes de Teams projet de déploiement. Notez qu’une seule personne peut jouer plusieurs rôles tout au long du projet.
 
@@ -67,8 +65,7 @@ Capturez des informations détaillées sur les principales parties prenantes de 
 > | Responsable de l’équipe vidéo | | | |
 > | Prospects d’unités commerciales | | | |
 
-<a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 ou Office 365 détails de votre organisation
----
+## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 ou Office 365 détails de votre organisation
 
 Il est vivement recommandé d’avoir une organisation Microsoft 365 ou Office 365 active lorsque vous travaillez à ce questionnaire. Si vous n’avez pas encore activé ou configuré Microsoft 365 ou Office 365 organisation, consultez la planifier votre configuration [d’Microsoft 365 entreprise.](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)
 
@@ -88,8 +85,7 @@ Utilisez le tableau suivant pour capturer des informations sur l Microsoft 365 o
 > | Si vous conservez actuellement une Microsoft 365<br/>ou Office 365 client, est le domaine SMTP/SIP de <br/>vos utilisateurs ciblés associés au client ? | <input type="checkbox">N/A – Pas de Microsoft 365 ou<br/>&nbsp;&nbsp; &nbsp; Office 365 client en place <br/> <input type="checkbox"> Non, smTP/SIP des utilisateurs <br/>&nbsp;&nbsp; &nbsp; domaine n’est pas associé <br/>&nbsp;&nbsp; &nbsp; avec n’importe quel client dans <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 ou Office 365<br/> <input type="checkbox"> Oui, le SMTP/SIP des utilisateurs <br/>&nbsp;&nbsp; &nbsp; domaine est associé <br/>&nbsp;&nbsp; &nbsp; avec un client existant dans <br/>&nbsp;&nbsp; &nbsp; Microsoft 365 ou Office 365 | |
 > | Les upN utilisateurs correspondent-ils à leur adresse SMTP principale ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non <br/> <input type="checkbox"> Incohérente | |
 
-<a name="existing-collaboration-platform-summary"></a>Résumé de la plateforme de collaboration existante
----
+## <a name="existing-collaboration-platform-summary"></a>Résumé de la plateforme de collaboration existante
 
 Utilisez le tableau suivant pour capturer des informations sur le déploiement de votre plateforme de collaboration existante.
 
@@ -105,8 +101,7 @@ Utilisez le tableau suivant pour capturer des informations sur le déploiement d
 > | Quelle est la solution téléphonique et de conférence actuelle ? <br/>des utilisateurs qui sont dans l’étendue de cette initiative ? | | |
 > | Avez-vous [des SBC qui supportent le routage direct](./direct-routing-plan.md#supported-session-border-controllers-sbcs) déployé ? <br/>pour les bureaux qui sont dans le cadre de cette initiative ? Si c’est le cas,<br/>notez les détails dans la colonne Commentaires.| <input type="checkbox"> Oui <br/> <input type="checkbox"> Non ||
 
-<a name="collaboration-platform-deployment-details"></a>Détails du déploiement de la plateforme de collaboration
----
+## <a name="collaboration-platform-deployment-details"></a>Détails du déploiement de la plateforme de collaboration
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams (le cas échéant)
 
@@ -149,8 +144,7 @@ Le cas échéant, capturez les détails de votre déploiement Skype Entreprise �
 > | Sélectionnez les services que fournit aujourd’hui votre rôle Edge. | <input type="checkbox"> Accès des utilisateurs externes (utilisateurs d’entreprise) <br/> <input type="checkbox"> Accès des utilisateurs distants (anonyme) <br/>&nbsp;&nbsp; &nbsp; participants à la réunion externe) <br/> <input type="checkbox"> Fédération <br/> <input type="checkbox"> Relais multimédia | |
 > | Quelles sont les fonctionnalités d’appel vocal suivantes ? <br/>vous avez actuellement des dépendances ? <br/>Notez les dépendances supplémentaires dans les Commentaires <br/>. | <input type="checkbox"> Options occupé(s) <br/> <input type="checkbox"> Parc d’appels <br/> <input type="checkbox"> Récupérer un appel ou un appel de groupe <br/> <input type="checkbox"> Téléphones de zone communs ou « hot desking » <br/> <input type="checkbox"> Response Groups ou groupes de recherche <br/> <input type="checkbox"> Apparence de ligne partagée <br/> <input type="checkbox"> Ligne privée <br/> <input type="checkbox"> Messagerie vocale <br/> <input type="checkbox"> Appeler au travail <br/> <input type="checkbox"> Numéros d’urgence ou d’informations <br/>&nbsp;&nbsp; &nbsp; (911, 811, 411) <br/> <input type="checkbox"> Numérotation par extension <br/> <input type="checkbox"> Standard automatique <br/> <input type="checkbox"> Accès des abonnés <br/> <input type="checkbox"> Périphériques analogiques <br/> <input type="checkbox"> Télécopie <br/> <input type="checkbox"> ID de l’appelant masquage ou modification <br/> <input type="checkbox"> Routage basé sur l’emplacement <br/> <input type="checkbox"> Routage le moins coûteux <br/> <input type="checkbox"> Téléphones cellulaires | |
 
-<a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>Réseaux et accès aux Microsoft 365 et Office 365 services
----
+## <a name="networking-and-access-to-microsoft-365-and-office-365-services"></a>Réseaux et accès aux Microsoft 365 et Office 365 services
 
 Utilisez le tableau suivant pour capturer les détails réseau de votre organisation et la manière dont vos utilisateurs sont (ou seront) connectés aux services Microsoft 365 et Office 365 réseau.
 
@@ -166,8 +160,7 @@ Utilisez le tableau suivant pour capturer les détails réseau de votre organisa
 > | Pouvez-vous hiérarchiser Teams trafic audio et vidéo ? <br/>pour une expérience de haute qualité ? | <input type="checkbox"> Oui <br/> <input type="checkbox"> Non | |
 > | Faire en sorte que tous les emplacements au sein d’une région ont une sortie Internet, <br/>ou la sortie Internet est-elle centralisée pour la région entière ? | <input type="checkbox"> Accès régional à Internet <br/> <input type="checkbox"> Accès centralisé au <br/>&nbsp;&nbsp; &nbsp; internet | |
 
-<a name="endpoints"></a>Points de terminaison
----
+## <a name="endpoints"></a>Points de terminaison
 
 Utilisez le tableau suivant pour capturer les détails des clients et points de terminaison utilisés.
 
@@ -180,8 +173,7 @@ Utilisez le tableau suivant pour capturer les détails des clients et points de 
 > | Comment les appareils mobiles sont-ils fournis ? <br/>Sélectionnez toutes les sélections applicables. | <input type="checkbox"> Appareils d’entreprise <br/> <input type="checkbox"> Apportez votre propre appareil | |
 > | Quels appareils les utilisateurs utilisent-ils actuellement pour accéder à <br/>services de voix et de conférence <br/>(combinés, casques, téléphones, vidéo) ? | | |
 
-<a name="operations"></a>Opérations
----
+## <a name="operations"></a>Opérations
 
 Utilisez le tableau suivant pour capturer les détails des aspects opérationnels de votre environnement.
 
@@ -196,8 +188,7 @@ Utilisez le tableau suivant pour capturer les détails des aspects opérationnel
 > | Avez-vous des problèmes de qualité des appels ? | <input type="checkbox"> Oui<br/> <input type="checkbox"> Non | |
 > | Comment et quand fournissez-vous une formation à votre <br/>du service d’aide sur les nouveaux services et fonctionnalités ? | | |
 
-<a name="adoption-and-readiness"></a>Adoption et préparation
----
+## <a name="adoption-and-readiness"></a>Adoption et préparation
 
 Utilisez le tableau suivant et consignez l’état d’adoption et de préparation actuel de votre organisation.
 

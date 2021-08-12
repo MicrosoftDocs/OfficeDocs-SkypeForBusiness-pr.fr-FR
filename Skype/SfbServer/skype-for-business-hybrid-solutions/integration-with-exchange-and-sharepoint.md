@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez l’intégration Skype Entreprise Server 2015 avec Exchange et SharePoint.'
-ms.openlocfilehash: 7e5303f5e47a2cfb017c893acbb63cce7e1521e7
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: 6026d66ec6972dc8d51857f185fccc0ff96482c4f658d6740034c94e9bbdaae2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340020"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration avec Exchange et Microsoft Office SharePoint Online
 
@@ -77,7 +77,7 @@ Les tableaux suivants listent les fonctionnalités prise en charge dans un dépl
 |Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont en ligne dans la même forêt, ou que les deux sont tous deux locaux. Pour plus d’informations, [voir Skype Entreprise solutions hybrides.](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
 |L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Pour plus d’informations, [voir Deployment Checklist for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving).  <br/> |
-|Rechercher du contenu archivé  <br/> |Pour plus d’informations, consultez la [Exchange configurer SharePoint centre eDiscovery](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
+|Rechercher du contenu archivé  <br/> |Pour plus d’informations, consultez [la Exchange configurer SharePoint centre eDiscovery](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
 |Messagerie vocale  <br/> |Pour plus d’informations, voir [Providing Lync Server 2013 Users Voice Mail on Hosted Exchange UM](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um).  <br/> |
 
 

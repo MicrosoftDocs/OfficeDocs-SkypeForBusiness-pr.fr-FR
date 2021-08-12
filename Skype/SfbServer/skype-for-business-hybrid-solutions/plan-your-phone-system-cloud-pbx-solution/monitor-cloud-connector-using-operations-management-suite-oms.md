@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
-description: Lisez cette rubrique pour savoir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 55685aae01bdcc3c7c979627dbba910bb33203fa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Lisez cette rubrique pour découvrir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
+ms.openlocfilehash: 1e2156ec8cff777b7bbad595b9792972508edbd455d6a1d27a65b95ad01c5def
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339990"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller Cloud Connector à l’aide d’Operations Management Suite (OMS)
 
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
 
-Lisez cette rubrique pour savoir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
+Lisez cette rubrique pour découvrir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
 
-Vous pouvez désormais surveiller votre déploiement Cloud Connector version 2.1 et ultérieure à l’aide d’Operations Management Suite (OMS), une solution de gestion informatique cloud De Microsoft. OMS Log Analytics vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris des ordinateurs physiques et virtuels. Pour plus d’informations sur OMS et Log Analytics, voir [Qu’est-ce que Operations Management Suite (OMS) ?](/azure/operations-management-suite/operations-management-suite-overview)
+Vous pouvez désormais surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide d’Operations Management Suite (OMS), une solution de gestion informatique du cloud Microsoft. OMS Log Analytics vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris des ordinateurs physiques et virtuels. Pour plus d’informations sur OMS et Log Analytics, voir [Qu’est-ce que Operations Management Suite (OMS) ?](/azure/operations-management-suite/operations-management-suite-overview)
 
 Cette rubrique comprend les sections suivantes :
 
-- Conditions préalables
+- Configuration requise
 
 - Configurer Cloud Connector pour utiliser OMS
 
@@ -41,11 +41,11 @@ Cette rubrique comprend les sections suivantes :
 
 - Jeu d’analyse recommandé
 
-## <a name="prerequisites"></a>Conditions préalables
+## <a name="prerequisites"></a>Configuration requise
 
-Avant de pouvoir utiliser OMS pour surveiller le déploiement de Cloud Connector, vous aurez besoin des informations suivantes :
+Avant de pouvoir utiliser OMS pour surveiller le déploiement de Cloud Connector, vous avez besoin des informations suivantes :
 
-- **Un compte Azure et un espace de travail OMS.** Si vous n’avez pas encore de compte Azure, vous devez en créer un pour utiliser OMS Log Analytics. Pour plus d’informations sur la création d’un compte Azure et la façon de configurer un espace de travail OMS, voir Get [started with a Log Analytics workspace](/azure/log-analytics/log-analytics-get-started).
+- **Un compte Azure et un espace de travail OMS.** Si vous n’avez pas encore de compte Azure, vous devez en créer un pour utiliser OMS Log Analytics. Pour plus d’informations sur la création d’un compte Azure et la mise en place d’un espace de travail OMS, voir La mise en route d’un espace de travail [Log Analytics.](/azure/log-analytics/log-analytics-get-started)
 
 - **Cloud Connector version 2.1 ou ultérieure**
 
@@ -53,13 +53,13 @@ Avant de pouvoir utiliser OMS pour surveiller le déploiement de Cloud Connector
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Configurer Cloud Connector pour utiliser OMS
 
-Vous devez configurer votre environnement local Cloud Connector pour utiliser OMS. Pour ce faire, vous aurez besoin de votre ID d’espace de travail OMS et de votre clé, que vous pouvez trouver à l’aide du portail OMS comme suit : Paramètres -- Sources connectées -- Serveurs \> \> Windows :
+Vous devez configurer votre environnement local Cloud Connector pour utiliser OMS. Pour ce faire, vous aurez besoin de votre ID d’espace de travail OMS et de votre clé, que vous pouvez trouver à l’aide du portail OMS comme suit : Paramètres -- Sources connectées \> -- \> Windows serveurs :
 
 ![Capture d’écran de Cloud Connector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 La configuration de Cloud Connector pour utiliser OMS dépend de votre scénario :
 
-- **Si vous installez une** nouvelle appliance Cloud Connector ou si vous souhaitez déployer à nouveau une appliance, suivez les étapes suivantes avant d’exécuter Install-CcAppliance :
+- **Si vous installez une** nouvelle appliance Cloud Connector ou que vous souhaitez déployer à nouveau une appliance, suivez les étapes suivantes avant d’exécuter Install-CcAppliance :
 
     1. Dans la section CloudConnector.ini fichier [Common], définissez le paramètre OMSEnabled sur True.
 
@@ -86,7 +86,7 @@ La configuration de Cloud Connector pour utiliser OMS dépend de votre scénario
 
 - **Pour tous les scénarios, vérifiez que les agents sont connectés comme suit :**
 
-    Dans le portail OMS, allez à Paramètres - \> Sources connectées - \> Serveurs Windows. Vous verrez une liste d’ordinateurs connectés. 
+    Dans le portail OMS, go to Paramètres - \> Connected Sources - Windows \> Servers. Vous verrez une liste d’ordinateurs connectés. 
 
 ## <a name="configure-oms"></a>Configurer OMS
 
@@ -100,7 +100,7 @@ Ensuite, vous devez spécifier votre configuration OMS à l’aide du portail OM
 
 Dans le portail OMS, vous devez spécifier des informations sur les journaux des événements et les compteurs de performances comme suit :
 
-1. Go to Settings- \> Data- \> Windows Event logs, and add event logs for: 
+1. Go to Paramètres- \> Data- \> Windows Event logs, and add event logs for: 
 
    - Lync Server
 
@@ -109,13 +109,13 @@ Dans le portail OMS, vous devez spécifier des informations sur les journaux des
      > [!NOTE]
      > Vous devez entrer manuellement Lync Server dans la zone de texte. Elle n’apparaît pas en tant qu’option dans la liste liste. 
 
-     Pour plus d’informations, voir [sources de données du journal](/azure/log-analytics/log-analytics-data-sources-windows-events) des événements Windows dans Log Analytics
+     Pour plus d’informations, voir Windows sources de données [du journal des événements dans Log Analytics](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. Go to Settings- \> Data- \> Windows Performance Counters, and add performance counters for: 
+2. Go to Paramètres- \> Data- \> Windows Performance Counters, and add performance counters for: 
 
    - **Compteurs au niveau du système d’exploitation.** Vous pouvez ajouter des compteurs au niveau du système d’exploitation, tels que l’utilisation du processeur, l’utilisation de la mémoire, l’utilisation du réseau, ou vous pouvez utiliser des solutions existantes telles que Capacité et performances, Moniteur de performances réseau sans ajouter explicitement de compteurs. Quelle que soit la façon dont vous décidez de les surveiller, Microsoft vous recommande de surveiller ces compteurs de système d’exploitation.
 
-   - **Compteurs Skype Entreprise.** Il existe de nombreux compteurs fournis par Skype Entreprise. Vous pouvez trouver ces compteurs en vous connectant à n’importe quel serveur de médiation et en ouvrant l’Observateur de performances. Ces compteurs commencent par « LS: ». Microsoft vous recommande de commencer avec les compteurs de capacité suivants au minimum et d’ajouter d’autres qui vous intéressent :
+   - **Skype Entreprise.** Il existe de nombreux compteurs fournis par Skype Entreprise. Vous pouvez trouver ces compteurs en vous connectant à n’importe quel serveur de médiation et en ouvrant l’Observateur de performances. Ces compteurs commencent par « LS: ». Microsoft vous recommande de commencer avec les compteurs de capacité suivants au minimum et d’ajouter d’autres qui vous intéressent :
 
      Nombre total d’appels actifs :
 
@@ -132,7 +132,7 @@ Dans le portail OMS, vous devez spécifier des informations sur les journaux des
      > [!NOTE]
      > Vous devez entrer manuellement les compteurs de performance dans la zone de texte. Elles n’apparaissent pas en tant qu’options dans la liste liste. 
 
-     Pour plus d’informations, voir sources de données de [performances Windows et Linux dans Log Analytics](/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     Pour plus d’informations, voir Windows sources de données de [performances Linux dans Log Analytics](/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>Créer des alertes
 
@@ -194,7 +194,7 @@ Pour créer cette alerte :
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
-    La requête de réinitialisation fait exactement l’inverse de la requête d’erreur. Pour chaque ordinateur, la requête reçoit les derniers compteurs pour l’appel entrant et l’appel sortant et additione ces deux valeurs. Elle retourne un journal si la valeur de la somme est inférieure à 500 ; Sinon, elle ne retourne rien.
+    La requête de réinitialisation fait exactement l’inverse de la requête d’erreur. Pour chaque ordinateur, la requête reçoit les derniers compteurs pour l’appel entrant et l’appel sortant et additione ces deux valeurs. Elle retourne un journal si la valeur de somme est inférieure à 500 ; sinon, elle ne retourne rien.
 
 **Créer une alerte : « Utilisation du processeur \> 90 ou RTCMEDIARELAY arrêté dans les serveurs »**
 
@@ -208,11 +208,11 @@ La requête reçoit tous les compteurs d’utilisation du processeur et tous les
 
 ## <a name="analyze-the-alerts-in-your-log-analytics-repository"></a>Analyser les alertes dans votre référentiel Log Analytics
 
-Pour analyser les alertes dans votre référentiel, utilisez la solution de gestion des alertes. Pour plus d’informations, voir [solution de gestion des alertes dans Operations Management Suite (OMS)](/azure/log-analytics/log-analytics-solution-alert-management)
+Pour analyser les alertes dans votre référentiel, utilisez la solution de gestion des alertes. Pour plus d’informations, [voir solution de gestion des alertes dans Operations Management Suite (OMS)](/azure/log-analytics/log-analytics-solution-alert-management)
 
 ## <a name="recommended-minimal-monitoring-set"></a>Jeu de surveillance minimal recommandé
 
-Pour identifier les problèmes avec les journaux d’événements et les compteurs de performances : 
+Pour identifier les problèmes avec les journaux des événements et les compteurs de performances : 
 
 - **Journaux des événements.** Pour tout problème, il doit y avoir une paire d’événements, avec un ensemble d’événements pour indiquer un problème, tandis que l’autre indique que tout va bien. Pour une période donnée, il s’agit du dernier événement enregistré qui indique si quelque chose ne va pas pour cette période.
 
@@ -256,4 +256,4 @@ Pour plus d’informations sur l’working with OMS, consultez les informations 
 
 - [Comprendre les alertes dans Log Analytics](/azure/log-analytics/log-analytics-alerts)
 
-- [Connecter des ordinateurs Windows au service Log Analytics dans Azure](/azure/log-analytics/log-analytics-windows-agents)
+- [Connecter Windows au service Log Analytics dans Azure](/azure/log-analytics/log-analytics-windows-agents)

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: À partir du Générateur de topologie, vous pouvez modifier les paramètres de port utilisés pour vos services web internes et externes. En outre, si vous déployez l’équilibrage de charge DNS (Domain Name System), vous pouvez utiliser le Générateur de topologie pour configurer le nom de domaine complet (FQDN) du pool qui se résout en adresses IP physiques de tous les serveurs de ce pool.
-ms.openlocfilehash: 00fbf89b6e8121b5e2cd8d1b8d544531cc411e3f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 718d5966d08c923c1ad87360b6337282cf6ec6af432db1f2d13590467db4fbf3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817814"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347979"
 ---
 # <a name="web-services-settings-expander"></a>Expandeur des paramètres des services web
  
@@ -33,7 +33,7 @@ ms.locfileid: "49817814"
 2. Dans la boîte de dialogue **Modifier les propriétés**, cliquez sur l’onglet **Services web**.
     
     > [!CAUTION]
-    > Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le FQDN des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le FQDN des services Web externes défini pour n’importe quel directeur ou pool directeur doit être unique à partir de tout autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
+    > Si vous avez plusieurs serveurs frontaux ou serveurs frontaux, le FQDN des services Web externes doit être unique. Par exemple, si vous définissez le nom de groupe des services Web externes d’un serveur frontal en tant que **pool01.contoso.com,** vous ne pouvez pas utiliser **pool01.contoso.com** pour un autre pool frontal ou serveur frontal. Si vous déployez également des directeurs, le nom de groupe des services Web externes défini pour un directeur ou un pool directeur doit être unique à partir d’un autre directeur ou pool directeur, ainsi que de tout pool frontal ou serveur frontal. Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur.
   
 3. Si vous modifiez les propriétés d’un pool Enterprise Edition, vous avez la possibilité de choisir **Remplacer le nom de domaine complet**. Ne sélectionnez cette option que si vous utilisez l’équilibrage de la charge DNS. Si vous utilisez l’équilibrage de la charge DNS, sélectionnez **Remplacer le nom de domaine complet**, puis dans la zone de texte, tapez le nom de domaine complet du pool qui est résolu en adresses IP physiques de tous les serveurs de ce pool. Si vous n’utilisez pas l’équilibrage de la charge DNS, et si vous n’avez pas sélectionné **Remplacer le nom de domaine complet**, vous ne pouvez pas modifier le nom de domaine complet des services web internes. Le FQDN des services web internes est l’URL utilisée par les utilisateurs internes pour se connecter à Skype Entreprise Server.
     

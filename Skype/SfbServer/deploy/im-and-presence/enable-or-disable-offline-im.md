@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Découvrez comment activer ou désactiver la messagerie instantanée hors connexion dans Skype Entreprise Server.
-ms.openlocfilehash: 510ebe65e60b9ea12d2f368b0e2d33c705b8d0d6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ba9045f0e161b4056142fc69528a4f1e7c01a11637c1bff42ec7cc14fe7610a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801944"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294861"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Activer ou désactiver la messagerie instantanée hors connexion dans Skype Entreprise Server
  
@@ -25,14 +25,14 @@ Découvrez comment activer ou désactiver la messagerie instantanée hors connex
   
 ## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>Activer la messagerie instantanée hors connexion dans Skype Entreprise Server
 
-La messagerie instantanée hors connexion est une fonctionnalité côté client intégrée au client Skype Entreprise (version 2016 C2R 16.0.6701.1000 ou supérieure) qui tire parti des services web Exchange (EWS) pour envoyer des messages du client Skype Entreprise vers la boîte aux lettres Exchange d’un utilisateur. La messagerie instantanée hors connexion utilise les services web Exchange (EWS) pour envoyer des messages hors connexion du client Skype Entreprise à la boîte aux lettres du destinataire. EWS doit être disponible pour le client Skype Entreprise pour que les messages hors connexion soient envoyés. Pour en savoir plus sur la planification de la messagerie instantanée et de la présence, voir Planifier la messagerie instantanée et [la présence dans Skype Entreprise Server.](../../plan-your-deployment/instant-messaging-and-presence.md)
+La messagerie instantanée hors connexion est une fonctionnalité côté client intégrée au client Skype Entreprise (version 2016 C2R 16.0.6701.1000 ou supérieure) qui exploite les services web Exchange (EWS) pour envoyer des messages du client Skype Entreprise vers la boîte aux lettres Exchange d’un utilisateur. La messagerie instantanée hors connexion utilise Exchange Web Services (EWS) pour envoyer des messages hors connexion du client Skype Entreprise à la boîte aux lettres du destinataire. EWS doit être disponible pour le client Skype Entreprise pour que les messages hors connexion soient envoyés. Pour en savoir plus sur la planification de la messagerie instantanée et de la présence, voir Planifier la messagerie instantanée et [la présence dans Skype Entreprise Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 > [!NOTE]
-> Si la boîte aux lettres de l’utilisateur est hébergée dans Exchange local, le client Skype Entreprise (2016 C2R build 16.0.6920.1000) est requis. 
+> Si la boîte aux lettres de l’utilisateur est hébergée dans Exchange local, le client Skype Entreprise (build 16.0.6920.1000 C2R 2016) est requis. 
   
 ### <a name="to-enable-or-disable-offline-im-in-skype-for-business-server"></a>Pour activer ou désactiver la messagerie instantanée hors connexion dans Skype Entreprise Server
 
-1. Ouvrez Skype Entreprise Server Management Shell.
+1. Ouvrez l Skype Entreprise Server Management Shell.
     
 2. Exécutez la commande suivante pour activer la messagerie instantanée hors connexion.
     
@@ -41,7 +41,7 @@ La messagerie instantanée hors connexion est une fonctionnalité côté client 
    ```
 
     > [!NOTE]
-    > Dans Skype Entreprise Server 2015 CU3, l’option EnableOfflineIM est définie sur $True par défaut. Pour désactiver, définissez cette valeur sur $False. 
+    > Dans Skype Entreprise Server CU3 2015, l’option EnableOfflineIM est définie sur $True par défaut. Pour désactiver, définissez cette valeur sur $False. 
   
 3. Exécutez la commande suivante pour confirmer que la possibilité de stocker des messageries instantanées hors connexion est définie.
     
@@ -49,11 +49,11 @@ La messagerie instantanée hors connexion est une fonctionnalité côté client 
    Get-CsImConfiguration
    ```
 
-## <a name="offline-im-integration-with-exchange"></a>Intégration de la messagerie instantanée hors connexion à Exchange
+## <a name="offline-im-integration-with-exchange"></a>Intégration de la messagerie instantanée hors connexion Exchange
 
-La messagerie instantanée hors connexion ne sera pas disponible pour les expéditeurs s’ils disposent d’une stratégie de client qui désactive l’enregistrement automatique des messages hors connexion dans le dossier d’historique des conversations (EnableIMAutoArchiving = $false). Il n’existe aucun mécanisme permettant de vérifier si le destinataire est en mesure de recevoir des messages hors connexion.
+La messagerie instantanée hors connexion n’est pas disponible pour les expéditeurs s’ils disposent d’une stratégie de client qui désactive l’enregistrement automatique des messages hors connexion dans le dossier d’historique des conversations (EnableIMAutoArchiving = $false). Il n’existe aucun mécanisme permettant de vérifier si le destinataire est en mesure de recevoir des messages hors connexion.
   
-Pour les messages hors connexion envoyés au sein de la même organisation, ils sont reçus en tant que messages électroniques avec la classe de message IM.Note.MissedConversation et sont inclus dans le dossier Conversation manquée **Outlook,** ainsi que dans l’historique des conversations qui sera repris dans l’onglet Liste récente/Historique des conversations dans les clients Skype Entreprise.
+Pour les messages hors connexion envoyés au sein de la même organisation, ils sont reçus en tant que messages électroniques avec la classe de message IM.Note.MissedConversation et sont inclus dans le dossier Outlook **Missed Conversation,** ainsi que dans l’historique des conversations qui sera repris dans l’onglet liste récente/historique des conversations dans les clients Skype Entreprise.
   
 Pour les messages hors connexion envoyés à partir d’une organisation fédérée, ils sont reçus en tant que messages électroniques sans IM.Note.MisssedConversation et ne sont pas pris en compte dans les dossiers de conversation manquée ou d’historique des conversations. 
   
@@ -63,7 +63,7 @@ Il existe un minuteur de deux minutes entre le moment où un message hors connex
   
   <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 
-Le journal ETL Skype Entreprise principal contient des informations sur le traitement des messages hors connexion et constitue la meilleure source d’investigation/de dépannage. 
+Le principal Skype Entreprise JOURNAL ETL contient des informations sur le traitement des messages hors connexion et constitue la meilleure source d’investigation/de dépannage. 
   
 > [!NOTE]
-> Un problème a été signalé lorsque les messages hors connexion n’ont pas pu être envoyés et que le dossier « Brouillons » était rempli de messages. Cela s’est produit avec les boîtes aux lettres Exchange sur site. Le problème a été résolu dans tous les canaux C2R depuis le 14/06/2016.  
+> Un problème a été signalé lorsque les messages hors connexion n’ont pas pu être envoyés et que le dossier « Brouillons » était rempli de messages. Cela s’est produit Exchange boîtes aux lettres sur site. Le problème a été résolu dans tous les canaux C2R depuis le 14/06/2016.  

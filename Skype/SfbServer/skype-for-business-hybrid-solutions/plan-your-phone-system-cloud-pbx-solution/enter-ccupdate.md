@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: LEnter-CcUpdate cmdlet prépare le serveur hôte Skype Entreprise, version Cloud Connector, au processus de mise à jour en le mettant en mode maintenance. L’appliance arrête immédiatement tous les services, mettant fin à tous les appels en cours et rejetant les nouveaux appels.
-ms.openlocfilehash: 25d2fbc56bd4de6a08985de18c178d5a8f993492
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: LEnter-CcUpdate cmdlet prépare le Skype Entreprise Cloud Connector Edition hôte pour le processus de mise à jour en le mettant en mode maintenance. L’appliance arrête immédiatement tous les services, mettant fin à tous les appels en cours et rejetant les nouveaux appels.
+ms.openlocfilehash: 75be5933e31f3966ab36f9957b78cd89c21a4a31df23b5761000a6e96cd9806e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802174"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303647"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
-LEnter-CcUpdate cmdlet prépare le serveur hôte Skype Entreprise, version Cloud Connector, au processus de mise à jour en le mettant en mode maintenance. L’appliance arrête immédiatement tous les services, mettant fin à tous les appels en cours et rejetant les nouveaux appels.
+LEnter-CcUpdate cmdlet prépare le Skype Entreprise Cloud Connector Edition hôte pour le processus de mise à jour en le mettant en mode maintenance. L’appliance arrête immédiatement tous les services, mettant fin à tous les appels en cours et rejetant les nouveaux appels.
   
 ```powershell
 Enter-CcUpdate
@@ -63,7 +63,7 @@ Aucun. La cmdlet Enter-CCUpdate n’accepte pas la saisie de données pipeline.
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun 
+Néant 
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

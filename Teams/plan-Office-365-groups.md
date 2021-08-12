@@ -1,5 +1,5 @@
 ---
-title: Planifier les groupes Microsoft 365 lors de la création d'équipes
+title: Planifier les groupes Microsoft 365 lors de la création d'équipes
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -20,15 +20,14 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: fedd643cd597ee3c8819273fcd98a27996e8502bb3e5cb59d51e6693a6914881
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e34df0eebb9f6f8bee224c70c37504413115db7f3003359b1060f85ca17bec86
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848269"
 ---
-<a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier des groupes Microsoft 365 lors de la création d’équipes dans Microsoft Teams
-==========================================================
+# <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier des groupes Microsoft 365 lors de la création d’équipes dans Microsoft Teams
 
 Lorsque vous envisagez d’utiliser des groupes Microsoft 365 ou lorsque vous créez des équipes, réfléchissez à l’objectif de l’équipe, aux personnes devant y accéder et au résultat attendu de l’équipe. Faites attention au nombre de canaux que vous créez, car les utilisateurs peuvent rapidement être dépassés par du contenu trop fin (sur un trop grand nombre de canaux).
 

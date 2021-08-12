@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: 'Résumé : Découvrez comment vider manuellement les enregistrements de l’enregistrement des détails des appels et des bases de données QoE utilisées par Skype Entreprise Server.'
-ms.openlocfilehash: 2d36af2d06b6d6951e436ea456d4036478278600
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment vider manuellement les enregistrements des bases de données CDR et QoE utilisées par les Skype Entreprise Server.'
+ms.openlocfilehash: 11f528d142512ec8e0536d16181f50b5756d09f0f4daf7509d25ca82895b53e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294881"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Vider manuellement les bases de données d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment vider manuellement les enregistrements de l’enregistrement des détails des appels et des bases de données QoE utilisées par Skype Entreprise Server.
+**Résumé :** Découvrez comment vider manuellement les enregistrements des bases de données CDR et QoE utilisées par les Skype Entreprise Server.
   
 Les bases de données CDR et QoE peuvent être purgées manuellement ou automatiquement des enregistrements. La purge des enregistrements peut être importante afin que les données ne deviennent pas obsolètes ou lorsque vous avez besoin de réinitialiser les rapports à partir d’une ligne de base de départ.
   
@@ -29,7 +29,7 @@ Les bases de données CDR et QoE peuvent être purgées manuellement ou automati
 
 Les administrateurs peuvent configurer l’enregistrement des détails des appels (CDR) et/ou les bases de données de qualité de l’expérience (QoE) pour vider automatiquement les anciens enregistrements de la base de données. Cela se produit si le purge a été activé pour la base de données spécifiée (CDR ou QoE) et si des enregistrements ont été dans la base de données plus longtemps que la durée spécifiée. Par exemple, tous les jours à 13h00, les administrateurs peuvent configurer le système afin que les enregistrements QoE de plus de 60 jours soient supprimés de la base de données QoE.
   
-En plus de ce purge automatique, deux nouvelles cmdlets &#x2014; Invoke-CsCdrDatabasePurge et Invoke-CsQoEDatbasePurge &#x2014; ont été ajoutées à Skype Entreprise Server ; Ces cmdlets permettent aux administrateurs de vider manuellement les enregistrements des bases de données CDR et QoE à tout moment. Par exemple, pour vider manuellement tous les enregistrements de plus de 10 jours de la base de données cdr, vous pouvez utiliser une commande semblable à celle-ci :
+Outre ce purge automatique, deux nouvelles cmdlets &#x2014; Invoke-CsCdrDatabasePurge et Invoke-CsQoEDatbasePurge &#x2014; ajoutées à Skype Entreprise Server ; Ces cmdlets permettent aux administrateurs de vider manuellement les enregistrements des bases de données CDR et QoE à tout moment. Par exemple, pour vider manuellement tous les enregistrements de plus de 10 jours de la base de données cdr, vous pouvez utiliser une commande semblable à celle-ci :
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10

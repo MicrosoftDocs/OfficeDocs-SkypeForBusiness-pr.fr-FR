@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
-ms.openlocfilehash: 4226c30ad560d4f5e5396b8af4ab657e55f087c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3029911d6b2290dc6d117f829d084d71a4bd5ed0f9dca652498088a87afcb643
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319227"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente des services Response Groups : création d’une nouvelle ou modification d’une file existante
 
@@ -54,7 +54,7 @@ La liste suivante décrit les champs de la page.
 
   - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir les appels au moment où les appels ont été mis à l’heure d’attente.
 
-- **Activer le dépassement de la file d’attente** Cochez cette case pour spécifier un nombre maximal d’appels que la file d’attente peut contenir. Si vous sélectionnez cette option, vous devez également spécifier les options suivantes :
+- **Activer le dépassement de la file d’attente** Cochez cette case pour spécifier le nombre maximal d’appels que la file d’attente peut contenir. Si vous sélectionnez cette option, vous devez également spécifier les options suivantes :
 
   - **Nombre maximal d’appels** Sélectionnez ou tapez le nombre maximal d’appels que la file d’attente peut contenir.
 
@@ -72,4 +72,4 @@ La liste suivante décrit les champs de la page.
 
   - **Forward to another queue** Si vous sélectionnez cette option, accédez à la file d’attente qui doit recevoir des appels lorsque le seuil de dépassement de la file d’attente est atteint.
 
-Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) dans la documentation des opérations.
+Pour plus d’informations sur les fonctionnalités de Response Group, voir [Plan for the Response Group application in Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation. Pour plus d’informations sur l’utilisation des files d’attente, voir [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) dans la documentation des opérations.

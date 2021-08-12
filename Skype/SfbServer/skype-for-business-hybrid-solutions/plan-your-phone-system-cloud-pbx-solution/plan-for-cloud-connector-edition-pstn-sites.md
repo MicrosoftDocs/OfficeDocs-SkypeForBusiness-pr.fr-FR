@@ -16,33 +16,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lisez cette rubrique pour découvrir comment planifier vos sites RSTN Cloud Connector Edition afin de garantir un routage des appels efficace et rentable.
-ms.openlocfilehash: b42f9109a52b5c30996abc3e42ef4ff0aa5f31dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096228"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339960"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Planification de l’édition Cloud Connecteur pour les sites PSTN
 
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
  
 Lisez cette rubrique pour découvrir comment planifier vos sites RSTN Cloud Connector Edition afin de garantir un routage des appels efficace et rentable.
   
-Cette rubrique décrit ce que vous devez savoir sur l’édition Cloud Connector et le routage des appels afin de pouvoir planifier vos sites RSTN Cloud Connector. Un site PSTN est une combinaison d’appliances Cloud Connector, déployées au même emplacement et avec des passerelles PSTN communes qui leur sont connectées. Cette rubrique se concentre sur la façon de configurer votre topologie de site Cloud Connector pour vous assurer que vos sites Cloud Connector peuvent gérer le routage entrant et sortant pour tous les utilisateurs affectés à un site de la manière la plus rentable et la plus efficace possible. Pour plus d’informations sur Cloud Connector et les avantages des sites PSTN, n’oubliez pas de lire [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 
+Cette rubrique décrit ce que vous devez savoir sur l’édition Cloud Connector et le routage des appels afin de pouvoir planifier vos sites RSTN Cloud Connector. Un site PSTN est une combinaison d’appliances Cloud Connector, déployées au même emplacement et avec des passerelles PSTN communes qui leur sont connectées. Cette rubrique se concentre sur la façon de configurer votre topologie de site Cloud Connector pour vous assurer que vos sites Cloud Connector peuvent gérer le routage entrant et sortant pour tous les utilisateurs affectés à un site de la manière la plus rentable et la plus efficace possible. Pour plus d’informations sur Cloud Connector et les avantages des sites PSTN, n’oubliez pas de lire [Planifier Skype Entreprise Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>Sites RSTN Cloud Connector et routage des appels
 
-Les sites PSTN Cloud Connector sont une construction de topologie créée pour éviter les distances longues et inter-pays inutiles, et pour s’assurer que les appels d’urgence sortants sont acheminés vers la liaison appropriée. Pour garantir un routage rentable et efficace des appels, y compris les appels aux services d’urgence, vous devez soigneusement planifier vos sites PSTN et la façon dont les utilisateurs sont affectés à chaque site. 
+Les sites PSTN Cloud Connector sont une construction de topologie créée pour éviter les dépenses longues et inter-pays inutiles, et pour s’assurer que les appels d’urgence sortants sont acheminés vers la liaison appropriée. Pour garantir un routage rentable et efficace des appels, y compris les appels aux services d’urgence, vous devez soigneusement planifier vos sites PSTN et la façon dont les utilisateurs sont affectés à chaque site. 
   
 Dans le cadre de votre planification de Cloud Connector, il est essentiel que vous parliez à vos opérateurs de l’emplacement de vos bureaux et de vos utilisateurs, et de l’endroit où les connexions PSTN se terminent par l’opérateur. Vous devez travailler avec vos opérateurs pour déterminer comment les appels d’urgence peuvent être acheminés, puis utiliser ces informations pour définir des sites PSTN Cloud Connector et affecter des utilisateurs aux sites appropriés. Par exemple, vous devez vous assurer que les tronçons qui s’étendent sur un centre de données où le site PSTN est étiré sont configurés pour gérer à la fois le routage entrant et sortant pour tous les numéros affectés aux utilisateurs de ce site. 
   
 Chaque appliance Cloud Connector peut être connectée à plusieurs passerelles IP, PBX IP ou contrôleurs de frontière de session (SCS). Étant donné que les passerelles et les PBX sont connectés à des trunks telco (pri ou SIP), les appliances Cloud Connector sont connectées logiquement aux connexions PSTN pour les appels entrants et sortants. Avec Cloud Connector et la connectivité PSTN locale, vous obtenez la connexion et les numéros de téléphone associés auprès de votre opérateur local. Si votre entreprise est une grande entreprise, vous pouvez avoir plusieurs opérateurs, en particulier si votre entreprise s’étend sur plusieurs villes, états ou pays. Étant donné que votre opérateur est propriétaire du numéro de téléphone, il est responsable de la gestion des appels d’urgence.
   
-Skype Entreprise Online traite toutes les appliances Cloud Connector d’un site de la même manière et route les appels sortants en rotation vers les appliances Cloud Connector dans le même site. Chaque Cloud Connector d’un site est connecté au même ensemble de trunks PSTN (entièrement maillage). Étant donné que chaque utilisateur est associé à un site RSTN Cloud Connector, tout appel sortant de cet utilisateur (normal ou d’urgence) est affecté à l’une des appliances Cloud Connector dans le site PSTN associé à l’utilisateur. 
+Skype Entreprise Online traite toutes les appliances Cloud Connector d’un site de la même manière et route les appels sortants en rotation vers les appliances Cloud Connector dans le même site. Chaque Cloud Connector d’un site est connecté au même ensemble de connecteurs PSTN (entièrement maillage). Étant donné que chaque utilisateur est associé à un site RSTN Cloud Connector, tout appel sortant de cet utilisateur (normal ou d’urgence) est affecté à l’une des appliances Cloud Connector dans le site PSTN associé à l’utilisateur. 
   
-Cloud Connector fait le routage d’appels statiques vers ses passerelles IP jointes, pbX IP, SCS ou ses branches PSTN directes. Cloud Connector n’est pas encore capable d’un routage dynamique vers une connexion basée sur la destination (pour le routage le moins coûteux) ou sur la base de l’origine (appels d’urgence statiques ou dynamiques). Les appels entrants ne sont pas un problème, car l’appel peut uniquement être issu d’une ligne associée au numéro. Toutefois, les appels sortants peuvent être appelés vers n’importe quelle appliance Cloud Connector d’un site (et par extension les branches PSTN attachées à cette appliance Cloud Connector), ce qui peut entraîner des appels longue distance indésirables. En outre, les appels d’urgence ne passeront pas si le site PSTN Cloud Connector est étiré sur plusieurs centres de données avec des indicatifs régionaux ou des opérateurs différents.
+Cloud Connector fait le routage d’appels statiques vers ses passerelles IP jointes, pbX IP, SCS ou ses branches PSTN directes. Cloud Connector n’est pas encore capable d’un routage dynamique vers une connexion basée sur la destination (pour le routage le moins coûteux) ou sur la base de l’origine (appels d’urgence statiques ou dynamiques). Les appels entrants ne sont pas un problème, car l’appel peut uniquement être issu d’une ligne associée au numéro. Toutefois, les appels sortants peuvent être appelés vers n’importe quelle appliance Cloud Connector d’un site (et par extension les branches PSTN attachées à cette appliance Cloud Connector), ce qui peut entraîner des appels longue distance indésirables. En outre, les appels d’urgence ne passeront pas si le site PSTN Cloud Connector est étiré dans les centres de données avec des indicatifs régionaux ou des opérateurs différents.
   
 ## <a name="an-example"></a>Exemple
 
@@ -78,8 +78,8 @@ Par conséquent, les utilisateurs A et B, ainsi que les trunks Cloud Connector p
   
 Prenons également les exemples suivants :
   
-- L’utilisateur C de Centralia, dont le numéro est fourni par l’opérateur A, est à deux heures de route et dans un code de zone différent (360), des autres utilisateurs de l’opérateur A dans le code de zone Bellevue et Redmond 425. 
+- L’utilisateur C de Centralia, dont le numéro est fourni par l’opérateur A, est à deux heures de route et dans un autre code de zone (360), des autres utilisateurs de l’opérateur A dans le code de zone Bellevue et Redmond 425. 
     
     Par conséquent, même si un appel provient de l’opérateur A, il est possible que le logiciel de routage des appels de l’opérateur dans l’code de zone Centralia 360 puisse rejeter un appel d’urgence entrant provenant de l’utilisateur B dans l’code de zone 425 de Bellevue. Dans ce cas, il est essentiel que l’opérateur confirme que Cloud Connector et ses branches associées dans les sites PSTN Centralia peuvent gérer les appels sur des distances et des indicatifs régionaux.
     
-- L’utilisateur D de Portland utilise un numéro et une ligne fournis par l’opérateur B. Il est donc très peu probable que l’opérateur B prenne un appel d’urgence à partir d’un numéro de téléphone qui appartient à l’opérateur A. Ainsi, l’utilisateur D et l’appliance Cloud Connector et les branches associées à Portland devront se trouver dans un autre site PSTN.
+- L’utilisateur D de Portland utilise un numéro et une ligne fournis par l’opérateur B. Il est donc très peu probable que l’opérateur B prenne un appel d’urgence à partir d’un numéro de téléphone qui appartient à l’opérateur A. L’utilisateur D et l’appliance Cloud Connector et les branches associées à Portland devront donc se trouver dans un autre site PSTN.

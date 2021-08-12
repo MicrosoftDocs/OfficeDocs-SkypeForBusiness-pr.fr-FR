@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 'Résumé : Découvrez le rapport détaillé de session D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: 4dfa2b87b1fbba72282b52fa2ca58ca0f1e70630
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 14df5ae82706a719086c31a3c8582009ed48d85b825057ab49ce6e92fa258116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286803"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Rapport détaillé de session D’égal à égal dans Skype Entreprise Server
  
@@ -37,7 +37,7 @@ Vous pouvez accéder au rapport de détails de session d’égal à égal à par
     
 - Rapport de liste des échecs 
     
-À partir du rapport détaillé de session P2E, vous pouvez accéder au rapport de diagnostic dans Skype Entreprise [Server](diagnostic-report.md) en cliquant sur la mesure Rapport de diagnostic (détails). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
+À partir du rapport détaillé de session P2E, vous pouvez accéder au rapport de diagnostic dans [Skype Entreprise Server](diagnostic-report.md) en cliquant sur la mesure Rapport de diagnostic (détails). Vous pouvez aussi accéder au rapport des principales défaillances en cliquant sur l’une de ces deux mesures :
   
 - Réponse
     
@@ -104,7 +104,7 @@ Le tableau suivant liste les informations fournies dans le Rapport détaillé de
 |:-----|:-----|:-----|
 |**Detail** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport montre le rapport de diagnostic pour la session.  <br/> |
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |
-|**Requête** <br/> |Non  <br/> |Type de demande SIP. Par exemple, INVITE ou BYE.  <br/> |
+|**Demande** <br/> |Non  <br/> |Type de demande SIP. Par exemple, INVITE ou BYE.  <br/> |
 |**ID de diagnostic** <br/> |Non  <br/> |Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins de dépannage.  <br/> |
 |**Type de contenu** <br/> |Non  <br/> |Type de contenu multimédia utilisé dans la conférence. Par exemple, Application/sdp est un type de contenu commun. Le protocole SDP (Session Description Protocol) est un protocole Internet standard utilisé pour les annonces de session, les invitations aux sessions et autres formes de démarrage de session multimédia.  <br/> |
 |**Auteur du rapport** <br/> |Non  <br/> |Ordinateur (c’est-à-dire, client ou serveur) qui a signalé le problème.  <br/> |
