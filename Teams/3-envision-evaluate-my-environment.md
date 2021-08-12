@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b65e6f2f6db4f5e824e55368d0a7a097eb39ad9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2498d634bda4760d34b6d76762312e56ae51efe4ea08a9b42b875ac250759403
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094772"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302088"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
@@ -68,8 +68,8 @@ Utilisez les considérations suivantes pour évaluer la préparation de votre or
 
 <table>
 <tr><td>Titre</td><td>Description</td></tr>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous déjà réussi avec l’adoption des logiciels ou services par les utilisateurs ?</li><li>Pouvez-vous suivre l’utilisation insérez-vous ?</li><li>Avez-vous les ressources nécessaires pour concevoir et gérer une campagne d’adoption initiale et en cours &mdash; &mdash; (sensibilisation, formation et support) ?</li><li>Disposez-vous d’une équipe dédiée d’adoption et de gestion des changements des utilisateurs, ou pouvez-vous investir dans ces ressources pour garantir des résultats d’entreprise ?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Si vous avez répondu oui à toutes les réponses ci-dessus, identifiez les parties prenantes pour la gestion du changement d’utilisateurs et commencez votre planification de &quot; &quot; disponibilité des utilisateurs.</li><li>Si vous avez répondu non à tout ou partie des questions &quot; ci-dessus, songez à faire participer des ressources externes pour contribuer à la gestion du changement et aux activités d’adoption pour &quot; votre organisation.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous déjà réussi avec l’adoption des logiciels ou services par les utilisateurs ?</li><li>Pouvez-vous suivre l’utilisation insérez-vous ?</li><li>Avez-vous les ressources nécessaires pour concevoir et gérer une campagne d’adoption initiale et en cours &mdash; &mdash; (sensibilisation, formation et support) ?</li><li>Disposez-vous d’une équipe dédiée d’adoption ou de gestion des changements des utilisateurs, ou pouvez-vous investir dans ces ressources pour garantir des résultats d’entreprise ?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Si vous avez répondu oui à toutes les réponses ci-dessus, identifiez les parties prenantes concernées pour la gestion du changement d’utilisateur et commencez votre planification de &quot; &quot; disponibilité des utilisateurs.</li><li>Si vous avez répondu non à tout ou partie des questions &quot; ci-dessus, songez à faire participer des ressources externes pour contribuer à la gestion du changement et aux activités d’adoption pour &quot; votre organisation.</li></ol></td></tr>
 </table>
 
 
@@ -105,7 +105,7 @@ Trois zones de risque majeures peuvent affecter la manière dont les utilisateur
 -   Troubles du réseau tels que la gigue et la perte de paquets
 
 Les étapes décrites ci-dessous vous permettent de déterminer si votre déploiement peut être affecté par l’un de ces facteurs et vous aide à atteindre une résolution.
-À défaut de préparer votre réseau, les utilisateurs ne seront probablement pas satisfaits et des correctifs ad hoc coûteux. En préparez votre réseau, et votre organisation, pour Teams, vous pouvez considérablement augmenter vos chances de succès.
+L’échec de la préparation de votre réseau risque d’entraîner des utilisateurs non satisfaits et des correctifs ad hoc coûteux. En préparez votre réseau, et votre organisation, pour Teams, vous pouvez considérablement augmenter vos chances de succès.
 
 <!--ENDOFSECTION-->
 
@@ -126,7 +126,7 @@ L’optimisation du chemin réseau vers le réseau global de Microsoft améliore
 Les VPN fournissent un service de valeur à de nombreuses organisations. Malheureusement, ils ne sont généralement pas conçus ou configurés pour prendre en charge les médias en temps réel. Certains VPN peuvent également ne pas prendre en charge UDP. Les VPN offrent également une phase supplémentaire de chiffrement au-dessus du trafic multimédia déjà chiffré. De plus, la connectivité au service Teams peut ne pas être efficace en raison de l’épinglage de cheveux via un appareil VPN.
 De plus, ils ne sont pas nécessairement conçus dans une perspective de capacité pour tenir compte des charges Teams à prévoir.
 
-La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. Ce réseau privé virtuel (VPN) est communément appelé *VPN avec tunnel fractionnel.* La tunnellation fractionnée signifie que le trafic pour Microsoft 365 ou Office 365 ne traversera pas le VPN, mais qu’il sera directement Microsoft 365 ou Office 365. Cette modification aura un impact positif sur la qualité, mais offre également l’avantage secondaire de réduire la charge des appareils VPN et du réseau de l’organisation.
+La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. Ce réseau privé virtuel (VPN) est communément appelé *VPN avec tunnel fractionnel.* La tunnellation fractionnée signifie que le trafic pour Microsoft 365 ou Office 365 ne traversera pas le VPN, mais qu’il sera directement Microsoft 365 ou Office 365. Cette modification aura un impact positif sur la qualité, mais offre également l’avantage secondaire de réduire la charge provenant des appareils VPN et du réseau de l’organisation.
 
 Pour mettre en œuvre un tunnel segmenté, consultez votre fournisseur VPN pour les détails de configuration.
 
@@ -164,7 +164,7 @@ En cas de déploiement d’un serveur proxy, nous vous recommandons d’ignorer 
 
 ## <a name="test-the-network"></a>Tester le réseau
 
-Une fois que vous avez terminé votre planification et la préparation du réseau (mise à niveau de la bande passante et ouverture de ports dans le pare-feu), vous devez tester les performances de votre réseau. Les résultats de ces tests pictureront une image plus claire de l’optimisation ou des corrections réseau requises pour la réussite de votre audioconférence ou de votre Système téléphonique avec l’implémentation du Plan d’appel.
+Une fois que vous avez terminé votre planification et la préparation du réseau (mise à niveau de la bande passante et ouverture de ports dans le pare-feu), vous devez tester les performances de votre réseau. Les résultats de ces tests clairement images de l’optimisation ou des corrections réseau requises pour la réussite de votre audioconférence ou de votre Système téléphonique avec l’implémentation d’un plan d’appel.
 
 Vous pouvez télécharger [l’outil Skype Entreprise d’évaluation](https://www.microsoft.com/download/details.aspx?id=53885) du réseau pour vérifier si votre réseau est prêt à Teams. L’outil offre deux fonctionnalités : il peut tester l’ouverture de tous les ports corrects et la possibilité de tester la déficience du réseau.
 
@@ -184,7 +184,7 @@ Nous vous recommandons d’exécuter régulièrement les vérifications de conne
 Pour augmenter la satisfaction des utilisateurs, vous devez limiter les déficiences sur votre réseau.
 Les troubles du réseau les plus fréquents sont le retard (latence), la perte de paquets et la gigue :
 
--   **Latence :** Il s’agit du temps que prend un paquet IP pour passer d’un point A à un point B sur le réseau. Ce retard de propagation sur le réseau est essentiellement lié à la distance physique entre les deux points et la vitesse de la lumière, notamment à la surcharge des divers routeurs entre les deux.
+-   **Latence :** C’est le temps d’obtenir un paquet IP du point A au point B sur le réseau. Ce retard de propagation sur le réseau est essentiellement lié à la distance physique entre les deux points et la vitesse de la lumière, notamment à la surcharge des divers routeurs entre les deux.
     La latence se mesure en durée à sens inverse ou durée de l’aller-retour.
 
 -   **Perte de paquets**: cette perte est souvent définie comme le pourcentage de paquets perdus dans une période donnée. La perte de paquets affecte directement la qualité audio, de petits paquets individuels perdus, pratiquement sans impact sur les pertes en rafale dos-à-dos qui entraînent une coupure complète de l’audio.
@@ -223,7 +223,7 @@ Pour plus d’informations, [voir Qualité de service dans Microsoft Teams.](./q
 
 <table>
 <tr><td>Titre</td><td>Description</td></tr>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui vous serez chargé d’effectuer les analyses réseau correctes sur tous les segments réseau et tous les emplacements de l’organisation ?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui vous aurez la responsabilité d’effectuer les analyses réseau correctes sur tous les segments réseau et tous les emplacements de l’organisation ?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une évaluation détaillée du réseau pour vous assurer que votre réseau est prêt pour Microsoft Teams déploiement.</li><li>Effectuez des corrections réseau basées sur les résultats de l’analyse pour chaque segment réseau.</li></ol></td></tr>
 </table>
 

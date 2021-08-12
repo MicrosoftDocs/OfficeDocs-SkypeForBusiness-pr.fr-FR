@@ -1,5 +1,5 @@
 ---
-title: 'Gérer les numéros d’accès aux conférences téléphoniques dans Skype Entreprise Server '
+title: 'Gérer les numéros d’accès aux conférences dans Skype Entreprise Server '
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,38 +12,38 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Résumé : Découvrez comment gérer les numéros d’accès aux conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: 4008293015beaa684f9a3d9fa0ec0dedf05e5b2b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 58e4de5a2c429a5e36a43f90793fc1e12939b1d235b846ae8db372a2b13d8135
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099150"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302498"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gérer les numéros d’accès aux conférences téléphoniques dans Skype Entreprise Server
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gérer les numéros d’accès aux conférences dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment gérer les numéros d’accès aux conférences téléphoniques dans Skype Entreprise Server.
+**Résumé :** Découvrez comment gérer les numéros d’accès aux conférences téléphoniques Skype Entreprise Server.
   
 Lorsque vous déployez des conférences rendez-vous, vous devez configurer les numéros de téléphone que les utilisateurs peuvent appeler à partir du réseau téléphonique commuté pour participer à la partie audio des conférences. Ces numéros apparaissent dans les invitations à une réunion et sur la page Web des paramètres de configuration des conférences rendez-vous. 
   
-Cette rubrique décrit comment afficher, modifier ou supprimer des numéros d’accès aux conférences téléphoniques. Pour plus d’informations sur la création de numéros d’accès initiaux, voir [Configure dial-in conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+Cette rubrique décrit comment afficher, modifier ou supprimer des numéros d’accès aux conférences téléphoniques. Pour plus d’informations sur la création de numéros d’accès initiaux, voir [Configure dial-in conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>Afficher les numéros d’accès aux conférences téléphoniques
 
-Vous pouvez afficher les numéros d’accès aux conférences téléphoniques à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez afficher les numéros d’accès aux conférences à l’aide Skype Entreprise Server panneau de Skype Entreprise Server Management Shell.
   
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Afficher les numéros d’accès à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Afficher les numéros d’accès à l’aide Skype Entreprise Server panneau de bord
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Numéro d’accès à **la conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis cliquez sur Numéro d’accès à **la conférence.**
     
 4. Dans la page **Numéro d’accès entrant**, cliquez sur le numéro d’accès à afficher.
     
 5. Dans **Modifier,** cochez **la case Afficher les détails.**
     
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Afficher les numéros d’accès à l’aide de Skype Entreprise Server Management Shell
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Afficher les numéros d’accès à l’aide Skype Entreprise Server Management Shell
 
 Pour afficher des informations sur les numéros d’accès aux appels, utilisez l';cmdlet **Get-CsDialInConferencingAccessNumber.**
   
@@ -53,7 +53,7 @@ La commande suivante retourne une collection de tous les numéros d’accès aux
 Get-CsDialInConferencingAccessNumber
 ```
 
-Voici un exemple du type d’informations renvoyées :
+Voici un exemple du type d’informations renvoyé :
   
 <pre>
 Identity           : CN={20ca8dc8-5ff8-41f4-b5bb-22ba9972ae2e},
@@ -74,15 +74,15 @@ Pour plus d’informations, [voir Get-CsDialInConferencingAccessNumber](/powersh
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>Modifier les numéros d’accès aux conférences téléphoniques
 
-Vous pouvez modifier les numéros d’accès à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez modifier les numéros d’accès à l’Skype Entreprise Server à l’aide du Panneau de Skype Entreprise Server Management Shell.
   
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Modifier les numéros d’accès à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Modifier les numéros d’accès à l’aide du Skype Entreprise Server de contrôle d’accès
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Numéro d’accès à **la conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis cliquez sur Numéro d’accès à **la conférence.**
     
 4. Dans **la** page Numéro d’accès, cliquez sur l’un des numéros d’accès à la connexion dans la liste, cliquez sur **Modifier,** puis cliquez sur Afficher **les détails.**
     
@@ -91,9 +91,9 @@ Vous pouvez modifier les numéros d’accès à l’aide du Panneau de contrôle
   
 5. Dans **le numéro d’affichage,** tapez le numéro de téléphone composé par les utilisateurs du réseau téléphonique commuté (PSTN) pour participer à une conférence. 
     
-    Ce numéro s’affiche dans les invitations aux réunions et dans la page web Paramètres de conférence rendez-vous.
+    Ce numéro s’affiche dans les invitations aux réunions et sur la page web Paramètres conférence rendez-vous.
     
-6. Dans **nom d’affichage,** tapez une description pour le numéro d’accès à la connexion. Il s’agit du nom associé au numéro d’accès à la connexion dans les résultats de recherche Skype Entreprise.
+6. Dans **Nom d’affichage,** tapez une description pour le numéro d’accès à la connexion. Il s’agit du nom associé au numéro d’accès à la connexion dans les Skype Entreprise de recherche.
     
     Ce nom s’affiche dans le client lorsqu’un utilisateur appelle le numéro d’accès. 
     
@@ -107,18 +107,18 @@ Vous pouvez modifier les numéros d’accès à l’aide du Panneau de contrôle
    Dans la zone de texte, tapez un URI SIP unique pour ce numéro d’accès de conférence. Cet URI SIP s’affiche à différents emplacements, y compris, mais sans s’y limiter, les messages de notification d’appel et les versions précédentes des clients Lync.
     
     > [!NOTE]
-    > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès de conférence. L’URI SIP ne peut pas être modifié après la création du numéro d’accès. La seule façon de modifier l’URI SIP consiste à supprimer et recréer le numéro d’accès. 
+    > Le même URI SIP ne peut pas être réutilisé par un autre numéro d’accès de conférence. L’URI SIP ne peut pas être modifié après la création du numéro d’accès. La seule façon de modifier l’URI SIP consiste à supprimer et à recréer le numéro d’accès. 
   
-   Dans la zone de liste liste, cliquez sur le domaine de l’application De l’Attendant de conférence qui prend en charge ce numéro d’accès.
+   Dans la zone de liste liste, cliquez sur le domaine du application Assistant de conférence qui prend en charge ce numéro d’accès à la connexion.
     
-9. Dans **Pool,** cliquez sur le pool qui exécute l’instance de l’Attendant de conférence qui prend en charge ce numéro d’accès à la conférence.
+9. Dans **pool,** cliquez sur le pool qui exécute l’instance de Assistant de conférence qui prend en charge ce numéro d’accès à la connexion.
     
     > [!NOTE]
     > Si vous devez modifier le pool après avoir créé le numéro d’accès, vous devez utiliser l’cmdlet **Move-CsApplicationEndpoint** ou supprimer et recréer le numéro d’accès.
   
 10. Dans **la langue principale,** cliquez sur la langue dans laquelle les invites sont lées pour ce numéro d’accès à la connexion. 
     
-    La langue principale est celle que l’Attendant de conférence utilise pour répondre à l’appel. Les langues prise en charge sont affichées avec chaque numéro de téléphone d’accès sur la page web Paramètres de conférence conférence.
+    La langue principale est la langue que le Assistant de conférence utilise pour répondre à l’appel. Les langues prise en charge sont affichées avec chaque numéro de téléphone d’accès sur la page web conférence Paramètres conférences.
     
 11. (Facultatif) Dans **les langues** secondaires (quatre au maximum), cliquez sur Ajouter, sélectionnez une ou plusieurs langues supplémentaires que vous souhaitez prendre en charge pour les appelants de ce numéro d’accès à la conférence, puis cliquez sur  **OK.** 
     
@@ -126,11 +126,11 @@ Vous pouvez modifier les numéros d’accès à l’aide du Panneau de contrôle
     
 12. Pour ajouter une région pour le numéro d’accès à la connexion, sous Régions associées, cliquez sur **Ajouter,** cliquez sur une ou plusieurs régions associées aux plans de numérotation pour ce numéro d’accès, puis cliquez sur **OK.**
     
-13. Pour supprimer une région du numéro d’accès à la connexion, sous **Régions** associées, cliquez sur la région à supprimer, puis cliquez sur **Supprimer.**
+13. Pour supprimer une région du numéro d’accès à la connexion, sous Régions **associées,** cliquez sur la région à supprimer, puis cliquez sur **Supprimer.**
     
 14. Cliquez sur **Valider**.
     
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modifier les numéros d’accès à l’aide de Skype Entreprise Server Management Shell
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Modifier les numéros d’accès à l’aide Skype Entreprise Server Management Shell
 
 Pour modifier les numéros d’accès aux appels, utilisez l’cmdlet **Set-CsDialInConferencingAccessNumber.**
   
@@ -150,21 +150,21 @@ Pour plus d’informations, [voir Set-CsDialInConferencingAccessNumber](/powersh
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>Supprimer un numéro d’accès aux conférences téléphoniques
 
-Vous pouvez supprimer un numéro d’accès aux conférences téléphoniques à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez supprimer un numéro d’accès aux conférences à l’aide du Panneau de Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
   
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Supprimer un numéro d’accès aux conférences téléphoniques à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Supprimer un numéro d’accès aux conférences conférences à l’aide Skype Entreprise Server panneau de bord
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Numéro d’accès à **la conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis cliquez sur Numéro d’accès à **la conférence.**
     
 4. Dans la page, cliquez sur le numéro de connexion à supprimer dans la liste, cliquez sur **Modifier,** puis cliquez sur **Supprimer.**
     
 5. Cliquez sur **OK**.
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Supprimer un numéro d’accès aux conférences téléphoniques à l’aide de Skype Entreprise Server Management Shell
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Supprimer un numéro d’accès aux conférences à l’aide de Skype Entreprise Server Management Shell
 
 Pour supprimer un numéro d’accès aux conférences téléphoniques, utilisez **Remove-CsDialInConferencingAccessNumber**.
   

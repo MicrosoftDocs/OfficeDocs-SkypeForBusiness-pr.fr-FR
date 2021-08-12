@@ -15,24 +15,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 7b45e50b457fb13c0c585d6c146afecdebe27a77
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4eb93594f4cd7c294898f70da60498d4a543805506da9b2c8a670049b83631a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338382"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Données de qualité de l’expérience (QoE) : création de nouvelles données ou modification de données existantes
  
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
   
-- [Activer la qualité de l’expérience dans Skype Entreprise Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
+- [Activer la qualité de l’expérience Skype Entreprise Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Modifier les paramètres de qualité de l’expérience dans Skype Entreprise Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Modifier les paramètres de qualité de l’expérience Skype Entreprise Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
-- [Créer des paramètres de configuration de la qualité de l’expérience dans Skype Entreprise Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
+- [Créer des paramètres de configuration de la qualité de l’expérience Skype Entreprise Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     
-- [Supprimer les paramètres de configuration de la qualité de l’expérience dans Skype Entreprise Server 2015](../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
+- [Supprimer les paramètres de configuration de la qualité de l’expérience Skype Entreprise Server 2015](../../manage/health-and-monitoring/delete-qoe-configuration-settings.md)
     
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
 

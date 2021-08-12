@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd1d519f8be0c82a202417b6271878b9e70e3ae3
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 743f7aaed340b0cf0c48cc92a472ef25f5ac9613dea436910737c09236b773e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327380"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Mettre à niveau Skype Entreprise locaux vers Teams
 
@@ -61,7 +61,7 @@ La coexistence et l’interopérabilité entre Skype Entreprise et Teams clients
 
 Pour une organisation passant à Teams, le mode TeamsOnly est la destination finale pour chaque utilisateur, même si tous les utilisateurs ne doivent pas être affectés à TeamsOnly (ou tout autre mode) en même temps.
 
-Avant que les utilisateurs n’atteignent le mode TeamsOnly, les organisations peuvent utiliser les modes de coexistence Skype Entreprise de manière facultative afin de garantir une communication prévisible entre les utilisateurs en mode TeamsOnly et ceux qui ne le sont pas encore.  L’objectif des modes de coexistence Skype Entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) est d’offrir aux utilisateurs finaux une expérience simple et prévisible au sein de la transition entre Skype Entreprise et Teams. 
+Avant que les utilisateurs n’atteignent le mode TeamsOnly, les organisations peuvent éventuellement utiliser l’un des modes de coexistence Skype Entreprise pour assurer une communication prévisible entre les utilisateurs en mode TeamsOnly et les utilisateurs qui ne le sont pas encore.  L’objectif des modes de coexistence Skype Entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) est d’offrir aux utilisateurs finaux une expérience simple et prévisible au sein de la transition entre Skype Entreprise et Teams. 
 
 Lorsqu’un utilisateur est dans l’un des modes Skype Entreprise, toutes les conversations et appels entrants sont acheminés vers le client de messagerie Skype Entreprise’utilisateur. Pour éviter la confusion des utilisateurs finaux et garantir un routage approprié, les fonctionnalités d’appel et de conversation dans le client Teams sont désactivées lorsqu’un utilisateur est dans l’un Skype Entreprise mode. De même, la planification de réunions dans Teams est explicitement désactivée lorsque les utilisateurs sont dans les modes SfBOnly ou SfBWithTeamsCollab et sont explicitement activés lorsqu’un utilisateur est en mode SfBWithTeamsCollabAndMeetings.
 
@@ -87,7 +87,7 @@ Lorsque vous envisagez d’envisager des options de connectivité de réseau té
 
 - Un utilisateur sur Skype Entreprise local avec Voix Entreprise, qui passe au service en ligne et utilise un plan d’appel Microsoft. La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud et la coordination du déplacement avec l’un des A) du port de ce numéro de téléphone vers un plan d’appels Microsoft ou B) et l’affectation d’un nouveau numéro d’abonné à partir des régions disponibles.  Pour plus d’informations, voir De Skype Entreprise Server, en local, avec [Voix Entreprise, à Microsoft Calling Plan.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)
 
-- Un utilisateur sur Skype Entreprise site avec Voix Entreprise, qui passe à la connexion en ligne et maintient la connectivité RSTN sur site. La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud, et la coordination de ce déplacement avec la migration de l’utilisateur vers le routage direct. Pour plus d’informations, voir De Skype Entreprise Server locaux, avec des [Voix Entreprise, vers un routage direct.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)
+- Un utilisateur sur Skype Entreprise site avec Voix Entreprise, qui passe à la connexion en ligne et maintient la connectivité RSTN sur site. La migration de cet utilisateur vers Teams nécessite le déplacement du compte Skype Entreprise local de l’utilisateur vers le cloud, et la coordination de ce déplacement avec la migration de l’utilisateur vers le routage direct. Pour plus d’informations, voir Skype Entreprise Server, en local, avec des [Voix Entreprise, jusqu’au routage direct.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)
 
 
 ## <a name="important-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>Considérations importantes pour les organisations particulièrement Skype Entreprise Server locales
@@ -103,7 +103,7 @@ Lorsque vous envisagez d’envisager des options de connectivité de réseau té
 
 - Si votre organisation Skype Entreprise Server et que vous n’avez pas configuré de connectivité hybride, mais que vous souhaitez continuer à utiliser Teams, pour administrer la fonctionnalité de Teams, vous devez utiliser un compte d’administration avec un domaine .onmicrosoft.com. Sans connectivité hybride, les outils d’administration ne reconnaîtront pas vos domaines locaux. 
 
-- Teams les utilisateurs qui ont un compte Skype Entreprise en local (autrement dit, qui n’ont pas encore été déplacés vers le cloud à l’aide de Move-CsUser) ne peuvent pas interopérables avec les utilisateurs Skype Entreprise et ne peuvent pas se fédérer avec des utilisateurs externes. Cette fonctionnalité n’est disponible que lorsque les utilisateurs sont déplacés vers le cloud et sont des utilisateurs de TeamsOnly. 
+- Teams les utilisateurs qui ont un compte Skype Entreprise en local (autrement dit, qui n’ont pas encore été déplacés vers le cloud à l’aide de Move-CsUser) ne peuvent pas interopérables avec des utilisateurs Skype Entreprise et ne peuvent pas se fédérer avec des utilisateurs externes. Cette fonctionnalité n’est disponible que lorsque les utilisateurs sont déplacés vers le cloud et sont des utilisateurs de TeamsOnly. 
 
 - Si vous avez des utilisateurs avec des comptes Skype Entreprise locaux ou si vous avez encore un enregistrement DNS lyncdiscover pour un déploiement local, vous ne pouvez pas affecter le mode TeamsOnly au niveau du client. Vous devez d’abord déplacer tous les utilisateurs avec des comptes Skype Entreprise locaux vers le cloud, puis suivre les étapes décrites dans Désactiver l’hybride pour finaliser la migration vers le cloud, y compris la suppression des entrées `Move-CsUser` DNS. [](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`ne fonctionne pas au niveau du client si un enregistrement DNS lyncdiscover est détecté qui pointe vers un emplacement autre que Office 365.
 

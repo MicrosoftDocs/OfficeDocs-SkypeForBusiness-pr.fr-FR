@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Utilisez une caméra de contenu dans une salle Microsoft Teams, qui interagit avec le logiciel de traitement des images pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
-ms.openlocfilehash: ced0a65c0c1fab25bd1b244aea7301d654c44a9e
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 36c37872fa705876921b9278e51a2434ebb4aa0e76ed93f45199ccb5760798bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48508311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316950"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
@@ -54,7 +54,7 @@ Vous pouvez installer l’appareil photo jusqu’à 6 dans. (152 mm) au-dessus d
 
 À l’aide de marqueurs de tableau blanc classiques, l’expérience utilisateur distante optimale consiste à partager des traits d’encre dans la plage de 1 à 2 mm par pixel dans l’image de la caméra de contenu, et les meilleurs résultats utilisent 1,5 mm par pixel. Toutes les caméras prise en charge offrent une résolution 1920 x 1080, et certaines peuvent dépasser cette résolution.
 
-La distance de l’appareil photo par rapport au tableau blanc se combine avec la résolution de l’appareil photo et le HFoV pour déterminer la distance par rapport au tableau blanc. Le tableau suivant présente des exemples de distances pour différentes tailles de tableau blanc. Vous pouvez utiliser ces valeurs comme points de départ pour déterminer le placement final de la caméra de contenu.
+La distance de l’appareil photo par rapport au tableau blanc se combine avec la résolution de l’appareil photo et le HFoV pour déterminer la distance par rapport au tableau blanc. Le tableau suivant présente des exemples de distances pour différentes tailles de tableau blanc. Vous pouvez utiliser ces valeurs comme points de départ pour déterminer la position finale de la caméra de contenu.
 
 **Distance de l’appareil photo du tableau blanc**
 

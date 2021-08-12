@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez les éléments nécessaires pour migrer vers un routage direct à partir d’une perspective de configuration Skype Entreprise Online et Teams.
-ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bcc31554428c847fc9eb3c45804be42e850b30f943fadcc3ef6e245d07c9d4fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301999"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrer vers un routage direct
 
@@ -29,7 +29,7 @@ Cet article décrit les éléments nécessaires pour migrer vers un routage dire
  
 - Système téléphonique des forfaits d’appels (Teams et Skype Entreprise Online) 
 - Système téléphonique avec connectivité PSTN en local dans Skype Entreprise Server (Skype Entreprise Online)  
-- Système téléphonique la connectivité PSTN en local à l’aide de la version Cloud Connector (Skype Entreprise Online)
+- Système téléphonique avec connectivité PSTN en local à l’aide de la version Cloud Connector (Skype Entreprise Online)
 
 
 En plus de ces étapes de configuration, la configuration est également requise sur le contrôleur de frontière de session (SBC) pour acheminer les appels vers le nouvel itinéraire. Cet élément n’est pas abordé dans ce document. Pour plus d'informations, consultez la documentation du fournisseur du contrôleur SBC.  

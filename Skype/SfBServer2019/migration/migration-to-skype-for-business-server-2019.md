@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Les rubriques de cette section vous guident tout au long du processus de migration vers Skype Entreprise Server 2019.
-ms.openlocfilehash: 860fce550de33ed726bbbe723c8c7677ff09fc1c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1014fe5d491823c427eb588aac86757afb997578b519abf2249f481c91a3d4aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303398"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migration vers Skype Entreprise Server 2019
 
-Les rubriques de cette section vous guident tout au long du processus de migration vers Skype Entreprise Server 2019. Cet article traite de la migration de Lync Server 2013 ou Skype Entreprise Server 2015 vers Skype Entreprise Server 2019.
+Les rubriques de cette section vous guident tout au long du processus de migration vers Skype Entreprise Server 2019. Cet article traite de la migration de Lync Server 2013 Skype Entreprise Server 2015 vers Skype Entreprise Server 2019.
 
 > [!IMPORTANT]
 > Tout au long du contenu, nous utilisons le terme hérité pour faire référence à l’hérité Lync Server 2013 ou Skype Entreprise Server 2015 que vous migrez vers Skype Entreprise Server 2019. 

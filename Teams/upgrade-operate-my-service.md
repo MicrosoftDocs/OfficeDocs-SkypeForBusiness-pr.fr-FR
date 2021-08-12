@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc2d3a346f7b18b64950f2c2b52370ea7ecca8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b2d546465497a18791c0a3e31367622d09b8c6d16e81d5141cf5be338dd33ac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327490"
 ---
 # <a name="operate-your-service"></a>Exploiter votre service
 
@@ -31,11 +31,11 @@ ms.locfileid: "52237560"
 
 Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé la mise à niveau d’Skype Entreprise vers Teams.
 
-Cet article donne une vue d’ensemble des conditions requises pour une utilisation Teams pour votre organisation après la mise à niveau. En fonctionnant correctement vos services Teams client, vous êtes sûr de fournir une expérience de haute qualité et fiable à votre organisation.
+Cet article donne une vue d’ensemble des conditions requises pour une utilisation Teams pour votre organisation après la mise à niveau. En fonctionnant correctement vos services Teams service, vous êtes sûr de fournir une expérience de haute qualité et fiable à votre organisation.
 
 ## <a name="introduction-to-the-operations-guide"></a>Introduction au Guide des opérations
 
-Le Guide des opérations vous donne une vue d’ensemble de toutes les tâches et activités requises dans le cadre de la fonction de gestion des services Microsoft Teams.
+Le guide des opérations vous donne une vue d’ensemble de toutes les tâches et activités requises dans le cadre de la fonction de gestion des services Microsoft Teams.
 
 La gestion des services est un vaste sujet qui couvre les opérations quotidiennes du service Microsoft Teams après son déploiement et son activation pour les utilisateurs. Le service Teams englobe Microsoft 365 Office 365 et les composants d’infrastructure déployés localement (par exemple, réseau).
 
@@ -86,7 +86,7 @@ Les organisations peuvent également tirer parti des investissements existants d
 
 Ces technologies sont utilisées pour offrir aux utilisateurs une suite de communications enrichies, collaboratives et intelligentes. Cette intégration étroite est un avantage majeur de Teams, mais demande également une gestion des services dans ces technologies.
 
-Ce guide couvre les principaux domaines dans le domaine de la gestion Teams service. Vous avez probablement des plans de gestion des services pour les technologies de prise en charge dont Teams dépend. Si ce n’est pas le cas, vous devez établir des plans de gestion des services appropriés pour ces composants technologiques (tant locaux qu’en ligne). Vos utilisateurs bénéficieront ainsi d’une expérience haute qualité et fiable avec Teams.
+Ce guide couvre les principaux domaines dans le domaine de la gestion Teams service. Il est probable que vous avez des plans de gestion des services en place pour les technologies de prise en charge dont Teams dépend. Si ce n’est pas le cas, vous devez établir des plans de gestion des services appropriés pour ces composants technologiques (tant locaux qu’en ligne). Vos utilisateurs bénéficieront ainsi d’une expérience haute qualité et fiable avec Teams.
 
 #### <a name="references"></a>Références
 
@@ -116,25 +116,25 @@ Les sections suivantes décrivent les outils que vous pouvez utiliser pour surve
 
 | Outil d’analyse | Avantages | Quand utiliser |
 |---|---|---|
-| Microsoft 365 d’administration | Disponible à partir de n’importe quel appareil avec un navigateur pris en charge. | À utiliser lorsque vous n’avez pas besoin de notifications en temps réel. |
-| Microsoft 365 Application d’administration | Fournit des notifications Push à votre appareil mobile. | Utilisez cette fonction lorsque vous devez être informé des incidents de service lorsque vous êtes en cours. |
+| Centre d'administration Microsoft 365 | Disponible à partir de n’importe quel appareil avec un navigateur pris en charge. | À utiliser lorsque vous n’avez pas besoin de notifications en temps réel. |
+| Administration Microsoft 365 appappe | Fournit des notifications Push à votre appareil mobile. | Utilisez cette fonction lorsque vous devez être informé des incidents de service lorsque vous êtes en cours. |
 | Microsoft System Center | Intégration avec Microsoft System Center. | Utilisez cette fonctionnalité lorsque vous avez besoin de fonctionnalités avancées de surveillance et de prise en charge des notifications. |
 | Microsoft 365 Service Communications API | Accès par programme à l Microsoft 365'état Office 365 service. | À utiliser lorsque vous avez besoin d’être intégré à un outil de surveillance tiers ou que vous souhaitez créer votre propre solution. |
 
 > [!NOTE]
 > Seules les personnes à qui sont attribués le **rôle d’administrateur général** ou d’administrateur de **service** peuvent afficher l’état du service.
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Surveillance avec le Centre d Microsoft 365 de gestion des données
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Surveillance avec la Centre d’administration Microsoft 365
 
-Le [Microsoft 365 d’administration](https://portal.office.com/) fournit [](https://portal.office.com/adminportal/home#/servicehealth) un tableau de bord d’état du service dans lequel vous pouvez consulter l’état actuel du service Teams en plus des services dépendants.
+La [Centre d’administration Microsoft 365](https://portal.office.com/) fournit un tableau de bord [d’état](https://portal.office.com/adminportal/home#/servicehealth) du service dans lequel vous pouvez afficher l’état actuel du service Teams en plus des services dépendants.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Surveillance avec l’application mobile
 
-L Microsoft 365 appe de gestion des appareils mobiles est disponible sur Apple iOS, Android et Windows (PC et appareils mobiles). L’application fournit aux administrateurs des informations sur l’état du service et les modifications à venir. L’application prend en charge les notifications Push qui peuvent vous avertir presque immédiatement après la mise en service d’un avis. Cela vous permet de rester au courant de l’état, de l’état d’état et des modifications à venir du service. La prise en charge des notifications en fait l’outil de surveillance recommandé pour les administrateurs. Pour plus d’informations, consultez :
+L’Administration Microsoft 365 est disponible sur Apple iOS, Android et Windows (PC et appareils mobiles). L’application fournit aux administrateurs des informations sur l’état du service et les modifications à venir. L’application prend en charge les notifications Push qui peuvent vous avertir presque immédiatement après la mise en service d’un avis. Cela vous permet de rester au courant de l’état, de l’état d’état et des modifications à venir du service. La prise en charge des notifications en fait l’outil de surveillance recommandé pour les administrateurs. Pour plus d’informations, consultez :
 
-[Microsoft 365 Application Admin Mobile](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Administration Microsoft 365 Application mobile](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[Télécharger l’application Microsoft 365 Admin Mobile](https://products.office.com/business/manage-office-365-admin-app)
+[Télécharger l’application Administration Microsoft 365 Mobile](https://products.office.com/business/manage-office-365-admin-app)
 
 ### <a name="monitoring-with-microsoft-system-center"></a>Surveillance avec Microsoft System Center
 
@@ -239,13 +239,13 @@ L’examen fréquent de l’utilisation au début du déploiement vous permet d'
 
 - Vérifier si les utilisateurs utilisent Teams.
 
-- Identifiez les défis d’adoption potentiels avant de créer des problèmes critiques dans l’organisation.
+- Identifiez les défis potentiels à l’adoption avant qu’ils ne créent des problèmes critiques dans l’organisation.
 
 - Comprenez s’il existe des différences entre les exigences de la phase de conception et l’utilisation réelle.
 
 Si l’utilisation n’est pas celle que vous attendiez, cela peut être dû à un problème de déploiement, à l’exécution du plan d’adoption ne fonctionne pas correctement, ou à un autre problème. Selon la raison réelle de la faible utilisation, l’administrateur doit collaborer avec les équipes associées pour contribuer à supprimer les barrières d’utilisation.
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Mesure de l’utilisation à l’Microsoft 365 d’administration
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Mesure de l’utilisation à l’Centre d’administration Microsoft 365
 
 Les données d’utilisation Teams disponibles dans le tableau de bord Rapports. Teams données d’utilisation sont disponibles dans trois rapports différents. Le premier rapport fournit une vue d’ensemble des produits de la façon dont les utilisateurs communiquent et collaborent à l’aide des différents services Microsoft 365 ou Office 365. Vous pouvez trouver ce rapport ici : utiliser Microsoft 365 [rapports dans le Centre d’administration - Utilisateurs actifs](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -265,9 +265,9 @@ En outre, **le** rôle de lecteur de rapports est disponible pour les utilisateu
 
 Après avoir utilisé le tableau de bord de rapports pour mesurer l’utilisation, il est important de comparer l’utilisation mesurée avec les indicateurs de réussite (KSI) que vous avez définis au cours de la phase de conception du projet. Vous pouvez définir un KSI défini comme utilisation active ou indirectement lié à l’utilisation active.
 
-Il est important d’identifier les écarts entre l’utilisation réelle et planifiée avant de reprendre le déploiement sur d’autres sites ou utilisateurs. Vous allez probablement identifier les apprentissages de l’organisation dans le cadre de cette activité que vous pourrez exploiter pour vous assurer que le lot suivant de sites ou d’utilisateurs ne rencontrent pas les mêmes problèmes.
+Il est important d’identifier les écarts entre l’utilisation réelle et planifiée avant de reprendre le déploiement sur d’autres sites ou utilisateurs. Vous allez probablement identifier les apprentissages de l’organisation dans le cadre de cette activité que vous pourrez exploiter pour vous assurer que le prochain lot de sites ou d’utilisateurs ne rencontrent pas les mêmes problèmes.
 
-Tout d’abord, indiquez s’il s’agit d’une adoption ou d’un problème technique. Commencez par examiner les éléments ci-dessous, dans l’ordre, pour déterminer où se trouve le problème.
+Tout d’abord, indiquez s’il s’agit d’un problème d’adoption ou technique. Commencez par examiner les éléments ci-dessous, dans l’ordre, pour déterminer où se trouve le problème.
 
 1. Valider la qualité en faisant l’examen [de la qualité de l’expérience.](upgrade-monitor-quality.md)
 
@@ -286,9 +286,9 @@ Tout d’abord, indiquez s’il s’agit d’une adoption ou d’un problème te
 
 ### <a name="references"></a>Références
 
-[À propos du Microsoft 365 d’administration](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[À propos de la Centre d’administration Microsoft 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Rapports d’activité dans le Microsoft 365 d’administration](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Rapports d’activité dans la Centre d’administration Microsoft 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 
@@ -304,7 +304,7 @@ Il est important d’obtenir des commentaires rapidement et de continuer à éva
 
 - **Project conclusion**: L’évaluation des opinions des utilisateurs à la fin d’un projet vous indique à quel point vous avez fait et où le travail doit encore être effectué, et vous permet de comparer les résultats par rapport à l’enquête précédente.
 
-- **Continu :** Continuer à mesurer l’opinion des utilisateurs indéfiniment. Les modifications apportées aux opinions des utilisateurs peuvent être dues à des changements dans l’environnement de votre organisation ou à des modifications apportées au service Teams utilisateur. En attignant les sentiments des utilisateurs à intervalles réguliers, vous pouvez comprendre les bonnes performance de vos équipes de gestion des services et la manière dont votre organisation répond aux modifications apportées au service Teams service.
+- **Continu :** Continuer à mesurer le sentiment des utilisateurs indéfiniment. Les modifications apportées aux opinions des utilisateurs peuvent être dues à des changements dans l’environnement de votre organisation ou à des modifications apportées au service Teams utilisateur. En attignant les sentiments des utilisateurs à intervalles réguliers, vous pouvez comprendre les bonnes performance de vos équipes de gestion des services et la manière dont votre organisation répond aux modifications apportées au service Teams service.
 
 Les opinions des utilisateurs peuvent être évaluées à l’au travers de nombreuses méthodes différentes. Il peut s’agir d’enquêtes par courrier électronique, d’entretiens en personne ou par téléphone, ou de la création d’un canal de commentaires dans Teams ou Yammer. Pour plus d’informations, voir [Meilleures pratiques pour les méthodes de commentaires des utilisateurs dans Microsoft Teams.](best-practices-feedback.md)
 
@@ -357,14 +357,14 @@ Pour garantir l’état de votre réseau, un certain nombre d’activités d’o
 
 | Activité | Description | Cadence | Équipe affectée |
 |---|---|---|---|
-| Surveiller Microsoft 365 adresses Office 365 adresses IP et URL | Surveillez les modifications [apportées aux URL](/microsoft-365/enterprise/urls-and-ip-address-ranges) Office 365 et plages d’adresses IP à l’aide du flux [RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) fourni et lancez une demande de modification pour les groupes réseau applicables. | Jour | |
+| Surveiller Microsoft 365 adresses Office 365 adresses IP et URL | Surveillez les modifications [apportées aux URL](/microsoft-365/enterprise/urls-and-ip-address-ranges) Office 365 et plages d’adresses IP à l’aide du flux [RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) fourni et lancez une demande de modification à des groupes réseau applicables. | Jour | |
 | Mettre à jour le réseau en fonction des modifications apportées aux adresses Microsoft 365 ou Office 365 adresses IP et URL | Mettez à jour les composants réseau applicables (pare-feu, serveurs proxy,VPN, pare-feu côté client, etc.) afin de refléter les modifications apportées aux URL et [plages d’adresses IP Office 365.](/microsoft-365/enterprise/urls-and-ip-address-ranges) | Selon les besoins | |
 | Fournir des données de création | Fournissez des informations de sous-réseau mises à jour à l’équipe de champion de la qualité (ou à des parties prenantes concernées) pour vous assurer que les définitions de bâtiment dans le [CQD](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) sont tenues à jour. | Selon les besoins | |
 | Implémenter une modification | Implémentez les modifications apportées au réseau pour prendre en charge le changement Teams exigences professionnelles et techniques. Les éléments réseau peuvent inclure les éléments suivants :<ul><li>Pare-feu</li><li>VPNs</li><li>Réseaux câblés et Wi-Fi réseaux</li><li>Connectivité Internet et ExpressRoute</li><li>DNS</li></ul> | Selon les besoins | |
 | Surveillance et rapport réseau | Surveillez de bout en bout les tendances de disponibilité, d’utilisation et de capacité du réseau en utilisant vos outils de gestion réseau tiers existants et les fonctionnalités de rapports disponibles de vos fournisseurs réseau. Utilisez des données tendances pour la planification de la capacité réseau. | Quotidienne, hebdomadaire, mensuelle | |
 | Planification de capacité | Collaborez avec les propriétaires Teams de service pour comprendre l’évolution des exigences professionnelles et techniques, ce qui pourrait se baser sur des changements de capacité supplémentaires.  | Selon les besoins | |
 | Résolution des problèmes et corrections du réseau | Aidez les Teams, les propriétaires de service et les principales parties prenantes à résoudre et corriger les problèmes liés à la Teams, à la fiabilité ou à la qualité. Les éléments réseau peuvent inclure les éléments suivants :<ul><li>Pare-feu</li><li>VPNs</li><li>Réseaux câblés et Wi-Fi réseaux</li><li>Connectivité Internet et ExpressRoute</li><li>DNS</li></ul> | Selon les besoins | |
-| Récupération d’urgence et test de haute disponibilité | Effectuez régulièrement des tests de haute disponibilité et de récupération d’urgence sur l’infrastructure réseau pour vous assurer qu’elle répond aux objectifs s’y rapportant (S SLOS) ou les contrats de niveau de service (SLA) pour le service Teams service. | Mois | |
+| Récupération d’urgence et test de haute disponibilité | Effectuez régulièrement des tests de haute disponibilité et de récupération d’urgence sur l’infrastructure réseau pour vous assurer qu’elle répond aux objectifs s’y rapportant (S SLOS) ou les contrats de niveau de service (S SLA) pour le service Teams service. | Mois | |
 
 ### <a name="references"></a>Références
 
@@ -421,7 +421,7 @@ Les pare-feu côté client peuvent affecter la qualité des appels et même emp�
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
 
-Wi-Fi pilotes peuvent être problématiques. Par exemple, un pilote peut avoir des comportements d’itinérance très agressives entre les points d’accès qui peuvent déclencher un basculement inutile de point d’accès, ce qui peut entraîner une mauvaise qualité de l’appel. Un pilote d’appel Wi-Fi pas très performant peut être détecté par le biais d’un examen de la qualité de l’expérience (voir Améliorer et surveiller la qualité des appels pour Teams [pour](monitor-call-quality-qos.md) plus de détails). Il est essentiel d’implémenter un processus piloté par la qualité qui surveille les nouveaux pilotes Wi-Fi et s’assure qu’ils sont testés avant d’être déployés vers la population générale des utilisateurs.
+Wi-Fi pilotes peuvent être problématiques. Par exemple, un pilote peut avoir des comportements d’itinérance très agressives entre les points d’accès qui peuvent déclencher un basculement inutile de point d’accès, ce qui peut entraîner une mauvaise qualité des appels. Il est possible qu’un pilote de qualité Wi-Fi soit détecté [](monitor-call-quality-qos.md) par le biais d’une révision de la qualité de l’expérience (voir Améliorer et surveiller la qualité des appels Teams pour plus de détails). Il est essentiel d’implémenter un processus piloté par la qualité qui surveille les nouveaux pilotes Wi-Fi et s’assure qu’ils sont testés avant d’être déployés vers la population générale des utilisateurs.
 
 ### <a name="endpoint-management"></a>Gestion des points de terminaison
 

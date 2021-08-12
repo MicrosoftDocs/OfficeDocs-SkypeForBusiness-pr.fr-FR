@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter la maintenance et les opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b95e1191201e3b5a8f234cc47c1a886cb7f0cf9a
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 594fa8c6301cdea8be8ee137db13d9e163a9f670e3e826fed3869563238b5be4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469596"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316940"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
@@ -109,7 +109,7 @@ Si vous supprimez un appareil alors qu’il est toujours configuré avec un nom 
 
 Pour supprimer un ou plusieurs appareils, vous pouvez :
 
-1. Allez sur **Appareils**  >  **salles Teams** sélectionnez les appareils que vous voulez supprimer.
+1. Sélectionnez **les** salles Teams appareils à  >   supprimer.
 1. Sélectionnez **Supprimer**.
 
 ## <a name="download-device-logs"></a>Télécharger les journaux de l’appareil

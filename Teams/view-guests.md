@@ -22,12 +22,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 description: Dans cet article, découvrez comment un administrateur peut afficher les informations relatives aux utilisateurs invités dans Microsoft Teams.
-ms.openlocfilehash: 6e079a142fa6b3efcace3d4b246dbbbd16e736dd
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: 3fa6ba2f991227bb57cdf9e799084ba1cf84b3c5ec7b78c194d718a4f41b3f09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327360"
 ---
 # <a name="view-guest-users-in-a-team"></a>Afficher les utilisateurs invités d'une équipe
 

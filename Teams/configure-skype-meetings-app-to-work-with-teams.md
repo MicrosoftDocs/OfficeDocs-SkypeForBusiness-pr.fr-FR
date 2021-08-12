@@ -11,17 +11,17 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Les administrateurs peuvent utiliser le centre Microsoft Teams d’administration pour configurer l’Skype réunions de l’utilisateur avec Teams
+description: Les administrateurs peuvent utiliser le centre Microsoft Teams d’administration pour configurer l’application Réunions Skype utiliser les Teams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29887ee89c8db36e6d5116118e0ec4fbc2a3e0ff
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 9973df9bc36319cfcac465363875398bb3e87aeeb6324e6e550c3356be9ace54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856443"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347259"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurer l’application Réunions Skype pour qu’elle fonctionne avec Teams
 
@@ -37,7 +37,7 @@ Pour spécifier l Skype application Réunions comme application préférée :
 
 ## <a name="known-limitations"></a>Limitations connues
 
-Les utilisateurs qui utilisent Skype’application Réunions avec Teams sont soumis aux limitations suivantes :
+Les utilisateurs qui utilisent Skype’application Réunions Teams sont soumis aux limitations suivantes :
 
 - Les utilisateurs n’ont pas la possibilité de modifier leur périphérique vidéo.
 - Après la mise à niveau d’un utilisateur vers Teams, si l’utilisateur se trouve dans une réunion à l’aide de l’application Réunions Skype puis reçoit un appel sur Teams, la réunion dans l’application Réunions Skype n’est pas mise en attente. Au lieu de cela, l’utilisateur est connecté aux deux appels.

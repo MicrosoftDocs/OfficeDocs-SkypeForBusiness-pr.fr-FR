@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer Power BI connecteur pour utiliser des modèles de requête de tableau de bord de qualité des appels
-ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: 535a1d067dff81c8019a1c08d1a2a617019300989f515f97f89f471e845ca885
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799055"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288502"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Installer le connecteur Qualité d’appel de Microsoft Power BI utiliser des modèles de requête Tableau de bord de qualité d’appel
 
@@ -85,9 +85,6 @@ Une fois la configuration terminée, vous devriez voir les noms de plusieurs cen
 3. Ensuite, sélectionnez les dimensions que vous voulez  filtrer et faites-les glisser vers les filtres de ce champ visuel dans *le volet Filtres.* Le connecteur Qualité d’appel Microsoft prend actuellement en charge le filtrage de base *(sélection* de valeurs dans une liste de valeurs de dimension *possibles),* le filtrage avancé (spécifier manuellement les valeurs et opérandes à filtrer, similaire au tableau de bord de qualité de l’appel) et le filtrage de *date* relatif (disponible uniquement pour les dimensions Heure de fin et *Heure* de début).  Le filtrage en fonction de *la première N n’est* pas pris en charge par le tableau de bord de qualité des appels.
 
     ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector5-resize.png)
-
-    > [!IMPORTANT]
-    > Les filtres sont uniquement pris en charge lorsqu’ils sont appliqués aux dimensions. Le filtrage des valeurs des mesures n’est pas pris en charge dans le tableau de bord qualité des appels.
 
 4. Enfin, sélectionnez *l’onglet Format* dans le volet *Visualisations* pour mettre en forme votre requête.
 
