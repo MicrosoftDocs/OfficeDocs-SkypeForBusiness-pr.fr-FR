@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans le Générateur de topologie, vous pouvez effectuer des tâches liées à un serveur d’archivage individuel en cliquant avec le bouton droit sur le serveur d’archivage dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur l’option serveur d’archivage suivante.
-ms.openlocfilehash: 415456751b4ec553b63201ce547fff39e5663808
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 36a174164857ba11cd938ff49f171a74df6ddcea75052c49c75ef0536365304c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298534"
 ---
 # <a name="archiving-servers-scope-node"></a>Nœud d’étendue des serveurs d’archivage
  

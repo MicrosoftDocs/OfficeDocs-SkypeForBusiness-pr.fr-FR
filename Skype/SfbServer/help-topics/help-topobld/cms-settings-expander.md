@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: Le serveur de gestion centralisée peut être changé d’un pool frontal défini à un autre. Pour modifier l’emplacement du serveur de gestion centralisée, sélectionnez le pool frontal dans la liste déroulante sous Serveur frontal sur lequel installer le serveur de gestion centralisée. Un serveur frontal peut être un pool frontal Enterprise Edition ou un serveur frontal Standard Edition.
-ms.openlocfilehash: 42b4d4856e32929a9b56e69edfcf48d13f8ab66d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f7b8d0b438b162bbdf4452cc1b26ecdc10f8906a036bf281b3d7eb22507f05d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122458"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346540"
 ---
 # <a name="cms-settings-expander"></a>Expandeur des paramètres CMS
  

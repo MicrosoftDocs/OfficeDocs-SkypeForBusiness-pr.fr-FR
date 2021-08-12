@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Découvrez comment activer ou désactiver les notifications par téléphone mobile pour que vos utilisateurs reçoivent des alertes concernant la messagerie vocale et les messages instantanés entrants et manqués.
-ms.openlocfilehash: 43e45f4b5ac288bb0272af520d0f3b1fc6e15695
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: ee558456a5f0ee4c2d59f4780e72ce4a2d2fe604aef5c270bca72665b7a610cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283926"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activation ou désactivation des notifications par téléphone mobile
 
@@ -62,7 +62,7 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 > [!IMPORTANT]
 >  Microsoft utilise d'autres sociétés pour fournir des notifications Skype Entreprise pour appareils mobiles en temps réel aux utilisateurs de Windows Phone, iPhone et iPad. Consultez [la Déclaration de confidentialité pour les Skype Entreprise Microsoft.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 

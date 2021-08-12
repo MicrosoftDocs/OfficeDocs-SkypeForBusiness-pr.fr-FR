@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
 description: Chaque pool frontal et serveur Survivable Branch Appliance ne peut être associé qu’à un seul serveur d’archivage. Une fois l’archivage activé pour le site, le serveur d’archivage collecte et enregistre le contenu des messages instantanés et des conférences web à partir des conversations impliquant les utilisateurs hébergés dans les pools et sur les Survivable Branch Appliances associés.
-ms.openlocfilehash: 544f1da8d69903209e44bdd4cbc378aa727c64f6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1c2b7c399a2ae78ef95f0ea6ab45a8afdebfb26443b4dd7d2dd9d99ad1d85e19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811454"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298504"
 ---
 # <a name="associate-front-end-with-archiving"></a>Associer un pool frontal à un serveur d’archivage
  

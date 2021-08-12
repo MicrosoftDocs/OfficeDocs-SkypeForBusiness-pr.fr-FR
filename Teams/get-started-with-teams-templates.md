@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0208b8c6ad16cc42611768a25237a6e48bf60401
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 8bee4379eb82d577104d2d69ff2e11c168f2de62d3e903fcff196d45293c2365
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322556"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Utiliser des modèles d’équipe à l’aide de Microsoft Graph
 
@@ -101,7 +101,7 @@ Utilisez les modèles suivants pour créer des équipes à la fois dans le clien
 
 Pour [plus d’informations, voir Commencer à utiliser les modèles d’équipe](get-started-with-teams-templates-in-the-admin-console.md) dans le Centre d’administration.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Utiliser des modèles d’équipe dans la console d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Créer une équipe](/graph/api/team-post?view=graph-rest-beta) (en prévisualisation)

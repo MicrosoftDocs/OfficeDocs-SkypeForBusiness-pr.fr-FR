@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Résumé : Examinez un didacticiel et des exemples de développement pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 193a03662d6f771b19c57017d909cc6574a755ef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b0b4811e38d50f871e023757220a2a3f0108be349c55eaf78e39ab243954c5dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331286"
 ---
 # <a name="cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels (TBQA)
 
@@ -32,15 +32,15 @@ Didacticiel : création d’une présentation de rapport personnalisée à l’a
 
 ### <a name="introduction-to-cqd"></a>Présentation du CQD
 
-Le CQD offre un accès rapide et facile aux informations agrégées sur la qualité des appels pour les déploiements Skype Entreprise Server locaux. Le CQD se compose de trois composants : la base de données d’archivage QoE, le cube et le portail. Le portail est la couche de présentation principale et peut être divisé en trois composants :
+Le CQD offre un accès rapide et facile aux informations de qualité d’appel agrégées pour les déploiements Skype Entreprise Server locaux. Le CQD se compose de trois composants : la base de données d’archivage QoE, le cube et le portail. Le portail est la couche de présentation principale et peut être divisé en trois composants :
 
-1. Service de données, accessible pour les utilisateurs authentifiés via l’API de données pour le tableau de bord de qualité des appels [(CQD) dans Skype Entreprise Server.](data-api.md)
+1. Service de données, accessible pour les utilisateurs authentifiés via l’API de données pour le tableau de bord de qualité des appels [(CQD) dans Skype Entreprise Server](data-api.md).
 
-2. Service de référentiel, accessible pour les utilisateurs authentifiés via l’API de référentiel pour le tableau de bord de qualité des appels [(CQD) dans Skype Entreprise Server.](repository-api.md)
+2. Service de référentiel, accessible pour les utilisateurs authentifiés via l’API de référentiel pour le tableau de bord de qualité des appels [(CQD) dans Skype Entreprise Server](repository-api.md).
 
 3. Portail Web, qui est l’interface HTML5 que les utilisateurs de CQD voient et utilisent. Ceci est accessible pour les utilisateurs authentifiés.
 
-Les rapports affichés sur le portail web sont regroupés en « ensembles de rapports ». La figure montre un ensemble de rapports avec deux rapports. Chaque rapport de ce tableau de bord ci-dessous présente les résultats des requêtes sur le nombre d’appels de qualité, les appels médiocres et le pourcentage d’appels médiocres pendant plusieurs mois, avec différents filtres appliqués. 
+Les rapports affichés sur le portail web sont regroupés en « ensembles de rapports ». La figure illustre un ensemble de rapports avec deux rapports. Chaque rapport de ce tableau de bord ci-dessous présente les résultats des requêtes sur le nombre d’appels de qualité, les appels médiocres et le pourcentage d’appels médiocres pendant plusieurs mois, avec différents filtres appliqués. 
 
 ![Exemple de rapport CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
@@ -48,7 +48,7 @@ Le CQD est créé selon la méthodologie de qualité des appels (CQM), de sorte 
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>Consommation du service de données par le tableau de bord
 
-Lorsque vous naviguez vers la page d’accueil du CQD (par exemple, l’ensemble de rapports et les rapports correspondants pour un utilisateur authentifié et autorisé sont récupérés à partir du service de http://localhost/cqd) référentiel. Une URL complète sera construite à partir de l’ID de l’ensemble de rapports et de l’ID de l’ensemble de rapports (l’ID de l’ensemble de rapports est le nombre entier après la section « /#/ » dans l’URL et, par défaut, le mois de l’année en cours est ajouté à la fin de l’ID de l’ensemble de rapports après la barre oblique). Les définitions de rapport sont stockées au format JSON et lorsqu’elles sont récupérées à partir du service de référentiel, elles sont ensuite utilisées comme entrées pour le service de données. Le service de données génère des requêtes MDX (Multi-Dimension expressions) en fonction de l’entrée, puis exécute ces requêtes MDX sur le cube pour récupérer des données pour chaque rapport. 
+Lorsque vous naviguez vers la page d’accueil du CQD (par exemple, l’ensemble de rapports et les rapports correspondants pour un utilisateur authentifié et autorisé sont récupérés à partir du service de http://localhost/cqd) référentiel. Une URL complète sera construite à partir de l’ID de l’ensemble de rapports et de l’ID year-month (l’ID de l’ensemble de rapports est le nombre entier après la section « /#/ » dans l’URL et, par défaut, le mois de l’année en cours est ajouté à la fin de l’ID d’ensemble de rapports après la barre oblique). Les définitions de rapport sont stockées au format JSON et lorsqu’elles sont récupérées à partir du service de référentiel, elles sont ensuite utilisées comme entrées pour le service de données. Le service de données génère des requêtes MDX (Multi-Dimension expressions) en fonction de l’entrée, puis exécute ces requêtes MDX sur le cube pour récupérer des données pour chaque rapport. 
 
 ### <a name="building-customized-reports"></a>Création de rapports personnalisés
 

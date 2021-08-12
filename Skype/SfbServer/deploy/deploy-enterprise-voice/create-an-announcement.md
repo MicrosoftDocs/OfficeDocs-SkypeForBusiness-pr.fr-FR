@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Créez ou supprimez des annonces pour l’application Annonce dans Skype Entreprise Server Voix Entreprise. Cela affecte la façon dont les appels vers des numéros non affectés sont gérés.
-ms.openlocfilehash: 571dce52366430c0e13f442de4917a2c51ed056f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f382c86ee6773f586e1fb1d1080c9c9ce64a46dc253ff81275252a28db1addd0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283876"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Créer ou supprimer une annonce dans Skype Entreprise Server
 
@@ -54,7 +54,7 @@ Pour créer une annonce, vous devez effectuer les étapes suivantes :
 
 2. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-3. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+3. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 4. Pour les invites audio, exécutez :
 
@@ -62,7 +62,7 @@ Pour créer une annonce, vous devez effectuer les étapes suivantes :
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. Exécutez :  
+5. Exécutez :
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -86,13 +86,13 @@ Pour créer une annonce, vous devez effectuer les étapes suivantes :
 
    Pour plus d’informations sur ces cmdlets et pour obtenir la liste des codes de langue à utiliser dans le paramètre **TextToSpeechPrompt,** voir [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
 
-## <a name="delete-an-announcement-for-unassigned-numbers"></a>Supprimer une annonce pour les numéros non supprimés
+## <a name="delete-an-announcement-for-unassigned-numbers"></a>Supprimer une annonce pour les numéros non signés
 
 ### <a name="to-delete-an-announcement"></a>Pour supprimer une annonce
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 3. Répertoriez toutes les annonces de votre organisation. À partir de la ligne de commande, exécutez la commande suivante :
 
@@ -113,7 +113,7 @@ Pour créer une annonce, vous devez effectuer les étapes suivantes :
    ```
 
     > [!NOTE]
-    > Pour plus d’informations sur d’autres options, [voir Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) et [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > Pour plus d’informations sur d’autres options, voir [Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) et [Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
 ## <a name="see-also"></a>Voir aussi
 

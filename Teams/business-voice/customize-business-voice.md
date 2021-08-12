@@ -1,5 +1,5 @@
 ---
-title: Personnaliser Microsoft 365 Business Voice avec Microsoft Teams
+title: Personnaliser Microsoft 365 Business Voice avec Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,17 +14,17 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Découvrez comment personnaliser Microsoft 365 Business Voice pour répondre aux besoins spécifiques de votre organisation.
+description: Découvrez comment personnaliser Microsoft 365 Business Voice pour répondre aux besoins spécifiques de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f72aac2f14e68022a673ee45585e9184814418f
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 6a15b3ff90d6656fc662ea69f9a54f8b0af50a969626a876b341d230d74cdef3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286073"
 ---
-# <a name="customize-microsoft-365-business-voice"></a>Personnaliser Microsoft 365 Business Voice
+# <a name="customize-microsoft-365-business-voice"></a>Personnaliser Microsoft 365 Business Voice
 
 La [Configuration Business Voice](set-up-overview.md) configure Business Voice avec des options de base pour que vous puissiez l’utiliser immédiatement. Il est possible que ces options soient suffisantes si vous êtes une petite entreprise ou si vous dirigez un programme pilote au sein d’une organisation de plus grande taille. Vous obtenez les concepts de base avec de nouveaux numéros de téléphone et un menu d’appel.
 

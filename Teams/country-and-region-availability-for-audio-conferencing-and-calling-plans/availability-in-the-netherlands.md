@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pays-Bas.
-ms.openlocfilehash: 7d99b5e22198b8886d338e24493af16eec4ac207
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8b72d4ec30f229b0a7c726eb7891f519a4b2963c3922aecaa0edaf812d340e51
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339821"
 ---
 # <a name="availability-in-the-netherlands"></a>Disponibilité aux Pays-Bas
 
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: " Après avoir configuré le réseau de contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels pour appliquer les limites de bande passante."
-ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86a3cbead644ac265fc29d15c4ee9167bb214925c9176f9dfd11efe89df12079
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313002"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Activation du contrôle d’admission des appels dans Skype Entreprise Server
 
-Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux vous permettant de placer des restrictions sur les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau CAC, vous devez l’activer pour qu’il applique les limites de bande passante. Pour ce faire, vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server.
+Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux vous permettant de placer des restrictions sur les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau CAC, vous devez l’activer pour qu’il applique les limites de bande passante. Vous pouvez utiliser le Panneau de Skype Entreprise Server pour le faire.
 
 
-## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Pour activer le contrôle d’accès au contrôle d’accès à partir du Panneau de contrôle Skype Entreprise Server
+## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Pour activer le contrôle d’accès au contrôle d’Skype Entreprise Server le Panneau de bord
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Global**.
 

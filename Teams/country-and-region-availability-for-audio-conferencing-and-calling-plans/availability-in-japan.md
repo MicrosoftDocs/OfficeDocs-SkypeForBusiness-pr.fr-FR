@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles au Japon.
-ms.openlocfilehash: 07163f6aa252bb0ec3e8976a8ed54bba914f4ae9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 896759b447523efaca7cc67a90157cc1bb83e6b1d1b852c08c1159b2366b4e2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286013"
 ---
 # <a name="availability-in-japan"></a>Disponibilité au Japon
 
@@ -88,7 +88,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

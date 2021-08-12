@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 'Cliquez avec le bouton droit sur une trunk SIP existante dans le Générateur de topologie pour effectuer les choses suivantes :'
-ms.openlocfilehash: 05e64f5903f46c3f103ebbea88d17d2248e6db3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6762b0e0b5d9d1ad983382b285c6a3f2a832261fafa22e3ade51a01f5f139486
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346520"
 ---
 # <a name="trunk-scope-node"></a>Nœud d’étendue de la jonction
  

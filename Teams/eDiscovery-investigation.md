@@ -17,12 +17,12 @@ description: Découvrez ce que vous devez faire lorsque vous devez effectuer une
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b9010bb233438029d6e755cf1fcd8b78b7cba6eb
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: a895b804d78dd3fe5ff45fac40457eaed2cf9c43d80e85137ad2a570c1e2018d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322586"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
@@ -62,7 +62,7 @@ Tous les Teams contenu ne sont pas eDiscoverables. Le tableau suivant indique le
 - Heure de début et de fin et durée de la réunion
 - Participer à une réunion et quitter des événements pour chaque participant
 - VoIP join/calls
-- Rejoindre une équipe anonyme
+- Rejoindre une équipe de façon anonyme
 - Rejoindre un utilisateur fédéré
 - Rejoindre un utilisateur invité
 
@@ -198,7 +198,7 @@ Le contenu de la carte généré par les applications Teams, les conversations e
 
 Comme les autres Teams, où le contenu de la carte est stocké est basé sur l’endroit où la carte a été utilisée. Le contenu des cartes utilisées dans un Teams est stocké dans la boîte aux lettres Teams groupe. Le contenu des cartes pour les conversations 1:1 et 1xN est stocké dans les boîtes aux lettres des participants à la conversation.
 
-Pour rechercher du contenu de carte, vous pouvez utiliser les `kind:microsoftteams` conditions ou les conditions de `itemclass:IPM.SkypeTeams.Message` recherche. Lorsque vous examinez les résultats de la recherche, le contenu de la carte généré par des bots dans un canal Teams a la propriété de courrier **Expéditeur/Auteur,** comme , où se trouve le nom de l’application qui a généré le contenu de la `<appname>@teams.microsoft.com` `appname` carte. Si le contenu de la carte a été généré par un utilisateur, la valeur **Expéditeur/Auteur** identifie l’utilisateur.
+Pour rechercher du contenu de carte, vous pouvez utiliser les `kind:microsoftteams` conditions ou les conditions de `itemclass:IPM.SkypeTeams.Message` recherche. Lors de l’examen des résultats de la recherche, le contenu de la carte généré par des bots dans un canal Teams a la propriété de courrier **Expéditeur/Auteur,** comme , où se trouve le nom de l’application qui a généré le contenu de la `<appname>@teams.microsoft.com` `appname` carte. Si le contenu de la carte a été généré par un utilisateur, la valeur **Expéditeur/Auteur** identifie l’utilisateur.
 
 Lorsque vous affichez le contenu d’une carte dans les résultats de la recherche de contenu, celui-ci s’affiche en tant que pièce jointe du message. La pièce jointe est nommée, à l’endroit où se trouve le `appname.html` nom de l’application qui a généré le contenu de la `appname` carte. Les captures d’écran suivantes montrent comment le contenu de la carte (pour une application nommée Asana) apparaît dans Teams résultats d’une recherche.
 
@@ -211,9 +211,9 @@ Lorsque vous affichez le contenu d’une carte dans les résultats de la recherc
 ![Même contenu de carte dans les résultats d’une recherche de contenu](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce moment-là (par exemple, les cocher dans la capture d’écran précédente), vous devez être inscrit à Teams (dans un autre onglet au cours de la session de navigateur que vous utilisez pour afficher les résultats de la https://teams.microsoft.com) recherche. Dans le cas contraire, les espaces pour image s’affichent.
+> Pour afficher des images à partir du contenu de la carte dans les résultats de recherche à ce moment-là (par exemple, les cocher dans la capture d’écran précédente), vous devez être inscrit à Teams (dans un autre onglet au cours de la session de navigateur que vous utilisez pour afficher les résultats de la https://teams.microsoft.com) recherche. Dans le cas contraire, les espaces pour images s’affichent.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Microsoft 365 solutions eDiscovery](/microsoft-365/compliance/ediscovery)
 - [Commencer à travailler avec Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)

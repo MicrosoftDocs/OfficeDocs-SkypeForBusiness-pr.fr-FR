@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 1e08ad6cb5962c447b3fb42e3ab4aa3c02f50fa1fa6f07e0348714f380b670cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506661"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322576"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 
@@ -42,9 +42,9 @@ Vous pouvez contrôler les paramètres utilisateur à l’échelle de l’organi
 
 ### <a name="external-access"></a>Accès externe
 
-L’**accès externe** permet aux utilisateurs de Teams et de Skype Entreprise de communiquer avec des utilisateurs extérieurs à votre organisation. Pour configurer l’accès externe, accédez à la rubrique [Permettre aux utilisateurs de Teams de discuter et de communiquer avec des utilisateurs d’une autre organisation Teams](./manage-external-access.md).
+L’**accès externe** permet aux utilisateurs de Teams et de Skype Entreprise de communiquer avec des utilisateurs extérieurs à votre organisation. Pour configurer l’accès externe, accédez à la rubrique [Permettre aux utilisateurs de Teams de discuter et de communiquer avec des utilisateurs d’une autre organisation Teams](./manage-external-access.md).
 
-Pour ajouter ou bloquer un domaine :
+Pour ajouter ou bloquer un domaine :
 
 1. Sélectionnez **Ajouter un domaine**.
 2. Dans la zone Ajouter un volet de domaine, entrez le nom de domaine, puis sélectionnez la barre d’espace pour enregistrer le nom.
@@ -53,7 +53,7 @@ Pour ajouter ou bloquer un domaine :
 
 ### <a name="guest-access"></a>Accès invité
 
-L’**accès invité** dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux.Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Pour plus d’informations, reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md).
+L’**accès invité** dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes à l’extérieur de votre organisation en leur accordant l'accès aux équipes et aux canaux.Toutes les personnes ayant un compte de messagerie professionnel ou de particulier tel que Outlook, Gmail, etc. peuvent participer en tant qu’invitées dans Teams, avec un accès complet aux conversations, réunions et fichiers des équipes. Pour plus d’informations, reportez-vous à la rubrique [Accès invité dans Microsoft Teams](guest-access.md).
 
 ### <a name="teams-settings"></a>Paramètres de Teams
 
@@ -69,13 +69,13 @@ Les indicateurs permettent aux utilisateurs de communiquer avec un sous-ensemble
 
 #### <a name="email-integration"></a>Intégration de courrier électronique
 
-Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Les utilisateurs peuvent également envoyer des e-mails à n’importe quel canal d’une équipe pour laquelle l’ajout de connecteurs est activé pour les membres de l’équipe. Pour activer l’intégration des e-mails, assurez-vous que **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail du canal** est **activé**. Ensuite, vérifiez que le domaine de l’adresse e-mail de l’expéditeur n’est pas bloqué dans le Centre d’administration Teams>Paramètres à l’échelle de l’organisation>Paramètres Teams>Intégration de courrier électronique>**Accepter les e-mails du canal à partir de ces domaines SMTP**. Celle-ci doit être vide ou inclure tous les domaines dont vous vous attendez à recevoir des e-mails. Ensuite, vous devez vérifier que vous avez les règles nécessaires pour vous assurer que [les e-mails envoyés à l’adresse de messagerie du canal Teams ne sont pas bloqués](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
+Activez cette fonctionnalité pour que les utilisateurs puissent envoyer des e-mails à un canal dans Teams, en utilisant l’adresse de messagerie du canal. Les utilisateurs peuvent envoyer des e-mails pour tous les canaux appartenant à une équipe dont ils sont propriétaires. Les utilisateurs peuvent également envoyer des e-mails à n’importe quel canal d’une équipe pour laquelle l’ajout de connecteurs est activé pour les membres de l’équipe. Pour activer l’intégration des e-mails, assurez-vous que **Autoriser les utilisateurs à envoyer des e-mails à une adresse e-mail du canal** est **activé**. Ensuite, vérifiez que le domaine de l’adresse e-mail de l’expéditeur n’est pas bloqué dans le Centre d’administration Teams>Paramètres à l’échelle de l’organisation>Paramètres Teams>Intégration de courrier électronique>**Accepter les e-mails du canal à partir de ces domaines SMTP**. Celle-ci doit être vide ou inclure tous les domaines dont vous vous attendez à recevoir des e-mails. Ensuite, vous devez vérifier que vous avez les règles nécessaires pour vous assurer que [les e-mails envoyés à l’adresse de messagerie du canal Teams ne sont pas bloqués](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies).
 
 #### <a name="files"></a>Fichiers
 
 Ici, vous pouvez activer ou désactiver les options de partage de fichiers et de stockage de fichiers dans le cloud.
 
-Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Actuellement, les options de stockage cloud dans Teams incluent Dropbox, Box, ShareFile, Google Drive et Egnyte. Activez l'option pour les fournisseurs de stockage cloud que votre organisation souhaite utiliser.
+Les utilisateurs peuvent charger et partager des fichiers à partir de services de stockage cloud dans les canaux et conversations Teams. Actuellement, les options de stockage cloud dans Teams incluent Dropbox, Box, ShareFile, Google Drive et Egnyte. Activez l'option pour les fournisseurs de stockage cloud que votre organisation souhaite utiliser.
 
 #### <a name="organization"></a>Organisation
 
@@ -83,15 +83,15 @@ Cette option vous permet d’activer l'onglet **Organisation**, qui affiche l'or
 
 #### <a name="devices"></a>Appareils
 
-Ces paramètres contrôlent le comportement du compte de ressource pour les périphériques Surface Hub qui participent aux réunions Teams. Utilisez ces paramètres pour configurer les exigences d’authentification, demander un code confidentiel de contenu et activer les comptes de ressource Surface Hub pour envoyer des messages.
+Ces paramètres contrôlent le comportement du compte de ressource pour les périphériques Surface Hub qui participent aux réunions Teams. Utilisez ces paramètres pour configurer les exigences d’authentification, demander un code confidentiel de contenu et activer les comptes de ressource Surface Hub pour envoyer des messages.
 
-- **Requiert un seconde mode d’authentification pour accéder au contenu des réunions** : sélectionnez le niveau d’accès dont disposent les utilisateurs lorsqu'ils entrent le code confidentiel de contenu.
-- **Définir le code confidentiel de contenu** : les utilisateurs doivent entrer ce code confidentiel pour empêcher l’accès non autorisé aux documents. Ce paramètre empêche un utilisateur non autorisé de rejoindre les prochaines réunions et d’accéder aux pièces jointes.
-- **Les comptes de ressource peuvent envoyer des messages** : **activez** ce paramètre pour autoriser l’envoi de messages depuis le compte de ressource Surface Hub.
+- **Requiert un seconde mode d’authentification pour accéder au contenu des réunions** : sélectionnez le niveau d’accès dont disposent les utilisateurs lorsqu'ils entrent le code confidentiel de contenu.
+- **Définir le code confidentiel de contenu** : les utilisateurs doivent entrer ce code confidentiel pour empêcher l’accès non autorisé aux documents. Ce paramètre empêche un utilisateur non autorisé de rejoindre les prochaines réunions et d’accéder aux pièces jointes.
+- **Les comptes de ressource peuvent envoyer des messages** : **activez** ce paramètre pour autoriser l’envoi de messages depuis le compte de ressource Surface Hub.
 
 #### <a name="search-by-name"></a>Recherche par nom
 
-La fonction de recherche d’annuaire étendue de Microsoft Teams utilise la stratégie de carnet d’adresses (APB) pour permettre aux organisations de créer des limites virtuelles qui contrôlent comment les utilisateurs peuvent trouver d’autres utilisateurs dans leur organisation et communiquer avec eux. Vous pouvez utiliser une recherche d’annuaire étendue dans les situations suivantes :
+La fonction de recherche d’annuaire étendue de Microsoft Teams utilise la stratégie de carnet d’adresses (APB) pour permettre aux organisations de créer des limites virtuelles qui contrôlent comment les utilisateurs peuvent trouver d’autres utilisateurs dans leur organisation et communiquer avec eux. Vous pouvez utiliser une recherche d’annuaire étendue dans les situations suivantes :
 
 - Votre organisation comporte plusieurs entreprises au sein de son client que vous souhaitez garder séparées. 
 - Votre école souhaite limiter les conversations entre la faculté et les étudiants.
@@ -104,14 +104,14 @@ La surveillance de conversation permet aux organisations et aux établissements 
 
 ### <a name="skype-for-business"></a>Skype Entreprise
 
-Utilisez cette page pour gérer les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise au sein de votre organisation. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](skype-for-business-settings.md).
+Utilisez cette page pour gérer les fonctionnalités de Skype Entreprise pour les utilisateurs de Skype Entreprise au sein de votre organisation. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](skype-for-business-settings.md).
 
 ### <a name="teams-upgrade"></a>Mise à niveau de Teams
 
-Vous pouvez utiliser ces paramètres pour configurer la manière dont vos utilisateurs feront la transition de Skype Entreprise vers Microsoft Teams. 
+Vous pouvez utiliser ces paramètres pour configurer la manière dont vos utilisateurs feront la transition de Skype Entreprise vers Microsoft Teams. 
 
 #### <a name="coexistence-mode"></a>Mode de coexistence
-Vous pouvez spécifier un mode de coexistence : 
+Vous pouvez spécifier un mode de coexistence : 
 
 - **Teams uniquement**
 - **Îles** (Teams et Skype Entreprise coexisteront)
@@ -119,24 +119,24 @@ Vous pouvez spécifier un mode de coexistence :
 - **Skype Entreprise avec Teams pour la collaboration** (les utilisateurs participent à des conversations, reçoivent des appels, et planifient des réunions dans Skype Entreprise, mais utilisent Teams pour la collaboration en groupe)
 - **Skype Entreprise avec Teams pour la collaboration et les réunions** (les utilisateurs participent à des conversations, reçoivent des appels dans Skype Entreprise, mais utilisent Teams pour la collaboration en groupe et la planification des réunions)
 
-Le mode de coexistence que vous choisissez détermine le routage des appels et conversations entrants et l’application qui est utilisée par l’utilisateur pour initialiser des conversations et appels ou pour planifier des réunions. Pour plus d’informations sur les modes de coexistence, accédez à la rubrique [Comprendre la coexistence et l’interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Le mode de coexistence que vous choisissez détermine le routage des appels et conversations entrants et l’application qui est utilisée par l’utilisateur pour initialiser des conversations et appels ou pour planifier des réunions. Pour plus d’informations sur les modes de coexistence, accédez à la rubrique [Comprendre la coexistence et l’interopérabilité de Microsoft Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="app-preferences"></a>Préférences d’application
 
-Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
+Cette option vous permet de sélectionnez l’application que les utilisateurs utiliseront pour participer à des réunions Skype Entreprise (Skype Entreprise ou [l’application Réunions Skype](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Ce paramètre ne dépend pas du paramètre de mode de coexistence.
 
 
 #### <a name="network-planner"></a>Planificateur de réseau
 
 Le Planificateur de réseau vous aide à déterminer et organiser les exigences réseau pour connecter les utilisateurs de Teams au sein de votre organisation.  Découvrez comment [utiliser le Planificateur de réseau pour Microsoft Teams](./network-planner.md).
 
-Vous pouvez également sélectionner l’option « Télécharger l’application Teams en arrière-plan pour les utilisateurs Skype Entreprise ».  Par défaut, le paramètre est défini sur Activé. Lorsque ce paramètre est activé, l’application Teams est téléchargée en arrière-plan pour les utilisateurs de l’application Skype Entreprise sur PC Windows. Cela se produit si le mode de coexistence pour l’utilisateur est Teams uniquement, ou si une notification de mise à niveau en attente est activée dans l’application Skype Entreprise.
+Vous pouvez également sélectionner l’option « Télécharger l’application Teams en arrière-plan pour les utilisateurs Skype Entreprise ».  Par défaut, le paramètre est défini sur Activé. Lorsque ce paramètre est activé, l’application Teams est téléchargée en arrière-plan pour les utilisateurs de l’application Skype Entreprise sur PC Windows. Cela se produit si le mode de coexistence pour l’utilisateur est Teams uniquement, ou si une notification de mise à niveau en attente est activée dans l’application Skype Entreprise.
 
 
-## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
+## <a name="how-can-i-tell-which-features-are-available"></a>Comment puis-je savoir quelles fonctionnalités sont disponibles ?
 
-Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Pour des informations sur les nouvelles fonctionnalités de Teams, reportez-vous à la [Feuille de route Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams). Pour plus d'informations sur les fonctionnalités nouvelles et à venir, consultez la page [Nouveautés](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams et le [blog Microsoft Teams de la communauté technique](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Plus d’informations
 
-Pour savoir quels rôles peuvent effectuer des fonctions d’administrateur, reportez-vous à la rubrique [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md).
+Pour savoir quels rôles peuvent effectuer des fonctions d’administrateur, reportez-vous à la rubrique [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](using-admin-roles.md).

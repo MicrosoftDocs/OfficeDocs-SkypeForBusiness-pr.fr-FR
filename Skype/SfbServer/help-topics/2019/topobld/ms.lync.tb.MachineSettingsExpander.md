@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud indique le nom de domaine complet (FQDN) du serveur et la configuration de l’adresse IP de ce serveur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 385bd49711186994b3f40aada07dd380c707c1b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 137135025fd52a94b09c752445dc2cb0c41a341ef4dd2ca4afb25f87cde3f982
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811086"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298494"
 ---
 # <a name="server-settings-expander"></a>Expandeur des paramètres du serveur
  

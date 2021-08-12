@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Découvrez les licences de modules supplémentaires, les fonctionnalités qui vous seront utiles, comment les acheter pour votre produit et comment les utiliser votre opérateur actuel. Vous pouvez obtenir des informations sur le prix et les détails de l'offre pour Office 365, les Crédits de communication et les forfaits d'appels. "
-ms.openlocfilehash: 5bbd455a0cb3bf2bff8bc7bf0dd4362135214a39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283906"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licences de module complémentaire Skype Entreprise
 
@@ -69,7 +69,7 @@ Vous avez besoin d’aborder toutes ces options de module complémentaire avec q
 
 ## <a name="license-options-based-on-your-plan"></a>Options de licence en fonction de votre offre
 
-Les options de licences de modules supplémentaires disponibles dépendent de votre offre. Consultez les rubriques suivantes pour plus d’informations, de fonctionnalités et d’options spécifiques à votre forfait.
+Les options de licences de modules supplémentaires qui vous sont proposées dépendent de votre offre. Consultez les rubriques suivantes pour plus d’informations, de fonctionnalités et d’options spécifiques à votre forfait.
 
 - [Microsoft 365 Business Standard](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
 - [Office 365 Premium, Applications Microsoft 365 pour les grandes entreprises web ou Skype Entreprise Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
@@ -84,7 +84,7 @@ Pour obtenir la liste détaillée des fonctionnalités et comparaisons pour chaq
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Comment voir les tarifs et acheter des licences de module complémentaire
 <a name="bkmk_how"> </a>
 
- Après avoir acheté une offre Microsoft 365, vous pouvez consulter les prix et acheter des **modules add-on via le Centre Microsoft 365'administration.**
+ **Après avoir acheté une offre Microsoft 365,** vous pouvez consulter les prix et acheter des modules Centre d’administration Microsoft 365.
 
 En fonction des modules complémentaires que vous souhaitez acquérir, nous vous recommandons d'[évaluer s'il serait plus rentable ](https://go.microsoft.com/fwlink/?linkid=844053) de passer à un plan qui comprend déjà ces fonctions.
 
@@ -99,7 +99,7 @@ Si vous utilisez la connectivité PSTN locale pour les utilisateurs hybrides, vo
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer Skype entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     

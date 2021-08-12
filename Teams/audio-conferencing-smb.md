@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment configurer l’audioconférence dans votre petite ou moyenne entreprise pour les personnes qui ont besoin d’utiliser un téléphone pour appeler des réunions. '
-ms.openlocfilehash: e7a3461453255a7a61f6a1095e9cb9697070771c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5cb906f1a6c5d5d161cbe98d6b1e81910bd5317aece83f5835a51cbcddf79cdf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122348"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312962"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurer l’audioconférence pour les petites et moyennes entreprises
 
@@ -37,7 +37,7 @@ Si vous êtes une petite ou moyenne entreprise qui compte jusqu’à 300 utilisa
 La licence du module ajout d’Audioconférence peut être appliquée aux utilisateurs titulaires de licences Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1 ou Enterprise E3. Pour en savoir plus, [voir Teams de modules add-on](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 > [!NOTE]
-> Si vous avez Enterprise E5 ou Microsoft 365 Business Voix, vous ne pourrez pas utiliser l’offre gratuite d’audioconférence, car ces licences incluent déjà l’audioconférence.
+> Si vous avez Enterprise E5 ou Microsoft 365 Business Voice, vous ne pourrez pas utiliser l’offre gratuite d’audioconférence, car ces licences incluent déjà l’audioconférence.
 
 Cet article vous explique comment configurer l’audioconférence. Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui appellent à des réunions n’ont pas besoin de licences ou de toute autre configuration. Pour en savoir plus, [consultez l’audioconférence.](audio-conferencing-in-office-365.md)
 
@@ -50,9 +50,9 @@ Lorsque vous définissez l’audioconférence, un numéro de téléphone est aut
 
 ### <a name="step-1-get-audio-conferencing-licenses"></a>Étape 1 : obtenir des licences d’audioconférence
 
-Obtenez une licence d’audioconférence pour chaque personne qui sera responsable des réunions. Pour ce faire, Microsoft 365 centre d’administration de l’utilisateur.
+Obtenez une licence d’audioconférence pour chaque personne qui sera responsable des réunions. Utilisez le Centre d’administration Microsoft 365 pour ce faire.
 
-1. Dans le Microsoft 365 d’administration, sélectionnez **Services** d’achat de facturation, puis au bas de la page, sélectionnez  >   **Modules add-ons.**
+1. Dans la Centre d’administration Microsoft 365, sélectionnez **Services** d’achat de facturation, puis au bas de la page, sélectionnez  >   **Modules add-ons.**
 2. Sélectionnez Microsoft 365 détails de la promotion Adoption de **l’audioconférence,** puis  >   **Sélectionnez Obtenir maintenant.**
 3. Entrez le nombre de licences dont vous avez besoin pour les organisateurs de votre réunion, puis complétez votre commande.
 
@@ -63,17 +63,17 @@ Obtenez une licence d’audioconférence pour chaque personne qui sera responsab
 
 ### <a name="step-2-assign-an-audio-conferencing-license-to-users-who-lead-meetings"></a>Étape 2 : affecter une licence d’audioconférence aux utilisateurs qui pilotent des réunions
 
-Attribuez une licence à chaque personne qui sera responsable des réunions. Pour ce faire, Microsoft 365 centre d’administration de l’utilisateur.
+Attribuez une licence à chaque personne qui sera responsable des réunions. Utilisez le Centre d’administration Microsoft 365 pour ce faire.
 
 #### <a name="assign-a-license-to-one-user"></a>Attribuer une licence à un utilisateur
 
-1. Dans le centre Microsoft 365 d’administration, allez à **Utilisateurs**  >  **actifs.**  
+1. Dans le Centre d’administration Microsoft 365, allez à **Utilisateurs**  >  **actifs.**  
 2. Sélectionnez la ligne de l’utilisateur à qui vous voulez attribuer la licence, puis dans le volet, sélectionnez **Licences et applications.**
 3. Cochez **la Microsoft 365 conférence audio,** puis sélectionnez **Enregistrer les modifications.**
 
 #### <a name="assign-a-license-to-multiple-users"></a>Attribuer une licence à plusieurs utilisateurs
 
-1. Dans le centre Microsoft 365 d’administration, allez à **Utilisateurs**  >  **actifs.**  
+1. Dans le Centre d’administration Microsoft 365, allez à **Utilisateurs**  >  **actifs.**  
 2. Sélectionnez les cercles en côté des utilisateurs à qui vous voulez attribuer la licence, puis **sélectionnez Gérer les licences de produits.**
 3. Dans le **volet Gérer les licences de** produits, sélectionnez Attribuer **plus.**
 4. Cochez **la Microsoft 365 conférence audio,** puis sélectionnez **Enregistrer les modifications.**  
@@ -114,7 +114,7 @@ Ensuite, attribuez le numéro à chaque personne qui sera responsable des réuni
 1. Dans la barre de navigation gauche du centre Microsoft Teams d’administration, sélectionnez Utilisateurs, cliquez sur le nom d’affichage de l’utilisateur, puis sélectionnez **Modifier.**
 2. **Sélectionnez** Modifier en côté de **Audioconférence,** puis dans le volet **Audioconférence,** sélectionnez un numéro dans les listes Numéro gratuit ou Numéro gratuit, puis sélectionnez **Appliquer.**  
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Audioconférence](audio-conferencing-in-office-365.md)
 - [Configurer l’audioconférence pour Teams](set-up-audio-conferencing-in-teams.md)

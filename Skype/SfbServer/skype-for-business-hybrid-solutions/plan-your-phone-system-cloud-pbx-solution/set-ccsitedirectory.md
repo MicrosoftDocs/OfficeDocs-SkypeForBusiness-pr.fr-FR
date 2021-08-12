@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
-description: La cmdlet Set-CcSiteDirectory définit l’annuaire dans lequel les fichiers de configuration au niveau du site pour Skype Entreprise, version Cloud Connector seront stockés. Le dossier contient les fichiers de configuration vhD de base et Cloud Connector.
-ms.openlocfilehash: 1e66c735e888fe9d5701b8f71baf462ec449acd4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Set-CcSiteDirectory définit le répertoire dans lequel les fichiers de configuration au niveau du site Skype Entreprise Cloud Connector Edition seront stockés. Le dossier contient les fichiers de configuration vhD de base et Cloud Connector.
+ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824188"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286243"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
-La cmdlet Set-CcSiteDirectory définit l’annuaire dans lequel les fichiers de configuration au niveau du site pour Skype Entreprise, version Cloud Connector seront stockés. Le dossier contient les fichiers de configuration vhD de base et Cloud Connector.
+La cmdlet Set-CcSiteDirectory définit le répertoire dans lequel les fichiers de configuration au niveau du site Skype Entreprise Cloud Connector Edition seront stockés. Le dossier contient les fichiers de configuration vhD de base et Cloud Connector.
   
-Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Set-CcSiteDirectory [[-Path] <string>]
@@ -63,7 +63,7 @@ Aucun. La cmdlet Set-CcSiteDirectory n’accepte pas la saisie de données pipel
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

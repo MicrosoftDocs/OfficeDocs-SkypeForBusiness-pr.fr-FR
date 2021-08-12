@@ -1,5 +1,5 @@
 ---
-title: Démarrer le déploiement de Microsoft Teams à l’échelle de votre organisation
+title: Démarrer le déploiement de Microsoft Teams à l’échelle de votre organisation
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -21,25 +21,25 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41b5a0f2a09d05ba1a55ee3fcd31ce3a9c4222b2
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: bccc3f9253a9aecdfe0b6fd99c9edd7653f408b653224f754d352ebb479a9cd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726205"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322566"
 ---
-# <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Démarrer le déploiement de Microsoft Teams à l’échelle de votre organisation
+# <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Démarrer le déploiement de Microsoft Teams à l’échelle de votre organisation
 
 Maintenant que vous avez installé vos premières équipes, puis intégré quelques utilisateurs précoces, il est temps de lancer votre déploiement de Teams vers le reste de votre organisation.
 
 > [!TIP]
-> Avant de commencer votre déploiement de Teams, nous vous recommandons vivement d’exécuter le module Microsoft Learn [Préparer le déploiement de Teams avec Microsoft 365](/learn/modules/m365-teams-collab-prepare-deployment/). Ce module de 30 minutes vous permet de commencer rapidement à comprendre Teams, puis parcourt les décisions clés à prendre au cours du déploiement de Teams.
+> Avant de commencer votre déploiement de Teams, nous vous recommandons vivement d’exécuter le module Microsoft Learn [Préparer le déploiement de Teams avec Microsoft 365](/learn/modules/m365-teams-collab-prepare-deployment/). Ce module de 30 minutes vous permet de commencer rapidement à comprendre Teams, puis parcourt les décisions clés à prendre au cours du déploiement de Teams.
 >
 > Si vous souhaitez consulter d’autres cours d’apprentissage et modules disponibles pour Teams, veuillez consulter la rubrique [Microsoft Learn pour Teams](/learn/teams/).
 
 Sélectionnez **Petite entreprise** si vous n’avez que quelques employés ou si vous n’avez pas plusieurs emplacements ou un réseau complexe.
 
-Sélectionnez **Moyenne/grande entreprise** si vous voulez créer un processus d’adoption officiel pour les principales parties prenantes. si vous disposez de plusieurs emplacements ou un réseau de grande taille avec des serveurs proxy ou plusieurs pare-feu ; si vous avez des exigences de conformité complexes ; ou d’autres exigences non standard qui nécessitent une planification supplémentaire.
+Sélectionnez **Moyenne/grande entreprise** si vous voulez créer un processus d’adoption officiel pour les principales parties prenantes. si vous disposez de plusieurs emplacements ou un réseau de grande taille avec des serveurs proxy ou plusieurs pare-feu ; si vous avez des exigences de conformité complexes ; ou d’autres exigences non standard qui nécessitent une planification supplémentaire.
 
 #### <a name="small-business"></a>[Petite entreprise](#tab/SmallBusiness)
 
@@ -52,7 +52,7 @@ Si cela semble être le cas de votre organisation, vous pouvez configurer Teams 
 
 #### <a name="mediumlarge-business"></a>[Moyenne/Grande entreprise](#tab/LargeBusiness)
 
-De nombreuses entreprises peuvent déployer Teams à l’aide de la [configuration pour les petites entreprises](deploy-small-business.md). Toutefois, certaines organisations ont des besoins complexes. Par exemple, celles qui présentent les caractéristiques ci-après ont besoin d’une planification supplémentaire :
+De nombreuses entreprises peuvent déployer Teams à l’aide de la [configuration pour les petites entreprises](deploy-small-business.md). Toutefois, certaines organisations ont des besoins complexes. Par exemple, celles qui présentent les caractéristiques ci-après ont besoin d’une planification supplémentaire :
 
 - Bureaux sur plusieurs emplacements
 - Exigences de conformité et de confidentialité

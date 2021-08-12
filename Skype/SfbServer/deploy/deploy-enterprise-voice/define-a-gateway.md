@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Résumé : Découvrez comment définir une passerelle PSTN dans le Générateur de topologie dans Skype Entreprise Server.'
-ms.openlocfilehash: be68c853cdcd530b05ad4b0949f722788e77d0df
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 378c0136b09f4343984302557c7a6292d60e77306355f74f68f695ebc2596f34
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283846"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Définir une passerelle dans le Générateur de topologies dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Suivez ces étapes pour utiliser le Générateur de topologie afin de définir u
   
 ### <a name="to-define-a-peer-for-the-mediation-server"></a>Pour définir un homologue pour le serveur de médiation
 
-1. Démarrez le Générateur de topologie : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **Server 2015,** puis sur Générateur skype entreprise **Server 2015Topology.**
+1. Démarrez le Générateur de topologie : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server 2015,** puis sur Skype Entreprise Server **2015Topology Builder**.
     
 2. Sous Skype Entreprise Server, nom de votre site, Composants partagés, cliquez avec le bouton droit sur le nœud **Passerelles PSTN,** puis cliquez sur Nouvelle passerelle **PSTN.**
 3. Dans **Définir une nouvelle passerelle IP/PSTN**, tapez le nom de domaine complet ou l’adresse IP de l’homologue, puis cliquez sur **Suivant**.
@@ -58,13 +58,13 @@ Suivez ces étapes pour utiliser le Générateur de topologie afin de définir u
   
 8. Sous **Serveur de médiation associé,** sélectionnez le pool de serveurs de médiation à associer à la branche racine de cette passerelle PSTN.
     
-9. Sous **le port du serveur de** médiation associé, tapez le port d’écoute que le serveur de médiation utilisera pour les messages SIP de la passerelle.
+9. Sous le port du serveur de médiation **associé,** tapez le port d’écoute que le serveur de médiation utilisera pour les messages SIP de la passerelle.
     
     > [!NOTE]
-    > Avec la prise en charge de plusieurs branches dans Skype Entreprise Server, vous pouvez définir plusieurs ports de signalisation SIP sur le serveur de médiation pour la communication avec plusieurs passerelles PSTN. Lors de la définition d’une trunk, le **port** du serveur de médiation associé doit se trouver dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype Entreprise Server et les pools de médiation. Cliquez avec le bouton droit sur le pool de serveurs de médiation qui vous intéresse, puis sélectionnez **Modifier les propriétés.** Spécifiez la plage de ports dans le champ **Ports d’écoute**.
+    > Avec la prise en charge de plusieurs Skype Entreprise Server, vous pouvez définir plusieurs ports de signalisation SIP sur le serveur de médiation pour la communication avec plusieurs passerelles PSTN. Lors de la définition d’une trunk, le **port** du serveur de médiation associé doit se trouver dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype Entreprise Server pools de médiation. Cliquez avec le bouton droit sur le pool de serveurs de médiation qui vous intéresse, puis sélectionnez **Modifier les propriétés.** Spécifiez la plage de ports dans le champ **Ports d’écoute**.
   
 10. Assurez-vous que l’homologue que vous avez défini est en cours d’exécution et qu’il utilise le FQDN ou l’adresse IP que vous avez spécifié. Cliquez ensuite sur **Terminer**.
     
-11. Cliquez avec le bouton droit sur le nœud **Skype Entreprise Server,** puis cliquez sur **Publier la topologie.**
+11. Cliquez avec le bouton **droit sur Skype Entreprise Server,** puis cliquez **sur Publier la topologie.**
     
 

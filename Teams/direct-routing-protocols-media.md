@@ -17,14 +17,14 @@ f1.keywords:
 description: Protocoles de routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43673c2b6a1928ab2ca21579339324f01d5ada9e
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 550836275a1ea060d6004c75e0f2bf301f3094a7752ae80ad44dc2c91bbf96bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339780"
 ---
-# <a name="overview"></a>Présentation
+# <a name="overview"></a>Vue d’ensemble
 
 Cet article décrit la façon dont le routage direct prend en charge la dérivation média avec un contrôleur de session border controller (SBC) activé pour ICE Lite, comme décrit dans le [RFC 5245.](https://tools.ietf.org/html/rfc5245) Cet article est destiné aux administrateurs vocaux chargés de configurer la connexion entre le serveur SBC local et le service proxy SIP.
 
@@ -36,7 +36,7 @@ Cet article fournit une vue d’ensemble des scénarios ICE Lite et des conditio
 
 - Entrée de l’écran : l’offre de l’appelant peut être livrée à plusieurs points de terminaison si l’appelant est disponible sur plusieurs appareils (par exemple, un utilisateur Teams peut être connecté à Teams pour Windows et Teams pour Android ou iPhone).
 
-- Réponse inversée (183) – Les points de terminaison des appelants pour une configuration d’appel plus rapide envoient une réponse avec les candidats et les clés nécessaires pour établir un flux multimédia. Cela est fait dans l’attente de l’utilisateur pouvant répondre à l’appel(200OK) à partir de cette instance de l’appelant spécifique. L’appelant doit être prêt à recevoir les réponses de plusieurs personnes à l’aide de la forking.
+- Réponse inversée (183) – Les points de terminaison des appelants pour une configuration d’appel plus rapide envoient une réponse avec les candidats et les clés nécessaires pour établir un flux multimédia. Cela est effectué dans l’attente de l’utilisateur pouvant répondre à l’appel (200OK) à partir de cette instance de l’appelant spécifique. L’appelant doit être prêt à recevoir les réponses de plusieurs personnes à l’aide de la forking.
 
 - Re-Invite – Proposer aux candidats finux sélectionnés par le point de terminaison ICE de contrôle. L’attribut a=remote-candidate permet de résoudre les conditions de course qui seraient dues à la gestion de plusieurs bifurcations.
 
@@ -95,9 +95,9 @@ S’il existe un flux de médias précoce, le SBC doit être basé vers le premi
 
 ### <a name="outbound-call-to-sbc"></a>Appel sortant vers SBC
 
-Les Teams points de terminaison sont l’appelant pour ce scénario et seront les points de terminaison de contrôle. Lors de la réception d’une réponse complète (183) ou d’une réponse finale (200OK), le point de terminaison Teams démarre les vérifications de connectivité et passe à la vérification « normal » pour effectuer les vérifications de connectivité.
+Les Teams points de terminaison sont l’appelant pour ce scénario et seront les points de terminaison de contrôle. Lors de la réception d’une réponse complète (183) ou d’une réponse finale (200OK), le point de terminaison Teams démarre les vérifications de connectivité et passe aux vérifications « normales » pour effectuer les vérifications de connectivité.
 
-Remarque : si le SBC envoie une réponse particulière (183), le SBC doit être prêt à recevoir les demandes de vérification de connectivité et éventuellement effectuer les vérifications avant l’envoi du 200OK par le SBC. Si les vérifications et/ou contrôles sont effectués avant la réception de la mise à jour du 200OK, les vérifications et/ou les contrôles ne seront pas effectués à nouveau après la réception de 200OK. Le SBC ne doit pas changer les candidats ICE, le mot de passe et le fragment de nom d’utilisateur entre 183 et 200.
+Remarque : si la base de données SBC envoie une réponse complète (183), le SBC doit être prêt à recevoir les demandes de vérification de connectivité et potentiellement terminer les vérifications avant l’envoi du 200OK par le SBC. Si les vérifications et/ou contrôles sont effectués avant la réception de la mise à jour du 200OK, les vérifications et/ou les contrôles ne seront pas effectués à nouveau après la réception de 200OK. Le SBC ne doit pas changer les candidats ICE, le mot de passe et le fragment de nom d’utilisateur entre 183 et 200.
 
 Pour prendre en charge les fichiers multimédias en avant-première, le SBC peut commencer à diffuser les médias vers le candidat ICE de l’pair, avec la priorité la plus élevée en fonction des vérifications de connectivité reçues, avant même que l’examen ne soit effectué par Teams point de terminaison. Le SBC doit s’attendre à ce que des médias Teams de tous les candidats jusqu’à ce que l’équipe soit terminée. Une fois qu’un candidat a été désigné, le contexte doit être réinitialisé pour envoyer et recevoir des paquets multimédias.
 

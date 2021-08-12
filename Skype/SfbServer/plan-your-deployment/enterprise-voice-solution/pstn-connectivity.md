@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
-description: Découvrez les passerelles PSTN et de la Voix Entreprise SIP dans Skype Entreprise Server.
-ms.openlocfilehash: 402aa365556ef52d135c3ee6c0a2e36e9bd2e780
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Découvrez les passerelles PSTN et les passerelles SIP pour les Voix Entreprise dans Skype Entreprise Server.
+ms.openlocfilehash: 3ac0a2afba49da52b909bf8b4c040f1124c510ba1818e37100f0c0ebdae941c4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286343"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Composants de connectivité PSTN dans Skype Entreprise Server
  
-Découvrez les passerelles PSTN et de la Voix Entreprise SIP dans Skype Entreprise Server.
+Découvrez les passerelles PSTN et les passerelles SIP pour les Voix Entreprise dans Skype Entreprise Server.
   
 Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (PSTN) avec une qualité de service constante. En outre, la technologie sous-jacente doit être transparente pour les utilisateurs lorsqu’ils passent ou reçoivent des appels. De leur point de vue, un appel entre l’infrastructure Voix Entreprise et le RTC doit ressembler à toute autre session SIP.
   
@@ -58,7 +58,7 @@ Les scénarios d’intégration Voix Entreprise-PBX pris en charge sont les sui
 - PBX TDM (multiplexage temporel), avec une passerelle PSTN autonome.
     
 > [!NOTE]
-> Le contournement de média n’interagit pas avec chaque passerelle PSTN, système IP-PBX et contrôleur de session en périphérie (SBC). Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés et a effectué des tests avec des PBX IP Cisco. Le contournement de média est pris en charge uniquement avec les produits et versions répertoriés dans le programme d’interopérabilité d’ouverture des communications unifiées [- Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
+> Le contournement de média n’interagit pas avec chaque passerelle PSTN, système IP-PBX et contrôleur de session en périphérie (SBC). Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés et a effectué des tests avec cisco IP-PBX. La déviation du média est prise en charge uniquement avec les produits et versions répertoriés dans le programme d’interopérabilité d’ouverture des [communications unifiées - Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). 
   
 Pour plus d’informations sur les partenaires qui proposent des solutions Voix Entreprise, consultez le site [Web Microsoft Unified Communications Partners](https://go.microsoft.com/fwlink/p/?linkId=202836).
   

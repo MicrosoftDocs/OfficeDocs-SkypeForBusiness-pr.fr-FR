@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrateur de conversation permanente peut créer et gérer des catégories de salle de conversation. Dans le cadre de la création et de la gestion des catégories de salle de conversation, un administrateur de conversation permanente peut configurer les principaux (groupes/conteneurs/utilisateurs des services de domaine Active Directory) qui ont accès aux membres/créateurs des salles de conversation d’une catégorie particulière. Un administrateur de conversation permanente peut également ajouter des membres refusés à une catégorie et ceux-ci deviennent des exclusions explicites à la liste autorisée. DeniedMembers remplace ce qui se passe dans AllowedMembers.
-ms.openlocfilehash: 5a31716c2fae15c6216ed050b543673479415a76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e4927532e6991565095693d7c087bcdf5b826d47aaf3fa101e30cecced7664a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331566"
 ---
 # <a name="select-denied-members"></a>Sélection des membres refusés
 
@@ -34,7 +34,7 @@ Vous pouvez effectuer les tâches suivantes dans la page **Sélectionner les mem
 
 - [Nouvelles fonctionnalités du serveur de conversation permanente](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 

@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Planifiez la connectivité PSTN dans Voix Entreprise dans Skype Entreprise Server.
-ms.openlocfilehash: 492f4e2cc71644cb1e9957f407a549cce5dbc31d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c4a621bfbe8a7296828818fa652b0bdb24338ed0035a62152cb796beed4bd5ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286443"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planifier la connectivité PSTN dans Skype Entreprise Server
  
 Planifiez la connectivité PSTN dans Voix Entreprise dans Skype Entreprise Server.
   
-Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (PSTN) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas connaître la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure Voix Entreprise et le réseau téléphonique (PSTN) doit se faire comme un autre appel téléphonique.
+Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (PSTN) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas connaître la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure Voix Entreprise et le réseau téléphonique (PSTN) doit se faire comme s’il s’agit d’un autre appel téléphonique.
   
-Skype Entreprise Server offre une connectivité PSTN fiable et évolutive à l’aide des options suivantes :
+Skype Entreprise Server fournit une connectivité PSTN fiable et évolutive à l’aide des options suivantes :
   
 - **Des trunks SIP vers** un fournisseur de services de téléphonie Internet (ITSP)
     
@@ -41,11 +41,11 @@ En fonction de sa taille, de sa couverture géographique et de son infrastructur
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Une trunking SIP dans Skype Entreprise Server](sip-trunking.md)
+- [Trunking SIP in Skype Entreprise Server](sip-trunking.md)
     
 - [Connexions SIP directes dans Skype Entreprise Server](direct-sip.md)
     
-- [M:N trunk in Skype for Business Server](m-n-trunk.md)
+- [M:N trunk in Skype Entreprise Server](m-n-trunk.md)
     
 - [Règles de traduction dans Skype Entreprise Server](translation-rules.md)
     

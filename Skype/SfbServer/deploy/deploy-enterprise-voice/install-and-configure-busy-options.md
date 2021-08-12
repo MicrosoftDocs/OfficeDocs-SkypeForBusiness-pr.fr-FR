@@ -1,5 +1,5 @@
 ---
-title: Installer et configurer busy options pour Skype Entreprise Server
+title: Installer et configurer Busy Options pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,32 +15,32 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322396"
 ---
-# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer busy options pour Skype Entreprise Server
+# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer Busy Options pour Skype Entreprise Server
 
 Découvrez comment installer et configurer Busy Options dans Skype Entreprise Server.
 
 Busy Options est une nouvelle stratégie de voix introduite dans la mise à jour cumulative de juillet 2016 qui vous permet de configurer la façon dont les appels entrants sont gérés lorsqu’un utilisateur est déjà en cours d’appel ou de conférence ou qu’un appel est mis en attente. Les appels nouveaux ou entrants peuvent être rejetés avec une signal occupé ou transmis à la messagerie vocale.
 
-Si Busy Options est activée pour l’organisation, tous les utilisateurs de l’entreprise, les utilisateurs Voix Entreprise et non Voix Entreprise, peuvent utiliser les options de configuration suivantes :
+Si Busy Options est activée pour l’organisation, tous les utilisateurs du Enterprise, les utilisateurs Voix Entreprise et non Voix Entreprise, peuvent utiliser les options de configuration suivantes :
 
 - Occupé (occupé) : les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
 
-- Messagerie vocale sur busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
+- Messagerie vocale sur Busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
 
 Quelle que soit la manière dont les options de occupé(s) sont configurées, les utilisateurs d’un appel ou d’une conférence, ou ceux qui ont un appel en attente, ne sont pas empêchés de lancer de nouveaux appels ou conférences.
 
-Pour plus d’informations sur la fonctionnalité Busy Options, voir [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
+Pour plus d’informations sur la fonctionnalité Busy Options, voir [Plan for Busy Options for Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md).
 
 ## <a name="install"></a>Installer
 
-Assurez-vous que la dernière version de Skype Entreprise Server est installée et que vous avez installé le correctif le plus récent. Pour ce faire, arrêtez d’abord tous les services, puis exécutez le programme d’installation de mise à jour de Skype Entreprise Server comme suit :
+Assurez-vous que vous avez installé la dernière version de Skype Entreprise Server et que vous avez installé le correctif le plus récent. Pour ce faire, arrêtez d’abord tous les services, puis exécutez le programme d’installation Skype Entreprise Server mise à jour comme suit :
 
 1. Exécutez la Stop-CsWindowsService commande.
 
@@ -91,7 +91,7 @@ Le programme d’installation déploie la dernière version de l’application B
    Update-CsAdminRole
    ```
 
-5. Enfin, démarrez les services Windows de Skype Entreprise Server sur tous les serveurs frontaux dans tous les pools où Busy Options a été installé et activé en exécutant la commande [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) :
+5. Enfin, démarrez les services Skype Entreprise Server Windows sur tous les serveurs frontaux dans tous les pools où Busy Options a été installé et activé en exécutant la commande [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) :
 
    ```powershell
    Start-CsWindowsService
@@ -107,7 +107,7 @@ Par exemple, la commande suivante configure les options busy pour l’utilisateu
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
-Dans l’exemple suivant, la commande configure les options occupé pour l’utilisateur « Contrôletal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Contrôletal Velasquez » sont transmis à la messagerie vocale lorsqu’elle est déjà en appel :
+Dans l’exemple suivant, la commande configure les options busy pour l’utilisateur « Contrôletal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Contrôletal Velasquez » sont transmis à la messagerie vocale lorsqu’elle est déjà en appel :
 
 ```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-Vous pouvez également utiliser l’Observateur d’événements Windows pour vérifier que l’installation busy options a réussi et que Skype Entreprise Server a correctement chargé Busy Options. Pour vérifier Busy Options, ouvrez l’Observateur d’événements - Journaux des applications et des **\> services - Skype \> (ou Lync) Server** et recherchez l’ID d’événement = 30253.
+Vous pouvez également utiliser Windows’observateur d’événements pour vérifier que l’installation de Busy Options a réussi et Skype Entreprise Server options Busy correctement chargées. Pour vérifier Busy Options, ouvrez l’Observateur d’événements - Journaux des applications et des **\> services Skype \> (ou Lync) Server** et recherchez l’ID d’événement = 30253.

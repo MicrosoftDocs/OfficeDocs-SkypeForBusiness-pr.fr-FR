@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Découvrez comment Skype Entreprise Server Voix Entreprise prend en charge le routage inter-acheminements.
-ms.openlocfilehash: e064aa5a182a5c2a800fad0e51e864b66d1dcf9c
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 32bb244ddc4496d3603d82c977f4f22667d19a6e29ef549ca3e6cdb72fcd67b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286663"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>À propos du routage inter-Skype Entreprise Server
  

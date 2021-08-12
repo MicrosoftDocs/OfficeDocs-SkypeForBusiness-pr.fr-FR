@@ -15,14 +15,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 1f0238e177e74dc1263208f9a6a350158825d825
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313172"
 ---
-# <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage à des partenaires fédérés dans Skype Entreprise Server
+# <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés dans Skype Entreprise Server
 
 Lorsque vous déployez vos serveurs Edge et activez la fédération pour votre entreprise, vous devez spécifier si la notification d’exclusion relative à l’archivage doit être automatiquement envoyée aux partenaires fédérés. Si vous archivez des communications externes, vous devez activer l’envoi d’une notification d’exclusion relative à l’archivage. Utilisez la procédure de cette rubrique pour modifier cette configuration.
 
@@ -34,7 +34,7 @@ Lorsque vous déployez vos serveurs Edge et activez la fédération pour votre e
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, puis sur **Configuration du serveur Edge d’accès**.
 
@@ -49,7 +49,7 @@ Pour permettre aux utilisateurs fédérés de collaborer avec des utilisateurs d
 
 ## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de la clause d’exclusion de responsabilité d’archivage à l’aide Windows PowerShell cmdlets
 
-L’utilisation de la clause d’exclusion de responsabilité d’archivage peut être gérée à l’Windows PowerShell et à l'Set-CsAccessEdgeConfiguration cmdlet. Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+L’utilisation de la clause d’exclusion de responsabilité d’archivage peut être gérée à l’aide Windows PowerShell et de la cmdlet Set-CsAccessEdgeConfiguration'archivage. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>Pour activer la clause d’exclusion de responsabilité d’archivage
 
