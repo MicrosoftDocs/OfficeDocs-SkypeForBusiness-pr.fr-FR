@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'Découvrez quels types de plans d’appel (plans de numérotation PSTN) sont disponibles avec Teams et comment en choisir un pour votre organisation.  '
-ms.openlocfilehash: f4ab90b01fb0fa75e45b07382ee6d59c945e797b747cf6ed38663a947d83a2aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d5c004a8ea7d4ce851cfa6717abc2483102ed26b5526b49bcbf69f6d495f2b7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848719"
 ---
 # <a name="what-are-dial-plans"></a>Qu’est-ce que les plans de numérotation ?
 
-Un plan de numérotation est un jeu nommé de règles de normalisation qui convertissent les numéros de téléphones appelés par un utilisateur individuel dans un autre format (typiquement E.164) pour l'autorisation et le routage des appels.
+Un plan de numérotation est un ensemble nommé de règles de normalisation qui traduisent les numéros de téléphone composés par un utilisateur individuel dans un autre format (généralement E.164) à des fins d’autorisation d’appel et de routage vocal.
 
 Un plan de numérotation est constitué d’une ou de plusieurs règles de normalisation qui définissent comment les numéros de téléphone exprimés dans des formats différents sont convertis dans un autre format. Une chaîne de numérotation identique peut être interprétée et convertie différemment par des plans de numérotation différents. Ainsi, en fonction du plan de numérotation attribué à un utilisateur donné, un même numéro peut être converti et acheminé différemment. Vous pouvez utiliser un maximum de 1 000 plans de numérotation client.
 

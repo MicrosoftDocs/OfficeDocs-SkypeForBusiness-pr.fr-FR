@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour spécifier une nouvelle URL simple, supprimer une URL simple existante ou modifier l’URL simple active, procédez comme suit :'
-ms.openlocfilehash: bdc6de2194da642688b2e6a099833f9f536a98a0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 71778df66d36ba79e732da250994ed5d88ee4e2f9a972953d6c6c675a14000db
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096860"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331686"
 ---
 # <a name="simple-url-settings-expander"></a>Expandeur des paramètres d’une URL simple
 

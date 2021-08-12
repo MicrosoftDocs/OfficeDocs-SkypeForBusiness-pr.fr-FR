@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams et les visites virtuelles avec l’application Bookings
-ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: HT
+ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295201"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Visites virtuelles dans Microsoft Teams et l’application Bookings
 
@@ -53,7 +53,7 @@ L’application Microsoft Bookings pour Teams est disponible sur le bureau et su
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Contrôler l’accès à Bookings au sein de votre organisation
 
-Plusieurs méthodes s’offrent à vous pour contrôler qui a accès à l’application Bookings et à des fonctionnalités spécifiques de l’application. Pour savoir comment activer ou désactiver Microsoft Bookings dans le Centre d’administration Microsoft 365, et créer une stratégie d’application Bookings pour autoriser les utilisateurs sélectionnés à créer des calendriers Bookings, consultez [Accéder à Microsoft Bookings](https://support.microsoft.com/fr-FR/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Vous pouvez également découvrir comment [Créer une stratégie d’application Teams pour épingler l’application Bookings à certains utilisateurs](teams-app-setup-policies.md).
+Plusieurs méthodes s’offrent à vous pour contrôler qui a accès à l’application Bookings et à des fonctionnalités spécifiques de l’application. Pour savoir comment activer ou désactiver Microsoft Bookings dans le Centre d’administration Microsoft 365, et créer une stratégie d’application Bookings pour autoriser les utilisateurs sélectionnés à créer des calendriers Bookings, consultez [Accéder à Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce). Vous pouvez également découvrir comment [Créer une stratégie d’application Teams pour épingler l’application Bookings à certains utilisateurs](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Paramètres de stratégie de réunion recommandés
 

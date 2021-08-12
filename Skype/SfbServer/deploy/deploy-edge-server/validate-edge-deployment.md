@@ -15,22 +15,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Résumé : Découvrez comment vérifier que votre déploiement de serveur Edge ou de pool de serveurs Edge fonctionne dans Skype Entreprise Server.'
-ms.openlocfilehash: 1da2bed1bc9df7cb118d47c2b27e190546838e1b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b2d44018bc43f8335081bcfc961108255240095031983066d54463dabc2538ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320926"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Valider votre déploiement Edge dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment vérifier que votre déploiement de serveur Edge ou de pool de serveurs Edge fonctionne dans Skype Entreprise Server.
+**Résumé :** Découvrez comment vérifier que votre déploiement de serveur Edge ou de pool de serveurs Edge fonctionne Skype Entreprise Server.
   
 Une fois que vous avez déployé votre serveur Edge ou votre pool de serveurs Edge, vous devez savoir s’il fonctionne correctement. Voici quelques éléments qui peuvent vous aider à confirmer que votre environnement Edge est connecté à vos serveurs internes et que vos utilisateurs externes peuvent se connecter à votre environnement Skype Entreprise Server via votre serveur Edge.
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Vérifier la connectivité entre vos serveurs internes et vos serveurs Edge
 
-Bien que la validation de la connectivité soit effectuée automatiquement dans le serveur Edge ou le pool de serveurs Edge lors de l’installation des serveurs Edge, vous pouvez toujours le confirmer par vous-même avec Windows PowerShell. Exécutez l'Get-CsManagementStoreReplicationStatus sur le serveur interne qui dispose du magasin central de gestion ou sur tout ordinateur joint au domaine sur lequel les composants principaux de Skype Entreprise Server (OcsCore.msi) sont installés.
+Bien que la validation de la connectivité soit effectuée automatiquement dans le serveur Edge ou le pool de serveurs Edge lorsque les serveurs Edge sont installés, vous pouvez toujours le confirmer par vous-même avec Windows PowerShell. Exécutez la cmdlet Get-CsManagementStoreReplicationStatus sur le serveur interne qui possède le magasin central de gestion ou sur tout ordinateur joint au domaine sur lequel Skype Entreprise Server Core Components (OcsCore.msi) sont installés.
   
 Le résultat initial de l’exécution de cette commande peut donner un état False, plutôt que True, pour la réplication. Si cela se produit, exécutez Invoke-CsManagementStoreReplication cmdlet. Donnez-lui le temps de terminer la réplication, puis ré-exécutez Get-CsManagementStoreReplicationStatus cmdlet.
   
@@ -40,13 +40,13 @@ Nous avons un excellent outil pour confirmer votre configuration de serveur Edge
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Éléments à prendre en compte lors du test de la connectivité des utilisateurs externes
 
-Tout test d’accès des utilisateurs externes doit inclure chaque type d’utilisateur interne que votre organisation prend en charge, ce qui peut inclure l’une ou l’ensemble des opérations suivantes :
+Tout test d’accès des utilisateurs externes doit inclure chaque type d’utilisateur interne que votre organisation prend en charge, ce qui peut inclure tout ou partie des facteurs suivants :
   
 - Utilisateurs d’au moins un domaine fédéré (nous vous recommandons toutefois de les tester tous).
     
 - Utilisateurs anonymes.
     
-- Utilisateurs de votre organisation qui sont connectés à distance à Skype Entreprise, mais n’utilisent pas vpn.
+- Les utilisateurs de votre organisation qui sont connectés Skype Entreprise à distance, mais n’utilisent pas de VPN.
     
 Ces tests déterminent si votre serveur Edge est :
   
@@ -58,6 +58,6 @@ Ces tests déterminent si votre serveur Edge est :
     
 - Effectuer une résolution DNS externe précise.
     
-  - Depuis l’extérieur de votre réseau, testez chacun des FQDN externes de votre serveur Edge ou pool de serveurs Edge. Même si la commande ping échoue, vous verrez les adresses IP, que vous pouvez comparer aux adresses IP que vous avez précédemment affectées.
+  - Depuis l’extérieur de votre réseau, testez chacun des FQDN externes de votre serveur Edge ou pool de serveurs Edge. Même si la commande ping échoue, vous verrez les adresses IP que vous pouvez comparer aux adresses IP que vous avez précédemment affectées.
     
 

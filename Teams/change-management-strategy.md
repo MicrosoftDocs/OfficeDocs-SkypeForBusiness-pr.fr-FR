@@ -15,15 +15,14 @@ description: Créez une stratégie de gestion des changements Microsoft Teams en
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff37db12707ff1cf7db4fe350ab1a6673db3f76a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fb5e47ef6a50e78ca92903e7b362cd9367823efb1eaedfccefd0473dfd7468c4
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848869"
 ---
-<a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
-=======================================================
+# <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Élaborer une stratégie de gestion des modifications pour Microsoft Teams
 
 Une stratégie de gestion des modifications à des fins de sensibilisation des utilisateurs finaux et d'adoption de nouvelles technologies est essentielle à la réussite du lancement de toute technologie dans une organisation. L'exécution réussie de cette phase assurera l'adoption par les utilisateurs et leur satisfaction de la nouvelle expérience.  Les étapes identifiées ci-dessous peuvent être modifiées en fonction de la taille de votre organisation, mais garantir un niveau de communication soutenu avec les parties prenantes, les champions, les administrateurs informatiques et les utilisateurs est essentiel pour permettre un changement réussi.  
 
@@ -53,8 +52,7 @@ Meilleures pratiques de gestion des modifications pour Teams :
 
 7.  Adapter vos messages et méthodes en fonction des commentaires, recommencer
 
-<a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifier les profils des parties prenantes clés, champions et utilisateurs
------------------------------------------------
+## <a name="identify-key-stakeholders-champions-and-user-profiles"></a>Identifier les profils des parties prenantes clés, champions et utilisateurs
 
 La première règle d'une adoption réussie consiste à créer une équipe dynamique composée des intervenants clés et des personnes qui peuvent exercer une influence sur les autres. Une stratégie d'adoption réussie commence avec une équipe composée de personnes engagées qui représentent les différents départements de votre organisation. Les parties prenantes clés incluent les responsables exécutifs, les propriétaires de service, les professionnels des technologies de l’information et les champions.
 
@@ -72,15 +70,13 @@ Nous vous recommandons d’une réunion régulière de ces parties prenantes pou
 > [!TIP]
 > Les personnes les plus récalcitrantes au changement peuvent devenir vos meilleurs alliés dans le cadre d'un déploiement de cette nature. Nous vous encourageons à entamer un dialogue avec ces personnes le plus tôt possible et de manière fréquente pour connaître leurs préoccupations et questions. Souvent, leurs commentaires sont constructifs et peuvent contribuer à la réussite de votre campagne.
 
-<a name="user-profiles"></a>Profils utilisateur
--------------
+## <a name="user-profiles"></a>Profils utilisateur
 
 Il est également indispensable de connaître les différents types d'utilisateurs dans votre environnement. Avez-vous des utilisateurs principalement mobiles ? Avez-vous des utilisateurs qui consacrent beaucoup de temps à des réunions ou à animer des présentations ? Quels sont les utilisateurs qui rencontrent le plus de difficultés avec vos solutions de collaboration actuelles ? La segmentation de votre communauté d'utilisateurs peut vous aider à constituer des groupes qui sont les plus enclins au changement. Ils représentent souvent les meilleures cibles pour vos groupes pilotes préalables et leurs commentaires sont extrêmement précieux.
 
 Comprendre le déroulement du travail quotidien de vos utilisateurs vous permettra d'établir des résultats à atteindre par priorité, de définir des objectifs d'adoption appropriés pour votre déploiement et d'assurer l'utilisation au fil du temps.
 
-<a name="champions"></a>Champions
----------
+## <a name="champions"></a>Champions
 
 Identifier les personnes qui peuvent devenir vos champions de collaboration vous permet de former une équipe de soutien élargie pour votre implémentation. Créez une communauté et fournissez-lui un premier aperçu et des commentaires concernant vos projets. Tout investissement réalisé dans cette communauté, que ce soit en termes de temps, d'attention ou de récompense aura un effet sur votre implémentation qui bénéficiera de son soutien et son implication.
 
@@ -88,8 +84,7 @@ Identifier les personnes qui peuvent devenir vos champions de collaboration vous
 
 Pour apprendre à créer un programme champion, choisissez [Créer un programme champion](https://go.microsoft.com/fwlink/?linkid=854665).
 
-<a name="identify-and-select-your-business-scenarios"></a>Identifier et sélectionner vos scénarios d’application professionnelle
----------------------------------------------------------------
+## <a name="identify-and-select-your-business-scenarios"></a>Identifier et sélectionner vos scénarios d’application professionnelle
 
 Une fois vos parties prenantes clés et segments d'utilisateurs identifiés, identifier vos scénarios d’application professionnelle sera d'autant plus facile. Voici quelques exemples d’objectifs à atteindre :
 
@@ -107,8 +102,7 @@ Il convient également de prendre en compte les utilisateurs qui sont intégrés
 
 Les projets technologiques sont en prise à des difficultés lorsque l'attention accordée aux conditions de gestion des modifications est faible ou nulle. Suivez les recommandations suivantes pour optimiser vos chances de réussite.
 
-<a name="design-launch-and-manage-your-adoption-campaign"></a>Concevoir, lancer et gérer votre campagne d'adoption
--------------------------------------------------
+## <a name="design-launch-and-manage-your-adoption-campaign"></a>Concevoir, lancer et gérer votre campagne d'adoption
 
 Dans le cadre de vos projets pilotes préliminaires et de votre déploiement dans l'ensemble de l'entreprise, vos communications internes doivent constituer une priorité. Cela comprend :
 
@@ -142,12 +136,11 @@ Comme dans toute campagne de communications et d'adoption, vous voudrez identifi
 
 -   Assistance aux sessions de formation
 
-<a name="measure-and-share-success"></a>Mesurer et partager la réussite
--------------------------------------------------
+## <a name="measure-and-share-success"></a>Mesurer et partager la réussite
 
-Votre équipe du projet doit comprendre des administrateurs informatiques de votre organisation. Ces personnes auront accès aux rapports d’utilisation Microsoft 365 ou Office 365 Microsoft Teams qui sont intégrés à l’expérience du Centre Microsoft 365'administration. Ces informations peuvent montrer l’utilisation de Microsoft Teams dans votre entreprise. Nous recommandons également d’obtenir des commentaires directement auprès de vos utilisateurs sur leur expérience de Teams et leurs autres idées d’utilisation. Partager ces exemples concrets de l'intérieur de votre entreprise est extrêmement utile pour parvenir à un changement soutenu au fil du temps avec votre communauté d’utilisateurs.  
+Votre équipe du projet doit comprendre des administrateurs informatiques de votre organisation. Ces personnes auront accès aux rapports d’utilisation Microsoft 365 ou Office 365 Microsoft Teams qui sont intégrés à l’expérience de Centre d’administration Microsoft 365 utilisateur. Ces informations peuvent montrer l’utilisation de Microsoft Teams dans votre entreprise. Nous recommandons également d’obtenir des commentaires directement auprès de vos utilisateurs sur leur expérience de Teams et leurs autres idées d’utilisation. Partager ces exemples concrets de l'intérieur de votre entreprise est extrêmement utile pour parvenir à un changement soutenu au fil du temps avec votre communauté d’utilisateurs.  
 
-En savoir plus sur les rapports Microsoft Teams’utilisation de la gestion des données dans le Centre Microsoft 365'administration de [l’utilisateur ici](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
+En savoir plus sur les Microsoft Teams d’utilisation de l’ordinateur dans le Centre d’administration Microsoft 365 [ici](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524)
 
 > [!TIP]
 > Utilisez votre équipe publique ou votre communauté Yammer pour collecter des données d’utilisation. Partagez-les en utilisant la balise #TeamsStories afin de les récupérer facilement.  Partagez une #TeamsStory par mois sur votre intranet pour mettre en avant les employés qui adhèrent au changement afin d’accroître la productivité et la collaboration dans votre environnement.  

@@ -1,5 +1,5 @@
 ---
-title: Attribuer une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server
+title: Affecter une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Résumé : Stage AV and OAuth certificates for Skype for Business Server.'
-ms.openlocfilehash: a5cd533dccffb878fad7d7562ded3da301fc0ce3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Stage AV and OAuth certificates for Skype Entreprise Server.'
+ms.openlocfilehash: 61b37b7e4edc41c73d27a85432f1328215ca84e58d4906c0a825071f5f6669ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096830"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286843"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Attribuer une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Affecter une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server
 
-**Résumé :** Stage AV and OAuth certificates for Skype for Business Server.
+**Résumé :** Stage AV and OAuth certificates for Skype Entreprise Server.
   
-La stratégie de code confidentiel des conférences téléphoniques est l’un des paramètres individuels d’un compte d’utilisateur qui peuvent être configurés dans le Panneau de configuration de Skype Entreprise Server.
+La stratégie de code confidentiel (PIN) de conférence d’accès est l’un des paramètres individuels d’un compte d’utilisateur qui peuvent être configurés dans le Panneau de configuration Skype Entreprise Server client.
   
 Le déploiement d’une ou plusieurs stratégies de code confidentiel par utilisateur est facultatif. Vous pouvez également déployer une stratégie de code confidentiel au niveau global ou au niveau d’un site. Si vous déployez des stratégies au niveau utilisateur, vous devez les attribuer de manière explicite aux objets User, Group ou Contact. Les droits et autorisations des utilisateurs concernant l’utilisation des codes confidentiels pour les conférences rendez-vous sont automatiquement définis sur ceux de la stratégie de code confidentiel globale si aucune stratégie par utilisateur ou au niveau d’un site spécifique n’est attribuée.
   
@@ -34,7 +34,7 @@ Lorsque vous aurez créé au moins une stratégie de code confidentiel par utili
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -69,7 +69,7 @@ Lorsque vous aurez créé au moins une stratégie de code confidentiel par utili
     > [!NOTE]
     > Étant donné que vous pouvez configurer plusieurs  stratégies à l’aide de la boîte de dialogue Attribuer des stratégies, cette option est sélectionnée par défaut pour chaque stratégie de **\<Keep as is\>** la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
   
-   - Autoriser Skype Entreprise Server à choisir automatiquement la stratégie de niveau global ou, si elle est définie, la stratégie au niveau du site.
+   - Autoriser Skype Entreprise Server choisir automatiquement la stratégie de niveau global ou, si elle est définie, la stratégie au niveau du site.
     
    - Cliquez sur le nom d’une stratégie de code confidentiel par utilisateur que vous avez définie dans la page **Stratégie de code confidentiel**.
     
@@ -80,7 +80,7 @@ Lorsque vous aurez créé au moins une stratégie de code confidentiel par utili
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie Per-User de code confidentiel à l’aide Windows PowerShell cmdlets
 
-Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’Windows PowerShell et à l’cmdlet **Grant-CsPinPolicy.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’Windows PowerShell et à l’cmdlet **Grant-CsPinPolicy.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>Pour affecter une stratégie de code confidentiel par utilisateur à un seul utilisateur
 

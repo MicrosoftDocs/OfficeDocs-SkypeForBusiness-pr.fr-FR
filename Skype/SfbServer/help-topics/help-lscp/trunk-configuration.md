@@ -15,23 +15,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 9986be02c0d97c69853d69dc44e23c8908a90acb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a7989af20ef622dd76a7d6cbef8f5d3e948e8bfece09c06ae525411a79fcc6e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342119"
 ---
 # <a name="trunk-configuration"></a>Configuration de la jonction
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Configure a trunk with media bypass in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Configuration d’une trunk avec déviation du Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [Configuration d’une trunk sans déviation du média dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [Configuration d’une trunk sans contournement de média Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [Création ou modification d’une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Création ou modification d’une règle de traduction pour la présentation de l’ID appelé Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
 - [Créer ou modifier manuellement une règle de traduction](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).

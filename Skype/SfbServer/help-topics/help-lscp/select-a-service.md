@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Utilisez la boîte de dialogue Sélectionner un service pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, cliquez sur un service dans la liste, puis sur OK.
-ms.openlocfilehash: 06ee0217a8a495a881c9925c57e33311e4944607
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f3576594714701d52d192fee88dc983bee91d92b81559b4b8efd0d0a790bb6f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311143"
 ---
 # <a name="select-a-service"></a>Sélectionner un service
 
 Utilisez la **boîte de dialogue Sélectionner un service** pour rechercher les services disponibles dans votre environnement. Pour utiliser un service existant, cliquez sur un service dans la liste, puis sur **OK**.
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -38,7 +38,7 @@ Vous pouvez effectuer les tâches suivantes dans la page **Sélectionner un serv
 
 - [Configuration des options de serveur de conversation permanente au niveau global ou d’un pool de serveurs de conversation permanente](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Pour configurer les catégories des salles de conversation
 

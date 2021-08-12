@@ -20,12 +20,12 @@ ms.custom:
 - Calling Plans
 ms.service: msteams
 description: En savoir plus sur l’ID de ligne d’appel et le nom de l’appelant.
-ms.openlocfilehash: dd68327c8fb3f63bf17e0736f9d41b727efc1ff8
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7baae8ff6ed48919e4ee540890dd31a47ad81c943e5ce8e9db8d934331d0ce75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350636"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel
 
@@ -39,8 +39,8 @@ Lorsqu’un appel est effectué, la CLID (numéro de téléphone) est acheminée
 
 CLID & transmission CNAM est de la responsabilité de l’opérateur de terminaison. L’opérateur de terminaison doit prendre en charge la & CNAM et fournir des enregistrements à jour pour les deux valeurs. Microsoft fournit des valeurs CLID fiables lors des appels, mais ces valeurs peuvent ne pas être conservées intactes une fois qu’elles passent par un opérateur intermédiaire ou un opérateur de terminaison. Si la valeur CLID est modifiée, omis ou tronquée par l’intermédiaire ou l’opérateur de terminaison, Microsoft n’a pas recours à la correction de tels problèmes dans le réseau téléphonique public.
 
-Des incohérences dans la mise à jour CNAM peuvent être provoquées lorsque les opérateurs intermédiaires ou terminaux retardent l’actualisation des informations CNAM dans les bases de données faisant autorité, comme c’est le cas pour les États-Unis. Dans les pays où il n’existe aucune base de données faisant autorité pour CNAM, les pratiques des opérateurs individuels peuvent également entraîner des problèmes au niveau des informations CNAM qui arrivent intacts lors de l’appel. Microsoft ne prend pas en charge les informations de nom de famille en provenance dans les pays autres que les États-Unis.
+Des incohérences dans la mise à jour CNAM peuvent être provoquées lorsque les opérateurs intermédiaires ou résilients retardent l’actualisation des informations CNAM dans les bases de données faisant autorité, comme c’est le cas pour les États-Unis. Dans les pays où il n’existe aucune base de données faisant autorité pour CNAM, les pratiques des opérateurs individuels peuvent également entraîner des problèmes au niveau des informations CNAM qui arrivent intacts lors de l’appel. Microsoft ne prend pas en charge les informations de nom de famille en provenance dans les pays autres que les États-Unis.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 

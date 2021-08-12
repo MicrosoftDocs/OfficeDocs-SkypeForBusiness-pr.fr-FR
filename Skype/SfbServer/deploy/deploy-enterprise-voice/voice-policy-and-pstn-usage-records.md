@@ -1,5 +1,5 @@
 ---
-title: Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation PSTN dans Skype Entreprise
+title: Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
-description: 'Résumé : Créez ou modifiez des stratégies de voix et configurez les enregistrements d’utilisation PSTN à l’aide du Panneau de configuration de Skype Entreprise Server.'
-ms.openlocfilehash: ca97c4c75004849f2ea404c083878da6c726c2e6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Créez ou modifiez des stratégies de voix et configurez les enregistrements d’utilisation PSTN à l’aide Skype Entreprise Server panneau de configuration.'
+ms.openlocfilehash: f81d54314d60b6dbb69efa84a2fc5bb9cd22123ff2158080ed2878102611b7a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320836"
 ---
-# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation PSTN dans Skype Entreprise
+# <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise
 
-**Résumé :** Créez ou modifiez des stratégies de voix et configurez les enregistrements d’utilisation PSTN à l’aide du Panneau de configuration de Skype Entreprise Server.
+**Résumé :** Créez ou modifiez des stratégies de voix et configurez les enregistrements d’utilisation PSTN à l’aide Skype Entreprise Server panneau de configuration.
 
 > [!NOTE]
-> Chaque stratégie de voix doit avoir au moins un enregistrement d’utilisation du réseau téléphonique commuté (PSTN) associé. Pour afficher la liste de tous les enregistrements d’utilisation PSTN disponibles dans votre déploiement Voix Entreprise et afficher leurs propriétés, voir Afficher les enregistrements d’utilisation [PSTN](view-pstn-usage-records.md)dans Skype Entreprise.
+> Chaque stratégie de voix doit avoir au moins un enregistrement d’utilisation du réseau téléphonique commuté (PSTN) associé. Pour afficher la liste de tous les enregistrements d’utilisation PSTN disponibles dans votre déploiement Voix Entreprise et afficher leurs propriétés, consultez Afficher les enregistrements d’utilisation [PSTN](view-pstn-usage-records.md)dans Skype Entreprise .
 
 ### <a name="to-create-a-voice-policy"></a>Pour créer une stratégie de voix
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de contrôle.
 
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Stratégie de la voix**.
 
@@ -54,9 +54,9 @@ ms.locfileid: "51105760"
    -  L’évitement de messagerie vocale empêche l’itinéraire immédiat des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou hors de portée.
 
      > [!NOTE]
-     > Cette fonctionnalité est uniquement configurable via Skype Entreprise Server Management Shell
+     > Cette fonctionnalité est uniquement configurable via l’Skype Entreprise Server Management Shell
 
-   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le transport d’appels. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
+   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le forwarding d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
 
    - **Délégation** permet aux utilisateurs de spécifier d’autres utilisateurs pouvant passer et recevoir des appels à leur place. Dans Skype Entreprise Server, un délégué peut configurer la sonnerie simultanée qui permet aux appels entrants à son responsable de sonner toutes les cibles de sonnerie simultanée du délégué. Le délégué peut ainsi répondre avec une plus grande souplesse aux appels destinés au responsable. Activée par défaut.
 
@@ -77,7 +77,7 @@ ms.locfileid: "51105760"
 
    - **Le** suivi des appels malveillants permet aux utilisateurs de signaler des appels malveillants (tels que des menaces) à l’aide de l’interface utilisateur du client, qui à son tour signale les appels dans les enregistrements des détails des appels (CDR). Désactivé par défaut.
 
-   - **Busy options** active ou désactive Busy Options pour la stratégie de voix spécifiée. Busy Options permet aux appels entrants d’être acheminés vers la messagerie vocale ou rejetés avec une signal d’occupé lorsque l’utilisateur cible de l’appel est au téléphone. Busy Options est une nouvelle stratégie de voix introduite dans la mise à jour cumulative de juillet 2016. La vérification de ce paramètre active Busy Options et la désactivation de ce paramètre désactive Busy Options. Pour plus d’informations, voir [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and [configure Busy Options for Skype for Business Server](install-and-configure-busy-options.md).
+   - **Busy options** active ou désactive Busy Options pour la stratégie de voix spécifiée. Busy Options permet d’router les appels entrants vers la messagerie vocale ou de les rejeter avec une signal d’occupé lorsque l’utilisateur cible de l’appel est au téléphone. Busy Options est une nouvelle stratégie de voix introduite dans la mise à jour cumulative de juillet 2016. La vérification de ce paramètre active Busy Options et la désactivation de ce paramètre désactive Busy Options. Pour plus d’informations, voir [Plan for Busy Options for Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and [configure Busy Options for Skype Entreprise Server](install-and-configure-busy-options.md).
 
 7. Afin d’associer et de configurer des enregistrements d’utilisation PSTN pour cette stratégie de voix, effectuez l’une des opérations suivantes :
 
@@ -100,7 +100,7 @@ ms.locfileid: "51105760"
 
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
 
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
    - Pour modifier un itinéraire qui est déjà associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
@@ -116,7 +116,7 @@ ms.locfileid: "51105760"
 
    - Pour supprimer un itinéraire de cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
 
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
    - Pour modifier un itinéraire qui est déjà associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
@@ -125,13 +125,13 @@ ms.locfileid: "51105760"
 8. Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillez le nom de l’enregistrement et cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!IMPORTANT]
-    > L’ordre dans lequel les enregistrements d’utilisation apparaissent dans la stratégie de voix est essentiel. Skype Entreprise Server parcourt la liste de haut en bas. Nous vous conseillons d’organiser la liste par fréquence d’utilisation ; par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > L’ordre dans lequel les enregistrements d’utilisation apparaissent dans la stratégie de voix est essentiel. Skype Entreprise Server parcourt la liste du haut vers le bas. Nous vous conseillons d’organiser la liste par fréquence d’utilisation ; par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 9. Afin d’associer et de configurer des enregistrements d’utilisation PSTN pour le transfert d’appel et la sonnerie simultanée dans cette stratégie de voix, effectuez l’une des opérations suivantes :
 
    - Pour utiliser les mêmes enregistrements d’utilisation PSTN pour le transfert d’appel et la sonnerie simultanée que cette stratégie de voix, sélectionnez l’option **Routage avec les utilisations PSTN d’appel** dans le menu déroulant.
 
-   - Pour autoriser le forwarding d’appel et la sonnerie simultanée aux utilisateurs internes de Skype Entreprise uniquement, sélectionnez l’option Router vers les utilisateurs **skype** entreprise internes uniquement dans le menu déroulant. Les appels ne seront pas transférés vers des numéros PSTN externes.
+   - Pour autoriser le forwarding d’appel et la sonnerie simultanée  aux utilisateurs Skype Entreprise internes uniquement, sélectionnez l’option Router vers les utilisateurs Skype Entreprise internes uniquement dans le menu déroulant. Les appels ne seront pas transférés vers des numéros PSTN externes.
 
    - Pour spécifier des enregistrements d’utilisation PSTN pour le transfert d’appels et la sonnerie simultanée différents de ceux utilisés pour cette stratégie de voix, sélectionnez l’option **Acheminer à l’aide d’utilisations PSTN personnalisées** dans le menu déroulant. Cette option affiche un contrôle pour sélectionner des enregistrements d’utilisation PSTN existants ou créer des enregistrements d’utilisation PSTN spécifiquement pour le transfert d’appels et la sonnerie simultanée.
 
@@ -154,7 +154,7 @@ ms.locfileid: "51105760"
 
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
 
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
    - Pour modifier un itinéraire qui est déjà associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
@@ -170,7 +170,7 @@ ms.locfileid: "51105760"
 
    - Pour supprimer un itinéraire de cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
 
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
    - Pour modifier un itinéraire qui est déjà associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
@@ -183,13 +183,13 @@ ms.locfileid: "51105760"
 12. Dans la page **Stratégie de la voix**, cliquez sur **Valider**, puis sur **Valider tout**.
 
     > [!NOTE]
-    > À chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir Publier les modifications en attente de la configuration du [routage](voice-route-config-changes.md) des voix dans Skype Entreprise dans la documentation des opérations.
+    > À chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
 
-13. (Facultatif) La boîte d’écoute de messagerie vocale détecte qu’un appel a été immédiatement répondu par la messagerie vocale du téléphone mobile de l’utilisateur et déconnecte l’appel vers la messagerie vocale du téléphone mobile. Cela permet à l’appel de continuer à sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Pour plus d’informations sur la configuration d’une stratégie de messagerie vocale, voir [Configure voice mail escape in Skype for Business](configure-voice-mail-escape.md).
+13. (Facultatif) La boîte d’écoute de messagerie vocale détecte qu’un appel a été immédiatement répondu par la messagerie vocale du téléphone mobile de l’utilisateur et déconnecte l’appel de la messagerie vocale du téléphone mobile. Cela permet à l’appel de continuer à sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Pour plus d’informations sur la configuration d’une stratégie de messagerie vocale, voir [Configure voice mail escape in Skype Entreprise](configure-voice-mail-escape.md).
 
 ### <a name="to-modify-a-voice-policy"></a>Pour modifier une stratégie de voix
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de contrôle.
 
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Stratégie de la voix**.
 
@@ -205,9 +205,9 @@ ms.locfileid: "51105760"
    -  L’évitement de messagerie vocale empêche l’itinéraire immédiat des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou hors de portée.
 
      > [!NOTE]
-     > Cette fonctionnalité est uniquement configurable via Skype Entreprise Server Management Shell
+     > Cette fonctionnalité est uniquement configurable via l’Skype Entreprise Server Management Shell
 
-   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le transport d’appels. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
+   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le forwarding d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
 
    - **Délégation** permet aux utilisateurs de spécifier d’autres utilisateurs pouvant passer et recevoir des appels à leur place. Dans Skype Entreprise Server, un délégué peut configurer la sonnerie simultanée qui permet aux appels entrants à son responsable de sonner toutes les cibles de sonnerie simultanée du délégué. Le délégué peut ainsi répondre avec une plus grande souplesse aux appels destinés au responsable. Activée par défaut.
 
@@ -249,7 +249,7 @@ ms.locfileid: "51105760"
 
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
 
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
    - Pour modifier un itinéraire qui est déjà associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
@@ -265,7 +265,7 @@ ms.locfileid: "51105760"
 
    - Pour supprimer un itinéraire de cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
 
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
    - Pour modifier un itinéraire qui est déjà associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**.
 
@@ -274,13 +274,13 @@ ms.locfileid: "51105760"
 7. Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillez le nom de l’enregistrement et cliquez sur la flèche vers le haut ou vers le bas.
 
     > [!NOTE]
-    > L’ordre dans lequel les enregistrements d’utilisation apparaissent dans la stratégie de voix est essentiel. Skype Entreprise Server parcourt la liste de haut en bas. Nous vous conseillons d’organiser la liste par fréquence d’utilisation ; par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
+    > L’ordre dans lequel les enregistrements d’utilisation apparaissent dans la stratégie de voix est essentiel. Skype Entreprise Server parcourt la liste du haut vers le bas. Nous vous conseillons d’organiser la liste par fréquence d’utilisation ; par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup.
 
 8. Afin d’associer et de configurer des enregistrements d’utilisation PSTN pour le transfert d’appel et la sonnerie simultanée dans cette stratégie de voix, effectuez l’une des opérations suivantes :
 
    - Pour utiliser les mêmes enregistrements d’utilisation PSTN pour le transfert d’appel et la sonnerie simultanée que cette stratégie de voix, sélectionnez l’option **Routage avec les utilisations PSTN d’appel** dans le menu déroulant.
 
-   - Pour autoriser le forwarding d’appel et la sonnerie simultanée aux utilisateurs internes de Skype Entreprise uniquement, sélectionnez Router vers les utilisateurs **skype** entreprise internes uniquement dans le menu déroulant. Les appels ne seront pas transférés à des numéros PSTN externes.
+   - Pour autoriser le forwarding d’appel et la sonnerie simultanée aux utilisateurs Skype Entreprise internes uniquement, sélectionnez Router vers les utilisateurs Skype Entreprise **internes** uniquement dans le menu déroulant. Les appels ne seront pas transférés à des numéros PSTN externes.
 
    - Pour spécifier des enregistrements d’utilisation PSTN pour le transfert d’appel et la sonnerie simultanée différents de ceux utilisés pour cette stratégie de voix, sélectionnez l’option **Routage avec des utilisations PSTN personnalisées** dans le menu déroulant. Cette option affiche un contrôle pour sélectionner les enregistrements d’utilisation PSTN existants ou créer de nouveaux enregistrements d’utilisation PSTN spécifiquement pour le transfert d’appel et la sonnerie simultanée.
 
@@ -303,7 +303,7 @@ ms.locfileid: "51105760"
 
    - Pour supprimer un itinéraire de l’enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
 
-   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+   - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
    - Pour modifier un itinéraire qui est déjà associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route).
 
@@ -319,7 +319,7 @@ ms.locfileid: "51105760"
 
      - Pour supprimer un itinéraire de cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Supprimer**.
 
-     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de voix dans Skype Entreprise.](create-or-modify-a-voice-route.md)
+     - Pour définir un nouvel itinéraire et l’associer à cet enregistrement d’utilisation PSTN, cliquez sur **Nouveau**. Pour plus d’informations, [voir Créer ou modifier un itinéraire de](create-or-modify-a-voice-route.md)voix dans Skype Entreprise .
 
      - Pour modifier un itinéraire qui est déjà associé à cet enregistrement d’utilisation PSTN, sélectionnez l’itinéraire, puis cliquez sur **Afficher les détails**. Pour plus d’informations, voir [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route).
 
@@ -332,9 +332,9 @@ ms.locfileid: "51105760"
 11. Dans la page **Stratégie de la voix**, cliquez sur **Valider**, puis sur **Valider tout**.
 
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir Publier les modifications en attente de la configuration du [routage](voice-route-config-changes.md) des voix dans Skype Entreprise dans la documentation des opérations.
+    > Chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
 
-12. (Facultatif) La boîte d’écoute de messagerie vocale détecte qu’un appel a été immédiatement répondu par la messagerie vocale du téléphone mobile de l’utilisateur et déconnecte l’appel vers la messagerie vocale du téléphone mobile. Cela permet à l’appel de continuer à sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Pour plus d’informations sur la configuration d’une stratégie de messagerie vocale, voir [Configure voice mail escape in Skype for Business](configure-voice-mail-escape.md).
+12. (Facultatif) La boîte d’écoute de messagerie vocale détecte qu’un appel a été immédiatement répondu par la messagerie vocale du téléphone mobile de l’utilisateur et déconnecte l’appel de la messagerie vocale du téléphone mobile. Cela permet à l’appel de continuer à sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Pour plus d’informations sur la configuration d’une stratégie de messagerie vocale, voir [Configure voice mail escape in Skype Entreprise](configure-voice-mail-escape.md).
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -342,6 +342,6 @@ ms.locfileid: "51105760"
 
 [Créer ou modifier un itinéraire de voix dans Skype Entreprise](create-or-modify-a-voice-route.md)
 
-[Publication des modifications en attente de la configuration du routage des voix dans Skype Entreprise](voice-route-config-changes.md)
+[Publier les modifications en attente de la configuration du routage des Skype Entreprise](voice-route-config-changes.md)
 
 [Configurer l’échappatoire de messagerie vocale dans Skype Entreprise](configure-voice-mail-escape.md)

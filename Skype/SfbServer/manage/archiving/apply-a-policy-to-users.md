@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Résumé : Découvrez comment affecter une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server.'
-ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311092"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Appliquer une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server
 
 **Résumé :** Découvrez comment affecter une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server.
   
-Si vous avez créé une ou plusieurs stratégies utilisateur pour l’archivage pour les utilisateurs de Skype Entreprise Server, vous pouvez implémenter la prise en charge de l’archivage pour des utilisateurs spécifiques en appliquant les stratégies appropriées à ces utilisateurs ou groupes d’utilisateurs. Par exemple, si vous créez une stratégie pour prendre en charge l’archivage des communications internes, vous pouvez l’appliquer à au moins un utilisateur ou groupe d’utilisateurs pour prendre en charge l’archivage des communications Skype Entreprise Server de l’utilisateur.
+Si vous avez créé une ou plusieurs stratégies utilisateur pour l’archivage des utilisateurs sur Skype Entreprise Server, vous pouvez implémenter la prise en charge de l’archivage pour des utilisateurs spécifiques en appliquant les stratégies appropriées à ces utilisateurs ou groupes d’utilisateurs. Par exemple, si vous créez une stratégie pour prendre en charge l’archivage des communications internes, vous pouvez l’appliquer à au moins un utilisateur ou groupe d’utilisateurs pour prendre en charge l’archivage des communications Skype Entreprise Server de l’utilisateur.
   
 > [!NOTE]
-> Si vous avez activé l’intégration De Microsoft Exchange pour votre déploiement, les stratégies de la In-Place Exchange contrôlent si l’archivage est activé pour les utilisateurs qui sont homed on Exchange et dont les boîtes aux lettres sont mises en In-Place archive. Pour plus d’informations, voir [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
+> Si vous avez activé l’intégration de Microsoft Exchange pour votre déploiement, les stratégies de Exchange In-Place Hold contrôlent si l’archivage est activé pour les utilisateurs qui sont homed on Exchange et dont les boîtes aux lettres sont mises en archive In-Place. Pour plus d’informations, voir [Plan for archiving in Skype Entreprise Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype Entreprise Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Appliquer une stratégie utilisateur à l’aide du Panneau de contrôle
 
@@ -34,22 +34,22 @@ Pour appliquer une stratégie utilisateur à l’aide du Panneau de contrôle :
   
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**, puis recherchez le compte d’utilisateur que vous souhaitez configurer. 
     
 4. Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
     
-5. Dans **Modifier l’utilisateur Lync Server sous** stratégie d’archivage, sélectionnez la stratégie utilisateur d’archivage à appliquer. 
+5. Dans **Modifier l’utilisateur Lync Server sous** **stratégie** d’archivage, sélectionnez la stratégie utilisateur d’archivage à appliquer.
     
     > [!NOTE]
     > Les **\<Automatic\>** paramètres appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.
   
 6. Cliquez sur **Valider**.
     
-## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Appliquer une stratégie utilisateur à l’aide de Windows PowerShell
+## <a name="apply-a-user-policy-by-using-windows-powershell"></a>Appliquer une stratégie utilisateur à l’aide Windows PowerShell
 
-Vous pouvez également appliquer une stratégie utilisateur à l’aide de l Windows PowerShell de l’application **Grant-CsArchivingPolicy.**
+Vous pouvez également appliquer une stratégie utilisateur à l’aide Windows PowerShell **cmdlet Grant-CsArchivingPolicy.**
   
 La commande suivante assigne la stratégie d’archivage par utilisateur RedmondArchivingPolicy à l’utilisateur Ken Myer.
   
@@ -63,7 +63,7 @@ Cette commande affecte la stratégie d’archivage par utilisateur RedmondArchiv
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 ```
 
-La commande suivante supprime toute stratégie d’archivage par utilisateur précédemment attribuée à Ken Myer. Une fois la stratégie par utilisateur supprimée, Ken Myer est automatiquement géré à l’aide de la stratégie globale ou, le cas présent, de sa stratégie de site local. La stratégie de site est prioritaire sur la stratégie globale.
+La commande suivante supprime toute stratégie d’archivage par utilisateur précédemment affectée à Ken Myer. Une fois la stratégie par utilisateur supprimée, Ken Myer est automatiquement géré à l’aide de la stratégie globale ou, le cas présent, de sa stratégie de site local. La stratégie de site est prioritaire sur la stratégie globale.
   
 ```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
