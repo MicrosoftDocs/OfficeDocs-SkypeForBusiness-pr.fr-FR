@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Chaque enregistrement représente un flux audio. Une ligne de média audio contient généralement deux flux audio.
-ms.openlocfilehash: e24a5c8611c3f6bf7b56edf342aa2595f6794a90
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 28111f9c97efdc729d13fda824f4236caad97eee1f08ff31eea0b751dda1cb88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309193"
 ---
 # <a name="audiostream-table"></a>Table AudioStream
  
@@ -68,7 +68,7 @@ Chaque enregistrement représente un flux audio. Une ligne de média audio conti
 |**HealerFECPacketUsedRatio** <br/> |float  <br/> ||Ratio des paquets de correction d’erreur avant utilisés par rapport au nombre total de paquets reçus.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**MaxCompressedSamples** <br/> |float  <br/> ||Nombre maximal de paquets audio compressés par le système de soins.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**LossCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage du temps où l’appel était dans un état de congestion de perte.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel au cours duquel la congestion a été causée par l’arrivée différée de paquets réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel pendant lequel la congestion a été causée par l’arrivée différée de paquets réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ContentionDetectedPercent** <br/> |float  <br/> ||Indique le pourcentage du temps où l’appel était en concurrence pour les ressources réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**BandwidthEstMin** <br/> |int  <br/> ||Quantité minimale d’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**BandwidthEstMax** <br/> |int  <br/> ||Quantité maximale d’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

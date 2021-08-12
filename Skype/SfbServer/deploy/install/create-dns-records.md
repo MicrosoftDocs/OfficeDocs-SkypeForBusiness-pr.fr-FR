@@ -16,33 +16,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: 'Résumé : Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation gratuite de Skype Entreprise Server à partir du Centre d’évaluation Microsoft à l’adresse : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server'
-ms.openlocfilehash: 3808216e0732d6e3af2f32e27d79d78727ddc105
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: "Résumé : Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
+ms.openlocfilehash: 94d4f9d0713c2516e466ae25faf05808a56ac103c0571dd151bdc25e2a892f8e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307745"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Créer des enregistrements DNS pour Skype Entreprise Server
  
-**Résumé :** Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation gratuite de Skype Entreprise Server à partir du Centre d’évaluation Microsoft à l’adresse : [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
+**Résumé :** Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) l':.
   
-Pour que Skype Entreprise Server fonctionne correctement, un certain nombre de paramètres DNS (Domain Name System) doivent être en place. Cela afin que les clients sachent comment accéder aux services et que les serveurs se connaissent mutuellement. Ces paramètres ne doivent être remplis qu’une seule fois par déploiement, car une fois que vous avez attribué une entrée DNS, elle est disponible dans l’ensemble du domaine. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. La création d’enregistrements DNS comprend l’étape 5 sur 8. Pour plus d’informations sur la planification du DNS, voir [Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md).
+Pour Skype Entreprise Server fonctionne correctement, un certain nombre de paramètres DNS (Domain Name System) doivent être en place. Cela afin que les clients sachent comment accéder aux services et que les serveurs se connaissent mutuellement. Ces paramètres ne doivent être remplis qu’une seule fois par déploiement, car une fois que vous avez attribué une entrée DNS, elle est disponible dans l’ensemble du domaine. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. La création d’enregistrements DNS comprend l’étape 5 sur 8. Pour plus d’informations sur la planification du DNS, voir [Environmental requirements for Skype Entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype Entreprise Server [2019](../../../SfBServer2019/plan/system-requirements.md).
   
 > [!IMPORTANT]
-> Il est important de noter qu’il s’agit simplement d’un exemple de création d’enregistrements DNS dans un environnement DNS Windows Server. De nombreuses autres entrées DNS sont requises pour Skype Entreprise Server, et la procédure de création des enregistrements DNS dépend du système que vous utilisez pour gérer le DNS dans votre organisation. Pour obtenir la liste complète des conditions requises pour le DNS, voir [DNS requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md). 
+> Il est important de noter qu’il s’agit simplement d’un exemple de création d’enregistrements DNS dans un environnement DNS Windows Server. De nombreuses autres entrées DNS sont requises pour Skype Entreprise Server, et la procédure de création des enregistrements DNS dépend du système que vous utilisez pour gérer le DNS dans votre organisation. Pour obtenir la liste complète des conditions requises pour le DNS, consultez la liste des conditions requises pour [le DNS Skype Entreprise Server](../../plan-your-deployment/network-requirements/dns.md). 
   
 ![Diagramme de vue d’ensemble](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>Configurer le DNS
 
-Les enregistrements DNS sont requis pour que Skype Entreprise Server fonctionne correctement et soit accessible par les utilisateurs.
+Les enregistrements DNS sont requis pour Skype Entreprise Server fonctionnent correctement et soient accessibles par les utilisateurs.
   
-Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local. Ce pool se compose de trois serveurs exécutant Skype Entreprise Server Enterprise Edition. Un serveur frontal Standard Edition ne peut contenir qu’un seul serveur. À l’aide de Standard Edition, vous utilisez uniquement le nom de domaine complet (FQDN) du serveur Standard Edition unique lors du référencement du rôle frontal au lieu de créer un pool de serveurs DNS à charge équilibrée, comme le montre cet exemple. Cet exemple simple qui utilise uniquement le rôle frontal inclut les entrées DNS du tableau suivant. Pour planifier vos besoins DNS spécifiques, voir [DNS requirements for Skype for Business Server](../../plan-your-deployment/network-requirements/dns.md). 
+Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local. Ce pool se compose de trois serveurs exécutant Skype Entreprise Server Êdition Entreprise. Un Édition Standard frontal ne peut contenir qu’un seul serveur. À l’aide de Édition Standard, vous utilisez uniquement le nom de domaine complet (FQDN) du serveur Édition Standard unique lors du référencement du rôle frontal au lieu de créer un pool de serveurs d’équilibrage de charge DNS, comme le montre cet exemple. Cet exemple simple qui utilise uniquement le rôle frontal inclut les entrées DNS du tableau suivant. Pour planifier vos besoins DNS spécifiques, consultez les exigences [DNS pour Skype Entreprise Server](../../plan-your-deployment/network-requirements/dns.md). 
   
  
-|**Description**|**Type d'enregistrement**|**Name**|**Résolu en**|**Type d’équilibrage de charge**|
+|**Description**|**Type d’enregistrement**|**Name**|**Résolu en**|**Type d’équilibrage de charge**|
 |:-----|:-----|:-----|:-----|:-----|
 |FQDN des services web internes  <br/> |A  <br/> |webint.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |Nom de domaine complet du pool  <br/> |A  <br/> |pool.contoso.local  <br/> |Adresse IP du serveur SFB01  <br/> |DNS  <br/> |
@@ -51,7 +51,7 @@ Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local
 |SFB02 FQDN  <br/> |A  <br/> |SFB02.contoso.local  <br/> |Adresse IP du serveur SFB02  <br/> |DNS  <br/> |
 |Nom de domaine complet du pool  <br/> |A  <br/> |pool.contoso.local  <br/> |Adresse IP du serveur SFB03  <br/> |DNS  <br/> |
 |SFB03 FQDN  <br/> |A  <br/> |SFB03.contoso.local  <br/> |Adresse IP du serveur SFB03  <br/> |DNS  <br/> |
-|Découverte automatique de Skype Entreprise  <br/> |A  <br/> |lyncdiscoverinternal.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
+|Skype Entreprise Découverte automatique  <br/> |A  <br/> |lyncdiscoverinternal.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |URL simple de réunion  <br/> |A  <br/> |meet.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |URL simple de numérotation  <br/> |A  <br/> |dialin.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |URL simple du Programmeur Web  <br/> |A  <br/> |scheduler.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
@@ -72,7 +72,7 @@ Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local
   
 5. Dans la **zone** Nom, tapez le nom de l’enregistrement hôte (le nom de domaine sera automatiquement ajouté).
     
-6. Dans la zone Adresse **IP,** tapez l’adresse IP du serveur frontal individuel, puis sélectionnez Créer un enregistrement de **pointeur associé (PTR)** ou autoriser tout utilisateur authentifié à mettre à jour les enregistrements **DNS** avec le même nom de propriétaire, le cas échéant. Notez que cela suppose que le DNS est utilisé pour équilibrer la charge de tout le trafic à l’exception des services web. Dans cet exemple, nous avons trois serveurs frontux, comme indiqué dans le tableau.
+6. Dans la zone Adresse **IP,** tapez l’adresse IP du serveur frontal individuel, puis sélectionnez Créer un enregistrement de **pointeur associé (PTR)** ou Autoriser tout utilisateur authentifié à mettre à jour les enregistrements **DNS** avec le même nom de propriétaire, le cas échéant. Notez que cela suppose que le DNS est utilisé pour équilibrer la charge de tout le trafic à l’exception des services web. Dans cet exemple, nous avons trois serveurs frontux, comme indiqué dans le tableau.
     
    |**Nom du serveur**|**Type**|**Données**|
    |:-----|:-----|:-----|
@@ -80,10 +80,10 @@ Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local
    |SFB02  <br/> |Hôte (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |Hôte (A)  <br/> |10.0.0.7  <br/> |
    
-7. Ensuite, créez les entrées d’équilibrage de charge DNS pour le pool. L’équilibrage de charge DNS permet au DNS d’envoyer des demandes aux serveurs individuels du pool tout en utilisant le même nom de pool DNS. Pour plus d’informations sur le DNS et l’équilibrage de charge, voir la demande [DNS pour Skype Entreprise Server.](../../plan-your-deployment/network-requirements/dns.md) 
+7. Ensuite, créez les entrées d’équilibrage de charge DNS pour le pool. L’équilibrage de charge DNS permet au DNS d’envoyer des demandes aux serveurs individuels du pool tout en utilisant le même nom de pool DNS. Pour plus d’informations sur le DNS et l’équilibrage de charge, voir [la](../../plan-your-deployment/network-requirements/dns.md)Skype Entreprise Server . 
     
     > [!NOTE]
-    > La mise en pool de plusieurs serveurs est disponible uniquement dans les déploiements Enterprise Edition. Si vous déployez un seul serveur Enterprise Server ou Standard Edition Server, vous devez créer uniquement un enregistrement A pour le serveur unique. 
+    > La mise en pool de plusieurs serveurs est disponible uniquement dans Êdition Entreprise déploiements. Si vous déployez un serveur Enterprise ou un serveur Édition Standard, vous devez créer uniquement un enregistrement A pour le serveur unique. 
   
     Par exemple, si vous avez un pool nommé pool.contoso.local et trois serveurs frontaux, vous devez créer les entrées DNS suivantes :
     
@@ -105,7 +105,7 @@ Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local
     
 13. Cliquez sur **Numéro de port**, puis tapez **5061**.
     
-14. Cliquez **sur Hôte offrant ce service,** puis tapez le nom de groupe du pool ou du serveur Standard Edition Server.
+14. Cliquez **sur Hôte offrant ce service,** puis tapez le nom de Édition Standard serveur.
     
      ![Capture d’écran de la boîte de dialogue nouvel enregistrement de ressource.](../../media/54b1aac5-a2ec-41fe-90c0-02eaeaa9d1b4.png)
   

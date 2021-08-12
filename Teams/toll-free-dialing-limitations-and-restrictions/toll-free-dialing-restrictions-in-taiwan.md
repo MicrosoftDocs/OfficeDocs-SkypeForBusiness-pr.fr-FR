@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits à Taïwan, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
-ms.openlocfilehash: 81a5afeb80316454b816f2803c2beb440d80a301
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 80858d3fea2928239543210c2bbe8f814b4f39e42d122a34158d035bd8ab406a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308305"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>Restrictions de numérotation gratuit en Taiwan
 
@@ -47,7 +47,7 @@ ms.locfileid: "51097660"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Pas d'accès par ligne filaire via KG Telecom. Accès mobile : Aucun temps d'accès n'est facturé. Pour l'accès mobile : Accès via tous les réseaux mobiles sauf KG Telecom.  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

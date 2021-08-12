@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport d’utilisation Teams’appa
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d47888884ce86bfa56546a9df600ce958380e0d
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 15dfe1fe7e79e909b11093c019ac38c6cb5d967e46146d4ce0262499ca880018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308375"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
@@ -51,9 +51,9 @@ Le Teams d’utilisation des appareils dans le Microsoft Teams d’administratio
 
 Pour anonymisation des données Teams rapport d’utilisation des appareils, vous devez être administrateur général. Cela a pour effet de masquer les informations identifiables telles que le nom d’affichage, le courrier électronique et l’ID AAD dans le rapport et leur exportation.
 
-1. Dans Microsoft 365 d’administration, sélectionnez  Rapports Paramètres \> **l’Paramètres** **organisation.** 
+1. Dans Centre d’administration Microsoft 365, sélectionnez  l’Paramètres Paramètres organisation, puis sous l’onglet \>  **Services,** sélectionnez **Rapports.**
     
-2. Sélectionnez **Rapports,** puis choisissez **d’afficher les identificateurs anonymes.** Ce paramètre est appliqué aux rapports d’utilisation du Microsoft 365 d’administration, ainsi qu’Teams centre d’administration.
+2. Sélectionnez **Rapports,** puis choisissez **d’afficher les identificateurs anonymes.** Ce paramètre est appliqué aux rapports d’utilisation dans Centre d’administration Microsoft 365 ainsi qu’Teams centre d’administration.
   
 3. Sélectionnez **Enregistrer les modifications.**
 

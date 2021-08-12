@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: 'Résumé : Découvrez comment configurer la messagerie vocale dans Skype Entreprise Server à l’aide de Skype Entreprise Server Management Shell.'
-ms.openlocfilehash: c74142cf3b0f6c9d5a871e116d8e163a095ad3cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment configurer la boîte aux lettres d’Skype Entreprise Server à l’aide de Skype Entreprise Server Management Shell.'
+ms.openlocfilehash: f94a9e78d5f1b88644691d43b7c24169e6122e6188f7ee45c095521230b6be3f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279422"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurer l’échappatoire de messagerie vocale dans Skype Entreprise
 
-**Résumé :** Découvrez comment configurer la messagerie vocale dans Skype Entreprise Server à l’aide de Skype Entreprise Server Management Shell.
+**Résumé :** Découvrez comment configurer l’échappatoire de messagerie vocale dans Skype Entreprise Server à l’aide de Skype Entreprise Server Management Shell.
 
-Lorsqu’un utilisateur configure la sonnerie simultanée sur un téléphone mobile, un appelant est généralement acheminé vers la messagerie vocale personnelle de l’utilisateur si le téléphone mobile est éteint, hors batterie ou hors de portée. Avec Skype Entreprise Server, les utilisateurs peuvent choisir d’avoir des appels professionnels acheminés vers leur système de messagerie vocale d’entreprise. Plus précisément, un timer peut être configuré et, si la messagerie vocale de l’opérateur répond à l’appel dans la plage de temps définie, Skype Entreprise Server se déconnecte du système de messagerie vocale de l’opérateur (et de la messagerie vocale personnelle de l’utilisateur), tandis que les points de terminaison restants de l’utilisateur dans le système d’entreprise continuent de sonner. Ainsi, l’appelant est automatiquement acheminé vers la messagerie vocale d’entreprise de l’utilisateur.
+Lorsqu’un utilisateur configure la sonnerie simultanée sur un téléphone mobile, un appelant est généralement acheminé vers la messagerie vocale personnelle de l’utilisateur si le téléphone mobile est éteint, hors batterie ou hors de portée. Avec Skype Entreprise Server, les utilisateurs peuvent choisir d’avoir des appels professionnels acheminés vers leur système de messagerie vocale d’entreprise. Plus précisément, un système de temps peut être configuré et, si la messagerie vocale de l’opérateur répond à l’appel dans la plage de temps définie, Skype Entreprise Server se déconnecte du système de messagerie vocale de l’opérateur (et de la messagerie vocale personnelle de l’utilisateur), tandis que les points de terminaison restants de l’utilisateur dans le système d’entreprise continuent de sonner. Ainsi, l’appelant est automatiquement acheminé vers la messagerie vocale d’entreprise de l’utilisateur.
 
-Cette configuration est effectuée à l’aide de l’cmdlet Skype Entreprise Server Management Shell, **Set-CsVoicePolicy,** au niveau de la stratégie de voix, avec les paramètres suivants.
+Cette configuration est effectuée à l’aide de l’Skype Entreprise Server Management Shell, **Set-CsVoicePolicy,** au niveau de la stratégie de voix, avec les paramètres suivants.
 
 ### <a name="to-configure-voice-mail-escape"></a>Pour configurer l’échappage de messagerie vocale
 
-1. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 2. Spécifiez les paramètres suivants de **Set-CsVoicePolicy** :
 

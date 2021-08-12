@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: Le schéma de base de données de conversation permanente se compose des tableaux suivants.
-ms.openlocfilehash: fc87faee92856f35c1ebd54dae4db1f01cfe646b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bc7189eac8e8fbd42cdaa5786b82d5652c616a69ae3fc4fc180c189416a94468
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813014"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280937"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>Liste des tables de serveur de conversation permanente
  

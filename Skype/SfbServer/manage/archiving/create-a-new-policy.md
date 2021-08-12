@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Résumé : Découvrez comment créer une stratégie d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7793575e75fcee4509c96cd6a569520a4a34576e850818a52dd20518ee725de2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095418"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280977"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Créer une stratégie d’archivage dans Skype Entreprise Server
 
@@ -31,7 +31,7 @@ Pour créer une stratégie d’archivage à l’aide du Panneau de contrôle :
   
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
     
@@ -54,9 +54,9 @@ Pour créer une stratégie d’archivage à l’aide du Panneau de contrôle :
 6. Cliquez sur **Valider**.
     
     > [!IMPORTANT]
-    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [Appliquer une stratégie d’archivage](apply-a-policy-to-users.md)aux utilisateurs dans Skype Entreprise Server. 
+    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [Appliquer une stratégie d’archivage](apply-a-policy-to-users.md)aux utilisateurs dans Skype Entreprise Server . 
   
-## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Créer une stratégie d’archivage à l’aide de Windows PowerShell
+## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Créer une stratégie d’archivage à l’aide Windows PowerShell
 
 Vous pouvez également créer de nouvelles stratégies d’archivage à l’Windows PowerShell cmdlet **New-CsArchivingPolicy.** Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [New-CsArchivingPolicy.](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
   
@@ -76,7 +76,7 @@ Pour créer une stratégie d’archivage au niveau de l’utilisateur, spécifie
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy"
 ```
 
-### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Pour créer une stratégie d’archivage qui permet l’archivage des sessions de communication internes
+### <a name="to-create-a-new-archiving-policy-that-enables-archiving-of-internal-communication-sessions"></a>Pour créer une stratégie d’archivage qui active l’archivage des sessions de communication internes
 
 Dans la mesure où aucun paramètre (à l’exception du paramètre obligatoire Identity) n’a été spécifié dans les commandes précédentes, les nouvelles stratégies utilisent les valeurs par défaut pour toutes leurs propriétés. Pour créer des stratégies qui utilisent des valeurs de propriétés distinctes, il vous suffit d’inclure le paramètre et la valeur de paramètre appropriés. Par exemple, la commande suivante crée une stratégie d’archivage qui autorise l’archivage des sessions de messagerie instantanée internes : 
   

@@ -1,5 +1,5 @@
 ---
-title: Créer ou modifier une plage de numéros de prise d’appel de groupe dans Skype Entreprise
+title: Créer ou modifier une plage de numéro de prise d’appel de groupe dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: Créez ou modifiez une plage de numéros de prise d’appel de groupe dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: e71915519014b1fa4cfffa3172327e9949ed73a2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Créez ou modifiez une plage de numéro de prise d’appel de groupe Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 73c2c0b74c27fd59d94d97c5ee05e0da88219601e839d42dc12e0ec659db0aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100420"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307875"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Créer ou modifier une plage de numéros de prise d’appel de groupe dans Skype Entreprise
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Créer ou modifier une plage de numéro de prise d’appel de groupe dans Skype Entreprise
 
-Créez ou modifiez une plage de numéros de prise d’appel de groupe dans Skype Entreprise Server Voix Entreprise.
+Créez ou modifiez une plage de numéro de prise d’appel de groupe Skype Entreprise Server Voix Entreprise.
 
 La prise d’appel de groupe est basée sur l’application de parcage d’appel. Lorsque vous déployez la prise d’appel de groupe, vous devez configurer la table des orbites de parcage d’appel avec des plages de numéros de téléphone désignés comme numéros de groupe de prise d’appel. Ces numéros de groupe sont les numéros que les utilisateurs composent pour prendre les appels qui sonnent pour un autre utilisateur.
 
@@ -34,7 +34,7 @@ Comme les numéros d’orbite de parcage d’appel, les numéros de groupe de pr
 Utilisez la procédure suivante pour créer ou modifier une plage de numéro de groupe de prise d’appel dans la table des orbites de parcage d’appel.
 
 > [!NOTE]
-> Vous devez utiliser Skype Entreprise Server Management Shell pour créer, modifier, supprimer et afficher des plages de numéros de prise d’appel de groupe dans la table des numéros d’appels par parcage. Les plages de numéros de prise d’appel de groupe ne sont pas disponibles dans le Panneau de contrôle Skype Entreprise Server.
+> Vous devez utiliser Skype Entreprise Server Management Shell pour créer, modifier, supprimer et afficher des plages de numéro de prise d’appel de groupe dans la table des orbites de parcage d’appel. Les plages de numéro de prise d’appel de groupe ne sont pas disponibles Skype Entreprise Server panneau de commande.
 
 Les plages de numéro de groupe de prise d’appel doivent respecter les règles suivantes :
 
@@ -46,13 +46,13 @@ Les plages de numéro de groupe de prise d’appel doivent respecter les règles
 
 - Si la plage de nombres commence par le caractère ou #, la plage doit être supérieure \* à 100.
 
-- Valeurs valides : doit correspondre à la chaîne d’expression régulière ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Cela signifie que la valeur doit être une chaîne commençant par le caractère ou # ou un nombre de 1 à 9 (le premier caractère ne peut \* pas être un zéro). Si le premier caractère est ou #, le caractère suivant doit être un nombre \* de 1 à 9 (il ne peut pas être un zéro). Les caractères suivants peuvent être n’importe quel nombre de 0 à 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000 », « \* 92000 », « \* 95551212 » et « 915551212 »). Si le premier caractère n’est pas ou #, le premier caractère doit être un nombre de 1 à 9 (il ne peut pas être zéro), suivi de huit caractères au plus, chacun un nombre de 0 à \* 9 (par exemple, « 915551212 », « 41212 », « 300 »).
+- Valeurs valides : doit correspondre à la chaîne d’expression régulière ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Cela signifie que la valeur doit être une chaîne commençant par le caractère ou # ou un nombre de 1 à 9 (le premier caractère ne peut \* pas être un zéro). Si le premier caractère est ou #, le caractère suivant doit être un nombre \* de 1 à 9 (il ne peut pas être un zéro). Les caractères suivants peuvent être n’importe quel nombre de 0 à 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000 », « \* 92000 », « 95551212 » et \* « 915551212 »). Si le premier caractère n’est pas ou #, le premier caractère doit être un nombre de 1 à 9 (il ne peut pas être zéro), suivi de huit caractères au plus, chacun un nombre \* 0 à 9 (par exemple, « 915551212 », « 41212 », « 300 »).
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>Pour créer ou modifier une plage de groupes de prise d’appel
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **2015,** puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 3. Utilisez **New-CsCallParkOrbit** pour créer une nouvelle plage de numéros de groupe de prise d’appel. Utilisez **Set-CsCallParkOrbit** pour modifier une plage existante de numéros de prise d’appel.
 

@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Vous sélectionnez les bases de données que vous voulez créer pour votre déploiement. Par défaut, la base de données est créée sur les SQL Server définies dans le site défini, et déploie et configure automatiquement les fichiers de base de données en fonction de la SQL Server sur qui vous placez les bases de données.
-ms.openlocfilehash: 3e7e2e0aaec55c595a4f538238c431feb9173152
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1a26353ed44529cd19f94b70fdf25f72fbd8f8d4bb81aa0da41c523d3d35a500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281057"
 ---
 # <a name="install-and-create-databases"></a>Installer et créer des bases de données
 
-Vous sélectionnez les bases de données que vous voulez créer pour votre déploiement. Par défaut, la base de données est créée sur le SQL Server défini dans le site défini, et déploie et configure automatiquement les fichiers de base de données en fonction de la SQL Server sur qui vous placez les bases de données.
+Vous sélectionnez les bases de données que vous voulez créer pour votre déploiement. Par défaut, la base de données est créée sur les SQL Server définies dans le site défini, et déploie et configure automatiquement les fichiers de base de données en fonction de la SQL Server sur qui vous placez les bases de données.
 
  **Sélectionnez les bases de données que vous souhaitez créer** : activez la case à cocher de toutes les bases de données que vous envisagez de déployer et de configurer. Activez la case à cocher de certaines ou de toutes les bases de données que vous déploierez.
 

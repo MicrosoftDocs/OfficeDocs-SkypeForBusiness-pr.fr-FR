@@ -1,5 +1,5 @@
 ---
-title: Création ou modification d’un itinéraire de messagerie vocale dans Skype Entreprise
+title: Créer ou modifier un itinéraire de voix dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Résumé : Découvrez comment créer ou modifier un itinéraire de messagerie vocale dans Skype Entreprise Server à l’aide du Panneau de contrôle Skype Entreprise Server.'
-ms.openlocfilehash: c6f1e50971551866cfa6cb12eb6a259ac2f932f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment créer ou modifier un itinéraire de voix dans Skype Entreprise Server à l’aide du Panneau de Skype Entreprise Server de conférence.'
+ms.openlocfilehash: a9ae7d0e1cff6f4fa49346b67c08253c108e026ec352606cf4f73fc0dc6a7640
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105840"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279342"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Création ou modification d’un itinéraire de messagerie vocale dans Skype Entreprise
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Créer ou modifier un itinéraire de voix dans Skype Entreprise
  
-**Résumé :** Découvrez comment créer ou modifier un itinéraire de messagerie vocale dans Skype Entreprise Server à l’aide du Panneau de contrôle Skype Entreprise Server.
+**Résumé :** Découvrez comment créer ou modifier un itinéraire des Skype Entreprise Server à l’aide du Panneau de Skype Entreprise Server de conférence.
   
-### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Pour créer un itinéraire de voix à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Pour créer un itinéraire de voix à l’aide du Skype Entreprise Server de contrôle
 
 1. Connectez-vous à l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins, ou en tant que membre du rôle d’administrateur **CsVoiceAdministrator**, **CsServerAdministrator** ou **CsAdministrator**.
     
-2. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2. Ouvrez Skype Entreprise Server panneau de contrôle.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**.
     
@@ -49,7 +49,7 @@ ms.locfileid: "51105840"
     
    - **Chiffres de début pour les nombres** que vous souhaitez autoriser : entrez les valeurs de préfixe que cet itinéraire doit prendre en charge (y compris le + de début si nécessaire). Par exemple, tapez +425, puis cliquez sur **Ajouter.** Répétez cette étape pour chaque valeur de préfixe que vous souhaitez inclure dans l’itinéraire.
     
-   - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire s’adaptera. Par exemple, pour exclure de l’itinéraire des numéros commençant par +425237, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK.**
+   - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire soit adapté. Par exemple, pour exclure des nombres commençant par +425237 de l’itinéraire, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK**.
     
    - Pour définir le modèle de correspondance manuellement, cliquez sur **Modifier** dans l’outil **Créer un modèle à suivre**, puis saisissez une expression régulière .NET Framework afin de spécifier le modèle de correspondance pour les numéros de téléphone de destination auxquels l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir [« .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)». 
     
@@ -57,26 +57,26 @@ ms.locfileid: "51105840"
     
 10. Pour associer une ou plusieurs liaisons  à l’itinéraire des messages vocaux, cliquez sur Ajouter, puis sélectionnez une trunk dans la liste.
     
-11. Pour associer une ou plusieurs utilisations du réseau téléphonique commuté  (PSTN) à l’itinéraire des communications vocales, cliquez sur Sélectionner et choisir un enregistrement dans la liste des enregistrements d’utilisation PSTN définis pour votre déploiement Voix Entreprise.
+11. Pour associer une ou plusieurs utilisations du réseau téléphonique commuté  (PSTN) à l’itinéraire des communications vocales, cliquez sur Sélectionner et choisir un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définis pour votre déploiement Voix Entreprise.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir Afficher les enregistrements d’utilisation [PSTN dans Skype Entreprise.](view-pstn-usage-records.md) > pour créer ou modifier des enregistrements d’utilisation PSTN, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation [PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir Afficher les enregistrements d’utilisation [PSTN dans Skype Entreprise](view-pstn-usage-records.md). > pour créer ou modifier des enregistrements d’utilisation PSTN, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation [PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
   
 12. Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillez le nom de l’enregistrement et cliquez sur la flèche vers le haut ou vers le bas.
     
     > [!NOTE]
-    > Contrairement à une stratégie de voix, où l’ordre dans lequel les enregistrements d’utilisation PSTN sont répertoriés est important, l’ordre dans lequel les enregistrements d’utilisation PSTN sont répertoriés dans l’itinéraire de voix n’est pas significatif. Toutefois, nous vous recommandons d’organiser la liste par fréquence d’utilisation. Par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype Entreprise Server parcourt la liste de haut en bas.) 
+    > Contrairement à une stratégie de voix, où l’ordre dans lequel les enregistrements d’utilisation PSTN sont répertoriés est important, l’ordre dans lequel les enregistrements d’utilisation PSTN sont répertoriés dans l’itinéraire de voix n’est pas significatif. Toutefois, nous vous recommandons d’organiser la liste par fréquence d’utilisation. Par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype Entreprise Server parcourt la liste du haut vers le bas.) 
   
 13. (Facultatif) Tapez une valeur dans le champ **Entrez un numéro traduit à tester** et cliquez sur **OK**. Les résultats du test sont affichés sous le champ.
     
 14. Cliquez sur **OK** pour enregistrer l’itinéraire de communications vocales.
     
     > [!IMPORTANT]
-    > Chaque fois que vous créez un itinéraire de voix, vous devez exécuter la commande **Valider** tout pour publier la modification de configuration. Pour plus d’informations, voir Publier les modifications en attente de la configuration du routage des voix [dans Skype Entreprise.](voice-route-config-changes.md) 
+    > Chaque fois que vous créez un itinéraire de voix, vous devez exécuter la commande **Valider** tout pour publier la modification de configuration. Pour plus d’informations, voir Publier les modifications en attente de la configuration du [routage](voice-route-config-changes.md)des Skype Entreprise . 
   
 ### <a name="to-modify-a-voice-route"></a>Pour modifier un itinéraire de communications vocales
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de contrôle.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Itinéraire**.
     
@@ -94,9 +94,9 @@ ms.locfileid: "51105840"
     
    - Pour utiliser l’outil **Créer un modèle à suivre** afin de générer une expression régulière, entrez les valeurs comme suit. Vous pouvez spécifier deux types de correspondance de modèles :
     
-   - **Chiffres de début pour les nombres** que vous souhaitez autoriser : entrez les valeurs de préfixe que cet itinéraire doit prendre en charge (y compris le + de début si nécessaire). Par exemple, tapez +425, puis cliquez sur **Ajouter.** Répétez cette étape pour chaque valeur de préfixe que vous souhaitez inclure dans l’itinéraire.
+   - **Chiffres de début des numéros que vous souhaitez autoriser** : Entrez les valeurs de préfixe que cet itinéraire doit prendre en charge (y compris le + à gauche si nécessaire). Tapez par exemple +425, puis cliquez sur **Ajouter**. Renouvelez cette procédure pour chaque valeur de préfixe à inclure dans l’itinéraire.
     
-   - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire s’adaptera. Par exemple, pour exclure de l’itinéraire des numéros commençant par +425237, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK.**
+   - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire soit adapté. Par exemple, pour exclure des nombres commençant par +425237 de l’itinéraire, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK**.
     
    - Pour définir manuellement le  modèle de  correspondance, cliquez sur Modifier dans le modèle Créer un modèle pour correspondre à l’outil, puis tapez une expression régulière .NET Framework pour spécifier le modèle de correspondance pour les numéros de téléphone de destination auquel l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir [« .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)». 
     
@@ -104,15 +104,15 @@ ms.locfileid: "51105840"
     
 8. Pour associer une ou plusieurs liaisons PSTN (réseau téléphonique commuté) à l’itinéraire des communications vocales, cliquez sur **Ajouter,** puis sélectionnez une trunk dans la liste.
     
-9. Pour associer une ou plusieurs utilisations PSTN  à l’itinéraire des messages vocaux, cliquez sur Sélectionner et choisir un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définis pour votre déploiement Voix Entreprise réseau.
+9. Pour associer une ou plusieurs utilisations PSTN  à l’itinéraire des services vocaux, cliquez sur Sélectionner et choisissez un enregistrement dans la liste des enregistrements d’utilisation PSTN qui ont été définis pour votre déploiement Voix Entreprise réseau.
     
     > [!NOTE]
-    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir Afficher les enregistrements d’utilisation [PSTN dans Skype Entreprise.](view-pstn-usage-records.md) > pour créer ou modifier des enregistrements d’utilisation PSTN, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation [PSTN dans Skype Entreprise.](voice-policy-and-pstn-usage-records.md) 
+    > Pour afficher les propriétés de chacun des enregistrements d’utilisation PSTN disponibles, voir Afficher les enregistrements d’utilisation [PSTN dans Skype Entreprise](view-pstn-usage-records.md). > pour créer ou modifier des enregistrements d’utilisation PSTN, voir Créer ou modifier une stratégie de voix et configurer les enregistrements d’utilisation [PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md). 
   
 10. Organisez les enregistrements d’utilisation PSTN pour obtenir des performances optimales. Pour modifier la position d’un enregistrement dans la liste, mettez en surbrillez le nom de l’enregistrement et cliquez sur la flèche vers le haut ou vers le bas.
     
     > [!NOTE]
-    > Contrairement à une stratégie de voix dans laquelle l’ordre dans lequel les enregistrements d’utilisation PSTN sont répertoriés est important, l’ordre des enregistrements d’utilisation PSTN dans un itinéraire de voix n’est pas significatif. Il est toutefois recommandé d’organiser la liste par fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype Entreprise Server parcourt la liste de haut en bas.) 
+    > Contrairement à une stratégie de voix dans laquelle l’ordre dans lequel les enregistrements d’utilisation PSTN sont répertoriés est important, l’ordre des enregistrements d’utilisation PSTN dans un itinéraire de voix n’est pas significatif. Il est toutefois recommandé d’organiser la liste par fréquence d’utilisation, par exemple : RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype Entreprise Server parcourt la liste du haut vers le bas.) 
   
 11. (Facultatif) Tapez une valeur dans le champ **Entrez un numéro traduit à tester** et cliquez sur **OK**. Les résultats du test sont affichés sous le champ.
     
@@ -121,12 +121,12 @@ ms.locfileid: "51105840"
 13. Dans la page **Itinéraire**, cliquez sur **Valider**, puis sur **Valider tout**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou modifiez un itinéraire de voix, vous devez exécuter la commande **Valider** tout pour publier la modification de configuration. Pour plus d’informations, voir Publier les modifications en attente de la configuration du [routage](voice-route-config-changes.md) des voix dans Skype Entreprise dans la documentation des opérations.
+    > Chaque fois que vous créez ou  modifiez un itinéraire de voix, vous devez exécuter la commande Valider tout pour publier la modification de configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
   
 ## <a name="see-also"></a>Voir aussi
 
 [Afficher les enregistrements d’utilisation PSTN dans Skype Entreprise](view-pstn-usage-records.md)
   
-[Création ou modification d’une stratégie de voix et configuration des enregistrements d’utilisation PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
+[Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
   
-[Publication des modifications en attente de la configuration du routage des voix dans Skype Entreprise](voice-route-config-changes.md)
+[Publier les modifications en attente de la configuration du routage des Skype Entreprise](voice-route-config-changes.md)

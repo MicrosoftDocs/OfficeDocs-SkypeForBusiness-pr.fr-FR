@@ -17,16 +17,16 @@ search.appverid: MET150
 description: Découvrez les ressources pour aider à l’adoption de Business Voice une fois l’installation terminée.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f812a4368a259069d21188c87dc7b12573481b99
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: bdf412c2279b0cb0740511534b7a839ad5434c12141d2cf225fdbf9d5e1b5924
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309003"
 ---
 # <a name="finished-business-voice-setup"></a>Configuration terminée de Voix Entreprise
 
-**Félicitations !** Vous avez terminé la configuration de Microsoft 365 Business Voice. Voici des ressources utiles pour gérer Business Voice et aider vos utilisateurs à obtenir le meilleur de leur nouvelle expérience en téléphone, en réunion et en audioconférence.
+**Félicitations !** Vous avez terminé la configuration de la Microsoft 365 Business Voice. Voici des ressources utiles pour gérer Business Voice et aider vos utilisateurs à obtenir le meilleur de leur nouvelle expérience en téléphone, en réunion et en audioconférence.
 
 Les tableaux suivants listent des ressources qui vous aideront à 1000 Teams et Business Voice.
 

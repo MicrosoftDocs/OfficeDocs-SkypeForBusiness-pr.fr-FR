@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4298cc34122d6b3bb7d9f9bb1f8698aec864426f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6cfa0f6aecf2dfeb708d51ff6ebd98f13a36167125f295329f3e37b2e39c0daf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280907"
 ---
 # <a name="phone-system-direct-routing"></a>Routage direct via le système téléphonique
 
@@ -60,7 +60,7 @@ Il s’agit des principales décisions à prendre en considération pour le rout
 Ai-je les licences requises pour le routage direct ? | Pour plus d’informations, voir [Licences et autres conditions requises.](direct-routing-plan.md#licensing-and-other-requirements)
 |||
 
-### <a name="session-border-controller-sbc-considerations"></a>Considérations en considérations du contrôleur de session border Controller (SBC)
+### <a name="session-border-controller-sbc-considerations"></a>Considérations en considérations du contrôleur de bordure de session (SBC)
 
 Avec le routage direct, vous connectez votre propre contrôleur de session Border Controller (SBC) directement à Système téléphonique.  Pour obtenir la liste des SBCs [certifiés,](direct-routing-border-controllers.md)voir Contrôleurs de session en bordure pris en charge.
 

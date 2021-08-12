@@ -1,5 +1,5 @@
 ---
-title: DNS requirements for simple URLs in Skype for Business Server
+title: DNS requirements for simple URLs in Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Résumé : Examinez les considérations sur les URL simples dans cette rubrique avant d’implémenter des enregistrements DNS pour Skype Entreprise Server.'
-ms.openlocfilehash: d1c4213e1fe28c6f42cd4fa14f48bc8ce9b7bdf1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 11e3b5222e7ec1929580049f355525c40884b8d3aa9a55ccfbbdc18264a24500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280947"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS requirements for simple URLs in Skype for Business Server
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS requirements for simple URLs in Skype Entreprise Server
 
 **Résumé :** Examinez les considérations sur les URL simples de cette rubrique avant d’implémenter des enregistrements DNS pour Skype Entreprise Server.
 
-Les URL simples facilitent la réunion pour vos utilisateurs et facilitent l’accès aux outils d’administration de Skype Entreprise Server pour les administrateurs. Les URL simples utilisent leur propre domaine, qui ne doit correspondre à aucun des domaines SIP que vous définissez. 
+Les URL simples facilitent la réunion pour vos utilisateurs et facilitent l’accès Skype Entreprise Server outils d’administration aux administrateurs. Les URL simples utilisent leur propre domaine, qui ne doit correspondre à aucun des domaines SIP que vous définissez. 
 
 Skype Entreprise Server prend en charge les trois URL simples suivantes : Meet, Dial-In et Admin. Vous devez configurer des URL simples pour Meet et Dial-In, et l’URL simple Admin est facultative. Les enregistrements DNS (Domain Name System) dont vous avez besoin pour prendre en charge les URL simples dépendent de la façon dont vous avez défini ces URL simples et de la prise en charge de la récupération d’urgence pour les URL simples. 
 
@@ -31,7 +31,7 @@ Skype Entreprise Server prend en charge les trois URL simples suivantes : Meet, 
 
 Vous pouvez configurer les URL simples de sorte que leur étendue soit globale mais vous pouvez également spécifier des URL simples différentes pour chaque site central dans votre organisation. Si une URL simple globale et une URL simple de site sont spécifiées, l’URL simple de site prévaut. 
 
-Dans la plupart des cas, nous vous recommandons de définir des URL simples uniquement au niveau global, afin que l’URL simple Meet d’un utilisateur ne change pas s’il passe d’un site à un autre. L’exception concernerait les organisations qui doivent utiliser des numéros de téléphone différents pour les utilisateurs de connexion sur différents sites. Notez que si vous définissez une URL simple (telle que l’URL simple dial-in) sur un site comme URL simple au niveau du site, vous devez également définir les autres URL simples sur ce site pour qu’elles soient également au niveau du site.
+Dans la plupart des cas, nous vous recommandons de définir des URL simples uniquement au niveau global, afin que l’URL simple Meet d’un utilisateur ne change pas s’il passe d’un site à un autre. L’exception serait que les organisations doivent utiliser des numéros de téléphone différents pour les utilisateurs de connexion sur différents sites. Notez que si vous définissez une URL simple (telle que l’URL simple dial-in) sur un site comme URL simple au niveau du site, vous devez également définir les autres URL simples sur ce site pour qu’elles soient également au niveau du site.
 
 Vous pouvez définir des URL simples globales dans le Générateur de topologies. Pour définir une URL simple au niveau du site, utilisez Set-CsSimpleURLConfiguration cmdlet.
 

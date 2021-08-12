@@ -1,5 +1,5 @@
 ---
-title: Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise
+title: Déployer des fonctionnalités de gestion des appels dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 02c6669b9cadb952f7ccc71d785416db7414d8a8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61452c8b9f5a072e78d4b85dd17e65ef63c27a0e3daab4f71b0e04d9d13c5a1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307805"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business"></a>Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise
+# <a name="deploy-call-management-features-in-skype-for-business"></a>Déployer des fonctionnalités de gestion des appels dans Skype Entreprise
  
 Déploiement des fonctionnalités de gestion des appels dans Skype Entreprise Server Voix Entreprise.
   
@@ -41,7 +41,7 @@ Cette section décrit comment configurer ces fonctionnalités de gestion des app
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Processus de déploiement du parcage d’appel dans Skype Entreprise](deployment-process-for-call-park.md)
+- [Processus de déploiement du parcage d’appel Skype Entreprise](deployment-process-for-call-park.md)
     
 - [Processus de déploiement de la prise d’appel de groupe dans Skype Entreprise](deployment-process-for-group-call-pickup.md)
     

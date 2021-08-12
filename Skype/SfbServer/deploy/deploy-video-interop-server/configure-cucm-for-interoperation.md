@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Résumé : Configurez CUCM pour qu’il fonctionne avec Skype Entreprise Server.'
-ms.openlocfilehash: 82fa48a185b22973d35bc19484e733e6436ba43e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c414e14feb29dc834ebcd6a62221e3ae5e6706e5ee5c265f155d6ea512a91423
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307755"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurer CUCM pour l’interopération avec Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
   
 ### <a name="configure-the-cucm"></a>Configurer le CUCM
 
-1. Connectez-vous à CUCM et accédez à Administration CM unifiée Cisco - Routage des \> appels - Classe de contrôle - \> \> Partition.
+1. Connectez-vous au CUCM et accédez à Administration CM unifiée Cisco - Routage des \> appels - Classe de contrôle - \> \> Partition.
     
 2. Dans l’écran Configuration de la partition, entrez le nom et la description de la partition, puis cliquez sur **Ajouter nouveau**.
     
@@ -53,7 +53,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
    |Type de transport sortant  <br/> |TCP  <br/> |
    |Port entrant  <br/> |5060  <br/> |
    
-7. Accédez à Administration CM unifiée Cisco - \> Appareil- \> Paramètres de l’appareil - \> Profil SIP.
+7. Accédez à Administration CM unifiée Cisco - \> Appareil - \> Paramètres- Profil \> SIP.
     
 8. Dans l’écran Configuration du profil SIP, définissez les options Informations de profil SIP comme indiqué. 
     
@@ -62,7 +62,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
    |Nom  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    |Description  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
-9. Sur le même écran, faites défiler vers le bas jusqu’à la section Informations de profil SDP. L’option Modificateur de bande passante au niveau de la session SDP pour les offres et les **invitations anticipées** est définie par défaut sur TIAS et AS. Modifiez cette option en TIAS uniquement. Si vous laissez cette option à son paramètre par défaut, Skype Entreprise Server ne comprend pas les informations de modificateur de bande passante dans le message SIP. TIAS signifie « Transport Independent Application Specific » tandis que « AS » signifie « Application Specific ». Voici les options SIP spécifiées dans RFC3890.
+9. Sur le même écran, faites défiler vers le bas jusqu’à la section Informations de profil SDP. L’option Modificateur de bande passante au niveau de la session SDP pour les offres et les **invitations anticipées** est définie par défaut sur TIAS et AS. Modifiez cette option en TIAS uniquement. Si vous laissez cette option à sa valeur par défaut, Skype Entreprise Server ne comprend pas les informations de modificateur de bande passante dans le message SIP. TIAS signifie « Transport Independent Application Specific » tandis que « AS » signifie « Application Specific ». Voici les options SIP spécifiées dans RFC3890.
     
 10. Sur le même écran, faites défiler vers le bas. Sous configuration spécifique de la trunk  du profil SIP, sélectionnez Prise en charge de l’offre anticipée pour les appels vocal et vidéo et définissez-la sur l’option Obligatoire **(insérer MTP si nécessaire).** Cela permettra à CUCM de configurer un appel SIP sortant avec l’offre anticipée. Une nouvelle fonctionnalité de CUCM 8.5 et au-delà est qu’elle prend en charge la configuration des appels sortants avec l’offre anticipée sans nécessiter de point de terminaison multimédia (MTP).
     
@@ -76,9 +76,9 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     
 15. Sous Informations sur l’appareil, définissez le nom et la description de l’appareil (probablement à SfBVideoInterop_SIPTrunk), et définissez la liste des groupes de ressources multimédias sur un MRGL qui contient les ressources multimédias appropriées. 
     
-16. Faites défiler vers le bas. Le point de terminaison multimédia (MTP) n’est pas requis pour les appels vidéo, s’il n’est pas déjà décoché, décochez-le. Cochez l’option **Exécuter sur tous les nodes CM unifiés actifs.** Veuillez noter que vous devez ajouter tous les nodes CUCM à la configuration de Skype Entreprise Server.
+16. Faites défiler vers le bas. Le point de terminaison multimédia (MTP) n’est pas requis pour les appels vidéo, s’il n’est pas déjà décoché, décochez-le. Cochez l’option **Exécuter sur tous les nodes CM unifiés actifs.** Veuillez noter que vous devez ajouter tous les nodes CUCM à la configuration Skype Entreprise Server’ordinateur.
     
-17. Faites défiler vers le bas. Définissez les options Appels entrants et Paramètres de la partie connectée comme indiqué.
+17. Faites défiler vers le bas. Définissez les options d’appels entrants et de Paramètres comme indiqué.
     
     |**Paramètre**|**Valeur recommandée**|
     |:-----|:-----|

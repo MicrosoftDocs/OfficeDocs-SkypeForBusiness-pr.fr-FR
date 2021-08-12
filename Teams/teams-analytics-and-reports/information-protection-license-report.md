@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport sur les licences Teams de pr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f5652ee503d6810a11f1b152dc0ea2dad23cf4df
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 1ea5916cdf2d91a8440f5b674b1dc60ceb29f804dd5b547d1867ffaad69af8d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308335"
 ---
 # <a name="microsoft-teams-information-protection-license-report"></a>Microsoft Teams de licence de protection des informations
 
@@ -33,7 +33,7 @@ Le rapport sur les licences de protection [](/graph/api/resources/subscription?v
 
 Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](../using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
-1. Dans le panneau de navigation gauche du Centre Microsoft Teams’administration, sélectionnez Données d'& **rapports**  >  **d’utilisation** des rapports. Sous **l’onglet Afficher les rapports,** sous **État,** sélectionnez **Licence Protection des informations.**
+1. Dans le panneau de navigation gauche du Centre Microsoft Teams’administration, sélectionnez **Analyse et**  >  **&'utilisation des rapports.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez **Licence Protection des informations.**
 2. Sous **Plage de dates,** sélectionnez une plage.
 3. Sous **Applications,** sélectionnez une application, puis **sélectionnez Exécuter le rapport.**
 
@@ -45,7 +45,7 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 |--------|-------------|
 |**1**   |Le rapport sur les licences de protection des informations permet d’afficher les tendances des 7, 30 ou 90 derniers jours. |
 |**2**   |Le nom de l’application affiche la liste de toutes les applications abonnées à la modification des événements de notification des messages des n derniers jours, telles qu’sélectionnées dans la plage de dates. |
-|**3**   |Le tableau offre une répartition par utilisateur de l’application sélectionnée.<ul><li>**Le nom d’affichage** est le nom d’affichage de l’utilisateur. Sélectionnez le nom d’affichage pour afficher la page des détails de l’utilisateur dans le Microsoft Teams d’administration.</li><li>**A la licence requise** est oui si l’utilisateur dispose d’une des licences requises telles que définies (ici)[ https://docs.microsoft.com/en-us/graph/teams-licenses ]. Si l’utilisateur n’a pas  la licence requise, le lien Attribuer une licence s’affiche, qui permet d’accéder à la page des détails de la licence de l’utilisateur dans le Centre d’administration Microsoft (utilisateurs actifs et > nom d’utilisateur).  >  </li><li>**Événements protégés** par licence est le nombre d’événements de notification de modification uniques envoyés à l’application par rapport à un message qui a été créé, mis à jour ou supprimé par cet utilisateur.</li></ul> |
+|**3**   |Le tableau offre une répartition par utilisateur de l’application sélectionnée.<ul><li>**Le nom d’affichage** est le nom d’affichage de l’utilisateur. Sélectionnez le nom d’affichage pour afficher la page des détails de l’utilisateur dans le Microsoft Teams d’administration.</li><li>**A la licence requise** est oui si l’utilisateur dispose d’une des licences requises telles que définies (ici)[ https://docs.microsoft.com/en-us/graph/teams-licenses ]. Si l’utilisateur n’a pas  la licence requise, le lien Attribuer une licence s’affiche, qui permet d’accéder à la page des détails de la licence de l’utilisateur dans le Centre d’administration Microsoft (utilisateurs actifs et > nom d’utilisateur).  >  </li><li>**Les événements protégés** par licence sont le nombre d’événements de notification de modification uniques envoyés à l’application par rapport à un message qui a été créé, mis à jour ou supprimé par cet utilisateur.</li></ul> |
 |**4**   |Exportez le rapport dans un fichier CSV à des fin d’analyse en mode hors connexion. Sélectionnez **Exporter vers Excel,** puis **l’onglet Téléchargements.** **Sélectionnez** Télécharger pour télécharger le rapport lorsqu’il est prêt. |
 |**5**   |Exportez le rapport dans un fichier CSV à des fin d’analyse en mode hors connexion. Sélectionnez **Exporter vers Excel,** puis **l’onglet Téléchargements.** **Sélectionnez** Télécharger pour télécharger le rapport lorsqu’il est prêt. Lorsque vous affichez le rapport dans Excel, vous voyez  également une colonne d’ID et une colonne de courrier, qui représente l’ID d’utilisateur et l’adresse de courrier de l’utilisateur.  |
 
@@ -55,6 +55,6 @@ Pour anonymisation des données du Teams activité des utilisateurs, vous devez 
 
 1. Dans le Centre d’administration Microsoft 365, sélectionnez  Paramètres organisation Paramètres, puis sous l’onglet \>  **Services,** sélectionnez **Rapports.**
     
-2. Sélectionnez **Rapports,** puis choisissez **d’afficher les identificateurs anonymes.** Ce paramètre est appliqué aux rapports d’utilisation dans le centre d Centre d’administration Microsoft 365'administration Centre d’administration Microsoft 365 et Teams’administration.
+2. Sélectionnez **Rapports,** puis choisissez **d’afficher les identificateurs anonymes.** Ce paramètre est appliqué aux rapports d’utilisation dans le Centre d’administration Microsoft 365 et le Teams d’administration.
   
 3. Sélectionnez **Enregistrer les modifications.**

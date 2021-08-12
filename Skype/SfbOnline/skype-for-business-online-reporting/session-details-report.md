@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Le tableau de bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent.
-ms.openlocfilehash: 8b861cc863603a8ab51451e9906cd62313bd9cf9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308015"
 ---
 # <a name="session-details-report"></a>Rapport détaillé de session
 
@@ -37,7 +37,7 @@ Consultez [la vue d’ensemble](https://support.office.com/article/0d6dfb17-8582
 Tout comme les autres rapports de Skype Entreprise vous donnent des détails sur l’activité, y compris les détails des sessions dans votre organisation. Ces informations détaillées sont très utiles pour examiner, planifier et prendre des décisions pour votre entreprise, ainsi que pour définir les [crédits de communication.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Microsoft 365 d’administration. 
+> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Comment obtenir le rapport Skype Entreprise détails de la session
 
@@ -120,7 +120,7 @@ Pour chaque session, il existe une sous-table avec des données différentes dis
 
 - Skype Entreprise des pools de [minutes PSTN](pstn-minute-pools-report.md) vous indiquent le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

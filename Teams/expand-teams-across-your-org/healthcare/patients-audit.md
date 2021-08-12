@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: En savoir plus sur l’audit de l’application Patients pour Teams administrateurs
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a2c5b006384d113dde82f702dee68a82b99685f6
-ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.openlocfilehash: 288877032c662ee03e0fd575a1f9ce2e96d1b4336c290899e98eeef92a11fecf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52697831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308733"
 ---
 # <a name="audit-logs-for-patients-app"></a>Journaux d’audit pour l’application Patients
 
@@ -83,6 +83,6 @@ Vous pouvez personnaliser votre audit selon vos besoins pour rechercher ou filtr
 
 Les activités enregistrées pour Microsoft Teams en général sont décrites dans Microsoft Teams [activités.](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Effectuer des recherches dans le journal d’audit](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

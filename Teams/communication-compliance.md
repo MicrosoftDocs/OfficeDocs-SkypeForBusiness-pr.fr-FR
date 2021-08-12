@@ -16,21 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 6fc66dda7b4c7c87b3b0dd97846f5e45aae20c4c70daa870f0cdb2adb2373529
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308943"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformité des communications avec les Microsoft Teams
 
 La conformité des communications est une solution à risque au niveau du Microsoft 365 qui permet de minimiser les risques de communication en vous aidant à détecter, capturer et agir sur les messages inappropriés dans votre organisation.
 
-Par Microsoft Teams, la conformité des communications permet d’identifier les [types](/microsoft-365/compliance/communication-compliance-feature-reference) de contenus inappropriés suivants dans les canaux Teams, les canaux de Teams privés ou dans les conversations en tête-à-tête et de groupe :
+Par Microsoft Teams, la conformité aux communications vous permet d’identifier les [types](/microsoft-365/compliance/communication-compliance-feature-reference) de contenu inapproprié suivants dans les canaux Teams, les canaux de Teams privés ou dans les conversations en tête-à-tête et de groupe :
 
 - Langage choquant, choquant et choquant
-- Images pour adultes, racy et gory
+- Images d’adulte, racy et gory
 - Partage d’informations sensibles
 
 Pour plus d’informations sur la conformité des communications et la configuration des stratégies pour votre organisation, consultez la conformité des communications [dans Microsoft 365.](/microsoft-365/compliance/communication-compliance)
@@ -43,10 +43,10 @@ La conformité et les Microsoft Teams communication sont étroitement intégrés
 
 La mise en place de la conformité [](/microsoft-365/compliance/communication-compliance-plan) des communications dans Microsoft Teams commence par la planification et la création de stratégies prédéfinées ou personnalisées permettant d’identifier les activités inappropriées des utilisateurs dans les canaux Teams ou dans les groupes et les deux: 1. N’oubliez pas que [](/microsoft-365/compliance/communication-compliance-configure) vous devez configurer certaines autorisations et conditions préalables de base dans le cadre du processus de configuration.
 
-Teams administrateurs peuvent configurer des stratégies de conformité des communications aux niveaux suivants :
+Teams administrateurs peuvent configurer les stratégies de conformité aux communications aux niveaux suivants :
 
 - **Niveau utilisateur**: les stratégies de ce niveau s’appliquent à Teams utilisateur individuel ou peuvent être appliquées à tous Teams utilisateurs de votre organisation. Ces stratégies couvrent les messages que ces utilisateurs peuvent envoyer dans des conversations à deux ou de groupe. Les communications de conversation pour les utilisateurs sont automatiquement contrôlées dans toutes les Microsoft Teams où les utilisateurs en sont membres.
-- **Teams niveaux :** les stratégies de ce niveau s’appliquent à un canal Microsoft Team, y compris à un canal privé. Ces stratégies couvrent les messages envoyés dans Teams canal uniquement.
+- **Teams niveaux :** les stratégies de ce niveau s’appliquent à un canal Microsoft Team, y compris à un canal privé. Ces stratégies couvrent les messages envoyés dans le Teams uniquement.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir sur les messages inappropriés dans Microsoft Teams
 

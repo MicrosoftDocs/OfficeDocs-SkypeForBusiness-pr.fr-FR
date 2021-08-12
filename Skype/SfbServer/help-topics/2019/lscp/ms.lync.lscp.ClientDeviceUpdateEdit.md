@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez ajouter une nouvelle configuration de fichier journal de périphérique dans la page Modifier les paramètres de journalisation qui détermine la taille maximale du cache des journaux, la taille maximale des fichiers journaux ou la durée de conservation d’un fichier journal avant sa suppression. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
-ms.openlocfilehash: ac6c341460d0e196548a86620d89f67bc51d7b4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e1dc3baec529640562b86372cbf3dbb4d797ec946fd1dcb0495613c40fe64b75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280239"
 ---
 # <a name="device-log-configuration-edit"></a>Configuration du fichier journal de l’appareil : Modifier
  
@@ -47,7 +47,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
     
 - **Taille de fichier maximale (octets)** Vous pouvez spécifier la taille maximale qu’un fichier journal peut atteindre avant d’être purgé. La valeur par défaut est 1 024 000 octets (1 Mo).
     
-- **Taille maximale du cache (octets)** Vous pouvez spécifier la quantité maximale d’informations (en octets) qui peut être détenue dans le cache de fichiers journaux avant que ce cache ne soit effacé et que les données soient écrites dans un fichier journal. La valeur par défaut est 512 000 octets (0,5 Mo).
+- **Taille maximale du cache (octets)** Vous pouvez spécifier la quantité maximale d’informations (en octets) qui peut être détenue dans le cache des fichiers journaux avant que ce cache ne soit effacé et que les données soient écrites dans un fichier journal. La valeur par défaut est 512 000 octets (0,5 Mo).
     
 - **Minutes de purge du cache (1-60)** Vous pouvez spécifier la fréquence à quelle fréquence les informations stockées dans le cache des fichiers journaux sont écrites dans le fichier journal réel. Une fois les données enregistrées, le cache est effacé. La valeur par défaut est cinq minutes.
     

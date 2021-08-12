@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: "Apprenez comment affecter des licences Skype Entreprise pour le Système téléphonique, l'Audioconférence, les Plans d'appel et les Crédits de communications. "
-ms.openlocfilehash: 41f1788e4c562f3b4cc1f43d7875b64805b19ed8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 61d8eca21fec85f7f729e0d0de9cc5d43fd5ca96567e2abe49cf7b6b5f651500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237490"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281327"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Attribuer des licences Skype Entreprise
 
@@ -48,7 +48,7 @@ Ce que vous devez connaître avant d’affecter des licences Audioconférence, S
 
 - **Messages d'erreur**: un message d'erreur s'affiche si vous n'avez pas acheté le nombre correct de licences. Si vous devez acheter d’autres licences forfait d’appels, choisissez **Acheter plus.**
     
-- **Étapes** suivantes : après avoir attribué des licences forfait d’appels à vos utilisateurs, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, [consultez Configurer les forfaits d’appels.](/microsoftteams/set-up-calling-plans)
+- **Prochaines étapes**: après avoir attribué des licences Forfait d’appels à vos utilisateurs, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, [consultez Configurer les forfaits d’appels.](/microsoftteams/set-up-calling-plans)
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Comment affecter une licence de plan Système téléphonique appels à un utilisateur
 
@@ -202,7 +202,7 @@ Les étapes sont identiques à l’attribution d’Microsoft 365 ou Office 365 l
 
 Jetez un coup d’œil à l’exemple de script pour affecter des licences **d’audioconférence.** Mettez-le à jour avec les informations pour affecter des **licences de crédits** de communication.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
   
 [Configurer des forfaits d'appels](/microsoftteams/set-up-calling-plans)
   

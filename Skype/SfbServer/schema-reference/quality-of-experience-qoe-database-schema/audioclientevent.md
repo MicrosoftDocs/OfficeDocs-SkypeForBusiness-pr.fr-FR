@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Chaque enregistrement contient un événement client pour un point de terminaison dans un appel audio. En règle générale, un appel possède deux enregistrements, un pour l’appelant et un pour l’appelé.
-ms.openlocfilehash: f5211d7f4ec3bc1d366d97def06edd325c448def
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f92c77178630bfb6f04e8c707565993fd24c16873a3dc74461eee0ba11884599
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809684"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309213"
 ---
 # <a name="audioclientevent-table"></a>Table AudioClientEvent
  

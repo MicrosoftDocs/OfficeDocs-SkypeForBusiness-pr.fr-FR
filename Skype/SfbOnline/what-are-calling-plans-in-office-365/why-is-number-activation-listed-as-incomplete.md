@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateIncomplete
 description: La validation d’adresse est un élément important de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: 39f63f670685acff79163299ce9cd1a7858821da
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c3ab63ce08eebdcc88b44edc5447d7b2dad0ac412f9320de595f0bb783226317
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279512"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant incomplète ?
 
@@ -96,7 +96,7 @@ La validation d’adresse est un élément important de la configuration des for
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     
 > [!TIP]
-> Le numéro de référence sera répertorié dans la page Demandes **de** service du Microsoft 365 d’administration.
+> Le numéro de référence sera répertorié dans la page Demandes **de** service du Centre d’administration Microsoft 365.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

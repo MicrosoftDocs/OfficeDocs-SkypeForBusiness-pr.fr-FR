@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Résumé : Découvrez comment associer des pools frontux à un magasin d’analyse utilisé par Skype Entreprise Server.'
-ms.openlocfilehash: 4ec48e99da9a827cdc40d87c42ec764bda66a416
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 92713d8b6940011c97507a7138e05e80e1d119b302f9f58843b90bb9861005e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307795"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Associer un magasin d’analyse à un pool frontal dans Skype Entreprise Server 
-**Résumé :** Découvrez comment associer des pools frontux à un magasin d’analyse utilisé par Skype Entreprise Server.
+**Résumé :** Découvrez comment associer des pools frontux à un magasin d’analyse utilisé par les Skype Entreprise Server.
   
 Dans Skype Entreprise Server, les données de surveillance peuvent uniquement être collectées sur les pools frontux qui ont été associés à un magasin d’analyse, une tâche généralement effectuée lorsque vous définissez un pool frontal dans le Générateur de topologies.
   
@@ -30,13 +30,13 @@ Dans Skype Entreprise Server, les données de surveillance peuvent uniquement ê
   
 Vous pouvez également associer un pool frontal existant à un nouveau magasin d’analyse ou à un autre en effectuant la procédure suivante :
   
-1. Cliquez **sur** Démarrer, sur **Tous** les programmes, sur Skype Entreprise **Server 2015,** puis sur Générateur de topologie **Skype Entreprise Server.**
+1. Cliquez **sur** Démarrer, **sur** Tous les programmes, sur **Skype Entreprise Server 2015,** puis sur Skype Entreprise Server **Générateur de topologies.**
     
 2. Dans la boîte de dialogue **Générateur de topologies**, sélectionnez **Télécharger la topologie à partir d’un déploiement existant**, puis cliquez sur **OK**.
     
 3. Dans la boîte de dialogue **Enregistrer sous**, entrez un nom de fichier pour votre topologie actuelle, puis cliquez sur **Enregistrer**. La topologie enregistrée peut être récupérée et republiée plus tard en cas de problèmes avec la nouvelle topologie.
     
-4. Dans le Générateur de topologie, **développez Skype** Entreprise Server, développez le nom du site contenant le pool frontal, puis cliquez sur Développer les pools frontux **Enterprise Edition.**
+4. Dans le Générateur de topologie, développez **Skype Entreprise Server,** développez le nom du site contenant le pool frontal, puis cliquez sur développer Êdition Entreprise **pools frontux.**
     
 5. Cliquez avec le bouton droit sur le nom du pool à associer au magasin d’analyse, puis cliquez sur **Modifier les propriétés**.
     
@@ -54,7 +54,7 @@ Après avoir associé le magasin d’analyse au pool frontal, vous devez publier
     
 3. Dans la page **Assistant Publication terminé**, cliquez sur **Terminer**.
     
-Après avoir publié la topologie, vous pouvez installer la base de données d’analyse sur l’ordinateur qui va héberger le magasin d’analyse. La base de données de surveillance peut être installée à l’aide de Skype Entreprise Server Management Shell et de Windows PowerShell. Pour installer la base de données localement (c’est-à-dire, pour installer la base de données sur l’ordinateur sur lequel vous exécutez Skype Entreprise Server Management Shell), démarrez Management Shell sur l’ordinateur approprié, puis tapez la commande suivante et appuyez sur Entrée :
+Après avoir publié la topologie, vous pouvez installer la base de données d’analyse sur l’ordinateur qui va héberger le magasin d’analyse. La base de données de surveillance peut être installée à l’aide Skype Entreprise Server Management Shell et Windows PowerShell. Pour installer la base de données localement (c’est-à-dire, pour installer la base de données sur l’ordinateur sur lequel vous exécutez l’Skype Entreprise Server Management Shell), démarrez Management Shell sur l’ordinateur approprié, puis tapez la commande suivante et appuyez sur Entrée :
   
 ```powershell
 Install-CsDatabase -LocalDatabases
@@ -70,20 +70,20 @@ Par exemple, cette commande permet d’installer la base de données d’analyse
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 
-Vous pouvez également installer la base de données de surveillance en exécutant l’Assistant Déploiement de Skype Entreprise Server sur l’ordinateur qui hébergera le magasin d’analyse. Pour ce faire, ouvrez une session sur l’ordinateur approprié, puis effectuez la procédure suivante :
+Vous pouvez également installer la base de données de surveillance en exécutant l’Assistant Déploiement Skype Entreprise Server sur l’ordinateur qui hébergera le magasin d’analyse. Pour ce faire, ouvrez une session sur l’ordinateur approprié, puis effectuez la procédure suivante :
   
-1. Cliquez **sur** Démarrer, sur **Tous** les programmes, sur Skype Entreprise **Server 2015,** puis sur Assistant Déploiement de **Skype Entreprise Server.**
+1. Cliquez **sur** Démarrer, sur **Tous** les programmes, sur **Skype Entreprise Server 2015,** puis sur Skype Entreprise Server **Déploiement.**
     
-2. Dans l’Assistant Déploiement, cliquez sur **Installer ou mettre à jour le système Skype Entreprise Server.**
+2. Dans l’Assistant Déploiement, cliquez sur Installer ou mettre **à jour Skype Entreprise Server système.**
     
-3. Dans la page **Déployer,** sous **Étape 2 :** Installer ou supprimer des composants Skype Entreprise Server, cliquez sur Exécuter à **nouveau.**
+3. Dans la page **Déployer,** sous Étape 2 : Installer ou supprimer **Skype Entreprise Server composants,** cliquez sur **Exécuter à nouveau.**
     
-4. Dans l’Assistant Installation de composants Skype Entreprise Server, dans la page Configuration des **composants Skype** Entreprise Server, cliquez sur **Suivant**.
+4. Dans l’Assistant Skype Entreprise Server composants du programme d’installation, dans la page **Skype Entreprise Server composants,** cliquez sur **Suivant.**
     
-5. Dans la page Spécifier le chemin d’accès aux **MSI,** tapez le chemin d’accès au Ocscore.msi de fichier (un fichier inclus avec votre support d’installation Skype Entreprise Server), puis cliquez sur **Suivant**.
+5. Dans la page Spécifier le chemin d’accès aux **MSI,** tapez le chemin d’accès au fichier Ocscore.msi (un fichier inclus avec votre support d’installation Skype Entreprise Server), puis cliquez sur **Suivant**.
     
 6. Dans la page de **Exécution de commandes**, cliquez sur **Terminer**.
     
-Pour vous assurer que tous les services Skype  Entreprise Server requis ont démarré, cliquez sur Exécuter sous l’en-tête **Étape 4** : Démarrer les services dans la page **Déployer**
+Pour vous assurer que tous les services Skype Entreprise Server  requis ont démarré, cliquez sur Exécuter sous l’en-tête **Étape 4** : Démarrer les services sur la page **Déployer**
   
 

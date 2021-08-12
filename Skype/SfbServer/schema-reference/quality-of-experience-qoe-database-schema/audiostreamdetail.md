@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: L’affichage AudioStreamDetail stocke les informations relatives à chaque flux audio dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 4a675f2b7a8cf4e0aaa322bb63d804edf27625cb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 88300d4117a26dd033897d955ae82fb99f7d7b4878cb484caf4bae1fad3f965d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309183"
 ---
 # <a name="audiostreamdetail-view"></a>Affichage AudioStreamDetail
  
@@ -31,7 +31,7 @@ L’affichage AudioStreamDetail stocke les informations relatives à chaque flux
 |StreamId  <br/> |int  <br/> |ID unique dans une ligne de média.  <br/> |
 |StartTime  <br/> |DateHeure  <br/> |Heure de début de la session.  <br/> |
 |EndTime  <br/> |DateHeure  <br/> |Heure de fin de la session.  <br/> |
-|DialogCategory  <br/> |bit  <br/> |Catégorie de boîte de dialogue : 0 est la partie Skype Entreprise Server vers serveur de médiation ; 1 est la partie serveur de médiation vers passerelle PSTN.  <br/> |
+|DialogCategory  <br/> |bit  <br/> |Catégorie de boîte de dialogue : 0 est la Skype Entreprise Server de serveur de médiation ; 1 est la partie serveur de médiation vers passerelle PSTN.  <br/> |
 |MediationServerBypassFlag  <br/> |bit  <br/> |Indicateur signalant si l’appel a été contourné ou non.  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |Si une valeur est présente, indique pourquoi un appel n’a pas été contourné même si les ID de contournement correspondaient. Une seule valeur est définie :  <br/> 0x0001 - ID de contournement inconnu pour la carte réseau par défaut.  <br/> |
 |CallPriority  <br/> |int  <br/> |Priorité de l’appel.  <br/> |
@@ -86,7 +86,7 @@ L’affichage AudioStreamDetail stocke les informations relatives à chaque flux
 |CalleeRenderDevDriver  <br/> |varchar(256)  <br/> |Nom du pilote du périphérique de rendu de l’appelé.  <br/> |
 |CallerNetworkConnectionType  <br/> |tinyint  <br/> |Type de connexion réseau de l’appelant : 0 est câblé, 1 est sans fil.  <br/> |
 |CallerVPN  <br/> |bit  <br/> |Indique si l’appelant s’est connecté via un réseau privé virtuel : 1 pour un réseau privé virtuel (VPN), 0 pour un réseau non VPN.  <br/> |
-|CallerLinkSpeed  <br/> |décimal(18,0)  <br/> |Vitesse de la liaison réseau pour le système d’extrémité de l’appelant, en bits/s.  <br/> |
+|CallerLinkSpeed  <br/> |decimal(18,0)  <br/> |Vitesse de la liaison réseau pour le système d’extrémité de l’appelant, en bits/s.  <br/> |
 |CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Type de connexion réseau de l’appelé : 0 est câblé, 1 est sans fil.  <br/> |
 |CalleeVPN  <br/> |bit  <br/> |Indique si l’appelant s’est connecté via un réseau privé virtuel : 1 pour un réseau privé virtuel (VPN), 0 pour un réseau non VPN.  <br/> |
 |CalleeLinkSpeed  <br/> |décimal(18,0)  <br/> |Vitesse de la liaison réseau pour le système d’extrémité de l’appelé, en bits/s.  <br/> |
@@ -114,8 +114,8 @@ L’affichage AudioStreamDetail stocke les informations relatives à chaque flux
 |CallerRecvNoiseLevel  <br/> |int  <br/> |Niveau de bruit audio du réglage de puissance post-analogique pour le contenu audio envoyé reçu par l’appelant. L’unité de mesure est dBmo. Pour une qualité acceptable, il doit être inférieur à 35 dBmo. Cette mesure n’est pas signalée par le serveur de conférence A/V ou les téléphones IP.  <br/> |
 |CallerEchoReturn  <br/> |int  <br/> |Amélioration de la perte du retour d’écho pour l’appelant. L’unité de mesure est dB. Des valeurs inférieures représentent moins d’écho. Cette mesure n’est pas signalée par le serveur de conférence A/V ou les téléphones IP.  <br/> |
 |CallerSpeappelezGlitchRate  <br/> |int  <br/> |Nombre moyen de problèmes sonores par période de cinq minutes pour le rendu des haut-parleurs de l’appelant. Pour une bonne qualité, il doit être inférieur à un par période de 5 minutes. Non signalé par les serveurs de conférence A/V, les serveurs de médiation ou les téléphones IP.  <br/> |
-|CallerMicGlitchRate  <br/> |int  <br/> |Nombre moyen de problèmes par période de 5 minutes pour la capture du microphone de l’appelant. Pour une bonne qualité, il doit être inférieur à un par période de 5 minutes. Non signalé par les serveurs de conférence A/V, les serveurs de médiation ou les téléphones IP.  <br/> |
-|CallerTimestampDriftRateMic  <br/> |décimal(9,2)  <br/> |Vitesse de dérive de l’horloge du microphone de l’appelant, par rapport à l’horloge du processeur.  <br/> |
+|CallerMicGlitchRate  <br/> |int  <br/> |Nombre moyen de problèmes par période de cinq minutes pour la capture du microphone de l’appelant. Pour une bonne qualité, il doit être inférieur à un par période de 5 minutes. Non signalé par les serveurs de conférence A/V, les serveurs de médiation ou les téléphones IP.  <br/> |
+|CallerTimestampDriftRateMic  <br/> |décimal(9,2)  <br/> |Vitesse de dérive de l’horloge du microphone de l’appelant par rapport à l’horloge du processeur.  <br/> |
 |CallerTimestampDriftRateSpk  <br/> |décimal(9,2)  <br/> |Vitesse de dérive de l’horloge du haut-parleur de l’appelant, par rapport à l’horloge du processeur.  <br/> |
 |CallerTimestampErrorMicMs  <br/> |décimal(9,2)  <br/> |Durée moyenne d’erreur d’horodatage du flux de capture du microphone, en millisecondes, au cours des 20 dernières secondes de l’appel.  <br/> |
 |CallerTimestampErrorSpkMs  <br/> |décimal(9,2)  <br/> |Moyenne de l’erreur d’horodaté du flux de rendu du haut-parleur de l’appelant, en millisecondes, au cours des 20 dernières secondes de l’appel.  <br/> |
@@ -137,7 +137,7 @@ L’affichage AudioStreamDetail stocke les informations relatives à chaque flux
 |CalleeTimestampDriftRateMic  <br/> |décimal(9,2)  <br/> |Vitesse de dérive de l’horloge du microphone de l’appelé, par rapport à l’horloge du processeur.  <br/> |
 |CalleeTimestampDriftRateSpk  <br/> |décimal(9,2)  <br/> |Vitesse de dérive de l’horloge du haut-parleur de l’appelé, par rapport à l’horloge du processeur.  <br/> |
 |CalleeTimestampErrorMicMs  <br/> |décimal(9,2)  <br/> |Durée moyenne d’erreur d’horodatage du flux de capture du microphone, en millisecondes, au cours des 20 dernières secondes de l’appel.  <br/> |
-|CalleeTimestampErrorSpkMs  <br/> |décimal(9,2)  <br/> |Moyenne de l’erreur d’horodat du flux de rendu du haut-parleur de l’appelé, en millisecondes, au cours des 20 dernières secondes de l’appel.  <br/> |
+|CalleeTimestampErrorSpkMs  <br/> |décimal(9,2)  <br/> |Moyenne de l’erreur d’horodaté du flux de rendu du haut-parleur de l’appelé, en millisecondes, au cours des 20 dernières secondes de l’appel.  <br/> |
 |CalleeVsEntryCauses  <br/> |smallint  <br/> |Un commutateur vocal est un mode semi-duplex avec une capacité d’interruption limitée. Pour plus [d’informations, voir le tableau MediaLine.](medialine-0.md) <br/> |
 |CalleeEchoEventCauses  <br/> |tinyint  <br/> |Causes d’un événement d’écho pour l’appelé. Pour plus [d’informations, voir le tableau MediaLine.](medialine-0.md) <br/> |
 |CalleeEchoPercentMicIn  <br/> |décimal(5,2)  <br/> |Pourcentage de temps où un écho est détecté dans le flux de capture du microphone de l’appelé. Si un casque est utilisé, cette valeur doit être faible.  <br/> |

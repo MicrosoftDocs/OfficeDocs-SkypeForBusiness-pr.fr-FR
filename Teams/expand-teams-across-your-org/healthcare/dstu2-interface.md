@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: Découvrez la spécification de l’interface DSTU2 dans Teams, y compris la configuration ou la reconfiguration d’un serveur FEMBA pour l’utiliser avec l’application Microsoft Teams Patients.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 12833ea55977cf7e8d18ee5c10b1f17d898b27b3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308763"
 ---
 # <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
@@ -367,7 +367,7 @@ Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil d�
 
  - Code.Text
  - Code.Coding[0]. Affichage
- - État
+ - Statut
 
 Outre les champs Argot, pour une expérience utilisateur excellente, l’application Patients lit également les champs suivants :
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Chaque enregistrement représente des mesures de signal audio pour un point de terminaison. En règle générale, chaque appel possède deux enregistrements, un pour l’appelant et un pour l’appelé.
-ms.openlocfilehash: ab918941357b85c6bcb25dcbaeb93a7be9c55f2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 36ece4a9481400c3fae9e248d00cc59f3ec161b21aa03d8e824fc4d21931d04f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309203"
 ---
 # <a name="audiosignal-table"></a>Table AudioSignal
  
@@ -38,8 +38,8 @@ Chaque enregistrement représente des mesures de signal audio pour un point de t
 |**AudioSpetchGlitchRate** <br/> |int  <br/> | <br/> |Nombre moyen de problèmes par période de cinq minutes pour le rendu des haut-parleurs. Pour une bonne qualité, il doit être inférieur à un par période de 5 minutes. Non signalé par les serveurs de conférence A/V, les serveurs de médiation ou les téléphones IP.  <br/> |
 |**AudioMicGlitchRate** <br/> |int  <br/> | <br/> |Nombre moyen de problèmes par période de cinq minutes pour la capture du microphone. Pour une bonne qualité, il doit être inférieur à un par période de 5 minutes. Non signalé par les serveurs de conférence A/V, les serveurs de médiation ou les téléphones IP.  <br/> |
 |**AudioTimestampDriftRateMic** <br/> |décimal(9,2)  <br/> | <br/> |Vitesse de dérive de l’horloge du microphone par rapport à l’horloge du processeur.  <br/> |
-|**AudioTimestampDriftRateSpk** <br/> |décimal(9,2)  <br/> | <br/> |Vitesse de dérive de l’horloge du haut-parleur par rapport à l’horloge du processeur.  <br/> |
-|**AudioTimestampErrorMicMs** <br/> |décimal(9,2)  <br/> | <br/> |Vitesse de dérive de l’horloge du haut-parleur par rapport à l’horloge du processeur.  <br/> Durée moyenne d’erreur d’horodatage du flux de capture du microphone, en millisecondes, au cours des 20 dernières secondes de l’appel.  <br/> |
+|**AudioTimestampDriftRateSpk** <br/> |décimal(9,2)  <br/> | <br/> |Vitesse de dérive de l’horloge du haut-parleur par rapport à l’horloge processeur.  <br/> |
+|**AudioTimestampErrorMicMs** <br/> |décimal(9,2)  <br/> | <br/> |Vitesse de dérive de l’horloge du haut-parleur par rapport à l’horloge processeur.  <br/> Durée moyenne d’erreur d’horodatage du flux de capture du microphone, en millisecondes, au cours des 20 dernières secondes de l’appel.  <br/> |
 |**AudioTimestampErrorSpkMs** <br/> |décimal(9,2)  <br/> | <br/> |Erreur moyenne d’horodat de flux de rendu du haut-parleur, en millisecondes, au cours des 20 dernières secondes de l’appel.  <br/> |
 |**VsEntryCauses** <br/> |smallint  <br/> | <br/> |Un commutateur vocal est un mode semi-duplex avec une capacité d’interruption limitée. Causes de l’entrée du commutateur vocal :  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> La cause peut être une combinaison de ces causes individuelles. ENTER_VS_FORCEORCONVERGENCE ne peut être activée que par la clé de regkey à des fins de test.  <br/> Le type de données de cette colonne a été modifié dans Microsoft Lync Server 2013.  <br/> |
 |**EchoEventCauses** <br/> |tinyint  <br/> | <br/> |Causes d’un événement d’écho :  <br/> ECHO_EVENT_BAD_TIMESTAMP 0x01  <br/> ECHO_EVENT_POSTAEC_ECHO 0x02  <br/> ECHO_EVENT_ANLP 0x04  <br/> ECHO_EVENT_DNLP 0x08  <br/> ECHO_EVENT_MIC_CLIPPING 0x10  <br/> ECHO_EVENT_BAD_STATE 0x20  <br/> La cause peut être une combinaison de ces causes individuelles.  <br/> |
@@ -57,6 +57,6 @@ Chaque enregistrement représente des mesures de signal audio pour un point de t
 |**SendSignalLevelCh2** <br/> |int  <br/> ||Niveau de signal tel qu’envoyé sur le canal 2.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**SendNoiseLevelCh1** <br/> |int  <br/> ||Niveau de bruit tel qu’envoyé sur le canal 1.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**SendNoiseLevelCh2** <br/> |int  <br/> ||Niveau de bruit tel qu’envoyé sur le canal 2.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RenderLoopbackSignalLevel** <br/> |int  <br/> ||Niveau dans dBFS du signal envoyé au haut-parleur pour la lecture. Prend en compte les ajustements de gain effectués sur le signal reçu. <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |   
+|**RenderLoopbackSignalLevel** <br/> |int  <br/> ||Niveau dans dBFS du signal envoyé au haut-parleur pour la lecture. Prend en compte les ajustements de gain apportés au signal reçu. <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |   
 |**RenderNoiseLevel** <br/> |int  <br/> ||Niveau dans dBFS du contenu parasite dans le signal envoyé au haut-parleur pour la lecture <br/> |
 

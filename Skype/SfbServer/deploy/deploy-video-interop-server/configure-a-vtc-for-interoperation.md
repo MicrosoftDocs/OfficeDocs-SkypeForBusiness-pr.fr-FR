@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: 'Résumé : Configurez les périphériques VTC pour qu’ils fonctionnent avec Skype Entreprise Server.'
-ms.openlocfilehash: 7697fd9f33a4fece4871b056a05264ece888d357
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Configurez les périphériques VTC pour qu’ils fonctionnent Skype Entreprise Server.'
+ms.openlocfilehash: 0c96766daf67ff3c8f7872a75423f64f64acba8e51d3fbc4c0edef841cc529e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307775"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurer un VTC pour l’interopération avec Skype Entreprise Server
  
-**Résumé :** Configurez les périphériques VTC pour qu’ils fonctionnent avec Skype Entreprise Server.
+**Résumé :** Configurez les périphériques VTC pour qu’ils fonctionnent Skype Entreprise Server.
   
-Vous devez effectuer les procédures de personnalisation de configuration suivantes pour chaque VTC qui se connectera au serveur VIS Skype Entreprise via une connexion SIP et une passerelle vidéo Cisco Unified Communications Manager (CallManager, ou CUCM).
+Vous devrez effectuer les procédures de personnalisation de configuration suivantes pour chaque VTC qui se connectera au serveur VIS Skype Entreprise via une connexion SIP et une passerelle vidéo Cisco Unified Communications Manager (CallManager, ou CUCM).
   
 Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon dont CUCM peut être configuré pour fonctionner avec un VIS. D’autres paramètres et/ou utilisations d’autres fonctionnalités CUCM peuvent également être utilisés pour obtenir le même résultat. Aucune recommandation n’est implicite quant à la configuration optimale pour un scénario particulier.
   
@@ -78,14 +78,14 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
 Le VTC est maintenant configuré pour l’interopération. Avant que le service puisse commencer, il existe des étapes finales à effectuer côté CUCM.
 ### <a name="configure-vtc-devices-on-cucm"></a>Configurer des périphériques VTC sur CUCM
 
-1. Connectez-vous au CUCM et accédez à Administration CM unifiée Cisco \> - Appareil - Téléphone - \> \> Rechercher. 
+1. Connectez-vous au CUCM et accédez à Administration CM unifiée Cisco \> - Appareil - \> Téléphone- \> Rechercher. 
     
-2. Sélectionnez l’appareil VTC à configurer. Vérifiez les paramètres suivants sur l’écran Configuration du téléphone, en corrigeant selon vos besoins. Une fois ces paramètres modifiés ou vérifiés, cliquez sur **Enregistrer.**
+2. Sélectionnez l’appareil VTC à configurer. Vérifiez les paramètres suivants sur l’écran Téléphone configuration, en corrigeant selon vos besoins. Une fois ces paramètres modifiés ou vérifiés, cliquez sur **Enregistrer.**
     
    |**Paramètre**|**Valeur recommandée**|
    |:-----|:-----|
-   |Informations sur l’appareil - Modèle de bouton de téléphone  <br/> | Standard Cisco Telepresence Codec C40 <br/> |
-   |Informations sur l’appareil - Profil téléphonique courant  <br/> | Profil de téléphone commun standard <br/> |
+   |Informations sur l’appareil : Téléphone bouton  <br/> | Standard Cisco Telepresence Codec C40 <br/> |
+   |Informations sur l’appareil - Profil Téléphone courant  <br/> | Profil d’Téléphone courant standard <br/> |
    |Informations sur l’appareil : espace de recherche d’appel  <br/> | CSS_SfBVideoInterop <br/> |
    |Informations sur l’appareil : espace de recherche d’appel AAR  <br/> | CSS_SfBVideoInterop <br/> |
    |Informations sur l’appareil - Liste des groupes de ressources multimédias  <br/> | MRGL_SfBVideoInterop <br/> |
@@ -94,17 +94,17 @@ Le VTC est maintenant configuré pour l’interopération. Avant que le service 
    |Informations spécifiques au protocole : espace de recherche d’appel SUBSCRIBE  <br/> | CSS_SfBVideoInterop <br/> |
    |Informations spécifiques au protocole - Profil SIP  <br/> | Profil SIP standard pour le point de terminaison de téléprésence <br/> |
    
-3. Une fois la configuration VTC enregistrée, re-accédez à l’écran Configuration du téléphone de l’appareil. En haut de l’écran du groupe Association, cliquez sur l’association pour l’interop vidéo. L’écran Configuration du numéro d’annuaire s’affiche. 
+3. Une fois la configuration VTC enregistrée, accédez à l’écran Téléphone configuration de l’appareil. En haut de l’écran du groupe Association, cliquez sur l’association pour l’interop vidéo. L’écran Configuration du numéro d’annuaire s’affiche. 
     
 4. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
-    A effectuer les modifications appropriées comme indiqué aux informations de numéro de répertoire et aux paramètres de numéro de répertoire.
+    A effectuer les modifications appropriées comme indiqué dans les informations de numéro de répertoire et le numéro de Paramètres.
     
    |**Paramètre**|**Valeur recommandée**|
    |:-----|:-----|
    | Informations sur le numéro de répertoire - Partition de l’itinéraire <br/> | SfBVideoInterop_RoutePartition <br/> |
-   |Paramètres du numéro d’annuaire - Espace de recherche d’appel  <br/> | CSS_SfBVideoInterop <br/> |
-   |Paramètres de niveau d’accès confidentiel et de partie alternative MLPP - Espace de recherche d’appel MLPP  <br/> | CSS_SfBVideoInterop <br/> |
+   |Numéro d’annuaire Paramètres - Appel de l’espace de recherche  <br/> | CSS_SfBVideoInterop <br/> |
+   |Alternate Party and Confidential Access Level Paramètres - MLPP Calling Search Space  <br/> | CSS_SfBVideoInterop <br/> |
    |Ligne 1 sur l’appareil - Affichage (ID de l’appelant)  <br/> | Comme vous le souhaitez <br/> |
    |Ligne 1 sur l’appareil - Affichage ASCII (ID de l’appelant)  <br/> | Comme vous le souhaitez <br/> |
    
