@@ -17,12 +17,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer le pavé de numérotation dans le client Teams pour que les utilisateurs accèdent à la fonctionnalité de réseau téléphonique commuté (PSTN).
-ms.openlocfilehash: 44fcbb766cadaa4b31aa065fae80fdcd48c5453f
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012415"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344313"
 ---
 # <a name="dial-pad-configuration"></a>Configuration du pavé de numérotation
 
@@ -167,7 +167,7 @@ MusicOnHoldEnabledType     : Enabled
 
 -   Vous devrez peut-être redémarrer Teams client après avoir apporté l’une de ces modifications de configuration.
 
--   Si vous avez récemment mis à jour l’un des critères ci-dessus, vous devrez peut-être patienter quelques heures pour que le client reçoie les nouveaux paramètres.
+-   Si vous avez récemment mis à jour l’un des critères ci-dessus, vous devrez peut-être patienter quelques heures que le client reçoie les nouveaux paramètres.
 
 -   Si vous ne voyez toujours pas le pavé de numérotation, vérifiez qu’il existe une erreur de mise en service à l’aide de la commande suivante :
 

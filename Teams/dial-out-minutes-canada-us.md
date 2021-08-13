@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cabbc4297cd95ddb0a61e4cab35aa050a14fc25
-ms.sourcegitcommit: b07938c0b6edafacaeaaef205a1be00c4c1693ba
+ms.openlocfilehash: cfbc9687c6fa55f809a40e74b0013371e6ad9a64453498af416cdee0f741e205
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47940645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344323"
 ---
 # <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365 Audioconférences, minutes d’appels sortants étendus vers les États-Unis et le Canada
 
@@ -35,7 +35,7 @@ Pour les clients qui adoptent notre service d’audioconférence et qui ont un g
 | Existe-t-il des conditions préalables ? | L’audioconférence doit être activée. Il peut s’obtenir un service par abonnement ou par minute.|
 | Qui pouvez acheter cette offre ? | N’importe quel pays ou région où l’audioconférence peut être acheté. [En savoir plus.](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)|
 | Les minutes sont-elles poolées ?  |Non. L’organisateur d’une réunion pourra à peu près illimité avec des minutes d’appels sortants avec politique d’utilisation équitable vers les États-Unis/Canada par mois. |
-| Cette nouvelle référence SKU de module logiciel remplacera-t-elle les 60 minutes incluses par l’audioconférence ? | Non. L’audioconférence existante de 60 minutes par utilisateur et par mois, qui est mise en commun au niveau du client, continuera de s’appliquer à tous les pays de conférences sortantes de zone A.|
+| Cette nouvelle référence SKU de module logiciel remplacera-t-elle les 60 minutes incluses par l’audioconférence ? | Non. L’audioconférence existante de 60 minutes par utilisateur et par mois, qui est mise en commun au niveau du client, continuera de s’appliquer à tous les pays de conférences sortantes de la zone A.|
 | Quelle est la disponibilité du canal ?  | Il est disponible sur EA/EAS, EES, CSP et Web Direct.  |
 | Quelle est la disponibilité des segments ? | Il est disponible pour les secteurs commercial (y compris le secteur public, l’éducation, les associations à but non lucratif et les groupes Cloud de la communauté du secteur public |
 | Que se passe-t-il si un utilisateur ayant des minutes d’appels sortants étendus vers les États-Unis/CAN est situé aux États-Unis et se déplace vers un autre pays en dehors d’un Audio-Conferencing de vente sur le marché ? Le service d’appels sortants fonctionne-t-il ? | Oui. Si un utilisateur basé aux États-Unis (c’est-à-dire, sa licence Office 365 est attribuée aux États-Unis) se trouve en déplacement au Zimbabwe (un marché ne se trouve pas actuellement dans un emplacement de vente des conférences audio), toutes les minutes d’appel sortant aux États-Unis ou au Canada continueront à s’appliquer à leur minutes d’appel sortant étendu vers les États-Unis/CAN, quel que soit l’endroit où l’appel a lieu. |

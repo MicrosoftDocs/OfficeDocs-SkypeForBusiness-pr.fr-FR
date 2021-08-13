@@ -1,5 +1,5 @@
 ---
-title: Gérer l’état d’santé et la surveillance dans Skype Entreprise Server
+title: Gérer l’état d’Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: 'Résumé : Découvrez les tâches de configuration de la surveillance et de l’état dans Skype Entreprise Server.'
-ms.openlocfilehash: 613df0616214e4fbe2a9504e930fcf76c4cfa8c4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez les tâches de configuration d’analyse et d’Skype Entreprise Server.'
+ms.openlocfilehash: 259e3a939f53320d1bb8066bfa02a96c314c1d37dfb7e5d0ccbcd7a5d872a573
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297180"
 ---
-# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gérer l’état d’santé et la surveillance dans Skype Entreprise Server
+# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gérer l’état d’Skype Entreprise Server
 
-**Résumé :** Découvrez les tâches de configuration d’analyse et d’état dans Skype Entreprise Server.
+**Résumé :** Découvrez les tâches de configuration d’analyse et d’Skype Entreprise Server.
 
-Les rubriques de cette section fournissent des procédures pas à pas pour les tâches de configuration de la surveillance et de l’état que vous pouvez effectuer dans le Panneau de configuration de Skype Entreprise Server et Skype Entreprise Server Management Shell.
+Les rubriques de cette section fournissent des procédures pas à pas pour les tâches de configuration d’analyse et d’état que vous pouvez effectuer dans Skype Entreprise Server Panneau de configuration et Skype Entreprise Server Management Shell.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Enregistrement des détails des appels (CDR) dans Skype Entreprise Server](call-detail-recording-cdr.md)
+- [Enregistrement des détails des appels dans Skype Entreprise Server](call-detail-recording-cdr.md)
 
 - [Qualité de l’expérience (QoE) dans Skype Entreprise Server](quality-of-experience.md)
 

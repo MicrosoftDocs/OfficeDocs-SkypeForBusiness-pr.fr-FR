@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le Générateur de topologie, vous pouvez effectuer des tâches relatives à un serveur individuel exécutant la surveillance en cliquant avec le bouton droit sur le serveur exécutant la surveillance dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur l’une des options suivantes pour le serveur exécutant la surveillance :'
-ms.openlocfilehash: 6e0d26c38e865ae4e2b7b5622c5cddd5c6803cbe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: da1c88215191bfb52d768183a6f187e2064932766498403db1c6a30b26637b8a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331786"
 ---
 # <a name="monitoring-scope-node"></a>Nœud d’étendue de surveillance
  

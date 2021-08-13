@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: En savoir plus sur les options de numérotation automatique et de reconnaissance vocale de la file d’attente dans Teams.
-ms.openlocfilehash: ee79f5024ee15fc1b8f00ecd5026f2eb5a9b4b22
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: 6dfb1265d3eb5e1200a2b0638d66415c025ed7682c222aa51767d8a5fea3e0f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344303"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Référence de la reconnaissance vocale et de la numérotation automatique et de la file d’attente des appels
 
@@ -41,7 +41,7 @@ La numérotation par poste est une fonctionnalité d’un service de service aut
 
 ### <a name="maximum-directory-size"></a>Taille de l'annuaire maximale
 
-Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille maximale d’une liste de noms prise en charge par un seul employé de la fonction de reconnaissance vocale est de 80 000 utilisateurs.
+Il n’y a pas de limite au nombre d’utilisateurs Active Directory que les appels peuvent prendre en charge lorsqu’un appelant recherche une personne en particulier. Un appelant peut entrer des noms partiels ou complets (Prénom + Nom, et également Nom + Prénom), mais il a besoin du numéro de poste complet. La taille de liste de noms maximale prise en charge par un seul employé de service automatique à l’aide de la reconnaissance vocale est de 80 000 utilisateurs.
   
 |Type d'entrée|Format de recherche|Nombre maximal d'utilisateurs dans une organisation|
 |:-----|:-----|:-----|

@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Cette rubrique contient tous les pays et régions auxquels les utilisateurs peuvent passer des appels sortants s'ils ont un forfait d'appels.
-ms.openlocfilehash: 6287fb3adb1532ffa423cd9becd65b2f1028b604
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2ced238a1e339015cfec9b0263d78d1aa39cc1f5a704e1540d5b125e519f1fd7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122258"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299332"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Les utilisateurs peuvent passer des appels sortants vers ces pays et ces régions
 

@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Afficher les rapports d’administration Teams des visites de connecteurs EHR
-ms.openlocfilehash: d0a0862811e1a10fc9a450b986bbc59b603c4254
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 96f0efac9e1293197e92768e24cbd15187127410f75e70abbd77afa50d0baacf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299233"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams Rapports d’administration du connecteur EHR
 
@@ -48,6 +48,6 @@ La boîte de dialogue fournit les données suivantes :
 
 Vous pouvez utiliser la boîte de dialogue de rapport pour acheter d’autres visites virtuelles.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Teams pour les visites virtuelles](ehr-admin.md)

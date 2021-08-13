@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
-description: Ce tableau stocke des informations sur les différents processus de Skype Entreprise Server 2015 impliqués dans le routage et les connexions.
-ms.openlocfilehash: 4f387ca5be7f376d5056b40050ce1c49218e02c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Ce tableau stocke des informations sur les différents processus Skype Entreprise Server 2015 impliqués dans le routage et les connexions.
+ms.openlocfilehash: 2fc9eeeba91749495ea977db22c28c0db8b56ce08728023c57860f8b68275c72
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297061"
 ---
 # <a name="application-table-in-skype-for-business-server-2015"></a>Table Application dans Skype Entreprise Server 2015
  
-Ce tableau stocke des informations sur les différents processus de Skype Entreprise Server 2015 impliqués dans le routage et les connexions.
+Ce tableau stocke des informations sur les différents processus Skype Entreprise Server 2015 impliqués dans le routage et les connexions.
   
 |**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|

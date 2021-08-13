@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: Découvrez comment intégrer des enregistrements d’état d’santé électroniques à l Microsoft Teams patient et à la spécification de l’interface SPECIFICATION3.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4e20619badb2509d0a90f396563a98796e718e2f
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: e51372f2c44bdd5bdeea8e4a7699d3f46881564e0c98f3049b95dcbd21eb66c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344040"
 ---
 # <a name="stu3-interface-specification"></a>Spécification de l’interface STU3
 
@@ -378,7 +378,7 @@ Consultez [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/c
 
 Il s’agit des champs requis au minimum, qui sont un sous-ensemble des champs « must have » du profil [US Core Encounter).](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html)
 
- - État
+ - Statut
  - Tapez[0]. Codage[0]. Affichage
 
 De plus, les champs suivants des champs « doivent prendre en charge » du profil US Core Encounter :

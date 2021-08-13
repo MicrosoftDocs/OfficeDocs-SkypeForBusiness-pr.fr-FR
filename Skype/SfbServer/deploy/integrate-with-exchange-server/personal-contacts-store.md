@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Résumé : Configurez le magasin de contacts personnels utilisé par les clients hérités.'
-ms.openlocfilehash: 5f2131fd1e960e658d4257f0c86dd61a241aa499
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 806bdf8ac43c8126e0537ccb121cbc521066aab6cd42c7136d0d8b951d5b9d19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109670"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319457"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurer le magasin de contacts personnels sur les ordinateurs clients Lync 2010
   
@@ -32,9 +32,9 @@ Pour configurer cette valeur sur un seul ordinateur, complétez la procédure su
   
 1. Sur l’ordinateur client, cliquez sur **Démarrer,** puis sur **Exécuter.**
 2. Dans la boîte de dialogue **Exécuter**, tapez regedit, puis appuyez sur Entrée.
-3. Dans l’Éditeur du Registre, **développez HKEY_LOCAL_MACHINE,** développez **logiciel,** développez **Stratégies,** **développez Microsoft,** puis développez **Communicator**.
+3. Dans l’Éditeur du Registre, **développez HKEY_LOCAL_MACHINE,** développez **logiciel,** développez **Stratégies,** **développez Microsoft,** puis **développez Communicator**.
 4. Cliquez avec le **bouton Communicator**, pointez sur **Nouveau,** puis cliquez sur **Valeur DWORD (32 bits).**
 5. Une fois la nouvelle valeur créée, tapez PersonalContactStoreOverride, puis appuyez sur Entrée pour renommer la valeur.
 6. Vérifiez que la valeur de PersonalContactStoreOverride est définie sur 0, puis fermez l’Éditeur du Registre.
 
-Si vous devez apporter la même modification sur plusieurs ordinateurs, vous pouvez le faire en créant un objet de stratégie de groupe personnalisé. Pour plus d’informations sur cette situation dans Windows 10, voir l’article Créer un objet [de stratégie de groupe.](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
+Si vous devez apporter la même modification sur plusieurs ordinateurs, vous pouvez le faire en créant un objet de stratégie de groupe personnalisé. Pour plus d’informations sur cette Windows 10, voir l’article Créer un objet [de stratégie de groupe.](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

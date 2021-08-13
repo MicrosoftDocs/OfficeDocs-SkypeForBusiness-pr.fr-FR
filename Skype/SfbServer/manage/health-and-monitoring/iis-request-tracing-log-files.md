@@ -1,5 +1,5 @@
 ---
-title: Surveillance des fichiers journaux de suivi des demandes IIS dans Skype Entreprise Server 2015
+title: Surveillance des fichiers journaux de suivi des demandes IIS Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: 'Résumé : Découvrez la prise en charge du service de mobilité (Mcx) dans Skype Entreprise Server 2015 pour les clients hérités.'
-ms.openlocfilehash: 7d0d15b4c3db3d768117d73ed610b38c7a819196
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez le service de mobilité (Mcx) dans Skype Entreprise Server 2015 pour les clients hérités.'
+ms.openlocfilehash: 74aaca832bc7f6cfa1b9e3afbc08942ac0eceee3a655f36abb1347eab9ea5cfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118633"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297150"
 ---
-# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Surveillance des fichiers journaux de suivi des demandes IIS dans Skype Entreprise Server 2015
+# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Surveillance des fichiers journaux de suivi des demandes IIS Skype Entreprise Server 2015
  
-**Résumé :** Découvrez la prise en charge de Mobility Service (Mcx) dans Skype Entreprise Server 2015 pour les clients hérités.
+**Résumé :** Découvrez le service de mobilité (Mcx) dans Skype Entreprise Server 2015 pour les clients hérités.
   
-Cette rubrique s’applique aux déploiements qui ne sont pas destinés aux clients Lync Mobile Lync 2010 et est destinée au service de mobilité (Mcx).
+Cette rubrique s’applique uniquement aux déploiements qui ne sont pas destinés aux clients Lync Mobile Lync 2010 et est destinée au service de mobilité (Mcx).
 
 > [!NOTE]
-> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-Lorsque vous activez le suivi des demandes IIS (Internet Information Services) pour le service de mobilité De Skype Entreprise Server (Mcx), les fichiers journaux générés peuvent consommer jusqu’à trois gigaoctets d’espace disque par jour. La journalisation du suivi IIS est activée par défaut. Vous devez surveiller les serveurs frontux pour vous assurer qu’ils ne manquent pas d’espace disque. 
+Lorsque vous activez le suivi des demandes Internet Information Services (IIS) pour le service de mobilité Skype Entreprise Server (Mcx), les fichiers journaux générés peuvent consommer jusqu’à trois gigaoctets d’espace disque par jour. La journalisation du suivi IIS est activée par défaut. Vous devez surveiller les serveurs frontux pour vous assurer qu’ils ne manquent pas d’espace disque. 
   
 Par défaut, les services Internet (IIS) stockent les fichiers journaux dans %SystemDrive%\inetpub\logs\LogFiles.
   

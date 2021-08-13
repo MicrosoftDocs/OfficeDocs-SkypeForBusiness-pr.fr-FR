@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Stratégie de Teams pour l’éducation pour appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
-ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.openlocfilehash: 335061c2dfb662673a4ec026bb3a29015cdb59b4b198bdafc9a971e4480938d4
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772405"
+ms.locfileid: "54344057"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant Teams pour l’éducation stratégie d’entreprise pour appliquer facilement des stratégies à un environnement d’apprentissage sécurisé
 

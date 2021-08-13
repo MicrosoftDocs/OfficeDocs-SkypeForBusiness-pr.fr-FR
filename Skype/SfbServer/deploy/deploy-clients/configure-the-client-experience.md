@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’expérience client pour Skype Entreprise utilisateurs.'
-ms.openlocfilehash: 4ad311917ef868a8eea55fab88e7aad6dd854dfe
+ms.openlocfilehash: 4cdfc0a44f07de5488d9b6a27019af0cd9fc03a74476367367b9e23170313fb6
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772685"
+ms.locfileid: "54332066"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurer l’expérience client avec Skype Entreprise 2015
  

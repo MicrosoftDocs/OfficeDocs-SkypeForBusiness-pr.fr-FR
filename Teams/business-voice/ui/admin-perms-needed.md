@@ -1,5 +1,5 @@
 ---
-title: Autorisations d’administrateur nécessaires pour acheter Microsoft 365 Business Voice
+title: Autorisations d’administration nécessaires pour acheter des Microsoft 365 Business Voice
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,29 +16,29 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: 236b3444d78950ea4f84fb28187d6d4d3046205c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 23fdfe702d4ae776893368838332ce4747463e0bfc15938c418f076279d8bf74
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299431"
 ---
-# <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Autorisations d’administrateur nécessaires pour acheter Microsoft 365 Business Voice
+# <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Autorisations d’administration nécessaires pour acheter des Microsoft 365 Business Voice
 
-Bonjour ! Vous avez été envoyé sur cette page parce que vous avez essayé d’acheter une licence [Microsoft 365 Business Voice,](../whats-business-voice.md) mais que vous n’avez pas les autorisations nécessaires pour le faire.
+Bonjour ! Vous avez été envoyé à cette page parce que vous avez essayé d’acheter une licence [Microsoft 365 Business Voice](../whats-business-voice.md) mais que vous n’avez pas les autorisations nécessaires pour le faire.
 
 Tout d’abord, si vous avez cliqué sur un lien par accident sans essayer d’acheter de licences Business Voice, vous pouvez fermer cette page. Si vous **voulez** acheter des licences Business Voice (ou si vous voulez en savoir plus sur Business Voice), lisez la suite !
 
 ## <a name="how-can-i-buy-business-voice"></a>Comment acheter Business Voice ?
 
-Business Voice est un module module Microsoft 365 et Office 365. Avant d’acheter Business Voice, vous devez vous inscrire pour obtenir Microsoft 365 ou Office 365. Une fois que vous êtes abonné, ou si vous avez déjà un abonnement Microsoft 365 ou Office 365, vous pouvez acheter des licences de modules ajout de Business Voice en vous connectant au module module logiciel Microsoft 365 Admin [center](https://admin.microsoft.com)Billing Purchase Services (défiler jusqu’au bas de la  >    >    >   page) > **Microsoft 365 Business Voice.**
+Business Voice est un module module Microsoft 365 et Office 365. Avant d’acheter Business Voice, vous devez vous inscrire pour obtenir Microsoft 365 ou Office 365. Après vous être abonné, ou si vous avez déjà un abonnement Microsoft 365 ou Office 365, vous pouvez acheter des licences de modules add-on Business Voice en vous connectant au [> Centre d’administration Microsoft 365 Microsoft 365 Business Voice](https://admin.microsoft.com).  >    >    >   
 
 ## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>Pourquoi l’option d’achat de Business Voice n’est-elle pas disponible ?
 
 Si vous ne pouvez pas accéder au Centre d’administration Microsoft 365, si aucune option d’achat de Business Voice n’est disponible ou si vous obtenez une erreur, cela peut être pour l’une des raisons suivantes :
 
 - **Autorisations insuffisantes** : pour ajouter des licences, y compris Voix Entreprise, à votre organisation Microsoft 365 ou Office 365, votre compte doit être administrateur général ou doit avoir le rôle d’administrateur de facturation. Parlez à votre Microsoft 365 administrateur Office 365 entreprise pour obtenir de l’aide pour obtenir les autorisations qui s’il vous sont accordées ou pour ajouter les licences Voix Entreprise à votre place.
-- Vous êtes inscrit à un compte **non** administrateur : si vous êtes l’administrateur général ou l’administrateur de facturation de votre organisation Microsoft 365 ou Office 365 et suivez la pratique recommandée qui est d’avoir un compte d’utilisateur « normal » distinct de votre compte d’administrateur, connectez-vous à votre compte d’utilisateur habituel et connectez-vous à votre compte d’administrateur.
+- Vous êtes inscrit à un compte non administrateur : si vous êtes l’administrateur général ou l’administrateur de facturation de votre organisation Microsoft 365 ou Office 365 et suivez la pratique recommandée qui est d’avoir un compte d’utilisateur « normal » distinct de votre compte d’administrateur, connectez-vous à votre compte d’utilisateur habituel et **connectez-vous** à votre compte d’administrateur.
 - **Vous n’êtes** pas encore inscrit . Assurez-vous d’être inscrit à un compte d’administrateur général ou d’administrateur de facturation au Microsoft 365 ou au Office 365 que vous voulez gérer.
 - **Vous vous êtes inscrit** dans une organisation erronée - Si vous avez accès à plusieurs Microsoft 365 ou Office 365 organisation, assurez-vous d’être inscrit à la bonne organisation. Vous devez vous déconnecter de votre compte Office 365 compte actuel et vous connecter au compte dans l’organisation que vous voulez gérer.
 - **Business Voice n’est pas disponible là où vous vous** êtes : Business Voice est actuellement disponible dans un nombre limité de pays et régions. Découvrez [what’s Business Voice](../whats-business-voice.md) pour voir si Business Voice est disponible où vous êtes.

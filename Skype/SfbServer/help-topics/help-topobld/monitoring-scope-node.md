@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'Dans le Générateur de topologies Lync Server 2013, vous pouvez effectuer des tâches relatives à un serveur individuel exécutant la surveillance en cliquant avec le bouton droit sur le serveur exécutant la surveillance dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur l’une des options suivantes pour le serveur exécutant la surveillance :'
-ms.openlocfilehash: a6ac38f5fa2de340e2c388a91b0388f49168f84b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 39197d9d926cecd7a1acf3834b0fff8ea7f71d92af82921f161f0502e00c415a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299531"
 ---
 # <a name="monitoring-scope-node"></a>Nœud d’étendue de surveillance
  

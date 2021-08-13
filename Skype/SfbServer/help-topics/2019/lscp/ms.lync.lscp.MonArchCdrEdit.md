@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 4cc910c8278c42c39bafc053130fdc0589e4bada
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 989917de0482ef089c86133fd50271c26b563910bf8c14a3a0feb51787e86d37
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319437"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Enregistrement des détails des appels : création d’un nouveau ou modification d’un enregistrement existant
  
@@ -28,7 +28,7 @@ Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous
   
 - [Activer l’enregistrement des détails des appels dans Skype Entreprise Server](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Spécifier la conservation des données d’cdr dans Skype Entreprise Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [Spécifier la rétention des données d’Skype Entreprise Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

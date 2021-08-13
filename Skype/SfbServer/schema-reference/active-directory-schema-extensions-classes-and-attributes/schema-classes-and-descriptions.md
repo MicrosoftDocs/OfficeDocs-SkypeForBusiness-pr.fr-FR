@@ -12,25 +12,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
-description: Cette section décrit toutes les classes de schéma utilisées par Skype Entreprise Server.
-ms.openlocfilehash: 6c4b5d12baf85a1e9f168940fc889f6f18063616
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Cette section décrit toutes les classes de schéma utilisées par Skype Entreprise Server .
+ms.openlocfilehash: 9b7e22b6950728804986ea662659f04484834e0d65e6d9bd755c0138dc09e5e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813554"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297071"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Classes de schéma et descriptions dans Skype Entreprise Server
  
-Cette section décrit toutes les classes de schéma utilisées par Skype Entreprise Server. 
+Cette section décrit toutes les classes de schéma utilisées par Skype Entreprise Server . 
   
 ## <a name="schema-classes-and-descriptions"></a>Classes et descriptions de schéma
 
 |**Classe**|**Description**|**Comments**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Destinataire de messagerie unifiée Exchange.  <br/> |Cette classe auxiliaire est partagée avec la um Exchange.  <br/> |
+|Mail-Recipient  <br/> |Exchange Destinataire du courrier de messagerie unifiée.  <br/> |Cette classe auxiliaire est partagée avec la Exchange um.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |Cette classe est un conteneur de contacts d’application et ne possède pas d’attributs propres.  <br/> |Nouveauté de Microsoft Office Communications Server 2007 R2.  <br/> |
-|msRTCSIP-ApplicationServer  <br/> |Cette classe contient l’entrée correspondant au point de contrôle de service d’une instance des services d’applications de communications unifiées (UCAS).  <br/> |Nouveauté d’Office Communications Server 2007 R2.  <br/> |
+|msRTCSIP-ApplicationServer  <br/> |Cette classe contient l’entrée correspondant au point de contrôle de service d’une instance des services d’applications de communications unifiées (UCAS).  <br/> |Nouveauté de Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |Cette classe fournit une association d’un pool spécifique à son service d’application.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServerSettings  <br/> |Cette classe auxiliaire de msRTCSIP-ApplicationServer contient des attributs représentant des paramètres pour les instances du service d’application.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
 |msRTCSIP-Archive (obsolète)  <br/> |Cette classe auxiliaire de msRTCSIP-GlobalContainer contient tous les paramètres concernant l’archivage.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
@@ -38,19 +38,19 @@ Cette section décrit toutes les classes de schéma utilisées par Skype Entrepr
 |msRTCSIP-ConferenceDirectories  <br/> |Cette classe est un conteneur d’instances d’annuaires des conférences et ne possède pas d’attributs propres.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ConferenceDirectory  <br/> |Cette classe contient des attributs représentant des paramètres réservés à un annuaire des conférences spécifique.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ConnectionPoint  <br/> |Point de contrôle de service générique (SCP) pour spécifier l’ordinateur en tant que serveur exécutant Skype Entreprise Server.  <br/> |Nouveauté de Lync 2010.  <br/> |
-|msRTCSIP-DefaultCWABank  <br/> |Cette classe auxiliaire contient les paramètres d’une banque Skype Entreprise Web App.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
+|msRTCSIP-DefaultCWABank  <br/> |Cette classe auxiliaire contient les paramètres d’une Application Web Skype Entreprise bancaire.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
 |msRTCSIP-Domain  <br/> |Cette classe contient des attributs qui définissent les domaines configurés du registre SIP.  <br/> |-  <br/> |
 |msRTCSIP-EdgeProxy  <br/> |Ce conteneur de classe représente un service Edge d’accès unique. Étant donné qu’un service Edge d’accès est déployé dans le réseau de périmètre et que les clients n’autorisent généralement pas l’accès aux services de domaine Active Directory à partir du réseau de périmètre, les instances du service Edge d’accès ne sont pas jointes au réseau Active Directory de l’intranet. Par conséquent, les proxies Access ne sont pas automatiquement enregistrés dans AD DS. L’administrateur doit configurer manuellement l’existence de chaque instance du service Edge d’accès dans AD DS.  <br/> |-  <br/> |
 |msRTCSIP-EnterpriseMCUSettings  <br/> |Cette classe auxiliaire de msRTCSIP-MCU contient des attributs représentant des paramètres réservés aux serveurs de conférence.  <br/> |Nouveauté de Microsoft Office Communications Server 2007.  <br/> |
-|msRTCSIP-EnterpriseMediationServerSettings  <br/> |Cette classe auxiliaire de msRTCSIP-MediationServer contient des attributs représentant des paramètres réservés aux serveurs de médiation.  <br/> |Nouveauté d’Office Communications Server 2007.  <br/> |
+|msRTCSIP-EnterpriseMediationServerSettings  <br/> |Cette classe auxiliaire de msRTCSIP-MediationServer contient des attributs représentant des paramètres réservés aux serveurs de médiation.  <br/> |Nouveauté de Office Communications Server 2007.  <br/> |
 |msRTCSIP-EnterpriseServerSettings  <br/> |Cette classe auxiliaire de msRTCSIP-Server contient des attributs représentant des paramètres réservés aux serveurs SIP.  <br/> |-  <br/> |
 |msRTCSIP-Federation  <br/> |Cette classe auxiliaire de msRTCSIP-GlobalContainer contient tous les paramètres concernant la fédération.  <br/> |-  <br/> |
-|msRTCSIP-GlobalContainer  <br/> |Cette classe contient tous les paramètres qui s’appliquent tout au long d’un déploiement de Skype Entreprise Server.  <br/> |-  <br/> |
-|msRTCSIP-GlobalUserPolicy (obsolète)  <br/> |Cette classe représente une stratégie de réunion Office Communications Server unique.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
+|msRTCSIP-GlobalContainer  <br/> |Cette classe contient tous les paramètres qui s’appliquent tout au long d’Skype Entreprise Server déploiement.  <br/> |-  <br/> |
+|msRTCSIP-GlobalUserPolicy (obsolète)  <br/> |Cette classe représente une stratégie de réunion Office Communications Server.  <br/> |Obsolète dans Lync Server 2010.  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |Objet local de paramètre de la topologie globale.  <br/> |Nouveauté de Lync Server 2010.  <br/> |
 |msRTCSIP-GlobalTopologySettings  <br/> |Conteneur qui contient les objets de paramètre de la topologie globale.  <br/> |Nouveauté de Lync Server 2010.  <br/> |
 |msRTCSIP-LocalNormalization  <br/> |Cette classe est un conteneur représentant une instance d’une règle de normalisation d’emplacement.  <br/> |-  <br/> |
-|msRTCSIP-LocationContactMapping  <br/> |Cette classe est créée par l’application Conferencing Attendant et contient des attributs utilisés pour classer les numéros de téléphone de conférence par région.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
+|msRTCSIP-LocationContactMapping  <br/> |Cette classe est créée par le application Assistant de conférence et contient des attributs utilisés pour classer les numéros de téléphone de conférence par région.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
 |msRTCSIP-LocationContactMappings  <br/> |Cette classe est un conteneur d’instances de mappages de contact d’emplacement et ne possède pas d’attributs propres.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |
 |msRTCSIP-LocationProfile  <br/> |Cette classe est un conteneur représentant un profil d’emplacement spécifique.  <br/> |-  <br/> |
 |msRTCSIP-LocationProfiles (obsolète)  <br/> |Cette classe est un conteneur de profils d’emplacement et ne possède pas d’attributs propres.  <br/> |Obsolète dans Lync Server 2010.  <br/> |

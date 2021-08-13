@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17520645f23500550c6bc991c9d25ad2f72b2b6e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 87f1be3a538d708c62aef46dd673e7fd3ed5c1156c3e50c986fc9ec0753cad39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299243"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>Aide pour les situations de faible bande passante pour Teams for EDU
 
-Lorsqu'il s'agit de travailler avec Microsoft Teams, de nombreux éléments du réseau peuvent affecter les performances. La faible bande passante est l'une des situations qui peuvent sembler échapper à tout contrôle. Considérez les situations suivantes :
+Il existe de nombreux éléments réseau en matière d’utilisation de Microsoft Teams qui peuvent affecter les performances. Une bande passante faible est l’une des situations qui peuvent vous paraître complètement hors de votre contrôle. Prenez en compte les situations suivantes :
 
 - Une connexion Internet à faible débit pour l’établissement scolaire.
 - Une connexion Internet à faible débit pour un ou plusieurs étudiants.
@@ -38,11 +38,11 @@ Lorsqu'il s'agit de travailler avec Microsoft Teams, de nombreux éléments du r
 Cet article vous donnera les meilleures pratiques à suivre pour diverses activités de Teams lorsque vous êtes confronté à un problème de faible bande passante.
 
 > [!IMPORTANT]
-> Vous trouverez ici des informations sur [Comment Microsoft Teams utilise la mémoire](teams-memory-usage-perf.md), car outre les problèmes de faible bande passante, il est possible que vous rencontriez des problèmes de ressources sur votre appareil. Si vous recherchez des conseils sur le réseau dans Microsoft Teams, voir [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md).
+> Vous trouverez ici des informations sur [Comment Microsoft Teams utilise la mémoire](teams-memory-usage-perf.md), car outre les problèmes de faible bande passante, il est possible que vous rencontriez des problèmes de ressources sur votre appareil. Si vous recherchez des conseils sur le réseau dans Microsoft Teams, voir [Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md).
 
 ## <a name="resolving-low-bandwidth-issues-for-admins"></a>Résolution des problèmes de faible bande passante pour les administrateurs
 
-Ce qu'il faut retenir, en tant qu'administrateur informatique, c'est que même s'il existe des solutions pour les problèmes de faible bande passante qui sont largement répandues et qui permettent de résoudre les problèmes rapidement, les solutions doivent être examinées avec soin. Certains problèmes peuvent être résolus en se concentrant davantage sur l'éducateur ou même sur l'étudiant/parent.
+Le point important à retenir, en tant qu’administrateur informatique, est que même si vous avez des solutions aux problèmes de faible bande passante qui sont largement répartis pour résoudre rapidement les problèmes, les solutions doivent être prises en compte avec soin. Certains problèmes peuvent être en mesure de résoudre avec un focus plus étroit au niveau de l’enseignant ou même de l’étudiant/parent.
 
 En résumé, si le problème de faible bande passante concerne un grand nombre d'élèves, il est logique que l'administrateur informatique prenne des mesures, et il est également logique que les mesures prises au niveau des élèves et des éducateurs n'aient pas été utiles.
 
@@ -51,13 +51,13 @@ En résumé, si le problème de faible bande passante concerne un grand nombre d
 
 ### <a name="meetings-and-video"></a>Réunions et vidéo
 
-Les réunions, et plus particulièrement la vidéo dans les réunions, constituent l'une des principales préoccupations en matière de faible bande passante. Un administrateur informatique doit prendre en compte les actions ci-dessous lorsqu'il traite les problèmes signalés par les étudiants ou les éducateurs en ce qui concerne la meilleure expérience de réunion dans un cadre éducatif.
+Les réunions constituent un objectif principal pour les problèmes de faible bande passante . plus précisément, vidéo dans les réunions. Un administrateur informatique doit prendre en compte les actions ci-dessous lors du traitement des problèmes signalés par les étudiants ou les enseignants en ce qui concerne la meilleure expérience de réunion dans un cadre pédagogique.
 
 #### <a name="meeting-policies"></a>Stratégies de réunion
 
 En ce qui concerne les réunions, l'un des domaines les plus préoccupants dans les situations de faible bande passante est celui des vidéos. En plus de la capacité de Teams à s'adapter automatiquement à la bande passante détectée, vous disposez, en tant qu'administrateur informatique, d'options de stratégie que vous pouvez définir au niveau de chaque organisateur et/ou de chaque utilisateur. Ces options vous permettent d'offrir à chacun la meilleure expérience possible compte tenu de la bande passante dont il dispose à un moment donné.
 
-Voici quelques-uns des éléments que vous pouvez définir par le biais d’une stratégie :
+Voici quelques-uns des éléments que vous pouvez définir par le biais d’une stratégie :
 
 - Désactivation totale de la vidéo pour qu'aucune personne ne puisse l'activer.
 - Débit binaire du média (ce paramètre est défini par utilisateur).
@@ -91,6 +91,6 @@ Pour plus d’informations, voir [Utiliser Teams pour le travail scolaire lorsqu
 
 Il existe également des situations dans lesquelles vous devez aborder les problèmes de manière proactive avec vos enseignants, où le problème de bande passante peut se situer au niveau de l’étudiant (par exemple, un grand nombre d’étudiants peuvent regarder les leçons vidéo sans problème, mais un petit nombre rencontre des problèmes).
 
-Il n'est pas raisonnable d'attendre de nombreux parents qu'ils soient capables de résoudre ces problèmes. Les problèmes de faible bande passante peuvent être hors du contrôle de l'élève ou des parents (leur maison n'a peut-être pas accès à une bande passante élevée, de nombreuses personnes dans leur voisinage immédiat consomment peut-être de la bande passante et affectent ce qu'ils peuvent faire, il peut y avoir une instabilité de l'Internet, etc.)
+Il n’est pas raisonnable de s’attendre à ce que de nombreux parents soient en mesure de résoudre ces problèmes. Les problèmes de faible bande passante peuvent être hors du contrôle d’un étudiant ou d’un parent (leur domicile n’a peut-être pas accès à une bande passante élevée, il peut y avoir de nombreuses personnes dans leur zone immédiate consommant de la bande passante et affectant ce qu’ils peuvent faire, il peut y avoir une instabilité d’Internet, etc.).
 
 Nous avons réuni des conseils dans notre article [Utiliser Teams pour le travail scolaire lorsque la bande passante est faible](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262) pour les parents et les étudiants. Vous pouvez également consulter et essayer ces recommandations si vous rencontrez des problèmes.

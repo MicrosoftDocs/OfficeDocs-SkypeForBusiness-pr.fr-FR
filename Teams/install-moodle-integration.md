@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 search.appverid: MET150
-description: Découvrez comment installer et configurer l’application LMS (Open Source Learning Management System) Moodle pour les Microsoft Teams.
+description: Découvrez comment installer et configurer l’application Moodle open source Learning Management System (LMS) pour Microsoft Teams.
 keywords: Teams Plug-in d’intégration de l’application Moodle
 localization_priority: Normal
 f1.keywords:
@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d547d3c811f499faee5727634068a7807566293
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: fca7bc34eeaf0f7b2c6bd552038b9b2567c872351d91c264936ec9072957bc2b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344017"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installation de l’intégration de Moodle à Microsoft Teams
 
 > [!VIDEO https://www.youtube.com/embed/OHlPt22nKoE]
 
-[Moodle,](https://moodle.org/)le système de gestion des apprentissages open source et le plus populaire au monde, est désormais intégré à Microsoft Teams ! Cette intégration permet aux enseignants et aux enseignants de collaborer autour de cours Moodle, de poser des questions sur leurs notes et devoirs et de rester à jour avec des notifications, directement dans Teams !
+[Moodle,](https://moodle.org/)le système de gestion des Learning open source le plus populaire au monde, est désormais intégré à Microsoft Teams ! Cette intégration permet aux enseignants et aux enseignants de collaborer autour de cours Moodle, de poser des questions sur leurs notes et devoirs et de rester à jour avec des notifications, directement dans Teams !
 
 Pour aider les administrateurs informatiques à configurer facilement cette intégration, nous avons mis à jour notre plug-in Moodle open source avec les fonctionnalités suivantes :
 

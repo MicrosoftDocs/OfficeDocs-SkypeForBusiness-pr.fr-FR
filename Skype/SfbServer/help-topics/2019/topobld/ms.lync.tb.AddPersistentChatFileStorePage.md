@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers pour le serveur Standard Edition ou le pool frontal Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou spécifier un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel situer le partage de fichiers et un nom de dossier pour le nouveau partage de fichiers.
-ms.openlocfilehash: 54c72919d89c61fc134a396d46381a5b21254823
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 53ebefcc5bc088b4f3e56d61d6e7ae91baf670deac66df507a80486a2b8efe96
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319387"
 ---
 # <a name="add-persistent-chat-file-store"></a>Ajouter un magasin fichiers de conversation permanente
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [mise à niveau de Skype Entreprise vers Microsoft Teams.](/MicrosoftTeams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015.
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, [voir Skype Entreprise à Microsoft Teams mise à niveau.](/MicrosoftTeams/upgrade-start-here) Si vous avez besoin d’utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité pour Teams ou continuer à utiliser Skype Entreprise Server 2015.

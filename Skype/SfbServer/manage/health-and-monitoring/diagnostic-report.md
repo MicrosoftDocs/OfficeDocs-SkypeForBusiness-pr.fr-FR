@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Résumé : Découvrez le rapport de diagnostic dans Skype Entreprise Server.'
-ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095238"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297220"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic dans Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Le Rapport de diagnostic fournit des informations de diagnostic et de dépannage
     
 ## <a name="accessing-the-diagnostic-report"></a>Accès au Rapport de diagnostic
 
-Le rapport de diagnostic est accessible en cliquant sur la mesure Rapport de diagnostic (détail) dans le rapport détaillé de session P2E dans Skype Entreprise [Server](peer-to-peer-session-detail-report.md) ou dans le rapport détaillé de conférence.
+Le rapport de diagnostic est accessible en cliquant sur la mesure Rapport de diagnostic (détail) dans le rapport détaillé de [session P2E](peer-to-peer-session-detail-report.md) dans Skype Entreprise Server ou le rapport détaillé de conférence.
   
 ## <a name="filters"></a>Filtres
 

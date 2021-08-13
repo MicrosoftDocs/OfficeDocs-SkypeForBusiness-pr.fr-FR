@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7090aac3c5e7ff724a079e7f9d9ffe9d712cd447
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d15dabb0b81f86d41540eda7e580c588a0d921bad88eb5fa322fd2103b0cac61
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296461"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams dans les Services Bureau à distance
 
@@ -71,7 +71,7 @@ Pour affecter une stratégie à plusieurs utilisateurs à la fois :
 
 Vous pouvez également suivre les étapes suivantes :
 
-1. Dans le navigation gauche du Microsoft Teams d’administration, allez à la stratégie que vous voulez attribuer. Par exemple :
+1. Dans le navigation gauche du Microsoft Teams d’administration, allez à la stratégie que vous voulez attribuer. Par exemple :
 
     - Allez à **la**  >  **stratégie d’appel** vocal, puis **sélectionnez DisallowCalling.**
     - Allez dans **stratégies**  >  **de réunion Réunions,** puis sélectionnez **AllOff.**

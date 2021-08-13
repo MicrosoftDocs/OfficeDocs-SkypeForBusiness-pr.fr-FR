@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: 'Résumé : Découvrez comment configurer l’ID de l’appelant à l’aide du Panneau de configuration de Skype Entreprise Server.'
-ms.openlocfilehash: 2ffe547927c9f4d6df16a06cc8c95dff9814fc7f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment configurer l’ID de l’appelant à l’aide Skype Entreprise Server panneau de configuration.'
+ms.openlocfilehash: 039fe9181bad8edbb587a1b3739679137cf0cb8e98d9ce79859ae7a5e73a4e0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332026"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Créer ou modifier une règle de traduction pour la présentation de l’ID d’appelant dans Skype Entreprise Server
 
-**Résumé :** Découvrez comment configurer l’ID de l’appelant à l’aide du Panneau de configuration de Skype Entreprise Server.
+**Résumé :** Découvrez comment configurer l’ID de l’appelant à l’aide Skype Entreprise Server panneau de configuration.
 
-Avec Skype Entreprise Server, le numéro de téléphone de l’appelé (c’est-à-dire, le numéro de téléphone appelé)  peut être converti du format E.164 au format de numérotation local requis par l’homologue de la connexion (c’est-à-dire, la passerelle associée, le PBX ou la connexion SIP). Pour ce faire, vous devez définir une ou plusieurs règles de traduction pour traduire l’URI de demande avant de l’acheminer vers l’homologue de jonction.
+Avec Skype Entreprise Server, le numéro de téléphone de l’appelé (c’est-à-dire, le numéro de téléphone appelé) peut être  converti du format E.164 au format de numérotation local requis par l’homologue de la connexion (c’est-à-dire, la passerelle associée, le PBX ou la connexion SIP). Pour ce faire, vous devez définir une ou plusieurs règles de traduction pour traduire l’URI de demande avant de l’acheminer vers l’homologue de jonction.
 
 Skype Entreprise Server vous permet également de traduire le numéro de téléphone de l’appelant (c’est-à-dire, le numéro de téléphone de l’appelant) du format E.164 au format de numérotation local requis par l’homologue de la connexion. Par exemple, vous pouvez écrire une règle de traduction pour supprimer +44 au début d’une chaîne de numérotation et utiliser 0144 à la place.
 
-### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>Pour configurer l’ID de l’appelant à l’aide du Panneau de configuration de Skype Entreprise Server
+### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>Pour configurer l’ID de l’appelant à l’aide Skype Entreprise Server panneau de configuration
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de contrôle.
 
 2. Dans la barre de navigation de gauche, cliquez sur **Routage des communications vocales**, puis sur **Configuration de la jonction**.
 

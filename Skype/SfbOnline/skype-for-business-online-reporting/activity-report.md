@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 094d947088b1a1fea4a8585e09bdedfa6ffe2a2b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 559e29abc72600df1a13e2cf8077796d505d726557370e406894fba8c00d6b6e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332096"
 ---
 # <a name="activity-report"></a>Rapport d'activités
 
@@ -38,7 +38,7 @@ Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-
 Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des détails sur les activités au sein de votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise.
   
 > [!NOTE]
-> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur dans le Microsoft 365 d’administration. 
+> Vous pouvez consulter tous les rapports Skype Entreprise vous connectez en tant qu’administrateur dans le Centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>Comment obtenir le rapport d'activité Skype Entreprise
 
@@ -118,7 +118,7 @@ Vous pouvez également exporter les données du rapport vers un fichier Excel .c
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
 
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
