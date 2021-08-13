@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour créer une requête hors connexion, vous devez d'abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom du fichier CSR dans la zone de texte Nom de fichier. Vous pouvez cliquer sur Parcourir afin de choisir un emplacement pour créer la demande de signature de certificat. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: b100737e230a5ea627cfbe1759d010da88fb3eca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7883380ecf17c5fdb514c249f598fa231110fac4773af179b4c908ca8a70b8ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801894"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338682"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Demande de certificat (demande de signature de certificat)
  

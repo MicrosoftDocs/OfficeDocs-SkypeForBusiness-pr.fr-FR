@@ -20,12 +20,12 @@ ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
 description: Vous pouvez activer Réunion Skype diffusion et modifier les paramètres et les stratégies de ces réunions.
-ms.openlocfilehash: fae53601c858bf67db57352e18dbc9799243f996
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c942c1f862097f9ccfb7ae67793632b1d02f85ed0ae4995147512698ab54e480
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339232"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Modifier les paramètres Réunion Skype diffusion pour votre organisation
 
@@ -46,7 +46,7 @@ Vous pouvez activer Réunion Skype diffusion et modifier les paramètres et les 
     
 - **URL du support technique pour les participants** Entrez un lien pour permettre aux participants à la réunion diffusée d’obtenir de l’aide pour la connexion ou la participation à une réunion diffusée.
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer votre réseau pour la diffusion de réunion Skype](set-up-your-network-for-skype-meeting-broadcast.md)
 

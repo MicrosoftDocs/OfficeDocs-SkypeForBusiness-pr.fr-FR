@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instructions de configuration du connecteur de données d’appel, qui permet d’afficher la télémétrie à partir Skype Entreprise sur site à l’aide des outils Skype Entreprise Online.
-ms.openlocfilehash: 28a9ba2f00a071ff5b1c0781240cf54a2de929e8
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: bc9346919e3f70d8fe8fe3e43e61a0e715cf0eb9bf52534a2beb2f8604b920f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323686"
 ---
 # <a name="configure-call-data-connector"></a>Configurer le connecteur de données d’appel
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur les avantages et les conditions préalables du co
 
 ## <a name="enable-monitoring"></a>Activer la surveillance
  
-Vous devez configurer l’enregistrement des données d’appel (CDR) et la collecte de données de qualité de l’expérience (QoE) dans la surveillance de votre pool frontal, avec des bases de données LCSCdr et QoEMetrics locales. Dans le cas contraire, les tableaux de bord d’analyse des appels et de qualité des appels n’auront pas de données à travailler. Avant de configurer le connecteur de données d’appel, suivez les étapes fournies dans Déployer la surveillance dans [Skype Entreprise Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) pour configurer l’cdr et QoE, ainsi que la surveillance de base.
+Vous devez configurer l’enregistrement des données des appels (CDR) et la collecte de données de qualité de l’expérience (QoE) dans la surveillance de votre pool frontal, avec des bases de données LCSCdr et QoEMetrics locales. Dans le cas contraire, les tableaux de bord d’analyse des appels et de qualité des appels n’auront pas de données à travailler. Avant de configurer le connecteur de données d’appel, suivez les étapes fournies dans Déployer la surveillance dans [Skype Entreprise Server](../../SfbServer/deploy/deploy-monitoring/deploy-monitoring.md) pour configurer l’cdr et QoE, ainsi que la surveillance de base.
 
 > [!IMPORTANT]
 > Le connecteur de données d’appel ne fonctionne pas si la surveillance n’est pas activée sur le pool frontal.
@@ -59,7 +59,7 @@ Il existe deux méthodes pour vous connecter à Skype Entreprise Online PowerShe
 - À partir Skype Entreprise Server 2019 Management Shell (méthode recommandée)
 - À partir d’une autre session PowerShell
 
-#### <a name="log-in-to-skype-for-business-online-powershell-from-the-skype-for-business-server-management-shell-recommended-method"></a>Connectez-vous Skype Entreprise Online PowerShell à partir de l’Skype Entreprise Server management Shell (méthode recommandée)
+#### <a name="log-in-to-skype-for-business-online-powershell-from-the-skype-for-business-server-management-shell-recommended-method"></a>Connectez-vous Skype Entreprise Online PowerShell à partir de l’Skype Entreprise Server management shell (méthode recommandée)
 
 1. Si vous activez le connecteur pour la première fois, exécutez la commande suivante :
 
@@ -98,7 +98,7 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 ### <a name="configure-the-scope"></a>Configurer l’étendue
 
-Vous pouvez activer le connecteur de données d’appel pour un site particulier ou pour l’ensemble de votre déploiement Skype Entreprise Server à l’aide de la cmdlet Set-CsCloudCallDataConnectorConfiguration à partir de l’Skype Entreprise Server de gestion. Par exemple, la commande suivante active le connecteur de données d’appel au niveau de l’étendue globale :
+Vous pouvez activer le connecteur de données d’appel pour un site particulier ou pour l’ensemble de votre déploiement Skype Entreprise Server à l’aide de la cmdlet Set-CsCloudCallDataConnectorConfiguration à partir de l’Skype Entreprise Server de gestion. Par exemple, la commande suivante active Le connecteur de données d’appel au niveau de l’étendue globale :
 
 ```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
@@ -114,7 +114,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDa
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
-(Les paramètres configurés au niveau du site sont prioritaires sur les paramètres configurés au niveau global.) Par exemple, supposons que le connecteur de données d’appel soit activé au niveau de l’étendue globale, mais désactivé au niveau de l’étendue Site (pour le site redmond). Cela signifie que l’enregistrement des détails des appels et les informations QoE ne seront pas transmis aux utilisateurs du site Redmond. Toutefois, les utilisateurs d’autres sites (c’est-à-dire, les utilisateurs gérés par les paramètres globaux au lieu des paramètres du site de Redmond) auront leur enregistrement des détails des appels et les informations QoE sont transmis.
+(Les paramètres configurés au niveau du site sont prioritaires sur les paramètres configurés au niveau global.) Par exemple, supposons que le connecteur de données d’appel soit activé au niveau de l’étendue globale, mais désactivé au niveau de l’étendue Site (pour le site redmond). Cela signifie que l’enregistrement des détails des appels et les informations QoE ne seront pas transmis aux utilisateurs du site redmond. Toutefois, les utilisateurs d’autres sites (c’est-à-dire, les utilisateurs gérés par les paramètres globaux au lieu des paramètres du site de Redmond) auront leur enregistrement des détails des appels et les informations QoE sont transmis.
 
 Les valeurs des paramètres les plus couramment utilisés par le connecteur de données d’appel sont indiquées dans le tableau suivant :  
 
@@ -147,8 +147,8 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 Pour plus d’informations sur les cmdlets, vous pouvez utiliser la commande Get-Help de l’Skype Entreprise Server Management Shell. Par exemple :
 
-Get-Help Get-CsCloudCallDataConnector | plus
+Get-Help Get-CsCloudCallDataConnector | more
 
-Get-Help Set-CsCloudCallDataConnector | plus
+Get-Help Set-CsCloudCallDataConnector | more
 
-Get-Help Set-CsCloudCallDataConnectorConfiguration | plus
+Get-Help Set-CsCloudCallDataConnectorConfiguration | more

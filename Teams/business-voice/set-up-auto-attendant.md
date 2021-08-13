@@ -17,16 +17,16 @@ search.appverid: MET150
 description: Découvrez comment configurer un attendant automatique (également appelé file d’attente d’appels) Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1313edc2a1336218f9ab86f53aa207a92d2b6b39
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: bbddd4c4aff2010fbc9941791c0e12be7791651b026e80d255316d9a3300b5f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321536"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>Étape 6 : configurer un attendant automatique pour le numéro de téléphone principal de votre entreprise
 
-Un attendant automatique vous permet de configurer un menu d’appels de sorte que les appelants à votre numéro de téléphone principal peuvent faire leur choix parmi une liste d’options. Par exemple, vous pourriez avoir des options pour vous connecter à un service de vente ou de support, à une personne spécifique, au classement et même à un autre standard automatique.
+Un attendant automatique vous permet de configurer un menu d’appels de sorte que les appelants à votre numéro de téléphone principal peuvent faire leur choix parmi une liste d’options. Par exemple, vous pourriez avoir des options pour vous connecter à un service de vente ou de support, un individu spécifique, le classement et même un autre standard automatique.
 
 La vidéo suivante vous montre comment effectuer ces étapes dans le Centre d’administration Teams’administration.
 

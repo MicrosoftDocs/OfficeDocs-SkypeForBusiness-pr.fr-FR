@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 'Résumé : Découvrez comment supprimer une stratégie d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bee5cb3d48c079f0c918e15c607c163f3f67aea9e1dfed92309700b1795c699d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095388"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320246"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Supprimer une stratégie d’archivage existante dans Skype Entreprise Server
 
 **Résumé :** Découvrez comment supprimer une stratégie d’archivage pour Skype Entreprise Server.
   
-Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site, mais pas la stratégie globale. Si vous supprimez la stratégie globale, Skype Entreprise Server réinitialise automatiquement la stratégie aux valeurs par défaut.
+Vous pouvez supprimer une stratégie utilisateur ou une stratégie de site, mais pas la stratégie globale. Si vous supprimez la stratégie globale, Skype Entreprise Server réinitialise automatiquement les valeurs par défaut de la stratégie.
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>Supprimer une stratégie à l’aide du Panneau de contrôle
 
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
     

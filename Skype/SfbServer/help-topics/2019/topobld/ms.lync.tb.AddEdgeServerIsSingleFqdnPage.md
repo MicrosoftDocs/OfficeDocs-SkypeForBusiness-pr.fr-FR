@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 ROBOTS: NOINDEX, NOFOLLOW
 description: Informations sur la page de nom de groupe (FQDN) unique du serveur Edge.
-ms.openlocfilehash: 90107da2587f4eb8e6cfeaa6eeb6a39a26ba5adb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 69b16b0d7d7bfeff174cd001be3693a13aa2f221b2e39bdadfc89cd7edc75c15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338552"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>Page Ajouter un serveur Edge avec un nom de domaine complet (FQDN) unique
  
 Informations sur la page de nom de groupe (FQDN) unique du serveur Edge.
   
-Pour plus d’informations sur le déploiement Edge, voir [Deploy Edge Server in Skype for Business Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)
+Pour plus d’informations sur le déploiement Edge, voir [Deploy Edge Server in Skype Entreprise Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)
   
 

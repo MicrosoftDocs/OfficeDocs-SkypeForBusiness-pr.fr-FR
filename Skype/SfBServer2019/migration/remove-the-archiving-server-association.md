@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépendance vis-à-vis du pool frontal, du serveur frontal, du Survivable Branch Appliance et du serveur Survivable Branch Server associés. Vous modifiez les propriétés du pool frontal, du serveur frontal, du Survivable Branch Appliance et du serveur Survivable Branch Server pour supprimer la dépendance. Après avoir effacé la dépendance et supprimé le serveur dans le Générateur de topologies, vous êtes informé que l’objet magasin de bases de données associé dans le Générateur de topologie sera également supprimé.
-ms.openlocfilehash: bba21dadc70f5c9f62fea5073ef5bf815c8b35a1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépendance vis-à-vis du pool frontal, du serveur frontal, du Survivable Branch Appliance et du serveur Survivable Branch Server associés. Vous modifiez les propriétés du pool frontal, du serveur frontal, du Survivable Branch Appliance et du serveur Survivable Branch Server pour supprimer la dépendance. Après avoir effacé la dépendance et supprimé le serveur dans le Générateur de topologies, vous êtes informé que l’objet magasin de bases de données associé dans le Générateur de topologies sera également supprimé.
+ms.openlocfilehash: 6265642a45b891180e53d3b00d39a9053b663a434aaa1a4a26e92b619dfba257
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340330"
 ---
 # <a name="remove-the-archiving-server-association"></a>Supprimer l’association au serveur d’archivage
 
@@ -24,11 +24,11 @@ Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépe
   
 ### <a name="to-remove-the-archiving-server-association"></a>Pour supprimer l’association au serveur d’archivage
 
-1. Sur le serveur frontal Skype Entreprise Server 2019, ouvrez le Générateur de topologie.
+1. Sur le Skype Entreprise Server frontal 2019, ouvrez le Générateur de topologie.
     
 2. Accédez au nœud d’installation hérité.
     
-3. Dans le Générateur de topologie, développez les pools frontux **Enterprise Edition,** les serveurs frontux **Standard Edition** ou les **sites** de succursale, selon l’emplacement où le serveur d’archivage est défini.
+3. Dans le Générateur de topologie, développez **Êdition Entreprise pools** frontux, **Édition Standard** serveurs frontux ou **sites** de succursale, en fonction de l’emplacement où le serveur d’archivage est défini.
     
 4. Si vous avez un serveur Survivable Branch Server associé, développez sites de **succursale,** développez le nom du site de succursale, puis développez **Survivable Branch Appliances**.
     
@@ -45,6 +45,6 @@ Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépe
     
 9. Dans **Supprimer les magasins dépendants**, cliquez sur **OK**.
     
-10. Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Skype Entreprise Server si nécessaire. 
+10. Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Skype Entreprise Server déploiement si nécessaire. 
     
 

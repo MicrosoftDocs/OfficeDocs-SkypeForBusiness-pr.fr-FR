@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
-description: LRenew-CcServerCertificate cmdlet renouvelle les certificats pour skype entreprise, version Cloud Connector lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée Update-CcServerCertificate dans Cloud Connector 2.0 et les version ultérieures.
-ms.openlocfilehash: e4f3f4bbf0904733cf39f71534115543ff15fa65
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Renew-CcServerCertificate renouvele les certificats pour les Skype Entreprise Cloud Connector Edition lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée Update-CcServerCertificate dans Cloud Connector 2.0 et les version ultérieures.
+ms.openlocfilehash: 632807f8d6b8dda7b3df6639e8f6166e8ac5e6a22381646616a0637779a9159a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824260"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340730"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
-LRenew-CcServerCertificate cmdlet renouvelle les certificats pour skype entreprise, version Cloud Connector lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée Update-CcServerCertificate dans Cloud Connector 2.0 et les version ultérieures. 
+La cmdlet Renew-CcServerCertificate renouvele les certificats pour les Skype Entreprise Cloud Connector Edition lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée Update-CcServerCertificate dans Cloud Connector 2.0 et les version ultérieures. 
   
 ```powershell
 Renew-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
@@ -67,7 +67,7 @@ Aucun. La cmdlet Renew-CcServerCertificate n’accepte pas la saisie de données
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

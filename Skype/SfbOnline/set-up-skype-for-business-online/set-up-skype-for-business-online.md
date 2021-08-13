@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Découvrez comment configurer votre domaine, vos utilisateurs, votre messagerie instantanée et votre présence pour que votre organisation installe Skype Entreprise. Découvrez également comment configurer l’audioconférence, le Système téléphonique et les plans d’appel, et Réunion Skype diffusion. '
-ms.openlocfilehash: fcca1a3181ca0f5753fd53811290d710e8030064
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239806"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340290"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurer Skype Entreprise Online
 
@@ -105,7 +105,7 @@ Pour obtenir des instructions, consultez [Configuration de la présence dans Sky
 
 Pour utiliser Skype Entreprise sur votre ordinateur PC ou Mac ou votre appareil mobile, vous et d'autres personnes de votre entreprise devez d'abord installer le programme Skype Entreprise téléchargé sur vos appareils.
 
-- [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): instructions sur le téléchargement de l’application à partir du Centre d’administration Microsoft 365, et son installation sur votre PC ou Mac.
+- [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb): instructions pour télécharger l’application à partir du Centre d’administration Microsoft 365 et l’installer sur votre PC ou Mac.
 
 - [Déployer le client Skype Entreprise dans Office 365 :](deploy-the-skype-for-business-client-in-office-365.md)instructions pour le déploiement de l’application dans une grande entreprise.
 
@@ -173,7 +173,7 @@ La qualité de l'image, du son et du partage d'applications dans Skype Entrepris
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 <a name="bkmk_more"> </a>
 
 [Planifier une connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)

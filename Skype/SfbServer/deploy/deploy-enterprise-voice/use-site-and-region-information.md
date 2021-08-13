@@ -1,5 +1,5 @@
 ---
-title: Configurer les paramètres globaux de déviation du média dans Skype Entreprise Server pour utiliser les informations de site et de région
+title: Configurer les paramètres globaux de contournement de média dans Skype Entreprise Server pour utiliser les informations de site et de région
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configurez le contournement de média pour qu’il soit utilisé uniquement pour certains sites et régions dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 58fd4fca90029a8a5f4cd82c6a9616ae66e69cd0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 38fa42374b4b5dd8c8f304de04c9beeb59f2635d955b2e9ee5afb1fb16de7789
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322336"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurer les paramètres globaux de déviation du média dans Skype Entreprise Server pour utiliser les informations de site et de région
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurer les paramètres globaux de contournement de média dans Skype Entreprise Server pour utiliser les informations de site et de région
  
 Configurez le contournement de média pour qu’il soit utilisé uniquement pour certains sites et régions dans Skype Entreprise Server Voix Entreprise. 
   
- Si vous utilisez les étapes de cette rubrique pour configurer les paramètres globaux du contournement de média, nous partons du principe que vous n’avez pas une bonne connectivité entre tous les points de terminaison Skype Entreprise et tout homologue pour lequel vous avez configuré le contournement de média sur la connexion de liaison.
+ Si vous utilisez les étapes de cette rubrique pour configurer les paramètres globaux du contournement de média, nous partons du principe que vous n’avez pas une bonne connectivité entre tous les points de terminaison Skype Entreprise et tous les homologues pour lesquels vous avez configuré le contournement de média sur la connexion de liaison.
   
 > [!NOTE]
 > Les informations relatives aux régions du réseau et aux sites réseau sont partagées entre les fonctionnalités Voix Entreprise avancées de contrôle d’admission des appels et de contournement de média lorsque ces deux fonctionnalités sont activées. Par conséquent, si vous avez déjà configuré le contrôle d’admission des appels, vous n’avez pas besoin d’effectuer la procédure suivante pour modifier les informations relatives aux sites et aux régions destinées au contournement de média. Suivez les étapes de cette procédure si vous n’avez pas encore configuré les régions et les sites du réseau pour le contrôle d’admission des appels et si vous souhaitez modifier les paramètres du contournement de média. 
@@ -36,7 +36,7 @@ Pour que le contournement de média fonctionne correctement, il doit y avoir une
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>Pour configurer les informations relatives aux sites et aux régions pour le contournement de média
 
-1. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.  
+1. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.  
     
 2. Dans la barre de navigation de gauche, cliquez sur **Configuration réseau**.
     
@@ -55,7 +55,7 @@ Pour que le contournement de média fonctionne correctement, il doit y avoir une
     
 Ensuite, ajoutez des sous-réseaux au site réseau, comme décrit dans Associer un [sous-réseau à un site réseau.](deploy-network.md#BKMK_AssociateSubnets) Une fois que vous avez associé tous les sous-réseaux aux sites réseau, le déploiement du contournement de média est terminé.
 > [!IMPORTANT]
-> Si vous n’avez pas encore créé de régions et de sites réseau, vous devez les créer pour pouvoir poursuivre le déploiement du contournement de média. Pour plus d’informations, voir Déployer des régions réseau, des sites et [des sous-réseaux dans Skype Entreprise.](deploy-network.md) 
+> Si vous n’avez pas encore créé de régions et de sites réseau, vous devez les créer pour pouvoir poursuivre le déploiement du contournement de média. Pour plus d’informations, voir Déployer des régions réseau, des sites et [des sous-réseaux dans Skype Entreprise](deploy-network.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

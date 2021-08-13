@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les files d’attente Response Group tiennent les appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue Sélectionner des groupes pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
-ms.openlocfilehash: 50efe5078f917e9e6f18a8d69e90a59e4950030a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 91bf7c6f7175b088f71d6ac79b13a80f6d1d4a57c2ec0e7dd44c798731460630
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118773"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322326"
 ---
 # <a name="select-groups"></a>Sélectionner des groupes
 

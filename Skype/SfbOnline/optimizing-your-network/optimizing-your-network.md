@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous donne également des informations à discuter lorsque vous travaillez avec le Microsoft FastTrack Center, vos équipes de services Microsoft et de compte, ou avec des partenaires Microsoft pour déterminer comment vous pouvez répondre à ces exigences.
-ms.openlocfilehash: a32e7864a15945fc9bad64c12466aa376cb924f9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous donne également des informations à discuter lorsque vous travaillez avec le Centre Microsoft FastTrack, vos équipes de services Microsoft et de compte, ou avec des partenaires Microsoft pour déterminer comment vous pouvez répondre à ces exigences.
+ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323656"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimisation de votre réseau pour Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous donne également des informations à discuter lorsque vous travaillez avec le [Microsoft FastTrack Center,](https://fasttrack.microsoft.com/office)vos équipes de services Microsoft et de compte, ou avec des partenaires [Microsoft](https://partnercenter.microsoft.com/pcv/search) pour déterminer comment vous pouvez répondre à ces exigences.
+Les conditions requises suivantes sont particulièrement importantes pour la garantie de l'intégrité et du bon fonctionnement à long terme de l'ensemble des fonctionnalités Skype Entreprise Online que vous configurez pour votre organisation. Ce document s'adresse aux utilisateurs occupant un poste très technique, mais nous savons que tous les utilisateurs ne le sont pas. Si vous avez besoin d'aide pour configurer Skype Entreprise Online, vous devez lire ce document pour vous familiariser avec les éléments que vous devez prendre en compte. Il vous donne également des informations à discuter lorsque vous travaillez avec le Centre [Microsoft FastTrack,](https://fasttrack.microsoft.com/office)vos équipes de services Microsoft et de compte, ou avec des partenaires [Microsoft](https://partnercenter.microsoft.com/pcv/search) pour déterminer comment vous pouvez répondre à ces exigences.
 
 ## <a name="a-quick-overview"></a>Aperçu rapide
 
@@ -146,6 +146,6 @@ Pour obtenir une image plus claire de l’expérience audio et vidéo d’un uti
 
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)

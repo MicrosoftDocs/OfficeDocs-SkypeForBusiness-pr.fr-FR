@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’Messagerie vocale infonuagique Microsoft service. Pour plus d’informations sur la configuration Messagerie vocale infonuagique, voir Configuring Messagerie vocale infonuagique.
-ms.openlocfilehash: cfde9867bcdd4c2b7492f8b50df782a5ca6fe34b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323676"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier Messagerie vocale infonuagique service pour les utilisateurs locaux
 
@@ -93,7 +93,7 @@ Si vous envisagez de déployer Skype Entreprise Server 2019 et/ou Exchange Serve
 - Exchange Server 2019 ne fournit plus la fonctionnalité Exchange de la Exchange de l’équipe
 - Skype Entreprise Server 2019 ne s’intègre plus à la Exchange Online de l’équipe
 
-L’interopérabilité des versions et les topologies prise en charge pour Messagerie vocale infonuagique sont répertoriées dans le tableau suivant, qui compare les versions Skype Entreprise Server sur lesquelles l’utilisateur peut être homed et la version possible fournissant sa boîte aux lettres Exchange. Vous devez utiliser Messagerie vocale infonuagique si vous souhaitez utiliser Skype Entreprise 2019 avec Exchange Online ou Exchange Server 2019.
+L’interopérabilité des versions et les topologies pris en charge pour Messagerie vocale infonuagique sont répertoriés dans le tableau suivant, qui compare les versions Skype Entreprise Server sur lesquelles l’utilisateur peut être homed et la version possible fournissant sa boîte aux lettres Exchange. Vous devez utiliser Messagerie vocale infonuagique si vous souhaitez utiliser Skype Entreprise 2019 avec Exchange Online ou Exchange Server 2019.
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |

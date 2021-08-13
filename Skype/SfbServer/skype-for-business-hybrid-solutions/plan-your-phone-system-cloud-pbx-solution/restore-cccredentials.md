@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: La cmdlet Restore Cc-Credentials restaure toutes les informations d’identification du déploiement actuel de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Restore Cc-Credentials restaure toutes les informations d’identification du déploiement Skype Entreprise Cloud Connector Edition actuel.
+ms.openlocfilehash: 95b93e28bb109c26927a940324edef20479bed8c193efea6923c74058995a5bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824240"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340670"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-La cmdlet Restore Cc-Credentials restaure toutes les informations d’identification du déploiement actuel de la version Cloud Connector de Skype Entreprise. 
+La cmdlet Restore Cc-Credentials restaure toutes les informations d’identification du déploiement Skype Entreprise Cloud Connector Edition actuel. 
   
-Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 2.1.
+Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 2.1.
   
 ```powershell
 Restore-CcCredentials 
@@ -32,7 +32,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>Description détaillée
 
-LRestore-CcCredentials cmdlet nettoie toutes les informations d’identification et vous invite à entrer à nouveau toutes les informations d’identification utilisées pour le déploiement actuel de Skype Entreprise Cloud Connector.
+LRestore-CcCredentials cmdlet nettoie toutes les informations d’identification et vous invite à entrer à nouveau toutes les informations d’identification utilisées pour le déploiement actuel Skype Entreprise Cloud Connector.
   
 ## <a name="parameters"></a>Paramètres
 
