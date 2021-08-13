@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour l’Australie.
-ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e6b99f955f0f095a36351b85ad4526608b53e412e071072f6eda3c87a1eca2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310822"
 ---
 # <a name="availability-in-australia"></a>Disponibilité en Australie
 
@@ -98,7 +98,7 @@ Si vous souhaitez obtenir des numéros de téléphone gratuits et gratuits pour 
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

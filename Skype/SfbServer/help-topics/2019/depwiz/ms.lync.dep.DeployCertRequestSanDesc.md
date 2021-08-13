@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Nom du sujet/Autres noms du sujet présente un résumé du nom du sujet et de tous les autres noms du sujet que contiendra le certificat. Les noms présentés pour le nom du sujet et les autres noms du sujet sont collectés à partir du document de définition, tel qu’il a été créé lorsque vous avez défini le déploiement dans le Générateur de topologies.
-ms.openlocfilehash: b0c9acd2c0da3dfbc542c0ad17ee4325c60050c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 24f47214797224ac0907c5478deef7db819fd57ec84bba87de256c6f5360c36c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801794"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325321"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Demande de certificat (autres noms du sujet)
  

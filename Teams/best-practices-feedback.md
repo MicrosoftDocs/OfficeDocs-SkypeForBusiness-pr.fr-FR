@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6656871e2232df82f81bfea4568cf857e4271d79
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 58994b28bbcba6d88637dbd580b822d689a55124d85987e4b50a47400512cdb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310852"
 ---
 # <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Recommandation de méthodes de demande de commentaires des utilisateurs dans Microsoft Teams
 
-L’adoption d’une nouvelle expérience de collaboration consiste à modifier le comportement de vos utilisateurs. Le changement humain nécessite une formation, des encouragements et des exemples positifs. Il est également essentiel que les personnes se sentent entendues pendant la transition. Si vous avez précédemment mis en place des méthodes de commentaires réussies dans votre organisation, envisagez de les développer pour inclure votre Teams implémentation. Si vous ne l’avez pas fait auparavant, envisagez l’une des approches suivantes :
+L’adoption d’une nouvelle expérience de collaboration consiste à modifier le comportement de vos utilisateurs. La modification humaine nécessite une formation, des encouragements et des exemples positifs. Il est également essentiel que les personnes se sentent entendues pendant la transition. Si vous avez précédemment établi des méthodes de commentaires réussies dans votre organisation, envisagez de les développer pour inclure votre Teams implémentation. Si vous ne l’avez pas fait auparavant, envisagez l’une des approches suivantes :
 
 - Créez une équipe publique au sein Microsoft Teams que tout utilisateur peut rejoindre pour faire part de ses commentaires sur son expérience (n’oubliez pas que les groupes publics sont limités à 5 000 utilisateurs).
 

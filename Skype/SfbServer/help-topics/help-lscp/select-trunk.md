@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 description: Utilisez la boîte de dialogue Sélectionner la jonction pour trouver une jonction existante que vous pouvez utiliser.
-ms.openlocfilehash: 48482f3ba9324bfa3f09e6aea8abf4fe0dbe94c1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ebfe837e6e67f060d619e74b6d1e8a1ec471478f995d00668eecee9c50ba4a5c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314610"
 ---
 # <a name="select-trunk"></a>Sélectionner une jonction
  
@@ -29,6 +29,6 @@ Utilisez la boîte de dialogue **Sélectionner la jonction** pour trouver une jo
 > [!NOTE]
 > Pour récupérer toutes les jonctions disponibles, ne tapez rien dans la zone de recherche, puis cliquez sur l’icône de recherche. 
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
   
 

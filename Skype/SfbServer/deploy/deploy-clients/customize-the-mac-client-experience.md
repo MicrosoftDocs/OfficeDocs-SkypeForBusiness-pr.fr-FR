@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: Cet article décrit les préférences client et les valeurs par défaut disponibles pour le client Skype Entreprise sur Mac, et explique comment les modifier à partir de l’extérieur de l’application.
-ms.openlocfilehash: cdbd1c109fffddf6d922657285f60d9b4f06924a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Cet article décrit les préférences et les valeurs par défaut du client Skype Entreprise sur Mac et explique comment les modifier à partir de l’extérieur de l’application.
+ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325491"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personnaliser l’expérience client Mac dans Skype Entreprise
  
-Cet article décrit les préférences client et les valeurs par défaut disponibles pour le client Skype Entreprise sur Mac, et explique comment les modifier à partir de l’extérieur de l’application.
+Cet article décrit les préférences et les valeurs par défaut du client Skype Entreprise sur Mac et explique comment les modifier à partir de l’extérieur de l’application.
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>Paramètres de préférence client Skype Entreprise sur Mac
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Skype Entreprise sur les paramètres de préférence du client Mac
 
-Certains comportements et fonctionnalités disponibles pour les clients Skype Entreprise sur Mac sont déterminés par les paramètres de préférence sur le client. Les préférences Skype Entreprise sur Mac se trouvent dans un fichier situé sur Mac qui a installé le client Skype Entreprise situé à l’emplacement suivant : 
+Certains comportements et fonctionnalités disponibles pour les clients Skype Entreprise Mac sont déterminés par les paramètres de préférence sur le client. Les Skype Entreprise sur Mac se trouvent dans un fichier situé sur Mac qui a installé le client Skype Entreprise situé à l’emplacement suivant : 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
@@ -45,8 +45,8 @@ Pour définir ces préférences, accéder à une invite de terminal sur le Mac d
 |trustedDomainList    |Tableau    ||Liste des domaines de confiance pour les redirections HTTP.    |
 |autoAcceptTimeout    |Nombre    |300 (par défaut)    |Accepter automatiquement le délai d’accès pour les utilisateurs sans historique des conversations côté serveur.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Désactivé  <br/> 1 = Activé    |Avertit l’utilisateur lorsque vous composez un numéro d’urgence à partir d’un emplacement inconnu.    |
-|sipAddress    |String    ||Adresse SIP (e-mail) utilisée pour se connecter à Skype Entreprise.    |
-|userName    |String    ||UpN (UserName) utilisé pour se connecter à Skype Entreprise.    |
+|sipAddress    |String    ||Adresse SIP (e-mail) utilisée pour se Skype Entreprise.    |
+|userName    |String    ||UpN (UserName) utilisé pour se Skype Entreprise.    |
 |userNameInAdvancedOnly    |Bool    |0 = afficher le champ Nom d’utilisateur sur l’écran de signature principal et dans la boîte de dialogue Propriétés avancées  <br/> 1 = afficher le champ Nom d’utilisateur uniquement dans la boîte de dialogue Propriétés avancées (par défaut)    |Spécifiez l’endroit où le champ Nom d’utilisateur s’affiche lors de la signature.    |
    
 ### <a name="usage-examples"></a>Exemples d’utilisation

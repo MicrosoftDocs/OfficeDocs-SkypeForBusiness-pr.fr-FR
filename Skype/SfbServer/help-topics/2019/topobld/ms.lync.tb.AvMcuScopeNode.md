@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud montre le nom de domaine complet (FQDN) et les pools frontaux associés pour ce pool de conférence A/V. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: b2eb645c89c3b95c41c680d396fdd1c0bf990614
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ab0ad1f52eb9fd6ff9a123229cdc76fa3feb28ec8d220782c604b45b6c54a42
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314680"
 ---
 # <a name="av-mcu-scope-node"></a>Nœud d’étendue du service MCU audio/vidéo
  

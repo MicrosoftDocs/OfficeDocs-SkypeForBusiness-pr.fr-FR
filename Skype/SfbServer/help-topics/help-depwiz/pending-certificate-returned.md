@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: La page État de la demande de certificat en ligne renvoie le statut actuel du certificat. Si le certificat est toujours en attente d’approbation par l’administrateur de l’autorité de certification, autrement dit, s’il n’a pas encore été approuvé, le statut indiquera que le certificat est encore en cours de traitement.
-ms.openlocfilehash: 3aa29f3913514ea54a899cf7f6d4d1e502ddaf82
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2f597a0ba88286219870cea237a6128e9ea971fd2c4d27b01c56d9d7f73217dc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311532"
 ---
 # <a name="pending-certificate-returned"></a>Certificat en attente (retourné)
  

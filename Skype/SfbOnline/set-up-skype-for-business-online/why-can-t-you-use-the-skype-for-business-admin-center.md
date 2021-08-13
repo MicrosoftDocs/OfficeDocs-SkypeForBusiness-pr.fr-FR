@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Découvrez ce que vous pouvez et ne pouvez pas utiliser dans le Skype Entreprise d’administration, ainsi que d’autres fonctionnalités lorsque votre service est migré vers un autre centre de données Microsoft. '
-ms.openlocfilehash: 725a60be96a2d61bcec6367e1a0a33f2bc5dcee6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300420"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Pourquoi ne puis-je pas utiliser le Centre d’administration Skype Entreprise Online pour le moment ?
 
@@ -48,7 +48,7 @@ Tout d’abord, nous allons décomposer quelques termes.
     
 - **Migration** Ce n’est pas tout à fait la même chose que le « déplacement ». Dans ce cas, cela signifie que nous allons déplacer vos utilisateurs et vos paramètres Skype Entreprise Online d’un centre de données à un autre plus proche de vous afin d’améliorer votre service.
     
-- **Latence** Il s’agit du temps qui vous faut pour accéder au Microsoft 365 d’administration, modifier les paramètres, puis enregistrer ces modifications.
+- **Latence** Il s’agit du délai d’accès au Centre d’administration Microsoft 365, d’apporter une modification des paramètres, puis d’enregistrer ces modifications.
     
 - **ID de corrélation** Vous avez peut-être vu cette liste dans le message d’où vous viennent. Ces informations sont utilisées par les ingénieurs du support Technique Microsoft pour vous aider à résoudre une erreur. Si vous contactez le support Technique Microsoft, l’ID de corrélation vous sera peut-être demandé.
     
@@ -68,7 +68,7 @@ Bien que vous ne serez pas en mesure d’accéder au Centre d’administration S
 
 Bien sûr. Pendant la migration de votre service Skype Entreprise Online, vous pouvez toujours utiliser les autres centres d’administration dans Microsoft 365 (par exemple, les centres d’administration Microsoft 365 et Exchange web). Toutefois, en plus du Centre d’administration Skype Entreprise Online, vous ne pourrez pas utiliser les cmdlets PowerShell distantes Skype Entreprise Online pendant la migration. 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

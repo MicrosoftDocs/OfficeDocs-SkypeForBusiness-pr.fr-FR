@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Résumé : Découvrez l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 982ec0932f0a57958e1929a6ae2413ada0b5c9fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e36a3c039b0865e1b6299a25d4bbecc80e3a1418135b2667dd599b5621e07727
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340870"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de référentiel pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server
  
 **Résumé :** Découvrez l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’API Référentiel fournit un accès par programmation pour le Tableau de bord de qualité des appels pour Skype Entreprise Server.
+L’API Repository fournit un accès par programme au tableau de bord de qualité des appels pour Skype Entreprise Server.
   
 ## <a name="repository-api-for-call-quality-dashboard"></a>API de référentiel pour le tableau de bord de qualité des appels
 
-L’API référentiel propose une interface d’accès aux données pour la base de données du référentiel. Le référentiel permet d’organiser le contenu dans une arborescence ou une structure graphique afin que les utilisateurs peuvent les grouper de la manière qui leur semble logique. Le référentiel prend en charge deux types d’utilisateurs généraux : l’utilisateur système, qui est un utilisateur intégré représentant le référentiel, et les utilisateurs réguliers qui représentent les utilisateurs autorisés du référentiel.
+L’API repository offre une interface d’accès aux données à la base de données du référentiel. Le référentiel permet d’organiser le contenu dans une arborescence ou une structure graphique afin que les utilisateurs peuvent les grouper de la manière qui leur semble logique. Le référentiel prend en charge deux types d’utilisateurs généraux : l’utilisateur système, qui est un utilisateur intégré représentant le référentiel, et les utilisateurs réguliers qui représentent les utilisateurs autorisés du référentiel.
   
 L’API de référentiel se compose de trois services généraux : 
   
@@ -36,7 +36,7 @@ L’API de référentiel se compose de trois services généraux :
     
 - Service d’élément pour le tableau de bord de qualité des appels [(CQD)](item-service.md) : pour accéder aux éléments et au contenu stocké dans les éléments.
     
-- Service de paramètres utilisateur pour le tableau de bord de qualité des appels [(CQD)](user-settings-service.md) : pour accéder aux paramètres utilisateur.
+- Service de Paramètres utilisateur pour le tableau de bord de qualité des appels [(CQD)](user-settings-service.md) : pour accéder aux Paramètres.
     
 Le tableau de bord de qualité des appels utilise l’API référentiel pour gérer les informations suivantes : 
   

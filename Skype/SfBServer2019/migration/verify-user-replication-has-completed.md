@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Lors de l’exécution de l’cmdlet Move-CsUser, vous pouvez être en panne car les informations utilisateur entre les services de domaine Active Directory (AD DS) et les bases de données Skype Entreprise Server 2019 ne sont pas synchronisées, car la réplication initiale est incomplète. Le temps nécessaire à la réussite de la synchronisation initiale du service du réplicateur d’utilisateurs Skype Entreprise Server 2019 dépend du nombre de contrôleurs de domaine hébergés dans la forêt Active Directory qui héberge le pool Skype Entreprise Server 2019. Le processus de synchronisation initiale du service réplicateur d’utilisateurs de Skype Entreprise Server 2019 se produit lors du premier démarré du serveur frontal Skype Entreprise Server 2019. Par la suite, la synchronisation est basée sur l’intervalle du réplicateur d’utilisateurs. Exécutez les étapes suivantes pour vérifier que la réplication utilisateur est terminée avant d'Move-CsUser cmdlet.
-ms.openlocfilehash: 5aa832216cc5eddce1d80cc9401ec9992c9edbf1
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Lors de l’exécution de la cmdlet Move-CsUser, vous pouvez être en panne car les informations utilisateur entre les services de domaine Active Directory (AD DS) et les bases de données Skype Entreprise Server 2019 ne sont pas synchronisées, car la réplication initiale est incomplète. Le temps nécessaire à la réussite de la synchronisation initiale du service réplicateur d’utilisateurs Skype Entreprise Server 2019 dépend du nombre de contrôleurs de domaine hébergés dans la forêt Active Directory qui héberge le pool Skype Entreprise Server 2019. Le Skype Entreprise Server synchronisation initiale du service réplicateur d’utilisateurs 2019 se produit lorsque le serveur frontal Skype Entreprise Server 2019 est démarré pour la première fois. Par la suite, la synchronisation est basée sur l’intervalle du réplicateur d’utilisateurs. Exécutez les étapes suivantes pour vérifier que la réplication utilisateur est terminée avant d'Move-CsUser cmdlet.
+ms.openlocfilehash: 0fe1c205b04ed32f5ac4281e555d5a44262905aa23b74eb69148d447337b59f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325681"
 ---
 # <a name="verify-user-replication-has-completed"></a>Vérifier que la réplication utilisateur est terminée
 
-Lors de l’exécution de l’cmdlet **Move-CsUser,** vous pouvez être en panne si les informations utilisateur entre les services de domaine Active Directory (AD DS) et les bases de données Skype Entreprise Server 2019 ne sont pas synchronisées car la réplication initiale est incomplète. Le temps nécessaire à la réussite de la synchronisation initiale du service du réplicateur d’utilisateurs Skype Entreprise Server 2019 dépend du nombre de contrôleurs de domaine hébergés dans la forêt Active Directory qui héberge le pool Skype Entreprise Server 2019. Le processus de synchronisation initiale du service réplicateur d’utilisateurs de Skype Entreprise Server 2019 se produit lors du premier démarré du serveur frontal Skype Entreprise Server 2019. Après cela, la synchronisation est basée sur l’intervalle du réplicateur d’utilisateurs. Exécutez les étapes suivantes pour vérifier que la réplication utilisateur est terminée avant d’exécutez l’cmdlet **Move-CsUser.** 
+Lors de l’exécution de l’cmdlet **Move-CsUser,** vous pouvez être en panne si les informations utilisateur entre les services de domaine Active Directory (AD DS) et les bases de données Skype Entreprise Server 2019 ne sont pas synchronisées car la réplication initiale est incomplète. Le temps nécessaire à la réussite de la synchronisation initiale du service réplicateur d’utilisateurs Skype Entreprise Server 2019 dépend du nombre de contrôleurs de domaine hébergés dans la forêt Active Directory qui héberge le pool Skype Entreprise Server 2019. Le Skype Entreprise Server synchronisation initiale du service réplicateur d’utilisateurs 2019 se produit lorsque le serveur frontal Skype Entreprise Server 2019 est démarré pour la première fois. Après cela, la synchronisation est basée sur l’intervalle du réplicateur d’utilisateurs. Exécutez les étapes suivantes pour vérifier que la réplication utilisateur est terminée avant d’exécutez l’cmdlet **Move-CsUser.** 
   
 ### <a name="to-verify-that-user-replication-has-completed"></a>Pour vérifier que la réplication utilisateur est terminée
 

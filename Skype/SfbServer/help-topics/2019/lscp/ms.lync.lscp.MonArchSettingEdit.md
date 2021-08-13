@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: 77d1be61be3a1bad063bb7f32957937f182094e4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 74fc7795abdc97bc51404a88ef26cac3755d370a54e4b52fb53838cbd2fb11a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325280"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
  
@@ -33,7 +33,7 @@ Vous utilisez les configurations d’archivage pour contrôler les options d’a
 - **Configuration du pool (facultatif)** Vous pouvez spécifier une ou plusieurs configurations d’archivage de pool pour contrôler les options d’archivage d’un pool spécifique. Une configuration de pool supplante la configuration globale et la configuration de site, mais seulement pour les pools spécifiés dans les configurations d’archivage de pool. Vous pouvez modifier ou supprimer les configurations de pool.
     
 > [!NOTE]
-> Les configurations d’archivage s’appliquent aux utilisateurs de Skype Entreprise Server et, si vous activez l’option d’intégration Microsoft Exchange pour utiliser Exchange pour stocker les données d’archivage dans Microsoft Exchange, aux utilisateurs d’exchange. Toutefois, certaines options sont implémentées légèrement différemment pour les utilisateurs d’Exchange, comme décrit dans la section suivante. 
+> Les configurations d’archivage s’appliquent aux utilisateurs sur Skype Entreprise Server et, si vous activez l’option d’intégration Microsoft Exchange pour utiliser Exchange pour stocker les données d’archivage dans Microsoft Exchange, aux utilisateurs qui sont Exchange. Toutefois, certaines options sont implémentées légèrement différemment pour les utilisateurs Exchange, comme décrit dans la section suivante. 
   
 Pour configurer les paramètres pour une configuration d’archivage nouvelle ou existante, spécifiez les options suivantes :
 - **Nom** Chaque configuration d’archivage nécessite un nom. Le nom est déterminé par le type de configuration que vous ajoutez ou modifiez :
@@ -42,7 +42,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
   - **Configuration du site** La liste contient les sites disponibles dans votre déploiement. Cliquez sur un site individuel pour le sélectionner. Par exemple, Centre de données de Redmond.
     
-  - **Configuration du pool** Spécifiez un nom approprié, qui peut être le nom d’un pool frontal ou d’un serveur Standard Edition Server spécifique dans votre déploiement. Par exemple, Division Marketing.
+  - **Configuration du pool** Spécifiez un nom approprié, qui peut être le nom d’un pool frontal ou d’un serveur Édition Standard spécifique dans votre déploiement. Par exemple, Division Marketing.
     
 - **Description** Cette option est facultative. Utilisez-le pour fournir des détails supplémentaires, tels que l’étendue ou l’utilisation de la configuration. Par exemple, coordonner avec les services juridiques d’autres sites.
     
@@ -62,7 +62,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
     La récupération des sessions de messagerie instantanée et de conférence s’effectue automatiquement après la correction des défaillances.
     
-- **Intégration de Microsoft Exchange** Sélectionnez cette option si vous avez des utilisateurs qui sont homed sur Exchange. Avec cette option, Exchange est utilisé pour stocker les données de ces utilisateurs, si leurs boîtes aux lettres ont été placées en In-Place. Si tous vos utilisateurs sont do domicile sur Exchange, vous n’avez pas besoin de configurer des bases de données SQL Server pour le stockage des données d’archivage.
+- **Intégration Exchange Microsoft** Sélectionnez cette option si vous avez des utilisateurs qui sont Exchange. Avec cette option, Exchange est utilisé pour stocker les données de ces utilisateurs, si leurs boîtes aux lettres ont été placées en In-Place. Si tous vos utilisateurs sont Exchange, vous n’avez pas besoin de configurer des bases de données SQL Server pour le stockage des données d’archivage.
     
 - **Activer le purge des données d’archivage** Sélectionnez cette option pour activer le purgement et spécifier les options de purge, qui incluent les options suivantes :
     
@@ -71,7 +71,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
   - Purge après l’exportation des données d’archivage (qui inclut les données qui ont été téléchargées vers Exchange, si vous activez l’intégration de Microsoft Exchange).
     
     > [!NOTE]
-    > Si vous activez l’intégration de Microsoft Exchange, la purge pour les utilisateurs qui sont sur Exchange et dont les boîtes aux lettres sont placées en In-Place est contrôlée par Exchange. La seule exception concerne les fichiers de conférence, qui sont stockés sur le partage de fichiers Lync Server. Ces fichiers sont vidés du partage de fichiers une fois seulement que les fichiers ont été exportés (téléchargés vers Exchange) si vous sélectionnez l’option consistant à vider les données après l’exportation des données d’archivage, ou après le nombre maximal de jours spécifié si vous spécifiez un nombre maximal de jours de rétention. 
+    > Si vous activez l’intégration de Microsoft Exchange, la purge pour les utilisateurs Exchange et dont les boîtes aux lettres sont placées en In-Place est contrôlée par Exchange. La seule exception concerne les fichiers de conférence, qui sont stockés sur le partage de fichiers Lync Server. Ces fichiers sont vidés du partage de fichiers une fois seulement que les fichiers ont été exportés (téléchargés vers Exchange) si vous sélectionnez l’option consistant à vider les données après l’exportation des données d’archivage, ou après le nombre maximal de jours spécifié si vous spécifiez un nombre maximal de jours de rétention. 
   
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, y compris l’intégration d’Exchange, voir [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), Deploy [archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md), and Manage [archiving in Skype for Business Server](../../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server,](../../../plan-your-deployment/archiving/archiving.md)Déployer l’archivage pour [Skype Entreprise Server](../../../deploy/deploy-archiving/deploy-archiving.md)et Gérer l’archivage dans [Skype Entreprise Server](../../../manage/archiving/archiving.md).
 

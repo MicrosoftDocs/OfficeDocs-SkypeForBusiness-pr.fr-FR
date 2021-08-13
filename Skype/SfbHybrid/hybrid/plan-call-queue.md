@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un attendant automatique cloud Skype Entreprise Server 2019.
-ms.openlocfilehash: 79682e7079519c2c9532aecdd79a43a6d2e8b30b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: fa1807c272c8d9bba8ae406a87dc55589560d870da5b59fc093c2d9d1a2933e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300510"
 ---
 # <a name="plan-cloud-call-queues"></a>Planifier les files d’attente d’appels cloud
 
@@ -30,7 +30,7 @@ En outre, les files d’attente d’appels cloud peuvent fournir :
 - Musique pendant que les appelants sont en attente
 - Paramètres personnalisés pour la taille maximale de la file d’attente d’appels, le délai d’attente et les options de gestion des appels
 
-Un compte de ressource **(voir** Configurer les comptes de [ressources)](configure-onprem-ra.md)est affecté à chaque file d’attente d’appels sur votre système Skype Entreprise Server 2019 qui sera lié directement à une file d’attente d’appels dans le Centre d’administration Microsoft Teams. Pour plus [d’informations sur](/MicrosoftTeams/create-a-phone-system-call-queue) les files d’attente d’appels et les options et fonctionnalités existantes pour les files d’attente d’appels, voir Créer une file d’attente d’appels cloud.
+Un compte de ressource **(voir** Configurer les comptes de [ressources)](configure-onprem-ra.md)est affecté à chaque file d’attente d’appels sur votre système Skype Entreprise Server 2019 qui sera lié directement à une file d’attente d’appels dans le Centre d’administration Microsoft Teams. Pour [plus d’informations sur](/MicrosoftTeams/create-a-phone-system-call-queue) les files d’attente d’appels et les options et fonctionnalités disponibles pour les files d’attente d’appels, voir Créer une file d’attente d’appels cloud.
 
 > [!NOTE]
 > Vous pouvez affecter plusieurs numéros de téléphone à une file d’attente d’appels, mais il doit s’agit de numéros de service Microsoft, de numéros de routage direct ou de numéros hybrides.
@@ -47,7 +47,7 @@ Outre la configuration requise ci-dessus, les conditions ci-dessous doivent êtr
 
    Pour plus d’informations, voir Planifier la connectivité hybride entre Skype Entreprise Server et Microsoft 365 ou [Office 365](plan-hybrid-connectivity.md) et configurer la connectivité hybride entre Skype Entreprise Server et Microsoft 365 [ou Office 365](configure-hybrid-connectivity.md).
 
-- Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser la licence utilisateur virtuel Système téléphonique gratuite. Cela offre Système téléphonique fonctionnalités de numéro de téléphone au niveau de l’organisation et vous permet de créer des fonctionnalités de service de téléphone et de numéro de file d’attente d’appels.
+- Si vous affectez un numéro de téléphone à un compte de ressource, vous pouvez désormais utiliser la licence Système téléphonique Virtual User gratuite. Cela offre Système téléphonique fonctionnalités de numéro de téléphone au niveau de l’organisation et vous permet de créer des fonctionnalités de service de téléphone et de numéro de file d’attente d’appels.
 
 - Créez un compte de ressource [local](configure-onprem-ra.md) pour chaque file d’attente d’appels et attribuez une licence et un numéro de téléphone si nécessaire.  
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme correct, le mettre à jour si nécessaire, attribuer des licences et configurer les paramètres des téléphones de zone commune.
-ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300400"
 ---
 # <a name="set-up-common-area-phones"></a>Configuration des téléphones de zone commune
 
@@ -39,7 +39,7 @@ La première chose à faire est de confirmer que vous avez :
 - acheté une licence de téléphone de zone commune et un Forfait d'appels.
 - recherché et acheté des téléphones approuvés (voir la liste [ici](deploying-skype-for-business-online-phones.md)).
 - mis à jour le microprogramme de vos téléphones (voir les microprogrammes pris en charge [dans ce sujet](getting-phones-for-skype-for-business-online.md)).  Vous pouvez vérifier le microprogramme de votre téléphone de cette manière :
-  - **Téléphones Polycom VVX**: allez sur le **Paramètres** application principale de la plateforme  >    >    >    >  **d’état.**
+  - **Téléphones Polycom VVX**: go to **Paramètres**  >  **Status**  >  **Platform**  >  **Application**  >  **Main.**
   - **Téléphones Yealink :** accès au **statut** sur l’écran principal du téléphone.
   - **Téléphones AudioCodes :** allez à la version du microprogramme **de** l’état du périphérique  >    >  **du menu** à partir de l’écran d’accueil.
   - **Téléphones Lync Téléphone (LPE)**: Aller à la System Information **menu** à partir de  >   l’écran d’accueil.
@@ -84,7 +84,7 @@ Pour plus de détails, reportez-vous à la section [Ajouter un utilisateur](http
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Étape 3 - Attribuer un numéro de téléphone au compte utilisateur du téléphone de zone commune
 
-![Icône représentant le logo Skype Entreprise Attribuer un numéro de téléphone à l’utilisateur à l’aide du ](../../images/sfb-logo-30x30.png) **Centre Skype Entreprise’administration**
+![Icône montrant le logo Skype Entreprise attribuer un numéro de téléphone à l’utilisateur à l’aide du ](../../images/sfb-logo-30x30.png) **Centre Skype Entreprise’administration**
 
 1. Dans le Centre d’administration > **centres d’administration**  >  **Skype Entreprise.**
 2. Dans le **Centre d’administration Skype Entreprise** >  **Voix** > **Numéros de téléphone**.
@@ -143,7 +143,7 @@ Le téléphone ou les téléphones que vous avez doivent avoir le **Mode de tél
 > Le site d'attribution de privilèges d'accès CAP indique qu'il réinitialisera le mot de passe du compte CAP à un mot de passe aléatoire. Notez que le compte auquel fait référence le CAP est le compte Azure Active Directory (AAD). Si vous avez créé le compte dans AAD uniquement, le processus est simple. Si vous avez synchronisé une annuaire Active Directory local avec AAD et que vous utilisez un IDP ou ADFS tiers, la mise en service cap échoue. Dans ce cas, vous devez utiliser un compte Microsoft 365 ou Office 365/Azure Active Directory uniquement (par exemple, un compte avec un domaine **onmicrosoft.com)** pour que l’approvisionnement en CAP fonctionne.
 
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 - En savoir plus sur les téléphones disponibles sur [Déploiement des téléphones Skype Entreprise Online](deploying-skype-for-business-online-phones.md).
 - [Obtention des téléphones pour Skype Entreprise Online](getting-phones-for-skype-for-business-online.md)

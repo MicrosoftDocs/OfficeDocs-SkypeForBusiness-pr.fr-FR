@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Serveurs de surveillance répertorie les serveurs de surveillance de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 3c4b0338de7bb33c2488bbe140f0c374bd98d095
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 548e7267fe6d6184e280db8eaaec42cb778e22bcacc87d758f039a2d7b40190f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299900"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nœud d’étendue des serveurs de surveillance
  

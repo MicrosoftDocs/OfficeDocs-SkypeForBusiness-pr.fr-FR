@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fff84bd660eb19f01c6a7e3388f5289b09896401
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 18c711fbe7a84bffeb5b3e897b72325aae5281a4e0258da5be6f3df6f96ca43c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310842"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Gérer les grandes équipes dans Microsoft Teams - Meilleures pratiques
 
@@ -34,7 +34,7 @@ Les grandes équipes sont très utiles pour activer les scénarios de collaborat
 
 - **Collaboration** à l’échelle d’un département : si votre organisation possède plusieurs services tels que Finances, Opérations, R&D, etc., vous pouvez créer une équipe unique qui inclut tous les membres d’un service spécifique. Désormais, toutes les communications pertinentes pour un service peuvent être partagées dans cette équipe, ce qui facilite la communication et l’implication instantanées des membres.
 
-- **Collaboration au niveau des groupes de ressources** des employés : les organisations ont souvent de grands groupes de personnes ayant des intérêts communs appartenant à un service ou un groupe de travail différent. Par exemple, il peut s’agit d’un groupe de personnes qui partagent une passion pour les finances personnelles et l’investissement. Il est souvent difficile de se connecter dans une grande organisation. Pour développer des communautés pour de tels groupes, les administrateurs de client peuvent créer une grande équipe qui sert de groupe de ressources public à l’échelle de l’entreprise, que tout le monde peut rejoindre et tirer parti. Ces communautés finiront par collecter des informations dont les membres, nouveaux et existants, peuvent bénéficier.
+- **Collaboration dans les groupes de ressources des** employés : Les organisations ont souvent de grands groupes de personnes ayant des intérêts communs appartenant à un service ou un groupe de travail différent. Par exemple, il peut s’agit d’un groupe de personnes qui partagent une passion pour la finance personnelle et l’investissement. Il est souvent difficile de se connecter dans une grande organisation. Pour développer des communautés pour de tels groupes, les administrateurs de client peuvent créer une grande équipe qui sert de groupe de ressources public à l’échelle de l’entreprise, que tout le monde peut rejoindre et tirer parti. Ces communautés finiront par collecter des informations dont les membres, nouveaux et existants, peuvent bénéficier.
 
 - **Collaboration entre membres internes** et externes : les produits les plus populaires permettent de développer une communauté de premiers utilisateurs impatients d’essayer les nouvelles sorties de produits et de faire part de leurs commentaires. Les premiers utilisateurs développent une relation avec les groupes de produits pour aider à façonner le produit. Dans de tels scénarios, les administrateurs client peuvent configurer une grande équipe qui inclut à la fois des groupes de produits internes et des experts en évaluation de produits externes afin de faciliter un processus de développement de produit enrichi. Ces équipes peuvent également fournir un support client à un groupe de clients sélectionné.
 
@@ -88,7 +88,7 @@ Les mentions d’équipe et de canal peuvent être utilisées pour attirer l’a
 
 Les propriétaires d’équipe peuvent activer la modération dans un canal afin de contrôler qui peut lancer de nouvelles publications et répondre aux publications de ce canal. Lorsque vous configurez la modération, vous pouvez choisir un ou plusieurs membres de l’équipe à utiliser en tant que modérateurs. Les propriétaires d’équipe sont des modérateurs par défaut. Pour plus d’informations, voir [Configurer et gérer la modération de canal.](manage-channel-moderation-in-teams.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Meilleures pratiques pour l’organisation des Teams](best-practices-organizing.md)
 - [Créer une équipe à l’échelle de l’organisation](create-an-org-wide-team.md)
