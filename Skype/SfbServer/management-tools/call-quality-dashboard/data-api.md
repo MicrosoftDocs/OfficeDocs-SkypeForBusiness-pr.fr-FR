@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Résumé : Découvrez l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 367aa1bf1103863fff37fbcd4f8d9fa379de7c1d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cadb726714816f80fa818d9a706640fa52bd75529e6fc58d39ab63fe907b3bb8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333326"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de données pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server
  
 **Résumé :** Découvrez l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’API de données fournit un accès par programme pour le Tableau de bord de qualité des appels pour Skype Entreprise Server.
+L’API de données fournit un accès par programme au Tableau de bord de qualité des appels pour Skype Entreprise Server.
   
 ## <a name="data-api-for-call-quality-dashboard"></a>API de données pour le tableau de bord de qualité des appels
 

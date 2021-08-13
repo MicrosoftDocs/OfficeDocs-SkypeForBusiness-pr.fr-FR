@@ -22,14 +22,14 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c859cfe3b062bcf8ad379544078684624a6586cc6d528ac0dce6493de8004a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319867"
 ---
-# <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
+# <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
 En tant qu'administrateur, vous utilisez les paramètres de réunions Teams pour contrôler si les utilisateurs anonymes peuvent participer à des réunions Teams, personnaliser des invitations aux réunions et, si vous voulez activer la fonctionnalité Qualité de Service (QoS), configurer les plages de ports pour le trafic en temps réel. Ces paramètres s'appliquent à toutes les réunions Teams que les utilisateurs planifient dans votre organisation. Vous pouvez gérer ces paramètres à partir de **Réunions** > **Paramètres de réunions** dans le Centre d’administration Microsoft Teams.
 
@@ -74,15 +74,15 @@ Vous devez être administrateur du service Teams pour accéder à ce paramètre.
 
 ## <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
-Vous pouvez personnaliser les invitations à des réunions Teams pour répondre aux besoins de votre organisation. Vous pouvez ajouter le logo de votre organisation et y inclure des informations utiles, telles que des liens vers le site web du support technique et des clauses d’exclusion de responsabilité, et un pied de page texte.
+Vous pouvez personnaliser les invitations aux réunions Teams pour répondre aux besoins de votre organisation. Vous pouvez ajouter le logo de votre organisation et y inclure des informations utiles, telles que des liens vers le site web du support technique et des clauses d’exclusion de responsabilité, et un pied de page texte.
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Conseils pour la création d'un logo pour les invitations aux réunions  
 
-1. Créez une image d’une taille inférieure à 188 pixels de large et de 30 pixels de hauteur (très petit).
+1. Créez une image d’une taille inférieure à 188 pixels de large et de 30 pixels de hauteur (très petit).
 2. Enregistrez l’image au format JPG ou PNG.
 3. Stockez l’image dans un emplacement accessible à tous les destinataires de l’invitation, tels qu’un site web public.
 
-    Vous pouvez désormais l’ajouter à vos invitations à des réunions. Passez aux étapes suivantes.
+    Vous pouvez désormais l’ajouter à vos invitations à des réunions. Voir les étapes suivantes.
 
 ### <a name="customize-your-meeting-invitations"></a>Personnalisez vos invitations à des réunions
 
@@ -90,7 +90,7 @@ Vous pouvez personnaliser les invitations à des réunions Teams pour répondre 
 
 1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
-3. Sous **Invitation par e-mail**, procédez comme suit :
+3. Sous **Invitation par e-mail**, procédez comme suit :
 
     ![Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser](media/meeting-settings-invitation.png "Capture d’écran des paramètres d’invitation à une réunion que vous pouvez personnaliser pour les réunions Teams")
 
@@ -114,13 +114,13 @@ Si vous utilisez la fonctionnalité Qualité de service (QoS) pour hiérarchiser
  ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
-3. Sous **Réseau**, procédez comme suit :
+3. Sous **Réseau**, procédez comme suit :
 
     ![Capture d'écran des paramètres de réseau pour les réunions dans le centre d'administration](media/meeting-settings-network.png "Capture d'écran des paramètres de réseau pour les réunions Teams dans le centre d'administration Microsoft Teams")
 
     - Pour autoriser l’utilisation de la fonctionnalité de marquage DSCP pour la qualité de service (QoS), activez **Insérer des marqueurs de Qualité de service (QoS) pour le trafic média en temps réel**. Vous avez seulement la possibilité d’utiliser ou de ne pas utiliser des marqueurs. Vous ne pouvez pas créer des marqueurs personnalisés par type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method).
         > [!NOTE]
-        > Le balisage DSCP est généralement effectué via les ports source et le trafic UDP acheminera vers le relais de transport avec le port de destination 3478 par défaut. Si votre entreprise exige un marquage sur les ports de destination, contactez le support technique pour activer la communication vers le relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
+        > Le balisage DSCP est généralement effectué via les ports source et le trafic UDP acheminera vers le relais de transport avec le port de destination 3478 par défaut. Si votre entreprise exige un marquage sur les ports de destination, contactez le support technique pour activer la communication vers le relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
     - Pour spécifier des plages de ports, près de **Sélectionner une plage de port par type de trafic média en temps réel**, sélectionnez **Spécifiez les plages de ports**, puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est nécessaire pour implémenter QoS. 
         > [!Note]
         > Si **Marqueurs de qualité de service (QoS) pour le trafic multimédia en temps réel** est activé, vous devez gérer les paramètres de vos ports. Ils ne sont pas gérés automatiquement.
@@ -130,15 +130,15 @@ Si vous utilisez la fonctionnalité Qualité de service (QoS) pour hiérarchiser
         >
         > La sélection d’une plage de ports trop réduite entraîne des appels rejetés et une qualité d’appel médiocre. Les recommandations ci-dessous doivent représenter le strict minimum.
 
-Si vous n’êtes pas certain des plages de ports à utiliser dans votre environnement, les paramètres suivants constituent un bon point de départ. Pour en savoir plus, lire [Implémenter la Qualité de service (QoS) dans Microsoft Teams](QoS-in-Teams.md). Ce sont les marquages DSCP nécessaires et les plages suggérées de ports médias correspondantes, utilisées par les Teams et ExpressRoute.
+Si vous n’êtes pas certain des plages de ports à utiliser dans votre environnement, les paramètres suivants constituent un bon point de départ. Pour en savoir plus, lire [Implémenter la Qualité de service (QoS) dans Microsoft Teams](QoS-in-Teams.md). Ce sont les marquages DSCP nécessaires et les plages suggérées de ports médias correspondantes, utilisées par les Teams et ExpressRoute.
 
 ### <a name="port-ranges-and-dscp-markings"></a>Plages de ports et marquages DSCP
 
 Type de trafic média| Plage de port source du client \* |Protocole|Valeur DSCP|Classe DSCP|
 |:---             |:---                         |:---    |:---      |:---      |
-|Audio            | Entre 50 000 et 50 019               |TCP/UDP |46        |Acheminement accéléré (EF)|
-|Vidéo            | 50 020–50 039               |TCP/UDP |34        |Acheminement assuré (AF41)|
-|Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |18        |Transfert garanti (AF21)|
+|Audio            | Entre 50 000 et 50 019               |TCP/UDP |46        |Acheminement accéléré (EF)|
+|Vidéo            | 50 020–50 039               |TCP/UDP |34        |Acheminement assuré (AF41)|
+|Partage d’application/d'écran| 50 040–50 059      |TCP/UDP |18        |Transfert garanti (AF21)|
 | | | | |
 
 \* Les plages de ports que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.

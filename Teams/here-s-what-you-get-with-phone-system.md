@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer Téléphone Microsoft système pour votre entreprise. '
-ms.openlocfilehash: 2d4f4bada45242ddd5a3aa48308d2acaad495a23
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: ce4be849a1cf57dc47b6d41b84548b1e0e3591cdd2d963e60d5816c833579648
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349047"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Les avantages du système téléphonique
 
@@ -86,7 +86,7 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans Cloud de la c
 - Attente musicale
 - Recherche de numéro inversé d’Azure AD
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

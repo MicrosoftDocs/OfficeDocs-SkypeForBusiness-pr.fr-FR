@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur les numéros d’appel gratuits en Irlande, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
-ms.openlocfilehash: e8c8981c3e70f20c067aa910d0430478e08ced15
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7279312cf231a18d67d3719fbcf2bf1b23daa939ac96d3922e0b9b5337fe7eff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319687"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Restrictions de numérotation gratuit en Irlande
 
@@ -47,7 +47,7 @@ ms.locfileid: "51098067"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accessible via les réseaux mobiles O2 Digiphone, Meteor et H3G.  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

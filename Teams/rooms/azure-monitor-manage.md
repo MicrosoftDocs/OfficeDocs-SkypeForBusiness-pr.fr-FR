@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Cet article explique comment gérer vos appareils Salles Microsoft Teams de manière intégrée à l’aide d’Azure Monitor.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 41375c313940099b6ed6e102e2452290e0817bec
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 1d3bb770698ae5128bcbf8bb6742c50cea2c3df44d500b15c1db00489aab8794
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318278"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Gérer Salles Microsoft Teams appareils avec le moniteur Azure
 
@@ -44,7 +44,7 @@ Comprendre ces descriptions d'événements vous permet d'être rapidement inform
 | 3001  <br> Événement d’erreur  | Il s'agit d'un événement d'erreur de matériel. L Salles Microsoft Teams’application dispose d’un processus qui vérifie l’intégrité des composants matériels connectés (avant la pièce, micro, haut-parleur, caméra) toutes les 5 minutes. Si un ou plusieurs des composants ne sont pas défectueux, eventID 3001 est écrit dans le journal des événements. Cet événement est écrit toutes les 5 minutes jusqu’à ce que le problème avec l’appareil soit résolu.   | `{"Description":" Front of Room Display status : Unhealthy. Configured display count is 2. Real display count is 0. Conference Microphone status : Unhealthy. Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera status : Healthy.", "ResourceState":"Unhealthy", "OperationName":"HardwareCheckEngine", "OperationResult":"Fail", "OS":"Windows 10", "OSVersion":"10.0.14393.1198", "Alias":"alias<span></span>@contoso.com", "DisplayName":"Yosemite conference room", "AppVersion":"2.0.58.0", "IPv4Address":"10.10.10.10", "IPv6Address":"IPv6Address", "IPv4Address2":"10.10.10.10"}` <br><br>   Les périphériques matériels sont indiqués comme étant sains ou défectueux.  <br> Dans cet exemple,  deux écrans de salle sont configurés et aucun d’eux n’est disponible pour le moment. _L’état du microphone_ de conférence est _défectueux,_ ce qui peut avoir plusieurs causes possibles. Étant donné que la dernière ressource n'a pas réussi le contrôle, l'état de celle-ci est indiqué comme étant Défectueux. Envoyez un technicien pour examiner le problème de plus près. |
 | 4000  <br> Information  <br> | Il s'agit d'un événement de redémarrage de l'application. À chaque redémarrage de l'application, elle enregistre cet événement dans le journal des événements Windows.  <br> | `{"Description":"App restarts.", "ResourceState":"Healthy", "OperationName":"Restart", "OperationResult":"Pass", "OS":"Windows 10", "OSVersion":"10.0.14393.693", "Alias":"alias<span></span>@domain.com", "DisplayName":"Display Name", "AppVersion":"1.0.38.0", "IPv4Address":"10.10.10.10", "IPv6Address":"ip v6 address"}` <br><br> Le redémarrage de l’application peut être pour diverses raisons. Comparez la fréquence de redémarrage des appareils situés dans le même bâtiment et dans des bâtiments différents. Gardez à l’esprit les problèmes connus tels que les fluctuations de puissance et les échecs, car cela peut fournir des indices sur les problèmes d’infrastructure.|
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
  
 
 [Planifier la Salles Microsoft Teams gestion des données à l’aide d’Azure Monitor](azure-monitor-plan.md)

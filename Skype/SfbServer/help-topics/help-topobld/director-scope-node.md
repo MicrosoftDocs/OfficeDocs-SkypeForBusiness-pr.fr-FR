@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 'Ce nœud montre le nom de domaine complet (FQDN), les ports et le magasin de fichiers associé pour ce pool directeur. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 9c3978314ab1e4e227e5a5efff2d183c75a4353d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4ebb472f04e9ffde1ec37c96062a8fba40124a5e2b75e29820fc79f020d9c599
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835324"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333666"
 ---
 # <a name="director-scope-node"></a>Nœud d’étendue du directeur
  

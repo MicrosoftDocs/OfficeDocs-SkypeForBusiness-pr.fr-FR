@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cliquez avec le bouton droit sur Composants partagés dans l’arborescence de la hiérarchie du Générateur de topologie pour créer des composants partagés ou accéder aux options de niveau topologie.
-ms.openlocfilehash: 1f03a498f92f72b9546be2eb0703e8b7022770b4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 638f05c42aa08c172bbd7669d3876c0184b228fdbc2ca13767a5fdd99ebd5c26
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348369"
 ---
 # <a name="shared-components-scope-node"></a>Nœud d’étendue des composants partagés
  

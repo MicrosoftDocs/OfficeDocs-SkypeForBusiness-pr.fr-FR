@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType est une table de choix statique contenant des types de rôles et leurs jeux d’autorisations.
-ms.openlocfilehash: c440463d822b908a89c84eb9c85b70e9daf442be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2b03473b6f89e0dd2f572e2462b607bc72a2a2eb5f83aa18d2d779f9f66ee220
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318677"
 ---
 # <a name="tblroletype"></a>tblRoleType
  
@@ -26,7 +26,7 @@ tblRoleType est une table de choix statique contenant des types de rôles et leu
   
 **Columns**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |rtypeID  <br/> |int, non null  <br/> |ID de type de rôle.  <br/> |
 |rtypeDesc  <br/> |nvarchar (256), non null  <br/> | Description de type de rôle. Les quatre rôles disponibles sont : <br/>  Membre : membre de la salle de conversation <br/>  Responsable : responsable de la salle de conversation <br/>  Membre sonore : présentateur de la salle de conversation de type auditorium <br/>  Créateur : peut créer des salles de conversation <br/> |

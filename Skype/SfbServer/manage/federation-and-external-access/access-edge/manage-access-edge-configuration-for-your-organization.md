@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Après avoir déployé un ou plusieurs serveurs Edge, vous devez activer les types d’accès de domaine ou de fournisseur externe, l’accès des utilisateurs distants et l’accès des utilisateurs anonymes aux conférences via les serveurs Edge qui seront pris en charge pour votre organisation.
-ms.openlocfilehash: 7f5ea6db17b498d2f1732cf72fc5462546d7598841a1bd489ac77c8749d86130
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: ffad5a6ed75e5d9e0476497182bd1d1dafe65675c1fb948ca98543858846512f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848539"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333526"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Gestion de la configuration du serveur Microsoft Edge d’accès pour votre organisation
 
@@ -34,7 +34,7 @@ Ces options couvrent les types d’accès suivants configurables via la page **C
     
       - **Activer la découverte de domaine partenaire**   La sélection de cette option permet la découverte automatique des domaines avec qui vous pouvez vous fédérer. Skype Entreprise Server utilise des enregistrements DNS (Domain Name System) pour essayer de découvrir les domaines non répertoriés dans la liste des domaines autorisés, en évaluant automatiquement le trafic entrant provenant de partenaires fédérés découverts et en limitant ou bloquant ce trafic en fonction du niveau de confiance, de la quantité de trafic et des paramètres d’administrateur. Si vous ne sélectionnez pas cette option, l’accès des utilisateurs fédérés est uniquement activé pour les utilisateurs des domaines inclus dans la liste des domaines autorisés. Que vous choisissiez ou non cette option, vous pouvez bloquer ou autoriser des domaines individuels, et restreindre l’accès à des serveurs spécifiques exécutant le service Edge d’accès dans le domaine fédéré. Pour plus d’informations, voir [Configurer la prise en charge des domaines externes autorisés.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
     
-      - **Envoyer une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés**   La sélection de cette option active l’envoi d’un message de clause d’exclusion de responsabilité d’archivage aux partenaires fédérés qui les informe que les détails des communications sont enregistrés. Si vous archivez des communications externes avec des domaines de partenaires fédérés, vous devez activer l’envoi d’une notification d’exclusion relative à l’archivage pour indiquer aux partenaires que leurs messages et communications sont archivés par votre déploiement. Pour plus d’informations sur l’archivage, voir Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité [d’archivage au partenaire fédéré.](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
+      - **Envoyer une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés**   La sélection de cette option permet l’envoi d’un message de clause d’exclusion de responsabilité d’archivage aux partenaires fédérés qui les informe que les détails des communications sont enregistrés. Si vous archivez des communications externes avec des domaines de partenaires fédérés, vous devez activer l’envoi d’une notification d’exclusion relative à l’archivage pour indiquer aux partenaires que leurs messages et communications sont archivés par votre déploiement. Pour plus d’informations sur l’archivage, voir Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité [d’archivage au partenaire fédéré.](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
   - **Activer l’accès des utilisateurs distants**   Activez cette option si vous souhaitez que les utilisateurs de votre organisation qui sont en dehors de votre pare-feu, tels que les télétravailleurs et les utilisateurs en déplacement, puissent se connecter à Skype Entreprise Server. Pour plus d’informations, voir [Activer ou désactiver l’accès des utilisateurs distants.](enable-or-disable-remote-user-access.md)
 
@@ -45,31 +45,31 @@ Ces options couvrent les types d’accès suivants configurables via la page **C
 
 **Affichage des informations de configuration du edge d’accès Windows PowerShell cmdlets**
 
-  - Les informations de configuration du edge d’accès peuvent être vues à l’aide Windows PowerShell’une cmdlet **Get-CsAccessEdgeConfiguration.** Cette cmdlet peut être exécuté à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+  - Les informations de configuration du edge d’accès peuvent être vues à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsAccessEdgeConfiguration.** Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
     
-    Pour afficher des informations sur tous vos paramètres de configuration du serveur Edge d’accès, tapez la commande suivante dans l’environnement de ligne de commande Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
+    Pour afficher des informations sur tous vos paramètres de configuration du service Edge d’accès, tapez la commande suivante dans Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
     
      `Get-CsAccessEdgeConfiguration`
     
     Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
-    Identité : global<br/>
-    AllowAnonymousUsers : False<br/>
-    AllowFederatedUsers : False<br/>
-    AllowOutsideUsers : True<br/>
-    BeClearingHouse : False<br/>
-    EnablePartnerDiscovery : False<br/>
-    EnableArchivingDisclaimer : False<br/>
-    EnableUserReplicator : True<br/>
-    KeepCrlsUpToDateForPeers : True<br/>
-    MarkSourceVerifiableOnOutgoingMessages : True<br/>
-    OutgoingTlsCountForFederatedPartners : 4<br/>
-    DiscoveredPartnerStandardRate : 20<br/>
-    EnableDiscoveredPartnerContactsLimit : True<br/>
-    MaxContactsPerDiscoveredPartner : 1000<br/>
-    DiscoveredPartnerReportPeriodMinutes : 60<br/>
-    MaxAcceptedCertificatesStored : 1000<br/>
-    MaxRejectedCertificatesStored : 500<br/>
-    CertificatesDeletedPercentage : 20<br/>
-    RoutingMethod : UseDnsSrvRouting<br/>
+        Identity                               : Global
+        AllowAnonymousUsers                    : False
+        AllowFederatedUsers                    : False
+        AllowOutsideUsers                      : True
+        BeClearingHouse                        : False
+        EnablePartnerDiscovery                 : False
+        EnableArchivingDisclaimer              : False
+        EnableUserReplicator                   : True
+        KeepCrlsUpToDateForPeers               : True
+        MarkSourceVerifiableOnOutgoingMessages : True
+        OutgoingTlsCountForFederatedPartners   : 4
+        DiscoveredPartnerStandardRate          : 20
+        EnableDiscoveredPartnerContactsLimit   : True
+        MaxContactsPerDiscoveredPartner        : 1000
+        DiscoveredPartnerReportPeriodMinutes   : 60
+        MaxAcceptedCertificatesStored          : 1000
+        MaxRejectedCertificatesStored          : 500
+        CertificatesDeletedPercentage          : 20
+        RoutingMethod                          : UseDnsSrvRouting
 

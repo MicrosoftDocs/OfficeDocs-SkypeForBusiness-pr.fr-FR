@@ -18,19 +18,19 @@ appliesto:
 - Microsoft Teams
 description: Découvrez comment Teams utilise Office 365 flux dans plusieurs topologies, ainsi que des flux d’équipe uniques utilisés pour la communication multimédia p22.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 27a2c68483c3d54cb3f3572bbed3a06a53ccc67e
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+ms.openlocfilehash: ebe6de7773ca77964619f5d90d1c189ea8d731c8d7c242c2a04a619a33c55414
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059208"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319857"
 ---
 # <a name="microsoft-teams-call-flows"></a>Carrousel Microsoft Teams
 
 > [!TIP]
 > Regardez cette session pour découvrir comment Teams tire parti de votre réseau et comment planifier une connectivité réseau optimale : Teams [planification réseau.](https://aka.ms/teams-networking)
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 Cet article décrit comment un Teams utilise Microsoft 365 ou Office 365 flux d’appels dans différentes topologies. Il décrit également les flux de Teams qui sont utilisés pour la communication multimédia P2 P2. Le document décrit ces flux, leur objet, leur origine et leur résiliation sur le réseau. Aux fins de cet article, assumez ce qui suit :
 

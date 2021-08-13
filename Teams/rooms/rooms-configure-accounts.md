@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lisez cette rubrique pour en savoir plus sur la configuration de comptes pour Salles Microsoft Teams dans Exchange et Skype Entreprise.
-ms.openlocfilehash: 26879b2c07b859e65255ed84bedd4897b75d5caa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d66e495fd4e1e75227b162974891cda9876fef28c9f809dead001af1a95b099a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348799"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurer des comptes pour Salles Microsoft Teams
  
-Lisez cette rubrique pour en savoir Salles Microsoft Teams et comment elle s’intègre à Exchange et Skype Entreprise.
+Lisez cette rubrique pour en savoir plus Salles Microsoft Teams comment elle s’intègre à Exchange et Skype Entreprise.
   
 Cette rubrique présente comment créer des comptes utilisés par Salles Microsoft Teams dans Microsoft Exchange et Skype Entreprise. Les instructions de déploiement Salles Microsoft Teams appareils mobiles sont couvertes [dans Configurer une console Salles Microsoft Teams données.](console.md) Votre infrastructure peut correspondre à l’une des configurations suivantes :
   
@@ -58,7 +58,7 @@ Dans les environnements hybrides, le compte utilisé pour Salles Microsoft Teams
   
 Vous pouvez voir un compte d’appareil comme le compte de ressource que les utilisateurs reconnaissent comme étant un compte de salle de conférence ou d’espace de réunion. Lorsque vous souhaitez planifier une réunion qui se déroulera dans cette salle de réunion, vous invitez le compte à cette réunion. Pour utiliser les Salles Microsoft Teams de façon efficace, vous faites de même avec le compte d’appareil qui est affecté à chacun d’eux.
   
-Si vous avez déjà un compte de boîte aux lettres de ressources créé pour l’espace de réunion dans lequel vous installez Salles Microsoft Teams, vous pouvez changer ce compte de ressource en compte d’appareil. Une fois que c’est fait, il vous suffit d’ajouter le compte de l’appareil à un Salles Microsoft Teams appareil. Consultez les exemples de configuration de compte d’appareil fournis ci-dessous.
+Si vous avez déjà un compte de boîte aux lettres de ressources créé pour l’espace de réunion dans lequel vous installez Salles Microsoft Teams, vous pouvez changer ce compte de ressource en compte d’appareil. Une fois cette terminé, il vous suffit d’ajouter le compte de l’appareil à Salles Microsoft Teams appareil. Consultez les exemples de configuration de compte d’appareil fournis ci-dessous.
   
 Avec une configuration supplémentaire, la gestion à distance est possible à l’aide de Microsoft Azure Monitor, comme décrit dans la gestion de plan Salles Microsoft Teams avec Azure Monitor, Déployer la gestion [de l’Salles Microsoft Teams](azure-monitor-deploy.md)avec Azure Monitor et Gérer les appareils Salles Microsoft Teams avec [Azure](azure-monitor-manage.md) [Monitor.](azure-monitor-plan.md) 
   

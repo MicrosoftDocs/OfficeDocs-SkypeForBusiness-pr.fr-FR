@@ -15,23 +15,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 20bbc47f73afe67d37b6d187a0dbd9d0dea6f072
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c2e78d1de6b5834f096898dc567dc9839c6f6e02d5e30057b285a948a6d741ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348289"
 ---
 # <a name="dial-plan"></a>Plan de numérotation
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Création ou modification d’un plan de numérotation dans Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [Création ou modification d’un plan de numérotation Skype Entreprise Server 2015](../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [Modifier un plan de numérotation](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
-- [Création ou modification d’une règle de normalisation dans Skype Entreprise 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [Création ou modification d’une règle de normalisation Skype Entreprise 2015](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [Créer ou modifier manuellement une règle de normalisation](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
 
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).

@@ -17,14 +17,15 @@ description: Résoudre les problèmes liés à la réception de messages et d’
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b013817ab363b91f7041d285616f7bd919dc84b9afd1298ec74d8e9dc64046a5
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 4626f7d675f5b6d5f4899f9b0f1cd6d8eb81776de383c3a0c573e2fd78967cb5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348977"
 ---
-# <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur des systèmes hérités
+<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Problèmes de réception de messages et d’appels sur des systèmes hérités
+==============================================================
 
 Les utilisateurs peuvent avoir des problèmes pour recevoir des messages ou des appels s’ils utilisent des versions antérieures d’Teams ou s’ils se sont connectés avec d’autres applications.
 

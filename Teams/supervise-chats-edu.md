@@ -15,16 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: En savoir plus sur les conversations encadrées dans Microsoft Teams réunions.
-ms.openlocfilehash: e705120eb2f8b92ea437c78be67c139018f786fc
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 6962d38eb30a8f94893667d269f35ebe8e251a3df8896d574b2236ca29c91a09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506677"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318248"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Conversations surveillées dans Microsoft Teams
 
-Les établissements d’enseignement offrent un espace numérique sécurisé et sain aux étudiants. L’espace numérique inclut les courriers électroniques, les réunions et appels en ligne, et la messagerie Teams. Pour éviter un comportement de messagerie inapproprié, de nombreux établissements scolaires désactivent la conversation privée dans Teams. Malheureusement, la désactivation de la conversation bloque également l’opportunité pour les enseignants de joindre les étudiants en privé pour un apprentissage personnalisé. Une fois la conversation désactivée, les étudiants ne peuvent pas joindre les enseignants lorsqu’ils préfèrent ne pas publier de messages publiquement dans les équipes de classe.
+Les établissements d’enseignement offrent un espace numérique sécurisé et sain aux étudiants. L’espace numérique inclut les courriers électroniques, les réunions et appels en ligne, et la messagerie Teams. Pour éviter un comportement de messagerie inapproprié, de nombreux établissements scolaires désactivent la conversation privée dans Teams. Malheureusement, la désactivation de la conversation bloque également l’opportunité pour les enseignants de joindre les étudiants en privé pour un apprentissage personnalisé. Une fois la conversation désactivée, les étudiants ne peuvent pas joindre les enseignants lorsqu’ils préfèrent ne pas publier les messages publiquement dans les équipes de classe.
 
 La conversation surveillée permet aux enseignants désignés de lancer des conversations avec les étudiants et d’bloquer les étudiants de démarrer de nouvelles conversations, sauf si un enseignant approprié est présent. Lorsque la surveillance des conversations est activée, les superviseurs ne sont pas autorisés à quitter des conversations et les autres participants ne sont pas autorisés à les supprimer, ce qui garantit que les conversations impliquant des étudiants sont correctement encadrées.
 
@@ -48,9 +48,9 @@ Les exemples suivants duivent une description de la nécessité d’une conversa
 ## <a name="enable-supervised-chat"></a>Activer la conversation surveillée
 
 > [!Note]
-> Veillez à configurer les rôles d’autorisation de conversation et les stratégies d’autorisation de conversation basées sur les rôles avant d’activer la conversation pour votre établissement afin d’éviter tout accès indésirable aux conversations non sollicitées par les étudiants.
+> Veillez à configurer les rôles d’autorisation de conversation et les stratégies d’autorisation de conversation en fonction du rôle avant d’activer la conversation pour votre établissement afin d’éviter tout accès indésirable aux conversations non sollicitées par les étudiants.
 
-### <a name="define-chat-permission-roles-for-each-user-in-your-environment"></a>Définir des rôles d’autorisation de conversation pour chaque utilisateur de votre environnement
+### <a name="define-chat-permission-roles-for-each-user-in-your-environment"></a>Définir les rôles d’autorisation de conversation pour chaque utilisateur dans votre environnement
 
 Pour que la conversation surveillée fonctionne comme prévu, chaque utilisateur au sein de votre environnement doit avoir le rôle d’autorisation de conversation correct. Un utilisateur peut avoir attribué trois rôles :
 
@@ -84,6 +84,6 @@ Une fois la conversation surveillée activée, vous devez vérifier que les conv
 
 - Si un utilisateur avec des autorisations complètes quitte ou est supprimé d’un client, les conversations qu’il a eues sont laissées sans surveillance. Avant de supprimer l’utilisateur d’origine, assurez-vous qu’un autre utilisateur ayant des autorisations complètes est ajouté à ces conversations afin que la conversation puisse rester encadrée. Une fois le superviseur d’origine supprimé, de nouveaux participants ne peuvent pas être ajoutés à la conversation, mais les participants actuels peuvent continuer à communiquer.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Conversations supervised for Teams in education](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

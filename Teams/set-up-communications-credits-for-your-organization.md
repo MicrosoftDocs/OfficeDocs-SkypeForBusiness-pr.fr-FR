@@ -23,23 +23,23 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 33206e09a63a74689361fcfb34d51c5b0b4a4973
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: 3acb2dbb4029e7b530d556f6fa63bbdb9b329963160bd27113ea10bbd9e219d7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348629"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurer les crédits de communication pour votre organisation
 
-Vous devez configurer les crédits de communications si vous souhaitez utiliser des numéros gratuits avec Skype pour Business et Teams Microsoft. En outre, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de vos forfaits d’appels (nationaux ou internationaux) et de l’audioconférence qui ont besoin de pouvoir appeler vers n’importe **quelle destination.** De nombreux pays/de nombreuses régions sont inclus, mais il est possible que certaines destinations ne soient pas incluses dans votre offre d’appels ou dans vos abonnements à l’audioconférence. Si vous ne définissez pas la facturation des crédits de communication et si vous n’affectez pas de licences crédits de communication à vos **utilisateurs** et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre forfait d’audioconférence dans votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’un appel sortant d’une réunion d’audioconférence. Vous pouvez obtenir plus d’informations, notamment sur les montants des fonds recommandés, en lisant l’information Sur [les crédits de communication.](what-are-communications-credits.md)
+Vous devez configurer les crédits de communications si vous souhaitez utiliser des numéros gratuits avec Skype pour Business et Teams Microsoft. En outre, nous vous recommandons de configurer les crédits de communication pour les utilisateurs de vos forfaits d’appels (nationaux ou internationaux) et de l’audioconférence qui ont besoin de pouvoir appeler vers n’importe **quelle destination.** De nombreux pays/de nombreuses régions sont inclus, mais il est possible que certaines destinations ne soient pas incluses dans votre plan d’appels ou votre abonnement à l’audioconférence. Si vous ne définissez pas la facturation des crédits de communication et si vous n’affectez pas de licences crédits de communication à vos **utilisateurs** et que vous n’avez plus de minutes d’appel pour votre organisation (en fonction de votre plan d’appels ou de votre forfait d’audioconférence dans votre pays/région), ces utilisateurs ne pourront plus appeler ou sortir d’un appel sortant d’une réunion d’audioconférence. Vous pouvez obtenir plus d’informations, notamment sur les montants des fonds recommandés, en lisant [l’information Sur les crédits de communication.](what-are-communications-credits.md)
   
 > [!NOTE]
 > Pour connaitre le coût, [voir les tarifs ici](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
   
 ## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Étape 1 : affecter une licence d’audioconférence ou de plan d’appel à vos utilisateurs
 
-Lorsque vous vous inscrivez, vous obtenez un certain nombre de minutes en fonction de votre pays/région. Vous pouvez rechercher votre pays ou région dans la liste de disponibilité du pays ou de la région pour les [forfaits d’audioconférence](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) et d’appel pour voir le nombre de minutes que vous recevrez. Une fois ces minutes déconnectées, les appels sont déconnectés. Pour éviter cela, vous devez configurer les crédits de communication.
+Lorsque vous vous inscrivez, vous obtenez un certain nombre de minutes en fonction de votre pays/région. Vous pouvez rechercher votre pays ou région dans la liste de disponibilité du pays ou de la région pour les plans d’audioconférence et d’appel pour voir le nombre de minutes que vous recevrez. [](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md#select-your-country-or-region-to-see-whats-available-for-your-organization) Une fois ces minutes déconnectées, les appels sont déconnectés. Pour éviter cela, vous devez configurer les crédits de communication.
   
 Pour ce faire, vous devez affecter une licence d’audioconférence **Système téléphonique** vos utilisateurs.
   
@@ -52,7 +52,7 @@ Pour ce faire, vous devez affecter une licence d’audioconférence **Système t
     > [!NOTE]
     > Bien qu’il ne soit pas nécessaire pour les crédits de communication, vous devez également affecter une licence **Plan** d’appels nationaux ou **Plan** d’appels nationaux et internationaux.
   
-    Après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, voir [Configurer les forfaits d’appels.](set-up-calling-plans.md)
+    Après avoir affecté ces licences, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, [consultez Configurer les forfaits d’appels.](set-up-calling-plans.md)
     
 Pour plus d’informations, [voir Microsoft Teams licences de module complémentaire](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
@@ -74,7 +74,7 @@ Pour plus d’informations, [voir Microsoft Teams licences de module complément
     
    - **Montant de la recharge** Entrez le montant dans la **zone Recharger avec** que vous souhaitez ajouter à votre compte une fois qu’il a atteint le montant de déclenchement ci-dessous.
     
-   - **Montant déclencheur** Entrez le montant dans **Lorsque le solde passe** en dessous de la zone utilisée pour déclencher la recharge automatique.  Une fois votre solde inférieur à ce montant, le montant de recharge est automatiquement ajouté à votre compte.
+   - **Montant déclencheur** Entrez le montant dans **Lorsque le solde passe** en dessous de la zone qui sera utilisée pour ' *déclencher*  la recharge automatique. Une fois votre solde inférieur à ce montant, le montant de recharge est automatiquement ajouté à votre compte.
 
       > [!NOTE]
      > Le crédit s’appliquera uniquement aux crédits de communication aux tarifs publiés par Microsoft lorsque les services sont utilisés. Tout fond non utilisé dans les 12 mois suivant la date d'achat expire et est perdu. 
@@ -115,7 +115,7 @@ Vous pouvez consulter les plans et les tarifs en visitant l’un des liens suiva
     
 - [Système téléphonique Plans](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Vous pouvez également consulter des informations en [vous Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) au service de facturation Et d’ajouter   >    >  **des abonnements.**
+Vous pouvez également consulter des informations en [vous Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) sur La facturation   >  **des**  >  **abonnements Ajouter des abonnements.**
   
 Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez Microsoft Teams [licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

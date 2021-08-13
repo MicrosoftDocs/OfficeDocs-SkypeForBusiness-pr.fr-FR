@@ -1,5 +1,5 @@
 ---
-title: Skype Entreprise Server - Supprimer une collection existante de paramètres de configuration de la trunk SIP
+title: Supprimer une collection existante de paramètres de configuration de la trunk SIP dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
-ms.openlocfilehash: 1fb551505f52980e884a78278d33e282510b3388aa636ee3a37018267e5e612d
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 98e255f82face68132b24f798f45bc12134c9b3cbbbebe1fce5ac886361a7b46
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849929"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333336"
 ---
-# <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype Entreprise Server - Supprimer une collection existante de paramètres de configuration de la trunk SIP
+# <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Supprimer une collection existante de paramètres de configuration de la trunk SIP dans Skype Entreprise Server
 
 Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. Ces paramètres permettent de spécifier ce qui suit :
 
@@ -39,13 +39,13 @@ Les administrateurs peuvent aussi créer des paramètres de configuration de jon
 2. Sous **l’onglet Configuration** de la trunk, sélectionnez la collection de paramètres de configuration de la trunk SIP à supprimer, cliquez sur **Modifier,** puis cliquez sur **Supprimer**. Pour supprimer plusieurs collections en une seule opération, cliquez sur la première collection à supprimer, maintenez la touche Ctrl enfoncée, puis cliquez sur les autres collections à supprimer.
 3. La propriété **État** de la collection est mise à jour et présente la valeur **Non validé**. Pour valider les modifications et supprimer la collection, cliquez sur **Valider**, puis sur **Valider tout**.
 4. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.
-5. Dans la **boîte de Skype Entreprise Server du Panneau de** Skype Entreprise Server, cliquez sur **OK.**
+5. Dans la **boîte Skype Entreprise Server panneau de bord,** cliquez sur **OK.**
 6. Si vous changez d’avis et décidez de ne pas supprimer la collection, cliquez sur **Valider,** puis cliquez sur Annuler toutes les modifications **non émises.** Lorsque la **boîte Skype Entreprise Server panneau de Skype Entreprise Server** s’affiche, cliquez sur **OK.**
 
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration de la Windows PowerShell cmdlets
 
 
-Vous pouvez supprimer les paramètres de configuration de la Windows PowerShell à l’aide de l’cmdlet **Remove-CsTrunkConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez supprimer les paramètres de configuration de la Windows PowerShell et l’cmdlet **Remove-CsTrunkConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 **Pour supprimer une collection spécifiée de paramètres**
 

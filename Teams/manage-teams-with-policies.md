@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319947"
 ---
 # <a name="manage-teams-with-policies"></a>Gérer les Teams des stratégies
 
@@ -52,9 +52,9 @@ En outre, une stratégie de réunion peut être utilisée pour contrôler les pa
 
 ### <a name="teams-for-education"></a>Teams pour l’éducation
 
-Vous pouvez également utiliser [l’Assistant](easy-policy-setup-edu.md) Stratégie Teams Éducation pour configurer et gérer facilement des stratégies pour votre environnement d’apprentissage.
+Vous pouvez également utiliser [l’Assistant Stratégie Teams pour l’éducation](easy-policy-setup-edu.md) pour configurer et gérer facilement des stratégies pour votre environnement d’apprentissage.
 
-![Capture d’écran Teams’Assistant Stratégie pour l’Éducation.](media/easy-policy-setup-quick-setup.png)
+![Capture d’écran Teams pour l’éducation’Assistant Stratégie.](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>Types de stratégies
 
@@ -68,10 +68,10 @@ Type de stratégie | Description
 [Stratégies d’application](app-policies.md)| Les stratégies d’application sont utilisées pour contrôler les applications dans Microsoft Teams. Les administrateurs peuvent autoriser ou bloquer les applications que les utilisateurs peuvent installer, épingler des applications à la barre d’application Teams d’un utilisateur et installer une application pour le compte de vos utilisateurs.
 [Stratégies de messagerie](messaging-policies-in-teams.md)| Les stratégies de messagerie contrôlent la disponibilité des fonctionnalités de conversation et de canal.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 * [Attribuer des stratégies dans Teams - mise en place](policy-assignment-overview.md)
 * [Gérer les stratégies de commentaires dans Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Gérer les stratégies d’équipes dans Microsoft Teams](teams-policies.md)
 * [Configurer des événements en direct dans Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams pour les stratégies et packages de stratégies pour l’Éducation](policy-packages-edu.md)
+* [Teams pour l’éducation stratégies et packages de stratégies](policy-packages-edu.md)

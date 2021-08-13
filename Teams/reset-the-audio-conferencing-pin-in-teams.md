@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment réinitialiser le code confidentiel d’audioconférence d’un utilisateur dans Microsoft Teams comment consulter des informations importantes sur les code confidentiels.
-ms.openlocfilehash: 6470085fed25a83c1a8dc46ab45e8c6ea57b5603
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: 689962a3d849fa5d50f87f2cacfdfc7caec687e2e92227ea52e5c0e2bb9bd0bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319717"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
 Un code confidentiel est un code composé de nombres qui est créé pour Microsoft Teams utilisateur activé pour l’audioconférence. Les conférences audioconférences sont utilisées par les organisateurs de la réunion pour identifier qu’ils en sont l’organisateur et les autoriser à démarrer une réunion par téléphone. S’il utilise l Microsoft Teams de messagerie pour commencer la réunion, le code confidentiel n’est pas nécessaire. Si un utilisateur oublie son code confidentiel et qu’il ne le retrouve pas dans le courrier électronique qui lui a été envoyé pour l’audioconférence, un administrateur peut réinitialiser son code confidentiel ou réinitialiser son code confidentiel.
   
-Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rejoint la réunion à l’aide de l’application Microsoft Teams ou lorsque l’organisateur participe avec son code confidentiel sur le téléphone. Lorsqu’une réunion nécessite un code confidentiel pour commencer, les utilisateurs qui rejoignent la réunion par téléphone sont placés dans la salle d’attente et écoutent la musique mise en attente jusqu’à ce que l’organisateur les admette. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
+Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rejoint la réunion à l’aide de l’application Microsoft Teams ou lorsque l’organisateur participe avec son code confidentiel sur le téléphone. Lorsqu’une réunion nécessite un code confidentiel pour commencer, les utilisateurs qui rejoignent la réunion par téléphone sont placés dans la salle d’attente et écoutent de la musique mise en attente jusqu’à ce que l’organisateur les admette. Si l'organisateur d'une réunion n'impose pas de code confidentiel pour commencer la réunion par téléphone, un appelant qui tente de participer n'est pas invité à indiquer un code confidentiel.
 
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
@@ -64,7 +64,7 @@ Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rej
     
 - L’envoi automatique de courriers électroniques aux utilisateurs est activé par défaut et les utilisateurs reçoivent un courrier électronique avec leur code confidentiel lorsqu’ils sont activés pour l’audioconférence ou lorsque le code confidentiel est réinitialisé. Toutefois, si vous avez désactivé l’envoi automatique de courriers électroniques, un message de réinitialisation du code confidentiel ne sera pas envoyé à l’utilisateur et vous de aurez à envoyer manuellement les informations de code confidentiel à l’utilisateur.
     
-- Lorsqu’une réunion commence, l’organisateur doit admettre tous les utilisateurs PSTN dans la salle d’accueil pour rejoindre la réunion. Par exemple, si deux participants PSTN essaient de participer à une réunion avant qu’elle ait commencé, ils sont placés dans la salle d’attente et écoutent de la musique en attente, et lorsque l’organisateur de la réunion rejoint la réunion à l’aide de son code confidentiel par téléphone, la réunion commence et l’organisateur peut utiliser la commande pendant la réunion (appuyez sur *21) pour admettre tous les utilisateurs PSTN dans la salle d’attente.
+- Lorsqu’une réunion commence, l’organisateur doit admettre tous les utilisateurs PSTN dans la salle d’accueil pour rejoindre la réunion. Par exemple, si deux participants PSTN essaient de rejoindre une réunion avant qu’elle ait commencé, ils sont placés dans la salle d’attente et écoutent de la musique en attente, et lorsque l’organisateur de la réunion rejoint la réunion à l’aide de son code confidentiel par téléphone, la réunion commence et l’organisateur peut utiliser la commande pendant la réunion (appuyez sur *21) pour admettre tous les utilisateurs PSTN dans la salle d’attente.
     
 - Par défaut, les appelants anonymes ne peuvent pas commencer une réunion.
     

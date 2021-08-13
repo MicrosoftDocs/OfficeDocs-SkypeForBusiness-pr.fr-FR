@@ -1,5 +1,5 @@
 ---
-title: 'Skype Entreprise Server : configurer une trunk sans contournement de média'
+title: Configurer une trunk sans déviation du média dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Comment configurer une trunk avec la déviation du média activée. '
-ms.openlocfilehash: 9bffb1d5d737e36a67c2f24fb890f5eab56cdc2be89ed418c9b3d33dbf0e5524
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: 'Suivez ces étapes pour configurer une trunk avec la déviation du média activée. '
+ms.openlocfilehash: c96e540cbb390f61279979d6a01cc29c69ab9fa5d879468c2361e03da8f472ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333486"
 ---
-# <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>Skype Entreprise Server : configurer une trunk sans contournement de média
+# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer une trunk sans déviation du média dans Skype Entreprise Server
 
 Pour configurer une jonction sur laquelle le contournement de média est désactivé, procédez comme suit. Si vous souhaitez configurer une trunk avec la déviation du média activée, voir [Configure a trunk with media bypass in Skype Entreprise Server](configure-a-trunk-with-media-bypass.md).
 

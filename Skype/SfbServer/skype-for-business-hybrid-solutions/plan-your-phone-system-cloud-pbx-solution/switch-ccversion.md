@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: LSwitch-CcVersion cmdlet déconnecte l’appliance en cours d’exécution et bascule vers une appliance nouvellement déployée ou de sauvegarde.
-ms.openlocfilehash: 31dbb841caae51de0accedf081fa576ec378044b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1558f34d2388dc75bf4398ba15fc09cd36c439e2d70a39588ee697bc0ef04341
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824148"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320037"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 ### <a name="example-2"></a>Exemple 2
 
-L’exemple suivant draine les services de l’appliance en cours d’exécution et arrête les services de force en cas d’échec du drainage des services. La commande bascule ensuite vers une appliance nouvellement déployée ou de sauvegarde :
+L’exemple suivant draine les services de l’appliance en cours d’exécution et arrête les services de force en cas d’échec du drainage des services. La commande bascule ensuite vers une appliance de sauvegarde ou nouvellement déployée :
   
 ```powershell
 Switch-CcVersion -Force
@@ -62,16 +62,16 @@ La cmdlet Switch-CcVersion draine les services Cloud Connector sur le serveur de
 ## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 

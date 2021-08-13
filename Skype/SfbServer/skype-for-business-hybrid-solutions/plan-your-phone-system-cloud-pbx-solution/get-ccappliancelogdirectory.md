@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: LGet-CcApplianceLogDirectory cmdlet affiche l’annuaire actuel dans lequel sont stockés les journaux d’une appliance de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: 284846bbc305d76602ae1e2f065fcdd571c9deb2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Get-CcApplianceLogDirectory affiche le répertoire actuel dans lequel les journaux d’une Skype Entreprise Cloud Connector Edition’appareil sont stockés.
+ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318657"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-LGet-CcApplianceLogDirectory cmdlet affiche l’annuaire actuel dans lequel sont stockés les journaux d’une appliance de la version Cloud Connector de Skype Entreprise.
+La cmdlet Get-CcApplianceLogDirectory affiche le répertoire actuel dans lequel les journaux d’une Skype Entreprise Cloud Connector Edition’appareil sont stockés.
   
-Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -52,7 +52,7 @@ LGet-CcApplianceLogDirectory cmdlet affiche le répertoire actuel dans lequel le
   
 Vous pouvez modifier le répertoire à l’aide de Set-CcApplianceDirectory cmdlet. 
   
-Remarque : aucune cmdlet ne modifie uniquement l’emplacement du dossier journal sans modifier le répertoire de l’appliance.
+Remarque : il n’existe aucune cmdlet qui modifie uniquement l’emplacement du dossier journal sans modifier le répertoire de l’appliance.
   
 ## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>

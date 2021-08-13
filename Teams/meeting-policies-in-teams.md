@@ -1,5 +1,5 @@
 ---
-title: Gérer les stratégies de réunion dans Teams
+title: Gérer les stratégies de réunion
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams. Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 02dd4cdca98f021230aed937317070ba1202d2969b185e624b6910a9dc19e298
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 3af33814333f23438c8c645b0a22782f231d275ce446a3816752aef8301dfd66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850099"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319877"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans Teams
 

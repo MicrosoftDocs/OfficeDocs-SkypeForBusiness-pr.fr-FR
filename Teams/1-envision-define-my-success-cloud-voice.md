@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 94430052082d523861ed4a938e0e0b02b70049f9
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 04cd584be5b6333c579ab8b4685ad917236e660474d9e49150eb0f563670fa6c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320007"
 ---
 # <a name="define-my-success"></a>Définir ma réussite
 
@@ -36,7 +36,7 @@ Cet article donne une vue d’ensemble des conditions requises pour définir le 
 
 **Système téléphonique** des forfaits d’appels offre aux organisations un moyen de moderniser leur lieu de travail en permettant aux utilisateurs de passage d’appels téléphoniques professionnels à partir de leurs ordinateurs et appareils mobiles. La sécurité de l’espace de travail peut être dans le cadre de nombreux scénarios : implémentation professionnelle basée sur l’activité, déplacement de bureau majeur, actualisation complète du bureau, retrait d’une solution PBX héritée, conclusion d’un contrat de fournisseur de services PSTN, etc. Avec les forfaits d’appels, Microsoft facilite la connectivité au réseau PSTN.
 
-**Système téléphonique** routage direct (« Routage direct ») offre aux organisations les mêmes avantages répertoriés ci-dessus pour les plans d’appels, sauf que la connectivité RSTN est facilitée par un fournisseur tiers plutôt que Par Microsoft. Cela permet un déploiement dans les pays où les plans d’appel ne sont pas disponibles, ou dans les déploiements où un contrat de fournisseur de services PSTN existant doit être conservé, ou l’interopérabilité avec certains systèmes locaux est requise. Un autre scénario à envisager pour un routage direct est l’interopérabilité du système téléphonique. Pendant la transition des utilisateurs vers la fonction d’appel Teams, certains utilisateurs peuvent rester sur des systèmes PBX hérités. Le routage direct permet aux deux cas d’utilisation de coexister. Le trafic d’appels entre les utilisateurs sur les systèmes hérités Teams utilisateurs restent au sein de l’organisation.
+**Système téléphonique** Routage direct (« Routage direct ») offre aux organisations les mêmes avantages répertoriés ci-dessus pour les plans d’appels, sauf que la connectivité RSTN est facilitée par un fournisseur tiers plutôt que Par Microsoft. Cela permet un déploiement dans les pays où les plans d’appel ne sont pas disponibles, ou dans les déploiements où un contrat de fournisseur de services PSTN existant doit être conservé, ou l’interopérabilité avec certains systèmes locaux est requise. Un autre scénario à envisager pour un routage direct est l’interopérabilité du système téléphonique. Pendant la transition des utilisateurs vers la fonction d’appel Teams, certains utilisateurs peuvent rester sur des systèmes PBX hérités. Le routage direct permet aux deux cas d’utilisation de coexister. Le trafic d’appels entre les utilisateurs sur les systèmes hérités Teams utilisateurs restent au sein de l’organisation.
 
 <!--ENDOFSECTION-->
 
@@ -116,7 +116,7 @@ Les cas d’utilisation d’entreprise définis à l’étape précédente inclu
 > |Chef de projet|<ul><li>Gérez et dirigez l’équipe de projet.</li><li>Coordonnez les partenaires et les équipes de travail impliqués dans le projet.</li><li>Soyez responsable de la création et de la gestion de plans de projet afin d’atteindre des résultats clés trimestriels.</li><li>Résolvez les problèmes fonctionnels croisés.</li><li>Fournir des mises à jour régulières aux sponsors de projet.</li><li>Intégrez les aspects d’adoption au plan de projet général.</li><li>Conduire des révisions métiers et opérationnelles mensuelles (MoR), qui contribuent aux QBR.</li></ul>|TBA|
 > |Chef/architecte de la collaboration|<ul><li>Exécuter la stratégie de collaboration définie par les cadres de l’entreprise.</li><li>Analyser et choisir des produits de collaboration qui répondent aux objectifs professionnels de l’entreprise.</li><li>Opérations de conception pour les produits de collaboration.</li><li>Définir des modèles d’opération et de support.</li><li>Contribuez aux révisions mensuelles et trimestrielles de l’entreprise.</li></ul>|TBA|
 > |Consultant|<ul><li>Être responsable des services de configuration</li><li>Contribuez à l’architecture globale de la solution.</li></ul>|TBA|
-> |Gestionnaire de projets|<ul><li>Développez et maintenez le plan du projet.</li><li>Gérez les livrables du projet en ligne avec le plan et le budget du projet.</li><li>Enregistrez et gérez les problèmes du projet, notamment les escalades.</li><li>Effectuer des appels de support hebdomadaires.</li><li>projet, avec et apporter des mises à jour aux cadres délégués d’un projet.</li><li>Travaillez avec l’architecture pour définir l’approche de gestion des changements et les plans de communication.</li></ul>|TBA|
+> |Gestionnaire de projets|<ul><li>Développez et maintenez le plan du projet.</li><li>Gérez les livrables du projet en ligne avec le plan et le budget du projet.</li><li>Enregistrez et gérez les problèmes du projet, notamment les escalades.</li><li>Effectuer des appels de support hebdomadaires.</li><li>projet avec des cadres délégués de projet et fournir des mises à jour.</li><li>Travaillez avec l’architecture pour définir l’approche de gestion des changements et les plans de communication.</li></ul>|TBA|
 > |Spécialiste en gestion des changements/adoption|<ul><li>Fournir des informations pendant la phase de découverte dans les processus d’adoption et de formation.</li><li>Participez à l’atelier de stratégie d’adoption.</li><li>Développez et prenez les responsabilités de la stratégie d’adoption.</li><li>Développez et exécutez le plan de communication.</li><li>Fournir des formations aux utilisateurs.</li><li>Recueillez des commentaires et effectuez des enquêtes.</li></ul>|TBA|
 > |Directeur de réseau|<ul><li>Fournir des informations pendant la phase de découverte dans la conception du réseau.</li><li>Participez à la planification pendant l’atelier de phase de conception.</li><li>Coordonnez le travail de l’équipe en réseau pendant l’exécution du projet.</li></ul>|TBA|
 > |Directeur de la sécurité|<ul><li>Pendant la phase de découverte, fournissez des informations sur la conception et les processus de sécurité.</li><li>Participez à la planification pendant l’atelier de phase de conception.</li><li>Coordonnez le travail de l’équipe de sécurité pendant l’exécution du projet.</li></ul>|TBA|
@@ -235,7 +235,7 @@ Vous devez identifier les risques pour les entreprises dans le cadre de cet exer
 
 Un comité directeur est un groupe régissant les principales parties prenantes et les chefs de projet qui ont été rassemblés pour guider un projet ou un programme vers les résultats d’entreprise définis. Le comité directeur n’est  pas directement responsable de la  livraison du projet, mais plutôt de ses résultats.
 
-Chaque projet nécessite une vision et une charte d’accord. Pour offrir les résultats escomptés pour le projet, la vision doit être clairement définie, et elle doit être contrôlée et maintenue. Cela devient la responsabilité du comité directeur : conduire des décisions, conseiller, fournir une surveillance stratégique, servir d’intervenants pour l’organisation pour les initiatives du projet et, si nécessaire, supprimer des bloqueurs.
+Chaque projet nécessite une vision et une charte d’accord. Pour offrir les résultats escomptés pour le projet, la vision doit être clairement définie, et elle doit être contrôlée et maintenue. Cela devient la responsabilité du comité directeur : conduire des décisions, conseiller, fournir une surveillance stratégique, faire office d’intervenants pour l’organisation pour les initiatives du projet et, si nécessaire, supprimer des bloqueurs.
 
 Votre organisation doit réfléchir de façon significative à la formation du comité directeur. Le comité doit s’assurer que le projet atteint les objectifs d’entreprise que vous avez définis pour l’conduite des changements dans l’organisation, se réunir régulièrement pour discuter du pulse actuel du projet et aider à débloquer les obstacles rencontrés en cours de route.
 

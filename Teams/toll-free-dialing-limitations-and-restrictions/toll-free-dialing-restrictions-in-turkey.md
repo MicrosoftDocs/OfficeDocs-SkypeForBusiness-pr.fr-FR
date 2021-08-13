@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Turquie, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: 4e082cf2ea2ae069960136c9ab9c13d52e35f44d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e09cf25c070644b0b7dd86a1184faa25eaa6926549694eb78a7fb221f4763c22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318198"
 ---
 # <a name="toll-free-dialing-restrictions-in-turkey"></a>Restrictions de numérotation gratuit en Turquie
 
@@ -47,7 +47,7 @@ ms.locfileid: "51097620"
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

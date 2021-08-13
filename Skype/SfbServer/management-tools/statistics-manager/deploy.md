@@ -13,23 +13,23 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment déployer le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333256"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour découvrir comment déployer le Gestionnaire de statistiques pour Skype Entreprise Server.
   
- Le Gestionnaire de statistiques pour Skype Entreprise Server est un outil puissant qui vous permet d’afficher les données d’état et de performances de Skype Entreprise Server en temps réel. Vous pouvez sonder les données de performances sur des centaines de serveurs toutes les quelques secondes et afficher les résultats instantanément sur le site web du Gestionnaire de statistiques.
+ Le Gestionnaire de statistiques Skype Entreprise Server est un outil puissant qui vous permet d’afficher Skype Entreprise Server données d’état et de performances en temps réel. Vous pouvez sonder les données de performances sur des centaines de serveurs toutes les quelques secondes et afficher les résultats instantanément sur le site web du Gestionnaire de statistiques.
   
-Avant d’essayer d’installer le Gestionnaire de statistiques, assurez-vous que vous êtes familiarisé avec la configuration logicielle, réseau et matérielle requise. Pour plus d’informations, [voir Plan for Statistics Manager for Skype for Business Server](plan.md).
+Avant d’essayer d’installer le Gestionnaire de statistiques, assurez-vous que vous êtes familiarisé avec les logiciels, la mise en réseau et la configuration matérielle requise. Pour plus d’informations, [voir Plan for Statistics Manager for Skype Entreprise Server](plan.md).
   
 > [!NOTE]
-> Si vous êtes en cours de mise à niveau à partir d’une version précédente du Gestionnaire de statistiques, voir [Upgrade Statistics Manager for Skype for Business Server](upgrade.md). 
+> Si vous êtes en cours de mise à niveau à partir d’une version antérieure du Gestionnaire de statistiques, consultez [Upgrade Statistics Manager pour Skype Entreprise Server](upgrade.md). 
   
 > [!NOTE]
 > Le site web du Gestionnaire de statistiques a été testé et fonctionne correctement sur Internet Explorer 11+, Edge 20.10240+ et Chrome 46+ (version persistante actuelle). 
@@ -60,7 +60,7 @@ Pour déployer le Gestionnaire de statistiques, suivez les étapes suivantes :
 5. Importez la topologie pour les serveurs que vous surveillez.
     
 > [!NOTE]
-> Redis, le service d’écoute et le site web doivent tous être installés sur le même ordinateur hôte. Assurez-vous que Skype Entreprise Server n’est pas installé sur l’ordinateur hôte. 
+> Redis, le service d’écoute et le site web doivent tous être installés sur le même ordinateur hôte. Assurez-vous que l’ordinateur hôte n’a pas Skype Entreprise Server installé. 
   
 ### <a name="prepare-the-listener-host-machine"></a>Préparer l’ordinateur hôte d’écoute
 
@@ -78,7 +78,7 @@ Pour préparer l’ordinateur hôte, vous devez installer le système de mise en
     
 2. Le service d’écoute requiert un certificat. Microsoft recommande vivement la signature d’un certificat par une autorité de certification de confiance. 
     
-    Si vous souhaitez utiliser un certificat auto-signé (à des fins de test dans un atelier, par exemple), voir Créer un certificat [auto-signé.](deploy.md#BKMK_SelfCert)
+    Si vous souhaitez utiliser un certificat auto-signé à des fins de test dans un atelier, par exemple, voir Créer un certificat [auto-signé.](deploy.md#BKMK_SelfCert)
     
     Notez que l’agent utilise la vérification de l’empreinte numérique du certificat (au lieu de la vérification de chaîne). Il n’aura pas la validation complète du certificat, car il est possible d’utiliser des certificats auto-signés.
     
@@ -92,7 +92,7 @@ Installez le service d’écoute sur l’ordinateur hôte en exécutant le Stats
     
    - **Mot de passe du service :** Il s’agit du mot de passe que les agents distants utiliseront pour s’authentifier au service d’écoute.
     
-   - **Port de service :** Il s’agit du numéro de port HTTPS que l’port d’écoute utilisera pour communiquer avec les agents. Au cours de l’installation, ce port est autorisé par le pare-feu local, une liste decl d’URL est créée et un cert SSL est lié à ce port. La valeur par défaut est 8443.
+   - **Port de service :** Il s’agit du numéro de port HTTPS que l’port d’écoute utilisera pour communiquer avec les agents. Lors de l’installation, ce port est autorisé à passer par le pare-feu local, une liste decl d’URL est créée et un cert SSL est lié à ce port. La valeur par défaut est 8443.
     
    - **Empreinte numérique de certificat :** Il s’agit de l’empreinte numérique du certificat que l’écoute utilisera pour chiffrer le protocole HTTPS. Le service réseau doit avoir un accès en lecture à la clé privée.
     
@@ -126,7 +126,7 @@ Pour valider l’installation, effectuez les étapes suivantes :
     
 ### <a name="install-the-website"></a>Installer le site web
 
-Installez le site web sur l’ordinateur hôte en exécutant le StatsManWebSite.msi (inclus dans Skype Entreprise [Server, Real-Time Statistics Manager (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)et en spécifiant les informations suivantes :
+Installez le site web sur l’ordinateur hôte en exécutant le StatsManWebSite.msi (inclus dans [Skype Entreprise Server, Real-Time Statistics Manager (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)et en spécifiant les informations suivantes :
   
 1. Examinez le contrat de licence et, si vous acceptez, sélectionnez **J’accepte** les termes du contrat de licence, puis cliquez sur **Suivant**. 
     
@@ -150,7 +150,7 @@ Le programme d’installation web ajoute un groupe de sécurité local, appelé 
   
 ### <a name="install-the-agents"></a>Installer les agents
 
-Installez un agent sur chaque serveur Skype Entreprise que vous souhaitez surveiller en exécutant le StatsManPerfAgent.msi et en spécifiant les étapes suivantes :
+Installez un agent sur chaque Skype Entreprise Server que vous souhaitez surveiller en exécutant le StatsManPerfAgent.msi et en spécifiant les étapes suivantes :
   
 1. Examinez le contrat de licence et, si vous acceptez, sélectionnez **J’accepte** les termes du contrat de licence, puis cliquez sur **Suivant**. 
     
@@ -170,7 +170,7 @@ Installez un agent sur chaque serveur Skype Entreprise que vous souhaitez survei
     
 3. Cliquez sur **Installer**.
     
-Si vous installez un agent sur de nombreux ordinateurs, vous voudrez probablement le faire en mode sans surveillance. Par exemple : 
+Si vous installez un agent sur de nombreux ordinateurs, vous voudrez probablement le faire en mode sans surveillance. Par exemple : 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -183,9 +183,9 @@ Une fois le Gestionnaire de statistiques installé et en cours d’exécution, v
   
 Pour importer la topologie Skype Entreprise Server, suivez les étapes suivantes :
   
-1. Sur un hôte qui possède les cmdlets PowerShell de Skype Entreprise Server :
+1. Sur un hôte qui possède les Skype Entreprise Server cmdlets PowerShell :
     
-    a. Exécutez la commande suivante : 
+    a. Exécutez la commande suivante : 
     
    ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
@@ -214,7 +214,7 @@ La commande suivante vous permet d’afficher toutes les options :
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
-Pour consulter les informations de votre serveur actuellement importé, exécutez le script suivant : 
+Pour voir les informations de votre serveur actuellement importé, exécutez le script suivant : 
   
 ```powershell
 .\Get-StatsManServerInfo.ps1
@@ -228,7 +228,7 @@ Si vous souhaitez surveiller des serveurs qui ne sont pas dans votre topologie S
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
-2. Exécutez la commande suivante :
+2. Exécutez la commande suivante :
     
    ```powershell
     .\Update-StatsManServerInfo.ps1 -HostName <hostname> -SiteName <name of site> -PoolName <poolName> -Roles <role1>[,<role2>,<roleN>]
@@ -243,7 +243,7 @@ Si un agent ne parvient pas à démarrer, recherchez ce qui suit :
     
     1. Assurez-vous que vous avez suivi les instructions d’importation de la topologie. Voir [Importer la topologie.](deploy.md#BKMK_ImportTopology)
         
-    2. Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un [](deploy.md#BKMK_ImportTopology)cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’importation de la topologie.
+    2. Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’instruction [Import the topology](deploy.md#BKMK_ImportTopology).
     
 - L’agent peut-il contacter l’écoute ?
     
@@ -267,7 +267,7 @@ Si un agent ne parvient pas à démarrer, recherchez ce qui suit :
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Pour plus d’informations sur tous les événements que vous pouvez voir dans le journal des événements d’application, voir [Troubleshoot Statistics Manager for Skype for Business Server](troubleshoot.md).
+Pour plus d’informations sur tous les événements que vous pouvez voir dans le journal des événements de l’application, voir [Troubleshoot Statistics Manager for Skype Entreprise Server](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Créer un certificat auto-signé
 <a name="BKMK_SelfCert"> </a>
@@ -284,7 +284,7 @@ Microsoft recommande vivement d’utiliser un certificat signé par une autorit�
     
 3. Accédez **à Personnel,** puis ouvrez **Certificats.**
     
-4. Cliquez avec le bouton droit **sur StatsManListener - \> Toutes les tâches - Gérer les clés \> privées...**
+4. Cliquez avec le bouton **droit sur StatsManListener - \> Toutes les tâches - Gérer les clés \> privées...**
     
 5. Cliquez sur **Ajouter**.
     
