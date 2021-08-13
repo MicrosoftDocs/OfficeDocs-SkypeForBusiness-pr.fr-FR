@@ -1,5 +1,5 @@
 ---
-title: Exigences du client Windows et prise en charge des logiciels
+title: Windows client et prise en charge des logiciels
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -16,57 +16,57 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-description: 'Résumé : Examinez les exigences de prise en charge du client Windows lors de la planification de Skype Entreprise Server.'
-ms.openlocfilehash: 105c4ec8824b2b6f5f7a68349659ca10bb82c737
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Examinez les exigences Windows prise en charge du client lors de la planification Skype Entreprise Server.'
+ms.openlocfilehash: e26390920334db03fe1d9f9652759f2018d8306f2d57fce50a32165c4d20bb28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816064"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317469"
 ---
-# <a name="windows-client-requirements-and-software-support"></a>Exigences du client Windows et prise en charge des logiciels
+# <a name="windows-client-requirements-and-software-support"></a>Windows client et prise en charge des logiciels
  
-**Résumé :** Examinez les exigences de prise en charge du client Windows lors de la planification de Skype Entreprise Server.
+**Résumé :** Examinez les exigences Windows prise en charge du client lors de la planification Skype Entreprise Server.
   
-Cette section récapitule les logiciels requis pour prendre en charge les clients Windows Skype Entreprise. Ces clients sont installés lors de l’installation de Microsoft 365 ou Office 365, et sont également disponibles sur télécharger Skype Entreprise sur tous [vos appareils.](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
+Cette section récapitule les logiciels requis pour prendre en charge Skype Entreprise Windows clients. Ces clients sont installés lors Microsoft 365 ou Office 365' installation, et sont également disponibles à la Skype Entreprise sur tous [vos appareils.](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
 > [!NOTE]
-> Le module de réunion en ligne pour Skype Entreprise, qui prend en charge la gestion des réunions à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Skype Entreprise. 
+> Le add-in de réunion en ligne pour Skype Entreprise, qui prend en charge la gestion des réunions à partir du client de messagerie et de collaboration Outlook, s’installe automatiquement avec Skype Entreprise. 
   
-**Logiciel requis pour le client Skype Entreprise et le module de réunion en ligne**
+**Logiciel requis pour Skype Entreprise client et le module de réunion en ligne**
 
 |**Composant système**|**Versions prises en charge**|
 |:-----|:-----|
-|Système d’exploitation Windows  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 ou version ultérieure avec le Service Pack le plus récent  <br/> **Remarque :** Skype Entreprise et le module de réunion en ligne pour Skype Entreprise ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
+|Windows Système d'exploitation  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 ou version ultérieure avec le dernier Service Pack  <br/> **Remarque :** Skype Entreprise et le Skype Entreprise de réunion en ligne ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
 |Installation et mises à jour  <br/> |Droits et autorisations d’administrateur  <br/> |
-|Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet Explorer 11  <br/>  Navigateur Internet Explorer 10 <br/> Navigateur Internet Explorer 9  <br/> Navigateur Internet Explorer 8  <br/> Navigateur Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur web Google Chrome  <br/>**Remarque :** Si vous utilisez Skype Entreprise avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou une ultérieure est requis.           |
+|Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet Explorer 11  <br/>  Internet Explorer 10 navigateur Internet <br/> Navigateur Internet Explorer 9  <br/> Navigateur Internet Explorer 8  <br/> Navigateur Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur web Google Chrome  <br/>**Remarque :** Si vous utilisez Skype Entreprise avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou une ultérieure est requis.           |
 |Intégration à Microsoft Office  <br/> | Outlook 2010 ou version ultérieure |
 |Intégration à Microsoft Exchange  <br/> | Microsoft Exchange Server 2010 ou ultérieure  | 
    
 ## <a name="hardware"></a>Matériel
 
-Reportez-vous à la configuration requise pour Microsoft 365 et Office [System](https://products.office.com/office-system-requirements) pour le matériel requis pour exécuter le client Skype Entreprise.
+Reportez-vous aux Microsoft 365 et Office [système](https://products.office.com/office-system-requirements) requis pour le matériel requis pour exécuter le client Skype Entreprise client.
   
-## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Application Réunions Skype et Skype Entreprise Web App 
+## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype Application et Application Web Skype Entreprise meetings 
 
-L’application réunions Skype et Skype Entreprise Web App prise en charge des combinaisons spécifiques de systèmes d’exploitation et de navigateurs. Pour plus d’informations, voir [Plan for Meetings clients (Web App and Meetings App).](meetings-clients.md) 
+L’application Skype Meetings et Application Web Skype Entreprise des combinaisons spécifiques de systèmes d’exploitation et de navigateurs. Pour plus d’informations, voir [Plan for Meetings clients (Web App and Meetings App).](meetings-clients.md) 
   
 ## <a name="using-mandatory-profiles"></a>Utilisation de profils obligatoires
 
-Si vous envisagez d’utiliser les fonctionnalités de conférence Skype Entreprise, évitez d’utiliser les profils obligatoires des services de domaine Active Directory pour vous inscrire au client Skype Entreprise. Étant donné que les profils obligatoires sont des profils utilisateur en lecture seule, les clés d’infrastructure à clé publique (PKI) requises pour la conférence Skype Entreprise ne peuvent pas être enregistrées dans le profil. 
+Si vous prévoyez d’utiliser les fonctionnalités de conférence Skype Entreprise, évitez d’utiliser les profils obligatoires des services de domaine Active Directory pour vous Skype Entreprise client. Étant donné que les profils obligatoires sont des profils utilisateur en lecture seule, les clés d’infrastructure à clé publique (PKI) requises pour la conférence Skype Entreprise ne peuvent pas être enregistrées dans le profil. 
   
-## <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>System requirements for Skype for Business for Windows Phone
+## <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>System requirements for Skype Entreprise pour Windows Phone
  
  
-Microsoft Skype Entreprise pour Windows Phone fournit des fonctionnalités de messagerie instantanée, de présence améliorée et de téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un appareil mobile Windows Professionnel. Les appareils mobiles permettent aux utilisateurs d’étendre la portée de Skype Entreprise. Cette rubrique décrit les considérations relatives à la planification de Skype Entreprise pour Windows Phone, notamment l’identification des conditions préalables et des exigences techniques, les composants requis et les instructions de déploiement.
+Microsoft Skype Entreprise pour Windows Phone fournit des fonctionnalités de messagerie instantanée, de présence améliorée et de téléphonie pour les utilisateurs de votre organisation qui se connectent à partir d’un smartphone ou d’un Windows Professional mobile. Les appareils mobiles permettent aux utilisateurs d’étendre la portée Skype Entreprise. Cette rubrique décrit les considérations relatives à la planification des Skype Entreprise pour Windows Phone notamment l’identification des conditions préalables et techniques requises, les composants requis et les instructions de déploiement.
   
-### <a name="skype-for-business-for-windows-phone-prerequisites"></a>Conditions préalables pour Skype Entreprise pour Windows Phone
+### <a name="skype-for-business-for-windows-phone-prerequisites"></a>Skype Entreprise pour Windows Phone Conditions préalables
 
-Voici les conditions préalables de Skype Entreprise pour Windows Phone.
+Les conditions préalables Skype Entreprise pour Windows Phone suivantes sont les suivantes.
   
-- Windows Phone 8.1 ou ultérieur.
+- Windows Phone 8.1 ou ultérieure.
     
-- Les dernières mises à jour de Microsoft doivent être disponibles sur l’appareil Windows Phone. Pour plus d’informations, consultez la section Windows Phone 8.1 de l’historique des mises à jour [de Windows Phone 8.](https://go.microsoft.com/fwlink/p/?LinkID=281961)
+- Le Windows Phone doit avoir les dernières mises à jour disponibles auprès de Microsoft. Pour plus d’informations, voir la section Windows Phone 8.1 à [l’Windows Phone de mise](https://go.microsoft.com/fwlink/p/?LinkID=281961)à jour 8.
     
 - L’appareil doit avoir 22 Mo d’espace disque disponible.
     
@@ -77,8 +77,8 @@ Voici les conditions préalables de Skype Entreprise pour Windows Phone.
 
 [Planifier les clients Meetings (application Web et application réunions)](meetings-clients.md)
   
-[Skype Entreprise sur Mac : exigences en matière de client](mac-requirements.md)
+[Skype Entreprise client sur Mac](mac-requirements.md)
 
 [Télécharger Skype Entreprise sur tous vos appareils](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Microsoft 365 et office system requirements](https://products.office.com/office-system-requirements)
+[Microsoft 365 et Office système requis](https://products.office.com/office-system-requirements)

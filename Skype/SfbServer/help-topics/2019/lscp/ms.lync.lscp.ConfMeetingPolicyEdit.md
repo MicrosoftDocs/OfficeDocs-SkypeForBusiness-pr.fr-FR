@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
-ms.openlocfilehash: 0599411cd8e0832b1d5d09fc2f8ac6bc676d931d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: af3769f1a5dd7b1025ea7add7fc8b83ae956a56f7ebc490cc7370e24cf0707e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314870"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante
 
@@ -68,7 +68,7 @@ La liste suivante décrit les champs de la page.
 - **Autoriser plusieurs flux vidéo** Si vous avez activé la vidéo en **audio/vidéo,** activez cette case à cocher pour permettre aux utilisateurs d’organiser des conférences avec la vidéo de la vue Galerie. Lorsque cette case à cocher est sélectionnée, ce paramètre permet aux utilisateurs d’organiser des conférences qui envoient plusieurs flux vidéo. Lorsque cette case à cocher n’est pas sélectionnée, les utilisateurs peuvent uniquement organiser des conférences qui envoient un flux vidéo unique.
 
     > [!NOTE]
-    > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option Activer **la participation des participants à** plusieurs flux vidéo détermine si les participants peuvent recevoir plusieurs flux vidéo.
+    > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option Activer **la participation des participants à plusieurs** flux vidéo détermine si les participants peuvent recevoir plusieurs flux vidéo.
 
 - **Collaboration de données** Spécifiez si la conférence autorise ou non la collaboration de données. Les options sont **Aucune ou** Activer la collaboration **de données.**
 
@@ -76,11 +76,11 @@ La liste suivante décrit les champs de la page.
 
   - **Autoriser les participants fédérés et anonymes à télécharger du contenu** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les utilisateurs externes et non authentifiés à télécharger du contenu, tel que des diapositives ou des présentations, à partir d’une conférence.
 
-  - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les transferts de fichiers à tous les participants pendant une conférence.
+  - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les transferts de fichiers vers tous les participants pendant une conférence.
 
   - **Activer les annotations** Si vous autorisez la collaboration de données, cochez cette case pour permettre aux participants d’effectuer des annotations à l’écran sur le contenu partagé pendant la conférence.
 
-  - **Activer les annotations PowerPoint** Si vous autorisez les annotations, cochez cette case pour autoriser les participants à effectuer des annotations dans les diapositives PowerPoint partagées pendant la conférence.
+  - **Activer PowerPoint annotations** Si vous autorisez l’annotation, cochez cette case pour permettre aux participants d’effectuer des annotations dans PowerPoint diapositives partagées pendant la conférence.
 
   - **Activer les sondages** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les participants à organiser un sondage pendant une conférence.
 
@@ -90,13 +90,13 @@ La liste suivante décrit les champs de la page.
 
   - **Autoriser les participants à prendre le contrôle** Si vous autorisez le partage d’application, cochez cette case pour permettre aux participants de prendre le contrôle des applications ou des bureaux partagés pendant la conférence.
 
-  - **Autoriser les participants fédérés et anonymes à prendre le contrôle** Si vous autorisez le partage d’application, cochez cette case pour autoriser les participants externes et non authentifiés à prendre le contrôle des applications ou des bureaux partagés pendant la conférence.
+  - **Autoriser les participants fédérés et anonymes à prendre le contrôle** Si vous autorisez le partage d’application, cochez cette case pour permettre aux participants externes et non authentifiés de prendre le contrôle des applications ou des bureaux partagés pendant la conférence.
 
 - **Stratégie de participant** Les paramètres de cette section s’appliquent aux utilisateurs en tant que participants à une conférence ou à une session à deux participants. Étant donné que les paramètres suivants sont des paramètres par utilisateur, un utilisateur d’une conférence ou d’une session à deux personnes peut avoir des fonctionnalités différentes de celles d’un autre utilisateur de la même conférence ou d’une même session à deux personnes.
 
     Cliquez sur la flèche vers le haut ou vers le bas à côté de l’étiquette pour fermer ou ouvrir la section.
 
-- Sélectionnez **Activer le partage d’application** et de bureau pour permettre aux utilisateurs de partager des applications ou leur bureau tout en participant à une conférence ou à une session à deux participants. Sélectionnez **Désactiver le partage d’application** et de bureau pour empêcher les utilisateurs de partager des applications ou leur bureau lors d’une conférence ou d’une session à deux participants.
+- Sélectionnez **Activer le partage d’application** et de bureau pour permettre aux utilisateurs de partager des applications ou leur bureau tout en participant à une conférence ou à une session à deux participants. Sélectionnez **Désactiver le partage d’application** et de bureau pour empêcher les utilisateurs de partager des applications ou leur bureau lors de la participation à une conférence ou à une session à deux participants.
 
 - **Activer le transfert de fichiers d’égal à égal** Cochez cette case pour autoriser les transferts de fichiers de personne à personne (c’est-à-dire, les transferts de fichiers qui n’impliquent pas tous les participants) au cours d’une conférence ou d’une session à deux personnes.
 

@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 'Résumé : Découvrez comment modifier les stratégies d’archivage utilisateur pour Skype Entreprise Server.'
-ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment modifier les stratégies d’archivage des utilisateurs pour Skype Entreprise Server.'
+ms.openlocfilehash: 571f32a4cf5fb0bddd006719f3a9886c852df3f7196adf774f554cda216ea0a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817704"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315710"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Modifier une stratégie d’archivage existante dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment modifier les stratégies d’archivage des utilisateurs pour Skype Entreprise Server.
+**Résumé :** Découvrez comment modifier les stratégies d’archivage des utilisateurs Skype Entreprise Server.
   
-Lorsque vous déployez Skype Entreprise Server pour la première fois, vous définissez des stratégies d’archivage initiales qui déterminent la façon dont l’archivage est implémenté pour les utilisateurs de votre déploiement. Cette rubrique décrit comment gérer et modifier des stratégies. 
+Lorsque vous déployez Skype Entreprise Server, vous devez configurer des stratégies d’archivage initiales qui déterminent la façon dont l’archivage est implémenté pour les utilisateurs de votre déploiement. Cette rubrique décrit comment gérer et modifier des stratégies. 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>Modifier les stratégies d’archivage à l’aide du Panneau de contrôle
 
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**.
     
@@ -50,7 +50,7 @@ Lorsque vous déployez Skype Entreprise Server pour la première fois, vous déf
 6. Cliquez sur **Valider**.
     
     > [!IMPORTANT]
-    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [Appliquer une stratégie d’archivage](apply-a-policy-to-users.md)aux utilisateurs dans Skype Entreprise Server. 
+    > Les paramètres d’une stratégie utilisateur ne s’appliquent qu’aux utilisateurs et groupes d’utilisateurs spécifiques pour lesquels la stratégie a été définie. Pour plus d’informations, voir [Appliquer une stratégie d’archivage](apply-a-policy-to-users.md)aux utilisateurs dans Skype Entreprise Server . 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Modifier les stratégies d’archivage à l’aide Windows PowerShell
 

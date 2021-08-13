@@ -1,5 +1,5 @@
 ---
-title: Configurer votre déploiement local pour la diffusion de réunion Skype
+title: Configurer votre déploiement local pour la diffusion Réunion Skype local
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,23 +16,23 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: 'Résumé : Découvrez les étapes à suivre pour configurer la diffusion de réunion Skype pour votre déploiement hybride Skype Entreprise Server local.'
-ms.openlocfilehash: b70272ee90146bdac87264acf0c7673b8def05c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez les étapes à suivre pour configurer Réunion Skype diffusion pour votre déploiement hybride Skype Entreprise Server local.'
+ms.openlocfilehash: 6cab2ed4fbb5cb2992b970d5a960bbc0ad2e10af2184588aa6c938e9811d2a50
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103690"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304486"
 ---
-# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurer votre déploiement local pour la diffusion de réunion Skype
+# <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurer votre déploiement local pour la diffusion Réunion Skype local
  
-**Résumé :** Découvrez les étapes à suivre pour configurer la diffusion de réunion Skype pour votre déploiement hybride Skype Entreprise Server local.
+**Résumé :** Découvrez les étapes à suivre pour configurer Réunion Skype diffusion pour votre déploiement local Skype Entreprise Server hybride.
   
-Diffusion de réunion Skype est un service en ligne qui fait partie d’Office 365. Si vous exécutez Skype Entreprise Server en local et que vous souhaitez utiliser diffusion de réunion Skype dans votre environnement, vous devez suivre les étapes de configuration de cette rubrique. Avant de commencer, votre environnement doit être configuré pour un environnement hybride avec Skype Entreprise Online. Pour plus d’informations, voir [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) and Deploy hybrid [connectivity between Skype for Business Server and Skype for Business Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
+Réunion Skype La diffusion est un service en ligne qui fait partie de Office 365. Si vous exécutez Skype Entreprise Server sur site et que vous souhaitez utiliser Réunion Skype Broadcast dans votre environnement, vous devez suivre les étapes de configuration de cette rubrique. Avant de commencer, votre environnement doit être configuré pour un environnement hybride avec Skype Entreprise Online. Pour plus d’informations, voir Planifier la connectivité hybride entre Skype Entreprise Server et [Skype Entreprise Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) et déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise [Online.](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurer votre environnement hybride pour diffusion de réunion Skype
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurer votre environnement hybride pour la diffusion Réunion Skype hybride
 
-Pour préparer votre environnement pour la diffusion de réunion Skype, vous devez :
+Pour préparer votre environnement à la diffusion Réunion Skype, vous devez :
   
 - Configurer la fédération avec les ressources Skype Entreprise Online
     
@@ -40,9 +40,9 @@ Pour préparer votre environnement pour la diffusion de réunion Skype, vous dev
     
 ### <a name="configure-federation-with-skype-for-business-online-resources"></a>Configurer la fédération avec les ressources Skype Entreprise Online
 
-Pour activer la fédération avec les ressources Skype Entreprise Online, vous devez configurer l’accès externe pour un fournisseur fédéré SIP. Pour ce faire, à l’aide du Panneau de contrôle Skype Entreprise Server, suivez les étapes suivantes :
+Pour activer la fédération avec Skype Entreprise Online, vous devez configurer l’accès externe pour un fournisseur fédéré SIP. Pour ce faire, utilisez Skype Entreprise Server panneau de Skype Entreprise Server les étapes suivantes :
   
-1. Démarrez le Panneau de contrôle Skype Entreprise Server et sélectionnez **Accès** externe sur la gauche.
+1. Démarrez le panneau Skype Entreprise Server de contrôle d’accès externe et sélectionnez **Accès** externe sur la gauche.
     
 2. Sélectionnez **Fournisseurs fédérés SIP,** puis cliquez sur **Nouveau.**
     
@@ -55,7 +55,7 @@ Pour activer la fédération avec les ressources Skype Entreprise Online, vous d
 |**Service Edge d’accès (FQDN) :** propriété requise. <br/> |sipfed.resources.lync.com  <br/> |
 |**Niveau de vérification par défaut :** <br/> |Autoriser les utilisateurs à communiquer avec tout le monde à l’aide de ce fournisseur.  <br/> |
    
-Vous pouvez également activer la fédération avec les ressources Skype Entreprise Online en exécutant l’cmdlet suivante dans Skype Entreprise Server Management Shell :
+Vous pouvez également activer la fédération avec Skype Entreprise Online en exécutant l’cmdlet suivante dans Skype Entreprise Server Management Shell :
   
 ```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
@@ -65,11 +65,11 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 Ensuite, vous devez ajouter des domaines fédérés SIP à la liste des domaines autorisés. Répétez ces étapes pour chacun des domaines répertoriés, en créant 4 domaines fédérés SIP. Ces domaines sont inclus pour les centres de données régionaux utilisés dans Skype Entreprise Online.
   
-1. Démarrez le Panneau de contrôle Skype Entreprise Server et sélectionnez **Accès** externe sur la gauche.
+1. Démarrez le panneau Skype Entreprise Server de contrôle d’accès externe et sélectionnez **Accès** externe sur la gauche.
     
 2. Sélectionnez **Domaines fédérés SIP** et cliquez sur **Nouveau.**
     
-3. Pour le **nom de domaine (ou nom** de domaine complet) : entrez le domaine en répétant cette procédure pour chacun des domaines suivants :
+3. Pour le **nom de domaine (ou nom de** domaine complet) : entrez le domaine, en répétant cette procédure pour chacun des domaines suivants :
     
    - noammeetings.lync.com
     
@@ -88,4 +88,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Une fois ces étapes de configuration terminées, vous pouvez commencer à utiliser diffusion de réunion Skype dans votre déploiement. Pour plus d’informations sur diffusion de réunion Skype, voir [Qu’est-ce](https://go.microsoft.com/fwlink/?LinkId=617071) qu’une diffusion de réunion Skype ? et le Guide d’administration de diffusion de réunion [Skype.](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)
+Une fois ces étapes de configuration terminées, vous pouvez commencer à utiliser Réunion Skype diffusion dans votre déploiement. Pour plus d’informations sur Réunion Skype [](https://go.microsoft.com/fwlink/?LinkId=617071) diffusion, voir Qu’est-ce qu’une diffusion Réunion Skype diffusion ? et Réunion Skype [guide d’administration de la diffusion.](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)

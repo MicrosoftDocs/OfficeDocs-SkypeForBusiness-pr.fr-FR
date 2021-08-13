@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
-description: 'Résumé : Découvrez comment configurer cdr et QoE dans Skype Entreprise Server.'
-ms.openlocfilehash: dd8611723e3d83f8a4553ba2148ee5ae29791e88
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment configurer l’cdr et la qualité de l’Skype Entreprise Server.'
+ms.openlocfilehash: 7c7cd1efefb2cfc52e6cf40d3b78cbc87774b40db4e4d2b012e79d1f657994cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304366"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurer les paramètres d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment configurer l’cdr et la qualité de l’expérience dans Skype Entreprise Server.
+**Résumé :** Découvrez comment configurer l’cdr et la qualité de l’Skype Entreprise Server.
   
-Configurez la surveillance cdr et QoE à l’SQL Server rapports Reporting Services pour Skype Entreprise Server.
+Configurez la surveillance CDR et QoE à l’aide SQL Server Reporting Services rapports pour Skype Entreprise Server.
   
 ## <a name="configure-cdr-and-qoe"></a>Configurer l’cdr et QoE
 
-Après avoir associé un magasin d’analyse à un pool frontal, configurez le magasin d’analyse, puis installez et configurez SQL Server Reporting Services et les rapports de surveillance, vous pouvez gérer la surveillance de l’enregistrement des détails des appels (CDR) et de la qualité de l’expérience (QoE) à l’aide de Skype Entreprise Server Management Shell. Les cmdlets Skype Entreprise Server Management Shell vous permettent d’activer et de désactiver la surveillance CDR et/ou QoE pour un site particulier ou pour l’intégralité de votre déploiement Skype Entreprise Server. vous pouvez le faire avec une commande aussi simple que celle-ci :
+Après avoir associé un magasin d’analyse à un pool frontal, configurez le magasin d’analyse, puis installez et configurez SQL Server Reporting Services et rapports de surveillance, vous pouvez gérer la surveillance de l’enregistrement des détails des appels et de la qualité de l’expérience (QoE) à l’aide de Skype Entreprise Server Management Shell. Skype Entreprise Server Les cmdlets Management Shell vous permettent d’activer et de désactiver la surveillance CDR et/ou QoE pour un site particulier ou pour l’ensemble de Skype Entreprise Server déploiement ; vous pouvez le faire avec une commande aussi simple que celle-ci :
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
@@ -40,7 +40,7 @@ Lorsque vous installez Skype Entreprise Server, vous installez également une co
 |EnableCDR  <br/> |Indique si l’enregistrement des détails des appels est activé ou non. Si la valeur est True, tous les enregistrements CDR sont collectés et enregistrés dans la base de données de surveillance.  <br/> |Vrai  <br/> |
 |EnablePurging  <br/> |Indique si les enregistrements des détails des appels doivent être périodiquement supprimés de la base de données. Si la valeur est définie sur True, les enregistrements sont supprimés après la période spécifiée par les propriétés KeepCallDetailForDays (pour les enregistrements CDR) et KeepErrorReportForDays (pour les erreurs CDR). Si la valeur est définie sur False, les enregistrements CDR sont conservés indéfiniment.  <br/> |Vrai  <br/> |
 |KeepCallDetailForDays  <br/> |Indique le nombre de jours durant lesquels les enregistrements CDR sont conservés dans la base de données. Tout enregistrement plus ancien que le nombre de jours spécifié est automatiquement supprimé. Mais pour cela, la purge doit être activée.  <br/> Vous pouvez définir la propriété KeepCallDetailForDays sur n’importe quelle valeur entière comprise entre 1 et 2562 jours (environ 7 ans).  <br/> |60 jours  <br/> |
-|KeepErrorReportForDays  <br/> |Indique le nombre de jours de la tenue des rapports d’erreurs des détails des erreurs ; tous les rapports plus anciens que le nombre de jours spécifié sont automatiquement supprimés. Les rapports d’erreur cdr sont des rapports de diagnostic téléchargés par des applications clientes telles que Skype Entreprise Server.  <br/> Vous pouvez définir cette propriété sur n’importe quelle valeur entière comprise entre 1 et 2562.  <br/> |60 jours  <br/> |
+|KeepErrorReportForDays  <br/> |Indique le nombre de jours de la tenue des rapports d’erreurs des détails des erreurs ; tous les rapports plus anciens que le nombre de jours spécifié sont automatiquement supprimés. Les rapports d’erreur d’cdr sont des rapports de diagnostic téléchargés par des applications clientes telles que Skype Entreprise Server.  <br/> Vous pouvez définir cette propriété sur n’importe quelle valeur entière comprise entre 1 et 2562.  <br/> |60 jours  <br/> |
    
 De même, les valeurs par défaut pour les paramètres de la qualité de l’expérience (QoE) sélectionnés sont indiquées dans ce tableau :
   
@@ -50,13 +50,13 @@ De même, les valeurs par défaut pour les paramètres de la qualité de l’exp
 |EnablePurging  <br/> |Indique si les enregistrements QoE doivent être périodiquement supprimés de la base de données. Si la valeur est True, les enregistrements sont supprimés après la période spécifiée par la propriété KeepQoEDataForDays. Si la valeur est False, les enregistrements QoE sont conservés indéfiniment.  <br/> |Vrai  <br/> |
 |KeepQoEDataForDays  <br/> |Indique le nombre de jours durant lesquels les enregistrements QoE sont conservés dans la base de données. Tout enregistrement plus ancien que le nombre de jours spécifié est automatiquement supprimé. Mais pour cela, la purge doit être activée.  <br/> KeepCallDetailForDays peut être défini sur n’importe quelle valeur entière comprise entre 1 et 2562 jours.  <br/> |60 jours  <br/> |
    
-Si vous devez modifier ces paramètres globaux, vous pouvez pour cela utiliser les applets de commande Set-CsCdrConfiguration et Set-CsQoEConfiguration. Par exemple, cette commande (exécuté à partir de Skype Entreprise Server Management Shell) désactive la surveillance cdR au niveau de l’étendue globale . Pour ce faire, la propriété EnableCDR a la valeur False ($False) :
+Si vous devez modifier ces paramètres globaux, vous pouvez pour cela utiliser les applets de commande Set-CsCdrConfiguration et Set-CsQoEConfiguration. Par exemple, cette commande (exécuté à partir de l’environnement de Skype Entreprise Server Management Shell) désactive la surveillance cdR au niveau de l’étendue globale . Pour ce faire, la propriété EnableCDR a la valeur False ($False) :
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False
 ```
 
-Notez que le fait de désactiver la surveillance ne dissocie pas le magasin d’analyse du pool frontal, ni ne désinstalle et n’a un impact sur la base de données de surveillance principale. Lorsque vous utilisez Skype Entreprise Server Management Shell pour désactiver la surveillance CDR ou QoE, il vous s agit d’empêcher temporairement Skype Entreprise Server de collecter et d’archiver les données de surveillance. Pour reprendre la collecte et l’archivage des données de l’enregistrement CDR, il vous suffit de redéfinir la propriété EnableCDR sur True ($True):
+Notez que le fait de désactiver la surveillance ne dissocie pas le magasin d’analyse du pool frontal, ni ne désinstalle et n’a un impact sur la base de données de surveillance principale. Lorsque vous utilisez Skype Entreprise Server Management Shell pour désactiver la surveillance cdr ou QoE, il vous s agit d’arrêter temporairement la collecte et l’archivage des données de surveillance par Skype Entreprise Server. Pour reprendre la collecte et l’archivage des données de l’enregistrement CDR, il vous suffit de redéfinir la propriété EnableCDR sur True ($True):
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True

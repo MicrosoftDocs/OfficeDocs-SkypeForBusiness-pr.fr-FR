@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et du support auprès de l’assistance RTC.
-ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: MT
+ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310672"
 ---
 # <a name="pstn-service-desk"></a>Assistance RTC 
 
@@ -48,7 +48,7 @@ Pour contacter l’assistance :
 > [!NOTE]
 > Seule une personne du même client sera autorisée à créer un cas. Autrement dit, une personne de @fabrikam.com ne peut pas créer de cas pour le compte de @contoso.com. 
 
-À partir du Centre de services de numéro de téléphone, vous pouvez créer de nouveaux cas, afficher les cas existants, communiquer avec l’assistance et gérer votre profil utilisateur. Ces tâches sont décrites plus en détail dans les sections suivantes.
+À partir du Centre de services de numéro de téléphone, vous pouvez créer de nouveaux cas, afficher les cas existants, communiquer avec le service et gérer votre profil utilisateur. Ces tâches sont décrites plus en détail dans les sections suivantes.
 
 - **Centre de services de numéro de téléphone** – accédez à la page d’accueil du portail. 
 

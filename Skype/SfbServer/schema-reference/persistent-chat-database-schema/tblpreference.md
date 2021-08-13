@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 description: tblPreference contient les préférences client des utilisateurs. Il est généralement utilisé par les clients antérieurs à Lync 2013.
-ms.openlocfilehash: 96cd017dd67a05f3240269f5bdcbd23f30fffd28
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 698976f3f98b939578787a0f8a2c0aeb8167888ad09ea20a09d0d7e4d83e900c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315430"
 ---
 # <a name="tblpreference"></a>tblPreference
 
@@ -27,7 +27,7 @@ tblPreference contient les préférences client des utilisateurs. Il est génér
 **Columns**
 
 
-| **Colonne**            | **Type (Type)**                        | **Description**                                                 |
+| **Colonne**            | **Type**                        | **Description**                                                 |
 |:----------------------|:--------------------------------|:----------------------------------------------------------------|
 | prefLabel  <br/>      | nvarchar (255), non null  <br/> | Étiquette avec un format tel que : \<user sip uri\>                   |
 | prefSeqID  <br/>      | entier, non null  <br/>            | Numéro séquentiel (par étiquette) à des fins de contrôle de version.  <br/> |

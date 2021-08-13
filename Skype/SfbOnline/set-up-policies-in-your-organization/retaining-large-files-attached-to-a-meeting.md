@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Vous pouvez joindre des fichiers à Skype Entreprise réunion, que les participants peuvent ensuite ouvrir et télécharger. Les fichiers joints aux réunions Skype Entreprise sont conservés dans les boîtes aux lettres des participants dont la boîte aux lettres est placée en conservation pour litige, à laquelle une stratégie de rétention Microsoft 365 ou Office 365 est appliquée ou qui est placée sur une conservation associée à un cas de découverte électronique dans le Centre de conformité Microsoft 365. Ce contenu est enregistré dans les dossiers Éléments récupérables des participants dans leur boîte aux lettres.
-ms.openlocfilehash: 74605b9aebf6d83619282d9cfc9094216d2fe6f1
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 10d793afce0485de749a5609b77f2c769c55fa9d5305a4a815351ef62ff9a8b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316490"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Conserver les fichiers de grande taille joints à Skype Entreprise réunion
 
@@ -39,7 +39,7 @@ Les fichiers conservés dans des boîtes aux lettres en attente sont indexés et
   
 Les boîtes aux lettres qui ne sont pas en attente ne seront pas enregistrées. Par exemple, dans une réunion à trois personnes dans laquelle les boîtes aux lettres de deux participants sont marquées pour rétention, les données de réunion sont enregistrées dans les boîtes aux lettres de ces deux participants, mais pas dans la boîte aux lettres du troisième participant, dont la boîte aux lettres n’est pas en attente.
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

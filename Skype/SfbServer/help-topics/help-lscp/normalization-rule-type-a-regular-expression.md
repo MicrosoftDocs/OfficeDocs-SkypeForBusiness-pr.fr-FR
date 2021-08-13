@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 description: Tapez une expression régulière .NET Framework pour spécifier le modèle correspondant pour les numéros de téléphone de destination auxquels l’itinéraire s’applique.
-ms.openlocfilehash: 4cfee85b29f2cc9fe9f899aaed2e9f6ce40f0921
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e304f113a0503262e9ca7b511be7c5e0d8e66114268ac3ff3c89cc670c7fa55d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303936"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>Règle de normalisation : taper une expression régulière
  
 Tapez une expression régulière .NET Framework pour spécifier le modèle correspondant pour les numéros de téléphone de destination auxquels l’itinéraire s’applique. 
   
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
   
 

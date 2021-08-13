@@ -13,13 +13,13 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Résumé : Découvrez comment utiliser l’enregistreur CLS (Centralized Logging Service) dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: a24cdbffc4b7601d325cd132afb5a7cf137b54f4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment utiliser l’enregistreur clS (Centralized Logging Service) dans Skype Entreprise Server 2015.'
+ms.openlocfilehash: 38cc7007476fbdfa6a02cf4d244fa0173e958d6bfe055d042be8ba4cf2d049e4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317489"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
  
@@ -39,7 +39,7 @@ Pour utiliser correctement CLS Logger, vous devez vous assurer que les valeurs s
 
 Utilisez les commandes suivantes pour vérifier l’état de la journalisation :
   
-1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence de la topologie.
+1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence topologie.
     
 2. Cliquez sur le bouton État de la journalisation.
     
@@ -99,7 +99,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
 > 
 > **ID de corrélation** Instructions de suivi liées logiquement par cet ID. (Facultatif)
 > 
-> **Numéro de téléphone** Filtrer par numéro de téléphone. (Facultatif)
+> **Téléphone number** Filtrer par numéro de téléphone. (Facultatif)
 > 
 > **URI SIP** Filtrez par URI SIP. (Facultatif)
 > 
@@ -113,10 +113,10 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
   
 ## <a name="create-a-scenario"></a>Créer un scénario
 
-1. Dans **l’onglet Modifier les scénarios,** cliquez sur **le bouton Créer un** scénario.
+1. Dans **l’onglet Modifier les scénarios,** cliquez sur le **bouton Créer un** scénario.
     
     > [!NOTE]
-    > La création d’un scénario clonera la configuration du scénario actuellement sélectionné. Si vous cliquez **sur Effacer les paramètres** avant de créer un nouveau scénario, aucun composant et aucun indicateur n’est sélectionné.
+    > La création d’un nouveau scénario clonera la configuration du scénario actuellement sélectionné. Si vous cliquez **sur Effacer Paramètres** avant de créer un nouveau scénario, aucun composant et aucun indicateur n’est sélectionné.
   
 2. Entrez le nom du scénario que vous créez et appuyez sur Entrée ou cliquez sur le bouton Ok.
     

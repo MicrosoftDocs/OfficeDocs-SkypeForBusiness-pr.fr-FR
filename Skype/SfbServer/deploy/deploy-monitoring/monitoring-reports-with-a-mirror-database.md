@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Résumé : Découvrez comment associer des rapports de surveillance à une base de données miroir utilisée par Skype Entreprise Server.'
-ms.openlocfilehash: 4ce6d420f6b29a5c6160b9b220e5fd190a977f9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 99b30eaf7388bfec71f55e2e3f1f784271a3258d1280953426291b1dbfe14750
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304356"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associer des rapports de surveillance à une base de données miroir dans Skype Entreprise Server 
  
@@ -25,11 +25,11 @@ ms.locfileid: "49802164"
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Surveiller les rapports avec une base de données miroir
 
-Si vous configurez un miroir pour votre base de données de surveillance, cette base de données miroir prendra le relais en tant que base de données primaire en cas de failover. Toutefois, si vous utilisez les rapports de surveillance de Skype Entreprise Server et qu’un échec se produit, il se peut que vous trouviez que vos rapports de surveillance ne se connectent pas à la base de données miroir. En effet, lorsque vous installez les rapports de surveillance, vous spécifiez uniquement l’emplacement de la base de données principale . vous ne spécifiez pas l’emplacement de la base de données miroir.
+Si vous configurez un miroir pour votre base de données de surveillance, cette base de données miroir prendra le relais en tant que base de données primaire en cas de failover. Toutefois, si vous utilisez Skype Entreprise Server de surveillance et qu’un échec se produit, il se peut que vous trouviez que vos rapports de surveillance ne se connectent pas à la base de données miroir. En effet, lorsque vous installez les rapports de surveillance, vous spécifiez uniquement l’emplacement de la base de données principale . vous ne spécifiez pas l’emplacement de la base de données miroir.
   
 Pour que les rapports de surveillance soient automatiquement mis à jour vers la base de données miroir, vous devez ajouter la base de données miroir en tant que « partenaire deover » aux deux bases de données utilisées par les rapports de surveillance (une base de données pour les données d’enregistrement des détails des appels et l’autre pour les données de qualité de l’expérience (QoE). (Notez que cette étape doit être effectuée après l’installation des rapports de surveillance.) Vous pouvez ajouter les informations du partenaire deover en éditant manuellement les valeurs de chaîne de connexion utilisées par ces deux bases de données. Pour ce faire, procédez de la manière suivante :
   
-1. Utilisez Internet Explorer pour ouvrir la page **d’SQL Server Reporting Services.** L’URL de la page d’accueil reporting Services inclut :
+1. Utilisez Internet Explorer pour ouvrir la **page d SQL Server Reporting Services** d’accueil. L’URL de la page d’accueil reporting Services inclut :
     
    - **Préfixe http:**
     
@@ -43,7 +43,7 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. Une fois que vous avez accédé à la page d’accueil de Reporting Services, cliquez sur **ServerReports,** puis cliquez **sur Reports_Content**. Cela vous permettra **d’Reports_Content** la page des rapports de surveillance de Skype Entreprise Server.
+2. Une fois que vous avez accédé à la page d’accueil de Reporting Services, cliquez sur **ServerReports,** puis cliquez sur **Reports_Content**. Cela vous permettra d’Reports_Content **page** de la Skype Entreprise Server de surveillance.
     
 3. Dans la page **Reports_Content,** cliquez sur la source de données **CDRDB.**
     
@@ -61,7 +61,7 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
 6. Après avoir mis à jour la chaîne de connexion, cliquez sur **Appliquer.**
     
-7. Dans la page **CDRDB,** cliquez sur **Reports_Content** lien. Cliquez sur la source de **données QMSDB,** puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
+7. Dans la page **CDRDB,** cliquez sur **Reports_Content** lien. Cliquez sur la source de **données QMSDB,** puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
     
     Data source=(local)\archinst; Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics
     

@@ -1,5 +1,5 @@
 ---
-title: Utiliser le tableau de bord de qualité des appels pour Skype Entreprise Server
+title: Utiliser le Tableau de bord de qualité des appels pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,28 +13,28 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Résumé : Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: d4787671955159d2bef0144872c50caccbbbb8eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317579"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le tableau de bord de qualité des appels pour Skype Entreprise Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le Tableau de bord de qualité des appels pour Skype Entreprise Server
 
-**Résumé :** Découvrez comment utiliser le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
 
 Le Tableau de bord de qualité des appels (CQD) permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier les problèmes de création de problèmes de qualité des médias en comparant des statistiques pour les groupes d’utilisateurs afin d’identifier les tendances et les modèles. Le CQD ne se concentre pas sur la résolution des problèmes d’appels individuels, mais sur l’identification des problèmes et des solutions qui s’appliquent à de nombreux utilisateurs.
 
 ## <a name="call-quality-dashboard-user-guide"></a>Guide de l’utilisateur du tableau de bord de qualité des appels
 
-Le CQD est un portail web qui permet de créer et d’organiser rapidement des rapports basés sur des données de qualité de l’expérience (QoE). Le CQD déploie un cube SSAS pour agréger les données dans la base de données de mesures QoE et permet aux administrateurs de créer et de modifier des rapports ou d’enquêter en temps réel. Bien qu’il soit possible d’utiliser Excel pour se connecter directement au cube, le portail est optimisé pour plusieurs flux de travail impliquant des données QoE. Les données incluent :
+Le CQD est un portail web qui permet de créer et d’organiser rapidement des rapports basés sur des données de qualité de l’expérience (QoE). Le CQD déploie un cube SSAS pour agréger les données dans la base de données de mesures QoE et permet aux administrateurs de créer et de modifier des rapports ou d’enquêter en temps réel. Bien qu’il soit possible d Excel pour se connecter directement au cube, le portail est optimisé pour plusieurs flux de travail impliquant des données QoE. Les données incluent :
 
 - Données de rapport mises en cache pour un accès rapide
 - Liens profonds vers des pages de rapport pour le partage et la publication d’informations
 - Modification et création simplifiées des rapports et métadonnées modifiables pour les descriptions des rapports.
 
-En outre, le tableau de bord de qualité des applications expose des API web qui donnent aux utilisateurs un accès par programmation aux données de cube à utiliser dans des tableaux de bord personnalisés.
+En outre, le tableau de bord de qualité des commandes expose des API web qui donnent aux utilisateurs un accès par programmation aux données de cube à utiliser dans des tableaux de bord personnalisés.
 
 ### <a name="feature-overview"></a>Vue d’ensemble des fonctionnalités
 
@@ -53,9 +53,9 @@ Déplacez la souris sur les graphiques à barres et les lignes de tendance pour 
 
 Lorsque vous accédez pour la première fois au portail Tableau de bord de qualité des appels, un ensemble de rapports par défaut est créé automatiquement. Ces rapports sont parfois appelés rapports système. Vous pouvez librement modifier ou supprimer ces rapports ou les étendre en créant de nouveaux rapports frères et enfants.
 
-Au niveau supérieur, le rapport « Tendance mensuelle des flux audio » affiche la tendance mensuelle de tous les flux audio. Déplacez la souris sur les barres d’un graphique à barres pour afficher une vue plus détaillée des données représentées par le graphique à barres. Cliquez sur le titre du rapport de tendance mensuelle des flux audio pour accéder au rapport « Flux audio gérés ou non gérés », où les rapports sont répartis entre les appels gérés et non gérés. Les appels gérés sont des appels effectués à l’intérieur du pare-feu d’entreprise sur des connexions câblés. Les appels non pris en compte incluent les appels effectués depuis l’extérieur du pare-feu d’entreprise et tous les appels effectués via le Wi-Fi.
+Au niveau supérieur, le rapport « Audio Flux Monthly Trend » affiche la tendance mensuelle de tous les flux audio. Déplacez la souris sur les barres d’un graphique à barres pour afficher une vue plus détaillée des données représentées par le graphique à barres. Cliquez sur le titre du rapport de tendance mensuelle de l’audio Flux pour accéder au rapport « Managed vs Unmanaged Audio Flux », où les rapports sont répartis entre les appels gérés et non gérés. Les appels gérés sont des appels effectués à l’intérieur du pare-feu d’entreprise sur des connexions câblés. Les appels non pris en compte incluent les appels effectués depuis l’extérieur du pare-feu d’entreprise et tous les appels effectués via le Wi-Fi.
 
-L’autre rapport de niveau supérieur est appelé « Histogramme d’évaluation de la qualité des appels signalé par l’utilisateur ». Les évaluations de la qualité des appels sont les numéros attribués par les utilisateurs de Skype Entreprise à la fin d’un appel pour indiquer la qualité de l’appel. Les numéros d’évaluation vont de 1 à 5, 1 est le pire et 5 est le meilleur. L’histogramme indique le nombre d’appels audio dont l’évaluation a été indiquée dans un mois.
+L’autre rapport de niveau supérieur est appelé « Histogramme d’évaluation de la qualité des appels signalé par l’utilisateur ». Les évaluations de la qualité des appels sont les numéros Skype Entreprise utilisateurs à la fin d’un appel pour indiquer la qualité de l’appel. Les numéros d’évaluation vont de 1 à 5, 1 est le pire et 5 est le meilleur. L’histogramme indique le nombre d’appels audio dont l’évaluation a été indiquée dans un mois.
 
 Cliquez sur le titre de l’un des rapports pour accéder aux rapports avec d’autres filtres sur les données. Dans les rapports système, chaque rapport enfant affiche un sous-ensemble des données disponibles dans son rapport parent. Le modèle de résolution des problèmes est simple : examinez la sous-information des données ou de la tendance suggèrent qu’un problème est limité et réduisez progressivement l’espace du problème. La possibilité de créer des sous-états vous permet d’examiner vos propres estimations sur la cause de tendances de données spécifiques.
 
@@ -86,7 +86,7 @@ Le menu Paramètres contient des liens vers des pages utiles telles que les page
 
 L’affichage des descriptions et des horodaodatés doit être pris en compte par les utilisateurs individuels, et ces paramètres affectent uniquement la version individuelle du tableau de bord et ne modifient pas l’ensemble de rapports ou ce que voient les autres utilisateurs. L’effacement du cache entraîne le rechargement des données de toutes les requêtes à partir du cube, tandis que la restauration par défaut supprime tous les rapports créés ou modifiés par l’utilisateur et recrée l’ensemble de rapports système , ce qu’un utilisateur voit lorsqu’il se connecte pour la première fois.
 
-Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
+Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien Du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
 
 ### <a name="supplying-subnet-information"></a>Fourniture d’informations de sous-réseau
 
@@ -103,13 +103,13 @@ Les données utilisées pour ces tables sont définies comme suit :
 
 **CqdBuilding**
 
-|Column|Type de données|Autoriser les valeurs Null ?|Détails|
+|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |entier |Non |Clé primaire de la table CqdBuilding. |
+|BuildingKey |int |Non |Clé primaire de la table CqdBuilding. |
 |BuildingName |varchar(80) |Non |Nom du bâtiment. |
 |BuildingShortName |varchar(10) |Non |Version plus courte du nom du bâtiment. |
-|OwnershipTypeId |entier |Non |Clé étrangère, correspond à l’une des entrées de la table CqdBuildingOwners. |
-|BuildingTypeId |entier |Non |Clé étrangère, correspond à l’une des entrées de la table CqdBuildingType. |
+|OwnershipTypeId |int |Non |Clé étrangère, correspond à l’une des entrées de la table CqdBuildingOwners. |
+|BuildingTypeId |int |Non |Clé étrangère, correspond à l’une des entrées de la table CqdBuildingType. |
 |Latitude |float |Oui |Latitude du bâtiment. |
 |Longitude |float |Oui |Longitude du bâtiment. |
 |CityName |varchar(30) |Oui |Nom de la ville où se trouve le bâtiment. |
@@ -123,12 +123,12 @@ Les données utilisées pour ces tables sont définies comme suit :
 
 **CqdNetwork**
 
-|Column|Type de données|Autoriser les valeurs Null ?|Détails|
+|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |Réseau |varchar(25) |Non |Adresse de sous-réseau. |
 |NetworkRange |tinyint |Oui |Masque de sous-réseau. |
-|NetworkNameID |entier |Oui |Mapille éventuellement à une ligne dans la table CqdNetworkName. |
-|BuildingKey |entier |Oui |Clé étrangère, correspond à l’une des entrées de la table CqdBuilding. |
+|NetworkNameID |int |Oui |Mapille éventuellement à une ligne dans la table CqdNetworkName. |
+|BuildingKey |int |Oui |Clé étrangère, correspond à l’une des entrées de la table CqdBuilding. |
 |UpdatedDate |DateHeure |Non |Date et heure de la dernière mise à jour de l’entrée. |
 ||||||
 
@@ -136,9 +136,9 @@ Par défaut, le tableau suivant possède une entrée (0, « Inconnu »).
 
 **CqdBuildingType**
 
-|Column|Type de données|Autoriser les valeurs Null ?|Détails|
+|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |entier |Non |Clé primaire de la table CqdBuildingType. |
+|BuildingTypeId |int |Non |Clé primaire de la table CqdBuildingType. |
 |BuildingTypeDesc |char(18) |Non |Description du type de bâtiment. |
 |||||
 
@@ -146,9 +146,9 @@ Par défaut, le tableau suivant possède une entrée (0, « Inconnu » et 0, nul
 
 **CqdBuildingOwnershipType**
 
-|Column|Type de données|Autoriser les valeurs Null ?|Détails|
+|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |entier |Non |Clé primaire de la table CqdBuildingOwnershipType. |
+|OwnershipTypeId |int |Non |Clé primaire de la table CqdBuildingOwnershipType. |
 |OwnershipTypeDesc |varchar(25) |Non |Description du type de propriété. |
 |LeaseInd |tinyint |Oui |Index référencant une autre ligne dans la table CqdBuildingOwnershipType, utilisée pour identifier les bâtiments en bail. |
 |Propriétaire |varchar(50) |Oui |Propriétaire du bâtiment. |
@@ -158,7 +158,7 @@ Par défaut, le tableau suivant possède une entrée (0, « Inconnu » et 0, nul
 
 **CqdBssid**
 
-|Column|Type de données|Autoriser les valeurs Null ?|Détails|
+|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |Non |Clé primaire de la table CqdBssid. Est le BSSID du point d’accès WiFi. |
 |ess |nvarchar(50) |Oui |Informations sur le contrôleur de point d’accès Wifi. |
@@ -167,14 +167,14 @@ Par défaut, le tableau suivant possède une entrée (0, « Inconnu » et 0, nul
 |Création |nvarchar(500) |Oui |Nom du bâtiment où se trouve le point d’accès WiFi. |
 ||||
 
-## <a name="cqd-streams"></a>Flux CQD
+## <a name="cqd-streams"></a>CQD Flux
 
 Un flux CQD est considéré comme bon, médiocre ou non classifié. CQM 1.5 utilise désormais la définition CQD suivante :
 
 - Un flux médiocre est une combinaison quelconque de mesures d’appels médiocres au-delà du seuil.
 - Lorsqu’un flux d’un appel est médiocre, les deux flux de l’appel sont marqués comme médiocres. Dans les conférences, chaque participant est compté comme un appel unique et est signalé indépendamment de tous les autres.
 - Les flux non classifiés sont des flux sans mesures de qualité (transactions synthétiques ou appels courts).
-- Flux valides = clients non mobiles
+- Valeurs Flux = clients non mobiles
 - Le classificateur ne peut pas être modifié
 
 **Définition/classifieur d’appel médiocre**
@@ -194,7 +194,7 @@ Définition JPDR = Définition d’appel médiocre moins RatioConcealedSamplesAv
 
 Le CQD n’utilise pas les champs Appelant/Appelé, mais « Premier » et « Second », car il existe des étapes intermédiaires entre l’appelant et l’appelé.
 
- **First** Sera toujours le point de terminaison du serveur (par exemple, av MCU ou serveur de médiation) si un serveur est impliqué dans le flux.
+ **Tout d’abord** Sera toujours le point de terminaison du serveur (par exemple, av MCU ou serveur de médiation) si un serveur est impliqué dans le flux.
 
  **Second** Sera toujours le point de terminaison client, sauf s’il s’agit d’un flux Server-Server client.
 
@@ -224,7 +224,7 @@ Une requête bien formée contient les trois paramètres suivants :
 - Dimension
 - Filtre
 
-Un exemple de requête bien formée serait « Show me Poor Streams [Measurement] by Subnet [Dimension] for Building 6 [Filter]. »
+Un exemple de requête bien formée serait « Show me Poor Flux [Measurement] by Subnet [Dimension] for Building 6 [Filter]. »
 
 ## <a name="what-does-union-do"></a>Que fait UNION ?
 
@@ -240,9 +240,9 @@ Si la technologie sans fil est gérée en interne, vous pouvez recréer les rapp
 
 ## <a name="operational-processes"></a>Processus opérationnels
 
-Examinez et remédiez d’abord aux flux gérés. La qualité dans ce domaine doit être à 100 % dans votre contrôle et, par conséquent, la solution la plus simple.
+Examinez et remédiez d’abord aux Flux gérés. La qualité dans ce domaine doit être à 100 % dans votre contrôle et, par conséquent, la solution la plus simple.
 
-### <a name="managed-streams"></a>Flux gérés
+### <a name="managed-streams"></a>Gestion des Flux
 
 Examinez et remédiez aux flux gérés dans l’ordre suivant :
 
@@ -250,7 +250,7 @@ Examinez et remédiez aux flux gérés dans l’ordre suivant :
 2. Server-Wired-Inside
 3. Wired-Wired-Inside
 
-### <a name="unmanaged-streams"></a>Flux nonmanagés
+### <a name="unmanaged-streams"></a>Les Flux
 
 Examinez et remédiez aux flux nonmanagés dans l’ordre suivant :
 

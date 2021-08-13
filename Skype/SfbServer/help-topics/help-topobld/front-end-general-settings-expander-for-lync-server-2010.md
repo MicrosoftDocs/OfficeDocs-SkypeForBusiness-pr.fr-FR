@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant ou en configurant les attributs suivants. La page de configuration s’organise autour des sections suivantes :'
-ms.openlocfilehash: 63c784cbd254decdb108d8d8408cd01ef44657a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c0174d6a0badadc217119b5b2ea1028bc01367278739d5b6b03bb4ae83c0f21d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315760"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur frontal pour Lync Server 2010
 
@@ -43,11 +43,11 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
 - Si vous avez sélectionné Conférence, **Conférence rendez-vous (PSTN)** peut l’être également. Activez cette case à cocher pour mettre en œuvre les fonctionnalités de conférence rendez-vous.
 
-- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), y compris la possibilité de déployer des téléphones combinés, des trunks SIP ou une connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul, en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, [voir Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) and [Plan for Voix Entreprise in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), notamment l’option de déploiement de téléphones combinés, de connexions SIP ou de connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul, en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, voir [Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) et Planifier Voix Entreprise dans [Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associations**
 
-- **SQL Server store :** le nom de SQL Server de l’SQL Server (et éventuellement une instance nommée) associé au serveur frontal ou au pool frontal. Vous sélectionnez le magasin SQL Server dans la liste ou vous créez un magasin SQL Server en cliquant sur **Nouveau**.
+- **SQL Server store**: le nom de SQL Server (et éventuellement une instance nommée) associé au serveur frontal ou au pool frontal. Vous sélectionnez le magasin SQL Server dans la liste ou vous créez un magasin SQL Server en cliquant sur **Nouveau**.
 
 - Magasin de fichiers : vous sélectionnez le nom deqdn du serveur et le partage (au format ) qui sert d’emplacement de magasin de fichiers pour les fichiers partagés que `\\<FQDN of server>\<share name>` Lync Server 2013 crée et utilise à des fins de réplication, d’annuaires de conférences et d’autres fins. Vous sélectionnez le magasin de fichiers dans la liste ou vous créez un magasin de fichiers en cliquant sur **Nouveau**.
 
@@ -91,7 +91,7 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
     Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier la passerelle par défaut en sélectionnant la passerelle que vous souhaitez utiliser par défaut, puis en cliquant sur Utiliser par **défaut.** Si vous choisissez de supprimer la passerelle par défaut actuelle, sélectionnez-la, puis cliquez sur **Annuler Par défaut**.
 
 > [!IMPORTANT]
-> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement de Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant Déploiement de Skype Entreprise Server doit être exécuté vous est fournie sous la forme d’un lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l’Assistant Déploiement de Skype Entreprise Server, voir [outils d’administration Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
+> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant déploiement Skype Entreprise Server doit être exécuté est fournie sous forme de lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l Skype Entreprise Server de déploiement, voir [outils d’administration Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
 
 Cliquez sur **OK** pour enregistrer et valider les modifications que vous avez apportées au document de topologie.
 

@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 'Résumé : Gérez le service de mobilité (Mcx) et l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.'
-ms.openlocfilehash: 76bcf8727d3abbb417595f033ce9a59ec00a39ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6f97e8ec6199fe4665d3d7532f0cb03e21204fafc4764cf36c89dcbeacc4321d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317599"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Surveiller l’utilisation du service de mobilité et de l’UCWA dans Skype Entreprise Server
  
 **Résumé :** Gérez le service de mobilité (Mcx) et l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.
 
 > [!NOTE]
-> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-Régulièrement, vous devez surveiller le processeur et la mémoire utilisés par le service de mobilité de Skype Entreprise Server (Mcx) et l’API web de communications unifiées (UCWA). Pour surveiller l’utilisation, vous pouvez utiliser les ressources suivantes :
+Régulièrement, vous devez surveiller le processeur et la mémoire utilisés par le service de mobilité Skype Entreprise Server (Mcx) et l’API web de communications unifiées (UCWA). Pour surveiller l’utilisation, vous pouvez utiliser les ressources suivantes :
   
  **Pour l’API web de communications unifiées (UCWA) :**
   
-- Processus **de travail LyncUcwa** dans le Gestionnaire des services Internet (IIS). Dans le volet **Processus de travail**, observez les valeurs des colonnes **% processeur** et **Octets privés (Ko)** (mémoire) ;
+- Processus **de travail LyncUcwa** dans Internet Information Services (IIS). Dans le volet **Processus de travail**, observez les valeurs des colonnes **% processeur** et **Octets privés (Ko)** (mémoire) ;
     
 - les compteurs de performances **UC** et **Processeur**.
     
-Pour la plupart des déploiements, l’utilisation du processeur UCWA doit être inférieure à 15 % en moyenne. L’utilisation de la mémoire doit être dans les limites décrites dans [monitor for server memory capacity limits in Skype for Business Server](server-memory-capacity-limits.md).
+Pour la plupart des déploiements, l’utilisation du processeur UCWA doit être inférieure à 15 % en moyenne. L’utilisation de la mémoire doit être dans les limites décrites dans [monitor for server memory capacity limits in Skype Entreprise Server](server-memory-capacity-limits.md).
   
 Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez utiliser les compteurs de performance suivants pour déterminer quand un serveur est surchargé de demandes :
   
@@ -47,11 +47,11 @@ Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez
   
  **Pour le service de mobilité (Mcx) :**
   
-- Processus **de travail CSIntMcxAppPool** et **CSExtMcxAppPool** dans le Gestionnaire des services Internet (IIS). Dans le volet **Processus de travail**, observez les valeurs des colonnes **% processeur** et **Octets privés (Ko)** (mémoire) ;
+- Processus **de travail CSIntMcxAppPool** et **CSExtMcxAppPool** dans Internet Information Services (IIS). Dans le volet **Processus de travail**, observez les valeurs des colonnes **% processeur** et **Octets privés (Ko)** (mémoire) ;
     
 - les compteurs de performances **UC** et **Processeur**.
     
-Pour la plupart des déploiements, l’utilisation du processeur du service de mobilité doit être inférieure à 15 % en moyenne. L’utilisation de la mémoire doit être dans les limites décrites dans [monitor for server memory capacity limits in Skype for Business Server](server-memory-capacity-limits.md).
+Pour la plupart des déploiements, l’utilisation du processeur du service de mobilité doit être inférieure à 15 % en moyenne. L’utilisation de la mémoire doit être dans les limites décrites dans [monitor for server memory capacity limits in Skype Entreprise Server](server-memory-capacity-limits.md).
   
 Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez utiliser les compteurs de performances ASP.NET suivants pour aider à déterminer quand un serveur est surchargé de demandes :
   
@@ -63,8 +63,8 @@ Outre les compteurs d’utilisation du processeur et de la mémoire, vous pouvez
 > Si vous respectez ou dépassez ces valeurs, vous devez revoir et recompiler votre planification de capacité pour le recalcul correct du processeur, du nombre de cœurs et de la mémoire pour les ordinateurs hébergeant les services web. 
 
 > [!NOTE]
-> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible dans Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuels utilisent déjà l’API web de communications unifiées (UCWA) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
+> La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
 ## <a name="see-also"></a>Voir aussi
 
-[Surveiller les limites de capacité de mémoire des serveurs dans Skype Entreprise Server](server-memory-capacity-limits.md)
+[Surveiller les limites de capacité de mémoire du serveur dans Skype Entreprise Server](server-memory-capacity-limits.md)

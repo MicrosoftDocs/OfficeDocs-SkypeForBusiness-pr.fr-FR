@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
-description: LGet-CcExternalCertificateFilePath cmdlet renvoie le chemin d’accès du fichier de certificat externe pour le déploiement de Skype Entreprise, version Cloud Connector. L’utilisateur prépare ce certificat.
-ms.openlocfilehash: 143595d30bb71756544a16ad464da05a229f476d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Get-CcExternalCertificateFilePath renvoie le chemin d’accès du fichier de certificat externe pour le Skype Entreprise Cloud Connector Edition déploiement. L’utilisateur prépare ce certificat.
+ms.openlocfilehash: 3f0a3bc761beb1a2aa1c88bfabf509e4aef17b012f52e04be1ec5944df73ba9c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315380"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
-LGet-CcExternalCertificateFilePath cmdlet renvoie le chemin d’accès du fichier de certificat externe pour le déploiement de Skype Entreprise, version Cloud Connector. L’utilisateur prépare ce certificat.
+La cmdlet Get-CcExternalCertificateFilePath renvoie le chemin d’accès du fichier de certificat externe pour le Skype Entreprise Cloud Connector Edition déploiement. L’utilisateur prépare ce certificat.
   
-Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationServer}]

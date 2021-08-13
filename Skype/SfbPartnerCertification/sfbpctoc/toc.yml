@@ -7,9 +7,9 @@
       href: ../certification/test-spec.md
     - name: Téléphones et appareils
       items:
-        - name: "Téléphones\_IP Skype Entreprise"
+        - name: Téléphones IP Skype Entreprise
           href: ../certification/devices-ip-phones.md
-        - name: "Téléphones\_IP Teams"
+        - name: Téléphones IP Teams
           href: /microsoftteams/teams-ip-phones
         - name: Périphériques audio et vidéo USB
           href: ../certification/devices-usb-devices.md
@@ -21,7 +21,7 @@
       items:
         - name: Passerelles
           href: ../certification/infra-gateways.md
-        - name: "PBX\_IP"
+        - name: PBX IP
           href: ../certification/infra-ip-pbxs.md
         - name: Survivable Branch Appliance
           href: ../certification/infra-sba.md
@@ -33,18 +33,18 @@
           href: ../certification/infra-load-balancers.md
     - name: Réseau
       items:
-        - name: "Wi-Fi pour Skype\_Entreprise"
+        - name: Wi-Fi pour Skype Entreprise
           href: ../certification/networking-wifi.md
           items:
             - name: Planification du Wi-Fi
               href: ../certification/plan-wifi.md
-        - name: "Wi-Fi pour Skype\_Entreprise"
+        - name: Wi-Fi pour Skype Entreprise
           href: ../certification/networking-wired.md
-        - name: "SDN pour Skype\_Entreprise"
+        - name: SDN pour Skype Entreprise
           href: ../certification/networking-sdn.md
     - name: Services
       items:
-        - name: "Services de jonction\_SIP"
+        - name: Services de jonction SIP
           href: ../certification/services-sip-trunking.md
         - name: Prestataires de services d’urgence
           href: ../certification/services-e911.md
@@ -110,7 +110,7 @@
           items:
             - name: PBX et passerelles IP
               href: ../lync-cert/qualified-ip-pbx-gateway.md
-            - name: "PBX\_IP pris en charge"
+            - name: PBX IP pris en charge
               href: ../lync-cert/supported-ip-pbxs.md
             - name: Survivable Branch Appliance
               href: ../lync-cert/survivable-branch-appliances.md
@@ -129,7 +129,7 @@
           items:
             - name: Services d’urgence (911)
               href: ../lync-cert/e-911-service-providers.md
-            - name: "Lync\_Online dédié"
+            - name: Lync Online dédié
               href: ../lync-cert/online-dedicated.md
         - name: Vidéo
           href: ../lync-cert/video-solutions-qualified.md
