@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
-description: La cmdlet Unregister-CcAppliance désinsère l’appliance actuelle de la version Cloud Connector de Skype Entreprise à partir d’un site PSTN dans la configuration client en ligne.
-ms.openlocfilehash: 84a25321b6affda6b8783c40baa18a91b5b95ef5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Unregister-CcAppliance désinsère l’appliance Skype Entreprise Cloud Connector Edition jour à partir d’un site PSTN dans la configuration du client en ligne.
+ms.openlocfilehash: de872082f6a025a736b871a76d41061c888acb1f401739229ba7ad670a0c19ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344543"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
-La cmdlet Unregister-CcAppliance désinsère l’appliance actuelle de la version Cloud Connector de Skype Entreprise à partir d’un site PSTN dans la configuration client en ligne.
+La cmdlet Unregister-CcAppliance désinsère l’appliance Skype Entreprise Cloud Connector Edition jour à partir d’un site PSTN dans la configuration du client en ligne.
   
 ```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
@@ -79,7 +79,7 @@ Aucun. La cmdlet Unregister-CcAppliance n’accepte pas la saisie de données pi
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

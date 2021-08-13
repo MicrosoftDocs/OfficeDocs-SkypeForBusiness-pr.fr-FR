@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Les rubriques de cette section décrivent les tâches que vous devrez effectuer après avoir effectué votre migration vers Skype Entreprise Server 2019.
-ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298904"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Étape 7 : Exécuter les tâches post-migration
 
@@ -40,7 +40,7 @@ Les rubriques de cette section décrivent les tâches que vous devrez effectuer 
     
 - [Configuration des serveurs d’applications approuvées](configure-trusted-application-servers.md)
     
-- [Déployer des clients Skype Entreprise Server 2019](deploy-clients.md)
+- [Déployer Skype Entreprise Server clients 2019](deploy-clients.md)
     
 - [Connexion d’une Survivable Branch Appliance](connect-a-survivable-branch-appliance.md)
     

@@ -15,29 +15,29 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
-description: Résoudre les problèmes de déploiement de votre version Cloud Connector.
-ms.openlocfilehash: 9da10f1b3e8dd800e57b46f6a56eb6a82c29e22c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Résolution des problèmes de déploiement de la version Cloud Connector.
+ms.openlocfilehash: 7982cd153dcd9cc615201044c080479e9693550a0446b12c9a8a73c4366a9d57
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344573"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Résolution des problèmes liés à votre déploiement de Cloud Connector
 
 > [!Important]
-> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams à l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
+> Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
  
-Résoudre les problèmes de déploiement de votre version Cloud Connector.
+Résolution des problèmes de déploiement de la version Cloud Connector.
   
 Cette rubrique décrit les solutions aux problèmes courants avec les déploiements de la version Cloud Connector. Si vous rencontrez des problèmes avec les appels vers et depuis le réseau téléphonique commuté (PSTN), vous pouvez examiner les solutions décrites dans cette rubrique.
   
 Cloud Connector fournit des mécanismes intégrés pour résoudre automatiquement certains problèmes. Un processus de détection automatique recherche les problèmes potentiels avec les appliances Cloud Connector et, si possible, prend des mesures correctives pour résoudre ces problèmes sans intervention de l’administrateur. Le processus de détection fonctionne comme suit :
   
-- **Séquence de détection :** Le service de gestion Cloud Connector exécute un processus toutes les 60 secondes pour détecter si une appliance est en panne. Dans Cloud Connector version 2.0 et versions ultérieures, le processus de détection utilise le commutateur Corpnet Skype Entreprise pour établir des connexions PowerShell aux ordinateurs Cloud Connector ; Pour les versions antérieures à la version 2.0, le processus de détection utilise le commutateur de gestion Cloud Connector.
+- **Séquence de détection :** Le service de gestion Cloud Connector exécute un processus toutes les 60 secondes pour détecter si une appliance est en panne. Dans Cloud Connector version 2.0 et versions ultérieures, le processus de détection utilise le commutateur Skype Entreprise Corpnet pour établir des connexions PowerShell aux ordinateurs Cloud Connector ; Pour les versions antérieures à la version 2.0, le processus de détection utilise le commutateur de gestion Cloud Connector.
     
     > [!NOTE]
-    > Pour que la récupération automatique réussisse, il doit y avoir une connectivité réseau entre les ordinateurs hôtes et virtuels sur le commutateur réseau hôte. Veillez à vérifier la connectivité réseau pour vous assurer que la détection et la récupération automatiques peuvent réussir. 
+    > Pour que la récupération automatique réussisse, il doit y avoir une connectivité réseau entre l’hôte et les machines virtuelles sur le commutateur réseau hôte. Veillez à vérifier la connectivité réseau pour vous assurer que la détection et la récupération automatiques peuvent réussir. 
   
 - **Surveillance :** Les services suivants sont surveillés dans Cloud Connector version 2.0 et ultérieures :
     
@@ -91,7 +91,7 @@ Voici des solutions aux problèmes couramment rencontrés :
 
 - 
     
-    **Problème : une fois le serveur Active Directory et la forêt installés, le serveur CMS et/ou le serveur de médiation n’ont pas correctement joint le domaine.**
+    **Problème : une fois le serveur Active Directory et la forêt installés, le serveur CMS et/ou le serveur de médiation n’ont pas correctement rejoint le domaine.**
     
     **Résolution :** Pour résoudre ce problème, prenez les mesures suivantes :
     
@@ -99,7 +99,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     
   - Connectez-vous au serveur CMS/de médiation et vérifiez qu’une adresse IP valide est attribuée à la carte réseau du réseau d’entreprise et que l’adresse IP statique et le DNS valides sont configurés en tant qu’adresse IP du serveur AD.
     
-  - Connectez-vous au serveur CMS/de médiation et ouvrez une invite de commandes. Assurez-vous que vous pouvez effectuer un test ping sur le nom deqdn et l’adresse IP du serveur Active Directory. Si vous ne le pouvez pas, il peut y avoir un conflit d’adresses IP. Essayez d’affecter une nouvelle adresse IP pour Active Directory et mettez à jour le DNS sur le serveur CMS/de médiation en conséquence.
+  - Connectez-vous au serveur CMS/de médiation et ouvrez une invite de commandes. Assurez-vous que vous pouvez effectuer un test ping sur le nom deqdn et l’adresse IP du serveur Active Directory. Si vous ne le pouvez pas, il peut y avoir un conflit d’adresses IP. Essayez d’affecter une nouvelle adresse IP pour Active Directory et mettez à jour le DNS sur le serveur CMS/médiation en conséquence.
     
 - **Problème : vous recevez le message d’erreur suivant, « Remove-VMSwitch : Échec lors de la suppression du commutateur Ethernet virtuel. Le commutateur virtuel « Cloud Connector Management Switch » ne peut pas être supprimé, car il est utilisé par des machines virtuelles ou affecté à des pools enfants. »**
     
@@ -110,7 +110,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     > [!NOTE]
     > Ce problème s’applique uniquement aux versions cloud connector antérieures à la version 1.4.2. 
   
-    L’échec du démarrage peut également être dû au fait que ce serveur frontal a été précédemment échoué (à l’aide d’un ordinateur qui a échoué). Si c’est le cas, veuillez appeler la panne (à l’aide de la panne d’ordinateur).
+    L’échec du démarrage peut également être dû au fait que ce serveur frontal a été précédemment échoué (à l’aide d’un ordinateur qui a échoué). Si c’est le cas, veuillez appeler la panne (à l’aide de la panne de l’ordinateur).
     
     **Résolution :** Ce problème se produit sur un serveur Edge lorsque le certificat d’ac racine ou le certificat d’ac intermédiaire n’est pas approuvé par le serveur Edge. Même si le certificat externe peut être importé mais que la chaîne de certificats est rompue. Dans cette condition, le service RTCMRAUTH et/ou RTCSRV ne peut pas démarrer.
     
@@ -122,9 +122,9 @@ Voici des solutions aux problèmes couramment rencontrés :
 
 - 
     
-    **Problème : le serveur hôte a été redémarré lorsque des mises à jour Windows ont été appliquées et que les appels mis en service par le serveur échouent.**
+    **Problème : le serveur hôte a été redémarré lors Windows mises à jour ont été appliquées, et les appels mis en service par le serveur échouent.**
     
-    **Résolution :** Si vous avez déployé un environnement de haute disponibilité, Microsoft fournit une cmdlet pour vous aider à déplacer un ordinateur hôte (instance de déploiement) vers ou hors de la topologie actuelle lorsque vous vérifiez et installez windows update manuellement. Pour ce faire, utilisez les étapes suivantes :
+    **Résolution :** Si vous avez déployé un environnement de haute disponibilité, Microsoft fournit une cmdlet pour vous aider à déplacer un ordinateur hôte (instance de déploiement) vers ou hors de la topologie actuelle lorsque vous vérifiez et installez Windows mise à jour manuellement. Pour ce faire, utilisez les étapes suivantes :
     
 1. Sur le serveur hôte, démarrez une console PowerShell en tant qu’administrateur, puis exécutez :
     
@@ -144,9 +144,9 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     **Problème : lorsqu’un appel est effectué à partir d’un client Skype Entreprise à l’aide d’un numéro PSTN, l’appel ne peut pas être recalcalé à une conférence en invitant un autre numéro PSTN.**
     
-    **Résolution :** Pour résoudre ce problème, voir Configurer les paramètres du serveur [de médiation hybride en ligne.](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)
+    **Résolution :** Pour résoudre ce problème, voir Configurer le serveur de médiation [hybride en ligne Paramètres](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer).
     
-- **Problème : un message d’avertissement s’affiche à propos de Windows Update lorsque vous installez le serveur Active Directory : « La mise à jour automatique de Windows n’est pas activée. Pour vous assurer que votre rôle ou fonctionnalité nouvellement installé est automatiquement mis à jour, activer Windows Update. »**
+- **Problème : un message d’avertissement s’affiche à propos Windows mise à jour lorsque vous installez le serveur Active Directory : « la mise à jour Windows automatique n’est pas activée. Pour vous assurer que votre rôle ou fonctionnalité nouvellement installé est automatiquement mis à jour, Windows mise à jour. »**
     
     **Résolution :** Lancez une session PowerShell client distante à l’aide des informations d’identification d’administrateur client Skype Entreprise, puis exécutez l’cmdlet suivante pour vérifier la configuration _EnableAutoUpdate_ de votre site :
     
@@ -154,7 +154,7 @@ Voici des solutions aux problèmes couramment rencontrés :
   Get-CsHybridPSTNSite
   ```
 
-    Si  _EnableAutoUpdate_ est définie sur **True,** vous pouvez ignorer ce message d’avertissement en toute sécurité, car le service CCEManagement gère le téléchargement et l’installation des mises à jour Windows pour les machines virtuelles et le serveur hôte. Si  _EnableAutoUpdate_ est définie sur **False**, exécutez l’cmdlet suivante pour la définir sur **True**.
+    Si _EnableAutoUpdate_ est définie sur **True,** vous pouvez ignorer ce message d’avertissement en toute sécurité, car le service CCEManagement gère le téléchargement et l’installation des mises à jour Windows pour les machines virtuelles et le serveur hôte. Si  _EnableAutoUpdate_ est définie sur **False,** exécutez l’cmdlet suivante pour la définir sur **True**.
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -162,15 +162,15 @@ Voici des solutions aux problèmes couramment rencontrés :
 
     Vous pouvez également vérifier et installer manuellement les mises à jour. Voir la section suivante.
     
-- **Problème : vous recevez un message d’erreur : impossible d’inscrire l’appliance car votre entrée/configuration actuelle ou ou est en conflit avec des \<SiteName\> \<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> appliances existantes. Supprimez l’appliance conflictuelle ou mettez à jour vos informations d’entrée/configuration, puis inscrivez-vous à nouveau. ' when run Register-CcAppliance to register current appliance to online.**
+- **Problème : vous recevez un message d’erreur : impossible d’inscrire l’appliance en raison de votre entrée/configuration actuelle ou ou en conflit avec des \<SiteName\> \<ApplianceName\> \<Mediation Server FQDN\> \<Mediation Server IP Address\> appliances existantes. Supprimez l’appliance conflictuelle ou mettez à jour vos informations d’entrée/configuration, puis inscrivez-vous à nouveau. ' when run Register-CcAppliance to register current appliance to online.**
     
     **Résolution :** Valeurs pour le , et doit être unique et utilisé \<ApplianceName\> \<Mediation Server FQDN\> uniquement pour \<Mediation Server IP Address\> l’inscription d’une appliance. Par défaut, \<ApplianceName\> provient du nom d’hôte. \<Mediation Server FQDN\> et \<Mediation Server IP Address\> défini dans le fichier ini de configuration.
     
     Par exemple, à l’aide de (ApplianceName= MyserverNew, FQDN du serveur de médiation=ms.contoso.com, Mediation Server IP Address=10.10.10.10) to register to SiteName=MySite, but if there is a registered appliance (ApplianceName= Myserver, Mediation Server FQDN=ms.contoso.com, Mediation Server IP Address=10.10.10.10), you will have the conflict.
     
-    Tout d’abord, vérifiez votre CloudConnector.ini dans la section répertoire ApplianceRoot. Vous obtenez \<SiteName\> et \<Mediation Server FQDN\> les \<Mediation Server IP Address\> valeurs dans le fichier. \<ApplianceName\> est le nom de votre serveur hôte.
+    Tout d’abord, vérifiez votre CloudConnector.ini dans la section Répertoire ApplianceRoot. Vous obtenez \<SiteName\> et \<Mediation Server FQDN\> les \<Mediation Server IP Address\> valeurs dans le fichier. \<ApplianceName\> est le nom de votre serveur hôte.
     
-    Ensuite, lancez l’application PowerShell à distance du client à l’aide de vos informations d’identification d’administrateur client Skype Entreprise, puis exécutez l’cmdlet suivante pour vérifier la ou les appliance(s) inscrite(s).
+    Ensuite, lancez Tenant Remote PowerShell à l’aide de vos informations d’identification d’administrateur client Skype Entreprise, puis exécutez l’cmdlet suivante pour vérifier la ou les appliance(s) inscrite(s).
     
   ```powershell
   Get-CsHybridPSTNAppliance
@@ -187,7 +187,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     
   **Résolution :** Cela peut se produire lorsque vous faites une mise à niveau de la version 1.3.4 ou 1.3.8 vers la version 1.4.1. Après avoir installé la version 1.4.1 avec le .msi, vous devez l’exécuter avant d’exécuter une `Register-CcAppliance` autre cmdlet. `Register-CcAppliance` migrera le module.ini de %UserProfile%\CloudConnector vers %ProgramData%\CloudConnector. Si vous l’avez manqué, une nouvelle module.ini sera créée dans le dossier %ProgramData%\CloudConnector et remplacera les informations de version d’exécution/sauvegarde pour la version 1.3.4 ou 1.3.8.
     
-  Comparez module.ini fichiers dans le dossier %UserProfile%\CloudConnector et %ProgramData%\CloudConnector. S’il existe des différences, supprimez le module.ini dans %ProgramData%\CloudConnector et  `Register-CcAppliance` réexécutez. Vous pouvez également modifier le fichier manuellement pour la version d’exécution et de sauvegarde correcte.
+  Comparez module.ini fichiers dans le dossier %UserProfile%\CloudConnector et %ProgramData%\CloudConnector. S’il existe des différences, supprimez le module.ini dans %ProgramData%\CloudConnector et  `Register-CcAppliance` réexécutez. Vous pouvez également modifier le fichier manuellement pour qu’il soit correctement en cours d’exécution et en version de sauvegarde.
     
 - **Problème : après avoir exécuté l'Switch-CcVersion cmdlet pour basculer vers une ancienne version différente de la version actuelle du script, il n’existe aucune prise en charge de la haute disponibilité pour cette ancienne version.**
     
@@ -197,10 +197,10 @@ Voici des solutions aux problèmes couramment rencontrés :
     
 - **Problème : les certificats d’autorité de certification ou les certificats internes délivrés au magasin central de gestion, au serveur de médiation et au serveur Edge sont sur le point d’expirer ou compromis.**
     
-    **Résolution :** Les certificats de l’autorité de certification Skype Entreprise sont valides pendant cinq ans. Les certificats internes délivrés au magasin central de gestion, au serveur de médiation et au serveur Edge sont valides pendant deux ans.
+    **Solution : Skype Entreprise** certificats de l’autorité de certification sont valides pendant cinq ans. Les certificats internes délivrés au magasin central de gestion, au serveur de médiation et au serveur Edge sont valides pendant deux ans.
     
     > [!NOTE]
-    > Dans Cloud Connector version 2.0 et versions ultérieures, l’cmdlet Renew-CcServerCertificate est devenu Update-CcServerCertificate et l’cmdlet Renew-CcCACertificate a été changée en Update-CcCACertificate. 
+    > Dans Cloud Connector version 2.0 et versions ultérieures, l’cmdlet Renew-CcServerCertificate est devenu Update-CcServerCertificate et la cmdlet Renew-CcCACertificate a été changée en Update-CcCACertificate. 
   
     Si les certificats internes délivrés au magasin central de gestion, au serveur de médiation et au serveur Edge sont sur le point d’expirer ou compromis, exécutez la cmdlet Renew-CcServerCertificate ou Update-CcServerCertificate pour renouveler vos certificats.
     
@@ -232,7 +232,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     Remove-CcLegacyServerCertificate 
     ```
     
-3. Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez la cmdlet Export-CcRootCertificate à partir de l’appliance, puis installez le certificat exporté sur vos passerelles PSTN. Vous pouvez également être obligé de ré-émettre le certificat sur votre passerelle.
+3. Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez la cmdlet Export-CcRootCertificate à partir de l’appliance, puis installez le certificat exporté sur vos passerelles PSTN. Vous pouvez également être tenu de ré-émettre le certificat sur votre passerelle.
 
    ```powershell
    Export-CcRootCertificate
@@ -293,7 +293,7 @@ Voici des solutions aux problèmes couramment rencontrés :
      Remove-CcLegacyServerCertificate 
      ```
      
-6. Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez la cmdlet Export-CcRootCertificate à partir de n’importe quelle appliance du site, puis installez le certificat exporté sur vos passerelles PSTN. Vous pouvez également être obligé de ré-émettre le certificat sur votre passerelle.
+6. Si TLS est utilisé entre la passerelle et le serveur de médiation, exécutez la cmdlet Export-CcRootCertificate à partir de n’importe quelle appliance du site, puis installez le certificat exporté sur vos passerelles PSTN. Vous pouvez également être tenu de ré-émettre le certificat sur votre passerelle.
   
      ```powershell
      Export-CcRootCertificate
@@ -306,31 +306,31 @@ Voici des solutions aux problèmes couramment rencontrés :
      ```
     
     
-- **Problème : vous recevez le message d’erreur suivant dans le journal du service de gestion Cloud Connector, « C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log » : Erreur CceService : 0 : Exception inattendue lors du signalement de l’état en ligne : System.Management.Automation.CmdletInvocationException: Logon failed for the user \<Global Tenant Admin\> . Veuillez créer un objet d’informations d’identification, en vous assurez que vous avez utilisé le nom d’utilisateur et le mot de passe corrects. ---\>**
+- **Problème : vous recevez le message d’erreur suivant dans le journal du service de gestion Cloud Connector, « C:\Program Files\Skype Entreprise Cloud Connector Edition\ManagementService\CceManagementService.log » : Erreur CceService : 0 : Exception inattendue lors du signalement de l’état en ligne : System.Management.Automation.CmdletInvocationException : Échec de connexion pour \<Global Tenant Admin\> l’utilisateur. Veuillez créer un objet d’informations d’identification, en vous assurez que vous avez utilisé le nom d’utilisateur et le mot de passe corrects. ---\>**
     
-    **Résolution :** Les informations d’identification de l’administrateur client général Microsoft 365 ou Office 365 ont été modifiées depuis l’inscription de l’appliance Cloud Connector. Pour mettre à jour les informations d’identification stockées localement sur l’appliance Cloud Connector, exécutez ce qui suit à partir de l’administrateur PowerShell sur l’appliance hôte :
+    **Résolution :** Les informations Microsoft 365 ou Office 365 d’administrateur client global ont été modifiées depuis l’inscription de l’appliance Cloud Connector. Pour mettre à jour les informations d’identification stockées localement sur l’appliance Cloud Connector, exécutez ce qui suit à partir de l’administrateur PowerShell sur l’appliance hôte :
     
   ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- **Problème : après avoir changé le mot de passe du compte de serveur hôte que vous avez utilisé pour le déploiement, vous recevez le message d’erreur suivant : « ConvertTo-SecureString : clé non valide pour une utilisation dans l’état spécifié . » dans %ProgramFiles%\Skype For Business Cloud Connector Edition\ManagementService\CceManagementService.log ou lors de l’exécution de l’cmdlet Get-CcCredential.**
+- **Problème : après avoir changé le mot de passe du compte de serveur hôte que vous avez utilisé pour le déploiement, vous recevez le message d’erreur suivant : « ConvertTo-SecureString : clé non valide pour une utilisation dans l’état spécifié . » dans %ProgramFiles%\Skype Entreprise Cloud Connector Edition\ManagementService\CceManagementService.log ou lors de l’exécution de l’cmdlet Get-CcCredential.**
     
-    **Résolution :** Toutes les informations d’identification Cloud Connector sont stockées dans le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> xml ». Lorsque le mot de passe du serveur hôte change, vous devez mettre à jour les informations d’identification stockées localement.
+    **Résolution :** Toutes les informations d’identification Cloud Connector sont stockées dans le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ». Lorsque le mot de passe du serveur hôte change, vous devez mettre à jour les informations d’identification stockées localement.
     
     **Si vous exécutez Cloud Connector version 1.4.2,** régénérez tous les mots de passe Cloud Connector en suivant les étapes suivantes :
     
   1. Redémarrez le serveur hôte.
     
-  2. Supprimez le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> xml ».
+  2. Supprimez le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ».
     
   3. Lancez une console PowerShell en tant qu’administrateur, puis exécutez « Register-CcAppliance -Local » pour entrer à nouveau les mots de passe suivant la description. Entrez les mêmes mots de passe que vous avez entrés auparavant pour le déploiement Cloud Connector.
     
-     **Si vous exécutez Cloud Connector version 2.0** ou ultérieure, régénérez tous les mots de passe Cloud Connector en suivant les étapes ci-après :
+     **Si vous exécutez Cloud Connector version 2.0** ou ultérieure, régénérez tous les mots de passe Cloud Connector en suivant les étapes suivantes :
     
   4. Redémarrez le serveur hôte.
     
-  5. Supprimez le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> xml " .
+  5. Supprimez le fichier suivant : « %SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml " .
     
   6. Lancez une console PowerShell en tant qu’administrateur, puis exécutez « Register-CcAppliance -Local » pour entrer à nouveau les mots de passe suivant la description. 
     
@@ -348,7 +348,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     
   10. Exécutez Set-CcCredential -AccountType DomainAdmin comme suit :
     
-       1. Lorsque vous êtes invité à entrer l’ancienne informations d’identification du compte, entrez les informations d’identification que vous avez utilisées pour le mot de passe CceService
+       1. Lorsque vous êtes invité à entrer l’ancienne identification du compte, entrez les informations d’identification que vous avez utilisées pour le mot de passe CceService
     
        2. Lorsque vous êtes invité à entrer les nouvelles informations d’identification du compte, entrez le mot de passe du mot de passe DomainAdmin que vous avez utilisé auparavant.
     
@@ -362,9 +362,9 @@ Voici des solutions aux problèmes couramment rencontrés :
     
     **Résolution :** Cloud Connector 2.1 et les ultérieures nécessitent .NET Framework 4.6.1 ou ultérieure. Veuillez mettre .NET Framework jour sur l’appliance vers la version 4.6.1 ou ultérieure et ré-exécuter la ou les cmdlet.
 
-- **Problème : avec Cloud Connector Edition 2.1, lorsque vous exécutez Install-CcAppliance, vous recevez un message d’erreur tel que : « Échec de l’installation d’une nouvelle instance avec erreur : impossible de définir « État », car seules les chaînes peuvent être utilisées comme valeurs pour définir les propriétés XmlNode »**
+- **Problème : avec Cloud Connector Edition 2.1, lorsque vous exécutez Install-CcAppliance, vous recevez un message d’erreur tel que : « Échec de l’installation d’une nouvelle instance avec erreur : impossible de définir « State », car seules les chaînes peuvent être utilisées comme valeurs pour définir les propriétés XmlNode »**
 
-   **Résolution :** Dans Cloudconnector.ini, sous la section [Commune], ajoutez la config « État » comme suit : CountryCode=US State=WA City=Redmond
+   **Résolution :** In Cloudconnector.ini, under the [Common] section, please add the « State » config as below: CountryCode=US State=WA City=Redmond
 
    Il n’est pas obligatoire que la ligne « State » soit une valeur, mais la ligne « State » ne peut pas être supprimée du fichier Cloudconnector.ini'état.
 
@@ -388,13 +388,13 @@ Voici des solutions aux problèmes couramment rencontrés :
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- **Problème : vous devez vérifier et installer manuellement les mises à jour Windows sur le serveur hôte ou les machines virtuelles.**
+- **Problème : vous devez vérifier et installer les mises à jour Windows manuellement sur le serveur hôte ou les machines virtuelles.**
     
-   **Résolution :** Nous vous recommandons de tirer parti des mises à jour automatisées du système d’exploitation fournies par Skype Entreprise, version Cloud Connector. Une fois qu’une appliance est inscrite pour la gestion en ligne et que la mise à jour automatique du système d’exploitation est activée, le serveur hôte et les machines virtuelles vérifient et installent automatiquement les mises à jour Windows en fonction des paramètres de la fenêtre de temps de mise à jour du système d’exploitation.
+   **Résolution :** Nous vous recommandons de tirer parti des mises à jour automatisées du système d’exploitation fournies par Skype Entreprise Cloud Connector Edition. Une fois qu’une appliance est inscrite pour la gestion en ligne et que la mise à jour automatique du système d’exploitation est activée, le serveur hôte et les machines virtuelles vérifient et installent les mises à jour Windows automatiquement en fonction des paramètres de la fenêtre de temps de mise à jour du système d’exploitation.
     
-   Si vous devez vérifier et installer manuellement les mises à jour Windows, suivez les étapes de cette section qui s’appliquent à votre type de déploiement. Vous devez planifier la mise à jour du serveur hôte et des ordinateurs virtuels qui s’exécutent sur celui-ci en même temps afin de réduire le temps d’in panne nécessaire pour les mises à jour.
+   Si vous devez vérifier et installer manuellement Windows mises à jour, suivez les étapes de cette section qui s’appliquent à votre type de déploiement. Vous devez planifier la mise à jour du serveur hôte et des ordinateurs virtuels qui s’exécutent sur celui-ci en même temps afin de réduire le temps d’in panne nécessaire pour les mises à jour.
     
-   Si vous préférez, vous pouvez utiliser un serveur Windows Server Update Services (WSUS) pour fournir des mises à jour aux serveurs Cloud Connector. Assurez-vous simplement de configurer Windows Update pour qu’il **ne s’installe** pas automatiquement.
+   Si vous préférez, vous pouvez utiliser un serveur Windows Server Update Services (WSUS) pour fournir des mises à jour aux serveurs Cloud Connector. Assurez-vous simplement de configurer la mise à jour Windows pour **qu’elle ne s’installe** pas automatiquement.
     
    Pour plus d’informations sur la mise à jour manuelle de votre déploiement Cloud Connector, consultez la section suivante.
     
@@ -411,7 +411,7 @@ Voici des solutions aux problèmes couramment rencontrés :
     **Résolution :** Supprimez le $HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache.
 PowerShell crée ce fichier en tant que cache d’cmdlets à partir de modules qu’il trouve afin qu’il n’a pas à analyser à nouveau tous les modules, car cela ralentit les choses. Il est fort probable qu’il y a eu une altération de fichier qui a fourni des résultats erronés à PowerShell lors de la lecture à partir de ce cache.
 
--   **Problème : « Import-Module CloudConnector » génère l’erreur « Import-Module: The specified module « CloudConnector » was not loaded because no valid module file was found in any module directory »**
+-   **Problème : « Import-Module CloudConnector » génère l’erreur « Import-Module : le module spécifié « CloudConnector » n’a pas été chargé car aucun fichier de module valide n’a été trouvé dans un répertoire de modules »**
 
     **Résolution :**
     - Vérifier que effectivement le module CloudConnector existe sous c:\Program Files\WindowsPowerShell\Modules
@@ -423,13 +423,13 @@ PowerShell crée ce fichier en tant que cache d’cmdlets à partir de modules q
      b. Pour les changements persistants, démarrez PowerShell en tant qu’administrateur et exécutez les commandes suivantes, une par une : $CurrentValue = [Environment]::GetEnvironmentVariable(« PSModulePath », « Machine ») SetEnvironmentVariable(« PSModulePath », $CurrentValue + « ; C:\Program Files\WindowsPowerShell\Modules », « Machine »)
 
     
-## <a name="install-windows-updates-manually"></a>Installer manuellement les mises à jour Windows
+## <a name="install-windows-updates-manually"></a>Installer Windows mises à jour manuellement
 
-Si vous ne souhaitez pas utiliser les mises à jour automatiques dans votre environnement, suivez ces étapes pour vérifier et appliquer manuellement les mises à jour Windows. La vérification et l’installation des mises à jour Windows peuvent nécessiter un redémarrage du serveur. Lorsqu’un serveur hôte redémarre, les utilisateurs ne peuvent pas utiliser Cloud Connector pour mettre en place ou recevoir des appels. Vous pouvez vérifier et installer manuellement les mises à jour pour contrôler le moment où elles ont lieu, puis redémarrer les ordinateurs selon vos besoins pendant les heures de votre choix afin d’éviter toute perturbation des services.
+Si vous ne souhaitez pas utiliser les mises à jour automatiques dans votre environnement, suivez ces étapes pour vérifier et appliquer manuellement Windows mises à jour. La recherche et l’installation Windows mises à jour peuvent nécessiter un redémarrage du serveur. Lorsqu’un serveur hôte redémarre, les utilisateurs ne peuvent pas utiliser Cloud Connector pour mettre en place ou recevoir des appels. Vous pouvez vérifier et installer manuellement les mises à jour pour contrôler le moment où elles ont lieu, puis redémarrer les ordinateurs selon vos besoins pendant les heures de votre choix afin d’éviter toute perturbation des services.
   
-Pour vérifier manuellement les mises à jour, connectez-vous à chaque serveur hôte et ouvrez le **Panneau de contrôle.** Sélectionnez **Système et sécurité Windows \> Update,** puis gérez les mises à jour et les redémarrages du serveur selon le cas pour votre environnement.
+Pour vérifier manuellement les mises à jour, connectez-vous à chaque serveur hôte et ouvrez le **Panneau de contrôle.** Sélectionnez **System and Security Windows \> Update,** puis gérez les mises à jour et les redémarrages du serveur selon les cas de votre environnement.
   
-- S’il n’existe qu’une seule appliance dans le site, connectez-vous à chaque machine virtuelle et ouvrez le **Panneau de contrôle.** Sélectionnez **Système et sécurité Windows \> Update,** puis configurez les mises à jour et les redémarrages du serveur selon le cas.
+- S’il n’existe qu’une seule appliance dans le site, connectez-vous à chaque machine virtuelle et ouvrez le **Panneau de contrôle.** Sélectionnez **System and Security Windows \> Update,** puis configurez les mises à jour et les redémarrages du serveur, le cas échéant.
     
 - S’il existe plusieurs équipements dans le site, l’instance mise à jour et redémarré n’est pas accessible aux utilisateurs pendant les mises à jour. Les utilisateurs se connectent à d’autres instances du déploiement jusqu’à ce que toutes les machines virtuelles et tous les services Skype Entreprise démarrent sur les ordinateurs virtuels une fois les mises à jour terminées. Pour éviter toute perturbation potentielle du service, vous pouvez supprimer l’instance de la ha pendant que vous appliquez les mises à jour, puis la restaurer une fois terminée. Pour ce faire, procédez comme suit :
     
@@ -453,7 +453,7 @@ Pour vérifier manuellement les mises à jour, connectez-vous à chaque serveur 
 
 Pour les déploiements sur plusieurs sites, suivez les étapes d’un site unique pour chaque site du déploiement, en appliquant des mises à jour à un site à la fois.
   
-## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>Conseils lors de l’installation d’un logiciel antivirus sur l’ordinateur hôte Cloud Connector
+## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>Astuces lors de l’installation d’un logiciel antivirus sur l’ordinateur hôte Cloud Connector
 
 Si vous devez installer un logiciel antivirus sur l’ordinateur hôte Cloud Connector, vous devez ajouter les exclusions suivantes :
   
@@ -463,7 +463,7 @@ Si vous devez installer un logiciel antivirus sur l’ordinateur hôte Cloud Con
     
 - L’annuaire de sites local sur l’ordinateur héberge le dossier racine du site partagé.
     
-- %ProgramFiles%\Skype Entreprise, version Cloud Connector
+- %ProgramFiles%\Skype Entreprise Cloud Connector Edition
     
 - %ALLUSERSPROFILE%\CloudConnector
     

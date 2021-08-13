@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les notifications Push et le centre d’échange de notifications Push (PNCH) sont deux éléments clés de la fonctionnalité de mobilité. Une notification push correspond au processus dans lequel un message est envoyé au centre d’échanges de notifications push. Ce message y est conservé jusqu’à ce qu’il puisse être remis au client mobile ou que le délai d’expiration soit dépassé.
-ms.openlocfilehash: 3c72c5b123a906d74cfeb0a1fef5c1e765fe030c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7e214b9fa92db420b0451d2a32e8158df2d5212c4394fb7307a7198ff733c425
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808744"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316290"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Client mobile : Créer ou modifier une configuration des notifications push
  
@@ -38,9 +38,9 @@ Pour activer les notifications push, procédez comme suit :
   
 2. Sélectionnez les services de notification push que vous voulez activer en cochant la case correspondante :
     
-   - **Activer la notification Push De Microsoft** activera la notification Push au PNCH basé sur le cloud pour Windows Phone avec l’application Skype Entreprise
+   - **Activer la notification Push De Microsoft** activera la notification Push au PNCH basé sur le cloud pour les Windows Phone l’application Skype Entreprise web
     
-   - **Activer la notification Push Apple** activera la notification Push au PNCH Apple pour les appareils exécutant iOS d’Apple (par exemple, iPhone, iPad) et utilisant l’application Skype Entreprise
+   - Activer **la notification Push Apple** activera la notification Push au PNCH Apple pour les appareils exécutant iOS d’Apple (par exemple, iPhone, iPad) et utilisant l’application Skype Entreprise
     
 3. Une fois que vous avez terminé les modifications de la stratégie, cliquez sur **Valider** pour enregistrer ces modifications. Si vous avez besoin de supprimer les modifications apportées, sélectionnez **Annuler**. Aucune modification ne sera enregistrée dans la stratégie.
     

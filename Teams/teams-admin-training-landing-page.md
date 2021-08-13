@@ -1,7 +1,7 @@
 ---
 title: Formation à Microsoft Teams pour les administrateurs
 ms.reviewer: ''
-description: Obtenez la formation et le support pour les administrateurs dont vous avez besoin pour gérer Microsoft Teams dans votre organisation.
+description: Obtenez la formation et le support pour les administrateurs dont vous avez besoin pour Microsoft Teams dans votre organisation.
 author: cichur
 manager: serdars
 audience: admin
@@ -20,16 +20,16 @@ f1.keywords:
 search.appverid: MET150
 ms.topic: landing-page
 ms.author: v-cichur
-ms.openlocfilehash: 5e4c866935fe9ddb15f598ba6540fe8ed266f447
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4f2d6e2b096e5220c0dffd6f04103ea65fd9ce0aa77eef6f845f0b99f306b9cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822714"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299044"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formation à Microsoft Teams pour les administrateurs
 
-Découvrez comment gérer Teams au nom de votre organisation.
+Découvrez comment gérer les Teams au nom de votre organisation.
 
 <ul class="panelContent cardsFTitle">
     <li>

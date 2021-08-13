@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Prévoyez d’implémenter la connectivité hybride entre Skype Entreprise Server et Teams en configurant Skype Entreprise mode hybride.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c52edf0fa8e90f0fc6a86f0d87192fdbba6a24c8ef540f18607645a82d7badfe
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849269"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planifier la connectivité hybride entre Skype Entreprise Server et Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "54287883"
 
 Lisez cette rubrique pour découvrir comment planifier la connectivité hybride entre Skype Entreprise Server et Teams. La configuration de la connectivité hybride constitue la première étape de la migration de votre environnement local vers le Cloud.
 
-Si vous avez des utilisateurs Skype Entreprise locaux qui utilisent également Teams (côte à côte), ces utilisateurs n’ont pas la possibilité d’interagir avec des utilisateurs de Skype Entreprise à partir de leur client Teams, ni de communiquer avec des utilisateurs d’organisations fédérées à partir de leur client Teams. Pour obtenir cette fonctionnalité dans Teams, ces utilisateurs doivent être déplacés de Skype Entreprise en local vers le Cloud, ce qui nécessite la configuration du mode hybride Skype Entreprise. En outre, pour une expérience de qualité, ces utilisateurs doivent être en mode Teams Uniquement, ce qui garantit que tous les appels entrants et conversations de tout utilisateur arrivent dans le client Teams de l’utilisateur.
+Si vous avez des utilisateurs Skype Entreprise locaux qui utilisent également Teams (côte à côte), ces utilisateurs n’ont pas la possibilité d’interagir avec des utilisateurs de Skype Entreprise à partir de leur client Teams, ni de communiquer avec des utilisateurs d’organisations fédérées à partir de leur client Teams. Pour obtenir cette fonctionnalité dans Teams, ces utilisateurs doivent être déplacés de Skype Entreprise en local vers le Cloud, ce qui nécessite la configuration du mode hybride Skype Entreprise. En outre, pour une expérience de qualité, ces utilisateurs doivent être en mode Teams Uniquement, ce qui garantit que tous les appels entrants et les conversations en provenance de n’importe quel utilisateur arrivent dans le client Teams de l’utilisateur.
 
 Vous devez également configurer la connectivité hybride et déplacer tous les utilisateurs vers le cloud avant de supprimer votre déploiement Skype Entreprise local.  Une fois la connectivité hybride configurée, vous pouvez choisir de migrer vos utilisateurs vers le cloud en fonction de votre planification et de vos besoins professionnels. Le routage direct vous permet de tirer parti de votre infrastructure vocale locale pendant votre migration vers le cloud et une fois celle-ci terminée.
 
@@ -45,7 +45,7 @@ Une fois que vous avez lu cette rubrique et que vous êtes prêt à configurer l
 ## <a name="implications-of-the-upcoming-retirement-of-skype-for-business-online"></a>Implications du retrait à venir de Skype Entreprise Online
 Il est important de se souvenir qu’avant et après le retrait de Skype Entreprise Online, les utilisateurs Skype Entreprise Server sur site peuvent utiliser Teams, mais ils ne peuvent pas être TeamsOnly. (Par défaut, les utilisateurs sont en mode Îles). Les utilisateurs peuvent uniquement profiter des avantages complets de Teams, en particulier la fédération et la prise en charge PSTN, une fois qu’ils sont en mode TeamsOnly. 
 
-Le retrait à venir de Skype Entreprise Online n’a aucun impact sur le cycle de vie de support existant de Skype Entreprise Server ou Lync Server 2013.  Toutefois, le retrait à venir de Skype Entreprise Online aura un impact sur certaines api de la transition des clients avec Skype Entreprise Server local ou Lync Server 2013, y compris les organisations hybrides existantes, vers le cloud. Ce qui ne change pas après le retrait, c’est que l’utilisation de l’hybride comme moyen de transition de l’local vers le cloud reste inchangée.
+Le retrait à venir de Skype Entreprise Online n’a aucun impact sur le cycle de vie de support existant de Skype Entreprise Server ou Lync Server 2013.  Toutefois, le retrait à venir de Skype Entreprise Online aura un impact sur certains aspects de la transition des clients avec Skype Entreprise Server local ou Lync Server 2013, y compris les organisations hybrides existantes, vers le cloud. Ce qui ne change pas après le retrait, c’est que l’utilisation de l’hybride comme moyen de transition de l’local vers le cloud reste inchangée.
 
 Actuellement, et jusqu’au retrait de Skype Entreprise Online, les organisations hybrides peuvent se composer de trois types d’utilisateurs de base : 
 - Utilisateurs locaux (qui peuvent ou ne peuvent pas utiliser Teams, mais pas en mode Teams uniquement) 
@@ -53,12 +53,12 @@ Actuellement, et jusqu’au retrait de Skype Entreprise Online, les organisation
 - Utilisateurs TeamsOnly.
 
 Après le retrait de Skype Entreprise Online, toutefois, les organisations hybrides ne peuvent être constituées que de deux types d’utilisateurs de base : 
-- Les utilisateurs locaux (Qui peuvent utiliser Teams, mais pas en mode TeamsOnly)
+- Les utilisateurs locaux (Qui peuvent ou non utiliser Teams, mais pas en mode TeamsOnly)
 - Teams Utilisateurs uniquement. 
 
 Pour que les organisations passeront de Skype Entreprise Server ou Lync Server 2013 à Teams, elles doivent quand même configurer l’hybride à l’aide du même ensemble d’outils, exactement comme avant le retrait. Ce qui a changé, c’est que lors du déplacement d’un utilisateur de l’local vers Teams, il n’est plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement de l’local vers `-MoveToTeams` `Move-CsUser` TeamsOnly. Auparavant, si ce commutateur n’était pas spécifié, les utilisateurs passaient du mode d’accueil Skype Entreprise Server local à Skype Entreprise Online, et leur mode était inchangé. En prévision du retrait, lors du déplacement d’un utilisateur de l’local vers le cloud avec , les utilisateurs sont désormais automatiquement affectés au mode TeamsOnly et leurs réunions à partir de l’local sont automatiquement converties en réunions Teams, comme si le commutateur avait été spécifié, que le commutateur soit réellement spécifié `Move-CsUser` `-MoveToTeams` ou non. (Cela inclut les migrations de Lync Server 2013, qui n’ont jamais eu le `MoveToTeams` commutateur.) 
 
-De même, si un nouvel utilisateur est créé directement dans Microsoft 365 plutôt que sur site, il aura automatiquement le mode Teams Uniquement quel que soit le mode du client. (Ce comportement sera prochainement déployé avec le retrait.) N’oubliez pas que dans une organisation hybride, de nouveaux utilisateurs doivent être créés dans l’annuaire Active Directory local (puis synchronisés dans Microsoft 365), plutôt que de créer directement un utilisateur dans Microsoft 365, afin de s’assurer que les utilisateurs locaux peuvent router vers le nouvel utilisateur.
+De même, si un nouvel utilisateur est créé directement dans Microsoft 365 plutôt que sur site, cet utilisateur aura automatiquement le mode Teams Uniquement quel que soit le mode du client. (Ce comportement sera prochainement déployé avec le retrait.) N’oubliez pas que dans une organisation hybride, de nouveaux utilisateurs doivent être créés dans l’annuaire Active Directory local (puis synchronisés dans Microsoft 365), plutôt que de créer directement un utilisateur dans Microsoft 365, afin de s’assurer que les utilisateurs locaux peuvent router vers le nouvel utilisateur.
 
 Les modes de coexistence continueront d’exister après le retrait de Skype Entreprise Online. Comme auparavant, les utilisateurs ayant des comptes Skype Entreprise Server sur site peuvent se voir attribuer n’importe quel mode de coexistence à l’exception de TeamsOnly. Toutefois, après la mise en retrait, les utilisateurs d’accueil en ligne ne peuvent être que TeamsOnly (contrairement au moment où les utilisateurs Skype Entreprise Online peuvent être n’importe quel mode).  
 
@@ -72,7 +72,7 @@ Les modes de coexistence continueront d’exister après le retrait de Skype Ent
 
  Avec la connectivité hybride définie entre un déploiement local de Skype Entreprise Server et Teams, vous pouvez avoir certains utilisateurs sur site et d’autres en ligne.
 
-Ce type de configuration s’appuie sur la fonctionnalité d’espace d’adressamage SIP partagé et est parfois appelé « domaine fractioné », c’est-à-dire que les utilisateurs d’un domaine, tels que contoso.com, sont répartis entre l’utilisation de Skype Entreprise Server sur site et de Teams, comme illustré dans le diagramme suivant :
+Ce type de configuration s’appuie sur la fonctionnalité d’espace d’adressare SIP partagé et est parfois appelé « domaine fractioné », c’est-à-dire que les utilisateurs d’un domaine, tels que contoso.com, sont répartis entre l’utilisation de Skype Entreprise Server en local et de Teams, comme illustré dans le diagramme suivant :
 
 ![Skype Entreprise hybride -domaine fractioné](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -110,7 +110,7 @@ Après avoir configuré la connectivité hybride, vous pouvez déplacer les util
 
 <a name="BKMK_Topology"> </a>
 
-Pour configurer votre déploiement hybride avec **Teams,** vous devez avoir l’une des topologies suivantes :
+Pour configurer votre déploiement hybride avec **Teams,** vous devez avoir l’une des topologies prise en charge suivantes :
 
 - Déploiement de Skype Entreprise Server 2019 avec tous les serveurs exécutant Skype Entreprise Server 2019.
 - Déploiement de Skype Entreprise Server 2015 avec tous les serveurs exécutant Skype Entreprise Server 2015.
@@ -157,7 +157,7 @@ Les conditions suivantes doivent être remplies pour configurer correctement un 
 
 ## <a name="network-considerations"></a>Considérations relatives au réseau
 
-Les sections suivantes décrivent les éléments à prendre en compte :
+Les sections suivantes décrivent les éléments à prendre en compte pour :
 
 - Paramètres DNS
 - Considérations sur le pare-feu
@@ -172,7 +172,7 @@ En outre, vous devez vous assurer que la résolution DNS décrite dans le tablea
 
 |Enregistrement DNS  <br/> |Résolvable par  <br/> |Enregistrement DNS requis  <br/> |
 |:-----|:-----|:-----|
-|Enregistrement DNS SRV pour _sipfederationtls._tcp.\<sipdomain.com\> pour tous les domaines SIP pris en charge résolvant les adresses IP externes du edge d’accès  <br/> |Serveurs Edge  <br/> |Activer la communication fédérée dans une configuration hybride. Le serveur Edge doit savoir où router le trafic fédéré pour le domaine SIP qui est réparti entre le site local et en ligne.  <br/> Doit utiliser une correspondance de nom DNS stricte entre le domaine dans le nom d’utilisateur et l’enregistrement SRV.  <br/> |
+|Enregistrement DNS SRV pour _sipfederationtls._tcp.\<sipdomain.com\> pour tous les domaines SIP pris en charge résolvant les adresses IP externes du edge d’accès  <br/> |Serveurs Edge  <br/> |Activer la communication fédérée dans une configuration hybride. Le serveur Edge doit savoir où router le trafic fédéré pour le domaine SIP qui est réparti entre le trafic local et en ligne.  <br/> Doit utiliser une correspondance de nom DNS stricte entre le domaine dans le nom d’utilisateur et l’enregistrement SRV.  <br/> |
 |DNS A record(s) for Edge Web Conferencing Service FQDN, e.g. webcon.contoso.com resolving to Web Conferencing Edge external IP(s)  <br/> |Ordinateurs des utilisateurs connectés au réseau d’entreprise interne  <br/> |Permettre aux utilisateurs en ligne de présenter ou d’afficher du contenu dans des réunions hébergées sur site. Le contenu inclut PowerPoint fichiers, tableaux blancs, sondages et notes partagées.  <br/> |
 
 Selon la configuration du DNS dans votre organisation, vous devrez peut-être ajouter ces enregistrements à la zone DNS hébergée interne pour le ou les domaines SIP correspondants afin de fournir une résolution DNS interne à ces enregistrements.

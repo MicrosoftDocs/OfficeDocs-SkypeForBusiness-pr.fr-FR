@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: LSet-CcExternalCertificateFilePath cmdlet spécifie le chemin d’accès où le certificat pour le serveur de médiation ou le serveur Edge est stocké.
-ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344563"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
 LSet-CcExternalCertificateFilePath cmdlet spécifie le chemin d’accès où le certificat pour le serveur de médiation ou le serveur Edge est stocké.
   
-Ce certificat est requis lors du déploiement ou lors de l’ajout de nouvelles appliances de Skype Entreprise, version Cloud Connector. La commande permet également d’importer un nouveau certificat pour le serveur de médiation après le déploiement.
+Ce certificat est requis lors du déploiement ou lors de l’ajout de nouvelles appliances Skype Entreprise Cloud Connector Edition. La commande permet également d’importer un nouveau certificat pour le serveur de médiation après le déploiement.
   
-Cette cmdlet s’applique à Skype Entreprise, version Cloud Connector 1.4.1, 1.4.2.
+Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 1.4.1, 1.4.2.
   
 ```powershell
 Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServer} [-Path] <string> [-Import]  [<CommonParameters>]
@@ -82,7 +82,7 @@ La cmdlet Set-CcExternalCertificateFilePath n’accepte pas la saisie de donnée
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

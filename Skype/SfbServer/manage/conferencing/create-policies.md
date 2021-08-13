@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Résumé : Découvrez comment créer des stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344743"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment créer des stratégies de conférence dans Skype Entreprise Server.
   
-Vous pouvez créer des stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez créer des stratégies de conférence à l’Skype Entreprise Server du Panneau de Skype Entreprise Server Management Shell.
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Créer des stratégies de conférence à l’aide du Panneau de contrôle Skype Entreprise Server
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Créer des stratégies de conférence à l’aide Skype Entreprise Server panneau de bord
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2. Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
     
 4. Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     
@@ -116,7 +116,7 @@ Vous pouvez créer des stratégies de conférence à l’aide du Panneau de cont
     
 21. Cliquez sur **Valider**.
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Créer des stratégies de conférence à l’aide de Skype Entreprise Server Management Shell
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Créer des stratégies de conférence à l’aide Skype Entreprise Server Management Shell
 
 Pour créer des stratégies de conférence, utilisez l’cmdlet **New-CsConferencingPolicy.**
   

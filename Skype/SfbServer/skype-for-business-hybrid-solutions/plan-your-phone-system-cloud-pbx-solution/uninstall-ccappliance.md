@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
-description: La cmdlet Uninstall-CcAppliance désinstalle l’appliance de la version Cloud Connector de Skype Entreprise en cours d’exécution du serveur hôte.
-ms.openlocfilehash: c92ad5c31e2e254e4f10511835b6cc9f60c7c43c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Uninstall-CcAppliance désinstalle l’appliance Skype Entreprise Cloud Connector Edition en cours d’exécution du serveur hôte.
+ms.openlocfilehash: f82459e71ee3c7eea88030a2f265f0076a633a280ee3182920e599402f69a96c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824138"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344553"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
-La cmdlet Uninstall-CcAppliance désinstalle l’appliance de la version Cloud Connector de Skype Entreprise en cours d’exécution du serveur hôte. 
+La cmdlet Uninstall-CcAppliance désinstalle l’appliance Skype Entreprise Cloud Connector Edition en cours d’exécution du serveur hôte. 
   
 ```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
@@ -77,7 +77,7 @@ Aucun. La cmdlet Uninstall-CcAppliance n’accepte pas la saisie de données pip
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: En savoir plus sur les licences de modules supplémentaires, les fonctionnalités et la façon d’acheter Applications Microsoft 365 pour les grandes entreprises, ou Skype Entreprise Online Plan autonome 2.
-ms.openlocfilehash: 0a3056cf6cb409f1a3b1cd524d1d9da8c7e12b32
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a873a35c9550d218fac56294d7b65006602cc5887b5ebba43535beb6bf2570e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316390"
 ---
 # <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>Applications Microsoft 365 pour les grandes entreprises online Skype Entreprise online - Plan autonome 2
 

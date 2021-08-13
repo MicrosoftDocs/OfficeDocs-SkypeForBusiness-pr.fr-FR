@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: La table AppSharingMetricsThreshold contient les valeurs optimales et acceptables des mesures de qualité de l’expérience (QoE) utilisées avec le partage d’application. Ces seuils sont utilisés pour déterminer si l’expérience de partage d’application doit être qualifiée de médiocre.
-ms.openlocfilehash: 747497affbf561976bc6dd626bdce060efc1eca8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c3ee6c9742935cf7fc076c809a7aa3e09706391a58a6b1cc8025f5c5044dc5d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344593"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>Table AppSharingMetricsThreshold
  
@@ -41,7 +41,7 @@ Ce tableau a été introduit dans Microsoft Lync Server 2013.
 |**RDPTileProcessingLatencyBurstDensityAcceptable** <br/> |float  <br/> ||Cette colonne n’est pas utilisée dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayAverageOptimal** <br/> |float  <br/> ||Valeur optimale du retard unidirectionnel relatif entre les deux systèmes d’extrémité multimédias impliqués dans le partage d’application. Il s’agit d’une mesure de latence sur un seul tronçon. La valeur par défaut est 1,0 seconde.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayAverageAcceptable** <br/> |float  <br/> ||Valeur optimale du retard unidirectionnel relatif entre les deux systèmes d’extrémité multimédias impliqués dans le partage d’application. Il s’agit d’une mesure de latence sur un seul tronçon. La valeur par défaut est 1,75 s.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RDPTileProcessingLatencyAverageOptimal** <br/> |float  <br/> ||Valeur optimale de latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. La latence est la différence de temps entre le moment où l’image de démarrage est codée sur le serveur (partageur ou MCU en fonction du scénario) et la même image de démarrage est décodée sur la visionneuse.  <br/> Une moyenne élevée indique un délai d’affichage plus long. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est de 200 ms.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RDPTileProcessingLatencyAverageAcceptable** <br/> |float  <br/> ||Valeur acceptable de latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. La latence est la différence de temps entre le moment où l’image de démarrage est codée sur le serveur (partageur ou MCU en fonction du scénario) et la même image de démarrage est décodée sur la visionneuse.  <br/> Une moyenne élevée indique un délai d’affichage plus long. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est de 200 ms.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RDPTileProcessingLatencyAverageOptimal** <br/> |float  <br/> ||Valeur optimale de latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. La latence est la différence de temps entre le moment où l’image de démarrage est codée sur le serveur (partageur ou MCU selon le scénario) et la même image de démarrage est décodée sur la visionneuse.  <br/> Une moyenne élevée indique un délai d’affichage plus long. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est de 200 ms.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RDPTileProcessingLatencyAverageAcceptable** <br/> |float  <br/> ||Valeur acceptable de latence moyenne de traitement des mosaïques RDP sur le serveur de conférence AS par rapport à la durée de la session de visionnage. La latence est la différence de temps entre le moment où l’image de démarrage est codée sur le serveur (partageur ou MCU selon le scénario) et la même image de démarrage est décodée sur la visionneuse.  <br/> Une moyenne élevée indique un délai d’affichage plus long. Un serveur de conférence surchargé peut rencontrer des délais moyens plus élevés. La valeur par défaut est de 200 ms.  <br/> La colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
    
 

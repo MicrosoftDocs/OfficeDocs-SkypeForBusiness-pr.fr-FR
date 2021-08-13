@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs au cours d’une conférence (également appelée réunion).
-ms.openlocfilehash: 4895847cc4c05008830c285862556466036d5265
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0e39d37e3aa6a92a63fb4d5a62e34681f11d7ab9c5002e219db9df997c16247f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316250"
 ---
 # <a name="conferencing-policy"></a>Stratégie de conférence
 
@@ -63,18 +63,18 @@ La liste suivante décrit les champs de la page.
 
 - **Nom** Identifie la stratégie de conférence.
 
-- **Étendue** Identifie l’étendue de la stratégie de conférence : globale, de site ou utilisateur.
+- **Étendue** Identifie l’étendue de la stratégie de conférence : globale, de site ou d’utilisateur.
 
 - **Collaboration de données** Vérifié si la stratégie de conférence spécifie que la collaboration de données est autorisée dans les conférences.
 
-- **Partage d’application** Vérifié si la stratégie de conférence spécifie que le partage d’application est autorisé dans les conférences.
+- **Partage d’application** Cette vérification indique si la stratégie de conférence spécifie que le partage d’application est autorisé dans les conférences.
 
-- **Audio** Vérifié si la stratégie de conférence spécifie que l’audio est autorisé dans les conférences.
+- **Audio** Cette vérification est vérifiée si la stratégie de conférence spécifie que l’audio est autorisé dans les conférences.
 
 - **Vidéo** Cette vérification est vérifiée si la stratégie de conférence spécifie que la vidéo est autorisée dans les conférences.
 
 - **PSTN** Cette vérification indique si la stratégie de conférence indique que la conférence d’accès PSTN est autorisée.
 
-- **Enregistrement** Vérifié si la stratégie de conférence spécifie que l’enregistrement est autorisé dans les conférences.
+- **Enregistrement** Cette vérification indique si la stratégie de conférence spécifie que l’enregistrement est autorisé dans les conférences.
 
 Pour plus d’informations sur les fonctionnalités de conférence, voir [Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, voir [Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) dans la documentation des opérations.

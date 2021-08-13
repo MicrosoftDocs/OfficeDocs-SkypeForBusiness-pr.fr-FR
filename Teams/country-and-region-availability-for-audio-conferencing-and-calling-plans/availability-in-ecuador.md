@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pays Skype Entreprise et Microsoft Teams pour l’Équateur.
-ms.openlocfilehash: f48dca13ecfb3af4364f6c888c94e01781edcf9d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 965856014c4e9ca25b2e5dd4de18b99ab1d7f496e7e81608fd31aa87d9a7e9cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344363"
 ---
 # <a name="availability-in-ecuador"></a>Disponibilité en Equateur
 
@@ -83,7 +83,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

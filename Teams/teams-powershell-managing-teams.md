@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez comment gérer Microsoft Teams’aide Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71f68c813a1379c29cf64ad732eb5da1ffe4d188
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: d149def604b1a80b4af5ce18871b9842c4279d00db4d42c40f3556f5b35214d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238970"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299014"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Gérer Teams avec Microsoft Teams PowerShell
 
@@ -85,13 +85,13 @@ Les configurations sont des compartiments de paramètres conservés dans le serv
 
 Lisez [Utiliser Microsoft Teams rôles](using-admin-roles.md) d’administrateur pour gérer Teams pour comprendre quels rôles d’administrateur peuvent exécuter chaque cmdlet PowerShell.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Installation Teams PowerShell](teams-powershell-install.md)
 
 [Teams Notes de publication de PowerShell](teams-powershell-release-notes.md)
 
-[Teams des cmdlet](/powershell/teams/?view=teams-ps)
+[Informations de référence sur les applets de commande Teams](/powershell/teams/?view=teams-ps)
 
 [Skype Entreprise des cmdlet](/powershell/skype/intro?view=skype-ps)
 

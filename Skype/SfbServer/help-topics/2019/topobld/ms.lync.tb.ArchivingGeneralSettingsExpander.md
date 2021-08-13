@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le Générateur de topologie, vous pouvez modifier les propriétés d’un serveur individuel exécutant l’archivage en cliquant avec le bouton droit sur le serveur exécutant l’archivage dans l’arborescence de la console et en cliquant sur Action dans la barre d’outils, ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur Modifier les propriétés et en modifiant l’une des options suivantes :'
-ms.openlocfilehash: 841343a54ac3681659614a8ab89c02990290d9d6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 11eb80527065ea10336282f97b36e2327dbb2d65a57c6c864ddcafbef9be9810
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800744"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330318"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Expandeur des paramètres généraux du serveur d’archivage
  

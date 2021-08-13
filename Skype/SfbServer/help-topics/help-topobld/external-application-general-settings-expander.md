@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
-ms.openlocfilehash: 55f6bfee68370f8f341080e54953120e48f628f8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cbc1d58c3e4ecf5a3db6efd26cd66879c75f18b1b24baa036a4266a14bf0878b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329768"
 ---
 # <a name="external-application-general-settings-expander"></a>Expandeur des paramètres généraux d’une application externe
  
@@ -40,7 +40,7 @@ Sélectionnez **Activer la réplication des données de configuration sur ce poo
   
 ## <a name="next-hop-settings"></a>Paramètres du tronçon suivant
 
-Vous pouvez spécifier le serveur du saut suivant du pool de serveurs d’applications approuvé en sélectionnant le pool frontal Enterprise Edition défini ou le serveur frontal Standard Edition dans la liste liste. Un directeur ou un pool de directeurs n’est pas un choix valide pour un tronçon suivant de serveur d’applications approuvées et n’apparaîtra pas dans la liste.
+Vous pouvez spécifier le serveur du saut suivant du pool de serveurs d’applications approuvé en sélectionnant le pool frontal Êdition Entreprise défini ou le serveur frontal Édition Standard dans la liste liste. Un directeur ou un pool de directeurs n’est pas un choix valide pour un tronçon suivant de serveur d’applications approuvées et n’apparaîtra pas dans la liste.
   
 
 

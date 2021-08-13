@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez le tableau de bord de qualité des appels et comment l’utiliser pour consulter des rapports sur la qualité des réunions et des appels Microsoft Teams.
-ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 097a12c0e2a7104abe9a6214a24c958b5c3f6b6e2430f78b05aeef6e0f79736f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593832"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344483"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>Qu’est-ce que le tableau de bord de qualité des appels ?
 
@@ -66,7 +66,7 @@ Lisez Utiliser Power BI pour analyser les données [du CQD](CQD-Power-BI-query-t
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 

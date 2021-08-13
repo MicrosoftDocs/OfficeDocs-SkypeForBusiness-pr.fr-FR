@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits au Japon, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: 84992a40f778e3dd7319b65bbf734423b645bfda
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1815bec5c1f6ede6ae37f3ed717b145fb260800213bba97eecc6a6a6e83fff06
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097970"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297720"
 ---
 # <a name="toll-free-dialing-restrictions-in-japan"></a>Restrictions de numérotation gratuit au Japon
 
@@ -47,7 +47,7 @@ ms.locfileid: "51097970"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès aux réseaux mobiles : NTT Docomo, Au (KDD) et Softbank.  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

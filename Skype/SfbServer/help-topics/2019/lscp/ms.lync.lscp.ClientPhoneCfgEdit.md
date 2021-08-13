@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: Dans la page Nouvelle configuration d’appareil ou Modifier la configuration de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Phone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 47805db474169631b722cbd8e2af95ec42bc8fa6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Dans la page Nouvelle configuration d’appareil ou Modifier la configuration de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Téléphone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
+ms.openlocfilehash: f19a3d6018252fd0abc1ca717b50230aa5f063516e018e2b5b1745fa06a60388
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316330"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuration de l’appareil : création d’une nouvelle ou modification d’une configuration existante
  
-Dans la page **Nouvelle configuration d’appareil** ou Modifier la **configuration** de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Phone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
+Dans la page **Nouvelle configuration d’appareil** ou Modifier la **configuration** de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Téléphone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -42,9 +42,9 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
     
 - **Nom** Vous pouvez ajouter ou modifier le nom de la configuration de l’appareil.
     
-- **Sécurité SIP** Vous pouvez configurer les exigences de transport et d’authentification pour les appareils Skype Entreprise Phone Edition. Vous pouvez sélectionner l’une des options suivantes :
+- **Sécurité SIP** Vous pouvez configurer les exigences de transport et d’authentification pour les Skype Entreprise Téléphone Édition. Vous pouvez sélectionner l’une des options suivantes :
     
-  - **Faible** Autoriser tout type d’autorisation ou de transport.
+  - **Faible** Autorisez tout type d’autorisation ou de transport.
     
   - **Moyen** NTLM ou Kerberos est requis pour l’authentification des utilisateurs.
     
@@ -52,15 +52,15 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
     
 - **Niveau de journalisation** Vous pouvez activer la journalisation sur le périphérique UC. Les valeurs valides sont : Off; Faible ; Moyen ; et Élevé. La valeur par défaut est Off.
     
-- **Qualité de service vocale (QoS)** Vous pouvez spécifier la valeur DSCP affectée au trafic vocal provenant d’un appareil Skype Entreprise Phone Edition. La valeur par défaut est 40. Toutefois, 40 n’est pas la valeur généralement utilisée pour le trafic audio ; au lieu de cela, le trafic audio est presque toujours marqué avec le code DSCP 46. Afin de maintenir la cohérence dans l’ensemble de votre réseau, vous pouvez modifier cette valeur sur 46.
+- **Qualité de service vocale (QoS)** Vous pouvez spécifier la valeur DSCP affectée au trafic vocal provenant d’un Skype Entreprise Téléphone Edition. La valeur par défaut est 40. Toutefois, 40 n’est pas la valeur généralement utilisée pour le trafic audio ; au lieu de cela, le trafic audio est presque toujours marqué avec le code DSCP 46. Afin de maintenir la cohérence dans l’ensemble de votre réseau, vous pouvez modifier cette valeur sur 46.
     
-- **Verrouillage du téléphone** Vous pouvez spécifier si les téléphones UC se verrouilleront automatiquement après une période d’inactivité spécifiée. Voici les paramètres que vous pouvez configurer :
+- **Téléphone verrouillage** Vous pouvez spécifier si les téléphones UC se verrouilleront automatiquement après une période d’inactivité spécifiée. Les paramètres que vous pouvez configurer sont les suivants :
     
   - **Appliquer le verrouillage de l’appareil** Vous pouvez appliquer le verrouillage de l’appareil en cocher cette case.
     
   - **Longueur minimale du code confidentiel** Vous pouvez spécifier la longueur minimale du code confidentiel utilisé pour déverrouiller le téléphone. Ce code peut être constitué de quatre à quinze chiffres. La longueur par défaut est six chiffres.
     
-  - **Délai d’verrouillage du téléphone** Vous pouvez spécifier la durée minimale avant le verrouillage du téléphone proprement dit. Ce délai est compris entre 0 et 60 minutes ; la valeur par défaut est 10 minutes. Le format de cette valeur est HH:MM:SS.
+  - **Téléphone délai d’Téléphone verrouillage** Vous pouvez spécifier la durée minimale avant que le téléphone ne se verrouille lui-même. Ce délai est compris entre 0 et 60 minutes ; la valeur par défaut est 10 minutes. Le format de cette valeur est HH:MM:SS.
     
 ## <a name="see-also"></a>Voir aussi
 

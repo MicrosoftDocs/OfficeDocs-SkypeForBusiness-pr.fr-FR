@@ -18,23 +18,23 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Découvrez comment déplacer des utilisateurs vers Skype Entreprise Online.
-ms.openlocfilehash: fcb1d508230c4faa18da4a473d9e24d384b047a6
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: dd0d154194de79716665a16e8a156c8bf825a0838e91a43ef15246970c48b48e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509945"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298914"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Déplacer les utilisateurs de l’environnement local vers Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Après avoir fait passer un utilisateur de l’local vers Skype Entreprise Online, l’utilisateur interagit avec Skype Entreprise Online pour sa fonctionnalité. Tous les contacts qui existaient en local seront disponibles dans Skype Entreprise Online, et toutes les réunions existantes organisées par l’utilisateur à l’avenir sont mises à jour de sorte que les liens pointent vers Skype Entreprise Online. Si l’utilisateur est activé pour l’audioconférence, les réunions incluent également les coordonnées d’accès.  Pour déplacer des utilisateurs d’un environnement local vers Skype Entreprise Online, utilisez la cmdlet Move-CsUser ou le Panneau de Skype Entreprise Server, qui sont tous deux des outils locaux. 
+Après avoir fait passer un utilisateur de l’local vers Skype Entreprise Online, l’utilisateur interagit avec Skype Entreprise Online pour sa fonctionnalité. Tous les contacts qui existaient en local seront disponibles dans Skype Entreprise Online, et toutes les réunions existantes organisées par l’utilisateur à l’avenir sont mises à jour de sorte que les liens pointent vers Skype Entreprise Online. Si l’utilisateur est activé pour l’audioconférence, les réunions incluent également des coordonnées d’accès.  Pour déplacer des utilisateurs d’un environnement local vers Skype Entreprise Online, utilisez la cmdlet Move-CsUser ou le Panneau de Skype Entreprise Server, qui sont tous deux des outils locaux. 
 
 Avant de déplacer des utilisateurs, veillez à passer en revue les conditions préalables pour déplacer les [utilisateurs](move-users-between-on-premises-and-cloud.md#prerequisites) vers le cloud.
 
 > [!NOTE]
-> En préparation du retrait à venir de Skype Entreprise Online, Microsoft a simplifié la façon dont les organisations se déplacent vers Teams. Lors du déplacement des utilisateurs de l’local vers le cloud, le mode TeamsOnly est désormais automatiquement affecté aux utilisateurs et leurs réunions depuis l’ordinateur local sont converties automatiquement en réunions Teams, comme si le commutateur avait été spécifié, que le commutateur soit ou non réellement `-MoveToTeams` spécifié.  Avant le retrait de Skype Entreprise Online, les organisations qui nécessitent le déplacement d’utilisateurs locaux vers Skype Entreprise Online peuvent y parvenir en deux étapes en mettant à jour le mode de l’utilisateur après son déplacement vers *TeamsOnly.* Toutefois, dans un futur proche, il ne sera plus possible d’attribuer un mode autre que TeamsOnly aux utilisateurs qui sont dans le cloud.  
+> En préparation du retrait à venir de Skype Entreprise Online, Microsoft a simplifié la façon dont les organisations se déplacent vers Teams. Lors du déplacement des utilisateurs de l’local vers le cloud, le mode TeamsOnly est désormais automatiquement affecté aux utilisateurs et leurs réunions depuis l’local sont automatiquement converties en réunions Teams, comme si le commutateur avait été spécifié, que le commutateur soit ou non réellement `-MoveToTeams` spécifié.  Avant le retrait de Skype Entreprise Online, les organisations qui nécessitent le déplacement d’utilisateurs locaux vers Skype Entreprise Online peuvent y parvenir en deux étapes en mettant à jour le mode de l’utilisateur après son déplacement vers *TeamsOnly.* Toutefois, dans un futur proche, il ne sera plus possible d’attribuer un mode autre que TeamsOnly aux utilisateurs qui sont dans le cloud.  
  
 ## <a name="move-users-with-move-csuser"></a>Déplacer des utilisateurs avec Move-CsUser 
 

@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez comment passer d’Skype Entreprise Online Connector au module PowerShell Teams à gérer les Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299004"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Migration d’Skype Entreprise Online Connector vers le module Teams PowerShell
 
@@ -90,7 +90,7 @@ Gagnez du temps en commençant votre demande de service en ligne. Nous vous aide
 
 5.  Entrez une description de votre problème, confirmez votre numéro de contact et votre adresse de courrier, sélectionnez votre méthode de contact préférée, puis **Contactez-moi.** Le temps d’attente attendu est indiqué dans le cas où vous avez besoin d’aide ? .
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Installer Microsoft Teams PowerShell](teams-powershell-install.md)
 

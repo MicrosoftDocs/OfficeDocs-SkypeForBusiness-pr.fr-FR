@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques des Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
-ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+ms.openlocfilehash: 04b18e8f1767f7c32818e53305aead863e1ed753bec23a6c6f86a43464b03d5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53129334"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298094"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Standard automatique & historique de la file d’attente d’appels
 
@@ -87,11 +87,11 @@ Effectuez les étapes suivantes :
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran montrant la connexion":::
 
-- Sélectionnez **Connecter** et regardez l’actualisation des données.
+- Sélectionnez **Connecter** et regardez les données s’actualiser.
 
-## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analyse du & de qualité des données
+## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analyse de qualité des & données
 
-Les données seront disponibles dans le pipeline de données du DQD dans les 30 minutes.
+Les données seront disponibles dans le pipeline de données du CQD dans les 30 minutes.
 
 Vous devez actualiser les données pour voir les nouvelles données d’analyse. 
 
@@ -158,8 +158,8 @@ Effectuez les étapes suivantes :
 |Nom                                    |Type de données                |Description                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |Nom AA                                 |texte                     |Nom du compte de ressource joint à Standard automatique<br><br>Si le nom complet du compte de **ressource aa_test@microsoft.com** alors cette valeur est : **aa_test** |
-|AACallerActionCount                     |nombre entier             |Résumer : Somme<br>Nombre d’actions sélectionnées par l’appelant dans Standard automatique’un appel  |
-|AACallFlow                              |texte                     |Encapsule les différents états d’un Standard automatique appel (valeurs possibles) :<br><br>§ abs_search<br>§ annonce<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallerActionCount                     |nombre entier             |Résumer : Somme<br>Nombre d’actions sélectionnées par l’appelant dans Standard automatique’appel  |
+|AACallFlow                              |texte                     |Encapsule les différents états des Standard automatique appel (valeurs possibles) :<br><br>§ abs_search<br>§ annonce<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
 |AACallResult                            |texte                     |Résultat de l’appel final - valeurs possibles :<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ inconnu<br>§ user_terminated |
 |AAChainDuration                         |nombre décimal           |Résumer : Somme<br>Durée de l’appel dans Standard automatique                     |
 |AAChainIndex                            |texte                     |                                                                         |
@@ -208,7 +208,7 @@ Effectuez les étapes suivantes :
 |Source d’appel entrant<sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |Appels externes : Le type d’appel est externe<br>Appels internes : le type d’appel est interne |
 |Avg Waiting Time                    |fCallQueueFinalStateAction -> Durée moyenne des appels (secondes) |Avant transfert : le résultat des appels de la file d’attente agent_joined_conference ou transferred_to_agent<br>Avant de raccrocher : le résultat des appels de la file d’attente n’est agent_joined_conference ou transferred_to_agent |
 |Résultat de l’appel                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> d’appel dans la file d’attente | Aucun |
-|Action totale des appels en dépassement de délai/dépassement de capacité |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> File d’attente d’appels - Action finale d’état |L’action d’état final de la file d’attente d’appels n’est pas en avance |
+|Action totale des appels de dépassement de délai d’dépassement de capacité |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> File d’attente d’appels Final State Action |L’action d’état final de la file d’attente d’appels n’est pas en avance |
 |Totaux cibles des transferts/forards       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Type de cible de la file d’attente d’appels |Aucun |
 |Volumes d’appel                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Identification de la file d’attente d’appels<br>fCallQueueAnalytics -> Date |Aucun |
 |Appels abandonnés                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned est True |
@@ -246,10 +246,10 @@ Effectuez les étapes suivantes :
 
 |Nom                                    |Type de données                |Description                                        |
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
-|Durée moyenne de l’appel (secondes)         |nombre décimal           |Résumer : Somme<br>Durée moyenne des appels en secondes |
+|Durée moyenne de l’appel (secondes)         |nombre décimal           |Résumer : Somme<br>Durée moyenne de l’appel en secondes |
 |Nombre d’appels                              |nombre entier             |Résumer : Somme<br>Nombre d'appels                  |
 |Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>L’échec de §<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
-|Action d’état final de la file d’attente d’appels           |texte                     |Action finale de la file d’attente d’appels : valeurs possibles :<br><br>§ déconnecter<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ avancer<br>§ shared_voicemail<br>§ autre<br>§ voicemail |
+|Action d’état final de la file d’attente d’appels           |texte                     |Action finale de la file d’attente d’appels - valeurs possibles :<br><br>§ déconnecter<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ avancer<br>§ shared_voicemail<br>§ autre<br>§ messagerie vocale |
 |Identité de la file d’attente d’appels                     |texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
 |Date                                    |date/heure                |Date et heure de début des appels en file d’attente (heure) (UTC)   |
 |IsAbandoned                             |true/false               |Vrai si l’appel n’a pas reçu de réponse d’un agent           |

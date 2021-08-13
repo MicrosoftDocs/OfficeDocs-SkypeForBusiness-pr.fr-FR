@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Vous configurez des options avancées pour l’emplacement des fichiers de base de données et de journaux sur SQL Server. Les options disponibles sont les suivantes :'
-ms.openlocfilehash: 4b4323f2b0e953ff24a458a2f28f75f52d4f0149
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Vous configurez des options avancées pour l’emplacement des fichiers de base de données et des fichiers journaux sur SQL Server. Les options disponibles sont les suivantes :'
+ms.openlocfilehash: 1dcf386be6978a8f2b3524310ff53ae7fb2be5c1b59991c13db7251d833ed341
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121642"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330188"
 ---
 # <a name="install-database-options-page"></a>Page des options Installer une base de données
 
@@ -31,9 +31,9 @@ Vous configurez des options avancées pour l’emplacement des fichiers de base 
 
  **Déterminer** automatiquement l’emplacement du fichier de base de données : l’option par défaut utilise un algorithme qui détermine l’espace disponible sur le SQL Server et distribue la base de données et les fichiers journaux pour des performances optimales.
 
- **Utilisez SQL Server défaut de l’instance**: sélectionnez cette option pour placer les fichiers de base de données et les fichiers journaux en fonction des paramètres de l’instance SQL Server. Généralement, les options sont gérées et configurées par votre administrateur de base de données.
+ **Utilisez SQL Server défaut de l’instance** de base de données : sélectionnez cette option pour placer les fichiers de base de données et les fichiers journaux en fonction des paramètres de l’instance SQL Server. Généralement, les options sont gérées et configurées par votre administrateur de base de données.
 
- Us **these path on target SQL Server :** Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
+ Us **these path on target SQL Server:** Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
 
 > [!IMPORTANT]
 > Les chemins d’accès que vous entrez peuvent être modifiés selon les algorithmes d’optimisation de performance dans l’installation. Pour plus d’informations, voir la documentation [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell).

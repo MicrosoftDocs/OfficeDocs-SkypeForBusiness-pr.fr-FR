@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
-description: LUpdate-CcCACertificate de la cmdlet renouvelle le certificat de l’ac racine de la version Cloud Connector de Skype Entreprise qui est sur le point d’expirer ou qui a déjà expiré.
-ms.openlocfilehash: 9a99e80e166b7c8624867594fa02243d9d70537e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Update-CcCACertificate renouvele le certificat d Skype Entreprise Cloud Connector Edition’ac racine qui est sur le point d’expirer ou qui a déjà expiré.
+ms.openlocfilehash: 640ca982cd005e9805d7214212d847edcc6856456b6995fe1ae689778da58f61
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824118"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344533"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
-LUpdate-CcCACertificate de la cmdlet renouvelle le certificat de l’ac racine de la version Cloud Connector de Skype Entreprise qui est sur le point d’expirer ou qui a déjà expiré. 
+La cmdlet Update-CcCACertificate renouvele le certificat d Skype Entreprise Cloud Connector Edition’ac racine qui est sur le point d’expirer ou qui a déjà expiré. 
   
 ```powershell
 Update-CcCACertificate

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: Vous pouvez utiliser la section Catégorie de la page Conversation permanente pour configurer des catégories. Une catégorie de salle de conversation permanente est une structure logique d’organisation des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour le contrôle des utilisateurs et groupes d’utilisateurs autorisés à créer ou rejoindre les salles de conversation. Vous pouvez utiliser des catégories pour appliquer des limites éthiques entre différentes subdivisions au sein de leurs organisations.
-ms.openlocfilehash: f7718a5d6cc92c0036f28843d21c4c349c0bc38d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 009cc7ef5cd35b7637f687043a0a5c5ddd24fa2f228c95a8bb4660b4c9140b47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803744"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299820"
 ---
 # <a name="persistent-chat-category"></a>Catégorie de conversation permanente
  
@@ -28,7 +28,7 @@ Vous pouvez utiliser la section **Catégorie** de la page **Conversation** perma
   
 Les catégories de salles de conversation peuvent contenir des salles de conversation, mais pas d’autres catégories. Chaque catégorie décrit son contenu avec des métadonnées, telles que _nom_ et _description._ En outre, la catégorie possède des propriétés qui peuvent être définies pour contrôler le comportement des salles de conversation qui lui appartiennent, par exemple si les salles de conversation autorisent les _invitations_ ou les _téléchargements_ de fichiers, ou contiennent l’historique de _conversation._
   
-Pour créer une catégorie, voir [Manage categories in Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/categories.md). Si vous êtes administrateur de conversation permanente, vous pouvez créer des catégories à l’aide du panneau de Windows PowerShell cmdlets.
+Pour créer une catégorie, voir [Manage categories in Persistent Chat Server in Skype Entreprise Server 2015](../../manage/persistent-chat/categories.md). Si vous êtes administrateur de conversation permanente, vous pouvez créer des catégories à l’aide du panneau de Windows PowerShell cmdlets.
   
 ## <a name="tasks-that-you-can-perform"></a>Tâches que vous pouvez effectuer
 
@@ -44,7 +44,7 @@ Vous pouvez effectuer les tâches suivantes dans la page **Catégorie** :
 
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Catégorie**.
     
@@ -65,7 +65,7 @@ Vous pouvez effectuer les tâches suivantes dans la page **Catégorie** :
 10. Pour contrôler les téléchargements de fichiers dans les salles de conversation appartenant à cette catégorie, activez ou désactivez la case à cocher **Activer le téléchargement de fichiers**. Si la case à cocher est activée, les salles de cette catégorie peuvent activer ou désactiver les téléchargements de fichiers. Si la case à cocher est désactivée, les salles de cette catégorie ne sont pas autorisées à activer les téléchargements de fichiers.
     
      > [!IMPORTANT]
-     > Ce paramètre est appliqué sur le serveur car les applications personnalisées ou les clients de conversation de groupe précédents qui utilisent Office Communications Server 2007 R2 Group Chat Server ou Lync Server 2010 peuvent publier des fichiers dans une salle. Le client Lync 2013 n’a pas de fonctionnalité de téléchargement/téléchargement de fichiers. Par conséquent, si vous avez un déploiement Lync 2013 pur ou un client Lync 2013, il n’est pas possible de publier des fichiers dans une salle de conversation du serveur de conversation permanente. 
+     > Ce paramètre est appliqué sur le serveur car les applications personnalisées ou les clients group chat précédents qui utilisent Office Communications Server 2007 R2 Group Chat Server ou Lync Server 2010, Group Chat peuvent publier des fichiers dans une salle. Le client Lync 2013 n’a pas de fonctionnalité de téléchargement/téléchargement de fichiers. Par conséquent, si vous avez un déploiement Lync 2013 pur ou un client Lync 2013, il n’est pas possible de publier des fichiers dans une salle de conversation du serveur de conversation permanente. 
   
 11. Pour contrôler l’historique des conversation, activez ou videz la case à cocher **Activer l’historique des** conversation. Si la case à cocher est activée, les conversations des salles deviennent permanentes ; sinon, les messages des conversations ne sont pas conservés. Si la conformité est activée, les conversations des salles sont enregistrées à des fins de conformité mais les utilisateurs ne peuvent pas accéder aux anciens messages. Cette option peut être utilisée pour les salles désignées pour des collaborations ad hoc en temps réel qui n’ont pas besoin d’être persistantes dans l’historique des conversation.
     
@@ -81,6 +81,6 @@ Vous pouvez effectuer les tâches suivantes dans la page **Catégorie** :
     
 ## <a name="see-also"></a>Voir aussi
 
-Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur de conversation permanente, voir [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), [Deploy Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md), and [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
+Pour plus d’informations sur les fonctionnalités et les fonctionnalités du serveur de conversation permanente, voir [Plan for Persistent Chat Server in Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md), Deploy Persistent Chat Server in Skype Entreprise Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)et [Manage Persistent Chat Server in Skype Entreprise Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
 

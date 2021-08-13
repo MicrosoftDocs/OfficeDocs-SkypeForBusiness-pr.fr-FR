@@ -15,19 +15,19 @@ localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le service web de mise à jour des appareils crée automatiquement des fichiers journaux qui enregistrent l’activité de mise à jour des périphériques. Dans le cadre de la stratégie de gestion des données de votre organisation, vous pouvez définir des seuils sur la taille du cache de données du journal, la taille des fichiers journaux ou la durée de la durée de la mise à jour d’un fichier journal avant sa purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation. Si vous ne souhaitez pas que le service web de mise à jour des appareils supprime définitivement et automatiquement les fichiers journaux, vous pouvez les supprimer manuellement, le cas échéant. Les paramètres des journaux peuvent être modifiés globalement ou par site.
-ms.openlocfilehash: c9bd2c3077325540e6151fabd7bc4127b909a12a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ef84325709a6648bec8eb9ff14c8433510f1bf6cabafb8b39dfb86a6f54d238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330438"
 ---
 # <a name="device-log-configuration"></a>Configuration du fichier journal de l’appareil
 
 Le service web de mise à jour des appareils crée automatiquement des fichiers journaux qui enregistrent l’activité de mise à jour des périphériques. Dans le cadre de la stratégie de gestion des données de votre organisation, vous pouvez définir des seuils sur la taille du cache de données du journal, la taille des fichiers journaux ou la durée de la durée de la mise à jour d’un fichier journal avant sa purge. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation. Si vous ne souhaitez pas que le service web de mise à jour des appareils supprime définitivement et automatiquement les fichiers journaux, vous pouvez les supprimer manuellement, le cas échéant. Les paramètres des journaux peuvent être modifiés globalement ou par site.
 
 > [!NOTE]
-> Vous pouvez également configurer une heure à laquelle vous souhaitez que le service web de mise à jour des appareils supprime automatiquement les fichiers journaux dont l’ancienneté dépasse le nombre de jours de conservation que vous avez configuré (par défaut, les fichiers journaux de plus de 10 jours sont supprimés). Ce paramètre ne peut pas être modifié à l’aide du Panneau de configuration de Skype Entreprise Server. Au lieu de cela, vous devez utiliser Skype Entreprise Server Management Shell. Pour spécifier l’heure de suppression des fichiers journaux expirés, utilisez **l’cmdlet New-CsDeviceUpdateConfiguration** avec le paramètre -LogCleanUpTimeOfDay. Pour plus d’informations, [voir New-CsDeviceUpdateConfiguration](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps).
+> Vous pouvez également configurer une heure à laquelle vous souhaitez que le service web de mise à jour des appareils supprime automatiquement les fichiers journaux dont l’ancienneté dépasse le nombre de jours de conservation que vous avez configuré (par défaut, les fichiers journaux de plus de 10 jours sont supprimés). Ce paramètre ne peut pas être modifié à l’Skype Entreprise Server panneau de configuration. À la place, vous devez utiliser Skype Entreprise Server Management Shell. Pour spécifier l’heure de suppression des fichiers journaux expirés, utilisez **l’cmdlet New-CsDeviceUpdateConfiguration** avec le paramètre -LogCleanUpTimeOfDay. Pour plus d’informations, [voir New-CsDeviceUpdateConfiguration](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps).
 
 > [!CAUTION]
 > Cette suppression les élimine définitivement du système de fichiers. Après avoir supprimé définitivement un fichier, vous ne pouvez pas le récupérer.
@@ -62,4 +62,4 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Modifier les paramètres des fichiers journaux de l’activité de mise à jour des périphériques](/previous-versions/office/lync-server-2013/lync-server-2013-modify-settings-for-device-update-log-files)
+[Modifier les Paramètres fichiers journaux de l’activité de mise à jour des périphériques](/previous-versions/office/lync-server-2013/lync-server-2013-modify-settings-for-device-update-log-files)

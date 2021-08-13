@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Découvrez comment payer les crédits de communication (consommation PSTN) pour les services Skype Entreprise et consultez les plans pour conserver à vos utilisateurs un accès système téléphonique continu. '
-ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6f96b56400e3186a6d4df3276204359c6943d10113f3967eef59322e461f1092
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344413"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
@@ -77,11 +77,11 @@ Vous pouvez consulter les plans et les tarifs en visitant l’un des liens suiva
 
 - [Système téléphonique de projets](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Vous pouvez également consulter des informations en vous Microsoft 365 au Centre d’administration de facturation et en vous rendez **sur**  >  **Abonnements de**  >  **facturation Ajouter des abonnements.**
+Vous pouvez également consulter des informations en vous Centre d’administration Microsoft 365 sur La facturation  >  **des abonnements**  >  **Ajouter des abonnements.**
   
 Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez Microsoft Teams [licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 

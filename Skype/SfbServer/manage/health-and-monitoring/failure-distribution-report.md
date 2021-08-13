@@ -1,5 +1,5 @@
 ---
-title: Rapport de répartition des défaillances dans Skype Entreprise Server
+title: Rapport de répartition des défaillances Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Résumé : Découvrez le rapport de répartition des défaillances dans Skype Entreprise Server.'
-ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344723"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de répartition des défaillances dans Skype Entreprise Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de répartition des défaillances Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de répartition des défaillances dans Skype Entreprise Server.
   
@@ -49,11 +49,11 @@ Vous pouvez accéder au rapport de répartition des défaillances à partir de l
   
 - [Rapport des principales défaillances dans Skype Entreprise Server](top-failures-report.md)
     
-- [Rapport de diagnostic de conférence dans Skype Entreprise Server](conference-diagnostic-report.md)
+- [Rapport de diagnostic de conférence en Skype Entreprise Server](conference-diagnostic-report.md)
     
 - [Rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md)
     
-Dans le rapport de répartition des défaillances, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le rapport des listes [d’échecs dans Skype Entreprise Server](failure-list-report.md):
+Dans le rapport de répartition des défaillances, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le rapport des listes d’échecs [dans Skype Entreprise Server](failure-list-report.md):
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -92,7 +92,7 @@ Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapp
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions ou du serveur Edge. Vous pouvez sélectionner un pool individuel ou cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante est renseignée automatiquement en fonction des enregistrements de la base de données.<br/> |
 |**Type d’activité** <br/> | Type d’activité à filtrer. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Pair à pair <br/>  Programme <br/> |
 |**Catégorie de session** <br/> | Indique si l’activité en question a réussi ou échoué. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Opération réussie <br/>  Échec attendu <br/>  Échec inattendu <br/>  Un « échec attendu » est un échec prévisible. Par exemple, si un utilisateur a défini son statut en Ne pas déranger, vous attendez que tout appel à cette personne échoue. Un « échec inattendu » est un échec qui se produit dans un système sain. Par exemple, un appel n’est pas censé s’interrompre lorsque l’appelant est mis en attente. Si cela se produit, l’incident est marqué comme un échec inattendu. <br/> |
@@ -132,7 +132,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du pool de serveurs d’inscriptions ou du serveur Edge sur lequel la session a été menée.  <br/> |
 |**Pools principaux** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge.  <br/> |
-|**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par pool de serveurs d’inscriptions ou serveur Edge.  <br/> |
+|**Sessions** <br/> |Non  <br/> |Nombre total de sessions en échec par pool de serveurs d’inscriptions ou serveur Edge.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Mesures pour les sources principales
 
@@ -154,7 +154,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
 
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction d’un composant (par exemple, ExumRouting, GroupChat ou MediationServer).  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du composant (par exemple, ExumRouting, GroupChat ou MediationServer).  <br/> |
 |**Principaux composants** <br/> |Non  <br/> |Nom du composant impliqué dans la session qui a échoué.  <br/> |
 |**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par composant.  <br/> |
    

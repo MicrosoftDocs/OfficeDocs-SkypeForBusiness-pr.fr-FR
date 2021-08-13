@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits au Chili, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
-ms.openlocfilehash: 3b3affb2168c821e11d8aa526815384776c7971c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 09aa1fc71208048d5a1665f43b9e9f067e1b47e5503a4541b938723725e96925
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297760"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>Restrictions de numérotation gratuit au Chili
 
@@ -47,7 +47,7 @@ ms.locfileid: "51116802"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Le format de numéro 188 800 XXX XXX est accessible via le réseau Telefonica. Le format de nombre XXXX 123 est accessible à partir du réseau Entel uniquement. L'accès mobile est accessible via les deux formats de numéro.  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)

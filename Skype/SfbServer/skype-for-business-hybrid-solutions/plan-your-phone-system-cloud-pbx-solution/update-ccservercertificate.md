@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
-description: LUpdate-CcServerCertificate cmdlet renouvelle les certificats pour skype entreprise, version Cloud Connector lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré.
-ms.openlocfilehash: da52efcd3fdf6a0793e085098bf6f72725115e9c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Update-CcServerCertificate renouvele les certificats pour les Skype Entreprise Cloud Connector Edition lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré.
+ms.openlocfilehash: 0545f4923a4f1abd654674024313c6f22665cb7123d87d9d21c3676452bd8fcf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344523"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
-LUpdate-CcServerCertificate cmdlet renouvelle les certificats pour skype entreprise, version Cloud Connector lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. 
+La cmdlet Update-CcServerCertificate renouvele les certificats pour les Skype Entreprise Cloud Connector Edition lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. 
   
 ```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
@@ -69,7 +69,7 @@ Aucun. La cmdlet Update-CcServerCertificate n’accepte pas la saisie de donnée
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

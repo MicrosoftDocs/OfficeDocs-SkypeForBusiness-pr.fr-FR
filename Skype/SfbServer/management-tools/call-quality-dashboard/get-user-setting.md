@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: 'Résumé : Découvrez l’opération Obtenir les paramètres utilisateur, qui fait partie du service paramètres utilisateur. Le service paramètres utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 82632f5de7ae215d6f34d9f0b39e500fb713a1be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez l’opération Obtenir les paramètres utilisateur, qui fait partie du service d’Paramètres utilisateur. Le service Paramètres utilisateur fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
+ms.openlocfilehash: 5ea18a5ae5307bbf392796f95f7dcce8393371bdb8ddcfc192cb32d819494aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298154"
 ---
 # <a name="get-user-setting"></a>Obtention d’un paramètre utilisateur
  
-**Résumé :** Découvrez l’opération Obtenir les paramètres utilisateur, qui fait partie du service paramètres utilisateur. Le service paramètres utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez l’opération Obtenir les paramètres utilisateur, qui fait partie du service d’Paramètres utilisateur. Le service Paramètres utilisateur fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’opération Obtenir les paramètres utilisateur fait partie du service paramètres utilisateur dans l’API référentiel pour le tableau de bord de qualité des appels.
+L’opération Obtenir les paramètres utilisateur fait partie du service Paramètres utilisateur dans l’API référentiel pour le tableau de bord de qualité des appels.
   
 ## <a name="get-user-setting"></a>Obtention d’un paramètre utilisateur
 

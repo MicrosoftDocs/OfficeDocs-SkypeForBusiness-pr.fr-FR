@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: Une configuration d’appareil est un ensemble de paramètres utilisés pour gérer les appareils Skype Entreprise Phone Edition, globalement ou au sein d’un site. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 60d9ab8c09b648df14758056fed6096439b7f811
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Une configuration d’appareil est un ensemble de paramètres utilisés pour gérer les appareils Skype Entreprise Téléphone Edition, globalement ou au sein d’un site. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
+ms.openlocfilehash: c8f1b8e453bf92c103808c0e3500597d1a81b57ed61e4cc22856aeab2284e5b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316310"
 ---
 # <a name="device-configuration"></a>Configuration de l’appareil
  
-Une configuration d’appareil est un ensemble de paramètres utilisés pour gérer les appareils Skype Entreprise Phone Edition, globalement ou au sein d’un site. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée. 
+Une configuration d’appareil est un ensemble de paramètres utilisés pour gérer les appareils Skype Entreprise Téléphone Edition, globalement ou au sein d’un site. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée. 
   
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
