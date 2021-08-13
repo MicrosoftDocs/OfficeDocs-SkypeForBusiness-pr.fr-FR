@@ -1,5 +1,5 @@
 ---
-title: Déléguer le contrôle administratif de Skype Entreprise Server
+title: Déléguer le contrôle administratif des Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: eb78fc7e0f831bae1c5dd6e207791e27aa4c68d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e6238e51051586ffb579947f6c6c3b6693a1c0aebba40e56915c67b016190997
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832794"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334975"
 ---
-# <a name="delegate-administrative-control-of-skype-for-business-server"></a>Déléguer le contrôle administratif de Skype Entreprise Server 
+# <a name="delegate-administrative-control-of-skype-for-business-server"></a>Déléguer le contrôle administratif des Skype Entreprise Server 
 
-Dans Skype Entreprise Server, les tâches administratives sont déléguées aux utilisateurs à l’aide de la fonctionnalité de contrôle d’accès basé sur un rôle (RBAC). Lorsque vous installez Skype Entreprise Server, un certain nombre de rôles RBAC sont créés pour vous. Ces rôles correspondent aux groupes de sécurité universels dans les services de domaine Active Directory. Par exemple, le rôle RBAC CsHelpDesk correspond au groupe CsHelpDesk trouvé dans le conteneur Utilisateurs des services de domaine Active Directory. En outre, chaque rôle RBAC est associé à un ensemble d’Windows PowerShell cmdlets Skype Entreprise Server. Ces cmdlets représentent les tâches qui peuvent être effectuées par les utilisateurs qui ont reçu le rôle RBAC donné. Par exemple, le rôle CsHelpDesk a reçu les cmdlets Lock-CsClientPin et UnlockCsClientPin. Cela signifie que les utilisateurs qui ont reçu le rôle CsHelpDesk peuvent verrouiller et déverrouiller les numéros de code confidentiel de l’utilisateur. Cependant, l’applet de commande New-CsVoicePolicy n’a pas été affectée au rôle CsHelpDesk. Par conséquent, les utilisateurs auxquels le rôle CsHelpDesk a été affecté ne peuvent pas créer de nouvelles stratégies de voix.
+Dans Skype Entreprise Server, les tâches administratives sont déléguées aux utilisateurs à l’aide de la fonctionnalité de contrôle d’accès basé sur un rôle (RBAC). Lorsque vous installez Skype Entreprise Server, un certain nombre de rôles RBAC sont créés pour vous. Ces rôles correspondent aux groupes de sécurité universels dans les services de domaine Active Directory. Par exemple, le rôle RBAC CsHelpDesk correspond au groupe CsHelpDesk trouvé dans le conteneur Utilisateurs des services de domaine Active Directory. En outre, chaque rôle RBAC est associé à un ensemble d’Skype Entreprise ServerWindows PowerShell cmdlets.   Ces cmdlets représentent les tâches qui peuvent être effectuées par les utilisateurs qui ont reçu le rôle RBAC donné. Par exemple, le rôle CsHelpDesk a reçu les cmdlets Lock-CsClientPin et UnlockCsClientPin. Cela signifie que les utilisateurs qui ont reçu le rôle CsHelpDesk peuvent verrouiller et déverrouiller les numéros de code confidentiel de l’utilisateur. Cependant, l’applet de commande New-CsVoicePolicy n’a pas été affectée au rôle CsHelpDesk. Par conséquent, les utilisateurs auxquels le rôle CsHelpDesk a été affecté ne peuvent pas créer de nouvelles stratégies de voix.
 
 ## <a name="viewing-information-about-rbac-roles"></a>Affichage d’informations sur les rôles RBAC
 
@@ -46,6 +46,6 @@ Pour attribuer un rôle RBAC à un utilisateur, vous devez l’ajouter au groupe
 6. Dans la boîte de dialogue Sélectionner des utilisateurs, des ordinateurs, des **contacts** ou des groupes, tapez le nom  d’utilisateur ou le nom complet de l’utilisateur à ajouter au groupe (par exemple, Ken Myer) dans la zone Entrer les noms des objets à sélectionner, puis cliquez sur **OK**.
 7. Dans la boîte de dialogue **Propriétés**, cliquez sur **OK**.
 
-Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de commande Get-CsAdminRoleAssignment, en indiquant le nom SamAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez cette commande à partir de Skype Entreprise Server Management Shell :
+Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de commande Get-CsAdminRoleAssignment, en indiquant le nom SamAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez cette commande à partir de l’Skype Entreprise Server Management Shell :
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`

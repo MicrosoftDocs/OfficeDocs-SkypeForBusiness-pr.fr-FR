@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre pool pilote Skype Entreprise Server 2019 à l’aide du Panneau de commande Skype Entreprise Server 2019 ou de Skype Entreprise Server 2019 Management Shell.
-ms.openlocfilehash: d1b003c5630a0917fbecbd9b04196675657fef83
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre pool pilote Skype Entreprise Server 2019 à l’aide du Panneau de Skype Entreprise Server 2019 ou de Skype Entreprise Server 2019 Management Shell.
+ms.openlocfilehash: 689886060f14a47e82865a2ed66bfc3ff495dfdc3b1f44e6c5674294b4d21eb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300650"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Déplacer plusieurs utilisateurs vers le pool pilote
 
-Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre pool pilote Skype Entreprise Server 2019 à l’aide du Panneau de commande Skype Entreprise Server 2019 ou de Skype Entreprise Server 2019 Management Shell.
+Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre pool pilote Skype Entreprise Server 2019 à l’aide du Panneau de Skype Entreprise Server 2019 ou de Skype Entreprise Server 2019 Management Shell.
 
  **Contenu de cet article :**
   
-[Pour déplacer plusieurs utilisateurs à l’aide du Panneau de commande Skype Entreprise Server 2019](#sectionSection0)
+[Pour déplacer plusieurs utilisateurs à l’aide du Panneau Skype Entreprise Server 2019](#sectionSection0)
   
-[Pour déplacer plusieurs utilisateurs à l’aide de Skype Entreprise Server 2019 Management Shell](#sectionSection1)
+[Pour déplacer plusieurs utilisateurs à l’aide Skype Entreprise Server 2019 Management Shell](#sectionSection1)
   
-[Pour déplacer tous les utilisateurs en même temps à l’aide de Skype Entreprise Server 2019 Management Shell](#sectionSection2)
+[Pour déplacer tous les utilisateurs en même temps à l’aide Skype Entreprise Server 2019 Management Shell](#sectionSection2)
   
   
-## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-control-panel"></a>Pour déplacer plusieurs utilisateurs à l’aide du Panneau de commande Skype Entreprise Server 2019
+## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-control-panel"></a>Pour déplacer plusieurs utilisateurs à l’aide du Panneau Skype Entreprise Server 2019
 <a name="sectionSection0"> </a>
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de contrôle.
     
 2. Cliquez **sur Utilisateurs,** **sur** Rechercher, puis sur **Rechercher.**
     
@@ -50,9 +50,9 @@ Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre p
     
      ![Boîte de dialogue Déplacer les utilisateurs, pool de bureaux d’inscriptions de destination](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
-7. Vérifiez que la colonne **pool de** serveurs d’inscriptions pour les utilisateurs contient désormais le pool Skype Entreprise Server 2019, ce qui indique que les utilisateurs ont été déplacés avec succès. 
+7. Vérifiez que la colonne **du pool** de bureaux d’inscriptions pour les utilisateurs contient désormais le pool Skype Entreprise Server 2019, ce qui indique que les utilisateurs ont été déplacés avec succès. 
     
-## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>Pour déplacer plusieurs utilisateurs à l’aide de Skype Entreprise Server 2019 Management Shell
+## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>Pour déplacer plusieurs utilisateurs à l’aide Skype Entreprise Server 2019 Management Shell
 <a name="sectionSection1"> </a>
 
 1. Ouvrez Skype Entreprise Server 2019 Management Shell. 
@@ -75,10 +75,10 @@ Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre p
     
      ![Sortie de l'Get-UsUser -Identity de PowerShell](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
-## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>Pour déplacer tous les utilisateurs en même temps à l’aide de Skype Entreprise Server 2019 Management Shell
+## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>Pour déplacer tous les utilisateurs en même temps à l’aide Skype Entreprise Server 2019 Management Shell
 <a name="sectionSection2"> </a>
 
-Dans cet exemple, tous les utilisateurs ont été renvoyés au pool hérité (pool01.contoso.net). À l’aide de Skype Entreprise Server 2019 Management Shell, nous allons déplacer tous les utilisateurs en même temps vers le pool Skype Entreprise Server 2019 (pool02.contoso.net).
+Dans cet exemple, tous les utilisateurs ont été renvoyés au pool hérité (pool01.contoso.net). À l’aide Skype Entreprise Server 2019 Management Shell, nous allons déplacer tous les utilisateurs en même temps vers le pool Skype Entreprise Server 2019 (pool02.contoso.net).
   
 1. Ouvrez Skype Entreprise Server 2019 Management Shell.
     
@@ -98,8 +98,8 @@ Dans cet exemple, tous les utilisateurs ont été renvoyés au pool hérité (po
 
 4. **L’identité du pool** de bureaux d’inscriptions pour chaque utilisateur pointe maintenant vers le pool que vous avez spécifié comme **pool_FQDN** l’étape précédente. Le présence de cette identité confirme que l’utilisateur a été déplacé avec succès. 
     
-5. En outre, nous pouvons afficher la liste des utilisateurs dans le Panneau de contrôle Skype Entreprise Server 2019 et vérifier que la valeur du pool de serveurs d’inscriptions pointe désormais vers le pool Skype Entreprise Server 2019.
+5. En outre, nous pouvons afficher la liste des utilisateurs dans le Panneau de Skype Entreprise Server 2019 et vérifier que la valeur du pool de bureaux d’inscriptions pointe désormais vers le pool Skype Entreprise Server 2019.
     
-     ![Liste d’utilisateurs du Panneau de contrôle Skype Entreprise Server 2019](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![Skype Entreprise Server d’utilisateurs du Panneau de Skype Entreprise Server 2019](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

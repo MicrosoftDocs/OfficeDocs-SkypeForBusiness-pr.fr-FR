@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: L’administrateur peut découvrir comment joindre un PC d’appliance Skype Room System à un domaine Active Directory, ainsi que les éléments à prendre en considération.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: caab82c853eb584ba304569daa49963eea847143b59a8413f77455ee9800c8fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346161"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -61,7 +61,7 @@ Même si vous créez une ou plusieurs stratégies distinctes et bloquez l’hér
   
 Vous avez peut-être plusieurs approches pour résoudre ces problèmes. Nous vous conseillons de consulter vos experts Active Directory pour vous assurer que vous disposez d’une équipe d’experts qui dispose des paramètres d’environnement de groupe appropriés, ou au moins d’une équipe dans laquelle les stratégies décrites précédemment n’existent pas. Il est déconseillé d’activer la qualité de service (QoS) pour les Skype Room System.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
   
 [Configuration du périphérique : création d’un périphérique ou modification d’un périphérique existant](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Activer ou désactiver la conférence téléphonique dans Skype Entreprise Server
+title: Activer ou désactiver la conférence d’accès dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: 'Résumé : Découvrez comment utiliser le Panneau de contrôle ou Management Shell pour activer ou désactiver la conférence téléphonique dans Skype Entreprise Server.'
-ms.openlocfilehash: ade7753f480856d68535daadda40eac6296a5d6e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Découvrez comment utiliser le Panneau de contrôle ou l’management Shell pour activer ou désactiver la conférence téléphonique dans Skype Entreprise Server.'
+ms.openlocfilehash: 335252904ea015046e9caf5689fe31e4b0a9b8c3569b6c7d233fb8c4e74857ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297290"
 ---
-# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Activer ou désactiver la conférence téléphonique dans Skype Entreprise Server
+# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Activer ou désactiver la conférence d’accès dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment utiliser le Panneau de contrôle ou Management Shell pour activer ou désactiver la conférence téléphonique dans Skype Entreprise Server.
+**Résumé :** Découvrez comment utiliser le Panneau de contrôle ou l’management Shell pour activer ou désactiver la conférence téléphonique dans Skype Entreprise Server.
   
-Vous pouvez activer la conférence téléphonique à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez activer la conférence à l’aide du Panneau de Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
   
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Activer ou désactiver la conférence téléphonique à l’aide du Panneau de contrôle Skype Entreprise Server
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Activer ou désactiver la conférence téléphonique à l’aide du Panneau de Skype Entreprise Server de conférence
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
     
 4. Dans la liste des stratégies de conférence, sélectionnez celle pour laquelle vous voulez activer la conférence rendez-vous, cliquez sur **Modifier**, puis sur **Afficher les détails**. 
     

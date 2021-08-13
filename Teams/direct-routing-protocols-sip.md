@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocoles de routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04e9507595ef721ced5d47eb58646559601c5cab
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: 3a6bafcc7aade115684bce8621877f6fa6f196435b69c4b8388af731997b5dab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321446"
 ---
 # <a name="direct-routing---sip-protocol"></a>Routage direct - Protocole SIP
 
@@ -356,7 +356,7 @@ Consultez le mécanisme deover de section pour le signalisation SIP dans [Plan p
 Si un centre de données de routage direct est occupé, le service peut envoyer un message Retry-After intervalle d’une seconde au SBC. Lorsque le SBC reçoit un message 503 avec un en-tête Retry-After en réponse à une invitation, il doit mettre fin à cette connexion et essayer le prochain centre de données Microsoft disponible.
 
 ## <a name="handling-retries-603-response"></a>Gestion des dossiers (réponse 603)
-Si un utilisateur final observe plusieurs appels manqués pour un appel après le refus de l’appel entrant, cela signifie que le mécanisme de nouvelle tentative de réessayation du fournisseur SBC ou PSTN est configuré de façon non configurée. Le SBC doit être reconfiguré pour arrêter les efforts de réessayation sur la réponse 603.
+Si un utilisateur final observe plusieurs appels manqués pour un appel après le refus de l’appel entrant, cela signifie que le mécanisme de nouvelle tentative de nouvelle tentative du fournisseur SBC ou PSTN est mal configuré. Le SBC doit être reconfiguré pour arrêter les efforts de réessayation sur la réponse 603.
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>Redémarrage ICE : Appel de dérivation média transféré vers un point de terminaison qui ne prend pas en charge la dérivation média
 

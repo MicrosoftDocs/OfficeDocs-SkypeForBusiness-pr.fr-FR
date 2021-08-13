@@ -1,5 +1,5 @@
 ---
-title: Rapport des listes d’échecs dans Skype Entreprise Server
+title: Rapport des listes d’échecs Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Résumé : Découvrez le rapport des listes d’échecs dans Skype Entreprise Server.'
-ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez le rapport des listes d’échecs Skype Entreprise Server.'
+ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301350"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Rapport des listes d’échecs dans Skype Entreprise Server 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Rapport des listes d’échecs Skype Entreprise Server 
  
-**Résumé :** Découvrez le rapport des listes d’échecs dans Skype Entreprise Server.
+**Résumé :** Découvrez le rapport des listes d’échecs Skype Entreprise Server.
   
 Le Rapport des listes d’échecs fournit des informations sur les participants individuels à une session d’égal à égal ou session de conférence ayant échoué. Ces informations incluent l’URI de l’utilisateur qui a rencontré le problème, ainsi que le code de réponse SIP et l’ID de diagnostic associés à l’échec.
   
 ## <a name="accessing-the-failure-list-report"></a>Accès au Rapport des listes d’échecs
 
-Le rapport des listes d’échecs est accessible en cliquant sur l’une des mesures suivantes dans le rapport de répartition des défaillances [dans Skype Entreprise Server](failure-distribution-report.md):
+Le rapport des listes d’échecs est accessible en cliquant sur l’une des mesures suivantes dans le rapport de répartition des [défaillances Skype Entreprise Server](failure-distribution-report.md):
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -45,7 +45,7 @@ Le rapport des listes d’échecs est accessible en cliquant sur l’une des mes
     
 - Agents utilisateurs émetteurs principaux (sessions)
     
-À partir du rapport des listes d’échecs, vous pouvez accéder au rapport détaillé de session P2E dans Skype Entreprise [Server](peer-to-peer-session-detail-report.md) en cliquant sur la mesure Détails de session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
+À partir du rapport des listes d’échecs, vous pouvez accéder au rapport détaillé de session P2E dans [Skype Entreprise Server](peer-to-peer-session-detail-report.md) en cliquant sur la mesure Détails de session pour une session d’égal à égal. Vous pouvez également accéder au Rapport détaillé de conférence en cliquant sur la mesure Conférence pour une conférence.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Exploitation optimale du Rapport des listes d’échecs
 
@@ -104,7 +104,7 @@ Le tableau qui suit répertorie les informations fournies dans le Rapport des li
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |
-|**Requête** <br/> |Non  <br/> |Type de demande SIP ayant échoué. Par exemple, INVITE ou BYE.  <br/> |
+|**Demande** <br/> |Non  <br/> |Type de demande SIP ayant échoué. Par exemple, INVITE ou BYE.  <br/> |
 |**Code de réponse** <br/> |Non  <br/> |Code de réponse SIP envoyé lors de l’échec de conférence.  <br/> |
 |**ID de diagnostic** <br/> |Non  <br/> |Identifiant unique (sous la forme d’un en-tête ms-diagnostics) attaché à un message SIP qui procure souvent des informations utiles à des fins de dépannage.  <br/> |
 |**Coût/temps de connexion (ms)** <br/> |Non  <br/> |Temps (en millisecondes) requis pour que l’utilisateur rejoigne la conférence.  <br/> |

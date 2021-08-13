@@ -1,5 +1,5 @@
 ---
-title: Présentation d'un déploiement de Microsoft Teams
+title: Présentation d'un déploiement de Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,21 +16,21 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: c0c5f5becb6ce22dc54f49d8f8aede6410cd0e20611f4add2ede192c4fd3cb65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301240"
 ---
-# <a name="microsoft-teams-deployment-overview"></a>Présentation d'un déploiement de Microsoft Teams
+# <a name="microsoft-teams-deployment-overview"></a>Présentation d'un déploiement de Microsoft Teams
 
 > [!TIP]
-> Vous recherchez des informations sur l’installation du client Teams sur votre PC ou appareil mobile ? Accédez à cette rubrique : [Télécharger Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
+> Vous recherchez des informations sur l’installation du client Teams sur votre PC ou appareil mobile ? Accédez à cette rubrique : [Télécharger Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app).
 
-Bonjour ! Merci d’avoir choisi Microsoft Teams. Que votre entreprise soit un cabinet juridique de 5 personnes ou une grande multinationale, Teams peut vous aider à rassembler votre organisation via des conversations, des appels vocaux, des visioconférences, des partages de fichiers, et bien plus encore. En outre, qu’il s’agit de votre première utilisation des outils de collaboration ou d’une mise à niveau de Microsoft Skype Entreprise vers Teams, nous pouvons vous aider à devenir opérationnel.
+Bonjour ! Merci d’avoir choisi Microsoft Teams. Que votre entreprise soit un cabinet juridique de 5 personnes ou une grande multinationale, Teams peut vous aider à rassembler votre organisation via des conversations, des appels vocaux, des visioconférences, des partages de fichiers, et bien plus encore. En outre, qu’il s’agit de votre première utilisation des outils de collaboration ou d’une mise à niveau de Microsoft Skype Entreprise vers Teams, nous pouvons vous aider à devenir opérationnel.
 
-Puisque Teams prend en charge un large éventail de types d’organisations et de points de départ, plusieurs options de configuration s’offrent à vous. Pour vous aider à trouver les informations dont vous avez besoin, nous avons fractionné certains articles en deux audiences : **Petite entreprise** (moins de 50 utilisateurs) et **Grande/moyenne Entreprise** (plus de 50 utilisateurs). Lorsque vous lisez un article, sélectionnez l’onglet d’audience qui correspond le mieux à votre organisation. Voici l’apparence des onglets :
+Puisque Teams prend en charge un large éventail de types d’organisations et de points de départ, plusieurs options de configuration s’offrent à vous. Pour vous aider à trouver les informations dont vous avez besoin, nous avons fractionné certains articles en deux audiences : **Petite entreprise** (moins de 50 utilisateurs) et **Grande/moyenne Entreprise** (plus de 50 utilisateurs). Lorsque vous lisez un article, sélectionnez l’onglet d’audience qui correspond le mieux à votre organisation. Voici l’apparence des onglets :
 
 :::image type="content" source="media/small-large-tabs-example.png" alt-text="Exemple montrant des onglets d’audience de petite taille et de grande taille qui apparaissent dans certains articles":::
 
@@ -39,7 +39,7 @@ La liste suivante contient les sections que vous pouvez choisir dans la section 
 > [!NOTE]
 > Si vous avez un déploiement Skype Entreprise Online ou un déploiement Skype Entreprise local, consultez les rubriques suivantes en plus de celles de la section **Mise en route**.
 >
-> - [Mise à niveau depuis Skype Entreprise Online](upgrade-start-here.md)
+> - [Mise à niveau depuis Skype Entreprise Online](upgrade-start-here.md)
 > - Planifier une connectivité hybride
 
 |Section  |Description  |

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment préparer votre infrastructure pour le déploiement d Salles Microsoft Teams de manière à tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46f44d9a07aadc06598495a765bedcd67d1ed03b395c4d9cf4e6696023227c0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346171"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -60,7 +60,7 @@ Pour fonctionner correctement, l’Salles Microsoft Teams doit avoir accès à u
 
 - Accès aux ports HTTP 80 et 443.
 
-- Ports TCP et UDP configurés comme décrit dans la configuration requise pour les ports et protocoles pour les serveurs pour les implémentations Skype Entreprise Server en local, ou les URL et plages d’adresses [IP Microsoft 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) et Office 365 pour les implémentations en ligne Microsoft Teams ou Skype Entreprise. [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)
+- Ports TCP et UDP configurés comme décrit dans les exigences de port et de protocole pour les serveurs pour les implémentations Skype Entreprise Server sur site, ou URL et plages d’adresses [IP Microsoft 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) et Office 365 pour les implémentations en ligne Microsoft Teams ou Skype Entreprise. [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)
 
 > [!IMPORTANT]
 > Veillez à utiliser une connexion réseau câblée de 1 Gbits/s afin d’être sûr de disposer de la bande passante nécessaire. 
@@ -122,7 +122,7 @@ Pour plus [d’informations](./security.md#network-security) sur les FQDN, ports
   
 ### <a name="create-provisioning-packages"></a>Création de packages de mise en service
 
-Vous utiliserez des packages d’approvisionnement pour vous authentifier à des Exchange Server, Microsoft 365, ou Office 365.
+Vous utiliserez des packages d’approvisionnement pour vous authentifier à des Exchange Server, Microsoft 365, ou à Office 365.
   
 ### <a name="admin-group-management"></a>Gestion du groupe d’administrateurs
 
@@ -150,11 +150,11 @@ Le mot de passe de l’administrateur local n’est pas inclus comme alternative
   
 ### <a name="machine-account"></a>Compte d’ordinateur
 
-À l’Windows n’importe quel appareil, vous pouvez renommer le nom de l’ordinateur en cliquant avec le bouton droit **Paramètres** À propos \>  \> **de Renommer le PC.**
+À l’Windows n’importe quel appareil, vous pouvez renommer le nom de l’ordinateur en cliquant avec le bouton droit **Paramètres** À propos de \>  \> **Renommer le PC.**
   
 Si vous voulez renommer l’ordinateur après l’avoir joint à un domaine, utilisez **Renommer** l’ordinateur, une commande PowerShell, suivie du nouveau nom de l’ordinateur.
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Planifier Salles Microsoft Teams](rooms-plan.md)
 

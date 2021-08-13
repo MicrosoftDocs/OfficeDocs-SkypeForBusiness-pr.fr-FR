@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe1cf351bb5d3d4a950b818505a8e5d93fa7ab27
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 68cd0101629444c7b1bb03e363ce5881bbf67fb80f78bbffd170f25314be0011
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346181"
 ---
 # <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
 
@@ -71,7 +71,7 @@ Votre organisation peut choisir de piloter toutes les fonctionnalités en une fo
 
 ## <a name="4-create-your-communications-plan"></a>4. Créer votre plan de communication
 
-Pour réussir votre pilote, il est essentiel d’informer les participants pilotes sur ce qui se passe, quand, pourquoi et ce qu’on attend d’eux. Pour stimuler l’enthousiasme et le nombre maximal de participants, n’oubliez pas d’inclure la messagerie de valeur utilisateur en plus des liens vers la formation et le support technique, qui permet aux utilisateurs d’obtenir des informations supplémentaires tout au long de la phase pilote. Voici quelques exemples de ressources pour vous aider à prendre en compte votre plan de communication pilote :
+Pour réussir votre pilote, il est essentiel d’informer les participants pilotes sur ce qui se passe, quand, pourquoi et ce qu’on attend d’eux. Pour soutenir l’enthousiasme et le nombre maximal de participants, n’oubliez pas d’inclure la messagerie de valeur utilisateur en plus des liens vers la formation et le support pour que les utilisateurs obtiennent des informations supplémentaires tout au long de la phase pilote. Voici quelques exemples de ressources pour vous aider à prendre en compte votre plan de communication pilote :
 
 - [Ressources pilotes,](https://aka.ms/UpgradeSuccessKit)notamment des modèles de courrier électronique et des exemples de questions d’enquête de commentaires
 - [Basculez vers Teams l’Skype Entreprise](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), un guide de démarrage rapide conçu pour aider les utilisateurs à prendre en Skype Entreprise de l’Teams
@@ -98,7 +98,7 @@ Voici une suggestion de calendrier pour un projet pilote de 30 jours :
 - Jour 14 : Envoyez une communication intermédiaire à vos utilisateurs pilotes, organisez une réunion hebdomadaire de point de contrôle de l’équipe de projet.
 - Jour 21 : Organiser une réunion hebdomadaire de point de contrôle de l’équipe de projet.
 - Jour 30 : Envoyer la communication finale à vos utilisateurs pilotes.
-- Jours 31 à 45 : Évaluez les résultats des phases pilotes et planifiez les étapes suivantes.
+- Jours 31 à 45 : Évaluez les résultats pilotes et planifiez les étapes suivantes.
 
 ## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6. Évaluer les apprentissages et évaluer votre plan de avance
 
@@ -108,9 +108,9 @@ Si vos résultats indiquent :
 
 - **Vos objectifs pilotes (par exemple,** la satisfaction des utilisateurs et la qualité du réseau) ont été atteints, vous devriez être prêt à passer à la phase suivante de votre déploiement. Selon les objectifs de votre projet, cela peut être l’un des suivants :
   - Extension du pilote à d’autres participants
-  - [Activation Teams le Skype Entreprise **(mode** Îles) pour l’ensemble ou une partie de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
+  - [Activation Teams le Skype Entreprise **(mode** Îles) pour une partie ou l’ensemble de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
   - [Mise à niveau des utilisateurs Skype Entreprise vers Teams **(Teams** uniquement) pour tout ou partie de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
 - Votre pilote n’a pas obtenu les résultats **souhaités (par exemple,** la satisfaction des utilisateurs et la qualité du réseau), prenez le temps d’apporter les ajustements appropriés à votre plan et de revoir votre pilote.
 
 > [!Tip]
-> Demandez à vos participants pilotes en tant qu’homologues de contribuer à l’intégration et à la intégration de nouveaux utilisateurs Teams. Les pairs champions peuvent facilement s’y mettre en relation avec d’autres utilisateurs, partager leurs propres expériences et apprentissages, et offrir de l’aide et des conseils à leurs collègues. Découvrez les [champions et](https://go.microsoft.com/fwlink/?linkid=859068) la manière de les utiliser dans votre propre déploiement.
+> Demandez à vos participants pilotes en tant qu’homologues de contribuer à l’intégration et à la intégration de nouveaux utilisateurs Teams. Les pairs champions peuvent facilement s’y mettre en relation avec d’autres utilisateurs, partager leurs propres expériences et apprentissages, et offrir de l’aide et des conseils à leurs collègues. Apprenez-en davantage [sur les champions](https://go.microsoft.com/fwlink/?linkid=859068) et la manière de les utiliser dans votre propre déploiement.

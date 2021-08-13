@@ -1,5 +1,5 @@
 ---
-title: Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
+title: Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,16 +13,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Résumé : Lisez cette rubrique pour découvrir comment planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: d29271b314981f3de0eb7bd0b963637c554fb26f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 18e5a3e87dae7f65cb8b58788bd1b1b1be02ccc9c6b1f14492cd7da629e5c790
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301340"
 ---
-# <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015
+# <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
  
-**Résumé :** Lisez cette rubrique pour découvrir comment planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015.
+**Résumé :** Lisez cette rubrique pour découvrir comment planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015.
   
 La haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente nécessitent des ressources supplémentaires au-delà de ce qui est généralement nécessaire pour un fonctionnement complet. 
   
@@ -30,7 +30,7 @@ La haute disponibilité et la récupération d’urgence pour le serveur de conv
 > L’utilisation SQL groupes de disponibilité AlwaysOn n’est pas prise en charge avec les bases de données du serveur de conversation permanente. 
 
 > [!NOTE] 
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
   
 ## <a name="resource-requirements"></a>Besoins en ressources
 
@@ -40,7 +40,7 @@ Avant de configurer le serveur de conversation permanente pour la haute disponib
     
 - Une instance dédiée de la base de données, située dans l’autre centre de données physique. Cette base de données servira de base SQL Server base de données secondaire de livraison des journaux de bord pour la base de données dans le centre de données principal.
     
-- Une instance de base de données dédiée qui sert SQL Server miroir pour la base de données secondaire. Désignez éventuellement une SQL Server serveur en tant que témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
+- Une instance de base de données dédiée qui sert de miroir SQL Server pour la base de données secondaire. Désignez éventuellement une SQL Server serveur en tant que témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
     
 - Si la conformité du serveur de conversation permanente est activée, trois instances de base de données dédiées supplémentaires sont requises. Leur distribution est identique à celle précédemment décrite pour la base de données de conversation permanente. Bien qu’il soit possible pour la base de données de conformité de partager la même instance SQL Server que la base de données de conversation permanente, des instances autonomes pour la haute disponibilité et la récupération d’urgence sont recommandées.
     
@@ -50,11 +50,11 @@ Avant de configurer le serveur de conversation permanente pour la haute disponib
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Solutions de haute disponibilité et de récupération d’urgence
 
-Skype Entreprise Server prend en charge plusieurs modes de haute disponibilité pour vos serveurs principaux, y compris la mise en miroir de bases de données. Pour plus d’informations, voir [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+Skype Entreprise Server prend en charge plusieurs modes de haute disponibilité pour vos serveurs principaux, y compris la mise en miroir de bases de données. Pour plus d’informations, voir [Plan for high availability and disaster recovery in Skype Entreprise Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
 La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans cette rubrique est conçue sur un pool de serveurs de conversation permanente étiré. Il n’est pas nécessaire d’avoir un réseau local virtuel étendu (VLAN). En étirant un pool de serveurs de conversation permanente, vous configurez logiquement un pool dans la topologie, mais vous placez physiquement les serveurs du pool dans deux centres de données différents. Vous configurez SQL Server la base de données de la même manière et déployez la base de données et le miroir dans le même centre de données. Vous devez configurer une base de données de sauvegarde dans le centre de données secondaire (avec un miroir facultatif pour fournir une haute disponibilité pendant la récupération d’urgence). Il s’agit de la base de données de sauvegarde utilisée pour le failover lors de la récupération d’urgence. 
   
-Pour plus d’informations sur la configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente, voir [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
+Pour plus d’informations sur la configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente, voir [Configure high availability and disaster recovery for Persistent Chat Server in Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md). 
   
 Les figures suivantes montrent comment le pool de serveurs de conversation permanente peut être configuré dans deux topologies de pool étirée différentes :
   
@@ -78,7 +78,7 @@ La figure 1 illustre une topologie de pool de serveurs de conversation permanent
     
   - Un pool de conversation permanente, contenant les serveurs 5 à 8, deux actifs, deux inactifs sur site 2.
     
-  - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non affichée dans le diagramme) sur le site 1.
+  - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non représentée dans le diagramme) sur le site 1.
     
   - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de livraison, sur le site 2.
     
@@ -98,13 +98,13 @@ La figure 2 illustre une topologie de pool de serveurs de conversation permanent
     
 - La topologie physique se compose des sites 1 et 2 comme suit :
     
-  - Un pool de conversation permanente, contenant les serveurs 1 à 4, tous actifs, sur le site 1.
+  - Pool de conversation permanente, contenant les serveurs 1 à 4, tous actifs, sur le site 1.
     
   - Un pool de conversation permanente, contenant les serveurs 5 à 8, tous inactifs, sur le site 2.
     
-  - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non affichée dans le diagramme) sur le site 1.
+  - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non représentée dans le diagramme) sur le site 1.
     
-  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de réception, sur le site 2.
+  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de livraison, sur le site 2.
     
 **Pool de serveurs de conversation permanente étiré lorsque les centres de données sont localisés géographiquement avec une bande passante faible/latence élevée**
 

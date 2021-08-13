@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), le serveur de médiation associé et d’autres informations basiques sur cette passerelle de réseau téléphonique commuté (PSTN). Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: aaa12408fed632c74d0dfd0fc825d2ae649a7be1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8b1059e7ee9373efbb8334fa642f961e18d2ada43e19fd2b5e01741d61562cfb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335034"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nœud d’étendue de la passerelle PSTN
  

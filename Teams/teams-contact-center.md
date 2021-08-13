@@ -13,12 +13,12 @@ f1.keywords:
 description: Vue d’ensemble de la solution CCaaS (Centre de contacts intégré) pour les Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be22f4c8da84ba416bbd41b9247aa5d3a8ee4124
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: b12b28f4898b3b6dc722086d22c616e3938f4580b5f9c4956367663ea841d305
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321146"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Intégrations du Centre de contacts pour les Microsoft Teams
 
@@ -26,7 +26,7 @@ ms.locfileid: "52993959"
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Qu’est-ce que l’intégration du centre de contacts Microsoft Teams ?
 
-Microsoft Teams prend en charge les flux de travail d’interaction client en agissant comme concentrateur pour la connexion des clients internes et externes à travers ses modes de communication, notamment les discussions instantanées, les réunions vidéo et les appels. Pour certaines organisations, les fonctionnalités Microsoft Teams [voix cloud](./cloud-voice-landing-page.md)de certaines personnes, notamment le [attendant automatique](./what-are-phone-system-auto-attendants.md) et les files d’attente [d’appels,](./create-a-phone-system-call-queue.md)répondent à leurs besoins.
+Microsoft Teams prend en charge les flux de travail d’interaction client en agissant comme concentrateur pour la connexion des clients internes et externes à travers ses modes de communication, notamment les discussions instantanées, les réunions vidéo et les appels. Pour certaines organisations, les fonctionnalités Microsoft Teams [voix cloud](./cloud-voice-landing-page.md)de Microsoft Teams, y compris le [attendant automatique](./what-are-phone-system-auto-attendants.md) et les files d’attente [d’appels,](./create-a-phone-system-call-queue.md)répondent à leurs besoins.
 
 Pour les organisations qui souhaitent obtenir des solutions avec des outils d’entreprise et des flux de travail, l’intégration du centre de contacts pour Microsoft Teams permet aux fournisseurs de solutions du Centre de contacts en tant que service (CCaaS) d’intégrer leurs solutions dans Teams.
 
@@ -35,7 +35,7 @@ Pour les organisations qui souhaitent obtenir des solutions avec des outils d’
 
 Le Centre de contacts connectés pour Microsoft Teams programme de certification vérifie que la solution de chaque fournisseur participant fournit la qualité, la compatibilité et la fiabilité qu’ils attendent des solutions Microsoft.
 
-Si vous êtes une organisation qui recherche une solution de centre de contacts intégré, consultez les [solutions Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) certifiées pour les centres de contacts pour obtenir la liste des fournisseurs de solutions certifiés, et les [solutions](#connected-contact-center-solutions) du Centre de contacts connectés pour une liste de fournisseurs en cours de certification.
+Si vous êtes une organisation à la recherche d’une solution de centre de contacts intégré, consultez les [solutions Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions) certifiées pour les centres de contacts pour obtenir une liste de fournisseurs de solutions certifiés, et consultez les [solutions](#connected-contact-center-solutions) du Centre de contacts connectés pour une liste de fournisseurs en cours de certification.
 
 Si vous êtes un vendeur désireux de rejoindre le programme de certification, envoyez un <Teamscategorypartner@microsoft.com> e-mail.
 

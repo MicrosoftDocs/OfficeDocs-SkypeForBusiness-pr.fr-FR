@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: Vous configurez le pool du saut suivant de conversation permanente en sélectionnant un serveur frontal ou un pool frontal dans la liste.
-ms.openlocfilehash: de5a51f5151196abb28cc69cf560b66e4ba7cde5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1f8c51a2ebfc7734c908dbc106af3821c35e1a282b2e85491d564c9d608b135e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335144"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Expandeur des paramètres du tronçon suivant de la conversation permanente
  

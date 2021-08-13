@@ -22,20 +22,20 @@ ms.reviewer: islubin
 description: Découvrez comment utiliser les rôles d’administrateur pour désigner les administrateurs qui ont besoin de différents niveaux d’accès pour gérer Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8ede97c91254c2dfeace83302c20e310e62be12
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 7032a27c5d6686d282d3b73f7d08edf0dac0d29a52c1e219cda908c412d42bd2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321056"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams
 
-En utilisant Azure Active Directory (Azure AD), vous pouvez désigner les administrateurs qui ont besoin de différents niveaux d’accès pour la gestion des Microsoft Teams. Les administrateurs peuvent gérer la charge de travail de l’ensemble Teams charge de travail ou ils peuvent avoir des autorisations déléguées pour résoudre les problèmes de qualité des appels ou gérer les besoins téléphoniques de votre organisation.
+En utilisant Azure Active Directory (Azure AD), vous pouvez désigner les administrateurs qui ont besoin de différents niveaux d’accès pour la gestion des Microsoft Teams. Les administrateurs peuvent gérer la charge de travail de l’Teams entière ou ils peuvent avoir des autorisations déléguées pour résoudre les problèmes de qualité des appels ou gérer les besoins téléphoniques de votre organisation.
 
 ## <a name="teams-roles-and-capabilities"></a>Teams rôles et fonctionnalités
 
-Plusieurs rôles d’administrateur de Teams sont disponibles : administrateur de Teams, administrateur des communications Teams, spécialiste du support des communications Teams, ingénieur du support des communications Teams et administrateur de périphériques Teams. Examinez le tableau suivant pour comprendre ce que chaque rôle peut faire et les outils que l’administrateur peut utiliser dans le Microsoft Teams d’administration et PowerShell.
+Plusieurs rôles d’administrateur de Teams sont disponibles : administrateur Teams, administrateur des communications Teams, spécialiste du support des communications Teams, ingénieur du support des communications Teams et administrateur de périphériques Teams. Examinez le tableau suivant pour comprendre ce que chaque rôle peut faire et les outils que l’administrateur peut utiliser dans le Microsoft Teams d’administration et PowerShell.
 
 Pour continuer, vous devez être administrateur. Les instructions pour obtenir les autorisations sont dans cet article.
 
@@ -73,7 +73,7 @@ Pour afficher la liste complète des cmdlets :
 Get-Command -Module MicrosoftTeams
  ```
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 - [Microsoft Teams Vue d’ensemble de PowerShell](teams-powershell-overview.md)
 - [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)

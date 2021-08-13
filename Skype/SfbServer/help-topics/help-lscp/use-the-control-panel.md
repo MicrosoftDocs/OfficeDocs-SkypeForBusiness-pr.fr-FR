@@ -1,5 +1,5 @@
 ---
-title: Utiliser le Panneau de commande Skype Entreprise Server 2015
+title: Utiliser le Panneau de Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
-description: Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir Manage Skype for Business Server 2015.
-ms.openlocfilehash: 671852a267c9c7f04e531c5961f10df55651a10d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir Manage Skype Entreprise Server 2015.
+ms.openlocfilehash: a8a1dcbe1cd620807f1eb9f2af34fdcbae60784038fbaff9f0c0841ea81224d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335204"
 ---
-# <a name="use-the-skype-for-business-server-2015-control-panel"></a>Utiliser le Panneau de commande Skype Entreprise Server 2015
+# <a name="use-the-skype-for-business-server-2015-control-panel"></a>Utiliser le Panneau de Skype Entreprise Server 2015
  
-Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de contrôle Skype Entreprise Server, voir [Manage Skype for Business Server 2015](../../manage/manage.md).
+Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir [Manage Skype Entreprise Server 2015](../../manage/manage.md).
   
 

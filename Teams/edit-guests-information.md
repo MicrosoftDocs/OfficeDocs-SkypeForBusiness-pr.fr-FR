@@ -20,20 +20,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
-ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
+ms.openlocfilehash: d753b93d248a84632f4ce606ca6b31a1a25c39f089e798c0791c4517156c85e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321396"
 ---
 # <a name="edit-guest-user-information"></a>Modifier les informations d'un utilisateur invité
 
-Vous pouvez modifier les informations sur les invités à partir Microsoft 365 centre d’administration ou le portail Azure Active Directory’accueil.
+Vous pouvez modifier les informations sur les invités à partir du Centre d’administration Microsoft 365 ou du Azure Active Directory’aide.
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Utilisateurs invités dans le groupe Microsoft 365 administrateur
 
-1. Pour modifier les informations d’invité dans le centre [Microsoft 365 d’administration,](https://admin.microsoft.com)sélectionnez **Utilisateurs**  >  **invités.**
+1. Pour modifier les informations d’invité dans la [Centre d’administration Microsoft 365,](https://admin.microsoft.com)sélectionnez **Utilisateurs**  >  **invités.**
 
    ![Informations sur l’utilisateur invité en cours de modification](media/access-guest-user.png)
 

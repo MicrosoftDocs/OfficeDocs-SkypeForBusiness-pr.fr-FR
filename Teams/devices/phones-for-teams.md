@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Cet article couvre la liste des téléphones certifiés pour Microsoft Teams et les fonctionnalités qui sont pris en charge sur les téléphones certifiés pour Microsoft Teams.
-ms.openlocfilehash: 2299c16bb3849119b93eb5e3e7d03f5ef6744430
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ab205a8a23b2cc83461cfcab047458fa4027db7e4257f95891caa0a5a6998ec9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321456"
 ---
 # <a name="phones-for-microsoft-teams"></a>Téléphones pour Microsoft Teams
 
@@ -67,7 +67,7 @@ Gérez et gardez vos Teams téléphones portables à jour à l’aide du Centre 
 
 ## <a name="upgrade-your-phones-to-teams-displays"></a>Mettre à niveau vos téléphones vers Teams’affichage
 
-[Microsoft Teams d’écran](teams-displays.md) sont une catégorie d’appareils Teams connectés tout-en-un qui offrent un écran tactile connecté et une expérience mains libres optimisée par Cortana. Grâce Teams affichages, les utilisateurs peuvent utiliser un microphone, une caméra et des haut-parleurs (ou un casque Bluetooth) pour appeler et utiliser une expérience de réunion fiable. Teams s’intègre aux PC des Windows utilisateurs pour apporter une expérience compagne qui permet une interaction transparente entre les appareils
+[Microsoft Teams’affichage sont](teams-displays.md) une catégorie d’appareils Teams connectés tout-en-un qui offrent un écran tactile connecté et une expérience mains libres optimisée par Cortana. Grâce Teams affichages, les utilisateurs peuvent utiliser un microphone, une caméra et des haut-parleurs (ou un casque Bluetooth) pour appeler et utiliser une expérience de réunion fiable. Teams s’intègre aux PC des Windows utilisateurs pour apporter une expérience compagne qui permet une interaction transparente entre les appareils
 
 Vous pouvez mettre à niveau Teams téléphones de votre organisation vers Teams’affichages dans le Microsoft Teams d’administration. Cette option est disponible uniquement pour les téléphones qui supportent la mise à niveau vers Teams’affichages. Pour en savoir plus, voir [Mettre à Teams niveau vers Teams’affichage.](upgrade-phones-to-displays.md)
 

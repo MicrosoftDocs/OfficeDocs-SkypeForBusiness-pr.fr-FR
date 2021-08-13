@@ -1,5 +1,5 @@
 ---
-title: Gestion des salles de conversation dans le serveur de conversation permanente dans Skype Entreprise Server 2015
+title: Gérer les salles de conversation dans le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: 'Résumé : Découvrez comment gérer les salles de conversation du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 2b1b2e3bdc3411a4bacae5f1dc81b626abb92a91
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment gérer les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.'
+ms.openlocfilehash: 4723dc4edd19b72197f42b7d5a649b4903a7a077ca5b3dd51d3eb65ccfc1b9d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334994"
 ---
-# <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion des salles de conversation dans le serveur de conversation permanente dans Skype Entreprise Server 2015
+# <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer les salles de conversation dans le serveur de conversation permanente Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment gérer les salles de conversation du serveur de conversation permanente dans Skype Entreprise Server 2015.
+**Résumé :** Découvrez comment gérer les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.
   
-La création et la gestion des salles de conversation sont beaucoup plus faciles avec l’utilisation correcte des catégories. Une catégorie définit qui peut créer ou rejoindre les salles de conversation. Avant d’essayer de gérer les salles de conversation, veillez à lire les catégories de conversation permanente, les salles de conversation et les rôles d’utilisateur dans Skype Entreprise [Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) et à gérer les catégories dans le serveur de conversation permanente dans [Skype Entreprise Server 2015.](categories.md)
+La création et la gestion des salles de conversation sont beaucoup plus faciles avec l’utilisation correcte des catégories. Une catégorie définit qui peut créer ou rejoindre les salles de conversation. Avant d’essayer de gérer les salles de conversation, veillez à lire les catégories de conversation permanente, les salles de conversation et les rôles d’utilisateur dans [Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) et gérer les catégories dans le serveur de conversation permanente dans [Skype Entreprise Server 2015.](categories.md)
   
 > [!NOTE]
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
 
-Vous pouvez configurer et gérer des salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell ou à l’aide du client Skype Entreprise si vous êtes membre de la salle de conversation. Cette rubrique décrit comment gérer les salles de conversation à l’aide de l Windows PowerShell interface de ligne de commande. Si vous souhaitez gérer des salles de conversation à l’aide du client Skype Entreprise, consultez l’aide du client. 
+Vous pouvez configurer et gérer des salles de conversation à l’aide de l’interface de ligne de commande Windows PowerShell ou à l’aide du client Skype Entreprise si vous êtes membre de la salle de conversation. Cette rubrique décrit comment gérer les salles de conversation à l’aide de l Windows PowerShell interface de ligne de commande. Si vous souhaitez gérer des salles de conversation à l’aide Skype Entreprise client, consultez l’aide du client. 
   
 Les salles de conversation peuvent être de deux types : Normal et Auditorium. Une salle de conversation normale permet à tous les membres de publier et de lire des messages. Un auditorium est un type de salle de conversation dans laquelle seuls les présentateurs peuvent publier, mais où tout le monde peut lire.
   
-Les personnes qui peuvent accéder aux salles de conversation et les gérer dépendent des rôles des utilisateurs comme suit :
+Qui pouvez accéder aux salles de conversation et les gérer dépend des rôles d’utilisateur suivants :
   
 - Les utilisateurs doivent être membres d’une salle de conversation pour pouvoir publier et lire des messages.
     
@@ -63,7 +63,7 @@ Vous utilisez l’cmdlet **New-CsPersistentChatRoom** pour créer des salles de 
   
 - Désactivé. Permet de désactiver ou d’activer une salle de conversation. 
     
-- Invitations. Permet d’activer ou de désactiver les invitations aux salles de conversation, qui sont utilisées pour informer les utilisateurs lorsqu’ils ont été ajoutés en tant que membres de la salle de conversation. Le paramètre par défaut pour les invitations dans hérite, ce qui a entraîné l’adoption par la salle de conversation du paramètre d’invitation configuré sur la catégorie à laquelle elle appartient. La configuration du paramètre d’invitations sur false au niveau de la salle de conversation permet de faire en place le paramètre de catégorie. 
+- Invitations. Permet d’activer ou de désactiver les invitations aux salles de conversation, qui sont utilisées pour informer les utilisateurs lorsqu’ils ont été ajoutés en tant que membres de la salle de conversation. Le paramètre par défaut pour les invitations dans hérite, ce qui a entraîné l’adoption par la salle de conversation du paramètre d’invitation configuré sur la catégorie à laquelle elle appartient. La configuration du paramètre d’invitations sur False au niveau de la salle de conversation permet de faire en place le paramètre de catégorie. 
     
 - Confidentialité. Permet de spécifier si une salle de conversation est ouverte, fermée ou secrète. Les salles ouvertes peuvent être recherchés et accessibles par tout le monde. Les salles fermées peuvent être recherchés par n’importe qui, mais sont accessibles uniquement par les membres. Les salles secrètes ne sont accessibles qu’aux membres de la salle. Par défaut, chaque nouvelle salle est initialement configurée comme fermée.
     
@@ -79,7 +79,7 @@ Outre les paramètres ci-dessus, l’cmdlet **Set-CsPersistentChatRoom** vous pe
     
 - Présentateurs. Permet d’affecter des présentateurs à une salle de conversation auditorium. 
     
-  Pour plus d’informations sur la syntaxe, y compris tous les paramètres, voir [Skype Entreprise Server 2015 Management Shell](../management-shell.md).
+  Pour plus d’informations sur la syntaxe, y compris tous les paramètres, [voir Skype Entreprise Server 2015 Management Shell](../management-shell.md).
   
 ## <a name="create-a-new-room"></a>Créer une salle
 
@@ -123,7 +123,7 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 Si la rubrique d’une salle de conversation permanente n’est plus pertinente, vous pouvez rendre la salle de conversation inaccessible aux utilisateurs en la désactivant. Lorsqu’une salle de conversation est désactivée, tous les membres sont immédiatement déconnectés de la salle. Une fois une salle de conversation désactivée, les utilisateurs ne peuvent ni la rejoindre, ni la trouver lors de recherches de salles de conversation.
   
-Si l’historique de la salle de conversation persiste, le contenu est conservé lorsque la salle de conversation est désactivée. Toutefois, le contenu n’apparaîtra pas dans les recherches tant que la salle de conversation demeurera dans son état de désactivation. Si vous activez ensuite la salle de conversation, les utilisateurs peuvent alors rechercher des messages ayant été publiés avant la désactivation de la salle. Pour plus d’informations sur la configuration de l’historique des salles de conversation, voir [Manage categories in Persistent Chat Server in Skype for Business Server 2015](categories.md). 
+Si l’historique de la salle de conversation persiste, le contenu est conservé lorsque la salle de conversation est désactivée. Toutefois, le contenu n’apparaîtra pas dans les recherches tant que la salle de conversation demeurera dans son état de désactivation. Si vous activez ensuite la salle de conversation, les utilisateurs peuvent alors rechercher des messages ayant été publiés avant la désactivation de la salle. Pour plus d’informations sur la configuration de l’historique des salles de conversation, voir [Manage categories in Persistent Chat Server in Skype Entreprise Server 2015](categories.md). 
   
 Si une salle de conversation est désactivée, sa liste d’adhésion et d’autres paramètres sont conservés. En tant qu’administrateur, vous pouvez activer une salle qui a été désactivée et vous n’avez pas besoin de créer manuellement les paramètres.
   

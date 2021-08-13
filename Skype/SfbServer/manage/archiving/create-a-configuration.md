@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Résumé : Découvrez comment créer une configuration d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c171b0ec86a8b29ede72b5dc0c577c890fcc497d4850148469d5ba64756ce472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095428"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335014"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Créer une configuration d’archivage dans Skype Entreprise Server
 
@@ -29,7 +29,7 @@ Pour configurer les options d’archivage pour un site ou un pool spécifique :
   
 1. À partir d’un compte utilisateur auquel est affecté un des rôles CsArchivingAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur de votre déploiement interne. 
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     
@@ -45,13 +45,13 @@ Pour configurer les options d’archivage pour un site ou un pool spécifique :
     
    - Pour activer l’archivage pour les sessions de messagerie instantanée et les conférences web, cliquez sur Archiver les sessions de messagerie instantanée et de conférence **web.**
     
-   - Pour désactiver l’archivage pour cette configuration, cliquez **sur Désactiver l’archivage.**
+   - Pour désactiver l’archivage pour cette configuration, cliquez sur Désactiver **l’archivage.**
     
 6. Dans **Créer un paramètre d’archivage**, procédez comme suit :
     
    - Pour bloquer toute activité quand l’archivage n’est pas disponible, activez la case à cocher **Bloquer les sessions de messagerie instantanée ou de conférence web en cas d’échec de l’archivage**.
     
-   - Pour utiliser Microsoft Exchange Server stocker les données d’archivage, cliquez sur la case à cocher Intégration **de Microsoft Exchange.**
+   - Pour utiliser Microsoft Exchange Server stocker les données d’archivage, cochez la case d’intégration Exchange **Microsoft.**
     
    - Pour activer le vidage des données, activez la case à cocher **Activer le vidage des données d’archivage**, puis effectuez l’une des opérations suivantes :
     

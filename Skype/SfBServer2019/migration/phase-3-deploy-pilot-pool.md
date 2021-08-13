@@ -1,5 +1,5 @@
 ---
-title: Phase 3 Déployer le pool pilote Skype Entreprise Server 2019
+title: Phase 3 Déployer Skype Entreprise Server pool pilote 2019
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
-description: Cette section couvre les étapes requises pour déployer un pool pilote de Skype Entreprise Server 2019. Le déploiement de Skype Entreprise Server 2019 nécessite l’utilisation du Générateur de topologie pour définir votre topologie et les composants que vous souhaitez déployer, préparer votre environnement pour le déploiement des composants Skype Entreprise Server 2019, publier votre conception de topologie sur le premier serveur frontal, puis installer et configurer le logiciel Skype Entreprise Server 2019 pour les composants de votre déploiement. Une fois terminé, votre déploiement de pool pilote Skype Entreprise Server 2019 coexistera avec un pool hérité existant.
-ms.openlocfilehash: 53cbb0eca580a7dd70cf638a219615eafce8c14e
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Cette section couvre les étapes requises pour déployer un pool pilote de Skype Entreprise Server 2019. Le déploiement de Skype Entreprise Server 2019 nécessite l’utilisation du Générateur de topologie pour définir votre topologie et les composants que vous souhaitez déployer, la préparation de votre environnement pour le déploiement des composants Skype Entreprise Server 2019, la publication de votre conception de topologie sur le premier serveur frontal, puis l’installation et la configuration du logiciel Skype Entreprise Server 2019 pour les composants de votre déploiement. Une fois terminé, votre déploiement Skype Entreprise Server pool pilote 2019 coexistera avec un pool hérité existant.
+ms.openlocfilehash: e4ff2f9c28e01ada82fd827644e46542e18581bf8f1ff2e511883bc6bb27e96f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752346"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300570"
 ---
-# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Phase 3 : Déploiement du pool pilote Skype Entreprise Server 2019
+# <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Phase 3 : Déployer Skype Entreprise Server pool pilote 2019
 
-Cette section couvre les étapes requises pour déployer un pool pilote de Skype Entreprise Server 2019. Le déploiement de Skype Entreprise Server 2019 nécessite l’utilisation du Générateur de topologie pour définir votre topologie et les composants que vous souhaitez déployer, préparer votre environnement pour le déploiement des composants Skype Entreprise Server 2019, publier votre conception de topologie sur le premier serveur frontal, puis installer et configurer le logiciel Skype Entreprise Server 2019 pour les composants de votre déploiement. Une fois terminé, votre déploiement de pool pilote Skype Entreprise Server 2019 coexistera avec un pool hérité existant.
+Cette section couvre les étapes requises pour déployer un pool pilote de Skype Entreprise Server 2019. Le déploiement de Skype Entreprise Server 2019 nécessite l’utilisation du Générateur de topologie pour définir votre topologie et les composants que vous souhaitez déployer, la préparation de votre environnement pour le déploiement des composants Skype Entreprise Server 2019, la publication de votre conception de topologie sur le premier serveur frontal, puis l’installation et la configuration du logiciel Skype Entreprise Server 2019 pour les composants de votre déploiement. Une fois terminé, votre déploiement Skype Entreprise Server pool pilote 2019 coexistera avec un pool hérité existant.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -29,7 +29,7 @@ Cette section couvre les étapes requises pour déployer un pool pilote de Skype
     
 - [Téléchargement de la topologie à partir d’un déploiement existant](download-topology-from-existing-deployment.md)
     
-- [Déployer le pool pilote Skype Entreprise Server 2019](deploy-pilot-pool.md)
+- [Déployer Skype Entreprise Server pool pilote 2019](deploy-pilot-pool.md)
     
 - [Vérification de la coexistence du pool pilote avec le pool hérité](verify-pilot-pool-coexistence-with-legacy-pool.md)
     

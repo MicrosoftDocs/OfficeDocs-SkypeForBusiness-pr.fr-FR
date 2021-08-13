@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: Pour commencer la création d’un nouveau serveur de conversation permanente ou d’un pool de serveurs de conversation permanente, dans le Générateur de topologie, cliquez avec le bouton droit sur les pools de conversation permanente, puis sélectionnez Nouveau pool de conversation permanente
-ms.openlocfilehash: 92ea08f6415e537dca22122ca61b6837638d0d0d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2563c5daffe5754ab44a06450f7ca5b29c4455ac749018e67227b736833250a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823784"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335084"
 ---
 # <a name="persistent-chat-scope-node"></a>Nœud d’étendue de la conversation permanente
  
-Pour commencer la création d’un nouveau serveur de conversation permanente ou d’un pool de serveurs de conversation permanente, dans le Générateur de topologie, cliquez avec le bouton droit sur les **pools** de conversation permanente, puis sélectionnez Nouveau **pool de conversation permanente**
+Pour commencer la création d’un serveur de conversation permanente ou d’un pool de serveurs de conversation permanente, dans le Générateur de topologie, cliquez avec le bouton droit sur les **pools** de conversation permanente, puis sélectionnez Nouveau **pool de conversation permanente**
   
 - **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie en cours, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions antérieures d’Office Communications Server ou supprimer le déploiement.
     

@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement d Salles Microsoft Teams sur Android.
-ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321496"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Déployer Salles Microsoft Teams sur Android
 
 Le déploiement de Salles Microsoft Teams sur Android peut être ventilé selon les phases suivantes :
 
 - **État de préparation du site** Confirmez que vos emplacements de déploiement (salles) répondent aux exigences de déploiement.
-- **Service readiness** Créez des comptes de ressources et attribuez-les aux appareils (voir Créer un compte de ressource à l’aide [du Microsoft 365 d’administration).](resource-account-ui.md) Si nous vous recommandons d’utiliser une licence de salle dédiée, un compte d’utilisateur final titulaire d’une licence appropriée peut également vous salles Teams sur Android.
+- **Service readiness** Créez des comptes de ressources et attribuez-les aux appareils (voir Créer un compte de ressource à l’aide [du Centre d’administration Microsoft 365).](resource-account-ui.md) Si nous vous recommandons d’utiliser une licence de salle dédiée, un compte d’utilisateur final titulaire d’une licence appropriée peut également vous salles Teams sur Android.
 - **Configuration et déploiement** Configurer salles Teams et connecter les périphériques dont vous avez besoin (pour plus d’informations, consultez la documentation du fabricant).
 
 Pour gérer salles Teams, vous devez être un administrateur global, un administrateur de Teams service ou un administrateur d Teams périphérique. Pour plus d’informations sur les rôles d’administrateur, voir Utiliser Microsoft Teams rôles d’administrateur [pour gérer Teams.](../using-admin-roles.md)
@@ -64,13 +64,13 @@ Avant de déployer salles Teams, vous devez décider s’ils utiliseront des com
 
 Si vous décidez de configurer un Microsoft 365 de ressources, vous devez acheter une licence Salle de réunion licence pour cette licence. La licence Salle de réunion inclut une boîte aux lettres de ressources qui permet aux membres de votre organisation de réserver la salle de réunion par le biais d Outlook de réunion Teams. La licence permet également aux participants de la réunion de partager des vidéos, des audioconférences et des écrans.
 
-Si vous devez recevoir ou appeler un numéro de téléphone externe, vous avez [peut-être](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)besoin d’un plan d’appels ou d’une licence du module Microsoft 365 Business Voix. Si vous avez activé le routage direct dans votre organisation, vous n’avez besoin que de Salle de réunion SKU.
+Si vous devez recevoir ou appeler un numéro de téléphone externe, vous devrez [peut-être](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)un plan d’appels ou Microsoft 365 Business Voice licence de module logiciel. Si vous avez activé le routage direct dans votre organisation, vous n’avez besoin que de Salle de réunion SKU.
 
 Lorsque vous créez un compte de ressource, vous pouvez choisir d’autoriser ou non le compte à accepter ou refuser automatiquement les demandes de réunion, d’autoriser les réunions récurrentes, de spécifier à l’avance les informations sur la ressource, etc.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-Pour plus d’informations sur Microsoft 365 comptes de ressources, voir Créer un compte de ressource à l’aide [du Microsoft 365 d’administration.](resource-account-ui.md)
+Pour plus d’informations sur Microsoft 365 comptes de ressources, voir Créer un compte de ressource à l’aide [du Centre d’administration Microsoft 365.](resource-account-ui.md)
 
 |    |     |
 |-----------|------------|
@@ -89,7 +89,7 @@ La planification de la configuration et du déploiement couvre les aspects clés
 
 ### <a name="account-provisioning"></a>Provisionnage de compte
 
-Si vous envisagez d’utiliser des comptes de ressources Microsoft 365 pour laisser les utilisateurs réserver des barres de collaboration, suivez les instructions dans Créer un compte de ressource à l’aide du Centre d’administration [Microsoft 365](resource-account-ui.md) pour créer un compte de ressource Microsoft 365 pour chaque barre de collaboration qui en a besoin. C’est également ici que vous devrez ajouter une licence Salle de réunion au compte de ressource et, si vous voulez effectuer ou recevoir des appels vers ou depuis des numéros de téléphone externes, une licence Plan d’appel ou Voix Entreprise si votre organisation n’utilise pas le routage direct.
+Si vous envisagez d’utiliser des comptes de ressources Microsoft 365 pour laisser les utilisateurs réserver des barres de collaboration, suivez les instructions dans Créer un compte de ressource à l’aide du [Centre d’administration Microsoft 365](resource-account-ui.md) pour créer un compte de ressource Microsoft 365 pour chaque barre de collaboration qui en a besoin. C’est également ici que vous devrez ajouter une licence Salle de réunion au compte de ressource et, si vous voulez effectuer ou recevoir des appels vers ou depuis des numéros de téléphone externes, une licence Plan d’appel ou Voix Entreprise si votre organisation n’utilise pas le routage direct.
 
 Si vous souhaitez affecter des salles Teams utilisateurs individuels pour leur utilisation privée, vous n’avez pas besoin de configurer de comptes supplémentaires. Les utilisateurs peuvent se connecter à des barres de collaboration à l’aide de leur compte personnel.
 
@@ -120,7 +120,7 @@ Dans le cadre du déploiement général de la Microsoft Teams, nous vous recomma
 
 Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens avec le nom de la salle, le compte de ressource connecté et les périphériques affectés.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer des comptes pour des utilisateurs Salles Microsoft Teams’aide Microsoft Teams centre d’administration](resource-account-ui.md)
 
