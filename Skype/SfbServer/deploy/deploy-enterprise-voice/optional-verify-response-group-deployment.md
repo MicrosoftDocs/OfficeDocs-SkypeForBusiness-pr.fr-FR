@@ -12,31 +12,31 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: Vérifiez la réussite de votre déploiement Response Group dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: e593b46d260e8cabb8a4cbb311a7a79852a93c18
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Vérifiez la réussite de votre déploiement Response Group, Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 130ec066682f246a13df32835cb1ed1e3bb40428b3c80ef820ab5ede1dc5c00f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830884"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324533"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Facultatif) Vérifier le déploiement de Response Group dans Skype Entreprise
  
-Vérifiez la réussite de votre déploiement Response Group dans Skype Entreprise Server Voix Entreprise.
+Vérifiez la réussite de votre déploiement Response Group, Skype Entreprise Server Voix Entreprise.
   
 Après avoir configuré Response Group, vous devez vérifier la configuration pour vous assurer que vos groupes Response Group fonctionnent comme prévu. Au minimum, vérifiez les scénarios suivants en vous basant sur les types d’utilisateur indiqués ci-dessous :
   
  **Utilisateurs**
   
-- Un utilisateur qui est homed sur Skype Entreprise
+- Utilisateur qui est homed on Skype Entreprise
     
 - Utilisateur externe qui utilise le réseau téléphonique commuté (PSTN) public
     
-- Un agent qui est homed sur Skype Entreprise
+- Agent qui est homed on Skype Entreprise
     
   **Scenarios**
   
-- L’utilisateur Skype Entreprise appelle le groupe Response Group.
+- L’Skype Entreprise appelle le groupe Response Group.
     
 - L’utilisateur externe appelle le service Response Group.
     

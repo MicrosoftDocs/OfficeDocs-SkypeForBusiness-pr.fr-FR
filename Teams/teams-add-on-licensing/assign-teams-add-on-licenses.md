@@ -16,19 +16,19 @@ ms.reviewer: mikedav
 description: Découvrez comment affecter des Teams de modules supplémentaires aux utilisateurs pour des fonctionnalités telles que l’audioconférence, les Système téléphonique et les plans d’appel.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 36b644f983bc24304ff35f8ada0f8628e3b99e56974a8e434345a2c9e2c3c26d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53095578"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324783"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer Teams licences de modules add-on aux utilisateurs
 
 Les licences de modules supplémentaires sont des licences Teams de fonctionnalités spécifiques telles que l’audioconférence, les Système téléphonique et les plans d’appel. Cet article explique comment attribuer des licences d’ajout à des utilisateurs individuels et à de grands ensembles d’utilisateurs en bloc.
 
 > [!NOTE]
-> Consultez [Teams licences de modules](./microsoft-teams-add-on-licensing.md) Teams fonctionnalités disponibles avec les licences de modules supplémentaires. Vous trouverez également des informations sur les licences que vous devez acheter et sur la manière de les acheter (selon votre offre), afin que les utilisateurs disposent de fonctionnalités telles que l’audioconférence, les numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre organisation. Après avoir décidé des fonctionnalités que vous souhaitez pour vos utilisateurs, attribuez-leur les licences.
+> Consultez [Teams licences de modules](./microsoft-teams-add-on-licensing.md) Teams fonctionnalités disponibles avec des licences de modules supplémentaires. Vous trouverez également des informations sur les licences que vous devez acheter et sur la manière de les acheter (selon votre offre), afin que les utilisateurs disposent de fonctionnalités telles que l’audioconférence, les numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre organisation. Après avoir décidé des fonctionnalités que vous souhaitez pour vos utilisateurs, attribuez-leur les licences.
 
 Vous pouvez utiliser l’Centre d’administration Microsoft 365 ou PowerShell pour attribuer des licences aux utilisateurs de votre organisation. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
 
@@ -36,13 +36,13 @@ Vous pouvez utiliser l’Centre d’administration Microsoft 365 ou PowerShell p
 
 Avant de commencer, examinez les conditions suivantes :
 
-- Si vous utilisez une connectivité réseau téléphonique public commuté (RST) sur site pour des utilisateurs hybrides, il vous suffit d’affecter Système téléphonique licence. N’affectez PAS de licence Forfait d’appels.
+- Si vous utilisez une connectivité de réseau téléphonique public commuté (RST) sur site pour des utilisateurs hybrides, vous devez seulement affecter une licence Système téléphonique public. N’affectez PAS de licence Forfait d’appels.
 
 - En raison de la latence entre Microsoft 365 et Microsoft Teams, l’attribution d’un plan d’appels à un utilisateur peut prendre jusqu’à 24 heures après l’attribution d’une licence. Si l’utilisateur n’a pas accès à un plan d’appels au bout de 24 heures, contactez le support technique pour les produits pour les entreprises - Aide [de l’administrateur.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 - Vous recevrez un message d’erreur si vous n’avez pas acheté le nombre correct de licences. Si vous avez besoin d’acheter d’autres licences de forfait d’appels, choisissez l’option d’achat.
 
-- Même si vos utilisateurs Enterprise licences E5, vous devez leur attribuer des licences de [crédits](../what-are-communications-credits.md) de communication s’ils souhaitent appeler ou recevoir des appels du réseau PSTN.
+- Même si vos utilisateurs reçoivent Enterprise licences E5, vous devez leur attribuer des licences de [crédits](../what-are-communications-credits.md) de communication s’ils souhaitent appeler ou recevoir des appels du réseau PSTN.
 
 - Après avoir attribué des licences de plan d’appel ou de crédit de communication à vos utilisateurs, vous devrez obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs. Pour obtenir des instructions détaillées, [consultez Configurer les forfaits d’appels.](../set-up-calling-plans.md)
 
@@ -153,7 +153,7 @@ Pour en savoir plus, consultez Afficher les licences et services avec [PowerShel
 | Forfait d’appels nationaux (240 minutes par utilisateur/mois pour chaque pays) </br>*Cette offre n’est pas disponible aux États-Unis.* | MCOPSTN6 |
 | Crédits de communication | MCOPSTNPP |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Licences de module complémentaire Teams](./microsoft-teams-add-on-licensing.md)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)

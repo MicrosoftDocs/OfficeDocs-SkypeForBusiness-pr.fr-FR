@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 547a71f44fa81f9ba12a1c661465c7b8604b3fa1
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: 55dd80e5c71dd52dacd82f3fb12e1141a8bff470000280b582eccde7581231b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336664"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Faire échouer et faire échouer un pool dans Skype Entreprise Server
 
-Utilisez les procédures suivantes si un pool de Front-End unique a échoué et doit être retenté, ou si le pool qui a connu la panne est de nouveau en ligne et que vous devez rétablir l’état de travail normal de votre déploiement. Découvrez comment faire échouer et faire échouer le pool Edge utilisé pour la fédération Skype Entreprise ou XMPP, ou comment modifier le pool edge associé à un pool Front-End de gestion.
+Utilisez les procédures suivantes si un pool de Front-End unique a échoué et doit être retenté, ou si le pool qui a connu la panne est de nouveau en ligne et que vous devez rétablir l’état de travail normal de votre déploiement. Découvrez comment faire échouer et faire échouer le pool edge utilisé pour la fédération Skype Entreprise ou XMPP, ou comment modifier le pool edge associé à un pool de Front-End.
 
 - [Faire échouer un pool frontal](#fail-over-a-front-end-pool)
 - [Faire échouer un pool](#fail-back-a-pool)
-- [Faire échouer le pool edge utilisé pour la fédération Skype Entreprise Server](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
+- [Faire échouer le pool edge utilisé pour la fédération Skype Entreprise Server’équipe](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
 - [Faire échouer le pool edge utilisé pour la fédération XMPP dans Skype Entreprise Server](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
 - [Faire échouer le pool edge utilisé pour la fédération Skype Entreprise Server ou XMPP](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
 - [Modifier le pool edge associé à un pool frontal](#change-the-edge-pool-associated-with-a-front-end-pool)
@@ -47,7 +47,7 @@ Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en c
 
 **Pour définir un pool edge pour utiliser un pool de saut suivant sur un autre site**
 
-1. Ouvrez une fenêtre Skype Entreprise Server Management Shell et tapez l’cmdlet suivante :
+1. Ouvrez une Skype Entreprise Server Management Shell et tapez l’cmdlet suivante :
 
         Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
 
@@ -59,7 +59,7 @@ Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en c
 
     Les résultats de cette cmdlet indiquent quel pool héberge actuellement le serveur central de gestion. Dans le reste de cette procédure, ce pool est appelé pool \_ CMS.
 
-2. Utilisez le Générateur de topologie pour trouver la version de Skype Entreprise Server en cours d’exécution sur le \_ pool CMS. S’il exécute Skype Entreprise Server, utilisez l’cmdlet suivante pour trouver le pool de sauvegarde du pool 1.
+2. Utilisez le Générateur de topologie pour trouver la version de Skype Entreprise Server en cours d’exécution sur le \_ pool CMS. Si elle est en cours d’Skype Entreprise Server, utilisez l’cmdlet suivante pour trouver le pool de sauvegarde du pool 1.
 
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
 
@@ -73,7 +73,7 @@ Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en c
 
 4.  Si le magasin central de gestion n’est pas disponible ou si le magasin central de gestion était en cours d’exécution sur Pool1 (autrement dit, le pool qui a échoué), vous devez faire échouer le serveur central de gestion avant de faire échouer le pool. Si vous devez faire échouer le serveur central de gestion hébergé sur un pool exécutant Skype Entreprise Server, utilisez la cmdlet à l’étape 5 de cette procédure. Si vous n’avez pas besoin de faire échouer le serveur central de gestion, passez à l’étape 7 de cette procédure.
 
-5.  Pour faire échouer le magasin central de gestion sur un pool exécutant Skype Entreprise Server, exécutez la fonction suivante :
+5.  Pour faire échouer le magasin central de gestion sur un pool exécutant Skype Entreprise Server, exécutez les conseils suivants :
 
       - Tout d’abord, vérifiez quel serveur Back-End du pool de sauvegarde exécute l’instance principale du magasin central de gestion \_ en tapant ce qui suit :
 
@@ -93,7 +93,7 @@ Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en c
         
         Vérifiez que activeMasterFQDN et ActiveFileTransferAgents pointent vers le FQDN du pool de \_ sauvegarde.
     
-      - Enfin, vérifiez l’état du réplica pour tous Front-End serveurs en tapant ce qui suit :
+      - Enfin, vérifiez l’état du réplica pour tous Front-End serveurs en tapant les données suivantes :
         
             Get-CsManagementStoreReplicationStatus 
         
@@ -133,7 +133,7 @@ Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en c
     
         Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
     
-    Étant donné que les étapes des étapes précédentes de cette procédure pour vérifier l’état du magasin central de gestion ne sont pas universelles, il est toujours possible que cette cmdlet échoue, car le magasin central de gestion n’est pas encore entièrement bas. Dans ce cas, vous devez corriger le magasin central de gestion en fonction des messages d’erreur que vous voyez, puis ré-exécuter cette cmdlet.
+    Étant donné que les étapes prises dans les parties précédentes de cette procédure pour vérifier l’état du magasin central de gestion ne sont pas universelles, il est possible que cette cmdlet échoue car le magasin central de gestion n’est pas encore entièrement bas de la ligne. Dans ce cas, vous devez corriger le magasin central de gestion en fonction des messages d’erreur que vous voyez, puis ré-exécuter cette cmdlet.
     
     Si le message d’erreur suivant apparaît, vous devez modifier le pool de serveurs Edge sur ce site afin d’utiliser un pool différent comme tronçon suivant avant de faire basculer le pool. Pour plus d’informations, voir les procédures indiquées au début de cette rubrique.
     
@@ -148,7 +148,7 @@ Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en c
 
 Une fois que le pool ayant subi une défaillance est à nouveau en ligne (Pool1 dans cet exemple), procédez comme suit pour rétablir votre déploiement à un état de fonctionnement normal.
 
-Le processus de récupération de l’échec prend plusieurs minutes. À référence, un pool de 20 000 utilisateurs devrait prendre jusqu’à 60 minutes.
+Le processus de récupération de l’échec prend plusieurs minutes. À référence, un pool de 20 000 utilisateurs peut prendre jusqu’à 60 minutes.
 
 Restaurez les utilisateurs qui étaient initialement hébergés dans Pool1 et qui ont été basculés vers Pool2 en tapant l’applet de commande suivante :
     
@@ -156,9 +156,9 @@ Restaurez les utilisateurs qui étaient initialement hébergés dans Pool1 et qu
 
 Aucune autre étape n’est nécessaire. Si vous avez échoué sur le serveur central de gestion, vous pouvez le laisser dans Pool2.
 
-## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>Faire échouer le pool edge utilisé pour la fédération Skype Entreprise Server 
+## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>Faire échouer le pool edge utilisé pour la fédération Skype Entreprise Server’équipe 
 
-Si le pool Edge sur lequel la fédération Skype Entreprise Server est configurée est en panne, vous devez modifier la fédération pour utiliser un autre pool Edge pour que la fédération fonctionne.
+Si le pool edge sur lequel la fédération Skype Entreprise Server configurée est en panne, vous devez modifier la fédération pour utiliser un autre pool edge pour que la fédération fonctionne.
 
 1.  Sur le serveur frontal, ouvrez le Générateur de topologie. Développez les pools de serveurs **Edge,** puis cliquez avec le bouton droit sur le serveur Edge ou le pool de serveurs Edge actuellement configuré pour la fédération. Sélectionnez **Modifier les propriétés**.
 
@@ -170,11 +170,11 @@ Si le pool Edge sur lequel la fédération Skype Entreprise Server est configur�
 
 5.  Select **Action**, select **Topology**, select **Publish**. Lorsque vous y sont **invités sur Publier la topologie,** sélectionnez **Suivant.** Lorsque la publication est terminée, sélectionnez **Terminer.**
 
-6.  Sur le serveur Edge, ouvrez l’Assistant Déploiement de Skype Entreprise Server. Sélectionnez **Installer ou mettre à jour le système Skype Entreprise Server,** puis sélectionnez Installer ou supprimer **des composants Skype Entreprise Server.** Sélectionnez **Exécuter à nouveau**.
+6.  Sur le serveur Edge, ouvrez l’Assistant Skype Entreprise Server déploiement. Sélectionnez **Installer ou mettre à jour Skype Entreprise Server système,** puis sélectionnez Installer ou supprimer Skype Entreprise Server **composants.** Sélectionnez **Exécuter à nouveau**.
 
 7.  Sélectionnez **Suivant**. L’écran récapitulatif affiche les actions au fur et à mesure qu’elles s’exécutent. Une fois le déploiement terminé, sélectionnez **Afficher le journal** pour afficher les fichiers journaux disponibles. Sélectionnez **Terminer** pour terminer le déploiement.
     
-    Si le site contenant le pool edge défactuant contient des serveurs frontux qui sont toujours en cours d’exécution, vous devez mettre à jour le service de conférence web et le service de conférence A/V sur ces pools Front-End pour utiliser un pool edge dans un site distant en cours d’exécution. 
+    Si le site contenant le pool edge défactuant contient des serveurs frontux qui sont toujours en cours d’exécution, vous devez mettre à jour le service de conférence Web et le service de conférence A/V sur ces pools Front-End pour utiliser un pool edge dans un site distant en cours d’exécution. 
 
  ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>Faire échouer le pool edge utilisé pour la fédération XMPP dans Skype Entreprise Server 
 
@@ -215,7 +215,7 @@ Après la restauration en ligne d’un pool Edge qui hébergeait la fédération
 
 1.  Sur le pool Edge de nouveau disponible, lancez les Services Edge.
 
-2.  Si vous souhaitez restaurer l’itinéraire de fédération Skype Entreprise Server pour utiliser le serveur Edge restauré, faites les choses suivantes :
+2.  Si vous souhaitez restaurer l’itinéraire Skype Entreprise Server de fédération pour utiliser le serveur Edge restauré, faites les choses suivantes :
     
       - Sur le serveur frontal, ouvrez le Générateur de topologie. Développez les pools de serveurs **Edge,** puis cliquez avec le bouton droit sur le serveur Edge ou le pool de serveurs Edge actuellement configuré pour la fédération. Sélectionnez **Modifier les propriétés**.
     
@@ -227,7 +227,7 @@ Après la restauration en ligne d’un pool Edge qui hébergeait la fédération
     
       - Select **Action**, select **Topology**, select **Publish**. Lorsque vous y sont **invités sur Publier la topologie,** sélectionnez **Suivant.** Lorsque la publication est terminée, sélectionnez **Terminer.**
     
-      - Sur le serveur Edge, ouvrez l’Assistant Déploiement de Skype Entreprise Server. Sélectionnez **Installer ou mettre à jour le système Skype Entreprise Server,** puis sélectionnez Installer ou supprimer **des composants Skype Entreprise Server.** Sélectionnez **Exécuter à nouveau**.
+      - Sur le serveur Edge, ouvrez l’Assistant Skype Entreprise Server déploiement. Sélectionnez **Installer ou mettre à jour Skype Entreprise Server système,** puis sélectionnez Installer ou supprimer Skype Entreprise Server **composants.** Sélectionnez **Exécuter à nouveau**.
     
       - Sélectionnez **Suivant**. L’écran récapitulatif affiche les actions au fur et à mesure qu’elles s’exécutent. Une fois le déploiement terminé, sélectionnez **Afficher le journal** pour afficher les fichiers journaux disponibles. Sélectionnez **Terminer** pour terminer le déploiement.
 

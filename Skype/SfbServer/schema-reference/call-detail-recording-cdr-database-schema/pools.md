@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 description: La table Pools est une table de prise en charge qui stocke des informations sur les différents pools. Chaque enregistrement dans la table représente un pool.
-ms.openlocfilehash: bb0b794c38617d20b9a718fc9a44ec17c3a9ec66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b134fca33b49e466227b812e49cd74d5052d106bea640cf3e7f5e5eb24952002
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351963"
 ---
 # <a name="pools-table"></a>Table Pools
  

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
-description: La cmdlet Start-CcDownload télécharge les bits et le fichier msi de la version Cloud Connector de Skype Entreprise de manière synchrone.
-ms.openlocfilehash: 3298b02fbb792392860f05ebb15a9221b45e47b4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Start-CcDownload télécharge le fichier Skype Entreprise Cloud Connector Edition bits et msi de manière synchrone.
+ms.openlocfilehash: 0447c75ac3e6df79a20d2c87b664bfb92cf7124fc7253c839a88fad1b335eaec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824178"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351913"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
-La cmdlet Start-CcDownload télécharge les bits et le fichier msi de la version Cloud Connector de Skype Entreprise de manière synchrone.
+La cmdlet Start-CcDownload télécharge le fichier Skype Entreprise Cloud Connector Edition bits et msi de manière synchrone.
   
 Avec Cloud Connector version 2.0 et versions ultérieures, vous pouvez également spécifier le paramètre DownloadBitsOnly.
   
@@ -78,11 +78,11 @@ Aucun. La cmdlet Start-CcDownload n’accepte pas la saisie de données pipeline
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 

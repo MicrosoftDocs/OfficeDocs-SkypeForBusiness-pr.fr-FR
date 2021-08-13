@@ -1,5 +1,5 @@
 ---
-title: Rapport de contrôle d’admission des appels dans Skype Entreprise Server
+title: Rapport de contrôle d’admission des appels Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Résumé : Découvrez les rapports de contrôle d’admission des appels utilisés dans Skype Entreprise Server.'
-ms.openlocfilehash: ce7f8e622ece066d58cbc2c23a6423e19b084622
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336624"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>Rapport de contrôle d’admission des appels dans Skype Entreprise Server
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Rapport de contrôle d’admission des appels Skype Entreprise Server
  
 **Résumé :** Découvrez les rapports de contrôle d’admission des appels utilisés dans Skype Entreprise Server.
   
@@ -52,14 +52,14 @@ Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapp
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions ou du serveur Edge. Vous pouvez sélectionner un pool individuel ou cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante est renseignée automatiquement en fonction des enregistrements de la base de données.<br/> |
 |**Type d’activité** <br/> | Type d’activité. Sélectionnez l’une des activités suivantes : <br/>  [Tous] <br/>  Pair à pair <br/>  Programme <br/> |
 |**Catégorie d’appel** <br/> | Indique la raison pour laquelle le cac a été utilisé pour l’appel. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Appel rejeté en raison du contrôle d’admission des appels <br/>  Appels réacheminés via PSTN en raison du contrôle d’admission des appels <br/> |
    
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Mesures pour les sessions d’égal à égal
 
-Le tableau suivant répertorie les informations fournies dans le rapport de contrôle d’admission des appels pour les sessions D’égal à égal (c’est-à-dire, les sessions impliquant seulement deux participants).
+Le tableau suivant répertorie les informations fournies dans le rapport de contrôle d’admission des appels pour les sessions d’égal à égal (c’est-à-dire, les sessions impliquant seulement deux participants).
   
 **Mesures des sessions P2D**
 

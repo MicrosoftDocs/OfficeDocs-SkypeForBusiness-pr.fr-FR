@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: 'Résumé : Découvrez les données de surveillance utilisées dans Skype Entreprise Server.'
-ms.openlocfilehash: deff5dc5c21437cd89282578d2bf3f546f444f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 56b27a372eaef71ee02569a418721e9d2e4b28859a99c20489713a859439217a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336644"
 ---
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>Accéder aux données de surveillance dans Skype Entreprise Server
  
@@ -25,10 +25,10 @@ ms.locfileid: "49826544"
   
 Les données de surveillance sont stockées dans deux bases de données SQL Server: LcsCdr pour les données d’enregistrement de détails des appels et QoEMetrics pour les données de qualité de l’expérience. Ces deux bases de données n’ont rien de particulier, les données qu’elles contiennent sont accessibles avec les outils que vous utilisez habituellement pour accéder à et analyser des données SQL Server.
   
-Les rapports de surveillance de Skype Entreprise Server sont un outil que vous devez envisager pour accéder aux données de surveillance et les analyser. Ces rapports de surveillance sont un ensemble de rapports standard publiés par Microsoft SQL Server Reporting Service. Ces rapports, accessibles avec un navigateur web, fournissent des informations d’utilisation, de diagnostic d’appel et de qualité du média basées sur les enregistrements CDR (Enregistrement des détails des appels) et les enregistrements QoE (qualité de l’expérience) qui sont stockés dans les bases de données CDR et QoE. Les rapports de surveillance sont produits avec Skype Entreprise Server et peuvent être installés à partir de l’Assistant Déploiement de Skype Entreprise Server après l’installation de Skype Entreprise Server et la configuration de la surveillance.
+L’un des outils à prendre en compte pour accéder aux données de surveillance et les analyser est Skype Entreprise Server rapports de surveillance. Ces rapports de surveillance sont un ensemble de rapports standard publiés par Microsoft SQL Server Reporting Service. Ces rapports, accessibles avec un navigateur web, fournissent des informations d’utilisation, de diagnostic d’appel et de qualité du média basées sur les enregistrements CDR (Enregistrement des détails des appels) et les enregistrements QoE (qualité de l’expérience) qui sont stockés dans les bases de données CDR et QoE. Les rapports de surveillance sont Skype Entreprise Server et peuvent être installés à partir de l’Assistant Déploiement Skype Entreprise Server une fois Skype Entreprise Server installé et la surveillance configurée.
   
 Comme cela a été indiqué, les rapports de surveillance nécessitent l’utilisation de SQL Server Reporting Service. SQL Server Reporting Service peut être installé en même temps que SQL Server ou ultérieurement.
   
-Pour plus d’informations, voir la rubrique Installer des rapports [de surveillance dans Skype Entreprise Server.](../../deploy/deploy-monitoring/install-monitoring-reports.md)
+Pour plus d’informations, voir la rubrique Installer les rapports de surveillance [dans Skype Entreprise Server](../../deploy/deploy-monitoring/install-monitoring-reports.md).
   
 

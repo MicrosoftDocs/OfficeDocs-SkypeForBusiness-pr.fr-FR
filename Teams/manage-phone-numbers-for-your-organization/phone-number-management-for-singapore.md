@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone à Singapour pour Microsoft Teams.
-ms.openlocfilehash: a52249be7eaa467eb337b60b14fd187c8add79d972e43860f7e238ed9496e702
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 8e8f3887d9ebbcf26145f822b7e0a4548b8b9c11
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849139"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233259"
 ---
 # <a name="phone-number-management-for-singapore"></a>Téléphone gestion des nombres pour Singapour
 

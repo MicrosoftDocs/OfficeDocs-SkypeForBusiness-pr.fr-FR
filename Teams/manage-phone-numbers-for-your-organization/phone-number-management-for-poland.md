@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Pologne pour Microsoft Teams.
-ms.openlocfilehash: f4ed3f403c57b9a66d5febc6c46bff9b6379d3371986cfacaba309cfba244d82
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0c67e4766391f87269dcdad6073b12a3ba9b6157
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848529"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232809"
 ---
 # <a name="phone-number-management-for-poland"></a>Téléphone gestion des nombres pour la Pologne
 

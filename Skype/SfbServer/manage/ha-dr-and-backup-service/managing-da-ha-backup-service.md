@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Découvrez les procédures relatives aux opérations de récupération d’urgence, ainsi que la maintenance du service de sauvegarde, qui synchronise les données dans des pools frontaux couplés.
-ms.openlocfilehash: e486a71203b64b4fc351888869ac64a24689ba7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Découvrez les procédures relatives aux opérations de récupération d’urgence, ainsi que la maintenance du service de sauvegarde, qui synchronise les données dans les pools frontaux couplés.
+ms.openlocfilehash: a6740f5ebc0cc05982a5ad14efb5b2c10a8e06c22124aae331725d4c74a5aac2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336654"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde de Skype Entreprise Server
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gestion Skype Entreprise Server récupération d’urgence, haute disponibilité et service de sauvegarde
 
 Cette section contient des procédures pour les opérations de récupération d’urgence, ainsi que pour la maintenance du service de sauvegarde, qui synchronise les données dans des pools frontaux couplés.
 

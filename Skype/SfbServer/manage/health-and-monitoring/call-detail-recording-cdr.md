@@ -1,5 +1,5 @@
 ---
-title: Enregistrement des détails des appels (CDR) dans Skype Entreprise Server
+title: Enregistrement des détails des appels dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Résumé : Découvrez les enregistrements des détails des appels utilisés dans Skype Entreprise Server.'
-ms.openlocfilehash: 566a345cb48cd318976c4653abc74cbb5d4c9747
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8559104bffb4e1062f926e70972c0654522670887488740a2c9589d48b104959
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817104"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336614"
 ---
-# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Enregistrement des détails des appels (CDR) dans Skype Entreprise Server
+# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Enregistrement des détails des appels dans Skype Entreprise Server
  
 **Résumé :** Découvrez les enregistrements des détails des appels utilisés dans Skype Entreprise Server.
   
@@ -27,13 +27,13 @@ L’enregistrement des détails des appels permet d’enregistrer les informatio
   
 ## <a name="in-this-section"></a>Contenu de cette section
 
-- [Afficher les informations de configuration de l’cdr dans Skype Entreprise Server](view-configuration-information.md)
+- [Afficher les informations de configuration de l’Skype Entreprise Server](view-configuration-information.md)
     
 - [Activer l’enregistrement des détails des appels dans Skype Entreprise Server](enable-cdr.md)
     
-- [Créer ou modifier une collection de paramètres de configuration cdR dans Skype Entreprise Server](create-or-modify-a-collection-of-settings.md)
+- [Créer ou modifier une collection de paramètres de configuration d’cdr dans Skype Entreprise Server](create-or-modify-a-collection-of-settings.md)
     
-- [Supprimer une collection existante de paramètres de configuration cdR dans Skype Entreprise Server](delete-configuration-settings.md)
+- [Supprimer une collection existante de paramètres de configuration d’Skype Entreprise Server](delete-configuration-settings.md)
     
 - [Vider manuellement les bases de données d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     

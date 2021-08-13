@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Résumé : Découvrez l’opération Obtenir des utilisateurs, qui fait partie du service utilisateur. Le service utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: a830663fc97d8fda727d1ebb008d97407796cc7c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9efb2e10a4197a2ad323ce521617c3ce8c1600eb490077ffcf122d4d4628cdd8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832424"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331246"
 ---
 # <a name="get-users"></a>Obtenir les utilisateurs
  

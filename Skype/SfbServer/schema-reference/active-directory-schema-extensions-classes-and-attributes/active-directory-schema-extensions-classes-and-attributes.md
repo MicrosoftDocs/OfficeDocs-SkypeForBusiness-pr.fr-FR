@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Cette section de référence inclut les informations suivantes :'
-ms.openlocfilehash: 5c8a1ceb6b623466219cbd3df46ff2b39ccceb2c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 25532271f7a34b6861d0817de9e5e7526c1165d255f9a17a2b8a79414bc2ba05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352123"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Attributs, classes et extensions des schémas Active Directory
  
@@ -26,11 +26,11 @@ Cette section de référence inclut les informations suivantes :
   
 - Extensions de schéma Active Directory nouvelles ou modifiées pour Skype Entreprise Server
     
-    Le schéma Active Directory contient des définitions formelles de chaque classe d’objet pouvant être créée dans une forêt Active Directory. Il contient également des définitions formelles de chaque attribut pouvant exister dans un objet Active Directory. Le catalogue global Active Directory contient les réplicas de tous les objets de la forêt, ainsi qu’un sous-ensemble d’attributs pour chaque objet. Cette section décrit les classes et attributs nouveaux ou modifiés dans Skype Entreprise Server.
+    Le schéma Active Directory contient des définitions formelles de chaque classe d’objet pouvant être créée dans une forêt Active Directory. Il contient également des définitions formelles de chaque attribut pouvant exister dans un objet Active Directory. Le catalogue global Active Directory contient les réplicas de tous les objets de la forêt, ainsi qu’un sous-ensemble d’attributs pour chaque objet. Cette section décrit les classes et attributs qui sont nouveaux ou modifiés dans Skype Entreprise Server.
     
 - Toutes les classes utilisées par Skype Entreprise Server, avec une description de chacune
     
-- Tous les attributs utilisés par Skype Entreprise Server, avec une description de chacun
+- Tous les attributs utilisés par Skype Entreprise Server, avec une description de chacun d’eux
     
 - Liste des classes utilisées par Skype Entreprise Server, avec les attributs que chacune peut contenir
     
@@ -44,7 +44,7 @@ Cette section de référence inclut les informations suivantes :
     
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Modifications apportées au schéma dans Skype Entreprise Server](schema-changes.md)
+- [Modifications de schéma dans Skype Entreprise Server](schema-changes.md)
     
 - [Classes de schéma et descriptions dans Skype Entreprise Server](schema-classes-and-descriptions.md)
     

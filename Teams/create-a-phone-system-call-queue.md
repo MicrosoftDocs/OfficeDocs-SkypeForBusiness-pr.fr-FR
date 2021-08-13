@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 383305b616f1840705027982e4aa1bf1782b398fb0d1b1327fc5f5b7853d5185
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5e9cf54430b82079429e1aab3ee98b802b875c1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340470"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233069"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -143,7 +143,7 @@ Les comptes Teams des agents doivent être définis sur le mode Teams uniquement
 > Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage en fonction de l’emplacement.
 
 > [!TIP]
-> Nous **vous recommandons de** définir **le** mode Conférence sur Automatique.
+> Nous **vous recommandons** de définir le mode Conférence sur **Sur.**
 
 La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Sélectionnez l’une des options suivantes :
 
@@ -206,7 +206,7 @@ Lorsque vous avez sélectionné vos options de temporisation des appels, cliquez
 
 Les configurations ci-dessous sont recommandées :
 
-- **Mode conférence** sur **Auto**
+- **Mode conférence** sur **On**
 - **Méthode de routage** sur **Tourniquet (round robin)** ou **Inactivité la plus longue**
 - **Routage basé sur la présence** sur **Activé**
 - **Durée de l’alerte pour un agent :** sur **20 secondes**

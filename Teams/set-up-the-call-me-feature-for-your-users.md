@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 04510a827e9343010c756b14590e9800354c71e9
-ms.sourcegitcommit: f979c491af5210e6ceb1d1c00e000767f1a8311d
+ms.openlocfilehash: 972368de75f38ef1ad1d3f268bfa21526eda261658792b67ce8b0d51c3281b2e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51623130"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324813"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
@@ -45,7 +45,7 @@ Cliquez **sur Rejoindre** pour participer à une réunion, sélectionnez Télép
 
 **Laisser la réunion Teams un appel**
 
-Dans **l’écran Utiliser le téléphone pour l’audio,** l’utilisateur entre son numéro de téléphone, puis clique sur **M’appeler.** La réunion appelle l’utilisateur et l’intègre à la réunion.
+Sur **l’écran Utiliser le téléphone pour l’audio,** l’utilisateur entre son numéro de téléphone, puis clique sur **M’appeler.** La réunion appelle l’utilisateur et l’intègre à la réunion.
 
 ![Capture d’écran de l’option M’appeler sur l’écran Utiliser le téléphone pour l’audio](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
@@ -63,7 +63,7 @@ Voici un exemple du message  et de l’option Me rappeler qui s’affiche quand 
 
 ![Capture d’écran de l’option Me rappeler](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran **Utiliser le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone et se faire appeler Teams réunion et rejoindre la réunion ou se composer manuellement de la réunion.
+L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran **Utiliser le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone et se faire appeler Teams réunion et rejoindre la réunion, ou composer manuellement le numéro pour accéder à la réunion.
 
 ## <a name="set-up-the-call-me-feature"></a>Configurer la fonctionnalité M’appeler
 

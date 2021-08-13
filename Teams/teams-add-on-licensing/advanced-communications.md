@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446a9d5abab6f7302a46d6a8fca43f642fcea2d6
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 16a17bb867ef30d58dc55bd3fcf9545894097120d284ba7b1f7ac95e177a18fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726375"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324803"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Modules add-on advanced Communications for Microsoft Teams
 
@@ -46,7 +46,7 @@ Advanced Communications est disponible sur tous les Microsoft 365 et en tant que
 
 ## <a name="trial-offer"></a>Offre d’essai
 
-Une version d’essai de 60 jours est disponible à partir du 4 août 2020. Vous pouvez obtenir la version d’essai via le Microsoft 365 d’administration.
+Une version d’essai de 60 jours est disponible à partir du 4 août 2020. Vous pouvez obtenir la version d’essai par le biais Centre d’administration Microsoft 365.
 
 ## <a name="related-articles"></a>Articles connexes
 

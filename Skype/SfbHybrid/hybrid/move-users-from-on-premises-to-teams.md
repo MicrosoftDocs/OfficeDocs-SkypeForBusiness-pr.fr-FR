@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et déplacer les utilisateurs vers Teams.'
-ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 1b5a2f909a05ffd30902ca4ca32dc5b5621b3013e779cece3f0ffcd2dada731e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509775"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324703"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer des utilisateurs de l’environnement local vers Teams
 
@@ -38,7 +38,7 @@ Lorsqu’un utilisateur est déplacé de l’local vers Teams Uniquement, le dom
 - L’utilisateur peut toujours participer à Skype Entreprise réunions.
 - Les réunions pré-existantes de l’utilisateur prévues à l’avenir seront migrées de l’local vers Teams.
 - Les contacts qui existaient en local sont disponibles Teams peu de temps après la première connexion de l’utilisateur.
-- Les utilisateurs ne peuvent pas lancer d’appels ou de conversations Skype Entreprise, ni planifier de nouvelles réunions dans Skype Entreprise. S’ils tentent d’ouvrir Skype Entreprise client, ils sont redirigés vers l’Teams comme indiqué ci-dessous. Si le client Teams n’est pas installé, il est dirigé vers la version web de Teams à l’aide de son navigateur.<br><br>
+- Les utilisateurs ne peuvent pas lancer d’appels ou de conversations Skype Entreprise, ni planifier de nouvelles réunions dans Skype Entreprise. S’ils tentent d’ouvrir Skype Entreprise client, ils sont redirigés vers l’Teams comme indiqué ci-dessous. Si le client Teams n’est pas installé, il est dirigé vers la version web de Teams l’aide de son navigateur.<br><br>
     ![Message redirigeant un utilisateur vers Teams](../media/go-to-teams-page.png)
 
 Avant de déplacer des utilisateurs, veillez à passer en revue les conditions préalables pour déplacer les [utilisateurs](move-users-between-on-premises-and-cloud.md#prerequisites) vers le cloud. Assurez-vous également de passer en revue les instructions de migration et d’interopérabilité pour les organisations qui utilisent Teams avec [Skype Entreprise](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
@@ -59,13 +59,13 @@ Vous devez avoir des privilèges suffisants dans l’environnement local et le s
 
 En outre, vous devez vous assurer que l’utilisateur a reçu une licence pour Teams (en plus de Skype Entreprise Online). Ne désactivez pas la licence Skype Entreprise Online.
 
-### <a name="move-to-teams-using-move-csuser"></a>Passer à la Teams à l’aide Move-CsUser
+### <a name="move-to-teams-using-move-csuser"></a>Passer à l’Teams à l’aide Move-CsUser
 
 Move-CsUser est disponible à partir d’une fenêtre PowerShell Skype Entreprise Server Management Shell ou d’une fenêtre PowerShell Lync Server Management Shell. Pour déplacer un utilisateur en mode TeamsOnly à l’aide de Move-CsUser :
 - Spécifiez l’utilisateur à déplacer à l’aide du `Identity` paramètre.
 - Spécifiez `-Target` le paramètre avec la valeur « sipfed.online.lync. <span> com ».
 - Si vous n’avez pas un compte avec des autorisations suffisantes à la fois sur site et dans le service cloud (Microsoft 365), utilisez le paramètre pour fournir à un compte des `-credential` autorisations suffisantes dans Microsoft 365.
-- Si le compte avec des autorisations dans Microsoft 365 ne se termine pas par « onmicrosoft. <span> com « , vous devez spécifier le paramètre, avec la valeur correcte comme `-HostedMigrationOverrideUrl` décrit dans informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
+- Si le compte avec des autorisations dans Microsoft 365 ne se termine pas par « onmicrosoft. <span> com « , vous devez spécifier le paramètre, avec la valeur correcte comme décrit `-HostedMigrationOverrideUrl` dans les informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
 La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers TeamsOnly et suppose que les informations d’identification Microsoft 365 sont un compte distinct et fournies en tant qu’entrée pour l’invite Get-Credential. Le comportement est le même, `-MoveToTeams` que le commutateur soit spécifié ou non.
 
@@ -86,7 +86,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOA
 
 1. Ouvrez l Skype Entreprise Server du Panneau de Skype Entreprise Server.
 2. Dans le navigation de gauche, sélectionnez **Utilisateurs.**
-3. Utilisez **Find** pour localiser le ou les utilisateurs que vous souhaitez déplacer vers Teams.
+3. Utilisez **Find** pour localiser les utilisateurs que vous souhaitez déplacer vers Teams.
 4. Sélectionnez le(s) utilisateur(s), puis, dans la liste dropdown **Action** au-dessus de la liste, choisissez Déplacer les utilisateurs sélectionnés vers **Teams** ou Déplacer les utilisateurs sélectionnés vers **Skype Entreprise Online**.   Les deux options déplacent désormais les utilisateurs directement vers TeamsOnly.
 5. Dans l'Assistant, cliquez sur **Suivant**.
 6. Si vous y êtes invité, connectez-vous Microsoft 365 un compte qui se termine par .onmicrosoft.com et dispose d’autorisations suffisantes.

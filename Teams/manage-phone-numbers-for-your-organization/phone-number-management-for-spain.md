@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Espagne Microsoft Teams.
-ms.openlocfilehash: 9934be7d191e76a83e0bd7dc98e2825a6fa4e1846564091ae81c8944aa1b356f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: bc08529bd0b6a37a1e64b73f13ee1a2ae9195562
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849469"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233219"
 ---
 # <a name="phone-number-management-for-spain"></a>Gestion des numéros de téléphone pour l'Espagne
 

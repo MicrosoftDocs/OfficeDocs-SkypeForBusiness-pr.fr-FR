@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez des modèles d’équipe dans le Centre d’administration ou avec Microsoft Graph pour créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336254"
 ---
 # <a name="use-a-healthcare-team-templates"></a>Utiliser des modèles d’équipe de santé
 
@@ -44,7 +44,7 @@ Choisissez une méthode de création d’équipes avec les modèles médicaux d�
 
 ## <a name="use-the-team-templates-in-the-admin-center"></a>Utiliser les modèles d’équipe dans le Centre d’administration
 
-Microsoft Teams les administrateurs peuvent utiliser le centre Teams’administration pour créer des équipes à l’grâce aux modèles d’équipe. Nous proposons actuellement deux modèles de soins de santé pour un large éventail de situations. Pour en savoir plus sur les modèles d’équipe en général, voir Commencer à utiliser les [modèles d’équipe dans le Centre d’administration.](../../get-started-with-teams-templates-in-the-admin-console.md)
+Microsoft Teams administrateurs peuvent utiliser le centre Teams’administration pour créer des équipes à l’grâce aux modèles d’équipe. Nous proposons actuellement deux modèles de soins de santé pour un large éventail de situations. Pour en savoir plus sur les modèles d’équipe en général, voir Commencer à utiliser les [modèles d’équipe dans le Centre d’administration.](../../get-started-with-teams-templates-in-the-admin-console.md)
 
 ### <a name="collaborate-on-patient-care"></a>Collaborer sur les soins aux patients
 

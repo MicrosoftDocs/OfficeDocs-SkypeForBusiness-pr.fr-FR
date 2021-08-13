@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Résumé : Découvrez le rapport détaillé des appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336584"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Rapport détaillé des appels dans Skype Entreprise Server
  
@@ -51,17 +51,17 @@ Le rapport sur le détail de l’appel s’avère particulièrement utile pour i
 
 Le rapport sur le détail de l’appel est accessible à partir des rapports suivants :
   
-- [Rapport d’emplacement dans Skype Entreprise Server (location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- [Rapport d’emplacement en Skype Entreprise Server (location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- [Media Quality Summary Report in Skype for Business Server (summary.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- [Media Quality Summary Report in Skype Entreprise Server (summary.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- Le [rapport comparatif de](comparison.md) la qualité des médias dans Skype Entreprise Server (en cliquant sur le rapport de liste d’appels dans Skype Entreprise [Server,](call-list-report-0.md) puis sur la mesure Détail).
+- Le [rapport comparatif de la](comparison.md) qualité des médias Skype Entreprise Server (en cliquant sur le rapport de liste d’appels dans [Skype Entreprise Server](call-list-report-0.md) puis sur la mesure Détail).
     
-- Rapport [sur les performances du serveur dans Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- Rapport [sur les performances du serveur Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-- Rapport [des listes d’appels dans Skype Entreprise Server](call-list-report-0.md) (en cliquant sur la mesure Détails)
+- Rapport [de liste d’appels Skype Entreprise Server](call-list-report-0.md) (en cliquant sur la mesure Détail)
     
-À partir du rapport détaillé des appels, vous pouvez accéder au rapport de périphérique dans Skype Entreprise [Server](device-report.md) en cliquant sur l’une des mesures suivantes :
+À partir du rapport détaillé des appels, vous pouvez accéder au rapport de périphérique dans [Skype Entreprise Server](device-report.md) en cliquant sur l’une des mesures suivantes :
   
 - Périphérique de capture
     

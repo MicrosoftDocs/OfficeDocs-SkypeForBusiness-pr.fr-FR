@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour démarrer ou arrêter tous les services hérités en cours d’exécution sur un ordinateur spécifique ou pour démarrer ou arrêter un service hérité spécifique.
-ms.openlocfilehash: 2aca4cd9fb5d85bcf0744dc2b9e9551adc2a2336
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Vous pouvez utiliser Skype Entreprise Server de contrôle d’accès pour démarrer ou arrêter tous les services hérités en cours d’exécution sur un ordinateur spécifique ou pour démarrer ou arrêter un service hérité spécifique.
+ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753286"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324713"
 ---
 # <a name="stop-legacy-services"></a>Arrêter les services hérités
 
-Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour démarrer ou arrêter tous les services hérités en cours d’exécution sur un ordinateur spécifique ou pour démarrer ou arrêter un service hérité spécifique.
+Vous pouvez utiliser Skype Entreprise Server de contrôle d’accès pour démarrer ou arrêter tous les services hérités en cours d’exécution sur un ordinateur spécifique ou pour démarrer ou arrêter un service hérité spécifique.
   
 ## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Pour démarrer ou arrêter tous les services Skype Entreprise Server sur un ordinateur
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de contrôle.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
     
@@ -36,7 +36,7 @@ Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour démar
     
 ## <a name="to-start-or-stop-a-specific-service"></a>Pour démarrer ou arrêter un service spécifique
 
-1. Ouvrez le Panneau de contrôle Skype Entreprise Server.
+1. Ouvrez Skype Entreprise Server panneau de contrôle.
     
 2. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
     

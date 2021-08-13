@@ -1,5 +1,5 @@
 ---
-title: Gestion des menaces pour votre infrastructure principale pour Skype Entreprise Server
+title: Répondre aux menaces qui pèsent sur votre infrastructure principale pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
-description: En plus de suivre les meilleures pratiques pour votre déploiement de Skype Entreprise Server, vous pouvez contribuer à garantir la sécurité en examiner, comprendre et répondre à tous les besoins dans des domaines spécifiques de votre déploiement.
-ms.openlocfilehash: d959b20bed51e5c496f70cb107f5bd32670b8449
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: En plus de suivre les meilleures pratiques pour votre déploiement Skype Entreprise Server, vous pouvez contribuer à garantir la sécurité en réexant, en comprenant et en adressant les besoins dans des domaines spécifiques de votre déploiement.
+ms.openlocfilehash: c022bf950f21384c188ce2df05027281ff2f23ff8de89180b913f75b43124e39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336415"
 ---
-# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>Gestion des menaces pour votre infrastructure principale pour Skype Entreprise Server
+# <a name="addressing-threats-to-your-core-infrastructure-for-skype-for-business-server"></a>Répondre aux menaces qui pèsent sur votre infrastructure principale pour Skype Entreprise Server
  
-En plus de suivre les meilleures pratiques pour votre déploiement de Skype Entreprise Server, vous pouvez contribuer à garantir la sécurité en examiner, comprendre et répondre à tous les besoins dans des domaines spécifiques de votre déploiement.
+En plus de suivre les meilleures pratiques pour votre déploiement Skype Entreprise Server, vous pouvez contribuer à garantir la sécurité en réexant, en comprenant et en adressant les besoins dans des domaines spécifiques de votre déploiement.
   
 ## <a name="in-this-section"></a>Contenu de cette section
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Allemagne Microsoft Teams.
-ms.openlocfilehash: de59a68301faabeb875a8b9348e12cf40986916b534e6929f4189b98f085d43a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5df4949bd69967173ec9cc20bae7af77c6d02fdc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334705"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232659"
 ---
 # <a name="phone-number-management-for-germany"></a>Gestion des numéros de téléphone pour l'Allemagne
 
@@ -35,11 +35,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.  <br/> | En Allemagne, vous ne pouvez pas obtenir de numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous devez envoyer une demande de nouveaux numéros de téléphone. <br/><br/>Téléchargez l’un de ces formulaires. <br/>[Nouvelle demande de numéro de téléphone pour l’Allemagne (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour l’Allemagne (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Renseignez-le et [contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md).  <br/> |
-|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez l’un de ces formulaires. <br/><br/> Pour les numéros de téléphone des utilisateurs :<br/>[Courrier d’autorisation (LOA) pour l’Allemagne (numéros géographiques) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Pour les numéros de téléphone gratuits :<br/>[Courrier d’autorisation (LOA) pour l’Allemagne (numéros gratuits) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Renseignez-le et [contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md).  <br/> |
-|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contacter PTSN pour obtenir des instructions](contact-pstn-service-desk.md) concernant la liste des numéros de téléphone que vous souhaitez publier/annuler la publication. <br/> |
-|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contacter PTSN pour obtenir des instructions](contact-pstn-service-desk.md) concernant la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier la file d’attente des appels ou les numéros de standard automatique, contactez l’[assistance du service PSTN](contact-pstn-service-desk.md). |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.  <br/> | En Allemagne, vous ne pouvez pas obtenir de numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous devez envoyer une demande de nouveaux numéros de téléphone. <br/><br/>Téléchargez l’un de ces formulaires. <br/>[Nouvelle demande de numéro de téléphone pour l’Allemagne (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour l’Allemagne (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)  <br/> |
+|Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez l’un de ces formulaires. <br/><br/> Pour les numéros de téléphone des utilisateurs :<br/>[Courrier d’autorisation (LOA) pour l’Allemagne (numéros géographiques) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Pour les numéros de téléphone gratuits :<br/>[Courrier d’autorisation (LOA) pour l’Allemagne (numéros gratuits) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)  <br/> |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de la file d’attente automatique, contactez le service [PSTN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

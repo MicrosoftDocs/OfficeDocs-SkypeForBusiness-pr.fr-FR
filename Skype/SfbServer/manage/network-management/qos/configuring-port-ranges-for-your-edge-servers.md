@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article explique comment configurer des plages de ports pour les serveurs Edge et comment configurer une stratégie de qualité de service pour vos serveurs Edge A/V.
-ms.openlocfilehash: f21a5612889e0368a93bc8a55e5f023a28b226a9aa8843275faa696675b94d7e
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591128"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232639"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs Edge dans Skype Entreprise Server
 
@@ -28,7 +28,7 @@ Cet article explique comment configurer des plages de ports pour les serveurs Ed
 
 ## <a name="configure-port-ranges"></a>Configurer des plages de ports
 
-Avec les serveurs Edge, vous n’avez pas besoin de configurer des plages de ports distinctes pour l’audio, la vidéo et le partage d’application . De même, les plages de ports utilisées pour les serveurs Edge n’ont pas besoin de correspondre aux plages de ports utilisées avec vos serveurs de conférence, d’application et de médiation. Avant de poursuivre notre exemple, il est important de souligner que même si cette option existe, nous vous recommandons de ne pas modifier les plages de ports, car cela peut nuire à certains scénarios si vous vous déplacez hors de la plage de ports 50000.
+Avec les serveurs Edge, vous n’avez pas besoin de configurer des plages de ports distinctes pour l’audio, la vidéo et le partage d’applications . De même, les plages de ports utilisées pour les serveurs Edge n’ont pas besoin de correspondre aux plages de ports utilisées avec vos serveurs de conférence, d’application et de médiation. Avant de poursuivre notre exemple, il est important de souligner que même si cette option existe, nous vous recommandons de ne pas modifier les plages de ports, car cela peut nuire à certains scénarios si vous vous déplacez hors de la plage de ports 50000.
 
 Par exemple, supposons que vous ayez configuré vos serveurs de conférence, d’applications et de médiation afin d’utiliser ces plages de ports :
 
@@ -124,7 +124,7 @@ Après avoir créé la stratégie QoS pour le trafic audio, vous devez créer un
 
   - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 57501 à 65535 pour la vidéo, définissez la plage de ports sur celle-ci : **57501:65535**. Là encore, il doit être configuré comme plage de ports de destination.
 
-Si vous décidez de créer une stratégie pour la gestion du trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
+Si vous décidez de créer une stratégie pour gérer le trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
 
   - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server partage d’application).**
 
@@ -150,6 +150,6 @@ Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP
 
 5.  Cliquez avec le bouton droit sur **QoS**, pointez sur **Nouveau**, puis cliquez sur **Valeur chaîne**. Une fois la nouvelle valeur de Registre créée, tapez Ne pas utiliser **le NLA,** puis appuyez sur Entrée pour renommer la valeur.
 
-6.  Double-cliquez sur **Ne pas utiliser NLA**. Dans la boîte **de dialogue Modifier**  la chaîne, tapez **1** dans la zone de données Valeur, puis cliquez sur **OK**.
+6.  Double-cliquez sur **Ne pas utiliser NLA**. Dans la boîte **de dialogue Modifier**  la chaîne, tapez **1** dans la zone Données de la valeur, puis cliquez sur **OK**.
 
 7.  Fermez l’Éditeur du Registre et redémarrez votre ordinateur.
