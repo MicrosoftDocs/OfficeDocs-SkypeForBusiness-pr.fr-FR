@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez les rapports Teams d Power BI d’appels pour accéder Microsoft Teams données du tableau de bord de qualité des appels pour suivre l Microsoft Teams’utilisation dans votre organisation.
-ms.openlocfilehash: 719f02ce7a5cd36e96ed7fd563c259c6e77764fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095038"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352502"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Afficher Microsoft Teams’utilisation Power BI’aide des données du CQD
 
@@ -156,7 +156,7 @@ La partie supérieure droite du graphique indique le nombre d’appels effectué
 Le tableau inférieur fournit des informations détaillées sur les sessions à qui chaque utilisateur a participé pendant cette heure. La colonne Type d’échec est utile pour déterminer ce qui a provoqué la chute d’un appel. Les colonnes Du périphérique de capture et de rendu sont utiles pour identifier la raison pour laquelle un appel a été signalé pour une qualité médiocre.
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner la jonction pour trouver une jonction existante que vous pouvez utiliser.
-ms.openlocfilehash: 421ccb762fc9db478858c930903ff56feca82907
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 58618f4cf3cfe199265af0dd6db9939c2a508fda359178b1de64d70a39b3775f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807854"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345941"
 ---
 # <a name="select-trunk"></a>Sélectionner une jonction
  

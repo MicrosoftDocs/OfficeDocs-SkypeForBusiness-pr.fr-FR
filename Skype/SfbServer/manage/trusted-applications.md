@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Une application fiable est une application basée sur microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK qui est approuvé par les Skype Entreprise Server.
-ms.openlocfilehash: b174c0b45c3a90a1f0af53f31d7c507ffaca85cd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f01ac47641dac417efc57b91d59ce3b6ef1c006f273ce41c29eae675db5129eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351694"
 ---
-# <a name="manage-trusted-applications-in-skype-for-business-server"></a>Gérer les applications de confiance dans Skype Entreprise Server
+# <a name="manage-trusted-applications-in-skype-for-business-server"></a>Gérer les applications fiables dans Skype Entreprise Server
 
 Une *application fiable* est une application basée sur microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK qui est approuvé par les Skype Entreprise Server. Pour plus d’informations sur les applications UCMA, voir « Documentation du SDK Unified Communications Managed API 3.0 Core » sur https://go.microsoft.com/fwlink/p/?linkId=210320 .
 
@@ -66,7 +66,7 @@ Dans le Skype Entreprise Server de contrôle, vous pouvez voir le nom des applic
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>Pour afficher une liste d’applications fiables
 
-1.  Avec un compte d’utilisateur affecté au rôle CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfin Skype Entreprise Server, voir Contrôle d’accès basé sur un rôle [(RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md)
+1.  Avec un compte d’utilisateur affecté au rôle CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfincis disponibles dans Skype Entreprise Server, voir Contrôle d’accès basé sur un rôle [(RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md)
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.
 
@@ -77,28 +77,31 @@ Dans le Skype Entreprise Server de contrôle, vous pouvez voir le nom des applic
 
 ## <a name="view-trusted-application-information"></a>Afficher les informations sur les applications fiables
 
-Vous pouvez afficher des informations sur vos applications Windows PowerShell et l’cmdlet **Get-CsTrustedApplication.** Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher des informations sur vos applications de confiance à l’aide Windows PowerShell et de l’cmdlet **Get-CsTrustedApplication.** Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 
 ### <a name="to-view-trusted-applications"></a>Pour afficher les applications approuvées
 
 Pour afficher toutes vos applications de confiance, tapez la commande suivante dans l’Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
     
-   **Get-CsConferenceDisclaimer**
+        Get-CsConferenceDisclaimer
     
    Cette commande retourne des informations identiques aux suivantes pour chaque application approuvée :
     
-   Identity : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com<br/>
-   RegistrarPool : 487279971<br/>
-   HomeServer : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com OwnerUrn : urn:application:helpdesk<br/>
-   SipAddress : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
-   DisplayName :<br/>
-   DisplayNumber :<br/>
-   LineURI :<br/>
-   PrimaryLanguage : 0<br/>
-   SecondaryLanguages : {}<br/>
-   EnterpriseVoiceEnabled : True<br/>
-   ExUmEnabled : False<br/>
-   Activé : True<br/>
+        Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
+                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
+        RegistrarPool          : 487279971
+        HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
+                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
+        OwnerUrn               : urn:application:helpdesk
+        SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
+        DisplayName            :
+        DisplayNumber          :
+        LineURI                :
+        PrimaryLanguage        : 0
+        SecondaryLanguages     : {}
+        EnterpriseVoiceEnabled : True
+        ExUmEnabled            : False
+        Enabled                : True
     
    Pour plus d’informations, voir [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).

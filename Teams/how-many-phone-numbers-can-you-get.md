@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
 - seo-marvel-mar2020
 description: En savoir plus sur le nombre de numéros de téléphone que vous pouvez obtenir Microsoft Teams en fonction du type de numéro et du nombre de licences que vous avez.
-ms.openlocfilehash: ecd3eacc978d81bddc67b64b9e2480bba950aa1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0f31444cfa62bcbfe79059f985165526494cafc7813cefcfd18ce645e0763128
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352243"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Combien de numéros de téléphone vous pouvez obtenir ?
 
@@ -60,6 +60,6 @@ Vous pouvez consulter le nombre de numéros de téléphone que vous pouvez obten
 
 [Conditions générales relatives aux appels d'urgence](emergency-calling-terms-and-conditions.md)
 
-[Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   

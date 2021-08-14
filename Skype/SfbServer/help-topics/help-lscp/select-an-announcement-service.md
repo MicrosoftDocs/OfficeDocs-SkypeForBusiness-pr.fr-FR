@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 description: Utilisez la boîte de dialogue Sélectionner un service d’annonce pour sélectionner un service d’annonce qui gèrera les appels entrants destinés à une plage de numéros non attribués.
-ms.openlocfilehash: f79e4e95434ab9f72ecdba94ddb6bea71bcfc925
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ad86dec5e72219c5e7332fbb5bd776ecc5114d7cd57245c6d95d4b453a0d2c61
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822014"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345761"
 ---
 # <a name="select-an-announcement-service"></a>Sélectionner un service d’annonce
  

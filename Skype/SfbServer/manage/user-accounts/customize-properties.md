@@ -1,5 +1,5 @@
 ---
-title: Personnaliser les propriétés de compte d’utilisateur pour Skype Entreprise Server
+title: Personnaliser les propriétés de compte d’utilisateur Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Les procédures dans cette section vous permettent de modifier les propriétés de chaque compte d’utilisateur.
-ms.openlocfilehash: 6f2c3a76f9047da0a5d78695518cfb8355ab82e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b1c3bc75a59834c63f97c9425a775d902f246b299f76318ed890d060caf7e01b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351524"
 ---
-# <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personnaliser les propriétés de compte d’utilisateur pour Skype Entreprise Server
+# <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personnaliser les propriétés de compte d’utilisateur Skype Entreprise Server
  
 Les procédures dans cette section vous permettent de modifier les propriétés de chaque compte d’utilisateur.
   
@@ -32,9 +32,9 @@ Deux opérations de base peuvent être réalisées au niveau de l’utilisateur 
 ## <a name="configure-telephony-options-for-a-specific-user-account"></a>Configurer les options de téléphonie pour un compte d’utilisateur spécifique
 <a name="Tel_Op"> </a>
 
-Vous pouvez personnaliser les paramètres téléphoniques d’un utilisateur spécifique (tant que l’utilisateur individuel a été activé pour Skype Entreprise Server et que l’organisation prend en charge la téléphonie).
+Vous pouvez personnaliser les paramètres téléphoniques d’un utilisateur spécifique (tant que l’utilisateur individuel a été activé pour la Skype Entreprise Server et que l’organisation prend en charge la téléphonie).
   
-Les options de téléphonie utilisateur Skype Entreprise Server sont les suivantes :
+Skype Entreprise Server options de téléphonie utilisateur sont les suivantes :
   
 - **Audio/vidéo désactivé** L’utilisateur ne peut pas effectuer d’appels avec l’audio et la vidéo.
     
@@ -44,11 +44,11 @@ Les options de téléphonie utilisateur Skype Entreprise Server sont les suivant
     
 - **Contrôle d’appel distant** L’utilisateur peut utiliser Skype Entreprise Server pour contrôler le téléphone de bureau et peut également effectuer des appels de PC à PC.
     
-Pour plus d’informations sur la configuration de la téléphonie pour une organisation, voir Enable [users for Voix Entreprise in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) and Deploy Voix Entreprise in Skype for Business Server [in](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) the Deployment documentation.
+Pour plus d’informations sur la configuration de la téléphonie pour une organisation, voir [Enable users for Voix Entreprise in Skype Entreprise Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) and Deploy Voix Entreprise in [Skype Entreprise Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) in the Deployment documentation.
   
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -71,16 +71,16 @@ Pour plus d’informations sur la configuration de la téléphonie pour une orga
 ## <a name="move-users-to-another-pool"></a>Déplacer des utilisateurs vers un autre pool
 <a name="Move_Users"> </a>
 
-Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour affecter des utilisateurs à un serveur ou pool spécifique.
+Vous pouvez utiliser Skype Entreprise Server de contrôle d’accès pour affecter des utilisateurs à un serveur ou pool spécifique.
   
 > [!TIP]
-> Le déplacement de tous les utilisateurs existants d’un pool source exécutant Lync Server 2010 ou une antérieure vers un pool de destination Skype Entreprise Server dans un environnement Active Directory complexe peut entraîner une réplication Active Directory plus lente. Pour éviter cela, vous pouvez utiliser des filtres de recherche pour déplacer séparément des utilisateurs de pools exécutant Lync Server 2010 ou une antérieure, ou utiliser Skype Entreprise Server Management Shell pour déplacer des utilisateurs avec des cmdlets. En outre, la fonctionnalité de filtrage fonctionne avec les utilisateurs de Skype Entreprise Server. 
+> Le déplacement de tous les utilisateurs existants d’un pool source exécutant Lync Server 2010 ou une antérieure vers un pool de destination Skype Entreprise Server dans un environnement Active Directory complexe peut entraîner une réplication Active Directory plus lente. Pour éviter cela, vous pouvez utiliser des filtres de recherche pour déplacer des utilisateurs de pools exécutant Lync Server 2010 ou une édition antérieure séparément, ou vous pouvez utiliser Skype Entreprise Server Management Shell pour déplacer des utilisateurs avec des cmdlets. En outre, la fonctionnalité de filtrage fonctionne avec Skype Entreprise Server utilisateurs. 
   
 ### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>Pour déplacer les utilisateurs sélectionnés vers un autre serveur ou pool
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -101,7 +101,7 @@ Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour affect
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -120,7 +120,7 @@ Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour affect
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -142,15 +142,15 @@ Vous pouvez utiliser le Panneau de contrôle Skype Entreprise Server pour affect
     > [!CAUTION]
     > Si vous activez la case à cocher **Forcer**, le compte d’utilisateur est déplacé, mais toutes les données associées sont supprimées (par exemple, les conférences planifiées par l’utilisateur et les contacts). Si vous n’activez pas cette case à cocher, le compte et les données associées sont déplacés. 
   
-### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Pour déplacer des utilisateurs d’un pool vers un autre à l’aide des cmdlets Windows PowerShell
+### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Pour déplacer des utilisateurs d’un pool vers un autre à l’aide Windows cmdlets PowerShell
 
-1. Selon la façon dont vous exécutez les commandes Windows PowerShell (localement ou à distance), vous devez vous connecter en tant que membre des rôles d’administration Skype Entreprise Server corrects comme suit :
+1. Selon la façon dont vous exécutez les commandes Windows PowerShell (c’est-à-dire, localement ou à distance), vous devez vous connecter en tant que membre des rôles d’administration Skype Entreprise Server corrects comme suit :
     
    a. Si vous exécutez les commandes sur l’ordinateur local (par exemple, vous vous connectez directement à un serveur frontal) : connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
     
-   b. Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, vous vous connectez à votre ordinateur et exécutez les commandes à distance sur un serveur frontal Standard Edition) : à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
+   b. Si vous exécutez les commandes à distance sur un autre ordinateur (par exemple, vous vous connectez à votre ordinateur et exécutez les commandes à distance sur un serveur frontal Édition Standard) : à partir d’un compte d’utilisateur affecté au rôle CsUserAdministrator ou au rôle CsAdministrator, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Démarrez Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype** Entreprise, puis sur Skype Entreprise **Server Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Pour déplacer des utilisateurs individuels, utilisez la cmdlet Move-CsUser comme suit :
     

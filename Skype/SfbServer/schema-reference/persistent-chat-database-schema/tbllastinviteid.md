@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 222b3508-5963-4ddc-b4f3-e8412767e61b
 description: La table tblLastInviteId contient le dernier ID d’invitation généré (et utilisé dans la table tblPrincipalInvites) pour chaque utilisateur.
-ms.openlocfilehash: 9d5ec67a4f5c3db8558c58834582d489fde00ab6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2e233cb15ca0037b8741411bf20f8657fd2b1212a9f80ff071c224c470dc3532
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815964"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352512"
 ---
 # <a name="tbllastinviteid"></a>tblLastInviteId
  
@@ -26,7 +26,7 @@ La table tblLastInviteId contient le dernier ID d’invitation généré (et uti
   
 **Columns**
 
-|**Colonne**|**Type (Type)**|**Description**|
+|**Colonne**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID principal.  <br/> |
 |lastInviteID  <br/> |int, non null  <br/> |ID d’invitation le plus récemment utilisé.  <br/> |

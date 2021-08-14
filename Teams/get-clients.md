@@ -1,5 +1,5 @@
 ---
-title: Obtenir des clients pour Microsoft Teams
+title: Obtenir des clients pour Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -12,23 +12,23 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 localization_priority: Priority
 search.appverid: MET150
-description: Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS).
+description: Découvrez comment utiliser les différents clients disponibles pour Microsoft Teams, notamment les clients Web, de bureau (Windows et Mac) et mobiles (Android, iOS).
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8385e6721a24c3ad1bd320dd2f6e5e14091181b0
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352283"
 ---
-# <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams
+# <a name="get-clients-for-microsoft-teams"></a>Obtenir des clients pour Microsoft Teams
 
-Microsoft Teams dispose de clients Web, de bureau (Windows, Mac et Linux) et mobiles (Android et iOS). Ces clients requièrent une connexion Internet active et ne prennent pas en charge le mode hors connexion.
+Microsoft Teams dispose de clients Web, de bureau (Windows, Mac et Linux) et mobiles (Android et iOS). Ces clients requièrent une connexion Internet active et ne prennent pas en charge le mode hors connexion.
 
 > [!NOTE]
 > Pour plus d’informations sur les fonctionnalités de chaque client sur différentes plateformes, consultez [Fonctionnalités Teams par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -40,9 +40,9 @@ Microsoft Teams dispose de clients Web, de bureau (Windows, Mac et Linux) et mo
 ## <a name="desktop-client"></a>Client de bureau 
 
 > [!TIP]
-> Regardez la session suivante pour en savoir plus sur les avantages du client bureau Windows, comment il le planifier et comment déployer : [Windows Teams Client de bureau](https://aka.ms/teams-clients)
+> Regardez la session suivante pour en savoir plus sur les avantages du client bureau Windows, comment il le planifier et comment déployer : [Windows Teams Client de bureau](https://aka.ms/teams-clients)
 
-Le client de bureau Microsoft Teams est une application autonome et est également [disponible dans Microsoft 365 Apps for enterprise](/deployoffice/teams-install). Teams est disponible pour les versions 32 bits et 64 bits de Windows (8.1 ou version ultérieure),ARM64 pour Windows 10 et Windows Server (2012 R2 ou version ultérieure), ainsi que pour macOS et Linux (format `.deb` et `.rpm`). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. Sur Linux, les responsables de package tels que `apt` et `yum` tentent d’installer les conditions requises pour vous. Toutefois, si ce n’est pas le cas, vous devez installer les conditions requises avant d’installer Teams sur Linux.
+Le client de bureau Microsoft Teams est une application autonome et est également [disponible dans Microsoft 365 Apps for enterprise](/deployoffice/teams-install). Teams est disponible pour les versions 32 bits et 64 bits de Windows (8.1 ou version ultérieure),ARM64 pour Windows 10 et Windows Server (2012 R2 ou version ultérieure), ainsi que pour macOS et Linux (format `.deb` et `.rpm`). Sous Windows, Teams requiert .NET Framework 4.5 ou version ultérieure ; le programme d’installation Teams propose de l’installer pour vous si vous ne l’avez pas. Sur Linux, les responsables de package tels que `apt` et `yum` tentent d’installer les conditions requises pour vous. Toutefois, si ce n’est pas le cas, vous devez installer les conditions requises avant d’installer Teams sur Linux.
 
 Les clients de bureau fournissent la prise en charge de communications en temps réel (audio, vidéo, et partage de contenu) pour les réunions d'équipe, les appels de groupes et les appels en tête-à-tête.
 
@@ -54,16 +54,16 @@ Les clients de bureau peuvent être téléchargés et installés par les utilisa
 Les administrateurs informatiques peuvent utiliser la méthode de leur choix pour distribuer les fichiers d'installation sur les ordinateurs de leur organisation. Certains exemples incluent Microsoft Endpoint Configuration Manager (Windows) ou JAMF Pro (macOS). Pour obtenir le package MSI de distribution Windows, voir [installer Microsoft Teams à l’aide de MSI](msi-deployment.md).
 
 > [!NOTE]
-> La distribution du client via ces systèmes sert uniquement à l'installation initiale des clients Microsoft Teams, non pour les mises à jour futures.
+> La distribution du client via ces systèmes sert uniquement à l'installation initiale des clients Microsoft Teams, non pour les mises à jour futures.
 
 ### <a name="windows"></a>Windows
 
 L’installation de Microsoft Teams pour Windows fournit des programmes d’installation téléchargeables dans architecture 32 bits et 64 bits.
 
 > [!NOTE]
-> L'architecture (32 bits ou 64 bits) de Microsoft Teams est indépendante de Windows et ignore celle d'Office installée.
+> L'architecture (32 bits ou 64 bits) de Microsoft Teams est indépendante de Windows et ignore celle d'Office installée.
 
-Le client Windows est déployé vers le dossier AppData situé dans le profil de l’utilisateur. Le déploiement au profil local de l’utilisateur permet au client d’être installé sans exiger des droits élevés. Le client Windows exploite les emplacements suivants :
+Le client Windows est déployé dans le dossier AppData situé dans le profil de l’utilisateur. Le déploiement sur le profil local de l’utilisateur permet d’installer le client sans nécessiter de droits élevés. Le client Windows tire parti des emplacements suivants :
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -73,14 +73,14 @@ Le client Windows est déployé vers le dossier AppData situé dans le profil de
 
 - % LocalAppData%\\SquirrelTemp
 
-Lorsque les utilisateurs lancent un appel à l'aide du client Microsoft Teams la première fois, un message d'avertissement concernant les paramètres de pare-feu Windows peut s'afficher et requérir l'autorisation de la communication.  Les utilisateurs peuvent être invités à ignorer ce message, car l’appel fonctionnera, même lorsque l’avertissement est fermé.
+Lorsque les utilisateurs lancent un appel à l'aide du client Microsoft Teams pour la première fois, ils peuvent remarquer un avertissement avec les paramètres du pare-feu Windows qui demande aux utilisateurs d'autoriser la communication. Les utilisateurs peuvent être invités à ignorer ce message car l'appel fonctionnera, même lorsque l'avertissement est ignoré.
 
 ![Capture d'écran d'une boîte de dialogue Alerte de sécurité Windows.](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> La configuration du pare-feu Windows sera modifiée même si l'invite est ignorée en sélectionnant « Annuler ». Deux règles de trafic entrant pour teams.exe seront créées avec l’action d’autorisation pour les protocoles TCP et UDP.
+> La configuration du pare-feu Windows sera modifiée même lorsque l'invite est supprimée en sélectionnant « Annuler ». Deux règles entrantes pour teams.exe seront créées avec l'action Autoriser pour les protocoles TCP et UDP.
 
-Si vous voulez empêcher Teams d’inviter les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs effectuent un appel Teams pour la première fois, utilisez l’[Exemple de script PowerShell : règle de pare-feu de trafic entrant](#sample-powershell-script---inbound-firewall-rule) ci-dessous.
+Si vous voulez empêcher Teams d’inviter les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs effectuent un appel Teams pour la première fois, utilisez l’[Exemple de script PowerShell : règle de pare-feu de trafic entrant](#sample-powershell-script---inbound-firewall-rule) ci-dessous.
 
 ### <a name="mac"></a>Mac
 
@@ -96,7 +96,7 @@ Les utilisateurs de Mac peuvent installer Teams à l’aide d’un fichier d’i
 > [!NOTE]
 > Pendant l’installation, le PKG invite à entrer des informations d’identification d’administrateur. L’utilisateur doit entrer les informations d’identification d’administrateur, peu importe si l’utilisateur est un administrateur.
 
-Si un utilisateur a une installation DMG de Teams et souhaite la remplacer par l’installation PKG, l’utilisateur doit :
+Si un utilisateur a une installation DMG de Teams et souhaite la remplacer par l’installation PKG, l’utilisateur doit :
 
 1. Quitter l’application Teams.
 2. Désinstaller l’application Teams.
@@ -109,12 +109,12 @@ Les administrateurs informatiques peuvent utiliser le déploiement géré de Tea
 
 ### <a name="linux"></a>Linux
 
-Les utilisateurs peuvent installer des packages Linux natifs au format `.deb` et `.rpm`. L’installation du package DEB ou RPM permet d’installer automatiquement le référentiel du package.
+Les utilisateurs peuvent installer des packages Linux natifs au format `.deb` et `.rpm`. L’installation du package DEB ou RPM permet d’installer automatiquement le référentiel du package.
 
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams`
 
-La clé de signature permettant d’activer la mise à jour automatique à l’aide du gestionnaire de package du système est installée automatiquement. Toutefois, elle peut également se trouver dans : <https://packages.microsoft.com/keys/microsoft.asc>. Microsoft Teams est inclus une fois par mois. Si le référentiel a été correctement installé, le gestionnaire de package système doit gérer la mise à jour automatique de la même façon que les autres packages sur le système.
+La clé de signature permettant d’activer la mise à jour automatique à l’aide du gestionnaire de package du système est installée automatiquement. Toutefois, elle peut également se trouver dans : <https://packages.microsoft.com/keys/microsoft.asc>. Microsoft Teams est inclus une fois par mois. Si le référentiel a été correctement installé, le gestionnaire de package système doit gérer la mise à jour automatique de la même façon que les autres packages sur le système.
 
 > [!NOTE] 
 > Si vous trouvez un bogue, envoyez-le à l’aide d' `Report a Problem` à partir du client. Pour voir d’autres problèmes connus, consultez [Support de Teams au sein de votre organisation](/MicrosoftTeams/troubleshoot/teams-welcome).
@@ -123,24 +123,24 @@ La clé de signature permettant d’activer la mise à jour automatique à l’a
 #### <a name="install-teams-using-deb-package"></a>Installer Teams avec le package DEB
 
 1. Téléchargez le package à partir de <https://aka.ms/getteams>.
-2. Installez à l’aide de l'une des opérations suivantes :
+2. Installez à l’aide de l'une des opérations suivantes :
     - Ouvrez l’outil de gestion des packages approprié et suivez le processus d’installation de l’application Linux auto-guidée.
-    - Ou, si vous aimez Terminal, tapez : `sudo dpkg -i **teams download file**`
+    - Ou, si vous aimez Terminal, tapez : `sudo dpkg -i **teams download file**`
 
 Vous pouvez lancer Teams via les activités ou via un Terminal en tapant `teams`.
 
 #### <a name="install-teams-using-rpm-package"></a>Installer Teams avec le package RPM
 
 1. Téléchargez le package à partir de <https://aka.ms/getteams>.
-2. Installez à l’aide de l'une des opérations suivantes :
+2. Installez à l’aide de l'une des opérations suivantes :
     - Ouvrez l’outil de gestion des packages approprié et suivez le processus d’installation de l’application Linux auto-guidée.
-    - Ou, si vous aimez Terminal, tapez : `sudo yum install **teams download file**`
+    - Ou, si vous aimez Terminal, tapez : `sudo yum install **teams download file**`
 
 Vous pouvez lancer Teams via les activités ou via un Terminal en tapant `teams`.
 
 #### <a name="install-manually-from-the-command-line"></a>Installez manuellement à partir de la ligne de commande
 
-Installez manuellement sur des distributions Debian et Ubuntu :
+Installez manuellement sur des distributions Debian et Ubuntu :
 
 ```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
@@ -162,7 +162,7 @@ sudo dnf check-update
 sudo dnf install teams
 ```
 
-Vous pouvez également utiliser YUM au lieu de DNF :
+Vous pouvez également utiliser YUM au lieu de DNF :
 
 ```bash
 yum check-update
@@ -190,15 +190,15 @@ Le client web effectue la détection de la version navigateur lors de la connexi
 
 ## <a name="mobile-clients"></a>Clients mobiles
 
-Les applications mobiles Microsoft Teams sont disponibles pour Android et iOS et sont destinées aux utilisateurs en déplacement pour participer aux chats basées sur la conversation et autorisent les appels audio privés. Pour les applications mobiles, accédez à Google Play et l’Apple App Store. L’application Windows Phone a été retirée le 20 juillet 2018 et peut ne plus fonctionner.
+Les applications mobiles Microsoft Teams sont disponibles pour Android et iOS, et sont conçues pour les utilisateurs en déplacement participant à des conversations basées sur le chat et permettent des appels audio pair à pair. Pour les applications mobiles, accédez aux magasins mobiles concernés Google Play et Apple App Store. L'application Windows Phone a été retirée le 20 juillet 2018 et pourrait ne plus fonctionner.
 
 En Chine, voici comment [obtenir Teams pour Android](get-teams-android-in-china.md).
 
-Les plateformes mobiles prises en charge pour les applications mobiles Microsoft Teams sont les suivantes :
+Les plateformes mobiles prises en charge pour les applications mobiles Microsoft Teams sont les suivantes :
 
-- **Android** : la prise en charge est limitée aux quatre dernières versions principales d’Android. Lors de la publication d’une nouvelle version majeure d’Android, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
+- **Android** : la prise en charge est limitée aux quatre dernières versions principales d’Android. Lors de la publication d’une nouvelle version majeure d’Android, la nouvelle version et les trois versions précédentes sont officiellement prises en charge.
 
-- **iOS** : la prise en charge est limitée aux deux versions principales d’iOS les plus récentes. Lors de la publication d’une nouvelle version majeure d’iOS, la nouvelle version of iOS et les versions précédentes sont officiellement prises en charge.
+- **iOS** : la prise en charge est limitée aux deux versions principales d’iOS les plus récentes. Lors de la publication d’une nouvelle version majeure d’iOS, la nouvelle version of iOS et les versions précédentes sont officiellement prises en charge.
 
 > [!NOTE]
 > La version mobile doit être disponible au public pour que Teams fonctionne comme prévu.
@@ -207,13 +207,13 @@ Les applications mobiles sont distribuées et mises à jour via app store de la 
 
 | | | |
 |---|---|---|
-|![Icône montrant les points de décision](media/Get_clients_for_Microsoft_Teams_image4.png)|Point de décision|Existe-il des restrictions empêchant les utilisateurs d'installer le client Microsoft Teams appropriés sur leur appareil ?|
-|![Icône montrant les étapes suivantes](media/Get_clients_for_Microsoft_Teams_image5.png)|Étapes suivantes|Si votre organisation limite l'installation de logiciels, veillez à ce que ce processus soit compatible avec Microsoft Teams. Note : Les droits d'administration ne sont pas requis pour l'installation d'un client sur PC, mais le sont pour un Mac.|
+|![Icône montrant les points de décision](media/Get_clients_for_Microsoft_Teams_image4.png)|Point de décision|Existe-il des restrictions empêchant les utilisateurs d'installer le client Microsoft Teams appropriés sur leur appareil ?|
+|![Icône montrant les étapes suivantes](media/Get_clients_for_Microsoft_Teams_image5.png)|Étapes suivantes|Si votre organisation limite l'installation de logiciels, veillez à ce que ce processus soit compatible avec Microsoft Teams. Note : Les droits d'administration ne sont pas requis pour l'installation d'un client sur PC, mais le sont pour un Mac.|
 |
 
 ## <a name="client-update-management"></a>Gestion des mises à jour du client
 
-Les clients sont actuellement mis à jour automatiquement par le service Microsoft Teams sans aucune intervention de l’administrateur informatique. Si une mise à jour est disponible, le client télécharge automatiquement la mise à jour et lorsque celle-ci est inactive pendant un certain temps, le processus de mise à jour commence.
+Les clients sont actuellement mis à jour automatiquement par le service Microsoft Teams sans qu'aucune intervention de l'administrateur informatique ne soit requise. Si une mise à jour est disponible, le client téléchargera automatiquement la mise à jour et lorsque l'application sera inactive pendant un certain temps, le processus de mise à jour commencera. 
 
 ## <a name="client-side-configurations"></a>Configurations côté client
 
@@ -225,7 +225,7 @@ Aucune option n'est actuellement disponible pour les administrateurs informatiqu
 
 ![Capture d'écran des paramètres Notifications.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script---inbound-firewall-rule"></a>Exemple de script PowerShell : règle de pare-feu de trafic entrant
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Exemple de script PowerShell : règle de pare-feu de trafic entrant
 
 Cet exemple de script qui doit s’exécuter sur des ordinateurs clients dans le contexte d’un compte d’administrateur élevé, crée une nouvelle règle de pare-feu entrant pour chaque dossier utilisateur trouvé dans c:\users. Lorsque Teams détecte cette règle, il permet d’empêcher l’application Teams d’inviter les utilisateurs à créer des règles de pare-feu lorsque les utilisateurs passent leur premier appel à partir de Teams.
 

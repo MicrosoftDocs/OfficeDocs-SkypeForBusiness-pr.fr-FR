@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: 'Vous pouvez activer la prise en charge pour des fonctionnalités spécifiques qui nécessitent le déploiement d’autres serveurs en associant maintenant les rôles serveur et les pools frontaux. Vous pouvez également associer les rôles serveur et le pool frontal ultérieurement. Les rôles serveur pouvant être associés à un pool frontal sont notamment les suivants :'
-ms.openlocfilehash: 8ff7d11a40f7eccfda78643fd8b3a17146c014d7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: df7183915316f4b3b7c198c5fce735fa6969e6057b7a0ef95a7ce12b74eb5b8e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345751"
 ---
 # <a name="add-front-end-associations"></a>Ajouter des associations au pool frontal
 

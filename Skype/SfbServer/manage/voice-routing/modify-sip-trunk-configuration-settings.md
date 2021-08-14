@@ -1,5 +1,5 @@
 ---
-title: Skype Entreprise ServerModify siP trunk configuration settings
+title: Modifier les paramètres de configuration de la trunk SIP dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Les paramètres de configuration de la liaison siP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle du réseau téléphonique commuté, un pbX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services. '
-ms.openlocfilehash: befb9aac46d815cd89b25104c11a08ef2653a7ab
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
+ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351484"
 ---
-# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype Entreprise ServerModify siP trunk configuration settings
+# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration de la trunk SIP dans Skype Entreprise Server
 
 Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. Ces paramètres permettent de spécifier ce qui suit :
 
@@ -44,16 +44,16 @@ Lorsque vous modifiez les paramètres de configuration de la Skype Entreprise Se
 |Activer les données de transfert P-Asserted-Identity|ForwardPAI|Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.|
 |Activer le minuteur de basculement de routage de trafic sortant|EnableFastFailoverTimer|Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront acheminés vers la jonction suivante disponible ; s’il n’existe aucune jonction supplémentaire, l’appel est automatiquement abandonné. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.|
 |Utilisations PSTN associées|PSTNUsages|Collection d’utilisations PSTN assignées à la jonction.|
-|Numéro traduit à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
+|Numéro traduit à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.|
 |Règles de traduction associées|OutboundTranslationRulesList|Collection de règles de traduction de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels acheminés vers les destinations PBX ou PSTN).|
 |Règles de traduction du numéro appelé|OutboundCallingNumberTranslationRulesList|Collection de règles de traduction de numéro d’appel sortant assignées à la jonction.|
-|Numéro de téléphone à tester|S/O|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
-|Numéro appelant|S/O|Indique que le numéro de téléphone à tester est celui de l’appelant.|
-|Numéro appelé|S/O|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
+|Numéro de téléphone à tester|N/A|Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.|
+|Numéro appelant|N/A|Indique que le numéro de téléphone à tester est celui de l’appelant.|
+|Numéro appelé|N/A|Indique que le numéro de téléphone à tester est celui de la personne appelée.|
 |||
 
 > [!Note]
-> Les Skype Entreprise Server cmdlets CsTrunkConfiguration peuvent prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans Skype Entreprise Server panneau de configuration. Pour plus d’informations, voir la rubrique d’aide pour [l';set-CsTrunkConfiguration.)](/powershell/module/skype/Set-CsTrunkConfiguration) 
+> Les Skype Entreprise Server cmdlets CsTrunkConfiguration peuvent prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans Skype Entreprise Server panneau de configuration. Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/Set-CsTrunkConfiguration) 
 
 **Pour modifier les paramètres de configuration de la trunk SIP à l’aide du Skype Entreprise Server de configuration**
 
