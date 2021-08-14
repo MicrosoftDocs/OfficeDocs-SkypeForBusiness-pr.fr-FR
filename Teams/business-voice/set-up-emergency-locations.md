@@ -1,5 +1,5 @@
 ---
-title: Configurer des emplacements Microsoft 365 Business d’urgence voix
+title: Configurer des emplacements Microsoft 365 Business Voice d’urgence
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: Découvrez comment configurer des emplacements d’urgence pour Microsoft 365 Business Voix.
+description: Découvrez comment configurer les emplacements d’urgence pour les Microsoft 365 Business Voice.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: ade5e4d7ca978f2ed8690230e6a0636849155bc9da3a7602aa9d09710faa93d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52907760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345511"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>Étape 1 : configurer un emplacement d’urgence Business Voice
 

@@ -15,25 +15,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: Vous définissez les propriétés des magasins SQL Server pour le nouveau pool frontal que vous configurez.
-ms.openlocfilehash: 4a7dca6a9cb3d33a63d65e82459fb5cdab86703d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 06f48b4f515db23980fb5aedbd701a43cb8c5854bff630586f059bc52e9de6f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824064"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343588"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Page Ajouter un magasin Sql pour le pool frontal pour Lync Server 2010
  
 Vous définissez les propriétés des magasins SQL Server pour le nouveau pool frontal que vous configurez.
   
 > [!IMPORTANT]
-> Si vous configurez un serveur Standard Edition, cette boîte de dialogue s’affiche, mais vous ne pouvez pas configurer les paramètres. Cliquez sur **Suivant** pour continuer.
+> Si vous configurez un serveur Édition Standard, cette boîte de dialogue s’affiche, mais vous ne pouvez pas configurer les paramètres. Cliquez sur **Suivant** pour continuer.
   
 Paramètres que vous pouvez configurer :
   
 - **Utilisez un magasin d’SQL Server précédemment** défini : sélectionnez un magasin SQL Server existant dans la liste du magasin de pool frontal.
     
-- Sélectionnez **Définir un nouveau magasin SQL Server pour** créer un magasin SQL Server de données.
+- Sélectionnez **Définir un nouveau magasin SQL Server pour** créer une nouvelle SQL Server store.
     
     Vous tapez le nom de domaine complet du SQL Server dans **SQL Server FQDN**
     

@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Résumé : Découvrez comment gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d803e7d21be9743704402e2d9532fcfee413d804296cade2e56cbb875c965361
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096746"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343438"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server.
   
-Les utilisateurs Skype Entreprise Server qui ont des informations d’identification des services de domaine Active Directory (AD DS) dans votre organisation peuvent participer à des conférences téléphoniques en tant qu’utilisateurs authentifiés à l’aide d’un code confidentiel. La stratégie de code confidentiel définit les règles de fonctionnement des code confidentiels des conférences téléphoniques.
+Skype Entreprise Server utilisateurs qui ont des informations d’identification des services de domaine Active Directory (AD DS) dans votre organisation peuvent participer à des conférences téléphoniques en tant qu’utilisateurs authentifiés à l’aide d’un code confidentiel. La stratégie de code confidentiel définit les règles de fonctionnement des code confidentiels des conférences téléphoniques.
   
  Si vous souhaitez utiliser la même stratégie de code confidentiel pour l’ensemble de votre organisation, vous pouvez utiliser la stratégie de code confidentiel globale et la modifier selon vos besoins. La stratégie d’authentification par code confidentiel globale définit les règles des codes confidentiels pour les conférences rendez-vous au niveau forêt. Vous pouvez modifier la stratégie de code confidentiel globale, mais vous ne pouvez pas la supprimer.
   
@@ -33,19 +33,19 @@ Les stratégies de code confidentiel s’appliquent aux utilisateurs de l’éte
   
 ## <a name="view-information-about-pin-policies"></a>Afficher des informations sur les stratégies de code confidentiel
 
-Vous pouvez afficher des informations sur les stratégies de code confidentiel à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez afficher des informations sur les stratégies de code confidentiel à l’Skype Entreprise Server du Panneau de Skype Entreprise Server Management Shell.
   
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Afficher des informations sur les stratégies de code confidentiel à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Afficher des informations sur les stratégies de code confidentiel à l’aide du Skype Entreprise Server de contrôle
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
 4. Dans la page **Stratégie de** code confidentiel, cliquez sur la stratégie de code confidentiel à afficher, cliquez sur **Modifier,** puis sur Afficher **les détails.**
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Afficher des informations sur les stratégies de code confidentiel à l’aide de Skype Entreprise Server Management Shell
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Afficher des informations sur les stratégies de code confidentiel à l’aide Skype Entreprise Server Management Shell
 
 Pour afficher des informations sur les stratégies de code confidentiel, utilisez l’cmdlet **Get-CsPinPolicy.** Par exemple, la commande suivante retourne des informations sur une stratégie de code confidentiel unique dont l’identité est site:Redmond :
   
@@ -57,13 +57,13 @@ Pour plus d’informations, notamment une description complète de la syntaxe et
   
 ## <a name="modify-the-global-pin-policy"></a>Modifier la stratégie de code confidentiel globale
 
-Vous pouvez modifier la stratégie de code confidentiel globale à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez modifier la stratégie de code confidentiel globale à l’Skype Entreprise Server du Panneau de Skype Entreprise Server Management Shell.
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modification de la stratégie globale de code confidentiel des conférences téléphoniques à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modifier la stratégie globale de code confidentiel des conférences téléphoniques à l’aide du Skype Entreprise Server de contrôle
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
@@ -88,9 +88,9 @@ Vous pouvez modifier la stratégie de code confidentiel globale à l’aide du P
   
 12. Cliquez sur **Valider**.
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier la stratégie globale de code confidentiel des conférences téléphoniques à l’aide de Skype Entreprise Server Management Shell
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier la stratégie globale de code confidentiel des conférences téléphoniques à l’aide Skype Entreprise Server Management Shell
 
-Pour modifier la stratégie globale de code confidentiel de conférence téléphonique, utilisez l’cmdlet **Set-CsPinPolicy.**
+Pour modifier la stratégie globale de code confidentiel des conférences téléphoniques, utilisez l’cmdlet **Set-CsPinPolicy.**
   
 La commande suivante modifie la valeur de MinPasswordLength pour toutes les stratégies de code confidentiel configurées pour être utilisés dans l’organisation. Pour ce faire, la commande appelle d’abord l’cmdlet **Get-CsPinPolicy** sans paramètre afin de récupérer une collection de toutes les stratégies de code confidentiel existantes. Cette collection est ensuite canalée vers l’cmdlet **Set-CsPinPolicy,** qui modifie la valeur de la propriété MinPasswordLength pour chaque stratégie de la collection :
   
@@ -102,13 +102,13 @@ Pour plus d’informations, y compris une description complète de la syntaxe et
   
 ## <a name="create-a-user-or-site-pin-policy"></a>Créer une stratégie de code confidentiel d’utilisateur ou de site
 
-Vous pouvez créer une stratégie de code confidentiel d’utilisateur ou de site à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez créer une stratégie de code confidentiel d’utilisateur ou de site à l’Skype Entreprise Server du Panneau de Skype Entreprise Server Management Shell.
   
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Créer une stratégie de code confidentiel d’utilisateur ou de site à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Créer une stratégie de code confidentiel d’utilisateur ou de site à l’aide Skype Entreprise Server Panneau de contrôle
 
 1. À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
@@ -139,7 +139,7 @@ Vous pouvez créer une stratégie de code confidentiel d’utilisateur ou de sit
   
 13. Cliquez sur **Valider**.
     
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Créer une stratégie de code confidentiel d’utilisateur ou de site à l’aide de Skype Entreprise Server Management Shell
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Créer une stratégie de code confidentiel d’utilisateur ou de site à l’aide Skype Entreprise Server Management Shell
 
 Pour créer une stratégie de code confidentiel d’utilisateur ou de site, utilisez l’cmdlet **New-CsPinPolicy.**
   
@@ -153,13 +153,13 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>Modifier une stratégie de code confidentiel d’utilisateur ou de site
 
-Vous pouvez modifier une stratégie de code confidentiel d’utilisateur ou de site à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez modifier une stratégie de code confidentiel d’utilisateur ou de site à l’Skype Entreprise Server du Panneau de Skype Entreprise Server Management Shell.
   
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modifier une stratégie de code confidentiel d’utilisateur ou de site à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Modifier une stratégie de code confidentiel d’utilisateur ou de site à l’aide Skype Entreprise Server Panneau de contrôle
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
@@ -169,7 +169,7 @@ Vous pouvez modifier une stratégie de code confidentiel d’utilisateur ou de s
     
 6. Cliquez sur **Valider**.
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier une stratégie de code confidentiel d’utilisateur ou de site à l’aide de Skype Entreprise Server Management Shell
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier une stratégie de code confidentiel d’utilisateur ou de site à l’aide Skype Entreprise Server Management Shell
 
 Pour modifier la stratégie de code confidentiel des conférences téléphoniques, utilisez l’cmdlet **Set-CsPinPolicy.**
   
@@ -183,19 +183,19 @@ Pour plus d’informations, y compris une description complète de la syntaxe et
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>Supprimer une stratégie de code confidentiel d’utilisateur ou de site
 
-Vous pouvez supprimer une stratégie de code confidentiel d’utilisateur ou de site à l’aide du Panneau de contrôle Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez supprimer une stratégie de code confidentiel d’utilisateur ou de site à l’Skype Entreprise Server du Panneau de Skype Entreprise Server Management Shell.
   
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Supprimer une stratégie de code confidentiel d’utilisateur ou de site à l’aide du Panneau de contrôle Skype Entreprise Server
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Supprimer une stratégie de code confidentiel d’utilisateur ou de site à l’aide Skype Entreprise Server Panneau de contrôle
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conférence**, puis sur **Stratégie de code confidentiel**.
     
-4. Dans la page **Stratégie de** code confidentiel, cliquez sur la stratégie de code confidentiel à modifier, cliquez sur **Modifier,** puis sur **Supprimer.**
+4. Dans la page **Stratégie de** code confidentiel, cliquez sur la stratégie de code confidentiel à modifier, cliquez sur **Modifier,** puis cliquez sur **Supprimer.**
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Supprimer une stratégie de code confidentiel d’utilisateur ou de site à l’aide de Skype Entreprise Server Management Shell
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Supprimer une stratégie de code confidentiel d’utilisateur ou de site à l’aide Skype Entreprise Server Management Shell
 
 Pour supprimer une stratégie de code confidentiel d’utilisateur ou de site, utilisez l’cmdlet **Remove-CsPinPolicy.**
   

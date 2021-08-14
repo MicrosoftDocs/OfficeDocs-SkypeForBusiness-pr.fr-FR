@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype Entreprise Server fournit une connectivité PSTN fiable et évolutive à l’aide de connexions SIP, de connexions SIP directes vers une passerelle PSTN ou de connexions SIP directes à un PBX. Pour plus d’informations, voir Plan for PSTN connectivity in Skype for Business Server.
-ms.openlocfilehash: 14999f5ce996eb0ab97b9207ac333c9224b994cd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype Entreprise Server fournit une connectivité PSTN fiable et évolutive à l’aide de connexions SIP, de connexions SIP directes à une passerelle PSTN ou de connexions SIP directes à un PBX. Pour plus d’informations, voir Planifier la connectivité PSTN dans Skype Entreprise Server.
+ms.openlocfilehash: 12927cdd98976d16ee45ee2f4eb0321f0c2c9da3f426397301d07f45bceeafe1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342499"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  
-Skype Entreprise Server fournit une connectivité PSTN fiable et évolutive à l’aide de connexions SIP, de connexions SIP directes vers une passerelle PSTN ou de connexions SIP directes à un PBX. Pour plus d’informations, [voir Plan for PSTN connectivity in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+Skype Entreprise Server fournit une connectivité PSTN fiable et évolutive à l’aide de connexions SIP, de connexions SIP directes à une passerelle PSTN ou de connexions SIP directes à un PBX. Pour plus d’informations, [voir Planifier la connectivité PSTN dans Skype Entreprise Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
 

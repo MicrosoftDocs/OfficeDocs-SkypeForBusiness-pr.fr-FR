@@ -14,34 +14,34 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
-description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement Skype Entreprise Server, y compris l’activation et la désactivation des options suivantes :'
-ms.openlocfilehash: 96a01579f43833017978fc6067b5a86f9e9951aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement Skype Entreprise Server, notamment l’activation et la désactivation des options suivantes :'
+ms.openlocfilehash: 117e77b61e68c0af012ad23abd4757b571c63300e54b66b3385872edf9060d10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827004"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338442"
 ---
 # <a name="archiving-configuration"></a>Configuration de l’archivage
  
-Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement Skype Entreprise Server, y compris l’activation et la désactivation des options suivantes :
+Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement Skype Entreprise Server, notamment l’activation et la désactivation des options suivantes :
   
 - Blocage des sessions de messagerie instantanée ou de conférence en cas d’échec de l’archivage
     
-- Intégration au stockage Exchange 2013, pour les utilisateurs d’Exchange 2013
+- Intégration avec Exchange stockage 2013, pour les utilisateurs Exchange 2013
     
 - Purge des données archivées
     
 Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations d’archivage de site ou de pool :
   
-- **Configuration globale** La configuration globale est créée par défaut dans tous les déploiements Skype Entreprise Server. Vous pouvez modifier la configuration globale mais vous ne pouvez pas la supprimer. Si vous essayez de la supprimer, les valeurs par défaut de toutes les options sont réinitialisées.
+- **Configuration globale** La configuration globale est créée par défaut dans tous Skype Entreprise Server déploiements. Vous pouvez modifier la configuration globale mais vous ne pouvez pas la supprimer. Si vous essayez de la supprimer, les valeurs par défaut de toutes les options sont réinitialisées.
     
 - **Configuration du site (facultatif)** Vous pouvez spécifier une ou plusieurs configurations d’archivage de site, que vous pouvez configurer pour contrôler les options d’archivage d’un site spécifique. La configuration d’un site remplace la configuration globale, mais uniquement pour les sites spécifiés dans les configurations de site en matière d’archivage. Vous pouvez modifier ou supprimer des configurations de site.
     
 - **Configuration du pool (facultatif)** Vous pouvez spécifier une ou plusieurs configurations d’archivage de pool pour contrôler les options d’archivage d’un pool spécifique. Une configuration de pool supplante la configuration globale et la configuration de site, mais seulement pour les pools spécifiés dans les configurations d’archivage de pool. Vous pouvez modifier ou supprimer les configurations de pool.
     
 > [!NOTE]
-> Les configurations d’archivage s’appliquent aux utilisateurs stockés sur Skype Entreprise Server et, si vous utilisez Exchange pour stocker des données d’archivage dans Microsoft Exchange, aux utilisateurs qui sont stockés sur Exchange 2013, mais sont implémentés légèrement différemment pour les utilisateurs d’Exchange 2013. Ces différences sont décrites dans la section suivante. 
+> Les configurations d’archivage s’appliquent aux utilisateurs sur Skype Entreprise Server et, si vous utilisez Exchange pour stocker les données d’archivage dans Microsoft Exchange, aux utilisateurs qui sont stockés sur Exchange 2013, mais sont implémentés légèrement différemment pour les utilisateurs d’Exchange 2013. Ces différences sont décrites dans la section suivante. 
   
 La page **Configuration d’archivage** répertorie toutes les stratégies d’archivage configurées pour votre déploiement. Elle indique également le nom de stratégie, l’étendue (globale, de site ou de pool) et les options d’archivage activées pour chaque configuration d’archivage. La page **Configuration d’archivage** propose les options suivantes :
 - **Nouveau** Vous pouvez ajouter une ou plusieurs des configurations d’archivage facultatives suivantes.
@@ -68,5 +68,5 @@ La page **Configuration d’archivage** répertorie toutes les stratégies d’a
     
 - **Actualiser** Vous pouvez actualiser la page **Configuration de l’archivage** pour vérifier l’état des options de toutes les configurations d’archivage.
     
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, y compris l’intégration d’Exchange, voir [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server 2015,](../../plan-your-deployment/archiving/archiving.md)Déployer l’archivage pour [Skype Entreprise Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)et Gérer l’archivage dans [Skype Entreprise Server 2015.](../../manage/archiving/archiving.md)
 

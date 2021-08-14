@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
-description: La cmdlet Get-CcSiteDirectory affiche le répertoire actuel dans lequel les fichiers de configuration au niveau du site sont stockés. Le dossier contient les fichiers d’installation vhD de base et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres appliances d’un site Cloud Connector.
-ms.openlocfilehash: 6722b66f6c71feec158adaf442f9e57ef9943c84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Get-CcSiteDirectory affiche le répertoire actuel dans lequel les fichiers de configuration au niveau du site sont stockés. Le dossier contient le disque dur vhd de base et les Skype Entreprise Cloud Connector Edition d’installation. Ce dossier doit être partagé avec toutes les autres appliances d’un site Cloud Connector.
+ms.openlocfilehash: 279afabbb88aab162be8445007772e24d24d06d935130d5f4f27a8755a2fd25c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799864"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343188"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
-La cmdlet Get-CcSiteDirectory affiche le répertoire actuel dans lequel les fichiers de configuration au niveau du site sont stockés. Le dossier contient les fichiers d’installation vhD de base et Skype Entreprise, version Cloud Connector. Ce dossier doit être partagé avec toutes les autres appliances d’un site Cloud Connector.
+La cmdlet Get-CcSiteDirectory affiche le répertoire actuel dans lequel les fichiers de configuration au niveau du site sont stockés. Le dossier contient le disque dur vhd de base et les Skype Entreprise Cloud Connector Edition d’installation. Ce dossier doit être partagé avec toutes les autres appliances d’un site Cloud Connector.
   
 Cette cmdlet s’applique à Cloud Connector Edition 1.4.1, 1.4.2.
   

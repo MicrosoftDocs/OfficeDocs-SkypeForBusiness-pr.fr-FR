@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Résumé : Découvrez le rapport de synthèse de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: eaaa97c54a9183beda40848795b454e7dec92c6f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4b210577efa35634475f82ba6f36a4271780713942f04df69294c55c0924a126
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817044"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345621"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de synthèse de conférence dans Skype Entreprise Server.
   
-Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. Une conférence implique généralement plus de 2 utilisateurs et nécessite l’utilisation des services de conférence. Par comparaison, une session d’égal à égal n’implique généralement que 2 utilisateurs et ne nécessite pas l’utilisation des services de conférence Skype Entreprise Server. Les activités D’égal à égal sont signalées dans le rapport de synthèse des activités P2O dans [Skype Entreprise Server.](peer-to-peer-activity-summary-report.md)
+Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. Une conférence implique généralement plus de 2 utilisateurs et nécessite l’utilisation des services de conférence. En comparaison, une session d’égal à égal n’implique généralement que 2 utilisateurs et ne nécessite pas l’utilisation de Skype Entreprise Server services de conférence. Les activités D’égal à égal sont signalées dans le rapport de synthèse des activités P22 dans [Skype Entreprise Server](peer-to-peer-activity-summary-report.md).
   
 Le rapport de synthèse de conférence vous indique non seulement le nombre de conférences qui ont eu lieu pendant une période donnée (toutes les heures, tous les jours, toutes les semaines, tous les mois), mais également le nombre total de personnes qui ont participé à ces conférences et le nombre total d’organisateurs de conférences uniques.
   
@@ -78,7 +78,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début du 7/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours 8/7/2015 de 12:00 au 07/09/2015 12:00 (c’est-à-dire, un total de 31 jours de données). <br/> |
    
 ## <a name="metrics"></a>Mesures
@@ -89,7 +89,7 @@ Le tableau suivant contient les informations fournies par le rapport de synthès
 
 |**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Toutes les heures** <br/> **Journalière** <br/> **Hebdomadaire** <br/> **Mensuelle** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
+|**Toutes les heures** <br/> **Tous les jours** <br/> **Toutes les semaines** <br/> **Tous les mois** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
 |**Nombre total de conférences** <br/> |Non  <br/> |Nombre total de conférences (de quelque type que ce soit) qui se sont tenues. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport des activités de conférence pour la période sélectionnée.  <br/> |
 |**Nombre total de participants** <br/> |Non  <br/> |Nombre total de personnes ayant participé aux conférences. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport des activités de conférence pour la période sélectionnée.  <br/> |
 |**Nombre moyen de participants par conférence** <br/> |Non  <br/> |Nombre moyen de personnes ayant assisté à une conférence donnée. Valeur obtenue en divisant le nombre total de conférences par le nombre total de participants.  <br/> |

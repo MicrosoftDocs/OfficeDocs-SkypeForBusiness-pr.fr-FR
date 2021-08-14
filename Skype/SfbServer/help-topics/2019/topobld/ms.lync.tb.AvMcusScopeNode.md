@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Pools de conférence A/V répertorie les pools de conférence A/V dans votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 1a16332721240a9227ebedbcdb1c0892bd247eb3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: dc0e02652f888014cb22df5196ea177d7cc2509939947f2d5e945159e503825c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342369"
 ---
 # <a name="av-mcus-scope-node"></a>Nœud d’étendue des services MCU audio/vidéo
  

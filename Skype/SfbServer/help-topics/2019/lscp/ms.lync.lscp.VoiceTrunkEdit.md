@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 5284d775e8b89bca45491214c58e9892124be110
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1756c9a606434106508c651d7f52101747fd8b937eb939e5227723972ceb9757
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121814"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342529"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuration de la jonction : création d’une nouvelle ou modification d’une configuration existante
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
-- [Configuration d’une trunk avec déviation du média dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Configurer une trunk avec déviation du média dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
 - [Configurer une trunk sans déviation du média dans Skype Entreprise Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 

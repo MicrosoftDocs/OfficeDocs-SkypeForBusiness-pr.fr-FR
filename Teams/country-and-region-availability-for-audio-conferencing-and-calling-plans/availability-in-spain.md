@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour l’Espagne.
-ms.openlocfilehash: bdb2037e68abd64b32faf102e80586f43d8d6f2e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5cda42a058e8cf21c5799b70881d5cf52e16f0c70c9cc462e538da0a437a5013
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101330"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342998"
 ---
 # <a name="availability-in-spain"></a>Disponibilité en Espagne
 
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

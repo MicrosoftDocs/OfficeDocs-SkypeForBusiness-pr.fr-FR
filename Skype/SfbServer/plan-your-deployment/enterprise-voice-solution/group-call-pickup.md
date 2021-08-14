@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
-description: La planification de la prise d’appel de groupe dans Skype Entreprise Server Voix Entreprise, qui permet aux utilisateurs de répondre aux appels destinés à l’origine à d’autres personnes.
-ms.openlocfilehash: 874b9385352a8c51d9c9a356dd0ccc2ca3070601
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Planification de la prise d’appel de groupe Skype Entreprise Server Voix Entreprise, qui permet aux utilisateurs de répondre aux appels destinés à l’origine à d’autres personnes.
+ms.openlocfilehash: 8a4d057a2c668590a90e951000a39f40f7ae55e62a7c70fe7f670661acd5474c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345521"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planifier la prise d’appel de groupe dans Skype Entreprise
  
-La planification de la prise d’appel de groupe dans Skype Entreprise Server Voix Entreprise, qui permet aux utilisateurs de répondre aux appels destinés à l’origine à d’autres personnes.
+Planification de la prise d’appel de groupe Skype Entreprise Server Voix Entreprise, qui permet aux utilisateurs de répondre aux appels destinés à l’origine à d’autres personnes.
   
 La prise d’appel de groupe permet aux utilisateurs de répondre aux appels entrants à leurs collègues à partir de leurs propres téléphones. Cela augmente la disponibilité de la ligne d’un utilisateur en permettant à d’autres utilisateurs de répondre à un appel entrant en composant un numéro de groupe de prise d’appel. Lorsque la prise d’appel de groupe est déployée, le nombre d’appels entrants acheminés vers la messagerie vocale peut être considérablement réduit, ce qui est particulièrement utile pour les appels de clients externes à votre organisation.
   
 La fonctionnalité de prise d’appel de groupe est conçue en particulier pour les unités d’entreprise dans les environnements de bureau ouverts. Les appels entrants ne perturbent pas car ils sonnent uniquement à la destination prévue. Toutefois, les autres utilisateurs qui entendent la sonnerie peuvent toujours reprendre l’appel en composant simplement le numéro de groupe. 
   
-Dans les environnements où les utilisateurs ne sont pas situés dans une disposition de bureau ouverte ou où les utilisateurs qui partagent une responsabilité commune sont répartis géographiquement, l’appel d’équipe présente la solution la plus appropriée. La principale différence entre la prise d’appel de groupe et l’appel d’équipe est que, avec la prise d’appel de groupe, un appel entrant sonne uniquement à la destination prévue, mais tout le monde peut toujours choisir d’y répondre en composant un numéro de groupe. Avec l’appel d’équipe, l’appel sonne sur tous les téléphones des membres de l’équipe, et tous les utilisateurs de l’équipe peuvent prendre le téléphone pour répondre à l’appel. Une autre différence entre la prise d’appel de groupe et l’appel d’équipe est que la prise d’appel de groupe est gérée par un administrateur, via Skype Entreprise Server. Avec l’appel d’équipe, les utilisateurs finaux gèrent la fonctionnalité à l’aide du client Skype Entreprise. Par conséquent, avec la prise d’appel de groupe, cet aspect de la gestion des appels peut être centralisé.
+Dans les environnements où les utilisateurs ne sont pas situés dans une disposition de bureau ouverte ou où les utilisateurs qui partagent une responsabilité commune sont répartis géographiquement, l’appel d’équipe présente la solution la plus appropriée. La principale différence entre la prise d’appel de groupe et l’appel d’équipe est que, avec la prise d’appel de groupe, un appel entrant sonne uniquement à la destination prévue, mais tout le monde peut toujours choisir d’y répondre en composant un numéro de groupe. Avec l’appel d’équipe, l’appel sonne sur tous les téléphones des membres de l’équipe, et tous les utilisateurs de l’équipe peuvent prendre le téléphone pour répondre à l’appel. Une autre différence entre la prise d’appel de groupe et l’appel d’équipe est que la prise d’appel de groupe est gérée par un administrateur, Skype Entreprise Server. Avec l’appel d’équipe, les utilisateurs finaux gèrent la fonctionnalité à l’aide Skype Entreprise client. Par conséquent, avec la prise d’appel de groupe, cet aspect de la gestion des appels peut être centralisé.
   
-La prise d’appel de groupe repose sur l’application de parcage d’appel. Lorsque vous déployez la prise d’appel de groupe, vous configurez la table des orbites de parcage d’appel avec des plages distinctes de numéros de poste désignés comme numéros de groupe de prise d’appel. Comme les numéros de numéros d’appels par parcage, les numéros de groupe de prise d’appel doivent être des extensions virtuelles qui ne sont affectées à aucun utilisateur ou téléphone. Chaque pool frontal sur lequel vous déployez la prise d’appel de groupe peut avoir une ou plusieurs plages de numéros de groupe de prise d’appel. Les plages de numéros de groupe doivent être globalement uniques dans le déploiement de Skype Entreprise Server. 
+La prise d’appel de groupe repose sur l’application de parcage d’appel. Lorsque vous déployez la prise d’appel de groupe, vous configurez la table des orbites de parcage d’appel avec des plages distinctes de numéros de poste désignés comme numéros de groupe de prise d’appel. Comme les numéros de numéros d’appels par parcage, les numéros de groupe de prise d’appel doivent être des extensions virtuelles qui ne sont affectées à aucun utilisateur ou téléphone. Chaque pool frontal sur lequel vous déployez la prise d’appel de groupe peut avoir une ou plusieurs plages de numéros de groupe de prise d’appel. Les plages de numéro de groupe doivent être globalement uniques dans Skype Entreprise Server déploiement. 
   
 > [!NOTE]
-> Les plages de numéros désignées en tant que numéros de prise d’appel de groupe dans la table des numéros d’appels par parcage ne peuvent pas être gérées ou vues à l’aide du Panneau de contrôle Skype Entreprise Server. La seule façon d’voir toutes les plages de numéros dans la table des numéros d’appels par park est d’utiliser Skype Entreprise Server Management Shell. De même, la seule façon d’ajouter, de modifier ou de supprimer des numéros de prise d’appel de groupe consiste à utiliser Skype Entreprise Server Management Shell. 
+> Les plages de numéros désignées en tant que numéros de prise d’appel de groupe dans la table des numéros d’appels par parcage ne peuvent pas être gérées ou vues à l’aide du Panneau de Skype Entreprise Server de contrôle. La seule façon d’voir toutes les plages de numéro dans la table de numéro d’appel par parcé consiste à utiliser Skype Entreprise Server Management Shell. De même, la seule façon d’ajouter, de modifier ou de supprimer des numéros de prise d’appel de groupe consiste à utiliser Skype Entreprise Server Management Shell. 
   
 Après avoir configuré les numéros de groupe de prise d’appel, vous affectez des utilisateurs à un groupe de prise d’appel. Tous les utilisateurs affectés à un groupe de prise d’appel peuvent se voir répondre par d’autres utilisateurs. Lorsqu’un appel arrive à un utilisateur affecté à un groupe de prise d’appel, tout autre utilisateur qui remarque l’appel peut y répondre en composant manuellement le numéro du groupe de prise d’appel. L’utilisateur qui prend l’appel n’a pas besoin d’être membre du groupe. Lorsqu’un appel est pris par un autre utilisateur, une notification est envoyée au numéro appelé à l’origine.
   
@@ -74,7 +74,7 @@ Les types d’utilisateurs suivants ne peuvent pas participer à la prise d’ap
   
 - Utilisateurs qui sont en ligne dans un déploiement hybride
     
-- Utilisateurs qui ne sont pas homed on either a Skype for Business Server 2015 pool or a Lync Server 2013 pool with Cumulative Updates for Lync Server 2013: February 2013 in an on-premises deployment
+- Utilisateurs qui ne sont pas homed on either a Skype Entreprise Server 2015 pool or a Lync Server 2013 pool with Cumulative Updates for Lync Server 2013: February 2013 in an on-premises deployment
     
 Si personne ne répond à un appel à un membre d’un groupe de prise d’appel, l’appel est acheminé comme spécifié dans les paramètres du client. Autrement dit, l’appel est transmis à la messagerie vocale ou est transmis à une autre destination, comme spécifié dans les paramètres du client.
   
@@ -130,6 +130,6 @@ Le tableau suivant décrit le modèle utilisateur de prise d’appel de groupe q
 > Pour les pools frontaux qui ont moins de huit serveurs frontaux, calculez les mesures de manière linéaire. Par exemple, si votre pool frontal possède un serveur frontal, calculez la charge maximale à 1/8 des valeurs indiquées dans le tableau. 
   
 > [!NOTE]
-> Vous pouvez augmenter ou diminuer le nombre recommandé d’utilisateurs par groupe et le nombre de groupes tant que vous ne dépassez pas le nombre maximal d’utilisateurs par pool. Par exemple, votre serveur Standard Edition Server peut avoir 120 groupes avec 25 utilisateurs par groupe, car le nombre d’utilisateurs activés pour la prise d’appel de groupe est toujours dans le modèle utilisateur maximal (c’est-à-dire, 120 groupes fois que 25 utilisateurs sont 3 000 utilisateurs activés pour la prise d’appel de groupe). 
+> Vous pouvez augmenter ou diminuer le nombre recommandé d’utilisateurs par groupe et le nombre de groupes tant que vous ne dépassez pas le nombre maximal d’utilisateurs par pool. Par exemple, votre serveur Édition Standard peut avoir 120 groupes avec 25 utilisateurs par groupe, car le nombre d’utilisateurs activés pour la prise d’appel de groupe est toujours dans le modèle utilisateur maximal (autrement dit, 120 groupes fois 25 utilisateurs sont 3 000 utilisateurs activés pour la prise d’appel de groupe). 
   
 

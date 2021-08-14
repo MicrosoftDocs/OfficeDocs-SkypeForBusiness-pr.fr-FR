@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Survivable Branch Appliances répertorie les Survivable Branch Appliances sur ce site de succursale. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 6d6971fafe3385ef8a972e0156e77bc587807968
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 73a40dcac000a348a6b0b7259215406b5e60f4267d2766051f703f8c15b1fb6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342349"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nœud d’étendue des Branch Office Appliance
  

@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Résumé : Découvrez comment modifier les paramètres de configuration de réunion dans Skype Entreprise Server.'
-ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e1b283c5d50c955464d4af9b8f92f9e210f60f35a1fad5320c9f6bb8b6ede11d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343458"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration de réunion dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment modifier les paramètres de configuration de réunion dans Skype Entreprise Server.
   
-Vous pouvez modifier les paramètres de configuration de réunion à l’aide du Panneau de configuration de Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez modifier les paramètres de configuration de réunion à l’Skype Entreprise Server du Panneau de configuration ou Skype Entreprise Server Management Shell.
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modifier les paramètres de configuration de réunion à l’aide du Panneau de configuration de Skype Entreprise Server
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Modifier les paramètres de configuration de réunion à l’aide Skype Entreprise Server panneau de configuration
 
 1. Avec un compte d’utilisateur affecté au rôle CsUserAdministrator ou CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
     
-2.  Ouvrez le Panneau de contrôle Skype Entreprise Server.
+2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Configuration de **la réunion.**
+3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur **Configuration de la réunion.**
     
 4. Dans la liste des configurations de réunion, cliquez sur la configuration à modifier, cliquez sur **Modifier,** puis cliquez sur Afficher **les détails.**
     
@@ -39,7 +39,7 @@ Vous pouvez modifier les paramètres de configuration de réunion à l’aide du
     
 6. Cliquez sur **Valider**.
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modifier les paramètres de configuration de réunion à l’aide de Skype Entreprise Server Management Shell
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Modifier les paramètres de configuration de réunion à l’aide Skype Entreprise Server Management Shell
 
 Pour modifier les paramètres de configuration de réunion, utilisez l’cmdlet **Set-CsMeetingConfiguration.**
   

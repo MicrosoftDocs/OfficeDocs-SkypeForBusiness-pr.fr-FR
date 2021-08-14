@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 809de40e8c97eefbd3fc1a938e53328c3be0020f
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 9f28ff0d0cffd3cd370d1454c84e6645fea1a2603fa61f9a21f519e84cef5d92
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306028"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342769"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprendre Microsoft Teams coexistence et Skype Entreprise interopérabilité
 
@@ -36,7 +36,7 @@ Cet article fait partie de la phase Project de votre parcours vers la mise à ni
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
 - [Étendue définie de votre projet](./upgrade-define-project-scope.md)
 
-Si votre organisation utilise Skype Entreprise aujourd’hui et que vous commencerez à utiliser Teams en même temps que Skype Entreprise (ou si vous démarrez une mise à niveau vers Teams), il est important de comprendre comment les deux applications coexistent, quand et comment elles sont interopérables, et comment gérer la migration des utilisateurs jusqu’à leur mise à niveau fin de Skype Entreprise vers Teams.
+Si votre organisation utilise Skype Entreprise aujourd’hui et que vous commencerez à utiliser Teams en même temps que Skype Entreprise (ou si vous démarrez une mise à niveau vers Teams), il est important de comprendre comment les deux applications coexistent, quand et comment elles sont interopérables, et comment gérer la migration de vos utilisateurs jusqu’à leur mise à niveau fin de Skype Entreprise vers Teams.
 
 > [!Tip]
 > Regardez la session suivante pour en savoir plus [sur la coexistence et l’interopérabilité.](https://aka.ms/teams-upgrade-coexistence-interop)
@@ -60,7 +60,7 @@ Nous vous recommandons de passer en revue les modes de coexistence suivants pour
 
 Par défaut, les utilisateurs peuvent exécuter des Teams et Skype Entreprise deux solutions distinctes qui offrent des fonctionnalités similaires qui se chevauchent. Les fonctionnalités incluent la présence, les discussions, les appels et les réunions. Teams utilisateurs peuvent également tirer parti des nouvelles fonctionnalités de collaboration, telles que les équipes et les canaux, l’accès aux fichiers dans Microsoft 365 ou Office 365 et les applications.
 
-Dans ce mode de coexistence appelé **îles,** chacune des applications clientes fonctionne comme une île distincte. Skype Entreprise les négociations Skype Entreprise et Teams les négociations pour Teams. Les utilisateurs sont censés exécuter les deux clients à tout moment et peuvent communiquer en natif dans le client à partir duquel la communication a commencé. Ainsi, l’interopérabilité n’est pas nécessaire en mode **Îles.**
+Dans ce mode de coexistence appelé **Îles,** chacune des applications clientes fonctionne comme une île distincte. Skype Entreprise les négociations Skype Entreprise et Teams les négociations pour Teams. Les utilisateurs sont censés exécuter les deux clients à tout moment et peuvent communiquer en natif dans le client à partir duquel la communication a commencé. Ainsi, l’interopérabilité n’est pas nécessaire en mode **Îles.**
 
 Pour éviter une expérience d’Skype Entreprise confusion ou de régression, le Skype Entreprise gère les intégrations suivantes qui ne sont pas gérées en mode Teams **(Îles)** :
 
@@ -137,7 +137,7 @@ L’interopérabilité permet aux utilisateurs Teams et Skype Entreprise au sein
 L’interopérabilité est régie par le mode de coexistence (également appelé mode de mise à niveau) du récepteur. Il n’y a pas d’interopérabilité lorsque le récepteur est en mode **Îles.**
 
 > [!Note]
-> Lorsqu’elles sont déployées dans n’importe quel mode de coexistence à l’exception d’Îles, Teams et Skype Entreprise peuvent [interopérables,](#interoperability-of-teams-and-skype-for-business)ce qui permet aux utilisateurs de discuter et de s’appeler, et de s’assurer que les communications restent fluides au sein de votre organisation dans le cadre de votre voyage de mise à niveau vers Teams. Les modes de coexistence régissent l’interopérabilité. Le mode de coexistence du récepteur détermine si l’interopérabilité sera disponible. Par exemple, si le récepteur est dans un mode dans lequel la conversation est disponible uniquement dans un client (par exemple, Teams), l’interopérabilité des discussions sera généralement disponible si le initiateur utilise l’autre client (dans ce cas, Skype Entreprise) pour démarrer la conversation. En revanche, si le récepteur est dans le mode dans lequel la conversation est disponible dans les deux clients (mode Îles), l’interopérabilité n’est pas disponible pour la conversation. Le message sera reçu par le destinataire dans le même client que celui dans lequel le initiateur a démarré la conversation. Par conséquent, une communication appropriée en mode **Îles** nécessite Teams saturation de l’adoption ; autrement dit, tous les utilisateurs utilisent et contrôlent les deux clients de façon active.
+> Lorsqu’elles sont déployées dans n’importe quel mode de coexistence à l’exception d’Îles, Teams et Skype Entreprise peuvent [interopérables,](#interoperability-of-teams-and-skype-for-business)permettre aux utilisateurs de discuter et de s’appeler, et de s’assurer que les communications restent fluides au sein de votre organisation dans le cadre de votre voyage de mise à niveau vers Teams. Les modes de coexistence régissent l’interopérabilité. Le mode de coexistence du récepteur détermine si l’interopérabilité sera disponible. Par exemple, si le récepteur est dans un mode dans lequel la conversation est disponible uniquement dans un client (par exemple, Teams), l’interopérabilité des discussions sera généralement disponible si le initiateur utilise l’autre client (dans ce cas, Skype Entreprise) pour démarrer la conversation. En revanche, si le récepteur est dans le mode dans lequel la conversation est disponible dans les deux clients (mode Îles), l’interopérabilité n’est pas disponible pour la conversation. Le message sera reçu par le destinataire dans le même client que celui dans lequel le initiateur a démarré la conversation. Par conséquent, une communication appropriée en mode **Îles** nécessite Teams saturation de l’adoption ; autrement dit, tous les utilisateurs utilisent et contrôlent les deux clients de façon active.
 
 > [!Note]
 > **Pour avoir la dernière expérience de coexistence, la version du client doit être la dernière disponible sur le canal de déploiement Office’utilisateur.**
@@ -147,7 +147,7 @@ L’interopérabilité est régie par le mode de coexistence (également appelé
 Il existe deux types d’expériences interop: escalade native et escalade interop.
 
 - Une _expérience d’interop_ native se produit dans le client que l’utilisateur utilise actuellement. L’un des utilisateurs sera dans Skype Entreprise client, l’autre dans Teams. Une expérience d’interop native ne les fait pas communiquer avec un autre client. Les utilisateurs pourront mener leurs conversations dans le client qu’ils utilisent actuellement. Les expériences interop natives sont des appels et des discussions en un-à-un.
-- Une  escalade interoper signifie que, dans le cadre de l’aide à des utilisateurs à effectuer une action avancée (telle que le partage de leur bureau), le client facilite la création d’une réunion à laquelle les utilisateurs peuvent participer pour continuer l’expérience de cette réunion. La réunion est créée sur la plateforme du initiateur de l’action. Les utilisateurs qui ne utilisent pas cette plateforme reçoivent un lien d’accès à la réunion. Quand ils cliquent sur ce lien, ils sont joints à la réunion dans un client compatible (navigateur, application web ou client complet, selon la configuration). L’escalade entre les Skype Entreprise nécessite un client récent. L’escalade interop Teams est désormais disponible. Les deux sont pris en charge dans les expériences d’interopérabilité au sein du client et pour les clients de communication fédérée.
+- Une  escalade interoper signifie que, dans le cadre de l’aide des utilisateurs à effectuer une action avancée (telle que le partage de leur bureau), le client facilite la création d’une réunion à laquelle les utilisateurs peuvent participer pour continuer l’expérience de cette réunion. La réunion est créée sur la plateforme du initiateur de l’action. Les utilisateurs qui ne utilisent pas cette plateforme reçoivent un lien d’accès à la réunion. Quand ils cliquent sur ce lien, ils sont joints à la réunion dans un client compatible (navigateur, application web ou client complet, selon la configuration). L’escalade entre les Skype Entreprise nécessite un client récent. L’escalade interop Teams est désormais disponible. Les deux sont pris en charge dans les expériences d’interopérabilité au sein du client et pour les clients de communication fédérée.
 
 #### <a name="native-interop-experiences"></a>Expériences interop natives
 
@@ -236,7 +236,7 @@ Les sections suivantes résument le comportement qui peut être utilisé lors de
 
 - [Réunions](#meetings)
 - [Interopérabilité](#interoperability)
-- [Interop et threads de conversation natifs](#interop-versus-native-conversation-threads)
+- [Threads de conversation Interop et natifs](#interop-versus-native-conversation-threads)
 - [Présence](#presence)
 - [Fédération](#federation)
 - [Contacts](#contacts)
@@ -278,14 +278,14 @@ Dans la communication interop, la conversation est uniquement en texte intégral
 
 ### <a name="interop-versus-native-conversation-threads"></a>Threads de conversation Interop et natifs
 
-Étant donné que les communications interop n’offrent pas toutes les fonctionnalités des conversations Teams natives, le client Teams tient à jour des threads de conversation distincts pour les communications Teams-à-Teams et Teams-à-Skype Entreprise. Ces conversations sont rendues différemment dans l’interface utilisateur : les threads Interop peuvent être différenciés à partir d’un thread de conversation native Teams par :
+Étant donné que les communications interop n’offrent pas toutes les fonctionnalités des conversations Teams natives, le client Teams tient à jour des threads de conversation distincts pour les communications Teams-à-Teams et Teams-à-Skype Entreprise. Ces conversations sont rendues différemment dans l’interface utilisateur : les threads Interop peuvent être différenciés d’un thread natif normal Teams en :
 
 - Absence de contrôles pour le texte enrichi, le partage de fichiers/écran, l’impossibilité d’ajouter des utilisateurs.
 - Modification de l’icône de l’utilisateur cible affichant un « S » pour Skype Entreprise.
 
 Ces différences sont affichées dans les captures d’écran suivantes :
 
-Conversation de Teams en réunion Teams test User G3
+Conversation entre Teams réunion et Teams test User G3
 
 ![Diagramme montrant une conversation Teams-à-Teams native](media/teams-upgrade-native-thread.png)
 
@@ -324,7 +324,7 @@ Une conversation fédérée peut être un thread natif ou un thread interop. Con
 
 - Si le récepteur et l’expéditeur sont tous deux en mode de mise à niveau TeamsOnly, la conversation sera une expérience de conversation native qui inclut toutes les fonctionnalités de messagerie et d’appel enrichies. Pour en savoir plus, lisez l’expérience de conversation native des [utilisateurs externes (fédérés) dans Teams.](native-chat-for-external-users.md) 
 
-- Si l’un des participants à la conversation n’est PAS en mode de mise à niveau TeamsOnly, la conversation reste une expérience d’échange avec les messages texte uniquement. L’interface utilisateur expose les conversations fédérées de la même manière que les threads interop du même client, sauf qu’une note indique que l’utilisateur est externe.
+- Si l’un des participants à la conversation n’est PAS en mode de mise à niveau TeamsOnly, la conversation reste une expérience d’échange avec les messages texte uniquement. L’interface utilisateur expose les conversations fédérées de la même manière que les threads interop de même client, sauf qu’une note indique que l’utilisateur est externe.
 
 Pour plus d’informations, voir Gérer l’accès externe dans Microsoft Teams et [l’expérience](manage-external-access.md) de conversation native pour les utilisateurs externes [(fédérés) Teams.](native-chat-for-external-users.md)
 

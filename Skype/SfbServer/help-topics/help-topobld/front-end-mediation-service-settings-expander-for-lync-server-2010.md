@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Vous modifiez les propriétés des paramètres de Passerelle PSTN du serveur de médiation dans cette boîte de dialogue. Vous définissez les paramètres suivants :'
-ms.openlocfilehash: ad6aab0ce528db01621b1d43a62624d96649e66a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a4220a9134917ded867b639bb019594be5e21b9191e636503ae8883a5be39d77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344813"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres du service de médiation frontal pour Lync Server 2010
  

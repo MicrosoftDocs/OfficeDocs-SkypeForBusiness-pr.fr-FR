@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: Le tableau de bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation d’Skype Entreprise pour voir les appareils, y compris les systèmes d’exploitation et appareils mobiles Windows sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions. Pour en savoir plus, consultez les rapports d’activité du Centre d’administration.
-ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342679"
 ---
 # <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 
@@ -38,7 +38,7 @@ Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-
 Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des détails sur les types de clients/appareils utilisés dans votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise.
   
 > [!NOTE]
-> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Microsoft 365 d’administration. 
+> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Comment obtenir le rapport d’Skype Entreprise’utilisation des appareils
 
@@ -111,7 +111,7 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

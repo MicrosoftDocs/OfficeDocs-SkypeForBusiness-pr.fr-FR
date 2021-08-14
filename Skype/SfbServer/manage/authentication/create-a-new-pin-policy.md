@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 'Résumé : Créez une stratégie de code confidentiel dans Skype Entreprise Server.'
-ms.openlocfilehash: b0d1be74e509fbaddfc59250f4f5ce05a2021260
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a4bacce5d6a3bcaae2d2c114b6b4dd7dfda5bf6147da4ba51c14abd4d10ed1d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828404"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345701"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Créer une stratégie de code confidentiel dans Skype Entreprise Server
  
 **Résumé :** Créez une stratégie de code confidentiel dans Skype Entreprise Server.
   
-Vous pouvez utiliser la **page** Stratégie de code confidentiel pour fournir une authentification par code confidentiel aux utilisateurs qui se connectent à Skype Entreprise avec des téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web.
+Vous pouvez utiliser la **page** Stratégie de code confidentiel pour fournir une authentification par code confidentiel aux utilisateurs qui se connectent Skype Entreprise avec des téléphones IP. Pour utiliser l’authentification par code confidentiel, assurez-vous que l’option **Activer l’authentification par code confidentiel** est sélectionnée dans les paramètres du service web.
   
 Suivez cette procédure pour créer une stratégie de code confidentiel au niveau utilisateur ou site. 
   
@@ -32,7 +32,7 @@ Suivez cette procédure pour créer une stratégie de code confidentiel au nivea
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Stratégie de code confidentiel**.
     

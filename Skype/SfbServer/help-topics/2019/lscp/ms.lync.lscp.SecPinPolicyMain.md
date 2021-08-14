@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: da4d28e865a20e1d095cbd19de8fd7b3c3da97c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0dc9972d11bafb155800e7bbbe1b2d5e281636011d56a66b233b67ab59fd76fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343808"
 ---
 # <a name="pin-policy"></a>Stratégie de code confidentiel
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 
- **Utiliser la stratégie de code confidentiel pour les téléphones IP** Cette stratégie de code confidentiel prend en charge l’authentification pour les utilisateurs qui se connectent à Skype Entreprise Server à l’aide d’un téléphone IP.
+ **Utiliser la stratégie de code confidentiel pour les téléphones IP** Cette stratégie de code confidentiel prend en charge l’authentification pour les utilisateurs qui se connectent Skype Entreprise Server à l’aide d’un téléphone IP.
 - [Créer une stratégie de code confidentiel dans Skype Entreprise Server](../../../manage/authentication/create-a-new-pin-policy.md)
 
 - [Modifier une stratégie de code confidentiel existante dans Skype Entreprise Server](../../../manage/authentication/modify-an-existing-pin-policy.md)

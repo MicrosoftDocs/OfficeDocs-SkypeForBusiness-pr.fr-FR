@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Résumé : Découvrez les rapports de surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: 32e16d02f458ca36fb18b52790966c68a354503e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8a1dd4e75b813f2208eb59f7608622b757d4f3ac58c93a012722afbc051a6de1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345561"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Utilisation des rapports de surveillance dans Skype Entreprise Server 
  
@@ -31,9 +31,9 @@ Pour utiliser ces rapports, vous devez installer les rapports de surveillance su
 
 - [Utilisation du tableau de bord de surveillance dans Skype Entreprise Server](monitoring-dashboard.md) Fournit aux administrateurs une vue d’ensemble rapide de l’état du système et de leur utilisation.
     
-- [Rapports d’utilisation du système dans Skype Entreprise Server](system-usage-reports.md) Fournit des informations d’utilisation système basées sur les données d’cdr collectées par Skype Entreprise Server.
+- [Rapports d’utilisation du système Skype Entreprise Server](system-usage-reports.md) Fournit des informations d’utilisation système basées sur les données d’Skype Entreprise Server.
     
-- [Rapports de diagnostic des appels (par utilisateur) dans Skype Entreprise Server](call-diagnostic-reports-per-user.md) Fournit des informations par utilisateur sur les sessions d’égal à égal et de conférence qui ont échoué.
+- [Rapports de diagnostic des appels (par utilisateur) Skype Entreprise Server](call-diagnostic-reports-per-user.md) Fournit des informations par utilisateur sur les sessions d’égal à égal et de conférence qui ont échoué.
     
 - [Rapports de diagnostic des appels dans Skype Entreprise Server](call-diagnostic-reports.md) Fournit des informations récapitulatifs et des données de diagnostic pour les sessions d’égal à égal et de conférence qui ont échoué.
     
@@ -41,7 +41,7 @@ Pour utiliser ces rapports, vous devez installer les rapports de surveillance su
     
 ## <a name="locating-records"></a>Recherche d’enregistrements
 
-Les rapports de surveillance affichent uniquement une quantité limitée d’enregistrements à l’écran. La quantité réelle d’enregistrements affichés sur un écran dépend du rapport. Pour afficher les enregistrements qui ne sont pas actuellement affichés à l’écran, vous pouvez utiliser le contrôle avant et arrière standard (disponible dans la barre d’outils de chaque rapport) qui vous permet de pagcourir dans les données. Vous pouvez également accéder rapidement à la première ou dernière page du jeu de données.
+Les rapports de surveillance affichent uniquement une quantité limitée d’enregistrements à l’écran. La quantité réelle d’enregistrements affichés sur un écran dépend du rapport. Pour afficher les enregistrements qui ne sont pas actuellement affichés à l’écran, vous pouvez utiliser le contrôle avant et arrière standard (disponible dans la barre d’outils de chaque rapport) qui vous permet de consulter les données. Vous pouvez également accéder rapidement à la première ou dernière page du jeu de données.
   
 Outre ces contrôles, vous pouvez accéder à une page quelconque du jeu de données en tapant simplement son numéro dans la zone **Page actuelle**, puis en appuyant sur Entrée.
   

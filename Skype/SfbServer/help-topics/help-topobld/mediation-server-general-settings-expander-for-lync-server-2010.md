@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Vous modifiez les propriétés des serveurs de médiation dans cette boîte de dialogue. Sur le côté gauche, un jeu de liens vous permet d’accéder aux paramètres généraux, aux paramètres du tronçon suivant et aux paramètres de la passerelle PSTN. Les paramètres suivants se trouvent dans chaque section :'
-ms.openlocfilehash: 6c8c238ce7d89db53f3b92a0f513c080976a3bab
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 87eda891ae5c9e19a9a54e000b85b62e46c077d6a4c90318c9372fe6e887ecaa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114190"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344783"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur de médiation pour Lync Server 2010
 

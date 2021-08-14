@@ -1,5 +1,5 @@
 ---
-title: Configuration des add-ins pour les salles de conversation permanente dans Skype Entreprise Server 2015
+title: Configurer des add-ins pour les salles de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: 'Résumé : Découvrez comment configurer des add-ins pour les salles de conversation du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 1aca54f3db1229527256d1e2801cb057f4f79387
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 'Résumé : Découvrez comment configurer des add-ins pour les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.'
+ms.openlocfilehash: 0c5b32d01c4464c367cb6c7332ca279fa23c8b4b1fc80e36bc12dd2161812dcd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345541"
 ---
-# <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configuration des add-ins pour les salles de conversation permanente dans Skype Entreprise Server 2015
+# <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurer des add-ins pour les salles de conversation permanente dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment configurer des add-ins pour les salles de conversation du serveur de conversation permanente dans Skype Entreprise Server 2015.
+**Résumé :** Découvrez comment configurer des add-ins pour les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.
   
 Les add-ins sont utilisés pour étendre l’expérience dans la salle en associant des URL à des salles de conversation. Ces URL apparaissent dans le volet d’extensibilité de conversation client. Un add-in type peut inclure une URL pointant vers une application Silverlight qui intercepte lorsqu’un ticker de stock est publié dans une salle de conversation et affiche l’historique des actions dans le volet d’extensibilité. En guise d’autre exemple, citons l’incorporation d’une URL OneNote 2013 dans la salle de conversation en tant que complément pour inclure un contexte partagé, tel que « Tête de liste » ou « Sujet du jour ».
   
  Pour que les utilisateurs voient un add-in dans le client, vous devez l’ajouter à la liste des add-ins inscrits, et les responsables ou créateurs de salles de conversation doivent associer des salles au module.
   
 > [!NOTE]
-> La conversation permanente est disponible dans Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [La mise à niveau de Microsoft Teams.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez migrer les utilisateurs nécessitant cette fonctionnalité vers Teams ou continuer à utiliser Skype Entreprise Server 2015. 
+> La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015. 
 
-## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Configurer des add-ins pour les salles de conversation à l’aide du Panneau de configuration
+## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Configurer des modules pour les salles de conversation à l’aide du Panneau de configuration
 
 Pour configurer des add-ins pour les salles de conversation à l’aide du Panneau de configuration :
   
 1. À partir d’un compte auquel le rôle CsPersistentChatAdministrator ou CsAdministrator est assigné, connectez-vous à n’importe quel ordinateur de votre déploiement interne.
     
-2. Dans le menu **Démarrer,** sélectionnez le Panneau de contrôle Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
+2. Dans le menu **Démarrer,** sélectionnez Skype Entreprise Server panneau de Skype Entreprise Server ou ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Conversation permanente**, puis sur **Complément**.
     
@@ -55,9 +55,9 @@ Pour configurer des add-ins pour les salles de conversation à l’aide du Panne
     
 7. Cliquez sur **Valider**.
     
-## <a name="configure-add-ins-by-using-windows-powershell"></a>Configurer des Windows PowerShell
+## <a name="configure-add-ins-by-using-windows-powershell"></a>Configurer des add-ins à l’aide de Windows PowerShell
 
-Vous pouvez configurer des add-ins pour les salles de conversation à l’aide des cmdlets Windows PowerShell suivantes. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, voir [Skype Entreprise Server 2015 Management Shell](../management-shell.md).
+Vous pouvez configurer des add-ins pour les salles de conversation à l’aide des cmdlets Windows PowerShell suivantes. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server 2015 Management Shell](../management-shell.md).
   
 
 |**Applet de commande**|**Description**|

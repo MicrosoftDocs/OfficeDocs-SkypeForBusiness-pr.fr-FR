@@ -18,12 +18,12 @@ description: Découvrez les différents modèles d’identité pour Microsoft Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dff34a6a56294c8c62295e143f753777875bfbda
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cea02bf51c474e9be7aca205aa73fd9558f03ad104e5e1a1bde8f5ddc39e95ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342978"
 ---
 # <a name="identity-models-and-authentication-for-microsoft-teams"></a>Modèles d’identité et authentification pour les Microsoft Teams
 
@@ -39,12 +39,12 @@ Pour plus d’informations, [voir Microsoft 365 d’identité et Azure AD.](/mic
 
 En fonction des décisions de votre organisation concernant le modèle d’identité et la configuration que vous utilisez, les étapes d’implémentation peuvent varier.
 
-Si vous n’avez pas encore déployé de Microsoft 365 ou Office 365 et un modèle d’identité, utilisez ce tableau. 
+Si vous n’avez pas encore déployé de Microsoft 365 ou Office 365 modèle d’identité, utilisez ce tableau. 
 
 |Modèle d'identité |Liste de contrôle du déploiement  |Informations supplémentaires  |
 |---------|---------|---------|
-|Tout     |<ol type="1"><li>Comparez Microsoft 365 les options Office 365'offre et obtenez un abonnement et un client.</li><li>Créez une Microsoft 365 organisation Office 365 client.</li><li>Acheter Microsoft 365 licences Office 365 client</li><li>Configurez des domaines et des comptes d’utilisateurs d’administrateur.</li></ol>  |<ul><li>[Office 365 d’un plan](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)</li><li>[Comparer les Microsoft 365 pour les entreprises](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[Acheter ou supprimer des licences d’abonnement](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[Ajout de licences à un abonnement](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[Configurer des Microsoft 365 entreprise](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[Ajouter un domaine à l’aide de l’Assistant Configuration](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) est disponible pour vous aider.  |
-|Identité de cloud     |<ul><li>Créer des comptes d’utilisateurs à l’Microsoft 365 d’administration</li></ul> |<ul style="list-style-type:none"><li>[Ajouter des utilisateurs et attribuer des licences](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
+|Tout     |<ol type="1"><li>Comparez Microsoft 365 les options Office 365'offre et obtenez un abonnement et un client.</li><li>Créez une Microsoft 365 ou Office 365 organisation pour votre client.</li><li>Acheter Microsoft 365 licences Office 365 client</li><li>Configurez des domaines et des comptes d’utilisateurs d’administrateur.</li></ol>  |<ul><li>[Office 365 de plan](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)</li><li>[Comparer les Microsoft 365 pour les entreprises](https://go.microsoft.com/fwlink/?linkid=854617)</li><li>[Acheter ou supprimer des licences d’abonnement](https://support.office.com/article/Buy-licenses-for-your-Office-365-for-business-subscription-36081d8d-b3fa-4948-8c34-e217bba825e1)</li><li>[Ajout de licences à un abonnement](https://support.office.com/article/Add-licenses-to-a-subscription-paid-for-using-a-product-key-4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53)</li><li>[Configurer des Microsoft 365 entreprise](https://support.office.com/Article/set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa)</li><li>[Ajouter un domaine à l’aide de l’Assistant Configuration](https://support.office.com/article/Add-users-and-domain-with-the-setup-wizard-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)</li></ul><br>[Microsoft FastTrack](https://www.microsoft.com/fasttrack/microsoft-365) est disponible pour vous aider.  |
+|Identité de cloud     |<ul><li>Créez des comptes d’utilisateur avec la Centre d’administration Microsoft 365</li></ul> |<ul style="list-style-type:none"><li>[Ajouter des utilisateurs et attribuer des licences](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)</li></ul> |
 |Identité hybride     |<ol type="1"><li>Installez azure AD Connecter.</li><li>Configurez la synchronisation d’annuaires.</li><li>Gérez les utilisateurs et les groupes à l’aide d’outils AD DS.</li></ol> |<ul style="list-style-type:none"><li>[Configurer la synchronisation d’annuaires](/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
 |Identité hybride avec authentification fédérée    |<ol type="1"><li>Installez et configurez un fournisseur d’identité fédéré tel qu’AD FS.</li><li>Installez azure ad Connecter et configurez la synchronisation d’annuaires et l’authentification fédérée.</li><li>Gérez les utilisateurs et les groupes à l’aide d’outils AD DS.</li></ol> |<ul><li>[Planification de votre déploiement AD FS](/previous-versions/azure/azure-services/dn151324(v=azure.100))</li><li>[Liste de vérification : Déploiement de votre batterie de serveurs de fédération](/previous-versions/azure/azure-services/dn528856(v=azure.100))</li><li>[Configuration de l'accès Extranet pour AD FS](/previous-versions/azure/azure-services/dn528859(v=azure.100))</li><li>[Configuration d'une relation d'approbation entre AD FS et Azure AD](/previous-versions/azure/azure-services/jj205461(v=azure.100))</li><li>[Vérification et gestion de l'authentification unique avec ADFS](/previous-versions/azure/azure-services/jj151809(v=azure.100))</li><li>[Configurer la synchronisation d’annuaires](/microsoft-365/enterprise/set-up-directory-synchronization)</li></ul> |
 ||||

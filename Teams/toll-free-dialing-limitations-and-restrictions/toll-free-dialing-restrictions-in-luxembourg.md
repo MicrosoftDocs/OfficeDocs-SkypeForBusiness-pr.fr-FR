@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 859ac9fc6cca0bcb13897fd4408a324359e435e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96f9f5c7578b11305318057e28a3404b731bff5ab5ff6b0162d04d703c7364d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097930"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342719"
 ---
 # <a name="toll-free-dialing-restrictions-in-luxembourg"></a>Restrictions de numérotation gratuit au Luxembourg
 
@@ -46,7 +46,7 @@ ms.locfileid: "51097930"
 |Disponibilité de réseau mobile  <br/> |Non  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

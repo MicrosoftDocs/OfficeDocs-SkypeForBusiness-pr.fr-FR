@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 ROBOTS: NOINDEX, NOFOLLOW
-description: L’outil de planification utilise des informations sur le trafic utilisateur pour déterminer le nombre de ports à utiliser dans le déploiement. Ce nombre détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. Pour plus d’informations, voir Estimateing voice usage and traffic for Skype for Business Server.
-ms.openlocfilehash: 3303decd59426ed9264c5f634c3dae608dc5ed58
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: L’outil de planification utilise des informations sur le trafic utilisateur pour déterminer le nombre de ports à utiliser dans le déploiement. Ce nombre détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. Pour plus d’informations, voir Estimateing voice usage and traffic for Skype Entreprise Server.
+ms.openlocfilehash: 21cb900f5fce68b7eead4f7c642884286bfef47d0b9d7bb12bbe7e360137cbb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342489"
 ---
 # <a name="voice-traffic-planning-tool"></a>Voice Traffic (Planning Tool)
  
-L’outil de planification utilise des informations sur le trafic utilisateur pour déterminer le nombre de ports à utiliser dans le déploiement. Ce nombre détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. Pour plus d’informations, [voir Estimateing voice usage and traffic for Skype for Business Server](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).
+L’outil de planification utilise des informations sur le trafic utilisateur pour déterminer le nombre de ports à utiliser dans le déploiement. Ce nombre détermine à son tour le nombre de serveurs de médiation et de passerelles qui seront requis. Pour plus d’informations, [voir Estimateing voice usage and traffic for Skype Entreprise Server](../../../plan-your-deployment/capacity/estimating-voice-traffic.md).
   
 

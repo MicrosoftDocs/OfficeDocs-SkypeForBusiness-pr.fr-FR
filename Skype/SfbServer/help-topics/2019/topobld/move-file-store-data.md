@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de magasin de fichiers pour votre déploiement Skype Entreprise Server, ou si vous devez apporter d’autres modifications qui rendraient le magasin de fichiers actuel indisponible, vous devez d’abord créer un nouveau partage. Ensuite, vous devez effectuer les étapes suivantes :'
-ms.openlocfilehash: a2870f024964a385852b7ecc781dbfb5647550b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4e9a28fa1793e642fbf3407c6a6306a979fa287844a9862a55780f1bd1169f82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342479"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Déplacer les données du magasin de fichiers vers un nouveau magasin de fichiers dans Skype Entreprise Server
 
@@ -36,17 +36,17 @@ Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>Pour déplacer les données du magasin de fichiers vers le nouveau magasin
 
-1. Connectez-vous à un ordinateur en tant que membre du groupe RTCUniversersalServerAdmins ou CsServerAdministrator sur lequel les outils d’administration de Skype Entreprise Server sont installés.
+1. Log on a computer as a member of the RTCUniversersalServerAdmins or CsServerAdministrator group where the Skype Entreprise Server, Administrative Tools are installed.
 
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.
 
 3. Dans la barre de navigation de gauche, cliquez sur **Topologie**, puis sur **État**.
 
-4. Pour chaque pool directeur, directeur, serveur Standard Edition et pool frontal qui utilise le magasin de fichiers que vous prévoyez de supprimer, sélectionnez le serveur ou le pool, cliquez sur **Action,** puis cliquez sur Arrêter tous les **services.**
+4. Pour chaque pool directeur, directeur, serveur Édition Standard et pool frontal qui utilise le magasin de fichiers que vous prévoyez de supprimer, sélectionnez le serveur ou le pool, cliquez sur **Action,** puis cliquez sur Arrêter tous les **services.**
 
 5. Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologies est installé, en tant que membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins.
 
-6. Démarrez le Générateur de topologie : cliquez sur **Démarrer,** sur Tous les **programmes,** sur Skype Entreprise **Server,** puis sur Générateur de topologie **Skype Entreprise Server.**
+6. Démarrez le Générateur de topologies : **cliquez** sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **générateur de topologies.**
 
 7. Sélectionnez un serveur ou un pool qui utilise le magasin de fichiers et faites les choses suivantes :
 
@@ -65,7 +65,7 @@ Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de
 
 13. Dans **Modifier les propriétés,** sous **Associations,** **dans** le magasin de fichiers, sélectionnez le nouveau partage de fichiers, puis cliquez sur **OK**.
 
-14. Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Déploiement de Skype Entreprise Server selon vos besoins. Pour plus d’informations, voir [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
+14. Publiez la topologie, vérifiez l’état de la réplication, puis exécutez l’Assistant Skype Entreprise Server déploiement si nécessaire. Pour plus d’informations, voir [Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14)).
 
 15. Démarrez une invite de commandes : cliquez **sur Démarrer,** sur **Exécuter,** puis tapez cmd.exe.
 
@@ -80,7 +80,7 @@ Si vous devez supprimer le serveur de fichiers qui joue actuellement le rôle de
 
 17. Lorsque la copie des données est terminée, dans le Panneau de contrôle Lync Server, cliquez sur **Topologie,** puis sur **État**.
 
-18. Pour chaque serveur ou pool sur lequel vous avez arrêté les services, sélectionnez le serveur ou le pool, cliquez sur **Action,** puis cliquez sur **Démarrer tous les services.**
+18. Pour chaque serveur ou pool où vous avez arrêté les services, sélectionnez le serveur ou le pool, cliquez sur **Action,** puis cliquez sur **Démarrer tous les services.**
 
 19. Supprimez l’ancien magasin de fichiers de la topologie, puis publiez la topologie. Pour plus d’informations, voir [Remove a file store](/previous-versions/office/skype-server-2010/gg195635(v=ocs.14)).
 

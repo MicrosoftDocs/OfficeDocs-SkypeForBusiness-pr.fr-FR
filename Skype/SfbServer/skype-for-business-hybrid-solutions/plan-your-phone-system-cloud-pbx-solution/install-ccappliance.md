@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
-description: L'Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, y compris les machines virtuelles AD, Central Management Store, Mediation Server et Edge Server, sur le serveur hôte.
-ms.openlocfilehash: fe1fab785e2681614f27035714b6ddead22b8707
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Install-CcAppliance installe l’appliance Skype Entreprise Cloud Connector Edition,y compris les machines virtuelles AD, Central Management Store, Mediation Server et Edge Server, sur le serveur hôte.
+ms.openlocfilehash: b88b869e3c30783a69bc16ab690a258506ebcc90e849eb474a17859140485e8d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343178"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
-L'Install-CcAppliance installe l’appliance de la version Cloud Connector de Skype Entreprise, y compris les machines virtuelles AD, Central Management Store, Mediation Server et Edge Server, sur le serveur hôte. 
+La cmdlet Install-CcAppliance installe l’appliance Skype Entreprise Cloud Connector Edition,y compris les machines virtuelles AD, Central Management Store, Mediation Server et Edge Server, sur le serveur hôte. 
   
 ```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
@@ -69,7 +69,7 @@ Le paramètre -ShowStepsOnly est uniquement pour la résolution des problèmes.
   
 ### <a name="example-5"></a>Exemple 5
 
-L’exemple suivant génère des fichiers de configuration pour chaque étape de déploiement sur le serveur hôte. Les fichiers de configuration sont enregistrés dans le \< dossier ApplianceRoot \> \Instances \\<Version \> -default\ExportedConfig sur le serveur hôte :
+L’exemple suivant génère des fichiers de configuration pour chaque étape de déploiement sur le serveur hôte. Les fichiers de configuration sont enregistrés dans \<ApplianceRoot\> le dossier \Instances \\<Version \> -default\ExportedConfig sur le serveur hôte :
   
 ```powershell
 Install-CcAppliance -PrepareOnly
@@ -123,7 +123,7 @@ Aucun. La cmdlet Install-CcAppliance n’accepte pas la saisie de données pipel
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

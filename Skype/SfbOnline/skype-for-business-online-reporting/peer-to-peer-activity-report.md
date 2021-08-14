@@ -22,12 +22,12 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 4e46ef6c200ff82898b5a2c9cc89a512139d1404
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238229"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342629"
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport d'activités pair à pair
 
@@ -40,7 +40,7 @@ Consultez la vue [d’ensemble des rapports.](https://support.office.com/article
 Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des détails sur les activités au sein de votre organisation. Ces informations détaillées sont très utiles pour analyser, planifier et prendre des décisions pour votre entreprise. 
   
 > [!NOTE]
-> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Microsoft 365 d’administration. 
+> Vous pouvez consulter tous les rapports de Skype Entreprise lorsque vous vous connectez en tant qu’administrateur au Centre d’administration Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Comment obtenir le rapport d'activité P2P Skype Entreprise
 
@@ -115,7 +115,7 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

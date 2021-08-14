@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Les vues offrent un moyen simple d’accéder aux informations sur les scénarios les plus courants utilisés pour renvoyer des données à partir de la base de données cdr. Il est recommandé d’utiliser des affichages pour créer des rapports personnalisés au lieu d’utiliser les tables de base de données d’cdr réelles ; Cela est dû au fait que les vues de base de données sont plus susceptibles de maintenir une compatibilité ascendante avec les futures sorties.
-ms.openlocfilehash: 0a3b40c9b31bb521075e78a1a8d46479200249d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813154"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343238"
 ---
 # <a name="list-of-cdr-views"></a>Liste des vues CDR
  
@@ -38,7 +38,7 @@ Les vues offrent un moyen simple d’accéder aux informations sur les scénario
 |[Affichage Mcus](mcus-0.md) <br/> |Renvoie des informations sur les serveurs de conférence.  <br/> |
 |[Affichage multimédia](media-0.md) <br/> |Renvoie des informations sur les types de média utilisés dans les sessions de communication d’égal à égal.  <br/> |
 |[Affichage ProgressReport](progressreport-0.md) <br/> |Renvoie des informations sur les sessions terminées.  <br/> |
-|[Affichage d’inscription](registration-0.md) <br/> |Retourne des informations sur les inscriptions avec Skype Entreprise Server 2015.  <br/> |
+|[Affichage d’inscription](registration-0.md) <br/> |Retourne des informations sur les inscriptions Skype Entreprise Server 2015.  <br/> |
 |[Affichage SessionDetails](sessiondetails-0.md) <br/> |Renvoie des informations sur les sessions d’égal à égal, notamment les appels téléphoniques VoIP-VoIP, les sessions de messagerie instantanée à deux groupes ou d’autres sessions de communication d’égal à égal.  <br/> |
 |[Affichage utilisateur](user.md) <br/> |Renvoie des informations sur les utilisateurs qui ont participé à des sessions de communication.  <br/> |
 |[Affichage VoIPDetails](voipdetails.md) <br/> |Renvoie des informations sur les sessions d’égal à égal impliquant au moins un utilisateur de VoIP (Voix sur IP).  <br/> |

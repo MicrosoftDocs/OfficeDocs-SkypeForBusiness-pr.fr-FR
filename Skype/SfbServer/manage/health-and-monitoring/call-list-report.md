@@ -1,5 +1,5 @@
 ---
-title: Rapport des listes d’appels Response Group dans Skype Entreprise Server
+title: Rapport des listes d’appels Response Group Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Résumé : Découvrez l’application Response Group dans Skype Entreprise Server.'
-ms.openlocfilehash: 416a0e7b7a7aebaeae84a00c04a7ab5c4e1a5bf8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0761e58027260a4528f7764858ba54d00b4a9c146f32945222a4ed6763912b0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826494"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345691"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Rapport des listes d’appels Response Group dans Skype Entreprise Server
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Rapport des listes d’appels Response Group Skype Entreprise Server
 
 **Résumé :** Découvrez l’application Response Group dans Skype Entreprise Server.
 
-L’application Response Group permet à Skype Entreprise Server de répondre aux appels téléphoniques et de les router en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si quelqu’un appelle le numéro de téléphone de votre service d’aide, Skype Entreprise Server peut automatiquement router cet appel vers le premier agent du service d’aide disponible. Skype Entreprise Server peut également poser une série de questions ( « Appuyez sur 1 si vous avez des problèmes matériels. Appuyez sur 2 pour des problèmes logiciels. Appuyez sur 3 si vous avez des problèmes réseau.) puis routez l’appel vers l’agent du service d’aide le plus approprié en fonction de la réponse à ces questions.
+L’application Response Group permet à Skype Entreprise Server de répondre et d’router des appels téléphoniques en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si quelqu’un appelle le numéro de téléphone de votre service d’Skype Entreprise Server, il peut automatiquement router cet appel vers le premier agent du service d’aide disponible. Vous pouvez également Skype Entreprise Server poser une série de questions ( Appuyez sur 1 si vous avez des problèmes matériels. Appuyez sur 2 pour des problèmes logiciels. Appuyez sur 3 si vous avez des problèmes réseau.) puis routez l’appel vers l’agent du service d’aide le plus approprié en fonction de la réponse à ces questions.
 
 Le Rapport des listes d’appels Response Group représente une collection d’appels effectués pendant une période spécifiée et pour un type d’appel spécifié. Le Rapport d’utilisation de Response Group (qui doit être ouvert au préalable pour que vous puissiez ouvrir le Rapport des listes d’appels Response Group) reconnaît les types d’appels suivants :
 
@@ -41,7 +41,7 @@ Le Rapport des listes d’appels Response Group représente une collection d’a
 
 ## <a name="accessing-the-response-group-call-list-report"></a>Accès au Rapport des listes d’appels Response Group
 
-Le rapport des listes d’appels Response Group est accessible uniquement en cliquant sur l’une des mesures suivantes trouvées dans le rapport d’utilisation de Response Group dans [Skype Entreprise Server](response-group-usage-report.md):
+Le rapport des listes d’appels Response Group est accessible uniquement en cliquant sur l’une des mesures suivantes trouvées dans le rapport d’utilisation [de Response Group Skype Entreprise Server](response-group-usage-report.md):
 
 - Appels reçus
 
@@ -57,7 +57,7 @@ Le rapport des listes d’appels Response Group est accessible uniquement en cli
 
 Le Rapport des listes d’appels Response Group vous permet de limiter les données affichées aux appels impliquant un flux de travail Response Group particulier. Pour cela, vous devez entrer l’URI de flux de travail (l’adresse SIP du flux de travail) dans la zone URI du flux de travail. Avant cela, vous devez cependant être en mesure de voir cette zone URI du flux de travail. Pour afficher les options de filtrage du Rapport des listes d’appels Response Group, cliquez sur le bouton Afficher / Masquer les paramètres dans la partie supérieure gauche de la fenêtre de rapport.
 
-Notez que le Rapport des listes d’appels Response Group n’affiche pas d’informations relatives au code de réponse ou à l’ID de diagnostic si vous maintenez le pointeur de la souris sur l’une de ces mesures. Si vous avez besoin d’informations supplémentaires, vous pouvez noter le code de réponse et/ou l’ID de diagnostic, puis rechercher ces valeurs dans le rapport des principales défaillances dans [Skype Entreprise Server.](top-failures-report.md)
+Notez que le Rapport des listes d’appels Response Group n’affiche pas d’informations relatives au code de réponse ou à l’ID de diagnostic si vous maintenez le pointeur de la souris sur l’une de ces mesures. Si vous avez besoin d’informations supplémentaires, vous pouvez noter le code de réponse et/ou l’ID de diagnostic, puis rechercher ces valeurs dans le rapport des principales [défaillances](top-failures-report.md)dans Skype Entreprise Server .
 
 Si vous souhaitez obtenir la réponse à une question telle que « Quel est le flux de travail ayant reçu le plus d’appels ? », vous pouvez procéder comme suit :
 
@@ -96,7 +96,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
 | **Name**               | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **From** <br/>         | Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-| **Pour** <br/>           | Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/>        |
+| **To** <br/>           | Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/>        |
 | **URI du flux de travail** <br/> | Vous permet de limiter les données retournées au flux de travail de Response Group spécifié. Pour utiliser ce filtre, entrez l’adresse SIP du flux de travail. Par exemple :  <br/> sip:helpdesk@litwareinc.com  <br/>                                                                                                                                                                                                                                                                                                                                                                            |
 | **Appels** <br/>        | Vous pouvez sélectionner l’un des types d’appels suivants : <br/>  Appels reçus <br/>  Appels réussis <br/>  Appels offerts <br/>  Appels ayant obtenu une réponse <br/>  Appels transférés <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
 

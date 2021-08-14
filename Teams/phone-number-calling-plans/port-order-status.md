@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8290ffba7be56f3ede0e275c801110f8c9d9539e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205685"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342889"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Quel est le statut de vos demandes de transfert ?
 
@@ -30,7 +30,7 @@ Pour voir l’état de votre demande de port, dans le navigation gauche du Centr
 
 Le tableau suivant répertorie le statut des commandes de port, ainsi que les actions que vous pouvez prendre si nécessaire.
 
-|**État**|**Pouvez-vous afficher la commande ?**|**Pouvez-vous modifier la commande ?**|**Pouvez-vous annuler la commande ?**|**Pouvez-vous supprimer la commande ?**|**Description**|
+|**Statut**|**Pouvez-vous afficher la commande ?**|**Pouvez-vous modifier la commande ?**|**Pouvez-vous annuler la commande ?**|**Pouvez-vous supprimer la commande ?**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Traitement** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |L’administrateur a créé la commande et elle a été reçue par Microsoft.  <br/> |
 |**Contact de l’opérateur** <br/> |Oui  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |La demande a été reçue et approuvée par Microsoft, et nous travaillons avec l’opérateur d’approbation pour obtenir son approbation.  <br/> |
@@ -44,10 +44,10 @@ Pour obtenir des instructions détaillées complètes, voir Transférer des num�
 
 Si vous avez besoin d’aide ou si vous avez besoin d’obtenir plus de numéros de téléphone, contactez le [service PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Gérer des numéros de téléphone pour votre entreprise](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
-- [Étiquette d’exclusion de responsabilité pour les appels d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+- [Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
