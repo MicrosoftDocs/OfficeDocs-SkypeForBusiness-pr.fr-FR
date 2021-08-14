@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment Téléphone Microsoft routage direct du système vous permet de connecter un contrôleur de session en bordure (SBC) fourni par un client pris en charge à Téléphone Microsoft système.
-ms.openlocfilehash: 5f8c7fae1cd8853400ce102b453758780da6ac27351ad1879fc0824c4a1e8d2d
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 3e174aa2d78eb6ecee7be545cb904efa2573f3c1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848929"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235349"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 

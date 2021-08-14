@@ -8,17 +8,16 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-- m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Découvrez les fonctionnalités d’interopérabilité entre les utilisateurs de Teams de votre organisation et les Skype utilisateurs (grand public).
 localization_priority: Normal
-ms.openlocfilehash: 42a6631a70156cf150e175b7c5dd1cd661a84c77f0523e61c9d7b9313e4f81e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cef040ac9c4ff399b0a663ae25b29f070eb5300
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312462"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235179"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams interopérabilité Skype’interopérabilité
 
@@ -96,7 +95,7 @@ Procédez comme suit :
 
 2. Utilisez [l’cmdlet Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) avec le paramètre set to pour que les utilisateurs Teams de communiquer avec les Skype ```Provider``` ```"WindowsLive"``` utilisateurs.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer l’accès externe dans Teams](manage-external-access.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

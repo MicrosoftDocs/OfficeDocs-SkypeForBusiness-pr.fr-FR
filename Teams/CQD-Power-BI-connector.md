@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installer Power BI connecteur pour utiliser des modèles de requête de tableau de bord de qualité des appels
-ms.openlocfilehash: 535a1d067dff81c8019a1c08d1a2a617019300989f515f97f89f471e845ca885
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7c82cfbb2279e680d6f088840302a6027d5bdd18
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288502"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234339"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Installer le connecteur Qualité d’appel de Microsoft Power BI utiliser des modèles de requête Tableau de bord de qualité d’appel
 
@@ -85,6 +85,9 @@ Une fois la configuration terminée, vous devriez voir les noms de plusieurs cen
 3. Ensuite, sélectionnez les dimensions que vous voulez  filtrer et faites-les glisser vers les filtres de ce champ visuel dans *le volet Filtres.* Le connecteur Qualité d’appel Microsoft prend actuellement en charge le filtrage de base *(sélection* de valeurs dans une liste de valeurs de dimension *possibles),* le filtrage avancé (spécifier manuellement les valeurs et opérandes à filtrer, similaire au tableau de bord de qualité de l’appel) et le filtrage de *date* relatif (disponible uniquement pour les dimensions Heure de fin et *Heure* de début).  Le filtrage en fonction de *la première N n’est* pas pris en charge par le tableau de bord de qualité des appels.
 
     ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector5-resize.png)
+
+    > [!IMPORTANT]
+    > Les filtres sont uniquement pris en charge lorsqu’ils sont appliqués aux dimensions. Le filtrage des valeurs des mesures n’est pas pris en charge dans le tableau de bord qualité des appels.
 
 4. Enfin, sélectionnez *l’onglet Format* dans le volet *Visualisations* pour mettre en forme votre requête.
 
@@ -161,7 +164,7 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette étendue, inf
 
 **<sup>2 Les</sup>** informations d’identification que  vous utilisez pour le tableau de bord de qualité des appels ne doivent pas nécessairement être les mêmes que pour vous connecter à l’application Power BI Desktop vous-même.
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Quand le connecteur Power BI sera-t-il mis à jour à partir de l’état « Bêta » ?
 
@@ -184,6 +187,6 @@ Au lieu d’essayer d’augmenter le nombre de lignes des résultats, il est pr�
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Utiliser Power BI pour analyser les données du CQD à des Teams](CQD-Power-BI-query-templates.md)

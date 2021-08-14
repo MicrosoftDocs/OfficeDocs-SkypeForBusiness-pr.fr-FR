@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ecc733c181e268dd6092f169e91d2f9acb4ee47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117832"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330898"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planifier les déploiements Microsoft 365 administration publique Cloud de la communauté du secteur public déploiements
 
@@ -110,7 +110,7 @@ Déterminez vos exigences de gouvernance et la manière dont vous pouvez les res
 
 Après avoir été intégré à Microsoft 365 Administration Cloud de la communauté du secteur public, suivez la trajectoire de déploiement recommandée décrite dans la manière de déployer [Microsoft Teams.](./deploy-overview.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et des équipes Teams équipe.
 
-Vous pouvez également travailler avec [FastTrack](https://www.microsoft.com/fasttrack) ou le partenaire que vous avez choisi pour intégrer le service.
+Vous pouvez également travailler avec [FastTrack](https://www.microsoft.com/fasttrack) partenaire choisi pour intégrer le service.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Étape 7. Déployer des Teams pour les réunions et la voix
 

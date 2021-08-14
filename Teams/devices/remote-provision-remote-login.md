@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment mettre en service à distance et vous connectez pour Teams appareils Android
-ms.openlocfilehash: b0c2658bac556febb9a4289fc5053c38feec32c343901ee679a744641f9f1144
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337972"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235379"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Mise en service à distance et se connectez pour Teams appareils Android
 
@@ -43,6 +43,8 @@ La liste suivante présente les conditions requises pour le microprogramme de l�
 |Teams téléphones portables|  PolySoin C60|  7.0.2.1071|
 |Teams téléphones portables|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams téléphones portables|  Audio Codes C448HD/C450HD/C470HD|   1.10.120|
+|Teams panneaux|  Crestron 770/1070|  1.004.0115|
+
 
 ## <a name="add-a-device-mac-address"></a>Ajouter une adresse MAC d’appareil
 

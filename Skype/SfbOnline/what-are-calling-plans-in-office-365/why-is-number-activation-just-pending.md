@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: La validation d’adresse est un élément important de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: aaf94d1c2536fd96c7162eb29b9cf4b7c7e1a1b3
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237910"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330588"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Pourquoi l’activation de numéro est-elle en attente ?
 
@@ -96,7 +96,7 @@ La validation d’adresse est un élément important de la configuration des for
 8. Passez en revue les informations, puis cliquez sur **Envoyer la demande**.
     
 > [!TIP]
-> Le numéro de référence sera répertorié dans la page Demandes **de** service du Microsoft 365 d’administration.
+> Le numéro de référence sera répertorié dans la page Demandes **de** service du Centre d’administration Microsoft 365.
 
 
 > [!NOTE]

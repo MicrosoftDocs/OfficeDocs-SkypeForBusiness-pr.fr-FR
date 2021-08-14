@@ -16,12 +16,12 @@ description: Découvrez comment acheter des applications tierces pour votre Team
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5fa6c57b009ce7a7d6fef7ce1dd353ae32521a690fda254e469159cf0661dcd0
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849675"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235189"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Acheter des applications tierces pour Teams
 
@@ -68,7 +68,7 @@ Les développeurs peuvent créer des offres SaaS associées à Teams application
  
 Les développeurs d’applications tierces peuvent se rendre [sur l’offre SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer) pour plus d’informations.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)
 - [Créer une offre SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer)

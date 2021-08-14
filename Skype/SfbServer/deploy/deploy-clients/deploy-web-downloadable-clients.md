@@ -11,46 +11,46 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: 'Résumé : Déployez l’application web Skype Entreprise et l’application Réunions Skype utilisées avec Skype Entreprise.'
-ms.openlocfilehash: 20489dddb244b179908f8c8a565bb1f4d539a5a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Résumé : Déployez l’application Application Web Skype Entreprise et Skype Réunions utilisée avec Skype Entreprise.'
+ms.openlocfilehash: 2fca7600232e9293dedbe9228075470097335d5836fb77c0cb428625e809a609
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330558"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Déployer des clients web téléchargeables dans Skype Entreprise Server
 
-**Résumé :** Déployez l’application web Skype Entreprise 2015 et l’application réunions Skype utilisées avec Skype Entreprise Server.
+**Résumé :** Déployez Skype Entreprise 2015 Web App et Skype Meetings App utilisés avec Skype Entreprise Server.
 
-Skype Entreprise Web App est un client web IIS (Internet Information Services) installé sur le serveur exécutant Skype Entreprise Server et, par défaut, il est déployé à la demande pour répondre aux utilisateurs qui n’ont pas encore le client Skype Entreprise. Ces utilisateurs de réunion se connectent le plus souvent depuis l’extérieur de votre réseau. Chaque fois qu’un utilisateur clique sur une URL de réunion, mais que le client Skype Entreprise n’est pas installé, l’utilisateur a la possibilité de participer à la réunion à l’aide de la dernière version de Skype Entreprise Web App, Skype Meetings App ou Skype Entreprise pour Mac.
+Application Web Skype Entreprise est un client web Internet Information Services (IIS) installé sur le serveur exécutant Skype Entreprise Server et déployé par défaut à la demande pour répondre aux utilisateurs qui n’ont pas encore le client Skype Entreprise. Ces utilisateurs de réunion se connectent le plus souvent depuis l’extérieur de votre réseau. Chaque fois qu’un utilisateur clique sur une URL de réunion, mais que le client Skype Entreprise n’est pas installé, l’utilisateur peut participer à la réunion à l’aide de la dernière version de Application Web Skype Entreprise, de l’application Skype Meetings ou de Skype Entreprise pour Mac.
 
-Les fonctionnalités vocales, vidéo et de partage dans Skype Entreprise Web App nécessitent un contrôle Microsoft ActiveX utilisé comme plug-in par le navigateur de l’utilisateur. Vous pouvez installer le contrôle ActiveX à l’avance ou autoriser les utilisateurs à l’installer à l’invite, ce qui se produit la première fois qu’ils utilisent Skype Entreprise Web App ou la première fois qu’ils accèdent à une fonctionnalité nécessitant le contrôle ActiveX.
+Les fonctionnalités vocales, vidéo et de partage dans Application Web Skype Entreprise nécessitent un contrôle Microsoft ActiveX utilisé comme plug-in par le navigateur de l’utilisateur. Vous pouvez installer le contrôle ActiveX à l’avance ou autoriser les utilisateurs à l’installer à l’invite, ce qui se produit la première fois qu’ils utilisent Application Web Skype Entreprise ou la première fois qu’ils accèdent à une fonctionnalité nécessitant le contrôle ActiveX.
 
 > [!NOTE]
-> Dans les déploiements de serveur Edge Skype Entreprise Server, un proxy inverse HTTPS dans le réseau de périmètre est requis pour l’accès au client Skype Entreprise Web App. Vous devez également publier des URL simples. Pour plus d’informations, voir [Setting Up Reverse Proxy Servers](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) and [DNS requirements for simple URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> Dans Skype Entreprise Server de serveur Edge, un proxy inverse HTTPS dans le réseau de périmètre est requis pour l Application Web Skype Entreprise client. Vous devez également publier des URL simples. Pour plus d’informations, voir [Configuration des serveurs proxy](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) inverses et des exigences [DNS](../../plan-your-deployment/network-requirements/simple-urls.md)pour les URL simples dans Skype Entreprise Server .
 
-## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Activer l’authentification multifacteur pour Skype Entreprise Web App
+## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Activer l’authentification multifacteur pour Application Web Skype Entreprise
 <a name="MFA"> </a>
 
-Skype Entreprise Web App, l’application Réunions Skype et Skype Entreprise pour Mac prise en charge l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des code pin pin, pour authentifier les utilisateurs qui rejoignent des réseaux externes lorsqu’ils se connectent à des réunions Skype Entreprise. Vous pouvez activer l’authentification multifacteur en déployant le serveur de fédération AD FS (Active Directory Federation Service) et en activant l’authentification passive dans Skype Entreprise Server. Une fois les services AD FS configurés, les utilisateurs externes qui tentent de rejoindre des réunions Skype Entreprise se présentent avec une page web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que les méthodes d’authentification supplémentaires que vous avez configurées.
+Application Web Skype Entreprise, Skype Meetings App et Skype Entreprise pour Mac l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des code pin pin, pour authentifier les utilisateurs qui rejoignent des réseaux externes lorsqu’ils se connectent à Skype Entreprise réunions. Vous pouvez activer l’authentification multifacteur en déployant le serveur de fédération AD FS (Active Directory Federation Service) et en activant l’authentification passive dans Skype Entreprise Server. Une fois les services AD FS configurés, les utilisateurs externes qui tentent de participer à des réunions Skype Entreprise se présentent avec une page web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que toutes les méthodes d’authentification supplémentaires que vous avez configurées.
 
 > [!IMPORTANT]
 > Vous trouverez ci-dessous des considérations importantes si vous envisagez de configurer les services AD FS pour l’authentification multifacteur :
 
 - L’authentification ADFS multifacteur fonctionne si le participant à la réunion et l’organisateur font tous deux partie de la même organisation ou d’une organisation fédérée AD FS. L’authentification ADFS multifacteur ne fonctionne pas pour les utilisateurs fédérés Lync, car l’infrastructure web Lync Server ne la prend actuellement pas en charge.
 
-- Si vous utilisez des équilibreurs de charge matérielle, activez la persistance des cookies sur les équilibreurs de charge afin que toutes les demandes provenant des clients Skype Entreprise Web App ou Meetings App soient gérées par le même serveur frontal.
+- Si vous utilisez des équilibreurs de charge matérielle, activez la persistance des cookies sur les équilibreurs de charge afin que toutes les demandes provenant des clients Application Web Skype Entreprise ou d’application Réunions soient gérées par le même serveur frontal.
 
-- Lorsque vous établissez une relation d’confiance entre Skype Entreprise Server et les serveurs AD FS, attribuez une durée de vie de jeton suffisamment longue pour englober la durée maximale de vos réunions Skype Entreprise. Une durée de vie de jeton de 240 minutes est généralement suffisante.
+- Lorsque vous établissez une relation d’confiance entre les serveurs Skype Entreprise Server et AD FS, attribuez une durée de vie de jeton suffisamment longue pour englober la durée maximale de vos réunions Skype Entreprise. Une durée de vie de jeton de 240 minutes est généralement suffisante.
 
 - Cette configuration ne s’applique pas aux clients mobiles Lync.
 
 ### <a name="configure-multi-factor-authentication"></a>Configurer l’authentification multifacteur
 
-1. Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, voir le Guide de déploiement des services de fédération [Active Directory 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
+1. Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, voir le guide de déploiement des services de fédération [Active Directory 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
 
-2. Créez des certificats pour AD FS. Pour plus d’informations, voir la section « [Certificats](/previous-versions/azure/azure-services/jj205462(v=azure.100)) de serveur de fédération » de la rubrique Plan for and deploy AD FS for use with single sign-on.
+2. Créez des certificats pour AD FS. Pour plus d’informations, voir la section « [Certificats](/previous-versions/azure/azure-services/jj205462(v=azure.100)) de serveur de fédération » de la rubrique Plan for and deploy AD FS for use with single sign-on topic.
 
 3. À partir Windows PowerShell’interface de ligne de commande, exécutez la commande suivante :
 
@@ -75,19 +75,19 @@ Skype Entreprise Web App, l’application Réunions Skype et Skype Entreprise po
 ## <a name="disable-branchcache"></a>Désactiver BranchCache
 <a name="MFA"> </a>
 
-La fonctionnalité BranchCache dans Windows 7 et Windows Server 2008 R2 peut interférer avec les composants web Skype Entreprise Web App. Pour éviter les problèmes pour les utilisateurs de Skype Entreprise Web App, assurez-vous que BranchCache n’est pas activé.
+La fonctionnalité BranchCache dans Windows 7 et Windows Server 2008 R2 peut interférer avec Application Web Skype Entreprise composants web. Pour éviter les problèmes pour Application Web Skype Entreprise utilisateurs, assurez-vous que BranchCache n’est pas activé.
 
 Pour plus d’informations sur la désactivation de BranchCache, voir le [Guide de déploiement de BranchCache.](/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)
 
-## <a name="verifying-skype-for-business-web-app-deployment"></a>Vérification du déploiement de Skype Entreprise Web App
+## <a name="verifying-skype-for-business-web-app-deployment"></a>Vérification du Application Web Skype Entreprise déploiement
 <a name="MFA"> </a>
 
-Vous pouvez utiliser l’applet de commande Test-CsUcwaConference pour vérifier que deux utilisateurs de test peuvent participer à une conférence à l’aide de l’API UCWA (Unified Communications Web API). Pour plus d’informations sur cette cmdlet, voir [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) dans la documentation de Skype Entreprise Server Management Shell.
+Vous pouvez utiliser l’applet de commande Test-CsUcwaConference pour vérifier que deux utilisateurs de test peuvent participer à une conférence à l’aide de l’API UCWA (Unified Communications Web API). Pour plus d’informations sur cette cmdlet, voir [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) dans la documentation Skype Entreprise Server Management Shell.
 
 ## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a>Résolution des problèmes d’installation du plug-in sur Windows Server 2008 R2
 <a name="MFA"> </a>
 
-Si l’installation du plug-in échoue sur un ordinateur exécutant Windows Server 2008 R2, vous devrez peut-être modifier le paramètre de sécurité Internet Explorer ou le paramètre de clé de Registre DisableMSI.
+Si l’installation du plug-in échoue sur un ordinateur exécutant Windows Server 2008 R2, vous devrez peut-être modifier le paramètre de sécurité d’Internet Explorer ou le paramètre de clé de Registre DisableMSI.
 
 ### <a name="modify-the-security-setting-in-internet-explorer"></a>Modifier le paramètre de sécurité dans Internet Explorer
 
@@ -100,7 +100,7 @@ Si l’installation du plug-in échoue sur un ordinateur exécutant Windows Serv
 4. Désactivez la case à cocher **Ne pas enregistrer les pages chiffrées sur le disque**, puis cliquez sur **OK**.
 
     > [!NOTE]
-    > S’il est sélectionné, ce paramètre provoque également une erreur lors de la tentative de téléchargement d’une pièce jointe à partir de Skype Entreprise Web App.
+    > S’il est sélectionné, ce paramètre provoque également une erreur lors de la tentative de téléchargement d’une pièce jointe à partir Application Web Skype Entreprise.
 
 5. Rejoignez la réunion. Le plug-in doit se télécharger sans erreurs.
 
@@ -116,35 +116,35 @@ Si l’installation du plug-in échoue sur un ordinateur exécutant Windows Serv
 
 5. Rejoignez la réunion.
 
-## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Activer l’application Réunions Skype pour remplacer Skype Entreprise Web App (facultatif, Skype Entreprise Server 2015 uniquement)
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Activer Skype l’application Réunions pour remplacer Application Web Skype Entreprise (facultatif, Skype Entreprise Server 2015 uniquement)
 <a name="SMA_Enable"> </a>
 
-Cette procédure est facultative et s’applique à Skype Entreprise Server 2015 CU5 et ultérieur. Si vous ne l’utilisez pas, les utilisateurs externes continueront à participer à des réunions à l’aide de Skype Entreprise Web App.
+Cette procédure est facultative et s’applique Skype Entreprise Server cu5 2015 et ultérieures. Si vous ne l’utilisez pas, les utilisateurs externes continueront à participer aux réunions à l’aide Application Web Skype Entreprise.
 
-### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Activer la réunion simplifiée et l’application Réunions Skype
+### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Activer l’application de réunion Skype réunions simplifiée
 
-1. Lorsque vous activez l’accès au réseau de distribution de contenu (CDN), les utilisateurs ont la possibilité de se connecter au CDN en ligne et d’obtenir l’application Réunions Skype (sur Windows) et Skype Entreprise pour Mac (sur Mac), et utilisent l’expérience simplifiée de rejoindre une réunion.
+1. Lorsque vous activez l’accès au réseau de distribution de contenu (CDN), les utilisateurs ont la possibilité de se connecter à CDN en ligne et d’obtenir Skype Meetings App (sur Windows) et Skype Entreprise pour Mac (sur Mac), et utilisent l’expérience simplifiée de rejoindre une réunion.
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
-2. Autoriser l’envoi de la télémétrie de journalisation côté client à partir de la page web de connexion à une réunion ou de l’application Réunions Skype aux serveurs Microsoft (la commande est false par défaut).
+2. Autoriser l’envoi de la télémétrie de journalisation côté client à partir de la page web de connexion à une réunion ou de l’application Skype Meetings aux serveurs Microsoft (la commande est false par défaut).
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Les informations envoyées à Microsoft sont strictement conformes aux pratiques de collecte de données [Skype Entreprise.](/skypeforbusiness/legal-and-regulatory/data-collection-practices)
+    Les informations envoyées à Microsoft sont strictement conformes aux [pratiques Skype Entreprise de collecte de données.](/skypeforbusiness/legal-and-regulatory/data-collection-practices)
 
-3. Définissez le délai avant de revenir à l’expérience Skype Entreprise Web App hébergée localement si CDN n’est pas disponible. La valeur par défaut est 6 secondes. Si cette valeur est définie sur 0, il n’y aura pas de délai d’accès.
+3. Définissez le délai avant de revenir à l’expérience de Application Web Skype Entreprise hébergée localement si CDN n’est pas disponible. La valeur par défaut est 6 secondes. Si cette valeur est définie sur 0, il n’y aura pas de délai d’accès.
 
    ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 
 > [!NOTE]
-> Avec la mise à jour cumulative 5 de MeetingUxUseCdn dans Skype Entreprise Server 2015, la valeur par défaut est définie sur False. Cela provoque un problème dans lequel le client Skype Entreprise pour Mac ne peut pas participer aux réunions des partenaires non fédérés en tant qu’invité, même si l’administrateur skype entreprise a définie MeetingUxUseCdn sur True. Pour que cela fonctionne, Skype Entreprise Server 2015 doit avoir la mise à jour cumulative 7, 6.0.9319.534 ou version ultérieure. Voir [Enable Skype Meetings App to replace Skype for Business Web App in Skype for Business Server 2015](https://support.microsoft.com/kb/4132312).
+> With MeetingUxUseCdn in Skype Entreprise Server 2015 Cumulative Update 5, the default value is set to False. Cela provoque un problème dans lequel le client Skype Entreprise pour Mac ne peut pas participer aux réunions des partenaires non fédérés en tant qu’invité, même si l’administrateur Skype Entreprise Skype Entreprise définie MeetingUxUseCdn sur True. Pour que cela fonctionne, Skype Entreprise Server 2015 doit avoir la mise à jour cumulative 7, 6.0.9319.534 ou ultérieure. Voir Activer Skype l’application Réunions pour remplacer les [Application Web Skype Entreprise dans Skype Entreprise Server 2015.](https://support.microsoft.com/kb/4132312)
 
 
 ## <a name="see-also"></a>Voir aussi

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 17e9a1c0e6fd35787ee451c0fc96f57da0a1dcaf736155d38aedcec05f90ae41
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: a10ff4c99508530b300ddb19546686763d38d458
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799045"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234809"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
@@ -223,6 +223,25 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart View| CD-18781Y.210507.111 |Mise à jour pour 2021 #2 |
 |Lenovo ThinkSmart View| CD-18781Y.210228.109 |Mise à jour pour 2021 #1 |
+
+### <a name="product-release-information-for-teams-panels"></a>Informations de publication de produit pour les panneaux Teams produit
+
+Voici les dernières versions de l’Microsoft Teams Panneaux et du microprogramme.
+
+#### <a name="app-versions"></a>Versions des applications
+
+|Version de produit| Date de publication | Microsoft Teams version de l’application | Portail d’entreprise version complète | Version de l’agent d’administration |
+|:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Mise à jour pour 2021 #1  |12 août 2021 |1449/1.0.97.2021070601|5.0.5211.0            |  268|
+
+#### <a name="firmware-versions"></a>Versions de microprogramme
+
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d’entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
+
+| Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
+|:--------------|:-----------------|:-------------------------|
+|Crestron -TSS770| 1.004.0115 |Mise à jour pour 2021 #1 |
+|Crestron-TSS1070 | 1.004.0115 |Mise à jour pour 2021 #1 |
 
 
 

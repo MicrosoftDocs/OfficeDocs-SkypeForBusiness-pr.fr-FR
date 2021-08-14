@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 5489eec7d94e1914fd4211927d65705fea08daae9770d4ed8bf3165ebe75e553
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Comment activer et désactiver l’accès des utilisateurs anonymes dans Skype Entreprise Server.
+ms.openlocfilehash: 4f7fb11e7b168922a4027e75703c164638dd1f2d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297240"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234389"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Activer ou désactiver l’accès des utilisateurs anonymes dans Skype Entreprise Server
 
@@ -52,21 +52,17 @@ Si vous souhaitez par la suite empêcher temporairement ou définitivement l’a
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de l’accès des utilisateurs anonymes à l’Windows PowerShell cmdlets
 
-Vous pouvez gérer l’accès des utilisateurs anonymes à l’Windows PowerShell et à l’aide de l';cmdlet **Set-CsAccessEdgeConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez gérer l’accès des utilisateurs anonymes à l’Windows PowerShell et à l’aide de l’cmdlet **Set-CsAccessEdgeConfiguration.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>Pour activer l’accès des utilisateurs anonymes
 
-  - Pour activer l’accès des utilisateurs anonymes, définissez la valeur de la propriété **AllowAnonymousUsers** sur True ($True) :
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - Pour activer l’accès des utilisateurs anonymes, définissez la valeur de la propriété **AllowAnonymousUsers** sur True ($True) :<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>Pour désactiver l’accès des utilisateurs anonymes
 
-  - Pour désactiver l’accès des utilisateurs anonymes, définissez la valeur de la propriété **AllowAnonymousUsers** sur False ($False) :
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - Pour désactiver l’accès des utilisateurs anonymes, définissez la valeur de la propriété **AllowAnonymousUsers** sur False ($False) :<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>Voir aussi
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Cet article comprend des étapes détaillées pour la désactivation de l’hybride dans le cadre de la consolidation du cloud pour Teams et Skype Entreprise.
-ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: eb7e72644bf5f69a763540c1c256d7aabb5f9f6f474d1d570071f68a4c2584e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330698"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>Désactiver votre configuration hybride pour terminer la migration vers Teams uniquement 
 
@@ -39,7 +39,7 @@ Cet article explique comment désactiver votre configuration hybride avant de d�
 
 - **Étape 2. Désactivez votre configuration hybride.** (Cet article)
 
-- Étape 3. [Migrez les points de terminaison de l’application hybride de l’local vers le mode en ligne.](decommission-move-on-prem-endpoints.md)
+- Étape 3 : [Migrez les points de terminaison de l’application hybride de l’local vers le mode en ligne.](decommission-move-on-prem-endpoints.md)
 
 - Étape 4. [Supprimez votre déploiement Skype Entreprise local.](decommission-remove-on-prem.md)
 
@@ -49,7 +49,7 @@ Cet article explique comment désactiver votre configuration hybride avant de d�
 
 ## <a name="summary"></a>Résumé
 
-Une fois que vous avez mis à niveau tous les utilisateurs de Skype Entreprise local vers Teams Uniquement en Microsoft 365, vous pouvez désaffecter le déploiement Skype Entreprise local.
+Une fois que vous avez mis à niveau tous les utilisateurs de Skype Entreprise en local vers Teams Uniquement en Microsoft 365, vous pouvez désaffecter le déploiement Skype Entreprise local.
 
 Avant de désaffecter le déploiement Skype Entreprise local et de supprimer du matériel, vous devez séparer logiquement le déploiement local de Microsoft 365 en désactivant l’hybride. La désactivation hybride se compose des quatre étapes suivantes :
 

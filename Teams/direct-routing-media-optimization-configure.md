@@ -1,5 +1,5 @@
 ---
-title: Optimisation directe des médias locaux de routage
+title: Configurer l’optimisation des médias locaux pour le routage direct dans Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurer l’optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b617ab6721b940756f1d2bc8c758f1eff39e38463dd01380bef9cebb48f09c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf370087d109ebd12da150af44d2f13b455f4f6e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318487"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235359"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurer l’optimisation des médias locaux pour le routage direct
 
@@ -111,7 +111,7 @@ Tous les paramètres respectent la cas. Vous devez donc vous assurer d’utilise
 
 ### <a name="define-network-regions"></a>Définir les régions réseau
 
-Pour définir les régions du réseau, utilisez l'New-CsTenantNetworkRegion de cmdlet. Le paramètre RegionID est un nom logique qui représente la géographie de la région et ne présente aucune dépendance ou restriction. Le paramètre CentralSite <site ID> est facultatif.
+Pour définir les régions du réseau, utilisez l'New-CsTenantNetworkRegion de cmdlet. Le paramètre RegionID est un nom logique qui représente la géographie de la région et ne présente aucune dépendance ou restriction. Le paramètre CentralSite `<site ID>` est facultatif.
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -262,19 +262,19 @@ Remarque : Étant donné qu’un utilisateur peut avoir plusieurs points de term
 
 Le diagramme suivant montre l’évolution SIP d’un appel entrant avec le mode AlwaysBypass, et l’utilisateur se trouve au même emplacement que le SBC.
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-11.png)
+![Diagramme montrant l’évolution de SIP.](media/direct-routing-media-op-11.png)
 
 
 #### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>Appels sortants et l’utilisateur est externe avec Toujours contourner
 
 | Mode |    Utilisateur |  Site |  Direction de l’appel
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  N/A | Sortant |
+AlwaysBypass |  Externe |  S/O | Sortant |
 
 
 Le diagramme suivant illustre l’évolution SIP d’un appel sortant avec le mode AlwaysBypass et l’utilisateur est externe :
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-12.png)
+![Le diagramme indique l’évolution de SIP.](media/direct-routing-media-op-12.png)
 
 Le tableau suivant indique les en-têtes X-MS envoyés par le service de routage direct :
 
@@ -288,13 +288,13 @@ Le tableau suivant indique les en-têtes X-MS envoyés par le service de routage
 
 | Mode | Utilisateur | Site |  Direction de l’appel |
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  N/A |   Entrant |
+AlwaysBypass |  Externe |  S/O |   Entrant |
 
 Pour un appel entrant, le SBC connecté au routage direct doit envoyer une nouvelle invitation (par défaut, les candidats aux médias locaux sont toujours proposés) si l’emplacement de l’utilisateur est externe.  Le X-MediaPath est calculé sur la base des Record-Route et de l’utilisateur SBC spécifié.
 
 Le diagramme suivant illustre l’évolution SIP d’un appel entrant avec le mode AlwaysBypass et l’utilisateur est externe.
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-13.png)
+![Diagramme montrant de nouveau l’évolution de SIP.](media/direct-routing-media-op-13.png)
 
 
 ### <a name="only-for-local-users-mode"></a>Uniquement pour le mode utilisateur local
@@ -322,7 +322,7 @@ Le tableau suivant indique la configuration et l’action de l’utilisateur fin
 
 Le diagramme suivant illustre un appel sortant avec le mode OnlyForLocalUsers et l’utilisateur se trouve au même emplacement que le SBC. Il s’agit du même flux affiché dans les appels sortants lorsque l’utilisateur se trouve au même emplacement [que le SBC.](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-14.png)
+![Le diagramme montre de nouveau l’évolution de SIP.](media/direct-routing-media-op-14.png)
 
 
 #### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Appels entrants et l’utilisateur se trouve au même emplacement que le SBC avec uniquement pour les utilisateurs locaux
@@ -333,7 +333,7 @@ Le diagramme suivant illustre un appel sortant avec le mode OnlyForLocalUsers et
 
 Le diagramme suivant illustre un appel entrant avec le mode OnlyForLocalUsers et l’utilisateur se trouve au même emplacement que le SBC. Il s’agit du même flux que celui affiché dans les appels entrants lorsque l’utilisateur se trouve au même emplacement [que le SBC.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-15.png)
+![Autre diagramme montrant l’évolution de SIP.](media/direct-routing-media-op-15.png)
 
 
 #### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>L’utilisateur n’est pas au même emplacement que le SBC, mais se trouve sur le réseau d’entreprise avec uniquement pour les utilisateurs locaux
@@ -347,7 +347,7 @@ Le routage direct calcule X-MediaPath en fonction de l’emplacement signalé de
 
 Le diagramme suivant montre un appel sortant avec le mode OnlyForLocalUsers et un utilisateur interne qui n’est pas au même emplacement que le SBC.
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-16.png)
+![Un autre diagramme indique l’évolution de SIP.](media/direct-routing-media-op-16.png)
 
 
 #### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>Appel entrant et l’utilisateur est interne, mais n’est pas au même emplacement que le SBC avec uniquement pour les utilisateurs locaux
@@ -358,7 +358,7 @@ Le diagramme suivant montre un appel sortant avec le mode OnlyForLocalUsers et u
 
 Le diagramme suivant montre un appel entrant avec le mode OnlyForLocalUsers et un utilisateur interne qui n’est pas au même emplacement que le SBC.
 
-![Diagramme montrant l’évolution de SIP](media/direct-routing-media-op-17.png)
+![Un autre diagramme montrant l’évolution de SIP.](media/direct-routing-media-op-17.png)
 
 
 

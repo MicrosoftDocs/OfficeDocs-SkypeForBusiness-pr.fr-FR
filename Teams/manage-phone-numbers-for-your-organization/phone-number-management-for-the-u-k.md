@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Royaume-Uni Microsoft Teams.
-ms.openlocfilehash: 7b04764d10adf3a0f945a0b7e25f1a029dd1e98d7755053163aec2209405e1f7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 3360534637e86f868c88ea9d4705115d8fa6a06b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848499"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234099"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>Téléphone gestion des nombres pour le Royaume-Uni
 

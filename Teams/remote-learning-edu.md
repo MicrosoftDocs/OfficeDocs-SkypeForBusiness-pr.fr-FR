@@ -1,5 +1,5 @@
 ---
-title: Ressources Microsoft Teams pour les administrateurs dans l’éducation
+title: Prise en main de Microsoft Teams pour l'apprentissage à distance
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a312a15af363fc796f88d5743950ea97c300a35422a691a2d00406d922f74dbd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319817"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234249"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -215,7 +215,7 @@ PowerShell vous permet de créer un script pour créer des équipes, des canaux 
 
 #### <a name="manual-team-creation"></a>Création manuelle d’équipe
 
-Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils peuvent l'utiliser avec le minimum d'obstacles et avoir la souplesse nécessaire pour l'adapter à leurs besoins. L’une des façons dont les utilisateurs peuvent personnaliser leur expérience Teams est d'avoir la possibilité de créer des équipes. Les enseignants configurent leur propre équipe de type classe et invitent les étudiants comme illustré [ici](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Les enseignants peuvent inviter des étudiants en [ajoutant des étudiants à l’équipe](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [partageant un code de jointure](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ou [partageant un lien vers l’équipe](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Dans la mesure du possible, il est préférable que les enseignants ajoutent les étudiants à l’équipe pour leur en garantir l'accès et être sûr qu’ils soient informés de leur ajout dans une équipe.
+Les étudiants et les enseignants tirent le meilleur parti de Teams lorsqu’ils peuvent l'utiliser avec le minimum d'obstacles et avoir la souplesse nécessaire pour l'adapter à leurs besoins. L’une des façons dont les utilisateurs peuvent personnaliser leur expérience Teams est d'avoir la possibilité de créer des équipes. Les enseignants configurent leur propre équipe de type classe et invitent les étudiants comme illustré [ici](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch). Les enseignants peuvent inviter des étudiants en [ajoutant des étudiants à l’équipe](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954), [partageant un code de jointure](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ou [partageant un lien vers l’équipe](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f). Dans la mesure du possible, il est préférable que les enseignants ajoutent les étudiants à l’équipe pour leur en garantir l'accès et être sûr qu’ils soient informés de leur ajout dans une équipe.
 
 ##### <a name="benefits"></a>Avantages
 

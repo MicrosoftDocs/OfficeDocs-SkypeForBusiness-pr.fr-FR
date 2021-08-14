@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Si vous déployez Skype Entreprise dans votre organisation, vous pouvez fédérer avec les domaines d’un ou plusieurs Skype Entreprise Online. '
-ms.openlocfilehash: c8e0481a85ff371e5454856d5b84a4dbccf50a97
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 2c737df9230b31c7e616cc456831b999041015c36b4fbb2c99032a8f5885fd26
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336874"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configuration de la prise en charge de la fédération pour un client Skype Entreprise Online dans Skype Entreprise Server
 

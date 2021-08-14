@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: La nouvelle Skype Entreprise rapports du Centre d’administration affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Par exemple, vous pouvez utiliser le rapport Skype Entreprise des groupes de minutes PSTN pour consulter le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
-ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: La nouvelle Skype Entreprise rapports du Centre d’administration vous présente les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Par exemple, vous pouvez utiliser le rapport Skype Entreprise des groupes de minutes PSTN pour consulter le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
+ms.openlocfilehash: 8c69a0555c95a7cb700b31db04103a0f7f502729
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850249"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234039"
 ---
 # <a name="pstn-minute-pools-report"></a>Rapport du nombre de minutes RTC
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 >[!NOTE]
->Ce rapport n’est disponible que pour afficher un aperçu des clients.
+>Ce rapport est disponible uniquement pour afficher un aperçu des clients.
 
 La nouvelle Skype Entreprise rapports  du Centre d’administration affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Par exemple, vous pouvez utiliser le rapport Skype Entreprise des groupes de **minutes PSTN** pour consulter le nombre de minutes consommées au cours du mois en cours au sein de votre organisation.
   
@@ -49,7 +49,7 @@ Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des 
 - Allez dans le Centre d’administration > **centres d’administration** Skype Entreprise centre d’administration Rapports de groupes de  >    >    >  **minutes PSTN.**
     
 > [!NOTE]
-> En fonction de Microsoft 365 votre Office 365 abonnement, tous les détails présentés ici peuvent ne pas être affichés. 
+> En fonction du Microsoft 365 ou Office 365 votre abonnement, tous les détails présentés ici peuvent ne pas s’affiche. 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpréter le rapport Skype Entreprise des groupes de minutes PSTN
 
@@ -79,7 +79,7 @@ Voici une illustration du rapport.
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
-- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez consulter le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
+- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez voir le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
     
 - [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
     
@@ -93,7 +93,7 @@ Voici une illustration du rapport.
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

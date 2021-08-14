@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
-description: LStart-CcLogging cmdlet génère le journal des appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: bf84b55484e7f1d4f557730408676e337063a040
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Start-CcLogging génère le journal des appels entrants et sortants d’Skype Entreprise Cloud Connector Edition appliance.
+ms.openlocfilehash: c1e78f19a0df22749480b21410d3bcfcdba54f429ef1c8afb48467edd0ee7dbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329319"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
-LStart-CcLogging cmdlet génère le journal des appels entrants et sortants pour une appliance de la version Cloud Connector de Skype Entreprise. 
+La cmdlet Start-CcLogging génère le journal des appels entrants et sortants d’Skype Entreprise Cloud Connector Edition appliance. 
   
 ```powershell
 Start-CcLogging
@@ -56,7 +56,7 @@ Aucun. La cmdlet Start-CcLogging n’accepte pas la saisie de données pipeline.
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

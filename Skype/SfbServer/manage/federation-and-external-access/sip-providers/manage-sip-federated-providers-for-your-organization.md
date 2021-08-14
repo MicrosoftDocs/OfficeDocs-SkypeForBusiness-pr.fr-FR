@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Découvrez comment configurer la prise en charge des utilisateurs de fournisseurs fédérés SIP.
-ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336694"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gérer les fournisseurs fédérés SIP pour votre organisation dans Skype Entreprise Server
 
@@ -36,7 +36,7 @@ Pour configurer la prise en charge pour les utilisateurs des fournisseurs fédé
 
 La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par des fournisseurs publics.
 
-Skype Entreprise Server dispose de configurations de fournisseur public pour la messagerie instantanée. Chaque fournisseur public est configuré avec le nom de domaine complet du serveur Edge du fournisseur et le niveau de vérification par défaut permet aux utilisateurs de communiquer uniquement avec les personnes de leur liste de contacts qui utilisent ce **fournisseur.**
+Skype Entreprise Server a des configurations de fournisseur public pour la messagerie instantanée. Chaque fournisseur public est configuré avec le nom de domaine complet du serveur Edge du fournisseur et le niveau de vérification par défaut permet aux utilisateurs de communiquer uniquement avec les personnes de leur liste de contacts qui utilisent ce **fournisseur.**
 
 Par défaut, aucun des fournisseurs publics n’est activé. Terminez le travail relatif au contrat de licence et à l’approvisionnement avant d’activer les fournisseurs publics. Vous pouvez activer le fournisseur avant de terminer le travail relatif au contrat de licence et à l’approvisionnement. Les utilisateurs ne pourront pas communiquer avec leurs contacts situés chez ces fournisseurs tant que le travail préalable ne sera pas terminé. Pour plus d’informations sur la gestion des licences et l’approvisionnement des fournisseurs publics, voir Configurer des stratégies pour contrôler les accès [des utilisateurs publics.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
@@ -47,7 +47,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs publics
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Fédération et accès externe**, puis sur **Fournisseurs fédérés SIP**.
 
@@ -61,7 +61,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs publics
     
       - **Nom du fournisseur :** propriété requise. Tapez le nom du fournisseur tel qu’il apparaîtra dans la liste des fournisseurs fédérés SIP.
     
-      - **Service Edge d’accès (FQDN) :**   Propriété obligatoire, tapez le nom de domaine complet du service Edge d’accès du fournisseur que vous configurez. Ces informations sont fournies par défaut et ne doivent être changées que si le fournisseur public modifie le nom de domaine complet du service Edge d’accès au niveau du fournisseur public.
+      - **Service Edge d’accès (FQDN) :** propriété requise. Tapez le nom de domaine complet du service Edge d’accès du fournisseur que vous configurez. Ces informations sont fournies par défaut et ne doivent être changées que si le fournisseur public modifie le nom de domaine complet du service Edge d’accès au niveau du fournisseur public.
     
       - **Niveau de vérification par défaut :** le paramètre par défaut, **Autoriser les utilisateurs à communiquer avec les personnes dans leur liste des contacts qui utilisent ce fournisseur** limite la communication aux contacts que vous avez acceptés et qui figurent dans votre liste des contacts.
         
@@ -81,7 +81,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs héberg
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
 3.  Dans la barre de navigation de gauche, cliquez sur **Fédération et accès externe**, puis sur **Fournisseurs fédérés SIP**.
 
@@ -95,7 +95,7 @@ Utilisez la procédure suivante pour créer ou modifier des fournisseurs héberg
     
       - **Nom du fournisseur :** propriété requise. Tapez le nom du fournisseur tel qu’il apparaîtra dans la liste des fournisseurs fédérés SIP.
     
-      - **Service Edge d’accès (FQDN) :**   Propriété obligatoire, tapez le nom de domaine complet du service Edge d’accès du fournisseur hébergé que vous configurez. Cette information doit être fournie par le fournisseur hébergée et ne doit être modifiée que si le fournisseur hébergé modifie le nom de domaine complet de son service Edge d’accès.
+      - **Service Edge d’accès (FQDN) :** propriété requise. Tapez le nom de domaine complet du service Edge d’accès du fournisseur hébergé que vous configurez. Cette information doit être fournie par le fournisseur hébergée et ne doit être modifiée que si le fournisseur hébergé modifie le nom de domaine complet de son service Edge d’accès.
     
       - **Niveau de vérification par défaut :** le paramètre par défaut **Autoriser les utilisateurs à communiquer avec les personnes dans leur liste des contacts qui utilisent ce fournisseur** limite la communication aux contacts que vous avez acceptés et qui figurent dans votre liste des contacts.
         

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: Prévoyez d’implémenter la connectivité hybride entre Skype Entreprise Server et Teams en configurant Skype Entreprise mode hybride.
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c52edf0fa8e90f0fc6a86f0d87192fdbba6a24c8ef540f18607645a82d7badfe
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 090aab3d376a228915779c8bf55864484cee715d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849269"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234049"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Planifier la connectivité hybride entre Skype Entreprise Server et Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "57849269"
 
 Lisez cette rubrique pour découvrir comment planifier la connectivité hybride entre Skype Entreprise Server et Teams. La configuration de la connectivité hybride constitue la première étape de la migration de votre environnement local vers le Cloud.
 
-Si vous avez des utilisateurs Skype Entreprise locaux qui utilisent également Teams (côte à côte), ces utilisateurs n’ont pas la possibilité d’interagir avec des utilisateurs de Skype Entreprise à partir de leur client Teams, ni de communiquer avec des utilisateurs d’organisations fédérées à partir de leur client Teams. Pour obtenir cette fonctionnalité dans Teams, ces utilisateurs doivent être déplacés de Skype Entreprise en local vers le Cloud, ce qui nécessite la configuration du mode hybride Skype Entreprise. En outre, pour une expérience de qualité, ces utilisateurs doivent être en mode Teams Uniquement, ce qui garantit que tous les appels entrants et les conversations en provenance de n’importe quel utilisateur arrivent dans le client Teams de l’utilisateur.
+Si vous avez des utilisateurs Skype Entreprise locaux qui utilisent également Teams (côte à côte), ces utilisateurs n’ont pas la possibilité d’interagir avec des utilisateurs de Skype Entreprise à partir de leur client Teams, ni de communiquer avec des utilisateurs d’organisations fédérées à partir de leur client Teams. Pour obtenir cette fonctionnalité dans Teams, ces utilisateurs doivent être déplacés de Skype Entreprise en local vers le Cloud, ce qui nécessite la configuration du mode hybride Skype Entreprise. En outre, pour une expérience de qualité, ces utilisateurs doivent être en mode Teams Uniquement, ce qui garantit que tous les appels entrants et conversations de tout utilisateur arrivent dans le client Teams de l’utilisateur.
 
 Vous devez également configurer la connectivité hybride et déplacer tous les utilisateurs vers le cloud avant de supprimer votre déploiement Skype Entreprise local.  Une fois la connectivité hybride configurée, vous pouvez choisir de migrer vos utilisateurs vers le cloud en fonction de votre planification et de vos besoins professionnels. Le routage direct vous permet de tirer parti de votre infrastructure vocale locale pendant votre migration vers le cloud et une fois celle-ci terminée.
 
@@ -56,15 +56,15 @@ Après le retrait de Skype Entreprise Online, toutefois, les organisations hybri
 - Les utilisateurs locaux (Qui peuvent ou non utiliser Teams, mais pas en mode TeamsOnly)
 - Teams Utilisateurs uniquement. 
 
-Pour que les organisations passeront de Skype Entreprise Server ou Lync Server 2013 à Teams, elles doivent quand même configurer l’hybride à l’aide du même ensemble d’outils, exactement comme avant le retrait. Ce qui a changé, c’est que lors du déplacement d’un utilisateur de l’local vers Teams, il n’est plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement de l’local vers `-MoveToTeams` `Move-CsUser` TeamsOnly. Auparavant, si ce commutateur n’était pas spécifié, les utilisateurs passaient du mode d’accueil Skype Entreprise Server local à Skype Entreprise Online, et leur mode était inchangé. En prévision du retrait, lors du déplacement d’un utilisateur de l’local vers le cloud avec , les utilisateurs sont désormais automatiquement affectés au mode TeamsOnly et leurs réunions à partir de l’local sont automatiquement converties en réunions Teams, comme si le commutateur avait été spécifié, que le commutateur soit réellement spécifié `Move-CsUser` `-MoveToTeams` ou non. (Cela inclut les migrations de Lync Server 2013, qui n’ont jamais eu le `MoveToTeams` commutateur.) 
+Pour que les organisations passeront de Skype Entreprise Server ou Lync Server 2013 à Teams, elles doivent quand même configurer l’hybride à l’aide du même ensemble d’outils, exactement comme avant le retrait. Ce qui a changé, c’est que lors du déplacement d’un utilisateur de l’local vers Teams, il n’est plus nécessaire de spécifier le commutateur pour déplacer les utilisateurs directement de l’local vers `-MoveToTeams` `Move-CsUser` TeamsOnly. Auparavant, si ce commutateur n’était pas spécifié, les utilisateurs passaient du mode d’accueil Skype Entreprise Server local à Skype Entreprise Online, et leur mode était inchangé. En préparation du retrait, lors du déplacement d’un utilisateur de l’local vers le cloud avec , les utilisateurs sont désormais automatiquement affectés au mode TeamsOnly et leurs réunions à partir de l’local sont automatiquement converties en réunions Teams, comme si le commutateur avait été spécifié, que le commutateur soit réellement spécifié `Move-CsUser` `-MoveToTeams` ou non. (Cela inclut les migrations de Lync Server 2013, qui n’ont jamais eu le `MoveToTeams` commutateur.) 
 
-De même, si un nouvel utilisateur est créé directement dans Microsoft 365 plutôt que sur site, cet utilisateur aura automatiquement le mode Teams Uniquement quel que soit le mode du client. (Ce comportement sera prochainement déployé avec le retrait.) N’oubliez pas que dans une organisation hybride, de nouveaux utilisateurs doivent être créés dans l’annuaire Active Directory local (puis synchronisés dans Microsoft 365), plutôt que de créer directement un utilisateur dans Microsoft 365, afin de s’assurer que les utilisateurs locaux peuvent router vers le nouvel utilisateur.
+De même, si un nouvel utilisateur est créé directement dans Microsoft 365 plutôt que sur site, il aura automatiquement le mode Teams Uniquement quel que soit le mode du client. (Ce comportement sera prochainement déployé avec le retrait.) N’oubliez pas que dans une organisation hybride, les nouveaux utilisateurs doivent être créés dans Active Directory local (puis synchronisés dans Microsoft 365), plutôt que de créer directement un utilisateur dans Microsoft 365, afin de s’assurer que les utilisateurs locaux peuvent router vers le nouvel utilisateur.
 
 Les modes de coexistence continueront d’exister après le retrait de Skype Entreprise Online. Comme auparavant, les utilisateurs ayant des comptes Skype Entreprise Server sur site peuvent se voir attribuer n’importe quel mode de coexistence à l’exception de TeamsOnly. Toutefois, après la mise en retrait, les utilisateurs d’accueil en ligne ne peuvent être que TeamsOnly (contrairement au moment où les utilisateurs Skype Entreprise Online peuvent être n’importe quel mode).  
 
 > [!Important]
 > - Les organisations hybrides existantes avec des utilisateurs Skype Entreprise Online qui ne sont PAS TeamsOnly doivent se concentrer sur la mise à niveau de ces utilisateurs vers le mode Teams Uniquement dès que possible, mais au plus tard le 31 juillet 2021. Si les utilisateurs de votre organisation sont toujours Skype Entreprise Online qui ne sont pas TeamsOnly, vous pouvez être programmé pour une mise à niveau assistée par Microsoft pour la transition de ces utilisateurs vers TeamsOnly. Cela n’aura aucun impact sur les utilisateurs qui sont Skype Entreprise Server sur site. Les notifications de planification seront envoyées à l’avance aux clients hybrides dont les utilisateurs sont Skype Entreprise Online avant que ces utilisateurs en ligne ne soient mis à niveau vers Teams.
-> - En vue du retrait de Skype Entreprise Online, il ne sera bientôt plus possible d’affecter un mode autre que TeamsOnly à un utilisateur qui est en ligne.
+> - En vue du retrait de Skype Entreprise Online, il ne sera bientôt plus possible d’attribuer un mode autre que TeamsOnly à un utilisateur qui est en ligne.
 
 ## <a name="about-shared-sip-address-space-functionality"></a>À propos de la fonctionnalité d’espace d’adressas SIP partagé
 
@@ -78,7 +78,7 @@ Ce type de configuration s’appuie sur la fonctionnalité d’espace d’adress
 
 Lorsque l’espace d’adressas SIP partagé est configuré :
 
-- Azure Active Directory Connecter permet de synchroniser votre annuaire local avec Microsoft 365.
+- Azure Active Directory Connecter permet de synchroniser votre annuaire local avec les Microsoft 365.
 - Les utilisateurs qui sont sur site interagissent avec les serveurs Skype Entreprise locaux.
 - Les utilisateurs qui sont basés en ligne peuvent interagir avec Teams et, jusqu’au 31 juillet 2021, Skype Entreprise Online en fonction de leur mode de coexistence.
 - Les utilisateurs des deux environnements peuvent communiquer les uns avec les autres.
@@ -157,7 +157,7 @@ Les conditions suivantes doivent être remplies pour configurer correctement un 
 
 ## <a name="network-considerations"></a>Considérations relatives au réseau
 
-Les sections suivantes décrivent les éléments à prendre en compte pour :
+Les sections suivantes décrivent les éléments à prendre en compte :
 
 - Paramètres DNS
 - Considérations sur le pare-feu

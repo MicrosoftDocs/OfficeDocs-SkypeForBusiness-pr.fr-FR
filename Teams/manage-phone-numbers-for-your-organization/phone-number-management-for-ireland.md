@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Irlande Microsoft Teams.
-ms.openlocfilehash: 54e1e99dbcebdc68113370ed4a06199c38a73dfdfa99314a1dcd50d5d94ce3c3
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 1d0cccb8301d46401719b1014b61452343d9c293
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849739"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234459"
 ---
 # <a name="phone-number-management-for-ireland"></a>Gestion des numéros de téléphone pour l'Irlande
 

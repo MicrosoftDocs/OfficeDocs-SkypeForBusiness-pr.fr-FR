@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez comment attribuer des licences gratuites Système téléphonique utilisateur virtuel ou une licence utilisateur Système téléphonique utilisateur payant aux comptes de ressources de votre organisation.
-ms.openlocfilehash: 8e5322ccf7e3e7ad05c499b3dbcfdac65d0dfedb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2481d119bd1f053f0836c57d237d34edfbf6e260d9b8be9b9f7d40033dc6282a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116922"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328939"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Système téléphonique – Licence utilisateur virtuel
 
@@ -41,7 +41,7 @@ Les organisations Système téléphonique utilisateurs titulaires d’une licenc
 Votre organisation est attribuée sous Microsoft 365 Système téléphonique utilisateur virtuel en fonction de sa taille globale. Toute organisation qui dispose d’au moins une licence Système téléphonique a Système téléphonique a ajouté 25 licences utilisateur virtuels disponibles gratuitement. Lorsque vous ajoutez 10 Système téléphonique utilisateur dans votre organisation, une nouvelle licence Microsoft 365 Système téléphonique - Une licence utilisateur virtuel devient disponible.
 
 > [!NOTE]
-> Système téléphonique est une licence de module ajout disponible avec les Microsoft 365 et Office 365 E1 et E3. Système téléphonique est également inclus dans les licences Microsoft 365 E5, Office 365 E5 et Microsoft 365 Business Voix.
+> Système téléphonique est une licence de module ajout disponible avec les Microsoft 365 et Office 365 E1 et E3. Système téléphonique est également inclus dans le cadre des licences Microsoft 365 E5, Office 365 E5 et Microsoft 365 Business Voice licences.
 
 Si votre organisation utilise les Microsoft 365 Système téléphonique gratuits disponibles ( licences utilisateur virtuel pour créer un service automatique ou des nodes de file d’attente d’appels), vous pouvez toujours utiliser les licences système Téléphone payantes avec un compte de ressource. La plupart des organisations auront suffisamment de licences utilisateur virtuel sur la base du plan de mise à l’échelle. 
 
@@ -65,7 +65,7 @@ Contoso doit envisager de reconfidenter le système de attendant automatique et 
 Si vous décidez de basculer la licence de votre compte de ressource d’une licence Système téléphonique vers une licence Microsoft 365 Système téléphonique - Utilisateur virtuel :
 
 1. Obtenez la nouvelle Microsoft 365 Système téléphonique d’utilisateur virtuel.
-2. Suivez les étapes liées dans le centre d Microsoft 365 pour [déplacer les utilisateurs vers un autre abonnement.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+2. Suivez les étapes liées dans le centre Administration Microsoft 365 pour [déplacer les utilisateurs vers un autre abonnement.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > Supprimez toujours une licence Système téléphonique licence utilisateur complète et attribuez la Microsoft 365 Système téléphonique d’utilisateur virtuel dans la même activité de licence. Si vous supprimez l’ancienne licence, enregistrez les modifications apportées au compte, ajoutez la nouvelle licence, puis enregistrez de nouveau les paramètres du compte, le compte de ressource peut ne plus fonctionner comme prévu. Dans ce cas, nous vous recommandons de créer un compte de ressource pour le Microsoft 365 Système téléphonique - Licence utilisateur virtuel et de supprimer le compte de ressource rompu. 

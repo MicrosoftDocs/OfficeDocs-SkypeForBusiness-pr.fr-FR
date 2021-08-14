@@ -1,5 +1,5 @@
 ---
-title: Routage direct via le système téléphonique
+title: 'Teams routage direct du système téléphonique : définitions et normes de mise en service RFC'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,17 +14,17 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Protocoles de routage direct
+description: Comment Téléphone Microsoft routage système direct implémente les protocoles standard RFC.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 015b07f538ad33079bbe04649849d22bfebbfb081feb30cea154cb30f9f10fd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26178fa52105f43ce9f7f18c0058a2ead3ef1c02
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347170"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235339"
 ---
-# <a name="direct-routing---definitions-and-rfc-standards"></a>Routage direct - Définitions et normes de mise en service desfc
+# <a name="direct-routing---definitions-and-rfc-standards"></a>Routage direct - définitions et normes de mise en service desfc
 
 Cet article décrit la façon dont Téléphone Microsoft routage système direct implémente les protocoles standard RFC. Cet article est destiné aux administrateurs vocaux chargés de configurer la connexion entre le contrôleur de session en session en local (SBC) et le service proxy SIP (Session Initiation Protocol).
 
@@ -53,9 +53,9 @@ Les normes suivantes s’appliquent aux appareils qui ne supportent que le mode 
 - [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) Protocole d’initiation de session Referred-By mécanisme d’initiation
 - [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) En-tête « Remplace » le protocole SIP (Session Initiation Protocol) 
 - [RFC 6337](https://tools.ietf.org/html/rfc6337) Utilisation du modèle d’offre/answer protocol (SIP) par le protocole SIP (Session Initiation Protocol).
-  Consultez la section « Écarts par rapport à la mise enfc en cours ».
+  Consultez la section « Écarts par rapport à la mise en sureance de la mise en sureance de projet ».
 - [RFC 3711](https://tools.ietf.org/html/rfc3711) et [RFC 4771.](https://tools.ietf.org/html/rfc4771) Protégez le trafic RTP à l’aide du SRTP. Le SBC doit être en mesure d’établir des clés à l’aide de SDES. 
-- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Offre/clarification de réponse au protocole SDP (Session Description Protocol) pour le multiplexage RTP/RTCP
+- [RFC 8035](https://www.ietf.org/rfc/rfc8035.txt) Offre/clarifications de réponse au protocole SDP (Session Description Protocol) pour le multiplexage RTP/RTCP
 
 ### <a name="standards-applicable-to-devices-that-support-media-bypass-mode"></a>Normes applicables aux appareils qui supportent le mode de dérivation média
 

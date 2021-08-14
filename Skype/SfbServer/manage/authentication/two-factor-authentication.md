@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Résumé : Gérez l’authentification à deux facteurs dans Skype Entreprise Server.'
-ms.openlocfilehash: d73f088798938da6f5a87a8d21fa2922188f3bdc35e589dcda32b3f62747f0d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db40d3c2f899ec40ba01e0a45304e147513b9c03
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297300"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235509"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gérer l’authentification à deux facteurs dans Skype Entreprise Server
  
@@ -36,7 +36,7 @@ Les mises à jour cumulatives pour le client de bureau Lync Server 2013 de juill
   
 ## <a name="topology-requirements"></a>Conditions requises pour la topologie
 
-Les clients sont vivement encouragés à déployer l’authentification à deux facteurs à l’aide de Skype Entreprise Server avec edge, directeur et pools d’utilisateurs. Pour activer l’authentification passive pour les utilisateurs, d’autres méthodes d’authentification doivent être désactivées pour d’autres rôles et services, notamment :
+Les clients sont encouragés à déployer l’authentification à deux facteurs à l’aide de Skype Entreprise Server avec edge, directeur et pools d’utilisateurs. Pour activer l’authentification passive pour les utilisateurs, d’autres méthodes d’authentification doivent être désactivées pour d’autres rôles et services, notamment :
   
 |**Configuration Type**|**Type de service**|**Rôle serveur**|**Type d’authentification à désactiver**|
 |:-----|:-----|:-----|:-----|
@@ -53,7 +53,7 @@ Les enregistrements DNS utilisés par les clients internes et/ou externes pour d
   
 ## <a name="exchange-authentication"></a>Exchange Authentification
 
-Les clients qui ont déployé l’authentification à deux facteurs pour Microsoft Exchange peuvent découvrir que certaines fonctionnalités du client ne sont pas disponibles. Il s’agit actuellement d’une conception, car le client Skype Entreprise ne prend pas en charge l’authentification à deux facteurs pour les fonctionnalités qui dépendent de l Exchange inses intégration.
+Les clients qui ont déployé l’authentification à deux facteurs pour Microsoft Exchange peuvent découvrir que certaines fonctionnalités du client ne sont pas disponibles. Ce comportement est de par sa conception, car le client Skype Entreprise ne prend pas en charge l’authentification à deux facteurs pour les fonctionnalités qui dépendent de Exchange’intégration.
   
 ## <a name="contacts"></a>Contacts
 
@@ -81,11 +81,11 @@ Si les utilisateurs sont involontairement invités à entrer leurs informations 
   
 Pour empêcher l’invite supplémentaire d’informations d’identification, créez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Skype Entreprise à appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
   
-    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
-    REG_DWORD: DisableNTCredentials
-  
-    Value: 0x0
+REG_DWORD : DisableNTCredentials
+
+Valeur : 0x0
   
 ### <a name="savepassword"></a>SavePassword
 
@@ -93,11 +93,11 @@ Lorsqu’un utilisateur se Skype Entreprise pour la première fois, il est invit
   
 Le paramètre de Registre **SavePassword** doit être désactivé lorsque Skype Entreprise est configuré pour prendre en charge l’authentification à deux facteurs. Pour empêcher les utilisateurs d’enregistrer leur mot de passe, modifiez l’entrée de Registre suivante sur la station de travail locale ou utilisez le modèle d’administration Skype Entreprise pour l’appliquer à tous les utilisateurs d’un pool donné à l’aide de la stratégie de groupe :
   
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
+HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
-    REG_DWORD: SavePassword
+REG_DWORD : SavePassword
   
-    Value: 0x0
+Valeur : 0x0
   
 ## <a name="ad-fs-20-token-replay"></a>Relecture de jeton AD FS 2.0
 
@@ -105,7 +105,7 @@ AD FS 2.0 fournit une fonctionnalité appelée détection de relecture de jeton,
   
 Cette fonctionnalité doit être activée dans les situations où la sécurité est un problème très important, par exemple lors de l’utilisation de bornes. Pour plus d’informations sur la détection de relecture de jeton, voir [Best Practices for Secure Planning and Deployment of AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10)).
   
-## <a name="external-user-access"></a>Accès des utilisateurs externes
+## <a name="guest-user-access"></a>Accès des utilisateurs invités
 
 La configuration d’un proxy ADFS ou d’un proxy inverse pour prendre en charge Skype Entreprise’authentification à deux facteurs à partir de réseaux externes n’est pas couverte dans ces rubriques.
   

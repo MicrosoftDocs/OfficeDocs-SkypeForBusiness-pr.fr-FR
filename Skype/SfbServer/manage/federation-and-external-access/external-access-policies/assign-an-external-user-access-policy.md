@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Si un utilisateur a été activé pour Skype Entreprise Server, vous pouvez configurer la fédération SIP, l’accès des utilisateurs distants et la connectivité de messagerie instantanée publique dans le Panneau de configuration Skype Entreprise Server en appliquant les stratégies appropriées à des utilisateurs spécifiques.
-ms.openlocfilehash: dbb4c89fd67f128fff0707e1190e8720ad2a166b72b861bb4510496ac0cd5744
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32c97e38da6887e5caf078394e784f835458911a
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320196"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234629"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Affecter une stratégie d’accès des utilisateurs externes à Skype Entreprise utilisateur activé
 
@@ -44,7 +44,7 @@ La procédure de cette rubrique vous permet d’appliquer une stratégie d’acc
 
 4.  Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
 
-5.  Dans **Modifier Skype Entreprise Server utilisateur sous** stratégie **d’accès** externe, sélectionnez la stratégie utilisateur à appliquer.
+5.  Dans **Modifier Skype Entreprise Server utilisateur sous stratégie** **d’accès externe,** sélectionnez la stratégie utilisateur à appliquer.
      
 > [!NOTE]  
 > Les paramètres appliquent les paramètres de stratégie globale ou serveur **\<Automatic>** par défaut.
@@ -56,24 +56,17 @@ Les stratégies d’accès externe par utilisateur peuvent être affectées à l
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>Pour affecter une stratégie d’accès externe par utilisateur à un seul utilisateur
 
-  - Cette commande permet d’affecter la stratégie d’accès externe par utilisateur RedmondExternalAccessPolicy à l’utilisateur Ken Myer.
-    
-        Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
+  - Cette commande permet d’affecter la stratégie d’accès externe par utilisateur RedmondExternalAccessPolicy à l’utilisateur Ken Myer.<br/><br/>Grant-CsExternalAccessPolicy -Identity « Ken Myer » -PolicyName « RedmondExternalAccessPolicy »
 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>Pour affecter une stratégie d’accès externe par utilisateur à plusieurs utilisateurs
 
-  - Cette commande permet d’affecter la stratégie d’accès externe par utilisateur USAExternalAccessPolicy à tous les utilisateurs qui possèdent des comptes dans l’unité d’organisation (OU) UnitedStates dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, consultez la documentation de l';cmdlet [Get-CsUser.](/powershell/module/skype/Get-CsUser)
-    
-        Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
+  - Cette commande permet d’affecter la stratégie d’accès externe par utilisateur USAExternalAccessPolicy à tous les utilisateurs qui possèdent des comptes dans l’unité d’organisation (OU) UnitedStates dans Active Directory. Pour plus d’informations sur le paramètre OU utilisé dans cette commande, consultez la documentation de l';cmdlet [Get-CsUser.](/powershell/module/skype/Get-CsUser)<br/><br/>Get-CsUser -OU « ou=United States,dc=litwareinc,dc=com » | Grant-CsExternalAccessPolicy -PolicyName « USAExternalAccessPolicy »
 
 
 ## <a name="to-unassign-a-per-user-external-access-policy"></a>Pour désattribuer une stratégie d’accès externe par utilisateur
 
-  - Cette commande annule l’affectation d’une stratégie d’accès externe par utilisateur précédemment affectée à Ken Myer. Lorsque cette stratégie par utilisateur n’est plus affectée à Ken Myer, celui-ci est automatiquement géré par la stratégie globale ou, le cas échéant, par la stratégie de site locale associée. La stratégie de site est prioritaire sur la stratégie globale.
-    
-        Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
-
+  - Cette commande annule l’affectation d’une stratégie d’accès externe par utilisateur précédemment affectée à Ken Myer. Lorsque cette stratégie par utilisateur n’est plus affectée à Ken Myer, celui-ci est automatiquement géré par la stratégie globale ou, le cas échéant, par la stratégie de site locale associée. La stratégie de site est prioritaire sur la stratégie globale.<br/><br/>Grant-CsExternalAccessPolicy -Identity « Ken Myer » -PolicyName $Null
 
 
 Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Grant-CsExternalAccessPolicy.](/powershell/module/skype/Grant-CsExternalAccessPolicy)

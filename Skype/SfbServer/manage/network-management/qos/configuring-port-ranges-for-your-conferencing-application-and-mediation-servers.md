@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Cet article explique comment configurer des plages de ports et une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation.
-ms.openlocfilehash: 14a9bd1b4e32ab68b01746edaca77337654ea391737f38129c7e482fdcd49324
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 52612e1cd4d8990f32b741538b8023ab1f8afabe
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591078"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234949"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation
 
@@ -120,7 +120,7 @@ Cependant, la limitation d’un ensemble de ports à un type de trafic spécifiq
 
 Les stratégies de qualité de service sont plus faciles à créer et à gérer à l’aide de la stratégie de groupe. (Ces stratégies peuvent également être créées à l’aide de stratégies de sécurité locales. Toutefois, vous devez répéter la même procédure sur chaque ordinateur.) Votre ensemble initial de stratégies QoS (une pour l’audio et l’autre pour la vidéo) doit être appliqué uniquement aux ordinateurs Skype Entreprise Server exécutant le serveur de conférence, le serveur d’applications et/ou les services serveur de médiation. Si tous ces ordinateurs se trouvent dans la même ouo Active Directory, vous pouvez simplement affecter le nouvel objet de stratégie de groupe (GPO) à cette ou. Vous pouvez également procéder d’une autre façon pour cibler les ordinateurs spécifiés avec cette stratégie ; par exemple, vous pouvez placer les ordinateurs dans un groupe de sécurité, puis utiliser le filtrage de sécurité de la stratégie de groupe pour appliquer l’objet de stratégie de groupe uniquement à ce groupe de sécurité.
 
-Pour créer une stratégie de qualité de service pour la gestion de l’audio, connectez-vous à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Ouvrez la gestion des stratégies de groupe (cliquez sur **Démarrer,** pointez sur Outils d’administration, puis cliquez sur **Gestion** des stratégies de groupe), puis complétez la procédure suivante :
+Pour créer une stratégie de qualité de service pour la gestion de l’audio, connectez-vous à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Ouvrez la gestion des stratégies de groupe (cliquez sur **Démarrer,** pointez sur Outils d’administration, puis cliquez sur Gestion des stratégies de **groupe),** puis complétez la procédure suivante :
 
 1.  Dans la gestion des stratégies de groupe, accédez au conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs Skype Entreprise Server sont situés dans une ou plusieurs Skype Entreprise Server, la nouvelle stratégie doit être créée dans l’Skype Entreprise Server’une autre.
 
@@ -153,7 +153,7 @@ Après avoir créé la stratégie QoS pour le trafic audio, vous devez créer un
 
   - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 57501 à 65535 pour la vidéo, définissez la plage de ports sur celle-ci : **57501:65535**.
 
-Si vous décidez de créer une stratégie pour la gestion du trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
+Si vous décidez de créer une stratégie pour gérer le trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
 
   - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server partage d’application).**
 

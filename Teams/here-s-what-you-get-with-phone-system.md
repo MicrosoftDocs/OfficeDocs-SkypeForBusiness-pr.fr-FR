@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez les fonctionnalités, la disponibilité et comment planifier et configurer Téléphone Microsoft système pour votre entreprise. '
-ms.openlocfilehash: ce4be849a1cf57dc47b6d41b84548b1e0e3591cdd2d963e60d5816c833579648
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1bd1ff71a0f8eec818e005e430618a1ef69b340
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349047"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235019"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Les avantages du système téléphonique
 
@@ -38,6 +38,10 @@ Les clients sont disponibles pour PC, Mac et appareils mobiles, ce qui fournit d
 
  > [!Note]
 > Pour plus d’informations sur Teams systèmes téléphoniques sur différentes plateformes, voir Teams [fonctionnalités par plateforme.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+
+Pour utiliser Système téléphonique fonctionnalités, votre organisation doit avoir une licence Système téléphonique licence. Pour plus d’informations sur les licences, voir [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+Sachez que la plupart des fonctionnalités nécessitent que vous affectiez la licence Système téléphonique et que les utilisateurs soient « activés pour la voix ». Pour attribuer la licence, utilisez la [cmdlet Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) et définissez le paramètre **enterprisevoiceenabled** $true. Certaines fonctionnalités, telles que le attendant automatique cloud, ne nécessitent pas qu’un utilisateur soit activé pour la voix. Les exceptions sont appelées dans le tableau ci-dessous.
   
 ## <a name="phone-system-features"></a>Système téléphonique fonctionnalités
 
@@ -86,7 +90,7 @@ Les fonctionnalités suivantes ne sont pas encore disponibles dans Cloud de la c
 - Attente musicale
 - Recherche de numéro inversé d’Azure AD
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce que le système téléphonique ?](what-is-phone-system-in-office-365.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

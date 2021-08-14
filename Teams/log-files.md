@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, multimédias et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider dans la surveillance et la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eba1acc94f87e59991230a85054cad14678efc9c92b8efa96567b81ef4e65ed6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350896"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235319"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utilisez les fichiers journaux pour surveiller les données et résoudre les Microsoft Teams
 
@@ -114,7 +114,6 @@ Consultez la section _Recueillir et activer la journalisation_ pour consulter Wi
 Pour collecter des journaux pour Linux : Cliquez sur l’icône Microsoft Teams dans votre bac système, puis **sélectionnez Obtenir les journaux.**
 Les fichiers seront disponibles dans ~/.config/Microsoft/Microsoft Teams/logs.txt.  
 
-
 ## <a name="browser-trace"></a>Suivi du navigateur
 
 Pour certaines catégories d’erreurs, le Support Microsoft peut exiger que vous collectiez un suivi du navigateur. Ces informations peuvent fournir des détails importants sur l’état du client Teams lorsque l’erreur se produit.
@@ -132,7 +131,22 @@ Une fois que vous êtes inscrit, sélectionnez l’un des liens suivants, le cas
 -   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> Au cours des étapes, remplacez toutes les références au portail Azure par le client Teams client. 
+> Au cours des étapes, remplacez toutes les références au portail Azure par le client Teams client.
+  
+## <a name="webrtc-logs-in-browsers"></a>Journaux WebRTC dans les navigateurs
+Les journaux WebRTC peuvent aider le Support Microsoft en fournissant des détails de connexion pour les appels audio et vidéo. Suivez les étapes pour accéder aux journaux WebRTC dans Edge (Chromium) ou Chrome : 
+  
+1.  Ouvrez un nouvel onglet et allez à l’une des URL suivantes :
+    -   Edge (Chromium) : « edge://webrtc-internals/ »
+    -   Chrome : « chrome://webrtc-internals/ »
+  
+2.  Ouvrez l Teams application web et reproduisez le problème.
+  
+3.  Revenir à l’onglet accessible à l’étape 1 et vous verrez au moins deux onglets :
+    -   Demandes GetUserMedia
+    -   https://teams.microsoft.com/url
+
+4.  Sélectionnez l’onglet avec le nom de l’Teams et enregistrez le contenu de la page.
 
 ## <a name="related-topics"></a>Voir aussi
 

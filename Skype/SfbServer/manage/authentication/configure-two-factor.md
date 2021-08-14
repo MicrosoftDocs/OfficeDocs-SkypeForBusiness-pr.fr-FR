@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Résumé : Configurez l’authentification à deux facteurs dans Skype Entreprise Server.'
-ms.openlocfilehash: 304b8e288954e14b251bf17f628e3206b79aedb3888f957456fca9fafb59e0fc
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 128ae4fcc1a9e7cd9817e73539b1bf1290883a1d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590728"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234639"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurer l’authentification à deux facteurs dans Skype Entreprise Server
 
 **Résumé :** Configurez l’authentification à deux facteurs dans Skype Entreprise Server.
 
-Les sections suivantes décrivent les étapes nécessaires pour configurer l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, voir Activation Office 365 [authentification multifacteur](https://go.microsoft.com/fwlink/p/?LinkId=313332)pour les administrateurs en ligne - Grid User Post .
+Les sections suivantes décrivent les étapes nécessaires pour configurer l’authentification à deux facteurs pour votre déploiement. Pour plus d’informations sur l’authentification à deux facteurs, voir [Activation Office 365'authentification multifacteur](https://go.microsoft.com/fwlink/p/?LinkId=313332)pour les administrateurs en ligne - Grid User Post .
 
 ## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Configurer une autorité de Enterprise racine pour prendre en charge l’authentification par carte à puce
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur l’installation d’Enterprise’autorité de ce
 
 1. Connectez-vous à l’ordinateur Enterprise’accès au client à l’aide d’un compte d’administrateur de domaine.
 
-2. Lancez system Manager et vérifiez que le rôle d’inscription web de l’autorité de certification est installé.
+2. Lancez system manager et vérifiez que le rôle d’inscription web de l’autorité de certification est installé.
 
 3. Dans le menu **Outils d’administration,** ouvrez la console de gestion **de l’autorité** de certification.
 
@@ -87,7 +87,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme de confiance
 6. À partir de la console de gestion du TPM, vérifiez que la version de spécification du TPM est au moins 1.2
 
     > [!NOTE]
-    > Si vous recevez une boîte de dialogue indiquant qu’un module de plateforme de confiance (TPM) compatible est incohable, vérifiez que l’ordinateur dispose d’un module TPM compatible et qu’il est activé dans le BIOS système.
+    > Si vous recevez une boîte de dialogue indiquant qu’un module de plateforme de confiance compatible (TPM) est incohable, vérifiez que l’ordinateur dispose d’un module TPM compatible et qu’il est activé dans le BIOS système.
 
 7. Fermer la console de gestion du TPM
 
@@ -110,7 +110,7 @@ Pour les ordinateurs équipés d’une puce de module de plateforme de confiance
 
 11. Développez **les lecteurs de carte à puce.**
 
-12. Vérifiez que le nouveau lecteur de carte à puce virtuel a bien été créé.
+12. Vérifiez que le nouveau lecteur de carte à puce virtuel a été créé avec succès.
 
 ## <a name="enroll-users-for-smart-card-authentication"></a>Inscrire des utilisateurs pour l’authentification par carte à puce
 
@@ -172,7 +172,7 @@ Pour plus d’informations sur l’inscription au nom des utilisateurs en tant q
 
     > [!NOTE]
     >  Si votre demande de certificat échoue avec l’erreur « Ce navigateur Web ne prend pas en charge la génération des demandes de certificat », il existe trois façons de résoudre le problème :
-    >- Activer l’affichage de compatibilité dans Internet Explorer.
+    >- Activez l’affichage de compatibilité dans Internet Explorer.
     >- Activez l’option Activer les paramètres intranet dans Internet Explorer.
     >- Sélectionnez le paramètre Réinitialiser toutes les zones au niveau par défaut sous l’onglet Sécurité dans le menu Options d’Internet Explorer.
 

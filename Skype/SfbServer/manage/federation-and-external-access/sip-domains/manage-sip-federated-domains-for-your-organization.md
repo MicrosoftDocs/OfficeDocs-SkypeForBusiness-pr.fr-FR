@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Découvrez comment gérer et configurer des domaines SIP avec qui vous pouvez vous fédérer,
-ms.openlocfilehash: 7b04225542387d52a36533c9639b02f773731e9f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61313082b9581a0024895dd79e3c533c5cf778cd836d82d12c654549d78d7b63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817214"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336704"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Gérer les domaines fédérés SIP pour votre organisation dans Skype Entreprise Server
 
@@ -41,7 +41,7 @@ Si vous avez configuré la prise en charge des partenaires fédérés, vous pouv
 ### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>Pour ajouter un domaine externe à la liste des domaines autorisés
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**, puis cliquez sur **Domaines fédérés**.
 4.  Dans la page **Domaines fédérés**, cliquez sur **Nouveau**, puis sur **Domaine autorisé**.
 5.  Dans **Nouveaux domaines fédérés**, procédez comme suit :
@@ -49,7 +49,7 @@ Si vous avez configuré la prise en charge des partenaires fédérés, vous pouv
       - Dans **Nom de domaine complet (ou FQDN)**, tapez le nom de domaine du partenaire fédéré.       
 
         > [!NOTE]  
-        > Ce nom doit être unique et ne doit pas déjà exister en tant que domaine autorisé pour ce serveur exécutant le service Edge d’accès. Il peut contenir jusqu’à 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Skype Entreprise Server empêche cette situation de se produire afin que vous n’avez pas besoin de synchroniser vos listes.
+        > Ce nom doit être unique et ne doit pas déjà exister en tant que domaine autorisé pour ce serveur exécutant le service Edge d’accès. Il peut contenir jusqu’à 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Skype Entreprise Server empêche cela de se produire afin que vous n’avez pas à synchroniser vos listes.
     
       - Si vous souhaitez restreindre l’accès pour ce domaine fédéré aux utilisateurs d’un serveur spécifique qui exécute le service Edge d’accès, dans **Service Edge d’accès (FQDN)**, tapez le nom de domaine complet du serveur de domaine fédéré exécutant le service Edge d’accès.    
       - Si vous souhaitez fournir des informations supplémentaires, dans **Commentaire**, tapez les informations sur cette configuration que vous voulez partager avec les autres administrateurs système.
@@ -71,7 +71,7 @@ Empêchez un ou plusieurs domaines externes de se connecter à votre organisatio
 ### <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>Pour ajouter un domaine externe à la liste des domaines bloqués
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
-2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server. 
+2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 3.  Dans la barre de navigation de gauche, cliquez sur **Accès des utilisateurs externes**.
 4.  Cliquez sur **Domaines fédérés**, sur **Nouveau**, puis sur **Domaine bloqué**.
 5.  Dans **Nouveaux domaines fédérés**, procédez comme suit :
@@ -79,7 +79,7 @@ Empêchez un ou plusieurs domaines externes de se connecter à votre organisatio
       - Dans **Nom de domaine complet (ou FQDN)**, tapez le nom de domaine du partenaire fédéré que vous souhaitez bloquer.
 
         > [!NOTE]  
-        > Il peut contenir jusqu’à 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Skype Entreprise Server empêche cette situation de se produire afin que vous n’avez pas besoin de synchroniser vos listes.
+        > Il peut contenir jusqu’à 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Skype Entreprise Server empêche cela de se produire afin que vous n’avez pas à synchroniser vos listes.
    
       - (Facultatif) Dans **Commentaire**, tapez les informations sur cette configuration que vous voulez partager avec les autres administrateurs système.
 

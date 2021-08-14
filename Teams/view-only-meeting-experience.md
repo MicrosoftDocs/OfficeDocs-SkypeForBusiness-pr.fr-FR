@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76348dcbc71c706915db3d8ad9a21e65ad6abdd7d661a8bace6c6e6d349ae116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292881"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234429"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Expérience de réunion en lecture seule de Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "54292881"
 > Les diffusions en lecture seule sont disponibles dans Microsoft 365 E3/E5 et Microsoft 365 A3/A5. Cette fonctionnalité sera activée le 1er mars 2021 avec le mode par défaut désactivé. Le déploiement de la fonctionnalité du cloud de la communauté du secteur public Microsoft 365 (GCC) commencera à la fin du mois de mars 2021. Le déploiement du cloud de la communauté du secteur public de haut niveau (GCCH) et du Département de la Défense (DoD) s’effectuera à une date ultérieure. Vous devez modifier la stratégie par défaut après cette date si vous voulez que la fonctionnalité fonctionne par défaut. Utiliser PowerShell pour activer la valeur `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` de la stratégie.
 
 > [!Note]
-> Si votre réunion atteint sa capacité, Teams’échelle sans problème pour tenir compte d’une expérience de diffusion en affichage seul de 10 000 personnes. De plus, pendant cette période de travail à distance accru, tirez parti de diffusions encore plus importantes de 20 000 personnes jusqu’à la fin de cette année.
+> Si votre réunion atteint sa capacité, Teams’échelle sans problème pour tenir compte d’une expérience de diffusion en affichage seul de 10 000 personnes. De plus, pendant cette période de travail à distance accru, tirez parti de diffusions encore plus importantes de 20 000 personnes jusqu’à la fin de cette année. Les webinaires ne supportent pas actuellement une expérience de diffusion en affichage seul.
 
 Microsoft Teams permet à 10 000 participants au plus de prendre part à une réunion Teams. Une fois la capacité de la réunion principale atteinte (lorsque 1 000 utilisateurs participent à une réunion), les participants supplémentaires la rejoignent avec une expérience en affichage seul.
 
@@ -40,7 +40,7 @@ Les participants qui rejoignent la réunion après la limite de la capacité de 
 Les participants pourront rejoindre l’expérience d’affichage seul via le Bureau, le web et Teams mobile (Android et iOS).
 
 > [!Note]
-> La capacité limite actuelle de la « réunion principale », c’est-à-dire le nombre d’utilisateurs entièrement interactifs, est de 1 000 et inclut Cloud de la communauté du secteur public.
+> La capacité limite actuelle de la « réunion principale », c’est-à-dire le nombre d’utilisateurs entièrement interactifs, est de 1 000 et inclut des Cloud de la communauté du secteur public et des webinaires.
 
 ## <a name="teams-view-only-experience-controls"></a>Teams contrôles d’expérience en affichage seul
 
