@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: 02d9b7c21f8c79c5314ac600eec09cfffe29e3157c692eed8bedccd3c4636de4
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: e70002590f3b1335e2c1ea0d8208c9685c803f17
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "58190993"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243629"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams : gérer les packages de stratégie
 
@@ -142,7 +142,7 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **Packages**
 
 Vous pouvez attribuer un package de stratégie à un utilisateur, un groupe ou un lot d’utilisateurs. Pour plus d’informations sur l’attribution de packages de stratégie, voir [Attribuer des packages de stratégie à des utilisateurs et groupes.](assign-policy-packages.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des packages de stratégie](assign-policy-packages.md)
 - [Teams packages de stratégie pour les administrateurs edu](policy-packages-edu.md)

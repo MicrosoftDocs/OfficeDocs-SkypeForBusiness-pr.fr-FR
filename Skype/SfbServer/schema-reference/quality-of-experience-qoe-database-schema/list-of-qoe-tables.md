@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Le schéma de base de données comprend les tables suivantes.
-ms.openlocfilehash: 291d2ddefefc264aa283480362a6f57cda9161cd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 02471ddc936c5dc0522e5ea3c9ad3c5f2859c6cd612b2618ace5d1dbe6be1078
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351284"
 ---
 # <a name="list-of-qoe-tables"></a>Liste des tables de qualité de l’expérience (QoE)
  
@@ -34,7 +34,7 @@ Le schéma de base de données comprend les tables suivantes.
 |[Table NetworkConnectionDetail](networkconnectiondetail.md) <br/> |Mappe des types de connexion réseau aux identificateurs de connexion réseau utilisés ailleurs dans la base de données de qualité de l’expérience (QoE).  <br/> |
 |[Table PurgeSettings (QoE)](purgesettings-qoe.md) <br/> |Stocke des informations qui indiquent si (et quand) les enregistrements de qualité de l’expérience obsolètes seront automatiquement supprimés de la base de données QoE.  <br/> |
 |[Table TraceRoute](traceroute.md) <br/> |Stocke des informations de routage pour les appels.  <br/> |
-|[Table UserAgentDef (QoE)](useragentdef-qoe.md) <br/> |Mase les identificateurs d’agent utilisateur aux noms descriptifs de l’agent.  <br/> |
+|[Table UserAgentDef (QoE)](useragentdef-qoe.md) <br/> |Cartes identificateurs d’agent utilisateur aux noms descriptifs de l’agent.  <br/> |
 |[Table VideoMetricsThreshold](videometricsthreshold.md) <br/> |Stocke les valeurs optimales et acceptables pour les mesures de qualité de l’expérience utilisées avec les appels vidéo.  <br/> |
 |[Table UserAgent](useragent.md) <br/> |Stocke les chaînes et les types d’agent utilisateur du protocole SIP (Session Initiation Protocol) utilisés dans des sessions audio et vidéo.  <br/> |
 |[Table User](user-0.md) <br/> |Stocke les URI de l’utilisateur, de conférence et de téléphone utilisés dans des sessions audio et vidéo.  <br/> |
@@ -47,7 +47,7 @@ Le schéma de base de données comprend les tables suivantes.
 |[Table PayloadDescription](payloaddescription.md) <br/> |Stocke le Codec utilisé dans les appels audio/vidéo.  <br/> |
 |[Table AppliedBandwidthSource](appliedbandwidthsource.md) <br/> |Stocke la source de la bande passante utilisée dans les appels audio/vidéo.  <br/> |
 |[Table MacAddress](macaddress.md) <br/> |Stocke l’adresse MAC des systèmes d’extrémité participant à des sessions audio et vidéo.  <br/> |
-|[Table dialog](dialog.md) <br/> |Stocke l’ID de dialogue des sessions audio et vidéo.  <br/> |
+|[Table de dialogue](dialog.md) <br/> |Stocke l’ID de dialogue des sessions audio et vidéo.  <br/> |
 |[Table Region](region.md) <br/> |Stocke la région du réseau définie dans le paramètre NCS.  <br/> |
 |[Table UserSite](usersite.md) <br/> |Stocke le site réseau défini dans le paramètre NCS.  <br/> |
 |[Table Subnet](subnet.md) <br/> |Stocke le sous-réseau défini dans le paramètre NCS.  <br/> |
@@ -64,7 +64,7 @@ Le schéma de base de données comprend les tables suivantes.
 |[Table Session](session.md) <br/> |Stocke les informations globales sur une session audio ou audio/vidéo. Une session est définie en tant que dialogue SIP audio ou vidéo entre deux points d’extrémité.  <br/> |
 |[Table MediaLine](medialine-0.md) <br/> |Stocke les informations sur chaque ligne de média dans une session. Une ligne de média est une collection d’un ou plusieurs flux audio et vidéo. Généralement, une ligne de média unique aura deux flux, soit audio ou vidéo.  <br/> |
 |[Table AudioStream](audiostream.md) <br/> |Stocke les mesures de qualité du média audio pour chaque flux audio dans la ligne de média.  <br/> |
-|[Table AudioSignal](audiosignal.md) <br/> |Stocke les mesures de qualité des médias audio dans la ligne multimédia. Cela inclut l’annulation de l’écho sonore (AEC) et les mesures de contrôle de gain automatique (AGC).  <br/> |
+|[Table AudioSignal](audiosignal.md) <br/> |Stocke les mesures de qualité du média audio dans la ligne de média, notamment les mesures de suppression d’écho et de réglage de puissance automatique.  <br/> |
 |[Table VideoStream](videostream.md) <br/> |Stocke les mesures de qualité du média vidéo pour chaque flux audio dans la ligne de média.  <br/> |
 |[Table AudioClientEvent](audioclientevent.md) <br/> |Stocke les mesures de qualité du média audio collectées à partir de l’événement client.  <br/> |
 |[Table VideoClientEvent](videoclientevent.md) <br/> |Stocke les mesures de qualité du média vidéo collectées à partir de l’événement client.  <br/> |

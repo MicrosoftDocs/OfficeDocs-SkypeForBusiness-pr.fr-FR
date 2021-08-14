@@ -1,5 +1,5 @@
 ---
-title: Disponibilité dans Quada
+title: Disponibilité dans Quaïada
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pour Quada.
-ms.openlocfilehash: 5f9fc0d27d401359e659d5ad7a2afc2b297d1db6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cdbb8b482f129ce57f71a6b205f41ab95b44c26be19a9a9de02b20c5cf3ac8f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349177"
 ---
-# <a name="availability-in-grenada"></a>Disponibilité dans Quada
+# <a name="availability-in-grenada"></a>Disponibilité dans Quaïada
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
@@ -82,7 +82,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

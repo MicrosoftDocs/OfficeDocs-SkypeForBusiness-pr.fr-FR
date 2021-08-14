@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour les produits Skype Entreprise et Microsoft Teams bermudes.
-ms.openlocfilehash: ef23963d67e57c70f28216ba0d067c36f1710d4d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aff9dd19246c124e489468ad80f2a24c69ef38653ea6455dcdbac357e16b394b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351104"
 ---
 # <a name="availability-in-bermuda"></a>Disponibilité aux Bermudes
 
@@ -82,7 +82,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

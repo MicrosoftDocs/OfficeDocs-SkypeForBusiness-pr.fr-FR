@@ -25,12 +25,12 @@ ms.custom:
 - Direct Routing
 - seo-marvel-mar2020
 description: En savoir plus sur les appels d’urgence, y compris les informations sur les adresses de secours, le routage des appels d’urgence et les appels d’urgence dynamiques.
-ms.openlocfilehash: e6904139d73b8fe671c8013af7cac5917fe88305d81af5fd33501d92b81e2d61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 608971b330196127eb95a406b7c5330dd364e363
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316580"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233799"
 ---
 # <a name="manage-emergency-calling"></a>Gérer les appels d’urgence
 
@@ -149,7 +149,7 @@ Vous pouvez affecter une stratégie de routage des appels d’urgence à un comp
 
 - Si une stratégie de routage d’appel d’urgence est associée au site, la stratégie de site est utilisée pour configurer les appels d’urgence.
 
-- Si aucune stratégie de routage des appels d’urgence n’est associée au site, ou si le client est connecté à un site non indéfini, la stratégie de routage des appels d’urgence associée au compte d’utilisateur est utilisée pour configurer les appels d’urgence. 
+- Si aucune stratégie de routage des appels d’urgence n’est associée au site, si le client est connecté sur un site non défini, ou si le numéro à composer ne correspond à aucun des numéros d’urgence définis dans la stratégie de routage des appels d’urgence associée au site, la stratégie de routage des appels d’urgence associée au compte d’utilisateur est utilisée pour configurer les appels d’urgence. 
 
 - Si le Teams n’est pas en mesure d’obtenir une stratégie de routage des appels d’urgence, l’utilisateur n’est pas activé pour les appels d’urgence.
 
@@ -212,7 +212,7 @@ Une stratégie d’appel d’urgence peut être octroyée à un Teams utilisateu
 Pendant un appel d’urgence, un service de sécurité est téléphoniquement appelé et l’expérience de l’utilisateur du service de sécurité est contrôlée en fonction de Teams d’appel d’urgence. Une conversation de groupe commence avec chaque membre du service de sécurité, et l’emplacement de l’appelant d’urgence est partagé via une notification de message importante.  Si une option de conférence est configurée dans le cadre de la stratégie, chaque utilisateur du service de sécurité est appelé en outre dans le cadre de la conférence.
 
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)
 - [Gérer les stratégies de routage d’appel d’urgence ](manage-emergency-call-routing-policies.md)

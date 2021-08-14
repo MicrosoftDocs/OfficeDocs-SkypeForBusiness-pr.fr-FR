@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
-description: La cmdlet Export-CcRootCertificate exporte le certificat d’ac racine vers un fichier local sur le serveur hôte de la version Cloud Connector de Skype Entreprise.
-ms.openlocfilehash: 2b252eba4688deb790d85b0c3663b09a9e85e7b9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: La cmdlet Export-CcRootCertificate exporte le certificat d’ac racine vers un fichier local sur Skype Entreprise Cloud Connector Edition serveur hôte.
+ms.openlocfilehash: 04ba7af5801f124a76e515b311a0507e3cbb764a6f2769d9f1d9080ec8c7d9d9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326250"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
-La cmdlet Export-CcRootCertificate exporte le certificat d’ac racine vers un fichier local sur le serveur hôte de la version Cloud Connector de Skype Entreprise. 
+La cmdlet Export-CcRootCertificate exporte le certificat d’ac racine vers un fichier local sur Skype Entreprise Cloud Connector Edition serveur hôte. 
   
 ```powershell
 Export-CcRootCertificate [[-Path] <string>]
@@ -33,7 +33,7 @@ Export-CcRootCertificate [[-Path] <string>]
 
 ### <a name="example-1"></a>Exemple 1
 
-L’exemple suivant définit le paramètre Path en tant que chemin d’accès au répertoire, et non en tant que chemin d’accès de fichier. Il génère le fichier c:\test\CCERootCertificates.p7b.
+L’exemple suivant définit le paramètre Path comme chemin d’accès du répertoire, et non comme chemin d’accès de fichier. Il génère le fichier c:\test\CCERootCertificates.p7b.
   
 ```powershell
 Export-CcRootCertificate -Path "C:\test" 
@@ -59,11 +59,11 @@ Aucun. La cmdlet Export-CcRootCertificate n’accepte pas la saisie de données 
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>
 
-Aucun
+Néant
   
 

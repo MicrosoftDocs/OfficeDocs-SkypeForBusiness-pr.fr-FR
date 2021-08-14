@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Une application fiable est une application basée sur microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK qui est approuvé par Skype Entreprise Server.
-ms.openlocfilehash: 2025e8cf51852caeaebd96273c918764c58ce146d87bd4673854514c78b0794f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: Une application fiable est une application basée sur microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK qui est approuvé par les Skype Entreprise Server.
+ms.openlocfilehash: b174c0b45c3a90a1f0af53f31d7c507ffaca85cd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848469"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233989"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Gérer les applications de confiance dans Skype Entreprise Server
 
@@ -24,7 +24,7 @@ Une *application fiable* est une application basée sur microsoft Unified Commun
 
 Pour publier, activer ou désactiver correctement une topologie lors de l’ajout ou de la suppression d’un rôle de serveur, vous devez être connecté en tant qu’utilisateur membre des groupes RTCUniversalServerAdmins et Administrateurs du domaine. 
 
-Utilisez cet article pour découvrir comment configurer un nouveau serveur d’applications approuvé, afficher une liste d’applications fiables et afficher des informations sur les applications de confiance. 
+Utilisez cet article pour apprendre à configurer un nouveau serveur d’applications approuvé, afficher une liste d’applications fiables et afficher des informations sur les applications de confiance. 
 
 ## <a name="configure-a-new-trusted-application-server"></a>Configurer un nouveau serveur d’applications fiables
 
@@ -36,7 +36,7 @@ Utilisez cet article pour découvrir comment configurer un nouveau serveur d’a
 
 4.  Dans la boîte de dialogue Enregistrer la topologie **sous,** cliquez sur le fichier du Générateur de topologie que vous souhaitez utiliser, puis cliquez sur **Enregistrer.**
 
-5.  Dans le volet gauche, cliquez avec le bouton droit sur **Serveurs d’applications** de confiance, puis cliquez sur **Nouveau pool d’applications fiables.**
+5.  Dans le volet gauche, cliquez avec le bouton droit sur **Serveurs d’applications** de confiance, puis cliquez sur Nouveau **pool d’applications fiables.**
 
 6.  Entrez le **Nom de domaine complet (FQDN) du pool** de l’application approuvée, sélectionnez s’il s’agira d’un serveur unique ou d’un serveur multiple, puis cliquez sur **Suivant**.
 
@@ -51,11 +51,11 @@ Utilisez cet article pour découvrir comment configurer un nouveau serveur d’a
 
 ## <a name="view-a-list-of-trusted-applications"></a>Afficher une liste d’applications fiables
 
-Vous pouvez utiliser le Panneau de Skype Entreprise Server pour afficher la liste des applications de confiance que vous avez déployées dans votre environnement Skype Entreprise Server web. Une application fiable est une application basée sur microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK qui est approuvé par Skype Entreprise Server. Cette relation d’confiance est résumée dans la liste suivante :
+Vous pouvez utiliser le Panneau de Skype Entreprise Server pour afficher la liste des applications de confiance que vous avez déployées dans votre environnement Skype Entreprise Server web. Une application fiable est une application basée sur microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK qui est approuvé par les Skype Entreprise Server. Cette relation d’confiance est résumée dans la liste suivante :
 
   - L’authentification des applications fiables n’est pas Skype Entreprise Server.
 
-  - Les applications fiables ne sont pas limitées Skype Entreprise Server pour les transactions SIP, les connexions ou les appels VoIP (Voice over Internet Protocol) sortants.
+  - Les applications fiables ne sont pas limitées par Skype Entreprise Server pour les transactions SIP, les connexions ou les appels VoIP (Voice over Internet Protocol) sortants.
 
   - Les applications fiables peuvent usurper l’identité de n’importe quel utilisateur et participer à des conférences sans apparaître dans les listes.
 
@@ -66,7 +66,7 @@ Dans le Skype Entreprise Server de contrôle, vous pouvez voir le nom des applic
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>Pour afficher une liste d’applications fiables
 
-1.  Avec un compte d’utilisateur affecté au rôle CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfincis disponibles dans Skype Entreprise Server, voir Contrôle d’accès basé sur un rôle [(RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md)
+1.  Avec un compte d’utilisateur affecté au rôle CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne. Pour plus d’informations sur les rôles d’administration prédéfin Skype Entreprise Server, voir Contrôle d’accès basé sur un rôle [(RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md)
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.
 
@@ -77,12 +77,12 @@ Dans le Skype Entreprise Server de contrôle, vous pouvez voir le nom des applic
 
 ## <a name="view-trusted-application-information"></a>Afficher les informations sur les applications fiables
 
-Vous pouvez afficher des informations sur vos applications de confiance à l’aide Windows PowerShell et de l’cmdlet **Get-CsTrustedApplication.** Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher des informations sur vos applications Windows PowerShell et l’cmdlet **Get-CsTrustedApplication.** Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 
 ### <a name="to-view-trusted-applications"></a>Pour afficher les applications approuvées
 
-Pour afficher toutes vos applications de confiance, tapez la commande suivante dans Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
+Pour afficher toutes vos applications de confiance, tapez la commande suivante dans l’Skype Entreprise Server Management Shell, puis appuyez sur Entrée :
     
    **Get-CsConferenceDisclaimer**
     

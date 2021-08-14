@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Résumé : Gérez les paramètres de configuration du service Web dans Skype Entreprise Server.'
-ms.openlocfilehash: 6d79e0567790f10dd86c68f64d7bde54d3540b44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a4fb1474655e695f030180a7345375ef1a1e53e3aaadad18167ed7d41d3a9864
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328159"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration du service Web dans Skype Entreprise Server
  
 **Résumé :** Gérer les paramètres de configuration du service Web dans Skype Entreprise Server.
   
-Vous pouvez utiliser la page **Service Web** pour configurer les méthodes d’authentification pour accéder aux serveurs web et aux services Web liés à Skype Entreprise Server.
+Vous pouvez utiliser la page **Service Web** pour configurer les méthodes d’authentification pour accéder Skype Entreprise Server serveurs web et services Web associés.
   
 Procédez comme suit pour créer une stratégie de service Web.
   
@@ -32,7 +32,7 @@ Procédez comme suit pour créer une stratégie de service Web.
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service Web**.
     
@@ -56,7 +56,7 @@ Procédez comme suit pour créer une stratégie de service Web.
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Modifier les paramètres de configuration de service Web existants
 
-Vous pouvez utiliser la page **Service Web** pour configurer les méthodes d’authentification pour accéder aux serveurs web et aux services Web liés à Skype Entreprise Server.
+Vous pouvez utiliser la page **Service Web** pour configurer les méthodes d’authentification pour accéder Skype Entreprise Server serveurs web et services Web associés.
   
 Procédez comme suit pour modifier une stratégie de service web existante.
   
@@ -64,7 +64,7 @@ Procédez comme suit pour modifier une stratégie de service web existante.
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service web**.
     
@@ -90,7 +90,7 @@ Suivez ces étapes pour supprimer les paramètres de configuration du service we
 
 1.  À partir d’un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou qui dispose de droits d’utilisateur équivalents) ou affecté au rôle CsServerAdministrator ou CsAdministrator, connectez-vous à tout ordinateur qui se trouve sur le réseau sur lequel vous avez déployé Skype Entreprise Server.
     
-2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle Skype Entreprise Server.  
+2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord.  
     
 3. Dans la barre de navigation de gauche, cliquez sur **Sécurité**, puis sur **Service web**.
     
@@ -100,9 +100,9 @@ Suivez ces étapes pour supprimer les paramètres de configuration du service we
     
 6. Cliquez sur **OK**.
     
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration du service Web à l’aide Windows PowerShell cmdlets
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression de la configuration du service Web Paramètres l’aide Windows PowerShell cmdlets
 
-Vous pouvez supprimer des paramètres de configuration de service web à l’Windows PowerShell et à l’aide de l';cmdlet **Remove-CsWebServiceConfiguration.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour se connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion [de Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez supprimer des paramètres de configuration de service web à l’Windows PowerShell et à l’aide de l';cmdlet **Remove-CsWebServiceConfiguration.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Pour supprimer une collection de paramètres de configuration des services web
 

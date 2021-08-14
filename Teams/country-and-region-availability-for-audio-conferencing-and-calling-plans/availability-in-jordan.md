@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la Jordanie.
-ms.openlocfilehash: af10bdb310f577632e1e7c686020065f817d3972
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5bc1b62990011e7e24cc539ecca24e2f44c7bfd1614d627aa1f66f89bf900c2d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351094"
 ---
 # <a name="availability-in-jordan"></a>Disponibilité en Jordanie
 
@@ -83,7 +83,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

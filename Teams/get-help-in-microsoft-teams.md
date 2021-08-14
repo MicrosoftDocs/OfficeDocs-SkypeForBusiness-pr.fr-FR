@@ -17,12 +17,12 @@ description: Découvrez les rubriques d’aide, les vidéos, les notes de public
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50026fba70ae817eb8325d52c3bcf1bd0153e2c803ee7d7c76935570c6e45420
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 78391b9afa0ea4edcc6f901f26d4f587eeb94249
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848369"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233579"
 ---
 # <a name="get-help-in-microsoft-teams"></a>Obtenir de l’aide dans Microsoft Teams
 

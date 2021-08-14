@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le Centre Microsoft Teams d’administration Windows PowerShell pour créer et gérer des plans de numérotation (plans de numérotation PSTN).
-ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: bb5574893ec940129a0669608d2bb89d474fb0b6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849199"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233299"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 - [Questions fréquentes à propos du transfert de numéros de téléphone](./phone-number-calling-plans/port-order-overview.md)

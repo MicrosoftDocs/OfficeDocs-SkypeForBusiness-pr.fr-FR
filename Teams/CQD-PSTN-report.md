@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Utilisez le rapport de routage direct du Microsoft Teams de qualité des appels (CQD) pour surveiller et résoudre les problèmes d’appel RST dans Microsoft Teams.
-ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094978"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351254"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Utilisation du rapport de routage direct PSTN du CQD
 
@@ -91,7 +91,7 @@ Cette page présente les tendances d’utilisation des services par jour et le d
 
 ![Capture d’écran : Rapport du QQD PSTN](media/CQD-PSTN-report2.png)
 
-Par exemple :
+Par exemple :
 
 1.  Si vous constatez que la durée moyenne de l’appel passe à 0 au 14/02/2020, vous pouvez tout d’abord vérifier si le volume d’appel semble normal et vérifier s’il existe une différence importante entre le nombre total d’appels de connexion et le nombre total d’appels tentés. Ensuite, sur la page Rapport d’efficacité du réseau, vous allez investir sur les raisons d’échec d’appel.
 
@@ -101,7 +101,7 @@ Par exemple :
 
 Il s’agit de la même valeur qui apparaît dans le tableau de bord État global. Vous pouvez vérifier toutes les heures le numéro de neR avec les détails des appels affectés pour les deux itinéraires d’appel (entrant/sortant) sur le rapport d’efficacité du réseau toutes les heures et le graphique de raison de fin d’appel ci-dessous.
 
-  - **NER** - Possibilité (%) d’un réseau pour envoyer des appels en mesurant le nombre d’appels envoyés et le nombre d’appels remis à un destinataire.
+  - **NER** - Possibilité (%) d’un réseau de remettre des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels remis à un destinataire.
 
   - **Code de réponse SIP**: code de réponse d’un nombre de trois chiffres indique le statut de l’appel.
 
@@ -113,7 +113,7 @@ Il s’agit de la même valeur qui apparaît dans le tableau de bord État globa
 
 > ![Capture d’écran : Rapport du QQD PSTN](media/CQD-PSTN-report3.png)
 > 
-Par exemple :
+Par exemple :
 
 ![Capture d’écran : Rapport du QQD PSTN](media/CQD-PSTN-report4.png)
 
@@ -135,7 +135,7 @@ Tous les paramètres réseau sont mesurés à partir de l’interface de routage
 
 > ![Capture d’écran : Rapport du QQD PSTN](media/CQD-PSTN-report6.png)
 
-Par exemple :
+Par exemple :
 
 Si vous voyez un pic sur l’un des quatre graphiques (Latence, Gigue, Taux de perte de package, Retard après la numérotation) pour une date spécifique (par exemple, Latence le 14/02/2020), cliquez sur le point de date. Le graphique de tendance horaire au bas de la page sera actualisé pour afficher le nombre toutes les heures. Vous pouvez vérifier les SBCs ou lever un ticket auprès de MS Service Desk.
 
@@ -143,7 +143,7 @@ Si vous voyez un pic sur l’un des quatre graphiques (Latence, Gigue, Taux de p
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Utiliser Power BI pour analyser les données du sous-Microsoft Teams](CQD-PSTN-report.md)
 

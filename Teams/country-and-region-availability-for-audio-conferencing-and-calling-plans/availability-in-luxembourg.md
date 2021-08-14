@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams au Luxembourg.
-ms.openlocfilehash: af4117d0861b853dc81c3d392ebc6c065ada223f
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 6822cdd3e03c843176e4a7413b9d5b6398ae49eab3915e5c3ee7ec87466eef33
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349187"
 ---
 # <a name="availability-in-luxembourg"></a>Disponibilité au Luxembourg
 
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

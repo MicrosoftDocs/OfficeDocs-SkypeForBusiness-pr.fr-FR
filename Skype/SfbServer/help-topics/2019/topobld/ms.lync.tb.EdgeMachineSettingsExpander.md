@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Pour modifier les propriétés d'un serveur dans un pool de serveurs Edge, procédez comme suit :"
-ms.openlocfilehash: a1737303f0c1c6a6f9c9912104b28200eecdc205
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 17412ba6e4ef2a90d2227566a8e9762a0baaeda81b8c6834e00b910bb40323f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328469"
 ---
 # <a name="edge-machine-settings-expander"></a>Expandeur des paramètres de l’ordinateur Edge
  

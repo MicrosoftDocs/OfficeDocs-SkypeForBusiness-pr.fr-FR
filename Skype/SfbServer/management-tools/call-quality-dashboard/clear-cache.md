@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
 description: 'Résumé : Découvrez l’opération Effacer le cache, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: c9b966bb1e35a5a6255cd75ea6c685daaf220a09
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b6767302256d8d448141b9aab5ddeda6c80935173c8381747ae9d91e425d833f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351404"
 ---
 # <a name="clear-cache"></a>Vider le cache
  
 **Résumé :** Découvrez l’opération Effacer le cache, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’opération Effacer le cache fait partie de l’API de données du Tableau de bord de qualité des appels.
+L’opération Effacer le cache fait partie de l’API de données du tableau de bord de qualité des appels.
   
 ## <a name="clear-cache"></a>Vider le cache
 

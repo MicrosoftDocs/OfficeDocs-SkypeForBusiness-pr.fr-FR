@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
 description: La table HardwareVersions est une table de prise en charge. Chaque enregistrement stocke des informations sur une version matérielle d’un appareil.
-ms.openlocfilehash: 2b9ac6b31f0af30e896d2943eaa4065aecdd4de3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e98028a6d5dc434683e9f9190a67f4263738d3dd89e01af00f92bc1a443aec24
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351294"
 ---
 # <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>Table HardwareVersions dans Skype Entreprise Server 2015
  

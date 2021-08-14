@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool de serveurs Edge. Par défaut, le pool edge prend en charge les utilisateurs distants de votre organisation qui se connectent depuis l’extérieur du pare-feu à l’aide d’un réseau privé virtuel (VPN). Vous disposez également des options suivantes de fonctionnalités des pools de serveurs Edge :'
-ms.openlocfilehash: 5efec8373c16266b05e17d20c6d26678c098e27d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 05064cebbaf99a024df15e76b5ac294edb1e9a98efaab63920ddc249bec394a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325111"
 ---
 # <a name="add-edge-server-options"></a>Ajouter des options de serveur Edge
 

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6e4a75c3405a2d1b2240d101327795fa3a2d1ad6626f4bd692d1fc4851277
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323816"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233629"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -471,6 +471,7 @@ if($cleanup){
 - Dans les environnements Citrix, si l’utilisateur se déconnecte de la machine virtuelle pendant que Teams est en cours d’exécution, les mises à jour Teams peuvent avoir pour effet que l’utilisateur soit dans un état non optimisé pour AV lorsqu’il se reconnecte. Nous recommandons aux utilisateurs de quitter Teams se déconnecter de Citrix Virtual Machine pour éviter ce scénario.
 - Teams doivent être déployés par utilisateur ou par ordinateur. Le déploiement de Teams pour les utilisateurs simultanés et par ordinateur n’est pas pris en charge. Pour passer d’un mode par ordinateur ou par utilisateur à l’un de ces modes, suivez la procédure de désinstallation et redéployer l’un ou l’autre.
 - Pour le moment, Azure Virtual Desktop ne prend pas en charge les clients macOS et Linux.
+- Le changement de client rapide peut entraîner des problèmes liés aux appels dans une environnement VDI. Le redémarrage du client permet d’atténuer ces problèmes.
 
 ### <a name="calling-and-meetings"></a>Appels et réunions
 
@@ -520,7 +521,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Redémarrez ensuite VDA. Pour en savoir plus, consultez cet article de support de Citrix, qui décrit l’optimisation [HDX pour Teams.](https://support.citrix.com/article/CTX253754)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installer et Microsoft Teams À l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

@@ -1,5 +1,5 @@
 ---
-title: Configurer une trunk sans déviation du média dans Skype Entreprise Server
+title: 'Skype Entreprise Server : configurer une trunk sans contournement de média'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'Suivez ces étapes pour configurer une trunk avec la déviation du média activée. '
-ms.openlocfilehash: c96e540cbb390f61279979d6a01cc29c69ab9fa5d879468c2361e03da8f472ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Comment configurer une trunk avec la déviation du média activée. '
+ms.openlocfilehash: 1f129abf44cf35f0c76e026861ba6b0fba1e551e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333486"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233939"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurer une trunk sans déviation du média dans Skype Entreprise Server
+# <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>Skype Entreprise Server : configurer une trunk sans contournement de média
 
 Pour configurer une jonction sur laquelle le contournement de média est désactivé, procédez comme suit. Si vous souhaitez configurer une trunk avec la déviation du média activée, voir [Configure a trunk with media bypass in Skype Entreprise Server](configure-a-trunk-with-media-bypass.md).
 
@@ -76,7 +76,7 @@ Une configuration de jonction, comme décrit plus bas, regroupe un ensemble de p
 
 11. **Activer l’accrochage RTP** doit être sélectionné pour activer la déviation du trafic multimédia pour les clients se trouvant derrière une NAT ou un pare-feu et un contrôleur SBC prenant en charge l’accrochage.
 12. **Activez l’historique des** appels de transmission pour permettre l’envoi d’informations d’historique des appels à l’homologue de passerelle du serveur de médiation.
-13. **Activez le forward P-Asserted-Identity** pour que les informations d’origine de l’appel PAI soient transmis entre le serveur de médiation et le côté passerelle (et vice versa), le cas contraire.
+13. **Activez le forward P-Asserted-Identity** pour que les informations d’origine de l’appel PAI soient transmis entre le serveur de médiation et le côté passerelle (et vice versa), le cas présent.
 14. **Activer le minuteur de basculement de routage de trafic sortant** doit être sélectionné pour permettre un basculement rapide. La passerelle associée à cette jonction peut informer dans les 10 secondes du traitement de l’appel sortant. Le réroutage vers une autre ligne se produit si cette notification n’est pas reçue par le serveur de médiation. Sur des réseaux avec une latence qui peut retarder le temps de réponse ou si la passerelle prend plus de 10 secondes à répondre, le basculement rapide doit être désactivé.
 15. (Facultatif) Associez et **configurez des règles de traduction de numéro d’appel** pour la trunk. Ces règles de traduction s’appliquent au numéro appelant pour les appels sortants.
     - Pour choisir une ou plusieurs règles dans une liste de toutes les règles de traduction disponibles dans votre déploiement Voix Entreprise, cliquez sur **Sélectionner.** Dans **Sélectionner les règles de traduction**, cliquez sur les règles à associer à la jonction, puis cliquez sur **OK**.

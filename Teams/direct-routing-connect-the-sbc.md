@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer et connecter votre SBC à Système téléphonique routage direct.
-ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46eabb56056526032d45669f0faf12fecf1762e10a1ee020dd9de9be17bff74e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327749"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Connecter votre contrôleur de bordure de session (SBC) vers le routage direct
 
@@ -165,7 +165,7 @@ Ce tableau répertorie les options que vous pouvez définir pour le SBC dans le 
 |Oui|**Port de signalisation SIP**|SipSignalingPort |Il s’agit du port d’écoute utilisé pour communiquer avec le routage direct à l’aide du protocole TLS (Transport Layer).|Aucun|N’importe quel port|De 0 à 65 535 |
 |Non|**Envoyer les options SIP**|SendSIPOptions |Définit si le SBC envoie les messages d’options SIP. Il est vivement recommandé d’activer ce paramètre. Lorsque ce paramètre est éteint, le SBC est exclu du système de surveillance et d’alerte.|Vrai|Vrai<br/>False|Boolean|
 |Non|**Historique des appels de avance**|ForwardCallHistory |Indique si les informations de l’historique des appels sont transmis via la ligne. Lorsque vous l’activer, le proxy Microsoft 365 ou Office 365 envoie un en-tête Historique et référent par référence. |False|Vrai<br/>False|Boolean|
-|Non|**En-tête Forward P-Ed-Identity (NT)**|ForwardPAI|Indique si l’en-têteS est transmis en même temps que l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si ce paramètre est sous, l’en-tête Privacy:ID est également envoyé.|False|Vrai<br/>False|Boolean|
+|Non|**En-tête Forward P-Ed-Identity (NT)**|ForwardPAI|Indique si l’en-tête AUT est transmis en même temps que l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant. Si ce paramètre est sous, l’en-tête Privacy:ID est également envoyé.|False|Vrai<br/>False|Boolean|
 |Non|**Capacité des appels simultanés**|MaxConcurrentSessions |Lorsque vous définissez une valeur, le système d’alerte vous avertit lorsque le nombre de sessions simultanées est supérieur ou de 90 % à cette valeur. Si vous ne définissez pas de valeur, les alertes ne sont pas générées. Toutefois, le système de surveillance signale le nombre de sessions simultanées toutes les 24 heures. |Null|Null<br/>De 1 à 100 000 ||
 |Non|**Codes de réponse deover**|FailoverResponseCodes<br>|Si le routage direct reçoit un code d’erreur 4xx ou 6xx SIP en réponse à une invitation sortante, l’appel est considéré comme terminé par défaut. Sortant signifie un appel d’un client Teams vers le réseau PSTN avec le flux de trafic : client Teams -> Routage direct -> SBC -> réseau téléphonique). Lorsque vous spécifiez un code de réponse deover, cela force le routage direct à essayer un autre code SBC (s’il existe un autre SBC dans la stratégie de routage vocale de l’utilisateur) lorsqu’il reçoit les codes spécifiés si le SBC ne peut pas effectuer d’appel en raison de problèmes de réseau ou autres. Pour plus d’informations, voir [Failover de codes SIP spécifiques](direct-routing-trunk-failover-on-outbound-call.md)reçus du contrôleur de bordure de session (SBC).|408, 503, 504||Int|
 |Non|**Heures deover (secondes)**|FailoverTimeSeconds |Lorsque vous définissez une valeur, les appels sortants qui ne répondent pas par la passerelle dans le temps que vous définissez sont acheminés vers la ligne disponible suivante. S’il n’y a pas de ligne supplémentaire, l’appel est automatiquement supprimé. La valeur par défaut est 10 secondes. Dans une organisation qui a des réseaux lents et des réponses aux passerelles, cela peut potentiellement entraîner la chute inutile d’appels.|10|Numéro|Int|

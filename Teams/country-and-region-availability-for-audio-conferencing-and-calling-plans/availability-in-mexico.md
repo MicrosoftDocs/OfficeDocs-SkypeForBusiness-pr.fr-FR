@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour le Mexique.
-ms.openlocfilehash: 4cc7ffa8bd950aff457d37023b6590230b91db94
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour le Mexique.
+ms.openlocfilehash: 84cab723f6204906d5a26c830bb954a00697f19148374484eba457560ee83bbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349127"
 ---
 # <a name="availability-in-mexico"></a>Disponibilité au Mexique
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour le Mexique.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour le Mexique.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -83,7 +83,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Les sites réseau sont les bureaux ou emplacements au sein de chaque région réseau des déploiements du service Contrôle d’admission des appels, du service E9-1-1 ou du contournement de médias.
-ms.openlocfilehash: 39b9f4f82686a1ab4947e6d9b2175570615c84b65b8c7c0aa4cbbba45957e35d
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: fd353980e7ac2a367b05c0f0be6ce760b7102fcc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590998"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233669"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gestion du contrôle d’admission des appels pour les sites dans Skype Entreprise Server
 
@@ -145,7 +145,7 @@ Les sites réseau sont les bureaux ou emplacements configurés au sein de chaque
 10. Cliquez sur **Valider**.
 
     > [!NOTE]  
-    > Lors de la création d’un site réseau, vous n’utilisez pas la table **Sous-réseaux associés**. Vous associez un sous-réseau à un site lorsque vous créez ou modifiez le sous-réseau. Pour plus d’informations, voir [Gestion des sous-réseaux réseau.](managing-network-subnets.md)
+    > Lors de la création d’un site réseau, vous n’utilisez pas la table **Sous-réseaux associés**. Vous associez un sous-réseau à un site lorsque vous créez ou modifiez le sous-réseau. Pour plus d’informations, voir [Gestion des sous-réseaux.](managing-network-subnets.md)
 
 ### <a name="to-modify-a-network-site"></a>Pour modifier un site réseau
 

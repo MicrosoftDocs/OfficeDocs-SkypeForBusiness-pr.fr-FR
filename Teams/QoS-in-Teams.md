@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f3577d34df6d2b0665a45b60b441d29cd0265b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b5bdfb924376170540985c586ac21c17f09ad978303ea9790d63563ec686b727
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092612"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326190"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implémenter la qualité de service (QoS) dans Microsoft Teams
 
@@ -207,7 +207,7 @@ Consultez ces rubriques pour plus d’informations sur l’implémentation de Qo
 
 - [QoS pour iOS, Android et Mac](./meeting-settings-in-teams.md?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Vidéo : Planification réseau](https://aka.ms/teams-networking)
 

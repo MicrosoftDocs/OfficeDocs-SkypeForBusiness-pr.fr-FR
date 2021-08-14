@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Australie Microsoft Teams.
-ms.openlocfilehash: d0cfc6b96b659c132736e5edfedd6f00c6209a2b3034cc3e79ffc293a2fa357e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9f74c8f3cb427c0b9870d0892a12ce4770dbb56
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310642"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233839"
 ---
 # <a name="phone-number-management-for-australia"></a>Gestion des numéros de téléphone pour l’Australie
 
@@ -39,13 +39,13 @@ Pour plus d’informations, [voir Gérer les numéros de téléphone pour votre 
 |**Que voulez-vous faire ?**|**Suivez la procédure suivante et téléchargez les formulaires corrects**|
 |:-----|:-----|
 |Obtenir les nouveaux numéros de téléphone pour des forfaits d'appels en Australie.   <br/> |Contactez [telstra Calling pour](https://aka.ms/TelstraVoicePlan) obtenir de nouveaux numéros de téléphone pour vos utilisateurs. Ils ajouteront ensuite ces numéros à votre organisation afin que vous pouvez les affecter à vos utilisateurs. <br/>
-|Si vous utilisez telstra Calling, vous pouvez obtenir de nouveaux numéros de téléphone de service qui peuvent être utilisés avec les fournisseurs de services automatiques cloud et les files d’attente d’appels pour l’Australie à partir de Telstra. <br/> |Contactez [telstra calling pour](https://aka.ms/TelstraVoicePlan) obtenir de nouveaux numéros de téléphone. Ils ajouteront ensuite ces numéros à votre organisation afin que vous pouvez les affecter à vos files d’attente et aux files d’attente automatiques. Si vous **n’utilisez pas** la fonction d’appel Telstra, vous pouvez contacter notre service de gestion des numéros Microsoft pour obtenir des numéros de service auprès de Microsoft. [Contactez le service PSTN Service Desk](contact-pstn-service-desk.md) et nous vous aiderons dès que possible. <br/>|
+|Si vous utilisez telstra Calling, vous pouvez obtenir de nouveaux numéros de téléphone de service qui peuvent être utilisés avec les fournisseurs de services automatiques cloud et les files d’attente d’appels pour l’Australie à partir de Telstra. <br/> |Contactez [telstra calling pour](https://aka.ms/TelstraVoicePlan) obtenir de nouveaux numéros de téléphone. Ils ajouteront ensuite ces numéros à votre organisation afin que vous pouvez les affecter à vos files d’attente et aux files d’attente automatiques. Si vous **n’utilisez pas** la fonction d’appel Telstra, vous pouvez contacter notre service de gestion des numéros Microsoft pour obtenir des numéros de service auprès de Microsoft. [Contactez le service PSTN Service Desk](contact-pstn-service-desk.md) pour obtenir des instructions. Nous vous aiderons dès que possible. <br/>|
 |Obtenir les nouveaux numéros de téléphone de service pour une audioconférence en Australie.   <br/> |[Contactez le service PSTN Service Desk.](contact-pstn-service-desk.md)|
 |Obtenez les numéros de téléphone transférés vers les Microsoft 365 ou Office 365 utilisateurs, les attendants automatiques et les files d’attente d’appels.  <br/> | Contactez [telstra Calling pour](https://aka.ms/TelstraVoicePlan) transférer des numéros de téléphone. Ils ajouteront ensuite ces numéros à votre organisation.  <br/> |
-|Obtenez les numéros de téléphone transférés vers Microsoft 365 ou Office 365 pour une utilisation avec l’audioconférence.  |[Contacter le service PSTN Service Desk](contact-pstn-service-desk.md) |
+|Obtenez les numéros de téléphone transférés vers Microsoft 365 ou Office 365 pour une utilisation avec l’audioconférence.  |[Contactez le service PSTN Service Desk pour obtenir des instructions](contact-pstn-service-desk.md) |
 |Modification d’adressage d'urgence attribué à des utilisateurs qui ont un numéro de téléphone avec forfait d'appel. |Contactez [telstra Calling pour](https://aka.ms/TelstraVoicePlan) apporter des modifications d’adresse de secours. Ils peuvent mettre à jour ces informations pour vous.|
 |Modifiez un numéro d’utilisateur en numéro de service. |Prise en charge lors de l’utilisation d’appels Telstra.|
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier la file d’attente des appels ou les numéros de standard automatique, contactez l’[assistance du service PSTN](contact-pstn-service-desk.md). |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de la file d’attente automatique, contactez le service [PSTN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour la Norvège.
-ms.openlocfilehash: a115834d56a2c68d3c7fd9652cd81537b4d6dfac
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: fb414917908f5a70b040ea113eb83801026b42c7dcc29f99930c7d028761161d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130183"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351064"
 ---
 # <a name="availability-in-norway"></a>Disponibilité en Norvège
 
@@ -82,7 +82,7 @@ Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Micr
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

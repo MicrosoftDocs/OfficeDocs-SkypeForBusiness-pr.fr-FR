@@ -1,5 +1,5 @@
 ---
-title: Rapport de diagnostic de conférence dans Skype Entreprise Server
+title: Rapport de diagnostic de conférence en Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Résumé : Découvrez le rapport de diagnostic de conférence utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: e3a22e55a106713d1db108a5571df883c673dcde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 31410ec98e3902e3ab64967061611e5c94a132258fca0a87a5332efdf0057a21
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328149"
 ---
-# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic de conférence dans Skype Entreprise Server
+# <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic de conférence en Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de diagnostic de conférence utilisé dans Skype Entreprise Server.
   
-Le rapport de diagnostic de conférence fournit des informations sur la réussite et l’échec de toutes les sessions de conférence. Notez que Skype Entreprise Server fait la distinction entre les différents types d’échec :
+Le rapport de diagnostic de conférence fournit des informations sur la réussite et l’échec de toutes les sessions de conférence. Notez que Skype Entreprise Server différents types d’échec :
   
 - **Échec attendu**. Un échec attendu est en général un échec considéré comme strictement technique. Par exemple, supposons que quelqu’un démarre une conférence mais raccroche avant que quelqu’un puisse participer. Techniquement, c’est un échec : la conférence a été initiée, mais pas terminée. Toutefois, il s’agit d’un échec qui devrait se produire : si l’organisateur annule la conférence avant que quelqu’un puisse participer, vous ne vous attendez pas à ce que la conférence soit terminée.
     
@@ -39,7 +39,7 @@ Si vous ajoutez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions et, po
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>Accès au rapport de diagnostic de conférence
 
-Le rapport de diagnostic de conférence est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez accéder au [rapport de répartition des défaillances dans Skype Entreprise Server](failure-distribution-report.md) en cliquant sur l’une des mesures suivantes :
+Le rapport de diagnostic de conférence est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez accéder au [rapport de répartition](failure-distribution-report.md) des défaillances dans Skype Entreprise Server en cliquant sur l’une des mesures suivantes :
   
 - Volume d’échecs inattendus
     
@@ -47,7 +47,7 @@ Le rapport de diagnostic de conférence est accessible à partir de la page d’
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Utilisation du rapport de diagnostic de conférence
 
-Le rapport de diagnostic de conférence inclut une série de graphiques. Chacune des colonnes affichées dans le graphique est en fait un lien hypertexte. Si vous cliquez sur une colonne, vous allez consulter le rapport de répartition des défaillances dans Skype Entreprise [Server](failure-distribution-report.md) pour cette période et ce type de conférence.
+Le rapport de diagnostic de conférence inclut une série de graphiques. Chacune des colonnes affichées dans le graphique est en fait un lien hypertexte. Si vous cliquez sur une colonne, vous allez consulter le rapport de répartition des défaillances dans [Skype Entreprise Server](failure-distribution-report.md) pour cette période et ce type de conférence.
   
 ## <a name="filters"></a>Filtres
 
@@ -60,7 +60,7 @@ Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapp
 |**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Pour** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
+|**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, si vous sélectionnez l’intervalle Tous les jours avec une date de début du 7/07/2015 et une date de fin le 28/02/2015, les données s’affichent pour les jours 8/7/2015 de 12:00 au 07/09/2015 12:00 (c’est-à-dire, un total de 31 jours de données). <br/> |
 |**Pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions. Vous pouvez soit sélectionner un pool particulier, soit cliquer sur **[Tous]** pour afficher les données de tous les pools. Cette liste déroulante se renseigne automatiquement en fonction des enregistrements que contient la base de données.<br/> |
 |**Sessions de conférence** <br/> | Indique le type de session de conférence. Sélectionnez l’une des options suivantes : <br/>  [Tous] <br/>  Sessions Focus <br/>  Toutes les sessions MCU <br/>  Conférence par messagerie instantanée <br/>  Partage d’application <br/>  Conférence A/V <br/> |

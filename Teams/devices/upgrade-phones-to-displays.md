@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Découvrez comment mettre à niveau Teams téléphones portables vers Teams’affichages dans le Microsoft Teams d’administration.
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327759"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Mettre à Teams niveau des téléphones Teams’affichage
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115582"
 
 Cet article vous donne une vue d’ensemble de la façon de mettre à niveau Teams téléphones mobiles vers des Teams d’affichage dans le Microsoft Teams d’administration. Ceci permet aux appareils d’offrir à vos utilisateurs une expérience enrichie en tant Teams’affichage.
 
-Teams d’écran sont une catégorie d’appareils Teams connectés en un seul, avec un écran tactile connecté et une expérience mains libres optimisée par Cortana. Teams’affichages sont l’évolution des Teams téléphones fixes. En plus des fonctionnalités pris en charge par [Teams](phones-for-teams.md#features-supported-by-teams-phones)téléphones, les Teams incluent des fonctionnalités telles qu’un affichage toujours disponible dans lequel toutes les options Teams d’activité et de collaboration sont toujours disponibles. Pour en savoir plus sur les fonctionnalités propres Teams les affichages, voir [Microsoft Teams’affichages.](teams-displays.md)
+Teams’affichage sont une catégorie d’appareils Teams dédiés tout-en-un avec un écran tactile connecté et une expérience mains libres optimisée par Cortana. Teams’affichages sont l’évolution des Teams téléphones fixes. En plus des fonctionnalités pris en charge par [Teams](phones-for-teams.md#features-supported-by-teams-phones)téléphones, les Teams incluent des fonctionnalités telles qu’un affichage toujours disponible dans lequel toutes les options Teams d’activité et de collaboration sont toujours disponibles. Pour en savoir plus sur les fonctionnalités propres Teams les affichages, voir [Microsoft Teams’affichages.](teams-displays.md)
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Ce que vous devez savoir sur la mise à niveau vers Teams’affichages
 
@@ -90,4 +90,4 @@ Si certaines applications n’ont pas été disponibles dans l’écran d’accu
 
 [Téléphones IP certifiés pour les Microsoft Teams](teams-ip-phones.md)
 
-[Assistance vocale Cortana dans Teams](../cortana-in-teams.md)
+[Cortana’assistance vocale dans Teams](../cortana-in-teams.md)

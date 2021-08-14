@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment créer et gérer des stratégies de routage voix dans Microsoft Teams.
-ms.openlocfilehash: 7023100850eb34d6adf61c99de5f3568afed6aeb
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: 3dbcd770a4806768e122caa4edb3293a349ea57c4c553434c530b1a2deb80ac9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350876"
 ---
 # <a name="manage-voice-routing-policies-for-direct-routing"></a>Gérer les stratégies de routage vocal pour le routage direct
 

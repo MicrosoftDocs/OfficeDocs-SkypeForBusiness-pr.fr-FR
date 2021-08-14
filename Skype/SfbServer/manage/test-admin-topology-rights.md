@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Comment tester les droits de topologie dans Skype Entreprise Server
-ms.openlocfilehash: 5826f62b120179533e531743b6e11ede5d9ba9d049d2a0a7252e57d6e7f922ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0284fc3a1af10958fa4e3182d9cec38940421229
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335004"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233609"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Test des droits de topologie d’administrateur dans Skype Entreprise Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
 |Planification de vérification|Après le déploiement initial Skype Entreprise Server' Si nécessaire si des problèmes liés aux autorisations surviennent.|
-|Outil de test|Windows PowerShell|
+|Outil de test|Windows PowerShell|
 |Autorisations requises|Lorsqu’ils sont exécutés localement à l’Skype Entreprise Server Management Shell, les utilisateurs doivent être membres du groupe de sécurité RTCUniversalServerAdmins.<br/><br/>Lorsqu’ils sont exécutés à l’aide d’une instance distante de Windows PowerShell, les utilisateurs doivent se voir attribuer un rôle RBAC autorisé à exécuter l'Test-CsSetupPermission cmdlet. Pour voir la liste de tous les rôles RBAC qui peuvent utiliser cette cmdlet, exécutez la commande suivante à partir de l’invite Windows PowerShell suivante :<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match « Test-CsSetupPermission"}|
 |||
 
