@@ -18,43 +18,77 @@ description: En savoir plus sur la préversion publique dans Microsoft Teams. Es
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 6de899156cb4d6267d5a0fda6a8afef8cb9ad358cc4ebeb73514b276abdb817b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9e6ba763edd0791310d30f8dc1e71cccc8a4cf8
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285693"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235199"
 ---
 # <a name="microsoft-teams-public-preview"></a>Préversion publique de Microsoft Teams
 
-> [!NOTE]
-> Les fonctionnalités incluses dans la préversion ne seront peut-être pas complètes et risquent de subir des modifications avant d’être disponibles dans la version publique. Nous les proposons uniquement à des fins d’évaluation et d’exploration. Non pris en charge dans le cloud communautaire pour le secteur public Office 365 (GCC).
+> [!NOTE] 
+> Les fonctionnalités incluses dans la préversion ne seront peut-être pas complètes et risquent de subir des modifications avant d’être disponibles dans la version publique. Nous les proposons uniquement à des fins d’évaluation et d’exploration. Les fonctionnalités dans la préversion ne sont pas prises en charge dans le Cloud de la communauté du secteur public (GCC) Office 365.
 
 La préversion publique de Microsoft Teams vous permet d’accéder en avant-première aux fonctionnalités non publiées de Teams. Les préversions vous permettent d’explorer, puis de tester les fonctionnalités à venir. Nous vous invitons également à nous faire part de vos commentaires sur les fonctionnalités des préversions publiques. La préversion publique est activée pour chaque utilisateur de Teams. Vous n’avez donc pas besoin de vous soucier de l’ensemble de votre organisation.
 
-Pour obtenir la liste des ressources disponibles dans la prévisualisation publique Teams, veuillez consulter la rubrique [Notes de publication pour le canal actuel d’Office (Preview)](/officeupdates/current-channel-preview).
+Pour obtenir la liste de ce qui est disponible dans la préversion publique de Teams, visitez [Notes techniques de la préversion publique de Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [Notes de publication pour les fonctionnalités Microsoft Teams administrateur](/OfficeUpdates/teams-admin) et [Nouveautés dans Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
 
 ## <a name="set-the-update-policy"></a>Définir la stratégie de mise à jour
 
 Nous avons activé la préversion publique par utilisateur, et une stratégie d’administration permet de contrôler l’option d’activation de cette préversion. Les stratégies de mise à jour permettent de gérer les utilisateurs des préversions de Teams et d’Office qui auront accès aux fonctionnalités d’avant-publication ou de préversion dans l’application Teams. Vous pouvez utiliser et personnaliser la stratégie globale (par défaut à l’échelle de l’organisation), ou créer une ou plusieurs stratégies personnalisées pour vos utilisateurs.
 
-1. Connectez-vous au centre d'administration.
-2. Sélectionnez **Teams**>**Stratégies de mise à jour**.
+1. Connectez-vous au Centre d'administration.
 
-   ![Sélectionner l’option Stratégies de mise à jour](media/updatePolicies.png)
+2. Sélectionnez **Équipes** > **Stratégies de mise à jour**, puis l’option **Stratégies de mise à jour**.
 
-3. Sélectionnez **Ajouter**.
-4. Nommez la stratégie de mise à jour, ajoutez une description, puis activez **Afficher les fonctionnalités en préversion**.
+1. Sélectionnez **Ajouter** pour créer une stratégie ou sélectionnez une stratégie existante pour ouvrir **Stratégie de mise à jour**.
 
-Vous pouvez également définir la stratégie à l’aide de PowerShell à l’aide du `Set-CsTeamsUpdateManagementPolicy`cmdlet avec le `-AllowPreview` paramètre booléen.
+2. Nommez la stratégie de mise à jour, ajoutez une description, puis sélectionnez le paramètre pour **Afficher les fonctionnalités en préversion**.
+
+   -   **Suivre la préversion d’Office** (par défaut) : cette nouvelle option active automatiquement les fonctionnalités de la préversion publique de Teams pour tous les utilisateurs inscrits dans le Canal actuel (préversion) d’Office. Aucune autre action n’est requise de la part de l’utilisateur final.
+   -   **Activé** : cette option active la préversion publique de Teams, que l’utilisateur soit inscrit dans le Canal actuel (préversion) d’office ou non. L’utilisateur final peut également choisir de participer à la préversion publique de Teams dans leur application Teams.
+
+   > [!NOTE]  
+   > Pour les utilisateurs existants dans la préversion publique de Teams qui ne sont PAS dans le **Canal actuel (préversion)**, les administrateurs informatiques doivent passer de l’option par défaut **Suivre la préversion d’Office** à **Activé**.
+ 
+   - **Non activé** : les fonctionnalités de la préversion publique de Teams ne sont pas disponibles pour les utilisateurs finaux.
+
+    ![affiche la boîte de dialogue des paramètres de la préversion](media/public-preview-policy.png)  
+
+Vous pouvez également définir la stratégie à l’aide du cmdlet `Set-CsTeamsUpdateManagementPolicy` PowerShell avec le paramètre `-AllowPublicPreview`.
+
+> [!NOTE]   
+> Le paramètre AllowPreview sera prochainement déconseillé.
 
 ## <a name="enable-public-preview"></a>Activer la préversion publique
 
-Pour activer la préversion publique sur un client de bureau ou web, effectuez les tâches suivantes :
+Pour activer la préversion publique sur un client de bureau ou web, vous devez terminer les tâches suivantes :
 
 1. Sélectionnez les trois points à gauche de votre profil pour afficher le menu Teams.
 2. Sélectionnez **À propos** > **Préversion publique**.
 3. Sélectionnez **Basculer vers la préversion publique**.
+
+> [!NOTE]  
+> Cette option est uniquement disponible lorsque l’option **Afficher les fonctionnalités de préversion** est définie sur **Activé**.
+
+## <a name="teams-now-follows-office-preview-users"></a>Teams suit désormais les utilisateurs de la préversion d’Office
+
+La nouvelle stratégie globale par défaut de **Suivre la préversion d’Office** permet aux utilisateurs d’être automatiquement dans le canal actuel (préversion) de Teams s’ils sont dans le Canal actuel (préversion) pour le client Office 365 sur Windows.
+
+Microsoft Office continue de recevoir les mises à jour du Canal actuel (préversion) et le client Teams reçoit les mises à jour via le canal Préversion publique. Cette stratégie ne bascule PAS les canaux d’Office basés sur les canaux Teams. 
+
+**Comment conserver vos utilisateurs existants de la préversion Teams qui n’utilisent PAS le Canal actuel (préversion) d’Office ?**
+
+Pour les utilisateurs existants que vous avez autorisés à s’inscrire ou se désinscrire de la Préversion publique de Teams et si vous souhaitez maintenir ce paramètre dans sa forme actuelle, vous devez basculer de la valeur par défaut **Suivre la préversion d’Office** sur **Activé** (référez-vous à [Définir la stratégie de mise à jour](#set-the-update-policy))
+
+**Comment de désinscrire de ce paramètre ?**
+
+Vous pouvez désactiver le paramètre à partir du Centre d'administration Teams de **Suivre la préversion d’Office** sur **Non activé** (référez-vous à [Définir la stratégie de mise à jour](#set-the-update-policy))
+
+## <a name="known-issues"></a>Problèmes connus
+
+Les utilisateurs du Canal actuel (préversion) d’Office peuvent quitter la Préversion publique de Teams via le menu À propos du client Teams lorsque leur stratégie de mise à jour est définie sur **Suivre la préversion d’Office**. Cette fonctionnalité n’est pas prévue et sera supprimée dans le futur. Le client Teams peut automatiquement repasser sur la Préversion publique lorsque l’appareil est inactif la prochaine fois que l’utilisateur est dans le Canal actuel (préversion) pour Office.
 
 ## <a name="related-topics"></a>Voir aussi
 
