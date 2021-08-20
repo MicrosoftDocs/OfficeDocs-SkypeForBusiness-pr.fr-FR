@@ -269,7 +269,7 @@ items:
             href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Stratégies de contrôle d’application AppLocker
             href: applocker-in-teams.md
-          - name: Bloquer l’accès à SharePoint
+          - name: Bloquer l’accès à Microsoft Office SharePoint Online
             href: block-access-sharepoint.md
       - name: Conformité
         items:
@@ -305,7 +305,7 @@ items:
             href: location-of-data-in-teams.md
           - name: Confidentialité des commentaires de Microsoft Teams
             href: teams-privacy-feedback.md
-          - name: Bloquer l’accès à SharePoint Online pour des utilisateurs spécifiques
+          - name: Bloquer l’accès à Microsoft Office SharePoint Online à des utilisateurs spécifiques
             href: block-access-sharepoint.md
           - name: Présentation du contrôle des stratégies
             href: policy-control-overview.md
@@ -515,6 +515,8 @@ items:
         items:
           - name: Utiliser les modèles d’équipe dans le Centre d'administration
             href: get-started-with-teams-templates-in-the-admin-console.md
+          - name: Démarrage avec des modèles Teams à l’aide de Microsoft Graph
+            href: get-started-with-teams-templates.md
           - name: Modèles d’équipe créés dans Graph pour les petites et moyennes entreprises
             href: smb-templates.md
           - name: Créer un modèle d’équipe personnalisé
@@ -1405,8 +1407,6 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: Tous les secteurs d’activité
         items:
-          - name: Prise en main des modèles d’équipe
-            href: get-started-with-teams-templates.md
           - name: Shifts pour Teams
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
