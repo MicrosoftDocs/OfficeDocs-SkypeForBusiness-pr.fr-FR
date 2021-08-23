@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Vue d’ensemble de Skype Entreprise outils de télémétrie en ligne pour surveiller une implémentation sur site dans un scénario hybride.
-ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318069"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407173"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Aperçu
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -40,7 +40,7 @@ Avec Le connecteur de données d’appel, vous pouvez effectuer les tâches suiv
 
 Avec le connecteur de données d’appel, le Skype Entreprise Server fournit des données d’appel au service cloud afin que vous pouvez tirer parti des outils d’analyse des appels Skype Entreprise Online Call Analytics (CA) et du Tableau de bord de qualité des appels (CQD), comme illustré dans le diagramme suivant :
 
-![SfB Messagerie vocale infonuagique](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![Diagramme de Messagerie vocale infonuagique SfB.](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 Le serveur pousse les données de qualité de l’expérience (QoE) et d’enregistrement des détails des appels vers le service en ligne.
 
@@ -50,13 +50,13 @@ Les outils Analyse des appels et CQD vous permettent de surveiller la qualité d
 
 - Le Tableau de bord de qualité des appels se concentre sur les performances et les problèmes du réseau au sein d’une organisation. Skype Entreprise administrateurs et ingénieurs réseau utilisent cet outil pour résoudre les problèmes et optimiser les performances du réseau.
 
-Pour plus d’informations, [voir Analyse des appels et Tableau de bord de qualité des appels.](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+Pour plus d’informations, voir le diagramme Analyse des appels et Tableau de bord de qualité [des appels avec des détails sur](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)le serveur de surveillance.
 
 Bien entendu, vous souhaitez peut-être conserver certaines données de qualité des appels en local. Cela peut être le cas, par exemple, si vous utilisez une solution tierce avec des flux de travail et des rapports personnalisés.  Le connecteur de données d’appel vous permet de configurer l’envoi de données au service en ligne tout en conservant une copie des données sur votre serveur local, comme illustré dans le diagramme suivant :
 
 ![SfB Messagerie vocale infonuagique](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 Les conditions suivantes supposent que vous avez déjà déployé Skype Entreprise Server dans une topologie prise en charge.  Pour plus d’informations sur le déploiement Skype Entreprise Server topologies et les topologies pris en charge, voir [La topologie de base.](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) Pour configurer le connecteur de données d’appel, vous devez :
 

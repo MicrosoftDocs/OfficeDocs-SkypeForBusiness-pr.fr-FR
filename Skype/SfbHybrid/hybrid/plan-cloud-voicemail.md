@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’Messagerie vocale infonuagique Microsoft service. Pour plus d’informations sur la configuration Messagerie vocale infonuagique, voir Configuring Messagerie vocale infonuagique.
-ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a2fea02417a271e3858adff435a2406fda8c5ae
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323676"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407163"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier Messagerie vocale infonuagique service pour les utilisateurs locaux
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Aperçu
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -64,7 +64,7 @@ Les appels sans réponse sont gérés comme suit :
 3. Le service dépose ensuite la messagerie vocale dans Exchange boîte aux lettres de l’utilisateur, que la boîte aux lettres soit en local ou en ligne.  
 4. Les utilisateurs peuvent accéder à leur messagerie vocale à partir de leur client Skype Entreprise ou Outlook client.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 Les conditions suivantes supposent que vous avez déjà déployé Skype Entreprise Server dans une topologie prise en charge.  Vos besoins dépendent de votre scénario :
 
@@ -95,10 +95,10 @@ Si vous envisagez de déployer Skype Entreprise Server 2019 et/ou Exchange Serve
 
 L’interopérabilité des versions et les topologies pris en charge pour Messagerie vocale infonuagique sont répertoriés dans le tableau suivant, qui compare les versions Skype Entreprise Server sur lesquelles l’utilisateur peut être homed et la version possible fournissant sa boîte aux lettres Exchange. Vous devez utiliser Messagerie vocale infonuagique si vous souhaitez utiliser Skype Entreprise 2019 avec Exchange Online ou Exchange Server 2019.
 
-| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
+| Skype/Lync | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| Skype Entreprise Server 2019 | Exchange Server UM | Exchange Server UM | Messagerie vocale cloud | Messagerie vocale cloud |
-| Skype Entreprise Server 2015 | Exchange Server UM | Exchange Server UM | Non pris en charge | Messagerie vocale cloud |
+| Skype Entreprise Server 2019 | Exchange Server UM | Exchange Server UM | Messagerie vocale cloud | Messagerie vocale cloud |
+| Skype Entreprise Server 2015 | Exchange Server UM | Exchange Server UM | Non pris en charge | Messagerie vocale cloud |
 | Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | Non pris en charge | Messagerie vocale cloud |
 
 Microsoft recommande les chemins de migration suivants :
