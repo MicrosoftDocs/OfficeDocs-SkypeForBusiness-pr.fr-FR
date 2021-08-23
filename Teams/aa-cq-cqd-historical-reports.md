@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques des Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: 04b18e8f1767f7c32818e53305aead863e1ed753bec23a6c6f86a43464b03d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3bae6b1e874026a452798d27b4629207f7ec0035
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298094"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398943"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Standard automatique & historique de la file d’attente d’appels
 
@@ -295,6 +295,10 @@ Effectuez les étapes suivantes :
 |Nom de la file d’attente d’appels                         |texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
 |Date                                    |date                     |                                                    |
 
+
+> [!NOTE]
+> 1) Ce rapport indique le nombre d’appels du point de vue des agents. Par conséquent, le nombre total d’appels dans ce rapport sera généralement supérieur au nombre total d’appels dans le rapport **d’analyse** de la file d’attente d’appels cloud. Chaque appel dans la file d’attente peut être présenté à un ou plusieurs agents au moins une fois avant la réponse. Chaque appel de la file d’attente d’appels présenté à un agent est comptabilisé dans ce rapport, même si l’agent n’a pas répondu à celui-ci. La différence du nombre d’appels entre ces deux rapports est plus prononcé avec l’option de **routage d’Attendant** qui sonne pour chaque agent pour chaque appel. 
+> 2) Lorsqu’un appel arrive pour la première fois dans la première file d’attente, si le nombre d’appels déjà en attente dans cette file d’attente dépasse la limite de gestion des appels en dépassement de capacité et si l’option de redirection envoie des appels à une deuxième file d’attente, les agents de la deuxième file d’attente d’appels sont affichés comme étant dans la première file d’attente d’appels de ce rapport.  
 
 ## <a name="known-issues"></a>Problèmes connus
 

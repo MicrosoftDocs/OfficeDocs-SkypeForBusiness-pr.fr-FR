@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16a17bb867ef30d58dc55bd3fcf9545894097120d284ba7b1f7ac95e177a18fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26b959f531daf7fa93bde07a44e4f29aa4a5e0dc
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324803"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398923"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Modules add-on advanced Communications for Microsoft Teams
 
@@ -32,9 +32,10 @@ Si votre organisation cherche à améliorer davantage votre expérience de commu
 
 Advanced Communications inclut une personnalisation avancée des réunions, des outils pour gérer les stratégies de communication de votre organisation et une gestion premium avec des packages de stratégies personnalisées. D’autres fonctionnalités incluent une salle d’accueil personnalisée pour personnaliser vos réunions, ainsi que des outils pour surveiller, suivre et analyser les données sur les utilisateurs et appareils.
 
-- **Personnalisez et personnalisez** les réunions : normalisation au sein des réunions pour vos scénarios internes et personnalisés, avec des fonctionnalités telles que la salle d’accueil personnalisée pour les réunions. Implémentez-la avec flexibilité au sein des services de votre organisation.
-- **Gérez les communications de votre organisation**: surveillez, suivez et analysez les données sur les utilisateurs et appareils pour garantir une expérience fluide.
-- **Expériences personnalisées avec packages de stratégies personnalisées**: vous pouvez regrouper votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation. Créez vos propres packages de stratégie en ajoutant les types de stratégies et les stratégies que vous voulez regrouper à l’aide du Teams d’administration de l’entreprise ou de PowerShell. Chaque utilisateur aura besoin d’une licence pour recevoir une affectation de package de stratégie personnalisé. 
+- Personnalisez votre expérience de pré-participer à la réunion avec le logo de votre entreprise dans la salle d’accueil et avant-première. 
+- Créez des expériences de réunion uniques grâce aux scènes de mode Ensemble personnalisées conçues pour répondre aux besoins de votre entreprise et de la réunion.
+- Surveillez, suivez et analysez les données sur les utilisateurs et appareils pour garantir une expérience fluide avec la télémétrie en temps réel.
+- Expériences personnalisées avec packages de stratégies personnalisées en regroupant votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation à l’aide du Centre d’administration Teams ou PowerShell. Chaque utilisateur aura besoin d’une licence pour recevoir une affectation de package de stratégie personnalisé. 
 
 Advanced Communications est disponible sur tous les Microsoft 365 et en tant que module add-on à n’importe quel abonnement Microsoft 365 abonnement Office 365 payant. Les fonctionnalités incluses dans les communications avancées ne sont pas ajoutées à d’autres plans Microsoft 365 ou Office 365 et ne peuvent pas être achetées séparément. Pour obtenir les fonctionnalités, vous devez acheter celui-ci.
 
@@ -44,9 +45,7 @@ Advanced Communications est disponible sur tous les Microsoft 365 et en tant que
 > [!NOTE]
 > Advanced Communications n’est pas encore disponible pour Microsoft 365 Cloud de la communauté du secteur public des environnements du Département de la défense (DoD).
 
-## <a name="trial-offer"></a>Offre d’essai
-
-Une version d’essai de 60 jours est disponible à partir du 4 août 2020. Vous pouvez obtenir la version d’essai par le biais Centre d’administration Microsoft 365.
+Ces fonctionnalités sont disponibles maintenant en prévisualisation jusqu’à la fin de l’année, auquel moment une licence Communications avancées par utilisateur sera nécessaire pour continuer à utiliser ces fonctionnalités.
 
 ## <a name="related-articles"></a>Articles connexes
 

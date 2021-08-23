@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ffcb99684c3f92bcc442c5f732d41643bf549b3f3c1d2aca7e5cb42df4269ebe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df725792ec8843b77ba2ff4956617d2959e718e2
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288422"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58399083"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -45,7 +45,7 @@ Cet article décrit la exigences et les rôles de l’application Approbations.
 
 ## <a name="required-permissions-and-licenses"></a>Autorisations et licences requises
 
-Pour utiliser l’application Approbations, vous devez avoir une autorisation pour les éléments suivants :
+Pour déployer l’application Approbations, vous devez obtenir une autorisation pour les éléments suivants :
 
 - Autorisations pour créer une base de données CDS Microsoft.
 
@@ -56,6 +56,8 @@ Pour utiliser l’application Approbations, vous devez avoir une autorisation po
 - Licence pour une [Power Automate](/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
 
 - Une licence microsoft Forms est requise pour que les utilisateurs définissent de nouveaux modèles d’approbation.
+
+Pour utiliser l’application Approbations, vous avez besoin d’une licence pour Power Automate et votre compte est automatiquement ajouté au rôle Utilisateur Approbations dans l’environnement cible sur votre première affectation d’approbation.
 
 ## <a name="storage-with-cds"></a>Stockage avec CDS
 

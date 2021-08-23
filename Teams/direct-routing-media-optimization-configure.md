@@ -1,5 +1,5 @@
 ---
-title: Configurer l’optimisation des médias locaux pour le routage direct dans Teams
+title: Configurer l’optimisation des médias locaux pour le routage direct
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurer l’optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf370087d109ebd12da150af44d2f13b455f4f6e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235359"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365631"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurer l’optimisation des médias locaux pour le routage direct
 
@@ -52,36 +52,7 @@ Pour configurer l’utilisateur et les sites SBC, vous devez :
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>Configurez le ou les SBC pour l’optimisation des médias locaux en fonction de la spécification du fournisseur SBC
 
-Cet article décrit la configuration des composants Microsoft. Pour plus d’informations sur la configuration SBC, consultez la documentation de votre fournisseur SBC.
-
-L’optimisation des médias locaux est prise en charge par les fournisseurs SBC suivants :
-
-| Fournisseur | Product |    Version logicielle requise |
-|:------------|:-------|:-------|
-| [CodesAudio](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
-|            |  Mediant 800 SBC |   7.20A.256 | 
-|            |  Mediant 2600 SBC |  7.20A.256 | 
-|            |  Mediant 4000 SBC |  7.20A.256 | 
-|            |  Mediant 1000B SBC | 7.20A.256 | 
-|            |  Mediant 9000 SBC |  7.20A.256 | 
-|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
-|            |  Mediant Cloud Edition SBC | 7.20A.256 |
-| [Core SBC du ruban](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
-|            |  SBC 5210         | 8.2  |
-|            |  SBC 5400         | 8.2  |
-|            |  SBC 7000         | 8.2  |
-|            |  SBC SWe          | 8.2  |
-| [Ruban SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
-|               | SBC 1000 | 8.1.5  |
-|               | SBC 2000 | 8.1.5  |
-| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
-| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
-
+Cet article décrit la configuration des composants Microsoft. Pour plus d’informations sur la configuration SBC, consultez la documentation de votre fournisseur SBC. Pour plus d’informations sur les fournisseurs SBC qui supportent l’optimisation des médias locaux, voir Contrôleurs de session [certifiés pour le routage direct.](direct-routing-border-controllers.md)
 
 ## <a name="manage-external-trusted-ip-addresses"></a>Gérer les adresses IP de confiance externes
 

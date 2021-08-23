@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Résumé : Préparez vos serveurs Skype Entreprise Server 2015 avec cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, la configuration système requise et les recommandations sont là pour garantir une installation et un déploiement réussis de votre batterie de serveurs.'
-ms.openlocfilehash: 8dd32e9d27120e4809cb2f5ce557657e0b4864d60d7095a5e2eb799dc7fdfc83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c709dbc3afa2290cc9260dd71b73ab5da898d88
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276609"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372074"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype Entreprise Server 2015
  
@@ -60,7 +60,7 @@ Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonom
 |:-----|:-----|
 |UC  <br/> |Double processeur 64 bits, quadruple cœur, 2,26 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2015.  <br/> |
 |Mémoire  <br/> |16 gigaoctets.  <br/> |
-|Disque  <br/> |SOIT :  <br/> • 4 disques durs ou plus de 1 0000 MPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x).  <br/> OU  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.  <br/> |
+|Disque  <br/> |SOIT :  <br/> • 4 disques durs ou plus de 1 0000 MPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x).  <br/> OU  <br/> • Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.  <br/> |
 |Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double ou multi-accueil ne **sont** pas pris en charge pour les serveurs d’interopation vidéo et les directeurs. <br/> Les serveurs Edge nécessitent deux interfaces réseau qui sont des cartes réseau double port, 1 Gbits/s ou plus (ou deux cartes réseau couplées, pour un total de quatre, chaque paire étant associé à une seule adresse MAC et une seule adresse IP, pour un total de deux paires).  <br/> Sur les serveurs de médiation autonomes, l’installation de cartes d’interface réseau supplémentaires pour permettre la configuration d’une adresse IP PSTN spécifique est prise en charge.  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>Systèmes d’exploitation Skype Entreprise Server 2015
@@ -68,7 +68,7 @@ Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonom
 
 Une fois le matériel en place, vous devez installer les systèmes d’exploitation. Voici le système d’exploitation qui vous permettra d’installer et d’utiliser Skype Entreprise Server 2015.
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Windows Server 2019 (vous devez Skype Entreprise mise à jour cumulative 9 ou ultérieure). <br/> |Windows Server 2016 (vous devez Skype Entreprise mise à jour cumulative 5 ou ultérieure. Pour plus d’informations, [consultez la KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Windows Server 2012 Système d’exploitation du centre de données R2 avec toutes les mises à jour requises installées.  <br/> |Windows Server 2012 Système d’exploitation R2 Standard avec toutes les mises à jour requises installées.  <br/> |
@@ -98,7 +98,7 @@ Lors de l’installation Skype Entreprise Server 2015 Édition Standard, SQL Ser
   
 Skype Entreprise Server 2015 Êdition Entreprise est un peu plus complexe, mais la liste prise en charge est ci-dessous (tout est en édition 64 bits, vous remarquerez, n’utilisez pas les éditions 32 bits) :
   
-||||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|
 |Microsoft SQL Server 2019 Enterprise (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack. <br/> |Microsoft SQL Server 2017 Enterprise (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack. <br/> |Microsoft SQL Server 2016 Enterprise (édition 64 bits) avec Service Pack 1 ou version ultérieure, et vous devez l’exécuter avec la mise à jour cumulative Skype Entreprise 7 ou ultérieure[(téléchargement](https://support.microsoft.com/help/3061064)Skype Entreprise mise à jour cumulative).  <br/> |Microsoft SQL Server 2014 Enterprise (édition 64 bits) et vous devez l’exécuter avec la mise à jour cumulative 6 ou une version ultérieure (télécharger la mise à jour[cumulative 6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack.  <br/> |
 |Microsoft SQL Server 2019 Standard (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack. <br/> |Microsoft SQL Server 2017 Standard (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack. <br/> |Microsoft SQL Server 2016 Standard (édition 64 bits) avec Service Pack 1 ou version ultérieure, et vous devez l’exécuter avec la mise à jour cumulative Skype Entreprise 7 ou version ultérieure[(téléchargement](https://support.microsoft.com/help/3061064)Skype Entreprise mise à jour cumulative).  <br/> |Microsoft SQL Server 2014 Standard (édition 64 bits) et vous devez l’exécuter avec la mise à jour cumulative 6 ou une version ultérieure (télécharger la mise à jour[cumulative 6](https://support.microsoft.com/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (édition 64 bits) et nous vous recommandons de l’exécution avec le dernier Service Pack.  <br/> |
@@ -112,7 +112,7 @@ Si vous ne voyez pas l’édition SQL Server que vous souhaitez utiliser répert
 ### <a name="microsoft-exchange-storage"></a>Stockage Exchange Microsoft
 Les fichiers de contenu de réunion, par exemple les présentations PowerPoint, sont archivés sous forme de pièces jointes. Si vous souhaitez stocker des données d’archivage Skype Entreprise avec des données de conformité Exchange, vous devez utiliser Exchange pour votre déploiement Exchange et vous assurer que la taille de stockage maximale prend en charge le stockage des fichiers de contenu de réunion. Vous devez déployer Exchange avant de déployer et d’activer l’archivage à l’aide de l’option d’intégration Exchange Microsoft. 
     
-    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
+Si vous choisissez d’utiliser le stockage Exchange, vous n’avez pas besoin de déployer des bases de données SQL Server distinctes pour l’archivage, sauf si vous avez des utilisateurs Skype Entreprise qui ne sont pas Exchange serveurs. Si vous déployez l’archivage à l’aide de l’option d’intégration Microsoft Exchange, les données d’archivage Skype Entreprise sont stockées avec les données de conformité Exchange uniquement pour les utilisateurs qui sont Exchange serveurs. 
   
 ## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>Configuration matérielle et logicielle requise pour l’archivage Skype Entreprise Server 2015
   
@@ -182,7 +182,7 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
   
  **Tous les serveurs :**
   
-|**Logiciel/Rôle**|**Détails**|
+|**Logiciel/Rôle**|**Details**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous Skype Entreprise Server serveurs doivent Windows PowerShell 3.0.  <br/> • Si vous faites l’installation sur Windows Server 2012 ou Windows Server 2012 R2, vous êtes prêt, car il est déjà là.  <br/> • Si vous faites une mise à niveau sur Windows Server 2008 R2, vous pouvez télécharger Windows Management Framework [3.0](https://www.microsoft.com/download/details.aspx?id=34595) pour l’obtenir. <br/> **Conseil :** Une fois que vous avez le powerShell correct sur celui-ci, confirmez qu’il s’agit de BuildVersion 6.2.9200.0 ou version ultérieure en allant à l’invite PowerShell et en tapant `$PSVersionTable` . Cela doit faire monter les informations dont vous avez besoin.  <br/> |
 |Microsoft .NET Framework  <br/> |Les services WCF sont une fonctionnalité installée en tant que fonctionnalité Windows, sous Le Gestionnaire de **serveur,** aucun téléchargement n’est nécessaire.  <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et que vous la vérifiez, que l’option **d’activation HTTP** est également cochée et installée, comme suit : <br/> ![Screenshot showing HTTP Activation option under the .NET Framework 4.5 Features. ](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) Ne vous inquiétez pas si vous obtenez une fenêtre vidéo supplémentaire vous disant que d’autres éléments doivent être installés pour que l’activation HTTP soit installée. C’est normal, cliquez sur OK et allez de l’avant. Si vous n’obtenez pas cette fenêtre pop-up, supposez que ces éléments sont déjà installés et continuer.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2012 R2 ou Windows Server 2016 sont installés. Skype Entreprise Server fonctionne avec les versions microsoft .NET Framework suivantes :  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (pour les Skype Entreprise Server cu 5 ou ultérieures)  <br/> • .NET 4.7.2 (pour les Skype Entreprise Server cu 6 ou ultérieures)  <br/>  • .NET 4.8 (pour les Skype Entreprise Server cu 9 ou ultérieures) <br/>  .NET Framework 3.5 sera probablement installé par défaut sur votre ordinateur Windows Server 2008 R2 (assurez-vous de vous en assurer avant la mise à niveau), mais il ne sera en réalité pas sur vos serveurs Windows Server 2012/Windows Server 2012 R2 (pour les nouvelles installations). Pour l’ajouter, vous devez accéder à votre lecteur d’installation ou à votre support (l’emplacement d’installation de votre serveur Windows ou l’emplacement des fichiers d’installation). Ensuite, installez-le en tant que fonctionnalité à partir du Gestionnaire de serveur, pointez sur le support d’installation (en particulier le dossier **\sources\sxs)** lorsque vous l’avez demandé, puis continuez à l’installer. <br/> |
@@ -192,7 +192,7 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
    
  **Les serveurs frontux et Édition Standard serveur frontal ont également besoin des ressources nécessaires :**
   
-|**Logiciel/Rôle**|**Détails**|
+|**Logiciel/Rôle**|**Details**|
 |:-----|:-----|
 |Internet Information Services (IIS)  <br/> |IIS est nécessaire sur tous les serveurs frontaux, ainsi que tous les serveurs Édition Standard, avec les modules suivants sélectionnés :  <br/> • Fonctionnalités HTTP courantes : document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification par mappage de certificat client, authentification Windows client  <br/> • Développement d’applications : extensibilité .NET 3.5, extensibilité .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensions ISAPI, filtres ISAPI  <br/> • Outils de gestion : Console de gestion IIS, scripts et outils de gestion IIS  <br/> Nous devons également noter que l’accès anonyme est également nécessaire, mais vous l’obtenez lorsque vous installez IIS, de sorte que vous n’avez pas d’endroit pour sélectionner cet accès dans la liste.  <br/> |
 |Module d’exécution du format Windows Media  <br/> | Pour Windows Server 2016, Windows Server 2012 et Windows Server 2012 R2, vous devez installer la fonctionnalité **Media Foundation** dans le **Gestionnaire de serveur.** Maintenant, vous pouvez démarrer votre installation Skype Entreprise Server 2015 sans cette installation, mais vous serez invité à l’installer, puis redémarrez le serveur, avant de poursuivre l’installation de Skype Entreprise Server 2015. Il est préférable de le faire à l’avance. <br/> |

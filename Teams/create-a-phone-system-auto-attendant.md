@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour les grandes organisations dans Microsoft Teams.
-ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db2dd5b63e26c74de09b8d4b563fe48393a3a37
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315390"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398903"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un attendant automatique
 
@@ -215,7 +215,9 @@ Pour ajouter un compte de ressource, **sélectionnez Ajouter un compte et** rech
 
 ![Capture d’écran d’une liste de comptes de ressources affichant le compte de ressource avec le numéro de service affecté](media/auto-attendant-resource-account-assigned.png)
 
-Lorsque vous avez terminé d’ajouter des comptes de service, sélectionnez **Envoyer** pour terminer la configuration du attendant automatique.
+Lorsque vous avez terminé d’ajouter des comptes de ressources, sélectionnez **Envoyer** pour terminer la configuration du attendant automatique.
+
+Pour [plus d’Teams, voir Gérer Teams comptes](manage-resource-accounts.md) de ressources.
 
 ## <a name="external-phone-number-transfers---technical-details"></a>Transferts de numéros de téléphone externes - Détails techniques
 

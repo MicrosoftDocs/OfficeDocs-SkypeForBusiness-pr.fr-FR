@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: a10ff4c99508530b300ddb19546686763d38d458
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 68cc104c1e50aeac5de2a88d44b1cba4bbaa54aa
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234809"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372254"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
@@ -77,6 +77,8 @@ Les appareils suivants sont certifiés sous le programme Salles Microsoft Teams 
 
 | Modèle d’appareil | Version du microprogramme | Date de publication  | Taille de la salle                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Tap Device     | 1.2.982     |      Août 2021   | Compatible avec la barre d’enfants Logitech Ainsi que la barre d’enfants Mini |
+| Logitech Cat Bar Mini | 1.2.982     |      Août 2021   |    Petite Salle de réunion (4,5 m x 4,5 m) |
 | Logitech Cat Bar      | 1.2.788     |       Juin 2021    |    Taille moyenne (4,5 m x 6 m)       |
 | AudioCodes RXV80 | 1.9.155        |   Mai 2021  | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 | CESSEURS DÉVELOPPENT VISION 3T       | 1.2.0.21102.03    | Avril 2021 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |

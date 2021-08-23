@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 30ef20368adeb7b0f14ff0c811a1c6ec9d4ce29b6debeeb198f0b74ae75d441d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12b5690a39df5081960dce22a335c24673ee8780
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293271"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365601"
 ---
-# <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
+# <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
 <a name="bkmeetingparticipants"> </a>
 
@@ -39,7 +39,7 @@ Ces paramètres contrôlent les participants à la réunion qui attendent dans l
 - [Autoriser la conversation en réunion](#allow-chat-in-meetings)
 
 > [!NOTE]
->Les options permettant de participer à une réunion varient en fonction des paramètres de chaque groupe Teams et de la méthode de connexion. Si votre groupe dispose d’une audioconférence et l’utilise pour se connecter, consultez[Audioconférence](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si votre équipe n’a pas d’audioconférence, consultez [Participer à une réunion dans Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+>Les options permettant de participer à une réunion varient en fonction des paramètres de chaque groupe Teams et de la méthode de connexion. Si votre groupe dispose d’une audioconférence et l’utilise pour se connecter, consultez[Audioconférence](/microsoftteams/audio-conferencing-in-office-365). Si votre équipe n’a pas d’audioconférence, consultez [Participer à une réunion dans Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>Autoriser les personnes anonymes à démarrer une réunion
 
@@ -57,16 +57,16 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la join
  Les organisateurs de réunion peuvent cliquer sur **Options de réunion** dans l’invitation à la réunion afin de modifier ce paramètre pour chaque réunion qu’ils planifient.
 
 > [!NOTE]
-> Dans les options de la réunion, le paramètre est intitulé « Qui peut ignorer la salle d’attente ». Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
+> Dans les options de la réunion, le paramètre est intitulé « Qui peut ignorer la salle d’attente ». Si vous modifiez le paramètre par défaut pour un utilisateur, celui-ci s’applique à toutes les réunions organisées par cet utilisateur et aux réunions antérieures où l’utilisateur n’a pas modifié les options de la réunion.
   
 |Valeur du paramètre  |Comportement de jointure |
 |---------|---------|
 |**Tout le monde**   |Tous les participants à la réunion joignent directement la réunion sans attendre dans la salle d’attente. Cela inclut les utilisateurs authentifiés, les utilisateurs externes d’organisations approuvées (fédérées), les invités et les utilisateurs anonymes.     |
-|**Membres de mon organisation et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, rejoignent la réunion directement sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
+|**Membres de mon organisation et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, rejoignent la réunion directement sans attendre dans la salle d’attente. Des utilisateurs d’organisations de confiance et des utilisateurs anonymes patientent dans la salle d’attente. Il s’agit du paramètre par défaut.    |
 |**Membres de mon organisation, organisations de confiance et invités**     |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités et les utilisateurs des organisations approuvées, peuvent participer directement à la réunion sans attendre dans la salle d’attente.  Les utilisateurs anonymes attendent dans la salle d’attente.   |
-|**Tous les membres de mon organisation**    |Les utilisateurs authentifiés au sein de l’organisation, y compris les utilisateurs invités, joignent directement la réunion sans attendre dans la salle d’attente.  Les utilisateurs des organisations approuvées et des utilisateurs anonymes attendent dans la salle d’attente. Il s’agit du paramètre par défaut.           |
-|**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente.           |
-|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de la réunion peuvent rejoindre la réunion directement sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente.           |
+|**Membres de mon organisation**    |Les utilisateurs authentifiés au sein de l’organisation rejoignent directement la réunion sans attendre dans la salle d’attente.  Des utilisateurs d’organisations de confiance, des utilisateurs invités et des utilisateurs anonymes patientent dans la salle d’attente.          |
+|**Organisateur uniquement**    |Seuls les organisateurs de réunion peuvent rejoindre directement la réunion sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Dans la page Teams options de la réunion client, il s’affiche sous la la figure « Moi seul ».          |
+|**Utilisateurs invités uniquement**    |Seuls les utilisateurs invités et les organisateurs de la réunion peuvent rejoindre la réunion directement sans attendre dans la salle d’attente. Tous les autres utilisateurs, y compris les utilisateurs authentifiés au sein de l’organisation, les utilisateurs invités, les utilisateurs d’organisations de confiance et les utilisateurs anonymes, doivent patienter dans la salle d’attente. Dans la page Teams options de réunion client, il s’affiche en tant que « Personnes que j’invite ».          |
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Autoriser les utilisateurs entrants à éviter la salle d’attente
 

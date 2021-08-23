@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2019 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center serveur proxy.'
-ms.openlocfilehash: 2c049edf37395197abd46744d67eced8781b3c15cf56e4308cafffb63435083c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d723ba13e7db91a8f6b22a48c5f0eeb87333e1e
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277579"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372034"
 ---
-# <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configurer les ordinateurs Skype Entreprise Server qui seront surveillés
+# <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Configurer les ordinateurs Skype Entreprise Server à surveiller
 
 **Résumé :** Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2019 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center serveur.
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de session en bordure (SBC) pour servir plusieurs clients à des partenaires Microsoft et/ou des opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bf5ec69e539796bb68325679da41c0954c3d6da6
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293911"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398963"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -137,7 +137,7 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
 
 ### <a name="activate-the-domain-name"></a>Activer le nom de domaine
 
-Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur avec une licence Système téléphonique et en attribuant une adresse SIP avec la partie FQDN de l’adresse SIP correspondant au domaine de base créé. La licence peut être révoquée après l’activation du domaine (cela peut prendre jusqu’à 24 heures).
+Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur avec une licence Système téléphonique et en attribuant une adresse SIP avec la partie FQDN de l’adresse SIP correspondant au domaine de base créé.
 
 > [!NOTE]
 > Le client de l’opérateur doit conserver au moins Système téléphonique licence attribuée au client pour éviter la suppression de la configuration Skype Entreprise client. 
@@ -205,7 +205,7 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
 
 ### <a name="activate-the-subdomain-name"></a>Activer le nom du sous-domaine
 
-Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et en attribuant une adresse SIP avec la partie de nom de domaine complet de l’adresse SIP correspondant au sous-domaine créé dans le client. La licence peut être révoquée de l’utilisateur après l’activation du sous-domaine (l’activation peut prendre jusqu’à 24 heures).
+Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant au moins un utilisateur et en attribuant une adresse SIP avec la partie de nom de domaine complet de l’adresse SIP correspondant au sous-domaine créé dans le client. 
 
 *Pour plus [d’informations](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) sur l’ajout d’utilisateurs Microsoft 365 ou Office 365 organisation, consultez l’aide Microsoft 365 domaines Office 365 domaine.*
 
@@ -255,7 +255,7 @@ Nous encourageons vivement la migration vers la nouvelle solution dès que possi
 
 Reportez-vous aux [instructions du](#deploy-and-configure-the-sbc) fournisseur SBC sur la configuration de l’envoi du nom de domaine complet (FQDN) des sous-domaine dans l’en-tête contact.
 
-## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Considérations pour la configuration duover muti-client 
+## <a name="considerations-for-setting-up-multi-tenant-failover"></a>Considérations pour la configuration duover multi-client 
 
 Pour configurer leover pour un environnement multi-client, vous devez faire les choses suivantes :
 

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e550acd5d47c0199318c820f595253eb8f2477421f62d90e3a7d16ced2336d05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b47ca7c1c0a9a5154f681a8e09d175ba17ad8013
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308485"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359191"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Interaction entre SharePoint et les OneDrive interactions entre Microsoft Teams
 
@@ -77,7 +77,9 @@ Notez que pour les équipes publiques, SharePoint site d’équipe est mis en se
 
 Type de lien de partage affiché par défaut lorsqu’un utilisateur a partagé un fichier est SharePoint centre d’administration. Voir [Modifier le type de lien par défaut lorsque les utilisateurs obtiennent des liens de partage pour](/sharepoint/change-default-sharing-link) plus d’informations.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
+
+[Gérer Teams sites connectés et des sites de canaux](/SharePoint/teams-connected-sites)
 
 [SharePoint et Teams la collaboration .](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 

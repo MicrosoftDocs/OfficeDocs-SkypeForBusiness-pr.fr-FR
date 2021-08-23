@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités ont été supprimées de Skype Entreprise Server 2019.'
-ms.openlocfilehash: 43fa8bae64e65fcba1aaf21c75e06d396d3c47eee8df40cec0db0eb1d5d646eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6ba9d9945ae5dde2a9898fe5adfd44192faceb5
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282467"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372054"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>What’s deprecated from Skype Entreprise Server 2019
 
@@ -27,7 +27,7 @@ Certaines fonctionnalités de mise en avant sont incluses dans Skype Entreprise 
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Fonctionnalités Skype Entreprise Server 2019 
 
-    The following features and functionality have been deprecated in Skype for Business Server 2019.
+Les fonctionnalités suivantes ont été Skype Entreprise Server 2019.
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>Passerelles XMPP pour Skype Entreprise Server
 
@@ -35,7 +35,7 @@ Skype Entreprise Server 2015 et ses prédécesseurs vous ont permis de configure
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Conversation permanente pour Skype Entreprise Server
 
-Le serveur de conversation permanente est un rôle facultatif qui permet à plusieurs utilisateurs de votre organisation de participer à des conversations de salle de conversation persistantes au fil du temps. La conversation permanente ne peut pas être déployée avec Skype Entreprise Server 2019. Ce rôle serveur est supprimé du Générateur de topologie, ainsi que du code. 
+Le serveur de conversation permanente est un rôle facultatif qui permet à plusieurs utilisateurs de votre organisation de participer à des conversations de salle de conversation persistantes au fil du temps. La conversation permanente ne peut pas être déployée avec Skype Entreprise Server 2019. Ce rôle serveur est supprimé du Générateur de topologie et du code. 
 
 La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here)
 
@@ -45,11 +45,9 @@ SQL La mise en miroir ne peut pas être déployée avec Skype Entreprise Server 
 
 ### <a name="in-place-upgrades"></a>Mises à niveau sur place 
 
-Les mises à niveau sur place étaient disponibles Skype Entreprise Server 2015, mais ne sont plus Skype Entreprise Server 2019. La mise à niveau et la coexistence côte à côte sont pris en charge. Pour plus d’informations, [voir Migration Skype Entreprise Server 2019.](migration/migration-to-skype-for-business-server-2019.md)
+Les mises à niveau sur place étaient disponibles Skype Entreprise Server 2015, mais ne sont plus Skype Entreprise Server 2019. La mise à niveau et la coexistence côte à côte sont pris en charge. Pour plus d’informations, [voir Migration to Skype Entreprise Server 2019](migration/migration-to-skype-for-business-server-2019.md).
 
 ### <a name="mobility-service-mcx"></a>Mobility Service (Mcx)
-
-La prise en charge du service de mobilité utilisée par les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Cette annonce a été précédemment Skype Entreprise Server 2015.
 
 Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant Mcx devront mettre à niveau vers un client actuel.
 
@@ -59,7 +57,7 @@ Pour plus d’informations, voir [la comparaison des](../SfbServer/plan-your-dep
 
 Les outils suivants ne seront pas disponibles à la version initiale de Skype Entreprise Server 2019 :
 
-- Calculateur de planification de la capacité Skype Entreprise Server
+- Calculateur de planification de la capacité Skype Entreprise Server
 - Skype Entreprise Server Outils de débogage
 - Skype Entreprise Server Outils du Kit de ressources (certains outils seront supprimés)
     - Call Parkometer

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: b5e9cf54430b82079429e1aab3ee98b802b875c1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8a805c90ef68f6ee5d6c754cdad7834c7a6ddff0
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233069"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398933"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -67,6 +67,8 @@ Saisissez un nom pour la file d’attente des appels.
 ![Capture d’écran des paramètres du compte de ressource](media/call-queue-name-language.png)
 
 Cliquez sur **Ajouter des comptes**, recherchez le compte de ressource que vous souhaitez utiliser avec cette file d’attente des appels, cliquez sur **Ajouter**, puis de nouveau sur **Ajouter**. (Les agents verront le nom du compte de ressource lorsqu’ils recevront un appel entrant.)
+
+Pour [plus d’Teams, voir Gérer Teams comptes](manage-resource-accounts.md) de ressources.
 
 ### <a name="assign-calling-id"></a>Affecter un ID d’appel
 

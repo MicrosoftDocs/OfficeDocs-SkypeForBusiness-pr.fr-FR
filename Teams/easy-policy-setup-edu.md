@@ -17,16 +17,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Stratégie de Teams pour l’éducation pour appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
-ms.openlocfilehash: 335061c2dfb662673a4ec026bb3a29015cdb59b4b198bdafc9a971e4480938d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e046e108f899f95e76df8c03d5fd6d25de4a942
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344057"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386683"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant Teams pour l’éducation stratégie d’entreprise pour appliquer facilement des stratégies à un environnement d’apprentissage sécurisé
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 L Microsoft Teams pour l’éducation Assistant Stratégie simplifie la gestion des stratégies pour vos étudiants et enseignants. Utilisez-la pour appliquer facilement et rapidement l’ensemble le plus important de stratégies pertinentes pour créer une expérience d’apprentissage sécurisée et productive.
 
@@ -205,6 +205,8 @@ Voici une liste des définitions de stratégie globales (à l’échelle de l’
 |  |        |Autoriser le complément Outlook         |Désactivé       |Activé|
 |  |        |Autoriser la planification des réunions pour les canaux        |Désactivé      |Activé|
 |  |        |Autoriser la planification des réunions privées       |Désactivé      |Activé|
+|  |        |Autoriser l’inscription à une réunion              |Activé       |Activé|
+|  |        |Qui pouvez vous inscrire    |Tous les membres de l’organisation      |Tous les membres de l’organisation|
 |  |Audio & vidéo        |Autoriser la transcription        |Activé       |Activé|
 |  |        |Autoriser l’enregistrement dans le cloud         |Désactivé      |Activé|
 |  |        |Mode pour l’audio sur IP       |Audio sortant et entrant activé        |Audio sortant et entrant activé|
@@ -273,6 +275,8 @@ Voici une liste des définitions de stratégie personnalisées assignées aux en
 |  |        |Autoriser le complément Outlook         |Activé       |Activé|
 |  |        |Autoriser la planification des réunions pour les canaux        |Activé      |Activé|
 |  |        |Autoriser la planification des réunions privées       |Activé      |Activé|
+|  |        |Autoriser l’inscription à une réunion              |Activé       |Activé|
+|  |        |Qui pouvez vous inscrire    |Tous les membres de l’organisation      |Tous les membres de l’organisation|
 |  |Audio & vidéo        |Autoriser la transcription        |Activé       |Activé|
 |  |        |Autoriser l’enregistrement dans le cloud         |Activé      |Activé|
 |  |        |Mode pour l’audio sur IP       |Audio sortant et entrant activé        |Audio sortant et entrant activé|
@@ -325,7 +329,7 @@ Voici une liste des définitions de stratégie personnalisées assignées aux en
 
 * * *
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Stratégies et packages de stratégies Teams pour l’éducation](policy-packages-edu.md)
 - [Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

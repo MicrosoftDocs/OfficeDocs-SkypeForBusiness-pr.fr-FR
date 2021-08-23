@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Guide de sécurité pour Skype Entreprise Online <add description>
-ms.openlocfilehash: 0100eaab0a06cdbc618f39bd02ae832dca71abd5ac0498143fd51e8da9ea0e3e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6dca69d4ced66543845990f88e9c389936281c7a
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295941"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407023"
 ---
 # <a name="security-and-skype-for-business-online"></a>Sécurité et Skype Entreprise Online
 
@@ -88,7 +88,7 @@ Un virus est une unité de code dont le but est de reproduire d'autres unités d
 ## <a name="personally-identifiable-information"></a>Informations d’identification personnelle
 SfBO peut divulguer des informations sur un réseau public qui peut être lié à une personne. Ces informations appartiennent à deux catégories :
 - **Données de présence améliorées** &nbsp; &nbsp; &nbsp; Les données de présence améliorées sont des informations qu’un utilisateur peut choisir de partager ou non sur un lien vers un partenaire fédéré ou avec des contacts au sein d’une organisation. Elles ne sont pas partagées avec les utilisateurs d’un réseau public de messagerie instantanée. Selon les stratégies de groupe en vigueur et la configuration du client, l’administrateur système peut contrôler ces informations. Dans le service SfBO, le mode de confidentialité de présence amélioré peut être configuré pour un utilisateur individuel afin d’empêcher les utilisateurs de SfBO de ne pas voir les informations de présence de l’utilisateur dans la liste des contacts de l’utilisateur. 
-- **Données obligatoires**&nbsp;&nbsp;&nbsp;Les données obligatoires sont les données requises pour que le serveur ou le client s’exécute correctement. Il s’agit d’informations nécessaires au niveau d’un serveur ou d’un réseau à des fins de routage, de maintenance de l’état et de signalisation.
+- **Données obligatoires**&nbsp;&nbsp;&nbsp;Les données obligatoires sont les données requises pour que le serveur ou le client s’exécute correctement. Il s’agit d’informations nécessaires au niveau d’un serveur ou réseau à des fins de routage, de maintenance de l’état et de signalisation.
 Les tableaux suivants répertorient les données nécessaires au fonctionnement de SFBO.
 
 ***Tableau 1 - Données de présence enrichies***
@@ -96,14 +96,14 @@ Les tableaux suivants répertorient les données nécessaires au fonctionnement 
 <!--start table here -->
 
 
-|                      |                                                                                            |   |
-|:---------------------|:-------------------------------------------------------------------------------------------|:--|
-| **Données**             | **Paramètres** **possibles**                                                                  |   |
-| Données personnelles        | Nom, Titre, Société, Adresse de courrier, Fuseau horaire                                             |   |
-| Numéros de téléphone    | Bureau, Mobile, Domicile                                                                         |   |
-| Informations de calendrier | Informations de liberté, informations d’urgence et de réunion (à ceux qui ont accès à votre calendrier) |   |
-| Statut de présence      | Absent(e), Disponible, Occupé(e), Ne pas déranger, Hors connexion                                             |   |
-|                      |                                                                                            |   |
+
+| **Données**             | **Paramètres** **possibles**                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------------------|
+| Données personnelles        | Nom, Titre, Société, Adresse de courrier, Fuseau horaire                                             |
+| Numéros de téléphone    | Bureau, Mobile, Domicile                                                                         |
+| Informations de calendrier | Informations de liberté, informations d’urgence et de réunion (à ceux qui ont accès à votre calendrier) |
+| Statut de présence      | Absent(e), Disponible, Occupé(e), Ne pas déranger, Hors connexion                                             |
+|                      |                                                                                            |
 
 <!-- end of table -->
 
@@ -112,13 +112,12 @@ Les tableaux suivants répertorient les données nécessaires au fonctionnement 
 <!--start table here -->
 
 
-|              |                                                                 |   |
-|:-------------|:----------------------------------------------------------------|:--|
-| **Catégorie** | **Paramètres possibles**                                           |   |
-| Adresse IP   | Adresse réelle de l’ordinateur ou adresse traduite via NAT                     |   |
-| URI SIP      | <u>david.campbell@contoso.com</u>                               |   |
-| Nom         | David Campbell (tel que défini dans les services de domaine Active Directory) |   |
-|              |                                                                 |   |
+| **Données**             | **Paramètres** **possibles**                                                                  |
+|:---------------------|:-------------------------------------------------------------------------------------------|
+| Adresse IP   | Adresse réelle de l’ordinateur ou adresse traduite via NAT                     |
+| URI SIP      | <u>david.campbell@contoso.com</u>                               |
+| Nom         | David Campbell (tel que défini dans les services de domaine Active Directory) |
+|              |                                                                 |
 
 <!-- end of table -->
 
@@ -135,7 +134,7 @@ Les rubriques de cette section décrivent la manière dont chacun de ces éléme
 Azure Active Directory sert de service d’annuaire pour Microsoft 365 et Office 365. Il stocke toutes les affectations de stratégie et les informations de l’annuaire utilisateur. 
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>Infrastructure à clé publique pour SFBO
-Le service SfBO s’appuie sur des certificats pour l’authentification du serveur et pour établir une chaîne de confiance entre les clients et les serveurs, ainsi qu’entre les différents rôles des serveurs. L’infrastructure à clé publique (PKI) de Windows Server fournit l’infrastructure nécessaire à l’établissement et à la validation de cette chaîne de confiance.
+Le service SfBO s’appuie sur des certificats pour l’authentification du serveur et pour établir une chaîne de confiance entre les clients et les serveurs et entre les différents rôles des serveurs. L’infrastructure à clé publique (PKI) de Windows Server fournit l’infrastructure nécessaire à l’établissement et à la validation de cette chaîne de confiance.
 Les certificats sont des ID numériques. Ils identifient un serveur par son nom et indiquent ses propriétés. Pour garantir la validité des informations d’un certificat, le certificat doit être émis par une autorité de certification fiable par des clients ou d’autres serveurs connectés au serveur. Si le serveur se connecte uniquement avec d’autres clients et serveurs sur un réseau privé, la CA peut être une CA d’entreprise. Si le serveur interagit avec des entités en dehors du réseau privé, une CA publique peut être requise.
 
 Même si les informations du certificat sont valides, il doit exister un moyen de vérifier que le serveur présentant le certificat est en fait celui représenté par le certificat. C’est ici que le PKI de Windows entre en jeu.
@@ -154,7 +153,7 @@ TLS permet aux utilisateurs, via leur logiciel client, d’authentifier les serv
 
 Les connexions de serveur à serveur reposent sur le protocole TLS (MTLS) mutuel pour l’authentification mutuelle. Sur une connexion MTLS, le serveur à l’origine d’un message et le serveur le recevant échangent des certificats à partir d’une autorité de certification mutuellement approuvée. Les certificats prouvent l’identité d’un serveur à un autre. Dans le service SfBO, cette procédure est adoptée.
 
-TLS et MTLS permettent d’empêcher les attaques par écoute et les attaques d’intercepteur. Dans le cas d’une attaque d’intercepteur, l’attaquant réachemine les communications entre deux entités de réseau via l’ordinateur de l’attaquant sans que l’autre partie n’en ait connaissance. La spécification des serveurs fiables TLS et SfBO réduit le risque d’une attaque de man-in-the-middle partiellement sur la couche d’application à l’aide d’un chiffrement de bout en bout coordonné à l’aide du chiffrement de clé publique entre les deux points de terminaison, et un pirate informatique doit avoir un certificat valide et approuvé avec la clé privée correspondante et émis au nom du service sur lequel le client communique pour déchiffrer la communication. 
+TLS et MTLS permettent d’empêcher les attaques par écoute et les attaques d’intercepteur. Dans le cas d’une attaque d’intercepteur, l’attaquant réachemine les communications entre deux entités de réseau via l’ordinateur de l’attaquant sans que l’autre partie n’en ait connaissance. La spécification des serveurs fiables TLS et SfBO réduit le risque d’une attaque entre les hommes en milieu, partiellement sur la couche d’application, à l’aide d’un chiffrement de bout en bout coordonné à l’aide du chiffrement de clé publique entre les deux points de terminaison, et un pirate informatique doit avoir un certificat valide et approuvé avec la clé privée correspondante et émis au nom du service sur lequel le client communique pour déchiffrer la communication. 
 
 ### <a name="encryption-for-sfbo"></a>Chiffrement pour SFBO
 SfBO utilise les technologie TLS et MTLS pour chiffrer les messages instantanés. Tout le trafic de serveur à serveur requiert MTLS, que le trafic soit confiné au réseau interne ou qu’il traverse le périmètre réseau interne.
@@ -166,9 +165,10 @@ Le tableau suivant résume le protocole utilisé par SfBO.
 <!--start table here with header -->
 
 
-|||
-|:-----|:-----|
+
+
 |**Type de trafic**|**Protégé par**|
+|:-----|:-----|
 |Serveur à serveur|MTLS|
 |Client à serveur|TLS|
 |Messagerie instantanée et présence|TLS (si TLS est configuré)|
@@ -244,7 +244,7 @@ Pour permettre aux utilisateurs externes et aux utilisateurs internes d’échan
 5. Un utilisateur reçoit un e-mail contenant une invitation pour rejoindre une réunion SfBO. L’e-mail contient une clé de conférence et une URL au format HTTP établissant un lien vers la conférence. La clé et l’URL sont spécifiques à une réunion particulière.
 
 ### <a name="federation-safeguards-for-sfbo"></a>Protections de la fédération pour SfBO
-La fédération fournit à votre organisation la possibilité de communiquer avec d’autres organisations pour partager la messagerie instantanée et la présence. Dans SFBO, la fédération est activée par défaut. Toutefois, les administrateurs des locataires peuvent contrôler ceci via le portail Microsoft 365 ou Office 365 Admin client. En savoir plus.
+La fédération fournit à votre organisation la possibilité de communiquer avec d’autres organisations pour partager la messagerie instantanée et la présence. Dans SFBO, la fédération est activée par défaut. Toutefois, les administrateurs des locataires ont la possibilité de contrôler ceci via le portail Microsoft 365 ou Office 365 Admin client. En savoir plus.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Répondre aux menaces pesant sur les conférences SFBO
 
@@ -259,7 +259,7 @@ Permettre aux utilisateurs externes de participer aux réunions SFBO augmente co
 
 ### <a name="participant-roles"></a>Rôles des participants
 Les participants à la réunion se répartissent en trois groupes, chacun ayant ses propres privilèges et restrictions :
--  &nbsp; Organisateur &nbsp; Utilisateur qui crée une réunion, que ce soit improvisée ou en programmant. Un organisateur doit être un utilisateur d’entreprise authentifié et contrôler tous les aspects des utilisateurs finaux d’une réunion.
+-  &nbsp; Organisateur &nbsp; Utilisateur qui crée une réunion, que ce soit improvisé ou en programmant. Un organisateur doit être un utilisateur d’entreprise authentifié et contrôler tous les aspects des utilisateurs finaux d’une réunion.
 -  &nbsp; Présentateur &nbsp; Un utilisateur autorisé à présenter des informations lors d’une réunion, à l’aide de tout support multimédia pris en charge. Un organisateur de réunion est par définition également un présentateur et détermine qui d’autre peut être un présentateur. Il peut effectuer cette détermination lorsqu’une réunion est planifiée ou pendant son déroulement.
 -  &nbsp; Participant &nbsp; Utilisateur qui a été invité à participer à une réunion, mais qui n’est pas autorisé à agir en tant que présentateur.
 

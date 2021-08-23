@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en France pour Microsoft Teams.
-ms.openlocfilehash: 81778d63eeb6f63497d9f37597e51e7c4e5eca6b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 862f746c7911ab86d292a0d99699d8fcec86e52a
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233279"
+ms.locfileid: "58348346"
 ---
 # <a name="phone-number-management-for-france"></a>Gestion des numéros de téléphone pour la France
 
@@ -35,7 +35,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> | Téléchargez l’un de ces formulaires. <br/> [nouvelle demande de numéro de téléphone pour la France (v.6.0) (fr-fr)](https://download.microsoft.com/download/4/e/7/4e7e9da9-f2cc-4e4d-97af-efcb85a51b0d/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [nouvelle demande de numéro de téléphone pour la France (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf?raw=true)<br/> <br/>   Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)  <br/>
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> | Téléchargez l’un de ces formulaires. <br/> [nouvelle demande de numéro de téléphone pour la France (v.6.0) (fr-fr)](https://download.microsoft.com/download/0/b/0/0b033801-8340-4d68-bf27-7a242df27516/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [nouvelle demande de numéro de téléphone pour la France (v.5.0) (en-us)](https://download.microsoft.com/download/b/c/9/bc9f48ba-09d5-4345-a6a7-9cd460b481c1/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf)<br/> <br/>   Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)  <br/>
 |Obtenez les numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez l’un de ces formulaires. <br/><br/> Pour les numéros de téléphone des utilisateurs :<br/>[lettre d’autorisation (LOA) pour la France (numéros géographiques) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>Pour les numéros de téléphone gratuits : <br/>[lettre d’autorisation (LOA) pour la France (numéros de téléphone gratuit) (v.6.0) (fr-fr)](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)  <br/> |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |

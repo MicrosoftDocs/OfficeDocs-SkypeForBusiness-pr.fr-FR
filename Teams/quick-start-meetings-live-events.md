@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c4e9b4e3133927aaea883fb64d4798b6761b65ebe83f6a887bf9b50ba589e70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9f97065a6bf7dd8be3d3a417b7482b3b5f50935
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285683"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365671"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Démarrage rapide : réunions, webinaires et événements en direct 
 
@@ -83,7 +83,7 @@ Le tableau suivant met en évidence les articles clés que vous souhaitez examin
 | Article | Description | 
 |----------|--------|
 | [Paramètres de réunion](meeting-settings-in-teams.md) |  Décrit comment configurer les paramètres des réunions pour les utilisateurs anonymes, les invitations aux réunions et le trafic multimédia.  |
-| [Stratégies de réunion](meeting-policies-in-teams.md)  | Décrit comment créer et gérer les stratégies qui déterminent les fonctionnalités disponibles pour les participants à la réunion. | 
+| [Stratégies de réunion](meeting-policies-overview.md)  | Décrit comment créer et gérer les stratégies qui déterminent les fonctionnalités disponibles pour les participants à la réunion. | 
 | [Gérer l’enregistrement des réunions cloud Teams](cloud-recording.md) | Décrit comment gérer les enregistrements de réunion. |
 | [Gérer les appareils de votre organisation](device-management.md)| Décrit comment gérer les appareils de votre organisation, tels que les téléphones et les salles Teams. |
 ||

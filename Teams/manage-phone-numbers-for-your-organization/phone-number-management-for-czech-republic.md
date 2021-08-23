@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en République tchèque Microsoft Teams.
-ms.openlocfilehash: 9345183a4d10710534714dc247c2a211d8908ca4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 332870d84dd816da9bf40ca4408cf7ebe24b2ac7
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232839"
+ms.locfileid: "58348466"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Téléphone de numéro pour la République tchèque
 
@@ -37,7 +37,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |En République tchèque, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en [contactant ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)<br/><br/>Nouvelle demande de numéro de téléphone pour la République tchèque [(v.1.0) cs-CZ.](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf) <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage des nouvelles commandes sur ce marché peut prendre de deux à trois semaines.  |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |En République tchèque, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en [contactant ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)<br/><br/>Nouvelle demande de numéro de téléphone pour la République tchèque [(v.1.0) cs-CZ.](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf ) <br/><br/> Pour que vous ne soyez pas affecté à des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le remplir intégralement et nous l’envoyer.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
 |Obtenez les numéros de téléphone qui nous sont transférés. | Téléchargez ce formulaire. <br/><br/>[Lettre d’autorisation pour la République tchèque (tous les numéros) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) Vous devez également inclure une facture de service à partir de l’adresse professionnelle pour laquelle vous souhaitez transférer des numéros.<br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment. |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |

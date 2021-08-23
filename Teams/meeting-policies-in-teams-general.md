@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres généraux de stratégie de réunion dans Teams.
-ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
+ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235209"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392921"
 ---
 # <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
 
@@ -38,7 +38,9 @@ Cet article décrit les paramètres de stratégie générale suivants pour Teams
 - [Autoriser la planification des réunions privées](#allow-scheduling-private-meetings)
 - [Autoriser la conférence maintenant dans les réunions privées](#allow-meet-now-in-private-meetings)
 - [Mode de rôle de présentateur désigné](#designated-presenter-role-mode)
-- [Rapport de présence aux réunions](#meeting-attendance-report)
+- [Autoriser le rapport d’engagement](#allow-engagement-report)
+- [Autoriser l’inscription à une réunion](#allow-meeting-registration)
+- [Qui pouvez vous inscrire](#who-can-register)
 - [Fournisseur de réunion pour le mode Islands](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>Autoriser la conférence maintenant dans les canaux
@@ -108,7 +110,7 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre vous permet de mod
 
 Le paramètre **Qui peut présenter ?** permet aux organisateurs de réunions de choisir qui peuvent être présentateurs pendant une réunion. Pour plus d’informations, consulte [Modifier les paramètres des participants pour une réunion Teams](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e) et [Rôles dans une réunion Teams](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce paramètre de stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce paramètre de stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
 Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** dans Teams, définissez le paramètre **DesignatedPresenterRoleMode** sur l’un des éléments suivants :
 
@@ -118,15 +120,44 @@ Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** 
 
 Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, les organisateurs de réunion peuvent toujours modifier ce paramètre dans Teams et choisir les personnes pouvant présenter les réunions qu’ils planifient.
 
-## <a name="meeting-attendance-report"></a>Rapport de présence aux réunions
+## <a name="allow-engagement-report"></a>Autoriser le rapport d’engagement
 
 Il s’agit d’une stratégie par utilisateur. Ce paramètre permet de contrôler si les organisateurs de réunion peuvent télécharger le [Rapport de participation aux réunions](teams-analytics-and-reports/meeting-attendance-report.md).
 
-Pour l’instant, vous pouvez uniquement utiliser PowerShell pour configurer ce paramètre de stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+Cette stratégie est off par défaut et permet à vos organisateurs de voir qui s’est inscrit et a participé aux réunions et webinaires qu’ils ont créés. Pour activer cette fonction dans le centre Teams d’administration, allez à **Stratégies** de réunion, puis définissez la stratégie  >  sur **Activé.**
 
-Pour permettre à l’organisateur de la réunion de télécharger le rapport de présence de réunion, définissez le paramètre **AllowEngagementReport** **sur Activé.** Lorsque cette option est activée, l’option permettant de télécharger le rapport est affichée dans le volet **Participants**. Par défaut, ce paramètre est activé.
+Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+
+Pour permettre à l’organisateur de la réunion de télécharger le rapport de présence de réunion, définissez le paramètre **AllowEngagementReport** **sur Activé.** Lorsque cette option est activée, l’option permettant de télécharger le rapport est affichée dans le volet **Participants**. Par défaut, ce paramètre n’est pas activé.
 
 Pour empêcher un organisateur de la réunion de télécharger le rapport, définissez le paramètre sur **Désactivé**.
+
+## <a name="allow-meeting-registration"></a>Autoriser l’inscription à une réunion
+
+Il s’agit d’une stratégie par utilisateur. Si vous l’activer, les utilisateurs de votre organisation peuvent configurer des webinaires. Cette stratégie est activée par défaut.
+
+Pour modifier cette stratégie dans le centre Teams’administration, allez dans **Stratégies**  >  **de réunion.** Pour désactiver l’inscription aux réunions, définissez la stratégie sur **Désactiver.**
+
+Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+
+Pour activer l’inscription aux réunions, définissez **le paramètre AllowMeetingRegistration** sur **True.** Cette option est définie par défaut sur **True.**
+
+Pour désactiver l’inscription aux réunions et empêcher les utilisateurs de planifier des webinaires, définissez le paramètre sur **False.**
+
+## <a name="who-can-register"></a>Qui pouvez vous inscrire
+
+Cette stratégie contrôle les utilisateurs qui peuvent s’inscrire et participer à des webinaires. Cette stratégie présente deux options, qui ne sont disponibles que si l’option Autoriser **l’inscription** aux réunions est désactivée.
+
+- Définissez **Qui** peuvent s’inscrire à Tout le monde si vous voulez autoriser tout le monde, y compris les utilisateurs anonymes, à s’inscrire et à participer à des webinaires que les utilisateurs de votre organisation ont créés. 
+- Définissez Qui peuvent  **s’inscrire** à tous les membres de l’organisation si vous voulez autoriser uniquement les utilisateurs de votre organisation à s’inscrire et à participer à des webinaires.
+
+Par défaut, **la Qui peut s’inscrire** est définie sur **Tout le monde.** Pour modifier cette stratégie dans le centre Teams’administration, allez dans **Stratégies**  >  **de réunion.**
+
+Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+
+Pour autoriser tout le monde, y compris les utilisateurs anonymes, à s’inscrire et à participer à des webinaires, définissez le paramètre **WhoCanRegister** sur **Tout le monde.** Cette option est définie par défaut sur **Tout** le monde.
+
+Pour autoriser uniquement les utilisateurs de votre organisation à s’inscrire et à participer à des webinaires, définissez le paramètre **sur EveryoneInCompany.**
 
 ## <a name="meeting-provider-for-islands-mode"></a>Fournisseur de réunion pour le mode Islands
 
@@ -134,7 +165,7 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine quel co
 
 Vous ne pouvez appliquer cette stratégie uniquement aux utilisateurs qui sont en mode Îles et dont le paramètre **AllowOutlookAddIn** est défini sur **True** dans leur stratégie de réunion Teams.
 
-Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
+Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) et l’affecter à des utilisateurs.
 
 Pour spécifier le complément de la réunion que vous voulez mettre à la disposition des utilisateurs, définissez le paramètre **PreferredMeetingProviderForIslandsMode** comme suit :
 
@@ -153,5 +184,5 @@ Les réactions pendant les réunions sont désactivées par défaut. La désacti
 ## <a name="related-topics"></a>Sujets associés
 
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+- [Attribuer des stratégies dans Teams](policy-assignment-overview.md)
 - [Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs](meeting-policies-restricted-anonymous-access.md)

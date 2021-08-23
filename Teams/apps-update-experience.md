@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment mettre à jour les applications dans Microsoft Teams.
-ms.openlocfilehash: e271af73800e87ddf5c0f83009fbd85002fc059e8da3f2479198de9ae64ea698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1a5cc6d926e7bc183db9950f1d11c1e3ffcd06c
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288402"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359141"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Mettre à jour des applications dans Microsoft Teams
 
@@ -32,11 +32,9 @@ Dans la plupart des cas, une fois que les développeurs d’applications publien
 * Un robot a été ajouté ou supprimé
 * La propriété « botId » d’un robot existant a été modifiée
 * La propriété « isNotificationOnly » d’un robot existant a été modifiée
-* La propriété « SupportsFiles » du bot a été modifiée
-* Une extension de messagerie a été ajoutée ou supprimée
+* Les fonctionnalités SupportCalling, SupportsVideo et SupportsFiles d’un robot ont été ajoutées
+* Une extension de messagerie a été ajoutée
 * Un nouveau connecteur a été ajouté
-* Un nouvel onglet statique a été ajouté
-* Un nouvel onglet configurable a été ajouté
 * Propriétés dans « webApplicationInfo » modifiées
 
 ![nouvelle version disponible](media/manage-your-custom-apps-update1.png)
@@ -46,6 +44,6 @@ Dans la plupart des cas, une fois que les développeurs d’applications publien
 > [!NOTE] 
 > Le processus de mise à jour s’applique à toutes les mises à jour d’application pour les applications Microsoft, les applications personnalisées et les applications tierces. 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Gérer les applications](manage-apps.md)

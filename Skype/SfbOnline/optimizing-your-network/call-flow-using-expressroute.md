@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Cet article décrit les principes du flux d'appels pour Skype Entreprise Online et ExpressRoute, et vous présente des exemples détaillés de flux d'appels afin de vous permettre de comprendre et de planifier correctement.
-ms.openlocfilehash: 098949c41430bc939197a21373489b1aaa10c1678943d0ee695cd7ade02be142
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 35936e1e33f2914345aa5443ca745dc2c5260ad7
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304636"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407203"
 ---
 # <a name="call-flow-using-expressroute"></a>Flux d'appels avec ExpressRoute
 
@@ -196,9 +196,9 @@ Skype Entreprise Les scénarios d’utilisation en ligne impliquent des utilisat
 
  **Flux d'appels résumé pour Skype Entreprise Online**
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
 |**Cas d'utilisation** <br/> |**Points de terminaison** <br/> |**Chemin de signalisation** <br/> |**Chemin de médias** <br/> |**Exemple de flux** <br/> |**Remarques** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Appel d'égal à égal  <br/> |Deux clients, tous les deux sur votre réseau.  <br/> |ExpressRoute  <br/> |local  <br/> |[Appel d’égal à égal pour un Microsoft 365 ou Office 365 utilisateur à partir du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> ||
 |Appel d'égal à égal  <br/> |Deux clients, un sur votre réseau (interne) et l’autre sur Internet (externe).  <br/> |Utilisateur interne : ExpressRoute  <br/> Utilisateur externe : Internet  <br/> |Utilisateur interne : ExpressRoute  <br/> Utilisateur externe : Internet vers Microsoft 365 ou Office 365 serveur Edge.  <br/> |[Appel d’égal à égal pour les Microsoft 365 utilisateurs Office 365 l’intérieur du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> |Suppose que le pare-feu bloque les connexions directes entre les clients, serveur Edge en ligne requis. Le trafic provenant d’un utilisateur interne à l’aide du serveur Edge en ligne suit un chemin similaire à celui d’un serveur de conférence pour une téléconférence.  <br/> |
 |Appel d'égal à égal vers un utilisateur dans une organisation fédérée  <br/> |Deux clients, un sur votre réseau (interne) et un utilisateur en ligne sur le réseau de l'organisation fédérée (fédéré).  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) <br/> |Suppose qu'un pare-feu bloque les connexions directes entre les clients, serveur Edge en ligne requis. Le trafic provenant de l'utilisateur interne à destination du serveur Edge en ligne suit un chemin similaire à celui d'un serveur de conférence pour une téléconférence.  <br/> |
@@ -215,9 +215,10 @@ Skype Entreprise Les scénarios d’utilisation en ligne impliquent des utilisat
 
 Les flux d'appels hybrides sont utilisés lorsque vous disposez d'un déploiement Skype Entreprise comprenant au moins plusieurs utilisateurs domiciliés sur site. Les flux d’appels dans cette section comprennent à la fois des conférences sur site et des appels d’égal à égal ou PSTN avec au moins un utilisateur sur site.
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+
 |**Cas d'utilisation** <br/> |**Points de terminaison** <br/> |**Chemin de signalisation** <br/> |**Chemin de médias** <br/> |**Exemple de flux** <br/> |**Remarques** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Appel d'égal à égal  <br/> |Deux clients, tous les deux sur le réseau du client et domiciliés sur site.  <br/> |Local  <br/> |local  <br/> |[Appel d’égal à égal pour un Microsoft 365 ou Office 365 utilisateur à partir du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> |Étant donné que les utilisateurs sont résident sur site, le trafic de signalisation est envoyé vers le centre de données sur site plutôt que vers le cloud.  <br/> |
 |Appel d'égal à égal  <br/> |Deux clients, se connectant tous les deux depuis le réseau du client. L'un d'entre eux est domicilié en ligne, l'autre est domicilié sur site.  <br/> |Utilisateur en ligne : ExpressRoute  <br/> Utilisateur sur site : local  <br/> |local  <br/> |[Appel d’égal à égal pour les Microsoft 365 utilisateurs Office 365 l’intérieur du réseau du client](call-flow-using-expressroute.md#bk_Figure2) <br/> |Seul l’utilisateur homed en ligne envoie le trafic de signalisation vers le cloud.  <br/> |
 |Appel d'égal à égal vers un utilisateur dans une organisation fédérée  <br/> |Deux clients, un utilisateur sur site sur le réseau du client (interne) et un utilisateur en ligne sur le réseau de la société fédérée (fédéré).  <br/> |Utilisateur interne : local  <br/> Utilisateur fédéré : ExpressRoute  <br/> |Internet ou ExpressRoute (selon si un serveur Edge en ligne ou sur site est utilisé)  <br/> |[Utilisateur en ligne](call-flow-using-expressroute.md#bk_Figure3) sur votre réseau rejoignant une conférence hébergée en ligne et faisant partie du serveur Edge sur site avec des conférences Microsoft 365 ou [Office 365 hébergées](call-flow-using-expressroute.md#bk_Figure5) (pour le trafic de médias). <br/> |Suppose qu'un pare-feu bloque les connexions directes entre les clients, serveur Edge en ligne requis. La négociation ICE permettra une connectivité à la fois via des serveurs Edge en ligne (par l'utilisateur en ligne) et sur site (par l'utilisateur sur site).  <br/> |
@@ -228,12 +229,13 @@ Les flux d'appels hybrides sont utilisés lorsque vous disposez d'un déploiemen
 
 Les utilisateurs qui se connectent à la version Cloud Connector sont tous domiciliés en ligne. Cela signifie que les conférences seront en ligne, et que le trafic de signalisation suivra les mêmes modèles que pour les utilisateurs en ligne. Pour les scénarios autres que les appels RTC, le flux d'appels sera exactement identique au flux décrit ci-dessus pour Skype Entreprise Online.
 
-|||||||
-|:-----|:-----|:-----|:-----|:-----|:-----|
+
+
 |**Cas d'utilisation** <br/> |**Points de terminaison** <br/> |**Chemin de signalisation** <br/> |**Chemin de médias** <br/> |**Exemple de flux** <br/> |**Remarques** <br/> |
+|:-----|:-----|:-----|:-----|:-----|:-----|
 |Appel RTC  <br/> |Utilisateur en ligne sur votre réseau utilisant la version Cloud Connector.  <br/> |local  <br/> |local  <br/> |[Appel RTC utilisant Skype Entreprise version Cloud Connector](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Appel RTC  <br/> |Utilisateur en ligne sur Internet utilisant la version Cloud Connector.  <br/> |Internet  <br/> |Internet  <br/> |Combinaison de serveur Edge sur site avec des [conférences](call-flow-using-expressroute.md#bk_Figure5) Microsoft 365 ou Office 365 et des appels [PSTN](call-flow-using-expressroute.md#bk_Figure6)utilisant Skype Entreprise Cloud Connector Edition.  <br/> |Les utilisateurs sur Internet se connecteront via le serveur Edge inclus dans Cloud Connector, et Cloud Connector se connectera au réseau RTC.  <br/> |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Documentation ExpressRoute](/azure/expressroute/)

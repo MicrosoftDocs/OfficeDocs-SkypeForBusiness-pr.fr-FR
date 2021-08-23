@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Italie Microsoft Teams.
-ms.openlocfilehash: 9c08d4bf962e69833db5aace511e49c4a683bb49
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 05f25f7cc4de7438d02c4b5a5ff8c353eb379e92
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232599"
+ms.locfileid: "58348276"
 ---
 # <a name="phone-number-management-for-italy"></a>Téléphone gestion des nombres pour l’Italie
 
@@ -34,7 +34,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Téléchargez les formulaires corrects et envoyez-les-nous.**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br>  [Nouvelle demande de numéro de téléphone pour l’Italie (v.5.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf?raw=true) <br/>  [Nouvelle demande de numéro de téléphone pour l’Italie (v.5.0) (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>Renseignez-le et [contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md). |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.   <br/> |Téléchargez l’un de ces formulaires. <br>  [Nouvelle demande de numéro de téléphone pour l’Italie (v.5.0) (it-it)](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [Nouvelle demande de numéro de téléphone pour l’Italie (v.5.0) (fr-fr)](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>Renseignez-le et [contactez PTSN pour obtenir des instructions](contact-pstn-service-desk.md). |
 |Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour l’Italie (tous les nombres) (v.6.0) (it-it)](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/publier.      <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment attribuer, modifier ou supprimer un numéro de téléphone privé pour vos utilisateurs Teams entreprise et clients externes.
-ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79323338a901cf587b590b7930a11f6c296271e1
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320027"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372244"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur (forfaits d’appels)
 
@@ -51,10 +51,10 @@ Pour savoir comment obtenir des forfaits d’appels Teams prix, consultez Teams 
 5. Selon que vous voulez envoyer un courrier électronique à l’utilisateur avec ses informations de numéro de téléphone, désactiver ou activer l’utilisateur de courrier avec des **informations de numéro de téléphone.** Par défaut, c’est le cas. 
 6. Cliquez sur **Enregistrer**.
 
-Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
 
-    > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+> [!NOTE]
+> En raison de la latence entre Microsoft 365 ou Office 365 et Teams, l’activé peut prendre jusqu’à 24 heures pour les utilisateurs. Si le numéro de téléphone n’est pas attribué correctement après 24 heures, contactez le support technique pour les produits pour les entreprises [- Aide de l’administrateur.](/microsoft-365/admin/contact-support-for-business-products) Nous sommes là pour vous aider !
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>Modifier le numéro de téléphone d’un utilisateur
@@ -71,7 +71,7 @@ Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/mo
 8. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
 9. Cliquez sur **Enregistrer**.
 
-Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Supprimer le numéro de téléphone d’un utilisateur
  
@@ -83,9 +83,9 @@ Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/mo
 4. Dans le **volet Édition,** sous **Affecté à,** cliquez sur **le X** pour supprimer l’utilisateur.
 5. Cliquez sur **Enregistrer**.
 
-Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Qu’est-ce que la validation d’adresse ?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
@@ -95,6 +95,6 @@ Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/mo
 
 [Étiquette d’exclusion de responsabilité d’appel d’urgence](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
 [Forfaits d’appels Microsoft 365](./calling-plans-for-office-365.md)

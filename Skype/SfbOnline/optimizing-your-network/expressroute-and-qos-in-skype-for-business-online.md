@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 0dd1b95006dcc493baa46a31ea34c5aaff1465010146c16926c9af151e6442af
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6854c1a515fc5aa22a2766944366d6b644e14483
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325661"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407223"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online
 
@@ -66,7 +66,7 @@ Dewy Law LLC est une entreprise relativement jeune, dont les avocats et les autr
   
  **Répartition des utilisateurs par lieux et postes**
   
-||**Siège social (New York)**|**Bureaux régionaux (3)**|**Grandes succursales (24)**|**Petites succursales (50)**|
+|Personnel |**Siège social (New York)**|**Bureaux régionaux (3)**|**Grandes succursales (24)**|**Petites succursales (50)**|
 |:-----|:-----|:-----|:-----|:-----|
 |Direction  <br/> |20  <br/> |10  <br/> |1  <br/> |1  <br/> |
 |Partenaires  <br/> |150  <br/> |50  <br/> |10  <br/> |5  <br/> |
@@ -357,7 +357,7 @@ L'association recommandée en Layer 3 aux priorités en Layer 2 est représenté
   
  **Associations recommandées pour les priorités en Layer 3 avec Layer 2**
   
-||**Marqueurs Layer 3**|**Layer 2 (valeur de PCP)**|**Wi-Fi (catégorie d'accès)**|
+|&nbsp; |**Marqueurs Layer 3**|**Layer 2 (valeur de PCP)**|**Wi-Fi (catégorie d'accès)**|
 |:-----|:-----|:-----|:-----|
 |Contrôle du réseau  <br/> |Comportement par saut (PHB) - sélecteur de classe (CS) 6  <br/> |6  <br/> |1 (AC_VO)  <br/> |
 |Valeur DSCP -48  <br/> |
@@ -404,7 +404,7 @@ La fourniture constante de services voix et vidéo en temps réel de qualité pr
   
 Des outils d'entreprise efficaces doivent avoir un fonctionnement fiable et homogène et fournir une expérience encourageant les utilisateurs à les adapter. D'un point de vue réseau, cela signifie qu'il faut disposer d'une infrastructure réseau, à la fois locale et globale, fixe et mobile, permettant cela. La planification, la conception, la mise en œuvre et la maintenance de cette infrastructure ne sont pas toujours aisées. Le matériel, les outils et les services réseau qui permettent d'y parvenir sont disponibles aujourd'hui, mais les informaticiens doivent être conscients que ceux-ci sont conçus, mis en œuvre et maintenus d'une manière qui garantit que les utilisateurs bénéficient d'un ensemble de services de communication et de collaboration qui leur permettent de travailler efficacement et que l'organisation peut tirer pleinement profit des possibilités de cette technologie. 
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Documentation ExpressRoute](/azure/expressroute/)
 

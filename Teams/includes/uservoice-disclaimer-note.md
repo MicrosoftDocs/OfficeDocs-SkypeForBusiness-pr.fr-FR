@@ -1,2 +1,2 @@
 > [!NOTE]
-> Microsoft va passer de UserVoice à notre propre solution de commentaires client produit par produit en 2021. [En savoir plus](https://support.microsoft.com/topic/-pages-430e1a78-e016-472a-a10f-dc2a3df3450a).
+> Microsoft va passer de UserVoice à notre propre solution de commentaires client sur la base de produit individuel pendant l’année 2021. [En savoir plus](https://support.microsoft.com/topic/-pages-430e1a78-e016-472a-a10f-dc2a3df3450a).

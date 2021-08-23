@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Luxembourg pour Microsoft Teams.
-ms.openlocfilehash: 7fc768dfc6b7d4d953e0c90382d33721a0814029
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 3d7aa278f15a5b0256e271b627afa675aa25c274
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235299"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365611"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Téléphone gestion des nombres pour le Luxembourg
 
@@ -37,13 +37,13 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |Au Luxembourg, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant PTSN pour obtenir des instructions.](contact-pstn-service-desk.md)<ul><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Allemand (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour Luxembourg - Luxembourg (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Français (version 1.0) (lu-FR)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li></ul> <br/>Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter le service [ptSN Service Desk](contact-pstn-service-desk.md)pour obtenir des instructions.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines. |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |Au Luxembourg, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et [en contactant PTSN pour obtenir des instructions.](contact-pstn-service-desk.md)<ul><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Allemand (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour Luxembourg - Luxembourg (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Nouvelle demande de numéro de téléphone pour le Luxembourg - Français (version 1.0) (lu-FR)](https://download.microsoft.com/download/f/2/6/f26f72b3-4d14-4b53-8bc1-aa17c1f0ae64/New%20phone%20number%20request%20for%20Luxembourg.pdf)</li></ul> <br/>Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter le service [ptSN Service Desk](contact-pstn-service-desk.md)pour obtenir des instructions.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines. |
 |Obtenez les numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour Luxembourg (tous les numéros) (v.1.0) (en-lu)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) <br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché.<br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.    |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/désabolier. <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
 |Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente ou de service automatique, contactez le service de service [PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) |
 |Connaître votre client|formulaire|
-   
+
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

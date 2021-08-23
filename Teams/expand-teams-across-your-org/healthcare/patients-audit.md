@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: En savoir plus sur l’audit de l’application Patients pour Teams administrateurs
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 288877032c662ee03e0fd575a1f9ce2e96d1b4336c290899e98eeef92a11fecf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308733"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380608"
 ---
 # <a name="audit-logs-for-patients-app"></a>Journaux d’audit pour l’application Patients
 
@@ -67,7 +67,7 @@ L’application Patients possède ses propres activités journalées, répertori
 | Patient ajouté à la liste | PatientListAddListent | Un patient a été ajouté à la liste des patients. |
 | Ajout d’une note pour un patient | PatientNoteAdd | Une note a été ajoutée à un dossier de patients. |
 | Schéma de patient créé | PatientSchemaCreate | Un ensemble de colonnes utilisées dans l’enregistrement du patient a été créé. |
-| Un utilisateur a initié une exportation | ExportInitiation | Les données des patients ont été exportées de l’application Patients vers Excel fichier. Le fichier est enregistré sur le site SharePoint de l’équipe. |
+| Un utilisateur a initié une exportation | ExportInitiation | Les données des patients ont été exportées de l’application Patients vers Excel fichier. Le fichier est enregistré dans le site de la SharePoint’équipe. |
 | Liste des patients créée | PatientListCreate | Un utilisateur a créé une liste de patients.|
 | Définir la liste des patients par défaut| PatientListDefaultSet| Un utilisateur a définir une liste particulière en tant que liste par défaut.|
 | Patient supprimé de la liste| PatientListRemoveSent | Un patient a été supprimé de la liste des patients. |
@@ -83,6 +83,6 @@ Vous pouvez personnaliser votre audit selon vos besoins pour rechercher ou filtr
 
 Les activités enregistrées pour Microsoft Teams en général sont décrites dans Microsoft Teams [activités.](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Effectuer des recherches dans le journal d’audit](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

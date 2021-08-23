@@ -15,12 +15,12 @@ description: Utilisez ces instructions pour déployer votre Microsoft Teams char
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc107db668a582ad164e20f3b3ded169bd5d86125d949fe45d4d2f89090a8f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b52bbef87b08fd541a444e5613aed17032739f67
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312572"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380438"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Déployer et Microsoft Teams d’abord
 
@@ -48,7 +48,7 @@ Pour commencer à travailler avec votre Teams premier déploiement, vous devez r
 4.  Le réseau de l’organisation est préparé pour l’Teams  
     Pour comprendre la préparation du réseau, lisez Préparer le réseau [de votre organisation pour l’Teams.](prepare-network.md)
 
-5.  Autoriser l’accès réseau à Exchange, Sharepoint et OneDrive Entreprise dans Microsoft 365 ou Office 365 : Office 365 [URL et plages d’adresses IP.](/office365/enterprise/urls-and-ip-address-ranges)
+5.  Autoriser l’accès réseau à Exchange, SharePoint et OneDrive Entreprise dans Microsoft 365 ou Office 365 : Office 365 [url et plages d’adresses IP.](/office365/enterprise/urls-and-ip-address-ranges)
 
 > [!NOTE]
 > Les locataires créés après le 1er septembre 2019 sont Teams mode d’accès uniquement.
@@ -292,7 +292,7 @@ Pour plus d’informations sur chacun des services répertoriés ci-dessus, suiv
   - [Microsoft 365 groupes sont](office-365-groups.md) utilisés pour la création/gestion d’équipes et de canaux.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Illustrations architecture IT Microsoft Teams et solutions téléphonie](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

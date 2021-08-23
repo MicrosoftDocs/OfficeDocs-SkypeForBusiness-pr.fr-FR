@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: En savoir plus sur les données et rapports disponibles dans le tableau de bord de qualité des appels de Microsoft.
-ms.openlocfilehash: 9d13823981ced4d631ed50fe9fd964765c761a029831d630de103bdc5c43e206
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04330069f04c948ad82b953bee20e5d20c9ab964
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331116"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339862"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels
 
@@ -396,11 +396,9 @@ Lors de l’examen de vos données, vous pouvez constater des différences entre
   - Teams de gestion de la bande passante dynamique. Skype Entreprise non.
 - Différences entre les [plages d’adresses IP](Office-365-URLs-IP-address-ranges.md) Teams et Skype Entreprise. Les Teams d’adresses IP sont plus nouvelles, ce qui peut entraîner des problèmes de connectivité au niveau du pare-feu.
 
-> [!IMPORTANT]
-> Depuis le 1er juillet 2020, l’ancienne version du CQD (cqd.lync.com) accède aux données à partir du nouveau CQD (et vous ne pouvez plus exporter les données de création et de création de https://CQD.teams.microsoft.com) rapports). À compter du 31 juillet 2021, date de l’abandon d’Skype Entreprise Online, nous désactiverons le CQD hérité et vous ne serez plus en mesure d’y accéder.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 

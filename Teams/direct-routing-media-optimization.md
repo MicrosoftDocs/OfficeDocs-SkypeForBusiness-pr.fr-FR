@@ -1,5 +1,5 @@
 ---
-title: Optimisation des médias locaux pour le direct
+title: Optimisation des médias locaux pour le routage direct
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,14 +16,14 @@ f1.keywords:
 description: Optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42234a80d87b01f9ee4b87943216d104caaa7fde
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2513a72502573689b0ab988ea9647384688c9255
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233589"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365651"
 ---
-# <a name="local-media-optimization-for-direct-routing"></a>Optimisation des médias locaux pour le routage direct
+# <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planifier l’optimisation des médias locaux pour le routage direct
 
 La voix de réseau téléphonique commuté (PSTN) est considérée comme une application critique pour l’entreprise, avec des attentes élevées en matière de qualité vocale. Le routage direct vous permet de contrôler les flux de trafic de médias pour tenir compte d’une multitude de topologies de réseau et de configurations téléphoniques locales pour diverses entreprises dans le monde entier. 
 
@@ -43,6 +43,8 @@ Cet article décrit les fonctionnalités, ainsi que les scénarios et solutions 
 
   > [!NOTE]
   > Si vous souhaitez garder un média local au-delà des limites de votre intranet, il est recommandé d’optimiser les médias locaux. Si vous utilisez déjà la dérivation média et que vous utilisez uniquement les adresses IP publiques de vos SCS, il n’est pas obligatoire de passer à l’optimisation des médias locaux. Vous pouvez continuer à utiliser la dérivation média. Pour plus d’informations, voir [Planifier la dérivation média.](direct-routing-plan-media-bypass.md)
+
+Pour plus d’informations sur les fournisseurs SBC qui supportent l’optimisation des médias locaux, voir Contrôleurs de session [certifiés pour le routage direct.](direct-routing-border-controllers.md)
 
 
 ## <a name="supported-customer-scenarios"></a>Scénarios clients pris en charge

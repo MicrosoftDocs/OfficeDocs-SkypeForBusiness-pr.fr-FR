@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233239"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359211"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Présentation des événements en direct Microsoft Teams
 
@@ -43,7 +43,7 @@ Les événements en direct des équipes sont considérés comme la prochaine ver
 
 C’est parti ! Tout d’abord, regardez le diagramme suivant qui montre les composants de niveau élevés impliqués dans les événements en direct de Microsoft 365 et comment ils sont connectés.
 
-![Les éléments clés des événements en direct](../media/live-event-flow-diagram1.png  "Composants clés des événements en direct, planification, production, plateforme Stream, fournisseurs tiers certifiés eCDN")
+![Les éléments clés des événements en direct](../media/live-events-flow-diagram.png  "Composants clés des événements en direct, planification, production, plateforme Stream, fournisseurs tiers certifiés eCDN")
 
 > [!Note]
 > Nous aimerions souligner que les événements en direct Teams, étant donné la nature de la technologie de diffusion, dépassent souvent les populations de réunions normales (internes).

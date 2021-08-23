@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cff5f74d5ece9cf28887783ed07b9bfc8e5cd32287a96aeb2efbfaf29bce515
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9c1a08bfe63db87332035dd51b93281cc8ac0f25
+ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350446"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58398953"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -60,7 +60,7 @@ L’autorisation de publier dépend du fait qu’un utilisateur est membre d’u
 
 ### <a name="guidelines"></a>Instructions
 
-* Un seul fichier hiérarchique peut être appliqué par organisation. Toutefois, vous pouvez inclure différentes parties de votre organisation sous la forme de hiérarchies distinctes de nodes au sein d’un fichier CSV. Par exemple, Contoso Pharmaceuticals possède un nœud racine Densaire et un nœud racine Commercial. Les deux nod racines ont plusieurs lignes de descendants et il n’existe aucun chevauchement entre eux.
+* Un seul fichier hiérarchique peut être appliqué par organisation. Toutefois, vous pouvez inclure différentes parties de votre organisation sous forme de hiérarchies distinctes de nodes au sein d’un fichier. Par exemple, Contoso Pharmaceuticals possède un nœud racine Densaire et un nœud racine Commercial. Les deux nod racines ont plusieurs lignes de descendants et il n’existe aucun chevauchement entre eux.
 * Seuls les nodes de feuille peuvent être des destinataires d’une composition. D’autres niveaux de la hiérarchie sont utiles pour sélectionner les destinataires d’une composition.
 * Une équipe ne peut être représentée qu’une seule fois dans une hiérarchie.
 * Une hiérarchie peut contenir jusqu’à 15 000 nodes. Nous prévoyons de travailler avec des clients afin d’élever cette limite pour les grandes organisations.
@@ -76,7 +76,7 @@ Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent 
 > [!NOTE]
 > Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches dans les équipes de destinataires. Consultez [l’application Gérer les](./manage-tasks-app.md) tâches pour votre organisation dans Teams pour une vue d’ensemble de l’application Tâches, où la publication de tâches apparaît lorsqu’elle est activée.
 
-Le schéma qui définit votre hiérarchie est basé sur un fichier de valeurs séparées par des virgules (CSV). Chaque ligne du fichier CSV correspond à un nœud au sein de la hiérarchie des équipes. Chaque ligne contient des informations qui nomment le nœud au sein de la hiérarchie, la lie éventuellement à une équipe et inclut des attributs qui peuvent être utilisés pour filtrer les équipes dans les applications qui la supportent.
+Le schéma qui définit votre hiérarchie est basé sur un fichier de valeurs séparées par des virgules (CSV). Le fichier doit être au format UTF-8. Chaque ligne du fichier CSV correspond à un nœud au sein de la hiérarchie des équipes. Chaque ligne contient des informations qui nomment le nœud au sein de la hiérarchie, la lie éventuellement à une équipe et inclut des attributs qui peuvent être utilisés pour filtrer les équipes dans les applications qui la supportent.
 
 Vous pouvez également définir des **compartiments,** qui sont des catégories que l’équipe de publication peut utiliser pour organiser le contenu envoyé aux équipes de destinataires afin de leur faciliter l’affichage, le tri et la concentration sur le contenu pertinent.
 
@@ -87,7 +87,7 @@ Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivan
 | Nom de colonne   | Obligatoire | Description   |
 ----------------|----------|---------------|
 | DisplayName    | Oui      | Ce champ est le nom du nœud. Le nom peut comporter jusqu’à 100 caractères et contenir uniquement les caractères A-Z, a-z et 0-9. Les noms de nœuds doivent être uniques. |
-| ParentName    | Oui       | Il s’agit du nom du nœud parent. La valeur que vous spécifiez ici doit correspondre exactement à la valeur du champ **DisplayName** du nœud parent. Si vous voulez ajouter plusieurs nœuds parents, séparez le nom de chaque nœud parent par un point-virgule (;). Vous pouvez ajouter jusqu’à 25 nœuds parents, et chaque nom de nœud parent peut faire jusqu’à 2 500 caractères. Un nœud peut avoir plusieurs nœuds parents uniquement si les nœuds parents sont des nœuds racines.   <br><br>**IMPORTANT** Attention de ne pas créer de boucle dans laquelle un parent qui se trouve plus haut dans la hiérarchie fait référence à un nœud enfant plus bas dans la hiérarchie. Cela n’est pas pris en charge. |
+| ParentName    | Oui       | Il s’agit du nom du nœud parent. La valeur que vous spécifiez ici doit correspondre exactement à la valeur du champ **DisplayName** du nœud parent. Si vous voulez ajouter plusieurs nœuds parents, séparez le nom de chaque nœud parent par un point-virgule (;). Vous pouvez ajouter jusqu’à 25 nœuds parents et chaque nom de nœud parent peut faire jusqu’à 2 500 caractères. Un nœud peut avoir plusieurs nœuds parents uniquement si les nœuds parents sont des nœuds racines.   <br><br>**IMPORTANT** Attention de ne pas créer de boucle dans laquelle un parent qui se trouve plus haut dans la hiérarchie fait référence à un nœud enfant plus bas dans la hiérarchie. Cela n’est pas pris en charge. |
 | TeamId        | Oui, si l’équipe publie des tâches ou reçoit des tâches d’un nœud parent       | Il contient l’ID de l’équipe à qui vous voulez lier un nœud. Chaque nœud doit faire référence à une équipe unique, de sorte que chaque valeur TeamId peut apparaître une seule fois dans le fichier de hiérarchie. Pour obtenir l’ID d’une équipe à qui vous voulez lier un nœud, exécutez la commande PowerShell suivante `Get-Team | Export-Csv TeamList.csv` : Cette commande répertorie les équipes de votre organisation et inclut le nom et l’ID de chaque équipe. Recherchez le nom de l’équipe avec qui vous souhaitez établir un lien, puis copiez l’ID dans ce champ.|
 
 > [!NOTE]
@@ -151,7 +151,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ## <a name="apply-your-hierarchy"></a>Appliquer votre hiérarchie
 
 > [!NOTE] 
-> Pour effectuer cette étape, vous devez installer et utiliser le module Teams d’aperçu public PowerShell à partir de la galerie PowerShell. Pour savoir comment installer le module, voir Installer Teams PowerShell.
+> Pour effectuer cette étape, vous devez installer et utiliser Teams module d’aperçu public PowerShell à partir de la galerie PowerShell. Pour savoir comment installer le module, voir Installer Teams PowerShell.
 
 > [!NOTE]
 > Cloud de la communauté du secteur public clients (Cloud de la communauté du secteur public) doivent utiliser la version d’aperçu de [l’cmdlet version 2.4.0 ou](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) ultérieure pour s’assurer que les données sont acheminées vers l’environnement Cloud de la communauté du secteur public plutôt que vers l’environnement cloud public.
@@ -278,7 +278,7 @@ Vérifiez que vous utilisez le TeamId correct pour l’équipe dans votre fichie
 
 Assurez-vous que l’TeamId de votre fichier CSV de schéma correspond à l’ID de groupe qui s’affiche dans le Microsoft Teams d’administration.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 * [Gérer l’application Tâches pour votre organisation dans Teams](manage-tasks-app.md)
 * [Présentation de Teams PowerShell](teams-powershell-overview.md)

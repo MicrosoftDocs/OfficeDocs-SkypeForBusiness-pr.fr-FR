@@ -1,5 +1,5 @@
 ---
-title: Déclaration de conformité d’accessibilité - France
+title: 'Microsoft Teams : Déclaration de conformité d’accessibilité - France'
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 'Microsoft Teams est l’outil de conversation collaboratif d’Office 365 qui intègre toutes les personnes, contenus et outils ne votre équipe a besoin pour être plus impliquée et efficace. '
-ms.openlocfilehash: 269e53cf75938c789e3b51177ae02dcdbf40f14e1b24da96f327051a93433e5a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 24bb3c5e278ec2b046400308d0342fe4acfae687
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333016"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372084"
 ---
-# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d’accessibilité
+# <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams : EN 301 549 Déclaration de conformité en matière d’accessibilité
 
 Date : 2 octobre 2018
 
@@ -109,7 +109,7 @@ Cette section ne s’applique pas à Microsoft Teams.
 
 ## <a name="section-11-logiciel"></a>Section 11 Logiciel
 
-| **Critères** <br/>| **Fonctionnalités prises en charge** <br/>| **Remarques et explications** <br/> |
+| **Critères** | **Fonctionnalités prises en charge** | **Remarques et explications** |
 | --- | --- | --- |
 |**11.1.1.1 Contenu non textuel (lecture d’écran prise en charge)**<br/>Dans le cas où la CLAUSE est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran, elle remplit les Critères de Succès WCAG 2.1 indiqué dans le Tableau 1.1.1 Contenu non textuel<br/>|Pris en charge <br/> | |
 |**11.1.2.1.1 Audio seulement et vidéo seulement (préenregistré)**<br/>Dans le cas où la CLAUSE est un logiciel non-web qui est doté d’une interface utilisateur et qui prend en charge l’accès aux technologies d’assistance pour la lecture d’écran et où aucune information sonore préenregistrée n’est nécessaire pour permettre l’utilisation des fonctions fermées de la CHERCHE, elle remplit les Critères de Succès WCAG 2.1 indiqués dans le Tableau 1.2.1 Audio seulement et vidéo seulement (préenregistré).<br/>|Non applicable<br/>| |
@@ -206,6 +206,6 @@ Le présent document n’est pas la norme EN 301 549 v 2.1.2 (2018-08) et ne doi
 
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OUSE, DANS LE PRÉSENT DOCUMENT.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Solutions pour l'accessibilité de Skype Entreprise Online en France](./accessibility-solutions-in-france.md)
