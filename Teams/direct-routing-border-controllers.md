@@ -16,16 +16,16 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: L’administrateur peut en savoir plus sur les contrôleurs de frontière de session (SBC) qui ont été certifiés pour le routage direct.
+description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284215"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365791"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste des contrôleurs de frontière de session certifiés pour le routage direct
+# <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
 Microsoft établit des partenariats avec certains fournisseurs de contrôleurs SBC afin de certifier leurs SBC pour une utilisation avec un routage direct.
 
@@ -73,7 +73,7 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Pris en charge 3.20 (recommandé 4.0)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 pour le contournement du média)      |     |    |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 pour le contournement du média)      | &#10004; | &#10004; |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour routeurs de services intégrés de la série 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |   |  
 |                                   |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés de la série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |   &#10004;      |    |  
 |                                   |     Cisco Unified Border Element (CUBE) pour le routeur de services cloud de la série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |    |  
@@ -103,6 +103,39 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 - [Service de routage d’urgence intrado (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Passerelle d’urgence intrado (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
+
+## <a name="support-for-local-media-optimization"></a>Prise en charge de l’optimisation des médias locaux
+
+Le tableau suivant décrit les fournisseurs SBC qui prennent en charge L’[optimisation des médias locaux](direct-routing-media-optimization.md). 
+
+| Fournisseur | Product |    Version logicielle requise |
+|:------------|:-------|:-------|
+| [CodesAudio](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
+|            |  Mediant 800 SBC |   7.20A.256 | 
+|            |  Mediant 2600 SBC |  7.20A.256 | 
+|            |  Mediant 4000 SBC |  7.20A.256 | 
+|            |  Mediant 1000B SBC | 7.20A.256 | 
+|            |  Mediant 9000 SBC |  7.20A.256 | 
+|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
+|            |  Mediant Cloud Edition SBC | 7.20A.256 |
+| [SBC Core du ruban](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)   |  SBC 5110         | 8.2  |
+|            |  SBC 5210         | 8.2  |
+|            |  SBC 5400         | 8.2  |
+|            |  SBC 7000         | 8.2  |
+|            |  SBC SWe          | 8.2  |
+| [SBC Edge du ruban](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
+| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
+| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.0 |
+|        | AP 4600 | 8.4.0.0.0 | 
+|        | AP 6300 | 8.4.0.0.0 |
+|        | AP 6350 | 8.4.0.0.0 | 
+|        | VME     | 8.4.0.0.0 |
+
+
+
 
 ## <a name="direct-routing-and-analog-devices-interoperability"></a>Interopérabilité des périphériques analogiques et de routage direct
 
