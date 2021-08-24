@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Découvrez comment mettre en service à distance et vous connectez pour Teams appareils Android
-ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235379"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483111"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Mise en service à distance et se connectez pour Teams appareils Android
 
@@ -44,7 +44,17 @@ La liste suivante présente les conditions requises pour le microprogramme de l�
 |Teams téléphones portables|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams téléphones portables|  Audio Codes C448HD/C450HD/C470HD|   1.10.120|
 |Teams panneaux|  Crestron 770/1070|  1.004.0115|
-
+|salles Teams sur Android|Logitech Cat Bar Mini|1.2.982|
+|salles Teams sur Android|Logitech Cat Bar|1.2.982|
+|salles Teams sur Android|AudioCodes RXV80|1.13.361|
+|salles Teams sur Android|CESSEURS DÉVELOPPENT VISION 3T|1.2.2.21182.10|
+|salles Teams sur Android|Barre de réunions Yealink A30|133.15.0.60|
+|salles Teams sur Android|Barre de réunions Yealink A20|133.15.0.60|
+|salles Teams sur Android|Console tactile CTP18 Yealink|137.15.0.37|
+|salles Teams sur Android|Poly Studio X30|3.5.0.344025|
+|salles Teams sur Android|Poly Studio X50|3.5.0.344025|
+|salles Teams sur Android|Console tactile Poly TC8 |3.5.0.210489|
+|salles Teams sur Android|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>Ajouter une adresse MAC d’appareil
 
