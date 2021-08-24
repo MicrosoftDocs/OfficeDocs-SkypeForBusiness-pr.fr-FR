@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec7796d27f6606c4738d3ce415a32a6f966af6cead1a090dd053df293fcfadfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d8f77e1050e90821f8d99996022b4c97042a5f63
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332496"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483131"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 
@@ -34,7 +34,7 @@ Microsoft Teams utilise l’authentification moderne pour simplifier et sécuris
 
 ### <a name="how-modern-authentication-works"></a>Fonctionnement de l’authentification moderne
 
-L’authentification moderne est un processus qui permet à Teams de s’informer que les utilisateurs ont déjà entré leurs informations d’identification, tels que leur email professionnel et le mot de passe, et ne doivent pas être obligés de les entrer à nouveau pour démarrer l’application. L’expérience varie en fonction de plusieurs facteurs, par exemple, si les utilisateurs travaillent sur Windows ou sur un Mac. Il peut également varier selon que votre organisation a activé l’authentification à facteur unique ou multi-facteur. L’authentification multi-facteur implique généralement de vérifier les informations d’identification par téléphone, en fournissant un code unique, en entrant un code confidentiel ou en présentant une empreinte de pouce. Voici un récapitulatif de chaque scénario d’authentification moderne.
+L’authentification moderne est un processus qui permet à Teams de s’informer que les utilisateurs ont déjà entré leurs informations d’identification, tels que leur email professionnel et le mot de passe, et ne doivent pas être obligés de les entrer à nouveau pour démarrer l’application. L’expérience varie en fonction de plusieurs facteurs, par exemple, si les utilisateurs travaillent sur Windows ou sur un Mac. Il peut également varier selon que votre organisation a activé l’authentification à facteur unique ou multi-facteur. L’authentification multi-facteur implique généralement de vérifier les informations d’identification par téléphone, en fournissant un code unique, en entrant un code confidentiel ou en présentant une empreinte numérique. Voici un récapitulatif de chaque scénario d’authentification moderne.
 
 L’authentification moderne est disponible pour toutes les organisations qui utilisent Teams. Si les utilisateurs ne parviennent pas à terminer le processus, il est possible qu’il y ait un problème avec la configuration Azure AD de votre organisation. Pour plus d’informations, voir [Pourquoi est-ce que je rencontre des problèmes pour me connecter à Microsoft Teams ?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
@@ -54,10 +54,6 @@ L’authentification moderne est disponible pour toutes les organisations qui ut
 
     > [!NOTE]
     > Lorsque vous ignorez ou ignorez le nom d’utilisateur, les noms d’utilisateur qui se terminent par « . local » ou « . Corp » sont activés par défaut. vous n’avez donc pas besoin de définir une clé de Registre pour les désactiver.
-
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Déconnexion de Teams après l’achèvement de l’authentification moderne
-
-Pour se déconnecter de Teams, les utilisateurs peuvent sélectionner leur image de profil dans la partie supérieure de l’application, puis **Se déconnecter**. Ils peuvent également cliquer avec le bouton droit sur l’icône de l’application dans la barre des tâches, puis sélectionner **Se déconnecter**. Une fois qu’ils se déconnectent de Teams, ils doivent ré-entrer leurs informations d’identification pour lancer l’application.
 
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>Se connecter à un autre compte sur un ordinateur connecté à un domaine
 
@@ -88,7 +84,7 @@ Les images suivantes montrent comment les utilisateurs peuvent ajouter plusieurs
 
 ## <a name="restrict-sign-in-to-teams"></a>Restreindre la connexion à Teams
 
-Il se peut que l’organisation souhaite limiter la façon dont les applications approuvées par l’entreprise sont utilisées sur les appareils gérés, par exemple pour restreindre la possibilité pour les étudiants ou les employés d’accéder aux données d’autres organisations ou d’utiliser des applications approuvées par l’entreprise pour des scénarios personnels. Ces restrictions peuvent être appliquées en définissant des stratégies de périphériques reconnues par les applications Teams.   
+Il se peut que l’organisation souhaite limiter la façon dont les applications approuvées par l’entreprise sont utilisées sur les appareils gérés, par exemple pour restreindre la possibilité pour les étudiants ou les employés d’accéder aux données d’autres organisations ou d’utiliser des applications approuvées par l’entreprise pour des scénarios personnels. Ces restrictions peuvent être appliquées en définissant des stratégies de périphériques reconnues par les applications Teams.
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>Comment restreindre la connexion sur les appareils mobiles
 
@@ -113,11 +109,13 @@ Pour créer une stratégie de configuration d’application pour les appareils i
 Pour créer une stratégie de configuration d’application pour les appareils Android gérés, consultez [Ajouter des stratégies de configuration d’application pour les appareils Android gérés](/mem/intune/apps/app-configuration-policies-use-android).
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>Comment restreindre la connexion sur les appareils de bureau
+
 Les applications Teams sur Windows et MacOS prennent en charge les stratégies d’appareils qui restreignent la connexion à votre organisation. Les stratégies peuvent être définies via les solutions de gestion des appareils usuelles, telles que la gestion des appareils mobiles ou les objets de stratégie de groupe. 
 
 Lorsque cette stratégie est configurée sur un appareil, les utilisateurs peuvent uniquement se connecter à l’aide de comptes hébergés sur un client Azure AD inclus dans la « Liste verte du client » définie dans la stratégie. La stratégie s’applique à tous les signataires, y compris les comptes premiers et supplémentaires. Si votre organisation couvre plusieurs clients Azure AD, vous pouvez inclure plusieurs ID de client dans la liste verte. Les liens permettant d’ajouter un autre compte peuvent continuer à être visibles dans l’application Teams, mais ils ne seront pas opérationnels.
 
 > [!NOTE]
+> 
 >1. La stratégie restreint uniquement les connexions. Cela ne limite pas la possibilité pour les utilisateurs d'être invités en tant qu'invités dans d'autres clients Azure AD, ou de passer à ces autres clients (où les utilisateurs ont été invités en tant qu'invités).
 >2. La stratégie requiert Teams pour Windows version 1.3.00.30866 ou ultérieure, et Teams pour MacOS version 1.3.00.30882 (publiée mi-novembre 2020).
 
@@ -139,21 +137,11 @@ Exemple : OFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcco
 - Type de données : chaîne
 - Commentaires : entrez une liste séparée par des virgules pour les ID client Azure AD
 
+### <a name="global-sign-in"></a>Connexion globales
 
-## <a name="sign-out-on-mobile-devices"></a>Se déconnecter sur les appareils mobiles
+L’application Android Teams prend désormais en charge la connexion et la déconnexion globales pour offrir une expérience de connexion et de déconnexion aisée pour employés de première ligne. Les employés peuvent choisir un appareil dans le pool de périphériques partagé et effectuer une connexion unique personnelle afin de l’utiliser pour la durée de leur équipe. À la fin de leur équipe, ils doivent pouvoir effectuer une déconnexion globale de l’appareil. Pour en savoir plus, consultez [Se déconnecter de Teams](sign-out-of-teams.md) . Cette opération permet de supprimer toutes les informations personnelles et professionnelles de l’appareil afin de pouvoir rétablir l’appareil sur le pool d’appareils. Pour obtenir cette fonctionnalité, l’appareil doit être en mode partagé. Pour plus d’informations sur la configuration d’un appareil partagé, voir [Comment utiliser un mode d’appareil partagé dans Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
-Les utilisateurs mobiles peuvent se déconnecter de Teams en accédant au menu, puis en sélectionnant le menu **Plus**, puis en choisissant **Se déconnecter**. Une fois déconnectés, les utilisateurs devront entrer de nouveau leurs informations d’identification lors de la prochaine exécution de l’application.
-
-> [!NOTE]
-> Teams pour Android utilise l’authentification unique (SSO) pour simplifier l’expérience de connexion. Les utilisateurs doivent se déconnecter de **toutes** les applications Microsoft, en plus de Teams, afin de se déconnecter complètement de la plateforme Android.
-
-### <a name="global-sign-in-and-sign-out"></a>Connexion et déconnexion globales
-
-L’application Android Teams prend désormais en charge la connexion et la déconnexion globales pour offrir une expérience de connexion et de déconnexion aisée pour les travailleurs de bureau. Les employés peuvent choisir un appareil dans le pool de périphériques partagé et effectuer une connexion unique personnelle afin de l’utiliser pour la durée de leur équipe. À la fin de leur équipe, ils doivent pouvoir effectuer une déconnexion globale de l’appareil. Cette opération permet de supprimer toutes les informations personnelles et professionnelles de l’appareil afin de pouvoir rétablir l’appareil sur le pool d’appareils. Pour obtenir cette fonctionnalité, l’appareil doit être en mode partagé. Pour plus d’informations sur la configuration d’un appareil partagé, voir [Comment utiliser un mode d’appareil partagé dans Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
-
-L’expérience de connexion est similaire à l’expérience de signature Teams standard, tandis que la déconnexion se présente comme les deux images suivantes:
-
-![le téléphone mobile avec la déconnexion démontrée](media/global-SignOut.png)  
+L’expérience de connexion est similaire à l’expérience de signature Teams standard.
 
 ## <a name="urls-and-ip-address-ranges"></a>URL et plages d’adresses IP
 

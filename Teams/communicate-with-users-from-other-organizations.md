@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: Découvrez comment appeler, discuter, rechercher, puis ajouter des utilisateurs extérieures à l’organisation dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
-ms.openlocfilehash: 96c0892bef591d9e806de1534d7fb1095e8932a6bb8975450fca63819272b50f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5289853319b105b2b40495be1125de77ef1c28b3
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286023"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483101"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
@@ -94,7 +94,7 @@ Les tableaux suivants montrent les différences entre l’utilisation de l’acc
 
 <br>
 
-<sup>1</sup> À condition que l’utilisateur ait été ajouté en tant qu’invité et soit connecté avec le compte invité.<br>
+<sup>1</sup> À condition que l’utilisateur ait été ajouté en tant qu’invité et qu’il soit connecté avec le compte invité.<br>
 <sup>2</sup> Uniquement par adresse e-mail ou SIP (Session Initiation Protocol).<br>
 <sup>3</sup> Fonction prise en charge pour la conversation 1:1 entre utilisateurs Teams uniquement de deux organisations différentes. <br>
 <sup>4</sup> Par défaut, les participants externes n’ont pas accès aux numéros de téléphone des participants distants. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **type d’annonce d’entrée/sortie** (cela permet d’éviter que les numéros soient lus par les équipes). Pour plus d’informations, voir [Activer ou désactiver l’entrée et quitter les annonces pour les réunions dans Microsoft teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
