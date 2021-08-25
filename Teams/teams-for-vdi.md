@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406953"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523835"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams pour l’Infrastructure de bureau virtualisée (VDI)
 
@@ -471,7 +471,7 @@ if($cleanup){
 - Dans les environnements Citrix, si l’utilisateur se déconnecte de la machine virtuelle pendant que Teams est en cours d’exécution, les mises à jour Teams peuvent avoir pour effet que l’utilisateur soit dans un état non optimisé pour AV lorsqu’il se reconnecte. Nous recommandons aux utilisateurs de quitter Teams se déconnecter de Citrix Virtual Machine pour éviter ce scénario.
 - Teams doivent être déployés par utilisateur ou par ordinateur. Le déploiement de Teams pour les utilisateurs simultanés et par ordinateur n’est pas pris en charge. Pour passer d’un mode par ordinateur ou par utilisateur à l’un de ces modes, suivez la procédure de désinstallation et redéployer l’un ou l’autre.
 - Pour le moment, Azure Virtual Desktop ne prend pas en charge les clients macOS et Linux.
-- Le changement de client rapide peut entraîner des problèmes liés aux appels dans une environnement VDI, tels que le partage d’écran non disponible, une liste de participants incorrecte affichée, etc. Le redémarrage du client permet d’atténuer ces problèmes.
+- Le changement de client rapide peut entraîner des problèmes liés aux appels dans une environnement VDI, tels que le partage d’écran, qui ne sont pas disponibles. Le redémarrage du client permet d’atténuer ces problèmes.
 
 ### <a name="calling-and-meetings"></a>Appels et réunions
 
@@ -521,7 +521,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 Redémarrez ensuite VDA. Pour en savoir plus, consultez cet article de support de Citrix, qui décrit l’optimisation [HDX pour Teams.](https://support.citrix.com/article/CTX253754)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer et Microsoft Teams À l’aide de MSI](msi-deployment.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc66dda7b4c7c87b3b0dd97846f5e45aae20c4c70daa870f0cdb2adb2373529
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b697f83ce568004cfd94340d3d2d50f0e8dda54b
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308943"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523805"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformité des communications avec les Microsoft Teams
 
@@ -46,7 +46,7 @@ La mise en place de la conformité [](/microsoft-365/compliance/communication-co
 Teams administrateurs peuvent configurer les stratégies de conformité aux communications aux niveaux suivants :
 
 - **Niveau utilisateur**: les stratégies de ce niveau s’appliquent à Teams utilisateur individuel ou peuvent être appliquées à tous Teams utilisateurs de votre organisation. Ces stratégies couvrent les messages que ces utilisateurs peuvent envoyer dans des conversations à deux ou de groupe. Les communications de conversation pour les utilisateurs sont automatiquement contrôlées dans toutes les Microsoft Teams où les utilisateurs en sont membres.
-- **Teams niveaux :** les stratégies de ce niveau s’appliquent à un canal Microsoft Team, y compris à un canal privé. Ces stratégies couvrent les messages envoyés dans le Teams uniquement.
+- **Teams :** les stratégies à ce niveau s’appliquent à un Microsoft Teams, y compris un canal privé. Ces stratégies couvrent les messages envoyés dans le Teams uniquement.
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>Agir sur les messages inappropriés dans Microsoft Teams
 

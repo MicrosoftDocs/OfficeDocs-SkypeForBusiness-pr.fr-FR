@@ -18,12 +18,12 @@ description: Dans cet article, vous allez découvrir les Teams disponibles dans 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399103"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523825"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
@@ -54,7 +54,7 @@ Nous améliorons continuellement l’expérience de Teams en matière de rapport
 |[Teams Rapport sur les pools de minutes PSTN](pstn-minute-pools-report.md) |  Pays ou région<br>Fonctionnalité (licence) <br>Nombre total de minutes<br>Minutes utilisées<br>Minutes disponibles|
 |[Teams Rapport d’utilisation PSTN - Forfaits d’appels](pstn-usage-report.md#calling-plans)|  Horodament<br>Nom d'utilisateur<br>Téléphone numéro<br>Type d’appel <br>Appelé à<br>Pour le pays ou la région <br>Appelé depuis <br>À partir du pays ou de la région<br>Charge<br>Devise<br>Durée<br>Nationaux/Internationaux<br>ID d’appel<br>Type de nombre<br>Pays ou région<br>ID de conférence<br>Fonctionnalité (licence)|
 |[Teams Rapport d’utilisation PSTN - Routage direct](pstn-usage-report.md#direct-routing)  |  Horodament<br>Nom d’affichage<br>Adresse SIP<br>Téléphone numéro <br>Type d’appel<br>Appelé à<br>Heure de début<br>Heure d’invitation<br>Heure d’échec<br>Heure de fin<br>Durée<br>Type de nombre<br>Contournement de média<br>SBC FQDN<br>Région Azure<br>Type d’événement<br>Code SIP final<br>Sous-code Microsoft final<br>Phrase SIP finale<br>ID de corrélation  |
-|[Teams licences de protection des informations - Routage direct](information-protection-license-report.md)  | <br>Si les utilisateurs ont des licences valides pour envoyer leurs messages via des notifications de modification</br><br>Nombre total d’événements de notification de modification déclenchés par un utilisateur</br><br>Quelles applications écoutent les événements de notification de modification à l’échelle de l’organisation ?</br>|
+|[Teams de licence de protection des informations](information-protection-license-report.md)  | <br>Si les utilisateurs ont des licences valides pour envoyer leurs messages via des notifications de modification</br><br>Nombre total d’événements de notification de modification déclenchés par un utilisateur</br><br>Quelles applications écoutent les événements de notification de modification à l’échelle de l’organisation ?</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

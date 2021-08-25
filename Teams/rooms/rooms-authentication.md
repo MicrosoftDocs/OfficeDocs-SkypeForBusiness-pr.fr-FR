@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Découvrez comment configurer l’authentification moderne pour Salles Microsoft Teams
-ms.openlocfilehash: f8e0f8897d553e1ef856772577c93bf4f2ee60347088c64039f986b9bc99bbfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c12cc19c4ef10321046bc052c7040204980d6826
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308505"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523775"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentification dans Salles Microsoft Teams
 
@@ -44,7 +44,7 @@ Pour Salles Microsoft Teams’utiliser l’authentification moderne avec Skype E
 
 ### <a name="using-device-settings"></a>Utilisation des paramètres de l’appareil
 
-1. Sur l’appareil Salles d’équipe Microsoft, allez **à Autres** (**...**).
+1. Sur l’Salles Microsoft Teams, allez sur **Plus** **(...).**
     
 2. Sélectionnez **Paramètres,** puis entrez le nom d’utilisateur et le mot de passe de l’administrateur de l’appareil.
 3. Sous **l’onglet Compte,** activer **l’authentification moderne,** puis sélectionner **Enregistrer et quitter.**

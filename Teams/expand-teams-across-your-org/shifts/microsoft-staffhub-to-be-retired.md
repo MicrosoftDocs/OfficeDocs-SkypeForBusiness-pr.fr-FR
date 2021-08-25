@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b6483ad432eb066e5f3a62e839704b33f65ed8e14ac2f32dedb227ba0c98d1ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 07e2b94b1c4dea84136a2faad5748fcc412e4097
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336234"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523795"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub a été retiré
 
@@ -31,7 +31,7 @@ Microsoft StaffHub n’existe plus depuis le 30 juin 2020. Nous développons l
 
 Ces changements font partie de nos efforts continus pour donner à chaque employé les moyens d’Microsoft 365. Grâce aux fonctionnalités désormais disponibles pour les employés en ligne en Teams, chaque employé de votre organisation sera en mesure d’utiliser Teams pour simplifier sa journée de travail, collaborer avec ses collègues, et accéder aux informations et connaissances utiles pour les aider à mieux travailler.
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 ### <a name="about-staffhub-retirement"></a>À propos de la retraite de StaffHub
 
@@ -92,7 +92,7 @@ Les fonctionnalités essentielles sont identiques entre les applications Shifts 
 Shifts fonctionne sur tous les navigateurs que Teams prend en charge, qui inclut les dernières versions de Microsoft Edge, Internet Explorer, Google Chrome et Mozilla Firefox. Pour plus d’informations, [voir Obtenir des clients pour Teams.](../../get-clients.md)
 
 > [!Note]
-> Microsoft 365 applications et services ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à partir du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant du [](/lifecycle/faq/internet-explorer-microsoft-edge) Windows d’exploitation et suit la politique de cycle de vie du produit sur lequel il est installé. 
+> Microsoft 365 applications et services ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à partir du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant du [](/lifecycle/faq/internet-explorer-microsoft-edge) Windows d’exploitation et suit la politique de cycle de vie du produit sur lequel il est installé. 
 
 #### <a name="what-languages-does-shifts-support"></a>Quelles sont les langues que Shifts prend en charge ?
 
@@ -144,7 +144,7 @@ Pour en savoir plus, [voir Comment SharePoint Online et comment OneDrive Entrepr
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Y a-t-il une intégration entre Shifts et Outlook calendrier ? Puis-je exporter un planning vers un calendrier ?
  
-Les employés en ligne peuvent voir leur planning de travail entier en un coup d’œil dans Shifts. Nous 3drons pris en charge l’intégration native Outlook calendrier dans le cadre de notre feuille de route. En attendant, utilisez Microsoft Flow pour configurer l’intégration avec Shifts dans Teams et Outlook calendriers Google.
+Les employés en ligne peuvent voir leur planning de travail entier en un coup d’œil dans Shifts. Nous 3drons pris en charge l’intégration native Outlook calendrier dans le cadre de notre feuille de route. En attendant, utilisez Power Automate pour configurer l’intégration avec Shifts dans Teams et Outlook calendriers Google.
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Quels contrôles d’administration sont disponibles pour gérer le fait que les utilisateurs de mon organisation peuvent utiliser Shifts ?  
   

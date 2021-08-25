@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dda26fafd48c56c11e2d6e085a1932a00307c64e96996bc30f22faaa80ed5639
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc1c36c0a82bb7323f5919c788508a4ef028f21
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306386"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523815"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
@@ -36,7 +36,7 @@ Cet article décrit comment activer Location-Based routage pour le routage direc
 - Configurations de la passerelle
 - Stratégies d’appel
 
-Vous pouvez utiliser le [Centre d’administration de Microsoft Team](#using-the-microsoft-teams-admin-center) ou [PowerShel](#using-powershell)l pour activer Location-Based routage.
+Vous pouvez utiliser le [Centre Microsoft Teams’administration](#using-the-microsoft-teams-admin-center) de l’utilisateur ou [PowerShel](#using-powershell)l pour activer Location-Based routage.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
@@ -190,6 +190,6 @@ Dans cet exemple, nous empêchons la dérivation PSTN contre les stratégies d�
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) est un service qui s’exécute en arrière-plan et met automatiquement à jour Skype Entreprise et Microsoft Teams réunions pour les utilisateurs. MmS est conçu pour éliminer la nécessité pour les utilisateurs d’exécuter l’outil de migration de réunion pour mettre à jour Skype Entreprise et Microsoft Teams réunions.
-ms.openlocfilehash: 71fefa3986d9daf3a9eb7cd1403ba9490cbbf7ff687853a7876f05cd0a75eed1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68a3ef384c67835b25ff5db7ee6dfccf8b2ca1a7
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298874"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523865"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utilisation du service Meeting Migration Service (MMS)
 
@@ -183,6 +183,7 @@ Si des migrations ont échoué, prenez des mesures pour résoudre ces problèmes
     - demander aux utilisateurs de créer de nouvelles réunions Skype ;
     - [contacter le support technique](/microsoft-365/Admin/contact-support-for-business-products).
 
+L’cmdlet peut être utilisée pour récupérer l’état des migrations qui ont été déclenchées au cours des `Get-CsMeetingMigrationStatus` 150 derniers jours. Les enregistrements des migrations de plus de 150 jours sont purgés du système.
 
 ### <a name="enabling-and-disabling-mms"></a>Activation et désactivation de MMS
 
@@ -208,7 +209,7 @@ Si MMS est activé dans l’organisation et que vous voulez vérifier s’il est
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

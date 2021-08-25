@@ -13,12 +13,12 @@ ms.collection:
 description: Découvrez les dernières modifications dans Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3fbffcf36e05aab945833bcf6a09e097d6c0c39
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 88c00fbad17c07e179c1163ec393c95859ac4705
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380448"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523785"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams Notes de publication de PowerShell
 
@@ -31,7 +31,7 @@ Cette page fournit le dernier Teams de modification de PowerShell pour les mises
 
 | Date | Version | Mises à jour |
 |------- | -------------------- | ------------------------------ |
-| Août 2021 | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>Mises à jour de connexion AccessToken avec Connecter-MicrosoftTeams.</li><li>Correctifs pour la connexion interactive dConnect-MicrosoftTeams cloudshell.</li><li>Améliorations apportées à New-Team cmdlet pour les scénarios de création d’équipe.</li><li>Les cmdlets TeamsUnassignedNumberTreatment sont désormais disponibles.</li><li>Get-CsCsOnlineDialInConferencingBridge et Set-CsOnlineDialInConferencingBridge.</li><li>Versions modernes de Get-CsTenant, Get-CsOnlineUser (avec paramètre d’identité uniquement).</li>|
+| Août 2021 | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>La New-Team cmdlet a été mise à jour avec une API plus nouvelle pour empêcher les échecs de création d’équipe précédemment observés. Par conséquent, le nombre d’échecs et de latence de l’cmdlet a été amélioré.</li><li>La connexion au jeton Access Connect-MicrosoftTeams utilise désormais une matrice de jetons unifiée au lieu de paramètres distincts pour chaque jeton spécifique à une ressource. Pour plus d’informations, cliquez [ici.](/powershell/module/teams/connect-microsoftteams?view=teams-ps)</li><li>L’échec de connexion interactif Connect-MicrosoftTeams cloudshell a été corrigé. Par défaut, il utilise désormais l’identité de l’utilisateur connecté au lieu d’être invité à se ré-authentification.</li><li>Les cmdlets TeamsUnassignedNumberTreatment sont désormais disponibles.</li><li>Get-CsOnlineDialInConferencingBridge et Set-CsOnlineDialInConferencingBridge cmdlets ont été migrées de l’ancienne implémentation vers les nouvelles API.</li><li>Les versions modernes de Get-CsTenant et Get-CsOnlineUser (avec paramètre d’identité uniquement) ont été publiées. Ils ne émettent plus de propriétés amorties et ont des modifications de mise en forme par rapport à leurs équivalents de remoting.</li>|
 | Juillet 2021 | [Prévisualisation 2.4.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>Accorder des cmdlets à des modifications désormais disponibles.</li><li>De nouvelles cmdlets associées à Voice sont publiées.</li><li>Suppression de l’authentification par empreinte digitale du certificat pour les cmdlets -Cs*</li><li>Correctif de journalisation pour les fichiers de journalisation de toutes les cmdlets.</li><li>Corrige les problèmes avec les cmdlets *TeamChannelUser.</li>|
 | Juin 2021 | [Prévisualisation 2.4.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>Version d’aperçu uniquement des versions modernes de Get-CsTenant, Get-CsOnlineUser (avec paramètre d’identité uniquement), Get-CsOnlineDialInConferencingLanguagesSupported et Import-CsOnlineAudioFile.</li><li>Les versions modernes de Get-CsOnlineDialInConferencingLanguagesSupported et Import-CsOnlineAudioFile devraient fonctionner de façon similaire/identique à leurs équivalents de la remoting.</li><li>Les versions modernes de Get-CsTenant et Get-CsOnlineUser (lorsqu’elles sont exécutés avec un paramètre de -identité) ne émettent pas de propriétés déprédées.</li><li>Les versions modernes de Get-CsTenant et Get-CsOnlineUser (lorsqu’elles sont exécutés avec un paramètre de -identity) modifient leur mise en forme par rapport à leurs composants de compteur de remoting.</li><li>Releases [Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy cmdlets.</li><li>Releases Get-CsOnlineAudioFile et Remove-CsOnlineAudioFile cmdlets.</li><li>Set-TeamTargetingHierarchy, Remove-TeamTargetingHierarchy, Get-TeamTargetingHierarchyStatus sont désormais disponibles pour Cloud de la communauté du secteur public clients.</li><li>Corrige le point de terminaison appelé par la commande Get-TeamTargetingHierarchyStatus point de terminaison.</li>|
 | Mai 2021 | [Prévisualisation 2.3.2](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>Prise en charge de la connexion AccessToken Connecter-MicrosoftTeams. Ajout du paramètre AccessTokens qui accepte le tableau de jeton. MSGraph et Teams de ressource sont requis lors de l’utilisation du paramètre AccessTokens.</li><li>Paramètres AadAccessToken et MsAccessToken supprimés.</li>|
@@ -53,7 +53,7 @@ Cette page fournit le dernier Teams de modification de PowerShell pour les mises
 | Mars 2020 | [1.0.5](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.5) |<li>Ajout de New-CsBatchPolicyAssignmentOperation</li> |
 | Février 2020 | [1.0.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.4) | <li>Get-Team optimisations</li>  |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 
