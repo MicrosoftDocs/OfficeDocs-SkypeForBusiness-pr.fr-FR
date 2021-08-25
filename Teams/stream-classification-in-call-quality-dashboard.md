@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité du flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: 595ed77fd0fa6c2fb3a9bf778ff8b94e837314da1c83acb5a099bb0c795eabe1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341150"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505422"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels
 
@@ -41,11 +41,9 @@ Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est ma
 
 |Mesure|Scénario|Condition|Explication|
 |:-----|:-----|:-----|:-----|
-|Audio Degradation Avg|La description de la charge utile n’est pas AUT|> 1,0|Dégradation moyenne de la note moyenne d'opinion réseau pour le flux. L’impact de la perte et de la gigue réseau sur la qualité de l’audio reçu.|
 |Round Trip|ALL|> 500|Durée moyenne de propagation sur le réseau de l’aller-retour, calculée en millisecondes. Détails disponibles dans [le RFC3550.](https://tools.ietf.org/html/rfc3550)|
 |Packet Loss Rate|ALL|> 0,1|Taux moyen de perte de paquets pour le flux.|
 |Jitter|ALL|> 30|Gigue moyenne pour le flux, en millisecondes.|
-|Ratio Concealed Samples Avg|La description de la charge utile n’est pas AUT|> 0,07|Rapport moyen du nombre de trames audio avec échantillons masqués générés par la perte de paquets par rapport au nombre total de trames audio.|
 ||||
 
 ### <a name="video-classifier-due-to-freeze"></a>Classificateur vidéo dû au gel

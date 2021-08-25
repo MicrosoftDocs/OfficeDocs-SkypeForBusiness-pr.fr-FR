@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit comment déployer la gestion des appareils Salles Microsoft Teams de bout en bout à l’aide d’Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234239"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505402"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Gestion :::no-loc text="Microsoft Teams Rooms"::: du déploiement avec :::no-loc text="Azure Monitor":::
 
@@ -160,16 +160,9 @@ Une fois les données collectées et les champs personnalisés mappés, vous pou
 
 > [!NOTE]
 > Les étapes précédentes de ce guide doivent avoir été effectuées pour que les vignettes du tableau de bord fonctionnent correctement.
-
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Créer un tableau Salles Microsoft Teams de bord à l’aide de la méthode d’importation
-
-Vous pouvez importer un tableau :::no-loc text="Microsoft Teams Rooms"::: de bord et commencer rapidement à surveiller vos appareils. Pour importer le tableau de bord, vous suivrez les étapes suivantes :
-
-1.  Obtenez le SkypeRoomSystems_v2 de tableau de bord [SkypeRoomSystems_v2.view.](https://go.microsoft.com/fwlink/?linkid=835675)
-2.  Connectez-vous au [ :::no-loc text="Microsoft Azure"::: portail,](https://portal.azure.com) puis sélectionnez :::no-loc text="Log Analytics"::: votre espace de travail.
-3.  Ouvrir **le Concepteur d’affichage.**
-4.  Sélectionnez Importer, puis sélectionnez **le SkypeRoomSystems_v2.view.** 
-5.  Sélectionnez **Enregistrer**.
+>
+> [!IMPORTANT]
+> Le Concepteur d’affichage dans l’écran Azure a été mis hors cours le [31 août 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) et les fonctionnalités de création et d’cloner ont été désactivées le 30 novembre 2020. Il est possible d’utiliser des manuels à la place. Pour plus d’informations sur le guide de transition du Concepteur de vues vers les manuels, voir Démarrage rapide avec des modèles de concepteur [de vues prédéfinfins.](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Créer un tableau Salles Microsoft Teams de bord manuellement
 

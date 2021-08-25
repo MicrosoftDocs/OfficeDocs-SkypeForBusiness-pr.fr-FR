@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Cet article décrit la planification de l’utilisation du moniteur Azure pour administrer Salles Microsoft Teams appareils dans votre entreprise ou Skype Entreprise en Teams’implémentation.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd5ee73fa9414a07385c7e94cce2b3387ecd217a105d072755752f979e77599a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348831"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505412"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planifier la Salles Microsoft Teams gestion des données à l’aide d’Azure Monitor
  
@@ -28,7 +28,7 @@ ms.locfileid: "54348831"
   
 [Azure Monitor](/azure/azure-monitor/overview) est un ensemble de services de gestion conçus dans le cloud depuis le début. Plutôt que de déployer et de gérer des ressources sur site, les composants du moniteur Azure sont entièrement hébergés dans Azure. La configuration est minimale et vous pouvez être opérationnel littéralement en quelques minutes. Grâce à certaines opérations de personnalisation, elle peut vous aider à gérer les systèmes de conférence Salles Microsoft Teams en fournissant des notifications en temps réel concernant l’état ou les défaillances du système pour les systèmes de salle individuels, et peut potentiellement augmenter jusqu’à la gestion de milliers de salles de conférence Salles Microsoft Teams.
   
-Cet article propose une discussion sur les meilleures pratiques requises, de conception/architecture et de mise en œuvre nécessaires pour implémenter la gestion Azure Monitor des périphériques de conférence Salles Microsoft Teams et fournit des liens vers des articles détaillés sur l’implémentation d’Azure Monitor pour Salles Microsoft Teams et des informations de référence critiques pour la surveillance continue des salles de Salles Microsoft Teams. 
+Cet article propose une discussion sur les meilleures pratiques requises, de conception/architecture et de mise en œuvre nécessaires pour implémenter la gestion azure monitor basée sur les périphériques de conférence Salles Microsoft Teams et fournit des liens vers des articles détaillés sur l’implémentation d’Azure Monitor pour Salles Microsoft Teams et des informations de référence critiques pour la surveillance continue des salles de Salles Microsoft Teams. 
   
 ## <a name="functional-overview"></a>Présentation fonctionnelle
 
@@ -50,7 +50,7 @@ Familiarisez-vous si nécessaire pour utiliser le Concepteur d’affichage d’a
 
 1. Une fois abonné à Azure Monitor Log Analytics, créez des champs personnalisés (comme décrit dans champs personnalisés [de](azure-monitor-deploy.md#Custom_fields)carte) nécessaires pour analyser les informations qui seront envoyées à partir de Salles Microsoft Teams consoles. Cela inclut la compréhension du schéma JSON documenté dans [Comprendre les entrées du journal.](azure-monitor-manage.md#understand-the-log-entries)
     
-2. Développez un affichage Salles Microsoft Teams gestion des données dans l’analyse des journaux. Vous pouvez soit [créer un tableau de bord Salles Microsoft Teams’aide](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method) de la méthode d’importation, soit créer un tableau de bord Salles Microsoft Teams [manuellement.](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
+2. Développez un affichage Salles Microsoft Teams gestion des données dans l’analyse des journaux. Vous pouvez [créer un tableau de Salles Microsoft Teams tableau de bord manuellement.](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)
     
 ## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Conditions requises Salles Microsoft Teams console individuelle
 
