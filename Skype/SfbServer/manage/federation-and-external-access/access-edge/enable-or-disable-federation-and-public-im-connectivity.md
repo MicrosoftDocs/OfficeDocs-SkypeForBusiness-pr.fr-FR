@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: La fédération doit être prise en charge pour permettre aux utilisateurs possédant un compte auprès d’un client approuvé ou d’une organisation partenaire, y compris les domaines partenaires et les utilisateurs de fournisseurs de services de messagerie instantanée publics que vous prenez en charge, de collaborer avec des utilisateurs de votre entreprise.
-ms.openlocfilehash: 105ed8a4090835be22847aa1ce2cc9788af74b5d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 6675bf36c5ef7b27941d47f5a2291ecdb75eece6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234169"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581358"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Activer ou désactiver la fédération et la connectivité de messagerie instantanée publique dans Skype Entreprise Server
 
@@ -35,7 +35,7 @@ Pour prendre en charge l’accès des utilisateurs de domaines fédérés, vous 
 Si plus tard, vous souhaitez empêcher temporairement ou définitivement des utilisateurs d’accéder aux domaines fédérés, vous pouvez désactiver la fédération pour votre entreprise. Suivez la procédure de cette section pour activer ou désactiver l’accès des utilisateurs fédérés dans votre entreprise, en spécifiant notamment les options de fédération que vous souhaitez prendre en charge.
 
 > [!NOTE]  
-> L’activation de la fédération pour votre organisation signifie uniquement que vos serveurs exécutant le service Edge d’accès prennent en charge le routage vers des domaines fédérés. Les utilisateurs des domaines fédérés ne peuvent pas participer aux sessions de messagerie instantanée ni aux conférences dans votre organisation tant que vous n’avez pas également configuré au moins une stratégie de prise en charge de l’accès des utilisateurs fédérés. Les utilisateurs de fournisseurs de services de messagerie instantanée publics ne peuvent pas participer aux sessions de messagerie instantanée ni aux conférences dans votre organisation tant que vous n’avez pas également configuré au moins une stratégie de prise en charge de la connectivité de messagerie instantanée publique. Skype Entreprise Server ne peut pas utiliser un service Exchange hébergé pour fournir des services de répondage d’appel, Outlook Voice Access (y compris la messagerie vocale) ou de service automatique pour les utilisateurs dont les boîtes aux lettres sont situées sur un service Exchange hébergé tant que vous n’avez pas configuré une stratégie de messagerie vocale hébergée qui fournit des informations de routage. Pour plus d’informations sur la configuration des stratégies de communication avec les utilisateurs de domaines fédérés dans d’autres organisations, voir Gérer les domaines fédérés [SIP pour votre organisation.](../sip-domains/manage-sip-federated-domains-for-your-organization.md) Qui plus est, si vous souhaitez prendre en charge les communications avec des utilisateurs de fournisseurs de services de messagerie instantanée, vous devez configurer des stratégies à cet effet et configurer la prise en charge des différents fournisseurs de services de votre choix. Pour plus d’informations, [voir Gérer les fournisseurs fédérés SIP pour votre organisation.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+> L’activation de la fédération pour votre organisation signifie uniquement que vos serveurs exécutant le service Edge d’accès prennent en charge le routage vers des domaines fédérés. Les utilisateurs des domaines fédérés ne peuvent pas participer aux sessions de messagerie instantanée ni aux conférences dans votre organisation tant que vous n’avez pas également configuré au moins une stratégie de prise en charge de l’accès des utilisateurs fédérés. Les utilisateurs de fournisseurs de services de messagerie instantanée publics ne peuvent pas participer aux sessions de messagerie instantanée ni aux conférences dans votre organisation tant que vous n’avez pas également configuré au moins une stratégie de prise en charge de la connectivité de messagerie instantanée publique. Skype Entreprise Server ne peut pas utiliser un service de Exchange hébergé pour fournir des services de répondage d’appel, Outlook Voice Access (y compris la messagerie vocale) ou de service de service de sécurité automatique pour les utilisateurs dont les boîtes aux lettres sont situées sur un service Exchange hébergé tant que vous n’avez pas configuré une stratégie de messagerie vocale hébergée qui fournit des informations de routage. Pour plus d’informations sur la configuration des stratégies de communication avec les utilisateurs de domaines fédérés dans d’autres organisations, voir Gérer les domaines fédérés [SIP pour votre organisation.](../sip-domains/manage-sip-federated-domains-for-your-organization.md) Qui plus est, si vous souhaitez prendre en charge les communications avec des utilisateurs de fournisseurs de services de messagerie instantanée, vous devez configurer des stratégies à cet effet et configurer la prise en charge des différents fournisseurs de services de votre choix. Pour plus d’informations, [voir Gérer les fournisseurs fédérés SIP pour votre organisation.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 
 ## <a name="to-enable-or-disable-federated-user-access-for-your-organization"></a>Pour activer ou désactiver l’accès des utilisateurs fédérés pour votre entreprise
@@ -69,7 +69,7 @@ Pour permettre aux utilisateurs fédérés de collaborer avec des utilisateurs d
 
 La fédération et la connectivité de messagerie instantanée publique peuvent également être gérées à l’aide de Windows PowerShell et de la cmdlet Set-CsAccessEdgeConfiguration public. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
-## <a name="to-enable-federation-and-public-im-connectivity"></a>Pour activer la fédération et la connectivité de messagerie instantanée publique
+## <a name="to-enable-federation-and-public-im-connectivity"></a>Pour activer la fédération et la connectivité DE MESSAGERIE INSTANTANÉE publique
 
   - Pour activer la fédération et la connectivité PIC, définissez la valeur de la propriété **AllowFederatedUsers** à True ($True) :<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 

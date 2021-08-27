@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Découvrez comment configurer l’interopérabilité entre votre déploiement local et Teams.'
-ms.openlocfilehash: 8a5d40ea56ca4cfdce6f748bea1d276bbb2727eb2669390e6ee6fb006bfd22ed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 98248452151f03cec803568c93549188f9cf8e5d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319567"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587966"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configurer Skype Entreprise hybride
 
@@ -35,11 +35,11 @@ Pour configurer Skype Entreprise hybride, vous devez :
 - [Configurez votre environnement local pour qu’il Teams et activez l’espace d’adressan SIP partagé.](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams)
 - [Activez l’espace d’adressa ment SIP](#enable-shared-sip-address-space-in-your-organization)partagé dans Teams organisation.
 
-Si vous avez Exchange local, vous pouvez configurer OAuth entre vos environnements Exchange local et en ligne. Pour plus d’informations, voir Gérer l’authentification de serveur à serveur dans [Skype Entreprise Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) et planifier l’intégration Skype Entreprise [et Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support). 
+Si vous avez Exchange local, vous pouvez configurer OAuth entre vos environnements Exchange local et en ligne. Pour plus d’informations, voir [Manage server-to-server authentication in Skype Entreprise Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) and Plan to integrate Skype Entreprise and [Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support). 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-teams"></a>Configurer votre service Edge local pour la fédération avec Teams
 
-La fédération permet aux utilisateurs de votre déploiement local de communiquer avec Teams utilisateurs de votre organisation. Pour configurer la fédération, exécutez la cmdlet suivante dans l’Skype Entreprise Server Management Shell :
+La fédération permet aux utilisateurs de votre déploiement local de communiquer avec Teams utilisateurs de votre organisation. Pour configurer la fédération, exécutez l’cmdlet suivante dans Skype Entreprise Server Management Shell :
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -48,7 +48,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $Tru
 Si la valeur « -EnablePartnerDiscovery » est définie sur $True, Skype Entreprise Server utilise les enregistrements DNS pour essayer de découvrir les domaines partenaires non répertoriés dans la liste AllowedDomains. Si la valeur est définie sur $False , Skype Entreprise Server fédérera uniquement avec les domaines trouvés dans la liste AllowedDomains. Ce paramètre est requis si vous utilisez le routage de service DNS.
 
 > [!NOTE]
-> Pour plus d’informations sur l’activation de la fédération entre les utilisateurs de votre déploiement Skype Entreprise local et les utilisateurs d’une organisation Microsoft 365, voir Configuration de la prise en charge de la fédération pour un client Microsoft 365 dans [Skype Entreprise Server](../../SfbServer/manage/federation-and-external-access/federation-support/configuring-federation-support.md).
+> Pour plus d’informations sur l’activation de la fédération entre les utilisateurs de votre déploiement Skype Entreprise local et les utilisateurs d’une organisation Microsoft 365, voir Configuration de la prise en charge de la fédération pour un client [Microsoft 365 dans Skype Entreprise Server](../../SfbServer/manage/federation-and-external-access/federation-support/configuring-federation-support.md).
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams"></a>Configurez votre environnement local pour activer l’espace d’adressan SIP partagé avec Teams

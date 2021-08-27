@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Résumé : Examinez les étapes d’intégration pour Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.'
-ms.openlocfilehash: c2775133715ecae783880ed738784252ecab32e231a53db55579769f0e22320e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 44b27328252384d6c7635cee2f0c98dafdd180ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621786"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Intégrer des Skype Entreprise Server avec Exchange Server
 
@@ -31,9 +31,9 @@ Cette documentation fournit des informations sur l’intégration de Skype Entre
 
 Si vous intégrez une installation locale de Skype Entreprise Server à Microsoft Exchange Online, voir Configurer l’intégration entre Skype Entreprise Server local et [Outlook Web App.](outlook-web-app.md)
 
-Si vous intégrez Skype Entreprise Online à Exchange Server en local, voir [Configurer OAuth](oauth-with-online-and-on-premises.md)entre Skype Entreprise Online et Exchange local.
+Si vous intégrez Skype Entreprise Online à Exchange Server local, voir [Configurer OAuth](oauth-with-online-and-on-premises.md)entre Skype Entreprise Online et Exchange local.
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Configurer des applications partenaires dans Skype Entreprise Server et Exchange Server](configure-partner-applications.md)
 

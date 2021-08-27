@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme correct, le mettre à jour si nécessaire, attribuer des licences et configurer les paramètres de Skype Entreprise téléphones en ligne
-ms.openlocfilehash: 072a7caa6d5b9caa1827f5f93973a12e77c1823063fad8706469a4fabfa87ff2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295801"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607441"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Déploiement de téléphones Skype Entreprise Online
 
@@ -44,7 +44,7 @@ Avant de commencer, il est pertinent de télécharger les guides d'administratio
   
 - Pour les téléphones Polycom, voir la [bibliothèque de documentation Poly.](https://documents.polycom.com/category/voice)
     
-- Pour les téléphones Yealink, [consultez la solution Yealink Skype Entreprise HD SIP Phones.](http://www.yealink.com/products_top_2.html)
+- Pour les téléphones Yealink, voir [Yealink Skype Entreprise solution pour les téléphones HD SIP.](http://www.yealink.com/products_top_2.html)
     
 - Dans le cas de téléphones AudioCodes, consultez le guide [Audiocodes Provisioning Management Guide](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
     
@@ -70,7 +70,7 @@ Vérifiez la version du microprogramme sur votre téléphone. Pour :
 ### <a name="step-4---device-update-considerations"></a>Étape 4 : remarques sur la mise à jour de l'appareil
 
 > [!NOTE]
-> Le microprogramme Polycom antérieur à la version 5.5.1.X avait un mécanisme de verrouillage de l’appareil spécifique au fabricant qui a été remplacé par un Skype Entreprise « Téléphone verrouillage ». La mise à niveau d’un téléphone à partir de la mise à niveau 5.4.X.X sécurisée avec « Verrouillage de l’appareil » vers la 5.5.1.X avec « Téléphone-Lock » n’hérite pas du code confidentiel du « Verrouillage de l’appareil », ce qui peut rendre le téléphone non sécurisé. Les utilisateurs qui ont activé le verrouillage de l’appareil doivent activer le paramètre de profil d’appareil Polycom suivant pour leur permettre de contrôler le temps de mise à niveau (lync.deviceUpdate.popUpSK.enabled=1). 
+> Le microprogramme Polycom antérieur à la version 5.5.1.X était un mécanisme de verrouillage de l’appareil spécifique au fabricant qui a été remplacé par un Skype Entreprise « Téléphone verrouillage ». La mise à niveau d’un téléphone à partir de la mise à niveau 5.4.X.X sécurisée avec « Verrouillage de l’appareil » vers la 5.5.1.X avec « Téléphone-Lock » n’hérite pas du code confidentiel du « Verrouillage de l’appareil », ce qui peut rendre le téléphone non sécurisé. Les utilisateurs qui ont activé le verrouillage de l’appareil doivent activer le paramètre de profil d’appareil Polycom suivant pour leur permettre de contrôler le temps de mise à niveau (lync.deviceUpdate.popUpSK.enabled=1). 
   
 Les mises à jour de microprogramme sont gérées par le service Skype Entreprise. Chaque microprogramme de téléphone certifié Skype Entreprise est chargé vers le serveur de mise à jour Skype Entreprise et la mise à jour de l'appareil est activée par défaut sur tous les téléphones. En fonction de la durée d'inactivité et des intervalles d'interrogation, les téléphones téléchargeront automatiquement les dernières versions certifiées. Vous pouvez désactiver les paramètres de mise à jour de l’appareil à l’aide de l’cmdlet [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) et en activant le paramètre _EnableDeviceUpdate_ `false` sur.
   
@@ -97,7 +97,7 @@ Pour la planification de l’infrastructure réseau, [voir Skype Operations Fram
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>Étape 6 : préparation de la inscription des utilisateurs
 
-Pour permettre aux utilisateurs de se Skype Entreprise un téléphone en ligne et de les appeler, vous devez vous assurer que les licences qui leur sont attribuées sont correctes. Au minimum, vous devrez affecter une licence Système téléphonique et un plan d’appels. Pour plus d’informations, vous pouvez consulter les Skype Entreprise et [Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) des [modules complémentaires,](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)ainsi que Skype Entreprise et Microsoft Teams licences.
+Pour permettre aux utilisateurs de se Skype Entreprise un téléphone en ligne et de les appeler, vous devez vous assurer que les licences correctes leur sont affectées. Au minimum, vous devrez affecter une licence Système téléphonique et un plan d’appels. Pour plus d’informations, vous pouvez consulter les Skype Entreprise et [Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) des [modules complémentaires,](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)ainsi que Skype Entreprise et Microsoft Teams licences.
   
 Pour en savoir plus sur les forfaits d’appels, lisez les Système téléphonique [et les forfaits d’appels.](/microsoftteams/calling-plan-landing-page)
   
@@ -185,7 +185,7 @@ Pour en savoir plus sur les forfaits d’appels, lisez les Système téléphoniq
    
 - **Téléphone fonctionnalités** L’ensemble des fonctionnalités peut varier légèrement d’un partenaire de téléphone IP à l’autre. Pour l’ensemble complet des fonctionnalités et pour plus d’informations sur les fonctionnalités de chaque fabricant, consultez Obtenir des téléphones pour [Skype Entreprise Online.](getting-phones-for-skype-for-business-online.md)
     
-- **Téléphone verrouillage est** une fonctionnalité récemment introduite dans Skype Entreprise téléphones certifiés utilisés pour sécuriser un téléphone. Si l’authentification est activée, les utilisateurs sont invités à créer un code confidentiel à l’authentification réussie. Une fois créés, les téléphones sont verrouillés lorsque le délai d’inactivité que vous définissez arrive à expiration, qu’un utilisateur verrouille manuellement son téléphone ou qu’il synchronise son verrouillage du téléphone avec son PC à l’aide du Téléphone du téléphone. Si le code confidentiel de verrouillage du téléphone n’est pas entré à plusieurs reprises, le téléphone déverrouille l’utilisateur ou nécessite un code d’administrateur pour déverrouiller le téléphone, mais cela peut varier en fonction du partenaire téléphonique. Le code confidentiel de l’utilisateur doit être entre 6 et 15 chiffres.
+- **Téléphone-Verrouillage** est une fonctionnalité récemment introduite dans Skype Entreprise téléphones certifiés utilisés pour sécuriser un téléphone. Si l’authentification est activée, les utilisateurs sont invités à créer un code confidentiel à l’authentification réussie. Une fois créés, les téléphones sont verrouillés à l’expiration du délai d’inactivité que vous définissez, lorsqu’un utilisateur verrouille manuellement son téléphone ou lorsqu’il synchronise son verrouillage du téléphone avec son PC à l’aide du Téléphone du téléphone. Si le code confidentiel de verrouillage du téléphone n’est pas entré à plusieurs reprises, le téléphone déverrouille l’utilisateur ou nécessite un code d’administrateur pour déverrouiller le téléphone, mais cela peut varier en fonction du partenaire téléphonique. Le code confidentiel de l’utilisateur doit être entre 6 et 15 chiffres.
     
     Vous pouvez désactiver les Phone-Lock pour votre organisation (option activée par défaut), modifier le délai d’inactivité et choisir si les utilisateurs peuvent effectuer des appels téléphoniques lorsqu’ils sont verrouillés ou non à l’aide des paramètres de bandeau. Pour plus d’informations sur ces paramètres, voir [Set-CsUCPhoneConfiguration.](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
     
@@ -208,9 +208,9 @@ BToE peut être configuré pour fonctionner en deux modes : *Automatique* (par d
     
      ![Capture d’écran montrant la connexion à un PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Téléchargez et installez la dernière version du logiciel BToE à partir du site Web du fabricant disponible en cliquant sur les liens ci-dessous. Pour une meilleure expérience utilisateur, vous pouvez distribuer et installer le logiciel BToE à l’aide d’une solution de distribution d’administrateurs telle que Microsoft Endpoint Configuration Manager. Pour obtenir de l’aide sur l’utilisation de Configuration Manager, voir [Packages et programmes dans Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
+2. Téléchargez et installez la dernière version du logiciel BToE à partir du site Web du fabricant disponible en cliquant sur les liens ci-dessous. Pour une meilleure expérience utilisateur, vous pouvez distribuer et installer le logiciel BToE à l’aide d’une solution de distribution d’administration telle que Microsoft Endpoint Configuration Manager. Pour obtenir de l’aide sur l’utilisation de Configuration Manager, voir [Packages et programmes dans Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
     
-   - [Site de téléchargement du logiciel BToE polycom](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
+   - [Site de téléchargement du logiciel BToE pour Polycom](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
    - [Téléchargement du logiciel BToE pour Yealink](http://www.yealink.com/products_list_10.html)
     

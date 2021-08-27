@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: b1a81672ef3b5a2fa54a13f6d883df2a96cb3757c96e63bafdb195ee840de94d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 700a4dd618e21736667ca8e381e702b35bca831b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323796"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601069"
 ---
 # <a name="toll-free-dialing-restrictions-in-israel"></a>Restrictions de numérotation gratuit en Israel
 
@@ -40,13 +40,13 @@ ms.locfileid: "54323796"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> | 1-80-94X-XXXX <br/>  1-80-92X-XXXX <br/> |
 |Code ISO de pays/région  <br/> |IL  <br/> |
-|Île/territoire couvert par  <br/> |Non applicable  <br/> |
+|Île/territoire couvert(s)  <br/> |Non applicable  <br/> |
 |Île/territoire non couvert  <br/> | Pas d'accès depuis les Territoires palestiniens. <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> | Partiel. Voir les commentaires. <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile : Pas d'accès via les réseaux mobiles Paltel &amp; Jawal/Watania.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

@@ -9,17 +9,17 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: Les administrateurs peuvent en apprendre davantage sur une liste des problèmes connus pour Salles Microsoft Teams, y compris la mise à jour, l’interface utilisateur, le matériel et les limitations et les comportements attendus.
+description: Les administrateurs peuvent obtenir une liste des problèmes connus pour Salles Microsoft Teams, notamment les mises à jour, l’interface utilisateur, le matériel et les limitations, ainsi que les comportements attendus.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2fdc4a641c5f507ed52f76779cee77aebe3897188f508f46a54747b4710ba424
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: adf3b0fb7642b4a9774459527af304fe33167352
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578318"
 ---
 # <a name="known-issues"></a>Problèmes connus 
  
@@ -61,7 +61,9 @@ Microsoft Teams Rooms ne prend pas en charge les entrées HDCP, qui entraînent 
 
 ***
 
-Si vous souhaitez qu’un écran avant de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source extraite du mode veille, certaines conditions doivent être remplies. Cette fonctionnalité est facultative mais prise en charge Salles Microsoft Teams logiciel, à condition que le matériel sous-jacent la prend en charge. Un téléviseur grand public utilisé comme avant d’affichage de salle doit prendre en charge la fonctionnalité CEC (Consumer Electronics Control) de HDMI.  En fonction de la station d’accueil ou de la console sélectionnée (qui ne peut pas prendre en charge la cec, consultez la documentation du support technique du fabricant), un contrôleur tel qu’un [contrôleur HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) d’Extron peut être nécessaire pour activer le comportement souhaité. 
+Si vous souhaitez qu’un écran avant de la salle bascule automatiquement vers une source vidéo active (par exemple, une console MTR) lorsque la source extraite du mode veille, certaines conditions doivent être remplies. Cette fonctionnalité est facultative mais prise en charge Salles Microsoft Teams logiciel, à condition que le matériel sous-jacent la prend en charge. Un téléviseur grand public utilisé comme avant d’affichage de salle doit prendre en charge la fonctionnalité CEC (Consumer Electronics Control) de HDMI.  En fonction de la station d’accueil ou de la console sélectionnée (qui ne peut pas prendre en charge la cec, consultez la documentation du support technique du fabricant), un contrôleur tel qu’un [contrôleur HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) d’Extron peut être nécessaire pour activer le comportement souhaité.
+
+Par ailleurs, un téléviseur grand public utilisé comme devant l’affichage de la salle peut entraîner des problèmes de stabilité avec Salles Microsoft Teams logiciels. Cela est dû à une implémentation incohérente des modes de veille, à la sélection active de la source vidéo et à la communication d’informations d’EDID défaillante sur l Salles Microsoft Teams appareil. Les symptômes connus sont un écran noir/gris au premier plan de l’affichage de la salle ou la console Salles Microsoft Teams qui ne répond plus après la veille.  Si vous rencontrez des problèmes lors de l’utilisation de téléviseurs grand public, nous vous recommandons d’installer un contrôleur EDID configurable ou un émulateur EDID, tel que [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) de Crestron ou [DR-EDID Emulator](https://fsrinc.com/fsr-products/product/dr-edid-manager-learner/category_pathway-143) à partir du groupe de produits vidéo FSR.
 
 ***
 
@@ -69,7 +71,7 @@ Utilisez toujours une connexion réseau câblé 1-Gbps pour vous assurer de avoi
 
 ***
 
-Si votre Salles Microsoft Teams perd la confiance avec le domaine, vous ne pourrez plus vous authentifier sur l’appareil et ouvrir les Paramètres. Par exemple, si vous supprimez l’Salles Microsoft Teams du domaine une fois qu’il a été joint au domaine, l’confiance est perdue. La solution consiste à se connecter avec le compte d’administrateur local. 
+Si votre Salles Microsoft Teams perd la confiance avec le domaine, vous ne pourrez pas vous authentifier sur l’appareil et ouvrir les Paramètres. Par exemple, si vous supprimez l’Salles Microsoft Teams du domaine une fois qu’il a été joint au domaine, l’confiance est perdue. La solution consiste à se connecter avec le compte d’administrateur local. 
 ***
 Salles Microsoft Teams est une application à plusieurs fenêtres et nécessite un affichage avant de salle pour être connecté au port HDMI de l’appareil, pour que l’application fonctionne correctement. Assurez-vous que vous avez un écran HDMI connecté ou utilisez une prise HDMI factice si vous testez et que vous n’avez pas encore acheté d’écran.
 ***

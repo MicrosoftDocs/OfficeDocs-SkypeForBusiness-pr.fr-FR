@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Après avoir déployé Skype Entreprise Server 2019, vous devez configurer un itinéraire de fédération pour votre site. Pour utiliser l’itinéraire fédéré utilisé par l’installation héritée, Skype Entreprise Server 2019 doit être configuré pour utiliser cet itinéraire.
-ms.openlocfilehash: 8e76dfc9ee99e2c4e82f40d3aba4aa8a43972c98e0569416ce293b2cfc012d96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5f5da34300d993f59d4de5e2eb0b47cc58eff0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296011"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607461"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Connexion du pool pilote aux serveurs Edge hérités
 

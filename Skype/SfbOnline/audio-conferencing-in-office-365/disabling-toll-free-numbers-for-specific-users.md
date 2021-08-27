@@ -1,5 +1,5 @@
 ---
-title: Désactivation des numéros gratuits pour des utilisateurs Skype Entreprise Online
+title: Désactivation des numéros gratuits pour certains utilisateurs Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Les administrateurs peuvent contrôler la façon dont les organisateurs peuvent utiliser des numéros gratuits pour leurs réunions.
-ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ae82a1eef27793f700c50936e9dec37cd6c9ddd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310273"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587934"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Désactivation des numéros gratuits pour des utilisateurs Skype Entreprise Online
+# <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Désactivation des numéros gratuits pour certains utilisateurs Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
  
 > [!Note]
-> Pour plus d’informations sur la désactivation des numéros gratuits pour Teams utilisateurs, voir Désactiver les numéros gratuits pour des utilisateurs [Teams utilisateurs spécifiques.](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)
+> Pour plus d’informations sur la désactivation des numéros gratuits pour Teams utilisateurs, voir Désactiver les numéros gratuits pour des utilisateurs [spécifiques Teams service.](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users)
 
 Si votre organisation a des numéros gratuits dans son pont de conférence audio Microsoft, vous pouvez autoriser ou empêcher leur utilisation pendant les réunions d’organisateurs spécifiques.  
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et de Office 365 pour les pays Skype Entreprise et Microsoft Teams pour le Paraguay.
-ms.openlocfilehash: aa9e5c065bd7086d43041719eb91fae0a8c3c2e8c698def2c6e6320c07dcbe42
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 969e702fe7f14d9e7af2e9d023367fe9c1f8eb25
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317439"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578388"
 ---
 # <a name="availability-in-paraguay"></a>Disponibilité au Paraguay
 

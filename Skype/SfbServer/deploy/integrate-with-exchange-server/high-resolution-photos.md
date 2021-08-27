@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: 'Résumé : Configurez l’utilisation de photos haute résolution dans Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 ou Exchange Online et Skype Entreprise Server.'
-ms.openlocfilehash: 778603c2ae455fc20e3de6e6825c4cfe5b230eaa8b59323cbb7a25ff91bbca02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Résumé : Configurez l’utilisation des photos haute résolution dans Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 ou Exchange Online et Skype Entreprise Server.'
+ms.openlocfilehash: d82a8aa665a699e7589a3a477023be55ea0407ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330498"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621796"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurer l’utilisation de photos haute résolution dans Skype Entreprise Server
  
@@ -36,7 +36,7 @@ Dans Skype Entreprise Server, les photos peuvent être stockées dans la boîte 
 > [!NOTE]
 > Si vous disposez des ressources, nous vous recommandons de charger 648 x 648 photos . qui fournit la résolution maximale et une qualité d’image optimale dans n’importe quelle application Office 2013. Chaque photo JPEG d’une taille de 648 x 648 et d’une profondeur de 24 bits entraîne une taille de fichier d’environ 240 kilo-octets. Cela signifie que vous aurez besoin d’environ 1 mégaoctet d’espace disque pour 4 photos utilisateur. 
   
-Les photos haute résolution, accessibles à l’aide des services web Exchange, peuvent être téléchargées par les utilisateurs qui exécutent Outlook 2013 Web App ; les utilisateurs sont uniquement autorisés à mettre à jour leur propre photo. Toutefois, les administrateurs peuvent mettre à jour la photo pour n’importe quel utilisateur à l’aide de Exchange Management Shell et d’une série de commandes Windows PowerShell semblables à ce qui suit :
+Les photos haute résolution, accessibles à l’aide des services web Exchange, peuvent être téléchargées par les utilisateurs qui exécutent Outlook 2013 Web App ; les utilisateurs sont uniquement autorisés à mettre à jour leur propre photo. Les administrateurs, toutefois, peuvent mettre à jour la photo pour n’importe quel utilisateur à l’aide de l’Exchange Management Shell et d’une série de commandes Windows PowerShell semblables à ce qui suit :
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))

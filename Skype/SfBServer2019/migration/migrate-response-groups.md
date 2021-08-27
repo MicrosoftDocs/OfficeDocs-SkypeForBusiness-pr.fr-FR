@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Une fois vos utilisateurs déplacés vers Skype Entreprise Server 2019, vous pouvez migrer vos groupes Response Groups. La migration de groupes Response Group inclut la copie des groupes d’agents, des files d’attente, des flux de travail, des fichiers audio et le déplacement d’objets contact Response Group du déploiement hérité vers le pool Skype Entreprise Server 2019. Après avoir migré vos groupes Response Group hérités, les appels aux groupes Response Group sont gérés par l’application Response Group dans le pool Skype Entreprise Server 2019. Les appels destinés aux groupes Response Group ne sont plus gérés par le pool hérité.
-ms.openlocfilehash: 83edbfd97fac08aded66ce042adecda9fee7b539588e717323eeaeda36003041
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96eecb0ad10a900a9d00d26383e149ceec4cbfe8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303558"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588026"
 ---
 # <a name="migrate-response-groups"></a>Migration de groupes de réponses
 
@@ -57,7 +57,7 @@ La procédure suivante pour la migration des configurations Response Group suppo
     
 2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Microsoft Skype Entreprise Server 2019,** puis sur Skype Entreprise Server **Management Shell**.
     
-3. Exécutez :
+3. Exécutez :  
     
    ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
@@ -97,7 +97,7 @@ La procédure suivante pour la migration des configurations Response Group suppo
    Get-Help <cmdlet name> -Detailed
    ```
 
-3. Exécutez :
+3. Exécutez :  
     
    ```PowerShell
    Get-CsRgsAgentGroup
@@ -105,7 +105,7 @@ La procédure suivante pour la migration des configurations Response Group suppo
 
 4. Vérifiez que tous les groupes d’agents de votre environnement hérité sont inclus dans la liste.
     
-5. Exécutez :
+5. Exécutez :  
     
    ```PowerShell
    Get-CsRgsQueue
@@ -113,7 +113,7 @@ La procédure suivante pour la migration des configurations Response Group suppo
 
 6. Vérifiez que toutes les files d’attente de votre environnement hérité sont incluses dans la liste.
     
-7. Exécutez :
+7. Exécutez :  
     
    ```PowerShell
    Get-CsRgsWorkflow

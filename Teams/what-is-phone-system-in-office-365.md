@@ -15,25 +15,25 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: Dans cet article, vous allez découvrir les technologies de Système téléphonique à Microsoft 365 et Office 365.
-ms.openlocfilehash: e7dd305596468edc224db0f4bff679a7233762e8261164b328c4674df660414d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Cet article vous permettra d’en savoir plus sur Système téléphonique technologie utilisée dans Microsoft 365 et Office 365.
+ms.openlocfilehash: c247186cb35a3621bb1a8545cd735f6fac7ce07c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324773"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594346"
 ---
 # <a name="what-is-phone-system"></a>Qu’est-ce Système téléphonique ?
 
 Une branche privée Exchange (PBX) est un système téléphonique au sein d’une entreprise. Système téléphonique vous offre des fonctionnalités PBX, mais sans équipement complexe et coûteux. 
 
-Système téléphonique vous permet de remplacer votre système PBX local par un ensemble de fonctionnalités d’Microsoft 365 ou d’Office 365 étroitement intégrées à votre expérience cloud. Pour plus d’informations sur les fonctionnalités, voir les fonctionnalités que vous obtenez [avec Système téléphonique.](here-s-what-you-get-with-phone-system.md)
+Système téléphonique vous permet de remplacer votre système PBX local par un ensemble de fonctionnalités d’Microsoft 365 ou d’Office 365 étroitement intégrées à votre expérience cloud. Pour plus d’informations sur les fonctionnalités, voir les fonctionnalités que [vous obtenez avec Système téléphonique.](here-s-what-you-get-with-phone-system.md)
 
 ## <a name="phone-system-technology"></a>Système téléphonique technologie
 
@@ -53,7 +53,7 @@ Système téléphonique peut être connecté au réseau PSTN de deux façons :
 
 - Utilisez votre infrastructure téléphonique existante pour la connectivité PSTN locale.
 
-  Pour vos Teams utilisateurs, vous pouvez connecter votre infrastructure téléphonique locale à Système téléphonique à l’aide du routage direct. Pour plus d’informations, [voir Système téléphonique routage direct.](direct-routing-landing-page.md)
+  Pour vos Teams utilisateurs, vous pouvez connecter votre infrastructure téléphonique locale à Système téléphonique en utilisant le routage direct. Pour plus d’informations, [voir Système téléphonique routage direct.](direct-routing-landing-page.md)
 
   Pour plus d’informations sur toutes les solutions de téléphonie Microsoft, voir [Planifier votre solution Teams voix.](cloud-voice-landing-page.md)
 
@@ -66,11 +66,11 @@ Système téléphonique peut être connecté au réseau PSTN de deux façons :
 
 - **Files d’attente d’appels** : les salutations des files d’attente peuvent être utilisées lorsque quelqu’un appelle un numéro de téléphone pour votre organisation. Ces salutations incluent la possibilité de mettre automatiquement les appels en attente et la possibilité de rechercher l’agent d’appel disponible pour gérer l’appel pendant que l’appelant écoute la musique d’attente. Vous pouvez créer une ou plusieurs files d’attente pour votre organisation. Voir [Créer une file d’attente d’appels cloud.](create-a-phone-system-call-queue.md)
 
-- **Messagerie vocale** : lorsque vous obtenez une licence Système téléphonique d’un utilisateur, cet utilisateur peut obtenir des messages vocaux laissés par les appelants. Messagerie vocale infonuagique est automatiquement installé et mis en service pour les utilisateurs après leur avoir attribué une licence Système téléphonique et un numéro de téléphone. Voir [Configurer Messagerie vocale infonuagique.](set-up-phone-system-voicemail.md)
+- **Messagerie vocale** : lorsque vous obtenez une licence Système téléphonique d’un utilisateur, cet utilisateur peut obtenir des messages vocaux laissés par les appelants. Messagerie vocale infonuagique est automatiquement installé et mis en service pour les utilisateurs une fois que vous leur avez attribué une licence Système téléphonique et un numéro de téléphone. Voir [Configurer Messagerie vocale infonuagique.](set-up-phone-system-voicemail.md)
 
 Pour plus d’informations sur les fonctionnalités, voir les fonctionnalités que vous obtenez [avec Système téléphonique.](here-s-what-you-get-with-phone-system.md) Si vous êtes prêt à commencer, consultez configurer des Système téléphonique [votre organisation.](setting-up-your-phone-system.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Système téléphonique fonctionnalités](here-s-what-you-get-with-phone-system.md)
 - [Appel vocal dans le nuage dans Microsoft Teams](cloud-voice-landing-page.md)

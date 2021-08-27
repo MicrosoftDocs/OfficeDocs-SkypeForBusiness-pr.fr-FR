@@ -9,15 +9,15 @@ ms.topic: reference
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des liens vers les dernières informations de mise à jour pour les versions perpétuelles des clients Skype Entreprise 2016, Skype Entreprise 2015 et Lync 2013
-ms.openlocfilehash: 93691e0bccf48e6f1be8a37f817ae3617a4a9301cf12c6e462bb1d66f57a7a84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349676"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581338"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières mises à jour pour les versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 
@@ -27,7 +27,7 @@ Utilisez les liens de cette page pour obtenir plus d’informations sur les mise
 > - Les informations de cet article s’appliquent uniquement aux versions perpétuelles de Skype Entreprise qui utilisent la technologie d’installation Windows Installer (MSI). Par exemple, si vous avez installé une version avec licence en volume de Skype Entreprise, par exemple Skype Entreprise incluse dans Office Professionnel Plus 2016.
 > - Les informations de cet article ne s’appliquent pas aux versions Microsoft 365 ou Office 365 de Skype Entreprise, telles que Skype Entreprise incluses dans Applications Microsoft 365 pour les grandes entreprises.
 > - Pour les dernières mises à jour du client mobile, consultez l’App Store de votre client mobile (iTunes, Google Play ou Microsoft Store) pour afficher les détails et installer les mises à jour.
-> - Pour connaître la version de Skype Entreprise que vous utilisez, voir quelle version de [Skype Entreprise-je ?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
+> - Pour connaître la version de Skype Entreprise que vous utilisez, consultez quelle version de [Skype Entreprise-je ?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Pour plus d’informations sur l’installation des mises à jour d’Office, consultez l’article [Installer les mises à jour d’Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
 
 Skype Entreprise compatibilité avec les Microsoft 365 ou Office 365 et votre environnement local dépend de la contrainte système requise pour votre déploiement :
@@ -46,10 +46,10 @@ Skype Entreprise compatibilité avec les Microsoft 365 ou Office 365 et votre en
 
 |Nom du package|Numéro KB|Date de publication|
 |:---  |:---  |:---  |
-|Mise à jour Skype Entreprise 2016 |[KB 4484133](https://support.microsoft.com/kb/4484133) | Décembre 2019|
-|Mise à jour Skype Entreprise 2016 |[KB 4484102](https://support.microsoft.com/kb/4484102) | Octobre 2019|
-|Mise à jour Skype Entreprise 2016 |[KB 4475577](https://support.microsoft.com/kb/4475577) | Septembre 2019|
-|Mise à jour Skype Entreprise 2016 |[KB 4475548](https://support.microsoft.com/kb/4475548) | Août 2019|
+|Mise à jour Skype Entreprise 2016 |[KB 4484133](https://support.microsoft.com/kb/4484133) | Décembre 2019|
+|Mise à jour Skype Entreprise 2016 |[KB 4484102](https://support.microsoft.com/kb/4484102) | Octobre 2019|
+|Mise à jour Skype Entreprise 2016 |[KB 4475577](https://support.microsoft.com/kb/4475577) | Septembre 2019|
+|Mise à jour Skype Entreprise 2016 |[KB 4475548](https://support.microsoft.com/kb/4475548) | Août 2019|
 |Mise à jour Skype Entreprise 2016 |[KB 4475545](https://support.microsoft.com/kb/4475545) | Juillet 2019|
 |Mise à jour Skype Entreprise 2016 |[KB 4464576](https://support.microsoft.com/kb/4464576) | Juin 2019|
 |Mise à jour Skype Entreprise 2016 |[KB 4464532](https://support.microsoft.com/kb/4464532) | Mai 2019|
@@ -316,6 +316,6 @@ Nom du package|Numéro KB|Date de publication|
 | [Lync 2010 Attendee - Installation au niveau administrateur](https://www.microsoft.com/download/en/details.aspx?id=23396) | Avril 2013   |
 | [Lync 2010 Attendee - Installation au niveau de l’utilisateur](https://www.microsoft.com/download/en/details.aspx?id=15755)  | Juin 2014    |
 
-## <a name="related-topics"></a>Sujets connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Mises à jour de Skype Entreprise Server](sfb-server-updates.md)

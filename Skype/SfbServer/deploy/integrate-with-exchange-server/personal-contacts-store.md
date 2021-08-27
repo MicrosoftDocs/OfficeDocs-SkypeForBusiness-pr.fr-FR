@@ -10,23 +10,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Résumé : Configurez le magasin de contacts personnels utilisé par les clients hérités.'
-ms.openlocfilehash: 806bdf8ac43c8126e0537ccb121cbc521066aab6cd42c7136d0d8b951d5b9d19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1be9aa65c9f2080f3ef775c330dad3c88f2fbf75
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319457"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621736"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurer le magasin de contacts personnels sur les ordinateurs clients Lync 2010
   
 Si vous intégrez Skype Entreprise Server 2015 et Exchange Server 2016 ou Exchange Server 2013, vous devez configurer le magasin de contacts personnels utilisé par les clients. En particulier, vous devez configurer Skype Entreprise pour utiliser Exchange comme magasin de contacts personnels et, en même temps, vous assurer que les utilisateurs ne sont pas en mesure de remplacer cette décision. Pour ce faire, vous pouvez créer et configurer une valeur de Registre sur chaque ordinateur client.
   
 > [!NOTE]
-> La procédure suivante n’est nécessaire que pour les clients qui utilisent le client Lync 2010 ou une antérieure. Le client Lync 2013 et tous les clients Skype Entreprise n’auront pas la possibilité de remplacement des paramètres du magasin de contacts.
+> La procédure suivante est uniquement nécessaire pour les clients qui utilisent le client Lync 2010 ou une antérieure. Le client Lync 2013 et tous les clients Skype Entreprise n’auront pas la possibilité de remplacement des paramètres du magasin de contacts.
   
 Pour configurer cette valeur sur un seul ordinateur, complétez la procédure suivante :
   
