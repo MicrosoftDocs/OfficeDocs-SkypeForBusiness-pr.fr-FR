@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez comment affecter des numéros Microsoft 365 Business Voice aux utilisateurs de votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4b32b6a255ef806e86848d068dc988548988a75fb76c16d2dc4334b0d51d7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70cd47d9cb1163381ded1ee8ca1eeec0868fd2fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282847"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582478"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>Étape 5 : affecter des numéros de téléphone Voix Entreprise à vos utilisateurs
 
@@ -46,7 +46,7 @@ La vidéo suivante vous montre comment effectuer ces étapes dans le Centre d’
     - **Apportez vos numéros de téléphone** existants à Voix Entreprise (appelés portage de numéro de téléphone), désélectionner l’utilisateur de courrier avec des  **informations de numéro de téléphone.**
     - **Utilisez les nouveaux numéros de téléphone sélectionnés** par Business *Voice,* sélectionnez **Utilisateur de courrier avec des informations de numéro de téléphone.**
 1. Cliquez sur **Enregistrer**.
-1. Répétez les étapes ci-dessus pour chaque utilisateur auquel vous voulez attribuer un numéro de téléphone.
+1. Répétez les étapes ci-dessus pour chaque utilisateur auquel vous souhaitez attribuer un numéro de téléphone.
 
 > [!NOTE]
 > En raison de la latence entre Microsoft 365 ou Office 365 et Teams, l’activé peut prendre jusqu’à 24 heures pour les utilisateurs. Si le numéro de téléphone n’est pas attribué correctement après 24 heures, contactez le support technique pour les produits pour les entreprises [- Aide de l’administrateur.](/microsoft-365/admin/contact-support-for-business-products) Nous sommes là pour vous aider !

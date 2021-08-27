@@ -1,5 +1,5 @@
 ---
-title: Serveurs proxy pour Teams ou Skype Entreprise Online
+title: Serveurs proxy pour Teams ou Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,21 +15,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 - seo-marvel-apr2020
 description: Cet article fournit des informations sur l’utilisation d’un serveur proxy Microsoft Teams ou Skype Entreprise.
-ms.openlocfilehash: b4724ad213d4d76c93484fb2ef33c50f4f6904b814ebd959a52adb95f1ee219b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 559a42c19aa47a9e72a5c0549e80f45de8d50fdf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341240"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582158"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Serveurs proxy pour Teams ou Skype Entreprise Online
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Serveurs proxy pour Teams ou Skype Entreprise Online
 
 Cet article fournit des conseils sur l’utilisation d’un serveur proxy Teams ou Skype Entreprise.
   
@@ -56,8 +56,8 @@ Microsoft recommande également :
     
 Ces conseils devraient limiter l'apparition de problèmes.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Principes de connectivité réseau de Microsoft 365 et Office 365](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 
-[Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)
+[Préparer le réseau de votre organisation pour Microsoft Teams](prepare-network.md)

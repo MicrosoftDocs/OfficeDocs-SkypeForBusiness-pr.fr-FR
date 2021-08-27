@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Créez ou modifiez un groupe d’agents dans Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 3d4be038b156152a16059b717ae872962177478df888f151e95c89e32281f274
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 367e8e752042d7b8585fdae918f747aa77085223
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589016"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype Entreprise
  
@@ -138,7 +138,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
     > [!IMPORTANT]
     > Le paramètre de temps d’alerte de l’agent ne peut pas dépasser 180 secondes. Si le temps d’alerte de l’agent est supérieur à 180 secondes, l’application cliente rejette l’appel, car le minuteur de transaction SIP atteint son délai d’attente maximal. 
   
-4. Confirmez que le groupe d’agents est créé. Exécutez :
+4. Confirmez que le groupe d’agents est créé. Exécutez :  
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"

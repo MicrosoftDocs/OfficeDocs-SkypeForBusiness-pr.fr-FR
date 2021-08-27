@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Découvrez comment payer les crédits de communication (consommation PSTN) pour les services Skype Entreprise et consultez les plans pour conserver à vos utilisateurs un accès système téléphonique continu. '
-ms.openlocfilehash: 6f96b56400e3186a6d4df3276204359c6943d10113f3967eef59322e461f1092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344413"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617610"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Ajouter des fonds et gérer les Crédits de Communications
 
@@ -43,13 +43,13 @@ Les crédits de communication sont un moyen pratique de payer des forfaits Syst�
   
 - Dial in to Audio Conferencing meetings using toll-free dial-in phone numbers.
 
-- Appel sortant d’une réunion d’audioconférence pour ajouter quelqu’un d’autre partout dans le monde.
+- Sortant d’une réunion d’audioconférence pour ajouter une autre personne partout dans le monde.
 
 - Dial out from an Audio Conferencing meeting to your mobile phone with the Skype Entreprise or Microsoft Teams app installed.
 
 - Composez n’importe quel numéro de téléphone international si vous avez un **plan d’appels nationaux.**
 
-- Composez un numéro et payez par minute une fois que vous avez épuisé votre allotment de minutes mensuelles.
+- Appel sortant et paiement par minute une fois que vous avez épuisé votre allotment de minutes mensuelles.
 
 > [!NOTE]
 > Si vous vous demandez combien cela coûte et quelles sont les tarifs, consultez le tableau des tarifs sur la page [Forfaits d’appels.](https://go.microsoft.com/fwlink/p/?LinkId=799523)
@@ -77,11 +77,11 @@ Vous pouvez consulter les plans et les tarifs en visitant l’un des liens suiva
 
 - [Système téléphonique de projets](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-Vous pouvez également consulter des informations en vous Centre d’administration Microsoft 365 sur La facturation  >  **des abonnements**  >  **Ajouter des abonnements.**
+Vous pouvez également consulter des informations en vous Centre d’administration Microsoft 365 au compte de facturation  >    >  **Ajouter des abonnements.**
   
 Pour consulter un tableau des licences dont vous avez besoin pour chaque fonctionnalité, consultez Microsoft Teams [licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer Skype entreprise Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 

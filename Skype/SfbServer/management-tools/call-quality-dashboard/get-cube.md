@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Résumé : Découvrez l’opération Obtenir un cube, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: bc65a9d6886b9375a799c62a6abaefd33738dae5fd8a4d4aee83a536d9a82948
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67ac59589de8516d6b374d61646cc88763ef7234
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278722"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617810"
 ---
 # <a name="get-cube"></a>Obtenir un cube
  
@@ -97,6 +97,6 @@ L’opération Obtenir un cube renvoie la liste des dimensions et mesures dispon
   
  *Dimensions*  : liste des dimensions qui peuvent être utilisées dans les sections Filtres et dimensions d’une charge utile de requête pour exécuter une requête. Pour utiliser une dimension dans une expression de filtre, vous devez spécifier un membre de dimension, qui peut être obtenu à l’aide de l’opération Obtenir les membres de dimension.
   
- *Mesures :*  liste des mesures qui peuvent être utilisées dans la section Mesures d’une charge utile de demande pour exécuter une requête.
+ *Mesures :*  liste des mesures qui peuvent être utilisées dans la section Mesures d’une charge utile de demande pour exécuter une opération de requête.
   
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: La cmdlet Set-CcCredential définit les informations d’identification du déploiement Skype Entreprise Cloud Connector Edition actuel.
-ms.openlocfilehash: 330326790f20add51dcaeb4468b17438c302c353c08076402e15f4d32985c117
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa0d5f69e3263d273fabe17ae74ea46e0af40908
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324134"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617660"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -61,7 +61,7 @@ Aucun. La cmdlet Set-CcCredential n’accepte pas la saisie de données pipeline
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Néant
+Aucun
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

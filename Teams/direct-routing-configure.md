@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer Téléphone Microsoft routage système direct pour connecter votre infrastructure téléphonique locale à Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284175"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582358"
 ---
 # <a name="configure-direct-routing"></a>Configurer le routage direct
 
@@ -50,7 +50,7 @@ Pour obtenir la liste complète des SBCS pris en charge, consultez la liste des 
 
 Pour configurer Téléphone Microsoft routage direct et permettre aux utilisateurs d’utiliser le routage direct, suivez ces étapes : 
 
-- **Étape 1.** [Connecter SBC avec Téléphone Microsoft et valider la connexion](direct-routing-connect-the-sbc.md)
+- **Étape 1.** [Connecter SBC avec votre système Téléphone Microsoft données et valider la connexion](direct-routing-connect-the-sbc.md)
 - **Étape 2.** [Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale](direct-routing-enable-users.md)
 - **Étape 3.** [Configurer le routage vocal](direct-routing-voice-routing.md)
 - **Étape 4.** [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md) 
@@ -58,7 +58,7 @@ Pour configurer Téléphone Microsoft routage direct et permettre aux utilisateu
 Si vous configurez un SBC pour plusieurs locataires, vous pouvez également lire Configurer un SBC pour [plusieurs locataires.](direct-routing-sbc-multiple-tenants.md)
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Routage direct via le système téléphonique](direct-routing-landing-page.md)
 

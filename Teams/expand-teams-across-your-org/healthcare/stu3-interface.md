@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: Découvrez comment intégrer des enregistrements d’état d’santé électroniques à l Microsoft Teams patient et à la spécification de l’interface SPECIFICATION3.
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e51372f2c44bdd5bdeea8e4a7699d3f46881564e0c98f3049b95dcbd21eb66c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 64fc61072510942b67d51542095a927e7e67c697
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344040"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582328"
 ---
 # <a name="stu3-interface-specification"></a>Spécification de l’interface STU3
 
@@ -33,21 +33,21 @@ ms.locfileid: "54344040"
 >
 >Les listes permet aux équipes de soins de votre organisation de santé de créer des listes de patients pour différents scénarios (arrondis, réunions d’équipe de formation, surveillance générale des patients, etc.). Pour commencer, consultez le modèle Patients dans listes. Pour en savoir plus sur la gestion de l’application Listes dans votre organisation, consultez [Gérer l’application Listes](../../manage-lists-app.md).
 
-La configuration ou la reconfiguration d’un serveur FEMBA pour l’Microsoft Teams Patients nécessite de comprendre les données dont l’application a besoin pour accéder. Le serveur F POSTER doit prendre en charge les demandes POST qui utilisent des offres groupées pour les ressources suivantes :
+La configuration ou la reconfiguration d’un serveur FEMBA pour l’Microsoft Teams Patients nécessite de comprendre les données dont l’application a besoin pour accéder. Le serveur FEMBA doit prendre en charge les demandes POST qui utilisent des offres groupées pour les ressources suivantes :
 
 - [Patient](#patient)
 - [Observation](#observation)
 - [Condition](#condition)
 - [Rencontrer](#encounter)
-- [Erdesses](#allergyintolerance)
+- [100000677](#allergyintolerance)
 - [Couverture](#coverage)
-- [Relevé de médication](#medication-request) (remplace l’ordre Médication dans la version DSTU2 de l’app Patients)
+- [Relevé de](#medication-request) médication (remplace l’ordre Médication dans la version DSTU2 de l’app Patients)
 - Emplacement (les informations requises pour cette ressource peuvent être incluses dans La Rencontre)
 
 > [!NOTE]
-> La ressource patient est la seule ressource obligatoire (sans laquelle l’application ne se charge pas du tout) ; Toutefois, il est recommandé au partenaire d’implémenter la prise en charge de toutes les ressources ci-dessus mentionnées par spécifications fournies ci-dessous pour une expérience utilisateur la plus agréable avec l’application Microsoft Teams Patients.
+> La ressource patient est la seule ressource obligatoire (sans laquelle l’application ne se charge pas). Toutefois, il est recommandé au partenaire d’implémenter la prise en charge de toutes les ressources ci-dessus mentionnées par spécifications fournies ci-dessous pour une expérience utilisateur la plus agréable avec l’application Microsoft Teams Patients.
 
-Les requêtes de l’Microsoft Teams Patients pour plusieurs ressources publient une offre groupée (BATCH) de demandes sur l’URL du serveur F URL. Le serveur doit traiter chaque demande et renvoyer une offre groupée de ressources correspondent à chaque demande. Pour plus d’informations et d’exemples, [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) voir .
+Les requêtes de l’Microsoft Teams Patients pour plusieurs ressources publient une offre groupée (BATCH) de demandes sur l’URL du serveur FEMBA. Le serveur doit traiter chaque demande et renvoyer une offre groupée de ressources correspondent à chaque demande. Pour plus d’informations et d’exemples, [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) voir .
 
 ## <a name="capability-statement"></a>Instruction de fonctionnalité
 
@@ -398,7 +398,7 @@ Consultez [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/e
 
 ## <a name="allergyintolerance"></a>MondeYIntolerance
 
-Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil [d’argotaïeIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil [ArgotaïquesIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
 
  - Code.Text
  - Code.Coding[0]. Affichage
@@ -479,7 +479,7 @@ Voici les champs minimum requis, qui sont un sous-ensemble du profil de demande 
  - AuthoredOn
  - Requester.Agent.Display
 
-Outre les champs cœur des États-Unis, pour une expérience utilisateur excellente, l’application Patients peut également lire les champs suivants :
+Outre les champs du cœur des États-Unis, pour une expérience utilisateur excellente, l’application Patients peut également lire les champs suivants :
 
  - [.]. Texte
  - Texte
@@ -493,7 +493,7 @@ Consultez [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/
 
 ## <a name="coverage"></a>Couverture
 
-Il s’agit des champs requis au minimum, et non couverts par les profils Us Core ou Argot :
+Voici les champs requis au minimum, et non couverts par les profils Us Core ou Argot :
 
  - Regroupement, au moins un élément avec
     - GroupDisplay

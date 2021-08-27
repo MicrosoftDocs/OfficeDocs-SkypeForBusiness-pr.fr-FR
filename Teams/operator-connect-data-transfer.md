@@ -1,5 +1,5 @@
 ---
-title: Transferts de données entre opérateurs et microsoft pour les opérateurs Connecter
+title: Transferts de données entre les opérateurs et Microsoft pour les opérateurs Connecter
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: alaina, creager
@@ -9,21 +9,21 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Des informations spécifiques sur la confidentialité relatives au transfert de données ou d’informations entre opérateurs et Microsoft, plus particulièrement en relation avec les opérateurs Connecter.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324823"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582188"
 ---
-# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Transferts de données entre opérateurs et microsoft pour les opérateurs Connecter
+# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Transferts de données entre les opérateurs et Microsoft pour les opérateurs Connecter
 
 ## <a name="provisioned-and-assigned-numbers"></a>Numéros provisionés et affectés
 
@@ -35,6 +35,6 @@ Microsoft fournira des enregistrements de détails des appels et des données de
 
 ## <a name="call-duration-data"></a>Données de durée d’appel
 
-Chaque opérateur fournira à Microsoft, via une API, la durée des appels passées par ses clients à l’aide Microsoft Teams. Microsoft utilisera ces enregistrements pour fournir aux clients des informations d’utilisation et s’assurer que nos enregistrements sont cohérents avec ceux de l’opérateur. Microsoft stockera et traitera ces enregistrements conformément aux lois et réglementations en vigueur, ainsi qu’à la Déclaration de confidentialité Microsoft.
+Chaque opérateur fournira à Microsoft, via une API, la durée des appels passé par ses clients à l’aide d’Microsoft Teams. Microsoft utilisera ces enregistrements pour fournir aux clients des informations d’utilisation et s’assurer que nos enregistrements sont cohérents avec ceux de l’opérateur. Microsoft stockera et traitera ces enregistrements conformément aux lois et réglementations en vigueur, ainsi qu’à la Déclaration de confidentialité Microsoft.
 
 Pour plus [d’informations : Acheter, configurer et activer des](career-coach.md) Conseiller d’orientation pour Microsoft Teams

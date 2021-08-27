@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de modules supplémentaires, les fonctionnalités et la façon d’acheter des Microsoft 365 Business Standard de projets. '
-ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f092b8f17eff3aa48717be385795a2ca1c18a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318029"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589166"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
@@ -64,7 +64,7 @@ Si vous avez [Microsoft 365 Business Standard,](https://products.office.com/en/b
 
  **Pour obtenir les Audioconférences et des Crédits de Communication :**
 
-1. Connectez-vous au centre d'administration.
+1. Connectez-vous au Centre d'administration.
 
 2. Accédez à **Facturation** > **Abonnements** > **Modules complémentaires** > **Acheter des modules complémentaires**.
 
@@ -76,7 +76,7 @@ Si vous avez [Microsoft 365 Business Standard,](https://products.office.com/en/b
 
 1. Choisissez l'offre E1 ou E3.
 
-2. Allez au Centre d’administration pour >  >  **facturation.**
+2. Dans le Centre d’administration, >   >  **abonnements à la facturation.**
 
 3. Sélectionnez **Modules complémentaires**. Vous verrez à présent les prix des Système téléphonique et l’option d’achat.
 

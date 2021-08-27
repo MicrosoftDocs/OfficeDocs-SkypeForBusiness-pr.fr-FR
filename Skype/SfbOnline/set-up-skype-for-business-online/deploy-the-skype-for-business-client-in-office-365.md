@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Découvrez comment planifier et déployer des Skype Entreprise dans les petites, moyennes et grandes organisations et comment les mettre à la disposition de vos utilisateurs. '
-ms.openlocfilehash: e503455827759966af675ff186f3d72568df613ea407f372450691511a9a6ee5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cfa319536c521ee4d0e3b297fd978071c93105d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300490"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589176"
 ---
 # <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>Déployer le client Skype Entreprise client dans Microsoft 365 ou Office 365
 
@@ -32,7 +32,7 @@ ms.locfileid: "54300490"
 
 Cet article explique les options **[](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** qui s’offrent à vous, en votre nom, pour déployer l’application Skype Entreprise aux membres de votre organisation.
   
-Avant de déployer Skype Entreprise vers vos utilisateurs, assurez-vous d’avoir effectué les étapes 1 à 3 de l’article [Configurer Skype Entreprise Online.](set-up-skype-for-business-online.md) Ainsi, Skype Entreprise sera configuré avec votre domaine, chacun aura sa licence, et vous aurez configuré la messagerie instantanée et la configuration de la présence dans [Skype Entreprise Online](configure-presence-in-skype-for-business-online.md) pour votre organisation.
+Avant de déployer Skype Entreprise vers vos utilisateurs, assurez-vous d’avoir effectué les étapes 1 à 3 de l’article Configurer [Skype Entreprise Online.](set-up-skype-for-business-online.md) Ainsi, Skype Entreprise sera configuré avec votre domaine, chacun aura sa licence, et vous aurez configuré la messagerie instantanée et la configuration de la présence dans [Skype Entreprise Online](configure-presence-in-skype-for-business-online.md) pour votre organisation.
   
 > [!NOTE]
 > Pour installer l’Skype Entreprise, les utilisateurs doivent être administrateur local sur leur PC ou appareil. Sinon, il doit faire partie d’un groupe local qui peut installer des applications sur son PC ou appareil. Si vos utilisateurs ne sont pas autorisés à installer des logiciels sur leurs appareils, vous devez installer l’application Skype Entreprise pour eux. 
@@ -53,7 +53,7 @@ En tant [qu’administrateur,](https://support.office.com/article/eac4d046-1afd-
   
 - Pour contrôler si des personnes spécifiques de votre entreprise obtiennent le logiciel : connectez-vous au Centre d’administration Microsoft 365, accédez à Utilisateurs actifs, sélectionnez la personne à qui vous voulez accorder l’accès au logiciel, puis cliquez sur Modifier en fonction des  >   **licences** de produit et activez ou désactiver la licence. 
     
-    ![Choisissez les logiciels que l’utilisateur doit consulter.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
+    ![Choisissez les logiciels que vous souhaitez que l’utilisateur accède.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
 > Pour savoir quels plans sont affectés aux membres de votre organisation, connectez-vous au Centre d’administration Microsoft 365 > **Utilisateurs**  >  actifs. Sélectionnez la personne dans la liste, puis regardez sous **Licences de produit.** Si vous utilisez le Centre d’administration classique, regardez sous **Licence affectée.** 
@@ -80,7 +80,7 @@ Avec Office 365, vous avez plusieurs options pour déployer l’application Skyp
   
 - Téléchargez l’Skype Entreprise sur votre réseau local à partir du Centre d’administration Microsoft 365, comme décrit dans la section Déploiement Skype Entreprise [manuellement pour vos utilisateurs.](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)
     
-- Utilisez **[l Office de déploiement](https://go.microsoft.com/fwlink/p/?LinkID=626065)** pour télécharger l’Applications Microsoft 365 pour les grandes entreprises ou l’Skype Entreprise sur votre réseau local. Ensuite, utilisez l’Office déploiement pour déployer l’application sur les ordinateurs de vos utilisateurs. L Office de déploiement vous permet de contrôler certains aspects du déploiement, tels que les langues et la version (32 bits ou 64 bits).
+- Utilisez **[l Office de déploiement pour](https://go.microsoft.com/fwlink/p/?LinkID=626065)** télécharger l’Applications Microsoft 365 pour les grandes entreprises ou l’Skype Entreprise sur votre réseau local. Ensuite, utilisez l’Office déploiement pour déployer l’application sur les ordinateurs de vos utilisateurs. L Office de déploiement vous permet de contrôler certains aspects du déploiement, tels que les langues et la version (32 bits ou 64 bits).
     
 - Utilisez vos outils et processus de déploiement de logiciels existants, tels que Microsoft Endpoint Configuration Manager, pour déployer Applications Microsoft 365 pour les grandes entreprises ou l’application Skype Entreprise vos utilisateurs. Vous pouvez utiliser vos outils [](https://go.microsoft.com/fwlink/p/?LinkID=626065) et processus existants avec l’outil Déploiement Office ou avec les logiciels que vous avez téléchargés à partir du Centre d’administration Microsoft 365.
     
@@ -118,7 +118,7 @@ Si vous déployez l’application Skype Entreprise dans le cadre du déploiement
   
 ## <a name="planning-for-updates-to-the-skype-for-business-app"></a>Planification des mises à jour de l Skype Entreprise appl
 
-Dans le cadre du déploiement de l Skype Entreprise, vous devez envisager la manière dont vous souhaitez obtenir les mises à jour une fois que Skype Entreprise est installé. Ces mises à jour peuvent inclure de nouvelles fonctionnalités, des mises à jour de sécurité ou d’autres mises à jour telles que des améliorations de la stabilité ou des performances. Vous devez tenir compte des deux principaux facteurs :
+Dans le cadre du déploiement de l Skype Entreprise, vous devez envisager la manière dont vous souhaitez obtenir les mises à jour une fois que Skype Entreprise est installé. Ces mises à jour peuvent inclure de nouvelles fonctionnalités, des mises à jour de sécurité ou d’autres mises à jour telles que des améliorations de la stabilité ou des performances. Les deux principaux facteurs à prendre en compte sont les éléments :
   
 - D’où voulez-vous obtenir les mises à jour ?
     
@@ -152,7 +152,7 @@ Certaines organisations ont besoin de temps pour tester les nouvelles fonctionna
   
 Vous pouvez contrôler la fréquence d’installation des mises à jour de fonctionnalités à l’aide de l Office de déploiement de l’appareil ou d’une stratégie de groupe pour configurer le canal de mise à jour. Le Canal mensuel propose des mises à jour mensuelles (environ), tandis que le canal Semi-Annual vous propose des mises à jour tous les six mois. Pour plus d’informations sur les canaux, voir [Vue d’ensemble des canaux de mise à jour Applications Microsoft 365 pour les grandes entreprises.](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
   

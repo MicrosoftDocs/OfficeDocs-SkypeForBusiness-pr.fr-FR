@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: Cette section décrit toutes les classes de schéma utilisées par Skype Entreprise Server .
-ms.openlocfilehash: 9b7e22b6950728804986ea662659f04484834e0d65e6d9bd755c0138dc09e5e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec9c4a7612455df6d004289f88ccdb7efb3d6334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297071"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596438"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Classes de schéma et descriptions dans Skype Entreprise Server
  
@@ -28,7 +28,7 @@ Cette section décrit toutes les classes de schéma utilisées par Skype Entrepr
 
 |**Classe**|**Description**|**Comments**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Exchange Destinataire du courrier de messagerie unifiée.  <br/> |Cette classe auxiliaire est partagée avec la Exchange um.  <br/> |
+|Mail-Recipient  <br/> |Exchange Destinataire du courrier de messagerie unifiée.  <br/> |Cette classe auxiliaire est partagée avec la Exchange de la poste.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |Cette classe est un conteneur de contacts d’application et ne possède pas d’attributs propres.  <br/> |Nouveauté de Microsoft Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |Cette classe contient l’entrée correspondant au point de contrôle de service d’une instance des services d’applications de communications unifiées (UCAS).  <br/> |Nouveauté de Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |Cette classe fournit une association d’un pool spécifique à son service d’application.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |

@@ -12,22 +12,22 @@ ms.reviewer: rowille
 description: Choisissez Teams applications clientes, planifiez la qualité des points de terminaison, obtenez des recommandations pour le déploiement de Wi-Fi points de terminaison et le choix d’appareils audio.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a0557603c0086fdcc561dec3257b9f9bd1bef32b7db6d680a018202f0aa59aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624836"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’expérience de mes utilisateurs
 
-Cet article donne une vue d’ensemble des conditions requises pour identifier correctement les éléments de déploiement de vos services vocaux cloud qui affectent directement l’expérience de vos utilisateurs. En vous préparez à ces éléments avant le déploiement, vous augmentez vos chances de fournir une expérience fiable et de haute qualité aux utilisateurs. 
+Cet article donne une vue d’ensemble des conditions requises pour identifier correctement les éléments de déploiement de vos services vocaux cloud qui affectent directement l’expérience de vos utilisateurs. En vous préparez à ces éléments avant le déploiement, vous augmentez vos chances de fournir une expérience haute qualité et fiable aux utilisateurs. 
 
 ## <a name="client-deployment"></a>Déploiement du client
 

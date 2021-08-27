@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: Choisissez un modèle de déploiement, développez une matrice RACI (Responsible-Accountable-consulted-informed), créez des plans d’exécution et de gouvernance.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b891db54d7202eb24df969e3d510a4cc5d7c8be3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314320"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624816"
 ---
 # <a name="document-my-success-plan"></a>Documenter mon plan de réussite
 
@@ -31,7 +31,7 @@ Cet article donne une vue d’ensemble des conditions requises pour documenter c
 
 ## <a name="execution-planning"></a>Planification de l’exécution 
 
-Après avoir défini la manière dont vous allez implémenter la solution AudioConférence ou Système téléphonique avec la solution Forfait d’appels dans votre organisation, vous devez planifier l’exécution du projet d’implémentation.
+Après avoir défini la façon dont vous allez implémenter la solution Audioconférence ou Système téléphonique avec la solution Forfait d’appels dans votre organisation, vous devez planifier l’exécution du projet d’implémentation.
 
 Si votre organisation n’a qu’un ou deux sites, vous ne devez peut-être pas compléter tous les détails fournis dans cet article, mais vous devez le lire pour guider votre approche.
 
@@ -71,7 +71,7 @@ Voici un exemple de matrice RACI pour une implémentation Voix cloud.
 | Atelier sur l’architecture                                 | I            | R, A                         | C          |                                       |                               |
 | Atelier de phase de conception pour les scénarios d’adoption       | C            | I                            | A          | R                                     |                               |
 | Atelier de réussite de l’adoption                             |              |                              | R, A       | C                                     |                               |
-| Atelier de préparation des clients et appareils                  | I            |                              | R, A       | C                                     |                               |
+| Atelier de préparation du client et des appareils                  | I            |                              | R, A       | C                                     |                               |
 
 
 <table>
@@ -108,9 +108,9 @@ Voici un exemple de plan d’exécution trimestrielle pour la phase de conceptio
 
 ## <a name="communications-and-governance-plan"></a>Plan de gouvernance et de communication
 
-Pour tenir les parties prenantes du projet au courant de l’avancement du déploiement, vous devez établir un plan pour la façon dont les communications seront établies entre les membres de l’équipe de projet principales et avec les parties prenantes pour discuter des questions relatives à l’état du projet, aux jalons clés, aux bloqueurs et aux diverses révisions du projet par rapport aux KSI établis,  mesures opérationnelles et objectifs stratégiques.
+Pour tenir les parties prenantes du projet au courant de l’avancement du déploiement, vous devez établir un plan pour la façon dont les communications seront établies entre les membres de l’équipe de projet principales et avec les parties prenantes pour discuter des questions relatives à l’état du projet, aux jalons clés, aux bloqueurs et à diverses révisions du projet par rapport aux KSI établis,  mesures opérationnelles et objectifs stratégiques.
 
-Voici un exemple de plan de communications et de gouvernance que vous pouvez utiliser dans votre projet d’implémentation de voix cloud.
+Voici un exemple de plan de communication et de gouvernance que vous pouvez utiliser dans votre projet d’implémentation de voix cloud.
 
 | Type                                        | Objectifs                                                                                                                                                      | Participants | Jours/heure                                     | Lieu             | Propriétaire de la réunion |
 |---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------|----------------------|---------------|
@@ -133,7 +133,7 @@ Voici un exemple de plan de communications et de gouvernance que vous pouvez uti
 
 Un plan de réussite est le résumé de la documentation que vous avez créée au cours de la phase de conception.
 
-Le plan de réussite fournit à l’équipe de projet, qui peut inclure des FastTrack ou un partenaire de déploiement, des informations suffisantes pour réaliser les objectifs de votre organisation avec l’implémentation du service d’audioconférence ou d’Système téléphonique avec le service Plan d’appel.
+Le plan de réussite fournit à l’équipe de projet, qui peut inclure des FastTrack ou un partenaire de déploiement, des informations suffisantes pour réaliser les objectifs de votre organisation en mettant en œuvre l’audioconférence ou la Système téléphonique avec le service Plan d’appel.
 
 En règle générale, un plan de réussite contient les sections principales suivantes, sur lesquelles vous aurez travaillé au cours de la phase de conception :
 

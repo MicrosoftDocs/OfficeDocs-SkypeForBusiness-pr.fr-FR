@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: reference
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 description: Lisez cet article pour identifier les codes de pays de chemin de médias pour le routage direct afin de sélectionner le chemin de médias optimal.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36124a8aadc94bfd73ffd195ec8ee0a2acf0c2a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327739"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582348"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Direct Routing media path country codes
 
 Lorsque vous choisissez un itinéraire de routage pour le média, le routage direct affecte toujours par défaut un centre de données basé sur l’adresse IP publique du contrôleur de session en bordure (SBC), et sélectionne toujours le chemin le plus proche du centre de données SBC.
 
-Toutefois, dans certains cas, le chemin de médias par défaut peut ne pas être le chemin de médias optimal . Par exemple, une adresse IP publique provenant d’une plage aux États-Unis peut être affectée à unbc SBC situé en Europe. 
+Toutefois, dans certains cas, le chemin de médias par défaut peut ne pas être le chemin multimédia optimal . Par exemple, une adresse IP publique provenant d’une plage aux États-Unis peut être affectée à unbc SBC situé en Europe. 
 
 En utilisant le paramètre -MediaRelayRoutingLocationOverride avec les cmdlets New-CsOnlinePSTNGateway et Set-CsOnlinePSTNGateway>, vous pouvez spécifier la région préférée pour le trafic de médias. Par exemple, la commande suivante indique que la région préférée est Allemagne :
 
@@ -98,7 +98,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Comores         | KM |
 | Congo           | CG |
 | Congo (RDC)     | CD |
-| Îles Cook    | CK |
+| Cook (îles)    | CK |
 | Costa Rica      | CR |
 | Côte d’Ivoire   | CI |
 | Croatie         | HR |
@@ -142,7 +142,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Guinée          | GN |
 | Guinea-Bissau   | GW |
 | Guyane          | GY |
-| Haïti           | Salut |
+| Haïti           | SALUT |
 | Heard et McDonald (îles) | HM |
 | Honduras        | HN |
 | Hong Kong (R.A.S)   | HK |
@@ -179,7 +179,7 @@ Le tableau suivant indique les valeurs de code de pays pour le paramètre -Media
 | Luxembourg      | LU |
 | Macao (R.A.S.       | MO |
 | Madagascar      | Z |
-| Malawi          | Z |
+| Malawi          | SO |
 | Malaisie        | MY |
 | Maldives        | MV |
 | Mali            | ML |

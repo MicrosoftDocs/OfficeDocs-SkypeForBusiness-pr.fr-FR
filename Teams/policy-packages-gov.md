@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer Teams packages de stratégie pour votre organisation gouvernementale.
-ms.openlocfilehash: d9c229e9795a9e93caed37832baf0b03ef58c47305f41d2961420eea485bc608
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316990"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582168"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams packages de stratégies pour le gouvernement
 
@@ -41,7 +41,7 @@ Les packages de stratégie pré-définissent les stratégies suivantes, selon le
 - Configuration de l’application
 - Événements en direct
 
-Teams inclut actuellement les packages de stratégie suivants pour le gouvernement.
+Teams inclut actuellement les packages de stratégies suivants pour le gouvernement.
 
 |Nom du package dans le Centre d’administration Microsoft Teams|Idéal pour|Description |
 |---------|---------|---------|

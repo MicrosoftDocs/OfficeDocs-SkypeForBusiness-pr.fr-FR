@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: f2c0112f3817bfd64184018770348ee50ecb5f31c9b6dd161c90f70bdae97eb5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bcbfc305ce250abb5f11aa1498a18802dde066c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335734"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589206"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Activer ou désactiver l’envoi de courriers électroniques en cas de modification des paramètres d’audioconférence dans Skype Entreprise Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "54335734"
 > [!Note]
 > Si vous voulez activer ou désactiver l’envoi de courriers électroniques dans Microsoft Teams, voir Activer ou désactiver l’envoi de courriers électroniques en cas de modification des [paramètres d’audioconférence dans Microsoft Teams.](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
 
-Les utilisateurs sont avertis automatiquement par courrier électronique lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut être possible que vous vouliez réduire le nombre de courriers électroniques envoyés à Skype Entreprise utilisateurs. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
+Les utilisateurs sont automatiquement avertis par courrier électronique lorsqu’ils sont activés pour l’audioconférence. Toutefois, il peut être possible que vous vouliez réduire le nombre de courriers électroniques envoyés à Skype Entreprise utilisateurs. Dans ce cas, vous pouvez désactiver l’envoi de courriers électroniques.
   
 Si vous désactivez l’envoi de courriers électroniques, les messages audioconférences ne seront pas envoyés à vos utilisateurs, y compris les courriers électroniques concernant les moments où les utilisateurs sont activés ou désactivés pour l’audioconférence, lorsque leur code confidentiel est réinitialisé, et lorsque l’ID de conférence et le numéro de téléphone de conférence par défaut changent.
   
@@ -91,7 +91,7 @@ Vous pouvez utiliser le Centre Skype Entreprise d’administration ou Windows Po
     
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Lorsque les messages automatiques sont désactivés, vous pouvez toujours déclencher l’envoi d’un courrier électronique avec l’ID de conférence et le numéro de téléphone à l’aide du Centre Skype Entreprise’administration. Toutefois, si vous le faites, le code confidentiel n’est pas inclus. Si vous voulez réinitialiser le code confidentiel de l’audioconférence et que l’envoi de courriers électroniques est désactivé, vous devrez l’envoyer à l’utilisateur par un autre moyen.
+- Lorsque les messages automatiques sont désactivés, vous pouvez toujours déclencher l’envoi d’un courrier électronique avec l’ID de conférence et le numéro de téléphone à l’aide du Skype Entreprise d’administration. Toutefois, si vous le faites, le code confidentiel n’est pas inclus. Si vous voulez réinitialiser le code confidentiel de l’audioconférence et que l’envoi de courriers électroniques est désactivé, vous devrez l’envoyer à l’utilisateur par un autre moyen.
     
 - L'envoi de courrier électronique à vos utilisateurs peut être désactivé à l'aide du Centre d'administration Skype Entreprise ou de Windows PowerShell.
     
@@ -124,7 +124,7 @@ Vous pouvez utiliser le Centre Skype Entreprise d’administration ou Windows Po
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Messages électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres d’audioconférence](emails-sent-to-users-when-their-settings-change.md)
 

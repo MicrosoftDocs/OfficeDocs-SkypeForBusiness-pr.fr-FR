@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
-description: Découvrez comment prendre en charge la résilience vocale dans Skype Entreprise Server Voix Entreprise, à la fois sur les sites centraux et les sites de succursale. Les options de site de succursale incluent le déploiement des Survivable Branch Appliances ou des serveurs Survivable Branch Servers.
-ms.openlocfilehash: ed5a410c30d1091a335e3c3ce3e4c7a5523f28399281f3a3f6f4686de08024a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Découvrez comment prendre en charge la résistance vocale dans Skype Entreprise Server Voix Entreprise, à la fois sur les sites centraux et les sites de succursale. Les options de site de succursale incluent le déploiement des Survivable Branch Appliances ou des serveurs Survivable Branch Servers.
+ms.openlocfilehash: 08bfa774b52a59dcb9b88cdf9b41d11035f09417
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280035"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617740"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planifier la résilience Voix Entreprise dans Skype Entreprise Server
 
-Découvrez comment prendre en charge la résilience vocale dans Skype Entreprise Server Voix Entreprise, à la fois sur les sites centraux et les sites de succursale. Les options de site de succursale incluent le déploiement des Survivable Branch Appliances ou des serveurs Survivable Branch Servers.
+Découvrez comment prendre en charge la résistance vocale dans Skype Entreprise Server Voix Entreprise, à la fois sur les sites centraux et les sites de succursale. Les options de site de succursale incluent le déploiement des Survivable Branch Appliances ou des serveurs Survivable Branch Servers.
 
-La résilience vocale fait référence à la capacité des utilisateurs à continuer à passer et à recevoir des appels si un site central qui héberge Skype Entreprise Server devient indisponible, qu’il s’agit d’une défaillance de réseau large (WAN) ou d’une autre cause. Si un site central tombe en panne, Voix Entreprise doit basculer vers un site de sauvegarde pour assurer la continuité du service. En cas de panne du réseau étendu, les appels de la succursale doivent être redirigés vers une passerelle PSTN locale. Cette section traite de la planification pour la résistance des communications vocales en cas de panne du site central ou du réseau étendu.
+La résilience vocale fait référence à la capacité des utilisateurs à continuer à passer et recevoir des appels si un site central qui héberge Skype Entreprise Server devient indisponible, qu’il s’agit d’une défaillance de réseau large (WAN) ou d’une autre cause. Si un site central tombe en panne, Voix Entreprise doit basculer vers un site de sauvegarde pour assurer la continuité du service. En cas de panne du réseau étendu, les appels de la succursale doivent être redirigés vers une passerelle PSTN locale. Cette section traite de la planification pour la résistance des communications vocales en cas de panne du site central ou du réseau étendu.
 
 ## <a name="central-site-resiliency"></a>Résilience de site central
 
@@ -64,7 +64,7 @@ Les étapes suivantes décrivent le processus de découverte et d’inscription 
     > [!NOTE]
     > L’utilisation d’un pool directeur est facultative. Un pool frontal peut être utilisé à la place.
 
-2. Le pool directeur informe le client Skype Entreprise du pool de bureaux d’inscriptions principal et du pool de sauvegarde de l’utilisateur.
+2. Le pool directeur informe le client Skype Entreprise sur le pool de bureaux d’inscriptions principal de l’utilisateur et le pool de sauvegarde du pool de bureaux d’inscriptions.
 
 3. Le Skype Entreprise tente d’abord de se connecter au pool de bureaux d’inscriptions principal de l’utilisateur. Si le pool de serveurs d’inscriptions principal est disponible, le serveur d’inscriptions accepte l’inscription. Si le pool de bureaux d’inscriptions principal n’est pas disponible, le client Skype Entreprise tente de se connecter au pool de services d’inscriptions de sauvegarde. Si le pool de bureaux d’inscriptions de sauvegarde est disponible et a déterminé que le pool de bureaux d’inscriptions principal de l’utilisateur est indisponible (en détectant un manque de pulsations pour un intervalle de retentation spécifié), le pool de sauvegarde accepte l’inscription de l’utilisateur. Une fois que le bureau d’enregistrement de sauvegarde a détecté que le bureau d’inscriptions principal est de nouveau disponible, le pool de sauvegarde redirige les clients deover vers leur pool principal.
 
@@ -90,7 +90,7 @@ Les conditions préalables et recommandations suivantes, relatives à l’implé
 
 ### <a name="dependencies"></a>Dépendances
 
-Skype Entreprise Server l’infrastructure et les composants logiciels suivants assurent la résilience vocale :
+Skype Entreprise Server l’infrastructure et les composants logiciels suivants assurent la résilience des voix :
 
 |**Composant** <br/> |**Fonctionnel** <br/> |
 |:-----|:-----|
@@ -165,7 +165,7 @@ Ce guide vous aidera à choisir la solution de résistance la plus adaptée à v
 
 ### <a name="branch-site-resiliency-features"></a>Fonctionnalités de résilience de site de succursale
 
-Si vous fournissez une résilience de site de succursale, si la connexion wan d’un site de succursale à un site central échoue ou si le site central est inaccessible, les fonctionnalités vocales suivantes doivent continuer à être disponibles :
+Si vous fournissez une résilience de site de succursale, si la connexion WAN d’un site de succursale à un site central échoue ou si le site central est inaccessible, les fonctionnalités vocales suivantes doivent continuer à être disponibles :
 
 - Appels PSTN entrants et sortants
 
@@ -263,7 +263,7 @@ Cette rubrique a pour but de vous aider à préparer les utilisateurs à la rés
 
 #### <a name="preparing-branch-users-for-branch-site-resiliency"></a>Préparation des utilisateurs de succursale à la résistance des sites de succursale
 
-Préparez les utilisateurs à la résistance des sites de succursale en faisant de leur pool de serveurs d’inscriptions le Survivable Branch Appliance (SBA) ou le serveur Survivable Branch Server.
+Préparez les utilisateurs à la résistance des sites de succursale en faisant de leur pool de serveurs d’inscriptions le Survivable Branch Appliance (SBA) ou le Serveur Survivable Branch Server.
 
 #### <a name="registrar-assignments-for-branch-users"></a>Assignations de serveurs d’inscriptions aux utilisateurs de succursale
 
@@ -277,12 +277,12 @@ Si un site de succursale ne contient pas de serveur DNS, il existe deux façons 
 
 #### <a name="voice-routing-for-branch-users"></a>Routage des communications vocales des utilisateurs de succursale
 
-Nous vous recommandons de créer une stratégie VoIP (Voice over Internet Protocol) distincte pour les utilisateurs d’un site de succursale. Cette stratégie doit inclure un itinéraire principal qui utilise le Survivable Branch Appliance ou la passerelle de serveur de succursale, et un ou plusieurs itinéraires de sauvegarde qui utilisent une liaison avec une passerelle PSTN (réseau téléphonique commuté) sur le site central. Si l’itinéraire principal n’est pas disponible, l’itinéraire de sauvegarde qui utilise une ou plusieurs passerelles de site central est utilisé à la place. Ainsi, quel que soit l’emplacement où un utilisateur est inscrit (sur le bureau d’enregistrement de sites de succursale ou le pool de sauvegarde du site central), la stratégie VoIP de l’utilisateur est toujours en vigueur. Il s’agit d’une considération importante pour les scénarios deover. Par exemple, si vous devez renommer le Survivable Branch Appliance ou reconfigurer le Survivable Branch Appliance pour qu’il se connecte à un pool de services d’inscriptions de sauvegarde sur le site central, vous devez déplacer les utilisateurs du site de succursale vers le site central pendant toute la durée. (Pour plus d’informations sur le changement de nom ou la reconfiguration d’un Survivable Branch Appliance, voir l’Annexe B : Gestion d’un [Survivable Branch Appliance](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) dans la documentation de déploiement.) Si ces utilisateurs n’ont pas de stratégies VoIP au niveau de l’utilisateur ou de plans de numérotation au niveau de l’utilisateur, lorsque les utilisateurs sont déplacés vers un autre site, les stratégies VoIP au niveau du site et les plans de numérotation au niveau du site du site central s’appliquent aux utilisateurs par défaut, au lieu des stratégies voIP et des plans de numérotation au niveau du site de succursale. Dans ce scénario, à moins que les stratégies VoIP au niveau du site et les plans de numérotation au niveau du site utilisés par le pool de bureaux d’inscriptions de sauvegarde ne s’appliquent également aux utilisateurs du site de succursale, leurs appels échouent. Par exemple, si les utilisateurs d’un site de succursale situé au Japon sont déplacés vers un site central à Redmond, il est peu probable qu’un plan de numérotation avec des règles de normalisation qui préviennent +1425 à tous les appels à 7 chiffres traduise correctement les appels pour ces utilisateurs.
+Nous vous recommandons de créer une stratégie VoIP (Voice over Internet Protocol) distincte pour les utilisateurs d’un site de succursale. Cette stratégie doit inclure un itinéraire principal qui utilise le Survivable Branch Appliance ou la passerelle de serveur de succursale, et un ou plusieurs itinéraires de sauvegarde qui utilisent une liaison avec une passerelle PSTN (réseau téléphonique commuté) sur le site central. Si l’itinéraire principal n’est pas disponible, l’itinéraire de sauvegarde qui utilise une ou plusieurs passerelles de site central est utilisé à la place. Ainsi, quel que soit l’emplacement où un utilisateur est inscrit (sur le bureau d’enregistrement de sites de succursale ou le pool de sauvegarde du site central), la stratégie VoIP de l’utilisateur est toujours en vigueur. Il s’agit d’une considération importante pour les scénarios de failover. Par exemple, si vous devez renommer le Survivable Branch Appliance ou reconfigurer le Survivable Branch Appliance pour qu’il se connecte à un pool de services d’inscriptions de sauvegarde sur le site central, vous devez déplacer les utilisateurs du site de succursale vers le site central pendant toute la durée. (Pour plus d’informations sur le changement de nom ou la reconfiguration d’un Survivable Branch Appliance, voir l’Annexe B : Gestion d’un [Survivable Branch Appliance](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) dans la documentation de déploiement.) Si ces utilisateurs n’ont pas de stratégies VoIP au niveau de l’utilisateur ou de plans de numérotation au niveau de l’utilisateur, lorsque les utilisateurs sont déplacés vers un autre site, les stratégies VoIP au niveau du site et les plans de numérotation au niveau du site du site central s’appliquent aux utilisateurs par défaut, au lieu des stratégies voIP et des plans de numérotation au niveau du site de succursale. Dans ce scénario, à moins que les stratégies VoIP au niveau du site et les plans de numérotation au niveau du site utilisés par le pool de bureaux d’inscriptions de sauvegarde ne s’appliquent également aux utilisateurs du site de succursale, leurs appels échouent. Par exemple, si les utilisateurs d’un site de succursale situé au Japon sont déplacés vers un site central à Redmond, il est peu probable qu’un plan de numérotation avec des règles de normalisation qui préviennent +1425 à tous les appels à 7 chiffres traduise correctement les appels pour ces utilisateurs.
 
 > [!IMPORTANT]
 > Lorsque vous créez un itinéraire alternatif de succursale, nous vous conseillons d’ajouter deux enregistrements d’utilisation téléphonique PSTN à la stratégie utilisateur de succursale et d’assigner des itinéraires séparés à chacun d’entre eux. Le premier itinéraire, ou principal, dirigerait les appels vers la passerelle associée au Survivable Branch Appliance (SBA) ou au serveur de succursale ; le deuxième itinéraire, ou itinéraire de sauvegarde, dirigerait les appels vers la passerelle sur le site central. En dirigeant les appels, le SBA ou le serveur de succursale tente tous les itinéraires assignés au premier enregistrement d’utilisation PSTN avant d’essayer le deuxième enregistrement.
 
-Pour vous assurer que les appels entrants vers les utilisateurs de site de succursale seront acheminés vers ces utilisateurs lorsque la passerelle de succursale ou le composant Windows du site Survivable Branch Appliance n’est pas disponible (ce qui se produira par exemple, si le Survivable Branch Appliance ou la passerelle de succursale était en panne pour maintenance), créez un itinéraire de transfert sur la passerelle (ou travaillez avec votre fournisseur SDA) pour rediriger les appels entrants vers le pool de sauvegarde du site central. À partir de là, les appels sont routés sur la liaison de réseau étendu (WAN) en direction des utilisateurs de succursale. Assurez-vous que l’itinéraire traduit les numéros conformément aux formats de numéro de téléphone acceptés de la passerelle PSTN ou d’un autre homologue de la liaison. Pour plus d’informations sur la création d’un itinéraire de basculement, voir [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). De même, créez des plans de numérotation au niveau du service pour la jonction associée à la passerelle du site de succursale afin de normaliser les appels entrants. Si vous avez deux Survivable Branch Appliances sur un site de succursale, vous pouvez créer un plan de numérotation au niveau du site pour les deux, sauf si un plan de niveau de service distinct pour chacun d’eux est nécessaire.
+Pour vous assurer que les appels entrants aux utilisateurs du site de succursale seront acheminés vers ces utilisateurs lorsque la passerelle de succursale ou le composant Windows du site Survivable Branch Appliance n’est pas disponible (ce qui se produira par exemple, si le Survivable Branch Appliance ou la passerelle de succursale était en panne pour maintenance), créez un itinéraire de transfert sur la passerelle (ou travaillez avec votre fournisseur SDN) pour rediriger les appels entrants vers le pool de sauvegarde du site central. À partir de là, les appels sont routés sur la liaison de réseau étendu (WAN) en direction des utilisateurs de succursale. Assurez-vous que l’itinéraire traduit les numéros conformément aux formats de numéro de téléphone acceptés de la passerelle PSTN ou d’un autre homologue de la liaison. Pour plus d’informations sur la création d’un itinéraire de basculement, voir [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). De même, créez des plans de numérotation au niveau du service pour la jonction associée à la passerelle du site de succursale afin de normaliser les appels entrants. Si vous avez deux Survivable Branch Appliances sur un site de succursale, vous pouvez créer un plan de numérotation au niveau du site pour les deux, sauf si un plan de niveau de service distinct pour chacun d’eux est nécessaire.
 
 > [!NOTE]
 > Pour calculer la consommation des ressources du site central par les utilisateurs de site de succursale qui recourent au site central pour accéder aux fonctionnalités de présence, de conférence ou de basculement, nous vous conseillons de considérer chaque utilisateur de site de succursale comme s’il était inscrit sur le site central. Il n’existe actuellement aucune limite au nombre d’utilisateurs de site de succursale, y compris les utilisateurs inscrits auprès d’un Survivable Branch Appliance.
@@ -303,7 +303,7 @@ Dans un scénario où la liaison de réseau étendu entre un site de succursale 
 |:-----|:-----|:-----|:-----|:-----|
 |5digitExtensions  <br/> |Ne traduit pas les numéros à 5 chiffres  <br/> |^(\d{5})$  <br/> |$1  <br/> |10001 n’est pas traduit  <br/> |
 
-Vous devez également faire face aux scénarios de numéros de poste spécifiques où la liaison de réseau étendu entre un site de succursale et un site central n’est pas disponible et où un appel émanant d’un site de succursale doit être acheminé sur le réseau téléphonique commuté. Lors d’une panne du réseau wan, si un utilisateur de site de succursale appelle un utilisateur du site central uniquement en composant le numéro de poste de l’utilisateur du site central, vous devez avoir une règle de traduction sortante qui ajoute le numéro de téléphone complet de l’utilisateur du site central. Si l’URI de ligne d’un utilisateur contient le numéro de téléphone complet de votre organisation et le numéro de poste unique de l’utilisateur au lieu d’un numéro de téléphone complet propre à l’utilisateur, vous devez avoir une règle de traduction sortante qui ajoute le numéro de téléphone complet de votre organisation à la place. Par exemple :
+Vous devez également faire face aux scénarios de numéros de poste spécifiques où la liaison de réseau étendu entre un site de succursale et un site central n’est pas disponible et où un appel émanant d’un site de succursale doit être acheminé sur le réseau téléphonique commuté. Pendant une panne de réseau wan, si un utilisateur de site de succursale appelle un utilisateur du site central uniquement en composant le numéro de poste de l’utilisateur du site central, vous devez avoir une règle de traduction sortante qui ajoute le numéro de téléphone complet de l’utilisateur du site central. Si l’URI de ligne d’un utilisateur contient le numéro de téléphone complet de votre organisation et le numéro de poste unique de l’utilisateur au lieu d’un numéro de téléphone complet propre à l’utilisateur, vous devez avoir une règle de traduction sortante qui ajoute le numéro de téléphone complet de votre organisation à la place. Par exemple :
 
 |**Description**|**Modèle de correspondance**|**Traduction**|**Exemple**|
 |:-----|:-----|:-----|:-----|
@@ -328,13 +328,13 @@ Pour configurer la survivabilité de la messagerie vocale pour les utilisateurs 
 
 - Un administrateur microsoft Exchange doit configurer la Exchange de Standard automatique de la Standard automatique (AA) pour accepter uniquement les messages. Cette configuration désactive toutes les autres fonctions génériques, comme le transfert à un utilisateur ou un opérateur, et limite le rôle du standard automatique à la seule réception des messages. Sinon, l’administrateur Exchange peut utiliser un standard automatique générique ou personnalisé pour router l’appel vers un opérateur.
 
-- L’administrateur Skype Entreprise Server doit prendre le numéro de téléphone AA et utiliser ce numéro de téléphone comme numéro de téléphone du service de messagerie unie **Exchange** dans les paramètres de réroutage de la messagerie vocale pour le Survivable Branch Appliance ou le serveur de succursale.
+- L’administrateur Skype Entreprise Server doit prendre le numéro de téléphone AA et utiliser ce numéro de téléphone comme numéro de attendant automatique de messagerie unie **Exchange** dans les paramètres de réroutage de la messagerie vocale pour le Survivable Branch Appliance ou le serveur de succursale.
 
 - L’administrateur Skype Entreprise Server doit obtenir le numéro de téléphone d’accès abonné à  la messagerie un Exchange et utiliser ce numéro comme numéro d’accès abonné dans les paramètres de réroutage de la messagerie vocale pour le Survivable Branch Appliance ou le Serveur Survivable Branch Server.
 
 - L’administrateur Skype Entreprise Server doit configurer la messagerie un Exchange afin qu’un seul plan de numérotation soit associé à tous les utilisateurs de succursale qui ont besoin d’accéder à la messagerie vocale lors d’une panne du réseau wan.
 
-- Lorsque la liaison wan est indisponible, les appels aux utilisateurs de site de succursale peuvent être acheminés vers la boîte aux lettres vocale de messagerie unifiée Exchange de l’utilisateur, mais uniquement si la stratégie de voix appliquée à l’appel spécifie un numéro de téléphone de messagerie vocale unique et n’inclut pas de numéro de poste.
+- Lorsque la liaison wan est indisponible, les appels aux utilisateurs du site de succursale peuvent être acheminés vers la boîte aux lettres vocale de messagerie unifiée Exchange de l’utilisateur, mais uniquement si la stratégie de voix appliquée à l’appel spécifie un numéro de téléphone de messagerie vocale unique et n’inclut pas de numéro de poste.
 
 #### <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Configuration matérielle et logicielle requise pour la résistance des sites de succursale
 
@@ -344,7 +344,7 @@ La configuration matérielle et logicielle requise varie en fonction de la solut
 
 Le matériel et les logiciels requis sont intégrés au Survivable Branch Appliance. Cependant, il est également recommandé que chaque site de succursale déploie un serveur DHCP afin d’obtenir des adresses IP du client ; sinon, lorsque le bail DHCP expire, les clients ne disposent plus de connectivité IP.
 
-Si les serveurs DNS d’entreprise se trouvent uniquement dans les sites centraux, les utilisateurs de sites de succursale ne pourront pas se connecter à eux lors d’une panne du réseau wan. Par conséquent, la découverte Skype Entreprise Server qui utilise l’enregistrement de ressource DNS SRV (Service (SRV) échouera. Pour garantir un réacheminement rapide lors d’une panne de réseau étendu, les enregistrements DNS doivent être mis en cache au niveau du site de succursale. Si le routeur de succursale prend en charge le cache DNS, activez-le à cette fin. Vous pouvez également déployer un serveur DNS au niveau de la succursale. Il peut s’agit d’un serveur autonome ou d’une version du Survivable Branch Appliance qui prend en charge les fonctionnalités DNS. Pour plus d’informations, contactez votre fournisseur Survivable Branch Appliance.
+Si les serveurs DNS d’entreprise sont situés uniquement dans les sites centraux, les utilisateurs de sites de succursale ne pourront pas se connecter à eux lors d’une panne du réseau wan. Par conséquent, la découverte Skype Entreprise Server qui utilise l’enregistrement de ressource DNS SRV (Service (SRV) échouera. Pour garantir un réacheminement rapide lors d’une panne de réseau étendu, les enregistrements DNS doivent être mis en cache au niveau du site de succursale. Si le routeur de succursale prend en charge le cache DNS, activez-le à cette fin. Vous pouvez également déployer un serveur DNS au niveau de la succursale. Il peut s’agit d’un serveur autonome ou d’une version du Survivable Branch Appliance qui prend en charge les fonctionnalités DNS. Pour plus d’informations, contactez votre fournisseur Survivable Branch Appliance.
 
 > [!NOTE]
 > Il n’est pas nécessaire de disposer d’un contrôleur de domaine sur un site de succursale. Le Survivable Branch Appliance authentifier les clients à l’aide d’un certificat spécial qu’il envoie au client en réponse à la demande de certificat du client lorsqu’il se signe.

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: La migration des numéros d’accès vers Skype Entreprise Server 2019 nécessite l’exécution Move-CsApplicationEndpoint cmdlet pour migrer les objets contact. Pendant la période de coexistence avec Skype Entreprise Server 2019 et l’installation héritée, les numéros d’accès à la connexion que vous avez créés dans Skype Entreprise Server 2019 se comportent de la même manière que les numéros d’accès à la connexion que vous créez dans l’installation héritée, comme décrit dans cette section.
-ms.openlocfilehash: a65f0252dd4899ef196701d282a1b14673c5c22b7851029b35a15c4685c2b28d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d5d0ad88c241685e7ea86c7adc9dc536d3180a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589334"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migration des numéros d’accès entrant
 

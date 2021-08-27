@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: Offrez et tenez à jour un déploiement de haute qualité en planant pour des rôles opérationnels et en attribuant un champion de la qualité.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3335d47917dcb14536c4edd19c3cbbe54bd24f1b9f0b6fb0e735d7e6c325e7c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df7d051f6ea140ab74532904994ea3ed5914d066
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329359"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624866"
 ---
 # <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
@@ -85,7 +85,7 @@ Le meilleur candidat pour la qualité est généralement le propriétaire du ser
 
 L’équipe de champion de la qualité tire parti d’outils et de processus documentés existants, tels que le tableau de bord de qualité des appels et le guide de révision de l’expérience de qualité, pour surveiller l’expérience des utilisateurs, identifier les tendances de qualité et conduire les corrections au besoin. L’organisateur de la qualité collabore avec les équipes appropriées pour conduire des actions de correction, en rapportant à un comité d’équipe sur l’avancement de ses progrès et en ouvrez des problèmes.
 
-Les tâches et activités associées au rôle sont documentées dans le Guide des opérations. Ce rôle devrait être assigné au début de la phase de conception. Une étape clé dans la mise en œuvre du rôle de champion de la qualité consiste à acquérir les connaissances requises pour ce rôle et à s'assurer que les conditions préalables sont en place pour accomplir les tâches. L'une des tâches clés de ce rôle est d'effectuer un examen régulier de l'expérience de la qualité.
+Les tâches et activités associées au rôle sont consignées dans le Guide des opérations. Ce rôle devrait être assigné au début de la phase de conception. Une étape clé dans la mise en œuvre du rôle de champion de la qualité consiste à acquérir les connaissances requises pour ce rôle et à s'assurer que les conditions préalables sont en place pour accomplir les tâches. L'une des tâches clés de ce rôle est d'effectuer un examen régulier de l'expérience de la qualité.
 
 <!--ENDOFSECTION-->
 
