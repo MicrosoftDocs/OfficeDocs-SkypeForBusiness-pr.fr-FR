@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Résumé : Découvrez les enregistrements des détails des appels utilisés dans Skype Entreprise Server.'
-ms.openlocfilehash: 8559104bffb4e1062f926e70972c0654522670887488740a2c9589d48b104959
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0453bbe4e8bbd4a9bf8c2fe06b33599375171280
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336614"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610651"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Enregistrement des détails des appels dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54336614"
   
 L’enregistrement des détails des appels permet d’enregistrer les informations de diagnostic et d’utilisation relatives aux activités P2P, notamment la messagerie d’instance, les appels VoIP (protocole voix sur IP), le partage d’application, le transfert de fichiers et les réunions. Les données d’utilisation permettent de calculer le retour sur investissement alors que les données de diagnostic permettent de résoudre les problèmes spécifiques aux activités et réunions P2P. Lorsque vous installez Skype Entreprise Server, vous installez également un ensemble prédéféré de paramètres de configuration globaux pour l’cdr. Utilisez les rubriques de cette section pour configurer l’enregistrement des détails des appels.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Afficher les informations de configuration de l’Skype Entreprise Server](view-configuration-information.md)
     

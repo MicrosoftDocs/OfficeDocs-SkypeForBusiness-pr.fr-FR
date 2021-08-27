@@ -16,19 +16,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: "Découvrez les licences de modules supplémentaires, les fonctionnalités qui vous seront utiles, comment les acheter pour votre produit et comment les utiliser votre opérateur actuel. Vous pouvez obtenir des informations sur le prix et les détails de l'offre pour Office 365, les Crédits de communication et les forfaits d'appels. "
-ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60684102e563e23e99ea5ea18a16bcf51f6d82db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283906"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624526"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licences de module complémentaire Skype Entreprise
 
@@ -62,7 +62,7 @@ Selon l'offre dont vous disposez, vous pouvez acheter des licences de complémen
 |**Audioconférence** <br/> |Parfois, des personnes de votre organisation devront utiliser un téléphone pour appeler une Skype Entreprise réunion au lieu d’utiliser leur ordinateur. Dans ce cas, utilisez la fonction d'audioconférence.  <br/> Consultez cet article pour savoir si l’audioconférence est disponible dans votre pays ou région : [Disponibilité de l'audioconférence et des forfaits d'appels selon les régions et les pays](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). <br/> Pour les informations de tarification, consultez [Configuration requise pour l’audioconférence](https://products.office.com/skype-for-business/audio-conferencing#requirements).  <br/> |
 |**Numéros gratuits pour un accès rendez-vous à vos conférences et possibilité d'accès global aux appels sortants à partir d'une conférence pour ajouter une personne en appelant n'importe quel numéro** <br/> |Si vous ajoutez la fonction d’audioconférence, nous vous recommandons de [Configurer les crédits de communication](/microsoftteams/set-up-communications-credits-for-your-organization). <br/> |
 |**Système téléphonique** <br/> |Un PBX est un système téléphonique au sein d’une entreprise. Système téléphonique est un service téléphonique hébergé. Il vous offre des fonctionnalités standard et innovantes en regard des capacités d'un PBX, sans équipement complexe et coûteux. [Voici ce que vous obtenez avec Système téléphonique.](/MicrosoftTeams/here-s-what-you-get-with-phone-system)  <br/> Pour les informations de tarification, consultez [Configuration requise pour le système téléphonique](https://products.office.com/skype-for-business/cloud-pbx#requirements).  <br/> |
-|**Forfaits d’appel** <br/> |Les appels à d’autres Skype Entreprise utilisateurs sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des numéros de téléphone en dehors de votre entreprise, obtenez un [forfait d’appels.](/MicrosoftTeams/calling-plans-for-office-365) Il existe des forfaits d’appels nationaux et des plans d’appels nationaux et internationaux.  <br/> Pour les informations de tarification, consultez [Configuration requise pour les forfaits d’appels](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).  <br/> |
+|**Forfaits d’appel** <br/> |Les appels vers d’autres Skype Entreprise utilisateurs sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des numéros de téléphone en dehors de votre entreprise, obtenez un [forfait d’appels.](/MicrosoftTeams/calling-plans-for-office-365) Il existe des forfaits d’appels nationaux et des plans d’appels nationaux et internationaux.  <br/> Pour les informations de tarification, consultez [Configuration requise pour les forfaits d’appels](https://products.office.com/skype-for-business/pstn-calling-plans#requirements).  <br/> |
 |**Salles Microsoft Teams** <br/> |Il ne s’agit pas d’un module complémentaire. C'est une fonctionnalité qui vous permet de partager du contenu, de la vidéo et de l'audio dans des salles de conférence. Consultez les [Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-licensing).  <br/> |
 
 Vous avez besoin d’aborder toutes ces options de module complémentaire avec quelqu'un ? [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
@@ -99,7 +99,7 @@ Si vous utilisez la connectivité PSTN locale pour les utilisateurs hybrides, vo
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Configurer Skype entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     

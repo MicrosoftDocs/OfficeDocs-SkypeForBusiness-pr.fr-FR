@@ -11,19 +11,19 @@ f1.keywords:
 - ms.lync.plan.Director
 - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Un directeur est un serveur exécutant un logiciel de communication Skype Entreprise Server 2015 qui peut authentifier les demandes des utilisateurs, mais qui ne peut pas gérer de comptes d’utilisateurs.
-ms.openlocfilehash: c6f1a9a16d8d97888be4b9453a7ce3746298cce4cf38beebcf82ff2f89e77904
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ba0163ebb07554c1f402183fd84f3818d4c4ebb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283256"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610601"
 ---
 # <a name="director-planning-tool"></a>Outil de planification de directeur
  
-Un directeur est un serveur exécutant Skype Entreprise Server 2015 qui peut authentifier les demandes des utilisateurs, mais n’a pas de compte d’utilisateur. 
+Un directeur est un serveur exécutant Skype Entreprise Server 2015 qui peut authentifier les demandes des utilisateurs, mais qui n’a pas de compte d’utilisateur. 
   
 Ce rôle est facultatif, vous pouvez choisir de déployer un directeur dans les deux scénarios suivants :
   

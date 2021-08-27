@@ -9,20 +9,20 @@ audience: admin
 ms.reviewer: ''
 description: Cet article décrit comment naviguer dans les Teams.
 f1.keywords: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 7790714434dfa3fb6de6bf5808ec7f8f3097a50fdd79c540e0ef7ee70fc0861b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617220"
 ---
 # <a name="navigate-microsoft-teams"></a>Naviguer dans Microsoft Teams
 
-À présent que vous avez une compréhension claire du chemin unique et des besoins de votre organisation, il est temps de commencer votre chemin vers une collaboration puissante. Utilisez la section ci-dessous pour découvrir comment naviguer dans les fonctionnalités de Quniala complétées au sein d’Teams.
+À présent que vous avez une compréhension claire du chemin unique et des besoins de votre organisation, il est temps de commencer votre chemin vers une collaboration puissante. Utilisez la section ci-dessous pour découvrir comment naviguer dans les fonctionnalités de Txtiala complétées au sein d’Teams.
 
 ## <a name="getting-started"></a>Prise en main
 
@@ -36,7 +36,7 @@ Communiquez efficacement en commençant des appels à deux ou de groupe avec l�
 
 ## <a name="getting-work-done"></a>Travail
 
-La fonctionnalité des cartes d Kaizala’action existe actuellement dans Microsoft Teams. En matière de travail, les outils qui s’offrent à vous peuvent vous permettre d’être plus efficace. Plus de 300 applications externes sont disponibles dans Microsoft Teams. Continuez à lire pour découvrir comment utiliser des applications et des modèles pour créer des [invitations](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)à des réunions, des annonces et des vérifications précises de l’emplacement pour rester connecté au sein de votre organisation.
+La fonctionnalité des cartes d Kaizala’action existe actuellement dans Microsoft Teams. Dans le temps, les outils qui s’offrent à vous peuvent permettre d’améliorer l’efficacité. Plus de 300 applications externes sont disponibles dans Microsoft Teams. Continuez à lire pour découvrir comment utiliser des applications et des modèles pour créer des [invitations](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)à des réunions, des annonces et des vérifications précises de l’emplacement pour rester connecté au sein de votre organisation.
 
 ### <a name="announcements"></a>Annonces
 

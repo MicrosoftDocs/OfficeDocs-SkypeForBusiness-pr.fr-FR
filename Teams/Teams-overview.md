@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: Rechercher le parcours approprié pour le déploiement de Microsoft Teams dans votre organisation. Découvrez l’infrastructure de Teams et son utilisation avec Microsoft 365 ou Office 365.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d16047b643ee8312a250156cbb5abcd083b01bc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298104"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603643"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenue dans Microsoft Teams
 Si vous êtes l’administrateur de Microsoft Teams dans votre organisation, vous êtes au bon endroit. Lorsque vous êtes prêt à utiliser Teams, commencez par la rubrique [Comment déployer Teams](./deploy-overview.md) et [Configurer une collaboration sécurisée avec Microsoft 365 et Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams) .

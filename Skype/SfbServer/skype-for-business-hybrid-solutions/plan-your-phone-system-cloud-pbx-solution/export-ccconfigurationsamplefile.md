@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: La cmdlet Export-CcConfigurationSampleFile exporte un exemple Skype Entreprise Cloud Connector Edition fichier de configuration (.ini) vers l’annuaire d’appliances d’une appliance Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.
-ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: La cmdlet Export-CcConfigurationSampleFile exporte un exemple Skype Entreprise Cloud Connector Edition fichier de configuration (.ini) vers l’annuaire d’équipements d’une appliance Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.
+ms.openlocfilehash: 409514761c3bfeccebb671d289201fc67f58d220
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326260"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603663"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-La cmdlet Export-CcConfigurationSampleFile exporte un exemple Skype Entreprise Cloud Connector Edition fichier de configuration (.ini) vers l’annuaire d’appliances d’une appliance Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.
+La cmdlet Export-CcConfigurationSampleFile exporte un exemple Skype Entreprise Cloud Connector Edition fichier de configuration (.ini) vers l’annuaire d’équipements d’une appliance Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.
   
 Cette cmdlet s’applique Skype Entreprise Cloud Connector Edition 1.4.1, 1.4.2.
   
@@ -60,7 +60,7 @@ Aucun. La cmdlet Export-CcConfigurationSampleFile n’accepte pas la saisie de d
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Néant
+Aucun
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

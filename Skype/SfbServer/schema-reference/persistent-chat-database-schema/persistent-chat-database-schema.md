@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Cela documente le schéma de la base de données de conversation permanente dans Skype Entreprise Server.
-ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 673cca8acf2ecad76c578ba05d8d22a20a253a9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280927"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610581"
 ---
 # <a name="persistent-chat-database-schema"></a>Schéma de base de données de conversation permanente
  
@@ -39,7 +39,7 @@ Respectez les meilleures pratiques suivantes :
     
 - Testez les requêtes que vous créez sur des bases de données représentatives en matière de taille afin d’avoir la garantie que ces requêtes peuvent répondre à vos besoins.
     
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Liste des tables de serveur de conversation permanente](list-of-persistent-chat-server-tables.md)
     

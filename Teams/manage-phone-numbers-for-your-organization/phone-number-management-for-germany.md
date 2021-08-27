@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Allemagne Microsoft Teams.
-ms.openlocfilehash: 38d8f6d746e68340afd019666fac072054ef44c3
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 155ba545d0b11301e36c3a32066b9340aa56e9e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348486"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617340"
 ---
 # <a name="phone-number-management-for-germany"></a>Gestion des numéros de téléphone pour l'Allemagne
 
@@ -39,7 +39,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez l’un de ces formulaires. <br/><br/> Pour les numéros de téléphone des utilisateurs :<br/>[Courrier d’autorisation (LOA) pour l’Allemagne (numéros géographiques) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Pour les numéros de téléphone gratuits :<br/>[Courrier d’autorisation (LOA) pour l’Allemagne (numéros gratuits) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)  <br/> |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de la file d’attente automatique, contactez le service [PSTN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de service automatique, contactez le service [PSTN Desk pour obtenir des instructions.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

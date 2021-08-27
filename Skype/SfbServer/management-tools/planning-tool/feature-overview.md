@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Déscripbe l’Skype Entreprise Server de planification 2015.
-ms.openlocfilehash: c642b08f87701335329d87fedc650884ded63105f4f9b9c0766e5fa04225b097
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd225be2bed2eb211750f846cb12a186b045e8e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578748"
 ---
 # <a name="feature-overview-planning-tool"></a>Outil de planification de vue d’ensemble des fonctionnalités
  
@@ -83,7 +83,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     Skype Entreprise Server 2015 introduit un proxy XMPP entièrement intégré (déployé sur les serveurs Edge) et une passerelle XMPP déployée sur vos serveurs frontaux. Vous pouvez déployer l’ajout et la configuration du proxy XMPP et de la passerelle XMPP pour permettre à vos utilisateurs Skype Entreprise Server 2015 d’ajouter des contacts de partenaires XMPP pour la messagerie instantanée et la présence.
 
 > [!NOTE]
-> Les passerelles et les proxies XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour plus d’informations, voir Migration de la fédération [XMPP.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)
+> Les passerelles et les proxies XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019. Pour [plus d’informations, voir](../../../SfBServer2019/migration/migrating-xmpp-federation.md) Migration de la fédération XMPP.
     
 - **Mobilité**
     

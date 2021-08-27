@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
 description: Voici quelques raisons pour lesquelles vous pouvez avoir des problèmes pour valider correctement votre ou vos adresses au Royaume-Uni.
-ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0222a7d228405e745b1f6704cb9e03f1af3c2868
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581938"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>Pourquoi est-ce que j’ai des problèmes pour entrer les informations d’adresse au Royaume-Uni ?
 
@@ -58,7 +58,7 @@ Si vous avez un problème pour entrer le numéro de la maison, n’oubliez pas q
     
 - Il doit faire au moins 20 caractères.
     
-- Elle peut être en majuscule ou en minuscules.
+- Elle peut être en majuscules ou en minuscules.
     
 ## <a name="whats-wrong-with-the-house-name"></a>Problème avec le nom de la maison.
 

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Découvrez les problèmes connus concernant le plan d’appel pour les appels PSTN et ce que vous pouvez faire à leur sujet.
-ms.openlocfilehash: 239a0c83a12ae7d5d7b0be2fcbf81bf8825dd85d8a0dcb7a880bc53ad8b8e477
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f118f6107887dae00f640a15bcef625f91079bcc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624466"
 ---
 # <a name="calling-plans-known-issues"></a>Problèmes connus relatifs aux forfaits d’appel
 

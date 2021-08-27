@@ -1,5 +1,5 @@
 ---
-title: Téléchargements et mises à jour de Skype Entreprise
+title: Téléchargements et mises à jour de Skype Entreprise
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,17 +10,17 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Recherchez et gérez les mises à jour Skype Entreprise Server ou Lync 2013. Utilisez les liens pour obtenir plus d’informations, puis téléchargez les mises à jour.
-ms.openlocfilehash: 7358bf9c35ca516de84ca81ab91564946e13a754d6816c8e6378ccb9cf85d3c0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2da27f65f9468c164e706da05692919017ce5ea9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279850"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578548"
 ---
-# <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise
+# <a name="skype-for-business-downloads-and-updates"></a>Téléchargements et mises à jour de Skype Entreprise
 
 Le Skype Entreprise page web _de téléchargements et_ de mises à jour qui était une fois sur Technet a été retiré. Le contenu a été réorganisé en pages client et serveur. Suivez ces liens vers le contenu dont vous avez besoin :
 

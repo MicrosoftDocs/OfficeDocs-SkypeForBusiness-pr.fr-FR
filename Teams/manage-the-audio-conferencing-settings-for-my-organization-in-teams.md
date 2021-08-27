@@ -16,21 +16,21 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consultez Microsoft Teams pour affecter une licence de conférence rendez-vous et un ID de conférence à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41ca513706e9aeb7028266d4ac6d494d1826af1d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276410"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624586"
 ---
-# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
+# <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
 Il peut être plus facile de voir tous les paramètres d’audioconférence Microsoft Teams un seul endroit. 
 
@@ -145,7 +145,7 @@ Consultez [Définir les numéros de téléphone inclus dans les invitations.](se
 
 4. Sous Type **d’annonce d’entrée/sortie,** sélectionnez **Sonnerie** **ou Noms ou numéros de téléphone.** 
 
-    Si vous choisissez Noms ou numéros **de téléphone,** vous pouvez également choisir d’activer ou de désactiver l’enregistrement du nom des appelants avant **de rejoindre la réunion.** 
+    Si vous choisissez Noms ou **numéros de téléphone,** vous pouvez également choisir d’activer ou de désactiver l’enregistrement du nom des appelants avant **de rejoindre la réunion.** 
     > [!NOTE]
     > Par défaut, les participants externes ne peuvent pas voir les numéros de téléphone des participants appelés. Si vous voulez conserver la confidentialité de ces numéros de téléphone, sélectionnez **Tonalités** pour le **type d’annonce d’entrée/sortie** (cela permet d’éviter que les numéros soient lus par les équipes).
 
@@ -221,7 +221,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
   

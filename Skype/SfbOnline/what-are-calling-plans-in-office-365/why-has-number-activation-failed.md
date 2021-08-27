@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
 description: La validation d’adresse est un élément important de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: b1f9f8269028d81e7819972472bb7efb8054fc671fe1cf08e3f643f668449498
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb4ed67bd0447b17cfe8e0bd4f9b181aceddda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312272"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581918"
 ---
 # <a name="why-has-number-activation-failed"></a>Pourquoi l’activation de numéro a-t-elle échoué ?
 

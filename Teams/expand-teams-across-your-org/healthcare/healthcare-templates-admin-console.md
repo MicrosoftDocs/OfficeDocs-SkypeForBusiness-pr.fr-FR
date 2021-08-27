@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Utilisez des modèles d’équipe dans le Centre d’administration ou avec Microsoft Graph pour créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5da6c5df17dacbfb38e519ca4f1f751ed40fc02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596178"
 ---
 # <a name="use-a-healthcare-team-templates"></a>Utiliser des modèles d’équipe de santé
 
@@ -40,7 +40,7 @@ Choisissez une méthode de création d’équipes avec les modèles médicaux d�
 | Qui | Méthode à utiliser : |
 | ---- | --------- |
 | Administrateurs et professionnels de l’informatique | [Utilisez le centre Teams d’administration](#use-the-team-templates-in-the-admin-center) pour créer des équipes basées sur les modèles de l’équipe de santé.|
-| Développeurs et intégrateurs de systèmes | [Utilisez le site Web Graph](#use-the-team-templates-with-the-microsoft-graph) Microsoft pour créer une équipe basée sur les modèles de l’équipe médicale. |
+| Développeurs et intégrateurs de systèmes | [Utilisez le site Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph) pour créer une équipe basée sur les modèles de l’équipe médicale. |
 
 ## <a name="use-the-team-templates-in-the-admin-center"></a>Utiliser les modèles d’équipe dans le Centre d’administration
 

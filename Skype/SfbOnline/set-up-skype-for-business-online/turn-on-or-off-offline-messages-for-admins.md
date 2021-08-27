@@ -13,24 +13,24 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 7c579e947383c9165035c7cd6a5baee6f2012a1f5bba063dd433f40b95faa164
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bab15dacbf888b36e1f243d52f540fd22f75c25
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326661"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581968"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activation ou désactivation des messages hors connexion pour les administrateurs
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Vous pouvez envoyer Skype Entreprise messages à vos contacts, même s’ils ne sont pas encore inscrits. Cette fonctionnalité permet à vos contacts de savoir que vous avez essayé de les joindre. Vous n’avez pas à attendre qu’une personne soit en ligne pour lui envoyer un message.
+Vous pouvez envoyer Skype Entreprise messages à vos contacts, même s’ils ne sont pas inscrits. Cette fonctionnalité permet à vos contacts de savoir que vous avez essayé de les joindre. Vous n’avez pas à attendre qu’une personne soit en ligne pour lui envoyer un message.
 
 Pour les messages hors connexion, il est important de savoir que :
 
@@ -46,7 +46,7 @@ Pour plus d’informations, [voir Utiliser la messagerie hors connexion dans Sky
 
 > [!NOTE]
 > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
-1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
+1. Installez le [module Teams PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 
@@ -64,7 +64,7 @@ Pour plus d’informations sur le démarrage d’Windows PowerShell, consultez C
 > [!NOTE]
 > Les messages  hors connexion ne sont disponibles que dans la dernière version du client Skype Entreprise « Exécuter en un clic » et ne le sont pas lorsqu’une ancienne Skype Entreprise « Exécuter en un clic » est utilisée ou qu’un fichier *.msi a été utilisé pour installer le client Skype Entreprise.
 
-Pour activer ou désactiver l’envoi de messages hors connexion aux utilisateurs de votre organisation, définissez  _EnableIMAutoArchiving_ sur `True` ou `False` . Par défaut, cette option est définie sur `True` .
+Pour activer ou désactiver l’envoi de messages hors connexion aux utilisateurs de votre organisation, définissez  _EnableIMAutoArchiving sur_ `True` ou `False` . Par défaut, cette option est définie sur `True` .
 
 Pour éteindre, utilisez la cmdlet **Set-CsClientPolicy** et exécutez :
 
@@ -72,7 +72,7 @@ Pour éteindre, utilisez la cmdlet **Set-CsClientPolicy** et exécutez :
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-Pour activer ou désactiver l’envoi de messages hors connexion à un utilisateur, définissez  _EnableIMAutoArchiving sur_ `True` ou `False` . Par défaut, cette option est définie sur  `True`. Vous pouvez utiliser une stratégie existante ou en créer une comme dans l’exemple ci-dessous.
+Pour activer ou désactiver l’envoi de messages hors connexion à un utilisateur, définissez  _EnableIMAutoArchiving sur_ `True` `False` ou. Par défaut, cette option est définie sur  `True`. Vous pouvez utiliser une stratégie existante ou en créer une comme dans l’exemple ci-dessous.
 
 
   ```PowerShell
@@ -97,7 +97,7 @@ Pour activer ou désactiver l’envoi de messages hors connexion à un utilisate
 
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

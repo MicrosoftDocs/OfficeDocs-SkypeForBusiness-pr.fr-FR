@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Découvrez comment déplacer des utilisateurs de Teams vers l’ordinateur local.
-ms.openlocfilehash: 0ecfc5ab89fc8ed1e9f0a9c0d7dbc854049e3424bc6f689a329af31cde443850
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 341edc3e74e78fd0e16b3b98f4d1158623a15a83
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310293"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596138"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Déplacer des utilisateurs du cloud vers l’local 
 
@@ -59,7 +59,7 @@ Pour déplacer un utilisateur vers l’ordinateur local à l’aide de Move-CsUs
 - Si vous n’avez pas un compte avec des autorisations suffisantes à la fois dans l’environnement local et dans le service cloud (Microsoft 365), utilisez le paramètre -credential pour fournir à un compte des autorisations suffisantes dans Microsoft 365.
 - Si le compte spécifiant des autorisations dans Microsoft 365 ne se termine pas par « on.microsoft.com », vous devez spécifier le paramètre -HostedMigrationOverrideUrl, avec la valeur correcte comme décrit dans les informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
-La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers Skype Entreprise Server et suppose que les informations d’identification Microsoft 365 sont un compte distinct et fournies en tant qu’entrées pour l’invite Get-Credential..
+La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers Skype Entreprise Server et suppose que les informations d’identification Microsoft 365 sont un compte distinct et fournies en tant qu’entrées pour l’invite Get-Credential.
 
 ```PowerShell
 $cred=Get-Credential
@@ -73,7 +73,7 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 2. Dans le navigation de gauche, sélectionnez **Utilisateurs.**
 3. Utilisez **Find** pour localiser le ou les utilisateurs que vous souhaitez déplacer vers l’ordinateur local.
 4. Sélectionnez le(s) utilisateur(s), puis, dans la liste dropdown **Action** au-dessus de la liste, sélectionnez Déplacer les **utilisateurs sélectionnés vers l’local.**
-5. Dans l’Assistant, sélectionnez le pool d’utilisateurs qui hébergera l’utilisateur, puis cliquez sur **Suivant.**
+5. Dans l’Assistant, sélectionnez le pool d’utilisateurs qui hébergera l’utilisateur, puis cliquez sur **Suivant**.
 6. Si vous y êtes invité, connectez-vous Microsoft 365 un compte qui se termine par .onmicrosoft.com et dispose d’autorisations suffisantes.
 7. Cliquez **sur** Suivant, puis **sur Suivant** une fois de plus pour déplacer l’utilisateur.
 8. Notez que les messages d’état concernant la réussite ou l’échec sont fournis en haut de l’application principale du Panneau de contrôle, et non dans l’Assistant.

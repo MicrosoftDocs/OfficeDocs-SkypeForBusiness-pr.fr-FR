@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Vous pouvez déplacer un utilisateur de votre pool hérité vers votre pool pilote Skype Entreprise Server 2019 à l’aide du Panneau de Skype Entreprise Server 2019 ou de Skype Entreprise Server 2019 Management Shell. Dans l’exemple ci-dessous, dans la colonne Pool de pool01.contoso.net est le pool hérité et ces six utilisateurs sont connectés à ce pool. Utilisez les procédures suivantes pour déplacer un utilisateur vers votre pool Skype Entreprise Server 2019 à l’aide du Panneau de Skype Entreprise Server 2019 et de Skype Entreprise Server Management Shell.
-ms.openlocfilehash: 98fd1ce168cf5b44a85c1b0a93ee90634a84f885ced3cb3ffaaca8cee836a620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 987eeec96d28257b995b5e27ce02e282df019980
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596158"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Déplacer un seul utilisateur vers le pool pilote
 

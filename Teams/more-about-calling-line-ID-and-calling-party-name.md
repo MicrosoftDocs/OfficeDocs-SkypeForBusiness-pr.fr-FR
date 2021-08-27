@@ -13,19 +13,19 @@ audience: Admin
 appliesto:
 - Skype for Business Online
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 ms.service: msteams
 description: En savoir plus sur l’ID de ligne d’appel et le nom de l’appelant.
-ms.openlocfilehash: 7baae8ff6ed48919e4ee540890dd31a47ad81c943e5ce8e9db8d934331d0ce75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13167e41a5e104e198c557af90ed121e90abcf55
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617240"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>Plus d’informations sur le nom de l’appelant et l’ID de ligne d’appel
 
@@ -41,6 +41,6 @@ CLID & transmission CNAM est de la responsabilité de l’opérateur de terminai
 
 Des incohérences dans la mise à jour CNAM peuvent être provoquées lorsque les opérateurs intermédiaires ou résilients retardent l’actualisation des informations CNAM dans les bases de données faisant autorité, comme c’est le cas pour les États-Unis. Dans les pays où il n’existe aucune base de données faisant autorité pour CNAM, les pratiques des opérateurs individuels peuvent également entraîner des problèmes au niveau des informations CNAM qui arrivent intacts lors de l’appel. Microsoft ne prend pas en charge les informations de nom de famille en provenance dans les pays autres que les États-Unis.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 

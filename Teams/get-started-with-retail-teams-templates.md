@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des modèles d’équipe pour créer des structures d’équipe conçues pour les besoins des revendeurs en fournissant des paramètres, des canaux et des applications préinstallées.
 f1.keywords:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0193ab42a898cb8fca1e860120d663517fd0e16acd7ea2e687821b2bcd91a44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83c96d5ec3a05bf5840a21a67ae732c176e3d6b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624616"
 ---
 # <a name="create-a-team-using-retail-team-templates"></a>Créer une équipe à l’aide de modèles d’équipe de vente au détail
 
 Les modèles Microsoft Team vous permettent de créer rapidement et facilement des équipes en fournissant un modèle prédéféré de paramètres, de canaux et d’applications préinstallées.
 
-Les modèles d’équipe ont des définitions pré-intégrées de structures d’équipe conçues autour des besoins des revendeurs. Vous pouvez utiliser des modèles d’équipe pour créer rapidement les types d’équipes qui fonctionnent bien pour les revendeurs et les déployer au sein de votre organisation. Vous pouvez également étendre les modèles d’équipe pour créer des équipes adaptées aux besoins de votre organisation.
+Les modèles d’équipe ont des définitions préédentes de structures d’équipe conçues autour des besoins des revendeurs. Vous pouvez utiliser des modèles d’équipe pour créer rapidement les types d’équipes qui fonctionnent bien pour les revendeurs et les déployer au sein de votre organisation. Vous pouvez également étendre les modèles d’équipe pour créer des équipes adaptées aux besoins de votre organisation.
 
 Dans cet article, nous présenterons chacun des modèles d’équipe et vous recommandons de les utiliser.
 

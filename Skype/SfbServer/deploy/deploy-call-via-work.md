@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Résumé : Découvrez comment déployer l’appel via le Skype Entreprise Server pour tout ou partie de vos utilisateurs.'
-ms.openlocfilehash: ce4c49a1ba8766dbec6efbfe2b04ea91702eadf40c91cb6108f027765609cac4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6113c4447e30d59a262bf2c02b3f7ff2db171f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303158"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624416"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Déployer l’appel via le Skype Entreprise Server
  
@@ -78,7 +78,7 @@ Une fois les conditions préalables en place, faites les étapes suivantes :
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    Par exemple, l’cmdlet suivante crée une stratégie Appel via le bureau appelée ContosoUser1CvWP, demande à l’utilisateur d’utiliser un numéro de rappel d’administrateur et définit ce numéro de rappel sur 1-555-789-1234.
+    Par exemple, l’cmdlet suivante crée une stratégie Appel via le bureau appelée ContosoUser1CvWP, oblige l’utilisateur à utiliser un numéro de rappel d’administrateur et définit ce numéro de rappel sur 1-555-789-1234.
     
   ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234

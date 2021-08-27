@@ -11,16 +11,16 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (casques, téléphones haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: a79cb575d6b55be691b0c51a127d4ba4cfafdc88
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 3512ea4dd830a3fcd8469c86061c2b1d641b96a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234599"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624666"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -52,9 +52,9 @@ Parcourez [les périphériques certifiés pour Microsoft Teams.](https://product
 ### <a name="new-teams-certification-benefits"></a>Nouveaux avantages Teams certification
 
 - Bouton Teams dédié et voyant lumineux.
-- Notification utilisateur des événements et alertes du client Teams (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
+- Notification utilisateur des événements et alertes du client d Teams réunion (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
 - Possibilité d’activer Teams client ou de répondre à une notification en cliquant sur le bouton (par exemple, pour participer à une réunion).
-- Certification conçue pour l’extensibilité (nouveaux appareils/fonctionnalités client à fournir via la mise à jour du microprogramme).
+- Certification conçue pour l’extensibilité (nouvelles fonctionnalités d’appareil/client à fournir via la mise à jour du microprogramme).
 
 ### <a name="core-certification-benefits"></a>Principaux avantages de certification
 
@@ -70,7 +70,7 @@ Parcourez [les périphériques certifiés pour Microsoft Teams.](https://product
 - Aucune mise en service requise
 - Tous les appareils supportent les mises à jour du microprogramme pour permettre l’amélioration des nouvelles fonctionnalités et des performances.
 
-Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez [la](/skypeforbusiness/certification/how-to-join) procédure d’adhésion pour les exigences et les programmes disponibles.
+Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez la procédure d’adhésion pour les exigences et les programmes disponibles. [](/skypeforbusiness/certification/how-to-join)
 
 ## <a name="certified-devices"></a>Périphériques certifiés
 

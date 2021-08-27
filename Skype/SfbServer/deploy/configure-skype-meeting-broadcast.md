@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Résumé : Découvrez les étapes à suivre pour configurer Réunion Skype diffusion pour votre déploiement hybride Skype Entreprise Server local.'
-ms.openlocfilehash: 6cab2ed4fbb5cb2992b970d5a960bbc0ad2e10af2184588aa6c938e9811d2a50
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304486"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596028"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurer votre déploiement local pour la diffusion Réunion Skype local
  
@@ -69,7 +69,7 @@ Ensuite, vous devez ajouter des domaines fédérés SIP à la liste des domaines
     
 2. Sélectionnez **Domaines fédérés SIP** et cliquez sur **Nouveau.**
     
-3. Pour le **nom de domaine (ou nom de** domaine complet) : entrez le domaine, en répétant cette procédure pour chacun des domaines suivants :
+3. Pour le **nom de domaine (ou nom** de domaine complet) : entrez le domaine en répétant cette procédure pour chacun des domaines suivants :
     
    - noammeetings.lync.com
     

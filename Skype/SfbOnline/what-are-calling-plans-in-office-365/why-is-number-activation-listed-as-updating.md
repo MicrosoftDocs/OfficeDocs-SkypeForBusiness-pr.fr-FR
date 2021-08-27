@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
 description: La validation d’adresse est un élément important de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: 844c33efae8ce0492b55ea597fdf82e38356bd2462f67640f4e823728453bab1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f3468e7328180788451a5dc13c2be8e08d3b9ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325551"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596108"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Pourquoi l’activation de numéro est-elle indiquée comme étant en cours de mise à jour ?
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-La validation d’adresse est un élément important de la configuration des forfaits d’appels. Si, pour une raison quelconque, un numéro de  téléphone n’est pas activé et est répertorié comme étant une mise à jour en raison de la validation de l’adresse, vous devrez créer et envoyer une demande de service. La procédure dépend de la taille de votre organisation.
+La validation d’adresse est un élément important de la configuration des forfaits d’appels. Si, pour une raison quelconque, un numéro de  téléphone n’est pas activé et est répertorié comme étant mis à jour en raison de la validation de l’adresse, vous devrez créer et envoyer une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
 1. Dans le Centre d’administration, sélectionnez **Besoin d’aide**?

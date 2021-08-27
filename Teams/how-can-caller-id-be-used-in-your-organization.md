@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
-description: L’ID d’appelant peut être contrôlé pour les appels entrants et sortants pour les utilisateurs Système téléphonique à l’aide d’une stratégie appelée CallingLineIdentity.
-ms.openlocfilehash: ddd01d899597a96b5085c92ac9e20681b0a5c92b18ca342008b499e44892743a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: L’ID d’appelant peut être contrôlé pour les appels entrants et sortants pour Système téléphonique utilisateurs à l’aide d’une stratégie appelée CallingLineIdentity.
+ms.openlocfilehash: 97070be995d56451a7b6b1969c8d3751ebaaffe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293821"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624606"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Comment utiliser un ID d'appelant dans votre organisation
 
@@ -56,7 +56,7 @@ Pour l’ID d’appelant PSTN sortant, les options suivantes sont disponibles.
 
 - Un numéro de téléphone de substitution, qui peut être :
 
-  - Un numéro de téléphone classé comme service et numéro gratuit dans l’inventaire de numéros de téléphone de vos forfaits d’appels. Elle est généralement affectée à une Teams Standard automatique ou à une file d’attente d’appels.
+  - Un numéro de téléphone classé comme service et numéro gratuit dans l’inventaire de numéros de téléphone de vos forfaits d’appels. Elle est généralement affectée à une Teams Standard automatique ou une file d’attente d’appels.
 
   - Un numéro de téléphone local via un routage direct affecté à un compte de ressource utilisé par une Teams Standard automatique ou une file d’attente d’appels. 
 

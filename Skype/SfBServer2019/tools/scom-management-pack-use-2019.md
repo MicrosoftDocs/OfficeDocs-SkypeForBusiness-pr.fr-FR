@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment configurer votre infrastructure Skype Entreprise Server 2019 pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: 2bb6e5600430cf8222d799fd42bade275d4e2f6d27fc6f6c4bfc05faad0e486d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdb201280afb1419e5b8975b31e3c7725902cd72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582008"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gérer Skype Entreprise Server 2019 à l’aide du pack d’administration SCOM
  
@@ -59,7 +59,7 @@ Le tableau suivant indique la capacité et la exigences du système d’exploita
 |:-----|:-----|
 |UC  <br/> |Un des processeurs suivants :  <br/> Processeur 64 bits, quadruple cœur, 2,33 GHz ou supérieur  <br/> Processeur 64 bits 2 voies, bi cœur, 2,33 GHz ou supérieur  <br/> |
 |Mémoire  <br/> |8 Go  <br/> |
-|Système d’exploitation  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
+|Système d’exploitation  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Réseau  <br/> |1 carte réseau à 1 Gbps  <br/> |
    
 ## <a name="prerequisites"></a>Configuration requise
@@ -92,7 +92,7 @@ Les fonctionnalités suivantes sont nouvelles Skype Entreprise Server packs d’
     
 - **Intervalles d’exécuter des transactions synthétiques personnalisées** Pour simplifier le processus de mise en place des nodes watcher, les transactions synthétiques peuvent partager des comptes d’utilisateur. Cela ralentit la fréquence à laquelle les tests sont exécutés à mesure que les tests sont sérialisés afin d’éviter les conflits. Par défaut, les transactions synthétiques s’exécutent toutes les 15 minutes pour s’assurer que tous les tests ont le temps de s’exécuter. Les administrateurs qui choisissent d’utiliser plus d’utilisateurs ou moins de tests par utilisateur peuvent désormais réduire l’intervalle d’utilisation.
     
-- **Transaction synthétique Video Interop Services** Les clients qui migrent vers Skype Entreprise Server 2019 à partir d’autres solutions de fournisseur souhaitent souvent continuer à utiliser les périphériques de téléconférence vidéo (VTC) de ces autres fournisseurs. Video Interop Server est un nouveau rôle serveur Skype Entreprise Server 2019 qui permet aux clients de continuer à utiliser des VTC Cisco dans leurs salles de conférence en se connectant à Cisco CUCM via une connexion SIP vidéo. Cette fonctionnalité ajoute également une transaction synthétique pour vous aider à vérifier que le serveur d’interopation vidéo est en cours d’opération et qu’il peut gérer les connexions entrantes sur une connexion SIP vidéo.
+- **Transaction synthétique Video Interop Services** Les clients qui migrent vers Skype Entreprise Server 2019 à partir d’autres solutions de fournisseur souhaitent souvent continuer à utiliser les périphériques de téléconférence vidéo (VTC) de ces autres fournisseurs. Video Interop Server est un nouveau rôle serveur Skype Entreprise Server 2019 qui permet aux clients de continuer à utiliser des VTC Cisco dans leurs salles de conférence en se connectant à Cisco CUCM via une connexion SIP vidéo. Cette fonctionnalité ajoute également une transaction synthétique pour vérifier que le serveur d’opation vidéo est en cours d’opération et qu’il peut gérer les connexions entrantes sur une connexion SIP vidéo.
     
 - **Transaction synthétique de conférence de partage d’application** La validation de scénario de bout en bout pour les conférences de partage d’application est désormais prise en charge.
     
@@ -126,9 +126,9 @@ Skype Entreprise Server packs d’administration 2019 offrent une couverture acc
 
 ||||
 |:-----|:-----|:-----|
-|1  <br/> |Inscription (connexion utilisateur)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|2  <br/> |Service de carnet d’adresses (téléchargement de fichiers)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|3  <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|1   <br/> |Inscription (connexion utilisateur)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|2   <br/> |Service de carnet d’adresses (téléchargement de fichiers)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|3   <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
 |4   <br/> |Présence  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
 |5   <br/> |Magasin de contacts unifié  <br/> |Lync Server 2013 disponible et au-delà  <br/> |
    
@@ -149,22 +149,22 @@ Skype Entreprise Server packs d’administration 2019 offrent une couverture acc
 |:-----|:-----|:-----|
 |9   <br/> |Conférence audio-vidéo  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
 |10   <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|11  <br/> |Conférence par message instantané  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
+|11   <br/> |Conférence par message instantané  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
 |12   <br/> | Conversation permanente <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|13  <br/> |Rejoindre Lanceur (réunions prévues)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
+|13   <br/> |Rejoindre Lanceur (réunions prévues)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |14   <br/> |Conférences téléphoniques  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
-|15  <br/> |Conférence de partage d’application  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
-|16   <br/> |Conférence UCWA (web meeting join)  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
+|15   <br/> |Conférence de partage d’application  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
+|16   <br/> |Conférence UCWA (rejoindre une réunion web)  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
    
 **Transactions synthétiques prise en charge pour les dépendances de réseau et de partenaire**
 
 ||||
 |:-----|:-----|:-----|
-|17   <br/> |Connectivité Edge AV  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|18   <br/> |Connectivité Edge antivirus Exchange connectivité de message unifiée (messagerie vocale)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
+|17   <br/> |Connectivité Edge AV  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
+|18   <br/> |Connectivité Edge antivirus Exchange connectivité de message unifiée (messagerie vocale)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |19  <br/> |Appel PSTN D’égal à égal  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
 |20  <br/> |Messagerie instantanée XMPP (fédération)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-| 21  <br/> |Serveur d’interopérabilité vidéo (VIS)  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà  <br/> |
+| 21  <br/> |Serveur VIS (serveur d’interopérabilité vidéo)  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà  <br/> |
    
 ## <a name="how-health-rolls-up"></a>Comment l’état d’health rolls up
 
@@ -243,11 +243,11 @@ Pour plus d’informations sur Operations Manager, consultez les blogs suivants 
   
 - [Blog de l’équipe Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Blog opsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
+- [Blog OpsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
     
 - [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
-- [Blog de L’Anglais](https://rburri.wordpress.com/)
+- [Blog de Yézy](https://rburri.wordpress.com/)
     
 - [Espace de gestion BWren](https://blogs.technet.com/brianwren/default.aspx)
     

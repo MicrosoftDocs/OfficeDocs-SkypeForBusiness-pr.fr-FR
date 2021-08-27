@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Résumé : Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API web de communications unifiées (UCWA) et le service Skype Entreprise Server Mcx Mobility Service.'
-ms.openlocfilehash: 83097ed6e1503fafa8b82815ef36a3411fa09f8af1c8f83470d9e8ee02ae6b88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Résumé : Découvrez les compteurs de performances que vous pouvez utiliser pour surveiller les serveurs exécutant l’API UCWA (Unified Communications Web API) et le service Skype Entreprise Server Mcx Mobility Service.'
+ms.openlocfilehash: 4ea7ba3f7c4d9685fe01c64157324a64f823c5bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286783"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578778"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Compteurs de performances de mobilité dans Skype Entreprise Server
  
@@ -49,7 +49,7 @@ Le nom de catégorie des compteurs dans la table Service de mobilité Mcx est **
 |Instances utilisateur actives sans application  <br/> |Nombre actuel d’instances utilisateur sans application  <br/> |
 |Active Video Modality Count  <br/> |Nombre actuel de modalités vidéo  <br/> |
 |Demandes de création d’applications reçues/seconde  <br/> |Taux de demandes de création d’applications reçues par seconde  <br/> |
-|AS MCU Join Failures  <br/> |Nombre d’échecs de joint du MCU AS  <br/> |
+|AS MCU Join Failures  <br/> |Nombre d’échecs de jointeurs du MCU AS  <br/> |
 |Échecs de joints du MCU av  <br/> |Nombre d’échecs de joint du MCU antivirus  <br/> |
 |Durée moyenne de démarrage de l’application (ms)  <br/> |Durée moyenne de démarrage de l’application en millisecondes  <br/> |
 |Durée de vie moyenne de la session (ms)  <br/> |Durée de vie moyenne d’une session en millisecondes  <br/> |

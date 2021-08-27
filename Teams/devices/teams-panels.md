@@ -14,14 +14,14 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cet article donne une vue d’ensemble des fonctionnalités qui sont Microsoft Teams panneaux.
-ms.openlocfilehash: fe9d482cdce9cce9aa7f31735267b57f2e675c1c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5779d9e41cb7adb4a502e590c87babbb277cc33e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596238"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams panneaux
 
@@ -45,7 +45,7 @@ Pour en savoir plus sur ces fonctionnalités et sur leur utilisation, voir [Util
 
 ## <a name="partners-certified-for-teams-panels"></a>Partenaires certifiés pour les Teams panneaux
 
-Vous pouvez acquérir vos Teams panneaux de l’un des partenaires suivants :
+Vous pouvez acheter vos panneaux Teams l’un des partenaires suivants :
 
 - Crestron
 - Yealink
@@ -84,7 +84,7 @@ Les espaces de réunion dans votre organisation peuvent avoir des configurations
 
 ## <a name="site-readiness"></a>État de préparation du site
 
-Pendant la livraison des appareils commandés à votre organisation, travaillez avec votre réseau, vos installations et vos équipes audio-visuelles pour vous assurer que les exigences de déploiement sont respectées et que chaque site et espace de réunion est prêt en termes de puissance et de mise en réseau.
+Pendant la livraison des appareils commandés à votre organisation, travaillez avec votre réseau, vos installations et vos équipes audio-visuelles pour vous assurer que les exigences de déploiement sont respectées et que chaque espace de réunion et de site est prêt en termes de puissance et de mise en réseau.
 
 Nos recommandations pour les sites Teams panneaux sont les suivantes :
 

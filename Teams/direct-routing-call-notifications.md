@@ -17,13 +17,13 @@ f1.keywords:
 description: Notification d’appel de routage direct
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 8326a9eb1f7a6ad9fb13c622c4f03d0f9af40af8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+ms.openlocfilehash: 27e06a45cef49f2291fdf75a8375026b9a930953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617410"
 ---
 # <a name="manage-call-notifications"></a>Gérer les notifications d’appels
 
@@ -31,7 +31,7 @@ Cet article décrit comment gérer les notifications d’appel pour vos utilisat
 
 Dans le diagramme suivant, l’utilisateur Irena a deux points de terminaison :
 
-- Point de terminaison Teams point de terminaison
+- Un point Teams de terminaison
 - Un téléphone SIP connecté à un SBC tiers
 
 Lorsqu’un appel arrive, le SBC dut du début à la fin de l’appel entre Système téléphonique routage direct et le SBC tiers.
@@ -45,7 +45,7 @@ Vous pouvez empêcher la notification « Appel manqué » en configurant le SBC 
 
 RAISON : SIP; cause=200;texte"Appel effectué ailleurs » 
 
-L’appel n’est pas enregistré dans les enregistrements des détails d’Téléphone Microsoft système en tant qu’appel réussi. L’appel sera inscrit comme une « tentative » avec le code SIP final « 487 », le sous-code Microsoft final « 540200 » et la phrase du code SIP final « Appel effectué ailleurs ».  (Pour afficher les enregistrements des détails des appels, sélectionnez Utilisation PSTN, Teams d’administration, les rapports d’analyse et de rapport d’utilisation, et sélectionnez Utilisation PSTN.)
+L’appel n’est pas enregistré dans les enregistrements des détails d’Téléphone Microsoft système en tant qu’appel réussi. L’appel sera inscrit comme une « tentative » avec le code SIP final « 487 », le sous-code Microsoft final « 540200 » et la phrase du code SIP final « Appel effectué ailleurs ».  (Pour afficher les enregistrements des détails des appels, sélectionnez Utilisation PSTN, puis sélectionnez Teams d’administration, les rapports d’analyse et de rapport d’utilisation, et sélectionnez Utilisation PSTN.)
 
 
 Le diagramme ci-dessous illustre le flux SIP de la fork 1, explique le flux d’appels et la RAISON attendue dans le message Annuler. 

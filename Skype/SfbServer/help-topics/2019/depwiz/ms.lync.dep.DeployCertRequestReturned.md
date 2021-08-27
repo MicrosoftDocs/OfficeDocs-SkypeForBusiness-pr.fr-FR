@@ -11,22 +11,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La page État de la demande de certificat en ligne vous présente les informations importantes faisant suite à la création et l’émission d’une demande de certificat en ligne. Elle fournit l’empreinte du certificat qui l’identifie de manière unique. Par défaut, la case à cocher Affecter ce certificat Skype Entreprise Server les utilisations des certificats est sélectionnée. Si vous cliquez sur Terminer, le certificat est automatiquement affecté à Skype Entreprise Server aux fins que vous avez définies pendant les étapes de création de la demande de certificat. Par défaut, le certificat sera assigné aux fins suivantes :'
-ms.openlocfilehash: 8665053e3f625f39ec2843467a448f6620d9f7d0110e931ee6298f2be5c72193
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581778"
 ---
 # <a name="certificate-request-returned"></a>Demande de certificat (retournée)
  
 La page **État de la demande de certificat en ligne** vous présente les informations importantes faisant suite à la création et l’émission d’une demande de certificat en ligne. Elle fournit l’empreinte du certificat qui l’identifie de manière unique. Par défaut, la case à cocher Affecter ce **certificat Skype Entreprise Server les utilisations** des certificats est sélectionnée. Si vous cliquez **sur Terminer,** le certificat est automatiquement affecté à Skype Entreprise Server aux fins que vous avez définies lors des étapes de création de la demande de certificat. Par défaut, le certificat sera assigné aux fins suivantes :
   
-- Valeur par défaut du serveur pour MTLS (Mutual Transport Layer Security) : connexions aux clients et autres serveurs
+- Serveur par défaut pour MTLS (Mutual Transport Layer Security) : connexions aux clients et autres serveurs
     
 - Services Web internes : connexions client et serveur sur le site des services Web internes pour TLS/SSL (Transport Layer Security/Secure Sockets Layer)
     
