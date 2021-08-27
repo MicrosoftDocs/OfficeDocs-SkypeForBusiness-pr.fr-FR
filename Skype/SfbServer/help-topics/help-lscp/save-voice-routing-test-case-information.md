@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSave
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: Vous pouvez utiliser la boîte de dialogue Enregistrer les informations de cas de test de routage des communications vocales pour enregistrer un cas de test de routage des communications vocales temporaire. Dans Enregistrer les informations de cas de test de routage des communications vocales, tapez le nom que vous souhaitez donner à ce cas de test dans Nom puis cliquez sur OK.
-ms.openlocfilehash: 831b20ed5be936dcbcf9a634789dd28b80cac6004e68e865d58c880550df6058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a00cd0f267d5cb1b7b284f912a8dccbcf12a419
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291172"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578998"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Enregistrer les informations de cas de test de routage des communications vocales
  

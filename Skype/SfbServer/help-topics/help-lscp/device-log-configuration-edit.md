@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Vous pouvez ajouter une nouvelle configuration de fichier journal de périphérique dans la page Modifier les paramètres de journalisation qui détermine la taille maximale du cache des journaux, la taille maximale des fichiers journaux ou la durée de conservation d’un fichier journal avant sa suppression. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
-ms.openlocfilehash: a2900d452dd0342ddd60813e35d4611b6ea6ccca6cad114237d87bd915243191
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff199e0fcf7257137307211827bd6d9a0e8a4c4c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304046"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579018"
 ---
-# <a name="device-log-configuration-edit"></a>Configuration du fichier journal de l’appareil : Modifier
+# <a name="device-log-configuration-edit"></a>Configuration du fichier journal de l’appareil : Modifier
  
 Vous pouvez ajouter une nouvelle configuration de fichier journal de périphérique dans la page **Modifier les paramètres de journalisation** qui détermine la taille maximale du cache des journaux, la taille maximale des fichiers journaux ou la durée de conservation d’un fichier journal avant sa suppression. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
   

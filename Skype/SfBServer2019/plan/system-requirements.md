@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 'Résumé : Préparez vos serveurs Skype Entreprise Server 2019 et votre infrastructure de domaine avec cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, la configuration système requise et les recommandations, ainsi que le DNS de certificat, le partage de fichiers et les informations Active Directory, sont là pour garantir une installation et un déploiement réussis de votre batterie de serveurs.'
-ms.openlocfilehash: 3d7c8f4346ce0d965c9d9d87cc9fc124824f1d65f24cb7c05ef5d3aa58df1a07
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a994d2546cb6e15830b8cb2439968a53047a6389
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295981"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578208"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>System requirements for Skype Entreprise Server 2019
  
@@ -117,7 +117,7 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
   
  **Tous les serveurs :**
   
-|**Logiciel/rôle**|**Détails**|
+|**Logiciel/rôle**|**Details**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous Skype Entreprise Server serveurs doivent Windows PowerShell 3.0.  <br/> • Il doit être installé par défaut avec Windows Server 2016.<br/> |
 |Microsoft .NET Framework  <br/> |Les services WCF sont une fonctionnalité installée en tant que fonctionnalité Windows, sous Le Gestionnaire de serveur **,** initialement aucun téléchargement n’est nécessaire.  <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et que vous l’activez, que l’option **d’activation HTTP** est également cochée et installée, comme ceci : <br/> ![Capture d’écran montrant l’option d’activation HTTP .NET Framework fonctionnalités 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre vidéo supplémentaire vous disant que d’autres éléments doivent être installés pour que l’activation HTTP soit installée. C’est normal . cliquez sur OK et allez de l’avant. Si vous n’obtenez pas cette fenêtre fenêtre, vous pouvez supposer que ces éléments sont déjà installés et continuer.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Skype Entreprise Server nécessite microsoft .NET Framework 4.7 ou 4.8, vous devrez probablement le mettre à jour. Vous trouverez la mise à jour [ici.](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
@@ -127,7 +127,7 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
    
  **Les serveurs frontux et Édition Standard serveur frontal ont également besoin des ressources nécessaires :**
   
-|**Logiciel/rôle**|**Détails**|
+|**Logiciel/rôle**|**Details**|
 |:-----|:-----|
 |Internet Information Services (IIS)  <br/> |IIS est nécessaire sur tous les serveurs frontaux, ainsi que tous les serveurs Édition Standard, avec les modules suivants sélectionnés :  <br/> • Fonctionnalités HTTP courantes : document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification par mappage de certificat client, authentification Windows client  <br/> • Développement d’applications : extensibilité .NET 3.5, extensibilité .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensions ISAPI, filtres ISAPI  <br/> • Outils de gestion : Console de gestion IIS, scripts et outils de gestion IIS  <br/> Notez que l’accès anonyme est également nécessaire, mais que vous l’obtenez lors de l’installation d’IIS, vous n’avez donc pas d’endroit pour le sélectionner dans la liste.  <br/> |
 |Module d’exécution du format Windows Media  <br/> | Pour Windows Server 2016, vous devez installer la fonctionnalité **Media Foundation** dans le Gestionnaire **de serveur.** Vous pouvez en fait démarrer votre installation Skype Entreprise Server 2019 sans cela, mais vous serez invité à l’installer, puis à redémarrer le serveur, avant de poursuivre l’installation de Skype Entreprise Server 2019. Il est préférable de le faire à l’avance. <br/> |
@@ -276,9 +276,9 @@ Le niveau fonctionnel de domaine de n’importe quel domaine dans Skype Entrepri
     
 Pouvez-vous avoir des contrôleurs de domaine en lecture seule dans ces environnements ? Bien sûr, tant que des contrôleurs de domaine accessibles en ligne sont également disponibles.
   
-Il est important de savoir que Skype Entreprise Server 2019 ne prend pas en charge les domaines en une seule partie. Qu’est-ce que c’est ? Si vous avez un domaine racine étiqueté contoso.local, cela va être correct. Si vous avez un domaine racine qui vient d’être nommé local, cela ne fonctionne pas et n’est donc pas pris en charge. Un peu plus d’informations à ce sujet ont été [écrites dans cet article de la Base de connaissances.](https://support.microsoft.com/kb/300684/)
+Il est important de savoir que Skype Entreprise Server 2019 ne prend pas en charge les domaines en une seule partie. Qu'est-ce que c'est ? Si vous avez un domaine racine étiqueté contoso.local, cela va être correct. Si vous avez un domaine racine qui vient d’être nommé local, cela ne fonctionne pas et n’est donc pas pris en charge. Un peu plus d’informations à ce sujet ont été [écrites dans cet article de la Base de connaissances.](https://support.microsoft.com/kb/300684/)
   
-Skype Entreprise Server 2019 ne prend pas en charge le changement de nom des domaines. Si vous devez vraiment renommer votre domaine, vous devez désinstaller Skype Entreprise Server 2019, renommer le domaine, puis réinstaller Skype Entreprise Server 2019.
+Skype Entreprise Server 2019 ne prend pas en charge le changement de nom des domaines. Si vous devez vraiment renommer votre domaine, vous devrez désinstaller Skype Entreprise Server 2019, renommer le domaine, puis réinstaller Skype Entreprise Server 2019.
   
 Enfin, il se peut que vous traitiez un domaine avec un environnement AD DS verrouillé, ce qui est normal. Nous avons plus d’informations sur la façon de déployer Skype Entreprise Server 2019 dans un environnement AD DS verrouillé dans la documentation de déploiement.
   
@@ -339,7 +339,7 @@ Clairement, si votre infrastructure AD est en place, le passage à cette topolog
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Plusieurs forêts dans une topologie de Skype Entreprise ressource
 <a name="BKMK_multipleforestopology"> </a>
 
-![Diagramme de topologie de forêts multiples dans une forêt de ressources](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Plusieurs forêts dans un diagramme de topologie de forêt de ressources](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 Une topologie de forêt de ressources est également prise en charge ; C’est là qu’une forêt est dédiée à l’exécution de vos applications serveur, comme Microsoft Exchange Server et Skype Entreprise Server 2019. Ces forêts de ressources hébergent également une représentation synchronisée des objets utilisateur actifs, mais pas de comptes d’utilisateurs connectés. La forêt de ressources est donc un environnement de services partagés pour d’autres forêts dans lesquelles résident des objets utilisateur, et ils ont une relation de confiance au niveau de la forêt avec la forêt de ressources.
   
@@ -370,7 +370,7 @@ Dans ce scénario, il est pris en charge pour déployer Exchange sur site, Excha
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Plusieurs forêts dans une topologie de forêt ressource avec des Skype Entreprise
 <a name="BKMK_multipleforestopology"> </a>
 
-Dans ce scénario, il existe une ou plusieurs forêts d’utilisateurs locaux, et Skype Entreprise est déployé dans une forêt de ressources dédiée et configuré pour le mode hybride avec Skype Entreprise Online. Exchange Server peuvent être déployés en local dans la même forêt de ressources ou dans une autre forêt et peuvent être configurés pour un déploiement hybride avec Exchange Online. Sinon, les services de messagerie peuvent être fournis exclusivement Exchange Online pour les comptes locaux.
+Dans ce scénario, il existe une ou plusieurs forêts d’utilisateurs locaux, et Skype Entreprise est déployé dans une forêt de ressources dédiée et est configuré pour le mode hybride avec Skype Entreprise Online. Exchange Server peuvent être déployés en local dans la même forêt de ressources ou dans une autre forêt et peuvent être configurés pour un déploiement hybride avec Exchange Online. Sinon, les services de messagerie peuvent être fournis exclusivement Exchange Online pour les comptes locaux.
   
 Pour plus d’informations, [voir Configure a multi-forest environment for hybrid Skype Entreprise](../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
@@ -449,7 +449,7 @@ Vous aurez besoin de certificats pour la plupart de vos serveurs internes et, le
   
 Vous aurez également besoin de certificats lorsque Skype Entreprise Server 2019 communiquera avec d’autres applications et serveurs, tels que Microsoft Exchange Server. Il s’agit évidemment d’un certificat que ces autres applications et serveurs peuvent utiliser de manière prise en charge. Skype Entreprise Server 2019 et d’autres produits Microsoft utilisent le protocole Open Authorization (OAuth) pour l’authentification et l’autorisation de serveur à serveur. Si cela vous intéresse, nous avons un article de planification supplémentaire pour OAuth et Skype Entreprise Server 2019.
   
-Skype Entreprise Server 2019 inclut également la prise en charge (sans nécessité) des certificats signés à l’aide de la fonction de hachage de chiffrement SHA-256. Pour prendre en charge l’accès externe à l’aide de SHA-256, le certificat externe doit être émis par une ca publique utilisant SHA-256.
+Skype Entreprise Server 2019 inclut également la prise en charge (sans nécessiter) de certificats signés à l’aide de la fonction de hachage de chiffrement SHA-256. Pour prendre en charge l’accès externe à l’aide de SHA-256, le certificat externe doit être émis par une ca publique utilisant SHA-256.
   
 Pour des raisons simples, nous avons placé les certificats requis pour les serveurs Édition Standard, les pools frontux et d’autres rôles dans les tableaux suivants, avec le contoso.com fictif utilisé pour des exemples (vous utiliserez probablement autre chose pour votre environnement). Ce sont tous des certificats de serveur web standard, avec des clés privées non exportables. Voici quelques éléments supplémentaires à noter :
   

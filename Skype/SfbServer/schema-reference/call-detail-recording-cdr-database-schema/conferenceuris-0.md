@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: L’affichage ConfernceUris stocke des informations sur les URI qui ont participé à des sessions de conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 4e9ee22dfc078e5870dd38ed3de8ee5e93e7fe8716886d3e7c2cb066745b2535
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 40c4538df2b551b86826b3601b901f66b4e917d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352532"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598688"
 ---
 # <a name="conferenceuris-view"></a>Affichage ConferenceUris
  
 L’affichage ConfernceUris stocke des informations sur les URI qui ont participé à des sessions de conférence. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Détails**|
+|**Colonne**|**Type de données**|**Details**|
 |:-----|:-----|:-----|
 |ConferenceUriId  <br/> |int  <br/> |Numéro unique identifiant l’URI de conférence.  <br/> |
 |ConferenceUri  <br/> |nvarchar(450)  <br/> |URI de la conférence.  <br/> |

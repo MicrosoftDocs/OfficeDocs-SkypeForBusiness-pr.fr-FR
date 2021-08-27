@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Cet article décrit les préférences et les valeurs par défaut du client Skype Entreprise sur Mac et explique comment les modifier à partir de l’extérieur de l’application.
-ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ece447b7d3bce37784e0f1d0b3f8fe3746fce86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325491"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578128"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personnaliser l’expérience client Mac dans Skype Entreprise
  
@@ -37,15 +37,15 @@ Pour définir ces préférences, accéder à une invite de terminal sur le Mac d
 | Clé | Type | Valeur | Description |
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Bool    |0 = configuration manuelle du serveur  <br/> 1 = détection automatique de serveur (par défaut)    |Spécifiez comment Skype Entreprise identifie le transport et le serveur à utiliser lors de la signature. Si vous activez ce paramètre de stratégie, vous devez spécifier **internalAutoDiscoveryURL** et **externalAutoDiscoveryURL**.   |
-|internalAutoDiscoveryURL    |String    |URL de découverte automatique complète    |URL de découverte automatique interne    |
+|internalAutoDiscoveryURL    |Chaîne    |URL de découverte automatique complète    |URL de découverte automatique interne    |
 |externalAutoDiscoveryURL    |String    |URL de découverte automatique complète    |URL de découverte automatique externe    |
-|httpProxyDomain    |String    ||Domaine proxy HTTP    |
-|httpProxyUserName    |String    ||Nom d’utilisateur proxy HTTP    |
-|httpProxyPassword    |String    ||Mot de passe de proxy HTTP    |
+|httpProxyDomain    |Chaîne    ||Domaine proxy HTTP    |
+|httpProxyUserName    |Chaîne    ||Nom d’utilisateur proxy HTTP    |
+|httpProxyPassword    |Chaîne    ||Mot de passe de proxy HTTP    |
 |trustedDomainList    |Tableau    ||Liste des domaines de confiance pour les redirections HTTP.    |
 |autoAcceptTimeout    |Nombre    |300 (par défaut)    |Accepter automatiquement le délai d’accès pour les utilisateurs sans historique des conversations côté serveur.    |
 |warnWhenUnknownLocationForE911    |Bool    |0 = Désactivé  <br/> 1 = Activé    |Avertit l’utilisateur lorsque vous composez un numéro d’urgence à partir d’un emplacement inconnu.    |
-|sipAddress    |String    ||Adresse SIP (e-mail) utilisée pour se Skype Entreprise.    |
+|sipAddress    |Chaîne    ||Adresse SIP (e-mail) utilisée pour se Skype Entreprise.    |
 |userName    |String    ||UpN (UserName) utilisé pour se Skype Entreprise.    |
 |userNameInAdvancedOnly    |Bool    |0 = afficher le champ Nom d’utilisateur sur l’écran de signature principal et dans la boîte de dialogue Propriétés avancées  <br/> 1 = afficher le champ Nom d’utilisateur uniquement dans la boîte de dialogue Propriétés avancées (par défaut)    |Spécifiez l’endroit où le champ Nom d’utilisateur s’affiche lors de la signature.    |
    

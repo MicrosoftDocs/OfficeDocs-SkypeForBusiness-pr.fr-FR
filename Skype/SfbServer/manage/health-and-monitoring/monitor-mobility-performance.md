@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Résumé : Découvrez le service de mobilité (Mcx) et l’API UCWA (Unified Communications Web API) dans Skype Entreprise Server.'
-ms.openlocfilehash: 3e7d64a4dbefed7132206186069ef9646deb802ac0eb9de02d39b602c2dc4ffe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 556e50a162e455b1d0805c55fa34cb8f4de1603e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345591"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598888"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Surveiller les performances de la mobilité dans Skype Entreprise Server
  
@@ -40,7 +40,7 @@ Plusieurs limites influencent les performances de mobilité :
     
 Les autres limites sur les serveurs qui peuvent influencer les performances de mobilité sont un maximum de 12 ouvertures de session, authentifications, renouvellements de session et résiliations simultanées. Ces valeurs maximales n’ont pas besoin d’être modifiées pour la plupart des déploiements.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Surveiller les limites de capacité de mémoire du serveur dans Skype Entreprise Server](server-memory-capacity-limits.md)
     

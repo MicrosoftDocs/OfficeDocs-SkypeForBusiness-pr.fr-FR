@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Découvrez comment configurer la sécurité des applications mobiles pour vos utilisateurs. '
-ms.openlocfilehash: 1669204e31c7597ec75f6c30570107bebf440e3b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: e0815db0c9a085382c96bd74ac9967a34e9dad2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406983"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592068"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Sécurité de l'application mobile Skype Entreprise
 
@@ -42,7 +42,7 @@ Cet article contient des informations relatives au chiffrement des données dans
    
 **Remarque :** Reportez-vous [à cette documentation publique pour la](/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) mise en œuvre de l’épingle de périphérique disponible sur chacune des plateformes mobiles ci-dessus.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

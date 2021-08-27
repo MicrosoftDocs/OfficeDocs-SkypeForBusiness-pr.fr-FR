@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Résumé : Découvrez le rapport d’activité de conférence utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: ebee49f78d7f3ed83c5d8218357181d457fe04b73f638b4a70191bc975ba38de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d422f86789c8a488f6a1bbe954689a3e422e990f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336634"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612223"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Rapport d’activité de conférence Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport d’activité de conférence utilisé dans Skype Entreprise Server.
   
-Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Un coup d’œil rapide sur les rapports d’activité de conférence peut suggérer une raison possible : beaucoup plus de conférences sont prévues entre 10 h 00 et 14 h 00, puis à tout autre moment.
+Le rapport des activités de conférence vous permet de répondre facilement à des questions telles que : combien y a-t-il de conférences organisées chaque jour et à quel moments ces conférences sont-elles organisées ? Ce genre d’information n’est pas seulement utile en tant que tel, il peut également permettre de résoudre des problèmes. Par exemple, imaginons que des utilisateurs se plaignent de la lenteur du réseau en milieu de journée. Un coup d’œil rapide aux rapports d’activité de conférence peut suggérer une raison possible : beaucoup plus de conférences sont prévues entre 10 h 00 et 14 h 00, puis à tout autre moment.
   
 Si la lenteur du réseau engendre des problèmes, vous pouvez encourager les utilisateurs à replanifier certaines de leurs conférences à un moment de la journée où le trafic est moins important.
   
@@ -51,7 +51,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
   
 **Filtres du rapport des activités de conférence**
 
-|**Name**|**Description**|
+|**Nom**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -64,7 +64,7 @@ Le tableau qui suit répertorie les informations dans le rapport des activités 
   
 **Mesure des conférences par pool**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge utilisés dans la conférence.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles la conférence s’est tenue.  <br/> |
@@ -76,7 +76,7 @@ Le tableau qui suit répertorie les informations dans le rapport des activités 
   
 **Mesure des conférences par type de serveur**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type de serveur de conférence** <br/> |Non  <br/> | Type de serveur utilisé dans la conférence, généralement l’un des types suivants : <br/>  Serveur de conférence web <br/>  Service de conférence de messagerie instantanée <br/>  Service de téléconférence <br/>  Serveur de conférence A/V <br/>  Partage d’application <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles la conférence s’est tenue.  <br/> |

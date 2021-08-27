@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 55dd80e5c71dd52dacd82f3fb12e1141a8bff470000280b582eccde7581231b1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c0c18672296254d1b532f0b33cdf809e68d249b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336664"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612273"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Faire échouer et faire échouer un pool dans Skype Entreprise Server
 
@@ -35,7 +35,7 @@ Datacenter1 contient Pool1 et Pool1 a échoué. Vous faites le pas vers Pool2 si
 
 La majeure partie du travail pour le changement de pool implique le fait de faire échouer le magasin central de gestion, si nécessaire. Le magasin central de gestion doit être fonctionnel lorsque les utilisateurs du pool sont retentés.
 
-Si un pool Front-End échoue, mais que le pool edge de ce site est toujours en cours d’exécution, vous devez savoir si le pool edge utilise le pool défaille comme pool du saut suivant. Si c’est le cas, vous devez modifier le pool edge pour utiliser un pool de Front-End différent avant de faire échouer le pool Front-End échoué. La manière dont vous pouvez modifier le paramètre du tronçon suivant varie selon que le serveur Edge va utiliser un pool sur le même site comme pool de serveurs Edge ou sur un site différent.
+Si un pool Front-End tombe en panne, mais que le pool edge de ce site est toujours en cours d’exécution, vous devez savoir si le pool edge utilise le pool défaille comme pool du saut suivant. Si c’est le cas, vous devez modifier le pool edge pour qu’il utilise un pool de Front-End différent avant de faire échouer le pool Front-End échoué. La manière dont vous pouvez modifier le paramètre du tronçon suivant varie selon que le serveur Edge va utiliser un pool sur le même site comme pool de serveurs Edge ou sur un site différent.
 
 **Pour définir un pool edge pour utiliser un pool de saut suivant sur le même site**
 
@@ -168,7 +168,7 @@ Si le pool edge sur lequel la fédération Skype Entreprise Server configurée e
 
 4.  Dans **Modifier les propriétés**, sous **Général**, activez la case à cocher **Activer la fédération pour ce pool Edge (port 5061)**. Sélectionnez **OK**.
 
-5.  Select **Action**, select **Topology**, select **Publish**. Lorsque vous y sont **invités sur Publier la topologie,** sélectionnez **Suivant.** Lorsque la publication est terminée, sélectionnez **Terminer.**
+5.  Select **Action**, select **Topology**, select **Publish**. Lorsque vous y sont **invités sur Publier la topologie,** sélectionnez **Suivant**. Lorsque la publication est terminée, sélectionnez **Terminer.**
 
 6.  Sur le serveur Edge, ouvrez l’Assistant Skype Entreprise Server déploiement. Sélectionnez **Installer ou mettre à jour Skype Entreprise Server système,** puis sélectionnez Installer ou supprimer Skype Entreprise Server **composants.** Sélectionnez **Exécuter à nouveau**.
 

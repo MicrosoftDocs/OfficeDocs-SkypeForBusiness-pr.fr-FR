@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Vue d’ensemble de l’utilisation d’un attendant automatique cloud Skype Entreprise Server 2019.
-ms.openlocfilehash: fa1807c272c8d9bba8ae406a87dc55589560d870da5b59fc093c2d9d1a2933e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1dffa2e0b92f9888fc9b24323c7fa638468c8b1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578168"
 ---
 # <a name="plan-cloud-call-queues"></a>Planifier les files d’attente d’appels cloud
 
@@ -35,7 +35,7 @@ Un compte de ressource **(voir** Configurer les comptes de [ressources)](configu
 > [!NOTE]
 > Vous pouvez affecter plusieurs numéros de téléphone à une file d’attente d’appels, mais il doit s’agit de numéros de service Microsoft, de numéros de routage direct ou de numéros hybrides.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 Les conditions suivantes supposent que vous avez déjà déployé Skype Entreprise Server 2019 dans une topologie prise en charge.  Vos besoins dépendent de votre scénario :
 

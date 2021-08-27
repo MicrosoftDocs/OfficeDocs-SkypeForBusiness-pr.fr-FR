@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Découvrez la gestion des pools frontux dans Skype Entreprise Server, notamment la gestion des pools, la perte de quorum et les étapes spéciales pour les pools avec seulement deux serveurs frontux.
-ms.openlocfilehash: 697cebf352d4fa0e2f245f50395107477ac3bae712346302e94746f173ce4d39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276619"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585008"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Haute disponibilité et gestion du pool frontal
  
@@ -45,16 +45,16 @@ La première fois que vous démarrez un nouveau pool frontal, il est essentiel q
   
 |Nombre total de serveurs dans le pool  <br/> |Nombre de serveurs devant être en cours d’exécution pour que le pool soit démarré pour la première fois  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
-|3  <br/> |3  <br/> |
-|4   <br/> |3  <br/> |
+|2   <br/> |1   <br/> |
+|3   <br/> |3   <br/> |
+|4   <br/> |3   <br/> |
 |5   <br/> |4   <br/> |
 |6   <br/> |5   <br/> |
 |7   <br/> |5   <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |
-|11  <br/> |9   <br/> |
+|11   <br/> |9   <br/> |
 |12   <br/> |10   <br/> |
 |16 **pour Skype Entreprise Server 2019** <br/> |12   <br/> |
 
@@ -71,7 +71,7 @@ Pour qu’un pool frontal fonctionne, il ne peut pas se trouver dans une perte d
   
 |Nombre total de serveurs frontaux dans le pool  <br/> |Nombre de serveurs devant s’exécuter pour que le pool soit opérationnel  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|2   <br/> |1   <br/> |
 |3-4  <br/> |N’importe quel 2  <br/> |
 |5-6  <br/> |N’importe quel 3  <br/> |
 |7   <br/> |N’importe quel 4  <br/> |

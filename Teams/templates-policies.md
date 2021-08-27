@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les modèles d’équipe dans le Centre d’administration
-ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310403"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578188"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration
 
@@ -38,7 +38,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Développez **Teams**  >  **stratégies modèles.**
+2. Développez **Teams**  >  **stratégies de modèles.**
 
 3. Sélectionnez **Ajouter**.
 
@@ -52,7 +52,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 2. Dans la table **Modèles consultables,** sélectionnez les modèles que vous voulez masquer, puis **Masquer.**
 
-    ![Modèles sélectionnés avec Masquer mis en évidence](media/template-policies-2.png)
+    ![Les modèles sélectionnés avec Masquer mis en évidence](media/template-policies-2.png)
 
     Vous pouvez voir les modèles que vous avez sélectionnés pour masquer dans la table **Modèles masqués.**
 
@@ -71,7 +71,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 Les utilisateurs affectés à une stratégie pourront uniquement afficher les modèles consultables dans cette stratégie.
 
-1. À partir **de Stratégies de modèles,** sélectionnez une stratégie, puis **sélectionnez Gérer les utilisateurs.**
+1. Dans **Stratégies de modèles,** sélectionnez une stratégie, puis **Sélectionnez Gérer les utilisateurs.**
 
 2. Tapez les utilisateurs à affecter à cette stratégie.
 
@@ -86,15 +86,15 @@ Les utilisateurs affectés à une stratégie pourront uniquement afficher les mo
 
 Vous pouvez masquer jusqu’à 100 modèles par stratégie. Le **bouton** Masquer est désactivé si la stratégie donnée a déjà 100 modèles masqués.
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 **Q : Puis-je affecter par lots des utilisateurs à des stratégies de modèles d’équipe ?**
   
-R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [En savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [Pour en savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q : Les groupes peuvent-ils être affectés à des stratégies de modèles d’équipe ?**
 
-R : Actuellement non. Cette fonctionnalité sera disponible ultérieurement.
+R : Actuellement non. Cette fonctionnalité sera disponible à l’avenir.
 
 **Q : Si un modèle est créé, le modèle sera-t-il inclus dans mes stratégies ?**
 
@@ -104,7 +104,7 @@ R : Tous les nouveaux modèles sont visibles par défaut. Vous pouvez choisir de
 
 R : Tous les modèles supprimés ne seront plus présents dans les stratégies de modèles.
 
-**Q : Puis-je affecter plusieurs utilisateurs à une stratégie de modèle dans le Teams d’administration ?**
+**Q : Puis-je attribuer plusieurs utilisateurs à une stratégie de modèle dans le Teams d’administration ?**
 
 R : Oui.
 
@@ -132,7 +132,7 @@ R : Non, la gestion des modèles dans PowerShell n’est pas prise en charge.
 
 R : Non, les stratégies de modèle pour EDU ne sont pas pris en charge.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](./get-started-with-teams-templates-in-the-admin-console.md)
 

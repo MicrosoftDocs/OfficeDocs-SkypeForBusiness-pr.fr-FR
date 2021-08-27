@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.ClientCapacity
 - ms.lync.plan.ClientCapacity
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: La fonctionnalité de mobilité dans Skype Entreprise Server 2015 prend en charge Skype Entreprise fonctionnalités de mobilité sur les appareils mobiles. Pour plus d’informations, voir Planning for Mobility.
-ms.openlocfilehash: 36f3821de9f0a3866ab61cb85ab474630b88b3f86af5c7526f19b3eb434089cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aae3575abe2b1165846217783d8ffe89b6ffdce8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325081"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598788"
 ---
 # <a name="client-settings-planning-tool"></a>Outil de planification Paramètres client
 

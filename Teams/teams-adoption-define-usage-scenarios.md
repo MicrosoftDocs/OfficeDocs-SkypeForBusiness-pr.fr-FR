@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment choisir les meilleurs scénarios d’utilisation applicables pour la phase d’essai de Teams adoption.
 f1.keywords:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3578b855745bde964825e265e871a27e4dacc4246b17cfe27f2892d26d7ecea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 189ceea1b1b3450968610bef5034a97114b40085
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318258"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625916"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Définir des scénarios d’utilisation de Microsoft Teams
 
-Veillez à comprendre les projets (scénarios) qui seront dans l’étendue de cette phase de votre implémentation. Jetez un coup d’œil à cette liste d’exemples de scénarios qui sont les bons choix pour un programme de l’utilisateur précoce. Vous pouvez commencer par gagner facilement, par exemple :
+Veillez à comprendre les projets (scénarios) qui seront dans l’étendue de cette phase de votre implémentation. Jetez un coup d’œil à cette liste d’exemples de scénarios qui sont les bons choix pour un programme de l’utilisateur précoce. Vous pouvez gagner facilement des gains, par exemple :
 
 - Productivité personnelle
 - Gestion de projet moderne
@@ -47,13 +47,13 @@ Les autres scénarios à prendre en compte sont les suivants :
 
 ![Illustration des cas Teams’utilisation pour chaque scénario](media/teams-adoption-use-cases.png)
 
-Ce scénario est un processus cumulatif qui permet de réaliser des choses avec des scénarios plus élémentaires afin de créer de l’enthousiasme, de la familiarité et de la autonomie avec cette nouvelle façon de travailler. Ensuite, déplacez-vous vers des domaines d’impact plus ambitieux. À mesure de l’impact Microsoft Teams la démonstration à vos collègues de travail, un plus grand nombre d’entre eux seront impliqués et une dynamique se développera. Une fois ce processus mis en place, bon nombre de nos clients constatent que les parties prenantes de l’entreprise les abordent après avoir appris comment leurs collègues ont reçu de l’intérêt de Microsoft Teams.
+Ce scénario est un processus cumulé qui vous permet de réaliser des choses avec des scénarios plus élémentaires afin de créer de l’enthousiasme, de la familiarité et de la créativité avec cette nouvelle façon de travailler. Ensuite, déplacez-vous vers des domaines d’impact plus ambitieux. À mesure de l’impact Microsoft Teams la démonstration à vos collègues de travail, un plus grand nombre d’entre eux seront impliqués et une dynamique se développera. Une fois ce processus mis en place, bon nombre de nos clients constatent que les parties prenantes de l’entreprise les abordent après avoir appris comment leurs collègues ont reçu de l’intérêt de Microsoft Teams.
 
 ## <a name="interview-business-stakeholders"></a>Interview avec les parties prenantes
 
 Pour confirmer la sélection de ces premiers projets, nous vous recommandons de rencontrer directement les parties prenantes identifiées précédemment dans ce processus. Votre objectif à ce stade est d’écouter et d’en apprendre davantage sur son activité. Prenons les questions suivantes pour conduire la conversation :
 
-- Quels sont les problèmes ou difficultés de l’organisation en relation avec la communication et la collaboration ?
+- Quels sont les problèmes ou difficultés que l’organisation peut surmonter en relation avec la communication et la collaboration ?
 - Quels sont les domaines dans lesquels votre organisation souhaite s’améliorer ?
 - Quels sont les projets stratégiques ou les projets de transformation en cours de l’organisation Teams prise en charge ?
 - Quelles méthodes de communication et de collaboration sont généralement mieux reçues par votre organisation que les autres ?
@@ -70,6 +70,6 @@ Après avoir parlé à une ou plusieurs parties prenantes de l’entreprise, vou
 ![Illustration montrant l’impact sur le scénario et la difficulté](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Nous sommes toujours impatients de découvrir comment nos clients utilisent Teams de façon innovante. Partagez vos #TeamsStories avec nous dans notre forum de [discussion Adoption en ligne.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Incluez le hashtag **#TeamsStories** votre billet. Nous sommes toujours intéressé par la façon dont vous utilisez Teams dans votre organisation.
+> Nous sommes toujours impatients de découvrir comment nos clients utilisent Teams de façon innovante. Partagez vos #TeamsStories avec nous dans notre forum de [discussion Adoption en ligne.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Incluez le hashtag **#TeamsStories** dans votre billet. Nous sommes toujours intéressé par la façon dont vous utilisez Teams dans votre organisation.
 
 ![Icône représentant l’étape suivante : intégrer les premiers ](media/teams-adoption-next-icon.png) [utilisateurs et recueillir des commentaires.](teams-adoption-onboard-early-adopters.md)

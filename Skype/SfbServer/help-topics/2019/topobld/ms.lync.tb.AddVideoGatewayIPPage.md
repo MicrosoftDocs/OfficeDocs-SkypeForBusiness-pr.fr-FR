@@ -1,5 +1,5 @@
 ---
-title: Ajout d’une adresse IP de passerelle vidéo
+title: Ajout d’une adresse IP de passerelle vidéo
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVideoGatewayIPPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server.
-ms.openlocfilehash: 710dbfa1ddf1763146d11bb37ce3d0d6328c7f2d23a61c064bcdb3e446a35a47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c911b94184eb2f7ed4a83827d207543e1ba5cd0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605283"
 ---
-# <a name="add-video-gateway-ip"></a>Ajout d’une adresse IP de passerelle vidéo
+# <a name="add-video-gateway-ip"></a>Ajout d’une adresse IP de passerelle vidéo
  
 Les étapes nécessaires pour définir un nouveau vis ou une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool de vis [dans Skype Entreprise Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   

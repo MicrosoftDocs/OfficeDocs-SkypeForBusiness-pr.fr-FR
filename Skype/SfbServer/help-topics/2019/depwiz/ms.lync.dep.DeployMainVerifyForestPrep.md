@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour vérifier que la réplication du catalogue global et la création d’objets au cours de la préparation de la forêt ont réussi, faites les opérations suivantes :'
-ms.openlocfilehash: 08447b011ba16aadbda39b2ff89edc47db56c714d6933d5467757e2c45abde7a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d07f047d7ee5923ef9ae23d7a265e3080ec96f52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317829"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626036"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Vérifier la réplication de la préparation de la forêt
  

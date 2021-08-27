@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5464e84526e466bdfaa643e912ecf90ccc252b2070fcffc810374dc6f03b52bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e17efec2d363083ac2169623b8b561ea6fbed333
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295171"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523975"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -99,7 +99,7 @@ Les paramètres de réunions sont utilisés pour contrôler si les utilisateurs 
 
 ### <a name="meeting-policies"></a>Stratégies de réunion
 
-Les stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui sont disponibles aux utilisateurs lorsqu’ils se connectent à des réunions Teams. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies de réunion personnalisées pour les personnes qui hébergent des réunions dans votre organisation. Pour plus d’informations, voir le [didacticiel Réunions avec Microsoft Team](tutorial-meetings-in-teams.yml).
+Les stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui sont disponibles aux utilisateurs lorsqu’ils se connectent à des réunions Teams. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies de réunion personnalisées pour les personnes qui hébergent des réunions dans votre organisation. Pour plus d’informations, voir le [didacticiel Réunions avec Microsoft Teams](tutorial-meetings-in-teams.yml).
 
 | Posez-vous la question | Action |
 |--------------|--------|
@@ -228,4 +228,4 @@ Il est important de comprendre l’état de santé général du service Teams af
 - [Favoriser l’adoption](adopt-microsoft-teams-landing-page.md) des réunions et conférences au sein de votre organisation.
 - [Ajouter une audioconférence](deploy-audio-conferencing-teams-landing-page.md)
 - [Mettre en place les services audio dans le nuage](cloud-voice-landing-page.md)
-- Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, robots et, connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.
+- Inclure des applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, robots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.

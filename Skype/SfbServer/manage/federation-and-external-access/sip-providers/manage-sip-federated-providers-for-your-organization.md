@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Découvrez comment configurer la prise en charge des utilisateurs de fournisseurs fédérés SIP.
-ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 552f0971685dd62dd89a27e03c62d0617b6c01d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336694"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612303"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Gérer les fournisseurs fédérés SIP pour votre organisation dans Skype Entreprise Server
 
@@ -36,7 +36,7 @@ Pour configurer la prise en charge pour les utilisateurs des fournisseurs fédé
 
 La connectivité de messagerie instantanée publique permet aux utilisateurs de votre organisation d’utiliser la messagerie instantanée pour communiquer avec les utilisateurs des services de messagerie instantanée fournis par des fournisseurs publics.
 
-Skype Entreprise Server a des configurations de fournisseur public pour la messagerie instantanée. Chaque fournisseur public est configuré avec le nom de domaine complet du serveur Edge du fournisseur et le niveau de vérification par défaut permet aux utilisateurs de communiquer uniquement avec les personnes de leur liste de contacts qui utilisent ce **fournisseur.**
+Skype Entreprise Server des configurations de fournisseur public pour la messagerie instantanée. Chaque fournisseur public est configuré avec le nom de domaine complet du serveur Edge du fournisseur et le niveau de vérification par défaut permet aux utilisateurs de communiquer uniquement avec les personnes de leur liste de contacts qui utilisent ce **fournisseur.**
 
 Par défaut, aucun des fournisseurs publics n’est activé. Terminez le travail relatif au contrat de licence et à l’approvisionnement avant d’activer les fournisseurs publics. Vous pouvez activer le fournisseur avant de terminer le travail relatif au contrat de licence et à l’approvisionnement. Les utilisateurs ne pourront pas communiquer avec leurs contacts situés chez ces fournisseurs tant que le travail préalable ne sera pas terminé. Pour plus d’informations sur la gestion des licences et l’approvisionnement des fournisseurs publics, voir Configurer des stratégies pour contrôler les accès [des utilisateurs publics.](../external-access-policies/configure-policies-to-control-public-user-access.md)
 

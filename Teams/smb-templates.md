@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,12 +17,12 @@ appliesto:
 ms.reviewer: lavenkat
 description: Utilisez Microsoft Teams modèles prédéfinés créés dans Microsoft Graph pour créer rapidement et facilement des équipes pour les petites et moyennes entreprises.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 971b7b0d3be009938a05b7b8fd38105cc273d6158309c69c30cb7c22c51d3fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80ebae188ce6b6f00186a9e97a25eb4c006930da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323936"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625946"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams modèles créés dans Microsoft Graph pour les petites et moyennes entreprises
 
@@ -174,7 +174,7 @@ Content-Type: application/json
 
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Commencer à utiliser Teams modèles dans la console d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Prise en main des modèles Teams](get-started-with-teams-templates.md)

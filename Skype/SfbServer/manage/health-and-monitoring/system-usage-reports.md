@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Résumé : Découvrez les rapports d’utilisation du système Skype Entreprise Server.'
-ms.openlocfilehash: 05704b507e52785e0b34c69616fce338a0e6c3a271e72d4f15eb5a126771bb11
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f98e78319e872f978004ac32e24802c6b62bd36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598828"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Rapports d’utilisation du système Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54280059"
   
 Les rapports d’utilisation du système fournissent des informations d’utilisation système basées sur les données d’enregistrement des détails des appels collectées par le Skype Entreprise Server.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Rapport d’enregistrement de l’utilisateur Skype Entreprise Server](user-registration-report.md)
     

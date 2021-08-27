@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'En savoir plus sur les licences de modules complémentaires et les fonctionnalités des forfaits pour les organisations gouvernementales, éducatives et à but non lucratif. '
-ms.openlocfilehash: 1f3f8e1e545e3eb4bd0a4d39f0a339b529ddfdafce771e3878803d00abeada98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b8aa7dfe3e73693ef271aeb1d40ff06afed6717
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591988"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, l’éducation et les organisations à but non lucratif
 
