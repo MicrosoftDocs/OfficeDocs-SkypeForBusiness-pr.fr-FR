@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: Découvrez comment préparer votre infrastructure pour le déploiement d Salles Microsoft Teams de manière à tirer parti de toutes les fonctionnalités.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46f44d9a07aadc06598495a765bedcd67d1ed03b395c4d9cf4e6696023227c0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5003bbb3554436ca388990aeebfec4ce6dfb9f57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346171"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577958"
 ---
 # <a name="prepare-your-environment"></a>Préparer votre environnement
 
@@ -32,7 +32,7 @@ Cette section contient une vue d’ensemble des étapes requises pour préparer 
     
    Il doit être en mesure de recevoir une adresse IP à l’aide de DHCP. (Salles Microsoft Teams ne peut pas être configuré avec une adresse IP statique au démarrage de la première unité, mais par la suite, une adresse IP statique pour l’appareil peut être configurée sur l’appareil ou sur le commutateur ou le routeur en amont.)
 
-   Ces ports doivent être ouverts (en plus des ports normaux pour les médias) :
+   Ces ports doivent être ouverts (en plus des ports normal pour les médias) :
    - HTTPS : 443
    - HTTP : 80
 
@@ -60,7 +60,7 @@ Pour fonctionner correctement, l’Salles Microsoft Teams doit avoir accès à u
 
 - Accès aux ports HTTP 80 et 443.
 
-- Ports TCP et UDP configurés comme décrit dans les exigences de port et de protocole pour les serveurs pour les implémentations Skype Entreprise Server sur site, ou URL et plages d’adresses [IP Microsoft 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) et Office 365 pour les implémentations en ligne Microsoft Teams ou Skype Entreprise. [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)
+- Ports TCP et UDP configurés comme décrit dans la configuration requise pour les ports et protocoles pour les serveurs pour les implémentations Skype Entreprise Server en local, ou les URL et plages d’adresses [IP Microsoft 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) et Office 365 pour les implémentations en ligne Microsoft Teams ou Skype Entreprise. [](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)
 
 > [!IMPORTANT]
 > Veillez à utiliser une connexion réseau câblée de 1 Gbits/s afin d’être sûr de disposer de la bande passante nécessaire. 
@@ -70,7 +70,7 @@ Pour fonctionner correctement, l’Salles Microsoft Teams doit avoir accès à u
   
 ### <a name="certificates"></a>Certificats
 
-Votre Salles Microsoft Teams utilise des certificats pour les services Exchange web, l’Microsoft Teams ou la Skype Entreprise, l’utilisation du réseau et l’authentification. Si des serveurs associés utilisent des certificats publics, ce qui est le cas des déploiements en ligne et de certains sur site, aucune autre action de l’administrateur n’est requise pour l’installation des certificats. En revanche, si l’autorité de certification (CA) est privée (généralement le cas des déploiements sur site), l’appareil devra l’approuver, ce qui implique une installation de certificats en chaîne (CA + CA). L’ajout de l’appareil au domaine peut permettre d’automatiser cette tâche.
+Votre Salles Microsoft Teams utilise des certificats pour les services Exchange web, l’Microsoft Teams ou Skype Entreprise, l’utilisation du réseau et l’authentification. Si des serveurs associés utilisent des certificats publics, ce qui est le cas des déploiements en ligne et de certains sur site, aucune autre action de l’administrateur n’est requise pour l’installation des certificats. En revanche, si l’autorité de certification (CA) est privée (généralement le cas des déploiements sur site), l’appareil devra l’approuver, ce qui implique une installation de certificats en chaîne (CA + CA). L’ajout de l’appareil au domaine peut permettre d’automatiser cette tâche.
   
 Vous installerez les certificats comme vous le feriez pour tout autre client Windows.  
   
@@ -139,7 +139,7 @@ Le compte d’appareil n’utilise généralement pas de mot de passe. Il est po
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - Compte d’administrateur local
 
-Salles Microsoft Teams mot de passe par défaut est définie sur « sfb ». Le mot de passe peut être modifié localement en vous rendant dans Windows Paramètres Go to Windows ou dans le fichier AutoUnattend.xml (utilisez le gestionnaire d’images système Windows de ADK pour apporter la modification au fichier \> xml).
+Salles Microsoft Teams mot de passe par défaut est « sfb ». Le mot de passe peut être modifié localement en vous rendant dans Windows Paramètres Go to Windows ou dans le fichier AutoUnattend.xml (utilisez le gestionnaire d’images système Windows de ADK pour apporter la modification au fichier \> xml).
   
 > [!CAUTION]
 > N’oubliez pas de modifier Salles Microsoft Teams mot de passe dès que possible. 
@@ -154,7 +154,7 @@ Le mot de passe de l’administrateur local n’est pas inclus comme alternative
   
 Si vous voulez renommer l’ordinateur après l’avoir joint à un domaine, utilisez **Renommer** l’ordinateur, une commande PowerShell, suivie du nouveau nom de l’ordinateur.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Planifier Salles Microsoft Teams](rooms-plan.md)
 

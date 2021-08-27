@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Espagne, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
-ms.openlocfilehash: a0e66b49178709aa7db6540e7901bdb3f2c27693feab3436ede1270b5b9050ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e467eb8c5e93ebda9f40d78bbf926fc7f800f8e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345153"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577768"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>Restrictions de numérotation gratuit en Espagne
 
@@ -41,13 +41,13 @@ ms.locfileid: "54345153"
 |Des appels gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Format(s) de numérotation  <br/> |900 XXX XXX  <br/> |
 |Code ISO de pays/région  <br/> |ES  <br/> |
-|Île/territoire couvert par  <br/> |Îles Baléares et Îles Canaries  <br/> |
+|Île/territoire couvert(s)  <br/> |Îles Baléares et Îles Canaries  <br/> |
 |Île/territoire non couvert  <br/> |Non applicable  <br/> |
 |Disponibilité des lignes câblés/fixes  <br/> |Oui  <br/> |
 |Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Identification mobile utilisant des impulsions différentes disponible.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

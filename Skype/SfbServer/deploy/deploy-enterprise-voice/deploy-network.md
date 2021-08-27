@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Créez ou modifiez des régions réseau, des sites réseau et associez des sous-réseaux dans Skype Entreprise Server. Toutes ces fonctionnalités sont utilisées pour les fonctionnalités Voix Entreprise avancées : déviation du média, contrôle d’admission des appels et routage géolocal.'
-ms.openlocfilehash: e031936fe8f8411f5527812326b751da59c2a05f77b7162a40901588bbc6138e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5c9105dd49afaaeeba1925859357b801cb252cb4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320886"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604253"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Déployer des régions réseau, des sites et des sous-réseaux dans Skype Entreprise
 
@@ -61,7 +61,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 3. Pour finir de créer des régions réseau pour votre topologie, répétez l’étape 2 avec des paramètres pour chaque région réseau.
 
-### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Pour créer une région réseau à l’aide Skype Entreprise Server de contrôle
+### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>Pour créer une région réseau à l’aide du Skype Entreprise Server de contrôle
 
 1. Ouvrez Skype Entreprise Server panneau de contrôle.
 
@@ -113,7 +113,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 5. Cliquez sur **Modifier**, puis sur **Afficher les détails…**.
 
-6. Dans la page **Modifier la** région, modifiez les valeurs des paramètres de cette région réseau, le cas échéant.
+6. Dans la page **Modifier la** région, modifiez les valeurs des paramètres de cette région réseau selon le cas.
 
 7. Cliquez sur **Valider**.
 
@@ -234,7 +234,7 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
-    Par exemple :
+    Par exemple :
 
    ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago

@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: Cette rubrique définit les conditions de performances du réseau pour les services Microsoft Teams et la façon dont vous pouvez choisir d’utiliser Internet ou ExpressRoute pour établir une connectivité entre votre réseau et Microsoft Teams en fonction de votre évaluation de la connectivité réseau. Si vous avez décidé de déployer Azure ExpressRoute pour une connectivité dédiée à Microsoft 365 ou Office 365, ce document fournit également des instructions sur la façon de planifier vos connexions ExpressRoute selon différents scénarios Microsoft Teams déploiement.
-ms.openlocfilehash: c73922af3befc9070127d9b9937a82f8b8d94e0b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 3699e225f69deda5fd69b2308dc50337a1d0b228
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407033"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618240"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-microsoft-teams"></a>Qualité multimédia et performances de connectivité réseau dans Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "58407033"
 
 Cette rubrique définit les conditions de performances du réseau pour les services Microsoft Teams et la façon dont vous pouvez choisir d’utiliser Internet ou ExpressRoute pour établir une connectivité entre votre réseau et Microsoft Teams en fonction de votre évaluation de la connectivité réseau. Si vous avez décidé de déployer Azure ExpressRoute pour une connectivité dédiée à Microsoft 365 ou Office 365, ce document fournit également des instructions sur la façon de planifier vos connexions ExpressRoute selon différents scénarios Microsoft Teams déploiement.
   
-La qualité multimédia Real-Time (audio, vidéo et partage d’applications) sur IP est largement impactée par la qualité de la connectivité réseau de bout en bout. Pour optimiser Microsoft Teams qualité multimédia, vous devez vous assurer qu’il existe une connexion de haute qualité entre le réseau de votre entreprise et Microsoft Teams. La meilleure façon d’y parvenir est de configurer la connectivité du réseau interne et du cloud en fonction de la capacité de votre réseau à s’adapter au volume du trafic le plus élevé possible pour les Microsoft Teams sur toutes les connexions.
+La qualité multimédia Real-Time (audio, vidéo et partage d’applications) sur IP est largement impactée par la qualité de la connectivité réseau de bout en bout. Pour optimiser Microsoft Teams qualité multimédia, vous devez vous assurer qu’il existe une connexion de haute qualité entre le réseau de votre entreprise et Microsoft Teams. La meilleure façon d’y parvenir est de configurer la connectivité de votre réseau interne et du cloud en fonction de la capacité de votre réseau à s’adapter au volume du trafic de pointe pour les Microsoft Teams sur toutes les connexions.
   
 Azure ExpressRoute n’est pas obligatoire pour les services Microsoft 365 et Office 365, Microsoft Teams. Toutefois, Azure ExpressRoute est l’une des options de déploiement disponibles qui vous aideront à vous assurer que la connectivité à Microsoft 365 ou Office 365 répond aux exigences de performances réseau d’Microsoft Teams et garantit une qualité multimédia Microsoft Teams optimale.
   
@@ -50,7 +50,7 @@ De nombreux facteurs contribuent à la qualité Microsoft Teams Real-Time multim
 
 Dans une session Real-Time média, les périphériques de capture et de rendu utilisés par tous les participants, tels que des casques et des webcams, ont un fort impact sur la qualité audio et vidéo globale. Les périphériques de qualité inférieure ou dont les pilotes sont incorrects produiront globalement des sons et des images de moins bonne qualité. Les périphériques certifiés ou de bonne qualité contribuent à l’annulation de l’écho, au filtrage du bruit et à la résolution vidéo et réduisent la latence.
   
-Bien que des périphériques multimédias audio et vidéo certifiés ne sont pas obligatoires, il est vivement recommandé d’avoir des périphériques certifiés Microsoft Teams pour optimiser l’expérience multimédia. Pour obtenir la liste de tous Microsoft Teams certifiés, consultez Téléphones et [périphériques pour Skype Entreprise.](../../SfbPartnerCertification/certification/devices-ip-phones.md) Vous pouvez utiliser le tableau de bord [Microsoft Teams](/microsoftteams/turning-on-and-using-call-quality-dashboard)qualité des appels, qui se trouve dans le Centre d’administration **Skype Entreprise,** pour vérifier que les périphériques utilisés fonctionnent correctement et surveiller la qualité des médias audio et vidéo.
+Bien que des périphériques multimédias audio et vidéo certifiés ne sont pas obligatoires, il est vivement recommandé d’avoir des périphériques certifiés pour Microsoft Teams d’optimiser l’expérience multimédia. Pour obtenir la liste de tous Microsoft Teams certifiés, consultez Téléphones et [périphériques pour Skype Entreprise.](../../SfbPartnerCertification/certification/devices-ip-phones.md) Vous pouvez utiliser le tableau de bord [Microsoft Teams](/microsoftteams/turning-on-and-using-call-quality-dashboard)qualité des appels, qui se trouve dans le Centre d’administration **Skype Entreprise,** pour vérifier que les périphériques utilisés fonctionnent correctement et surveiller la qualité des médias audio et vidéo.
   
 > [!TIP]
 > **Un périphérique certifié est requis pour optimiser la qualité** Skype Entreprise qualité multimédia optimale.
@@ -59,7 +59,7 @@ Il est important de savoir que tous les périphériques multimédias, clients Mi
   
 #### <a name="environment"></a>Environnement
 
-L’environnement dans lequel les utilisateurs se rencontrent et utilisent des périphériques audio et vidéo est un autre facteur important pour la qualité audio et vidéo. Les utilisateurs appelant à partir d’un environnement bruyant auront un écho, un son étouffé et un son difficilement clair. Les utilisateurs dans un environnement sombre ou de luminosité faible ne seront pas en mesure de produire une qualité d'image lumineuse et nette pour la vidéo. Dans une salle de conférence, l'emplacement du microphone et du périphérique vidéo ont un impact direct sur la qualité du son et de l'image que les participants recevront.
+L’environnement dans lequel les utilisateurs se rencontrent et utilisent des périphériques audio et vidéo est un autre facteur important pour la qualité audio et vidéo. Les utilisateurs appelant à partir d’un environnement bruyant auront de l’écho, un son tapé et un son difficilement clair. Les utilisateurs dans un environnement sombre ou de luminosité faible ne seront pas en mesure de produire une qualité d'image lumineuse et nette pour la vidéo. Dans une salle de conférence, l'emplacement du microphone et du périphérique vidéo ont un impact direct sur la qualité du son et de l'image que les participants recevront.
   
 Pour obtenir une image plus claire de l’expérience audio et vidéo d’un utilisateur, utilisez l’application Outils Skype Entreprise Options périphérique audio ou périphérique vidéo pour apporter des modifications au périphérique utilisé et personnaliser ses  >    >   paramètres. 
 
@@ -82,16 +82,16 @@ Avec un grand nombre de sessions multimédia Microsoft Teams Real-Time simultan�
 
 De plus, l’encombrement du trafic sur un réseau a une incidence considérable sur la qualité multimédia. Pour autoriser les paquets audio et vidéo à se déplacer plus rapidement sur le réseau et à être prioritaires sur tout autre trafic sur un réseau encombré, la qualité de service (QoS) peut aider à fournir une expérience utilisateur optimale pour les communications audio et vidéo.
   
-QoS vous permet d’attribuer des priorités plus élevées aux paquets réseau qui transportent des données audio ou vidéo. En attribuant une priorité plus élevée à ces paquets, les communications audio et vidéo sont susceptibles de se déplacer plus rapidement et avec moins d’interruption que les sessions réseau impliquant des éléments tels que des transferts de fichiers, la navigation web ou des sauvegardes de bases de données. En effet, les paquets réseau utilisés pour les transferts de fichiers ou les sauvegardes de bases de données par défaut se voit attribuer la priorité « meilleur effort » et l’impact de l’encombrement du réseau est alors moins important. Si vous n’attribuez pas une priorité plus élevée aux paquets multimédia (audio, vidéo et partage d’applications) et que vous ne leur attribuez pas la priorité « meilleur effort », ils seront également traitées avec tout autre trafic réseau. En fonction de l’encombrement du réseau, cela risque potentiellement d’entraîner une baisse de la qualité audio et vidéo pour vos utilisateurs.
+QoS vous permet d’attribuer des priorités plus élevées aux paquets réseau qui transportent des données audio ou vidéo. En attribuant une priorité plus élevée à ces paquets, les communications audio et vidéo sont susceptibles de se déplacer plus rapidement et avec moins d’interruption que les sessions réseau impliquant des éléments tels que des transferts de fichiers, la navigation web ou des sauvegardes de bases de données. En effet, les paquets réseau utilisés pour les transferts de fichiers ou les sauvegardes de bases de données par défaut se voit attribuer la priorité « meilleur effort » et l’impact de l’encombrement du réseau est alors moins important. Si vous n’attribuez pas une priorité plus élevée aux paquets multimédia (audio, vidéo et partage d’applications) et que vous ne les affectez pas au niveau « meilleur effort », ils seront également traitées avec tout autre trafic réseau. En fonction de l’encombrement du réseau, cela risque potentiellement d’entraîner une baisse de la qualité audio et vidéo pour vos utilisateurs.
   
 Il est vivement recommandé d’implémenter QoS sur votre réseau pour vous assurer que l’encombrement du réseau au sein de votre réseau n’aura aucun impact. Toutefois, pour que cela soit le plus impact possible, tous les points de terminaison réseau doivent prendre en charge QoS, ce qui signifie que tous les points de terminaison doivent respecter le marquage et la hiér donc QoS. Microsoft Teams services respectent le marquage et la hiérérisation QoS au sein du réseau Microsoft. Toutefois, le trafic acheminé via une connexion publique telle qu’Internet entre votre réseau d’entreprise et le réseau Microsoft ne conserve pas les marquages et les priorités QoS. Les connexions privées entre votre réseau et Microsoft 365 ou Office 365 à l’aide [d’Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/) offrent une solution de déploiement qui conserve les marquages et les priorités QoS, ce qui augmente à son tour la qualité audio et vidéo globale pour vos utilisateurs finaux.
   
 ## <a name="network-performance-requirements-to-connect-to-microsoft-teams"></a>Conditions requises de performances réseau pour la connexion à Microsoft Teams
 <a name="bkNetworkPerf"> </a>
 
-Skype Entreprise Real-Time les médias parcourt un grand nombre de périphériques, d’applications client, de logiciels serveurs et de réseaux. La latence de bout en bout des Real-Time multimédias représente la quantité totale de latence introduite sur l’ensemble des composants et des segments réseau. La qualité de la connexion réseau de bout en bout est déterminée par le segment de réseau dont la qualité est la moins bonne. Ce segment agit comme un goulot d’étranglement pour ce trafic réseau.
+Skype Entreprise Real-Time les médias parcourt un grand nombre de périphériques, d’applications client, de logiciels serveurs et de réseaux. La latence de bout en bout des Real-Time multimédias représente la quantité totale de latence introduite sur l’ensemble des composants et des segments réseau. La qualité de la connexion réseau de bout en bout est déterminée par le segment de réseau dont la qualité est la moins élevée. Ce segment agit comme un goulot d’étranglement pour ce trafic réseau.
   
-Le diagramme suivant illustre le flux audio à sens seul d’une conférence entre Microsoft Teams un participant à un autre.
+Le diagramme suivant illustre le flux audio à sens sensé d’une conférence d’Microsoft Teams participant à un autre.
   
 ![Flow d’appel ExpressRoute.](../images/c026e8e5-ba09-42c0-9e03-60fbfda1cb02.png)
   
@@ -119,10 +119,10 @@ Dans un scénario d’appel PSTN, le chemin multimédia passe par les segments r
     
 4. Connexion entre le réseau Microsoft et les partenaires fournisseurs de **services PSTN** Il s’agit de la connexion qui existe pour placer un appel PSTN à partir du client Skype Entreprise extérieur au réseau Microsoft.
     
-### <a name="network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge"></a>Conditions requises de performances réseau entre un client Skype Entreprise et le réseau de périphérie Microsoft
+### <a name="network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge"></a>Conditions requises de performances réseau entre Skype Entreprise client et le réseau de périphérie Microsoft
 <a name="bkSfBClienttoEdge"></a>
 
-Pour optimiser Skype Entreprise qualité multimédia, les objectifs ou seuils de mesure de performances suivants sont requis pour une connexion entre le réseau de votre entreprise et le réseau de périphérie Microsoft. Ce segment du réseau inclut votre réseau interne, ce qui inclut toutes les connexions WiFi et Ethernet, le trafic de site à site de la société via une connexion WAN, par exemple MPLS (Multiprotocol Label Switching), ainsi que les connexions partenaires Internet ou ExpressRoute vers le réseau de périphérie Microsoft.
+Pour optimiser Skype Entreprise qualité multimédia, les objectifs ou seuils de mesure de performances suivants sont requis pour une connexion entre le réseau de votre entreprise et le réseau de périphérie Microsoft. Ce segment du réseau comprend votre réseau interne, ce qui inclut toutes les connexions WiFi et Ethernet, tout le trafic de site à site de la société via une connexion WAN, par exemple MPLS (Multiprotocol Label Switching), ainsi que les connexions partenaires Internet ou ExpressRoute vers le réseau de périphérie Microsoft.
   
 > [!CAUTION]
 > **La connectivité entre un client Skype Entreprise sur votre réseau d’entreprise et les services Microsoft 365 ou Office 365 doit répondre aux conditions et aux seuils de performances réseau suivantes.**
@@ -136,7 +136,7 @@ Pour optimiser Skype Entreprise qualité multimédia, les objectifs ou seuils de
 |Gigue entre les arrivées de paquets  <br/> |<30 ms sur un intervalle de 15 s  <br/> |
 |Réordentation des paquets  <br/> |<paquets hors commande à 0,05 %  <br/> |
    
- **Autres objectifs de performances requis :**
+ **Autres conditions requises pour les objectifs de performances :**
   
 - Le réseau Microsoft dispose de plus de 160 réseaux de périphérie dans le monde. Nous travaillons avec les principaux fournisseurs de services Internet (FSI) au monde par le biais de ces sites de périphérie. L’objectif de mesure de latence présumait que le ou les sites de votre entreprise et les bords Microsoft se sont situés sur le même continent.
     
@@ -161,7 +161,7 @@ Voici les objectifs ou seuils de performance réseau requis pour la connexion en
 |Gigue entre les arrivées de paquets  <br/> |<15 ms sur un intervalle de 15 s  <br/> |
 |Réordentation des paquets  <br/> |<paquets pré-commandés de 0,01 %  <br/> |
    
- **Autres objectifs de performances requis :**
+ **Autres conditions requises pour les objectifs de performances :**
   
 - L’objectif de performance nécessite que la connexion entre l’un des réseaux de votre entreprise et son réseau de périphérie Microsoft le plus proche soit sur le même continent.
     
@@ -173,7 +173,7 @@ Voici les objectifs ou seuils de performance réseau requis pour la connexion en
 Pour mesurer les performances réelles du réseau, notamment la latence et la perte de paquets, entre un site réseau de l’entreprise et un réseau de périphérie, vous pouvez utiliser des outils tels que ping, pour tester un ensemble de services de relais multimédia Skype Entreprise s’exécutant à partir des sites de centre de données et Microsoft Edge. 
 
 >[!NOTE]
-> La mesure des performances réseau via la commande ping (ICMP) n’est pas efficace. Pour cette raison, l’adresse IP anycast ci-dessous cessera de répondre aux demandes ICMP à partir du mois de janvier 2020. Pour mesurer efficacement les performance du réseau, Microsoft recommande [l’outil d’assesment réseau.](https://www.microsoft.com/download/details.aspx?id=53885)
+> La mesure des performances réseau via la commande ping (ICMP) n’est pas efficace. Pour cette raison, l’adresse IP anycast ci-dessous cessera de répondre aux demandes ICMP à partir du mois de janvier 2020. Pour mesurer efficacement les performance du réseau, Microsoft recommande l’outil [d’assesment réseau.](https://www.microsoft.com/download/details.aspx?id=53885)
   
 Pour tester les connexions Internet au réseau Microsoft, il est recommandé de tester par rapport aux VIP suivants des relais Skype Entreprise multimédias. La *VIP Anycast*  se résout à l’adresse IP d’un relais multimédia sur un site de réseau de périphérie Microsoft le plus proche de l’emplacement du test.
   
@@ -195,7 +195,7 @@ Pour tester les connexions Internet au réseau Microsoft, il est recommandé de 
 ## <a name="measuring-network-performance-using-azure-vms"></a>Mesure des performances du réseau à l’aide de VMs Azure
 <a name="bkNetworkPerf"> </a>
 
-Au lieu de tester les résultats par rapport aux sites de réseau de périphérie Microsoft, il existe des solutions d’évaluation du réseau de Skype Entreprise clients et partenaires qui utilisent la configuration de test pour les services dans Microsoft Azure cloud. Dans ces solutions, les outils d’évaluation du réseau testent la latence, la perte de paquets et la gigue par rapport à des points de terminaison personnalisés qui sont configurer en tant que service dans le cloud Azure. Par conséquent, le trafic réseau test est parcourt un autre segment réseau, qui est la connexion au sein du réseau Microsoft entre les réseaux de réseau et les centres de données Azure qui hébergent le service d’évaluation du réseau.
+Au lieu de tester les résultats par rapport aux sites de réseau de périphérie Microsoft, il existe des solutions d’évaluation du réseau de Skype Entreprise clients et partenaires qui utilisent la configuration de test pour les services dans le cloud Microsoft Azure. Dans ces solutions, les outils d’évaluation du réseau testent la latence, la perte de paquets et la gigue par rapport à des points de terminaison personnalisés qui sont configurer en tant que service dans le cloud Azure. Par conséquent, le trafic réseau test est parcourt un autre segment réseau, qui est la connexion au sein du réseau Microsoft entre les réseaux de réseau et les centres de données Azure qui hébergent le service d’évaluation du réseau.
   
 Pour les solutions d’évaluation du réseau basées sur des services de test hébergés par Azure. Nous vous recommandons d’effectuer l’évaluation du réseau au sein du pays et/ou de la région. Par exemple, pour les sites des clients de l’est des États-Unis, l’évaluation doit être effectuée par rapport à une instance du service de test hébergée dans la région du centre de données Azure de l’est des États-Unis. 
   
@@ -233,17 +233,17 @@ Voici les objectifs de latence (RTT) pour la configuration de l’évaluation du
 
 Azure ExpressRoute pour Microsoft 365 ou Office 365 est une connexion réseau dédiée pour la connexion à Microsoft 365 ou Office 365. Il offre aux clients la possibilité de contrôler le chemin d’accès de leur trafic réseau. Ils n’ont plus à se préoccuper de l’imprévisible routage qui se produit sur Internet, où les données sont portées par des opérateurs, fournisseurs et fournisseurs inconnus. Le trafic réseau envoyé via ExpressRoute est envoyé directement via le réseau du partenaire ExpressRoute au réseau de Microsoft. Ainsi, les clients peuvent considérer Microsoft 365 ou Office 365 comme s’ils se trouvent dans leur propre centre de données hors site avec une connexion dédiée.
   
-Azure ExpressRoute est disponible pour toutes les offres Microsoft 365 et Office 365 de licences azure. Toutefois, le module Premium Azure ExpressRoute est requis pour que les Microsoft 365 et les Office 365 activent un routage mondial. Les clients avec au moins 500 postes qui mettent en œuvre ExpressRoute peuvent obtenir l’Premium-module additionnel *ExpressRoute* requis sans frais supplémentaires.
+Azure ExpressRoute est disponible pour toutes les offres Microsoft 365 et Office 365 de licences azure. Toutefois, le module Premium Azure ExpressRoute est requis pour que les Microsoft 365 et les Office 365 activent un routage mondial. Les clients avec au moins 500 postes qui mettent en œuvre ExpressRoute peuvent obtenir le module additionnel *ExpressRoute requis* Premium sans frais supplémentaires.
   
 ### <a name="is-expressroute-required-for-good-media-quality"></a>ExpressRoute est-il requis pour une bonne qualité multimédia ?
 
-Azure ExpressRoute n’est pas une condition requise pour obtenir la qualité multimédia la Microsoft Teams optimale. Toutefois, c’est l’une des options de déploiement qui vous permettent de vous assurer que votre connectivité cloud répond aux Skype Entreprise de performances réseau et aux seuils.
+Azure ExpressRoute n’est pas une condition requise pour obtenir la meilleure qualité Microsoft Teams qualité multimédia. Toutefois, c’est l’une des options de déploiement qui vous permettent de vous assurer que votre connectivité cloud répond aux Skype Entreprise de performances réseau et aux seuils.
   
 Microsoft 365 et Office 365 sont des services sécurisés et hautes performances qui utilisent Internet. Nous continuons d’investir dans de nouvelles fonctionnalités de sécurité et des réseaux de périmètre régionaux pour améliorer en permanence la sécurité et les performances. Azure ExpressRoute n’est pas obligatoire pour les services Microsoft 365'entreprise ou Office 365 services, Microsoft Teams. Azure ExpressRoute est l’une des options de déploiement disponibles qui vous aideront à garantir que la connectivité à Microsoft 365 ou Office 365 répond aux exigences de performances réseau d’Skype Entreprise et garantit une qualité multimédia optimale au Microsoft Teams.
   
-Pour Microsoft Teams qualité multimédia, il est important que la connexion entre les sites de votre entreprise et les réseaux de réseau de microsoft réponde aux objectifs de performance en matière de performances réseau, d’un client Skype Entreprise au réseau de réseau de bord [Microsoft,](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) et que la connexion entre vos réseaux de réseau et les réseaux de réseau de réseaux de microsoft atteint les objectifs de performance requis en matière de performances réseau, de votre réseau de réseau à celui de [Microsoft.](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)  
+Pour Microsoft Teams qualité multimédia, il est important que la connexion entre les sites de votre entreprise et les réseaux de périphérie Microsoft réponde aux objectifs de performance en matière de performances réseau, d’un client Skype Entreprise au réseau de périphérie [Microsoft,](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) et que la connexion entre vos réseaux de réseau et les réseaux de périphérie Microsoft atteint les objectifs de performance requis en matière de performances réseau, de votre réseau de réseau à celui de [Microsoft.](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)  
   
-Il est également important que la connectivité réseau physique de votre entreprise, y compris votre réseau interne et la connectivité cloud, soit adapter aux volumes des pics de trafic multimédia. Azure ExpressRoute est l’une des nombreuses solutions qui aideront les clients à garantir que leur connectivité cloud Microsoft Teams à toutes ces conditions de performances.
+Il est également important que la connectivité réseau physique de votre entreprise, notamment votre réseau interne et la connectivité cloud, soit suffisante pour prendre en charge les volumes des pics de trafic multimédia. Azure ExpressRoute est l’une des nombreuses solutions qui aideront les clients à garantir que leur connectivité cloud Microsoft Teams à toutes ces conditions de performances.
   
 ### <a name="is-expressroute-required-for-voice-quality-sla"></a>ExpressRoute est-il requis pour les SLA de qualité vocale ?
 
@@ -303,13 +303,13 @@ Si votre entreprise utilise les services Microsoft Teams de plusieurs sites de l
   
 Dans l’exemple suivant, Contoso est une agence de voyage américaine, qui possède son siège social à New York et des bureaux dans l’ensemble des États-Unis. Leurs bureaux sont interconnectés via un réseau WAN MPLS pour se connecter à Microsoft 365 ou Office 365. Ils ont initialement mis en place une connexion ExpressRoute entre leur routeur Internet situé à Hoboken, New Jersey et le site MeetMe de New York. 
   
-Avec cette configuration, le trafic réseau entre la plupart de ses sites et le réseau Microsoft (site de périphérie de New York) peut répondre aux critères de performances réseau de connexion au client Skype Entreprise décrits dans la configuration requise pour les performances réseau entre un client Skype Entreprise et le réseau de périphérie [Microsoft.](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) Toutefois, le temps de latence entre les bureaux de Contoso situés sur la côte Ouest et ceux de New York est de plus de 50 ms. De plus, honolulu est le deuxième plus grand bureau de Contoso. Le temps de latence entre Honolulu et New York est supérieur à 80 ms. Pour garantir une bonne qualité multimédia pour les utilisateurs de ces bureaux, Contoso a décidé d’ajouter une connexion ExpressRoute sur la côte Ouest entre son site de San José et le site ExpressRoute MeetMe de la Silicon Valley.
+Avec cette configuration, le trafic réseau entre la plupart de ses sites et le réseau Microsoft (site de périphérie de New York) peut répondre aux critères de performance réseau de connexion au client Skype Entreprise décrits dans la configuration requise pour les performances réseau entre un client Skype Entreprise et le réseau de périphérie [Microsoft.](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) Toutefois, le temps de latence entre les bureaux de Contoso situés sur la côte Ouest et ceux de New York est de plus de 50 ms. De plus, honolulu est le deuxième plus grand bureau de Contoso. Le temps de latence entre Honolulu et New York est supérieur à 80 ms. Pour garantir une bonne qualité multimédia pour les utilisateurs de ces bureaux, Contoso a décidé d’ajouter une connexion ExpressRoute sur la côte Ouest entre son site de San José et le site ExpressRoute MeetMe de la Silicon Valley.
   
 ![Routeur Express Multi-site sur le même continent.](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>Déploiement de Online uniquement - Plusieurs sites sur différents continents
 
-Si tous vos utilisateurs utilisent le service Microsoft Teams et si vos bureaux se trouvent dans plusieurs emplacements physiques sur plusieurs continents, si vous décidez de déployer Azure ExpressRoute, vous devez configurer au moins une connexion ExpressRoute pour chaque continent entre le site principal de chaque continent et l’emplacement d’peering [ExpressRoute](/azure/expressroute/expressroute-locations)le plus proche. Selon le rapport qualité-prix, vous pouvez choisir de déployer des connexions ExpressRoute supplémentaires à partir de sites pour lequel les objectifs de performance réseau ne sont pas atteints.
+Si tous vos utilisateurs utilisent le service Microsoft Teams et si vos sites se trouveront dans plusieurs emplacements physiques sur plusieurs continents, si vous décidez de déployer Azure ExpressRoute, vous devez configurer au moins une connexion ExpressRoute pour chaque continent entre le site principal de chaque continent et l’emplacement d’peering [ExpressRoute](/azure/expressroute/expressroute-locations)le plus proche. Selon le rapport qualité-prix, vous pouvez choisir de déployer des connexions ExpressRoute supplémentaires à partir de sites pour lequel les objectifs de performances réseau ne sont pas atteints.
   
 Dans l’exemple suivant, Contoso est un grand cabinet d’avocats qui a des bureaux dans des grandes villes d’Amérique du Nord et d’Europe. Suite à l’évaluation de leur connexion Internet et des performances de leur réseau interne, Contoso a décidé de déployer deux connexions ExpressRoute en Amérique du Nord et un circuit ExpressRoute pour tous ses bureaux européens.
   
@@ -333,7 +333,7 @@ Si vous décidez de déployer Azure ExpressRoute et la version Cloud Connector, 
   
 Si vous avez un déploiement local Microsoft Teams, vous devez suivre le Guide de [planification pour](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md)Skype Entreprise Cloud Connector Edition. Plus précisément, les services Access Edge et A/V Edge doivent avoir des adresses IP publiques et des centres de données accessibles Microsoft 365 ou Office 365 de données.
   
-Dans l’exemple suivant, Contoso est un cabinet d’experts-comptables européen qui est présent dans quelques villes et pays/villes d’Europe. Lorsqu’ils se sont connectés à Microsoft Teams pour répondre à tous leurs besoins de collaboration, ils ont décidé de mettre en place un connecteur Cloud pour chaque pays/région où ils se sont placés pour continuer à utiliser leur infrastructure RSTN et leurs contrats d’opérateur existants. Suite aux tests effectués sur tous leurs sites et sur le réseau de périphérie Microsoft, ils ont déterminé qu’une seule connexion ExpressRoute à Londres aiderait à atteindre les objectifs de performances réseau de connexion au client Microsoft Teams décrits dans les conditions de performances réseau entre un client Skype Entreprise et le réseau de périphérie [Microsoft.](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)
+Dans l’exemple suivant, Contoso est un cabinet d’experts-comptables européen qui est présent dans quelques villes et pays/villes d’Europe. Lorsqu’ils se sont connectés à Microsoft Teams pour répondre à tous leurs besoins de collaboration, ils ont décidé de mettre en place un connecteur Cloud pour chaque pays/région où ils se sont placés pour continuer à utiliser leur infrastructure RSTN et leurs contrats d’opérateur existants. Suite aux tests effectués sur l’ensemble de leurs sites et sur le réseau de périphérie Microsoft, ils ont déterminé qu’une seule connexion ExpressRoute à Londres faciliterait l’atteindre les objectifs de performances réseau de connexion au client Microsoft Teams décrits dans les conditions de performances réseau entre un client Skype Entreprise et le réseau de périphérie [Microsoft.](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)
   
 ![ExpressRoute Cloud Connector un.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   
@@ -341,7 +341,7 @@ Voici une autre option de déploiement pour Contoso. Dans ce cas, ils ont décid
   
 ![Deux ExpressRoute Cloud Connector.](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online](expressroute-and-qos-in-skype-for-business-online.md)
 

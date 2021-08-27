@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 68cc104c1e50aeac5de2a88d44b1cba4bbaa54aa
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 133142f68ae2319e4cd6a2c13145de498c740239
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548309"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
@@ -181,15 +181,18 @@ Voici les dernières versions de l salles Teams pour Android et les versions de 
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d’entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions de l’application  Microsoft Teams, du Portail d’entreprise et de l’Agent d’administration correspondantes qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit. Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.6.0.350035          | Mise à jour pour 2021 #2A    |
+| Poly Studio X50 | 3.6.0.350035        | Mise à jour pour 2021 #2A    |
+| Poly TC8 | 3.6.0.210534                 | Mise à jour pour 2021 #2A    |
 | CESSEURS DÉVELOPPENT VISION 3T |1.2.2.21182.10   | Mise à jour pour 2021 #2 |
 | AudioCodes RXV80 |1.13.361   | Mise à jour pour 2021 #2 |
 | Yealink VC210 |118.15.0.54   | Mise à jour pour 2021 #2    |
 | Barre de réunions Yealink A20 | 133.15.0.60     | Mise à jour pour 2021 #2    |
-| Barre de réunions Yealink A30 | 133.15.0.60    | Mise à jour pour 2021 #2    |
+| Yealink MeetingBar A30 | 133.15.0.60    | Mise à jour pour 2021 #2    |
 | Yealink CTP18 | 137.15.0.37    | Mise à jour pour 2021 #2    |
 | Poly Studio X30 | 3.5.0.344025          | Mise à jour pour 2021 #2    |
 | Poly Studio X50 | 3.5.0.344025        | Mise à jour pour 2021 #2    |
@@ -199,7 +202,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 | Poly TC8 | 3.3.2.286154                 | Mise à jour pour 2021 #1    |
 | Yealink VC210 |118.15.0.47     | Mise à jour pour 2021 #1    |
 | Barre de réunions Yealink A20 | 133.15.0.54     | Mise à jour pour 2021 #1    |
-| Barre de réunions Yealink A30 | 133.15.0.54     | Mise à jour pour 2021 #1    |
+| Yealink MeetingBar A30 | 133.15.0.54     | Mise à jour pour 2021 #1    |
 | Yealink CTP18 | 137.15.0.30     | Mise à jour pour 2021 #1    |
 | Yealink VC210 + CP900 | 118.15.0.42     | Mise à jour pour 2020 #3    |
 | Poly Studio X30 | 3.2.3.280012          | Mise à jour pour 2020 #3    |
@@ -219,7 +222,7 @@ Voici les versions les plus récentes Microsoft Teams’application et du microp
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d’entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions de l’application  Microsoft Teams, du Portail d’entreprise et de l’Agent d’administration correspondantes qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit. Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
@@ -238,7 +241,7 @@ Voici les dernières versions de l’Microsoft Teams Panneaux et du microprogram
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d’entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions de l’application  Microsoft Teams, du Portail d’entreprise et de l’Agent d’administration correspondantes qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit. Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
@@ -249,7 +252,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 ## <a name="more-resources"></a>Plus de ressources
 
-Consultez [Microsoft Teams l’ensemble des fonctionnalités des téléphones](phones-for-teams.md) pour obtenir des informations sur les fonctionnalités qui sont pris en charge par ces appareils.
+Consultez [Microsoft Teams l’ensemble des fonctionnalités des téléphones](phones-for-teams.md) pour plus d’informations sur les fonctionnalités qui sont pris en charge par ces appareils.
 
 Consultez [La recherche de la version du microprogramme sur un appareil mobile](phones-for-teams.md) pour déterminer la version du microprogramme de l’appareil sur votre appareil mobile.
 

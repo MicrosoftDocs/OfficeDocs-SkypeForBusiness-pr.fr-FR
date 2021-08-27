@@ -1,5 +1,5 @@
 ---
-title: Exemple de script PowerShell - Responsables d’exportation et leurs responsables
+title: Exemple de script PowerShell - Responsables de l’exportation et leurs directs
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -10,20 +10,20 @@ audience: admin
 description: Utilisez ce script PowerShell pour exporter une liste de gestionnaires et leurs directs pour votre organisation, afin de préparer la création d’une équipe pour chaque responsable avec les directs en tant que membres de l’équipe.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 120ee0fe4b0211d929722685700b3bbdbc4df2231b0bf5c9e3f53c5d423c2f75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a25e743f1f8191db8323b29bf33c3fed75261fa1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345333"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577818"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemple de script PowerShell - Responsables d’exportation et leurs responsables
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>Exemple de script PowerShell - Responsables de l’exportation et leurs directs
 
 Ce script PowerShell permet d’exporter une liste de gestionnaires et leurs directs pour votre organisation, afin de préparer la création d’une équipe de responsables pour chaque responsable, avec les directs en tant que membres de l’équipe.
 

@@ -41,7 +41,7 @@
 | 5/12/2021 | [Microsoft Teams Notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
 | 5/12/2021 | [Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
 | 5/13/2021 | [Application Talkie-walkie dans Microsoft Teams](/MicrosoftTeams/walkie-talkie) | modifié |
-| 5/13/2021 | [Contrôleurs de session en bordure certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
+| 5/13/2021 | [Contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
 | 5/13/2021 | [Configurer le contrôleur de bordure de session - Plusieurs locataires](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | modifié |
 | 5/13/2021 | [Les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | modifié |
 | 5/14/2021 | [Référence de la reconnaissance vocale et de la numérotation automatique et de la file d’attente des appels](/MicrosoftTeams/dial-voice-reference) | modifié |
@@ -84,7 +84,7 @@
 | 5/5/2021 | [Considérations relatives au mode Teams uniquement](/MicrosoftTeams/teams-only-mode-considerations) | modifié |
 | 5/5/2021 | [Considérations en rapport avec le PSTN lors de la mise à niveau vers Teams d’Skype Entreprise](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modifié |
 | 5/5/2021 | [Gérer les équipes dans le centre d’administration Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | modifié |
-| 5/5/2021 | [Expérience de conversation native pour les utilisateurs externes (fédérés) dans Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modifié |
+| 5/5/2021 | [Expérience de conversation native pour les utilisateurs externes (fédérés) au Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modifié |
 | 5/5/2021 | [Utiliser le Planificateur réseau pour Microsoft Teams](/MicrosoftTeams/network-planner) | modifié |
 | 5/5/2021 | [Planifier la gestion du cycle de vie](/MicrosoftTeams/plan-teams-lifecycle) | modifié |
 | 5/5/2021 | [Gérer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modifié |
@@ -92,7 +92,7 @@
 | 5/5/2021 | [Configurer le tableau de bord de qualité des appels](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | modifié |
 | 5/5/2021 | [Opérations pour Microsoft Teams\| Gestion du service \| Qualité](/MicrosoftTeams/upgrade-operate-my-service) | modifié |
 | 5/5/2021 | [Utiliser Advisor for Teams pour faciliter le déploiement de Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modifié |
-| 5/5/2021 | [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](/MicrosoftTeams/using-admin-roles) | modifié |
+| 5/5/2021 | [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](/MicrosoftTeams/using-admin-roles) | modifié |
 | 5/5/2021 | [Qu’est-ce que les crédits de communication ?](/MicrosoftTeams/what-are-communications-credits) | modifié |
 | 5/6/2021 | [Dimensions et mesures - Tableau de bord de qualité des appels](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modifié |
 | 5/6/2021 | [Utiliser Teams modèles dans le Centre d’administration](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | modifié |
@@ -105,11 +105,11 @@
 | 5/7/2021 | [Questions fréquentes à propos de l’audioconférence](/MicrosoftTeams/audio-conferencing-common-questions) | modifié |
 | 5/7/2021 | [Déplacer des numéros de téléphone vers Business Voice](/MicrosoftTeams/business-voice/port-phone-numbers) | modifié |
 | 5/7/2021 | [Affecter des numéros de téléphone Voix Entreprise à vos utilisateurs](/MicrosoftTeams/business-voice/set-up-assign-numbers) | modifié |
-| 5/7/2021 | [Configurer des emplacements Microsoft 365 Business d’urgence voix](/MicrosoftTeams/business-voice/set-up-emergency-locations) | modifié |
-| 5/7/2021 | [Attribuer Microsoft 365 Business licences voix](/MicrosoftTeams/business-voice/set-up-licenses) | modifié |
-| 5/7/2021 | [Configurer les numéros Microsoft 365 Business voix](/MicrosoftTeams/business-voice/set-up-phone-numbers) | modifié |
-| 5/7/2021 | [Configurer un compte Microsoft 365 Business de ressource Voix](/MicrosoftTeams/business-voice/set-up-resource-account) | modifié |
-| 5/7/2021 | [Utilisation efficace Microsoft Teams](/MicrosoftTeams/continue-journey) | modifié |
+| 5/7/2021 | [Configurer des emplacements Microsoft 365 Business Voice d’urgence](/MicrosoftTeams/business-voice/set-up-emergency-locations) | modifié |
+| 5/7/2021 | [Attribuer Microsoft 365 Business Voice licences](/MicrosoftTeams/business-voice/set-up-licenses) | modifié |
+| 5/7/2021 | [Configurer Microsoft 365 Business Voice numéros de téléphone](/MicrosoftTeams/business-voice/set-up-phone-numbers) | modifié |
+| 5/7/2021 | [Configurer un compte Microsoft 365 Business Voice ressource client](/MicrosoftTeams/business-voice/set-up-resource-account) | modifié |
+| 5/7/2021 | [Comment utiliser des Microsoft Teams efficacement](/MicrosoftTeams/continue-journey) | modifié |
 | 5/7/2021 | [Créer et gérer les plans de numérotation](/MicrosoftTeams/create-and-manage-dial-plans) | modifié |
 | 5/7/2021 | [Téléphones et appareils pour Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modifié |
 | 5/7/2021 | [Gérer les stratégies de réunion](/MicrosoftTeams/meeting-policies-in-teams) | modifié |
@@ -130,14 +130,14 @@
 | 5/7/2021 | [Préparer votre environnement pour la mise à niveau vers Teams](/MicrosoftTeams/upgrade-prepare-environment) | modifié |
 | 5/7/2021 | [Préparer votre organisation pour une mise à niveau d’Skype Entreprise à Teams](/MicrosoftTeams/upgrade-prepare-organization) | modifié |
 | 5/7/2021 | [Commencer la mise à niveau Skype Entreprise vers Teams](/MicrosoftTeams/upgrade-start-here) | modifié |
-| 5/7/2021 | [Mettre Skype Entreprise niveau vers le site Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modifié |
+| 5/7/2021 | [Mettre Skype Entreprise niveau vers une version Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | modifié |
 | 5/7/2021 | [Mettre à niveau Skype Entreprise Online vers Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | modifié |
 | 5/7/2021 | [Stratégies de mise à niveau pour les administrateurs informatiques](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | modifié |
 | 5/7/2021 | [Outils de mise à niveau Teams d’un déploiement Skype Entreprise local](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | modifié |
 | 5/7/2021 | [Vue d’ensemble de l’implémentation de votre mise à niveau vers Microsoft Teams](/MicrosoftTeams/upgrade-to-teams) | modifié |
 | 5/7/2021 | [Considérations en rapport avec le PSTN lors de la mise à niveau vers Teams d’Skype Entreprise](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | modifié |
 | 5/7/2021 | [Préparer un plan de disponibilité des utilisateurs pour la mise à niveau d’Skype Entreprise à Teams](/MicrosoftTeams/upgrade-user-readiness) | modifié |
-| 5/7/2021 | [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](/MicrosoftTeams/using-admin-roles) | modifié |
+| 5/7/2021 | [Utiliser des rôles d’administrateur de Microsoft Teams pour gérer Teams](/MicrosoftTeams/using-admin-roles) | modifié |
 
 
 ## <a name="week-of-april-26-2021"></a>Semaine du 26 avril 2021
@@ -149,7 +149,7 @@
 | 4/26/2021 | [Personnaliser les applications Microsoft dans Teams](/MicrosoftTeams/customize-apps) | modifié |
 | 4/26/2021 | [Gérer les balises dans Microsoft Teams](/MicrosoftTeams/manage-tags) | modifié |
 | 4/26/2021 | [Expérience de conversation native pour les utilisateurs externes (fédérés) dans Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modifié |
-| 4/26/2021 | [Planifier les groupes Microsoft 365 lors de la création d'équipes](/MicrosoftTeams/plan-office-365-groups) | modifié |
+| 4/26/2021 | [Planifier les groupes Microsoft 365 lors de la création d'équipes](/MicrosoftTeams/plan-office-365-groups) | modifié |
 | 4/27/2021 | [Personnaliser les applications Microsoft dans Teams](/MicrosoftTeams/customize-apps) | modifié |
 | 4/27/2021 | [Mise en service à distance et se connectez pour Teams appareils Android](/MicrosoftTeams/devices/remote-provision-remote-login) | modifié |
 | 4/27/2021 | [Carrousel Microsoft Teams](/MicrosoftTeams/microsoft-teams-online-call-flows) | modifié |
@@ -164,19 +164,19 @@
 | 4/29/2021 | [FAQ sur la gouvernance de Microsoft Éducation pour les administrateurs](/MicrosoftTeams/plan-teams-governance-edu) | modifié |
 | 4/29/2021 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
 | 4/30/2021 | [Téléphones et appareils pour Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modifié |
-| 4/30/2021 | [Acheter, configurer et activer Career Coach pour les Microsoft Teams](/MicrosoftTeams/career-coach) | ajouté |
+| 4/30/2021 | [Acheter, configurer et activer des Conseiller d’orientation pour Microsoft Teams](/MicrosoftTeams/career-coach) | ajouté |
 | 4/30/2021 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
 | 4/30/2021 | [Gérer vos applications dans le Centre Microsoft Teams’administration](/MicrosoftTeams/manage-apps) | modifié |
 | 4/30/2021 | [Affecter des numéros de téléphone Voix Entreprise à vos utilisateurs](/MicrosoftTeams/business-voice/set-up-assign-numbers) | ajouté |
 | 4/30/2021 | [Configurer un moyen de transport automatique pour le numéro de téléphone principal de votre entreprise](/MicrosoftTeams/business-voice/set-up-auto-attendant) | ajouté |
-| 4/30/2021 | [Configurer des emplacements Microsoft 365 Business d’urgence voix](/MicrosoftTeams/business-voice/set-up-emergency-locations) | ajouté |
+| 4/30/2021 | [Configurer des emplacements Microsoft 365 Business Voice d’urgence](/MicrosoftTeams/business-voice/set-up-emergency-locations) | ajouté |
 | 4/30/2021 | [Configuration terminée de Voix Entreprise](/MicrosoftTeams/business-voice/set-up-finish) | ajouté |
-| 4/30/2021 | [Attribuer Microsoft 365 Business licences voix](/MicrosoftTeams/business-voice/set-up-licenses) | ajouté |
-| 4/30/2021 | [Configurer Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/set-up-overview) | ajouté |
-| 4/30/2021 | [Configurer les numéros Microsoft 365 Business voix](/MicrosoftTeams/business-voice/set-up-phone-numbers) | ajouté |
-| 4/30/2021 | [Configurer un compte Microsoft 365 Business de ressource Voix](/MicrosoftTeams/business-voice/set-up-resource-account) | ajouté |
+| 4/30/2021 | [Attribuer Microsoft 365 Business Voice licences](/MicrosoftTeams/business-voice/set-up-licenses) | ajouté |
+| 4/30/2021 | [Configurer les Microsoft 365 Business Voice](/MicrosoftTeams/business-voice/set-up-overview) | ajouté |
+| 4/30/2021 | [Configurer Microsoft 365 Business Voice numéros de téléphone](/MicrosoftTeams/business-voice/set-up-phone-numbers) | ajouté |
+| 4/30/2021 | [Configurer un compte de Microsoft 365 Business Voice ressources client](/MicrosoftTeams/business-voice/set-up-resource-account) | ajouté |
 | 4/30/2021 | Utilisation de l’Assistant Mise en route pour configurer Business Voice | supprimé |
-| 4/30/2021 | [Que dois-je me procurer pour utiliser Microsoft 365 Business Voice avec forfait d’appels ?](/MicrosoftTeams/business-voice/what-to-buy) | modifié |
+| 4/30/2021 | [Que dois-je me procurer pour utiliser Microsoft 365 Business Voice avec forfait d’appels ?](/MicrosoftTeams/business-voice/what-to-buy) | modifié |
 
 
 ## <a name="week-of-april-19-2021"></a>Semaine du 19 avril 2021
@@ -184,7 +184,7 @@
 
 | Publié le |Titre de la rubrique | Modification |
 |------|------------|--------|
-| 4/19/2021 | [Assistance vocale Cortana dans Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modifié |
+| 4/19/2021 | [Cortana’assistance vocale dans Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | modifié |
 | 4/19/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
 | 4/19/2021 | [Téléphones et appareils pour Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | modifié |
 | 4/19/2021 | [Microsoft Teams Notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
@@ -193,7 +193,7 @@
 | 4/19/2021 | [Configurer la hiérarchie de ciblage de votre équipe](/MicrosoftTeams/set-up-your-team-hierarchy) | modifié |
 | 4/20/2021 | [Planifier le contournement de média avec un routage direct](/MicrosoftTeams/direct-routing-plan-media-bypass) | modifié |
 | 4/20/2021 | [Routage direct via le système téléphonique](/MicrosoftTeams/direct-routing-protocols-sip) | modifié |
-| 4/20/2021 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
+| 4/20/2021 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
 | 4/20/2021 | [Expérience de réunion en lecture seule](/MicrosoftTeams/view-only-meeting-experience) | modifié |
 | 4/20/2021 | Microsoft Teams Surveillance et alertes sur les appareils | supprimé |
 | 4/20/2021 | Microsoft Teams Surveillance et alerte | supprimé |
@@ -202,7 +202,7 @@
 | 4/21/2021 | [Configurer un attendant automatique pour les Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
 | 4/21/2021 | [Rapport d’activité des utilisateurs de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | modifié |
 | 4/22/2021 | [Appareils pour Teams](/MicrosoftTeams/devices/teams-ip-phones) | modifié |
-| 4/22/2021 | [Contrôleurs de session en bordure certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
+| 4/22/2021 | [Contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
 | 4/22/2021 | [Microsoft StaffHub a été retiré](/MicrosoftTeams/expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired) | modifié |
 | 4/22/2021 | [Intégration de Moodle à Microsoft Teams](/MicrosoftTeams/install-moodle-integration) | modifié |
 | 4/22/2021 | [Configurer et gérer la modération de canal](/MicrosoftTeams/manage-channel-moderation-in-teams) | modifié |
@@ -251,7 +251,7 @@
 | 4/14/2021 | [Teams expérience utilisateur dans un Microsoft 365 multigéoding](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modifié |
 | 4/14/2021 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
 | 4/14/2021 | [Configuration matérielle requise pour Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modifié |
-| 4/14/2021 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
+| 4/14/2021 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
 | 4/14/2021 | [Présence des utilisateurs dans Teams](/MicrosoftTeams/presence-admins) | modifié |
 | 4/14/2021 | [Canaux privés dans Microsoft Teams](/MicrosoftTeams/private-channels) | modifié |
 | 4/14/2021 | [Notes de publication](/MicrosoftTeams/rooms/rooms-release-note) | modifié |
@@ -270,4 +270,4 @@
 | 4/16/2021 | [Teams pour une infrastructure bureau virtualisée(VDI)](/MicrosoftTeams/teams-for-vdi) | modifié |
 | 4/16/2021 | [Présentation de Teams’enregistrement basé sur une stratégie pour les appels et & réunions](/MicrosoftTeams/teams-recording-policy) | modifié |
 | 4/16/2021 | [Dimensions et mesures - Tableau de bord de qualité des appels](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | modifié |
-| 4/16/2021 | [Installer, gérer et attribuer des autorisations pour Microsoft Microsoft Microsoft Learning (prévisualisation privée)](/MicrosoftTeams/teams-learning-app-overview) | modifié |
+| 4/16/2021 | [Installer, gérer et attribuer des autorisations à des Apprentissage Microsoft Viva (aperçu privé)](/MicrosoftTeams/teams-learning-app-overview) | modifié |

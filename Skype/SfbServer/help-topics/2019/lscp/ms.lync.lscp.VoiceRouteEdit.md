@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: ba03bf5fec71ebda8cbb65baef78847bd2ae9a6bb04b6f470cd5f84b7fd541ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cbb17b472c805bd26524f94f05fee1c7e33e3078
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597688"
 ---
-# <a name="voice-route-create-new-or-edit-existing"></a>Itinéraire des communications vocales : créer un nouveau ou modifier un itinéraire existant
+# <a name="voice-route-create-new-or-edit-existing"></a>Itinéraire des communications vocales : créer un nouveau ou modifier un itinéraire existant
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

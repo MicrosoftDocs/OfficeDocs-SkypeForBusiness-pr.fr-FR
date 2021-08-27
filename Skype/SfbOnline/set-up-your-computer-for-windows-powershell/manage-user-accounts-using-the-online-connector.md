@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Utilisez lGet-CsOnlineUser cmdlet dans Windows PowerShell pour obtenir des informations sur les utilisateurs en ligne Skype Entreprise organisation.
-ms.openlocfilehash: 943a3030c8012d56fb5082c5d85cf58aafa228b662f2b045d90c9d3ba97d80aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f5caf9df905364c078226501d880db5271db92f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590598"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Gérer les comptes d’utilisateurs à l’aide de Online Connector
 
@@ -90,7 +90,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Renvoyer des informations spécifiques pour des utilisateurs spécifiques dans Skype Entreprise Online
 <a name="BKSpecificUsers"> </a>
 
-Par défaut, la cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) renvoie une grande quantité d’informations pour chaque Skype Entreprise d’utilisateur Online. Si seul un sous-ensemble de ces informations vous intéresse, pipez les données renvoyées à l’cmdlet **Select-Object.** Par exemple, cette commande renvoie toutes les données de l’utilisateur Ken Myer, puis utilise l’cmdlet **Select-Object** pour limiter les informations affichées à l’écran au nom d’affichage AD DS de Ken et au plan de numérotation.
+Par défaut, la cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser) renvoie une grande quantité d’informations pour chaque Skype Entreprise d’utilisateur Online. Si seul un sous-ensemble de ces informations vous intéresse, pipez les données renvoyées vers l’cmdlet **Select-Object.** Par exemple, cette commande renvoie toutes les données de l’utilisateur Ken Myer, puis utilise l’cmdlet **Select-Object** pour limiter les informations affichées à l’écran au nom d’affichage AD DS de Ken et au plan de numérotation.
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -117,5 +117,5 @@ En utilisant l’cmdlet [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnline
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour la gestion de Skype Entreprise Online à l’aide d’Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

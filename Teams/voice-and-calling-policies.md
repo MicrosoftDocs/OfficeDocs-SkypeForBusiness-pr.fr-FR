@@ -9,18 +9,18 @@ ms.reviewer: ''
 search.appverid: ''
 description: Découvrez les stratégies Teams voix et d’appel.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b3cea712fee971ce441e5406bc32c1304c4a53374baf290046945595d3bea1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c5207f9bbfc7212d09394f5b507559c715e561b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335804"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577738"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>Gérer les stratégies de voix et d’appel Microsoft Teams
 
@@ -28,7 +28,7 @@ Les stratégies de voix et d’appel sont utilisées pour contrôler la voix et 
 
 ## <a name="emergency-calling-policies"></a>Stratégies d’appel d’urgence
 
-Les stratégies [d’appel d’urgence](manage-emergency-calling-policies.md) vous permet de configurer ce qui se passe lorsqu’un utilisateur de votre organisation effectue un appel d’urgence. Ces stratégies sont gérées dans le Centre Teams’administration ou à l’aide Windows PowerShell.
+Les stratégies [d’appel d’urgence](manage-emergency-calling-policies.md) vous offrent la configuration de ce qui se passe lorsqu’un utilisateur de votre organisation effectue un appel d’urgence. Ces stratégies sont gérées dans le Centre Teams’administration ou à l’aide Windows PowerShell.
 
 ![Capture d’écran de la stratégie d’appel d’urgence.](media/emergency-calling-policy2.png)
 
@@ -58,7 +58,7 @@ Une [stratégie de routage vocal](manage-voice-routing-policies.md) est un conte
 
 ## <a name="call-park-and-retrieve-policies"></a>Stratégies de parc et de récupération des appels
 
-[Le parc d’appel et la récupération](call-park-and-retrieve.md) permettent aux utilisateurs de mettre d’autres utilisateurs en attente et de permettre à ce même utilisateur ou à quelqu’un d’autre de continuer l’appel.
+[L’utilisation du parc](call-park-and-retrieve.md) et de la récupération permet aux utilisateurs de mettre d’autres utilisateurs en attente et de permettre à ce même utilisateur ou à quelqu’un d’autre de continuer l’appel.
 
 ![Capture d’écran de la stratégie de récupération et de parc d’appel.](media/call-park-policy.png)
 
@@ -68,9 +68,9 @@ Une [stratégie de routage vocal](manage-voice-routing-policies.md) est un conte
 
 ![Capture d’écran du plan de numérotation.](media/dial-plans.png)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
-* [Gérer les stratégies d’appels d’urgence Microsoft Teams](manage-emergency-calling-policies.md)
+* [Gérer les stratégies d’appel d’urgence Microsoft Teams](manage-emergency-calling-policies.md)
 * [Gérer les stratégies de routage d’appel d’urgence](manage-emergency-call-routing-policies.md)
 * [Gérer les stratégies d’ID d’appelant dans Microsoft Teams](caller-id-policies.md)
 * [Gérer les stratégies de routage vocal](manage-voice-routing-policies.md)

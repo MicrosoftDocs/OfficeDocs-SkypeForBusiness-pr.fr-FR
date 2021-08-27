@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 'Résumé : Découvrez comment configurer l’cdr et la qualité de l’Skype Entreprise Server.'
-ms.openlocfilehash: 7c7cd1efefb2cfc52e6cf40d3b78cbc87774b40db4e4d2b012e79d1f657994cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e04ac3fcf269ba9520e874e123f165f2fd4269a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604233"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurer les paramètres d’enregistrement des détails des appels et de qualité de l’expérience dans Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Configurez la surveillance CDR et QoE à l’aide SQL Server Reporting Services 
   
 ## <a name="configure-cdr-and-qoe"></a>Configurer l’cdr et QoE
 
-Après avoir associé un magasin d’analyse à un pool frontal, configurez le magasin d’analyse, puis installez et configurez SQL Server Reporting Services et rapports de surveillance, vous pouvez gérer la surveillance de l’enregistrement des détails des appels et de la qualité de l’expérience (QoE) à l’aide de Skype Entreprise Server Management Shell. Skype Entreprise Server Les cmdlets Management Shell vous permettent d’activer et de désactiver la surveillance CDR et/ou QoE pour un site particulier ou pour l’ensemble de Skype Entreprise Server déploiement ; vous pouvez le faire avec une commande aussi simple que celle-ci :
+Une fois que vous avez associé un magasin d’analyse à un pool frontal, configurez le magasin d’analyse, puis installez et configurez SQL Server Reporting Services et les rapports de surveillance, vous pouvez gérer la surveillance de l’enregistrement des détails des appels et de la qualité de l’expérience (QoE) à l’aide de Skype Entreprise Server Management Shell. Skype Entreprise Server Les cmdlets Management Shell vous permettent d’activer et de désactiver la surveillance CDR et/ou QoE pour un site particulier ou pour l’ensemble de Skype Entreprise Server déploiement ; vous pouvez le faire avec une commande aussi simple que celle-ci :
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
@@ -50,7 +50,7 @@ De même, les valeurs par défaut pour les paramètres de la qualité de l’exp
 |EnablePurging  <br/> |Indique si les enregistrements QoE doivent être périodiquement supprimés de la base de données. Si la valeur est True, les enregistrements sont supprimés après la période spécifiée par la propriété KeepQoEDataForDays. Si la valeur est False, les enregistrements QoE sont conservés indéfiniment.  <br/> |Vrai  <br/> |
 |KeepQoEDataForDays  <br/> |Indique le nombre de jours durant lesquels les enregistrements QoE sont conservés dans la base de données. Tout enregistrement plus ancien que le nombre de jours spécifié est automatiquement supprimé. Mais pour cela, la purge doit être activée.  <br/> KeepCallDetailForDays peut être défini sur n’importe quelle valeur entière comprise entre 1 et 2562 jours.  <br/> |60 jours  <br/> |
    
-Si vous devez modifier ces paramètres globaux, vous pouvez pour cela utiliser les applets de commande Set-CsCdrConfiguration et Set-CsQoEConfiguration. Par exemple, cette commande (exécuté à partir de l’environnement de Skype Entreprise Server Management Shell) désactive la surveillance cdR au niveau de l’étendue globale . Pour ce faire, la propriété EnableCDR a la valeur False ($False) :
+Si vous devez modifier ces paramètres globaux, vous pouvez pour cela utiliser les applets de commande Set-CsCdrConfiguration et Set-CsQoEConfiguration. Par exemple, cette commande (exécuté à partir de Skype Entreprise Server Management Shell) désactive la surveillance cdR au niveau de l’étendue globale . Pour ce faire, la propriété EnableCDR a la valeur False ($False) :
   
 ```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $False

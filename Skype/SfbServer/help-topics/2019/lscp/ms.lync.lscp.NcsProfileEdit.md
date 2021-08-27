@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 6adcd287ff7a008d8d3e793b77edee2cdd2a3fbff58cf12926cae31789a8b6ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e5fcb121515d7565e386b3c2ac86285217809e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301770"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597698"
 ---
-# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Profil de stratégie de bande passante : création d’un nouveau ou modification d’un profil existant
+# <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Profil de stratégie de bande passante : création d’un nouveau ou modification d’un profil existant
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

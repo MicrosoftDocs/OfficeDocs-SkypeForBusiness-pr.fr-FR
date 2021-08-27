@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cet article décrit l’utilisation de l’outil de récupération pour Salles Microsoft Teams, que vous utiliseriez pour mettre un système hors limites à l’état pris en charge.
-ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b5f61ef3ebfc1ef08a1db6667159ff97c2cdd78
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280689"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597578"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utiliser l’outil de récupération de Microsoft Teams Rooms
 
@@ -26,10 +26,10 @@ Cet article décrit l’utilisation de l’outil de récupération pour Salles M
 
 ## <a name="prerequisites"></a>Conditions préalables
 
-Téléchargez le [package d Salles Microsoft Teams d’installation](https://go.microsoft.com/fwlink/?linkid=851168) le plus récent et extrayez-le sur une clé USB ou un partage réseau accessible à Salles Microsoft Teams appareil.
+Téléchargez le package [d Salles Microsoft Teams d’installation](https://go.microsoft.com/fwlink/?linkid=851168) le plus récent et extrayez-le sur une clé USB ou un partage réseau accessible à l Salles Microsoft Teams appareil.
 
 > [!NOTE]
-> L’extraction des fichiers du fichier MSI peut être réalisée par plusieurs moyens. Tout mécanisme qui extrait tous les fichiers et préserve leur structure d’annuaire est acceptable. Une de ces manières consiste à utiliser la commande qui représente le chemin d’accès complet au package d’installation de Microsoft Teams Room et représente le chemin d’accès complet au dossier dans lequel vous souhaitez extraire les `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` fichiers.
+> L’extraction des fichiers du fichier MSI peut être réalisée par de nombreux moyens. Tout mécanisme qui extrait tous les fichiers et préserve leur structure d’annuaire est acceptable. Une de ces manières consiste à utiliser la commande qui représente le chemin d’accès complet au package d’installation de Microsoft Teams Room et représente le chemin d’accès complet au dossier dans lequel vous souhaitez extraire les `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` fichiers.
 
 ## <a name="running-the-tool"></a>Exécution de l’outil
 

@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Résumé : Découvrez comment créer, publier et exporter votre topologie de serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: da0ec9709f53e22122a911015e94484fc673c6741ba5122fa796e7dded0105b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322466"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584348"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Créer votre topologie Edge pour Skype Entreprise Server
  
@@ -85,7 +85,7 @@ Si vous n’êtes pas sûr de ce dont vous avez besoin, avant de commencer à su
     
    - Activer IPv6 sur l’interface externe
     
-   Ces éléments sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 10). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool de serveurs Edge pour utiliser une adresse NAT (Network Address Translation) pour l’adresse IP externe. Pour ce faire, cochez la case NAT pour sélectionner l’adresse IP externe de ce **pool edge.** Cliquez **sur Suivant** lorsque vous êtes prêt.
+   Ces éléments sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 10). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool edge pour utiliser une adresse NAT (Network Address Translation) pour l’adresse IP externe. Pour ce faire, cochez la case NAT pour sélectionner l’adresse IP externe de ce **pool edge.** Cliquez **sur Suivant** lorsque vous êtes prêt.
     
 9. Dans l’écran Des FQDN externes, vos choix dépendent de la sélection que vous avez faite à l’étape 7 ci-dessus.
     
@@ -147,7 +147,7 @@ Si vous n’êtes pas sûr de ce dont vous avez besoin, avant de commencer à su
     
    - Activer IPv6 sur l’interface externe
     
-     Elles sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 11). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool de serveurs Edge pour utiliser une adresse NAT (Network Address Translation) pour l’adresse IP externe. Pour ce faire, cochez la case NAT pour sélectionner l’adresse IP externe de ce **pool edge.** Cliquez **sur Suivant** lorsque vous êtes prêt.
+     Elles sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 11). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool edge pour utiliser une adresse NAT (Network Address Translation) pour l’adresse IP externe. Pour ce faire, cochez la case NAT pour sélectionner l’adresse IP externe de ce **pool edge.** Cliquez **sur Suivant** lorsque vous êtes prêt.
     
 9. Dans l’écran Des FQDN externes, vos choix dépendent de la sélection que vous avez faite à l’étape 7 ci-dessus.
     
@@ -218,7 +218,7 @@ Si vous n’êtes pas sûr de ce dont vous avez besoin, avant de commencer à su
      Elles sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 11).
     
      > [!NOTE]
-     > Contrairement aux deux autres options de topologie, lorsque  vous utilisez un équilibreur de charge matérielle, vous ne devez PAS sélectionner l’option L’adresse IP externe du **pool de** périphérie est traduite par NAT . Cela **n’est pas pris en charge.**
+     > Contrairement aux deux autres options de topologie, lorsque  vous utilisez un équilibreur de charge matérielle, vous NE DEVEZ PAS sélectionner l’option L’adresse IP externe du **pool edge** est traduite par NAT . Cela **n’est pas pris en charge.**
   
 9. Dans l’écran Des FQDN externes, vos choix dépendent de la sélection que vous avez faite à l’étape 7 ci-dessus.
     

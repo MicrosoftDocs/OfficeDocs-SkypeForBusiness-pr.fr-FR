@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'La migration de l’application de parcage d’appel inclut la mise en service du pool Skype Entreprise Server 2019 avec tous les fichiers d’attente musicale personnalisés qui ont été téléchargés dans l’installation héritée, la restauration des paramètres de niveau de service et le retargeting de toutes les orbites de parcage d’appel vers le pool Skype Entreprise Server 2019. Si des fichiers d’attente musicale personnalisés ont été configurés dans le pool, ces fichiers doivent être copiés dans le nouveau pool Skype Entreprise Server 2019. En outre, il est recommandé de sauvegarder tous les fichiers d’attente musicale personnalisés du parcement d’appel à partir d’une autre destination afin de conserver une copie de sauvegarde distincte des fichiers d’attente musicale personnalisés qui ont été téléchargés pour le parcement d’appel. Les fichiers d’attente musicale personnalisée de l’application de parcage d’appel sont stockés dans le magasin de fichiers du pool. Pour copier les fichiers audio d’un magasin de fichiers de pool vers un magasin de fichiers Skype Entreprise Server 2019, utilisez la commande Xcopy avec les paramètres suivants :'
-ms.openlocfilehash: f83e1095361ddd272a35bf9100171c0d06caf003dfae84f19c01b2aa53de7977
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8d2c5a898ca9ce4c2c1e8be4b9cbf3e7355a8cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312322"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597538"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migration des paramètres d’application de parcage d’appel
 

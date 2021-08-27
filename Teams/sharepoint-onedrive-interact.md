@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
 description: SharePoint & OneDrive interaction avec les Teams ; stockage de fichiers de conversation privée & interaction entre l’équipe, le canal standard et & bibliothèque de documents.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - SPO_Content
@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b47ca7c1c0a9a5154f681a8e09d175ba17ad8013
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: 00296ddb8de58d01880ce951a11688c50bf8de41
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359191"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577778"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Interaction entre SharePoint et les OneDrive interactions entre Microsoft Teams
 
@@ -53,9 +53,9 @@ Les paramètres SharePoint de site et de bibliothèque de documents par défaut 
 
 Pour chaque utilisateur, le dossier OneDrive **Fichiers de conversation Microsoft Teams** est utilisé pour stocker tous les fichiers partagés dans les conversations avec d'autres utilisateurs (en tête-à-tête ou de groupe), avec les autorisations configurées pour limiter l'accès aux utilisateurs concernés uniquement.
 
-![Diagramme du dossier OneDrive nommé Microsoft Teams Fichiers de conversation](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Diagramme du dossier OneDrive nommé Microsoft Teams de conversation](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
-Notez que pour les équipes publiques, SharePoint site d’équipe est mis en service avec l’accès « Tout le monde sauf les utilisateurs externes ». L’équipe publique ne s’affiche pas dans Teams pour les personnes qui ne sont pas membres de cette équipe. Toutefois, ils peuvent accéder au contenu du site d SharePoint d’équipe à l’aide de l’URL SharePoint site d’équipe. 
+Notez que pour les équipes publiques, SharePoint site d’équipe est mis en service avec l’accès « Tout le monde sauf les utilisateurs externes ». L’équipe publique ne s’affiche pas dans Teams pour les personnes qui ne sont pas membres de cette équipe. Toutefois, ils peuvent accéder au contenu du site d SharePoint’équipe à l’aide de l’URL SharePoint site d’équipe. 
 
 ## <a name="channel-files-tab"></a>Onglet Fichiers de canal
 
@@ -65,7 +65,7 @@ Notez que pour les équipes publiques, SharePoint site d’équipe est mis en se
 - Synchronisez des fichiers sur leur disque local.
 - Dans le menu **Tous les documents,** passez de l’affichage de liste à l’affichage **de liste** compacté **à l’affichage vignettes.** 
 - Identifiez les fichiers qui ont besoin d’être identifiés ou qui contiennent des programmes malveillants.
-- Voir immédiatement si un fichier est en lecture seule ou extrait.
+- Découvrez immédiatement si un fichier est en lecture seule ou extrait.
 - Consultez et archivez des fichiers.
 - Épingler, désépiner et modifier l’ordre de tri des fichiers.
 - Identifier les fichiers qui ont besoin de métadonnées
@@ -75,12 +75,12 @@ Notez que pour les équipes publiques, SharePoint site d’équipe est mis en se
 
 ## <a name="default-link-type-setting"></a>Paramètre du type de lien par défaut
 
-Type de lien de partage affiché par défaut lorsqu’un utilisateur a partagé un fichier est SharePoint centre d’administration. Voir [Modifier le type de lien par défaut lorsque les utilisateurs obtiennent des liens de partage pour](/sharepoint/change-default-sharing-link) plus d’informations.
+Le type de lien de partage affiché par défaut lorsqu’un utilisateur a partagé un fichier est SharePoint centre d’administration. Voir [Modifier le type de lien par défaut lorsque les utilisateurs obtiennent des liens de partage pour](/sharepoint/change-default-sharing-link) plus d’informations.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer Teams sites connectés et des sites de canaux](/SharePoint/teams-connected-sites)
 
-[SharePoint et Teams la collaboration .](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
+[SharePoint et Teams la collaboration.](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)
 
 [À quoi ressemble l’expérience des invités](guest-experience.md)

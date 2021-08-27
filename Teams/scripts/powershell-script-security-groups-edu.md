@@ -10,19 +10,19 @@ audience: admin
 description: Utilisez ce script PowerShell pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies Teams pour les enseignants et les étudiants de votre établissement scolaire.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1108e47500ce127adb780b1f40af5973cef04f873267002bbf87b1b8e69e4cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cb1f40d79c25b7e0832c5d1576427b83ba980b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577808"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>Exemple de script PowerShell - Créer des groupes de sécurité pour les enseignants et les étudiants de votre établissement scolaire
 
@@ -33,7 +33,7 @@ Ce script PowerShell crée deux groupes de sécurité, un pour le personnel et l
 Ce script suit :
 
 - Identifie le personnel et les enseignants affectés à une référence SKU pour les enseignants, crée un groupe de sécurité, puis ajoute le personnel et les enseignants au groupe.
-- Identifie les étudiants à qui une référence SKU est attribuée, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
+- Identifie les étudiants affectés à une référence SKU étudiant, crée un groupe de sécurité, puis ajoute les étudiants au groupe.
 - Met à jour l’appartenance à chaque groupe de sécurité pour ajouter ou supprimer du personnel, des enseignants et des étudiants en fonction de leur licence.
 
 Vous devrez exécuter ce script régulièrement pour maintenir les groupes de sécurité à jour.
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Attribuer des stratégies à vos utilisateurs](../assign-policies.md)

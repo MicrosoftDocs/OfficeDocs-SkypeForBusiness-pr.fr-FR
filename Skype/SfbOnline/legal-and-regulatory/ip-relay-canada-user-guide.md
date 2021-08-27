@@ -12,19 +12,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Comment utiliser un compte relais IP pour le Canada.
-ms.openlocfilehash: ac3ac8b480f1759437fa74572544d85f17542e9288c925ebd07bfaea9a25e0de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618260"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>Relais IP au Canada - guide de l’utilisateur
 
@@ -35,14 +35,14 @@ Description du service relais de messages IP de Microsoft :
 ## <a name="scenario-a"></a>Scénario A
 Si une personne malentendante ou malentendante souhaite contacter une personne non atteinte, elle « discute » par le biais d’un client web spécial appelé « Appelant ».
 
-Le télécondentateur communique ensuite avec la personne malentendante ou malentendante par le biais de la session de conversation et contacte la personne non atteinte par le biais du réseau téléphonique, n’importe où au Canada ou aux États-Unis, selon les besoins.
+Il communique ensuite avec la personne malentendante ou malentendante par le biais de la session de conversation et contacte la personne non atteinte par le biais du réseau téléphonique, n’importe où au Canada ou aux États-Unis, selon les besoins.
 
 ## <a name="scenario-b"></a>Scénario B
 Si une personne non atteinte souhaite parler à un utilisateur malentendant ou malentendant inscrit, elle appelle le numéro gratuit fourni par Microsoft.
 
 Il communique ensuite avec la personne non atteinte et contacte la personne malentendante ou malentendante par le biais d’une conversation, et communique avec elle.
 
-La personne malentendante ou malentendante ne doit-elle pas être en ligne dans le programme de conversation; si une adresse de messagerie est disponible, la personne appelant enverra un courrier électronique à la personne malentendante ou malentendante, si elle le demande.
+La personne malentendante ou malentendante ne doit-elle pas être en ligne dans le programme de conversation ; si une adresse de messagerie est disponible, la personne en question enverra un courrier électronique à la personne malentendante ou malentendante, si elle le demande.
 
 ## <a name="scenario-c"></a>Scénario C
 Si une personne malentendante ou malentendante nécessite une assistance d’urgence, elle peut sélectionner le bouton approprié : 911 – Police / 911 – Feu / 911 – Qu’est-ce que c’est ?
@@ -63,7 +63,7 @@ Une fois connecté, les instructions s’affichent sur le côté gauche de l’�
 3. Dans la partie inférieure de la nouvelle zone qui apparaît, tapez votre message.
 
 ### <a name="how-to-receive-a-voice-to-text-call"></a>Comment recevoir un appel de voix à texte :
-- Les utilisateurs voix doivent connaître votre nom d’utilisateur de relais de message IP pour passer un appel de voix à texte.
+- Les utilisateurs voix doivent connaître votre nom d’utilisateur de relais de message IP afin de passer un appel de voix à texte.
 - Les utilisateurs Voix peuvent appeler le (866) 660-8613 pour se connecter avec un opérateur de relais de messages IP.
 - Vous devez être connecté au portail Relais de messages IP pour recevoir des appels ou des conversations.
 
@@ -83,7 +83,7 @@ Contactez les projets spéciaux à [l specialprojects@northern911.com](mailto:sp
 > [!IMPORTANT]
 > Northern911 gère le service de relais IP pour le compte de Microsoft.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Relais IP au Canada - inscription](ip-relay-canada-email-signup.md)
 

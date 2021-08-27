@@ -10,19 +10,19 @@ search.appverid: MET150
 ms.reviewer: anwara
 description: Découvrez comment fonctionne l’authentification moderne, comment changer de compte et comment résoudre les problèmes liés à l’authentification moderne. Inclut comment demander à Teams d'ignorer le pré-remplissage du nom de l'utilisateur (UPN) à l’ouverture de session.
 ms.custom: seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8f77e1050e90821f8d99996022b4c97042a5f63
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 4f259b77e5d572adde2dcaea1eb4ffb0555ae36c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577828"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 

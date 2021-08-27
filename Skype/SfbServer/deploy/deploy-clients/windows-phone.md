@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Résumé : Découvrez comment installer et tester des Skype Entreprise sur votre Windows Phone.'
-ms.openlocfilehash: bbb1947ac1982b54ab8cd2e0005cdf4c7aec62ff69e88f8f32df881616c7d11f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f912c1f5bd3c0bd5f8c3cc553c64ee3b7850f63e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338862"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618150"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Installer et tester les Skype Entreprise pour Windows Phone
  
@@ -43,13 +43,13 @@ Avant d’orienter les utilisateurs de votre organisation vers le téléchargeme
     
      Votre nom d’utilisateur et une adresse de connexion peuvent vous être demandés. Le nom d’utilisateur est ce que vous utilisez pour vous connectez au réseau de votre organisation, user@domain.com ou domaine \nom d’utilisateur.
     
-3. Dans **l’écran** Programme d’amélioration du produit, appuyez sur Rejoindre  pour envoyer des données anonymes sur les problèmes d’application et l’utilisation à Microsoft, ou Non merci si vous préférez ne pas participer. 
+3. Dans **l’écran** Du Programme  d’amélioration du produit, appuyez sur  Rejoindre pour envoyer des données anonymes sur les problèmes d’application et l’utilisation à Microsoft, ou Non merci si vous préférez ne pas participer.
     
 4. Dans **l’écran Ne manquez pas vos appels de** travail, entrez votre numéro de téléphone mobile avec des codes de pays et de région. Lorsque Skype Entreprise pour Windows Phone ne peut pas utiliser un réseau de données Wi-Fi ou cellulaire pour effectuer un appel audio ou vidéo, vous êtes automatiquement appelé à ce numéro et connecté à la partie audio de l’appel.
     
 5. Appuyez **sur Suivant** et examinez les paramètres d’accès de notification et de phonébook :
     
-   - **Notifications Push** Recevez une alerte lorsque vous recevez un nouveau messagerie instantanée ou un nouvel appel. Normalement **on** (recommandé).
+   - **Notifications Push** Recevez une alerte lorsque vous recevez un nouveau messagerie instantanée ou un nouvel appel. Normalement **sur** (recommandé).
     
      > [!IMPORTANT]
      > Si vous activez ce paramètre, vous n’êtes pas averti des E-S, des appels ou d’autres Skype Entreprise pour Windows Phone de messagerie unifiée, sauf si l’application est active. 

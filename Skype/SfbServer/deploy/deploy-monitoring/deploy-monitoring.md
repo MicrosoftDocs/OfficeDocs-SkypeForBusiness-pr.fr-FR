@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Résumé : Découvrez comment déployer la surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: 84f1662fc13922ef4d0d146950ecb9ddd25c8b46707baf7c0cf7c9331d6ab37c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c05cddb344f97b066d8d6ea0121cb5942c59d131
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298574"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604213"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Déployer la surveillance dans Skype Entreprise Server
 

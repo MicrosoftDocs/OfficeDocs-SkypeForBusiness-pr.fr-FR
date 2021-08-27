@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: 'Découvrez ce qu’est la validation d’adresse, pourquoi cela est important et son lien avec les adresses et services d’urgence. '
-ms.openlocfilehash: 7d23f8e3449d3cd1b4dbc903855a875d0b8362b257bab4d264bebeea8319ee73
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1f8fb0963e70ea7a31b6a99d9a83d0b91f1909a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340260"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604243"
 ---
 # <a name="what-is-address-validation"></a>Qu’est-ce que la validation d’adresse ?
 

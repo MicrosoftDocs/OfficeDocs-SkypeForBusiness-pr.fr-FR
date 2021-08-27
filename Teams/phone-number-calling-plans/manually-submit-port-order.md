@@ -12,18 +12,18 @@ ms.collection: M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: Découvrez comment envoyer manuellement une demande de demande de port.
-ms.openlocfilehash: 13732092921951ee60749e91f4963942f31cb9c45211a0d66cbd9b6f688d220a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5313e7f19554c3c4a82514a247b1bb81b589b5a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276140"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577938"
 ---
 # <a name="manually-submit-a-port-order"></a>Envoyer manuellement une demande de transfert
 
@@ -45,7 +45,7 @@ Pour envoyer manuellement une nouvelle demande de port, envoyez votre formulaire
 
 - Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Consultez [Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

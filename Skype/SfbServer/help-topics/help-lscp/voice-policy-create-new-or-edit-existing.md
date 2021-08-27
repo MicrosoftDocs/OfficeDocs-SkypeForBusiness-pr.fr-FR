@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoicePolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 9d40f3eaf05e9b4208fde22bde7f560c244732d6489b55e32dcdcd4f66b0d46a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58c753e38f56714d6a5a02b8b487a3ef5e2b120e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625266"
 ---
-# <a name="voice-policy-create-new-or-edit-existing"></a>Stratégie de la voix : créer une nouvelle ou modifier la stratégie existante
+# <a name="voice-policy-create-new-or-edit-existing"></a>Stratégie de la voix : créer une nouvelle ou modifier la stratégie existante
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

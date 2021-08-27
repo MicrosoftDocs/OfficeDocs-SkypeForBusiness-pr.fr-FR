@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation mais qui ne sont pas attribués à un utilisateur ou un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
-ms.openlocfilehash: 9dbb95d66fda093d8a094e92a84201b12a3baa6f2b454a75e2e3f7ab7b90a37c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1924b6502bac9d15aa328efd9a160701ca74f56e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280159"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625466"
 ---
 # <a name="unassigned-phone-number"></a>Numéro de téléphone non attribué
 
@@ -59,16 +59,16 @@ La liste suivante décrit les commandes de la page.
 - **Monter** Déplace la plage de numéro non spécifiés sélectionnée vers le haut dans la liste afin que Skype Entreprise Server la trouve plus tôt et applique l’action spécifiée avant d’appliquer les actions spécifiées pour les autres plages de la liste.
 
     > [!NOTE]
-    > Skype Entreprise Server recherche de haut en bas la table des nombres non assignés et utilise la première plage qui correspond au numéro non assigné. Par exemple, si une plage spécifie une action de dernier recours, assurez-vous qu’elle se trouve en bas de la liste.
+    > Skype Entreprise Server recherche de haut en bas dans la table des chiffres non signés et utilise la première plage qui correspond au numéro non assigné. Par exemple, si une plage spécifie une action de dernier recours, assurez-vous qu’elle se trouve en bas de la liste.
 
-- **Déplacer vers le bas** Déplace la plage de numéro non signés sélectionnée vers le bas dans la liste.
+- **Déplacer vers le bas** Déplace la plage de numéro non assignés sélectionnée vers le bas dans la liste.
 
 - **Valider tout** Enregistre toutes les modifications que vous avez apportées aux plages de numéro non assignés.
 
     > [!IMPORTANT]
     > Cette commande enregistre toutes les modifications que vous avez effectuées dans la page **Nouveau numéro non attribué** et dans la page **Modifier le numéro non attribué**.
 
-- **Actualiser** Actualise la liste des plages de numéro non assignées.
+- **Actualiser** Actualise la liste des plages de nombres non résignés.
 
 La liste suivante décrit les champs de la page.
 

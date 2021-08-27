@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Si vous avez déployé des serveurs Edge et que vous devez fournir des services multimédias pour une utilisation externe, choisissez le serveur Edge ou le pool qui sera associé au Survivable Branch Appliance ou au Serveur Survivable Branch Server en le sélectionnant dans la liste de listes. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: eaaebf18bcee74dc822df4972df5d63cfb3d3954684765e1a365b555092b5be4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2082e7bed462ab1c527d0ffce3190c79d70085be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309833"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584138"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Associer un Branch Office Appliance à un serveur Edge
  

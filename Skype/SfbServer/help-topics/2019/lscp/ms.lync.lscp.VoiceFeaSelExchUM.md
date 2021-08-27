@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner le standard automatique de la messagerie unifiée Exchange pour sélectionner un standard automatique de la messagerie unifiée Exchange qui gèrera les appels entrants destinés à une plage de numéros non attribués.
-ms.openlocfilehash: d45cc16aca48afcd772114a96e5d0798b784336b088676ed822c233c8e7612d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06976c1e6652f808623971cf2282e72c55f6d13f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577968"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Sélectionner le standard automatique de la messagerie unifiée Exchange
 

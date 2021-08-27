@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfMeetingPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs au cours d’une conférence (également appelée réunion).
-ms.openlocfilehash: a0acc18e27942c9a7b7c1198ee8372e47bd8fb79d34e3f94320cde441331e2bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 28a417e6fbaa0dc90a4631f85ce69d1689c915ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342279"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584118"
 ---
 # <a name="conferencing-policy"></a>Stratégie de conférence
 
@@ -71,10 +71,10 @@ La liste suivante décrit les champs de la page.
 
 - **Audio** Cette vérification est vérifiée si la stratégie de conférence spécifie que l’audio est autorisé dans les conférences.
 
-- **Vidéo** Vérifié si la stratégie de conférence spécifie que la vidéo est autorisée dans les conférences.
+- **Vidéo** Cette vérification est vérifiée si la stratégie de conférence spécifie que la vidéo est autorisée dans les conférences.
 
 - **PSTN** Cette vérification indique si la stratégie de conférence indique que la conférence d’accès PSTN est autorisée.
 
-- **Enregistrement** Vérifié si la stratégie de conférence spécifie que l’enregistrement est autorisé dans les conférences.
+- **Enregistrement** Cette vérification indique si la stratégie de conférence spécifie que l’enregistrement est autorisé dans les conférences.
 
 Pour plus d’informations sur les fonctionnalités de conférence, voir [Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) dans la documentation de planification. Pour plus d’informations sur l’utilisation des stratégies de conférence, voir [Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) dans la documentation des opérations.

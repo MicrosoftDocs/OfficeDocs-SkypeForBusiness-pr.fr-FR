@@ -14,22 +14,22 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 description: Configurer l’analyse des appels par utilisateur afin d’identifier et de résoudre les Microsoft Teams de qualité des appels.
-ms.openlocfilehash: 968a4c06d4b1be1384303241d0eb6b45721e833560d46169acf96caa1f18a576
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c19a5b05027bd9d2aa0fd8d3a6c8599c30ae54cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597568"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Configurer l’analyse des appels pour Microsoft Teams
 
-En tant qu Microsoft Teams utilisateur, vous pouvez utiliser les analyses des appels par utilisateur pour résoudre les problèmes Teams de qualité des appels et de connexion pour **les utilisateurs individuels.** Pour tirer pleinement parti de l’analyse des appels, définissez les informations suivantes :
+En tant qu Microsoft Teams utilisateur, vous pouvez utiliser l’analyse des appels par utilisateur pour résoudre les problèmes Teams de qualité des appels et de connexion pour **les utilisateurs individuels.** Pour tirer pleinement parti de l’analyse des appels, définissez les informations suivantes :
   
 - Attribuez des rôles de support spécialisés aux personnes, telles que les agents du support technique, pour leur permettre d’afficher les données d’analyse des appels pour les utilisateurs. Ces rôles de support ne peuvent pas accéder au reste du Teams d’administration. 
     
@@ -37,11 +37,11 @@ En tant qu Microsoft Teams utilisateur, vous pouvez utiliser les analyses des ap
     
 Lorsque vous êtes prêt à utiliser l’analyse des appels par utilisateur, lisez Utiliser l’analyse des appels par utilisateur pour résoudre les problèmes de [qualité des appels.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
   
-## <a name="give-permission-to-support-and-helpdesk-staff"></a>Accorder l’autorisation au personnel de support technique et de support technique
+## <a name="give-permission-to-support-and-helpdesk-staff"></a>Accorder l’autorisation au personnel de support et au support technique
 
 En tant qu Teams administrateur de services, vous avez un accès complet aux informations d’analyse des appels pour tous les utilisateurs. Nous avons créé des rôles de Azure Active Directory spécialisés que vous pouvez affecter au personnel de support et aux agents du support technique pour leur permettre également d’accéder aux analyses des appels par utilisateur (sans avoir accès au reste du Centre d’administration Teams). Affectez le **rôle de spécialiste Teams du support** aux communications aux utilisateurs qui doivent avoir un affichage limité de l’analyse des appels par utilisateur (support au niveau 1). Attribuez le **rôle Teams support** aux communications aux utilisateurs qui ont besoin d’un accès total à l’analyse des appels par utilisateur (support de niveau 2). Aucun rôle n’a accès au reste du Centre d’Teams’administration.
 
-Pour savoir ce que font chacun de ces rôles, lisez ce que Teams [rôle support fait-il](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)?
+Pour savoir ce que fait chacun de ces rôles, lisez ce que fait [Teams rôle de support technique](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)?
 
 Pour plus d’informations sur Teams rôles d’administrateur, voir Utiliser Teams rôles d’administrateur [pour gérer Teams.](using-admin-roles.md) Pour découvrir comment attribuer des rôles d’administrateur dans Azure Active Directory, voir [Afficher et attribuer des rôles dans Azure Active Directory.](/Azure/active-directory/users-groups-roles/directory-manage-roles-portal)
 
@@ -59,8 +59,8 @@ Si vous êtes un administrateur Teams ou Skype Entreprise, vous pouvez utiliser 
   
 Si vous créez le fichier .tsv ou .csv à partir de zéro, consultez les informations relatives Télécharger [client et à la création.](CQD-upload-tenant-building-data.md)
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
-[Utiliser les données d’analyse des appels par utilisateur pour résoudre les problèmes de qualité des appels médiocres](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Utiliser les données d’analyse des appels par utilisateur pour résoudre les problèmes de qualité des appels](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Résolution des problèmes de Teams](/MicrosoftTeams/troubleshoot/teams)
