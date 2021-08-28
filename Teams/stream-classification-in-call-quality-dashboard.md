@@ -14,22 +14,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 description: Découvrez comment la qualité du flux est classée dans le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online.
-ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505422"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598338"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Classification des flux dans le tableau de bord de qualité des appels
 
-Le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide des services Microsoft Teams et Skype Entreprise’appels. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le tableau de bord de qualité des appels et découvrir comment le configurer, voir [Configurer le tableau de bord de qualité des appels.](turning-on-and-using-call-quality-dashboard.md)
+Le tableau de bord de qualité des appels pour Microsoft Teams et Skype Entreprise Online vous permet d’obtenir des informations sur la qualité des appels effectués à l’aide des services Microsoft Teams et Skype Entreprise’appels. Cette rubrique fournit des informations détaillées sur la classification de qualité des flux de médias. Pour en savoir plus sur le tableau de bord de qualité des appels et découvrir comment le configurer, voir Configurer le tableau de [bord de qualité des appels.](turning-on-and-using-call-quality-dashboard.md)
 
 ## <a name="classifier-definitions"></a>Définitions du classificateur
 
@@ -41,7 +41,7 @@ Si une ou plusieurs des conditions suivantes sont remplies, un flux audio est ma
 
 |Mesure|Scénario|Condition|Explication|
 |:-----|:-----|:-----|:-----|
-|Round Trip|ALL|> 500|Durée moyenne de propagation sur le réseau de l’aller-retour, calculée en millisecondes. Détails disponibles dans [le RFC3550.](https://tools.ietf.org/html/rfc3550)|
+|Round Trip|ALL|> 500|Durée moyenne de propagation sur le réseau d’aller-retour, calculée en millisecondes. Détails disponibles dans [le RFC3550.](https://tools.ietf.org/html/rfc3550)|
 |Packet Loss Rate|ALL|> 0,1|Taux moyen de perte de paquets pour le flux.|
 |Jitter|ALL|> 30|Gigue moyenne pour le flux, en millisecondes.|
 ||||
@@ -68,7 +68,7 @@ Un flux vidéo est marqué comme _Bon_ ou _Médiocre_ en fonction de la valeur d
 
 ### <a name="vbss-classifier"></a>Classificateur VBSS
 
-Un flux VBSS  est  marqué comme Bon ou Médiocre selon la valeur de la première métrique disponible dans l’ordre suivant :
+Un flux VBSS  est  marqué comme bon ou médiocre selon la valeur de la première métrique disponible dans l’ordre suivant :
 
 |N° d’étape |Mesure |Condition |Classification si la condition est vraie |Classification si la condition est fausse |Classification si la métrique n'est pas disponible |Explication |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -107,7 +107,7 @@ Si la connectivité ICE  a réussi pour un flux non classé, le flux est probabl
   > Les dimensions « Durée (Secondes) », « Durée (Minutes) », « Durée 5 secondes ou moins » et « Durée 60 secondes ou plus » peuvent être utilisées pour déterminer la durée d'un flux. La mesure « durée moyenne d'appel » peut également être utilisée pour calculer la durée moyenne d'un ensemble de flux.
 
 - **Faible utilisation des paquets** : comme dans le scénario « appel court », une utilisation suffisante des paquets est nécessaire pour le calcul des métriques de flux clés. Sans ces métriques, le TBQA est incapable de classifier le flux.
-  - Un scénario courant de faible utilisation des paquets se produit lorsqu’un participant participe à une réunion pour écouter le présentateur, mais ne parle jamais (le micro est muet pendant la plupart des appels). Ici, l’utilisation des paquets dans le flux audio entrant au client est élevée, tandis que le flux audio sortant du client a peu ou pas d’utilisation des paquets. La durée du flux peut être d’une heure ou plus, mais l’utilisation du paquet sur  le flux entre le client et le serveur est faible depuis que le microphone a été muet et qu’un flux non classé en résulte.
+  - Un scénario courant de faible utilisation des paquets se produit lorsqu’un participant participe à une réunion pour écouter le présentateur, mais ne parle jamais (le micro est muet pendant la plupart des appels). Ici, l’utilisation des paquets pour le flux audio entrant au client est élevée, tandis que le flux audio sortant du client a peu ou pas d’utilisation des paquets. La durée du flux peut être d’une heure ou plus, mais l’utilisation du paquet sur  le flux entre le client et le serveur est faible depuis que le microphone a été muet et qu’un flux non classé en résulte.
 
   > [!TIP]
   > La dimension « Utilisation des paquets » et la mesure « Utilisation moyenne des paquets » peuvent être utilisées pour déterminer l’activité des paquets d’un flux.

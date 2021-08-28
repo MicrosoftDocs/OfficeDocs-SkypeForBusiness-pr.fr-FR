@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Résumé : Découvrez le rapport de répartition des défaillances dans Skype Entreprise Server.'
-ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2b925a84237ed0ef88012e63f9e5db4b561dd27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636058"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de répartition des défaillances Skype Entreprise Server
  
@@ -41,7 +41,7 @@ Le rapport de répartition des défaillances classe les sessions qui ont échou�
     
 - Agents utilisateurs de niveau supérieur
     
-Vous pouvez utiliser ces catégories pour déterminer exactement où un problème se produit et, dans certains cas, pourquoi le problème se produit. Par exemple, supposons que vous avez enregistré 242 sessions audio/vidéo en échec au cours d’une journée donnée. Si vous regardez le rapport de répartition des défaillances, il peut montrer que 237 de ces sessions ont échoué dans votre pool de Dublin. Cela vous permet de commencer à suivre et diagnostiquer les causes de ces échecs. Si vous cliquez sur le pool de Dublin sous la catégorie **Pools** principaux, vous verrez un rapport de répartition des défaillances pour ce pool. Vous pouvez ensuite commencer à analyser la raison pour laquelle le pool de Dublin a connu autant de difficultés.
+Vous pouvez utiliser ces catégories pour déterminer exactement où un problème se produit et, dans certains cas, pourquoi le problème se produit. Par exemple, supposons que vous avez enregistré 242 sessions audio/vidéo en échec au cours d’une journée donnée. Si vous regardez le rapport de répartition des défaillances, il peut montrer que 237 de ces sessions ont échoué dans votre pool de Dublin. Cela vous permet de commencer à suivre et diagnostiquer les causes de ces échecs. Si vous cliquez sur le pool de Dublin sous la catégorie **Pools** principaux, vous verrez un rapport de répartition des défaillances pour ce pool. Vous pouvez ensuite commencer à analyser la raison pour laquelle le pool de Dublin rencontre autant de difficultés.
   
 ## <a name="viewing-the-failure-distribution-report"></a>Affichage du rapport de répartition des défaillances
 
@@ -89,7 +89,7 @@ Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapp
   
 **Filtres du rapport de répartition des défaillances**
 
-|**Name**|**Description**|
+|**Nom**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -104,7 +104,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les principales raisons de diagnostic**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction des ID de diagnostic. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP qui fournit souvent des informations utiles pour la résolution des erreurs.  <br/> |
 |**Principales raisons de diagnostic** <br/> |Non  <br/> |ID de diagnostic généré dans une session.  <br/> |
@@ -116,7 +116,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures des modalités principales**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif basé sur les sessions qui ont échoué en fonction du type de session (par exemple, une conférence audio/vidéo ou une session de transfert de fichiers d’égal à égal).  <br/> |
 |**Modalités principales** <br/> |Non  <br/> |Type de session.  <br/> |
@@ -128,7 +128,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les pools principaux**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du pool de serveurs d’inscriptions ou du serveur Edge sur lequel la session a été menée.  <br/> |
 |**Pools principaux** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge.  <br/> |
@@ -140,7 +140,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les sources principales**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Le classement relatif des sessions a échoué par ordinateur.  <br/> |
 |**Sources principales** <br/> |Non  <br/> |Nom de l’ordinateur impliqué dans la session qui a échoué.  <br/> |
@@ -152,7 +152,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures des principaux composants**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du composant (par exemple, ExumRouting, GroupChat ou MediationServer).  <br/> |
 |**Principaux composants** <br/> |Non  <br/> |Nom du composant impliqué dans la session qui a échoué.  <br/> |
@@ -164,9 +164,9 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les utilisateurs de premier niveau**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué en fonction de l’utilisateur qui a été invité à participer à la session.  <br/> |
+|**Rank** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué en fonction de l’utilisateur qui a été invité à rejoindre la session.  <br/> |
 |**Utilisateurs les plus à l’avant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur invité à rejoindre la session.  <br/> |
 |**Sessions** <br/> |Non  <br/> |Nombre total de sessions qui ont échoué par utilisateur.  <br/> |
    
@@ -174,7 +174,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
 
 Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction des utilisateurs qui ont connu le plus d’échecs lorsqu’un autre utilisateur a tenté de les appeler (appelés utilisateurs « À »).
   
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué en fonction de l’utilisateur qui a initié la session.  <br/> |
 |**Utilisateurs les plus à l’avant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur ayant initié la session.  <br/> |
@@ -186,7 +186,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les principaux agents utilisateurs**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction de l’agent utilisateur (logiciel) impliqué dans la session. Par exemple : RTCC/4.0.0.0 Routage entrant/4.0.0.0.  <br/> |
 |**Principaux agents utilisateurs** <br/> |Non  <br/> |Nom de l’agent utilisateur impliqué dans la session qui a échoué.  <br/> |

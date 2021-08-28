@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Résumé : Vue d’ensemble des méthodes d’installation du client d’entreprise pour Skype Entreprise.'
-ms.openlocfilehash: 592c8e3b6b29aba5ade30e61939ba2243864e45aa6079380b6c36feee60779f6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff173a5b0579e2a25044682190376c055cc16578
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340250"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598218"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Déployer des clients pour Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54340250"
   
 La façon dont vous déployez Skype Entreprise pour vos utilisateurs varie selon que vous avez acheté Skype Entreprise dans le cadre d’un plan Microsoft 365 ou Office 365 ou que vous avez acheté une version avec licence en volume de Skype Entreprise. 
   
-- **Microsoft 365 ou Office 365** Si vous avez un plan Microsoft 365 ou Office 365 qui inclut Skype Entreprise, la technologie d’installation utilisée est appelée « Click-to-Run ». Vous pouvez laisser vos utilisateurs installer Skype Entreprise eux-mêmes à partir du Centre d’administration Microsoft 365. Vous pouvez également déployer des Skype Entreprise à vos utilisateurs en téléchargeant le logiciel sur votre réseau local, puis en utilisant vos outils de déploiement de logiciels existants, par exemple avec Microsoft Endpoint Configuration Manager. Pour plus d’informations sur l’installation Skype Entreprise qui est livré avec Microsoft 365 et Office 365, voir Déployer le [client Skype Entreprise dans](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)Microsoft 365 ou Office 365 .
+- **Microsoft 365 ou Office 365** Si vous avez un plan Microsoft 365 ou Office 365 qui inclut Skype Entreprise, la technologie d’installation utilisée est appelée « « Exécuter en un clic ». Vous pouvez laisser vos utilisateurs installer Skype Entreprise eux-mêmes à partir du Centre d’administration Microsoft 365. Vous pouvez également déployer des Skype Entreprise à vos utilisateurs en téléchargeant le logiciel sur votre réseau local, puis en utilisant vos outils de déploiement de logiciels existants, par exemple avec Microsoft Endpoint Configuration Manager. Pour plus d’informations sur l’installation Skype Entreprise qui est livré avec Microsoft 365 et Office 365, voir Déployer le [client Skype Entreprise dans](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)Microsoft 365 ou Office 365 .
     
 - **Licence en volume** Si vous avez une version sous licence en volume du client Skype Entreprise 2015 ou 2016, la technologie d’installation utilisée est Windows Installer (MSI). Un package Windows d’installation basé sur le programme d’installation se compose de plusieurs fichiers MSI. Un package MSI principal indépendant de la langue s’accompagne d’un ou plusieurs packages spécifiques à la langue pour en faire un produit complet. Le programme d’installation assemble les packages individuels et effectue des tâches de personnalisation et de maintenance pendant et après l’installation d’Office sur les ordinateurs des utilisateurs. Le client Skype Entreprise 2019 utilise des programme d’installation « En un clic ».
     

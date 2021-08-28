@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Résumé : Examinez les considérations sur les URL simples dans cette rubrique avant d’implémenter des enregistrements DNS pour Skype Entreprise Server.'
-ms.openlocfilehash: 11e3b5222e7ec1929580049f355525c40884b8d3aa9a55ccfbbdc18264a24500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a36805566b7bdb9f95ef14b572a8efdccdeb916b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280947"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622136"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS requirements for simple URLs in Skype Entreprise Server
 
@@ -31,7 +31,7 @@ Skype Entreprise Server prend en charge les trois URL simples suivantes : Meet, 
 
 Vous pouvez configurer les URL simples de sorte que leur étendue soit globale mais vous pouvez également spécifier des URL simples différentes pour chaque site central dans votre organisation. Si une URL simple globale et une URL simple de site sont spécifiées, l’URL simple de site prévaut. 
 
-Dans la plupart des cas, nous vous recommandons de définir des URL simples uniquement au niveau global, afin que l’URL simple Meet d’un utilisateur ne change pas s’il passe d’un site à un autre. L’exception serait que les organisations doivent utiliser des numéros de téléphone différents pour les utilisateurs de connexion sur différents sites. Notez que si vous définissez une URL simple (telle que l’URL simple dial-in) sur un site comme URL simple au niveau du site, vous devez également définir les autres URL simples sur ce site pour qu’elles soient également au niveau du site.
+Dans la plupart des cas, nous vous recommandons de définir des URL simples uniquement au niveau global, afin que l’URL simple Meet d’un utilisateur ne change pas si elles se déplacent d’un site à un autre. L’exception serait que les organisations doivent utiliser des numéros de téléphone différents pour les utilisateurs de connexion sur différents sites. Notez que si vous définissez une URL simple (telle que l’URL simple dial-in) sur un site comme URL simple au niveau du site, vous devez également définir les autres URL simples sur ce site pour qu’elles soient également au niveau du site.
 
 Vous pouvez définir des URL simples globales dans le Générateur de topologies. Pour définir une URL simple au niveau du site, utilisez Set-CsSimpleURLConfiguration cmdlet.
 

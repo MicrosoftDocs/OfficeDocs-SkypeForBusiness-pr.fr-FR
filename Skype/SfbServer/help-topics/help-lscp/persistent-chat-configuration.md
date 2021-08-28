@@ -12,22 +12,22 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: Votre déploiement de serveur de conversation permanente peut héberger plusieurs salles de conversation permanente simultanées. Les salles de conversation peuvent être organisées en un ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure utile pour l’identification des conversations en fonction de leur objectif professionnel et simplifie la délégation de l’administration ainsi que la gestion.
-ms.openlocfilehash: 43f8329a5eb3165671474638d0d9a63d2aa1dc516200c58f306c9ce21317bd4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8336beb24dbd8a159d5079e810c3c842f783803c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346990"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595788"
 ---
 # <a name="persistent-chat-configuration"></a>Configuration d’une conversation permanente
  
 Votre déploiement de serveur de conversation permanente peut héberger plusieurs salles de conversation permanente simultanées. Les salles de conversation peuvent être organisées en un ensemble de catégories sur le serveur. Chaque salle de conversation appartient à une catégorie et hérite de certains paramètres de cette catégorie. Cette organisation crée une structure utile pour l’identification des conversations en fonction de leur objectif professionnel et simplifie la délégation de l’administration ainsi que la gestion.
   
 > [!NOTE]
-> Bien que de nombreuses fonctionnalités de gestion des salles de conversation soient disponibles sur les ordinateurs exécutant la conversation permanente pour l’utilisateur, les administrateurs de conversation permanente (dans le rôle **cspersistentchatadministrator)** doivent utiliser le panneau de contrôle ou les applets de commande de l’environnement de ligne de commande Management Shell pour créer ou gérer des catégories.
+> Bien que de nombreuses fonctionnalités de gestion des salles de conversation soient disponibles sur les ordinateurs exécutant la conversation permanente pour l’utilisateur, les administrateurs de conversation permanente (dans le rôle **cspersistentchatadministrator)** doivent utiliser le panneau de contrôle ou les applets de commande de l’environnement de ligne de commande Pour créer ou gérer des catégories.
   
 Les administrateurs de conversation permanente utilisent le Panneau de Skype Entreprise Server ou des cmdlets Windows PowerShell pour créer et gérer des catégories et pour concevoir l’accès aux salles de conversation pour les utilisateurs de leur organisation.
   

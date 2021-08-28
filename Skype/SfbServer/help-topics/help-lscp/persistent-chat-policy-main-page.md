@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Vous pouvez utiliser la page Stratégie de conversation permanente du groupe conversation permanente pour gérer les stratégies au niveau global, pool, site ou utilisateur, y compris la configuration de la stratégie globale par défaut et la création d’une ou de plusieurs stratégies utilisateur et de site supplémentaires pour votre déploiement. Si un utilisateur est activé pour le serveur de conversation permanente par une stratégie, l’environnement de serveur de conversation permanente apparaît dans son client.
-ms.openlocfilehash: c540ba5a21ddac731e3d68814421bcd80a205a3700e95e48b926add490a8baab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53717b18088bf8ddcd4317e4e1f3d72e24859f96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595778"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Stratégie de conversation permanente – Page principale
  
@@ -29,7 +29,7 @@ Vous pouvez utiliser la **page**  Stratégie de conversation permanente du group
 > [!NOTE]
 > Dans la topologie, les stratégies de site du serveur de conversation permanente s’appliquent globalement, par pool d’utilisateurs, par site d’utilisateur ou par utilisateur. 
   
-La stratégie globale est créée automatiquement lorsque vous déployez un serveur de conversation permanente et peut être configurée, mais pas supprimée. Étant donné que la stratégie globale s’applique à tous les utilisateurs, elle n’a pas besoin d’être définie par utilisateur.
+La stratégie globale est créée automatiquement lorsque vous déployez un serveur de conversation permanente et elle peut être configurée, mais pas supprimée. Étant donné que la stratégie globale s’applique à tous les utilisateurs, elle n’a pas besoin d’être définie par utilisateur.
   
 Vous pouvez créer et configurer plusieurs stratégies de site et d’utilisateur qui, avec la stratégie globale, activent les utilisateurs pour le serveur de conversation permanente. Les stratégies de serveur de conversation permanente de pool et de site remplacent la stratégie globale du serveur de conversation permanente, mais uniquement pour les utilisateurs de ce site. Les stratégies utilisateur supplantent les stratégies utilisateur, de pool et globales pour les utilisateurs auxquels la stratégie utilisateur est assignée.
   
@@ -88,7 +88,7 @@ La configuration de la stratégie du site supplante la stratégie globale, uniqu
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>Pour créer une stratégie utilisateur pour la conversation permanente
 
-Dans le Panneau de Skype Entreprise Server, vous définissez des stratégies utilisateur qui peuvent être affectées à des utilisateurs dans **Utilisateurs.**
+Dans le Skype Entreprise Server de contrôle d’accès, vous définissez des stratégies utilisateur qui peuvent être affectées à des utilisateurs dans **Utilisateurs.**
   
 La stratégie utilisateur supplante les stratégies globale et de site, mais uniquement pour les utilisateurs pour lesquels la stratégie utilisateur est appliquée.
   

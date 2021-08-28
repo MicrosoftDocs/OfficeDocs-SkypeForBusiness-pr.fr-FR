@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type d’audioconférence et d’appels PSTN d’utilisateur final qui peuvent être effectués par les utilisateurs.
-ms.openlocfilehash: bbe2641cfd642e4ffd0cf6af901df059190740bf60ddbb8dfc5d82ba58c98380
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598408"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
 
@@ -61,7 +61,7 @@ Pour savoir quels pays et quelles régions sont considérés comme zone A, consu
 
 ![Icône affichant le logo Skype Entreprise](media/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, sélectionnez Utilisateurs de l’audioconférence, puis sélectionnez l’utilisateur dans la liste des   >  utilisateurs disponibles.
+1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, sélectionnez Utilisateurs de l’audioconférence, puis sélectionnez l’utilisateur dans la liste   >  des utilisateurs disponibles.
 
 2. Dans le volet Action, sélectionnez **Modifier.**
 
@@ -92,7 +92,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
 ```
 
-Tous les utilisateurs du client qui n’ont pas de stratégie de numérotation seront affectés à cette stratégie. Les autres utilisateurs demeurent avec leur stratégie actuelle.
+Cette stratégie est attribuée à tous les utilisateurs du client qui n’ont pas de stratégie de numérotation. Les autres utilisateurs demeurent avec leur stratégie actuelle.
 
 Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 

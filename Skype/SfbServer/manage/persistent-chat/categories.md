@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Résumé : Découvrez comment gérer les catégories de serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 1785f541765075160573907955630ee395d4f9773daebff7895842689327a3ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a69d8ec3119f9f94f9f5c864ec0e0d2d613b0e20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276749"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622216"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer les catégories dans le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -36,7 +36,7 @@ La définition de AllowedMembers et Créateurs pour une catégorie comporte les 
     
 Les utilisateurs, les unités d’organisation et les groupes d’utilisateurs identifiés comme créateurs de la catégorie sont les seuls individus et groupes autorisés à créer des salles dans la catégorie. Une fois la catégorie créée, vous pouvez choisir des utilisateurs, des utilisateurs et des groupes d’utilisateurs dans la liste AllowedMembers de la catégorie en tant que responsables et membres de salle de conversation pour gérer et participer à la salle. 
   
-Avant de configurer les catégories, veillez à lire les catégories de conversation permanente, les salles de conversation et les rôles d’utilisateur dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)
+Avant de configurer des catégories, veillez à lire les catégories de conversation permanente, les salles de conversation et les rôles d’utilisateur dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)
   
 Vous pouvez configurer et gérer des catégories à l’aide du Panneau de configuration ou d’Windows PowerShell cmdlets.
 
@@ -63,7 +63,7 @@ Vous pouvez configurer et gérer des catégories à l’aide du Panneau de confi
     
    - Dans **Description**, fournissez une description détaillée de la catégorie de salle (exemple : catégorie de salle pour Contoso).
     
-   - Pour contrôler si les invitations peuvent être activées pour les salles de conversation appartenant à cette catégorie, activez ou videz la case à cocher Activer **les invitations.** S’il est sélectionné, les salles de cette catégorie peuvent avoir des invitations en cours ou non ; si elles sont effacées, les salles de cette catégorie ne sont pas autorisées à recevoir des invitations. Si une salle a des invitations, lorsqu’un nouveau membre est ajouté à une salle, il reçoit une notification de la nouvelle salle dans son client de conversation permanente.
+   - Pour contrôler si les invitations peuvent être activées pour les salles de conversation appartenant à cette catégorie, activez ou activez la case à cocher Activer les **invitations.** S’il est sélectionné, les salles de cette catégorie peuvent avoir des invitations en cours ou non ; si elles sont effacées, les salles de cette catégorie ne sont pas autorisées à recevoir des invitations. Si une salle a des invitations, lorsqu’un nouveau membre est ajouté à une salle, il reçoit une notification de la nouvelle salle dans son client de conversation permanente.
     
    - Pour contrôler les téléchargements de fichiers dans les salles de conversation appartenant à cette catégorie, activez ou désactivez la case à cocher **Activer le téléchargement de fichiers**. Si la case à cocher est activée, les salles de cette catégorie peuvent activer ou désactiver les téléchargements de fichiers. Si la case à cocher est désactivée, les salles de cette catégorie ne sont pas autorisées à activer les téléchargements de fichiers.
     
@@ -95,7 +95,7 @@ Vous pouvez configurer les paramètres suivants pour les catégories :
   
 - EnableFileUpload. Autorise les téléchargements de fichiers dans les salles de conversation de la catégorie.
     
-- EnableInvitations. Active les invitations pour la catégorie. Les utilisateurs de la liste AllowedMembers recevront automatiquement une invitation à rejoindre une nouvelle salle de conversation au moment de la création de la nouvelle salle.
+- EnableInvitations. Active les invitations pour la catégorie. Les utilisateurs de la liste AllowedMembers reçoivent automatiquement une invitation à rejoindre une nouvelle salle de conversation au moment de sa création.
     
 - ChatHistory. Active ou désactive la fonctionnalité d’historique de conversation.
     

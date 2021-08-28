@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 74f683fabeccfd1bbc89ad6da21914e71e4b5cdc024c8d1d105b18f3e26a8845
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e3e06aa9987d87f1aca8ee22e435474c1b571a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612713"
 ---
-# <a name="dial-in-access-number-create-new-or-edit-existing"></a>Numéro d’accès entrant : création d’un nouveau ou modification d’un numéro existant
+# <a name="dial-in-access-number-create-new-or-edit-existing"></a>Numéro d’accès entrant : création d’un nouveau ou modification d’un numéro existant
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

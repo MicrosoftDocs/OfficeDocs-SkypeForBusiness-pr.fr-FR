@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: La cmdlet Install-CcAppliance installe l’appliance Skype Entreprise Cloud Connector Edition,y compris les machines virtuelles AD, Central Management Store, Mediation Server et Edge Server, sur le serveur hôte.
-ms.openlocfilehash: b88b869e3c30783a69bc16ab690a258506ebcc90e849eb474a17859140485e8d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0ed13282039b84975bea3e26f5ae1d7f79122a11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635838"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -123,7 +123,7 @@ Aucun. La cmdlet Install-CcAppliance n’accepte pas la saisie de données pipel
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Néant
+Aucun
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

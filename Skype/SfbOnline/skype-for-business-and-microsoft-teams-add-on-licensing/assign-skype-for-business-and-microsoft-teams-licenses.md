@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 description: "Apprenez comment affecter des licences Skype Entreprise pour le Système téléphonique, l'Audioconférence, les Plans d'appel et les Crédits de communications. "
-ms.openlocfilehash: 61d8eca21fec85f7f729e0d0de9cc5d43fd5ca96567e2abe49cf7b6b5f651500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8e43bba8970e03fced61620fff7b63eed893484e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281327"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598278"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Attribuer des licences Skype Entreprise
 
@@ -44,11 +44,11 @@ Ce que vous devez connaître avant d’affecter des licences Audioconférence, S
 
 - **Vous utilisez la connectivité PSTN locale pour les utilisateurs hybrides ?** Si c’est le cas, vous devez seulement affecter **une Système téléphonique** licence. Vous ne devez **PAS** affecter de forfait d’appels.
 
-- **Latence** après l’attribution de licences : en raison de la latence entre Microsoft 365 ou Office 365 et Skype Entreprise Online, jusqu’à 24 heures peuvent être nécessaire pour qu’un utilisateur soit affecté à un plan d’appel une fois une licence affectée. Si aucun forfait d’appels n’est attribué à l’utilisateur au bout de 24 heures, contactez le support technique pour les produits pour les entreprises [- Aide de l’administrateur.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+- **Latence** après l’attribution de licences : en raison de la latence entre Microsoft 365 ou Office 365 et Skype Entreprise Online, jusqu’à 24 heures peuvent être nécessaire pour qu’un utilisateur soit affecté à un plan d’appel une fois une licence affectée. Si au bout de 24 heures l’utilisateur n’a pas de forfait d’appels, contactez le support pour les produits pour les entreprises [- Aide de l’administrateur.](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 - **Messages d'erreur**: un message d'erreur s'affiche si vous n'avez pas acheté le nombre correct de licences. Si vous devez acheter d’autres licences forfait d’appels, choisissez **Acheter plus.**
     
-- **Prochaines étapes**: après avoir attribué des licences Forfait d’appels à vos utilisateurs, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, [consultez Configurer les forfaits d’appels.](/microsoftteams/set-up-calling-plans)
+- **Étapes** suivantes : après avoir attribué des licences forfait d’appels à vos utilisateurs, vous devrez également obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs dans votre organisation. Pour obtenir des instructions détaillées, [consultez Configurer les forfaits d’appels.](/microsoftteams/set-up-calling-plans)
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>Comment affecter une licence de plan Système téléphonique appels à un utilisateur
 
@@ -64,7 +64,7 @@ Les étapes sont identiques à l’attribution d’Microsoft 365 ou Office 365 l
 
    Cet exemple affecte une **licence Entreprise E3**, ainsi qu'une licence **Système téléphonique** et **Forfait d’appels interne**.
 
-   Le nom des licences ou des produits du script est répertorié dans le texte en italique (voir les Système téléphonique ou les noms des produits du plan d’appels utilisés pour l’écriture de **scripts,** après l’exemple).
+   Le nom des licences ou des produits du script est répertorié dans le texte en italique (voir les noms ou les noms de produit des plans d’appels Système téléphonique et d’appels utilisés pour l’écriture de **scripts,** après l’exemple).
 
    ```powershell
    #Create a text file with a single row containing list of UserPrincipalName (UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
@@ -137,7 +137,7 @@ Les étapes sont identiques à l’attribution d’Microsoft 365 ou Office 365 l
 
     Le nom des licences ou des produits du script est répertorié dans le texte en italique. Consultez les références ou noms des produits de l’audioconférence utilisés pour l’écriture [de scripts](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) pour tous les noms de produit.
 
-    Cet exemple affecte une licence Enterprise E3, ainsi qu’une licence Audioconférence.
+    Cet exemple affecte Enterprise licence E3, ainsi qu’une licence Audioconférence.
 
     ```powershell
     #Create a text file with a single row containing list of UserPrincipalName(UPN) of users to license. The MSOLservice uses UPN to license user accounts in Microsoft 365 or Office 365.
@@ -202,7 +202,7 @@ Les étapes sont identiques à l’attribution d’Microsoft 365 ou Office 365 l
 
 Jetez un coup d’œil à l’exemple de script pour affecter des licences **d’audioconférence.** Mettez-le à jour avec les informations pour affecter des **licences de crédits** de communication.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
   
 [Configurer des forfaits d'appels](/microsoftteams/set-up-calling-plans)
   

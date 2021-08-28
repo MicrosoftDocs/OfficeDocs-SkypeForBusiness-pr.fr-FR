@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrateur de conversation permanente peut créer et gérer des catégories de salle de conversation. Dans le cadre de la création et de la gestion des catégories de salle de conversation, un administrateur de conversation permanente peut configurer les principaux (groupes/conteneurs/utilisateurs des services de domaine Active Directory) qui ont accès aux membres/créateurs des salles de conversation d’une catégorie particulière. Un administrateur de conversation permanente peut également ajouter des membres refusés à une catégorie et ceux-ci deviennent des exclusions explicites à la liste autorisée. DeniedMembers remplace ce qui se passe dans AllowedMembers.
-ms.openlocfilehash: 2e4927532e6991565095693d7c087bcdf5b826d47aaf3fa101e30cecced7664a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ee1221e7d6b7e898018018e0b7be930f289bec50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331566"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612483"
 ---
 # <a name="select-denied-members"></a>Sélection des membres refusés
 

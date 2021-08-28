@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez les différentes façons d’attribuer des stratégies et packages de stratégies à des utilisateurs et groupes dans Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d0f82ab377b1c09f60db7f953c1016f396b2e706417f0f7acb17903ad83c8bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fb85ae05925a44db75ed63ada899c6fca92cbceb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621986"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Attribuer des stratégies dans Teams mise en place
 
@@ -45,7 +45,7 @@ Si un utilisateur est affecté directement à une stratégie (individuellement o
 
 ![Diagramme montrant la priorité d’une stratégie assignée directement](media/assign-policies-example-directly-assigned.png)
 
-Si un utilisateur n’est pas directement affecté à une stratégie d’un type donné, la stratégie assignée à un groupe dont l’utilisateur est membre est prioritaire. Si un utilisateur est membre de plusieurs groupes, la[](assign-policies-users-and-groups.md#group-assignment-ranking)stratégie ayant le classement d’affectation de groupe le plus élevé pour le type de stratégie donné est prioritaire.
+Si un utilisateur n’est pas directement affecté à une stratégie d’un type donné, la stratégie assignée à un groupe dont l’utilisateur est membre est prioritaire. Si un utilisateur est membre de plusieurs groupes, la stratégie dont le classement d’affectation de groupe est le plus élevé[pour](assign-policies-users-and-groups.md#group-assignment-ranking)le type de stratégie donné est prioritaire.
 
 Dans cet exemple visuel, la stratégie efficace de l’utilisateur est la stratégie Exec Teams et HD, qui présente le classement d’affectation le plus élevé par rapport aux autres groupes dont l’utilisateur est membre et pour lesquels une stratégie du même type de stratégie est également attribuée.  
 
@@ -142,7 +142,7 @@ Pour afficher vos affectations de stratégie dans le journal d’activité :
 > [!NOTE]
 > Vous pouvez également ouvrir le journal d’activité à partir de la page **Utilisateurs.** Après avoir **cliqué sur Appliquer** pour envoyer une affectation de stratégie en bloc, une bannière s’affiche en haut de la page. Cliquez sur le **lien Journal d’activité** dans la bannière.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Attribuer des stratégies aux utilisateurs et aux groupes](assign-policies-users-and-groups.md)
 - [Attribuer des packages de stratégies à des utilisateurs et groupes](assign-policy-packages.md)

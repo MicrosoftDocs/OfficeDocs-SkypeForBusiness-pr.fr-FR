@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement qui dispose de plusieurs versions de Skype Entreprise Server et de Lync Server.
-ms.openlocfilehash: bcbb8a14cf1d998c68f83875bce25935d73e92b7a755cd370526a65aef202e36
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement qui possède plusieurs versions de Skype Entreprise Server et Lync Server.
+ms.openlocfilehash: 5a158c3f0797bb3d0377762ea2876dbe5b9d26bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310043"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598158"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype Considérations sur la migration du système de salle
  
-Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement qui dispose de plusieurs versions de Skype Entreprise Server et de Lync Server.
+Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement qui possède plusieurs versions de Skype Entreprise Server et Lync Server.
   
 ## <a name="migration-considerations"></a>Considérations relatives à la migration
 
 Cette section fournit des conseils si vous déployez Skype Room System dans un environnement multi-pool qui inclut différentes versions de Skype Entreprise Server, ou Lync Server. 
   
-Le composant réplicateur d’utilisateurs (UR) dans Lync Server obtient les objets utilisateur d’Active Directory et les place dans la base de données principale Lync Server SQL Server données. Seule l’URL dans Lync Server 2013 est sensible aux objets Skype Room System. Dans les versions précédentes de Lync Server et de Office Communications Server, l’UR ne détecte pas les attributs Active Directory qui désignent les objets LRS et n’en a donc pas connaissance. 
+Le composant réplicateur d’utilisateurs (UR) dans Lync Server obtient les objets utilisateur d’Active Directory et les place dans la base de données principale Lync Server SQL Server données. Seule l’URL dans Lync Server 2013 est sensible aux objets Skype Room System. L’UR dans les versions précédentes de Lync Server et Office Communications Server ne détecte pas les attributs Active Directory qui désignent les objets LRS et n’en était donc pas informé. 
   
 Si un compte Skype Room System tente de se connecter à Lync et effectue une découverte automatique basée sur l’enregistrement SRV ou la recherche d’enregistrement DNS A, et si ces comptes pointent vers une version antérieure de Lync Server ou de Office Communications Server, LRS reçoit une réponse 404 In trouvée du pool hérité. Le pool hérité ne pourra pas rediriger Skype Room System vers son pool d’accueil Lync Server 2013. 
   
@@ -53,7 +53,7 @@ Lorsque le client Skype Room System rejoint une conférence téléphonique progr
     
   - Lync Server 2010 ne prend pas en charge la résolution 1080p.
     
-  - Skype Le système de salle est toujours limité par la stratégie de conférence de l’organisateur pour la résolution vidéo. Par conséquent, même si le pool Lync 2010 prend en charge la résolution 720 p, Skype Room System ne pourra pas tirer parti de la résolution 720p tant que la stratégie de l’organisateur ne la prend pas en charge. 
+  - Skype Le système de salle est toujours limité par la stratégie de conférence de l’organisateur pour la résolution vidéo. Par conséquent, même si le pool Lync 2010 prend en charge la résolution 720 p, Skype Room System ne sera pas en mesure de tirer parti de la résolution 720p tant que la stratégie de l’organisateur ne la prend pas en charge. 
     
 - Les clients Lync 2013 détectent la présence LRS dans la salle de réunion et se mutent automatiquement pour éviter l’écho dans la salle de réunion physique. Cette fonctionnalité ne fonctionne pas dans les réunions hébergées sur Lync Server 2010.
     

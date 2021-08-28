@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: La cmdlet Get-CcExternalCertificateFilePath renvoie le chemin d’accès du fichier de certificat externe pour le Skype Entreprise Cloud Connector Edition déploiement. L’utilisateur prépare ce certificat.
-ms.openlocfilehash: 3f0a3bc761beb1a2aa1c88bfabf509e4aef17b012f52e04be1ec5944df73ba9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b06958d68d73bc68fc0fda4e681af2e7b9b4f9e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315380"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622036"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -59,7 +59,7 @@ Pendant le déploiement ou lors de la modification de la topologie, vous devez s
 
 |**Paramètre**|**Obligatoire**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-|Target  <br/> |Facultatif  <br/> | System.Management.Automation.SwitchParameter <br/> |Type de chemin d’accès au fichier demandé. Les types sont les suivants :  <br/> EdgeServer (par défaut)  <br/> MediationServer  <br/> |
+|Cible  <br/> |Facultatif  <br/> | System.Management.Automation.SwitchParameter <br/> |Type de chemin d’accès au fichier demandé. Les types sont les suivants :  <br/> EdgeServer (par défaut)  <br/> MediationServer  <br/> |
    
 ## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>

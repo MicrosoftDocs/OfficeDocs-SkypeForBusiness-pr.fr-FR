@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir Install Skype Entreprise Server.
-ms.openlocfilehash: 02de7061f72483b8ea4237db5c97e3a30f7a09603dcf882bc8de85fedf73597e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 976b3daf9d93c21989a78dd64ee74c9bd176a783
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292032"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598128"
 ---
-# <a name="deployment-wizard-admin-tools"></a>Assistant Déploiement : outils d’administration
+# <a name="deployment-wizard-admin-tools"></a>Assistant Déploiement : outils d’administration
  
 Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir [Install Skype Entreprise Server](../../../deploy/install/install.md).
   

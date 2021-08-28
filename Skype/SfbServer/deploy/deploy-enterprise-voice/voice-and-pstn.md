@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 'Résumé : Découvrez comment configurer des stratégies de voix, des enregistrements d’utilisation PSTN et des itinéraires de communication vocale dans Skype Entreprise Server.'
-ms.openlocfilehash: 586aad64ae7585a275b0cce0e91497e0dea183d200693bbbf84e95e123bb392d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d38e843645b9c3e45103fb7ea52f4c5f7cd5ceea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279332"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621836"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>Configurer les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des Skype Entreprise
  
@@ -36,7 +36,7 @@ La procédure recommandée pour un nouveau déploiement de Voix Entreprise est d
   
 Pour connaître en détail la marche à suivre pour effectuer chacune de ces tâches, voir les procédures dans cette section.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise](voice-policy-and-pstn-usage-records.md)
     

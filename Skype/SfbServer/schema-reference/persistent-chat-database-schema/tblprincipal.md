@@ -10,26 +10,26 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal contient tous les principaux, y compris les utilisateurs, les dossiers et les groupes.
-ms.openlocfilehash: 50d20aee156a4a919effac26ff29c371ec2cf886c12300ecd07268576730ae49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a2a48d0cd2dcb6b6ef078fd32625fc022f79c9f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338022"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635858"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
 tblPrincipal contient tous les principaux, y compris les utilisateurs, les dossiers et les groupes.
   
-**Columns**
+**Colonnes**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID de principal.  <br/> |
-|prinGuid  <br/> |GUID, non null  <br/> |ID de principal. Il est largement utilisé comme clé primaire de remplacement, car sa signification croise l’espace Services de domaine Active Directory. (Le GUID d’un principal mis en cache est égal au GUID d’objet Active Directory correspondant.)  <br/> |
+|prinGuid  <br/> |GUID, non null  <br/> |ID de principal. Il est largement utilisé comme clé primaire de remplacement, car sa signification croise l’espace services de domaine Active Directory. (Le GUID d’un principal mis en cache est égal au GUID d’objet Active Directory correspondant.)  <br/> |
 |prinUri  <br/> |nvarchar (256), non null  <br/> |ID de principal. Le modèle SIP est utilisé pour les utilisateurs et ma-grp est utilisé pour presque tout le reste.  <br/> |
 |prinName  <br/> |nvarchar (256)  <br/> |Nom commun. Utilisé uniquement par les types d’utilisateurs.  <br/> |
 |prinDisplayName  <br/> |Nvarchar(256)  <br/> |Nom complet. Utilisé uniquement par les types d’utilisateurs.  <br/> |

@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: e74f5013bce13e014ef422f4dd8322396a8db5256b1ebb771e1f3fa25965e7ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 411f9622706faa3388d611b3ae50a14fce739ff3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313512"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596908"
 ---
-# <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
+# <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
  
 Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :
   

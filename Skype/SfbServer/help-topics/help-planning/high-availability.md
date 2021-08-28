@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Le principal schéma de haute disponibilité pour la plupart des rôles serveur dans Skype Entreprise Server 2015 est basé sur la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
-ms.openlocfilehash: d8c6a16ba29d5725a148810c71a17325bdbab763
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8fe42fb60d6588eee7a62ec49aa33f46c9a2e535
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596748"
 ---
 # <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype Entreprise Server Outil de planification de la haute disponibilité
  
@@ -33,7 +33,7 @@ Skype Entreprise Server 2015 nécessite au moins deux serveurs frontux pour acti
     
 - Si le déploiement contient un serveur Edge, un autre serveur est ajouté. 
     
-- Si le déploiement contient une conversation permanente, l’outil de planification ajoute un serveur supplémentaire, mais n’augmente pas le nombre de pool. Par exemple, si le déploiement contient déjà quatre serveurs, l’outil de planification suggère l’ajout d’un autre serveur (pour un total de cinq serveurs), mais maintient un pool unique. 
+- Si le déploiement contient une conversation permanente, l’outil de planification ajoute un serveur supplémentaire, mais n’augmente pas le nombre de pool. Par exemple, si le déploiement contient déjà quatre serveurs, l’outil de planification suggère d’ajouter un autre serveur (pour un total de cinq serveurs), mais conserve un pool unique. 
     
 L’outil de planification ajoute également une base de données SQL miroir pour toutes les bases de données. Par exemple, s’il existe une base de données SQL Server frontale, l’outil de planification ajoute l’autre base de données en tant que base de données miroir pour celle-ci et la nomme « base de données SQL frontale.
   

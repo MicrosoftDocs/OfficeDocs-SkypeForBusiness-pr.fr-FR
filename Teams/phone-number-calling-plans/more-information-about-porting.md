@@ -12,19 +12,19 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenez les instructions nécessaires pour le port de vos numéros de téléphone vers Microsoft Teams.
-ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598388"
 ---
 # <a name="more-information-about-porting"></a>Informations supplémentaires sur le portage
 
@@ -82,7 +82,7 @@ Le numéro de téléphone de facturation (BTN) est le numéro de téléphone pri
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>Que dois-je inclure comme numéro de compte ?
 
-En règle générale, vous pouvez trouver le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou vous pouvez vous connecter au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
+En règle générale, vous trouverez le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou connectez-vous au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
   
 > [!CAUTION]
 >  Il est important de ne pas utiliser d’espaces, de tirets ou de tirets lorsque vous entrez le numéro de compte de votre opérateur ou fournisseur de services.
@@ -110,7 +110,7 @@ Lorsque vous soumettez une demande de port, vous devez utiliser un fichier CSV c
 
 Quel [est le statut de vos demande de port ?](port-order-status.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainCerts
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 description: 'L’Étape 3 : Demander, installer ou assigner les certificats démarre l’Assistant Certificat lorsque vous cliquez sur Exécuter. Les certificats configurés par le biais de l’Assistant sont basés sur la définition de la topologie Skype Entreprise Server 2015 configurée et publiée par le Générateur de topologies dans le magasin central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant Certificat permet de spécifier d’autres informations d’identification pour accéder à l’ac de votre organisation.'
-ms.openlocfilehash: 6ddab01ddf91ec2e81dfee7789ece76a118a5447837deb52fcb85a3d5aebba8f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58902f9de92f7011247cfeeda7b49a5af35ed218
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334266"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612503"
 ---
 # <a name="request-install-or-assign-certificates"></a>Demander, installer ou assigner des certificats
  

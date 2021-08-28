@@ -9,19 +9,19 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Résumé : Examinez ces scénarios pour vous aider à planifier votre topologie de serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: df654740ae8b0fb6f7ce39669a14f3e7151220a24527166e996f1ceda583d2d7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 213081e5e232ff2d033c556fa9e037cdf813da3a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306985"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622176"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Scénarios de serveur Edge dans Skype Entreprise Server
  
@@ -42,7 +42,7 @@ Il existe des périphériques NAT qui autorisent NAT64 (IPv6 vers IPv4) et NAT66
 > [!IMPORTANT]
 > Si vous utilisez le contrôle d’admission des appels (CAC), vous devez utiliser IPv4 sur l’interface interne pour qu’il fonctionne. 
   
-## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Serveur Edge Skype Entreprise Server consolidé unique avec des adresses IP privées et la nat
+## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Serveur Edge consolidé unique Skype Entreprise Server avec adresses IP privées et NAT
 
 Avec ce scénario, il n’existe aucune option pour la haute disponibilité. Cela signifie que vous dépensez moins sur le matériel et que vous avez un déploiement plus simple. Si la haute disponibilité est une valeur à prendre en compte, consultez les scénarios consolidés à l’échelle ci-dessous.
   
@@ -52,7 +52,7 @@ Avec ce scénario, il n’existe aucune option pour la haute disponibilité. Cel
 
 Nous avons également un diagramme pour les ports pour les serveurs Edge consolidés.
   
-![Périmètre réseau pour le périmètre consolidé unique du scénario Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Périmètre réseau pour le périmètre unique consolidé du scénario Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>Serveur Edge Skype Entreprise Server consolidé unique avec adresses IP publiques
 
@@ -64,7 +64,7 @@ Avec ce scénario, il n’existe aucune option pour la haute disponibilité. Cel
 
 Nous avons également un diagramme pour les ports pour les serveurs Edge consolidés.
   
-![Périmètre réseau pour le périmètre consolidé unique du scénario Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Périmètre réseau pour le périmètre unique consolidé du scénario Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Mise à l’échelle consolidée Skype Entreprise Server pool edge, avec équilibrage de charge DNS, adresses IP privées et NAT
 
@@ -76,9 +76,9 @@ Avec ce scénario, vous pouvez bénéficier d’une haute disponibilité dans vo
 
 Nous avons également un diagramme pour les pools Edge consolidés à l’échelle avec équilibrage de charge DNS.
   
-![Périmètre réseau pour le périmètre consolidé mis à l’échelle à l’aide de la base de données DNS](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Périmètre réseau pour le scénario Edge consolidé mis à l’échelle à l’aide de la base de données DNS](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Mise à l’échelle consolidée Skype Entreprise Server pool edge, avec équilibrage de charge DNS et adresses IP publiques
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Mise à l’échelle Skype Entreprise Server pool edge, avec équilibrage de charge DNS et adresses IP publiques
 
 Avec ce scénario, vous pouvez bénéficier d’une haute disponibilité dans votre déploiement Edge, ce qui vous offre les avantages de l’évolutivité et de la prise en charge duover.
   
@@ -88,7 +88,7 @@ Avec ce scénario, vous pouvez bénéficier d’une haute disponibilité dans vo
 
 Nous avons également un diagramme pour les pools Edge consolidés à l’échelle avec équilibrage de charge DNS.
   
-![Périmètre réseau pour le périmètre consolidé mis à l’échelle à l’aide de la base de données DNS](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Périmètre réseau pour le scénario Edge consolidé mis à l’échelle à l’aide de la base de données DNS](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Mise à l’échelle consolidée Skype Entreprise Server pool Edge, avec équilibrage de la charge matérielle
 

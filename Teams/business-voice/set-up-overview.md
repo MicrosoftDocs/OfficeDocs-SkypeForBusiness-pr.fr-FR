@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez comment configurer des Microsoft 365 Business Voice entreprise ou organisation de petite à moyenne entreprise.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b8d5c89fca6fd9ff84d06b784b51040dbafe20c0e2ccc74fde845b6990095e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eceaba6a099a718d6061c7db3888a63d6faf50f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314130"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635808"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>Configurer les Microsoft 365 Business Voice
 
@@ -36,13 +36,13 @@ Business Voice est un système téléphonique complet qui peut remplacer votre f
 
 * Vous pourrez recevoir des appels téléphoniques gratuits ou gratuits sur une ligne téléphonique principale de l’entreprise. Vous pouvez même configurer un menu d’appel si vous le souhaitez.
 * Les utilisateurs qui utilisent Business Voice auront leurs propres numéros de téléphone à composer directement qu’ils peuvent utiliser pour effectuer et recevoir des appels téléphoniques à partir de n’importe quel appareil sur Teams installé.
-* Les participants à la réunion pourront rejoindre des réunions à l’aide d’un téléphone ordinaire s’ils ne peuvent pas rejoindre une réunion à partir d’Teams client.
+* Les participants à la réunion pourront rejoindre des réunions à l’aide d’un téléphone normal s’ils ne peuvent pas rejoindre une réunion à partir d’Teams client.
 * Si vous avez des numéros de téléphone existants, vous pourrez continuer à les utiliser une fois qu’ils auront été déplacés vers Business Voice.
 
 Pour en savoir plus sur Business Voice, consultez [ce qu’Microsoft 365 Business Voice](whats-business-voice.md)?
 
 > [!IMPORTANT]
-> Les informations de ces articles s’appliquent à Business Voice **avec** forfait d’appels uniquement. Business Voice avec forfait d’appels est disponible uniquement dans certains pays et régions. Avant de commencer à définir Business Voice, vérifiez la disponibilité des pays et régions pour [Business Voice](country-region-availability.md) pour voir si votre pays ou région prend en charge Business Voice avec un plan d’appel.
+> Les informations de ces articles s’appliquent à Business Voice **avec** forfait d’appels uniquement. Business Voice avec forfait d’appels est disponible uniquement dans certains pays et régions. Avant de commencer à définir Business Voice, vérifiez la disponibilité des pays et régions pour [Business Voice](country-region-availability.md) pour voir si votre pays ou région prend en charge Business Voice avec un plan d’appel.
 >
 > Si votre client se trouve dans un pays ou une région qui ne prend pas en charge Business Voice avec forfaits d’appels, consultez l’article [Obtenir de l’aide auprès d’un revendeur ou d’un partenaire Microsoft](reseller-partner-support.md).
 >

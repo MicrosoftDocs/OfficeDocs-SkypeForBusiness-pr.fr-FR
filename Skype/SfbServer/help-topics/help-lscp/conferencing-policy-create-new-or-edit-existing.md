@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfMeetingPolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
-ms.openlocfilehash: 4c99caab263df4a000f65ecff62b2280c7999b94c52509acdce963e93c29a21a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3af54cc96418fdd5d55576947e6a0e59b1cbc485
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596798"
 ---
-# <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante
+# <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante
 
 Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
 
@@ -90,7 +90,7 @@ La liste suivante décrit les champs de la page.
 
   - **Autoriser les participants à prendre le contrôle** Si vous autorisez le partage d’application, cochez cette case pour permettre aux participants de prendre le contrôle des applications ou des bureaux partagés pendant la conférence.
 
-  - **Autoriser les participants fédérés et anonymes à prendre le contrôle** Si vous autorisez le partage d’application, cochez cette case pour permettre aux participants externes et non authentifiés de prendre le contrôle des applications ou des bureaux partagés pendant la conférence.
+  - **Autoriser les participants fédérés et anonymes à prendre le contrôle** Si vous autorisez le partage d’application, cochez cette case pour autoriser les participants externes et non authentifiés à prendre le contrôle des applications ou des bureaux partagés pendant la conférence.
 
 - **Stratégie de participant** Les paramètres de cette section s’appliquent aux utilisateurs en tant que participants à une conférence ou à une session à deux participants. Étant donné que les paramètres suivants sont des paramètres par utilisateur, un utilisateur d’une conférence ou d’une session à deux personnes peut avoir des fonctionnalités différentes de celles d’un autre utilisateur de la même conférence ou d’une même session à deux personnes.
 
