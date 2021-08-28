@@ -10,23 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Une fois que vous avez terminé l’installation de l’outil de planification Skype Entreprise Server, vous êtes prêt à démarrer l’outil de planification et à commencer à concevoir l’infrastructure Skype Entreprise Server 2015 proposée.
-ms.openlocfilehash: b5590e3bfdf97a6816421a2164712b069884793958be1dbf38eba1d50ef95592
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a56bca532ad1eef25a249f1b45f880921d9ead58
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608031"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Créer la conception de topologie initiale pour Skype Entreprise Server 2015
 
 Une fois que vous avez terminé l’installation de l’outil de planification Skype Entreprise Server, vous êtes prêt à démarrer l’outil de planification et à commencer à concevoir l’infrastructure Skype Entreprise Server 2015 proposée.
 
 > [!NOTE]
->  L’outil de planification est un outil piloté par un Assistant avec des guides détaillés pour vous aider à prendre des décisions lors de la conception de vos sites et de votre topologie. Cette rubrique n’est pas destinée à être un guide exhaustif, mais simplement à vous aider à commencer à utiliser l’outil de planification dans vos sessions de conception.
+>  L’outil de planification est un outil piloté par un Assistant avec des guides détaillés qui vous aide à prendre des décisions lors de la conception de vos sites et de votre topologie. Cette rubrique n’est pas destinée à être un guide exhaustif, mais simplement à vous aider à commencer à utiliser l’outil de planification dans vos sessions de conception.
 
 ### <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Pour commencer à utiliser l’Outil de planification et à créer la conception initiale
 
@@ -36,7 +36,7 @@ Une fois que vous avez terminé l’installation de l’outil de planification S
 
    - **Option 1 : Prise en main** Cliquer sur **Prise en main** fournit une série spécifique de questions d’entretien avec des sélections pertinentes pour définir les critères. Lorsque vous en avez terminé avec la section **Démarrage** initiale, poursuivez avec **Concevoir des sites** pour définir l’architecture de votre site. Pour achever cette option, passez à l’étape 3.
 
-   - **Option 2 : Concevoir des sites** Cliquer sur **Concevoir des sites** sur la page d’accueil contourne les questions d’entretien présentées dans **Prise en main** section. Les informations qui auraient été rassemblées en répondant aux questions de l’entretien dans Prise en main **section** sont définies sur les valeurs par défaut avec cette option. En cliquant **sur Sites** de conception, le concepteur expérimenté peut ignorer l’entretien initial et modifier les valeurs par défaut, si nécessaire, sur la page d’accueil **des Sites** centraux. Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
+   - **Option 2 : Concevoir des sites** Cliquer sur **Concevoir des sites** sur la page d’accueil contourne les questions d’entretien présentées dans **Prise en main** section. Les informations qui auraient été rassemblées en répondant aux questions de l’entretien dans Prise en main **section** sont définies sur les valeurs par défaut avec cette option. En cliquant **sur Sites** de conception, le concepteur expérimenté peut ignorer l’entretien initial et modifier les valeurs par défaut, selon les besoins, sur la page d’accueil **des Sites** centraux. Pour achever cette option, ignorez les étapes 3 à 5 et passez directement à l’étape 6.
 
    - **Option 3 : afficher votre topologie enregistrée** Si vous avez déjà terminé et enregistré une topologie par le biais d’une utilisation précédente de l’outil de planification, vous pouvez ignorer la plupart de ces étapes et commencer par ouvrir et afficher la topologie. Vous pouvez également apporter des modifications et des mises à jour à la topologie, la réasserrez, puis l’exporter vers Microsoft Excel ou Microsoft Visio. Pour achever cette option, ignorez les étapes 3 à 12 et passez directement à l’étape 13.
 
@@ -45,7 +45,7 @@ Une fois que vous avez terminé l’installation de l’outil de planification S
 4. Répondez à chaque rubrique en sélectionnant les critères appropriés pour votre conception, puis cliquez sur **Suivant** pour passer à la page suivante de l’Assistant. Cliquez **sur Retour** pour apporter des modifications sur les pages précédentes.
 
     > [!TIP]
-    > Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin  de détails supplémentaires, cliquez sur En savoir plus pour lire des informations détaillées dans la documentation de planification Skype Entreprise Server 2015 sur le site web Microsoft. Vous devez avoir une connectivité Internet pour accéder au site web de Microsoft.
+    > Chaque page contient une description des critères de sélection et des recommandations basées sur les pratiques préférées et la planification de la capacité. Si vous avez besoin  de détails supplémentaires, cliquez sur En savoir plus pour lire des informations détaillées dans la documentation de planification Skype Entreprise Server 2015 sur le site web Microsoft. Vous devez avoir une connectivité Internet pour accéder au site web Microsoft.
 
 5. Sélectionnez les options appropriées pour votre conception. Une fois les critères initiaux définis, une page viendra confirmer que votre vue d’ensemble des fonctionnalités est complète.
 

@@ -10,7 +10,7 @@ ms.reviewer: svemu
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.analyticsandreports.overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,22 +18,22 @@ description: Dans cet article, vous allez découvrir les Teams disponibles dans 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 02353f540a3739f46e8e693ab4e83141b0bdfd3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523825"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583548"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Analyses et rapports Microsoft Teams
 
-Une nouvelle expérience d’analyse et de rapport pour Microsoft Teams est disponible dans le Centre Microsoft Teams’administration. Vous pouvez exécuter différents rapports pour obtenir des informations sur la façon dont les utilisateurs de votre organisation utilisent Teams. Par exemple, vous pouvez voir combien d’utilisateurs communiquent par le biais de messages de canal et de conversation, ainsi que les types d’appareils qu’ils utilisent pour se connecter à Teams. Votre organisation peut utiliser les informations des rapports pour mieux comprendre les modèles d’utilisation, aider à prendre des décisions professionnelles et informer les efforts de formation et de communication.
+Une nouvelle expérience d’analyse et de rapport pour Microsoft Teams est disponible dans le Centre Microsoft Teams’administration. Vous pouvez exécuter différents rapports pour obtenir des informations sur la façon dont les utilisateurs de votre organisation utilisent Teams. Par exemple, vous pouvez voir le nombre d’utilisateurs qui communiquent par le biais de messages de canal et de conversation, ainsi que les types d’appareils qu’ils utilisent pour se connecter à Teams. Votre organisation peut utiliser les informations des rapports pour mieux comprendre les modèles d’utilisation, aider à prendre des décisions professionnelles et informer les efforts de formation et de communication.
 
 ## <a name="how-to-access-the-reports"></a>Comment accéder aux rapports
 
 Pour accéder aux rapports, vous devez être un administrateur global dans Microsoft 365 ou Office 365, un lecteur global dans Microsoft 365 ou Office 365, un administrateur de service Teams ou un administrateur de Skype Entreprise. Pour en savoir plus sur Teams rôles d’administrateur et les rapports auquel chaque rôle d’administrateur peut accéder, voir Utiliser Teams rôles d’administrateur pour [gérer les Teams.](../using-admin-roles.md)
 
-Dans le centre Microsoft Teams d’administration, dans le panneau de navigation gauche, sélectionnez Analyse & **rapports,** puis sous **Rapport,** sélectionnez le rapport que vous voulez exécuter.
+Dans le centre Microsoft Teams d’administration, dans le panneau de navigation gauche, sélectionnez Analyse **&** rapports, puis sous **Rapport,** sélectionnez le rapport que vous voulez exécuter.
 
 > [!NOTE]
 > Les rapports du Microsoft Teams d’administration sont différents des rapports d’activité Teams qui font partie des rapports Microsoft 365 dans le Centre d’administration Microsoft 365. Pour plus d’informations sur les rapports d’activité du Centre d’administration Microsoft 365, voir Teams [rapports d’activité dans le Centre d’administration Microsoft 365](../teams-activity-reports.md)

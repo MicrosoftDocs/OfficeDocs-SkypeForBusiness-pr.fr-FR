@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 'Vous pouvez activer la prise en charge de fonctionnalités spécifiques qui nécessitent le déploiement d’autres serveurs en associant les rôles serveur au pool frontal pour le moment. Vous pouvez également associer les rôles serveur et le pool frontal ultérieurement. Les rôles serveur pouvant être associés à un pool frontal sont notamment les suivants :'
-ms.openlocfilehash: c431ed232d3be1532ac4d1598dbe352ef714c7ab0fce43ea1536b731d34ef548
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aaf43da757283779899a9efab5bcff0751ee48cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608241"
 ---
-# <a name="add-front-end-associations-2010"></a>Ajouter des associations au pool frontal 2010
+# <a name="add-front-end-associations-2010"></a>Ajouter des associations au pool frontal 2010
 
 Vous pouvez activer la prise en charge de fonctionnalités spécifiques qui nécessitent le déploiement d’autres serveurs en associant les rôles serveur au pool frontal pour le moment. Vous pouvez également associer les rôles serveur et le pool frontal ultérieurement. Les rôles serveur pouvant être associés à un pool frontal sont notamment les suivants :
 

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: La région réseau* sont les concentrateurs réseau ou les dorsales utilisées dans la configuration du contrôle d’admission des appels, du système E9-1-1 et du contournement de média.
-ms.openlocfilehash: 9e38528dd34f25fa2b70b51485657168868d6628
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 0fc7b1cdc41f73535aef83e6ec46f9bd4622da48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232799"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630578"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gestion des régions réseau dans Skype Entreprise Server
 
@@ -47,7 +47,7 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 ### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région réseau à l’aide Windows PowerShell cmdlets
 
-Vous pouvez afficher les informations de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegion.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher les informations de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegion.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ### <a name="to-view-network-region-information"></a>Pour afficher les informations de région réseau
 
@@ -57,7 +57,7 @@ Vous pouvez afficher les informations de région réseau à l’Windows PowerShe
     
     Cette action a pour effet de renvoyer des informations similaires à ce qui suit :
     
-    Identité : Pacifique nord-ouest<br/>
+    Identité : Pacifique (Nord-Ouest)<br/>
     Description :<br/>
     BypassID : 3b232b84-2c1d-4da2-8181-e9330bafebe9<br/>
     CentralSite : Site:Redmond1<br/>

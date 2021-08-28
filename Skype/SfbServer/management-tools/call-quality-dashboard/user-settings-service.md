@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 'Résumé : Découvrez le service d’Paramètres utilisateur, qui fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: c037024c8fe336c3614dd9daf6ee02370337ad5c6c44b45c783044cc421f626f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec710b018e05ac887214d180bb76b847fec1cf10
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315560"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608041"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>User Paramètres Service for Call Quality Dashboard (CQD)
  
@@ -32,7 +32,7 @@ Les paramètres utilisateur sont des paires clé-valeur que les applications peu
   
  **Paramètres globaux**
   
-Les paramètres globaux sont les paramètres utilisateur de l’utilisateur système, et tous les utilisateurs y ont accès en lecture seule. Les paramètres globaux sont des constantes : ils sont créés lors de la création du référentiel et ne changent jamais.
+Les paramètres globaux sont les paramètres utilisateur que possède l’utilisateur système et tous les utilisateurs y ont accès en lecture seule. Les paramètres globaux sont des constantes : ils sont créés lors de la création du référentiel et ne changent jamais.
   
 Chaque utilisateur peut remplacer les paramètres globaux en créant des paramètres utilisateur avec les mêmes clés. Lorsque l’application demande les paramètres utilisateur effectifs, l’API renvoie un ensemble de paramètres globaux fusionnés avec les paramètres utilisateur, chaque paramètre utilisateur ayant pour effet de se supercaler au paramètre global respectif si les clés sont identiques. L’API peut également renvoyer uniquement les paramètres utilisateur afin que les applications trouvent les paramètres qui sont à la place. 
   

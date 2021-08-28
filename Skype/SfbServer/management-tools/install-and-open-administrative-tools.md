@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cette rubrique décrit comment installer et ouvrir les outils d’administration dont vous avez besoin pour déployer et gérer Skype Entreprise.
-ms.openlocfilehash: 56b92504ab9858e87d63b172bcefcc1e5320259374853e5b9028bc6da8ac97b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70f7732c9db49f5a089e9d5008a27902e5aac51c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350126"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630478"
 ---
 # <a name="install-and-open-administrative-tools"></a>Installer et ouvrir les outils d’administration
 
@@ -53,7 +53,7 @@ Utilisez la procédure suivante pour démarrer localement l’Assistant Déploie
 **Pour démarrer l’Assistant Skype Entreprise Server déploiement**
 
 1. Log on the computer where the Skype Entreprise Server Deployment Wizard is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.
-2. Cliquez **sur Démarrer,** sur Tous les **programmes,** **sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
+2. Cliquez **sur** Démarrer, sur Tous les **programmes,** **sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
 
 
 ## <a name="topology-builder"></a>Générateur de topologies 

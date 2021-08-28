@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Découvrez comment sélectionner les langues du standard automatique d’audioconférence pour un numéro d’audioconférence dans Skype Entreprise Online.
-ms.openlocfilehash: 044d05ec8b67f1e7732140a90c47b0666568fafe241fe3a45f2d02c46824e903
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15eca114c4f3d108a078642e6af23923fe817f66
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326990"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584428"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Définir les langues du standard automatique pour l’Audioconférence dans Skype Entreprise Online
 
@@ -47,9 +47,9 @@ Choisir une langue principale et jusqu’à quatre langues secondaires. La langu
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du attendant automatique de conférence
 
-Vous devez être un [administrateur global ou un](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Skype Entreprise [administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer cette étape.
+Vous devez être administrateur [global ou administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Skype Entreprise [pour](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) effectuer cette étape.
     
-1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez sur **portail hérité.** Une fois dans l’ancien portail, sélectionnez **Audioconférence,** puis cliquez sur **Pont Microsoft.**
+1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez sur **portail hérité.** Une fois dans le portail hérité, **sélectionnez Audioconférence,** puis cliquez sur **Pont Microsoft.**
     
 2. Sélectionnez le numéro de téléphone de l’audioconférence dans la liste, puis dans le volet Action, cliquez **sur Définir les langues.** Il est uniquement possible de modifier les langues des numéros d’audioconférence dédiés.  
     
@@ -72,8 +72,8 @@ Vous devez être un [administrateur global ou un](https://support.office.com/art
 
 Pour automatiser cette étape, vous pouvez utiliser les cmdlets [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) et [Get-CsOnlineDialInConferencingLanguagesSupported.](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported)
   
-Pour plus d’informations, voir Utiliser Windows PowerShell pour effectuer les tâches courantes [de gestion Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Pour en savoir plus, voir [Utiliser Windows PowerShell pour effectuer](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) les tâches courantes de Skype Entreprise Online
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

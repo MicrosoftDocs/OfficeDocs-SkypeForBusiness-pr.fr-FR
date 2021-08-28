@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Dans un environnement mixte, si vous créez un nouveau serveur d’applications approuvé, vous devez définir le pool du saut suivant comme un pool Skype Entreprise Server 2019. Dans un environnement mixte, le pool hérité et le pool Skype Entreprise Server 2019 apparaissent dans la liste liste. La sélection du pool hérité n’est pas prise en charge.
-ms.openlocfilehash: 6db3aaadfe028e6d1975521ecacb52ad26754b7bcf8766af345d4786bc825f31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9965af757a570cfd787bb482a932d2817fd07ab0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296091"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584468"
 ---
 # <a name="configure-trusted-application-servers"></a>Configurer les serveurs d’applications approuvées
 
@@ -29,7 +29,7 @@ Dans un environnement mixte, si vous créez un nouveau serveur d’applications 
 
 1. Ouvrez le Générateur de topologie.
     
-2. Dans le volet gauche, cliquez avec le bouton droit sur **Serveurs d’applications** de confiance et cliquez sur **Nouveau pool d’applications fiables.**
+2. Dans le volet gauche, cliquez avec le bouton droit sur **Serveurs d’applications** de confiance et cliquez sur **Nouveau pool d’applications de confiance.**
     
 3. Entrez le **nom de pool du** pool d’applications de confiance et choisissez s’il s’appliquera à un seul serveur ou à plusieurs serveurs. 
     

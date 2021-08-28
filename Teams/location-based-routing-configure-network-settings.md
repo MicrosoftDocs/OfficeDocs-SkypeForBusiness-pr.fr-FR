@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment créer et configurer des régions, des sites et des sous-réseaux réseau pour Location-Based routage direct.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 06bccad77991aa4e9d11160bfd7b7b3e6759189f1160100ebd064e3c133e965d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aa696a0058c34be9b3b67746c8a215f6532c2f0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584508"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurer les paramètres de réseau pour le routage géodépendant
 
@@ -38,13 +38,13 @@ Une région réseau contient un ensemble de sites réseau et interconnecte diff�
 
 Un site réseau représente un emplacement où votre organisation dispose d’un lieu physique, tel qu’un bureau, un ensemble de bâtiments ou un campus. Vous devez associer chaque site réseau de votre topologie à une région réseau. Pour savoir comment configurer des sites réseau, voir Gérer votre topologie de réseau pour [les fonctionnalités cloud dans Teams.](manage-your-network-topology.md)
 
-Une meilleure pratique en matière Location-Based routage des réseaux consiste à créer un site distinct pour chaque emplacement qui dispose d’une connectivité RSTN unique. Vous pouvez créer un site activé pour le Location-Based routage ou un site non activé pour l'Location-Based routage. Par exemple, vous pouvez créer un site non activé pour le routage Location-Based afin d’autoriser les utilisateurs activés pour le routage Location-Based à effectuer des appels RSTN lorsqu’ils sont en itinérance sur ce site.
+Une meilleure pratique en matière Location-Based routage des réseaux consiste à créer un site distinct pour chaque emplacement qui dispose d’une connectivité RSTN unique. Vous pouvez créer un site activé pour le routage Location-Based ou un site non activé pour l'Location-Based routage. Par exemple, vous pouvez créer un site non activé pour le routage Location-Based afin d’autoriser les utilisateurs activés pour le routage Location-Based à effectuer des appels RSTN lorsqu’ils sont en itinérance vers ce site.
 
 ## <a name="define-network-subnets"></a>Définir des sous-réseaux réseau
 
 Chaque sous-réseau doit être associé à un site réseau spécifique. Vous pouvez associer plusieurs sous-réseaux au même site réseau, mais vous ne pouvez pas associer plusieurs sites au même sous-réseau. Pour savoir comment configurer des sous-réseaux, voir Gérer votre topologie de réseau pour les fonctionnalités cloud dans [Teams.](manage-your-network-topology.md)
 
-Pour Location-Based routage, les sous-réseaux IP à l’emplacement où les points de terminaison Teams peuvent se connecter au réseau doivent être définis et associés à un réseau défini pour appliquer une dérivation toll. Cette association de sous-réseaux permet Location-Based routage des points de terminaison pour localiser les points de terminaison géographiquement et déterminer si un appel PSTN donné doit être autorisé. Les sous-réseaux IPv6 et IPv4 sont pris en charge. Pour déterminer si un point de terminaison Teams est situé sur un site, l'Location-Based routage vérifie d’abord la recherche d’une adresse IPv6 correspondante. Si une adresse IPv6 n’est pas présente, Location-Based routage recherche une adresse IPv4.
+Pour Location-Based routage, les sous-réseaux IP à l’emplacement où les points de terminaison Teams peuvent se connecter au réseau doivent être définis et associés à un réseau défini pour appliquer la dérivation toll. Cette association de sous-réseaux permet Location-Based routage des points de terminaison pour localiser les points de terminaison géographiquement et déterminer si un appel PSTN donné doit être autorisé. Les sous-réseaux IPv6 et IPv4 sont pris en charge. Pour déterminer si un point de terminaison Teams est situé sur un site, l'Location-Based routage vérifie d’abord la recherche d’une adresse IPv6 correspondante. Si une adresse IPv6 n’est pas présente, Location-Based routage recherche une adresse IPv4.
 
 ## <a name="define-trusted-ip-addresses-external-subnets"></a>Définir des adresses IP fiables (sous-réseaux externes)
 
@@ -56,6 +56,6 @@ Si l’adresse IP externe de l’utilisateur correspond à une adresse IP qui se
 
 Allez à [Activer Location-Based routage pour le routage direct.](location-based-routing-enable.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

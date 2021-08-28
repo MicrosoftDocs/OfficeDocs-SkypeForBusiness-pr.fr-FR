@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Choisissez les premiers utilisateurs pour la phase d’essai de Teams adoption, puis recueillez des commentaires pour votre projet.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60314eb711fdcdf0f48ec607486acc119f3efcac575c10bec79c80c59d65dc22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbc7deee746679b4e82b34dae8a0dd89b07ed37d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323926"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583578"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
 
@@ -46,7 +46,7 @@ Utilisez les composants des Microsoft 365 ou Office 365 recueillir des commentai
 ![Icône montrant les points de décision](media/teams-adoption-decision-icon.png) Décision : si votre organisation a déjà un investissement dans un réseau Yammer, vous pouvez l’utiliser comme forum de commentaires pour votre programme de premiers utilisateurs. Si ce n’est pas le cas et que votre premier programme d’adoption compte moins de 5 000 membres, créez une équipe dans Teams pour recueillir des commentaires et fournir une formation.
   
 > [!Note]
-> Certaines organisations combineront les canaux pour les commentaires des premiers utilisateurs dans l’équipe de champions du travail d’équipe. Il s’agit d’une bonne approche, car de nombreux utilisateurs précoces risquent de devenir des champions à l’avenir, et elle permettra de créer une communauté plus forte. 
+> Certaines organisations combineront les canaux pour les commentaires des premiers utilisateurs dans l’équipe de champions du travail d’équipe. Il s’agit d’une bonne approche, car de nombreux utilisateurs précoces risquent de devenir des champions à l’avenir et elle permettra de créer une communauté plus forte. 
 
 
 ![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) prise en charge de [l’intégration.](teams-adoption-onboard-support.md)

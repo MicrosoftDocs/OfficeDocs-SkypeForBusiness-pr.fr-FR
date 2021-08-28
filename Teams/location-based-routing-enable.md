@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Découvrez comment activer Location-Based routage direct, notamment l’activer pour les utilisateurs, les sites réseau, les configurations de passerelle et les stratégies d’appel.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8dc1c36c0a82bb7323f5919c788508a4ef028f21
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 51a7aa95eb74e7baa199ac8d43dd5f89b352c95c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523815"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584498"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
-Avant de suivre les étapes de cet article, assurez-vous que vous avez lu Plan [de routage Location-Based](location-based-routing-plan.md) pour le routage direct et que vous avez suivi les étapes de configuration des paramètres réseau pour le Location-Based [routage.](location-based-routing-configure-network-settings.md)
+Avant de suivre les étapes de cet article, assurez-vous que vous avez lu Plan [de routage Location-Based](location-based-routing-plan.md) pour le routage direct et que vous avez suivi les étapes de la procédure Configurer les paramètres réseau pour le [Location-Based routage.](location-based-routing-configure-network-settings.md)
 
 Cet article décrit comment activer Location-Based routage pour le routage direct. Une fois que vous Système téléphonique un routage direct et que vous avez installé des régions, des sites et des sous-réseaux réseau, vous êtes prêt à activer Location-Based routage. Pour suivre les étapes de cet article, vous devez être familiarisé avec les cmdlets PowerShell. Pour en savoir plus, voir [Teams vue d’ensemble de PowerShell.](teams-powershell-overview.md)
 
@@ -60,7 +60,7 @@ Pour plus d’informations, [voir Gérer votre topologie de réseau.](manage-you
 
 Activez Location-Based routage vers des passerelles qui routent des appels vers des passerelles PSTN qui routent des appels vers le réseau PSTN et associez le site réseau où se trouve la passerelle. 
 
-1. Dans le groupe de navigation de gauche, cliquez sur **l’onglet**  >   **SBCs.**
+1. Dans le navigateur de gauche, cliquez sur l’onglet  >   **SBCs.**
 2. Sélectionnez le SBC, puis cliquez sur **Modifier.** 
 3. Sous **Routage basé sur l’emplacement et optimisation des médias,** **activez Activer le routage basé sur l’emplacement.**
 4. Spécifiez l’ID de site de la passerelle, puis définissez le mode de dérivation.
@@ -92,7 +92,7 @@ Pour en savoir plus, [consultez les stratégies d’appel dans Teams.](teams-cal
     ```
     
     Lorsque vous affectez des utilisations PSTN à une stratégie de routage vocale, assurez-vous d’effectuer l’une des tâches suivantes :
-    - Utiliser les utilisations PSTN associées aux itinéraires vocaux qui utilisent une passerelle PSTN locale vers le site
+    - Utiliser les utilisations PSTN associées aux itinéraires vocaux qui utilisent une passerelle RSTN locale vers le site
     - Utilisez les utilisations PSTN associées aux itinéraires vocaux qui utilisent une passerelle PSTN située dans une région où Location-Based restrictions de routage ne sont pas nécessaires.
 
     Dans cet exemple, nous créons deux stratégies de routage voix et leur affectons des utilisations PSTN. 
@@ -114,7 +114,7 @@ Pour en savoir plus, [consultez les stratégies d’appel dans Teams.](teams-cal
     ```
 ### <a name="enable-location-based-routing-for-network-sites"></a>Activer Location-Based routage pour les sites réseau
 
-1.  Utilisez l’cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) pour activer le routage Location-Based et associer des stratégies de routage voix à vos sites réseau qui doivent appliquer des restrictions de routage.
+1.  Utilisez l’cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) pour activer Location-Based routage et associer des stratégies de routage voix à vos sites réseau qui doivent appliquer des restrictions de routage.
     ```PowerShell
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -127,9 +127,9 @@ Pour en savoir plus, [consultez les stratégies d’appel dans Teams.](teams-cal
     ```
     Le tableau suivant indique les sites activés pour le Location-Based routage des sites dans cet exemple.
 
-    ||Site 1 (Syz)  |Site 2 (Syz)  |
+    ||Site 1 (Syz)  |Site 2 (Sod)  |
     |---------|---------|---------|
-|Nom du site    |Site 1 (Syz)    |Site 2 (Syz)   
+|Nom du site    |Site 1 (Syz)    |Site 2 (Sod)   
     |EnableLocationBasedRouting    |Vrai    |Vrai    |
     |Sous-réseaux     |Sous-réseau 1 (Syz)     |Sous-réseau 2 (Syz)     |
 
@@ -140,7 +140,7 @@ Pour en savoir plus, [consultez les stratégies d’appel dans Teams.](teams-cal
     ```PowerShell
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignalingPort <listening port used> -Enabled $true 
     ```
-    Si plusieurs passerelles sont associées à un système (par exemple, passerelle ou PBX), modifiez chaque passerelle pour activer Location-Based restrictions de routage. 
+    Si plusieurs passerelles sont associées à un système (par exemple, passerelle ou PBX), modifiez chaque passerelle pour activer les Location-Based de routage. 
 
     Dans cet exemple, nous créons une configuration de passerelle pour chaque passerelle. 
     ```PowerShell
@@ -148,7 +148,7 @@ Pour en savoir plus, [consultez les stratégies d’appel dans Teams.](teams-cal
     ```
     Pour plus d’informations, [voir Configurer le routage direct.](direct-routing-configure.md)
     
-2. Utilisez la cmdlet [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) pour activer Location-Based routage pour vos passerelles qui doivent appliquer des restrictions de routage. 
+2. Utilisez [l’cmdlet Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) pour activer Location-Based routage pour vos passerelles qui doivent appliquer des restrictions de routage. 
 
     Activez Location-Based routage vers des passerelles qui routent des appels vers des passerelles PSTN qui routent des appels vers le réseau PSTN et associez le site réseau où se trouve la passerelle.
 
@@ -156,12 +156,12 @@ Pour en savoir plus, [consultez les stratégies d’appel dans Teams.](teams-cal
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
-    Dans cet exemple, nous prenons l'Location-Based routage des utilisateurs pour chaque passerelle associée aux passerelles RSTN sur les sites des centres d’information aux états-unis. 
+    Dans cet exemple, nous avons activé Location-Based routage des utilisateurs pour chaque passerelle associée aux passerelles RSTN dans les sites des centres d’information et des entreprises. 
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
-    N’activez pas Location-Based routage pour les passerelles qui ne routent pas les appels vers le RSTN. Toutefois, vous devez toujours associer la passerelle au site réseau où se trouve le système. En effet, Location-Based restrictions de routage doivent être appliquées pour les appels RSTN qui atteignent des points de terminaison connectés via cette passerelle. Dans cet exemple, le Location-Based routage des données n’est pas activé pour chaque passerelle associée aux systèmes PBX dans les sites Voséraux.
+    N’activez pas Location-Based routage pour les passerelles qui ne routent pas les appels vers le RSTN. Toutefois, vous devez toujours associer la passerelle au site réseau où se trouve le système. En effet, Location-Based restrictions de routage doivent être appliquées pour les appels RSTN qui atteignent des points de terminaison connectés via cette passerelle. Dans cet exemple, le Location-Based routage des données n’est pas activé pour chaque passerelle associée aux systèmes PBX dans les sites Vostâches et Vos centres d’information.
 
     ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 

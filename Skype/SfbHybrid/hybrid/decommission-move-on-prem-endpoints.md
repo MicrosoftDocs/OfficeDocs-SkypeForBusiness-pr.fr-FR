@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Migrez les points de terminaison d’application hyrid avant de désaffecter Skype Entreprise environnement local.
-ms.openlocfilehash: f655c232e8502e6309f57ce88af6ca0eebce9a43
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 2968cdb5ecec3bffb22fffaf43c77e97ab8004d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583418"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>Migrer des points de terminaison d’application hybride avant de désaffecter votre environnement local
 
@@ -41,7 +41,7 @@ Cet article explique comment déplacer les points de terminaison d’application
 
 ## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>Migrer tous les points de terminaison d’application hybride requis de l’local vers le mode en ligne
 
-Avant de pouvoir déplacer ces points de terminaison en ligne, vous devez vous assurer que vous avez mis à jour les enregistrements DNS pour qu’ils pointent vers Microsoft 365 pour tous les domaines sip utilisés par les points de terminaison. N’ignorez pas qu’une fois que vous mettez à jour le DNS pour pointer vers Microsoft 365, les points de terminaison d’application hybride existants ne seront plus découvrables tant que vous n’aurez pas terminé cette étape. Étant donné que cette étape (création de comptes de ressources en ligne) n’est pas possible si les enregistrements DNS pointent vers l’environnement local, vous devez planifier les deux étapes 2 et 3 dans la même fenêtre de maintenance. Pour plus d’informations, [voir Désactiver votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
+Avant de pouvoir déplacer ces points de terminaison en ligne, vous devez vous assurer que vous avez mis à jour les enregistrements DNS pour qu’ils pointent vers Microsoft 365 pour tous les domaines sip utilisés par les points de terminaison. N’ignorez pas qu’une fois que vous mettez à jour le DNS pour qu’il pointe vers Microsoft 365, tous les points de terminaison d’application hybride existants ne seront plus découvrables tant que vous n’aurez pas terminé cette étape. Étant donné que cette étape (création de comptes de ressources en ligne) n’est pas possible si les enregistrements DNS pointent vers l’environnement local, vous devez planifier les deux étapes 2 et 3 dans la même fenêtre de maintenance. Pour plus d’informations, [voir Désactiver votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
 
 1. Récupérez et exportez les paramètres du point de terminaison de l’application hybride sur site en exécutant la commande PowerShell Skype Entreprise Server suivante :
 

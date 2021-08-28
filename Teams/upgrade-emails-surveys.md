@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Exemples d’e-mails et d’enquêtes à utiliser en conjunciton avec le plan d’action en dix étapes accélérée pour la mise à niveau d’Skype Entreprise à Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c94094720a68bf14c0c6b3f66d8b45c4a7a3251cd1159645b1226a711d562a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583468"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de courriers électroniques et d’enquêtes pour les communications De base de mise à niveau
 
@@ -84,7 +84,7 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>Rappeler aux utilisateurs de recevoir un courrier électronique à l’étape 6
 
-Ligne d’objet : RAPPEL : Préparez votre mise à niveau vers Teams
+Ligne d’objet : RAPPEL : Préparez-vous pour la mise à niveau vers Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indiquez si vous êtes qualifié pour effectuer les activités suivantes dans Teams et s’il existe une ou plusieurs activités dont vous souhaitez en savoir plus.
 
-| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | N/A | Vous ne savez pas ou ne vous connaissez pas |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | Très qualifié | Assez qualifiée | Il n’est pas du tout qualifié | Vous souhaitez en savoir plus | S/O | Vous ne savez pas ou ne vous connaissez pas |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Utiliser des Teams messagerie instantanée/discuter avec d’autres personnes | | | | | | | | | | |
 | Utiliser des Teams pour les réunions en ligne | | | | | | | | | | |

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Préparez et implémentez la désactivation de TLS 1.0 et 1.1 dans vos environnements.
-ms.openlocfilehash: 9bb737466595420770c4374d7d1b76bcc0319e38d188f550fb284b686df7e19f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608081"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Désactiver TLS 1.0/1.1 dans Skype Entreprise Server 2015
 
@@ -56,7 +56,7 @@ Microsoft a produit un livre blanc sur TLS disponible ici [et](https://cloudblog
     - Semi-Annual canal différé, 16 \. 0 \. 8431 \. 2242 ou supérieur
 - Skype Entreprise mac 16.15 ou supérieur
 - Skype Entreprise pour iOS et Android 6.19 ou version supérieure
-- Salles Microsoft Teams (précédemment appelé Skype Room System V2 SRS V2) 4.0.64.0 (décembre 2018) ou une édition supérieure
+- Salles Microsoft Teams (précédemment appelé Skype Room System V2 SRS V2) 4.0.64.0 (décembre 2018) ou supérieur
 - Surface Hub mise à jour pour l’édition Team basée sur KB4499162 (mai 2019, version du système d’exploitation 15063.1835) ou version supérieure
 - Skype Web App 2015 CU6 HF2 ou une valeur supérieure (est intégré au serveur)
 
@@ -121,7 +121,7 @@ Sauf cas mentionné ci-dessus, une fois que les serveurs hors étendue TLS 1.0 e
 
 À un niveau élevé, alors que Skype Entreprise Server 2019 est prêt pour la procédure d’installation, Skype Entreprise Server 2015 nécessite l’installation de cu9, l’application des mises à jour prérequises à .NET et SQL, le déploiement des clés de Registre prérequises et enfin une série distincte de mises à jour de configuration du système d’exploitation (c’est-à-dire la désactivation de TLS 1.0 et 1.1 via l’importation de fichiers du Registre). Il est essentiel de terminer l’installation de toutes les conditions préalables, y compris Skype Entreprise Server 2015 CU6 HF2, avant de désactiver TLS 1.0 et 1.1 sur n’importe quel serveur de votre environnement. Chaque serveur Skype Entreprise, y compris le rôle Edge et les serveurs SQL principal, nécessite les mises à jour. Assurez-vous également que tous les clients pris en charge (dans l’étendue) ont été mis à jour vers les versions minimales requises. N’oubliez pas également de mettre à jour les stations de travail de gestion.
 
-Nous voulons suivre l’ordre habituel des opérations de « intérieur » pour la mise à niveau Skype Entreprise serveurs. Traitez les pools directeurs, la conversation permanente et les pools associés de la même manière que normalement. L’ordre et les méthodes de mise à niveau sont [traités ici](topology.md) et [ici.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+Nous voulons suivre l’ordre habituel des opérations de « inside out » pour la mise à niveau Skype Entreprise serveurs. Traitez les pools directeurs, la conversation permanente et les pools associés de la même manière que normalement. L’ordre et les méthodes de mise à niveau sont [traités ici](topology.md) et [ici.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
 
 ### <a name="high-level-process"></a>Processus de haut niveau
 
@@ -154,7 +154,7 @@ Une mise à jour complète des dépendances est nécessaire avant de commencer �
 
 1. Installez la mise Skype Entreprise Server cu9 sur tous les serveurs. 
     1. Installez la mise à jour sur les composants à l’aide du programme de mise à jour.
-    2. Mettre à jour les bases de données en fonction des procédures documentées. Pour Skype Entreprise Server 2015, voir la 3061064 [.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+    2. Mettre à jour les bases de données en fonction des procédures documentées. For Skype Entreprise Server 2015, see KB [3061064](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
     3. Valider les fonctionnalités du produit dans le déploiement avant d’apporter d’autres modifications.
 2. Téléchargez le programme d’installation hors connexion .NET 4.7. 
     1. Référence : [https://www.microsoft.com/download/details.aspx?id=55167](https://www.microsoft.com/download/details.aspx?id=55167)
@@ -470,7 +470,7 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
 
 **Déploiement de nouveaux serveurs Édition Standard ou pools Êdition Entreprise une fois que TLS 1.0 et 1.1 ont été désactivés dans votre environnement.**
 
-**Option 1 :** Utilisez [SmartSetup](../../deploy/install/install-skype-for-business-server.md). Notez que nous mettons à jour SmartSetup pour prendre en charge les binaires SQL mis à jour dans une prochaine mise à jour de mise à jour, et que nous mettons à jour cet article à l’avenir.
+**Option 1 :** Utilisez [SmartSetup](../../deploy/install/install-skype-for-business-server.md). Notez que nous mettons à jour SmartSetup pour prendre en charge les SQL binaires mis à jour dans une prochaine mise à jour de mise à jour, et que nous mettons à jour cet article à l’avenir.
 
 **Option 2 :** Préinstaller les instances SQL locales (RTCLOCAL et LYNCLOCAL)
 
@@ -529,6 +529,6 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
     - Ouvrez l’Assistant Déploiement, cliquez sur Installer  ou mettre à **jour Skype Entreprise Server système,** puis cliquez sur Exécuter à l’étape 2 : Configurer ou supprimer Skype Entreprise Server composants
     - Cliquez **sur Suivant** dans la boîte de dialogue Skype Entreprise Server composants.
     ![Fenêtre Configurer Skype Entreprise Server composants](../../media/set-up-skype-for-business-server-components-window.png)
-    - Consultez le journal à l’aide du journal d’affichage et validez que le programme d’installation s’est terminé sans problème. 
+    - Consultez le journal à l’aide du journal d’affichage et validez que l’installation s’est terminée sans problème. 
     - Cliquez sur **Terminer**.
 10. Procédez à l’installation et à la configuration supplémentaires si nécessaire (vous pouvez reprendre les procédures d’installation normales à ce stade).

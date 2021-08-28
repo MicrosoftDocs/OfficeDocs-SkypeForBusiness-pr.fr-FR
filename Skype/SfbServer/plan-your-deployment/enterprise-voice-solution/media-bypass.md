@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Décisions nécessaires à la planification du contournement de média dans Skype Entreprise Server Voix Entreprise. Inclut l’interopérabilité avec le contrôle d’admission des appels (CAC).
-ms.openlocfilehash: 386272fd2a20d2d780f146c8eb03d75878cdf69cdfa27145d42c0421ba4ba91f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284703"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630438"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planifier le contournement de média dans Skype Entreprise
 
@@ -70,7 +70,7 @@ Seuls les clients et périphériques Lync 2010 ou plus nouveaux supportent les i
 > [!IMPORTANT]
 > En plus d’autoriser le contournement de média global, vous devez autoriser le contournement de média individuellement sur chaque jonction RTC. Si le contournement est autorisé globalement mais ne l’est pas pour une jonction RTC donnée, le contournement de média ne sera invoqué pour aucun appel impliquant cette jonction RTC. En outre, lorsque le contournement de média est défini sur **Utiliser les informations de site et de région**, vous devez associer tous les sous-réseaux routables aux sites sur lesquels ils se situent. Si un site compte des sous-réseaux routables pour lesquels le contournement n’est pas souhaité, ces sous-réseaux devront être regroupés dans un nouveau site avant d’autoriser le contournement de média. Vous êtes ainsi assuré que les sous-réseaux non routables recevront un ID de contournement distinct.
 
-## <a name="media-bypass-modes"></a>Modes de contournement de média
+## <a name="media-bypass-modes"></a>Modes de déviation du média
 
 Vous devez configurer le contournement de média à la fois au niveau global et au niveau de chaque jonction PSTN. Lorsque vous activez le contournement de média au niveau global, vous avez le choix entre deux options : **Toujours ignorer** et **Utiliser la configuration des sites et des régions**.
 
@@ -100,7 +100,7 @@ Le contournement de média et le contrôle d’admission des appels (CAC) foncti
 
 - Cac not enabled and Media Bypass set to **Use Site and Region Information**.
 
-    Lorsque **l’utilisation des informations** de site et de région est activée, la détermination du contournement fonctionne essentiellement de la même manière, que le service CAC soit activé ou non. Autrement dit, pour tout appel PSTN donné, le sous-réseau du client est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. De même, le sous-réseau de la passerelle est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. Ce n’est que si les deux ID de contournement sont identiques que le contournement se produit pour l’appel. S’ils ne sont pas identiques, le contournement de média ne se produit pas.
+    Lorsque **l’utilisation des informations** de site et de région est activée, la détermination du contournement fonctionne essentiellement de la même manière, que le service Cac soit activé ou non. Autrement dit, pour tout appel PSTN donné, le sous-réseau du client est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. De même, le sous-réseau de la passerelle est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. Ce n’est que si les deux ID de contournement sont identiques que le contournement se produit pour l’appel. S’ils ne sont pas identiques, le contournement de média ne se produit pas.
 
     Même si le contrôle d’accès au client est désactivé globalement, une stratégie de bande passante doit être définie pour chaque site et lien si vous souhaitez utiliser la configuration de site et de région pour contrôler la décision de contournement. La valeur réelle de la contrainte de bande passante ou de sa modalité n’a pas d’importance. L’objectif final est que le système calcule automatiquement différents ID de contournement à associer à différents paramètres régionaux qui ne sont pas bien connectés. La définition d’une contrainte de bande passante par définition signifie qu’un lien n’est pas bien connecté.
 

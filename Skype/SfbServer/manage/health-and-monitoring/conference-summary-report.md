@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Résumé : Découvrez le rapport de synthèse de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 4b210577efa35634475f82ba6f36a4271780713942f04df69294c55c0924a126
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eac0ebc242afe15635b088f22e34d7677d5ec5f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345621"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630628"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de conférence dans Skype Entreprise Server
  
@@ -37,8 +37,8 @@ Un organisateur « unique » est toute personne qui planifiera au moins une conf
 |Pilar Ackerman  <br/> |7/7/2015 11:00  <br/> |
 |Ken Myer  <br/> |7/7/2015 13:00  <br/> |
 |Pilar Ackerman  <br/> |7/7/2015 14:00  <br/> |
-|Ken Myer  <br/> |2/07/2015 10:00  <br/> |
-|Pilar Ackerman  <br/> |2/07/2015 10:00  <br/> |
+|Ken Myer  <br/> |02/07/2015 10:00  <br/> |
+|Pilar Ackerman  <br/> |02/07/2015 10:00  <br/> |
    
 Le rapport de synthèse de conférence indique également le nombre de conférences incluant l’audio et/ou la vidéo.
   
@@ -62,8 +62,8 @@ Les valeurs totales de la plupart des mesures utilisées dans le rapport de synt
 |Pilar Ackerman  <br/> |7/7/2015 11:00  <br/> |
 |Ken Myer  <br/> |7/7/2015 13:00  <br/> |
 |Pilar Ackerman  <br/> |7/7/2015 14:00  <br/> |
-|Ken Myer  <br/> |2/07/2015 10:00  <br/> |
-|Pilar Ackerman  <br/> |2/07/2015 10:00  <br/> |
+|Ken Myer  <br/> |02/07/2015 10:00  <br/> |
+|Pilar Ackerman  <br/> |02/07/2015 10:00  <br/> |
    
 Pour vous faire une meilleure idée du nombre total d’utilisateurs uniques qui ont organisé des conférences, modifiez votre intervalle de temps. Par exemple, au lieu d’examiner les données par mois, examinez-les par jour.
   
@@ -75,7 +75,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres du rapport de synthèse de conférence**
 
-|**Name**|**Description**|
+|**Nom**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -87,9 +87,9 @@ Le tableau suivant contient les informations fournies par le rapport de synthès
   
 **Mesures du rapport de synthèse de conférence**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Toutes les heures** <br/> **Tous les jours** <br/> **Toutes les semaines** <br/> **Tous les mois** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
+|**Toutes les heures** <br/> **Tous les jours** <br/> **Toutes les semaines** <br/> **Mensuelle** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
 |**Nombre total de conférences** <br/> |Non  <br/> |Nombre total de conférences (de quelque type que ce soit) qui se sont tenues. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport des activités de conférence pour la période sélectionnée.  <br/> |
 |**Nombre total de participants** <br/> |Non  <br/> |Nombre total de personnes ayant participé aux conférences. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport des activités de conférence pour la période sélectionnée.  <br/> |
 |**Nombre moyen de participants par conférence** <br/> |Non  <br/> |Nombre moyen de personnes ayant assisté à une conférence donnée. Valeur obtenue en divisant le nombre total de conférences par le nombre total de participants.  <br/> |

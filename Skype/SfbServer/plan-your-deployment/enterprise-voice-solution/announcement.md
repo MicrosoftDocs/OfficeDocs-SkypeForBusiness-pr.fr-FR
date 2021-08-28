@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planification de l’application d’annonce Skype Entreprise Server Voix Entreprise, qui configure l’utilisation des appels téléphoniques vers des numéros de téléphone non assignés dans vos organisations. Inclut les conditions requises pour les fichiers audio.
-ms.openlocfilehash: caec21da11ce4fe44738b57872acc5c1b0533b2536b90304ea83332deae1aeaf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 010e49a8578a6ec2482b454b2fb62ca8718939d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306965"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583908"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planifier l’application Annonce dans Skype Entreprise
 

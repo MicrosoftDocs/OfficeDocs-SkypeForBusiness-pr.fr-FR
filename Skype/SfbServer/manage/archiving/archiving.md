@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Résumé : Découvrez comment gérer l’archivage des Skype Entreprise Server.'
-ms.openlocfilehash: a3d23eefe673f74162e2c23a3d0476c1251ecad7e4719ccc1a7c6347f564deed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7751e8aff9bb9d1f559655671ff56655dc0f188
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320296"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630688"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Gérer l’archivage dans Skype Entreprise Server
 
@@ -60,7 +60,7 @@ Ces stratégies peuvent être définies au niveau global, du site ou de l’util
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>Gérer l’archivage à l’aide du Panneau de Windows PowerShell
 
-Vous pouvez gérer l’archivage à l’aide du Panneau de Windows PowerShell. Le tableau suivant récapitule les cmdlets disponibles pour vous aider à gérer l’archivage. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server Management Shell.](../management-shell.md) 
+Vous pouvez gérer l’archivage à l’aide du Panneau de Windows PowerShell. Le tableau suivant récapitule les cmdlets disponibles pour vous aider à gérer l’archivage. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server Management Shell](../management-shell.md). 
 
 
 |**Applet de commande**|**Description**|
@@ -72,7 +72,7 @@ Vous pouvez gérer l’archivage à l’aide du Panneau de Windows PowerShell. L
 |Invoke-CsArchivingDatabasePurge  <br/> |Purge manuellement les enregistrements de la base de données d’archivage.  <br/> |
 |New-CsArchivingConfiguration  <br/> |Crée un nouvel ensemble de paramètres de messagerie instantanée, qui peuvent être utilisés pour activer ou désactiver l’enregistrement automatique des sessions de messagerie instantanée et pour bloquer les messages instantanés qui ne peuvent pas être archivés.  <br/> |
 |New-CsArchivingPolicy  <br/> |Crée des stratégies d’archivage des sessions de messagerie instantanée. Ces stratégies permettent d’archiver toutes les sessions entre les utilisateurs internes et/ou d’archiver toutes les sessions de messagerie instantanée entre les utilisateurs internes et les partenaires externes.  <br/> |
-|Remove-CsArchivingConfiguration  <br/> |Supprime la collection spécifiée de paramètres d’archivage utilisés pour activer ou désactiver l’enregistrement automatique des sessions de messagerie instantanée et pour bloquer éventuellement les messages instantanés qui ne peuvent pas être archivés.  <br/> |
+|Remove-CsArchivingConfiguration  <br/> |Supprime la collection spécifiée de paramètres d’archivage utilisés pour activer ou désactiver l’enregistrement automatique des sessions de messagerie instantanée et pour éventuellement bloquer les messages instantanés qui ne peuvent pas être archivés.  <br/> |
 |Remove-CsArchivingPolicy  <br/> |Supprime la stratégie d’archivage de messagerie instantanée spécifiée qui détermine si Skype Entreprise Server enregistre automatiquement toutes les sessions de messagerie instantanée qui ont lieu entre les utilisateurs internes et/ou toutes les sessions de messagerie instantanée entre les utilisateurs internes et les partenaires fédérés.  <br/> |
 |Set-CsArchivingConfiguration  <br/> |Modifie une collection existante d’options de configuration de l’archivage de la messagerie instantanée.  <br/> |
 |Set-CsArchivingPolicy  <br/> |Modifie une stratégie d’archivage de messagerie instantanée existante. Une stratégie d’archivage vous permet d’archiver toutes les sessions de messagerie instantanée et les conférences qui ont lieu entre des utilisateurs internes ; vous pouvez également archiver des sessions qui ont lieu entre des utilisateurs internes et des partenaires fédérés.  <br/> |

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Résumé : Lisez cette rubrique pour découvrir comment planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 18e5a3e87dae7f65cb8b58788bd1b1b1be02ccc9c6b1f14492cd7da629e5c790
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301340"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607971"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
  
@@ -40,7 +40,7 @@ Avant de configurer le serveur de conversation permanente pour la haute disponib
     
 - Une instance dédiée de la base de données, située dans l’autre centre de données physique. Cette base de données servira de base SQL Server base de données secondaire de livraison des journaux de bord pour la base de données dans le centre de données principal.
     
-- Une instance de base de données dédiée qui sert de miroir SQL Server pour la base de données secondaire. Désignez éventuellement une SQL Server serveur en tant que témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
+- Une instance de base de données dédiée qui sert SQL Server miroir pour la base de données secondaire. Désignez éventuellement une SQL Server serveur en tant que témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
     
 - Si la conformité du serveur de conversation permanente est activée, trois instances de base de données dédiées supplémentaires sont requises. Leur distribution est identique à celle précédemment décrite pour la base de données de conversation permanente. Bien qu’il soit possible pour la base de données de conformité de partager la même instance SQL Server que la base de données de conversation permanente, des instances autonomes pour la haute disponibilité et la récupération d’urgence sont recommandées.
     
@@ -80,7 +80,7 @@ La figure 1 illustre une topologie de pool de serveurs de conversation permanent
     
   - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non représentée dans le diagramme) sur le site 1.
     
-  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de livraison, sur le site 2.
+  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de réception, sur le site 2.
     
 **Pool de serveurs de conversation permanente étiré lorsque les centres de données sont localisés géographiquement avec une bande passante élevée/faible latence**
 
@@ -104,7 +104,7 @@ La figure 2 illustre une topologie de pool de serveurs de conversation permanent
     
   - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non représentée dans le diagramme) sur le site 1.
     
-  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de livraison, sur le site 2.
+  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de réception, sur le site 2.
     
 **Pool de serveurs de conversation permanente étiré lorsque les centres de données sont localisés géographiquement avec une bande passante faible/latence élevée**
 

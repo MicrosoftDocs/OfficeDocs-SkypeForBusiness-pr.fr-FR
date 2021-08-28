@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Découvrez les serveurs de médiation dans Skype Entreprise Server, notamment ses topologies pris en charge et ses relations avec les trunks M:N, le contournement de média et le contrôle d’admission des appels.
-ms.openlocfilehash: 9e333486eeae4831604a4e4593dc0a65b4e6588eb38cc08df1b9c2a7ee9dcdcd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6113bf05d788620c2ac0b4e91f74b4e347ecc121
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284654"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608011"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Composant serveur de médiation dans Skype Entreprise Server
  
@@ -76,7 +76,7 @@ Le serveur de médiation peut être déployé en tant que pool . Ce pool peut ê
     
 - **Contrôleur de frontière de session.** Pour une connexion SIP, l’entité homologue est un contrôleur SBC (Session Border Controller) chez un fournisseur de services de téléphonie Internet. Dans le sens entre le pool de serveurs de médiation et le SBC, le SBC peut recevoir des connexions à partir de n’importe quel serveur de médiation du pool. Dans le sens entre le SBC et le pool, le trafic peut être envoyé à n’importe quel serveur de médiation du pool. Une méthode pour y parvenir consiste à équilibrer la charge DNS, si elle est prise en charge par le fournisseur de services et le SBC. Une autre solution consiste à fournir au fournisseur de services les adresses IP de tous les serveurs de médiation du pool, et le fournisseur de services les met en service dans leur SBC comme une ligne SIP distincte pour chaque serveur de médiation. Le fournisseur de services gère ensuite l’équilibrage de charge pour ses propres serveurs. Tous les fournisseurs de services ou SCS ne peuvent pas prendre en charge ces fonctionnalités. En outre, le fournisseur de services peut facturer des frais supplémentaires pour cette fonctionnalité. En règle générale, chaque branche SIP vers le SBC implique des frais mensuels.
     
-- **IP-PBX.** Dans la direction entre le pool de serveurs de médiation et la terminaison SIP IP-PBX, le PBX IP peut recevoir des connexions à partir de n’importe quel serveur de médiation du pool. Dans le sens du PBX IP vers le pool, le trafic peut être envoyé à n’importe quel serveur de médiation du pool. Étant donné que la plupart des IP-PBXs ne prisent pas en charge l’équilibrage de charge DNS, nous vous recommandons de définir des connexions SIP directes individuelles à partir du SYSTÈME IP-PBX vers chaque serveur de médiation du pool. Le système IP-PBX gère ensuite son propre équilibrage de charge en répartissant le trafic dans le groupe de jonctions. Le groupe de jonctions est supposé avoir un ensemble cohérent de règles de routage sur le système IP-PBX. Vous devez déterminer si un SYSTÈME IP-PBX particulier prend en charge ce concept de groupe de trunks et comment il se coupe avec la redondance et l’architecture de clustering de l’IP-PBX avant de pouvoir déterminer si un cluster de serveur de médiation peut interagir correctement avec un IP-PBX.
+- **IP-PBX.** Dans la direction entre le pool de serveurs de médiation et la terminaison SIP IP-PBX, le PBX IP peut recevoir des connexions à partir de n’importe quel serveur de médiation du pool. Dans le sens du PBX IP vers le pool, le trafic peut être envoyé à n’importe quel serveur de médiation du pool. Étant donné que la plupart IP-PBXs ne pas prendre en charge l’équilibrage de charge DNS, nous vous recommandons de définir des connexions SIP directes individuelles à partir du SYSTÈME IP-PBX vers chaque serveur de médiation du pool. Le système IP-PBX gère ensuite son propre équilibrage de charge en répartissant le trafic dans le groupe de jonctions. Le groupe de jonctions est supposé avoir un ensemble cohérent de règles de routage sur le système IP-PBX. Vous devez déterminer si un SYSTÈME IP-PBX particulier prend en charge ce concept de groupe de trunks et comment il se coupe avec la redondance et l’architecture de clustering de l’IP-PBX avant de pouvoir déterminer si un cluster de serveur de médiation peut interagir correctement avec un IP-PBX.
     
 Un pool de serveurs de médiation doit avoir une vue uniforme de la passerelle homologue avec laquelle il interagit. Cela signifie que tous les membres du pool accèdent à la même définition de passerelle homologue à partir du magasin de configurations et qu’ils ont tous autant de chances d’interagir avec elle pour les appels sortants. Par conséquent, il n’existe aucun moyen de segmenter le pool afin que certains serveurs de médiation communiquent uniquement avec certains homologues de passerelle pour les appels sortants. Si une telle segmentation est nécessaire, un pool distinct de serveurs de médiation doit être utilisé. Ce serait le cas, par exemple, si les fonctionnalités associées dans les passerelles PSTN, jonctions SIP ou systèmes IP-PBX pour interagir avec un pool n’étaient pas présentes (voir plus haut dans cette rubrique).
   
@@ -98,7 +98,7 @@ La capacité du contrôleur de frontière de session E9-1-1 à interagir avec un
   
 ## <a name="media-bypass-and-mediation-server"></a>Contournement de média et serveur de médiation
 
-La déviation du trafic multimédia est une fonctionnalité de Skype Entreprise Server qui permet à un administrateur de configurer le routage des appels pour qu’il circule directement entre le point de terminaison de l’utilisateur et la passerelle du réseau téléphonique commuté (PSTN) sans passer par le serveur de médiation. Le contournement de média améliore la qualité des appels en réduisant la latence, la traduction inutile, le risque de perte de paquets et le nombre de points de défaillance potentiels. Lorsqu’un site distant sans serveur de médiation est connecté à un site central par une ou plusieurs liaisons WAN avec bande passante limitée, le contournement de média réduit les besoins en bande passante en permettant aux médias d’un client d’un site distant de circuler directement vers sa passerelle locale sans avoir à passer d’abord par la liaison wan vers un serveur de médiation sur le site central et vers l’arrière. Cette réduction du traitement multimédia complète également la capacité du serveur de médiation à contrôler plusieurs passerelles.
+La déviation du trafic multimédia est une fonctionnalité Skype Entreprise Server qui permet à un administrateur de configurer le routage des appels pour qu’il circule directement entre le point de terminaison de l’utilisateur et la passerelle du réseau téléphonique commuté (PSTN) sans passer par le serveur de médiation. Le contournement de média améliore la qualité des appels en réduisant la latence, la traduction inutile, le risque de perte de paquets et le nombre de points de défaillance potentiels. Lorsqu’un site distant sans serveur de médiation est connecté à un site central par une ou plusieurs liaisons WAN avec bande passante limitée, le contournement de média réduit les besoins en bande passante en permettant aux médias d’un client d’un site distant de circuler directement vers sa passerelle locale sans avoir à passer d’abord par la liaison wan vers un serveur de médiation sur le site central et vers l’arrière. Cette réduction du traitement multimédia complète également la capacité du serveur de médiation à contrôler plusieurs passerelles.
   
 Le contournement de média et le contrôle d’admission des appels s’excluent mutuellement. Si le contournement de média est utilisé pour un appel, le contrôle d’admission des appels n’est pas effectué pour cet appel. L’hypothèse repose sur le fait qu’aucun lien avec bande passante restreinte n’est impliqué dans l’appel.
   
@@ -148,13 +148,13 @@ Le serveur de médiation est colocalisé par défaut sur le serveur Standard Edi
     
 Lors de la planification, n’oubliez pas de prendre en compte les exigences de traitement multimédia pour les appels PSTN et les conférences A/V qui ne sont pas configurées pour le contournement de média, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels aux heures de pointe qui doivent être pris en charge. S’il n’y a pas assez de processeur, vous devez déployer un pool autonome de serveurs de médiation . Et les passerelles PSTN, les SYSTÈMES IP-PBX et les SCS doivent être divisés en sous-ensembles contrôlés par les serveurs de médiation cococérés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
   
-Si vous avez déployé des passerelles PSTN, des PBX IP ou des contrôleurs de frontière de session (SCS) qui ne sont pas en charge des fonctionnalités correctes pour interagir avec un pool de serveurs de médiation, notamment les suivantes, ils devront être associés à un pool autonome constitué d’un serveur de médiation unique :
+Si vous avez déployé des passerelles PSTN, des PBX IP ou des contrôleurs de frontière de session (SCS) qui ne sont pas en charge des fonctionnalités correctes pour interagir avec un pool de serveurs de médiation, notamment les suivantes, ils devront être associés à un pool autonome constitué d’un seul serveur de médiation :
   
 - Effectuer l’équilibrage de charge DNS (Domain Name System) de couche réseau sur les serveurs de médiation dans un pool (ou router le trafic de manière uniforme vers tous les serveurs de médiation d’un pool)
     
 - Accepter le trafic d’un serveur de médiation dans un pool
     
-Vous pouvez utiliser l’outil de planification Microsoft Lync Server 2013 pour évaluer si la cococation du serveur de médiation avec votre pool frontal peut gérer la charge. Si votre environnement ne remplit pas les conditions requises, vous devez alors déployer un pool de serveurs de médiation autonome.
+Vous pouvez utiliser l’outil de planification Microsoft Lync Server 2013 pour déterminer si la cocation du serveur de médiation avec votre pool frontal peut gérer la charge. Si votre environnement ne remplit pas les conditions requises, vous devez alors déployer un pool de serveurs de médiation autonome.
   
 ### <a name="central-site-and-branch-site-considerations"></a>Considérations relatives au site central et aux sites de succursale
 

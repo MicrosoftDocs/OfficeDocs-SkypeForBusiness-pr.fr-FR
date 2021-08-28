@@ -1,5 +1,5 @@
 ---
-title: Référence d’applet de commande Cloud Connector
+title: Référence d’applet de commande Cloud Connector
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: Le tableau suivant répertorie Skype Entreprise Cloud Connector Edition cmdlets avec une brève description et des liens vers plus d’informations.
-ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 19fc33912075e7737a4fa7fc242e74dd1de92289
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341489"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583728"
 ---
-# <a name="cloud-connector-cmdlet-reference"></a>Référence d’applet de commande Cloud Connector
+# <a name="cloud-connector-cmdlet-reference"></a>Référence d’applet de commande Cloud Connector
  
 > [!Important]
 > Cloud Connector Edition sera retirer le 31 juillet 2021 avec Skype Entreprise Online. Une fois votre organisation mise à niveau vers Teams, découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
@@ -36,9 +36,9 @@ Le tableau suivant répertorie Skype Entreprise Cloud Connector Edition cmdlets 
 |[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |Crée un fichier de disque dur virtuel de base (VHDX) à l’aide d’un client fourni Windows Server 2012 fichier ISO R2. Le fichier VHDX sera utilisé pendant le déploiement deCloud Connector.  <br/> |
 |[Enter-CcUpdate](enter-ccupdate.md) <br/> |Prépare le serveur hôte Cloud Connector pour le processus de mise à jour en le mettant en mode maintenance. L’appliance est « drainée » ; autrement dit, tous les appels existants seront terminés, mais les nouveaux appels sont rejetés.  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |Quitte le mode maintenance des mises à jour sur le serveur hôte Cloud Connector.  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Exporte une configuration Skype Entreprise Cloud Connector Edition vers un fichier local sur le Skype Entreprise Cloud Connector Edition hôte. <br/> |
+|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Exporte une configuration Skype Entreprise Cloud Connector Edition vers un fichier local sur Skype Entreprise Cloud Connector Edition serveur hôte. <br/> |
 |[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |Exporte un exemple de fichier de configuration Cloud Connector (.ini) vers l’annuaire d’appliances d’une appliance Cloud Connector. Vous pouvez modifier et renommer le fichier à utiliser pour votre déploiement.  <br/> |
-|[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> Version 1.4.2 et versions ultérieures  <br/> |Exporte le certificat d’ac racine dans un fichier local sur le serveur hôte Cloud Connector.  <br/> |
+|[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> Version 1.4.2 et versions ultérieures  <br/> |Exporte le certificat d’ac racine vers un fichier local sur le serveur hôte Cloud Connector.  <br/> |
 |[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |Extrait le répertoire de travail sur le serveur hôte Cloud Connector. Tous les fichiers de déploiement sont stockés dans ce répertoire.  <br/> |
 |[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md) <br/> |Indique le répertoire actuel dans lequel les journaux d’une appliance Cloud Connector sont stockés.  <br/> |
 |[Get-CcApplianceStatus](get-ccappliancestatus.md) <br/> Version 2.1 et ultérieures  <br/> |Fournit des informations de diagnostic pour l’appliance Cloud Connector.  <br/> |
@@ -57,7 +57,7 @@ Le tableau suivant répertorie Skype Entreprise Cloud Connector Edition cmdlets 
 |[Renew-CcServerCertificate](renew-ccservercertificate.md) <br/> Version 1.4.2 uniquement  <br/> |Renouvelle les certificats pour Cloud Connector lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré.  <br/> |
 |[Reset-CcCACertificate](reset-cccacertificate.md) <br/> Version 1.4.2 et versions ultérieures  <br/> |Réinitialise les serveurs d’autorité de certification pour installer un nouveau certificat d’autorité de certification.  <br/> |
 |[Restore-CcCredentials](restore-cccredentials.md) <br/> Version 2.1 et ultérieures  <br/> |Nettoie les informations d’identification et vous invite à entrer à nouveau toutes les informations d’identification utilisées pour le déploiement cloud connector actuel.  <br/> |
-|[Search-CcLog](search-cclog.md) <br/> |Recherche les journaux des appels entrants et sortants dans le répertoire des journaux des appliances Cloud Connector  <br/> |
+|[Search-CcLog](search-cclog.md) <br/> |Recherche les journaux des appels entrants et sortants dans l’annuaire des journaux de l’appliance Cloud Connector  <br/> |
 |[Set-CcApplianceDirectory](set-ccappliancedirectory.md) <br/> |Définit le répertoire de travail sur le serveur hôte Cloud Connector. Tous les fichiers de déploiement sont stockés dans ce répertoire.  <br/> |
 |[Set-CcCredential](set-cccredential.md) <br/> |Définit les informations d’identification du déploiement Cloud Connector actuel.  <br/> |
 |[Set-CcExternalCertificateFilePath](set-ccexternalcertificatefilepath.md) <br/> |Spécifie le chemin d’accès où le certificat pour le serveur de médiation ou le serveur Edge est stocké  <br/> |

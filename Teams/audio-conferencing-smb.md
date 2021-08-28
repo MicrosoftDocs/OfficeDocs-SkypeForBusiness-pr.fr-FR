@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment configurer l’audioconférence dans votre petite ou moyenne entreprise pour les personnes qui ont besoin d’utiliser un téléphone pour appeler des réunions. '
-ms.openlocfilehash: 5cb906f1a6c5d5d161cbe98d6b1e81910bd5317aece83f5835a51cbcddf79cdf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db741461da3abc986cbb80ad7c8aa3d1bde4b272
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583638"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Configurer l’audioconférence pour les petites et moyennes entreprises
 
@@ -39,14 +39,14 @@ La licence du module ajout d’Audioconférence peut être appliquée aux utilis
 > [!NOTE]
 > Si vous avez Enterprise E5 ou Microsoft 365 Business Voice, vous ne pourrez pas utiliser l’offre gratuite d’audioconférence, car ces licences incluent déjà l’audioconférence.
 
-Cet article vous explique comment configurer l’audioconférence. Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui appellent à des réunions n’ont pas besoin de licences ou de toute autre configuration. Pour en savoir plus, [consultez l’audioconférence.](audio-conferencing-in-office-365.md)
+Cet article vous explique comment configurer l’audioconférence. Il vous suffit de configurer la fonctionnalité de conférence audio pour les utilisateurs qui comptent planifier ou organiser des réunions. Les participants à la réunion qui appellent à des réunions n’ont pas besoin de licences ou d’une autre configuration. Pour en savoir plus, [consultez l’audioconférence.](audio-conferencing-in-office-365.md)
 
 ## <a name="set-up-audio-conferencing"></a>Configurer l'audioconférence
 
 Lorsque vous définissez l’audioconférence, un numéro de téléphone est automatiquement affecté à votre pont de conférence afin qu’il puisse être utilisé dans les invitations aux réunions. Le numéro de téléphone affecté comme numéro par défaut de votre pont de conférence sera un numéro provenant du pays ou de la région de votre organisation. Ce numéro de téléphone est un numéro gratuit, auquel des frais longue distance peuvent s’appliquer.
 
 > [!NOTE]
-> Vous pouvez également utiliser un numéro gratuit, ce qui nécessite quelques étapes supplémentaires. Pour en savoir plus sur les numéros de [](#audio-conferencing-phone-numbers) téléphone de votre pont de conférence, consultez les numéros de téléphone d’Audioconférence plus loin dans cet article.
+> Vous pouvez également utiliser un numéro gratuit, ce qui nécessite quelques étapes supplémentaires. Pour en savoir plus sur les numéros de [](#audio-conferencing-phone-numbers) téléphone de votre pont de conférence, consultez les numéros de téléphone d’audioconférence plus loin dans cet article.
 
 ### <a name="step-1-get-audio-conferencing-licenses"></a>Étape 1 : obtenir des licences d’audioconférence
 
@@ -111,15 +111,15 @@ Une fois que vous avez votre numéro, attribuez-le à votre pont de conférence.
 
 Ensuite, attribuez le numéro à chaque personne qui sera responsable des réunions. Pour ce faire, Microsoft Teams centre d’administration de l’utilisateur.
 
-1. Dans la barre de navigation gauche du centre Microsoft Teams d’administration, sélectionnez Utilisateurs, cliquez sur le nom d’affichage de l’utilisateur, puis sélectionnez **Modifier.**
+1. Dans le navigation gauche du centre d Microsoft Teams d’administration, sélectionnez **Utilisateurs,** cliquez sur le nom d’affichage de l’utilisateur, puis sélectionnez **Modifier.**
 2. **Sélectionnez** Modifier en côté de **Audioconférence,** puis dans le volet **Audioconférence,** sélectionnez un numéro dans les listes Numéro gratuit ou Numéro gratuit, puis sélectionnez **Appliquer.**  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Audioconférence](audio-conferencing-in-office-365.md)
 - [Configurer l’audioconférence pour Teams](set-up-audio-conferencing-in-teams.md)
 - [Numéros de téléphone pour l’audioconférence](phone-numbers-for-audio-conferencing-in-teams.md)
 - [Questions fréquentes à propos de l’audioconférence](audio-conferencing-common-questions.md)
-- [Obtention des numéros de service](getting-service-phone-numbers.md)
+- [Obtention de numéros de service](getting-service-phone-numbers.md)
 - [Teams licences de modules add-on](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Attribuer des licences aux utilisateurs](/microsoft-365/admin/manage/assign-licenses-to-users)

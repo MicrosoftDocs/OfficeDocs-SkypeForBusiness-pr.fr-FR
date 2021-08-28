@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: Vous pouvez configurer les propriétés de cette page pour faire pointer le serveur Edge vers les emplacements externes du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V.
-ms.openlocfilehash: b2d73fd7e5857175cd67db2b6a016ae17d8e4a052c80c6c3ec4a196b5441c4e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9e4d447646fb14397266f0e0359a7eadb43e93d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583998"
 ---
-# <a name="add-edge-machine-external-ip-2010"></a>Ajouter l’adresse IP 2010 externe de l’ordinateur Edge
+# <a name="add-edge-machine-external-ip-2010"></a>Ajouter l’adresse IP 2010 externe de l’ordinateur Edge
 
 Vous pouvez configurer les propriétés de cette page pour faire pointer le serveur Edge vers les emplacements externes du service Edge d’accès, du service Edge de conférence Web et du service Edge A/V.
 
-- Sous **adresses IPv4 externes,** tapez les adresses IPv4 externes du serveur Edge dans **le service Edge** d’accès, le **service Edge** de conférence web et le service **Edge A/V.**
+- Sous **adresses IPv4 externes,** tapez les adresses IPv4 externes du serveur Edge dans le **service Edge** d’accès, le **service Edge** de conférence web et le service **Edge A/V.**
 
 - Cliquez sur **OK** pour enregistrer et valider les modifications que vous avez apportées au document de topologie.
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: 'Résumé : Découvrez comment ajouter des bases de données Skype Entreprise Server à un groupe de disponibilité AlwaysOn existant et découvrez les étapes supplémentaires nécessaires après avoir corrigé ou mis à niveau un serveur principal faisant partie d’un groupe de disponibilité AlwaysOn dans Skype Entreprise Server.'
-ms.openlocfilehash: 705fc69d1c29807a0f32276a28268f2da932056d38e306db45b8c68e81f9a11b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4c809aaaea4932185bb8a63fa4767784d745988
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314450"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608071"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Gérer les bases de données avec un groupe de disponibilité AlwaysOn dans Skype Entreprise Server
 
@@ -31,7 +31,7 @@ Utilisez les étapes de cet article pour ajouter des bases de données Skype Ent
     
    - Ouvrez le Générateur de topologie, **sélectionnez Télécharger la topologie** à partir d’un déploiement existant, puis cliquez sur **OK.**
     
-   - Développez Skype Entreprise Server, développez votre topologie et développez **SQL Server Stores.** Cliquez avec le bouton droit SQL magasin du nouveau groupe de disponibilité AlwaysOn, puis cliquez sur **Modifier les propriétés.**
+   - Développez Skype Entreprise Server, développez votre topologie et développez **SQL Server Stores.** Cliquez avec le bouton droit SQL magasin du nouveau groupe de disponibilité AlwaysOn, puis cliquez **sur Modifier les propriétés.**
     
    - En bas de la page, dans la zone **SQL Server FQDN,** tapez le FQDN du nœud principal du groupe de disponibilité AlwaysOn.
     
