@@ -10,23 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
 description: tblPrincipalInvites contient des invitations pour tous les utilisateurs configurés pour l’ensemble des nœuds avec l’option d’invitation automatique activée.
-ms.openlocfilehash: fa90d112ce7b3397f055023034888b45bc5b8bcabc7948f7c4af0bb59788c2d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c2f61f4edcbf82faf7e2f7b4af06ce18bd6afc70
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604623"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
 tblPrincipalInvites contient des invitations pour tous les utilisateurs configurés pour l’ensemble des nœuds avec l’option d’invitation automatique activée.
   
-**Columns**
+**Colonnes**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, non null  <br/> |ID principal.  <br/> |
 |invID  <br/> |int, non null  <br/> |Numéro séquentiel unique (par ID principal) généré depuis la table tblLastInviteId.  <br/> |

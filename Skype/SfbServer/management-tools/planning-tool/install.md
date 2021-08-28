@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Avant de commencer à concevoir et planifier votre infrastructure Skype Entreprise Server 2015 à l’aide de l’outil de planification Skype Entreprise Server 2015, vous devez d’abord installer l’outil de planification. L’outil de planification n’a pas besoin d’être déployé sur une station de travail ou un serveur qui fait partie du domaine ou de l’infrastructure où vous prévoyez d’installer Skype Entreprise Server 2015. Le fichier Lisez-moi qui accompagne l’outil de planification détaille des informations importantes sur l’installation et l’utilisation de l’outil. Certaines informations du fichier Lisez-moi sont dupliquées ici pour plus de clarté.
-ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cfa5e67d567c108d46db1bc52b5426971aa8ca8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616510"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installer l’outil de planification Skype Entreprise Server 2015
 
@@ -30,7 +30,7 @@ Avant de commencer à concevoir et planifier votre infrastructure Skype Entrepri
 
 Les systèmes d’exploitation pris en charge pour l’installation et le fonctionnement de l’outil de planification sont :
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 
@@ -38,7 +38,7 @@ Les systèmes d’exploitation pris en charge pour l’installation et le foncti
 
 - Windows Server 2012
 
-- Windows Server 2012 R2
+- Windows Server 2012 R2
 
 - Windows 7, édition 32 bits
 
@@ -77,7 +77,7 @@ Une fois que les conditions de préinstallation sont remplies, vous pouvez insta
 
 L Skype Entreprise Server 2015 Planning Tool est conçu pour exporter vers Microsoft Excel et Microsoft Visio. Bien que ces applications ne soient pas requises pour le fonctionnement de l’outil de planification, elles ajoutent une valeur significative au déploiement et à la documentation de votre conception.
 
-### <a name="microsoft-excel"></a>Microsoft Excel
+### <a name="microsoft-excel"></a>Microsoft Excel
 
 L’exportation de votre conception vers Microsoft Excel crée un rapport qui affiche sept onglets dans la feuille de calcul :
 

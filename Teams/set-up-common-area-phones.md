@@ -14,29 +14,29 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 'Découvrez comment configurer les téléphones communs pour les centres d’accueil, les zones de réception et les salles de conférence '
-ms.openlocfilehash: 6b97c931364ec9a1c589b0a677e0ec82d6288d945b8f0c002e48824921fe3107
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Découvrez comment configurer des téléphones communs pour les centres d’accueil, les zones d’accueil et les salles de conférence '
+ms.openlocfilehash: 928c4c2a81f2e19524aa7dc43ac2bd597b1293dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301050"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597958"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurer la licence de téléphone de partie commune pour Microsoft Teams
 > [!NOTE]
 > Les téléphones de la zone commune ne supportent pas la messagerie vocale.
 
-Un téléphone commun est généralement placé dans une zone telle qu’une salle d’accueil ou une autre zone accessible à de nombreuses personnes pour appeler. par exemple, une zone de réception, une salle d’accueil ou un téléphone de conférence. Les téléphones de zone commune sont inscrits avec des comptes liés à une licence zone Téléphone commun. La stratégie TeamsIPPhone doit également être définie de manière appropriée pour que le téléphone offre une expérience utilisateur commune.
+Un téléphone commun est généralement placé dans une zone telle qu’une salle d’accueil ou une autre zone accessible à de nombreuses personnes pour appeler. par exemple, une zone de réception, une salle d’accueil ou un téléphone de conférence. Les téléphones de zone commune sont signés avec des comptes liés à une licence zone Téléphone commun. La stratégie TeamsIPPhone doit également être définie de manière appropriée pour que le téléphone offre une expérience utilisateur commune.
 
 Dans les étapes ci-dessous, nous allons vous aider à configurer un compte pour les utilisateurs Système téléphonique déployer des téléphones en zone commune pour votre organisation. Pour une expérience de salle de réunion plus complète, y compris les audioconférences, envisagez d’acheter la licence de salle Salle de réunion dédiée avec un appareil de salle de réunion. 
 
-Tout d’abord, vous devez acheter une licence zone Téléphone (CAP) et vous assurer que vous avez un téléphone certifié. Pour rechercher et en savoir plus sur les téléphones certifiés, voir [Microsoft Teams appareils certifiés.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
+Tout d’abord, vous devez acheter une licence zone Téléphone (CAP) et vous assurer que vous avez un téléphone certifié. Pour rechercher et en savoir plus sur les téléphones certifiés, voir [Microsoft Teams appareils mobiles.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
 
 ## <a name="step-1---buy-the-licenses"></a>Étape 1 - Acheter les licences
 
@@ -48,7 +48,7 @@ Tout d’abord, vous devez acheter une licence zone Téléphone (CAP) et vous as
 
 3. Dans la page De achat, cliquez sur **Acheter maintenant.**
 
-4. Développez **les abonnements au** module extension, puis cliquez pour acheter un forfait d’appels. Sélectionnez le **plan Appels nationaux ou** le plan Appels **nationaux et internationaux.**
+4. Développez **les abonnements aux extensions,** puis cliquez pour acheter un forfait d’appels. Sélectionnez le **plan Appels nationaux ou** le plan Appels **nationaux et internationaux.**
 
 > [!NOTE]
 > Si vous utilisez un Téléphone Microsoft routage direct du système, vous n’avez pas besoin d’une licence de plan d’appels.
@@ -58,7 +58,7 @@ Tout d’abord, vous devez acheter une licence zone Téléphone (CAP) et vous as
 
 Pour plus d’informations sur les licences, voir [Microsoft Teams licences de module complémentaire.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-La licence Zone Téléphone prend en charge : 
+La licence Domaine commun Téléphone prend en charge : 
 
 
 | &nbsp;  |  Téléphone de zone commune  |
@@ -109,7 +109,7 @@ Utilisez le Teams centre d’administration pour attribuer un numéro à l’uti
 
 4. Dans la **page** Affecter, dans la zone Utilisateur vocal, tapez le nom de l’utilisateur qui utilisera le téléphone, puis sélectionnez-le dans la liste de sélection d’un utilisateur vocal. 
 
-5. Vous devez ensuite ajouter une adresse de secours. Sélectionnez Rechercher **par** ville,  Rechercher par **description** ou Rechercher par emplacement à partir de la liste drop-down, puis entrez la ville, la description ou le lieu dans la zone de texte. Une fois que vous avez recherché, regardez sous **Sélectionner l’adresse de** secours pour choisir celle qui vous est la plus proche.
+5. Vous devez ensuite ajouter une adresse de secours. Sélectionnez Rechercher **par** ville,  Rechercher par **description** ou Rechercher par emplacement dans la liste de listes, puis entrez la ville, la description ou le lieu dans la zone de texte. Une fois que vous avez recherché, regardez sous **Sélectionner l’adresse de** secours pour choisir celle qui vous est la plus proche.
 
 6. Cliquez sur **Enregistrer** et votre utilisateur devrait ressembler à ceci :
 

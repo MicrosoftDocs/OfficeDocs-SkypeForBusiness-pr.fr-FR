@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Gérer les stratégies de messagerie vocale pour vos utilisateurs.
-ms.openlocfilehash: 112a2ac98ee22c46cb78c579ead947f70a1d6d447ac81ace3aef224304a281dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275c67cef3a318d15f030f26aa50a74a15748c03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342968"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604423"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>Configuration des stratégies de messagerie vocale pour votre organisation
 
@@ -103,7 +103,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ## <a name="changing-the-recording-duration-for-your-organization"></a>Modification de la durée d’enregistrement pour votre organisation
 
-La durée maximale d’enregistrement est définie par défaut sur cinq minutes pour votre organisation. Si l’entreprise a besoin d’augmenter ou de diminuer la durée maximale d’enregistrement, vous pouvez le faire à l’aide de [Set-CsOnlineVoicemailPolicy.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Par exemple, pour définir la durée maximale d’enregistrement à 60 secondes, exécutez :
+La durée maximale d’enregistrement est définie par défaut sur cinq minutes pour votre organisation. S’il est impératif pour l’entreprise d’augmenter ou de diminuer la durée maximale d’enregistrement, vous pouvez le faire à l’aide de [Set-CsOnlineVoicemailPolicy.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Par exemple, pour définir la durée maximale d’enregistrement à 60 secondes, exécutez :
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
@@ -139,7 +139,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 ## <a name="changing-the-recording-duration-for-a-user"></a>Modification de la durée d’enregistrement d’un utilisateur
 
-Vous devez tout d’abord créer une stratégie de messagerie vocale personnalisée à l’aide de l’cmdlet [New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) La commande ci-dessous crée une stratégie de messagerie vocale en ligne par utilisateur avec MaximumRecordingLength définie sur 60 secondes et d’autres champs définies sur la valeur globale au niveau du client.
+Vous devez d’abord créer une stratégie de messagerie vocale personnalisée à l’aide de l’cmdlet [New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) La commande ci-dessous crée une stratégie de messagerie vocale en ligne par utilisateur avec MaximumRecordingLength définie sur 60 secondes et d’autres champs définies sur la valeur globale au niveau du client.
 
 ```PowerShell
 New-CsOnlineVoicemailPolicy -Identity "OneMinuteVoicemailPolicy" -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
@@ -153,7 +153,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName OneMinuteVoicemailPolicy -Identity sip
 
 ## <a name="dual-language-system-prompts-for-a-user"></a>Invites système en deux langues pour un utilisateur
 
-Vous devez tout d’abord créer une stratégie de messagerie vocale personnalisée à l’aide de l’cmdlet [New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) La commande ci-dessous crée une stratégie de messagerie vocale en ligne per-user enUS-esSP-VoicemailPolicy avec PrimarySystemPromptLanguage set to en-US (English - United States) et le SecondarySystemPromptLanguage set to es-SP (Spanish - Spain).
+Vous devez d’abord créer une stratégie de messagerie vocale personnalisée à l’aide de l’cmdlet [New-CsOnlineVoicemailPolicy.](/powershell/module/skype/New-CsOnlineVoicemailPolicy) La commande ci-dessous crée une stratégie de messagerie vocale en ligne per-user enUS-esSP-VoicemailPolicy avec PrimarySystemPromptLanguage set to en-US (English - United States) et le SecondarySystemPromptLanguage set to es-SP (Spanish - Spain).
 
 ```PowerShell
 New-CsOnlineVoicemailPolicy -Identity "enUS-esES-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES

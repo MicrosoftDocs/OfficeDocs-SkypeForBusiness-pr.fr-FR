@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsRegionLinkEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 132982981d4765d7e0409dda25f351d59b3d9608d2229fc2590aab5a349fc909
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0742f5470b1d6df17d635089db9913dbfcb68d41
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331596"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635458"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configuration d’un lien de région réseau : création d’une nouvelle ou modification d’une configuration existante
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configuration d’un lien de région réseau : création d’une nouvelle ou modification d’une configuration existante
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

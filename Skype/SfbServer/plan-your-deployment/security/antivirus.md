@@ -9,22 +9,22 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Vue d’ensemble de l’interopérabilité du scanneur antivirus Skype Entreprise Server.
-ms.openlocfilehash: 2f44b5a07bf62f06f3363b2f6938e48d9f5866626be44626bd0bd3cb4cf3a2d3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4016527937c7cfc3c39eb37d2a7b75202fad076
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347810"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588496"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusions d’analyse antivirus pour Skype Entreprise Server
 
 Vue d’ensemble de l’interopérabilité du scanneur antivirus Skype Entreprise Server.
 
-Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionnement de Skype Entreprise Server, vous devez exclure des processus et des répertoires spécifiques pour chaque serveur Skype Entreprise Server ou rôle serveur sur lequel vous exécutez un scanneur antivirus. Les répertoires et processus suivants doivent être exclus :
+Pour vous assurer que le scanneur antivirus n’interfère pas avec le fonctionnement de Skype Entreprise Server, vous devez exclure des processus et répertoires spécifiques pour chaque serveur Skype Entreprise Server ou rôle serveur sur lequel vous exécutez un scanneur antivirus. Les répertoires et processus suivants doivent être exclus :
 
 > [!NOTE]
 > Les emplacements de dossiers et de fichiers répertoriés ci-dessous sont les emplacements par défaut pour Skype Entreprise Server. Pour tout emplacement pour lequel vous n’avez pas utilisé le paramètre par défaut, excluez les emplacements spécifiés pour votre organisation au lieu des emplacements par défaut mentionnés dans cette rubrique.

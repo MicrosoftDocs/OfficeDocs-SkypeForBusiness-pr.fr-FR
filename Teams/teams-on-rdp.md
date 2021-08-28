@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment utiliser des Microsoft Teams avec les services Bureau à distance.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d15dabb0b81f86d41540eda7e580c588a0d921bad88eb5fa322fd2103b0cac61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296461"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635638"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams dans les Services Bureau à distance
 
@@ -32,10 +32,10 @@ Cet article décrit les exigences et les limitations relatives à l’utilisatio
 
 Les services Bureau à distance sont la plateforme de choix pour créer des solutions de virtualisation pour chaque client final. Les services Bureau à distance vous permettent de fournir des applications virtualisées individuelles, d’accéder au bureau mobile et à distance sécurisés et de fournir aux utilisateurs finaux la possibilité d’exécuter leurs applications et bureaux à partir du cloud.
 
-Les services RdS offrent une flexibilité, une efficacité de coût et une extensibilité du déploiement. Les services Bureau à jour sont disponibles via diverses options de déploiement, notamment des Windows Server 2016 pour les déploiements locaux, des Microsoft Azure pour les déploiements cloud et un vaste éventail de solutions partenaires.
+Les services RdS offrent une flexibilité, une efficacité de coût et une extensibilité du déploiement. Les services Bureau à jour sont disponibles via diverses options de déploiement, notamment des Windows Server 2016 pour les déploiements locaux, des Microsoft Azure pour les déploiements dans le cloud et un vaste éventail de solutions partenaires.
 En fonction de votre environnement et de vos préférences, vous pouvez configurer la solution rds pour la virtualisation basée sur les sessions, en tant qu’infrastructure VDI (Virtual Desktop Infrastructure).
 
-Pour l’instant, Teams dans un environnement de services Bureau à distance est disponible avec la prise en charge de la collaboration et de la fonctionnalité de conversation. Pour garantir une expérience utilisateur optimale, suivez les instructions de cet article.
+Pour le moment, Teams dans un environnement de services Bureau à distance est disponible avec la prise en charge de la collaboration et de la fonctionnalité de conversation. Pour garantir une expérience utilisateur optimale, suivez les instructions de cet article.
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams sur les rds avec la conversation et la collaboration
 
@@ -54,7 +54,7 @@ Vous pouvez définir des stratégies à l’aide du Microsoft Teams d’administ
 Pour affecter la stratégie d’appel DisallowCalling et la stratégie de réunion AllOff à un utilisateur :
 
 1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez à **Utilisateurs.**
-2. Sélectionnez l’utilisateur en sélectionnant à gauche du nom d’utilisateur, puis **sélectionnez Modifier les paramètres.**
+2. Sélectionnez l’utilisateur en le sélectionnant à gauche du nom d’utilisateur, puis en sélectionnant **Modifier les paramètres.**
 3. Pour ce faire, vous pouvez :
 
     a.  Sous **Stratégie d’appel,** **sélectionnez DisallowCalling.**
@@ -73,7 +73,7 @@ Vous pouvez également suivre les étapes suivantes :
 
 1. Dans le navigation gauche du Microsoft Teams d’administration, allez à la stratégie que vous voulez attribuer. Par exemple :
 
-    - Allez à **la**  >  **stratégie d’appel** vocal, puis **sélectionnez DisallowCalling.**
+    - Allez aux  >  **stratégies d’appel** vocal, puis **sélectionnez DisallowCalling.**
     - Allez dans **stratégies**  >  **de réunion Réunions,** puis sélectionnez **AllOff.**
 
 2. Sélectionnez **Gérer les utilisateurs**.
@@ -90,7 +90,7 @@ Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 
 Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies d’appel, voir [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy)
 
-L’exemple suivant montre comment utiliser la stratégie de réunion [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
+L’exemple suivant montre comment utiliser [grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"

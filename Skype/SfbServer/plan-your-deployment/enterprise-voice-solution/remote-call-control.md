@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: Le contrôle d’appel distant était une fonctionnalité des versions précédentes de Lync Server qui permettait aux utilisateurs de contrôler leurs téléphones PBX avec Lync Server. Dans Skype Entreprise Server, cette fonctionnalité a été remplacée par Appel via le travail. Dans les versions du client pour Skype Entreprise Server 2015 et à l’avenir, le contrôle d’appel distant n’est plus disponible pour la configuration dans le client et a été supprimé pour utilisation.
-ms.openlocfilehash: c7b4156c90810206824d922af17b83381a64afe17a3a927825eae91445245cfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bbe98c5aa6a490276f1f317ed208d936920b0c65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302368"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604733"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planifier le contrôle d’appel distant dans Skype Entreprise
  
@@ -31,9 +31,9 @@ Le contrôle d’appel distant était une fonctionnalité des versions précéde
   
 ||**Skype Entreprise Client avec Skype’interface utilisateur activée**|**Skype Entreprise Client avec l’interface utilisateur Lync activée**|**Skype Entreprise client 2016**|**Lync 2013 Client**|**Client Lync 2010**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| Skype Entreprise Server <br/> |Appel via le travail  <br/> |1 <br/> |Appel via le travail  <br/> |1 <br/> |1 <br/> |
-| Lync Server 2013 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
-| Lync Server 2010 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
+| Skype Entreprise Server <br/> |Appel via le travail  <br/> |1  <br/> |Appel via le travail  <br/> |1  <br/> |1  <br/> |
+| Lync Server 2013 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1  <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
+| Lync Server 2010 <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |1  <br/> |Contrôle d’appel distant  <br/> |Contrôle d’appel distant  <br/> |
    
 1. Aucune des fonctionnalités n’est prise en charge.
   

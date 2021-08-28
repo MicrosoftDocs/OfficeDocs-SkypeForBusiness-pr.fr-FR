@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le volet Résumé du volet Exécution de commandes affiche l’état des tâches émises pour démarrer les services pour le serveur de rôles Skype Entreprise Server que vous déployez.
-ms.openlocfilehash: 3a63d15c96728d1503c3938e8466420895ad8fceb0a4636126055949dbea6c79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c53ea2bc52cee5213bfca585b14957d50581b98
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317779"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597998"
 ---
 # <a name="start-services-invoke"></a>Démarrer les services (appeler)
  

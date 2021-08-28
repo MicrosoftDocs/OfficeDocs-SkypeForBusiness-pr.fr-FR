@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Résumé : Découvrez les rapports de diagnostic des appels par utilisateur utilisés dans Skype Entreprise Server.'
-ms.openlocfilehash: b04050b2d2efb94781d310983083c2c3b8e86c30965a3467cc5fcabfc2aa00fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8caf074022514cca1792cedf60f77fae0506dfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280967"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623666"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Rapports de diagnostic des appels (par utilisateur) dans Skype Entreprise Server
   
@@ -27,7 +27,7 @@ Le rapport d’activité de l’utilisateur fournit une liste détaillée des se
 
 Le rapport d’activité de l’utilisateur est parfois appelé « rapport de support technique ». En effet, ce rapport est souvent utilisé par les équipes de support technique pour récupérer les informations de session d’un utilisateur spécifique. Vous pouvez filtrer les appels à destination ou en provenance d’un utilisateur individuel en tapant simplement son URI SIP dans la zone Préfixe d’URI d’utilisateur.
 
-Dans ce cas, le rapport d’activité de l’utilisateur retourne des informations pour tout utilisateur dont l’URI SIP commence par la chaîne spécifiée. Par exemple, si vous tapez **ken** dans la zone URI, le rapport d’activité de l’utilisateur localise **Ken**. Myer@litwareinc.com. Toutefois, il localisera également ces utilisateurs :
+Dans ce cas, le rapport d’activité de l’utilisateur retourne des informations pour tout utilisateur dont l’URI SIP commence par la chaîne spécifiée. Par exemple, si vous tapez **ken** dans la zone URI, le rapport d’activité de l’utilisateur localisera **Ken**. Myer@litwareinc.com. Toutefois, il localisera également ces utilisateurs :
 
 - **ken** azi@litwareinc.com
 
@@ -37,7 +37,7 @@ Dans ce cas, le rapport d’activité de l’utilisateur retourne des informatio
 
 - **Ken** nedy@litwareinc.com
 
-Pour vous assurer que les informations uniquement pour Ken Myer sont renvoyées, tapez son URI complet (Ken.Myer@litwareinc.com) dans la zone de recherche ou au moins suffisamment de type d’URI de Ken pour le distinguer de manière unique des autres utilisateurs de votre organisation. Par exemple :
+Pour vous assurer que les informations uniquement pour Ken Myer sont renvoyées, tapez son URI complet (Ken.Myer@litwareinc.com) dans la zone de recherche ou au moins suffisamment de type d’URI de Ken pour le distinguer de manière unique des autres utilisateurs de votre organisation. Par exemple :
 
 Ken.my
 
@@ -117,7 +117,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 **Filtres du rapport d’activité de l’utilisateur**
 
 
-| **Name**   | **Description**  |
+| **Nom**   | **Description**  |
 |:-----------|:--------|
 | **From** <br/>             | Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/>                                                      |
 | **To** <br/>               | Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/>                                                             |
@@ -132,7 +132,7 @@ Le tableau suivant liste les informations fournies dans le rapport d’activité
 
 **Mesures pour sessions d’égal à égal**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Detail** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport détaillé de session d’égal à égal pour la session sélectionnée.  <br/> |
 |**De l’utilisateur** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur qui a initié la session d’égal à égal.  <br/> |
@@ -149,7 +149,7 @@ Le tableau suivant liste les informations fournies dans le rapport d’activité
 
 **Mesures pour les sessions de conférence**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**URI de la conférence** <br/> |Oui  <br/> |Identifiant de conférence unique. Lorsque vous cliquez sur cet élément, le rapport vous montre le Rapport détaillé de conférence pour la session sélectionnée. Lorsque vous développez cet élément, le rapport vous montre les informations sur les participants à la conférence. Pour des informations détaillées, consultez la section « Mesures pour les participants de la conférence », plus loin dans cette rubrique.  <br/> |
 |**Organizer** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur qui a organisé la conférence.  <br/> |
@@ -163,7 +163,7 @@ Le tableau suivant liste les informations fournies dans le Rapport d’activité
 
 **Mesures pour les participants de la conférence**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Role** <br/> |Non  <br/> |Rôle de conférence (par exemple, Présentateur) pour l’utilisateur.  <br/> |
 |**Participant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur  <br/> |

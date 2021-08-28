@@ -15,20 +15,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Portez réclamation pour les Skype d’appels d’entreprise (appels RSTN au Royaume-Uni), le calendrier des réponses et la résolution des litiges pour les réclamations non résolues.
-ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Porter réclamation pour les services Skype d’appels d’entreprise (appels RSTN au Royaume-Uni), chronologie des réponses et résolution des litiges pour les réclamations non résolues.
+ms.openlocfilehash: 648f7b171e8d04f4bad6ef1cdb1021b987cf042e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604603"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Forfaits d’appels Microsoft 365 - Code de traitement des réclamations pour le Royaume-Uni
 
@@ -87,6 +87,6 @@ Vous pouvez contacter Ombudsman Services en remplissant un formulaire de contact
     WA4 6WU
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

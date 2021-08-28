@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planification du routage basé sur l’emplacement dans Skype Entreprise Server Voix Entreprise, y compris l’interaction avec la sonnerie et la délégation simultanées, et scénarios pris en charge pour le routage basé sur l’emplacement.
-ms.openlocfilehash: 3d76fad2b87c850e18bf5d152234dea4d1321a3ed2e123be694e6a1f107f58ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9c066aae2c70892b3d7dd6ed3180bb2fd0c9f969
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286623"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588516"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planifier le routage Location-Based dans Skype Entreprise
 
@@ -37,11 +37,11 @@ Les scénarios suivants illustrent les principaux types de restrictions que Loca
 
 - Appels entrants : le routage Location-Based peut empêcher les appels PSTN entrants de sonner les points de terminaison Skype Entreprise si la passerelle PSTN qui a routage l’appel entrant n’est pas située dans la même région que l’utilisateur Skype Entreprise appelé.
 
-- Régions inconnues : Location-Based le routage limite les appels PSTN entrants et sortants vers et depuis des utilisateurs situés dans des emplacements non déterminés (c’est-à-dire, des utilisateurs distants se connectant à partir d’Internet ou situés dans des régions inconnues).
+- Régions inconnues : Location-Based le routage limite les appels PSTN entrants et sortants vers et en provenance d’utilisateurs situés dans des emplacements non déterminés (c’est-à-dire, des utilisateurs distants se connectant à partir d’Internet ou situés dans des régions inconnues).
 
 - Régions internationales : Location-Based routage applique le routage des appels sortants via des passerelles PSTN internationales si une passerelle locale vers l’emplacement de l’utilisateur est in trouvée.
 
-## <a name="guidance-for-where-to-apply-location-based-routing"></a>Recommandations sur l’endroit où appliquer Location-Based routage
+## <a name="guidance-for-where-to-apply-location-based-routing"></a>Recommandations sur l’application du Location-Based routage
 
 Location-Based routage en fonction de la situation peut être appliqué à l’emplacement du site réseau du point de terminaison de l’utilisateur ou à l’emplacement du site réseau de la passerelle PSTN. Cette rubrique fournit des instructions sur la façon Location-Based routage est appliqué.
 
@@ -69,13 +69,13 @@ Location-Based routage introduit l’ensemble de règles suivant lorsqu’il est
 
 - Lorsque Location-Based routage est activé par branche, les règles définies sur cette liaison ne sont appliquées qu’aux appels acheminés via cette liaison.
 
-- Pour empêcher le contournement des frais de réseau téléphonique public (PSTN) lorsque les appels proviennent d’un site réseau différent du site réseau où se trouve la passerelle PSTN, le routage Location-Based introduit l’association d’un site réseau à une ligne donnée. Cela définit le site réseau qui permet d’router les appels vers une liaison donnée.
+- Pour empêcher le contournement des frais de réseau téléphonique public (PSTN) lorsque les appels proviennent d’un site réseau différent du site réseau où se trouve la passerelle PSTN, le routage Location-Based introduit l’association d’un site réseau à une acheminement donnée. Cela définit le site réseau qui permet d’router les appels vers une liaison donnée.
 
 Les trunks peuvent être activées pour Location-Based routage de deux manières :
 
 - La trunk est définie pour une passerelle PSTN qui appelle le PSTN. Les appels entrants acheminés par une liaison de ce type seront acheminés uniquement vers les points de terminaison situés dans le même site réseau que la liaison.
 
-- La ligne est définie pour un homologue de serveur de médiation qui ne remet pas les appels au réseau téléphonique public public (PSTN) et qui prend en charge les utilisateurs avec des téléphones hérités à des emplacements statiques (c’est-à-dire, des téléphones PBX). Pour cette configuration particulière, tous les appels entrants acheminés par une ligne de ce type sont considérés comme provenant du même site réseau que la liaison. Les appels provenant d’utilisateurs PBX auront la même Location-Based'application du routage Skype Entreprise utilisateurs qui se trouvent dans le même site réseau que la trunk. Si deux systèmes PBX situés dans des sites réseau distincts sont connectés via Skype Entreprise Server, le routage Location-Based autorise le routage d’un point de terminaison PBX d’un site réseau vers un autre point de terminaison PBX dans l’autre site réseau. Ce scénario ne sera pas bloqué par le Location-Based routage. Outre ce scénario et de la même manière qu’un utilisateur Skype Entreprise au même emplacement, les points de terminaison connectés à un homologue de serveur de médiation avec cette configuration pourront effectuer ou recevoir des appels vers et depuis d’autres homologues de serveur de médiation qui n’a routent pas les appels vers le réseau téléphonique public (c’est-à-dire un point de terminaison connecté à un autre PBX) quel que soit le site réseau auquel l’homologue de serveur de médiation est associé. Tous les appels entrants, les appels sortants, les transferts d’appels et les transferts d’appels impliquant des points de terminaison PSTN seront soumis au routage basé sur l’emplacement pour utiliser uniquement les passerelles PSTN définies comme étant locales pour cet homologue de serveur de médiation.
+- La ligne est définie pour un homologue de serveur de médiation qui ne remet pas les appels au réseau téléphonique public public (PSTN) et qui prend en charge les utilisateurs avec des téléphones hérités à des emplacements statiques (c’est-à-dire, des téléphones PBX). Pour cette configuration particulière, tous les appels entrants acheminés par une ligne de ce type sont considérés comme provenant du même site réseau que la liaison. Les appels provenant d’utilisateurs PBX auront la même Location-Based'application du routage Skype Entreprise utilisateurs qui se trouvent dans le même site réseau que la trunk. Si deux systèmes PBX situés dans des sites réseau distincts sont connectés via Skype Entreprise Server, le routage Location-Based permet le routage d’un point de terminaison PBX d’un site réseau vers un autre point de terminaison PBX dans l’autre site réseau. Ce scénario ne sera pas bloqué par le Location-Based routage. Outre ce scénario et de la même manière qu’un utilisateur Skype Entreprise au même emplacement, les points de terminaison connectés à un homologue de serveur de médiation avec cette configuration pourront effectuer ou recevoir des appels vers et depuis d’autres homologues de serveur de médiation qui n’a routent pas les appels vers le réseau téléphonique public (c’est-à-dire un point de terminaison connecté à un autre PBX) quel que soit le site réseau auquel l’homologue de serveur de médiation est associé. Tous les appels entrants, les appels sortants, les transferts d’appels et les transferts d’appels impliquant des points de terminaison PSTN seront soumis au routage basé sur l’emplacement pour utiliser uniquement les passerelles PSTN définies comme étant locales pour cet homologue de serveur de médiation.
 
 ## <a name="scenarios-for-location-based-routing"></a>Scénarios de Location-Based routage
 
@@ -94,7 +94,7 @@ Le routage des appels sortants des utilisateurs activés pour Location-Based rou
 
 ### <a name="incoming-calls"></a>Appels entrants
 
-Le routage des appels entrants vers les utilisateurs activés pour Location-Based routage dépend de l’emplacement du point de terminaison de l’utilisateur. Le routage des appels entrants est affecté de la manière suivante. Si un utilisateur a un appel entrant vers un point de terminaison situé dans un site réseau activé pour le routage Location-Based et que le point de terminaison se trouve dans le même site réseau que la passerelle PSTN, l’appel est acheminé. Si un utilisateur a un appel entrant vers un point de terminaison situé dans un site réseau activé pour le routage Location-Based et que le point de terminaison se trouve dans un site réseau différent de la passerelle PSTN, l’appel n’est pas acheminé. Lorsqu’un utilisateur n’a pas de point de terminaison situé dans le même site réseau que la passerelle PSTN d’où provient l’appel entrant, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel en absence est envoyée à l’appelé.
+Le routage des appels entrants vers les utilisateurs activés pour Location-Based routage dépend de l’emplacement du point de terminaison de l’utilisateur. Le routage des appels entrants est affecté de la manière suivante. Si un utilisateur a un appel entrant vers un point de terminaison situé dans un site réseau activé pour le routage Location-Based et que le point de terminaison se trouve dans le même site réseau que la passerelle PSTN, l’appel est acheminé. Si un utilisateur a un appel entrant vers un point de terminaison situé dans un site réseau activé pour le routage Location-Based et que le point de terminaison se trouve dans un site réseau différent de la passerelle PSTN, l’appel n’est pas acheminé. Lorsqu’un utilisateur n’a aucun point de terminaison situé dans le même site réseau que la passerelle PSTN d’où provient l’appel entrant, l’appel entrant est acheminé directement vers la messagerie vocale de l’utilisateur et une notification d’appel en absence est envoyée à l’appelé.
 
 Les paramètres de forwardage d’appel d’un utilisateur activé pour le routage Location-Based continueront d’être appliqués, mais les appels transmis seront soumis aux restrictions de routage Location-Based de l’utilisateur.
 
@@ -124,7 +124,7 @@ Le tableau suivant illustre le scénario d’un utilisateur Skype Entreprise dan
 
 **Transfert d’appel ou transfert vers le point de terminaison PSTN**
 
-|**Cible de point de terminaison transfert/transfert d’appel**|**Skype Entreprise utilisateurs dans le même site réseau**|**Skype Entreprise utilisateurs dans différents sites réseau**|**Un ou les deux Skype Entreprise utilisateurs dans un site réseau inconnu ou un site réseau non activé pour le routage Location-Based réseau**|
+|**Cible du point de terminaison transfert/transfert d’appel**|**Skype Entreprise utilisateurs dans le même site réseau**|**Skype Entreprise utilisateurs dans différents sites réseau**|**Un ou les deux Skype Entreprise utilisateurs dans un site réseau inconnu ou un site réseau non activé pour le routage Location-Based réseau**|
 |:-----|:-----|:-----|:-----|
 |Point de terminaison PSTN  <br/> |Transfert ou transfert d’appel autorisé par la stratégie de routage des voix du site de l’utilisateur transféré  <br/> |Transfert ou transfert d’appel autorisé par la stratégie de routage des voix du site de l’utilisateur transféré  <br/> |Transfert ou transfert d’appel autorisé par la stratégie de voix de l’utilisateur transféré uniquement par le biais de Location-Based routage  <br/> |
 
@@ -204,7 +204,7 @@ Location-Based routage est appliqué par les Skype Entreprise Server. Skype Entr
 
 ### <a name="server-support"></a>Prise en charge du serveur
 
-Location-Based routage nécessite que Skype Entreprise Server ou Lync Server 2013 CU1 soit déployé sur tous les pools frontux et serveurs Édition Standard dans une topologie donnée. Si ces versions du serveur ne sont pas installées, les restrictions de routage basées sur l’emplacement ne peuvent pas être entièrement appliquées.
+Location-Based routage nécessite que Skype Entreprise Server ou Lync Server 2013 CU1 soit déployé sur tous les pools frontux et serveurs Édition Standard dans une topologie donnée. Si ces versions du serveur ne sont pas installées, les restrictions de routage en fonction de l’emplacement ne peuvent pas être entièrement appliquées.
 
 Le tableau suivant identifie la combinaison des rôles serveur et des versions pris en charge pour Location-Based routage.
 
@@ -226,7 +226,7 @@ Le tableau suivant identifie les clients que le routage Location-Based prend en 
 
 ****
 
-|**Type de client**|**Pris en charge**|**Détails**|
+|**Type de client**|**Pris en charge**|**Details**|
 |:-----|:-----|:-----|
 |Skype Entreprise  <br/> |oui  <br/> ||
 |Lync 2013  <br/> |oui  <br/> ||

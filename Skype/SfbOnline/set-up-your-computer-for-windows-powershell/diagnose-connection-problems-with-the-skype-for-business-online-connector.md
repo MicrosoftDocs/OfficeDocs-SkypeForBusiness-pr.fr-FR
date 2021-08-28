@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Résolution des problèmes de création d’une session PowerShell distante pour vous connecter à Skype Entreprise Online, notamment l’importation-module, l’shell simultané, l’ID Live ID et les erreurs d’autorisation.
-ms.openlocfilehash: 81b612b8b3e2ab82f0986110b2aa612fafe6402f
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+description: Résolution des problèmes de création d’une session PowerShell distante pour la connexion à Skype Entreprise Online, notamment l’importation-module, l’shell simultané, l’ID Live et les erreurs d’autorisation.
+ms.openlocfilehash: 4834b06b454e621cd6c4c6ea54f55e3a7b191802
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597878"
 ---
 # <a name="diagnose-connection-problems-in-the-skype-for-business-online-connector"></a>Diagnostiquer les problèmes de connexion dans Skype Entreprise Online Connector
 
@@ -78,7 +78,7 @@ Le Skype Entreprise module Connecteur en ligne ne peut être exécuté qu’Wind
 
 Il existe généralement trois raisons pour lesquelles votre tentative de connexion peut échouer avec le message d’erreur suivant :
 
-  - **Erreur**: *Get-CsWebTicket : Échec de la connexion aux serveurs d’id live. Assurez-vous que le proxy est activé ou que l’ordinateur dispose d’une connexion réseau à des serveurs d’ID live.*
+  - **Erreur**: Get-CsWebTicket : échec de la connexion aux *serveurs d’id live. Assurez-vous que le proxy est activé ou que l’ordinateur dispose d’une connexion réseau à des serveurs d’ID live.*
 
 - **Résolution**: souvent, cette erreur signifie que l’Assistant Microsoft Online Services de se connecteur n’est pas en cours d’exécution. Vous pouvez vérifier l’état de ce service en exécutant la commande suivante à partir de l’invite PowerShell : 
     ```PowerShell
@@ -96,7 +96,7 @@ Il existe généralement trois raisons pour lesquelles votre tentative de connex
 ## <a name="failed-to-load-live-id-module"></a>Échec du chargement du module Live ID
 <a name="BKMKFailedLoad"> </a>
 
-L’une des conditions préalables à l’utilisation de PowerShell pour gérer Skype Entreprise Online consiste à installer l’Assistant de Microsoft Online Services de base. Si l’Assistant de session n’est pas installé, le message d’erreur suivant s’affiche lorsque vous tentez d’établir une session à distance avec Skype Entreprise Online :
+Une des conditions préalables à l’utilisation de PowerShell pour gérer Skype Entreprise Online consiste à installer l’Assistant de Microsoft Online Services de base. Si l’Assistant de session n’est pas installé, le message d’erreur suivant s’affiche lorsque vous tentez d’établir une session distante avec Skype Entreprise Online :
 
 - **Erreur**: *Get-CsWebTicket : vous ne pouvez pas charger le module Live Id. Assurez-vous que la version correcte de l’Assistant de connect-vous Live Id est installée.*
 
@@ -115,11 +115,11 @@ Lorsque vous tentez de établir une connexion à distance à Skype Entreprise On
 ## <a name="the-user-doesnt-have-permission-to-manage-this-tenant"></a>L’utilisateur n’est pas autorisé à gérer ce client
 <a name="BKMKUserPermission"> </a>
 
-Vous ne pouvez pas établir de connexion PowerShell distante àSkype Entreprise Online, sauf si vous êtes membre du groupe Administrateurs clients. Si ce n’est pas le cas, votre tentative de connexion échouera et vous recevrez le message d’erreur suivant :
+Vous ne pouvez pas établir de connexion PowerShell distante àSkype Pour Les Entreprises Online, sauf si vous êtes membre du groupe Administrateurs clients. Si ce n’est pas le cas, votre tentative de connexion échouera et vous recevrez le message d’erreur suivant :
 
 - Erreur **:** *New-PSSession : [admin.vdomain.com] Le traitement des données à partir du serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : L’utilisateur « user@foo.com » n’est pas autorisé à gérer ce client. Les autorisations peuvent être octroyées en attribuant à l’utilisateur le rôle de CBAC approprié. Pour plus d’informations, voir [la résolution des problèmes à distance.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
 
-- **Résolution**: Si vous pensez que vous êtes ou êtes sensé être membre du groupe Administrateurs client, contactez le Support Microsoft.
+- **Résolution**: si vous pensez que vous êtes ou êtes sensé être membre du groupe Administrateurs client, contactez le Support Microsoft.
   
 ## <a name="ability-to-connect-to-tenant-has-been-disabled-in-skype-for-business-online"></a>La connexion au client a été désactivée dans Skype Entreprise Online
 <a name="BKMKAbilityConnect"> </a>
@@ -148,7 +148,7 @@ Bien que chaque administrateur puisse avoir jusqu’à trois connexions simultan
 
 - **Résolution**: la seule façon de résoudre ce problème consiste à fermer une ou plusieurs des connexions précédentes. Lorsque vous en avez fini avec une session Skype Entreprise Online, nous vous recommandons d’utiliser l’cmdlet **Remove-PSSession** pour mettre fin à cette session. Cela vous permettra d’éviter ce problème.  
  
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer votre ordinateur pour la gestion de Skype Entreprise Online à l’aide d’Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

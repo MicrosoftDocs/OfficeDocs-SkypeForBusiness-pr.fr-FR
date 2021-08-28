@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cet article explique comment réaliser cette consolidation pour les organisations avec des déploiements locaux de Skype Entreprise (ou Lync) qui cherchent à déplacer leur charge de travail UC vers Teams.
-ms.openlocfilehash: 268f9a7a35e53a514dda63c304c7a58e252004d3edf74d1342f4934ec4185aab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b44af6e5229f7bef90fff51d52dd4ff65fc57ed7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597908"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Regroupement dans le cloud pour Teams et Skype Entreprise
 
@@ -45,7 +45,7 @@ Historiquement, les recommandations ont été apportées aux clients dans cette 
 La consolidation de tous les utilisateurs locaux dans le cloud dans une seule organisation Microsoft 365 peut être réalisée pour n’importe quelle organisation avec plusieurs déploiements Skype Entreprise, à condition que les exigences clés suivantes soient remplies :
 
 - Il doit y avoir au plus un Microsoft 365'organisation impliquée. La consolidation dans les scénarios avec plusieurs organisations n’est pas prise en charge.
-- À un moment donné, une seule forêt Skype Entreprise locale peut être en mode hybride (espace d’adressage SIP partagé). Toutes les autres forêts Skype Entreprise locales doivent rester locales (et être mutuellement fédérées entre elles). Notez que ces autres organisations locales peuvent se *synchroniser* avec Azure AD si vous le souhaitez si vous désactivez les domaines [SIP en ligne.](/powershell/module/skype/disable-csonlinesipdomain)
+- À un moment donné, une seule forêt Skype Entreprise locale peut être en mode hybride (espace d’adressage SIP partagé). Toutes les autres forêts Skype Entreprise locales doivent rester locales (et être mutuellement fédérées entre elles). Notez que ces autres  organisations locales peuvent se synchroniser avec Azure AD si vous le souhaitez si vous désactivez les domaines [SIP en ligne.](/powershell/module/skype/disable-csonlinesipdomain)
 
 Les clients avec des déploiements de Skype Entreprise dans plusieurs forêts doivent migrer entièrement tous les utilisateurs d’une forêt Skype Entreprise hybride unique individuellement vers l’organisation Microsoft 365 à l’aide de la fonctionnalité Espace d’adressas SIP partagé, puis désactiver l’hybride avec ce déploiement local, avant de migrer le déploiement Skype Entreprise local suivant. Avant la migration vers le cloud, les utilisateurs locaux restent dans un état fédéré avec les utilisateurs qui ne sont pas représentés dans le même annuaire local de l’utilisateur.  
 
@@ -68,17 +68,17 @@ Les étapes de base pour passer de l’état d’origine à l’état final souh
 4.  [Activez les Connecter AAD pour la forêt](configure-azure-ad-connect.md) qui deviendra d’abord hybride (OriginalCompany. <span> com). 
 5.  Définissez la stratégie à l’échelle du client pour [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy) sur SfBWithTeamsCollab ou l’un des autres modes SfB (SfBOnly ou SfBWithTeamsCollabAndMeetings). Ceci est essentiel pour assurer le routage des appels et des conversations des utilisateurs qui se déplacent vers Teams uniquement aux utilisateurs qui restent sur site.
 6.  Il est recommandé à ce stade (mais pas encore requis jusqu’à l’étape 11) d’activer [AAD Connecter](cloud-consolidation-aad-connect.md) pour l’autre forêt (AcquiredCompany. <span> com). En supposant que Connecter AAD soit activé dans les deux forêts, l’organisation ressemble à la **[figure A,](#figure-a)** qui peut être un point de départ commun pour certaines organisation. 
-7.  Pour tous les domaines SIP hébergés par d’autres déploiements locaux (dans ce cas, AcquiredCompany. <span> com), [désactivez ces](/powershell/module/skype/disable-csonlinesipdomain) domaines SIP en ligne dans votre organisation Microsoft 365 l’aide du `Disable-CsOnlineSipDomain` module PowerShell Teams.com. 
+7.  Pour tous les domaines SIP hébergés par d’autres déploiements locaux (dans ce cas, AcquiredCompany. <span> com), [désactivez ces](/powershell/module/skype/disable-csonlinesipdomain) domaines SIP en ligne dans votre organisation Microsoft 365 l’aide du `Disable-CsOnlineSipDomain` module Teams PowerShell. 
 8.  [Configurez Skype Entreprise hybride](configure-federation-with-skype-for-business-online.md) pour OriginalCompany. <span> com (le déploiement qui a encore activé les domaines SIP en ligne).
-9.  Dans le déploiement hybride (OriginalCompany. <span> com), commencez à déplacer les [utilisateurs](move-users-between-on-premises-and-cloud.md) de Skype Entreprise sur site vers le cloud (qu’ils soient Teams uniquement ou non) afin que l’utilisateur Teams uniquement. L’organisation ressemble maintenant à **[la figure B.](#figure-b)** Les principales modifications apportées à la figure A sont les :
+9.  Dans le déploiement hybride (OriginalCompany. <span> com), commencez à déplacer les [utilisateurs](move-users-between-on-premises-and-cloud.md) de Skype Entreprise sur site vers le cloud (qu’ils soient Teams uniquement ou non) afin que l’utilisateur Teams uniquement. L’organisation ressemble maintenant à **[la figure B.](#figure-b)** Les principales modifications apportées à la figure A sont :
     - Les utilisateurs des deux répertoires locaux sont désormais dans AAD.
     - AcquiredCompany. <span> com est un domaine SIP en ligne désactivé.
     - Certains utilisateurs ont été déplacés en ligne vers Teams uniquement. (Voir l’utilisateur violet A.)
 10. Une fois que tous les utilisateurs sont déplacés vers le cloud, désactivez le déploiement hybride Skype Entreprise [déploiement local](cloud-consolidation-disabling-hybrid.md) pour OriginalCompany. <span> com à partir Microsoft 365 :  
     - Désactivez le domaine fractioné dans l’Microsoft 365 organisation.
-    - Désactivez la possibilité de communiquer avec les Microsoft 365 dans OriginalCompany. <span> com en local.
+    - Désactivez la possibilité de communiquer avec Microsoft 365 dans OriginalCompany. <span> com en local.
     - Mettez à jour les enregistrements DNS pour OriginalCompany. <span> com pour pointer vers Microsoft 365.
-11. Si ce n’est pas déjà fait, activez [Connecter AAD](cloud-consolidation-aad-connect.md) pour la forêt suivante qui sera hybride (AcquiredCompany. <span> com). À ce stade, l’organisation ressemble **[à la figure C](#figure-c)**. Il peut s’y avoir un autre point de départ courant pour certaines organisations. 
+11. Si ce n’est pas déjà fait, activez [Connecter AAD](cloud-consolidation-aad-connect.md) pour la forêt suivante qui sera hybride (AcquiredCompany. <span> com). À ce stade, l’organisation ressemble **[à la figure C](#figure-c)**. Cela peut être un autre point de départ courant pour certaines organisations. 
 12. Dans Teams PowerShell, activez les domaines [SIP](/powershell/module/skype/enable-csonlinesipdomain) pour le déploiement local suivant qui sera hybride, AcquiredCompany. <span> com. Cette fonctionnalité est effectuée `Enable-CsOnlineSipDomain` à l’aide de la nouvelle fonctionnalité disponible à partir de décembre 2018.
 13. Si vous utilisez la fédération fermée, vous devez ajouter des domaines SIP (à l’exception de .microsoftonline.com) du client en ligne pur en tant que domaines autorisés dans le même \* Microsoft 365.  Notez qu’il peut prendre un certain temps avant que la modification prenne effet et qu’il n’y a aucun risque à le faire tôt, c’est pourquoi nous vous suggérons de le faire bien avant de passer à l’étape 14.
 14. Mettez à jour l’environnement local pour accepter tous les domaines SIP du client en ligne, afin qu’ils correspondent.
@@ -95,7 +95,7 @@ Les diagrammes ci-dessous illustrent la configuration à différents points clé
 - Les deux organisations sont synchronisées via AAD Connecter, de sorte qu’AAD dispose désormais de tous les utilisateurs des deux déploiements locaux.
 - Tous les utilisateurs ont été homed local.  
 - Skype Entreprise hybride *n’est* pas encore configuré.
-- Si les utilisateurs de l’un ou l’autre déploiement utilisent Teams, ils ne pourront pas se fédérer les uns avec les autres (ni avec n’importe quelle organisation), ni avec les utilisateurs Skype Entreprise utilisateurs. Pendant cette phase, Microsoft recommande d’utiliser Teams pour les canaux uniquement.<br><br>
+- Si les utilisateurs de l’un ou l’autre déploiement utilisent Teams, ils ne pourront pas se fédérer entre eux (ni avec n’importe quelle organisation), ni avec les utilisateurs Skype Entreprise réseau. Pendant cette phase, Microsoft recommande d’utiliser Teams pour les canaux uniquement.<br><br>
     ![Diagramme de la figure A](../media/cloudconsolidationfiga.png)
 
 ##### <a name="figure-b"></a>Figure B :
@@ -172,7 +172,7 @@ Les étapes de l’exemple canonique ci-dessus supposent que l’organisation co
 
 Lorsque vous déplacez des utilisateurs de l’environnement local vers le cloud dans un environnement hybride, ces utilisateurs deviennent Teams utilisateurs uniquement.
 
-- Lorsque vous affectez le mode TeamsOnly à un utilisateur, toutes les conversations et appels d’un autre utilisateur sont retéléélés dans le client Teams utilisateur. 
+- Lorsque vous affectez le mode TeamsOnly à un utilisateur, toutes les conversations et tous les appels d’un autre utilisateur se viennent du client Teams utilisateur. 
 - Si les utilisateurs avec Skype Entreprise en local utilisent principalement le client Skype Entreprise et non Teams, envisagez de définir TeamsUpgradePolicy afin que le routage vers ces utilisateurs locaux soit toujours en Skype Entreprise au lieu de Teams. Pour assurer un routage correct des conversations et des appels entre les utilisateurs qui sont TeamsOnly et les utilisateurs qui utilisent toujours Skype Entreprise en local, les utilisateurs locaux doivent avoir une valeur effective de TeamsUpgradePolicy avec l’un des modes SfB, plutôt que des îles (qui est la valeur par défaut). 
     - Pour ce faire, vous devez d’abord définir l’instance globale de teamsUpgradePolicy de votre client sur *l’une des valeurs ci-après*:
         - SfBWithTeamsCollab (recommandé)

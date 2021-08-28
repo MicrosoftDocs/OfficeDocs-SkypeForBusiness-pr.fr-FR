@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Les services de domaine Active Directory fonctionnent en tant que service d’annuaire pour les réseaux Windows Server 2003, Windows Server 2008, Windows Server 2012 et Windows Server 2012 R2. Les services de domaine Active Directory servent également de base à la Skype Entreprise Server de sécurité de l’utilisateur. L’objectif de cette section est de décrire comment Skype Entreprise Server utilise les services de domaine Active Directory pour créer un environnement digne de confiance pour la messagerie instantanée, les conférences Web, les médias et la voix. Pour plus d’informations sur la préparation de votre environnement pour les services de domaine Active Directory, voir Install Skype Entreprise Server in the Deployment documentation. Pour des détails sur le rôle des services de domaine Active Directory dans les réseaux Windows Server, voir la documentation concernant votre version du système d’exploitation.
-ms.openlocfilehash: 8044e79be38300c39790aeae3bd0ece9105f9a145e1185cef2980297674c16f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604653"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Services de domaine Active Directory pour Skype Entreprise Server
  
@@ -28,7 +28,7 @@ Skype Entreprise Server services de domaine Active Directory pour stocker :
   
 - Paramètres globaux que tous les serveurs exécutant Skype Entreprise Server dans une forêt requièrent.
     
-- Informations de service qui identifient les rôles de tous les serveurs exécutant des Skype Entreprise Server dans une forêt.
+- Informations de service qui identifient les rôles de tous les serveurs exécutant Skype Entreprise Server dans une forêt.
     
 - Certains paramètres utilisateur.
     
@@ -61,11 +61,11 @@ Pour plus d’informations sur les groupes universels spécifiques créés lors 
   
 ## <a name="role-based-access-control"></a>Contrôle d’accès basé sur un rôle
 
-Outre la création de groupes de service et d’administration universels et l’ajout de groupes de service et d’administration aux groupes universels appropriés, la préparation de la forêt crée également des groupes Role-Based contrôle d’accès (RBAC). Pour plus d’informations sur les groupes RBAC spécifiques créés par la préparation de la forêt, voir Modifications apportées par la préparation de la forêt [Skype Entreprise Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) dans la documentation de déploiement. Pour plus d’informations sur les groupes RBAC, voir Contrôle d’accès basé sur un rôle [(RBAC) pour Skype Entreprise Server](role-based-access-control-rbac.md).
+Outre la création de groupes de service et d’administration universels et l’ajout de groupes de service et d’administration aux groupes universels appropriés, la préparation de la forêt crée également des groupes Role-Based contrôle d’accès (RBAC). Pour plus d’informations sur les groupes RBAC spécifiques créés par la préparation de la forêt, voir Modifications apportées par la préparation de la forêt [Skype Entreprise Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) dans la documentation de déploiement. Pour plus d’informations sur les groupes RBAC, voir contrôle d’accès basé sur un rôle [(RBAC) pour Skype Entreprise Server](role-based-access-control-rbac.md).
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Entrées de contrôle d’accès (ACE) et héritage
 
-La préparation de la forêt crée des ace privées et publiques et ajoute des ace pour les groupes universels qu’elle crée. Il crée des ACE privées spécifiques sur le conteneur de paramètres globaux utilisé par Skype Entreprise Server. Ce conteneur est utilisé uniquement par Skype Entreprise Server et se trouve soit dans le conteneur configuration, soit dans le conteneur système dans le domaine racine, selon l’emplacement où vous stockez les paramètres globaux.
+La préparation de la forêt crée des ace privées et publiques et ajoute des ace pour les groupes universels qu’elle crée. Il crée des ACE privées spécifiques sur le conteneur de paramètres globaux utilisé par Skype Entreprise Server. Ce conteneur est utilisé uniquement par Skype Entreprise Server et se trouve soit dans le conteneur Configuration, soit dans le conteneur Système dans le domaine racine, selon l’emplacement où vous stockez les paramètres globaux.
   
 L’étape de préparation du domaine ajoute les entrées de contrôle d’accès nécessaires aux groupes universels qui accordent les autorisations d’hébergement et de gestion des utilisateurs dans le domaine. La préparation du domaine créé des entrées de contrôle d’accès sur la racine du domaine et dans trois conteneurs intégrés : Utilisateurs, Ordinateurs et Contrôleurs de domaine.
   

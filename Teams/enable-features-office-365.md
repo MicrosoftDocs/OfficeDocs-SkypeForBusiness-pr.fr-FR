@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Découvrez comment activer ou désactiver les paramètres à l’échelle de l’organisation Microsoft Teams, y compris les applications, l’accès externe, l’accès invité, les paramètres Teams et les préférences de mise à niveau Teams.
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e08ad6cb5962c447b3fb42e3ab4aa3c02f50fa1fa6f07e0348714f380b670cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a76559ea1ec140b18acbcc49f92b724a0e1bdc3a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322576"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604453"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gérer les paramètres de Microsoft Teams pour votre organisation
 

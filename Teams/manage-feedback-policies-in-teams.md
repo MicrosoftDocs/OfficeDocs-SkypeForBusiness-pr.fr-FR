@@ -14,24 +14,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler Teams utilisateurs de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
-ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2308b196dfd31f6d6576f57dbe06ed5eda42cb86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635678"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Les utilisateurs de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft pour nous faire part de nos commentaires, directement à partir des clients de bureau et web Teams. Nous améliorons continuellement l Teams expérience utilisateur et nous utilisons ces commentaires pour améliorer Teams améliorations.
+Les utilisateurs de votre organisation peuvent nous envoyer des commentaires sur Teams à Microsoft, directement à partir des clients web et de bureau Teams. Nous améliorons continuellement l Teams expérience utilisateur et nous utilisons ces commentaires pour améliorer Teams améliorations.
 
 > [!NOTE]
-> Les stratégies de commentaires ne sont pas disponibles Cloud de la communauté du secteur public, Cloud de la communauté du secteur public haute ou dod.
+> Les stratégies de commentaires ne sont pas disponibles Cloud de la communauté du secteur public, Cloud de la communauté du secteur public haute ou de dod.
 
 **La fonctionnalité Donner des commentaires**
 
@@ -79,7 +79,7 @@ Dans cet exemple, nous affectons une stratégie personnalisée nommée Stratégi
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
 - [Attribuer des stratégies à vos utilisateurs](assign-policies.md)

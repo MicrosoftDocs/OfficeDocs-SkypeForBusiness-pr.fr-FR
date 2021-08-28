@@ -16,13 +16,13 @@ f1keywords:
 description: Découvrez comment gérer vos applications Teams sur la page Gérer les applications du Centre d’administration Microsoft Teams’administration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: bf286dd4be3c294d8da0928ddb2317814102e7fbadf6fac306919bbae1bb0b88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+ms.openlocfilehash: 63c3baabcacd10bbbc2f4003f33eb90a9c302e74
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304856"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604443"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le Centre Microsoft Teams’administration
 
@@ -63,7 +63,7 @@ Vous pouvez afficher chaque application, y compris les informations suivantes su
 - **- :** l’application n’a pas d’autorisations qui ont besoin d’un consentement.
 - **Catégories**: catégories qui s’appliquent à l’application.
 - **Version :** version de l’application.
-- **L’administrateur peut l’installer dans les réunions**: indique si une application peut être installée par les administrateurs dans les réunions d’équipe. [En savoir plus](teams-app-setup-policies.md#install-apps)
+- **L’administrateur peut l’installer dans les réunions**: indique si une application peut être installée par les administrateurs dans les réunions d’équipe. [Pour en savoir plus](teams-app-setup-policies.md#install-apps)
 
 Pour voir les informations que vous  souhaitez dans le tableau, sélectionnez Modifier la colonne dans le coin supérieur droit pour ajouter ou supprimer des colonnes dans le tableau.
 
@@ -165,7 +165,7 @@ Lors de l’évaluation d’une application pour leur organisation, les administ
 Pour accéder aux informations MCAS, suivez les étapes suivantes :
 
 1. Dans le Teams d’administration, sélectionnez **Gérer les applications** sous Teams **applications.**
-1. Sélectionnez **Certification** pour trier les applications et Microsoft 365 les applications certifiées en haut du tableau.
+1. Sélectionnez **Certification** pour trier les applications et Microsoft 365 toutes les applications certifiées en haut du tableau.
 1. Choisissez une Microsoft 365'application certifiée.
 1. Sélectionnez **l’onglet Sécurité et** conformité.
 

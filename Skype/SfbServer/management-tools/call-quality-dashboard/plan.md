@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord de qualité des appels.'
-ms.openlocfilehash: 314c0c631cda29d23accc39980da25fdad567619797d515b90f31ebff9ccd450
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340890"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588576"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier le tableau de bord de qualité des appels pour Skype Entreprise Server 
  
@@ -85,9 +85,9 @@ Les données CQD peuvent être vues via le portail CQD et accessibles via des ap
 
 Le portail est le moyen le plus rapide d’afficher les données dans le cube. Le portail est livré avec plusieurs rapports intégrés qui sont utilisables immédiatement. Les rapports intégrés sont liés de manière structurée pour guider l’utilisateur vers des tranches de données d’appel successivement plus petites et plus petites. Les rapports intégrés mettent également en évidence les différentes façons dont les données peuvent être affichées en montrant une combinaison de graphiques et de tableaux avec différents tableaux croisés dynamiques, filtres et mesures. Chaque utilisateur qui accède au portail peut avoir son propre ensemble de rapports qu’il peut modifier et partager. Pour plus d’informations sur l’utilisation du portail Web CQD, voir Utiliser le tableau de bord de qualité des [appels pour Skype Entreprise Server](use.md).
   
-Systèmes d’exploitation pris en charge pour le portail CQD : Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 et Windows Server 2016 (Skype Entreprise Server CQD 2019 uniquement).
+Systèmes d’exploitation pris en charge pour le portail CQD : Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 et Windows Server 2016 (Skype Entreprise Server 2019 CQD uniquement).
   
-Navigateurs pris en charge pour le portail CQD : Internet Explorer 11, Internet Explorer 10 et Internet Explorer 9.
+Navigateurs pris en charge pour le portail CQD : Internet Explorer 11, Internet Explorer 10 et Internet Explorer 9.
   
 ### <a name="rest-apis"></a>API REST
 
@@ -193,12 +193,12 @@ Cette section suppose qu’il existe une seule base de données QoEMetrics dans 
   
 **Profils d’ordinateur**
 
-|**Ordinateur**|**Cœurs d’UC**|**Mémoire RAM**|**Archive QoE et cube sur le même disque**|**Archivage QoE et SQL temp DB sur le même disque**|
+|**Ordinateur**|**Cœurs d’UC**|**Mémoire vive**|**Archive QoE et cube sur le même disque**|**Archivage QoE et SQL temp DB sur le même disque**|
 |:-----|:-----|:-----|:-----|:-----|
 |Machine virtuelle  <br/> |4   <br/> |7 Go  <br/> |Oui  <br/> |Oui  <br/> |
 |4 cœurs  <br/> |4   <br/> |20 Go  <br/> |Oui  <br/> |Non  <br/> |
 |8 cœurs  <br/> |8   <br/> |32 Go   <br/> |Oui  <br/> |Non  <br/> |
-|16 cœurs  <br/> |16   <br/> |128 Go  <br/> |Non  <br/> |Non  <br/> |
+|16 cœurs  <br/> |16   <br/> |128 Go  <br/> |Non  <br/> |Non  <br/> |
    
 **Résultats des performances**
 

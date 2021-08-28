@@ -13,18 +13,18 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Dans cet article, vous allez découvrir comment un administrateur peut modifier les informations sur les invités dans le Azure Active Directory’administration.
-localization_priority: Normal
+description: Dans cet article, vous allez découvrir comment un administrateur peut modifier les informations sur les invités dans le Azure Active Directory personnel.
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: b3168c1302c5a735aeb416702cef5a78833c2bd2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: da5e5e5a19aa36a0633c9826426cdc16fbc5e7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234579"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604573"
 ---
 # <a name="edit-guest-information"></a>Modifier les informations sur les invités
 

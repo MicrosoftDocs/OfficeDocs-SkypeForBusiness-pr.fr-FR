@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: 74fc7795abdc97bc51404a88ef26cac3755d370a54e4b52fb53838cbd2fb11a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 01c14b482fb546a83d9cff8bdbbfd75f8f81f1bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597728"
 ---
-# <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
+# <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
  
 Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :
   
@@ -64,7 +64,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
 - **Intégration Exchange Microsoft** Sélectionnez cette option si vous avez des utilisateurs qui sont Exchange. Avec cette option, Exchange est utilisé pour stocker les données de ces utilisateurs, si leurs boîtes aux lettres ont été placées en In-Place. Si tous vos utilisateurs sont Exchange, vous n’avez pas besoin de configurer des bases de données SQL Server pour le stockage des données d’archivage.
     
-- **Activer le purge des données d’archivage** Sélectionnez cette option pour activer le purgement et spécifier les options de purge, qui incluent les options suivantes :
+- **Activer le purge des données d’archivage** Sélectionnez cette option pour activer la purge et spécifier les options de purge, notamment :
     
   - Vidage après un nombre spécifique de jours que vous spécifiez.
     

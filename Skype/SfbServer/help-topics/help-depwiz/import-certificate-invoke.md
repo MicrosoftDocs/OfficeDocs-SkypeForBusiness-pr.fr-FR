@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertImportInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 description: Dans la page Exécution des commandes, passez en revue les informations récapitulatives relatives au certificat importé. Dans la liste déroulante, sélectionnez le fichier journal Importer un certificat. Assurez-vous que ce fichier journal figure dans la liste déroulante. Cliquez sur Afficher le journal pour passer en revue les détails de l’importation de certificat. Lorsque vous avez terminé de passer en revue le récapitulatif et le fichier journal, cliquez sur Terminer.
-ms.openlocfilehash: 40f325a537c052fa2b1dd5bcf7391954bdc19407622040ac353b2a61eecab985
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70248a410394ea6af9583ba473648a44cc399a0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590198"
 ---
 # <a name="import-certificate-invoke"></a>Importer un certificat (appeler)
  

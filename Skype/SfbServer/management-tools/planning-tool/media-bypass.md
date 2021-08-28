@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.MediaBypass
 - ms.lync.plan.MediaBypass
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 description: La déviation du média implique la suppression du serveur de médiation du chemin d’accès du média chaque fois que cela est possible pour les appels dont la signalisation traverse le serveur de médiation. Pour plus d’informations, voir Plan for media bypass in Skype Entreprise 2015.
-ms.openlocfilehash: 1f1e143f97b40aa0c0b367a4a7c0e1c9fcc663f3da7c7d9240ab2282ba52b81f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7499e7b901215883757e99eaf229bc34c93bc21d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352173"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616490"
 ---
 # <a name="media-bypass-planning-tool"></a>Outil de planification du contournement de média
  

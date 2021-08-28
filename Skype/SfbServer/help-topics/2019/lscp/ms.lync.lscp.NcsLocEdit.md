@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez configurer des stratégies d’emplacement pour déterminer si Enhanced 9-1-1 (E9-1-1) est activé et comment il est utilisé, ainsi que la façon dont les informations d’emplacement sont utilisées pour les utilisateurs et les contacts.
-ms.openlocfilehash: 1102aeccb6b9e91e29526b6512c7742b766514a15a5d6e13e0e1c00698d866a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15fd372a7597ce73c3246cbbd1aca867f39dc34e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305756"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590458"
 ---
-# <a name="location-policy-create-new-or-edit-existing"></a>Stratégie d’emplacement : création d’une nouvelle ou modification d’une stratégie existante
+# <a name="location-policy-create-new-or-edit-existing"></a>Stratégie d’emplacement : création d’une nouvelle ou modification d’une stratégie existante
 
 Vous pouvez configurer des stratégies d’emplacement pour déterminer si Enhanced 9-1-1 (E9-1-1) est activé et comment il est utilisé, ainsi que la façon dont les informations d’emplacement sont utilisées pour les utilisateurs et les contacts.
 
