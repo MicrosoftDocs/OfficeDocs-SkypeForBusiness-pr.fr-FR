@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: La vue VoIPDetails stocke des informations sur les sessions égal à égal, où au moins un utilisateur est un utilisateur VoIP. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 9e8eeaa0e907496d03a4541792f6f100a9191324497ee7603a65ec5a71fba592
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 84f167fc3f4de45142d3bad80acf0fc9803b40db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351953"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593378"
 ---
 # <a name="voipdetails-view"></a>Affichage VoIPDetails
  
@@ -27,7 +27,7 @@ La vue VoIPDetails stocke des informations sur les sessions égal à égal, où 
 > [!NOTE]
 > La vue VoIPDetails contient toutes les colonnes dans la vue [SessionDetails](sessiondetails-0.md) en plus des colonnes répertoriées ci-dessous.
   
-|**Colonne**|**Type de données**|**Détails**|
+|**Colonne**|**Type de données**|**Details**|
 |:-----|:-----|:-----|
 |**FromPhone** <br/> |nvarchar(450)  <br/> |URI du téléphone de l’utilisateur qui a initié la session.  <br/> |
 |**ToPhone** <br/> |nvarchar(450)  <br/> |URI du téléphone de l’utilisateur qui a rejoint la session.  <br/> |

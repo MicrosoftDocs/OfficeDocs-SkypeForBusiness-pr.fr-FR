@@ -11,20 +11,20 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Guide de démarrage rapide pour configurer des plans d’appel Microsoft Teams vous pouvez rendre un ensemble d’utilisateurs opérationnel.
-localization_priority: Normal
+description: Guide de démarrage rapide de la configuration des plans d’appel Microsoft Teams vous pouvez rendre un ensemble d’utilisateurs opérationnel.
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3bea5bda6f0a03fdd058898361d6cbaa787ae874
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ab563bb4acd4ea79c35b90dc691bd95f506e5acd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234619"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593148"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 
@@ -60,7 +60,7 @@ La configuration par défaut de TeamsUpgradePolicy est le mode Îles, qui est co
  - Appels VOIP entrants provenant d’un Teams entrants sur Teams, si l’expéditeur et le destinataire se *trouvent dans le même client.*
  - Les appels VOIP fédérés entrants (quel que soit l’origine du client) et les appels PSTN arrivent toujours dans le client Skype Entreprise destinataire.
  
-Pour vous assurer que les appels VOIP et PSTN entrants arrivent toujours dans le client Teams d’un utilisateur, mettez à jour le mode de coexistence de l’utilisateur pour qu’il soit TeamsOnly (c’est-à-dire, affectez-lui l’instance « UpgradeToTeams » de TeamsUpgradePolicy).  Pour plus d’informations sur les modes de coexistence et TeamsUpgradePolicy, consultez les conseils sur la migration et l’interopérabilité pour les organisations qui utilisent Teams avec [d Skype Entreprise](./migration-interop-guidance-for-teams-with-skype.md)
+Pour vous assurer que les appels VOIP et PSTN entrants arrivent toujours dans le client Teams d’un utilisateur, mettez à jour le mode de coexistence de l’utilisateur pour qu’il soit TeamsOnly (c’est-à-dire, affectez-lui l’instance « UpgradeToTeams » de TeamsUpgradePolicy).  Pour plus d’informations sur les modes de coexistence et TeamsUpgradePolicy, consultez les conseils sur la migration et l’interopérabilité pour les organisations qui utilisent des Teams avec [d Skype Entreprise](./migration-interop-guidance-for-teams-with-skype.md)
 
 **NOTES**
  - Skype Entreprise Les téléphones IP recevront des appels, même si l’utilisateur est en mode TeamsOnly.  

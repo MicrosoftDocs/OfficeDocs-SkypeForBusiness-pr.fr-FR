@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Découvrez l’option de paiement à la minute pour activer les fonctionnalités d’audioconférence pour les organisations qui utilisent le programme de licence en volume Microsoft.
-ms.openlocfilehash: d3aea84ec5686c5ed91dbcd5dbda0d4c9ca8649c2eef7dd3c3a62b4def46688e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef741bfba6667711c03bd90d2018d7da2093eac8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286203"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593158"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -84,7 +84,7 @@ Pour activer l’audioconférence à la minute pour les utilisateurs de votre or
     
 - [Tarifs de forfaits d'appels](https://www.microsoft.com/microsoft-teams/voice-calling)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
   
 [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   

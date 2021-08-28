@@ -14,16 +14,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment configurer des canaux pour la modération dans Microsoft Teams, y compris comment ajouter des membres de l’équipe comme modérateurs de canaux.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0aa2035a23a82d0a73009c379b99d34e9ccf7ff1b1b3dd0806dd7d6d0afcdf7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb709d8e618b68fad2bc87dc658eb6f67853e891
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304846"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593028"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurer et gérer la modération de canal dans Microsoft Teams
 
@@ -44,11 +44,11 @@ Les modérateurs de canaux peuvent :
 
 ## <a name="scenarios"></a>Scénarios
 
-Voici quelques exemples de la façon dont votre organisation peut utiliser la modération de canal Teams.
+Voici quelques exemples de la façon dont votre organisation peut utiliser la modération de canal dans Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Utiliser un canal comme canal d’annonce
 
-L’équipe marketing utilise un canal spécifique pour partager les annonces et livrables clés du projet. Parfois, les membres de l’équipe publient du contenu sur le canal appartenant le mieux à d’autres canaux. Le propriétaire de l’équipe souhaite limiter le partage d’informations dans le canal aux annonces uniquement afin que les membres de l’équipe peuvent utiliser ce canal pour rester au fait de ce qui est important.
+L’équipe marketing utilise un canal spécifique pour partager les annonces et livrables clés du projet. Parfois, les membres de l’équipe publient du contenu sur le canal appartenant le mieux à d’autres canaux. Le propriétaire de l’équipe souhaite limiter le partage d’informations dans le canal aux annonces uniquement afin que les membres de l’équipe utilisent ce canal pour rester au fait de ce qui est important.
 
 Dans ce scénario, le propriétaire de l’équipe ajoute des prospects marketing en tant que modérateurs afin qu’ils peuvent publier des annonces dans le canal et les membres de l’équipe ne peuvent plus répondre aux messages dans ce canal.
 

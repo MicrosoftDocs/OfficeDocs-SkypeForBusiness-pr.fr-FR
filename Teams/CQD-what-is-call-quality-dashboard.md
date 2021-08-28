@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez le tableau de bord de qualité des appels et comment l’utiliser pour consulter des rapports sur la qualité des réunions et des appels Microsoft Teams.
-ms.openlocfilehash: 097a12c0e2a7104abe9a6214a24c958b5c3f6b6e2430f78b05aeef6e0f79736f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92b7bdcd5acaa86c530f5d0380666b2ebce3eed8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344483"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593268"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>Qu’est-ce que le tableau de bord de qualité des appels ?
 
@@ -39,13 +39,13 @@ La dernière version du DQD comprend un flux de données en temps quasi réel [(
 
 Chaque fois que le CQD inclut des informations d’identification des utilisateurs finux [(EUII),](CQD-data-and-reports.md#euii-data)il est géré de la même façon que [euII](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)dans Microsoft 365.
 
-Le CQD est conçu pour aider les Teams, les Skype Entreprise et les ingénieurs réseau à surveiller la qualité des appels et des réunions à l’échelle de l’organisation. Vous utiliserez le CQD pour optimiser **votre réseau afin** d’optimiser la qualité des performances. Lorsque vous avez besoin d’examiner les informations d’appel et de réunion d’un utilisateur **spécifique,** utilisez les données de la qualité de la recherche conjointement avec l’analyse des appels par [utilisateur.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+Le CQD est conçu pour aider les Teams, les Skype Entreprise et les ingénieurs réseau à surveiller la qualité des appels et des réunions à l’échelle de l’organisation. Vous utiliserez le CQD pour optimiser **votre réseau afin** d’optimiser la qualité des performances. Lorsque vous avez besoin d’examiner les informations d’appel et de réunion d’un utilisateur **spécifique,** utilisez les données du CQD conjointement avec l’analyse des appels par [utilisateur.](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-Par exemple, vous pouvez déterminer que la qualité des appels d’un utilisateur (observée à l’aide de l’analyse des appels par utilisateur) est due à un problème de réseau qui affecte également de nombreux autres utilisateurs. Le CQD capture à la fois l’expérience d’appel individuelle et la qualité globale des appels effectués à l’aide d Teams ou Skype Entreprise. Grâce au CQD, des modèles globaux peuvent être mis en évidence pour que les ingénieurs réseau puisse évaluer en connaissance de cause la qualité des appels. Le CQD fournit des rapports sur les mesures de qualité des appels, qui fournissent des informations sur la qualité globale des appels, les flux client-serveur, les flux client et le SLA de [qualité vocale.](https://go.microsoft.com/fwlink/p/?linkid=846252) 
+Par exemple, vous pouvez déterminer que la qualité des appels d’un utilisateur (observée à l’aide de l’analyse des appels par utilisateur) est due à un problème de réseau qui affecte également de nombreux autres utilisateurs. Le CQD capture à la fois l’expérience d’appel individuel et la qualité globale des appels effectués à l’aide d Teams ou Skype Entreprise. Grâce au CQD, des modèles globaux peuvent être mis en évidence pour que les ingénieurs réseau puisse évaluer en connaissance de cause la qualité des appels. Le CQD fournit des rapports sur les mesures de qualité des appels, qui fournissent des informations sur la qualité globale des appels, les flux client-serveur, les flux client et le SLA de [qualité vocale.](https://go.microsoft.com/fwlink/p/?linkid=846252) 
   
 ![Capture d’écran du tableau de bord de qualité des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-Dans le CQD, nous vous encourageons à télécharger les informations de bâtiment et de point de terminaison, qui vous permet d’utiliser des rapports de Location-Enhanced pour analyser la qualité et la fiabilité des appels au sein du bâtiment d’un utilisateur. Les données peuvent être évaluées pour déterminer si le problème est isolé pour un seul utilisateur ou affecte un segment plus important d’utilisateurs. Pour activer les affichages spécifiques du point de [](CQD-upload-tenant-building-data.md) terminaison ou du point de terminaison dans le DQD, un administrateur doit télécharger les informations de bâtiment ou de point de terminaison sur la page Données du client du Télécharger du point **de** terminaison.
+Dans le CQD, nous vous encourageons à télécharger les informations de bâtiment et de point de terminaison, qui vous permet d’utiliser des rapports Location-Enhanced pour analyser la qualité et la fiabilité des appels au sein du bâtiment d’un utilisateur. Les données peuvent être évaluées pour déterminer si le problème est isolé pour un seul utilisateur ou affecte un segment plus important d’utilisateurs. Pour activer les affichages spécifiques du point de [](CQD-upload-tenant-building-data.md) terminaison ou du point de terminaison dans le DQD, un administrateur doit télécharger les informations de bâtiment ou de point de terminaison sur la page Données du client du Télécharger du point **de** terminaison.
 
 ![Capture d’écran des rapports d’utilisation du tableau de Location-Enhanced qualité des appels.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
@@ -66,7 +66,7 @@ Lisez Utiliser Power BI pour analyser les données [du CQD](CQD-Power-BI-query-t
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 
@@ -80,7 +80,7 @@ Lisez Utiliser Power BI pour analyser les données [du CQD](CQD-Power-BI-query-t
 
 [Dimensions et mesures disponibles dans le DQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Classification des flux dans le CQD](stream-classification-in-call-quality-dashboard.md)
+[Classification des flux dans le DQD](stream-classification-in-call-quality-dashboard.md)
 
 [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md)
 

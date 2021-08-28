@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment mettre à jour les applications dans Microsoft Teams.
-ms.openlocfilehash: a1a5cc6d926e7bc183db9950f1d11c1e3ffcd06c
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: 156bafa45fe51884d6697bb4121143fad98fc7cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593168"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Mettre à jour des applications dans Microsoft Teams
 
@@ -44,6 +44,6 @@ Dans la plupart des cas, une fois que les développeurs d’applications publien
 > [!NOTE] 
 > Le processus de mise à jour s’applique à toutes les mises à jour d’application pour les applications Microsoft, les applications personnalisées et les applications tierces. 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer les applications](manage-apps.md)
