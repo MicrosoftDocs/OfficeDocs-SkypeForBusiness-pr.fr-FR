@@ -11,18 +11,18 @@ search.appverid: MET150
 description: Découvrez comment votre Microsoft Teams prend en charge les équipes associées Microsoft 365 groupes à l’aide de l’appartenance dynamique.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3a18e2cbe1a34fe78f5e84b4df4ae9a95c46fd9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315300"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613633"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Présentation de l’appartenance dynamique pour les équipes
 
@@ -47,7 +47,7 @@ Pour créer une équipe qui utilise [](/azure/active-directory/users-groups-role
 
 Vous pouvez modifier une équipe existante pour avoir une appartenance dynamique. Voir [Modifier l’appartenance aux groupes statiques](/azure/active-directory/users-groups-roles/groups-change-type) en dynamique dans Azure Active Directory pour plus d’informations.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limites et spécifications de Microsoft Teams](limits-specifications-teams.md)
 

@@ -13,19 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Découvrez comment configurer des jours fériés dans Microsoft Teams à utiliser avec vos attendants automatiques.
-ms.openlocfilehash: c7fa5d44f836e35022acab24c2d4b7ad6c60536295bba7adba8fc568b1560443
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f914243984c9fef70b1217cce504ffd983263e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351744"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623226"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
@@ -39,7 +39,7 @@ Pour créer des vacances
 
 1. Dans le Microsoft Teams d’administration, voir Jours fériés et congés à **l’échelle de l’organisation.**  >  
 
-2. Sélectionnez **Nouveau jour férié.**
+2. Sélectionnez **Nouveau congés.**
 
 3. Entrez un nom pour les fêtes de fin d’année.
 
@@ -49,7 +49,7 @@ Pour créer des vacances
 
 6. Utilisez la liste de listes pour sélectionner une heure de début pour les fêtes de fin d’année.
 
-7. Sous **Heure de** fin, sélectionnez l’icône de calendrier et choisissez la date de fin des jours fériés.
+7. Sous **Heure de fin,** sélectionnez l’icône de calendrier et choisissez la date de fin des jours fériés.
 
 8. Utilisez la liste de listes pour sélectionner une heure de fin pour les vacances. **L’heure de** fin doit être après **l’heure de début.**  
 
@@ -74,12 +74,12 @@ Pour modifier un jour férié
 
 4. Utilisez la liste de listes pour sélectionner une heure de début pour les fêtes de fin d’année.
 
-5. Sous **Heure de** fin, sélectionnez l’icône de calendrier et choisissez la date de fin des jours fériés. 
+5. Sous **Heure de fin,** sélectionnez l’icône de calendrier et choisissez la date de fin des jours fériés. 
 
 6. Utilisez la liste de listes pour sélectionner une heure de fin pour les vacances. **L’heure de** fin doit être après **l’heure de début.**  
 
 7. Sélectionnez **Enregistrer**.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Prévoyez-vous Teams des files d’attente automatiques et des files d’attente](plan-auto-attendant-call-queue.md)?

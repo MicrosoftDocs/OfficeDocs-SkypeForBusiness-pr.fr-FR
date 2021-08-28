@@ -10,28 +10,28 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
-description: Comprendre les façons dont vous pouvez accéder Skype Entreprise fonctionnalités de Outlook et d’Microsoft Office applications.
-ms.openlocfilehash: b1a2aad241d0da2ef253d27b1b83bf9b1140fa79745b924cd0e4438660e4d3e0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Comprendre les façons dont vous pouvez accéder Skype Entreprise fonctionnalités à partir de Outlook et d’autres applications Microsoft Office applications.
+ms.openlocfilehash: e8d2ec9d3785d03c0f853021bcb4f33f6eb2c4aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297140"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599919"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype Entreprise compatibilité avec Office applications
  
-Comprendre les façons dont vous pouvez accéder Skype Entreprise fonctionnalités de Outlook et d’Microsoft Office applications.
+Comprendre les façons dont vous pouvez accéder Skype Entreprise fonctionnalités à partir de Outlook et d’autres applications Microsoft Office applications.
   
 Cette rubrique décrit la compatibilité des Skype Entreprise avec différentes versions de Microsoft Office suites. 
   
 ## <a name="office-and-skype-for-business"></a>Office et Skype Entreprise
 
-Le tableau suivant décrit les fonctionnalités Skype Entreprise qui sont pris en charge par différentes versions de Office une fois Exchange déployé et intégré, comme décrit dans Intégrer Skype Entreprise Server à [Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Le tableau suivant décrit les fonctionnalités Skype Entreprise qui sont pris en charge par différentes versions de Office une fois que Exchange est déployé et intégré comme décrit dans Intégrer Skype Entreprise Server à [Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 **Skype Entreprise et Microsoft Office compatibilité**
 
@@ -48,7 +48,7 @@ Le tableau suivant décrit les fonctionnalités Skype Entreprise qui sont pris e
 |Répondre par messagerie instantanée ou appel à partir de la barre d’outils ou du ruban dans un message électronique reçu    |Oui    |Oui    |Oui    |
 |**Autres applications Office de messagerie**   ||||
 |OneNote notes partagées    |Non    |Oui    |Non    |
-|Installation intégrée au programme d’installation Office’installation    |Non    |Oui    |Non    |
+|Programme d’installation intégré au programme Office’installation    |Non    |Oui    |Non    |
 |PowerPoint présentation    |Oui    |Oui (VBSS également disponible)    |Oui    |
 |Messagerie instantanée et présence dans les fichiers Microsoft Word et Microsoft Excel (balises actives activées)    |Microsoft Word uniquement    |Microsoft Word uniquement    |Non    |
 |Messagerie instantanée et présence sur les sites Microsoft SharePoint (Outlook doit être installé)    |Oui    |Oui    |Non    |

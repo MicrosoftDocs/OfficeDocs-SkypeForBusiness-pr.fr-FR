@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -18,17 +18,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
-description: Pour qu’un utilisateur utilise Système téléphonique (CLOUD PBX), vous devez d’abord l’activer pour Voix Entreprise et lui attribuer un numéro de téléphone. Pour ce faire, utilisez votre déploiement local alors que l’utilisateur est toujours dos au déploiement local.
-ms.openlocfilehash: aef74877d1a12d136bddc7eedc2a414dfad100830a88bb9a21695004be91d1a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Pour qu’un utilisateur utilise Système téléphonique (Cloud PBX), vous devez d’abord l’activer pour Voix Entreprise et lui attribuer un numéro de téléphone. Pour ce faire, utilisez votre déploiement local alors que l’utilisateur est toujours dos au déploiement local.
+ms.openlocfilehash: 28943670a0919d80c96c97b7574cdc82ac68cfde
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613693"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Activer les utilisateurs pour Voix Entreprise local
  
-Pour qu’un utilisateur utilise Système téléphonique (CLOUD PBX), vous devez d’abord l’activer pour Voix Entreprise et lui attribuer un numéro de téléphone. Pour ce faire, utilisez votre déploiement local alors que l’utilisateur est toujours dos au déploiement local.
+Pour qu’un utilisateur utilise Système téléphonique (Cloud PBX), vous devez d’abord l’activer pour Voix Entreprise et lui attribuer un numéro de téléphone. Pour ce faire, utilisez votre déploiement local alors que l’utilisateur est toujours dos au déploiement local.
 
 > [!Important]
 > Skype Entreprise Online sera retiré le 31 juillet 2021, après quoi le service ne sera plus accessible.  En outre, la connectivité PSTN entre votre environnement local via Skype Entreprise Server ou Cloud Connector Edition et Skype Entreprise Online ne sera plus prise en charge.  Découvrez comment connecter votre réseau téléphonique local à Teams l’aide du [routage direct.](/MicrosoftTeams/direct-routing-landing-page)
@@ -39,7 +39,7 @@ Pour qu’un utilisateur utilise Système téléphonique (CLOUD PBX), vous devez
     
 2. Utilisez le raccourci menu Démarrer bureau ou de bureau pour ouvrir Skype Entreprise Server panneau de Skype Entreprise Server de contrôle.
     
-    Vous pouvez également ouvrir une fenêtre de navigateur, puis entrer l’URL de l’administrateur pour ouvrir Skype Entreprise Server panneau de contrôle.
+    Vous pouvez également ouvrir une fenêtre de navigateur, puis entrer l’URL de l’administrateur pour ouvrir Skype Entreprise Server panneau de bord.
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
@@ -55,7 +55,7 @@ Pour qu’un utilisateur utilise Système téléphonique (CLOUD PBX), vous devez
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Considérations spéciales lors de l’activation des utilisateurs Voix Entreprise sur site
 
-Dans certains cas, vous devrez peut-être modifier la façon dont vous activez les utilisateurs pour Voix Entreprise pour vous assurer qu’ils peuvent effectuer et recevoir des appels. Si votre déploiement compte des utilisateurs qui répondent aux conditions suivantes, effectuez les étapes incluses pour activer l’utilisateur pour Voix Entreprise.
+Dans certains cas, vous devrez peut-être modifier la façon dont vous activez les utilisateurs pour Voix Entreprise afin de vous assurer qu’ils peuvent correctement effectuer et recevoir des appels. Si votre déploiement compte des utilisateurs qui répondent aux conditions suivantes, effectuez les étapes incluses pour activer l’utilisateur pour Voix Entreprise.
   
 - Si un utilisateur est créé dans votre AD local, puis synchronisé avec Skype Entreprise Online sans être activé pour Skype Entreprise ou pour Voix Entreprise et que vous n’avez pas de lineURI, exécutez les cmdlets suivantes pour chaque utilisateur concerné, en remplaçant les valeurs par les valeurs réelles de votre environnement \< \> :
     

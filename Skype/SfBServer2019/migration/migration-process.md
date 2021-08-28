@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: La procédure de migration recommandée et prise en charge pour Skype Entreprise Server 2019 est la migration côte à côte. Cette rubrique décrit pourquoi vous devez utiliser la migration côte à côte et inclut également des informations sur les tests de coexistence.
-ms.openlocfilehash: e1d89dc2081918d87f73cd3c6908fff0c388e6700d00af6dcd72161a2ccc9ece
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4ca0e8d1362c05e87c4ec347115f7e45457c55d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613388"
 ---
 # <a name="migration-process"></a>Processus de migration
 

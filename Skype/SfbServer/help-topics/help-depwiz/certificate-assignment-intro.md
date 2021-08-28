@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertAssignIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26d6b07e-d2c7-4ff7-aca4-4bbb29f13f8d
 description: Pour commencer à affecter un certificat à utiliser dans Skype Entreprise Server, cliquez sur Suivant.
-ms.openlocfilehash: c895754b68bea220c1d0cd48a82fa778aacd3ff7d618ccb12b430e1cdb63e1cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 303c7b0e223a4562fc6cba9c0a3d8fd460602e0d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342299"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596968"
 ---
 # <a name="certificate-assignment-intro"></a>Assignation de certificat (introduction)
  

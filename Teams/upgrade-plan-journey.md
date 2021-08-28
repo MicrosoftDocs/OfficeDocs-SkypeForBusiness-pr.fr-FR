@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Découvrez comment planifier votre mise à niveau en s’engageant auprès des parties prenantes, puis en détaille le projet.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186f7f2e3e4d6c07714925162b7aa492873824dd30bef23f4f64c68273b60c15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33b6e23a5259c81612a392b6befd7b7e6d256287
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323736"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623156"
 ---
 # <a name="plan-for-your-upgrade"></a>Planifier votre mise à niveau
 
-![Diagramme du voyage Teams niveau niveaux](media/upgrade-banner-main.png "Assurez-vous que votre projet est prêt pour réussir avec la bonne équipe de projet. Définissez l’étendue, les objectifs et la chronologie de votre projet. Confirmez la disponibilité des utilisateurs et techniques. Exécutez votre plan de déploiement. Maintenez la dynamique pour optimiser les résultats.")
+![Diagramme du voyage Teams à niveau](media/upgrade-banner-main.png "Assurez-vous que votre projet est prêt pour réussir avec la bonne équipe de projet. Définissez l’étendue, les objectifs et la chronologie de votre projet. Confirmez la disponibilité des utilisateurs et techniques. Exécutez votre plan de déploiement. Maintenez la dynamique pour optimiser les résultats.")
 
 Un environnement technique sain, l’adoption par les utilisateurs durable et l’accomplissement de vos objectifs professionnels commencent tous par une planification appropriée. Un plan solide offre un cadre pour votre projet de mise à niveau et garantit que toutes les parties prenantes travaillent sur les mêmes objectifs. En prenant le temps de définir correctement le succès, vous pouvez mesurer les résultats à mesure que vous progressez dans votre déploiement et vérifier que vous atteignez les résultats souhaités. La planification de votre voyage inclut :
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,16 +24,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les files d’attente et les files d’attente automatiques et comment les utiliser pour aider les appelants à se déplacer dans un système de menus pour atteindre des personnes ou des services de votre organisation.
-ms.openlocfilehash: 45617fa683c726cf7f2432fed6008b6626ae30ad1a551db842974ea7a9bc18c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d4a3a71e2d94de88f01c3a62dc507095ffef49e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310453"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613603"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier la mise Teams automatiques et des files d’attente d’appels
 
-Les attendants automatiques vous permettent de configurer des options de menu pour router les appels en fonction de la saisie de l’appelant. Options de menu, telles que « Pour les ventes, appuyez sur 1.  Pour les Services, appuyez sur 2 » pour qu’un employé automatique fournisse à une organisation une série de choix qui guident les appelants vers leur destination rapidement, sans faire appel à un opérateur humain pour gérer les appels entrants.
+Les attendants automatiques vous permettent de configurer des options de menu pour router les appels en fonction de la saisie de l’appelant. Options de menu, telles que « Pour les ventes, appuyez sur 1.  Pour les Services, appuyez sur 2 ». Pour un employé automatique, une organisation fournit une série de choix qui guident les appelants vers leur destination rapidement, sans faire appel à un opérateur humain pour gérer les appels entrants.
 
 Les files d’attente sont des zones d’attente pour les appelants. Dans les situations où les appelants doivent joindre une personne spécifique (par exemple, ventes ou service) plutôt qu’une personne en particulier, vous pouvez utiliser des files d’attente pour connecter les appelants au groupe d’agents qui peuvent les aider. Les appelants sont mis en attente jusqu’à ce qu’un agent affecté à la file d’attente soit disponible pour prendre son appel.
 
@@ -74,7 +74,7 @@ Pour configurer des files d’attente et des files d’attente automatiques, vou
 - Au moins un numéro [de service Microsoft,](getting-service-phone-numbers.md)un numéro de routage direct ou un numéro hybride pour chaque compte de ressource à composer directement
  - Le numéro de service peut être un numéro gratuit ou gratuit
 
-Les agents qui reçoivent des appels depuis les files d’attente doivent être Voix Entreprise des utilisateurs en ligne ou sur site. De plus, si les files d’attente d’appels utilisent des numéros de routage direct, les agents qui ont besoin de conférences ou de transferts d’appels requièrent également :
+Les agents qui reçoivent des appels depuis les files d’attente d’appels Voix Entreprise les utilisateurs en ligne ou sur site. De plus, si les files d’attente d’appels utilisent des numéros de routage direct, les agents qui ont besoin de conférences ou de transferts d’appels requièrent également :
 
 - Une stratégie de routage vocal en ligne assignée si la file d’attente d’appels utilise le mode de transfert
 - Licence d’audioconférence ou stratégie de routage vocal en ligne affectée si la file d’attente d’appels utilise le mode de conférence
@@ -89,7 +89,7 @@ Lors du transfert d’appels vers un numéro de téléphone externe, le compte d
 > [!NOTE]
 > Les numéros de service de routage direct pour le support automatique et les files d’attente d’appels sont pris en charge Microsoft Teams et les agents d’appel uniquement.<br>
 > Les transferts entre les ligne du plan d’appel et le routage direct ne sont pas pris en charge.<br>
-> Dans un scénario hybride, le compte de ressource doit être créé en local. Pour plus d’informations, voir [Planifier les files d’attente d’appels cloud.](/skypeforbusiness/hybrid/plan-call-queue)
+> Dans un scénario hybride, le compte de ressource doit être créé en local. Pour plus d’informations, voir [Planifier les files d’attente dans le cloud.](/skypeforbusiness/hybrid/plan-call-queue)
 
 ## <a name="business-decisions"></a>Décisions d’entreprise
 
@@ -120,7 +120,7 @@ Vous pouvez utiliser une combinaison de ces options pour chaque file d’attente
 
 Nous vous recommandons de choisir une stratégie pour ajouter des agents d’appel aux files d’attente avant de commencer votre configuration.
 
-Si vous avez déjà un service de traitement automatique et une infrastructure de files d’attente d’appels, et que vous migrez vers Teams, vous avez besoin d’un plan pour transférer vos numéros de téléphone existants vers les nouveaux numéros de téléphone et les nouvelles files d’attente d’appels. Vous devrez peut-être créer [une commande de port](phone-number-calling-plans/port-order-overview.md) pour déplacer vos numéros à partir d’autres fournisseurs. Nous vous recommandons d’acheter temporairement un ou plusieurs nouveaux numéros de téléphone et de tester le flux de votre attendant automatique et de la file d’attente d’appels avant de les remplacer par les numéros actuellement en service.
+Si vous avez déjà un service de traitement automatique et une infrastructure de files d’attente d’appels, et que vous migrez vers Teams, vous avez besoin d’un plan pour transférer vos numéros de téléphone existants vers les nouveaux numéros de téléphone et les nouvelles files d’attente d’appels. Vous devrez peut-être créer [une commande de port](phone-number-calling-plans/port-order-overview.md) pour déplacer vos numéros à partir d’autres fournisseurs. Nous vous recommandons d’acheter temporairement un ou plusieurs nouveaux numéros de téléphone et de tester le flux de votre service de service automatique et de la file d’attente d’appels avant de les remplacer par les numéros en cours de service.
 
 *Le mode* conférence est une option dans les files d’attente d’appels qui réduit de façon significative la durée de connexion Teams appels VOIP et appels PSTN à un agent. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
 
@@ -150,19 +150,19 @@ Les attendants automatiques routent tous les appels de l’une des façons suiva
 Lorsque les appels sont redirigés par un agent automatique ou une file d’attente d’appels, vous avez le choix entre les destinations de routage suivantes :
 
 - **Une personne de l’organisation,** une personne de votre organisation qui peut recevoir des appels vocux. Il peut s’agit d’un utilisateur en ligne ou d’un utilisateur hébergé sur site à l’aide d Skype Entreprise Server.
-- **Application vocale :** un autre service de messagerie automatique ou une file d’attente d’appels. Choisissez le compte de ressource associé à la destination.
+- **Application vocale :** un autre service de messagerie automatique ou une file d’attente d’appels. Sélectionnez le compte de ressource associé à la destination.
 - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. (Voir [les détails techniques du transfert externe).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 - **Messagerie vocale** (boîte vocale associée à Microsoft 365 groupe de messagerie vocale que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messages vocaux et le message « Veuillez laisser un message après le ton ». invite système.
 - **Opérateur** (attendant automatique uniquement) : l’opérateur défini pour le transport automatique. La définition d’un opérateur est facultative. Un opérateur peut être l’une des autres destinations de cette liste.
 
 Les attendants automatiques proposent des options de routage d’appel distinctes pour les appels reçus en dehors des heures d’ouverture et des jours fériés. Le routage des appels hors heures d’ouverture autorise toutes les options répertoriées ci-dessus, tandis que le routage des appels en de congés ne permet que de rediriger ou de déconnecter un appel, mais aucune option de touche de numérotation.
 
-Les files d’attente placent l’appelant en attente jusqu’à ce qu’un agent affecté à la file d’attente soit disponible pour prendre son appel. Dans deux cas, un appelant peut être dirigé hors de la file d’attente :
+Les files d’attente placent l’appelant en attente jusqu’à ce qu’un agent affecté à la file d’attente soit disponible pour prendre son appel. Dans deux situations, un appelant peut être dirigé hors de la file d’attente :
 
 - **Dépassement d’appel** : si le nombre d’appels dans la file d’attente dépasse la limite définie, les nouveaux appelants sont redirigés hors de la file d’attente.
 - **Délai d’attente** des appels : si un appelant est dans la file d’attente plus longtemps que le paramètre de délai d’attente configuré, il est redirigé hors de la file d’attente.
 
-Les appels redirigés hors d’une file d’attente peuvent être envoyés vers les destinations de routage des appels répertoriées ci-dessus, à l’exception d’un opérateur. (Les files d’attente d’appels n’ont pas d’opérateurs, mais vous pouvez rediriger les appelants vers la même destination qu’un opérateur que vous avez configuré pour un opérateur automatique.)
+Les appels redirigés hors d’une file d’attente peuvent être envoyés vers les destinations de routage des appels répertoriées ci-dessus, à l’exception d’un opérateur. (Les files d’attente d’appels n’ont pas d’opérateurs, mais vous pouvez rediriger les appelants vers la même destination qu’un opérateur que vous avez configuré pour un port automatique.)
 
 L’exemple ci-dessous montre un exemple de routage des appels à l’aide de files d’attente et de files d’attente d’appels automatiques.
 
@@ -186,7 +186,7 @@ Voici quelques pratiques meilleures pour le routage des appels :
 
 - Examiner votre système d’appels existant et analyser les types et la fréquence des appels entrants. Utilisez ces informations pour informer votre service de service automatique et la structure des files d’attente d’appels.
 - Placez les options les plus courantes en premier dans le menu pour router les appels le plus rapidement possible.
-- Évitez de connecter les numéros de service directement aux files d’attente d’appels, sauf si elles sont disponibles 24/24, 7 jours sur 7. Les files d’attente d’appels n’autorisent pas la gestion distincte des appels pendant les heures d’ouverture ou les jours fériés. Si vous voulez avoir une file d’attente avec un numéro direct, attribuez le numéro à un employé de service automatique qui le redirige automatiquement pendant les heures d’ouverture.
+- Évitez de connecter les numéros de service directement aux files d’attente d’appels, sauf si elles sont disponibles 24/24, 7/7. Les files d’attente d’appels n’autorisent pas la gestion distincte des appels pendant les heures d’ouverture ou les jours fériés. Si vous voulez avoir une file d’attente avec un numéro direct, affectez le numéro à un employé de service automatique qui redirige automatiquement vers la file d’attente pendant les heures d’ouverture.
 - Si vous recevez plusieurs appels vous demandant des informations de base sur votre entreprise, telles que les heures d’ouverture, l’emplacement ou l’adresse du site web, envisagez de créer un employé de service automatique pour répondre à ces questions à l’aide de messages enregistrés.
 - Conservez la liste des éléments de menu sur au moins cinq éléments. Les appelants peuvent avoir des difficultés à mémoriser plus de cinq options. Utilisez des attendants automatiques imbrmbrés si d’autres options sont nécessaires pour router correctement un appel.
 - Décrivez tout d’abord le service, puis l’option d’appuyer (p. ex : Pour les ventes, appuyez sur 1) plutôt que l’inverse (p. ex. Appuyez sur 1 pour appuyer sur Ventes).
@@ -211,7 +211,7 @@ Une fois que vous avez terminé les tâches de planification de cet article, sui
 
 7. Si vous envisagez d’autoriser la numérotation par poste, assurez-vous d’ajouter le numéro de poste de vos utilisateurs à Azure Active Directory profil.
 
-Une fois que vous avez suivi la procédure ci-dessus, vous êtes prêt à créer vos files d’attente d’appels et de nouvelles files d’attente. Étant donné que les files d’attente automatiques et les files d’attente d’appels peuvent rediriger des appels vers l’un l’autre, consultez le diagramme de flux de travail que vous avez créé pour déterminer quel service de traitement automatique ou file d’attente d’appels doit être créé en premier. Dans l’exemple dans le diagramme ci-dessus, vous devez créer les files d’attente des ventes et du support avant de créer le attendant automatique principal de Contoso, car celui-ci doit diriger les appelants vers les files d’attente des ventes et du support.
+Une fois que vous avez suivi la procédure ci-dessus, vous êtes prêt à créer vos files d’attente d’appels et de nouvelles files d’attente. Étant donné que les files d’attente automatiques et les files d’attente d’appels peuvent rediriger des appels vers l’un l’autre, consultez le diagramme de flux de travail que vous avez créé pour déterminer le attendant automatique ou la file d’attente d’appels qui doivent être créés en premier. Dans l’exemple dans le diagramme ci-dessus, vous devez créer les files d’attente des ventes et du support avant de créer le attendant automatique principal de Contoso, car celui-ci doit diriger les appelants vers les files d’attente des ventes et du support.
 
 Consultez les articles suivants pour plus d’informations sur la création de attendants automatiques et de files d’attente d’appels :
 
@@ -220,7 +220,7 @@ Consultez les articles suivants pour plus d’informations sur la création de a
 
 Si vous avez besoin de fonctionnalités plus étendues, telles que l’intégration aux flux de travail, bots et SMS, envisagez [Azure Communication Services.](/azure/communication-services/overview)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Planifier le routage direct](direct-routing-plan.md)
 

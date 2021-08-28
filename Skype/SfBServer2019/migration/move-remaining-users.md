@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Vous pouvez déplacer des utilisateurs vers le nouveau déploiement Skype Entreprise Server 2019 à l’aide du Panneau de Skype Entreprise Server ou de Skype Entreprise Server Management Shell. Vous devez répondre à certaines exigences pour garantir une transition en douceur vers Skype Entreprise Server 2019. Pour plus d’informations sur les conditions préalables à la réalisation des procédures de cette rubrique, voir Configure clients for migration. Pour obtenir la procédure détaillée de déplacement des utilisateurs, voir Phase 4 : Déplacer des utilisateurs de test vers le pool pilote.'
-ms.openlocfilehash: a2742acf32899aca71c28da733c723640a8c1e9200f26f793a918eac04714f15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60742068bc684470d181593e94615da2a8d79ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623106"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Déplacer les utilisateurs restants vers Skype Entreprise Server 2019
 

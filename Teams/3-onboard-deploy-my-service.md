@@ -14,18 +14,18 @@ ms.reviewer: rowille
 description: Téléchargez le manuel d’enablement de site pour planifier votre déploiement Teams optimiser et accélérer l’adoption, la perception de la qualité et la satisfaction des utilisateurs.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ac2d0b8158a089e3f002108172066dcf6853c3525c6358dcdd2c8c57d19fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288692"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624936"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -98,14 +98,14 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 
 6. L’état est déployé dans chaque section et le titre de section est mis en forme avec l’un de ces indicateurs d’état. **L’état** hebdomadaire est également mis à jour automatiquement.
 
-![Capture d’écran des listes de rapport d’état hebdomadaires dans le manuel](media/deploy-my-service-image6.png "Capture d’écran des listes de rapport d’état hebdomadaires dans le manuel")
+![Capture d’écran des roll-ups d’état hebdomadaires dans le manuel](media/deploy-my-service-image6.png "Capture d’écran des roll-ups d’état hebdomadaires dans le manuel")
 
 > [!TIP]
 > Répétez les étapes ci-dessus pour tous vos emplacements.
 
 > [!IMPORTANT]
 > Certaines étapes peuvent ne pas être applicables à tous les emplacements et sites. Si une activité spécifique n’est pas pertinente pour un site, vous devez sélectionner **Non applicable** pour cette activité. **NE SUPPRIMEZ AUCUNE** ligne du manuel ; Si c’est le cas, les formules de rapport d’état ne fonctionnent pas.<br/><br/>
-Faites attention aux activités qui peuvent prendre plus de temps que prévu, telles que les activités de portage de numéro et d’approvisionnement. Ces activités peuvent affecter négativement la chronologie du déploiement du site. Veillez à examiner et à mettre à jour la [](./envision-steering-committee-complete-guide.md) liste des activités et la chronologie associée de façon hebdomadaire, et à les présenter lors de réunions de comité spécial afin de vous assurer que les parties prenantes sont conscientes de l’état de chaque site et des écarts possibles par rapport à la planification du déploiement.
+Faites attention aux activités qui peuvent prendre plus de temps que prévu, telles que les activités de portage de numéro et d’approvisionnement. Ces activités peuvent affecter négativement la chronologie du déploiement du site. Veillez à examiner et à mettre à jour la [](./envision-steering-committee-complete-guide.md) liste des activités et la chronologie associée de façon hebdomadaire, et à les présenter lors de réunions de comité spécial pour vous assurer que les parties prenantes sont conscientes de l’état de chaque site et des écarts possibles par rapport à la planification du déploiement.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez si le manuel d’enablement de site est requis pour votre déploiement.</li><li>Décidez qui sera responsable de la personnalisation du manuel d’Microsoft Teams pour chaque site que vous allez déployer.</li></ul></td></tr>

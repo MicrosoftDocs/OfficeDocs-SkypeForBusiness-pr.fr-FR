@@ -1,5 +1,5 @@
 ---
-title: Utiliser des modèles d’équipe à l’aide de Microsoft Graph
+title: Utiliser les modèles d’équipe à l’aide de Microsoft Graph
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: phlouie
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bee4379eb82d577104d2d69ff2e11c168f2de62d3e903fcff196d45293c2365
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8005d17debce7a0187ac8411a8054071c754566
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599739"
 ---
-# <a name="get-started-with-team-templates-using-microsoft-graph"></a>Utiliser des modèles d’équipe à l’aide de Microsoft Graph
+# <a name="get-started-with-team-templates-using-microsoft-graph"></a>Utiliser les modèles d’équipe à l’aide de Microsoft Graph
 
 > [!NOTE]
 > Pour le moment, les modèles d’équipe ne prisent pas en charge la création de canaux privés. La création de canaux privés n’est pas incluse dans les définitions de modèle.
@@ -64,13 +64,13 @@ Les types de modèles de base sont des modèles spéciaux que Microsoft a créé
 
 Une fois le type de modèle de base défini, vous pouvez étendre ou remplacer ces modèles spéciaux par des propriétés supplémentaires que vous souhaitez spécifier. Certains types de modèles de base contiennent des propriétés qui ne peuvent pas être surchargées.
 
-Par défaut, le modèle de base est **standard,** qui ne contient aucune application exclusive ou propriété spéciale supplémentaire. Vous trouverez ci-dessous la liste actuelle des types de modèles de base disponibles.
+Par défaut, le modèle de base est **standard,** qui ne contient pas d’autres applications propriétaires ou propriétés spéciales. Vous trouverez ci-dessous la liste actuelle des types de modèles de base disponibles.
 
 | Type de modèle de base | baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
 | Standard | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('standard')` | Aucune application et propriété supplémentaire |
 | Éducation -<br>Équipe de classe | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationClass')` | Applications :<ul><li>OneNote Bloc-notes Pour la classe (épinglé à **l’onglet** Général) </li><li>Application Devoirs (épinglée à **l’onglet** Général)</li></ul> Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie **sur HiddenMembership** (ne peut pas être masquée)</li></ul> |
-| Éducation -<br>Équipe de membres du personnel enseignant | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>OneNote Bloc-notes pour le personnel enseignant (épinglé à **l’onglet** Général)</li></ul> |
+| Éducation -<br>Équipe de membres du personnel | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationStaff')` | Applications :<ul><li>OneNote Bloc-notes pour le personnel enseignant (épinglé à **l’onglet** Général)</li></ul> |
 |Éducation -<br>Équipe PLC |`https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Applications :<ul><li>OneNote Bloc-notes PLC (épinglé à **l’onglet** Général)</ul></li>|
 | Commerce -<br>Magasin | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailStore')` | Canaux :<ul><li>Transfert de shift</li><li>Apprentissage</li></ul>Propriétés de l’équipe<ul><li>Visibilité de l’équipe définie sur Public</li></ul>Autorisations de membre<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul> |
 | Commerce -<br>Collaboration avec les responsables | `https://graph.microsoft.com/v1.0/`<br>`teamsTemplates('retailManagerCollaboration')` | Canaux :<ul><li>Apprentissage</li><li>Opérations</li></ul>Propriétés de l’équipe :<ul><li>Visibilité de l’équipe définie sur Privé</li></ul>Autorisations des membres :<ul><li>Empêcher les membres de créer, mettre à jour ou supprimer des canaux</li><li>Empêcher les membres d’ajouter ou de supprimer des applications</li><li>Empêcher les membres de créer, mettre à jour ou supprimer des connecteurs</li></ul>|
@@ -90,7 +90,7 @@ Utilisez les modèles suivants pour créer des équipes à la fois dans le clien
 |Intégrer des employés|`com.microsoft.teams.template.`<br>`OnboardEmployees` | Canaux : <ul><li>Général</li> <li>Annonces</li> <li>Conversation employé</li> <li>Formation</li></ul>Applications :<ul><li>Wiki</li><li>Communautés</li></ul>|
 |Organiser le service d’aide| `com.microsoft.teams.template.`<br>`OrganizeHelpDesk`|Canaux :<ul><li>Général</li><li>Annonces</li><li>FAQ</li></ul>Applications :<ul><li>Wiki</li><li>OneNote</li></ul> |
 | Collaborer sur les soins aux patients| `healthcareWard `| Canaux :<ul><li>Général</li><li>Annonces</li><li>Blotti</li><li>Rondes</li><li>Personnel</li><li>Formation</li></ul> Applications : <ul><li>Wiki</li>|
-| Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externes</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li></ul>|
+| Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.`<br>`CollaborateOnAGlobalCrisisOrEvent`| Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externe</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li></ul>|
 |Collaborer au sein d’une banque| `com.microsoft.teams.template.`<br>`CollaborateWithinABankBranch `|Canaux : <ul><li>Général<li>Annonces</li><li>Blotti</li><li>Réunions avec les clients</li><li>Desso</li><li>Développement de compétences</li><li>Traitement des emprunts</li><li>Réclamations des clients</li><li>Kudos</li><li>Amusant</li><li>Conformité</li></ul>|
 |Coordonner la réponse à un incident| `com.microsoft.teams.template.`<br>`CoordinateIncidentResponse`|Canaux : <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Récupération</li><li>Urgent</li></ul> Applications : <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li></ul>|
 |Hôpital| `healthcareHospita`l |Canaux : <ul><li>Général<li>Annonces</li><li>Conformité</li><li>Consignataires</li><li>Ressources humaines</li><li>Pharmacie</li></ul> Applications : <ul><li>Wiki</li></ul>|
@@ -101,7 +101,7 @@ Utilisez les modèles suivants pour créer des équipes à la fois dans le clien
 
 Pour [plus d’informations, voir Commencer à utiliser les modèles d’équipe](get-started-with-teams-templates-in-the-admin-console.md) dans le Centre d’administration.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Utiliser des modèles d’équipe dans la console d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Créer une équipe](/graph/api/team-post?view=graph-rest-beta) (en prévisualisation)

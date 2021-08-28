@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Résumé : Lisez cette rubrique pour découvrir comment déployer la conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 7a8944f5e678450d492e9ef32d7d41d60743fc1d5718864100693a7c76b7ed61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 85aa9b28ddcc262ae65700e0b0425ebec3dd0d12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303138"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599539"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Déployer la conférence dans Skype Entreprise Server
 
@@ -25,11 +25,11 @@ ms.locfileid: "54303138"
 
 Quatre types de conférences sont disponibles dans Skype Entreprise Server : conférence web, conférence audio et vidéo (A/V), conférences par numérotation et conférence par messagerie instantanée. Vous pouvez choisir d’activer tous les types de conférence ou d’utiliser un seul type, en fonction de vos besoins.
 
-Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont automatiquement déployées. Lorsque vous créez et publiez une nouvelle topologie à l’aide du Générateur de topologie, vous spécifiez s’il faut déployer la conférence web, A/V et les conférences téléphoniques, comme décrit dans les listes de contrôle suivantes :
+Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de conférence par messagerie instantanée sont déployées automatiquement. Lorsque vous créez et publiez une nouvelle topologie à l’aide du Générateur de topologie, vous spécifiez s’il faut déployer la conférence web, A/V et les conférences téléphoniques, comme décrit dans les listes de contrôle suivantes :
 
 - [Liste de vérification du déploiement pour les conférences web et audio/vidéo](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
 
-- [Fiche de flux de déploiement et liste de vérification pour la conférence conférences](deploy-conferencing.md#BKMK_DialinConferencing)
+- [Fiche de flux de déploiement et liste de vérification pour les conférences téléphoniques](deploy-conferencing.md#BKMK_DialinConferencing)
 
 Avant de déployer la conférence, lisez les rubriques de planification suivantes :
 
@@ -54,7 +54,7 @@ Le tableau suivant fournit une vue d’ensemble des étapes requises pour déplo
 |**Créer la topologie interne appropriée pour prendre en charge la conférence** <br/> |Vous devez exécuter le Générateur de topologie pour ajouter la conférence à la topologie, puis publier la topologie.  <br/> |Pour définir une topologie, un compte membre du groupe Utilisateurs local  <br/> Pour publier la topologie, un compte membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins, et qui dispose des autorisations de contrôle total (lecture/écriture/modification) sur le partage de fichiers à utiliser pour le magasin de fichiers Skype Entreprise Server (afin que le Générateur de topologie puisse configurer les DAC requises)  <br/> |[Créer et publier une nouvelle topologie dans Skype Entreprise Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Configurer les stratégies de conférence et les paramètres de configuration** <br/> |Utilisez Skype Entreprise Server panneau de configuration ou Skype Entreprise Server Management Shell pour configurer les stratégies de conférence et les paramètres de configuration.  <br/> |Groupe RTCUniversalServerAdmins (Windows PowerShell uniquement) ou attribuer des utilisateurs au rôle CSAdministrator  <br/> |[Gérer les stratégies de conférence dans Skype Entreprise Server](../../manage/conferencing/conferencing-policies.md) <br/> [Gérer les paramètres de configuration de réunion dans Skype Entreprise Server](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
 
-## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Fiche de flux de déploiement et liste de vérification pour la conférence conférences
+## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Fiche de flux de déploiement et liste de vérification pour les conférences téléphoniques
 <a name="BKMK_DialinConferencing"> </a>
 
  La conférence rendez-vous permet aux utilisateurs d’appeler à partir du réseau téléphonique commuté (PSTN) pour participer à une conférence audio/vidéo.

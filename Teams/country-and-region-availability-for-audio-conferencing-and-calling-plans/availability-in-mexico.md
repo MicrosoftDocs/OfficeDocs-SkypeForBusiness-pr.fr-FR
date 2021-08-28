@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour le Mexique.
-ms.openlocfilehash: 84cab723f6204906d5a26c830bb954a00697f19148374484eba457560ee83bbc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour le Mexique.
+ms.openlocfilehash: efc448f7b0f9aaf2f9ed2204faf7596c0b6e4ff5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349127"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613653"
 ---
 # <a name="availability-in-mexico"></a>Disponibilité au Mexique
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour le Mexique.
+Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour le Mexique.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

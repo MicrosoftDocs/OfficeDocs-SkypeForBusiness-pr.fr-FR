@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Résumé : Comment installer et tester l’application Skype Entreprise pour iOS.'
-ms.openlocfilehash: 28f91bccd32421c2442bfedb12eb5181311ed0ed990ebf4f3174898ddefff610
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff2e2789f733a77ab0d332225a85aca33eb69bc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332016"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623016"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Installer et tester Skype Entreprise pour iOS
  
 **Résumé :** Comment installer et tester l’Skype Entreprise pour l’application iOS.
   
-L’Skype Entreprise pour iOS apporte Skype Entreprise présence, messagerie instantanée et appels vocaux et vidéo aux appareils iOS. Les utilisateurs lync 2013 obtiennent automatiquement l’application mise à jour ou sont invités à la mettre à jour manuellement, en fonction de leurs paramètres utilisateur. Les nouveaux utilisateurs peuvent le télécharger à partir de l’App Store d’Apple. Le Skype Entreprise’application pour iOS est disponible uniquement sur les versions iOS 8.0 et ultérieures.
+L Skype Entreprise pour iOS apporte Skype Entreprise présence, messagerie instantanée et appels vocaux et vidéo aux appareils iOS. Les utilisateurs lync 2013 obtiennent automatiquement l’application mise à jour ou sont invités à la mettre à jour manuellement, en fonction de leurs paramètres utilisateur. Les nouveaux utilisateurs peuvent le télécharger à partir de l’App Store d’Apple. Le Skype Entreprise’application pour iOS est disponible uniquement sur les versions iOS 8.0 et ultérieures.
   
 ## <a name="installing-skype-for-business-for-ios"></a>Installation de Skype Entreprise pour iOS
 

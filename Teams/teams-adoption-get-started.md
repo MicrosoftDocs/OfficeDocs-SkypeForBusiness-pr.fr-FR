@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Dans cet article, vous allez découvrir les phases de démarrage, d’essai et d’activer des phases Microsoft Teams adoption.
 f1.keywords:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeb35e98638d1d2434a3ac85ffed0354ff3344fdba111a0a1f8ca9a1291c7688
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f3055c30c0b524927faa016ff5b1d371152a208
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341140"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613493"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Commencer à faire adopter Microsoft Teams
 
-L’adoption d’Microsoft Teams vous permet d’offrir une expérience utilisateur excellente et une valeur accrue au sein de votre entreprise. Notre objectif est de vous rendre rapidement opérationnel afin que vous pouvez commencer votre voyage avec Teams. Ce guide traite de l’adoption d’Teams par les utilisateurs et a des dépendances vis-à-vis de la préparation technique de votre environnement, qui sont traitées dans d’autres sections de notre documentation.
+L’adoption d’Microsoft Teams vous permet d’offrir une expérience utilisateur excellente et une valeur accrue au sein de votre entreprise. Notre objectif est de vous rendre rapidement opérationnel afin que vous pouvez commencer votre voyage avec Teams. Ce guide traite de l’adoption d’Teams par les utilisateurs et a des dépendances sur la préparation technique de votre environnement, qui sont traitées dans d’autres sections de notre documentation.
 
 ## <a name="adoption-prerequisites"></a>Conditions préalables à l’adoption
 

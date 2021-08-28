@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Découvrez le déploiement de plusieurs sites PSTN dans Cloud Connector Edition.
-ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f771875605ffef130b430fd7c7a00d9d1a63873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289382"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613764"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Déployer plusieurs sites dans Cloud Connector
 
@@ -85,7 +85,7 @@ Le tableau suivant répertorie les différences entre un site unique avec prise 
 |**Catégorie**|**Élément**|**Site unique avec ha**|**Multisesse**|
 |:-----|:-----|:-----|:-----|
 |Configurer  <br/> |Nom d’hôte de l’appliance <br/> |**Différents d’une** appliances à l’autre <br/> |**Différents sites** PSTN <br/> |
-|Configuration  <br/> |Dossier partagé  <br/> |Nécessite le **même dossier** partagé entre les appliances <br/> |Nécessite un **dossier partagé différent pour** toutes les appliances <br/> |
+|Installation  <br/> |Dossier partagé  <br/> |Nécessite le **même dossier** partagé entre les appliances <br/> |Nécessite un **dossier partagé différent pour** toutes les appliances <br/> |
 |Configurer  <br/> |VirtualMachineDomain  <br/> |Nécessite le **même domaine pour** toutes les appliances <br/> |Nécessite le **même domaine** sur les sites PSTN <br/> |
 |Configurer  <br/> |SIPDomains  <br/> |Les noms de domaine et l’ordre doivent être **les mêmes pour toutes les** appliances <br/> |Les noms de domaine et l’ordre doivent être **les mêmes** sur les sites PSTN <br/> |
 |Configurer  <br/> |Nom du site  <br/> |**Identique** Nom du site sur les appliances <br/> |**Différent** Nom du site sur les sites PSTN <br/> |
@@ -96,6 +96,6 @@ Le tableau suivant répertorie les différences entre un site unique avec prise 
 |Configurer  <br/> |Fournisseurs d’IP externes  <br/> |**Différents d’une** appliances à l’autre <br/> |**Différents sites** PSTN <br/> |
 |Configurer  <br/> |Paramètres PSTN GW  <br/> |**Identique pour** toutes les appliances <br/> |**Différents sites** PSTN <br/> |
 |Configurer  <br/> |Enregistrement DNS  <br/> |Ajouter des enregistrements avec les **mêmes FQDN** d’accès externe et différentes **adresses** IP <br/> |Ajouter des enregistrements avec **différents** FQDN d’accès externe et **différentes adresses** IP <br/> |
-|Configuration  <br/> |Client hybride  <br/> |Définir HybridPSTNSite  <br/> Définir PeerDestination pour le retour  <br/> |Définir HybridPSTNSite  <br/> Définir PeerDestination pour le retour  <br/> |
-|Configuration  <br/> |Passerelle  <br/> |Mappage **M:N MS** GW dans ce site <br/> |Les passerelles PSTN de chaque site PSTN doivent uniquement se connecter au(s) serveur(s) de médiation du même site  <br/> |
-|Configuration  <br/> |Utilisateur  <br/> |Définir UserPSTNSettings  <br/> |Définir UserPSTNSettings  <br/> |
+|Installation  <br/> |Client hybride  <br/> |Définir HybridPSTNSite  <br/> Définir PeerDestination pour le retour  <br/> |Définir HybridPSTNSite  <br/> Définir PeerDestination pour le retour  <br/> |
+|Installation  <br/> |Passerelle  <br/> |Mappage **M:N MS** GW dans ce site <br/> |Les passerelles PSTN de chaque site PSTN doivent uniquement se connecter au(s) serveur(s) de médiation du même site  <br/> |
+|Installation  <br/> |Utilisateur  <br/> |Définir UserPSTNSettings  <br/> |Définir UserPSTNSettings  <br/> |

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: La fédération est une relation d’approbation entre deux ou plusieurs domaines SIP qui permet aux utilisateurs d’organisations distinctes de communiquer au-delà des limites des réseaux. Après avoir migré vers votre pool pilote, vous devez passer de l’itinéraire de fédération de vos serveurs Edge de versions précédentes à l’itinéraire de fédération de vos serveurs Edge Skype Entreprise Server 2019.
-ms.openlocfilehash: 5d3677a25d26505e23c1ee8741454e8af88fa7aeb090e380f4edd422785217b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f051321667e12a468df1186147f6fab1d7bbe5cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613403"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurer les itinéraires de fédération et le trafic multimédia
 
@@ -37,7 +37,7 @@ Utilisez les procédures suivantes pour faire passer l’itinéraire de fédéra
 
 1. Sur le Skype Entreprise Server frontal 2019, ouvrez la topologie existante dans le Générateur de topologies. 
     
-2. Dans le volet gauche, accédez au nœud de site, qui se trouve juste en dessous **de Skype Entreprise Server**.
+2. Dans le volet gauche, accédez au nœud de site, qui se trouve juste en dessous de **Skype Entreprise Server**.
     
 3. Cliquez avec le bouton droit sur le site, puis cliquez sur **Modifier les propriétés**.
     
@@ -102,7 +102,7 @@ Utilisez les procédures suivantes pour faire passer l’itinéraire de fédéra
     
 2. Développez le nœud, cliquez avec le bouton droit sur le serveur Edge listé, puis cliquez sur **Modifier les propriétés**. 
     
-3. Dans la page **Général,** sous Sélection du **saut** suivant, sélectionnez dans la liste Skype Entreprise Server pool 2019.
+3. Dans la page **Général,** sous Sélection du **saut suivant,** sélectionnez dans la liste Skype Entreprise Server pool 2019.
   
 4. Cliquez sur **OK** pour fermer la page Modifier les propriétés. 
     
@@ -156,7 +156,7 @@ Utilisez les procédures suivantes pour faire passer l’itinéraire de fédéra
 3. Attendez que la réplication Active Directory se produise sur tous les pools de serveurs impliqués dans le déploiement.
     
     > [!NOTE]
-    > Vous pouvez voir le message suivant : **Avertissement : la topologie contient plusieurs serveurs Edge fédérés. Cela peut se produire lors de la migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait activement utilisé pour la fédération. Vérifiez que l’enregistrement SRV DNS externe pointe vers le serveur Edge correct. Si vous souhaitez déployer plusieurs serveurs Edge de fédération pour qu’ils soient actifs simultanément (autrement dit, pas un scénario de migration), vérifiez que tous les partenaires fédérés utilisent Skype Entreprise Server. Vérifiez que l’enregistrement SRV DNS** externe répertorie tous les serveurs Edge activés pour la fédération. Cet avertissement est attendu et peut être ignoré en toute sécurité. 
+    > Vous pouvez voir le message suivant : **Avertissement : la topologie contient plusieurs serveurs Edge fédérés. Cela peut se produire lors de la migration vers une version plus récente du produit. Dans ce cas, un seul serveur Edge serait activement utilisé pour la fédération. Vérifiez que l’enregistrement DNS SRV externe pointe vers le serveur Edge correct. Si vous souhaitez déployer plusieurs serveurs Edge de fédération pour qu’ils soient actifs simultanément (autrement dit, pas un scénario de migration), vérifiez que tous les partenaires fédérés utilisent Skype Entreprise Server. Vérifiez que l’enregistrement SRV DNS** externe répertorie tous les serveurs Edge activés pour la fédération. Cet avertissement est attendu et peut être ignoré en toute sécurité. 
   
 ## <a name="to-configure-skype-for-business-server-2019-edge-server"></a>Pour configurer Skype Entreprise Server serveur Edge 2019
 

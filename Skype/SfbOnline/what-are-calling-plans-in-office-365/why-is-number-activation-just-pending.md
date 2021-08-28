@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: La validation d’adresse est un élément important de la configuration des forfaits d’appels. Elle fournit à un utilisateur de votre organisation une adresse d'appels d'urgence qui peut être utilisée par les services de réponse d'urgence.
-ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62558171dc8f6fb93d140995d3ce7cff56227519
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330588"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599569"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Pourquoi l’activation de numéro est-elle en attente ?
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-La validation d’adresse est un élément important de la configuration des forfaits d’appels. Si pour une raison quelconque un numéro de téléphone  n’est pas activé et est répertorié comme en attente en raison de la validation de l’adresse, vous devez créer et envoyer une demande de service. La procédure dépend de la taille de votre organisation.
+La validation d’adresse est un élément important de la configuration des forfaits d’appels. Si pour une raison quelconque un numéro de téléphone  n’est pas activé et est répertorié comme en attente en raison de la validation d’adresse, vous devez créer et envoyer une demande de service. La procédure dépend de la taille de votre organisation.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Pour les organisations comprenant 150 personnes au maximum, suivez la procédure suivante
 1. Dans le Centre d’administration, sélectionnez **Besoin d’aide**?
