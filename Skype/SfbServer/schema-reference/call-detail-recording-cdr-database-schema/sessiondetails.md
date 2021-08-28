@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Chaque enregistrement représente une session d’égal à égal ; il peut s’agir d’un appel téléphonique VoIP-VoIP, d’une session de messagerie instantanée à deux participants ou de tout autre type de session. Vous pouvez effectuer une jointage de table avec la table Media pour rechercher les détails de chaque média impliqué dans cette session.
-ms.openlocfilehash: eb47c87be69bfc9308c8c641c54a2173ba2ed03eeae7f7543ce6a5cbb97f7092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 830e6e2266d77487848c4e49daeaa8462460c2dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284484"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615510"
 ---
 # <a name="sessiondetails-table"></a>Table SessionDetails
  
@@ -26,7 +26,7 @@ Chaque enregistrement représente une session d’égal à égal ; il peut s’
   
 Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDeskPhone ont été supprimés de la table SessionDetails utilisée dans Skype Entreprise Server 2015.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session. Utilisée conjointement avec **SessionIdSeq** pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’ID pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session.* Pour plus d’informations, voir la table Dialogs Skype Entreprise Server [2015.](dialogs.md) <br/> |

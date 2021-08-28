@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lisez cette rubrique pour plus d’informations sur la manière de Salles Microsoft Teams avec Skype Entreprise Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14d942e041d11cfd95b38f4cdcc18ad614c135df9d88b3a3e55261236144bffd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296641"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615190"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Déployer des Salles Microsoft Teams avec Skype Entreprise Server
   
@@ -117,7 +117,7 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md)
 

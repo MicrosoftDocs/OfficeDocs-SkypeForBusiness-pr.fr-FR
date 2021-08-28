@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Résumé : Examinez les considérations d’utilisation des ports avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: d2e3cf07dbdf7471cd1e2f535d619e8bece74ecc0a9f9e16d416b7cba46548c1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e991d816ea00a51260b16d7af4cbe7e3f326688
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615580"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Exigences en matière de ports et de protocoles pour les serveurs
  
@@ -51,7 +51,7 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
   
 **Ports de serveurs requis (par rôle serveur)**
 
-|Rôle serveur|Nom du service|Port|Protocole|Remarques|
+|Rôle serveur|Nom du service|Port|Protocole|Notes|
 |:-----|:-----|:-----|:-----|:-----|
 |Tous les serveurs  |SQL Browser  |1434  |UDP  |SQL Navigateur de la copie répliquée locale de la base de données du magasin central de gestion.  |
 |Front-End serveurs  |Skype Entreprise Server Front-End service  |5060  |TCP  |Utilisé facultativement par les serveurs Standard Edition Server et les serveurs frontaux pour les itinéraires statiques vers des services approuvés, comme les serveurs de contrôle d’appel distant.  |
@@ -66,9 +66,9 @@ Le tableau suivant répertorie les ports qui doivent être ouverts sur chaque r�
 |Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |80  |HTTP  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS) lorsque HTTPS n’est pas utilisé.  |
 |Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |443  |HTTPS  |Utilisé pour les communications à partir des serveurs frontaux vers les noms de domaine complets des batteries de serveurs web (URL utilisées par les composants web IIS).  |
 |Serveurs frontaux  |Skype Entreprise Server Service de compatibilité web  |8080  |TCP et HTTP  |Utilisé par les composants web pour l’accès externe.  |
-|Serveurs frontaux  |Composant de serveur Web  |4443  |HTTPS  |Communications HTTPS (à partir d’un proxy inverse) et entre les pool frontaux HTTPS pour la connexion de découverte automatique.  |
-|Serveurs frontaux  |Composant de serveur Web  |8060  |TCP (MTLS)  ||
-|Serveurs frontaux  |Composant de serveur Web  |8061  |TCP (MTLS)  ||
+|Serveurs frontaux  |Composant serveur Web  |4443  |HTTPS  |Communications HTTPS (à partir d’un proxy inverse) et entre les pool frontaux HTTPS pour la connexion de découverte automatique.  |
+|Serveurs frontaux  |Composant serveur Web  |8060  |TCP (MTLS)  ||
+|Serveurs frontaux  |Composant serveur Web  |8061  |TCP (MTLS)  ||
 |Serveurs frontaux  |Composant Mobility Services  |5086  |TCP (MTLS)  |Port SIP utilisé par les processus internes mobility services  |
 |Serveurs frontaux  |Composant Mobility Services  |5087  |TCP (MTLS)  |Port SIP utilisé par les processus internes mobility services  |
 |Serveurs frontaux  |Composant Mobility Services  |443  |HTTPS  ||
@@ -130,8 +130,8 @@ Pour les pools utilisant uniquement l’équilibrage de la charge matérielle (e
 |Programme d’équilibrage de charge du serveur frontal  |5071  |TCP  |
 |Programme d’équilibrage de charge du serveur frontal  |5080  |TCP  |
 |Programme d’équilibrage de charge du serveur frontal  |448  |TCP  |
-|Programme d’équilibrage de la charge du serveur de médiation  |5070  |TCP  |
-|Programme d’équilibrage de la charge du serveur frontal (si le pool exécute également le serveur de médiation)  |5070  |TCP  |
+|Équilibreur de charge du serveur de médiation  |5070  |TCP  |
+|Équilibreur de charge du serveur frontal (si le pool exécute également le serveur de médiation)  |5070  |TCP  |
 |Programme d’équilibrage de charge du directeur  |443  |HTTPS  |
 |Programme d’équilibrage de charge du directeur  |444  |HTTPS  |
 |Programme d’équilibrage de charge du directeur  |5061  |TCP  |
@@ -152,7 +152,7 @@ Vos pools frontaux et pools directeurs qui font appel à l’équilibrage de cha
 
 **Ports client requis**
 
-|Composant|Port|Protocole|Remarques|
+|Composant|Port|Protocole|Notes|
 |:-----|:-----|:-----|:-----|
 |Clients  |67/68  |DHCP  |Utilisé par Skype Entreprise Server pour rechercher le FQDN du bureau d’enregistrement (c’est-à-dire, si DNS SRV échoue et que les paramètres manuels ne sont pas configurés).  |
 |Clients  |443  |TCP (TLS)  |Utilisé pour le trafic SIP client à serveur pour l’accès des utilisateurs externes.  |

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Découvrez comment mettre à niveau votre organisation vers un déploiement Microsoft Teams un déploiement Skype Entreprise hybride.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21e95d66ca0539c1e041123b082ce38c8b213fea9f9dc147ca42b8209f49935f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cc79cb570a92ac59bc820b8e10d750d9d926f287
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316610"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615130"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Mettre à niveau à partir d Skype Entreprise déploiement hybride vers un déploiement Teams
 
-![Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
+![Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre voyage de mise à niveau. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 

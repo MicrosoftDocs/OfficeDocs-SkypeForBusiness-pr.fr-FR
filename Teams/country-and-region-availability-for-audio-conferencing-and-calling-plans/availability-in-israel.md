@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 de l Skype Entreprise et Microsoft Teams disponibles pour Israël.
-ms.openlocfilehash: 05ac117614e67fefa5ef2606e9db95d2bfe4e7e21d361d2059465eb6cc1c21a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf345d38233816d879200ac4ff24be89b35c2a2a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616240"
 ---
 # <a name="availability-in-israel"></a>Disponibilité en Israël
 

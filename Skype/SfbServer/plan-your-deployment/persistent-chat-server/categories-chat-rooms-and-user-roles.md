@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les catégories, les salles de conversation et les rôles d’utilisateur et d’administrateur pour le serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: 9724daf78114ede5d46ae690f2ab41cc36c170d2dd73c3664718e7ac4bb995f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Résumé : Consultez cette rubrique pour en savoir plus sur les catégories, les salles de conversation et les rôles d’utilisateur et d’administrateur pour le serveur de conversation permanente Skype Entreprise Server 2015.'
+ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352602"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615560"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Catégories de conversation permanente, salles de conversation et rôles d’utilisateur dans Skype Entreprise Server 2015
  
@@ -60,7 +60,7 @@ Outre les membres autorisés et refusés pour les catégories, vous pouvez égal
     > [!IMPORTANT]
     > Si le responsable est aussi le créateur d’une autre catégorie, il peut modifier la catégorie de sorte à pouvoir créer des salles. 
   
-- **Membre**: utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées telles que les messages non lus, les filtres ego et les filtres de mots clés) et participer à la salle de conversation (peut publier, sauf si la salle est un auditorium où seuls les présentateurs peuvent publier , obtenir du contenu et rechercher). Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher la salle de conversation s’ils sont dans la liste Membres autorisés de la catégorie, mais doivent demander l’accès pour rejoindre ces salles de conversation pour accéder au contenu. (Aucune demande d’accès ou approbation n’est intégrée au système ; celles-ci sont réalisées en externe par courrier électronique, par téléphone ou par d’autres formes de contact.)
+- **Membre**: utilisateurs membres d’une salle de conversation. Ces utilisateurs peuvent voir les salles de conversation dans l’annuaire (même si la salle de conversation est secrète), ainsi que s’abonner à la salle de conversation (y compris les options de métadonnées telles que les messages non lus, les filtres ego et les filtres de mots clés) et participer à la salle de conversation (peut publier, sauf si la salle est un auditorium où seuls les présentateurs peuvent publier,  obtenir du contenu et effectuer une recherche). Les utilisateurs qui ne sont pas membres de la salle de conversation peuvent rechercher la salle de conversation s’ils sont dans la liste Membres autorisés de la catégorie, mais doivent demander l’accès pour rejoindre ces salles de conversation pour accéder au contenu. (Aucune demande d’accès ou approbation n’est intégrée au système ; celles-ci sont réalisées en externe par courrier électronique, par téléphone ou par d’autres formes de contact.)
     
 - **Présentateur** : utilisateurs pouvant publier dans un auditorium.
     
@@ -86,6 +86,6 @@ Pour plus d’informations sur la configuration et la gestion des salles de conv
     
 - [Gérer les catégories dans le serveur de conversation permanente dans Skype Entreprise Server 2015](../../manage/persistent-chat/categories.md)
     
-- [Gestion des salles de conversation dans le serveur de conversation permanente Skype Entreprise Server 2015](../../manage/persistent-chat/chat-rooms.md)
+- [Gérer les salles de conversation dans le serveur de conversation permanente Skype Entreprise Server 2015](../../manage/persistent-chat/chat-rooms.md)
     
 

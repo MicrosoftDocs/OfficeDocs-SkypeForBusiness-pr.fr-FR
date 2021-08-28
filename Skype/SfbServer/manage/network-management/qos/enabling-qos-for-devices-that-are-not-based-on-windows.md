@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Découvrez comment activer la QoS pour les appareils utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows.
-ms.openlocfilehash: 85e63df1ba96ff77d586d3c4e71130509a869d51
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: eda6f1c825d00c7e8b1804ad866603b3429273d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634258"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Activation de la QoS dans Skype Entreprise Server pour les appareils qui ne sont pas basés sur Windows
 
@@ -59,7 +59,7 @@ Si vous souhaitez activer simultanément QoS pour tous vos paramètres de config
 
 **Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True**
 
-Vous pouvez désactiver la qualité de service pour les appareils qui utilisent un système d’exploitation autre que Windows en fixant la valeur de la propriété EnableQoS sur False. Par exemple :
+Vous pouvez désactiver la qualité de service pour les appareils qui utilisent un système d’exploitation autre que Windows en fixant la valeur de la propriété EnableQoS sur False. Par exemple :
 
 **Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False**
 

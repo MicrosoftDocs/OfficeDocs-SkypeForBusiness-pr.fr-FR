@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Découvrez le plan de retrait d Skype Entreprise Online et comment Microsoft aide les clients à migrer vers Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,18 +18,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 53eada98b5a52e5e943731e0037a064f37e50bd2
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 46bdd1c8e045d7046850cf7178e5682bc686b29d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372024"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615180"
 ---
 # <a name="skype-for-business-online-retirement"></a>Déclassement de Skype Entreprise Online
 
 En juillet 2019, nous avons annoncé que Skype Entreprise Online sera retiré le **31 juillet 2021,** ce qui donne à nos clients deux ans pour planifier leurs mises à niveau vers Microsoft Teams, l’application principale pour la communication et la collaboration dans Microsoft 365. À mesure Skype Entreprise Online est retiré, nous voulons nous assurer que les clients disposent des informations et des ressources dont ils ont besoin pour planifier et exécuter une mise à niveau réussie vers Teams.
 
-## <a name="why-is-skype-for-business-online-retiring"></a>Pourquoi est-Skype Entreprise la mise à la retraite en ligne ?
+## <a name="why-is-skype-for-business-online-retiring"></a>Pourquoi est-Skype Entreprise mise à la retraite en ligne ?
 
 Depuis son introduction, Skype Entreprise Online est un outil précieux pour des millions de personnes dans le monde entier. En combinant la messagerie instantanée, les appels et la vidéo dans une seule application, Skype Entreprise Online établit de nouvelles possibilités pour les communications d’entreprise. Microsoft Teams est le chapitre suivant de cette vision.
 
@@ -43,9 +43,9 @@ Pour plus d’informations sur Skype Entreprise retrait en ligne, voir FAQ — M
 
 Après Skype Entreprise mise à la retraite d’Online le 31 juillet 2021, le service ne sera plus accessible. En attendant, les clients Skype Entreprise Online actuels ne rencontreront aucun changement au niveau du service. Depuis le 1er septembre 2019, tous les nouveaux clients Microsoft 365 ont été directement intégrés à Teams pour les discussions, les réunions et les appels.
 
-Le temps nécessaire pour une mise à niveau complète vers Teams varie en fonction des caractéristiques uniques de l’organisation, notamment le nombre d’utilisateurs, la complexité technique et l’ampleur interne à modifier. Nous vous recommandons vivement de commencer votre mise à niveau vers Teams dès aujourd’hui. En commençant votre mise à niveau dès aujourd’hui, vous aurez aérez le temps de la terminer avant la date de départ à la retraite. À compter d’août, Microsoft proposera un processus de mise à niveau assisté pour vous aider à déplacer les utilisateurs Skype Entreprise Online vers Teams uniquement.
+Le temps nécessaire pour une mise à niveau complète vers Teams varie en fonction des caractéristiques uniques de l’organisation, notamment le nombre d’utilisateurs, la complexité technique et l’ampleur interne des changements. Nous vous recommandons vivement de commencer votre mise à niveau vers Teams dès aujourd’hui. En commençant votre mise à niveau dès aujourd’hui, vous aurez aérez le temps de la terminer avant la date de départ à la retraite. À compter d’août, Microsoft proposera un processus de mise à niveau assisté pour vous aider à déplacer les utilisateurs Skype Entreprise Online vers Teams uniquement.
 
-Teams est disponible dans la plupart des plans Microsoft 365 Entreprise et Enterprise, et vos investissements en gestion des licences existants continueront d’Teams. Les fonctionnalités qui constituent actuellement des charges de travail Premium dans Skype Entreprise Online continueront de l’être dans Teams. Par exemple, si vous avez acheté l’audioconférence autonome ou dans le cadre de l’offre E5 avec Skype Entreprise, l’audioconférence sera activé dans Teams.
+Teams est disponible dans la plupart des plans Microsoft 365 Entreprise et Enterprise, et vos investissements en gestion des licences existants avancent Teams. Les fonctionnalités qui constituent actuellement des charges de travail Premium dans Skype Entreprise Online continueront de l’être dans Teams. Par exemple, si vous avez acheté l’audioconférence autonome ou dans le cadre de l’offre E5 avec Skype Entreprise, l’audioconférence sera activé dans Teams.
 
 Le Skype et le secteur Skype Entreprise Server grand public ne sont pas affectés par l’abandon d’Skype Entreprise Online. Les clients ayant des déploiements hybrides Skype Entreprise Server Lync Server 2013 doivent examiner les implications de la mise à l’retraite prochaine d Skype Entreprise [Online.](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)
 
@@ -65,7 +65,7 @@ Tirez parti des ressources disponibles pour planifier votre déploiement Teams m
 
 - [Teams formation en direct](./instructor-led-training-teams-landing-page.yml) – Cours de formation en ligne gratuits conçus pour aider votre organisation à fonctionner avec Teams.
 
-- [Teams Chalk Talks](./chalk-talks-landing-page.yml) : ateliers en ligne gratuits pour les professionnels de l’informatique et les décideurs qui partagent les meilleures pratiques pour certains des scénarios les plus populaires et attrayants dans Teams.
+- [Teams Chalk Talks](./chalk-talks-landing-page.yml) : ateliers en ligne gratuits pour les professionnels de l’informatique et les décideurs qui partagent les meilleures pratiques pour certains des scénarios les plus populaires et les plus convaincants dans Teams.
 
 - [Partenaires Microsoft](https://www.microsoft.com/solution-providers/home) : des fournisseurs de solutions Microsoft peuvent vous aider à tirer pleinement parti de Teams.
 
@@ -75,15 +75,15 @@ Si vous êtes un client Skype Entreprise Online, commencez à planifier votre mi
 
 ## <a name="what-to-expect-post-retirement"></a>Ce à quoi vous pouvez vous attendre après la retraite
 
-Microsoft proposera des mises à niveau assistées pour les Skype Entreprise Online qui n’utilisent pas le mode Teams uniquement lors de la retraite. Les clients recevront des notifications à la fois dans le Centre d’administration Teams et le Centre de messages Microsoft 365, 90 jours avant la date de mise à niveau prévue pour prévoir du temps pour la préparation technique et de préparation des utilisateurs.
+Microsoft proposera des mises à niveau assistées pour les Skype Entreprise Online qui n’utilisent pas Teams mode uniquement lors de la retraite. Les clients recevront des notifications à la fois dans le Centre d’administration Teams et le Centre de messages Microsoft 365, 90 jours avant la date de mise à niveau prévue pour prévoir du temps pour la préparation technique et de préparation des utilisateurs.
 
-Une fois la mise à niveau assistée terminée, tous les utilisateurs en ligne sont en Teams mode Uniquement. Les utilisateurs Teams mode uniquement reçoivent les conversations et appels entrants, et planifier des réunions, Teams. Les utilisateurs Teams mode Uniquement ne pourront pas démarrer des conversations ou des appels ou planifier des réunions dans Skype Entreprise Online. Teams Seuls les utilisateurs pourront participer aux Skype Entreprise prévues par les utilisateurs qui utilisent encore Skype Entreprise Server.
+Une fois la mise à niveau assistée terminée, tous les utilisateurs en ligne sont en Teams seul. Les utilisateurs Teams mode uniquement reçoivent les conversations et appels entrants, et planifier des réunions, Teams. Les utilisateurs Teams mode Uniquement ne pourront pas démarrer des conversations ou des appels ou planifier des réunions dans Skype Entreprise Online. Teams Seuls les utilisateurs pourront participer aux Skype Entreprise prévues par les utilisateurs qui utilisent encore Skype Entreprise Server.
 
 Pour plus d’informations, voir Mises à niveau [assistées d Skype Entreprise Online vers Microsoft Teams.](upgrade-assisted.md)
 
 ## <a name="what-organizations-with-hybrid-configurations-skype-for-business-online-and-on-premises-skype-for-business-server-can-expect-when-skype-for-business-online-retires"></a>Les organisations 365 ayant des configurations hybrides (Skype Entreprise Online et Skype Entreprise Server locale) peuvent s’attendre lors de la mise Skype Entreprise Online
 
-Les clients hybrides ayant des configurations en ligne et sur site seront requis pour mettre à niveau les utilisateurs en ligne de Skype Entreprise Online vers Microsoft Teams avant la date de retrait du 31 juillet 2021. Microsoft proposera des mises à niveau assistées pour aider les utilisateurs restants de Skype Entreprise Online à passer en Teams uniquement après la date de retrait.
+Les clients hybrides ayant des configurations en ligne et en local seront requis pour mettre à niveau les utilisateurs en ligne de Skype Entreprise Online vers Microsoft Teams avant la date de retrait du 31 juillet 2021. Microsoft proposera des mises à niveau assistées pour aider les utilisateurs restants de Skype Entreprise Online à passer en Teams uniquement après la date de retrait.
 
 Les organisations ayant une configuration hybride peuvent continuer à utiliser Skype Entreprise et Teams côte à côte jusqu’à ce qu’elles soient prêtes à passer en mode Teams seul. Après la Skype Entreprise de retrait en ligne, lorsqu’un Skype Entreprise Server est déplacé vers le cloud, cet utilisateur sera en mode Teams uniquement.
 

@@ -13,19 +13,19 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Découvrez comment créer une carte de bâtiment que vous pouvez utiliser pour charger des données client et bâtiment dans le tableau de bord de qualité des appels.
-ms.openlocfilehash: fbe033511ad0c717dd79bb5d0bb5b480037175abaa9ce7e5dd40aee334094fff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a119324090d05b593eb1ed66f41efbb7a5bd7a0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314290"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634098"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Créer une carte de bâtiments pour le tableau de bord de qualité des appels
 
@@ -42,6 +42,6 @@ Il existe plusieurs façons de ma carte des sous-réseaux de votre organisation.
 1. Validez un fichier de construction existant, en vérifiant la recherche de doublons et de chevauchements.
 1. Recherchez des sous-réseaux non mis en réseau dans le DQD.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Télécharger données relatives au client et à la création dans le CQD](CQD-upload-tenant-building-data.md)

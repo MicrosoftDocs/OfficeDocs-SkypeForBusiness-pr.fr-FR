@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lisez cette rubrique pour découvrir comment planifier vos sites RSTN Cloud Connector Edition afin de garantir un routage des appels efficace et rentable.
-ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 54f8ec9f89c6a3ef88b5ac8e70e9eebfd2968d2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339960"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616330"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Planification de l’édition Cloud Connecteur pour les sites PSTN
 
@@ -30,13 +30,13 @@ ms.locfileid: "54339960"
  
 Lisez cette rubrique pour découvrir comment planifier vos sites RSTN Cloud Connector Edition afin de garantir un routage des appels efficace et rentable.
   
-Cette rubrique décrit ce que vous devez savoir sur l’édition Cloud Connector et le routage des appels afin de pouvoir planifier vos sites RSTN Cloud Connector. Un site PSTN est une combinaison d’appliances Cloud Connector, déployées au même emplacement et avec des passerelles PSTN communes qui leur sont connectées. Cette rubrique se concentre sur la façon de configurer votre topologie de site Cloud Connector pour vous assurer que vos sites Cloud Connector peuvent gérer le routage entrant et sortant pour tous les utilisateurs affectés à un site de la manière la plus rentable et la plus efficace possible. Pour plus d’informations sur Cloud Connector et les avantages des sites PSTN, n’oubliez pas de lire [Planifier Skype Entreprise Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 
+Cette rubrique décrit ce que vous devez savoir sur Cloud Connector Edition et le routage des appels afin de pouvoir planifier vos sites PSTN Cloud Connector. Un site PSTN est une combinaison d’appliances Cloud Connector, déployées au même emplacement et avec des passerelles PSTN communes qui leur sont connectées. Cette rubrique se concentre sur la façon de configurer votre topologie de site Cloud Connector pour vous assurer que vos sites Cloud Connector peuvent gérer le routage entrant et sortant pour tous les utilisateurs affectés à un site de la manière la plus rentable et la plus efficace possible. Pour plus d’informations sur Cloud Connector et les avantages des sites PSTN, n’oubliez pas de lire [Planifier Skype Entreprise Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>Sites RSTN Cloud Connector et routage des appels
 
 Les sites PSTN Cloud Connector sont une construction de topologie créée pour éviter les dépenses longues et inter-pays inutiles, et pour s’assurer que les appels d’urgence sortants sont acheminés vers la liaison appropriée. Pour garantir un routage rentable et efficace des appels, y compris les appels aux services d’urgence, vous devez soigneusement planifier vos sites PSTN et la façon dont les utilisateurs sont affectés à chaque site. 
   
-Dans le cadre de votre planification de Cloud Connector, il est essentiel que vous parliez à vos opérateurs de l’emplacement de vos bureaux et de vos utilisateurs, et de l’endroit où les connexions PSTN se terminent par l’opérateur. Vous devez travailler avec vos opérateurs pour déterminer comment les appels d’urgence peuvent être acheminés, puis utiliser ces informations pour définir des sites PSTN Cloud Connector et affecter des utilisateurs aux sites appropriés. Par exemple, vous devez vous assurer que les tronçons qui s’étendent sur un centre de données où le site PSTN est étiré sont configurés pour gérer à la fois le routage entrant et sortant pour tous les numéros affectés aux utilisateurs de ce site. 
+Dans le cadre de votre planification de Cloud Connector, il est essentiel que vous parliez à vos opérateurs de l’emplacement de vos bureaux et utilisateurs et de l’endroit où les connexions PSTN se terminent par l’opérateur. Vous devez travailler avec vos opérateurs pour déterminer comment les appels d’urgence peuvent être acheminés, puis utiliser ces informations pour définir des sites PSTN Cloud Connector et affecter des utilisateurs aux sites appropriés. Par exemple, vous devez vous assurer que les tronçons qui se terminent dans un centre de données où le site RSTN est étiré sont configurés pour gérer le routage entrant et sortant pour tous les numéros affectés aux utilisateurs de ce site. 
   
 Chaque appliance Cloud Connector peut être connectée à plusieurs passerelles IP, PBX IP ou contrôleurs de frontière de session (SCS). Étant donné que les passerelles et les PBX sont connectés à des trunks telco (pri ou SIP), les appliances Cloud Connector sont connectées logiquement aux connexions PSTN pour les appels entrants et sortants. Avec Cloud Connector et la connectivité PSTN locale, vous obtenez la connexion et les numéros de téléphone associés auprès de votre opérateur local. Si votre entreprise est une grande entreprise, vous pouvez avoir plusieurs opérateurs, en particulier si votre entreprise s’étend sur plusieurs villes, états ou pays. Étant donné que votre opérateur est propriétaire du numéro de téléphone, il est responsable de la gestion des appels d’urgence.
   

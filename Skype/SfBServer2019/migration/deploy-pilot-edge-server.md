@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre serveur Edge Skype Entreprise Server 2019. Les processus de déploiement et de configuration Skype Entreprise Server 2019 sont très similaires à Skype Entreprise Server 2015. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour obtenir la procédure détaillée, voir Déploiement de l’accès des utilisateurs externes dans Skype Entreprise Server 2019 dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
-ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315080"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615008"
 ---
 # <a name="deploy-pilot-edge-server"></a>Déploiement d’un serveur Edge pilote
 
@@ -46,7 +46,7 @@ Cette rubrique présente les paramètres de configuration que vous devez connaî
     
      ![Définir la boîte de dialogue Saut suivant](../media/migration_ocs_topo_edgepool_page7.JPG)
   
-7. Dans la page **Associer un pool frontal** ou un pool de médiation, n’associez pas de pool à ce pool edge pour le moment. Le trafic multimédia externe est actuellement acheminé via le serveur Edge hérité. Ce paramètre sera configuré lors d’une phase ultérieure de la migration. 
+7. Dans la page Associer un pool frontal ou un pool de **médiation,** n’associez pas de pool à ce pool edge pour le moment. Le trafic multimédia externe est actuellement acheminé via le serveur Edge hérité. Ce paramètre sera configuré lors d’une phase ultérieure de la migration. 
     
      ![Boîte de dialogue Associer des pools frontux](../media/migration_ocs_topo_edgepool_page8.JPG)
   

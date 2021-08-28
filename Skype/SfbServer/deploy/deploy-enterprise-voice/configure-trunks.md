@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Résumé : Découvrez comment configurer une trunk entre un serveur de médiation et des homologues pour les Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 757f7d4d32dfd73cb88952156f13a40c9c0fa580778d5cfe7019f7c0c3bddcdc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0b3846a79d05d6b3eaea664f919dfbca61b036b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320896"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617040"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Configurer des trunks dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment configurer une trunk entre un serveur de médiation et des homologues pour Voix Entreprise dans Skype Entreprise Server.
   
-Dans le cadre du déploiement Voix Entreprise, vous pouvez configurer une connexion entre un serveur de médiation et un ou plusieurs des homologues suivants pour fournir une connectivité PSTN (réseau téléphonique commuté) pour les clients et périphériques Voix Entreprise de votre organisation :
+Dans le cadre d’un déploiement Voix Entreprise, vous pouvez configurer une connexion entre un serveur de médiation et un ou plusieurs des homologues suivants afin de fournir une connectivité PSTN (réseau téléphonique commuté) pour les clients et périphériques Voix Entreprise de votre organisation :
   
 - Connexion de jonction SIP vers un fournisseur de services de téléphonie Internet
     
@@ -37,13 +37,13 @@ Dans le cadre du déploiement Voix Entreprise, vous pouvez configurer une connex
     
 Pour plus d’informations, voir Planifier la connectivité [PSTN dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
-Skype Entreprise Server de médiation prend en charge plusieurs associations entre les passerelles et les serveurs de médiation. Ces associations sont réalisées en définissant une trunk, qui est une association logique entre un pool de serveurs de médiation et une passerelle de réseau téléphonique commuté (PSTN), un contrôleur SBC (Session Border Controller) ou un SYSTÈME IP-PBX. Utilisez le Générateur de topologie pour associer des passerelles à des serveurs de médiation (c’est-à-dire, des trunks).
+Skype Entreprise Server prend en charge plusieurs associations entre les passerelles et les serveurs de médiation. Ces associations sont réalisées en définissant une trunk, qui est une association logique entre un pool de serveurs de médiation et une passerelle de réseau téléphonique commuté (PSTN), un contrôleur SBC (Session Border Controller) ou un SYSTÈME IP-PBX. Utilisez le Générateur de topologie pour associer des passerelles à des serveurs de médiation (c’est-à-dire, des trunks).
   
 - Pour affecter ou supprimer une Skype Entreprise Server, vous devez d’abord définir une trunk dans le Générateur de topologies. Une trunk se compose de l’association suivante : nom de domaine complet (FQDN) du serveur de médiation, port d’écoute du serveur de médiation, nom de domaine complet de la passerelle et port d’écoute de la passerelle.
     
 - Pour configurer plusieurs trunks, vous pouvez créer plusieurs associations entre la même passerelle et le serveur de médiation. Cela offre une résilience supplémentaire à l’infrastructure Voix Entreprise, ce qui est particulièrement utile dans les scénarios interopérationnels PBX (Private Branch Exchange). 
     
-Lorsqu’une jonction est définie, elle doit être associée à un itinéraire. Pour associer une liaison à un itinéraire, vous définissez un nom simple pour la liaison dans le Générateur de topologies. Ce nom simple est utilisé comme nom de la Skype Entreprise Server panneau de Skype Entreprise Server, où les axes peuvent être associés à des itinéraires. Le nom de la simple trunk name est utilisé comme nom de passerelle à partir de Skype Entreprise Server Management Shell. 
+Lorsqu’une jonction est définie, elle doit être associée à un itinéraire. Pour associer une liaison à un itinéraire, vous définissez un nom simple pour la liaison dans le Générateur de topologies. Ce nom simple est utilisé comme nom de la Skype Entreprise Server panneau de Skype Entreprise Server, où des itinéraires peuvent être associés. Le nom de la simple trunk est utilisé comme nom de passerelle à partir de Skype Entreprise Server Management Shell. 
   
 ```powershell
 New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}

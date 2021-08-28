@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithWacPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Le Office Web Apps Server fournit des services similaires à ceux d’un présentateur chargé d’un document à utiliser lors d’une réunion, mais il offre des fonctionnalités supplémentaires qui n’étaient pas disponibles dans les versions précédentes.
-ms.openlocfilehash: 32716f1dab5cbde7eed222a3178fa2db01748c14a579aa6866d1ce125c1cd7fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b45a29e1e65e786492b890050cfa894001989e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303727"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634398"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Page Associer un pool frontal à Office Web Apps Server
 

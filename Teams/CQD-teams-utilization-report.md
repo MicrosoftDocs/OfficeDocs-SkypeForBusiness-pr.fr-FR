@@ -14,14 +14,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Utilisez les rapports Teams d Power BI d’appels pour accéder Microsoft Teams données du tableau de bord de qualité des appels pour suivre l Microsoft Teams’utilisation dans votre organisation.
-ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e026f2b6b2b5e04d98dbf14582e5ce1ffc7f5007
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616290"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Afficher Microsoft Teams’utilisation Power BI’aide des données du CQD
 
@@ -32,7 +32,7 @@ Ce nouveau rapport Teams’utilisation vous permet de voir comment (et quelle) v
 Le Teams’utilisation Power BI se compose de deux rapports **[](#call-count-summary-report)** principaux : Le récapitulatif du nombre d’appels et le résumé **[des minutes audio.](#audio-minutes-summary-report)** [L’utilisation quotidienne,](#daily-usage)les [détails](#regional-audio-details)audio [](#user-list) régionaux, les détails des conférences et les rapports de la liste d’utilisateurs sont pris en compte lorsqu’un utilisateur tire parti des rapports d’analyse détaillée, comme indiqué dans les descriptions ci-dessous. [](#conference-details)
 
 > [!NOTE]
-> Les données de bâtiment et de sous-réseau doivent être remplies pour fournir des fonctionnalités de filtrage réseau et régionales.
+> Les données de bâtiment et de sous-réseau doivent être remplies pour fournir des fonctionnalités de filtrage régionales et réseau.
 
 ## <a name="call-count-summary-report"></a>Rapport de synthèse du nombre d’appels
 
@@ -56,7 +56,7 @@ Dans la section inférieure gauche de la page, vous trouverez un tableau fournis
 À droite du tableau, un graphique à barres affiche les clients les plus utilisés (appels/flux) au cours des 30 derniers jours.
    ![Capture d’écran : rapports Teams’utilisation des données](media/CQD-teams-utilization-report7.png)
 
-Le dernier ensemble de graphiques pour cette page affiche chaque type de média individuellement, avec une répartition montrant l’utilisation des conférences et P2P. Les graphiques ci-dessous indiquent qu’il y a un nombre d’utilisation des conférences considérablement plus élevé que P2P.
+Le dernier ensemble de graphiques pour cette page affiche chaque type de média individuellement, avec une répartition montrant l’utilisation des conférences et P2P. Les graphiques ci-dessous indiquent qu’il y a un nombre d’utilisation des conférences nettement plus élevé que P2P.
   ![Capture d’écran : rapports Teams’utilisation des données](media/CQD-teams-utilization-report8.png)
 
 ## <a name="audio-minutes-summary-report"></a>Rapport de synthèse des minutes audio
@@ -92,7 +92,7 @@ Le rapport Utilisation quotidienne affiche le nombre de partages d’écran, aud
 
 ![Capture d’écran : rapports Teams’utilisation des données](media/CQD-teams-utilization-report13.png)
 
-Le graphique à barres dans la zone centrale permet à l’utilisateur d’identifier les pics de consommation tout au long d’une journée. Les utilisateurs peuvent descendre dans l’heure représentée sur le graphique, qui présente le rapport Liste d’utilisateurs pour l’heure.
+Le graphique à barres dans la zone centrale permet à l’utilisateur d’identifier les pics de consommation tout au long d’une journée. Les utilisateurs peuvent descendre dans l’heure représentée sur le graphique qui présente le rapport Liste utilisateur pour l’heure.
 
 À droite du graphique à barres, les commentaires des utilisateurs sont présentés dans un format visuel. Bien que les opinions des utilisateurs soient subjectifs, elles fournissent des informations permettant d’identifier les problèmes potentiels.
 
@@ -138,7 +138,7 @@ L’analyse Regional Audio Details présente particulièrement l’utilisation d
 3.  Les tendances de données montrent un nombre important de minutes utilisées sur le réseau interne, avec une utilisation P2P beaucoup plus importante.
   ![Capture d’écran : rapports Teams’utilisation des données](media/CQD-teams-utilization-report18.png)
 
-La tendance audio régionale peut être utilisée pour montrer l’impact des utilisateurs sur les influences externes dans le monde. Plus précisément, à l’heure actuelle, nous nous attendions à ce que l’utilisation externe des régions EMEA et APAC augmente avec le travail à distance des personnes.
+La tendance audio régionale peut être utilisée pour montrer l’impact des influences externes sur les utilisateurs dans le monde. Plus précisément, à l’heure actuelle, nous nous attendions à ce que l’utilisation externe des régions EMEA et APAC augmente avec le travail à distance des personnes.
 
 
 ### <a name="user-list"></a>Liste d’utilisateurs
@@ -149,14 +149,14 @@ La liste des utilisateurs descend dans la liste fournit, comme on peut s’y att
 
 Le rapport Liste d’utilisateurs affiche la connectivité interne/externe via le graphique en doughnuts en haut au centre de la page. L’image ci-dessous montre qu’un large nombre de participants se trouve en dehors du réseau d’entreprise.
 
-La partie supérieure droite du graphique indique le nombre d’appels effectués par chaque utilisateur dans l’heure.
+La partie supérieure droite du graphique indique le nombre d’appels effectués par chaque utilisateur au cours de cette heure.
 
 ![Capture d’écran : rapports Teams’utilisation des données](media/CQD-teams-utilization-report20.png)
 
-Le tableau inférieur fournit des informations détaillées sur les sessions à qui chaque utilisateur a participé pendant cette heure. La colonne Type d’échec est utile pour déterminer ce qui a provoqué la chute d’un appel. Les colonnes Du périphérique de capture et de rendu sont utiles pour identifier la raison pour laquelle un appel a été signalé pour une qualité médiocre.
+Le tableau inférieur fournit des informations détaillées sur les sessions à qui chaque utilisateur a participé au cours de cette heure. La colonne Type d’échec est utile pour déterminer ce qui a provoqué la chute d’un appel. Les colonnes Du périphérique de capture et de rendu sont utiles pour identifier la raison pour laquelle un appel a été signalé pour une qualité médiocre.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

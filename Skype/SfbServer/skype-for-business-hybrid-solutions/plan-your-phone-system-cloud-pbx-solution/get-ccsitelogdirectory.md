@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: LGet-CcSiteLogDirectory cmdlet affiche le répertoire actuel dans lequel les journaux au niveau du site pour Skype Entreprise Cloud Connector Edition sont stockés.
-ms.openlocfilehash: 7c15d0b715384fd18522122571da69f58a83ed337d46420e83f7ac35cfd0c018
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65d99093f6390eade15e9783bd286bc438ede23d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349516"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616360"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  

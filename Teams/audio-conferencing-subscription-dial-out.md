@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Appel sortant et m’appeler en l’avantage de minutes. À partir du 1er décembre 2019, chaque abonnement d’audioconférence fournit 60 minutes par utilisateur et par mois aux pays de la zone A.
-ms.openlocfilehash: d532664abee611fe9ced2e744415edb91e3dae03b8aaea36e705d8bed59b10e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0794faad1af905e70b3bd1110bf8f0d9a71b2923
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278232"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615430"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audio conferencing subscription « Dial-Out"/"Call Me At » minutes benefit
 
@@ -44,7 +44,7 @@ Chaque abonnement à l’audioconférence fournit 60 minutes par utilisateur et 
 
 ## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Informations sur l’audioconférence « Appeler depuis une réunion » & « M’appeler au »
 
-Pour les clients qui adoptent notre service d’audioconférence, Microsoft offre la possibilité de faire des appels sortants à partir de réunions organisées par des utilisateurs titulaires d’une licence d’abonnement à l’audioconférence. Les appels sortants vers les pays qui ne figurent pas dans la liste des pays et régions de la [zone A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication. Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays ou région de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont basés sur la destination de l’appel et non sur le pays de résidence de l’organisateur ou le participant à la réunion à l’origine de l’appel sortant. Par exemple, un appel sortant pour une audioconférence vers un numéro de téléphone en France, pays de zone A, est facturé au même tarif par minute si un participant à la réunion est aux États-Unis, en France ou au Zimbabwe. 
+Pour les clients qui adoptent notre service d’audioconférence, Microsoft offre la possibilité d’appeler à partir de réunions organisées par des utilisateurs voit une licence d’abonnement à l’audioconférence. Les appels sortants vers les pays qui ne figurent pas dans la liste des pays et régions de la [zone A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication. Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays ou région de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont basés sur la destination de l’appel et non sur le pays de résidence de l’organisateur ou le participant à la réunion à l’origine de l’appel sortant. Par exemple, un appel sortant pour une audioconférence vers un numéro de téléphone en France, pays de zone A, est facturé au même tarif par minute si un participant à la réunion est aux États-Unis, en France ou au Zimbabwe. 
 
 
 |Emplacement d’utilisation des licences de l’organisateur de réunion |Numérotation de destination |Puis-je utiliser mes minutes d’appel sortant de la piscine de minutes ?|Ai-je besoin de crédits de communication ?|
@@ -58,9 +58,9 @@ Pour les clients qui adoptent notre service d’audioconférence, Microsoft offr
 |Zimbabwe     |Zimbabwe|    Non     |    Oui sur *TOUS les* appels     |
 |Zimbabwe     |États-Unis | Oui (pays de zone A) | Oui *après avoir* consommé le pool de minutes client        |
 |Zimbabwe     |Royaume-Uni | Oui (pays de zone A) | Oui *après avoir* consommé le pool de minutes client        |
-|Îles Cook     |Îles Cook |   Non      |    Oui sur *TOUS les* appels     |
-|Îles Cook     |États-Unis  | Oui (pays de zone A) |  Oui *après avoir* consommé le pool de minutes client       |
-|Îles Cook     |Royaume-Uni | Oui (pays de zone A) | Oui *après avoir* consommé le pool de minutes client        |
+|Cook (îles)     |Cook (îles) |   Non      |    Oui sur *TOUS les* appels     |
+|Cook (îles)     |États-Unis  | Oui (pays de zone A) |  Oui *après avoir* consommé le pool de minutes client       |
+|Cook (îles)     |Royaume-Uni | Oui (pays de zone A) | Oui *après avoir* consommé le pool de minutes client        |
 |    |         |         |         |
 
 ## <a name="how-are-minute-pools-calculated"></a>Comment les groupes de minutes sont-ils calculés ?
@@ -74,7 +74,7 @@ Prenons l’exemple suivant. Un client a acheté 115 licences d’abonnement à 
 
 - Tous les appels sortants vers des destinations ne faisant pas partir de la liste pays et régions de la zone [A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication à nos tarifs publiés vers cette destination (à condition que le client ait réglé les crédits de communication et attribué la licence Crédits de communication à l’organisateur de la réunion).
 
-## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Comment surveiller l’utilisation de mes pool de minutes ?
+## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Comment surveiller l’utilisation des minutes sur mon pool ?
 
 - Vous pouvez surveiller l’utilisation de votre pool de minutes d’appels sortants dans le Microsoft Teams d’administration. Dans la barre de navigation de gauche, sélectionnez **Données d’analyse &** rapports d’utilisation des rapports, puis sélectionnez des groupes de minutes  >   **PSTN.** La réserve de minutes d’appels sortants de zone A est étiquetée dans le rapport comme « Appels sortants vers la zone A pays ».
 - Les notifications par courrier électronique seront envoyées aux administrateurs suivants lorsque l’utilisation du pool de minutes d’appels sortants de votre organisation atteint les 80 % et 100 % :
@@ -98,7 +98,7 @@ Prenons l’exemple suivant. Un client a acheté 115 licences d’abonnement à 
 
 Pour plus d’informations sur les crédits de communication, voir [Crédits de communication.](what-are-communications-credits.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Zones de pays et de région pour l’audioconférence](audio-conferencing-zones.md)

@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 ROBOTS: NOINDEX, NOFOLLOW
 description: L’adresse IP publique est l’adresse IP utilisée par la traduction d’adresses réseau (NAT). L’adresse IP doit être publiquement routable. Cela est obligatoire car vous avez sélectionné l’option L’adresse IP externe de ce pool est traduite par NAT dans la page Sélectionner les fonctionnalités de cet Assistant.
-ms.openlocfilehash: 6e35d384fbc416ee27583adfbde47f5348df8b5d68d419f0da723e3b5b79ed7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20fc7b116fe5d0b57b7f818f89a6a473e58a6a4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295441"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633898"
 ---
-# <a name="add-edge-server-nat-ip"></a>Ajouter l’adresse IP NAT du serveur Edge
+# <a name="add-edge-server-nat-ip"></a>Ajouter l’adresse IP NAT du serveur Edge
 
 L’adresse IP publique est l’adresse IP utilisée par la traduction d’adresses réseau (NAT). L’adresse IP doit être publiquement routable. Cela est obligatoire car vous avez sélectionné l’option **L’adresse IP externe de ce pool est traduite par NAT** dans la page **Sélectionner les fonctionnalités** de cet Assistant.
 

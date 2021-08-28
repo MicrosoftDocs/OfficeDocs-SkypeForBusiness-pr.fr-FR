@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
 description: Découvrez comment gérer les paramètres à l’échelle du client et des utilisateurs pour Teams lors de la transition de Teams dans le Centre d’administration Microsoft 365 vers le nouveau Teams d’administration.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 83066f98eac9efd22558848b8ae12a06ff1e5d5b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 32e863b244453599bed9c71fc2dede4df14ff1a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615330"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "58235309"
 
 La nouvelle expérience du Centre d’administration vous fournira une expérience unifiée pour gérer à la fois les Teams et les Skype Entreprise. Nous vous fournirons des fonctionnalités supplémentaires, des informations de bout en bout et nous avons la possibilité de gérer les paramètres Teams au niveau de l’utilisateur.
 
-![Capture d’écran du Microsoft Teams d’administration.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Capture d’écran du Microsoft Teams d’administration de l’utilisateur.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
 ## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Paramètres migré vers le nouveau Centre Microsoft Teams’administration
 

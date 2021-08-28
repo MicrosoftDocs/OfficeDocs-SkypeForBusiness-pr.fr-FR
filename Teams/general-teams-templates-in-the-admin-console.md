@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des modèles d’équipe généraux pour créer des structures d’équipe en fournissant des paramètres, des canaux et des applications prédéfinies à l’aide du Centre d’administration.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c68e3efd00e0f9204f507b4c63977837076bb3beb75a958a0629f1e5da64f69e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3427a14da3d994b10bf8d83f5d03f76769401670
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344027"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634048"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe généraux dans le Centre d’administration
 
@@ -45,7 +45,7 @@ Centralisez la collaboration pour votre équipe de crise au sein des unités d�
 > [!div class="mx-tdBreakAll"]
 > | Type de modèle de base |baseTemplateId| Propriétés fournies avec ce modèle de base |
 > | ------------------ |--|----------------------------------------------------------|
-> | Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` | Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Comms externes</li><li>Demande d’approbation</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externes</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li><li>Planificateur</li></ul>|
+> | Collaborer sur la crise ou l’événement global |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` | Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Comms externe</li><li>Demande d’approbation</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externe</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li><li>Planificateur</li></ul>|
 > ||||
 
 ## <a name="adopt-office-365"></a>Adopter une Office 365

@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment utiliser NDI dans Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9eed33ba105584379f207697c27e8d6bd6cde5
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: 9a82174fd09106f623bcf0f9a03a99c2978253ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615110"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>Utiliser la technologie ® NDI dans Microsoft Teams
 
@@ -43,7 +43,7 @@ La technologie ® NDI nécessite deux étapes pour être mise en marche pour un 
     Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
     ```
 
-2. Une fois cette modification remplie, l’utilisateur final doit activer la technologie NDI® de son client à partir **de Paramètres**  >  **autorisations.**
+2. Une fois cette modification remplie, l’utilisateur final doit activer la technologie NDI® de son client à partir de **Paramètres**  >  **autorisations.**
 
 Après avoir été allumé pour un utilisateur et son client particulier, l’utilisateur peut activer NDI via le menu de dépassement de capacité et sélectionner « Diffuser sur NDI ».
 

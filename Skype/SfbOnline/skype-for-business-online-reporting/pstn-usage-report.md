@@ -13,24 +13,24 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: La nouvelle Skype Entreprise rapports du Centre d’administration affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de l’audioconférence, y compris le coût de l’appel, afin de comprendre vos informations d’utilisation et de facturation pour déterminer l’utilisation au sein de votre organisation.
-ms.openlocfilehash: 511065a4371ae4f9521022a27c2fdf6804736d48ccc807ee1d3aa0d0148fe3a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: La nouvelle Skype Entreprise rapports du Centre d’administration vous présente les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Le rapport sur les détails d'utilisation PSTN de Skype Entreprise vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de l’audioconférence, y compris le coût de l’appel, afin de comprendre vos informations d’utilisation et de facturation pour déterminer l’utilisation au sein de votre organisation.
+ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614904"
 ---
 # <a name="pstn-usage-report"></a>Rapport d'utilisation du réseau téléphonique commuté
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-La nouvelle Skype Entreprise rapports  du Centre d’administration affiche les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Le rapport sur les **détails d'utilisation PSTN de Skype Entreprise** vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de l’audioconférence, y compris le coût de l’appel, afin de comprendre vos informations d’utilisation et de facturation pour déterminer l’utilisation au sein de votre organisation.
+La nouvelle Skype Entreprise rapports  du Centre d’administration vous présente les activités d’appel et d’audioconférence dans votre organisation. Il vous permet d’drill into reports to give you more granular insight about the activities of each user. Le rapport sur les **détails d'utilisation PSTN de Skype Entreprise** vous permet par exemple d'afficher le nombre de minutes passées pour des appels entrants ou sortants ainsi que les coûts de ces appels. Vous pouvez afficher les détails d’utilisation PSTN de l’audioconférence, y compris le coût de l’appel, afin de comprendre vos informations d’utilisation et de facturation pour déterminer l’utilisation au sein de votre organisation.
   
 Consultez la vue [d’ensemble des](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) rapports pour découvrir d’autres rapports disponibles.
   
@@ -58,7 +58,7 @@ Voici une illustration du rapport.
 
 ***
 ![Numéro 1](../images/sfbcallout1.png)<br/>Le tableau présente une répartition par utilisateur de toutes les utilisations PSTN. Il vous indique tous les utilisateurs Skype Entreprise qui leur ont été affectés ainsi que leur utilisation PSTN. Vous pouvez ajouter ou supprimer des colonnes dans ce tableau.
-*    **L’ID d’appel** est l’ID d’appel d’un appel. Il s’agit d’un identificateur de l’appel utilisé lors de l’appel au support technique Microsoft.
+*    **L’ID d’appel** est l’ID d’appel d’un appel. Il s’agit d’un identificateur de l’appel utilisé lors de l’appel au support du service Microsoft.
 *    **ID de l'utilisateur** est le nom de connexion de l'utilisateur.
 *    **Téléphone numéro est** le numéro Skype Entreprise numéro de téléphone qui a reçu l’appel pour les appels entrants ou le numéro composé pour les appels sortants.
 *    **L’emplacement de** l’utilisateur est le pays/la région où se trouve l’utilisateur.
@@ -93,7 +93,7 @@ Voici une illustration du rapport.
 *    **La fonctionnalité** est la licence utilisée pour l’appel. Les types de licences que vous pouvez voir sont les autres : 
      *    **MCOPSTNPP** - Crédits de communication <br/> **MCOPSTN1** - Plan d’appels nationaux (plans de 3 000 min pour les États-Unis / 1 200 min pour l’UE) 
      *    **MCOPSTN2** - Forfait d’appels internationaux 
-     *    **MCOPSTN5** - Forfait d’appels nationaux (plan d’appels de 120 min) 
+     *    **MCOPSTN5** - Forfait d’appels nationaux (forfait d’appels de 120 min) 
      *    **MCOPSTN6** - Forfait d’appels nationaux (plan d’appels de 240 min) Remarque : Disponibilité limitée
      *    **MCOMEETADD** - Audioconférence
      *    **MCOMEETACPEA** - Audioconférence avec paiement à la minute
@@ -157,7 +157,7 @@ Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans 
 
 - [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez consulter le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
     
-- [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
+- [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation basés sur des systèmes d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
     
 - [Skype Entreprise activité de l’organisateur de conférences](conference-organizer-activity-report.md) Vous pouvez voir combien de fois vos utilisateurs organisent des conférences qui utilisent la messagerie instantanée, l’audio/la vidéo, le partage d’application, le web, /dial out - tiers et /dial out - Microsoft.
     
@@ -171,7 +171,7 @@ Le fichier exporté contient d’autres champs qui ne sont pas disponibles dans 
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
   

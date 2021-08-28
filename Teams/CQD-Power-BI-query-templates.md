@@ -14,14 +14,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Utilisez Power BI pour analyser les données du CQD à des Microsoft Teams.
-ms.openlocfilehash: 7314a0fb4a5bd1058e2270a3302e165eacc05d07dca4ebcc599a75aed687cd74
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e6c8750d064c8472865a22f1367d297fd4fee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286233"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616320"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser les données du sous-Microsoft Teams
 
@@ -48,7 +48,7 @@ Assurez-vous que vous avez le rôle [d’accès du CQD droit pour](turning-on-an
 > Une fois que vous avez Power BI de tableau de qualité des Power BI, ajoutez-les sous la direction d’un onglet à un canal. Après avoir sélectionné **+** dans un canal, **sélectionnez Power BI** recherchez votre rapport. Pour en savoir plus, [lisez Incorporer le rapport avec l’Power BI’onglet pour Teams.](/power-bi/service-embed-report-microsoft-teams) Rappelez-vous que seules les personnes Power BI licence utilisateur et les informations d’identification d’administrateur du CQD peuvent accéder à ces rapports.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

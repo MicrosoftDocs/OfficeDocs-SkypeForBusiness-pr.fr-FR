@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Les administrateurs peuvent en savoir plus sur les tâches et les activités requises pour surveiller la qualité et l’utilisation de Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f082f0fdfe7217025a8b9124e4445f35168ffeb413e14ed68a1c9af098ab4bfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4bb596cd7903ec7ff9afdecac1436b4b4e2653c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633938"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
@@ -37,7 +37,7 @@ Cet article fait partie de la phase d’excellence opérationnelle de votre parc
 
 L’amélioration et le suivi de la qualité des appels pour [Teams](monitor-call-quality-qos.md) inclut un ensemble d’activités qui évaluent et fournissent des recommandations de correction dans les domaines clés qui ont le plus fort impact sur l’amélioration de l’expérience utilisateur, comme illustré ci-dessous.
 
-![Illustration des principales zones à examiner lors d’une révision.](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de la qualité de l’expérience : audio, fiabilité et résultats des enquêtes utilisateur.")
+![Illustration des principaux domaines à examiner lors d’une révision.](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de la qualité de l’expérience : audio, fiabilité et résultats des enquêtes utilisateur.")
 
 En evaluant et en réstant les aspects décrits dans le guide, vous pouvez réduire leur risque d’affecter négativement l’expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
@@ -53,7 +53,7 @@ En evaluant et en réstant les aspects décrits dans le guide, vous pouvez rédu
 
 - Sous-réseaux ou périphériques réseau problématiques
 
-Les conseils fournis dans Améliorer et surveiller la qualité des appels pour [Teams](monitor-call-quality-qos.md) se concentrent sur l’utilisation du tableau de bord de qualité des appels online comme outil principal pour signaler et examiner chaque zone décrite, avec un focus sur l’audio afin d’optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
+Les conseils fournis dans Améliorer et surveiller la qualité des appels pour [Teams](monitor-call-quality-qos.md) se concentrent sur l’utilisation du tableau de bord de qualité des appels online comme principal outil pour signaler et examiner chaque zone décrite, avec un focus sur l’audio afin d’optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
 Il est vivement recommandé de désigner le champion de la qualité tout de suite. Une fois désignées, elles doivent se familiariser avec le contenu du projet Améliorer et surveiller la qualité des appels des [Teams.](monitor-call-quality-qos.md)
 

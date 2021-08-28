@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 description: La table ErrorDef stocke des informations sur chaque type d’erreur qui peut se produire. Chaque enregistrement est un type d’erreur.
-ms.openlocfilehash: 428ce365de65be4d0bcd3776bfc069ffc9246fd869c54d819c6468f926c64351
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d10e5c8a83e486fe16808a3cf5f38f7ffd15937
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344603"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615530"
 ---
 # <a name="errordef-table-in-skype-for-business-server-2015"></a>Table ErrorDef dans Skype Entreprise Server 2015
  
 La table ErrorDef stocke des informations sur chaque type d’erreur qui peut se produire. Chaque enregistrement est un type d’erreur.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ErrorId** <br/> |int  <br/> |Primaire  <br/> |Numéro d’identification unique identifiant ce type d’erreur.  <br/> |
 |**ResponseCode** <br/> |int  <br/> | <br/> |Code de réponse SIP standard associé à cette erreur.  <br/> |

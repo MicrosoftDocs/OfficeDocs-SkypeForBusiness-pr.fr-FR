@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Résumé : Découvrez comment migrer les paramètres utilisateur et déplacer les utilisateurs vers Teams.'
-ms.openlocfilehash: 1b5a2f909a05ffd30902ca4ca32dc5b5621b3013e779cece3f0ffcd2dada731e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324703"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614968"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Déplacer des utilisateurs de l’environnement local vers Teams
 
@@ -65,7 +65,7 @@ Move-CsUser est disponible à partir d’une fenêtre PowerShell Skype Entrepris
 - Spécifiez l’utilisateur à déplacer à l’aide du `Identity` paramètre.
 - Spécifiez `-Target` le paramètre avec la valeur « sipfed.online.lync. <span> com ».
 - Si vous n’avez pas un compte avec des autorisations suffisantes à la fois sur site et dans le service cloud (Microsoft 365), utilisez le paramètre pour fournir à un compte des `-credential` autorisations suffisantes dans Microsoft 365.
-- Si le compte avec des autorisations dans Microsoft 365 ne se termine pas par « onmicrosoft. <span> com « , vous devez spécifier le paramètre, avec la valeur correcte comme décrit `-HostedMigrationOverrideUrl` dans les informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
+- Si le compte avec des autorisations dans Microsoft 365 ne se termine pas par « onmicrosoft. <span> com « , vous devez spécifier le paramètre, avec la valeur correcte comme `-HostedMigrationOverrideUrl` décrit dans informations d’identification [administratives requises.](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)
 
 La séquence de cmdlet suivante peut être utilisée pour déplacer un utilisateur vers TeamsOnly et suppose que les informations d’identification Microsoft 365 sont un compte distinct et fournies en tant qu’entrée pour l’invite Get-Credential. Le comportement est le même, `-MoveToTeams` que le commutateur soit spécifié ou non.
 

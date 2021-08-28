@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personnalisez Skype invitations aux réunions avec des logos graphiques, des URL d’aide et juridiques, et du texte de pied de plan. '
-ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306177"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614936"
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
@@ -43,7 +43,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
 3. Stockez l’image dans un emplacement central accessible à tous les membres de votre entreprise, par exemple un partage réseau, un dossier de OneDrive Entreprise partagé, un Dropbox, etc.
     
-    Vous pouvez désormais l’ajouter à vos invitations à des réunions. Passez aux étapes suivantes.
+    Vous pouvez désormais l’ajouter à vos invitations à des réunions. Voir les étapes suivantes.
     
 ## <a name="customize-your-meeting-invitations"></a>Personnalisez vos invitations à des réunions
 <a name="__top"> </a>
@@ -62,7 +62,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
 
    **URL du logo :** Entrez l’URL où votre logo est stocké. N’oubliez pas qu’il doit être au format JPG ! 
  
-   **URL de l’aide :** Si votre organisation dispose d’un site web de support que vous souhaitez que les personnes s’y rendre s’ils ont des problèmes, entrez l’URL ici. 
+   **URL de l’aide :** Si votre organisation dispose d’un site web de support que vous souhaitez que les personnes peuvent accéder s’ils ont des problèmes, entrez l’URL ici. 
 
    **URL juridique :** Si votre organisation dispose d’un site web légal que vous souhaitez que les personnes accéder s’ils ont des problèmes juridiques, entrez l’URL ici.
     
@@ -75,7 +75,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
     ![Voici à quoi ressemble une invitation personnalisée, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 <a name="__top"> </a>
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

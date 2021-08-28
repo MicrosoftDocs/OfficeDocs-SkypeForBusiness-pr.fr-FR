@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
-ms.openlocfilehash: bd598bed231c0d9d6ab2a58d87f04ab2eecfad8df64d0446ee3c63a884b25e67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281627"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634058"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -51,7 +51,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 2. Développez **Teams Applications et** **sélectionnez Gérer les applications.**
-3. Consultez **la colonne Personnalisable** de la liste des applications et t triez par applications personnalisables.
+3. Consultez **la colonne Personnalisables** de la liste d’applications et tochez les différentes applications personnalisables.
 
    ![La colonne de personnalisation triée](media/customize-column.png)
 
@@ -145,7 +145,7 @@ Vous souhaitez peut-être consulter les détails de l’application pour examine
 
    ![Sélectionnez Rétablir la valeur par défaut mise en évidence](media/select-reset.png)
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 **Combien de temps faut-il à mes utilisateurs pour voir l’application personnalisée ?**
 
@@ -159,7 +159,7 @@ Bien que l’administrateur puisse immédiatement voir les modifications dans Te
 
 Non, les administrateurs de client devront supprimer manuellement une application personnalisée et publier la version personnalisée de l’application. Si vous avez personnalisé une application et l’avez publiée comme application personnalisée, la nouvelle application personnalisée à l’aide de la fonctionnalité de personnalisation de l’application ne remplacera pas l’application personnalisée actuelle.  
 
-**Le rapport d’utilisation des applications affiche-t-il également les valeurs personnalisées telles que le nom court personnalisé ?**
+**Le rapport d’utilisation des applications affichera-t-il également les valeurs personnalisées telles que le nom court personnalisé ?**
 
  Non, le rapport d’utilisation des applications indique toujours le nom d’origine de l’application envoyée par l’éditeur.
 

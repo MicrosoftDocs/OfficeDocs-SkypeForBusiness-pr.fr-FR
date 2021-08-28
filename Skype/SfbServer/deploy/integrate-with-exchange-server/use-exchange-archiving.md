@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Résumé : Configurez les transcriptions de messagerie instantanée pour Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.'
-ms.openlocfilehash: 82f138207a5144ecfa38addd7e147364aa1c22e045a8e757d6e4ade70c0e4ee2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f264b347660df032b67f06ddf605e99ba97a32b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300250"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603061"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurer Skype Entreprise Server pour utiliser l’archivage Exchange Server’archivage
 
@@ -36,7 +36,7 @@ Pour archiver les transcriptions Exchange Server vous devez commencer par config
 
 2. Activer l’archivage des communications internes et/ou externes pour les utilisateurs. Cette étape est nécessaire pour tous les déploiements.
 
-3. Configurer la propriété ExchangeArchivingPolicy pour chaque utilisateur. Cette étape est requise uniquement si Skype Entreprise Server et Exchange Server sont situés dans des forêts différentes.
+3. Configurer la propriété ExchangeArchivingPolicy pour chaque utilisateur. Cette étape est requise uniquement si les Skype Entreprise Server et Exchange Server sont situés dans des forêts différentes.
 
 ## <a name="step-1-enabling-exchange-archiving"></a>Étape 1 : Activation de l’archivage Exchange’archivage
 

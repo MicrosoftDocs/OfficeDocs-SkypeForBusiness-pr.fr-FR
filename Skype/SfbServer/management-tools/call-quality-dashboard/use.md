@@ -9,20 +9,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Résumé : Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317579"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634238"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le Tableau de bord de qualité des appels pour Skype Entreprise Server
 
-**Résumé :** Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez comment utiliser le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
 
 Le Tableau de bord de qualité des appels (CQD) permet aux professionnels de l’informatique d’utiliser des données agrégées pour identifier les problèmes de création de problèmes de qualité des médias en comparant des statistiques pour les groupes d’utilisateurs afin d’identifier les tendances et les modèles. Le CQD ne se concentre pas sur la résolution des problèmes d’appels individuels, mais sur l’identification des problèmes et des solutions qui s’appliquent à de nombreux utilisateurs.
 
@@ -45,7 +45,7 @@ Lorsque vous visitez le Tableau de bord de qualité des appels, l’écran suiva
 1. Le volet « Résumé » est l’endroit où se trouve le contexte de l’ensemble de rapports (à droite).
 2. Cliquez sur « Modifier » dans le volet Résumé Pour définir les propriétés de niveau (y compris la hauteur de l’axe Y).
 3. La breadcrumb vous permet d’identifier votre emplacement actuel dans la hiérarchie des ensembles de rapports.
-4. Les rapports avec sous-rapports sont affichés avec un lien bleu. Cliquez sur le lien pour descendre dans les rapports enfants.
+4. Les rapports avec des sous-rapports sont affichés avec un lien bleu. Cliquez sur le lien pour descendre dans les rapports enfants.
 
 Déplacez la souris sur les graphiques à barres et les lignes de tendance pour afficher des valeurs détaillées. Le rapport qui a le focus affiche le menu d’action : « Modifier », « Cloner », « Supprimer » et « Télécharger ».
 
@@ -86,7 +86,7 @@ Le menu Paramètres contient des liens vers des pages utiles telles que les page
 
 L’affichage des descriptions et des horodaodatés doit être pris en compte par les utilisateurs individuels, et ces paramètres affectent uniquement la version individuelle du tableau de bord et ne modifient pas l’ensemble de rapports ou ce que voient les autres utilisateurs. L’effacement du cache entraîne le rechargement des données de toutes les requêtes à partir du cube, tandis que la restauration par défaut supprime tous les rapports créés ou modifiés par l’utilisateur et recrée l’ensemble de rapports système , ce qu’un utilisateur voit lorsqu’il se connecte pour la première fois.
 
-Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien Du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
+Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
 
 ### <a name="supplying-subnet-information"></a>Fourniture d’informations de sous-réseau
 
@@ -97,7 +97,7 @@ Pour créer ces rapports, complétez au minimum les tableaux suivants :
 - CqdBuilding
 - CqdNetwork
 
-Des informations supplémentaires peuvent être fournies dans les tables CqdBuildingType et CqdBuildingOwnershipType pour permettre un filtrage et une recherche plus précis.
+Des informations supplémentaires peuvent être fournies dans les tables CqdBuildingType et CqdBuildingOwnershipType pour permettre un filtrage et une recherche supplémentaires.
 
 Les données utilisées pour ces tables sont définies comme suit :
 
@@ -222,7 +222,7 @@ Une requête bien formée contient les trois paramètres suivants :
 
 - Mesure
 - Dimension
-- Filtre
+- Filtrer
 
 Un exemple de requête bien formée serait « Show me Poor Flux [Measurement] by Subnet [Dimension] for Building 6 [Filter]. »
 

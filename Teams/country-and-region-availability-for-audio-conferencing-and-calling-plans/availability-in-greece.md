@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour l Skype Entreprise et Microsoft Teams en Grèce.
-ms.openlocfilehash: a62a7841dcdd6dfc3bf56670961209031cb744b4a85c25c9300d045c1a942787
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73c62d7c7c3fbbf424e0575c479c5a13004f0ca7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349266"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615390"
 ---
 # <a name="availability-in-greece"></a>Disponibilité en Grèce
 
@@ -69,7 +69,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Jeux d’Grèce <li>  Lön <li>  Patras <li>  Tzyzki </ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Jeux d’Grèce <li>  Lön <li>  Patras <li>  Kézki </ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

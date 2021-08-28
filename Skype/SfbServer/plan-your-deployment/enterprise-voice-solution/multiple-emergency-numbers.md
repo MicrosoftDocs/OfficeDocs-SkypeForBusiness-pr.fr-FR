@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lisez cette rubrique pour découvrir comment planifier plusieurs numéros d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329548"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634228"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planifier plusieurs numéros d’urgence dans Skype Entreprise Server
  
@@ -48,7 +48,7 @@ Lorsque vous planifiez plusieurs numéros d’urgence, gardez les points suivant
     
     Un masque de numérotation est un numéro que vous souhaitez traduire en valeur de numéro de numéro d’urgence lorsqu’il est composé. Par exemple, supposons que vous entrez la valeur 212 dans ce champ et que le champ numéro de numéro d’urgence a la valeur 911. Lorsqu’un utilisateur compose le 212, le numéro est converti en 911. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’accéder aux services d’urgence (par exemple, si une personne d’un pays ou d’une région dont le numéro d’urgence est différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La limite de chaîne pour un masque de numérotation est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
     
-- Chaque stratégie d’emplacement a une utilisation PSTN (réseau téléphonique commuté) unique qui est utilisée pour déterminer l’itinéraire des communications vocales utilisé pour router les appels d’urgence des clients à l’aide de cette stratégie. L’utilisation peut avoir un itinéraire unique par numéro d’urgence.
+- Chaque stratégie d’emplacement a une utilisation PSTN (réseau téléphonique commuté) unique qui permet de déterminer l’itinéraire des communications vocales utilisé pour router les appels d’urgence des clients à l’aide de cette stratégie. L’utilisation peut avoir un itinéraire unique par numéro d’urgence.
     
 - Si les paramètres EmergencyNumbers et DialString sont définis dans une stratégie d’emplacement et que le client prend en charge plusieurs numéros d’urgence, le numéro d’urgence est prioritaire. Si le client ne prend pas en charge plusieurs numéros d’urgence, la chaîne de numérotation d’urgence est utilisée.
     

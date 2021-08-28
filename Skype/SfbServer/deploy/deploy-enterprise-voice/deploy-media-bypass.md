@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Déployez le contournement de média dans Skype Entreprise Server Voix Entreprise. Comprend les conditions préalables et la liste de contrôle du processus de déploiement.
-ms.openlocfilehash: 35b6ec05fe1ca410b51cf9d573e003774904d875182d195d8d221e45be42b9bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34294db2709de56d77ecd1365deac57ad94a86d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322456"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617030"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Déployer le contournement de média dans Skype Entreprise Server
  
 Déployez le contournement de média dans Skype Entreprise Server Voix Entreprise. Comprend les conditions préalables et la liste de contrôle du processus de déploiement.
   
-Cette rubrique suppose que vous avez déjà publié et configuré au moins un ou plusieurs serveurs de médiation et au moins un homologue de passerelle pour fournir une connectivité PSTN. Pour plus d’informations sur ces tâches, voir [Deploy a Mediation Server in Topology Builder in Skype Entreprise Server](deploy-a-mediation-server.md) et Define a gateway in [Topology Builder in Skype Entreprise Server](define-a-gateway.md).
+Cette rubrique suppose que vous avez déjà publié et configuré au moins un ou plusieurs serveurs de médiation et au moins un homologue de passerelle pour fournir une connectivité PSTN. Pour plus d’informations sur ces tâches, voir [Deploy a Mediation Server in Topology Builder in Skype Entreprise Server](deploy-a-mediation-server.md) and Define a gateway in [Topology Builder in Skype Entreprise Server](define-a-gateway.md).
   
  Si l’homologue à qui vous vous connectez est le SBC d’un fournisseur de trunking SIP, assurez-vous qu’il s’agit d’un fournisseur qualifié et qu’il prend en charge le contournement de média. Par exemple, de nombreux fournisseurs de jonction SIP autoriseront uniquement leurs SBC à recevoir du trafic du serveur de médiation. Dans ce cas, le contournement doit être activé pour la jonction en question. De même, vous ne pouvez pas activer le contournement de média, à moins que l’organisation ne révèle les adresses IP de son réseau interne au fournisseur de jonctions SIP.
   
@@ -49,4 +49,4 @@ Le tableau suivant fournit une vue d’ensemble du processus de déploiement du 
 |:-----|:-----|:-----|:-----|
 |Configurer des trunks pour le contournement de média  <br/> |Si ce n’est pas déjà fait, configurez une ou plusieurs trunks pour le contournement de média.  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurer une trunk avec déviation du média dans Skype Entreprise Server](configure-trunk-with-media-bypass.md) <br/> |
 |Configurer le contournement de média globalement  <br/> |Configurez le contournement de média pour tous les appels vers le réseau téléphonique téléphonique public (PSTN) ou certains appels basés sur des sites réseau et des régions réseau.  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Configurer le contournement de média dans Skype Entreprise Server pour toujours contourner le serveur de médiation](bypass-the-mediation-server.md) <br/> [Configurer les paramètres globaux de contournement de média dans Skype Entreprise Server pour utiliser les informations de site et de région](use-site-and-region-information.md) <br/> |
-|Associer des sous-réseaux à des sites réseau, si nécessaire  <br/> |Si vous configurez le contournement de média pour utiliser les informations de site et de région, vous devez associer les sous-réseaux de votre déploiement à des sites et régions réseau (si vous ne l’avez pas déjà fait pour une autre fonctionnalité vocale).)  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Associer un sous-réseau à un site réseau](deploy-network.md#BKMK_AssociateSubnets) <br/> |
+|Associer des sous-réseaux à des sites réseau, si nécessaire  <br/> |Si vous configurez le contournement de média pour utiliser les informations de site et de région, vous devez associer les sous-réseaux de votre déploiement aux sites et régions réseau (si vous ne l’avez pas déjà fait pour une autre fonctionnalité vocale).)  <br/> | Membre du groupe RTCUniversalServerAdmins ou membre du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator <br/> |[Associer un sous-réseau à un site réseau](deploy-network.md#BKMK_AssociateSubnets) <br/> |

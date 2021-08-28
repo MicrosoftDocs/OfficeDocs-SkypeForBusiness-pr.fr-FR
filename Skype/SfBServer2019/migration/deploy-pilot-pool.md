@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: L’une des premières étapes requises pour la migration vers Skype Entreprise Server 2019 consiste à déployer un pool pilote. Le pool pilote est l’endroit où vous testez la coexistence Skype Entreprise Server 2019 avec votre déploiement hérité. La coexistence est un état temporaire qui dure jusqu’à ce que vous avez déplacé tous les utilisateurs et pools vers Skype Entreprise Server 2019.
-ms.openlocfilehash: d7e02d1cb921f973d8851cfc3c8bbff0f3e81aa92f1945584ee94fa59a45e9ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e69e42e95ce7d13d8da88e91d6f1c266d7449f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279602"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614988"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Déployer Skype Entreprise Server pool pilote 2019
 

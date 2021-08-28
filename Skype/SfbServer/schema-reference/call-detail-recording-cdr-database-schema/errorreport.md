@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: La table ErrorReport stocke des informations sur les erreurs qui se sont produites. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyées à partir du client.
-ms.openlocfilehash: 1cac143f50e361598c7985aa585485bd73c9aa79d3b47bd21fb0b70e75b9377e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2fccd6f1f99884e9d4412cb9814f24d581248a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303677"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634178"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Table ErrorReport dans Skype Entreprise Server 2015
  
 La table ErrorReport stocke des informations sur les erreurs qui se sont produites. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyées à partir du client.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |DateHeure  <br/> |Primaire  <br/> |Date et heure de l’erreur.  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Primaire  <br/> |Numéro d’identification pour identifier le rapport d’erreurs. Utilisé conjointement avec **ErrorTime** pour identifier de manière unique un rapport d’erreurs. <br/> |

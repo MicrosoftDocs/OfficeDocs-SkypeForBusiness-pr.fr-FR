@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: Vous publiez la topologie que vous avez configurée à l’aide du Générateur de topologies. Vous êtes invité à choisir dans une liste le serveur frontal ou le pool frontal qui assumera le rôle de gestion du magasin central de gestion. Un seul serveur frontal ou pool frontal peut contenir ce rôle à un moment donné.
-ms.openlocfilehash: 5cdc82b85bdebedf2ace94b98296990cf6fbfb4c7e239ad91116d961e27dfbb6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ac0b885a6788b8d2718d750dac0b0da2e00eaa5e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346530"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634368"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publier la topologie : page Sélectionner un CMS
 

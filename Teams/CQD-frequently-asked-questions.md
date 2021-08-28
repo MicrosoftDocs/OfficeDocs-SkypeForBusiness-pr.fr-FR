@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lisez les questions fréquemment posées (FAQ) et les réponses sur Microsoft Teams tableau de bord de qualité des appels.
-ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339852"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616300"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Forum aux questions (FAQ) sur le tableau de bord de qualité des appels
 
@@ -48,11 +48,11 @@ ms.locfileid: "58339852"
 
 Consultez les règles que le CQD utilise pour la [classification des flux.](stream-classification-in-call-quality-dashboard.md)
  
-Pour les flux audio, les cinq classificateurs, calculés pour la moyenne en fonction de la durée de l’appel, peuvent tous être dans des paramètres de « bon ». Cela ne signifie pas que les utilisateurs n’ont pas participé à un problème audio, statique ou statique. 
+Pour les flux audio, les cinq classificateurs, calculés pour la moyenne en fonction de la durée de l’appel, peuvent tous être dans des paramètres de « bon ». Cela ne signifie pas que les utilisateurs n’ont pas connu de problème audio, statique ou statique. 
 
 Pour déterminer s’il s’agit d’un problème réseau, regardez le delta entre les valeurs moyennes de la session et les valeurs maximales. Les valeurs maximales sont les valeurs maximales détectées et signalées pendant la session.
  
-Voici un exemple de la façon de résoudre ce problème. Supposons que vous prenez une trace réseau pendant un appel et que les 20 premières minutes ne perdent pas de paquets, mais qu’il y a un intervalle de 1,5 secondes de paquets, puis que vous êtes bon pour le reste de l’appel. La moyenne sera d'<10 % (0,1) perte de paquets, même dans une analyse RTP de trace Wireshark. Qu’est-ce que la perte de paquets maximale ? 1,5 secondes dans une période de 5 secondes serait 30 % (0,3). Cela s’est-il produit au cours de la période d’échantillonnage de 5 secondes (peut-être ou a-t-il pu être fractioné pendant la période d’échantillonnage) ?
+Voici un exemple de la façon de résoudre ce problème. Supposons que vous prenez une trace réseau pendant un appel et que les 20 premières minutes ne perdent pas de paquets, mais qu’il y a un intervalle de 1,5 secondes de paquets, puis que vous êtes bon pour le reste de l’appel. La moyenne sera d'<10 % (0,1) perte de paquets, même dans une analyse RTP de trace Wireshark. Qu’est-ce que la perte de paquets maximale ? 1,5 secondes dans une période de 5 secondes serait 30 % (0,3). Cela s’est-il produit au cours de la période d’échantillonnage de 5 secondes (peut-être ou a-t-il pu être fractionner au cours de la période d’échantillonnage) ?
  
 Si les mesures réseau semblent bonnes dans les moyennes et les valeurs max, regardez d’autres données de télémétrie : 
 - Vérifiez le rapport entre les événements de l’UC insuffisant pour voir si les ressources de l’UC disponibles étaient insuffisantes et causaient une mauvaise qualité. 
@@ -68,7 +68,7 @@ Pour les bruits de fond, vérifiez le son des événements pour voir le temps pe
  
 Créez des rapports détaillés dans le DQD et filtrez sur l’ID de réunion pour examiner tous les utilisateurs et les flux d’une réunion et ajouter les champs qui vous intéressent. Il est possible qu’un utilisateur signalant le problème ne soit pas celui qui en était à l’état. Ils ne font que signaler l’expérience.
  
-La télémétrie n’appelle pas nécessairement le problème, mais vous permet de mieux comprendre où chercher et informer vos décisions. S’agit-il de mises à jour réseau, appareil, pilote ou microprogramme, utilisation ou utilisateur ?
+La télémétrie n’appelle pas nécessairement le problème, mais vous permet de mieux comprendre où chercher et informer vos décisions. S’agit-il de mises à jour de réseau, d’appareil, de pilote ou de microprogramme, d’utilisation ou d’utilisateur ?
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Pourquoi est-ce que je vois jusqu’à 0,2 % de différences entre les valeurs des appels et du nombre d’utilisateurs sur les mesures et comment obtenir les volumes les plus précis ? 
 
@@ -86,11 +86,11 @@ Pour en savoir plus sur les rôles qui peuvent accéder au CQD, y compris EUII, 
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Pourquoi est-ce que je Skype Entreprise des informations dans le CQD alors que j’ai filtré Teams uniquement ?
 
-Lorsque vous filtrez des Teams uniquement dans les rapports du CQD (isTeams =  1), vous filtrez pour tous les appels pour lequel le premier point de terminaison Teams. Si le *deuxième point de terminaison* Skype Entreprise point de terminaison, ces informations s’afficheront dans votre rapport du CQD.
+Lorsque vous filtrez des Teams uniquement dans les rapports du CQD (isTeams =  1), vous filtrez pour tous les appels pour lequel le premier point de terminaison est Teams. Si le *deuxième point de terminaison* Skype Entreprise point de terminaison, ces informations s’afficheront dans votre rapport du CQD.
 
 Les totaux des groupes CQDv2 et CQDv3 seront toujours différents, car ils auront de nouveaux scénarios que le CQDv2 n’aura pas. C’est pourquoi la comparaison de total de synthèse ou de nombres complets agrégés sans filtres aura ces différences attendues.  
 
-Selon le scénario de clients, le CQDv3 inclut les appels locaux SFB 2019 (si SFB 2019 est utilisé avec un connecteur de données), les appels Skype Bot (AA, CVI, VDI), les événements en direct et les appels RXT. Scénarios/fonctionnalités disponibles pour les clients, mais leurs données ne sont pas accessibles sous CQD V2.
+Selon le scénario de clients, le CQDv3 inclut les appels locaux SFB 2019 (si SFB 2019 est utilisé avec un connecteur de données), les appels Skype Bot (AA, CVI, VDI), les événements en direct et les appels RXT. Scénarios/fonctionnalités disponibles pour les clients, mais leurs données ne sont pas accessibles dans le CQD V2.
 
 Par exemple, vos clients et vous verrez par exemple 200 000 flux audio, avec 5 000 échecs dans le rapport de synthèse CQD V2, et 300 000 flux audio avec 5 5000 échecs (provenant d’appels locaux 2019, appels CVI, appels PSTN, etc.) dans le CQD V3.
 
@@ -120,7 +120,7 @@ Ceci est normal. Le fournisseur VPN a créé un adaptateur ethernet virtuel qui 
 
 [Dimensions et mesures disponibles dans le DQD](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Classification des flux dans le CQD](stream-classification-in-call-quality-dashboard.md)
+[Classification des flux dans le DQD](stream-classification-in-call-quality-dashboard.md)
 
 [Utiliser Power BI pour analyser les données du CQD](CQD-Power-BI-query-templates.md)
 

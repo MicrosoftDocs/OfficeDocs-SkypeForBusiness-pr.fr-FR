@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les canaux privés dans votre organisation à l’aide de Graph API.
-ms.openlocfilehash: 82a9f865099be4012456a1c3a854e08b79d15db432e965a60e32d44c36147b9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350506"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615320"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gérer le cycle de vie des canaux privés dans Microsoft Teams
 

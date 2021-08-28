@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: En savoir plus sur la trunking SIP dans Skype Entreprise Server Voix Entreprise
-ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289732"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634198"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Trunking SIP in Skype Entreprise Server
 
@@ -33,7 +33,7 @@ Le protocole SIP (Session Initiation Protocol) sert à initier et à gérer les 
 
 Une jonction SIP est une connexion IP qui établit un lien de communications SIP entre votre organisation et un fournisseur de services de téléphonie Internet (ITSP) à l’extérieur de votre pare-feu. En règle générale, une connexion SIP est utilisée pour connecter le site central de votre organisation à un itsp. Dans certains cas, vous pouvez également décider d’utiliser la jonction SIP pour connecter votre site de succursale à un fournisseur de services de téléphonie Internet (ITSP).
 
-Le déploiement d’une trunking SIP peut être un grand pas vers la simplification des télécommunications de votre organisation et la préparation aux améliorations à jour apportées aux communications en temps réel. L’un des principaux avantages de la connexion SIP est que vous pouvez consolider les connexions de votre organisation au réseau téléphonique commuté (PSTN) sur un site central, par opposition à son prédécesseur, la liaison TDM (multiplexage de division du temps), qui nécessite généralement une connexion distincte de chaque site de succursale.
+Le déploiement d’une trunking SIP peut être un grand pas vers la simplification des télécommunications de votre organisation et la préparation aux améliorations à jour apportées aux communications en temps réel. L’un des principaux avantages de la connexion SIP est que vous pouvez consolider les connexions de votre organisation au réseau téléphonique commuté (PSTN) sur un site central, par opposition à son prédécesseur, le multiplexage de division du temps (TDM), qui nécessite généralement une connexion distincte de chaque site de succursale.
 
 ### <a name="cost-savings"></a>Économies
 
@@ -51,7 +51,7 @@ Les économies associées à la jonction SIP peuvent être substantielles :
 
 ### <a name="expanded-voip-services"></a>Services VoIP étendus
 
-Bénéficier de fonctionnalités vocales est souvent la principale motivation pour déployer une jonction SIP, mais la prise en charge de fonctionnalités vocales n’est que la première étape. Avec la trunking SIP, vous pouvez étendre les fonctionnalités VoIP et Skype Entreprise Server pour fournir un ensemble de services plus riche. Par exemple :
+Bénéficier de fonctionnalités vocales est souvent la principale motivation pour déployer une jonction SIP, mais la prise en charge de fonctionnalités vocales n’est que la première étape. Avec la trunking SIP, vous pouvez étendre les fonctionnalités VoIP et Skype Entreprise Server pour fournir un ensemble de services plus riche. Par exemple :
 
 - La détection de présence améliorée pour les appareils qui n’exécutent pas Skype Entreprise Server peut fournir une meilleure intégration avec les téléphones mobiles, ce qui vous permet de voir quand un utilisateur passe un appel mobile.
 
@@ -94,7 +94,7 @@ En fonction de l’emplacement géographique des sites et du trafic anticipé au
 
 - Quels numéros de Sélection directe à l’arrivée (SDA) reçoivent le plus grand nombre d’appels sur chaque site ?
 
-La décision d’opter pour une jonction SIP centralisée ou distribuée doit être basée sur une analyse des coûts-avantages. Dans certains cas, il peut être plus avantageux d’opter pour un modèle de déploiement distribué, même s’il n’est pas nécessaire. Dans un déploiement complètement centralisé, tout le trafic du site de succursale est acheminé via des liaisons WAN. Au lieu de payer pour la bande passante requise pour la liaison WAN, il est peut-être préférable d’utiliser une jonction SIP distribuée. Par exemple, vous pouvez déployer un serveur Édition Standard sur un site de succursale avec fédération sur le site central ou déployer un Survivable Branch Appliance ou un serveur Survivable Branch Server avec une petite passerelle.
+La décision d’opter pour une jonction SIP centralisée ou distribuée doit être basée sur une analyse des coûts-avantages. Dans certains cas, il peut être plus avantageux d’opter pour un modèle de déploiement distribué, même s’il n’est pas nécessaire. Dans un déploiement complètement centralisé, tout le trafic du site de succursale est acheminé via des liaisons WAN. Au lieu de payer pour la bande passante requise pour la liaison WAN, il est peut-être préférable d’utiliser une jonction SIP distribuée. Par exemple, vous pouvez déployer un serveur Édition Standard sur un site de succursale avec fédération sur le site central ou un Survivable Branch Appliance ou un serveur Survivable Branch Server avec une petite passerelle.
 
 > [!NOTE]
 > Pour plus d’informations sur la trunking SIP distribuée, voir [Branch site SIP trunking in Skype Entreprise Server](branch-site.md).

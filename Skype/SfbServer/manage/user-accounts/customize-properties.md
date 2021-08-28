@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Les procédures dans cette section vous permettent de modifier les propriétés de chaque compte d’utilisateur.
-ms.openlocfilehash: b1c3bc75a59834c63f97c9425a775d902f246b299f76318ed890d060caf7e01b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f145b1d1c0abd584a3771950d9960ccea30b85e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351524"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634248"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personnaliser les propriétés de compte d’utilisateur Skype Entreprise Server
  
@@ -74,7 +74,7 @@ Pour plus d’informations sur la configuration de la téléphonie pour une orga
 Vous pouvez utiliser Skype Entreprise Server de contrôle d’accès pour affecter des utilisateurs à un serveur ou pool spécifique.
   
 > [!TIP]
-> Le déplacement de tous les utilisateurs existants d’un pool source exécutant Lync Server 2010 ou une antérieure vers un pool de destination Skype Entreprise Server dans un environnement Active Directory complexe peut entraîner une réplication Active Directory plus lente. Pour éviter cela, vous pouvez utiliser des filtres de recherche pour déplacer des utilisateurs de pools exécutant Lync Server 2010 ou une édition antérieure séparément, ou vous pouvez utiliser Skype Entreprise Server Management Shell pour déplacer des utilisateurs avec des cmdlets. En outre, la fonctionnalité de filtrage fonctionne avec Skype Entreprise Server utilisateurs. 
+> Le déplacement de tous les utilisateurs existants d’un pool source exécutant Lync Server 2010 ou une antérieure vers un pool de destination Skype Entreprise Server dans un environnement Active Directory complexe peut entraîner une réplication Active Directory plus lente. Pour éviter cela, vous pouvez utiliser des filtres de recherche pour déplacer des utilisateurs de pools exécutant Lync Server 2010 ou une édition antérieure séparément, ou vous pouvez utiliser Skype Entreprise Server Management Shell pour déplacer des utilisateurs avec des cmdlets. En outre, la fonctionnalité de filtre fonctionne avec Skype Entreprise Server utilisateurs. 
   
 ### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>Pour déplacer les utilisateurs sélectionnés vers un autre serveur ou pool
 

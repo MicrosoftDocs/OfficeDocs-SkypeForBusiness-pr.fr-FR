@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cet article explique comment configurer des plages de ports pour les serveurs Edge et comment configurer une stratégie de qualité de service pour vos serveurs Edge A/V.
-ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9e9ec2e3f6aff938866655f3534b2a45ab77f726
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634278"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs Edge dans Skype Entreprise Server
 
@@ -82,9 +82,9 @@ Vous pouvez vérifier les paramètres de port actuels de vos serveurs Edge à l�
 
 Là encore, bien que nous fournissions ces options, nous vous recommandons vivement de laisser les éléments tels qu’ils sont pour la configuration du port.
 
-## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurer une stratégie de QoS pour vos serveurs Edge A/V
+## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurer une stratégie QoS pour vos serveurs Edge A/V
 
-En plus de créer des stratégies de QoS pour vos serveurs de conférence, d’application et de médiation, vous devez également créer des stratégies audio et vidéo pour le côté interne de vos serveurs Edge A/V. Toutefois, les stratégies utilisées sur vos serveurs Edge sont différentes des stratégies utilisées sur vos serveurs de conférence, d’application et de médiation. Pour les serveurs de conférence, d’application et de médiation, vous avez spécifié une plage de ports source ; avec les serveurs Edge, vous devez spécifier une plage de ports de destination. Pour cette raison, vous ne pouvez pas simplement appliquer les stratégies de qualité de service de conférence, d’application et de serveur de médiation à vos serveurs Edge : ces stratégies ne fonctionneront tout simplement pas. Au lieu de cela, vous devez créer de nouvelles stratégies et appliquer ces stratégies à vos serveurs Edge uniquement.
+En plus de créer des stratégies de QoS pour vos serveurs de conférence, d’application et de médiation, vous devez également créer des stratégies audio et vidéo pour le côté interne de vos serveurs Edge A/V. Toutefois, les stratégies utilisées sur vos serveurs Edge sont différentes des stratégies utilisées sur vos serveurs de conférence, d’application et de médiation. Pour les serveurs de conférence, d’application et de médiation, vous avez spécifié une plage de ports source ; avec les serveurs Edge, vous devez spécifier une plage de ports de destination. Pour cette raison, vous ne pouvez pas simplement appliquer les stratégies de qualité de service de conférence, d’application et de serveur de médiation à vos serveurs Edge : ces stratégies ne fonctionneront simplement pas. Au lieu de cela, vous devez créer de nouvelles stratégies et appliquer ces stratégies à vos serveurs Edge uniquement.
 
 La procédure suivante décrit le processus de création d’objets de stratégie de groupe Active Directory qui peuvent être utilisés pour gérer la qualité de service sur les serveurs Edge. Bien entendu, il est possible que vos serveurs Edge soient des serveurs autonomes qui n’ont pas de compte Active Directory. Si c’est le cas, vous pouvez utiliser la stratégie de groupe locale au lieu de la stratégie de groupe Active Directory : la seule différence est que vous devez créer ces stratégies locales à l’aide de l’Éditeur de stratégie de groupe local et créer individuellement le même ensemble de stratégies sur chaque serveur Edge. Pour démarrer l’Éditeur de stratégie de groupe locale sur un serveur Edge, vous pouvez :
 
@@ -92,7 +92,7 @@ La procédure suivante décrit le processus de création d’objets de stratégi
 
 2.  Dans la **boîte de** dialogue Exécuter, **tapez gpedit.msc,** puis appuyez sur Entrée.
 
-Si vous créez des stratégies basées sur Active Directory, vous devez vous connecter à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Dans ce cas, ouvrez la gestion des stratégies de groupe (cliquez sur **Démarrer,** pointez sur Outils d’administration, puis cliquez sur **Gestion** des stratégies de groupe), puis complétez les étapes suivantes :
+Si vous créez des stratégies basées sur Active Directory, vous devez vous connecter à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Dans ce cas, ouvrez la gestion des stratégies de groupe (cliquez sur **Démarrer,** pointez sur Outils d’administration, puis cliquez sur Gestion des stratégies de **groupe),** puis complétez les étapes suivantes :
 
 1.  Dans la gestion des stratégies de groupe, accédez au conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs Skype Entreprise Server sont situés dans une ou plusieurs Skype Entreprise Server, la nouvelle stratégie doit être créée dans l’Skype Entreprise Server’une autre.
 
@@ -122,9 +122,9 @@ Après avoir créé la stratégie QoS pour le trafic audio, vous devez créer un
 
   - Attribuez à la valeur DSCP la valeur **34** au lieu de 46. (Notez que vous n’êtes pas obligé d’attribuer la valeur 34 à la valeur DSCP. Le seul impératif est d’utiliser une valeur DSCP pour la vidéo différente de celle utilisée pour l’audio).
 
-  - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 57501 à 65535 pour la vidéo, définissez la plage de ports sur celle-ci : **57501:65535**. Là encore, il doit être configuré comme plage de ports de destination.
+  - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 57501 à 65535 pour la vidéo, définissez la plage de ports sur celle-ci : **57501:65535**. Là encore, il doit être configuré en tant que plage de ports de destination.
 
-Si vous décidez de créer une stratégie pour gérer le trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
+Si vous décidez de créer une stratégie pour la gestion du trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
 
   - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server partage d’application).**
 
@@ -150,6 +150,6 @@ Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP
 
 5.  Cliquez avec le bouton droit sur **QoS**, pointez sur **Nouveau**, puis cliquez sur **Valeur chaîne**. Une fois la nouvelle valeur de Registre créée, tapez Ne pas utiliser **le NLA,** puis appuyez sur Entrée pour renommer la valeur.
 
-6.  Double-cliquez sur **Ne pas utiliser NLA**. Dans la boîte **de dialogue Modifier**  la chaîne, tapez **1** dans la zone Données de la valeur, puis cliquez sur **OK**.
+6.  Double-cliquez sur **Ne pas utiliser NLA**. Dans la boîte **de dialogue Modifier**  la chaîne, tapez **1** dans la zone de données Valeur, puis cliquez sur **OK**.
 
 7.  Fermez l’Éditeur du Registre et redémarrez votre ordinateur.
