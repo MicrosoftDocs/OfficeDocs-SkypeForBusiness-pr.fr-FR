@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: Vous sélectionnez les bases de données que vous voulez créer pour votre déploiement. Par défaut, la base de données est créée sur les SQL Server définies dans le site défini, et déploie et configure automatiquement les fichiers de base de données en fonction de la SQL Server sur qui vous placez les bases de données.
-ms.openlocfilehash: 1a26353ed44529cd19f94b70fdf25f72fbd8f8d4bb81aa0da41c523d3d35a500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f79ac80aac6133396ab2c8dd1a008d82c33c4176
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281057"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618860"
 ---
 # <a name="install-and-create-databases"></a>Installer et créer des bases de données
 
@@ -31,7 +31,7 @@ Vous sélectionnez les bases de données que vous voulez créer pour votre dépl
 > [!CAUTION]
 > Le SQL Server doit déjà avoir été configuré pour l’instance (le cas besoin) et les ports de pare-feu doivent être ouverts pour prendre en charge l’instance vers qui vous déployez les bases de données. Pour plus d’informations, voir [Configure SQL Server for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
 
- **Avancé**: cliquez sur le SQL Server  cliquez sur le bouton Avancé pour choisir les options des emplacements des fichiers de base de données sur votre SQL Server. Pour plus d’informations sur l’emplacement du fichier de base de données avancé, voir [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)
+ **Avancé**: cliquez sur le SQL Server  cliquez sur le bouton Avancé pour choisir les options des emplacements de fichiers de base de données sur votre SQL Server. Pour plus d’informations sur l’emplacement du fichier de base de données avancé, voir [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)
 
  **Précédent** : le fait de cliquer sur ce bouton vous permet de revenir à l’écran précédent (il n’est peut-être pas toujours disponible, selon la façon dont vous avez atteint cette boîte de dialogue).
 

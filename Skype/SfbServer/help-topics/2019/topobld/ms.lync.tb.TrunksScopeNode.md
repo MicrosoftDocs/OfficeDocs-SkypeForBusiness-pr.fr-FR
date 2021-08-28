@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.TrunksScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Cliquez avec le bouton droit sur Trunks dans le Générateur de topologie pour effectuer les choses suivantes :'
-ms.openlocfilehash: 2760f0b1c0187f6662d68aa886bde5cf6f09247abb1177f37934354dddcea3d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a52c89c9ac2647a99a5da87848f8725f0a6657f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279002"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601669"
 ---
 # <a name="trunks-scope-node"></a>Nœud d’étendue des jonctions
  

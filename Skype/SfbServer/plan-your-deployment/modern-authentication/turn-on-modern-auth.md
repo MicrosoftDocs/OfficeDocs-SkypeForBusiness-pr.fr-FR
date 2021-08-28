@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: Cet article décrit les cmdlets qui donnent aux administrateurs davantage de contrôle sur les méthodes d’authentification utilisées à l’intérieur et à l’extérieur d’une entreprise. Les administrateurs peuvent activer ou désactiver les méthodes d’authentification en interne ou en externe sur leur réseau.
-ms.openlocfilehash: c9d4cce512ebb296cb442c6a78482f19bf7062aaceb8fe8704cbca3c277e4e92
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bad18e79e1595c7dfe4518d73b6dd764e313e22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306875"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601359"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planification de la désactiver des méthodes d’authentification héritées en interne et en externe sur votre réseau.
 
@@ -28,9 +28,9 @@ ms.locfileid: "54306875"
 >  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](./topologies-supported.md)
 >  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](/skypeforbusiness/manage/authentication/use-adal)
   
-L’authentification moderne n’active pas seulement des méthodes d’authentification plus sécurisées, telles que Two-Factor Auth ou l’authentification basée sur un certificat, elle peut également effectuer l’autorisation de votre utilisateur sans avoir besoin d’un nom d’utilisateur ou d’un mot de passe. C’est très pratique.
+L’authentification moderne n’active pas seulement des méthodes d’authentification plus sécurisées, telles que l’authentification Two-Factor ou l’authentification basée sur un certificat, elle peut également effectuer l’autorisation de votre utilisateur sans avoir besoin d’un nom d’utilisateur ou d’un mot de passe. C’est très pratique.
 
-Cet article vous aidera à brancher les trous qui ont été exploités pour les attaques par déni de service (DOS) sur les serveurs Skype Entreprise, en authentification externe, interne ou les deux, à votre réseau. Par exemple, une bonne méthode pour arrêter les attaques DOS consisterait à désactiver l’authentification Windows intégrée (qui inclut NTLM et Kerberos). La mise hors réseau de NTLM en externe et l’authentification basée sur les certificats contribuent à protéger les mots de passe contre l’exposition. En effet, NTLM utilise les informations d’identification de mot de passe pour authentifier les utilisateurs, mais pas l’authentification basée sur les certificats (activée par l’authentification moderne). Cela signifie qu’une option idéale pour réduire les attaques DOS consiste à bloquer NTLM en externe et à utiliser uniquement l’authentification basée sur les certificats à cet emplacement.
+Cet article vous aidera à brancher les trous qui ont été exploités pour les attaques par déni de service (DOS) sur les serveurs Skype Entreprise, en authentification externe, interne ou les deux, à votre réseau. Par exemple, une bonne méthode pour arrêter les attaques DOS consisterait à désactiver l’authentification Windows intégrée (qui inclut NTLM et Kerberos). La mise hors réseau de NTLM en externe et l’authentification basée sur les certificats permettent de protéger les mots de passe contre l’exposition. En effet, NTLM utilise les informations d’identification de mot de passe pour authentifier les utilisateurs, mais pas l’authentification basée sur les certificats (activée par l’authentification moderne). Cela signifie qu’une option idéale pour réduire les attaques DOS consiste à bloquer NTLM en externe et à utiliser uniquement l’authentification basée sur les certificats à cet emplacement.
 
 Commençons.
 
@@ -47,10 +47,10 @@ Ces cmdlets seront installées uniquement après la mise à jour cumulative de j
 Il est important de garder à l’esprit qu’il s’agit des topologies pris en charge impliquées dans ce scénario ! Si vous avez besoin d’obtenir de l’aide sur le blocage d’une méthode, par exemple, vous devez avoir une configuration parmi les types ci-dessous. 
 
 > [!IMPORTANT]
-> Dans le tableau et  les descriptions ci-dessous, l’authentification moderne est abrégée en __MA__ et *Windows Authentification* intégrée est abrégée en __Win__. Pour rappel, Windows’authentification intégrée est composé de deux méthodes : l’authentification NTLM et l’authentification Kerberos. Vous devez le savoir pour lire correctement le tableau !
+> Dans le tableau et  les descriptions ci-dessous, l’authentification moderne est abrégée en __MA__ et *Windows l’authentification* intégrée est abrégée en __Win__. Pour rappel, Windows’authentification intégrée est composé de deux méthodes : l’authentification NTLM et l’authentification Kerberos. Vous devez le savoir pour lire correctement le tableau !
 
 
-|       |Externe  |En interne  |Parameter  |
+|       |Externe  |En interne  |Paramètre  |
 |---------|:---------|:---------|---------|
 |__Type 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
 |__Type 2__   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
@@ -98,7 +98,7 @@ Il peut être plus judicieux d’effectuer une get- pour ces valeurs et d’effe
 > Si vous utilisez le paramètre BlockWindowsAuthExternally pour bloquer NTLM en externe, sachez que cela bloque également NTLM en interne pour le canal SIP. Toutefois, les clients Skype Entreprise et Lync plus nouveaux que 2010 pourront toujours se connecter, car ils utiliseront NTLM sur HTTP pour se connecter, en interne, puis extraire un certificat pour se connecter sur SIP. Toutefois, les clients plus anciens que 2010 ne pourront pas se connecter en interne dans ce cas, et vous pouvez envisager de mettre à niveau ces applications afin que vos utilisateurs puissent reprendre les fonctionnalités sécurisées.
 
 > [!IMPORTANT] 
-> Certaines applications web Skype Entreprise ne la prise en charge de MA. Ainsi, en utilisant le scénario BlockWindowsAuthExternallyAndInternally, vous ne pourrez pas accéder à ces applications. Les applications sans prise en charge de l’accès ma sont le Scheduler Web, la page rendez-vous, le panneau de Skype Entreprise (CSCP) et la page Paramètres Response Group. 
+> Certaines applications web Skype Entreprise ne sont pas en charge par ma. Ainsi, en utilisant le scénario BlockWindowsAuthExternallyAndInternally, vous ne pourrez pas accéder à ces applications. Les applications sans prise en charge de l’accès ma sont le Scheduler Web, la page rendez-vous, le panneau de Skype Entreprise (CSCP) et la page Paramètres Response Group. 
 
 ## <a name="links"></a>Liens 
 - Pour plus d’informations sur PowerShell :

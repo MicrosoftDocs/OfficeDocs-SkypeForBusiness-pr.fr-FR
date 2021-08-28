@@ -13,21 +13,21 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Utilisez le rapport de routage direct du Microsoft Teams de qualité des appels (CQD) pour surveiller et résoudre les problèmes d’appel RST dans Microsoft Teams.
-ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635058"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Utilisation du rapport de routage direct PSTN du CQD
 
 À partir de mars 2020, nous avons ajouté un rapport de routage direct du tableau de bord de qualité des appels Microsoft Teams (CQD) à nos [modèles](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)de requêtes Power BI téléchargeables pour le tableau de bord de qualité des appels. 
 
 
-Le rapport de routage direct RQD (CQD PSTN Direct Routing Report.pbit) vous aide à comprendre les modèles d’utilisation et la qualité de vos services RQN. Utilisez ce rapport pour surveiller l’utilisation du service, des informations sur votre contrôleur de session border controller (SBC), le service téléphonique, les paramètres réseau et les détails du rapport d’efficacité du réseau. Ces informations peuvent vous aider à identifier les problèmes, y compris la raison de l’abandon d’appels. Par exemple, vous pouvez voir quand le volume diminue ou combien d’appels sont affectés et pour quelle raison.
+Le rapport de routage direct RQD (CQD PSTN Direct Routing Report.pbit) vous aide à comprendre les modèles d’utilisation et la qualité de vos services RQN. Utilisez ce rapport pour surveiller l’utilisation du service, des informations sur votre contrôleur de session border controller (SBC), le service téléphonique, les paramètres réseau et les détails du rapport d’efficacité du réseau. Ces informations peuvent vous aider à identifier les problèmes, notamment la raison pour laquelle des appels ont été supprimés. Par exemple, vous pouvez voir quand le volume diminue ou combien d’appels sont affectés et pour quelle raison.
 
 
 Le rapport de routage direct PSTN du CQD se présente sous quatre sections :
@@ -44,7 +44,7 @@ Le rapport de routage direct PSTN du CQD se présente sous quatre sections :
 
 1. Analyser par type d’appel, SBC, appelant et pays de l’appelant
 
-   Le rapport de routage RTC RTC agrège les mesures de fiabilité et d’utilisation de tous les PC de votre client au cours des 7, 30 ou 180 derniers jours (6 mois). Vous pouvez analyser les données par type d’appel, SBC, appelant et pays de l’appelant. Si vous êtes intéressé par un SBC ou un pays particulier, vous pourrez identifier les changements de tendances sur l’plage de temps sélectionnée.
+   Le rapport de routage RTC RTC agrège les mesures de fiabilité et d’utilisation pour tous les pc de service sur votre client au cours des 7, 30 ou 180 derniers jours (6 mois). Vous pouvez analyser les données par type d’appel, SBC, appelant et pays de l’appelant. Si vous êtes intéressé par un SBC ou un pays particulier, vous pourrez identifier les changements de tendances sur l’plage de temps sélectionnée.
    :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Capture d’écran des filtres disponibles dans le rapport de routage direct PSTN du CQD":::
    
 2. Suivre les tendances
@@ -99,7 +99,7 @@ Par exemple :
 
 ## <a name="network-effectiveness-ratio"></a>Taux d’efficacité du réseau
 
-Il s’agit de la même valeur qui apparaît dans le tableau de bord État global. Vous pouvez vérifier toutes les heures le numéro de neR avec les détails des appels affectés pour les deux itinéraires d’appel (entrant/sortant) sur le rapport d’efficacité du réseau toutes les heures et le graphique de raison de fin d’appel ci-dessous.
+Il s’agit de la même valeur qui apparaît dans le tableau de bord État global. Vous pouvez vérifier toutes les heures le numéro de la zone NER avec les détails des appels affectés pour les deux itinéraires d’appel (entrant/sortant) sur le rapport d’efficacité du réseau toutes les heures et le graphique de raison de fin d’appel ci-dessous.
 
   - **NER** - Possibilité (%) d’un réseau de remettre des appels en mesurant le nombre d’appels envoyés par rapport au nombre d’appels remis à un destinataire.
 
@@ -125,7 +125,7 @@ Si la fonction NER quotidienne présente une baisse le 05/02/2020, vous pouvez c
 
 ## <a name="network-parameters"></a>Paramètres réseau
 
-Tous les paramètres réseau sont mesurés à partir de l’interface de routage direct vers le contrôleur de bordure de session. Pour plus [d’informations](prepare-network.md)sur les valeurs recommandées, voir Préparer le réseau de votre organisation pour Microsoft Teams et examiner le bord du client pour Microsoft Edge valeurs recommandées.
+Tous les paramètres réseau sont mesurés à partir de l’interface de routage direct vers le contrôleur de bordure de session. Pour plus [d’informations](prepare-network.md)sur les valeurs recommandées, voir Préparer le réseau de votre organisation pour Microsoft Teams et voir le bord du client pour Microsoft Edge valeurs recommandées.
 
   - **Gigue –** Mesure en millisecondes du retard de propagation réseau calculée entre deux points de terminaison à l’aide du protocole RTCP (protocole de contrôle RTP).
 
@@ -143,7 +143,7 @@ Si vous voyez un pic sur l’un des quatre graphiques (Latence, Gigue, Taux de p
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Utiliser Power BI pour analyser les données du sous-Microsoft Teams](CQD-PSTN-report.md)
 

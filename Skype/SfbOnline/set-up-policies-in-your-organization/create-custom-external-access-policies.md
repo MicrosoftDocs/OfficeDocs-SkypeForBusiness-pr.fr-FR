@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Skype Entreprise En ligne vous permet de créer des stratégies d’accès externe supplémentaires. Contrairement aux stratégies de client ou de conférence, où vous pouvez avoir plusieurs combinaisons, il existe trois stratégies d’accès externe prédéfinie qui peuvent couvrir la plupart des scénarios.
-ms.openlocfilehash: 4db20c286f342662adffeeaeae17737651791f56f74be6558138756b7e65e767
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d0ecf5051de17f923983e16f35eb22b66c41571e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619270"
 ---
 # <a name="create-custom-external-access-policies"></a>Créer des stratégies d'accès externe personnalisées
 
@@ -38,9 +38,9 @@ Skype Entreprise En ligne vous permet de créer des stratégies d’accès exter
     
 - Accès fédéré et grand public _(FederationAndPICDefault)_
     
-Les stratégies externes personnalisées vous permettent de créer des polices supplémentaires qui ne sont pas couvertes par les paramètres ci-dessus. Lorsque la stratégie a été créée, vous devez définir tous les paramètres requis et vous ne pouvez pas les modifier ultérieurement. La création de stratégies personnalisées vous permet de contrôler des fonctionnalités telles que l’accès Skype grand public ou une stratégie de désactivation de l’audio/vidéo cloud public, qui n’était pas couverte par des paramètres prédéfinie. Les stratégies d’accès externe personnalisées suivent la même syntaxe que les stratégies de client, de mobilité et de conférence. Pour en savoir plus sur ces paramètres, [cliquez ici.](/previous-versions//mt228132(v=technet.10))
+Les stratégies externes personnalisées vous permettent de créer des polices supplémentaires qui ne sont pas couvertes par les paramètres ci-dessus. Lorsque la stratégie a été créée, vous devez définir tous les paramètres requis et vous n’avez pas pu les modifier ultérieurement. La création de stratégies personnalisées vous permet de contrôler des fonctionnalités telles que l’accès Skype grand public ou une stratégie de désactivation de l’audio/vidéo cloud public, qui n’était pas couverte par des paramètres prédéfinie. Les stratégies d’accès externe personnalisées suivent la même syntaxe que les stratégies de client, de mobilité et de conférence. Pour en savoir plus sur ces paramètres, [cliquez ici.](/previous-versions//mt228132(v=technet.10))
   
-Pour ce faire, l’utilisateur doit utiliser une version prise en charge de l’application « Exécuter en un clic » 2016 Skype Entreprise qui la prend en charge. La version minimale suivante Skype Entreprise client « Click-to-Run 2016 ) est requise :
+Pour ce faire, l’utilisateur doit utiliser une version prise en charge de l’application « Exécuter en un clic » 2016 Skype Entreprise qui la prend en charge. La version minimale suivante du client « Skype Entreprise - Exécuter en un clic 2016 est requise :
   
 |**Type**|**Date de publication**|**Version**|**Build**|
 |:-----|:-----|:-----|:-----|
@@ -98,7 +98,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)
 
 [Configurer les stratégies client pour votre organisation](set-up-client-policies-for-your-organization.md)

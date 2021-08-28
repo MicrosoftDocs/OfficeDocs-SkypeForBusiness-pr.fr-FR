@@ -10,23 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat contient tous les messages de conversation.
-ms.openlocfilehash: 2e764fa9ca64089a7015885bb4d33dc466d7dc214532e698505a19d2cf1a0d4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eda5842381767d3ebed9a732ee805f3621ad1160
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329418"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635078"
 ---
 # <a name="tblchat"></a>tblChat
  
 tblChat contient tous les messages de conversation.
   
-**Columns**
+**Colonnes**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |channelId  <br/> |int, non null  <br/> |ID de nœud.  <br/> |
 |chatId  <br/> |bigint, non null  <br/> |Numéro d’ordre unique (par ID de nœud) qui définit l’ordre de la salle de conversation, généré par la table tblLastChatId.  <br/> |

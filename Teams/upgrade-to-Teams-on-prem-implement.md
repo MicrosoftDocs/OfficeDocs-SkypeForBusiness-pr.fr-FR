@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
 description: Cet article est pour les administrateurs informatiques et décrit les stratégies d’implémentation de leur mise à niveau Skype Entreprise vers Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3247ff29d99769a94314f2bff42699ba071bdce8976b2332b38232bdd7bfc0b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c44d988bdcfbd08f462a99c76b4095bb01ac60c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619340"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>Stratégies de mise à niveau pour les administrateurs informatiques
 
-![Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
+![Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
 Cet article est pour les administrateurs informatiques qui souhaitent implémenter leur mise à niveau vers Teams à partir Skype Entreprise.
 
@@ -54,12 +54,12 @@ Pour l’option de mise à niveau des fonctionnalités superposées :
 
 - Cette option est le modèle pré-standard et ne nécessite aucune action de l’administrateur pour commencer à Teams à l’exception de l’attribution de la licence Microsoft 365 ou Office 365 licence. Si vos utilisateurs ont déjà Skype Entreprise Online, vous êtes peut-être déjà dans ce modèle.
 
-- Il peut être difficile de sortir du mode de fonctionnalités superposées et de passer à TeamsOnly. Étant donné que les utilisateurs mis à niveau communiquent uniquement via Teams, tous les autres utilisateurs de l’organisation qui communiquent avec cet utilisateur doivent utiliser Teams.  Si vos utilisateurs n’ont pas commencé à utiliser Teams, ils sont exposés à des messages manquants. De plus, ils ne voient pas les utilisateurs de TeamsOnly en ligne Skype Entreprise. Certaines organisations choisissent d’opter pour une mise à niveau à l’échelle du client à l’aide de la stratégie globale du client afin d’éviter ce problème, ce qui nécessite toutefois une planification préalable, ainsi que l’attente jusqu’à ce que tous les utilisateurs soient prêts à être mis à niveau.
+- Il peut être difficile de sortir du mode de fonctionnalités superposées et de passer à TeamsOnly. Étant donné que les utilisateurs mis à niveau communiquent uniquement via Teams, tous les autres utilisateurs de l’organisation qui communiquent avec cet utilisateur doivent utiliser Teams.  Si vos utilisateurs n’ont pas commencé à utiliser Teams, ils sont exposés à des messages manquants. De plus, ils ne voient pas les utilisateurs de TeamsOnly en ligne Skype Entreprise. Certaines organisations choisissent d’opter pour une mise à niveau à l’échelle du client à l’aide de la stratégie globale du client afin d’éviter ce problème, ce qui nécessite toutefois une planification préalable et attendre que tous les utilisateurs soient prêts à mettre à niveau.
 
 
-## <a name="a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>Mise à niveau des fonctionnalités sélectionnées pour une organisation qui n’a pas encore commencé à utiliser Teams
+## <a name="a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>Mise à niveau des fonctionnalités de sélection pour une organisation qui n’a pas encore commencé à utiliser Teams
 
-Si votre organisation n’a pas encore d’utilisateurs actifs dans Teams, la première étape consiste à définir la stratégie par défaut à l’échelle du client pour TeamsUpgradePolicy sur l’un des modes Skype Entreprise, par exemple, SfbWithTeamsCollab.  Les utilisateurs qui n’ont pas encore commencé à Teams remarque aucune différence de comportement. Toutefois, la définition de cette stratégie au niveau du client permet de commencer la mise à niveau des utilisateurs vers le mode TeamsOnly et garantit que les utilisateurs mis à niveau peuvent toujours communiquer avec des utilisateurs qui ne sont pas mis à niveau.  Après avoir identifié vos utilisateurs pilotes, vous pouvez les mettre à niveau vers TeamsOnly.  S’ils sont locaux, utilisez Move-CsUser. S’ils sont en ligne, affectez-les simplement en mode TeamsOnly à l’aide de Grant-CsTeamsUpgradePolicy. Par défaut, les Skype Entreprise de réunion programmées par ces utilisateurs sont migrées vers Teams.
+Si votre organisation n’a pas encore d’utilisateurs actifs dans Teams, la première étape consiste à définir la stratégie par défaut à l’échelle du client pour TeamsUpgradePolicy sur l’un des modes Skype Entreprise, par exemple, SfbWithTeamsCollab.  Les utilisateurs qui n’ont pas encore commencé à Teams remarque aucune différence de comportement. Toutefois, la définition de cette stratégie au niveau du client permet de commencer la mise à niveau des utilisateurs vers le mode TeamsOnly et garantit que les utilisateurs mis à niveau peuvent toujours communiquer avec des utilisateurs qui ne sont pas mis à niveau.  Après avoir identifié vos utilisateurs pilotes, vous pouvez les mettre à niveau vers TeamsOnly.  S’ils sont locaux, utilisez Move-CsUser. S’ils sont en ligne, affectez-les simplement en mode TeamsOnly à l’aide de Grant-CsTeamsUpgradePolicy. Par défaut, les Skype Entreprise de réunion prévues par ces utilisateurs sont migrées vers Teams.
 
 Voici les principales commandes :
 
@@ -98,7 +98,7 @@ Le diagramme ci-dessous montre les phases conceptuelles de la mise à niveau des
 
 ## <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>Mise à niveau des fonctionnalités sélectionnées pour une organisation qui utilise déjà Teams en mode Îles
 
-Si certains utilisateurs de votre organisation utilisent activement Teams en mode Îles, vous ne souhaitez probablement pas supprimer la fonctionnalité des utilisateurs existants. Par conséquent, une étape supplémentaire est requise avant de modifier la stratégie à l’échelle du client. La solution consiste à « transformer » ces utilisateurs Teams existants en mode Îles, avant de définir la stratégie à l’échelle du client sur SfbWithTeamsCollab.  Une fois que vous aurez effectué cela, vous pourrez procéder au déploiement comme ci-dessus. Toutefois, vous aurez deux groupes d’utilisateurs qui vont passer à TeamsOnly : les utilisateurs qui étaient actifs dans Teams seront en mode Îles et les autres utilisateurs seront en mode SfbWithTeamsCollab. Vous pouvez progressivement déplacer ces utilisateurs vers le mode TeamsOnly.
+Si certains utilisateurs de votre organisation utilisent activement Teams en mode Îles, vous ne souhaitez probablement pas supprimer la fonctionnalité des utilisateurs existants. Par conséquent, une étape supplémentaire est requise avant de modifier la stratégie à l’échelle du client. La solution consiste à « transformer » ces utilisateurs Teams existants en mode Îles, avant de définir la stratégie à l’échelle du client sur SfbWithTeamsCollab.  Une fois que vous aurez effectué cela, vous pourrez procéder au déploiement comme ci-dessus. Toutefois, vous aurez deux groupes d’utilisateurs qui vont passer à TeamsOnly : les utilisateurs actifs dans Teams seront en mode Îles et les autres utilisateurs seront en mode SfbWithTeamsCollab. Vous pouvez progressivement déplacer ces utilisateurs vers le mode TeamsOnly.
 
 1. Recherchez les utilisateurs actifs dans Teams de la façon suivante :
 

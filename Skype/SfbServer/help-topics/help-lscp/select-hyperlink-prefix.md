@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: Utilisez la boîte de dialogue Sélectionner un préfixe de lien hypertexte pour sélectionner les types de liens hypertexte que vous souhaitez bloquer, envoyer un message d’avertissement ou autoriser en sélectionnant (pour bloquer ou envoyer un message d’avertissement) ou en effaquant (pour autoriser) les cases à cocher de leurs extensions à partir des catégories sous préfixes hypertexte. Cliquez sur la flèche pour développer une catégorie et afficher tous les préfixes de lien hypertexte de cette catégorie. Si vous souhaitez sélectionner tous les préfixes de lien hypertexte pour une catégorie, sélectionnez le nom de la catégorie.
-ms.openlocfilehash: ba1301bc8c659b4be4a4e8a8a0c2cf8c2c4df2d66aa337dd8853e2d2b7eaf501
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cdbaad047fbac4f18509ec035bd2ffb2f1d15fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329998"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619060"
 ---
 # <a name="select-hyperlink-prefix"></a>Sélectionner un préfixe de lien hypertexte
  

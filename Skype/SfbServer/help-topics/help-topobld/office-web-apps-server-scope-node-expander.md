@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 description: 'Cliquez avec le bouton droit sur Office Web Apps Servers dans le Générateur de topologie pour effectuer les choses suivantes :'
-ms.openlocfilehash: 856abe56bf0515f8c9ae728d143912ef5750a2629490d2b505ad08efded920f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 652d62a9471d538b53184cda29887006035f36fe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333566"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601489"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expandeur du nœud d’étendue du serveur Office Web Apps Server
  

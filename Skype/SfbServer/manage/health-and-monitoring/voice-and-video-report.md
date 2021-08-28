@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Résumé : Découvrez le rapport vocal et vidéo D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: 66d121965d7046a823e26bff8a14fba6ce8213690fcaa4a21ab7a31f4db9f904
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5b9bb3ad0bed9182c41734ed6e173ae9e3febd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601469"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Rapport vocal et vidéo D’égal à égal dans Skype Entreprise Server
  
-**Résumé :** Découvrez le rapport vocal et vidéo d’égal à égal dans Skype Entreprise Server.
+**Résumé :** Découvrez le rapport vocal et vidéo D’égal à égal dans Skype Entreprise Server.
   
 Le rapport vocal et vidéo d’égal-à-égal offre un examen détaillé de la distribution des appels vocaux et vidéo sur une période donnée (par exemple, les appels par heure ou par jour). Il vous offre également la possibilité de voir tous les appels vocaux et vidéo émis, ou de voir uniquement les appels ayant abouti ou échoué. Le rapport fournit les informations d’appels réparties dans les sections suivantes :
   
@@ -55,7 +55,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
   
 **Filtres du rapport vocal et vidéo d’égal-à-égal**
 
-|**Name**|**Description**|
+|**Nom**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -70,7 +70,7 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
   
 **Mesures de l’activité vocale et vidéo d’égal à égal par pool**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Pool** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge utilisé pour l’appel.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
@@ -82,7 +82,7 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
   
 **Mesures de l’activité vocale et vidéo d’égal à égal par type d’appel**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’appel** <br/> |Non  <br/> | Indique le type d’appel émis. Les valeurs correspondent à l’une des options suivantes : <br/>  UC-à-UC <br/>  UC à PSTN <br/>  PSTN-à-UC <br/>  PSTN à PSTN <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
@@ -94,7 +94,7 @@ Le tableau qui suit dresse la liste des informations fournies dans le rapport vo
   
 **Mesures de l’activité vocale et vidéo d’égal à égal par type d’accès**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’activité** <br/> |Non  <br/> | Indique si les clients étaient connectés au réseau interne ou au réseau externe au moment de passer l’appel. Les valeurs correspondent généralement à l’une des options suivantes : <br/>  Interne <br/>  Externe <br/>  Mixte <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |
@@ -106,7 +106,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport vocal e
   
 **Mesures de l’activité vocale et vidéo d’égal à égal par serveur de médiation**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Serveur de médiation** <br/> |Non  <br/> |Nom du serveur de médiation.  <br/> |
 |**Date/Heure** <br/> |Non  <br/> |Date et heure auxquelles l’appel s’est produit.  <br/> |

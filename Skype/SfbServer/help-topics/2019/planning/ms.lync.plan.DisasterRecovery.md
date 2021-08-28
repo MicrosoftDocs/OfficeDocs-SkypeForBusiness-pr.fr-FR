@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.DisasterRecovery
 - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Entreprise Server inclut des mesures de récupération d’urgence en vous permettant de coupler des pools frontaux situés dans deux centres de données.
-ms.openlocfilehash: cb361ee6d008b5b15169b976cd47bef0f0b0f693180b78a173392de3768a06a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f696463d5687cb03a1dde1e669c7dbd1707037c2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304206"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619140"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
  

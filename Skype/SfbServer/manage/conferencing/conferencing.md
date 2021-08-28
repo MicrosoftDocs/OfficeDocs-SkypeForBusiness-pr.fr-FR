@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Résumé : Découvrez comment gérer les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: 94f59c2c2a8586ec1d0d47316e976d0e662b5bb0824ce34df9de327b0446fcae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f91e6c7e87c5e7a2032e6c3eb9d6b220ec3da51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333596"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636068"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Gérer les conférences dans Skype Entreprise Server
  
@@ -35,11 +35,11 @@ Dans Skype Entreprise Server, vous gérez les détails de la conférence en spé
     
 - Les **paramètres** de configuration de réunion déterminent le type de réunion que les utilisateurs peuvent créer, en plus de contrôler comment (ou même si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent participer à ces réunions. Notez que ces paramètres affectent uniquement les réunions prévues. Les configurations de réunion sont appliquées par pool, par site ou globalement.
     
-- **Les paramètres de configuration de** conférence déterminent des éléments tels que la taille maximale autorisée pour le contenu et les handouts de réunion. quantité maximale de bande passante pour le service de conférence de partage d’application ; limites de stockage et périodes d’expiration ; URL pour les téléchargements internes et externes du client pris en charge ; pointeurs vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence ; et les ports utilisés pour le partage d’application, l’audio client, les transferts de fichiers et le trafic multimédia.
+- **Les paramètres de configuration** de conférence déterminent des éléments tels que la taille maximale autorisée pour le contenu et les handouts de réunion . quantité maximale de bande passante pour le service de conférence de partage d’application ; limites de stockage et périodes d’expiration ; URL pour les téléchargements internes et externes du client pris en charge ; pointeurs vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence ; et les ports utilisés pour le partage d’application, l’audio client, les transferts de fichiers et le trafic multimédia.
     
-    Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres peuvent uniquement être définies à l’aide Skype Entreprise Server Management Shell. 
+    Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres ne peuvent être définies qu’à l’aide Skype Entreprise Server Management Shell. 
     
-- **Les paramètres d’accès à la** connexion vous permettent de définir des informations sur la façon dont les utilisateurs appellent à partir d’un téléphone. Vous spécifiez certaines des informations d’accès à la conférence, telles que le numéro d’accès, à partir de l’onglet Conférence du Panneau de contrôle et certaines informations de numérotation ,telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN, à partir de l’onglet Routage des voix du Panneau de contrôle.
+- **Les paramètres d’accès à la** connexion vous permettent de définir des informations sur la façon dont les utilisateurs appellent à partir d’un téléphone. Vous spécifiez certaines des informations d’accès à la conférence, telles que le numéro d’accès, à partir de l’onglet Conférence du Panneau de contrôle et certaines informations de numérotation,telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN, à partir de l’onglet Routage des voix du Panneau de contrôle.
     
 - **Les paramètres de stratégie de code** confidentiel vous permettent de nommer et de définir le code confidentiel que les participants utilisent pour l’accès à la connexion.
     
@@ -171,5 +171,5 @@ Vous pouvez utiliser les cmdlets Skype Entreprise Server Management Shell suivan
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Vérifie si un utilisateur peut participer à une session de conférence rendez-vous.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Teste un numéro de téléphone par rapport à un plan de numérotation (anciennement appelé « profil d’emplacement ») et retourne la règle de normalisation qui sera appliquée au numéro, ainsi que le numéro traduit après application de la règle de normalisation.  <br/> |
 |[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Teste la capacité de trois utilisateurs à participer à une conférence Skype Entreprise Server Mobility Service. Le service de mobilité permet aux utilisateurs de téléphones mobiles tels que des iPhone et Windows Phone d’échanger des messages instantanés et des informations de présence. stocker et récupérer la messagerie vocale en interne plutôt qu’avec son fournisseur sans fil ; et tirez parti Skype Entreprise Server fonctionnalités telles que l’appel via le travail et la conférence sortante.  <br/> **Remarque :** Les clients qui utilisent MCX ne sont pas pris en charge Skype Entreprise Server 2019.|
-|[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Teste la capacité d’une paire d’utilisateurs à planifier, rejoindre et mener une conférence en ligne à l’aide de l’API UCWA (Unified Communications Web API).  <br/> |
+|[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Teste la capacité d’une paire d’utilisateurs à planifier, rejoindre et mener une conférence en ligne à l’aide de l’API web de communications unifiées (UCWA).  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Renvoie des informations de diagnostic pour les fonctionnalités de conférence de données incluses dans Skype Entreprise Server.  <br/> |

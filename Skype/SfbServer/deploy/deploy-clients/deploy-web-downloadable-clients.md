@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Résumé : Déployez l’application Application Web Skype Entreprise et Skype Réunions utilisée avec Skype Entreprise.'
-ms.openlocfilehash: 2fca7600232e9293dedbe9228075470097335d5836fb77c0cb428625e809a609
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65b786cbdd999971c5825406087cd8d7f35a155e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330558"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601949"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Déployer des clients web téléchargeables dans Skype Entreprise Server
 
@@ -33,7 +33,7 @@ Les fonctionnalités vocales, vidéo et de partage dans Application Web Skype En
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Activer l’authentification multifacteur pour Application Web Skype Entreprise
 <a name="MFA"> </a>
 
-Application Web Skype Entreprise, Skype Meetings App et Skype Entreprise pour Mac l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des code pin pin, pour authentifier les utilisateurs qui rejoignent des réseaux externes lorsqu’ils se connectent à Skype Entreprise réunions. Vous pouvez activer l’authentification multifacteur en déployant le serveur de fédération AD FS (Active Directory Federation Service) et en activant l’authentification passive dans Skype Entreprise Server. Une fois les services AD FS configurés, les utilisateurs externes qui tentent de participer à des réunions Skype Entreprise se présentent avec une page web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que toutes les méthodes d’authentification supplémentaires que vous avez configurées.
+Application Web Skype Entreprise, Skype Meetings App et Skype Entreprise pour Mac l’authentification multifacteur. Outre le nom d’utilisateur et le mot de passe, vous pouvez exiger des méthodes d’authentification supplémentaires, telles que des cartes à puce ou des code pin pin, pour authentifier les utilisateurs qui rejoignent des réseaux externes lorsqu’ils se connectent à Skype Entreprise réunions. Vous pouvez activer l’authentification multifacteur en déployant le serveur de fédération AD FS (Active Directory Federation Service) et en activant l’authentification passive dans Skype Entreprise Server. Une fois les services AD FS configurés, les utilisateurs externes qui tentent de participer à des réunions Skype Entreprise se présentent avec une page web d’authentification multifacteur AD FS qui contient le nom d’utilisateur et le mot de passe, ainsi que les méthodes d’authentification supplémentaires que vous avez configurées.
 
 > [!IMPORTANT]
 > Vous trouverez ci-dessous des considérations importantes si vous envisagez de configurer les services AD FS pour l’authentification multifacteur :
@@ -50,7 +50,7 @@ Application Web Skype Entreprise, Skype Meetings App et Skype Entreprise pour Ma
 
 1. Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, voir le guide de déploiement des services de fédération [Active Directory 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
 
-2. Créez des certificats pour AD FS. Pour plus d’informations, voir la section « [Certificats](/previous-versions/azure/azure-services/jj205462(v=azure.100)) de serveur de fédération » de la rubrique Plan for and deploy AD FS for use with single sign-on topic.
+2. Créez des certificats pour AD FS. Pour plus d’informations, voir la section « [Certificats](/previous-versions/azure/azure-services/jj205462(v=azure.100)) de serveur de fédération » de la rubrique Plan for and deploy AD FS for use with single sign-on.
 
 3. À partir Windows PowerShell’interface de ligne de commande, exécutez la commande suivante :
 
@@ -129,7 +129,7 @@ Cette procédure est facultative et s’applique Skype Entreprise Server cu5 201
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
-2. Autoriser l’envoi de la télémétrie de journalisation côté client à partir de la page web de connexion à une réunion ou de l’application Skype Meetings aux serveurs Microsoft (la commande est false par défaut).
+2. Autoriser l’envoi de la télémétrie de journalisation côté client à partir de la page web de connexion à une réunion ou de l’application Skype Meetings aux serveurs Microsoft (la commande par défaut est false).
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
@@ -144,7 +144,7 @@ Cette procédure est facultative et s’applique Skype Entreprise Server cu5 201
    ```
 
 > [!NOTE]
-> With MeetingUxUseCdn in Skype Entreprise Server 2015 Cumulative Update 5, the default value is set to False. Cela provoque un problème dans lequel le client Skype Entreprise pour Mac ne peut pas participer aux réunions des partenaires non fédérés en tant qu’invité, même si l’administrateur Skype Entreprise Skype Entreprise définie MeetingUxUseCdn sur True. Pour que cela fonctionne, Skype Entreprise Server 2015 doit avoir la mise à jour cumulative 7, 6.0.9319.534 ou ultérieure. Voir Activer Skype l’application Réunions pour remplacer les [Application Web Skype Entreprise dans Skype Entreprise Server 2015.](https://support.microsoft.com/kb/4132312)
+> With MeetingUxUseCdn in Skype Entreprise Server 2015 Cumulative Update 5, the default value is set to False. Cela provoque un problème dans lequel le client Skype Entreprise pour Mac ne peut pas participer aux réunions des partenaires non fédérés en tant qu’invité, même si l’administrateur Skype Entreprise Skype Entreprise définie MeetingUxUseCdn sur True. Pour que cela fonctionne, Skype Entreprise Server 2015 doit avoir la mise à jour cumulative 7, 6.0.9319.534 ou ultérieure. Voir Activer Skype l’application Réunions pour remplacer Application Web Skype Entreprise [dans Skype Entreprise Server 2015.](https://support.microsoft.com/kb/4132312)
 
 
 ## <a name="see-also"></a>Voir aussi

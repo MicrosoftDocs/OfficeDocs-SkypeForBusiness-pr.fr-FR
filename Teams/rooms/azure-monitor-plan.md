@@ -9,22 +9,22 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: Cet article décrit la planification de l’utilisation du moniteur Azure pour administrer Salles Microsoft Teams appareils dans votre entreprise ou Skype Entreprise en Teams’implémentation.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 2808d424d79d8d2b60af0573678ee18d0a52bdeb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505412"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619360"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planifier la Salles Microsoft Teams gestion des données à l’aide d’Azure Monitor
  
- Cet article décrit la planification de l’utilisation du moniteur Azure pour administrer Salles Microsoft Teams appareils dans Microsoft Teams ou Skype Entreprise implémentation.
+ Cet article décrit la planification de l’utilisation du moniteur Azure pour administrer Salles Microsoft Teams appareils à l’échelle de Microsoft Teams ou Skype Entreprise’implémentation.
   
 [Azure Monitor](/azure/azure-monitor/overview) est un ensemble de services de gestion conçus dans le cloud depuis le début. Plutôt que de déployer et de gérer des ressources sur site, les composants du moniteur Azure sont entièrement hébergés dans Azure. La configuration est minimale et vous pouvez être opérationnel littéralement en quelques minutes. Grâce à certaines opérations de personnalisation, elle peut vous aider à gérer les systèmes de conférence Salles Microsoft Teams en fournissant des notifications en temps réel concernant l’état ou les défaillances du système pour les systèmes de salle individuels, et peut potentiellement augmenter jusqu’à la gestion de milliers de salles de conférence Salles Microsoft Teams.
   
@@ -38,7 +38,7 @@ L’Salles Microsoft Teams sur l’appareil de la console écrit les événement
   
 Une fois configurée correctement, l’analyse journal analyse la charge utile JSON incorporée dans les descriptions des événements pour décrire le fonctionnement de chaque système Salles Microsoft Teams et les pannes détectées. 
   
-Un administrateur qui utilise un moniteur Azure peut recevoir des notifications concernant les systèmes Salles Microsoft Teams hors connexion ou qui rencontrent des problèmes d’application, de connectivité ou de matériel, ainsi que pour savoir si un système doit être redémarré. Chaque état du système est fréquemment mis à jour, de sorte que ces notifications sont proches des mises à jour en temps réel.
+Un administrateur qui utilise le moniteur Azure peut recevoir des notifications concernant les systèmes Salles Microsoft Teams hors connexion ou qui rencontrent des problèmes d’application, de connectivité ou de matériel, ainsi que pour savoir si un système doit être redémarré. Chaque état du système est fréquemment mis à jour, de sorte que ces notifications sont proches des mises à jour en temps réel.
   
 ## <a name="azure-monitor-requirements"></a>Azure Monitor requirements
 

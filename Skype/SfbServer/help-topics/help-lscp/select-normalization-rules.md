@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceDialPlanSelNormRule
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 description: Les règles de normalisation utilisent .NET Framework expressions régulières pour traduire les numéros de téléphone composés au format E.164. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: 5d6c8660191d381337f64a989ba96a5185e8362505a38b43dda2d523309e858f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9ef7fb28665503351af1a04ae6db4b7943536c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346840"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619050"
 ---
 # <a name="select-normalization-rules"></a>Sélectionner des règles de normalisation
  

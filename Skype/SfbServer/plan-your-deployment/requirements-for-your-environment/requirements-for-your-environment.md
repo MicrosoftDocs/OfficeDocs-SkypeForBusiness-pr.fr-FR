@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 'Résumé : Plan des rubriques relatives aux exigences en matière de systèmes et de réseau ou d’infrastructure pour Skype Entreprise Server 2015. Si vous avez besoin d’installer ou de configurer quoi que ce soit comme condition préalable à l’installation et au déploiement Skype Entreprise Server 2015, ce sera ici.'
-ms.openlocfilehash: 105b2431531f60234621e2ffa18eaaab737fd43dfca1682e08b815ea4a08fabc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fef1ea11641ad6e5732781e264dc369fa34f042d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306705"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601309"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Conditions requises pour Skype Entreprise environnement 2015
  

@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
@@ -48,7 +48,7 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
       summary: 'Connecter vos systèmes, renforcer l’automatisation et offrir aux utilisateurs des expériences améliorées en mettant à la place les applications dont votre organisation dépend pour Teams.'
       url: 'https://aka.ms/ChalkTalkKeyApps'
-    - title: Renforcez les possibilités de votre personnel en avant-plan grâce à Teams
+    - title: Renforcez les possibilités de 100 % de votre personnel en avant-première grâce à Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
       summary: 'Découvrez les meilleures pratiques pour planifier et implémenter des expériences simplifiées pour les conversations productives, le partage d’informations et la gestion de la planification pour vos employés en ligne.'
       url: 'https://aka.ms/TeamsFLW'

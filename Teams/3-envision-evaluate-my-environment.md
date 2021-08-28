@@ -12,19 +12,19 @@ ms.reviewer: rowille
 description: Utilisez des personnage et une analyse du réseau pour évaluer la disponibilité de votre organisation, ouvrir les ports TCP et UDP corrects, et effectuer des corrections réseau.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2498d634bda4760d34b6d76762312e56ae51efe4ea08a9b42b875ac250759403
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635088"
 ---
 # <a name="evaluate-my-environment"></a>Évaluer mon environnement
 
@@ -69,7 +69,7 @@ Utilisez les considérations suivantes pour évaluer la préparation de votre or
 <table>
 <tr><td>Titre</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Avez-vous déjà réussi avec l’adoption des logiciels ou services par les utilisateurs ?</li><li>Pouvez-vous suivre l’utilisation insérez-vous ?</li><li>Avez-vous les ressources nécessaires pour concevoir et gérer une campagne d’adoption initiale et en cours &mdash; &mdash; (sensibilisation, formation et support) ?</li><li>Disposez-vous d’une équipe dédiée d’adoption ou de gestion des changements des utilisateurs, ou pouvez-vous investir dans ces ressources pour garantir des résultats d’entreprise ?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Si vous avez répondu oui à toutes les réponses ci-dessus, identifiez les parties prenantes concernées pour la gestion du changement d’utilisateur et commencez votre planification de &quot; &quot; disponibilité des utilisateurs.</li><li>Si vous avez répondu non à tout ou partie des questions &quot; ci-dessus, songez à faire participer des ressources externes pour contribuer à la gestion du changement et aux activités d’adoption pour &quot; votre organisation.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Si vous avez répondu oui à toutes les réponses ci-dessus, identifiez les parties prenantes concernées pour la gestion du changement d’utilisateur et commencez votre planification de &quot; &quot; disponibilité des utilisateurs.</li><li>Si vous avez répondu non à tout ou partie des réponses &quot; ci-dessus, songez à faire participer des ressources externes pour contribuer à la gestion du changement et aux activités d’adoption pour &quot; votre organisation.</li></ol></td></tr>
 </table>
 
 
@@ -124,7 +124,7 @@ L’optimisation du chemin réseau vers le réseau global de Microsoft améliore
 ### <a name="vpn"></a>VPN
 
 Les VPN fournissent un service de valeur à de nombreuses organisations. Malheureusement, ils ne sont généralement pas conçus ou configurés pour prendre en charge les médias en temps réel. Certains VPN peuvent également ne pas prendre en charge UDP. Les VPN offrent également une phase supplémentaire de chiffrement au-dessus du trafic multimédia déjà chiffré. De plus, la connectivité au service Teams peut ne pas être efficace en raison de l’épinglage de cheveux via un appareil VPN.
-De plus, ils ne sont pas nécessairement conçus dans une perspective de capacité pour tenir compte des charges Teams à prévoir.
+De plus, elles ne sont pas nécessairement conçues du point de vue de la capacité pour tenir compte des charges Teams à prévoir.
 
 La recommandation est de fournir un chemin alternatif qui contourne le VPN pour le trafic de Teams. Ce réseau privé virtuel (VPN) est communément appelé *VPN avec tunnel fractionnel.* La tunnellation fractionnée signifie que le trafic pour Microsoft 365 ou Office 365 ne traversera pas le VPN, mais qu’il sera directement Microsoft 365 ou Office 365. Cette modification aura un impact positif sur la qualité, mais offre également l’avantage secondaire de réduire la charge provenant des appareils VPN et du réseau de l’organisation.
 
@@ -140,7 +140,7 @@ Plusieurs facteurs sont pris en compte pour optimiser un Wi-Fi réseau :
 
 -   Planifiez et optimisez les bandes Wi-Fi et le placement des points d’accès. La gamme de 2,4 GHz peut fournir une expérience adéquate en fonction de l'emplacement des points d'accès, mais les points d'accès sont souvent affectés par d'autres appareils grand public qui fonctionnent dans cette gamme. La gamme de 5 GHz est mieux adaptée aux médias en temps réel en raison de leur portée dense, mais nécessite plus de points d'accès pour obtenir une couverture suffisante. Les points de terminaison doivent également prendre en charge cette plage et être configurés pour exploiter ces bandes en conséquence.
 
--   Si des réseaux à Wi-Fi bande double sont déployés, songez à implémenter la stratégie de bande. La politique de bande est une technique implémentée par les Wi-Fi en place pour influencer les clients à double bande pour utiliser la plage à 5 GHz.
+-   Si des réseaux à Wi-Fi à bande double sont déployés, songez à implémenter la stratégie de bande. La politique de bande est une technique implémentée par les Wi-Fi en place pour influencer les clients à double bande pour utiliser la plage à 5 GHz.
 
 -   Lorsque les points d’accès du même canal sont trop proches les uns des autres, ils peuvent entraîner un chevauchement du signal et une concurrence involontaire, ce qui peut entraîner une mauvaise expérience pour l’utilisateur. Veillez à ce que les points d'accès voisins se trouvent sur des canaux qui ne se superposent pas.
 
@@ -164,7 +164,7 @@ En cas de déploiement d’un serveur proxy, nous vous recommandons d’ignorer 
 
 ## <a name="test-the-network"></a>Tester le réseau
 
-Une fois que vous avez terminé votre planification et la préparation du réseau (mise à niveau de la bande passante et ouverture de ports dans le pare-feu), vous devez tester les performances de votre réseau. Les résultats de ces tests clairement images de l’optimisation ou des corrections réseau requises pour la réussite de votre audioconférence ou de votre Système téléphonique avec l’implémentation d’un plan d’appel.
+Une fois que vous avez terminé votre planification et la préparation du réseau (mise à niveau de la bande passante et ouverture de ports dans le pare-feu), vous devez tester les performances de votre réseau. Les résultats de ces tests pictureront une image plus claire de l’optimisation ou des corrections réseau requises pour la réussite de votre audioconférence ou de votre Système téléphonique avec l’implémentation du Plan d’appel.
 
 Vous pouvez télécharger [l’outil Skype Entreprise d’évaluation](https://www.microsoft.com/download/details.aspx?id=53885) du réseau pour vérifier si votre réseau est prêt à Teams. L’outil offre deux fonctionnalités : il peut tester l’ouverture de tous les ports corrects et la possibilité de tester la déficience du réseau.
 
@@ -206,7 +206,7 @@ Notez que les deux segments doivent répondre aux exigences requises pour un dé
 
 ## <a name="network-remediation"></a>Correction du réseau
 
-Si les résultats de la planification de la bande passante, du test des ports ou du test de la exigences réseau montrent que votre réseau actuel nécessite une correction avant de déployer Teams, vous pouvez effectuer ceci de plusieurs façons :
+Si les résultats de la planification de la bande passante, du test des ports ou du test de la exigences réseau montrent que votre réseau actuel a besoin de corrections avant de déployer Teams, vous pouvez effectuer ceci de plusieurs façons :
 
 -   Pour une bande passante insuffisante, vous pouvez mettre à niveau les connexions de sorte que le trafic vers Microsoft 365 ou Office 365 flux sans encombre.
 
@@ -224,7 +224,7 @@ Pour plus d’informations, [voir Qualité de service dans Microsoft Teams.](./q
 <table>
 <tr><td>Titre</td><td>Description</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Qui vous aurez la responsabilité d’effectuer les analyses réseau correctes sur tous les segments réseau et tous les emplacements de l’organisation ?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une évaluation détaillée du réseau pour vous assurer que votre réseau est prêt pour Microsoft Teams déploiement.</li><li>Effectuez des corrections réseau basées sur les résultats de l’analyse pour chaque segment réseau.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Vous pouvez effectuer une évaluation détaillée du réseau pour vous assurer que votre réseau est prêt pour Microsoft Teams déploiement.</li><li>Effectuez des corrections réseau basées sur les résultats de l’évaluation pour chaque segment réseau.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

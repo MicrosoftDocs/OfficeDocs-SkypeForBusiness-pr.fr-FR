@@ -13,21 +13,21 @@ ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Informations sur l’outil Skype Entreprise Server de planification de vue d’ensemble des fonctionnalités.
-ms.openlocfilehash: 3729efd7269680ae9186cf498eb7df21fe1abc959344fac2207a6bd5e02e3903
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 74436290cfade5993a466b1e444d81a256e5882e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338292"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618870"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype Entreprise Server Outil de planification de vue d’ensemble des fonctionnalités
  
 outil de planification Skype Entreprise Server 2015
   
-Vous pouvez utiliser la page **Sites centraux** de l’outil de planification pour concevoir le Skype Entreprise Server déploiement. Vous pouvez créer deux déploiements centralisés ou distribués. Un déploiement centralisé ne possède qu’un seul site central, qui Skype Entreprise tous les utilisateurs de votre organisation. Un déploiement distribué possède plusieurs sites centraux. Si vous déployez Skype Entreprise Server sites centraux, vous entrez le nombre d’utilisateurs sur chaque site central dans l’outil de planification.
+Vous pouvez utiliser la page **Sites centraux** de l’outil de planification pour concevoir le Skype Entreprise Server déploiement. Vous pouvez créer deux déploiements centralisés ou distribués. Un déploiement centralisé ne possède qu’un seul site central, qui Skype Entreprise tous les utilisateurs de votre organisation. Un déploiement distribué possède plusieurs sites centraux. Si vous déployez Skype Entreprise Server sur plusieurs sites centraux, vous entrez le nombre d’utilisateurs sur chaque site central dans l’outil de planification.
   
 Pour terminer la définition du site central, vous devez d’abord fournir les informations suivantes :
   
@@ -47,7 +47,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
   
 - **Messagerie instantanée et présence**
     
-    La messagerie instantanée permet aux utilisateurs de communiquer les uns avec les autres en temps réel sur leurs ordinateurs à l’aide de messages texte. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. La présence fournit des informations aux utilisateurs sur l’état d’autres personnes sur le réseau. Le statut de présence d’un utilisateur fournit des informations pour aider d’autres personnes à déterminer si l’utilisateur est en ligne et comment contacter au mieux l’utilisateur. Par exemple, il est préférable de contacter un utilisateur qui se trouve dans une réunion par courrier électronique.
+    La messagerie instantanée permet aux utilisateurs de communiquer les uns avec les autres en temps réel sur leurs ordinateurs à l’aide de messages texte. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. La présence fournit des informations aux utilisateurs sur l’état d’autres personnes sur le réseau. Le statut de présence d’un utilisateur fournit des informations pour aider d’autres personnes à déterminer si l’utilisateur est en ligne et comment le contacter au mieux. Par exemple, il est préférable de contacter un utilisateur qui se trouve dans une réunion par courrier électronique.
     
 - **Conférence audio et vidéo**
     
@@ -83,7 +83,7 @@ Les autres éléments ont été remplis avec les réponses que vous avez fournie
     
 - **Mobilité**
     
-    Lorsque vous déployez le service de mobilité Skype Entreprise Server 2015, les utilisateurs peuvent utiliser les appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pris en charge pour effectuer des activités telles que l’envoi et la réception de messages instantanés, l’affichage de contacts et l’affichage de la présence.
+    Lorsque vous déployez le service de mobilité Skype Entreprise Server 2015, les utilisateurs peuvent utiliser les appareils mobiles Apple iOS, Android, Windows Phone ou Nokia pris en charge pour effectuer des activités telles que l’envoi et la réception de messages instantanés, l’affichage des contacts et l’affichage de la présence.
     
 - **Boîte aux lettres Exchange W15**
     

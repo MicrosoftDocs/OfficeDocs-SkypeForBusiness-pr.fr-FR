@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-description: Voix Entreprise base de la planification des Skype Entreprise Server, notamment les sites, les régions, les liens réseau entre les sites et l’estimation du trafic d’utilisation vocale.
-ms.openlocfilehash: 0989fb3fad94a7bb376ee009d4a387b5148965f644c793f65eeb511260c9d620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Voix Entreprise base de la planification des Skype Entreprise Server, notamment les sites, les régions, les liens réseau entre les sites et l’estimation du trafic d’utilisation de la voix.
+ms.openlocfilehash: bfd7d4b1491b83c6ad3ab65836777e805689c21f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320017"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618810"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planifier les Voix Entreprise dans Skype Entreprise Server
  
-Voix Entreprise base de la planification des Skype Entreprise Server, notamment les sites, les régions, les liens réseau entre les sites et l’estimation du trafic d’utilisation vocale.
+Voix Entreprise base de la planification des Skype Entreprise Server, notamment les sites, les régions, les liens réseau entre les sites et l’estimation du trafic d’utilisation de la voix.
   
-Le processus de déploiement Voix Entreprise dépend de votre topologie, de votre infrastructure et de la fonctionnalité Voix Entreprise que vous souhaitez prendre en charge. Les procédures requises dépendront des fonctionnalités que vous choisirez, mais vous devrez tenir compte d’autres facteurs pour la planification à un niveau supérieur.
+Le processus de déploiement Voix Entreprise dépend de votre topologie, de votre infrastructure et de la Voix Entreprise que vous souhaitez prendre en charge. Les procédures requises dépendront des fonctionnalités que vous choisirez, mais vous devrez tenir compte d’autres facteurs pour la planification à un niveau supérieur.
   
 En règle générale, tenez compte du type et du nombre de sites que vous voulez déployer et de leur emplacement géographique, du volume d’appels sur chaque site, des types de liens réseaux qui relient les sites, si vous souhaitez offrir la redondance et le basculement pour la fonctionnalité voix pour chaque site, et enfin si vous voulez utiliser l’équipement PBX existant. Il existe certaines considérations, telles que la haute disponibilité, que vous devez prendre en compte lorsque vous planifiez l’Skype Entreprise Server dans son ensemble. Ces considérations sont traitées dans les rubriques de cette section, selon les besoins.
   

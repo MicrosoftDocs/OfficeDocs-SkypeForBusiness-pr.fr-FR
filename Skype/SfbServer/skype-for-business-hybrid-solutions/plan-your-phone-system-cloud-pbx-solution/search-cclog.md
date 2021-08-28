@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: La cmdlet Search-CcLog recherche les journaux des appels entrants et sortants dans Skype Entreprise Cloud Connector Edition répertoire des journaux de l’appliance.
-ms.openlocfilehash: 5fd062295ac9145660ca9a53f56973f77783cd9730993d958c7348b7761c4387
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b96e0bea7c8a7ac9d3a12c135c828440eea9fb32
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618690"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
@@ -69,7 +69,7 @@ Aucun. La cmdlet Search-CcLog n’accepte pas la saisie de données pipeline.
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Néant
+Aucun
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

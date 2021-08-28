@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: d7f7863a6f1a7ccc6310b8b60f7fc7cc233c29d500d01c06d6143489705306f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015.'
+ms.openlocfilehash: 265065a5b4ff52dc65dccb4b0e045e3d9e21c452
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601879"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
  
@@ -44,7 +44,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
     a. activer la mise en miroir pour la base de données primaire ;
     
-    b. Ajoutez le magasin SQL Server miroir principal.
+    b. Ajoutez le miroir principal SQL Server magasin.
     
     c. Activez la base SQL Server de livraison des journaux de bord.
     
@@ -54,7 +54,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
     f. Publiez la topologie.
     
-## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journaux de serveurs de conversation permanente pour la base de données principale du serveur de conversation permanente
+## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journal pour la base de données principale du serveur de conversation permanente
 
 À l’SQL Server Management Studio, connectez-vous à l’instance de base de données de livraison de journaux secondaire du serveur de conversation permanente et assurez-vous que SQL Server Agent est en cours d’exécution. Connectez-vous ensuite à l’instance de base de données principale de conversation permanente et effectuez les étapes suivantes :
   
@@ -152,7 +152,7 @@ Effectuez les étapes suivantes pour que la livraison des journaux de bord conti
 20. Sélectionnez et exécutez la première moitié de la requête (voir l’étape 18) jusqu’à la ligne : -- Fin : script à exécuter au niveau \* \* \* \* \* \* principal : \* \* \* \* \* \* .
     
     > [!IMPORTANT]
-    > L’exécution manuelle de ce script est nécessaire, SQL Server Management Studio ne prend pas en charge plusieurs bases de données primaires dans une configuration SQL Server’envoi de journaux de bord. 
+    > L’exécution manuelle de ce script est nécessaire, car SQL Server Management Studio ne prend pas en charge plusieurs bases de données principales dans une configuration SQL Server’envoi de journaux de bord. 
   
 21. Sélectionnez **Annuler** pour fermer le panneau de configuration de copie des journaux de transaction et établir une configuration de travail qui implémente correctement la copie des journaux de transaction pour la base de données primaire et la base de données en miroir (en cas de basculement).
     

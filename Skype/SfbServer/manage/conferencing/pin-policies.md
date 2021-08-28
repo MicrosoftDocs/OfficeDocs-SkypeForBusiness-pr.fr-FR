@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Résumé : Découvrez comment gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: d803e7d21be9743704402e2d9532fcfee413d804296cade2e56cbb875c965361
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03f18a74045c7ea2af4ec3a80b25e65b3c2c5cb6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343438"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618840"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server
  
@@ -90,7 +90,7 @@ Vous pouvez modifier la stratégie de code confidentiel globale à l’Skype Ent
     
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier la stratégie globale de code confidentiel des conférences téléphoniques à l’aide Skype Entreprise Server Management Shell
 
-Pour modifier la stratégie globale de code confidentiel des conférences téléphoniques, utilisez l’cmdlet **Set-CsPinPolicy.**
+Pour modifier la stratégie globale de code confidentiel de conférence téléphonique, utilisez l’cmdlet **Set-CsPinPolicy.**
   
 La commande suivante modifie la valeur de MinPasswordLength pour toutes les stratégies de code confidentiel configurées pour être utilisés dans l’organisation. Pour ce faire, la commande appelle d’abord l’cmdlet **Get-CsPinPolicy** sans paramètre afin de récupérer une collection de toutes les stratégies de code confidentiel existantes. Cette collection est ensuite canalée vers l’cmdlet **Set-CsPinPolicy,** qui modifie la valeur de la propriété MinPasswordLength pour chaque stratégie de la collection :
   

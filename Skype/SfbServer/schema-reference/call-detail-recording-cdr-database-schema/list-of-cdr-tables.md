@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Le schéma de base de données de l’enregistrement des détails des appels comprend les tables suivantes.
-ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635128"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste des tables d’Skype Entreprise Server 2015
  
@@ -26,7 +26,7 @@ Le schéma de base de données de l’enregistrement des détails des appels com
   
 ## <a name="static-tables"></a>Tables statiques
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table CallPriorities dans Skype Entreprise Server 2015](callpriorities.md) <br/> |Stocke la liste des priorités d’appel possibles, telles que les appels très urgents, urgents, normaux, non urgents, etc.  <br/> |
 |[Table ConferenceJoinTimeThresholds dans Skype Entreprise Server 2015](conferencejointimethresholds.md) <br/> |Stocke les limites de classification utilisées par le rapport du temps de connexion à la conférence.  <br/> |
@@ -38,7 +38,7 @@ Le schéma de base de données de l’enregistrement des détails des appels com
    
 ## <a name="supporting-tables"></a>Tables de prise en charge
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table ClientVersions dans Skype Entreprise Server 2015](clientversions.md) <br/> |Stocke les clients (à la fois le type de client et le numéro de version) de chaque client impliqué dans un appel comprenant des informations capturées dans cette base de données.  <br/> |
 |[Table ConferenceUris dans Skype Entreprise Server 2015](conferenceuris.md) <br/> |Stocke une liste de ConferenceURI qui sont utilisés dans les appels relatifs à la conférence.  <br/> |
@@ -61,7 +61,7 @@ Le schéma de base de données de l’enregistrement des détails des appels com
    
 ## <a name="tables-specific-to-conference-cdr-records"></a>Tables spécifiques aux enregistrements des détails des appels de conférence
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table Conferences in Skype Entreprise Server 2015](conferences.md) <br/> |Stocke des informations sur toutes les conférences qui ont été archivées ou dont les détails ont été enregistrés, notamment le ConferenceURI, et l’heure de début et de fin.  <br/> |
 |[Table ConferenceSessionDetails dans Skype Entreprise Server 2015](conferencesessiondetails-0.md) <br/> |Stocke des informations sur chaque session de conférence fondée sur le protocole SIP, notamment l’heure de début et de fin, l’ID utilisateur, le code de réponse et l’ID de diagnostic pour chaque session.  <br/> |
@@ -70,14 +70,14 @@ Le schéma de base de données de l’enregistrement des détails des appels com
    
 ## <a name="tables-for-messages-in-im-conferences"></a>Tables des messages dans les conférences de messagerie instantanée
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table ConferenceMessageCount dans Skype Entreprise Server 2015](conferencemessagecount.md) <br/> |Pour chaque conférence de messagerie instantanée, stocke le nombre de messages qui ont été envoyés par chaque utilisateur.  <br/> |
 |[Table IMReportSummary dans Skype Entreprise Server 2015](imreportsummary.md) <br/> |Fournit un rapport global sur les sessions de messagerie instantanée ouvertes dans une organisation.  <br/> |
    
 ## <a name="tables-for-peer-to-peer-sessions"></a>Tables des sessions d’égal à égal
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table SessionDetails](sessiondetails.md) <br/> |Stocke des informations sur chaque session d’égal à égal, notamment l’heure de début et de fin, l’ID utilisateur, le code de réponse et le nombre de messages pour chaque utilisateur.  <br/> |
 |[Table FileTransfers dans Skype Entreprise Server 2015](filetransfers-0.md) <br/> |Stocke des informations sur les sessions de transfert de fichiers, notamment le nom de fichier et le résultat (accepté, rejeté ou annulé).  <br/> |
@@ -85,16 +85,16 @@ Le schéma de base de données de l’enregistrement des détails des appels com
    
 ## <a name="table-for-voip-call-details"></a>Table des détails des appels VoIP
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table VoipDetails](voipdetails-0.md) <br/> |Pour chaque appel VoIP/PSTN à deux utilisateurs, stocke des informations sur l’appel, telles que l’ID téléphonique du téléphone VoIP, la passerelle utilisée, et quel participant a été déconnecté. Fait référence à la [table SessionDetails pour les](sessiondetails.md) heures de début/fin des appels et le code de réponse. <br/> |
    
 > [!NOTE]
-> Si l’un des participants à l’appel est un utilisateur VoIP ou si un serveur de médiation a été impliqué dans cet appel, un enregistrement sera créé dans cette table. Les informations sur les appels VoIP/VoIP n’impliquant pas de téléphone PSTN (réseau téléphonique commuté) sont capturées dans la [table SessionDetails](sessiondetails.md). 
+> Si l’un des participants à l’appel est un utilisateur VoIP ou si un serveur de médiation a été impliqué dans cet appel, un enregistrement sera créé dans cette table. Les informations sur les appels VoIP/VoIP qui n’impliquent pas de téléphone PSTN (réseau téléphonique commuté) sont capturées dans la [table SessionDetails](sessiondetails.md). 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>Table pour l’audit d’appel E9-1-1
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table Locations dans Skype Entreprise Server 2015](locations.md) <br/> |Pour chaque appel très urgents, tel que l’appel Enhanced 9-1-1 (E9-1-1), stocke les informations d’emplacement concernant l’appel. Fait référence à la [table SessionDetails pour les](sessiondetails.md) heures de début/fin des appels et le code de réponse. <br/> |
    
@@ -103,11 +103,11 @@ Le schéma de base de données de l’enregistrement des détails des appels com
   
 ## <a name="tables-for-troubleshooting"></a>Tables de dépannage
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table Application dans Skype Entreprise Server 2015](application.md) <br/> |Stocke des informations sur différents processus Skype Entreprise Server 2015 impliqués dans le routage et les connexions.  <br/> |
 |[Table CallType dans Skype Entreprise Server 2015](calltype.md) <br/> |Stocke des informations sur les types d’appel, tels que « audio », « Messagerie instantanée », « audio et vidéo » et « partage d’application ».  <br/> |
-|[Table ErrorCategory dans Skype Entreprise Server 2015](errorcategory.md) <br/> |Stocke le nom convivial de chaque classification Skype Entreprise Server diagnostic 2015.  <br/> |
+|[Table ErrorCategory dans Skype Entreprise Server 2015](errorcategory.md) <br/> |Stocke le nom convivial de chaque classification de diagnostic Skype Entreprise Server 2015.  <br/> |
 |[Table ErrorDef dans Skype Entreprise Server 2015](errordef.md) <br/> |Stocke des informations sur les types d’erreurs et leurs définitions.  <br/> |
 |[Table ErrorReport dans Skype Entreprise Server 2015](errorreport.md) <br/> |Stocke des informations sur les erreurs qui se sont produites.  <br/> |
 |[Table ProgressReport](progressreport.md) <br/> |Stocke des informations sur les rapports d’avancement des différentes étapes Skype Entreprise Server processus 2015.  <br/> |
@@ -116,7 +116,7 @@ Les tableaux de la liste suivante sont utilisés en interne Skype Entreprise Ser
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>Tables destinées à une utilisation interne par Lync Server
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |À usage interne uniquement.  <br/> |
 |**DbConfigInt** <br/> |À usage interne uniquement.  <br/> |

@@ -10,23 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 description: tblPrincipalMemberDifference contient les modifications d’appartenance aux groupes (membres ajoutés et supprimés) qui n’ont pas encore été traitées par les étapes de synchronisation des services de domaine Active Directory ultérieures.
-ms.openlocfilehash: c1d5a0d492d228b5a8292fde608fbd66c3b586c393aba8eb5bc0fbbddd45a5e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c59e99ce43b6e0dfa5a41f4bfc515aa8a95ed958
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276579"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601279"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
 tblPrincipalMemberDifference contient les modifications d’appartenance aux groupes (membres ajoutés et supprimés) qui n’ont pas encore été traitées par les étapes de synchronisation des services de domaine Active Directory ultérieures.
   
-**Columns**
+**Colonnes**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinGuid  <br/> |GUID, non null  <br/> |GUID principal du groupe qui a été modifié.  <br/> |
 |memberADPath  <br/> |nvarchar (256)  <br/> |Nom unique du membre.  <br/> |

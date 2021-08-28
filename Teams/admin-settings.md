@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang
 description: Découvrez les stratégies et paramètres que vous pouvez utiliser pour gérer les applications pour votre organisation dans Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e208f4a8807da6b5a28f79bdcd5cb818483f867767b5371d0b2c7fc0ea40a7f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f53de9b5cd8d7ef4cb4df29afeac43f73187519b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314310"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635038"
 ---
 # <a name="admin-settings-for-apps-in-microsoft-teams"></a>Paramètres d'administration pour les applications dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Les applications offrent à votre organisation des outils pré-pratiques qui per
 
 Vous gérez les applications pour votre organisation dans **Teams dans** le Centre d’administration. (Voir [Utiliser Teams rôles](./using-admin-roles.md) d’administrateur pour gérer Teams pour en savoir plus sur l’obtention des rôles et autorisations d’administrateur.) Par exemple, vous pouvez autoriser ou bloquer des applications au niveau de l’organisation, définir des stratégies pour contrôler quelles applications sont disponibles pour les utilisateurs de Teams et personnaliser des Teams en épinglageant les applications les plus importantes pour vos utilisateurs.
 
-Nous améliorons continuellement l’expérience des applications dans le Teams en ajoutant des fonctionnalités et des fonctionnalités. Au fil du temps, nous allons créer des fonctionnalités de gestion des applications supplémentaires. Vérifiez donc que vous avez besoin des informations les plus à jour sur les stratégies d’application.
+Nous améliorons continuellement l’expérience des applications dans le Teams en ajoutant des fonctionnalités et des fonctionnalités. Au fil du temps, nous allons créer des fonctionnalités de gestion des applications supplémentaires. Vérifiez donc si vous avez besoin des informations les plus à jour sur les stratégies d’application.
 
 ## <a name="manage-apps"></a>Gérer les applications
 
@@ -64,7 +64,7 @@ Les stratégies de configuration d’application vous personnalisationnt pour vo
 
 Voici quelques exemples d’utilisation des stratégies de configuration d’application :
 
-- Sens de la connaissance et de l’adoption des applications principales. Par exemple, épinglez une application personnalisée de recrutement et de gestion des talents pour les utilisateurs de votre équipe RH.
+- Faire connaître et adoption des applications de base. Par exemple, épinglez une application personnalisée de recrutement et de gestion des talents pour les utilisateurs de votre équipe RH.
 - Épinglez de manière sélective les Teams principales, telles que la conversation instantanée, Teams et les appels. Cette action permet de s’assurer que les utilisateurs participent à des activités spécifiques au sein Teams.
 
 Pour en savoir plus, consultez gérer [les stratégies de configuration d’application dans Teams.](teams-app-setup-policies.md)

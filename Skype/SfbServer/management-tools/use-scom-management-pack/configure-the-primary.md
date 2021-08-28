@@ -10,28 +10,28 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Résumé : Configurez votre serveur de gestion principal, installez System Center Operations Manager et importez des packs d’administration pour Skype Entreprise Server 2015.'
-ms.openlocfilehash: c9a55c44dddbe542fc53e9e047d1309a02bacfaaceee04920d5b63a1f7e25e79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635258"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Comment configurer le serveur d’administration principal
 
 **Résumé :** Configurez votre serveur de gestion principal, installez System Center Operations Manager et importez des packs d’administration pour Skype Entreprise Server 2015.
 
-Pour tirer pleinement parti des nouvelles fonctionnalités d’analyse d’état incluses dans Skype Entreprise Server 2015, vous devez d’abord désigner un ordinateur qui jouera le rôle de serveur de gestion principal. Vous devez ensuite installer System Center Operations Manager 2012 SP1 ou R2 ou System Center Operations Manager 2007 R2 sur cet ordinateur. En outre, vous devez d’abord installer une version prise en charge de SQL Server pour fonctionner en tant que base de données principale Operations Manager.
+Pour tirer pleinement parti des nouvelles fonctionnalités d’analyse d’état incluses dans Skype Entreprise Server 2015, vous devez d’abord désigner un ordinateur qui jouera le rôle de serveur de gestion principal. Vous devez ensuite installer System Center Operations Manager 2012 SP1 ou R2 ou System Center Operations Manager 2007 R2 sur cet ordinateur. En outre, vous devez d’abord installer une version prise en charge de SQL Server pour qu’elle fonctionne comme votre base de données principale Operations Manager.
 
 Lorsque vous installez System Center Operations Manager, vous devez installer tous les composants de ce produit, notamment :
 
 - Base de données opérationnelle
 
-- Server
+- Serveur
 
 - Console
 
@@ -98,7 +98,7 @@ Vous pouvez utiliser l’un des outils suivants pour importer les packs d’admi
 
 ## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importation des packs d’administration à l’aide du interpréteur de commandes d’Operations Manager
 
-En règle générale, il est plus facile d’importer les packs d’administration à l’aide de la console Operations Manager. Toutefois, si une erreur se produit et que l’importation échoue, la console ne fournit pas toujours de rapports d’erreurs adéquats. En comparaison, le interpréteur de commandes d’Operations Manager fournit des informations détaillées. Si vous utilisez Operations Manager et que vous rencontrez des problèmes lors de l’importation d’un pack d’administration, importez-le à l’aide du interpréteur de commandes d’Operations Manager. Les informations fournies par interpréteur de commandes d’Operations Manager peuvent vous aider à déterminer pourquoi l’importation a échoué.
+En règle générale, il est plus facile d’importer les packs d’administration à l’aide de la console Operations Manager. Toutefois, si une erreur se produit et que l’importation échoue, la console ne fournit pas toujours de rapports d’erreurs adéquats. En comparaison, le interpréteur de commandes d’Operations Manager fournit des informations détaillées. Si vous utilisez Operations Manager et que vous rencontrez des problèmes lors de l’importation d’un pack d’administration, importez-le à l’aide du interpréteur de commandes d’Operations Manager. Les informations fournies par interpréteur de commandes d’Operations Manager peuvent vous aider à déterminer la raison de l’échec de l’importation.
 
 1. Cliquez **sur** Démarrer, **sur** Tous les programmes, sur Microsoft **System Center 2012,** sur **Operations Manager,** puis sur **interpréteur de commandes d’Operations Manager**.
 
