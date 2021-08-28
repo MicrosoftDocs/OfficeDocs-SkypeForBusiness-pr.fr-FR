@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Découvrez les licences, les fonctionnalités des modules complémentaires, et comment acheter pour les offres Office 365 Entreprise, E1, E3 et E4. '
-ms.openlocfilehash: 16752a076b84bc8ad8fe65251732af65993cb73784e7589c275fd42ac71c4352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25f45b9bb84a572c23feb33972c39693695f69e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316450"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594798"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Entreprise E1, E3 et E4
 
@@ -42,7 +42,7 @@ Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.
 |**Messagerie vocale infonuagique**<sup>1</sup> |Pour les offres E1 et E4, achetez Exchange Online Plan 2 <br/>ou choisissez une suite Office fournie avec Exchange Online Plan 2, comme Office 365 E3. |
 |**Forfaits d’appel** |1. Module complémentaire **Système téléphonique** <br/> 2. [Forfait d’appels](/MicrosoftTeams/calling-plans-for-office-365) : vous ne pouvez l’acquérir qu’après avoir acheté le complément **Système téléphonique**. |
 
-<sup>1</sup> Pour les utilisateurs locaux. Pour plus d’informations, [voir Planifier Messagerie vocale infonuagique service pour les utilisateurs locaux.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
+<sup>1</sup> pour les utilisateurs locaux. Pour plus d’informations, [voir Planifier Messagerie vocale infonuagique service pour les utilisateurs locaux.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
    
 > [!IMPORTANT]
 > Office 365 Les licences E4 ont été officiellement retirées. Pour plus [d’informations, voir Office 365 Entreprise E4 vos](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) clients.
@@ -50,7 +50,7 @@ Si vous avez déjà acheté l'offre [Office 365 Entreprise E1](https://products.
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clients E1 et E3 : comment connaître les prix et procéder à l'achat
 <a name="bkmk_buypremium"> </a>
 
-1. Connectez-vous au centre d'administration.
+1. Connectez-vous au Centre d'administration.
 
 2. Accédez à **Facturation** > **Abonnements** > **Modules complémentaires** > **Acheter des modules complémentaires**.
 
@@ -72,9 +72,9 @@ L'offre E3 est comprise dans votre abonnement Action Pack. Pour acheter des modu
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Pourquoi l'option d'achat de compléments ne s'affiche-t-elle pas ?
 <a name="bkmk_how"> </a>
 
-Dans quelques situations, l’option d’achat de modules Skype Entreprise n’est pas disponible dans Centre d’administration Microsoft 365.
+Dans quelques situations, l’option d’achat de Skype Entreprise n’est pas disponible dans le Centre d’administration Microsoft 365.
 
-- **Vous avez acheté Microsoft 365 Business Standard via GoDaddy.** Dans ce cas, vous ne pouvez pas acheter de compléments de licence Skype Entreprise. Vous devez passer à l’offre E3 (que GoDaddy ne vend pas) et vous pouvez ensuite les acheter. [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Vous avez acheté Microsoft 365 Business Standard via GoDaddy.** Dans ce cas, vous ne pouvez pas acheter de compléments de licence Skype Entreprise. Vous devez passer à l’offre E3 (que GoDaddy ne vend pas), puis vous pouvez les acheter. [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Votre abonnement est mensuel, non annuel**. Dans certains cas, les clients ayant un engagement mensuel ne peuvent pas acheter de modules add-ons (c’est-à-dire différent du mode de paiement, qui peut être mensuel). Il s’agit d’un problème connu que nous sommes en train de résoudre. [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

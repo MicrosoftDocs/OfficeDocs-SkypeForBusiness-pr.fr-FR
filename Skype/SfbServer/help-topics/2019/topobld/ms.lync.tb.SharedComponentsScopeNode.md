@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cliquez avec le bouton droit sur Composants partagés dans l’arborescence de la hiérarchie du Générateur de topologie pour créer des composants partagés ou accéder aux options de niveau topologie.
-ms.openlocfilehash: 638f05c42aa08c172bbd7669d3876c0184b228fdbc2ca13767a5fdd99ebd5c26
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c88eb48da50648894cd1ede4bbcafa2357fc30bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616120"
 ---
 # <a name="shared-components-scope-node"></a>Nœud d’étendue des composants partagés
  
@@ -35,7 +35,7 @@ Sélectionnez **Nouveau** pour créer un magasin de fichiers, une passerelle IP/
   
 ![Nœud d’étendue des composants partagés](../../../media/Shared_Components_Scope_NodeB.jpg)
   
-Vous **sélectionnez Topologie pour** cliquer sur les options d’ouverture d’un document nouvelle topologie. Ouvrez un document de topologie existant, téléchargez la topologie actuelle à partir du magasin central de gestion, enregistrez une copie du document de topologie actuel, publiez le document de topologie actuel, installez la base de données pour créer les configurations de base de données actuellement configurées, fusionnez Office Communications Server 2007 R2 dans le déploiement actuel ou supprimez le déploiement.
+Vous **sélectionnez Topologie** pour cliquer sur les options d’ouverture d’un document nouvelle topologie. Ouvrez un document de topologie existant, téléchargez la topologie actuelle à partir du magasin central de gestion, enregistrez une copie du document de topologie actuel, publiez le document de topologie actuel, installez la base de données pour créer les configurations de base de données actuellement configurées, fusionnez Office Communications Server 2007 R2 dans le déploiement actuel ou supprimez le déploiement.
   
 ![Nœud d’étendue des composants partagés C](../../../media/Shared_Components_Scope_NodeC.jpg)
   

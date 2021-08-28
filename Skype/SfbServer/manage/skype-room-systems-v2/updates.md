@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: M365-voice
 ms.assetid: ''
 description: Gérer Windows mises à jour de Salles Microsoft Teams
-ms.openlocfilehash: 086e1c760fce14bc163a92021fee4e2e35694267cf4f8a8d3733f93f5e078106
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04572edd20c1c8e588b378ff3a225c103a58dff3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311072"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593608"
 ---
 # <a name="manage-windows-updates"></a>Gérer Windows mises à jour
 
@@ -48,6 +48,6 @@ Windows Les mises à jour peuvent être gérées de différentes manières :
 
 Contrairement aux mises à jour qualité et non reportables, Windows 10 « Mises à jour des fonctionnalités » (principales mises à jour du système d’exploitation) ne sera installée qu’après que Microsoft a effectué des tests et validé une fonctionnalité de mise à jour donnée avec Salles Microsoft Teams. Même s’il est publié sur le canal Semi-Annual (ou ciblé si vous avez des systèmes définies sur ce canal pour les tests) ou même manuellement poussées par vos propres tentatives ou configurations, il n’autorise pas l’installation tant que le bloc de notre côté n’est pas supprimé.
 
-Microsoft Teams La salle « out-of-box », à l’aide de l’approche pratique, n’installe pas une mise à jour Windows ou ne redémarre pas automatiquement un appareil en raison d’une mise à jour Windows. Toutefois, les systèmes peuvent télécharger une mise à jour et attendre le prochain redémarrage pour l’installer. Sauf si quelqu’un le redémarre manuellement, l’installation doit avoir lieu au redémarrage automatique de la nuit. Windows Les mises à jour doivent être transparentes dans la salle, l’interface utilisateur ne doit jamais être interrompue Windows mises à jour.
+Microsoft Teams La salle « out-of-box », à l’aide de l’approche mains libres, n’installe pas une mise à jour Windows ou ne redémarre pas automatiquement un appareil en raison d’une mise à jour Windows automatique. Toutefois, les systèmes peuvent télécharger une mise à jour et attendre le prochain redémarrage pour l’installer. Sauf si quelqu’un le redémarre manuellement, l’installation doit avoir lieu au redémarrage automatique de la nuit. Windows Les mises à jour doivent être transparentes dans la salle, l’interface utilisateur ne doit jamais être interrompue Windows mises à jour.
 
 Si vous choisissez de joindre un domaine, utilisez Microsoft Endpoint Configuration Manager ou WSUS, et veuillez prêter une attention particulière aux stratégies ou actions qui peuvent entraîner l’installation d’une mise à jour ou le forçage d’un redémarrage pendant les heures d’ouverture. Si vous avez des systèmes dans votre redémarrage de déploiement lors de l’utilisation ou des alertes sur les mises à jour Windows sur l’interface utilisateur, vous pouvez examiner votre configuration.

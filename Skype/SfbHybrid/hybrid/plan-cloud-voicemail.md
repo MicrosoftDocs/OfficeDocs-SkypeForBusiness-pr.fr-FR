@@ -9,19 +9,19 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Cet article décrit les avantages, les considérations relatives à la planification et les conditions requises pour l’Messagerie vocale infonuagique Microsoft service. Pour plus d’informations sur la configuration Messagerie vocale infonuagique, voir Configuring Messagerie vocale infonuagique.
-ms.openlocfilehash: 7a2fea02417a271e3858adff435a2406fda8c5ae
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407163"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594868"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planifier Messagerie vocale infonuagique service pour les utilisateurs locaux
 
-## <a name="overview"></a>Aperçu
+## <a name="overview"></a>Vue d’ensemble
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 

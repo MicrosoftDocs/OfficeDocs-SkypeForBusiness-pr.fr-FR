@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment utiliser les fonctionnalités d’unité d’administration dans Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93add1771e76f6640b6f1fde3ee6e732499aa329
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 556f220c9ca250f014ae604c96cabf9ef0b0ca0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399360"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636790"
 ---
 # <a name="administrative-unit-functionality-for-device-management-in-teams"></a>Fonctionnalités d’unité d’administration pour la gestion des appareils dans Teams
 

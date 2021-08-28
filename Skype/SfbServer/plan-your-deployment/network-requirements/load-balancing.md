@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Résumé : Examinez les considérations d’équilibrage de charge avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: 867c9454aec26e3803447dec8565f210b243db6cf5a2997d18ca08e363eb6c43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b47c87fa834de6b0a7b3ddddaf6493a9c95f363
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338072"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623586"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Exigences relatives à l’équilibrage de charge Skype Entreprise
  
@@ -132,7 +132,7 @@ La configuration requise de l’équilibreur de la charge matérielle des servic
    
 ### <a name="port-monitoring-for-hardware-load-balancers"></a>Surveillance des ports pour les programmes d’équilibrage de la charge matérielle
 
-Vous définissez la surveillance des ports sur les équilibreurs de la charge matérielle pour déterminer si des services spécifiques ne sont plus disponibles suite à des échecs matériel ou de communication. Par exemple, si le service de serveur frontal (RTCSRV) s’arrête en raison de l’échec du serveur frontal ou du pool frontal, la surveillance de l’programme d’programmes d’programmes d’émission de programmes d’émission de programmes d’urgence doit également cesser de recevoir du trafic sur les services Web. Vous implémentez la surveillance des ports sur le programme d’équilibrage de la charge matérielle pour surveiller les éléments suivants :
+Vous définissez la surveillance des ports sur les équilibreurs de la charge matérielle pour déterminer si des services spécifiques ne sont plus disponibles suite à des échecs matériel ou de communication. Par exemple, si le service de serveur frontal (RTCSRV) s’arrête en raison de l’échec du serveur frontal ou du pool frontal, la surveillance de l’programme d’programmes d’émission de programmes d’émission de programmes d’urgence doit également cesser de recevoir du trafic sur les services Web. Vous implémentez la surveillance des ports sur le programme d’équilibrage de la charge matérielle pour surveiller les éléments suivants :
   
 **Pool d’utilisateurs du serveur frontal - Interface interne HLB**
 
@@ -145,8 +145,8 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
 
 |**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Néant  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Néant  <br/> |HTTP  <br/> |
+|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucun  <br/> |HTTPS  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucun  <br/> |HTTP  <br/> |
    
 ## <a name="dns-load-balancing"></a>Équilibrage de charge DNS
 <a name="BKMK_DNSLoadBalancing"> </a>
@@ -165,7 +165,7 @@ En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des
   
 L’équilibrage de charge DNS est pris en charge pour les pools frontaux, les pools de serveurs Edge, les pools directeurs et les pools de serveurs de médiation autonomes.
   
-L’équilibrage de la charge DNS est généralement implémenté au niveau de l’application. L’application (par exemple, un client exécutant Skype Entreprise) tente de se connecter à un serveur d’un pool en se connectant à l’une des adresses IP renvoyées par la requête d’enregistrement DNS A et AAAA (si l’adressace IPv6 est utilisé) pour le nom de domaine complet (FQDN) du pool. 
+L’équilibrage de la charge DNS est généralement implémenté au niveau de l’application. L’application (par exemple, un client exécutant Skype Entreprise) tente de se connecter à un serveur dans un pool en se connectant à l’une des adresses IP renvoyées par la requête d’enregistrement DNS A et AAAA (si l’adressare IPv6 est utilisée) pour le nom de domaine complet (FQDN) du pool. 
   
 Si par exemple il existe trois serveurs frontaux dans un pool appelé pool01.contoso.com, voilà ce qui se produit :
   
@@ -208,7 +208,7 @@ Si plusieurs enregistrements DNS sont renvoyés par une requête DNS SRV, le ser
     
 - Le champ de pondération spécifie une pondération relative pour les entrées ayant la même priorité. Les pondérations plus importantes doivent avoir une probabilité proportionnellement plus élevée d’être sélectionnées. Les administrateurs DNS doivent utiliser le poids 0 lorsqu’il n’y a aucune sélection de serveur à faire. En présence d’enregistrements contenant des poids supérieurs à 0, les enregistrements ayant une pondération 0 ont très peu de chances d’être sélectionnés.
     
-Si plusieurs enregistrements SRV DNS de même priorité et de même poids sont renvoyés, le service Edge d’accès sélectionne l’enregistrement SRV reçu en premier à partir du serveur DNS.
+Si plusieurs enregistrements SRV DNS de même priorité et de même poids sont renvoyés, le service Edge d’accès sélectionne l’enregistrement SRV qui a été reçu en premier à partir du serveur DNS.
   
 ### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>Équilibrage de la charge DNS dans les pools frontaux et les pools directeurs
 
@@ -220,7 +220,7 @@ Bien que le recours à des programmes d’équilibrage de la charge matérielle 
 
 L’équilibrage de charge DNS prend en charge leover automatique uniquement pour les serveurs exécutant Skype Entreprise Server ou Lync Server 2010, et pour les clients Lync 2013 Skype Entreprise. Les versions antérieures des clients et de Office Communications Server peuvent toujours se connecter à des pools exécutant l’équilibrage de charge DNS, mais s’ils ne peuvent pas établir de connexion au premier serveur vers qui l’équilibrage de charge DNS les fait référencer, ils ne peuvent pas effectuer le pas vers un autre serveur du pool. 
   
-En outre, si vous utilisez une Exchange de service de Exchange, vous devez utiliser un minimum de Exchange 2010 SP1 pour obtenir la prise en charge de l Skype Entreprise Server équilibrage de charge DNS. Si vous utilisez une version antérieure de Exchange, vos utilisateurs n’auront pas de fonctionnalités de Exchange scénarios de la Exchange de l’utilisateur :
+En outre, si vous utilisez la Exchange de service de Exchange, vous devez utiliser un minimum de Exchange 2010 SP1 pour obtenir la prise en charge de l Skype Entreprise Server équilibrage de charge DNS. Si vous utilisez une version antérieure de Exchange, vos utilisateurs n’auront pas de fonctionnalités de Exchange scénarios de la Exchange de l’utilisateur :
   
 - Lecture de Enterprise messagerie vocale sur son téléphone
     

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: 068ff156badaff9231f6e477e2f41668ea8f99fd26531f2a08155c4ee4763c05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 998fbb0a0c077507731d8db09521d49e5c5d635f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594848"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurer votre réseau pour la Diffusion de réunion Skype
 
@@ -45,7 +45,7 @@ Pour **configurer** des domaines autorisés, utilisez l’une des méthodes suiv
 
 ### <a name="method-1-use-the-admin-center"></a>Méthode 1 : utiliser le Centre d’administration
 
-1. Dans le Centre d’administration, dans le navigation gauche, cliquez sur **Paramètres**  >  **&amp; services,** puis sélectionnez **Skype Entreprise.**
+1. Dans le Centre d’administration, dans le navigation gauche, cliquez sur **Paramètres**  >  **&amp; Services,** puis sélectionnez **Skype Entreprise.**
 
 2. Sur la page **Partage externe** sous **Exceptions** de domaine, sélectionnez Tous les domaines sont **bloqués** sauf, et entrez les domaines suivants, séparés par une virgule (,) :
 
@@ -91,13 +91,13 @@ Pour **configurer** des domaines autorisés, utilisez l’une des méthodes suiv
 
 La deuxième étape du processus de configuration consiste à ajouter les domaines nécessaires, puis à ajouter les adresses IP et URL requises pour que la diffusion Réunion Skype fonctionne.
 
-- **Ajoutez les adresses SKYPE ENTREPRISE point** de terminaison et d’adresses IP en ligne en voyant les adresses requises [ici.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
+- **Ajoutez les adresses SKYPE ENTREPRISE point de terminaison et d’adresses IP** en ligne en voyant les adresses requises [ici.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>Configurer la diffusion de réunion Skype dans les déploiements et les organisations hybrides
 
-Si vous avez une organisation Skype Entreprise Online et un déploiement local de Lync Server 2010, de Microsoft Lync Server 2013 et de Skype Entreprise Server 2015 et que vous avez des utilisateurs à la fois en ligne et sur site, vous devez suivre d’autres étapes de configuration en plus de celle ci-dessus pour permettre à votre organisation sur site de communiquer avec Skype Entreprise Online et autoriser tous vos utilisateurs à rejoindre une diffusion Réunion Skype Broadcast. Pour consulter les conditions requises, voir Configurer votre déploiement [local pour Réunion Skype Diffusion.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
+Si vous avez une organisation Skype Entreprise Online et un déploiement local de Lync Server 2010, de Microsoft Lync Server 2013 et de Skype Entreprise Server 2015 et que vous avez des utilisateurs à la fois en ligne et sur site, vous devez suivre d’autres étapes de configuration en plus de celle ci-dessus pour permettre à votre organisation sur site de communiquer avec Skype Entreprise Online et autoriser tous vos utilisateurs à rejoindre une diffusion Réunion Skype Broadcast. Pour consulter les conditions requises, consultez Configurer votre déploiement [local pour Réunion Skype Diffusion.](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Activer une diffusion de réunion Skype](enable-skype-meeting-broadcast.md)
 

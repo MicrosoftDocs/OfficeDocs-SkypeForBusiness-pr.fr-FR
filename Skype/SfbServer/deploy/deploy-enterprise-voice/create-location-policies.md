@@ -9,23 +9,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: Lisez cette rubrique pour découvrir comment configurer des stratégies d’emplacement de service d’urgence amélioré (E9-1-1) dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 46bd1167f573f1d43689d5d4ff145823dafa94a2ec64697e9c20a234b341619d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Lisez cette rubrique pour découvrir comment configurer des stratégies d’emplacement des services d’urgence améliorés (E9-1-1) dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594738"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Créer des stratégies d’emplacement dans Skype Entreprise Server
 
-Lisez cette rubrique pour découvrir comment configurer des stratégies d’emplacement de service d’urgence amélioré (E9-1-1) dans Skype Entreprise Server Voix Entreprise. 
+Lisez cette rubrique pour découvrir comment configurer des stratégies d’emplacement des services d’urgence améliorés (E9-1-1) dans Skype Entreprise Server Voix Entreprise. 
 
 Skype Entreprise Server utilise une stratégie d’emplacement pour activer Skype Entreprise clients pour E9-1-1 lors de l’inscription du client. Une stratégie d’emplacement contient les paramètres qui définissent la façon dont E9-1-1 sera implémenté. Pour plus d’informations, voir [Planifier les stratégies d’emplacement Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
 

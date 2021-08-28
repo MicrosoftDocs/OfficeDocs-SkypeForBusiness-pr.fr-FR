@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: Cet article explique comment gérer les services en cours d’exécution dans Skype Entreprise Server topologie.
-ms.openlocfilehash: ac09cc3d387fb74c28a1908489071a739fa1bbc65d5d1f6e53758db61b0cbf29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295411"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593638"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Gérer les services pour Skype Entreprise Server
 
@@ -41,7 +41,7 @@ Vous pouvez utiliser Skype Entreprise Server panneau de bord pour afficher la li
 ## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>Afficher l’état des services en cours d’exécution sur Skype Entreprise serveur
 <a name="view-status"> </a>
 
-Vous pouvez utiliser Skype Entreprise Server Panneau de Skype Entreprise Server pour afficher tous les services qui s’exécutent sur un ordinateur spécifique dans votre topologie Skype Entreprise Server et afficher l’état de chaque service.
+Vous pouvez utiliser Skype Entreprise Server panneau de commande pour afficher tous les services qui s’exécutent sur un ordinateur spécifique dans votre topologie Skype Entreprise Server et afficher l’état de chaque service.
   
 ### <a name="to-view-the-status-of-services-running-on-a-computer"></a>Pour afficher l’état des services en cours d’exécution sur un ordinateur
 

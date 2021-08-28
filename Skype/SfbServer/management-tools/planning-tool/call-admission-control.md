@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.CallAdmissionControl
 - ms.lync.plan.CallAdmissionControl
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: Le contrôle d’admission des appels (CAC) détermine s’il faut autoriser l’établir des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, en fonction de la bande passante réseau disponible.
-ms.openlocfilehash: 658ad0d4ec08befe201d53cad6d120b5b276da8a30e7a833e0c838d5fb18eea3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 854fa2bae096854b472d295557894ef7274565b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309223"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593588"
 ---
 # <a name="call-admission-control-planning-tool"></a>Outil de planification du contrôle d’admission des appels
  

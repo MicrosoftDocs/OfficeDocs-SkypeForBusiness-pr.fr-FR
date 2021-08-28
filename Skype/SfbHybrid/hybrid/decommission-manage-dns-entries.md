@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions sur la gestion des entrées DNS lors de la désaffectation de votre environnement Skype Entreprise local.
-ms.openlocfilehash: 0dabf9790b1e579d136fef459308af450e879b110474b2877513855c8e78cf29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a69b99f8adf5cf520f08ebef5f08de82426d5723
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315170"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636780"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Mettre à jour les entrées DNS pour permettre à votre organisation d’être Teams uniquement
 
@@ -55,8 +55,8 @@ Dans chaque domaine où se trouvent les enregistrements suivants, mettez-les à 
 
 | Type d’enregistrement | Nom | Durée de vie | Priorité | Pondération | Port | Value (Valeur) |
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
-| SRV | _sipfederationtls.tcp | 3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
-| SRV | _sip.tls | 3600  | 100 |    1   | 443   | sipdir.online.lync.com |
+| SRV | _sipfederationtls.tcp | 3600 |  100 | 1  | 5061  | sipfed.online.lync.com |
+| SRV | _sip.tls | 3600  | 100 |    1    | 443   | sipdir.online.lync.com |
 | CNAME | lyncdiscover |    3600 |  N/A |   N/A |   N/A |   webdir.online.lync.com |
 | CNAME |   sip | 3600 |    N/A |   N/A  | N/A |    sipdir.online.lync.com |
 |||||||
@@ -68,7 +68,7 @@ En outre, les enregistrements CNAME pour la meet ou dialin (le cas présent) peu
 >
 > - Toutes les organisations fédérées qui utilisent l’ancien modèle de fédération directe (également appelé serveur partenaire autorisé) doivent mettre à jour leurs entrées de domaine autorisées pour que leur organisation supprime le nom de domaine réservé au proxy. Ce modèle de fédération hérité n’est pas basé sur des enregistrements DNS SRV, de sorte qu’une telle configuration ne sera plus à jour une fois que votre organisation sera installée dans le cloud.
 > 
-> - Toute organisation fédérée qui n’a pas de fournisseur d’hébergement activé pour sipfed.online.lync. <span> com devra mettre à jour sa configuration pour l’activer. Cette situation n’est possible que si l’organisation fédérée est purement sur site et n’a jamais été fédérée avec un client hybride ou en ligne. Dans ce cas, la fédération avec ces organisations ne fonctionne pas tant qu’elles n’ont pas activé leur fournisseur d’hébergement.
+> - Toute organisation fédérée qui n’a pas de fournisseur d’hébergement activé pour sipfed.online.lync. <span> com devra mettre à jour sa configuration pour l’activer. Cette situation n’est possible que si l’organisation fédérée est purement sur site et n’a jamais été fédérée avec un client hybride ou en ligne. Dans ce cas, la fédération avec ces organisations ne fonctionne pas tant qu’elle n’a pas activé son fournisseur d’hébergement.
 >
 > Si vous pensez que l’un de vos partenaires fédérés peut utiliser la fédération directe ou n’avoir été fédéré avec aucune organisation en ligne ou hybride, nous vous suggérons de leur envoyer une communication à ce sujet lorsque vous vous préparez à terminer votre migration vers le cloud.
   

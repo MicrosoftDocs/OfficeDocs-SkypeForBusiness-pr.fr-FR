@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Configurez votre serveur de gestion principal, installez System Center Operations Manager et importez des packs d’administration pour Skype Entreprise Server 2019.'
-ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 4e0d8a1176beb9d5c82418b65c1a4ce67d587c6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594898"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype Entreprise Server : configurer le serveur de gestion principal
 
@@ -62,7 +62,7 @@ Vous pouvez étendre les fonctionnalités de System Center Operations Manager en
     > [!NOTE]
     >  Pour plus d’informations sur la configuration de la notification Operations Manager, voir [Configuring Notification](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10)).
 
-- Le pack d’administration **Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) teste de manière proactive les composants de Skype Entreprise Server clés, tels que la signature au système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RSTN). Ces tests sont effectués à l’aide Skype Entreprise Server cmdlets de transaction synthétique. Par exemple, l’applet de commande **Test-CsIM** est utilisée pour simuler une conversation de messagerie instantanée entre deux utilisateurs de test. Si cette conversation simulée échoue, une alerte est générée.
+- Le pack d’administration **Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) teste de manière proactive les composants de Skype Entreprise Server clés, tels que la signature du système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RSTN). Ces tests sont effectués à l’aide Skype Entreprise Server cmdlets de transaction synthétique. Par exemple, l’applet de commande **Test-CsIM** est utilisée pour simuler une conversation de messagerie instantanée entre deux utilisateurs de test. Si cette conversation simulée échoue, une alerte est générée.
 
 L’importation des packs d’administration est une étape cruciale. Si les packs d’administration ne sont pas importés, vous ne pourrez pas utiliser Operations Manager pour surveiller Skype Entreprise Server événements ou exécuter Skype Entreprise Server transactions synthétiques.
 

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
-ms.openlocfilehash: 44adc98247fef2e0cac79a6ec5866871207e572f
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8e69d1582238800e58c354c961037954c2757e06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232859"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593598"
 ---
 # <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype Entreprise Server - Supprimer une collection existante de paramètres de configuration de la trunk SIP
 
@@ -45,7 +45,7 @@ Les administrateurs peuvent aussi créer des paramètres de configuration de jon
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression des paramètres de configuration de la Windows PowerShell cmdlets
 
 
-Vous pouvez supprimer les paramètres de configuration de la Windows PowerShell et l’cmdlet **Remove-CsTrunkConfiguration.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez supprimer les paramètres de configuration de la Windows PowerShell à l’aide de l’cmdlet **Remove-CsTrunkConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 **Pour supprimer une collection spécifiée de paramètres**
 
@@ -59,7 +59,7 @@ Cette commande supprime tous les paramètres de configuration de jonction appliq
 
 `Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration`
 
-**Pour supprimer toutes les collections où le contournement de média est activé**
+**Pour supprimer toutes les collections pour laquelle le contournement de média est activé**
 
 La commande suivante supprime tous les paramètres de configuration de jonction dès lors que le contournement de média est activé :
 

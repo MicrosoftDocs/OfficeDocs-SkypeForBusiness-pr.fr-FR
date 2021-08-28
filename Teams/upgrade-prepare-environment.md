@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Validez la disponibilité de votre environnement et de votre réseau avant d’Skype Entreprise à Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957f84ca8629dbc9effb440211220465f6be0640633638e70306c6e3dec6d0ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b12ed0ad9b662f4cc36a68ae7ee3b4340960517f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616140"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Préparer votre environnement pour la mise à niveau vers Teams
 
 ![Diagramme de voyage de mise à niveau mettant en relief la phase de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase de préparation technique")
 
-Cet article fait partie de la phase de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
+Cet article fait partie de l’étape de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
 - [Étendue définie de votre projet](./upgrade-define-project-scope.md)

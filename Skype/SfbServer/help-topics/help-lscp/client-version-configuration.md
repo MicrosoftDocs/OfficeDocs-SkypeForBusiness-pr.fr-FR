@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: En plus de spécifier la version des clients que vous souhaitez prendre en charge dans votre environnement, vous pouvez également affecter une action par défaut aux clients pour lesquels aucune stratégie de version n’a encore été définie. Cela vous permet de restreindre les versions des clients utilisées dans votre environnement, ce qui peut vous aider à contrôler les coûts associés à la prise en charge de plusieurs versions de clients.
-ms.openlocfilehash: 453ef8b518d7b39f4cd13d4c265dbcab9ea6d95d2ccca3b82bdd8656803a1d20
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cb01d62ca735b4e20c93a84f5762aabf8b03d03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615920"
 ---
 # <a name="client-version-configuration"></a>Configuration de version du client
 
@@ -53,6 +53,6 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
   - **Supprimer** Cette option supprime toutes les configurations de version du client sélectionnées.
 
-- **Actualiser** Vous pouvez actualiser la liste de configuration des versions des clients pour vérifier l’état des options de toutes les configurations de version des clients.
+- **Actualiser** Vous pouvez actualiser la liste de configuration des versions des clients pour vérifier l’état des options de toutes les configurations de version du client.
 
 Pour plus d’informations sur l’interopérabilité entre les clients et les versions des clients, voir [Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) dans la documentation de planification. Pour plus d’informations sur l’utilisation des configurations de version du client, voir [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) dans la documentation des opérations.

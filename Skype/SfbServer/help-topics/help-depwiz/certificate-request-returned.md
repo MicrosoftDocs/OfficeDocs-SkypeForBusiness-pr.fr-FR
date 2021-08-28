@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 'La page État de la demande de certificat en ligne vous présente les informations importantes faisant suite à la création et l’émission d’une demande de certificat en ligne. Elle fournit l’empreinte du certificat qui l’identifie de manière unique. Par défaut, la case à cocher Affecter ce certificat Skype Entreprise Server les utilisations des certificats est sélectionnée. Si vous cliquez sur Terminer, le certificat est automatiquement affecté à Lync Server 2013 aux fins que vous avez définies lors des étapes de création de la demande de certificat. Par défaut, le certificat sera assigné aux fins suivantes :'
-ms.openlocfilehash: bf3dfc7e37d81a85e66fa428504b48096f3da6f4c0cffcb22685f19d0146a7d7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e87e16f79a30aa037ba0a7ee3e9ad1379536ca6e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301750"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616090"
 ---
 # <a name="certificate-request-returned"></a>Demande de certificat (retournée)
  
-La page **État de la demande de certificat en ligne** vous présente les informations importantes faisant suite à la création et l’émission d’une demande de certificat en ligne. Elle fournit l’empreinte du certificat qui l’identifie de manière unique. Par défaut, la case à cocher Affecter ce **certificat Skype Entreprise Server les utilisations** des certificats est sélectionnée. Si vous cliquez sur **Terminer,** le certificat est automatiquement affecté à Lync Server 2013 aux fins que vous avez définies lors des étapes de création de la demande de certificat. Par défaut, le certificat sera assigné aux fins suivantes :
+La page **État de la demande de certificat en ligne** vous présente les informations importantes faisant suite à la création et l’émission d’une demande de certificat en ligne. Elle fournit l’empreinte du certificat qui l’identifie de manière unique. Par défaut, la case à cocher Affecter ce **certificat Skype Entreprise Server les utilisations** des certificats est sélectionnée. Si vous cliquez sur **Terminer,** le certificat sera automatiquement affecté à Lync Server 2013 aux fins que vous avez définies lors des étapes de création de la demande de certificat. Par défaut, le certificat sera assigné aux fins suivantes :
   
 - Serveur par défaut pour MTLS (Mutual Transport Layer Security) : connexions aux clients et autres serveurs
     
