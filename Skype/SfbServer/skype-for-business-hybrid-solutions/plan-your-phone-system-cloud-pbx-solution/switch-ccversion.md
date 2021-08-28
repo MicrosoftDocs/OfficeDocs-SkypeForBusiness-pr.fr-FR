@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: LSwitch-CcVersion cmdlet déconnecte l’appliance en cours d’exécution et bascule vers une appliance nouvellement déployée ou de sauvegarde.
-ms.openlocfilehash: 1558f34d2388dc75bf4398ba15fc09cd36c439e2d70a39588ee697bc0ef04341
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b15310956f80a9269c8fb611a0f7c6c06f561e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320037"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580328"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 ### <a name="example-2"></a>Exemple 2
 
-L’exemple suivant draine les services de l’appliance en cours d’exécution et arrête les services de force en cas d’échec du drainage des services. La commande bascule ensuite vers une appliance de sauvegarde ou nouvellement déployée :
+L’exemple suivant draine les services de l’appliance en cours d’exécution et arrête les services de force en cas d’échec du drainage des services. La commande bascule ensuite vers une appliance nouvellement déployée ou de sauvegarde :
   
 ```powershell
 Switch-CcVersion -Force
@@ -62,12 +62,12 @@ La cmdlet Switch-CcVersion draine les services Cloud Connector sur le serveur de
 ## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
 
-Néant
+Aucune
   
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Néant
+Aucune
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

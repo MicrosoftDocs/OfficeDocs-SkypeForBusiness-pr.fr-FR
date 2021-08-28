@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: La cmdlet Get-CcApplianceLogDirectory affiche le répertoire actuel dans lequel les journaux d’une Skype Entreprise Cloud Connector Edition’appareil sont stockés.
-ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 826599ab785d8b4d74f0792c6091b2a5e78b74e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318657"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580358"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
@@ -52,7 +52,7 @@ LGet-CcApplianceLogDirectory cmdlet affiche le répertoire actuel dans lequel le
   
 Vous pouvez modifier le répertoire à l’aide de Set-CcApplianceDirectory cmdlet. 
   
-Remarque : il n’existe aucune cmdlet qui modifie uniquement l’emplacement du dossier journal sans modifier le répertoire de l’appliance.
+Remarque : aucune cmdlet ne modifie uniquement l’emplacement du dossier journal sans modifier le répertoire de l’appliance.
   
 ## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>

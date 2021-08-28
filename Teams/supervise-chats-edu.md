@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: En savoir plus sur les conversations encadrées dans Microsoft Teams réunions.
-ms.openlocfilehash: 6962d38eb30a8f94893667d269f35ebe8e251a3df8896d574b2236ca29c91a09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 439c62b4993b68ba0c17f83857ad74034fdcd0c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629196"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Conversations surveillées dans Microsoft Teams
 
@@ -48,7 +48,7 @@ Les exemples suivants duivent une description de la nécessité d’une conversa
 ## <a name="enable-supervised-chat"></a>Activer la conversation surveillée
 
 > [!Note]
-> Veillez à configurer les rôles d’autorisation de conversation et les stratégies d’autorisation de conversation en fonction du rôle avant d’activer la conversation pour votre établissement afin d’éviter tout accès indésirable aux conversations non sollicitées par les étudiants.
+> Veillez à configurer les rôles d’autorisation de conversation et les stratégies d’autorisation de conversation basées sur les rôles avant d’activer la conversation pour votre établissement afin d’éviter tout accès indésirable aux conversations non sollicitées par les étudiants.
 
 ### <a name="define-chat-permission-roles-for-each-user-in-your-environment"></a>Définir les rôles d’autorisation de conversation pour chaque utilisateur dans votre environnement
 
@@ -68,7 +68,7 @@ Des rôles ne peuvent pas être attribués aux invités dans votre client. Un r�
 
 ### <a name="allow-supervised-chat"></a>Autoriser la conversation surveillée
 
-La conversation supervise est désactivée par défaut pour votre client. Après avoir créé les rôles d’autorisations de conversation pour vos utilisateurs, vous pouvez activer la conversation surveillée au sein de votre client en allant à la Teams Paramètres des **paramètres** de l’organisation et en définie sur Activé pour la stratégie des autorisations de conversation basée sur les &gt;  **rôles.**  Vous pouvez également utiliser PowerShell pour activer la conversation surveillée en fixant AllowRoleBasedChatPermissions sur True. Cette cmdlet se trouve sous CsTeamsClientConfiguration.
+La conversation surveillée est désactivée par défaut pour votre client. Après avoir créé les rôles d’autorisations de conversation pour vos utilisateurs, vous pouvez activer la conversation surveillée au sein de votre client en allant à la Teams Paramètres des **paramètres** de l’organisation et en définie sur Activé pour la stratégie des autorisations de conversation basée sur les &gt;  **rôles.**  Vous pouvez également utiliser PowerShell pour activer la conversation surveillée en fixant AllowRoleBasedChatPermissions sur True. Cette cmdlet se trouve sous CsTeamsClientConfiguration.
 
 La conversation supervise doit être activée pour tous les utilisateurs du client et ne peut pas l’être pour seulement une partie de vos utilisateurs.
 
@@ -78,12 +78,12 @@ Activez la conversation pour tous vos utilisateurs à l’aide de la stratégie 
 
 ## <a name="maintain-supervised-chats"></a>Tenir des conversations surveillées
 
-Une fois la conversation surveillée activée, vous devez vérifier que les conversations de votre environnement restent bien encadrées :
+Une fois la conversation surveillée activée, vous devez faire quelques opérations pour vous assurer que les conversations de votre environnement restent sous surveillance :
 
 - Attribuez des rôles appropriés à tous les nouveaux utilisateurs qui rejoignent votre client. Par défaut, un rôle restreint est attribué aux utilisateurs.
 
 - Si un utilisateur avec des autorisations complètes quitte ou est supprimé d’un client, les conversations qu’il a eues sont laissées sans surveillance. Avant de supprimer l’utilisateur d’origine, assurez-vous qu’un autre utilisateur ayant des autorisations complètes est ajouté à ces conversations afin que la conversation puisse rester encadrée. Une fois le superviseur d’origine supprimé, de nouveaux participants ne peuvent pas être ajoutés à la conversation, mais les participants actuels peuvent continuer à communiquer.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Conversations supervised for Teams in education](https://support.microsoft.com/topic/supervised-chats-in-microsoft-teams-for-education-ad3aaafc-c85a-416f-95f9-d691f419cbb8?storagetype=live)

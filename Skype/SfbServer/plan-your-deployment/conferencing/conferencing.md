@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les fonctionnalités de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 67956a20727747d83889a88d359e145bc99775ffc2243fc3449f282875701820
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 90200648c8e370bd0e59f0b6759717cd706b683d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628586"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planifier les conférences dans Skype Entreprise Server
  
@@ -89,7 +89,7 @@ La conférence audio et vidéo permet l’audio et la vidéo dans la réunion. L
 
 La conférence rendez-vous permet aux participants à la réunion de participer à la partie audio d’une réunion en appelant à la réunion à partir d’un téléphone. Une conférence rendez-vous est un sous-ensemble d’une audioconférence et nécessite une configuration supplémentaire. Pour plus d’informations sur la conférence rendez-vous, voir [Plan for dial-in conferencing in Skype Entreprise Server](dial-in-conferencing.md) and [Configure dial-in conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
   
-### <a name="instant-messaging-conferencing"></a>Conférence de messagerie instantanée
+### <a name="instant-messaging-conferencing"></a>Conférence par messagerie instantanée
 
 La conférence de messagerie instantanée permet à plus de deux parties de communiquer au cours d’une seule session de messagerie instantanée. Pour plus d’informations sur la conférence de messagerie instantanée, voir Planifier la messagerie instantanée et [la présence dans Skype Entreprise Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
@@ -103,7 +103,7 @@ Les composants qui la prise en charge des fonctionnalités de conférence sont l
     
 - **application Annonce de conférence.** Le application Annonce de conférence est une application de communications unifiées qui lit des tonalités et des invites aux participants PSTN lors de certaines actions, par exemple lorsque les participants rejoignent ou quittent une conférence, que les participants sont mis en sourdine ou non, qu’une personne entre dans la salle d’accueil de la conférence ou que la conférence est verrouillée ou déverrouillée. application Annonce de conférence prend également en charge les commandes DTMF (dual-tone multi-frequency) à partir du clavier du téléphone. Le application Annonce de conférence est automatiquement installé et activé par défaut lorsque vous activez la conférence téléphonique.
     
-- **Page de conférences Paramètres conférence.** La page Paramètres de conférence rendez-vous affiche les numéros d’accès aux conférences avec leurs langues disponibles, les informations de conférence affectées (c’est-à-dire, pour les réunions qui ne doivent pas être programmées) et les contrôles DTMF en conférence, et prend en charge la gestion du code confidentiel et des informations de conférence attribuées. La page de conférence Paramètres est automatiquement installée dans le cadre des services Web.
+- **Page de conférences Paramètres conférence.** La page Paramètres de conférence rendez-vous affiche les numéros d’accès aux conférences avec leurs langues disponibles, les informations de conférence affectées (c’est-à-dire, pour les réunions qui ne doivent pas être programmées) et les contrôles DTMF en conférence, et prend en charge la gestion du code confidentiel et des informations de conférence attribuées. La page de conférence Paramètres est installée automatiquement dans le cadre des services Web.
     
 - **Serveur de médiation et passerelle PSTN.** La conférence téléphonique nécessite un serveur de médiation pour traduire la signalisation (et les médias dans certaines configurations) entre Skype Entreprise Server et la passerelle PSTN, et une passerelle PSTN pour traduire la signalisation et le média entre le serveur de médiation et la passerelle PSTN. Pour les conférences téléphoniques, vous devez déployer au moins un serveur de médiation et au moins l’un des services suivants :
     
@@ -136,7 +136,7 @@ La taille des réunions que les Skype Entreprise Server peuvent prendre en charg
     
 Pour plus d’informations sur la gestion des grandes réunions, voir Planifier les grandes réunions [dans Skype Entreprise Server](large-meetings.md).
   
-Si votre organisation nécessite des fonctionnalités de réunion plus importantes, vous devez envisager d’implémenter un environnement hybride qui tire parti de la diffusion Réunion Skype, un service en ligne qui fait partie de Microsoft 365 et Office 365. Réunion Skype La diffusion permet aux utilisateurs d’héberger et de diffuser des réunions à un large public en ligne de 10 000 participants au plus. L’utilisation Réunion Skype diffusion nécessite que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec une organisation Microsoft 365 ou Office 365 production. Tous les utilisateurs doivent avoir un client en ligne établi en tant que prérequis. Si vous souhaitez déployer une solution hybride qui peut tirer parti de la diffusion Réunion Skype, voir Configurer votre déploiement local pour [la diffusion Réunion Skype.](../../deploy/configure-skype-meeting-broadcast.md)
+Si votre organisation nécessite des fonctionnalités de réunion plus importantes, vous devez envisager d’implémenter un environnement hybride qui tire parti de la diffusion Réunion Skype, un service en ligne qui fait partie de Microsoft 365 et Office 365. Réunion Skype La diffusion permet aux utilisateurs d’héberger et de diffuser des réunions à un large public en ligne de 10 000 participants au plus. L’utilisation Réunion Skype diffusion nécessite que Skype Entreprise Server soit déjà configuré dans une configuration hybride avec une organisation Microsoft 365 ou Office 365 production. Un client en ligne doit être établi en tant que prérequis pour tous les utilisateurs. Si vous souhaitez déployer une solution hybride qui peut tirer parti de la diffusion Réunion Skype, voir Configurer votre déploiement local pour [la diffusion Réunion Skype.](../../deploy/configure-skype-meeting-broadcast.md)
   
 ## <a name="determine-your-organizations-needs"></a>Déterminer les besoins de votre organisation
 
@@ -170,7 +170,7 @@ Lorsque vous déterminez les fonctionnalités de conférence à déployer, vous 
     
     Dans l’affirmative, déployez et activez la conférence rendez-vous. Les utilisateurs invités, à l’intérieur et à l’extérieur de votre organisation, peuvent alors prendre part à la partie audio des conférences par l’intermédiaire d’un téléphone PSTN.
     
-    La conférence rendez-vous est une fonctionnalité facultative que vous pouvez configurer lorsque vous déployez Skype Entreprise Server conférence rendez-vous. Bien que les conférences dial-in utilisent certains des mêmes composants que Voix Entreprise, vous pouvez déployer la conférence dial-in même si vous ne déployez pas Voix Entreprise. La conférence téléphonique prend en charge à la fois les utilisateurs d’entreprise et les utilisateurs anonymes. Pour plus d’informations sur la configuration de la conférence rendez-vous pour les utilisateurs d’entreprise et anonymes, voir Déployer la conférence dans [Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md) et Configurer la conférence [rendez-vous](../../deploy/deploy-conferencing/dial-in-conferencing.md)dans Skype Entreprise Server .
+    La conférence rendez-vous est une fonctionnalité facultative que vous pouvez configurer lorsque vous déployez Skype Entreprise Server conférence. Bien que les conférences dial-in utilisent certains des mêmes composants que Voix Entreprise, vous pouvez déployer la conférence dial-in même si vous ne déployez pas Voix Entreprise. La conférence téléphonique prend en charge à la fois les utilisateurs d’entreprise et les utilisateurs anonymes. Pour plus d’informations sur la configuration de la conférence rendez-vous pour les utilisateurs d’entreprise et anonymes, voir Déployer la conférence dans [Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md) et Configurer la conférence [rendez-vous](../../deploy/deploy-conferencing/dial-in-conferencing.md)dans Skype Entreprise Server .
     
 - **Souhaitez-vous permettre aux utilisateurs externes Skype Entreprise clients de participer à des conférences ?**
     

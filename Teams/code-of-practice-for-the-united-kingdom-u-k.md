@@ -15,20 +15,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Découvrez le code de pratique pour les plans d’appel R SKYPE ENTREPRISE uk, notamment où obtenir de l’aide, et comment soumettre des réclamations et résoudre les litiges.
-ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Découvrez le code de pratique pour les plans d’appel RST pour Skype Entreprise Uk, notamment où obtenir de l’aide, et comment soumettre des réclamations et résoudre les litiges.
+ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306565"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580198"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Forfaits d’appels Microsoft 365 - Code de pratique pour le Royaume-Uni
 
@@ -149,5 +149,5 @@ Les Services de traduction nationaux sont des numéros de téléphone commençan
 Les tarifs des Services de traduction nationaux, des Numéros personnels et des numéros 0870 sont spécifiés sur notre [site Web](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809) et peuvent varier selon l'heure de la journée et le jour de la semaine où votre appel est effectué. Les appels vers le 0800 sont gratuits.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

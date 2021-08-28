@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 'Résumé : Découvrez comment démarrer, arrêter et surveiller les services de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: d908468d5bf770035fae3817786f0c2fbbb06708
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 3bc40e0e338cb2ef30b417482185121b26b8cd34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580548"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>Surveiller, démarrer et arrêter les services de conversation permanente dans Skype Entreprise Server 2015
  
@@ -28,7 +28,7 @@ Les services de conversation permanente et les services de conformité de conver
   
 |Cmdlet|Fonction|
 |:-----|:-----|
-|get-CsWindowsService  <br/> |Retourne des informations détaillées sur Skype Entreprise Server 2015 qui s’exécutent en tant Windows services.  <br/> |
+|get-CsWindowsService  <br/> |Retourne des informations détaillées sur Skype Entreprise Server 2015 qui s’exécutent en tant que services Windows de sécurité.  <br/> |
 |start-CsWindowsService  <br/> |Démarre le service.  <br/> |
 |stop-CsWindowsService  <br/> |Arrête le service.  <br/> |
    

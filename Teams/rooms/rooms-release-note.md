@@ -9,17 +9,17 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Les administrateurs peuvent lire les notes de publication de l Salles Microsoft Teams pour lesquelles les améliorations cumulatives ont été apportées Salles Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a76d2ba56a56b3055d0ca6838e512e2074afcf72c93c5590510a22bb946a63eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aed319f4621cb95b653294f4b27d2ff37ffafb72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629236"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Notes de publication pour Salles Microsoft Teams
 
@@ -78,11 +78,11 @@ Cet article décrit les améliorations cumulatives apportées à Salles Microsof
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 Introduite dans cette mise à jour :
-- Microsoft Teams mode uniquement est désormais disponible dans les paramètres de l’application. Vous n’avez donc plus besoin de configurer Skype Entreprise compte. Dans ce mode, les appareils connectés au Teams seul mode rejoignent Skype Entreprise réunions en tant qu’utilisateur invité.
+- Microsoft Teams n’est désormais disponible que dans les paramètres de l’application. Vous n’avez donc plus besoin de configurer Skype Entreprise compte. Dans ce mode, les appareils connectés au Teams seul mode rejoignent Skype Entreprise réunions en tant qu’utilisateur invité.
 - Correctif pour le son HDMI qui réduit le volume des appels. La fonctionnalité audio HDMI est automatiquement activée pour tous les appareils avec l’application build 4.9.12.0.
 
 > [!NOTE]
-> À Skype Entreprise fin de vie, il est recommandé de mettre à Teams mode uniquement.
+> À Skype Entreprise fin de vie, il est recommandé de mettre à Teams en mode seul.
 
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
@@ -121,7 +121,7 @@ Introduite dans cette mise à jour :
 
 - Partager le système audio HDMI pour les participants d’Teams réunion
 - Cortana de voix (aperçu)
-- Empêchez la désmutation en fonction des autorisations audio lorsque Teams salle rejoint en tant que participant. Pour plus d’informations, [voir Gérer les autorisations audio des](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)participants Teams réunions.
+- Empêchez la désmutation en fonction des autorisations audio lorsque Teams salle rejoint en tant que participant. Pour plus d’informations, [voir Gérer les autorisations audio des](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)participants dans Teams réunions.
 - Mettre en valeur la vidéo d’une personne à partir Teams console de salle et utiliser les vidéos à la une sur les écrans des salles
 
 > [!NOTE]
@@ -186,7 +186,7 @@ Introduite dans cette mise à jour :
 
 Introduite dans cette mise à jour :
 
-- Prise en charge de l’authentification moderne pour Exchange et Skype Entreprise
+- Prise en charge de l’authentification moderne Exchange et Skype Entreprise
 - Prise en charge des appels d’urgence dynamiques pour Teams (composants de service requis et publiés à l’aide Teams anneaux clients)
 - Possibilité de désactiver le contenu en double hors réunion pour des salles à affichage double à l’aide de XML
 - Écran de d’accueil de l’application
@@ -197,7 +197,7 @@ Introduite dans cette mise à jour :
 Introduite dans cette mise à jour :
 
 - Mises à jour de stratégie pour « mises Windows jour pour les entreprises »
-- Correction des événements d’appareil signalant une erreur dans le moniteur Azure
+- Correctif pour les événements d’appareil signalant une erreur dans le moniteur Azure
 
 ### <a name="43330-1102020"></a>4.3.33.0 (1/10/2020)
 
@@ -261,7 +261,7 @@ Introduite dans cette mise à jour :
 
 Introduite dans cette mise à jour :
 
-- Correctif pour le bogue « bloquer au démarrage de l’application » qui a affecté les appareils sur une build Windows 10 RS2.
+- Correctif pour le bogue « bloquer au démarrage de l’application » qui a affecté les appareils sur Windows 10 build RS2.
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
 
@@ -278,7 +278,7 @@ Introduite dans cette mise à jour :
 Introduite dans cette mise à jour :
 
 - Afficher du contenu au premier plan (FoR) sur des systèmes de salle à écran double
-- Améliorations apportées à l’interface utilisateur au premier plan des salles
+- Améliorations de l’interface utilisateur au premier plan et au niveau des salles
 - Prise en charge côté client TLS 1.2. Pour les clients locaux, l’activation de la communication sur TLS 1.2 pour Salles Microsoft Teams nécessite Skype Entreprise Server 2015 Mise à jour cumulative 9 (CU9) ou Skype Entreprise Server 2019 Mise à jour cumulative 1 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)

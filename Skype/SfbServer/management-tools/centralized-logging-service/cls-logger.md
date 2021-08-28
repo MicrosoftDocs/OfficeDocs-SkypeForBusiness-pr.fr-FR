@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Résumé : Découvrez comment utiliser l’enregistreur clS (Centralized Logging Service) dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 38cc7007476fbdfa6a02cf4d244fa0173e958d6bfe055d042be8ba4cf2d049e4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317489"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628616"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
  
@@ -39,7 +39,7 @@ Pour utiliser correctement CLS Logger, vous devez vous assurer que les valeurs s
 
 Utilisez les commandes suivantes pour vérifier l’état de la journalisation :
   
-1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence topologie.
+1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence de la topologie.
     
 2. Cliquez sur le bouton État de la journalisation.
     
@@ -85,7 +85,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
 > 
 > **Ordinateurs** Ordinateurs individuels pour effectuer la recherche dans le journal : il s’hui de tous les nodes enfants dans l’arborescence. (Obligatoire)
 > 
-> **Heure de début** Période à partir de laquelle clS interrogera les journaux. (Obligatoire)
+> **Heure de début** Période à partir de laquelle le CLS interrogera les journaux. (Obligatoire)
 > 
 > **Heure de fin** Période à partir de laquelle le CLS cessera d’interroger les journaux. (Obligatoire)
 > 
@@ -116,7 +116,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
 1. Dans **l’onglet Modifier les scénarios,** cliquez sur le **bouton Créer un** scénario.
     
     > [!NOTE]
-    > La création d’un nouveau scénario clonera la configuration du scénario actuellement sélectionné. Si vous cliquez **sur Effacer Paramètres** avant de créer un nouveau scénario, aucun composant et aucun indicateur n’est sélectionné.
+    > La création d’un scénario clonera la configuration du scénario actuellement sélectionné. Si vous cliquez **sur Effacer Paramètres** avant de créer un nouveau scénario, aucun composant et aucun indicateur n’est sélectionné.
   
 2. Entrez le nom du scénario que vous créez et appuyez sur Entrée ou cliquez sur le bouton Ok.
     
@@ -124,7 +124,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
     
 ## <a name="modify-a-scenario"></a>Modifier un scénario
 
-![Capture d’écran CLS Logger, scénarios de modification](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Capture d’écran clS Logger, scénarios de modification](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. Dans **l’onglet Modifier les scénarios,** recherchez le scénario souhaité à modifier.
     

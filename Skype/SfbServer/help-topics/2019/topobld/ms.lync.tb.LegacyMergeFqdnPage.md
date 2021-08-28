@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le FQDN interne du pool Edge d’accès est utilisé pour divers scénarios dans lequel les utilisateurs internes communiquent avec des utilisateurs externes pour la fédération, l’accès des utilisateurs distants et la connectivité de messagerie instantanée publique. Si un serveur de périphérie avec charge équilibrée a été déployé dans votre environnement hérité, entrez le nom de domaine complet (FQDN) du programme d’équilibrage de la charge
-ms.openlocfilehash: 0bfbff4fcd04d0e2e202febe8601079364d4a02e966449242b1e87693c5634f9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25d366e963110e5f41e5fcc5787ef6c952784b99
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628966"
 ---
-# <a name="legacy-merge-fqdn"></a>Fusion héritée : nom de domaine complet
+# <a name="legacy-merge-fqdn"></a>Fusion héritée : nom de domaine complet
  
 Le **nom de domaine complet interne du pool Edge d’accès** est utilisé lorsque les utilisateurs internes communiquent avec des utilisateurs externes dans le cas d’une fédération, d’un accès d’utilisateurs distants et d’une solution PIC (Public IM Connectivity). Si un serveur Edge avec charge équilibrée a été déployé dans votre environnement hérité, entrez le nom de domaine complet (FQDN) du programme d’équilibrage de la charge interne.
   

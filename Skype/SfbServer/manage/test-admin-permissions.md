@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Comment tester les autorisations d’administrateur dans Skype Entreprise Server
-ms.openlocfilehash: 7dd9e1b95df35cb363617690cb9667c1a16ef904
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232619"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580558"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Test des autorisations d’administrateur dans Skype Entreprise Server
 
@@ -54,7 +54,7 @@ Si les autorisations requises ont déjà été définies, Test-CsOUPermission re
 
 Vrai
 
-Si les autorisations requises ne sont pas définies, Test-CsOUPermission renvoyer la valeur False. Vous de devez peut-être rechercher un moment pour trouver cette valeur. Il est généralement incorporé dans plusieurs avertissements qui l’accompagnent. Par exemple :
+Si les autorisations requises ne sont pas définies, Test-CsOUPermission renvoyer la valeur False. Vous de devez peut-être rechercher un moment pour trouver cette valeur. Il est généralement incorporé dans plusieurs avertissements qui l’accompagnent. Par exemple :
 
 AVERTISSEMENT : entrée de contrôle d’accès (ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup; allow; ReadProperty; ContainerInherit; Descendants ; bf967aba-0de6-11d0-00aa003049e2; d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 

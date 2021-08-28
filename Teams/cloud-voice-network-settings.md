@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Découvrez les paramètres réseau que vous devez configurer pour lLocation-Based routage pour le routage direct et les services d’urgence améliorés.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 54739ca0f5b1d7191df326ca75f4e868c5e1e65251ebe3c81800fe425a4f5a1e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 425f453e5e1b7f90b1486aa35d09f7919e0c33b4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331056"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580218"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Paramètres réseau pour les fonctionnalités vocales cloud dans Microsoft Teams
 
-En savoir plus sur les régions réseau, les sites réseau, les sous-réseaux et les adresses IP fiables. Ces termes et concepts sont utilisés dans notre documentation vocale sur le cloud pour le routage basé sur l’emplacement pour le [routage direct](location-based-routing-plan.md) et les appels d’urgence [dynamiques.](configure-dynamic-emergency-calling.md) Si vous déployez ces fonctionnalités cloud dans votre organisation, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams.
+En savoir plus sur les régions réseau, les sites réseau, les sous-réseaux et les adresses IP fiables. Ces termes et concepts sont utilisés dans notre documentation vocale sur le cloud pour le routage basé sur l’emplacement pour le [routage](location-based-routing-plan.md) direct et les appels d’urgence [dynamiques.](configure-dynamic-emergency-calling.md) Si vous déployez ces fonctionnalités cloud dans votre organisation, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams.
 
 Cet article donne une vue d’ensemble des paramètres réseau courants pour les appels Location-Based d’urgence dynamiques et le routage dynamique. En fonction de la fonctionnalité voix cloud et des fonctionnalités que vous déployez, vous configurez tout ou partie de ces paramètres. Pour savoir comment configurer ces paramètres, voir Gérer votre topologie de réseau pour les fonctionnalités [cloud dans Teams.](manage-your-network-topology.md)
 

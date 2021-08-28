@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.TopoExtAppSvrMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: f295eee0160df40a78886d34493a7fab491a7b217a0a3ba9b8f4d146a8ec7240
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05ddd912ed03b51af5f63291deff6d4f40f500ed
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331326"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606393"
 ---
-# <a name="topology-trusted-application"></a>Topologie : application approuvée
+# <a name="topology-trusted-application"></a>Topologie : application approuvée
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

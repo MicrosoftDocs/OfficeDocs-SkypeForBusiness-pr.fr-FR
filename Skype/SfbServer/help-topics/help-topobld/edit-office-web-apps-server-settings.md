@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Vous modifiez les propriétés du serveur Office Web Apps Server. Les propriétés suivantes peuvent être modifiées :'
-ms.openlocfilehash: 2810d18878c1f9796f3e95653cdae4324f0921496abe2b72584511db6352f9f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25372d8e6a6748c91f17c3d0ca7e8de7f8d63c44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329788"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606343"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Modifier les paramètres Office Web Apps Server
 

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Comment tester les droits de topologie dans Skype Entreprise Server
-ms.openlocfilehash: 0284fc3a1af10958fa4e3182d9cec38940421229
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 7e1d7b8fe1f2b35cffd63aa8816b36946cdc500f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580538"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Test des droits de topologie d’administrateur dans Skype Entreprise Server
 
@@ -47,7 +47,7 @@ Si Test-CsSetupPermission détermine que les autorisations requises ont déjà �
 
 Vrai 
 
-Si les autorisations ne sont pas définies, Test-CsSetupPermission retourne la valeur False. Notez que cette valeur est généralement incluse dans de nombreux messages d’avertissement. Par exemple :
+Si les autorisations ne sont pas définies, Test-CsSetupPermission retourne la valeur False. Notez que cette valeur est généralement incluse dans de nombreux messages d’avertissement. Par exemple :
 
 AVERTISSEMENT : entrée de contrôle d’accès (ACE) atl-cs-001\RTCUniversalServerAdmins; Autoriser ; ExtendedRight; Aucun ; Aucun ; 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
