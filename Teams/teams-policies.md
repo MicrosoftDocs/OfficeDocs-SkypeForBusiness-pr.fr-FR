@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: Découvrez comment utiliser et gérer les stratégies d’équipes dans votre organisation pour contrôler ce que les utilisateurs peuvent faire dans les équipes et les canaux.
-ms.openlocfilehash: 4f5c8e638b5166c15223f0aee0034f1b18743bcf
-ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
+ms.openlocfilehash: de5558fbecddff0c4437cf3205aa676d664867f6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "58359151"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629976"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gérer les stratégies d’équipes dans Microsoft Teams
 
@@ -62,7 +62,7 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer Teams sites connectés et des sites de canaux](/SharePoint/teams-connected-sites)
 

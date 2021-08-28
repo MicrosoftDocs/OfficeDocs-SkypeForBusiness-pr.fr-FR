@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions pour la mise hors service de votre environnement Skype Entreprise local.
-ms.openlocfilehash: 0f1b25c6960739992913f31a89a9f554fb180e949df3e6dd213b5fbe14c4af82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53ed840c89ab02eff87607f0bdffebcef94fd4e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280349"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583388"
 ---
 # <a name="decommission-your-on-premises-skype-for-business-environment"></a>Mise hors service de votre environnement Skype pour entreprises sur site
 
@@ -39,7 +39,7 @@ Pour effectuer votre déplacement de l’environnement local vers le cloud et d�
 
 - **Étape 2.** [Désactivez votre configuration hybride.](cloud-consolidation-disabling-hybrid.md)
 
-- **Étape 3 :** [Déplacez les points de terminaison de l’application hybride de l’local vers le mode en ligne.](decommission-move-on-prem-endpoints.md)
+- **Étape 3.** [Déplacez les points de terminaison de l’application hybride de l’local vers le mode en ligne.](decommission-move-on-prem-endpoints.md)
 
 - **Étape 4.** [Supprimez votre déploiement Skype Entreprise local.](decommission-remove-on-prem.md)
 

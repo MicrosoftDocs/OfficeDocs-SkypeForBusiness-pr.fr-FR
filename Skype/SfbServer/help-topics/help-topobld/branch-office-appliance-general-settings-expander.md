@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Les sections suivantes vous permettent de modifier les paramètres d’un Survivable Branch Appliance existant ou d’un serveur Survivable Branch Server, les sections suivantes se succèdent :'
-ms.openlocfilehash: 5c8791661ff32c6cb40b968297d11595f5873bcf0b1cf0ce50078e41e713d68a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 727b0b7c49df5d1478a0b92ee89801fabb18d1f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582828"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expandeur des paramètres généraux du Branch Office Appliance
 
@@ -60,7 +60,7 @@ La résilience apporte une très grande disponibilité au pool de serveurs d’i
 Dans la liste de listes listes, sélectionnez le pool frontal Êdition Entreprise ou le serveur frontal Édition Standard qui agit en tant que serveur d’inscriptions de sauvegarde pour le Survivable Branch Appliance ou le serveur Survivable Branch Server. Vous pouvez également choisir d’activer des intervalles de basculement et de secours. L’activation des paramètres d’intervalle de basculement et de secours (indiqués en secondes) permet de détecter automatiquement un serveur d’inscriptions défaillant ; un intervalle de secours permet de déterminer automatiquement que le serveur principal est le serveur de sauvegarde et qu’il peut reprendre le processus du serveur d’inscriptions.
 
 > [!IMPORTANT]
-> Lorsque vous définissez l’intervalle entre deux détections d’échec et de secours, prenez garde à ne pas entrer un intervalle qui provoquera le basculement et le secours si le serveur d’inscriptions ne répond pas pendant un court moment. Le serveur d’inscriptions peut cesser de répondre pendant de courts moments en fonction du chargement du pool ou des serveurs. Les valeurs par défaut d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server dans un site pour un pool ou un serveur frontal Édition Standard sont de 120 secondes pour leover et de 240 secondes pour le serveur de base.
+> Lorsque vous définissez l’intervalle entre deux détections d’échec et de secours, prenez garde à ne pas entrer un intervalle qui provoquera le basculement et le secours si le serveur d’inscriptions ne répond pas pendant un court moment. Le serveur d’inscriptions peut cesser de répondre pendant de courts moments en fonction du chargement du pool ou des serveurs. Les valeurs par défaut d’un Survivable Branch Appliance ou d’un serveur Survivable Branch Server dans un site pour un pool ou un serveur frontal Édition Standard sont de 120 secondes pour le failover et de 240 secondes pour le serveur de base.
 
 ## <a name="mediation-server"></a>Serveur de médiation
 

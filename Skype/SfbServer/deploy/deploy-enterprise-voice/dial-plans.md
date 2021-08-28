@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Résumé : Découvrez comment créer ou modifier un plan de numérotation à l’aide du Panneau de Skype Entreprise Server de numérotation.'
-ms.openlocfilehash: 3b2a1e9189f2e54eff0db79ea11732ba5175f4fc6825bb7a71615422b2f9f4dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5e7f7cc0fc2edf0707025ed4b5e901c0a199021
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281267"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607631"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Créer ou modifier un plan de numérotation dans Skype Entreprise Server
 
@@ -52,7 +52,7 @@ ms.locfileid: "54281267"
 5. Le champ **Nom simple** contient déjà le nom qui figure dans le champ **Nom**. Si vous le souhaitez, vous pouvez modifier ce champ pour spécifier un nom qui reflète mieux le site, le service ou l’utilisateur auquel le plan de numérotation s’applique.
 
    > [!IMPORTANT]
-   > Le **nom simple doit** être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas comporter plus de 256 caractères Unicode, chacun d’entre eux étant un caractère alphabétique ou  numérique, un tiret (-), un point (.) ou un trait de soulignement (_).> Les caractères non pris en charge incluent des espaces et des caractères réservés tels que définis dans la norme RFC 3966 ( <http://www.ietf.org/rfc/rfc3966.txt> ). Les caractères réservés qui ne **sont pas pris en** charge dans le nom **simple** sont les suivants : > « ; » "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+   > Le **nom simple doit** être unique parmi tous les plans de numérotation de votre déploiement. Il ne peut pas comporter plus de 256 caractères Unicode, chacun d’entre eux étant un caractère alphabétique ou  numérique, un tiret (-), un point (.) ou un trait de soulignement (_).> Les caractères non pris en charge incluent des espaces et des caractères réservés tels que définis dans la norme RFC 3966 ( <http://www.ietf.org/rfc/rfc3966.txt> ). Les caractères réservés qui ne **sont pas pris** en charge dans le nom **simple** sont les suivants : > « ; » "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Facultatif) Dans le champ **Description**, vous pouvez taper des informations descriptives supplémentaires concernant le plan de numérotation.
 

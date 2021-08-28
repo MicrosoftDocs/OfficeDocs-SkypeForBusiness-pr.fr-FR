@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 description: L Skype Entreprise Online Plan 1 a été retiré. Toutefois, si vous avez un abonnement actuel à Skype Entreprise Online Plan 1, ce changement ne vous affectera pas immédiatement. Lorsque vous êtes prêt à passer à une nouvelle offre, que ce soit maintenant ou pendant le renouvellement, vous avez trois possibilités.
-ms.openlocfilehash: 1fcab902c9d3c05713a3bf263fa54cf33e7036f1b8cf9b7b8935fe966f8d5659
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0946ff0ee6b38f36cdb2f6bd8dcea728fc65c92a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316370"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583378"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype Entreprise Online - Déclassement de l’offre 1 
 

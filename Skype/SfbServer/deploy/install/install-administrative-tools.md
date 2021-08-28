@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: "Résumé : Découvrez comment installer les outils d’administration requis pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 7c9f337471f01f76c5aa8069892e937698e9860d265243305e53150d642a7e7a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e5ec73f4702f3011d09b3338489cb397b7c5922
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304336"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607621"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Installer les outils d’administration dans Skype Entreprise Server
  
@@ -34,7 +34,7 @@ Les outils d’administration incluent le Générateur de topologie et le Pannea
   
 ## <a name="install-skype-for-business-server-administrative-tools"></a>Installer les Skype Entreprise Server d’administration
 
-Le support d’installation Skype Entreprise Server offre une expérience flexible. Lors de la première Setup.exe, les seuls outils installés sont l’Assistant Déploiement Skype Entreprise Server et l’Skype Entreprise Server Management Shell. À l’aide de ces deux outils, appelés composants principaux, vous pouvez poursuivre le processus d’installation, mais ils ne fournissent pas de fonctionnalités principales pour l’environnement Skype Entreprise Server globale. L’Assistant Déploiement se lance automatiquement après l’installation des composants principaux. La section de l’Assistant Déploiement intitulée **Installer** les outils d’administration installe Skype Entreprise Server générateur de topologie et Skype Entreprise Server panneau de contrôle.
+Le support d’installation Skype Entreprise Server offre une expérience flexible. Lors de la première Setup.exe, les seuls outils installés sont l’Assistant Déploiement Skype Entreprise Server et Skype Entreprise Server Management Shell. À l’aide de ces deux outils, appelés composants principaux, vous pouvez poursuivre le processus d’installation, mais ils ne fournissent pas de fonctionnalités principales pour l’environnement Skype Entreprise Server globale. L’Assistant Déploiement se lance automatiquement après l’installation des composants principaux. La section de l’Assistant Déploiement intitulée **Installer** les outils d’administration installe Skype Entreprise Server générateur de topologie et Skype Entreprise Server panneau de contrôle.
   
 > [!IMPORTANT]
 > Chaque Skype Entreprise Server doit avoir au moins un serveur avec les outils d’administration installés. 

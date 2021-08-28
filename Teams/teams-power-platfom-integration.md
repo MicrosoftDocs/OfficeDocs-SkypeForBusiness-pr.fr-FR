@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment Teams’intégration à des outils de la plateforme Microsoft Power Platform, notamment Power BI, applications Power, Power automatiser et Power Virtual Agents.
-ms.openlocfilehash: 35663c2e16afe26d339b54ba4c093beb2c8a9f7f1ade8ece1204a673cff28fd7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 521085303ed77f23aae0bd8a87001483cc8d530f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312472"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629946"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams’intégration avec Microsoft Power Platform
 
@@ -34,18 +34,18 @@ Microsoft Power Platform offre de nombreuses fonctionnalités d’intégration a
 
 À partir de septembre 2020, l’intégration à Microsoft Power Platform a été améliorée pour que les utilisateurs utilisent les services suivants sans jamais quitter l Teams *interface utilisateur*:
 
-- Créez et partagez des tableaux de bord, des rapports et des applications **Power BI** pour prendre des décisions axées sur les données.
+- Créez et partagez des tableaux de bord, des rapports et **des** applications Power BI pour prendre des décisions éclairées par les données.
 - Créez et partagez des applications conçues à usage spécifique à l’aide d’un studio **Power Apps** intégré en vous connectant à vos données métiers stockées soit dans la nouvelle plateforme de données sous-jacente (Microsoft Dataverse pour Teams), dans Microsoft 365, soit dans d’autres sources de données via des connecteurs.
 - Créez des flux de travail automatisés entre vos applications et services pour synchroniser des fichiers, recevoir des notifications, collecter des données et bien plus à l’aide **de Power Automate.**
 - Créez des robots à l’aide d’une interface graphique guidée sans code à l’aide de **Power Virtual Agents** pour créer facilement des assistants numériques au sein d’Teams et les mettre à la disposition de vos collègues pour qu’ils discutent.
 
-Les nouvelles fonctionnalités de création d’applications, de bots et de flux de travail sont backed par la nouvelle plateforme de données intégrée à faible code pour Teams, [Dataverse pour Teams,](/powerapps/teams/overview-data-platform)qui fournit un stockage des données relationnelles, des types de données enrichis, une gouvernance de qualité d’entreprise et un déploiement de solution en un seul clic. Dataverse Teams est intégré à [Microsoft Dataverse.](/powerapps/maker/common-data-service/data-platform-intro) Grâce à Dataverse pour Teams, les utilisateurs Teams peuvent trouver et installer des solutions personnalisées prêtes à l’emploi à partir du magasin d’applications Teams qui présente des scénarios courants dans différents secteurs. Vous pouvez personnaliser et étendre ces solutions personnalisées afin de les adapter à la personnalisation et aux exigences de votre organisation.
+Les nouvelles fonctionnalités de création d’applications, de robots et de flux de travail sont backed par la nouvelle plateforme de données intégrée à faible code pour Teams, [Dataverse pour Teams](/powerapps/teams/overview-data-platform)qui fournit un stockage relationnel des données, des types de données enrichis, une gouvernance de niveau entreprise et un déploiement de solution en un seul clic. Dataverse Teams est intégré à [Microsoft Dataverse.](/powerapps/maker/common-data-service/data-platform-intro) Grâce à Dataverse pour Teams, les utilisateurs Teams peuvent trouver et installer des solutions personnalisées prêtes à l’emploi à partir du magasin d’applications Teams qui présente des scénarios courants dans différents secteurs. Vous pouvez personnaliser et étendre ces solutions personnalisées afin de les adapter à la personnalisation et aux exigences de votre organisation.
 
 ## <a name="licensing"></a>Gestion des licences
 
-Les nouvelles fonctionnalités sont disponibles pour les abonnements Microsoft 365 abonnements sélectionnés.
+Les nouvelles fonctionnalités sont disponibles pour la sélection Microsoft 365 abonnements.
 
-- Pour plus d’informations sur les conditions de licence requises pour Power Apps, Power Automate, Power Virtual Agents etVers de données pour Teams, voir [Gestion des licences.](/power-platform/admin/about-teams-environment)
+- Pour plus d’informations sur les conditions de licence pour Power Apps, Power Automate, Power Virtual Agents etVers de données pour Teams, voir [Gestion des licences.](/power-platform/admin/about-teams-environment)
 - Pour plus d’informations sur les conditions de licence requises Power BI, voir [La exigences.](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
  
 ## <a name="how-do-i-get-started"></a>Comment puis-je commencer ?

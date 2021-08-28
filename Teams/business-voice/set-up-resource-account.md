@@ -1,5 +1,5 @@
 ---
-title: Configurer un compte de Microsoft 365 Business Voice ressources client
+title: Configurer un compte Microsoft 365 Business Voice ressource client
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez comment configurer un compte de ressource Microsoft 365 Business Voice à utiliser avec les attendants automatiques.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb36a0f3a1327bb3b42b0148c889a05e377ccf1af80c4a3c42d51299677b9692
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: afc45df5ecf6336d2ddea86581fde67e85a6ab24
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331076"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630238"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Étape 4 : configurer un compte de ressource Voix Entreprise
 
@@ -58,7 +58,7 @@ Les comptes de ressources nécessitent une licence pour l’utilisation des file
 
 ## <a name="create-a-resource-account"></a>Créer un compte de ressource
 
-Une fois que vous avez reçu *votre Microsoft 365 Système téléphonique d’utilisateur* virtuel, vous pouvez créer votre compte de ressource.
+Une fois que vous avez reçu *votre Microsoft 365 Système téléphonique - Licence* Utilisateur virtuel, vous pouvez créer votre compte de ressource.
 
 ![Capture d’écran de l’interface utilisateur Ajouter un compte de ressource](../media/resource-account-add.png)
 
@@ -73,7 +73,7 @@ Une fois que vous avez reçu *votre Microsoft 365 Système téléphonique d’ut
 
 ## <a name="assign-a-license"></a>Attribuer une licence
 
-Après avoir créé votre compte de ressource, vous devez affecter une *Microsoft 365 Système téléphonique utilisateur* virtuel ou *une Système téléphonique* virtuel.
+Après avoir créé votre compte de ressource, vous devez affecter une Microsoft 365 Système téléphonique *utilisateur* virtuel ou *une Système téléphonique* virtuel.
 
 ![Capture d’écran de l’interface utilisateur attribuer des licences dans le Centre d’administration Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
 

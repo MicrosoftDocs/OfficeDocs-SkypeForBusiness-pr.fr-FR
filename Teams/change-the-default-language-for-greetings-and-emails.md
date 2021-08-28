@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment configurer les paramètres Microsoft Teams et Skype Entreprise utiliser une autre langue pour le message d’accueil vocal par défaut de votre organisation.
-ms.openlocfilehash: 92f767a366ac6c3250f529ec022f9b12414bd2f542c00c8f267596c7e276ee0b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f204cdfca0be7eab5964b2c9c50c57f306af94ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339880"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607871"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Modifier la langue par défaut des messages d'accueil et des courriers électroniques
 
@@ -51,7 +51,7 @@ Si vous êtes un administrateur [général,](https://support.office.com/article/
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Modifier la langue du système pour l'ensemble des utilisateurs de votre organisation
 
-1. Connectez-vous à [l’auprès de votre compte d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) général sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Connectez-vous à [l’auprès de votre](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) compte d’administrateur général sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
 
 2. Dans la Centre d’administration Microsoft 365, **sélectionnez** Paramètres  >  **Paramètres**  >  **de l’organisation.**
 
@@ -73,7 +73,7 @@ Si vous êtes un administrateur [général,](https://support.office.com/article/
 
 - [Planifiez Système téléphonique en Microsoft 365 ou Office 365 avec une connectivité PSTN Skype Entreprise Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Changer la langue d’affichage et le fuseau horaire dans Microsoft 365 ou Office 365 entreprise](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
 

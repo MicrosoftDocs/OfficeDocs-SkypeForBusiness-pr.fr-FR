@@ -14,19 +14,19 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment approuver vos applications personnalisées soumises à l’aide de l’API de soumission Teams’application dans Microsoft Teams.
-ms.openlocfilehash: 1a2f387e066913416f43e627456f60563d2eef51e369cd850a20684dc7e79d41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39604325fe808e39bbd13203752c1cc351b15cc4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630036"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Publier une application personnalisée envoyée via l’API Teams App Submission
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 > [!NOTE]
 > Lorsque vous publiez une Teams personnalisée, elle est disponible pour les utilisateurs dans le magasin d’applications de votre organisation. Il existe deux façons de publier une application personnalisée et la façon dont vous l’utilisez dépend de la façon dont vous l’obtenez. Cet article explique comment approuver et publier une application personnalisée qu’un développeur envoie via **l’API Teams App Submission.** L’autre méthode, le téléchargement d’une application personnalisée, est utilisée lorsqu’un développeur vous envoie un package d’application .zip format. Pour en savoir plus sur cette méthode, voir <a href="/microsoftteams/upload-custom-apps" target="_blank">Publier une application personnalisée en téléchargeant un package d’application.</a> Le widget d’approbation de l’application n’est pas Cloud de la communauté du secteur public vos locataires. 
@@ -58,13 +58,13 @@ Voici un exemple de l’étape de soumission de l’application dans Visual Stud
 
 ![soumission d’une application dans Visual Studio Code](media/custom-app-lifecycle-submit-app.png)
 
-Gardez à l’esprit que cette application ne publie pas encore l’application sur le magasin d’applications de votre organisation. Cette étape envoie l’application au Microsoft Teams d’administration dans lequel vous pouvez l’approuver pour la publication dans le magasin d’applications de votre organisation.
+N’oubliez pas que l’application n’est pas encore publiée sur le magasin d’applications de votre organisation. Cette étape envoie l’application au Microsoft Teams d’administration dans lequel vous pouvez l’approuver pour la publication dans le magasin d’applications de votre organisation.
 
 Pour plus d’informations sur l’utilisation de Graph API pour envoyer des applications, voir <a href="/graph/api/teamsapp-publish" target="_blank">ici.</a>
 
 ## <a name="validate"></a>Validate
 
-La <a href="/microsoftteams/manage-apps" target="_blank">page</a> Gérer les applications du Centre d’administration Microsoft Teams (dans le panneau de navigation de gauche, allez dans les applications **Teams** Gérer les applications) vous permet d’afficher toutes les applications Teams de votre  >  organisation. Le **widget d’approbation** en attente en haut de la page vous permet de savoir quand une application personnalisée est soumise pour approbation.
+La <a href="/microsoftteams/manage-apps" target="_blank">page</a> Gérer les applications du Centre d’administration Microsoft Teams (dans le panneau de navigation de gauche, allez dans les applications **Teams** Gérer les applications) vous permet d’afficher toutes les applications Teams de votre  >  organisation. Le **widget Approbation en** attente en haut de la page vous permet de savoir quand une application personnalisée est soumise pour approbation.
 
 Dans la table, une application nouvellement envoyée affiche automatiquement le statut Publication d’Soumis et Le **statut** **Bloqué.**   Vous pouvez trier la **colonne État de publication** dans l’ordre décroit pour trouver rapidement l’application.
 
@@ -134,7 +134,7 @@ Gardez à l’esprit les choses suivantes :
 
 Pour plus d’informations sur l’utilisation de l’API Graph mise à jour des applications, voir <a href="/graph/api/teamsapp-update">ici.</a>
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Publier une application personnalisée en chargeant un package d’application](upload-custom-apps.md)
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)

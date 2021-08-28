@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Découvrez comment planifier les groupes Microsoft 365 dans Teams, notamment les différences entre les groupes et & Teams conversations, et comment Teams respecte la stratégie de noms de groupes.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f864caee2eb81603bd5a298a01ac3573336fd22f
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 29fd455954dc582e0e34c9e909611e609578f5fa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234839"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630086"
 ---
 # <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Planifier des groupes Microsoft 365 lors de la création d’équipes dans Microsoft Teams
 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: keschm
 description: Conseils sur l’utilisation de scripts pour déployer ou provisionner Microsoft Teams pour les employés de première ligne.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a650b116f3a558594a2177fc4d53f713cf5d90e1488205573d370c5dd7124c40
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347160"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607691"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de bureau
 

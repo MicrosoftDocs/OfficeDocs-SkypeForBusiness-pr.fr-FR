@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PdpSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux vous permettant de placer des restrictions sur les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau pour le contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels pour appliquer les restrictions de bande passante.
-ms.openlocfilehash: c4cf3fb84e8c7a4cb9fea9f6092054d37278c52a4e441d52dce72734b37906e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 23a881bf502a161a5a81e17a23a889ff1324f6c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582768"
 ---
 # <a name="call-admission-control-settings-expander"></a>Expandeur des paramètres du contrôle d’admission des appels
  

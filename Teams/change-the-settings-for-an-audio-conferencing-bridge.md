@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Modifiez les paramètres du pont de conférence audio, y compris les notifications d’entrée et de sortie, appelez les appelants et appelez-les pour enregistrer leur nom.
-ms.openlocfilehash: eaa757a45c94d0dd6d01366db3039150dce057243709b30c711a7ca69963cbca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 434142eb0e7d8cd4759eec180e903eaecad47525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329289"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607851"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Modifier les paramètres d’un pont d’audioconférence.
 
@@ -88,7 +88,7 @@ Le pont de conférence répond à un appel et invite l’appelant à lire les in
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer Audioconférence pour Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 

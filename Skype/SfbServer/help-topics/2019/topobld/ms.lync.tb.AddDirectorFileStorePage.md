@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorFileStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a15b69e0-d3d1-4648-af25-1c0f25e5da8e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous devez spécifier un partage de fichiers à utiliser comme magasin de fichiers pour les directeurs. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou indiquer un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel situer le partage de fichiers et un nom de dossier pour le nouveau partage de fichiers.
-ms.openlocfilehash: 890a966fa58fb0e32acc32b2c677a250bb5d68819469d45a73baa64f209b6021
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2ca8cca0298d15dbb6056d1ff0e7d6e6679ef42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304176"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629916"
 ---
 # <a name="add-director-file-store"></a>Ajouter un magasin de fichiers pour les directeurs
 

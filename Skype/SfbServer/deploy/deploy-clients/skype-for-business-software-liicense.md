@@ -9,15 +9,15 @@ ms.topic: quickstart
 f1.keywords:
 - NOCSH
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lisez cette rubrique pour savoir comment vérifier si vous avez une licence en volume Skype Entreprise logiciels.
-ms.openlocfilehash: c1294df980a1fca2118e6ca2e9b172904365639900081fad7425b4d850501fdc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297610"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583328"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Système de salle : Skype Entreprise licence logicielle
  
@@ -47,7 +47,7 @@ Pour obtenir une clé MAK, accédez au Centre de gestion des licences en volume 
   
 ## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>MAK pour les Microsoft 365 ou Office 365 sans accès VLSC
 
-Si le client n’a pas de contrat de licence en volume, les activations Skype Entreprise seront beaucoup plus difficiles à gérer. Toutefois, Microsoft 365 et Office 365 clients sans accès VLSC peuvent obtenir une MAK promotionnelle en fournissant les informations suivantes au OEM qui vend le Skype Room System :
+Si le client n’a pas de contrat de licence en volume, les activations Skype Entreprise seront beaucoup plus difficiles à gérer. Toutefois, les Microsoft 365 et Office 365 qui n’ont pas accès au VLSC peuvent obtenir une mak promotionnelle en fournissant les informations suivantes au OEM qui vend le Skype Room System :
   
 - Nom de la société
     
