@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment créer et gérer une équipe à l’échelle de l’organisation dans Teams afin de fournir une façon automatique à tous les membres d’une organisation de petite à moyenne taille de collaborer.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8a45da6af484209fcae5569d52ad03476b9ead4ff6da266d6ca5925c0be815b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a6faac9e0c04f71bddb69b0a8bd7748072699edb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337982"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589748"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -36,7 +36,7 @@ Seuls les administrateurs globaux peuvent créer des équipes à l’échelle de
 
 ![Capture d’écran de l’option à l’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation](media/create-org-wide-team.png "Capture d’écran de l’option à l’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation")
 
-Lorsqu’une équipe est créée à l’échelle de l’organisation, tous les administrateurs globaux et administrateurs de services Teams sont ajoutés en tant que propriétaires d’équipe et tous les utilisateurs actifs sont ajoutés en tant que membres d’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se Teams, une licence de licence Microsoft Teams’utilisateur s’affiche. Pour en savoir plus sur la licence Sous-licence, consultez Gérer la licence [Microsoft Teams de l’équipe.](teams-exploratory.md) 
+Lorsqu’une équipe est créée à l’échelle de l’organisation, tous les administrateurs globaux et administrateurs de services Teams sont ajoutés en tant que propriétaires d’équipe et tous les utilisateurs actifs sont ajoutés en tant que membres d’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se Teams, une licence de licence Microsoft Teams’utilisateur s’affiche. Pour en savoir plus sur la licence Errité, consultez Gérer la [licence Microsoft Teams de l’équipe.](teams-exploratory.md) 
 
 Les types de comptes suivants ne sont pas ajoutés à l’équipe à l’échelle de votre organisation :
 
@@ -63,7 +63,7 @@ Pour 100%2010, nous recommandons aux propriétaires d’équipe d’effectuer le
 Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d’équipe publient sur le canal général. 
 
 1. Allez dans l’équipe, recherchez le canal Général, puis sélectionnez « contrôle général » et « Canal de gestion » plus   >  **d’options.** 
-2. Sous **l’onglet Paramètres du** canal, cliquez **sur Autorisations,** puis sélectionnez **Seuls les propriétaires peuvent publier des messages.**
+2. Sous **l’onglet Paramètres du** canal, cliquez sur **Autorisations,** puis sélectionnez **Seuls les propriétaires peuvent publier des messages.**
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Désactiver les mentions @team et @ [nom de l’équipe]
 
@@ -89,7 +89,7 @@ Pour plus d’informations, consultez [Configurer et gérer la modération des c
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Supprimez les comptes sans propriétaire
 
-Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire de l’équipe, vous pouvez gérer la liste de l’équipe en supprimant les comptes qui n’appartiennent pas. **Veillez à utiliser Teams pour supprimer des utilisateurs de votre équipe à l’échelle de l’organisation**. Si vous utilisez une autre manière de supprimer un utilisateur, tel que le Centre d’administration Microsoft 365 ou d’un groupe dans Outlook, l’utilisateur peut être rajouté à l’équipe à l’échelle de l’organisation.
+Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire de l’équipe, vous pouvez gérer la liste de l’équipe en supprimant les comptes qui n’appartiennent pas à l’équipe. **Veillez à utiliser Teams pour supprimer des utilisateurs de votre équipe à l’échelle de l’organisation**. Si vous utilisez une autre manière de supprimer un utilisateur, tel que le Centre d’administration Microsoft 365 ou d’un groupe dans Outlook, l’utilisateur peut être rajouté à l’équipe à l’échelle de l’organisation.
 
 ## <a name="faq"></a>FAQ
 

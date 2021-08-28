@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 569cc9ca0bcc4b18adb8f5ca05c81241e443982ec7cfb10c3232d523b6d250a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9783bdee0cdb08731b716b89a43ff207414e619
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342559"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595948"
 ---
-# <a name="external-access-policy-create-new-or-edit-existing"></a>Stratégie d’accès externe : création d’une nouvelle ou modification d’une stratégie existante
+# <a name="external-access-policy-create-new-or-edit-existing"></a>Stratégie d’accès externe : création d’une nouvelle ou modification d’une stratégie existante
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

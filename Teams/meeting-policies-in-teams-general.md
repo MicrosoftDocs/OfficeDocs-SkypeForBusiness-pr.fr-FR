@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres généraux de stratégie de réunion dans Teams.
-ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
-ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
+ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589676"
 ---
 # <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
 
@@ -82,7 +82,7 @@ Dans la page de billets du canal, les messages suivants sont désactivés :
 Dans le calendrier de canal :
 
 - Le bouton **Ajouter un événement** dans l’en-tête du calendrier est désactivé.
-  ![Capture d’écran montrant l’option de calendrier pour sélectionner un canal qui vous permet de planifier une réunion.](media/add-new-event-disabled.png)
+  ![Capture d’écran montrant l’option de calendrier permettant de sélectionner un canal qui vous permet de planifier une réunion.](media/add-new-event-disabled.png)
 
 - Les utilisateurs ne peuvent pas faire glisser et sélectionner un bloc de temps dans le calendrier du canal pour créer une réunion de canal.
 

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Résumé : Découvrez le processus de déploiement du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: eaabfe4700a2466c469776fcd839beab358ed763ede49c96a72d0be5f10f660c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af43865c76b565ac126d80193b3b32b0bd870260
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278742"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596568"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Déployer le Tableau de bord de qualité des appels pour Skype Entreprise Server
  
@@ -36,19 +36,19 @@ Le tableau de bord de qualité des appels (CQD) se compose de trois composants p
     
 ![Composants CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-Le processus de configuration de qoE Archive implique la création de la base de données d’archivage QoE, le déploiement d’une procédure stockée SQL Server qui déplace les données de la base de données de mesures QoE source vers la base de données d’archivage QoE et la configuration du travail de l’agent SQL Server pour exécuter la procédure stockée à intervalles réguliers. 
+Le processus de configuration de l’archive QoE implique la création de la base de données d’archivage QoE, le déploiement d’une procédure stockée SQL Server qui déplace les données de la base de données de mesures QoE source vers la base de données d’archivage QoE et la configuration du travail de l’agent SQL Server pour exécuter la procédure stockée à intervalles réguliers. 
   
 Le déploiement de cube obtient des informations de l’utilisateur sur l’emplacement de l’archive QoE, déploie le cube et définit un travail d’agent SQL Server normal qui actualisera le cube à intervalles réguliers.
   
-L’installation du portail crée une base de données de référentiel qui stocke le mappage des utilisateurs CQD aux rapports/requêtes de chaque utilisateur. Il définit ensuite une application web IIS qui est le tableau de bord dans lequel les utilisateurs peuvent voir un ensemble prédéfinis de rapports, ainsi que personnaliser et créer leurs propres requêtes pour visualiser les données à partir du cube. L’installation du portail crée deux applications web supplémentaires qui exposent des API pour que les utilisateurs accèdent par programmation au référentiel et au cube. (Ces API sont également utilisées en interne par le tableau de bord.)
+L’installation du portail crée une base de données de référentiel qui stocke le mappage des utilisateurs CQD aux rapports/requêtes de chaque utilisateur. Il définit ensuite une application web IIS qui est le tableau de bord dans lequel les utilisateurs peuvent voir un ensemble prédéfinis de rapports, ainsi que personnaliser et créer leurs propres requêtes pour visualiser les données à partir du cube. L’installation du portail crée deux applications web supplémentaires qui exposent des API pour que les utilisateurs accèdent par programme au référentiel et au cube. (Ces API sont également utilisées en interne par le tableau de bord.)
   
 
 |**Étape**|**Étapes**|**Rôles et appartenance à un groupe**|**Documentation**|
 |:-----|:-----|:-----|:-----|
 |Installez le matériel et les logiciels prérequis.  <br/> |Choisissez la configuration du CQD et choisissez un SQL Server à partir duquel effectuer l’installation.  <br/> |Utilisateur du domaine membre du groupe Administrateurs local.  <br/> |Section « Conditions préalables à l’installation » dans la documentation de déploiement.  <br/> |
 |Installez le CQD.  <br/> |Exécutez le MSI suivant le document de déploiement.  <br/> |Pour effectuer l’installation, le compte d’installation doit être un utilisateur de domaine membre du groupe Administrateurs local et ayant accès en lecture à la base de données de mesures QoE sur le serveur de surveillance.  <br/> |Sections « Comptes et étapes de déploiement » dans la documentation de déploiement.  <br/> |
-|Accorder l’accès utilisateur.  <br/> |Pour gérer l’autorisation des utilisateurs sur le portail, nous vous recommandons d’utiliser l’autorisation d’URL, qui a été introduite dans IIS 7.0. Pour plus d’informations, voir [Understanding IIS 7.0 URL Authorization](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Utilisateur du domaine membre du groupe Administrateurs local.  <br/> |Gestion de l’accès des utilisateurs pour la section Portail de la documentation de déploiement.  <br/> |
-|Facultatif : fournir des informations de mappage de sous-réseau.  <br/> |Remplir le réseau et créer des tables de mappage dans la base de données d’archivage QoE.  <br/> |Un compte avec un accès en écriture à la base de données d’archivage QoE.  <br/> |Section « Informations sur le sous-réseau » dans la documentation de l’utilisateur.  <br/> |
+|Accorder l’accès utilisateur.  <br/> |Pour gérer l’autorisation des utilisateurs sur le portail, nous vous recommandons d’utiliser l’autorisation d’URL, qui a été introduite dans IIS 7.0. Pour plus d’informations, voir [Understanding IIS 7.0 URL Authorization](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).  <br/> |Utilisateur du domaine membre du groupe Administrateurs local.  <br/> |Managing User Access for the Portal section in the deployment documentation.  <br/> |
+|Facultatif : fournir des informations de mappage de sous-réseau.  <br/> |Remplir le réseau et créer des tables de mappage dans la base de données d’archivage QoE.  <br/> |Un compte avec un accès en écriture à la base de données d’archivage QoE.  <br/> |Section « Fourniture d’informations de sous-réseau » dans la documentation de l’utilisateur.  <br/> |
    
 
 
@@ -62,7 +62,7 @@ Le déploiement du tableau de bord de qualité des appels implique la configurat
     
 3. Acceptez le CLA.
     
-4. Sélectionnez le dossier de destination dans lequel se trouvent les fichiers liés aux composants du Tableau de bord de qualité des appels ou acceptez l’emplacement par défaut.
+4. Sélectionnez le dossier de destination où se trouvent les fichiers liés aux composants du Tableau de bord de qualité des appels ou acceptez l’emplacement par défaut.
     
 5. Sélectionnez toutes les fonctionnalités.
     
@@ -83,7 +83,7 @@ Le déploiement du tableau de bord de qualité des appels implique la configurat
      > [!NOTE]
      > La sélection de l’option Utiliser plusieurs partitions ne peut pas être modifiée une fois l’installation terminée. Pour la modifier, la fonctionnalité Cube doit d’abord être désinstallée, puis réinstallée à l’aide de l’option « Modifier » dans le Panneau de contrôle. 
   
-   - **Répertoire de fichiers de partition :** Chemin d’accès à l’endroit où les partitions de la base de données d’archivage QoE doivent être placées. Il doit se faire sur un lecteur (HDD3 dans la configuration matérielle recommandée) distinct du lecteur de système d’exploitation et du lecteur de fichiers journaux SQL base de données. Étant donné que les noms de fichiers sont résolus dans l’installation, pour éviter tout conflit potentiel, il est recommandé d’utiliser un répertoire vide sans fichier.
+   - **Répertoire de fichiers de partition :** Chemin d’accès à l’endroit où les partitions de la base de données d’archivage QoE doivent être placées. Il doit se faire sur un lecteur (HDD3 dans la configuration matérielle recommandée) distinct du lecteur de système d’exploitation et SQL de fichiers journaux de base de données. Étant donné que les noms de fichiers sont résolus dans l’installation, pour éviter tout conflit potentiel, il est recommandé d’utiliser un répertoire vide sans fichier.
     
    - **SQL de travail de l’agent - Nom d’utilisateur &amp;** Mot de passe : nom de compte de service de domaine et mot de passe (masqué) qui seront utilisés pour exécuter l’étape « Données d’archivage QoE » du travail de l’agent SQL Server (qui exécutera la procédure stockée pour extraire des données de la base de données de mesures QoE dans la base de données d’archivage, ce compte doit donc avoir un accès en lecture à la base de données de mesures QoE, comme indiqué dans la section Comptes). Ce compte doit également avoir une connexion dans l’instance d’archivage QoE SQL Server).
     
@@ -117,7 +117,7 @@ Le déploiement du tableau de bord de qualité des appels implique la configurat
     
 10. Dans la page Configuration du portail, fournissez les informations suivantes :
     
-    - **Archive QoE SQL Server :** SQL Server instance pour l’emplacement de la base de données d’archivage QoE. Notez que contrairement à la page Configuration de l’archive QoE et à la page Configuration du cube, le nom de l’ordinateur n’est pas fixe et doit être fourni. Si le composant d’archivage QoE a été sélectionné pour l’installation, ce champ sera pré-rempli avec la valeur fournie dans la page Configuration de l’archive QoE.
+    - **Archive QoE SQL Server :** SQL Server d’instance pour l’emplacement de la base de données d’archivage QoE. Notez que contrairement à la page Configuration de l’archive QoE et à la page Configuration du cube, le nom de l’ordinateur n’est pas fixe et doit être fourni. Si le composant d’archivage QoE a été sélectionné pour l’installation, ce champ sera pré-rempli avec la valeur fournie dans la page Configuration de l’archive QoE.
     
     - **Serveur d’analyse** de cube : SQL Server instance analysis service pour l’emplacement du cube. Si le composant Cube a été sélectionné pour l’installation, ce champ sera pré-rempli avec la valeur fournie dans la page Configuration du cube.
     
@@ -125,7 +125,7 @@ Le déploiement du tableau de bord de qualité des appels implique la configurat
     
     - **Base de données de référentiel :** Par défaut, l’option est définie sur « Créer une nouvelle base de données ». Étant donné que la mise à niveau de la base de données du référentiel n’est pas prise en charge, la seule circonstance dans laquelle l’option « Utiliser la base de données existante » peut être utilisée est si la base de données de référentiel existante possède le même schéma que la build à installer.
     
-    - **Utilisateur du pool d’applications IIS - Nom d’utilisateur &amp; Mot de passe :** compte sous le compte sur qui le pool d’applications IIS doit s’exécuter. Les champs Nom d’utilisateur et Mot de passe sont grisés si les comptes système intégrés sont sélectionnés. Ces champs ne seront activés que si « Autre » est sélectionné dans la zone de baisse afin que l’utilisateur puisse entrer les informations du compte de service de domaine.
+    - **Utilisateur du pool d’applications IIS - Nom d’utilisateur &amp; Mot de passe :** compte dans le pool d’applications IIS qui doit s’exécuter. Les champs Nom d’utilisateur et Mot de passe sont grisés si les comptes système intégrés sont sélectionnés. Ces champs ne seront activés que si « Autre » est sélectionné dans la zone de baisse afin que l’utilisateur puisse entrer les informations du compte de service de domaine.
     
 11. Lorsque vous cliquez sur suivant, la dernière série de validations est effectuée pour vous assurer que les instances SQL Server sont accessibles à l’aide des informations d’identification fournies et qu’IIS est disponible sur l’ordinateur. Une fois la validation terminée, le programme d’installation procède à l’installation. 
     
@@ -139,7 +139,7 @@ Les messages journaux détaillés s’afficheront si le mode débogage est activ
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
-La page du portail principal est accessible via  `http://<machinename>/CQD` . 
+La page principale du portail est accessible via  `http://<machinename>/CQD` . 
 ## <a name="managing-user-access-for-the-portal"></a>Gestion de l’accès des utilisateurs pour le portail
 
 Pour gérer l’autorisation des utilisateurs sur le portail, nous vous recommandons d’utiliser l’autorisation d’URL, qui a été introduite dans IIS 7.0. Pour plus d’informations sur la sécurité IIS, voir [Understanding IIS 7.0 URL Authorization](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
@@ -269,12 +269,12 @@ Après avoir installé le CQD, effectuez les tâches de configuration suivantes 
     
 ### <a name="define-building-types"></a>Définir les types de construction
 
-Les types de construction sont utilisés pour décrire les différentes définitions ou types de bâtiments au sein de votre organisation. 
+Les types de bâtiment sont utilisés pour décrire les différentes définitions ou types de bâtiments au sein de votre organisation. 
   
 > [!NOTE]
 > Cette étape est facultative, mais recommandée. 
   
-Exemples
+範例
   
 - Headquarters
     
@@ -303,7 +303,7 @@ Les types de propriété sont utilisés pour distinguer les biens propriétaires
 > [!NOTE]
 > Cette étape est facultative, mais recommandée. 
   
-Exemples
+範例
   
 - Contoso Leased non-RE &amp; F
     
@@ -337,7 +337,7 @@ Les types de réseau sont utilisés pour décrire différents types de réseaux 
 > [!NOTE]
 > Il est vivement recommandé de définir des noms de réseau, mais il est facultatif. Si vous décidez de ne pas définir de noms réseau, assurez-vous que chaque entrée CqdNetwork a un BuildingId de 0. 
   
-Exemples
+範例
   
 - VPN
     
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (vous devez utiliser la forme délimitée)  <br/> |
 |Contrôleur  <br/> |Création  <br/> |Aruba AP 7  <br/> |
-|Device  <br/> |ess  <br/> |Controller1  <br/> |
+|Appareil  <br/> |ess  <br/> |Controller1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Traitement des données importées

@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 - m365initiative-meetings
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e17efec2d363083ac2169623b8b561ea6fbed333
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: b7ed3de69ed5deffcd0681f9f040dfeb074b2aa1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523975"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596348"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -99,7 +99,7 @@ Les paramètres de réunions sont utilisés pour contrôler si les utilisateurs 
 
 ### <a name="meeting-policies"></a>Stratégies de réunion
 
-Les stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui sont disponibles aux utilisateurs lorsqu’ils se connectent à des réunions Teams. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies de réunion personnalisées pour les personnes qui hébergent des réunions dans votre organisation. Pour plus d’informations, voir le [didacticiel Réunions avec Microsoft Teams](tutorial-meetings-in-teams.yml).
+Les stratégies de réunion sont utilisés pour contrôler les fonctionnalités qui sont disponibles aux utilisateurs lorsqu’ils se connectent à des réunions Teams. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies de réunion personnalisées pour les personnes qui hébergent des réunions dans votre organisation. Pour plus d’informations, voir le [didacticiel Réunions avec Microsoft Team](tutorial-meetings-in-teams.yml).
 
 | Posez-vous la question | Action |
 |--------------|--------|

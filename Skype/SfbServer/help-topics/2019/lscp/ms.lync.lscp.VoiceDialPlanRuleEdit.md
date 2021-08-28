@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 5dc49289f71198bfd273e4d5bf028fb7e01ba65c02d1add7ce194a8fc7b523ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d58bc1d3e6cee210ea4731088880bbc3a05631e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294741"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595928"
 ---
-# <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : en créer une nouvelle ou en modifier une existant
+# <a name="normalization-rule-create-new-or-edit-existing"></a>Règle de normalisation : en créer une nouvelle ou en modifier une existant
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

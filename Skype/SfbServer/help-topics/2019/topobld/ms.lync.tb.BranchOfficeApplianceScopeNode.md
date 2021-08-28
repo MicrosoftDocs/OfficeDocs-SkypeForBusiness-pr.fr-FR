@@ -11,22 +11,22 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN), les pools et serveurs associés, ainsi que les informations de résilience sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 1783194430b8bbbf44f79d97f118dc89ccb32b498bb7471a4aebefe1f16d8ce5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43803d250d7e5447ed6c34e2bd2d3ade32b912e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624176"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nœud d’étendue d’un Branch Office Appliance
  
 Ce nœud affiche le nom de domaine complet (FQDN), les pools et serveurs associés, ainsi que les informations de résilience sur ce Survivable Branch Appliance. Vous pouvez effectuer les actions suivantes :
   
-- **Modifier les propriétés** Ouvre la **page** Modifier les propriétés de ce Survivable Branch Appliance, dans laquelle vous pouvez modifier le nom de sujet (si la topologie n’est pas encore publiée), les associations et les paramètres de résilience.
+- **Modifier les propriétés** Ouvre la **page** Modifier les propriétés de ce Survivable Branch Appliance, dans laquelle vous pouvez modifier le nom de famille (si la topologie n’est pas encore publiée), les associations et les paramètres de résilience.
     
 - **Supprimer**. Supprime le serveur de la topologie.
     

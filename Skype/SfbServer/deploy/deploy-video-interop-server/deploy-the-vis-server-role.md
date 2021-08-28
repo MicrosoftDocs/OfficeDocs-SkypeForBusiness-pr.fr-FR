@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: 'Résumé : Déployez le rôle vis (Video Interop Server) dans Skype Entreprise Server.'
-ms.openlocfilehash: 0683a413b3442cf09d2703d3593851c2808146a077df23969c339d526b9ebda8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7672b80922f9e79dd206a21f2618d5ba9ccb39aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330528"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595968"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Déployer le rôle serveur VIS dans Skype Entreprise Server
  
@@ -34,7 +34,7 @@ Pour configurer le service VIS sur le serveur qui vient d’être créé dans le
     
 4. Sélectionnez **Démarrer les services.**
     
-Le logiciel de ce service est maintenant installé et en cours d’exécution. Vous pouvez ouvrir l’outil MMC Services pour voir si le service **Skype Entreprise Server Video Interop Server** est en cours d’exécution avec d’Skype Entreprise Server services. Ensuite, vous devez configurer le serveur VIS ou le pool.
+Le logiciel de ce service est maintenant installé et en cours d’exécution. Vous pouvez ouvrir l’outil MMC Services pour voir si le service **Skype Entreprise Server Video Interop Server** est en cours d’exécution avec d’Skype Entreprise Server services. Ensuite, vous devez configurer le serveur vis ou le pool.
 ## <a name="see-also"></a>Voir aussi
 
 [Configurer le serveur d’interconnexion vidéo dans Skype Entreprise Server](configure-the-vis.md)

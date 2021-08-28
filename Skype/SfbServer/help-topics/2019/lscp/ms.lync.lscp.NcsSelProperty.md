@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Affecter des propriétés pour spécifier une description et une ID de site réseau pour plusieurs sous-réseaux à la fois. Dans Description, tapez la description que vous souhaitez utiliser pour les sous-réseaux que vous avez sélectionnés. Dans ID de site réseau, sélectionnez l’ID de site réseau que vous voulez affecter aux sous-réseaux sélectionnés. Cliquez sur OK pour affecter ces propriétés aux sous-réseaux sélectionnés.
-ms.openlocfilehash: 1effae9c93e6fc9f3f51241d20c24febfe8beb6cd9a7c55abd2177f830d5e5ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f02fcfae5579cc1f923a5e2820ae64331b62400
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281167"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616880"
 ---
 # <a name="assign-properties"></a>Affecter des propriétés
  

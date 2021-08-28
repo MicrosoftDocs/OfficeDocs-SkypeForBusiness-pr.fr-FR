@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: Découvrez les problèmes qui surentent les caractères spéciaux dans les noms des stratégies et ce que vous pouvez faire pour le résoudre.
-ms.openlocfilehash: b8a628ee261ba813b50d58531ab1255a2f121dc4e4719ff4249de70517215cc3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c06c5053452c1c55c9e8de09d6b18dd5e97deaca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589606"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Quelles sont les restrictions d’un caractère spécial dans les stratégies Teams ?
 
@@ -39,7 +39,7 @@ Les noms de stratégie qui ont été créés à l’aide de PowerShell pour les 
 
 Si vous avez une stratégie avec des caractères spéciaux, vous devrez soit la modifier à l’aide d’Windows PowerShell (indéfiniment), soit créer une stratégie dans le Centre d’administration Microsoft Teams avec les mêmes paramètres que l’ancienne stratégie et l’affecter au même groupe d’utilisateurs.
 
-## <a name="to-remove-special-characters"></a>Pour supprimer les caractères spéciaux
+## <a name="to-remove-special-characters"></a>Pour supprimer des caractères spéciaux
 
 **Étape 1 : établir une connexion à distance avec PowerShell.**
 > [!NOTE]
@@ -68,7 +68,7 @@ Si vous avez une stratégie avec des caractères spéciaux, vous devrez soit la 
 
 **Étape 3 : créer une stratégie.**
 
-Vous pouvez créer la nouvelle stratégie avec le même paramètre à l’aide du centre d’administration Microsoft Teams de l’utilisateur ou de PowerShell.
+Vous pouvez créer la nouvelle stratégie avec le même paramètre à l’aide du Microsoft Teams d’administration de l’utilisateur ou de PowerShell.
 
 L’exécution de cette stratégie crée une stratégie pour vous, mais vous devrez ajouter les paramètres corrects en voyant [Set-CsTeamsMess premierPolicy,](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) puis en l’exécutant :
 
@@ -100,7 +100,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Pourquoi devez-vous utiliser Office 365 PowerShell ?](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     

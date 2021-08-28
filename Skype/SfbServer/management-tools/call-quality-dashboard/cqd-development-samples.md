@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Résumé : Examinez un didacticiel et des exemples de développement pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: b0b4811e38d50f871e023757220a2a3f0108be349c55eaf78e39ab243954c5dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603873"
 ---
 # <a name="cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels (TBQA)
 
@@ -28,7 +28,7 @@ Cet article fournit un didacticiel et des exemples sur le développement du tabl
 
 ## <a name="call-quality-dashboard-cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels
 
-Didacticiel : création d’une présentation de rapport personnalisée à l’aide des API du service de données et du référentiel CQD.
+Didacticiel : création d’une présentation de rapport personnalisée à l’aide du service de données CQD et de l’API du service de référentiel.
 
 ### <a name="introduction-to-cqd"></a>Présentation du CQD
 
@@ -52,7 +52,7 @@ Lorsque vous naviguez vers la page d’accueil du CQD (par exemple, l’ensemble
 
 ### <a name="building-customized-reports"></a>Création de rapports personnalisés
 
-Le CQD offre déjà beaucoup de flexibilité dans la personnalisation des rapports, mais il peut y avoir des situations dans lesquelles les utilisateurs peuvent vouloir agréger des données dans plusieurs rapports créés dans le CQD. Par exemple, il peut être nécessaire de créer un rapport qui indique les pourcentages d’appels médiocres de toutes les combinaisons possibles d’appels câblés dans une table (un résultat comme la figure) :
+Le CQD offre déjà beaucoup de flexibilité dans la personnalisation des rapports, mais il peut y avoir des situations dans lesquelles les utilisateurs peuvent vouloir agréger des données dans plusieurs rapports créés dans le CQD. Par exemple, il peut être nécessaire de créer un rapport qui indique les pourcentages d’appels médiocres de toutes les combinaisons possibles d’appels câblés dans une table (résultat tel que la figure) :
 
 ![CQD Table](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
@@ -114,7 +114,7 @@ Cet exemple peut être déconstruit en trois étapes :
 
      c. Une ou plusieurs mesures.
 
-2. Envoyez la requête au service de données via un appel AJAX. Les paramètres de requête suivants doivent être fournis :
+2. Envoyez la requête au service de données via l’appel AJAX. Les paramètres de requête suivants doivent être fournis :
 
    a. url (qui doit être http://[ServerName]/QoEDataService/RunQuery).
 
@@ -195,7 +195,7 @@ Jusqu’à présent, le rapport est toujours très simple. L’utilisateur peut 
 
  **Exemple 2 : exemple de définition de rapport**
 
-Il peut être difficile pour quelqu’un de déterminer comment écrire la liste complète des mesures/dimensions/filtres et leurs valeurs correspondantes lors de la construction d’une requête. Dans ce cas, vous pouvez aller sur le portail, créer un rapport à l’aide de l’éditeur de rapport, afficher la chaîne JSON de la définition de rapport, puis copier la définition dans un rapport personnalisé. 
+Il peut être difficile pour quelqu’un de déterminer comment écrire la liste complète des mesures/dimensions/filtres et leurs valeurs correspondantes lors de la construction d’une requête. Dans ce cas, vous pouvez aller sur le portail, créer un rapport à l’aide de l’éditeur de rapport, afficher la chaîne JSON de la définition du rapport, puis copier la définition dans un rapport personnalisé. 
 
 Dans cet exemple, nous allons créer une page web comme celle présentée dans la figure dans laquelle un utilisateur peut entrer l’ID de n’importe quel ensemble de rapports (ou rapport) existant et afficher la définition de l’ensemble de rapports ou du rapport sur la page web. L’utilisateur peut ensuite brancher la chaîne JSON de chaque rapport dans du code semblable à celui de l’exemple 1 et construire n’importe quel rapport personnalisé souhaité par l’utilisateur. 
 

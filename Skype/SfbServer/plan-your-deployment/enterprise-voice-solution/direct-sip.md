@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Les connexions SIP directes sont Skype Entreprise Server entre les passerelles PSTN et les passerelles PSTN et IP-PBX dans Voix Entreprise.
-ms.openlocfilehash: cac0cf06843ed3bf623bd2d3bbe9e92cf6b32a091fd434ac4d422812cc59e60f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343368"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596518"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Connexions SIP directes dans Skype Entreprise Server
 
@@ -48,7 +48,7 @@ Si votre organisation utilise l’un des déploiements décrits dans cette secti
 
 #### <a name="incremental-deployment"></a>Déploiement incrémentielle
 
-Dans un déploiement incrémentielle, Skype Entreprise Server est l’unique solution téléphonique pour des équipes ou des services individuels, tandis que le reste des utilisateurs d’une organisation continuent d’utiliser un PBX. Cette stratégie de déploiement incrémentielle offre un moyen d’introduire la téléphonie IP dans votre entreprise via des programmes pilotes contrôlés. Les groupes de travail dont les besoins de communication sont mieux servis par Microsoft Unified Communications sont déplacés vers Voix Entreprise, tandis que d’autres utilisateurs restent sur le PBX existant. Des groupes de travail supplémentaires peuvent être migrés vers Voix Entreprise, selon les besoins.
+Dans un déploiement incrémentielle, Skype Entreprise Server est l’unique solution téléphonique pour des équipes ou des services individuels, tandis que le reste des utilisateurs d’une organisation continuent d’utiliser un PBX. Cette stratégie de déploiement incrémentielle offre un moyen d’introduire la téléphonie IP dans votre entreprise via des programmes pilotes contrôlés. Les groupes de travail dont les besoins de communication sont mieux servis par Microsoft Unified Communications sont déplacés vers Voix Entreprise, tandis que d’autres utilisateurs restent sur le PBX existant. Des groupes de travail supplémentaires peuvent être migrés vers Voix Entreprise, si nécessaire.
 
 L’option incrémentielle est recommandée si vous avez clairement défini des groupes d’utilisateurs qui ont des exigences de communication en commun et qui se prêtent à la gestion centralisée. Cette option est également efficace si vous avez des équipes ou des services répartis sur des zones géographiques étendues, où les économies en frais longue distance peuvent être importantes. En fait, cette option est utile pour créer des équipes virtuelles dont les membres peuvent être dispersés dans le monde entier. Vous pouvez créer, modifier ou débander de telles équipes en réponse rapidement au changement d’exigence de l’entreprise.
 
@@ -74,7 +74,7 @@ Lorsque Voix Entreprise est déployé derrière le PBX, tous les appels du PSTN 
 
 #### <a name="enterprise-voice-in-front-of-the-pbx"></a>Voix Entreprise devant le PBX
 
-Lorsque Voix Entreprise est déployé devant le PBX, tous les appels arrivent à la passerelle PSTN, qui route les appels pour les utilisateurs Voix Entreprise vers Skype Entreprise Server et les appels des utilisateurs PBX vers le PBX. Les appels vers le PSTN des utilisateurs Voix Entreprise et PBX sont acheminés sur le réseau IP vers la passerelle PSTN la plus économique. Le tableau suivant présente les avantages et les inconvénients de cette configuration.
+Lorsque Voix Entreprise est déployé devant le PBX, tous les appels arrivent à la passerelle PSTN, qui approvisionnement les appels pour les utilisateurs Voix Entreprise vers Skype Entreprise Server et les appels pour les utilisateurs PBX vers le PBX. Les appels vers le réseau téléphonique public (PSTN) des utilisateurs Voix Entreprise et PBX sont acheminés sur le réseau IP vers la passerelle PSTN la plus économique. Le tableau suivant présente les avantages et les inconvénients de cette configuration.
 
 **Avantages et inconvénients du déploiement de Voix Entreprise frontal du PBX**
 

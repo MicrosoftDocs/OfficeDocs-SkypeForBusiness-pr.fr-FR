@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: L’affichage FileTransfer stocke des informations sur les sessions de transfert de fichiers d’égal à égal. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: e805b770038eb7fae93337c5d6c26d7059e5764436328f6321e65c948e40c88d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a3b0573d9b4a63670c929e5c6080e94e498ff0d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603803"
 ---
 # <a name="filetransfers-view"></a>Vue FileTransfers
  
@@ -27,7 +27,7 @@ L’affichage FileTransfer stocke des informations sur les sessions de transfert
 > [!NOTE]
 > L’affichage FileTransfers contient toutes les colonnes de l’affichage [SessionDetails](sessiondetails-0.md) en plus des colonnes répertoriées ci-dessous.
   
-|**Colonne**|**Type de données**|**Détails**|
+|**Colonne**|**Type de données**|**Details**|
 |:-----|:-----|:-----|
 |**FileName** <br/> |nvarchar(256)  <br/> |Nom du fichier transféré.  <br/> |
 |**Cookie** <br/> |nvarchar(128)  <br/> |Utilisé pour identifier chaque message de suivi comme étant associé à celui-ci.  <br/> |

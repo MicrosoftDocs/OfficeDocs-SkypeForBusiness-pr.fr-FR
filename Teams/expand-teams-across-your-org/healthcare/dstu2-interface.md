@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: Découvrez la spécification de l’interface DSTU2 dans Teams, y compris la configuration ou la reconfiguration d’un serveur FEMBA pour l’utiliser avec l’application Microsoft Teams Patients.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d4b8e1d965cd3b0704885d6f86e376cfc3c9316
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308763"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589728"
 ---
 # <a name="dstu2-interface-specification"></a>Spécification de l’interface DSTU2
 
@@ -49,7 +49,7 @@ La configuration ou la reconfiguration d’un serveur FEMBA pour l’Microsoft T
 
 Requêtes de l’Microsoft Teams Patients de plusieurs ressources publient une offre groupée (BATCH) de demandes vers l’URL du serveur FEMBA. Le serveur traite chaque demande et renvoie une offre groupée de ressources correspondent à chaque demande. Pour plus d’informations et d’exemples, [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) voir .
 
-Toutes les ressources D FEMBA suivantes doivent être accessibles par référence de ressource directe.
+Toutes les ressources D FEMBA suivantes doivent être accessibles à l’aide d’une référence de ressource directe.
 
 ## <a name="conformance-minimum-required-field-set"></a>Ensemble de champs requis au minimum pour la conformité
 
@@ -247,7 +247,7 @@ Consultez [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/
 
 ## <a name="condition"></a>Condition
 
-Voici les champs minimum requis, qui sont un sous-ensemble du profil [de condition Argot :](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)
+Voici les champs requis au minimum, qui sont un sous-ensemble du profil [de condition Argot :](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)
 
 1. Code.Coding[0]. Affichage
 
@@ -363,7 +363,7 @@ Consultez [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhi
 
 ## <a name="allergyintolerance"></a>MondeYIntolerance
 
-Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil d’argotaïeIntolerance :
+Il s’agit des champs requis au minimum, qui sont un sous-ensemble du profil ArgotaïquesIntolerance :
 
  - Code.Text
  - Code.Coding[0]. Affichage
@@ -482,9 +482,9 @@ Consultez [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.
 
 ## <a name="coverage"></a>Couverture
 
-Il s’agit des champs requis au minimum, et non couverts par les profils Us Core ou Argot :
+Voici les champs requis au minimum, et non couverts par les profils Us Core ou Argot :
 
- - Payor
+ - Payeur
 
 Une recherche de ressources utilise la méthode GET et les paramètres suivants :
 

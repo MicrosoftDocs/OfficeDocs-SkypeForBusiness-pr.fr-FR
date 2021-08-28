@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323076"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596504"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gérer les emplacements des passerelles ELIN dans Skype Entreprise Server
 
@@ -64,9 +64,9 @@ Après avoir déterminé comment diviser l’espace de votre bâtiment en emplac
 
 |**Zone de l’immeuble**|**Emplacement**|**ELIN**|
 |:-----|:-----|:-----|
-|Premier étage  <br/> |1  <br/> |425-555-0100  <br/> |
-|Deuxième étage  <br/> |2  <br/> |425-555-0111  <br/> |
-|Troisième étage  <br/> |3  <br/> |425-555-0123  <br/> |
+|Premier étage  <br/> |1   <br/> |425-555-0100  <br/> |
+|Deuxième étage  <br/> |2   <br/> |425-555-0111  <br/> |
+|Troisième étage  <br/> |3   <br/> |425-555-0123  <br/> |
 
 Les emplacements définis doivent satisfaire les exigences suivantes :
 

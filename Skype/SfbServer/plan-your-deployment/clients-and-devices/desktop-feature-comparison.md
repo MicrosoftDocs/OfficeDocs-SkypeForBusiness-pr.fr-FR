@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Résumé : Skype Entreprise Server 2015 ou Skype Entreprise Online peuvent utiliser ces tableaux pour comprendre quelles fonctionnalités sont pris en charge sur quels clients.'
-ms.openlocfilehash: c3c7e8a744f678a1453c52f57f7d97ae96cb0588cf6bc416ad04007a35eeba6f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f73da5821c766e2fbc7837908a2b5b635bca0089
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318817"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596538"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparaison des fonctionnalités du client de bureau pour Skype Entreprise Server 2015
 
@@ -34,7 +34,7 @@ Certaines fonctionnalités disponibles avec Skype Entreprise Server 2015 ne sont
 
 Voir comparaison des fonctionnalités du [client de bureau Skype Entreprise 2019](../../../SfBServer2019/plan/feature-comparison.md) pour la prise en charge des clients Skype Entreprise Server 2019.
   
-Les tableaux suivants indiquent les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype Entreprise Server 2015 ou Skype Entreprise Online. Vous pouvez également faire référence à la comparaison des fonctionnalités de [client mobile](mobile-feature-comparison.md) Skype Entreprise comparaison des fonctionnalités client pour smartphone et tablette. La licence d’accès au client ou la licence d’abonnement utilisateur que votre organisation achète aura également un impact sur les fonctionnalités disponibles pour vos utilisateurs. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Pour plus [d’informations,](https://products.office.com/skype-for-business/it-pros) voir le Guide des licences.
+Les tableaux suivants indiquent les fonctionnalités disponibles avec chaque client qui fonctionne avec Skype Entreprise Server 2015 ou Skype Entreprise Online. Vous pouvez également faire référence à la comparaison des fonctionnalités de [client mobile Skype Entreprise](mobile-feature-comparison.md) comparaison des fonctionnalités client pour smartphone et tablette. La licence d’accès au client ou la licence d’abonnement utilisateur que votre organisation achète aura également un impact sur les fonctionnalités disponibles pour vos utilisateurs. Le déploiement du client complet ou de base pour les utilisateurs dépend de la licence ou de l’offre que votre organisation choisit d’acheter. Pour plus [d’informations,](https://products.office.com/skype-for-business/it-pros) voir le Guide des licences.
   
 > [!IMPORTANT]
 > Skype Entreprise Server 2015 et Skype Entreprise Online prise en charge des clients précédemment publiés suivants : Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Téléphone Edition et Lync 2010 Attendant. Pour plus d’informations sur ces clients lorsqu’ils sont utilisés avec d’autres serveurs, voir les tableaux de comparaison des clients pour [Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) et des tables de comparaison des clients [pour Lync Server 2010.](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))

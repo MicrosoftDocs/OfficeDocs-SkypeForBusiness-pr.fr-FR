@@ -1,5 +1,5 @@
 ---
-title: Nœud d’étendue des jonctions vidéo SIP
+title: Nœud d’étendue des jonctions vidéo SIP
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SipVideoTrunksScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server.
-ms.openlocfilehash: 571bb0bbe0473f61644fd702f22d05bb9c7c0ba8a51a6c7bb29648cb2ee4629b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca0e2dc39018870a0a3a592acb014bf1278a7f71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311722"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616760"
 ---
-# <a name="sip-video-trunks-scope-node"></a>Nœud d’étendue des jonctions vidéo SIP
+# <a name="sip-video-trunks-scope-node"></a>Nœud d’étendue des jonctions vidéo SIP
  
 Les étapes nécessaires pour définir un nouveau vis ou une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool de vis [dans Skype Entreprise Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   

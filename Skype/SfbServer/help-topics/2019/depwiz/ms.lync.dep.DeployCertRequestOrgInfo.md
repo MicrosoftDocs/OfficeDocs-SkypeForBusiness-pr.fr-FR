@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le volet Informations relatives à l’organisation vous permet d’indiquer le nom de votre organisation et une unité d’organisation (généralement la division ou le département) à l’origine de la demande de certificat. Les informations saisies dans les zones de texte Organisation et Unité d’organisation apparaissent sur le certificat. Elles sont utilisées pour identifier l’auteur de la demande de certificat lorsque celui-ci est consulté par d’autres utilisateurs.
-ms.openlocfilehash: 5140b4030f207c0ce677108ed6b8364225bf4d12c4a3008d122432772e40841e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd6cc5199e2000cc883126f684b63bca97b940ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330478"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595938"
 ---
 # <a name="certificate-request-organization-information"></a>Demande de certificat (informations sur l’organisation)
  

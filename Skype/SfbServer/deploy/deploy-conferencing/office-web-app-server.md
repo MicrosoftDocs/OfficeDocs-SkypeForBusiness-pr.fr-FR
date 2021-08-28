@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
-description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’intégration entre Office Web Apps Server et Skype Entreprise Server pour activer PowerPoint présentations pour les conférences web.'
-ms.openlocfilehash: abaf430ffd2f426d8ed4821409691cc140bb9fa8fe3dd0e23bcf10cbc444c33b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’intégration entre Office Web Apps Server et Skype Entreprise Server pour activer les présentations PowerPoint pour les conférences web.'
+ms.openlocfilehash: 753ab05e533d77311c9910cb26fe7980b83b1a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595998"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurer l’intégration avec Office Web Apps Server dans Skype Entreprise Server
  
@@ -90,7 +90,7 @@ Si vous avez configuré l’accès pour les utilisateurs externes, vous verrez �
   
  **Office Page du participant interne Web Apps Server : <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> ;**
   
-Si un événement LS Data MCU ayant l’ID d’événement 41033 s’affiche, cela signifie que la découverte d’Office Web Apps Server na pas fonctionné. Dans ce cas, Skype Entreprise Server essaiera autant de fois que nécessaire de découvrir le serveur Web Apps Server Office nouvellement configuré. Si le processus de découverte ne fonctionne pas à chaque essai, nous vous conseillons de supprimer Office Web Apps Server de votre document de topologie, de publier la topologie mise à niveau, puis d’essayer de rajouter Office Web Apps Server à votre topologie une fois les problèmes de topologie résolus.
+Si un événement LS Data MCU ayant l’ID d’événement 41033 s’affiche, cela signifie que la découverte d’Office Web Apps Server na pas fonctionné. Dans ce cas, Skype Entreprise Server essaiera autant de fois que nécessaire de découvrir le serveur Web Apps server Office nouvellement configuré. Si le processus de découverte ne fonctionne pas à chaque essai, nous vous conseillons de supprimer Office Web Apps Server de votre document de topologie, de publier la topologie mise à niveau, puis d’essayer de rajouter Office Web Apps Server à votre topologie une fois les problèmes de topologie résolus.
   
 Si Office Web Apps Server semble configuré correctement et a été reconnu par le processus de découverte, vous pouvez vérifier que Office Web Apps Server fonctionne comme prévu en partageant une présentation PowerPoint entre deux clients Skype Entreprise. Si l’utilisateur A peut charger et afficher la présentation PowerPoint et si l’utilisateur B peut ensuite rejoindre la réunion et consulter la présentation, alors Office Web Apps Server fonctionne correctement.
   

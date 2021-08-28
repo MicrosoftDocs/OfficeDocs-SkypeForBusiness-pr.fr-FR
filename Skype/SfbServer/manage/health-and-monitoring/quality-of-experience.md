@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: 'Résumé : Gérez la qualité de l’expérience (QoE) dans Skype Entreprise Server.'
-ms.openlocfilehash: 26ed4266b9eac940f54e3f69fa0c14d0ec4e7438e35084831eb281e20e17041f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6ff01b4962971edd4ca2d12684dcb653875eb905
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286753"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603863"
 ---
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>Qualité de l’expérience (QoE) dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54286753"
   
 La qualité de l’expérience (QoE) enregistre des données numériques qui indiquent la qualité du média, ainsi que les informations sur les participants, les noms des appareils, les pilotes, les adresses IP et les types de point de terminaison impliqués dans les appels et les sessions. Lorsque vous installez Skype Entreprise Server, vous installez également une collection prédéfinie de paramètres de configuration globaux pour QoE. Consultez les rubriques de cette section pour configurer les paramètres QoE. 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Créer des paramètres de configuration de la qualité de l’expérience dans Skype Entreprise Server](create-qoe-configuration-settings.md)
     

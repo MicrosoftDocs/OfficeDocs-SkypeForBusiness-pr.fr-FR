@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - Strat_SB_PSTN
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits dans un pays/une région, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: ef461e5c69c84355e967fbb78317cbcbf87c751e7733fa817e13aab8a8cf84be
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6ebe1154638b615a31eda623c31683384412954f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589586"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitations et restrictions concernant l’appel de numéros verts
 
@@ -120,7 +120,7 @@ Si vous êtes prêt, sélectionnez un pays ou une région :
   
 - **L’accès câblé, fixe et réseau mobile aux numéros gratuits peut être entièrement ou partiellement restreint.** Le format de numérotation décrit les codes d'accès requis dans chaque pays/région pour passer des appels via le numéro gratuit.
     
-- **Numéros gratuits pour l’Amérique du Nord :** Les tarifs à la minute pour les numéros gratuits du plan de numéroment en Amérique du Nord sont déterminés par le pays d’origine. Le tarif à la minute gratuit pour les appels provenant des États-Unis est map au taux défini comme « Amérique du Nord ». Toutefois, les appels provenant d’autres pays nord-américains tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
+- **Numéros gratuits pour l’Amérique du Nord :** Les tarifs à la minute pour les numéros gratuits du plan de numéroment en Amérique du Nord sont déterminés par le pays d’origine. Le tarif à la minute gratuit pour les appels provenant des États-Unis est map avec le taux défini comme « Amérique du Nord ». Toutefois, les appels provenant d’autres pays nord-américains tels que le Canada, Porto Rico, etc., ont des tarifs gratuits spécifiques.
 
 > [!NOTE]
 > Si vous devez obtenir davantage de numéros de téléphone, veuillez [contacter le support pour les entreprises - Aide de l'administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

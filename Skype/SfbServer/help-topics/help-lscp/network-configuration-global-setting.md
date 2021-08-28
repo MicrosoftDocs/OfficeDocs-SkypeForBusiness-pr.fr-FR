@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsGlobalMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 5247323c9d194ef3d2a301334976ec5c70d2d52a9f58dbb9803d279c26d51fe8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cb0f9fb5802cff48a110a9eea8c11a9892ef3508
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616740"
 ---
-# <a name="network-configuration-global-setting"></a>Configuration du réseau : paramètres globaux
+# <a name="network-configuration-global-setting"></a>Configuration du réseau : paramètres globaux
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

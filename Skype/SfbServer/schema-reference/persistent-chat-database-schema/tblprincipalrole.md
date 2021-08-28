@@ -10,23 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
 description: La table tblPrincipalRole contient les rôles explicites affectés à des nœuds.
-ms.openlocfilehash: 28e639a4894b89e449a70fc527b7c4315be57403e15bb582bcdae3933e3790a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e899bc7763966ab3d7dd537aa162d8a716f958b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336384"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603793"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
 La table tblPrincipalRole contient les rôles explicites affectés à des nœuds.
   
-**Columns**
+**Colonnes**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |prinRoleNodeID  <br/> |entier, non null  <br/> |ID du nœud auquel le rôle s’applique.  <br/> |
 |prinRolePrinID  <br/> |entier, non null  <br/> |ID du principal.  <br/> |
