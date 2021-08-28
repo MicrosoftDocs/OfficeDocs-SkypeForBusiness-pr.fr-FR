@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Gérer Microsoft Teams paramètres d’Surface Hub à l Microsoft Intune et Windows Configuration Designer
-ms.openlocfilehash: 6bcf1d8780c1214637e1c12d5830edd3f2534ffd86898b14095f573bb08932b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39d62296a87fa50722bce98a4fcd5e0372b362cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275990"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602159"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>Gérer Microsoft Teams paramètres d’Surface Hub
 
@@ -27,7 +27,7 @@ Vous pouvez gérer Microsoft Teams paramètres de configuration sur un Surface H
 - [Créer un package d’approvisionnement pour Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [Qu’est-ce Microsoft Intune gestion des appareils ?](/mem/intune/remote-actions/device-management)
 
-Windows Configuration Designer est une bonne option si vous n’avez que Surface Hub appareils et que vous pouvez y accéder facilement. Si vous avez de nombreux Surface Hubs ou s’ils se trouveront dans des emplacements distants, utilisez Microsoft Intune dans Microsoft Endpoint Manager si le surface est déployé dans votre organisation. Quelle que soit la méthode choisie, vous devez créer un fichier de configuration XML pour apporter des modifications aux paramètres Teams’Surface Hub.
+Windows Configuration Designer est une bonne option si vous n’avez que Surface Hub appareils mobiles et que vous pouvez y accéder facilement. Si vous avez de nombreux Surface Hubs ou s’ils se trouveront dans des emplacements distants, utilisez Microsoft Intune dans Microsoft Endpoint Manager si le surface est déployé dans votre organisation. Quelle que soit la méthode choisie, vous devez créer un fichier de configuration XML pour apporter des modifications aux paramètres Teams’Surface Hub.
 
 ## <a name="teams-configuration-file-syntax"></a>Teams syntaxe du fichier de configuration
 
@@ -55,7 +55,7 @@ Le tableau suivant décrit tous les paramètres de configuration disponibles dan
 | `<SurfaceHubSettings>`  | `<BluetoothAdvertisementEnabled>`         |           | Détermine si Surface Hub annonce qu’elle est disponible pour Bluetooth connexions.<br>Valeurs acceptées `true` : , `false`                                                                                                                                                                                                                                                                                                                                                                                         |
 | `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | Détermine si les Teams accepteront automatiquement les réunions de proximité.<br>Valeurs acceptées `true` : , `false`                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | Contient tous les éléments de configuration pour les réunions coordonnées.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                         |                                           | `enabled` | Détermine si un Teams est configuré pour participer à des réunions coordonnées avec d’autres appareils.<br>Valeurs acceptées `true` : , `false`                                                                                                                                                                                                                                                                                                                                                                                |
+|                         |                                           | `enabled` | Détermine si une Teams est configurée pour participer à des réunions coordonnées avec d’autres appareils.<br>Valeurs acceptées `true` : , `false`                                                                                                                                                                                                                                                                                                                                                                                |
 | `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | Il s’agit d’une liste séparée par des virgules des upns pour chaque appareil ou Surface Hub de salle Teams à partir duquel l’appareil doit accepter les demandes de réunion ou vers laquelle les demandes de réunion doivent être envoyées.<br>Valeurs acceptées : chaîne                                                                                                                                                                                                                                                                                                                         |
 | `<CoordinatedMeetings>` | `<Settings>`                              |           | Contient des éléments de configuration audio et vidéo pour les réunions coordonnées                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<Settings>`            | `<Audio>`                                 |           | Contrôle la configuration audio pour les Teams sur une Surface Hub.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -67,7 +67,7 @@ Le tableau suivant décrit tous les paramètres de configuration disponibles dan
 
 ## <a name="apply-teams-settings-to-surface-hub"></a>Appliquer Teams paramètres d’accès Surface Hub
 
-Appliquez ou mettez à jour Teams paramètres de configuration sur Surface Hub à l’aide de Windows Configuration Designer ou Microsoft Intune dans Microsoft Endpoint Manager.
+Appliquez ou mettez à jour Teams paramètres de configuration sur Surface Hub à l’aide Windows Configuration Designer ou Microsoft Intune dans Microsoft Endpoint Manager.
 
 ### <a name="use-windows-configuration-designer"></a>Utiliser Windows Configuration Designer
 
@@ -80,7 +80,7 @@ Pour créer le package d’approvisionnement dans Windows Configuration Designer
 
 1. Installer Windows Configuration Designer à partir du Windows Store sur votre ordinateur local et l’ouvrir
 2. Sélectionnez **Provision Surface Hub appareils,** puis **Basculez vers l’éditeur avancé**
-3. Sur l’écran suivant, développez **WindowsTeamSettings**  >  **Teams** sélectionnez **Configurations.**
+3. Sur l’écran suivant, développez **WindowsTeamSettings**  >  **Teams** et sélectionnez **Configurations.**
 4. Dans le champ à côté **de Configurations** dans le volet du milieu, collez la seule ligne de XML que vous avez créée ci-dessus.
 5. Sélectionnez **Exporter**  >  **le package d’approvisionnement**
 6. Nommez le package d’approvisionnement sous **Nom,** puis sélectionnez  >  **Suivant**
@@ -107,7 +107,7 @@ Pour créer un profil de configuration à appliquer à vos Surface Hubs, Teams c
 
 1. Connectez-vous Microsoft Endpoint Manager en visitanthttps://endpoint.microsoft.com/
 2. Accédez aux  >  **profils configuration des appareils** et **sélectionnez Créer un profil**
-3. Sous **Plateforme,** sélectionnez Windows 10 **et ultérieure**
+3. Sous **Plateforme,** sélectionnez Windows 10 **et ultérieures**
 4. Sous **Profil,** **sélectionnez Personnalisé,** puis cliquez sur **Créer**
 5. Sous **l’onglet Informations de** base, dans **Nom,** fournissez un nom descriptif pour votre profil de configuration, puis sélectionnez **Suivant**
 6. Sous **l’onglet Paramètres de configuration,** sélectionnez **Ajouter**
@@ -133,7 +133,7 @@ Si vous avez appliqué des paramètres Teams à un Surface Hub à l’aide d’u
 1. Sur votre Surface Hub, ouvrez le menu Démarrer, sélectionnez **Toutes**  les applications, puis Paramètres
 2. Fournissez votre nom d’utilisateur et votre mot de passe d’administrateur, puis sélectionnez **Oui**
 3. Go to **Surface Hub,** **Device management** and then **Add or remove a provisioning package**
-4. En côté du package d’approvisionnement à supprimer, sélectionnez **Supprimer**
+4. En côté du package de mise en service à supprimer, sélectionnez **Supprimer**
 5. Allez à **l Surface Hub** puis **aux fonctionnalités de & applications**
 6. Recherchez **Microsoft Teams’Surface Hub,** puis sélectionnez **Options avancées**
 7. Sélectionnez **Réinitialiser,** puis **Réinitialiser à** nouveau

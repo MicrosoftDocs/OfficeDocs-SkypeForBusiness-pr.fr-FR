@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros, transférer ou transférer des numéros existants pour Teams et comment montrer les modifications à vos utilisateurs. '
-ms.openlocfilehash: cb74b070e9c9c74c71e98309e9a06e3f9a85021872a2072f4852f89de52cbd01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5371a3d23e78017db34ae94cdd7516ce40b6347b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602269"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -54,8 +54,8 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 3. Entrez un nom pour la commande et ajoutez une description.
 4. Dans la page Emplacement et quantité, vous pouvez :
     1. Sous **Pays ou région,** sélectionnez un pays ou une région.
-    2. Sous **Type de numéro,** **sélectionnez Utilisateur (abonné).**
-    3. Sous **Emplacement,** sélectionnez un emplacement. Si vous avez besoin de créer un emplacement, cliquez **sur Ajouter un emplacement.**
+    2. Sous **Type de nombre,** **sélectionnez Utilisateur (abonné).**
+    3. Sous **Emplacement,** sélectionnez un emplacement. Si vous avez besoin de créer un emplacement, cliquez sur **Ajouter un emplacement.**
     4. Sous **Code de la** zone, sélectionnez un code de zone.
     5. Sous **Quantité,** entrez le nombre de numéros que vous souhaitez pour votre organisation, puis cliquez sur Suivant **pour** sélectionner vos numéros.
 5. Sélectionnez les nombres de votre choix. Vous avez 10 minutes pour sélectionner vos numéros de téléphone et placer votre commande. Si cela prend plus de 10 minutes, les numéros de téléphone sont renvoyés dans la réserve de numéros.

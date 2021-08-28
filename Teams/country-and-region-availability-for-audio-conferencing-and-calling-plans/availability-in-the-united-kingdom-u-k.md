@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Royaume-Uni.
-ms.openlocfilehash: 67c36ffbc08d1ceb3bb5ff0b8210ea0f163be67ca36bf651738fed2e89d9832d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62c19b6e0fd029068238da0e654dc6c30ac1783d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314100"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610361"
 ---
 # <a name="availability-in-the-united-kingdom-uk"></a>Disponibilité au Royaume-Uni
 
@@ -68,7 +68,7 @@ Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsof
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournebourne <li>  Desso <li>  Sy <li>  Bristol <li>  Coventry <li>  Desso <li>  Leeds <li>  Desso <li>  Desso <li>  Londres <li>  Manchester <li>  Desso <li>  Sy <li>  Syth <li>  Desso <li>  Anse-on-Nt <li>  Teesside (Middlesbrough) </ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Birmingham <li>  Bolton <li>  Bournebourne <li>  Desso <li>  Sy <li>  Bristol <li>  Coventry <li>  Desso <li>  Leeds <li>  Desso <li>  Desso <li>  Londres <li>  Manchester <li>  Desso <li>  Sy <li>  Syth <li>  Desso <li>  Base-sur-Le-Monde <li>  Teesside (Middlesbrough) </ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    

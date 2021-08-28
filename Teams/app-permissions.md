@@ -12,19 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Les administrateurs peuvent connaître les données et autorisations que Microsoft Teams applications demandent à leur organisation.
+description: L’administrateur peut connaître les données et autorisations que Microsoft Teams applications demandent à leur organisation.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f72dadc6fae9ce77de0f892b89c0c5627779cd8849d5f4c14c8b2d7cc6716e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2766da88fee53124d43b4e2b66c9c104ea41b8e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288492"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610421"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -79,7 +79,7 @@ Aucun
 
 - IDENTITY. Lorsqu’il est utilisé dans un canal, les robots de l’application peuvent accéder aux informations d’identité de base des membres de l’équipe (prénom, nom, nom d’utilisateur principal [NOM D’UTILISATEUR PRINCIPAL], adresse e-mail) ; lorsqu’il est utilisé dans une conversation personnelle ou de groupe, le bot peut accéder aux mêmes informations pour ces utilisateurs.
 
-- POST_MESSAGE_TEAM. Permet aux robots d’une application d’envoyer des messages directs (proactifs) à tout membre de l’équipe à tout moment, même si l’utilisateur n’a jamais parlé au bot auparavant.
+- POST_MESSAGE_TEAM. Permet aux robots d’une application d’envoyer des messages directs (proactifs) à tout membre de l’équipe à tout moment, même si l’utilisateur n’a jamais parlé au robot auparavant.
 
 - Les autorisations suivantes ne sont pas explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE et les étendues dans lesquelles les robots peuvent être utilisés, déclarés dans le manifeste :
  
@@ -119,7 +119,7 @@ Aucun
 
 <sup>1 Certains</sup> robots envoient uniquement des messages (POST_MESSAGE_USER). Ils sont appelés « bots de notification uniquement », mais ce terme ne fait pas référence à ce qu’un robot est autorisé ou non à faire, cela signifie que le robot ne souhaite pas exposer une expérience de conversation. Teams utilise ce champ pour désactiver la fonctionnalité dans l’interface utilisateur qui serait normalement activée ; le robot n’est pas limité à ce qu’il est autorisé à faire par rapport aux bots qui exposent une expérience de conversation.
 
-<sup>2</sup> Régi par la propriété booléen Prend en charge les valeurs booléens dans l’objet bot dans manifest.jsfichier pour l’application.
+<sup>2</sup> Régi par la propriété booléenSais prend en charge la propriété booléen dans l’objet bot dans manifest.jsfichier pour l’application.
 
 > [!NOTE]
 > Si un robot dispose de sa propre inscription, il existe une deuxième expérience de consentement différente la première fois que l’utilisateur se connecte.
@@ -191,7 +191,7 @@ Aucun
 
 - Les sites web sortants sont similaires aux bots, mais ont moins de privilèges. Ils doivent être explicitement mentionnés, tout comme les bots.
 
-- Lorsqu’un site web sortant est enregistré, un secret est généré, ce qui permet au site web sortant de vérifier que l’expéditeur est Microsoft Teams par opposition à un pirate malveillant. Ce secret doit rester un secret . Toute personne qui y a accès peut prendre l’identité de Microsoft Teams. Si le secret est compromis, l’accès web sortant peut être supprimé et recréé, et un nouveau secret est généré.
+- Lorsqu’un site web sortant est enregistré, un secret est généré, ce qui permet à l’équipe web sortante de vérifier que l’expéditeur est Microsoft Teams par opposition à un pirate malveillant. Ce secret doit rester un secret . Toute personne qui y a accès peut prendre l’identité de Microsoft Teams. Si le secret est compromis, l’accès web sortant peut être supprimé et recréé, et un nouveau secret est généré.
 
 - Bien qu’il soit possible de créer un site web sortant qui ne valide pas le secret, nous vous recommandons de vous y baser.
 

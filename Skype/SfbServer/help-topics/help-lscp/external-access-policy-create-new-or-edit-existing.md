@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ExtPolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 1aebaf461fb21b356bff2b0119bc281f968d6815b8877040e896672d817e6415
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41678fc97117fa3924c87606b1f179a688749325
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309593"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622596"
 ---
-# <a name="external-access-policy-create-new-or-edit-existing"></a>Stratégie d’accès externe : création d’une nouvelle ou modification d’une stratégie existante
+# <a name="external-access-policy-create-new-or-edit-existing"></a>Stratégie d’accès externe : création d’une nouvelle ou modification d’une stratégie existante
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

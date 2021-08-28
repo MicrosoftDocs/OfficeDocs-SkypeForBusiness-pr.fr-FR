@@ -10,15 +10,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Configurer un compte de ressource pour Skype Entreprise Server 2019.
-ms.openlocfilehash: 87db9779a6f90730d6aa53e3084a2014a71bad5aba91844d2e545f7d78ae37cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 473a8cbcd77e3e0cb212481a4837f1c50801f20f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304696"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602029"
 ---
 # <a name="configure-resource-accounts"></a>Configurer des comptes de ressource
 
@@ -26,7 +26,7 @@ ms.locfileid: "54304696"
 
 Skype Entreprise Server 2019 hybrides utilisent uniquement les services Cloud fournis par Système téléphonique pour la messagerie unifiée et ne s’intègrent pas à Exchange Online. Dans Skype Entreprise Server 2019, vous pouvez désormais utiliser les files [d’attente d’appels](/MicrosoftTeams/here-s-what-you-get-with-phone-system)cloud et les attendants automatiques décrits dans voici ce que vous obtenez avec Système téléphonique dans Microsoft 365 ou Office 365 .
 
-Pour utiliser un attendant automatique Système téléphonique ou une file d’attente d’appels avec Skype Entreprise Server 2019, vous devez créer des comptes de ressources qui agissent comme des points de terminaison d’application et peuvent se voir attribuer des numéros de téléphone, puis utiliser le Centre d’administration Teams en ligne pour configurer la file d’attente d’appels ou le attendant automatique. Ce compte de ressource peut être en ligne (voir Gérer les comptes de ressources dans [Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressources en ligne) ou en local, comme décrit dans cet article. En règle générale, vous avez plusieurs Système téléphonique de file d’attente d’appels ou de attendant automatiques, chacun d’eux est mappé sur un compte de ressource, qui peut être Skype Entreprise Server 2019.
+Pour utiliser un attendant automatique Système téléphonique ou une file d’attente d’appels avec Skype Entreprise Server 2019, vous devez créer des comptes de ressources qui agissent comme des points de terminaison d’application et peuvent se voir attribuer des numéros de téléphone, puis utiliser le Centre d’administration Teams en ligne pour configurer la file d’attente d’appels ou le attendant automatique. Ce compte de ressource peut être en ligne (voir Gérer les comptes de ressources dans [Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) pour créer des comptes de ressources en ligne) ou en local, comme décrit dans cet article. En règle générale, vous avez plusieurs Système téléphonique de file d’attente d’appels ou de attendant automatiques, chacun d’eux est mappé à un compte de ressource, qui peut être homed online ou dans Skype Entreprise Server 2019.
 
 Si vous avez un standard automatique de Exchange et un système de files d’attente d’appels de Exchange, avant de basculer vers Exchange Server 2019 ou Exchange online, vous devrez enregistrer manuellement les détails comme décrit ci-dessous, puis implémenter un système entièrement nouveau à l’aide du Centre d’administration Teams.
 
@@ -36,7 +36,7 @@ Si votre Système téléphonique ou file d’attente d’appels aura besoin d’
 
 1. Obtenez un numéro de service.
 2. Obtenez une licence Système téléphonique gratuite - [Utilisateur](/MicrosoftTeams/teams-add-on-licensing/virtual-user) virtuel ou une licence Système téléphonique payante à utiliser avec le compte de ressource.
-3. Créez le compte de ressource. Un attendant automatique ou une file d’attente d’appels doit être associé à un compte de ressource.
+3. Créez le compte de ressource. Un service de gestion automatique ou une file d’attente d’appels doit être associé à un compte de ressource.
 4. Attendez une synchronisation Active Directory en ligne et en local.
 5. Attribuez la Système téléphonique licence au compte de ressource.
 6. Affectez un numéro de service au compte de ressource.
@@ -125,7 +125,7 @@ La création d’un compte de ressource qui utilise un numéro de téléphone n�
 
 Cette section traite de la création d’un compte de ressource qui est homed sur site. La création d’un compte de ressource qui est en ligne est abordée dans Gérer les comptes de ressources [dans Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).
 
-Ces étapes sont nécessaires, que vous créiez un nouveau Système téléphonique un service de sécurité automatique ou une structure de file d’attente d’appels, ou que vous restructuriez une structure créée à l’origine dans Exchange de la Exchange.
+Ces étapes sont nécessaires, que vous créiez un nouveau Système téléphonique automatique ou une structure de file d’attente d’appels, ou que vous restructuriez la structure créée à l’origine dans Exchange de la Exchange.
 
 Connectez-vous au Skype Entreprise frontal et exécutez les cmdlets PowerShell suivantes :
 

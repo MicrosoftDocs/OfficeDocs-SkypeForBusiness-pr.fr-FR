@@ -9,21 +9,21 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ''
 ms.collection:
 - M365-collaboration
 description: Découvrez comment configurer l’authentification moderne pour Salles Microsoft Teams
-ms.openlocfilehash: c12cc19c4ef10321046bc052c7040204980d6826
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 5b87a23f58dc563af623c7f4fa123ff9aaa1dc03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611573"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Authentification dans Salles Microsoft Teams
 
-La gestion des comptes Salles Microsoft Teams appareils mobiles est gérée au niveau de l’application. L’application se connecte à Microsoft Teams, Skype Entreprise et Exchange pour obtenir des ressources pour le compte de salle afin d’activer les appels et les expériences de réunion. L’appareil est agnostique de façon à ce qu’il soit toujours possible d’utiliser des fonctionnalités, des scénarios d’appel (pour les appareils configurés avec un plan d’appels) et des mécanismes de verrouillage personnalisés implémentés sur ces appareils. Cela signifie que l’authentification de ces appareils est différente de celle des appareils des utilisateurs finaux.  
+La gestion des comptes Salles Microsoft Teams appareils mobiles est gérée au niveau de l’application. L’application se connecte à Microsoft Teams, Skype Entreprise et Exchange pour obtenir des ressources pour le compte de salle afin d’activer les appels et les expériences de réunion. L’appareil est agnostique de façon à ce qu’il offre des fonctionnalités toujours opérationnelles, des scénarios d’appel (pour les appareils configurés avec un plan d’appels) et des mécanismes de verrouillage personnalisés implémentés sur ces appareils. Cela signifie que l’authentification de ces appareils est différente de celle des appareils des utilisateurs finaux.  
 
 L’authentification moderne est recommandée pour tous les clients qui utilisent Salles Microsoft Teams appareils mobiles avec Microsoft 365 ou Office 365. Si vous avez un déploiement local de serveur Exchange ou de serveur [](/office365/enterprise/hybrid-modern-auth-overview) Skype Entreprise, configurez l’authentification moderne hybride avec Azure Active Directory (Azure AD) pour l’activer à l’aide de l’authentification moderne.
 

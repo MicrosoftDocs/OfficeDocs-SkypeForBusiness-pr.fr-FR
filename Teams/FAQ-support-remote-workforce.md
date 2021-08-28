@@ -11,17 +11,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: nichrose
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Utilisez les conseils ci-dessous pour améliorer la productivité des employés de votre organisation lorsqu’ils travaillent à partir de chez eux (WFH) en réponse à l’épidémie COVID-19 (coronavirus).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318627"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610521"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Forum aux questions : soutenir vos employés en télétravail
 
@@ -36,7 +36,7 @@ Microsoft a étendu sa capacité dans les régions clés avec les annonces réce
 > [!NOTE]
 > Si vous avez déjà configuré Microsoft 365 et que vous voulez en savoir plus sur les actions prises par Microsoft, accédez au Centre des messages et passez en revue le billet **MC205458** du centre de messages.
 
-Ne manquez pas le billet de blog du 5 mars 2020 de Jared Spataro, vice-président Corporate pour Microsoft 365 : [Notre engagement envers les clients pendant COVID-19](https://www.microsoft.com/fr-FR/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
+Ne manquez pas le billet de blog du 5 mars 2020 de Jared Spataro, vice-président Corporate pour Microsoft 365 : [Notre engagement envers les clients pendant COVID-19](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
 
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Avec les actions prises par Microsoft, est-ce que nous anticipons les problèmes ?
@@ -81,7 +81,7 @@ Teams est disponible gratuitement via deux programmes différents :
 
 - Si vous travaillez dans l’éducation et que vous voulez configurer les enseignants, les étudiants et les administrateurs sur Teams, utilisez Office 365 a1, la version gratuite d’Office 365 disponible aux établissements d’enseignement. Inscrivez-vous à [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans).
 
-### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>J'ai déjà Microsoft 365, mais je n’utilise pas Teams. Est-ce que vous fournissez des licences en version d’évaluation?
+### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>J'ai déjà Microsoft 365, mais je n’utilise pas Teams. Est-ce que vous fournissez des licences en version d’évaluation?
 
 Si vous avez Microsoft 365, vous avez déjà Teams. [Activez-le](Office-365-set-up.md) pour tous vos utilisateurs. Une fois activée, vos utilisateurs peuvent exécuter Teams, soit en installant [Bureau](get-clients.md#desktop-client) et [clients mobiles](get-clients.md#mobile-clients), soit [à partir du navigateur](get-clients.md#mobile-clients) sur [https://teams.microsoft.com](https://teams.microsoft.com). 
 

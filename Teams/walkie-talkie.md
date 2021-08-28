@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 description: Configuration de l’application Talkie-walkie Microsoft Teams du point de vue ITAdmin.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 042973f245341c0e4badd221075b81023474b6124f55eeb021bd61d32dcc4bfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602069"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Application Talkie-walkie dans Microsoft Teams
 
@@ -77,7 +77,7 @@ Les employés en ligne doivent souvent parler et recevoir des appels Walkie Talk
   - Casques sans fil 
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
   - Casques câblés 
-    - [Tous les ans!](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+    - [Tous les autres appareils sont en place.](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **Téléphones accidentés**
   - Samsung [Galaxy XCover Pro,](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/) [Galaxy XCover 5,](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy) [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     -  Configuration manuelle : une fois Teams, accédez aux fonctionnalités Paramètres > avancées > XCover/Active. Activer « Touche Contrôle XCover avec l’application » et sélectionner « Teams »

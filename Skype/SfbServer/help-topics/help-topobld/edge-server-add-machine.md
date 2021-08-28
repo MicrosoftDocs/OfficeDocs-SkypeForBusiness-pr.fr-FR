@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeServerAddMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: Spécifiez le nom de domaine complet de chaque ordinateur à ajouter à ce pool en tant que serveur Edge. Après avoir ajouté un ordinateur à la liste, vous pouvez mettre à jour le nom de domaine complet de l’ordinateur, ou le supprimer du pool, à tout moment avant de publier la topologie. Une fois la topologie publiée, la modification du nom de domaine complet nécessite la suppression du serveur dans le Générateur de topologie, puis l’ajout d’un nouveau serveur au pool avec son nouveau nom de domaine complet. Pour plus d’informations sur la conception de la topologie d’un pool de serveurs Edge, voir Define Your Edge Topology dans la documentation de déploiement Edge.
-ms.openlocfilehash: c6ebc2788fe452cadaeeee0a68893d06c96b09ee38c362faf184e78466412882
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ac80fcda2658cc5678d431ad91c3546754658299
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307185"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604853"
 ---
 # <a name="edge-server-add-machine"></a>Ajouter un ordinateur en tant que serveur Edge
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour l’Argentine.
-ms.openlocfilehash: 0794f16ac5e3511d6ce2daae83ff11a8e70bc5feef3d5c3165744601c0e6ffc6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Voici les services Microsoft 365 et Office 365 depuis Skype Entreprise et Microsoft Teams pour l’Argentine.
+ms.openlocfilehash: 904731570fc53fd3db3939e4fab8897d634a4c63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352422"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602279"
 ---
 # <a name="availability-in-argentina"></a>Disponibilité en Argentine
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour l’Argentine.
+Voici les services Microsoft 365 et Office 365 depuis Skype Entreprise et Microsoft Teams pour l’Argentine.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 'Microsoft Teams est l’outil de conversation collaboratif d’Office 365 qui intègre toutes les personnes, contenus et outils ne votre équipe a besoin pour être plus impliquée et efficace. '
-ms.openlocfilehash: 24bb3c5e278ec2b046400308d0342fe4acfae687
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 356cab2bd8585e4ace3e71c02dbd6722f0332a7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372084"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610451"
 ---
 # <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams : EN 301 549 Déclaration de conformité en matière d’accessibilité
 
@@ -46,7 +46,7 @@ Pour obtenir de l’aide sur ce rapport, veuillez [nous envoyer un e-mail.](mail
 
 ## <a name="section-1-champ-dapplication"></a>Section 1 Champ d’application
 
-La présente aide de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matière d’accessibilité](http://mandate376.standards.eu/standard/scope) applicables aux produits et services CELLES-ci de Microsoft.
+La présente aide de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matière d’accessibilité](http://mandate376.standards.eu/standard/scope) applicables aux produits et services PDF de Microsoft.
 
 ## <a name="section-2-rfrences"></a>Section 2 Références
 
@@ -66,7 +66,7 @@ La présente aide de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi
 |**5.4 Préservation des informations d’accessibilité pendant la conversion**<br/> Dans le cas où la CHERCHE convertit des informations ou une communication, elle préserve toutes les informations non exclusives documentées qui sont fournies pour l’accessibilité dans la mesure où ces informations peuvent être contenues dans le format de destination ou prises en charge par ce dernier.<br/> |Non applicable <br/> | |
 |**5.5.1 Mode de fonctionnement**<br/> Dans le cas où la DOMAINE présente des éléments actionnables qui doivent être actionnés en les prenant, en les pinçant ou en comportant une comportant du poignet, un autre mode de fonctionnement accessible qui ne nécessite pas ces gestes est proposé.<br/> |Non applicable <br/> | |
 |**5.5.2 Discernabilité des éléments actionnables**<br/> Dans le cas où la PETITE ENTREPRISE a des éléments actionnables, elle propose un moyen de discerner chaque élément actionnable sans que la vision ne soit nécessaire et sans accomplir le geste associé à cet élément actionnable.<br/> |Non applicable <br/> | |
-|**5.6.1 Statut tactile ou auditif**<br/> DDans le cas où laNB est dotée d’une commande de verrouillage et où cette commande est présentée visuellement à l’utilisateur, la PRINCIPAL propose au moins un mode de fonctionnement avec lequel il est possible de déterminer le statut de la commande par le son ou par le toucher sans actionner la commande.<br/> |Non applicable <br/> | |
+|**5.6.1 Statut tactile ou auditif**<br/> DDans le cas où laNB est dotée d’une commande de verrouillage et où cette commande est présentée visuellement à l’utilisateur, la SOUHAITE propose au moins un mode de fonctionnement avec lequel il est possible de déterminer le statut de la commande par le son ou par le toucher sans actionner la commande.<br/> |Non applicable <br/> | |
 |**5.6.2 Statut visuel**<br/> Dans le cas où laNT est dotée d’une commande de verrouillage et où cette commande n’est pas présentée visuellement à l’utilisateur, laNB propose au moins un mode de fonctionnement avec lequel il est possible de déterminer visuellement le statut de la commande lorsque la commande est présentée.<br/> |Non applicable <br/> | |
 |**5.7 Répétition automatique des touches**<br/> Dans le cas où laNT est dotée de la fonction répétition automatique des touches et où cette fonction ne peut être désactivée :<br/> a) le délai avant la répétition automatique est réglable jusqu’à au moins 2 secondes ; et<br/> b) la vitesse de répétition peut être réduite jusqu’à un caractère par intervalle de 2 secondes.<br/>|Non applicable <br/> | |
 |**5.8 Acceptation des doubles frappes sur le clavier**<br/> Dans le cas où un clavier est fourni, le délai, après une frappe sur le clavier, pendant lequel une autre frappe ne sera pas acceptée si elle est identique à la frappe précédente est réglable jusqu’à au moins 0,5 seconde.<br/> |Non applicable <br/> | |
@@ -76,9 +76,9 @@ La présente aide de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi
 
 | **Critères** <br/>| **Fonctionnalités prises en charge** <br/>| **Remarques et explications** <br/> |
 | --- | --- | --- |
-|**6.1 Bande passante audio pour la parole (recommandation pour informations)**<br/> Dans le cas où la PETITE ENTREPRISE permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et decrypter la communication voix bidirectionnelle dans une bande de fréquence resurée à au moins 7 000 Hz.<br/> |Pris en charge <br/> | |
+|**6.1 Bande passante audio pour la parole (recommandation pour informations)**<br/> Dans le cas où la CORRECTEUR permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et decrypter la communication voix bidirectionnelle dans une bande de fréquence resurée à au moins 7 000 Hz.<br/> |Pris en charge <br/> | |
 |**6.2.1.1 Communication en temps réel par texte (RTT)**<br/> Dans le cas où la PREP est compatible avec la communication voix bidirectionnelle dans un contexte d’utilisation spécifié, elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.<br/> |Non applicable <br/> | |
-|**6.2.1.2 Voix et texte simultanés**<br/> Dans le cas où laNT ou les INFORMATIONS FOURNIES à un utilisateur sont compatibles avec la communication voix bidirectionnelle et permettent à un utilisateur de communiquer avec un autre utilisateur en RTT, elles proposent un mécanisme permettant de sélectionner un mode de fonctionnement qui permet la voix et le texte simultanés.<br/> |Non applicable <br/> | |
+|**6.2.1.2 Voix et texte simultanés**<br/> Dans le cas où laNT ou lesNT fournies à un utilisateur sont compatibles avec la communication voix bidirectionnelle et permettent à un utilisateur de communiquer avec un autre utilisateur en RTT, elles proposent un mécanisme permettant de sélectionner un mode de fonctionnement qui permet la voix et le texte simultanés.<br/> |Non applicable <br/> | |
 |**6.2.2.1 Affichage visuellement accessible**<br/> Dans le cas où laNT est dotée de capacités d’envoi et de réception en RTT, l’affichage du texte envoyé est visuellement différents de celui du texte reçu.<br/> |Non applicable <br/> | |
 |**6.2.2.2 Direction envoi/réception déterminable par un programme informatique**<br/> Dans le cas où laNT est dotée de capacités d’envoi et de réception en RTT, la direction (envoi/réception) du texte transmis est déterminable par un programme informatique, à moins que le RTT n’ait une fonctionnalité fermée.<br/> |Non applicable <br/> | |
 |**6.2.3 Vous ne pourz pas vous en faire une.**<br/> Dans le cas où uneNT dotée de la fonctionnalité RTT affiche une opé avec d’autres TITRES dotées de la fonctionnalité RTT (comme l’exige le 6.2.1.1), elles sont compatibles avec au moins un des quatre mécanismes d’incompatibleé RTT décrits ci-dessous :<br/> a) DOMAINE INTER-opérant sur le réseau téléphonique public (RTC) avec une autre QUI se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l’une de ses annexes pour les signaux de téléphonie en mode texte sur l’interface RTC ;<br/> b) EDIT inter-opérant avec une autre EDIT utilisant la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103 ;<br/> c) EDIT inter-opérant avec une autre LOI.PREC utilisant une technologie RTT conforme à l’ensemble des protocoles IP Multimedia Sub-System (IMS) spécifiés dans les documents TS 126 114, TS 122 173 et TS 134 229 ;<br/> d) INFORMATIONS INTER-opérant avec une autre LOI.AUTH utilisant une spécification commune adaptée et applicable pour l’échange RTT qui est publiée et peut être consultée. Cette spécification commune comprend une méthode pour indiquer la perte ou de la corruption de caractères.|Non applicable <br/> | |
@@ -206,6 +206,6 @@ Le présent document n’est pas la norme EN 301 549 v 2.1.2 (2018-08) et ne doi
 
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OUSE, DANS LE PRÉSENT DOCUMENT.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Solutions pour l'accessibilité de Skype Entreprise Online en France](./accessibility-solutions-in-france.md)

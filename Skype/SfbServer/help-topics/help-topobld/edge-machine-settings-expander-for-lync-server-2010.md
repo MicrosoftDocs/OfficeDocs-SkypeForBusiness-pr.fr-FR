@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Pour modifier les propriétés des ordinateurs serveurs Edge en tant que serveur Edge unique ou en tant qu’ordinateurs membres dans un pool de serveurs Edge, vous configurez les paramètres de configuration du nom du serveur et de l’adresse IP :'
-ms.openlocfilehash: 6a66c84be19636410259eac953b099942dc3c1a41b6d3f75faf926d469795e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81fb33a2217431cd908156dab95e36cca0675f23
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604943"
 ---
-# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres de l’ordinateur Edge pour Lync Server 2010
+# <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres de l’ordinateur Edge pour Lync Server 2010
  
 Pour modifier les propriétés des ordinateurs serveurs Edge en tant que serveur Edge unique ou en tant qu’ordinateurs membres dans un pool de serveurs Edge, vous configurez les paramètres de configuration du nom du serveur et de l’adresse **IP** :
   

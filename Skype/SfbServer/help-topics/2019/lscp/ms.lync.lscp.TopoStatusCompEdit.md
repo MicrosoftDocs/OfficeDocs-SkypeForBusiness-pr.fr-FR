@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: f58782d099311324d7051e2d3595a52b4134b6231625e1872f44b89262ca8f78
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2dfaf5437120d8fa8093ae4ed0b4727ac96cce0d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622786"
 ---
-# <a name="topology-view-computer-detail"></a>Topologie : afficher le détail de l’ordinateur
+# <a name="topology-view-computer-detail"></a>Topologie : afficher le détail de l’ordinateur
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cet article décrit la configuration de votre organisation et de vos salles Teams pour prendre en charge la prise en charge de la prise en charge de la réunion tierce à Cisco WebEx et Zoom.
-ms.openlocfilehash: 9857c4dee31c02c96212ccead33408b9e55b989de5b00d1d38aa975dc0413aab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d3636c2cb3c12e47b4bba0e0c95f7e181069f19
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602149"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Activer Teams de salle pour participer à des réunions tierces
 
@@ -65,7 +65,7 @@ Voici quelques exemples d’entrées que vous devrez peut-être ajouter à votre
 - **Cisco WebEx**`*.webex.com*`
 - **Zoom,** `*.zoom.us*` `*.zoom.com*` , `*.zoomgov.com*`
 
-Pour obtenir la liste complète des URL à ajouter à votre Coffre Liens « Ne pas réécrire » liste ou liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir de qui vous voulez accepter les invitations aux réunions. 
+Pour obtenir la liste complète des URL à ajouter à votre Coffre Liens « Ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierce, contactez le fournisseur de services de réunion tiers à partir de qui vous voulez accepter les invitations aux réunions. 
 
 > [!CAUTION]
 > Ajoutez uniquement les URL de confiance à votre liste d’adresses Coffre Liens « Ne pas réécrire » ou liste d’exceptions de réécriture d’URL tierces.
@@ -101,7 +101,7 @@ Pour activer les réunions de zoom, définissez l’élément `ZoomMeetingsEnabl
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
 ```
 
-Vous pouvez éventuellement spécifier un nom d’utilisateur et une adresse de courrier personnalisés pour participer à des réunions tierces à l’aide des éléments XML suivants. Si les valeurs que vous fournissez ne sont pas valides, l’appareil salles Teams utilise par défaut le nom d’utilisateur et l’adresse de courrier de la boîte aux lettres de salle.
+Si vous le souhaitez, vous pouvez spécifier un nom d’utilisateur et une adresse de courrier personnalisés pour participer à des réunions tierces à l’aide des éléments XML suivants. Si les valeurs que vous fournissez ne sont pas valides, l’appareil salles Teams utilise par défaut le nom d’utilisateur et l’adresse de courrier de la boîte aux lettres de salle.
 
 ```xml
 <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
