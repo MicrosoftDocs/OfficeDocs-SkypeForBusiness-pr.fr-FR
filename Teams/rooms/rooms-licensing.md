@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez les licences disponibles pour différents types d’appels et fonctionnalités de réunion dans Salles Microsoft Teams.
-ms.openlocfilehash: ff6c36d0ded93ffa2231b6fd54a32658ce477d143c2fab4812446c4b88d50cd0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627156"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams Salle de réunion mise à jour des licences
 
@@ -47,7 +47,7 @@ Microsoft propose deux SDK dédiées pour la gestion des licences des réunions 
 |Services gérés | | &#x2714; &sup3;|
 | | | |
 
-&sup1; La disponibilité et les minutes incluses peuvent varier selon la région. Pour vérifier la disponibilité du service, reportez-vous à la disponibilité des pays et régions pour les [plans d’audioconférence et d’appel.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) Des frais de consommation peuvent s’appliquer à des services supplémentaires, tels que les forfaits gratuits, les minutes internationales pour les forfaits nationaux, etc. Les clients peuvent désactiver ces fonctionnalités pour éviter une facturation supplémentaire.  
+&sup1; La disponibilité et les minutes incluses peuvent varier selon la région. Pour vérifier la disponibilité du service, reportez-vous à la disponibilité du pays et de la région pour les [plans d’audioconférence et d’appel.](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans) Des frais de consommation peuvent s’appliquer à des services supplémentaires, tels que les forfaits gratuits, les minutes internationales pour les forfaits nationaux, etc. Les clients peuvent désactiver ces fonctionnalités pour éviter une facturation supplémentaire.  
 
 &sup2; Non disponible dans des nuages souverains  
 
@@ -57,7 +57,7 @@ Microsoft propose deux SDK dédiées pour la gestion des licences des réunions 
 > Si vous utilisez actuellement les références E1, E3, E4 et E5 avec Skype Entreprise Plan 2 avec audioconférence ou Système téléphonique Office 365 et un plan d’appels, celles-ci continueront de fonctionner. Toutefois, vous devez envisager de passer à un modèle de licence plus simple dans le tableau ci-dessus après l’expiration des licences actuelles.
 
 > [!IMPORTANT]
-> Si vous utilisez Skype Entreprise Plan 2, vous ne pouvez utiliser l’Salles Microsoft Teams qu’en mode Skype Entreprise, ce qui signifie que toutes vos réunions seront Skype Entreprise réunions. Pour activer votre salle de réunion pour les Microsoft Teams, nous vous recommandons d’acheter la Salle de réunion réunion. 
+> Si vous utilisez Skype Entreprise Plan 2, vous ne pouvez utiliser l’Salles Microsoft Teams qu’en mode Skype Entreprise, ce qui signifie que toutes vos réunions seront Skype Entreprise réunions. Afin d’activer votre salle de réunion pour Microsoft Teams réunions, nous vous recommandons d’acheter la licence Salle de réunion réunion. 
 
 Le tableau suivant répertorie les fonctionnalités disponibles dans Salles Microsoft Teams et les licences que vous devez acheter pour les obtenir.
   
@@ -68,7 +68,7 @@ Le tableau suivant répertorie les fonctionnalités disponibles dans Salles Micr
 |:-----|:-----|:-----|
 |Rejoindre une réunion planifiée  | Salles Microsoft Teams Standard ou Premium  |Skype Entreprise Licence d'accès client Server standard  |
 |Créer une réunion ad hoc | Salles Microsoft Teams Standard ou Premium  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
-|Créer une réunion ad hoc et faire un appel sortant d’une réunion vers des numéros de téléphone |  Salles Microsoft Teams Standard ou Premium |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
+|Créer une réunion ad hoc et appeler des numéros de téléphone depuis une réunion |  Salles Microsoft Teams Standard ou Premium |Skype Entreprise Licence d'accès client standard  <br/> Skype Entreprise Licence d'accès client Server Entreprise|
 |Fournir un numéro de téléphone à la salle et effectuer ou recevoir un appel depuis la salle ou participer à une audioconférence à l’aide d’un numéro de téléphone  | Avec routage direct : Salles Microsoft Teams standard ou Premium<br/>Sans routage direct : plan d’appels nationaux ou internationaux<br/>Téléphonie Microsoft 365 pour les PME  |Skype Entreprise Licence d'accès client Server standard  <br/> Skype Entreprise Licence d'accès client Server Plus  |
 |Gérer l’appareil de votre salle avec Microsoft Intune |Salles Microsoft Teams Standard ou Premium  |Microsoft Intune abonnement avec [la gestion des gestion des licences des personnes (MDM) local](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Salles Microsoft Teams Services gérés | Salles Microsoft Teams Premium ||
@@ -79,4 +79,4 @@ Le tableau suivant répertorie les fonctionnalités disponibles dans Salles Micr
 
  **Utilisez la bonne version de Windows 10**: Pour les clients qui souhaitent déployer des images Windows 10 sur leurs appareils, voir Configurer une console [Salles Microsoft Teams'](./console.md) Vous pouvez en obtenir une copie à partir du [Centre de gestion des licences en volume.](https://www.microsoft.com/Licensing/servicecenter/) 
  
- Consultez également les expériences de salle de réunion : Découvrez la nouvelle [Salles Microsoft Teams Standard et Premium.](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)
+ Consultez également [les expériences de salle](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)de réunion : Découvrez les Salles Microsoft Teams Standard et Premium.

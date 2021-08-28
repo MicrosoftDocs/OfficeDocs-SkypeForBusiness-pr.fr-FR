@@ -9,18 +9,18 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
 description: Utilisez une caméra de contenu dans une salle Microsoft Teams, qui interagit avec le logiciel de traitement des images pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
-ms.openlocfilehash: 36c37872fa705876921b9278e51a2434ebb4aa0e76ed93f45199ccb5760798bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e24a90e65a5d844a5431951283153a5de2406498
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316950"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613003"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
@@ -86,7 +86,7 @@ Ou, consultez le marketplace des Microsoft Teams’appareils pris en charge pour
 
 ## <a name="camera-settings"></a>Paramètres de la caméra
 
-Une fois la caméra installée dans la salle, installez-la sur la console Salles Microsoft Teams de cette salle :
+Une fois la caméra installée dans la salle, installez-la sur la console d’Salles Microsoft Teams de cette salle :
 
 1. Sélectionnez **Paramètres** ![ Paramètres, ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) connectez-vous en tant qu’administrateur, puis sélectionnez **Appareil Paramètres.**
 2. Dans la section **Caméra par défaut,** sélectionnez la caméra de contenu et assurez-vous que l’option Améliorations **du** contenu est sélectionnée.

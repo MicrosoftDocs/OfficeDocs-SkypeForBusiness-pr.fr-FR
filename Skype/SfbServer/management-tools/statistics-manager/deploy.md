@@ -1,5 +1,5 @@
 ---
-title: Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
+title: Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment déployer le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333256"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612093"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Déployer le Gestionnaire de Statistiques pour Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour découvrir comment déployer le Gestionnaire de statistiques pour Skype Entreprise Server.
   
@@ -170,7 +170,7 @@ Installez un agent sur chaque Skype Entreprise Server que vous souhaitez surveil
     
 3. Cliquez sur **Installer**.
     
-Si vous installez un agent sur de nombreux ordinateurs, vous voudrez probablement le faire en mode sans surveillance. Par exemple : 
+Si vous installez un agent sur de nombreux ordinateurs, vous voudrez probablement le faire en mode sans surveillance. Par exemple : 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]

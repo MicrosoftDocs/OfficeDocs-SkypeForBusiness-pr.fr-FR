@@ -14,17 +14,17 @@ search.appverid: MET150
 ms.reviewer: rafarhi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: Les administrateurs peuvent découvrir comment ajouter de nouveaux invités à une organisation dans Microsoft Teams clients de bureau et web et Azure Active Directory portail de collaboration B2B.
-ms.openlocfilehash: 1525a389b5299491dc7d0de2adfd744d0d3437aff7fbeb5832cd37790ab24ffb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e70b32face0948446ba084f0150dc4da7c9a69b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611773"
 ---
 # <a name="add-a-guest-to-a-team"></a>Ajouter un invité à une équipe
 
@@ -48,7 +48,7 @@ Les invités que vous avez déjà ajoutés via Azure AD B2B, Microsoft 365 group
 Vous pouvez suivre l'ajout d'invités dans Azure AD ou dans le Centre de sécurité Microsoft 365. L’ajout d’un invité dans Microsoft teams est audité et consigné en tant qu’activité d’administration des groupes Azure AD «membre ajouté au groupe». Pour plus d’informations, voir Audit et signalement d’un utilisateur de [collaboration B2B](/azure/active-directory/external-identities/auditing-and-reporting) et Effectuer des recherches dans le journal d’audit [dans le Centre de conformité.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Autoriser l’accès invité dans Microsoft Teams](teams-dependencies.md)
 

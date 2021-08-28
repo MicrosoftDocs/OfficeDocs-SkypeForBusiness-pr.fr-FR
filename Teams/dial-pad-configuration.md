@@ -13,16 +13,16 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer le pavé de numérotation dans le client Teams pour que les utilisateurs accèdent à la fonctionnalité de réseau téléphonique commuté (PSTN).
-ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344313"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627616"
 ---
 # <a name="dial-pad-configuration"></a>Configuration du pavé de numérotation
 
@@ -34,7 +34,7 @@ Dans le Teams, le pavé de numérotation permet aux utilisateurs d’accéder au
 - L’utilisateur est homed online et n’est pas Skype Entreprise local
 - L’utilisateur a Teams stratégie d’appel activée
 
-Les sections suivantes décrivent comment utiliser PowerShell pour vérifier les critères. Le plus souvent, vous devez examiner différentes propriétés dans la sortie de l'Get-CsOnlineUser cmdlet. Les exemples supposent $user nom d’utilisateur utilisateur (UPN) ou l’adresse sip de l’utilisateur.
+Les sections suivantes décrivent comment utiliser PowerShell pour vérifier les critères. Le plus souvent, vous devez examiner différentes propriétés dans la sortie de l'Get-CsOnlineUser cmdlet. Les exemples supposent $user nom d’utilisateur utilisateur (UPN) ou l’adresse SIP de l’utilisateur.
 
 ## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>Un utilisateur dispose d’une licence Système téléphonique « MCOEV »)
 
@@ -167,7 +167,7 @@ MusicOnHoldEnabledType     : Enabled
 
 -   Vous devrez peut-être redémarrer Teams client après avoir apporté l’une de ces modifications de configuration.
 
--   Si vous avez récemment mis à jour l’un des critères ci-dessus, vous devrez peut-être patienter quelques heures que le client reçoie les nouveaux paramètres.
+-   Si vous avez récemment mis à jour l’un des critères ci-dessus, vous devrez peut-être patienter quelques heures pour que le client reçoie les nouveaux paramètres.
 
 -   Si vous ne voyez toujours pas le pavé de numérotation, vérifiez qu’il existe une erreur de mise en service à l’aide de la commande suivante :
 

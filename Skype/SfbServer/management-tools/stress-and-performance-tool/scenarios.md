@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Tâches à effectuer pour configurer Skype Entreprise Server 2015 afin d’effectuer des tests de performances et de charge à l’aide de l’outil Stress and Performance.
-ms.openlocfilehash: cb018f4c12ad967acf9364dabb62ce5eabf07412a46abe912dbffba5fe656422
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 212a6fa1adc49508982e996ecdf61afc183d186b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611903"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Scénarios de performances pour l Skype Entreprise Server 2015 Stress and Performance Tool
  
@@ -39,7 +39,7 @@ Nous fournissons des exemples de scripts PowerShell que vous pouvez utiliser pou
   
 ## <a name="stress-and-performance-tool-client-version-names"></a>Noms de version du client de l’outil Stress and Performance
 
-Vous devrez peut-être configurer la stratégie de vérification de version du client si vous avez précédemment modifié les paramètres par rapport aux valeurs par défaut. Si vous n’êtes pas sûr de cela, consultez la [documentation de vérification de version du client.](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules)
+Vous devrez peut-être configurer la stratégie de vérification de version du client si vous avez précédemment modifié les paramètres par rapport aux valeurs par défaut. Si vous n’êtes pas sûr de cela, consultez la documentation de vérification [de version du client.](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules)
   
 L’outil Stress and Performance utilise les versions d’agent utilisateur suivantes par défaut lors de la communication avec Skype Entreprise Server 2015 :
   

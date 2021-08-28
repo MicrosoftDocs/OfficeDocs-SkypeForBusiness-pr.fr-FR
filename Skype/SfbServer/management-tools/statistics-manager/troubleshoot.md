@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes de déploiement du Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 457790514cb769edce6deafc23857a59749b1102cf4c33206eac836d11c75c6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 622e3fdecc9cbe0def1f87a623692cb93889bb00
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333206"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612053"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Résolution des problèmes du Gestionnaire de statistiques pour Skype Entreprise Server
  
@@ -80,7 +80,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **4002** — Mot de passe d’écoute non valide
     
-    Le mot de passe chiffré que l’agent tente d’utiliser ne correspond pas au mot de passe du service sur l’écoute proprement dite. Désinstallez l’agent et réinstallez-le à l’aide du mot de passe de service correct.
+    Le mot de passe chiffré que l’agent tente d’utiliser ne correspond pas au mot de passe du service sur l’écoute lui-même. Désinstallez l’agent et réinstallez-le à l’aide du mot de passe de service correct.
     
   - **4003** — Non-matage de l’empreinte numérique du certificat
     
@@ -96,7 +96,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **4005** — Impossible de désérialiser le XML
     
-    Les informations du serveur sur le serveur d’écoute sont endommagées ou il se peut qu’il y a une insérialisation de version entre l’agent et les ordinateurs d’écoute. Assurez-vous que les versions correspondent et vérifiez le journal des événements d’écoute pour les problèmes.
+    Les informations du serveur sur le serveur d’écoute sont endommagées ou il peut y avoir une non-distinction de version entre l’agent et les ordinateurs d’écoute. Assurez-vous que les versions correspondent et vérifiez le journal des événements d’écoute pour les problèmes.
     
 ## <a name="listener-events"></a>Événements d’écoute
 <a name="BKMK_Listener"> </a>
@@ -135,7 +135,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **10201** — La panne d’écriture de Redis a continué (toutes les 60 secondes)
     
-  - **30100** — Panne d’écriture De Redis résolue
+  - **30100** — Panne d’écriture de Redis résolue
     
     Ceux-ci sont enregistrés lorsque l’écoute ne peut pas écrire dans le cache Redis. Assurez-vous que Redis est démarré et que la connectivité réseau entre l’écoute et Redis est disponible.
     

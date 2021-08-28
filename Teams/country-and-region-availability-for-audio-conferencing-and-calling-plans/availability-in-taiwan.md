@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 services de Skype Entreprise et Microsoft Teams disponibles pour Taïwan.
-ms.openlocfilehash: 84621398fd8e82ff5a0a6412bfd868e137cff56b11f496a408eb31ef14743986
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8007980a10167d53937e20d7750671af94e93502
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611713"
 ---
 # <a name="availability-in-taiwan"></a>Disponibilité en Taiwan
 

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: L Skype Entreprise Server 2015 Stress and Performance Tool est utilisé lors de la planification de la capacité et de l’optimisation des performances dans les environnements de non-production ou de test.
-ms.openlocfilehash: 1dff13905145752c57b02795e9aab07737d51b33d94d6355ce5f8c55fa62e7ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 381e6178994ce8d4ce2f3558bd075cf6fc3b6d43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328019"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611893"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype Entreprise Server 2015 Stress and Performance Tool
  
@@ -33,7 +33,7 @@ L Skype Entreprise Server 2015 Stress and Performance Tool inclut des outils qui
     
 - Mesurer les performances de vos déploiements Skype Entreprise Server déploiements
     
-En règle générale, vous utilisez cet outil après avoir utilisé l’outil de planification [Skype Entreprise Server 2015](../../management-tools/planning-tool/planning-tool.md) pour concevoir la topologie et affiner la topologie avec la calculatrice de planification de capacité [Skype Entreprise Server 2015.](../../management-tools/capacity-planning-calculator.md) 
+Vous utilisez généralement cet outil après avoir utilisé l’outil de planification [Skype Entreprise Server 2015](../../management-tools/planning-tool/planning-tool.md) pour concevoir la topologie et affiner la topologie avec la calculatrice de planification de capacité [Skype Entreprise Server 2015.](../../management-tools/capacity-planning-calculator.md) 
 
 > [!NOTE]
 > Cet outil ne sera pas mis à jour Skype Entreprise Server 2019.
@@ -46,7 +46,7 @@ L’outil Stress and Performance peut simuler ces types de charge utilisateur :
 |:-----|:-----|
 |Messagerie instantanée et présence  <br/> |Audioconférence  <br/> |
 |Partage d'application  <br/> |Voix sur IP (VoIP), y compris la simulation de réseau téléphonique commuté (PTSN)  <br/> |
-|Conférence client Web Access  <br/> |Attendant automatique de conférence  <br/> |
+|Conférence client Web Access  <br/> |Service de conférence automatique  <br/> |
 |Groupes Response Group  <br/> |Développement de listes de distribution  <br/> |
 |Téléchargement du carnet d’adresses et requête de carnet d’adresses  <br/> |Appels enhanced 911 (E911) et profil d’emplacement (plan de numérotation)  <br/> |
 |MultiView  <br/> |Collaboration de données  <br/> |

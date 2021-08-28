@@ -8,7 +8,7 @@ ms.reviewer: filippse
 ms.service: msteams
 audience: admin
 description: Utilisez cet exemple de script PowerShell pour tester les connexions du contrôleur de bordure de session de routage direct Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95093f38c6634e6ba2b26583b67de817d0253c9f8879eaa390367e74d4d75581
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1258f85219e5ce6c00f8db5dac3a5233ce2c0717
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332486"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627096"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>Script PowerShell de test des connexions du contrôleur de bordure de session de routage direct
 

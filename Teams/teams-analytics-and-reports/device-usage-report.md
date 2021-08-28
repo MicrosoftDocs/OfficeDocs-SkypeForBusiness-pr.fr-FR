@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport d’utilisation Teams’appa
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15dfe1fe7e79e909b11093c019ac38c6cb5d967e46146d4ce0262499ca880018
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fdb7292ab36f41eb4c64233ea836f688cec49bb3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308375"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627526"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Rapport d’utilisation des périphériques de Microsoft Teams
 
@@ -33,7 +33,7 @@ Le Teams d’utilisation des appareils dans le Microsoft Teams d’administratio
 1. Dans la barre de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez **Teams’utilisation des appareils.**
 2. Dans **Plage de dates**, sélectionnez une plage puis cliquez sur **Exécuter le rapport**.
 
-    ![Capture d’écran du Teams d’utilisation des appareils dans le Centre d’administration Teams avec des appels](../media/teams-reports-device-usage-with-callouts.png "Capture d’écran du Teams d’utilisation des appareils dans le Centre d’administration Teams avec des appels")
+    ![Capture d’écran du Teams d’utilisation des appareils dans le Centre Teams’administration avec des appels](../media/teams-reports-device-usage-with-callouts.png "Capture d’écran du Teams d’utilisation des appareils dans le Centre d’administration Teams avec des appels")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
@@ -42,7 +42,7 @@ Le Teams d’utilisation des appareils dans le Microsoft Teams d’administratio
 |**1**   |Le Teams d’utilisation des appareils peut être pris en compte pour les tendances des 7 ou 30 derniers jours.  |
 |**2**   |Chaque rapport indique la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 heures par rapport à l’heure de l’activité. |
 |**3**   |<ul><li>L’axe X du graphique représente les différents appareils **(Windows,** **Mac,** **Linux,** **iOS,** **Android Téléphone,** **Web)** utilisés pour se connecter à Teams. </li><li>L’axe Y est le nombre d’utilisateurs de l’appareil sur la période sélectionnée.</li> </ul>Pointez sur la barre représentant un appareil pour voir le nombre d’utilisateurs utilisant l’appareil pour se connecter Teams.|
-|**4**   |Le tableau vous offre une répartition de l’utilisation des appareils par utilisateur. <ul><li>**Nom d’utilisateur** est le nom d’affichage de l’utilisateur. Vous pouvez cliquer sur le nom d’affichage pour aller à la page de paramètres de l’utilisateur dans le Microsoft Teams d’administration. </li><li>**Windows** est sélectionnée si l’utilisateur a été actif dans le client Teams bureau sur un Windows ordinateur.</li><li>**Mac** est sélectionné si l’utilisateur a été actif dans le client Teams bureau sur un ordinateur macOS. </li> <li>**Linux** est sélectionné si l’utilisateur a été actif dans le client Teams bureau sur un ordinateur Linux. </li> <li>**iOS** est sélectionné si l’utilisateur était actif sur le client Teams mobile pour iOS.</li><li>**L’application Téléphone Android** est sélectionnée si l’utilisateur a été actif sur Teams client mobile pour Android. <li><li>**L’application Web** est sélectionnée si l’utilisateur a été actif sur Teams client web. <li>**La dernière** activité est la dernière date (UTC) à laquelle l’utilisateur a participé à Teams activité.</li> </ul> Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur s’affiche sous la forme « - » dans le tableau. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**4**   |Le tableau vous offre une répartition de l’utilisation des appareils par utilisateur. <ul><li>**Nom d’utilisateur** est le nom d’affichage de l’utilisateur. Vous pouvez cliquer sur le nom d’affichage pour aller à la page de paramètres de l’utilisateur dans le Microsoft Teams d’administration. </li><li>**Windows** est sélectionné si l’utilisateur a été actif dans le client Teams bureau sur un Windows ordinateur.</li><li>**Mac** est sélectionné si l’utilisateur a été actif dans le client Teams bureau sur un ordinateur macOS. </li> <li>**Linux** est sélectionné si l’utilisateur a été actif dans le client Teams bureau sur un ordinateur Linux. </li> <li>**iOS** est sélectionné si l’utilisateur était actif sur le client Teams mobile pour iOS.</li><li>**L’application Téléphone Android** est sélectionnée si l’utilisateur a été actif sur Teams client mobile pour Android. <li><li>**L’application Web** est sélectionnée si l’utilisateur a été actif sur Teams client web. <li>**La dernière** activité est la dernière date (UTC) à laquelle l’utilisateur a participé à Teams activité.</li> </ul> Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur s’affiche sous la forme « - » dans le tableau. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**5**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau. |
 |**6**   |Vous pouvez exporter le rapport dans un fichier CSV à des fin d’analyse en mode hors connexion. Cliquez **sur Exporter vers Excel,** puis sous l’onglet **Téléchargements,** cliquez sur Télécharger pour télécharger le rapport lorsqu’il est prêt. <br><br>![Capture d’écran de l’onglet Téléchargements affichant les rapports exportés](../media/teams-reports-export-to-csv.png)|
 

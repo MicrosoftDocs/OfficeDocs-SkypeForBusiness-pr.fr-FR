@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration
@@ -38,7 +38,7 @@ additionalContent:
   sections:
     - items:
         - title: Vous développez vos Teams de scénarios ?
-          summary: Découvrez nos Teams ateliers Chalk Talk pour les professionnels de l’informatique.
+          summary: Découvrez nos Teams ateliers Chalk Talk pour professionnels de l’informatique.
           url: ./chalk-talks-landing-page.yml
         - title: Vous débutez avec Teams?
           summary: En savoir plus sur la mise en Teams.

@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientCVSettingEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version globale du client s’installe avec Skype Entreprise Server et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client qui sont en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez désactiver la configuration globale de version du client si vous voulez qu’aucun contrôle de la version du client ne se produise.
-ms.openlocfilehash: 7b08ccfa700b8d054877645bb0b94f1079b9622d2831f9fdd6f76f217e327264
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a420613d06e67df651aa7224f4d791cd69272fd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614466"
 ---
-# <a name="client-version-configuration-create-new-or-edit-existing"></a>Configuration de version du client : création d’une nouvelle ou modification d’une configuration existante
+# <a name="client-version-configuration-create-new-or-edit-existing"></a>Configuration de version du client : création d’une nouvelle ou modification d’une configuration existante
 
 Les paramètres de configuration de version du client sont utilisés pour activer ou désactiver le contrôle de version du client. La configuration de la version globale du client s’installe avec Skype Entreprise Server et est utilisée pour activer ou désactiver le contrôle de version du client pour l’ensemble du déploiement du serveur. Lorsque la configuration globale est activée, toutes les stratégies de version du client qui sont en place prendront effet lorsque les utilisateurs tenteront de se connecter. Vous pouvez désactiver la configuration globale de version du client si vous voulez qu’aucun contrôle de la version du client ne se produise.
 
@@ -56,7 +56,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
   - **Bloquer avec une URL** Empêche le client de se connecter si la version du client ne correspond à aucun filtre dans la liste des stratégies de version du client et inclut un message d’erreur contenant une URL dans laquelle un client plus récente peut être téléchargé.
 
-  - **Autoriser avec l’URL** Permet au client de se connecter si la version du client ne correspond à aucun filtre dans la liste des stratégies de version du client et inclut un message d’erreur contenant une URL dans laquelle un client plus récente peut être téléchargé.
+  - **Autoriser avec une URL** Permet au client de se connecter si la version du client ne correspond à aucun filtre dans la liste des stratégies de version du client et inclut un message d’erreur contenant une URL dans laquelle un client plus récente peut être téléchargé.
 
   - **URL** Si vous avez sélectionné **Bloquer avec une URL** ou Autoriser avec une **URL,** vous pouvez spécifier l’URL de téléchargement du client à inclure dans le message d’erreur.
 

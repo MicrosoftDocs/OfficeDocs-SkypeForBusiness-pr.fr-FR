@@ -11,16 +11,16 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Découvrez comment sécuriser vos Salles Microsoft Teams appareils mobiles.
-ms.openlocfilehash: 33ace09520f43804a6e6aa8cdd36a6016b195a650e821036f0caa2953e73f8ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3b0f244f36ed30376fbe72e9669b6f84f9f9629
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296661"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627286"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Salles Microsoft Teams Sécurité
 
@@ -36,7 +36,7 @@ Même si les utilisateurs finaux ne peuvent pas placer de fichiers sur salles Te
 
 ## <a name="hardware-security"></a>Sécurité matérielle
 
-Dans un salles Teams de calcul, un module de calcul central est Windows 10 IoT Entreprise édition. Chaque module de calcul certifié doit avoir une solution de montage sécurisée, un logement de verrouillage de sécurité (par exemple, le verrouillage ) et des mesures de sécurité d’accès par port I/O pour empêcher la connexion d’appareils non autorisés. Vous pouvez également désactiver des ports spécifiques via une configuration UEFI (Unified Extensible Firmware Interface).
+Dans un salles Teams de calcul, un module de calcul central est Windows 10 IoT Entreprise édition. Chaque module de calcul certifié doit avoir une solution d’attache sécurisée, un logement de verrouillage de sécurité (par exemple, le verrouillage ) et des mesures de sécurité d’accès par port I/O pour empêcher la connexion d’appareils non autorisés. Vous pouvez également désactiver des ports spécifiques via une configuration UEFI (Unified Extensible Firmware Interface).
 
 Chaque module de calcul certifié doit être fourni avec la technologie compatible TPM (Trusted Platform Module) 2.0 activée par défaut. La gestion des données TPM sert à chiffrer les informations de connexion du salles Teams ressource.
 
@@ -50,7 +50,7 @@ La protection DMA (Kernel Direct Memory Access) est un paramètre Windows 10 act
 
 - Contre la DMA malveillante par les appareils connectés à des ports internes/externes facilement accessibles, tels que les emplacements du PCIe M.2 et Thunderbolt 3, pendant l’runtime du système d’exploitation.
 
-salles Teams’intégrité du code protégé par l’hyperviseur (HVCI). L’une des fonctionnalités fournies par HVCI est Credential Guard. Credential Guard offre les avantages suivants :
+salles Teams’intégrité du code protégé par l’hyperviseur (HVCI). Credential Guard est une des fonctionnalités fournies par HVCI. Credential Guard offre les avantages suivants :
 
 - **Sécurité matérielle** NTLM, Kerberos et le Gestionnaire d’informations d’identification tirez parti des fonctionnalités de sécurité de la plateforme, notamment le démarrage sécurisé et la virtualisation, pour protéger les informations d’identification.
 
@@ -69,13 +69,13 @@ L’Salles Microsoft Teams s’exécute à l’aide de la fonctionnalité Accès
 
 Si vous décidez d’exécuter une analyse de sécurité ou un centre de sécurité Internet sur salles Teams, l’analyse peut uniquement s’exécuter dans le contexte d’un compte d’administrateur local, car le compte d’utilisateur Skype ne prend pas en charge l’exécution d’applications autres que l’application salles Teams. Bon nombre des fonctionnalités de sécurité appliquées au contexte d’utilisateur Skype ne s’appliquent pas aux autres utilisateurs locaux et par conséquent, ces analyses de sécurité n’entraînent pas le verrouillage complet de la sécurité appliqué au compte Skype. Par conséquent, il n’est pas recommandé d’exécuter une analyse locale sur salles Teams. Si vous le souhaitez, vous pouvez exécuter des tests de déficit externe. Pour cette raison, nous vous recommandons d’exécuter des tests de déficit extérieur sur salles Teams appareils au lieu d’exécuter des analyses locales.
 
-En outre, des stratégies de verrouillage sont appliquées afin de limiter l’utilisation des fonctionnalités non administratives. Un filtre clavier est activé pour intercepter et bloquer les combinaisons de claviers potentiellement incursées par les stratégies Accès affecté. Seuls les utilisateurs ayant des droits d’administration locaux ou de domaine sont autorisés à se Windows pour gérer salles Teams. Ces stratégies ainsi que d’autres Windows sur Salles Microsoft Teams appareils sont évaluées et testées en permanence pendant le cycle de vie du produit.
+En outre, des stratégies de verrouillage sont appliquées afin de limiter l’utilisation des fonctionnalités non administratives. Un filtre clavier est activé pour intercepter et bloquer les combinaisons de claviers potentiellement incursées par les stratégies Accès affecté. Seuls les utilisateurs ayant des droits d’administration locaux ou de domaine sont autorisés à se Windows pour gérer salles Teams. Ces stratégies ainsi que d’autres appliquées Windows sur Salles Microsoft Teams appareils sont évaluées et testées en permanence pendant le cycle de vie du produit.
 
 ## <a name="account-security"></a>Sécurité du compte
 
 salles Teams incluent un compte d’administration nommé « Administrateur » avec un mot de passe par défaut. Nous vous recommandons vivement de modifier le mot de passe par défaut dès que possible une fois la configuration terminée.
 
-Le compte Administrateur n’est pas requis pour une opération appropriée sur salles Teams appareils mobiles et peut être renommé, voire supprimé. Toutefois, avant de supprimer le compte d’administrateur, veillez à configurer un autre compte d’administrateur local configuré avant de supprimer celui qui est salles Teams appareils mobiles. Pour plus d’informations sur la modification du mot de passe d’un compte Windows local à l’aide d’outils Windows intégrés ou de PowerShell, voir les sections suivantes :
+Le compte d’administrateur n’est pas requis pour une opération appropriée salles Teams appareils mobiles et peut être renommé ou même supprimé. Toutefois, avant de supprimer le compte d’administrateur, veillez à configurer un autre compte d’administrateur local configuré avant de supprimer celui qui est salles Teams appareils mobiles. Pour plus d’informations sur la modification du mot de passe d’un compte Windows local à l’aide d’outils Windows intégrés ou de PowerShell, voir les sections suivantes :
 
 - [Modifier ou réinitialiser votre mot Windows passe](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 - [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
@@ -98,7 +98,7 @@ Nous vous recommandons de créer le compte de ressource dans Azure AD, si possib
 En règle générale, salles Teams a la même exigences réseau que n’importe quel Microsoft Teams client. L’accès via les pare-feu et autres appareils de sécurité est le même pour les salles Teams que pour tout autre client Microsoft Teams sécurité. Spécifiques aux salles Teams, les catégories répertoriées comme « requises » pour Teams doivent être ouvertes sur votre pare-feu. salles Teams a également besoin d’accéder à Windows Jour, Microsoft Store et Microsoft Intune (si vous utilisez Microsoft Intune pour gérer vos appareils). Pour obtenir la liste complète des ADRESSES ET URL requises pour Salles Microsoft Teams, voir :
 
 - **Microsoft Teams** [Office 365 URL et plages d’adresses IP](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
-- **Windows à jour Configurez** [WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
+- **Windows à jour** [Configurez WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
 - **Microsoft Store** [conditions préalables pour l’éducation et Microsoft Store pour Entreprises l’éducation](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
 - **Microsoft Intune** [points d’en-Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
 
@@ -118,17 +118,17 @@ Si vous utilisez le composant Salles Microsoft Teams services gérés d’Salles
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-salles Teams est configuré pour assurer automatiquement l’application de correctifs avec les dernières mises Windows jour, y compris les mises à jour de sécurité. salles Teams installe les mises à jour en attente tous les jours à partir de 02:00 à l’aide d’une stratégie locale pré-définie. Il n’est pas nécessaire d’utiliser des outils supplémentaires pour déployer et appliquer Windows mises à jour. L’utilisation d’outils supplémentaires pour déployer et appliquer des mises à jour peut retarder l’installation des correctifs Windows et donc entraîner un déploiement moins sécurisé. L salles Teams appappil est déployée à l’aide de la Microsoft Store. Si la licence de vos appareils est Salles Microsoft Teams Standard, toutes les nouvelles versions de l’application sont installées automatiquement pendant le processus de mise à jour des correctifs nocturnes. Si vos appareils sont concédés sous licence Salles Microsoft Teams Premium et inscrits au service géré microsoft, les nouvelles versions de l’application salles Teams sont installées selon votre plan de déploiement défini.
+salles Teams est configuré pour assurer automatiquement l’application de correctifs avec les dernières mises Windows jour, y compris les mises à jour de sécurité. salles Teams installe les mises à jour en attente tous les jours à partir de 02:00 à l’aide d’une stratégie locale pré-définie. Il n’est pas nécessaire d’utiliser des outils supplémentaires pour déployer et appliquer Windows mises à jour. L’utilisation d’outils supplémentaires pour déployer et appliquer des mises à jour peut retarder l’installation des correctifs Windows et donc entraîner un déploiement moins sécurisé. L salles Teams appappe de déploiement est déployée à l’aide du Microsoft Store. Si la licence de vos appareils est Salles Microsoft Teams Standard, toutes les nouvelles versions de l’application sont installées automatiquement pendant le processus de mise à jour des correctifs nocturnes. Si vos appareils sont concédés sous licence Salles Microsoft Teams Premium et inscrits au service géré microsoft, les nouvelles versions de l’application salles Teams sont installées selon votre plan de déploiement défini.
 
 salles Teams fonctionnent avec la plupart des protocoles de sécurité réseau ou 802.1X. Toutefois, nous ne pouvons pas tester les salles Teams toutes les configurations de sécurité réseau possibles. Par conséquent, si des problèmes de performances peuvent être pointés vers des problèmes de performances réseau, vous devrez peut-être désactiver ces protocoles s’ils sont configurés dans votre organisation.
 
-Pour optimiser les performances optimales des médias en temps réel, nous vous recommandons vivement de configurer Teams trafic de médias pour contourner les serveurs proxy et autres périphériques de sécurité réseau. Les médias en temps réel sont sensibles à la latence, et les serveurs proxy et les périphériques de sécurité réseau peuvent considérablement dégrader la qualité audio et vidéo des utilisateurs. Par ailleurs, étant donné Teams multimédias en ligne sont déjà chiffrés, la transmission du trafic via un serveur proxy n’offre aucun avantage. Pour plus d’informations, voir Mise en réseau vers le cloud : [l’œuvre d’un](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) architecture qui traite des recommandations réseau pour améliorer les performances des médias avec Microsoft Teams et Salles Microsoft Teams.
+Pour optimiser les performances optimales des médias en temps réel, nous vous recommandons vivement de configurer Teams trafic de médias pour contourner les serveurs proxy et autres périphériques de sécurité réseau. Les médias en temps réel sont sensibles à la latence, et les serveurs proxy et les périphériques de sécurité réseau peuvent considérablement dégrader la qualité audio et vidéo des utilisateurs. Par ailleurs, étant Teams multimédias en ligne sont déjà chiffrés, la transmission du trafic via un serveur proxy n’offre aucun avantage. Pour plus d’informations, voir Mise en réseau vers le cloud : [l’œuvre d’un](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide) architecture qui traite des recommandations réseau pour améliorer les performances des médias avec Microsoft Teams et Salles Microsoft Teams.
 
 > [!IMPORTANT]
 > salles Teams ne prend pas en charge les serveurs proxy authentifiés.
 
-salles Teams’appareils n’ont pas besoin de se connecter à un réseau laN interne. Envisagez de placer salles Teams segment réseau sécurisé avec un accès Internet direct. Si votre réseau lan interne est compromis, les opportunités d’attaque du salles Teams sont réduites.
+salles Teams’appareils n’ont pas besoin de se connecter à un réseau laN interne. Envisagez de placer salles Teams segment réseau sécurisé avec un accès Internet direct. Si votre laN interne devient compromise, les opportunités d’attaque du vecteur d’salles Teams sont réduites.
 
 Nous vous recommandons vivement de connecter vos salles Teams’appareils à un réseau câblé. L’utilisation de réseaux sans fil sur salles Teams appareils mobiles n’est ni recommandée ni certifiée. Certaines fonctionnalités de connectivité, telles que Wi-Fi Sense, sont désactivées par défaut.
 
-Les fonctionnalités de jointité de proximité salles Teams reposent sur Bluetooth. Toutefois, l Bluetooth implémentation complète sur les salles Teams n’autorise pas une connexion d’appareil externe à un salles Teams appareil. Bluetooth l’utilisation de la technologie salles Teams appareils mobiles est actuellement limitée à la publicité des balises et aux connexions proximales invités. Le `ADV_NONCONN_INT` type d’unité de données du protocole (PDU) est utilisé dans la balise publicitaire. Ce type de PDU s’agit d’appareils non connectables qui annoncent des informations sur le périphérique d’écoute. Ces fonctionnalités ne Bluetooth aucun jumelage d’appareil. Des informations supplémentaires sur Bluetooth protocoles d’entreprise sont Bluetooth site web [de sig.](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/)
+Les fonctionnalités de jointité de proximité salles Teams reposent sur Bluetooth. Toutefois, l Bluetooth implémentation complète sur les salles Teams n’autorise pas une connexion d’appareil externe à un salles Teams appareil. Bluetooth l’utilisation de la technologie salles Teams appareils mobiles est actuellement limitée à la publicité des balises et aux connexions proximales invités. Le `ADV_NONCONN_INT` type d’unité de données du protocole (PDU) est utilisé dans la balise publicitaire. Ce type de PDU s’agit d’appareils non connectables qui annoncent des informations sur le périphérique d’écoute. Il n’est pas Bluetooth le coupage d’appareil dans le cadre de ces fonctionnalités. Des informations supplémentaires sur Bluetooth protocoles d’entreprise sont Bluetooth site web [de sig.](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/)

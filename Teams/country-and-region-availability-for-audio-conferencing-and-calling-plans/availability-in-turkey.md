@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la Turquie.
-ms.openlocfilehash: d99ecea4d87bf45c3cf603ef92465afe6ba54bcf5af3cfe77d257d0ae105eeaa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams la Turquie.
+ms.openlocfilehash: 08531f0c7228d20bc5086ab2aa566a8a3466d9a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327789"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627626"
 ---
 # <a name="availability-in-turkey"></a>Disponibilité en Turquie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services de Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la Turquie.
+Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams la Turquie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

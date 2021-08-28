@@ -13,25 +13,25 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: Le tableau de bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation d’Skype Entreprise pour voir les appareils, y compris les systèmes d’exploitation et appareils mobiles Windows sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions. Pour en savoir plus, consultez les rapports d’activité du Centre d’administration.
-ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73f0558a295e6a11988331c48255a102dcc9d6eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342679"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612823"
 ---
 # <a name="device-usage-report"></a>Rapport d'utilisation de dispositif
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation **d’Skype Entreprise** pour voir les appareils, y compris les systèmes d’exploitation et appareils mobiles Windows sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions. 
+Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d’utilisation **d’Skype Entreprise** pour voir les appareils, y compris les systèmes d’exploitation et appareils mobiles Windows sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions. 
 
 Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) vue d’ensemble des rapports.
   
@@ -68,7 +68,7 @@ Chaque rapport comporte la date à laquelle il a été généré. Les rapports r
 ***
 ![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du  graphique interactif Utilisateurs pour comprendre les tendances d’utilisation et voir le nombre d’utilisateurs connectés à l’aide de l’application Skype Entreprise utilisée dans votre organisation. Cela vous indique le nombre total d’utilisateurs et de types d’appareils **Windows,** **Windows Phone,** **Téléphone Android,** **iPhone** et **iPad** sur qui l’application Skype Entreprise est installée et utilisée dans votre organisation.
 ***
-![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données du graphique interactif du graphique à barres de **distribution** pour comprendre l’utilisation et connaître le nombre d’utilisateurs utilisant des appareils uniques dans votre organisation. Cela vous indique le nombre total d’utilisateurs **Windows,** **Windows Phone,** téléphone  **Android,** téléphone **iPhone** et iPad un appareil utilisé. 
+![Numéro 4](../images/sfbcallout4.png)<br/>Utilisez les données du graphique interactif du graphique à barres de **distribution** pour comprendre l’utilisation et connaître le nombre d’utilisateurs utilisant des appareils uniques dans votre organisation. Cela vous indique le nombre total d’utilisateurs **Windows,** **Windows Phone,** **téléphone Android,** **téléphone iPhone** et iPad un appareil utilisé.  
 ***
 !["Nombre 5"](../images/sfbcallout5.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. Par exemple,  dans le graphique Utilisateurs, cliquez ou appuyez sur **Windows,** **Windows Phone,** **Téléphone Android,** **iPhone** ou **iPad** pour voir uniquement les informations relatives à chacun d’eux. Changing this selection doesn't change the info in the grid table. 
 ***
@@ -95,11 +95,11 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Vous souhaitez voir d’autres Skype Entreprise rapports d’état ?
 
-- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez consulter le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
+- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez voir le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
     
 - [Skype Entreprise activité de l’organisateur de conférences](conference-organizer-activity-report.md) Vous pouvez voir combien de fois vos utilisateurs organisent des conférences qui utilisent la messagerie instantanée, l’audio/la vidéo, le partage d’application, le web, la conférence rendez-vous ou la mise en conférence tierce et la mise en conférence/mise en conférence - Microsoft.
     
-- [Skype Entreprise activité de participant à une conférence](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences de messagerie instantanée, audio/vidéo, partage d’application, Web et conférences rendez-vous ou mise en conférence téléphonique pour qui il y a des participants.
+- [Skype Entreprise activité de participant à une conférence](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences de messagerie instantanée, audio/vidéo, partage d’application, Web et conférences rendez-vous ou mise en conférence téléphonique pour participations.
     
 - [Skype Entreprise rapport d’activité P2 P2 P2](peer-to-peer-activity-report.md) Vous pouvez voir le nombre d’utilisation de la messagerie instantanée, de l’audio/la vidéo, du partage d’application et du transfert de fichiers par utilisateur.
     
@@ -111,7 +111,7 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

@@ -10,22 +10,22 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype Entreprise 2015 stress and performance tool frequently asked questions (FAQ), useful for finding out what tool configurations are supported, troubleshooting tool issues, and clarifieing comportements you may see when running the Stress and Performance tools.
-ms.openlocfilehash: 401377560183b598311ed58b1a60291ba84f00b06fb8c4a6bd8b7ec792405084
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42fdf53965e190e98e716df0780eac04565d0767
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333166"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611933"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>FAQ sur l Skype Entreprise Server 2015 Stress and Performance Tool
  
 Skype Entreprise 2015 stress and performance tool frequently asked questions (FAQ), useful for finding out what tool configurations are supported, troubleshooting tool issues, and clarifieing comportements you may see when running the Stress and Performance tools.
   
- Ce FAQ traite de certaines des questions les plus fréquemment posées sur l’outil stress and performance Skype Entreprise Server 2015, et peut vous aider à résoudre les problèmes et à choisir la configuration des outils.
+ Ce FAQ couvre certaines des questions les plus fréquemment posées sur l’outil stress and performance Skype Entreprise Server 2015, et peut vous aider à résoudre les problèmes et à choisir la configuration des outils.
   
 ## <a name="can-i-run-lyncperftoolexe-in-production"></a>Puis-je exécuter LyncPerfTool.exe production ?
 
@@ -41,7 +41,7 @@ Si les clients sont à court de mémoire, vous devez réduire le nombre d’util
   
 ## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>Puis-je exécuter cet outil sur un serveur Skype Entreprise, lui-même ?
 
-Vous ne devez pas le faire. Ce scénario n’est pas pris en charge car il peut échouer en raison d’une insaluration binaire, et aussi parce que l’objectif est de mesurer la consommation des ressources sur le serveur. En réalité, l’exécution de l’outil aurait un impact sur les performances du serveur et invaliderait vos données et mesures.
+Vous ne devez pas le faire. Ce scénario n’est pas pris en charge car il peut échouer en raison d’une insaluration binaire, et aussi parce que l’objectif est de mesurer la consommation des ressources sur le serveur. En fait, l’exécution de l’outil aurait un impact sur les performances du serveur et invaliderait vos données et mesures.
   
 ## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Puis-je LyncPerfTool.exe sur un serveur virtuel ou sur Microsoft Hyper-V Server 2008/2012 ?
 

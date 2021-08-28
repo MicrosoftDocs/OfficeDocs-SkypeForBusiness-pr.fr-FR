@@ -11,18 +11,18 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342889"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613043"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Quel est le statut de vos demandes de transfert ?
 
@@ -44,7 +44,7 @@ Pour obtenir des instructions détaillées complètes, voir Transférer des num�
 
 Si vous avez besoin d’aide ou si vous avez besoin d’obtenir plus de numéros de téléphone, contactez le [service PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

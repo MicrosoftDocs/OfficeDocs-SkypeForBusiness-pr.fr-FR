@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Cet article décrit comment déployer la gestion des appareils Salles Microsoft Teams de bout en bout à l’aide d’Azure Monitor.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 77b1e18e9f30e13cc209040ab876324afa232766
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613023"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Gestion :::no-loc text="Microsoft Teams Rooms"::: du déploiement avec :::no-loc text="Azure Monitor":::
 
@@ -122,7 +122,7 @@ Pour extraire vos champs personnalisés des journaux des événements capturés,
 
 3. Sélectionnez l’un des enregistrements, sélectionnez le bouton à gauche et démarrez l’Assistant Extraction de champ.
 4. Mettez en surbrillation les données que vous voulez extraire de la description RenderedDescription et indiquez un titre de champ. Les noms des champs que vous devez utiliser sont indiqués dans la Table 1.
-5. Utilisez les mappages indiqués dans *le tableau 1.* :::no-loc text="Log Analytics":::automatiquement la chaîne **\_ CF** lorsque vous définissez le nouveau champ.
+5. Utilisez les mappages indiqués dans *le tableau 1.* :::no-loc text="Log Analytics":::automatiquement la chaîne **\_** CF lorsque vous définissez le nouveau champ.
 
 > [!IMPORTANT]
 > N’oubliez pas que tous les champs et JSON :::no-loc text="Log Analytics"::: sont sensibles à la cas.
@@ -236,7 +236,7 @@ Vous pouvez également créer votre propre tableau de bord et ajouter uniquement
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Sélectionnez **Appliquer,** puis **Fermer.**
 
-### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Créer une vignette qui affiche les :::no-loc text="Microsoft Teams Rooms"::: versions du système d’exploitation
+### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Créer une vignette affichant les :::no-loc text="Microsoft Teams Rooms"::: versions du système d’exploitation
 
 1.  Sélectionnez **Ajouter & liste** dans la galerie, puis ajoutez une nouvelle vignette.
 2.  Définir les **propriétés Général** :<br>

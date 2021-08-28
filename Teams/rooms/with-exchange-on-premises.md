@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Strat_SB_Admin
 - seo-marvel-apr2020
@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lisez cette rubrique pour plus d’informations sur le déploiement d Salles Microsoft Teams dans un environnement hybride avec des Exchange en local.
-ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 35b69e12c38991ecf8ac4d9c0f6f335a097da334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296651"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612983"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Déployer Salles Microsoft Teams avec Exchange local
 
@@ -138,7 +138,7 @@ Si vous déployez Salles Microsoft Teams avec Exchange en local, vous utiliserez
 
 ### <a name="enable-the-device-account"></a>Activer le compte d’appareil
 
-Skype Entreprise PowerShell en ligne est utilisé pour gérer les services pour Microsoft Teams et Skype Entreprise Online.
+Skype Entreprise Online PowerShell est utilisé pour gérer les services tant pour Microsoft Teams que Skype Entreprise Online.
 
 1. Créez une session Windows PowerShell distance à partir d’un PC comme suit :
 > [!NOTE]
@@ -183,7 +183,7 @@ Skype Entreprise PowerShell en ligne est utilisé pour gérer les services pour 
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Attribuer une licence à votre Salles Microsoft Teams compte
+### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Attribuer une licence à votre Salles Microsoft Teams utilisateur
 
 1. Connectez-vous en tant qu’administrateur client, ouvrez le Centre d’administration Microsoft 365, puis cliquez sur l’application Administrateur.
 2. Cliquez sur **Utilisateurs et groupes**, puis sur **Ajoutez des utilisateurs, réinitialisez les mots de passe, et plus encore**.
@@ -194,7 +194,7 @@ Skype Entreprise PowerShell en ligne est utilisé pour gérer les services pour 
 
 Pour validation, vous pouvez utiliser n’importe quel client pour vous connecter à ce compte.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer des comptes pour Salles Microsoft Teams](rooms-configure-accounts.md)
 

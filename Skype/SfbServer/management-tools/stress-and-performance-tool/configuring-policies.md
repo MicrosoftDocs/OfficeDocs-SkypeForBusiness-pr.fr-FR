@@ -1,5 +1,5 @@
 ---
-title: Configuration des stratégies pour l Skype Entreprise Server 2015 Stress and Performance Tool
+title: Configuration des stratégies pour Skype Entreprise Server 2015 Stress and Performance Tool
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,18 +10,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: Configuration de stratégie pour Skype Entreprise Server 2015 Stress and Performance Tool.
-ms.openlocfilehash: 0a7e93e0e6a25195b1e9723ce6eb31b4c9f9fbd200d390f225a2be29c4106b0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9523dff4a2db09b229ef1500e6634674d85c1472
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333186"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611953"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuration des stratégies pour l Skype Entreprise Server 2015 Stress and Performance Tool
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuration des stratégies pour Skype Entreprise Server 2015 Stress and Performance Tool
  
 Configuration de stratégie pour Skype Entreprise Server 2015 Stress and Performance Tool.
   
@@ -79,7 +79,7 @@ Vous aurez besoin de l’exemple RoutingRules.ps1 script pour le routage des voi
   
 Par exemple, le paramètre SimpleName dans l’appel à l’cmdlet **New-CsDialPlan** dans l’exemple RoutingRules.ps1 doit être utilisé pour la valeur LocationProfile dans la figure suivante de UserProfileGenerator.exe :
   
-![Skype Entreprise outil de configuration de chargement, onglet Scénarios vocaux, Paramètres avancés des conversations.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
+![Skype Entreprise’outil de configuration de chargement, onglet Scénarios vocaux, Paramètres avancés des conversations.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
 Pour plus d’informations, vous pouvez consulter les Voix Entreprise cmdlets.
   
@@ -105,7 +105,7 @@ Vous devez effectuer les étapes suivantes pour configurer le test de contrainte
 1. Configurer un itinéraire de voix pour les appels d’urgence. Vous pouvez utiliser le script RoutingRules.ps1 et vérifier sous le commentaire « **Router E911 vers PSTN** » pour obtenir un exemple de la façon de configurer cet itinéraire de voix.
     
     > [!CAUTION]
-    > L’exemple de commande RoutingRules.ps1 a un modèle de numéro qui inclut le numéro 119 au lieu de 911. Évitez d’utiliser le 911 (ou votre numéro d’urgence local réel) pour éviter les appels accidentels vers vos opérateurs d’urgence locaux pendant les tests de charge. N’oubliez pas que cette configuration est uniquement à des fins de simulation ! 
+    > L’exemple de commande RoutingRules.ps1 a un modèle de numéro qui inclut le numéro 119 au lieu de 911. Vous devez éviter d’utiliser le 911 (ou votre numéro d’urgence local réel) pour éviter les appels accidentels à vos opérateurs d’urgence locaux pendant vos tests de charge. N’oubliez pas que cette configuration est uniquement à des fins de simulation ! 
   
 2. Configurez les adresses en remplissant les valeurs sous l’onglet Configuration du **service** d’informations d’emplacement dans UserProvisioningTool, comme illustré dans la figure suivante :
     
@@ -118,7 +118,7 @@ Vous devez effectuer les étapes suivantes pour configurer le test de contrainte
 ## <a name="configuring-response-group-application"></a>Configuration de l’application Response Group
 <a name="ConfigResponseGroupApp"> </a>
 
-L’exemple de script est ResponseGroupConfiguration.ps1. Il existe également des cmdlets d’application Response Group à examiner pour obtenir des détails supplémentaires sur la configuration. Le diagramme suivant présente certains détails de configuration :
+L’exemple de script est ResponseGroupConfiguration.ps1. Il existe également des cmdlets d’application Response Group à examiner pour plus d’informations sur la configuration. Le diagramme suivant présente certains détails de configuration :
   
 ![Outil de config Response Group montrant les flux de travail existants à tester.](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
   

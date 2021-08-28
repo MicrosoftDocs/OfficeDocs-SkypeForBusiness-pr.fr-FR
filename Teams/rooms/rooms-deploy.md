@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement Salles Microsoft Teams, y compris les phases de déploiement.
-ms.openlocfilehash: 6c35b8c8456659c10f444defc9ff9f4809c032965f01a85c59d41cc67e6fa367
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 51a30137a2164651fe17f3910b17312fd6d45d6b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342809"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627166"
 ---
 # <a name="deployment-overview"></a>Vue d’ensemble du déploiement
 
 Le déploiement d Salles Microsoft Teams se décompose essentiellement en phases :
 
 - Confirmation que vos emplacements de déploiement (salles) répondent aux dépendances de déploiement
-- Création Microsoft Teams comptes Skype Entreprise et Exchange et leur attribution aux appareils de la console (voir Configurer des comptes [Salles Microsoft Teams)](rooms-configure-accounts.md)
+- Création Microsoft Teams comptes Skype Entreprise et Exchange et leur attribution sur les appareils de la console (voir Configurer des comptes [Salles Microsoft Teams)](rooms-configure-accounts.md)
 - Réimagie des tablettes Microsoft Surface pour les Salles Microsoft Teams consoles numériques (voir Configurer une console de Salles Microsoft Teams [ou](console.md) déployer Salles Microsoft Teams guide de [déploiement en masse)](rooms-scale.md)
 - (Facultatif) Configuration de la suite Microsoft Operations Management suite pour vos systèmes (voir Déployer la gestion des Salles Microsoft Teams [avec le moniteur Azure](azure-monitor-deploy.md)
 - Configuration de consoles dans les salles de réunion et connexion des périphériques dont vous avez besoin (voir la documentation OEM pour votre ensemble d’appareils)
@@ -45,7 +45,7 @@ Pour plus d’informations sur ces dépendances, voir les liens d’aide à la p
 -   [Certificats](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Pro conseil** : si vous avez l’intention d’utiliser des serveurs proxy pour fournir l’accès à Teams ou Skype Entreprise Online, examinez tout d’abord [cet article.](../proxy-servers-for-skype-for-business-online.md) En ce qui concerne le trafic Skype Entreprise serveur proxy, nous vous recommandons de contourner complètement les serveurs proxy. Skype Entreprise trafic est déjà chiffré, les serveurs proxy ne le rendent pas plus sécurisé. Dans le cadre de votre déploiement à plus grande échelle, nous vous recommandons de suivre les instructions de la guide Préparer votre réseau pour [Teams](../prepare-network.md) à des fin de planification de la bande passante et d’évaluation de l’adapter à votre réseau en cas de trafic en temps réel.
+**Pro conseil** : si vous avez l’intention d’utiliser des serveurs proxy pour fournir l’accès à Teams ou Skype Entreprise Online, examinez tout d’abord [cet article.](../proxy-servers-for-skype-for-business-online.md) En ce qui concerne le trafic Skype Entreprise serveur proxy, nous vous recommandons de contourner complètement les serveurs proxy. Skype Entreprise trafic est déjà chiffré, les serveurs proxy ne le rendent donc pas plus sécurisé. Dans le cadre de votre déploiement à plus grande échelle, nous vous recommandons de suivre les instructions de la guide Préparer votre réseau pour [Teams](../prepare-network.md) à des fin de planification de la bande passante et d’évaluation de l’adapter à votre réseau en cas de trafic en temps réel.
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -82,7 +82,7 @@ _Exemple de Salles Microsoft Teams table de planification d’un compte de servi
 
 | **Site**  | **Nom de la salle** | **Type de salle** | **Capacités des salles à venir**                                                 | **Salles Microsoft Teams fonctionnalités de compte**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| London HQ | Sy         | Moyen        | 1 écran, audio et vidéo plus présentation <br>Accès aux conférences téléphoniques<br> Accès PSTN  | Activé pour les Skype Entreprise, activé pour l’Exchange (boîte aux lettres de ressources) <br>Activé pour l’audioconférence <br>Activé pour les Système téléphonique |
+| London HQ | Desso         | Moyen        | 1 écran, audio et vidéo plus présentation <br>Accès aux conférences téléphoniques<br> Accès PSTN  | Activé pour les Skype Entreprise, activé pour l’Exchange (boîte aux lettres de ressources) <br>Activé pour l’audioconférence <br>Activé pour les Système téléphonique |
 | Sydney HQ | Hill          | Grande         | 2 écrans, audio et vidéo plus présentation<br>Accès aux conférences téléphoniques<br> Accès PSTN  | Activé pour les Skype Entreprise, activé pour l’Exchange (boîte aux lettres de ressources)<br> Activé pour l’audioconférence <br>Activé pour les Système téléphonique |
 
 
@@ -99,7 +99,7 @@ Créez un objet de stratégie de groupe affecté à l’unité de l’organisati
 
 -   [Définissez les paramètres d’alimentation et de compte local.](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)
 -   Activer Windows mise à jour.
--   Activer la remotation PowerShell. Vous pouvez configurer un script de démarrage pour exécuter un script : Enable-PSRemoting -Force
+-   Activez la remotation PowerShell. Vous pouvez configurer un script de démarrage pour exécuter un script : Enable-PSRemoting -Force
 
 Vous pouvez utiliser PowerShell pour effectuer plusieurs activités de gestion à distance, notamment obtenir et définir des informations de configuration. La remotation PowerShell  doit être activée avant toute gestion à distance de PowerShell et doit être prise en considération dans le cadre de vos processus de déploiement ou configurée via une stratégie de groupe. Pour plus d’informations sur ces fonctionnalités et leur activation, voir [Maintenance et opérations.](rooms-operations.md#remote-management-using-powershell) 
 
@@ -144,7 +144,7 @@ Dans le cadre du déploiement, vous devez également envisager votre stratégie 
 
 Nous fournissons des instructions sur l’utilisation du moniteur [Microsoft Azure](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) pour surveiller le déploiement d’Salles Microsoft Teams et signaler les erreurs de disponibilité, les erreurs matérielles/logicielles et la version Salles Microsoft Teams’application. Si vous décidez d’utiliser la suite Microsoft Operations Management, vous devez installer l’agent de la suite Operations Management suite dans le cadre du processus d’installation du logiciel et configurer les informations de connexion à l’espace de travail de votre espace de travail. 
 
-Vous de même déterminer si l’Salles Microsoft Teams sera joint au domaine. Des informations sur les avantages de l’adhésion à un domaine sont disponibles dans [Skype considérations pour la jointation](domain-joining-considerations.md)du domaine Room System. 
+Vous de même déterminer si l’Salles Microsoft Teams sera joint au domaine. Des informations sur les avantages de l’adhésion à un domaine sont disponibles dans les Skype domaines [de Room System qui rejoignent la réunion.](domain-joining-considerations.md) 
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -192,7 +192,7 @@ Dans le cadre du déploiement général de la Teams ou de la Skype Entreprise, n
 
 ### <a name="asset-management"></a>Gestion des biens
 
-Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens avec le nom de la salle, le nom de l’appareil Salles Microsoft Teams, le compte de ressource connecté à Salles Microsoft Teams et les périphériques périphériques affectés (et les ports USB utilisés). 
+Dans le cadre du déploiement, vous pouvez mettre à jour votre registre de biens avec le nom de la salle, le nom de l’appareil Salles Microsoft Teams, le compte de ressource connecté à Salles Microsoft Teams et les périphériques périphériques affectés (et les ports USB qu’ils utilisent). 
 
 _Exemple de table des biens_
 

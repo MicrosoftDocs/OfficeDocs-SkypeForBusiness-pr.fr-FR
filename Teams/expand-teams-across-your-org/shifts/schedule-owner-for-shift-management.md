@@ -14,7 +14,7 @@ searchScope:
 description: Découvrez comment gérer les propriétaires de shift pour la gestion du planning. Vous pouvez définir une stratégie pour élever l’autorisation d’un membre d’équipe à un propriétaire de planning.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
@@ -22,16 +22,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c0bc75e15439cf5fa7c3989bb0854521a1c45b8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235747"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627536"
 ---
 # <a name="schedule-owner-for-shift-management"></a>Propriétaire de planning pour la gestion des shifts
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Présentation
 
 Le Propriétaire de planning est une fonctionnalité qui vous permet de donner à un membre de l’équipe les autorisations qu’il vous autorise à devenir propriétaire du planning sans donner à l’employé le niveau de propriétaire de l’équipe. Cela signifie que l’employé est autorisé à gérer le planning de son équipe sans pouvoir modifier les autres propriétés de l’équipe telles que la mise à jour, la modification ou la suppression de canaux d’équipe.
 
@@ -50,11 +50,11 @@ Sans la fonctionnalité Propriétaire de planning, les fonctions métier au quot
 
 Voici un exemple de la façon dont votre organisation peut utiliser la fonctionnalité Propriétaire de planning.
 
-Vous travaillez dans une grande organisation dans laquelle les responsables de service signalent directement au responsable du magasin. Le responsable du magasin a plus d’autorité au sein de votre entreprise et est le propriétaire de l’équipe dans Shifts. En revanche, les responsables de département ne sont ajoutés qu’à Shifts en tant que membres d’équipe. Bien que les responsables de magasin ont plus de niveau supérieur que les responsables de département, il est plus logique pour les responsables de département de gérer la planification quotidienne des employés de leur équipe.
+Vous travaillez dans une grande organisation où les responsables de service signalent directement au responsable du magasin. Le responsable du magasin a plus d’autorité au sein de votre entreprise et est le propriétaire de l’équipe dans Shifts. En revanche, les responsables de département ne sont ajoutés qu’à Shifts en tant que membres d’équipe. Bien que les responsables de magasin ont plus de niveau supérieur que les responsables de département, il est plus logique pour les responsables de département de gérer la planification quotidienne des employés de leur équipe.
 
 *Sans propriétaire de planning,* les responsables de service doivent avoir les mêmes privilèges que le propriétaire de l’équipe. Récemment, les responsables de département ont commencé à déplacer des informations et à changer le nom des canaux, ce qui a provoqué des complications dans le travail du responsable de magasin. Le responsable de magasin souhaite que les responsables de service puissent organiser leurs plannings, mais ne souhaite pas qu’ils puissent modifier autre chose dans l’équipe, en dehors de Shifts.
 
-*Avec le Propriétaire de* planning, les responsables de département peuvent obtenir des privilèges de planification, sans aucun autre privilège de propriétaire d’équipe.
+*Avec le propriétaire de la* planification, les responsables de département peuvent obtenir des privilèges de planification, sans aucun autre privilège de propriétaire d’équipe.
 
 ## <a name="manage-schedule-ownership"></a>Gérer la propriété du planning
 
