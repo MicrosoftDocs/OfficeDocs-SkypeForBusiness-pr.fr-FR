@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Résumé : Comment utiliser l’outil Office Personnalisation avec le client Skype Entreprise client.'
-ms.openlocfilehash: 383db7b623790153114740c4d245823c38ec63c5881842c281e6c10f7834a450
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1fa867326ec1c613793831253dc693783132b57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587836"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Utiliser l Office PERSONNALISATION (PERSONNALISATION) dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54294921"
   
 L’outil de personnalisation Office fait partie du programme d’installation et est recommandé pour de nombreuses personnalisations. Grâce à cet outil, personnalisez Office et enregistrez vos personnalisations dans un fichier .msp de personnalisation de l’installation. Placez ensuite le fichier dans le dossier Updates sur le point d’installation réseau. Quand vous installez Office, le programme d’installation recherche un fichier de personnalisation de l’installation dans le dossier Updates et applique les personnalisations. Le dossier Updates peut être utilisé uniquement pour déployer des mises à jour logicielles lors d’une installation initiale de Office.
   
-L' OCT fait partie de l’installation et est utilisé uniquement pour les versions avec licence en volume du produit. Vous exécutez l' OCT en tapant à la ligne de commande à partir de la racine du point d’installation réseau qui contient les `setup.exe /admin` Office sources. Par exemple, utilisez la commande suivante :
+L' OCT fait partie de l’installation et est utilisé uniquement pour les versions sous licence en volume du produit. Vous exécutez l' OCT en tapant à la ligne de commande à partir de la racine du point d’installation réseau qui contient les `setup.exe /admin` Office sources. Par exemple, utilisez la commande suivante :
   
  ```console
 \\server\share\Office15\setup.exe /admin

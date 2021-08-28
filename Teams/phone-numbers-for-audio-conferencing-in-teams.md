@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
-ms.openlocfilehash: f72a8929ae9d685642857764e7c0d4541f762ce875adafdd0a46a6de1b471483
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 30cbc91f4f9a5fd47c9e8469781abb3ac67b0c1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276130"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632028"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Numéros de téléphone pour l’audioconférence dans Microsoft Teams
 
@@ -41,7 +41,7 @@ Pour obtenir la liste complète de tous les pays/régions et villes où l’audi
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Numéros de téléphone d'accès à composer figurant dans l'invitation à la réunion
 
-Lorsqu’un Microsoft Teams programme une réunion dans Outlook ou Outlook Web App, le numéro d’audioconférence par défaut de l’utilisateur est inclus dans l’invitation à la réunion. Si vous souhaitez sélectionner un autre numéro par défaut pour un ou plusieurs utilisateurs, vous pouvez le modifier en sélectionnant Utilisateurs, en sélectionnant l’utilisateur et en modifiez les paramètres d’audioconférence de l’utilisateur. Consultez [Définir les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites-in-teams.md)
+Lorsqu’un Microsoft Teams programme une réunion dans Outlook ou Outlook Web App, le numéro d’audioconférence par défaut de l’utilisateur est inclus dans l’invitation à la réunion. Si vous souhaitez sélectionner un autre numéro par défaut pour un ou plusieurs utilisateurs, vous pouvez le modifier en sélectionnant Utilisateurs, en sélectionnant l’utilisateur et en modifier les paramètres d’audioconférence de l’utilisateur. Consultez [Définir les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites-in-teams.md)
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Numéros de téléphone d'accès configurés sur un pont de conférence rendez-vous audio
@@ -69,13 +69,13 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues qui sont prise en charge pour [l’audioconférence.](audio-conferencing-supported-languages.md)
+- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues prise en charge pour [l’audioconférence.](audio-conferencing-supported-languages.md)
     
 - Vous pouvez configurer jusqu’à quatre langues pour chaque numéro de téléphone d’audioconférence (une langue principale et trois langues secondaires). Vous pouvez également définir des langues sur un numéro de téléphone d’audioconférence dédié.
     
 - Pour définir le numéro de téléphone à composer d’un utilisateur, consultez [Définir les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites-in-teams.md)
 
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

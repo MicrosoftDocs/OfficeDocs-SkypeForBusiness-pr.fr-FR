@@ -16,20 +16,20 @@ search.appverid: MET150
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: En savoir plus sur la numérotation des numéros gratuits en Inde, y compris la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: dae597170f8ea4a56a908087a85a1b12777341ba277e72e3a1ca599037a393e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: En savoir plus sur les numéros d’appel gratuits en Inde, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile, et les restrictions.
+ms.openlocfilehash: 9650991d6d1f39915d978515c6afa36f556eed08
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335884"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631948"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restrictions de numérotation gratuit en Inde
 
@@ -47,7 +47,7 @@ ms.locfileid: "54335884"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès disponible à partir des réseaux suivants : Loop Mobile, BSNL - fixe (toutes les régions sauf Bignal), Vodafone, IDEA/SPICE (toutes les régions sauf Punjab Spice), MTS India/Shyam (fixe), MTNL - mobile fixe, Reliance (toutes les régions à l’aide d’Un compte à l’aide &amp; d’Un compte), &amp; &amp; Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Blmi/Airtel.  <br/> Accès non disponible auprès des réseaux suivants : TTSL (Prépayé), Etisalat DB Telecom et Jio.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)

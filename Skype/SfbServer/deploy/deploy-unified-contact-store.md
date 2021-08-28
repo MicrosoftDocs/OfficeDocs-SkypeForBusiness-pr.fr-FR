@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Résumé : Activez le magasin de contacts unifié dans Skype Entreprise Server.'
-ms.openlocfilehash: 6311b760daf2c397cfc5c75ddeb5e28fd2fb6503c0c2db11ef9ed6de71a7562e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310013"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609931"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Déployer un magasin de contacts unifié dans Skype Entreprise Server
  
@@ -40,7 +40,7 @@ Lorsque vous déployez Skype Entreprise Server et publiez la topologie, le magas
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Pour activer les utilisateurs pour le magasin de contact unifié
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise,** puis sur Skype Entreprise Server **Management Shell.**
     
 2. Effectuez l’une des opérations suivantes :
     
@@ -56,7 +56,7 @@ Lorsque vous déployez Skype Entreprise Server et publiez la topologie, le magas
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   Par exemple :
+   Par exemple :
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +68,7 @@ Lorsque vous déployez Skype Entreprise Server et publiez la topologie, le magas
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   Par exemple :
+   Par exemple :
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True

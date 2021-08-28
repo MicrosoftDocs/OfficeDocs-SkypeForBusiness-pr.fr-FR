@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: Le contrôle d’admission des appels (CAC) est une solution qui détermine si une session en temps réel peut être établie en tenant compte de la bande passante disponible pour éviter toute dégradation de la qualité audio/vidéo sur des réseaux saturés.
-ms.openlocfilehash: eaba53e7c4c908024b3427970c103a3bcc8885036ca3e1dbc657e6c0d78e5d8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f8143f815c0d2c9e9b9bc281cca935198c92768
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307815"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610141"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Déployer le contrôle d’admission des appels dans Skype Entreprise Server
  
@@ -29,7 +29,7 @@ Le contrôle d’admission des appels (CAC) est une solution qui détermine si u
   
 ### <a name="to-deploy-call-admission-control"></a>Pour déployer le contrôle d’admission des appels
 
-1.  Rassemblez toutes les informations requises pour votre topologie de réseau d’entreprise, comme décrit dans l’exemple : Collecte des conditions requises pour le contrôle d’admission des appels [dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+1.  Rassemblez toutes les informations requises pour votre topologie de réseau d’entreprise, comme décrit dans l’exemple : Collecte des conditions requises pour le contrôle d’admission des [appels dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
     
 2. Si vous ne l’avez pas déjà fait, vous devez définir des régions et des sites réseau et associer des sous-réseaux à des sites réseau. Pour plus d’informations, voir Déployer des régions réseau, des sites et [des sous-réseaux dans Skype Entreprise](deploy-network.md).
     

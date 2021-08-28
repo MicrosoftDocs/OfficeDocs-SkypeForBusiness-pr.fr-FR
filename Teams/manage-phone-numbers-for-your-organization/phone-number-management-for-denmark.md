@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Danemark pour Microsoft Teams.
-ms.openlocfilehash: cec34e720dbae4eac20bc448b1accee82e61fad2
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 815feab42163198b06923c44340532cb62fcb302
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348296"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610251"
 ---
 # <a name="phone-number-management-for-denmark"></a>Téléphone gestion des nombres pour le Danemark
 

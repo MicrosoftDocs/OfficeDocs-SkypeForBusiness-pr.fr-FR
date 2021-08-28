@@ -9,18 +9,18 @@ ms.reviewer: ''
 search.appverid: ''
 description: En savoir plus sur Teams stratégies.
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319947"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588146"
 ---
 # <a name="manage-teams-with-policies"></a>Gérer les Teams des stratégies
 
@@ -40,7 +40,7 @@ En savoir plus sur l’attribution des [stratégies ici.](policy-assignment-over
 
 ## <a name="how-to-manage-policies"></a>Comment gérer les stratégies
 
-Les stratégies sont gérées avec le Centre Microsoft Teams’administration de l’entreprise [ou à l’aide de PowerShell.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
+Les stratégies sont gérées avec le centre Microsoft Teams’administration de l’entreprise [ou à l’aide de PowerShell.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
 
 Par exemple, une stratégie de configuration d’application peut vous permettre de permettre aux utilisateurs de télécharger des applications personnalisées, d’installer des applications pour le compte de vos utilisateurs et d’épingler des applications à la barre d’application Teams. Ces stratégies sont configurées dans le Teams d’administration.
 
@@ -68,10 +68,10 @@ Type de stratégie | Description
 [Stratégies d’application](app-policies.md)| Les stratégies d’application sont utilisées pour contrôler les applications dans Microsoft Teams. Les administrateurs peuvent autoriser ou bloquer les applications que les utilisateurs peuvent installer, épingler des applications à la barre d’application Teams d’un utilisateur et installer une application pour le compte de vos utilisateurs.
 [Stratégies de messagerie](messaging-policies-in-teams.md)| Les stratégies de messagerie contrôlent la disponibilité des fonctionnalités de conversation et de canal.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 * [Attribuer des stratégies dans Teams - mise en place](policy-assignment-overview.md)
 * [Gérer les stratégies de commentaires dans Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Gérer les stratégies d’équipes dans Microsoft Teams](teams-policies.md)
-* [Configurer des événements en direct dans Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
+* [Configurer des événements en direct dans Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams pour l’éducation stratégies et packages de stratégies](policy-packages-edu.md)

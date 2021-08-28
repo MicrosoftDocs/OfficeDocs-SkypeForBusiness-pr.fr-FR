@@ -1,5 +1,5 @@
 ---
-title: Installer Skype Entreprise Server
+title: Installer Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: "Résumé : Découvrez comment préparer votre environnement pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 997dc590030e27305058bd4e2bb6773d1114d597276404f23ae350a899666b03
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9e30a3d91f5aaaf8d1717123ffd59499e96fbd7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323496"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609821"
 ---
-# <a name="install-skype-for-business-server"></a>Installer Skype Entreprise Server
+# <a name="install-skype-for-business-server"></a>Installer Skype Entreprise Server
  
 **Résumé :** Découvrez comment préparer votre environnement pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) l':.
   
@@ -30,7 +30,7 @@ Cet article vous présente un exemple d’installation de Skype Entreprise Serve
   
 ## <a name="overview-of-the-install-process-for-skype-for-business-server"></a>Vue d’ensemble du processus d’installation Skype Entreprise Server
 
-Une installation de Skype Entreprise Server comprend de nombreuses procédures différentes. Les procédures dont vous avez besoin pour Skype Entreprise Server en cours d’exécution dans votre environnement dépendent des spécificités de votre environnement. Par exemple, si vous utilisez Windows Server pour DNS, vous bénéficierez de l’exemple de procédure d’ajout d’une entrée DNS. Si vous utilisez un autre système pour DNS, vous devez suivre les procédures pour votre système DNS particulier. Cela est vrai pour de nombreuses procédures de cette section.
+Une installation de Skype Entreprise Server comprend de nombreuses procédures différentes. Les procédures dont vous avez besoin pour Skype Entreprise Server en cours d’exécution dans votre environnement dépendent des spécificités de votre environnement. Par exemple, si vous utilisez Windows Server pour DNS, vous bénéficierez de l’exemple de procédure d’ajout d’une entrée DNS. Si vous utilisez un autre système pour DNS, vous devez suivre les procédures pour votre système DNS particulier. Cela est vrai pour la plupart des procédures de cette section.
   
 Skype Entreprise Server est disponible dans Édition Standard et Êdition Entreprise. La principale différence est que Édition Standard ne prend pas en charge les fonctionnalités de haute disponibilité incluses dans Êdition Entreprise. 
   
@@ -42,7 +42,7 @@ Skype Entreprise Server est un produit avancé et le processus d’installation 
 > [!IMPORTANT]
 > Les procédures de cette section servent d’exemple à l’aide d’un ensemble d’exigences défini de manière étroite et supposent que des décisions spécifiques ont déjà été prises. Les procédures réelles que vous devez installer Skype Entreprise Server seront probablement très différentes. Utilisez les procédures de cette section comme exemple uniquement et non pas comme un guide pas à pas pour l’installation de Skype Entreprise Server dans chaque environnement. 
   
-La mise Skype Entreprise Server en cours d’exécution pour la première fois implique huit étapes principales. Vous devez comprendre que les exemples de procédures de cette section ne sont pas les seules procédures requises pour l’installation Skype Entreprise Server. Les huit étapes suivantes sont simplement des exemples pour vous aider à mieux comprendre le processus global et à mettre en place un environnement de travail de base. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. Les huit étapes sont les suivantes :
+La mise Skype Entreprise Server en cours d’exécution pour la première fois implique huit étapes principales. Vous devez comprendre que les exemples de procédures de cette section ne sont pas les seules procédures requises pour l’installation Skype Entreprise Server. Les huit étapes suivantes sont simplement des exemples pour vous aider à mieux comprendre le processus global et à obtenir un environnement de travail de base opérationnel. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. Les huit étapes sont les suivantes :
   
 ![Vue d’ensemble du processus d’installation.](../../media/b1a59b39-a7f0-4781-ac4d-2dfef7ca3700.png)
   

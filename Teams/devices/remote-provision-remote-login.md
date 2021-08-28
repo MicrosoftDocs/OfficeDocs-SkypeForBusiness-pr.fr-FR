@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment mettre en service à distance et vous connectez pour Teams appareils Android
-ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632198"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Mise en service à distance et se connectez pour Teams appareils Android
 
-Les administrateurs informatiques peuvent mettre en service à distance un appareil Android et Teams se connectent. Pour mettre en service un appareil à distance, l’administrateur doit télécharger les ID MAC des appareils en cours de mise en service et créer un code de vérification. L’ensemble du processus peut être accompli à distance à partir du centre Teams’administration.
+Les administrateurs informatiques peuvent mettre en service et se connectent à distance sur Teams appareil Android. Pour mettre en service un appareil à distance, l’administrateur doit télécharger les ID MAC des appareils en cours de mise en service et créer un code de vérification. L’ensemble du processus peut être accompli à distance à partir du centre Teams’administration.
 
 ## <a name="review-the-supported-devices"></a>Passer en revue les appareils pris en charge
 
@@ -48,7 +48,7 @@ La liste suivante présente les conditions requises pour le microprogramme de l�
 |salles Teams sur Android|Logitech Cat Bar|1.2.982|
 |salles Teams sur Android|AudioCodes RXV80|1.13.361|
 |salles Teams sur Android|CESSEURS DÉVELOPPENT VISION 3T|1.2.2.21182.10|
-|salles Teams sur Android|Barre de réunions Yealink A30|133.15.0.60|
+|salles Teams sur Android|Yealink MeetingBar A30|133.15.0.60|
 |salles Teams sur Android|Barre de réunions Yealink A20|133.15.0.60|
 |salles Teams sur Android|Console tactile CTP18 Yealink|137.15.0.37|
 |salles Teams sur Android|Poly Studio X30|3.5.0.344025|

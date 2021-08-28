@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Résumé : Découvrez comment affecter une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server.'
-ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9bd351b30ed31092420722a956e57578e100642
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311092"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632988"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Appliquer une stratégie d’archivage aux utilisateurs dans Skype Entreprise Server
 
@@ -63,7 +63,7 @@ Cette commande affecte la stratégie d’archivage par utilisateur RedmondArchiv
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 ```
 
-La commande suivante supprime toute stratégie d’archivage par utilisateur précédemment affectée à Ken Myer. Une fois la stratégie par utilisateur supprimée, Ken Myer est automatiquement géré à l’aide de la stratégie globale ou, le cas présent, de sa stratégie de site local. La stratégie de site est prioritaire sur la stratégie globale.
+La commande suivante supprime toute stratégie d’archivage par utilisateur précédemment attribuée à Ken Myer. Une fois la stratégie par utilisateur supprimée, Ken Myer est automatiquement géré à l’aide de la stratégie globale ou, le cas présent, de sa stratégie de site local. La stratégie de site est prioritaire sur la stratégie globale.
   
 ```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null

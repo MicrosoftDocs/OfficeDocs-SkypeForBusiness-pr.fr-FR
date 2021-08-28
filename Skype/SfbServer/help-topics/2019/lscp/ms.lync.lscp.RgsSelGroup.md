@@ -11,20 +11,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
-description: Les files d’attente Response Group tiennent les appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue Sélectionner des groupes pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
-ms.openlocfilehash: 91bf7c6f7175b088f71d6ac79b13a80f6d1d4a57c2ec0e7dd44c798731460630
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Les files d’attente Response Group tiennent des appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue Sélectionner des groupes pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
+ms.openlocfilehash: 73c52e37624dc2468ea25aa7d892e8ebaa21ba04
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322326"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610021"
 ---
 # <a name="select-groups"></a>Sélectionner des groupes
 
-Les files d’attente Response Group tiennent les appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue **Sélectionner des groupes** pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
+Les files d’attente Response Group tiennent des appels aux groupes Response Group jusqu’à ce qu’un agent réponde à l’appel. Des groupes d’agents sont attribués aux files d’attente. Lorsque vous créez ou modifiez une file d’attente, vous utilisez la boîte de dialogue **Sélectionner des groupes** pour sélectionner un ou plusieurs groupes d’agents à attribuer à la file d’attente.
 
 ## <a name="ui-reference"></a>Référence d’interface utilisateur
 

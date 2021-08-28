@@ -10,23 +10,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: "Résumé : Découvrez comment installer les composants système Skype Entreprise Server sur chaque serveur de la topologie. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 8fdeb6d2023a205ee39291714c94ee4fa0f38ddf4eafcced46f331a9478f3fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 89c158243a0cc33faaa1a3b3181dfc1f39094d63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343828"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609861"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Installer Skype Entreprise Server sur les serveurs de la topologie
  
-**Résumé :** Découvrez comment installer les composants système Skype Entreprise Server sur chaque serveur de la topologie. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du [Centre d’évaluation Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
+**Résumé :** Découvrez comment installer les composants Skype Entreprise Server sur chaque serveur de la topologie. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du [Centre d’évaluation Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
 Une fois que la topologie est chargée dans le magasin central de gestion et qu’Active Directory sait quels serveurs rempliront les rôles, vous devez installer le système Skype Entreprise Server sur chacun des serveurs de la topologie. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. L’installation Skype Entreprise Server système est l’étape 7 sur 8.
   
@@ -34,7 +34,7 @@ Une fois que la topologie est chargée dans le magasin central de gestion et qu�
   
 ## <a name="install-skype-for-business-server-system"></a>Installer Skype Entreprise Server système
 
-Une fois que vous avez publié une topologie, vous pouvez installer les composants Skype Entreprise Server sur chaque serveur de la topologie. Cette section vous guide tout au long de l’installation Skype Entreprise Server et de la configuration des rôles serveur pour le pool frontal et tous les rôles serveur cingliqués avec les serveurs frontux. Pour installer et configurer des rôles serveur, exécutez l’Assistant Déploiement Skype Entreprise Server sur chaque ordinateur sur lequel vous installez un rôle serveur. Vous utilisez l’Assistant Déploiement pour effectuer les quatre étapes de déploiement, y compris l’installation du magasin de configurations local, l’installation des serveurs frontaux, la configuration des certificats et le démarrage des services.
+Une fois que vous avez publié une topologie, vous pouvez installer les composants Skype Entreprise Server sur chaque serveur de la topologie. Cette section vous guide tout au long de l’installation de Skype Entreprise Server et de la configuration des rôles serveur pour le pool frontal et tous les rôles serveur cingliqués avec les serveurs frontux. Pour installer et configurer des rôles serveur, exécutez l’Assistant Déploiement Skype Entreprise Server sur chaque ordinateur sur lequel vous installez un rôle serveur. Vous utilisez l’Assistant Déploiement pour effectuer les quatre étapes de déploiement, y compris l’installation du magasin de configurations local, l’installation des serveurs frontaux, la configuration des certificats et le démarrage des services.
   
 > [!IMPORTANT]
 > Vous devez utiliser le Générateur de topologie pour terminer et publier la topologie avant de pouvoir installer Skype Entreprise Server serveurs. 
@@ -49,7 +49,7 @@ Une fois que vous avez publié une topologie, vous pouvez installer les composan
 > Avant de suivre ces étapes, assurez-vous que vous êtes connecté au serveur avec un compte d’utilisateur de domaine à la fois administrateur local et membre du groupe RTCUniversalServerAdmins. 
   
 > [!NOTE]
-> Si vous n’avez pas encore exécuté Skype Entreprise Server’installation sur ce serveur, vous serez invité à vous présenter un lecteur et un chemin d’accès pour l’installation. Cela permet d’installer un lecteur autre que le lecteur système, si votre organisation en a besoin ou si vous avez des problèmes d’espace. Vous pouvez modifier le chemin d’accès de  l’emplacement d’installation Skype Entreprise Server fichiers de la boîte de dialogue Installation en un nouveau lecteur disponible. Si vous installez les fichiers d’installation sur ce chemin d’accès, y compris OCSCore.msi, le reste des Skype Entreprise Server seront également déployés ici.
+> Si vous n’avez pas encore exécuté Skype Entreprise Server’installation sur ce serveur, vous serez invité à vous présenter un lecteur et un chemin d’accès pour l’installation. Cela permet d’installer un lecteur autre que le lecteur système, si votre organisation en a besoin ou si vous avez des problèmes d’espace. Vous pouvez modifier le chemin d’accès de  l’emplacement d’installation Skype Entreprise Server fichiers de la boîte de dialogue Installation en un nouveau lecteur disponible. Si vous installez les fichiers d’installation sur ce chemin d’accès, y compris OCSCore.msi, les autres fichiers Skype Entreprise Server seront également déployés à cet effet.
   
 > [!IMPORTANT]
 > Avant de commencer l’installation, assurez-vous que Windows Server est à jour à l’aide de Windows Update. 
@@ -102,7 +102,7 @@ Une fois que vous avez publié une topologie, vous pouvez installer les composan
     > Redémarrez le serveur si vous y êtes invité (ce qui peut se produire si Windows Expérience utilisateur de bureau devait être installée). Lorsque l’ordinateur est en cours d’exécution, vous devez exécuter à nouveau cette procédure (Étape 2 : Installer ou supprimer Skype Entreprise Server composants). 
   
     > [!NOTE]
-    > Si le programme d’installation trouve des conditions préalables qui n’ont pas été satisfaites, un message « Conditions préalables non remplies » s’affiche, comme illustré dans la figure. Répondez aux conditions préalables requises, puis recommencez cette procédure (Étape 2 : Installer ou Skype Entreprise Server composants). 
+    > Si le programme d’installation trouve des conditions préalables qui n’ont pas été satisfaites, vous serez averti avec un message « Conditions préalables non satisfaites », comme illustré dans la figure. Répondez aux conditions préalables requises, puis recommencez cette procédure (Étape 2 : Installer ou Skype Entreprise Server composants). 
   
      ![Conditions préalables requises.](../../media/21a84dfe-70ff-4f76-bd7e-41032660200a.png)
   
@@ -142,7 +142,7 @@ Une fois que vous avez publié une topologie, vous pouvez installer les composan
     > [!NOTE]
     > Si votre entreprise a créé un modèle à employer en remplacement du modèle d’autorité de certification de serveur web, activez la case à cocher et entrez le nom du modèle de remplacement. Vous devez utiliser le nom du modèle défini par l’administrateur de l’autorité de certification. 
   
-8. Dans la page **Nom et sécurité Paramètres,** spécifiez **un nom convivial.** En utilisant un nom convivial, vous pouvez rapidement identifier le certificat et l’objectif. Si vous laissez ce champ vide, un nom est créé automatiquement. Définissez la **Longueur en bits** de la clé, ou acceptez la valeur par défaut de 2 048 bits. Sélectionnez marquer la clé privée du certificat comme exportable si vous déterminez que le certificat et la clé privée doivent être déplacés ou copiés vers **d’autres** systèmes, puis cliquez sur **Suivant**.
+8. Dans la page **Nom et sécurité Paramètres,** spécifiez **un nom convivial.** En utilisant un nom convivial, vous pouvez rapidement identifier le certificat et l’objectif. Si vous laissez ce champ vide, un nom est créé automatiquement. Définissez la **Longueur en bits** de la clé, ou acceptez la valeur par défaut de 2 048 bits. Sélectionnez Marquer la clé privée du certificat comme exportable si vous déterminez que le certificat et la clé privée doivent être déplacés ou copiés vers **d’autres** systèmes, puis cliquez sur **Suivant**.
     
     > [!NOTE]
     > Skype Entreprise Server a des exigences minimales pour une clé privée exportable. L’un de ces emplacements concerne les serveurs Edge dans un pool, où le service d’authentification du serveur relais multimédia utilise des copies du certificat au lieu de plusieurs certificats individuels pour chaque instance du pool. 
@@ -163,7 +163,7 @@ Une fois que vous avez publié une topologie, vous pouvez installer les composan
     
 16. Dans la page **État de la demande de certificat en ligne**, passez en revue les informations affichées. Notez que le certificat a été émis et installé dans le magasin de certificats local. S’il est signalé comme ayant été émis et installé, mais qu’il n’est pas valide, assurez-vous que le certificat racine de l’ac a été installé dans le magasin de l’AC racine de confiance du serveur. Consultez la documentation de votre autorité de certification pour savoir comment extraire le certificat d’une autorité de certification racine de confiance. Si vous devez consulter le certificat extrait, cliquez sur **Afficher les détails du certificat**. Par défaut, la case à cocher Affecter le **certificat Skype Entreprise Server les utilisations des certificats** est sélectionnée. Si vous souhaitez attribuer manuellement le certificat, désactivez la case à cocher, puis cliquez sur **Terminer**.
     
-17. Si vous avez effacé la case à cocher Affecter le **certificat Skype Entreprise Server utilisations** de certificats sur la page précédente, la **page** Affectation de certificat s’est présentée. Cliquez sur **Suivant**.
+17. Si vous avez cocher la case Affecter le certificat **Skype Entreprise Server utilisations** de certificats sur la page précédente, la **page** Affectation de certificat s’est présentée. Cliquez sur **Suivant**.
     
 18. Dans la page **Magasin de certificats**, sélectionnez le certificat que vous avez demandé. Si vous souhaitez afficher le certificat, cliquez sur **Afficher les détails du certificat**, puis sur **Suivant** pour continuer.
     
@@ -174,7 +174,7 @@ Une fois que vous avez publié une topologie, vous pouvez installer les composan
     
 20. Dans la page **Exécution de commandes**, passez en revue le résultat de la commande. Cliquez sur **Afficher le journal** si vous souhaitez passer en revue le processus d’attribution ou en cas d’erreur ou d’avertissement. Lorsque vous avez terminé votre vérification, cliquez sur **Terminer**.
     
-21. Dans la **page** Assistant Certificat, vérifiez que tous les services ont une coche verte pour indiquer qu’un certificat a été affecté à tous, y compris OAuthTokenIssuer, comme illustré dans la figure, puis cliquez sur **Fermer**.
+21. Dans la **page** Assistant Certificat, vérifiez que tous les services ont une coche verte pour indiquer que tous ont reçu un certificat, y compris OAuthTokenIssuer, comme illustré dans la figure, puis cliquez sur **Fermer**.
     
      ![Certificats installés et affectés correctement.](../../media/d8e1911c-d096-4f88-97a9-d2a704defa17.png)
   

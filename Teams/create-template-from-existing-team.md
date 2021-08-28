@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Découvrez comment utiliser une équipe existante pour créer un modèle dans Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40eae307d4ec98f37f9ee88e986194ffe99600ae2d6b74430a7b3edfcee66b53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05fd28f19b5733ad34bcd12efa21be675cecfd31
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588226"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>Créer un modèle d’équipe à partir d’une équipe existante dans Microsoft Teams
 
@@ -39,7 +39,7 @@ Microsoft Teams vous permet de créer un modèle à partir d’une équipe exist
 
 4. Sélectionnez **Utiliser une équipe existante comme modèle,** puis **Suivant.**
 
- ![Image des modèles d’équipe avec l’écran de départ d’une équipe existante en tant que modèle mis en évidence.](media/team-existing-team-as-template.png)
+ ![Image des modèles d’équipe avec l’écran de point de départ d’une équipe existante mise en évidence.](media/team-existing-team-as-template.png)
 
 5. Sélectionnez une équipe à utiliser comme point de départ en sélectionnant en côté du nom de l’équipe, puis sélectionnez **Suivant.**
 

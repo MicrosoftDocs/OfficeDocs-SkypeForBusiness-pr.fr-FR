@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatMachinesExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Vous activez ou désactivez un serveur de conversation permanente ou un pool de serveurs de conversation permanente déployé à l’aide des serveurs ou pools répertoriés dans les paramètres d’état de l’ordinateur. Vous sélectionnez un serveur ou un pool dans la liste, puis cliquez sur le bouton Rendre actif pour rendre actif un serveur ou un pool.
-ms.openlocfilehash: 4086a5732d9bbb047d45d28295de272fc7649df5808bb4b18d8db9392a934ae3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0bf6d926fe7ee7cdfa985fa707a73d2a83316f03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335154"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633018"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expandeur des ordinateurs de conversation permanente
  

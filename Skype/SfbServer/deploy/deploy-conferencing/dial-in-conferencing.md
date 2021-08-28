@@ -1,5 +1,5 @@
 ---
-title: Configurer les conférences téléphoniques dans Skype Entreprise Server
+title: Configurer la conférence d’accès dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
-description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la conférence d’accès dans Skype Entreprise Server.'
-ms.openlocfilehash: 5e6540b926d3b632fdff21f8fb645667068ca2e362260131dcd2b6379d5ef0b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la conférence téléphonique dans Skype Entreprise Server.'
+ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303128"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609951"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurer les conférences téléphoniques dans Skype Entreprise Server
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurer la conférence d’accès dans Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour découvrir comment configurer la conférence Skype Entreprise Server.
   
@@ -60,7 +60,7 @@ Les utilisateurs de conférences rendez-vous participent à des conférences en 
   
 Pour configurer des plans de numérotation pour les conférences téléphoniques :
   
-- Que vous déployiez ou non Voix Entreprise, modifiez le plan de numérotation global pour ajouter une région de conférence rendez-vous et pour vous assurer qu’une règle de normalisation convertit avec précision vos numéros d’accès aux conférences rendez-vous. Pour obtenir des instructions détaillées, voir [Créer ou modifier un plan](../../deploy/deploy-enterprise-voice/dial-plans.md)de numérotation dans Skype Entreprise Server .
+- Que vous déployiez ou non Voix Entreprise, modifiez le plan de numérotation global pour ajouter une région de conférence rendez-vous et pour vous assurer qu’une règle de normalisation convertit précisément vos numéros d’accès aux conférences rendez-vous. Pour obtenir des instructions détaillées, voir [Créer ou modifier un plan](../../deploy/deploy-enterprise-voice/dial-plans.md)de numérotation dans Skype Entreprise Server .
     
 - Si vous n’avez pas déployé Voix Entreprise, créez des plans de numérotation pour vos numéros d’accès aux conférences téléphoniques. Veillez à inclure une région de conférence rendez-vous. Pour obtenir des instructions détaillées, voir [Créer ou modifier un plan](../../deploy/deploy-enterprise-voice/dial-plans.md)de numérotation dans Skype Entreprise Server .
     
@@ -186,7 +186,7 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
     
 12. Pour ajouter une région pour le numéro d’accès à la connexion, sous Régions associées, cliquez sur **Ajouter,** cliquez sur une ou plusieurs régions associées aux plans de numérotation pour ce numéro d’accès, puis cliquez sur **OK.**
     
-13. Pour supprimer une région du numéro d’accès à la connexion, sous Régions **associées,** cliquez sur la région à supprimer, puis cliquez sur **Supprimer.**
+13. Pour supprimer une région du numéro d’accès à la connexion, sous **Régions** associées, cliquez sur la région à supprimer, puis cliquez sur **Supprimer.**
     
 14. Cliquez sur **Valider**.
     

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Découvrez comment résoudre les problèmes pour les administrateurs et les utilisateurs d Skype Entreprise dans Microsoft 365 et Office 365.
-ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99c50759cea77e98f239adf8cea265941ce7f704
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310103"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609971"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Résolution des problèmes liés à Skype Entreprise Online
 
@@ -34,7 +34,7 @@ Il arrive que les choses ne se déroulent pas comme prévu. Voici une liste de r
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Résolution des problèmes d'administration pour Skype Entreprise Online
 
-Vous pouvez obtenir des réponses à la plupart de vos questions Skype Entreprise Online dans l’article Recherchez les causes courantes des erreurs de Skype Entreprise de la Skype Entreprise’inscription en [ligne.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) L’article suivant de la Mise à jour comprend également de nombreuses ressources de dépannage et références de code d’erreur : Résolution des erreurs de Skype Entreprise de sign-in Online pour [les administrateurs.](./troubleshooting-sign-in-errors-for-admins.md)
+Vous pouvez obtenir des réponses à la plupart de vos questions Skype Entreprise Online dans l’article Recherchez les causes courantes des erreurs de Skype Entreprise de la Skype Entreprise’inscription en [ligne.](troubleshooting-sign-in-errors-for-admins.md#toc323194094) L’article suivant de la Mise à jour comprend également de nombreuses ressources de dépannage et références de code d’erreur : Résolution des erreurs de Skype Entreprise de la connectez-vous en ligne pour [les administrateurs.](./troubleshooting-sign-in-errors-for-admins.md)
 
 Pour les problèmes de conférence rendez-vous, consultez la résolution des problèmes connus et de [l’audioconférence.](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)
 
@@ -77,7 +77,7 @@ La plupart des problèmes rencontrés par les utilisateurs de Skype Entreprise O
 ## <a name="still-need-help-contact-support"></a>Vous avez encore besoin d'aide ? Contactez le support technique.
 <a name="BK_SupportBridge_1"> </a>
 
-En tant qu’administrateur de Applications Microsoft 365 pour les PME, vous pouvez accéder gratuitement à nos agents de support bien informés pour obtenir de l’aide sur l’avant-vente, la gestion des comptes et la facturation, ainsi que pour obtenir de l’aide pour résoudre les problèmes techniques. Vous pouvez également [contacter le support](/microsoft-365/Admin/contact-support-for-business-products) technique pour le Microsoft 365 et Office 365 des utilisateurs de votre organisation.
+En tant qu’administrateur de Applications Microsoft 365 pour les PME, vous pouvez accéder gratuitement à nos agents de support bien informés pour obtenir de l’aide sur l’avant-vente, la gestion des comptes et la facturation, ainsi que pour obtenir de l’aide pour résoudre les problèmes techniques. Vous pouvez également [contacter le support technique](/microsoft-365/Admin/contact-support-for-business-products) au nom Microsoft 365 et Office 365 des utilisateurs de votre organisation.
 
 - [Obtenir de l’aide des forums Microsoft 365 et Office 365 communauté](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
@@ -86,7 +86,7 @@ En tant qu’administrateur de Applications Microsoft 365 pour les PME, vous pou
 > [!NOTE]
 > Si vous utilisez Office 365 géré par 21Vianet en Chine, veuillez [contacter l'équipe de support de 21Vianet](/microsoft-365/Admin/contact-support-for-business-products).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cette annexe comprend des étapes détaillées pour la mise à jour du certificat Edge dans le cadre de la consolidation du cloud pour Teams et Skype Entreprise.
-ms.openlocfilehash: 7370fe6949c471a6aad9b45ee246f1565b43bdb465eba2110a03f53afa69fe28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610201"
 ---
 # <a name="update-the-edge-certificate"></a>Mettre à jour le certificat de Microsoft Edge
 
@@ -35,7 +35,7 @@ ms.locfileid: "54330628"
 
 La mise à jour du certificat edge est l’étape clé pour s’assurer qu’un environnement local avec SipDomain1 peut rejoindre un environnement cloud avec SipDomain2 et garantir un routage correct dans un environnement d’espace d’adressas partagé entre les deux domaines SIP. Consultez l’étape 14 de la consolidation cloud [pour Teams et Skype Entreprise](cloud-consolidation.md) pour le contexte dans lequel vous pouvez effectuer cette étape. Dans nos exemples, SipDomain1 est AcquiredCompany. <span> com et SipDomain2 est OriginalCompany. <span> com.
 
-L’autre nom de sujet (SAN) du certificat sur tous les serveurs Edge de l’environnement local doit être mis à jour pour inclure tous les domaines SIP existant dans le client en ligne pur (à l’exception de toute onmicrosoft. <span> com domains), sous la forme « sip. \<domain> ».  Dans notre exemple, il s’agit de sip. OriginalCompany. <span> com. Cette étape est essentielle avant de migrer des utilisateurs vers le cloud.
+L’autre nom d’objet (SAN) du certificat sur tous les serveurs Edge de l’environnement local doit être mis à jour pour inclure tous les domaines SIP existant dans le client en ligne pur (à l’exception de toute onmicrosoft. <span> com domains), sous la forme « sip. \<domain> ».  Dans notre exemple, il s’agit de sip. OriginalCompany. <span> com. Cette étape est essentielle avant de migrer des utilisateurs vers le cloud.
 
 **Étapes :**
 

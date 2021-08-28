@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Cet article explique comment configurer et dépanner les Skype Entreprise Online. Cet article fournit des conseils pour la configuration des recommandations, des recommandations et des étapes de dépannage.
-ms.openlocfilehash: c672006e8b78e5b3fb881da97e2ab3bbe65e465aa5981cc95fb2caf9bed39e4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c461b54bba68cf6570eae6a6b4dc18ab99a63b89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310173"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587846"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurer et résoudre les problèmes de délégation pour Skype Entreprise Online
 
@@ -135,7 +135,7 @@ Si la configuration réussit, le délégué doit voir que vous avez été ajout�
     > [!NOTE]
     > Si vous installez le client Skype Entreprise Basic, la délégation est supprimée. 
   
-- Si la **valeur Statut MAPI** n’est pas **CORRECTE,** assurez-vous que les valeurs **SIP** et **SMTP** correspondent.
+- Si la **valeur État MAPI** n’est pas **CORRECTE,** assurez-vous que les valeurs **SIP** et **SMTP** correspondent.
     
     > [!NOTE]
     > Plusieurs minutes peuvent être avant que l’état MAPI s’affiche comme **OK** après le premier démarrage Skype Entreprise la Outlook.
@@ -146,10 +146,10 @@ Si la configuration réussit, le délégué doit voir que vous avez été ajout�
     
 - La boîte Exchange Online n’est pas accessible via le client Skype Entreprise client. Dans ce cas, exécutez le [test Outlook connexion](https://testconnectivity.microsoft.com/) pour vous assurer qu’il est exécuté.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

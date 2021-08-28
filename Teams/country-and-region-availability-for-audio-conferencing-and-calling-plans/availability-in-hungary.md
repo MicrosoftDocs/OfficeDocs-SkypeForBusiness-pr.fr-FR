@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams en Hongrie.
-ms.openlocfilehash: c4eb0a2a750f2f197ef06d2af6f50e14d415027efd9087b104ab443bd9a3e692
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fbe889742047e92369ce89071a1676b2f746a6e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299421"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588316"
 ---
 # <a name="availability-in-hungary"></a>Disponibilité en Hongrie
 

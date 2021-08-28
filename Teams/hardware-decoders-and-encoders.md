@@ -10,7 +10,7 @@ ms.topic: reference
 ms.service: msteams
 ms.collection:
 - M365-voice
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Répertorie les combinaisons de système d’exploitation, de modèles et de pilotes qui ne sont pas activés pour l’accélération matérielle en raison de problèmes de pilote.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bf2ceafdfc1742a24927d30ecfb44bdeb400030f84f70a8902d44801f3721d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8d483f914c486c9912f608f16de5ab421d0fa47e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322536"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632118"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recommandations concernant le pilote matériel encodeur et décodeur
 
@@ -36,19 +36,19 @@ Les combinaisons suivantes de système d’exploitation, de modèle et de pilote
 
 |Système d’exploitation           | Modèle (Device_id) | Pilote/plage |
 |---------------------------|-------------------|--------------|
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0116 | [2,0,11,929] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0126 | [0.0.0.0] - [8.15.10.2418] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [0.0.0.0] - [8.15.10.2753] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x2772 | [8.15.10.1749] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0162, 0x0166 | [0.0.0.0] - [9.17.10.2850] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [9.17.10.2867] - [9.17.10.4459] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 |0x1616 | [9.18.7.9] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [10.18.10.3431] - [10.18.10.4425] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [10.18.14.4280] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x1616 |[10.18.15.4256] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x1916 |[10.18.15.4293] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout |[10.18.15.4281] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout |[20.19.15.4390] - [20.19.15.4444] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0116 | [2,0,11,929] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0126 | [0.0.0.0] - [8.15.10.2418] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [0.0.0.0] - [8.15.10.2753] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x2772 | [8.15.10.1749] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0162, 0x0166 | [0.0.0.0] - [9.17.10.2850] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [9.17.10.2867] - [9.17.10.4459] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 |0x1616 | [9.18.7.9] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [10.18.10.3431] - [10.18.10.4425] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [10.18.14.4280] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x1616 |[10.18.15.4256] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x1916 |[10.18.15.4293] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout |[10.18.15.4281] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout |[20.19.15.4390] - [20.19.15.4444] |
 |Windows 10 | tout | [21.20.16.4541] |
 |Windows 10 | tout | [22.20.16.4811] |
 |Windows 10 | tout | [24.20.100.6293] |
@@ -59,19 +59,19 @@ Les combinaisons suivantes de système d’exploitation, de modèle et de pilote
 
 |Système d’exploitation           | Modèle (Device_id) | Pilote/plage |
 |---------------------------|-------------------|--------------|
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0540 | [8.15.1.1243] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0A20 | [8.15.11.8627], [8.15.11.8634], [8.15.11.8642] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0A34 | [8.15.11.8631], [8.15.11.8636], [8.15.11.8652], [8.15.11.8662], [8.15.11.8664], [8.16.11.8691] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0A74 | [8.15.11.8636], [8.15.11.8652], [8.15.11.8688] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0A28 | [8.15.11.8644] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0A69 | [8.16.11.8691] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0A3C | [0.0.0.0] - [8.17.12.6721] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0873 | [8.17.12.8562] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x040C, 0x0429, 0x06FD | [0.0.0.0] - [8.17.12.9670] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [8.17.11.9745], [8.17.12.5738] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x0A2B | [0.0.0.0] - [9.18.13.282] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x087D | [9.18.13.697] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x1040 |[0.0.0.0] - [9.18.13.1106] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0540 | [8.15.1.1243] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0A20 | [8.15.11.8627], [8.15.11.8634], [8.15.11.8642] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0A34 | [8.15.11.8631], [8.15.11.8636], [8.15.11.8652], [8.15.11.8662], [8.15.11.8664], [8.16.11.8691] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0A74 | [8.15.11.8636], [8.15.11.8652], [8.15.11.8688] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0A28 | [8.15.11.8644] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0A69 | [8.16.11.8691] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0A3C | [0.0.0.0] - [8.17.12.6721] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0873 | [8.17.12.8562] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x040C, 0x0429, 0x06FD | [0.0.0.0] - [8.17.12.9670] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [8.17.11.9745], [8.17.12.5738] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x0A2B | [0.0.0.0] - [9.18.13.282] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x087D | [9.18.13.697] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x1040 |[0.0.0.0] - [9.18.13.1106] |
 |Windows 10 | tout | [10.18.13.5891] - [10.18.13.6881] |
 |Windows 10 | tout | [21.21.13.6909], [21.21.13.7570] |
 |Windows 7 | tout | [21,21,13,4201] |
@@ -88,7 +88,7 @@ Les combinaisons suivantes de système d’exploitation, de modèle et de pilote
 
 |Système d’exploitation           | Modèle (Device_id) | Pilote/plage |
 |---------------------------|-------------------|--------------|
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [0.0.0.0] – [25.20.15017.1009] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [0.0.0.0] – [25.20.15017.1009] |
 
 ## <a name="hardware-encoder-driver-recommendations---intel"></a>Recommandations en matière de pilote de codeur matériel - Intel
 
@@ -97,20 +97,20 @@ Les combinaisons suivantes de système d’exploitation, de modèle et de pilote
 |Système d’exploitation           | Modèle (Device_id) | Pilote/plage |
 |---------------------------|-------------------|--------------|
 |Windows 7 | tout | [8.15.10.2200] - [8.15.10.2600] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [8.15.10.2653] - [8.15.10.2827] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [9.14.3.1176] - [9.14.3.1177] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [9.17.10.2800] - [9.17.10.9999] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [9.18.10.3222] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [8.15.10.2653] - [8.15.10.2827] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [9.14.3.1176] - [9.14.3.1177] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [9.17.10.2800] - [9.17.10.9999] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [9.18.10.3222] |
 |Windows 7 | tout | [9.18.10.3234] |
 |Windows 7 | tout | [9.18.10.3272] |
 |Windows 7 | tout | [10.18.10.3242] - [10.18.10.9999] |
-|Windows 8/Windows 8.1/Windows 10 | tout | [10.18.10.0000] - [10.18.10.9999] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [10.18.14.4153] - [10.18.14.4161] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [10.18.14.4264] |
+|Windows 8/Windows 8.1/Windows 10 | tout | [10.18.10.0000] - [10.18.10.9999] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [10.18.14.4153] - [10.18.14.4161] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [10.18.14.4264] |
 |Windows 7 | tout | [10.18.14.4578] |
 |Windows 7 | tout | [10.18.14.4889] |
 |Windows 7 | tout | [10.18.14.5057] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [20.19.15.4300] - [20.19.15.4444] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [20.19.15.4300] - [20.19.15.4444] |
 |Windows 7 | tout | [20.19.15.4474] |
 
 ## <a name="hardware-encoder-driver-recommendations---nvidia"></a>Recommandations de pilote de codeur matériel - Nvidia
@@ -119,9 +119,9 @@ Les combinaisons suivantes de système d’exploitation, de modèle et de pilote
 
 |Système d’exploitation           | Modèle (Device_id) | Pilote/plage |
 |---------------------------|-------------------|--------------|
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [0.0.0.0] - [21.21.13.7848] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [0.0.0.0] - [21.21.13.7848] |
 
-## <a name="hardware-encoder-driver-recommendations---amd"></a>Recommandations en matière de pilote d’encodeur matériel - AMD
+## <a name="hardware-encoder-driver-recommendations---amd"></a>Recommandations du pilote de codeur matériel - AMD
 
 Pour les systèmes d’exploitation hérités, seules les Device_ids suivantes sont activées pour l’accélération matérielle.
 
@@ -133,12 +133,12 @@ Les combinaisons suivantes de système d’exploitation, de modèle et de pilote
 
 |Système d’exploitation           | Modèle (Device_id) | Pilote/plage |
 |---------------------------|-------------------|--------------|
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | 0x674a | [0.0.0.0] – [99.9999.9999.9999] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | 0x674a | [0.0.0.0] – [99.9999.9999.9999] |
 |Windows 7 | tout | [0.0.0.0] - [16.199.9999.9999] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [15.21.0.0] - [16.199.9999.9999] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [15.201.1101.0] |
-|Windows/7/Windows 8/Windows 8.1/Windows 10 | tout | [21.19.137.1] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [15.21.0.0] - [16.199.9999.9999] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [15.201.1101.0] |
+|Windows/7 Windows 8/Windows 8.1/Windows 10 | tout | [21.19.137.1] |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configuration matérielle requise pour l’application Teams](hardware-requirements-for-the-teams-app.md)

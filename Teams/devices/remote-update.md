@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Mettez à jour Microsoft Teams téléphones portables, Teams panneaux et barres de collaboration à distance à l’aide du Centre Teams d’administration
-ms.openlocfilehash: 8ff925756e91c72c42d1557a1c735e5323691272a82405d5e4047ab4ff9828b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Mettez à jour Microsoft Teams, des Teams et des barres de collaboration à distance à l’aide du Centre Teams d’administration
+ms.openlocfilehash: 4166d8543c0c0e847e4463ecf3cf0760876a7b37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632178"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Mettre à jour Microsoft Teams appareils à distance
 
@@ -34,7 +34,7 @@ Les mises à jour du microprogramme de l’appareil peuvent être appliquées au
 > [!NOTE]
 > Si des mises à jour du microprogramme de l’appareil peuvent être programmées, si la date et l’heure prévues tombent après le délai maximal de 30 ou 90 jours configuré, la mise à jour du microprogramme est appliquée lorsque le délai maximal est atteint. La date et l’heure prévues sont ignorées. En outre, la mise à Microsoft Teams appareils à distance est une fonctionnalité qui n’est pas encore disponible sur les locataires Cloud du gouvernement américain (Cloud de la communauté du secteur public-High).
 
-Pour gérer les appareils, vous devez être administrateur global, administrateur du Teams service ou administrateur Teams périphériques. Pour plus d’informations sur les rôles d’administrateur, voir Utiliser Microsoft Teams rôles d’administrateur [pour gérer Teams.](../using-admin-roles.md)
+Pour gérer les appareils, vous devez être administrateur global, administrateur du Teams service ou administrateur d Teams périphériques. Pour plus d’informations sur les rôles d’administrateur, voir Utiliser Microsoft Teams rôles d’administrateur [pour gérer Teams.](../using-admin-roles.md)
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Choisir le comportement de mise à jour automatique du microprogramme de l’appareil
 
@@ -44,7 +44,7 @@ Les mises à jour du microprogramme de l’appareil sont appliquées automatique
 > La dernière version de mise à jour du microprogramme n’est pas appliquée à Teams appareil. Au lieu de cela, la mise à jour appliquée automatiquement sur votre appareil est retardée d’une version. Par exemple, supposons que la version « 10 » soit appliquée à votre appareil et que la version « 11 » soit publiée. La version « 11 » ne sera pas encore appliquée. Au lieu de cela, votre appareil sera mis à jour vers la version « 11 » une fois la version « 12 » publiée.
 
 > [!NOTE]
-> Certains appareils ne supportent pas encore la mise à jour automatique du microprogramme. L’application de paramètres de mise à jour automatique du microprogramme sur les appareils qui ne supportent pas les mises à jour automatiques n’aura aucun effet sur ces appareils. Pour plus d’informations sur la prise en charge des mises à jour automatiques du microprogramme par votre appareil, contactez le fabricant de votre appareil.
+> Certains appareils ne supportent pas encore la mise à jour automatique du microprogramme. L’application de paramètres de mise à jour automatique du microprogramme sur les appareils qui ne supportent pas les mises à jour automatiques n’aura aucun effet sur ces appareils. Pour plus d’informations sur la prise en charge par votre appareil des mises à jour automatiques du microprogramme, contactez le fabricant de votre appareil.
 
 Pour choisir le comportement de mise à jour automatique pour vos appareils, vous pouvez :
 
@@ -52,12 +52,12 @@ Pour choisir le comportement de mise à jour automatique pour vos appareils, vou
 2. Naviguez **entre les téléphones** IP des  >  **appareils** ou les barres de **collaboration** **ou Teams panneaux.**
 3. Sélectionnez un ou plusieurs appareils, puis mettre **à jour.**
 4. Sous **Mise à jour automatique du microprogramme,** sélectionnez l’une des actions suivantes :
-    - **Dès que disponible** La mise à jour du microprogramme de l’appareil le deuxième plus récent est appliquée le premier week-end après la publication de la dernière mise à jour.
+    - **Dès que disponible** La mise à jour de microprogramme de l’appareil la plus récente est appliquée le premier week-end suivant la publication de la dernière mise à jour.
     - **Différer 30 jours** La mise à jour de microprogramme de l’appareil la plus récente est appliquée 30 jours après la publication de la dernière mise à jour.
     - **Différer 90 jours** La mise à jour de microprogramme de l’appareil la plus récente est appliquée 90 jours après la publication de la dernière mise à jour.
 5. Sélectionnez **Mettre à jour.**
 
-Si, pour une raison quelconque, vous devez rétablir la mise à jour d’un microprogramme d’appareil, vous devez rétablir les paramètres par usine de votre appareil. Réinitialisez votre appareil en utilisant les instructions de son fabricant.  
+Si, pour une raison quelconque, vous devez rétablir une mise à jour du microprogramme d’un appareil, vous devez rétablir les paramètres par usine de votre appareil. Réinitialisez votre appareil en utilisant les instructions de son fabricant.  
 
 ## <a name="manually-update-remote-devices"></a>Mettre à jour manuellement les appareils distants
 
@@ -76,6 +76,6 @@ Ce que vous voyez dépend de la sélection d’un ou plusieurs appareils. L’im
 
 Lorsque vous sélectionnez plusieurs appareils, vous pouvez choisir les types de mises à jour à appliquer à chaque périphérique sélectionné. Sélectionnez les types de mises à jour que vous voulez appliquer, puis sélectionnez **Mettre à jour.**
 
-Lorsque vous sélectionnez un seul appareil, les mises à jour disponibles pour l’appareil sont affichées. Si plusieurs types de mises à jour sont disponibles pour l’appareil, sélectionnez chaque type de mise à jour à appliquer. Vous pouvez afficher **la version actuelle appliquée** sur l’appareil et la nouvelle **version** qui sera appliquée. Sélectionnez la ou les mises à jour que vous voulez appliquer, puis sélectionnez **Mettre à jour.**
+Lorsque vous sélectionnez un seul appareil, les mises à jour disponibles pour celui-ci sont affichées. Si plusieurs types de mises à jour sont disponibles pour l’appareil, sélectionnez chaque type de mise à jour à appliquer. Vous pouvez afficher **la version actuelle appliquée** sur l’appareil et la nouvelle **version** qui sera appliquée. Sélectionnez la ou les mises à jour que vous voulez appliquer, puis sélectionnez **Mettre à jour.**
 
-Après avoir sélectionné **Mettre à** jour, les mises à jour sont appliquées à vos appareils à la date et l’heure que vous avez sélectionnées si vous avez prévu une mise à jour. Si vous n’avez pas sélectionné de date et d’heure futures, les mises à jour sont appliquées à vos appareils en quelques minutes.
+Après avoir sélectionné **Mettre à** jour, les mises à jour sont appliquées à vos appareils à la date et à l’heure que vous avez sélectionnées si vous avez prévu une mise à jour. Si vous n’avez pas sélectionné de date et d’heure futures, les mises à jour sont appliquées à vos appareils en quelques minutes.

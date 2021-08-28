@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: daro
 audience: admin
 description: Conseils pour les professionnels de l’informatique Microsoft 365 des déploiements au cours d’entités qui gèrent les données soumises à la réglementation du gouvernement américain
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb39b2a123b4e997cb4e15f6f72e0193b41d9bee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330898"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632008"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planifier les déploiements Microsoft 365 administration publique Cloud de la communauté du secteur public déploiements
 
@@ -36,7 +36,7 @@ Ces conseils sont adaptés aux professionnels de l’informatique qui sont respo
 > 
 >En réponse à l’augmentation immédiate du nombre d’appels, et pour assurer la continuité et la disponibilité, Microsoft autorise les serveurs audio/vidéo Microsoft Teams Cloud de la communauté du secteur public à tirer parti de la capacité de traitement de nos centres de données commerciaux, ainsi que de nos centres de données du secteur public.<br/>
 > 
->Ces serveurs audio/vidéo résident dans les Microsoft Azure limites de la limite du haut FedRAMP aux États-Unis et ne stockent aucun contenu client. Toutefois, ces serveurs traitent l’audio et la vidéo pour les appels et les conférences et fonctionnent sous notre service commercial pendant cette période temporaire.<br/>
+>Ces serveurs audio/vidéo résident dans les Microsoft Azure limites du serveur de limites du haut fedRAMP aux États-Unis et ne stockent aucun contenu client. Toutefois, ces serveurs traitent l’audio et la vidéo pour les appels et les conférences et fonctionnent sous l’activité de notre équipe commerciale pendant cette période temporaire.<br/>
 > 
 >Le personnel qualifié et screened surveille ces serveurs pour l’accès potentiel aux données client en examine les éventuelles connexions interactives à ces serveurs. Le personnel qualifié répond Cloud de la communauté du secteur public exigences relatives à l’accès au contenu du client. Pour plus d’informations sur le filtrage des exigences, voir la [description Cloud de la communauté du secteur public service.](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)<br/>
 > 
@@ -76,7 +76,7 @@ La [Microsoft 365 description du service public](/office365/servicedescriptions/
 
 Ayant décidé que ce service est exact pour votre organisation, commencez le processus de demande [de ce service ici.](https://products.office.com/government/eligibility-validation)
 
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Étape 3. Comprendre Microsoft 365 gouvernement - définir Cloud de la communauté du secteur public de sécurité par défaut.
+## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Étape 3. Comprendre Microsoft 365 administration - Définir Cloud de la communauté du secteur public de sécurité par défaut.
 
 Nous vous recommandons de prendre le temps de passer en revue soigneusement vos [paramètres](enable-features-office-365.md) d’administration et de sécurité avant de les modifier, et de prendre en compte les conséquences sur la conformité avant de modifier les paramètres de sécurité par défaut.
 
@@ -104,14 +104,14 @@ Déterminez vos exigences de gouvernance et la manière dont vous pouvez les res
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez et consignez vos besoins de gouvernance, en suivant les recommandations du Plan de [gouvernance dans Teams.](plan-teams-governance.md)</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Déterminez et consignez vos besoins de gouvernance, en suivant les recommandations du Plan de [gouvernance de Teams.](plan-teams-governance.md)</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déployer des Teams pour la collaboration
 
-Après avoir été intégré à Microsoft 365 Administration Cloud de la communauté du secteur public, suivez la trajectoire de déploiement recommandée décrite dans la manière de déployer [Microsoft Teams.](./deploy-overview.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et des équipes Teams équipe.
+Après avoir été intégré à Microsoft 365 Administration Cloud de la communauté du secteur public, suivez la trajectoire de déploiement recommandée décrite dans la manière de déployer [Microsoft Teams.](./deploy-overview.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion des changements, ainsi Teams équipe.
 
 Vous pouvez également travailler avec [FastTrack](https://www.microsoft.com/fasttrack) partenaire choisi pour intégrer le service.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Étape 7. Déployer des Teams pour les réunions et la voix
 
-C’est également le moment idéal d’utiliser le Teams avec l’ensemble des parties prenantes pour commencer à planifier le déploiement des réunions et des fonctionnalités [de voix cloud.](./cloud-voice-landing-page.md)
+C’est également le moment idéal pour utiliser le Teams à l’échelle de l’ensemble des parties prenantes pour commencer à planifier le déploiement des réunions et des fonctionnalités [de voix cloud.](./cloud-voice-landing-page.md)
