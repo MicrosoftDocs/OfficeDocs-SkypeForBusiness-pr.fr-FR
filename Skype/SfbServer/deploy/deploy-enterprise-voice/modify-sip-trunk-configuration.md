@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Résumé : Découvrez comment modifier les paramètres de configuration de la Skype Entreprise Server SIP.'
-ms.openlocfilehash: fb590a53a510b73251a7cc47d0f66c20c5ed81cf104d626a0b4dd38e8937b43c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 370e6522d07461276c881798d094fa31fb71e9bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283766"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620120"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype Entreprise Server : modifier les paramètres de configuration de la trunk SIP 
  
@@ -63,7 +63,7 @@ Lorsque vous modifiez les paramètres de configuration d’une Skype Entreprise 
 > [!NOTE]
 > Les cmdlets CsTrunkConfiguration Lync Server prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/set-cstrunkconfiguration)
   
-### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Pour modifier les paramètres de configuration de la configuration de la Skype Entreprise Server SIP à l’aide du Panneau de configuration
+### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Pour modifier les paramètres de configuration d’une Skype Entreprise Server SIP à l’aide du Panneau de configuration
 
 1. Dans Skype Entreprise Server panneau de configuration, cliquez **sur Routage** des voix, puis sur **Configuration de la trunk .**
     

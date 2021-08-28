@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: LEnter-CcUpdate cmdlet prépare le Skype Entreprise Cloud Connector Edition hôte pour le processus de mise à jour en le mettant en mode maintenance. L’appliance arrête immédiatement tous les services, mettant fin à tous les appels en cours et rejetant les nouveaux appels.
-ms.openlocfilehash: 75be5933e31f3966ab36f9957b78cd89c21a4a31df23b5761000a6e96cd9806e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26f1874ca6c0b92836716d66031945adc864d0ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303647"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620760"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
@@ -53,7 +53,7 @@ Le mode maintenance est utile si la mise à jour automatique de votre appliance 
 Après avoir installé les mises à jour, l’appliance peut revenir en mode production en exécutant Exit-CcUpdate cmdlet.
   
 > [!NOTE]
-> Si vous décidez de mettre à jour manuellement une appliance Cloud Connector, vous devez la mettre à jour dans les 60 jours suivant la publication de la version suivante par Microsoft. Microsoft prend en charge la version précédemment publiée de Cloud Connector pendant 60 jours après la publication de la nouvelle version. 
+> Si vous décidez de mettre à jour manuellement une appliance Cloud Connector, vous devez la mettre à jour dans les 60 jours suivant la publication de la version suivante par Microsoft. Microsoft prend en charge la version de Cloud Connector publiée précédemment pendant 60 jours après la publication de la nouvelle version. 
   
 ## <a name="input-types"></a>Types d’entrée
 <a name="InputTypes"> </a>
@@ -63,7 +63,7 @@ Aucun. La cmdlet Enter-CCUpdate n’accepte pas la saisie de données pipeline.
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Néant 
+Aucun 
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

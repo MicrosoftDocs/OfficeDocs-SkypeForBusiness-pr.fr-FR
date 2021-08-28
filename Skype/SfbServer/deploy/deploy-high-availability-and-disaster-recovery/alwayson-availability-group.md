@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Déployez (installez) un groupe de disponibilité Always On dans votre Skype Entreprise Server déploiement.
-ms.openlocfilehash: 412c71b12dfcee834ab7167556ec33631b47ead9a4c02b5932f8b8382efe12bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 72bd60e102bfa121e2b8f7704032f54242aee202
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304426"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620480"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Déployer un groupe de disponibilité Always On sur un serveur principal dans Skype Entreprise Server
  

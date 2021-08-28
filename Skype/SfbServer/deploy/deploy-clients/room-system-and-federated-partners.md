@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: Lisez cette rubrique pour découvrir comment configurer Skype Room System pour Skype Entreprise partenaires fédérés.
-ms.openlocfilehash: ba31d945425c2f5e32bc09e6b97c6204e492f414b5ca6b2e5ceaf3e65d0de3be
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2f0a44538839fd6c722021f806bd8623f0c210ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294911"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620510"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Système de salle et partenaires Skype Entreprise fédérés
  

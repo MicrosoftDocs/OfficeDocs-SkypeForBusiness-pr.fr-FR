@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Cliquez avec le bouton droit sur pool de conversation permanente dans le Générateur de topologies pour effectuer les choses suivantes :'
-ms.openlocfilehash: 2d6d49548ad34b6015ef81be37639ede60192720ba9c6b59a24a711b470a1a0c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d360190053f084a15c8a54a3ae2970a8cab3fb80
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343568"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619870"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Créer un nœud d’étendue des serveurs de conversation permanente
  

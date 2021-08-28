@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: Découvrez la période d’appel sortant complémentaire pour un plan d’appels Microsoft 365 ou Office 365 et la Office 365 d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Découvrez la période d’appels sortants complémentaire pour un plan d’appels Microsoft 365 ou Office 365 et la Office 365 d’audioconférence dans Microsoft Teams.
+ms.openlocfilehash: fa571a355f4eb9a546c2c231e9a06f83d4374029
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619600"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Période complémentaire pour la numérotation de l'audioconférence
 
@@ -54,18 +54,18 @@ Les utilisateurs avec un emplacement d’utilisation des licences (l’emplaceme
 
 - Tous les appels supérieurs à 103 500 minutes par mois calendaire sont facturés par minute à l’aide des crédits de communication aux tarifs publiés vers cette destination. (Remarque : le client doit configurer les crédits de communication et affecter la licence Crédits de communication à l’organisateur de la réunion).
 
-- Tous les appels sortants vers des destinations ne faisant pas partir de la liste pays et régions de la zone [A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication aux tarifs publiés vers cette destination (à condition que le client ait installé les crédits de communication et attribué la licence Crédits de communication à l’organisateur de la réunion).
+- Tous les appels sortants vers des destinations ne faisant pas partir de la liste pays et régions de la zone [A](audio-conferencing-zones.md) sont facturés par minute à l’aide des crédits de communication à nos tarifs publiés vers cette destination (à condition que le client ait installé les crédits de communication et attribué la licence Crédits de communication à l’organisateur de la réunion).
 
 > [!NOTE]
-> Vous pouvez surveiller l’utilisation par rapport au pool de minutes d’appels sortants dans le Skype Entreprise d’administration. Dans le centre Microsoft Teams & Skype d’administration, allez aux pools de minutes   >    >  **PSTN** Rapports du portail hérité. Ce pool de minutes complémentaire sera étiqueté dans le rapport comme « Appels sortants vers les pays et régions de la zone A ».
+> Vous pouvez surveiller l’utilisation du pool de minutes d’appels sortants dans le Skype Entreprise d’administration. Dans le centre Microsoft Teams & Skype d’administration, allez aux pools de minutes   >    >  **PSTN** Rapports du portail hérité. Ce pool de minutes complémentaire sera étiqueté dans le rapport comme « Appels sortants vers les pays et régions de la zone A ».
 
 Les notifications par courrier électronique seront envoyées à tous les administrateurs client d’un client donné lorsque l’utilisation du pool de minutes d’appels sortants du client atteint les 80 % et 100 %.
 
-Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays ou région de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont principalement basés sur la destination de l’appel et non sur le pays ou la région de l’organisateur ou du participant à l’appel sortant. Par exemple, un appel vers un numéro de téléphone en France sera facturé avec le même tarif si un participant à la réunion est lancé par un participant à la réunion aux États-Unis ou en France.
+Pour les appels sortants facturés par minute (appels dépassant le pool de minutes d’appels sortants du client ou appels vers des destinations ne se tenant pas dans la liste pays ou région de la zone [A),](audio-conferencing-zones.md) les appels et leurs tarifs associés sont principalement basés sur la destination de l’appel et non sur le pays ou la région de l’organisateur ou du participant à l’origine de l’appel sortant. Par exemple, un appel vers un numéro de téléphone en France sera facturé avec le même tarif si un participant à la réunion est lancé par un participant à la réunion aux États-Unis ou en France.
 
 Pour plus d’informations sur les crédits de communication, voir [Crédits de communication.](what-are-communications-credits.md)
      
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Disponibilité des forfaits d’appels et de l’audioconférence selon les régions et les pays](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [Zones de pays et de région pour l’audioconférence](audio-conferencing-zones.md)

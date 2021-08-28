@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
 description: Considérations vocales pour la mise à niveau Skype Entreprise vers Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5586b0d366c1e8a237212dde98b4c270f4de02d1830d0885b3f6fdd3b905e36
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77c4c30c86375fbf72822e244737f8a77000d9bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330828"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617150"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>Considérations en rapport avec la mise à niveau vers Teams un système Skype Entreprise une mise à niveau vers l’ordinateur local
 
@@ -32,7 +32,7 @@ Cet article décrit les considérations concernant le réseau téléphonique com
 
 De plus, les articles suivants décrivent les concepts de mise à niveau et les comportements de coexistence importants :
 
-- [Coexistence de Teams et Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Coexistence de Teams et d Skype Entreprise](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Modes de coexistence - Référence](migration-interop-guidance-for-teams-with-skype.md)
 - [Expérience client Teams et conformité aux modes coexistence](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
@@ -80,7 +80,7 @@ Les étapes de base sont répertoriées ci-dessous.  Les étapes 1 à 4 sont ré
 3. Si vous le souhaitez, configurez différentes stratégies Teams de ces utilisateurs (par exemple, TeamsMess paysPolicy, TeamsMeetingPolicy, etc.). Cette configuration peut être effectuée à tout moment, mais si vous voulez vous assurer que les utilisateurs ont la configuration correcte lors de la mise à niveau, il est préférable de le faire avant que l’utilisateur soit mis à niveau en mode TeamsOnly.
 
 4. Préparer les utilisateurs sélectionnés pour la migration vocale : 
-   - Si nécessaire, attribuez la licence Teams licence.  En supposant que l’utilisateur est déjà fonctionnel dans Skype Entreprise Online voix sur site, l’utilisateur dispose déjà d’Skype Entreprise Plan 2, ainsi que de Téléphone Microsoft Système. Laissez ces deux plans activés, y compris la licence Skype Entreprise Online (plan 2).  
+   - Si nécessaire, attribuez la licence Teams licence.  En supposant que l’utilisateur est déjà fonctionnel dans Skype Entreprise Online voix sur site, l’utilisateur dispose déjà d’Skype Entreprise Plan 2, ainsi que de Téléphone Microsoft Système. Laissez ces deux plans activés, y compris la licence Skype Entreprise Online Plan 2.  
    - Affectez le site OnlineVoiceRoutingPolicy souhaité. 
 
 5. Mettre à niveau l’utilisateur : ces étapes doivent être coordonnées. 
@@ -111,7 +111,7 @@ Les étapes de base sont répertoriées ci-dessous.  Les étapes 1 à 5 sont ré
 
    - Sur le SBC, configurez le routage vocal pour activer les appels entrants en envoyant des appels vers le routage direct plutôt que vers le serveur de médiation local. 
 
-   - Dans Microsoft 365 ou Office 365 : Affectez le service OnlineVoiceRoutingPolicy approprié pour activer les appels sortants. 
+   - Dans Microsoft 365 ou Office 365 : Affectez onlineVoiceRoutingPolicy pour activer les appels sortants. 
 
 
 ## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>De Skype Entreprise Server l’offre en local, avec Voix Entreprise, à Microsoft Calling Plan
@@ -146,7 +146,7 @@ Les étapes de base sont répertoriées ci-dessous.Les étapes 1 à 5 sont répe
 2. Associez votre SBC local au service Teams routage direct. Pour plus d’informations, [voir Associer le SBC au service de routage direct d’Système téléphonique.](direct-routing-configure.md) 
 
 3. Cette configuration est essentiellement un miroir de la configuration en local. La configuration en ligne est composée des : 
-   - OnlineVoiceRoutingPolicy (basé sur VoiceRoutingPolicy sur site si la migration d’utilisateurs à partir de Skype Entreprise Online, et sur VoicePolicy si la migration d’utilisateurs à partir du site avec Voix Entreprise).
+   - OnlineVoiceRoutingPolicy (basé sur VoiceRoutingPolicy sur site si la migration d’utilisateurs à partir de Skype Entreprise Online et sur VoicePolicy si la migration d’utilisateurs à partir du site avec Voix Entreprise).
    - Objets OnlinePSTNUsage (selon l’utilisation PSTN en local). 
    - Objets OnlineVoiceRoute (sur la base de VoiceRoute local). 
 

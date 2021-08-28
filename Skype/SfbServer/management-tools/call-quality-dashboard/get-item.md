@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Résumé : Découvrez l’opération Obtenir un élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: fa82d158b41826a950a852633e6c039e9262543d4aabece5c04397eba40be8ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a9dda3850a86cffbb9fcbbb5c078512a04d0375
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278442"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619720"
 ---
 # <a name="get-item"></a>Obtenir l’élément
  
@@ -58,7 +58,7 @@ Obtenir l’élément renvoie un élément spécifique dans le référentiel.
 }
 ```
 
- *itemId*  : ID de l’élément.
+ *itemId*  - ID de l’élément.
   
  *userId*  : ID de l’utilisateur propriétaire de cet élément.
   

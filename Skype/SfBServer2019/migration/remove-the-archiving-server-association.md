@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépendance vis-à-vis du pool frontal, du serveur frontal, du Survivable Branch Appliance et du serveur Survivable Branch Server associés. Vous modifiez les propriétés du pool frontal, du serveur frontal, du Survivable Branch Appliance et du serveur Survivable Branch Server pour supprimer la dépendance. Après avoir effacé la dépendance et supprimé le serveur dans le Générateur de topologies, vous êtes informé que l’objet magasin de bases de données associé dans le Générateur de topologies sera également supprimé.
-ms.openlocfilehash: 6265642a45b891180e53d3b00d39a9053b663a434aaa1a4a26e92b619dfba257
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489eeb276b495598ec2f11fc9b4502935beedf30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340330"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617070"
 ---
 # <a name="remove-the-archiving-server-association"></a>Supprimer l’association au serveur d’archivage
 
@@ -28,7 +28,7 @@ Pour supprimer un serveur d’archivage, vous devez modifier ou effacer la dépe
     
 2. Accédez au nœud d’installation hérité.
     
-3. Dans le Générateur de topologie, développez **Êdition Entreprise pools** frontux, **Édition Standard** serveurs frontux ou **sites** de succursale, en fonction de l’emplacement où le serveur d’archivage est défini.
+3. Dans le Générateur de topologie, développez Êdition Entreprise **pools** frontux, **Édition Standard** serveurs frontux ou **sites** de succursale, en fonction de l’emplacement où le serveur d’archivage est défini.
     
 4. Si vous avez un serveur Survivable Branch Server associé, développez sites de **succursale,** développez le nom du site de succursale, puis développez **Survivable Branch Appliances**.
     

@@ -10,20 +10,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Résumé : Découvrez comment créer, modifier et supprimer des scénarios pour le service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: eeecf19a03f678de9321dee83bed264acf6e82b80eb1057cd79e993c05da2c9d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4dea0146cfb80d8f28a102d4cf719a28b7bb188
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323096"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619710"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurer des scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment créer, modifier et supprimer des scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015.
+**Résumé :** Découvrez comment créer, modifier et supprimer des scénarios pour le service de journalisation centralisée Skype Entreprise Server 2015.
   
 Les scénarios définissent l’étendue (globale, de site, de pool ou d’ordinateur) et les fournisseurs à utiliser dans le service de journalisation centralisée. À l’aide de scénarios, vous activez ou désactivez le suivi des fournisseurs (par exemple, S4, SIPStack, messagerie instantanée et présence). En configurant un scénario, vous pouvez regrouper tous les fournisseurs d’une collection logique donnée qui répondent à une condition de problème spécifique. Si vous trouvez qu’un scénario doit être modifié pour répondre à vos besoins de dépannage et de journalisation, les outils de débogage Skype Entreprise Server 2015 vous fournissent un module Windows PowerShell nommé ClsScenarioEdit.psm1 qui contient une fonction nomméeEdit-CsClsScenario. Grâce à ce module, vous pouvez modifier les propriétés du scénario nommé. Des exemples d’utilisation de ce module sont fournis dans cette rubrique. Téléchargez Skype Entreprise Server outils [de](https://go.microsoft.com/fwlink/p/?LinkId=285257) débogage 2015 avant d’aller plus loin.
   

@@ -12,19 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Conseil pratique pour le déploiement de fonctionnalités vocales cloud dans Teams pour enregistrer des réunions et des appels de groupe Teams pour capturer l’activité audio, vidéo, et le partage d'écran.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531014"
+ms.locfileid: "58620700"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -240,7 +240,7 @@ Si un enregistrement de réunion ne peut pas être chargé sur OneDrive Entrepri
 
 Les enregistrements de réunion peuvent se retrouver dans ce stockage temporaire pour les raisons suivantes :
 
-- Pour les réunions hors canal si l’enregistrement utilisateur n’a pas de configuration de OneDrive Entreprise ou si le OneDrive Entreprise a atteint son quota de stockage
+- Pour les réunions hors canal si l’enregistrement de l’utilisateur n’a pas de configuration OneDrive Entreprise ou si OneDrive Entreprise a atteint son quota de stockage
 - Pour une réunion de canal si le site SharePoint Online a atteint son quota de stockage ou si le site n’a pas encore été approvisionné
 - Si des stratégies OneDrive Entreprise et SharePoint Online spécifiques sont activées, cela empêche les utilisateurs de charger des fichiers lorsqu’ils ne se trouvent pas sur des plages d’adresses IP spécifiques, etc.
 
@@ -263,7 +263,7 @@ La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien compre
 > 
 > Nous fournissons des informations sur le fonctionnement de cette fonctionnalité dans l’avenir, afin que vous puissiez planifier cette modification et modifier les paramètres de stratégie Teams à l’avance. 
 >
-> La CMD permettant de modifier de manière préemptive le paramètre MeetingExpirationDays dans Teams (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) n'est pas encore disponible.  Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié.
+> La commande CMD permettant de modifier à titre préventif le paramètre MeetingExpirationDays dans Teams (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) n'est pas encore disponible.  Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié.
 >
 >
 
@@ -291,7 +291,7 @@ Les clients ont envoyé des commentaires excessifs indiquant qu’ils souhaitent
   
 Nous pensons que presque tous les clients tireront parti de la charge de stockage réduite sur leur locataire en supprimant les enregistrements qui ne seront probablement jamais revus après 60 jours. Notre objectif est de fournir une expérience aussi propre que possible à tous les clients par défaut. 
   
-**Sera-t-elle automatiquement supprimée après 30 jours, même si les données sont accessibles ou téléchargées ?**
+**Sera-t-il automatiquement supprimé même si les données sont accessibles ou téléchargées ?**
   
 L’accès au fichier ne modifie pas la date d’expiration. 
   
@@ -309,18 +309,18 @@ Oui, la date d’expiration est définie par fichier. Les utilisateurs peuvent m
 
 **Comment un administrateur peut-il modifier la date d’expiration ?**
   
-Les administrateurs pourront modifier le paramètre d'expiration par défaut dans PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) ou dans le centre d'administration Teams avant la sortie de la fonctionnalité. Le paramètre n’est pas encore disponible pour modification. Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
+Les administrateurs pourront modifier le paramètre d’expiration par défaut dans PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) ou le Centre d’administration Teams avant la publication de la fonctionnalité. Le paramètre n’est pas encore disponible pour modification. Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
 
-Les valeurs de jours d’expiration peuvent être définies comme suit :
+Les valeurs de jours d’expiration peuvent être définies comme suit :
   
-- La valeur peut être de 1 à 99 999 (273 ans max).
+- La valeur peut être de 1 à 99 999 (273 ans maximum).
 - La valeur peut également être -1 pour que TMR n’expire jamais. 
  
 Les administrateurs ne peuvent pas modifier la date d’expiration des tmrs existants déjà chargés sur OneDrive ou SharePoint avant la publication de cette fonctionnalité. Cela protège l’intention de l’utilisateur propriétaire du TMR. 
   
-**Un administrateur peut-il définir les tmR pour qu’ils n’expirent jamais?**
+**Un administrateur peut-il définir les TMR pour qu’ils n’expirent jamais ?**
   
- Oui, les administrateurs peuvent configurer les tmR pour qu’ils n’expirent jamais via l’let PowerShell suivante : (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
+ Oui, les administrateurs peuvent configurer les TMR pour qu’ils n’expirent jamais via la cmdlet PowerShell suivante : (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
   
 **La lecture de l’enregistrement modifie-t-elle la date d’expiration ?**
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Résumé : Découvrez comment installer une mise à jour ou un correctif sur un serveur principal dans Skype Entreprise Server.'
-ms.openlocfilehash: 6da04dda24400e8dfa00bcaac5d3620cbf6509a5f4bef2d7d988682597b732f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2b7292b71f57d7396c5b90bce3746b73b98f6f43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619750"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Patch or update a Back End Server or Édition Standard server in Skype Entreprise Server
  
@@ -51,7 +51,7 @@ Si un serveur principal est arrêté durant au moins 30 minutes lors de sa mis
     
 7. Installez la mise à jour.
     
-8. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise,** puis sur Skype Entreprise Server **Management Shell.**
+8. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise,** puis sur Skype Entreprise Server **Management Shell.**
     
 9. Arrêtez Skype Entreprise Server services pour capturer les assemblys GAC (Global Assembly Cache) -d. À partir de la ligne de commande, tapez :
     
@@ -73,7 +73,7 @@ Si un serveur principal est arrêté durant au moins 30 minutes lors de sa mis
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     ```
 
-    - S’il s’agit d’Êdition Entreprise principal et qu’il existe des bases de données c c colloquées sur ce serveur, tapez ce qui suit sur une ligne de commande :
+    - S’il s’agit d Êdition Entreprise serveur principal et qu’il existe des bases de données c c colloquées sur ce serveur, tapez ce qui suit sur une ligne de commande :
     
     ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores

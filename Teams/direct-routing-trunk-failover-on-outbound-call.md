@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lisez cette rubrique pour découvrir comment gérer les failovers de ligne lors des appels sortants d’un Teams vers le contrôleur de session border Controller (SBC).
-ms.openlocfilehash: 874372c27a88a912d575317fa9ab960ff9b2d4ccfe8eb7e280425667826e9f1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 878a4735585ee183f0156b44c253b079c2e6e24c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619450"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Basculement de jonction sur les appels sortants
 
@@ -29,7 +29,7 @@ Cette rubrique explique comment éviter les failovers de ligne lors des appels s
 
 ## <a name="failover-on-network-errors"></a>Failover on network errors
 
-Si aucune ligne ne peut être connectée pour une raison quelconque, la connexion à la même ligne est essayée à partir d’un autre centre de données Microsoft. Par exemple, une ligne n’est peut-être pas connectée si une connexion est refusée, s’il y a un délai d’émission du TLS ou s’il existe d’autres problèmes au niveau du réseau.
+Si, pour une raison quelconque, une ligne ne peut pas être connectée, la connexion à la même ligne est essayée à partir d’un autre centre de données Microsoft. Par exemple, une ligne n’est peut-être pas connectée si une connexion est refusée, s’il y a un délai d’émission du TLS ou s’il existe d’autres problèmes au niveau du réseau.
 Par exemple, une connexion peut échouer si un administrateur limite l’accès au SBC uniquement à partir d’adresses IP connues, mais oublie de placer les adresses IP de tous les centres de données de routage Microsoft Direct sur la liste de contrôle d’accès (ACL) du SBC. 
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Over de codes SIP spécifiques reçus du contrôleur de bordure de session (SBC)
@@ -40,9 +40,9 @@ La liste des codes SIP est également répertoriée dans le protocole [SIP (Sess
 
 Supposons qu’un SBC a répondu à une invitation entrante avec le code « Délai d’appel 408 : le serveur ne pouvait pas produire de réponse dans un délai approprié, par exemple, s’il ne pouvait pas déterminer l’emplacement de l’utilisateur à temps. Le client PEUT répéter la demande sans modification ultérieurement ».
 
-Ce SBC particulier peut avoir des difficultés de connexion au contact de l’appelant, peut-être en raison d’une configuration réseau mal configurée ou d’une autre erreur. Toutefois, il existe un autre SBC dans l’itinéraire, qui pourra peut-être joindre l’appelé.
+Ce SBC particulier peut avoir des difficultés de connexion au contact de l’appelant, peut-être en raison d’une configuration mal configurée du réseau ou d’une autre erreur. Toutefois, il existe un autre SBC dans l’itinéraire, qui pourra peut-être joindre l’appelé.
 
-Dans le diagramme suivant, lorsqu’un utilisateur appelle un numéro de téléphone, deux SCS peuvent potentiellement remettre cet appel dans l’itinéraire. Au début, SBC1.contoso.com est sélectionné pour l’appel, mais SBC1.contoso.com n’est pas en mesure d’accéder à un réseau PTSN en raison d’un problème de réseau.
+Dans le diagramme suivant, lorsqu’un utilisateur appelle un numéro de téléphone, deux SCS peuvent potentiellement fournir cet appel dans l’itinéraire. Au début, SBC1.contoso.com est sélectionné pour l’appel, mais SBC1.contoso.com n’est pas en mesure d’accéder à un réseau PTSN en raison d’un problème de réseau.
 Par défaut, l’appel sera effectué à ce moment-là. 
  
 ![Diagramme montrant SBC ne parvient pas à joindre PSTN en raison d’un problème de réseau](media/direct-routing-failover-response-codes1.png)

@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Résumé : Découvrez comment gérer les numéros d’accès aux conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: 58e4de5a2c429a5e36a43f90793fc1e12939b1d235b846ae8db372a2b13d8135
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd1d32ff82fc7bd922acfaea567780b5683eb684
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302498"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621070"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gérer les numéros d’accès aux conférences dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment gérer les numéros d’accès aux conférences téléphoniques Skype Entreprise Server.
+**Résumé :** Découvrez comment gérer les numéros d’accès aux conférences téléphoniques dans Skype Entreprise Server.
   
 Lorsque vous déployez des conférences rendez-vous, vous devez configurer les numéros de téléphone que les utilisateurs peuvent appeler à partir du réseau téléphonique commuté pour participer à la partie audio des conférences. Ces numéros apparaissent dans les invitations à une réunion et sur la page Web des paramètres de configuration des conférences rendez-vous. 
   
@@ -37,7 +37,7 @@ Vous pouvez afficher les numéros d’accès aux conférences à l’aide Skype 
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis cliquez sur Numéro d’accès à **la conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Numéro d’accès à **la conférence.**
     
 4. Dans la page **Numéro d’accès entrant**, cliquez sur le numéro d’accès à afficher.
     
@@ -82,7 +82,7 @@ Vous pouvez modifier les numéros d’accès à l’Skype Entreprise Server à l
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis cliquez sur Numéro d’accès à **la conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Numéro d’accès à **la conférence.**
     
 4. Dans **la** page Numéro d’accès, cliquez sur l’un des numéros d’accès à la connexion dans la liste, cliquez sur **Modifier,** puis cliquez sur Afficher **les détails.**
     
@@ -93,7 +93,7 @@ Vous pouvez modifier les numéros d’accès à l’Skype Entreprise Server à l
     
     Ce numéro s’affiche dans les invitations aux réunions et sur la page web Paramètres conférence rendez-vous.
     
-6. Dans **Nom d’affichage,** tapez une description pour le numéro d’accès à la connexion. Il s’agit du nom associé au numéro d’accès à la connexion dans les Skype Entreprise de recherche.
+6. Dans **nom d’affichage,** tapez une description pour le numéro d’accès à la connexion. Il s’agit du nom associé au numéro d’accès à la connexion dans les Skype Entreprise de recherche.
     
     Ce nom s’affiche dans le client lorsqu’un utilisateur appelle le numéro d’accès. 
     
@@ -120,7 +120,7 @@ Vous pouvez modifier les numéros d’accès à l’Skype Entreprise Server à l
     
     La langue principale est la langue que le Assistant de conférence utilise pour répondre à l’appel. Les langues prise en charge sont affichées avec chaque numéro de téléphone d’accès sur la page web conférence Paramètres conférences.
     
-11. (Facultatif) Dans **les langues** secondaires (quatre au maximum), cliquez sur Ajouter, sélectionnez une ou plusieurs langues supplémentaires que vous souhaitez prendre en charge pour les appelants de ce numéro d’accès à la conférence, puis cliquez sur  **OK.** 
+11. (Facultatif) Dans **les langues** secondaires (maximum de quatre) , cliquez sur Ajouter, sélectionnez une ou plusieurs langues supplémentaires que vous souhaitez prendre en charge pour les appelants à ce numéro d’accès, puis cliquez sur  **OK.** 
     
     Vous pouvez choisir jusqu’à quatre langues secondaires pour chaque numéro d’accès à la connexion. Les utilisateurs peuvent sélectionner une langue secondaire avant d’entrer l’ID de conférence lorsqu’ils participent à une conférence.
     
@@ -150,7 +150,7 @@ Pour plus d’informations, [voir Set-CsDialInConferencingAccessNumber](/powersh
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>Supprimer un numéro d’accès aux conférences téléphoniques
 
-Vous pouvez supprimer un numéro d’accès aux conférences à l’aide du Panneau de Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Vous pouvez supprimer un numéro d’accès aux conférences téléphoniques à l’aide du Panneau de Skype Entreprise Server ou de l’Skype Entreprise Server Management Shell.
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Supprimer un numéro d’accès aux conférences conférences à l’aide Skype Entreprise Server panneau de bord
 
@@ -158,7 +158,7 @@ Vous pouvez supprimer un numéro d’accès aux conférences à l’aide du Pann
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis cliquez sur Numéro d’accès à **la conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Numéro d’accès à **la conférence.**
     
 4. Dans la page, cliquez sur le numéro de connexion à supprimer dans la liste, cliquez sur **Modifier,** puis cliquez sur **Supprimer.**
     

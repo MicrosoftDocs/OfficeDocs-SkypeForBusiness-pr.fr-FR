@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams pour l’Irlande.
-ms.openlocfilehash: 3db7e8c9e8eb49da2825777dc831ede2892c56a8738943af5637c6578efa4070
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 068f5eb40a034043451b19bd1eb65c89b4f59efd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318507"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619520"
 ---
 # <a name="availability-in-ireland"></a>Disponibilité en Irlande
 
@@ -60,7 +60,7 @@ Voici les services Microsoft 365 et Office 365 pour les services Skype Entrepris
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Les forfaits d'appels sont-ils disponibles à l'achat ?  <br/> |Oui  <br/> |
-|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1 200 minutes d’appels nationaux -OU- 600 minutes d’appels internationaux (selon ce qui arrive en premier dans le mois calendaire)</li></li> 
+|Minutes disponibles pour les forfaits d'appels. |Quatre options de forfait sont disponibles par mois civil : <ul><li>Forfait d'appels nationaux de 120 minutes </li><li>Forfait d'appels nationaux de 240 minutes</li></li><li>Forfait d'appels nationaux de 1200 minutes </li></li><li>Forfait d’appels nationaux et internationaux : 1 200 minutes d’appels nationaux - OU - 600 minutes d’appels internationaux (selon ce qui arrive en premier dans le mois calendaire)</li></li> 
 |Est-il possible de passer des appels sortants vers les numéros premium ? <br/> | Ceci n’est pas pris en charge pour le moment. <br/> |
 |Est-il possible de passer des appels sortants ?  <br/> | Vers 196 pays, dont [ :](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    

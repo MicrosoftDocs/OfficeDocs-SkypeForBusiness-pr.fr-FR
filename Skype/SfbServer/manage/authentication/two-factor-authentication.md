@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Résumé : Gérez l’authentification à deux facteurs dans Skype Entreprise Server.'
-ms.openlocfilehash: db40d3c2f899ec40ba01e0a45304e147513b9c03
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b354c99b4e02536ff3db2043ec18fcd092d766e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235509"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621100"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gérer l’authentification à deux facteurs dans Skype Entreprise Server
  
@@ -101,7 +101,7 @@ Valeur : 0x0
   
 ## <a name="ad-fs-20-token-replay"></a>Relecture de jeton AD FS 2.0
 
-AD FS 2.0 fournit une fonctionnalité appelée détection de relecture de jeton, grâce à laquelle plusieurs demandes de jeton utilisant le même jeton peuvent être détectées, puis ignorées. Lorsque cette fonctionnalité est activée, la détection de relecture de jeton protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil SAML WebSSO en vous assurez que le même jeton n’est jamais utilisé plusieurs fois.
+AD FS 2.0 fournit une fonctionnalité appelée détection de relecture de jeton, grâce à laquelle plusieurs demandes de jeton utilisant le même jeton peuvent être détectées, puis ignorées. Lorsque cette fonctionnalité est activée, la détection de relecture de jeton protège l’intégrité des demandes d’authentification dans le profil passif WS-Federation et le profil SAML WebSSO en vous assurer que le même jeton n’est jamais utilisé plusieurs fois.
   
 Cette fonctionnalité doit être activée dans les situations où la sécurité est un problème très important, par exemple lors de l’utilisation de bornes. Pour plus d’informations sur la détection de relecture de jeton, voir [Best Practices for Secure Planning and Deployment of AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10)).
   

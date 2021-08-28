@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: Cette rubrique traite des considérations de planification pour l’utilisation Skype Entreprise lors de la connexion à un bureau virtuel distant.
-ms.openlocfilehash: 84a7c289b9c2cc284209861dca35921142fd87e16b3de3b1e42b6c82fb2b8eba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b169db870ad652dcf8b64552d9351e47e7117bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318757"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621010"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planifier les Skype Entreprise dans les environnements VDI
  
@@ -73,7 +73,7 @@ Vous pouvez trouver une discussion complète des fonctionnalités et des technol
 
 Avec la solution de plug-in Microsoft Lync VDI, l’utilisateur doit se trouver sur un ordinateur Windows ou un client léger et installer le plug-in Lync VDI de Microsoft pour gérer les flux audio/vidéo du client sur le bureau virtuel. Un utilisateur :
   
-1. Connecter un périphérique audio/vidéo (tel qu’un casque ou un appareil photo) sur un ordinateur local.
+1. Connecter un périphérique audio/vidéo (comme un casque ou un appareil photo) sur un ordinateur local.
     
 2. Connecter sur un bureau virtuel distant avec un client Lync 2013 Skype Entreprise 2015.
     
@@ -89,7 +89,7 @@ Pour plus d’informations, ez les liens suivants :
   
 - [Technologies de virtualisation et limitations connues pris en charge](vdi-environments.md#Supported_virt)
     
-- [Conditions préalables du plug-in Lync VDI](vdi-environments.md#VDI_prereq)
+- [Conditions préalables pour le plug-in Lync VDI](vdi-environments.md#VDI_prereq)
     
 - [Déployer le plug-in Lync VDI avec Skype Entreprise Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
@@ -114,7 +114,7 @@ Le plug-in Lync VDI ne prend pas en charge les autres technologies de virtualisa
   
 Le plug-in Lync VDI a été conçu pour utiliser des API indépendantes de la plateforme appelées canaux virtuels dynamiques (DVCs). Pour les scénarios qui ne sont pas explicitement pris en charge, reportez-vous aux instructions de support du fournisseur de solutions VDI.
   
-#### <a name="lync-vdi-plug-in-prerequisites"></a>Conditions préalables du plug-in Lync VDI
+#### <a name="lync-vdi-plug-in-prerequisites"></a>Conditions préalables pour le plug-in Lync VDI
 <a name="VDI_prereq"> </a>
 
 Dans un environnement VDI, les ordinateurs virtuels et l’ordinateur local de l’utilisateur doivent répondre aux exigences décrites dans cette section.
@@ -124,7 +124,7 @@ Dans un environnement VDI, les ordinateurs virtuels et l’ordinateur local de l
   
 Les ordinateurs virtuels doivent être configurés avec Windows 8, Windows 7 ou Windows Server 2008 R2 avec les Derniers Service Packs.
   
-L’ordinateur local de l’utilisateur doit respecter les conditions suivantes :
+L’ordinateur local de l’utilisateur doit répondre aux exigences suivantes :
   
 - L’utilisateur doit être Skype Entreprise Server ou Lync Server 2013.
     
@@ -132,7 +132,7 @@ L’ordinateur local de l’utilisateur doit respecter les conditions suivantes 
     
 - Si vous utilisez les services Bureau à distance, choisissez le plug-in Lync VDI 32 bits ou 64 bits pour correspondre au système d’exploitation de l’ordinateur local. Il n’est pas nécessaire que l’ordinateur local et la machine virtuelle ont des systèmes d’exploitation 32 bits ou 64 bits. Si vous utilisez une autre solution ou plateforme de virtualisation, reportez-vous aux exigences de votre fournisseur.
     
-- L’ordinateur local doit être en cours d’exécution [de la dernière version du client bureau à distance.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) Installez les dernières mises à jour du client Services Bureau à distance à partir de Microsoft ou le dernier logiciel client bureau à distance à partir de votre fournisseur de solutions de virtualisation. 
+- L’ordinateur local doit être en cours d’exécution [de la dernière version du client bureau à distance.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) Installez les dernières mises à jour du client Des services Bureau à distance à partir de Microsoft ou le dernier logiciel client bureau à distance à partir de votre fournisseur de solutions de virtualisation. 
     
 - Sur l’ordinateur local, les paramètres du client Bureau à distance doivent être configurés pour que l’audio soit l’écoute sur l’ordinateur local et que l’enregistrement à distance soit désactivé. Pour configurer ces paramètres pour la connexion Bureau à distance dans Windows, consultez la section suivante, « Pour configurer les paramètres de connexion Bureau à distance ». 
     
@@ -164,7 +164,7 @@ Il n’existe pas de prise en charge pour les fonctionnalités suivantes :
 Le plug-in Lync VDI n’est pas pris en charge dans Microsoft 365 ou Office 365 environnements.
   
 > [!NOTE]
-> Le pack d’optimisation Citrix RealTime prend en charge Microsoft 365 et Office 365. Pour les environnements virtuels citrix, examinez la documentation [de](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) Présentation technique de Citrix pour obtenir la liste des fonctionnalités et versions pris en charge.
+> Le pack d’optimisation Citrix RealTime prend en charge Microsoft 365 et Office 365. Pour les environnements virtuels Citrix, examinez la documentation [De](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) présentation technique de Citrix pour obtenir la liste des fonctionnalités et versions pris en charge.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="Citrix_RT"> </a>

@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de session en bordure (SBC) pour servir plusieurs clients à des partenaires Microsoft et/ou des opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf5ec69e539796bb68325679da41c0954c3d6da6
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 824b550200fcb04ecf26ec6f939515586ec64544
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398963"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619490"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -126,14 +126,14 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
     ![Capture d’écran montrant la page Ajouter un domaine](media/direct-routing-2-sbc-add-domain.png)
 
 3. Cliquez sur **Suivant**.
-4. Dans l’exemple, le client a déjà adatum.biz nom de domaine vérifié. L’Assistant ne demande pas de vérification supplémentaire, customers.adatum.biz est un sous-domaine du nom déjà enregistré. Toutefois, si vous ajoutez un FQDN qui n’a pas été vérifié auparavant, vous devrez passer par le processus de vérification. Le processus de vérification est décrit [ci-dessous.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
+4. Dans l’exemple, le client a déjà adatum.biz nom de domaine vérifié. L’Assistant ne demande pas de vérification supplémentaire, customers.adatum.biz est un sous-domaine du nom déjà enregistré. Toutefois, si vous ajoutez un FQDN qui n’a pas été vérifié auparavant, vous devrez passer par le processus de vérification. Le processus de vérification est [décrit ci-dessous.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
 
     ![Capture d’écran montrant la confirmation d’un nom de domaine vérifié](media/direct-routing-3-sbc-verify-domain.png)
 
 5. Cliquez **sur Suivant,** puis sur la page Mettre Paramètres **DNS** à jour, je sélectionne J’ajoute les enregistrements **DNS** moi-même, puis je clique sur **Suivant.**
 6. Dans la page suivante, effacer toutes les valeurs (sauf si vous voulez utiliser le nom de domaine pour Exchange, SharePoint ou Teams/Skype Entreprise), cliquez sur **Suivant,** puis sur **Terminer.** Assurez-vous que votre nouveau domaine est dans l’état final du programme d’installation.
 
-    ![Capture d’écran montrant les domaines dont l’état est terminé](media/direct-routing-14-sbc-setup-complete.png)
+    ![Capture d’écran montrant les domaines dont l’état d’installation est terminé](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>Activer le nom de domaine
 

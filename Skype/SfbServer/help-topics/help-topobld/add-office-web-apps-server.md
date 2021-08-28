@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddOfficeWebAppsServerPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: 'L’Assistant Définir Office Web Apps Server définit une nouvelle Office Web Apps Server dans votre déploiement. Vous devez fournir les informations suivantes :'
-ms.openlocfilehash: e72ff910b0ad299de9bbd5599aa64c338531024d0c1a41182567a67c8373ec3d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 830156c8e3f77baa1a63bf90b190a5929e0401af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343598"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621286"
 ---
 # <a name="add-office-web-apps-server"></a>Ajouter Office Web Apps Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "54343598"
 > [!TIP]
 > Le comportement par défaut de l’URL de découverte **Office Web Apps Server** consiste à créer l’URL en fonction du nom de domaine Office Web Apps Server au format : `https://<FQDN of the Office Web Apps Server/hosting/discovery` Dans la plupart des cas, vous ne devrez pas modifier le format par défaut. Vous devrez peut-être modifier le format par défaut si le serveur Office Web Apps Server et l’URL de découverte Office Web Apps Server doivent être différents. Par exemple, votre Office Web Apps Server est placé dans le réseau de périmètre et aura une URL différente en fonction de l’emplacement.
 
- Office Web Apps Server est déployé sur un réseau externe **(périmètre/Internet)**: cochez la case si votre serveur Office Web Apps Server est placé en dehors de votre pare-feu interne, tel que le réseau de périmètre, le réseau externe ou toute autre zone réseau qui n’est pas la même que votre réseau interne.
+ Office Web Apps Server est déployé dans un réseau externe **(périmètre/Internet)**: cochez la case si votre serveur Office Web Apps Server est placé en dehors de votre pare-feu interne, tel que le réseau de périmètre, le réseau externe ou toute autre zone réseau qui n’est pas la même que votre réseau interne.
 
 ## <a name="see-also"></a>Voir aussi
 

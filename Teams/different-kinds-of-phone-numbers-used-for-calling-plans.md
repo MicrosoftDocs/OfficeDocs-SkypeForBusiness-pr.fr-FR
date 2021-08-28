@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir les différents types de numéros de téléphone Microsoft Teams pour les plans d’appels.
-ms.openlocfilehash: 13619651f9412234d9c619a0b574c2fbf332df54c7a51c0590d99aca7d91b923
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a565ee1cffd9943ee419907c97ef333b9485451d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284205"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619510"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Différents types de numéros de téléphone utilisés pour les offres d'appel
 

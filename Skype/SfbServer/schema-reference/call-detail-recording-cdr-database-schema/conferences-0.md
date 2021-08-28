@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: L’affichage des conférences fournit des informations relatives aux conférences. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: b7cf9300ca574773b4ffb08a8c32108155a18786d8fec3ae80ddc77398d41ccc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c61a0d9d2d7e1985aa63256be16d9268138ddd83
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351304"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620900"
 ---
 # <a name="conferences-view"></a>Affichage des conférences
  
 L’affichage des conférences fournit des informations relatives aux conférences. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Détails**|
+|**Colonne**|**Type de données**|**Details**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
@@ -35,7 +35,7 @@ L’affichage des conférences fournit des informations relatives aux conférenc
 |**ConferenceEndTime** <br/> |DateHeure  <br/> |Heure de fin de la conférence.  <br/> |
 |**OrganizerUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a organisé la conférence.  <br/> |
 |**OrganizerType** <br/> |nvarchar(256)  <br/> |Type de l’URI de l’utilisateur qui a organisé la conférence. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**OrganizerTenant** <br/> |nvarchar(256)  <br/> |Locataire de l’utilisateur qui a organisé la conférence. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**OrganizerTenant** <br/> |nvarchar(256)  <br/> |Locataire de l’utilisateur qui a organisé la conférence. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
 |**Pool** <br/> |nvarchar(256)  <br/> |Nom de domaine complet du pool ayant hébergé la conférence.  <br/> |
 |**Indicateur** <br/> |smallint  <br/> |Masque de bits qui contient les attributs de la conférence. Les valeurs possibles sont les suivantes :  <br/> 0X01 - Transaction synthétique  <br/> |
    

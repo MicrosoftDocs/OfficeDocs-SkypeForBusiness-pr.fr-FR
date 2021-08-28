@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Résumé : Découvrez le rapport comparatif de la qualité des médias dans Skype Entreprise Server.'
-ms.openlocfilehash: 4ce020e923d66d5d5ee3b8757f3259e35c65ecbb306cbce238d68e8c05351039
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d8c39cd2c416917b8e0cc4dd7d7d911f21ec70c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619810"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Rapport comparatif de la qualité des médias dans Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
   
 **Filtres du rapport comparatif de la qualité des médias**
 
-|**Name**|**Description**|
+|**Nom**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/> |
@@ -49,7 +49,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport compar
   
 **Mesures du rapport comparatif de la qualité des médias**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels.  <br/> |
 |**Dégradation (MOS)** <br/> |Non  <br/> |Niveau moyen de dégradation de la note MOS (note moyenne d’opinion) au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée) ; une valeur inférieure ou égale à 0,5 indique une dégradation acceptable. Historiquement, les scores d’opinion moyennes ont été calculés en faisant évaluer la qualité d’un appel par les utilisateurs sur une échelle de 1 à 5. Skype Entreprise Server utilise un ensemble d’algorithmes pour prédire la façon dont les utilisateurs auraient évalué un appel.  <br/> Les valeurs de dégradation élevées peuvent avoir plusieurs causes : une congestion, un dépassement de la bande passante disponible, une congestion/interférence dans la liaison sans fil ou bien la surcharge d’un serveur multimédia ou d’un système d’extrémité. Ces valeurs se traduisent par une distorsion ou une perte de l’audio.  <br/> |

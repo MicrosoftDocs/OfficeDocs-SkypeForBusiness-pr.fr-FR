@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour les États-Unis.
-ms.openlocfilehash: ecfb6d3ccf33c45a7fb5a34baf2745ef48e291f45159822ed19051a32d17b02f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e03c9c9a2499822a53aa0dc5d122771fda957488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296911"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620690"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilité aux États-Unis
 

@@ -13,25 +13,25 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 14b46f6050b7634513b02cc5eaab11eac5d83f78a8e39b1cdca7cb301e7fa64b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88f928facce4d384e38108c2e9d41820895be7be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326650"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620280"
 ---
 # <a name="conference-organizer-activity-report"></a>Rapport d'activités de l'organisateur de conférence
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
+Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous pouvez utiliser le rapport d' **activité Skype Entreprise** pour visualiser combien de fois vos employés organisent des conférences utilisant la messagerie instantanée, l'audio, la vidéo, le partage d'application, le web la fonction d'appels entrants/sortants tierce et la fonction d'appels entrants/sortants de Microsoft. 
 
 Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) vue d’ensemble des rapports.
   
@@ -44,7 +44,7 @@ Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des 
 
 1. Allez au Centre d’administration pour **>'utilisation**  >  **des rapports.**
     
-2. Dans la page  **Utilisation,** sélectionnez Skype Entreprise activité  > **d’organisateur** de conférences dans la liste Sélectionner **un rapport** sur la gauche. Vous pouvez également cliquer sur Skype Entreprise widget  **d’activité,** puis sur Skype Entreprise activité d’organisateur de conférence dans la **Skype Entreprise d’activités.**
+2. Dans la page  **Utilisation,** sélectionnez Skype Entreprise activité  > **d’organisateur** de conférence dans la liste Sélectionner **un rapport** sur la gauche. Vous pouvez également cliquer sur Skype Entreprise widget  **d’activité,** puis sur Skype Entreprise activité d’organisateur de conférence dans la **Skype Entreprise d’activités.**
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpréter le rapport d'organisateur de conférences Skype Entreprise
 
@@ -89,7 +89,7 @@ L'axe X sur les deux graphiques représente la plage de dates sélectionnée pou
 * **Audio/vidéo** indique le nombre total de conférences audio/vidéo organisées.
 * **Partage d'application** indique le nombre total de conférences en partage d'application organisées. 
 * **Web** indique le nombre total de conférences web organisées. 
-* **Appels** sortants et appels sortants – Tiers indique le nombre total de conférences audio en appel/en sortie organisées avec un fournisseur de services d’audioconférence tiers. 
+* **Appels sortants et** appels sortants – Tiers indique le nombre total de conférences audio en appel/en sortie organisées avec un fournisseur de services d’audioconférence tiers. 
 * **Microsoft affiche le** nombre total de conférences audio en appel/sortant qui ont été organisées. 
 * **Minutes audio/vidéo** indique le nombre total de minutes utilisées lors de conférences audio/vidéo organisées. 
 * **Les minutes d’appels rendez-vous** avec Microsoft indiquent le nombre total de minutes d’appels rendez-vous utilisés lors de réunions organisées avec Microsoft comme fournisseur de services d’audioconférence. 
@@ -103,11 +103,11 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
-- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez consulter le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
+- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez voir le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
     
-- [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
+- [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation basés sur des systèmes d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
     
-- [Skype Entreprise activité de participant à une conférence](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences de messagerie instantanée, audio/vidéo, partage d’application, Web et conférences rendez-vous ou mise en conférence téléphonique pour qui il y a des participants.
+- [Skype Entreprise activité de participant à une conférence](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences de messagerie instantanée, audio/vidéo, partage d’application, Web et conférences rendez-vous ou mise en conférence téléphonique pour participations.
     
 - [Skype Entreprise rapport d’activité P2 P2 P2](peer-to-peer-activity-report.md) Vous pouvez voir le nombre d’utilisation de la messagerie instantanée, de l’audio/la vidéo, du partage d’application et du transfert de fichiers par utilisateur.
     
@@ -119,7 +119,7 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

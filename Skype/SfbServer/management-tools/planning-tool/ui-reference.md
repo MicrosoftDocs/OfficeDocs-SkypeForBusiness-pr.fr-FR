@@ -10,18 +10,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 8ded9db153aa9bf5388c4afe9957e86bb739be05085e669e8bd36feb472e2ed6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77f3dc8b0d57da5afbaf5156b2b1e98ac975edbe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621020"
 ---
 # <a name="planning-tool-ui-reference"></a>Référence de l’interface utilisateur de l’outil de planification
  
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 Ces rubriques documentent l’interface de l’outil de planification disponible dans le Centre [de téléchargement Microsoft.](https://go.microsoft.com/fwlink/p/?LinkID=282725) 
   

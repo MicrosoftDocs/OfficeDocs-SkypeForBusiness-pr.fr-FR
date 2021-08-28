@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Résumé : Configurez le magasin de contacts unifié pour Exchange Server et Skype Entreprise Server.'
-ms.openlocfilehash: 78953049394391517d229205e711e670701d9f857458673646e4022a178d3843
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3e83f052f866e0d87d27c94fad8c2a7f46f4db0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620100"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurer Skype Entreprise Server pour utiliser le magasin de contacts unifié
  

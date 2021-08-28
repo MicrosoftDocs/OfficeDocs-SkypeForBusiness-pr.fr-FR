@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeFqdnsSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour modifier ou spécifier des Paramètres externes pour les serveurs Edge, vous devez d’abord déterminer si vous allez utiliser des adresses IP distinctes pour l’accès SIP (Session Initiation Protocol), le service Edge de conférence Web et le service Edge audio/vidéo.
-ms.openlocfilehash: 49fddf486877711ebd6ba3b0f20960f475a5268ed9cda81632c3ab21a09b83c7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d75c2154f1c8bc40cc1298052bdf0a095dd199e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328489"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620040"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Expandeur des paramètres de noms de domaine complets du serveur Edge
 

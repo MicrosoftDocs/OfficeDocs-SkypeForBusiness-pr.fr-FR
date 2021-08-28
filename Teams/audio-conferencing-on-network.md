@@ -13,18 +13,18 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Les suivantes décrivent le réseau pour l’audioconférence.
-ms.openlocfilehash: 63a76bd8cb7765816c417d60640d931acbe856bae7c1c7c3531e9598524e59c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d477826c79b1a1630616cc51130348bfb953fa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351224"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620710"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Conférence sur réseau pour l’audioconférence
 
@@ -45,7 +45,7 @@ Avant de configurer la conférence sur réseau, assurez-vous que votre organisat
 
 - Configurer le service d’audioconférence. Pour plus d’informations, [voir Configurer l’audioconférence pour Microsoft Teams.](set-up-audio-conferencing-in-teams.md)
 
-- Configurer votre contrôleur de session border controller (SBC) pour le routage direct. Pour plus d’informations, [voir Planifier le routage direct](direct-routing-plan.md) et Configurer le [routage direct.](direct-routing-configure.md) 
+- Configurer votre contrôleur de session border controller (SBC) pour le routage direct. Pour plus d’informations, [voir Planifier le routage direct et](direct-routing-plan.md) Configurer le [routage direct.](direct-routing-configure.md) 
 
   Si vous configurationnez le routage direct uniquement dans le cadre de l’audioconférence, vous devez seulement effectuer l'« étape 1 : Connecter SBC » pour la conférence sur réseau.
   
@@ -60,7 +60,7 @@ Vous trouverez les numéros de service dans le Centre d’administration Teams s
 > [!NOTE]
 > Cette fonctionnalité n’est pas disponible pour les utilisateurs titulaires d’une licence d’audioconférence à la minute.
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Activer le routage des appels Teams des appels sortants d’une réunion via un routage direct
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Activer le routage des appels sortants Teams des réunions via un routage direct
 
 Teams appels sortants de réunion sont lancés à partir d’une réunion de votre organisation vers des numéros PSTN, y compris les appels de m’appeler et les appels pour amener de nouveaux participants à une réunion. 
 
@@ -152,6 +152,6 @@ Par défaut, Teams utilisateurs peuvent appeler des numéros PSTN au format E.16
 
 Si vous souhaitez activer la numérotation basée sur un numéro de poste par le biais de conférences réseau, vous pouvez configurer des plans de numérotation pour qu’ils correspondent au modèle de numérotation de poste et aux plages de numéros de téléphone du numéro de téléphone de votre organisation. Pour configurer des plans de numérotation, voir [Créer et gérer des plans de numérotation.](create-and-manage-dial-plans.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 

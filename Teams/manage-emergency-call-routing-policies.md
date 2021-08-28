@@ -15,18 +15,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies de routage vocal d’urgence dans Microsoft Teams pour configurer les numéros d’urgence et spécifier la manière dont les appels d’urgence sont acheminés.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: d3266008f5e2c62ead297288a55caf1bbf8b473b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5f6d3f45c2a3a97980bec3eb17ee1f6b35952fe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234509"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619440"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Gérer les stratégies de routage vocal d’urgence pour le routage direct
 
@@ -84,7 +84,7 @@ Voir également [Grant-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/sk
 
 ## <a name="assign-a-custom-emergency-voice-routing-policy-to-a-network-site"></a>Affecter une stratégie personnalisée de routage vocal d’urgence à un site réseau
 
-Utilisez la cmdlet [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) pour affecter une stratégie de routage des appels d’urgence à un site réseau.
+Utilisez la [cmdlet Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) pour affecter une stratégie de routage des appels d’urgence à un site réseau.
 
 Cet exemple montre comment affecter une stratégie appelée Stratégie de routage des appels d’urgence 1 sur le site Site1.
 
@@ -92,7 +92,7 @@ Cet exemple montre comment affecter une stratégie appelée Stratégie de routag
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Gérer les stratégies d’appel d’urgence Teams](manage-emergency-calling-policies.md)
 

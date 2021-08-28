@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Résumé : Affectez un certificat d’authentification de serveur à serveur pour Skype Entreprise Server.'
-ms.openlocfilehash: b3d662dc3d0e18f0aefd1d8e643e09554fc39d652d31ac0bf8ed5540a5e34d8f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e9b618e882a257047a4569e790d96c73bf386b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338148"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621080"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Affecter un certificat d’authentification de serveur à serveur à Skype Entreprise Server
 **Résumé :** Affecter un certificat d’authentification de serveur à serveur pour Skype Entreprise Server.
@@ -66,7 +66,7 @@ Si vous ne voulez pas utiliser Windows PowerShell, vous pouvez aussi faire appel
   
 Une fois que le certificat a été importé sur tous vos serveurs frontux, ce certificat peut être affecté à l’aide de l’Assistant Déploiement Skype Entreprise Server au lieu de Windows PowerShell. Pour affecter un certificat par le biais de l’Assistant Déploiement, effectuez les étapes suivantes sur un ordinateur où l’Assistant est installé :
   
-1. Cliquez sur Démarrer, sur Tous **les programmes, sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
+1. Cliquez sur Démarrer, sur Tous **les programmes, sur Skype Entreprise Server,** puis sur Skype Entreprise Server **De déploiement.**
     
 2. Dans l’Assistant Déploiement, cliquez sur Installer ou mettre **à jour Skype Entreprise Server système.**
     

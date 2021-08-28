@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,18 +16,18 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer Téléphone Microsoft routage direct du système.
-ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d6b767ace4f00e581e99ec73585b0b596029b17e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337412"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619460"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Traduire des numéros de téléphone dans un autre format
 
 Cet article explique comment traduire les numéros des appels entrants et sortants dans un autre format.  Voici l’étape 4 de la procédure de configuration du routage direct :
 
-- Étape 1. [Connecter SBC avec Téléphone Microsoft et valider la connexion](direct-routing-connect-the-sbc.md) 
+- Étape 1. [Connecter SBC avec votre système Téléphone Microsoft données et valider la connexion](direct-routing-connect-the-sbc.md) 
 - Étape 2. [Activer les utilisateurs pour le routage direct, la voix et la messagerie vocale](direct-routing-enable-users.md)   
 - Étape 3. [Configurer le routage vocal](direct-routing-voice-routing.md)
 - **Étape 4. Traduire des nombres dans un autre format**   (cet article)
@@ -53,7 +53,7 @@ Pour attribuer, configurer et lister des règles de manipulation des nombres sur
 
 ## <a name="example-sbc-configuration"></a>Exemple de configuration SBC
 
-Pour ce scénario, ```New-CsOnlinePSTNGateway``` l’cmdlet est exécuté pour créer la configuration SBC suivante :
+Dans ce scénario, ```New-CsOnlinePSTNGateway``` l’cmdlet est exécuté pour créer la configuration SBC suivante :
 
 ```PowerShell
 New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
@@ -72,7 +72,7 @@ Dans les exemples suivants, il y a deux utilisateurs,Soy et Bob. Il s’agit Tea
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Exemple 1 : appel entrant vers un numéro à dix chiffres
 
-Bob appelle Contrôle à l’aide d’un numéro non E.164 à dix chiffres. Bob appelle 2065550100 pour atteindreSinsoin.
+Bob appelle Contrôle à l’aide d’un numéro non E.164 à dix chiffres. Bob compose un 2065550100 pour joindredessoy.
 SBC utilise des 2065550100 dans les en-têtes RequestURI et To 4255550100'en-tête De.
 
 
@@ -80,7 +80,7 @@ SBC utilise des 2065550100 dans les en-têtes RequestURI et To 4255550100'en-tê
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:2065550100@sbc.contoso.com|INVITE sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
 |À    |À: \<sip:2065550100@sbc.contoso.com>|À: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
-|De   |De: \<sip:4255550100@sbc.contoso.com>|De: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
+|DE   |DE: \<sip:4255550100@sbc.contoso.com>|DE: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Exemple 2 : appel entrant vers un numéro à quatre chiffres
 
@@ -92,21 +92,21 @@ SBC utilise 0100 dans les en-têtes RequestURI et To 4255550100'en-tête De.
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:0100@sbc.contoso.com          |INVITE sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164TtleAreaCode'        |
 |À    |À: \<sip:0100@sbc.contoso.com>|À: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164TtleAreaCode'         |
-|De   |De: \<sip:4255550100@sbc.contoso.com>|De: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
+|DE   |DE: \<sip:4255550100@sbc.contoso.com>|DE: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Exemple 3 : appel sortant avec un numéro autre que E.164 à dix chiffres
 
 Contrôle appelle Bob à l’aide d’un numéro à dix chiffres. Il compose le 425 555 0100 pour joindre Bob.
 SBC est configuré pour utiliser des numéros non E.164 à dix chiffres pour les utilisateurs Teams et PSTN.
 
-Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envoyer vers l’interface de routage direct. LorsqueSi entre 425 555 0100 dans le client Teams, le numéro est converti en + 14255550100 par le plan de numérotation du pays. Les numéros qui en résultent sont une normalisation cumulative des règles de plan de numérotation et Teams de traduction. Les Teams de traduction suppriment le « + 1 » ajouté par le plan de numérotation.
+Dans ce scénario, un plan de numérotation traduit le numéro avant de l’envoyer vers l’interface de routage direct. Lorsque Tous les deux entrent le numéro 425 555 0100 dans le client Teams, le numéro est converti en + 14255550100 par le plan de numérotation du pays. Les numéros qui en résultent sont une normalisation cumulative des règles de plan de numérotation et Teams de traduction. Les Teams de traduction suppriment le « + 1 » ajouté par le plan de numérotation.
 
 
 |En-tête  |Langue source |En-tête traduit |Paramètre et règle appliqués  |
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:+14255550100@sbc.contoso.com          |INVITE sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRules 'StripPlus1'         |
 |À    |À: \<sip:+14255550100@sbc.contoso.com>|À: \<sip:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRules 'StripPlus1'       |
-|De   |De: \<sip:+12065550100@sbc.contoso.com>|De: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
+|DE   |DE: \<sip:+12065550100@sbc.contoso.com>|DE: \<sip:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRules 'StripPlus1'         |
 
 ## <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Exemple 4 : appel sortant avec un numéro autre qu’E.164 à quatre chiffres
 
@@ -118,7 +118,7 @@ SBC est configuré pour utiliser des numéros à quatre chiffres autres que E.16
 |---------|---------|---------|---------|
 |RequestURI  |INVITE sip:0100@sbc.contoso.com           |INVITE sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddTtleAreaCode'         |
 |À    |À: \<sip:0100@sbc.contoso.com>|À: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddTtleAreaCode'       |
-|De   |De: \<sip:+12065550100@sbc.contoso.com>|De: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
+|DE   |DE: \<sip:+12065550100@sbc.contoso.com>|DE: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
 
 ## <a name="see-also"></a>Voir aussi
 
