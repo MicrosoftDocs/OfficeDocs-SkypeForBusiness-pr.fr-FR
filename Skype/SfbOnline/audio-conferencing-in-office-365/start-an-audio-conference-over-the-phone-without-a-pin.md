@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez comment activer ou désactiver la possibilité pour des appelants anonymes de se joindre aux réunions dans le centre d’administration Skype entreprise ou à l’aide d’un script PowerShell. '
-ms.openlocfilehash: fc44494c916f8245bf1030c15311ee4e5e01a52382e93c04b9dcd8b29a758428
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5403d984d5e87b929db4d1ebc3c7eeba34f3744c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600859"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Skype Entreprise Online
 
@@ -37,7 +37,7 @@ ms.locfileid: "54318059"
 
 Il peut être frustrant pour des utilisateurs qui se sont donné rendez-vous à une réunion par téléphone d’être placés dans la salle d’accueil de la réunion à l’écoute de la musique, car l’organisateur de la réunion Skype Entreprise n’a pas commencé la réunion. 
   
-Si l’organisateur de la réunion appelle la réunion, un code confidentiel est nécessaire par défaut pour commencer une réunion. Vous pouvez configurer de sorte que tout le monde puisse composer le numéro de téléphone d’une réunion sans être invité à composer un code confidentiel pour commencer la réunion. Le Centre d'administration Skype Entreprise permet d'activer ou de désactiver ce paramètre pour un utilisateur spécifique.
+Si l’organisateur de la réunion appelle la réunion, un code confidentiel est requis par défaut pour commencer une réunion. Vous pouvez configurer de sorte que tout le monde puisse composer le numéro de téléphone d’une réunion sans être invité à composer un code confidentiel pour commencer la réunion. Le Centre d'administration Skype Entreprise permet d'activer ou de désactiver ce paramètre pour un utilisateur spécifique.
   
 Un code confidentiel n’est pas nécessaire pour l’organisateur de la réunion si quelqu’un a commencé la réunion à partir de l Skype Entreprise appe. Un code confidentiel n'est nécessaire que lorsque l'organisateur d'une réunion participe à sa réunion sur un téléphone. Le code confidentiel des réunions est envoyé à l’utilisateur audio lorsqu’il est affecté à la licence **Audioconférence** et activé pour l’audioconférence. Consultez Envoyer [un courrier](send-an-email-to-a-user-with-their-dial-in-information.md) électronique à un utilisateur avec ses informations d’audioconférence et ses courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de [leurs paramètres.](emails-sent-to-users-when-their-settings-change.md)
 
@@ -66,11 +66,11 @@ Un code confidentiel n’est pas nécessaire pour l’organisateur de la réunio
 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Si vous voulez réinitialiser le code confidentiel, consultez Réinitialiser le code confidentiel de [l’audioconférence.](reset-the-audio-conferencing-pin.md)
+- Si vous voulez réinitialiser le code confidentiel, consultez Réinitialiser le code confidentiel [de l’audioconférence.](reset-the-audio-conferencing-pin.md)
     
 - Si l’accès est anonyme ou si vous n’avez pas besoin d’un code confidentiel pour commencer une réunion, est désactivé :
     
-  - Si la réunion n’a pas commencé (il n’y a pas encore de personne dans la réunion) : un appelant sera invité à en être l’organisateur. S’il répond Oui, il est invité à saisir son code confidentiel. Une fois qu’il entre le code confidentiel, la réunion commence et l’utilisateur rejoint la réunion.
+  - Si la réunion n’a pas commencé (il n’y a pas encore de personne dans la réunion) : un appelant sera invité à s’en faire l’organisateur. S’il répond Oui, il est invité à saisir son code confidentiel. Une fois qu’il entre le code confidentiel, la réunion commence et l’utilisateur rejoint la réunion.
     
   - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     
@@ -88,7 +88,7 @@ Un code confidentiel n’est pas nécessaire pour l’organisateur de la réunio
     
   - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour un grand nombre d’utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
@@ -101,6 +101,6 @@ Un code confidentiel n’est pas nécessaire pour l’organisateur de la réunio
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

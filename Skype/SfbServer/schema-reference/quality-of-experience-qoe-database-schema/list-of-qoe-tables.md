@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Le schéma de base de données comprend les tables suivantes.
-ms.openlocfilehash: 02471ddc936c5dc0522e5ea3c9ad3c5f2859c6cd612b2618ace5d1dbe6be1078
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d6d60d06dcb6cbfdde6a4fdbbd2746d00aa8531
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351284"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601269"
 ---
 # <a name="list-of-qoe-tables"></a>Liste des tables de qualité de l’expérience (QoE)
  
@@ -26,7 +26,7 @@ Le schéma de base de données comprend les tables suivantes.
   
 **Tables de prise en charge**
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table AppSharingMetricsThreshold](appsharingmetricsthreshold.md) <br/> |Stocke les valeurs optimales et acceptables pour les mesures de qualité de l’expérience utilisées avec le partage d’application.  <br/> |
 |[Table CodecDescription](codecdescription.md) <br/> |Mappe des identificateurs de codec uniques à leur codec correspondant.  <br/> |
@@ -58,7 +58,7 @@ Le schéma de base de données comprend les tables suivantes.
    
 **Tableaux de données de mesure**
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |[Table AppSharingStream](appsharingstream.md) <br/> |Stocke les mesures de qualité de l’expérience de la transmission réseau utilisée pour le partage d’application. Mesures de qualité de l’expérience de la transmission réseau utilisée pour le partage d’application.  <br/> |
 |[Table Session](session.md) <br/> |Stocke les informations globales sur une session audio ou audio/vidéo. Une session est définie en tant que dialogue SIP audio ou vidéo entre deux points d’extrémité.  <br/> |
@@ -72,7 +72,7 @@ Le schéma de base de données comprend les tables suivantes.
    
 **Tables des données de synthèse**
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |**Table ServerSummary** <br/> |Stocke les données de synthèse pour les serveurs, ces données étant essentiellement utilisées pour les rapports de qualité de l’expérience (QoE).  <br/> |
 |**Table UserSummary** <br/> |Stocke les données de synthèse pour les utilisateurs, ces données étant essentiellement utilisées pour les rapports de qualité de l’expérience (QoE).  <br/> |
@@ -80,7 +80,7 @@ Le schéma de base de données comprend les tables suivantes.
    
 **Tables à utilisation interne par le serveur de surveillance**
 
-|**Tableau**|**Description**|
+|**Table**|**Description**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |À usage interne uniquement.  <br/> |
 |**DbConfigInt** <br/> |À usage interne uniquement.  <br/> |

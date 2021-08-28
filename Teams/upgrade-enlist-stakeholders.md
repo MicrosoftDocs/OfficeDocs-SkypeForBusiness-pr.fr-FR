@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Découvrez comment structurer les parties prenantes de votre organisation pour garantir le succès Microsoft Teams mise à niveau.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f821eb2e00725d484f816edcd352f1aa38934acb868b3468d1c7ef984b03b506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21e08060c61e78919e514a099413f6d70380cf11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308205"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600919"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Inscription des parties prenantes du projet
 
@@ -33,7 +33,7 @@ ms.locfileid: "54308205"
 
 Cet article fait partie de la phase Project participants à la mise à niveau, qui est la première et la plus essentielle à accomplir pour le succès de votre projet.
 
-De l’implémentation des livrables du projet à la conduite de la responsabilité, les parties prenantes gardent la clé pour la réussite de votre projet. Vous devez affecter deux groupes d’intervenants : (1) un soutien d’équipe qui inclut des cadres et cadres délégués qui ont un intérêt direct pour le succès du projet et une influence sur leur succès, et (2) l’équipe de _projet,_ composée des personnes responsables de la préparation technique et utilisateur, qui devront effectuer les différentes tâches du plan de projet.  Le fil de discussion courant entre ces deux groupes est celui du responsable de _projet,_ qui travaille à la réalisation des tâches de projet en respectant les délais, et signale l’état du projet au groupe.
+De l’implémentation des livrables du projet à la conduite de la responsabilité, vos parties prenantes tiennent pour clé la réussite de votre projet. Vous devez affecter deux groupes d’intervenants : (1) un soutien à la direction et aux sponsors de projet qui ont un intérêt direct et une influence direct sur la réussite du projet et (2) l’équipe de _projet,_ constituée des personnes responsables de la préparation technique et utilisateur, qui devront effectuer les différentes tâches du plan de projet.  Le fil de discussion courant entre ces deux groupes est celui du responsable de _projet,_ qui travaille à la réalisation des tâches de projet en respectant les délais, et signale l’état du projet au groupe.
 
 > [!Tip]
 > Prenez le temps d’identifier le sponsor exécutif idéal, quelqu’un qui peut vous aider à définir le ton de votre projet, qui guide par exemple et qui tient les autres responsables. Il doit s’agit d’un cadre supérieur ou d’un cadre ayant autorité sur l’étendue et la vision du projet. Ils doivent également prendre la décision finale de supprimer les bloqueurs et de résoudre les conflits afin de maintenir le projet dans les temps et dans le budget.
@@ -59,13 +59,13 @@ Vous pouvez également créer un comité directeur. Parfois, les projets de gran
 | Directeur de réseau | Fournit des informations sur la conception et l’exécution du réseau |
 | Directeur de la sécurité | Fournit des informations sur la conception, le processus et l’implémentation de la sécurité |
 | Synchronous Communications Lead | Possède les outils de présence, tels que les discussions, les réunions et les appels |
-| Lead asynchrone Collaboration | Possède des outils asynchrones tels que SharePoint, OneDrive, et ainsi de suite. |
-| Directeur de la téléphonie | Fournit des informations sur la conception et l’implémentation de téléphonie |
+| Lead asynchrone Collaboration | Possède des outils asynchrones tels que SharePoint, OneDrive, et ainsi de suite |
+| Directeur de la téléphonie | Fournit des informations sur la conception et l’implémentation téléphoniques |
 | Propriétaire du service/Quality Champion | Propriétaire de l’Teams de l’ensemble, y compris la qualité de l’expérience utilisateur |
-| Lead Sur ordinateurs de bureau et appareils | Fournit des entrées dans les clients, les appareils et les applications de bureau |
+| Lead sur ordinateurs de bureau et appareils | Fournit des entrées dans les clients, les appareils et les applications de bureau |
 | Administrateur Pro/client | Vérifier que la préparation réseau et les configurations Centre d’administration Microsoft 365 sont en place |
 | Responsable du support | Gère la préparation de votre support technique |
-| Responsable de la gestion des changements | Supervise le programme de gestion et d’adoption des changements d’utilisateurs |
+| Avance en matière de gestion des changements | Supervise le programme de gestion et d’adoption des changements d’utilisateurs |
 | Responsable marketing | Conceptions et implémente des campagnes de communication |
 | Lead de formation | Conceptions et mise en œuvre de plans de formation |
 

@@ -9,19 +9,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Les rubriques de cette section vous aident à comprendre comment planifier et déployer des Skype Entreprise Server afin de pouvoir planifier correctement le nombre d’utilisateurs de votre organisation et la charge de serveur générée par leurs activités.
-ms.openlocfilehash: aaa34d4ec935735215da36d888ab3c5155f158b89fd366546eac14b3f6259482
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 090d209d1b60d866ddabe976ffb8b04394712525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600889"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planification de la capacité Skype Entreprise Server 2019
 
-Cet article fournit des instructions sur le nombre de serveurs dont vous avez besoin sur un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans les modèles utilisateur dans [Skype Entreprise Server](../../SfbServer/plan-your-deployment/capacity/user-models.md)
+Cet article fournit des instructions sur le nombre de serveurs dont vous avez besoin sur un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans les modèles utilisateur [dans Skype Entreprise Server](../../SfbServer/plan-your-deployment/capacity/user-models.md)
 
 ## <a name="tested-hardware-platform"></a>Plateforme matérielle testée
 
@@ -34,7 +34,7 @@ Nous avons effectué nos tests de performances sur le matériel décrit dans le 
 |UC  <br/> |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2019.  <br/> |
 |Mémoire  <br/> |32 gigaoctets (Go).  <br/> |
 |Disque  <br/> |SOIT :  <br/> • 8 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (deux disques utilisant RAID 1 et 6 utilisant RAID 10).  <br/> OU  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 8 disques mécaniques 10000 RPM.  <br/> |
-|Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux et les serveurs Édition Standard serveurs. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.  <br/> |
+|Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux et les serveurs Édition Standard serveurs. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.  <br/> |
 
 ## <a name="summary-of-results"></a>Résumé des résultats
 
@@ -57,7 +57,7 @@ Le tableau suivant résume nos recommandations.
 
 Dans un pool frontal, vous devez avoir un serveur frontal pour 6 660 utilisateurs tous les 660 utilisateurs de votre pool, en supposant que l’hyper-threading est activé sur tous les serveurs du pool, que vous utilisez SQL Server Express Edition et que le matériel serveur répond aux recommandations de la configuration serveur requise pour [Skype Entreprise Server 2019](system-requirements.md). Le nombre maximal d’utilisateurs dans un pool frontal est de 106 000, là encore en supposant que l’hyper-threading est activé et que SQL Server Express Edition est utilisé sur tous les serveurs de votre pool. Si vous avez plus de 106 000 utilisateurs sur un site, vous pouvez déployer plusieurs pool frontal.
 
-Lorsque vous comptez le nombre d’utilisateurs dans un pool frontal, incluez tous les utilisateurs qui sont situés sur les Survivable Branch Appliances et les serveurs Survivable Branch Servers des succursales associés à ce pool frontal.
+Lorsque vous comptez le nombre d’utilisateurs dans un pool frontal, incluez tous les utilisateurs qui sont élevés sur les Survivable Branch Appliances et les serveurs Survivable Branch Servers des succursales associés à ce pool frontal.
 
 Lorsqu’un serveur actif est indisponible, ses connexions sont transférées automatiquement aux autres serveurs du pool. Dans un scénario où vous avez 30 000 utilisateurs et cinq serveurs frontaux, si un serveur n’est pas disponible, les connexions de 6 000 de vos utilisateurs doivent être transférées vers vos quatre autres serveurs restants. Ces quatre serveurs restants auront chacun 7 500 utilisateurs, ce qui est un nombre supérieur à celui recommandé.
 
@@ -65,7 +65,7 @@ Si, à la place, vous aviez démarré avec six serveurs frontaux pour vos 30 000
 
 Le nombre maximal d’utilisateurs dans un pool frontal est de 106 000. Le nombre maximal de serveurs frontux dans un pool est de 16.
 
-Pour un pool frontal de 80 000 utilisateurs, 16 serveurs frontaux sont bons pour les performances, dans les déploiements classiques qui suivent les modèles utilisateur dans [Skype Entreprise Server](../../SfbServer/plan-your-deployment/capacity/user-models.md). Les déploiements conçus pour prendre en charge leover de récupération d’urgence supposent qu’un maximum de 53 000 utilisateurs peuvent être hébergés dans chacun des deux pools frontaux couplés, dans lesquels chaque pool dispose de suffisamment de serveurs frontaux pour contenir les utilisateurs dans les deux pools, si un pool doit être retenté sur l’autre.
+Pour un pool frontal de 80 000 utilisateurs, 16 serveurs frontaux sont bons pour les performances, dans les déploiements classiques qui suivent les modèles utilisateur dans [Skype Entreprise Server](../../SfbServer/plan-your-deployment/capacity/user-models.md). Les déploiements conçus pour prendre en charge leover de récupération d’urgence supposent qu’un maximum de 53 000 utilisateurs peuvent être hébergés dans chacun des deux pools frontaux couplés, dans lesquels chaque pool dispose de suffisamment de serveurs frontaux pour contenir les utilisateurs dans les deux pools, si un pool doit être re failed vers l’autre.
 
 Le nombre d’utilisateurs pris en charge avec de bonnes performances par un pool frontal particulier peut différer de ces nombres pour les raisons suivantes :
 
@@ -122,7 +122,7 @@ Lorsque vous comptez le nombre d’utilisateurs pour les directeurs, ajoutez les
 
 Si vous coloyez le serveur de médiation avec un serveur frontal, celui-là s’exécute sur chaque serveur frontal du pool et doit fournir une capacité suffisante pour les utilisateurs du pool.
 
-Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, notamment le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP que vous avez, le nombre d’homologues de passerelle que chaque pool de serveurs de médiation contrôle, le trafic aux heures de pointe via ces passerelles et le pourcentage d’appels avec média qui contournent le serveur de médiation.
+Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, notamment le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP que vous avez, le nombre d’homologues de passerelle que chaque pool de serveurs de médiation contrôle, le trafic aux heures de pointe via ces passerelles et le pourcentage d’appels avec un média qui contourne le serveur de médiation.
 
 Les tableaux suivants fournissent des indications sur le nombre d’appels simultanés qu’un serveur de médiation peut gérer, en supposant que le matériel des serveurs de médiation répond aux exigences des [plateformes matérielles](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) serveur et que l’hyper-thread est activé. Pour plus d’informations sur l’évolutivité du serveur de médiation, voir [Estimateing voice usage and traffic for Skype Entreprise Server](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md) and Deployment guidelines for Mediation Server in [Skype Entreprise Server](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md).
 
@@ -174,17 +174,17 @@ Microsoft a utilisé le matériel du tableau suivant pour le serveur de base de 
 |:-----|:-----|
 |UC  <br/> |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur.  <br/> |
 |Mémoire  <br/> |48 Go  <br/> |
-|Disque  <br/> | SOIT :<br/> • 4 disques durs ou plus de 1 0000 MPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x). <br/>OU <br/>• Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.   <br/> |
+|Disque  <br/> | SOIT :<br/> • 4 disques durs ou plus de 1 0000 MPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x). <br/>OU <br/>• Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.   <br/> |
 |Réseau  <br/> | 1 carte réseau double port, 1 Gbits/s ou plus (2 recommandé, ce qui nécessite une seule adresse MAC et une seule adresse IP).  <br/> |
 
 **Configurations de disque recommandées**
 
 |**Drive** <br/> |**RAID Configuration** <br/> |**Nombre de disques** <br/> |
 |:-----|:-----|:-----|
-|Fichiers de données de base de données cdr, QoE et d’archivage, sur un seul lecteur  <br/> |1+0  <br/> |16   <br/> |
-|Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1  <br/> |2  <br/> |
-|Fichier journal de la base de données QoE  <br/> |1  <br/> |2  <br/> |
-|Fichier journal de la base de données d’archivage  <br/> |1  <br/> |2  <br/> |
+|Fichiers de données de base de données cdr, QoE et d’archivage, sur un seul lecteur  <br/> |1+0  <br/> |16   <br/> |
+|Fichier journal de la base de données d’enregistrement des détails des appels  <br/> |1   <br/> |2   <br/> |
+|Fichier journal de la base de données QoE  <br/> |1   <br/> |2   <br/> |
+|Fichier journal de la base de données d’archivage  <br/> |1   <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>Capacité du serveur d’interconnexion vidéo
 

@@ -9,15 +9,15 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Ces fonctionnalités sont nouvelles Skype Entreprise Server 2019.'
-ms.openlocfilehash: cbdfcd92fbb6fbaefb75024dcb1e393ad5049e636e463bc4ad97588279702151
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b58c61702d447a7b68e9fa7e09cc6e539e682582
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295961"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600899"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Que se passe-t-il Skype Entreprise Server 2019
 
@@ -44,7 +44,7 @@ Pour [plus d’Messagerie vocale infonuagique,](../sfbhybrid/hybrid/plan-cloud-v
 
 Call Data Connector simplifie considérablement la surveillance des appels dans un environnement hybride, car vous n’avez plus besoin d’utiliser différents ensembles d’outils locaux et en ligne pour surveiller la qualité des appels de tous vos utilisateurs.  Que vos utilisateurs soient en local ou en ligne, vous pouvez choisir d’afficher la qualité des appels pour l’ensemble de votre organisation en ligne.
 
-Avec Le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
+Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
 
 - Surveillez votre expérience utilisateur dans Microsoft Teams, Skype Entreprise Online et Skype Entreprise Server.
 - Afficher et résoudre les problèmes sur votre réseau
