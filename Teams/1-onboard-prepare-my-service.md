@@ -12,19 +12,19 @@ ms.reviewer: rowille
 description: Utilisez des listes de contrôle d’intégration pour préparer Microsoft 365 ou Office 365 messagerie pour Teams et configurer vos principales fonctionnalités, votre réseau et Teams charges de travail vocales dans le cloud.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a8aa2818cb2b4be85054f8804fa6a11112c4e8a68cc171e9b9f7191e3f3a5bfd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b42abb1f82dd5e080e98127d15435d3250a73d87
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322916"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590928"
 ---
 # <a name="prepare-my-service"></a>Préparer mon service
 
@@ -32,7 +32,7 @@ Cet article donne une vue d’ensemble des conditions requises pour préparer le
 
 ## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>Listes de contrôle d’intégration pour Microsoft Teams charges de travail vocales
 
-Les listes de contrôle suivantes vous expliquent les étapes d’implémentation des fonctionnalités d’audioconférence, de Système téléphonique avec les plans d’appel (« plans d’appels ») et de routage direct Système téléphonique (« Routage direct ») dans Microsoft Teams.
+Les listes de contrôle suivantes vous expliquent les étapes d’implémentation des fonctionnalités d’audioconférence, de Système téléphonique avec des plans d’appel (« plans d’appels ») et de routage direct Système téléphonique (« Routage direct ») dans Microsoft Teams.
 
 *  [Préparer Microsoft 365 ou Office 365'Teams](onboarding-checklist-enable-office-365.md)
 
@@ -130,7 +130,7 @@ Pour plus d’informations, voir :
 
 ### <a name="execute-the-test-plan"></a>Exécuter le plan de test
 
-[//]: # (Modification d’accord ? « Utilisateur » me paraît un peu ambigu.)
+[//]: # (Modification d’accord ? « Utilisateur » m’a semble-t-il un peu ambigu.)
 Une fois l’environnement utilisateur et le service configurés, la dernière étape du test inclut l’exécution du plan de test, avec l’accent sur la validation des fonctionnalités et des fonctionnalités. 
 
 **Test de l’audioconférence - Conditions préalables et hypothèses pour les utilisateurs et sites dans l’étendue :**

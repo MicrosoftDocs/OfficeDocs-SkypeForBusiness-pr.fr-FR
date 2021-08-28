@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: La cmdlet Renew-CcServerCertificate renouvele les certificats pour les Skype Entreprise Cloud Connector Edition lorsqu’ils sont sur le point d’expirer ou qu’ils ont déjà expiré. Cette commande a été modifiée Update-CcServerCertificate dans Cloud Connector 2.0 et les version ultérieures.
-ms.openlocfilehash: 632807f8d6b8dda7b3df6639e8f6166e8ac5e6a22381646616a0637779a9159a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 564f947462248bb65c8514c9699f2f867312c365
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340730"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589938"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
@@ -67,7 +67,7 @@ Aucun. La cmdlet Renew-CcServerCertificate n’accepte pas la saisie de données
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Néant
+Aucune
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

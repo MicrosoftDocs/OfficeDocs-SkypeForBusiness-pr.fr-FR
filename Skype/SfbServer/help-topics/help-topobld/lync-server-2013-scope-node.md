@@ -1,5 +1,5 @@
 ---
-title: Nœud d’étendue Lync Server 2013
+title: Nœud d’étendue Lync Server 2013
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LyncServer2013ScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server 2015.
-ms.openlocfilehash: 544c843b416f77aeaa2d7683bb3c0be7c1028b155c9356542f08f7f125da087f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a588938cf62de3ebd4be0e8ced442cceaacf9f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297410"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591348"
 ---
-# <a name="lync-server-2013-scope-node"></a>Nœud d’étendue Lync Server 2013
+# <a name="lync-server-2013-scope-node"></a>Nœud d’étendue Lync Server 2013
  
 Les étapes nécessaires pour définir un nouveau vis ou une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans [Skype Entreprise Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   

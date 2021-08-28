@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Résumé : Découvrez le rapport de diagnostic dans Skype Entreprise Server.'
-ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297220"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590148"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic dans Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Le Rapport de diagnostic fournit des informations de diagnostic et de dépannage
     
 ## <a name="accessing-the-diagnostic-report"></a>Accès au Rapport de diagnostic
 
-Le rapport de diagnostic est accessible en cliquant sur la mesure Rapport de diagnostic (détail) dans le rapport détaillé de [session P2E](peer-to-peer-session-detail-report.md) dans Skype Entreprise Server ou le rapport détaillé de conférence.
+Le rapport de diagnostic est accessible en cliquant sur la mesure Rapport de diagnostic (détail) dans le rapport détaillé de [session D’égal](peer-to-peer-session-detail-report.md) à égal dans Skype Entreprise Server ou le rapport détaillé de conférence.
   
 ## <a name="filters"></a>Filtres
 
@@ -45,7 +45,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de dia
   
 **Mesures du rapport de diagnostic**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |
 |**Code de réponse** <br/> |Non  <br/> |Code de réponse SIP envoyé lors de l’échec de session.  <br/> |

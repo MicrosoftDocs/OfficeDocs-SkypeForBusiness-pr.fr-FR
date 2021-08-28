@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: L’affichage ConferenceSessionDetails stocke les informations relatives aux sessions entre plusieurs participants. Chaque enregistrement représente une session de conférence, laquelle peut être la session ayant le focus ou la session basée sur un serveur de conférence spécifique. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: d11573f8911f02001101c2d6f2e13dd5ec2112017ada115282b9c0ed008176f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 49d351030019d6d42862352913b90af68191c19a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337652"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590088"
 ---
 # <a name="conferencesessiondetails-view"></a>Affichage ConferenceSessionDetails
  
 L’affichage ConferenceSessionDetails stocke les informations relatives aux sessions entre plusieurs participants. Chaque enregistrement représente une session de conférence, laquelle peut être la session ayant le focus ou la session basée sur un serveur de conférence spécifique. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Détails**|
+|**Colonne**|**Type de données**|**Details**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
@@ -36,7 +36,7 @@ L’affichage ConferenceSessionDetails stocke les informations relatives aux ses
 |**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |Type du serveur de conférence. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur impliqué dans la session.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Type de l’URI de l’utilisateur qui a participé à la session. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a participé à la session. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a participé à la session. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> |Identificateur unique de l’utilisateur qui a participé à la session.  <br/> |
 |**EndTime** <br/> |DateHeure  <br/> |Heure de fin de la session.  <br/> |
 |**ConferenceClientVersion** <br/> |nvarchar(256)  <br/> |Version du serveur de conférence.  <br/> |
@@ -47,10 +47,10 @@ L’affichage ConferenceSessionDetails stocke les informations relatives aux ses
 |**UserClientCategory** <br/> |nvarchar(64)  <br/> |Nom de la catégorie du client dont s’est servi l’utilisateur qui a participé à la session.  <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur pour le compte duquel la session a été démarrée.  <br/> |
 |**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Type de l’URI de l’utilisateur pour le compte duquel la session a été démarrée. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur pour le compte duquel la session a été démarrée. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur pour le compte duquel la session a été démarrée. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
 |**ReferredByUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a référencé la session.  <br/> |
 |**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Type de l’URI de l’utilisateur qui a référencé la session. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a référencé la session. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a référencé la session. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |ID de dialogue SIP. Le format est le suivant :  <br/> :d ialog;from-tag;to-tag  <br/> |
 |**ReplaceDialogIdTime** <br/> |DateHeure  <br/> |Numéro d’identification permettant d’identifier le dialogue remplacé par la session actuelle. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec ReplacesDialogIdTime pour identifier de manière unique une session remplacée par cette session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |

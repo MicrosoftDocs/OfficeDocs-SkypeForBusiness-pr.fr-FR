@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype Entreprise Server de planification et de configuration pour le partage d’écran vidéo (VbSS)
-ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349276"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591128"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Partage d’écran vidéo pour Skype Entreprise Server 
  
@@ -36,7 +36,7 @@ L’un des objectifs de l’amélioration du partage d’écran est que les tran
 
 Le passage à VbSS vise à apporter trois améliorations clés :
   
-1. Effectuer un partage d’écran (jusqu’à 5 %) est plus fiable que la RDP seule.
+1. Rendre le partage d’écran (jusqu’à 5 %) plus fiable que RDP seul.
 
 2. Accélérer l’installation de la session et l’expérience vidéo par rapport à RDP seul (installation en deux fois plus rapide, avec une amélioration de 6:1 des images par seconde).
 

@@ -12,16 +12,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 description: Pour commencer à fusionner un déploiement hérité avec Skype Entreprise Server 2015, cliquez sur Suivant.
-ms.openlocfilehash: e5eac4fa2107b80cd9f308e949772abd07df9b63798a93d3526b8edd40600db2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b5bd4f904e822b64bb6fa2679666aee002809db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591408"
 ---
-# <a name="legacy-merge-start"></a>Fusion héritée : démarrage
+# <a name="legacy-merge-start"></a>Fusion héritée : démarrage
  
 Pour commencer à fusionner un déploiement hérité avec Skype Entreprise Server 2015, cliquez sur **Suivant**. 

@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Processus de déploiement et étapes de parcage d’appel Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: d6eff3b4474aaa97bb1c1d0b94a08a7f5fdfe4bc02ef104a29acbd5bfe69b3ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1869f7f4ee26e0ad1f81aea44a829a712c3d7298
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280339"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592818"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Processus de déploiement du parcage d’appel Skype Entreprise
  
 Processus de déploiement et étapes de parcage d’appel Skype Entreprise Server Voix Entreprise.
   
-Le parcage d’appel permet à un utilisateur Voix Entreprise de mettre un appel en attente à partir d’un téléphone, puis de le récupérer ultérieurement en composant un numéro interne (appelé numéro d’appel par parcage) à partir de n’importe quel téléphone.
+Le parcage d’appel permet à un utilisateur Voix Entreprise de mettre un appel en attente à partir d’un téléphone, puis de le récupérer ultérieurement en composant un numéro interne (appelé numéro de parcage d’appel) à partir de n’importe quel téléphone.
   
 Les composants que le parcier d’appel utilise sont automatiquement installés et activés sur le serveur frontal ou le serveur Édition Standard lorsque vous déployez Voix Entreprise. Toutefois, vous devez suivre les étapes suivantes pour configurer le parcier d’appel avant qu’il ne soit disponible pour les utilisateurs. 
   

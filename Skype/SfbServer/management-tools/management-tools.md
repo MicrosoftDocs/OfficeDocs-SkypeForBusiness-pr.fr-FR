@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Résumé : Découvrez les outils de gestion des services Skype Entreprise Server 2015.'
-ms.openlocfilehash: ebcd0708b1a7b4b1be90ba36da52246a7fe4d7906259c344e0ed1b3106999f7e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aec5c778068e91b92ca5bd95c4681397c6a4cf8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278392"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591088"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype Entreprise Server 2015 Management Tools
  
@@ -39,7 +39,7 @@ Skype Entreprise Server 2015 (anciennement Lync Server), offre des solutions de 
 |![icône réseau](../media/c74d45da-b10f-43c9-aa80-b1935f45c3ee.png)|[Guide de mise en réseau](https://go.microsoft.com/fwlink/p/?LinkID=390677) <br/> |Logiciel de communication Microsoft Lync Server 2013 et Skype Entreprise 2015 qui permet l’appel audio et vidéo (A/V) D’égal à égal, la conférence et la collaboration et s’appuie sur une infrastructure réseau optimisée et fiable pour fournir des sessions multimédias de haute qualité entre les clients. Le Guide de mise en réseau fournit un modèle de gestion de l’infrastructure réseau pour Skype Entreprise et Lync, composé de trois phases : planification, surveillance et dépannage. Ces phases peuvent s’appliquer aux nouveaux déploiements Lync Skype Entreprise Server Lync ou aux déploiements existants. La modification récente du Guide de mise en réseau a abordé Lync/Skype sur Wi-Fi et la configuration de la stratégie de qualité de service.  <br/> |
 |![Icône presse-papiers](../media/2e0c9c21-cd2a-4db5-8cb7-d2c0b1b159b7.png)|[Service de journalisation centralisée Skype Entreprise 2015](centralized-logging-service/centralized-logging-service.md) <br/> |Le service de journalisation centralisée est un outil puissant de dépannage pour les problèmes de grande ou petite taille, de l’analyse des causes premières aux problèmes de performances. Tous les exemples sont présentés à l’aide Skype Entreprise Server Management Shell. L’aide est fournie pour l’outil en ligne de commande par le biais de l’outil lui-même, mais il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. En utilisant Skype Entreprise Server Management Shell, vous avez accès à un ensemble de fonctionnalités beaucoup plus large et beaucoup plus configurable, ce qui doit toujours être votre premier choix.  <br/> |
 |![Icône SCOM](../media/3a7601cb-dd2f-4606-8a3b-07c7abdc091a.png)|[Gérer Skype Entreprise Server 2015 à l’aide du pack d’administration SCOM](use-scom-management-pack/use-scom-management-pack.md) <br/> |En utilisant Skype Entreprise Server Packs d’administration 2015, vous pouvez identifier et résoudre les problèmes potentiels de manière proactive. De cette façon, les packs d Skype Entreprise Server 2015 étendent les fonctionnalités de System Center Operations Manager.  <br/> |
-|![icône de tableau de bord](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[outil de planification Skype Entreprise Server 2015](planning-tool/planning-tool.md) <br/> |L Skype Entreprise 2015 Planning Tool fournit des instructions normatives pour vous aider à commencer à planifier votre topologie.  <br/> **Remarque :** Cet outil ne sera pas mis à jour Skype Entreprise Server 2019. |
+|![icône de tableau de bord](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[outil de planification Skype Entreprise Server 2015](planning-tool/planning-tool.md) <br/> |L Skype Entreprise 2015 Planning Tool fournit des instructions normatives pour vous aider à planifier votre topologie.  <br/> **Remarque :** Cet outil ne sera pas mis à jour Skype Entreprise Server 2019. |
 |![icône de tableau de bord](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Skype Entreprise Server de planification de capacité 2015](capacity-planning-calculator.md) <br/> |Le Skype Entreprise Server de planification de la capacité 2015 vous permet de modéliser une topologie pour les besoins de votre organisation.  <br/> |
 |![icône réseau](../media/c74d45da-b10f-43c9-aa80-b1935f45c3ee.png)|[Skype Entreprise Server 2015 Stress and Performance Tool](stress-and-performance-tool/stress-and-performance-tool.md) <br/> |Cet outil vous permet d’effectuer divers tests liés aux performances avec la charge utilisateur pour votre environnement Skype Entreprise Server 2015. Des exemples de scripts sont fournis avec l’outil pour vous aider à répondre à vos besoins environnementaux uniques.  <br/>**Remarque :** Cet outil ne sera pas mis à jour Skype Entreprise Server 2019. |
    

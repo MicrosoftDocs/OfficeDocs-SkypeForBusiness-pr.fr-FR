@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Découvrez les services Enhanced 9-1-1 (E9-1-1) dans Skype Entreprise Server Voix Entreprise, notamment l’acquisition d’emplacement et le routage des appels.
-ms.openlocfilehash: 064fd7b02ee9c96b571266046a6f11b03840fa47a8e9c006d6ac5c63db64bc81
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352133"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592508"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planifier les services d’urgence dans Skype Entreprise Server
 
@@ -35,7 +35,7 @@ Skype Entreprise Server prend en charge les services Enhanced 9-1-1 (E9-1-1) aux
 > [!NOTE]
 > Skype Entreprise Server offre trois fonctionnalités Voix Entreprise avancées : le contrôle d’admission des appels, les services d’urgence (E9-1-1) et le contournement de média. Pour une vue d’ensemble des informations de planification communes à ces trois [fonctionnalités,](network-settings-for-advanced-features.md)voir Paramètres réseau pour les fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server .
 
-Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) depuis des clients Skype Entreprise et des appareils Lync Téléphone Edition. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis depuis Skype Entreprise ou Lync Téléphone Edition incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service Informations sur l’emplacement. Les ERL se composent d’adresses géographiques (c’est-à-dire, de rue) et d’autres informations qui permettent d’identifier un emplacement plus précis dans les immeubles de bureaux et d’autres installations multi-clients. Lorsqu’un utilisateur passe un appel d’urgence, Skype Entreprise Server route l’audio de l’appel, ainsi que les informations d’emplacement et de rappel, via un serveur de médiation vers un fournisseur de services E9-1-1. Le fournisseur de services E9-1-1 utilise l’adresse géographique de l’appelant pour router l’appel vers le centre d’appels de la sécurité publique (PSAP) qui sert l’emplacement de l’appelant et envoie le long d’une clé de requête de service d’urgence (ESQK) que le centre d’appels de sécurité publique utilise pour rechercher l’ERL de l’appelant.
+Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) depuis des clients Skype Entreprise et des appareils Lync Téléphone Edition. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis depuis Skype Entreprise ou Lync Téléphone Edition incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service d’informations sur l’emplacement. Les ERL se composent d’adresses géographiques (c’est-à-dire, de rue) et d’autres informations qui permettent d’identifier un emplacement plus précis dans les immeubles de bureaux et d’autres installations multi-clients. Lorsqu’un utilisateur passe un appel d’urgence, Skype Entreprise Server route l’audio de l’appel, ainsi que les informations d’emplacement et de rappel, via un serveur de médiation vers un fournisseur de services E9-1-1. Le fournisseur de services E9-1-1 utilise l’adresse géographique de l’appelant pour router l’appel vers le centre d’appels de la sécurité publique (PSAP) qui sert l’emplacement de l’appelant et envoie le long d’une clé de requête de service d’urgence (ESQK) que le centre d’appels de sécurité publique utilise pour rechercher l’ERL de l’appelant.
 
 Skype Entreprise Server deux méthodes de routage des appels d’urgence vers un fournisseur de services E9-1-1 :
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
 description: LRemove-CcLegacyServerCertificate cmdlet supprime les certificats de serveur hérités sur le magasin central de gestion, le serveur de médiation et le serveur Edge après l’exécution des cmdlets Renew-CcCACertificate ou Renew CcServerCertificate.
-ms.openlocfilehash: 6c1665d0c21e5afd25ed630fc1da4f1987264d9325fec2058981fe91a1edc0bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 93df3e8658cecdb4a6cc8b14d59d61a716dab8fc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288732"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589948"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
@@ -62,7 +62,7 @@ Aucun. La cmdlet Remove-CcLegacyServerCertificate n’accepte pas la saisie de d
 ## <a name="return-types"></a>Types de retour
 <a name="ReturnTypes"> </a>
 
-Néant
+Aucune
   
 ## <a name="see-also"></a>Voir aussi
 <a name="ReturnTypes"> </a>

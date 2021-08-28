@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Suivez les étapes de cette rubrique pour modifier la configuration d’un déploiement Skype Entreprise Cloud Connector Edition 1.4.1 ou ultérieur.
-ms.openlocfilehash: 151408d48f7623d72d5af4f8fef605d9dcc7d690a915cc7e8454a91f051dd0f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d0771e1f6a62015cf040a899c88696016366e47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590008"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modifier la configuration d’un déploiement de Cloud Connector existant
 
@@ -270,7 +270,7 @@ Pour chaque appliance qui appartient au même site PSTN, vous devez spécifier l
     
 9. Exécutez lExit-CcUpdate cmdlet pour sortir l’appliance du mode de maintenance manuelle.
     
-10. Une fois ces étapes terminées sur toutes les appliances du même site PSTN, supprimez les fichiers suivants dans l’annuaire racine du site :
+10. Une fois que vous avez terminé ces étapes sur toutes les appliances du même site PSTN, supprimez les fichiers suivants dans l’annuaire racine du site :
     
     - CcLockFile
     

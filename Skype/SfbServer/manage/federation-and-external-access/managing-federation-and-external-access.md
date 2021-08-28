@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Vous activez et configurez l’accès des utilisateurs externes pour contrôler si les utilisateurs externes pris en charge peuvent collaborer avec des utilisateurs Skype Entreprise Server internes.
-ms.openlocfilehash: f783e0744443a7efb4f59c218789fb05241aa158eaa9fbf6de673a0cd959ff90
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aab0a4c5a3613f285b47a886819d524e37480341
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336834"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590138"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Gestion de la fédération et de l’accès externe aux Skype Entreprise Server
 

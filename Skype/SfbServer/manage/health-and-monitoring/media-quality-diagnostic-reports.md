@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 'Résumé : Découvrez les rapports de diagnostic de la qualité des médias Skype Entreprise Server.'
-ms.openlocfilehash: 3f252fb3871f455f79ea39018b8a87c06c12b3247189541d0a0ec3139dbe15b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 406eb2208b6f2f53e708732f2de751786ab296a2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592548"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Rapports de diagnostic de la qualité des médias dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54290342"
   
 Les rapports de diagnostic de la qualité des médias fournissent des informations sur la qualité des appels, ainsi que des informations de diagnostic et de dépannage pour les appels qui ont échoué.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Rapport de synthèse de la qualité des médias dans Skype Entreprise Server](summary.md) Fournit des données de qualité globales pour différents types de points de terminaison, notamment les appels d’égal à égal Voix Entreprise, les téléconférences Voix Entreprise et les appels qui reposent, du moins en partie, sur le réseau téléphonique commuté (PSTN).
     

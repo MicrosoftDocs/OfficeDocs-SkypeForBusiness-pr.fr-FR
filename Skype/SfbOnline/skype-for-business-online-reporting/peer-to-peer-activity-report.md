@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,18 +22,18 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7616e13f81b2b8ec204409f7a90e275dab795742
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592938"
 ---
 # <a name="peer-to-peer-activity-report"></a>Rapport d'activités pair à pair
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous  pouvez utiliser le Skype Entreprise d’activité P2 PEER pour voir combien de fois vos utilisateurs utilisent la messagerie instantanée, l’audio, la vidéo, le partage d’application et le transfert de fichiers. 
+Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d'explorer les rapports au niveau de chaque produit pour obtenir une vue d'ensemble plus précise des activités qu'ils contiennent. Par exemple, vous  pouvez utiliser le Skype Entreprise d’activité P2 PEER pour voir combien de fois vos utilisateurs utilisent la messagerie instantanée, l’audio, la vidéo, le partage d’application et le transfert de fichiers. 
 
 Consultez la vue [d’ensemble des rapports.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
   
@@ -76,7 +76,7 @@ Vous pouvez obtenir un aperçu de l'activité P2P Skype Entreprise en consultant
 
 L'axe X sur les deux graphiques représente la plage de dates sélectionnée pour ce rapport particulier.
 ***
-![Numéro 7](../images/sfbcallout7.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. Par exemple,  dans le graphique d’activité, cliquez ou appuyez sur Messagerie **instantanée,** **Audio,** **Vidéo,** Partage d’application et Transferts de fichiers pour voir uniquement les informations liées à chacun d’eux.   Changing this selection doesn't change the info in the grid table. 
+![Numéro 7](../images/sfbcallout7.png)<br/>You can filter the series you see on the chart by clicking on an item in the legend. Par exemple,  dans le graphique d’activité, cliquez ou appuyez sur Messagerie **instantanée,** **Audio,** **Vidéo,** Partage d’application et Transferts de fichiers pour voir uniquement les informations relatives à chacune de ces activités.   Changing this selection doesn't change the info in the grid table. 
 ***
 ![Numéro 8](../images/sfbcallout8.png)<br/>Le tableau présente une répartition par utilisateur des activités P2P. Il vous indique tous les utilisateurs auxquels Skype Entreprise a été affecté ainsi que leurs activités P2P. Vous pouvez ajouter des colonnes supplémentaires dans ce tableau.
 *    **Nom d'utilisateur** est le nom de l'utilisateur.
@@ -99,13 +99,13 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
 
-- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez consulter le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
+- [Skype Entreprise d’activité de l’entreprise](activity-report.md) Vous pouvez voir le nombre d’utilisations, d’organisation et de participations de vos utilisateurs à des conférences.
     
-- [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
+- [Skype Entreprise d’utilisation de l’appareil](device-usage-report.md) Vous pouvez voir les appareils, y compris les Windows d’exploitation basés sur des systèmes d’exploitation et les appareils mobiles sur lesquels l’application Skype Entreprise est installée et qui l’utilisent pour la messagerie instantanée et les réunions.
     
 - [Skype Entreprise activité de l’organisateur de conférences](conference-organizer-activity-report.md) Vous pouvez voir combien de fois vos utilisateurs organisent des conférences qui utilisent la messagerie instantanée, l’audio/la vidéo, le partage d’application, le web, la conférence rendez-vous ou la mise en conférence tierce et la mise en conférence/mise en conférence - Microsoft.
     
-- [Skype Entreprise activité de participant à une conférence](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences de messagerie instantanée, audio/vidéo, partage d’application, Web et conférences rendez-vous ou mise en conférence téléphonique pour qui il y a des participants.
+- [Skype Entreprise activité de participant à une conférence](conference-participant-activity-report.md) Vous pouvez voir le nombre de conférences de messagerie instantanée, audio/vidéo, partage d’application, Web et conférences rendez-vous ou mise en conférence téléphonique pour participations.
     
 - [Skype Entreprise les utilisateurs bloqués](users-blocked-report.md) Vous pouvez voir les utilisateurs de votre organisation qui ont été bloqués et ne peuvent plus effectuer d’appels PSTN.
     
@@ -115,7 +115,7 @@ Si la politique de votre organisation vous empêche de consulter les rapports su
 
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

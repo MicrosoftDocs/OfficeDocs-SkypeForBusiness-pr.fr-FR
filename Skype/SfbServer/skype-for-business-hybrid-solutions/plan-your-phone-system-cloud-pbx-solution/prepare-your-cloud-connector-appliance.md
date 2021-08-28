@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Découvrez comment préparer votre appliance Cloud Connector pour le déploiement et l’utilisation avec Système téléphonique (Cloud PBX).
-ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 255b276ebb0d192f876d07e318cf94ccf3698a1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340810"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589998"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Préparation de votre appareil Cloud Connector
 
@@ -87,7 +87,7 @@ Cette section décrit comment obtenir les fichiers d’installation Skype Entrep
    Set-CcSiteDirectory <UNC File path>
    ```
 
-    Si vous déployez la haute disponibilité (HA) pour le site, veillez à exécuter la cmdlet pour définir l’annuaire de sites sur le même emplacement sur chaque serveur hôte au sein du site. 
+    Si vous déployez la haute disponibilité (HA) pour le site, veillez à exécuter l’cmdlet pour définir l’annuaire de sites sur le même emplacement sur chaque serveur hôte du site. 
 
     Lorsque vous vous connectez et déployez chaque appliance dans le site, assurez-vous que votre compte d’connexion actuel dispose du droit d’accès à **l’annuaire de sites.**
 
@@ -105,7 +105,7 @@ Cette section décrit comment obtenir les fichiers d’installation Skype Entrep
    Set-CcApplianceDirectory <File path>
    ```
 
-    L’annuaire d’appliances doit être définie sur un dossier local sur l’appliance. Vous devez uniquement définir **l’annuaire d’équipements** avant de commencer le Skype Entreprise Cloud Connector Edition déploiement. Si vous le modifiez après le déploiement, vous devez redéployer le serveur hôte.
+    L’annuaire d’appliances doit être définie sur un dossier local sur l’appliance. Vous devez uniquement définir **l’annuaire d’appliances** avant de commencer le Skype Entreprise Cloud Connector Edition déploiement. Si vous le modifiez après le déploiement, vous devez redéployer le serveur hôte.
 
     > [!IMPORTANT]
     > Le chemin d’accès au **répertoire d’équipements** ne doit contenir aucun espace.
@@ -124,7 +124,7 @@ Cette section décrit comment obtenir les fichiers d’installation Skype Entrep
     Spécifiez le chemin d’accès complet au certificat externe, y compris le nom de fichier. Le certificat peut être stocké localement ou sur un partage de fichiers. Si le certificat est stocké dans un dossier partagé, le dossier partagé doit être créé sur la première appliance de chaque site et doit être accessible par d’autres appliances appartenant au même site. Cette cmdlet copie le certificat externe dans **l’annuaire d’appliances.**
 
     > [!IMPORTANT]
-    > Si vous avez mis à jour **vers Cloud Connector version 1.4.2** ou ultérieure, assurez-vous que votre certificat externe préparé contient des clés privées et la chaîne de certificats complète, y compris le certificat d’ac racine et les certificats d’ac intermédiaire. Si vous n’avez PAS encore mis à jour **la version 1.4.2** de Cloud Connector, assurez-vous que votre certificat externe préparé contient des clés privées. Ce certificat externe doit être émis par une autorité de certification qui est Windows par défaut.
+    > Si vous avez mis à jour vers **Cloud Connector version 1.4.2** ou ultérieure, assurez-vous que votre certificat externe préparé contient des clés privées et la chaîne de certificats complète, y compris le certificat d’ac racine et les certificats d’ac intermédiaire. Si vous n’avez PAS encore mis à jour **la version 1.4.2** de Cloud Connector, assurez-vous que votre certificat externe préparé contient des clés privées. Ce certificat externe doit être émis par une autorité de certification qui est Windows par défaut.
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Définir le chemin d’accès pour la passerelle PSTN externe/certificat SBC
 
@@ -151,7 +151,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 4. Définissez le nom du commutateur qui connecte votre réseau de périmètre à votre domaine réseau **interne SfB CCE Corpnet Switch**.
 
-    Définissez le nom du commutateur qui connecte votre réseau de périmètre au commutateur Internet **SfB CCE Internet.**
+    Définissez le nom du commutateur qui connecte votre réseau de périmètre au commutateur **Internet SfB CCE Internet.**
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>Mettre à jour le CloudConnector.ini de configuration de l’ordinateur
 
@@ -163,9 +163,9 @@ Pour mettre à jour le fichier, exécutez d’abord l’cmdlet suivante pour obt
 Export-CcConfigurationSampleFile
 ```
 
-L’exemple de modèle est stocké dans **l’annuaire d’appliances.**
+L’exemple de modèle est stocké dans **l’annuaire d’équipements.**
 
-Une fois que vous l’avez mis à jour avec les valeurs de votre environnement, enregistrez le fichier CloudConnector.ini dans **l’annuaire d’équipements.** Vous pouvez exécuter **Get-CcApplianceDirectory** pour déterminer le chemin d’accès au répertoire **d’équipements.**
+Une fois que vous l’avez mis à jour avec les valeurs de votre environnement, enregistrez le fichier CloudConnector.ini dans **l’annuaire d’équipements.** Vous pouvez exécuter **Get-CcApplianceDirectory pour** déterminer le chemin d’accès au répertoire **d’équipements.**
 
 Lors de la mise à jour .ini fichier, prenons en compte les considérations suivantes :
 
@@ -304,7 +304,7 @@ Le compte CceService est créé pendant le Skype Entreprise Cloud Connector Edit
 
 1. Ouvrez **l’Éditeur de stratégie de** groupe en exécutant gpedit.msc.
 
-2. Dans l’Éditeur de stratégie de **groupe,** accédez à Modèles d’administration > System > UserProfile > Ne déchargez pas de force le Registre utilisateur lors de la déconnexion de l’utilisateur. 
+2. Dans l’Éditeur de stratégie de **groupe,** accédez à Modèles d’administration > Système > UserProfile > Ne déchargez pas de force le Registre utilisateur lors de la déconnexion de l’utilisateur. 
 
 3. Définissez sa valeur sur **Activé.**
 

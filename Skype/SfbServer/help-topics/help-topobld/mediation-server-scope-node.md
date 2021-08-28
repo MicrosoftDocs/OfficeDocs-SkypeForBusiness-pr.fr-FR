@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 'Ce nœud montre les ports d’écoute et les passerelles PSTN associées pour ce pool de médiation. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 8da954e380bf144741e69d2e998c2a57a015857eb825bef3d51effa53121097d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 224d6202a03e03e6364458c6591295155e7abbdd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591238"
 ---
 # <a name="mediation-server-scope-node"></a>Nœud d’étendue du serveur de médiation
  

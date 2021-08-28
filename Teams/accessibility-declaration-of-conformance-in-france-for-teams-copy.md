@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: 'Microsoft Teams est l’outil de conversation collaboratif d’Office 365 qui intègre toutes les personnes, contenus et outils ne votre équipe a besoin pour être plus impliquée et efficace. '
-ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 97ce2f3a4bd74d56b57a15a249b7b2fa50f27660
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372224"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589928"
 ---
 #  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d’accessibilité
 
@@ -162,13 +162,13 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="even">
 <td><h3 id="bande-passante-audio-pour-la-parole-recommandation-pour-information">6.1 Bande passante audio pour la parole (recommandation pour informations)</h3>
-<p>Dans le cas où la PETITE ENTREPRISE permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et decrypter la communication voix bidirectionnelle dans une bande de fréquence resurée à au moins 7 000 Hz.</p></td>
+<p>Dans le cas où la CORRECTEUR permet la communication voix bidirectionnelle, elle doit être capable, pour donner une bonne qualité audio, de chiffrer et decrypter la communication voix bidirectionnelle dans une bande de fréquence resurée à au moins 7 000 Hz.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="communication-en-temps-réel-par-texte-rtt">6.2.1.1 Communication en temps réel par texte (RTT)</h3>
-<p>Dans le cas où la PREP est compatible avec la communication voix bidirectionnelle dans un contexte d’utilisation spécifié, elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.</p></td>
+<p>Dans le cas où laNT est compatible avec la communication voix bidirectionnelle dans un contexte d’utilisation spécifié, elle permet à un utilisateur de communiquer avec un autre utilisateur en RTT.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -180,7 +180,7 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 </tr>
 <tr class="odd">
 <td><h3 id="affichage-visuellement-distinguable">6.2.2.1 Affichage visuellement accessible</h3>
-<p>Dans le cas où laNT est dotée de capacités d’envoi et de réception en RTT, l’affichage du texte envoyé est visuellement différents de celui du texte reçu.</p></td>
+<p>Dans le cas où laNT est dotée de capacités d’envoi et de réception en RTT, l’affichage du texte envoyé est visuellement supprimé de celui du texte reçu.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -421,7 +421,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="mettre-sur-pause-arrêter-masquer">11.2.1.18 Mettre sur pause, arrêter, masquer</h3>
-<p>Dans le cas où la CES est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les Critères de Succès indiqués dans le tableau 11.18 : Mettre sur pause, arrêter, masquer :</p>
+<p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de Succès indiqués dans le tableau 11.18 : Mettre sur pause, arrêter, masquer :</p>
 <p>Pour toute information en mouvement, attend, défilante ou mise à jour automatiquement, tous les points suivants sont vrais :</p>
 <p>Déplacement, défilement : pour toute information en mouvement, attende ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu, l’utilisateur dispose d’un mécanisme pour la mettre en pause, l’arrêter ou la masquer, à moins que le mouvement, le défilement ou le défilement s’avère un élément essentiel au bon déroulement de l’activité ; et</p>
 <p>Mise à jour automatique : pour toute information mise à jour automatiquement qui (1) démarre automatiquement et (2) est présentée conjointement avec un autre contenu, l’utilisateur dispose d’un mécanisme pour la mettre en pause, l’arrêter ou pour contrôler la fréquence des mises à jour à moins que la mise à jour automatique s’avère essentielle au bon déroulement de l’activité.</p></td>
@@ -478,7 +478,7 @@ Cette section ne s’applique pas à Skype Entreprise 2016.
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="à-la-saisie">11.2.1.30 À la saisie</h3>
+<td><h3 id="à-la-saisie">11.2.1.30 à la saisie</h3>
 <p>Dans le cas où la CHERCHE est un logiciel non-web qui est doté d’une interface utilisateur, elle remplit les critères de Succès indiqués dans le Tableau 11.30 : À la saisie :</p>
 <p>Le changement de paramètres d’un <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/consistent-behavior-unpredictable-change.html#user-interface-componentdef">composant d’interface utilisateur</a> ne provoque pas automatiquement un changement de contexte à moins que l’utilisateur n’ait été avisé de ce comportement avant d’utiliser le composant.</p></td>
 <td>Pris en charge</td>

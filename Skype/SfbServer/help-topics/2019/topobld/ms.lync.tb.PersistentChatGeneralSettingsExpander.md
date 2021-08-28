@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous modifiez les paramètres généraux du serveur de conversation permanente ou du pool de serveurs de conversation permanente en configurant ou en définissant ces propriétés :'
-ms.openlocfilehash: 289e899da1f981d3447640c10660a0db9a8a6c9814c7eb8189b896c6b76d45c1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 907a534aee6a3d55cca899d3ade036c6dbe8bba3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591618"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expandeur des paramètres généraux de conversation permanente
 
