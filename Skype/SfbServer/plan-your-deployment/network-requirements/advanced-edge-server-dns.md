@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Afficher les scénarios pour Skype Entreprise Server options de déploiement. Que vous vouliez un serveur unique ou préférez un pool de serveurs avec DNS ou HLB, cette rubrique doit vous aider.
-ms.openlocfilehash: d7f3847cb538dcdfbb09809b6313a9aa9b4f42e5431aa279d411a97bb0979752
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 208098fe44238d9d96debbde7b8c00daf6622b91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602349"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planification DNS avancée du serveur Edge pour Skype Entreprise Server
  
@@ -168,7 +168,7 @@ Maintenant que nous savons tout cela, si vous avez besoin d’une exigence autom
     
 - **Repérer la zone interne**
     
-    Si la création d’une zone entière dans votre DNS interne n’est pas une option pour vous, vous pouvez créer des zones de point d’épingle (dédiées) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd.exe. Dnscmd.exe est nécessaire, car l’interface utilisateur DNS ne permet pas de créer des zones de point d’épingle.
+    Si la création d’une zone entière dans votre DNS interne n’est pas une option pour vous, vous pouvez créer des zones de point d’pin (dédié) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd.exe. Dnscmd.exe est nécessaire, car l’interface utilisateur DNS ne permet pas de créer des zones de point d’épingle.
     
     Par exemple, si votre domaine SIP est contoso.com et que vous avez un pool frontal appelé pool01 qui contient deux serveurs frontaux, vous aurez besoin des zones de point d’épingle et des enregistrements A suivants dans votre DNS interne :
     
@@ -195,7 +195,7 @@ Maintenant que nous savons tout cela, si vous avez besoin d’une exigence autom
   ```
 
 > [!NOTE]
-> Le FQDN du pool frontal apparaît deux fois, mais avec deux adresses IP différentes. Cela est dû au fait que l’équilibrage de charge DNS est utilisé. Si l’lb de hlb est utilisé, il n’y aurait qu’une seule entrée de pool frontal. 
+> Le FQDN du pool frontal apparaît deux fois, mais avec deux adresses IP différentes. Cela est dû au fait que l’équilibrage de charge DNS est utilisé. Si l’lb de hlb est utilisé, il n’y a qu’une seule entrée de pool frontal. 
   
 > [!NOTE]
 > En outre, les valeurs de nom de pool frontal changent entre les exemples contoso.com et fabrikam.com, mais les adresses IP restent identiques. En effet, les utilisateurs qui se sont signés à partir de l’un ou l’autre domaine SIP utiliseront le même pool frontal pour la configuration automatique. 
@@ -211,14 +211,14 @@ Tous les enregistrements DNS de ce tableau sont des exemples.
   
 |**Enregistrement GeoDNS**|**Enregistrements de pool**|**Enregistrements CNAME**|**Paramètres DNS (sélectionnez une option)**|
 |:-----|:-----|:-----|:-----|
-|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias pour Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Meet.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias pour Pool1InternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Dialin.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Dialin.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Lyncdiscoverinternal.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Lyncdiscoverinternal.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Lyncdiscover.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Lyncdiscover.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com alias à Pool1InternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com alias à Pool2InternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Scheduler.contoso.com alias à Pool1ExternalWebFQDN.contoso.com  <br/> Scheduler.contoso.com alias à Pool2ExternalWebFQDN.contoso.com  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
    
 ## <a name="dns-load-balancing"></a>équilibrage de charge DNS
 <a name="DNSLB"> </a>

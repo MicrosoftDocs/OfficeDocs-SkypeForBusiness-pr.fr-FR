@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Les rapports d’avancement sont basés sur les données téléchargées par le client dans la base de données à l’issue d’un appel ou d’une session. Les rapports d’avancement sont écrits uniquement pour les appels et les sessions qui, selon Skype Entreprise Server 2015, peuvent être utiles à des fins de diagnostic.
-ms.openlocfilehash: 6429700f902caec80db02f3db6c78420b5c108ce6a39383da8914955df16f80d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c744cbf3755118a6d6fbee4837363e80b00ae44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286223"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623526"
 ---
 # <a name="progressreport-table"></a>Table ProgressReport
  
@@ -26,7 +26,7 @@ Les rapports d’avancement sont basés sur les données téléchargées par le 
   
 Les champs ErrorTime, ErrorReportSeq et ProgressReportSeq ne font pas nécessairement référence à des erreurs, mais à des messages qui indiquent l’état des appels ou des messages.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Date et heure du rapport d’erreurs d’avancement qui contient ce rapport d’avancement. Pour plus d’informations, voir le [tableau ErrorReport Skype Entreprise Server 2015.](errorreport.md) <br/> |
 |**ErrorId** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’identification utilisé conjointement avec ErrorTime et ProgressReportSeq pour identifier de manière unique un rapport d’avancement. Pour plus d’informations, voir le [tableau ErrorReport Skype Entreprise Server 2015.](errorreport.md) <br/> |

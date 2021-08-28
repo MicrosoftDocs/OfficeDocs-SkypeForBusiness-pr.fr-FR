@@ -9,28 +9,28 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Créez des stratégies intersessants réseau, qui sont utilisées par Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server.
-ms.openlocfilehash: 8e5fb020ece1762868f9d943eb2aad955903b91329d636a981e644b2e9892b67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Créez des stratégies réseau intersessants, qui sont utilisées par Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server.
+ms.openlocfilehash: fd20da8170e7258aab699001de4b8c821a668d46
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338752"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594688"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Créer des stratégies intersite réseau dans Skype Entreprise Server
  
-Créez des stratégies intersessants réseau, qui sont utilisées par Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server. 
+Créez des stratégies réseau intersessants, qui sont utilisées par Voix Entreprise contrôle d’admission des appels dans Skype Entreprise Server. 
   
 Une stratégie intersessant réseau définit des limites de bande passante entre les sites qui ont des liaisons wan directes entre eux.
   
 > [!IMPORTANT]
-> Une stratégie intersessant réseau n’est requise que s’il existe un lien direct entre deux sites réseau. 
+> Une stratégie intersessant réseau n’est requise que s’il existe un lien croisé direct entre deux sites réseau. 
   
 Dans la région Amérique du Nord de l’exemple de topologie, il existe un lien direct entre les sites Reno et Albuquerque. Ces deux sites nécessitent une stratégie intersessant qui applique un profil de stratégie de bande passante approprié. L’exemple suivant applique le profil 20Mb_Link.
   

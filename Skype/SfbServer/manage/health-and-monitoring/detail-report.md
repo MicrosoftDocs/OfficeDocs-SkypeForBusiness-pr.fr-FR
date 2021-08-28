@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Résumé : Découvrez le rapport détaillé de conférence utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 5da5c703916cb1f8ac24624efa14c5a65cec5cdd7b3d45da5d13ce8ac00fbfcc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b5dbbaf4ab1312d187b4e3c02882c26066c3db5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615700"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Rapport détaillé de conférence dans Skype Entreprise Server
 
@@ -48,7 +48,7 @@ Le tableau qui suit répertorie les informations fournies dans la section Inform
 **Mesures des informations de conférence**
 
 
-| **Name**                 | **Description**                                                                                                            |
+| **Nom**                 | **Description**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
 | **URI de la conférence** <br/> | URI affectée à la conférence. Par exemple :  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | **Nom de domaine complet du pool** <br/>      | Nom de domaine complet du pool de serveurs d’inscriptions ou serveur Edge impliqué dans une session.  <br/>                             |
@@ -60,7 +60,7 @@ Le tableau qui suit répertorie les informations fournies dans la section Partic
 
 **Mesures de participation à la conférence**
 
-|**Name**|**Description**|
+|**Nom**|**Description**|
 |:-----|:-----|
 |**Utilisateur** <br/> |Adresse SIP de l’utilisateur qui a participé à la conférence.  <br/> |
 |**Role** <br/> |Rôle (par exemple, présentateur) joué par le participant à la conférence.  <br/> |
@@ -74,7 +74,7 @@ Le tableau suivant répertorie les informations fournies dans la section Modalit
 
 **Mesures des modalités de conférence**
 
-|**Name**|**Description**|
+|**Nom**|**Description**|
 |:-----|:-----|
 |**Utilisateur** <br/> |Adresse SIP de l’utilisateur qui a participé à la conférence.  <br/> |
 |**Heure d’arrivée** <br/> |Date et heure auxquelles le participant a rejoint la conférence.  <br/> |

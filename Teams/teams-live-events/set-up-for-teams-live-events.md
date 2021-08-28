@@ -10,7 +10,7 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
@@ -20,12 +20,12 @@ description: Configurer des événements en direct dans Teams, notamment configu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 30dd21b106c68aaad2760800184bc3daf4dd1741c86a19a1ce1f583186d5c3cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282517"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636618"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -103,7 +103,7 @@ Les solutions SDN/eCDN suivantes sont pré-intégrées et peuvent être configur
 
 - **Ramp OmniCache** assure la distribution de réseau nouvelle génération et permet de distribuer de façon transparente du contenu vidéo sur les WAN globaux, afin d’aider les producteurs d’événements à optimiser la bande passante réseau et à prendre en charge la diffusion d’événements en direct et la diffusion à la demande. L’assistance pour Ramp OmniCache pour les événements en direct créés dans Teams sera disponible prochainement. [En savoir plus](https://rampecdn.com).
 
-- **Riverbed,** norme en optimisation des réseaux, étend ses solutions d’accélération à Microsoft Teams stream.  Désormais, Microsoft 365 clients peuvent accélérer en toute confiance le trafic de 365, dont Teams et Stream, ainsi qu’une foule d’autres services SaaS d’entreprise pour accroître la productivité du personnel en tout lieu. Teams et l’accélération stream peuvent être activés via une configuration facile, qui offre toute la garantie de la prise en charge de niveau mondial de Riverbed et de l’investissement continu.
+- **Riverbed,** norme en optimisation des réseaux, étend ses solutions d’accélération à Microsoft Teams stream.  Désormais, Microsoft 365 clients peuvent accélérer en toute confiance le trafic de 365, dont Teams et Stream, ainsi qu’une foule d’autres services SaaS d’entreprise pour accroître la productivité du personnel en tout lieu. Teams et l’accélération stream peuvent être activés par le biais d’une configuration facile, qui offre toute la garantie de la prise en charge de niveau mondial de Riverbed et de l’investissement continu.
 
 > [!NOTE]
 > La solution SDN ou eCDN que vous avez choisie est soumise aux **conditions d’utilisation du service et à la politique de confidentialité du prestataire tiers**, lesquelles gouvernent votre utilisation de la solution. L’utilisation de la solution de votre prestataire ne sera pas soumise aux termes du programme de licences en volume Microsoft ou des services en ligne. Si vous n’acceptez pas les **conditions de votre prestataire tiers**, n’activez pas la solution dans Teams.

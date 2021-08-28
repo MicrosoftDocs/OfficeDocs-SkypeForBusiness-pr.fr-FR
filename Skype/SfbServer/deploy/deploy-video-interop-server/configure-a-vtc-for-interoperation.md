@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 'Résumé : Configurez les périphériques VTC pour qu’ils fonctionnent Skype Entreprise Server.'
-ms.openlocfilehash: 0c96766daf67ff3c8f7872a75423f64f64acba8e51d3fbc4c0edef841cc529e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1165b4bf569701d71a435a4162ef9feb9ef3018f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594678"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurer un VTC pour l’interopération avec Skype Entreprise Server
  
@@ -34,7 +34,7 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
     
 2. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
-   |**Paramètre**|**Valeur recommandée**|
+   |**Parameter**|**Valeur recommandée**|
    |:-----|:-----|
    |Mode d’approvisionnement  <br/> | CUCM <br/> |
    |Adresse externalmanager  <br/> | FQDN de CUCM <br/> |
@@ -44,7 +44,7 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
     
 4. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
-   |**Paramètre**|**Valeur recommandée**|
+   |**Parameter**|**Valeur recommandée**|
    |:-----|:-----|
    |Nom de domaine DNS  <br/> | Nom de domaine CUCM <br/> |
    |Adresse du serveur DNS 1  <br/> | votre adresse de serveur DNS souhaitée <br/> |
@@ -53,7 +53,7 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
     
 6. Ces options sont définies automatiquement lorsque le point de terminaison est enregistré avec CUCM. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
-   |**Paramètre**|**Valeur recommandée**|
+   |**Parameter**|**Valeur recommandée**|
    |:-----|:-----|
    |H.323 Mode  <br/> | Désactivé <br/> |
    |HTTP Mode  <br/> | Activé <br/> |
@@ -66,7 +66,7 @@ Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon
     
 8. Vérifiez les paramètres suivants, en corrigeant selon vos besoins : 
     
-   |**Paramètre**|**Valeur recommandée**|
+   |**Parameter**|**Valeur recommandée**|
    |:-----|:-----|
    |Profil 1 - DefaultTransport  <br/> | TCP <br/> |
    |Profil 1 - Sortant  <br/> | Désactivé <br/> |
@@ -82,7 +82,7 @@ Le VTC est maintenant configuré pour l’interopération. Avant que le service 
     
 2. Sélectionnez l’appareil VTC à configurer. Vérifiez les paramètres suivants sur l’écran Téléphone configuration, en corrigeant selon vos besoins. Une fois ces paramètres modifiés ou vérifiés, cliquez sur **Enregistrer.**
     
-   |**Paramètre**|**Valeur recommandée**|
+   |**Parameter**|**Valeur recommandée**|
    |:-----|:-----|
    |Informations sur l’appareil : Téléphone bouton  <br/> | Standard Cisco Telepresence Codec C40 <br/> |
    |Informations sur l’appareil - Profil Téléphone courant  <br/> | Profil d’Téléphone courant standard <br/> |
@@ -100,7 +100,7 @@ Le VTC est maintenant configuré pour l’interopération. Avant que le service 
     
     A effectuer les modifications appropriées comme indiqué dans les informations de numéro de répertoire et le numéro de Paramètres.
     
-   |**Paramètre**|**Valeur recommandée**|
+   |**Parameter**|**Valeur recommandée**|
    |:-----|:-----|
    | Informations sur le numéro de répertoire - Partition de l’itinéraire <br/> | SfBVideoInterop_RoutePartition <br/> |
    |Numéro d’annuaire Paramètres - Appel de l’espace de recherche  <br/> | CSS_SfBVideoInterop <br/> |

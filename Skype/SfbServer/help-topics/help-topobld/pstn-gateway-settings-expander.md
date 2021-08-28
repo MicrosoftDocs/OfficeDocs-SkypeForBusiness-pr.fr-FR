@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PstnGatewaySettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 'Pour éditer les paramètres d’une passerelle réseau téléphonique commuté (PSTN), modifiez les champs suivants :'
-ms.openlocfilehash: beab393a6a901c7f2fc09ecb58052e466493e55e44969942084aec2d18ecd74a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63c85e5cb9d08761496ffb94d3b719b4fdb11e52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615730"
 ---
 # <a name="pstn-gateway-settings-expander"></a>Expandeur des paramètres de la passerelle PSTN
  

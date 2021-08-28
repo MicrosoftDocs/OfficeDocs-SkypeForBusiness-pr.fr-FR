@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification des conférences Skype Entreprise Server.'
-ms.openlocfilehash: 963f8dd29cce1e086fd797b2872000ab5cb7b1c80e7c9884675f8a89c43cbebc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04d0202e9d5187e33172e8bb4c4f1e51f5563d19
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593558"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planifier les conférences téléphoniques dans Skype Entreprise Server
  
@@ -119,7 +119,7 @@ Enterprise utilisateurs ou responsables de conférence qui rejoignent une confé
 > [!NOTE]
 > Enterprise utilisateurs qui appellent à partir d’un téléphone IP de bureau ou d’un Skype Entreprise Server Attendant ne sont pas invités à composer leur numéro de téléphone, car ils sont déjà authentifiés. 
   
-Les utilisateurs anonymes qui souhaitent participer à une conférence entrante composent l’un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Les utilisateurs anonymes non authentifiés sont également invités à enregistrer leur nom. Le nom enregistré identifie les utilisateurs non authentifiés dans la conférence. Les utilisateurs anonymes ne sont pas admis à la conférence tant qu’au moins un dirigeant ou un utilisateur authentifié n’a pas rejoint la conférence et qu’un rôle prédéféré ne leur est pas attribué.
+Les utilisateurs anonymes qui souhaitent participer à une conférence entrante composent l’un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Les utilisateurs anonymes non authentifiés sont également invités à enregistrer leur nom. Le nom enregistré identifie les utilisateurs non authentifiés dans la conférence. Les utilisateurs anonymes ne sont pas admis à la conférence tant qu’au moins un dirigeant ou un utilisateur authentifié n’a pas rejoint la conférence et ne peuvent pas se voir attribuer un rôle prédéféré.
   
 > [!NOTE]
 > Enterprise utilisateurs qui choisissent de ne pas entrer leur numéro de téléphone et leur code confidentiel ne sont pas authentifiés. Ils sont invités à enregistrer leur nom et sont traités comme des utilisateurs anonymes dans la conférence. 

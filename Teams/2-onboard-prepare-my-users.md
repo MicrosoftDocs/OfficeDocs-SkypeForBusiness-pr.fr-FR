@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: Créez un plan pour susciter l’adoption par les utilisateurs en définissant vos objectifs, en déterminant à quoi ressemble l’acceptation et en fournissant une formation et un support.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322876"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623386"
 ---
 # <a name="prepare-my-users"></a>Préparer mes utilisateurs
 
@@ -44,7 +44,7 @@ Propriétaire de l’activité : Gestionnaire de changement d’adoption en tant
 
 ## <a name="create-your-vision-to-value-statement"></a>Créer votre énoncé de vision à valeur
 
-La définition de votre vision du projet permet aux principales parties prenantes d’avoir une vue d’ensemble. Celui-ci s’inscrit généralement dans les secteurs d’activité comme les économies de coûts, l’efficacité opérationnelle et la productivité accrue, et s’aligne sur les objectifs que vous définissez précédemment &mdash; &mdash; dans le projet. Pour un utilisateur, ce même projet peut être considéré comme une perte d’outils familiers, d’interruption de productivité et d’absence de contrôle par l’encadrement. Prenez le temps de vous mettre dans les chaussures de vos utilisateurs et transformez votre vision du projet en instructions qui les feront appel. Ce relevé de valeurs dans vos activités de communication et de formation permet aux utilisateurs de voir Teams ces instructions peuvent leur être proposées.
+La définition de votre vision du projet permet aux principales parties prenantes d’avoir une vue d’ensemble. Celui-ci s’inscrit généralement dans les secteurs d’activité comme les économies de coûts, l’efficacité opérationnelle et la productivité accrue, et s’aligne sur les objectifs que vous définissez précédemment &mdash; &mdash; dans le projet. Pour un utilisateur, ce même projet peut être considéré comme une perte d’outils familiers, d’interruption de productivité et d’absence de contrôle par l’encadrement. Prenez le temps de vous mettre dans les chaussures de vos utilisateurs et de traduire votre vision du projet en une déclaration de valeur qui les fera appel. Ce relevé de valeurs dans vos activités de communication et de formation permet aux utilisateurs de voir Teams ces instructions peuvent leur être proposées.
 
 L’image suivante est un exemple d’énoncé de vision à valeur pour un client qui fait la mise à niveau d’Skype Entreprise vers Teams.
 
@@ -92,13 +92,13 @@ La préparation organisationnelle permet de déterminer la manière dont vos uti
 
  
 > [!TIP]
-> Learning n’est pas une seule taille. En vous faisant comprendre comment vos utilisateurs apprendnt le mieux, vous pouvez créer un programme de formation puissant pour accélérer leur apprentissage. Si de nombreux utilisateurs sont motivé, la liaison de vidéos et de guides d’utilisation peut suffire. Pour ceux qui ont besoin d’une attention spéciale, n’oubliez pas de programmer un face-à-un ou de s’inscrire vos champions pour aider ces utilisateurs dans &mdash; la courbe d’apprentissage.
+> Learning n’est pas une seule taille. En vous comprenant mieux comment vos utilisateurs ont appris, vous pouvez créer un programme de formation puissant pour accélérer leur apprentissage. Si de nombreux utilisateurs sont motivé, la liaison de vidéos et de guides d’utilisation peut suffire. Pour ceux qui ont besoin d’une attention spéciale, n’oubliez pas de programmer un face-à-un ou de s’inscrire vos champions pour aider ces utilisateurs dans &mdash; la courbe d’apprentissage.
 
 <!--ENDOFSECTION-->
 
 ## <a name="assess-your-user-base"></a>Évaluer votre base d’utilisateurs
 
-L’analyse au niveau des personnes vous donne plus de compréhension de vos personnage d’utilisateurs, de vos anses et de vos cas d’utilisation. En prenant le temps de comprendre qui sont vos utilisateurs et comment ils fonctionnent, vous pouvez vous assurer qu’ils ont ce dont ils ont besoin pour réussir lorsque vous implémentez le changement. Cela peut inclure une messagerie ciblée, des formations ou même des appareils tels que des casques et des webcams. Par exemple, un cadre peut s’attendre à une formation à deux, tandis que les responsables de terrain en déplacement peuvent bénéficier d’une vidéo de formation qu’ils peuvent regarder à leur rythme. De plus, l’analyse au niveau des personnes peut vous aider à identifier les personnes devant commencer à utiliser la nouvelle fonctionnalité aujourd’hui et celles qui seront peut-être mieux servis en attendant.
+L’analyse au niveau des personnes vous donne une compréhension de vos personnage d’utilisateurs, de vos préliminaires et de vos cas d’utilisation. En prenant le temps de comprendre qui sont vos utilisateurs et comment ils fonctionnent, vous pouvez vous assurer qu’ils ont ce dont ils ont besoin pour réussir lorsque vous implémentez le changement. Cela peut inclure une messagerie ciblée, des formations ou même des appareils tels que des casques et des webcams. Par exemple, un cadre peut s’attendre à une formation à deux, tandis que les responsables de terrain en déplacement peuvent bénéficier d’une vidéo de formation qu’ils peuvent regarder à leur rythme. De plus, l’analyse au niveau des personnes peut vous aider à identifier les personnes devant commencer à utiliser la nouvelle fonctionnalité aujourd’hui et celles qui seront peut-être mieux servis en attendant.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Certains utilisateurs ou clients ont-ils une dépendance essentielle sur cette solution pour travailler efficacement ?</li><li>Existe-t-il des cas d’utilisation spécifiques qui peuvent être facilités à l’aide de cette nouvelle solution ?</li></ul></td></tr>
@@ -112,7 +112,7 @@ Pour chaque groupe de personnage, discutez des sujets suivants avec votre équip
 
 -   Comment ce groupe bénéficiera-t-il de la nouvelle solution ? Quelles sont les fonctionnalités dont ils ont besoin pour être efficaces ?
 
--   De quels appareils a-t-il besoin (par exemple, casques ou haut-parleurs) et s’ils en ont déjà ?
+-   De quels appareils ont-ils besoin (par exemple, des casques ou des haut-parleurs) et sont-ils déjà en place ?
 
 -   Quelles messages de valeur supplémentaires, le cas échéant, sont requis pour créer le désir dans ce groupe de commencer à utiliser la nouvelle solution ?
 
@@ -132,7 +132,7 @@ L’image suivante est un exemple de tableau de personnage.
 
 Pour chaque cas d’utilisation, discutez des sujets suivants avec votre équipe de projet :
 
--   Quelles sont les principales caractéristiques de ce cas/scénario d’utilisation ?
+-   Quelles sont les principales caractéristiques de ce scénario/cas d’utilisation ?
 
 -   Qu’est-ce qui est bon dans la solution actuelle ?
 

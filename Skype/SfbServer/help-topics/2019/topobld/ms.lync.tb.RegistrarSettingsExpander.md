@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: La résilience apporte une très grande disponibilité et offre la récupération d’urgence au pool de serveurs d’inscriptions. Lorsqu’il est configuré, un serveur d’inscriptions de sauvegarde permet de prendre le relais d’un serveur d’inscriptions en cas d’échec du serveur d’inscriptions principal, permettant aux utilisateurs de se connecter et de communiquer. Il est possible que les utilisateurs ne disposent pas de toutes les fonctionnalités, en fonction des systèmes défaillants sur le serveur d’inscriptions principal.
-ms.openlocfilehash: f8a73ce70bb172fb9a1f9bce9d3ae7fc9795b974d5f3e88df3a69103107d61e5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8888c6df1aaa9da6c81e418123627199a6654893
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313532"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593828"
 ---
 # <a name="registrar-settings-expander"></a>Expandeur des paramètres du serveur d’inscriptions
  
@@ -30,7 +30,7 @@ Dans la section **Résilience** de la boîte de dialogue **Modifier les proprié
   
 - **Service utilisateur associé et pool de sauvegarde du bureau d’enregistrement** Dans la liste de listes, sélectionnez le pool frontal Êdition Entreprise ou le serveur frontal Édition Standard qui doit agir en tant que serveur d’inscriptions de sauvegarde pour le Survivable Branch Appliance ou le serveur Survivable Branch Server.
     
-- **Activer le failover et la récupération** Sélectionnez ce paramètre pour permettre la détection automatique d’un échec du bureau d’enregistrement et la détermination automatique du fait que le bureau d’enregistrement principal est en cours de mise en service et prêt à reprendre le processus de bureau d’enregistrement.
+- **Activer le failover et la récupération** Sélectionnez ce paramètre pour permettre la détection automatique d’un échec du bureau d’enregistrement et la détermination automatique que le bureau d’enregistrement principal est en cours de reprise du processus du bureau d’enregistrement.
     
 - **Intervalle de détection d’échec (en secondes)** Tapez le nombre de secondes qui doivent s’écoulées avant qu’il soit déterminé que le bureau d’enregistrement principal a échoué. La valeur par défaut est 120 secondes. Ce champ est obligatoire si vous sélectionnez **Activer le basculement et la restauration automatique**.
     

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype Entreprise Server règles de normalisation utilisent .NET Framework expressions régulières pour traduire les numéros de téléphone composés au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertissent ce numéro au format utilisé en interne par Skype Entreprise Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: bb229760bd8f41086211245e8e7090453fa8985abb72dc721b249c5c5df81238
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b78207f90bb013b8be4161b7319cb605ad148e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333436"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602489"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Définition de règles de normalisation dans Skype Entreprise Server
 
@@ -32,7 +32,7 @@ Vous pouvez utiliser l’une des méthodes suivantes pour définir ou modifier u
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Créer ou modifier une règle de normalisation à l’aide de La création d’une règle de normalisation
 
-Si vous souhaitez créer ou modifier une règle de normalisation dans le Panneau de Skype Entreprise Server, complétez les étapes suivantes. 
+Pour créer ou modifier une règle de normalisation dans le Panneau de Skype Entreprise Server, vous devez effectuer les étapes suivantes. 
 
 **Pour définir une règle à l’aide de la section Créer une règle de normalisation**
 

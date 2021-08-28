@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 audience: admin
 description: Les administrateurs peuvent découvrir comment utiliser le Planificateur réseau pour déterminer les exigences réseau pour les Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cccda1c51e1706cc83b83667dff6e2f00e535e4afd1fd50ea869633199c4d3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332606"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594608"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le Planificateur réseau pour Microsoft Teams
 
@@ -50,7 +50,7 @@ Pour utiliser le Planificateur réseau, vous devez être administrateur généra
 
 Pour créer un personnage personnalisé, suivez ces étapes :
 
-1. Dans le Centre d’administration, Microsoft Teams au Planificateur réseau.
+1. Dans le Centre d’administration, Microsoft Teams le planificateur réseau.
 
 2. Sous **l’onglet Personnage,** cliquez **sur + Personnage personnalisé.** 
 
@@ -60,11 +60,11 @@ Pour créer un personnage personnalisé, suivez ces étapes :
 
 5. Cliquez sur **Enregistrer**.
 
-## <a name="build-your-plan"></a>Créez votre plan
+## <a name="build-your-plan"></a>Créer votre plan
 
-Pour commencer à créer votre plan réseau, suivez les étapes suivantes :
+Pour commencer à créer votre plan réseau, suivez ces étapes :
 
-1. Dans le Centre d’administration, Microsoft Teams au Planificateur réseau.
+1. Dans le Centre d’administration, Microsoft Teams le planificateur réseau.
 
 2. Sous **l’onglet Plan réseau,** cliquez **sur Ajouter un plan réseau.**
 

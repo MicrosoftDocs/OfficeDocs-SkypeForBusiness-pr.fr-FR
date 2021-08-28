@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment envoyer à vos utilisateurs un courrier électronique avec leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 58524f6a6f4fe8ad8aefb559ae4f9748ffbf506394cf0bf446aa38ae9740d608
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350476"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594496"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Envoyer à un utilisateur par courrier électronique ses informations d’audioconférence dans Microsoft Teams.
 
@@ -71,6 +71,6 @@ Voici un exemple du message électronique envoyé :
     
   - Lorsque Microsoft est le fournisseur de services d’audioconférence d’un utilisateur.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

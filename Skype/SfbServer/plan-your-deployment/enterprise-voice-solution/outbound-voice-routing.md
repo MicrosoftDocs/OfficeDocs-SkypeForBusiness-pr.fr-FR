@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Découvrez le routage des appels sortants dans Skype Entreprise Server Voix Entreprise, notamment les paramètres de routage des appels, les plans de numérotation, les règles de normalisation, les stratégies de voix, les enregistrements d’utilisation PSTN et les itinéraires des messages vocaux.
-ms.openlocfilehash: 75fcefae34cfcb100a095dd83a162fec1baac1d4b17f5077611cf88635ce9ed5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 233556993c5feb3eac9a6b773161a2491361e35e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349956"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593548"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planifier le routage des voix sortantes dans Skype Entreprise Server
  
@@ -74,7 +74,7 @@ Pour planifier un plan de numérotation, suivez les étapes suivantes :
     
 - Identifiez les modèles de numéro valides pour chaque site.
     
-    La partie la plus longue de la planification de vos plans de numérotation consiste à identifier les modèles de numéros valides pour chaque site. Dans certains cas, vous pouvez copier les règles de normalisation que vous avez écrites pour un plan de numérotation vers d’autres plans de numérotation, en particulier si les sites correspondants se trouve dans le même pays/la même région ou même le même continent. Dans d’autres cas, de petites modifications apportées aux numéros dans un plan de numérotation peuvent suffire à les utiliser dans d’autres plans de numérotation.
+    La partie la plus longue de la planification de vos plans de numérotation consiste à identifier les modèles de numéros valides pour chaque site. Dans certains cas, vous pouvez copier les règles de normalisation que vous avez écrites pour un plan de numérotation vers d’autres plans de numérotation, en particulier si les sites correspondants se trouve dans le même pays/la même région ou même le même continent. Dans d’autres cas, de petites modifications apportées aux numéros d’un plan de numérotation peuvent suffire à les utiliser dans d’autres plans de numérotation.
     
 - Développer un schéma à l’échelle de l’organisation pour nommer des plans de numérotation.
     
@@ -137,7 +137,7 @@ Les champs de nombre suivants sont parmi ceux que vos règles de normalisation d
 
 Les règles de normalisation utilisent .NET Framework expressions régulières pour spécifier des modèles de correspondance numérique que le serveur utilise pour traduire les chaînes de numérotation au format E.164 dans le but d’effectuer une recherche inversée de numéros. Vous créez des règles de normalisation dans le Panneau de Skype Entreprise Server en entrant les expressions manuellement ou en entrant les chiffres de début et la longueur des chaînes de numérotation à mettre en correspondance et en laissant le Panneau de Skype Entreprise Server générer l’expression régulière correspondante à votre place. Dans les deux cas, lorsque vous avez terminé, vous pouvez entrer un numéro de test pour vérifier que la règle de normalisation fonctionne comme prévu.
   
-Pour plus d’informations sur l.NET Framework expressions régulières, voir « [.NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)».
+Pour plus d’informations sur .NET Framework expressions régulières, voir « expressions [régulières .NET Framework »](/dotnet/standard/base-types/regular-expressions).
   
 #### <a name="sample-normalization-rules"></a>Exemples de règles de normalisation
 <a name="BKMK_SampleNormalizationRules"> </a>
@@ -176,7 +176,7 @@ Le tableau suivant illustre un exemple de plan de numérotation pour Redmond, Wa
 |RedmondOperator  <br/> |
    
 > [!NOTE]
-> Les noms des règles de normalisation indiqués dans le tableau précédent n’incluent pas d’espaces, mais il s’agit d’une question de choix. Le prénom du tableau, par exemple, peut avoir été écrit « 5 chiffres de poste » ou « Extension à 5 chiffres » et être toujours valide. 
+> Les noms des règles de normalisation indiqués dans le tableau précédent n’incluent pas d’espaces, mais il s’agit d’une question de choix. Le prénom du tableau, par exemple, peut avoir été écrit « Poste à 5 chiffres » ou « Poste à 5 chiffres » et être toujours valide. 
   
 ## <a name="voice-policies"></a>Stratégies de voix
 

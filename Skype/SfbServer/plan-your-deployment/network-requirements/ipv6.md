@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Résumé : Implémentez IPv6 avant d’installer Skype Entreprise Server.'
-ms.openlocfilehash: 02753ad0e2fee00e548dd2f709dc451373283cae2fe0fe2e30dbae62e77f12f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff58da4a4064c91949446e9107d0f3ff07b720e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289672"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593508"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planifier IPv6 dans Skype Entreprise
  
@@ -50,7 +50,7 @@ Vous avez trois options pour configurer des adresses IP dans Skype Entreprise Se
   
 - **IPv4 uniquement** IPv6 a été créé car le monde n’a plus d’adresses IPv4. En fin de compte, IPv6 sera entièrement pris en charge dans le monde entier, mais pour l’instant, de nombreuses sociétés et appareils avec qui votre entreprise devra peut-être communiquer ne ront peut-être pas encore prendre en charge IPv6 et ne le seront peut-être pas pendant un certain temps. Une configuration IPv4 uniquement permet de s’assurer que votre implémentation Skype Entreprise Server peut communiquer avec la plupart des appareils existants.
     
-- **IPv6 uniquement** À l’inverse, une implémentation IPv6 complète exclut la communication avec de nombreux appareils existants.
+- **IPv6 uniquement** À l’inverse, une implémentation IPv6 complète exclura la communication avec de nombreux appareils existants.
     
 - **Double pile** La double pile est un réseau sur lequel les adresses IPv4 et IPv6 sont activées. Cette configuration est prise en charge Skype Entreprise Server car, dans la plupart des cas, la transition de l’IPv4 complet au IPv6 complet prendra plusieurs années.
     
@@ -75,7 +75,7 @@ Les sections suivantes décrivent la compatibilité entre ces trois configuratio
 ### <a name="peer-to-peer-client"></a>Client D’égal à égal
 <a name="peer"> </a>
 
-Les communications D’égal à égal incluent l’audio, l’audio/vidéo, le partage d’application et le transfert de fichiers. Une fois les deux clients correctement inscrits, les combinaisons suivantes sont pris en charge.
+Les communications D’égal à égal incluent l’audio, l’audio/vidéo, le partage d’application et le transfert de fichiers. Une fois les deux clients enregistrés, les combinaisons suivantes sont pris en charge.
   
 |**Point de terminaison du client 1**|**Point de terminaison du client 2**|
 |:-----|:-----|
@@ -190,7 +190,7 @@ Si vous envisagez de configurer Skype Entreprise Server pour IPv6, gardez les ex
 - Chaque adresse IPv6 a une étendue. Les trois étendues que vous pouvez utiliser pour l’adressaînage IPv6 sont les adresses globales IPv6 (semblables aux adresses IPv4 publiques), les adresses locales uniques IPv6 (semblables aux plages d’adresses IPv4 privées) et les adresses locales de liaison IPv6 (semblables aux adresses IP privées automatiques dans Windows Server pour IPv4). Tous les serveurs au sein d’un pool doivent avoir des adresses IPv6 avec la même étendue. 
     
 > [!IMPORTANT]
-> IPv6 est un sujet complexe et nécessite une planification minutieuse avec votre équipe réseau et votre fournisseur Internet pour vous assurer que les adresses que vous affectez au niveau du serveur Windows et au niveau du Skype Entreprise Server fonctionnent comme prévu. Consultez les liens à la fin de cette rubrique pour accéder à des ressources supplémentaires sur l’adressage et la planification IPv6. 
+> IPv6 est un sujet complexe qui nécessite une planification minutieuse avec votre équipe réseau et votre fournisseur Internet pour vous assurer que les adresses que vous affectez au niveau du serveur Windows et au niveau du Skype Entreprise Server fonctionnent comme prévu. Consultez les liens à la fin de cette rubrique pour accéder à des ressources supplémentaires sur l’adressage et la planification IPv6. 
   
 ## <a name="migration-and-coexistence-considerations-for-ipv6"></a>Considérations sur la migration et la coexistence pour IPv6
 <a name="migration"> </a>

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La boîte de dialogue Sélectionner les règles de traduction du numéro d’appel affiche les règles de traduction configurées pour votre déploiement. Pour plus d’informations sur les règles de traduction, voir les rubriques suivantes :'
-ms.openlocfilehash: aa0bb395fe292c4d8e12610269d192cb413ce4df1bc0ac53d35f6c150d0fb87f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 176a6cad3ff95dc62600e71342148adf2bc5b478
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593958"
 ---
 # <a name="select-calling-number-rules-translation"></a>Sélectionner les règles de traduction des numéros d’appel
 

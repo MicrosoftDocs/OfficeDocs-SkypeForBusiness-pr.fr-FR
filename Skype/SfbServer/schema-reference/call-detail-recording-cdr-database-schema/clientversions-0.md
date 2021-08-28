@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: L’affichage ClientVersions stocke des informations sur les différents types et versions de clients qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de l’affichage représente une version du client. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 051a4c475b70eb418bb7a4984f3100c1c3b6209a9028dfe3c522508cd6998a84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb17827f018919ba7b6088da884904a959bd6398
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593478"
 ---
 # <a name="clientversions-view"></a>Affichage ClientVersions
  
@@ -27,7 +27,7 @@ L’affichage ClientVersions stocke des informations sur les différents types e
 > [!NOTE]
 > Il peut y avoir plusieurs enregistrements pour certaines colonnes. 
   
-|**Colonne**|**Type de données**|**Détails**|
+|**Colonne**|**Type de données**|**Details**|
 |:-----|:-----|:-----|
 |**VersionId** <br/> |int  <br/> |Numéro unique identifiant le type et la version de ce client.  <br/> |
 |**Version** <br/> |nvarchar(256)  <br/> |Représente l’agent utilisateur.  <br/> |

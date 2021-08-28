@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
-ms.openlocfilehash: d11070337abf16292983b11d8f8f84ac515e26711330e78d75c35ddba2c988ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
+ms.openlocfilehash: ecf43db66ccda179cee682f23050d5aa3bf78aca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312422"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636468"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>Restrictions de numérotation gratuites en Suisse
 
@@ -45,7 +45,7 @@ ms.locfileid: "54312422"
 |Disponibilité de réseau mobile  <br/> | Oui (certains numéros peuvent être premium) <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

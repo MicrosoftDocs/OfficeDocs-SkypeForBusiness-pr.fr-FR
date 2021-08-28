@@ -1,5 +1,5 @@
 ---
-title: Gérer Skype Entreprise de données dans le Centre Microsoft Teams’administration
+title: Gérer Skype Entreprise paramètres d’administration dans le Microsoft Teams d’administration
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,17 +19,17 @@ ms.custom: ''
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les paramètres des fonctionnalités Skype Entreprise dans le Centre Microsoft Teams’administration.
-ms.openlocfilehash: f05bdd7dfb53e75d5cc83945985dd6b511635d5ab5792afc0291b5349433ae22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3679f80057349b60af9bc11b2aa43c3ceb6a431
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280559"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636438"
 ---
-# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gérer Skype Entreprise de données dans le Centre Microsoft Teams’administration
+# <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gérer Skype Entreprise paramètres d’administration dans le Microsoft Teams d’administration
 
 <!-- Bookmark used by Context Sensitive Help (CSH). Do not delete. -->
 <a name="sfb-settings"> </a>
@@ -59,7 +59,7 @@ Utilisez les paramètres suivants pour gérer [Réunion Skype diffusion](https:/
 :::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="Capture d’écran Réunion Skype paramètres de diffusion dans le Centre d’administration":::
 
 - **Réunion Skype diffusions :** activez cette fonction pour activer Réunion Skype diffusion pour votre organisation. Après avoir activé cette fonctionnalité, vous devez configurer votre réseau pour [Réunion Skype diffusion.](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)
-- **Découvrez les fonctionnalités d’aperçu**: vous pouvez l’activer pour accéder en avant-première aux nouvelles fonctionnalités.
+- **Découvrez les fonctionnalités d’aperçu**: activer cette fonctionnalité pour accéder en avant-première aux nouvelles fonctionnalités.
 - **Les organisateurs peuvent planifier** des réunions anonymes : activer cette fonction si vous souhaitez que les organisateurs créent des événements de diffusion qui permettent à tous les utilisateurs extérieurs à votre organisation de participer sans avoir à se connecter. 
 - **Enregistrer Réunion Skype diffusion de réunions**: activez cette fonction pour permettre aux organisateurs et aux présentateurs d’enregistrer les réunions.  
 - **URL du support** technique pour les participants : Entrez l’URL du support technique que les participants à la réunion peuvent utiliser s’ils ont besoin d’aide pendant une réunion.
@@ -79,7 +79,7 @@ Utilisez les paramètres suivants pour gérer les notifications Skype Entreprise
 
 Par défaut, Skype Entreprise utilisateurs de votre organisation peuvent voir le statut de présence (par exemple Disponible, Occupé(e) ou Absent(e) d’autres Skype Entreprise utilisateurs. Choisissez l’une des personnes suivantes pour définir qui peut voir la présence de vos Skype Entreprise utilisateurs.
 
-- **Afficher automatiquement** les informations de présence : tout Skype Entreprise utilisateur de votre organisation qui  n’a pas été ajouté à la liste des utilisateurs externes ou bloqués peut voir sa présence. 
+- **Afficher automatiquement** les informations de présence : tout Skype Entreprise utilisateur de votre organisation qui  n’a pas été ajouté à la liste externe ou bloquée de l’utilisateur peut voir sa présence. 
 - Afficher les informations de présence uniquement aux **contacts d’un** utilisateur : tout utilisateur Skype Entreprise dans  la  liste des contacts de l’utilisateur qui n’est pas ajouté à sa liste externe ou bloquée peut voir la présence de cet utilisateur. Les utilisateurs peuvent remplacer ce paramètre dans Skype Entreprise en vous Paramètres  >  **Options**  >  **outils.**
 
 #### <a name="mobile-notifications"></a>Notifications mobiles
@@ -103,7 +103,7 @@ Tenez compte des points suivants :
 
 Pour gérer les paramètres de Skype Entreprise d’utilisateurs individuels, dans le navigation gauche du Centre d’administration Teams, sélectionnez Utilisateurs, cliquez sur le nom complet de l’utilisateur pour ouvrir la page des détails de l’utilisateur, puis sélectionnez l’onglet **paramètres Skype Entreprise.** À partir de là, vous pouvez configurer l’accès externe et les paramètres de réunion pour l’utilisateur.
 
-:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Capture d’écran Skype Entreprise’onglet accueil sur la page de détails de l’utilisateur":::
+:::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Capture d’écran Skype Entreprise’onglet Détails de l’utilisateur":::
 
 ### <a name="external-access-settings"></a>Paramètres d’accès externe
 

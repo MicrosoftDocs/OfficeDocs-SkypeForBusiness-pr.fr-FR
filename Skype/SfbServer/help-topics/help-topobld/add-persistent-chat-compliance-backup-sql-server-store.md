@@ -1,5 +1,5 @@
 ---
-title: Ajouter un magasin SQL Server de sauvegarde de conformité de conversation permanente
+title: Ajouter un magasin SQL Server de sauvegarde de conformité de conversation permanente
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Vous configurez les magasins de SQL Server de conformité de sauvegarde qui fourniront des bases de données de sauvegarde pour les magasins de conformité du serveur de conversation permanente ou du SQL Server de conversation permanente.
-ms.openlocfilehash: edcb80d798e6039560db4149b17ce7c2d2d61b9d92a4450199dcad29b12093dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b15cfb3ed23147bb6a6c9e2ea816350343cadf72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344923"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615770"
 ---
-# <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Ajouter un magasin SQL Server de sauvegarde de conformité de conversation permanente
+# <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Ajouter un magasin SQL Server de sauvegarde de conformité de conversation permanente
  
 Vous configurez les magasins de SQL Server de conformité de sauvegarde qui fourniront des bases de données de sauvegarde pour les magasins de conformité du serveur de conversation permanente ou du SQL Server de conversation permanente.
   

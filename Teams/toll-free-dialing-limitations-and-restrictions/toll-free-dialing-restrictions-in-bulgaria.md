@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 95e39926af9684b1bbc93bda3ff25ebcc72d2cdd6e6ed776856a984f565d2eff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9c1651c79a076bac8886c3b602dfeb2c35c8f7ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348419"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594456"
 ---
 # <a name="toll-free-dialing-restrictions-in-bulgaria"></a>Restrictions de numérotation gratuit en Bulgarie
 
@@ -46,7 +46,7 @@ ms.locfileid: "54348419"
 |Disponibilité de réseau mobile  <br/> |Partiel. Voir les commentaires.  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès mobile via Vivacom &amp; Globul Mobile.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)

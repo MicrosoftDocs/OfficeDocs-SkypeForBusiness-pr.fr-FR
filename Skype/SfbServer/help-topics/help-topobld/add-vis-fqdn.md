@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server 2015.
-ms.openlocfilehash: 28ebf9d2774caf659747f3b17ad312562b48b0ba716a415737a424d0ec94b9fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2269eb363141353bd7eef9a410f9a910cb7ddc7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602589"
 ---
 # <a name="add-vis-fqdn"></a>Ajout du nom de domaine complet du serveur d’interopérabilité vidéo (VIS)
  

@@ -1,5 +1,5 @@
 ---
-title: Configuration réseau minimale requise pour l’application Réunions Skype
+title: Configuration réseau minimale requise pour l’application Réunions Skype
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Résumé : Informations pour les organisations qui n’utilisent pas Microsoft 365 ou Office 365 et qui ont besoin d’accéder aux réunions hébergées par des organisations qui le font.'
-ms.openlocfilehash: b79c49b1b63041e84cc74887f6693e8601ae2465f90665ff757d9d890cb330cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29b9103d741440a480be27e9d4268d6cc8d94c47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283196"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615610"
 ---
-# <a name="skype-meetings-app-minimum-network-requirements"></a>Configuration réseau minimale requise pour l’application Réunions Skype
+# <a name="skype-meetings-app-minimum-network-requirements"></a>Configuration réseau minimale requise pour l’application Réunions Skype
  
-**Résumé :**  Informations pour les organisations qui n’utilisent pas Microsoft 365 ou Office 365 et qui ont besoin d’accéder aux réunions hébergées par les organisations qui le font. Cet article n’est pas destiné aux utilisateurs de ces applications.
+**Résumé :**  Informations pour les organisations qui n’utilisent pas Microsoft 365 ou Office 365 et qui ont besoin d’accéder aux réunions hébergées par des organisations qui le font. Cet article n’est pas destiné aux utilisateurs de ces applications.
   
 Pour permettre aux utilisateurs d’utiliser l’application Skype Meetings pour participer à des réunions hébergées dans Skype Entreprise Online, les administrateurs réseau des organisations qui n’utilisent pas Microsoft 365 ou Office 365 doivent autoriser ou mettre à disposition les FQDN, les fai et les ports mentionnés ci-dessous.
 
@@ -47,4 +47,4 @@ Les informations répertoriées ici sont un sous-ensemble d’URL Office 365 et 
 
 [Déployer des clients web téléchargeables dans Skype Entreprise Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-[Plateformes prise en charge pour Skype Application Réunions](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Plateformes pris en charge pour Skype Meetings App](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)

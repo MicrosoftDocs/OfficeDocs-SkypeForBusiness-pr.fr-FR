@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation de numéros gratuits en Bélarus, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: 38dce7862ea9764baefcc38aa7275d0d5c686cd753a91dc9fe672ee54fcf304c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0110c3a35b745ce4a9bf2633b7aa7e006a664297
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345253"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636418"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>Restrictions de numérotation gratuit en Biélorussie
 
@@ -47,7 +47,7 @@ ms.locfileid: "54345253"
 |Disponibilité de réseau mobile  <br/> |Oui  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Accès au réseau mobile à partir de Velcom, MTS et Life.  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Résumé : Découvrez comment configurer le service de conformité du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349306"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602519"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurer le service de conformité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
 
@@ -34,7 +34,7 @@ La conformité de conversation permanente permet aux administrateurs de gérer u
 
 - Affichages de l’historique des conversation
 
-- Charge un fichier
+- Télécharge un fichier
 
 - Télécharge un fichier
 
@@ -77,7 +77,7 @@ Vous pouvez écrire un adaptateur personnalisé au lieu d’utiliser le XmlAdapt
 
 L’interface est définie dans l’assembly Compliance.dll dans l’espace de  `Microsoft.Rtc.Internal.Chat.Server.Compliance` noms. Elle définit deux méthodes que votre adaptateur personnalisé doit implémenter.
 
-Le serveur de conformité de conversation permanente appelle la méthode suivante lors du premier chargement de l’adaptateur. Contient la configuration de conformité de conversation permanente  `AdapterConfig` qui est pertinente pour l’adaptateur de conformité :
+Le serveur de conformité de conversation permanente appelle la méthode suivante lors du premier chargement de l’adaptateur. Contient  `AdapterConfig` la configuration de conformité de conversation permanente qui est pertinente pour l’adaptateur de conformité :
 
 ```cpp
 void SetConfig(AdapterConfig config)

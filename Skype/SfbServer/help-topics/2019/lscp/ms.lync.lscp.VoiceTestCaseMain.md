@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 18d4cc25bd099a3b6b450f7e1c7da23456c4e66b163735259efbb83f400a8ecf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b56a332945837638190241a952146cc7fa10720c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345901"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593968"
 ---
-# <a name="test-voice-routing-test-cases"></a>Tester le routage des communications vocales : cas de test
+# <a name="test-voice-routing-test-cases"></a>Tester le routage des communications vocales : cas de test
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

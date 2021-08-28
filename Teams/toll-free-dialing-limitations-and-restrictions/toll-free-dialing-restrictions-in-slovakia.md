@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: En savoir plus sur la numérotation des numéros gratuits en Slovaquie, notamment la disponibilité, la disponibilité câblé/fixe et la disponibilité du réseau mobile et les restrictions.
-ms.openlocfilehash: 6242443e32660f8a106c5b0642076968f2f41b3f2a17096ad1fa72a062e90217
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d487f9601b1f4ea8afba817acd856922653727b8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285613"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636498"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Restrictions de numérotation gratuit en Slovaquie
 
@@ -47,7 +47,7 @@ ms.locfileid: "54285613"
 |Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

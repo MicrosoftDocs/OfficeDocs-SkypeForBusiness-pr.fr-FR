@@ -9,23 +9,23 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Recueillez les commentaires des utilisateurs pour améliorer l’implémentation de voix cloud dans Microsoft Teams ou Skype Entreprise.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1d12d859f2d6d828db0ad5cfb9aa474143d89c94ddfa4a0b6ccc0d9233fb256c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f08760e7af5b40a063f0dd43c1b728444884bb9d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312712"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594516"
 ---
 # <a name="user-feedback-surveys"></a>Enquêtes de commentaires des utilisateurs 
 
-Utilisez les enquêtes de commentaires pour capturer l’expérience des utilisateurs et les informations après votre déploiement. Les questions doivent susciter l’avis sur l’inéité des utilisateurs à modifier, l’efficacité des ressources de formation, le niveau de préparation du plan de support et l’expérience globale des utilisateurs. Évaluez les réponses aux enquêtes à mesurer par rapport aux objectifs SMART (spécifiques, mesurables, personnalisables, pertinents, liés au temps) que vous avez définis lors de la planification de votre projet, et déterminez toute action supplémentaire requise.
+Utilisez les enquêtes de commentaires pour capturer l’expérience des utilisateurs et les informations après votre déploiement. Les questions doivent susciter des commentaires sur l’inéité des utilisateurs à modifier, l’efficacité des ressources de formation, le niveau de préparation du plan de support et l’expérience globale des utilisateurs. Évaluez les réponses aux enquêtes à mesurer par rapport aux objectifs SMART (spécifiques, mesurables, personnalisables, pertinents, liés au temps) que vous avez définis lors de la planification de votre projet, et déterminez toute action supplémentaire requise.
 
 Personnalisez les questions ci-dessous, puis transférez-les vers un outil d’enquête tel que SharePoint faciliter la distribution et l’analyse.
 
@@ -44,7 +44,7 @@ Indiquez votre niveau d’accord avec les déclarations suivantes en relation av
 | L Teams’utilisation de mon téléphone me permet d’y travailler plus facilement.                                          |                      |                    |             |                       |                         |                        |
 | Mon expérience audio avec Teams est aussi bonne ou meilleure qu’avec notre ancien système téléphonique.                   |                      |                    |             |                       |                         |                        |
 
-Si vous choisissez **N’êtes pas d’accord** **ou** totalement pas d’accord avec l’une des déclarations ci-dessus, veuillez l’expliquer. (Texte ouvert)
+Si vous choisissez **N’êtes pas d’accord** ou pas **du tout** d’accord avec l’une des déclarations ci-dessus, veuillez l’expliquer. (Texte ouvert)
 
 Indiquez votre niveau d’accord avec les déclarations suivantes, en relation avec votre expérience d’intégration avec votre nouveau téléphone.  
 
@@ -54,7 +54,7 @@ Indiquez votre niveau d’accord avec les déclarations suivantes, en relation a
 | J’avais des ressources de formation suffisantes pour m’intégrer rapidement au nouveau système téléphonique.                                                          |                      |                    |             |                       |                         |                        |
 | Notre équipe d’aide pourrait répondre à toutes mes questions sur le nouveau système téléphonique.                                                           |                      |                    |             |                       |                         |                        |
 
-Si vous choisissez **N’êtes pas d’accord** **ou** totalement pas d’accord avec l’une des déclarations ci-dessus, veuillez l’expliquer. (Texte ouvert)
+Si vous choisissez **N’êtes pas d’accord** ou pas **du tout** d’accord avec l’une des déclarations ci-dessus, veuillez l’expliquer. (Texte ouvert)
 
 Allez-vous recommander l’utilisation de Teams comme téléphone à un ami ou un collègue ? (0=Pas du tout... 10=Très probable)
 
