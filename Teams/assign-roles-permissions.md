@@ -11,17 +11,17 @@ search.appverid: MET150
 description: Découvrez comment assigner des rôles et des autorisations de propriétaire et de membre d'équipe dans Microsoft Teams, notamment des autorisations de création d'équipes.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b574c04acdf466f2ad8a46401dd347ff2a82b876eaa61815d0d3ea07d7d9cb8b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 666a623f955cd10fd4ad3e0983ccff83c9725a6b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331096"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586730"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Affecter des propriétaires d’équipe et des membres dans Microsoft Teams
 
@@ -40,7 +40,7 @@ Le tableau ci-dessous présente les différences d’autorisations entre un prop
 | **Modifier le nom/la description d’un canal standard** |    Oui     |    Oui<sup>2</sup>|
 |        **Supprimer un canal standard**         |    Oui     |    Oui<sup>2</sup>|
 |          ***Ajouter un canal privé**          |    Oui     |    Oui<sup>2</sup>|
-| ***Modifier le nom/la description d’un canal privé** |    Non     |    N/A|
+| ***Modifier le nom/la description d’un canal privé** |    Non     |    S/O|
 |        ***Supprimer un canal privé**         |    Oui     |    Non|
 |          **Ajouter des membres**          |  Oui<sup>3</sup>   |     Non<sup>4</sup>    |
 |          **Demande d’ajouter des membres**          |  S/O   |     Oui<sup>5</sup>     |

@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 33e13853e4c2ed9ab9cab328092f7bc44147607187c8f221993d88cb4114a6d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315546"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631638"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Composants et topologies pour le contrôle d’admission des appels dans Skype Entreprise
 
-Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique Skype Entreprise Server Voix Entreprise.
+Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
 
 Les rubriques de cette section donnent des informations sur les considérations spécifiques de déploiement du contrôle d’admission des appels (CAC) avec différents types de topologies réseau.
 
@@ -76,7 +76,7 @@ Le service Cac peut être déployé sur la liaison de réseau wan à partir de l
 
 ![Cas 1 : Contrôle d’accès au contrôle d’accès entre passerelle PSTN du serveur de médiation](../../media/CAC_gateways_1.jpg)
 
-Dans cet exemple, le service Cac est appliqué entre le serveur de médiation et une passerelle PSTN. Si un Skype Entreprise client sur le site réseau 1 passe un appel PSTN via la passerelle PSTN dans le site réseau 2, le média passe par la liaison wan. Par conséquent, deux vérifications cac sont effectuées pour chaque session PSTN :
+Dans cet exemple, le service Cac est appliqué entre le serveur de médiation et une passerelle PSTN. Si un Skype Entreprise client sur le Site réseau 1 passe un appel PSTN via la passerelle PSTN dans le site réseau 2, le média passe par la liaison wan. Par conséquent, deux vérifications cac sont effectuées pour chaque session PSTN :
 
 - Entre l’application Skype Entreprise client et le serveur de médiation
 

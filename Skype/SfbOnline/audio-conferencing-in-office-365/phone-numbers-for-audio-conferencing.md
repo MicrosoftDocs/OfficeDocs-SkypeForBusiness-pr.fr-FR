@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
-ms.openlocfilehash: a0984a4bab89724f0dd00a50a1dbe0161ad837555180086f807f099396c9445e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ad8f10a35ff712d8ee80822343c5098f0b2a907
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586142"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Numéros de téléphone pour l'Audioconférence dans Skype Entreprise Online
 
@@ -77,7 +77,7 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
   
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues qui sont prise en charge pour [l’audioconférence.](/MicrosoftTeams/audio-conferencing-supported-languages)
+- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues prise en charge pour [l’audioconférence.](/MicrosoftTeams/audio-conferencing-supported-languages)
     
 - Vous pouvez utiliser l’cmdlet [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) pour consulter les numéros de téléphone dédiés pour l’audioconférence pour votre organisation.
     
@@ -85,10 +85,10 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
     
 - Vous pouvez configurer jusqu’à quatre langues pour chaque numéro de téléphone d’audioconférence (une langue principale et trois langues secondaires). Vous pouvez également définir des langues sur un numéro de téléphone d’audioconférence dédié.
     
-- Pour définir le numéro de téléphone à composer d’un utilisateur, consultez [Définir les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites.md)
+- Pour définir le numéro de téléphone à composer d’un utilisateur, consultez Définir [les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites.md)
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

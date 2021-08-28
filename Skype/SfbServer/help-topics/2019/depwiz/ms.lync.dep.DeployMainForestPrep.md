@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour préparer la forêt des services de domaine Active Directory, vous devez étendre correctement le schéma, comme décrit dans la rubrique Exécution de la préparation du schéma, et vous assurer que le schéma a été répliqué.
-ms.openlocfilehash: bf84512443e95b8f9c4391cf9ff223edd067d040bb29af85367ee4a146e5e220
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 90d591b79bd4cdc82e5878b3e9173d19a0f48452
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337822"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609791"
 ---
 # <a name="prepare-current-forest"></a>Préparer la forêt actuelle
 

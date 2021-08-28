@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Découvrez ce que les utilisateurs peuvent faire lorsqu’un pool frontal échoue ou revient en arrière pendant la récupération d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: f17e589175c0d91db074f7ff1a1808a32d65410a5c5d7639fa2bcb284ed67680
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276599"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609231"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Expérience utilisateur lors de la défaillance d’un pool Skype Entreprise Server
  
@@ -40,7 +40,7 @@ Lorsqu’un utilisateur se trouve dans un pool qui échoue, il est déconnecté.
 
 La restauration automatique du pool peut survenir pendant qu’un utilisateur affecté est connecté au pool de sauvegarde ; l’utilisateur reste connecté et opérationnel pendant la restauration. Notez que le processus de récupération prend plusieurs minutes. À titre de référence, il devrait prendre jusqu’à 60 minutes pour un pool de 20 000 utilisateurs.
   
-Les tableaux suivants indiquent plus de détails sur la façon dont un utilisateur est affecté pendant et après la récupération, ainsi que sur la façon dont les utilisateurs d’autres pools voient et interagissent avec un utilisateur d’un pool en cours de revenir en arrière. 
+Les tableaux suivants montrent plus de détails sur la façon dont un utilisateur est affecté pendant et après la récupération, ainsi que sur la façon dont les utilisateurs d’autres pools voient et interagissent avec un utilisateur d’un pool en cours de revenir en arrière. 
   
 Le terme utilisateur affecté fait référence à tous les utilisateurs qui ont été basculés à partir du pool d’accueil et qui sont pris en charge par le pool de sauvegarde. Un utilisateur initialement homed sur le pool de sauvegarde n’est pas un utilisateur affecté.
   

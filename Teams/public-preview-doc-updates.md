@@ -17,13 +17,13 @@ f1.keywords:
 description: En savoir plus sur la préversion publique dans Microsoft Teams. Essayez les nouvelles fonctionnalités, puis envoyez vos commentaires.
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
-ms.openlocfilehash: c9e6ba763edd0791310d30f8dc1e71cccc8a4cf8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: high
+ms.openlocfilehash: 84e37bc76fe6c9f52aedae95c3ef01bb49e00cf0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235199"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586548"
 ---
 # <a name="microsoft-teams-public-preview"></a>Préversion publique de Microsoft Teams
 

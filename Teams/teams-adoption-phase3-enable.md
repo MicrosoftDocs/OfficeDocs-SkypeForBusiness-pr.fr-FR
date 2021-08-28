@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Consultez une vue d’ensemble des étapes nécessaires pour prendre en charge l’enablement à grande Teams pour votre organisation.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86255086796d7a48d9e46b5507a92a9f2bc478d94b3eaa042dfa9e574e7aa360
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586506"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Phase 3 de l’adoption de Microsoft Teams - Mettre à l’échelle
 
@@ -41,4 +41,4 @@ Dans cette phase, vous allez utiliser vos apprentissages, équipe de projet tale
 7. Préparez l’engagement continu de l’entreprise.
 8. Préparez les examens d’adoption et d’état & service en cours.
 
-![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) Définir les résultats et le [succès](teams-adoption-define-outcomes.md)
+![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) définir les résultats et le [succès](teams-adoption-define-outcomes.md)

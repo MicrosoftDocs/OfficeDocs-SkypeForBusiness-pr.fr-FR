@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les principaux services et fonctionnalités qui existent dans votre environnement hérité avant de déployer un pool pilote Skype Entreprise Server 2019. Avant de déployer XMPP Microsoft Skype Entreprise Server 2019 dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré pris en charge par la configuration XMPP héritée.
-ms.openlocfilehash: 67583f875a8da0e58cc2c380352a0e1a96415003a9f493ee4f3172f8942972ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277649"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586238"
 ---
 # <a name="verify-the-legacy-environment"></a>Vérifier l’environnement hérité
 
@@ -68,7 +68,7 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
 4. Développez le nœud d’installation hérité pour révéler les différents rôles serveur dans le déploiement.
     
-5. Sélectionnez le nœud de site et vérifiez qu’une valeur d’affectation **d’itinéraire de fédération de** site est définie. 
+5. Sélectionnez le nœud de site et vérifiez qu’une valeur d’affectation d’itinéraire de **fédération de** site est définie. 
     
      ![Générateur de topologie, itinéraire de fédération de site](../media/migration_lyncserver_w14_federation.jpg)
   

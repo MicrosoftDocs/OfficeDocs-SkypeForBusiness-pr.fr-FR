@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeEdgeTypePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour un Serveur Edge unique ou un serveur Edge consolidé à charge équilibrée, cliquez sur Suivant pour indiquer les informations de configuration. Pour un serveur Edge étendu, la configuration de chaque serveur doit être modifiée en configuration Edge consolidée avant de pouvoir être fusionnée.
-ms.openlocfilehash: b09875d5ece5c0cc19984ed800a2c868ca5bc0df75e5991cac84f2414b355799
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bba4ee2776a87084858c2a32d1e3f05d7536457b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323296"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631788"
 ---
 # <a name="legacy-merge-edge-type"></a>Fusion hérité : type de serveur Edge
  

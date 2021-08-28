@@ -1,5 +1,5 @@
 ---
-title: 'Client mobile : création ou modification de la configuration des notifications Push'
+title: 'Client mobile : créer ou modifier la configuration des notifications Push'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: Les notifications Push et le centre d’échange de notifications Push (PNCH) sont deux éléments clés de la fonctionnalité de mobilité. Une notification push correspond au processus dans lequel un message est envoyé au centre d’échanges de notifications push. Ce message y est conservé jusqu’à ce qu’il puisse être remis au client mobile ou que le délai d’expiration soit dépassé.
-ms.openlocfilehash: c22fa3a84564d492bb0da6a3a0b66898da61bd9293557ac1cb922f8d5aaceac9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eecd164c26e1787f6efb81f5b435dbadea94b550
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287113"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631748"
 ---
-# <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Client mobile : Créer ou modifier une configuration des notifications push
+# <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Client mobile : Créer ou modifier une configuration des notifications push
  
 Les notifications Push et le centre d’échange de notifications Push (PNCH) sont deux éléments clés de la fonctionnalité de mobilité. Une notification push correspond au processus dans lequel un message est envoyé au centre d’échanges de notifications push. Ce message y est conservé jusqu’à ce qu’il puisse être remis au client mobile ou que le délai d’expiration soit dépassé. 
   
@@ -38,7 +38,7 @@ Pour activer les notifications push, procédez comme suit :
   
 2. Sélectionnez les services de notification push que vous voulez activer en cochant la case correspondante :
     
-   - **Activer la notification Push De Microsoft** activera la notification Push au PNCH basé sur le cloud pour les Windows Phone l’application Skype Entreprise web
+   - **Activer la notification Push De Microsoft** activera la notification Push au PNCH basé sur le cloud pour Windows Phone avec l Skype Entreprise appl.
     
    - Activer **la notification Push Apple** activera la notification push au PNCH Apple pour les appareils exécutant iOS d’Apple (par exemple, iPhone, iPad) et utilisant l’application Skype Entreprise
     

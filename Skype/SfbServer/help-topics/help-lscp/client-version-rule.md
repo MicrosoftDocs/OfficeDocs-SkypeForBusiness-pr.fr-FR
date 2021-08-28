@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientCVPolicyRuleEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Une stratégie de version des clients est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
-ms.openlocfilehash: dd35979ce67f33f053e89ea941f5e911733d6f16efa2b6b6a2a10c49d2e63884
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f952c1a1c04e98a2635876d3746e828a086daf9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609541"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 
@@ -87,7 +87,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
   - **Autoriser** Permet au client de se connecter.
 
-  - **Autoriser et mettre à niveau** Permet au client de se connecter et de recevoir des mises à jour de Windows Service de mise à jour serveur ou Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
+  - **Autoriser et mettre à niveau** Permet au client de se connecter et de recevoir des mises à jour de Windows Service de mise à jour du serveur ou Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
 
     > [!NOTE]
     > La sélection de cette action entraîne l’affichage d’une notification la prochaine fois que les utilisateurs se connectent Skype Entreprise. La notification indique qu’une mise à jour est disponible, même si les mises à jour n’ont pas encore été publiées sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.

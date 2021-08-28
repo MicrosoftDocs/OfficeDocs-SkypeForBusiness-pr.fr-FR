@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 disponibles pour les Skype Entreprise et Microsoft Teams pour l’Ouganda.
-ms.openlocfilehash: d8c6ce7c33ba3e0fdb8ee4b28e3bf120f7431affbd7466a06fdeb35633332ce6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5182a27e524e1b457f1060ba559fe107bfab723a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293871"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586618"
 ---
 # <a name="availability-in-uganda"></a>Disponibilité en Ouganda
 

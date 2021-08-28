@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientMobilityPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: La page Stratégie de mobilité des clients affiche les stratégies de mobilité disponibles dans votre déploiement.
-ms.openlocfilehash: 20012db7c679e3145f8fda348afc2b242bc3531420675abe31eec068b1b5980a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7962919d0b57284e2d99fa2741f77dbe0ca4d283
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307416"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609531"
 ---
-# <a name="clients-mobility-policy"></a>Clients : stratégie de mobilité
+# <a name="clients-mobility-policy"></a>Clients : stratégie de mobilité
 
 La page **Stratégie** **de** mobilité des clients affiche les stratégies de mobilité disponibles dans votre déploiement.
 

@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez les étapes permettant de réinitialiser l’ID de conférence d’un utilisateur dans Skype Entreprise Online et obtenez des liens vers les outils de mise à jour et de migration de réunion. '
-ms.openlocfilehash: 57523cfc0186120c42fffe01961cd71f623bfa964ecf0c8251a26e518a31abd4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b2f816cf423a25016a67176d6b1479f585ee14e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586132"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Réinitialiser l’ID de conférence d’un utilisateur dans Skype Entreprise Online
 
@@ -80,12 +80,12 @@ Un ID de conférence dynamique est inclus au bas des invitations aux réunions, 
  
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
     
-  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [Utilisation de Windows PowerShell pour gérer Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Réinitialiser le code confidentiel d’audioconférence](reset-the-audio-conferencing-pin.md)

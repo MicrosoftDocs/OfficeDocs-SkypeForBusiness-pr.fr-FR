@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Résumé : Utilisez l’authentification à deux facteurs Skype Entreprise Server et Skype Entreprise.'
-ms.openlocfilehash: deb5e3333c3138138a7bb3889ff515cfc1092576c1174082ef6b5553a1ec7540
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b1003c78020e1181112a0ccadaf66a7d1dd4da4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587122"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Utiliser l’authentification à deux facteurs Skype Entreprise client et Skype Entreprise Server
  
@@ -78,7 +78,7 @@ Avant de vous inscrire avec une carte à puce, celle-ci doit être « inscrite �
     Si vous ne l’avez pas déjà, demandez à votre administrateur Skype Entreprise Server’adresse web de cette ressource. L’URL ressemblera à ceci : https://MyCA .[ yourcompanyname].com/certsrv.
     
     > [!NOTE]
-    > Si vous utilisez Internet Explorer 10, vous devrez peut-être afficher ce site web en mode de compatibilité. 
+    > Si vous utilisez Internet Explorer 10, vous devrez peut-être afficher ce site web en mode de compatibilité. 
   
 3. Lorsque vous êtes invité à vous connecter à la page de certification, connectez-vous à l’aide de votre compte de domaine (plutôt qu’en tant qu’administrateur de votre ordinateur).
     

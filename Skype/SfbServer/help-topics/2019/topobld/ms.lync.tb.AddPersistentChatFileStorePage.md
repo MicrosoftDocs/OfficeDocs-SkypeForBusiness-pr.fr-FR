@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatFileStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous devez indiquer un partage de fichiers à utiliser comme magasin de fichiers pour le serveur Standard Edition ou le pool frontal Enterprise Edition. Vous pouvez utiliser un partage de fichiers existant pour le magasin de fichiers ou spécifier un nouveau partage de fichiers en spécifiant le nom de domaine complet (FQDN) du serveur de fichiers sur lequel situer le partage de fichiers et un nom de dossier pour le nouveau partage de fichiers.
-ms.openlocfilehash: 53ebefcc5bc088b4f3e56d61d6e7ae91baf670deac66df507a80486a2b8efe96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 71215dc48a3404f5ee4d7ba59f62afa489272b51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631838"
 ---
 # <a name="add-persistent-chat-file-store"></a>Ajouter un magasin fichiers de conversation permanente
 

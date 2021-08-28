@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Pour exécuter l’outil stress and performance Skype Entreprise Server 2015, vous devez être en mesure de gérer à la fois les utilisateurs, les contacts et les profils utilisateur, de configurer l’outil pour l’exécuter, puis de passer en revue les résultats produits par l’outil.
-ms.openlocfilehash: c80f623476bcfd33979256185d87786e2cf92d6b48bc0467dc61c1773569e0fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db23c259aa19e8ec9e590218ff233461c677aa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283266"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586876"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Utilisation de l Skype Entreprise Server 2015 Stress and Performance Tool
  
@@ -100,7 +100,7 @@ Lorsque vous cliquez sur **le** bouton Créer des utilisateurs, les paramètres 
   
 La création d’utilisateurs prend du temps. Par conséquent, planifiez en conséquence. Ce processus peut prendre entre plusieurs minutes pour quelques utilisateurs et quelques heures pour un grand nombre d’utilisateurs.
   
-Si vous n’avez pas accès au contrôleur de domaine AD dans votre environnement de test, vous pouvez toujours valider la création d’utilisateurs en vous connectant en tant qu’un des utilisateurs de la plage d’utilisateurs que vous avez spécifiée à créer. N’oubliez pas d’utiliser le préfixe et le suffixe, ainsi que le @sipDomain comme nom d’utilisateur. Voici un exemple :  <em>TestUser20@contoso.net</em>  .
+Si vous n’avez pas accès au contrôleur de domaine AD dans votre environnement de test, vous pouvez toujours valider la création d’utilisateurs en vous connectant en tant qu’un des utilisateurs de la plage d’utilisateurs que vous avez spécifiée pour créer. N’oubliez pas d’utiliser le préfixe et le suffixe, ainsi que le @sipDomain comme nom d’utilisateur. Voici un exemple :  <em>TestUser20@contoso.net</em>  .
   
 > [!NOTE]
 > Si les utilisateurs existent déjà, le fait de cliquer sur le bouton Créer des utilisateurs les met à jour avec les modifications de configuration. 
@@ -226,7 +226,7 @@ Démarrez l’outil Charger la configuration (UserProfileGenerator.exe) et rempl
     
 6. Dans le **champ Domaine de** l’utilisateur, entrez le domaine utilisé pour l’URI SIP. Il est utilisé pour construire l’URI SIP de chaque utilisateur pour se connecter au serveur frontal Skype Entreprise Server 2015 ou au serveur Édition Standard, et peut être différent du domaine de compte.
     
-7. Dans le **champ Domaine du** compte, entrez l’enregistrement de domaine AD DS.
+7. Dans le **champ Domaine du** compte, entrez la logon de domaine AD DS.
     
 8. Dans le champ **Pourcentage MPOP** (pourcentage de points de présence multiples), donnez une valeur au pourcentage d’utilisateurs connectés à partir de plusieurs ordinateurs ou appareils, par exemple 10 %.
     
@@ -255,7 +255,7 @@ Vous pouvez configurer les niveaux de charge et les paramètres pour chacun des 
     
 - **Collaboration de données :** Choisissez un niveau de charge pour la collaboration de données, qui inclut la conférence de données.
     
-- **Développement de liste de distribution :** Cliquez sur **le bouton** Avancé et remplissez le champ avec les mêmes valeurs configurées sous l’onglet DL de l’outil de création d’utilisateurs (UserProvisioningTool.exe). Choisissez un niveau de charge.
+- **Développement de listes de distribution :** Cliquez sur **le bouton** Avancé et remplissez le champ avec les mêmes valeurs configurées sous l’onglet DL de l’outil de création d’utilisateurs (UserProvisioningTool.exe). Choisissez un niveau de charge.
     
 - **Requête web du carnet d’adresses -** Il s’agit du service de recherche de carnet d’adresses plutôt que du téléchargement du fichier de carnet d’adresses. Si vous souhaitez activer cette fonctionnalité pour  les téléchargements de fichiers de carnet d’adresses, cliquez sur le bouton Avancé et définissez **EnableABSDownload** sur True. Donnez une valeur pour le niveau de charge.
     
@@ -319,7 +319,7 @@ Web App prend en charge les scénarios de conférence via le serveur UCWA (Unifi
 - **Conférence vocale -** Sélectionnez une valeur pour le niveau de charge.
     
 > [!NOTE]
-> Chacun des scénarios possède un **bouton Avancé** situé à côté de celui-ci. Les boîtes de dialogue avancées contiennent des valeurs propres à chaque scénario qui modifient le comportement de l’outil Stress and Performance et activent la personnalisation.> Pour chacun des scénarios Web App, si le niveau de charge est **Personnalisé,** la valeur spécifiée dans le champ **ConversationsPerHour** est utilisée à la place de la valeur par défaut.
+> Chacun des scénarios dispose **d’un bouton Avancé** situé à côté de celui-ci. Les boîtes de dialogue avancées contiennent des valeurs propres à chaque scénario qui modifient le comportement de l’outil Stress and Performance et activent la personnalisation.> Pour chacun des scénarios Web App, si le niveau de charge est **Personnalisé,** la valeur spécifiée dans le champ **ConversationsPerHour** est utilisée à la place de la valeur par défaut.
   
 #### <a name="mobility-tab"></a>Onglet Mobilité
 
@@ -334,7 +334,7 @@ Les options disponibles sont les ci-après :
 - **Présence et messagerie instantanée/audio P2P -** Sélectionnez une valeur pour le niveau de charge pour activer la simulation de mobilité.
     
 > [!NOTE]
-> Chacun des scénarios possède un **bouton Avancé** situé à côté de celui-ci. Les boîtes de dialogue avancées contiennent des valeurs propres à chaque scénario qui modifient le comportement de l’outil Stress and Performance et activent la personnalisation.> Pour chacun des scénarios de mobilité, si le niveau de charge est **Personnalisé,** la valeur spécifiée dans le champ **ConversationsPerHour** est utilisée à la place de la valeur par défaut.
+> Chacun des scénarios dispose **d’un bouton Avancé** situé à côté de celui-ci. Les boîtes de dialogue avancées contiennent des valeurs propres à chaque scénario qui modifient le comportement de l’outil Stress and Performance et activent la personnalisation.> Pour chacun des scénarios de mobilité, si le niveau de charge est **Personnalisé,** la valeur spécifiée dans le champ **ConversationsPerHour** est utilisée à la place de la valeur par défaut.
   
 #### <a name="summary-tab"></a>Onglet Résumé
 
@@ -363,7 +363,7 @@ L’outil Load Configuration (UserProfileGenerator.exe) crée un fichier de trai
   
 ### <a name="run-the-stress-and-performance-test"></a>Exécuter le test Stress and Performance
 
-1. Copiez le dossier avec les dossiers de configuration et les fichiers à l’intérieur du répertoire qui LyncPerfTool.exe sur chaque ordinateur client. (Par exemple, si vous avez généré les fichiers de configuration dans le dossier nommé 1.28_13.16.16, copiez ce dossier dans le dossier LyncPerfTool.exe dans celui-ci. Faites-le sur chaque client.)
+1. Copiez le dossier avec les dossiers de configuration et les fichiers à l’intérieur du répertoire LyncPerfTool.exe sur chaque ordinateur client. (Par exemple, si vous avez généré les fichiers de configuration dans le dossier nommé 1.28_13.16.16, copiez ce dossier dans le dossier LyncPerfTool.exe dans celui-ci. Faites-le sur chaque client.)
     
 2. Accédez au dossier client et exécutez le script de lot **RunClient.** Vous pouvez double-cliquer sur le fichier de lots dans Windows Explorer et exécutera tous les fichiers de configuration pour ce client. Vous pouvez également exécuter le script à partir d’un dossier client à l’aide de la syntaxe suivante :
     
@@ -494,7 +494,7 @@ Voici une liste des compteurs de performance clés :
 |Tentatives d’appels entrants/sortants  <br/> |Nombre total d’appels de partage d’application entrants/sortants tentés.  <br/> |
 |Appels entrants/sortants établis  <br/> |Nombre total d’appels de partage d’application entrants/sortants établis.  <br/> |
    
-**Informations d’appel de l’ACA**
+**Informations d’appel caA**
 
 |**Compteur de performance**|**Description**|
 |:-----|:-----|
@@ -511,7 +511,7 @@ Voici une liste des compteurs de performance clés :
 |Conférences audio/vidéo actives  <br/> |Nombre total de conférences audio/vidéo (A/V) en cours.  <br/> |
 |Conférences actives sur le partage d’application  <br/> |Nombre total de conférences de partage d’application en cours.  <br/> |
 |Nombre de participants  <br/> |Nombre total de participants actuellement connectés à des conférences.  <br/> |
-|Échec de la planification des conférences  <br/> |Nombre total d’échecs lors de la tentative de planification d’une conférence.  <br/> |
+|Échec de la planification des conférences  <br/> |Nombre total d’échecs lors de la planification d’une conférence.  <br/> |
 |Échec de la conférence de la réunion  <br/> |Nombre total d’échecs lors de la tentative de connexion à une conférence.  <br/> |
    
 **Compteurs de clients UCWA**

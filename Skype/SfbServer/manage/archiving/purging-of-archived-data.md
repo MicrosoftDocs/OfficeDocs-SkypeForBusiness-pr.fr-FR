@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Résumé : Découvrez comment gérer la purge des données archivées pour Skype Entreprise Server.'
-ms.openlocfilehash: f6eafbacedc715dc3684a16eb17cd5e1b1ae59923046af5cf180e92bbf6a2266
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b071a464ab6c31d64441f06d73493c2bdbbf607a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307075"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587206"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Gérer la purge des données archivées dans Skype Entreprise Server
 
@@ -77,7 +77,7 @@ Pour désactiver le purge automatique des enregistrements d’archivage, défini
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-L’exemple suivant utilise l’cmdlet **Invoke-CsArchivingDatabasePurge** pour vider tous les enregistrements de plus de 24 heures de la base de données d’archivage sur atl-sql-001.contoso.com. Pour vous assurer que tous les enregistrements sont supprimés, y compris les enregistrements qui n’ont pas été exportés, le paramètre PurgeExportedArchivesOnly a la valeur False ($False) :
+L’exemple suivant utilise l’cmdlet **Invoke-CsArchivingDatabasePurge** pour vider tous les enregistrements de plus de 24 heures de la base de données d’archivage sur atl-sql-001.contoso.com. Pour vous assurer que tous les enregistrements sont supprimés, y compris les enregistrements qui n’ont pas été exportés, le paramètre PurgeExportedArchivesOnly est définie sur False ($False) :
   
 ```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

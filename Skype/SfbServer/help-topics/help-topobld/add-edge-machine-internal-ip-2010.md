@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineInternalIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31b0ac1d-f320-4677-bd0f-b4b0dc84a6a2
 description: Utilisez cette page pour préciser l’adresse IP interne et le nom de domaine complet (FQDN) interne du serveur Edge.
-ms.openlocfilehash: 9d48bcb61f1c600b92830d00030338ae1323575773192e37a7e4ba34f35393f2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6e8b055889175a46c7b3846fd45a60819b963a9f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303866"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587380"
 ---
-# <a name="add-edge-machine-internal-ip-2010"></a>Ajouter l’adresse IP 2010 interne de l’ordinateur Edge
+# <a name="add-edge-machine-internal-ip-2010"></a>Ajouter l’adresse IP 2010 interne de l’ordinateur Edge
 
 Utilisez cette page pour préciser l’adresse IP interne et le nom de domaine complet (FQDN) interne du serveur Edge.
 

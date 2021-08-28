@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: Récapitule les étapes nécessaires pour activer E9-1-1 dans Skype Entreprise Server Voix Entreprise, selon que vous avez un fournisseur de services E9-1-1 de la trunk SIP ou une passerelle ELIN.
-ms.openlocfilehash: 881bb361598d63b3222a3391ff88327a148f55d9d2d680c7ade0ecb1c19f31b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e51b51f83279f9676ef113e032c406ee09c28fc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283096"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631588"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Définir vos besoins en matière d’appels d’urgence dans Skype Entreprise Server
  
 Récapitule les étapes nécessaires pour activer E9-1-1 dans Skype Entreprise Server Voix Entreprise, selon que vous avez un fournisseur de services E9-1-1 de la trunk SIP ou une passerelle ELIN.
   
-Avant de commencer un déploiement Skype Entreprise Server E9-1-1, vous devez d’abord être en mesure de répondre aux questions détaillées dans les sections suivantes. La planification dont vous avez besoin dépend du type de solution E9-1-1 que vous choisissez de déployer : fournisseur de services E9-1-1 de jonction SIP ou numéro ELIN (Emergency Location Identification Number). Le tableau suivant identifie les sections de ce manuel de planification que vous devrez consulter pour chacune de ces solutions.
+Avant de commencer un déploiement Skype Entreprise Server E9-1-1, vous devez d’abord être en mesure de répondre aux questions détaillées dans les sections suivantes. La planification dont vous avez besoin dépend du type de solution E9-1-1 que vous choisissez de déployer : fournisseur de services E9-1-1 de jonction SIP ou numéro ELIN (Emergency Location Identification Number). Le tableau suivant identifie les sections de ce manuel de planification que vous devrez examiner pour chacune de ces solutions.
   
 **Étapes de planification par type de solution E9-1-1**
 

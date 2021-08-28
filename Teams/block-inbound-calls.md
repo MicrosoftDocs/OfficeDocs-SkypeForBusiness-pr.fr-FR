@@ -12,14 +12,14 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 971235754c88d082a43c152867dee9d1b60d0da9adfb1fda9659c53aec71b829
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6388c65e5f2c8600c263153b1a943bf485670fe4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295211"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631428"
 ---
 # <a name="block-inbound-calls"></a>Bloquer les appels entrants
 
@@ -38,7 +38,7 @@ Les contrôles d’administration pour le blocage des numéros sont fournis à l
 
 Vous gérez les modèles de numéro à l’aide des cmdlets **New-,** **Get-,** **Set-** et **Remove-CsInboundBlockedNumberPattern.** Vous pouvez gérer un modèle donné à l’aide de ces cmdlets, y compris la possibilité d’activer un modèle donné.
 
-- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) renvoie la liste de tous les modèles de numéro bloqués ajoutés à la liste des locataires, y compris Nom, Description, Activé (Vrai/Faux) et Modèle pour chacun d’eux.
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) renvoie la liste de tous les modèles de nombres bloqués ajoutés à la liste des locataires, y compris Nom, Description, Activé (Vrai/Faux) et Modèle pour chacun d’eux.
 - [New-CsInboundBlockedNumberPattern ajoute](/powershell/module/skype/new-csinboundblockednumberpattern) un modèle de numéro bloqué à la liste des locataires.
 - [Remove-CsInboundBlockedNumberPattern supprime](/powershell/module/skype/remove-csinboundblockednumberpattern) un modèle de numéro bloqué de la liste des locataires.
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) modifie un ou plusieurs paramètres d’un modèle de nombre bloqué dans la liste des locataires.
@@ -98,7 +98,7 @@ Utilisez les capacités intégrées de filtrage PowerShell pour filtrer les vale
 
 Vous pouvez ajouter des exceptions aux modèles de nombres bloqués à l’aide des cmdlets **New-,** **Get-,** **Set-** et **Remove-CsInboundExemptNumberPattern.**
 
-- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) ajoute un modèle d’exception de nombre à la liste des locataires. 
+- [New-CsInboundExemptNumberPattern ajoute](/powershell/module/skype/New-CsInboundExemptNumberPattern) un modèle d’exception de nombre à la liste des locataires. 
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) renvoie la liste de tous les modèles d’exceptions de nombres ajoutés à la liste des locataires.
 - [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) modifie un ou plusieurs paramètres en un modèle d’exception de nombre dans la liste des locataires.
 - [Remove-CsInboundExemptNumberPattern supprime](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) un modèle d’exception de nombre de la liste des locataires.
@@ -142,7 +142,7 @@ Set-CsInboundExemptNumberPattern -Identity "AllowContoso1" -Enabled $False
 
 #### <a name="remove-a-number-exception"></a>Supprimer une exception
 
-L’cmdlet **Remove-CsInboundExemptNumberPattern** supprime le modèle de nombre donné de la liste de locataires. Dans cet exemple, le **paramètre Identité** est obligatoire. 
+L’cmdlet **Remove-CsInboundExemptNumberPattern** supprime le modèle de nombre donné de la liste des locataires. Dans cet exemple, le **paramètre Identité** est obligatoire. 
 
 Si l’identité n’est pas connue, utilisez l’cmdlet **Get-CsInboundExemptNumberPattern** pour rechercher le modèle approprié et noter l’identité. Ensuite, exécutez la cmdlet **Remove-CsInboundExemptNumberPattern** et transmettre la valeur d’identité appropriée.Autorisez le temps de réplication avant de tester et de valider.  
 
@@ -186,4 +186,4 @@ errorMessage    :
 
 ## <a name="using-regex"></a>Utilisation de Regex
 
-La correspondance au modèle de blocage des appelants est effectuée à l’aide de Regex. Plusieurs outils sont disponibles en ligne pour vous aider à valider une correspondance au modèle Regex. Si vous n’êtes pas familiarisé avec les modèles Regex, nous vous recommandons de prendre le temps de vous familiariser avec les bases. Pour vous assurer d’obtenir les résultats attendus, utilisez un outil pour valider les correspondances de modèle avant d’ajouter de nouveaux nombres bloqués à votre client.
+La correspondance au modèle de blocage des appelants s’utilise à l’aide de Regex. Plusieurs outils sont disponibles en ligne pour vous aider à valider une correspondance de modèle Regex. Si vous n’êtes pas familiarisé avec les modèles Regex, nous vous recommandons de prendre le temps de vous familiariser avec les bases. Pour vous assurer d’obtenir les résultats attendus, utilisez un outil pour valider les correspondances de modèle avant d’ajouter de nouveaux nombres bloqués à votre client.

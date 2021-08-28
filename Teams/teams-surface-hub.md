@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
 description: Découvrez comment installer et configurer l’application Teams for Surface Hub pour que Teams’application d’appel et de réunion par défaut.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a4e1786064f0f87d153d3167c9d2eceed3126f9df97e5e6deb77e55c6b1691e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b3856dd7cd88626236e370b633663c1e3182bba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586476"
 ---
 # <a name="deploy-microsoft-teams-for-surface-hub"></a>Déployer Microsoft Teams pour Surface Hub
 
@@ -34,7 +34,7 @@ Avant d’installer Teams pour Surface Hub, assurez-vous de faire les choses sui
  □ assurez-vous que le matériel, le système d’exploitation et d’autres conditions sont satisfaits. Pour plus d’informations, voir le [guide Microsoft Surface Hub’administration des utilisateurs.](/surface-hub/)<br>
  □ assurez-vous que la mise à jour minimale du système d’exploitation requise pour Teams est installée - [KB4343889.](https://support.microsoft.com/help/4343889)<br>
  □ attribuer une licence Teams utilisateur au compte d’appareil Hub.<br>
- □ si vous faites la transition à partir de Skype Entreprise Online, confirmez qu’une licence Teams licence est affectée à l’utilisateur.
+ □ si vous faites la transition à partir de Skype Entreprise Online, confirmez qu’une licence Teams licence est attribuée à l’utilisateur.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Installer Teams pour l Surface Hub installer à partir du Microsoft Store 
 
@@ -47,14 +47,14 @@ Ces instructions s’Teams pour l Surface Hub à partir du Microsoft Store.
 3. Une fois l’installation terminée, redémarrez l’Surface Hub. 
 
 > [!NOTE]
-> N’appuyez **pas sur Lancer à** partir de la page de la liste dans le Store.
+> N’appuyez pas **sur Lancer à** partir de la page de la liste dans le Store.
 
 ## <a name="make-teams-the-default-calling-and-meetings-application"></a>Faire de Teams’application d’appels et de réunions par défaut
  
 Il existe deux options pour configurer la stratégie d’application par défaut pour les appels et les réunions : 
 
 - **Option 1**: configurer via une clé USB. 
-- **Option 2**: configurer via la gestion des appareil photo tels que Intune.
+- **Option 2**: configurer via la gestion des appareil photo tels qu’Intune.
  
 ### <a name="option-1-configure-via-usb-key"></a>Option 1 : configurer via une clé USB 
  
@@ -77,7 +77,7 @@ Vous pouvez trouver les packages sur cette [page de téléchargement.](https://1
 9. Redémarrez le Surface Hub appareil. 
 10. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application Teams à partir de l’écran d’accueil et de participer à une réunion à partir du calendrier. 
 
-### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2 : configurer via la gestion des appareil photo, par exemple, Intune 
+### <a name="option-2-configure-via-mdm-such-as-intune"></a>Option 2 : configurer via la gestion des appareil photo tels que Intune 
 
 Utilisez la procédure suivante pour configurer la stratégie d’application par défaut pour les appels et les réunions via Intune. Consultez également le blog sur [le déploiement Microsoft Teams’application Surface Hub à l’aide d’Intune.](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/)
 
@@ -90,7 +90,7 @@ Utilisez la procédure suivante pour configurer la stratégie d’application pa
 |Paramètres   |Valeur    |
 |----------|---------|
 | Path      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|Type de données | string - set string to Teams application package ID as **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams** |
+|Type de données | string - set string to Teams application package ID **as Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe!Teams** |
 |Opérations| Obtenir, Définir        |
 
 Redémarrez le Surface Hub appareil. Après le redémarrage de l’appareil, vous devriez être en mesure de démarrer l’application Teams à partir de l’écran d’accueil et de participer à une réunion à partir du calendrier.

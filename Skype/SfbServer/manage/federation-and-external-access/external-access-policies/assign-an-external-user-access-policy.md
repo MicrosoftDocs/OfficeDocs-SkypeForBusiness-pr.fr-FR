@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Si un utilisateur a été activé pour Skype Entreprise Server, vous pouvez configurer la fédération SIP, l’accès des utilisateurs distants et la connectivité de messagerie instantanée publique dans le Panneau de configuration Skype Entreprise Server en appliquant les stratégies appropriées à des utilisateurs spécifiques.
-ms.openlocfilehash: 32c97e38da6887e5caf078394e784f835458911a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 4a5f6bfe13c27360c535957cefcfd4093b6a1bad
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587018"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Affecter une stratégie d’accès des utilisateurs externes à Skype Entreprise utilisateur activé
 
@@ -44,7 +44,7 @@ La procédure de cette rubrique vous permet d’appliquer une stratégie d’acc
 
 4.  Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
 
-5.  Dans **Modifier Skype Entreprise Server utilisateur sous stratégie** **d’accès externe,** sélectionnez la stratégie utilisateur à appliquer.
+5.  Dans **Modifier Skype Entreprise Server utilisateur sous** stratégie **d’accès** externe, sélectionnez la stratégie utilisateur à appliquer.
      
 > [!NOTE]  
 > Les paramètres appliquent les paramètres de stratégie globale ou serveur **\<Automatic>** par défaut.

@@ -7,7 +7,7 @@ manager: serdars
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Découvrez comment les groupes Microsoft 365 et les appartenances aux groupes fonctionnent avec Microsoft Teams.
-ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e74e2e8c11753fbf97ef1161e8443f57dbb6146d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282897"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631558"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groupes et groupes Microsoft Teams
 
@@ -30,7 +30,7 @@ Microsoft 365 Les groupes sont le service d’appartenance entre applications da
 
 ![Diagramme montrant Microsoft 365 groupes et services associés](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
-Par défaut, les utilisateurs Microsoft 365 peuvent créer et gérer des groupes. Pour plus d’informations sur Microsoft 365 [](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) de groupe, voir Groupes d’Microsoft 365 et groupes dans [Microsoft 365 poster sur les architectes](teams-architecture-solutions-posters.md#groups-in-microsoft-365) de l’information.
+Par défaut, les utilisateurs Microsoft 365 peuvent créer et gérer des groupes. Pour plus d’informations sur Microsoft 365 [](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) de groupes de personnes, voir l’Microsoft 365 groupes d’architecture et les groupes dans [Microsoft 365 poster sur les](teams-architecture-solutions-posters.md#groups-in-microsoft-365) architectes de l’information.
 
 ## <a name="how-microsoft-365-groups-work-with-teams"></a>Fonctionnement des Microsoft 365 groupes avec Teams
 
@@ -48,11 +48,11 @@ Pour gérer les membres d’une équipe, il est préférable de les ajouter et d
 
 ## <a name="deleting-groups-and-teams"></a>Supprimer des groupes et des équipes
 
-La suppression d’un groupe Microsoft 365 supprime l’alias de boîte aux lettres pour les conversations Outlook/OWA persistantes et les invitations à des réunions Teams et marque le site SharePoint pour suppression. La suppression d’une équipe et son effet sur les Outlook prennent environ 20 minutes. La suppression d’une équipe du client Teams supprimera immédiatement la vue de tous les membres de l’équipe. Si vous supprimez des membres d’un groupe Microsoft 365 qui avait activé les fonctionnalités d’Teams, il peut y avoir un délai d’environ deux heures avant que l’équipe ne soit supprimée du client Teams pour les personnes concernées qui ont été supprimées.
+La suppression d’un groupe Microsoft 365 supprime l’alias de boîte aux lettres des conversations Outlook/OWA persistantes et les invitations aux réunions Teams et marque le site SharePoint pour suppression. La suppression d’une équipe et son effet sur les Outlook prennent environ 20 minutes. La suppression d’une équipe du client Teams supprimera immédiatement la vue de tous les membres de l’équipe. Si vous supprimez des membres d’un groupe Microsoft 365 qui avait activé les fonctionnalités d’Teams, il peut y avoir un délai d’environ deux heures avant que l’équipe ne soit supprimée du client Teams pour les personnes concernées qui ont été supprimées.
 
 Pour plus d’informations sur les options de fin de cycle de vie des groupes et équipes, consultez les options de fin de cycle de vie des [groupes,](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) équipes et Yammer et archivez ou supprimez une équipe [dans Microsoft Teams.](./archive-or-delete-a-team.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Bases de Microsoft Teams (vidéo)](https://aka.ms/teams-foundations)
 

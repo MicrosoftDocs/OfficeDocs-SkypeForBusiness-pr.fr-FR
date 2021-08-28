@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: L’Skype Entreprise Server Management Shell fournit l’interface de ligne de commande pour l’administration et la gestion des serveurs. Il s’Windows PowerShell et inclut un ensemble complet d’cmdlets de gestion et d’administration spécifiques aux Skype et aux produits serveur Lync hérités.
-ms.openlocfilehash: 7213941b6f664375a6c51c3decb3080321e916d231fea3d93e5a933e4f0281f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbff67d52d616d55d8e183ffab91126f8546f1b1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609291"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype Entreprise Server Management Shell
  
@@ -27,7 +27,7 @@ L’Skype Entreprise Server Management Shell fournit l’interface de ligne de c
 Windows PowerShell vous permet de gérer les applications Microsoft à partir de la ligne de commande. Il comporte un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Windows PowerShell a été introduite en tant que version téléchargeable pour le système d’exploitation Windows fin 2006 et a été incorporée en tant qu’interface de ligne de commande pour la gestion de Microsoft Exchange Server 2007. Il a été incorporé dans la plupart des produits Microsoft Server, y compris les serveurs Lync et Skype à partir de Lync Server 2010. Plus de 700 cmdlets Lync et Skype sont disponibles dans Skype Entreprise Server Management Shell.
   
 > [!NOTE]
-> Skype Entreprise référence de cmdlet a été déplacée vers docs.microsoft.com. Cliquer sur les liens ci-dessous vous permettra d’docs.microsoft.com page. Le contenu est désormais open source et disponible pour les contributions de la communauté via GitHub. Vous souhaitez contribuer ? Consultez le readme dans le repo ici : [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
+> Skype Entreprise référence de cmdlet a été déplacée vers docs.microsoft.com. Un clic sur les liens ci-dessous vous permettra d’docs.microsoft.com page. Le contenu est désormais open source et disponible pour les contributions de la communauté via GitHub. Vous souhaitez contribuer ? Consultez le readme dans le repo ici : [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
 Skype Entreprise Server est fourni avec plus de 700 cmdlets qui permettent aux administrateurs de gérer les Skype Entreprise Server l’aide Skype Entreprise Server Management Shell. Vous pouvez récupérer l’aide d’une cmdlet directement à partir de la ligne de commande en tapant une commande semblable à la suivante :
   
@@ -74,4 +74,4 @@ Ce qu’il faut savoir Windows PowerShell dans Skype Entreprise Server :
     Pour plus d’informations, voir [à propos de l’aide updatable.](/powershell/module/microsoft.powershell.core/about/about_updatable_help)
     
     > [!NOTE]
-    > Si vous utilisez PowerShell à distance, vous devrez peut-être autoriser la communication via un pare-feu. Pour en savoir plus sur les ports utilisés par la technologie à remoting PowerShell, consultez l’utilisation de la technologie [à remoting PowerShell.](/archive/blogs/christwe/what-port-does-powershell-remoting-use)
+    > Si vous utilisez PowerShell à distance, vous devrez peut-être autoriser la communication via un pare-feu. Pour en savoir plus sur les ports utilisés par la technologie à remoting PowerShell, voir Quel port utilise la technologie [à remoting PowerShell ?](/archive/blogs/christwe/what-port-does-powershell-remoting-use)

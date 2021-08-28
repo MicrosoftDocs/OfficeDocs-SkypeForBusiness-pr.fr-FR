@@ -1,5 +1,5 @@
 ---
-title: Planifier l’intégration de Skype Entreprise et d’Exchange
+title: Planifier l’intégration de Skype Entreprise et d’Exchange
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Résumé : Examinez cette rubrique pour plus d’informations sur l’intégration de Skype Entreprise Server avec Exchange Server 2016 ou Exchange Server 2013.'
-ms.openlocfilehash: 81217886028db9e8cb04296e5d665aada3a3337683f4b8276fb13d454cdc4b76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609221"
 ---
-# <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
+# <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Planifier l’intégration de Skype Entreprise et d’Exchange
  
 **Résumé :** Pour plus d’informations sur l’intégration de Skype Entreprise Server à Exchange Server 2016 ou Exchange Server 2013, voir cette rubrique.
   
@@ -81,7 +81,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > [!NOTE]
 > Si vous ne connaissez pas la technologie, OAuth est un protocole d’autorisation standard utilisé par un certain nombre de sites web principaux. Avec OAuth, les informations d’identification et les mots de passe de l’utilisateur ne sont pas transmis d’un ordinateur à un autre. Au lieu de cela, l’authentification et l’autorisation sont basées sur l’échange de jetons de sécurité ; ces jetons accordent l’accès à un ensemble spécifique de ressources pendant une durée spécifique. 
   
-Outre la configuration du service de découverte automatique, vous devez également créer un enregistrement DNS pour le service qui pointe vers votre Exchange Server. Par exemple, si votre service de découverte automatique se trouve sur autodiscover.litwareinc.com vous devez créer un enregistrement DNS pour autodiscover.litwareinc.com qui est résolu en nom de domaine complet de votre Exchange Server (par exemple, atl-exchange-001.litwareinc.com).
+En plus de configurer le service de découverte automatique, vous devez également créer un enregistrement DNS pour le service qui pointe vers votre Exchange Server. Par exemple, si votre service de découverte automatique se trouve sur autodiscover.litwareinc.com vous devez créer un enregistrement DNS pour autodiscover.litwareinc.com qui est résolu en nom de domaine complet de votre Exchange Server (par exemple, atl-exchange-001.litwareinc.com).
   
 Si vous intégrez Skype Entreprise Server à Exchange Online, les [étapes suivantes](../../deploy/integrate-with-exchange-server/outlook-web-app.md)sont la configuration de l’intégration entre Skype Entreprise Server local et Outlook Web App , sinon, voir Intégrer Skype Entreprise Server [avec Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
@@ -98,18 +98,18 @@ Le tableau suivant détaille les fonctionnalités prise en charge sous différen
 |Présence dans Outlook  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Répondre par messagerie instantanée, appel PSTN, appel Skype ou appel vidéo à partir d’un Outlook électronique  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Planifier et participer à des réunions en ligne via Outlook  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Présence dans Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
-|Répondre par messagerie instantanée, appel PSTN, appel Skype ou appel vidéo à partir d’un OWA électronique  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
-|Planifier et participer à des réunions en ligne via Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
+|Présence dans Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |O  <br/> |
+|Répondre par messagerie instantanée, appel PSTN, appel Skype ou appel vidéo à partir d’un OWA électronique  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |O  <br/> |
+|Planifier et participer à des réunions en ligne via Outlook Web App  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |O  <br/> |
 |Messagerie instantanée/présence dans les clients mobiles  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Participer à des réunions en ligne dans des clients mobiles  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |Publier l’état en fonction Outlook informations de libre/occupé du calendrier  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Liste des contacts (via le magasin de contacts unifié)  <br/> |Y (besoin Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
+|Liste des contacts (via le magasin de contacts unifié)  <br/> |Y (besoin Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |O  <br/> |
 |Photo de contact haute résolution (nécessite Lync 2013 ou Skype Entreprise clients au minimum. Non pris en charge pour LWA, les applications mobiles, Lync 2010, Lync pour Mac et d’autres clients plus anciens.)  <br/> |Y (besoin Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |v  <br/> |v  <br/> |
 |Délégation de réunion  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
 |L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |v  <br/> |
-|Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Y (besoin Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
-|Rechercher du contenu archivé  <br/> |Y (besoin Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |v  <br/> |
+|Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Y (besoin Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |O  <br/> |
+|Rechercher du contenu archivé  <br/> |Y (besoin Exchange 2016/2013)  <br/> |v  <br/> |N  <br/> |N  <br/> |O  <br/> |
 |Exchange Messagerie vocale de messagerie un peu plus un3  <br/> |v  <br/> |v  <br/> |N  <br/> |N  <br/> |N  <br/> |
 |Historique des conversations côté serveur  <br/> |v  <br/> |v  <br/> |N  <br/> |v  <br/> |v  <br/> |
 

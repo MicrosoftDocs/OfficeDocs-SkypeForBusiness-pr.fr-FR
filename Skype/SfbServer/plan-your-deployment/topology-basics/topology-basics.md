@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Résumé : Choisissez votre topologie pour Skype Entreprise Server. En savoir plus sur la cocation de serveur pour Skype Entreprise Server.'
-ms.openlocfilehash: 922bc26ee6eeea720c62cbbc744953aa5edecf4c03a792fac56ee7910806b6e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349866"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609211"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Informations de base sur la topologie Skype Entreprise Server
 
@@ -33,7 +33,7 @@ Vous pouvez également voir des exemples de topologies dans les [topologies](ref
 
 ## <a name="sites"></a>Sites
 
-Dans Skype Entreprise Server, vous définissez des sites sur votre réseau qui contiennent Skype Entreprise Server composants. Un site désigne un ensemble d’ordinateurs connectés comme il se doit par un réseau haut débit à faible latence, par exemple, un réseau local unique (LAN) ou bien deux réseaux connectés via un réseau haut débit à fibre optique. Notez que Skype Entreprise Server sites web sont un concept distinct des sites des services de domaine Active Directory Microsoft Exchange Server sites. Vos Skype Entreprise Server sites n’ont pas besoin de correspondre à vos sites Active Directory.
+Dans Skype Entreprise Server, vous définissez les sites de votre réseau qui contiennent Skype Entreprise Server composants. Un site désigne un ensemble d’ordinateurs connectés comme il se doit par un réseau haut débit à faible latence, par exemple, un réseau local unique (LAN) ou bien deux réseaux connectés via un réseau haut débit à fibre optique. Notez que Skype Entreprise Server sites de domaine sont un concept distinct des sites des services de domaine Active Directory Microsoft Exchange Server sites. Vos Skype Entreprise Server sites n’ont pas besoin de correspondre à vos sites Active Directory.
 
 Skype Entreprise Server prend en charge le déploiement local d’un ou plusieurs sites qui peuvent être dimensionnés en fonction de vos besoins en matière de haute disponibilité et d’emplacement.
 
@@ -86,7 +86,7 @@ Tous les pools frontux et serveurs Édition Standard déployés sur votre site c
 ||||
 |:-----|:-----|:-----|
 |Directeur ou pool directeur  <br/> |Serveur de médiation autonome ou pool de serveurs de médiation  <br/> |Office Web Apps Server  <br/> |
-|Serveur ou pool de serveurs Edge  <br/> |Serveur de conversation permanente ou pool de serveurs de conversation permanente  <br/> |Surveillance  <br/> |
+|Serveur ou pool de serveurs Edge  <br/> |Serveur de conversation permanente ou pool de serveurs de conversation permanente  <br/> |Analyse  <br/> |
 
 Où se trouve Exchange serveur de messagerie unifiée dans cette liste ? Vous pouvez certainement l’utiliser avec Skype Entreprise Server si vous souhaitez l’intégrer à la Exchange UM, mais qu’il ne s’agit pas d’un composant du site Skype Entreprise Server, donc nous ne le mentionnons pas ici.
 
@@ -95,9 +95,9 @@ Vous prévoyez peut-être d’avoir plusieurs sites centraux, et si c’est le c
 |||
 |:-----|:-----|
 |Serveur de médiation autonome ou pool de serveurs de médiation  <br/> |Serveur ou pool de serveurs Edge  <br/> |
-|Serveur de conversation permanente ou pool de serveurs de conversation permanente  <br/> |Surveillance  <br/> |
+|Serveur de conversation permanente ou pool de serveurs de conversation permanente  <br/> |Analyse  <br/> |
 
-Tout comme pour la dernière liste, nous n’inséons pas le serveur de messagerie un Exchange ici, car il ne fait pas partie du déploiement Skype Entreprise Server, mais il se situe également dans la même catégorie ici.
+Comme dans la dernière liste, nous n’inséons pas le serveur de messagerie un Exchange ici, car il ne fait pas partie du déploiement Skype Entreprise Server, mais il se situe également dans la même catégorie ici.
 
 D’autres composants et options sont évidemment disponibles dans les déploiements.
 
@@ -173,7 +173,7 @@ Le serveur de médiation est un composant nécessaire pour l’Voix Entreprise, 
 
 Pour plus d’informations, [voir composant serveur de médiation dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md).
 
-### <a name="video-interop-server"></a>Serveur d’interopérabilité vidéo (VIS)
+### <a name="video-interop-server"></a>Serveur VIS (serveur d’interopérabilité vidéo)
 
 Video Interop Server est un nouveau rôle depuis Skype Entreprise Server 2015. Il vous permet d’intégrer votre déploiement Skype Entreprise Server avec certaines solutions VTC (Video Teleconferencing System) tierces. Un VIS joue le rôle d’intermédiaire entre un système de téléconférence tiers et un Skype Entreprise Server déploiement. Pour cette version, le VIS se concentre sur l’interopérabilité avec les systèmes vidéo Cisco/Tandberg.
 
@@ -228,7 +228,7 @@ Ces rôles serveur doivent chacun être déployés sur un serveur distinct :
 
 - Microsoft Edge
 
-- Serveur d’interopérabilité vidéo (VIS)
+- Serveur VIS (serveur d’interopérabilité vidéo)
 
 - Office Web Apps
 
