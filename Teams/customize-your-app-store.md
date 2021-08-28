@@ -15,22 +15,22 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: En savoir plus sur le magasin d’applications personnalisées Microsoft Teams.
-ms.openlocfilehash: 0a068634b0f951abff0ae2f1b310cd48bdb80a5d4b790d2fdb81755d05636868
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342988"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584658"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Magasin d’applications personnalisées dans Microsoft Teams
 
 Vous pouvez désormais personnaliser le magasin d’applications de votre organisation dans Teams avec la personnalisation de votre entreprise en ajoutant votre logo, vos arrière-plans et vos couleurs de texte personnalisées pour qu’il soit plus invitant pour les utilisateurs finaux.
 
 > [!Note]
-> L’application des modifications de la marque nécessitera 24 heures.
+> L’application des modifications apportées à la marque nécessitera 24 heures.
 
 Vous pouvez accéder au Magasin de personnalisation dans le Centre d’administration en sélectionnant **Teams applications**  >  **Personnaliser le magasin.**
 
@@ -44,7 +44,7 @@ Cet article décrit les fonctionnalités du magasin d’applications personnalis
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Ici, vous pouvez télécharger le logo de votre organisation. Le logo sélectionné apparaîtra dans le client Teams dans la page **Applications**  >  **conçues pour votre** client.
+Ici, vous pouvez télécharger le logo de votre organisation. Le logo sélectionné s’affiche dans la Teams client **dans les applications**  >  **conçues pour votre** page client.
 
 Lorsque vous sélectionnez **l’option Choisir une** image, vous pouvez télécharger le fichier de votre choix. Le logo doit avoir la taille 240 x 60 ou s’il doit être dimensioné de cette taille. Elle ne doit pas avoir une taille supérieure à 5 Mo. Les formats pris en charge sont les autres :
 
@@ -60,7 +60,7 @@ Le logo apparaît dans le coin supérieur droit du catalogue d’applications cl
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-La marque de logo ou le petit logo de votre organisation est une image ou un symbole représentant la marque de votre organisation et n’inclut pas le nom de votre société. La marque de amour permet aux membres d’une équipe d’identifier le magasin d’applications. Le logo sélectionné s’affiche dans la Teams client dans la page Applications.
+La marque de logo ou le petit logo de votre organisation est une image ou un symbole représentant la marque de votre organisation et n’inclut pas le nom de votre société. Le signet love permet aux membres d’une équipe d’identifier le magasin d’applications. Le logo sélectionné s’affiche dans la Teams client dans la page Applications.
 
 Lorsque vous sélectionnez **l’option Choisir une** image, vous pouvez télécharger le fichier de votre choix. Le logo doit avoir une taille de 32 x 32 pixels, ou réduite à cette taille. Elle ne doit pas avoir une taille supérieure à 5 Mo. Les formats pris en charge sont les autres :
 
@@ -68,7 +68,7 @@ Lorsque vous sélectionnez **l’option Choisir une** image, vous pouvez téléc
 - .png
 - .jpg
 
-Le petit logo s’affiche à côté du titre de **la** section Créé pour le client dans la page d Teams d’accueil du magasin d’articles.
+Le petit logo s’affiche en côté du titre de **la** section Créé pour le client dans la page d Teams d’accueil du magasin d’articles.
 
 ## <a name="customize-the-background-color"></a>Personnaliser la couleur d’arrière-plan
 

@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Découvrez comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015.
-ms.openlocfilehash: 6579d9b6dfa8a2c9bed237cf98685137f229860a7fe4f338f3d994230516d353
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b7157b0f1bd3d1891edac752310343b7211b961
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298584"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608581"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015 : Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente
  
@@ -29,7 +29,7 @@ Skype Entreprise Server prend en charge plusieurs modes de haute disponibilité 
 > [!NOTE]
 > Les groupes de disponibilité AlwaysOn ne sont pas pris en charge avec les serveurs de conversation permanente. 
   
-Avant de configurer votre déploiement de conversation permanente pour la haute disponibilité et la récupération d’urgence, assurez-vous que vous êtes familiarisé avec les concepts de plan de haute disponibilité et de récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans ces rubriques repose sur un pool de serveurs de conversation permanente étiré. Le contenu de planification décrit les besoins en ressources et la topologie de pool étirée qui permet la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et de la livraison des journaux de SQL Server pour la récupération d’urgence.
+Avant de configurer votre déploiement de conversation permanente pour la haute disponibilité et la récupération d’urgence, assurez-vous que vous êtes familiarisé avec les concepts de plan de haute disponibilité et de récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans ces rubriques repose sur un pool de serveurs de conversation permanente étiré. Le contenu de planification décrit les besoins en ressources, ainsi que la topologie de pool étirée qui permet la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et de l’envoi de journaux SQL Server pour la récupération d’urgence.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Utiliser le Générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence
 

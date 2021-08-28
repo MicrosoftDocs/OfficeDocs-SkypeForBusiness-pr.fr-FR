@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 04cd584be5b6333c579ab8b4685ad917236e660474d9e49150eb0f563670fa6c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 749cea72707f03b738330a39457d95fdfad33a43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320007"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609061"
 ---
 # <a name="define-my-success"></a>Définir ma réussite
 
@@ -34,9 +34,9 @@ Cet article donne une vue d’ensemble des conditions requises pour définir le 
 
 **L’audioconférence** fournit aux organisations des points d’entrée supplémentaires pour toutes les réunions (ad hoc ou programmées) en permettant aux participants à la réunion d’y participer via un réseau téléphonique commuté (PSTN) en composant un numéro fixe, privé (PBX) ou un téléphone mobile. Cela est utile lorsque l’organisateur ou les participants ne sont pas devant un ordinateur, ou lorsque les connexions de données sont indisponibles ou peu fiables pour prendre en charge les communications vocales, par exemple, dans une zone distante avec une couverture de données mobile facile à repérer, ou connectées à un service de Wi-Fi public gratuit avec une bande passante limitée, ou lorsque les participants à la réunion préfèrent se connecter à la réunion à l’aide d’un point de terminaison téléphonique facilement accessible.
 
-**Système téléphonique** des forfaits d’appels offre aux organisations un moyen de moderniser leur lieu de travail en permettant aux utilisateurs de passage d’appels téléphoniques professionnels à partir de leurs ordinateurs et appareils mobiles. La sécurité de l’espace de travail peut être dans le cadre de nombreux scénarios : implémentation professionnelle basée sur l’activité, déplacement de bureau majeur, actualisation complète du bureau, retrait d’une solution PBX héritée, conclusion d’un contrat de fournisseur de services PSTN, etc. Avec les forfaits d’appels, Microsoft facilite la connectivité au réseau PSTN.
+**Système téléphonique** des forfaits d’appels offre aux organisations un moyen de moderniser leur lieu de travail en permettant aux utilisateurs de passage d’appels téléphoniques professionnels à partir de leurs ordinateurs et appareils mobiles. La sécurité de l’espace de travail peut être dans le cadre de nombreux scénarios : implémentation de travail basée sur l’activité, déplacement de bureau majeur, actualisation complète du bureau, retrait d’une solution PBX héritée, conclusion d’un contrat de fournisseur de services PSTN, etc. Avec les forfaits d’appels, Microsoft facilite la connectivité au réseau PSTN.
 
-**Système téléphonique** Routage direct (« Routage direct ») offre aux organisations les mêmes avantages répertoriés ci-dessus pour les plans d’appels, sauf que la connectivité RSTN est facilitée par un fournisseur tiers plutôt que Par Microsoft. Cela permet un déploiement dans les pays où les plans d’appel ne sont pas disponibles, ou dans les déploiements où un contrat de fournisseur de services PSTN existant doit être conservé, ou l’interopérabilité avec certains systèmes locaux est requise. Un autre scénario à envisager pour un routage direct est l’interopérabilité du système téléphonique. Pendant la transition des utilisateurs vers la fonction d’appel Teams, certains utilisateurs peuvent rester sur des systèmes PBX hérités. Le routage direct permet aux deux cas d’utilisation de coexister. Le trafic d’appels entre les utilisateurs sur les systèmes hérités Teams utilisateurs restent au sein de l’organisation.
+**Système téléphonique** routage direct (« Routage direct ») offre aux organisations les mêmes avantages répertoriés ci-dessus pour les plans d’appels, sauf que la connectivité RSTN est facilitée par un fournisseur tiers plutôt que Par Microsoft. Cela permet un déploiement dans les pays où les plans d’appel ne sont pas disponibles, ou dans les déploiements où un contrat de fournisseur de services PSTN existant doit être conservé, ou l’interopérabilité avec certains systèmes locaux est requise. Un autre scénario à envisager pour un routage direct est l’interopérabilité du système téléphonique. Pendant la transition des utilisateurs vers la fonction d’appel Teams, certains utilisateurs peuvent rester sur des systèmes PBX hérités. Le routage direct permet aux deux cas d’utilisation de coexister. Le trafic d’appels entre les utilisateurs sur les systèmes hérités Teams utilisateurs restent au sein de l’organisation.
 
 <!--ENDOFSECTION-->
 
@@ -48,7 +48,7 @@ Les cas d’utilisation professionnelle sont destinés à définir et documenter
 
 -   Description du processus commercial actuel
 
--   Défis liés au processus d’entreprise existant
+-   Défis du processus d’entreprise existant
 
 -   Comment la technologie peut aider à surmonter ces difficultés
 
@@ -114,7 +114,7 @@ Les cas d’utilisation d’entreprise définis à l’étape précédente inclu
 > |---------|---------|---------|
 > |Sponsor exécutif du projet|<ul><li>Prenez l’autorité et la responsabilité ultimes pour le projet et la livraison sur les objectifs du projet.</li><li>Permet de résoudre les problèmes qui ont été augmentés par le Project de sécurité.</li><li>Sponsoriser la communication au sein de l’entreprise sur les objectifs du projet.</li><li>Prendre des décisions stratégiques clés.</li><li>Assurez la disponibilité des ressources et du budget requis.</li><li>Conduire des examens trimestriels de l’activité (QBR).</li><li>Drive buy-in and support of awareness campaign efforts.</li><li>Servir de sponsor Project pour le déploiement du programme.</li></ul>|TBA|
 > |Chef de projet|<ul><li>Gérez et dirigez l’équipe de projet.</li><li>Coordonnez les partenaires et les équipes de travail impliqués dans le projet.</li><li>Soyez responsable de la création et de la gestion de plans de projet afin d’atteindre des résultats clés trimestriels.</li><li>Résolvez les problèmes fonctionnels croisés.</li><li>Fournir des mises à jour régulières aux sponsors de projet.</li><li>Intégrez les aspects d’adoption au plan de projet général.</li><li>Conduire des révisions métiers et opérationnelles mensuelles (MoR), qui contribuent aux QBR.</li></ul>|TBA|
-> |Chef/architecte de la collaboration|<ul><li>Exécuter la stratégie de collaboration définie par les cadres de l’entreprise.</li><li>Analyser et choisir des produits de collaboration qui répondent aux objectifs professionnels de l’entreprise.</li><li>Opérations de conception pour les produits de collaboration.</li><li>Définir des modèles d’opération et de support.</li><li>Contribuez aux révisions mensuelles et trimestrielles de l’entreprise.</li></ul>|TBA|
+> |Chef/architecte de la collaboration|<ul><li>Exécuter la stratégie de collaboration définie par les cadres de l’entreprise.</li><li>Analyser et choisir des produits de collaboration qui répondent aux objectifs de l’entreprise.</li><li>Opérations de conception pour les produits de collaboration.</li><li>Définir des modèles d’opération et de support.</li><li>Contribuez aux révisions mensuelles et trimestrielles de l’entreprise.</li></ul>|TBA|
 > |Consultant|<ul><li>Être responsable des services de configuration</li><li>Contribuez à l’architecture globale de la solution.</li></ul>|TBA|
 > |Gestionnaire de projets|<ul><li>Développez et maintenez le plan du projet.</li><li>Gérez les livrables du projet en ligne avec le plan et le budget du projet.</li><li>Enregistrez et gérez les problèmes du projet, notamment les escalades.</li><li>Effectuer des appels de support hebdomadaires.</li><li>projet avec des cadres délégués de projet et fournir des mises à jour.</li><li>Travaillez avec l’architecture pour définir l’approche de gestion des changements et les plans de communication.</li></ul>|TBA|
 > |Spécialiste en gestion des changements/adoption|<ul><li>Fournir des informations pendant la phase de découverte dans les processus d’adoption et de formation.</li><li>Participez à l’atelier de stratégie d’adoption.</li><li>Développez et prenez les responsabilités de la stratégie d’adoption.</li><li>Développez et exécutez le plan de communication.</li><li>Fournir des formations aux utilisateurs.</li><li>Recueillez des commentaires et effectuez des enquêtes.</li></ul>|TBA|
@@ -142,7 +142,7 @@ Les cas d’utilisation d’entreprise définis à l’étape précédente inclu
 
 Une fois les parties prenantes de projet réunies, vous pouvez traduire les cas d’utilisation professionnelle, l’étendue organisationnelle et les échéanciers des projets en objectifs et résultats clés (OKR), et les mesures de réussite des projets peuvent être définies comme une liste d’indicateurs de réussite clés (KSI).
 
-La participation complète des parties prenantes au développement de stratégies d’entreprise et de KSI est essentielle pour leur permettre de s’assurer qu’elles ont un sentiment de propriété et d’aligner ces mesures de réussite par rapport aux besoins de l’entreprise.
+La participation complète des parties prenantes du projet à la définition d’okrs et d’KSI est essentielle pour leur permettre de s’assurer qu’elles ont un sentiment de propriété et d’aligner ces mesures de réussite par rapport aux besoins de l’entreprise.
 
 Les indicateurs de performance clés contiennent les objectifs que vous avez définis au début du projet, et vous définissez des résultats clés mesurables sur une base trimestrielle. Vous examinez les principaux résultats tous les mois pour suivre l’état du projet global et, en fonction de l’avancement, vous ajustez les plans trimestriels selon vos besoins.
 

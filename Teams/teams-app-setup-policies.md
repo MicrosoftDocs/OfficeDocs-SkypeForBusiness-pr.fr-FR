@@ -12,19 +12,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies de configuration d’Microsoft Teams pour les utilisateurs de votre organisation.
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ba7d381b106cd23c0c89f9013659bd8875c8bcbca5eb5139398e61db7dd97f9b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a6277ffe3dcc8dc64f3e11a4de8c8a308c57a95
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346151"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608721"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -88,7 +88,7 @@ Vous pouvez choisir les applications installées par défaut pour les utilisateu
 - Installer des applications dans des réunions pour les organisateurs de réunion
 
 > [!NOTE]
-> Les utilisateurs peuvent toujours installer des applications eux-mêmes [si](teams-app-permission-policies.md) la stratégie d’autorisation d’application qui leur est attribuée le permet.
+> Les utilisateurs peuvent toujours installer les applications elles-mêmes [si](teams-app-permission-policies.md) la stratégie d’autorisation d’application qui leur est attribuée le permet.
 
 Pour créer une stratégie de configuration d’application pour installer des applications, vous pouvez suivre les étapes suivantes :
 

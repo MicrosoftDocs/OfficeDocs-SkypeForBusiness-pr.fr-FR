@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 9caf8cac3c45088cde68635a46ab9ebd79b5ca3bc203f71dc2ea0fce34968e3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 465684ed4cfc857ede340d960f82d8be13031808
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279950"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609091"
 ---
 # <a name="videostreamdetail-view"></a>Vue VideoStreamDetail
  
@@ -86,7 +86,7 @@ La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la 
 |CallerLinkSpeed  <br/> |decimal(18,)  <br/> |Vitesse de la liaison réseau pour le système d’extrémité de l’appelant, en bits/s.  <br/> |
 |CalleeNetworkConnectionType  <br/> |tinyint  <br/> |Type de connexion réseau de l’appelé : 0 est câblé, 1 est sans fil.  <br/> |
 |CalleeVPN  <br/> |bit  <br/> |Indique si l’appelé s’est connecté ou non sur un réseau privé virtuel. 1 est un réseau privé virtuel (VPN), 0 est un réseau non VPN.  <br/> |
-|CalleeLinkSpeed  <br/> |decimal(18,0)  <br/> |Vitesse de liaison réseau pour le point de terminaison de l’appelé (en bps).  <br/> |
+|CalleeLinkSpeed  <br/> |décimal(18,0)  <br/> |Vitesse de liaison réseau pour le point de terminaison de l’appelé (en bps).  <br/> |
 |ConversationalMOS  <br/> |décimal(3,2)  <br/> |Note MOS qualité conversation à bande étroite des sessions audio (basés sur les deux flux audio).  <br/> |
 |AppliedBandwidthLimit  <br/> |int  <br/> |Bande passante réellement appliquée au flux côté envoi d’après différents paramètres de stratégie (TURN, API, SDP, serveur de stratégie, etc.). À ne pas confondre avec la bande passante effective car il peut exister une bande passante effective plus basse basée sur l’estimation de la bande passante. Il s’agit en fait de la bande passante maximale pouvant être traitée par le flux d’envoi en ne tenant pas compte des limites imposées par l’estimation de la bande passante.  <br/> |
 |JitterInterArrival  <br/> |int  <br/> |Gigue réseau moyenne d’après les statistiques RTCP (Real Time Control Protocol).  <br/> |
@@ -95,7 +95,7 @@ La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la 
 |RoundTripMax  <br/> |int  <br/> |Durée d’aller-retour maximale pour le flux audio.  <br/> |
 |PacketLossRate  <br/> |decimal(5,4)  <br/> |Taux moyen de perte de paquets pendant l’appel.  <br/> |
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |Perte maximale de paquets observée pendant l’appel.  <br/> |
-|PacketUtilization  <br/> |int  <br/> |Nombre de paquets pour le flux vidéo (protocole rtp de transport en temps réel).  <br/> |
+|PacketUtilization  <br/> |int  <br/> |Nombre de paquets pour le flux vidéo (protocole de transport en temps réel, RTP).  <br/> |
 |BandwidthEst  <br/> |int  <br/> |Estimations de la bande passante pour le flux audio.  <br/> |
 |PayloadDescription  <br/> |int  <br/> |Codec audio utilisé pour l’appel, référencé à partir de la [table PayloadDescription](payloaddescription.md).  <br/> |
 |VideoResolution  <br/> |char(9)  <br/> |Résolution de la vidéo en pixels de largeur multipliée par la hauteur en pixels. Signalé sous la mesure d’une chaîne.  <br/> |

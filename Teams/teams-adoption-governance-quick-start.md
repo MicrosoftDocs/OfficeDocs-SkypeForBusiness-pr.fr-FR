@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Démarrage rapide qui couvre les principales décisions que vous devrez prendre pour la phase 2 de votre plan d Microsoft Teams adoption.
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bc263c799ff631a53f25761e8d88c1ff52fb1dd0be9202a95605871022e555
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b47f0d9229a695b595255d26da773204e5b21a2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608702"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Démarrage rapide pour la gouvernance de Microsoft Teams
 
@@ -59,7 +59,7 @@ L’utilisation la plus Teams inclut l’intégration d’autres applications à
 
 ### <a name="decision-5-are-meetings-included-in-your-test"></a>Décision 5 : Les réunions sont-elles incluses dans votre test ? 
 
-La Teams de réunion est de haute qualité, prend en charge la conversation vidéo et rassemble vos employés pour être plus efficaces. Consultez votre équipe technique pour vous assurer que votre environnement est prêt à inclure des réunions VoIP simples. L’activation de l’audioconférence ou des services vocaux serait normalement exclue de cette phase de votre expérimentation ; toutefois, cela dépend de votre équipe de projet principale, de votre préparation technique et de l’état des autres services vocaux/de réunion dans votre organisation. La préparation technique doit inclure des éléments tels que l’équipement de salle de réunion, les appareils et accessoires des utilisateurs finaux, et le réseau. Nous vous recommandons d’inclure les conversations vidéo et les réunions VoIP lors de votre expérimentation afin de tirer encore plus de valeur de Teams implémentation. 
+La Teams de réunion est de haute qualité, prend en charge la conversation vidéo et rassemble vos employés pour être plus efficaces. Consultez votre équipe technique pour vous assurer que votre environnement est prêt à inclure des réunions VoIP simples. L’activation de l’audioconférence ou des services vocaux serait normalement exclue de cette phase de votre expérimentation . toutefois, cela dépend de votre équipe de projet principale, de votre préparation technique et de l’état des autres services vocaux/de réunion dans votre organisation. La préparation technique doit inclure des éléments tels que l’équipement de salle de réunion, les appareils et accessoires des utilisateurs finaux, et le réseau. Nous vous recommandons d’inclure les conversations vidéo et les réunions VoIP lors de votre expérimentation afin de tirer encore plus de valeur de Teams implémentation. 
 
 ### <a name="decision-6-content-management-and-structure"></a>Décision 6 : structure et gestion du contenu
 Teams fonctionne de façon efficace lorsque les utilisateurs travaillent de bout en bout au sein de la plateforme, au lieu de les obliger à revenir continuellement à des systèmes et services hérités, et offrent de nouvelles façons de travailler différentes de celle à laquelle les utilisateurs sont habitués. Dans le cadre de vos expérimentations, collaborez avec vos participants afin d’envisager les structures et canaux d’équipe qui adoptent les méthodes multi modales de collaboration au sein d’Teams et évitez simplement de répliquer les dossiers et structures de stockage existants. En outre, envisagez les exigences de conformité pour le contenu stocké en dehors de systèmes pris en charge existants tels que les systèmes de gestion des enregistrements ou de sauvegarde.

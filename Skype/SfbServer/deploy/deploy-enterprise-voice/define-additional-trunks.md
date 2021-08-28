@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Résumé : Découvrez comment définir une branche supplémentaire entre un serveur de médiation et un homologue de passerelle dans le Générateur de topologies dans Skype Entreprise Server.'
-ms.openlocfilehash: 5c6863b93de0e8cf96ae2fa521da8dcd4b75c836d70d1d22d734ef25a21d6568
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42f435079a66f7dba6c325ad8afbb1b28a3e3753
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283826"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585854"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Définir des branches supplémentaires dans le Générateur de topologies dans Skype Entreprise Server
  
@@ -32,7 +32,7 @@ Suivez ces étapes pour définir une ligne supplémentaire à laquelle vous pouv
 Une connexion est une connexion logique entre un serveur de médiation et une passerelle.
   
 > [!NOTE]
-> Cette rubrique suppose que vous avez configuré une passerelle PSTN et une troncation racine avec au moins un serveur ou pool de médiation c c colloc ou autonome, comme décrit dans Définir une passerelle dans le Générateur de topologies dans [Skype Entreprise Server](define-a-gateway.md) dans la documentation de déploiement.
+> Cette rubrique suppose que vous avez configuré une passerelle PSTN et une troncation racine avec au moins un serveur de médiation ou pool c c colloc ou autonome, comme décrit dans Définir une passerelle dans le Générateur de topologies dans [Skype Entreprise Server](define-a-gateway.md) dans la documentation de déploiement.
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>Pour définir une ligne supplémentaire entre un serveur de médiation et un homologue de passerelle
 
@@ -60,7 +60,7 @@ Une connexion est une connexion logique entre un serveur de médiation et une pa
     > Avec la prise en charge de plusieurs trunks dans Skype Entreprise Server, deux trunks avec des noms de trunks différents ne peuvent pas être configurés avec le même port de serveur de médiation associé et le même **port** d’écoute pour la passerelle **IP/PSTN**
   
     > [!NOTE]
-    > Avec la prise en charge de plusieurs Skype Entreprise Server, plusieurs ports de signalisation SIP peuvent être définis sur le serveur de médiation pour la communication avec plusieurs homologues. Lors de la définition d’une trunk, le numéro de **port** du serveur de médiation associé doit se trouver dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype Entreprise Server pools de serveurs de médiation et de médiation. Cliquez avec le bouton droit sur le pool de serveurs de médiation approprié, puis **sélectionnez Modifier les propriétés.** Spécifiez la plage de ports dans le champ **Ports d’écoute**.
+    > Avec la prise en charge de plusieurs Skype Entreprise Server, plusieurs ports de signalisation SIP peuvent être définis sur le serveur de médiation pour la communication avec plusieurs homologues. Lors de la définition d’une trunk, le numéro de **port** du serveur de médiation associé doit se trouver dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype Entreprise Server pools de serveurs de médiation et de médiation. Cliquez avec le bouton droit sur le pool de serveurs de médiation approprié, puis sélectionnez **Modifier les propriétés.** Spécifiez la plage de ports dans le champ **Ports d’écoute**.
   
 7. Cliquez sur **OK**. 
     

@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Pour créer un numéro de téléphone par défaut, les appelants pourront rejoindre une Microsoft Teams réunion.
-ms.openlocfilehash: 11c9a31d723b5da63152f1a8a79d54938f9ecc31644afbe3421a2bd59f0f5626
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Suivez ces étapes pour créer un numéro de téléphone par défaut pour que les appelants participent Microsoft Teams réunion.
+ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335894"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608801"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Définir les numéros de téléphone inclus sur les invitations dans Microsoft Teams.
 
@@ -43,9 +43,9 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
   
 ## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>Affectation initiale des numéros de téléphone inclus dans les invitations aux réunions pour les nouveaux utilisateurs
 
-Les numéros de téléphone inclus dans les invitations aux réunions des utilisateurs activés pour l’audioconférence sont définis par le numéro de téléphone gratuit de conférence par défaut et les paramètres d’utilisateur du numéro de téléphone gratuit de conférence par défaut. Chaque paramètre spécifie le numéro gratuit et gratuit qui sera inclus dans l’invitation à la réunion d’un utilisateur donné. Comme indiqué ci-dessus, chaque invitation à une réunion contient un numéro gratuit, un numéro gratuit facultatif et un lien qui ouvre la liste complète de tous les numéros de téléphone à composer pour participer à une réunion donnée.
+Les numéros de téléphone inclus dans les invitations aux réunions des utilisateurs activés pour l’audioconférence sont définis par le numéro de téléphone gratuit de conférence par défaut et les paramètres d’utilisateur du numéro de téléphone gratuit de conférence par défaut. Chaque paramètre spécifie les numéro gratuits et gratuits qui seront inclus dans l’invitation à la réunion d’un utilisateur donné. Comme indiqué ci-dessus, chaque invitation à une réunion contient un numéro gratuit, un numéro gratuit facultatif et un lien qui ouvre la liste complète de tous les numéros de téléphone à composer pour participer à une réunion donnée.
 
-Pour un nouvel utilisateur, les numéros gratuits de conférence par défaut sont affectés en fonction de l’emplacement d’utilisation qui est définie dans le centre d’administration Microsoft 365 de l’utilisateur lorsque l’utilisateur est activé pour le service d’audioconférence. Si le pont de conférence compte un numéro de téléphone qui correspond au pays de l’utilisateur, ce numéro est automatiquement affecté comme numéro de téléphone par défaut à l’utilisateur. S’il n’y en a pas, le numéro défini comme numéro toll par défaut du pont de conférence sera affecté au numéro de téléphone par défaut de l’utilisateur.  
+Pour un nouvel utilisateur, les numéros gratuits de conférence par défaut sont affectés en fonction de l’emplacement d’utilisation qui est définie dans le centre d’administration Microsoft 365 de l’utilisateur lorsque l’utilisateur est activé pour le service d’audioconférence. Si le pont de conférence compte un numéro de téléphone qui correspond au pays de l’utilisateur, ce numéro est automatiquement affecté comme numéro de téléphone par défaut à l’utilisateur. S’il n’y en a pas, le numéro défini comme numéro toll par défaut du pont de conférence sera affecté au numéro par défaut de l’utilisateur.  
 
 Une fois le service d’audioconférence activé pour l’utilisateur, les numéros de téléphone gratuits et gratuits par défaut peuvent être modifiés à tout moment par l’administrateur client par rapport à leurs valeurs initiales.
 
@@ -78,10 +78,10 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
 
 - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
-  
+Pour définir ou modifier le numéro de téléphone d’audioconférence par défaut d’un organisateur de réunion ou d’un utilisateur à l’aide de [Microsoft Teams PowerShell,](/powershell/module/teams/?view=teams-ps)définissez les paramètres ou les paramètres de la **`ServiceNumber`** **`TollFreeServiceNumber`** cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) sur l’un des numéros disponibles.
+
 ## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

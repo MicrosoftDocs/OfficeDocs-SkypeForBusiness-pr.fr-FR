@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Lisez cette rubrique pour découvrir comment migrer des appareils Lync Room System pour utiliser le Salles Microsoft Teams logiciel.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a700e66a966035b52a3036210e39c09612ed18b5df34430545987c51c40575f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 98604c36a987dde15633e9d9b1a3a283c0f36fa2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608821"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrer des appareils Lync Room System (LRS) vers Salles Microsoft Teams
 
@@ -58,7 +58,7 @@ Pour les clients SMART LRS, à l’exception du programme de cérité du matéri
 
 ## <a name="what-should-you-do"></a>Que devez-vous faire ?
 
-Nous vous recommandons de planifier la mise à jour des appareils Lync Room System Salles Microsoft Teams avant la dés déconseillation de TLS 1.0/1.1 à l’aide des options de mise à niveau mentionnées ci-dessus. En outre, vous pouvez également envisager de remplacer les appareils existants par de nouveaux appareils certifiés Salles Microsoft Teams. Pour [plus d’informations,](https://aka.ms/roomdevices) consultez les appareils De salle et consultez [la Salles Microsoft Teams requise.](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)  
+Nous vous recommandons de planifier la mise à jour des périphériques Lync Room System Salles Microsoft Teams avant la désins déconseillation de TLS 1.0/1.1 à l’aide des options de mise à niveau mentionnées ci-dessus. En outre, vous pouvez également envisager de remplacer les appareils existants par de nouveaux appareils certifiés Salles Microsoft Teams. Pour [plus d’informations,](https://aka.ms/roomdevices) consultez les appareils De salle et consultez [la Salles Microsoft Teams requise.](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)  
 
 
 > [!NOTE]

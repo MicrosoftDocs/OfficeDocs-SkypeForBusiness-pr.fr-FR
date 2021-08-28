@@ -15,25 +15,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez les paramètres de longueur et d’exigences d’un code confidentiel et comment définir la durée des réunions dans Microsoft Teams.
-ms.openlocfilehash: cab8976ab0c92a3594dbf881426606288fb611a4dbc286ba0c3d36a1c2096133
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68297e437bdf0f3be9affa4d5e5518295dd05ab7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348729"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608781"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Définir la longueur du code confidentiel pour les réunions d'audioconférence dans Microsoft Teams
 
 Lors de la configuration de l’audioconférence Microsoft Teams, vous recevez un pont d’audioconférence. Un pont de conférence peut contenir un ou plusieurs numéros de téléphone. Le numéro de téléphone que vous définissez sera inclus dans les invitations à la réunion pour l Microsoft Teams appeil.
   
-Le pont de conférence audio répond à l'appel des membres qui sont en cours de connexion à une réunion à l’aide de leur téléphone. Il répond à l’appelant à l’aide des invites vocales d’un attendant automatique, puis, selon vos paramètres, peut lire les notifications et demander aux appelants d’enregistrer leur nom. Les **Paramètres de pont de Microsoft** permettent de modifier les paramètres des notifications de réunion et l’expérience d’accès aux réunions, et de définir la longueur des codes confidentiels utilisés par les organisateurs de réunions. Les organisateurs de réunion utilisent des piNs pour démarrer des réunions s’ils ne peuvent pas y participer à l’aide de l’Microsoft Teams réunion.
+Le pont de conférence audio répond à l'appel des membres qui sont en cours de connexion à une réunion à l’aide de leur téléphone. Il répond à l’appelant avec les invites vocales d’un attendant automatique, puis, selon vos paramètres, peut lire des notifications et demander aux appelants d’enregistrer leur nom. Les **Paramètres de pont de Microsoft** permettent de modifier les paramètres des notifications de réunion et l’expérience d’accès aux réunions, et de définir la longueur des codes confidentiels utilisés par les organisateurs de réunions. Les organisateurs de réunion utilisent des piNs pour démarrer des réunions s’ils ne peuvent pas y participer à l’aide de l’Microsoft Teams réunion.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

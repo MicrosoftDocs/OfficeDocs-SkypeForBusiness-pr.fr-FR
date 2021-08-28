@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Découvrez comment utiliser le Microsoft Teams d’administration pour consulter la liste de tous les numéros de téléphone de votre organisation ainsi que ceux attribués à des utilisateurs ou non attribués.
-ms.openlocfilehash: 6d66b1fb1b4118bca60dc37fed7f4eac8c18090c34fa68ba6a61fba860fb5710
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1bad09f115ae31bf392fe14e4d00e1b59b00e3c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339442"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608791"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Affichage de la liste des numéros de téléphone de votre organisation
 
@@ -93,7 +93,7 @@ Lorsque vous configurez des utilisateurs de votre organisation pour passer et re
     > [!IMPORTANT]
     > Pour que l’option Voix s’offre à vous dans le navigation gauche du Centre d’administration Microsoft Teams,  vous devez tout d’abord acheter au moins une licence **Enterprise E5,** une licence de module Système téléphonique ou une licence de module ajout  **d’audioconférence.**
 
-3. Cliquez sur l’icône de filtre pour filtrer votre affichage par état **d’activation.** Vous pouvez filtrer par :
+3. Cliquez sur l’icône de filtre pour filtrer votre affichage par **état d’activation.** Vous pouvez filtrer par :
 
    - **Activé**
 

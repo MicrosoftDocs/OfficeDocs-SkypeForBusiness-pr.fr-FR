@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la boîte de dialogue Modifier la stratégie de mobilité, vous pouvez modifier les détails d’une stratégie de mobilité.
-ms.openlocfilehash: bb3db80f77e96e3affa47265bdd105d1a3f7d3293743fc6f6f37a09d00accea2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29a53a43e098c9f01c2fea5acfb91bc61a2c1452
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330398"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585436"
 ---
 # <a name="edit-client-mobility-policy"></a>Modifier la stratégie de mobilité client
 

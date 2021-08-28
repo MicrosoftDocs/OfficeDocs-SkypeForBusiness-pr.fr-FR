@@ -9,19 +9,19 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Vue d’ensemble de Skype Entreprise outils de télémétrie en ligne pour surveiller une implémentation sur site dans un scénario hybride.
-ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407173"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608641"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
-## <a name="overview"></a>Aperçu
+## <a name="overview"></a>Vue d’ensemble
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -30,7 +30,7 @@ Cette rubrique décrit les avantages, les considérations relatives à la planif
 
 Call Data Connector simplifie considérablement la surveillance des appels dans un environnement hybride, car vous n’avez plus besoin d’utiliser différents ensembles d’outils locaux et en ligne pour surveiller la qualité des appels de tous vos utilisateurs. Que vos utilisateurs soient en local ou en ligne, vous pouvez choisir d’afficher la qualité des appels pour l’ensemble de votre organisation en ligne.
 
-Avec Le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
+Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
 
 - Surveillez votre expérience utilisateur dans Microsoft Teams, Skype Entreprise Online et Skype Entreprise Server.
 

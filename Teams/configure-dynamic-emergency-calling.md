@@ -10,7 +10,7 @@ ms.collection:
 - M365-voice
 - m365initiative-voice
 ms.reviewer: roykuntz
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ description: Découvrez comment configurer les plans d’appel Microsoft et Syst
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc15048dcb99ab3bbb3a087467bff88f5552b970c4f1006bef97924d8d92cdf0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7774b6ebf062f3df9f27736b3c6cc68e4151e14b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322746"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584818"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planifier et configurer un appel d’urgence dynamique 
 
@@ -31,7 +31,7 @@ Les appels d’urgence dynamiques pour les plans d’appel Microsoft et le routa
 
 En fonction de la topologie de réseau définie par l’administrateur client, le client Teams fournit les informations de connectivité réseau dans une demande au service d’informations d’emplacement. En cas de correspondance, le LIS renvoie un emplacement au client. Ces données d’emplacement sont transmises au client.  
 
-Le Teams inclut des données de localisation dans le cadre d’un appel d’urgence. Ces données sont ensuite utilisées par le fournisseur de services d’urgence pour déterminer le point d’accès à la sécurité publique approprié (PUBLIC SAFETY Answering Point) et pour router l’appel vers ce public PUBLICP, ce qui permet au régulateur du service PUBLIC PUBLIC d’obtenir l’emplacement de l’appelant.  
+Le Teams inclut des données de localisation dans le cadre d’un appel d’urgence. Ces données sont ensuite utilisées par le fournisseur de services d’urgence pour déterminer le point de réponse de la sécurité publique appropriée (PUBLIC Safety Answering Point) et pour router l’appel vers ce réseau PUBLIC PUBLIC, ce qui permet au régulateur DUP d’obtenir l’emplacement de l’appelant.  
 
 Pour les appels d’urgence dynamiques, les situations suivantes doivent se produire :
 
@@ -43,7 +43,7 @@ Pour les appels d’urgence dynamiques, les situations suivantes doivent se prod
 
    - S’il existe une correspondance de site de paramètres réseau, les stratégies d’appel d’urgence sont renvoyées au client Teams à partir de ce site. (Pour plus d’informations sur les stratégies, voir [Configurer les stratégies d’urgence).](#configure-emergency-policies)
 
-   - En cas de correspondance de lis : un emplacement d’urgence à partir de l’élément réseau à partir Teams client est connecté est renvoyé au client Teams client. La correspondance est effectuée dans l’ordre suivant avec le premier résultat renvoyé :
+   - S’il existe une correspondance de lis , un emplacement d’urgence à partir de l’élément réseau à partir Teams client connecté est renvoyé au client Teams client. La correspondance est effectuée dans l’ordre suivant avec le premier résultat renvoyé :
        - WAP
        - Commutateur/port Ethernet
        - Commutateur Ethernet
@@ -66,7 +66,7 @@ La possibilité d’assurer un routage automatique vers le point de réponse de 
 
 Pour plus d’informations sur les appels d’urgence, notamment sur les adresses de secours et le routage des appels d’urgence, les informations spécifiques aux pays et les informations sur les paramètres réseau et la topologie du réseau, voir les informations suivantes :
 
-- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les paramètres réseau pour les fonctionnalités vocales cloud](cloud-voice-network-settings.md)
 - [Gérer votre topologie du réseau pour les fonctionnalités de voix cloud](manage-your-network-topology.md)
 
@@ -96,7 +96,7 @@ Les clients suivants sont actuellement pris en charge.  Consultez régulièremen
 
 ## <a name="assign-emergency-addresses"></a>Affecter des adresses de secours
 
-Vous pouvez affecter des adresses d’urgence tant aux utilisateurs d’un plan d’appels qu’aux identificateurs réseau requis pour obtenir dynamiquement un emplacement. (Les sous-réseaux et WIFi AP sont pris en charge. Le commutateur/port Ethernet est pris en charge Windows 8.1 et ultérieures pour le moment).
+Vous pouvez affecter des adresses d’urgence tant aux utilisateurs d’un plan d’appels qu’aux identificateurs réseau requis pour obtenir dynamiquement un emplacement. (Les sous-réseaux et WIFi AP sont pris en charge. Le commutateur/port Ethernet est pris en charge sur Windows 8.1 et ultérieures pour le moment).
 
 Pour prendre en charge le routage automatisé des appels d’urgence aux États-Unis, vous devez vous assurer que les emplacements d’urgence affectés à des identificateurs réseau incluent les codes géographiques associés. (Les adresses de secours sans codes géographiques ne peuvent pas être affectées aux identificateurs réseau requis pour les emplacements dynamiques.)
 
@@ -132,7 +132,7 @@ Gardez les définitions suivantes à l’esprit. Pour plus d’informations, [vo
 
 - Un sous-réseau doit être associé à un site réseau spécifique. L’emplacement d’un client est déterminé en fonction du sous-réseau réseau et du site réseau associé.  
 
-Vous configurez les paramètres réseau dans le Microsoft Teams d’administration ou à l’aide de PowerShell. Pour plus d’informations, [voir Gérer votre topologie de réseau pour les fonctionnalités vocales cloud.](manage-your-network-topology.md)
+Vous configurez les paramètres réseau dans le Microsoft Teams d’administration ou à l’aide de PowerShell. Pour plus d’informations, voir Gérer votre topologie de réseau [pour les fonctionnalités vocales cloud.](manage-your-network-topology.md)
 
 Notez que la propagation et la mise à disposition de certaines modifications apportées aux paramètres réseau (par exemple, une nouvelle adresse, l’identificateur réseau, etc.) peuvent prendre un certain temps (jusqu’à quelques heures Teams).  
 
@@ -155,7 +155,7 @@ Notez que la propagation et la mise à disposition de certaines modifications ap
 
 ## <a name="configure-location-information-service"></a>Configurer le service Informations sur l’emplacement
 
-Un Teams obtient des adresses d’urgence à partir des emplacements associés à différents identificateurs réseau. Les sous-réseaux et points d’accès sans fil sont pris en charge. Le commutateur/port Ethernet est pris en charge sur Windows 8.1 et ultérieures pour le moment.
+Un Teams obtient des adresses d’urgence à partir des emplacements associés à différents identificateurs réseau. Les sous-réseaux et points d’accès sans fil sont pris en charge. Le commutateur/port Ethernet est pris en charge sur Windows 8.1 et ultérieures pour le moment.
 
 Pour qu’un client obtienne un emplacement, vous devez remplir le LIS avec des identificateurs réseau (sous-réseaux, waps, commutateurs, ports) et des emplacements d’urgence. Vous pouvez le faire dans le Microsoft Teams d’administration ou à l’aide de PowerShell.
 
@@ -196,7 +196,7 @@ Vous attribuez des stratégies dans le Microsoft Teams d’administration ou à 
 
 Voici quelques exemples powershell.
 
-Pour activer un utilisateur spécifique pour les notifications de service de sécurité, utilisez la commande suivante :
+Pour activer la notification d’un utilisateur spécifique du service de sécurité, utilisez la commande suivante :
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
@@ -226,7 +226,7 @@ Si vous avez affecté une stratégie d’appel d’urgence à un site réseau et
 
 Certains fournisseurs de services de routage d’urgence aux États-Unis proposent un robot de test d’appel d’urgence.
 
-- **Les utilisateurs d’un plan** d’appels aux États-Unis peuvent utiliser le numéro d’urgence de test prédéfide 933 pour valider leur configuration d’appel d’urgence. Ce numéro est acheminé vers un bot, ce qui echoe le numéro de téléphone de l’appelant (ID de ligne d’appel), l’adresse d’urgence ou l’emplacement, et le fait que l’appel soit automatiquement acheminé vers le RÉSEAU PUBLIC OU présenté en premier lieu sur l’écran.
+- **Les utilisateurs d’un plan** d’appels aux États-Unis peuvent utiliser le numéro d’urgence de test prédéfide 933 pour valider leur configuration d’appel d’urgence. Ce numéro est acheminé vers un bot, ce qui a pour effet de faire écho au numéro de téléphone de l’appelant (ID de ligne d’appel), à l’adresse d’urgence ou à l’emplacement, et de savoir si l’appel doit être automatiquement acheminé vers le réseau PUBLIC OU d’abord présenté sous l’écran.
 
 - **Les clients de routage direct aux États-Unis** doivent s’coordonner avec leur fournisseur ERSP pour un service de test.
 
@@ -241,7 +241,7 @@ Le tableau suivant indique la prise en charge des appels d’urgence dynamiques 
 | GCCH | Disponible sur Teams bureau |
 | DoD | Pending |
 
- ## <a name="related-topics"></a>Voir aussi
+ ## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gérer les stratégies d’appel d’urgence](manage-emergency-calling-policies.md)

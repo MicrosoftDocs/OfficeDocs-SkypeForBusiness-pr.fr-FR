@@ -12,20 +12,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: En savoir plus sur le contrôle d’accès en fonction du rôle avec Salles Microsoft Teams service géré.
 f1keywords: ''
-ms.openlocfilehash: c73ad1385a0654f3ef50dab46b803debe418b834b6497acfcb27f5a4de736f98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd6c89f9e391e2ae7234510c26304076bdee5226
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301060"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608811"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Contrôle d’accès en fonction du rôle avec le service Salles Microsoft Teams géré
 
-Le contrôle d’accès basé sur un rôle dans Salles Microsoft Teams service géré vous aide à gérer l’accès des utilisateurs aux données de ressources de salle dans votre organisation. En attribuant des rôles aux utilisateurs de votre portail de services, vous pouvez limiter ce qu’ils peuvent voir et modifier. Chaque rôle dispose d’un ensemble d’autorisations qui détermine quels utilisateurs disposent de ce rôle peuvent accéder à votre organisation et les modifier.
+Le contrôle d’accès basé sur un rôle dans Salles Microsoft Teams service géré vous aide à gérer l’accès des utilisateurs aux données des ressources de salle dans votre organisation. En attribuant des rôles aux utilisateurs de votre portail de services, vous pouvez limiter ce qu’ils peuvent voir et modifier. Chaque rôle dispose d’un ensemble d’autorisations qui détermine quels utilisateurs disposent de ce rôle peuvent accéder à votre organisation et les modifier.
 
 Pour créer, modifier ou attribuer des rôles, votre compte doit avoir l’une des autorisations suivantes :
 
@@ -78,7 +78,7 @@ Le tableau suivant récapitule les opérations que chaque rôle peut faire.
 
 Pour attribuer des rôles, vous devez être administrateur général ou administrateur de service géré.
 
-1. Dans le navigation gauche du portail Salles Microsoft Teams service géré, voir Rôles **Paramètres**  >  **gérés.**
+1. Dans le navigation gauche du portail Salles Microsoft Teams service géré, voir Rôles Paramètres  >  **gérés.**
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="Capture d’écran de la page de contrôle Access affichant les rôles":::
 
@@ -92,6 +92,6 @@ Pour attribuer des rôles, vous devez être administrateur général ou administ
 6. Dans la page **Étendue,** dans la zone Rechercher une salle ou un groupe de salles, tapez le nom d’une salle ou d’un groupe de salles que l’utilisateur sera autorisé à gérer.  Sélectionnez **Suivant.**
 7. Dans la page **Fin,** examinez les détails du devoir. Si vous êtes satisfait de la configuration, sélectionnez **Ajouter un devoir.** Si vous voulez modifier une section, utilisez le **bouton** Précédent ou sélectionnez l’étape dans le volet de navigation de gauche.  
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Salles Microsoft Teams service géré](microsoft-teams-rooms-premium.md)

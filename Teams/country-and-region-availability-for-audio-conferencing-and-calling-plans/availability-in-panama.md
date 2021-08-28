@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams pour le Panama.
-ms.openlocfilehash: 0a5f8c977c0f238a9ce5541fc9fc5f75868b1df48c281afe002163ee45072bc6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: adbedc6904c5bdc5a4d96e61f5387ec0504f0351
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347239"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584748"
 ---
 # <a name="availability-in-panama"></a>Disponibilité au Panama
 

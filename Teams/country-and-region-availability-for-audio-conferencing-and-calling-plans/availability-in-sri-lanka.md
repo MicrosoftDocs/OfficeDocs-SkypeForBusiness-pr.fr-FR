@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pour le Sri Lanka.
-ms.openlocfilehash: e59a77caca6b168da5cea493b7293a79955a150e944b97aa2ee348255dce88f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams pour le Sri Lanka.
+ms.openlocfilehash: c493199d163b2ffcbb14cd81f63d4ba492e6d044
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285993"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584708"
 ---
 # <a name="availability-in-sri-lanka"></a>Disponibilité au Sri Lanka
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams pour le Sri Lanka.
+Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams pour le Sri Lanka.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: Cette rubrique décrit les procédures de déploiement pour l’utilisation Skype Entreprise lors de la connexion à un bureau virtuel distant.
-ms.openlocfilehash: 0a1e96db4dd59d57ea89a84624c3a103fb73669179130e82030d00b9943e0fb4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d745321a398828d6ec31a55528008b467ddea47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608611"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Déployer le plug-in Lync VDI avec Skype Entreprise Server
  
@@ -72,7 +72,7 @@ Une fois le plug-in Lync VDI activé, l’utilisateur suit ces étapes lors de l
     
 2. Une fois Skype Entreprise le plug-in Lync VDI, Skype Entreprise invite l’utilisateur à entrer à nouveau les informations d’identification. Dans cette boîte de dialogue, nous recommandons à l’utilisateur d’activer la case à cocher **Enregistrer mon mot de passe** afin qu’il n’ait pas à les entrer de nouveau lors de connexions ultérieures.
     
-3. Skype Entreprise commence le jumelage avec le plug-in Lync VDI. Pendant ce temps, le client affiche deux icônes dans la Skype Entreprise d’état. L’icône en bas à gauche indique qu’aucun périphérique audio n’est disponible et que l’icône clignotante en bas à droite indique que le jumelage VDI est en cours : a. Une fois le jumelage VDI réussi, les icônes changent pour indiquer le périphérique audio qui sera utilisé pour les appels et le jumelage VDI réussi : b. L’utilisateur peut désormais voir sa présence sur Skype Entreprise appareils compatibles qui sont connectés à l’ordinateur local, et passe et répond aux appels comme d’habitude.
+3. Skype Entreprise commence le jumelage avec le plug-in Lync VDI. Pendant ce temps, le client affiche deux icônes dans la Skype Entreprise d’état. L’icône en bas à gauche indique qu’aucun périphérique audio n’est disponible et que l’icône clignotante en bas à droite indique que le jumelage VDI est en cours : a. Une fois le jumelage VDI réussi, les icônes changent pour indiquer le périphérique audio qui sera utilisé pour les appels et le jumelage VDI réussi : b. L’utilisateur peut désormais voir sa présence sur Skype Entreprise compatibles avec les appareils connectés à l’ordinateur local, et passe et répond aux appels comme d’habitude.
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Résoudre les problèmes du plug-in Lync VDI
 <a name="tshoot_VDI"> </a>

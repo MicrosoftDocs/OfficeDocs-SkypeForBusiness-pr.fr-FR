@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 8d3476b5ae1049e207f07d064ca1548e53fd3635
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365791"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609011"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -97,7 +97,7 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 
 <br/>
 
-* Fournisseurs de services 911
+\* **Fournisseurs de services 911**
 
 - [Routage d’emplacement dynamique de bande passante](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Service de routage d’urgence intrado (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)

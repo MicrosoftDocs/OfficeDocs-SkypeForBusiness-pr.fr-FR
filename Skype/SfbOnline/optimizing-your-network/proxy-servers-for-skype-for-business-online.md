@@ -1,5 +1,5 @@
 ---
-title: Serveurs proxy pour Teams ou Skype Entreprise Online
+title: Serveurs proxy pour Teams ou Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 description: Cet article fournit des informations sur l’utilisation d’un serveur proxy avec Skype Entreprise.
-ms.openlocfilehash: c6c094bad366cf6a7febb092d471dd0723ce219b90664963a5e58a2ce64d70ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0f8e9898e2c898387e7f726b470013dcf62caae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323516"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585988"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>Serveurs proxy pour Skype Entreprise Online
 
@@ -35,7 +35,7 @@ Cet article fournit des conseils sur l’utilisation d’un serveur proxy avec S
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>Il est déconseillé d'utiliser un serveur proxy.
 
-En ce qui concerne le trafic Skype Entreprise, Microsoft recommande d'éviter d'utiliser un serveur proxy. En raison de la sécurité du trafic, Skype Entreprise pas sécurisés, car le trafic est déjà chiffré.
+En ce qui concerne le trafic Skype Entreprise, Microsoft recommande d'éviter d'utiliser un serveur proxy. Lesxies ne rendent pas les Skype Entreprise plus sécurisés, car le trafic est déjà chiffré.
   
 De plus, un serveur proxy peut entraîner des complications. Des problèmes de performances peuvent s'introduire dans l'environnement par le biais de la latence et la perte de paquets. De tels problèmes entraînent une expérience négative dans les scénarios Teams ou Skype Entreprise tels que l’audio et la vidéo, pour lequel les flux en temps réel sont essentiels.
   
@@ -59,7 +59,7 @@ Microsoft recommande également :
     
 Ces conseils devraient limiter l'apparition de problèmes.
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Optimisation de votre réseau pour Skype Entreprise Online](optimizing-your-network.md)
  
