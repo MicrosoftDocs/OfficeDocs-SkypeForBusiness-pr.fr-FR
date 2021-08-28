@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Après avoir migré vers Skype Entreprise Server 2019, vous devez déplacer le serveur central de gestion vers le pool ou le serveur frontal Skype Entreprise Server 2019, avant de pouvoir supprimer le serveur hérité.
-ms.openlocfilehash: 0c5ee756a52d61008498e50df5d3bf64fbe20f8c4ef1ee96e4e7528c2a3bd820
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Après avoir migré vers Skype Entreprise Server 2019, vous devez déplacer le serveur de gestion centralisée vers le pool ou le serveur frontal Skype Entreprise Server 2019, avant de pouvoir supprimer le serveur hérité.
+ms.openlocfilehash: 5c3d090f762904aa5f076033a68e46139b1e84e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300600"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618280"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Déplacer le serveur de gestion centralisée hérité vers Skype Entreprise Server 2019
 
-Après avoir migré vers Skype Entreprise Server 2019 et avant de pouvoir supprimer le serveur hérité, vous devez déplacer le serveur central de gestion vers le pool ou le serveur frontal Skype Entreprise Server 2019. 
+Après avoir migré vers Skype Entreprise Server 2019 et avant de pouvoir supprimer le serveur hérité, vous devez déplacer le serveur de gestion centrale vers le pool ou le serveur frontal Skype Entreprise Server 2019. 
   
 Le serveur central de gestion est un système de réplicas maître/multiple unique, où la copie en lecture/écriture de la base de données est détenue par le serveur frontal qui contient le serveur central de gestion. Chaque ordinateur de la topologie, y compris le serveur frontal qui contient le serveur central de gestion, dispose d’une copie en lecture seule des données du magasin central de gestion dans la base de données SQL Server (nommée RTCLOCAL par défaut) installée sur l’ordinateur lors de l’installation et du déploiement. La base de données locale reçoit les mises à jour du réplica par le Skype Entreprise Server réplicateur de réplicas qui s’exécute en tant que service sur tous les ordinateurs. Le nom de la base de données réelle sur le serveur central de gestion et du réplica local est XDS, qui est composé des fichiers xds.mdf et xds.ldf. L’emplacement de la base de données maître est référencé par un point de contrôle de service (SCP) dans les services de domaine Active Directory. Tous les outils qui utilisent le serveur central de gestion pour gérer et configurer Skype Entreprise Server utiliser le SCP pour localiser le magasin central de gestion.
   
@@ -124,7 +124,7 @@ Utilisez les procédures de cette section pour préparer les serveurs frontaux S
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc

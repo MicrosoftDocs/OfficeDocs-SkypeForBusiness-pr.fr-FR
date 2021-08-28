@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 8a805c90ef68f6ee5d6c754cdad7834c7a6ddff0
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 2d8f2e0eefd3e600b57f1a5fdeafc0a813dc4c22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398933"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595098"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -78,11 +78,11 @@ Si vous envisagez d’utiliser un canal Teams pour vos télétribueurs, vous pou
 
 Cliquez **sur** Ajouter, recherchez les comptes de ressources que vous voulez autoriser les agents à appeler à des fins d’ID lors des appels sortants, cliquez sur **Ajouter,** puis sur **Ajouter.**
 
-Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance de l’agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
+Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance à un agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
 
 ## <a name="language"></a>Langue
 
-![Capture d’écran des paramètres linguistiques](media/call-queue-language.png)
+![Capture d’écran des paramètres de langue](media/call-queue-language.png)
 
 Choisissez une [langue prise en charge](create-a-phone-system-call-queue-languages.md). Nous utiliserons cette langue pour les invites vocales générées par le système et la transcription de la messagerie vocale (si vous les activez).
 
@@ -145,7 +145,7 @@ Les comptes Teams des agents doivent être définis sur le mode Teams uniquement
 > Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage en fonction de l’emplacement.
 
 > [!TIP]
-> Nous **vous recommandons** de définir le mode Conférence sur **Sur.**
+> Nous **vous recommandons** de définir le mode Conférence sur **On.**
 
 La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Sélectionnez l’une des options suivantes :
 
@@ -169,14 +169,14 @@ Vous pouvez activer le routage des appels basé sur la présence avec toutes les
 Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste de routage des appels, quel que soit son statut de disponibilité. 
 
 > [!NOTE]
-> Lorsque  l’inactivité la plus longue est sélectionnée comme méthode de routage, un routage basé sur la  présence est nécessaire et activé automatiquement, même si le basculement de routage en fonction de la présence est éteint et grisé.
+> Lorsque  l’inactive la plus longue est sélectionnée comme méthode de routage, un routage basé sur la  présence est nécessaire et activé automatiquement, même si le basculement de routage en fonction de la présence est éteint et grisé.
 >
 > Si le routage basé sur la présence n’est pas activé et qu’il y a plusieurs appels dans la file d’attente, le système présentera ces appels simultanément aux agents, quel que soit leur statut de présence. Cela entraînera plusieurs notifications d’appels aux agents, en particulier si certains agents ne répondent pas à l’appel initial qui leur est présenté.
 > 
 > Les agents qui utilisent le client Skype Entreprise ne sont pas inclus dans la liste de routage des appels lorsque le routage basé sur la présence est activé. Si certains de vos agents utilisent Skype Entreprise, n’activez pas le routage des appels basé sur la présence.
 
 > [!TIP]
-> Il est recommandé de définir le **routage en fonction** de **la** présence vers Le.
+> Il est recommandé de définir le **routage en fonction** **de** la présence vers Le.
 
 La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle le téléphone d’un agent sonnera avant que la file d’attente ne redirige l’appel vers l’agent suivant.
 

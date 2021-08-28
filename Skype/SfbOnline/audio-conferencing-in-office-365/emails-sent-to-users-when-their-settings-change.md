@@ -1,5 +1,5 @@
 ---
-title: Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres changent dans Skype Entreprise Online
+title: Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,20 +15,20 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférences Skype Entreprise Online. '
-ms.openlocfilehash: 4c5482e8572ad09463c72caf137c6da87e00553f2eaa92c33e087f6670e8a352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f095e42eae2ba47573193546e441809ce3ae6e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316520"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618300"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres changent dans Skype Entreprise Online
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -153,7 +153,7 @@ Vous pouvez utiliser l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/
     
   - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
@@ -166,7 +166,7 @@ Vous pouvez utiliser l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md)
   

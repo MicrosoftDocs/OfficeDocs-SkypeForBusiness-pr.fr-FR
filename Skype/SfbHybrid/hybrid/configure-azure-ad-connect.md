@@ -1,5 +1,5 @@
 ---
-title: Configurer Azure AD Connecter
+title: Configurer azure AD Connecter
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions de configuration d’Azure AD Connecter dans un environnement hybride.
-ms.openlocfilehash: e9e043e8cded2e9e55741cd0abe37488c4b621c6fb7cbfc5e9fd1e35917f8b84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47c158928a9536b0be40833deaddf3fb9967be73
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292481"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625786"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a> Configurer Azure AD Connexion pour les Teams et Skype pour les entreprises 
 

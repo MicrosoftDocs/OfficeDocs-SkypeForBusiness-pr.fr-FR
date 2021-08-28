@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: Avec Voix Entreprise, Skype Entreprise Server 2015 propose une offre VoIP (Voice over Internet Protocol) autonome pour améliorer ou remplacer les systèmes PBX traditionnels. Les utilisateurs peuvent appeler des collègues sur le réseau VoIP ou le PBX de votre organisation, et ils peuvent appeler des numéros de téléphone en dehors de votre organisation. La solution Voix Entreprise inclut des fonctionnalités d’appel courantes telles que la réponse, le transfert, le transfert, la mise en attente, le transfert, le transfert, la libération et le parc. Les appels Enhanced 9-1-1 (E9-1-1) sont disponibles uniquement aux États-Unis.) Voix Entreprise prend également en charge un large éventail de périphériques IP et USB actuels et plus anciens.
-ms.openlocfilehash: 385547cc541c2169606afd0c6d7de939c1611a44f8ad2fc762c69f60e847e016
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d74544660802505c4d8ddde35cc578fccfe36040
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315520"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626586"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Voix Entreprise de planification
  

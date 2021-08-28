@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Découvrez comment préparer le personnel de votre organisation au déploiement et au support d’Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc29f8656b4fdd69d0e6e59338e91341d32cc7e283b4bdd2cfb5680192e248b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618330"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Préparer votre personnel it pour l’Microsoft Teams
 
@@ -50,7 +50,7 @@ Partagez les ressources suivantes avec les membres du personnel enseignant et co
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Avez-vous impliqué tous les membres du support technique susceptibles d’être impliqués dans le déploiement et le support Teams ?</li><li>Avez-vous développé un plan de formation pour l’intégration d’équipes supplémentaires au fur et à mesure de l’avancement de la mise à niveau ?</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Avez-vous impliqué tous les membres du support technique susceptibles d’être impliqués dans le déploiement et le support Teams ?</li><li>Avez-vous développé un plan de formation pour l’intégration d’autres membres du personnel au fur et à mesure de l’avancement de la mise à niveau ?</li></ul> |
 | ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Vérifiez que le personnel de l’it dispose des informations dont il a besoin.</li><li>Revisitez vos plans de formation et de préparation lors de la publication de nouvelles fonctionnalités.</li></ul>|
 
 Une fois que vous avez préparé votre personnel Teams, vérifiez que votre environnement répond à toutes les conditions [préalables.](upgrade-plan-journey-prerequisites.md)

@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
 description: La table UserSite est une table de prise en charge. Chaque enregistrement représente un site d’utilisateurs défini dans les paramètres de configuration réseau.
-ms.openlocfilehash: 01ab76218040d37176355d62768c6a8b8f4b7336d22ce7263c61ac9fc8c289ed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e7ae6f304d836fc2413cbbaf696200c3f514bd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314330"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595264"
 ---
 # <a name="usersite-table"></a>Table UserSite
  
 La table UserSite est une table de prise en charge. Chaque enregistrement représente un site d’utilisateurs défini dans les paramètres de configuration réseau.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**UserSiteKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique d’identification de ce site utilisateur.  <br/> |
 |**UserSiteName** <br/> |nvarchar(128)  <br/> |Uniques  <br/> |Nom du site utilisateur.  <br/> |

@@ -10,15 +10,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Instructions d’implémentation de la messagerie vocale en nuage pour les utilisateurs Skype Entreprise Server.
-ms.openlocfilehash: 8a0c04d90d77b0843ef8b9097abec91c04ee7bb336bf04e0cbfcc9c7fe5fe38a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f38c181c84edb695fce54d6da805482563cfe01
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337254"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625746"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurer le service Messagerie vocale infonuagique pour les utilisateurs locaux
 
@@ -52,7 +52,7 @@ La configuration Messagerie vocale infonuagique implique les tâches suivantes :
 
 ## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>Configurer Messagerie vocale infonuagique en tant que fournisseur d’hébergement 
 
-Vous configurez Messagerie vocale infonuagique en tant que fournisseur d’hébergement sur un serveur frontal en utilisant la cmdlet New-CsHostingProvider avec les paramètres suivants :
+Vous configurez Messagerie vocale infonuagique en tant que fournisseur d’hébergement sur un serveur frontal à l’aide de la cmdlet New-CsHostingProvider avec les paramètres suivants :
 
 - **Identity** spécifie un identificateur de valeur de chaîne unique pour le fournisseur d’hébergement que vous créez ; par exemple, Messagerie vocale infonuagique. 
 
@@ -116,7 +116,7 @@ Par exemple, la commande suivante active un compte d’utilisateur pour Messager
 Set-CsUser -Identity "User1" -HostedVoiceMail $True
 ```
 
-L’cmdlet vérifie qu’une stratégie Messagerie vocale infonuagique au niveau global, du site ou de l’utilisateur s’applique à cet utilisateur. Si aucune stratégie ne s’applique, la cmdlet échoue.  
+L’cmdlet vérifie qu’une stratégie Messagerie vocale infonuagique(au niveau global, du site ou de l’utilisateur) s’applique à cet utilisateur. Si aucune stratégie ne s’applique, la cmdlet échoue.  
 
 L’exemple suivant désactive un compte d’utilisateur pour Messagerie vocale infonuagique :
 

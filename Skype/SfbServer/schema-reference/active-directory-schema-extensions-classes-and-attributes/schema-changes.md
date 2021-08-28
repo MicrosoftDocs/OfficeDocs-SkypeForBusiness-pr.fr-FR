@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Avant de déployer et d’Skype Entreprise Server, vous devez préparer les services de domaine Active Directory en étendant le schéma. Les extensions de schéma ajoutent les classes et attributs requis par Skype Entreprise Server.
-ms.openlocfilehash: 486d642621869cbb23051d2957614f35aa2c67fcda1c539862b05925787f180d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 16f71b80864fae8fc97b87eda22ad2a9594c3987
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281657"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626536"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Modifications de schéma dans Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Avant de déployer et d’Skype Entreprise Server, vous devez préparer les serv
 > [!NOTE]
 > Si vous êtes en cours de mise à niveau de Lync Server 2013 vers Skype Entreprise Server 2015, aucune modification de schéma n’est apportée et, par conséquent, cet article ne s’applique pas.
   
-Skype Entreprise Server nécessite plusieurs nouvelles classes et attributs et modifie certaines classes et attributs existants. En outre, de nombreuses informations de configuration pour Skype Entreprise Server sont stockées dans le magasin central de gestion et non dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS Skype Entreprise Server :
+Skype Entreprise Server nécessite plusieurs nouvelles classes et attributs et modifie certaines classes et attributs existants. En outre, de nombreuses informations de configuration pour Skype Entreprise Server sont stockées dans le magasin central de gestion et non dans AD DS comme dans les versions précédentes. Les informations suivantes sont toujours stockées dans AD DS dans Skype Entreprise Server :
   
 - **Extensions de schéma** :
     

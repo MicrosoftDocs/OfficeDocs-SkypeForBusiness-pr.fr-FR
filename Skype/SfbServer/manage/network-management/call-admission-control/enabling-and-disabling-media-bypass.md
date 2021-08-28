@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Utilisez les procédures de cet article pour activer ou désactiver le contournement de média à l’aide du Skype Entreprise Server de contrôle.
-ms.openlocfilehash: ffad0889d048bf1bd806b5211c42af1c9224e2451ebb6a25633c31f378d23499
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6881b1627cf648cc948b5e8b3564fa3b12caa183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313052"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604815"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Activation et désactivation du contournement de média dans Skype Entreprise Server
 
@@ -41,7 +41,7 @@ Vous pouvez activer et configurer le contournement de média à partir Skype Ent
 
 5.  Dans le menu **Edition**, cliquez sur **Afficher les détails**.
 
-6.  Dans la page **Modifier les paramètres globaux,** activez la case à cocher Activer le **contournement de** média.
+6.  Dans la page **Modifier les paramètres globaux,** activez la case à cocher Activer la déviation **du** média.
 
 7.  Sélectionnez l’une des options suivantes :
     

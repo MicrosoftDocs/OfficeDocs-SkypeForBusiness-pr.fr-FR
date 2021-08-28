@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des modèles d’équipe pour créer des structures d’équipe conçues pour les besoins du gouvernement en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315250"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603403"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe gouvernementale dans le Centre d’administration
 
@@ -40,7 +40,7 @@ Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer �
 
 ## <a name="coordinate-incident-response"></a>Coordonner la réponse à un incident
 
-Centralisez la communication et les ressources critiques pour votre équipe de gestion de la crise ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure de nombreux types de fichiers pour vous aider à créer un espace central pour tous vos documents. Utilisez les réunions en ligne pour améliorer la flux d’informations et la connaissance de la situation.
+Centralisez la communication et les ressources critiques pour votre équipe de gestion de la crise ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure différents types de fichiers pour vous aider à créer un espace central pour tous vos documents. Utilisez les réunions en ligne pour améliorer la flux d’informations et la connaissance de la situation.
 
 | Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
 |-------------------|-------|---------------------------------------------------------------------------|

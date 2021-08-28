@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Résumé : Découvrez l’opération Obtenir les dernières données d’intégration, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 42542a092baba41e334f30ba50029ab7efa70bf1af59b7ecf8cf2bd05f3f1b62
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 495a3b3f281e8f10c46372c774098aef573d6a3e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278412"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604783"
 ---
 # <a name="get-last-integration-data"></a>Obtenir les données de la dernière intégration
  

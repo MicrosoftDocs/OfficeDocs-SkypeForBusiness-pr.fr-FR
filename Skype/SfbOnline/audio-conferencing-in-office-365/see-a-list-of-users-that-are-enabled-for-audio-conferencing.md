@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to view a list of users in your organization that are enabled for dial-in conferencing from within the Skype for Business admin center. '
-ms.openlocfilehash: b1138d80798791a433956e7b53db2569e1667e3126a81c3744c85a9604475012
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 91ac12b07465491b2b8e721f7e876bb9e35cd9af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618290"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Consultez la liste des utilisateurs activés pour l’audioconférence dans Skype Entreprise Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "54327070"
 > [!NOTE]
 > Pour plus d’informations sur les utilisateurs activés dans Microsoft Teams, consultez la liste des utilisateurs activés pour [l’audioconférence dans Microsoft Teams.](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams)
 
-Après avoir activé Skype Entreprise utilisateurs de votre organisation pour l’audioconférence, vous pouvez afficher la liste de ces utilisateurs. Lorsque vous consultez la liste, vous voyez également pour chaque utilisateur le type de fournisseur de services d’audioconférence qu’il utilise, le numéro de téléphone à composer par défaut, et si votre organisation n’est pas activée pour les ID de conférence dynamiques, les ID de conférence statiques pour les réunions d’audioconférence qu’il organise.
+Une fois que vous avez Skype Entreprise utilisateurs de votre organisation pour l’audioconférence, vous pouvez afficher la liste de ces utilisateurs. Lorsque vous consultez la liste, vous voyez également pour chaque utilisateur le type de fournisseur de services d’audioconférence qu’il utilise, le numéro de téléphone à composer par défaut, et si votre organisation n’est pas activée pour les ID de conférence dynamiques, les ID de conférence statiques pour les réunions d’audioconférence qu’il organise.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -69,7 +69,7 @@ Après avoir activé Skype Entreprise utilisateurs de votre organisation pour l�
     
   - Sélectionnez un autre numéro par défaut pour ces utilisateurs.
     
-  - Pour désactiver l’audioconférence pour l’utilisateur, modifiez le fournisseur en **Fournisseur Aucune.**
+  - Pour désactiver l’audioconférence pour l’utilisateur, modifiez le fournisseur en **fournisseur Aucun.**
     
   - Basculez vers Microsoft comme fournisseur de services d’audioconférence si une licence **d’audioconférence** a été affectée à l’utilisateur.
     
@@ -91,6 +91,6 @@ Après avoir activé Skype Entreprise utilisateurs de votre organisation pour l�
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

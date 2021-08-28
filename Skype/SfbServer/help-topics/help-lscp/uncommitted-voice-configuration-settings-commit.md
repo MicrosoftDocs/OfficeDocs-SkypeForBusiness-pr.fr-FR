@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceViewSumCommit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: Vous pouvez utiliser la boîte de dialogue Configuration vocale non Paramètres pour passer en revue toutes les modifications que vous avez apportées. Parcourez la boîte de dialogue pour passer en revue toutes les modifications non validées ou cliquez sur les flèches pour développer ou réduire les différentes sections. Lorsque vous avez terminé, cliquez sur Valider pour valider toutes ces modifications ou cliquez sur Annuler pour revenir en arrière et modifier vos modifications.
-ms.openlocfilehash: a58883f49eb2c805bbb247cf1c59981ee7970a1b29919f335a05ddb6d3264a77
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60a66d45a90f6d37f342b66d793b16639589f846
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335224"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618000"
 ---
-# <a name="uncommitted-voice-configuration-settings-commit"></a>Paramètres de configuration de la voix non validés : valider
+# <a name="uncommitted-voice-configuration-settings-commit"></a>Paramètres de configuration de la voix non validés : valider
  
 Vous pouvez utiliser la boîte de dialogue Configuration vocale **non Paramètres** pour passer en revue toutes les modifications que vous avez apportées. Parcourez la boîte de dialogue pour passer en revue toutes les modifications non validées ou cliquez sur les flèches pour développer ou réduire les différentes sections. Lorsque vous avez terminé, cliquez sur **Valider** pour valider toutes ces modifications ou cliquez sur **Annuler** pour revenir en arrière et modifier vos modifications.
   

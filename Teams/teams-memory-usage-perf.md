@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
 description: En savoir Microsoft Teams’utilisation de la mémoire système et pourquoi l’utilisation de mémoire est la même entre l’application de bureau et l’application web.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
@@ -17,22 +17,22 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 84a6b7fa894ead7d0504c768adc2eedc47b20f3b88efae88c9fd1fbdc9c7119f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e0606848d5a6d3816ef0c6d16bb46e069b0941b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296491"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625826"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Utilisation de la mémoire par Microsoft Teams
 
-Certains utilisateurs Microsoft Teams des questions sur la façon dont Teams utilise la mémoire. Cet article décrit comment la mémoire est utilisée par Teams et pourquoi l’application de bureau Teams (application) et l’application web Teams n’empêchent pas les autres applications et charges de travail sur le même ordinateur d’avoir suffisamment de mémoire pour s’exécuter de manière optimale. Teams est conçu pour utiliser la technologie web moderne. Pour ce faire, le client Teams bureau a été développé sur Electron, qui utilise des Chromium pour le rendu. Il s’agit du même moteur de rendu derrière la plupart des navigateurs les plus populaires à ce jour, notamment Microsoft Edge et Chrome.
+Certains utilisateurs Microsoft Teams des questions sur la façon dont Teams utilise la mémoire. Cet article décrit l’utilisation de la mémoire par Teams et explique pourquoi l’application de bureau Teams (application) et l’application web Teams n’empêchent pas les autres applications et charges de travail sur le même ordinateur d’avoir suffisamment de mémoire pour une utilisation optimale. Teams est conçu pour utiliser la technologie web moderne. Pour ce faire, le client Teams bureau a été développé sur Electron, qui utilise des Chromium pour le rendu. Il s’agit du même moteur de rendu derrière la plupart des navigateurs les plus populaires à ce jour, notamment Microsoft Edge et Chrome.
 
 ## <a name="how-teams-works"></a>Fonctionnement des Teams
 
 Teams conception sur Electron permet un développement plus rapide, ainsi que la parité entre les versions Teams sur différents systèmes d’exploitation (Windows, Mac et Linux). Cette parité est possible, car Electron et Chromium maintenir une base de code similaire dans toutes les versions. Un autre avantage de cette architecture est qu’il existe un profil d’utilisation de mémoire semblable entre l’application web Teams et la version de bureau. L’application web et les versions de bureau utilisent la mémoire de la même façon qu’un navigateur l’utiliserait. Des informations supplémentaires sur Electron sont disponibles sur [leur site web.](https://electronjs.org/)
 
-Voir [Chromium utilisation de la mémoire et](https://www.chromium.org/developers/memory-usage-backgrounder) les concepts clés de la mémoire [Chrome](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md) pour plus d’informations.
+Pour [plus d Chromium, voir l’utilisation de](https://www.chromium.org/developers/memory-usage-backgrounder) la mémoire et les concepts clés de la mémoire [Chrome.](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)
 
 L’image suivante illustre les utilisations de la mémoire côte à côte de l’application de bureau Teams pour Windows et de l’application web Teams (dans cet exemple, s’exécutant dans Google Chrome).
 

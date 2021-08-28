@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Résumé : Découvrez comment surveiller les limites de capacité de mémoire des serveurs dans Skype Entreprise Server.'
-ms.openlocfilehash: d62ae4a7e9eaed4fd866107de276990c3d883d946b2d44035fcac4fa47b69e61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 224de5c2727efe02ba2303a2eeb30e189ed4d67e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314460"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595514"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Surveiller les limites de capacité de mémoire du serveur dans Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Deux compteurs de performances de mobilité peuvent vous aider à déterminer vo
     
 - **Nombre de sessions** actuellement actives, qui est le nombre actuel de points de terminaison enregistrés via UCWA ou le service de mobilité
     
-Si la différence entre le nombre de **sessions actives** avec abonnements de présence actifs et le nombre de **sessions** actives est faible au fil du temps, cela signifie que la plupart des utilisateurs d’appareils mobiles disposent d’un appareil toujours connecté, tel qu’un appareil mobile Android ou Nokia (pour Mcx uniquement). Les appareils UCWA toujours connectés incluent les appareils Apple et Android exécutant des clients Lync 2013 Mobile). Si le nombre de **sessions** actuellement actives est beaucoup plus élevé que le nombre de **sessions actives** avec abonnements de présence actifs, cela indique qu’un plus grand nombre d’utilisateurs utilisent un appareil de point de terminaison en arrière-plan, tel qu’un appareil Apple iOS ou Windows Phone sous Mcx. (Windows Phone est le seul client Lync 2013 Mobile à s’inscrire comme ceci).
+Si la différence entre le nombre de **sessions actives** avec abonnements de présence actifs et le nombre de **sessions** actives est faible au fil du temps, cela signifie que la plupart des utilisateurs d’appareils mobiles disposent d’un appareil toujours connecté, tel qu’un appareil mobile Android ou Nokia (pour Mcx uniquement). Les appareils UCWA toujours connectés incluent les appareils Apple et Android exécutant des clients Lync 2013 Mobile). Si le nombre de **sessions** actuellement actives est beaucoup plus élevé que le nombre de **sessions actives** avec abonnements de présence actifs, cela indique que plus d’utilisateurs utilisent un appareil de point de terminaison en arrière-plan, tel qu’un appareil Apple iOS ou Windows Phone sous Mcx. (Windows Phone est le seul client Lync 2013 Mobile à s’inscrire comme ceci).
   
 Vous devez définir une limite sur le nombre de  **sessions actives** avec abonnements de présence actifs et compteurs de performances nombre de sessions actives en fonction de votre utilisation attendue, des résultats de planification de la capacité et de la surveillance continue du service de mobilité et d’autres compteurs de serveur frontal. Les limites que vous définissez doivent vous permettre d’évaluer la capacité du serveur et de créer des alertes lorsque la capacité est dépassée.
   
@@ -44,9 +44,9 @@ Pour déterminer les limites appropriées, vous devez d’abord déterminer la q
 Mémoire totale utilisée par le service de mobilité Mcx (Mo) = 164 + (400 + 134) / 1024 * Nombre de **sessions actives** avec abonnements de présence actifs + 400 / 1024 * ( Nombre de **sessions** actuellement actives avec abonnements de présence  -  **actifs)**
   
 > [!IMPORTANT]
-> La calculatrice de capacité Microsoft Lync Server 2010 est une feuille de calcul prérepxée avec toutes les formules qui permettent à un planificateur de déterminer les conditions requises pour les serveurs Skype Entreprise, y compris le processeur, la mémoire et le disque dur. Vous pouvez [télécharger la feuille de calcul et un document associé.](https://go.microsoft.com/fwlink/p/?LinkID=212657) 
+> Le calculateur de capacité Microsoft Lync Server 2010 est une feuille de calcul prérepxée avec toutes les formules qui permettent à un planificateur de déterminer les conditions requises pour les serveurs Skype Entreprise, y compris le processeur, la mémoire et le disque dur. Vous pouvez [télécharger la feuille de calcul et un document associé.](https://go.microsoft.com/fwlink/p/?LinkID=212657) 
   
-Le serveur frontal a besoin de suffisamment de mémoire disponible pour prendre en charge le service de mobilité en cas de panne. Vous pouvez surveiller la mémoire disponible actuelle sur le serveur frontal à l’aide du compteur **Mémoire\Moctets** disponibles, ou à l’aide de l’équation mentionnée précédemment, pour planifier la quantité de mémoire que le service de mobilité utilisera.
+Le serveur frontal a besoin de suffisamment de mémoire disponible pour prendre en charge le service de mobilité en cas de panne. Vous pouvez surveiller la mémoire disponible actuelle sur le serveur frontal à l’aide du compteur **Memory\Available Mbytes,** ou à l’aide de l’équation mentionnée précédemment, pour planifier la quantité de mémoire que le service de mobilité utilisera.
   
 Si la quantité de mémoire disponible sur le serveur frontal est inférieure à 1 500 Mo lorsque vous planifiez le nombre attendu d’utilisateurs de mobilité, vous devez ajouter du matériel supplémentaire pour prendre en charge le service de mobilité. Pour plus d’informations, voir [Monitor mobility for performance in Skype Entreprise Server](monitor-mobility-performance.md) in the Operations documentation.
   

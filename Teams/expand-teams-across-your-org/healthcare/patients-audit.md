@@ -9,19 +9,19 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: En savoir plus sur l’audit de l’application Patients pour Teams administrateurs
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: b65dae205f7f7438482847ceb07e37a64609a534
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595058"
 ---
 # <a name="audit-logs-for-patients-app"></a>Journaux d’audit pour l’application Patients
 
@@ -37,7 +37,7 @@ Un journal d’audit pour l’activité de l’application Patients permet aux �
 Conformément aux directives de l’HIPAA, les fournisseurs de soins de santé doivent conserver des enregistrements de tout accès à PHI, afin que les modifications soient auditées. Microsoft s’engage à ce que ses clients d’entreprise utilisent Microsoft Teams et à leur aider à répondre aux exigences et contrôles de la loi américaine HIPAA. L’accès à PHI via l’application Patients est entièrement suivi et les journaux [](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) sont disponibles dans le Centre de conformité Microsoft 365, comme décrit dans l’article sur les fonctionnalités de recherche dans le journal d’audit.
 
 > [!IMPORTANT]
-> La charge de la confidentialité des patients est placée par la loi sur le fournisseur de soins de santé. La loi donne droit à la vie privée aux patients et exige qu’un administrateur informatique ou un contrôleur HIPAA puisse déterminer aisément l’infirmière, l’infirmière, l’infirmière ou le travailleur social qui a accédé aux dossiers des patients ou les a modifiés. L’accès aux patients VIP est l’un des exemples les plus courants de violations d’accès PHI. La fonctionnalité du journal d’audit est requise pour effectuer des enquêtes sur toute violation d’accès PHI et pour répondre aux exigences de la loi américaine HIPAA.
+> La charge de la confidentialité des patients est placée par la loi sur le fournisseur de soins de santé. Cette loi donne droit à la vie privée des patients et exige qu’un administrateur informatique ou un contrôleur HIPAA puisse déterminer aisément l’infirmière, l’infirmière ou le collaborateur social qui a accédé aux dossiers des patients ou les a modifiés. L’accès aux patients VIP est l’un des exemples les plus courants de violations d’accès PHI. La fonctionnalité du journal d’audit est requise pour effectuer des enquêtes sur toute violation d’accès PHI et pour répondre aux exigences de la loi américaine HIPAA.
 
 <!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
 
@@ -62,7 +62,7 @@ L’application Patients possède ses propres activités journalées, répertori
 
 |Nom convivial | Opération | Description|
 |:---|:---|:---|
-| Liste des patients | PatientListView | Un utilisateur a vu une liste de patients.|
+| Liste des patients | PatientListView | Un utilisateur a vu la liste des patients.|
 | Liste des patients supprimés | PatientListDelete | Un utilisateur a supprimé une liste de patients.|
 | Patient ajouté à la liste | PatientListAddListent | Un patient a été ajouté à la liste des patients. |
 | Ajout d’une note pour un patient | PatientNoteAdd | Une note a été ajoutée à un dossier de patients. |
@@ -83,6 +83,6 @@ Vous pouvez personnaliser votre audit selon vos besoins pour rechercher ou filtr
 
 Les activités enregistrées pour Microsoft Teams en général sont décrites dans Microsoft Teams [activités.](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Effectuer des recherches dans le journal d’audit](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

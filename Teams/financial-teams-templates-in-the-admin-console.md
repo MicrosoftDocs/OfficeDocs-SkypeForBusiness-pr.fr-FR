@@ -9,9 +9,9 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser Teams pour créer des structures d’équipe conçues pour des besoins financiers en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.
+description: Découvrez comment utiliser des modèles Teams pour créer des structures d’équipe conçues pour des besoins financiers en fournissant des paramètres, des canaux et des applications préinstallées à l’aide du Centre d’administration.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 749fa9a3a4264f5e4231082dcf097151377fff069bf5b123afa6b1abc5ba017b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 291c9e28dec5f779c8a23888b28d78c79919f1f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349466"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603433"
 ---
 # <a name="use-financial-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe financière dans le Centre d’administration
 
@@ -44,7 +44,7 @@ Centralisez la collaboration pour votre équipe de crise au sein des unités d�
 
 | Type de modèle de base|baseTemplateId | Propriétés fournies avec ce modèle de base |
 | ------------------|-- |----------------------------------------------------- |
-| Collaborer sur la crise ou l’événement global|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externes</li><li>Demande d’approbation</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li><li>Planificateur</li></ul>|
+| Collaborer sur la crise ou l’événement global|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Canaux : <ul><li>Général<li>Annonces</li><li>Actualités mondiales</li><li>Continuité de l’activité</li><li>Travail à distance</li><li>Communications internes</li><li>Comms externe</li><li>Demande d’approbation</li><li>Réclamations des clients</li><li>Kudos</li><li>Mise à jour pour la direction</li></ul>Applications : <ul><li>Compliment</li><li>Wiki</li><li>Site web</li><li>Planificateur</li></ul>|
 ||||
 
 ## <a name="collaborate-within-a-bank-branch"></a>Collaborer au sein d’une banque

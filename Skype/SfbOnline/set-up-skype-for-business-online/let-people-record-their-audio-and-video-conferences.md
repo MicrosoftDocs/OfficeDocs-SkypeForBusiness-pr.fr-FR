@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: 'Découvrez l’activation de l’enregistrement pour les conférences audio et vidéo et ce qui est et n’est pas inclus dans les enregistrements. '
-ms.openlocfilehash: c321ac300e9bdf39a727c419e447da88f3cccb5b403b0361361e7e1b59155dab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625736"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
 
@@ -35,7 +35,7 @@ ms.locfileid: "54316470"
 
 ![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
 
-1. Allez au Centre d'> **Skype Entreprise,** puis cliquez sur **Utilisateurs.**
+1. Allez dans le Centre d> **Skype Entreprise,** puis cliquez sur **Utilisateurs.**
     
 2. Dans la page **Utilisateurs,** sélectionnez le ou les utilisateurs dans la liste, puis cliquez sur **Modifier.**
     
@@ -49,10 +49,10 @@ Quand la fonctionnalité d'enregistrement est activée, les organisateurs et les
    
 Pour plus d’informations, voir [Enregistrement Lync](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) Enregistrer et publier et Gestionnaire d’enregistrements [Lync.](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b) 
   
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
-[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
+[Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)
 
   
  

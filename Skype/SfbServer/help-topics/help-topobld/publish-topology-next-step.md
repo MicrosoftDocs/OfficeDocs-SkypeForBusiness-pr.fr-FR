@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyNextStepPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: Une fois la topologie publiée, la page Assistant Publication achevé s’affiche.
-ms.openlocfilehash: e5b48d10af7464b1098e74ef4f4e2469b735ab03924851416024e26ae63473ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70c9606bf3632c6d87171aa69f2f38ba2df40f75
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313262"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593738"
 ---
 # <a name="publish-topology-next-step"></a>Étape ultérieure à la publication de la topologie
 

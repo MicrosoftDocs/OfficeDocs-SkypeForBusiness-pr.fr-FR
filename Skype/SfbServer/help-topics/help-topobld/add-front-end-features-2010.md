@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée, qui est toujours activée et ne peut être désélectionnée. Vous avez également la possibilité de déployer d’autres fonctionnalités, telles que la conférence, Voix Entreprise et le contrôle d’admission des appels. Certaines fonctionnalités dépendent de votre topologie.
-ms.openlocfilehash: 5c496769716a13e21623773592ebc5793b90718fa16412eb29885ea7e99a4fa6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a63686fde6c4be26b5cd7cbf441b5f9ff53cc595
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595738"
 ---
-# <a name="add-front-end-features-2010"></a>Ajouter des fonctionnalités frontales 2010
+# <a name="add-front-end-features-2010"></a>Ajouter des fonctionnalités frontales 2010
 
 Sélectionnez chaque fonctionnalité que vous souhaitez activer pour le pool frontal. Au minimum, vous devez déployer la messagerie instantanée, qui est toujours activée et ne peut être désélectionnée. Vous avez également la possibilité de déployer d’autres fonctionnalités, telles que la conférence, Voix Entreprise et le contrôle d’admission des appels. Certaines fonctionnalités dépendent de votre topologie.
 

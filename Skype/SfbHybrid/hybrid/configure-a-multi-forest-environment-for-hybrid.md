@@ -9,7 +9,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Les sections suivantes dcriront comment configurer un environnement qui possède plusieurs forêts dans un modèle de forêt ressource/utilisateur afin de fournir des fonctionnalités dans un scénario hybride.
-ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277449"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625776"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Déployer une topologie de forêt de ressources
 
@@ -32,7 +32,7 @@ ms.locfileid: "54277449"
  
 Les sections suivantes décrivent comment configurer un environnement qui possède plusieurs forêts dans un modèle de forêt ressource/utilisateur afin de fournir des fonctionnalités dans un scénario hybride. 
   
-![Environnement à forêts multiples pour les environnements hybrides](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![Environnement à forêts multiples pour un environnement hybride](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>Configuration requise pour la topologie
 
@@ -94,7 +94,7 @@ Seuls les déploiements avec SIP/SMTP et UPN correspondants ont été testés. L
   
 À moins d’utiliser un SIP/SMTP/UPN unique pour les utilisateurs de chaque forêt, vous pouvez toujours être en butte à des problèmes DSO, quel que soit l’endroit où AD FS est déployé : 
   
-- Les confiances à sens unique ou double entre les forêts ressource/utilisateur avec une batterie AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
+- Les confiances à sens unique ou double entre les forêts de ressources/utilisateurs avec une batterie de serveurs AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
     
 - Les relations d’confiance entre les forêts ressource/utilisateur avec une batterie AD FS déployée uniquement dans la forêt de ressources, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
     
@@ -116,9 +116,9 @@ Lorsque vous avez terminé et qu’Azure AD Connecter fusionne, si vous regardez
   
 ![Écran d’objet Métaverse à forêts multiples](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-Les attributs en surbrillants verts ont été fusionnés à partir Microsoft 365, le jaune est issu de la forêt utilisateur et le bleu est issu de la forêt de ressources. 
+Les attributs en surbrillant vert ont été fusionnés à partir Microsoft 365, le jaune est issu de la forêt d’utilisateurs et le bleu est issu de la forêt de ressources. 
   
-Dans cet exemple, Azure AD Connecter a identifié la sourceAnchor et le cloudSourceAnchor de l’utilisateur et les objets de forêt de ressources de Microsoft 365, dans le cas présent 1101- l’employeeNumber sélectionné précédemment. Azure AD Connecter ont pu fusionner cet objet dans ce que vous voyez ci-dessus. 
+Dans cet exemple, Azure AD Connecter a identifié la sourceAnchor et le cloudSourceAnchor de l’utilisateur et les objets de forêt de ressources de Microsoft 365, dans le cas présent 1101- l’employeeNumber sélectionné précédemment. Azure AD Connecter leur a été en mesure de fusionner cet objet dans ce que vous voyez ci-dessus. 
   
 Pour plus d’informations, voir Intégrer vos [répertoires](/azure/active-directory/hybrid/whatis-hybrid-identity)locaux avec Azure Active Directory . 
   
@@ -126,16 +126,16 @@ Les Connecter Azure AD doivent être installés à l’aide des valeurs par déf
   
 1. Sign-in unique - with AD FS already deployed and working: Select **Do not configure**.
     
-2. Connecter vos répertoires : ajoutez tous les domaines.
+2. Connecter répertoires : ajoutez tous les domaines.
     
-3. Identifiez les utilisateurs dans les répertoires locaux : sélectionnez les identités utilisateur **existantes** dans plusieurs répertoires, puis sélectionnez les attributs **ObjectSID** et **msExchangeMasterAccountSID.**
+3. Identifiez les utilisateurs dans les répertoires locaux : sélectionnez les identités des **utilisateurs** dans plusieurs répertoires, puis sélectionnez les attributs **ObjectSID** et **msExchangeMasterAccountSID.**
     
 4. Identifiez les utilisateurs dans Azure AD : Ancre source : sélectionnez l’attribut que vous avez choisi après avoir lu Sélectionner un attribut [sourceAnchor](/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), Nom d’utilisateur principal - **userPrincipalName**.
     
 5.  Fonctionnalités facultatives : sélectionnez si vous avez déployé Exchange déploiement hybride.
     
     > [!NOTE]
-    >  Si vous n’avez Exchange Online, il peut y avoir un problème avec les échecs OAuth lors de la découverte automatique en raison de la redirection CNAME. Pour corriger cela, vous devez définir l’URL de découverte Exchange automatique en exécutant la cmdlet suivante à partir de Skype Entreprise Server Management Shell :
+    >  Si vous n’avez Exchange Online, il peut y avoir un problème avec les échecs OAuth lors de la découverte automatique en raison de la redirection CNAME. Pour corriger cela, vous devez définir l’URL de découverte Exchange automatique en exécutant l’cmdlet suivante à partir de Skype Entreprise Server Management Shell :
     >
     > ```powershell
     > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 

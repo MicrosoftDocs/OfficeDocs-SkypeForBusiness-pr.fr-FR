@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Recommandations sur l’utilisation Skype Entreprise Server outil de planification 2015.
-ms.openlocfilehash: 36dca20371ced46d9a4e75d3bd086f23127ef307e6cc8473e706d3b26580b8df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e532f33710da1f0a9f82f2c8169b5258dab50ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318857"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626566"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>outil de planification Skype Entreprise Server 2015
  
@@ -29,7 +29,7 @@ L’outil de planification Skype Entreprise Server 2015 est un outil piloté par
   
 En fin de compte, l’objectif de l’outil de planification est de réduire la complexité potentielle de la conception d’une topologie Skype Entreprise Server 2015. L’outil fournit également des références contextuelles à la documentation de planification et de déploiement à l’intérieur de l’outil, à condition qu’une connexion Internet soit disponible pour se connecter au site web microsoft.
   
-Après avoir personnalisé la topologie avec les adresses TCP/IP et les noms de domaine complets de l’infrastructure, l’outil de planification met à disposition une série de rapports qui couvrent l’appellation DNS (Domain Name System), les règles de pare-feu, les certificats, etc. 
+Après avoir personnalisé la topologie avec les adresses TCP/IP de l’infrastructure et les noms de domaine complets(FQDN), l’outil de planification met à disposition une série de rapports qui couvrent l’appellation DNS (Domain Name System), les règles de pare-feu, les certificats, etc. 
   
 L’utilisation de cet outil est la première étape de la planification de votre implémentation. L’étape suivante consiste à entrer les informations spécifiques de votre site dans la calculatrice de capacité [Skype Entreprise Server 2015,](https://www.microsoft.com/download/details.aspx?id=51196)à ajuster selon vos besoins, puis à utiliser l’outil [stress and performance Skype Entreprise Server 2015](https://www.microsoft.com/download/details.aspx?id=50367) pour simuler et vérifier que l’implémentation sera en mesure de répondre à vos besoins.
   
@@ -41,7 +41,7 @@ L’outil de planification permet également d’exporter des informations dans 
     
 Les rubriques suivantes présentent et détaillent l’outil de planification.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Installer l’outil de planification Skype Entreprise Server 2015](install.md)
     

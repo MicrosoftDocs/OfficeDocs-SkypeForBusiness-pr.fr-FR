@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Découvrez les options de haute disponibilité du serveur principal pris en charge dans Skype Entreprise Server, notamment les groupes de disponibilité AlwaysOn, les instances de cluster de failover AlwaysOn, la mise en miroir de bases de données et le clustering de SQL de base de données.
-ms.openlocfilehash: 5cc325b0726afab72581f679873fe454d8302dec5a478685c24e84b430a25017
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ce84429d77b8da426913d873d99d2f70badc4d12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595482"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Haute disponibilité du serveur principal dans Skype Entreprise Server
  
@@ -34,7 +34,7 @@ Pour améliorer la haute disponibilité de vos serveurs back-end, vous avez quat
     
 - SQL clustering deover
     
-L’utilisation de l’une de ces solutions est facultative, mais est recommandée pour maintenir la continuité des activités de votre organisation. Dans le cas contraire, la panne d’un seul serveur de base de données peut entraîner la perte de données Skype Entreprise Server données. 
+L’utilisation de l’une de ces solutions est facultative, mais est recommandée pour maintenir la continuité des activités de votre organisation. Dans le cas contraire, la panne d’un seul serveur de base de données peut entraîner la perte d’Skype Entreprise Server données. 
   
 Vous pouvez configurer la mise en miroir de bases de données uniquement à l’aide du Générateur de topologies. Pour les groupes de disponibilité AlwaysOn, les instances de cluster de failover AlwaysOn ou le clustering de SQL failover, vous utilisez SQL Server pour créer la solution de haute disponibilité, puis vous pouvez utiliser le Générateur de topologie pour l’associer à un pool frontal.
   
@@ -58,7 +58,7 @@ Skype Entreprise Server prend en charge la mise en miroir avec les logiciels de 
 > [!NOTE]
 > SQL La mise en miroir est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont les seules options prise en charge avec Skype Entreprise Server 2019.
     
-La mise en miroir asynchrone des bases de données n’est pas prise en charge pour la haute disponibilité du serveur principal dans Skype Entreprise Server. Dans le reste de ce document, la mise en miroir de bases de données signifie la mise en miroir synchrone des bases de données, sauf mention explicite. 
+La mise en miroir asynchrone des bases de données n’est pas prise en charge pour la haute disponibilité du serveur principal dans Skype Entreprise Server. Dans le reste de ce document, la mise en miroir de bases de données signifie la mise en miroir synchrone des bases de données, sauf indication contraire explicite. 
   
 Lorsque vous déployez la mise en miroir de bases de données dans un pool frontal, toutes les bases de données Skype Entreprise Server du pool sont en miroir, y compris le magasin central de gestion, si elle se trouve dans ce pool, ainsi que la base de données d’application Response Group et la base de données d’application de parcage d’appel, si ces applications sont en cours d’exécution dans le pool. 
   
@@ -68,7 +68,7 @@ Vous pouvez choisir de déployer la mise en miroir de bases de données avec ou 
   
 Si vous utilisez un témoin, celui-ci peut servir pour plusieurs paires de serveurs principaux. Il n’y a aucune correspondance stricte un-à-un entre les témoins et les paires de serveurs principaux. Les déploiements utilisant un seul témoin pour plusieurs paires de serveurs principaux ne sont simplement pas aussi résilients que les topologies faisant appel à un témoin à part pour chaque paire de serveurs principaux. 
   
-### <a name="guidelines-for-planning-back-end-server-mirroring"></a>Recommandations en matière de planification de la mise en miroir de serveurs principal
+### <a name="guidelines-for-planning-back-end-server-mirroring"></a>Recommandations en matière de planification de la mise en miroir de serveur principal
 
 En général, la configuration de la mise en miroir SQL entre deux serveurs principaux avec un témoin exige ce qui suit :
   
@@ -108,7 +108,7 @@ Si le serveur principal et les serveurs principaux en miroir tombent en panne, o
 
 Skype Entreprise Server prend en charge les groupes de disponibilité AlwaysOn uniquement en tant qu’actifs/passifs, et non actifs/actifs. 
   
-Pour utiliser des groupes de disponibilité AlwaysOn ou des instances de cluster de failover AlwaysOn, vous devez d’abord utiliser SQL Server pour configurer la solution de haute disponibilité. Vous pouvez ensuite utiliser le Générateur de topologie pour l’associer à un pool frontal.
+Pour utiliser des groupes de disponibilité AlwaysOn ou des instances de cluster de failover AlwaysOn, vous devez d’abord utiliser SQL Server pour configurer et configurer la solution de haute disponibilité. Vous pouvez ensuite utiliser le Générateur de topologie pour l’associer à un pool frontal.
 
 Skype Entreprise Server prend en charge AlwaysOn avec les logiciels de base de données suivants :
 
@@ -129,7 +129,7 @@ Skype Entreprise Server prend en charge AlwaysOn avec les logiciels de base de d
 - SQL Server 2012 SP2 et CU2 Êdition Entreprise
 
 > [!NOTE]
-> SQL Server 2019, 2017 et 2016 sont les seules versions prise en charge par Skype Entreprise Server 2019.
+> SQL Server 2019, 2017 et 2016 sont les seules versions Skype Entreprise Server 2019.
 
 > [!NOTE]
 > Les groupes de  disponibilité Always On ne sont pas pris en charge dans SQL 2016, 2017 et 2019 Standard Editions, mais vous pouvez utiliser les instances de cluster de failover Always On. Pour en savoir plus, consultez les éditions et [les fonctionnalités SQL Server 2016.](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017)

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype Entreprise Server prend en charge les URL simples.
-ms.openlocfilehash: c3d78387ae0bcf16204e2fcaa4ff7db3549334fe814a014a88c80e8ab6658d5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bbbb55262e353ff66adeaca194e7060e3ff7ca5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618310"
 ---
 # <a name="change-simple-urls-after-migration"></a>Modification des URL simples après la migration
 
@@ -26,7 +26,7 @@ Skype Entreprise Server prend en charge trois URL simples :
     
 - **Dial-in** qui permet d’accéder à la page web Paramètres de conférence rendez-vous. L’URL simple Dial-in est incluse dans toutes les invitations aux réunions pour que les utilisateurs qui souhaitent se connecter à une réunion puissent accéder au numéro de téléphone et aux informations de code confidentiel nécessaires. 
     
-- **L’administrateur** permet d’accéder rapidement au Panneau de Skype Entreprise Server de contrôle. L’URL simple d’administration est interne à votre organisation. 
+- **L’administrateur** permet un accès rapide au Panneau de Skype Entreprise Server de contrôle. L’URL simple d’administration est interne à votre organisation. 
     
 Après avoir migré vers Skype Entreprise Server, vous devez connaître l’impact de la modification sur vos enregistrements et certificats DNS pour les URL simples. Si le directeur Skype Entreprise Server hérité reste en cours d’utilisation dans la topologie, aucune modification de vos URL simples n’est requise. Si le directeur Skype Entreprise Server est supprimé de la topologie après la migration, les enregistrements DNS d’URL simples doivent être mis à jour pour pointer vers l’un des pools Skype Entreprise Server. Cependant, lorsque vous modifiez un nom d’URL simple, vous devez exécuter Enable-CsComputer sur chaque directeur et serveur frontal pour enregistrer la modification.
 
@@ -42,7 +42,7 @@ Après avoir migré vers Skype Entreprise Server, vous devez connaître l’impa
 
 1. Dans le Générateur de topologie, cliquez avec le bouton droit sur le **nœud Skype Entreprise Server,** puis cliquez sur **Modifier les propriétés.**
     
-2. Sélectionnez **URL** simples dans le volet gauche, puis sous la zone **URL** d’accès administratif, entrez l’URL simple que vous souhaitez pour l’accès administratif au Panneau de Skype Entreprise Server, puis cliquez sur **OK.**
+2. Sélectionnez **URL** simples dans le volet gauche, puis sous la zone **URL** d’accès administratif, entrez l’URL simple que vous souhaitez pour l’accès administratif au Panneau de Skype Entreprise Server, puis cliquez sur **OK**.
     
    > [!TIP]
    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple https://admin est ... <em>\<domain\></em> 
