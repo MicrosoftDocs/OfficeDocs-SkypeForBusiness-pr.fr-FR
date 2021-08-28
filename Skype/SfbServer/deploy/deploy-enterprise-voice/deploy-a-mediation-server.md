@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Résumé : Découvrez comment définir et déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server.'
-ms.openlocfilehash: 852571234b531fddfbd55cce6444f4f00abc95fe97567a58fb7829f29c5a0701
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd6561ee90751eaedd2ef3fdd5ccb6a2ef950b56
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323506"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579988"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server
  
@@ -111,7 +111,7 @@ Suivez les étapes de cette rubrique pour utiliser le Générateur de topologie 
     
 3. Par défaut, les ports d’écoute SIP sur le serveur de médiation sont 5070 pour le trafic TLS à partir de Skype Entreprise Server et 5067 pour le trafic TLS provenant d’homologues (par exemple, passerelles, PBXes ou SCS). Le port TCP est désactivé par défaut. Vous devez activer le port TCP si vous disposez de passerelles qui ne prennent pas en charge le protocole TLS.
     
-4. Spécifiez la plage de ports d’écoute TLS ou TCP souhaitée que le serveur de médiation acceptera les connexions entrantes provenant de passerelles PSTN.
+4. Spécifiez la plage de ports d’écoute TLS ou TCP souhaitée que le serveur de médiation acceptera les connexions entrantes à partir des passerelles PSTN.
     
     > [!NOTE]
     > L’entrée d’une plage de ports TCP n’est pas nécessaire, si l’option **Activer le port TCP** n’est pas activée. Ce paramètre est facultatif.

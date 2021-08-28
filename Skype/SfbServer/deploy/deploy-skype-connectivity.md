@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment se connecter à Skype Entreprise Server client Skype client. Également appelée Skype de connexion.'
-ms.openlocfilehash: 752bae0797da1129d677dd962ad9dc6e4b9a6e99123babcf30ab8bd11bdbf668
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605543"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déployer Skype connectivité dans Skype Entreprise Server
 
@@ -28,7 +28,7 @@ Cet article décrit le déploiement de Skype Connectivity.
   
 ## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype Vue d’ensemble de la connectivité pour les professionnels de l’informatique
 
-Skype La connectivité permet Skype Entreprise utilisateurs de rechercher et d’ajouter des Skype utilisateurs. Skype La connectivité est une fonctionnalité de Skype Entreprise qui vous permet d’activer la fédération et la recherche dans l’annuaire avec Skype utilisateurs. Une fois que vous avez Skype la connectivité Skype Entreprise utilisateurs de votre entreprise pourront rechercher et ajouter des Skype utilisateurs.
+Skype La connectivité permet Skype Entreprise utilisateurs de rechercher et d’ajouter des Skype utilisateurs. Skype La connectivité est une fonctionnalité de Skype Entreprise qui vous permet d’activer la fédération et la recherche dans l’annuaire avec Skype utilisateurs. Une fois que vous avez Skype la connectivité Skype Entreprise utilisateurs pourront rechercher et ajouter des Skype utilisateurs.
   
 ## <a name="skype-directory-search"></a>Skype Recherche dans l’annuaire
 
@@ -36,7 +36,7 @@ Skype La fonctionnalité de recherche dans l’Skype Entreprise permet aux utili
   
 - **Recherche par nom d’affichage, par exemple « John Doe** » : cela peut renvoyer de nombreux résultats, de sorte que vous ne trouvez peut-être pas ce que vous recherchez.
     
-- **Recherche par nom d’affichage plus emplacement,** par exemple « John Doe à Domaine » : cela réduit considérablement les résultats de la recherche.
+- **Recherche par nom d’affichage plus emplacement,** par exemple « John Doe à État » : cela réduit considérablement les résultats de la recherche.
     
 - **Recherche par courrier électronique, par exemple « johndoe@outlook.com** » : cela doit renvoyer un résultat dans la plupart des cas ; celle qui correspond exactement à l’e-mail spécifié. Toutefois, si le même e-mail est associé à plusieurs comptes, plusieurs résultats peuvent être renvoyés.
     
@@ -107,9 +107,9 @@ La communication entre tout déploiement Skype Entreprise local et les utilisate
 > [!NOTE]
 > Aucune action n’est nécessaire pour la plupart des clients, y compris tous les déploiements fédérés avec Skype Entreprise Online.
   
-Les déploiements locaux sont nécessaires pour publier un enregistrement SRV DNS de fédération pour chaque domaine qu’ils hébergent. Des conseils sont disponibles dans la [planification DNS.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) Chaque domaine doit être résolu par une requête DNS SRV vers un nom de domaine pleinement attribué au serveur Edge qui satisfait à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine « contoso.com » :
+Les déploiements locaux sont nécessaires pour publier un enregistrement SRV DNS de fédération pour chaque domaine qu’ils hébergent. Des conseils sont disponibles dans la [planification DNS.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) Chaque domaine doit être résolu par une requête DNS SRV vers un nom de domaine pleinement indiqué du serveur Edge qui satisfait à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine « contoso.com » :
 
-|**FQDNs valides**|**Commentaire**|
+|**FQDNs valides**|**Comment**|
 |:-----|:-----|
 |sip.contoso.com   ||
 |sipfed.contoso.com   |Dans chaque cas, le nom deqdn exact doit être présent dans le SN ou le SAN du certificat externe installé sur le serveur Edge.   |
@@ -128,14 +128,14 @@ Le mécanisme d’approvisionnement PIC (Public IM Provisioning Mechanism) (pic.
 **Cette modification signifie-t-elle que la fédération de messagerie instantanée publique est en cours d’precaté ?**
 Non. La fédération de messagerie instantanée publique continuera d’être prise en charge pendant de nombreuses années, probablement jusqu’à ce que Skype Entreprise produit local atteigne la fin de vie.
 
-**Notre entreprise a une relation hybride (espace d’adressas partagé) avec Skype Entreprise Online, sommes-nous affectés ?**
+**Notre entreprise a une relation hybride (espace d’adressas partagé) avec Skype Entreprise Online, est-ce que nous sommes affectés ?**
 Non, étant donné que vous êtes déjà fédéré avec Skype Entreprise Online, cette modification ne vous affectera pas.
  
 **Cette modification signifie-t-elle que notre entreprise doit activer la fédération avec Skype Entreprise Online ?**
 Non. Si les paramètres de proxy de votre serveur Edge n’activent pas la fédération avec le fournisseur d’hébergement Skype Entreprise Online (sipfed.online.lync.com), cette modification n’affectera pas ce paramètre. Toutefois, les mêmes exigences en matière de DNS et de certificats qui s’appliquent maintenant à la fédération avec Skype Entreprise Online s’appliquent également à la fédération avec Skype utilisateurs.
  
 **Notre entreprise est de grande taille et ne peut pas modifier sa configuration edge pour des raisons réglementaires/de conformité/etc... Que pouvons-nous faire ?**
-Toute organisation sur site qui ne peut pas modifier sa configuration de serveur Edge comme spécifié doit atteindre le support technique au plus tôt.
+Toute organisation sur site qui ne peut pas modifier sa configuration de serveur Edge comme indiqué doit s’appuyer sur le support technique dès que possible.
 
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Activation de la fédération et de la connectivité PIC (Public IM Connectivity)
 
@@ -204,7 +204,7 @@ La configuration Skype la connectivité peut également être effectuée à l’
     
    - ProxyFqdn : emplacement du Skype de fédération (propriété/gestion par Microsoft)
     
-   - IconURL : icône utilisée par le client Skype Entreprise Lync pour identifier &amp; visuellement Skype contacts
+   - IconURL : icône utilisée par le client Skype Entreprise Lync pour &amp; identifier visuellement Skype contacts
     
    - NameDecorationRoutingDomain et NameDecorationExcludedDomainList : la définition de ces paramètres permet aux utilisateurs d’entrer les MSA des utilisateurs de Skype sans avoir à connaître la « décoration » des domaines non-Microsoft avec « msn.com ». Cela élimine la nécessité de taper « user(contoso.com)@msn.com » pour tous les domaines qui ne sont PAS dans excludedDomainList. Le client SfB formate automatiquement le compte MSA si le domaine n’est PAS dans la liste des domaines exclus. Nous avons ajouté les domaines de compte Microsoft les plus courants à la liste des domaines exclus.
     
@@ -221,7 +221,7 @@ La configuration Skype la connectivité peut également être effectuée à l’
 Le tableau suivant décrit l’état de l’interopération entre la dernière version du consommateur Skype et la dernière version de Skype Entreprise.
   
 
-|**Skype Clients**|**Ajouter des contacts, la messagerie instantanée, la présence, l’audio et les appels vidéo**|**Commentaire**|
+|**Skype Clients**|**Ajouter des contacts, la messagerie instantanée, la présence, l’audio et les appels vidéo**|**Comment**|
 |:-----|:-----|:-----|
 |Skype Windows Bureau  <br/> |7.6 ou supérieure, Windows XP et supérieur  <br/> |**NOUVEAU**: prise en charge ajoutée pour Windows Skype client s’exécutant sur Windows XP et Windows Vista (nécessite la **dernière version du client 7.26 ou version supérieure)** <br/> |
 |Skype Mobile - Android Téléphone et tablette  <br/> |Version 6.19 ou supérieure, exécutant Android OS version 4.0.3 ou supérieure  <br/> |Les périphériques à faible spécification peuvent ne pas prendre en charge les appels vidéo  <br/> |

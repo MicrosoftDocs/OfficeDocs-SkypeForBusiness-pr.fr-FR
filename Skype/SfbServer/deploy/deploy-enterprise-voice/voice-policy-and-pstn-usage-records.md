@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Résumé : Créez ou modifiez des stratégies de voix et configurez les enregistrements d’utilisation PSTN à l’aide Skype Entreprise Server panneau de configuration.'
-ms.openlocfilehash: f81d54314d60b6dbb69efa84a2fc5bb9cd22123ff2158080ed2878102611b7a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80e19ed7c271df8b27f53062d4647a39fd6e7491
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320836"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605573"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise
 
@@ -54,9 +54,9 @@ ms.locfileid: "54320836"
    -  L’évitement de messagerie vocale empêche l’itinéraire immédiat des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou hors de portée.
 
      > [!NOTE]
-     > Cette fonctionnalité est uniquement configurable via l’Skype Entreprise Server Management Shell
+     > Cette fonctionnalité est uniquement configurable via Skype Entreprise Server Management Shell
 
-   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le forwarding d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
+   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le transport d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
 
    - **Délégation** permet aux utilisateurs de spécifier d’autres utilisateurs pouvant passer et recevoir des appels à leur place. Dans Skype Entreprise Server, un délégué peut configurer la sonnerie simultanée qui permet aux appels entrants à son responsable de sonner toutes les cibles de sonnerie simultanée du délégué. Le délégué peut ainsi répondre avec une plus grande souplesse aux appels destinés au responsable. Activée par défaut.
 
@@ -205,7 +205,7 @@ ms.locfileid: "54320836"
    -  L’évitement de messagerie vocale empêche l’itinéraire immédiat des appels vers le système de messagerie vocale du téléphone mobile de l’utilisateur lorsque la sonnerie simultanée est configurée et que le téléphone est éteint, hors batterie ou hors de portée.
 
      > [!NOTE]
-     > Cette fonctionnalité est uniquement configurable via l’Skype Entreprise Server Management Shell
+     > Cette fonctionnalité est uniquement configurable via Skype Entreprise Server Management Shell
 
    - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le forwarding d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
 
@@ -280,7 +280,7 @@ ms.locfileid: "54320836"
 
    - Pour utiliser les mêmes enregistrements d’utilisation PSTN pour le transfert d’appel et la sonnerie simultanée que cette stratégie de voix, sélectionnez l’option **Routage avec les utilisations PSTN d’appel** dans le menu déroulant.
 
-   - Pour autoriser le forwarding d’appel et la sonnerie simultanée aux utilisateurs Skype Entreprise internes uniquement, sélectionnez Router vers les utilisateurs Skype Entreprise **internes** uniquement dans le menu déroulant. Les appels ne seront pas transférés à des numéros PSTN externes.
+   - Pour autoriser le forwarding d’appel et la sonnerie simultanée aux utilisateurs Skype Entreprise internes uniquement, sélectionnez Router vers les Skype Entreprise **utilisateurs** internes uniquement dans le menu déroulant. Les appels ne seront pas transférés à des numéros PSTN externes.
 
    - Pour spécifier des enregistrements d’utilisation PSTN pour le transfert d’appel et la sonnerie simultanée différents de ceux utilisés pour cette stratégie de voix, sélectionnez l’option **Routage avec des utilisations PSTN personnalisées** dans le menu déroulant. Cette option affiche un contrôle pour sélectionner les enregistrements d’utilisation PSTN existants ou créer de nouveaux enregistrements d’utilisation PSTN spécifiquement pour le transfert d’appel et la sonnerie simultanée.
 

@@ -9,26 +9,26 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: En savoir plus sur le contrôle Administration des locataires pour la reconnaissance vocale (profil vocal) Teams salles de réunion.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc29f8f098ae1980b173ea1f9c4b6349306f5f79b5ee23fc70ae61204dee907
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa38282f0c5dbaecfbea88deaf9a5efb88be08cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275920"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628296"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gérer les contrôles de technologie de reconnaissance vocale pour un haut-parleur intelligent
 
 Un haut-parleur intelligent utilise les informations de profil vocal pour reconnaître qui a dit quoi dans la transcription en direct. Lorsqu’un Salles Microsoft Teams pour Windows de réunion est équipé d’un haut-parleur intelligent, la transcription en direct peut être utilisée pendant la réunion. Cet article explique comment vous, en tant qu’administrateur de client, contrôlez le profilage vocal utilisé pour la reconnaissance vocale afin de générer une transcription en direct. Vous pouvez contrôler le degré d’utilisation de la reconnaissance vocale par l’organisation et les fonctionnalités suivantes :
 
 - Modifiez le nom du haut-parleur dans les transcriptions.
-- Modifiez le haut-parleur d’une seule énoncé de la transcription ou modifiez celui-ci dans toutes les énoncés de la transcription (mais pas sur les transcriptions à venir).
+- Modifiez le haut-parleur d’une seule déclaration dans la transcription ou modifiez celui-ci dans toutes les déclarations de la transcription (mais pas sur les transcriptions à venir).
 - Modifiez l’identification du haut-parleur pour les personnes qui sont répertoriées dans la réunion.
 - Supprimez l’identification d’un ou plusieurs énoncés identifiés en tant que haut-parleur sur chaque transcription.
 
@@ -69,11 +69,11 @@ Un haut-parleur intelligent doit être placé à au moins 20 cm des murs et des 
    ![Configuration du haut-parleur intelligent avec le haut-parleur qui se connecte directement à la console. ](../media/intelligent-speakers2.png)
 
 > [!Note]
-> Les appareils ANSE et Yealink doivent contenir le préfixe « UAC2_TEAMS » ou « Yealink » et contenir « UAC2_RENDER » dans le nom du haut-parleur et « UAC2_TEAMS » dans le nom du microphone. Si vous ne trouvez pas ces noms de micro et de haut-parleur dans le menu déroulant, redémarrez l’appareil Intelligent Speaker.
+> Les appareils ANSE et Yealink doivent avoir le préfixe « INFORMATIONS » ou « Yealink » et doivent contenir « UAC2_RENDER » dans le nom du haut-parleur et « UAC2_TEAMS » dans le nom du microphone. Si vous ne trouvez pas ces noms de micro et de haut-parleur dans le menu déroulant, redémarrez l’appareil Intelligent Speaker.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Activer la reconnaissance d’un utilisateur Haut-parleur intelligent
 
-Les données de profil vocal peuvent être utilisées dans n’importe quelle réunion avec un haut-parleur intelligent. Pour [plus d’Teams des paramètres de](../meeting-policies-in-teams.md#allow-transcription) réunion, voir les stratégies de réunion powershell et les cmdlets de réunion [PowerShell.](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)
+Les données de profil vocal peuvent être utilisées dans n’importe quelle réunion avec un haut-parleur intelligent. Pour [plus d Teams les stratégies de réunion](../meeting-policies-in-teams.md#allow-transcription) PowerShell et les cmdlets de réunion [PowerShell,](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) consultez les paramètres de réunion.
 
 Les données de profil vocal de l’utilisateur sont créées lorsque la stratégie est définie pour faire la distinction ou qu’un invité qui n’est pas en réunion se trouve dans la réunion. Les données de profil vocal sont rejetées à la fin de la réunion.
 
@@ -114,6 +114,6 @@ Non uniquement dans les réunions organisées par un utilisateur de votre organi
 
 Votre administrateur informatique peut exporter vos données audio à tout moment.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Article de support : Utiliser des haut-parleurs intelligents pour identifier les participants présents dans la salle ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)

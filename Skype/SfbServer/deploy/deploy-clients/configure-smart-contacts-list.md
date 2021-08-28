@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 'Résumé : Découvrez comment activer la fonctionnalité liste de contacts intelligents dans le client Skype Entreprise client.'
-ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7e2957b6b8622ea8c3ce3dc2974e7dbb7ff51d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303148"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579998"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurer la liste de contacts intelligents dans Skype Entreprise clients
 
@@ -74,7 +74,7 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 Vous devez également définir le paramètre AddressBookAvailability pour la stratégie correspondante sur WebSearchOnly. Pour plus d’informations, [voir Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps). 
 
-### <a name="troubleshoot"></a>Résoudre des problèmes
+### <a name="troubleshoot"></a>Résoudre les problèmes
 
 Si la liste de contacts intelligents ne fonctionne pas comme prévu, vérifiez ce qui suit :
 

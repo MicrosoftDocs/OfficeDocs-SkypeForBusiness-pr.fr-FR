@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Découvrez comment configurer des files d’attente d’appels pour les petites entreprises dans Microsoft 365 Business Voice.
-ms.openlocfilehash: 7c374819fd142d86d53c92b32f2799b861833006371ee4038a4769eaeb396f0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7267d2d7116f40d29405510a924b5ec560037d0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605983"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Créer une file d’attente d’appels - Didacticiel pour les petites entreprises
 
@@ -53,7 +53,7 @@ Cette vidéo montre comment créer une file d’attente d’appels dans Teams.
 
 Obtenez des [Système téléphonique - Licences](../teams-add-on-licensing/virtual-user.md) utilisateur virtuel si vous ne les avez pas encore. Obtenez une file d’attente pour chaque file d’attente d’appels et chaque personne de service automatique que vous prévoyez de configurer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier votre installation ultérieurement.
 
-Étant donné que des agents dans une file d’attente d’appels peuvent appeler pour renvoyer un appel client, envisagez de définir l’ID d’appelant de vos agents d’appel sur votre numéro de téléphone principal ou le numéro d’un traitement automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](../caller-id-policies.md) pour en savoir plus.
+Étant donné que des agents dans une file d’attente d’appels peuvent appeler pour renvoyer un appel client, envisagez de définir l’ID d’appelant de vos agents d’appel sur votre numéro de téléphone principal ou le numéro d’un service automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](../caller-id-policies.md) pour en savoir plus.
 
 <a name="steps"></a>
 
@@ -69,7 +69,7 @@ Pour créer une équipe
 
 2. Cliquez ensuite **sur Créer une équipe** (première carte, coin supérieur gauche).
 
-3. Sélectionnez **Créer une équipe de toutes pièces.**
+3. Sélectionnez **Créer une équipe à partir de zéro.**
 
 4. Choisissez ensuite si vous souhaitez une équipe publique ou privée. Nous vous recommandons **de mettre votre** file d’attente d’appels privé pour éviter que des personnes ne se retrouvent involontairement dans la file d’attente en rejoignant l’équipe.
 
@@ -85,7 +85,7 @@ Nous allons ensuite ajouter un canal à utiliser avec la file d’attente d’ap
 
 Pour ajouter un canal
 
-1. Dans Teams, recherchez l’équipe que vous vient de créer, cliquez sur Autres **options** (...), puis sur **Ajouter un canal.**
+1. Dans Teams, recherchez l’équipe que vous avez créée, cliquez sur Autres **options** (...), puis sur **Ajouter un canal.**
 
 2. Tapez un nom et une description pour le canal.
 
@@ -96,7 +96,7 @@ Pour ajouter un canal
 
 # <a name="step-2brresource-accounts"></a>[Étape 2 Comptes <br> de ressources](#tab/resource-account)
 
-Chaque file d’attente d’appels que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un service de attendant automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une *Microsoft 365 Système téléphonique -licence* Utilisateur virtuel, puis l’utiliser pour commencer à créer la file d’attente d’appels.
+Chaque file d’attente d’appels que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un moyen de service automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une *Microsoft 365 Système téléphonique -licence* Utilisateur virtuel, puis l’utiliser pour commencer à créer la file d’attente d’appels.
 
 ### <a name="create-a-resource-account"></a>Créer un compte de ressource
 
@@ -207,10 +207,10 @@ Choisissez la méthode de routage des appels que vous voulez utiliser.
 
 Choisissez comment vous voulez gérer les appels dont le nombre d’appels dépasse le nombre maximal dans la file d’attente.
 
-1. Définir le **nombre maximal d’appels dans la file d’attente.**
+1. Définissez le **nombre d’appels maximal dans la file d’attente.**
 
 2. Choisissez ce que vous voulez faire lorsque le nombre maximal d’appels est atteint. Vous pouvez déconnecter l’appel ou le rediriger. Nous vous recommandons de rediriger l’appel vers l’une des destinations suivantes :
-    - **Personne dans l’organisation** - une personne de votre organisation qui peut recevoir des appels vocux
+    - **Personne au nom d’une** personne de votre organisation qui peut recevoir des appels vocux
     - **Application vocale :** un attendant automatique ou une autre file d’attente d’appels. (Choisissez le compte de ressource associé au port automatique ou à la file d’attente d’appels lorsque vous choisissez cette destination.)
     - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. Utilisez ce format : +[code pays][code de zone][numéro de téléphone]
     - **Messagerie vocale** : vous pouvez utiliser la boîte aux lettres vocale de l’équipe que vous avez créée.
@@ -227,7 +227,7 @@ Choisissez ce que vous voulez faire lorsque les appels sont trop longs dans la f
 1. Définissez le **temps d’attente maximal.**
 
 2. Choisissez ce que vous voulez faire lorsqu’un appel arrive à la fin. Vous pouvez déconnecter l’appel ou le rediriger. Nous vous recommandons de rediriger l’appel vers l’une des destinations suivantes :
-    - **Personne dans l’organisation** - une personne de votre organisation qui peut recevoir des appels vocux
+    - **Personne au nom d’une** personne de votre organisation qui peut recevoir des appels vocux
     - **Application vocale :** un attendant automatique ou une autre file d’attente d’appels. (Choisissez le compte de ressource associé au port automatique ou à la file d’attente d’appels lorsque vous choisissez cette destination.)
     - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. Utilisez ce format : +[code pays][code de zone][numéro de téléphone]
     - **Messagerie vocale** : vous pouvez utiliser la boîte aux lettres vocale de l’équipe que vous avez créée.

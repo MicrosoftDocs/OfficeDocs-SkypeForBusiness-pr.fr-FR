@@ -13,22 +13,22 @@ ms.custom:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype Entreprise Server conférence web 2015 inclut la collaboration sur des documents, le partage d’applications et le partage de bureau.
-ms.openlocfilehash: cdf85a0ef4f59f8b4773ce39e7bb5ffe35dc64c7
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d298f13b788d3f154e2ebca0b33fb61797837eda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232869"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628126"
 ---
 # <a name="skype-for-business-server-web-conferencing-planning-tool"></a>Skype Entreprise Server Outil de planification de conférence web
  
 Skype Entreprise Server conférence web 2015 inclut la collaboration sur des documents, le partage d’applications et le partage de bureau.
   
 > [!NOTE]
-> Skype Entreprise Server 2015 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu de PowerPoint présentations. Les fonctionnalités de conférence web fonctionnent exactement de la même manière que dans Microsoft Lync 2013. Pour plus d’informations sur l’installation et la configuration de Office Web Apps Server, voir [Configuring integration with Office Web Apps Server and Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013). 
+> Skype Entreprise Server 2015 utilise Office Web Apps et Office Web Apps Server pour gérer le partage et le rendu de PowerPoint présentations. Les fonctionnalités de conférence Web fonctionnent exactement de la même manière que dans Microsoft Lync 2013. Pour plus d’informations sur l’installation et la configuration de Office Web Apps Server, voir [Configuring integration with Office Web Apps Server and Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013). 
   
 Pour plus d’informations sur la planification de l’activation de la conférence web dans votre organisation, consultez les rubriques suivantes : 
   

@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo contient généralement deux flux vidéo.
-ms.openlocfilehash: fde5036803bd02bed4b766ca9e6d2419d9b4cca92d78968867e18e9e4083897e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af8ae55e805019b91e9c1750d7bb036bcf79c6f7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322906"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628516"
 ---
 # <a name="videostream-table"></a>Table VideoStream
  
 Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo contient généralement deux flux vidéo.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |DateHeure  <br/> |Primaire  <br/> |Référencé à partir de [la table MediaLine](medialine-0.md).  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primaire  <br/> |R référencé à partir de [la table MediaLine](medialine-0.md).  <br/> |
@@ -37,16 +37,16 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Durée maximale d’aller-retour pour le flux vidéo.  <br/> |
 |**PacketLossRate** <br/> |decimal(5,4)  <br/> | <br/> |Taux moyen de perte de paquets pendant l’appel.  <br/> |
 |**PacketLossRateMax** <br/> |decimal(5,4)  <br/> | <br/> |Perte maximale de paquets observée pendant l’appel.  <br/> |
-|**PacketUtilization** <br/> |int  <br/> | <br/> |Nombre de paquets pour le flux vidéo (protocole rtp de transport en temps réel).  <br/> |
+|**PacketUtilization** <br/> |int  <br/> | <br/> |Nombre de paquets pour le flux vidéo (protocole de transport en temps réel, RTP).  <br/> |
 |**BandwidthEst** <br/> |int  <br/> | <br/> |Estimations de bande passante pour le flux vidéo.  <br/> |
 |**VideoResolution** <br/> |char(9)  <br/> | <br/> |Résolution de la vidéo en pixels de largeur multipliée par la hauteur en pixels. Signalé sous la mesure d’une chaîne.  <br/> |
 |**VideoBitRateAvg** <br/> |int  <br/> | <br/> |Vitesse de bit moyenne du flux vidéo.  <br/> |
-|**InboundVideoFrameRateAvg** <br/> |décimal(9,4)  <br/> | <br/> |Fréquence d’images vidéo reçues.  <br/> |
-|**OutboundVideoFrameRateAvg** <br/> |décimal(9,4)  <br/> | <br/> |Fréquence d’images vidéo envoyées.  <br/> |
+|**InboundVideoFrameRateAvg** <br/> |decimal(9,4)  <br/> | <br/> |Fréquence d’images vidéo reçues.  <br/> |
+|**OutboundVideoFrameRateAvg** <br/> |decimal(9,4)  <br/> | <br/> |Fréquence d’images vidéo envoyées.  <br/> |
 |**VideoBitRateMax** <br/> |int  <br/> | <br/> |Vitesse de bits vidéo maximale pendant la session vidéo.  <br/> |
-|**VideoFrameLossRate** <br/> |décimal(9,4)  <br/> | <br/> |Pourcentage du nombre total d’images vidéo perdues.  <br/> |
+|**VideoFrameLossRate** <br/> |decimal(9,4)  <br/> | <br/> |Pourcentage du nombre total d’images vidéo perdues.  <br/> |
 |**VideoFEC** <br/> |bit  <br/> | <br/> |Non disponible.  <br/> |
-|**VideoLocalFrameLossPercentageAvg** <br/> |décimal(9,4)  <br/> ||Pourcentage du nombre total d’images vidéo perdues.  <br/> |
+|**VideoLocalFrameLossPercentageAvg** <br/> |decimal(9,4)  <br/> ||Pourcentage du nombre total d’images vidéo perdues.  <br/> |
 |**CIFQualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel qui était à la résolution CIF (Common Interchange Format).  <br/> |
 |**VGAQualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel à résolution VGA.  <br/> |
 |**HD720QualityRatio** <br/> |tinyint  <br/> ||Pourcentage de l’appel à résolution HD720.  <br/> |
@@ -75,7 +75,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 |**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences d’intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité totale des intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée totale des intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**VideoPacketLossRate** <br/> |décimal(9,4)  <br/> ||Taux auquel les paquets vidéo ont été perdus.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**VideoPacketLossRate** <br/> |decimal(9,4)  <br/> ||Taux auquel les paquets vidéo ont été perdus.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**VideoAllocateBWAvg** <br/> |int  <br/> ||Quantité moyenne de bande passante allouée à la vidéo.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**SendCodecTypes** <br/> |smallint  <br/> |Étranger  <br/> |Type de codecs vidéo utilisés par l’expéditeur. Pour plus d’informations, voir la [table CodecDescription.](codecdescription.md) <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**SendResolutionWidth** <br/> |int  <br/> ||Largeur de résolution utilisée par l’expéditeur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
@@ -96,7 +96,7 @@ Chaque enregistrement représente un flux vidéo. Une ligne de média vidéo con
 |**VideoPostFECPLR** <br/> |float  <br/> ||Taux de perte de paquets après l’application de la correction des erreurs de forward.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**DynamicCapabilityPercent** <br/> |float  <br/> ||Pourcentage de temps d’activité de l’indicateur de fonctionnalité dynamique.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ResolutionMin** <br/> |char(9)  <br/> ||Résolution minimale mesurée pendant l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**LowBitRateCallPercent** <br/> |float  <br/> ||Pourcentage de l’appel inférieur au seuil de vitesse de bits faible (70 kilobits par seconde).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**LowBitRateCallPercent** <br/> |float  <br/> ||Pourcentage de l’appel inférieur au seuil de faible vitesse de bits (70 kilobits par seconde).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**LowFrameRateCallPercent** <br/> |float  <br/> ||Pourcentage de l’appel inférieur au seuil de fréquence d’images faible (7,5 images par seconde, entrant).  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**LowResolutionCallPercent** <br/> |float  <br/> ||Pourcentage de l’appel qui s’est produit à la résolution la plus faible.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**DurationSeconds** <br/> |float  <br/> ||Durée de l’appel en secondes.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

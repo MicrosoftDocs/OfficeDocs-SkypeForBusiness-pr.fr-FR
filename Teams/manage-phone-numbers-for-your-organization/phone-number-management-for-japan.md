@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
-ms.openlocfilehash: 713897cbaf38e2e411db67e7b28358a4bd11d9d4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ed0b4403f28f825cdf98a7fde20d3fe4e3b88199
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234979"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628346"
 ---
 # <a name="phone-number-management-for-japan"></a>Téléphone gestion des nombres pour le Japon
 
@@ -34,7 +34,7 @@ Pour plus d’informations [sur SoftBank Calling.](https://aka.ms/SoftBankVoiceP
 
 Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Japon pour Microsoft Teams.
 
-Pour plus d’informations, [voir Gérer les numéros de téléphone pour votre organisation.](manage-phone-numbers-for-your-organization.md)
+Pour plus d’informations, voir [Gérer les numéros de téléphone pour votre organisation.](manage-phone-numbers-for-your-organization.md)
   
 |**Que voulez-vous faire ?**|**Suivez la procédure suivante et téléchargez les formulaires corrects**|
 |:-----|:-----|
@@ -44,7 +44,7 @@ Pour plus d’informations, [voir Gérer les numéros de téléphone pour votre 
 |Obtenez les numéros de téléphone transférés vers les Microsoft 365 ou Office 365 pour les files **d’attente d’appels** au Japon.|Contactez [SoftBank Calling pour](https://aka.ms/SoftBankVoicePlan) transférer des numéros de téléphone de service. Ils ajouteront alors ces numéros à votre organisation.|
 |Modifiez l’adresse d’urgence affectée aux utilisateurs qui ont un numéro de téléphone de plan d’appels.|Contactez [SoftBank Calling pour](https://aka.ms/SoftBankVoicePlan) apporter des modifications d’adresse d’urgence. Ils peuvent mettre à jour ces informations pour vous.|
 |Modifiez un numéro d’utilisateur en numéro de service. |Pas de prise en charge actuellement lors de l’utilisation de SoftBank Calling.|
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente ou de service automatique, contactez le service de service [PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de files d’attente ou de service automatique, contactez le service de service [PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

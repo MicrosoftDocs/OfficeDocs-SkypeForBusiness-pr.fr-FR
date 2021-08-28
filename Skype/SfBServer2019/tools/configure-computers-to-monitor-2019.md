@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2019 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center serveur proxy.'
-ms.openlocfilehash: 1d723ba13e7db91a8f6b22a48c5f0eeb87333e1e
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 06d44ec8ec46ceff07955eea8615bb00ed46c01c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605743"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Configurer les ordinateurs Skype Entreprise Server à surveiller
 

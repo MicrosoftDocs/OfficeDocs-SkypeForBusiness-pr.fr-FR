@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur le déploiement des barres de collaboration pour Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334715"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605813"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Créer un Microsoft 365 de ressources à l’aide de PowerShell
 
 Lisez cette rubrique pour plus d’informations sur la création de comptes de ressources pour les barres de collaboration Microsoft Teams l’aide de PowerShell.
 
-La méthode la plus simple pour créer un compte de ressource consiste à utiliser la Centre d’administration Microsoft 365. [Consultez cet article sur la façon de faire.](resource-account-ui.md)
+Pour créer un compte de ressource, le plus simple consiste à utiliser la Centre d’administration Microsoft 365. [Consultez cet article sur la façon de faire.](resource-account-ui.md)
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -37,7 +37,7 @@ Avant de déployer Salles Microsoft Teams avec Office 365, assurez-vous que vous
 
 - Si vous avez besoin des fonctionnalités PSTN pour la barre de collaboration, vous devez Système téléphonique licence.
 
-- Vos comptes de ressources doivent avoir Exchange boîtes aux lettres. Comme il s’agit de comptes de ressources, aucune Exchange n’est requise. Nous vous recommandons d’utiliser la licence Salles de réunion pour les comptes de ressources.
+- Vos comptes de ressources doivent avoir Exchange boîtes aux lettres. Comme il s’agit de comptes de ressources, aucune licence Exchange n’est requise. Nous vous recommandons d’utiliser la licence Salles de réunion pour les comptes de ressources.
 
 
 ### <a name="add-a-resource-account"></a>Ajouter un compte de ressource
@@ -91,11 +91,11 @@ Avant de déployer Salles Microsoft Teams avec Office 365, assurez-vous que vous
 
    - SuppressionSubject : $false (conserver l’objet des demandes de réunion entrantes).)
 
-   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.)
+   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.)
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
-   - Réponse supplémentaire : « Cette salle insère une barre de collaboration pour Microsoft Teams ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
+   - Réponse supplémentaire : « Cette salle insère une barre de collaboration pour Microsoft Teams ! » (Texte supplémentaire à ajouter à la demande de réunion.
 
    Cet exemple configure ces paramètres dans la boîte aux lettres de salle nommée Bldle-Room-01.
 

@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 72abf99895924e70f3a57ae0f8d1e1cd8c0f9bcd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341090"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580048"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurer l’audioconférence pour Skype Entreprise
 
@@ -64,7 +64,7 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
 
 Pour les audioconférences, vous ne pouvez pas utiliser les numéros de téléphone pour les utilisateurs ; vous devez leur obtenir des numéros de service. Vous pouvez obtenir des numéros de service payants ou gratuits pour vos ponts de conférence. Il existe trois façons d’obtenir des numéros de service payants et gratuits  : 
   
-- **Utilisez le centre Skype Entreprise d’administration de l’utilisateur.** Pour certains pays ou certaines régions, vous pouvez obtenir des numéros de service pour vos ponts de conférence à l’aide du Skype Entreprise d’administration. Voir [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).
+- **Utilisez le centre Skype Entreprise d’administration de l’utilisateur.** Pour certains pays/certaines régions, vous pouvez obtenir des numéros de service pour vos ponts de conférence à l’aide du Skype Entreprise d’administration. Voir [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).
     
 - **Portage de vos numéros de service existants**. Pour porter ou transférer des numéros existants de votre fournisseur de service ou de votre téléphone actuel vers Microsoft 365 ou Office 365. Vous pouvez consulter [Transfert des numéros de téléphone vers Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) ou [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization) pour plus d’informations pour vous aider à effectuer ces opérations.  
   
@@ -95,7 +95,7 @@ Vous pouvez ensuite définir les [langues](../audio-conferencing-in-office-365/s
 1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
 2. Sélectionnez le numéro de téléphone de pont de conférence, cliquez sur **Modifier**, puis choisissez la langue par défaut.
 
-![Icône montrant le logo ](../images/sfb-logo-30x30.png) **Skype Entreprise’aide du Centre d’Skype Entreprise d’administration :**
+![Icône représentant le logo ](../images/sfb-logo-30x30.png) **Skype Entreprise’aide du Centre d’administration Skype Entreprise' :**
 
 1. Allez dans le Centre d’administration > **centres d’administration**  >  **Teams**  >  **portail hérité.**
 2. Sélectionnez **Audioconférences**  >  **Pont Microsoft.** 

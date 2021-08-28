@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
 description: Découvrez comment utiliser la qualité de service (QoS) pour optimiser le trafic réseau du client Microsoft Teams bureau.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: efe36f1ada9e8c98a82d8d5ece0cee2d9058aa318ef174f6d1b704f1c7f1e178
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c283a66db274bc8723d429631bf265fdb0f5206b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606013"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implémenter la qualité de service (QoS) dans Microsoft Teams clients
 
@@ -34,14 +34,14 @@ Vous pouvez utiliser la qualité de service basée sur une stratégie au sein d�
 
 |Type de trafic média| Plage de port source du client  |Protocole|Valeur DSCP|Classe DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Audio| Entre 50 000 et 50 019|TCP/UDP|46|Acheminement accéléré (EF)|
-|Vidéo| 50 020–50 039|TCP/UDP|34|Acheminement assuré (AF41)|
-|Partage d’application/d'écran| 50 040–50 059|TCP/UDP|18|Transfert garanti (AF21)|
+|Audio| Entre 50 000 et 50 019|TCP/UDP|46|Acheminement accéléré (EF)|
+|Vidéo| 50 020–50 039|TCP/UDP|34|Acheminement assuré (AF41)|
+|Partage d’application/d'écran| 50 040–50 059|TCP/UDP|18|Transfert garanti (AF21)|
 | | | | | |
 
 Lorsque possible, configurez les paramètres de QoS basés sur une stratégie dans un objet de stratégie de groupe. Les étapes suivantes sont très semblables à la configuration des plages de ports et à une stratégie de qualité de service pour vos clients sur [Skype Entreprise Server,](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)qui présente des détails supplémentaires qui peuvent ne pas être nécessaires.
 
-Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 joints à un domaine, connectez-vous tout d’abord à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Ouvrez la gestion des stratégies de groupe (cliquez sur Démarrer, pointez sur Outils d’administration, puis cliquez sur Gestion des stratégies de groupe), puis complétez les étapes suivantes :
+Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 joints à un domaine, connectez-vous d’abord à un ordinateur sur lequel la gestion des stratégies de groupe a été installée. Ouvrez la gestion des stratégies de groupe (cliquez sur Démarrer, pointez sur Outils d’administration, puis cliquez sur Gestion des stratégies de groupe), puis complétez les étapes suivantes :
 
 1. Dans la gestion des stratégies de groupe, recherchez le conteneur dans lequel la nouvelle stratégie doit être créée. Par exemple, si tous vos ordinateurs clients sont situés dans une ou plusieurs **clients,** la nouvelle stratégie doit être créée dans l’ou Clients.
 
@@ -53,7 +53,7 @@ Pour créer une stratégie audio QoS pour des ordinateurs Windows 10 joints à u
 
 1. Dans l’Éditeur de gestion des stratégies de groupe, développez **Configuration** ordinateur, développez **Windows Paramètres,** cliquez avec le bouton droit sur **QoS** basé sur une stratégie, puis cliquez sur **Créer une stratégie.**
 
-1. Dans la **boîte de dialogue QoS** basée sur une stratégie, dans la page d’ouverture, tapez un nom pour la nouvelle stratégie dans la **zone** Nom. Sélectionnez **Spécifier la valeur DSCP** et définissez la valeur **sur 46.** Laissez **Spécifier la fréquence de limitation** sortante non sélectionné, puis cliquez sur **Suivant.**
+1. Dans la **boîte de dialogue QoS** basée sur une stratégie, dans la page d’ouverture, tapez le nom de la nouvelle stratégie dans la **zone** Nom. Sélectionnez **Spécifier la valeur DSCP** et définissez la valeur **sur 46.** Laissez **Spécifier le taux d’limitation** sortant non sélectionné, puis cliquez sur **Suivant.**
 
 1. Sur la page suivante, sélectionnez Uniquement les applications avec ce nom **exécutable,** entrez le **Teams.exe,** puis cliquez sur **Suivant.** Ce paramètre indique à la stratégie de ne hiérarchiser que les trafics correspondants en provenance Teams client.
 
@@ -112,7 +112,7 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
    |        Adresse IP locale        | REG_SZ |     \*      |
    | Longueur du préfixe IP local | REG_SZ |     \*      |
    |       Local Port       | REG_SZ | 50000-50019 |
-   |        Protocol (Protocole)        | REG_SZ |     \*      |
+   |        Protocole        | REG_SZ |     \*      |
    |       Adresse IP distante        | REG_SZ |     \*      |
    |    Préfixe IP distant    | REG_SZ |     \*      |
    |      Port distant       | REG_SZ |     \*      |
@@ -122,6 +122,6 @@ Pour vérifier que les valeurs de l’objet de stratégie de groupe ont été d�
 1. Vérifiez que la valeur de l’entrée Nom de l’application est correcte pour le client que vous utilisez, et vérifiez que les entrées de port DSCP et de port local reflètent les paramètres dans l’objet de stratégie de groupe.
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Implémenter la qualité de service (QoS) dans Teams](QoS-in-Teams.md)

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Découvrez comment configurer l’intégration de Cloud Connector avec Microsoft 365 ou Office 365 organisation.
-ms.openlocfilehash: 48220c2e48046c87e80fea2f82c74951b7024fc69b8ec9ba3111975d780f47ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e6cf8033a4207b79ff2f7d0915849b19eec2b65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628526"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>Configurer l’intégration de Cloud Connector avec Microsoft 365 ou Office 365 organisation
 
@@ -60,7 +60,7 @@ Assurez-vous que vous avez effectué les étapes de mise à jour de votre domain
   
 ## <a name="add-dns-records-for-your-edge"></a>Ajouter des enregistrements DNS pour votre edge
 
-Ajoutez les enregistrements DNS suivants à Microsoft 365 ou Office 365 organisation. Pour plus d’informations sur l’ajout d’enregistrements DNS, voir Ajouter ou modifier des enregistrements [DNS](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)personnalisés dans Microsoft 365 ou Office 365 .
+Ajoutez les enregistrements DNS suivants à votre Microsoft 365 ou Office 365 organisation. Pour plus d’informations sur l’ajout d’enregistrements DNS, voir Ajouter ou modifier des enregistrements [DNS](https://support.office.com/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1)personnalisés dans Microsoft 365 ou Office 365 .
   
 1. Ajoutez un enregistrement DNS A pour le edge d’accès.
     
@@ -80,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
 
 > [!NOTE]
-> Le FQDN du edge d’accès externe utilisé pour la destination homologue doit être affecté à un site PSTN qui sera uniquement utilisé comme base au cas où un utilisateur n’est pas affecté à un site PSTN. Pour plus d’informations, voir [Déployer un seul site dans Cloud Connector](deploy-a-single-site-in-cloud-connector.md) et Déployer plusieurs sites dans Cloud [Connector.](deploy-multiple-sites-in-cloud-connector.md) 
+> Le FQDN du edge d’accès externe utilisé pour la destination homologue doit être affecté à un site PSTN qui ne sera utilisé que comme base au cas où un utilisateur n’est pas affecté à un site PSTN. Pour plus d’informations, voir [Déployer un seul site dans Cloud Connector](deploy-a-single-site-in-cloud-connector.md) et Déployer plusieurs sites dans Cloud [Connector.](deploy-multiple-sites-in-cloud-connector.md) 
   
 ## <a name="set-up-pstn-gateways"></a>Configurer des passerelles PSTN
 
@@ -147,7 +147,7 @@ Pour réactiver les appels internationaux par utilisateur après sa désactivati
   
 ## <a name="assign-users-to-pstn-sites"></a>Affecter des utilisateurs à des sites PSTN
 
-Utilisez powerShell distant client pour affecter un site aux utilisateurs, même si vous avez déployé un seul site. Pour découvrir comment établir une session PowerShell distante, voir : Configurer votre ordinateur [pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Utilisez powerShell distant client pour affecter un site aux utilisateurs, même si vous n’avez déployé qu’un seul site. Pour découvrir comment établir une session PowerShell distante, voir : Configurer votre ordinateur [pour Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ```powershell
 # Set the site to users
@@ -193,6 +193,6 @@ Lorsqu’un appel P2P est recalcalé à une conférence PSTN, le serveur de conf
     
     Pour  *mediationServerFQDN,*  utilisez le nom de groupe interne défini pour votre serveur de médiation.
     
-    Pour  *edgeServerExternalFQDN,*  utilisez le FQDN externe défini pour le proxy d’accès au serveur Edge. S’il existe plusieurs sites PSTN Cloud Connector, choisissez le FQDN du proxy d’accès du serveur Edge affecté au site où se trouve le serveur de médiation.
+    Pour  *edgeServerExternalFQDN,*  utilisez le nom de groupe externe défini pour le proxy d’accès au serveur Edge. S’il existe plusieurs sites PSTN Cloud Connector, choisissez le FQDN du proxy d’accès du serveur Edge affecté au site où se trouve le serveur de médiation.
     
 4. S’il existe plusieurs serveurs de médiation Cloud Connector (plusieurs sites, haute haute qualité), répétez les étapes précédentes pour chacun d’eux.

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment piloter l’adoption Teams en gérant votre déploiement Microsoft 365 ou Office 365 avec Teams, notamment comment épingler des ressources clés en tant qu’onglets dans les canaux appropriés.
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335870"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628256"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
@@ -42,7 +42,7 @@ Dans Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview
 
 ![Capture d’écran montrant les onglets par défaut et personnalisés](media/teams-adoption-tab-example.png)
 
-Dans vos équipes initiales, nous vous suggérons d’épingler les éléments suivants à des fin de référence facile dans vos canaux d’équipe. Ces ressources sont en plus de vos sections OneNote bloc-notes. Si vous travaillez avec notre équipe de FastTrack, elle vous aidera dans la configuration de ces premières équipes. 
+Dans vos équipes initiales, nous vous suggérons d’épingler les éléments suivants afin de les référencer facilement dans vos canaux d’équipe. Ces ressources sont en plus de vos sections OneNote bloc-notes. Si vous travaillez avec notre équipe de FastTrack, elle vous aidera dans la configuration de ces premières équipes. 
 
 |Nom de l’équipe/du canal | Onglet épinglé |
 |----------------- | ---------- |
@@ -51,7 +51,7 @@ Dans vos équipes initiales, nous vous suggérons d’épingler les éléments s
 | Sensibilisation et adoption | [Teams Hub d’adoption](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de réussite des clients de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Engagement commercial | Wiki - Conseils d’engagement<br/>Formulaire – Demande de consultation Teams réunion<br/>Liste – Demandes d’engagement |
 |Premiers utilisateurs | Communauté de commentaires épinglés <br/> OneNote faq et thèmes courants |
-| Commentaires et rapports | Rapport d’Microsoft 365 utilisation Office 365 données épinglée (pour les administrateurs Microsoft 365 administrateurs Office 365 utilisateurs uniquement) |
+| Commentaires et rapports | Rapport d’Microsoft 365 utilisation Office 365 données épinglée (Microsoft 365 administrateurs Office 365 utilisateurs uniquement) |
 | Sécurité et conformité | Portail d’aide à la trust Microsoft <br/> [Documentation relative à la sécurité et à la conformité](/office365/securitycompliance/index)<br/> [Roadmap](/office365/securitycompliance/security-roadmap) |
 | Stratégie et planification | Collaboration north star PowerPoint <br/> Plan d’adoption Project service |
 | Formation | Apprentissage personnalisé de formation <br/> [Formation en ligne Teams](https://aka.ms/TeamsTraining) |

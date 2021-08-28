@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,20 +17,20 @@ description: Découvrez les rubriques d’aide, les vidéos, les notes de public
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78391b9afa0ea4edcc6f901f26d4f587eeb94249
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 815746f350f4ded43f8f38811e4d0105ac1c742d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233579"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579718"
 ---
 # <a name="get-help-in-microsoft-teams"></a>Obtenir de l’aide dans Microsoft Teams
 
-Le bouton Aide dans Microsoft Teams où vos utilisateurs et champions peuvent trouver toute l’assistance dont ils peuvent avoir besoin lors de l’utilisation Teams.
+Le bouton Aide dans Microsoft Teams où vos utilisateurs et champions peuvent trouver toute l’aide dont ils peuvent avoir besoin lors de l’utilisation de Teams.
 
 Teams prise en charge des langues localisées pour le contenu d’aide. Pour obtenir la liste la plus complète des langues pris en charge, voir Microsoft Teams langues pris en charge [pour le contenu d’aide.](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)
 
- - **Parcourir les rubriques** - Cela permet d’organiser le contenu par Teams fonctionnalité. Instructions simples et simples pour aider les utilisateurs à mieux Teams. 
+ - **Parcourir les rubriques** - Cet article aide à organiser le contenu à l’aide Teams fonctionnalité. Instructions simples et simples pour aider les utilisateurs à mieux Teams. 
 
  - **Vidéos** : notre contenu vidéo à la demande permet aux utilisateurs d’apprendre rapidement des tâches spécifiques. Nous ne cessons de produire de nouvelles vidéos. Par contre, consultez cette vidéo fréquemment. Il est bien sûr nécessaire d’accéder à Internet. 
 

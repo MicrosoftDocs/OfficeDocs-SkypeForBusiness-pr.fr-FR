@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams à Antigua-et-Barbuda.
-ms.openlocfilehash: 1ff0c88c2391a69d1bf176fa36c25e77240e331fcfb6a3de244fcb6b87b830e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 438a68188bb89b502c9e7e319e025bfcbaf6467a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628366"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Disponibilité à Antigua-et-Barbuda
 

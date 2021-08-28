@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Découvrez un stopgap pour la mise à niveau vers Microsoft Teams’administration si le Centre d’administration n’est pas allumé dans votre client.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,19 +20,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd4c3cab1795ffcffe1cfd3ed1229f19e3ec80a243497ab13790e009878f9f35
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61201e52eabd9a921da432ac7081329a643664c7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300750"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628216"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Mise à niveau de vos utilisateurs de Skype Entreprise Online vers Microsoft Teams
 
 > [!Note]
 > Les commandes décrites dans cet article sont conçues pour être utilisées dans le cadre de la liste de contrôle [Mise à](./upgrade-start-here.md) niveau de base.
 
-Les aspects de la migration technique de votre mise à niveau impliquent d’informer vos utilisateurs que Skype Entreprise va mettre à niveau vers Teams puis les déplacer vers un **mode** Teams seul. Ces étapes peuvent être réalisées via une session Skype Entreprise’administration Windows PowerShell distance ou via le Microsoft Teams d’administration.
+Les aspects de la migration technique de votre mise à niveau impliquent d’informer vos utilisateurs que Skype Entreprise va mettre à niveau vers Teams puis les déplacer vers un **mode** Teams seul. Ces étapes peuvent être réalisées par le biais d Skype Entreprise une session Windows PowerShell distance ou via le Microsoft Teams d’administration.
 
 Nous travaillons activement au déploiement des [](manage-teams-skypeforbusiness-admin-center.md)outils de mise à niveau dans le Microsoft Teams d’administration, qui doivent bientôt être disponibles sur votre client. Dès qu’elle est disponible, vous trouverez des informations sur la migration de vos utilisateurs dans La définition de vos paramètres de coexistence et de mise [à niveau.](./setting-your-coexistence-and-upgrade-settings.md)
 
