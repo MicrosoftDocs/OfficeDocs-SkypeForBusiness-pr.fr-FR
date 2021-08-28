@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58c70360a9e25ccefcd62181ab5a1a5b222ae9a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322396"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600679"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer Busy Options pour Skype Entreprise Server
 
@@ -107,13 +107,13 @@ Par exemple, la commande suivante configure les options busy pour l’utilisateu
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
-Dans l’exemple suivant, la commande configure les options busy pour l’utilisateur « Contrôletal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Contrôletal Velasquez » sont transmis à la messagerie vocale lorsqu’elle est déjà en appel :
+Dans l’exemple suivant, la commande configure les options occupé pour l’utilisateur « Contrôletal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Contrôletal Velasquez » sont transmis à la messagerie vocale lorsqu’elle est déjà en appel :
 
 ```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Vous pouvez récupérer des informations de configuration sur Busy Options à l’aide de l’cmdlet [Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) L’exemple suivant renvoie le paramètre Busy Options pour « KenMyer@Contoso.com » :
+Vous pouvez récupérer des informations de configuration sur Busy Options à l’aide de l';cmdlet [Get-CsBusyOptions.](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) L’exemple suivant renvoie le paramètre Busy Options pour « KenMyer@Contoso.com » :
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com

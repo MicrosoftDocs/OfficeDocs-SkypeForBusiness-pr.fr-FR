@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewPolicy
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 7593dfcd17a47e2bac6f167b19a4643afde5fe8c35645a2bb9e10b6466be58ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79bf2fdadb113db350b1078d8105476f610b578c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600329"
 ---
-# <a name="users-view-voice-policy"></a>Utilisateurs : afficher une stratégie de voix
+# <a name="users-view-voice-policy"></a>Utilisateurs : afficher une stratégie de voix
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

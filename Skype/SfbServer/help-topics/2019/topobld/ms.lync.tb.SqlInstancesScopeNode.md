@@ -11,20 +11,20 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le SQL stocke les listes SQL Server bases de données de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: f5e4ad781fa2e5a4ec1e813cdb5c3e74157960b086ff96c86ba09ae05120f4e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8c19da041c532c623604d4513230089d91fb97a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311652"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626806"
 ---
 # <a name="sql-instances-scope-node"></a>Nœud d’étendue des instances SQL
  
-Le **SQL stocke** les listes SQL Server bases de données de votre topologie. Vous pouvez effectuer l’action suivante :
+Le **SQL magasins** répertorie les bases SQL Server de données de votre topologie. Vous pouvez effectuer l’action suivante :
   
 - **Nouveau magasin SQL**. Démarre **l’Assistant Définir SQL Store,** que vous utilisez pour ajouter une nouvelle base SQL Server de données à la topologie.
     

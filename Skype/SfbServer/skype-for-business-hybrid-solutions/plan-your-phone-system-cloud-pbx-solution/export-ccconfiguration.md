@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: Exporte la configuration Skype Entreprise Cloud Connector Edition vers un fichier local sur Skype Entreprise Cloud Connector Edition serveur hôte.
-ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b2b3ea0171b68701b47b8ae2ed239f2e0495855b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625006"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  

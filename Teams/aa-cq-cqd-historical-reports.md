@@ -14,20 +14,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques des Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: 3bae6b1e874026a452798d27b4629207f7ec0035
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques Standard automatique de la file d’attente d’appels.
+ms.openlocfilehash: cd32c732162c15cdaf4cfeac4c83cb53ebd5fe10
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598618"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Standard automatique & historique de la file d’attente d’appels
 
@@ -89,9 +89,9 @@ Effectuez les étapes suivantes :
 
 - Sélectionnez **Connecter** et regardez les données s’actualiser.
 
-## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analyse de qualité des & données
+## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analyse du & de qualité des données
 
-Les données seront disponibles dans le pipeline de données du CQD dans les 30 minutes.
+Les données seront disponibles dans le pipeline de données du DQD dans les 30 minutes.
 
 Vous devez actualiser les données pour voir les nouvelles données d’analyse. 
 
@@ -159,7 +159,7 @@ Effectuez les étapes suivantes :
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |Nom AA                                 |texte                     |Nom du compte de ressource joint à Standard automatique<br><br>Si le nom complet du compte de **ressource aa_test@microsoft.com** alors cette valeur est : **aa_test** |
 |AACallerActionCount                     |nombre entier             |Résumer : Somme<br>Nombre d’actions sélectionnées par l’appelant dans Standard automatique’appel  |
-|AACallFlow                              |texte                     |Encapsule les différents états des Standard automatique appel (valeurs possibles) :<br><br>§ abs_search<br>§ annonce<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallFlow                              |texte                     |Encapsule les différents états d’un Standard automatique appel (valeurs possibles) :<br><br>§ abs_search<br>§ annonce<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
 |AACallResult                            |texte                     |Résultat de l’appel final - valeurs possibles :<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ inconnu<br>§ user_terminated |
 |AAChainDuration                         |nombre décimal           |Résumer : Somme<br>Durée de l’appel dans Standard automatique                     |
 |AAChainIndex                            |texte                     |                                                                         |
@@ -225,7 +225,7 @@ Effectuez les étapes suivantes :
 |Nom                                    |Type de données                |Description                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Nombre d’appels                              |nombre entier             |Résumer : Somme<br>Nombre d'appels                                          |
-|Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>L’échec de §<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
+|Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>§ a échoué<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
 |Identité de la file d’attente d’appels                     |texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
 |Type cible de la file d’attente d’appels                  |texte                     |***Type cible de redirection d’appel : valeurs possibles :***<br><br>§ ApplicationEndpoint<br>§ Boîte aux lettres<br>§ Autre<br>§ Utilisateur |
 |Type<sup>d’appel 1</sup>                   |texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne           |
@@ -248,7 +248,7 @@ Effectuez les étapes suivantes :
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |Durée moyenne de l’appel (secondes)         |nombre décimal           |Résumer : Somme<br>Durée moyenne de l’appel en secondes |
 |Nombre d’appels                              |nombre entier             |Résumer : Somme<br>Nombre d'appels                  |
-|Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>L’échec de §<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
+|Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>§ a échoué<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
 |Action d’état final de la file d’attente d’appels           |texte                     |Action finale de la file d’attente d’appels - valeurs possibles :<br><br>§ déconnecter<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ avancer<br>§ shared_voicemail<br>§ autre<br>§ messagerie vocale |
 |Identité de la file d’attente d’appels                     |texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
 |Date                                    |date/heure                |Date et heure de début des appels en file d’attente (heure) (UTC)   |
@@ -281,15 +281,15 @@ Effectuez les étapes suivantes :
 |Nom de la file d’attente d’appels                               |Nom de la file d’attente d’appels                       |Aucun                  |
 |#Calls par agent                               |Nom de l’agent<br>Nombre d’appels<br>Date      |Aucun                  |
 |Distribution par agent et file d’attente d’appels          |Nom de l’agent<br>Nombre d’appels<br>Durée de l’appel (minutes)<br>Nom de la file d’attente d’appels |Aucun                      |
-|Bas à gauche                                   |Nom de l’agent<br>Durée moyenne de l’appel (seconde)<br>Nombre d’appels<br>Durée de l’appel (minute)<br>Nom de la file d’attente d’appels | Aucun |
-|Durée moyenne de l’appel (secondes) par nom de l’agent |Nom de l’agent<br>Durée moyenne de l’appel (seconde)<br>Nombre d’appels<br>Durée de l’appel (minute)<br>Nom de la file d’attente d’appels | Aucun |
+|Bas à gauche                                   |Nom de l’agent<br>Durée moyenne de l’appel (deuxième)<br>Nombre d’appels<br>Durée de l’appel (minute)<br>Nom de la file d’attente d’appels | Aucun |
+|Durée moyenne de l’appel (secondes) par nom de l’agent |Nom de l’agent<br>Durée moyenne de l’appel (deuxième)<br>Nombre d’appels<br>Durée de l’appel (minute)<br>Nom de la file d’attente d’appels | Aucun |
 
 #### <a name="fagenttimelineanalytics-cqd-fields-description"></a>fAgentTimelineAnalytics CQD fields description
 
 |Nom                                    |Type de données                |Description                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Nom de l’agent                              |texte                     |Nom d’utilisateur utilisateur (UPN)<br>Si le nom **d’utilisateur complet user@microsoft.com** alors cette valeur est : **utilisateur** |
-|Durée moyenne de l’appel (seconde)          |nombre décimal           |Résumer : Somme<br>Durée moyenne des appels de la file d’attente en secondes |
+|Durée moyenne de l’appel (deuxième)          |nombre décimal           |Résumer : Somme<br>Durée moyenne des appels de la file d’attente en secondes |
 |Nombre d’appels                              |nombre entier             |Résumer : Somme<br>Nombre d’appels gérés par l’agent                    |
 |Durée de l’appel (minute)                  |nombre entier             |Résumer : Somme<br>Durée totale des appels de la file d’attente en minutes  |
 |Nom de la file d’attente d’appels                         |texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |

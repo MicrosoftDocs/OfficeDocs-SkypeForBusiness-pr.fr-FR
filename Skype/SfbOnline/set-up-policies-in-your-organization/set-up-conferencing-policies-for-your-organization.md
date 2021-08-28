@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: "La fonctionnalité Conférence est une partie importante de Skype Entreprise Online : elle permet à des groupes d'utilisateurs de se retrouver en ligne pour visionner des diapositives et des vidéos, partager des applications, échanger des fichiers, communiquer et collaborer."
-ms.openlocfilehash: b0a6eff8c275bc94efe3a9f7e25d7ddbf423d33ebad4558f25a7f18885756dce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c940a7d06d05f9584ee3ac1c2e88b78b6275ada
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340300"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597388"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurer les stratégies de conférence pour votre organisation
 
@@ -47,7 +47,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
 
  > [!Note]
 > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
-1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
+1. Installez le [module Teams PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 
@@ -67,7 +67,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
    
@@ -85,7 +85,7 @@ Les paramètres de stratégie peuvent être configurés lors de la création d�
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à Amos Marble, exécutez :
    
@@ -103,7 +103,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   En savoir plus sur [l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
+   En savoir plus [sur l’cmdlet New-CsConferencingPolicy.](/powershell/module/skype/New-CsConferencingPolicy)
     
 - Pour accorder la nouvelle stratégie que vous avez créée à tous les utilisateurs de votre organisation, exécutez :
     
@@ -132,7 +132,7 @@ Si vous avez déjà créé une stratégie, vous pouvez utiliser l’cmdlet [Set-
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 [Créer des stratégies d'accès externe personnalisées](create-custom-external-access-policies.md)
 
 [Bloquer les transferts de fichiers de point à point](block-point-to-point-file-transfers.md)

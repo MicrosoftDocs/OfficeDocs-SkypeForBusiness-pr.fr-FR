@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la Jordanie.
-ms.openlocfilehash: 5bc1b62990011e7e24cc539ecca24e2f44c7bfd1614d627aa1f66f89bf900c2d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Voici les services Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams en Jordanie.
+ms.openlocfilehash: 6cb407c2377087d55bf1350d4028c900cc6784b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351094"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598598"
 ---
 # <a name="availability-in-jordan"></a>Disponibilité en Jordanie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams la Jordanie.
+Voici les services Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams en Jordanie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Résumé : Découvrez comment gérer les annonces de participer à une conférence et de laisser des annonces dans Skype Entreprise Server.'
-ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2219fc8d55485a4c34a8730fbec6b556d57b728
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290382"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625206"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Gérer les annonces de rejoindre et de quitter une conférence dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment gérer les annonces de participer à une conférence et de laisser des annonces dans Skype Entreprise Server.
+**Résumé :** Découvrez comment gérer les annonces de rejoindre et de laisser des conférences dans Skype Entreprise Server.
   
-Lorsque les utilisateurs d’appels sortants rejoignent ou quittent une conférence, les application Annonce de conférence peuvent annoncer leur entrée ou leur sortie en nonant une tonalité ou en nonant leurs noms. Vous pouvez modifier le fonctionnement des annonces à l’aide de Skype Entreprise Server Management Shell et de l’cmdlet **Set-CsDialinConferencing** avec les paramètres suivants :
+Lorsque des utilisateurs d’appels sortants rejoignent ou quittent une conférence, les application Annonce de conférence peuvent annoncer leur entrée ou leur sortie en nonant une tonalité ou en nonant leurs noms. Vous pouvez modifier le fonctionnement des annonces à l’aide de Skype Entreprise Server Management Shell et de l’cmdlet **Set-CsDialinConferencing** avec les paramètres suivants :
   
 - EnableNameRecording : détermine si les participants anonymes sont invités à enregistrer leur nom avant d’accéder à la conférence. La valeur par défaut est « $true », ce qui signifie que les participants anonymes sont invités à donner leur nom avant de participer à une conférence. (Les participants authentifiés ne sont pas tenus d’indiquer leur nom, car leur nom complet est utilisé.)
     
@@ -46,7 +46,7 @@ Vous pouvez configurer ces paramètres globalement ou au niveau d’un site. (Le
    Get-CsDialinConferencingConfiguration
    ```
 
-Cette cmdlet récupère des informations sur l’nécessité pour les participants d’enregistrer leur nom lors de leur participation à une conférence et la façon dont Skype Entreprise Server répond lorsque les participants rejoignent ou quittent une conférence d’accès.
+Cette cmdlet récupère des informations sur la nécessité pour les participants d’enregistrer leur nom lors de leur participation à une conférence et la façon dont Skype Entreprise Server répond lorsque les participants rejoignent ou quittent une conférence d’accès.
     
 4. Exécutez la commande suivante à l’invite de commandes :
     

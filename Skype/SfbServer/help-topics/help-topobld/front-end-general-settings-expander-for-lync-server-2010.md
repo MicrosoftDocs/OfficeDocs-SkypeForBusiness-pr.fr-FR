@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant ou en configurant les attributs suivants. La page de configuration s’organise autour des sections suivantes :'
-ms.openlocfilehash: c0174d6a0badadc217119b5b2ea1028bc01367278739d5b6b03bb4ae83c0f21d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315760"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600129"
 ---
-# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur frontal pour Lync Server 2010
+# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur frontal pour Lync Server 2010
 
 Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant ou en configurant les attributs suivants. La page de configuration s’organise autour des sections suivantes :
 
@@ -43,7 +43,7 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
 - Si vous avez sélectionné Conférence, **Conférence rendez-vous (PSTN)** peut l’être également. Activez cette case à cocher pour mettre en œuvre les fonctionnalités de conférence rendez-vous.
 
-- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), notamment l’option de déploiement de téléphones combinés, de connexions SIP ou de connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul, en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, voir [Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) et Planifier Voix Entreprise dans [Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), y compris la possibilité de déployer des téléphones combinés, des trunks SIP ou une connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul, en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, voir [Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) et Planifier Voix Entreprise dans [Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associations**
 
@@ -77,9 +77,9 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
   **Serveur de médiation**
 
-- Pour configurer  les propriétés du serveur de médiation pour un serveur de médiation c collocisé (c’est-à-dire, un serveur de médiation déployé sur le serveur frontal ou le pool frontal), sélectionnez Serveur de médiation cococéré **activé.**
+- Pour configurer  les propriétés du serveur de médiation pour un serveur de médiation cococéré (c’est-à-dire, un serveur de médiation déployé sur le serveur frontal ou le pool frontal), sélectionnez Serveur de médiation cococéré **activé.**
 
-- Pour définir les **ports d’écoute** d’un serveur de médiation câpisé, tapez la valeur du port **TLS** et **TCP** que le serveur de médiation câpisé écoute. Par défaut, TLS est défini comme le port TCP 5067.
+- Pour définir les **ports d’écoute** d’un serveur de médiation câpisé, tapez la valeur du port **TLS** et **TCP** sur qui le serveur de médiation câpisé écoute. Par défaut, TLS est défini comme le port TCP 5067.
 
 - Pour définir une valeur de port TCP pour le serveur de médiation, activez la case à cocher Activer le **port TCP.** Par défaut, le serveur de médiation utilise le protocole TLS (Transport Layer Security) sur le protocole TCP. Les ports TCP sont disponibles uniquement lorsqu’est activée la sélection Activer le port TCP.
 
@@ -91,7 +91,7 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
     Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier la passerelle par défaut en sélectionnant la passerelle que vous souhaitez utiliser par défaut, puis en cliquant sur Utiliser par **défaut.** Si vous choisissez de supprimer la passerelle par défaut actuelle, sélectionnez-la, puis cliquez sur **Annuler Par défaut**.
 
 > [!IMPORTANT]
-> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant déploiement Skype Entreprise Server doit être exécuté est fournie sous forme de lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l Skype Entreprise Server de déploiement, voir [outils d’administration Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
+> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant déploiement Skype Entreprise Server doit être exécuté est fournie sous forme de lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l Skype Entreprise Server de déploiement, voir [Outils d’administration Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
 
 Cliquez sur **OK** pour enregistrer et valider les modifications que vous avez apportées au document de topologie.
 

@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer la dérivation média avec Système téléphonique routage direct pour Microsoft Teams en changeant tous les utilisateurs en une fois ou en implémentant une approche progressive (recommandé).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74cfdb0d0bd92849b062d84df20e4ca1428f4034b2e8864bfc89ff70b77c6c3c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284185"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598578"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurer le contournement de média avec un routage direct
 
@@ -30,7 +30,7 @@ Avant de configurer la dérivation média avec le routage direct, veillez à lir
 
 Pour activer la dérivation média, les conditions suivantes doivent être remplies :
 
-1.    Assurez-vous que le fournisseur de votre choix de contrôleur de session border Controller (SBC) prend en charge la dérivation média et fournit des instructions sur la configuration de la dérivation sur le SBC. Reportez-vous à la page de certification pour en savoir plus sur les SBCs, lesquels supportent la dérivation média, et pour obtenir des instructions.
+1.    Assurez-vous que le fournisseur de votre choix de contrôleur de session en bordure (SBC) prend en charge la dérivation média et fournit des instructions sur la configuration de la dérivation sur le SBC. Reportez-vous à la page de certification pour en savoir plus sur les SBCs, lesquels supportent la dérivation média, et pour obtenir des instructions.
 
 2.    Vous devez activer la dérivation média sur la ligne à l’aide de la commande suivante : **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true.**
 
@@ -41,7 +41,7 @@ Pour activer la dérivation média, les conditions suivantes doivent être rempl
 
 Vous pouvez changer tous les utilisateurs en une fois ou implémenter une approche progressive (recommandé).
 
-- **Basculez tous les utilisateurs en une fois.** Si toutes les conditions sont remplies, vous pouvez activer le mode contournement. Toutefois, tous vos utilisateurs de production seront basculés en même temps. Comme vous risquez de faire face à des problèmes initialement lors de la configuration de ports et de ligne, votre expérience utilisateur en production peut être affectée. 
+- **Basculez tous les utilisateurs en une fois.** Si toutes les conditions sont remplies, vous pouvez activer le mode contournement. Toutefois, tous vos utilisateurs de production seront basculés en même temps. Étant donné que vous risquez de faire face à des problèmes initialement lors de la configuration de ports et de ligne, votre expérience utilisateur en production peut être affectée. 
 
 - **Approche progressive. (Recommandé).**  Créez une ligne pour le même port SBC (avec un autre port), testez-la et modifiez la stratégie de routage voix en ligne pour que les utilisateurs pointent vers la nouvelle ligne. 
 
@@ -60,7 +60,7 @@ Pour obtenir la liste des contrôleurs de session en bordure certifiés pour le 
 
 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Planifier la dérivation média avec le routage direct](direct-routing-plan-media-bypass.md)
 

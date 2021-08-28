@@ -10,23 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
 description: tblSiopWhiteList représente la liste des compléments inscrits qui peuvent être associés à des nœuds.
-ms.openlocfilehash: 3f1ad0461bc227970d4a2a0864dbc6318ef0af32d854402180321bab74aa91e5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 78cc98f584f20d3a08e9ed750ed9ac406f7e5780
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305376"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613824"
 ---
 # <a name="tblsiopwhitelist"></a>tblSiopWhiteList
  
 tblSiopWhiteList représente la liste des compléments inscrits qui peuvent être associés à des nœuds.
   
-**Columns**
+**Colonnes**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |siopID  <br/> |GUID, non null  <br/> |GUID du complément.  <br/> |
 |siopName  <br/> |nvarchar (50), non null  <br/> |Nom d’affichage du complément.  <br/> |

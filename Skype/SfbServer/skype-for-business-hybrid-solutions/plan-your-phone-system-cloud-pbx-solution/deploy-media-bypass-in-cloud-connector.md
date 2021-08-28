@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lisez cette rubrique pour en savoir plus sur les étapes de déploiement de la déviation du média avec La version 2.0 de Cloud Connector et les versions ultérieures.
-ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc00467d878f0f2ae137c86f179f864bb2ca53f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289432"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613774"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Déployer le contournement de média dans Cloud Connector Edition
  
@@ -115,10 +115,10 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 Un administrateur devra également supprimer les adresses web pour la déviation du trafic multimédia des serveurs DNS internes. Après avoir apporté la modification, la réplication des modifications sur toutes les appliances Cloud Connector peut prendre un certain temps. 
   
-## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Exemple : enregistrements DNS de site web de déviation du trafic multimédia dans des environnements multis sites complexes
+## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Exemple : enregistrements DNS de site web de déviation du trafic multimédia dans des environnements multisesses complexes
 <a name="Example"> </a>
 
-Les clients recevront l’adresse web du service web de déviation du trafic multimédia à partir d’un serveur DNS interne. Le nom du service web sera le même sur l’ensemble des appliances Cloud Connector et des sites PSTN Cloud Connector. Dans un environnement multisession complexe, nous vous recommandons d’utiliser la stratégie DNS Windows 2016 pour la gestion du trafic basé sur Geo-Location, afin que les clients soient redirigés vers le service web local pour leur réseau. 
+Les clients recevront l’adresse web du service web de déviation du trafic multimédia à partir d’un serveur DNS interne. Le nom du service web sera le même pour toutes les appliances Cloud Connector et tous les sites PSTN Cloud Connector. Dans un environnement multisession complexe, nous vous recommandons d’utiliser la stratégie DNS Windows 2016 pour la gestion du trafic basé sur Geo-Location, afin que les clients soient redirigés vers le service web local pour leur réseau. 
   
 Pour plus d’informations sur Windows stratégies DNS 2016, voir Utiliser la stratégie [DNS](/windows-server/networking/dns/deploy/primary-geo-location)pour Geo-Location gestion du trafic basée sur les serveurs principaux.
   

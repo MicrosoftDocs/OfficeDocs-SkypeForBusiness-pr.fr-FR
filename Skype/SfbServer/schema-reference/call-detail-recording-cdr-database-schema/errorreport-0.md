@@ -10,31 +10,31 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: La vue ErrorReport stocke les informations sur les erreurs signalées. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyées à partir du client. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 324c22f58883207d49c0224043b8672560f1cf6e64551ca93b9ac43540d46ceb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b1461b8ee8657033802763cfa9d38b94448f93ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295381"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613854"
 ---
 # <a name="errorreport-view"></a>Affichage ErrorReport
  
 La vue ErrorReport stocke les informations sur les erreurs signalées. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyées à partir du client. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Détails**|
+|**Colonne**|**Type de données**|**Details**|
 |:-----|:-----|:-----|
 |**ErrorTime** <br/> |DateHeure  <br/> |Heure à laquelle l’erreur s’est produite. Utilisé conjointement à ErrorReportSeq pour identifier une erreur de manière unique.  <br/> |
 |**ErrorReportSeq** <br/> |int  <br/> |Numéro d’ID identifiant l’erreur. Utilisé conjointement à ErrorTime pour identifier une erreur de manière unique.  <br/> |
 |**MsDiagId** <br/> |int  <br/> |ID de diagnostic pour le rapport d’erreurs.  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur à l’origine de l’erreur.  <br/> |
 |**FromUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur à l’origine de l’erreur. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**FromTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur à l’origine de l’erreur. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**FromTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur à l’origine de l’erreur. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
 |**ToUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur cible du rapport d’erreurs.  <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur cible du rapport d’erreurs. Voir la table UriTypes pour plus d’informations.  <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur cible du rapport d’erreurs. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur cible du rapport d’erreurs. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |URI de la conférence cible du rapport d’erreurs.  <br/> |
 |**ConferenceUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de la conférence cible du rapport d’erreurs. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session à l’origine du rapport d’erreurs. Utilisé conjointement à SessionIdSeq pour identifier une session de manière unique. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |

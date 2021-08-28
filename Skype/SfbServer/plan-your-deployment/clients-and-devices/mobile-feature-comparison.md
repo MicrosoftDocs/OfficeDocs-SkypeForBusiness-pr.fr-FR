@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Résumé : Examinez la prise en charge des fonctionnalités pour le client mobile lors de la planification de Skype Entreprise Server.'
-ms.openlocfilehash: 790bcb217e90b4b24422a3f2b76ebb6f8915cc0f8c25eb302d2fb2193d8d299a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 576947499c506052c5204d4826489ae9a2a60037
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293981"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614124"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités du client mobile pour Skype Entreprise
  
@@ -30,7 +30,7 @@ ms.locfileid: "54293981"
   
 Cet article compare les fonctionnalités entre Skype Entreprise clients mobiles et le client Skype Entreprise bureau dans les catégories suivantes :
   
-- Connectez-vous, notifications Push et fonctionnalités générales
+- Se connectez, notifications Push et fonctionnalités générales
     
 - Présence enrichie
     
@@ -61,7 +61,7 @@ Les tableaux suivants listent les fonctionnalités disponibles Skype Entreprise 
 > [!NOTE]
 > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
-## <a name="sign-in-push-notifications-and-general-features"></a>Connectez-vous, notifications Push et fonctionnalités générales
+## <a name="sign-in-push-notifications-and-general-features"></a>Se connectez, notifications Push et fonctionnalités générales
 
  
  | Fonctionnalité/fonctionnalité  | Skype Entreprise client de bureau  | Windows Phone  | iOS  | Android |

@@ -11,26 +11,26 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: Skype Entreprise Server offre une haute disponibilité avec la mise en pool de serveurs, la récupération d’urgence avec le jumelage de pool et plusieurs modes de haute disponibilité du serveur principal, notamment les groupes de disponibilité AlwaysOn, la mise en miroir de bases de données et le clustering de SQL de base de données.
-ms.openlocfilehash: c210e5b5db5470ac275bfe845c0c7c6700bfa96c73187cebdcf2785f8e19d85b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ac829249a6d75c020af2d3d3085b0bda72fe6d2c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286303"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614024"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planifier la haute disponibilité et la récupération d’urgence dans Skype Entreprise Server
  
 Skype Entreprise Server offre une haute disponibilité avec la mise en pool de serveurs, la récupération d’urgence avec le jumelage de pool et plusieurs modes de haute disponibilité du serveur principal, notamment les groupes de disponibilité AlwaysOn, la mise en miroir de bases de données et le clustering de SQL de base de données. 
   
-La haute disponibilité permet de s’assurer que Skype Entreprise Server services sont disponibles même si un ou plusieurs serveurs sont en panne. La récupération d’urgence fait référence au maintien des services en cours en cas d’urgence naturelle ou humaine et à la conservation de la plus grande quantité de données possible avant la catastrophe.
+La haute disponibilité permet de s’assurer que Skype Entreprise Server services sont disponibles même si un ou plusieurs serveurs sont en panne. La récupération d’urgence fait référence au maintien des services en cours en cas d’urgence naturelle ou humaine, et à la conservation de la plus grande quantité de données possible avant la catastrophe.
   
 Comme dans les versions précédentes de Lync Server, la fonctionnalité de haute disponibilité principale pour la plupart des rôles serveur dans Skype Entreprise Server est la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur. Cela s’applique aux serveurs frontaux, aux serveurs Edge, aux serveurs de médiation et aux directeurs.
   
-Skype Entreprise Server également des options de récupération d’urgence pour les pools frontux. Vous pouvez configurer deux pools dans différentes zones géographiques pour qu’ils servent de sauvegardes l’un pour l’autre. Ensuite, si l’intégralité d’un pool ou d’un site est en panne, le pool de sauvegarde peut continuer à fournir un service aux utilisateurs des deux sites.
+Skype Entreprise Server également des options de récupération d’urgence pour les pools frontux. Vous pouvez configurer deux pools dans différentes zones géographiques pour qu’ils servent de sauvegardes l’un pour l’autre. Ensuite, si l’intégralité d’un pool ou d’un site est en panne, le pool de sauvegarde peut continuer à fournir des services aux utilisateurs des deux sites.
   
 Skype Entreprise Server prend également en charge quatre modes de haute disponibilité pour vos serveurs principaux : la mise en miroir SQL, les groupes de disponibilité AlwaysOn, les instances de cluster de point de SQL AlwaysOn et le clustering de SQL.
   
