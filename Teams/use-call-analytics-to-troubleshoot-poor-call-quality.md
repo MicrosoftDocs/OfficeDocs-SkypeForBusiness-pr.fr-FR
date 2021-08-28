@@ -14,7 +14,7 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Utilisez des informations d’analyse des appels par utilisateur sur les appareils, les réseaux et la connectivité pour résoudre les problèmes des utilisateurs en rapport avec les Microsoft Teams et les réunions.
-ms.openlocfilehash: c6c95bd5fca4a5c1da84e5eedcc150242d4757adc03d309db66bbcb9fbbe0cef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32dccd0f02c44e0da54e1c303cccfeca3fd6c624
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327370"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611503"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Utiliser les données d’analyse des appels pour résoudre les problèmes de qualité des appels
 
@@ -39,25 +39,25 @@ Cet article part du principe que vous avez déjà installé l’analyse des appe
 
 ## <a name="introduction-to-call-analytics"></a>Présentation de l’analyse des appels
 
-L’analyse des appels affiche des informations détaillées sur les Teams et les réunions pour chaque utilisateur de Office 365 compte. Il inclut des informations sur les périphériques, les réseaux, la connectivité et la qualité des appels (l’un de ces facteurs peut être un facteur de mauvaise qualité de l’appel ou de la réunion). Si vous chargez des informations sur le bâtiment, le site et le client, ces informations sont également affichées pour chaque appel et réunion. Utilisez les données d’analyse des appels pour comprendre en quoi l’expérience d’appel ou de réunion d’un utilisateur est médiocre.
+L’analyse des appels affiche des informations détaillées sur Teams appels et réunions pour chaque utilisateur dans votre Office 365 personnel. Il inclut des informations sur les périphériques, les réseaux, la connectivité et la qualité des appels (l’un de ces facteurs peut être un facteur de mauvaise qualité de l’appel ou de la réunion). Si vous chargez des informations sur le bâtiment, le site et le client, ces informations sont également affichées pour chaque appel et réunion. Utilisez les données d’analyse des appels pour comprendre en quoi l’expérience d’appel ou de réunion d’un utilisateur est médiocre.
 
 L’analyse des appels vous montre chaque partie d’un appel ou d’une réunion (par exemple, d’un participant à un deuxième participant). En analysant ces détails, un Teams peut isoler les zones problématiques et identifier la cause première d’une mauvaise qualité.
 
-En tant qu Teams administrateur de services, vous accédez à l’ensemble des données d’analyse des appels pour chaque utilisateur. De plus, vous pouvez attribuer des rôles Azure Active Directory au personnel de support technique. Pour en savoir plus sur ces rôles, lisez [Accorder l’autorisation](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)au support technique et aider le personnel. Ne manquez pas ce [que font Teams rôle de support technique ? ci-dessous.](#what-does-each-teams-support-role-do)
+En tant qu Teams administrateur de services, vous accédez à l’ensemble des données d’analyse des appels pour chaque utilisateur. De plus, vous pouvez attribuer des rôles Azure Active Directory au personnel de support technique. Pour en savoir plus sur ces rôles, lisez [Accorder l’autorisation](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)au support et au support technique du personnel. Ne manquez pas ce [que font Teams rôle de support technique ? ci-dessous.](#what-does-each-teams-support-role-do)
 
 ## <a name="where-to-find-per-user-call-analytics"></a>Où trouver les données d’analyse des appels par utilisateur
 
-Pour voir toutes les informations et données d’appel d’un utilisateur, rendez-vous dans le [Teams d’administration.](https://admin.teams.microsoft.com) Sous **Utilisateurs,** sélectionnez un utilisateur, puis ouvrez l’onglet **&** Appels sur la page de profil de l’utilisateur. Vous y trouverez tous les appels et les réunions de cet utilisateur au cours des 30 derniers jours.
+Pour voir toutes les informations et données d’appel d’un utilisateur, rendez-vous dans le [Teams d’administration.](https://admin.teams.microsoft.com) Sous **Utilisateurs,** sélectionnez un utilisateur, puis ouvrez l’onglet **& Appels** sur la page de profil de l’utilisateur. Vous y trouverez tous les appels et les réunions de cet utilisateur au cours des 30 derniers jours.
 
 ![Capture d’écran de toutes les données d’analyse des utilisateurs](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Pour obtenir des informations supplémentaires sur une session donnée, y compris des statistiques détaillées sur les médias et la mise en réseau, cliquez sur une session pour en voir les détails.
 
-![Capture d’écran des données de session de l’utilisateur d’analyse des appels](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![Capture d’écran des données de session utilisateur d’analyse des appels](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 ## <a name="what-does-each-teams-support-role-do"></a>Que peut faire Teams de support technique ?
 
-Le **spécialiste Teams du support aux communications** (support de niveau 1) gère les problèmes de qualité des appels de base. Ils n’examinent pas les problèmes de réunions. Au lieu de cela, ils collectent des informations connexes, puis les font parler à un ingénieur du support des communications.
+Le **spécialiste Teams du support aux communications** (support de niveau 1) gère les problèmes de qualité des appels de base. Ils n’examinent pas les problèmes de réunions. Au lieu de cela, ils collectent des informations connexes, puis les font parler à un ingénieur du support technique pour les communications.
 
 La **Teams du support** des communications (support de niveau 2) voit des informations dans des journaux d’appels détaillés qui sont masqués par le spécialiste Teams support aux communications. Le tableau ci-dessous répertorie les informations disponibles pour Teams rôle de support de la communication.
 
@@ -84,7 +84,7 @@ Le tableau suivant vous indique quelles informations par utilisateur sont dispon
 
 3. Sélectionnez l’utilisateur dans la liste.
 
-4. Sélectionnez **l’historique** des appels, puis l’appel ou la réunion à résoudre.
+4. Sélectionnez **l’historique** des appels, puis l’appel ou la réunion dont vous souhaitez résoudre les problèmes.
 
 5. Sélectionnez **l’onglet** Avancé, puis recherchez les éléments jaunes et rouges qui indiquent une mauvaise qualité d’appel ou des problèmes de connexion.
 
@@ -101,6 +101,6 @@ Pour les sessions audio qui ont des données de qualité de l’expérience (QoE
 |L’appareil ne fonctionne pas|Device|Un appareil ne fonctionne pas correctement. Les proportions des appareils non fonctionnels sont les autres : <p> DeviceRenderNotFunctioningEventRatio >= 0,005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0,005|
 ||||
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Configurer l’analyse des appels par utilisateur](set-up-call-analytics.md)

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Consultez cette rubrique pour passer en revue les considérations de planification pour l’implémentation de la déviation du média avec La version 2.0 de Cloud Connector et les versions ultérieures. Pour plus d’informations sur le déploiement du contournement de média, voir Deploy media bypass in Cloud Connector Edition.
-ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 659b735502b6efaabd9167a4b0d820828232f5dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339890"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626406"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planifier le contournement de média dans l’édition Cloud Connector
  
@@ -47,11 +47,11 @@ Un appel entrant en provenance du réseau téléphonique sortant utilise le mêm
   
 Dans la topologie suivante, qui utilise la déviation du trafic multimédia, la signalisation prend le même chemin, mais les flux multimédias sont directement entre le client Skype Entreprise et le SBC ou la passerelle, comme illustré dans le diagramme suivant :
   
-**Médias et voies de signalisation avec contournement de média**
+**Média et voie de signalisation avec contournement de média**
 
 ![signalisation avec contournement de média](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
-## <a name="multi-site-scenario-and-media-bypass"></a>Scénario multisessage et contournement de média
+## <a name="multi-site-scenario-and-media-bypass"></a>Scénario multisesse et contournement de média
 
 La déviation du trafic multimédia est également utile lorsque vous souhaitez fournir des services de téléphonie à plusieurs sites à l’aide d’une seule appliance Cloud Connector. Étant donné que Cloud Connector ne peut pas router les appels en fonction des numéros source ou de destination, la plupart des entreprises déploient un SBC ou une passerelle derrière Cloud Connector pour prendre des décisions de routage. Dans ce scénario, le contournement de média élimine le saut entre le client et le SBC central ou la passerelle, comme illustré dans le diagramme suivant :
   
@@ -65,7 +65,7 @@ La déviation du trafic multimédia est également utile lorsque vous souhaitez 
     
 3. L’appliance Cloud Connector à Amsterdam envoie le trafic SIP à la passerelle centrale à Amsterdam.
     
-4. La passerelle centrale d’Amsterdam prend les décisions de routage appropriées, puis envoie le trafic vers un SBC ou une passerelle à Amsterdam, tandis que les médias sont directement entre le client Skype Entreprise et le SBC ou la passerelle à Amsterdam.
+4. La passerelle centrale d’Amsterdam prend les décisions de routage appropriées, puis envoie le trafic vers un contrôleur SBC ou une passerelle à Amsterdam, tandis que les médias sont directement entre le client Skype Entreprise et le SBC ou la passerelle à Amsterdam.
     
    Cette approche permet de servir plus d’utilisateurs par déploiement Cloud Connector où Cloud Connector est centralisé. Même si Cloud Connector est éliminé du chemin d’accès multimédia, dans un scénario multisessant centralisé, le trafic multimédia peut toujours traverser le WAN deux fois plus vite que nécessaire pour passer par le SBC ou la passerelle centralisée.
   
@@ -102,7 +102,7 @@ Always Bypass nécessite une connectivité sans objet entre les utilisateurs et 
   
 Pour plus d’informations, [voir Plan for Skype Entreprise Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md). 
   
-Par exemple, dans le diagramme ci-dessous, les utilisateurs européens doivent être bien connectés aux trois contrôleurs de frontière de session (SCS) à Amsterdam, tandis que les utilisateurs américains doivent être bien connectés aux deux contrôleurs de frontière de session à Seattle. Bien connectés signifie qu’ils sont situés dans les mêmes sites réseau que les SCS ou les passerelles, ou sur des liaisons WAN qui ont une bande passante appropriée.
+Par exemple, dans le diagramme ci-dessous, les utilisateurs européens doivent être bien connectés aux trois contrôleurs de frontière de session (SCS) à Amsterdam, tandis que les utilisateurs américains doivent être bien connectés aux deux contrôleurs de frontière de session à Seattle. Bien connectés, ils se trouvent soit sur les mêmes sites réseau que les SCS ou les passerelles, soit sur des liaisons WAN qui ont une bande passante appropriée.
   
 ![Capacité de Cloud Connector](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: La page Nom et sécurité Paramètres fournit une zone de texte qui permet de définir un nom convivial, une liste de listes de texte pour la longueur de bits de la paire de clés privées et publiques et une case à cocher qui vous permet de marquer la clé privée du certificat comme exportable.
-ms.openlocfilehash: f84e28f6d3e8d067b06cd640e1a532084edc61d9d789f569bae546a6331cae4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 051c883525582559756a4c3ec3b03e921314e9ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282221"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591878"
 ---
 # <a name="certificate-request-basic"></a>Demande de certificat (élémentaire)
  

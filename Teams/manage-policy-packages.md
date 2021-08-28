@@ -17,15 +17,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.policypackages.overview
 - seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: e70002590f3b1335e2c1ea0d8208c9685c803f17
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2db3b926a7e241a83ab46de4285cc4b7ef0882e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637070"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams : gérer les packages de stratégie
 
@@ -109,7 +109,7 @@ L’exemple suivant explique comment utiliser des packages de stratégie dans vo
 
 - **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant de l’affecter. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
 
-    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous affectez le package de stratégie.
+    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous attribuez le package de stratégie.
 
 - **[Personnaliser](#customize-policies-in-a-policy-package)**: personnalisez les paramètres des stratégies dans le package de stratégies pour répondre aux besoins de votre organisation.
 
@@ -142,7 +142,7 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **Packages**
 
 Vous pouvez attribuer un package de stratégie à un utilisateur, un groupe ou un lot d’utilisateurs. Pour plus d’informations sur l’attribution de packages de stratégie, voir [Attribuer des packages de stratégie à des utilisateurs et groupes.](assign-policy-packages.md)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Attribuer des packages de stratégie](assign-policy-packages.md)
 - [Teams packages de stratégie pour les administrateurs edu](policy-packages-edu.md)

@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 78c10a340fd1b00fb29a1c28c638e2421adc4713809a73933a33611ef17c71ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c99c1feef78e4f28b6edff5e0cbf232c02ce15b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334406"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611383"
 ---
 # <a name="your-port-order-was-accepted"></a>Votre demande de transfert a été acceptée
 
@@ -37,7 +37,7 @@ Votre demande de port a été approuvée. Recherchez vos numéros de téléphone
   
  **IMPORTANT**: pour que l'option **Voix** apparaisse dans le volet de navigation gauche du Centre d'administration Skype Entreprise, vous devez d'abord acheter au moins une **licence Entreprise E5**, une licence de composant additionnel **Système téléphonique**, ou une licence de composant additionnel **Audioconférence**.
   
-Maintenant que l’approbation est approuvée et que vos numéros de téléphone sont prêts, vous devez faire deux choses pour que tout soit prêt.
+Maintenant que l’approbation est approuvée et que vos numéros de téléphone sont prêts, vous devez faire deux choses pour tout configurer.
   
 - Assurez-vous que [vous Skype Entreprise et Microsoft Teams licences de modules add-on.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) Vous aurez besoin **d’un plan Système téléphonique** **d’appels nationaux** ou **internationaux.**
     

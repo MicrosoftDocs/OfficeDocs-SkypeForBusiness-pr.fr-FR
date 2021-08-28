@@ -16,16 +16,16 @@ ms.custom:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
 description: Découvrez comment gérer les appareils utilisés avec des Teams dans votre organisation.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41213955c9e57829208ce0ec98448195dc266044
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 484ababae4faa4ba92594ab1afabc49e95a39156
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50350587"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636998"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
 
@@ -50,7 +50,7 @@ Vous pouvez gérer n’importe quel appareil certifié et inscrit, Teams. Un app
 - [Teams affiche](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=34)
 - [Teams panneaux](teams-panels.md)
 
-Pour gérer les appareils, dans le panneau de navigation gauche du [Microsoft Teams](https://admin.teams.microsoft.com)d’administration, allez sur **Appareils,** puis sélectionnez le type d’appareil. Chaque type d’appareil possède sa propre section, ce qui vous permet de les gérer séparément.
+Pour gérer les appareils, dans le panneau de navigation gauche du [Microsoft Teams](https://admin.teams.microsoft.com)d’administration, sélectionnez **Appareils,** puis sélectionnez le type d’appareil. Chaque type d’appareil possède sa propre section, ce qui vous permet de les gérer séparément.
 
 ## <a name="manage-teams-rooms-devices"></a>Gérer salles Teams appareils
 
@@ -69,7 +69,7 @@ Pour plus d’informations sur la gestion de vos salles Teams appareils mobiles,
 
 ## <a name="manage-phones-collaboration-bars-teams-displays-and-teams-panels"></a>Gérer les téléphones, les barres de collaboration, Teams’affichage et les Teams panneaux 
 
-Dans le Teams d’administration, vous pouvez afficher et gérer les téléphones, les barres de collaboration, les écrans Teams et les panneaux Teams inscrits dans Teams votre organisation. Les informations que vous pouvez voir pour chaque appareil sont le nom de l’appareil, le fabricant, le modèle, l’utilisateur, le statut, l’action, la dernière vue et l’historique. Vous pouvez personnaliser l’affichage pour afficher les informations qui sont adaptées à vos besoins.
+Dans le Teams d’administration, vous pouvez afficher et gérer les téléphones, les barres de collaboration, les affichages Teams et les panneaux Teams inscrits au Teams votre organisation. Les informations que vous pouvez voir pour chaque appareil sont le nom de l’appareil, le fabricant, le modèle, l’utilisateur, le statut, l’action, la dernière vue et l’historique. Vous pouvez personnaliser l’affichage pour afficher les informations qui sont adaptées à vos besoins.
 
 Les téléphones, les barres de collaboration, Teams des écrans et des panneaux Teams sont automatiquement inscrits à Microsoft Intune si vous vous êtes inscrit pour ce programme. Une fois un appareil inscrit, la conformité des appareils est confirmée et les stratégies d’accès conditionnel sont appliquées à l’appareil.
 
@@ -78,7 +78,7 @@ Voici quelques exemples de la façon dont vous pouvez gérer les téléphones, l
 | Pour...                           | Pour ce faire,                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Modifier les informations sur l’appareil               | Sélectionnez un périphérique > **Modifier.** Vous pouvez modifier des détails tels que le nom de l’appareil, une balise de biens et ajouter des notes.                                                                                                                                                                                                              |
-| Gérer les mises à jour logicielles                 | Sélectionnez un appareil sur > **Mise à jour.** Vous pouvez afficher la liste des mises à jour logicielles et microprogrammes disponibles pour l’appareil et choisir les mises à jour à installer. Pour plus d’informations sur la mise à jour des appareils, voir [Mettre Teams à jour à distance](remote-update.md)                                                          |
+| Gérer les mises à jour logicielles                 | Sélectionnez un appareil sur > **Mise à jour.** Vous pouvez afficher la liste des mises à jour logicielles et microprogrammes disponibles pour l’appareil et choisir les mises à jour à installer. Pour plus d’informations sur la mise à jour des appareils, voir [Mettre à Teams jour à distance.](remote-update.md)                                                          |
 | Mettre à Teams niveau des téléphones Teams’affichage  | Sur la page **Téléphones IP,** sélectionnez un ou plusieurs Teams pour > **mise à niveau.** Cette option est disponible uniquement pour les téléphones qui supportent la mise à niveau vers Teams’affichages. Pour en savoir plus, voir [Mettre à Teams niveau vers Teams’affichage.](upgrade-phones-to-displays.md)                                                      |
 | Affecter ou modifier des stratégies de configuration | Sélectionnez un ou plusieurs appareils > **la configuration.**                                                                                                                                                                                                                                                       |
 | Ajouter ou supprimer des balises d’appareil               | Sélectionnez un ou plusieurs appareils sur > **gérer les balises.** Pour plus d’informations sur les balises d’appareil, voir [Gérer Teams balises d’appareil.](manage-device-tags.md)                                                                                                                                                                 |
@@ -94,17 +94,17 @@ Utilisez les profils de configuration pour gérer les paramètres et fonctionnal
 
 Pour créer un profil de configuration pour un type Teams appareil :
 
-1. Dans la barre de navigation de gauche, sélectionnez **Appareils** > le type Teams le type > **de configuration.** Par exemple, sélectionnez **Appareils** Teams des profils de configuration pour créer un profil de  >    >   configuration Teams panneaux.
+1. Dans la barre de navigation de gauche, sélectionnez Appareils **>** le type Teams le type > **de configuration.** Par exemple, sélectionnez **Appareils** Teams des profils de configuration pour créer un profil de  >    >   configuration Teams panneaux.
 2. Cliquez sur **Ajouter**.
 3. Entrez un nom pour le profil et éventuellement ajoutez une description conviviale.
 4. Spécifiez les paramètres de votre profil, puis cliquez sur **Enregistrer.**
    Le profil de configuration nouvellement créé s’affiche dans la liste des profils.
 
-#### <a name="assign-a-configuration-profile"></a>Affecter un profil de configuration
+#### <a name="assign-a-configuration-profile"></a>Attribuer un profil de configuration
 Après avoir créé un profil de configuration pour Teams type d’appareil, affectez-le à un ou plusieurs appareils.
 
 1. Dans le navigateur de gauche, sélectionnez **Périphériques** > sélectionner Teams type d’appareil. Par exemple, pour attribuer un profil de configuration à un Teams panneaux, sélectionnez Appareils  >  **et Teams panneaux.**
-2. Sélectionnez un ou plusieurs appareils, puis cliquez **sur Affecter la configuration.**  
+2. Sélectionnez un ou plusieurs appareils, puis cliquez sur **Affecter la configuration.**  
 3. Dans le **volet Attribuer un périphérique de configuration,** recherchez le profil de configuration à affecter aux appareils sélectionnés.
 4. Cliquez sur **Appliquer**.
    Pour les appareils sur lesquels vous avez appliqué  la stratégie de configuration, la colonne **Action** affiche la mise à jour de configuration et la colonne Profil de **configuration** affiche le nom du profil de configuration.

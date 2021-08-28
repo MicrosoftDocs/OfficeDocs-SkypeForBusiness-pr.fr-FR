@@ -10,19 +10,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms.openlocfilehash: a40ba37b0cec1fe80f7172da865c0cf16dbeba1e5fc606453e5439fcbb012e3c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5a3b98b17d007828ededb697b39bafc23b212497
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278252"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626426"
 ---
 # <a name="schema-reference-for-skype-for-business-server-2015"></a>Référence de schéma pour Skype Entreprise Server 2015
  
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Schéma de base de données d’enregistrement des détails des appels Skype Entreprise Server 2015](call-detail-recording-cdr-database-schema/call-detail-recording-cdr-database-schema.md)
     

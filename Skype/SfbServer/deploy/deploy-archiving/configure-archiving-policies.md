@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer des stratégies d’archivage initiales pour Skype Entreprise Server utilisateurs.'
-ms.openlocfilehash: 9db20eefd26de31eb01ab25d4ef7596319459b68be3f76ce95ba0b355122eee8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 545febf0e84aa7ff9ad6295978f88a2dca406792
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312122"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611293"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configurer des stratégies d’archivage pour Skype Entreprise Server
  
@@ -69,7 +69,7 @@ Lorsque vous déployez vos serveurs frontux, Skype Entreprise Server crée une s
     
 ## <a name="site-policies"></a>Stratégies de site
 
-Vous pouvez activer ou désactiver l’archivage pour des sites spécifiques en créant une stratégie d’archivage pour chacun de ces sites. Une stratégie de site remplace la stratégie globale, mais les stratégies utilisateur remplacent les stratégies de site. Les stratégies d’archivage s’appliquent uniquement si vous n’utilisez pas l’intégration Microsoft Exchange ou, si vous utilisez l’intégration de Microsoft Exchange, mais si certains utilisateurs ne sont pas dossés sur Exchange et dont les boîtes aux lettres sont mises en In-Place.
+Vous pouvez activer ou désactiver l’archivage pour des sites spécifiques en créant une stratégie d’archivage pour chacun de ces sites. Une stratégie de site remplace la stratégie globale, mais les stratégies utilisateur remplacent les stratégies de site. Les stratégies d’archivage s’appliquent uniquement si vous n’utilisez pas l’intégration Microsoft Exchange ou, si vous utilisez l’intégration de Microsoft Exchange, mais que certains utilisateurs ne sont pas dossés sur Exchange et dont les boîtes aux lettres sont mises en In-Place.
   
 ### <a name="create-an-archiving-policy-for-a-site"></a>Créer une stratégie d’archivage pour un site
 
@@ -99,7 +99,7 @@ Vous pouvez activer ou désactiver l’archivage pour des sites spécifiques en 
     
 ## <a name="user-policies"></a>Stratégies utilisateur
 
-Vous pouvez activer ou désactiver l’archivage pour des utilisateurs spécifiques en créant et en configurant une stratégie d’archivage pour les utilisateurs, puis en appliquant la stratégie à des utilisateurs ou groupes d’utilisateurs spécifiques. Les stratégies utilisateur remplacent les stratégies globales ou de site. Les stratégies d’archivage s’appliquent uniquement si vous n’utilisez pas l’intégration Microsoft Exchange ou, si vous utilisez l’intégration de Microsoft Exchange, mais si certains utilisateurs ne sont pas dossés sur Exchange et dont les boîtes aux lettres sont mises en In-Place.
+Vous pouvez activer ou désactiver l’archivage pour des utilisateurs spécifiques en créant et en configurant une stratégie d’archivage pour les utilisateurs, puis en appliquant la stratégie à des utilisateurs ou groupes d’utilisateurs spécifiques. Les stratégies utilisateur remplacent les stratégies globales ou de site. Les stratégies d’archivage s’appliquent uniquement si vous n’utilisez pas l’intégration Microsoft Exchange ou, si vous utilisez l’intégration de Microsoft Exchange, mais que certains utilisateurs ne sont pas dossés sur Exchange et dont les boîtes aux lettres sont mises en In-Place.
   
 ### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>Configurer une stratégie d’archivage pour les utilisateurs Skype Entreprise Server
 

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer une clause d’exclusion de responsabilité d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: 1afacace566cc75659e5b53e05346461b99f0cb888497f79da6340130585c959
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd9af58e6418dac7d6abd995f33faa1def84c004
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611313"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurer des clauses d’exclusion de responsabilité d’archivage pour les utilisateurs externes dans Skype Entreprise Server
  

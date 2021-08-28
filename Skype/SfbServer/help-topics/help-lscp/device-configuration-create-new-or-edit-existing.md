@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: Dans la page Nouvelle configuration d’appareil ou Modifier la configuration de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Téléphone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 826f20dcd28002f293ebcf227a954f9bfd61c28f36fd4dd23414e2be59ef4f62
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bcd0cccbb0bba00d40a25e6683baf2d12b6f54c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302708"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588726"
 ---
-# <a name="device-configuration-create-new-or-edit-existing"></a>Configuration de l’appareil : création d’une nouvelle ou modification d’une configuration existante
+# <a name="device-configuration-create-new-or-edit-existing"></a>Configuration de l’appareil : création d’une nouvelle ou modification d’une configuration existante
  
 Dans la page **Nouvelle configuration d’appareil** ou Modifier la **configuration** de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Téléphone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
   

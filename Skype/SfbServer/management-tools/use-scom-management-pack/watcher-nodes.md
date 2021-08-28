@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: Découvrez comment installer et configurer des nodes d’Skype Entreprise Server transactions synthétiques.
-ms.openlocfilehash: 83e5fe9d6e825e7d27b590124c9f39b41ab75d10
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+description: Découvrez comment installer et configurer des nodes d’observation pour Skype Entreprise Server transactions synthétiques.
+ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53750830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637009"
 ---
 # <a name="learn-how-to-install-and-configure-watcher-nodes"></a>Découvrez comment installer et configurer des nodes d’observation
  
@@ -29,7 +29,7 @@ Les nodes watcher sont des ordinateurs qui exécutent régulièrement Skype Entr
   
 - **Valeur par défaut** Transactions synthétiques qu’un nœud d’observation exécute par défaut. Lorsque vous créez un nœud d’observation, vous pouvez spécifier les transactions synthétiques qui s’exécuteront. (C’est l’objectif du paramètre Tests utilisé par l'New-CsWatcherNodeConfiguration cmdlet.) Si vous n’utilisez pas le paramètre Tests lors de la création du nœud observeur, il exécute automatiquement toutes les transactions synthétiques par défaut et n’exécute aucune des transactions synthétiques non par défaut. Cela signifie, par exemple, que le nœud de l'Test-CsAddressBookService sera configuré pour exécuter le test Test-CsAddressBookService, mais pas pour exécuter le test Test-CsExumConnectivity test.
     
-- **Non par défaut** Teste que les nodes de l’observeur ne s’exécutent pas par défaut. (Pour plus d’informations, voir la description du type Par défaut.) Toutefois, le nœud de l’observation peut être activé pour exécuter l’une des transactions synthétiques autres que les transactions synthétiques par défaut. Vous pouvez le faire lorsque vous créez le nœud d’observation (à l’aide de l'New-CsWatcherNodeConfiguration cmdlet) ou à tout moment après la création du nœud. Notez que de nombreuses transactions synthétiques non par défaut nécessitent des étapes de configuration supplémentaires. Pour plus d’informations sur ces étapes, voir [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
+- **Non par défaut** Teste que les nodes de l’observeur ne s’exécutent pas par défaut. (Pour plus d’informations, voir la description du type Par défaut.) Toutefois, le nœud de l’observation peut être activé pour exécuter l’une des transactions synthétiques autres que les transactions synthétiques par défaut. Vous pouvez le faire lorsque vous créez le nœud de l’observation (à l’aide de l'New-CsWatcherNodeConfiguration cmdlet) ou à tout moment après la création du nœud. Notez que de nombreuses transactions synthétiques non par défaut nécessitent des étapes de configuration supplémentaires. Pour plus d’informations sur ces étapes, voir [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
     
 - **Étendue** Type spécial de transaction synthétique non par défaut. Contrairement à d’autres transactions synthétiques, les tests étendus peuvent être exécutés plusieurs fois à chaque passage. Cela est utile lors de la vérification du comportement, par exemple, plusieurs itinéraires de communications vocales PSTN (réseau téléphonique commuté) pour un pool. Vous pouvez configurer cela simplement en ajoutant plusieurs instances d’un test étendu à un nœud de l’analyseur.
     
@@ -74,7 +74,7 @@ Les serveurs d’observation Lync Server 2013 peuvent être déployés à l’in
   
 - Connectivité aux pools pour les utilisateurs au sein de l’entreprise
     
-- Connectivité via des réseaux de périmètre pour les utilisateurs distants travaillant en dehors de l’entreprise.
+- Connectivité via les réseaux de périmètre pour les utilisateurs distants travaillant en dehors de l’entreprise.
     
 - Connectivité aux Branch Office Appliances
     
@@ -143,7 +143,7 @@ Si vous voyez des informations sur vos stratégies de code confidentiel, les com
   
 ## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>Installer les fichiers de l’agent Operation Manager sur un nœud de l’watcher
 
-À l’Skype Entreprise Server de rapports d’alertes de composant, un nœud Skype Entreprise Server 2015 requiert l’installation System Center’agent Operations Manager. Cela permet d’exécuter les transactions synthétiques et de faire état d’alertes au serveur d’administration racine System Center Operations Manager.
+À l’Skype Entreprise Server pour la signalement des alertes de composant, un nœud Skype Entreprise Server 2015 requiert l’installation System Center’agent Operations Manager. Cela permet d’exécuter les transactions synthétiques et de faire état d’alertes au serveur d’administration racine System Center Operations Manager.
   
 Pour installer les fichiers d’agent, suivez les procédures répertoriées dans Configurer les Skype Entreprise Server [qui seront surveillés.](configure-computers-to-monitor.md)
   
@@ -182,7 +182,7 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
-Après avoir créé le pool d’applications de confiance, vous pouvez configurer l’ordinateur du nœud observeur pour qu’il exécute des transactions synthétiques en tant qu’application de confiance à l’aide de l’cmdlet **New-CsTrustedApplication** et d’une commande semblable à celle-ci :
+Après avoir créé le pool d’applications fiables, vous pouvez configurer l’ordinateur du nœud observeur pour qu’il exécute des transactions synthétiques en tant qu’application de confiance à l’aide de l';cmdlet **New-CsTrustedApplication** et d’une commande semblable à celle-ci :
   
 ```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061

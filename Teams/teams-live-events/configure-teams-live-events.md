@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 604f33720b62d6ea675b7dc4604c3c493f88341be5a24e76c1474f6e06025b66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8eccc6e885cef67d4f6240483d3995df88d7cfc
+ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332376"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683308"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurer les paramètres d’événements en direct dans Microsoft Teams
 
@@ -39,7 +39,7 @@ Vous pouvez facilement gérer ces paramètres dans le Centre d’administration 
 
 ## <a name="set-up-event-support-url"></a>Configurer l’URL de prise en charge des événements
 
-Cette URL est affichée aux participants à l’événement en direct. Ajoutez l’URL de support pour votre organisation afin que les participants voient le support technique pendant un événement en direct.
+Cette URL est affichée aux participants à un événement en direct. Ajoutez l’URL de support pour votre organisation afin que les participants voient le support technique pendant un événement en direct.
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft Teams](../media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft Teams
 
@@ -73,7 +73,7 @@ Si vous avez acheté et configuré une solution de réseau (SDN) définie par le
     - **URL du modèle d’API SDN** Entrez l’URL du modèle d’API que vous avez obtenu du contact de votre fournisseur.
 
 ### <a name="using-windows-powershell"></a>Reportez-vous à la rubrique Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio.
-Obtenez l’ID de licence ou le modèle d’API et le modèle d’API auprès de votre fournisseur, puis exécutez l’une des solutions suivantes, selon le fournisseur que vous utilisez :
+Obtenez l’ID de licence ou le jeton d’API et le modèle d’API auprès de votre fournisseur, puis exécutez l’une des solutions suivantes, selon le fournisseur que vous utilisez :
 
 **Hive** 
 ```PowerShell
@@ -91,6 +91,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
 ```
+**Peer5**
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
+```
 
 Pour plus d’informations, [voir Set-CsTeamsMeetingBroadcastConfiguration.](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)
 
@@ -101,9 +105,9 @@ Pour plus d’informations, [voir Set-CsTeamsMeetingBroadcastConfiguration.](/po
 > Le passage de Microsoft Stream à [OneDrive Entreprise et SharePoint pour les enregistrements de réunion](../tmr-meeting-recording-change.md) est une approche à différentes étapes. Au lancement, vous aurez la possibilité de choisir cette expérience. En novembre vous devrez quitter cette option si vous souhaitez poursuivre avec Stream et, au début de 2021 nous exigerons de tous les clients l’utilisation de OneDrive Entreprise et SharePoint pour les nouveaux enregistrements de réunion.
 
 >[!Note]
-> Votre solution eCDN choisie est soumise aux conditions d’utilisation et à la politique de confidentialité du fournisseur tiers sélectionné, qui régissent votre utilisation de la solution du fournisseur eCDN. Votre utilisation de la solution du fournisseur eCDN ne sera pas soumise aux conditions de licence en volume ou aux conditions des services en ligne de Microsoft. Si vous n’acceptez pas les conditions du fournisseur tiers, n’activez pas la solution eCDN dans Microsoft Teams.
+> Votre solution eCDN choisie est soumise aux conditions d’utilisation et à la politique de confidentialité du fournisseur tiers sélectionné, qui régissent votre utilisation de la solution du fournisseur eCDN. Votre utilisation de la solution du fournisseur eCDN ne sera pas soumise aux termes du contrat de licence en volume Microsoft ou aux conditions des services en ligne. Si vous n’acceptez pas les conditions du fournisseur tiers, n’activez pas la solution eCDN dans Microsoft Teams.
 
-### <a name="related-topics"></a>Voir aussi
+### <a name="related-topics"></a>Sujets associés
 - [Que sont les événements en direct Teams ?](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
 - [Configurer les événements en direct Teams](set-up-for-teams-live-events.md)

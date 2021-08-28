@@ -17,7 +17,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,16 +25,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Découvrez comment configurer des forfaits d’appels, notamment afficher les plans disponibles dans votre région, acheter des & attribuer des licences, obtenir des numéros de téléphone et ajouter des adresses d'& urgence.
-ms.openlocfilehash: 0eedd72947c4969fc7f42d75d5241ca38c69e0c2e22172444a0d349b6a77b611
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e44c9ec30efef26840bcb79582186ed5e0e3678
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348659"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618480"
 ---
 # <a name="set-up-calling-plans"></a>Configurer des forfaits d'appels
 
-Les appels vers d’autres utilisateurs de Teams sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, obtenez un plan d’appels nationaux ou un plan d’appels internationaux dans Microsoft 365 ou Office 365. Il est facile de configurer des forfaits d’appels pour votre entreprise.  Pour plus d’informations sur les forfaits d’appels, consultez le [plan d’appels qui vous est le mieux ?](calling-plan-landing-page.md)
+Les appels vers d’autres utilisateurs Teams sont gratuits, mais si vous souhaitez que vos utilisateurs puissent appeler des téléphones en dehors de votre entreprise, obtenez un plan d’appels nationaux ou international dans Microsoft 365 ou Office 365. Il est facile de configurer des forfaits d’appels pour votre entreprise.  Pour plus d’informations sur les forfaits d’appels, consultez le [plan d’appels qui vous est le mieux ?](calling-plan-landing-page.md)
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Étape 1 : savoir si des forfaits d’appels sont disponibles dans votre pays/région
 Sélectionnez [](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) la disponibilité des pays et régions pour les forfaits d’audioconférence et d’appel et sélectionnez votre pays ou région pour obtenir des informations sur les plans d’appel, ainsi que des informations sur l’audioconférence, les Système téléphonique, les numéros gratuits et gratuits et les crédits de communication.
@@ -54,7 +54,7 @@ Il existe trois façons d’obtenir de nouveaux numéros utilisateur :
 
 - **Utilisez le Teams d’administration de l’utilisateur.** Pour certains pays/régions, vous pouvez obtenir des numéros pour vos utilisateurs via le Centre d’administration Teams, voir Obtention de numéros de téléphone pour [vos utilisateurs.](getting-phone-numbers-for-your-users.md)
     
-- **Portage de vos numéros existants.** Vous pouvez transférer des numéros existants de votre fournisseur de services ou de votre opérateur téléphonique actuel vers un Microsoft 365 ou un Office 365. Pour plus d’informations, voir [Transférer des](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) numéros de Teams ou Gérer les numéros de téléphone pour [votre organisation.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
+- **Portage de vos numéros existants.** Vous pouvez transférer des numéros existants de votre fournisseur de services ou de votre opérateur de téléphonie actuel vers Microsoft 365 ou Office 365. Pour plus d’informations, voir [Transférer des](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) numéros de Teams ou Gérer les numéros de téléphone pour [votre organisation.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
   
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Parfois (en fonction de votre pays ou région) vous ne pourrez pas obtenir vos nouveaux numéros de téléphone à l’aide du Centre d’administration Teams ou vous aurez besoin de numéros de téléphone ou indicatifs régionaux spécifiques. Si c'est le cas, vous devrez télécharger un formulaire et nous le renvoyer. Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de téléphone de votre organisation](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md). 
 
@@ -100,7 +100,7 @@ Pour en savoir plus, voir [Teams vue d’ensemble de PowerShell.](teams-powershe
 
 [Gérer des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md) 
+[Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md) 
 
 [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Résumé : Découvrez le rapport de liste d’appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 301ace0e4d9af8b2635f95f6c3a750c859ca1300f6f3cc277870bdac2c8cc989
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338122"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599003"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Rapport de liste d’appels dans Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Le rapport des listes d’appels fournit des mesures de qualité de l’expérie
     
 - Ratio de la durée du basculement vocal 
     
-Toutefois, si vous ouvrez le rapport de liste d’appels à partir du rapport d’emplacement dans [Skype Entreprise Server](location-report.md), vous ne verrez aucune de ces mesures . Au lieu de cela, vous verrez des mesures comme celles-ci :
+Toutefois, si vous ouvrez le rapport des listes d’appels à partir du rapport d’emplacement dans [Skype Entreprise Server](location-report.md), vous ne verrez aucune de ces mesures . Au lieu de cela, vous verrez des mesures comme celles-ci :
   
 - Boucle (ms)
     
@@ -51,7 +51,7 @@ Il s’adresse aux mesures signalées dans le rapport d’emplacement. Toutefois
 
 Le rapport de liste d’appels est accessible à partir de l’un des rapports suivants :
   
-- Rapport [d’emplacement en Skype Entreprise Server](location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- Rapport [d’emplacement dans Skype Entreprise Server](location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
 - Rapport [de périphérique en Skype Entreprise Server](device-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
@@ -63,7 +63,7 @@ Le rapport de liste d’appels est accessible à partir de l’un des rapports s
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Utilisation du rapport des listes d’appels au mieux
 
-Si vous ne vous souvenez pas de ce que mesurent réellement certaines mesures du rapport de liste d’appels (telles que le temps de basculement vocal ratio), maintenez la souris au-dessus de l’étiquette de mesure . Une info-conseil s’affiche pour vous donner une brève description de la mesure.
+Si vous ne vous souvenez pas de ce que mesurent réellement certaines mesures du rapport de liste d’appels (telles que la durée du basculement vocal ratio), maintenez la souris au-dessus de l’étiquette de mesure . Une info-conseil s’affiche pour vous donner une brève description de la mesure.
   
 ## <a name="filters"></a>Filtres
 
@@ -75,9 +75,9 @@ Le tableau suivant répertorie les informations fournies dans le rapport des lis
   
 **Mesures du rapport de liste d’appels**
 
-|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Détails** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport affiche des informations supplémentaires sur l’appel.  <br/> |
+|**Details** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport affiche des informations supplémentaires sur l’appel.  <br/> |
 |**Caller** <br/> |Oui  <br/> |Adresse SIP de la personne qui a initié l’appel.  <br/> |
 |**Appelé** <br/> |Oui  <br/> |Adresse SIP de la personne qui a été appelée.  <br/> |
 |**Heure de début** <br/> |Oui  <br/> |Date et heure de début de l’appel.  <br/> |

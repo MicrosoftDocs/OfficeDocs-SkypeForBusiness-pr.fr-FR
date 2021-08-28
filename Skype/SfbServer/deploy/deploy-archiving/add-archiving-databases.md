@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Résumé : Lisez cette rubrique pour découvrir comment ajouter des bases de données d’archivage à Skype Entreprise Server déploiement.'
-ms.openlocfilehash: e775b6e33bedd7bc5aeea5c9d7c04b7d4e5052a2578650c5a3335219c26a7be7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36d825ef79befa430edfd126bd9cd5a5d840b2f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312212"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611323"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Ajouter des bases de données d’archivage à un déploiement existant dans Skype Entreprise Server
  
@@ -50,7 +50,7 @@ Vous devez incorporer l’archivage dans votre topologie avant de configurer vot
     
 8. Sous **Archiver SQL Server store,** faites l’une des opérations suivantes :
     
-   - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous vos utilisateurs sont Microsoft Exchange Server 2013 ou plus, vous pouvez archiver les communications Skype Entreprise de tous vos utilisateurs dans Exchange. Dans ce cas, vous n’avez pas besoin de configurer SQL Server d’archivage.
+   - Pour utiliser un magasin SQL Server existant, dans la zone de liste déroulante, cliquez sur le nom du magasin SQL Server que vous voulez utiliser. Si tous vos utilisateurs sont Microsoft Exchange Server 2013 ou supérieur, vous pouvez archiver les communications Skype Entreprise de tous vos utilisateurs dans Exchange. Dans ce cas, vous n’avez pas besoin de configurer SQL Server d’archivage.
     
    - Pour spécifier une nouvelle SQL Server, cliquez sur **Nouveau,** puis dans la boîte de dialogue Définir SQL Server **Store,** faites les choses suivantes :
     

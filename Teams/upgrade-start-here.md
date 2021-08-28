@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Cet article vous aide à commencer la mise à niveau d’Skype Entreprise vers Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom:
 - Teams-upgrade-guidance
@@ -30,12 +30,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34eb3ed6f6979535e82ac85769011bcd9273c8f8293fa5dfcd7d9f0e1308b73e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b581f509655327c944876306cee666f39e07ef6c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345163"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589410"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Commencer votre mise à niveau d’Skype Entreprise à Microsoft Teams
 
@@ -59,7 +59,7 @@ Si le service Skype Entreprise Online sera pleinement fonctionnel jusqu’au 31 
 
 Oui, Microsoft propose plusieurs options à des fins d’utilisation combinée de Skype Entreprise Online et de Teams. Ces modes de coexistence permettent aux utilisateurs de se familiariser avec Teams, tout en favorisant la mise à niveau vers Teams uniquement. Pour en savoir plus, consultez [https://aka.ms/SkypeToTeams-Coexist](./teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-## <a name="is-phone-system-available-for-teams-users"></a>Des Système téléphonique sont-ils disponibles Teams utilisateurs ?
+## <a name="is-phone-system-available-for-teams-users"></a>Est-Système téléphonique disponibles pour Teams utilisateurs ?
 
 Oui. Système téléphonique est disponible pour tous les Teams de l’équipe une fois déplacés en mode TeamsOnly.  En outre, Microsoft fournit des options de connexion au réseau téléphonique public commuté (PSTN) afin que les utilisateurs peuvent passer des appels téléphoniques n’importe où dans le monde. Pour plus d’informations, [voir Voice - Système téléphonique connectivité PSTN.](cloud-voice-landing-page.md)
 
@@ -75,7 +75,7 @@ Pour faciliter la planification et l’implémentation de la mise à niveau, Mic
 
 Les organisations qui utilisent Skype Entreprise Online peuvent être éligibles à des mises à niveau assistées de Microsoft vers Teams afin de faciliter la transition de Skype Entreprise Online avant le retrait du service le 31 juillet 2021. Les mises à niveau assistées réduisent le nombre de tâches techniques requises pour les clients et permettent de se concentrer davantage sur la préparation de l’organisation, la sensibilisation des utilisateurs et Teams formation.
 
-Les clients programmés pour les mises à niveau assistées recevront des notifications dans le Centre d’administration Teams et le Centre de messages Microsoft 365 trois mois avant la date de mise à niveau. Pour plus d’informations, [voir Mises à niveau assistées de Skype Entreprise Online vers Microsoft Teams.](upgrade-assisted.md)
+Les clients programmés pour les mises à niveau assistées recevront des notifications dans le Centre d’administration Teams et le Centre de messages Microsoft 365 trois mois avant la date de mise à niveau. Pour plus d’informations, voir Mises à niveau [assistées d Skype Entreprise Online vers Microsoft Teams.](upgrade-assisted.md)
 
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Pourquoi ai-je besoin de conseils en matière de mise à niveau ? Ne puis-je pas simplement supprimer/retirer Skype Entreprise ?
 

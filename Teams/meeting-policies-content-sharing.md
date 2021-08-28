@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams partage de contenu.
-ms.openlocfilehash: 6fc70359c8ef2dc06c02b68ce35977e5e45ef686cd8b44de558a1868ce7cb47e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285823"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592228"
 ---
-# <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion : partage de contenu
+# <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion : partage de contenu
 
 <a name="bkcontentsharing"> </a>
 
@@ -88,7 +88,7 @@ Pour utiliser PowerShell afin de contrôler qui peut donner le contrôle ou acce
 
 ## <a name="allow-an-external-participant-to-give-or-request-control"></a>Autoriser un participant externe à donner ou demander le contrôle
 
-Ce paramètre est une stratégie par utilisateur. Qu’une organisation ait définie cette stratégie pour un utilisateur ne contrôle pas ce que les participants externes peuvent faire, quelle que soit la stratégie définie par l’organisateur de la réunion. Ce paramètre détermine si les participants externes peuvent bénéficier d’un contrôle ou demander le contrôle de l’écran du destinataire, en fonction de ce que le partage a défini dans les stratégies de réunion de leur organisation. Les participants externes aux réunions Teams peuvent être classés comme suit :  
+Ce paramètre est une stratégie par utilisateur. Qu’une organisation ait définie cette stratégie pour un utilisateur ne contrôle pas ce que les participants externes peuvent faire, quelle que soit la stratégie définie par l’organisateur de la réunion. Ce paramètre détermine si les participants externes peuvent bénéficier d’un contrôle ou demander le contrôle de l’écran du destinataire, en fonction de ce que le partage a défini dans les stratégies de réunion de leur organisation. Les participants externes aux réunions Teams peuvent être classés comme suit :  
 
 - Utilisateur anonyme
 - Utilisateurs invités  

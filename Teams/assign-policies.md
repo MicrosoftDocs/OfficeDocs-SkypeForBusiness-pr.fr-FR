@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez les différentes façons d’attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: deb5106ebca49644f6e3a23f607d5d1c352fc29e67c2390c39c1182d75a0bb53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c33cfec3f0c242381ab4a3cd09b83eea02521375
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626396"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 
@@ -31,7 +31,7 @@ En tant qu’administrateur, vous utilisez des stratégies pour contrôler Teams
 
 Les organisations ont différents types d’utilisateurs ayant des besoins uniques. Les stratégies personnalisées que vous créez et attribuez vous personnalisationnt aux différents ensembles d’utilisateurs en fonction de ces besoins.
 
-Pour gérer facilement les stratégies dans votre organisation, Teams plusieurs façons d’affecter des stratégies aux utilisateurs. Affectez une stratégie directement aux utilisateurs, individuellement ou à l’échelle via une affectation de lot, ou à un groupe dont les utilisateurs sont membres. Vous pouvez également utiliser des packages de stratégies pour affecter une collection prédéfinfine de stratégies aux utilisateurs ayant des rôles similaires dans votre organisation. L’option que vous choisissez dépend du nombre de stratégies que vous gérez et du nombre d’utilisateurs à qui vous affectez des stratégies. Les stratégies globales (à l’échelle de l’organisation par défaut) s’appliquent au plus grand nombre d’utilisateurs de votre organisation. Il vous s agit uniquement d’affecter des stratégies aux utilisateurs qui ont besoin de stratégies spécialisées.
+Pour gérer facilement les stratégies dans votre organisation, Teams plusieurs façons d’affecter des stratégies aux utilisateurs. Affectez une stratégie directement aux utilisateurs, individuellement ou à l’échelle via une affectation de lot, ou à un groupe dont les utilisateurs sont membres. Vous pouvez également utiliser des packages de stratégies pour affecter une collection prédéfinfine de stratégies aux utilisateurs de votre organisation ayant des rôles similaires. L’option que vous choisissez dépend du nombre de stratégies que vous gérez et du nombre d’utilisateurs à qui vous affectez des stratégies. Les stratégies globales (à l’échelle de l’organisation par défaut) s’appliquent au plus grand nombre d’utilisateurs de votre organisation. Il vous s agit uniquement d’affecter des stratégies aux utilisateurs qui ont besoin de stratégies spécialisées.
 
 Cet article décrit les différentes manières d’affecter des stratégies aux utilisateurs et les scénarios recommandés pour l’utilisation des stratégies.
 
@@ -128,7 +128,7 @@ Pour affecter une stratégie à un utilisateur :
 
 Vous pouvez également :
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur la page stratégie.
+1. Dans le navigation gauche du Microsoft Teams d’administration, allez sur la page stratégie.
 2. Sélectionnez la stratégie que vous voulez attribuer en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
@@ -163,7 +163,7 @@ Pour en savoir plus, [lisez Gérer les stratégies via PowerShell.](teams-powers
 
 ## <a name="assign-a-policy-to-a-group"></a>Affecter une stratégie à un groupe
 
-L’affectation de stratégies à des groupes vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une liste de distribution. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
+L’affectation d’une stratégie à des groupes vous permet d’affecter une stratégie à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une liste de distribution. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
 
 L’affectation de stratégies à des groupes est recommandée pour les groupes de jusqu’à 50 000 utilisateurs, mais elle fonctionne également avec des groupes plus importants.
 
@@ -179,7 +179,7 @@ Avant de commencer, il est important de comprendre les règles de priorité et l
 
 Pour un type de stratégie donné, la stratégie efficace d’un utilisateur est déterminée selon les informations suivantes :
 
-- Une stratégie assignée directement à un utilisateur est prioritaire sur toute autre stratégie du même type que celle affectée à un groupe. En d’autres termes, si un utilisateur est directement affecté à une stratégie d’un type donné, cet utilisateur n’hérite pas d’une stratégie du même type à partir d’un groupe. Cela signifie également que si un utilisateur a une stratégie d’un type donné qui lui a été directement attribuée, vous devez supprimer cette stratégie de l’utilisateur pour qu’il puisse hériter d’une stratégie du même type à partir d’un groupe.
+- Une stratégie assignée directement à un utilisateur est prioritaire sur toute autre stratégie du même type que celle affectée à un groupe. En d’autres termes, si une stratégie d’un type donné est assignée directement à un utilisateur, cet utilisateur n’hérite pas d’une stratégie du même type à partir d’un groupe. Cela signifie également que si un utilisateur a une stratégie d’un type donné qui lui a été directement attribuée, vous devez supprimer cette stratégie de l’utilisateur pour qu’il puisse hériter d’une stratégie du même type à partir d’un groupe.
 
 - Si un utilisateur ne dispose pas directement d’une stratégie et est membre de deux groupes ou plus et que chaque groupe a une stratégie du même type qui lui est attribuée, l’utilisateur hérite de la stratégie de l’affectation de groupe qui présente le classement le plus élevé.
 
@@ -187,17 +187,17 @@ Pour un type de stratégie donné, la stratégie efficace d’un utilisateur est
 
 La stratégie efficace d’un utilisateur est mise à jour en fonction des règles ci-après :
 
-- lorsqu’un utilisateur est ajouté ou supprimé d’un groupe pour qui une stratégie est assignée.
+- lorsqu’un utilisateur est ajouté ou supprimé d’un groupe à l’aide d’une stratégie.
 - une stratégie n’est pas signée à partir d’un groupe.
 - une stratégie directement attribuée à l’utilisateur est supprimée.
 
 #### <a name="group-assignment-ranking"></a>Classement des affectations de groupe
 
-Lorsque vous attribuez une stratégie à un groupe, vous spécifiez un classement pour l’affectation du groupe. Permet de déterminer la stratégie qu’un utilisateur doit hériter de sa stratégie efficace si l’utilisateur est membre de deux groupes ou plus et qu’une stratégie du même type est assignée à chaque groupe.
+Lorsque vous attribuez une stratégie à un groupe, vous spécifiez un classement pour l’affectation du groupe. Permet de déterminer la stratégie qu’un utilisateur doit hériter de sa stratégie efficace si l’utilisateur est membre de deux groupes ou plus et qu’une stratégie du même type est attribuée à chaque groupe.
 
-Le classement d’affectations de groupe est relatif aux autres affectations de groupe du même type. Par exemple, si vous affectez une stratégie d’appel à deux groupes, définissez le classement d’une affectation sur 1 et l’autre sur 2, 1 étant le plus élevé. Le classement d’affectation de groupe indique quelle appartenance au groupe est plus importante ou plus pertinente que d’autres appartenances de groupe en matière d’héritage.
+Le classement d’affectation de groupe est relatif aux autres affectations de groupe du même type. Par exemple, si vous affectez une stratégie d’appel à deux groupes, définissez le classement d’une affectation sur 1 et l’autre sur 2, 1 étant le plus élevé. Le classement d’affectation de groupe indique quelle appartenance au groupe est plus importante ou plus pertinente que d’autres appartenances de groupe en matière d’héritage.
 
-Par exemple, vous avez deux groupes, Employés du Store et Responsables de magasin. Les deux groupes se sont respectivement attribué une stratégie Teams d’appel, la stratégie d’appel du Store Employees et la Stratégie d’appel des responsables du Store. Pour un responsable de magasin faisant partie des deux groupes, son rôle de responsable est plus pertinent que son rôle d’employé. Par ailleurs, la stratégie d’appel attribuée au groupe Responsables de magasin doit avoir un classement plus élevé.
+Par exemple, vous avez deux groupes, Employés du Store et Responsables de magasin. Les deux groupes se sont respectivement attribués une stratégie Teams d’appel, une stratégie d’appel pour les employés du Store et une stratégie d’appel pour les responsables du magasin. Pour un responsable de magasin faisant partie des deux groupes, son rôle de responsable est plus pertinent que son rôle d’employé. Par ailleurs, la stratégie d’appel attribuée au groupe Responsables de magasin doit avoir un classement plus élevé.
 
 |Grouper |Teams de la stratégie d’appel  |Classement|
 |---------|---------|---|
@@ -244,7 +244,7 @@ Dans cet exemple, nous affectons une stratégie Teams réunion nommée Stratégi
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
 ```
 
-#### <a name="get-policy-assignments-for-a-group"></a>Obtenir des affectations de stratégie pour un groupe
+#### <a name="get-policy-assignments-for-a-group"></a>Obtenir les affectations de stratégie pour un groupe
 
 Utilisez [l’cmdlet Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment) pour attribuer toutes les stratégies à un groupe. Notez que les groupes sont toujours répertoriés par leur ID de groupe, même si leur adresse SIP ou adresse de messagerie a été utilisée pour affecter la stratégie.
 
@@ -323,7 +323,7 @@ Direct         Employee Events
 Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 ```
 
-À présent, nous allons supprimer la stratégie Événements d’employés de l’utilisateur. Cela signifie que l’utilisateur n’a plus de stratégie de diffusion de réunion Teams qui lui est directement attribuée et hérite de la stratégie Événements en direct du fournisseur qui est attribuée au groupe dont l’utilisateur appartient.
+À présent, nous ôtons la stratégie Événements d’employés de l’utilisateur. Cela signifie que l’utilisateur n’a plus de stratégie de diffusion de réunion Teams qui lui est directement attribuée et hérite de la stratégie Événements en direct du fournisseur qui est attribuée au groupe dont il appartient.
 
 Pour ce faire, utilisez l’cmdlet Skype Entreprise le module PowerShell suivant.
 
@@ -360,7 +360,7 @@ Pour afficher l’état de votre affectation de stratégie, dans la bannière  q
 
 L’affectation de stratégie de lot vous permet d’affecter une stratégie à de grands ensembles d’utilisateurs à la fois sans utiliser de script. Vous utilisez la [cmdlet New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour envoyer un lot d’utilisateurs et la stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot. Vous pouvez ensuite utiliser la cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) pour suivre l’avancement et l’état des devoirs d’un lot.
 
-Spécifiez les utilisateurs selon leur ID d’objet ou leur adresse SIP (Session Initiation Protocol). L’adresse SIP d’un utilisateur a souvent la même valeur que le nom d’utilisateur principal (UPN) ou l’adresse de courrier, mais cela n’est pas obligatoire. Si un utilisateur est spécifié à l’aide de son nom d’utilisateur supérieur ou de son adresse de courrier, mais que sa valeur est différente de celle de son adresse SIP, l’attribution de stratégie échoue pour l’utilisateur. Si un lot inclut des utilisateurs en double, les doublons sont supprimés du lot avant que le traitement et l’état ne soient fournis qu’aux utilisateurs uniques restants du lot.
+Spécifiez les utilisateurs selon leur ID d’objet ou adresse SIP (Session Initiation Protocol). L’adresse SIP d’un utilisateur a souvent la même valeur que le nom d’utilisateur principal (UPN) ou l’adresse de courrier, mais cela n’est pas obligatoire. Si un utilisateur est spécifié à l’aide de son nom d’utilisateur supérieur ou de son adresse de courrier, mais que sa valeur est différente de celle de son adresse SIP, l’attribution de stratégie échoue pour l’utilisateur. Si un lot inclut des utilisateurs en double, les doublons sont supprimés du lot avant que le traitement et l’état ne soient fournis qu’aux utilisateurs uniques restants du lot.
 
 Un lot peut contenir jusqu’à 5 000 utilisateurs. Pour de meilleurs résultats, n’envoyez pas plus de quelques lots à la fois. Autorisez le traitement des lots avant l’envoi d’autres lots.
 
@@ -417,7 +417,7 @@ Exécutez ce qui suit pour obtenir l’état d’une affectation de lot, où Ope
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-Si la sortie indique qu’une erreur s’est produite, exécutez l’erreur suivante pour obtenir plus d’informations sur les erreurs, qui se trouver dans la `UserState` propriété.
+Si la sortie indique qu’une erreur s’est produite, exécutez l’une des exécutez-la pour obtenir plus d’informations sur les erreurs, qui se trouver dans la `UserState` propriété.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -456,7 +456,7 @@ L’affectation de package de stratégie à des groupes est recommandée pour le
 Lorsque vous attribuez le package de stratégie, il est immédiatement affecté au groupe. Toutefois, la propagation de l’affectation de stratégie aux membres du groupe est effectuée comme une opération en arrière-plan et peut prendre du temps, selon la taille du groupe. Il en va de même lorsqu’une stratégie est non signée dans un groupe, ou lorsque des membres sont ajoutés ou supprimés d’un groupe.
 
 > [!IMPORTANT]
-> Avant de commencer, il est [](#precedence-rules) important de comprendre les règles de priorité et le [classement d’affectation de groupe.](#group-assignment-ranking) Assurez-vous de lire et de comprendre les concepts de ce que vous devez savoir sur l’affectation de stratégie aux groupes [plus](#what-you-need-to-know-about-policy-assignment-to-groups) tôt dans cet article.
+> Avant de commencer, il est [](#precedence-rules) important de comprendre les règles de priorité et le [classement d’affectation de groupe.](#group-assignment-ranking) Assurez-vous de lire et de comprendre les concepts de ce que vous devez [savoir](#what-you-need-to-know-about-policy-assignment-to-groups) sur l’affectation de stratégie aux groupes plus tôt dans cet article.
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Attribuer un package de stratégie à un groupe d’utilisateurs dans le Centre d’administration
 
@@ -502,7 +502,7 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 L’affectation de package de stratégie de lot vous permet d’affecter un package de stratégie à de grands ensembles d’utilisateurs à la fois sans utiliser de script. Vous utilisez la cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour envoyer un lot d’utilisateurs et le package de stratégie que vous souhaitez affecter. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot. Vous pouvez ensuite utiliser la cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) pour suivre l’avancement et l’état des devoirs d’un lot.
 
-Spécifiez les utilisateurs selon leur ID d’objet ou leur adresse SIP (Session Initiation Protocol). L’adresse SIP d’un utilisateur a souvent la même valeur que le nom d’utilisateur principal (UPN) ou l’adresse de courrier, mais cela n’est pas obligatoire. Si un utilisateur est spécifié à l’aide de son nom d’utilisateur supérieur ou de son adresse de courrier, mais que sa valeur est différente de celle de son adresse SIP, l’attribution de stratégie échoue pour l’utilisateur. Si un lot inclut des utilisateurs en double, les doublons sont supprimés du lot avant que le traitement et l’état ne soient fournis qu’aux utilisateurs uniques restants du lot.
+Spécifiez les utilisateurs selon leur ID d’objet ou adresse SIP (Session Initiation Protocol). L’adresse SIP d’un utilisateur a souvent la même valeur que le nom d’utilisateur principal (UPN) ou l’adresse de courrier, mais cela n’est pas obligatoire. Si un utilisateur est spécifié à l’aide de son nom d’utilisateur supérieur ou de son adresse de courrier, mais que sa valeur est différente de celle de son adresse SIP, l’attribution de stratégie échoue pour l’utilisateur. Si un lot inclut des utilisateurs en double, les doublons sont supprimés du lot avant que le traitement et l’état ne soient fournis qu’aux utilisateurs uniques restants du lot.
 
 Un lot contient jusqu’à 5 000 utilisateurs. Pour de meilleurs résultats, n’envoyez pas plus de quelques lots à la fois. Autorisez le traitement des lots avant l’envoi d’autres lots.
 
@@ -538,7 +538,7 @@ Exécutez ce qui suit pour obtenir l’état d’une affectation de lot, où Ope
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-Si la sortie indique qu’une erreur s’est produite, exécutez l’erreur suivante pour obtenir plus d’informations sur les erreurs, qui se trouver dans la `UserState` propriété.
+Si la sortie indique qu’une erreur s’est produite, exécutez l’une des exécutez-la pour obtenir plus d’informations sur les erreurs, qui se trouver dans la `UserState` propriété.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -546,6 +546,6 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 Pour en savoir plus, [consultez Get-CsBatchPolicyAssignmentOperation.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Aperçu de Teams PowerShell](teams-powershell-overview.md)

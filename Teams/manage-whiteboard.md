@@ -10,7 +10,7 @@ audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: Dans cet article, vous découvrirez comment gérer et utiliser l’application web du tableau blanc dans Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e7b9e659a933576f552bd5e25e2d1a5d4b9ccde1e47b2838bd55da107979915
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96887fe65ccec958f683f68d59ca9e73e169f103
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276390"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618460"
 ---
 # <a name="manage-the-whiteboard-in-microsoft-teams"></a>Gérer le tableau blanc dans Microsoft Teams
 

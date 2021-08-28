@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêt unique.
-ms.openlocfilehash: 9244ceca231142757a2a82f140b6d17613486117a86af6d6c9248e5a106a958f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a68171ebf8d56b61ed77c6cef9739b701a0c07e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312102"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591938"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Déploiements locaux à forêt unique du système de salle
  

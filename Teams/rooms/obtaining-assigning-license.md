@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment un compte de Salles Microsoft Teams obtient une licence pour accéder au service Salles Microsoft Teams Premium.
 f1keywords: ''
-ms.openlocfilehash: 78ec170f329d6fdfdabaf7a6fc10f13ec1517b78
-ms.sourcegitcommit: 3ebf9c5d27263b7e92163f1a61844a5367a4744f
+ms.openlocfilehash: d37824c0cf496f7c059e081b73f6f8590b8b0429
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58449021"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637029"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Mise en Salles Microsoft Teams Premium service géré par un client
 
@@ -45,4 +45,4 @@ Pour attribuer une licence, effectuez les étapes suivantes :
 5. Entrez les comptes de **licence Salles Microsoft Teams** existants pour **l’salles Teams Premium** de licence. Pour plus d’informations sur la configuration ou la validation de comptes Salles Microsoft Teams existants, voir Déployer Salles Microsoft Teams avec Microsoft 365 ou [Office 365.](with-office-365.md)
 6. Une fois l’envoi du compte terminé, **sélectionnez Attribuer,** puis **Fermer.** Les **Salles Microsoft Teams Premium** licences utilisateur ont été affectées **à Salles Microsoft Teams** comptes.
 
-Vous êtes maintenant prêt à inscrire les comptes et les appareils certifiés associés Salles Microsoft Teams dans le service Salles Microsoft Teams Premium géré par l’utilisateur. Pour plus d’informations, [inscrivez un appareil au service Salles Microsoft Teams Premium géré.](enrolling-mtrp-managed-service.md)
+Vous êtes maintenant prêt à inscrire les comptes et les appareils certifiés associés Salles Microsoft Teams dans le service Salles Microsoft Teams Premium géré par l’utilisateur. Pour plus d’informations, inscrivez [un appareil au service Salles Microsoft Teams Premium géré.](enrolling-mtrp-managed-service.md)

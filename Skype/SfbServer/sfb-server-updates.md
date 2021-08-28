@@ -9,16 +9,16 @@ ms.topic: reference
 ms.prod: skype-for-business-server
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour Skype Entreprise Server 2015/2019 et Lync 2013 au même endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
+ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341519"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683318"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -32,11 +32,11 @@ La base de 4470124 est la base de données principale pour Skype Entreprise Serv
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
-|Skype Entreprise Server cumulative 4 de 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2020 |
-|Skype Entreprise Server mise à jour cumulative 3 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2020 |
+|Skype Entreprise Server cumulative 4 de 2019 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2020 |
+|Skype Entreprise Server mise à jour cumulative 3 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2020 |
 |Skype Entreprise Server cumulative 2019 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Mars 2020 |
-|Skype Entreprise Server cumulative 2019 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Décembre 2019 |
-|Skype Entreprise Server mise à jour cumulative 1 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2019 |
+|Skype Entreprise Server cumulative 2019 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Décembre 2019 |
+|Skype Entreprise Server mise à jour cumulative 1 2019 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Septembre 2019 |
 |Skype Entreprise Server cumulative 2019 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Juillet 2019 |
 | | | |
 
@@ -56,9 +56,10 @@ La base de 4470124 est la base de données principale pour Skype Entreprise Serv
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
+|Skype Entreprise Server cumulative 2015 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2021 |
 |Skype Entreprise Server 2015 Mise à jour cumulative 11 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Juillet 2020 |
 |Skype Entreprise Server cumulative 2015 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 mai 2020 |
-|Skype Entreprise Server 2015 Mise à jour cumulative 10 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2019 |
+|Skype Entreprise Server 2015 Mise à jour cumulative 10 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2019 |
 |Skype Entreprise Server cumulative 2015 10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| Juillet 2019 |
 |Mise à jour cumulative 9 pour Skype Entreprise Server 2015, serveur de composants Web|[KB 4487981](https://support.microsoft.com/kb/4487981)| Mai 2019 |
 |Mise à jour cumulative 8 pour Skype Entreprise Server 2015, serveur frontal et serveur Edge|[KB 4464355](https://support.microsoft.com/kb/4464355)|Janvier 2019|
@@ -91,8 +92,8 @@ La base de 4470124 est la base de données principale pour Skype Entreprise Serv
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
-|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Juillet 2020|
-|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Septembre 2019|
+|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Juillet 2020|
+|Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|Septembre 2019|
 |Correctif logiciel 2 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 4501392](https://support.microsoft.com/kb/4501392)|Juin 2019|
 |Correctif logiciel 10 de la mise à jour cumulative 10 de Lync Server 2013 |[KB 4458772](https://support.microsoft.com/kb/4458772)|Janvier 2019|
 |Mise à jour cumulative 10 de Lync Server 2013 |[KB 4295703](https://support.microsoft.com/kb/4295703)|Juillet 2018 |
@@ -148,7 +149,7 @@ Nom du package |Date de publication|
 
 |Nom du package |Date de publication|
 |:--- |:--- |
-| Lync Connectivity Analyzer (32 bits) RETIRÉ |Juin 2017 |
+| Lync Connectivity Analyzer (32 bits) RETIRED |Juin 2017 |
 | Lync Connectivity Analyzer (64 bits) RETIRÉ |Juin 2017 |
 | Lync Server 2013 Best Practices Analyzer |Octobre 2012 |
 |[Calculateur de capacité Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36828) |Juillet 2013 |
@@ -266,8 +267,9 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, mises à jour cumulatives, Service Packs, Feature Packs, mises à jour critiques, mises à jour de sécurité ou correctifs logiciels. Pour obtenir la terminologie standard utilisée pour décrire les mises à jour logicielles de Microsoft, consultez l’[KB 824684](https://support.microsoft.com/kb/824684).
 
-## <a name="related-topics"></a>Sujets connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Installer Skype Entreprise Server 2015](./deploy/install/install.md)
 - [Mise à niveau vers Skype Entreprise Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Dernières mises à jour pour les versions de Skype Entreprise qui utilisent Windows Installer (MSI)](sfb-client-updates.md)
+- 

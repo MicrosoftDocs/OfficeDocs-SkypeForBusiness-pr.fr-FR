@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Créez ou modifiez une file d’attente Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338742"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611259"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Créer ou modifier une file d’attente dans Skype Entreprise
  
@@ -71,9 +71,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **vers** la messagerie vocale, puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
+   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **to voice mail,** puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
     
-   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ d’adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
+   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
     
    - Pour passer l’appel à un autre utilisateur, cliquez sur Forward vers l’adresse **SIP,** puis dans le champ d’adresse **SIP,** tapez l’URI de l’utilisateur au format sip: _\<username\>_ @  _\<domainname\>_ .
     
@@ -89,9 +89,9 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour déconnecter l’appel une fois le délai expiré, cliquez sur **Déconnecter**.
     
-   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **vers** la messagerie vocale, puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
+   - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **to voice mail,** puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
     
-   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ d’adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
+   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
     
    - Pour passer l’appel à un autre utilisateur, cliquez sur Forward vers l’adresse **SIP,** puis dans le champ d’adresse **SIP,** tapez l’URI de l’utilisateur au format sip: _\<username\>_ @  _\<domainname\>_ .
     
@@ -162,7 +162,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     > [!NOTE]
     > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
-    Par exemple :
+    Par exemple :
     
    ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate

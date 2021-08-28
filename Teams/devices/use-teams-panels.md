@@ -1,6 +1,6 @@
 ---
 title: Comment utiliser des panneaux Microsoft Teams panneaux
-ms.author: v-mdhiman
+ms.author: serdars
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -14,14 +14,14 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Cet article fournit des conseils sur l’utilisation des panneaux Teams panneaux.
-ms.openlocfilehash: 28026f53f53fcb7b489abe3cf7d12a82d25f335907b1044591f92d4884853e03
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0fccd3e733cdeec2cfe84b721cbade5834b05b03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325061"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626266"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>Utilisation de panneaux Microsoft Teams panneaux
 
@@ -31,7 +31,7 @@ Teams panneaux sont préinstallés avec des Microsoft Teams et affichent les dé
 
 Cet article fournit des conseils, tant aux utilisateurs finaux qu’aux administrateurs, sur l’utilisation des panneaux Teams panneaux. Il fournit également des réponses aux [questions fréquemment posées sur](#frequently-asked-questions) l’utilisation de ces appareils.
 
-Pour une vue d’ensemble des périphériques en panneaux et pour obtenir des instructions sur la façon de les planifier, de les livrer et de les gérer dans votre organisation, voir Déployer [Microsoft Teams panneaux.](teams-panels.md)
+Pour une vue d’ensemble des périphériques de panneaux et pour obtenir des instructions sur la façon de les planifier, de les livrer et de les gérer dans votre organisation, voir Déployer [Microsoft Teams panneaux.](teams-panels.md)
 
 Pour un démarrage rapide, consultez la mise en Teams [panneaux.](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
@@ -44,7 +44,7 @@ Utilisez vos panneaux Teams panneaux pour :
 - [Afficher les détails et la disponibilité de l’espace de réunion, les détails des réunions, les réservations à venir](#explore-teams-panels-home-screen)
 - [Réserver un espace de réunion disponible](#reserve-meeting-spaces-for-ad-hoc-meetings)
 - [Signaler un problème](#report-a-problem)
-- [Afficher ou mettre à jour le paramètre d’un appareil](#view-or-update-a-device-setting)
+- [Afficher ou mettre à jour un paramètre d’appareil](#view-or-update-a-device-setting)
 
 ## <a name="explore-teams-panels-home-screen"></a>Explorer Teams écran d’accueil des panneaux
 
@@ -113,7 +113,7 @@ Pour réserver un espace de réunion disponible pour une réunion ad hoc :
     >
     > - Les options d’heure de fin sont affichées par intervalles de 15 minutes par heure.
     > - L’heure de fin est par défaut l’intervalle de 15 minutes suivant, soit au moins cinq minutes après l’heure actuelle. Par exemple, si l’heure actuelle est 13:57, l’heure de fin par défaut est de 14:15 et non de 14:00. Cela empêche les utilisateurs de réserver de l’espace pendant au moins cinq minutes. Dans la capture d’écran ci-dessus, l’heure de fin par défaut s’affiche sous la forme 14:00, soit l’intervalle de 15 minutes suivant, soit au moins cinq minutes après l’heure actuelle (13:53 PM).
-    > - Une exception à la règle ci-dessus est lorsque l’heure de début de la réunion suivante est dans les cinq minutes suivant l’heure actuelle. Dans ce cas, vous pouvez réserver l’espace jusqu’à l’heure de début de la prochaine réunion. Par exemple, si l’heure actuelle est 13:57 et que l’heure de début de la prochaine réunion est 14h, alors 14h00 s’affiche comme seule option d’heure de fin et vous pouvez réserver l’espace pendant trois minutes.
+    > - Une exception à la règle ci-dessus est lorsque l’heure de début de la réunion suivante est dans les cinq minutes suivant l’heure actuelle. Dans ce cas, vous pouvez réserver de l’espace jusqu’à l’heure de début de la prochaine réunion. Par exemple, si l’heure actuelle est 13:57 et que l’heure de début de la prochaine réunion est 14h, alors 14h00 s’affiche comme seule option d’heure de fin et vous pouvez réserver l’espace pendant trois minutes.
 
 3. Appuyez sur l’intervalle de temps de fin souhaité, puis appuyez sur **Réserver.**
 
@@ -124,7 +124,7 @@ La vignette droite de l’écran d’accueil  apparaît désormais en violet et 
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Écran d’accueil montrant que l’espace de réunion est réservé à une réunion ad hoc":::
 
     > [!NOTE]
-    > Si l’espace de réunion est une  salle de réunion Microsoft Teams, vous pouvez rejoindre cette Teams réunion avec la salle de réunion Microsoft Teams salle ou Surface Hub périphériques.
+    > Si l’espace de réunion est une  salle de réunion Microsoft Teams, vous pouvez rejoindre cette Teams à l’intérieur de la salle de réunion Microsoft Teams salle ou Surface Hub périphériques.
 
 ### <a name="report-a-problem"></a>Signaler un problème
 
@@ -145,7 +145,7 @@ Pour signaler un problème avec l’appareil ou l’espace de réunion, pour  de
 
 7. Examinez vos entrées, puis appuyez **sur Envoyer.**
 
-### <a name="view-or-update-a-device-setting"></a>Afficher ou mettre à jour le paramètre d’un appareil
+### <a name="view-or-update-a-device-setting"></a>Afficher ou mettre à jour un paramètre d’appareil
 
 Il existe plusieurs paramètres d’appareil, tels que l’accessibilité, le redémarrage et la politique de confidentialité, que vous pouvez afficher ou mettre à jour directement à partir de panneaux. Les paramètres d’appareil disponibles peuvent varier en fonction du fabricant d’ordinateurs (OEM) de votre appareil. Pour plus d’informations sur les paramètres spécifiques de votre appareil, consultez la documentation OEM.
 
@@ -160,9 +160,9 @@ Pour afficher ou mettre à jour un paramètre d’appareil :
 
 Si vous êtes l’administrateur du Teams de ressources du panneau [d’administration,](teams-panels.md\#resource-account-provisioning)vous êtes également l’administrateur de **l’application Panel** sur l’appareil. En tant **qu’administrateur** de l’application Panneaux, vous pouvez gérer toutes les fonctions mentionnées dans la [section](#teams-panels-end-user-experience) expérience utilisateur final, en plus de gérer les paramètres de l’application **Panneaux** sur l’appareil.
 
-Vos périphériques de panneaux offrent deux types de paramètres d’administration. Vous devez être administrateur d’appareil pour accéder aux paramètres d’administration disponibles. Les utilisateurs finaux ne peuvent pas accéder à ces paramètres.
+Les appareils de vos panneaux offrent deux types de paramètres d’administration. Vous devez être administrateur d’appareil pour accéder aux paramètres d’administration disponibles. Les utilisateurs finaux ne peuvent pas accéder à ces paramètres.
 
-- Paramètres d’administration spécifiques à l’appareil, tels que l’affichage, l’heure et la date, la langue, le bluetooth, le WiFi, etc. Consultez la documentation OEM pour en savoir plus sur ces paramètres.
+- Paramètres d’administration spécifiques à l’appareil, tels que l’affichage, l’heure et la date, la langue, bluetooth, WiFi, etc. Consultez la documentation OEM pour en savoir plus sur ces paramètres.
 - Paramètres d’administration spécifiques à **l’application Panneaux** sur votre appareil, tels que le papier peint et la couleur de l’indicateur LED. Seul un administrateur de **l’application Panneaux peut** accéder à ces paramètres. Étant **donné que les** paramètres de l’application Panneaux sont disponibles dans les paramètres administrateur, vous devez avoir des informations d’identification d’administrateur pour l’appareil et l’application **Panneaux** pour accéder aux paramètres de l’application **Panneaux.**
 
 > [!NOTE]
@@ -176,7 +176,7 @@ Pour accéder à **l’option d Paramètres** de l’application Panneaux :
 
 1. Appuyez sur **l Paramètres** de l’écran d’accueil.
 2. Sur **l’Paramètres'** écran, appuyez **sur Paramètres de l’appareil.**
-3. Appuyez sur **le compte Paramètres.**
+3. Appuyez sur **le panneau Paramètres.**
 
     > [!NOTE]
     > Selon le OEM de votre appareil, vous devrez peut-être entrer le mot de passe administrateur de l’appareil maintenant ou après l’étape suivante.
@@ -212,7 +212,7 @@ Les administrateurs peuvent choisir la couleur rouge ou violette comme couleur L
 :::image type="content" source="../media/panels-led-settings.png" alt-text="Cette capture d’écran présente les paramètres d’état occupé de couleur LED":::
 4. Revenir à l’écran d’accueil et vérifier que la couleur LED de l’état occupé est mise à jour. Si l’espace de réunion est actuellement disponible, essayez de planifier une réunion test pour vérifier la modification de la couleur du LED pour l’état occupé.
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 Trouvez des réponses aux questions les plus fréquemment posées sur les Teams panneaux.
 
@@ -222,5 +222,5 @@ Dans  la vignette Calendrier à venir (en bas à droite) dans l’écran d’acc
 **Puis-je réserver un espace de réunion pour une heure ultérieure à partir du périphérique Teams panneaux ?**  
 Non, vous ne pouvez pas réserver d’espace de réunion pour une heure ultérieure à partir de panneaux. L’heure de début est toujours l’heure actuelle pour une réunion ad hoc prévue à partir de panneaux.
 
-**Pendant combien de temps puis-je réserver un espace de réunion disponible pour une réunion ad hoc ?**  
+**Combien de temps puis-je réserver un espace de réunion disponible pour une réunion ad hoc ?**  
 Vous pouvez réserver un espace de réunion disponible à partir de l’heure actuelle jusqu’à l’heure de la prochaine réunion prévue, ou jusqu’à 24 heures à partir de l’heure actuelle (selon la date antérieure). Par exemple, si l’heure actuelle est 10 h et que l’heure de début de la prochaine réunion est de 14 h, vous pouvez réserver l’espace de réunion de 10 h à 14 h.

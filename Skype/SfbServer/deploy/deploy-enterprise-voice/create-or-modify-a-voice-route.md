@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Résumé : Découvrez comment créer ou modifier un itinéraire de voix dans Skype Entreprise Server à l’aide du Panneau de Skype Entreprise Server de conférence.'
-ms.openlocfilehash: a9ae7d0e1cff6f4fa49346b67c08253c108e026ec352606cf4f73fc0dc6a7640
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b1ca3dc6120fb4e8432736672ee4821e894da56
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611239"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Créer ou modifier un itinéraire de voix dans Skype Entreprise
  
@@ -51,7 +51,7 @@ ms.locfileid: "54279342"
     
    - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire soit adapté. Par exemple, pour exclure des nombres commençant par +425237 de l’itinéraire, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK**.
     
-   - Pour définir le modèle de correspondance manuellement, cliquez sur **Modifier** dans l’outil **Créer un modèle à suivre**, puis saisissez une expression régulière .NET Framework afin de spécifier le modèle de correspondance pour les numéros de téléphone de destination auxquels l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir [« .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)». 
+   - Pour définir le modèle de correspondance manuellement, cliquez sur **Modifier** dans l’outil **Créer un modèle à suivre**, puis saisissez une expression régulière .NET Framework afin de spécifier le modèle de correspondance pour les numéros de téléphone de destination auxquels l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, [voir « .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)». 
     
 9. Sélectionnez l’option **Supprimer l’ID de l’appelant** si vous ne souhaitez pas que l’ID du téléphone à l’origine de l’appel sortant soit affiché au destinataire. Si vous sélectionnez cette option, vous devez spécifier un **autre ID** d’appelant qui apparaîtra sur l’affichage de l’ID d’appelant du destinataire.
     
@@ -98,7 +98,7 @@ ms.locfileid: "54279342"
     
    - **Exceptions**: si vous souhaitez spécifier une ou plusieurs exceptions pour une valeur de préfixe, mettez en surbrillez le préfixe et cliquez sur **Exceptions.** Tapez une ou plusieurs valeurs pour  les modèles correspondants que vous ne souhaitez pas que cet itinéraire soit adapté. Par exemple, pour exclure des nombres commençant par +425237 de l’itinéraire, entrez la valeur +425237 dans le champ **Exceptions,** puis cliquez sur **OK**.
     
-   - Pour définir manuellement le  modèle de  correspondance, cliquez sur Modifier dans le modèle Créer un modèle pour correspondre à l’outil, puis tapez une expression régulière .NET Framework pour spécifier le modèle de correspondance pour les numéros de téléphone de destination auquel l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, voir [« .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)». 
+   - Pour définir manuellement le  modèle de  correspondance, cliquez sur Modifier dans le modèle Créer un modèle pour correspondre à l’outil, puis tapez une expression régulière .NET Framework pour spécifier le modèle de correspondance pour les numéros de téléphone de destination à laquelle l’itinéraire est appliqué. Pour plus d’informations sur l’écriture d’expressions régulières, [voir « .NET Framework Expressions régulières](/dotnet/standard/base-types/regular-expressions)». 
     
 7. Sélectionnez **Supprimer l’ID** de l’appelant si vous ne souhaitez pas que l’ID du téléphone qui fait l’appel sortant s’affiche pour le destinataire de l’appel. Si vous sélectionnez cette option, vous devez spécifier un **autre ID** d’appelant qui apparaîtra sur l’affichage de l’ID d’appelant du destinataire.
     
@@ -121,7 +121,7 @@ ms.locfileid: "54279342"
 13. Dans la page **Itinéraire**, cliquez sur **Valider**, puis sur **Valider tout**. 
     
     > [!NOTE]
-    > Chaque fois que vous créez ou  modifiez un itinéraire de voix, vous devez exécuter la commande Valider tout pour publier la modification de configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
+    > Chaque fois que vous créez ou modifiez un itinéraire de voix, vous devez exécuter la commande **Valider** tout pour publier la modification de configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
   
 ## <a name="see-also"></a>Voir aussi
 

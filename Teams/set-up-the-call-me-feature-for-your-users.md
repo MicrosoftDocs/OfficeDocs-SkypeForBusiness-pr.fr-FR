@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Découvrez comment configurer la fonctionnalité M’appeler dans Teams afin que les utilisateurs ne peuvent pas rejoindre la partie audio par téléphone lorsqu’ils utilisent leur ordinateur pour l’audio.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 f1.keywords:
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 972368de75f38ef1ad1d3f268bfa21526eda261658792b67ce8b0d51c3281b2e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ffdd467f73b590aae153cb8606c225258ef384c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324813"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618440"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurer la fonctionnalité M’appeler pour vos utilisateurs
 
@@ -63,7 +63,7 @@ Voici un exemple du message  et de l’option Me rappeler qui s’affiche quand 
 
 ![Capture d’écran de l’option Me rappeler](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran **Utiliser le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone et se faire appeler Teams réunion et rejoindre la réunion, ou composer manuellement le numéro pour accéder à la réunion.
+L’utilisateur clique **sur Me rappeler,** ce qui affiche l’écran **Utiliser le téléphone pour l’audio.** À partir de là, il peut entrer son numéro de téléphone et se faire appeler Teams réunion et rejoindre la réunion ou se composer manuellement de la réunion.
 
 ## <a name="set-up-the-call-me-feature"></a>Configurer la fonctionnalité M’appeler
 

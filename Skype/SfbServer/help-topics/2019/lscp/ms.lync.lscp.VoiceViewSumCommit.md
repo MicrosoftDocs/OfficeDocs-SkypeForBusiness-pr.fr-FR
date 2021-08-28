@@ -11,18 +11,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez utiliser la boîte de dialogue Configuration vocale non Paramètres pour passer en revue toutes les modifications que vous avez apportées. Parcourez la boîte de dialogue pour passer en revue toutes les modifications non validées ou cliquez sur les flèches pour développer ou réduire les différentes sections. Lorsque vous avez terminé, cliquez sur Valider pour valider toutes ces modifications ou cliquez sur Annuler pour revenir en arrière et modifier vos modifications.
-ms.openlocfilehash: cd2e288896bc358c4424ad125f46f217f4e7d4b3a9131d95e20b3e362b17024c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5db57fca894192ef4a88b04f4226ab1f0aae6399
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300100"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591748"
 ---
-# <a name="uncommitted-voice-configuration-settings-commit"></a>Paramètres de configuration de la voix non validés : valider
+# <a name="uncommitted-voice-configuration-settings-commit"></a>Paramètres de configuration de la voix non validés : valider
  
 Vous pouvez utiliser la boîte de dialogue Configuration vocale **non Paramètres** pour passer en revue toutes les modifications que vous avez apportées. Parcourez la boîte de dialogue pour passer en revue toutes les modifications non validées ou cliquez sur les flèches pour développer ou réduire les différentes sections. Lorsque vous avez terminé, cliquez sur **Valider** pour valider toutes ces modifications ou cliquez sur **Annuler** pour revenir en arrière et modifier vos modifications.
   

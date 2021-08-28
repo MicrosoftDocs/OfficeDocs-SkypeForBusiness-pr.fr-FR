@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment surveiller et résoudre les problèmes de configuration du routage direct, notamment les contrôleurs de bordure de session, les composants de routage direct et les ligne de télécommunications.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 534634beb302a5c7027b26a8fdaa305b824cf4efd3930d81f3c6b4d08559c32c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302005"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618500"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Contrôler et dépanner le routage direct
 
@@ -48,7 +48,7 @@ Le diagramme suivant montre un exemple de configuration :
 
 ![Exemple de configuration des options SIP](media/sip-options-config-example.png)
 
-Lorsqu’un utilisateur appelle le numéro +1 425, le \<any seven digits> routage direct évalue l’itinéraire. Il existe deux SBCS dans l’itinéraire : sbc1.contoso.com et sbc2.contoso.com. Les deux SBCS ont la même priorité dans l’itinéraire. Avant de choisir un SBC, le mécanisme de routage évalue l’état des SBC en fonction de la dernière fois que le SBC a envoyé les options SIP. 
+Lorsqu’un utilisateur appelle le numéro +1 425, le \<any seven digits> routage direct évalue l’itinéraire. Il existe deux SBCS dans l’itinéraire : sbc1.contoso.com et sbc2.contoso.com. Les deux SBCS ont la même priorité sur l’itinéraire. Avant de choisir un SBC, le mécanisme de routage évalue l’état des SBC en fonction de la dernière fois que le SBC a envoyé les options SIP. 
 
 Un SBC est considéré comme sain si les statistiques au moment de l’envoi de l’appel indiquent que le SBC envoie des options toutes les minutes.  
 
@@ -58,7 +58,7 @@ Lorsqu’un appel est effectué, la logique suivante s’applique :
 - Le SBC envoie des options à 11:01, 11:02, etc.  
 - À 23:15, un utilisateur effectue un appel et le mécanisme de routage sélectionne ce SBC. 
 
-Le routage direct prend les options d’intervalle régulier trois fois (l’intervalle régulier est d’une minute). Si des options ont été envoyés au cours des trois dernières minutes, le SBC est considéré comme étant sain.
+Le routage direct prend les options d’intervalle régulier trois fois (l’intervalle régulier est d’une minute). Si des options ont été envoyés au cours des trois dernières minutes, le SBC est considéré comme sain.
 
 Si la donnée SBC de l’exemple a été envoyée à n’importe quel moment entre 11:12 et 11:15 (heure à l’heure de l’appel), elle est considérée comme saine. Si ce n’est pas le cas, le SBC est rétrogradé de l’itinéraire. 
 
@@ -66,7 +66,7 @@ Demotion signifie que le SBC ne sera pas tenté en premier. Par exemple, nous av
 
 Si sbc1.contoso.com n’envoie pas les options SIP à intervalles réguliers comme décrit précédemment, elle est rétrogradée. Ensuite, sbc2.contoso.com pour l’appel. Si sbc2.contoso.con ne peut pas donner l’appel, l’sbc1.contoso.com (rétrogradé) fait l’appel à nouveau avant qu’un échec ne soit généré. 
 
-Si deux (ou plusieurs) SBCs dans un même itinéraire sont considérés comme sains et égaux, un mélange Fisher-Yates est appliqué pour distribuer les appels entre les SBCs.
+Si deux (ou plusieurs) SBCs dans un itinéraire sont considérés comme sains et égaux, un mélange Fisher-Yates est appliqué pour distribuer les appels entre les SBCs.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Surveiller le tableau de bord d’analyse de la qualité des appels et les journaux SBC 
  

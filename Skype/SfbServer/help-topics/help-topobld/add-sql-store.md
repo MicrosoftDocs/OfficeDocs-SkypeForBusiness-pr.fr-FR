@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: Pour définir une nouvelle SQL Store, ce qui signifie que vous spécifiez une base de données SQL Server et une instance de SQL Server (instance par défaut ou instance nommée), vous devez spécifier ce qui suit.
-ms.openlocfilehash: dfc1c891e3f64df0b8ba96f9f917ec502c272cb50ea87c022977bfc6c7c116b7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1a33e6ad6222414f96fe613e81f3f36926726dff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307335"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588676"
 ---
 # <a name="add-sql-store"></a>Ajouter un magasin SQL
 

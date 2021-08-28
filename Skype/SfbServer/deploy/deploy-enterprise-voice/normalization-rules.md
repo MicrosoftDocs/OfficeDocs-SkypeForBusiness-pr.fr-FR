@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Résumé : Découvrez comment définir, créer et modifier une règle de normalisation dans Skype Entreprise Server.'
-ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3e06aa9821761803c033255c4da3f636ba296dda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320846"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626206"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Créer ou modifier une règle de normalisation dans Skype Entreprise
 
@@ -49,7 +49,7 @@ Définissez, créez et modifiez des règles de normalisation dans Skype Entrepri
 
    - **Chiffres à ajouter** (facultatif) Spécifiez les chiffres à ajouter aux numéros composés que vous souhaitez que le modèle corresponde.
 
-     Les valeurs que vous entrez dans ces champs apparaissent dans **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous laissez  les **chiffres** de début vides, tapez7 dans le champ Longueur et sélectionnez **Exactement**, et spécifiez 0 dans **chiffres** à supprimer, l’expression régulière résultante dans le modèle à mettre en correspondance est : 
+     Les valeurs que vous entrez dans ces champs apparaissent dans **Modèle à suivre** et **Règle de traduction**. Par exemple, si vous laissez  les **chiffres** de début vides, tapez 7 dans le champ Longueur et sélectionnez **Exactement** et spécifiez 0 dans **chiffres** à supprimer, l’expression régulière résultante dans le modèle à mettre en correspondance est : 
 
      ^(\d{7})$
 

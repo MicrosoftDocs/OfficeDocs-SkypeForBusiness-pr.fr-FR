@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: Lisez cette rubrique pour découvrir comment déployer l’apparence de ligne partagée (SLA) dans Skype Entreprise Server 2015, mise à jour cumulative de novembre 2015. Le SLA est une fonctionnalité qui permet de gérer plusieurs appels sur un numéro spécifique appelé numéro partagé.
-ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43c792f7a63d3d58c734036e949250a85a621438
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591908"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Déployer l’apparence des lignes partagées Skype Entreprise Server 2015
 
@@ -132,7 +132,7 @@ Le partage de lignes est une nouvelle fonctionnalité de la mise à jour cumulat
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    Par exemple :
+    Par exemple :
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com
