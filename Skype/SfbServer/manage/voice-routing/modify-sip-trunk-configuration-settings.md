@@ -1,5 +1,5 @@
 ---
-title: Modifier les paramètres de configuration de la trunk SIP dans Skype Entreprise Server
+title: Skype Entreprise ServerModify siP trunk configuration settings
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. '
-ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'Les paramètres de configuration de la liaison siP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle du réseau téléphonique commuté, un pbX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services. '
+ms.openlocfilehash: dbc7dec8af1f27769505b39b5cd2778f66dec0a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351484"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582728"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modifier les paramètres de configuration de la trunk SIP dans Skype Entreprise Server
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype Entreprise ServerModify siP trunk configuration settings
 
 Les paramètres de configuration de jonction SIP définissent la relation et les capacités entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un autocommutateur privé IP (PBX) ou un contrôleur SBC du côté fournisseur de services. Ces paramètres permettent de spécifier ce qui suit :
 

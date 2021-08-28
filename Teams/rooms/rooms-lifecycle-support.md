@@ -11,15 +11,15 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Découvrez la prise en charge du cycle de Salles Microsoft Teams, notamment la structure de support dynamique et ses phases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7fe78132b9e3a945c7d70a53f7808ea1b1527c21cbabf8778970b73e156fa6d0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7ecfd878b5d8aa22a19b4b2831c04a73e0d8911e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341230"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607027"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salles Microsoft Teams prise en charge de la version de l’application
  
@@ -40,11 +40,11 @@ Toutes les publication sont répertoriées dans les notes [Salles Microsoft Team
 
 Salles Microsoft Teams requiert l’Windows 10 IoT Entreprise ou Windows 10 Entreprise s'Semi-Annual les options de maintenance de canal. Les autres éditions Windows 10 ne sont pas pris en charge :
 
-- Windows 10 Entreprise Éditions de canal de service à long terme /LTSC (Long Term Servicing Channel)
+- Windows 10 Entreprise Éditions de canal de service à long terme (LTSB) / Canal de service à long terme
 - Windows 10 Internet of Things (IoT) Enterprise éditions LTSB/LTSC
 - toute autre édition de Windows par exemple, Windows 10 Professionnel édition Famille
 
-Les Windows 10 de fonctionnalités nouvelles ne sont pas immédiatement proposées sur Salles Microsoft Teams appareils mobiles. Un délai délibéré de six mois après la date de disponibilité générale publiée sur la page [Windows 10 d’informations de](/windows/release-information/) publication. Le délai est utilisé pour valider la compatibilité Windows 10 de publication pour l’application Salles Microsoft Teams, le matériel de l’appareil et les périphériques audio vidéo certifiés. La validation commence et se poursuit pendant le développement actif de chaque version majeure de Windows 10. Un temps supplémentaire est nécessaire pour vérifier que tous les fabricants d’appareils ont créé des images mises à jour pour leurs appareils et pour que Microsoft Teams certifie et teste ces images. Pendant la période de validation, l’application Salle Microsoft Teams utilise Windows de groupe Mise à jour pour les entreprises pour retarder Windows 10 mises à jour des fonctionnalités. [](/windows/deployment/update/waas-manage-updates-wufb) Une fois les problèmes de compatibilité trouvés et résolus, le blocage est levée via la mise à jour des stratégies de groupe via une nouvelle version d’application dans Windows store. Les appareils qui exécutent l Salles Microsoft Teams appil sont automatiquement mis à jour vers une version appropriée Windows 10 le redémarrage de maintenance nocturne. Une version MSI est mise à la disposition des clients qui souhaitent gérer manuellement les mises à jour.  
+Les Windows 10 de fonctionnalités nouvelles ne sont pas immédiatement proposées sur Salles Microsoft Teams appareils mobiles. Un délai délibéré de six mois après la date de disponibilité générale publiée sur la page [Windows 10 d’informations de](/windows/release-information/) publication. Le délai est utilisé pour valider la compatibilité Windows 10 publication pour l’application Salles Microsoft Teams, le matériel de l’appareil et les périphériques audio vidéo certifiés. La validation commence et se poursuit pendant le développement actif de chaque version majeure de Windows 10. Un temps supplémentaire est nécessaire pour vérifier que tous les fabricants d’appareils ont créé des images mises à jour pour leurs appareils et pour que Microsoft Teams certifie et teste ces images. Pendant la période de validation, l’application Salle Microsoft Teams utilise Windows de groupe Mise à jour pour les entreprises pour retarder Windows 10 mises à jour des fonctionnalités. [](/windows/deployment/update/waas-manage-updates-wufb) Une fois les problèmes de compatibilité trouvés et résolus, le blocage est levée via la mise à jour des stratégies de groupe via une nouvelle version d’application dans Windows store. Les appareils qui exécutent l Salles Microsoft Teams appil sont automatiquement mis à jour vers une version appropriée Windows 10 le redémarrage de maintenance nocturne. Une version MSI est mise à la disposition des clients qui souhaitent gérer manuellement les mises à jour.  
 
 > [!IMPORTANT]
 > Pendant la période de validation,  les Salles Microsoft Teams ne doivent pas être mis à jour vers la prochaine version d’Windows 10 par quelque moyen que ce soit. Cela inclut le remplacement des stratégies de groupe en place, ou l’utilisation de System Center services de gestion des appareils tiers. Ces problèmes peuvent poser problème à l’application Salle Microsoft Teams ou laisser les appareils inutilisables.  
@@ -66,7 +66,7 @@ Le tableau suivant indique les versions recommandées et pris en charge des Wind
 
 &#x2781; Windows 10 version 1809 n’est pas recommandée en raison de problèmes de compatibilité trouvés avec l Salles Microsoft Teams application. Ce problème spécifique entraîne l’échec Salles Microsoft Teams’application de l’application après le redémarrage nocturne. Ce problème a été résolu dans Windows 10 version 1903.  
 
-Lorsque vous utilisez une version d’Windows 10 prise en charge, vous obtenez toujours les dernières mises à jour des applications pour l Salles Microsoft Teams appeil.  
+Lorsque vous utilisez une version prise en charge de Windows 10, vous obtenez toujours les dernières mises à jour des applications pour l Salles Microsoft Teams appeil.  
 
 > [!IMPORTANT]
 > La Windows 10 jour 20H2 n’est pas encore disponible pour les appareils mobiles salles Teams suivants en raison de problèmes de compatibilité. Les MXT de l’appareil travaillent à la résolution de ces problèmes dès que possible. Windows 10 20H2 ne sera pas proposé sur ces appareils. Ne mettez pas ces appareils à jour manuellement à 20H2 en remplacement des objets de stratégie de groupe ou de gestion des appareils mobiles. 
@@ -75,7 +75,7 @@ Lorsque vous utilisez une version d’Windows 10 prise en charge, vous obtenez t
 > 
 > - La UC-Engine(version/date BIOS) contient « KYSKLI » - indiquant un crâne Canyon BIOS) 
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 [Aide Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

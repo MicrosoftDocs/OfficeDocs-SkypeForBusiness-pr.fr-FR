@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les meilleures pratiques en matière d’implémentation et de gestion des grandes réunions Skype Entreprise Server.'
-ms.openlocfilehash: 97d2f501c4ebf203e03b2229af4469c89d827f4ef9e74de6360982c782ba83e0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 109bfef5dd86821cdb8ec8e372f26f3edd062983
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331136"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582608"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planifier des réunions de grande taille dans Skype Entreprise Server
  

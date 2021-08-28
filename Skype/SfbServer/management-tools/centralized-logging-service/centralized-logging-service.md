@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Résumé : Découvrez les composants de service et les paramètres de configuration du service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: 112a8d59637048729afcdf142fc891863365943593ac6ed7b0cd8f8cc84947d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 844492e0dddc5337a208bcf4e82fc8de88302884
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295401"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582678"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Service de journalisation centralisée Skype Entreprise 2015
  
@@ -50,7 +50,7 @@ Le service de journalisation centralisée est un outil puissant de dépannage po
 
  Le service de journalisation centralisée s’exécute sur tous les serveurs de votre déploiement et est composé des agents et services suivants :
   
-- Centralized Logging Service Agent ClsAgent s’exécute sur chaque ordinateur avec Skype Entreprise Server déployé. Il écoute ( sur les ports **TCP 50001-50003**) les commandes de ClsController sur WCF et renvoie des réponses au contrôleur. Il gère les sessions de journal (démarrage/arrêt/mise à jour) et recherche les journaux. Il effectue également des opérations de nettoyage telles que l’archivage des journaux et les purges. 
+- L’agent clsAgent du service de journalisation centralisée s’exécute sur chaque ordinateur Skype Entreprise Server déployé. Il écoute ( sur les ports **TCP 50001-50003**) les commandes de ClsController sur WCF et renvoie des réponses au contrôleur. Il gère les sessions de journal (démarrage/arrêt/mise à jour) et recherche les journaux. Il effectue également des opérations de nettoyage telles que l’archivage des journaux et les purges. 
     
 - Cmdlets du contrôleur de service de journalisation centralisée L’Skype Entreprise Server Management Shell envoie les commandes Démarrer, Arrêter, Vider et Rechercher au ClsAgent. Lorsque des commandes de recherche sont envoyées, les journaux résultants sont renvoyés à l'ClsControllerLib.dll et agrégés. Le contrôleur envoie des commandes à l’agent, reçoit l’état de ces commandes et gère les données du fichier journal de recherche telles qu’elles sont renvoyées par tous les agents sur n’importe quel ordinateur de l’étendue de recherche, et agrège les données du journal dans un jeu de sorties significatif et ordonné. Les informations des rubriques suivantes sont axées sur l’utilisation de Skype Entreprise Server Management Shell.
     

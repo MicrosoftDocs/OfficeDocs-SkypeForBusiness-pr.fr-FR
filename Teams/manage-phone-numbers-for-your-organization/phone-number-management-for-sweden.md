@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur l’obtention et la gestion des numéros de téléphone en Suède pour Microsoft Teams.
-ms.openlocfilehash: 85d6d4c35acfa8a9768444d07f23d929227a934f
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 2fe5efcb45517f4060df96b713933390c57836bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380588"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629346"
 ---
 # <a name="phone-number-management-for-sweden"></a>Téléphone gestion des nombres pour la Suède
 
@@ -38,7 +38,7 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 Obtenez les numéros de téléphone qui nous sont transférés.  <br/> |Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour la Suède (tous les nombres) (v.5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) <br/> |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/publier.      <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente ou de service automatique, contactez le service de service [PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de files d’attente ou de service automatique, contactez le service de service [PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

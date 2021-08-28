@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams pour le Chili.
-ms.openlocfilehash: 0eeb31498115c5399cae62c195a5a8c1811fe6cf2d6a72a18eed8e2e9ed01b1c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b52d4246fd9b6f30b3c5b8f57bc30c85011f5a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308913"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629386"
 ---
 # <a name="availability-in-chile"></a>Disponibilité en Chili
 
@@ -69,8 +69,8 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Santiago  <br/> **Remarque :** Uniquement disponible pour les organisations au Chili.           |
-|Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> **Remarque :** Uniquement disponible pour les organisations au Chili.           |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Santiago  <br/> **Remarque :** Uniquement disponible pour les organisations du Chili.           |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> **Remarque :** Uniquement disponible pour les organisations du Chili.           |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md).

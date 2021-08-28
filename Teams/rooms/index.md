@@ -10,18 +10,18 @@ feedback_system: None
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Découvrez comment configurer des Salles Microsoft Teams, notamment planifier, déployer et gérer le système afin de créer votre salle de réunion virtuelle idéale.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 699721e0f4ebe953510ae74cd382f35e6f5fc6cdf710600e46b035310a093da2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e45ca5445356fcf6c847d8a7680a463a09bfe864
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312672"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607037"
 ---
 # <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
 

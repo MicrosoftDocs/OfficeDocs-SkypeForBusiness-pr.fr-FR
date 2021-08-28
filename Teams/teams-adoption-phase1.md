@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Dans cet article, vous allez découvrir les activités au cours de la phase de démarrage de Microsoft Teams’adoption. Comprendre les meilleures pratiques en matière de Microsoft Teams et de planification d’équipe.
 f1.keywords:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d9f81b222c0b780b6e03d2394c6481f75e648ad88ef8cb1fc0a6498e53240ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80f0b731df6444ff4ab20ac0f8575f03766c0a40
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312612"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607007"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Phase 1 de l’adoption de Microsoft Teams - Démarrer
 
-Vous commencerez votre adoption Teams les activités suivantes :
+Vous commencerez votre adoption Teams suivantes :
 
 - [Valider les conditions préalables à l’adoption.](#validate-adoption-prerequisites)
 - [Assemblez votre équipe.](#assemble-your-team)
@@ -67,7 +67,7 @@ Dans la plupart des cas, cette équipe initiale doit être un petit groupe de pe
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-Microsoft [Technical Community](https://aka.ms/TechCommunity) fournit des informations fournies par des pairs sur l’adoption et les problèmes techniques pour de nombreux Microsoft 365 et Office 365 recherche. Nous vous suggérons de rejoindre les communautés suivantes :
+Microsoft [Technical Community](https://aka.ms/TechCommunity) fournit des informations fournies par des pairs sur l’adoption et les problèmes techniques pour de nombreux produits Microsoft 365 et Office 365. Nous vous suggérons de rejoindre les communautés suivantes :
 
 - [Microsoft Teams](https://aka.ms/TeamsCommunity) des Community techniques : obtenez des réponses aux questions sur les produits, apprenez auprès d’autres clients Teams et suivez notre blog pour vous tenir au courant des nouvelles fonctionnalités et des cas d’utilisation de Teams. 
 - [Programme Champions](https://aka.ms/O365Champions) et communauté Adoption en ligne : découvrez auprès de vos pairs comment piloter au mieux l’adoption des charges de travail Microsoft 365 ou Office 365 telles que Teams, SharePoint, Yammer et d’autres produits. Ouvrez-la aux professionnels de l’informatique, aux utilisateurs professionnels, au développeur « accidentel » et à toute personne intéressé par l’adoption des services cloud.  

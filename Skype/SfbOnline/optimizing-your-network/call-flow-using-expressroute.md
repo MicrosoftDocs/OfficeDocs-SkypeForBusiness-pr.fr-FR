@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: Cet article décrit les principes du flux d'appels pour Skype Entreprise Online et ExpressRoute, et vous présente des exemples détaillés de flux d'appels afin de vous permettre de comprendre et de planifier correctement.
-ms.openlocfilehash: 35936e1e33f2914345aa5443ca745dc2c5260ad7
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: d2de62c29c06b498cff812014014bb1b9acb3cf2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407203"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606773"
 ---
 # <a name="call-flow-using-expressroute"></a>Flux d'appels avec ExpressRoute
 
@@ -33,7 +33,7 @@ ms.locfileid: "58407203"
 
 Cet article décrit les principes du flux d'appels pour Skype Entreprise Online et ExpressRoute, et vous présente des exemples détaillés de flux d'appels afin de vous permettre de comprendre et de planifier correctement.
 
-Si vous déployez Skype Entreprise Online dans le cadre d’un déploiement Microsoft 365 ou Office 365, Skype Entreprise Server Hybride ou Skype Entreprise Cloud Connector Edition, vous devez comprendre la communication entre le client et les serveurs Skype Entreprise et le flux d’appels afin de pouvoir planifier, déployer, faire fonctionner et dépanner vos services Skype Entreprise Online.
+Si vous déployez Skype Entreprise Online dans le cadre d’un déploiement Microsoft 365 ou Office 365, Skype Entreprise Server hybride ou Skype Entreprise Cloud Connector Edition, vous devez comprendre la communication entre le client et les serveurs Skype Entreprise et le flux d’appels afin de pouvoir planifier, déployer, faire fonctionner et dépanner vos services Skype Entreprise Online.
 
 ## <a name="call-flow-overview"></a>Présentation du flux d'appels
 
@@ -67,11 +67,11 @@ Vous pouvez voir ci-dessous chacun des segments réseau que nous allons aborder.
 
 En règle générale, la périphérie de votre réseau possède une ou plusieurs DMZ avec des pare-feu et/ou des serveurs proxy, qui appliquent les stratégies de sécurité de votre organisation et qui autorisent uniquement le trafic réseau que vous avez configuré et configuré. Étant donné que vous gérez ce réseau, vous contrôlez directement les performances de votre réseau. Il est vivement recommandé d’effectuer des évaluations du réseau pour valider les performances à la fois sur les sites de votre réseau et à partir de votre réseau vers Skype Entreprise Online. Pour prendre connaissance des exigences en matière de performances, reportez-vous à la rubrique [Qualité des médias et performances de connectivité réseau dans Skype Entreprise Online](media-quality-and-network-connectivity-performance.md).
 
- **Internet** Il s’agit du segment réseau qui fait partie du réseau global que les utilisateurs qui se connectent à Skype Entreprise Online depuis l’extérieur de votre réseau et qui sont utilisés pour toutes les connexions quand ExpressRoute n’est pas configuré. Internet et toutes ses connexions ne sont pas gérés par vous ou Microsoft, les performances et les itinéraires de routage ne peuvent donc pas être déterminés, ce qui aura un impact plus important sur le flux d’appels et la qualité globales.
+ **Internet** Il s’agit du segment réseau qui fait partie du réseau global que les utilisateurs qui se connectent à Skype Entreprise Online depuis l’extérieur de votre réseau, et qui sont utilisés pour toutes les connexions quand ExpressRoute n’est pas configuré. Internet et toutes ses connexions ne sont pas gérés par vous ou Microsoft, les performances et les itinéraires de routage ne peuvent donc pas être déterminés, ce qui aura un impact plus important sur le flux d’appels et la qualité globales.
 
- **ExpressRoute** Il s'agit du segment réseau qui fait partie de votre réseau global et vous permet d'établir une connexion dédiée privée au réseau Microsoft. Il s’agit de l’option recommandée pour connecter votre réseau au réseau Microsoft (centres de données Microsoft 365 ou Office 365) pour toutes les charges de travail dépendant de la vitesse et des performances du réseau, telles que les communications Skype Entreprise Online en temps réel. Les connexions ExpressRoute sont faites entre votre réseau et le réseau Microsoft qui utilisent des fournisseurs de connectivité [ExpressRoute](/azure/expressroute/expressroute-locations) pour fournir un réseau privé et géré, avec une durée de service de 99,9 % et un support pour la qualité de service (QoS) qui peuvent améliorer les performances des médias en temps réel en cas de congestion du réseau.
+ **ExpressRoute** Il s'agit du segment réseau qui fait partie de votre réseau global et vous permet d'établir une connexion dédiée privée au réseau Microsoft. Il s’agit de l’option recommandée pour connecter votre réseau au réseau Microsoft (centres de données Microsoft 365 ou Office 365) pour toutes les charges de travail dépendant de la vitesse et des performances du réseau, telles que les communications Skype Entreprise Online en temps réel. Les connexions ExpressRoute sont faites entre votre réseau et celui de Microsoft. Elles utilisent des fournisseurs de connectivité [ExpressRoute](/azure/expressroute/expressroute-locations) pour fournir un réseau privé et géré, avec une durée de service de 99,9 % et une prise en charge de la qualité de service (QoS) qui peuvent améliorer les performances des médias en temps réel en cas de congestion du réseau.
 
- **Réseau Microsoft** Il s’agit du segment réseau qui fait partie du réseau global qui prend en charge les services Microsoft 365 et Office 365 réseau. Cela inclut l’ensemble des communications entre les serveurs en ligne Microsoft 365 ou Office 365. Cela peut comprendre le trafic qui traverse le réseau de base Microsoft avant d’être transmis entre différentes régions géographiques.
+ **Réseau Microsoft** Il s’agit du segment réseau qui fait partie du réseau global qui prend en charge Microsoft 365 et Office 365 services. Cela inclut l’ensemble des communications entre les serveurs en ligne Microsoft 365 ou Office 365. Cela peut comprendre le trafic qui traverse le réseau de base Microsoft avant d’être transmis entre différentes régions géographiques.
 
 ### <a name="types-of-traffic"></a>Types de trafic
 
@@ -83,7 +83,7 @@ Le trafic réseau d Skype Entreprise Online est en deux grandes catégories, rep
 
 Les destinations de ce trafic sont trouvées dans les URL Office 365 et les [plages](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) d’adresses IP pour tous Microsoft 365 services Office 365'adresses IP. Pour chaque URL, elle indique si cette partie du trafic peut traverser ExpressRoute pour une Microsoft 365 ou une Office 365. Pour les diagrammes qui montrent qu’Internet est toujours utilisé pour une partie du trafic quand ExpressRoute est activé, consultez [Azure ExpressRoute pour Office 365.](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd) Il est important de comprendre que même les URL répertoriées comme routables sur ExpressRoute sont également routables sur Internet. Cela signifie que dans certains scénarios, le choix de l’utilisation d’Internet ou d’ExpressRoute dépend de l’emplacement du client et de la configuration des serveurs proxy et des pare-feu. Il est également important de comprendre que, dans la mesure où toutes les URL associées à Microsoft 365 ou Office 365 ne sont pas en mesure d’utiliser ExpressRoute, une connexion Internet est requise même si vous achetez ExpressRoute auprès d’un partenaire ExpressRoute.
 
-Le trafic qui peut uniquement être envoyé sur Internet inclut des dépendances Internet courantes, telles que les listes de révocation de certificats, les listes de recherche et la résolution de noms DNS, les URL pour les services Microsoft 365 ou Office 365 partagés, comme pour les Centre d’administration Microsoft 365, ainsi que certaines fonctionnalités de communication en temps non réel d’Skype Entreprise Online, telles que la télémétrie et la fédération pour l’interopérabilité avec le grand public Skype, ainsi que des médias diffusés en continu pour Réunion Skype Broadcast. Afin de faciliter vos prises de décisions, reportez-vous à la section [Acheminement avec ExpressRoute pour Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) pour obtenir davantage de détails en vue de la planification du routage de votre réseau.
+Le trafic qui ne peut être envoyé qu’via Internet inclut des dépendances Internet courantes, telles que les listes de révocation de certificats, les listes de choix et la résolution de noms DNS, les URL pour les services Microsoft 365 ou Office 365 partagés, comme pour les Centre d’administration Microsoft 365, ainsi que certaines fonctionnalités de communication en temps non réel d’Skype Entreprise Online, telles que la télémétrie et la fédération pour l’interopérabilité avec le grand public Skype, ainsi que des médias diffusés en continu pour Réunion Skype Broadcast. Afin de faciliter vos prises de décisions, reportez-vous à la section [Acheminement avec ExpressRoute pour Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) pour obtenir davantage de détails en vue de la planification du routage de votre réseau.
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>Principes du flux d'appels avec Skype Entreprise
 
@@ -130,7 +130,7 @@ Pour les appels d'égal à égal, le trafic de médias emprunte toujours la rout
 ### <a name="online-user-on-your-network-joining-a-conference-that-is-hosted-online"></a>Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne
 <a name="bk_Figure3"> </a>
 
-Dans l’exemple d’égal à égal, le trafic de médias prend toujours la route la plus directe vers sa destination. Toutefois, pour une conférence en ligne, la destination se trouve dans le cloud. Cela signifie que le trafic de médias de tous les utilisateurs rejoignant la conférence depuis votre réseau traverse la connexion ExpressRoute et que le trafic de signalisation est acheminé vers le cloud. Le graphique ci-dessous vous montre que le trafic de médias et le trafic de signalisation traverseront la connexion ExpressRoute d’un utilisateur au sein de votre réseau, et qu’ils traverseront directement Internet pour les utilisateurs connectés à Internet depuis l’extérieur de votre réseau,par exemple à partir d’un café ou d’un hôtel.
+Dans l’exemple d’égal à égal, le trafic de médias prend toujours la route la plus directe jusqu’à sa destination. Toutefois, pour une conférence en ligne, la destination se trouve dans le cloud. Cela signifie que le trafic de médias de tous les utilisateurs rejoignant la conférence depuis votre réseau traverse la connexion ExpressRoute et que le trafic de signalisation est acheminé vers le cloud. Le graphique ci-dessous vous montre que le trafic de médias et le trafic de signalisation traverseront la connexion ExpressRoute d’un utilisateur au sein de votre réseau, et qu’ils traverseront directement Internet pour les utilisateurs connectés à Internet depuis l’extérieur de votre réseau,par exemple à partir d’un café ou d’un hôtel.
 
 Souvenez-vous que l'emplacement d'une conférence est défini par l'organisateur de la réunion et non par ses participants. Cela signifie que si la réunion est programmée par un client sur site, le trafic de médias ne sera pas acheminé au cloud via ExpressRoute, mais qu’il sera acheminé par Internet jusqu’au centre de données sur site de l’organisateur de la réunion.
 
@@ -178,7 +178,7 @@ L'utilisation de [Skype Entreprise Online version Cloud Connector](https://aka.m
 
 La diffusion de réunion Skype est un cas d'utilisation particulier, il s'agit d'une réunion en deux parties, chaque partie présentant un profil de transport réseau différent. La première partie, et celle qui est la plus importante d’un point de vue des performances du réseau, est la réunion interne. Il s’agit de la partie en temps réel de la réunion qui comprend un ou plusieurs points de terminaison client qui se connectent au serveur de conférence dans le cloud. Les données transmises dans cette partie de la réunion sont exactement identiques à l’exemple ci-dessus, avec un utilisateur rejoignant une conférence en ligne.
 
-La Réunion Skype unique est que la réunion est distribuée à un grand nombre de participants à la conférence à l’aide d’un service de diffusion en continu. Ce service de diffusion en continu n’est pas routable sur ExpressRoute, mais utilise Internet avec la prise en charge facultative de services réseau de distribution de contenu (CDN). Il est utile de reconnaître que la diffusion en continu est un flux multimédia unidirectionnel, car les participants écoutent mais ne parlent pas et ne prend pas en charge la mise en mémoire tampon, il est donc beaucoup moins sensible aux problèmes de performances du réseau tels que la latence, la perte de paquets et la gigue. Au lieu d’optimiser le trafic de diffusion pour ces problèmes, il est optimisé pour l’utilisation de la bande passante, car il est possible qu’un très grand nombre de participants reçoivent le trafic multimédia en continu.
+La Réunion Skype unique est que la réunion est distribuée à un grand nombre de participants à la conférence à l’aide d’un service de diffusion en continu. Ce service de diffusion en continu n’est pas routable sur ExpressRoute, mais utilise Internet avec la prise en charge facultative de services réseau de distribution de contenu (CDN). Il est utile de reconnaître que la diffusion en continu est un flux multimédia unidirectionnel, car les participants écoutent, mais ne parlent pas et ne prend pas en charge la mise en mémoire tampon, il est beaucoup moins sensible aux problèmes de performances du réseau tels que la latence, la perte de paquets et la gigue. Au lieu d’optimiser le trafic de diffusion pour ces problèmes, il est optimisé pour l’utilisation de la bande passante, car il est possible qu’un très grand nombre de participants reçoivent le trafic multimédia en continu.
 
  **Diffusion de réunion Skype avec des utilisateurs depuis le réseau du client**
 
@@ -205,7 +205,7 @@ Skype Entreprise Les scénarios d’utilisation en ligne impliquent des utilisat
 |Rejoindre une téléconférence organisée par un utilisateur sur le réseau du client  <br/> |Client sur votre réseau et serveur de conférence dans le cloud.  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
 |Participer à une conférence organisée par un utilisateur sur Internet  <br/> |Le client est sur Internet et le serveur de conférence dans le cloud.  <br/> |Internet  <br/> |Internet  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
 |Rejoindre une conférence hébergée sur un serveur sur site d'une autre société  <br/> |Client sur votre réseau et serveur de conférence dans un centre de données tiers.  <br/> |Internet  <br/> |Internet  <br/> |Non applicable  <br/> |Étant donné que le serveur de conférence qui héberge la conférence se trouve sur le réseau sur site d'un autre client, aucune donnée ne passe par le cloud Microsoft.  <br/> |
-|Appel RTC  <br/> |Client sur le réseau du client et Système téléphonique serveurs dans le cloud  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
+|Appel RTC  <br/> |Client sur le réseau du client Système téléphonique serveurs dans le cloud  <br/> |ExpressRoute  <br/> |ExpressRoute  <br/> |[Utilisateur en ligne sur votre réseau rejoignant une conférence hébergée en ligne](call-flow-using-expressroute.md#bk_Figure3) <br/> ||
 |Appel RTC  <br/> |Client sur Internet et serveurs Système téléphonique dans le cloud  <br/> |Internet  <br/> |Internet  <br/> |Non applicable  <br/> |Le trafic de médias et le trafic de signalisation sont envoyés vers Microsoft 365 ou Office 365 centre de données. Étant donné que le point de terminaison du client est sur Internet, toutes les données sont issues du centre de données Microsoft sur Internet (même si un serveur Edge en ligne est requis pour la connectivité).  <br/> |
 
 > [!NOTE]
@@ -236,6 +236,6 @@ Les utilisateurs qui se connectent à la version Cloud Connector sont tous domic
 |Appel RTC  <br/> |Utilisateur en ligne sur votre réseau utilisant la version Cloud Connector.  <br/> |local  <br/> |local  <br/> |[Appel RTC utilisant Skype Entreprise version Cloud Connector](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Appel RTC  <br/> |Utilisateur en ligne sur Internet utilisant la version Cloud Connector.  <br/> |Internet  <br/> |Internet  <br/> |Combinaison de serveur Edge sur site avec des [conférences](call-flow-using-expressroute.md#bk_Figure5) Microsoft 365 ou Office 365 et des appels [PSTN](call-flow-using-expressroute.md#bk_Figure6)utilisant Skype Entreprise Cloud Connector Edition.  <br/> |Les utilisateurs sur Internet se connecteront via le serveur Edge inclus dans Cloud Connector, et Cloud Connector se connectera au réseau RTC.  <br/> |
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 [Documentation ExpressRoute](/azure/expressroute/)

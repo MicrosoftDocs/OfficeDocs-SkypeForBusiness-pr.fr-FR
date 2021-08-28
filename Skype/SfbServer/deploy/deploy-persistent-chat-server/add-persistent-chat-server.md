@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Résumé : Lisez cette rubrique pour découvrir comment ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015.'
-ms.openlocfilehash: 358d6c106cd1e7e51a019ede4c70ed7a7504af82fccb6d3dfd912f237df0e2a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607237"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015
  
@@ -46,7 +46,7 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
   
 2. Démarrez le Générateur de topologie.
     
-3. Dans l’arborescence de la console, accédez au nœud **Pools** de conversation permanente et développez-le pour sélectionner un pool Skype Entreprise Server ou cliquez avec le bouton droit sur le nœud et sélectionnez Nouveau pool de conversation **permanente.** Vous devez définir le nom de domaine complet (FQDN) du pool et indiquer s’il s’agit d’un pool à serveur unique ou d’un pool à plusieurs serveurs.
+3. Dans l’arborescence de la console, accédez au nœud **Pools** de conversation permanente et développez-le pour sélectionner un pool Skype Entreprise Server ou cliquez avec le bouton droit sur le nœud et sélectionnez Nouveau pool de **conversation permanente.** Vous devez définir le nom de domaine complet (FQDN) du pool et indiquer si le pool sera un déploiement de pool à serveur unique ou à plusieurs serveurs.
     
     Vous pouvez choisir un **Pool de plusieurs ordinateurs** ou un **Pool d’un seul ordinateur**. Choisissez le premier si vous envisagez d’avoir plusieurs serveurs frontux dans votre pool de serveurs de conversation permanente. Effectuez ce choix maintenant, ou ultérieurement, car une fois créé un pool d’un seul ordinateur, vous ne pourrez pas ajouter d’autres serveurs. Si vous choisissez un pool de plusieurs ordinateurs, entrez les noms des serveurs frontux individuels qui composent le pool.
     

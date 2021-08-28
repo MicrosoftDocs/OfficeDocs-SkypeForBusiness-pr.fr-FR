@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Résumé : Lisez cette rubrique pour découvrir comment affecter une stratégie de voix pour les utilisateurs qui utilisent Système téléphonique avec une connectivité PSTN sur site.'
-ms.openlocfilehash: f01fcc314cd618150df2c67a2de8b4ea3ee8f9bd7fdb5f4a4c8b3ae24537ee3f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a3524c77cf27dc4fd9ab3a4f74211fc9040aad75
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282996"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582538"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Affecter une stratégie de routage des voix
  
@@ -33,7 +33,7 @@ ms.locfileid: "54282996"
 
 **Résumé :** Lisez cette rubrique pour découvrir comment affecter une stratégie de voix pour les utilisateurs qui utilisent Système téléphonique avec une connectivité PSTN sur site. 
   
-Lorsqu’un utilisateur est sur Skype Entreprise Online et utilise Système téléphonique avec une connectivité PSTN sur site, deux stratégies de voix s’appliquent à lui. L’une d’entre elle est une stratégie de routage des voix sur site que vous allez affecter en local. Cette stratégie peut être spécifique à l’utilisateur ou globale et définit les enregistrements d’utilisation PSTN associés à l’utilisateur. Cette rubrique explique comment affecter cette stratégie.
+Une fois qu’un utilisateur est sur Skype Entreprise Online et qu’il utilise Système téléphonique avec une connectivité PSTN sur site, deux stratégies de voix s’appliquent à lui. L’une d’entre elle est une stratégie de routage des voix sur site que vous allez affecter en local. Cette stratégie peut être spécifique à l’utilisateur ou globale et définit les enregistrements d’utilisation PSTN associés à l’utilisateur. Cette rubrique explique comment affecter cette stratégie.
   
 L’autre stratégie de voix définit les fonctionnalités d’appel disponibles pour l’utilisateur . Cette stratégie de voix est définie par Microsoft et est identique pour tous les Système téléphonique avec des utilisateurs de connectivité PSTN locaux. Elle est automatiquement attribuée aux utilisateurs Système téléphonique utilisateurs.
   
@@ -60,7 +60,7 @@ Avant d’utiliser une stratégie de routage des voix globale pour votre Systèm
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
@@ -80,7 +80,7 @@ Avant d’utiliser une stratégie de routage des voix globale pour votre Systèm
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
@@ -104,7 +104,7 @@ Que vous utilisiez la stratégie globale de routage des voix ou des stratégies 
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    Par exemple :
+    Par exemple :
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice

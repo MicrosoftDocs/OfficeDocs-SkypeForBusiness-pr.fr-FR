@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Cet article décrit comment configurer et configurer la console Salles Microsoft Teams et ses périphériques.
-ms.openlocfilehash: 470230a9c855be3e0bacfefc9fc13087943fa9893488c97a118b91423ebf26e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81da06df24dc98e0cde2bc18c081ff46b54e07b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328979"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629306"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurer une console des salles Microsoft Teams
 
@@ -49,7 +49,7 @@ L’installation de Salles Microsoft Teams l’application nécessite un disposi
 > Le processus ci-dessous a pour objectif de créer un support d’installation pour imager Salles Microsoft Teams nouveaux appareils. Par défaut, les appareils existants sont automatiquement mis à jour à partir Windows Update et du Windows Store.
 
 > [!IMPORTANT]
-> L Windows 10 ordinateur utilisé pour créer le support d’installation Salles Microsoft Teams doit utiliser la même version ou ultérieure de Windows que le support d’installation cible.
+> L Windows 10 ordinateur utilisé pour créer le support d’installation Salles Microsoft Teams doit utiliser la même version ou une version ultérieure de Windows que le support d’installation cible.
   
 1. Téléchargez le [scriptCreateSrsMedia.ps1'application.](https://go.microsoft.com/fwlink/?linkid=867842)
 2. Exécutez le script CreateSrsMedia.ps1 à partir d'une invite avec élévation de privilèges sur un ordinateur Windows 10.
@@ -62,7 +62,7 @@ L’installation de Salles Microsoft Teams l’application nécessite un disposi
 Le CreateSrsMedia.ps1 script automatise les tâches suivantes :
 
 1. Téléchargez le dernier programme d’installation MSI pour Salles Microsoft Teams.
-2. Déterminez la build de Windows que l’utilisateur doit fournir. Les versions les plus récentes peuvent être testées ou non et être pris en charge pour une utilisation avec Salles Microsoft Teams appareils mobiles.
+2. Déterminez la build de Windows que l’utilisateur doit fournir. Il est possible que les versions les plus récentes ne soient pas testées et prise en charge pour une utilisation avec Salles Microsoft Teams appareils mobiles.
 3. Téléchargez les composants de prise en charge nécessaires.
 4. Assemblez les composants nécessaires sur le support d’installation.
 
@@ -170,7 +170,7 @@ Une Windows est installée, l’application pour console Salles Microsoft Teams 
 L’application console Salles Microsoft Teams doit commencer immédiatement à se Skype Entreprise Server avec les informations d’identification entrées ci-dessus, et doit également commencer à synchroniser son calendrier avec Exchange à l’aide des mêmes informations d’identification. Pour plus d’informations sur l’utilisation de l’application de console, reportez-vous à [la Salles Microsoft Teams de l’aide.](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
   
 > [!IMPORTANT]
-> Salles Microsoft Teams s’appuie sur la présence de matériel de console certifié. Même une image correctement créée contenant l’application de console Salles Microsoft Teams démarre pas au-delà de la procédure de configuration initiale, sauf si le matériel de la console est détecté. Pour Surface Pro solutions basées sur les données, le Surface Pro doit être connecté à son matériel d’accueil pour réussir ce contrôle.
+> Salles Microsoft Teams s’appuie sur la présence de matériel de console certifié. Même une image correctement créée contenant l’application de console Salles Microsoft Teams démarre pas au-delà de la procédure de configuration initiale, sauf si le matériel de la console est détecté. Pour Surface Pro solutions basées sur les données, la Surface Pro doit être connectée à son matériel d’accueil pour réussir ce contrôle.
   
 > [!NOTE]
 > Certains utilisateurs non anglophones auront besoin d’un clavier physique connecté à la console lors de la configuration initiale si les symboles ne sont pas pris en charge sur le clavier tactile.

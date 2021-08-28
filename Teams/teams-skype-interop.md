@@ -11,13 +11,13 @@ ms.collection:
 ms.reviewer: vinbel
 search.appverid: MET150
 description: Découvrez les fonctionnalités d’interopérabilité entre les utilisateurs de Teams de votre organisation et les Skype utilisateurs (grand public).
-localization_priority: Normal
-ms.openlocfilehash: 3cef040ac9c4ff399b0a663ae25b29f070eb5300
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+ms.openlocfilehash: 77f268ba0e249118572124cad85af95df69d55a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581178"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams interopérabilité Skype’interopérabilité
 
@@ -48,7 +48,7 @@ Un Skype utilisateur peut choisir de ne pas apparaître dans les résultats de r
 Skype utilisateurs peuvent rechercher et démarrer une conversation avec un Teams à l’aide de leur adresse e-mail. L Teams un utilisateur est informé qu’il a reçu un nouveau message d’un utilisateur Skype et doit d’abord accepter le message pour pouvoir y répondre.
 
 - Si l’Teams l’utilisateur sélectionne **Accepter,** la conversation est acceptée et les deux utilisateurs peuvent discuter et s’appeler.
-- Si l Teams de conversation sélectionne **Bloquer,** la conversation est bloquée, et les messages et appels ultérieurs provenant de cet Skype’utilisateur sont bloqués.
+- Si l Teams de l’utilisateur sélectionne **Bloquer,** la conversation est bloquée, et les messages et appels ultérieurs provenant de cet Skype’utilisateur sont bloqués.
 - Si l Teams un utilisateur sélectionne Afficher les **messages,** le message s’affiche dans Teams, ce qui aide l’utilisateur à décider s’il accepte ou bloque la conversation.
 
 > [!NOTE]
@@ -63,9 +63,9 @@ Les utilisateurs Skype bloqués, ainsi que d’autres personnes et les numéros 
 ## <a name="limitations"></a>Limites
 
 - Les conversations sont en texte seul. Cela signifie qu’il n’existe pas de mise en forme enrichie, de @mentions, d’emojis ou d’autres fonctionnalités de conversation disponibles dans une expérience Teams [conversation native.](native-chat-for-external-users.md)
-- Les conversations sont à deux uniquement. Les conversations de groupe ne sont pas prise en charge.
+- Les conversations sont à deux uniquement. Les conversations de groupe ne sont pas pris en charge.
 - Teams utilisateurs et Skype utilisateurs ne peuvent pas voir la présence des autres utilisateurs.
-- La recherche Skype utilisateurs à l’aide de Skype numéro de téléphone ou de leur ID n’est pas prise en charge.
+- La recherche Skype utilisateurs à l’aide Skype numéro de téléphone ou de leur ID n’est pas prise en charge.
 - Skype utilisateurs ne peuvent pas appeler Teams utilisateurs qui ont configurer le forwarding d’appel vers le numéro d’un autre utilisateur, un numéro de délégué ou un numéro de réseau téléphonique commuté (PSTN).  Seul la messagerie vocale est prise en charge.
 - Les escalades entre les groupes, les appels de groupe et les réunions ne sont pas pris en charge.
 - La possibilité pour un délégué d’appeler Skype utilisateur au nom d’un Teams n’est pas prise en charge.
@@ -91,11 +91,11 @@ Dans le Microsoft Teams d’administration, accédez aux **paramètres** à l’
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
 Procédez comme suit : 
-1. Utilisez [l’cmdlet Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) avec le paramètre pour contrôler si les utilisateurs Teams peuvent communiquer avec les Skype ```EnablePublicCloudAccess``` utilisateurs. Définir le paramètre pour ```true``` permettre aux utilisateurs Teams de communiquer avec d Skype utilisateurs. Vous pouvez utiliser le ```EnablePublicCloudAudioVideoAccess``` paramètre pour activer/désactiver les appels audio/vidéo.
+1. Utilisez [l’cmdlet Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) avec le paramètre pour contrôler si les utilisateurs Teams peuvent communiquer avec les Skype ```EnablePublicCloudAccess``` utilisateurs. Définir le paramètre pour permettre ```true``` aux utilisateurs Teams de communiquer avec d Skype utilisateurs. Vous pouvez utiliser le ```EnablePublicCloudAudioVideoAccess``` paramètre pour activer/désactiver les appels audio/vidéo.
 
 2. Utilisez [l’cmdlet Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) avec le paramètre set to pour que les utilisateurs Teams de communiquer avec les Skype ```Provider``` ```"WindowsLive"``` utilisateurs.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Gérer l’accès externe dans Teams](manage-external-access.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)

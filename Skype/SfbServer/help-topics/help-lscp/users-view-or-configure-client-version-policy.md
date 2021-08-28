@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewCVP
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: e24521434c59ae4fc1c312dc411adcb2f0c46cba31725c6ad06650ade44fa27c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a149930cb18f73d9463fca1d6348ca79003090dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284924"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580758"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a>Utilisateurs : afficher ou configurer la stratégie de version du client
+# <a name="users-view-or-configure-client-version-policy"></a>Utilisateurs : afficher ou configurer la stratégie de version du client
 
 Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
 

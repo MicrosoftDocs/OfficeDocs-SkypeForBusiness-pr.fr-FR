@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Instructions de configuration du connecteur de données d’appel, qui permet d’afficher la télémétrie à partir Skype Entreprise sur site à l’aide des outils Skype Entreprise Online.
-ms.openlocfilehash: bc9346919e3f70d8fe8fe3e43e61a0e715cf0eb9bf52534a2beb2f8604b920f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e064e26ce7b8bfb97793666808b0b8a88ab2efc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581148"
 ---
 # <a name="configure-call-data-connector"></a>Configurer le connecteur de données d’appel
 
@@ -145,7 +145,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="for-more-information"></a>Pour plus d'informations
 
-Pour plus d’informations sur les cmdlets, vous pouvez utiliser la commande Get-Help de l’Skype Entreprise Server Management Shell. Par exemple :
+Pour plus d’informations sur les cmdlets, vous pouvez utiliser la commande Get-Help de l’Skype Entreprise Server Management Shell. Par exemple :
 
 Get-Help Get-CsCloudCallDataConnector | more
 

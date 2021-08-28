@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Un groupe d’agents est un groupe de personnes désignées pour répondre aux appels Response Group.
-ms.openlocfilehash: 299317d4610c377b3c9d6ab07579b35472d60c0269a7f8933cb4e707372d0880
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70b129a48138eaf6f49ac3b6ead920b5a2ce71a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299800"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629776"
 ---
-# <a name="response-groups-group"></a>Services Response Group : groupe
+# <a name="response-groups-group"></a>Services Response Group : groupe
 
 Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Un groupe d’agents est un groupe de personnes désignées pour répondre aux appels Response Group.
 

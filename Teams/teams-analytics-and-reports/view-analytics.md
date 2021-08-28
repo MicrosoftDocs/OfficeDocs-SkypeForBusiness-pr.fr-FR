@@ -9,19 +9,19 @@ ms.service: msteams
 ms.reviewer: rahulmi
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
 description: Découvrez l’analyse multi-équipe, l’analyse par équipe et l’analyse par canal dans Teams, qui permet aux utilisateurs de voir les données d’utilisation des équipes ou canaux dont ils font partie.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292951"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606997"
 ---
 # <a name="view-analytics-in-teams"></a>Afficher les données d’analyse dans Teams
 
@@ -45,7 +45,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
     |--------|-------------|
     |**Nom**   |Nom de l’équipe. |
     |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs sur la courbe d’activité d’une équipe et sur la courbe de tendance pendant la période spécifiée.
-    |**Personnes**   |Nombre total de membres de l’équipe au cours de la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
+    |**Personnes**   |Nombre total de membres de l’équipe pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Invités**   |Nombre d’invités de l’équipe pendant la période spécifiée. |
     |**Billets**   |Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée. |
     |**Réponses**   |Nombre de réponses dans la conversation d’équipe pendant la période spécifiée. |
@@ -61,7 +61,7 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 
     |Option |Description  |
     |--------|-------------|
-    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
+    |**Résumé**   |Résumé de l’activité d’une équipe, notamment les suivantes :<ul><li>**Utilisateurs**: nombre total d’utilisateurs pour la période spécifiée. Cela inclut les propriétaires d’équipe, les membres de l’équipe et les invités.</li> <li>**Publications**: Nombre de nouveaux messages publiés dans la conversation d’équipe pendant la période spécifiée.</li><li>**Réponses :** Nombre de réponses dans la conversation d’équipe pendant la période spécifiée.</li> <li>**Applications**: nombre d’applications ajoutées à l’équipe.</li><li>**Réunions :** nombre de réunions Teams organisées au niveau de l’équipe.</li> </ul> |
     |**Utilisateurs actifs**   |Nombre d’utilisateurs actifs et inactifs.|
     |**Rôle**   |Nombre d’utilisateurs par rôle, y compris les propriétaires d’équipe, les membres de l’équipe et les invités.|
     |**Graphique Utilisateurs actifs**  |Nombre d’activités quotidiennes actives. Pointez sur le point sur une date donnée pour voir le nombre d’utilisateurs actifs à cette date.|
@@ -87,9 +87,9 @@ Les utilisateurs peuvent filtrer ces affichages pour voir les données pour une 
 > Vous pouvez également afficher les analyses par canal en sélectionnant un canal dans la zone de liste de liste dans l’affichage d’analyse par [équipe.](#view-per-team-analytics)
     
 > [!NOTE]
-> Nous définissons les utilisateurs actifs comme utilisateurs qui effectuent une action intentionnelle dans le client de bureau, le client mobile et le client web. Il peut s’agir, par exemple, de démarrer une conversation, d’appeler, de partager un fichier, de modifier un document au sein d’une équipe, de participer à une réunion, etc. Nous masons les actions passives telles que le démarrage automatique, la réduction d’un écran ou la fermeture de l’application. De plus, nous désuppions toutes les actions au sein d’un ID utilisateur unique.
+> Nous définissons les utilisateurs actifs comme utilisateurs qui effectuent une action intentionnelle dans le client de bureau, le client mobile et le client web. Il peut s’agir, par exemple, de démarrer une conversation, d’appeler, de partager un fichier, de modifier un document au sein d’une équipe, de participer à une réunion, etc. Nous masons les actions passives telles que le démarrage automatique, la réduction d’un écran ou la fermeture de l’application. Nous dédicions également toutes les actions au sein d’un ID utilisateur unique.
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Afficher les données d’analyse de vos équipes](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Analyses et rapports Teams](teams-reporting-reference.md)

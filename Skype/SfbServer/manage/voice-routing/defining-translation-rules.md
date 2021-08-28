@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype Entreprise Server Voix Entreprise les appels basés sur des numéros de téléphone normalisation au format E.164. Cela signifie que toutes les chaînes composés doivent être normalisées au format E.164 dans le but d’effectuer une recherche inversée de numéro (RNL) afin qu’elles soient traduites dans leur URI SIP correspondant. Skype Entreprise Server permet de manipuler l’ID appelé et la présentation de l’ID de l’appelant.
-ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629636"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Définition de règles de traduction dans Skype Entreprise Server
 
@@ -102,7 +102,7 @@ Effectuez cette procédure si vous voulez définir une règle de traduction en �
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Panneau de Skype Entreprise, voir Installer et ouvrir les [outils d’administration.](../../management-tools/install-and-open-administrative-tools.md)
 3. Pour commencer la définition d’une règle de traduction, suivez les étapes de la procédure de configuration d’une trunk [avec](GET LINK AFTER MIGRATION)déviation du média à l’étape 10 ou configurez une trunk [sans](GET LINK AFTER MIGRATION) contournement de média à l’étape 9.
 4. Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
-5. (Facultatif) Dans **Description,** tapez une description de la règle de traduction ; par exemple, **la numérotation longue distance internationale des États-Unis.**
+5. (Facultatif) Dans **Description**, tapez une description de la règle de traduction ; par exemple, la numérotation longue distance internationale **des États-Unis.**
 6. Cliquez sur **Modifier** au bas de la section **Créer une règle de traduction**.
 7. Entrez les entrées suivantes dans Tapez **une expression régulière**:
     - Dans **Suivre ce modèle**, spécifiez le modèle qui sera utilisé pour correspondre aux numéros à traduire.
