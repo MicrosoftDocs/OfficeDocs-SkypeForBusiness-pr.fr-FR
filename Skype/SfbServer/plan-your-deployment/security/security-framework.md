@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: Cette section fournit une vue d’ensemble des éléments fondamentaux qui constituent l’infrastructure de sécurité pour Skype Entreprise Server. Il est essentiel de comprendre comment ces éléments fonctionnent ensemble pour prendre des décisions éclairées sur la sécurisation de Skype Entreprise Server déploiement.
-ms.openlocfilehash: a0f6513f86d7416f546c6a744fc1b40df7c7137a18dae5d76fcf18166a4f2eb1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 27c5cdd1e9ff662a2a7d39ded04782af666ddb29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337712"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627906"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>Infrastructure de sécurité pour Skype Entreprise Server
  
@@ -40,7 +40,7 @@ Ces éléments sont les suivants :
     
 Ces éléments de sécurité fondamentaux fonctionnent ensemble pour définir des utilisateurs, des serveurs, des connexions et des opérations de confiance afin de garantir une base sécurisée pour Skype Entreprise Server.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 Les rubriques de cette section décrivent le fonctionnement de chacun de ces éléments fondamentaux pour améliorer la sécurité de Skype Entreprise Server infrastructure.
   

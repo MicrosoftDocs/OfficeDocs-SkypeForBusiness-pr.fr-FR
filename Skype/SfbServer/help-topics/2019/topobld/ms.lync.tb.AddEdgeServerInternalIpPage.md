@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerInternalIpPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: L’adresse IP interne est l’adresse IP de l’interface interne du serveur de périphérie.
-ms.openlocfilehash: f7110c426aa51b2c69deab048a0ac46ad31d5d3851d5537382653b83bd26a9ed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd501f8f6f68160247fa0d0ee3cb03b4231c5b2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279242"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633268"
 ---
-# <a name="add-edge-server-internal-ip"></a>Ajouter l’adresse IP interne du serveur Edge
+# <a name="add-edge-server-internal-ip"></a>Ajouter l’adresse IP interne du serveur Edge
 
 L’adresse IP interne est l’adresse IP de l’interface interne du serveur de périphérie.
 

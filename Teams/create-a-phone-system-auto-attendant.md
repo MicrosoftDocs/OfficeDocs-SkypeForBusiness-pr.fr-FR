@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour les grandes organisations dans Microsoft Teams.
-ms.openlocfilehash: 6db2dd5b63e26c74de09b8d4b563fe48393a3a37
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 16a26cd3384ddaaa3003649a3026bbe876a38399
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634868"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un attendant automatique
 
@@ -154,7 +154,7 @@ Une fois que vous avez sélectionné une option **de recherche dans l’annuaire
 
 ![Capture d’écran des paramètres de jour et d’heure de fin](media/auto-attendant-business-hours.png)
 
-Les heures d’ouverture peuvent être définies pour chaque employé de service automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et des messages d’accueil pour les heures de travail en de suite.
+Les heures d’ouverture peuvent être définies pour chaque attendant automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et des messages d’accueil pour les heures de travail en de suite.
 
 Selon la configuration de vos files d’attente et de vos files d’attente automatiques, il se peut que vous devrez uniquement spécifier le routage des appels en de après-heures pour les travailleurs automatiques avec des numéros de téléphone directs.
 
@@ -178,7 +178,7 @@ Votre employé automatique peut avoir un flux [d’appels](set-up-holidays-in-te
 
 4. Choisissez le type de message d’accueil que vous voulez utiliser.
 
-    ![Capture d’écran des paramètres d’action d’appel pour les fêtes](media/auto-attendant-holiday-actions.png)
+    ![Capture d’écran des paramètres d’action d’appel des fêtes de fin d’année](media/auto-attendant-holiday-actions.png)
 
 5. Choisissez si vous voulez **déconnecter ou** **rediriger** l’appel.
 
@@ -198,16 +198,16 @@ Une fois que vous avez ajouté tous vos jours fériés, sélectionnez **Suivant.
 
 *L’étendue de* la numérotation définit les utilisateurs disponibles dans l’annuaire lorsqu’un appelant utilise la numérotation par nom ou la numérotation par extension. La valeur par défaut de **Tous les** utilisateurs en ligne inclut tous les utilisateurs de votre organisation qui sont des utilisateurs en ligne ou hébergés sur site à l’aide d’Skype Entreprise Server.
 
-Vous pouvez inclure ou exclure  des utilisateurs  spécifiques en sélectionnant Groupe d’utilisateurs personnalisés sous Inclure ou Exclure, et en choisissant un ou plusieurs groupes de Microsoft 365, listes de distribution ou groupes de sécurité.  Par exemple, vous pouvez exclure des cadres de votre organisation de l’annuaire d’appels. (Si un utilisateur se trouve dans les deux listes, il sera exclu de l’annuaire.)
+Vous pouvez inclure ou exclure  des utilisateurs  spécifiques en sélectionnant Groupe d’utilisateurs personnalisés sous Inclure ou Exclure, puis en choisissant un ou plusieurs groupes Microsoft 365, listes de distribution ou groupes de sécurité.  Par exemple, vous pouvez exclure des cadres de votre organisation de l’annuaire d’appels. (Si un utilisateur se trouve dans les deux listes, il sera exclu de l’annuaire.)
 
 > [!NOTE]
 > Jusqu’à 36 heures peuvent être nécessaire pour que le nom d’un nouvel utilisateur soit répertorié dans l’annuaire.
 
-Lorsque vous avez terminé de définir l’étendue de la numérotation, sélectionnez **Suivant.**
+Lorsque vous avez terminé de définir la portée de la numérotation, sélectionnez **Suivant.**
 
 ## <a name="resource-accounts"></a>Comptes de ressources
 
-Tous les attendants automatiques doivent avoir un compte de ressource associé.  Les travailleurs automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un service automatique, chacun avec un numéro de service distinct.
+Tous les attendants automatiques doivent avoir un compte de ressource associé.  Les travailleurs automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un fournisseur de services automatique, chacun avec un numéro de service distinct.
 
 ![Capture d’écran du panneau Ajouter des comptes du compte de ressources](media/auto-attendant-add-resource-account.png)
 
@@ -223,7 +223,7 @@ Pour [plus d’Teams, voir Gérer Teams comptes](manage-resource-accounts.md) de
 
 Reportez-vous [aux conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) pour autoriser les travailleurs automatiques à transférer des appels en externe.  De plus,:
 
-- Pour un compte [](calling-plans-for-office-365.md)de ressource titulaire d’une licence Forfait d’appels, le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code du pays][code de zone][numéro de téléphone]).
+- Pour un compte [](calling-plans-for-office-365.md)de ressource titulaire d’une licence Forfait d’appels, le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code pays][code de zone][numéro de téléphone]).
 
 - Pour un compte de ressource ayant une stratégie de routage voix de licence Système téléphonique et de routage direct, le format du numéro de téléphone de transfert externe dépend des paramètres du contrôleur de session en bordure [(SBC).](direct-routing-connect-the-sbc.md)
 

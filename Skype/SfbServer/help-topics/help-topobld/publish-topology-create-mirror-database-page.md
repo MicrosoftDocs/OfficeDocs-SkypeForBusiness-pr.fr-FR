@@ -1,5 +1,5 @@
 ---
-title: 'Publier la topologie : page Créer une base de données miroir'
+title: 'Publier la topologie : page Créer une base de données miroir'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
-ms.openlocfilehash: 9ef9adcbf180a91a3e459e01d3f91b96e181a888b9a91eab91abdcf301a7c09c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 463886be1705ceb21994d66401887963fae04993
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307105"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627986"
 ---
-# <a name="publish-topology-create-mirror-database-page"></a>Publier la topologie : page Créer une base de données miroir
+# <a name="publish-topology-create-mirror-database-page"></a>Publier la topologie : page Créer une base de données miroir
  
 Cette documentation est préliminaire et sujette à modification. Des rubriques vides sont incluses comme espaces réservés.
   

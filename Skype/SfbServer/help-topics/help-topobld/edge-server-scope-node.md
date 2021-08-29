@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: "Ce nœud indique le nom de domaine complet (FQDN) du pool et d'autres paramètres basiques pour ce pool de serveurs Edge.  Vous pouvez effectuer les actions suivantes :"
-ms.openlocfilehash: acda6242dcd3666ccf03814ab3574e0dcf35c8fa5c3fdb8d9c3c06009a90fccb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d4a8d02110876efa9a10774c610497553b739a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633668"
 ---
 # <a name="edge-server-scope-node"></a>Nœud d’étendue du serveur Edge
  

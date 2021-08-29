@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Résumé : Examinez cette rubrique lors de la planification de l’intégration Skype Entreprise Server avec Exchange 2013 ou 2016.'
-ms.openlocfilehash: 68ae17e7a7c5f3b427323f1ea571337de264529fbee954c61f40fb8afe20d1a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 382d432947ea099db35831a5db0d9ba649796b88
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349936"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633528"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planifier l’intégration Exchange la messagerie unifiée dans Skype Entreprise
 
@@ -52,7 +52,7 @@ Skype Entreprise Server, Voix Entreprise utilise l’infrastructure de messageri
 
 - **Outlook Voice Access** Outlook Voice Access permet à un utilisateur Voix Entreprise d’accéder non seulement à la messagerie vocale, mais également à la boîte de réception Exchange, y compris à la messagerie électronique, au calendrier et aux contacts à partir d’une interface téléphonique. Le numéro d’accès d’abonné est attribué par un administrateur Exchange de la um.
 
-- **Service de attendant automatique** Le attendant automatique est une fonctionnalité Exchange de la Exchange qui permet de configurer un numéro de téléphone que les utilisateurs extérieurs peuvent composer pour joindre des représentants de la société. Il fournit en particulier une série d’instructions vocales qui aident un appelant externe à naviguer dans un système de menus. La liste des options disponibles est configurée sur le serveur de messagerie un Exchange par l’administrateur Exchange messagerie unée.
+- **Service de attendant automatique** Le attendant automatique est une fonctionnalité Exchange de la Exchange qui permet de configurer un numéro de téléphone que les utilisateurs extérieurs peuvent composer pour joindre des représentants de la société. Il fournit en particulier une série d’instructions vocales qui aident un appelant externe à naviguer dans un système de menus. La liste des options disponibles est configurée sur le serveur de messagerie Exchange messagerie un Exchange l’administrateur.
 
 - **Les services de** Exchange de télécopie incluent des fonctionnalités de télécopie qui permettent aux utilisateurs de recevoir des télécopies entrantes dans Exchange boîtes aux lettres. Pour plus d’informations, voir [la messagerie unifiée](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80)) dans la documentation Microsoft Exchange Server de messagerie unifiée.
 
@@ -63,15 +63,15 @@ Skype Entreprise Server, Voix Entreprise utilise l’infrastructure de messageri
 
 ### <a name="exchange-server-components"></a>Composants d’Exchange Server
 
-Pour fournir les fonctionnalités et services de messagerie unifiée Exchange décrits dans Les fonctionnalités de messagerie unifiée et de [Skype Entreprise Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) intégrées aux utilisateurs Voix Entreprise de votre organisation, vous devez déployer un serveur de boîtes aux lettres Microsoft Exchange et un serveur d’accès au client, qui hébergent des boîtes aux lettres utilisateur et fournissent un emplacement de stockage unique pour la messagerie électronique et la messagerie vocale. Exchange La messagerie un jour s’exécute en tant que service Exchange serveurs de boîtes aux lettres et d’accès au client.
+Pour fournir les fonctionnalités et services de messagerie unifiée Exchange décrits dans fonctionnalités de messagerie unifiée et de [Skype Entreprise Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) intégrées aux utilisateurs Voix Entreprise de votre organisation, vous devez déployer un serveur de boîtes aux lettres Microsoft Exchange et un serveur d’accès au client, qui hébergent des boîtes aux lettres utilisateur et fournissent un emplacement de stockage unique pour la messagerie électronique et la messagerie vocale. Exchange La messagerie un jour s’exécute en tant que service Exchange serveurs de boîtes aux lettres et d’accès au client.
 
 Pour plus d’informations sur Exchange composants de messagerie un Microsoft Exchange Server 2010, voir [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail) .
 
 ### <a name="supported-topologies"></a>Topologies prises en charge
 
-Vous pouvez déployer Skype Entreprise Server et Exchange messagerie unifiée dans la même forêt ou plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes Exchange’intégration pour chaque forêt Exchange de la Exchange de l’utilisateur. En outre, vous devez configurer chaque forêt microsoft Exchange pour qu’elle utilise la forêt Skype Entreprise Server et la forêt Skype Entreprise Server pour qu’elle utilise chaque forêt Exchange de la Exchange un jour. En plus de cette relation d’Exchange forêt, les paramètres de la Exchange de tous les utilisateurs doivent être définies sur les objets utilisateur dans la forêt Skype Entreprise Server données.
+Vous pouvez déployer Skype Entreprise Server et Exchange messagerie unifiée dans la même forêt ou plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes Exchange’intégration pour chaque forêt Exchange de la Exchange de l’utilisateur. En outre, vous devez configurer chaque forêt microsoft Exchange pour qu’elle utilise la forêt Skype Entreprise Server et la forêt Skype Entreprise Server pour qu’elle utilise chaque forêt Exchange de la Exchange un jour. En plus de cette relation d’Exchange forêt, les paramètres de la Exchange de tous les utilisateurs doivent être définies sur les objets utilisateur dans la forêt Skype Entreprise Server de données.
 
-Skype Entreprise Server prend en charge les topologies suivantes pour l’intégration de Exchange de la Exchange :
+Skype Entreprise Server prend en charge les topologies suivantes pour l’intégration Exchange de la Exchange :
 
 - Forêt unique
 
@@ -91,14 +91,14 @@ Les recommandations et les meilleures pratiques à prendre en compte lors du dé
 > [!IMPORTANT]
 > Exchange La messagerie unifiée prend en charge IPv6 uniquement si vous utilisez également UCMA 4.
 
-- Déployez un Skype Entreprise Server Édition Standard serveur ou un pool frontal.
+- Déployez un Skype Entreprise Server Édition Standard ou un pool frontal.
 
 - Collaborez avec les administrateurs Exchange pour confirmer les tâches que chacun effectuera afin de garantir une intégration réussie en toute transparence.
 
 - Déployez les rôles Exchange serveur de boîtes aux lettres dans chaque forêt Exchange messagerie unifiée dans laquelle vous souhaitez activer les utilisateurs pour Exchange messagerie unifiée. Pour plus d’informations sur l’installation Exchange rôles serveur, voir Microsoft Exchange Server documentation.
 
     > [!IMPORTANT]
-    > Lorsque Exchange messagerie unifiée est installée, elle est configurée pour utiliser un certificat auto-signé. Le certificat auto-signé ne permet pas à Skype Entreprise Server et à la messagerie un Exchange de s’entre-faire mutuellement, c’est pourquoi il est nécessaire de demander un certificat distinct auprès d’une autorité de certification à laquelle les deux serveurs font confiance.
+    > Lorsque Exchange messagerie unifiée est installée, elle est configurée pour utiliser un certificat auto-signé. Le certificat auto-signé ne permet pas à la messagerie un Skype Entreprise Server et à la messagerie un Exchange de s’entre-faire mutuellement, c’est pourquoi il est nécessaire de demander un certificat distinct auprès d’une autorité de certification à laquelle les deux serveurs font confiance.
 
 - Si Skype Entreprise Server et Exchange sont installées dans des forêts différentes, configurez chaque forêt Exchange pour qu’elle fait confiance à la forêt Skype Entreprise Server et à la forêt Skype Entreprise Server pour qu’elles font confiance à chaque forêt Exchange. Définissez également les paramètres de la Exchange de l’utilisateur sur les objets utilisateur dans la forêt Skype Entreprise Server, généralement à l’aide d’un script ou d’un outil entre forêts, tel que Identity Lifecycle Manager (ILM).
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Chaque enregistrement représente un flux audio. Une ligne de média audio contient généralement deux flux audio.
-ms.openlocfilehash: 28111f9c97efdc729d13fda824f4236caad97eee1f08ff31eea0b751dda1cb88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b442c011d9e65e67fdc5cb06dd79c0f5fbee8c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309193"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627756"
 ---
 # <a name="audiostream-table"></a>Table AudioStream
  
@@ -46,7 +46,7 @@ Chaque enregistrement représente un flux audio. Une ligne de média audio conti
 |**DegradationPacketLossAvg** <br/> |décimal(3,2)  <br/> | <br/> |Dégradation de la note MOS qualité réseau causée par la perte de paquets.  <br/> |
 |**AudioPayloadDescription** <br/> |int  <br/> |Étranger  <br/> |Codec audio utilisé pour l’appel, référencé à partir de la table PayloadDescription.  <br/> |
 |**AudioSampleRate** <br/> |int  <br/> | <br/> |Taux d’échantillonnage pour le flux audio.  <br/> |
-|**RoundTrip** <br/> |int  <br/> | <br/> |Durée d’aller-retour d’après les statistiques RTCP. Pour une qualité acceptable, elle doit être inférieure à 100 ms.  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |Durée d’aller-retour d’après les statistiques RTCP. Pour une qualité acceptable, cette limite doit être inférieure à 100 ms.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Durée d’aller-retour maximale pour le flux audio.  <br/> |
 |**OverallAvgNetworkMOS** <br/> |décimal(3,2)  <br/> | <br/> |Note MOS qualité réseau moyenne en large bande pour l’appel. Cette mesure dépend de la perte de paquets, de la gigue et du codec utilisé. La plage est [1.0 à 5.0].  <br/> |
 |**OverallMinNetworkMOS** <br/> |décimal(3,2)  <br/> | <br/> |Mos réseau à bande large minimale pour l’appel.  <br/> |
@@ -68,7 +68,7 @@ Chaque enregistrement représente un flux audio. Une ligne de média audio conti
 |**HealerFECPacketUsedRatio** <br/> |float  <br/> ||Ratio des paquets de correction d’erreur avant utilisés par rapport au nombre total de paquets reçus.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**MaxCompressedSamples** <br/> |float  <br/> ||Nombre maximal de paquets audio compressés par le système de soins.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**LossCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage du temps où l’appel était dans un état de congestion de perte.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel pendant lequel la congestion a été causée par l’arrivée différée de paquets réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel pendant lequel la congestion a été causée par l’arrivée retardée de paquets réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ContentionDetectedPercent** <br/> |float  <br/> ||Indique le pourcentage du temps où l’appel était en concurrence pour les ressources réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**BandwidthEstMin** <br/> |int  <br/> ||Quantité minimale d’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**BandwidthEstMax** <br/> |int  <br/> ||Quantité maximale d’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

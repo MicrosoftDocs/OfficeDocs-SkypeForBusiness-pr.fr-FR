@@ -17,7 +17,7 @@ audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Découvrez comment l’audioconférence dans Microsoft 365 ou Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone.
-ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ffb24b35171e59ec99d9145362a51c51cd5f2ecb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232819"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633438"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audioconférence en Microsoft 365
 L’audioconférence Microsoft 365 et Office 365 permet aux utilisateurs d’appeler des réunions à partir de leur téléphone. L’audioconférence permet d’autoriser jusqu’à 1 000 participants téléphoniques.
@@ -91,7 +91,7 @@ Les numéros de téléphone de conférence audio dédiés sont des numéros de s
 
 - **Utiliser le Centre d'administration Skype Entreprise.** Pour certains pays/régions, vous pouvez obtenir les numéros pour les ponts de conférence à l’aide du centre d’administration Skype Entreprise. Voir [Obtention de numéros de téléphone de service](./getting-service-phone-numbers.md).
     
-- **Portage de vos numéros existants.** Vous pouvez transférer des numéros existants de votre fournisseur de services ou de votre opérateur téléphonique actuel vers un Microsoft 365 ou un Office 365. Consultez le [Transfert des numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer ces opérations.  
+- **Portage de vos numéros existants.** Vous pouvez transférer des numéros existants de votre fournisseur de services ou de votre opérateur de téléphonie actuel vers Microsoft 365 ou Office 365. Consultez le [Transfert des numéros de téléphone vers Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) pour plus d’informations pour vous aider à effectuer ces opérations.  
   
 - **Utiliser un formulaire de demande pour de nouveaux numéros.** Il peut arriver (en fonction votre pays ou région) que vous ne puissiez pas obtenir vos nouveaux numéros de téléphone à l’aide du centre d’administration de Skype Entreprise, ou que vous ayez besoin de numéros de téléphone ou indicatifs spécifiques. Si c'est le cas, vous devrez télécharger un formulaire et nous le renvoyer. Pour plus d’informations, voir [Gestion des numéros de téléphone pour votre entreprise](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

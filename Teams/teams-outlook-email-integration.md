@@ -7,19 +7,19 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kblevens
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez les fonctionnalités Teams et Outlook’intégration de la messagerie électronique, notamment les fonctionnalités qui letaient les utilisateurs de partager des informations entre les messages électroniques dans Outlook et les conversations ou les conversations de canal dans Teams.
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4501ff85e63091dd0fee8fba39df43b4e4936eabd57c224eff1fdaa518566fab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bcc9d8c4ed101017206e086a2282679ec698df27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299024"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634818"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams’intégration de Outlook messagerie électronique
 
@@ -35,14 +35,14 @@ Pour utiliser cette fonctionnalité, Outlook sur le web doit être désactivé p
 
 ## <a name="actionable-activity-emails"></a>E-mails d’activité actionnable
 
-Les utilisateurs obtiennent automatiquement des messages d’activité manquée actionnables qui les aident à rattraper les conversations manquées dans Teams. Les messages d’activité manquées indiquent les dernières réponses d’une conversation, y compris  les messages qui ont été envoyés après le message manqué, et les utilisateurs peuvent cliquer sur Répondre pour répondre directement à partir d’Outlook. Pour en savoir plus, voir [Répondre aux e-mails d’activité manqué de Outlook.](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) 
+Les utilisateurs obtiennent automatiquement des messages d’activité manquée actionnables qui les aident à rattraper les conversations manquées Teams. Les messages d’activité manquées indiquent les dernières réponses d’une conversation, y compris  les messages qui ont été envoyés après le message manqué, et les utilisateurs peuvent cliquer sur Répondre pour répondre directement à partir d’Outlook. Pour en savoir plus, voir [Répondre aux e-mails d’activité manqué de Outlook.](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381) 
 
 > [!NOTE]
 > Cette fonctionnalité n’est pas prise en charge dans Outlook pour Mac versions antérieures d’Outlook pour Windows. Pour plus d’informations, voir [Messages actionnables dans Outlook et Office 365 groupes.](/outlook/actionable-messages/)
 
 ![Capture d’écran montrant un e-mail d’activité manquée](media/missed-activity-email.png)
 
-![Capture d’écran montrant comment répondre à un e-mail d’activité manquée](media/missed-activity-email-reply.png)
+![Capture d’écran montrant comment répondre à un message d’activité manquée](media/missed-activity-email-reply.png)
 
 Vous pouvez utiliser l’cmdlet [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) avec le paramètre **SmtpActionableMessagesEnabled** pour désactiver les e-mails actionnables. Par défaut, le **paramètre SmtpActionableMessagesEnabled** **est** true. La définition du paramètre sur **False** a pour rôle de couper ou de Office 365. Pour Teams utilisateurs, cela signifie  que l’option Répondre directement dans Outlook n’est pas disponible dans les e-mails d’activité manquée. Au lieu de cela, les e-mails d’activité manquées incluent une **option** Répondre dans Teams que les utilisateurs peuvent répondre dans Teams.
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Cette section contient des exemples de requêtes pour la base de données QoE (Quality of Experience).
-ms.openlocfilehash: f43dce8118fe3c3f4a361f5a0953d31f546aa6c19919d2b58bc3829f1c85c38f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9caa43ca38a089422670e256f77aa7d186ddbbf0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633458"
 ---
 # <a name="sample-qoe-database-queries"></a>Exemples de requêtes de base de données de qualité de l’expérience (QoE)
  

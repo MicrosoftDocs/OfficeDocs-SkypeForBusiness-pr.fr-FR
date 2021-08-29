@@ -10,23 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant contient les participants actifs, par canal et par serveur.
-ms.openlocfilehash: 4da7a5511caba65dc1ab4027647bed3262601dd4ef2e35949ae0bc0978451145
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c94aab78c7f0cc9a04e849a2ad798134ff38e42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351923"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627766"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
 tblComplianceParticipant contient les participants actifs, par canal et par serveur.
   
-**Columns**
+**Colonnes**
 
-|**Colonne**|**Type**|**Description**|
+|**Colonne**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |channelUri  <br/> |nvarchar (255), non null  <br/> |URI (Uniform Resource Identifier) du canal.  <br/> |
 |userId  <br/> |int, non null  <br/> |ID Principal du participant (correspondant à la table tblPrincipal.prinID).  <br/> |

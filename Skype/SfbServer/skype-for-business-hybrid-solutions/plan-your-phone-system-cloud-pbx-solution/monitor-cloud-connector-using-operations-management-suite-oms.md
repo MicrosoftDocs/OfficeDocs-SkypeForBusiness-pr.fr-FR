@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lisez cette rubrique pour découvrir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 1e2156ec8cff777b7bbad595b9792972508edbd455d6a1d27a65b95ad01c5def
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339990"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627726"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller Cloud Connector à l’aide d’Operations Management Suite (OMS)
 
@@ -27,7 +27,7 @@ ms.locfileid: "54339990"
 
 Lisez cette rubrique pour découvrir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
 
-Vous pouvez désormais surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide d’Operations Management Suite (OMS), une solution de gestion informatique du cloud Microsoft. OMS Log Analytics vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris des ordinateurs physiques et virtuels. Pour plus d’informations sur OMS et Log Analytics, voir [Qu’est-ce que Operations Management Suite (OMS) ?](/azure/operations-management-suite/operations-management-suite-overview)
+Vous pouvez désormais surveiller votre déploiement Cloud Connector version 2.1 et ultérieure à l’aide d’Operations Management Suite (OMS), une solution de gestion informatique cloud De Microsoft. OMS Log Analytics vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris des ordinateurs physiques et virtuels. Pour plus d’informations sur OMS et Log Analytics, voir [Qu’est-ce que Operations Management Suite (OMS) ?](/azure/operations-management-suite/operations-management-suite-overview)
 
 Cette rubrique comprend les sections suivantes :
 
@@ -45,7 +45,7 @@ Cette rubrique comprend les sections suivantes :
 
 Avant de pouvoir utiliser OMS pour surveiller le déploiement de Cloud Connector, vous avez besoin des informations suivantes :
 
-- **Un compte Azure et un espace de travail OMS.** Si vous n’avez pas encore de compte Azure, vous devez en créer un pour utiliser OMS Log Analytics. Pour plus d’informations sur la création d’un compte Azure et la mise en place d’un espace de travail OMS, voir La mise en route d’un espace de travail [Log Analytics.](/azure/log-analytics/log-analytics-get-started)
+- **Un compte Azure et un espace de travail OMS.** Si vous n’avez pas encore de compte Azure, vous devez en créer un pour utiliser OMS Log Analytics. Pour plus d’informations sur la création d’un compte Azure et la façon de configurer un espace de travail OMS, voir Get [started with a Log Analytics workspace](/azure/log-analytics/log-analytics-get-started).
 
 - **Cloud Connector version 2.1 ou ultérieure**
 
@@ -59,7 +59,7 @@ Vous devez configurer votre environnement local Cloud Connector pour utiliser OM
 
 La configuration de Cloud Connector pour utiliser OMS dépend de votre scénario :
 
-- **Si vous installez une** nouvelle appliance Cloud Connector ou que vous souhaitez déployer à nouveau une appliance, suivez les étapes suivantes avant d’exécuter Install-CcAppliance :
+- **Si vous installez une** nouvelle appliance Cloud Connector ou si vous souhaitez déployer à nouveau une appliance, suivez les étapes suivantes avant d’exécuter Install-CcAppliance :
 
     1. Dans la section CloudConnector.ini fichier [Common], définissez le paramètre OMSEnabled sur True.
 
@@ -102,20 +102,20 @@ Dans le portail OMS, vous devez spécifier des informations sur les journaux des
 
 1. Go to Paramètres- \> Data- \> Windows Event logs, and add event logs for: 
 
-   - Lync Server
+   - Lync Server
 
    - Application
 
      > [!NOTE]
      > Vous devez entrer manuellement Lync Server dans la zone de texte. Elle n’apparaît pas en tant qu’option dans la liste liste. 
 
-     Pour plus d’informations, voir Windows sources de données [du journal des événements dans Log Analytics](/azure/log-analytics/log-analytics-data-sources-windows-events)
+     Pour plus d’informations, voir Windows sources de données du journal [des événements dans Log Analytics](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
 2. Go to Paramètres- \> Data- \> Windows Performance Counters, and add performance counters for: 
 
    - **Compteurs au niveau du système d’exploitation.** Vous pouvez ajouter des compteurs au niveau du système d’exploitation, tels que l’utilisation du processeur, l’utilisation de la mémoire, l’utilisation du réseau, ou vous pouvez utiliser des solutions existantes telles que Capacité et performances, Moniteur de performances réseau sans ajouter explicitement de compteurs. Quelle que soit la façon dont vous décidez de les surveiller, Microsoft vous recommande de surveiller ces compteurs de système d’exploitation.
 
-   - **Skype Entreprise.** Il existe de nombreux compteurs fournis par Skype Entreprise. Vous pouvez trouver ces compteurs en vous connectant à n’importe quel serveur de médiation et en ouvrant l’Observateur de performances. Ces compteurs commencent par « LS: ». Microsoft vous recommande de commencer avec les compteurs de capacité suivants au minimum et d’ajouter d’autres qui vous intéressent :
+   - **Skype Entreprise compteurs**. Il existe de nombreux compteurs fournis par Skype Entreprise. Vous pouvez trouver ces compteurs en vous connectant à n’importe quel serveur de médiation et en ouvrant l’Observateur de performances. Ces compteurs commencent par « LS: ». Microsoft vous recommande de commencer avec les compteurs de capacité suivants au minimum et d’ajouter d’autres qui vous intéressent :
 
      Nombre total d’appels actifs :
 
@@ -194,7 +194,7 @@ Pour créer cette alerte :
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
-    La requête de réinitialisation fait exactement l’inverse de la requête d’erreur. Pour chaque ordinateur, la requête reçoit les derniers compteurs pour l’appel entrant et l’appel sortant et additione ces deux valeurs. Elle retourne un journal si la valeur de somme est inférieure à 500 ; sinon, elle ne retourne rien.
+    La requête de réinitialisation fait exactement l’inverse de la requête d’erreur. Pour chaque ordinateur, la requête reçoit les derniers compteurs pour l’appel entrant et l’appel sortant et additione ces deux valeurs. Elle retourne un journal si la valeur de la somme est inférieure à 500 ; sinon, elle ne retourne rien.
 
 **Créer une alerte : « Utilisation du processeur \> 90 ou RTCMEDIARELAY arrêté dans les serveurs »**
 
@@ -236,7 +236,7 @@ Le tableau suivant répertorie les problèmes réseau que Microsoft recommande d
 | Échec de la fin de l’appel du serveur de médiation vers la passerelle  <br/> | Serveur de médiation  <br/>   | 25064                              |                                  | 25002  <br/>           |
 | Problèmes réseau critiques  <br/>                           | Serveur Edge  <br/>        | 14353                              |                                  | 12288  <br/>           |
 
-Les listes suivantes répertorient les compteurs de capacité des appels qui doivent être surveillés. Ces chiffres doivent être inférieurs à 500 pour l’édition standard de Cloud Connector ; inférieur à 50 pour l’édition minimale de Cloud Connector.
+Les listes suivantes répertorient les compteurs de capacité des appels qui doivent être surveillés. Ces numéros doivent être inférieurs à 500 pour l’édition standard de Cloud Connector ; inférieur à 50 pour l’édition minimale de Cloud Connector.
 
 - LS:MediationServer - Inbound Calls(_Total) \- Current 
 
