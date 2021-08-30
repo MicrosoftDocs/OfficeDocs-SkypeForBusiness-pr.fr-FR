@@ -25,7 +25,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et du support auprès de l’assistance RTC.
 ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58598468"
