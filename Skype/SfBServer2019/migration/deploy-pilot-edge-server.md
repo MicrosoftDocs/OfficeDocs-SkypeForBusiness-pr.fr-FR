@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cette rubrique présente les paramètres de configuration que vous devez connaître avant de déployer votre serveur Edge Skype Entreprise Server 2019. Les processus de déploiement et de configuration Skype Entreprise Server 2019 sont très similaires à Skype Entreprise Server 2015. Cette section présente uniquement les points clés dont vous devez tenir compte dans le cadre du déploiement de votre pool pilote. Pour obtenir la procédure détaillée, voir Déploiement de l’accès des utilisateurs externes dans Skype Entreprise Server 2019 dans la documentation de déploiement, qui décrit le processus de déploiement et fournit également des informations de configuration pour l’accès des utilisateurs externes.
-ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ec659c5099a7be9587c630aa487ddeda1df500
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615008"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728043"
 ---
 # <a name="deploy-pilot-edge-server"></a>Déploiement d’un serveur Edge pilote
 
@@ -31,11 +31,11 @@ Cette rubrique présente les paramètres de configuration que vous devez connaî
     
 2. Accédez au nœud Skype Entreprise Server 2019. Cliquez avec le bouton droit sur **Pools Edge**, puis cliquez sur **Nouveau pool de serveurs Edge**.
     
-     ![Définir la boîte de dialogue Nouveau pool edge](../media/migration_ocs_topo_edgepool_page1.JPG)
+     ![Définissez la boîte de dialogue Nouveau pool edge.](../media/migration_ocs_topo_edgepool_page1.JPG)
   
 3. Un pool Edge peut être un **pool de plusieurs ordinateurs** ou un **pool d’un seul ordinateur**.
     
-     ![Définir la boîte de dialogue FQDN du pool edge](../media/migration_ocs_topo_edgepool_page2.JPG)
+     ![Définissez la boîte de dialogue FQDN du pool edge.](../media/migration_ocs_topo_edgepool_page2.JPG)
   
 4. Dans la page **Sélectionner les fonctionnalités**, n’activez pas la fédération ni la fédération XMPP. La fédération et la fédération XMPP sont actuellement acheminées via le serveur Edge hérité. Ces fonctionnalités seront configurées lors d’une phase ultérieure de la migration. 
 
@@ -44,11 +44,11 @@ Cette rubrique présente les paramètres de configuration que vous devez connaî
     
 6. Dans la page **Définir le serveur du saut suivant,** sélectionnez le directeur pour le saut suivant du pool Edge hérité. 
     
-     ![Définir la boîte de dialogue Saut suivant](../media/migration_ocs_topo_edgepool_page7.JPG)
+     ![Définissez la boîte de dialogue Saut suivant.](../media/migration_ocs_topo_edgepool_page7.JPG)
   
-7. Dans la page Associer un pool frontal ou un pool de **médiation,** n’associez pas de pool à ce pool edge pour le moment. Le trafic multimédia externe est actuellement acheminé via le serveur Edge hérité. Ce paramètre sera configuré lors d’une phase ultérieure de la migration. 
+7. Dans la page **Associer un pool frontal** ou un pool de médiation, n’associez pas de pool à ce pool edge pour le moment. Le trafic multimédia externe est actuellement acheminé via le serveur Edge hérité. Ce paramètre sera configuré lors d’une phase ultérieure de la migration. 
     
-     ![Boîte de dialogue Associer des pools frontux](../media/migration_ocs_topo_edgepool_page8.JPG)
+     ![Boîte de dialogue Associer des pools frontux.](../media/migration_ocs_topo_edgepool_page8.JPG)
   
 8. Cliquez **sur** Terminer, puis **publiez** la topologie. 
     

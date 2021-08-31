@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586750"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728223"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Utiliser le complément Réunion Teams dans Outlook
 
@@ -53,7 +53,7 @@ Les coordonnées de la réunion (lien de participation et numéros à composer T
 
 Le bouton réunions Teams dans Outlook Web App s’affiche dans le cadre de la création d’un nouvel événement si l’utilisateur utilise une version antérieure du nouveau Outlook sur le web. Pour en savoir plus sur la manière dont les utilisateurs peuvent essayer la version antérieure du nouvel Outlook sur le web, consultez le [blog Outlook](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral).
 
-![Capture d'écran du complément réunion Teams dans Outlook Web App](media/teams-meeting-add-in-web.png)
+![Capture d'écran du complément réunion Teams dans Outlook Web App.](media/teams-meeting-add-in-web.png)
 
 Les coordonnées de la réunion (lien de participation et numéros à composer Teams) sont ajoutées à l’invitation à la réunion une fois que l’utilisateur clique sur **envoyer**.  
 
@@ -61,7 +61,7 @@ Les coordonnées de la réunion (lien de participation et numéros à composer T
 
 Le bouton réunion Teams s’affiche dans les dernières versions de l’application Outlook iOS et Android.
 
-![Capture d'écran du complément réunion Teams dans Outlook Mobile](media/teams-meeting-add-in-mobile.png)
+![Capture d'écran du complément réunion Teams dans Outlook Mobile.](media/teams-meeting-add-in-mobile.png)
 
 Les coordonnées de la réunion (lien de participation et numéros à composer Teams) sont ajoutées à l’invitation à la réunion une fois que l’utilisateur clique sur **envoyer**.  
 

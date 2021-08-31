@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Vous pouvez permettre à vos utilisateurs Skype Entreprise d’utiliser l’outil de commentaires intégré à l’application Skype Entreprise pour permettre aux utilisateurs de signaler des problèmes et de faire part de leurs commentaires directement à Microsoft sur leur expérience.
-ms.openlocfilehash: b7be0629e0944f55147a8f0a772663737412f910
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9382c19c5abf78dc47dcaa3de33841a64e96f490
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611453"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728283"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Activer ou désactiver les commentaires client sur Skype Entreprise
 
@@ -32,11 +32,11 @@ ms.locfileid: "58611453"
 
 Vous pouvez permettre aux utilisateurs de Skype Entreprise Online d’utiliser l’outil de commentaires intégré à l’application Skype Entreprise pour permettre aux utilisateurs de signaler des problèmes et de faire part de leurs commentaires directement à Microsoft sur leur expérience. 
   
-![Icône Fournir des commentaires](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![Icône Fournir des commentaires.](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
 Cet outil permet à un utilisateur de copier les journaux de l’application sur son appareil pour aider Microsoft à mieux étudier et résoudre les problèmes qu’il peut avoir. 
   
-![Signaler un problème à l’aide de l Paramètres’icône](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![Signalez un problème à l’aide Paramètres’icône.](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 Vous pouvez également utiliser le paramètre  _EnableOnlineFeedbackScreenshot_, qui permet d'inclure une capture d'écran du périphérique lors de l'envoi des commentaires.
   
@@ -49,7 +49,7 @@ Vous pouvez également utiliser le paramètre  _EnableOnlineFeedbackScreenshot_,
 
 > [!NOTE]
 > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams. Si vous utilisez la version publique la plus récente de PowerShell Teams, vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
-1. Installez le [module Teams PowerShell.](/microsoftteams/teams-powershell-install)
+1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 

@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33b6e23a5259c81612a392b6befd7b7e6d256287
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd03d8de8d5b5d8f9f7223b8b04671559edfcec6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623156"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728453"
 ---
 # <a name="plan-for-your-upgrade"></a>Planifier votre mise à niveau
 
-![Diagramme du voyage Teams à niveau](media/upgrade-banner-main.png "Assurez-vous que votre projet est prêt pour réussir avec la bonne équipe de projet. Définissez l’étendue, les objectifs et la chronologie de votre projet. Confirmez la disponibilité des utilisateurs et techniques. Exécutez votre plan de déploiement. Maintenez la dynamique pour optimiser les résultats.")
+![Diagramme du voyage Teams mise à niveau.](media/upgrade-banner-main.png "Assurez-vous que votre projet est prêt pour réussir avec la bonne équipe de projet. Définissez l’étendue, les objectifs et la chronologie de votre projet. Confirmez la disponibilité des utilisateurs et techniques. Exécutez votre plan de déploiement. Maintenez la dynamique pour optimiser les résultats.")
 
 Un environnement technique sain, l’adoption par les utilisateurs durable et l’accomplissement de vos objectifs professionnels commencent tous par une planification appropriée. Un plan solide offre un cadre pour votre projet de mise à niveau et garantit que toutes les parties prenantes travaillent sur les mêmes objectifs. En prenant le temps de définir correctement le succès, vous pouvez mesurer les résultats à mesure que vous progressez dans votre déploiement et vérifier que vous atteignez les résultats souhaités. La planification de votre voyage inclut :
 

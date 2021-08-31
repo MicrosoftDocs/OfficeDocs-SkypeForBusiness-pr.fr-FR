@@ -19,14 +19,14 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fab726d5c9e25664259addf726436358d294ac18e9c6cd24a150725e8255744
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4a83d0da32c11406f76b9bc355ceb666d4ea308
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328799"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728063"
 ---
-# <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
+# <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
 
 Vous gérez l’accès Teams utilisateur en attribuant ou en supprimant une Microsoft Teams produit. À l’exception de Teams anonymes, chaque utilisateur de votre organisation doit avoir une licence de Teams pour pouvoir utiliser Teams. Vous pouvez attribuer une licence Teams utilisateurs à de nouveaux utilisateurs lors de la création de comptes d’utilisateurs ou à des utilisateurs ayant déjà des comptes.
 
@@ -54,7 +54,7 @@ Les étapes diffèrent selon que vous utilisez la page Licences ou la **page** *
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Capture d’écran 1 de Teams licence activée pour un utilisateur](media/assign-teams-licenses-1.png)    | ![Capture d’écran 2 de Teams licence activée pour un utilisateur](media/assign-teams-licenses-2.png)        |
+|![Capture d’écran 1 Teams licence activée pour un utilisateur.](media/assign-teams-licenses-1.png)    | ![Capture d’écran 2 de Teams licence activée pour un utilisateur](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>Supprimer une licence Teams licence
 
@@ -65,7 +65,7 @@ Lorsque vous supprimez la licence Teams d’un utilisateur, Teams est désactiv�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![Capture d’écran 1 de la Teams de licence désactivée pour un utilisateur](media/remove-teams-licenses-1.png)    | ![Capture d’écran 2 de la Teams de licence désactivée pour un utilisateur](media/remove-teams-licenses-2.png)        |
+|![Capture d’écran 1 de l Teams de licence désactivée pour un utilisateur.](media/remove-teams-licenses-1.png)    | ![Capture d’écran 2 de la Teams de licence désactivée pour un utilisateur](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -110,7 +110,7 @@ Exécutez la commande suivante pour désactiver l Teams de tous les utilisateurs
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Teams licences de modules add-on](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Attribuer Teams licences de modules add-on](teams-add-on-licensing/assign-teams-add-on-licenses.md)

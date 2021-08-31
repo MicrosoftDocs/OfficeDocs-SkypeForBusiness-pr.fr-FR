@@ -17,12 +17,12 @@ description: Découvrez comment gérer vos applications Teams sur la page Gérer
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 63c3baabcacd10bbbc2f4003f33eb90a9c302e74
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604443"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728643"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Gérer vos applications dans le Centre Microsoft Teams’administration
 
@@ -39,11 +39,11 @@ Dans le volet de navigation gauche du Centre d’administration Microsoft Teams,
 
 Vous pouvez afficher chaque application, y compris les informations suivantes sur chaque application.
 
-![Capture d’écran de la page Applications gérées](media/manage-apps.png)
+![Capture d’écran de la page Applications gérées.](media/manage-apps.png)
 
 - **Nom**: nom de l’application. Sélectionnez le nom de l’application pour aller à la page des détails de l’application pour plus d’informations sur l’application. Ceci inclut une description de l’application (autorisée ou bloquée), sa version, sa politique de confidentialité, ses conditions d’utilisation, ses catégories qui s’appliquent à l’application, son état de certification, ses fonctionnalités pris en charge et son ID d’application. Voici un exemple :
 
-  ![Capture d’écran de la page des détails des applications pour une application](media/manage-apps-app-details.png)
+  ![Capture d’écran de la page des détails des applications pour une application.](media/manage-apps-app-details.png)
   
 - **Certification**: Si l’application a été certifiée, vous verrez Microsoft 365 **certifié** ou **Publisher souhaitez.** Sélectionnez le lien pour afficher les détails de certification de l’application. Si vous voyez « **--** », nous n’avons pas d’informations de certification pour l’application. Pour en savoir plus sur les applications certifiées dans Teams, lisez Microsoft 365 [programme de certification des applications.](/teams-app-certification/all-apps)  
 - **Publisher**: nom de l’éditeur.
@@ -107,7 +107,7 @@ Lorsque vous bloquez ou autorisez une application sur la page Gérer les applica
 
 Vous utilisez le **bouton Ajouter à une équipe** pour installer une application à une équipe. N’oubliez pas que cette application s’agit uniquement des applications qui peuvent être installées dans une étendue d’équipe. Le **bouton Ajouter à l’équipe** n’est pas disponible pour les applications qui ne peuvent être installées que dans l’étendue personnelle.
 
-![Capture d’écran du bouton Ajouter à l’équipe](media/manage-apps-add-app-team.png)
+![Capture d’écran du bouton Ajouter à l’équipe.](media/manage-apps-add-app-team.png)
 
 1. Recherchez l’application de votre choix, puis sélectionnez-la en cliquant à gauche du nom de l’application.
 2. Sélectionnez **Ajouter à l’équipe.**
@@ -138,7 +138,7 @@ Utilisez les paramètres d’application à l’échelle de l’organisation pou
 
 1. Dans la page Gérer les applications, sélectionnez **Paramètres de l’application à l’échelle de l’organisation.** Vous pouvez ensuite configurer les paramètres voulus dans le panneau.
 
-    ![Capture d’écran des paramètres de l’application à l’échelle de l’organisation](media/manage-apps-org-wide-app-settings.png)
+    ![Capture d’écran des paramètres d’application à l’échelle de l’organisation.](media/manage-apps-org-wide-app-settings.png)
 
 2. Sous **Applications tierces**, désactiver ou activer ces paramètres pour contrôler l’accès à des applications tierces :
 
@@ -165,11 +165,11 @@ Lors de l’évaluation d’une application pour leur organisation, les administ
 Pour accéder aux informations MCAS, suivez les étapes suivantes :
 
 1. Dans le Teams d’administration, sélectionnez **Gérer les applications** sous Teams **applications.**
-1. Sélectionnez **Certification** pour trier les applications et Microsoft 365 toutes les applications certifiées en haut du tableau.
+1. Sélectionnez **Certification** pour trier les applications et Microsoft 365 les applications certifiées en haut du tableau.
 1. Choisissez une Microsoft 365'application certifiée.
 1. Sélectionnez **l’onglet Sécurité et** conformité.
 
-![Capture d’écran Teams’onglet sécurité et conformité du Centre d’administration](media/mcas.png)
+![Capture d’écran Teams’onglet sécurité et conformité du Centre d’administration.](media/mcas.png)
 
 Sous cet onglet, vous trouverez des informations sur la sécurité, la conformité et la protection des données. Vous pouvez également développer chaque liste afin d’obtenir plus de détails sur les fonctionnalités qui sont pris en charge pour l’application sélectionnée.
 

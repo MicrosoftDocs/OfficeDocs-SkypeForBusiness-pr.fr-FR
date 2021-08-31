@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous démarrez le Générateur de topologie pour configurer les propriétés et la configuration de votre déploiement. Au démarrage, le Générateur de topologie affiche une boîte de dialogue qui demande la source du document de topologie. Vous sélectionnez l’une des trois options :'
-ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621440"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732343"
 ---
 # <a name="topology-builder-startup-dialog"></a>Boîte de dialogue de démarrage du Générateur de topologie
  
@@ -32,5 +32,5 @@ Vous démarrez le Générateur de topologie pour configurer les propriétés et 
     
 - **Nouvelle topologie** Sélectionnez cette option pour commencer la configuration d’un nouveau document de topologie. Cette option ouvre un nouveau document de topologie que vous configurez pour répondre aux exigences du déploiement que vous configurerez.
     
-![Boîte de dialogue de démarrage du Générateur de topologie](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![Boîte de dialogue de démarrage du Générateur de topologie.](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

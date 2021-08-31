@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Découvrez comment définir l’interface utilisateur sur Teams appareils Android.
-ms.openlocfilehash: 07d8b42de16c71a63efe7a3c18955e457577d60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d17158a6d76dd0d735392c8a441ca184968897a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637080"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732453"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>Définir Microsoft Teams’interface utilisateur des appareils Android
 
@@ -34,15 +34,15 @@ Si [](/microsoftteams/user-access) vous attribuez une licence utilisateur à un 
 
 Les trois images suivantes montrent comment l’interface utilisateur change en fonction de la licence attribuée au compte d’utilisateur. Dans la première image, une licence E5 est attribuée au compte d’utilisateur. Il s’agit d’une licence utilisateur, de sorte que l’appareil affiche l’interface utilisateur par défaut :
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="Interface du mode utilisateur":::
+:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="Interface du mode utilisateur.":::
 
 Dans cette image, une licence de téléphone en zone commune a été affectée au [compte d’utilisateur.](/microsoftteams/set-up-common-area-phones) Les téléphones en zone commune sont principalement utilisés pour effectuer et recevoir des appels téléphoniques. Ainsi, le pavé de numérotation s’affiche sur l’écran :
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="Interface téléphonique en zone commune":::
+:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="Interface téléphonique en zone commune.":::
 
 Enfin, cette image montre un compte d’utilisateur avec Salles Microsoft Teams [licence Standard](/MicrosoftTeams/rooms/rooms-licensing) attribuée. salles Teams licences sont destinées à être utilisées dans les salles de réunion ou les espaces partagés. L’interface utilisateur change donc pour faciliter la réunion en affichant l’affichage Calendrier :
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="Interface de réunion":::
+:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="Interface de réunion.":::
 
 > [!NOTE]
 > La modification de l’interface utilisateur n’affecte pas votre capacité à utiliser d’autres fonctionnalités sous licence. Par exemple, même si l’affichage par défaut de la licence Salles d’équipe est l’affichage Calendrier, vous pouvez toujours passer et recevoir des appels téléphoniques de réseau téléphonique de commutateur public (PSTN) si la licence et la configuration du compte sont correctes.
@@ -57,7 +57,7 @@ Dans certains cas, vous pouvez choisir d’attribuer une licence à un compte qu
 > [!NOTE]
 > La licence attribuée au compte d’utilisateur doit au moins avoir les mêmes droits de licence que l’interface utilisateur souhaitée. La licence zone Téléphone permet uniquement l’interface utilisateur du téléphone en zone commune. La licence de salle de réunion permet d’utiliser les interfaces utilisateur des salles de réunion et des téléphones communs. Une licence E3 ou E5 prend en charge tous les modes de inscription.
 
-Voici un exemple de la manière de remplacer la détection automatique de licence. Dans cet exemple, supposons qu’une licence E3 ait été affectée à un compte de ressource conf-adams@contoso.com réunion. Lorsque ce compte est signé, vous souhaitez que les utilisateurs voient l’interface utilisateur de la salle de réunion.
+Voici un exemple de la manière de remplacer la détection automatique de licence. Dans cet exemple, supposons qu’une licence E3 ait été affectée à un compte de ressource conf-adams@contoso.com réunion. Lorsque ce compte est inscrit, vous souhaitez que les utilisateurs voient l’interface utilisateur de la salle de réunion.
 
 ### <a name="create-a-new-policy-and-assign-to-user"></a>Créer une stratégie et l’affecter à l’utilisateur
 
@@ -74,7 +74,7 @@ Voici un exemple de la manière de remplacer la détection automatique de licenc
 
    ```
 
-3. Vous pouvez à présent affecter cette nouvelle stratégie au compte de ressource de la salle de réunion :
+3. Vous pouvez à présent affecter cette nouvelle stratégie au compte de ressources de la salle de réunion :
 
    ``` Powershell
    Grant-CsTeamsIPPhonePolicy –Identity 'conf-adams@contoso.com' –PolicyName 'Meeting Sign In'

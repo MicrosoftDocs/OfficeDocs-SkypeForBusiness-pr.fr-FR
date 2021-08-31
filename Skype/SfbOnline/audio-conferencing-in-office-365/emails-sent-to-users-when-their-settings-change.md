@@ -1,5 +1,5 @@
 ---
-title: Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype Entreprise Online
+title: Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres changent dans Skype Entreprise Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférences Skype Entreprise Online. '
-ms.openlocfilehash: 7f095e42eae2ba47573193546e441809ce3ae6e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618300"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728033"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Courriers électroniques envoyés aux utilisateurs en cas de modification de leurs paramètres dans Skype Entreprise Online
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres changent dans Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -48,7 +48,7 @@ Par défaut, quatre types de messages électroniques sont envoyés aux utilisate
   
     Voici un exemple de ce courrier électronique :
     
-     ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
+     ![Skype Entreprise Vérifier la licence.](../images/audio-conferencing-user-enabled.png)
   
     Pour plus d'informations sur l'affectation de licences Skype Entreprise, reportez-vous à la rubrique [Licences de module complémentaire Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
@@ -114,7 +114,7 @@ Lorsque vous désactivez l'envoi de courriers électroniques, le courrier élect
   
 Par défaut, des courriers électroniques sont envoyés à vos utilisateurs, mais si vous ne souhaitez pas qu’ils en reçoivent pour l’audioconférence, vous pouvez utiliser le Centre d’administration Skype Entreprise ou Windows PowerShell. 
  
-![Icône montrant le logo ](../images/sfb-logo-30x30.png) **Skype Entreprise’aide du Centre d’Skype Entreprise’administration**  
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png)  **Utilisation du Skype Entreprise d’administration**
     
 1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez aux paramètres du pont Microsoft d’audioconférence.   >  
     
@@ -143,7 +143,7 @@ Vous pouvez utiliser l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/
     
     Voici un exemple du courrier électronique qui sera envoyé aux utilisateurs :
     
-     ![Courrier électronique de conférence rendez-vous](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
+     ![Courrier électronique de conférences téléphoniques.](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Comment utiliser Windows PowerShell pour gérer cette fonction ?
 
@@ -153,7 +153,7 @@ Vous pouvez utiliser l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/
     
   - [Raisons pour lesquelles vous devez Microsoft 365 ou Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Meilleures méthodes pour gérer vos Microsoft 365 vos Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes : 
     
@@ -166,7 +166,7 @@ Vous pouvez utiliser l’cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Activer ou désactiver l'envoi de messages électroniques lorsque modifient les paramètres de conférence Audio](enable-or-disable-sending-emails-when-their-settings-change.md)
   

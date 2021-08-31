@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f0b731df6444ff4ab20ac0f8575f03766c0a40
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72bdeb6307970676de1b242738ec2d50789fa7c2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607007"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728083"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Phase 1 de l’adoption de Microsoft Teams - Démarrer
 
-Vous commencerez votre adoption Teams suivantes :
+Vous commencerez votre adoption Teams les activités suivantes :
 
 - [Valider les conditions préalables à l’adoption.](#validate-adoption-prerequisites)
 - [Assemblez votre équipe.](#assemble-your-team)
@@ -67,10 +67,10 @@ Dans la plupart des cas, cette équipe initiale doit être un petit groupe de pe
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-Microsoft [Technical Community](https://aka.ms/TechCommunity) fournit des informations fournies par des pairs sur l’adoption et les problèmes techniques pour de nombreux produits Microsoft 365 et Office 365. Nous vous suggérons de rejoindre les communautés suivantes :
+Microsoft [Technical Community](https://aka.ms/TechCommunity) fournit des informations fournies par des pairs sur l’adoption et les problèmes techniques pour de nombreux Microsoft 365 et Office 365 recherche. Nous vous suggérons de rejoindre les communautés suivantes :
 
 - [Microsoft Teams](https://aka.ms/TeamsCommunity) des Community techniques : obtenez des réponses aux questions sur les produits, apprenez auprès d’autres clients Teams et suivez notre blog pour vous tenir au courant des nouvelles fonctionnalités et des cas d’utilisation de Teams. 
 - [Programme Champions](https://aka.ms/O365Champions) et communauté Adoption en ligne : découvrez auprès de vos pairs comment piloter au mieux l’adoption des charges de travail Microsoft 365 ou Office 365 telles que Teams, SharePoint, Yammer et d’autres produits. Ouvrez-la aux professionnels de l’informatique, aux utilisateurs professionnels, au développeur « accidentel » et à toute personne intéressé par l’adoption des services cloud.  
 
 
-![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) Comprendre [les équipes et les canaux](teams-adoption-understand-teams-and-channels.md)
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Comprendre [les équipes et les canaux](teams-adoption-understand-teams-and-channels.md)

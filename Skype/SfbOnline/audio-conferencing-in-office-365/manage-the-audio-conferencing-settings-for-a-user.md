@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres d’audioconférence Skype Entreprise Online (fournisseur, numéro gratuit ou gratuit par défaut, ID de conférence ou code confidentiel) pour un utilisateur de votre organisation. '
-ms.openlocfilehash: 7f25df3c9f395583273a4bf8ce68f3c93699a41d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 555902f233733ac31613a3ecb23f7aa8eec7af67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614946"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730053"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Gérer les paramètres d’audioconférence d’un utilisateur dans Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Si vous voulez gérer les paramètres utilisateur dans Microsoft Teams, consultez Gérer les paramètres d’audioconférence d’un utilisateur [dans Microsoft Teams.](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)
+> Si vous voulez gérer les paramètres utilisateur dans Microsoft Teams, consultez Gérer les [paramètres d’audioconférence](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)d’un utilisateur dans Microsoft Teams.
 
 En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres d’audioconférence (fournisseur, numéro gratuit ou gratuit par défaut, ID de conférence ou code confidentiel) pour un utilisateur de votre organisation. Si vous voulez modifier les paramètres de votre organisation, consultez Gérer les [paramètres d’audioconférence pour mon organisation.](manage-the-audio-conferencing-settings-for-my-organization.md)
 
@@ -44,7 +44,7 @@ En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier le
     
 3. Dans le Skype Entreprise d’administration, sélectionnez **Utilisateurs.**
     
-4. Sélectionnez l’utilisateur pour lequel vous souhaitez gérer les paramètres, puis cliquez, dans le volet Actions, sur **Modifier**![Affiche l’icône Modifier](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png).
+4. Sélectionnez l’utilisateur pour lequel vous voulez gérer les paramètres, puis dans le volet Action, cliquez sur Modifier affiche l’icône  ![ ](../images/4d8bea48-be68-4e0e-a54c-73decf7ea4ec.png) Modifier.
     
 5. Choisissez **Audioconférence** dans le volet de navigation gauche, puis, dans la page **Propriétés** de l’utilisateur, modifiez une des options suivantes :
     
@@ -60,12 +60,12 @@ En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier le
 |**Autoriser les appelants non authentifiés à être les premiers à une réunion** <br/> |Sélectionnez cette option pour autoriser les appelants non authentifiés à rejoindre des réunions en premier.  <br/> |
 |**Restrictions pour les appels sortants depuis les réunions de cet utilisateur** <br/> |Sélectionnez une option dans cette liste si vous souhaitez restreindre les appels sortants aux appels nationaux uniquement, ou si vous souhaitez empêcher tous les appels sortants issus de réunions.  <br/> |
   
-![Affiche la page de propriétés Audioconférence d’un utilisateur](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
+![Affiche la page Propriétés de l’audioconférence d’un utilisateur.](../images/228550f7-92be-416d-9ab1-7c2ef54dd4e6.png)
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Gestion des paramètres d'audioconférence de mon organisation](manage-the-audio-conferencing-settings-for-my-organization.md)
 

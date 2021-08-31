@@ -17,12 +17,12 @@ description: Comment utiliser le rapport Teams pools de minutes PSTN dans le Cen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9dc0b12a17d54d6c0e5f858db92da3fc575d086f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f6ea18ce789ab08a92849833f72d1bf291ebaec9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577748"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730273"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams Rapport sur les pools de minutes PSTN
 
@@ -30,9 +30,9 @@ Le rapport Teams pools de minutes PSTN dans le Centre d’administration Microso
 
 ## <a name="view-the-pstn-minute-pools-report"></a>Afficher le rapport sur les pools de minutes PSTN
 
-Dans le panneau de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez des pools de **minutes PSTN,** puis cliquez sur **Exécuter le rapport.**
+Dans la barre de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez des pools de **minutes PSTN,** puis cliquez sur **Exécuter le rapport.**
 
-![Capture d’écran du Teams des groupes de minutes PSTN dans le Centre d’administration](../media/teams-reports-pstn-minute-pools-with-callouts.png "Capture d’écran du Teams des groupes de minutes PSTN dans le Centre d’administration Microsoft Teams avec des appels numéroés")
+![Capture d’écran du Teams des groupes de minutes PSTN dans le Centre d’administration.](../media/teams-reports-pstn-minute-pools-with-callouts.png "Capture d’écran du Teams des groupes de minutes PSTN dans le Centre d’administration Microsoft Teams avec des appels numéroés")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
@@ -42,7 +42,7 @@ Dans le panneau de navigation gauche du Centre Microsoft Teams’administration,
 |**2**   |Cliquez sur une fonctionnalité (licence) pour afficher l’activité de celle-ci. |
 |**3**   |L’axe X est le pays ou la région. L’axe Y compte le nombre de minutes. <br>Pointez sur une barre du graphique pour voir l’activité en fonction de cet emplacement d’utilisation.  |
 |**4**   |Vous pouvez filtrer ce qui est affiché dans le tableau en cliquant sur un élément dans la légende. Par exemple, cliquez **sur Utilisateurs** non **utilisés,** Utilisateurs nationaux, Aucune donnée ou **International** pour voir uniquement les informations relatives à chacune de ces tâches. |
-|**5**   |Le tableau offre une répartition des groupes de minutes par fonctionnalité et emplacement d’utilisation. <ul><li>**Le pays ou la région est** le lieu d’utilisation. </li><li>**La description de** la fonctionnalité est la description de la licence utilisée pour l’appel.  Les descriptions des fonctionnalités que vous verrez peut-être dans ce rapport sont les suivantes : <ul><li>Forfait d’appels nationaux et internationaux (1 200 minutes nationales)</li><li>Forfait d’appels nationaux et internationaux (3 000 minutes nationales)</li><li>Forfait d’appels nationaux et internationaux (600 minutes internationales)</li></ul></li><br><li>**Le nombre** total de minutes est le nombre total de minutes disponibles pour le mois.</li><li>**Le nombre de minutes** utilisées est le nombre de minutes utilisées chaque mois</li> <li>**Le nombre de** minutes disponibles est le nombre de minutes restantes pour le mois.</li><li>**La fonctionnalité** est la licence utilisée pour l’appel. Les licences que vous pouvez voir sont les suivantes :<ul><li>**MCOPSTN1** - Plan d’appels nationaux (plans de 3 000 min pour les États-Unis / 1 200 min pour l’UE)</li><li>**MCOPSTN2** - Forfait d’appels internationaux</li><li>**MCOPSTN5** - Forfait d’appels nationaux (forfait d’appels de 120 min)</li><li>**MCOPSTN6** - Forfait d’appels nationaux (plan d’appels de 240 min)</li><li>**MCOMEETADD** - Audioconférence</li></ul></li> </ul> Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau.|
+|**5**   |Le tableau offre une répartition des groupes de minutes par fonctionnalité et emplacement d’utilisation. <ul><li>**Le pays ou la région est** le lieu d’utilisation. </li><li>**La description de** la fonctionnalité est la description de la licence utilisée pour l’appel.  Les descriptions des fonctionnalités que vous verrez peut-être dans ce rapport sont les suivantes : <ul><li>Forfait d’appels nationaux et internationaux (1 200 minutes nationales)</li><li>Forfait d’appels nationaux et internationaux (3 000 minutes nationales)</li><li>Forfait d’appels nationaux et internationaux (600 minutes internationales)</li></ul></li><br><li>**Le nombre** total de minutes est le nombre total de minutes disponibles pour le mois.</li><li>**Le nombre de minutes** utilisées est le nombre de minutes utilisées chaque mois</li> <li>**Le nombre de** minutes disponibles est le nombre de minutes restantes pour le mois.</li><li>**La fonctionnalité** est la licence utilisée pour l’appel. Les licences que vous pouvez voir sont les suivantes :<ul><li>**MCOPSTN1** - Plan d’appels nationaux (plans de 3 000 min pour les États-Unis / 1 200 min pour l’UE)</li><li>**MCOPSTN2** - Forfait d’appels internationaux</li><li>**MCOPSTN5** - Forfait d’appels nationaux (plan d’appels de 120 min)</li><li>**MCOPSTN6** - Forfait d’appels nationaux (plan d’appels de 240 min)</li><li>**MCOMEETADD** - Audioconférence</li></ul></li> </ul> Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau.|
 |**6**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 |**7**   |Sélectionnez **Plein écran** pour afficher le rapport en mode Plein écran.|
 

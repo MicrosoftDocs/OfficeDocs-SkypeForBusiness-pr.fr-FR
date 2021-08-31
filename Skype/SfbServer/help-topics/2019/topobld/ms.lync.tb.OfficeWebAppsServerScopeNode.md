@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Cliquez avec le bouton droit sur Office Web Apps Servers dans le Générateur de topologie pour effectuer les choses suivantes :'
-ms.openlocfilehash: 08ea9171b7bd1d3c9585c9c8a8a291ac7c504ef5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1993d208f9af37485736ce6d72b0a8fa246371a7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629856"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728273"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expandeur du nœud d’étendue du serveur Office Web Apps Server
  
@@ -30,7 +30,7 @@ Cliquez avec le bouton **droit sur Office Web Apps Servers** dans le Générateu
     
 Outre l’option Nouveau serveur Office Web Apps Server, vous pouvez effectuer les tâches générales suivantes :
   
-![Office Nœud d’étendue du serveur WebApps](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
+![Office Nœud d’étendue du serveur WebApps.](../../../media/OfficeWebApps_Server_Scope_Node.jpg)
   
 - **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions précédentes ou supprimer le déploiement.
     

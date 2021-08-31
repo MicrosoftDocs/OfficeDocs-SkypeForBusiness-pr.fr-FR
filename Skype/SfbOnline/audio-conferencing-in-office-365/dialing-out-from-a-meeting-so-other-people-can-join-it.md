@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Découvrez ce dont vous avez besoin et comment les organisateurs de réunion peuvent appeler d’autres personnes avec Skype Entreprise.
-ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe8102db8306e4651de532b6e00de88ddb46247
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581978"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732383"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Faire un appel sortant d’Skype Entreprise réunion pour que d’autres personnes y participent
 
@@ -52,7 +52,7 @@ Pour ajouter d’autres participants par numérotation sortant aux réunions de 
   
  **Étape 2 :** entrez le numéro de téléphone complet, y compris l'indicatif du pays/de la région dans la zone.
   
-![Numéro d’appel sortant dans Skype Entreprise](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Numéro de téléphone sortant dans Skype Entreprise.](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>Pays et régions pris en charge
 
@@ -64,6 +64,6 @@ La mise en conférence n'est disponible que vers certains pays ou certaines rég
     
 - [Licences de complément Skype Entreprise](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Installer Skype Entreprise](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 'Résumé : Lisez cette rubrique pour découvrir comment déployer la conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 85aa9b28ddcc262ae65700e0b0425ebec3dd0d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cded58690f7ecc8481f3f273e0eba5e5ef20f03a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599539"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730033"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>Déployer la conférence dans Skype Entreprise Server
 
@@ -29,7 +29,7 @@ Lorsque vous déployez Skype Entreprise Server, les fonctionnalités de confére
 
 - [Liste de vérification du déploiement pour les conférences web et audio/vidéo](deploy-conferencing.md#BKMK_ChecklistWebConferencing)
 
-- [Fiche de flux de déploiement et liste de vérification pour les conférences téléphoniques](deploy-conferencing.md#BKMK_DialinConferencing)
+- [Fiche de flux de déploiement et liste de vérification pour la conférence conférences](deploy-conferencing.md#BKMK_DialinConferencing)
 
 Avant de déployer la conférence, lisez les rubriques de planification suivantes :
 
@@ -54,7 +54,7 @@ Le tableau suivant fournit une vue d’ensemble des étapes requises pour déplo
 |**Créer la topologie interne appropriée pour prendre en charge la conférence** <br/> |Vous devez exécuter le Générateur de topologie pour ajouter la conférence à la topologie, puis publier la topologie.  <br/> |Pour définir une topologie, un compte membre du groupe Utilisateurs local  <br/> Pour publier la topologie, un compte membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins, et qui dispose des autorisations de contrôle total (lecture/écriture/modification) sur le partage de fichiers à utiliser pour le magasin de fichiers Skype Entreprise Server (afin que le Générateur de topologie puisse configurer les DAC requises)  <br/> |[Créer et publier une nouvelle topologie dans Skype Entreprise Server](../../deploy/install/create-and-publish-new-topology.md) <br/> |
 |**Configurer les stratégies de conférence et les paramètres de configuration** <br/> |Utilisez Skype Entreprise Server panneau de configuration ou Skype Entreprise Server Management Shell pour configurer les stratégies de conférence et les paramètres de configuration.  <br/> |Groupe RTCUniversalServerAdmins (Windows PowerShell uniquement) ou attribuer des utilisateurs au rôle CSAdministrator  <br/> |[Gérer les stratégies de conférence dans Skype Entreprise Server](../../manage/conferencing/conferencing-policies.md) <br/> [Gérer les paramètres de configuration de réunion dans Skype Entreprise Server](../../manage/conferencing/meeting-configuration-settings.md) <br/> [New-CsConferencingPolicy](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps) <br/> [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps) <br/> [New-CsConferencingConfiguration](/powershell/module/skype/new-csconferencingconfiguration?view=skype-ps) <br/> [Set-CsConferencingConfiguration](/powershell/module/skype/set-csconferencingconfiguration?view=skype-ps) <br/> [New-CsMeetingConfiguration](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> [Set-CsMeetingConfiguration](/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |
 
-## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Fiche de flux de déploiement et liste de vérification pour les conférences téléphoniques
+## <a name="deployment-flowchart-and-checklist-for-dial-in-conferencing"></a>Fiche de flux de déploiement et liste de vérification pour la conférence conférences
 <a name="BKMK_DialinConferencing"> </a>
 
  La conférence rendez-vous permet aux utilisateurs d’appeler à partir du réseau téléphonique commuté (PSTN) pour participer à une conférence audio/vidéo.
@@ -65,7 +65,7 @@ L’exemple de flux de conférence rendez-vous indique les étapes à suivre sel
 
 **Flowchart de conférences dial-in**
 
-![Déploiement d’un organigramme de conférences téléphoniques](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
+![Déployer un organigramme de conférences téléphoniques.](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
 
 **Liste de vérification du déploiement des conférences téléphoniques**
 

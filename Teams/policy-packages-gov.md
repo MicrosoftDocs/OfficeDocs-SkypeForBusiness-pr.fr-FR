@@ -17,12 +17,12 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer Teams packages de stratégie pour votre organisation gouvernementale.
-ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f0b998540121e05f4113b298446dffefc832cb5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582168"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731983"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams packages de stratégies pour le gouvernement
 
@@ -41,7 +41,7 @@ Les packages de stratégie pré-définissent les stratégies suivantes, selon le
 - Configuration de l’application
 - Événements en direct
 
-Teams inclut actuellement les packages de stratégies suivants pour le gouvernement.
+Teams inclut actuellement les packages de stratégie suivants pour le gouvernement.
 
 |Nom du package dans le Centre d’administration Microsoft Teams|Idéal pour|Description |
 |---------|---------|---------|
@@ -49,11 +49,11 @@ Teams inclut actuellement les packages de stratégies suivants pour le gouvernem
 |Gestionnaire en ligne  |Responsables en ligne au niveau de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux responsables en ligne de votre organisation.|
 |Employé en ligne  |Employés en ligne de votre organisation gouvernementale |Crée un ensemble de stratégies et applique ces paramètres aux employés en ligne de votre organisation.|
 
-![Capture d’écran des packages de stratégie de santé](media/policy-packages-gov.png)
+![Capture d’écran des packages de stratégies de santé.](media/policy-packages-gov.png)
 
 Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie. Par exemple, lorsque vous affectez le package de stratégie du responsable de la sécurité publique à des utilisateurs de votre organisation, une stratégie nommée PublicSafety_Officer est créée pour chaque stratégie du package.
 
-![Capture d’écran des stratégies dans le package pour les professionnels de la santé](media/policy-packages-public-safety-officer.png)
+![Capture d’écran des stratégies dans le package pour les travailleurs médicaux.](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>Gérer vos packages de stratégie
 
@@ -80,7 +80,7 @@ Affecter un package de stratégie à des utilisateurs. Si une stratégie est att
 
 Pour attribuer un package de stratégie à un ou plusieurs utilisateurs, dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez à **Packages de stratégie**, puis sélectionnez **Gérer les utilisateurs**.  
 
-![Capture d’écran de l’attribution d’un package de stratégie dans le Centre d’administration](media/policy-packages-healthcare-assign.png)
+![Capture d’écran de l’attribution d’un package de stratégie dans le Centre d’administration.](media/policy-packages-healthcare-assign.png)
 
 Pour plus d’informations, consultez la section [Attribuer un package de stratégie](manage-policy-packages.md#assign-a-policy-package).
 

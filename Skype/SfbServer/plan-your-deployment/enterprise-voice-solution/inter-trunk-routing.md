@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Découvrez comment Skype Entreprise Server Voix Entreprise prend en charge le routage inter-acheminements.
-ms.openlocfilehash: e7b70ead822f9e80abf5a85a741492ec5608e8b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a44f9e269985312e31d827254dd7bbfae10bcfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593578"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731813"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>À propos du routage inter-Skype Entreprise Server
  
@@ -31,10 +31,10 @@ Skype Entreprise Server gestion des sessions de base via la prise en charge du r
   
 La figure suivante illustre Skype Entreprise Server l’interconnectivité entre une passerelle PSTN et un SYSTÈME IP-PBX.
   
-![Diagramme Lync Server connectant la passerelle PSTN/IP-PBX](../../media/inter_trunk01.jpg)
+![Diagramme Lync Server connectant la passerelle PSTN/IP-PBX.](../../media/inter_trunk01.jpg)
   
 La figure suivante illustre la Skype Entreprise Server deux systèmes IP-PBX.
   
-![Diagramme Lync Server interconnectant les systèmes IP-PAX](../../media/inter_trunk02.jpg)
+![Diagramme Lync Server interconnectant les systèmes IP-PAX.](../../media/inter_trunk02.jpg)
   
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Installer Power BI connecteur pour utiliser des modèles de requête de tableau de bord de qualité des appels
-ms.openlocfilehash: 258d3be034bd956c518f1ed7a67273f064b383b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e72f5731358ae1856b0379b47faefc5346ee3831
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593318"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730343"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>Installer le connecteur Qualité d’appel de Microsoft Power BI utiliser des modèles de requête Tableau de bord de qualité d’appel
 
@@ -51,11 +51,11 @@ Pour créer un état et exécuter des requêtes, vous devez d’abord vous conne
 
 1. Dans l’onglet Accueil du Power BI Desktop, cliquez sur *Obtenir des données.*
 
-    ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector1-resize.png)
+    ![Capture d’écran : Power BI lien.](media/CQD-power-bi-connector1-resize.png)
 
 2. La *fenêtre Obtenir des* données doit apparaître à ce stade. Accédez à *Online Services,* puis sélectionnez Qualité des appels *Microsoft (bêta),* puis *Connecter.*
 
-    ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector2-resize.png)
+    ![Capture d’écran : Power BI lien.](media/CQD-power-bi-connector2-resize.png)
 
 3. Vous serez invité à vous connectez ensuite. Utilisez les mêmes informations d’identification que vous utilisez pour le tableau de bord de qualité des appels. <sup>2</sup>
 
@@ -73,18 +73,18 @@ Une fois la configuration terminée, vous devriez voir les noms de plusieurs cen
 
 1. Sélectionnez la visualisation à utiliser dans le *volet Visualisations.* Une version vierge de cette visualisation doit apparaître sur la page. Dans le cadre de cet exemple, nous allons utiliser la *visualisation de table.*
 
-    ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector3-resize.png)
+    ![Capture d’écran : Power BI lien.](media/CQD-power-bi-connector3-resize.png)
 
 2. Déterminez les dimensions et les mesures (c’est-à-dire, le symbole d’agrégation par leur nom) que vous souhaitez utiliser pour votre requête, puis sélectionnez-les manuellement et faites-les glisser vers la visualisation noire. Vous aussi, faites-les glisser vers le champ *Valeurs* sous les options de visualisation.
 
-    ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector4-resize2.png)
+    ![Capture d’écran : Power BI lien.](media/CQD-power-bi-connector4-resize2.png)
 
     > [!IMPORTANT]
     > Le tableau de bord de qualité des appels nécessite une mesure pour l’exécuter pour toute requête. L’échec de l’ajout d’une mesure à une requête entraîne l’échec de cette requête.
 
-3. Sélectionnez ensuite les dimensions que vous voulez  filtrer et faites-les glisser vers les filtres de ce champ visuel dans *le volet Filtres.* Le connecteur Qualité d’appel Microsoft prend actuellement en charge le filtrage de base *(sélection* de valeurs dans une liste de valeurs de dimension *possibles),* le filtrage avancé (spécifier manuellement les valeurs et opérandes à filtrer, similaire au tableau de bord de qualité de l’appel) et le filtrage de *date* relatif (disponible uniquement pour les dimensions Heure de fin et *Heure* de début).  Le filtrage en fonction de *la première N n’est* pas pris en charge par le tableau de bord de qualité des appels.
+3. Ensuite, sélectionnez les dimensions que vous voulez  filtrer et faites-les glisser vers les filtres de ce champ visuel dans *le volet Filtres.* Le connecteur Qualité d’appel Microsoft prend actuellement en charge le filtrage de base *(sélection* de valeurs dans une liste de valeurs de dimension *possibles),* le filtrage avancé (spécifier manuellement les valeurs et opérandes à filtrer, similaire au tableau de bord de qualité de l’appel) et le filtrage de *date* relatif (disponible uniquement pour les dimensions Heure de fin et *Heure* de début).  Le filtrage en fonction de *la première N n’est* pas pris en charge par le tableau de bord de qualité des appels.
 
-    ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector5-resize.png)
+    ![Capture d’écran : Power BI lien.](media/CQD-power-bi-connector5-resize.png)
 
     > [!IMPORTANT]
     > Les filtres sont uniquement pris en charge lorsqu’ils sont appliqués aux dimensions. Le filtrage des valeurs des mesures n’est pas pris en charge dans le tableau de bord qualité des appels.
@@ -102,17 +102,17 @@ Une fois la configuration terminée, vous devriez voir les noms de plusieurs cen
 
 2. Sélectionnez la dimension à utiliser comme filtre d’drillthrough et faites-les glisser vers le champ *d’drillthrough* sous le volet *Visualisations.*
 
-    ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector6-resize.png)
+    ![Capture d’écran : Power BI lien.](media/CQD-power-bi-connector6-resize.png)
 
-3. **Voilà\!** Toute autre requête sur une autre page qui utilise cette dimension peut désormais passer au travers de cette page, en appliquant automatiquement la valeur de dimension d’drillthrough en tant que filtre.
+3. **Voilà\!** Toute autre requête sur une autre page qui utilise cette dimension peut désormais l’utiliser pour y appliquer automatiquement la valeur de dimension d’drillthrough en tant que filtre.
 
-    ![Capture d’écran : Power BI Connector](media/CQD-power-bi-connector7-resize.png)
+    ![Capture d’écran : Power BI lien.](media/CQD-power-bi-connector7-resize.png)
 
-Contrairement au tableau de bord de qualité des appels, Power BI prend en charge l’drillthrough non séquentielle. Si une requête inclut la dimension nécessaire, elle peut passer à n’importe quelle autre page.
+Contrairement au tableau de bord de qualité des appels, Power BI prend en charge l’drillthrough non séquentielle. Si une requête inclut la dimension nécessaire, elle peut passer d’une page à l’autre.
 
 ### <a name="best-practice"></a>Meilleure pratique
 
-Les requêtes Connecteur de qualité d’appel Microsoft doivent être conçues avec la fonctionnalité d’drillthrough à l’esprit. Au lieu d’essayer de charger toutes les données en une fois, puis de vous lancer avec des filtres, commencez avec des requêtes plus larges et à faible cardinalité, puis descendez jusqu’aux requêtes de cardinalité élevée. Par exemple, lorsque vous tentez de diagnostiquer les sous-réseaux qui contribuent le plus aux problèmes de qualité, il est utile d’identifier les régions et pays qui contribuent au problème, puis d’descendre dans les sous-réseaux dans cette région ou ce pays. Les modèles de connecteur Qualité d’appel ont été conçus de cette manière afin de faire partie de l’exemple.
+Les requêtes Connecteur de qualité des appels Microsoft doivent être conçues avec la fonctionnalité d’drillthrough à l’esprit. Au lieu d’essayer de charger toutes les données en une fois, puis de vous lancer avec des filtres, commencez avec des requêtes plus larges et à faible cardinalité, puis descendez jusqu’aux requêtes de cardinalité élevée. Par exemple, lorsque vous tentez de diagnostiquer les sous-réseaux qui contribuent le plus aux problèmes de qualité, il est utile d’identifier les régions et pays qui contribuent au problème, puis d’aller jusqu’aux sous-réseaux dans cette région ou ce pays. Les modèles de connecteur Qualité d’appel ont été conçus de cette manière afin de faire partie de l’exemple.
 
 ## <a name="limitations"></a>Limites
 
@@ -122,21 +122,21 @@ Malgré l’utilisation d’Power BI, toutes les fonctionnalités de Power BI ne
 
 2. **Agrégation –** Le modèle de données Tableau de bord de qualité des appels est conçu sur un modèle de cube : les agrégations sont déjà prises en charge sous forme de mesures. La tentative d’ajouter manuellement des agrégations à différentes dimensions ou de modifier le type d’agrégation d’une mesure ne fonctionne pas avec le connecteur et entraîne généralement une erreur.
 
-3. **Éléments visuels personnalisés –** Bien que le connecteur Qualité appel Microsoft fonctionne avec une plage de visuels personnalisés, nous ne pouvons pas garantir la compatibilité avec tous les visuels personnalisés. De nombreux visuels personnalisés s’appuient sur l’utilisation de colonnes calculées ou de données importées, lesquelles ne sont pas pris en charge par les connecteurs DirectQuery.
+3. **Éléments visuels personnalisés –** Bien que le connecteur Qualité appel Microsoft fonctionne avec une gamme de visuels personnalisés, nous ne pouvons pas garantir la compatibilité avec tous les visuels personnalisés. De nombreux visuels personnalisés s’appuient sur l’utilisation de colonnes calculées ou de données importées, lesquelles ne sont pas pris en charge par les connecteurs DirectQuery.
 
-4. **Référencement aux données** mises en cache Power BI pour le moment ne prend pas en charge le référencement des données mises en cache à partir d’un connecteur DirectQuery de quelque manière que ce soit. Toute tentative de référence aux résultats d’une requête entraîne la génération d’une nouvelle requête.
+4. **Référencement aux** données mises en cache Power BI pour le moment ne prend pas en charge le référencement des données mises en cache à partir d’un connecteur DirectQuery de quelque manière que ce soit. Toute tentative de référence aux résultats d’une requête entraîne la génération d’une nouvelle requête.
 
-5. **Filtrage relatif des données –** Est pris en charge dans le connecteur  Qualité des appels Microsoft, mais uniquement avec les dimensions Heure de début *et Heure de fin.* Bien que la dimension *Date* puisse être l’option la plus évidente pour le filtrage relatif des *dates,* La date n’est pas stockée en tant qu’objet d’heure de date et ne prend donc pas en charge le filtrage relatif des dates dans Power BI.
+5. **Filtrage relatif des données :** Est pris en charge dans le connecteur  Qualité des appels Microsoft, mais uniquement avec les dimensions Heure de début *et Heure de fin.* Bien que la dimension *Date* puisse être l’option la plus évidente pour le filtrage relatif des *dates,* la date n’est pas stockée en tant qu’objet d’heure de date et ne prend donc pas en charge le filtrage relatif des dates dans Power BI.
 
-6. **Requêtes de mesure uniquement -** Ne sont pas pris en charge pour le moment dans le connecteur Qualité de l’appel Microsoft. Lors de la création d’une visualisation avec trois mesures ou plus sans dimensions, les données de colonne sont transposées. Pour éviter cela, incluez toujours au moins une dimension (par exemple, Month Year) dans vos visualisations. Ce problème devrait être résolu dans une prochaine version du connecteur Qualité des appels Microsoft pour Power BI.
+6. **Requêtes uniquement de mesure -** Ne sont pas pris en charge pour le moment dans le connecteur Qualité de l’appel Microsoft. Lors de la création d’une visualisation avec trois mesures ou plus sans dimensions, les données de colonne sont transposées. Pour éviter cela, incluez toujours au moins une dimension (par exemple, Month Year) dans vos visualisations. Ce problème devrait être résolu dans une prochaine version du connecteur Qualité des appels Microsoft pour Power BI.
 
 7. **Cloud de la communauté du secteur public prise en charge (Cloud de la communauté du secteur public) –** Pour les clients dans l’Cloud de la communauté du secteur public d’appels, le connecteur Qualité de l’appel Microsoft fonctionne uniquement lorsque vous utilisez Power BI Desktop’utilisation. Le connecteur Qualité de l’appel Microsoft n’est actuellement pas compatible avec le service Power BI pour Cloud de la communauté du secteur public clients.
 
-La plupart de ces problèmes sont soit des restrictions à la conception de connecteur DirectQuery dans Power BI, soit fondamentales pour la conception du modèle de données du graphique de qualité des qualités de la recherche de données.
+La plupart de ces problèmes sont soit des restrictions à la conception de connecteur DirectQuery dans Power BI, soit fondamentales dans la conception du modèle de données du graphique de qualité des qualités de la recherche de données.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
-### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>J’essaie d’utiliser la colonne Date comme un secteur Date. Dès que je convertisse le type de données de cette colonne en Date, je reçois cette erreur
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>J’essaie d’utiliser la colonne Date comme un secteur Date. Dès que je convertis le type de données de cette colonne en Date, je reçois cette erreur
 
 > Impossible de charger les données pour ce visuel : erreur OLE DB ou ODBC : [Expression.Error] Nous **n’avons** pas pu plier l’expression à la source de données. Essayez une expression plus simple.
 
@@ -168,9 +168,9 @@ Si vous rencontrez des erreurs supplémentaires en dehors de cette étendue, inf
 
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Quand le connecteur Power BI sera-t-il mis à jour à partir de l’état « Bêta » ?
 
-Malgré la balise Bêta, le connecteur Microsoft Call Quality (Beta) pour Power BI est la première version « finale » du connecteur et a officiellement été signé par l’équipe Power BI pour refléter cela. Lors de la version initiale du connecteur, l’équipe Power BI n’a pas pu assurer le support et la certification générale, mais était néanmoins prête à en confirmer la sécurité, l’authenticité et les fonctionnalités générales du connecteur Qualité d’appel Microsoft. À l’avenir, nous envisageons d’investir dans le connecteur Qualité des appels Microsoft Power BI prochainement.
+Malgré la balise Bêta, le connecteur Microsoft Call Quality (Beta) pour Power BI est la première version « finale » du connecteur et a officiellement été signé par l’équipe Power BI pour refléter cela. Lors de la version initiale du connecteur, l’équipe Power BI n’a pas pu assurer le support et la certification générale, mais était prête à en confirmer la sécurité, l’authenticité et les fonctionnalités générales du connecteur Qualité d’appel Microsoft. À l’avenir, nous envisageons d’investir dans le connecteur Qualité des appels Microsoft Power BI prochainement.
 
-### <a name="why-does-the-connector-seem-slower-compared-to-call-quality-dashboard-in-the-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il plus lent par rapport au tableau de bord de qualité des appels dans le navigateur ? Que puis-je faire pour améliorer les performances ?
+### <a name="why-does-the-connector-seem-slower-compared-to-call-quality-dashboard-in-the-browser-what-can-i-do-to-improve-performance"></a>Pourquoi le connecteur semble-t-il plus lent que le tableau de bord de qualité des appels dans le navigateur ? Que puis-je faire pour améliorer les performances ?
 
 Les performances des requêtes des différents modèles sont en fait identiques tant dans le navigateur que dans le connecteur.  Comme toute autre application autonome, elle ajoute Power BI son authentification et son temps de rendu à nos performances. Par ailleurs, la différence vient du nombre de requêtes simultanées en cours d’exécuter. Étant donné que la version dans le navigateur du tableau de bord de qualité des appels avait moins d’options de visualisation bien développées et de visualisation de la densité d’informations, la plupart de nos rapports étaient limités au chargement de 2 à 3 requêtes à la fois. En revanche, les modèles de connecteur affichent souvent plus de 20 requêtes simultanées. Si vous souhaitez créer des rapports qui sont tout aussi réactifs que ceux que vous utilisiez, essayez de créer des rapports sans plus de 2-3 requêtes par onglet.
 
@@ -187,6 +187,6 @@ Au lieu d’essayer d’augmenter le nombre de lignes des résultats, il est pr�
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Utiliser Power BI pour analyser les données du CQD à des Teams](CQD-Power-BI-query-templates.md)

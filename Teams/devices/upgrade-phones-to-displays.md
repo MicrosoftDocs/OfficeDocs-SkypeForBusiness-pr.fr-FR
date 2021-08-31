@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Découvrez comment mettre à niveau Teams téléphones portables vers Teams’affichages dans le Microsoft Teams d’administration.
-ms.openlocfilehash: e504bde3b291deb0d38821a0551e70f1f7ac1d4d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a097cde5f8630e3a2ac8a6a932434baae2d92de6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588186"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728653"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Mettre à Teams niveau des téléphones Teams’affichage
 
@@ -30,9 +30,9 @@ ms.locfileid: "58588186"
 
 Cet article vous donne une vue d’ensemble de la façon de mettre à niveau Teams téléphones mobiles vers des Teams d’affichage dans le Microsoft Teams d’administration. Ceci permet aux appareils d’offrir à vos utilisateurs une expérience enrichie en tant Teams’affichage.
 
-Teams’affichage sont une catégorie d’appareils Teams connectés tout-en-un avec un écran tactile connecté et une expérience mains libres optimisée par Cortana. Teams’affichages sont l’évolution des Teams téléphones mobiles. En plus des fonctionnalités pris en charge par [Teams](phones-for-teams.md#features-supported-by-teams-phones)téléphones, les Teams incluent des fonctionnalités telles qu’un affichage toujours disponible dans lequel toutes les options Teams d’activité et de collaboration sont toujours disponibles. Pour en savoir plus sur les fonctionnalités propres Teams les affichages, voir [Microsoft Teams’affichages.](teams-displays.md)
+Teams’affichage sont une catégorie d’appareils Teams dédiés tout-en-un avec un écran tactile connecté et une expérience mains libres optimisée par Cortana. Teams’affichages sont l’évolution des Teams téléphones fixes. En plus des fonctionnalités pris en charge par [Teams](phones-for-teams.md#features-supported-by-teams-phones)téléphones, les Teams incluent des fonctionnalités telles qu’un affichage toujours disponible dans lequel toutes les options Teams d’activité et de collaboration sont toujours disponibles. Pour en savoir plus sur les fonctionnalités propres Teams les affichages, voir [Microsoft Teams’affichages.](teams-displays.md)
 
-## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Ce que vous devez savoir sur la mise à niveau vers Teams affiche
+## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Ce que vous devez savoir sur la mise à niveau vers Teams’affichages
 
 ### <a name="which-teams-phones-can-be-upgraded"></a>Quels Teams téléphones peuvent être mis à niveau ?
 
@@ -46,7 +46,7 @@ Indiquez-leur qu’il n’y a aucune modification à leurs données ou préfére
 
 ### <a name="what-happens-after-the-upgrade"></a>Que se passe-t-il après la mise à niveau ?
 
-Après avoir mis à niveau un téléphone Teams vers un périphérique d’affichage Teams, l’appareil est répertorié sur la page **Teams** dans la **section** Appareils du Centre d’administration Microsoft Teams. Vous le gérez de la même façon que vous gérez tout autre Teams appareil. Pour en savoir plus, [voir Gérer vos appareils dans Teams.](device-management.md)
+Après avoir mis à niveau un téléphone Teams vers un appareil d’affichage Teams, l’appareil est répertorié sur la page **Teams** dans la **section** Appareils du Centre d’administration Microsoft Teams. Vous le gérez de la même façon que vous gérez tout autre Teams appareil. Pour en savoir plus, [voir Gérer vos appareils dans Teams.](device-management.md)
 
 N’oubliez pas qu’après avoir mis à niveau un téléphone Teams vers un Teams d’affichage, l’action ne peut pas être annulée. Nous vous recommandons d’exécuter un pilote avec un groupe de premiers utilisateurs avant de mettre à niveau l’ensemble de votre organisation. 
 
@@ -55,7 +55,7 @@ N’oubliez pas qu’après avoir mis à niveau un téléphone Teams vers un Tea
 1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur **Téléphones**  >  **périphériques.**
 2. Sélectionnez les Teams téléphones à mettre à niveau, puis sélectionnez **Mettre à niveau.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Capture d’écran montrant Teams téléphones sélectionnés pour la mise à niveau vers Teams’affichage":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Capture d’Teams les téléphones sélectionnés pour la mise à niveau vers Teams’affichage.":::
 
 3. Dans la **boîte de dialogue Teams** à  afficher, sélectionnez Planifier la mise à niveau pour définir une date et une heure pour la mise à niveau ou la mise à **niveau maintenant.**
 

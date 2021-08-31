@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Résumé : Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634238"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728263"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le Tableau de bord de qualité des appels pour Skype Entreprise Server
 
@@ -40,10 +40,10 @@ En outre, le tableau de bord de qualité des commandes expose des API web qui do
 
 Lorsque vous visitez le Tableau de bord de qualité des appels, l’écran suivant s’affiche :
 
-![Utiliser le CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![Utilisez le CQD.](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. Le volet « Résumé » est l’endroit où se trouve le contexte de l’ensemble de rapports (à droite).
-2. Cliquez sur « Modifier » dans le volet Résumé Pour définir les propriétés de niveau (y compris la hauteur de l’axe Y).
+2. Cliquez sur « Modifier » dans le volet résumé pour définir les propriétés de niveau (y compris la hauteur de l’axe Y).
 3. La breadcrumb vous permet d’identifier votre emplacement actuel dans la hiérarchie des ensembles de rapports.
 4. Les rapports avec des sous-rapports sont affichés avec un lien bleu. Cliquez sur le lien pour descendre dans les rapports enfants.
 
@@ -63,7 +63,7 @@ Cliquez sur le titre de l’un des rapports pour accéder aux rapports avec d’
 
 Cliquez sur « Modifier » dans le menu Actions d’un rapport pour voir l’Éditeur de rapport. Chaque rapport est dosé par une requête dans le cube. Un rapport est une visualisation des données renvoyées par sa requête. L’Éditeur de rapport vous aide à modifier ces requêtes et les options d’affichage du rapport. Lorsque vous ouvrez l’Éditeur de rapports, vous voyez :
 
-![Utiliser le CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![Utilisez le CQD.](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. Les dimensions, les mesures et les filtres sont choisis dans le volet gauche. Pointez sur l’une des valeurs existantes pour afficher un bouton « x » qui permet de supprimer la valeur. Cliquez sur le bouton « plus » en haut d’un titre pour ouvrir la boîte de dialogue dans laquelle vous pouvez ajouter une nouvelle dimension, une nouvelle mesure ou un nouveau filtre.
 2. Les options de personnalisation de graphique sont affichées en haut.
@@ -74,7 +74,7 @@ Cliquez sur « Modifier » dans le menu Actions d’un rapport pour voir l’Éd
 
 Lorsque StartDate.Month est ajouté en tant que dimension et que les données sont affichées sous forme de tendance sous forme de tableau, les graphiques à barres et les graphiques sparkline peuvent être affichés à l’intérieur des cellules du tableau. Déplacez le pointeur de la souris sur le graphique à barres et les graphiques sparkline pour afficher les valeurs des mois individuels.
 
-![Utiliser le CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![Utilisez le CQD.](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 Pour que les graphiques à barres et les graphiques sparkline apparaissent, la case à cocher « Afficher les graphiques sparkline » en haut de l’Éditeur de rapports doit être cochée. Cette option sélectionne l’option Tendance et déplace Month vers le bas pour qu’il soit la dernière dimension, ce qui peut également être réalisé en cliquant sur Mois et en utilisant les flèches haut et bas pour décaler StartDate.Month vers le haut ou vers le bas.
 
@@ -82,11 +82,11 @@ Pour que les graphiques à barres et les graphiques sparkline apparaissent, la c
 
 Le menu Paramètres contient des liens vers des pages utiles telles que les pages État du système et À propos de, et se trouve dans le coin supérieur droit du tableau de bord.
 
-![Utiliser le CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![Utilisez le CQD.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 L’affichage des descriptions et des horodaodatés doit être pris en compte par les utilisateurs individuels, et ces paramètres affectent uniquement la version individuelle du tableau de bord et ne modifient pas l’ensemble de rapports ou ce que voient les autres utilisateurs. L’effacement du cache entraîne le rechargement des données de toutes les requêtes à partir du cube, tandis que la restauration par défaut supprime tous les rapports créés ou modifiés par l’utilisateur et recrée l’ensemble de rapports système , ce qu’un utilisateur voit lorsqu’il se connecte pour la première fois.
 
-Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
+Le lien Tableau de bord utilisateurs affiche une page dans laquelle les utilisateurs peuvent afficher d’autres utilisateurs du tableau de bord des utilisateurs et parcourir leurs rapports. Pour partager un ensemble de rapports, copiez le lien dans la barre d’URL et partagez-le avec un autre utilisateur CQD. Ce lien est le même que celui que les autres utilisateurs peuvent voir dans la page Lien Du tableau de bord des utilisateurs sous le nom d’utilisateur de l’utilisateur.
 
 ### <a name="supplying-subnet-information"></a>Fourniture d’informations de sous-réseau
 
@@ -97,7 +97,7 @@ Pour créer ces rapports, complétez au minimum les tableaux suivants :
 - CqdBuilding
 - CqdNetwork
 
-Des informations supplémentaires peuvent être fournies dans les tables CqdBuildingType et CqdBuildingOwnershipType pour permettre un filtrage et une recherche supplémentaires.
+Des informations supplémentaires peuvent être fournies dans les tables CqdBuildingType et CqdBuildingOwnershipType pour permettre un filtrage et une recherche plus précis.
 
 Les données utilisées pour ces tables sont définies comme suit :
 
@@ -236,7 +236,7 @@ Exemple : pour obtenir tous les flux à partir d’un bâtiment, UNION fournit u
 
 Si la technologie sans fil est gérée en interne, vous pouvez recréer les rapports sans fil dans le compartiment géré.
 
-![Répartition du rapport CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![Répartition du rapport CQD.](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## <a name="operational-processes"></a>Processus opérationnels
 

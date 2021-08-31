@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type d’audioconférence et d’appels PSTN d’utilisateur final qui peuvent être effectués par les utilisateurs.
-ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598408"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730323"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
 
@@ -49,7 +49,7 @@ Pour savoir quels pays et quelles régions sont considérés comme zone A, consu
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restreindre les appels sortants de conférence audio
 
-![Logo Microsoft Teams’aide ](media/teams-logo-30x30.png) **du Centre d’Microsoft Teams’administration**
+![la Microsoft Teams logo de l’équipe.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la barre de navigation de gauche, **sélectionnez** Utilisateurs, puis le nom d’affichage de l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -59,15 +59,15 @@ Pour savoir quels pays et quelles régions sont considérés comme zone A, consu
 
 5. Sélectionnez **Enregistrer**.
 
-![Icône affichant le logo Skype Entreprise](media/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](media/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
 
-1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, sélectionnez Utilisateurs de l’audioconférence, puis sélectionnez l’utilisateur dans la liste   >  des utilisateurs disponibles.
+1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, sélectionnez Utilisateurs de l’audioconférence, puis sélectionnez l’utilisateur dans la liste des   >  utilisateurs disponibles.
 
 2. Dans le volet Action, sélectionnez **Modifier.**
 
 3.  Sous **Restrictions de numérotation des réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant souhaitée.
 
-      ![Les restrictions aux options de numérotation](media/restrictions-to-dial-outs.png)
+      ![Restrictions sur les options de sorties sortantes.](media/restrictions-to-dial-outs.png)
 
 4. Sélectionnez **Enregistrer**.
 
@@ -92,7 +92,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
 ```
 
-Cette stratégie est attribuée à tous les utilisateurs du client qui n’ont pas de stratégie de numérotation. Les autres utilisateurs demeurent avec leur stratégie actuelle.
+Tous les utilisateurs du client qui n’ont pas de stratégie de numérotation seront affectés à cette stratégie. Les autres utilisateurs demeurent avec leur stratégie actuelle.
 
 Le tableau suivant fournit une vue d’ensemble de chaque stratégie.
 

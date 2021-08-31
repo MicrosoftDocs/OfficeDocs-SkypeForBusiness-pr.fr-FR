@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2501c113eb3589ba26d4a9a6932e103f913c9239
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616130"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730153"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Vue d’ensemble de l’implémentation de votre mise à niveau
 
-![Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
+![Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation.](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre parcours vers la mise à niveau. 
 
@@ -57,7 +57,7 @@ En fonction de votre environnement actuel, choisissez votre point de départ :
 
 - **Si vous devez mettre à** niveau Skype Entreprise Online vers Teams, suivez les étapes de la mise à niveau de Skype Entreprise Online vers [Teams.](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  Si vous effectuez une mise à niveau à partir d’un environnement Skype Entreprise local, vous devrez effectuer quelques **étapes** supplémentaires pour configurer la connectivité entre vos environnements locaux et en ligne avant de déplacer vos utilisateurs vers Teams. Pour plus d’informations, voir Mise Skype Entreprise niveau vers une [version Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  Si vous effectuez une mise à niveau à partir d’un environnement Skype Entreprise local, vous devrez effectuer quelques **étapes** supplémentaires pour configurer la connectivité entre vos environnements locaux et en ligne avant de déplacer vos utilisateurs vers Teams. Pour plus d’informations, voir Mise Skype Entreprise niveau vers une version [Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

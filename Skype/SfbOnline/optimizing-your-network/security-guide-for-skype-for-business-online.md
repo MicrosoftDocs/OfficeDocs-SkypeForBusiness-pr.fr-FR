@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Guide de sécurité pour Skype Entreprise Online <add description>
-ms.openlocfilehash: 9eeaa4aec19a3113013ca93c76dfc686eb85b270
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 85084e3bc675aaadf190b2c486bfe3d6adcb684c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619290"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728439"
 ---
 # <a name="security-and-skype-for-business-online"></a>Sécurité et Skype Entreprise Online
 
@@ -227,7 +227,7 @@ Le port TCP 50 000 sortant est utilisé pour SFBO, y compris pour le partage d�
 Pour permettre aux utilisateurs externes et aux utilisateurs internes d’échanger des médias, un service Edge d’accès doit gérer la signalisation SIP nécessaire pour configurer et détruire une session. Un service Edge A/V est également requis pour agir en tant que relais pour le transfert des médias. La séquence d’appel est illustrée dans la figure suivante.
 
 
-![Séquence d’appel pour rejoindre une réunion](media/sfbo-call-sequence-security.png) 
+![Séquence d’appels dans Participer à une réunion.](media/sfbo-call-sequence-security.png) 
 
 1. Un utilisateur reçoit un e-mail contenant une invitation pour rejoindre une réunion SfBO. L’e-mail contient une clé de conférence et une URL au format HTTP établissant un lien vers la conférence. La clé et l’URL sont spécifiques à une réunion particulière.<p>L’utilisateur initie la procédure de participation en cliquant sur l’URL de la réunion dans l’e-mail qui lance le processus de détection du client sur la machine de l’utilisateur. Si le client est détecté, il est lancé. S’il n’est pas détecté, l’utilisateur est redirigé vers le client Web.<p/>
 2. Le client SFBO envoie une INVITATION SIP contenant les informations d’identification de l’utilisateur. Un utilisateur fédéré ou distant participe à une conférence à l’aide de ses informations d’identification d’entreprise. Pour un utilisateur fédéré, l’INVITATION SIP est d'abord envoyée à son serveur d’origine, lequel authentifie l’utilisateur et transmet l’INVITATION à SFBO. Un utilisateur anonyme est requis pour réussir l’authentification digest.<p>SDBO authentifie l’utilisateur distant ou anonyme et notifie le client. Comme mentionné à l’étape 2, les utilisateurs fédérés qui rejoignent une conférence sont authentifiés par leur entreprise.<p/>

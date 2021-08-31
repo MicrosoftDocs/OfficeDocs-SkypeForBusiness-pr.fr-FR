@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Découvrez comment configurer des Salles Microsoft Teams, notamment planifier, déployer et gérer le système afin de créer votre salle de réunion virtuelle idéale.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: e45ca5445356fcf6c847d8a7680a463a09bfe864
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95d2ef04e4021a91b6881d4ca7537aa4e756420
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607037"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730426"
 ---
 # <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "58607037"
        Pour une présentation rapide de salles Teams, cliquez sur la vidéo à droite.
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -45,7 +45,7 @@ ms.locfileid: "58607037"
 |  **[Plan](./rooms-plan.md)** |  **[Déployer](./rooms-deploy.md)** |  **[Gestion](./rooms-manage.md)** |
 
 
-[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
 > Salles Microsoft Teams est destiné à être utilisé avec Microsoft Teams, Skype Entreprise Online, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015.

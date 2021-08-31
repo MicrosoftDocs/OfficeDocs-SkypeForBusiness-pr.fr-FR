@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628256"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732403"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
@@ -40,9 +40,9 @@ La meilleure façon de conduire l’adoption Teams’utilisation du produit. Nou
 
 Dans Microsoft Teams, la [](/microsoftteams/platform/concepts/tabs/tabs-overview) galerie d’onglets vous permet d’accéder à toutes les Microsoft 365 ou Office 365 et applications tierces qui ont été désactivées par l’administrateur. Pour obtenir le meilleur de votre produit, nous vous suggérons d’épingler des ressources clés sous forme d’onglets dans chacun des canaux appropriés. Consultez l’exemple ci-dessous.
 
-![Capture d’écran montrant les onglets par défaut et personnalisés](media/teams-adoption-tab-example.png)
+![Capture d’écran montrant les onglets par défaut et personnalisés.](media/teams-adoption-tab-example.png)
 
-Dans vos équipes initiales, nous vous suggérons d’épingler les éléments suivants afin de les référencer facilement dans vos canaux d’équipe. Ces ressources sont en plus de vos sections OneNote bloc-notes. Si vous travaillez avec notre équipe de FastTrack, elle vous aidera dans la configuration de ces premières équipes. 
+Dans vos équipes initiales, nous vous suggérons d’épingler les éléments suivants à des fin de référence facile dans vos canaux d’équipe. Ces ressources sont en plus de vos sections OneNote bloc-notes. Si vous travaillez avec notre équipe de FastTrack, elle vous aidera dans la configuration de ces premières équipes. 
 
 |Nom de l’équipe/du canal | Onglet épinglé |
 |----------------- | ---------- |
@@ -66,4 +66,4 @@ Dans vos équipes initiales, nous vous suggérons d’épingler les éléments s
 
 Lorsque vous commencez à utiliser Teams, il est important pour vous et le reste de l’équipe de projet de vous engager à utiliser Teams conversation instantanée, des canaux et des ressources pour exécuter votre projet. Votre propre utilisation d’Teams est essentielle pour la qualité de votre projet d’adoption. Nous vous recommandons de résistance au fragmentation de votre projet en continuant à discuter par courrier électronique avec l’équipe de projet de base. En passant à Teams vous modélisez le comportement que vous souhaitez finalement que vos employés adoptent. Définissez le ton, commencez par vous lancer et commencez à profiter des informations de votre projet dans un seul endroit !  
 
-![Icône représentant l’étape suivante : Dans quelle mesure votre ](media/teams-adoption-next-icon.png) [organisation est-elle](teams-adoption-assess-readiness.md) prête à Microsoft Teams ?
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : [Votre organisation est-elle prête à l’Microsoft Teams ?](teams-adoption-assess-readiness.md)

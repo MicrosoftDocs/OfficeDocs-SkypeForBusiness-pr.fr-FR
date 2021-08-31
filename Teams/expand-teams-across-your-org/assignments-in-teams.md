@@ -21,23 +21,23 @@ description: Découvrez comment gérer les devoirs dans le Centre d’administra
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd8aef1a8d84a77f14824379383c5f77679f8c6f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef615924a4c449a3b2b408d929cf3d2678e4a1e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592290"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728673"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
-Les fonctionnalités Devoirs et Notes Teams pour l’éducation aux enseignants d’attribuer des tâches, du travail ou des questionnaires à leurs étudiants. Les enseignants peuvent gérer la chronologie des devoirs, les instructions, ajouter des ressources à rendre, ajouter des notes avec des rubriques, etc. Ils peuvent également suivre les progrès individuels d’une classe et d’un étudiant dans l’onglet Notes.
+Les fonctionnalités Devoirs et Notes Teams pour l’éducation aux enseignants d’attribuer des tâches, du travail ou des questionnaires à leurs étudiants. Les enseignants peuvent gérer la chronologie des devoirs, les instructions, ajouter des ressources à rendre, notes avec des rubriques, etc. Ils peuvent également suivre la progression de la classe et de l’étudiant individuel dans l’onglet Notes.
 
 [En savoir plus sur les devoirs et les notes dans Teams pour l’éducation.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
 > Pour plus d’informations sur Teams devoirs sur différentes plateformes, voir Teams [fonctionnalités par plateforme.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Intégrations des devoirs dans le Centre Microsoft Teams’administration
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Intégrations des devoirs dans le centre Microsoft Teams’administration
 
 En utilisant les paramètres d’administration du Microsoft Teams d’administration, vous pouvez activer ou désactiver des fonctionnalités pour les enseignants de votre organisation et leurs étudiants. Les paramètres suivants sont liés aux devoirs :
 
@@ -54,7 +54,7 @@ Les messages tuteurs sont envoyés chaque week-end à des parents ou tuteurs lé
    > [!NOTE]
    > Les enseignants peuvent refuser les e-mails du parent/tuteur en désélectionner le paramètre au sein de leur équipe de classe personnelle (e-mail de Paramètres >**du parent/tuteur).**
 
-Pour vérifier que les parents vont recevoir l’e-mail, les trois éléments suivants doivent être vérifiés :
+Pour vérifier que les parents vont recevoir le message électronique, les trois éléments suivants doivent être vérifiés :
 
  - Adresse e-mail jointe au profil d’étudiant dans SDS et marquée en tant que _parent_ ou _tuteur._ Pour plus d’informations, voir Format de fichier de synchronisation des parents et [tuteurs.](/schooldatasync/parent-contact-sync-file-format)
 
@@ -62,20 +62,20 @@ Pour vérifier que les parents vont recevoir l’e-mail, les trois éléments su
 
  - Les messages électroniques contiennent des informations sur les devoirs dont la date d’échéance était la semaine précédente ou la semaine à venir.
 
-Le paramètre par défaut pour cette fonctionnalité est - **Non.**
+Le paramètre par défaut de cette fonctionnalité est - **Non.**
 
 
 <a name="bkmakecode"> </a>
 ### <a name="makecode"></a>MakeCode
 Microsoft MakeCode est une plateforme de codage en blocs qui donne vie à l’informatique de tous les étudiants. 
 
-MakeCode est un produit Microsoft qui est soumis aux conditions d’utilisation et aux politiques [de confidentialité de](https://go.microsoft.com/fwlink/?LinkId=521839) Microsoft. [](https://go.microsoft.com/fwlink/?LinkID=206977)
+MakeCode est un produit Microsoft soumis aux conditions d’utilisation et aux politiques [de confidentialité de](https://go.microsoft.com/fwlink/?LinkId=521839) Microsoft. [](https://go.microsoft.com/fwlink/?LinkID=206977)
 
-Le paramètre par défaut pour cette fonctionnalité est - **Non.**
+Le paramètre par défaut de cette fonctionnalité est - **Non.**
 
 Pour activer les affectations MakeCode dans Teams, accédez au Centre d’administration **Teams,** accédez à la section  **Devoirs,** puis activez l’option bascule MakeCode. Cliquez sur **Enregistrer**. Laissez quelques heures à ces paramètres pour qu’ils prennent effet.
 
-Pour plus d’informations sur le fonctionnement de cette fonctionnalité, voir cette [vidéo de démonstration.](https://makecode.com/blog/teams/teams-assignments)
+Pour plus d’informations sur le fonctionnement de cette fonctionnalité, regardez [cette vidéo de démonstration.](https://makecode.com/blog/teams/teams-assignments)
 
 [En savoir plus sur MakeCode.](https://aka.ms/makecode)
 
@@ -96,20 +96,20 @@ Voici quelques instructions pour vous aider à obtenir ces informations.
 **TurnitinApiUrl** est l’adresse hôte de votre console d’administration.
 Exemple : `https://your-tenant-name.turnitin.com`
 
-La console d’administration vous permet de créer une intégration et une clé d’API associées à l’intégration.
+La console d’administration est l’endroit où vous pouvez créer une intégration et une clé d’API associées à l’intégration.
 
 Sélectionnez **Intégrations** dans le menu latéral, puis **sélectionnez Ajouter** une intégration et donnez un nom à l’intégration.
 
-![Capture d’écran montrant l’ajout d’une nouvelle intégration](./educationImages/Assignments_mopo_turnitin2.png)
+![Capture d’écran montrant l’ajout d’une nouvelle intégration.](./educationImages/Assignments_mopo_turnitin2.png)
 
 Une fois que vous aurez suivi les invites, la clé **TurnitinApiKey** vous sera donnée. Copiez la clé d’API et collez-la dans le Microsoft Teams’administration.  C’est la seule fois que vous pouvez afficher la clé.
 
-![Capture d’écran montrant la copie de la clé API](./educationImages/Assignments_mopo_turnitin3.png)
+![Capture d’écran montrant la copie de la clé API.](./educationImages/Assignments_mopo_turnitin3.png)
 
 En cliquant sur **le bouton Enregistrer** dans le Centre d’administration pour ce paramètre, laissez quelques heures pour que ces paramètres prennent effet.
 
 ### <a name="removing-assignments-and-grades"></a>Suppression des devoirs et des notes
-Vous pouvez utiliser des stratégies Teams pour supprimer les devoirs et les notes pour un utilisateur spécifique ou pour l’ensemble de votre client. 
+Vous pouvez utiliser des stratégies Teams pour supprimer les devoirs et notes pour un utilisateur spécifique ou pour l’ensemble de votre client. 
 
 Pour supprimer devoirs et notes pour un utilisateur individuel, accédez au Centre d’administration **Teams,** puis accédez à Teams applications et > **d’autorisation** pour créer une définition de stratégie d’autorisation d’application.  Lorsque vous créez la définition de  stratégie, définissez la stratégie des applications **Microsoft** de façon à bloquer des applications **spécifiques,** à autoriser toutes les autres applications et à ajouter des affectations à la liste des applications bloquées. Une fois votre nouvelle définition de stratégie enregistrée, affectez-la aux utilisateurs appropriés.
 

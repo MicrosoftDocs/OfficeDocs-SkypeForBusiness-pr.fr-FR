@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
-ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634058"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730223"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -51,23 +51,23 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 2. Développez **Teams Applications et** **sélectionnez Gérer les applications.**
-3. Consultez **la colonne Personnalisables** de la liste d’applications et tochez les différentes applications personnalisables.
+3. Consultez **la colonne Personnalisable** de la liste des applications et t triez par applications personnalisables.
 
-   ![La colonne de personnalisation triée](media/customize-column.png)
+   ![La colonne de personnalisation triée.](media/customize-column.png)
 
    Trois points d’entrée vous sont accessibles pour accéder à la fonctionnalité personnaliser :
 
    - Sélectionnez en côté de l’application que vous voulez personnaliser, puis **sélectionnez Personnaliser.**
 
-     ![Option personnaliser la sélection 1](media/select-app-to-customize1.png)
+     ![L’option de personnalisation de la sélection 1.](media/select-app-to-customize1.png)
 
    - Sélectionnez le nom de l’application, **puis Personnalisable.**
 
-     ![Option personnaliser la sélection 2](media/app-details-customizable.png)
+     ![Option personnaliser la sélection 2.](media/app-details-customizable.png)
 
    - Sélectionnez le nom de l’application, puis **sélectionnez** Personnaliser dans la dropdown **Actions.**
 
-     ![Option personnaliser la sélection 3](media/customize-action-menu.png)
+     ![L’option de personnalisation de la sélection 3.](media/customize-action-menu.png)
 
 4. Développez la section **Détails** et personnalisez les champs suivants :
 
@@ -78,7 +78,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
     - URL de la politique de confidentialité
     - URL des conditions d’utilisation
 
-   ![Personnaliser les paramètres](media/customize-settings.png)
+   ![Personnalisez les paramètres.](media/customize-settings.png)
 
 > [!Note]
 > Seuls les champs que le développeur de l’application a attribués comme personnalisables seront visibles.
@@ -91,7 +91,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
    c. Sélectionnez une couleur d’accentuage de l’application qui correspond à l’icône.
 
-    ![Personnaliser les options de couleur du panneau d’icônes](media/customize-app-colors.png)
+    ![Personnalisez les options de couleur du panneau d’icônes.](media/customize-app-colors.png)
 
 6. Une fois votre application personnalisée, sélectionnez **Appliquer.**
 
@@ -101,7 +101,7 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 Vos utilisateurs finaux Teams désormais ouvrir leur client Teams client pour voir l’application personnalisée.
 
-   ![Application personnalisée dans Teams client](media/contoso-app.png)
+   ![Application personnalisée dans Teams client.](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Considérations particulières pour la personnalisation d’une application
 
@@ -127,7 +127,7 @@ Vous souhaitez peut-être consulter les détails de l’application pour examine
 
 4. Afficher les détails de l’application, y compris le nom d’origine de l’application **Short name from publisher.**
 
-   ![Personnaliser le nom de l’application du panneau d’icônes](media/original-app-version.png)
+   ![Personnalisez le nom de l’application du panneau d’icônes.](media/original-app-version.png)
 
    Le **champ Nom court de l’éditeur** n’est visible que si vous avez modifié le nom court de l’application.
 
@@ -143,7 +143,7 @@ Vous souhaitez peut-être consulter les détails de l’application pour examine
 
 4. Sélectionnez **Rétablir la valeur par défaut** dans la dropdown **Actions.**
 
-   ![Sélectionnez Rétablir la valeur par défaut mise en évidence](media/select-reset.png)
+   ![Sélectionnez Rétablir la valeur par défaut mise en évidence.](media/select-reset.png)
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 

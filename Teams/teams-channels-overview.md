@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579578"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731943"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -92,7 +92,7 @@ Voici quelques exemples fonctionnels de la façon dont différents types d’uti
 
 Microsoft Teams est idéal pour éliminer les structures organisationnelles et promouvoir les équipes polyvalentes. Encouragez vos utilisateurs à penser aux équipes polyvalentes plutôt qu'aux limites organisationnelles.
 
-|Types d'équipes  |Canaux potentiels  |Applications (Onglets ![Une icône représentant un dossier avec un onglet](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connecteurs ![Une Icône montrant les blocs de connexion](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Robots ![Un icône représentant un petit robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Types d'équipes  |Canaux potentiels  |Applications (Onglets ![Une icône représentant un dossier avec un onglet.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connecteurs ![Une Icône montrant les blocs de connexion](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Robots ![Un icône représentant un petit robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Ventes     |Réunion annuelles sur les ventes<br></br> Évaluation trimestrielle des activités<br></br> Évaluation mensuelle de la pipeline des ventes<br></br> Registre des ventes |Power BI<br></br>Trello<br></br>CRM<br></br>Bot récapitulatif         |
 |Relations publiques     |Communiqués de presse<br></br>Actualité et mises à jour<br></br>Vérification des faits         |Flux RSS<br></br>Twitter         |

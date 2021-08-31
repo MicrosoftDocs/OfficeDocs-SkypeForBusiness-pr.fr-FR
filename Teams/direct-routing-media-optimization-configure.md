@@ -16,12 +16,12 @@ f1.keywords:
 description: Configurer l’optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365631"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730313"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurer l’optimisation des médias locaux pour le routage direct
 
@@ -36,7 +36,7 @@ Pour configurer l’optimisation des médias locaux, les étapes suivantes sont 
 
 Le diagramme suivant illustre la configuration réseau utilisée dans les exemples tout au long de cet article.
 
-![Diagramme montrant la configuration réseau pour des exemples](media/direct-routing-media-op-9.png "Configuration réseau pour des exemples")
+![Diagramme montrant la configuration réseau pour des exemples.](media/direct-routing-media-op-9.png "Configuration réseau pour des exemples")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>Configurer l’utilisateur et les sites SBC
@@ -207,7 +207,7 @@ Le tableau suivant indique la configuration et l’action de l’utilisateur fin
 
 Le diagramme suivant montre l’évolution SIP d’un appel sortant avec le mode de contournement Toujours et l’utilisateur situé au même emplacement que le SBC.
 
-![Diagramme montrant les appels sortants](media/direct-routing-media-op-10.png "Appels sortants")
+![Diagramme montrant les appels sortants.](media/direct-routing-media-op-10.png "Appels sortants")
 
 Le tableau suivant indique les en-têtes X-MS envoyés par routage direct :
 
@@ -240,7 +240,7 @@ Le diagramme suivant montre l’évolution SIP d’un appel entrant avec le mode
 
 | Mode |    Utilisateur |  Site |  Direction de l’appel
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  S/O | Sortant |
+AlwaysBypass |  Externe |  N/A | Sortant |
 
 
 Le diagramme suivant illustre l’évolution SIP d’un appel sortant avec le mode AlwaysBypass et l’utilisateur est externe :
@@ -259,7 +259,7 @@ Le tableau suivant indique les en-têtes X-MS envoyés par le service de routage
 
 | Mode | Utilisateur | Site |  Direction de l’appel |
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  S/O |   Entrant |
+AlwaysBypass |  Externe |  N/A |   Entrant |
 
 Pour un appel entrant, le SBC connecté au routage direct doit envoyer une nouvelle invitation (par défaut, les candidats aux médias locaux sont toujours proposés) si l’emplacement de l’utilisateur est externe.  Le X-MediaPath est calculé sur la base des Record-Route et de l’utilisateur SBC spécifié.
 

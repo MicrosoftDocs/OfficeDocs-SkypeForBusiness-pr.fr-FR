@@ -11,12 +11,12 @@ author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 014c51182213ec17e940f466ddd5fa0cc13185be561e3670277430ce78a054c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5107521b6b3c3cb69ccb33df1a895edc5fe8b7d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314090"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732013"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Créez un Microsoft 365 de ressources à l’aide de l’Centre d’administration Microsoft 365
 
@@ -40,10 +40,10 @@ Pour plus d’informations sur les licences Salle de réunion, Système téléph
 1. Connectez-vous à Microsoft 365 en visitanthttps://admin.microsoft.com
 2. Fournir les informations d’identification d’administrateur pour Microsoft 365 client. Cela vous permettra d’Centre d’administration Microsoft 365.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Centre d'administration Microsoft 365":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Centre d’administration Microsoft 365.":::
 3. Dans le Centre d’administration, accédez à Ressources  dans le panneau gauche (vous devrez peut-être sélectionner Afficher tout d’abord), puis sélectionnez Salles **& matériel.** 
 
-:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Centre d’administration Microsoft 365 - Ressources":::
+:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Centre d’administration Microsoft 365 - Ressources.":::
 4. Sélectionnez **Ajouter une boîte aux lettres de ressource** pour créer un compte de salle. Entrez un nom d’affichage et une adresse e-mail pour le compte, **sélectionnez** Ajouter, puis sélectionnez **Fermer.** Nous vous recommandons de standardiser une convention d’affectation de noms pour tous vos comptes de ressources.
 
 > [!NOTE]
@@ -55,16 +55,16 @@ Pour plus d’informations sur les licences Salle de réunion, Système téléph
 >   - Durée maximale (heures) : 24
 > - Accepter automatiquement les demandes de réunion
 
-:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Centre d’administration Microsoft 365 - Ajouter des ressources":::
+:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Centre d’administration Microsoft 365 - Ajouter des ressources.":::
 5. Accédez à la section **Utilisateurs** du Centre d’administration et, dans la liste **Utilisateurs** actifs, vous verrez la salle que vous vient de créer.
 
-:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Centre d’administration Microsoft 365 - Voir les utilisateurs actifs":::
+:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Centre d’administration Microsoft 365 - Voir les utilisateurs actifs.":::
 6. Sélectionnez le nom de la salle pour faire apparaître un panneau des propriétés de compte sur la droite.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Centre d’administration Microsoft 365 - Propriétés de l’utilisateur":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Centre d’administration Microsoft 365 - Propriétés de l’utilisateur.":::
 7. Vous devez à présent affecter un mot de passe au compte de ressource. Dans le panneau, vous pouvez voir les propriétés du compte et plusieurs actions facultatives. Sélectionnez **l’icône de la touche** Réinitialiser le mot de passe sous le nom d’utilisateur pour modifier le mot de passe. Désélectionner Exigez que cet utilisateur modifie son mot de passe lors **de sa première se connectant.** Il n’est pas possible de modifier le mot de passe via le processus de inscription de l’appareil. Sélectionnez **Réinitialiser.**
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Centre d’administration Microsoft 365 : réinitialiser le mot de passe":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Centre d’administration Microsoft 365 : réinitialiser le mot de passe.":::
 8. Dans la section  **Licences et applications,** définissez l’emplacement de sélection du pays ou de la région d’installation de l’appareil. Faites défiler vers le bas et cochez la case en regard de la licence à attribuer( Salle de réunion par exemple), puis **sélectionnez Enregistrer les modifications.** La licence peut varier en fonction de votre organisation.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Centre d’administration Microsoft 365 - Attribuer une licence":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Centre d’administration Microsoft 365 - Attribuer une licence.":::

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d0800fb4d3f596abaad82a2714d8daaa0234337
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 368c2ea6b3d937bbd126eb056bf4e2db4163f31f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631958"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730103"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Guide d’administration informatique de Reflect dans Microsoft Teams
 
@@ -65,11 +65,11 @@ Si vous avez précédemment défini que chaque application doit être autorisée
 ## <a name="where-do-educators-find-reflect"></a>Où les enseignants peuvent-ils trouver Reflect ?
 Une fois que vous avez activé Reflect, les enseignants peuvent se rendre en classe et sélectionner l’option **Nouvelle conversation**. Ils sélectionnent ensuite «**...**» pour ouvrir les extensions de messagerie et entrer **Reflect** dans la barre de recherche. La boîte de dialogue les guide dans la définition de la question et des personnes peuvent voir.
 
-:::image type="content" source="media/reflect-add-app.png" alt-text="Ajouter Reflect à une équipe de classe":::
+:::image type="content" source="media/reflect-add-app.png" alt-text="Ajouter Reflect à une équipe de classe.":::
 
 Ils peuvent cliquer avec le bouton droit sur l’icône Reflect, puis sélectionner **Épingler** pour y accéder facilement.
 
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Épingler l’application Reflect":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Épingler l’application Reflect.":::
 
 > [!TIP]
 > Vous pouvez également localiser l’application Reflect via ce lien : [https://aka.ms/getReflect](https://aka.ms/getReflect)

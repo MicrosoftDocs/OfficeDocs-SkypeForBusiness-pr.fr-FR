@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams. Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 7f981ed6d4397d07dc0aae5bffc6174983e12e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629366"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728419"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans Teams
 
@@ -119,13 +119,13 @@ Sélectionnez une stratégie existante dans la page **Stratégies de réunion** 
 
 Autoriser **Conférence maintenant** est une stratégie par utilisateur et s’applique avant le début d’une réunion. Ce paramètre détermine si un utilisateur peut démarrer une réunion non planifiée dans un canal Teams. Si vous activez ce paramètre, les utilisateurs peuvent sélectionner le bouton **Réunions** pour démarrer une réunion non planifiée ou pour planifier une réunion dans le canal. La valeur par défaut est True.
 
-![Capture d’écran montrant l’icône Conférence maintenant sous un message](media/meeting-policies-meet-now.png)
+![Capture d’écran montrant l’icône Conférence maintenant sous un message.](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Autoriser le complément Outlook
 
 Autoriser le complément Outlook est une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les réunions Teams peuvent être planifiées à partir d’Outlook (Windows, Mac, web et mobile).
 
-![Capture d’écran montrant la possibilité de planifier une nouvelle réunion](media/meeting-policies-outlook-add-in.png)
+![Capture d’écran montrant la possibilité de planifier une nouvelle réunion.](media/meeting-policies-outlook-add-in.png)
 
 Si vous désactivez cette fonctionnalité, les utilisateurs ne peuvent pas planifier de réunions. Réunions Teams lorsqu’ils créent une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion Teams** ne s’affiche pas dans le ruban.
 
@@ -137,7 +137,7 @@ Si cette stratégie est désactivée, les utilisateurs ne peuvent pas créer de 
 
 L’option Planifier une réunion sera désactivée.
 
- ![L’option Planifier une réunion dans Teams](media/schedule-meeting-option.png)
+ ![L’option Planifier une réunion dans Teams.](media/schedule-meeting-option.png)
 
 La sélection de canal est désactivée.
 
@@ -146,15 +146,15 @@ La sélection de canal est désactivée.
 Dans la page billets de canal, les fonctionnalités suivantes seront désactivées :
 
 - Bouton **Planifier une réunion** dans la zone composer une réponse du canal.
-  ![bouton planifier une réunion de la zone composer une réponse](media/schedule-meeting-disabled-in-chat2.png)
+  ![bouton planifier une réunion de la zone composer une réponse.](media/schedule-meeting-disabled-in-chat2.png)
   
-- Bouton **planifier une réunion** dans l’en-tête de canal.
-  ![bouton planifier une réunion dans l’en-tête de canal](media/schedule-now-in-header.png)
+- Bouton **planifier une réunion** sur l’en-tête de canal.
+  ![bouton planifier une réunion dans l’en-tête de canal.](media/schedule-now-in-header.png)
 
 Dans le calendrier de canal :
 
 - Le bouton **Ajouter un événement** dans l’en-tête du calendrier est désactivé.
-  ![bouton dans l’en-tête du calendrier de canal désactivé](media/add-new-event-disabled.png)
+  ![bouton sur l’en-tête du calendrier de canal désactivé.](media/add-new-event-disabled.png)
 
 - Les utilisateurs ne peuvent pas faire glisser et sélectionner un bloc horaire sur le calendrier du canal pour créer une réunion de canal.
 
@@ -164,7 +164,7 @@ Dans le centre d’administration :
 
 L’application Calendrier du canal s’affiche dans la section **Applications Microsoft** sur la page stratégies d’autorisation d’application.
 
- ![stratégie d’autorisations d’application dans le centre d’administration Teams](media/manage-microsoft-apps-policy.png)
+ ![stratégie d’autorisations d’application dans le centre d’administration Teams.](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Autoriser la planification des réunions privées
 
@@ -191,7 +191,7 @@ Il s’agit d’une stratégie par utilisateur qui s’applique avant le début 
 
 Cette stratégie active la transcription en direct. Autoriser la transcription est une stratégie par utilisateur. Ce paramètre détermine si cette réunion d’équipe spécifique peut être transcrite.
 
-![Les options de transcription dans les stratégies de réunion](media/live-transcription.png)
+![Les options de transcription dans les stratégies de réunion.](media/live-transcription.png)
 
 La transcription en direct affiche la conversion de parole en texte du contenu parlé lors d’une réunion Teams presque en temps réel. Le texte apparaît à côté de la vidéo de la réunion, et inclut le nom de l’orateur et un horodatage. Pour en savoir plus, consultez l’article [Afficher la transcription en direct dans une réunion Teams](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b).
 
@@ -212,7 +212,7 @@ Autoriser l’enregistrement dans le cloud est contrôlé par une stratégie par
 
 Les personnes extérieures à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent ni démarrer ni arrêter l’enregistrement.
 
-![les options d’enregistrement](media/meeting-policies-recording.png)
+![options d’enregistrement.](media/meeting-policies-recording.png)
 
 Pour en savoir plus sur l’enregistrement de réunions cloud, consultez [Enregistrement de réunion cloud Teams](cloud-recording.md).
 
@@ -264,7 +264,7 @@ Les réunions organisées par un utilisateur pour lequel ce paramètre de strat�
 
 | Ordinateur de bureau et client web Teams |Client mobile Teams  |
 |:-------:|:-------:|
-|![Capture d’écran montrant une jointure de réunion avec les paramètres audio/vidéo sur l’ordinateur de bureau](media/meeting-policies-audio-video-settings.png)    |![Capture d’écran montrant une jointure de réunion avec les paramètres audio/vidéo sur appareil mobile](media/meeting-policies-mobile-join.png)          |
+|![Capture d’écran montrant la participation à une réunion avec les paramètres audio /vidéo sur le bureau.](media/meeting-policies-audio-video-settings.png)    |![Capture d’écran montrant une jointure de réunion avec les paramètres audio/vidéo sur appareil mobile](media/meeting-policies-mobile-join.png)          |
 
 Examinons l’exemple suivant.
 
@@ -358,11 +358,11 @@ Il s’agit d’une stratégie par utilisateur. Ce paramètre détermine si l’
 
 Si ce paramètre est activé pour l’utilisateur, l’option **Attribuer un contrôle** s’affiche dans la barre supérieure d’une session de partage.
 
-![Capture d’écran montrant l’option donner le contrôle](media/meeting-policies-give-control.png)
+![Capture d’écran montrant l’option Donner le contrôle.](media/meeting-policies-give-control.png)
 
 Si le paramètre est désactivé pour l’utilisateur, l’option **Donner le contrôle** n’est pas disponible.
 
-![Capture d’écran montrant que l’option attribuer le contrôle n’est pas disponible](media/meeting-policies-give-control-not-available.png)
+![Capture d’écran montrant que l’option Donner le contrôle n’est pas disponible.](media/meeting-policies-give-control-not-available.png)
 
 Examinons l’exemple suivant.
 
@@ -459,7 +459,7 @@ Il s’agit d’une stratégie par organisateur qui autorise les réunions de co
 
 Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la jointure directe des personnes à une réunion ou l’attente dans la salle d’attente jusqu’à ce qu’elles soient intégrées par un utilisateur authentifié. Ce paramètre ne s’applique pas aux utilisateurs distants.
 
-![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente](media/meeting-policies-lobby.png)
+![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente.](media/meeting-policies-lobby.png)
 
  Les organisateurs de réunion peuvent sélectionner les **Options de réunion** dans l’invitation à la réunion afin de modifier ce paramètre pour chaque réunion planifiée.
 
@@ -489,7 +489,7 @@ Les stratégies de réunion ont un paramètre permettant aux membres d’une éq
 
 Il s’agit d’une stratégie par utilisateur qui s’applique pendant une réunion. Ce paramètre détermine si l’option **Activer les légendes dynamiques** est disponible pour l’utilisateur, afin d’activer et de désactiver les légendes dynamiques dans les réunions qu’elle attend.  
 
-![Capture d’écran montrant l’option Activer les légendes dynamiques](media/meeting-policies-live-captions.png)
+![Capture d’écran montrant l’option Activer les sous-titres en direct.](media/meeting-policies-live-captions.png)
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|
@@ -520,7 +520,7 @@ Pour spécifier la valeur par défaut du paramètres **Qui peut présenter ?** d
 
 De plus, vous pouvez modifier cette stratégie dans le centre d’administration Teams.
 
-![Capture d’écran du centre d’administration Teams](media/designated-presenter-role.png)
+![Capture d’écran du centre d’administration Teams.](media/designated-presenter-role.png)
 
 Gardez à l’esprit qu’une fois que vous avez défini la valeur par défaut, les organisateurs de réunion peuvent toujours modifier ce paramètre dans Teams et choisir les personnes pouvant présenter les réunions qu’ils planifient.
 

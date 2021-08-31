@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez les étapes de déploiement pour obtenir le microprogramme correct, le mettre à jour si nécessaire, attribuer des licences et configurer les paramètres de Skype Entreprise téléphones en ligne
-ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607441"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728013"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Déploiement de téléphones Skype Entreprise Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "58607441"
 
 Ce guide de déploiement vous aidera à déployer des téléphones IP Skype Entreprise Online.
   
-Dans tous les types d’entreprises, disposer d’un numéro de téléphone permet aux utilisateurs de passer et de passer des appels vocaux, et c’est une obligation essentielle pour effectuer des activités commerciales. Les utilisateurs qui ont des numéros de téléphone pourront passer des appels vocaux sur tous les Skype Entreprise appareils, y compris les téléphones IP, les PC et les appareils mobiles. Pour en savoir plus sur les Skype Entreprise IP, lisez Obtenir des téléphones [pour Skype Entreprise Online.](getting-phones-for-skype-for-business-online.md)
+Dans tous les types d’entreprises, disposer d’un numéro de téléphone permet aux utilisateurs de passer et de passer des appels vocaux, et c’est une obligation essentielle pour effectuer des activités professionnelles. Les utilisateurs qui ont des numéros de téléphone pourront passer des appels vocaux sur tous les Skype Entreprise appareils, y compris les téléphones IP, les PC et les appareils mobiles. Pour en savoir plus sur les Skype Entreprise IP, lisez Obtenir des téléphones [pour Skype Entreprise Online.](getting-phones-for-skype-for-business-online.md)
   
 ## <a name="deployment-steps-for-ip-phones"></a>Étapes de déploiement pour les téléphones IP
 
@@ -74,7 +74,7 @@ Vérifiez la version du microprogramme sur votre téléphone. Pour :
   
 Les mises à jour de microprogramme sont gérées par le service Skype Entreprise. Chaque microprogramme de téléphone certifié Skype Entreprise est chargé vers le serveur de mise à jour Skype Entreprise et la mise à jour de l'appareil est activée par défaut sur tous les téléphones. En fonction de la durée d'inactivité et des intervalles d'interrogation, les téléphones téléchargeront automatiquement les dernières versions certifiées. Vous pouvez désactiver les paramètres de mise à jour de l’appareil à l’aide de l’cmdlet [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) et en activant le paramètre _EnableDeviceUpdate_ `false` sur.
   
-![Capture d’écran montrant le déploiement de téléphones](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![Capture d’écran montrant le déploiement de téléphones.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 Lorsqu'un nouveau microprogramme est disponible et prêt à être téléchargé et installé, le téléphone informera l'utilisateur. Les téléphones Polycom informeront l’utilisateur et fourniront une option de mise à jour **ou** **de** report.
   
@@ -82,7 +82,7 @@ Lorsqu'un nouveau microprogramme est disponible et prêt à être téléchargé 
   
 Dans le cas d'un téléphone Polycom, vous pouvez mettre à jour le microprogramme en sélectionnant **SwUpdate (Mise à jour logicielle)**.
   
-![Capture d’écran montrant l’option SwUpdate](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![Capture d’écran montrant l’option SwUpdate.](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 Vous pouvez également gérer les mises à jour du microprogramme à l'aide d'un système de provisionnement partenaire. Pour plus d'informations sur la gestion de système de provisionnement partenaire, notamment la personnalisation de téléphone avancée, consultez les guide d'administration du fabricant.
   
@@ -97,7 +97,7 @@ Pour la planification de l’infrastructure réseau, [voir Skype Operations Fram
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>Étape 6 : préparation de la inscription des utilisateurs
 
-Pour permettre aux utilisateurs de se Skype Entreprise un téléphone en ligne et de les appeler, vous devez vous assurer que les licences correctes leur sont affectées. Au minimum, vous devrez affecter une licence Système téléphonique et un plan d’appels. Pour plus d’informations, vous pouvez consulter les Skype Entreprise et [Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) des [modules complémentaires,](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)ainsi que Skype Entreprise et Microsoft Teams licences.
+Pour permettre aux utilisateurs de se Skype Entreprise un téléphone en ligne et de les appeler, vous devez vous assurer que les licences qui leur sont attribuées sont correctes. Au minimum, vous devrez affecter une licence Système téléphonique et un plan d’appels. Pour plus d’informations, vous pouvez consulter les Skype Entreprise et [Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) des [modules complémentaires,](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)ainsi que Skype Entreprise et Microsoft Teams licences.
   
 Pour en savoir plus sur les forfaits d’appels, lisez les Système téléphonique [et les forfaits d’appels.](/microsoftteams/calling-plan-landing-page)
   
@@ -105,7 +105,7 @@ Pour en savoir plus sur les forfaits d’appels, lisez les Système téléphoniq
     
   - Les utilisateurs **de téléphones Polycom VVX 5XX/6XX** peuvent voir :
     
-     ![Capture d’écran montrant l' logo de téléphones Polycom](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Capture d’écran montrant l' logo des téléphones Polycom.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - Les utilisateurs **de téléphones Yealink T48G/T46G** peuvent voir :
     
@@ -115,7 +115,7 @@ Pour en savoir plus sur les forfaits d’appels, lisez les Système téléphoniq
     
 - **ID d'utilisateur** À l'aide de leur clavier téléphonique ou de leur clavier visuel (le cas échéant), les utilisateurs peuvent se servir du nom d'utilisateur et du mot de passe de leur organisation pour se connecter à leur téléphone. Par exemple, ils doivent utiliser le format UPN (par ex. : <em>amosm@contoso.com</em>  pour leur nom d'utilisateur.
     
-     ![Capture d’écran montrant l’écran de connexion](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Capture d’écran montrant l’écran de connexion.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > L'authentification par code confidentiel n'est pas prise en charge par Skype Entreprise Online avec les téléphones LPE et PIP (Partner IP Phone). 
@@ -125,47 +125,47 @@ Pour en savoir plus sur les forfaits d’appels, lisez les Système téléphoniq
   > [!NOTE]
   > Les utilisateurs doivent se servir du nom d'utilisateur et du mot de passe de leur organisation pour se connecter à leur téléphone. Par exemple, ils doivent utiliser le format UPN (par ex. :  <em>amosm@contoso.com</em>  pour leur nom d'utilisateur.
   
-     ![Capture d’écran montrant l’écran de connexion](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![Capture d’écran montrant l’écran de connexion.](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Utilisation d’une authentification web**: il s’agit d’une nouvelle façon pour les utilisateurs en ligne de s’authentifier à l’aide d’un navigateur web standard. Les utilisateurs seront fournis avec un ensemble d’instructions à suivre lorsqu’ils utilisent un navigateur pour se connecter.
     
   - Les utilisateurs **de téléphones Polycom VVX 5XX/6XX** peuvent voir :
     
-     ![Capture d’écran montrant les instructions polycom](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Capture d’écran montrant les instructions polycom.](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - Les utilisateurs **de téléphones Yealink T48G/T46G** peuvent voir :
     
-     ![Capture d’écran montrant les instructions pour Yealink](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![Capture d’écran montrant les instructions pour Yealink.](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     Le code généré expire dans les 15 minutes. Une fois expiré, l’utilisateur  devra cliquer sur Réessayer ou **SUR OK** pour générer un nouveau code, selon le téléphone.
     
   - Les utilisateurs **de téléphones Polycom VVX 5XX/6XX** peuvent voir :
     
-     ![Capture d’écran montrant le code Polycom expiré](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![Capture d’écran montrant le code Polycom expiré.](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - Les utilisateurs **de téléphones Yealink T48G/T46G** peuvent voir :
     
-     ![Capture d’écran montrant le code Yealink expiré](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![Capture d’écran montrant le code Yealink expiré.](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     À l'aide d'un navigateur, accédez à l'adresse affichée dans le téléphone et saisissez votre nom d'utilisateur Skype Entreprise.
     
-     ![Capture d’écran montrant la vérification du courrier électronique](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![Capture d’écran montrant la vérification du courrier électronique.](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     Entrez le code qui s'affiche sur le téléphone.
     
-     ![Capture d’écran montrant la saisie du code à l’écran de connexion](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![Capture d’écran montrant la saisie du code à l’écran de connexion.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     Vérifiez que le site indique « [Téléphone nom du **fabricant]** Skype Entreprise certifié Téléphone site », puis cliquez sur **Continuer.**
     
-     ![Capture d’écran montrant la vérification du nom](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![Capture d’écran montrant la vérification du nom.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     Cliquez sur les informations de connexion de l'utilisateur ou sur **Use another account (Utiliser un autre compte)**:
     
-     ![Capture d’écran montrant les options d’informations d’identification](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![Capture d’écran montrant les options d’informations d’identification.](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     Lorsque la page suivante s’affiche, vous ne risquez pas de fermer le navigateur.
     
-     ![Capture d’écran montrant un message de confirmation](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![Capture d’écran montrant un message de confirmation.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > Les téléphones LPE pour Skype Entreprise Online prennent en charge la connexion via un périphérique USB uniquement. 
@@ -185,7 +185,7 @@ Pour en savoir plus sur les forfaits d’appels, lisez les Système téléphoniq
    
 - **Téléphone fonctionnalités** L’ensemble des fonctionnalités peut varier légèrement d’un partenaire de téléphone IP à l’autre. Pour l’ensemble complet des fonctionnalités et pour plus d’informations sur les fonctionnalités de chaque fabricant, consultez Obtenir des téléphones pour [Skype Entreprise Online.](getting-phones-for-skype-for-business-online.md)
     
-- **Téléphone-Verrouillage** est une fonctionnalité récemment introduite dans Skype Entreprise téléphones certifiés utilisés pour sécuriser un téléphone. Si l’authentification est activée, les utilisateurs sont invités à créer un code confidentiel à l’authentification réussie. Une fois créés, les téléphones sont verrouillés à l’expiration du délai d’inactivité que vous définissez, lorsqu’un utilisateur verrouille manuellement son téléphone ou lorsqu’il synchronise son verrouillage du téléphone avec son PC à l’aide du Téléphone du téléphone. Si le code confidentiel de verrouillage du téléphone n’est pas entré à plusieurs reprises, le téléphone déverrouille l’utilisateur ou nécessite un code d’administrateur pour déverrouiller le téléphone, mais cela peut varier en fonction du partenaire téléphonique. Le code confidentiel de l’utilisateur doit être entre 6 et 15 chiffres.
+- **Téléphone-Verrouillage** est une fonctionnalité récemment introduite dans Skype Entreprise téléphones certifiés utilisés pour sécuriser un téléphone. Si l’authentification est activée, les utilisateurs sont invités à créer un code confidentiel à l’authentification réussie. Une fois créés, les téléphones sont verrouillés lorsque le délai d’inactivité que vous définissez arrive à expiration, qu’un utilisateur verrouille manuellement son téléphone ou qu’il synchronise son verrouillage du téléphone avec son PC à l’aide du Téléphone du téléphone. Si le code confidentiel de verrouillage du téléphone n’est pas entré à plusieurs reprises, le téléphone déverrouille l’utilisateur ou nécessite un code d’administrateur pour déverrouiller le téléphone, mais cela peut varier en fonction du partenaire téléphonique. Le code confidentiel de l’utilisateur doit être entre 6 et 15 chiffres.
     
     Vous pouvez désactiver les Phone-Lock pour votre organisation (option activée par défaut), modifier le délai d’inactivité et choisir si les utilisateurs peuvent effectuer des appels téléphoniques lorsqu’ils sont verrouillés ou non à l’aide des paramètres de bandeau. Pour plus d’informations sur ces paramètres, voir [Set-CsUCPhoneConfiguration.](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
     
@@ -206,9 +206,9 @@ BToE peut être configuré pour fonctionner en deux modes : *Automatique* (par d
   
 1. Connectez leur PC à leur téléphone à l'aide du port du PC.
     
-     ![Capture d’écran montrant la connexion à un PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![Capture d’écran montrant la connexion à un PC.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Téléchargez et installez la dernière version du logiciel BToE à partir du site Web du fabricant disponible en cliquant sur les liens ci-dessous. Pour une meilleure expérience utilisateur, vous pouvez distribuer et installer le logiciel BToE à l’aide d’une solution de distribution d’administration telle que Microsoft Endpoint Configuration Manager. Pour obtenir de l’aide sur l’utilisation de Configuration Manager, voir [Packages et programmes dans Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
+2. Téléchargez et installez la dernière version du logiciel BToE à partir du site Web du fabricant disponible en cliquant sur les liens ci-dessous. Pour une meilleure expérience utilisateur, vous pouvez distribuer et installer le logiciel BToE à l’aide d’une solution de distribution d’administrateurs telle que Microsoft Endpoint Configuration Manager. Pour obtenir de l’aide sur l’utilisation de Configuration Manager, voir [Packages et programmes dans Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
     
    - [Site de téléchargement du logiciel BToE pour Polycom](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -221,7 +221,7 @@ BToE peut être configuré pour fonctionner en deux modes : *Automatique* (par d
 > [!NOTE]
 > BToE n'est actuellement pas disponible sur les plates-formes Mac et VDI. 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Voici les avantages du système téléphonique](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

@@ -12,19 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: L’administrateur peut connaître les données et autorisations que Microsoft Teams applications demandent à leur organisation.
+description: Les administrateurs peuvent connaître les données et autorisations que Microsoft Teams applications demandent à leur organisation.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2766da88fee53124d43b4e2b66c9c104ea41b8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 15892a4eb3996923f7a0129805e2bb542cdc8d7c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610421"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731783"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Autorisations d’applications Microsoft Teams et points à prendre en compte
 
@@ -42,8 +42,8 @@ Les autorisations ci-dessous en majuscules, par exemple RECEIVE_MESSAGE et REPLY
 
 | Titre   | Description    |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Utilisez les tableaux ci-dessous comme guide pour comprendre les autorisations que les applications que vous examinez demandent.</li></ul> |
-| ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Recherchez l’application ou le service lui-même pour décider si vous voulez autoriser ou non l’accès à l’application au sein de votre organisation. Par exemple, les robots envoient et reçoivent des messages des utilisateurs et, à l’exception des robots personnalisés d’entreprise, ils se trouvent en dehors de la limite de conformité. Par conséquent, toute application qui inclut un bot requiert ces autorisations et possède au minimum ce profil de risque. </li></ul>|
+| ![Icône représentant un point de décision.](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Utilisez les tableaux ci-dessous comme guide pour comprendre les autorisations que les applications que vous examinez demandent.</li></ul> |
+| ![Icône représentant l’étape suivante.](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Recherchez l’application ou le service lui-même pour décider si vous voulez autoriser ou non l’accès à l’application au sein de votre organisation. Par exemple, les robots envoient et reçoivent des messages des utilisateurs et, à l’exception des robots personnalisés d’entreprise, ils se trouvent en dehors de la limite de conformité. Par conséquent, toute application qui inclut un bot requiert ces autorisations et possède au minimum ce profil de risque. </li></ul>|
 
 Voir aussi [Demander des autorisations d’appareil pour votre Microsoft Teams’onglet .](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
 
@@ -79,7 +79,7 @@ Aucun
 
 - IDENTITY. Lorsqu’il est utilisé dans un canal, les robots de l’application peuvent accéder aux informations d’identité de base des membres de l’équipe (prénom, nom, nom d’utilisateur principal [NOM D’UTILISATEUR PRINCIPAL], adresse e-mail) ; lorsqu’il est utilisé dans une conversation personnelle ou de groupe, le bot peut accéder aux mêmes informations pour ces utilisateurs.
 
-- POST_MESSAGE_TEAM. Permet aux robots d’une application d’envoyer des messages directs (proactifs) à tout membre de l’équipe à tout moment, même si l’utilisateur n’a jamais parlé au robot auparavant.
+- POST_MESSAGE_TEAM. Permet aux robots d’une application d’envoyer des messages directs (proactifs) à tout membre de l’équipe à tout moment, même si l’utilisateur n’a jamais parlé au bot auparavant.
 
 - Les autorisations suivantes ne sont pas explicites, mais sont implicites par RECEIVE_MESSAGE et REPLYTO_MESSAGE et les étendues dans lesquelles les robots peuvent être utilisés, déclarés dans le manifeste :
  
@@ -119,7 +119,7 @@ Aucun
 
 <sup>1 Certains</sup> robots envoient uniquement des messages (POST_MESSAGE_USER). Ils sont appelés « bots de notification uniquement », mais ce terme ne fait pas référence à ce qu’un robot est autorisé ou non à faire, cela signifie que le robot ne souhaite pas exposer une expérience de conversation. Teams utilise ce champ pour désactiver la fonctionnalité dans l’interface utilisateur qui serait normalement activée ; le robot n’est pas limité à ce qu’il est autorisé à faire par rapport aux bots qui exposent une expérience de conversation.
 
-<sup>2</sup> Régi par la propriété booléenSais prend en charge la propriété booléen dans l’objet bot dans manifest.jsfichier pour l’application.
+<sup>2</sup> Régi par la propriété booléen Prend en charge les valeurs booléens dans l’objet bot dans manifest.jsfichier pour l’application.
 
 > [!NOTE]
 > Si un robot dispose de sa propre inscription, il existe une deuxième expérience de consentement différente la première fois que l’utilisateur se connecte.
@@ -191,7 +191,7 @@ Aucun
 
 - Les sites web sortants sont similaires aux bots, mais ont moins de privilèges. Ils doivent être explicitement mentionnés, tout comme les bots.
 
-- Lorsqu’un site web sortant est enregistré, un secret est généré, ce qui permet à l’équipe web sortante de vérifier que l’expéditeur est Microsoft Teams par opposition à un pirate malveillant. Ce secret doit rester un secret . Toute personne qui y a accès peut prendre l’identité de Microsoft Teams. Si le secret est compromis, l’accès web sortant peut être supprimé et recréé, et un nouveau secret est généré.
+- Lorsqu’un site web sortant est enregistré, un secret est généré, ce qui permet au site web sortant de vérifier que l’expéditeur est Microsoft Teams par opposition à un pirate malveillant. Ce secret doit rester un secret . Toute personne qui y a accès peut prendre l’identité de Microsoft Teams. Si le secret est compromis, l’accès web sortant peut être supprimé et recréé, et un nouveau secret est généré.
 
 - Bien qu’il soit possible de créer un site web sortant qui ne valide pas le secret, nous vous recommandons de vous y baser.
 

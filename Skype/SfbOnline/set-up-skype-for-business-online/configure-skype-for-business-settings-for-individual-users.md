@@ -23,25 +23,25 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 89fce818a73455aeca9a9ba668554d59daf85248
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e96e33f5a83030f187c6e6c3caaee197c2d81a2f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579398"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731823"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administrateurs : Configuration des paramètres de Skype Entreprise pour les utilisateurs individuels
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Le Microsoft Teams d’administration principal a remplacé Skype Entreprise centre d’administration principal (portail hérité). Tous les paramètres de gestion des Skype Entreprise sont désormais dans le Centre Teams’administration. Le rôle d’administrateur [Azure AD](/azure/active-directory/roles/permissions-reference) de l’administrateur global ou de l’administrateur de Skype Entreprise vous doit être attribué pour gérer les fonctionnalités de gestion des Skype Entreprise dans le Teams d’administration. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> Le Microsoft Teams d’administration a remplacé Skype Entreprise centre d’administration principal (portail hérité). Tous les paramètres de gestion des Skype Entreprise sont désormais dans le Centre Teams’administration. Le rôle d’administrateur [Azure AD](/azure/active-directory/roles/permissions-reference) de l’administrateur global ou de l’administrateur de Skype Entreprise vous doit être attribué pour gérer les fonctionnalités de gestion des Skype Entreprise dans le Teams d’administration. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 Cet article explique comment les administrateurs configurent Skype Entreprise pour un petit nombre d'utilisateurs. Pour suivre ces étapes en bloc, nous avons inclus des liens vers les Windows PowerShell cmdlets que vous pouvez utiliser.
   
 Pour autoriser (ou bloquer) toutes les personnes de votre entreprise à communiquer avec des personnes externes, voir :
   
-- Autoriser les utilisateurs à contacter des utilisateurs [Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md)externes : vous pouvez permettre à votre organisation d’utiliser des fonctionnalités Skype Entreprise avancées (partager des bureaux, rechercher qui est en ligne, etc.) pour communiquer avec des personnes dans une entreprise de confiance (fédérée) spécifique. Cet article explique également comment bloquer les communications avec des domaines spécifiques.
+- Autoriser les utilisateurs à contacter des utilisateurs [Skype Entreprise](allow-users-to-contact-external-skype-for-business-users.md)externes : vous pouvez permettre à votre organisation d’utiliser des fonctionnalités de Skype Entreprise avancées (partager des bureaux, rechercher qui est en ligne, etc.) pour communiquer avec des personnes dans une entreprise de confiance (fédérée) spécifique. Cet article explique également comment bloquer les communications avec des domaines spécifiques.
     
 - [Permettez aux Skype Entreprise d’ajouter Skype contacts.](let-skype-for-business-users-add-skype-contacts.md) Vous pouvez permettre à votre organisation dʼutiliser Skype Entreprise pour rechercher et communiquer par messagerie instantanée avec des personnes qui utilisent Skype, lʼapplication gratuite.
     
@@ -50,7 +50,7 @@ Pour autoriser (ou bloquer) toutes les personnes de votre entreprise à communiq
 
 Vous devez avoir des [autorisations d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) pour effectuer ces étapes.
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
   
 1. Connectez-vous avec votre compte scolaire ou scolaire.
     

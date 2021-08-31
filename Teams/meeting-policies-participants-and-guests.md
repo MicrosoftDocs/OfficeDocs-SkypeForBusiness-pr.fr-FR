@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour les participants et les invités.
-ms.openlocfilehash: 54a209756db16788e6f46f3b34a4367277ca8354
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b377c1c391f1fb3a82976db6d58e84c9eb2f9b94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635658"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728633"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Paramètres de stratégie de réunion : participants et invités
 
@@ -52,7 +52,7 @@ Ce paramètre est une stratégie par organisateur qui autorise les réunions de 
 
 Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle la jointure directe des personnes à une réunion ou l’attente dans la salle d’attente jusqu’à ce qu’elles soient intégrées par un utilisateur authentifié. Ce paramètre ne s’applique pas aux utilisateurs distants.
 
-![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’attente](media/meeting-policies-lobby.png)
+![Capture d’écran montrant une réunion avec un utilisateur dans la salle d’accueil.](media/meeting-policies-lobby.png)
 
  Les organisateurs de réunion peuvent cliquer sur **Options de réunion** dans l’invitation à la réunion afin de modifier ce paramètre pour chaque réunion qu’ils planifient.
 
@@ -79,7 +79,7 @@ Il s’agit d’une stratégie par organisateur. Ce paramètre contrôle si les 
 
 Ce paramètre est une stratégie par utilisateur et s’applique pendant une réunion. Ce paramètre détermine si l’option **Activer les légendes dynamiques** est disponible pour l’utilisateur, afin d’activer et de désactiver les légendes dynamiques dans les réunions qu’elle attend.  
 
-![Capture d’écran montrant l’option Activer les légendes dynamiques](media/meeting-policies-live-captions.png)
+![Capture d’écran montrant l’option Activer les sous-titres en direct.](media/meeting-policies-live-captions.png)
 
 |Valeur du paramètre |Comportement  |
 |---------|---------|

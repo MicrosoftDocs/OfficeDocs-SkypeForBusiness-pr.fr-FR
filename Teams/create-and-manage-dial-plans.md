@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le Centre Microsoft Teams d’administration Windows PowerShell pour créer et gérer des plans de numérotation (plans de numérotation PSTN).
-ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ecabfb04d8919ac289067818e736e170e6d181
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628376"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728703"
 ---
 # <a name="create-and-manage-dial-plans"></a>Créer et gérer les plans de numérotation
 
@@ -38,7 +38,7 @@ Après avoir plané les plans de numérotation de votre organisation et compris 
 
 1. Dans le panneau de navigation de gauche du Microsoft Teams d’administration, allez dans **le**  >  **plan de numérotation vocale.**
 2. Cliquez **sur** Ajouter, puis entrez un nom et une description pour le plan de numérotation.
-    ![Capture d’écran montrant la page Ajouter pour la création d’un plan de numérotation](media/create-dial-plan.png)
+    ![Capture d’écran montrant la page Ajouter pour la création d’un plan de numérotation.](media/create-dial-plan.png)
 3. Sous les **détails** du plan de numérotation, spécifiez un préfixe de numérotation externe si les utilisateurs doivent composer un ou plusieurs chiffres de tête supplémentaires (par exemple, 9) pour obtenir une ligne externe. Pour ce faire :
     1. Dans la **zone du préfixe de numérotation** externe, entrez un préfixe de numérotation externe. Le préfixe peut prendre jusqu’à quatre caractères (#,*, et 0-9).
     2. Activer la **numérotation optimisée des appareils.** Si vous spécifiez un préfixe de numérotation externe, vous devez également activer ce paramètre pour appliquer le préfixe afin que les appels soient effectués à l’extérieur de votre organisation.
@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce que les plans de numérotation ?](what-are-dial-plans.md)
 - [Questions fréquentes à propos du transfert de numéros de téléphone](./phone-number-calling-plans/port-order-overview.md)

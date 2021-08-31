@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad66efadda775c11ab653cbe1bc46b2c5a4ab3c3a80edf77265dddabbb71c4a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347279"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732313"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurer le partage du bureau dans Microsoft Teams
 
@@ -39,11 +39,11 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
 
 1. Sélectionnez **Réunions** > **Stratégies de réunion**.
 
-    ![Stratégies de Réunion sélectionnées](media/configure-desktop-sharing-image1.png)
+    ![Stratégies de réunion sélectionnées.](media/configure-desktop-sharing-image1.png)
 
 2. Sur la page **Stratégies de réunion**, sélectionnez **Ajouter**.
 
-    ![Le message des stratégies de réunion](media/addMeeting.png)
+    ![Message Stratégies de réunion.](media/addMeeting.png)
 
 3. Donnez un titre unique à votre stratégie, puis entrez une brève description.
 
@@ -53,7 +53,7 @@ Pour configurer le partage d’écran, vous créez une stratégie de réunion, p
    - **Application Unique** : permet aux utilisateurs de limiter le partage d’écran à une seule application active.
    - **Désactivé** : désactive le partage d’écran.
 
-    ![Les options du mode Partage](media/configure-desktop-sharing-image3.png)
+    ![Options du mode partage.](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > Vous ne pouvez pas activer la stratégie d’appel pour que les utilisateurs utilisent le partage d’écran à partir de la conversation. Toutefois, leur audio est désactivé jusqu’à ce qu’ils activent le son eux-mêmes. En outre, l’utilisateur partageant l’écran peut cliquer sur **Ajouter l’audio** pour activer l’audio. Si la stratégie d’appel est désactivée, les utilisateurs ne pourront pas ajouter l’audio au partage d’écran à partir de la session de conversation.

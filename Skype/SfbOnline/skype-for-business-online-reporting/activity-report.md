@@ -20,18 +20,18 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: bdb7f0df8148b89b90eac073a1d709aa658f06d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f6a54e75c240a3a2a1381597598f8486afa25d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605653"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730253"
 ---
 # <a name="activity-report"></a>Rapport d'activités
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 des produits au sein de votre organisation. Il vous permet d’aller plus avant dans les rapports individuels au niveau des produits afin d’offrir des informations plus granulaires sur les activités au sein de chaque produit. Par exemple, vous pouvez utiliser le rapport d’activité **Skype Entreprise** pour voir combien de fois vos utilisateurs utilisent des sessions d’égal à égal ou de conférence organisées, ou combien ils participent à des sessions de conférences. 
+Le **tableau de** bord Rapports vous offre une vue d’ensemble de l’activité Microsoft 365 ou Office 365 de votre organisation. Il vous permet d’aller plus avant dans les rapports individuels au niveau des produits afin d’offrir des informations plus granulaires sur les activités au sein de chaque produit. Par exemple, vous pouvez utiliser le rapport d’activité **Skype Entreprise** pour voir combien de fois vos utilisateurs utilisent des sessions d’égal à égal ou de conférence organisées, ou combien ils participent à des sessions de conférences. 
 
 Pour en savoir [plus, consultez la](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) vue d’ensemble des rapports.
   
@@ -51,35 +51,35 @@ Tout comme les autres rapports de Skype Entreprise, ce rapport vous fournit des 
 
 Vous pouvez visualiser l'activité Skype Entreprise d'un utilisateur à l'aide des graphiques **Activité** et **Utilisateurs**.
   
-![Skype for Business Online Activity Report](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
+![Skype Entreprise Rapport d’activité en ligne.](../images/670c8bc6-d29c-4033-87fc-a20d324c9aae.png)
   
 ***
-![Numéro 1](../images/sfbcallout1.png)<br/>
+![Numéro 1.](../images/sfbcallout1.png)<br/>
 Le **Skype Entreprise** activité de courrier électronique d’activité peut être observée pour les tendances au cours des 7, 30, 90 ou 180 derniers jours. Toutefois, si vous cliquez sur un jour en particulier dans le rapport, la table (voir le numéro 7) affiche les données pendant 28 jours au-dessus de la date actuelle (et non la date à laquelle le rapport a été généré).
 
 > [!NOTE]
 > Si vous cliquez sur les détails d’un jour spécifique, le tableau affiche uniquement les données des 30 jours jusqu’à la date à laquelle le rapport a été généré.
 
 ***
-![Numéro 2](../images/sfbcallout2.png)<br/>
+![Numéro 2.](../images/sfbcallout2.png)<br/>
 Chaque rapport comporte la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l’heure de l’activité. 
 ***
-![Nombre 3](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total d'activités de conférence actuellement tenues dans votre organisation. Cela vous indiquera le nombre et les types d' **organisations**, de **participations** et de sessions de conférence d' **égal à égal** sein de votre organisation.  
+![Numéro 3.](../images/sfbcallout3.png)<br/>Utilisez les données du graphique interactif **Activité** pour comprendre les tendances d'utilisation et visualiser le nombre total d'activités de conférence actuellement tenues dans votre organisation. Cela vous indiquera le nombre et les types d' **organisations**, de **participations** et de sessions de conférence d' **égal à égal** sein de votre organisation.  
 ***
-![Numéro 4](../images/sfbcallout4.png)<br/>
+![Numéro 4.](../images/sfbcallout4.png)<br/>
 Use the interactive chart data on the **Users** chart to understand usage trends and to see the number of unique users that are participating in conference activities that are being held in your organization. Cela vous indique le nombre total d’utilisateurs ainsi que les types de  sessions d’égal à **égal,** de participations et de **sessions** d’égal à égal de conférences.
 ***
-!["Nombre 5"](../images/sfbcallout5.png)<br/>
+![Numéro 5.](../images/sfbcallout5.png)<br/>
 You can filter the series you see on the chart by clicking on an item in the legend. Par exemple,  dans le graphique Activité, cliquez ou appuyez sur  Sessions d’égal à **égal,** Organisées ou **Participations** pour voir uniquement les informations relatives à chacune de ces activités. Changing this selection doesn't change the info in the grid table. 
 ***
-![Numéro 6](../images/sfbcallout6.png)<br/>
+![Numéro 6.](../images/sfbcallout6.png)<br/>
 Chaque graphique a un axe « X » (horizontal) et « Y » (vertical).
 *    Dans le graphique **Activité,** l’axe Y indique le nombre total d’égal à égal, d’organisation et de participations à des sessions de conférence qui se sont tenues.
-*    Dans le graphique **d’activité** utilisateurs, l’axe Y indique le nombre d’utilisateurs uniques participant à chaque type d’égal à égal de conférence, organisé et participant à une conférence.
+*    Dans le **graphique d’activité** utilisateurs, l’axe Y indique le nombre d’utilisateurs uniques participant à chaque type d’égal à égal de conférence, organisé et participant à une conférence.
 
 L'axe X sur les deux graphiques représente la plage de dates sélectionnée pour ce rapport particulier. 
 ***
-![Numéro 7](../images/sfbcallout7.png)<br/>
+![Numéro 7.](../images/sfbcallout7.png)<br/>
 Le tableau présente une répartition par utilisateur de toutes les activités de conférence. Il vous indique tous les utilisateurs Skype Entreprise affectés ainsi que leurs activités de conférence. Vous pouvez ajouter des colonnes supplémentaires au tableau.
 * **Nom d’utilisateur** est le nom de l’utilisateur.
 * **Supprimé** indique que la licence de l'utilisateur a été supprimée.<br/><br/>
@@ -95,10 +95,10 @@ Le tableau présente une répartition par utilisateur de toutes les activités d
 
 Si la politique de votre organisation vous empêche de consulter les rapports sur lequel sont identifiables les informations des utilisateurs, vous pouvez modifier les paramètres de confidentialité de tous ces rapports. Consultez la **section Masquer les détails de l’utilisateur dans** la section Rapports du Centre [d’administration.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 ***
-![Numéro 8](../images/sfbcallout8.png)<br/>
+![Numéro 8.](../images/sfbcallout8.png)<br/>
 Cliquez ou appuyez sur **l’icône** Colonnes dans l’une des colonnes pour ajouter ou supprimer des colonnes dans le rapport.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![Numéro 9](../images/sfbcallout9.png)<br/>
+![Numéro 9.](../images/sfbcallout9.png)<br/>
 Vous pouvez également exporter les données du rapport vers un fichier Excel .csv, en cliquant ou en appuyant sur **Exporter**.           <br/> ![Skype Entreprise Bouton Exporter des rapports.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/> Cela exportera les données de tous les utilisateurs et vous permettra de trier et de filtrer plus simplement pour une analyse ultérieure. Si vous avez moins de 2 000 utilisateurs, vous pouvez trier et filtrer dans le tableau, au sein du rapport proprement dit. Si vous avez plus de 2 000 utilisateurs, vous devrez exporter les données pour pouvoir les trier et les filtrer. 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Autres rapports d'activité Skype Entreprise
@@ -118,7 +118,7 @@ Vous pouvez également exporter les données du rapport vers un fichier Excel .c
 - [Skype Entreprise détails de la session](session-details-report.md) Vous pouvez voir des détails sur les expériences d’appels d’un utilisateur individuel.
 
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 [Rapports d’activité dans le Centre d’administration](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

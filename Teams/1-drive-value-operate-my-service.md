@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8376f6d2c385f2c7feee3c7051d7978e1deb04b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: feb801bb1e9ed7d573bee48a44d0796f8891221b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633448"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728414"
 ---
 # <a name="operate-my-service"></a>Exploiter mon service
 
-Cet article donne une vue d’ensemble des conditions requises pour exploiter correctement les services vocaux cloud pour votre organisation. En fonctionnant correctement vos services vocaux cloud, vous êtes sûr de fournir une expérience de haute qualité et fiable à votre organisation.
+Cet article donne une vue d’ensemble des conditions requises pour exploiter correctement les services voix cloud pour votre organisation. En fonctionnant correctement vos services vocaux cloud, vous êtes sûr de fournir une expérience de haute qualité et fiable à votre organisation.
 
 ## <a name="introduction-to-the-operations-guide"></a>Introduction au Guide des opérations
 
@@ -39,9 +39,9 @@ La notion de gestion des services n'est probablement pas un concept nouveau pour
 
 La gestion des services englobe l’ensemble des activités et processus impliqués dans la gestion des Teams de bout en bout. Comme indiqué précédemment, certains composants de la gestion des services, l’infrastructure propre au service Microsoft 365 ou Office 365 proprement dit, sont de la responsabilité de Microsoft, tandis que vous, le client, êtes responsables pour vos utilisateurs de la gestion des différents aspects de Teams, du réseau et des points de terminaison que vous fournissez.
 
-Les tâches et activités de ce guide sont regroupées en huit catégories, comme décrit dans le diagramme suivant. Chacune de ces catégories sera étendue dans les sections suivantes.
+Les tâches et les activités de ce guide sont regroupées en huit catégories, comme décrit dans le diagramme suivant. Chacune de ces catégories sera étendue dans les sections suivantes.
 
-![Diagramme illustrant une liste de catégories de tâches et d’activités](media/operate-my-service-image1.png "Diagramme illustrant une liste des catégories de tâches et d’activités que la gestion des services Teams comprend. Le diagramme illustre également que la gestion des services est largement une tâche du client.")
+![Diagramme illustrant une liste de catégories de tâches et d’activités.](media/operate-my-service-image1.png "Diagramme illustrant une liste des catégories de tâches et d’activités que la gestion des services Teams comprend. Le diagramme illustre également que la gestion des services est largement une tâche du client.")
 
 
 <table>
@@ -66,7 +66,7 @@ Une fois qu’un accord est en place, les équipes correspondantes doivent comme
 
 <table>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td>
-<td><ul><li>Utilisez ce document pour faciliter l’exercice de mappage des rôles opérationnel.</li><li>Réunissez les équipes de support pour attribuer des noms à chaque élément de la liste des activités requises.</li><li>Obtenir l’acceptation ou l’approbation des rôles attribués.</li><li>Assurez-vous que les équipes correspondantes disposent de la formation, de la préparation et des ressources appropriées pour effectuer les activités requises.</li></ul></td></table>
+<td><ul><li>Utilisez ce document pour faciliter l’exercice de mappage des rôles opérationnel.</li><li>Rencontrer les équipes de support pour attribuer des noms à chaque élément de la liste des activités requises.</li><li>Obtenir l’acceptation ou l’approbation des rôles attribués.</li><li>Assurez-vous que les équipes correspondantes disposent de la formation, de la préparation et des ressources appropriées pour effectuer les activités requises.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Teams dépendances de service
 
@@ -114,15 +114,15 @@ Les sections suivantes décrivent les outils que vous pouvez utiliser pour surve
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
 | Centre d'administration Microsoft 365                     | Disponible à partir de n’importe quel appareil avec un navigateur pris en charge. | À utiliser lorsque vous n’avez pas besoin de notifications en temps réel.                                          |
 | Microsoft 365'application Office 365 Admin messagerie                  | Fournit des notifications Push à votre appareil mobile.  | Utilisez cette fonction lorsque vous devez être informé des incidents de service lorsque vous êtes en cours.                  |
-| Microsoft System Center               | Intégration à Microsoft System Center.           | Utilisez cette fonctionnalité lorsque vous avez besoin de fonctionnalités avancées de surveillance et de prise en charge des notifications.                       |
+| Microsoft System Center               | Intégration avec Microsoft System Center.           | Utilisez cette fonctionnalité lorsque vous avez besoin de fonctionnalités avancées de surveillance et de prise en charge des notifications.                       |
 | Microsoft 365 OU OFFICE 365 API communications de service | Accès par programme à l Microsoft 365'état Office 365 service.   | À utiliser lorsque vous avez besoin d’être intégré à un outil de surveillance tiers ou que vous souhaitez créer votre propre solution. |
 
 > [!NOTE]
-> Seules les personnes ayant le rôle **d’administrateur général** ou d’administrateur **de service** peuvent afficher l’état du service.
+> Seules les personnes à qui sont attribués le **rôle d’administrateur général** ou d’administrateur de **service** peuvent afficher l’état du service.
 
 ### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Surveillance avec la Centre d’administration Microsoft 365
 
-La [Centre d’administration Microsoft 365](https://portal.office.com/) fournit un tableau de bord [d’état du](https://portal.office.com/adminportal/home#/servicehealth) service dans lequel vous pouvez afficher l’état actuel du service Teams en plus des services dépendants.
+La [Centre d’administration Microsoft 365](https://portal.office.com/) fournit un tableau de bord [d’état](https://portal.office.com/adminportal/home#/servicehealth) du service dans lequel vous pouvez afficher l’état actuel du service Teams en plus des services dépendants.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Surveillance avec l’application mobile
 
@@ -134,7 +134,7 @@ L’Microsoft 365 ou Office 365 Admin est disponible sur Apple iOS, Android et W
 
 ### <a name="monitoring-with-microsoft-system-center"></a>Surveillance avec Microsoft System Center
 
-Microsoft System Center est une plateforme de gestion intégrée qui vous permet de gérer des centres de données, des appareils clients et des environnements informatiques hybrides dans le cloud. Office 365 les administrateurs qui utilisent System Center ont désormais la possibilité d’importer le pack de gestion Office 365, ce qui leur permet d’afficher toutes les communications de service dans le Gestionnaire des opérations dans System Center. Cet outil vous permet d’accéder à l’état de vos services abonnés, aux incidents de service actifs et résolus, ainsi qu’à vos communications dans le Centre de messages (modifications à venir). Pour plus d’informations, voir le [billet de blog suivant.](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)
+Microsoft System Center est une plateforme de gestion intégrée qui vous permet de gérer des centres de données, des appareils clients et des environnements informatiques hybrides dans le cloud. Office 365 les administrateurs qui utilisent System Center ont désormais la possibilité d’importer le pack d’administration Office 365, ce qui leur permet d’afficher toutes les communications de service dans le Gestionnaire des opérations dans System Center. Cet outil vous permet d’accéder à l’état de vos services abonnés, aux incidents de service actifs et résolus, ainsi qu’à vos communications dans le Centre de messages (modifications à venir). Pour plus d’informations, voir le [billet de blog suivant.](https://blogs.office.com/2014/07/29/new-office-365-admin-tools/?eu=true)
 
 Si vous tirez parti d’System Center pour surveiller l’état Teams du service (et des services dépendants), vous pouvez personnaliser davantage le pack de gestion pour alerter ou avertir les groupes spécifiques ou les personnes identifiées pour réagir aux incidents.
 Ces groupes peuvent inclure des propriétaires de services, des support technique, des groupes de support de deuxième et troisième niveaux, et des gestionnaires d’incidents dans votre organisation.
@@ -164,7 +164,7 @@ Vous pouvez surveiller l’état du service et les modifications à venir en tir
 
 Microsoft Teams est un service cloud. Cela vous permet de fournir de nouvelles fonctionnalités à un rythme rapide. Offrir une innovation continue offre aux organisations un avantage évident, mais ces changements doivent être gérés correctement au sein de votre organisation afin d’éviter la résistance des utilisateurs ou les escalades à votre aide.
 
-Les mises à jour Teams sont déployées automatiquement pour vos utilisateurs. Vos utilisateurs disposeront toujours du client et des fonctionnalités les plus récents disponibles dans le service Teams client. Il n’est pas possible de gérer le déploiement des mises à jour Teams pour vos utilisateurs. Il est donc essentiel de gérer le changement par le biais de programmes efficaces de communication, de formation et d’adoption. Si vos utilisateurs sont conscients du changement, informés des avantages et de la possibilité de tirer parti des nouvelles fonctionnalités, ils pourront s’adapter plus rapidement et accueillir &mdash; le changement.
+Les mises à jour Teams sont déployées automatiquement pour vos utilisateurs. Vos utilisateurs disposeront toujours du client et des fonctionnalités les plus récents disponibles dans le service Teams client. Il n’est pas possible de gérer le déploiement des mises à jour Teams pour vos utilisateurs. Il est donc essentiel de gérer les changements à l’aide de programmes efficaces de communication, de formation et d’adoption. Si vos utilisateurs sont conscients du changement, informés des avantages et de la possibilité de tirer parti des nouvelles fonctionnalités, ils pourront s’adapter plus rapidement et accueillir &mdash; le changement.
 
 ### <a name="monitoring-for-change"></a>Surveillance des changements
 
@@ -173,7 +173,7 @@ La première étape de la gestion des modifications consiste à surveiller les m
 Le blog [Microsoft Teams vous](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)permet d’en savoir plus sur les meilleures pratiques, les tendances et les actualités sur Teams mises à jour de produit. Nous vous attendons à trouver les principales mises à jour Teams fonctionnalités à annoncer ici. Vous pouvez également vous abonner au blog via un flux RSS. Vous pouvez ensuite ajouter le flux [RSS](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) directement dans un Teams, afin que toutes les informations importantes y sont directement Teams.
 
 Toutes les fonctionnalités publiées sont consignées dans les Notes de publication [pour Microsoft Teams.](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de)
-Vous y trouverez la liste des fonctionnalités publiées pour ordinateurs de bureau, web et appareils mobiles. Le même jeu de notes de publication est également disponible sous **l’onglet** Nouveautés de [l’Aide.](get-help-in-microsoft-teams.md)
+Vous y trouverez la liste des fonctionnalités publiées pour le bureau, le web et les appareils mobiles. Le même jeu de notes de publication est également disponible sous **l’onglet** Nouveautés de [l’Aide.](get-help-in-microsoft-teams.md)
 
 Familiarisez-vous avec les ressources disponibles et assurez-vous d’affecter les propriétaires applicables à surveiller les changements.
 
@@ -229,7 +229,7 @@ Pour plus d’informations sur la planification de la gestion des Teams, voir Cr
 
 ## <a name="assess-teams-usage"></a>Évaluer Teams’utilisation
 
-Après le début du pilote initial, il est essentiel d’établir une cadence régulière pour mesurer l’utilisation Teams réelle. Cela permet à votre organisation d’obtenir des informations sur l’alignement de l’utilisation réelle avec l’utilisation que vous avez prévue au cours de la phase de réflexion. Bien que cette section se concentre sur Teams et l’utilisation, elle doit faire partie d’un effort plus large de mesure et d’évaluation de Office 365'utilisation globale.
+Après le début du pilote initial, il est essentiel d’établir une cadence régulière pour mesurer l’utilisation Teams réel. Cela permet à votre organisation d’obtenir des informations sur l’alignement de l’utilisation réelle avec l’utilisation que vous avez prévue au cours de la phase de réflexion. Bien que cette section se concentre sur Teams et l’utilisation, elle doit faire partie d’un effort plus large de mesure et d’évaluation de Office 365'utilisation globale.
 
 L’examen fréquent de l’utilisation au début du déploiement vous permet d':
 
@@ -263,7 +263,7 @@ Après avoir utilisé le tableau de bord de rapports pour mesurer l’utilisatio
 
 Il est important d’identifier les écarts entre l’utilisation réelle et planifiée avant de reprendre le déploiement sur d’autres sites ou utilisateurs. Vous allez probablement identifier les apprentissages de l’organisation dans le cadre de cette activité que vous pourrez exploiter pour vous assurer que le prochain lot de sites ou d’utilisateurs ne rencontrent pas les mêmes problèmes.
 
-Tout d’abord, indiquez s’il s’agit d’une adoption ou d’un problème technique. Commencez par examiner les éléments ci-dessous, dans l’ordre, pour déterminer où se trouve le problème.
+Tout d’abord, indiquez s’il s’agit d’un problème d’adoption ou technique. Commencez par examiner les éléments ci-dessous, dans l’ordre, pour déterminer où se trouve le problème.
 
 1.  Validez la qualité en faisant l’objet d’un examen de la qualité de l’expérience (voir Améliorer et surveiller la qualité des [appels Teams](monitor-call-quality-qos.md) pour plus de détails).
 
@@ -276,7 +276,7 @@ Tout d’abord, indiquez s’il s’agit d’une adoption ou d’un problème te
 | Activité                         | Description                                                                                                                      | Cadence   | Équipe affectée |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----------|---------------|
 | Mesurer l’utilisation (phase d’enablement) | Mesurez et évaluez Teams l’utilisation continue des sites pendant la phase d’intégration. Résoudre les problèmes d’utilisation si nécessaire. | Toutes les semaines    |               |
-| Mesurer l’utilisation (phase de valeur du lecteur)                           | Mesurer et évaluer Teams’utilisation dans la phase De valeur de lecteur (une fois le déploiement terminé). Résoudre les problèmes d’utilisation si nécessaire. | Toutes les semaines  |               |
+| Mesurer l’utilisation (phase de valeur du lecteur)                           | Mesurer et évaluer Teams utilisation dans la phase De valeur de lecteur (une fois le déploiement terminé). Résoudre les problèmes d’utilisation si nécessaire. | Toutes les semaines  |               |
 | Mettre à jour le plan d’adoption             | Mettez à jour votre plan d’adoption en fonction de la mesure de l’utilisation par rapport à vos objectifs de planification.                                         | Selon les besoins |               |
 
 ### <a name="references"></a>Références 
@@ -293,13 +293,13 @@ Le fait de comprendre les opinions des utilisateurs peut agir comme un indicateu
 
 Il est important d’obtenir des commentaires rapidement et de continuer à évaluer les opinions des utilisateurs tout au long du cycle de vie du projet et au-delà. Utilisez les instructions suivantes pour déterminer l’intervalle dans lequel votre organisation va rechercher des commentaires :
 
--   **Début du projet**: en évaluez les opinions des utilisateurs au début du projet, vous pouvez obtenir une vue d’avant-première de l’expérience de vos utilisateurs en ce qui Teams leur expérience.
+-   **Début du projet**: en évaluez les opinions des utilisateurs au début du projet, vous pouvez obtenir une vue d’avant-première de l’expérience des utilisateurs concernant Teams leur expérience.
 
 -   **Après les principaux jalons**: en collectant des commentaires tout au long du cycle de vie du projet, vous pouvez évaluer l’opinion des utilisateurs en continu et apporter des modifications en fonction des besoins. Cette opération est particulièrement utile après les principaux jalons.
 
 -   **Project conclusion**: L’évaluation des opinions des utilisateurs à la fin d’un projet vous indique à quel point vous avez fait et où le travail doit encore être effectué, et vous permet de comparer les résultats par rapport à l’enquête précédente.
 
--   **Continu :** Continuer à mesurer l’opinion des utilisateurs indéfiniment. Les modifications apportées aux opinions des utilisateurs peuvent être dues à des changements dans l’environnement de votre organisation ou à des modifications apportées au service Teams utilisateur. En attignant les sentiments des utilisateurs à intervalles réguliers, vous pouvez comprendre les bonnes performance de vos équipes de gestion des services et la manière dont votre organisation répond aux modifications apportées au service Teams service.
+-   **Continu :** Continuer à mesurer le sentiment des utilisateurs indéfiniment. Les modifications apportées aux opinions des utilisateurs peuvent être dues à des changements dans l’environnement de votre organisation ou à des modifications apportées au service Teams utilisateur. En attignant les sentiments des utilisateurs à intervalles réguliers, vous pouvez comprendre les bonnes performance de vos équipes de gestion des services et la manière dont votre organisation répond aux modifications apportées au service Teams service.
 
 Les opinions des utilisateurs peuvent être évaluées à l’au travers de nombreuses méthodes différentes. Il peut s’agir d’enquêtes par courrier électronique, d’entretiens en personne ou par téléphone, ou de la création d’un canal de commentaires dans Teams ou Yammer. Pour plus d’informations, voir [Meilleures pratiques pour les méthodes de commentaires des utilisateurs dans Microsoft Teams.](best-practices-feedback.md)
 
@@ -307,7 +307,7 @@ Vous pouvez également utiliser une approche à l’échelle du secteur pour év
 
 ### <a name="nps"></a>NPS 
 
-Les scores nets de promotion (NPS) sont une mesure de fidélisation des clients à l’échelle de l’industrie et une bonne approche à utiliser pour évaluer les opinions des utilisateurs. Le programme peut être calculé en posez deux questions : « Allez-vous recommander Teams à un collègue ? », suivi de la question de forme libre « Pourquoi ?
+Le score net de promotion (NPS) est une mesure de fidélisation des clients à l’échelle de l’industrie et une bonne approche à utiliser pour évaluer les opinions des utilisateurs. Le programme peut être calculé en posez deux questions : « Allez-vous recommander Teams à un collègue ? », suivi de la question de forme libre « Pourquoi ?
 
 NPS est un index, compris entre –100 et 100, qui mesure les attentes d’un client pour recommander un produit ou service de l’entreprise. La fonction NPS est basée sur une enquête anonyme livrée à des utilisateurs par courrier électronique ou par d’autres moyens électroniques. NPS mesure la fidélité entre un fournisseur et un consommateur. Il se compose d’une seule question, qui invite les utilisateurs à évaluer leur expérience de 1 à 10, avec la possibilité de fournir des commentaires supplémentaires. Les utilisateurs sont ensuite classés selon les évaluations suivantes :
 
@@ -317,7 +317,7 @@ NPS est un index, compris entre –100 et 100, qui mesure les attentes d’un cl
 
 -   De 1 à 6 sont des consommateurs : clients tristes qui peuvent endommager votre service et empêcher la croissance.
 
-![Diagramme démonstration de l’échelle de NPS](media/operate-my-service-image2.png "Ce diagramme illustre l’échelle de NPS. Il montre que le classement de 0 à 6 est un coupeur, que 7 à 8 sont passifs et que 9 à 10 sont des promoteurs.")
+![Diagramme démonstration de l’échelle de NPS.](media/operate-my-service-image2.png "Ce diagramme illustre l’échelle de NPS. Il montre que le classement de 0 à 6 est un coupeur, que 7 à 8 sont passifs et que 9 à 10 sont des promoteurs.")
 
 Bien que le nombre de PNS de base soit utile, l’analyse des commentaires des utilisateurs vous sera très utile. Ils vous aideront à comprendre pourquoi l’utilisateur recommanderait (ou ne le recommanderait pas) à d’Teams personnes. Ces commentaires peuvent fournir des commentaires utiles pour aider les équipes de gestion de projet ou de service à comprendre les ajustements nécessaires à la qualité du service.
 
@@ -357,7 +357,7 @@ Pour garantir l’état de votre réseau, un certain nombre d’activités d’o
 | Fournir des données de création                                          | Fournissez des informations de sous-réseau mises à jour à l’équipe de champion de la qualité (ou à des parties prenantes concernées) pour vous assurer que les définitions de bâtiment dans le [CQD](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) sont tenues à jour. | Selon les besoins              |               |
 | Implémenter une modification                                               | Implémentez les modifications apportées au réseau pour prendre en charge le changement Teams exigences professionnelles et techniques. Les éléments réseau peuvent inclure les éléments suivants :<ul><li>Pare-feu</li><li>VPNs</li><li>Réseaux câblés et Wi-Fi réseaux</li><li>Connectivité Internet et ExpressRoute</li><li>DNS</li></ul>     | Selon les besoins              |               |
 | Surveillance et rapport réseau                               | Surveillez de bout en bout les tendances de disponibilité, d’utilisation et de capacité du réseau en utilisant vos outils de gestion réseau tiers existants et les fonctionnalités de rapports disponibles de vos fournisseurs réseau. Utilisez des données tendances pour la planification de la capacité réseau.                                                                                                            | Quotidienne, hebdomadaire, mensuelle |               |
-| Planification de capacité                                              | Collaborez avec les propriétaires Teams de service pour comprendre l’évolution des exigences professionnelles et techniques, ce qui peut se baser sur des changements de capacité supplémentaires.                                | Selon les besoins              |               |
+| Planification de capacité                                              | Collaborez avec les propriétaires Teams de service pour comprendre l’évolution des exigences professionnelles et techniques, ce qui pourrait se baser sur des changements de capacité supplémentaires.                                | Selon les besoins              |               |
 | Résolution des problèmes et corrections du réseau                        | Aidez les Teams, les propriétaires de service et les principales parties prenantes à résoudre et corriger les problèmes liés à la Teams, à la fiabilité ou à la qualité. Les éléments réseau peuvent inclure les éléments suivants :<ul><li>Pare-feu</li><li>VPNs</li><li>Réseaux câblés et Wi-Fi réseaux</li><li>Connectivité Internet et ExpressRoute</li><li>DNS</li></ul>    | Selon les besoins              |               |
 | Récupération d’urgence et test de haute disponibilité                | Effectuez régulièrement des tests de haute disponibilité et de récupération d’urgence sur l’infrastructure réseau pour vous assurer qu’elle répond aux objectifs s’y rapportant (S SLOS) ou les contrats de niveau de service (S SLA) pour le service Teams service.                                                                                                                                                  | Mois                |               |
 
@@ -376,7 +376,7 @@ Toutes les organisations ont besoin qu’un groupe ou une personne soit responsa
 Ce rôle exige les compétences nécessaires pour cerner les tendances de l'environnement et le parrainage pour travailler avec d'autres équipes afin d'orienter les mesures correctives. En général, le meilleur candidat au rôle de Champion Qualité est le responsable du service clientèle. En fonction de la taille et de la complexité de l’organisation, il peut s’agit de toute personne ou groupe qui a une passion pour garantir une expérience utilisateur de haute qualité.
 
 L’équipe de champion de la qualité tire parti d’outils existants et de processus documentés, tels que le tableau de bord de qualité des appels, pour surveiller l’expérience des utilisateurs, identifier les tendances de qualité et conduire les corrections au besoin.
-L’organisateur de la qualité doit travailler avec les équipes appropriées pour conduire des actions de correction et signaler devant un comité directeur l’avancement et les problèmes ouverts.
+L’organisateur de la qualité doit travailler avec les équipes appropriées pour conduire des actions de correction et signaler à un comité directeur l’avancement et les problèmes ouverts.
 
 Lisez Améliorer et surveiller la qualité des appels pour [Teams,](monitor-call-quality-qos.md)qui décrit les activités qui évaluent et fournissent des recommandations de correction dans les domaines clés qui ont le plus fort impact sur l’amélioration de l’expérience utilisateur. Les instructions fournies dans cet article se concentrent sur l’utilisation du CQD comme outil principal pour signaler et examiner chaque domaine, avec un focus sur l’audio pour optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
@@ -389,7 +389,7 @@ Nous vous recommandons vivement de désigner le champion de la qualité en avant
 | Des champions de la qualité des train et des personnes désignées pour vous-même | Désignez et formez un champion de la qualité.                                                                                                                                                                                                                                                                   | Selon les besoins                           |               |
 | Effectuer des révisions de qualité de l’expérience (QER)     | Effectuez un QER pour identifier les tendances en matière de qualité et de fiabilité, effectuer des examens par rapport à des objectifs définis et rendre des rapports aux principales parties prenantes de l’organisation.                                                                                                                            | Tous les mois (toutes les semaines pendant les déploiements) |               |
 | Des corrections sur les disques                      | Coordonnez les efforts de correction dans l’organisation sur la base des analyses et résultats de la QER.                                                                                                                                                                                                           | Selon les besoins                           |               |
-| Mettre à jour les données du bâtiment dans le DQD            | Mettez à jour ou ajoutez de nouvelles définitions de bâtiment dans le CQD lorsque des modifications sont apportées au réseau (voir Télécharger [informations sur le bâtiment).](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) | Selon les besoins                           |               |
+| Mettre à jour les données bâtiment dans le CQD            | Mettez à jour ou ajoutez de nouvelles définitions de bâtiment dans le CQD lorsque des modifications sont apportées au réseau (voir Télécharger [informations sur le bâtiment).](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) | Selon les besoins                           |               |
 | Remplir le rôle Quality Champion      | Responsabilité de bout en bout de la qualité au niveau de l’organisation. Cela inclut :<ul><li>Assurez-vous que la QER est effectuée régulièrement.</li><li>Reportez-vous aux principales parties prenantes sur l’état de la qualité.</li><li>Assurez-vous que les définitions de données du bâtiment sont à jour.</li><li>Coordonnez les efforts de correction dans l’organisation pour vous assurer que les utilisateurs ont une expérience de haute qualité avec Teams.</li></ul>          | Jour                               |               |
 
 
@@ -416,11 +416,11 @@ Le Teams client a des exigences minimales en ce qui concerne la plateforme logic
 ### <a name="endpoint-firewalls"></a>Pare-feu des points de terminaison
 
 Les pare-feu côté client peuvent avoir un impact significatif sur l'expérience utilisateur.
-Les pare-feu côté client peuvent affecter la qualité des appels et même empêcher l’établi. Une fois les exclusions appropriées configurées sur le pare-feu du client, vous devez les garder à jour en fonction des informations des URL et [plages](/microsoft-365/enterprise/urls-and-ip-address-ranges)d’adresses IP Office 365 . Votre fournisseur tiers pourra vous donner des conseils spécifiques sur la mise à jour des exclusions.
+Les pare-feu côté client peuvent affecter la qualité des appels et même empêcher l’établi. Une fois les exclusions appropriées configurées sur le pare-feu du client, vous devez les garder à jour en fonction des informations des URL et [plages](/microsoft-365/enterprise/urls-and-ip-address-ranges)d’adresses IP Office 365 . Votre fournisseur tiers pourra vous donner des conseils spécifiques sur la façon de mettre à jour les exclusions.
 
 ### <a name="wi-fi-drivers"></a>Pilotes Wi-Fi
 
-Wi-Fi pilotes peuvent être problématiques. Par exemple, un pilote peut avoir des comportements d’itinérance très agressives entre les points d’accès qui peuvent déclencher un basculement inutile de point d’accès, ce qui peut entraîner une mauvaise qualité des appels. Il est possible qu’un pilote de qualité Wi-Fi soit détecté [](monitor-call-quality-qos.md) par le biais d’une révision de la qualité de l’expérience (voir Améliorer et surveiller la qualité des appels Teams pour plus de détails). Il est essentiel d’implémenter un processus piloté par la qualité qui surveille les nouveaux pilotes Wi-Fi et garantit qu’ils sont testés avant d’être déployés vers la population générale des utilisateurs.
+Wi-Fi pilotes peuvent être problématiques. Par exemple, un pilote peut avoir des comportements d’itinérance très agressives entre les points d’accès qui peuvent déclencher un basculement inutile de point d’accès, ce qui peut entraîner une mauvaise qualité des appels. Il est possible qu’un pilote de qualité Wi-Fi soit détecté [](monitor-call-quality-qos.md) par le biais d’une révision de la qualité de l’expérience (voir Améliorer et surveiller la qualité des appels Teams pour plus de détails). Il est essentiel d’implémenter un processus piloté par la qualité qui surveille les nouveaux pilotes Wi-Fi et s’assure qu’ils sont testés avant d’être déployés vers la population générale des utilisateurs.
 
 ### <a name="endpoint-management"></a>Gestion des points de terminaison
 
@@ -428,7 +428,7 @@ Un catalogue de points de terminaison et d’appareils interface pris en charge 
 
 ### <a name="endpoint-troubleshooting"></a>Résolution des problèmes de point de terminaison
 
-Même si vous avez suivi les instructions précédentes, les utilisateurs de votre organisation peuvent encore être en situation de Teams. Bien que le problème ne soit pas du point de terminaison lui-même, les symptômes de ce problème sont généralement resser relation entre le client et l’utilisateur. Les conseils suivants ont pour but de fournir des étapes générales que vous pouvez suivre pour résoudre le problème . il n’est pas destiné à être un guide de dépannage complet. Les étapes sont fournies dans un ordre spécifique, mais elles ne doivent pas être suivies de manière explicite et peuvent ne pas être applicables, selon la nature du problème.
+Même si vous avez suivi les instructions précédentes, les utilisateurs de votre organisation peuvent encore être en situation de Teams. Bien que le problème ne soit pas du point de terminaison lui-même, les symptômes de ce problème sont généralement manifestes via le client pour l’utilisateur. Les conseils suivants ont pour but de fournir des étapes générales que vous pouvez suivre pour résoudre le problème . il n’est pas destiné à être un guide de dépannage complet. Les étapes sont fournies dans un ordre spécifique, mais elles ne doivent pas être suivies de manière explicite et peuvent ne pas être applicables, selon la nature du problème.
 
 1.  **Valider l’état du service :** Le problème qu’un utilisateur peut rencontrez peut être lié à un événement qui affecte négativement le service Teams ses services dépendants. Dans un premier temps, nous vous recommandons de confirmer l’absence de problèmes de service actif. Consultez [comment vérifier Office 365'état du service.](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0)
     N’oubliez pas de vérifier l’état des services dépendants (par exemple, Exchange, SharePoint, OneDrive Entreprise). La surveillance de l’état du service est abordée plus en détail dans la section précédente, à savoir [surveiller l’état du service.](#monitor-service-health)
@@ -440,7 +440,7 @@ Même si vous avez suivi les instructions précédentes, les utilisateurs de vot
 4.  **Visitez la communauté Microsoft Teams de l’équipe :** La [communauté Microsoft Teams propose des](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) espaces dédiés pour l’Teams. La communauté Teams propose une liste de discussions, des billets de blog et des annonces centrés autour d Teams. Vous pouvez publier une question ou rechercher des solutions à votre problème dans des discussions précédentes.
 
 5.  **Contactez le Support Microsoft :** Vous pouvez contacter le Support Microsoft en cas de problèmes avec Teams en ligne ou par téléphone. Pour plus d’informations, [voir Contacter le support concernant les produits pour les entreprises.](/microsoft-365/admin/contact-support-for-business-products)
-    Pour les clients Premier, les demandes de support peuvent être initiées en suivant les recommandations du support technique Microsoft Teams [(clients Premier).](https://support.microsoft.com/premier/contacts)
+    Pour les clients Premier, les demandes de support peuvent être initiées en suivant les recommandations du support pour [Microsoft Teams (clients Premier).](https://support.microsoft.com/premier/contacts)
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tâches quotidiennes/hebdomadaires/mensuelles/en cas de besoin
 
@@ -541,7 +541,7 @@ Par défaut, tous les utilisateurs qui ont une boîte aux lettres dans Exchange 
 | Administration du service      | Administration des paramètres de gestion des Teams à l’échelle du client.                                                                                                                                                                                                                                                                                                                                                                           | Selon les besoins |               |
 | Administration des utilisateurs         | Administration des paramètres et licences basés sur l’utilisateur dans Teams.                                                                                                                                                                                                                                                                                                                                                           | Selon les besoins |               |
 | Gestion des licences          | Planifiez les besoins actuels et futurs pour les licences basées sur la consommation et les utilisateurs (plans d’appels et crédits de communication) en tirant parti du rapport d’utilisation [PSTN](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report) et des pools de [minutes PSTN.](/skypeforbusiness/skype-for-business-online-reporting/pstn-minute-pools-report) | Toutes les semaines    |               |
-| Gestion des numéros de téléphone | Gérez les numéros de téléphone disponibles pour une croissance future et ajustez les niveaux de stock en vue de répondre aux besoins de votre organisation.                                                                                                                                                                                                                                                                                                | Toutes les semaines    |               |
+| Gestion des numéros de téléphone | Gérez les numéros de téléphone disponibles pour une croissance future et ajustez les niveaux de stock pour répondre aux besoins de votre organisation.                                                                                                                                                                                                                                                                                                | Toutes les semaines    |               |
 | Création d’équipe (facultatif)    | Passer en revue et traiter les demandes de création d’équipe.                                                                                                                                                                                                                                                                                                                                                                          | Selon les besoins |               |
 
 <!--ENDOFSECTION-->
@@ -550,7 +550,7 @@ Par défaut, tous les utilisateurs qui ont une boîte aux lettres dans Exchange 
 
 L’amélioration et le suivi de la qualité des appels pour [Teams](monitor-call-quality-qos.md) inclut un ensemble d’activités qui évaluent et fournissent des recommandations de correction dans les domaines clés qui ont le plus fort impact sur l’amélioration de l’expérience utilisateur, comme illustré ci-dessous.
 
-![Diagramme des domaines à examiner lors d’une révision de la qualité de l’expérience](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de la qualité de l’expérience : audio, fiabilité et résultats des enquêtes effectués par les utilisateurs.")
+![Diagramme des aspects à examiner lors d’une révision de la qualité de l’expérience.](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de la qualité de l’expérience : audio, fiabilité et résultats des enquêtes utilisateur.")
 
 En evaluant et en réstant les aspects décrits dans le guide, vous pouvez réduire leur risque d’affecter négativement l’expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 

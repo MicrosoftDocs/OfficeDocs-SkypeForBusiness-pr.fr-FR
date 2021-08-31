@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: 'Résumé : Préparez vos serveurs Skype Entreprise Server 2019 et votre infrastructure de domaine avec cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, la configuration système requise et les recommandations, ainsi que le DNS de certificat, le partage de fichiers et les informations Active Directory, sont là pour garantir une installation et un déploiement réussis de votre batterie de serveurs.'
-ms.openlocfilehash: a994d2546cb6e15830b8cb2439968a53047a6389
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578208"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728363"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>System requirements for Skype Entreprise Server 2019
  
@@ -117,7 +117,7 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
   
  **Tous les serveurs :**
   
-|**Logiciel/rôle**|**Details**|
+|**Logiciel/rôle**|**Détails**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Tous Skype Entreprise Server serveurs doivent Windows PowerShell 3.0.  <br/> • Il doit être installé par défaut avec Windows Server 2016.<br/> |
 |Microsoft .NET Framework  <br/> |Les services WCF sont une fonctionnalité installée en tant que fonctionnalité Windows, sous Le Gestionnaire de serveur **,** initialement aucun téléchargement n’est nécessaire.  <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et que vous l’activez, que l’option **d’activation HTTP** est également cochée et installée, comme ceci : <br/> ![Capture d’écran montrant l’option d’activation HTTP .NET Framework fonctionnalités 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre vidéo supplémentaire vous disant que d’autres éléments doivent être installés pour que l’activation HTTP soit installée. C’est normal . cliquez sur OK et allez de l’avant. Si vous n’obtenez pas cette fenêtre fenêtre, vous pouvez supposer que ces éléments sont déjà installés et continuer.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Skype Entreprise Server nécessite microsoft .NET Framework 4.7 ou 4.8, vous devrez probablement le mettre à jour. Vous trouverez la mise à jour [ici.](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
@@ -127,7 +127,7 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
    
  **Les serveurs frontux et Édition Standard serveur frontal ont également besoin des ressources nécessaires :**
   
-|**Logiciel/rôle**|**Details**|
+|**Logiciel/rôle**|**Détails**|
 |:-----|:-----|
 |Internet Information Services (IIS)  <br/> |IIS est nécessaire sur tous les serveurs frontaux, ainsi que tous les serveurs Édition Standard, avec les modules suivants sélectionnés :  <br/> • Fonctionnalités HTTP courantes : document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification par mappage de certificat client, authentification Windows client  <br/> • Développement d’applications : extensibilité .NET 3.5, extensibilité .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensions ISAPI, filtres ISAPI  <br/> • Outils de gestion : Console de gestion IIS, scripts et outils de gestion IIS  <br/> Notez que l’accès anonyme est également nécessaire, mais que vous l’obtenez lors de l’installation d’IIS, vous n’avez donc pas d’endroit pour le sélectionner dans la liste.  <br/> |
 |Module d’exécution du format Windows Media  <br/> | Pour Windows Server 2016, vous devez installer la fonctionnalité **Media Foundation** dans le Gestionnaire **de serveur.** Vous pouvez en fait démarrer votre installation Skype Entreprise Server 2019 sans cela, mais vous serez invité à l’installer, puis à redémarrer le serveur, avant de poursuivre l’installation de Skype Entreprise Server 2019. Il est préférable de le faire à l’avance. <br/> |
@@ -302,17 +302,17 @@ Les topologies Skype Entreprise Server 2019 sont les Skype Entreprise Server les
     
 Nous avons des diagrammes et des descriptions pour vous aider à déterminer la topologie dont vous avez besoin dans votre environnement ou ce que vous devrez peut-être configurer avant d’installer Skype Entreprise Server 2019. Pour des raisons de simplicité, nous insérons également une clé :
   
-![Il s’agit d’une clé pour les icônes utilisées pour les diagrammes Skype Entreprise topologie](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![Il s’agit d’une clé pour les icônes utilisées pour Skype Entreprise de topologie.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### <a name="single-forest-with-single-domain"></a>Forêt unique avec domaine unique
 
-![Diagramme d’une forêt unique Active Directory avec un seul domaine](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![Diagramme d’une forêt unique Active Directory avec un seul domaine.](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 Cela n’est pas plus simple . Il s’agit d’une forêt de domaine unique, une topologie commune.
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>Forêt unique avec un arbre unique et plusieurs domaines
 
-![Diagramme de domaines à forêt unique, à arborescence unique et à mutiple](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![Diagramme de domaines à forêt unique, à arborescence unique et à mutiple.](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 Ce diagramme montre une forêt unique, encore une fois, mais il possède également un ou plusieurs domaines enfants (il en existe trois dans cet exemple spécifique). Le domaine dans Skype Entreprise Server 2019 est déployé. Pourquoi vous vous inquiétez ? Il est important de se souvenir que lorsque vous déployez un pool frontal Skype Entreprise Server, tous les serveurs de ce pool doivent se trouver dans un seul domaine. Vous pouvez avoir une administration entre domaines via Skype Entreprise Server prise en charge Windows groupes d’administrateurs universels.
   
@@ -320,7 +320,7 @@ Dans le diagramme ci-dessus, vous pouvez voir que les utilisateurs d’un domain
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>Forêt unique avec plusieurs arbres et des espaces de noms disjoints
 
-![Diagramme d’une forêt unique, de plusieurs forêts et d’espaces de noms disjoints](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![Diagramme d’une forêt unique, de plusieurs forêts et d’espaces de noms disjoints.](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 Vous pouvez avoir une topologie semblable à ce diagramme, où vous avez une forêt, mais dans cette forêt se trouve plusieurs domaines, avec des espaces de noms AD distincts. Dans ce cas, ce diagramme est une bonne illustration, car il inclut des utilisateurs dans trois domaines différents qui accèdent Skype Entreprise Server 2019. Les lignes pleines indiquent qu’ils accèdent à un pool Skype Entreprise Server dans leur propre domaine, tandis qu’une ligne en pointillé indique qu’ils accèdent à un pool dans une arborescence totalement différente.
   
@@ -328,7 +328,7 @@ Comme vous pouvez le constater, les utilisateurs du même domaine, de la même a
   
 #### <a name="multiple-forests-in-a-central-forest-topology"></a>Plusieurs forêts dans une topologie de forêt centrale
 
-![Plusieurs forêts dans un diagramme de topologie de forêt centrale](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![Plusieurs forêts dans un diagramme de topologie de forêt centrale.](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype Entreprise Server 2019 prend en charge plusieurs forêts configurées dans une topologie de forêt centrale. Si vous n’êtes pas sûr de ce que vous avez, la forêt centrale de la topologie utilise des objets dans celle-ci pour représenter les utilisateurs des autres forêts et héberge des comptes d’utilisateurs pour tous les utilisateurs de la forêt.
   
@@ -339,7 +339,7 @@ Clairement, si votre infrastructure AD est en place, le passage à cette topolog
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Plusieurs forêts dans une topologie de Skype Entreprise ressource
 <a name="BKMK_multipleforestopology"> </a>
 
-![Plusieurs forêts dans un diagramme de topologie de forêt de ressources](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Plusieurs forêts dans un diagramme de topologie de forêt de ressources.](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 Une topologie de forêt de ressources est également prise en charge ; C’est là qu’une forêt est dédiée à l’exécution de vos applications serveur, comme Microsoft Exchange Server et Skype Entreprise Server 2019. Ces forêts de ressources hébergent également une représentation synchronisée des objets utilisateur actifs, mais pas de comptes d’utilisateurs connectés. La forêt de ressources est donc un environnement de services partagés pour d’autres forêts dans lesquelles résident des objets utilisateur, et ils ont une relation de confiance au niveau de la forêt avec la forêt de ressources.
   

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Découvrez quelles informations sont envoyées automatiquement aux utilisateurs par courrier électronique en cas de modification de leurs paramètres de conférence Microsoft Teams. '
-ms.openlocfilehash: 288df4ebe5b207d08556eee14f08eb012a87a879
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c09ab0ebe00df0df99d9f0bb0576d99cf1b44da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604493"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729973"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Courriers électroniques envoyés aux utilisateurs lorsque leurs paramètres sont modifiés dans Microsoft Teams
 
@@ -36,14 +36,14 @@ Par défaut, quatre types de messages électroniques sont envoyés aux utilisate
 
 - **Une licence d’audioconférence leur est affectée ou lorsque vous changez le fournisseur de services d’audioconférence en Microsoft.**
 
-     Ce message électronique inclut l’ID de conférence, le numéro de téléphone de conférence par défaut pour les réunions, le code confidentiel pour l’audioconférence de l’utilisateur, ainsi que les instructions et le lien pour utiliser l’outil de mise à jour de réunion en ligne Skype Entreprise utilisé pour mettre à jour les réunions existantes pour l’utilisateur. Consultez [Affecter Microsoft Teams licences de modules add-on ou](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) Affecter Microsoft comme fournisseur de services [d’audioconférence.](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
+     Ce message électronique inclut l’ID de conférence, le numéro de téléphone de conférence par défaut pour les réunions, le code confidentiel de l’audioconférence pour l’utilisateur, ainsi que les instructions et le lien de l’outil de mise à jour des réunions en ligne Skype Entreprise pour l’utilisateur. Consultez [Affecter Microsoft Teams licences de modules add-on ou](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) Affecter Microsoft comme fournisseur de services [d’audioconférence.](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
     > [!NOTE]
     > Si votre organisation a été activée pour les ID de conférence dynamiques, toutes les réunions d'un utilisateur planifiées auront un ID de conférence unique. Vous pouvez configurer des [ID dynamiques d’audioconférence dans votre organisation.](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user) 
 
     Voici un exemple de ce courrier électronique :
 
-     ![Skype for Business Verify License](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![Skype Entreprise Vérifier la licence.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     Pour en savoir plus sur les licences, voir [Microsoft Teams de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
@@ -86,7 +86,7 @@ Lorsque vous désactivez l'envoi de courriers électroniques, le courrier élect
 
 Par défaut, des courriers électroniques sont envoyés à vos utilisateurs, mais si vous ne souhaitez pas qu’ils en reçoivent pour l’audioconférence, vous pouvez utiliser Microsoft Teams ou Windows PowerShell. 
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 

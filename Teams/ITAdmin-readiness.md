@@ -19,12 +19,12 @@ ms.custom:
 description: Vidéos de formation sur les complexes PowerPoint, les didacticiels et autres ressources pour les administrateurs sur la façon de planifier, déployer et exécuter Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b89dc087f97a924aeb89130a4dd9536a3afceb76b5cdfe8d96d60c3af02653b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62f1400c67ddda93feaf57fd0c47f9b062eff911
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298114"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731773"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Formation pour les administrateurs sur Microsoft Teams
 
@@ -32,8 +32,8 @@ Utilisez les ressources de formation pour vous renseigner sur Teams, enseigner a
 
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
-|![Une main et une flèche vers le haut](/office/media/icons/get-started-teams.png) |[Lancez votre déploiement ici](./get-started-with-teams-quick-start.md)     |![Document avec liste](/office/media/icons/document-teams.png)|[Afficher les Teams fonctionnalités par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
-|![Bouton de lecture d’une vidéo](/office/media/icons/video-play.png) |[Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![personne avec une clé](/office/media/icons/administrator.png) |[Teams Chalk Talks : découvrir les meilleures pratiques et des conseils pratiques sur les scénarios Teams populaires](./chalk-talks-landing-page.yml)         |
+|![une main et une flèche vers le haut.](/office/media/icons/get-started-teams.png) |[Lancez votre déploiement ici](./get-started-with-teams-quick-start.md)     |![Document avec liste](/office/media/icons/document-teams.png)|[Afficher les Teams fonctionnalités par plateforme](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|![un bouton de lecture de vidéo.](/office/media/icons/video-play.png) |[Afficher les vidéos des meilleures pratiques et des procédures dans le Café dans le Cloud sur YouTube](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |![personne avec une clé](/office/media/icons/administrator.png) |[Teams Chalk Talks : découvrir les meilleures pratiques et des conseils pratiques sur les scénarios Teams populaires](./chalk-talks-landing-page.yml)         |
 |  |  | |
 
 <h2>Offres et cours de formation clés</h2>

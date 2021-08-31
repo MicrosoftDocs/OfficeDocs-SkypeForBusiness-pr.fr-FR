@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Résumé : Découvrez comment utiliser l’enregistreur clS (Centralized Logging Service) dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628616"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730233"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
  
@@ -71,7 +71,7 @@ Pour arrêter un scénario existant :
     
 4. L’interface utilisateur est de nouveau activée une fois que le scénario s’est arrêté, les détails de l’action sont également affichés dans la zone de sortie de commande PowerShell.
     
-![Démarrage et arrêt de CLS Logger](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![ClS Logger démarre et s’arrête.](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Rechercher des journaux
 
@@ -85,17 +85,17 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
 > 
 > **Ordinateurs** Ordinateurs individuels pour effectuer la recherche dans le journal : il s’hui de tous les nodes enfants dans l’arborescence. (Obligatoire)
 > 
-> **Heure de début** Période à partir de laquelle le CLS interrogera les journaux. (Obligatoire)
+> **Heure de début** Période à partir de laquelle clS interrogera les journaux. (Obligatoire)
 > 
 > **Heure de fin** Période à partir de laquelle le CLS cessera d’interroger les journaux. (Obligatoire)
 > 
 > **Composants** Permet de sélectionner les composants à ajouter à la requête. (Facultatif)
 > 
-> **ID d’appel** ID d’appel de toutes les boîtes de dialogue SIP qui doivent être filtrées. Remarque : ce champ utilise une correspondance exacte. (Facultatif)
+> **ID d’appel** ID d’appel de toutes les boîtes de dialogue SIP qui doivent être filtrées. Remarque : ce champ utilise la correspondance exacte. (Facultatif)
 > 
-> **ID de conférence** ID de conférence de toutes les conférences à filtrer. Remarque : ce champ utilise une correspondance exacte. (Facultatif)
+> **ID de conférence** ID de conférence de toutes les conférences à filtrer. Remarque : ce champ utilise la correspondance exacte. (Facultatif)
 > 
-> **Adresse IP** Adresse IP qui doit être filtrée. Remarque : ce champ utilise une correspondance exacte. (Facultatif)
+> **Adresse IP** Adresse IP qui doit être filtrée. Remarque : ce champ utilise la correspondance exacte. (Facultatif)
 > 
 > **ID de corrélation** Instructions de suivi liées logiquement par cet ID. (Facultatif)
 > 
@@ -109,11 +109,11 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
 > 
 > **Ignorer les journaux réseau** Ignore la recherche dans les journaux réseau s’il est vérifié.
     
-![Journaux de recherche CLS Logger](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![Journaux de recherche CLS Logger.](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Créer un scénario
 
-1. Dans **l’onglet Modifier les scénarios,** cliquez sur le **bouton Créer un** scénario.
+1. Dans **l’onglet Modifier les scénarios,** cliquez sur **le bouton Créer un** scénario.
     
     > [!NOTE]
     > La création d’un scénario clonera la configuration du scénario actuellement sélectionné. Si vous cliquez **sur Effacer Paramètres** avant de créer un nouveau scénario, aucun composant et aucun indicateur n’est sélectionné.
@@ -124,7 +124,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
     
 ## <a name="modify-a-scenario"></a>Modifier un scénario
 
-![Capture d’écran clS Logger, scénarios de modification](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![Capture d’écran clS Logger, scénarios de modification.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. Dans **l’onglet Modifier les scénarios,** recherchez le scénario souhaité à modifier.
     
