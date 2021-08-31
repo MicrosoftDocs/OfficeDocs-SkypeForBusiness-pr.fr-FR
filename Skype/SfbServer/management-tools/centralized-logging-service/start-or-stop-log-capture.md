@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Résumé : Découvrez comment démarrer ou arrêter une session de capture du journal du service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: 8f21b4b63c4261443cf6749f1daf0b905b1adb11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608052"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726953"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Démarrer ou arrêter la capture du journal CLS dans Skype Entreprise Server 2015
  
@@ -115,13 +115,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
-2. Interrogez le service de journalisation centralisée pour connaître les scénarios en cours d’exécution en tapant les données suivantes :
+2. Interrogez le service de journalisation centralisée pour connaître les scénarios en cours d’exécution en tapant ce qui suit :
     
    ```PowerShell
    Show-CsClsLogging
    ```
 
-   ![Windows PowerShell console après l’appel Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Windows PowerShell console après avoir appelé Show-CsCl.](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    Le résultat de Show-CsClsLogging est un résumé des scénarios en cours d’exécution et de leur étendue d’application. Pour plus d’informations, voir [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps).
     

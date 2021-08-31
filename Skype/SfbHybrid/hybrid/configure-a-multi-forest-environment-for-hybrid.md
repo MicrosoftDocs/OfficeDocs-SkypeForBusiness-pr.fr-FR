@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Les sections suivantes dcriront comment configurer un environnement qui possède plusieurs forêts dans un modèle de forêt ressource/utilisateur afin de fournir des fonctionnalités dans un scénario hybride.
-ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a6ca7c559a2c79979a44d8ca7c8555abf432b4d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625776"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727053"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Déployer une topologie de forêt de ressources
 
@@ -32,7 +32,7 @@ ms.locfileid: "58625776"
  
 Les sections suivantes décrivent comment configurer un environnement qui possède plusieurs forêts dans un modèle de forêt ressource/utilisateur afin de fournir des fonctionnalités dans un scénario hybride. 
   
-![Environnement à forêts multiples pour un environnement hybride](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![Environnement à forêts multiples pour un environnement hybride.](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>Configuration requise pour la topologie
 
@@ -53,9 +53,9 @@ Skype Entreprise les utilisateurs d’une base de données Exchange peuvent êtr
 
 Dans une topologie de forêt de ressources, les forêts de ressources qui hébergent Skype Entreprise Server doivent faire confiance à chaque forêt de comptes qui contient les comptes des utilisateurs qui y accèderont. 
 
-Si vous avez plusieurs forêts d’utilisateurs, pour activer l’authentification entre forêts, il est important que le routage de suffixe de nom soit activé pour chacune de ces bases de données de forêt. Pour obtenir des instructions, voir [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). 
+Si vous avez plusieurs forêts d’utilisateurs, pour activer l’authentification entre forêts, il est important que le routage de suffixe de nom soit activé pour chacune de ces bases de données de forêt. Pour plus d’instructions, voir [Managing Forest Trusts](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11)). 
 
-Si vous avez déployé Exchange Server dans une autre forêt et que Exchange fournit des fonctionnalités aux utilisateurs Skype Entreprise, le Exchange d’hébergement de forêt doit faire confiance à la forêt hébergeant Skype Entreprise Server. Par exemple, si Exchange ont été déployés dans la forêt de comptes, une relation d’Skype Entreprise entre le compte et les forêts de comptes est requise.
+Si vous avez déployé Exchange Server dans une autre forêt et que Exchange fournit des fonctionnalités pour les utilisateurs Skype Entreprise, le Exchange d’hébergement de forêt doit faire confiance à la forêt hébergeant Skype Entreprise Server. Par exemple, si Exchange ont été déployés dans la forêt de comptes, une relation d’Skype Entreprise entre le compte et les forêts de comptes est requise.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchroniser les comptes dans la forêt hébergeant des Skype Entreprise
 
@@ -78,7 +78,7 @@ Pour obtenir une synchronisation d’identité appropriée, les attributs suivan
   
 Ne synchronisez pas les UPN entre les forêts. Vous devez utiliser un UPN unique pour chaque forêt d’utilisateurs, car vous ne pouvez pas utiliser le même UPN dans plusieurs forêts. Par conséquent, il existe deux possibilités : synchroniser l’UPN ou ne pas synchroniser. 
   
-- Si l’UPN unique de chaque forêt d’utilisateurs n’a pas été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l' sign-on unique (SSO) est rompue pour au moins la première tentative de déconnexions (en supposant que l’utilisateur a sélectionné l’option d’enregistrer le mot de passe). Dans le Skype Entreprise client, nous partons du principe que les valeurs SIP/UPN sont identiques. Étant donné que l’adresse SIP dans ce scénario est user@company.com, mais que l’UPN de l’objet activé dans la forêt d’utilisateurs est en fait user@contoso.company.com, la tentative de connexion initiale échouerait et l’utilisateur serait invité à entrer des informations d’identification. Lorsque vous entrez le nom d’utilisateur utilisateur (UPN) correct, la demande d’authentification est effectuée sur les contrôleurs de domaine dans la forêt d’utilisateurs et la signature réussit.
+- Si l’UPN unique de chaque forêt d’utilisateurs n’a pas été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l' sign-on unique (SSO) est rompue pour au moins la première tentative de déconnexions (en supposant que l’utilisateur a sélectionné l’option d’enregistrer le mot de passe). Dans le Skype Entreprise client, nous partons du principe que les valeurs SIP/UPN sont identiques. Étant donné que l’adresse SIP dans ce scénario est user@company.com, mais que l’UPN de l’objet activé dans la forêt d’utilisateurs est en fait user@contoso.company.com, la tentative de connexion initiale échouerait et l’utilisateur serait invité à entrer des informations d’identification. Lors de la saisie de leur UPN correct, la demande d’authentification est effectuée sur les contrôleurs de domaine dans la forêt d’utilisateurs et la signature réussit.
     
 - Si l’UPN unique de chaque forêt d’utilisateurs a été synchronisé avec l’objet désactivé associé dans la forêt de ressources, l’authentification AD FS échouerait. La règle correspondante trouve l’UPN sur l’objet dans la forêt de ressources, qui a été désactivé et n’a pas pu être utilisé pour l’authentification. 
     
@@ -90,11 +90,11 @@ Vous devez mettre en service une Microsoft 365 à utiliser avec votre déploieme
 
 Une fois que vous avez un client, vous devez configurer les services AD FS (Active Directory Federation Services) dans chacune des forêts d’utilisateurs. Cela suppose que vous avez une adresse SIP et SMTP unique et un nom d’utilisateur principal (UPN) pour chaque forêt. AD FS est facultatif et est utilisé ici pour obtenir l' sign-on unique (SSO). La synchronisation DirSync avec mot de passe est également prise en charge et peut également être utilisée à la place d’AD FS. 
   
-Seuls les déploiements avec SIP/SMTP et UPN correspondants ont été testés. Le fait de ne pas disposer de correspondances SIP/SMTP/UPN peut entraîner une réduction des fonctionnalités, telles que des problèmes liés à l’intégration Exchange et à l' cesso. 
+Seuls les déploiements avec SIP/SMTP et UPN correspondants ont été testés. Le fait de ne pas disposer de correspondances SIP/SMTP/UPN peut entraîner des fonctionnalités réduites, telles que des problèmes liés à l’intégration Exchange l' puisque l’ment SSO est en cours. 
   
 À moins d’utiliser un SIP/SMTP/UPN unique pour les utilisateurs de chaque forêt, vous pouvez toujours être en butte à des problèmes DSO, quel que soit l’endroit où AD FS est déployé : 
   
-- Les confiances à sens unique ou double entre les forêts de ressources/utilisateurs avec une batterie de serveurs AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
+- Les confiances à sens unique ou double entre les forêts ressource/utilisateur avec une batterie AD FS déployée dans chaque forêt d’utilisateurs, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
     
 - Les relations d’confiance entre les forêts ressource/utilisateur avec une batterie AD FS déployée uniquement dans la forêt de ressources, tous les utilisateurs partagent un domaine SIP/SMTP commun, mais un UPN unique pour chaque forêt d’utilisateurs. 
     
@@ -104,7 +104,7 @@ Ce déploiement sera un déploiement standard du Windows Server 2012 R2 AD FS et
   
 Une fois le déploiement déployé, vous devez modifier la règle de revendications pour qu’elle corresponde à l’ancre source sélectionnée précédemment. Dans la MMC AD FS, sous Trusts de partie de confiance, cliquez avec le bouton droit sur **Microsoft 365 Identity Platform** ou Microsoft Office 365 Identity **Platform,** puis sélectionnez Modifier les règles de **revendication.** Modifiez la première règle et modifiez ObjectSID en **employeeNumber**. 
   
-![Écran Modifier les règles à forêts multiples](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![Écran Modifier les règles à forêts multiples.](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>Configurer les Connecter AAD
 
@@ -114,11 +114,11 @@ Notez qu’Azure AD Connecter ne fournit pas de synchronisation sur site entre l
   
 Lorsque vous avez terminé et qu’Azure AD Connecter fusionne, si vous regardez un objet dans le métaverse, vous devriez voir quelque chose de semblable à ce qui suit : 
   
-![Écran d’objet Métaverse à forêts multiples](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
+![Écran d’objet Métaverse à forêts multiples.](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 Les attributs en surbrillant vert ont été fusionnés à partir Microsoft 365, le jaune est issu de la forêt d’utilisateurs et le bleu est issu de la forêt de ressources. 
   
-Dans cet exemple, Azure AD Connecter a identifié la sourceAnchor et le cloudSourceAnchor de l’utilisateur et les objets de forêt de ressources de Microsoft 365, dans le cas présent 1101- l’employeeNumber sélectionné précédemment. Azure AD Connecter leur a été en mesure de fusionner cet objet dans ce que vous voyez ci-dessus. 
+Dans cet exemple, Azure AD Connecter a identifié la sourceAnchor et le cloudSourceAnchor de l’utilisateur et les objets de forêt de ressources de Microsoft 365, dans le cas présent 1101- l’employeeNumber sélectionné précédemment. Azure AD Connecter ont pu fusionner cet objet dans ce que vous voyez ci-dessus. 
   
 Pour plus d’informations, voir Intégrer vos [répertoires](/azure/active-directory/hybrid/whatis-hybrid-identity)locaux avec Azure Active Directory . 
   

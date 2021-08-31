@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: Dans cet article, vous allez découvrir comment créer, modifier et gérer des comptes de ressources dans Microsoft Teams.
-ms.openlocfilehash: 4456ff79049f0aebc206fd4d941df7b50caa690b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b58aae22afdff749e82ca67ff8b4a457f72b9de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595038"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726643"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gérer les comptes de ressources dans Microsoft Teams
 
@@ -51,9 +51,9 @@ Pour obtenir la licence Utilisateur virtuel, dans l’Centre d’administration 
 
 ### <a name="obtain-service-numbers"></a>Obtenir des numéros de service
 
-Les numéros de service sont facultatifs pour les serveurs automatiques et les files d’attente. Toutefois, vous aurez besoin d’au moins un numéro de service pour que les appelants atteignent votre fournisseur automatique et la configuration de la file d’attente d’appels. Pour un service automatique ou une file d’attente d’appels que vous souhaitez joindre directement à un numéro de service, vous devez avoir un compte de ressource avec un numéro de service associé.
+Les numéros de service sont facultatifs pour les serveurs automatiques et les files d’attente. Toutefois, vous aurez besoin d’au moins un numéro de service pour que les appelants atteignent votre fournisseur automatique et la configuration de la file d’attente d’appels. Pour un service automatique ou une file d’attente d’appels que vous souhaitez joindre directement à un numéro de service, vous devez avoir un compte de ressource associé à un numéro de service.
 
-Les comptes de ressources peuvent utiliser des numéros de service gratuits ou gratuits. Vous pouvez demander de nouveaux numéros ou faire appel à un autre opérateur.
+Les comptes de ressources peuvent utiliser des numéros de service gratuits ou gratuits. Vous pouvez demander de nouveaux numéros ou des numéros existants à un autre opérateur.
 
 Pour obtenir de nouveaux numéros de service, [consultez Obtenir des numéros de téléphone de service.](getting-service-phone-numbers.md)
 
@@ -63,23 +63,23 @@ Pour transférer un numéro d’un autre opérateur, [consultez transférer les 
 
 Vous pouvez créer un compte de ressource dans le Teams d’administration.
 
-![Capture d’écran de l’interface utilisateur Ajouter un compte de ressource](media/resource-account-add.png)
+![Capture d’écran de l’interface utilisateur Ajouter un compte de ressource.](media/resource-account-add.png)
 
 1. Dans le Teams d’administration, développez les **paramètres** à l’échelle de l’organisation, puis cliquez **sur Comptes de ressources.**
 
 2. Cliquez sur **Ajouter**.
 
-3. Dans le **volet Ajouter un compte de** ressource, tapez Nom **d’affichage,** **Nom** d’utilisateur et Type de compte de **ressource.** Le type de compte de ressource peut être le **attendant automatique** ou la file d’attente d’appels, selon l’utilisation que vous comptez en faire. 
+3. Dans le **volet Ajouter un compte de** ressource, tapez Nom **d’affichage,** Nom d’utilisateur et Type de compte de  **ressource.** Le type de compte de ressource peut être le **attendant automatique** ou la file d’attente d’appels, selon l’utilisation que vous comptez en faire. 
 
 4. Cliquez sur **Enregistrer**.
 
-![Capture d’écran d’une liste des comptes de ressources](media/resource-accounts-page.png)
+![Capture d’écran d’une liste des comptes de ressources.](media/resource-accounts-page.png)
 
 ## <a name="assign-a-license"></a>Attribuer une licence
 
 Pour chaque compte de ressource, vous devez attribuer une *Microsoft 365 Système téléphonique utilisateur* virtuel ou une *Système téléphonique* utilisateur virtuel.
 
-![Capture d’écran de l’interface utilisateur attribuer des licences dans le Centre d’administration Microsoft 365](media/resource-account-assign-virtual-user-license.png)
+![Capture d’écran de l’interface utilisateur d’attribution de licences dans Centre d’administration Microsoft 365.](media/resource-account-assign-virtual-user-license.png)
 
 1. Dans la Centre d’administration Microsoft 365, cliquez sur le compte de ressource auquel vous voulez attribuer une licence.
 
@@ -91,7 +91,7 @@ Pour chaque compte de ressource, vous devez attribuer une *Microsoft 365 Systèm
 
 Si vous envisagez d’utiliser le compte de ressource avec un fournisseur de services automatique ou une file d’attente d’appels nécessitant un numéro de service, attribuez un numéro au compte de ressource.
 
-![Capture d’écran de l’interface utilisateur affecter un numéro de service](media/resource-account-assign-phone-number.png)
+![Capture d’écran de l’interface utilisateur affecter un numéro de service.](media/resource-account-assign-phone-number.png)
 
 1. Dans le Teams d’administration, dans la **page** Comptes de ressources, sélectionnez le compte de ressource auquel vous voulez affecter un numéro de service, puis cliquez sur **Affecter/Désaffecter.**
 
@@ -108,7 +108,7 @@ Pour affecter un routage direct ou un numéro hybride à un compte de ressource,
 
 ## <a name="next-steps"></a>Étapes suivantes
 
-Une fois que vous avez configuré le compte de ressource et attribué un numéro de service si nécessaire, vous êtes prêt à utiliser le compte de ressource avec un fournisseur de services automatique ou une file d’attente d’appels.
+Une fois que vous avez terminé la configuration du compte de ressource et que vous avez attribué un numéro de service, si nécessaire, vous êtes prêt à utiliser le compte de ressource avec un responsable automatique ou une file d’attente d’appels.
 
 Consultez les références suivantes :
 
@@ -129,7 +129,7 @@ Si vous décidez de basculer les licences de votre compte de ressource existant 
 
 Pour les comptes de ressources homed on Skype For Business Server 2019 qui peuvent être utilisés avec des files d’attente d’appels cloud et des serveurs automatiques cloud, voir [Plan Cloud call queues](/SkypeforBusiness/hybrid/plan-call-queue) or [Plan Cloud auto attendants.](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) Les implémentations hybrides (numéros homed on Direct Routing) sont configurées à l’aide de l’cmdlet [New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) sur un serveur Skype Entreprise Server 2019 local.
 
-Les ID d’application que vous devez utiliser lors de la création des instances d’application sont les autres :
+Les ID d’application que vous devez utiliser lors de la création des instances d’application sont :
 
 - **Standard automatique :** ce933385-9390-45d1-9512-c8d228074e07
 - **File d’attente** d’appels : 11cd3e2e-fccb-42ad-ad00-878b93575e07
@@ -148,7 +148,7 @@ Pour les implémentations hybrides avec Skype Entreprise Server :
 
 ## <a name="delete-a-resource-account"></a>Supprimer un compte de ressource
 
-Assurez-vous de dissocier le numéro de téléphone du compte de ressource avant de le supprimer afin d’éviter que votre numéro de service reste bloqué en mode En attente.
+Assurez-vous de dissocier le numéro de téléphone du compte de ressource avant de le supprimer, afin d’éviter que votre numéro de service reste bloqué en mode En attente.
 
 Vous pouvez ensuite supprimer le compte de ressource dans le Centre d’administration Microsoft 365, sous l’onglet Utilisateurs.
 

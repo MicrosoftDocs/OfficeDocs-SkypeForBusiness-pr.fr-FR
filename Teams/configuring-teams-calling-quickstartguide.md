@@ -11,7 +11,7 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Guide de démarrage rapide de la configuration des plans d’appel Microsoft Teams vous pouvez rendre un ensemble d’utilisateurs opérationnel.
+description: Guide de démarrage rapide pour configurer des plans d’appel Microsoft Teams vous pouvez rendre un ensemble d’utilisateurs opérationnel.
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab563bb4acd4ea79c35b90dc691bd95f506e5acd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a222dd7734fd8df3885b0601a5e511d1936922a3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593148"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726413"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Lire l’annonce des plans d’appels du 12 décembre 2017 dans Teams : Intellig
 
 En ajoutant des forfaits d’appels, une fonctionnalité de Microsoft 365 et de Office 365 optimisée par Skype Entreprise, vous pouvez désormais utiliser Teams pour passer et recevoir des appels vers ou depuis des lignes fixes et mobiles via le réseau téléphonique commuté (PSTN).
 
-![Capture d’écran montrant la page Contacts dans Teams](media/Calling_in_Teams.png)
+![Capture d’écran montrant la page Contacts dans Teams.](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Conditions préalables à l’activation **de l’onglet** Appels dans Teams
 Pour activer  l’onglet Appels dans Teams les utilisateurs doivent avoir activé les appels en face à face dans Teams et utiliser un client Teams qui prend en charge les appels Teams en deux temps. Pour découvrir comment gérer les appels 1:1 dans Teams, lisez [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy) Pour savoir quels clients prendre en charge les appels, consultez les [limites et spécifications pour Microsoft Teams.](./limits-specifications-teams.md)
 
@@ -60,7 +60,7 @@ La configuration par défaut de TeamsUpgradePolicy est le mode Îles, qui est co
  - Appels VOIP entrants provenant d’un Teams entrants sur Teams, si l’expéditeur et le destinataire se *trouvent dans le même client.*
  - Les appels VOIP fédérés entrants (quel que soit l’origine du client) et les appels PSTN arrivent toujours dans le client Skype Entreprise destinataire.
  
-Pour vous assurer que les appels VOIP et PSTN entrants arrivent toujours dans le client Teams d’un utilisateur, mettez à jour le mode de coexistence de l’utilisateur pour qu’il soit TeamsOnly (c’est-à-dire, affectez-lui l’instance « UpgradeToTeams » de TeamsUpgradePolicy).  Pour plus d’informations sur les modes de coexistence et TeamsUpgradePolicy, consultez les conseils sur la migration et l’interopérabilité pour les organisations qui utilisent des Teams avec [d Skype Entreprise](./migration-interop-guidance-for-teams-with-skype.md)
+Pour vous assurer que les appels VOIP et PSTN entrants arrivent toujours dans le client Teams d’un utilisateur, mettez à jour le mode de coexistence de l’utilisateur pour qu’il soit TeamsOnly (c’est-à-dire, affectez-lui l’instance « UpgradeToTeams » de TeamsUpgradePolicy).  Pour plus d’informations sur les modes de coexistence et TeamsUpgradePolicy, consultez les conseils sur la migration et l’interopérabilité pour les organisations qui utilisent Teams avec [d Skype Entreprise](./migration-interop-guidance-for-teams-with-skype.md)
 
 **NOTES**
  - Skype Entreprise Les téléphones IP recevront des appels, même si l’utilisateur est en mode TeamsOnly.  

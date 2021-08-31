@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: 13cbbf8b8295886cec937091abd3b5a0d378f05e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc8a29e5a312d4a5a77b98929330ee9770e5543c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615210"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729583"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft Teams
 
@@ -78,7 +78,7 @@ Une fois que vous obtenez vos numéros de téléphone payants et/ou gratuits pou
 
 Suivez ces étapes pour affecter un nouveau numéro de téléphone à votre pont d’audioconférence.
 
-![Icône affichant le logo Skype Entreprise](media/sfb-logo-30x30.png) **utilisant le Centre d’administration Skype Entreprise :**
+![Icône représentant le logo Skype Entreprise’affichage.](media/sfb-logo-30x30.png) **À l’aide Skype Entreprise centre d’administration :**
 
  1. Accédez au **Centre d’administration Microsoft 365** > **Centres d’administration** > **Teams** > **Portail de l'héritage**.
  2. Sélectionnez **Voice** > **Numéros de téléphone**.
@@ -89,7 +89,7 @@ Pour plus d’informations, consultez la rubrique [Modifier les numéros de tél
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>Étape 5 : définition des langues par défaut et autres langues de remplacement pour un pont de conférence
 <a name="__top"> </a>Ensuite, vous devez [Définir les langues du standard automatique pour les audioconférences dans Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que le standard automatique de la conférence utilisera pour accueillir les appelants lorsqu’ils se connecteront à un numéro de téléphone pour une audioconférence. 
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** :
+![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
 1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
 2. Sélectionnez le numéro de téléphone de pont de conférence, cliquez sur **Modifier**, puis choisissez la langue par défaut.
@@ -99,7 +99,7 @@ Pour plus d’informations, consultez la rubrique [Modifier les numéros de tél
     
 Après avoir configuré votre pont de conférence, vérifiez que les paramètres par défaut, tels que les notifications d’entrée/sortie et la longueur du code confidentiel sont ceux que vous souhaitez utiliser. Si ce n’est pas le cas, vous pouvez les modifier. 
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** :
+![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
 1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
 2. Sélectionnez **Paramètres de Bridge**. Cela ouvrira le volet **Paramètres de pont**. 
@@ -112,7 +112,7 @@ Après avoir créé un pont d’audioconférence, vous devez définir les numér
 
 Vous devez effectuer cette opération pour toutes les personnes de votre entreprise qui animent ou qui planifient des réunions. 
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** :
+![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
 1. Dans le tableau de bord, cliquez sur **Utilisateurs**, sélectionnez l’utilisateur dans la liste, puis sélectionnez **Modifier**.
 2. Sélectionnez **Modifier** à côté de **Audioconférence**, puis dans le volet **Audioconférence**, choisissez un numéro dans les listes de **numéros payants** et de **numéros gratuits**.

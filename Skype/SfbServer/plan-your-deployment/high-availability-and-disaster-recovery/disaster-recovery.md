@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec leover en cas de panne d’un pool.
-ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603833"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728833"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Récupération d’urgence du pool frontal dans Skype Entreprise Server
  
@@ -26,13 +26,13 @@ Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de
   
 Pour les options de récupération d’urgence les plus robustes Skype Entreprise Server, déployez des paires de pools frontaux sur deux sites géographiquement dispersés. Chaque site possède un pool frontal associé à un pool frontal correspondant dans l’autre site. Les deux sites sont actifs et le service de sauvegarde fournit une réplication des données en temps réel pour maintenir la synchronisation des pools. Voir [Déployer des pools frontux](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) couplés pour la récupération d’urgence dans Skype Entreprise Server si vous souhaitez implémenter le jumelage de pool frontal.
   
-![Affiche les pools frontux sur deux sites différents, associés l’un à l’autre](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![Affiche les pools frontux sur deux sites différents, associés l’un à l’autre.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
 Si le pool d’un site échoue, vous pouvez faire échouer les utilisateurs de ce pool vers le pool de l’autre site, qui sert ensuite tous les utilisateurs des deux pools. Pour la planification de la capacité, vous devez concevoir chaque pool pour gérer la charge de travail de tous les utilisateurs des deux pools en cas d’incident.
   
 Deux centres de données qui incluent des pools frontaux associés l’un à l’autre peuvent être séparés à n’importe quelle distance. Nous vous recommandons de coupler deux centres de données dans la même région du monde, avec des liens haut débit entre eux. 
   
-Il est possible d’avoir deux centres de données dans différentes régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence de la réplication des données.
+Il est possible d’avoir deux centres de données dans différentes régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence dans la réplication des données.
   
 Lorsque vous planifiez les pools à jumeler, vous devez garder à l’esprit que seuls les jumelages suivants sont pris en charge :
   
@@ -66,7 +66,7 @@ Le magasin central de gestion contient des données de configuration sur les ser
   
 Si vous associez le pool qui héberge le magasin central de gestion, une base de données du magasin central de gestion de sauvegarde est définie dans le pool de sauvegarde. À tout moment, l’une des deux bases de données du magasin central de gestion est active et l’autre est une base de données de veille. Le contenu est répliqué par le service de sauvegarde de la base de données active vers la base de données de secours.
   
-![Affiche deux pools frontaux, l’un avec le magasin CMS actif et l’autre avec le magasin CMS de sauvegarde passive](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![Affiche deux pools frontaux, l’un avec le magasin CMS actif et l’autre avec le magasin CMS de sauvegarde passive.](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
 Lors d’un changement de pool qui implique le pool hébergeant le magasin central de gestion, vous devez faire échouer le magasin central de gestion avant de faire échouer le pool frontal.
   

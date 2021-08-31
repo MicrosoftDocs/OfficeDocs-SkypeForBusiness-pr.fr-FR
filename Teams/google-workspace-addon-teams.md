@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4fe6a61dd4891f457656e0659243c75c372142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb5f7574bd5e07598c412cd7d17f02625de2f095
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598538"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729913"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Configurer le Microsoft Teams de réunion pour Google Workspace
 
-L’Microsoft Teams à une réunion permet aux utilisateurs de Google Agenda de planifier et de Microsoft Teams réunion directement à partir de Google Workspace. Les utilisateurs auront accès aux Teams de réunion, notamment à la vidéoconférence et l’audioconférence, le partage d’écran, la conversation de réunion, les tableaux blancs numériques, etc. Restez connecté et organisé pour être encore plus efficace au sein de votre travail, de votre école et de votre vie.
+L’Microsoft Teams à une réunion permet aux utilisateurs de Google Agenda de planifier et de Microsoft Teams réunion directement à partir de Google Workspace. Les utilisateurs auront accès aux Teams de réunion, notamment à la vidéoconférence et l’audioconférence, le partage d’écran, la conversation de réunion, les tableaux blancs numériques, etc. Restez connecté et organisé pour être encore plus efficace au sein de votre vie professionnelle, scolaire et personnelle.
 
 Le Microsoft Teams de réunion pour Google Workspace doit être activé par un administrateur de Teams pour que les utilisateurs clients peuvent accéder à l’application.
 
@@ -43,11 +43,11 @@ L’option d’ajout est activée par défaut.
 
 3. Recherchez **Microsoft Teams le module-module de réunion pour Google Workspace.**
 
-   ![Portail Azure affichant toutes les applications](media/aad-add-google-workspace.png)
+   ![Portail Azure affichant toutes les applications.](media/aad-add-google-workspace.png)
 
 4. Sélectionnez **Oui.**
 
-   ![Portail Azure affichant les propriétés de l’espace de travail Google](media/google-workspace-properties.png)
+   ![Portail Azure affichant les propriétés de l’espace de travail Google.](media/google-workspace-properties.png)
 
 5. (Facultatif) Pour désactiver l’module supplémentaire, sélectionnez **Non** au lieu de **Oui** à l’étape 4.
 

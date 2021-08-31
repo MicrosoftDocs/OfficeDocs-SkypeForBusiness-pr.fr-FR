@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Les connexions SIP directes sont Skype Entreprise Server entre les passerelles PSTN et les passerelles PSTN et IP-PBX dans Voix Entreprise.
-ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a3a2354074819f40780896897a8e9a2790a9421
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596518"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726263"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Connexions SIP directes dans Skype Entreprise Server
 
@@ -56,7 +56,7 @@ La figure suivante illustre la topologie générique pour le déploiement de Voi
 
 **Option de déploiement incrémentielle**
 
-![Diagramme de l’option de migration départementale](../../media/Fig28_Departmental_migration_option.jpg)
+![Diagramme de l’option de migration départementale.](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
 > Si vous connectez votre déploiement Skype Entreprise Server à un partenaire SIP direct certifié, une passerelle PSTN (réseau téléphonique commuté) entre le serveur de médiation et le PBX n’est pas nécessaire. Pour obtenir la liste des partenaires SIP directs certifiés, voir le programme d’interopérabilité d’ouverture des [communications unifiées microsoft.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
@@ -97,7 +97,7 @@ La figure suivante illustre une topologie classique pour un déploiement VoIP un
 
 **Option de déploiement VoIP uniquement**
 
-![Option de déploiement greenfidle](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Option de déploiement greenfidle.](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > Le chemin d’accès au média illustré dans cette figure a la déviation du média activée (configuration recommandée). Si vous choisissez de désactiver le contournement de média, le chemin d’accès du média est acheminé via le serveur de médiation.

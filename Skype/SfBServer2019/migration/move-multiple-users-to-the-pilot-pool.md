@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre pool pilote Skype Entreprise Server 2019 à l’aide du Panneau de Skype Entreprise Server 2019 ou de Skype Entreprise Server 2019 Management Shell.
-ms.openlocfilehash: 50525ce139cb324d71ebcdce54ef96463dc933b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4d14d26a76ff4dbfc690fc7517aba77afd253f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624576"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726313"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Déplacer plusieurs utilisateurs vers le pool pilote
 
@@ -40,7 +40,7 @@ Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre p
     
 3. Sélectionnez deux utilisateurs à déplacer vers le pool Skype Entreprise Server 2019. Dans cet exemple, nous allons déplacer les utilisateurs Chen Yang et Claus Hansen.
     
-     ![Déplacer des utilisateurs vers un pool d’inscription spécifique](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
+     ![Déplacez les utilisateurs vers un pool d’inscription spécifique.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
 4. Dans le menu **Action**, sélectionnez **Déplacer les utilisateurs sélectionnés vers le pool**.
     
@@ -48,7 +48,7 @@ Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre p
     
 6. Cliquez sur **Action**, puis sur **Déplacer les utilisateurs sélectionnés vers le pool**. Cliquez sur **OK**.
     
-     ![Boîte de dialogue Déplacer les utilisateurs, pool de bureaux d’inscriptions de destination](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![Boîte de dialogue Déplacer les utilisateurs, pool de bureaux d’inscriptions de destination.](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
 7. Vérifiez que la colonne **du pool** de bureaux d’inscriptions pour les utilisateurs contient désormais le pool Skype Entreprise Server 2019, ce qui indique que les utilisateurs ont été déplacés avec succès. 
     
@@ -63,7 +63,7 @@ Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre p
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
-    ![Exemple d'Get-CsUser PowerShell](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Exemple d'Get-CsUser PowerShell.](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. Dans la ligne de commande, tapez le code suivant : 
     
@@ -73,7 +73,7 @@ Vous pouvez déplacer plusieurs utilisateurs de votre pool hérité vers votre p
 
 4. L’identité **Registrar Pool** doit désormais pointer vers le pool que vous avez spécifié en tant que **pool_FQDN** à l’étape précédente. La présence de cette identité confirme que l’utilisateur a été déplacé avec succès. Répétez l’étape pour **vérifier que User2** a été déplacé. 
     
-     ![Sortie de l'Get-UsUser -Identity de PowerShell](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![Sortie de l'Get-UsUser -Identity de PowerShell.](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>Pour déplacer tous les utilisateurs en même temps à l’aide Skype Entreprise Server 2019 Management Shell
 <a name="sectionSection2"> </a>
@@ -88,7 +88,7 @@ Dans cet exemple, tous les utilisateurs ont été renvoyés au pool hérité (po
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![Cmdlet PowerShell et résultats dans Management Shell](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![Cmdlet PowerShell et résultats dans Management Shell.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. Exécutez **Get-CsUser** pour l’un des utilisateurs pilotes. 
     
@@ -100,6 +100,6 @@ Dans cet exemple, tous les utilisateurs ont été renvoyés au pool hérité (po
     
 5. En outre, nous pouvons afficher la liste des utilisateurs dans le Panneau de Skype Entreprise Server 2019 et vérifier que la valeur du pool de bureaux d’inscriptions pointe désormais vers le pool Skype Entreprise Server 2019.
     
-     ![Skype Entreprise Server d’utilisateurs du Panneau de Skype Entreprise Server 2019](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![Skype Entreprise Server d’utilisateurs du Panneau de contrôle 2019.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

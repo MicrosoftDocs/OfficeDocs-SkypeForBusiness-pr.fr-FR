@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: 'Découvrez l’activation de l’enregistrement pour les conférences audio et vidéo et ce qui est et n’est pas inclus dans les enregistrements. '
-ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3e4db64b7703ef4f7373c5607838a707767db78
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625736"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729923"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permettre aux utilisateurs d'enregistrer leurs audioconférences ou visioconférences
 
@@ -33,9 +33,9 @@ ms.locfileid: "58625736"
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Sélection du paramètre d'enregistrement par défaut pour un utilisateur ou pour tous les utilisateurs de votre organisation
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
 
-1. Allez dans le Centre d> **Skype Entreprise,** puis cliquez sur **Utilisateurs.**
+1. Allez au Centre d'> **Skype Entreprise,** puis cliquez sur **Utilisateurs.**
     
 2. Dans la page **Utilisateurs,** sélectionnez le ou les utilisateurs dans la liste, puis cliquez sur **Modifier.**
     

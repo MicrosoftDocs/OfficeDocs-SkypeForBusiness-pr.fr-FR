@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser des étiquettes de sensibilité pour protéger vos équipes dans Microsoft Teams.
-ms.openlocfilehash: d00ebe1861596ddb41e852c7e8fe6360df024ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4f6f3b790bb84b4d628760548b6ab1115f6326d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621956"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729593"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Étiquettes de sensibilité pour Microsoft Teams
 
@@ -53,22 +53,22 @@ Par exemple, vous créez et publiez une étiquette de confidentialité nommée �
 
 Lorsqu’un utilisateur crée une équipe  et sélectionne l’étiquette Confidentiel, la seule option de confidentialité disponible pour l’utilisateur est **Privé.** D’autres options de confidentialité, telles que Publique et À l’échelle de l’organisation, ne peuvent pas être sélectionnées par l’utilisateur :
 
-![Capture d’écran de l’étiquette confidentiel](media/sensitivity-labels-confidential-example.png)
+![Capture d’écran de l’étiquette confidentiel.](media/sensitivity-labels-confidential-example.png)
 
 De même, vous créez et publiez une étiquette de confidentialité nommée « Général » dont l’option de confidentialité de l’étiquette est configurée en tant que **Public.** Lorsqu’un utilisateur crée une équipe, il ne peut créer des équipes publiques ou à l’échelle de l’organisation que s’ils sélectionnent cette étiquette :
 
-![Capture d’écran de l’étiquette de sensibilité Général](media/sensitivity-labels-general-example.png)
+![Capture d’écran de l’étiquette de sensibilité Général.](media/sensitivity-labels-general-example.png)
 
 Lorsque l’équipe est créée, l’étiquette de sensibilité est visible dans le coin supérieur droit des canaux de l’équipe. 
 
 > [!NOTE]
 > Si vous utilisez des étiquettes hiérarchiques de type parent-enfant, telles que « Confidentiel\Finance », seule l’étiquette du parent s’affiche dans l’en-tête du canal.
 
-![Capture d’écran de l’étiquette de sensibilité dans le canal d’équipe](media/sensitivity-labels-channel.png)
+![Capture d’écran de l’étiquette de sensibilité dans le canal d’équipe.](media/sensitivity-labels-channel.png)
 
 Un propriétaire d’équipe peut modifier l’étiquette de confidentialité et le paramètre de confidentialité de l’équipe à tout moment en se rendre à l’équipe, puis en cliquant **sur Modifier l’équipe.**
 
-![Capture d’écran de l’étiquette de sensibilité dans les propriétés de l’équipe](media/sensitivity-labels-edit-team.png)
+![Capture d’écran de l’étiquette de sensibilité dans les propriétés de l’équipe.](media/sensitivity-labels-edit-team.png)
 
 ### <a name="control-guest-access-to-teams"></a>Contrôler l’accès invité aux équipes
 

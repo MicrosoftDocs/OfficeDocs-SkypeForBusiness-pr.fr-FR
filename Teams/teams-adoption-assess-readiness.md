@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2bd70c0b46d48333552a862ab26a763cfe5473d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613563"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726763"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Votre organisation est-elle prête pour Microsoft Teams ?
 
@@ -48,7 +48,7 @@ Maintenant que votre équipe de projet s’est rassemblée et que vous commencen
 6. Ce leader a-t-il une relation positive avec les principaux membres de l’équipe de projet existante ?
 7. Cet leader aime-t-il être considéré comme un « agent de changement » au sein de l’organisation ?  
 
-Vous pouvez ajouter d’autres questions pertinentes pour votre organisation. Pour vos deux phases initiales (démarrage et expérimentations), vous verrez des leaders qui sont conviviales pour le changement, plutôt pas satisfaits de la technologie actuelle et avec qui vous avez une bonne relation. Ces leaders doivent être amenés dans l’équipe de projet principale en tant que conseillers commerciaux, et peuvent avoir des projets qui seront essentiels pour votre phase de expérimentation. Il est important de sélectionner des situations réelles et impactantes à tester et d’éviter les projets à risque élevé pour vos expérimentations initiales.
+Vous pouvez ajouter d’autres questions pertinentes pour votre organisation. Pour vos deux phases initiales (démarrage et expérimentations), vous verrez des leaders qui sont conviviales pour le changement, quelque peu satisfaits de la technologie actuelle et avec qui vous avez une bonne relation. Ces leaders doivent être amenés dans l’équipe de projet principale en tant que conseillers commerciaux, et peuvent avoir des projets qui seront essentiels pour votre phase de expérimentation. Il est important de sélectionner des situations réelles et impactantes à tester et d’éviter les projets à risque élevé pour vos expérimentations initiales.
    
 > [!NOTE]
 > S’il est possible d’attribuer un score à ce type de questionnaire afin de minimiser l’impact de l’élément humain des relations au sein de votre organisation, la conduite du changement dépend de la chimie de l’équipe autant que de ses compétences techniques ou de son savoir-faire commercial. Examinez cette liste avec les membres de votre équipe pour discuter de l'« ajustement » de vos différents chefs de projet à mesure que vous sélectionnez les projets et le personnel pour les phases suivantes. 
@@ -64,15 +64,15 @@ Les premiers utilisateurs partagent certains traits d’caractère, quelle que s
 - Souhaitant partager ses observations et apprentissages avec le groupe
 - sont des personnes qui prennent des risques ; autrement dit, ils veulent essayer quelque chose pour voir si cela fonctionne
 
-Utilisez un formulaire simple dans Microsoft 365 ou Office 365 pour permettre à ces personnes de choisir votre programme d’utilisateurs précoces pour Teams. Selon la taille et la complexité de votre organisation, vous pouvez choisir d’activer une partie ou la plupart de ces individus pour votre phase de expérimentation. Dans ce programme, ils conviennent de participer activement à votre phase de expérimentation et de fournir des commentaires réguliers à l’équipe de projet. Évitez d’avoir des personnes qui souhaitent simplement tester la nouvelle technologie. Faites-leur savoir qu’en leur faisant part de ces commentaires actifs, ils contribuent à élaborer le résultat de votre projet. Vous utiliserez cette liste de personnes dans la [phase 2 (expérimentation).](teams-adoption-phase2-experiment.md)
+Utilisez un formulaire simple dans Microsoft 365 ou Office 365 pour permettre à ces personnes de choisir votre programme d’utilisateurs précoces pour Teams. Selon la taille et la complexité de votre organisation, vous pouvez choisir d’activer une partie ou l’ensemble de ces individus pour votre phase de expérimentation. Dans ce programme, ils conviennent de participer activement à votre phase de expérimentation et de fournir des commentaires réguliers à l’équipe de projet. Évitez d’avoir des personnes qui souhaitent simplement tester la nouvelle technologie. Faites-leur savoir qu’en leur faisant part de ces commentaires actifs, ils contribuent à élaborer le résultat de votre projet. Vous utiliserez cette liste de personnes dans la [phase 2 (expérimentation).](teams-adoption-phase2-experiment.md)
 
 Notre guide des premiers utilisateurs est une ressource utile pour mettre un coup d’avance à ce programme dans votre environnement.  
  
 ## <a name="assess-your-organizations-readiness-for-change"></a>Évaluer la disponibilité de votre organisation en cas de modification
 
-Le changement est un processus humain qui n’a rien à voir avec la technologie. Il existe une politique politique qui nous donne une bonne éducation sur la résistance naturelle au changement. Pour rendre les changements acceptables, il est essentiel d’anticiper les besoins de vos utilisateurs, d’exprimer votre compréhension de leur situation et de créer des solutions qui améliorent cette situation. Même en faisant cela, vous rencontrerez une résistance naturelle au changement.  
+Le changement est un processus humain qui n’a rien à voir avec la technologie. Il existe une politique politique qui nous donne des informations sur la résistance naturelle au changement. Pour rendre les changements acceptables, il est essentiel d’anticiper les besoins de vos utilisateurs, d’exprimer votre compréhension de leur situation et de créer des solutions qui améliorent cette situation. Même en faisant cela, vous rencontrerez une résistance naturelle au changement.  
 
-![Graph illustration de la résistance au changement](media/teams-adoption-resistance.png)
+![Graph illustration de la résistance au changement.](media/teams-adoption-resistance.png)
 
 Chaque organisation se rapproche différemment, selon la région, le style de travail, le profil professionnel et d’autres éléments de l’organisation. Pour évaluer la disponibilité de votre organisation, voir Évaluer la disponibilité [en matière de changement d’organisation.](upgrade-org-change-readiness.md) Utilisez les instructions pour répondre aux questions suivantes :
 
@@ -87,7 +87,7 @@ Chaque organisation se rapproche différemment, selon la région, le style de tr
 2. Quelle est la compétence des utilisateurs pour le changement ? *(Formation)*
     - **Les démarrages autonomes** nécessitent uniquement un lien vers une vidéo.
     - **Les créateurs d’équipe** se sont bien passé des formations de groupe.
-    - **Les apprenants un-à-un ont besoin** d’un support personnel.
+    - **Les étudiants un-à-un ont besoin d’un** support personnel.
 
     > [!TIP]
     > Personas le type et la quantité de formation pour la compétence et les personnage. Continuez à mettre à jour les formations lorsque de nouvelles fonctionnalités sont disponibles en ligne.
@@ -104,4 +104,4 @@ Combinez ces données avec les profils des parties prenantes et les employés qu
 
 Vous pouvez faire appel à des champions internes pour résoudre le problème d’avoir différents types de changements. Ici, les commentaires sont essentiels au succès : encouragez les utilisateurs à partager leurs défis et besoins. Adoptez des perturbateurs et des dissidences en donnant à ces individus ou groupes un siège à la table lors de l’expérimentation. Cette meilleure pratique préparera le terrain pour un déploiement plus fluide de vos améliorations de la collaboration.  
 
-![Icône représentant l’étape suivante : mise Microsoft Teams ](media/teams-adoption-next-icon.png) [phase d’adoption 2 : tester](teams-adoption-phase2-experiment.md) 
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Microsoft Teams [phase d’adoption 2 : Tester](teams-adoption-phase2-experiment.md) 

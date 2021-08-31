@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams partage de contenu.
-ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592228"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726503"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion : partage de contenu
 
@@ -66,11 +66,11 @@ Ce paramètre est une stratégie par utilisateur. Ce paramètre détermine si l�
 
 Si ce paramètre est activé pour l’utilisateur, l’option **Attribuer un contrôle** s’affiche dans la barre supérieure d’une session de partage.
 
-![Capture d’écran montrant l’option donner le contrôle](media/meeting-policies-give-control.png)
+![Capture d’écran montrant l’option Donner le contrôle.](media/meeting-policies-give-control.png)
 
 Si le paramètre est désactivé pour l’utilisateur, l’option **Donner le contrôle** n’est pas disponible.
 
-![Capture d’écran montrant que l’option attribuer le contrôle n’est pas disponible](media/meeting-policies-give-control-not-available.png)
+![Capture d’écran montrant que l’option Donner le contrôle n’est pas disponible.](media/meeting-policies-give-control-not-available.png)
 
 Examinons l’exemple suivant.
 

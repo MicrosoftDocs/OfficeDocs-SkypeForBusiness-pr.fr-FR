@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Le portail Web d’administration Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.
-ms.openlocfilehash: 2451d9892bc15b1b1f189a764823c2f9beb019ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618130"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729113"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server
 
 Le portail Web d’administration Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.
 
-Pour utiliser cette fonctionnalité, le portail Web d’administration de SRS v1 doit être déployé sur chaque serveur Skype Entreprise Server frontal. Ce guide fournit des instructions aux administrateurs sur l’installation et la configuration du portail Web d’administration SRS. Il est destiné aux administrateurs qui connaissent l’administration Skype Entreprise Server et qui ont des droits d’utilisateur d’administrateur pour modifier la topologie Skype Entreprise Server de gestion.
+Pour utiliser cette fonctionnalité, le portail Web d’administration de SRS v1 doit être déployé sur chaque serveur Skype Entreprise Server frontal. Ce guide fournit des instructions aux administrateurs sur l’installation et la configuration du portail Web d’administration SRS. Il est destiné aux administrateurs qui connaissent l’administration Skype Entreprise Server et qui ont des droits d’utilisateur d’administrateur pour modifier la topologie Skype Entreprise Server’administration.
 
 Une fois le portail Web d’administration SRS v1 déployé sur le serveur, les administrateurs peuvent vérifier l’état des appareils SRS v1 en se connectant au site à partir de leurs ordinateurs ou ordinateurs portables.
 
@@ -49,7 +49,7 @@ Pour utiliser le portail Web d’administration de SRS v1, vous devez installer 
 
 1. Installez Skype Entreprise Server mises à jour cumulatives cumulatives dans la topologie Skype Entreprise Server’installation.
 
-    Pour obtenir la mise à jour ou voir ce qui y est inclus, voir Mises à jour [Skype Entreprise Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
+    Pour obtenir la mise à jour ou voir ce qui y est inclus, voir Mises à jour Skype Entreprise Server [2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015).
 
 2. Créez un utilisateur Active Directory activé pour SIP.
 
@@ -61,9 +61,9 @@ Pour utiliser le portail Web d’administration de SRS v1, vous devez installer 
 
 4. Créez un groupe de sécurité Active Directory nommé LRSFullAccessAdminGroup.
 
-    Créez le groupe avec une étendue de groupe globale et un type de groupe en tant qu’utilisateurs activés pour Security.SIP qui sont ajoutés à ce groupe sont autorisés à utiliser toutes les fonctionnalités du portail d’administration sur une seule Skype salle. Pour inclure la prise en charge de la gestion en bloc Skype salles, reportez-vous à l’étape 5.
+    Créez le groupe avec une étendue de groupe globale et un type de groupe en tant qu’utilisateurs activés security.SIP qui sont ajoutés à ce groupe sont autorisés à utiliser toutes les fonctionnalités du portail d’administration sur une seule Skype salle. Pour inclure la prise en charge de la gestion en bloc Skype salles, reportez-vous à l’étape 5.
 
-     ![Liste des groupes d’administration avec rôle de groupe de sécurité](../../media/LRS_LRSFullAccessAdminGroup.png)
+     ![Liste des groupes d’administration avec le rôle de groupe de sécurité.](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. Créez un groupe de sécurité Active Directory nommé LRSPowerUserAdminsGroup.
 
@@ -71,11 +71,11 @@ Pour utiliser le portail Web d’administration de SRS v1, vous devez installer 
 
 6. Ajoutez LRSFullAccessAdminGroup en tant que membre de LRSSupportAdminGroup.
 
-     ![Page Membres des propriétés LRSSupportAdminGroup](../../media/LRS_Add_LRSSupportAdminGroup.png)
+     ![Page Membres des propriétés LRSSupportAdminGroup.](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
 7. Créez un utilisateur Active Directory activé pour SIP avec le nom LRSSupport. Ajoutez cet utilisateur à LRSSupportAdminGroup.
 
-     ![Page Membres des propriétés LRSSupportAdminGroup](../../media/LRS_Add_LRS_SIP_SupportUser.png)
+     ![Page Membres des propriétés LRSSupportAdminGroup.](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
 8. Installez [ASP.NET MVC 4 pour Visual Studio 2010 SP1 et Visual Web Developer 2010 SP1.](https://go.microsoft.com/fwlink/p/?LinkId=323967)
 
@@ -126,7 +126,7 @@ Pour vérifier l’installation du portail Web d’administration de SRS v1, vou
 
     Vous ne devriez voir aucune erreur, comme illustré dans l’image suivante :
 
-     ![Écran de signature du portail d’administration Lync Room System](../../media/LRS_AdminPortalSignIn.png)
+     ![Écran de signature du portail d’administration Lync Room System.](../../media/LRS_AdminPortalSignIn.png)
 
 2. Si vous ne voyez aucune erreur, essayez d’accéder à l’URL suivante à partir d’un autre ordinateur de la topologie :
 
@@ -147,7 +147,7 @@ Après avoir déployé SRS sur le serveur, vous pouvez vérifier l’état de to
 
 2. Entrez les informations d’identification du compte LRSSupport ou d’un compte qui a été ajouté au groupe de sécurité LRSSupportAdminGroup.
 
-![Écran de signature du portail d’administration Lync Room System](../../media/LRS_AdminPortalSignIn.png)
+![Écran de signature du portail d’administration Lync Room System.](../../media/LRS_AdminPortalSignIn.png)
 
 ### <a name="srs-administrative-web-portal-summary-page"></a>Page récapitulatif du portail Web d’administration SRS
 
@@ -163,7 +163,7 @@ La page récapitulatif fournit les informations suivantes pour toutes les salles
 
 - **Dernière actualisation** Affiche la dernière fois que la page web a été actualisée.
 
-![Vue récapitulatif du portail d’administration Lync Room System](../../media/LRS_AdminPortal_Summary_view.png)
+![Affichage récapitulatif du portail d’administration Lync Room System.](../../media/LRS_AdminPortal_Summary_view.png)
 
 > [!NOTE]
 > Vous ne verrez le menu Gestion en bloc que si vous faites partie du groupe de sécurité LRSPowerUserAdminsGroup.
@@ -176,13 +176,13 @@ La section Informations sur la salle du portail vous permet d’afficher et de c
 
 Dans la section Paramètres, vous pouvez définir le mot de passe, la balise de salle et les niveaux de volume par défaut de la salle. Si vous configurez ces paramètres, les modifications sont répliquées uniquement après le redémarrage de la console SRS. Vous ne verrez que les paramètres des mises à jour système pour les appareils SRS utilisant la version 15.12 et ultérieures.
 
-![Salle du portail d’administration Lync Room System Paramètres](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Salle du portail d’administration Lync Room System Paramètres.](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>Détails
 
 La section Détails fournit un résumé en lecture seule des paramètres de la salle SRS, y compris : l’heure de la dernière actualisation ; réunion suivante ; dernières mises à jour, maintenance et étalonnage ; paramètres de haut-parleur, de micro et de sonnerie par défaut ; version; URI SIP ; nombre d’écrans et de détails sur chaque écran ; statut et activité.
 
-![Affichage détaillé du portail d’administration Lync Room System](../../media/LRS_AdminPortal_Detail_view.png)
+![Affichage détaillé du portail d’administration Lync Room System.](../../media/LRS_AdminPortal_Detail_view.png)
 
 #### <a name="troubleshooting"></a>Résolution des problèmes
 
@@ -192,7 +192,7 @@ La section Dépannage peut être utilisée pour collecter à distance les journa
 
 La section Santé fournit une indication visuelle de l’état de la connexion Skype Entreprise Server, du périphérique audio, du périphérique vidéo, de l’état de résilience et de l’écran.
 
-![Lync Room System Admin Portal Room Health](../../media/LRS_AdminPortal_RoomInfoHealth.png)
+![Lync Room System Admin Portal Room Health.](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Notes supplémentaires sur le portail Web d’administration
 
@@ -201,7 +201,7 @@ La section Santé fournit une indication visuelle de l’état de la connexion S
 
 ### <a name="bulk-management"></a>Gestion en bloc
 
-La gestion en bloc des salles SRS est une fonctionnalité conçue pour les administrateurs informatiques avancés, qui simplifie leur flux de travail et leur permet de gagner du temps et de gérer à distance plusieurs salles en bloc.
+La gestion en bloc des salles SRS est une fonctionnalité conçue pour les administrateurs informatiques avancés, pour simplifier leur flux de travail et leur permettre de gagner du temps et de gérer à distance plusieurs salles en bloc.
 
 Pour voir cette fonctionnalité, l’utilisateur doit être provisioné en tant que membre du groupe de sécurité **spécial, LRSPowerUserAdminsGroup**.
 

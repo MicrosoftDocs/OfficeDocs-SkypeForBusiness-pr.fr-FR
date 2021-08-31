@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
-description: Cliquez avec le bouton droit Office Web Apps Server et sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant.
-ms.openlocfilehash: 85a1c45aafdcbe4f0f052df5e5ad89d34618e8a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Cliquez avec le bouton droit sur Office Web Apps Server et sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant.
+ms.openlocfilehash: fb63610d8f887011d77d90d6426cd2351bb73a63
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593868"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729103"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nœud d’étendue des serveurs Office Web Apps Server
 
-Cliquez avec le **bouton droit Office Web Apps Server** et sélectionnez Nouveau serveur Office Web Apps **Server** pour ouvrir l’Assistant.
+Cliquez avec le **bouton droit Office serveurs Web Apps Server** et sélectionnez Nouveau serveur Office Web Apps **Server** pour ouvrir l’Assistant.
 
-![Nœud d’étendue des serveurs OfficeWebApps](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![Nœud d’étendue des serveurs OfficeWebApps.](../../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
 - **Topologie**. Vous pouvez utiliser cette option pour définir une nouvelle topologie, ouvrir une topologie existante, télécharger la topologie actuelle, enregistrer une copie de la topologie, publier la topologie, installer une base de données, fusionner des composants des versions précédentes ou supprimer le déploiement.
 

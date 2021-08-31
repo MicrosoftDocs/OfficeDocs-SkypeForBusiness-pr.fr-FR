@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45d2112dc7b81d72ccffcb8b4f04471b629d52a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 10d42d2cd2f876f27153336695e4639830c5bb91
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633398"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726143"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana’assistance vocale dans Teams
 
@@ -34,13 +34,13 @@ ms.locfileid: "58633398"
 > [!Note]
 > Cortana’assistance vocale dans Salles Microsoft Teams est publiée sous Aperçu. Dans sa version d’Cortana, cette fonction est prise en charge uniquement aux États-Unis avec la langue EN-US sur les appareils qui ont des micros Microphones Microphones Connectés.
 
-Cortana’assistance vocale dans l’application mobile Teams, sur Salles Microsoft Teams sur Windows et sur les périphériques d’affichage Microsoft Teams permet aux utilisateurs de Microsoft 365 Entreprise de rationaliser les tâches de communication, de collaboration et de réunion en utilisant le langage naturel parlé. Les utilisateurs peuvent parler à Cortana en sélectionnant le bouton de microphone situé dans le coin supérieur droit de l’application mobile Teams, ou en disant &#8220;Cortana&#8221; dans la salle Microsoft Teams ou lors de l’utilisation d’un écran Microsoft Teams' Pour communiquer rapidement avec leur équipe en mains libres et en cours, les utilisateurs peuvent répondre à des requêtes telles que &#8220;appeler&#8221; ou &#8220;envoyer un message à mon prochain&#8221;. Les utilisateurs peuvent également participer à des réunions en &#8220;participer à ma prochaine&#8221; réunion et utiliser l’assistance vocale pour partager des fichiers, consulter leur calendrier et bien plus encore. Ces expériences d’assistance vocale sont tenues à l’aide de [services](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) Cortana de niveau entreprise qui respectent pleinement les promesses de confidentialité, de sécurité et de conformité de Office 365, comme le reflètent les conditions des services en ligne [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
+Cortana’assistance vocale dans l’application mobile Teams, sur Salles Microsoft Teams sur Windows et sur les périphériques d’affichage Microsoft Teams permet aux utilisateurs de Microsoft 365 Entreprise de simplifier les tâches de communication, de collaboration et de réunion en utilisant un langage naturel parlé. Les utilisateurs peuvent parler à Cortana en sélectionnant le bouton de microphone situé dans le coin supérieur droit de l’application mobile Teams, ou en disant &#8220;Cortana&#8221; dans la salle Microsoft Teams ou lors de l’utilisation d’un écran Microsoft Teams' Pour communiquer rapidement avec leur équipe en mains libres et en cours, les utilisateurs peuvent dire des requêtes telles que &#8220;appeler Megan&#8221; ou &#8220;envoyer un message à mon prochain&#8221;. Les utilisateurs peuvent également participer à des réunions en &#8220;participer à ma prochaine&#8221; réunion et utiliser l’assistance vocale pour partager des fichiers, consulter leur calendrier et bien plus encore. Ces expériences d’assistance vocale sont tenues à l’aide de [services](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide) Cortana de niveau entreprise qui sont pleinement conformes aux promesses de confidentialité, de sécurité et de conformité d’Office 365, comme le reflètent les conditions des services en ligne [(OST).](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
 
 ## <a name="admin-control-and-limitations"></a>Contrôle et limitations de l’administrateur
 
-Cortana’assistance vocale dans Teams est livrée à l’aide de services qui respectent pleinement les promesses de confidentialité, de sécurité et de conformité au niveau Office 365 au niveau de l’entreprise, comme indiqué dans les conditions des services en ligne (OST). La fonctionnalité sera activée par défaut pour les locataires.
+Cortana’assistance vocale dans Teams est l’application de services qui respectent pleinement les promesses de confidentialité, de sécurité et de conformité au niveau Office 365 au niveau de l’entreprise, comme indiqué dans les conditions des services en ligne (OST). La fonctionnalité sera activée par défaut pour les locataires.
 
-Les administrateurs des locataires peuvent contrôler qui dans leur client peut utiliser Cortana’assistance vocale dans Teams à l’aide d’une stratégie (TeamsCortanaPolicy). Cette stratégie est définie au niveau du compte d’utilisateur ou du client. Les administrateurs peuvent utiliser le champ CortanaVoiceInvocationMode au sein de ce contrôle de stratégie pour déterminer si Cortana est désactivé, activé avec l’appel du bouton d’appel uniquement ou avec l’appel de mot de sortie (applicable aux appareils qui le supportent, comme l’affichage Microsoft Teams).
+Les administrateurs des locataires peuvent contrôler qui dans leur client peut utiliser Cortana assistance vocale dans Teams à l’aide d’une stratégie (TeamsCortanaPolicy). Cette stratégie est définie au niveau du compte d’utilisateur ou du client. Les administrateurs peuvent utiliser le champ CortanaVoiceInvocationMode au sein de ce contrôle de stratégie pour déterminer si Cortana est désactivé, activé avec l’appel du bouton d’appel uniquement ou avec l’appel de mot de sortie (applicable aux appareils qui le supportent, comme l’affichage Microsoft Teams).
 
 Les administrateurs peuvent utiliser les cmdlets PowerShell suivantes pour gérer cette stratégie (la stratégie n’est actuellement pas disponible dans Microsoft Teams centre d’administration).
 
@@ -90,11 +90,11 @@ Les utilisateurs individuels peuvent essayer Cortana’assistance vocale sur dif
 
 Vous pouvez contrôler si le Cortana dans Teams est activé pour votre appareil à l’aide d’un paramètre de l’appareil.
 
-![montre la progression des fenêtres mobiles lorsque vous activez Cortana](media/cortana-mobile-sequence.png)
+![montre la progression des fenêtres mobiles lorsque vous activez Cortana.](media/cortana-mobile-sequence.png)
 
 ### <a name="microsoft-teams-rooms-on-windows"></a>Salles Microsoft Teams sur Windows
 
-Apporter des modifications au niveau de l’appareil est disponible si Cortana est activé au niveau du client. Cortana sont publiées par défaut.
+Les modifications apportées au niveau de l’appareil sont disponibles si Cortana est activé au niveau du client. Cortana sont publiées par défaut.
 
 Pour activer Cortana au niveau de l’appareil, ces attributs XML doivent être ajoutés au fichier XML SkypeSettings :
 

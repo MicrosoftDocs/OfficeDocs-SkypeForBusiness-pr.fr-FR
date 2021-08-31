@@ -17,18 +17,18 @@ description: Obtenez un rapport de participation à une réunion à partir de Te
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93aad3cdee1c3819ee0d524a8538608dbeba1b0c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592184"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726373"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Rapport de participation aux réunions Microsoft Teams
 
 Les organisateurs de réunions peuvent télécharger des rapports de présence pendant les réunions. Recherchez ce rapport dans le volet **Participants** de la réunion, en cliquant sur la flèche de téléchargement comme indiqué ci-dessous. Vous pouvez télécharger le rapport en tant que fichier .CSV (format texte).
 
-:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Contrôle de téléchargement des rapports de participation aux réunions dans Microsoft Teams":::
+:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Contrôle de téléchargement des rapports de participation aux réunions dans Microsoft Teams.":::
 
 Pour les clients dans l’éducation, ce rapport est utile pour suivre la participation des étudiants aux cours en ligne. Par exemple, l’enseignant peut télécharger le rapport de présence au début de la classe comme moyen simple d’effectuer un « appel cumulatif ». Pour en savoir plus, lisez [Télécharger les rapports de présence dans Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 

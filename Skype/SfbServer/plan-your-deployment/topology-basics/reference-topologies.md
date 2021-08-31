@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologies de référence pour Skype Entreprise Server, y compris les diagrammes et les décisions à prendre pour les grandes, moyennes et petites organisations.
-ms.openlocfilehash: 76866e21c4abcd0defafb8dcdb4b758da2f376cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f6598415627ca48181a6346007704536163ea94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616450"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729753"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologies de référence pour Skype Entreprise Server
 
@@ -37,7 +37,7 @@ La topologie de référence pour les petites organisations montre comment déplo
 
 **Topologie de référence pour les petites organisations**
 
-![Diagramme de topologie de référence déployant trois serveurs](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
+![Diagramme de topologie de référence déployant trois serveurs.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
 - **Paire de serveurs Édition Standard déployés** Cette organisation compte 4 000 utilisateurs sur son site central. Ils ont déployé deux serveurs Édition Standard et les ont associés pour activer la haute disponibilité et la récupération d’urgence. Chaque serveur a 2 000 utilisateurs, mais les informations sur tous les utilisateurs sont synchronisées entre les deux serveurs. En cas de panne, un administrateur peut faire échouer ces utilisateurs pour qu’ils soient servis par l’autre serveur, avec un minimum de perturbation pour les utilisateurs. Pour plus d’informations sur les fonctionnalités de haute disponibilité et de récupération d’urgence dans Skype Entreprise Server, voir Planifier la haute disponibilité et la récupération d’urgence [dans Skype Entreprise Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
@@ -63,7 +63,7 @@ La topologie de référence avec haute disponibilité et centre de données uniq
 
 **Topologie de référence pour les organisations de taille moyenne**
 
-![Topologie de référence pour un diagramme de centre de données unique](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
+![Topologie de référence pour un diagramme de centre de données unique.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
 
 - **Augmentez le nombre d’utilisateurs pris en charge en ajoutant des serveurs frontaux supplémentaires.** La topologie exacte de ce diagramme dispose de trois serveurs frontaux pour prendre en charge 20 000 utilisateurs. Si vous avez un site central unique et plus d’utilisateurs, vous pouvez simplement ajouter d’autres serveurs frontaux au pool. Le nombre maximal d’utilisateurs par pool est de 80 000, avec douze serveurs frontaux.
 
@@ -77,9 +77,9 @@ La topologie de référence avec haute disponibilité et centre de données uniq
 
 - **Options de base de données du serveur de surveillance.** Cette organisation a déployé la surveillance pour garantir la qualité des appels Voix Entreprise et des conférences A/V. La surveillance est déployée sur chaque serveur frontal et la base de données de surveillance est coquetée avec les serveurs frontux. Nous prise en charge également les topologies dans lesquelles la base de données de surveillance se trouve sur un serveur distinct.
 
-- **Haute disponibilité du serveur Edge** Dans cet exemple d’organisation avec 20 000 utilisateurs, un seul serveur Edge est suffisant pour les performances. Toutefois, ils ont déployé un pool de deux serveurs Edge déployés pour fournir une haute disponibilité.
+- **Haute disponibilité du serveur Edge** Dans cet exemple d’organisation avec 20 000 utilisateurs, un seul serveur Edge serait suffisant pour les performances. Toutefois, ils ont déployé un pool de deux serveurs Edge déployés pour fournir une haute disponibilité.
 
-- **Options de déploiement de site de succursale.** L’organisation dans cette topologie Voix Entreprise déployée en tant que solution vocale. Le site de succursale 1 ne dispose pas d’une liaison de réseau large (WAN) résiliente au site central. Il dispose donc d’un Survivable Branch Appliance déployé pour gérer de nombreuses fonctionnalités Skype Entreprise Server au cas où la liaison wan vers le site central serait en panne. Toutefois, le site de succursale 2 dispose d’une liaison wan résiliente, seule une passerelle PSTN (réseau téléphonique commuté) est nécessaire. La passerelle PSTN déployée ici prend en charge le contournement de média, de sorte qu’aucun serveur de médiation n’est nécessaire sur le site de succursale 2. Pour plus d’informations, [voir Plan for Voix Entreprise resiliency in Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Options de déploiement de site de succursale.** L’organisation dans cette topologie Voix Entreprise déployée en tant que solution vocale. Le site de succursale 1 ne dispose pas d’une liaison de réseau large (WAN) résiliente vers le site central. Il dispose donc d’un Survivable Branch Appliance déployé pour gérer de nombreuses fonctionnalités Skype Entreprise Server au cas où la liaison wan vers le site central serait en panne. Toutefois, le site de succursale 2 dispose d’une liaison wan résiliente, seule une passerelle PSTN (réseau téléphonique commuté) est nécessaire. La passerelle PSTN déployée ici prend en charge le contournement de média, de sorte qu’aucun serveur de médiation n’est nécessaire sur le site de succursale 2. Pour plus d’informations, [voir Plan for Voix Entreprise resiliency in Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
 - **Équilibrage de la charge DNS.** Le pool frontal et le pool de serveurs Edge ont un équilibrage de charge DNS pour le trafic SIP déployé. Cela vous évite de devoir recourir à des programmes d’équilibrage de la charge pour les serveurs Edge et cela réduit significativement la configuration et la maintenance des programmes d’équilibrage de la charge pour les autres pools, étant donné que les programmes d’équilibrage de la charge sont uniquement requis pour le trafic HTTP. Pour plus d’informations, voir [l’équilibrage de charge DNS.](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing)
 
@@ -87,7 +87,7 @@ La topologie de référence avec haute disponibilité et centre de données uniq
 
 - **Office Serveur Web Apps.** Nous vous recommandons de déployer une batterie Office Web Apps Server ou Office Web Apps Server dans chaque organisation qui utilise la conférence web. Office Web Apps Server permet aux diapositives Powerpoint d’être présentées dans des conférences web.
 
-- **Les directeurs peuvent être ajoutés.** Si cette organisation souhaitait renforcer la sécurité contre les attaques par déni de service, elle pourrait également déployer un pool de directeurs. Un directeur est un rôle serveur distinct et facultatif dans Skype Entreprise Server qui n’a pas de comptes d’utilisateurs, ni de services de présence ou de conférence. Il sert de serveur de saut suivant interne vers lequel un serveur Edge approvisionnement le trafic SIP entrant destiné aux serveurs internes. Le directeur authentifier préalablement les demandes entrantes et les redirige vers le pool ou le serveur d’accueil de l’utilisateur. La pré-authentification au niveau du directeur permet d’abandonner les demandes provenant de comptes d’utilisateurs inconnus du déploiement. Un directeur permet d’isoler les serveurs frontaux du trafic malveillant tel que les attaques par déni de service. Si le réseau est submergé par du trafic externe non valide dans une telle attaque, le trafic se termine au niveau du directeur.
+- **Les directeurs peuvent être ajoutés.** Si cette organisation souhaitait renforcer la sécurité contre les attaques par déni de service, elle pourrait également déployer un pool de directeurs. Un directeur est un rôle serveur distinct et facultatif dans Skype Entreprise Server qui ne prend pas en compte les comptes d’utilisateurs, ni ne fournit de services de présence ou de conférence. Il sert de serveur de saut suivant interne vers lequel un serveur Edge approvisionnement le trafic SIP entrant destiné aux serveurs internes. Le directeur authentifier préalablement les demandes entrantes et les redirige vers le pool ou le serveur d’accueil de l’utilisateur. La pré-authentification auprès du directeur permet d’abandonner les demandes provenant de comptes d’utilisateurs inconnus du déploiement. Un directeur permet d’isoler les serveurs frontaux du trafic malveillant tel que les attaques par déni de service. Si le réseau est submergé par du trafic externe non valide dans une telle attaque, le trafic se termine au niveau du directeur.
 
 - **System Center Operations Manager est recommandé.** Nous vous recommandons de surveiller l’état de votre déploiement Skype Entreprise Server pour garantir la disponibilité du service pour les utilisateurs finaux. Vous pouvez utiliser le pack d System Center Operations Manager pour Skype Entreprise disponible en téléchargement gratuit à partir de Microsoft. Avec le pack d’administration Skype Entreprise, vous pouvez obtenir de manière proactive des alertes en temps réel lorsque des problèmes se produisent, exécuter des transactions synthétiques pour tester la fonctionnalité de Skype Entreprise de bout en bout, obtenir des rapports sur la disponibilité du service, etc. Cela vous permet de répondre de manière proactive aux problèmes de votre déploiement avant que les utilisateurs finaux ne les utilisent.
 
@@ -101,19 +101,19 @@ Cette topologie est présentée dans plusieurs diagrammes, avec une vue d’ense
 
 **Vue d’ensemble de la topologie de référence pour les grandes organisations avec plusieurs centres de données**
 
-![Topologie de référence pour plusieurs centres de données](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
+![Topologie de référence pour plusieurs centres de données.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
 
 **Topologie de référence pour les grandes organisations : vue détaillée du site central A**
 
-![Topologie 3-2](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
+![Topologie 3-2.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
 
 **Topologie de référence pour les grandes organisations : vue détaillée du site central B**
 
-![Topologie 3-3](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
+![Topologie 3-3.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
 
 **Topologie de référence pour les grandes organisations : vue détaillée du site central C**
 
-![Topologie 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
+![Topologie 3-4.](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
 - **Les pools frontux sont associés pour activer la récupération d’urgence.** Les pools frontux du site A et du site B sont associés les uns aux autres, pour assurer la prise en charge de la récupération d’urgence. Si le pool d’un site tombe en panne, l’administrateur peut faire échouer les utilisateurs de ce site vers le pool frontal couplé sur l’autre site, avec un minimum d’interruption de service pour les utilisateurs. Chacun de ces deux pools frontaux dispose de six serveurs, ce qui est suffisant pour les 40 000 utilisateurs des deux pools en cas de failover. Pour plus d’informations, voir [Planifier la haute disponibilité et la récupération d’urgence dans Skype Entreprise Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
@@ -127,7 +127,7 @@ Cette topologie est présentée dans plusieurs diagrammes, avec une vue d’ense
 
 - **Surveillance et archivage** Cette organisation a déployé la surveillance et l’archivage. Lorsque vous déployez la surveillance ou l’archivage, il s’exécute sur chaque serveur frontal. Les bases de données de ces fonctionnalités peuvent être coclaquées avec la base de données principale ou situées sur un serveur distinct. Cette organisation a localisé ces bases de données sur un serveur distinct des serveurs centraux, dans le site central B. Les bases de données reçoivent ici des données de surveillance et d’archivage des serveurs frontaux de tous les sites.
 
-- **Options de déploiement de site de succursale.** En fait, cette organisation possède plus de 50 sites de succursale, dont deux seulement sont affichés dans les diagrammes détaillés. Le site de succursale 1 n’a pas de liaison de réseau wan résiliente vers le site central, de sorte que les Survivable Branch Appliances sont déployés pour fournir un service téléphonique en cas de panne de la liaison wan vers le site central. Toutefois, le site de succursale 2 dispose d’une liaison réseau wan résiliente, de sorte qu’il n’a besoin que d’une passerelle PSTN (réseau téléphonique commuté). La passerelle PSTN déployée ici prend en charge le contournement de média, de sorte qu’aucun serveur de médiation n’est nécessaire sur le site de succursale 2. Pour plus d’informations sur les choix d’installation sur un site de succursale, voir [Plan for Voix Entreprise resiliency in Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Options de déploiement de site de succursale.** Cette organisation possède en fait plus de 50 sites de succursale, dont deux seulement sont affichés dans les diagrammes détaillés. Le site de succursale 1 n’a pas de liaison de réseau wan résilient vers le site central, de sorte que les Survivable Branch Appliances sont déployés pour fournir un service téléphonique en cas de panne de la liaison wan vers le site central. Toutefois, le site de succursale 2 dispose d’une liaison réseau wan résiliente, de sorte qu’il n’a besoin que d’une passerelle PSTN (réseau téléphonique commuté). La passerelle PSTN déployée ici prend en charge le contournement de média, de sorte qu’aucun serveur de médiation n’est nécessaire sur le site de succursale 2. Pour plus d’informations sur les choix d’installation sur un site de succursale, voir [Plan for Voix Entreprise resiliency in Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
 - **Une trunking SIP et un serveur de médiation.** Notez que sur le site central B, le serveur de médiation n’est pas coqueté avec les serveurs frontux. Cela est dû au fait que le serveur de médiation autonome est recommandé pour les sites qui utilisent une trunking SIP. Dans la plupart des autres cas, nous vous recommandons de cocérer le serveur de médiation avec le serveur frontal. Pour plus d’informations sur les topologies de serveur de médiation, voir [Components and Topologies for Mediation Server](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-mediation-server) dans la documentation de planification.
 
@@ -146,6 +146,6 @@ Cette topologie est présentée dans plusieurs diagrammes, avec une vue d’ense
 
 - **Office Serveur Web Apps.** Nous vous recommandons de déployer une batterie Office Web Apps Server ou Office Web Apps Server dans chaque organisation qui utilise la conférence web. Vous pouvez déployer une seule batterie Office Web Apps Server dans un site qui sert le trafic de tous les sites, ou la déployer dans chaque site. Office Web Apps Server permet aux diapositives Powerpoint d’être présentées dans des conférences web.
 
-- **Les directeurs peuvent être ajoutés.** Si cette organisation souhaitait renforcer la sécurité contre les attaques par déni de service, elle pourrait également déployer un pool de directeurs. Un directeur est un rôle serveur distinct et facultatif dans Skype Entreprise Server qui n’a pas de comptes d’utilisateurs, ni de services de présence ou de conférence. Il sert de serveur de saut suivant interne vers lequel un serveur Edge approvisionnement le trafic SIP entrant destiné aux serveurs internes. Le directeur authentifier préalablement les demandes entrantes et les redirige vers le pool ou le serveur d’accueil de l’utilisateur. La pré-authentification au niveau du directeur permet d’abandonner les demandes provenant de comptes d’utilisateurs inconnus du déploiement. Un directeur permet d’isoler les serveurs frontaux du trafic malveillant tel que les attaques par déni de service. Si le réseau est submergé par du trafic externe non valide dans une telle attaque, le trafic se termine au niveau du directeur.
+- **Les directeurs peuvent être ajoutés.** Si cette organisation souhaitait renforcer la sécurité contre les attaques par déni de service, elle pourrait également déployer un pool de directeurs. Un directeur est un rôle serveur distinct et facultatif dans Skype Entreprise Server qui ne prend pas en compte les comptes d’utilisateurs, ni ne fournit de services de présence ou de conférence. Il sert de serveur de saut suivant interne vers lequel un serveur Edge approvisionnement le trafic SIP entrant destiné aux serveurs internes. Le directeur authentifier préalablement les demandes entrantes et les redirige vers le pool ou le serveur d’accueil de l’utilisateur. La pré-authentification au niveau du directeur permet d’abandonner les demandes provenant de comptes d’utilisateurs inconnus du déploiement. Un directeur permet d’isoler les serveurs frontaux du trafic malveillant tel que les attaques par déni de service. Si le réseau est submergé par du trafic externe non valide dans une telle attaque, le trafic se termine au niveau du directeur.
 
-- **System Center Operations Manager est recommandé.** Nous vous recommandons de surveiller l’état de votre déploiement Skype Entreprise Server pour garantir la disponibilité du service pour les utilisateurs finaux. Vous pouvez utiliser le pack d System Center Operations Manager pour Skype Entreprise disponible en téléchargement gratuit à partir de Microsoft. Avec le pack d’administration Skype Entreprise, vous pouvez obtenir de manière proactive des alertes en temps réel lorsque des problèmes se produisent, exécuter des transactions synthétiques pour tester la fonctionnalité Skype Entreprise de bout en bout, obtenir des rapports sur la disponibilité du service, etc. Cela vous permet de répondre de manière proactive aux problèmes de votre déploiement avant que les utilisateurs finaux ne les utilisent.
+- **System Center Operations Manager est recommandé.** Nous vous recommandons de surveiller l’état de votre déploiement Skype Entreprise Server pour garantir la disponibilité du service pour les utilisateurs finaux. Vous pouvez utiliser le pack d System Center Operations Manager pour Skype Entreprise disponible en téléchargement gratuit à partir de Microsoft. Avec le pack d’administration Skype Entreprise, vous pouvez obtenir de manière proactive des alertes en temps réel lorsque des problèmes se produisent, exécuter des transactions synthétiques pour tester la fonctionnalité de Skype Entreprise de bout en bout, obtenir des rapports sur la disponibilité du service, etc. Cela vous permet de répondre de manière proactive aux problèmes de votre déploiement avant que les utilisateurs finaux ne les utilisent.

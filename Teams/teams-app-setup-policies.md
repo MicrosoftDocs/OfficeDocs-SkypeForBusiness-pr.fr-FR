@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 0a6277ffe3dcc8dc64f3e11a4de8c8a308c57a95
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa3bcdc05107722554b6fbce9074c0462ac6d73c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608721"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728873"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -47,7 +47,7 @@ Les applications sont épinglées à la barre de l’application, qui est la bar
 
 |Client de bureau Teams  |Client mobile Teams |
 |---------|---------|
-|![Le client Teams bureau](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Le client Teams mobile](media/mobile-app-ui.png)      |
+|![Le Teams de bureau.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Le client Teams mobile](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > Si vous avez Teams pour l’éducation, il est important de savoir que l’application Devoirs est épinglée par défaut dans la stratégie globale, même si actuellement elle n’est pas répertoriée dans la stratégie globale. Il s’agit de la quatrième application dans la liste des applications épinglées sur Teams clients.
@@ -73,7 +73,7 @@ Pour créer une stratégie de configuration d’application afin d’épingler d
 
 8. Organisez les applications dans l’ordre dans l’ordre dans Teams.
 
-   ![Section Applications épinglées](media/app-setup-policies-new-policy-setup.png)
+   ![section Applications épinglées.](media/app-setup-policies-new-policy-setup.png)
 
 9. Sélectionnez **Enregistrer**.
 
@@ -88,7 +88,7 @@ Vous pouvez choisir les applications installées par défaut pour les utilisateu
 - Installer des applications dans des réunions pour les organisateurs de réunion
 
 > [!NOTE]
-> Les utilisateurs peuvent toujours installer les applications elles-mêmes [si](teams-app-permission-policies.md) la stratégie d’autorisation d’application qui leur est attribuée le permet.
+> Les utilisateurs peuvent toujours installer des applications eux-mêmes [si](teams-app-permission-policies.md) la stratégie d’autorisation d’application qui leur est attribuée le permet.
 
 Pour créer une stratégie de configuration d’application pour installer des applications, vous pouvez suivre les étapes suivantes :
 
@@ -132,7 +132,7 @@ Vous gérez les stratégies de configuration d’application dans Microsoft Team
 
 Vous devez modifier les paramètres de la stratégie globale pour inclure les applications que vous souhaitez. Pour personnaliser Teams différents groupes d’utilisateurs de votre organisation, créez et attribuez une ou plusieurs stratégies personnalisées.
 
-![Page Stratégies de configuration des applications](media/app-setup-policies.png)
+![page Stratégies de configuration des applications.](media/app-setup-policies.png)
 
 ### <a name="edit-an-app-setup-policy"></a>Modifier une stratégie de configuration d’application
 
@@ -193,7 +193,7 @@ Pour afficher toutes les applications épinglées pour un utilisateur, les utili
 |Client de bureau Teams |Client mobile Teams |
 |---------|---------|
 |Dans la barre de l’application sur le côté Teams, sélectionnez **... Autres applications.**| Dans la barre de l’application au bas de Teams, balayez vers le haut.|
-|![Plus d’applications dans Teams client de bureau](media/app-setup-policies-desktop-more-apps.png)<br>   |![plus d’applications dans Teams client mobile](media/app-setup-policies-mobile-more-apps.png)  
+|![Plus d’applications dans Teams client de bureau.](media/app-setup-policies-desktop-more-apps.png)<br>   |![plus d’applications dans Teams client mobile](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Que dois-je savoir sur l’expérience Teams mobile ?
 

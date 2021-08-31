@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c96412e93029858c5444d662e7db3e65224a21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578348"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729813"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -158,7 +158,7 @@ La création d’une équipe dirigée par l’enseignant est une option de dépl
 
 Cette approche hybride vous permet d’utiliser SDS pour créer des groupes pour chaque classe (recommandé) ou d’utiliser [API Graph](/graph/api/educationroot-post-classes) pour les créer vous-même. Une fois les groupes de classes préparés, les enseignants peuvent convertir leurs groupes en équipes à l’aide de l’icône **Classes suggérées**.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Capture d’écran montrant l’icône de cours suggérés":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Capture d’écran montrant l’icône des Classes suggérés.":::
 
 ##### <a name="benefits"></a>Avantages
 

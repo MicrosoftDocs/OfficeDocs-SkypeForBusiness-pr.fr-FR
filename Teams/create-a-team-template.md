@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589768"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726893"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Créer un modèle d’équipe personnalisé dans Microsoft Teams
 
@@ -53,7 +53,7 @@ Pour commencer :
 
     ![Image de la boîte de dialogue Paramètres des modèles d’équipe.](media/template-add-a-name.png)
 
-6. Dans la section **Canaux, onglets** et applications, ajoutez les canaux et applications dont votre équipe a besoin.
+6. Dans la section **Canaux, onglets et** applications, ajoutez les canaux et applications dont votre équipe a besoin.
 
     1. Dans la section **Canaux,** sélectionnez **Ajouter.**
     2. Dans la boîte **de** dialogue Ajouter, nommez le canal.
@@ -69,7 +69,7 @@ Pour commencer :
 Votre nouveau modèle est affiché dans la liste **des modèles d’équipe.** Le modèle peut être utilisé pour créer une équipe dans Teams.
 
 > [!Note]
-> 24 heures peuvent être nécessaire pour que les utilisateurs de Teams voient un changement de modèle personnalisé dans la galerie.
+> 24 heures peuvent être nécessaire aux utilisateurs de Teams pour voir un changement de modèle personnalisé dans la galerie.
 
 ## <a name="customizing-website-tab-apps"></a>Personnalisation des applications de l’onglet Site web
 
@@ -86,11 +86,11 @@ Pour commencer :
 
 3. Dans la **section Ajouter une application pour ce modèle,** ajoutez une application Site web.
 
-    ![ajouter une application pour cette option de modèle](media/add-an-app-template.png)
+    ![ajouter une application pour cette option de modèle.](media/add-an-app-template.png)
 
 4. Sélectionnez l’icône modifier et entrer l’URL de votre choix.
 
-    ![ajouter une URL d’application](media/add-url-app-template.png)
+    ![ajouter une URL d’application.](media/add-url-app-template.png)
 
 5. Sélectionnez **Enregistrer** pour les modifications apportées à l’application de l’onglet, puis **sélectionnez Appliquer** pour enregistrer vos modifications.
 
@@ -104,11 +104,11 @@ Nous travaillons actuellement sur un correctif pour les équipes futures créée
 
 **Problème**: lors de l’Teams dans le navigateur, certains sites web ne peuvent pas être restituer dans un Teams onglet.
 
-![message d’erreur du navigateur](media/browser-error-message.png)
+![message d’erreur du navigateur.](media/browser-error-message.png)
 
 **Solution**: si vous avez des difficultés à afficher le contenu de l’onglet du site web, vous serez redirigé pour ouvrir l’onglet dans une page web distincte ou ouvrir Teams dans l’application de bureau pour afficher l’application de l’onglet de votre site web.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Utiliser des modèles d’équipe dans le Centre d’administration](get-started-with-teams-templates-in-the-admin-console.md)
 - [Créer un modèle à partir d’une équipe existante](create-template-from-existing-team.md)

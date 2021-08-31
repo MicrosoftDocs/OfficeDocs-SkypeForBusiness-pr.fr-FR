@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personnalisez Skype invitations aux réunions avec des logos graphiques, des URL d’aide et juridiques, et du texte de pied de plan. '
-ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ad8a6c6f9bec3a03d68ba532454703c4deb1c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614936"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729283"
 ---
 # <a name="customize-meeting-invitations"></a>Personnaliser les invitations aux réunions
 
@@ -48,7 +48,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
 ## <a name="customize-your-meeting-invitations"></a>Personnalisez vos invitations à des réunions
 <a name="__top"> </a>
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
 
 1. Connectez-vous avec votre compte scolaire ou scolaire.
     
@@ -62,7 +62,7 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
 
    **URL du logo :** Entrez l’URL où votre logo est stocké. N’oubliez pas qu’il doit être au format JPG ! 
  
-   **URL de l’aide :** Si votre organisation dispose d’un site web de support que vous souhaitez que les personnes peuvent accéder s’ils ont des problèmes, entrez l’URL ici. 
+   **URL de l’aide :** Si votre organisation dispose d’un site web de support que vous souhaitez que les personnes s’y rendre s’ils ont des problèmes, entrez l’URL ici. 
 
    **URL juridique :** Si votre organisation dispose d’un site web légal que vous souhaitez que les personnes accéder s’ils ont des problèmes juridiques, entrez l’URL ici.
     
@@ -73,9 +73,9 @@ En tant qu’administrateur, vous pouvez vous assurer que toutes les invitations
     
 6. Patientez environ une heure avant que les modifications ne soit remplie dans l’ensemble Microsoft 365 ou Office 365 services. Puis allez à Outlook et planifier une Skype réunion pour voir à quoi ressemblent vos modifications. 
     
-    ![Voici à quoi ressemble une invitation personnalisée, sans le graphique](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![Voici à quoi ressemble une invitation personnalisée, sans le graphique.](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 <a name="__top"> </a>
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

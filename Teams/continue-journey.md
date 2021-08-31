@@ -1,5 +1,5 @@
 ---
-title: Comment utiliser des Microsoft Teams efficacement
+title: Utilisation efficace Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415535ea4ec2902d089d0229cd6c4b578837f03f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4572e39eeb2093c69de5b055436b330428763380
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628386"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728913"
 ---
-# <a name="how-to-use-microsoft-teams-effectively"></a>Comment utiliser des Microsoft Teams efficacement
+# <a name="how-to-use-microsoft-teams-effectively"></a>Utilisation efficace Microsoft Teams
 
-![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle](media/upgrade-banner-op-excellence.png "Étapes du parcours de mise à niveau, avec l’accent sur la phase d’excellence opérationnelle")
+![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle.](media/upgrade-banner-op-excellence.png "Étapes du parcours de mise à niveau, avec l’accent sur la phase d’excellence opérationnelle")
 
 Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé la mise à niveau d’Skype Entreprise vers Teams.
 
@@ -60,4 +60,4 @@ Le cycle de vie d’une technologie donnée a changé de cycle de croissance dyn
 - Implémentez un formulaire de planification des changements (comme illustré ci-dessous) pour préparer et implémenter de nouvelles fonctionnalités. N’oubliez pas d’inclure des activités de préparation technique et utilisateur.
 
 
-![Exemple de formulaire affichant les dates de publication et notes de publication prévues](media/upgrade-change-plan-form.png "Exemple de formulaire affichant les dates de publication prévues et les notes sur les nouvelles fonctionnalités, répertoriées avec les étapes suivantes et les propriétaires")
+![Exemple de formulaire affichant les dates de publication et notes de publication prévues.](media/upgrade-change-plan-form.png "Exemple de formulaire affichant les dates de publication prévues et les notes sur les nouvelles fonctionnalités, répertoriées avec les étapes suivantes et les propriétaires")

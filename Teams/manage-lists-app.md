@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fa5d9c3f1c74133b96eda81d7c56c3f353265b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615340"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727003"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Lists pour votre organisation dans Microsoft Teams
 
@@ -37,11 +37,11 @@ L’application Lists dans Microsoft Teams permet aux utilisateurs de votre org
 
 Dans Teams, les utilisateurs accèdent à Lists grâce à un onglet dans un canal. Cliquer sur **+** pour ouvrir la galerie dans un onglet et ajouter une nouvelle instance d’onglet d’application Lists à un canal pour commencer.
 
-![Application Lists dans la galerie dans un onglet](media/lists-tab.png)
+![Application Listes dans la galerie d’onglets.](media/lists-tab.png)
 
 Les utilisateurs peuvent créer de nouvelles listes ou épingler des listes existantes à partir de la même équipe ou d’un autre site SharePoint auquel ils ont accès. De nouvelles listes peuvent être créées à partir de zéro, à partir de modèles intégrés, en fonction de la structure d’une liste existante ou en important des données à partir d’un classeur Excel. Lists est disponible dans les clients pour ordinateur de bureau, les clients web et les clients mobiles Teams.
 
-![comment créer une liste dans l’application Lists](media/lists-create-list.png)
+![comment créer une liste dans l’application Listes.](media/lists-create-list.png)
 
 ## <a name="templates"></a>Modèles
 

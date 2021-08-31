@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment configurer un contrôleur de session en bordure (SBC) pour servir plusieurs clients à des partenaires Microsoft et/ou des opérateurs PSTN.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 824b550200fcb04ecf26ec6f939515586ec64544
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf047f458750c88baa4d3d04d712d56338cb0da3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619490"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726873"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurer un contrôleur de frontière de session pour plusieurs clients
 
@@ -85,7 +85,7 @@ Lorsqu’un appel arrive dans l’interface de Microsoft 365 ou Office 365 Routa
 
 Le diagramme suivant récapitule les conditions requises pour baser le domaine, les sous-domaines et l’en-tête des contacts.
 
-![Diagramme montrant les exigences requises pour les domaines et l’en-tête des contacts](media/direct-routing-1-sbc-requirements.png)
+![Diagramme montrant les exigences relatives aux domaines et à l’en-tête des contacts.](media/direct-routing-1-sbc-requirements.png)
 
 Le SBC nécessite un certificat pour authentifier les connexions. Dans le cas d’un scénario d’hébergement SBC, l’opérateur doit demander un certificat auprès de CN et/ou SAN *\* .base_domain (par exemple, \* .customers.adatum.biz).* Ce certificat peut être utilisé pour authentifier les connexions à plusieurs locataires servis à partir d’un même SBC.
 
@@ -123,17 +123,17 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
 1. Dans le Centre d’administration Microsoft 365, allez à **Configurer**  >  **les domaines** Ajouter un  >  **domaine.**
 2. Dans la **zone Entrer un domaine dont vous êtes** propriétaire, tapez le nom de domaine (FQDN) du domaine de base. Dans l’exemple suivant, le domaine de base est *customers.adatum.biz.*
 
-    ![Capture d’écran montrant la page Ajouter un domaine](media/direct-routing-2-sbc-add-domain.png)
+    ![Capture d’écran montrant la page Ajouter un domaine.](media/direct-routing-2-sbc-add-domain.png)
 
 3. Cliquez sur **Suivant**.
-4. Dans l’exemple, le client a déjà adatum.biz nom de domaine vérifié. L’Assistant ne demande pas de vérification supplémentaire, customers.adatum.biz est un sous-domaine du nom déjà enregistré. Toutefois, si vous ajoutez un FQDN qui n’a pas été vérifié auparavant, vous devrez passer par le processus de vérification. Le processus de vérification est [décrit ci-dessous.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
+4. Dans l’exemple, le client a déjà adatum.biz nom de domaine vérifié. L’Assistant ne demande pas de vérification supplémentaire, customers.adatum.biz est un sous-domaine du nom déjà enregistré. Toutefois, si vous ajoutez un FQDN qui n’a pas été vérifié auparavant, vous devrez passer par le processus de vérification. Le processus de vérification est décrit [ci-dessous.](#add-a-subdomain-to-the-customer-tenant-and-verify-it)
 
-    ![Capture d’écran montrant la confirmation d’un nom de domaine vérifié](media/direct-routing-3-sbc-verify-domain.png)
+    ![Capture d’écran montrant la confirmation d’un nom de domaine vérifié.](media/direct-routing-3-sbc-verify-domain.png)
 
 5. Cliquez **sur Suivant,** puis sur la page Mettre Paramètres **DNS** à jour, je sélectionne J’ajoute les enregistrements **DNS** moi-même, puis je clique sur **Suivant.**
 6. Dans la page suivante, effacer toutes les valeurs (sauf si vous voulez utiliser le nom de domaine pour Exchange, SharePoint ou Teams/Skype Entreprise), cliquez sur **Suivant,** puis sur **Terminer.** Assurez-vous que votre nouveau domaine est dans l’état final du programme d’installation.
 
-    ![Capture d’écran montrant les domaines dont l’état d’installation est terminé](media/direct-routing-14-sbc-setup-complete.png)
+    ![Capture d’écran montrant les domaines dont l’état d’installation est terminé.](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>Activer le nom de domaine
 
@@ -146,7 +146,7 @@ Une fois que vous avez enregistré un nom de domaine, vous devez l’activer en 
 
 Par exemple : test@customers.adatum.biz
 
-![Capture d’écran de la page d’activation du domaine de base](media/direct-routing-4-sbc-domain-activation.png)
+![Capture d’écran de la page d’activation du domaine de base.](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>Enregistrer un nom de sous-domaine dans un client
 
@@ -166,39 +166,39 @@ Pour plus d’informations sur les rôles d’administrateur et la manière d’
 1. Dans le Centre d’administration Microsoft 365, allez à **Configurer**  >  **les domaines** Ajouter un  >  **domaine.**
 2. Dans la **zone Entrer un domaine dont vous êtes** propriétaire, tapez le nom de domaine (FQDN) du sous-domaine de ce client. Dans l’exemple ci-dessous, le sous-domaine est sbc1.customers.adatum.biz.
 
-    ![Capture d’écran de la page Ajouter un domaine](media/direct-routing-5-sbc-add-customer-domain.png)
+    ![Capture d’écran de la page Ajouter un domaine.](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Cliquez sur **Suivant**.
 4. Le FQDN n’a jamais été enregistré dans le client. Dans l’étape suivante, vous devrez vérifier le domaine. Sélectionnez **Ajouter un enregistrement TXT à la place.** 
 
-    ![Capture d’écran de la page Vérifier le domaine](media/direct-routing-6-sbc-verify-customer-domain.png)
+    ![Capture d’écran de la page Vérifier le domaine.](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. Cliquez **sur** Suivant, puis notez la valeur TXT générée pour vérifier le nom de domaine.
 
-    ![Capture d’écran d’enregistrements texte dans la page Vérifier le domaine](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![Capture d’écran d’enregistrements texte dans la page Vérifier le domaine.](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Créez l’enregistrement TXT avec la valeur de l’étape précédente du fournisseur d’hébergement DNS de l’opérateur.
 
-    ![Capture d’écran montrant la création de l’enregistrement TXT](media/direct-routing-8-sbc-txt-record.png)
+    ![Capture d’écran montrant la création de l’enregistrement TXT.](media/direct-routing-8-sbc-txt-record.png)
 
     Pour plus d’informations, voir Créer des enregistrements [DNS chez n’importe quel fournisseur d’hébergement DNS.](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
 
 7. Revenir à la base de données du Centre d’administration Microsoft 365 et cliquer sur **Vérifier.** 
 8. Sur la page suivante, **sélectionnez J’ajoute** les enregistrements DNS moi-même, puis je clique **sur Suivant.**
 
-    ![Capture d’écran des options dans la page Mettre à jour les paramètres DNS](media/direct-routing-9-sbc-update-dns.png)
+    ![Capture d’écran des options dans la page Mettre à jour les paramètres DNS.](media/direct-routing-9-sbc-update-dns.png)
 
 9. Dans la page **Choisir vos services en ligne,** effacer toutes les options et cliquer sur **Suivant.**
 
-    ![Capture d’écran de la page Choisir vos services en ligne](media/direct-routing-10-sbc-choose-services.png)
+    ![Capture d’écran de la page Choisir vos services en ligne.](media/direct-routing-10-sbc-choose-services.png)
 
 10. Cliquez **sur Terminer** dans la page Mettre à jour les **paramètres DNS.**
 
-    ![Capture d’écran de la page Mettre à jour les paramètres DNS](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![Capture d’écran de la page Mettre à jour les paramètres DNS.](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. Assurez-vous que l’état **est terminé.** 
     
-    ![Capture d’écran de la page montrant l’état du programme d’installation terminé](media/direct-routing-12-sbc-setup-complete.png)
+    ![Capture d’écran de la page montrant l’état du programme d’installation achevé.](media/direct-routing-12-sbc-setup-complete.png)
     
 > [!NOTE]
 > L’URL de base et le sous-domaine du client doivent se trouver sur le même client pour pouvoir ajouter une ligne _d’itinéraire_ directe.
@@ -211,7 +211,7 @@ Après avoir enregistré un nom de domaine, vous devez l’activer en ajoutant a
 
 Par exemple : test@sbc1.customers.adatum.biz
 
-![Capture d’écran de la page Activation de la sous-domaine](media/direct-routing-13-sbc-activate-subdomain.png)
+![Capture d’écran de la page Activation de la sous-domaine.](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>Créer une ligne et mettre en service des utilisateurs
 

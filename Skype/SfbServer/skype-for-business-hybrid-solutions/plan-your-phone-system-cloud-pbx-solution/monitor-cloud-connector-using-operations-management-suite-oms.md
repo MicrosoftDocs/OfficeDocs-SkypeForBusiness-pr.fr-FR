@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lisez cette rubrique pour découvrir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627726"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729023"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller Cloud Connector à l’aide d’Operations Management Suite (OMS)
 
@@ -27,7 +27,7 @@ ms.locfileid: "58627726"
 
 Lisez cette rubrique pour découvrir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
 
-Vous pouvez désormais surveiller votre déploiement Cloud Connector version 2.1 et ultérieure à l’aide d’Operations Management Suite (OMS), une solution de gestion informatique cloud De Microsoft. OMS Log Analytics vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris des ordinateurs physiques et virtuels. Pour plus d’informations sur OMS et Log Analytics, voir [Qu’est-ce que Operations Management Suite (OMS) ?](/azure/operations-management-suite/operations-management-suite-overview)
+Vous pouvez désormais surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide d’Operations Management Suite (OMS), une solution de gestion informatique du cloud Microsoft. OMS Log Analytics vous permet de surveiller et d’analyser la disponibilité et les performances des ressources, y compris des ordinateurs physiques et virtuels. Pour plus d’informations sur OMS et Log Analytics, voir [Qu’est-ce que Operations Management Suite (OMS) ?](/azure/operations-management-suite/operations-management-suite-overview)
 
 Cette rubrique comprend les sections suivantes :
 
@@ -43,9 +43,9 @@ Cette rubrique comprend les sections suivantes :
 
 ## <a name="prerequisites"></a>Configuration requise
 
-Avant de pouvoir utiliser OMS pour surveiller le déploiement de Cloud Connector, vous avez besoin des informations suivantes :
+Avant de pouvoir utiliser OMS pour surveiller le déploiement de Cloud Connector, vous aurez besoin des informations suivantes :
 
-- **Un compte Azure et un espace de travail OMS.** Si vous n’avez pas encore de compte Azure, vous devez en créer un pour utiliser OMS Log Analytics. Pour plus d’informations sur la création d’un compte Azure et la façon de configurer un espace de travail OMS, voir Get [started with a Log Analytics workspace](/azure/log-analytics/log-analytics-get-started).
+- **Un compte Azure et un espace de travail OMS.** Si vous n’avez pas encore de compte Azure, vous devez en créer un pour utiliser OMS Log Analytics. Pour plus d’informations sur la création d’un compte Azure et la mise en place d’un espace de travail OMS, voir La mise en route d’un espace de travail [Log Analytics.](/azure/log-analytics/log-analytics-get-started)
 
 - **Cloud Connector version 2.1 ou ultérieure**
 
@@ -55,11 +55,11 @@ Avant de pouvoir utiliser OMS pour surveiller le déploiement de Cloud Connector
 
 Vous devez configurer votre environnement local Cloud Connector pour utiliser OMS. Pour ce faire, vous aurez besoin de votre ID d’espace de travail OMS et de votre clé, que vous pouvez trouver à l’aide du portail OMS comme suit : Paramètres -- Sources connectées \> -- \> Windows serveurs :
 
-![Capture d’écran de Cloud Connector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![Capture d’écran de Cloud Connector OMS.](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 La configuration de Cloud Connector pour utiliser OMS dépend de votre scénario :
 
-- **Si vous installez une** nouvelle appliance Cloud Connector ou si vous souhaitez déployer à nouveau une appliance, suivez les étapes suivantes avant d’exécuter Install-CcAppliance :
+- **Si vous installez une** nouvelle appliance Cloud Connector ou que vous souhaitez déployer à nouveau une appliance, suivez les étapes suivantes avant d’exécuter Install-CcAppliance :
 
     1. Dans la section CloudConnector.ini fichier [Common], définissez le paramètre OMSEnabled sur True.
 
@@ -115,7 +115,7 @@ Dans le portail OMS, vous devez spécifier des informations sur les journaux des
 
    - **Compteurs au niveau du système d’exploitation.** Vous pouvez ajouter des compteurs au niveau du système d’exploitation, tels que l’utilisation du processeur, l’utilisation de la mémoire, l’utilisation du réseau, ou vous pouvez utiliser des solutions existantes telles que Capacité et performances, Moniteur de performances réseau sans ajouter explicitement de compteurs. Quelle que soit la façon dont vous décidez de les surveiller, Microsoft vous recommande de surveiller ces compteurs de système d’exploitation.
 
-   - **Skype Entreprise compteurs**. Il existe de nombreux compteurs fournis par Skype Entreprise. Vous pouvez trouver ces compteurs en vous connectant à n’importe quel serveur de médiation et en ouvrant l’Observateur de performances. Ces compteurs commencent par « LS: ». Microsoft vous recommande de commencer avec les compteurs de capacité suivants au minimum et d’ajouter d’autres qui vous intéressent :
+   - **Skype Entreprise.** Il existe de nombreux compteurs fournis par Skype Entreprise. Vous pouvez trouver ces compteurs en vous connectant à n’importe quel serveur de médiation et en ouvrant l’Observateur de performances. Ces compteurs commencent par « LS: ». Microsoft vous recommande de commencer avec les compteurs de capacité suivants au minimum et d’ajouter d’autres qui vous intéressent :
 
      Nombre total d’appels actifs :
 
@@ -194,7 +194,7 @@ Pour créer cette alerte :
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
-    La requête de réinitialisation fait exactement l’inverse de la requête d’erreur. Pour chaque ordinateur, la requête reçoit les derniers compteurs pour l’appel entrant et l’appel sortant et additione ces deux valeurs. Elle retourne un journal si la valeur de la somme est inférieure à 500 ; sinon, elle ne retourne rien.
+    La requête de réinitialisation fait exactement l’inverse de la requête d’erreur. Pour chaque ordinateur, la requête reçoit les derniers compteurs pour l’appel entrant et l’appel sortant et additione ces deux valeurs. Elle retourne un journal si la valeur de somme est inférieure à 500 ; sinon, elle ne retourne rien.
 
 **Créer une alerte : « Utilisation du processeur \> 90 ou RTCMEDIARELAY arrêté dans les serveurs »**
 

@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4b417876745042d6805c88de4a5b93cdc275c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621936"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727043"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Préparer votre service pour la mise à niveau vers Teams
 
-![Diagramme de voyage de mise à niveau mettant en relief la phase de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase de préparation technique")
+![Diagramme de voyage de mise à niveau mettant en relief la phase de préparation technique.](media/upgrade-banner-tech-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase de préparation technique")
 
-Cet article fait partie de l’étape de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
+Cet article fait partie de la phase de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
 - [Étendue définie de votre projet](./upgrade-define-project-scope.md)
@@ -61,7 +61,7 @@ Les tâches et activités de ces listes de vérification sont les principales ch
 
 Utilisez les listes de vérification fournies pour suivre l’état de chaque activité et tâche individuelle, et pour vous assurer que vous n’avez pas ignoré les étapes critiques. Chaque activité inclut une description détaillée des actions requises et des références à des informations supplémentaires que vous pouvez utiliser pour effectuer cette activité.
 
-Bien qu’il soit recommandé de suivre les listes de vérification dans l’ordre, la séquence exacte dépend de l’étendue de votre déploiement, de la configuration et de la complexité de votre environnement. Ils sont organisés pour prendre en charge un déploiement Teams « champ vert » (c’est-à-dire, un déploiement sans présence Skype Entreprise Online) ou une mise à niveau de Skype Entreprise Online vers Teams. Si vous faites une mise à niveau à partir de Skype Entreprise Online, vous avez peut-être déjà effectué certaines de ces activités et pouvez les ignorer maintenant.
+Bien qu’il soit recommandé de suivre les listes de vérification dans l’ordre, la séquence exacte dépend de l’étendue de votre déploiement, de la configuration et de la complexité de votre environnement. Ils sont organisés pour prendre en charge un déploiement Teams « champ vert » (c’est-à-dire, un déploiement sans présence Skype Entreprise Online) ou une mise à niveau de Skype Entreprise Online vers Teams. Si vous faites une mise à niveau à partir d Skype Entreprise Online, vous avez peut-être déjà effectué certaines de ces activités et pouvez les ignorer maintenant.
 
 Lorsque vous intégration des utilisateurs sur une base par site, nous vous recommandons vivement d’utiliser le manuel d' allocation du site pour [Voix](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme guide supplémentaire pour ces listes de vérification.
 
@@ -69,7 +69,7 @@ Lorsque vous intégration des utilisateurs sur une base par site, nous vous reco
 >La plupart des paramètres de configuration sont courants entre Teams et Skype Entreprise Online. Vous pouvez utiliser le Microsoft Teams d’administration pour configurer ces paramètres.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Point de décision</td><td><ul><li>Qui sera-t-il responsable de superviser l’achèvement des listes de vérification d’intégration ?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Point de décision</td><td><ul><li>Qui responsable de la surveillance de l’achèvement des listes de vérification d’intégration ?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Étapes suivantes</td><td><ul><li>Téléchargez les listes de contrôle d’intégration.</li><li>Travaillez sur les éléments de liste de vérification d’intégration étape par étape, conformément au plan de déploiement de votre organisation.</li></ul></td></tr>
 </table>
 

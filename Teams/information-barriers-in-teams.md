@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0ee333cd789b908851358f537e940c77543210e48feb86b2174cb9e289a2d160
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1cdb474bfab7d6f8f6cb54c4d93a225e844e1b3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304896"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729153"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barrières de l’information au Microsoft Teams
 
@@ -51,7 +51,7 @@ Toutefois, depuis l’introduction des IB, de nombreux autres domaines les ont t
 
 Par exemple, Enric appartient au segment Banque et Ppep au segment Conseiller financier. Enric et Ppep ne peuvent pas communiquer entre eux, car la stratégie de l’organisation L’organisation bloque la communication et la collaboration entre ces deux segments. Cependant, Enrico et P matièreep peuvent communiquer avec Lee dans les ressources humaines.
 
-![Exemple montrant les barrières de l’information qui empêchent la communication entre les segments](media/information-barriers-example.png)
+![Exemple montrant les barrières de l’information qui empêchent la communication entre segments.](media/information-barriers-example.png)
 
 ## <a name="when-to-use-information-barriers"></a>Quand utiliser les barrières de l’information
 
@@ -79,35 +79,35 @@ Les stratégies IB sont activées lorsque les événements Teams événements su
 
 - **Les membres sont** ajoutés à une équipe : chaque fois que vous ajoutez un utilisateur à une équipe, sa stratégie doit être évaluée par rapport aux stratégies DE l’organisation des autres membres de l’équipe. Une fois l’utilisateur ajouté, il peut effectuer toutes les fonctions de l’équipe sans autres vérifications. Si la stratégie de l’utilisateur empêche son ajout à l’équipe, l’utilisateur n’est pas dans la recherche.
 
-    ![Capture d’écran de la recherche d’un nouveau membre à ajouter à une équipe et de la recherche de correspondances](media/information-barriers-add-members.png)
+    ![Capture d’écran de la recherche d’un nouveau membre à ajouter à une équipe et de la recherche de correspondances.](media/information-barriers-add-members.png)
 
 - **Une** nouvelle conversation est demandée : chaque fois qu’un utilisateur demande une nouvelle conversation avec un ou plusieurs autres utilisateurs, celle-ci est évaluée pour s’assurer qu’elle n’enfreinait aucune stratégie de l’organisation. Si la conversation ne respecte pas la stratégie de l’organisation, la conversation n’est pas démarrée.
 
     Voici un exemple de conversation en deux:
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant une communication bloquée dans une conversation à deux](media/information-barriers-one-one-chat.png)
+    > ![Capture d’écran montrant la communication bloquée dans une conversation à deux.](media/information-barriers-one-one-chat.png)
 
     Voici un exemple de conversation de groupe.
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant une conversation de groupe](media/information-barriers-group-chat.png)
+    > ![Capture d’écran montrant une conversation de groupe.](media/information-barriers-group-chat.png)
 
 - Un utilisateur est invité à participer à une réunion **:** lorsqu’un utilisateur est invité à participer à une réunion, la stratégie DE l’utilisateur final qui s’applique à l’utilisateur est évaluée par rapport aux stratégies de l’organisation qui s’appliquent aux autres membres de l’équipe. En cas de violation, l’utilisateur n’est pas autorisé à participer à la réunion.
 
-    ![Capture d’écran montrant un utilisateur bloqué d’une réunion](media/information-barriers-meeting.png)
+    ![Capture d’écran montrant un utilisateur bloqué d’une réunion.](media/information-barriers-meeting.png)
 
 - Un écran est partagé entre deux utilisateurs ou plus **-** Lorsqu’un utilisateur partage un écran avec d’autres utilisateurs, le partage doit être évalué afin de s’assurer qu’il ne constitue pas une violation des stratégies DE l’organisation d’autres utilisateurs. En cas de violation d’une stratégie de l’organisation, le partage d’écran n’est pas autorisé.
 
     Voici un exemple de partage d’écran avant l’application de la stratégie.
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant une conversation utilisateur](media/ib-before-screen-share-policy.png)
+    > ![Capture d’écran montrant une conversation utilisateur.](media/ib-before-screen-share-policy.png)
 
     Voici un exemple de partage d’écran après l’application de la stratégie. Les icônes de partage d’écran et d’appel ne sont pas visibles.
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant un char d’utilisateur avec des paramètres bloqués](media/ib-after-screen-share-policy.png)
+    > ![Capture d’écran montrant un char d’utilisateur avec des paramètres bloqués.](media/ib-after-screen-share-policy.png)
 
 - Un utilisateur passe un appel téléphonique dans **Teams** - Chaque fois qu’un utilisateur passe un appel vocal (via VOIP) à un autre utilisateur ou à un groupe d’utilisateurs, l’appel est évalué pour s’assurer qu’il ne constitue pas une violation des stratégies de l’organisation. En cas de violation, l’appel vocal est bloqué.
 
@@ -124,22 +124,22 @@ S’il existe une conversation ou une autre communication entre utilisateurs, et
     Voici un exemple qui montre que la conversation est visible.
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant que la conversation utilisateur est disponible](media/ib-before-1-1chat-policy.png)
+    > ![Capture d’écran montrant que la conversation utilisateur est disponible.](media/ib-before-1-1chat-policy.png)
 
     Voici un exemple qui montre que la conversation est désactivée.
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant que la conversation de l’utilisateur est désactivée](media/ib-after-1-1chat-policy.png)
+    > ![Capture d’écran montrant que la conversation utilisateur est désactivée.](media/ib-after-1-1chat-policy.png)
 
 - Conversation de groupe **:** si la communication entre un utilisateur et un groupe n’est plus autorisée (par exemple, en raison de la suppression des tâches d’un utilisateur), l’utilisateur(ainsi que les autres utilisateurs dont la participation ne respecte pas la stratégie) peut être supprimé de la conversation de groupe et les communications avec le groupe ne seront pas autorisées. L’utilisateur peut toujours voir les anciennes conversations, mais ne peut pas voir et participer à de nouvelles conversations avec le groupe. Si la stratégie nouvelle ou modifiée qui empêche la communication est appliquée à plusieurs utilisateurs, les utilisateurs concernés par la stratégie peuvent être supprimés de la conversation de groupe. Ils peuvent toujours voir les anciennes conversations.
 
   Dans cet exemple, Enric a été déplacé vers un autre service au sein de l’organisation et retiré de la conversation de groupe.
 
-  ![Capture d’écran d’une conversation de groupe à partir de laquelle un utilisateur a été supprimé](media/information-barriers-user-changes-job.png)
+  ![Capture d’écran d’une conversation de groupe à partir de laquelle un utilisateur a été supprimé.](media/information-barriers-user-changes-job.png)
 
   Enrico ne peut plus envoyer de messages à la conversation de groupe.
 
-  ![Capture d’écran du fait que l’utilisateur n’a pas pu envoyer de messages à une conversation de groupe, car l’utilisateur a été supprimé du groupe](media/information-barriers-user-changes-job-2.png)
+  ![Capture d’écran du fait que l’utilisateur n’a pas pu envoyer de messages dans une conversation de groupe, car l’utilisateur a été supprimé du groupe.](media/information-barriers-user-changes-job-2.png)
 
 - **Équipe** : tous les utilisateurs supprimés du groupe sont supprimés de l’équipe et ne peuvent pas voir et participer à des conversations existantes ou nouvelles.
 
@@ -151,14 +151,14 @@ Actuellement, les utilisateurs sont les scénarios suivants si une stratégie DE
 
 - **S sélectionneur de personnes** - Les utilisateurs bloqués ne seront pas visibles dans le s sélectionneur de personnes.
 
-    ![Capture d’Teams d’alerte à l’utilisateur que la stratégie empêche l’affichage des informations d’un autre utilisateur](media/information-barriers-people-picker.png)
+    ![Capture d’Teams d’alerte à l’utilisateur que la stratégie empêche l’affichage des informations d’un autre utilisateur.](media/information-barriers-people-picker.png)
 
 - **Onglet Activité** : si un utilisateur visite l’onglet **Activité** d’un utilisateur bloqué, aucune billet n’apparaît. **(L’onglet** Activité affiche uniquement les publications de canal et il n’existe aucun canal commun entre les deux utilisateurs.)
 
     Voici un exemple de l’affichage de l’onglet Activité bloqué.
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant l’onglet Activité bloqué](media/ib-after-activity-tab-policy.png)
+    > ![Capture d’écran montrant l’onglet Activité bloqué.](media/ib-after-activity-tab-policy.png)
 
 - **Organigrammes** - Si un utilisateur accède à un organigramme sur lequel un utilisateur bloqué apparaît, l’utilisateur bloqué n’apparaîtra pas dans l’organigramme. Un message d’erreur s’affiche à la place.
 
@@ -173,12 +173,12 @@ Actuellement, les utilisateurs sont les scénarios suivants si une stratégie DE
     Voici un exemple d’utilisateur bloqué dans la liste de contacts d’appels.
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant la conversation de l’utilisateur](media/ib-before-chat-contacts-policy.png)
+    > ![Capture d’écran montrant la conversation de l’utilisateur.](media/ib-before-chat-contacts-policy.png)
 
     Voici un exemple de conversation désactivée pour un utilisateur dans la liste de contenu des appels.
 
     > [!div class="mx-imgBorder"]
-    > ![Capture d’écran montrant un utilisateur bloqué d’une conversation](media/ib-after-chat-contacts-policy.png)
+    > ![Capture d’écran montrant un utilisateur bloqué d’une conversation.](media/ib-after-chat-contacts-policy.png)
 
 - **Skype** migration vers Teams : lors d’une migration de Skype Entreprise vers Teams, tous les utilisateurs, même les utilisateurs bloqués par les stratégies de l’organisation, sont migrés vers Teams. Ces utilisateurs sont ensuite gérés comme décrit ci-dessus.
 

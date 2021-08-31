@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: "Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez une mise à niveau vers Skype Entreprise Server 2015. Téléchargez une version d’évaluation gratuite Skype Entreprise Server 2015 à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: a3a36bb7c1acbf5334c108429076aa8126860041
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e503fc555901a78fb2a6cc0fa5b7bc7f112f3eb2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630408"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729243"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planifier la mise à niveau vers Skype Entreprise Server 2015
  
@@ -76,7 +76,7 @@ Planifiez une offre qui inclut :
     
 3. Vous devez mettre à niveau les bases de données d’archivage et de surveillance ou en créer de nouvelles.
     
-4. La In-Place mise à niveau à utiliser : Hors connexion ou Déplacer des utilisateurs. Dans le cadre du déplacement des utilisateurs, vous devrez également migrer les annuaires des conférences globaux associés au pool principal. 
+4. La In-Place de mise à niveau que vous utiliserez : Hors connexion ou Déplacer des utilisateurs. Dans le cadre du déplacement des utilisateurs, vous devrez également migrer les annuaires des conférences globaux associés au pool principal. 
     
 5. Un plan de communication pour les utilisateurs touchés.
     
@@ -103,7 +103,7 @@ Utilisez cette méthode si vous ne souhaitez pas déplacer d’utilisateurs entr
   
 Le diagramme suivant présente une vue d’ensemble de ce processus.
   
-![Lync 2013 To Skype Users Offline](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
+![Lync 2013 To Skype Users Offline.](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
   
 > [!NOTE]
 > Si vous avez des pools couplés, ne les déboyez pas avant la mise à niveau. 
@@ -150,7 +150,7 @@ Pour utiliser cette méthode, vous déplacez les utilisateurs vers un autre pool
    - Pour les serveurs non frontaux, utilisez Start-CSWindowsService.
     
 > [!NOTE]
->  Si vous ne souhaitez pas mettre à niveau vos bases de données d’archivage et de surveillance existantes, supprimez la dépendance avant de mettre à niveau la topologie. Si vous souhaitez créer de nouvelles bases de données d’archivage et de surveillance, pendant la mise à niveau, vous pouvez créer un magasin SQL et l’associer au pool. Vous trouverez les étapes à suivre dans la rubrique[Upgrade to Skype Entreprise Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > mise à niveau sur place ne prend pas en charge la haute disponibilité ou la récupération d’urgence pour Skype Entreprise Server. Pour éviter d’interrompre les services des utilisateurs, utilisez la méthode [Move Users (aucun](upgrade.md#bkmk_MoveUsersMethod) temps mort utilisateur) pour mettre à niveau.> Pendant le processus de mise à niveau, le réplica xds est placé dans le dossier partagé local sur le lecteur de disque avec le plus d’espace libre. Si ce disque est supprimé ultérieurement, vous pouvez exécuter des problèmes tels que les services qui ne démarrent pas.
+>  Si vous ne souhaitez pas mettre à niveau vos bases de données d’archivage et de surveillance existantes, supprimez la dépendance avant de mettre à niveau la topologie. Si vous souhaitez créer de nouvelles bases de données d’archivage et de surveillance, pendant la mise à niveau, vous pouvez créer un magasin SQL et l’associer au pool. Vous trouverez les étapes à suivre dans la rubrique « Mise à niveau[vers Skype Entreprise Server 2015](../deploy/upgrade-to-skype-for-business-server.md)». > mise à niveau sur place ne prend pas en charge la haute disponibilité ou la récupération d’urgence pour Skype Entreprise Server. Pour éviter d’interrompre les services des utilisateurs, utilisez la méthode [Move Users (aucun](upgrade.md#bkmk_MoveUsersMethod) temps mort utilisateur) pour mettre à niveau.> Pendant le processus de mise à niveau, le réplica xds est placé dans le dossier partagé local sur le lecteur de disque avec le plus d’espace libre. Si ce disque est supprimé ultérieurement, vous pouvez exécuter des problèmes tels que les services qui ne démarrent pas.
   
 ### <a name="upgrade-order"></a>Ordre de mise à niveau
 

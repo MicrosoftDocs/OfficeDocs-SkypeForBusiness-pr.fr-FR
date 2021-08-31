@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593188"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726213"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
 L’application Approbations est disponible en tant qu’application personnelle pour tous les utilisateurs de Microsoft Teams.
 L’application Approbations offre un moyen simple d’apporter des audits, de la conformité, de la responsabilité et des flux de travail à des approbations structurées et non structurées dans Teams.
 
- ![affiche l’application Approbations](media/approvals-selection.png)
+ ![affiche l’application Approbations.](media/approvals-selection.png)
 
 Les utilisateurs peuvent épingler l’application Approbations pour l’enregistrer dans la barre de menus.
 
- ![affiche l’application Approbations avec l’option épingler](media/approvalApp-pin.png)
+ ![affiche l’application Approbations avec l’option épingler.](media/approvalApp-pin.png)
 
 La première approbation créée à partir de l’application Approbations déclenche la mise en service de la solution d’approbation dans l’environnement de service de données courant (CDS) par défaut. Les approbations créées à partir de l’application Approbations seront stockées dans l’environnement CDS par défaut.
 
@@ -114,13 +114,13 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   3. Recherchez l’application Approbations.
 
-     ![affiche la navigation du Centre d’administration avec l’écran Applications Teams > Gérer les applications mis en évidence](media/manage-approval-apps.png)
+     ![Affiche la navigation dans le Centre d’administration avec Teams Applications > Gérer les applications mis en évidence.](media/manage-approval-apps.png)
 
   4. Sélectionnez Approbations.
 
   5. Sélectionnez le bouton bascule pour désactiver l’application pour votre organisation.
 
-     ![affiche les détails de l’application Approbations](media/approvals-details.png)
+     ![affiche les détails de l’application Approbations.](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Stratégie de rétention
 

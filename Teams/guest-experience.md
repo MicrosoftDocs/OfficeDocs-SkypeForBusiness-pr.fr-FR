@@ -19,22 +19,22 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Cette article décrit la fonctionnalité Microsoft Teams disponible pour les invités.
-ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632138"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729613"
 ---
 # <a name="guest-experience-in-teams"></a>Expérience de l’invité dans Microsoft Teams
 
 Lorsqu'un invité est convié à rejoindre une équipe, il reçoit un e-mail de bienvenue. Le message inclut des informations sur l'équipe et explique ce à quoi s’attendre maintenant qu'il est membre. L’invité doit accepter l’invitation en sélectionnant **Ouvrir Microsoft Teams** dans l’e-mail avant de pouvoir accéder à l'équipe et à ses canaux.
     
-![Capture d’écran affichant un exemple d’e-mail de bienvenue](media/guest-experience-image1.png)
+![Capture d’écran montrant un exemple d’e-mail de bienvenue.](media/guest-experience-image1.png)
     
 Tous les membres de l'équipe voient un message dans le fil des canaux informant que le propriétaire de l'équipe a ajouté un invité et indiquant son nom. Tous les membres de l'équipe peuvent identifier facilement les utilisateurs qui sont invités. Une balise dans le coin supérieur droit du thread de canal indique le nombre d’invités de l’équipe et une étiquette **(Invité)** apparaît près du nom de chaque invité.
 
-![Capture d’écran affichant la balise qui indique le nombre d’invités de l’équipe](media/guest-experience-image2.png)
+![Capture d’écran montrant un balise indiquant le nombre d’invités dans l’équipe.](media/guest-experience-image2.png)
 
 Découvrez ces vidéos sur l’expérience de l’invité dans Teams :
 - [Rejoindre une équipe en tant qu’invité](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

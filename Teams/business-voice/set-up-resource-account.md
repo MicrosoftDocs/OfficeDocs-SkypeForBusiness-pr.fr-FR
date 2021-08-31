@@ -1,5 +1,5 @@
 ---
-title: Configurer un compte Microsoft 365 Business Voice ressource client
+title: Configurer un compte de Microsoft 365 Business Voice ressources client
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Découvrez comment configurer un compte de ressource Microsoft 365 Business Voice à utiliser avec les attendants automatiques.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afc45df5ecf6336d2ddea86581fde67e85a6ab24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c0cfe87861086105587e58aba178821f4db778c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630238"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726163"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>Étape 4 : configurer un compte de ressource Voix Entreprise
 
@@ -58,9 +58,9 @@ Les comptes de ressources nécessitent une licence pour l’utilisation des file
 
 ## <a name="create-a-resource-account"></a>Créer un compte de ressource
 
-Une fois que vous avez reçu *votre Microsoft 365 Système téléphonique - Licence* Utilisateur virtuel, vous pouvez créer votre compte de ressource.
+Une fois que vous avez reçu *votre Microsoft 365 Système téléphonique d’utilisateur* virtuel, vous pouvez créer votre compte de ressource.
 
-![Capture d’écran de l’interface utilisateur Ajouter un compte de ressource](../media/resource-account-add.png)
+![Capture d’écran de l’interface utilisateur Ajouter un compte de ressource.](../media/resource-account-add.png)
 
 1. Ouvrez le Microsoft Teams d’administration et connectez-vous avec un utilisateur en tant qu’administrateur général (il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365).
 2. Dans le volet de navigation gauche, allez sur Comptes de ressources à l’échelle de <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">   >  **l’organisation.**</a>
@@ -69,13 +69,13 @@ Une fois que vous avez reçu *votre Microsoft 365 Système téléphonique - Lice
 5. Dans **Type de compte ressource,** sélectionnez Le attendant **automatique.**
 6. Sélectionnez **Enregistrer**.
 
-![Capture d’écran d’une liste des comptes de ressources](../media/resource-accounts-auto-attendant-only-page.png)
+![Capture d’écran d’une liste des comptes de ressources.](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## <a name="assign-a-license"></a>Attribuer une licence
 
-Après avoir créé votre compte de ressource, vous devez affecter une Microsoft 365 Système téléphonique *utilisateur* virtuel ou *une Système téléphonique* virtuel.
+Après avoir créé votre compte de ressource, vous devez affecter une *Microsoft 365 Système téléphonique utilisateur* virtuel ou *une Système téléphonique* virtuel.
 
-![Capture d’écran de l’interface utilisateur attribuer des licences dans le Centre d’administration Microsoft 365](../media/resource-account-assign-virtual-user-license.png)
+![Capture d’écran de l’interface utilisateur d’attribution de licences dans Centre d’administration Microsoft 365.](../media/resource-account-assign-virtual-user-license.png)
 
 1. Ouvrez le Centre d’administration Microsoft 365 et connectez-vous avec un utilisateur en tant qu’administrateur général (il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365).
 1. Dans le volet de navigation gauche, allez à <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank"> **Utilisateurs**  >  **actifs.**</a>
@@ -85,7 +85,7 @@ Après avoir créé votre compte de ressource, vous devez affecter une Microsoft
 
 ## <a name="assign-a-service-number"></a>Affecter un numéro de service
 
-![Capture d’écran de l’interface utilisateur affecter un numéro de service](../media/resource-account-assign-phone-number.png)
+![Capture d’écran de l’interface utilisateur affecter un numéro de service.](../media/resource-account-assign-phone-number.png)
 
 1. Ouvrez le Microsoft Teams d’administration et connectez-vous avec un utilisateur en tant qu’administrateur général (il s’agit généralement du compte que vous avez utilisé pour vous inscrire à Microsoft 365).
 1. Dans le volet de navigation gauche, allez sur Comptes de ressources à l’échelle de <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">   >  **l’organisation.**</a>

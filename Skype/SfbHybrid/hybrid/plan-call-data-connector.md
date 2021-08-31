@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Vue d’ensemble de Skype Entreprise outils de télémétrie en ligne pour surveiller une implémentation sur site dans un scénario hybride.
-ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608641"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726483"
 ---
 # <a name="plan-call-data-connector"></a>Planifier le connecteur de données d’appel
 
@@ -30,7 +30,7 @@ Cette rubrique décrit les avantages, les considérations relatives à la planif
 
 Call Data Connector simplifie considérablement la surveillance des appels dans un environnement hybride, car vous n’avez plus besoin d’utiliser différents ensembles d’outils locaux et en ligne pour surveiller la qualité des appels de tous vos utilisateurs. Que vos utilisateurs soient en local ou en ligne, vous pouvez choisir d’afficher la qualité des appels pour l’ensemble de votre organisation en ligne.
 
-Avec le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
+Avec Le connecteur de données d’appel, vous pouvez effectuer les tâches suivantes à l’aide d’un ensemble d’outils unique :
 
 - Surveillez votre expérience utilisateur dans Microsoft Teams, Skype Entreprise Online et Skype Entreprise Server.
 
@@ -54,11 +54,11 @@ Pour plus d’informations, voir le diagramme Analyse des appels et Tableau de b
 
 Bien entendu, vous souhaitez peut-être conserver certaines données de qualité des appels en local. Cela peut être le cas, par exemple, si vous utilisez une solution tierce avec des flux de travail et des rapports personnalisés.  Le connecteur de données d’appel vous permet de configurer l’envoi de données au service en ligne tout en conservant une copie des données sur votre serveur local, comme illustré dans le diagramme suivant :
 
-![SfB Messagerie vocale infonuagique](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB Messagerie vocale infonuagique.](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>Configuration requise
 
-Les conditions suivantes supposent que vous avez déjà déployé Skype Entreprise Server dans une topologie prise en charge.  Pour plus d’informations sur le déploiement Skype Entreprise Server topologies et les topologies pris en charge, voir [La topologie de base.](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) Pour configurer le connecteur de données d’appel, vous devez :
+Les conditions suivantes supposent que vous avez déjà déployé Skype Entreprise Server dans une topologie prise en charge.  Pour plus d’informations sur le déploiement Skype Entreprise Server topologies et les topologies pris en charge, voir [Topology Basics](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md). Pour configurer le connecteur de données d’appel, vous devez :
 
 - Activer la connectivité hybride. Si vous avez déjà déployé Skype Entreprise Server et que vous souhaitez activer le connecteur de données d’appel, vous devez vous assurer que la connectivité hybride est définie entre vos environnements locaux et en ligne. Il s’agit parfois d’une configuration de domaine fractionnement.
 
@@ -84,7 +84,7 @@ Les conditions suivantes supposent que vous avez déjà déployé Skype Entrepri
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | Mesure de partage d’application |Oui | Limité |
 | Informations sur la création de clients| Oui | Oui |
-| Analyse de l’analyse d’analyse | Oui | Non |
+| Analyse d’analyse d’analyse | Oui | Non |
 | Mesures de fiabilité des médias | Oui | Limité |
 | Rapports pré-présodents | Oui | Oui |
 | Rapports de vue d’ensemble | Oui | Non |

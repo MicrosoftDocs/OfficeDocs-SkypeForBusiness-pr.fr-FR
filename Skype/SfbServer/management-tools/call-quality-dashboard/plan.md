@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord de qualité des appels.'
-ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588576"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728853"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier le tableau de bord de qualité des appels pour Skype Entreprise Server 
  
@@ -57,7 +57,7 @@ Pour résumer, le CQD requiert les éléments suivants :
     
 - IiS héberge le portail web CQD
     
-![Composants CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![Composants CQD.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 La même architecture CQD prend en charge Lync Server 2013 et Skype Entreprise. 
   
@@ -128,7 +128,7 @@ Le CQD est fourni avec plusieurs composants et permet de comprendre les exigence
 > [!NOTE]
 > Pour l’archivage et le cube QoE, certaines options de déploiement nécessitent l’Enterprise ou des éditions Microsoft SQL Server. Pour plus d’informations, reportez-vous à la section Conditions requises pour l’infrastructure pour [le](plan.md#Infrastructure_Req) tableau de qualité des besoins ci-dessous.
   
-![Composants CQD](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
+![Composants CQD.](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
 ### <a name="single-server-configuration"></a>Configuration d’un seul serveur
 
@@ -146,11 +146,11 @@ Dans une configuration multiserveur, l’archive QoE, le cube et le portail peuv
     
   **Hébergement du portail web CQD et du cube CQD sur différents ordinateurs.** Les organisations qui peuvent avoir besoin de séparer le portail CQD de l’installation SQL Server ou qui souhaitent combiner et faire correspondre des éditions SQL Server pour l’instance SQL Server et l’instance SQL Server Analysis Services peuvent choisir d’installer le portail CQD et le cube CQD sur différents ordinateurs. Le composant d’archivage QoE peut également être le seul composant CQD installé si l’organisation souhaite simplement avoir une méthode durable pour archiver les données QoE sans atteindre les limites de performances sur le serveur de surveillance.
   
-![Single Server CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
+![Single Server CQD.](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
  **Hébergement d’un portail de « développement » distinct du portail de « production ».** Les organisations qui développent leurs propres rapports personnalisés (via les API REST) peuvent préférer déployer des instances de portail (CQD) supplémentaires en même temps que le portail de production accessibles aux utilisateurs réguliers pour la surveillance ou les examens de la qualité des appels. Le portail de développement peut isoler les modifications apportées au portail de l’environnement de production. Les portails web supplémentaires peuvent être déployés sur différents ordinateurs (voir ci-dessous) ou sur différents répertoires web sur le même ordinateur (non affiché). Pour ce faire, le portail web CQD supplémentaire doit être copié manuellement sur l’ordinateur de production, car le processus de configuration du CQD déploie toujours le portail Web CQD sur le site web par défaut avec des noms d’application web prédéfinés.
   
-![Planifier le multi-serveur CQD](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
+![Planifiez le multi-serveur CQD.](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
   
 ### <a name="supported-topologies"></a>Topologies prises en charge
 
@@ -193,7 +193,7 @@ Cette section suppose qu’il existe une seule base de données QoEMetrics dans 
   
 **Profils d’ordinateur**
 
-|**Ordinateur**|**Cœurs d’UC**|**Mémoire vive**|**Archive QoE et cube sur le même disque**|**Archivage QoE et SQL temp DB sur le même disque**|
+|**Ordinateur**|**Cœurs d’UC**|**Mémoire RAM**|**Archive QoE et cube sur le même disque**|**Archivage QoE et SQL temp DB sur le même disque**|
 |:-----|:-----|:-----|:-----|:-----|
 |Machine virtuelle  <br/> |4   <br/> |7 Go  <br/> |Oui  <br/> |Oui  <br/> |
 |4 cœurs  <br/> |4   <br/> |20 Go  <br/> |Oui  <br/> |Non  <br/> |
@@ -307,7 +307,7 @@ Bien que cela ne soit pas recommandé, l’édition Standard est également pris
   
 Dans tous les cas, « Moteur de base de données Services » et « Analysis Services » doivent être installés. Il est recommandé, mais pas obligatoire, d’installer également la fonctionnalité « Outils de gestion - Complète », qui ajoute SQL Server Management Studio prise en charge d’Analysis Services. L’écran de sélection des fonctionnalités doit ressembler à la figure.
   
-![SQL Server fonctionnalités requises](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
+![SQL Server fonctionnalités requises.](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
 Lors de la configuration de l’installation de SSAS, dans la configuration Analysis Services, définissez « Mode serveur » sur « Mode multidimensionnel et exploration de données ». 
   

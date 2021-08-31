@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578358"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726563"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -54,7 +54,7 @@ Il s’agit d’une combinaison d’une stratégie par organisateur et par utili
 
 Les personnes extérieures à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent ni démarrer ni arrêter l’enregistrement.
 
-![Capture d’écran montrant les options d’enregistrement](media/meeting-policies-recording.png)
+![Capture d’écran montrant les options d’enregistrement.](media/meeting-policies-recording.png)
 
 Examinons l’exemple suivant.
 
@@ -116,7 +116,7 @@ Les réunions organisées par un utilisateur pour lequel ce paramètre de strat�
 
 | Ordinateur de bureau et client web Teams |Client mobile Teams  |
 |:-------:|:-------:|
-|![Capture d’écran montrant une jointure de réunion avec les paramètres audio/vidéo sur l’ordinateur de bureau](media/meeting-policies-audio-video-settings.png)    |![Capture d’écran montrant une jointure de réunion avec les paramètres audio/vidéo sur appareil mobile](media/meeting-policies-mobile-join.png)          |
+|![Capture d’écran montrant la réunion avec les paramètres audio/vidéo sur le Bureau.](media/meeting-policies-audio-video-settings.png)    |![Capture d’écran montrant une jointure de réunion avec les paramètres audio/vidéo sur appareil mobile](media/meeting-policies-mobile-join.png)          |
 
 Examinons l’exemple suivant.
 
@@ -199,7 +199,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
 
 2. Sélectionnez **Stratégies de**  >  **réunion Personnaliser les images de réunion.**
 
-   ![Sélection des stratégies de réunion avec le bouton Personnaliser les images de réunion mis en évidence](media/custom-background-image-button.png)
+   ![Sélection des stratégies de réunion avec le bouton Personnaliser les images de réunion mis en évidence.](media/custom-background-image-button.png)
 
 3. Sélectionnez **Le dans** les **images d’arrière-plan large de l’organisation.**
 
@@ -212,7 +212,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
    - Taille minimale 360 px
    - Taille maximale 2 048 px
    - Type de fichier PNG, JPG ou BMP
-   - Vous pouvez charger au maximum 50 images
+   - Vous pouvez charger jusqu’à 50 images
 
 7. Affichez un aperçu des images que vous avez sélectionnées, puis sélectionnez **Fermer.**
 

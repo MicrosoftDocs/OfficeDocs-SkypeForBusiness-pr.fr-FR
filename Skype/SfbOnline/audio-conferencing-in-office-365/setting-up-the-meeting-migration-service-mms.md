@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) est un service qui s’exécute en arrière-plan et met automatiquement à jour Skype Entreprise et Microsoft Teams réunions pour les utilisateurs. MmS est conçu pour éliminer la nécessité pour les utilisateurs d’exécuter l’outil de migration de réunion pour mettre à jour Skype Entreprise et Microsoft Teams réunions.
-ms.openlocfilehash: 3fefc7aa45df3323f8c96801bde1cb301ff40572
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 008974d71d92667da96316aafa7b8c4adf478026
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613263"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726693"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Utilisation du service Meeting Migration Service (MMS)
 
@@ -57,7 +57,7 @@ Lorsque MMS est déclenché pour un utilisateur donné, une demande de migration
 3. Dans le message électronique, il remplace le bloc de réunion en ligne dans les détails de la réunion.
 4. Elle envoie la version mise à jour de cette réunion à tous les destinataires de la réunion de la part de l’organisateur de la réunion. Les invités à la réunion recevront une mise à jour de la réunion avec les coordonnées de réunion mises à jour dans leur courrier électronique. 
 
-    ![Le bloc de réunion mis à jour par MMS](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
+    ![Bloc de réunion mis à jour par MMS.](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
 À partir du moment où MMS est déclenché, la migration des réunions de l’utilisateur prend généralement 2 heures. Toutefois, si l’utilisateur a un grand nombre de réunions, cela peut prendre plus de temps. Si MMS rencontre une erreur lors de la migration d’une ou plusieurs réunions de l’utilisateur, il réessaye régulièrement jusqu’à 9 fois sur une période de 24 heures.
 
@@ -209,7 +209,7 @@ Si MMS est activé dans l’organisation et que vous voulez vérifier s’il est
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 

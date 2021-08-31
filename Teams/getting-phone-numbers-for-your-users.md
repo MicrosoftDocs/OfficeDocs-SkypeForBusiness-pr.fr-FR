@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Découvrez comment obtenir de nouveaux numéros, transférer ou transférer des numéros existants pour Teams et comment montrer les modifications à vos utilisateurs. '
-ms.openlocfilehash: 5371a3d23e78017db34ae94cdd7516ce40b6347b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 368a9d2c699fa631ff98b343d6c2f9562efc62e1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602269"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729623"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -45,7 +45,7 @@ Il existe trois façons d’obtenir des numéros d’utilisateur :
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtention de nouveaux numéros de téléphone pour vos utilisateurs
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
 
 Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
@@ -54,8 +54,8 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 3. Entrez un nom pour la commande et ajoutez une description.
 4. Dans la page Emplacement et quantité, vous pouvez :
     1. Sous **Pays ou région,** sélectionnez un pays ou une région.
-    2. Sous **Type de nombre,** **sélectionnez Utilisateur (abonné).**
-    3. Sous **Emplacement,** sélectionnez un emplacement. Si vous avez besoin de créer un emplacement, cliquez sur **Ajouter un emplacement.**
+    2. Sous **Type de numéro,** **sélectionnez Utilisateur (abonné).**
+    3. Sous **Emplacement,** sélectionnez un emplacement. Si vous avez besoin de créer un emplacement, cliquez **sur Ajouter un emplacement.**
     4. Sous **Code de la** zone, sélectionnez un code de zone.
     5. Sous **Quantité,** entrez le nombre de numéros que vous souhaitez pour votre organisation, puis cliquez sur Suivant **pour** sélectionner vos numéros.
 5. Sélectionnez les nombres de votre choix. Vous avez 10 minutes pour sélectionner vos numéros de téléphone et placer votre commande. Si cela prend plus de 10 minutes, les numéros de téléphone sont renvoyés dans la réserve de numéros.
@@ -72,7 +72,7 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Afficher les numéros de téléphone pour votre organisation
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
 
 Dans le panneau de navigation gauche du Centre d’administration, allez sur Numéros de Téléphone voix pour afficher les numéros pour votre organisation, y compris l’emplacement, le type de numéro et les informations  >   de statut.
   

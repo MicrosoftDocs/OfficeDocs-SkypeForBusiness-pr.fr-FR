@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Consultez Skype Entreprise la procédure en ligne pour affecter une licence de conférence rendez-vous et un ID de conférence à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: f011dc05f027ad8ec6ef33665050505432a3547e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 68deefd4092d05081ffe8a7aac9a1dc92ea36940
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586174"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726463"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gérer les paramètres d'Audioconférence de mon organisation dans Skype Entreprise Online
 
@@ -61,7 +61,7 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence Skyp
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Activer ou désactiver les messages électroniques envoyés aux utilisateurs de l’audioconférence
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
 
 1. Connectez-vous avec votre compte scolaire ou scolaire.
 
@@ -232,7 +232,7 @@ Voir [Modifier les paramètres d'un pont d'Audioconférence](/MicrosoftTeams/cha
 
 2. Dans le centre d’administration, > **Skype Entreprise.**
 
-3. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, cliquez sur **Audioconférence,** puis cliquez sur **Pont Microsoft.**
+3. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, cliquez sur **Audioconférence,** puis sur **Pont Microsoft.**
 
 4. Dans le volet de navigation de gauche du **Centre d'administration Skype Entreprise**, sélectionnez **Conférences rendez-vous**, puis cliquez sur **Pont Microsoft**.
 
@@ -264,7 +264,7 @@ Consultez [la liste des numéros d’audioconférence.](see-a-list-of-audio-conf
 
 2. Dans le centre d’administration, > **Skype Entreprise.**
 
-3. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez à Conférence **audio>** puis **Utilisateurs.**
+3. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, allez à Conférence **audio** et> puis **Utilisateurs.**
 
 Reportez-vous à la rubrique [Afficher la liste des utilisateurs activés pour les conférences Audio](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
 
@@ -333,6 +333,6 @@ Voici les paramètres au niveau de l’organisation :
 
     Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Gestion des paramètres d'audioconférence d'un utilisateur](manage-the-audio-conferencing-settings-for-a-user.md)

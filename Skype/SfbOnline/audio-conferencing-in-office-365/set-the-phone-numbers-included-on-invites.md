@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: dc2bbff037a5e35b1fdb2c9b23c03246eee4a25b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7136a8108a5ecd9e55d2def1e4cedd1076b270ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594858"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729053"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Définir la liste des numéros de téléphone inclus sur invite dans Skype Entreprise Online
 
@@ -56,7 +56,7 @@ Un pont de conférence vous offre un ensemble de numéros de téléphone pour vo
     
 3. Sélectionnez **Utilisateurs**.
     
-    ![Indique les utilisateurs au niveau du centre d’administration Skype Entreprise](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![Affiche la sélection d’utilisateurs dans le Skype Entreprise d’administration.](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. Sélectionnez les utilisateurs à modifier :
     
@@ -122,7 +122,7 @@ Par défaut, lorsque vous modifiez les paramètres de conférence d’un utilisa
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
-  - Pour modifier le numéro gratuit par défaut de tous les utilisateurs qui ont le numéro gratuit +18005551234 sur +18005551239 par défaut, exécutez :
+  - Pour modifier le numéro gratuit par défaut de tous les utilisateurs qui ont le numéro gratuit +18005551234 sur +18005551239, exécutez :
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
@@ -148,6 +148,6 @@ Par défaut, lorsque vous modifiez les paramètres de conférence d’un utilisa
     
   - [Utilisation de Windows PowerShell pour effectuer les tâches de gestion courantes de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

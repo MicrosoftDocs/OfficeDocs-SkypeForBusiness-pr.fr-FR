@@ -17,20 +17,20 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: Découvrez comment les groupes Microsoft 365 et les appartenances aux groupes fonctionnent avec Microsoft Teams.
-ms.openlocfilehash: e74e2e8c11753fbf97ef1161e8443f57dbb6146d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e140d50bb16c9ed99f126662545fb026c3df60a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631558"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729733"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 Groupes et groupes Microsoft Teams
 
 Microsoft 365 Les groupes sont le service d’appartenance entre applications dans Microsoft 365. À un niveau de base, un groupe Microsoft 365 est un objet dans Azure Active Directory qui comprend une liste de membres et une couplage aux charges de travail associées, notamment un site d’équipe SharePoint, une boîte aux lettres Exchange partagée, le Planificateur et un espace de travail Power BI. Vous pouvez ajouter ou supprimer des personnes au groupe comme vous le feriez pour n’importe quel autre objet de sécurité basé sur un groupe dans Active Directory.
 
-![Diagramme montrant Microsoft 365 groupes et services associés](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
+![Diagramme montrant Microsoft 365 groupes et services associés.](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
-Par défaut, les utilisateurs Microsoft 365 peuvent créer et gérer des groupes. Pour plus d’informations sur Microsoft 365 [](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) de groupes de personnes, voir l’Microsoft 365 groupes d’architecture et les groupes dans [Microsoft 365 poster sur les](teams-architecture-solutions-posters.md#groups-in-microsoft-365) architectes de l’information.
+Par défaut, les utilisateurs Microsoft 365 peuvent créer et gérer des groupes. Pour plus d’informations sur Microsoft 365 [](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) de groupe, voir Groupes d’Microsoft 365 et groupes dans [Microsoft 365 poster sur les architectes](teams-architecture-solutions-posters.md#groups-in-microsoft-365) de l’information.
 
 ## <a name="how-microsoft-365-groups-work-with-teams"></a>Fonctionnement des Microsoft 365 groupes avec Teams
 
@@ -52,7 +52,7 @@ La suppression d’un groupe Microsoft 365 supprime l’alias de boîte aux lett
 
 Pour plus d’informations sur les options de fin de cycle de vie des groupes et équipes, consultez les options de fin de cycle de vie des [groupes,](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) équipes et Yammer et archivez ou supprimez une équipe [dans Microsoft Teams.](./archive-or-delete-a-team.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Bases de Microsoft Teams (vidéo)](https://aka.ms/teams-foundations)
 

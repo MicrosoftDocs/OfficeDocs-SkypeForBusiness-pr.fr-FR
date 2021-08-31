@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: "Résumé : Découvrez comment configurer DNS et créer des enregistrements DNS pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585530"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726323"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Créer des enregistrements DNS pour Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Pour Skype Entreprise Server fonctionne correctement, un certain nombre de param
 > [!IMPORTANT]
 > Il est important de noter qu’il s’agit simplement d’un exemple de création d’enregistrements DNS dans un environnement DNS Windows Server. De nombreuses autres entrées DNS sont requises pour Skype Entreprise Server, et la procédure de création des enregistrements DNS dépend du système que vous utilisez pour gérer le DNS dans votre organisation. Pour obtenir la liste complète des conditions requises pour le DNS, consultez la liste des conditions requises pour [le DNS Skype Entreprise Server](../../plan-your-deployment/network-requirements/dns.md). 
   
-![Diagramme de vue d’ensemble](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
+![Diagramme de vue d’ensemble.](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>Configurer le DNS
 
@@ -42,7 +42,7 @@ Les enregistrements DNS sont requis pour Skype Entreprise Server fonctionnent co
 Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local. Ce pool se compose de trois serveurs exécutant Skype Entreprise Server Êdition Entreprise. Un Édition Standard frontal ne peut contenir qu’un seul serveur. À l’aide de Édition Standard, vous utilisez uniquement le nom de domaine complet (FQDN) du serveur Édition Standard unique lors du référencement du rôle frontal au lieu de créer un pool de serveurs d’équilibrage de charge DNS, comme le montre cet exemple. Cet exemple simple qui utilise uniquement le rôle frontal inclut les entrées DNS du tableau suivant. Pour planifier vos besoins DNS spécifiques, consultez les exigences [DNS pour Skype Entreprise Server](../../plan-your-deployment/network-requirements/dns.md). 
   
  
-|**Description**|**Type d’enregistrement**|**Nom**|**Résolu en**|**Type d’équilibrage de charge**|
+|**Description**|**Type d’enregistrement**|**Name**|**Résolu en**|**Type d’équilibrage de charge**|
 |:-----|:-----|:-----|:-----|:-----|
 |FQDN des services web internes  <br/> |A  <br/> |webint.contoso.local  <br/> |ADRESSE VIP pour les services web internes  <br/> |Logiciels et matériels pris en charge  <br/> |
 |Nom de domaine complet du pool  <br/> |A  <br/> |pool.contoso.local  <br/> |Adresse IP du serveur SFB01  <br/> |DNS  <br/> |
@@ -68,7 +68,7 @@ Cet exemple utilise un FQDN DNS à charge équilibrée nommé pool.contoso.local
     
 4. Cliquez avec le bouton droit sur le domaine SIP, puis sélectionnez Nouvel hôte **(A ou AAAA),** comme illustré dans la figure.
     
-     ![sélection d’un nouvel enregistrement A](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
+     ![sélection d’un nouvel enregistrement A.](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
 5. Dans la **zone** Nom, tapez le nom de l’enregistrement hôte (le nom de domaine sera automatiquement ajouté).
     

@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport Teams’utilisation des év�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea415e849f4255b38432d227a9d26452b3fc9275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631208"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729553"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams d’utilisation d’événements en direct
 
@@ -30,12 +30,12 @@ Le Teams d’utilisation des événements en direct dans le Microsoft Teams d’
 
 ## <a name="view-the-live-event-usage-report"></a>Afficher le rapport d’utilisation des événements en direct
 
-1. Dans le panneau de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez **Teams’utilisation des événements en direct.**
+1. Dans la barre de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez **Teams’utilisation des événements en direct.**
 2. Sous **Plage de dates,** sélectionnez une plage prédéfinée ou définissez une plage personnalisée. Vous pouvez définir une plage pour afficher les données jusqu’à une année, six mois avant et après la date actuelle.
 3. (Facultatif) Sous **Organisateur,** vous pouvez choisir d’afficher uniquement les événements en direct organisés par un utilisateur spécifique.
 4. Cliquez sur **Exécuter le rapport.**  
 
-    ![Capture d’écran du Teams d’utilisation des événements en direct dans le centre Teams d’administration avec des appels](../media/teams-live-event-usage-report-with-callouts.png "Capture d’écran du Teams d’utilisation des événements en direct dans le centre Teams d’administration avec des appels")
+    ![Capture d’écran Teams rapport d’utilisation des événements en direct dans le centre Teams’administration avec des appels.](../media/teams-live-event-usage-report-with-callouts.png "Capture d’écran du Teams d’utilisation des événements en direct dans le centre Teams d’administration avec des appels")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 
@@ -54,7 +54,7 @@ Affichage d’un jusqu’à 100 événements en direct qui correspondent aux cri
 
 La page des détails de l’événement en direct offre un résumé des détails d’un événement en direct et répertorie tous les fichiers, y compris les transcriptions et enregistrements, associés à l’événement. Cliquez sur un nom de fichier pour afficher ou télécharger le fichier.
 
-![Capture d’écran montrant les détails d’un événement en direct](../media/teams-live-event-usage-report-event-detail.png)
+![Capture d’écran montrant les détails d’un événement en direct.](../media/teams-live-event-usage-report-event-detail.png)
 
 Si votre organisation est [](https://www.hivestreaming.com/partners/integration-partners/microsoft/) activée pour la ruche eCDN ou l’eCDN [Kollective,](https://kollective.com) vous pouvez obtenir des données d’analyse des participants supplémentaires en cliquant sur le lien du rapport partenaire.
 

@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
-ms.openlocfilehash: 5dd103651c4cd368b5304d4d33d753b5d13ab73d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596198"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726633"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
 
@@ -99,7 +99,7 @@ Pour effectuer cette étape, l'administrateur Microsoft 365 doit recevoir une U
 
 ### <a name="approve-or-view-configuration"></a>[Approuver ou afficher la configuration](#approve-or-view-configuration)
 
-L’analyste client de votre organisation médicale qui a été ajoutée en tant qu’approbation doit maintenant utiliser la même URL de connecteur EHR que lors de l’étape précédente pour se connecter à l’aide de leurs informations d’Microsoft 365 client. Après une validation réussie, l'approbateur sera invité à se connecter à l'aide de ses informations d'identification Epic pour valider l'organisation Epic.
+L’analyste client de votre organisation médicale qui a été ajoutée en tant qu’approbation doit maintenant utiliser la même URL de connecteur EHR que lors de l’étape précédente pour se connecter à l’aide de ses informations d Microsoft 365 de connexion. Après une validation réussie, l'approbateur sera invité à se connecter à l'aide de ses informations d'identification Epic pour valider l'organisation Epic.
 
 > [!Note]
 > L'administrateur Microsoft 365 et l'analyste client Epic de votre organisation peuvent être la même personne. Dans ce cas, ajoutez votre propre nom d'utilisateur en tant qu’approbateur. Vous devrez toujours vous connecter à Epic pour valider votre accès. La connexion Epic est uniquement utilisée pour valider votre URL de base FHIR. Microsoft ne stocke pas les informations d’identification et n’accède pas aux données DMI avec cette connexion.
@@ -148,7 +148,7 @@ Principales fonctionnalités de l’expérience fournisseur :
 
 - Le fournisseur peut consulter en temps réel les mises à jour des connexions et déconnexions des participants pour un rendez-vous donné. Le fournisseur peut voir quand le patient est connecté à une visite virtuelle.
 
-  ![Expérience fournisseur d’une visite virtuelle avec le patient](../../media/ehc-provider-experience-6.png)
+  ![Expérience du fournisseur d’une visite virtuelle avec un patient.](../../media/ehc-provider-experience-6.png)
 
 ### <a name="patient-experience"></a>Expérience patient
 
@@ -166,7 +166,7 @@ Principales fonctionnalités de l’expérience du patient :
 
 - Un test de la vidéo et du microphone est disponible dans la salle d'accueil avant de rejoindre la visite virtuelle.
 
-  ![Expérience patient de la visite virtuelle](../../media/ehc-virtual-visit-5.png)
+  ![Expérience patient de la visite virtuelle.](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku et Canto sont des marques déposées d'Epic Systems Corporation.
@@ -177,6 +177,6 @@ L'intégration Teams dans les systèmes de DMI optimise la quantité de données
 
 Le connecteur DMI de Microsoft Teams ne stocke ni ne transfère les données personnelles identifiables ou les dossiers médicaux des patients ou fournisseurs de santé à partir du système de gestion des dossiers médicaux. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams). L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les discussions, enregistrements et autres données entrés dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Pour plus d’informations sur l’emplacement des données dans Microsoft Teams, consultez [Emplacements des données dans Teams](../../location-of-data-in-teams.md).
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Teams visites virtuelles](ehr-admin-reports.md)

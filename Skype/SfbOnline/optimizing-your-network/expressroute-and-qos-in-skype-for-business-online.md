@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: ddf90000de18f1fafd60896134eee21574605c8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 32d9a3f6be35077f274f0a8ab9facc462a3fe6b4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610191"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729783"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute et qualité de service (QoS) dans Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Connecter à Microsoft 365 Office 365 via une connexion réseau dédiée utilisant Azure ExpressRoute pour Microsoft 365 ou Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise offre des performances fiables et prévisibles et protège vos données confidentielles contre l'Internet public. Vous pouvez désormais acheter une meilleure connexion réseau vers Microsoft 365 ou Office 365 et Skype Entreprise Online qui offre une fiabilité et une grande prévisibilité, ainsi qu’un SLA de temps de disponibilité.
+Connecter à Microsoft 365 ou Office 365 via une connexion réseau dédiée à l’aide d’Azure ExpressRoute pour Microsoft 365 ou Office 365 et Skype Entreprise Online. Votre connexion dédiée pour vos applications Skype Entreprise offre des performances fiables et prévisibles et protège vos données confidentielles contre l'Internet public. Vous pouvez désormais acheter une meilleure connexion réseau vers Microsoft 365 ou Office 365 et Skype Entreprise Online qui offre une fiabilité et une grande prévisibilité, ainsi qu’un SLA de temps de disponibilité.
   
 > [!NOTE]
 > Une nouvelle version de l’outil de calcul de bande passante est disponible : [Skype Entreprise, outil de calcul de bande passante.](https://go.microsoft.com/fwlink/?LinkId=715766) Toutefois, les instructions de ce document utilisent l’outil de calcul de bande passante Lync 2010 et Lync 2013. 
@@ -311,7 +311,7 @@ DiffServ (Differentiated Services) est considéré comme un mécanisme « grossi
    
  **En-tête IP version 4**
   
-![En-tête IPv4](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
+![En-tête IPv4.](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
   
 ### <a name="layer-2-qos-ieee-8021pwi-fi-multi-media-ieee-80211e"></a>QoS Layer 2 : norme IEEE 802.1p/multimédia Wi-Fi (IEEE 802.11e)
 
@@ -394,7 +394,7 @@ Lorsqu'un paquet est envoyé dans le réseau MPLS, le routeur de périphérie du
   
 Non seulement MPLS simplifie le processus de transfert, mais il indique également au système de gestion réseau les connexions qui sont établies sur chaque lien du réseau. En contrôlant la façon dont le trafic est acheminé sur le réseau, l'opérateur peut garantir la qualité de service fournie par chaque chemin. Par conséquent, contrairement aux performances de meilleur effort des réseaux IP traditionnels ou de base, les opérateurs MPLS fournissent un service IP aux performances prévisibles. Le mode de fonctionnement du LSP rend MPLS plus sûr que les services Internet traditionnels. Par conséquent, avec le service IP de base, nous espérons que le réseau soit suffisamment performant pour fournir des prestations voix, des techniques d'utilisation de bonne qualité, comme FEC, ainsi qu'un codage voix plus résilient. Avec MPLS, ces performances sont garanties.
   
-Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux utilisent des termes différents pour les identifier. Vous devez travailler en étroite collaboration avec votre fournisseur pour vous assurer qu’il comprenne les sorties de l’outil de calcul de bande passante [Lync 2010 et Lync 2013,](https://go.microsoft.com/fwlink/?LinkID=690282) ainsi que les options recommandées pour les différentes applications Charge de travail Microsoft 365 ou Office 365 Real Time.
+Les fournisseurs MPLS offrent plusieurs niveaux de service, mais chacun d'eux utilisent des termes différents pour les identifier. Vous devez travailler en étroite collaboration avec votre fournisseur pour vous assurer qu’il comprenne les sorties de l’outil de calcul de bande passante [Lync 2010 et Lync 2013,](https://go.microsoft.com/fwlink/?LinkID=690282) ainsi que les options recommandées pour les différentes applications Charge de travail en temps réel Microsoft 365 ou Office 365.
   
 ## <a name="conclusion"></a>Conclusion
 
@@ -404,7 +404,7 @@ La fourniture constante de services voix et vidéo en temps réel de qualité pr
   
 Des outils d'entreprise efficaces doivent avoir un fonctionnement fiable et homogène et fournir une expérience encourageant les utilisateurs à les adapter. D'un point de vue réseau, cela signifie qu'il faut disposer d'une infrastructure réseau, à la fois locale et globale, fixe et mobile, permettant cela. La planification, la conception, la mise en œuvre et la maintenance de cette infrastructure ne sont pas toujours aisées. Le matériel, les outils et les services réseau qui permettent d'y parvenir sont disponibles aujourd'hui, mais les informaticiens doivent être conscients que ceux-ci sont conçus, mis en œuvre et maintenus d'une manière qui garantit que les utilisateurs bénéficient d'un ensemble de services de communication et de collaboration qui leur permettent de travailler efficacement et que l'organisation peut tirer pleinement profit des possibilités de cette technologie. 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Documentation ExpressRoute](/azure/expressroute/)
 

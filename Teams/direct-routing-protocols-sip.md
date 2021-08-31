@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocoles de routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a6bafcc7aade115684bce8621877f6fa6f196435b69c4b8388af731997b5dab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e0b4f3c19ed82362a066044ff9dd1c695b6690e2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321446"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729673"
 ---
 # <a name="direct-routing---sip-protocol"></a>Routage direct - Protocole SIP
 
@@ -185,7 +185,7 @@ Un Teams utilisateur peut avoir plusieurs points de terminaison en même temps. 
 5.  Un message d’acceptation d’appel est envoyé avec les derniers candidats au point de terminaison ayant accepté l’appel. Le message d’acceptation d’appel est converti en message SIP 200. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagramme montrant plusieurs points de terminaison avec réponse inser](media/direct-routing-protocols-1.png)
+> ![Diagramme montrant plusieurs points de terminaison avec une réponse inser.](media/direct-routing-protocols-1.png)
 
 #### <a name="multiple-endpoints-ringing-without-provisional-answer"></a>Plusieurs points de terminaison avec sonnerie sans réponse inerser
 
@@ -198,7 +198,7 @@ Un Teams utilisateur peut avoir plusieurs points de terminaison en même temps. 
 4.  Un message d’acceptation d’appel est envoyé avec les derniers candidats au point de terminaison ayant accepté l’appel. Le message d’acceptation d’appel est converti en message SIP 200. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagramme montrant plusieurs points de terminaison avec sonnerie sans réponse inser](media/direct-routing-protocols-2.png)
+> ![Diagramme montrant plusieurs points de terminaison qui sonnent sans réponse inser.](media/direct-routing-protocols-2.png)
 
 ### <a name="media-bypass-flow"></a>Flux de dérivation média
 
@@ -210,7 +210,7 @@ Le schéma ci-dessous montre un exemple de flux d’appels de contournement.
 > Les candidats aux médias peuvent se trouver sur différents points de terminaison. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagramme montrant plusieurs points de terminaison avec réponse inser](media/direct-routing-protocols-3.png)
+> ![Diagramme montrant plusieurs points de terminaison avec une réponse inser.](media/direct-routing-protocols-3.png)
 
 ## <a name="replaces-option"></a>Option Remplace
 
@@ -256,7 +256,7 @@ Si la SBC indique que la méthode Référence n’est pas prise en charge, le pr
 La demande de référence provenant du client sera résiliée sur le proxy SIP. (La demande de référence du client s’affiche sous la forme « Transfert d’appel vers Dave » dans le diagramme suivant.  Pour plus d’informations, voir la section 7.1 de [la rubrique RFC 3892.](https://www.ietf.org/rfc/rfc3892.txt) 
 
 > [!div class="mx-imgBorder"]
-> ![Diagramme montrant plusieurs points de terminaison avec réponse inser](media/direct-routing-protocols-4.png)
+> ![Diagramme montrant plusieurs points de terminaison avec une réponse inser.](media/direct-routing-protocols-4.png)
 
 ### <a name="sip-proxy-send-the-refer-to-the-sbc-and-acts-as-a-transferor"></a>Le proxy SIP envoie la référence au SBC et agit en tant que transféreur
 
@@ -297,7 +297,7 @@ L’en-tête RÉFÉREZ-PAR est un URI SIP avec l’encodage DE l’URI DU transf
 La taille de l’en-tête Référez-vous peut être jusqu’à 400 symboles dans ce cas. Le SBC doit prendre en charge la gestion des messages Référez-vous qui ont une taille de 400 symboles au plus.
 
 > [!div class="mx-imgBorder"]
-> ![Diagramme montrant plusieurs points de terminaison avec réponse inser](media/direct-routing-protocols-5.png)
+> ![Diagramme montrant plusieurs points de terminaison avec une réponse inser.](media/direct-routing-protocols-5.png)
 
 ## <a name="session-timer"></a>Timer de session
 

@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment configurer des canaux pour la modération dans Microsoft Teams, y compris comment ajouter des membres de l’équipe comme modérateurs de canaux.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb709d8e618b68fad2bc87dc658eb6f67853e891
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593028"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726133"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurer et gérer la modération de canal dans Microsoft Teams
 
@@ -44,11 +44,11 @@ Les modérateurs de canaux peuvent :
 
 ## <a name="scenarios"></a>Scénarios
 
-Voici quelques exemples de la façon dont votre organisation peut utiliser la modération de canal dans Teams.
+Voici quelques exemples de la façon dont votre organisation peut utiliser la modération de canal Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Utiliser un canal comme canal d’annonce
 
-L’équipe marketing utilise un canal spécifique pour partager les annonces et livrables clés du projet. Parfois, les membres de l’équipe publient du contenu sur le canal appartenant le mieux à d’autres canaux. Le propriétaire de l’équipe souhaite limiter le partage d’informations dans le canal aux annonces uniquement afin que les membres de l’équipe utilisent ce canal pour rester au fait de ce qui est important.
+L’équipe marketing utilise un canal spécifique pour partager les annonces et livrables clés du projet. Parfois, les membres de l’équipe publient du contenu sur le canal appartenant le mieux à d’autres canaux. Le propriétaire de l’équipe souhaite limiter le partage d’informations dans le canal aux annonces uniquement afin que les membres de l’équipe peuvent utiliser ce canal pour rester au fait de ce qui est important.
 
 Dans ce scénario, le propriétaire de l’équipe ajoute des prospects marketing en tant que modérateurs afin qu’ils peuvent publier des annonces dans le canal et les membres de l’équipe ne peuvent plus répondre aux messages dans ce canal.
 
@@ -66,7 +66,7 @@ La modération de canal est un paramètre par canal. Il n’existe aucun paramè
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![préférences pour la gestion-canal-modération-dans-équipes](media/manage-channel-moderation-in-teams-preferences.png)
+![preferences for managing-channel-moderation-in-teams.](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>Activer ou désactiver la modération pour un canal
 

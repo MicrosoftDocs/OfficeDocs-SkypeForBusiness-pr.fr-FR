@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 2d8f2e0eefd3e600b57f1a5fdeafc0a813dc4c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e7696878ba84942c2dcc88a1df3d5fc29144f883
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595098"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728733"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -64,7 +64,7 @@ Saisissez un nom pour la file d’attente des appels.
 
 ## <a name="resource-accounts"></a>Comptes de ressources
 
-![Capture d’écran des paramètres du compte de ressource](media/call-queue-name-language.png)
+![Capture d’écran des paramètres du compte de ressource.](media/call-queue-name-language.png)
 
 Cliquez sur **Ajouter des comptes**, recherchez le compte de ressource que vous souhaitez utiliser avec cette file d’attente des appels, cliquez sur **Ajouter**, puis de nouveau sur **Ajouter**. (Les agents verront le nom du compte de ressource lorsqu’ils recevront un appel entrant.)
 
@@ -72,23 +72,23 @@ Pour [plus d’Teams, voir Gérer Teams comptes](manage-resource-accounts.md) de
 
 ### <a name="assign-calling-id"></a>Affecter un ID d’appel
 
-![Capture d’écran des paramètres d’ID d’appel](media/call-queue-assign-calling-id.png)
+![Capture d’écran des paramètres d’ID d’appel.](media/call-queue-assign-calling-id.png)
 
 Si vous envisagez d’utiliser un canal Teams pour vos télétribueurs, vous pouvez leur attribuer un numéro d’ID d’appelant sortant en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone.
 
 Cliquez **sur** Ajouter, recherchez les comptes de ressources que vous voulez autoriser les agents à appeler à des fins d’ID lors des appels sortants, cliquez sur **Ajouter,** puis sur **Ajouter.**
 
-Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance à un agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
+Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance de l’agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
 
 ## <a name="language"></a>Langue
 
-![Capture d’écran des paramètres de langue](media/call-queue-language.png)
+![Capture d’écran des paramètres de langue.](media/call-queue-language.png)
 
 Choisissez une [langue prise en charge](create-a-phone-system-call-queue-languages.md). Nous utiliserons cette langue pour les invites vocales générées par le système et la transcription de la messagerie vocale (si vous les activez).
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>Message d’accueil et musique de mise en attente dans la file d’attente
 
-![Capture d’écran des salutations et de la musique mise en attente dans les paramètres de file d’attente](media/call-queue-greetings-music.png)
+![Capture d’écran des salutations et de la musique mise en attente dans les paramètres de file d’attente.](media/call-queue-greetings-music.png)
 
 Indiquez si vous souhaitez diffuser un message d’accueil aux appelants lorsqu’ils arrivent dans la file d’attente. Vous devez télécharger un fichier MP3, WAV ou WMA contenant le message d’accueil que vous souhaitez diffuser. La taille maximale de l’enregistrement téléchargé est de 5 Mo.
 
@@ -101,7 +101,7 @@ Teams fournit une musique par défaut aux appelants lorsqu’ils sont en attente
 
 Examinez les [conditions d’ajout des agents à une file d’attente ](plan-auto-attendant-call-queue.md#prerequisites).
 
-![Capture d’écran des paramètres des utilisateurs et des groupes pour les files d’attente des appels](media/call-queue-users-groups.png)
+![Capture d’écran des paramètres d’utilisateurs et de groupes pour les files d’attente d’appels.](media/call-queue-users-groups.png)
 
 ##### <a name="teams-channel"></a>Canal Teams
 
@@ -132,7 +132,7 @@ Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes
 
 ## <a name="call-routing"></a>Routage des appels
 
-![Capture d’écran des paramètres du mode conférence et de la méthode de routage](media/call-queue-conference-mode-routing-method.png)
+![Capture d’écran des paramètres du mode de conférence et de la méthode de routage.](media/call-queue-conference-mode-routing-method.png)
 
 Le **mode conférence** réduit considérablement le temps nécessaire à la mise en relation d’un appelant avec un agent, une fois que l’agent a accepté l’appel. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
 
@@ -145,7 +145,7 @@ Les comptes Teams des agents doivent être définis sur le mode Teams uniquement
 > Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage en fonction de l’emplacement.
 
 > [!TIP]
-> Nous **vous recommandons** de définir le mode Conférence sur **On.**
+> Nous **vous recommandons** de définir le mode Conférence sur **Sur.**
 
 La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Sélectionnez l’une des options suivantes :
 
@@ -160,7 +160,7 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 > [!TIP]
 > Il est recommandé de définir la **méthode de routage** sur **Rond-rond** ou **Inactif** le plus long.
 
-![Capture d’écran des paramètres de routage, de désactivation et d’alerte](media/call-queue-presence-agents-time.png)
+![Capture d’écran des paramètres de routage, de désinspondage et d’heure d’alerte.](media/call-queue-presence-agents-time.png)
 
 Le **routage basé sur la présence** utilise le statut de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée. Les agents d’appel dont le statut de disponibilité est défini sur **Disponible** sont inclus dans la liste de routage des appels et peuvent recevoir des appels. Les agents dont le statut de disponibilité est défini sur un autre statut sont exclus de la liste de routage des appels et ne recevront pas d’appels tant que leur statut de disponibilité ne sera pas défini sur **Disponible**. 
 
@@ -169,14 +169,14 @@ Vous pouvez activer le routage des appels basé sur la présence avec toutes les
 Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste de routage des appels, quel que soit son statut de disponibilité. 
 
 > [!NOTE]
-> Lorsque  l’inactive la plus longue est sélectionnée comme méthode de routage, un routage basé sur la  présence est nécessaire et activé automatiquement, même si le basculement de routage en fonction de la présence est éteint et grisé.
+> Lorsque  l’inactivité la plus longue est sélectionnée comme méthode de routage, un routage basé sur la  présence est nécessaire et activé automatiquement, même si le basculement de routage en fonction de la présence est éteint et grisé.
 >
 > Si le routage basé sur la présence n’est pas activé et qu’il y a plusieurs appels dans la file d’attente, le système présentera ces appels simultanément aux agents, quel que soit leur statut de présence. Cela entraînera plusieurs notifications d’appels aux agents, en particulier si certains agents ne répondent pas à l’appel initial qui leur est présenté.
 > 
 > Les agents qui utilisent le client Skype Entreprise ne sont pas inclus dans la liste de routage des appels lorsque le routage basé sur la présence est activé. Si certains de vos agents utilisent Skype Entreprise, n’activez pas le routage des appels basé sur la présence.
 
 > [!TIP]
-> Il est recommandé de définir le **routage en fonction** **de** la présence vers Le.
+> Il est recommandé de définir le **routage en fonction** de **la** présence vers Le.
 
 La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle le téléphone d’un agent sonnera avant que la file d’attente ne redirige l’appel vers l’agent suivant.
 
@@ -185,7 +185,7 @@ La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle l
 
 ## <a name="call-overflow-handling"></a>Gestion du débordement des appels
 
-![Capture d’écran des paramètres de débordement des appels](media/call-queue-overflow-handling.png)
+![Capture d’écran des paramètres de dépassement de capacité d’appel.](media/call-queue-overflow-handling.png)
 
 Le **nombre maximal d’appels dans la file d’attente** spécifie le nombre maximal d’appels pouvant attendre dans la file d’attente à tout moment. La valeur par défaut est de 50, mais elle peut être définie sur une valeur comprise entre 0 et 200. Lorsque cette limite est atteinte, l’appel est géré comme cela est indiqué par le paramètre **Lorsque le nombre maximum d’appels est atteint**.
 
@@ -196,7 +196,7 @@ Vous pouvez choisir de mettre fin à l’appel ou de le rediriger vers l’une d
 
 ## <a name="call-timeout-handling"></a>Gestion de la temporisation des appels
 
-![Capture d’écran des paramètres de temporisation des appels](media/call-queue-timeout-handling.png)
+![Capture d’écran des paramètres du délai d’appel.](media/call-queue-timeout-handling.png)
 
 **Temporisation de l’appel : temps d’attente maximum** spécifie la durée maximum pendant laquelle un appel peut être mis en attente dans la file d’attente avant de le rediriger ou d’y mettre fin. Vous pouvez spécifier une valeur comprise entre 0 seconde et 45 minutes.
 
