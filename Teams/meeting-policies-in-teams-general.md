@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres généraux de stratégie de réunion dans Teams.
-ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589676"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731663"
 ---
 # <a name="meeting-policy-settings---general"></a>Paramètres de stratégie de réunion : général
 
@@ -47,13 +47,13 @@ Cet article décrit les paramètres de stratégie générale suivants pour Teams
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre contrôle si un utilisateur peut démarrer une réunion ad hoc dans Teams canal. Si vous l’activer, les  utilisateurs peuvent cliquer sur le bouton Réunion pour démarrer une réunion ad hoc ou planifier une réunion dans le canal. La valeur par défaut est True.
 
-[![Capture d’écran montrant l’icône Rencontrer maintenant sous un message ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![Capture d’écran montrant l’icône Rencontrer maintenant sous un message. ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="allow-the-outlook-add-in"></a>Autoriser le complément Outlook
 
 Il s’agit d’une stratégie par utilisateur qui s’applique avant le début d’une réunion. Ce paramètre détermine si les réunions Teams peuvent être planifiées à partir d’Outlook (Windows, Mac, web et mobile).
 
-![Capture d’écran montrant la possibilité de planifier une nouvelle réunion](media/meeting-policies-outlook-add-in.png)
+![Capture d’écran montrant la possibilité de planifier une nouvelle réunion.](media/meeting-policies-outlook-add-in.png)
 
 Si vous la désactiver, les utilisateurs ne peuvent pas planifier Teams réunion lorsqu’ils créent une réunion dans Outlook. Par exemple, dans Outlook sur Windows, l’option **Nouvelle réunion Teams** ne s’affiche pas dans le ruban.
 
@@ -65,7 +65,7 @@ Si cette stratégie est désactivée, les utilisateurs ne pourront pas créer de
 
 L’option Planifier une réunion sera désactivée.
 
-![Capture d’écran montrant l’option Planifier une réunion dans Teams](media/schedule-meeting-option.png)
+![Capture d’écran montrant l’option Planifier une réunion Teams.](media/schedule-meeting-option.png)
 
 La sélection de canal est désactivée.
 
@@ -82,7 +82,7 @@ Dans la page de billets du canal, les messages suivants sont désactivés :
 Dans le calendrier de canal :
 
 - Le bouton **Ajouter un événement** dans l’en-tête du calendrier est désactivé.
-  ![Capture d’écran montrant l’option de calendrier permettant de sélectionner un canal qui vous permet de planifier une réunion.](media/add-new-event-disabled.png)
+  ![Capture d’écran montrant l’option de calendrier pour sélectionner un canal qui vous permet de planifier une réunion.](media/add-new-event-disabled.png)
 
 - Les utilisateurs ne peuvent pas faire glisser et sélectionner un bloc de temps dans le calendrier du canal pour créer une réunion de canal.
 

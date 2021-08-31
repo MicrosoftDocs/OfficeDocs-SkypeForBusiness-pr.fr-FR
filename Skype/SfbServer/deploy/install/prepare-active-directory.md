@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: "Résumé : Découvrez comment préparer votre domaine Active Directory pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: a4a224da84d1e6b4b001e9c561529b1c64b0e995
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 928873f44b9cb3ad12069964e1b7f93b410f13de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609811"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731633"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype Entreprise Server : préparer Active Directory
  
@@ -30,7 +30,7 @@ ms.locfileid: "58609811"
   
 Skype Entreprise Server fonctionne étroitement avec Active Directory. Vous devez préparer le domaine Active Directory à l’Skype Entreprise Server. Ce processus est réalisé dans l’Assistant Déploiement et n’est effectué qu’une seule fois pour le domaine. En effet, le processus crée des groupes et modifie le domaine, et vous ne devez le faire qu’une seule fois. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. La préparation d’Active Directory est l’étape 4 sur 8. Pour plus d’informations sur la planification d’Active Directory, voir [Environmental requirements for Skype Entreprise Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server requirements for Skype Entreprise Server [2019](../../../SfBServer2019/plan/system-requirements.md).
   
-![diagramme de vue d’ensemble](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
+![diagramme de vue d’ensemble.](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Préparer Active Directory
 
@@ -83,7 +83,7 @@ Regardez les étapes de la vidéo **pour préparer Active Directory**:
     
 6. **Étape 3 : Préparer la forêt actuelle**
     
-    a. Consultez les informations des conditions préalables pour l’étape 3, accessibles en cliquant sur la drop-down sous le titre de l’étape 3.
+    a. Consultez les informations des conditions préalables pour l’étape 3 qui sont accessibles en cliquant sur la drop-down sous le titre de l’étape 3.
     
     b. Cliquez **sur Exécuter** à l’étape 3 pour lancer l’Assistant Préparer la forêt actuelle.
     

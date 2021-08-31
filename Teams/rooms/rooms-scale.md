@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 6102b193f49953787f9ab25d491da76f3f567dac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27cd37df8516973ddf9fbe6401a1e4c21ce01e0a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588116"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731573"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Déployer des Salles Microsoft Teams l’aide de Microsoft Endpoint Configuration Manager
 
@@ -47,9 +47,9 @@ Cet article vous fournit toutes les informations nécessaires à la création de
 
 Grâce aux méthodes simples d’utilisation fournies par Configuration Manager, vous pouvez déployer le système d’exploitation et d’autres applications sur plusieurs appareils cibles.
 
-Utilisez l’approche illustrée ci-dessous pour vous guider tout au long de votre configuration de Configuration Manager et personnaliser les exemples de packages et de scripts fournis dans le cadre de ces instructions pour votre organisation.
+Utilisez l’approche illustrée ci-dessous pour vous guider tout au long de votre configuration de Configuration Manager et personnaliser les exemples de packages et de scripts fournis dans le cadre de ces instructions, selon les besoins de votre organisation.
 
-![Salles Microsoft Teams de déploiement à l’aide de Configuration Manager](../media/room-systems-scale-image1.png)
+![Salles Microsoft Teams déploiement à l’aide de Configuration Manager.](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > Cette solution n’a été testée qu’avec Surface Pro déploiements basés sur des déploiements. Suivez les instructions du fabricant pour les configurations qui ne sont pas basées sur Surface Pro.
@@ -62,7 +62,7 @@ Pour déployer des Salles Microsoft Teams avec Configuration Manager, assurez-vo
 
 -   Microsoft Endpoint Configuration Manager version doit être au moins 1706. Nous vous recommandons d’utiliser 1710 ou une date ultérieure. Consultez [la prise en charge Windows 10 de Configuration Manager](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) pour en savoir plus sur les versions Windows 10 que Configuration Manager prend en charge.
 
--   Une version prise en charge du Kit Windows d’évaluation et de déploiement (ADK) pour Windows 10 doit être installée. Consultez les versions du [Windows 10 ADK](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) que vous pouvez utiliser avec différentes versions de Configuration Manager et assurez-vous que votre déploiement inclut la version correcte.
+-   Une version prise en charge Windows Kit de déploiement et d’évaluation de l’Windows 10 doit être installée. Consultez les versions du [Windows 10 ADK](/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) que vous pouvez utiliser avec différentes versions de Configuration Manager et assurez-vous que votre déploiement inclut la version correcte.
 
 -   Le rôle de point de distribution doit avoir été attribué aux serveurs système de site et les images de démarrage doivent être activées pour la prise en charge de l’environnement d’exécution de [préboot (PXE)](/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) pour permettre les déploiements initiés par le réseau. Si la prise en charge de PXE n’est pas activée, vous pouvez utiliser un support [démarrageable](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) pour vos déploiements.
 
@@ -75,16 +75,16 @@ Pour déployer des Salles Microsoft Teams avec Configuration Manager, assurez-vo
 -   Votre réseau doit avoir un serveur DHCP (Dynamic Host Configuration Protocol), configuré pour la distribution automatique d’adresses IP sur les sous-réseaux où Salles Microsoft Teams unités seront déployées.
 
     > [!NOTE]
-    > La durée du contrat de location DHCP doit être définie sur une valeur plus longue que la durée du déploiement d’images. Dans le cas contraire, le déploiement peut échouer.
+    > La durée du contrat de location DHCP doit être définie sur une valeur plus longue que la durée du déploiement de l’image. Dans le cas contraire, le déploiement peut échouer.
 
 -   Votre réseau, y compris les commutateurs et les réseaux lan virtuels (VLAN), doit être configuré pour prendre en charge PXE. Pour plus d’informations sur les configurations IP Helper et PXE, reportez-vous à votre fournisseur réseau. Vous pouvez également utiliser un support [qui](/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) démarre pour vos déploiements, si la prise en charge de PXE n’est pas activée.
 
     > [!NOTE]
-    > Pour Surface Pro, le démarrage à partir du réseau (démarrage PXE) n’est pris en charge que si vous utilisez un adaptateur Ethernet ou une station d’accueil microsoft. Les cartes Ethernet tierces ne supportent pas le démarrage PXE avec Surface Pro. Pour [plus d’informations,](/surface/ethernet-adapters-and-surface-device-deployment) voir les cartes Ethernet et le déploiement de Surface.
+    > Pour Surface Pro, le démarrage à partir du réseau (démarrage PXE) n’est pris en charge que lorsque vous utilisez un adaptateur Ethernet ou une station d’accueil microsoft. Les cartes Ethernet tierces ne supportent pas le démarrage PXE avec Surface Pro. Pour [plus d’informations,](/surface/ethernet-adapters-and-surface-device-deployment) voir les cartes Ethernet et le déploiement de Surface.
 
 ## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>Configurer des Microsoft Endpoint Configuration Manager pour le déploiement du système d’exploitation
 
-Cet article part du principe que vous avez déjà un déploiement de Configuration Manager sain et ne détaille pas toutes les étapes requises pour déployer et configurer Configuration Manager de toutes pièces. La [documentation et les conseils de configuration de](/configmgr/) la Microsoft Endpoint Configuration Manager ressources sont très précieuses ; nous vous recommandons de commencer avec ces ressources si vous n’avez pas encore déployé Configuration Manager.
+Cet article part du principe que vous avez déjà un déploiement de Configuration Manager sain et ne détaille pas toutes les étapes requises pour déployer et configurer Configuration Manager de toutes pièces. La [documentation et les conseils de configuration sur](/configmgr/) le Microsoft Endpoint Configuration Manager ressources sont très précieuses ; nous vous recommandons de commencer avec ces ressources si vous n’avez pas encore déployé Configuration Manager.
 
 Utilisez les instructions suivantes pour vérifier que les fonctionnalités de déploiement du système d’exploitation sont correctement configurées.
 
@@ -122,7 +122,7 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 3.  Sélectionnez **l’onglet Compte d’accès** réseau. Configurer un ou plusieurs comptes, puis sélectionner **OK.**
 
 > [!NOTE]
-> Les comptes n’ont pas besoin de droits spéciaux, à l’exception de **l’ordinateur Access de** ce réseau, directement sur le serveur du point de distribution. Un compte d’utilisateur de domaine générique sera approprié. Pour plus d’informations, voir [Comptes utilisés dans Configuration Manager.](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)
+> Les comptes n’ont pas besoin de droits spéciaux, à l’exception de **l’ordinateur Access de** ce réseau, directement sur le serveur du point de distribution. Un compte d’utilisateur de domaine générique sera approprié. Pour plus d’informations, [voir Comptes utilisés dans Configuration Manager.](/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA)
 
 ### <a name="configure-a-boot-image"></a>Configurer une image de démarrage
 
@@ -134,20 +134,20 @@ Utilisez les instructions suivantes pour vérifier que les fonctionnalités de d
 
 4.  Sélectionnez **l’onglet Composants facultatifs** pour installer les composants requis :
 
-    1.  Sélectionnez l’icône d’étoile, puis **recherchez HTML (WinPE-HTA)**
+    1.  Sélectionnez l’icône d’étoile et **recherchez HTML (WinPE-HTA)**
 
     2.  Sélectionnez **OK** pour ajouter la prise en charge de l’application HTML à l’image de démarrage.
 
 5.  *Facultatif :* Pour personnaliser l’expérience de déploiement, sélectionnez **l’onglet Personnalisation.**
     -   Activez la prise en charge des commandes **(test uniquement)** si vous voulez avoir accès à une invite de commandes pendant le déploiement. Lorsque cette commande est activée, vous pouvez démarrer une invite de commandes en sélectionnant **F8** à tout moment pendant le déploiement.
-    -   Vous pouvez également spécifier une image d’arrière-plan personnalisée à afficher pendant le déploiement. Pour définir une image, activez Spécifier le fichier d’image d’arrière-plan **personnalisé (chemin UNC et** sélectionner votre arrière-plan).
+    -   Vous pouvez également spécifier une image d’arrière-plan personnalisée à afficher pendant le déploiement. Pour définir une image, activez Spécifier le fichier d’image d’arrière-plan **personnalisé (chemin UNC et** sélectionnez votre arrière-plan.
 
 6.  Lorsque vous y avez été invité, **sélectionnez Oui** et distribuez l’image de démarrage mise à jour à vos points de distribution.
 
 Pour plus d’informations, voir [Gérer les images de démarrage avec Configuration Manager.](/configmgr/osd/get-started/manage-boot-images)
 
 > [!NOTE]
-> Vous pouvez créer un support USB en démarrage pour initier des déploiements de séquence de tâches dans Configuration Manager pour les environnements sans prise en charge PXE. Le support de démarrage contient uniquement l’image de démarrage, les commandes de prédétisation facultatives et les fichiers requis, et les fichiers binaires de Configuration Manager pour prendre en charge le démarrage dans Windows PE et la connexion à Configuration Manager pour le reste du processus de déploiement. Pour plus d’informations, voir [Créer un média qui peut être démarré.](/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)
+> Vous pouvez créer un support USB en démarrage pour initier des déploiements de séquence de tâches dans Configuration Manager pour les environnements qui n’ont pas de prise en charge PXE. Le support de démarrage contient uniquement l’image de démarrage, les commandes de démarrage facultatives et les fichiers requis, et les fichiers binaires de Configuration Manager pour prendre en charge le démarrage dans Windows PE et la connexion à Configuration Manager pour le reste du processus de déploiement. Pour plus d’informations, voir [Créer un média qui peut être démarré.](/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia)
 
 ## <a name="create-configuration-manager-packages"></a>Créer des packages Configuration Manager
 
@@ -156,11 +156,11 @@ Pour plus d’informations, voir [Gérer les images de démarrage avec Configura
 
 Configuration Manager nécessite un certain nombre de packages pour déployer et configurer les unités Salles Microsoft Teams packages.
 
-Vous devez créer et configurer les packages suivants, puis les distribuer aux systèmes de site Configuration Manager qui ont reçu le rôle serveur de point de distribution.
+Vous devez créer et configurer les packages suivants, puis les distribuer aux systèmes de site Configuration Manager qui ont reçu le rôle de serveur de point de distribution.
 
 | **Nom du package**                     | **Type**               | **Description**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SRS v2 - Package d’application SRS     | Package logiciel       | Package pour le kit Salles Microsoft Teams déploiement                                      |
+| SRS v2 - Package d’application SRS     | Package logiciel       | Package pour le kit de déploiement Salles Microsoft Teams’équipe                                      |
 | SRS v2 - Sysprep Package             | Package logiciel       | Package pour le groupe Unattended.xml configure les unités Salles Microsoft Teams personnalisées            |
 | SRS v2 - Set-SRSComputerName Package | Package logiciel       | Package pour l’application HTML (HTA) pour affecter un nom d’ordinateur pendant le déploiement    |
 | SRS v2 - Configurer la configuration SRS         | Package logiciel       | Package de configuration du déploiement de l’application Salles Microsoft Teams                          |
@@ -169,7 +169,7 @@ Vous devez créer et configurer les packages suivants, puis les distribuer aux s
 | SRS v2 - Microsoft Monitoring Agent package | Package logiciel       | Facultatif - Package pour déployer et configurer l’agent de la suite Microsoft Operations Management|
 | SRS v2 - Package d’arrière-plan WinPE    | Package logiciel       | Package pour l’image d’arrière-plan personnalisée à utiliser avec les images de démarrage                           |
 | Windows 10 Entreprise                | Image du système d’exploitation | Package pour le fichier d’installation du système d’exploitation (install.wim)                          |
-| Surface Pro                          | Package du pilote         | Package pour les pilotes de périphérique et microprogramme pour Microsoft Surface Pro                     |
+| Surface Pro                          | Package du pilote         | Package pour les pilotes de périphériques et le microprogramme de Microsoft Surface Pro                     |
 | Surface Pro 4                        | Package du pilote         | Package pour les pilotes de périphérique et microprogramme pour Microsoft Surface Pro 4                   |
 
 Pour plus d’informations, voir [Packages et programmes dans Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
@@ -196,7 +196,7 @@ Créez la structure de dossiers suivante sur le Microsoft Endpoint Configuration
 > [!TIP]
 > Vous pouvez [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) également télécharger et utiliser le fichier zip qui inclut la structure des dossiers pour les packages, les scripts que vous devez utiliser et le modèle de séquence des tâches, que vous devez importer.
 
-### <a name="create-the-monitoring-agent-package"></a>Créer le package de l’Agent de surveillance
+### <a name="create-the-monitoring-agent-package"></a>Créer le package de l’agent de surveillance
 
 1. Téléchargez l’Agent de surveillance à partir <https://go.microsoft.com/fwlink/?LinkId=828603> de .
 
@@ -224,7 +224,7 @@ Créez la structure de dossiers suivante sur le Microsoft Endpoint Configuration
 
 1. Dans le **dossier SRS v2 - Mises** à jour du package du système d’exploitation, créez un script PowerShell nommé **Install-SRSv2-OS-Updates.ps1.**
 
-2. Copiez le script ci-dessous **dansInstall-SRSv2-OS-Updates.ps1** script. Vous pouvez également télécharger le script d'Install-SRSv2-OS-Updates.ps1 [ici.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)
+2. Copiez le script ci-dessous **dansInstall-SRSv2-OS-Updates.ps1** script. Vous pouvez également télécharger le script Install-SRSv2-OS-Updates.ps1 [ici.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true)
    ```
    # Install-SRSv2-OS-Updates.ps1
    $strPath = split-path -parent $MyInvocation.MyCommand.Definition
@@ -482,7 +482,7 @@ Vous créez ce package pour distribuer le certificat racine pour les appareils q
 
 2.  Dans la console Configuration Manager, sélectionnez **Images** du système d’exploitation de la bibliothèque de logiciels, puis \>  \>  **sélectionnez Ajouter une image du système d’exploitation.**
 
-3.  Spécifiez le chemin **d’accès au fichier install.wim** que vous viennent de copier, puis sélectionnez **Suivant.**
+3.  Spécifiez le chemin **d’accès au fichier install.wim** que vous avez copié, puis sélectionnez **Suivant.**
 
 4.  Mettez à **jour le** champ Version pour qu’il corresponde au numéro de build Windows 10 Entreprise’image, puis sélectionnez **Suivant.**
 
@@ -497,7 +497,7 @@ Pour plus d’informations, voir [Gérer les images du système d’exploitation
 Salles Microsoft Teams est pris en charge pour les Surface Pro et Surface Pro 4. Vous devez créer un package de pilote pour chaque Surface Pro modèle que vous avez dans votre environnement.
 
 > [!IMPORTANT]
-> Les pilotes doivent être compatibles avec la version Windows 10 Entreprise et la version Salles Microsoft Teams du kit de déploiement. Pour plus d’informations, [consultez Télécharger le dernier microprogramme](/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) et les pilotes pour les appareils Surface et [Configurer une console.](console.md)
+> Les pilotes doivent être compatibles avec la version Windows 10 Entreprise et la version Salles Microsoft Teams du kit de déploiement. Pour plus d’informations, [consultez Télécharger le dernier microprogramme](/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) et pilotes pour les appareils Surface et [Configurer une console.](console.md)
 
 1.  Téléchargez les pilotes et microprogrammes les plus récents.
     -   Pour Surface Pro :<https://www.microsoft.com/download/details.aspx?id=55484>
@@ -507,7 +507,7 @@ Salles Microsoft Teams est pris en charge pour les Surface Pro et Surface Pro 4.
     -   `msiexec /a C:\SurfacePro_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro"`
     -   `msiexec /a C:\SurfacePro4_Win10.msi /passive TARGETDIR="C:\_Sources\Drivers\Surface Pro 4"`
 
-3.  Dans la console Configuration Manager, sélectionnez **Pilotes** des systèmes d’exploitation de la bibliothèque de \>  \> **logiciels,** puis **sélectionnez Importer un pilote.**
+3.  Dans la console Configuration Manager, sélectionnez **Pilotes** de systèmes d’exploitation de la bibliothèque de \>  \> **logiciels,** puis **sélectionnez Importer un pilote.**
 
 4.  Sélectionnez Importer tous les pilotes dans le chemin d’accès réseau **suivant (UNC),** sélectionnez le dossier source (par exemple, C : _Sources pilotes Surface Pro), puis \\ \\ \\ **Suivant.**
 
@@ -523,7 +523,7 @@ Salles Microsoft Teams est pris en charge pour les Surface Pro et Surface Pro 4.
 
 10. Sélectionnez **Fermer.**
 
-11. Sélectionnez  Pilotes de systèmes d’exploitation de bibliothèque de \>  \> **logiciels,** **\>** créez un dossier, puis entrez un nom de dossier qui correspond au modèle Surface Pro que vous viennent d’importer les pilotes.
+11. Sélectionnez  Pilotes des systèmes d’exploitation de bibliothèque de \>  \> **logiciels,** **\>** créez un dossier, puis entrez un nom de dossier qui correspond au modèle Surface Pro que vous viennent d’importer les pilotes.
 
 12. Déplacez tous les pilotes importés vers le dossier nouvellement créé pour faciliter la navigation et le fonctionnement.
 
@@ -542,7 +542,7 @@ Salles Microsoft Teams est pris en charge pour les Surface Pro et Surface Pro 4.
 
     -   Version : **1.0.0**
 
-    -   Cochez la case Ce package contient les fichiers **sources,** entrez le chemin d’accès au **fichier SRS v2 -** Configurer le dossier d’installation SRS, puis sélectionnez **Suivant.**
+    -   Cochez la case Ce package contient les fichiers **sources,** entrez le chemin d’accès au **fichier SRS v2 - Configurer** le dossier d’installation SRS, puis sélectionnez **Suivant.**
 
 3.  Sélectionnez **Ne pas créer un programme,** puis **Suivant.**
 
@@ -564,7 +564,7 @@ Tous les packages doivent être distribués aux serveurs qui ont reçu le rôle 
 
     3.  Ajoutez tous les serveurs de points de distribution (ou groupes de points de distribution, selon votre hiérarchie Configuration Manager) à la liste, puis sélectionnez **Suivant.**
 
-    4.  Sélectionnez **Suivant,** puis **Fermer.**
+    4.  **Sélectionnez** Suivant, puis **Fermer.**
 
 2.  Distribuez des packages de pilotes.
 
@@ -574,7 +574,7 @@ Tous les packages doivent être distribués aux serveurs qui ont reçu le rôle 
 
     3.  Ajoutez tous les serveurs de points de distribution (ou groupes de points de distribution, selon votre hiérarchie Configuration Manager) à la liste, puis sélectionnez **Suivant.**
 
-    4.  Sélectionnez **Suivant,** puis **Fermer.**
+    4.  **Sélectionnez** Suivant, puis **Fermer.**
 
 3.  Distribuer des packages de système d’exploitation.
 
@@ -584,10 +584,10 @@ Tous les packages doivent être distribués aux serveurs qui ont reçu le rôle 
 
     3.  Ajoutez tous les serveurs de points de distribution (ou groupes de points de distribution, selon votre hiérarchie Configuration Manager) à la liste, puis sélectionnez **Suivant.**
 
-    4.  Sélectionnez **Suivant,** puis **Fermer.**
+    4.  **Sélectionnez** Suivant, puis **Fermer.**
 
 > [!NOTE]
-> La distribution de package peut prendre un certain temps, selon la taille du package, la hiérarchie configuration manager, le nombre de serveurs de points de distribution et la bande passante disponible dans votre réseau.
+> La distribution de package peut prendre du temps, selon la taille du package, la hiérarchie configuration manager, le nombre de serveurs de points de distribution et la bande passante disponible dans votre réseau.
 > 
 > Tous les packages doivent être distribués avant de pouvoir commencer à déployer Salles Microsoft Teams unités.
 > 
@@ -644,7 +644,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 
    8. **Configurez Windows configuration manager :** cette étape déploie et configure le client Configuration Manager. Mettez à jour cette étape pour spécifier le package client intégré à Configuration Manager.
 
-   9. **Installer le certificat racine**: cette étape distribue le certificat racine pour les appareils non joints au domaine. Par conséquent, cette étape est facultative et désactivée par défaut.
+   9. **Installer le certificat racine**: cette étape distribue le certificat racine pour les appareils qui ne sont pas joints au domaine; par conséquent, il est facultatif et désactivé par défaut.
       -   Activez cette étape si vous avez besoin de déployer un certificat racine vers Salles Microsoft Teams unités de base.
       -   Si vous devez effectuer cette étape, vérifiez que le **package SRS v2 - Root Certificate Package** et désactiver la redirection du système de fichiers **64 bits** sont sélectionnés.
 
@@ -653,12 +653,12 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
        -   Modifiez cette étape et mettez à jour les paramètres de ligne de commande pour spécifier votre **ID** et votre touche **Espace de travail.**
        -   Pour [plus d’informations](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) sur l’obtention de l’ID d’espace de travail de la suite Operations Management Suite et de la clé primaire, voir Configurer les périphériques de test pour Azure Monitoring.
        -   Vérifiez que la **redirection SRS v2 – Microsoft Monitoring Agent package 64** bits et désactivez la redirection du système de fichiers **64 bits** est sélectionnée.
-       -   Pour plus d’informations sur la surveillance de l’état de votre déploiement Salles Microsoft Teams, voir Planifier la gestion de l’Salles Microsoft Teams avec Azure Monitor, Déployer la gestion [de l’Salles Microsoft Teams](azure-monitor-deploy.md) avec Azure Monitor et Gérer les appareils Salles Microsoft Teams avec [Azure](azure-monitor-manage.md) [Monitor.](azure-monitor-plan.md)
+       -   Pour plus d’informations sur la surveillance de l’état de votre déploiement Salles Microsoft Teams, voir Planifier la gestion des Salles Microsoft Teams avec Azure Monitor, Déployer la gestion de l’Salles Microsoft Teams avec [Azure Monitor](azure-monitor-deploy.md) et Gérer les appareils Salles Microsoft Teams avec [Azure](azure-monitor-manage.md) [Monitor.](azure-monitor-plan.md)
 
    11. Copier les fichiers de configuration **SRS v2**: cette étape copie les fichiers de configuration et de configuration requis à partir du kit de déploiement Salles Microsoft Teams vers le disque dur local. Aucune personnalisation n’est requise pour cette étape.
-       -   Vérifiez que le **package d’application SRS v2 – SRS** et la redirection du système de fichiers **64 bits** sont sélectionnés.
+       -   Vérifiez que le **package d’application SRS v2 – SRS** et la désactivation de la redirection du système de fichiers **64 bits** sont sélectionnés.
 
-   12. **Install-SRSv2-OS-Updates**: cette étape déploie toutes les mises à jour obligatoires du système d’exploitation requises dans le Salles Microsoft Teams déploiement. Procédez comme suit :
+   12. **Mises à jour install-SRSv2-OS-Updates**: cette étape déploie toutes les mises à jour obligatoires du système d’exploitation requises dans le Salles Microsoft Teams déploiement. Procédez comme suit :
        -   Vérifiez [configurer une console Salles Microsoft Teams pour](console.md) voir quelles mises à jour sont requises.
        -   Vérifiez que votre package **SRS v2 – Mises à** jour du système d’exploitation inclut toutes les mises à jour requises.
        -   Vérifiez que le **package SRS v2 – Mises à** jour du système d’exploitation est sélectionné.
@@ -678,11 +678,11 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 > [!IMPORTANT]
 > Il est très important que les étapes de la séquence des tâches soient dans l’ordre fourni. La modification de l’ordre des étapes ou la configuration d’étapes supplémentaires peuvent rompre le déploiement.
 >
-> **Configurer et configurer l’étape de l’application SRS** doit être la dernière étape de la séquence des tâches, faute de quoi le déploiement peut échouer.
+> **La configuration et la configuration de l’étape de l’application SRS** doivent être la dernière étape de la séquence des tâches, faute de quoi le déploiement peut échouer.
 
 ### <a name="create-deployment-for-the-task-sequence"></a>Créer un déploiement pour la séquence des tâches
 
-1. Sélectionnez la séquence des tâches, puis **Déployer.**
+1. Sélectionnez la séquence des tâches, puis **Sélectionnez Déployer.**
 
 2. Sélectionnez **Parcourir** pour sélectionner la collection cible pour le déploiement.
 
@@ -696,7 +696,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
    > [!WARNING]
    > Il est très important que **l’objectif** soit réglé sur **Disponible.** Assurez-vous que **l’objectif** **n’est PAS** définie sur **Obligatoire.** Veillez également à sélectionner Uniquement le média **et PXE** dans **la liste Rendre disponible pour les informations suivantes.**
    >
-   > La définition de ces valeurs sur une autre valeur peut entraîner l’installation de l Salles Microsoft Teams’image de déploiement de tous les ordinateurs au démarrage.
+   > La définition de ces valeurs sur une autre valeur peut entraîner l’installation de l’image Salles Microsoft Teams de déploiement de tous les ordinateurs au démarrage.
 7. Ne spécifiez aucun échéancier et sélectionnez **Suivant.**
 
 8. Ne modifiez rien dans la section Expérience utilisateur **et** sélectionnez **Suivant.**
@@ -711,7 +711,7 @@ Vous pouvez télécharger et importer facilement un exemple de séquence de tâc
 
 **Valider et résoudre les problèmes de la solution**
 
-Une fois que vous avez terminé Microsoft Endpoint Configuration Manager séquences de tâches, vous devez effectuer une exécuter un test pour vérifier que la séquence des tâches peut être déployée et configurer Salles Microsoft Teams unités.
+Une fois que vous avez terminé les séquences de tâches Microsoft Endpoint Configuration Manager, vous devez effectuer une exécuter un test pour vérifier que la séquence des tâches peut être déployée et configurer Salles Microsoft Teams unités.
 
 1.  Connecter d’utiliser le périphérique de test sur le réseau câblé à l’aide de l’un des adaptateurs Ethernet pris en charge ou de la station d’accueil Surface. Si la fonctionnalité de démarrage PXE n’a pas été configurée pour votre [](/configmgr/osd/deploy-use/create-bootable-media) environnement, vous pouvez utiliser l’image de démarrage sur le lecteur flash USB que vous avez créé précédemment pour démarrer à partir de l’USB et vous connecter à Configuration Manager.
 
@@ -742,11 +742,11 @@ Une fois que vous avez terminé Microsoft Endpoint Configuration Manager séquen
 
 7.  Une fois la configuration du disque appliquée, vous êtes invité à spécifier un nom d’ordinateur pour l’appareil. L’interface utilisateur affiche un nom d’ordinateur recommandé en fonction du numéro de série du Surface Pro appareil. Vous pouvez accepter le nom proposé ou en spécifier un nouveau. Suivez les instructions dans l’écran d’affectation du nom de l’ordinateur. Lorsque vous **sélectionnez Accepter,** le déploiement commence.
 
-8.  Le reste du processus de déploiement est automatique et ne demande pas d’autres commentaires de l’utilisateur.
+8.  Le reste du processus de déploiement est automatique et ne demande pas plus d’intervention des utilisateurs.
 
 9.  Une fois que la séquence des tâches de déploiement aura terminé de configurer l’appareil, l’écran de configuration suivant s’affiche pour vous demander de configurer les Salles Microsoft Teams d’application.
 
-    ![Écran de configuration initiale pour Salles Microsoft Teams application](../media/room-systems-scale-image2.png)
+    ![Écran de configuration initial pour Salles Microsoft Teams application.](../media/room-systems-scale-image2.png)
 
 10.  Branchez le Surface Pro à la console Salles Microsoft Teams et configurez les paramètres de l’application.
 
@@ -763,7 +763,7 @@ Le fichier SMSTS.log est stocké sur l’un des chemins d’accès suivant l’�
 | WinPE, avant format HDD                                                        | X : \\ Windows \\ \\ Smstslog \\ smsts.log             |
 | WinPE, après le format HDD                                                         | C : \\ _SMSTaskSequence \\ \\ Smstslog \\ smsts.log    |
 | Système d’exploitation déployé avant l’installation de l’agent Configuration Manager | c : \\ _SMSTaskSequence \\ \\ Smstslog \\ smsts.log    |
-| Système d’exploitation et agent Configuration Manager déployés                   | %windir% \\ System32 \\ ccm \\ logs \\ Smstslog \\ smsts.log |
+| Système d’exploitation et agent Configuration Manager déployés                   | %windir% \\ System32 \\ ccm \\ logs \\ SMStslog \\ smsts.log |
 | Exécution de séquence de tâches terminée                                                | %windir% \\ System32 \\ ccm \\ logs \\ smsts.log           |
 
 > [!TIP]
@@ -775,4 +775,4 @@ Pour résoudre les problèmes de démarrage PXE, vérifiez les deux fichiers jou
 
 -   **Smspxe.log,** situé dans le répertoire des journaux du point de gestion configuration manager (MP)
 
-Pour obtenir la liste complète des fichiers journaux que vous pouvez utiliser pour résoudre les problèmes d’installation de Configuration Manager, consultez la Microsoft Endpoint Configuration Manager référence du fichier [journal.](/configmgr/core/plan-design/hierarchy/log-files)
+Pour obtenir la liste complète des fichiers journaux que vous pouvez utiliser pour résoudre les problèmes d’installation de Configuration Manager, consultez la Microsoft Endpoint Configuration Manager [référence du fichier journal.](/configmgr/core/plan-design/hierarchy/log-files)

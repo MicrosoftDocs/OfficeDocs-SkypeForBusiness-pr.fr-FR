@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Suivez les instructions pour la migration de Slack vers Microsoft Teams.
-ms.openlocfilehash: 2c30b8f34c44c8b41309e796ffa44cedc61d8768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6877c0daf7d2d86924eefe989b458c671c37f628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617260"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731603"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrer de Slack vers Microsoft Teams
 
@@ -33,7 +33,7 @@ Lorsque vous planifiez la migration de votre organisation de Slack vers Teams, i
 
 Le diagramme ci-dessous montre l’architecture de Slack à un haut niveau.
 
-![Image qui montre l’architecture de Slack à haut niveau](media/migrate-slack-to-teams-image1.png)
+![Image de l’architecture de Slack à haut niveau.](media/migrate-slack-to-teams-image1.png)
 
 ## <a name="plan-your-migration-from-slack"></a>Planifiez votre migration de Slack
 ### <a name="what-you-can-and-cant-migrate"></a>Ce qui peut et ne peut être migré
