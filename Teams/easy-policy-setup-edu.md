@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Stratégie de Teams pour l’éducation pour appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
-ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604593"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733863"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant Teams pour l’éducation stratégie d’entreprise pour appliquer facilement des stratégies à un environnement d’apprentissage sécurisé
 
@@ -36,7 +36,7 @@ Pour maintenir un environnement d’apprentissage sécurisé et concentré, il e
 
 Les stratégies doivent être ajustées pour les étudiants et les enseignants afin de préserver la sécurité de l’expérience d’apprentissage. Les stratégies pour les étudiants doivent être plus restrictives afin de réduire leur risque de recevoir des niveaux d’accès inappropriés. Les enseignants et le personnel ont besoin d’un ensemble distinct de stratégies qui peuvent être plus permissives pour leur réussite. Par exemple, autorisez les enseignants à planifier des réunions et empêchez les étudiants de le faire.
 
-:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Capture d’écran de l’Assistant":::
+:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Capture d’écran de l’Assistant.":::
 
 Cet article vous explique comment exécuter l’Assistant.
 
@@ -71,24 +71,24 @@ Suivez ces étapes pour exécuter l’Assistant.
 
 1. Si vous débutez sur Teams, l’Assistant démarre automatiquement. Sinon, vous pouvez démarrer l’Assistant à tout moment à partir du tableau de bord. Dans le navigation gauche du centre d’administration Microsoft Teams, sélectionnez Tableau de **bord,** puis dans la vignette Configurer les stratégies d’un environnement d’apprentissage sécurisé, sélectionnez **Configuration rapide.** 
 
-    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Capture d’écran de l’Assistant dans le tableau de bord":::
+    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Capture d’écran de l’Assistant dans le tableau de bord.":::
 
 2. Sélectionnez le type de votre établissement d’enseignement **(secondaire** ou **supérieur),** puis **Suivant.**
 
-    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Capture d’écran de la page dans l’Assistant pour sélectionner le type d’établissement":::
+    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="Capture d’écran de la page de l’Assistant pour sélectionner le type d’établissement.":::
 
 3. Recherchez et sélectionnez un groupe contenant vos enseignants et membres du personnel, puis sélectionnez **Suivant.** Si aucun groupe n’est encore créé pour vos enseignants et membres du [personnel,](/microsoft-365/admin/create-groups/create-groups)créez un groupe, puis ré-exécutez l’Assistant. <br/><br/>Pour l’instant, vous ne pouvez sélectionner qu’un seul groupe. Les enseignants et les membres du groupe que vous sélectionnez se voit attribuer un [ensemble de](#policies-applied-by-the-wizard) stratégies personnalisées adaptées à leurs besoins. N’oubliez pas que cet ensemble de stratégies est distinct des stratégies appliquées aux étudiants.
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Capture d’écran de la page dans l’Assistant de sélection d’un enseignant et d’un groupe de membres du personnel":::
+    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="Capture d’écran de la page de l’Assistant pour sélectionner un enseignant et un groupe de membres du personnel.":::
 
 4. Examinez vos sélections.
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Capture d’écran de la page dans l’Assistant pour passer en revue les sélections":::
+    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Capture d’écran de la page de l’Assistant pour passer en revue les sélections.":::
 
 5. Sélectionnez **Appliquer** pour appliquer vos modifications. Cela peut prendre quelques minutes.<br/><br/>Les définitions de stratégie globale (à l’échelle de l’organisation par défaut) sont appliquées immédiatement aux étudiants. Pour vos enseignants et membres du personnel, l’attribuée aux stratégies personnalisées à chaque membre du groupe que vous avez sélectionné peut prendre quelques heures, selon la taille du groupe. Cela se produit en arrière-plan, une fois que vous avez réussi cette étape.
 6. Vous êtes en route, mais ce n’est pas encore fait ! D’autres éléments sont à prendre en considération. Consultez ensuite la procédure de la section Procédure [à suivre](#what-to-do-after-running-the-wizard) après avoir exécute la section Assistant de cet article.
 
-    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Capture d’écran de la page de l’Assistant pour les étapes suivantes":::
+    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Capture d’écran de la page de l’Assistant pour les étapes suivantes.":::
 
 ## <a name="what-to-do-after-running-the-wizard"></a>Que faire après avoir exécutez l’Assistant
 
@@ -114,7 +114,7 @@ Si plusieurs de ces affectations de stratégie existent pour un utilisateur, Tea
 |Stratégie attribuée au groupe : Oui<br/>Stratégie attribuée directement à l’utilisateur : Oui     |Stratégie attribuée directement à l’utilisateur         |
 |Stratégie attribuée au groupe : Oui<br/>Stratégie attribuée directement à l’utilisateur : Non     |Stratégie attribuée au groupe<br/><br/>Si l’utilisateur est membre de plusieurs groupes et qu’une stratégie de la même zone de stratégie est affectée à chaque groupe, la stratégie qui présente le classement d’affectation de groupe le plus élevé [prend](assign-policies.md#group-assignment-ranking) effet.       |
 
-Étant donné cet ordre, les stratégies créées par l’Assistant ne prennent pas effet si un utilisateur possède déjà des affectations directes ou des affectations de groupe. Cela signifie que vous devez supprimer les affectations de stratégie existantes de l’utilisateur pour que la stratégie appliquée par l’Assistant prenne effet.
+Étant donné cet ordre, les stratégies créées par l’Assistant ne prennent pas effet si un utilisateur possède des affectations directes ou des affectations de groupe existantes. Cela signifie que vous devez supprimer les affectations de stratégie existantes de l’utilisateur pour que la stratégie appliquée par l’Assistant prenne effet.
 
 Pour chaque [zone de stratégie appliquée par l’Assistant,](#policies-applied-by-the-wizard)vous pouvez :
 
@@ -329,7 +329,7 @@ Voici une liste des définitions de stratégie personnalisées assignées aux en
 
 * * *
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Stratégies et packages de stratégies Teams pour l’éducation](policy-packages-edu.md)
 - [Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire](batch-group-policy-assignment-edu.md)

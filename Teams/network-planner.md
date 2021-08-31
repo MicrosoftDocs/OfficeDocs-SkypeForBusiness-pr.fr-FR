@@ -22,18 +22,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08884e7a8cf4aaebf7f2063cec0e80fcf5619ced
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594608"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731313"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Utiliser le Planificateur réseau pour Microsoft Teams
 
 Network Planner est un nouvel outil disponible dans le Centre d’administration Teams’administration. Il est possible de le trouver en vous rendre dans **Planificateur**  >  **Réseau de planification.** En quelques étapes, le Planificateur réseau peut vous aider à déterminer et organiser la exigences réseau pour la connexion des Microsoft Teams utilisateurs au sein de votre organisation. Lorsque vous indiquez les détails de votre réseau et de votre utilisation de Teams, le planificateur de réseau calcule les exigences réseau requises pour le déploiement de Teams et de Voix Cloud dans les emplacements physiques de votre organisation.
 
-![Capture d’écran du Planificateur réseau](media/network-planner.png)
+![Capture d’écran du Planificateur réseau.](media/network-planner.png)
 
 Le Planificateur réseau vous permet d':
 
@@ -50,7 +50,7 @@ Pour utiliser le Planificateur réseau, vous devez être administrateur généra
 
 Pour créer un personnage personnalisé, suivez ces étapes :
 
-1. Dans le Centre d’administration, Microsoft Teams le planificateur réseau.
+1. Dans le Centre d’administration, Microsoft Teams au Planificateur réseau.
 
 2. Sous **l’onglet Personnage,** cliquez **sur + Personnage personnalisé.** 
 
@@ -60,11 +60,11 @@ Pour créer un personnage personnalisé, suivez ces étapes :
 
 5. Cliquez sur **Enregistrer**.
 
-## <a name="build-your-plan"></a>Créer votre plan
+## <a name="build-your-plan"></a>Créez votre plan
 
-Pour commencer à créer votre plan réseau, suivez ces étapes :
+Pour commencer à créer votre plan réseau, suivez les étapes suivantes :
 
-1. Dans le Centre d’administration, Microsoft Teams le planificateur réseau.
+1. Dans le Centre d’administration, Microsoft Teams au Planificateur réseau.
 
 2. Sous **l’onglet Plan réseau,** cliquez **sur Ajouter un plan réseau.**
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Résumé : Examinez les considérations d’équilibrage de charge avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: 9b47c87fa834de6b0a7b3ddddaf6493a9c95f363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba8ab3e4659ea7e17e91b4bf725e8bd1fe8b59ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623586"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733393"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Exigences relatives à l’équilibrage de charge Skype Entreprise
  
@@ -132,18 +132,18 @@ La configuration requise de l’équilibreur de la charge matérielle des servic
    
 ### <a name="port-monitoring-for-hardware-load-balancers"></a>Surveillance des ports pour les programmes d’équilibrage de la charge matérielle
 
-Vous définissez la surveillance des ports sur les équilibreurs de la charge matérielle pour déterminer si des services spécifiques ne sont plus disponibles suite à des échecs matériel ou de communication. Par exemple, si le service de serveur frontal (RTCSRV) s’arrête en raison de l’échec du serveur frontal ou du pool frontal, la surveillance de l’programme d’programmes d’émission de programmes d’émission de programmes d’urgence doit également cesser de recevoir du trafic sur les services Web. Vous implémentez la surveillance des ports sur le programme d’équilibrage de la charge matérielle pour surveiller les éléments suivants :
+Vous définissez la surveillance des ports sur les équilibreurs de la charge matérielle pour déterminer si des services spécifiques ne sont plus disponibles suite à des échecs matériel ou de communication. Par exemple, si le service de serveur frontal (RTCSRV) s’arrête en raison de l’échec du serveur frontal ou du pool frontal, la surveillance de l’programme d’programmes d’programmes d’émission de programmes d’émission de programmes d’urgence doit également cesser de recevoir du trafic sur les services Web. Vous implémentez la surveillance des ports sur le programme d’équilibrage de la charge matérielle pour surveiller les éléments suivants :
   
 **Pool d’utilisateurs du serveur frontal - Interface interne HLB**
 
-|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Notes**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTPS  <br/> |
 |\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
    
 **Pool d’utilisateurs du serveur frontal - Interface externe HLB**
 
-|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Notes**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucun  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucun  <br/> |HTTP  <br/> |
@@ -159,7 +159,7 @@ Le diagramme suivant illustre un exemple qui inclut l’équilibrage de charge D
   
 **Diagramme réseau Edge utilisant des adresses IPv4 publiques**
 
-![exemple de diagramme réseau DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![exemple de diagramme réseau DNS.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 En optant pour l’équilibrage de la charge DNS, vous pouvez aussi acheter des programmes d’équilibrage de la charge matérielle moins chers que ceux proposés pour tous les types de trafic. Vous devez utiliser des équilibreurs de charge qui ont réussi des tests de qualification d’interopérabilité Skype Entreprise Server. Pour plus d’informations sur les tests d’interopérabilité de l’équilibreur de charge, voir [Lync Server 2010 Load Balancer Partners](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md). Le contenu s’applique aux Skype Entreprise Server.
   
@@ -218,9 +218,9 @@ Bien que le recours à des programmes d’équilibrage de la charge matérielle 
   
 #### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>Équilibrage de charge DNS et prise en charge d’anciens clients et serveurs
 
-L’équilibrage de charge DNS prend en charge leover automatique uniquement pour les serveurs exécutant Skype Entreprise Server ou Lync Server 2010, et pour les clients Lync 2013 Skype Entreprise. Les versions antérieures des clients et de Office Communications Server peuvent toujours se connecter à des pools exécutant l’équilibrage de charge DNS, mais s’ils ne peuvent pas établir de connexion au premier serveur vers qui l’équilibrage de charge DNS les fait référencer, ils ne peuvent pas effectuer le pas vers un autre serveur du pool. 
+L’équilibrage de charge DNS prend en charge leover automatique uniquement pour les serveurs exécutant Skype Entreprise Server ou Lync Server 2010, et pour les clients Lync 2013 Skype Entreprise. Les versions antérieures des clients et de Office Communications Server peuvent toujours se connecter à des pools exécutant l’équilibrage de charge DNS, mais s’ils ne parviennent pas à établir une connexion au premier serveur vers qui l’équilibrage de charge DNS les fait référencer, ils ne peuvent pas effectuer le pas vers un autre serveur du pool. 
   
-En outre, si vous utilisez la Exchange de service de Exchange, vous devez utiliser un minimum de Exchange 2010 SP1 pour obtenir la prise en charge de l Skype Entreprise Server équilibrage de charge DNS. Si vous utilisez une version antérieure de Exchange, vos utilisateurs n’auront pas de fonctionnalités de Exchange scénarios de la Exchange de l’utilisateur :
+En outre, si vous utilisez une Exchange de service de Exchange, vous devez utiliser un minimum de Exchange 2010 SP1 pour obtenir la prise en charge de l Skype Entreprise Server équilibrage de charge DNS. Si vous utilisez une version antérieure de Exchange, vos utilisateurs n’auront pas de fonctionnalités de Exchange scénarios de la Exchange de l’utilisateur :
   
 - Lecture de Enterprise messagerie vocale sur son téléphone
     
@@ -289,4 +289,4 @@ Pour déployer l’équilibrage de la charge DNS sur un pool de serveurs de mé
 
 Si vous utilisez l’équilibrage de charge DNS et que vous devez bloquer le trafic vers un ordinateur spécifique, il ne suffit pas de supprimer simplement les entrées d’adresse IP du FQDN du pool. Vous devez également supprimer l’entrée DNS de l’ordinateur. 
   
-Notez que pour le trafic de serveur à serveur, Skype Entreprise Server l’équilibrage de charge pris en charge par la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir le FQDN des serveurs de la topologie et distribuent automatiquement le trafic entre les serveurs. Pour empêcher un serveur de recevoir du trafic de serveur à serveur, vous devez supprimer le serveur de la topologie. 
+Notez que pour le trafic de serveur à serveur, Skype Entreprise Server utilise l’équilibrage de charge pris en charge par la topologie. Les serveurs lisent la topologie publiée dans le magasin central de gestion pour obtenir le FQDN des serveurs de la topologie et distribuent automatiquement le trafic entre les serveurs. Pour empêcher un serveur de recevoir du trafic de serveur à serveur, vous devez supprimer le serveur de la topologie. 

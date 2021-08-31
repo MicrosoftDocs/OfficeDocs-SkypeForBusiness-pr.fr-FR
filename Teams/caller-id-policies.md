@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft Teams modifier ou bloquer l’ID d’appelant des Teams utilisateurs dans votre organisation.
-ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619630"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731223"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’ID d’appelant dans Microsoft Teams
 
@@ -40,7 +40,7 @@ Pour gérer les stratégies d’ID d’appelant, vous devez vous rendre sur les 
 
 1. Dans le navigation gauche du centre Microsoft Teams d’administration, allez **aux** stratégies  >  **d’ID d’appelant vocal.**
 2. Cliquez sur **Ajouter**. <br>
-![Capture d’écran de la page de stratégie d’ID d’appelant dans le Centre d’administration](media/caller-id-policies-add-policy.png)
+![Capture d’écran de la page de stratégie d’ID d’appelant dans le Centre d’administration.](media/caller-id-policies-add-policy.png)
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 4. À partir de là, choisissez les paramètres de votre choix :
 
@@ -68,7 +68,7 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 

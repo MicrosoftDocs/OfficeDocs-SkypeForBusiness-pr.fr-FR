@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596328"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730893"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Présentation d'un déploiement de Microsoft Teams
 
@@ -32,7 +32,7 @@ Bonjour ! Merci d’avoir choisi Microsoft Teams. Que votre entreprise soit un c
 
 Puisque Teams prend en charge un large éventail de types d’organisations et de points de départ, plusieurs options de configuration s’offrent à vous. Pour vous aider à trouver les informations dont vous avez besoin, nous avons fractionné certains articles en deux audiences : **Petite entreprise** (moins de 50 utilisateurs) et **Grande/moyenne Entreprise** (plus de 50 utilisateurs). Lorsque vous lisez un article, sélectionnez l’onglet d’audience qui correspond le mieux à votre organisation. Voici l’apparence des onglets :
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="Exemple montrant des onglets d’audience de petite taille et de grande taille qui apparaissent dans certains articles":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="Exemple montrant des onglets d’audience de petite taille et de grande taille qui apparaissent dans certains articles.":::
 
 La liste suivante contient les sections que vous pouvez choisir dans la section **Mise en route** et une brève description de chacune d’entre elles.
 

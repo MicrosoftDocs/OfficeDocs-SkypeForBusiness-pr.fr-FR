@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 769790029adf0e18d6201b635659a5b267e5f27c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4571ef220fe972fb1aab27021ea22c01c5a836b4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597948"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734123"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Configurer la hiérarchie de ciblage de votre équipe
 
@@ -31,7 +31,7 @@ La configuration d’une hiérarchie de ciblage d’équipe permet à votre orga
 
 Voici un exemple de la manière dont la hiérarchie est représentée dans l’application Tâches dans Teams. Une fois qu’une liste de tâches est créée, les membres de l’équipe de publication peuvent sélectionner les équipes de destinataires à qui envoyer (publier) la liste de tâches. Lors de la sélection d’équipes, l’équipe de publication peut filtrer par hiérarchie, par attributs ou une combinaison des deux.<br>
 
-![Capture d’écran de la publication de tâches](media/manage-tasks-app-publish.png)
+![Capture d’écran de la publication de tâches.](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>Terminologie
 
@@ -69,12 +69,12 @@ L’autorisation de publier dépend du fait qu’un utilisateur est membre d’u
 
 Par exemple, dans la hiérarchie suivante, Recall, Communications et HR peuvent publier des tâches sur chaque nœud inférieur (équipe) dans la hiérarchie, mais la zone Nord-est peut uniquement publier des tâches dans les équipes du Store de New York et du Store de New York. La hiérarchie exemple permet aux groupes Rappel, Communications et RH de publier des tâches qui s’appliquent à l’ensemble de l’entreprise, telles que des informations sur les avantages ou des messages du PDG. La zone Nord-est peut publier des tâches telles que la planification du personnel, les informations météorologiques, etc., uniquement dans les équipes du Store de New York et du Store de York.
 
-![Exemple hiérarchique d’équipe](media/team-targeting-schema-example-new.png)
+![Exemple hiérarchique d’équipe.](media/team-targeting-schema-example-new.png)
 
 ## <a name="create-your-hierarchy"></a>Créer votre hiérarchie
 
 > [!NOTE]
-> Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches dans les équipes de destinataires. [Reportez-vous à l’application](./manage-tasks-app.md) Gérer les tâches pour votre organisation dans Teams pour une vue d’ensemble de l’application Tâches, où la publication de tâches apparaît lorsqu’elle est activée.
+> Le reste de cet article décrit la configuration d’une hiérarchie d’équipe dans le contexte de la publication de tâches dans les équipes de destinataires. Consultez [l’application Gérer les](./manage-tasks-app.md) tâches pour votre organisation dans Teams pour une vue d’ensemble de l’application Tâches, où la publication de tâches apparaît lorsqu’elle est activée.
 
 Le schéma qui définit votre hiérarchie est basé sur un fichier de valeurs séparées par des virgules (CSV). Le fichier doit être au format UTF-8. Chaque ligne du fichier CSV correspond à un nœud au sein de la hiérarchie des équipes. Chaque ligne contient des informations qui nomment le nœud au sein de la hiérarchie, la lie éventuellement à une équipe et inclut des attributs qui peuvent être utilisés pour filtrer les équipes dans les applications qui la supportent.
 
@@ -87,7 +87,7 @@ Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivan
 | Nom de colonne   | Obligatoire | Description   |
 ----------------|----------|---------------|
 | DisplayName    | Oui      | Ce champ est le nom du nœud. Le nom peut comporter jusqu’à 100 caractères et contenir uniquement les caractères A-Z, a-z et 0-9. Les noms de nœuds doivent être uniques. |
-| ParentName    | Oui       | Il s’agit du nom du nœud parent. La valeur que vous spécifiez ici doit correspondre exactement à la valeur du champ **DisplayName** du nœud parent. Si vous voulez ajouter plusieurs nœuds parents, séparez le nom de chaque nœud parent par un point-virgule (;). Vous pouvez ajouter jusqu’à 25 nœuds parents, et chaque nom de nœud parent peut faire jusqu’à 2 500 caractères. Un nœud peut avoir plusieurs nœuds parents uniquement si les nœuds parents sont des nœuds racines.   <br><br>**IMPORTANT** Attention de ne pas créer de boucle dans laquelle un parent qui se trouve plus haut dans la hiérarchie fait référence à un nœud enfant plus bas dans la hiérarchie. Cela n’est pas pris en charge. |
+| ParentName    | Oui       | Il s’agit du nom du nœud parent. La valeur que vous spécifiez ici doit correspondre exactement à la valeur du champ **DisplayName** du nœud parent. Si vous voulez ajouter plusieurs nœuds parents, séparez le nom de chaque nœud parent par un point-virgule (;). Vous pouvez ajouter jusqu’à 25 nœuds parents et chaque nom de nœud parent peut faire jusqu’à 2 500 caractères. Un nœud peut avoir plusieurs nœuds parents uniquement si les nœuds parents sont des nœuds racines.   <br><br>**IMPORTANT** Attention de ne pas créer de boucle dans laquelle un parent qui se trouve plus haut dans la hiérarchie fait référence à un nœud enfant plus bas dans la hiérarchie. Cela n’est pas pris en charge. |
 | TeamId        | Oui, si l’équipe publie des tâches ou reçoit des tâches d’un nœud parent       | Il contient l’ID de l’équipe à qui vous voulez lier un nœud. Chaque nœud doit faire référence à une équipe unique, de sorte que chaque valeur TeamId peut apparaître une seule fois dans le fichier de hiérarchie. Pour obtenir l’ID d’une équipe à qui vous voulez lier un nœud, exécutez la commande PowerShell suivante `Get-Team | Export-Csv TeamList.csv` : Cette commande répertorie les équipes de votre organisation et inclut le nom et l’ID de chaque équipe. Recherchez le nom de l’équipe avec qui vous souhaitez établir un lien, puis copiez l’ID dans ce champ.|
 
 > [!NOTE]
@@ -95,12 +95,12 @@ Le fichier CSV doit contenir les trois colonnes suivantes, dans l’ordre suivan
 
 ### <a name="add-attribute-columns"></a>Ajouter des colonnes d’attribut
 
-Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonnes d’attribut facultatives. Ces attributs peuvent être utilisés pour filtrer les nodes afin de sélectionner plus facilement celles sur qui vous voulez publier des tâches. Il existe deux façons de définir vos attributs, selon que les valeurs pour cet attribut sont mutuellement exclusives.
+Après avoir ajouté les trois colonnes requises, vous pouvez ajouter des colonnes d’attribut facultatives. Ces attributs peuvent être utilisés pour filtrer les nodes afin de sélectionner plus facilement ceux sur qui vous voulez publier des tâches. Il existe deux façons de définir vos attributs, selon que les valeurs pour cet attribut sont mutuellement exclusives.
 
 |Méthodes d’ajout d’attributs|Description |Exemple  |
 |---|---------|---------|
-|Si les valeurs d’un attribut sont mutuellement exclusives, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut au filtre des magasins par disposition, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
-|Si vous devez indiquer plusieurs valeurs pour un attribut et que les valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section dans le menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
+|Si les valeurs d’un attribut sont mutuellement exclusives, le nom de colonne que vous spécifiez devient le nom de l’attribut.|Chaque ligne peut contenir une valeur pour cet attribut, et chaque colonne d’attribut peut comporter jusqu’à 50 valeurs uniques. Chaque valeur peut faire jusqu’à 100 caractères. L’ensemble des valeurs d’attribut que vous spécifiez dans la colonne d’attribut s’affiche en tant que valeurs de filtre pour cet attribut lors de la sélection des équipes de destinataires à l’aide de la hiérarchie de ciblage d’équipe.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par disposition. Les valeurs pour cet attribut s’excluent mutuellement, car un magasin ne peut avoir qu’une mise en page. <br><br>Pour ajouter un attribut afin de filtrer les magasins par mise en page, ajoutez une colonne nommée Disposition du Store. Dans cet exemple, les valeurs de l’attribut de disposition Store sont Compact, Standard et Grande.
+|Si vous devez indiquer plusieurs valeurs pour un attribut et que les valeurs ne sont pas mutuellement exclusives, utilisez le format **AttributeName:UniqueValue** pour les noms de colonnes. <br><br>**IMPORTANT** Veillez à utiliser les deux-points en anglais uniquement (:) comme unicode n’est pas pris en charge en tant que délimiteur de colonne d’attribut. |Chaîne de texte avant les deux-points (:) devient le nom de l’attribut. Toutes les colonnes qui contiennent la même chaîne de texte avant les deux-:) sont regroupés en une section du menu de filtrage. Chacune des chaînes après les deux-points devient les valeurs de cette section.<br><br>Chaque ligne peut avoir une valeur de 0 (zéro) ou 1 pour cet attribut. Une valeur de 0 signifie que l’attribut ne s’applique pas au nœud et une valeur de 1 signifie que l’attribut s’applique à ce nœud.|Vous souhaitez que les utilisateurs puissent filtrer les magasins par service. Un magasin peut avoir plusieurs services et les valeurs pour cet attribut ne sont pas mutuellement exclusives.<br><br>Dans cet exemple, nous ajoutons Departments:Clothing, Departments:Electronics, Departments:Foods, Departments:Home and Garden, Departments:Sports: Attribute Columns. Les services deviennent le nom de l’attribut et les utilisateurs peuvent filtrer par les services Vêtements, Électronique, Aliments, Famille et Jardin et Articles de sport.|
 
 Lorsque vous ajoutez une colonne d’attribut, gardez les éléments suivants à l’esprit :
 
@@ -151,7 +151,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ## <a name="apply-your-hierarchy"></a>Appliquer votre hiérarchie
 
 > [!NOTE] 
-> Pour effectuer cette étape, vous devez installer et utiliser le module Teams d’aperçu public PowerShell à partir de la galerie PowerShell. Pour savoir comment installer le module, voir Installer Teams PowerShell.
+> Pour effectuer cette étape, vous devez installer et utiliser Teams module d’aperçu public PowerShell à partir de la galerie PowerShell. Pour savoir comment installer le module, voir Installer Teams PowerShell.
 
 > [!NOTE]
 > Cloud de la communauté du secteur public clients (Cloud de la communauté du secteur public) doivent utiliser la version d’aperçu de [l’cmdlet version 2.4.0 ou](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) ultérieure pour s’assurer que les données sont acheminées vers l’environnement Cloud de la communauté du secteur public plutôt que vers l’environnement cloud public.
@@ -187,7 +187,7 @@ FileName | Nom du fichier CSV.
 
 ## <a name="remove-your-hierarchy"></a>Supprimer votre hiérarchie
 
-Si vous souhaitez désactiver  immédiatement l’onglet Listes publiées pour tous les utilisateurs de votre organisation, vous pouvez supprimer votre hiérarchie. Les utilisateurs n’ont pas accès à l’onglet **Listes** publiées ou à l’une des fonctionnalités de l’onglet.  Cela inclut la possibilité de créer des listes des tâches pour publier, accéder à des brouillons de listes, publier, republier et dupliquer des listes, et afficher les rapports. La suppression de la hiérarchie ne supprime pas les tâches publiées précédemment. Ces tâches restent disponibles pour les équipes de destinataires.
+Si vous souhaitez désactiver  immédiatement l’onglet Listes publiées pour tous les utilisateurs de votre organisation, vous pouvez supprimer votre hiérarchie. Les utilisateurs n’ont pas accès à l’onglet **Listes** publiées ou à l’une des fonctionnalités de l’onglet.  Cela inclut la possibilité de créer des listes des tâches à publier, d’accéder à des brouillons de listes, de publier, de republier et de dupliquer des listes, et d’afficher les rapports. La suppression de la hiérarchie ne supprime pas les tâches publiées précédemment. Ces tâches restent disponibles pour les équipes de destinataires.
 
 Pour supprimer votre hiérarchie, exécutez la commande suivante. Vous devez être un administrateur pour effectuer cette étape.
 
@@ -195,7 +195,7 @@ Pour supprimer votre hiérarchie, exécutez la commande suivante. Vous devez êt
 Remove-TeamTargetingHierarchy
 ```
 
-Lors de la confirmation de la suppression, le message d’état affiche toujours le schéma précédent, même si la tentative de suppression renvoie une erreur qui a pour effet que l’objet est Null.
+Lors de la confirmation de la suppression, le message d’état affiche toujours le schéma précédent présent, même si la tentative de suppression renvoie une erreur qui a pour effet que l’objet est Null.
 
 ## <a name="create-a-sample-hierarchy"></a>Créer un exemple de hiérarchie
 
@@ -278,7 +278,7 @@ Vérifiez que vous utilisez le TeamId correct pour l’équipe dans votre fichie
 
 Assurez-vous que l’TeamId de votre fichier CSV de schéma correspond à l’ID de groupe qui s’affiche dans le Microsoft Teams d’administration.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 * [Gérer l’application Tâches pour votre organisation dans Teams](manage-tasks-app.md)
 * [Présentation de Teams PowerShell](teams-powershell-overview.md)

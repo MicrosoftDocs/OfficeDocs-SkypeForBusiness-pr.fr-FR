@@ -21,12 +21,12 @@ f1.keywords:
 description: Découvrez comment former une équipe de champions pour promouvoir l’adoption Teams’adoption en faisant de la sensibilisation, de l’adoption et de l’éducation dans votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 216323b34d2f0f2778844b901964d56a85d25716
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9a6c9c81b1f36655d99b9fdfeecacda406bab6f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612913"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731183"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Créer votre programme d’ambassadeurs de Microsoft Teams
 
@@ -34,7 +34,7 @@ Les champions sont essentiels pour sensibiliser votre organisation, l’adoption
 
 La stratégie Champions s’intègre à votre planification du lancement global de plusieurs façons, comme illustré ci-dessous.
 
-![Illustration de la planification du lancement de Champions](media/teams-adoption-champions.png)
+![Illustration de la planification du lancement de Champions.](media/teams-adoption-champions.png)
 
 Champions doit :
 
@@ -49,7 +49,7 @@ Utilisez notre [Guide du programme Champions pour](https://go.microsoft.com/fwli
 
 - Utilisez l’équipe Team Teamwork Champion : Vos champions doivent utiliser l’équipe que vous avez configurée pour toutes les communications, commentaires et ressources du programme.  Ce faisant, ils se familiariserront de plus en plus avec le produit et ses avantages.
 
-- Organisez des réunions mensuelles régulières : Favorisez l’intérêt et la cohérence de votre communauté en tenant des réunions mensuelles régulières. Il peut s’agit d’une combinaison de réunions en personne et de réunions virtuelles, mais leur cohérence est essentielle pour disposer d’une communauté de champions.
+- Organisez des réunions mensuelles régulières : Favorisez l’intérêt et la cohérence de votre communauté en tenant des réunions mensuelles régulières. Il peut s’agit d’une combinaison de réunions en personne et de réunions virtuelles, mais leur cohérence est essentielle pour disposer d’une communauté combinant des champions.
 
     > [!TIP]
     > Pour créer vos agendas, planifier vos réunions de la semaine après l’appel de la communauté publique. 
@@ -60,5 +60,5 @@ Utilisez notre [Guide du programme Champions pour](https://go.microsoft.com/fwli
 
 - Formez les champions de temps en temps et souvent : Votre programme démarre et des réunions mensuelles peuvent être utilisées pour développer des compétences dans la communauté de votre champion. Utilisez ces opportunités pour les amener à s’insérer, mener leur formation initiale, les encourager à participer à nos cours et à s’assurer qu’ils sont prêts à soutenir leurs employés à mesure qu’ils avancent dans la phase de expérimentation.  
 
-![Icône représentant l’étape suivante ](media/teams-adoption-next-icon.png) : achever le démarrage rapide de la [gouvernance](teams-adoption-governance-quick-start.md)
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : [Achever le démarrage rapide de la gouvernance](teams-adoption-governance-quick-start.md)
 

@@ -24,12 +24,12 @@ search.appverid: MET150
 description: En savoir plus sur les Microsoft Teams fonctionnalités vocales cloud et les décisions de déploiement que vous prendrez pour votre organisation.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b82b858e49040628cd53c06c03be4235b3fdac9fa674cd733bd84f6ba8816cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb6796dff27cf078c2f8f1d2d2f1ffc00fddc5e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347499"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730513"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planifier votre solution Teams voix 
 
@@ -37,7 +37,7 @@ Cet article vous aide à déterminer la solution Microsoft Voice adaptée à vot
 
 Vous souhaitez peut-être une solution plus simple &mdash; Système téléphonique’aide de Forfait d’appels. Il s’agit de la solution dans le cloud de Microsoft qui fournit des fonctionnalités de Exchange de branche privée (PBX) et des appels vers le réseau téléphonique commuté (PSTN), comme illustré dans le diagramme suivant. Avec cette solution, Microsoft est votre opérateur PSTN.
 
-![Le diagramme 1 montre les Système téléphonique’aide d’un plan d’appels](media/voice-solutions-simple.png)
+![Le diagramme 1 montre les Système téléphonique’aide d’un plan d’appels.](media/voice-solutions-simple.png)
 
 Si vous répondez oui aux questions suivantes, alors Système téléphonique’aide du plan d’appels est la solution adaptée à vos questions :
 
@@ -65,7 +65,7 @@ Toutefois, votre situation peut être plus complexe. Par exemple, vous pouvez av
 
 **En fonction de vos besoins.** Certaines des sections de cet article et des articles connexes sont pertinentes en fonction de votre déploiement et des exigences existantes. Par exemple, un Location-Based routage n’est nécessaire que pour les clients de routage direct dans des emplacements géographiques qui n’autorisent pas la dérivation contre les frais.
 
-Prenez en compte les configurations supplémentaires dont vous pourriez avoir besoin :
+Prenez en compte les configurations supplémentaires qui peuvent vous être nécessaires :
 
 ![Le diagramme 2 présente d’autres composants vocaux, tels que Téléphone de Microsoft, les plans de numérotation et le routage des appels, etc.](media/voice-consider-additional-components.png)
 
@@ -75,7 +75,7 @@ Prenez en compte les configurations supplémentaires dont vous pourriez avoir be
 | [**Routage des appels et plans de numérotation**](pstn-connectivity.md#call-routing-and-dial-plans) | Comment configurer et gérer des plans de numérotation qui traduisent les numéros de téléphone composés dans un autre format (généralement E.164) pour l’autorisation et le routage des appels. Lisez cette section si vous avez besoin de comprendre ce que sont les plans de numérotation et si vous devez spécifier des plans de numérotation pour votre organisation.|
 | [**Appels d’urgence**](pstn-connectivity.md#emergency-calling) | La gestion et la configuration des appels d’urgence diffèrent en fonction de l’option de connectivité PSTN. Pour comprendre comment gérer les appels d’urgence pour votre organisation, lisez cette section. |
 | [**Routage basé sur l’emplacement pour le routage direct**](pstn-connectivity.md#location-based-routing-for-direct-routing) |Comment utiliser Location-Based routage des réseaux de distribution de données (LBR) pour restreindre la dérivation contre les Microsoft Teams en fonction de leur emplacement géographique. Lisez cette section si votre organisation utilise le routage direct à un emplacement qui n’autorise pas la dérivation contre les frais.
-| [**Topologie de réseau pour les fonctionnalités vocales cloud**](pstn-connectivity.md#network-topology-for-voice-features) | Si votre organisation déploie Location-Based routage de réseau (LBR) pour le routage direct ou les appels d’urgence dynamiques, vous devez configurer les paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams. Lisez cette section si vous implémentez LBR pour le routage direct, ou si vous implémentez des appels d’urgence dynamiques avec le plan d’appel ou le routage direct. |
+| [**Topologie de réseau pour les fonctionnalités vocales cloud**](pstn-connectivity.md#network-topology-for-voice-features) | Si votre organisation déploie Location-Based routage des appels d’urgence dynamiques ou le routage direct, vous devez configurer des paramètres réseau pour les utiliser avec ces fonctionnalités dans Microsoft Teams. Lisez cette section si vous implémentez LBR pour le routage direct, ou si vous implémentez des appels d’urgence dynamiques avec le plan d’appel ou le routage direct. |
 | [**Migrer votre solution vocale existante**](#migrate-your-existing-voice-solution-to-teams) | Ce à quoi vous devez penser lors de la migration de votre solution vocale vers Teams.  Lisez cette section si vous migrez d’une solution vocale existante vers Teams. 
 
 > [!Important]
@@ -96,7 +96,7 @@ Cet article présente les éléments clés Système téléphonique fonctionnalit
 - [Messagerie vocale cloud](#cloud-voicemail)
 - [Identité d’appel](#calling-identity)
 
-![Le diagramme 3 indique Téléphone automatique, les requêtes d’appel, la messagerie vocale cloud et l’identité d’appel](media/phone-system-contains.png)
+![Le diagramme 3 indique Téléphone automatique, les requêtes d’appel, la messagerie vocale cloud et l’identité d’appel.](media/phone-system-contains.png)
 
 Pour plus d’informations sur Système téléphonique fonctionnalités de contrôle et la manière de configurer Système téléphonique, consultez les articles suivants :
 
@@ -143,7 +143,7 @@ Système téléphonique fournit des fonctionnalités PBX complètes pour votre o
 
 - [**Système téléphonique’aide d’un forfait d’appels.**](pstn-connectivity.md#phone-system-with-calling-plan) Une solution all-in-the-cloud avec Microsoft comme opérateur PSTN.
 
-- [**Système téléphonique votre propre opérateur PSTN à**](operator-connect-plan.md)l’aide de l’opérateur Connecter, actuellement disponible uniquement en **prévisualisation publique.**  Avec l’Connecter opérateur, si votre opérateur existant participe au programme Connecter de l’opérateur Microsoft, il peut gérer le service de mise à niveau des appels R TEAMS. Pour plus d’informations sur les avantages et les exigences de la Connecter opérateur, et pour obtenir la liste des opérateurs participant à ce programme, consultez la liste des opérateurs [Connecter.](operator-connect-plan.md)
+- [**Système téléphonique votre propre opérateur PSTN à**](operator-connect-plan.md)l’aide de l’opérateur Connecter, actuellement disponible uniquement en **prévisualisation publique.**  Avec la Connecter opérateur, si votre opérateur existant participe au programme Connecter de l’opérateur Microsoft, il peut gérer le service de mise à niveau des appels R TEAMS. Pour plus d’informations sur les avantages et les exigences de la Connecter opérateur, et pour obtenir la liste des opérateurs participant à ce programme, consultez la liste des opérateurs [Connecter.](operator-connect-plan.md)
 
 - Système téléphonique avec votre propre opérateur [**PSTN en**](pstn-connectivity.md#phone-system-with-direct-routing) utilisant le routage direct pour connecter votre environnement local à Teams.
 

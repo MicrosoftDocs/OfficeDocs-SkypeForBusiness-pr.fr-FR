@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875aeeee6d283a97325ef5aa66402b2c112c4bbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586558"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730633"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Tasks pour votre organisation dans Microsoft Teams
 
@@ -35,7 +35,7 @@ L’application Tasks apporte une expérience de gestion des tâches pertinente 
 > [!NOTE]
 > Pendant le déploiement de l’expérience Tasks sur les clients Teams pour ordinateur de bureau, l’application sera initialement nommée **Planificateur**. Le nom sera ensuite temporairement remplacé par **Tasks par le Planificateur et To Do**, et plus tard, il sera renommé en **Tasks**. Sur les clients mobiles Teams, l’application sera toujours nommée **Tasks**. Une fois l’expérience pour ordinateur de bureau disponible, un court délai peut exister avant que l’expérience mobile soit disponible.
 
-   ![Capture d’écran de l’affichage de la liste des tâches sur la liste des équipes](media/manage-tasks-app-tasks.png)
+   ![Capture d’écran de l’affichage de liste des tâches Teams liste.](media/manage-tasks-app-tasks.png)
 
 Pour les organisations qui souhaitent simplifier la gestion des tâches pour les travailleurs de première ligne, Tasks comprend également des fonctionnalités qui vous permettent de cibler, publier et suivre les tâches de vos employés de première ligne. Par exemple, les dirigeants d’entreprise et les responsables régionaux peuvent créer et publier des listes de tâches ciblées sur des emplacements pertinents, tels que des magasins de détail spécifiques, et suivre les progrès grâce à des rapports en temps réel. Les N+1 peuvent attribuer des tâches à leur personnel et diriger les activités depuis leur bureau. Les travailleurs de première ligne, eux, disposent d’une liste hiérarchisée des tâches qui leur sont attribuées sur leur mobile ou leur ordinateur de bureau. Pour activer la [publication des tâches](#task-publishing), vous devez d’abord configurer une hiérarchie de ciblage d’équipe pour votre organisation, qui définit la manière dont toutes les équipes dans la hiérarchie sont liées entre elles.
 
@@ -90,12 +90,12 @@ Ceci n’est pas recommandé pour les employés du secteur de l’information, m
 Avec la publication de tâches, votre organisation peut publier des listes de tâches ciblées sur des emplacements spécifiques (des équipes) au sein de votre organisation pour définir et partager un programme de travail à réaliser à ces emplacements.
 
 - Les membres de l’équipe de publication, comme les dirigeants d’entreprise ou les responsables régionaux, peuvent créer des listes de tâches et les publier dans des équipes spécifiques.<br>
-    ![Capture d’écran de la publication de tâches](media/manage-tasks-app-publish.png)
+    ![Capture d’écran de la publication de tâches.](media/manage-tasks-app-publish.png)
 - Les N+1 des équipes destinataires peuvent consulter les listes de tâches publiées et attribuer des tâches individuelles aux membres de l’équipe.<br>
-    ![Capture d’écran de l’attribution d’une tâche](media/manage-tasks-app-assign.png)
+    ![Capture d’écran de l’attribution d’une tâche.](media/manage-tasks-app-assign.png)
 - Les travailleurs de première ligne ont une expérience mobile simple pour voir les tâches qui leur sont assignées. Ils peuvent joindre des photos pour montrer leur travail le cas échéant et marquer leurs tâches comme terminées.
 - Les éditeurs et les N+1 peuvent afficher des rapports pour voir l’état d’affectation et d’achèvement des tâches à chaque niveau, y compris par emplacement (équipe), liste de tâches et tâche individuelle.<br>
-    ![Capture d’écran des tâches attribuées sur mobile](media/manage-tasks-app-reporting.png)
+    ![Capture d’écran des tâches affectées sur un appareil mobile.](media/manage-tasks-app-reporting.png)
 
 Les utilisateurs créent, gèrent et publient des listes de tâches dans l’onglet **Listes publiées** de l’application Tasks. Cet onglet ne s’affiche pour un utilisateur que si votre organisation [a configuré une hiérarchie de ciblage d’équipe](#set-up-your-team-targeting-hierarchy) et que l’utilisateur fait partie d’une équipe incluse dans la hiérarchie. La hiérarchie détermine si l’utilisateur peut publier ou recevoir des listes de tâches et afficher des rapports pour les listes reçues.
 

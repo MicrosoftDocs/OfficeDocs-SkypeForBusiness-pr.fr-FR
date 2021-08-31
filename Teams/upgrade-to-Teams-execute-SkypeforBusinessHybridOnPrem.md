@@ -1,5 +1,5 @@
 ---
-title: Mettre Skype Entreprise niveau vers une version Microsoft Teams
+title: Mettre Skype Entreprise niveau vers le site Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 988051f3840df90ac4919866d2c5fd63c9a3fba4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c60c51c323f02e2cc2a5e8402c7d59b5531e300b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611513"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733613"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Mettre à niveau Skype Entreprise locaux vers Teams
 
-![Diagramme de voyage de mise à niveau mettant en relief le déploiement et l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
+![Diagramme de voyage de mise à niveau mettant en relief le déploiement et l’implémentation.](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre voyage de mise à niveau. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
@@ -61,7 +61,7 @@ La coexistence et l’interopérabilité entre Skype Entreprise et Teams clients
 
 Pour une organisation passant à Teams, le mode TeamsOnly est la destination finale pour chaque utilisateur, même si tous les utilisateurs ne doivent pas être affectés à TeamsOnly (ou tout autre mode) en même temps.
 
-Avant que les utilisateurs n’atteignent le mode TeamsOnly, les organisations peuvent utiliser les modes de coexistence Skype Entreprise de manière facultative afin de garantir une communication prévisible entre les utilisateurs en mode TeamsOnly et ceux qui ne le sont pas encore.  L’objectif des modes de coexistence Skype Entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) est d’offrir aux utilisateurs finaux une expérience simple et prévisible au sein de la transition entre Skype Entreprise et Teams. 
+Avant que les utilisateurs n’atteignent le mode TeamsOnly, les organisations peuvent éventuellement utiliser l’un des modes de coexistence Skype Entreprise pour assurer une communication prévisible entre les utilisateurs en mode TeamsOnly et les utilisateurs qui ne le sont pas encore.  L’objectif des modes de coexistence Skype Entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) est d’offrir aux utilisateurs finaux une expérience simple et prévisible au sein de la transition entre Skype Entreprise et Teams. 
 
 Lorsqu’un utilisateur est dans l’un des modes Skype Entreprise, toutes les conversations et appels entrants sont acheminés vers le client de messagerie Skype Entreprise’utilisateur. Pour éviter la confusion des utilisateurs finaux et garantir un routage approprié, les fonctionnalités d’appel et de conversation dans le client Teams sont désactivées lorsqu’un utilisateur est dans l’un Skype Entreprise mode. De même, la planification de réunions dans Teams est explicitement désactivée lorsque les utilisateurs sont dans les modes SfBOnly ou SfBWithTeamsCollab et sont explicitement activés lorsqu’un utilisateur est en mode SfBWithTeamsCollabAndMeetings.
 
@@ -70,11 +70,11 @@ Selon vos besoins, vous pouvez attribuer le mode de coexistence approprié en fo
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>Étape 3 : déplacer les utilisateurs du Skype Entreprise local vers Teams uniquement
 
-Microsoft a récemment simplifié le processus de déplacement des utilisateurs vers TeamsOnly. Il s’agit désormais d’une étape unique, quelle que soit la version de Skype Entreprise Server ou de Lync Server 2013 que vous utilisez.  Pour plus d’informations, voir Déplacer des [utilisateurs](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) entre le cloud local et le cloud et Déplacer des utilisateurs d’un site à l’Teams. [](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
+Microsoft a récemment simplifié le processus de déplacement des utilisateurs vers TeamsOnly. Il s’agit désormais d’une étape unique, quelle que soit la version d’Skype Entreprise Server ou de Lync Server 2013 que vous utilisez.  Pour plus d’informations, voir Déplacer des [utilisateurs](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) entre le cloud local et le cloud et Déplacer des utilisateurs d’un site à l’Teams. [](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>Étape 4 : désactiver le mode hybride pour terminer la migration vers le cloud
 
-Une fois que vous avez déplacé tous les utilisateurs de l’installation en local vers le cloud, vous pouvez désaffecter le déploiement Skype Entreprise local. Pour plus d’informations, [voir Désactiver l’hybride pour achever la migration vers le cloud.](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)
+Une fois que vous avez déplacé tous les utilisateurs de l’installation en local vers le cloud, vous pouvez désaffecter le déploiement Skype Entreprise local. Pour plus d’informations, [voir Désactiver l’hybride pour achever](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)la migration vers le cloud.
 
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>Système téléphonique options de connectivité PSTN

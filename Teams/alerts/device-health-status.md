@@ -16,12 +16,12 @@ description: Découvrez comment utiliser les fonctionnalités Teams de surveilla
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 844dddfc04e1dc29311a237c3fc4f7ac41a1ce7f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636759"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735351"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams d’état des appareils
 
@@ -33,7 +33,7 @@ Avant de commencer, vous avez besoin des autorisations de création d’équipes
 
 1. Dans la barre de navigation gauche du Centre Microsoft Teams’administration, sélectionnez Notifications et & **d’alertes.**  >  
 
-   ![Section Règles dans le Centre d’administration](../media/select-rules.png)
+   ![Section Règles du Centre d’administration.](../media/select-rules.png)
 
 2. Dans la page **Règles,** sélectionnez **Règle d’état de l’appareil.**
 

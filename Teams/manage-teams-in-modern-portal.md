@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632038"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733834"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le Centre d’administration Microsoft Teams
 
@@ -45,7 +45,7 @@ Vous pouvez en savoir plus sur les rôles d’administrateur dans Teams dans [Ut
 
 Les outils de gestion pour les équipes se trouvent sous le nœud **Teams** dans le Centre d’administration Microsoft Teams. (Dans le Centre d’administration, sélectionnez **Teams** > **Gérer les équipes**.) Chaque équipe est soutenue par un groupe Microsoft 365, et ce nœud fournit une vue des groupes qui ont été compatibles avec Microsoft Teams dans votre organisation.
 
-![Capture d’écran de la grille de vue d’ensemble de Teams](media/manage-teams-in-modern-portal-grid.png)  
+![Capture d’écran de la grille de vue d’ensemble de Teams.](media/manage-teams-in-modern-portal-grid.png)  
 
 La grille affiche les propriétés suivantes :
 
@@ -94,7 +94,7 @@ Vous pouvez accéder à la page de profil d’équipe de n’importe quelle équ
 - Ajouter ou supprimer des canaux (notez que vous ne pouvez pas supprimer le canal Général).
 - Modifiez les paramètres d’équipe et de groupe.
  
-![Capture d’écran d’un exemple de profil d’équipe](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Capture d'écran d'un exemple de profil d'équipe.](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>Apporter des modifications aux équipes
 

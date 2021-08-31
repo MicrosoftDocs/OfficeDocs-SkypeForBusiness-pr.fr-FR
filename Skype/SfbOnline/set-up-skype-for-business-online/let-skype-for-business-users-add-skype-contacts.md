@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Découvrez comment permettre à des personnes qui utilisent Skype Entreprise de contacter des utilisateurs Skype Entreprise externes à votre organisation et à les ajouter à leur liste de contacts. '
-ms.openlocfilehash: 77fb8098e7adeebd4267aed7f21153b20abd661b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5ee802b434f0d65f9301757699e2bddc65a579f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594838"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730543"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Autoriser les utilisateurs de Skype Entreprise à ajouter des contacts Skype
 
@@ -35,7 +35,7 @@ Avec Skype Entreprise, vos utilisateurs peuvent rechercher et contacter par mess
   
 Pour ce [faire,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) vous Microsoft 365 ou vous Office 365 d’autorisations d’administrateur.
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
   
 1. Connectez-vous à l’Microsoft 365 votre Office 365 administrateur sur [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) .
     

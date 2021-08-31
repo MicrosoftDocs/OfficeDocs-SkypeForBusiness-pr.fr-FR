@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dd52a83620b0d4d20547e0da14cafa11ce30dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fd023e96301661db9e181ab38e1b9b1f9fe3515
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627386"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731553"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Préparer un plan de préparation utilisateur
 
-![Étapes du voyage de mise à niveau, mettant en évidence la phase De disponibilité des utilisateurs](media/upgrade-banner-user-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase De disponibilité des utilisateurs")
+![Étapes du voyage de mise à niveau, mettant en évidence la phase De disponibilité des utilisateurs.](media/upgrade-banner-user-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase De disponibilité des utilisateurs")
 
 Cet article fait partie de la phase User Readiness de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation technique. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
 
@@ -38,15 +38,15 @@ Cet article fait partie de la phase User Readiness de votre voyage de mise à ni
 - [Coexistence et interopérabilité comprises entre les systèmes Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Un plan de préparation des utilisateurs optimal incorpore la manière dont vous communiquez, formez et supportez vos utilisateurs pendant la phase pilote, d’intégration et de mise à niveau vers Teams. Comme vous l’avez découvert [dans Évaluer](./upgrade-org-change-readiness.md)la disponibilité en matière de changements d’organisation, la préparation n’est pas adaptée à une seule taille. Pour garantir une utilisation optimale de la nouvelle technologie, utilisez une combinaison de messagerie à grande portée (intégration de la messagerie de vision/valeur et de cas d’utilisation universelle), de messages, de formations et de support adaptés aux personnage et aux personnage que vous avez définis, ainsi qu’à vos langues, le cas échéant. Ce plan personnalisé facilitera l’adoption par les utilisateurs en permettant aux utilisateurs de se mettre plus rapidement en relation avec Teams, tout en montrant que vous comprenez leurs besoins.
+Un plan de préparation des utilisateurs optimal incorpore la manière dont vous communiquez, formez et supportez vos utilisateurs pendant la phase pilote, d’intégration et de mise à niveau vers Teams. Comme vous l’avez découvert [dans Évaluer](./upgrade-org-change-readiness.md)la disponibilité en matière de changements d’organisation, la préparation n’est pas une seule taille. Pour garantir une utilisation optimale de la nouvelle technologie, utilisez une combinaison de messagerie à grande portée (intégration de la messagerie de vision/valeur et de cas d’utilisation universelle), de messages, de formations et de support adaptés aux personnage et aux personnage que vous avez définis, ainsi qu’à vos langues, le cas échéant. Ce plan personnalisé facilitera l’adoption par les utilisateurs en permettant aux utilisateurs de se mettre plus rapidement en relation avec Teams, tout en montrant que vous comprenez leurs besoins.
 
 > [!Tip]
 > Téléchargez le Kit de réussite [de](https://aka.ms/UpgradeSuccessKit) la mise à niveau pour les modèles de matériel de préparation des utilisateurs, tels que des communications et des enquêtes auprès des utilisateurs, en plus d’un exemple de plan de projet de mise à niveau et de plan de test pilote.
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment créer un plan de préparation pour faciliter et accélérer l’adoption de la nouvelle solution par les utilisateurs ?</li><li>Disposez-vous des ressources de sensibilisation, de formation et de support appropriées qui s’alignent sur la capacité de vos utilisateurs à gérer le changement et le personnage que vous avez défini ?</li></ul> |
-| ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez la liste ci-dessous pour générer des idées pour votre plan de préparation. Sélectionnez les activités les plus pertinentes, ou ajoutez les vôtres, pour concevoir un plan de préparation optimisé pour votre organisation. N’oubliez pas d’utiliser une combinaison de campagnes à grande portée (pour l’ensemble de votre organisation) et ciblées (pour des retards ou des personnage spécifiques) pour un résultat maximal.</li></ul>|
+| ![Icône représentant des points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Comment créer un plan de préparation pour faciliter et accélérer l’adoption de la nouvelle solution par les utilisateurs ?</li><li>Disposez-vous des ressources de sensibilisation, de formation et de support appropriées qui s’alignent sur la capacité de vos utilisateurs à gérer le changement et le personnage que vous avez défini ?</li></ul> |
+| ![Icône représentant l’étape suivante.](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez la liste ci-dessous pour générer des idées pour votre plan de préparation. Sélectionnez les activités les plus pertinentes, ou ajoutez les vôtres, pour concevoir un plan de préparation optimisé pour votre organisation. Pensez à utiliser une combinaison de campagnes à grande portée (pour l’ensemble de votre organisation) et ciblées (pour des retards ou des personnage spécifiques) pour un résultat maximal.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

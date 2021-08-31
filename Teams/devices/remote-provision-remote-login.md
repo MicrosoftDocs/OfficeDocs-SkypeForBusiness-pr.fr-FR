@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment mettre en service à distance et vous connectez pour Teams appareils Android
-ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632198"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733313"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Mise en service à distance et se connectez pour Teams appareils Android
 
-Les administrateurs informatiques peuvent mettre en service et se connectent à distance sur Teams appareil Android. Pour mettre en service un appareil à distance, l’administrateur doit télécharger les ID MAC des appareils en cours de mise en service et créer un code de vérification. L’ensemble du processus peut être accompli à distance à partir du centre Teams’administration.
+Les administrateurs informatiques peuvent mettre en service à distance un appareil Android et Teams se connectent. Pour mettre en service un appareil à distance, l’administrateur doit télécharger les ID MAC des appareils en cours de mise en service et créer un code de vérification. L’ensemble du processus peut être accompli à distance à partir du centre Teams’administration.
 
 ## <a name="review-the-supported-devices"></a>Passer en revue les appareils pris en charge
 
@@ -48,7 +48,7 @@ La liste suivante présente les conditions requises pour le microprogramme de l�
 |salles Teams sur Android|Logitech Cat Bar|1.2.982|
 |salles Teams sur Android|AudioCodes RXV80|1.13.361|
 |salles Teams sur Android|CESSEURS DÉVELOPPENT VISION 3T|1.2.2.21182.10|
-|salles Teams sur Android|Yealink MeetingBar A30|133.15.0.60|
+|salles Teams sur Android|Barre de réunions Yealink A30|133.15.0.60|
 |salles Teams sur Android|Barre de réunions Yealink A20|133.15.0.60|
 |salles Teams sur Android|Console tactile CTP18 Yealink|137.15.0.37|
 |salles Teams sur Android|Poly Studio X30|3.5.0.344025|
@@ -70,7 +70,7 @@ Dans la **fenêtre Provision de nouveaux appareils,** vous pouvez ajouter l’ad
 
 1. Dans **l’onglet Activation en** attente, **sélectionnez Ajouter un ID MAC.**
 
-   ![ajouter manuellement une adresse Mac de périphérique](../media/remote-provision-6.png)
+   ![ajouter manuellement une adresse Mac de périphérique.](../media/remote-provision-6.png)
 
 1. Entrez l’ID MAC.
 1. Entrez un emplacement pour aider les techniciens à identifier l’emplacement d’installation des appareils.
@@ -98,15 +98,15 @@ Lorsque l’appareil est sous tension et connecté au réseau, le technicien le 
 
 1. Le technicien sélectionne Périphérique **d’approvisionnement** dans le **Paramètres.**  
 
-   ![Option Nouvel appareil disponible à partir de l’onglet Actions](../media/provision-device1.png)
+   ![Option Provision new device from the Actions tab.](../media/provision-device1.png)
   
 2. Le technicien entre le code de vérification spécifique de l’appareil dans le champ de saisie fourni.
 
-   ![Vérification de l’approvisionnement d’un nouvel appareil](../media/provision-device-verification1.png)
+   ![Approvisionnement de la vérification de l’appareil.](../media/provision-device-verification1.png)
 
    Une fois l’appareil correctement mis en service, le nom du client s’affiche dans la page de inscription.
 
-   ![Nom du client sur la page de inscription](../media/provision-code.png)
+   ![Nom du client sur la page de inscription.](../media/provision-code.png)
 
 ## <a name="sign-in-remotely"></a>Se connectez à distance
 
@@ -118,7 +118,7 @@ Le périphérique en attente apparaît dans **l’onglet De confirmation de** la
 
 2. Suivez les instructions dans **Se connectez à un utilisateur,** puis sélectionnez **Fermer.**
 
-   ![Fenêtre Se connecter à un utilisateur pour un appareil individuel](../media/sign-in-user.png)
+   ![fenêtre Se connectez à un utilisateur pour un appareil individuel.](../media/sign-in-user.png)
 
 ## <a name="related-article"></a>Article connexe
 

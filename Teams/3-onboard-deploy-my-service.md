@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c027da20c6c305fd5924cd6483c5cbd63b8ddd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624936"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733539"
 ---
 # <a name="deploy-my-service"></a>Déployer mon service
 
@@ -69,7 +69,7 @@ L’objectif du manuel est de traiter les facteurs qui influencent la vision de 
 
 Le [manuel d’enablement de site pour voix (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) est un Microsoft Excel de travail. Chacun de ces cinq zones de focus est une feuille distincte dans le manuel, et chaque tâche et activité de déploiement est regroupée sur l’une de ces feuilles.
 
-![Capture d’écran du manuel d’enablement de site](media/deploy-my-service-image1.png "Capture d’écran du manuel")
+![Capture d’écran du manuel d’enablement de site.](media/deploy-my-service-image1.png "Capture d’écran du manuel")
 
 > [!NOTE]
 > Vous devez créer une instance distincte du manuel pour chaque site dans l’étendue de votre déploiement Teams lecture.
@@ -88,24 +88,24 @@ Quelle que soit la taille et la complexité de l’emplacement, l’activation d
 
 4. Entrez le **nom du site, le code du site** et la date de lancement **planifié,** comme illustré ci-dessous. Il s’agit d’une étape critique, car elle ajuste les délais recommandés pour chaque activité dans le manuel.
 
-   ![Exemple avec nom de site, code de site et date de lancement planifié](media/deploy-my-service-image2.png "Exemple avec le nom du site de New York, le code de site NY01 et la date de lancement prévue du 20 mars 2018")
+   ![Exemple avec nom de site, code de site et date de lancement planifié.](media/deploy-my-service-image2.png "Exemple avec le nom du site de New York, le code de site NY01 et la date de lancement prévue du 20 mars 2018")
 
 5. Examinez chaque activité, prenez les mesures nécessaires et mettez à jour l’état à mesure que vous vous y promenez dans la chronologie. L’état est représenté graphiquement, comme décrit ci-dessous :
   
-   - ![Illustration d’une coche verte Oui ou non ](media/deploy-my-service-image3.png) **applicable (vert)** : l’activité est terminée ou n’est pas applicable à ce site et aucune autre action n’est requise.</li>
-   - ![Illustration d’un point d’exclamation jaune ](media/deploy-my-service-image4.png) <strong>L’activité n’est</strong> pas encore terminée (jaune) : l’activité n’a pas encore été effectuée et doit être mise à jour sur Oui ou Non dans son planning.</li>
-   - ![Illustration d’un X rouge indiquant non (rouge) : l’activité ne peut pas se terminer en raison d’un problème et doit être portée à la réunion ](media/deploy-my-service-image5.png) <strong></strong> d’état du projet.</li></ul>
+   - ![Illustration d’une coche verte.](media/deploy-my-service-image3.png) **Oui ou non applicable (vert) :** L’activité est terminée ou n’est pas applicable pour ce site et aucune autre action n’est requise.</li>
+   - ![Illustration d’un point d’exclamation jaune.](media/deploy-my-service-image4.png) <strong>L’activité n’est pas encore terminée (jaune) :</strong> L’activité n’est pas encore terminée et doit être mise à jour sur Oui ou Non dans son échéancier.</li>
+   - ![Illustration d’un X rouge indiquant non.](media/deploy-my-service-image5.png) <strong>Non (rouge) :</strong> L’activité ne peut pas se terminer en raison d’un problème et doit être portée à la réunion d’état du projet.</li></ul>
 
 6. L’état est déployé dans chaque section et le titre de section est mis en forme avec l’un de ces indicateurs d’état. **L’état** hebdomadaire est également mis à jour automatiquement.
 
-![Capture d’écran des roll-ups d’état hebdomadaires dans le manuel](media/deploy-my-service-image6.png "Capture d’écran des roll-ups d’état hebdomadaires dans le manuel")
+![Capture d’écran des listes de statuts hebdomadaires dans le manuel.](media/deploy-my-service-image6.png "Capture d’écran des listes de rapport d’état hebdomadaires dans le manuel")
 
 > [!TIP]
 > Répétez les étapes ci-dessus pour tous vos emplacements.
 
 > [!IMPORTANT]
 > Certaines étapes peuvent ne pas être applicables à tous les emplacements et sites. Si une activité spécifique n’est pas pertinente pour un site, vous devez sélectionner **Non applicable** pour cette activité. **NE SUPPRIMEZ AUCUNE** ligne du manuel ; Si c’est le cas, les formules de rapport d’état ne fonctionnent pas.<br/><br/>
-Faites attention aux activités qui peuvent prendre plus de temps que prévu, telles que les activités de portage de numéro et d’approvisionnement. Ces activités peuvent affecter négativement la chronologie du déploiement du site. Veillez à examiner et à mettre à jour la [](./envision-steering-committee-complete-guide.md) liste des activités et la chronologie associée de façon hebdomadaire, et à les présenter lors de réunions de comité spécial pour vous assurer que les parties prenantes sont conscientes de l’état de chaque site et des écarts possibles par rapport à la planification du déploiement.
+Faites attention aux activités qui peuvent prendre plus de temps que prévu, telles que les activités de portage de numéro et d’approvisionnement. Ces activités peuvent affecter négativement la chronologie du déploiement du site. Veillez à examiner et à mettre à jour la [](./envision-steering-committee-complete-guide.md) liste des activités et la chronologie associée de façon hebdomadaire, et à les présenter lors de réunions de comité spécial afin de vous assurer que les parties prenantes sont conscientes de l’état de chaque site et des écarts possibles par rapport à la planification du déploiement.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Points de décision</td><td><ul><li>Déterminez si le manuel d’enablement de site est requis pour votre déploiement.</li><li>Décidez qui sera responsable de la personnalisation du manuel d’Microsoft Teams pour chaque site que vous allez déployer.</li></ul></td></tr>

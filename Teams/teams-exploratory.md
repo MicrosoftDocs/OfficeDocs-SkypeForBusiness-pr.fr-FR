@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627066"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734093"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Gérer la licence exploratoire Microsoft Teams
 
@@ -92,11 +92,11 @@ Vous pouvez désactiver la possibilité pour un utilisateur d’installer des ap
 
 1. Dans le Centre d’administration Microsoft 365, accédez à **Paramètres** > **Paramètres org**, sélectionnez **Services**, puis choisissez **Services et applications propriétés de l'utilisateur**.
 
-    ![La page Services dans le Centre d’administration](media/iw-trial-services.png)
+    ![La page Services dans le Centre d’administration.](media/iw-trial-services.png)
 
 2. Désactivez la cache à cocher **Permettre aux utilisateurs d'installer les applications et services à l’essai**.
 
-    ![L’Utilisateur dispose d’une page des applications et services dans le Centre d’administration](media/iw-trial-user-owned-apps-services.png)
+    ![la page Applications et services appartenant à l’utilisateur dans le Centre d’administration.](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > Si votre organisation n’est pas éligible à l’expérience exploratoire Teams, l'option **Laisser les utilisateurs installer les applications et services d’essai** ne s’affiche pas.

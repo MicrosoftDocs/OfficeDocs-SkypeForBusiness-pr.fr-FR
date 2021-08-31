@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e8f123bf7a351689747649b75f429588445a5d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14c76bd56fa7e6e9392550fa61385539415e52eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625926"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733553"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Expiration et renouvellement des équipes dans Microsoft Teams
 
@@ -31,7 +31,7 @@ Pour resserrez le nombre d’équipes inutilisées, en tant qu’administrateur,
 
 Lorsque vous appliquez une stratégie d’expiration à une équipe, un propriétaire d’équipe reçoit une notification pour le renouvellement de l’équipe 30 jours, 15 jours et 1 jour avant la date d’expiration de l’équipe. Lorsque le propriétaire de l’équipe reçoit la notification, il peut cliquer sur Renouveler **maintenant** dans les paramètres de l’équipe pour renouveler l’équipe.
 
-![Capture d’écran du bouton Renouveler maintenant pour renouveler une équipe dans les paramètres d’une équipe](media/team-expiration.png "Capture d’écran du bouton Renouveler maintenant pour renouveler une équipe dans les paramètres d’une équipe")
+![Capture d’écran du bouton Renouveler maintenant pour renouveler une équipe dans les paramètres de l’équipe.](media/team-expiration.png "Capture d’écran du bouton Renouveler maintenant pour renouveler une équipe dans les paramètres d’une équipe")
 
 Si le propriétaire de l’équipe ne renouvelle pas l’équipe et qu’aucune activité ne s’y trouve avant la fin de la stratégie d’expiration, l’équipe est dans un état « supprimé (supprimé de façon soft) », ce qui signifie qu’elle peut être restaurée dans les 30 prochains jours.
 

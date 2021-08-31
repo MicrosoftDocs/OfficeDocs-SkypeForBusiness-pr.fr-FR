@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrir comment masquer des numéros de téléphone dans Microsoft Teams réunions
-ms.openlocfilehash: 1a006450c1d98e6db0b02ceb953682efdbe3fd6a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9e7fd76f0b9afa9776e554cbde87a0b302c7011
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631988"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733763"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Masquage des numéros de téléphone Microsoft Teams réunions
 
 Pour une confidentialité supplémentaire, les numéros de téléphone des participants qui appellent une réunion Teams à l’aide de l’audioconférence sont entièrement affichés aux participants internes. Les numéros sont masqués des participants extérieurs à votre organisation. Ce paramètre est le paramètre par défaut pour toutes les organisations. Le nombre masqué s’affiche comme illustré dans l’image suivante :
 
-![Exemple de numéro de téléphone masqué](media/hiddenPhoneNum.png)
+![Exemple de numéro de téléphone masqué.](media/hiddenPhoneNum.png)
 
 Pour des cas d’utilisation spécifiques dans le secteur, les administrateurs ont la possibilité de choisir l’organisation des numéros de téléphone des participants à l’audioconférence dans les réunions organisées dans leur client. Les administrateurs ont le choix entre trois options :
 
@@ -37,7 +37,7 @@ Pour des cas d’utilisation spécifiques dans le secteur, les administrateurs o
 - Téléphone numéros sont masqués pour toutes les personnes de la réunion à l’exception de l’organisateur.
 - Téléphone numéros de réunion ne sont pas tâches, ce qui les rend visibles à tous les autres personnes de la réunion.
 
-Ce paramètre s’applique à toutes les surfaces de la réunion où les numéros de téléphone sont exposés.
+Ce paramètre est appliqué à toutes les surfaces de la réunion où les numéros de téléphone sont exposés.
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Utiliser Microsoft PowerShell pour définir le masquage des numéros de téléphone
 

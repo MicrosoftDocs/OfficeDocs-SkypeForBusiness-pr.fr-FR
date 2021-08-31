@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Skype Entreprise Server gestion des sessions de base via la prise en charge du routage entre les éléments. '
-ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8ed3ab7b72474614011e4b9f7aaf49ffd5160b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630508"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730909"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>Skype Entreprise Server : routage inter-acheminements
 
@@ -25,9 +25,9 @@ Skype Entreprise Server gestion des sessions de base via la prise en charge du r
 
 La figure suivante illustre Skype Entreprise Server l’interconnectivité entre une passerelle PSTN et un SYSTÈME IP-PBX.
 
-![Interconnectivité entre une passerelle PSTN et un SYSTÈME IP-PBX](../../media/pstn-gateway-ip-pbx.jpg)
+![Interconnectivité entre une passerelle PSTN et un SYSTÈME IP-PBX.](../../media/pstn-gateway-ip-pbx.jpg)
 
 La figure suivante illustre la Skype Entreprise Server deux systèmes IP-PBX.
 
-![Skype Entreprise Server connexion de deux systèmes IP-PGX](../../media/two-ip-pbx-systems.jpg)
+![Skype Entreprise Server connexion de deux systèmes IP-PGX.](../../media/two-ip-pbx-systems.jpg)
 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f45a3a8e1538032ffffe3fbee6bc94d093889a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41b145b4741199a133c602caa383277aa24d02e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583568"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730863"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Intégrer le support de Microsoft Teams
 
@@ -37,4 +37,4 @@ Pour vous assurer que les premiers adopters et champions auront le support appro
 - [Problèmes connus et résolution des problèmes](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Formation Microsoft Teams](./training-microsoft-teams-landing-page.md)
 
-![Icône représentant l’étape suivante : Microsoft Teams ](media/teams-adoption-next-icon.png) [phase d’adoption 3 : Mise à l’échelle.](teams-adoption-phase3-enable.md)
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Microsoft Teams [phase d’adoption 3 : Mise à l’échelle.](teams-adoption-phase3-enable.md)

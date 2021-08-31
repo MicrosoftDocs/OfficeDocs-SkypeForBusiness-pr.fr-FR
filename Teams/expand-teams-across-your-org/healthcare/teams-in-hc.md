@@ -26,12 +26,12 @@ description: Découvrez les fonctionnalités de soins de santé telles que la t�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627566"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730673"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -72,7 +72,7 @@ Utilisez la plateforme complète de réunions de Microsoft Teams pour programmer
 - Si votre organisation utilise déjà les dossiers médicaux informatisés, ou DMI, vous pouvez intégrer Microsoft Teams pour une expérience plus transparente. Le connecteur de dossier médical informatisé (DMI) de Microsoft Teams permet aux cliniciens de lancer facilement une visite virtuelle d'un patient ou de consulter un autre fournisseur dans Teams, directement à partir du système DMI. Pour en savoir plus, consultez [Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)](ehr-admin.md).
 - Si vous n'utilisez pas un DMI pris en charge, vous pouvez utiliser Microsoft Bookings et l'application Bookings dans Teams. Si vous souhaitez en savoir plus, consultez [App Books et visites virtuelles dans Microsoft Teams](../../bookings-app-admin.md).
 
-![Visites virtuelles dans Microsoft Teams ](../../media/virtual-visits-teams.png)
+![Visites virtuelles avec Microsoft Teams.](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Packages de stratégies Teams
 
@@ -105,7 +105,7 @@ De nouveaux modèles de création Teams ont été développés pour s’applique
 
 Rassemblez votre équipe de santé pour coordonner les soins et collaborer avec Microsoft Teams.
 
-![Soins de santé : collaborer avec votre équipe de santé dans Teams](../../media/teams-healthcare-collaborate-in-teams.png)
+![Soins de santé : Collaborez avec votre équipe de santé dans Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams permet aux médecins, aux cliniciens, aux infirmières et aux autres membres du personnel de collaborer efficacement grâce aux fonctions de collaboration incluses dans Microsoft Teams, telles que :
 
@@ -134,7 +134,7 @@ Par exemple, une infirmière responsable crée une liste de patients dans une é
 
 Voici un exemple de liste qui a été définie pour la ronde des patients.
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="Capture d’écran d’une liste d’exemples pour la ronde des patients":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Capture d’écran d’une liste d’exemples pour l’arrondi des patients.":::
 
 Pour en savoir plus, consultez [Gérer l’application Listes pour votre organisation dans Teams](../../manage-lists-app.md).
 

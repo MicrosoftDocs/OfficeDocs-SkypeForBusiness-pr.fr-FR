@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment rechercher des numéros de téléphone que vous pouvez affecter à vos utilisateurs, par pays ou région et ville, et spécifier la quantité de numéros dont vous avez besoin.
-ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31815ff2877cc487f090600560fe9203c840fe58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602109"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733563"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
@@ -40,7 +40,7 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 
 **Pour rechercher des numéros de téléphone pour vos utilisateurs**
 
-![Icône montrant le logo ](media/teams-logo-30x30.png) **Teams’aide du Centre Microsoft Teams’administration**
+![Icône représentant le logo Teams’affichage.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
   
 1. Allez dans le **Microsoft Teams d’administration.**
 
@@ -60,7 +60,7 @@ Si vous avez besoin d’aide pour l’obtention des numéros de téléphone, vou
 7. Sous **Quantité,** entrez le nombre de numéros de téléphone que vous souhaitez pour votre organisation, puis cliquez sur **Suivant.** Vous avez 10 minutes pour sélectionner vos numéros de téléphone. Si vous prenez plus de 10 minutes, les numéros seront retournées au pool de numéros de téléphone.
 
     > [!NOTE]
-    > Vous pouvez voir le nombre de numéros de téléphone disponibles (en fonction du nombre de licences), en regard **de Quantité.** 
+    > Vous pouvez voir le nombre de numéros de téléphone disponibles (en fonction du nombre de licences), répertoriés en regard **de Quantité.** 
   
 8. Dans la page **Obtenir des** numéros, sélectionnez les numéros de téléphone de votre choix, cliquez sur Acquérir les **numéros,** puis sur **Suivant.**
 

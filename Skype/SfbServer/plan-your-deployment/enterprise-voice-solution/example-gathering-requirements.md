@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Fournit un exemple détaillé de planification du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise, notamment la collecte d’informations sur les sites, les régions et la bande passante de votre réseau.
-ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 180e62ca2784186c4cd9e646548183ddbcfeac30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590989"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731453"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Exemple : collecte des conditions requises pour le contrôle d’admission des appels Skype Entreprise Server
 
@@ -35,7 +35,7 @@ Cet exemple indique comment planifier et implémenter le contrôle d’admission
 
 3. Identifiez et définissez les sites réseau connectés à chaque région réseau.
 
-4. Pour chaque site réseau dont la connexion au réseau wan est limitée par la bande passante, décrivez la capacité de bande passante de la connexion WAN et les limites de bande passante que l’administrateur réseau Skype Entreprise Server définies pour le trafic multimédia, le cas échéant. Il n’est pas nécessaire d’inclure les sites dont la bande passante de connexion de réseau étendu n’est pas limitée.
+4. Pour chaque site réseau dont la connexion au réseau wan est limitée par la bande passante, décrivez la capacité de bande passante de la connexion WAN et les limites de bande passante définies par l’administrateur réseau pour le trafic multimédia Skype Entreprise Server, le cas échéant. Il n’est pas nécessaire d’inclure les sites dont la bande passante de connexion de réseau étendu n’est pas limitée.
 
 5. Associez chaque sous-réseau de votre réseau à un site réseau.
 
@@ -57,7 +57,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
    **Exemple de réseau d’entreprise divisé en trois régions réseau**
 
-     ![Exemple de topologie réseau avec 3 régions réseau](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![Exemple de topologie réseau avec 3 régions réseau.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
     > Un réseau MPLS (Multiprotocol Label Switching) devrait être représenté en tant que région réseau dans laquelle un emplacement géographique est associé à un site réseau correspondant. Pour plus d’informations, [voir Components and topologies for call admission control in Skype Entreprise](components-and-topologies.md). 
@@ -109,7 +109,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
    **Région réseau CAC Amérique du Nord et trois sites réseau non limités par la bande passante (Chicago, New York et Détroit) et trois sites réseau limités par la bande passante de la liaison WAN (Portland, Reno et Albuquerque)**
 
-     ![Exemples de sites réseau limités par la bande passante wan](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![Exemples de sites réseau limités par la bande passante wan.](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. Pour chaque liaison WAN dont la bande passante est limitée, déterminez les points suivants :
 
@@ -187,7 +187,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
    **Liens de région réseau et limites de bande passante associées**
 
-     ![Exemple de limitations entre 3 régions](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![Exemple de limitations entre 3 régions.](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **Information de bande passante du lien de région (bande passante en Kbits/s)**
 
@@ -225,7 +225,7 @@ Pour préparer le contrôle d’admission des appels, rassemblez les information
 
    **Région réseau CAC Amérique du Nord avec les capacités et les limites de bande passante de la liaison intersite entre Reno et Albuquerque**
 
-     ![Exemple de sites réseau limités par la bande passante wan](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![Exemple de sites réseau limités par la bande passante wan.](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **Information de bande passante d’une liaison intersite entre deux sites réseau (bande passante en Kbits/s)**
 

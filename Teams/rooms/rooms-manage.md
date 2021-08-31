@@ -15,31 +15,31 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter la maintenance et les opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbe3a22b86fa9f4b0773e1a7397bb206deb093e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636638"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733583"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
 Si vous avez des Salles Microsoft Teams certifiés dans votre organisation, vous avez des options de gestion flexibles.  Vous pouvez gérer les appareils vous-même dans le même emplacement central que celui où vous gérez toutes vos solutions Teams, le Centre d’administration Microsoft Teams ou transférer vos responsabilités de gestion à des experts dédiés utilisant les services gérés [Salles Microsoft Teams.](https://portal.rooms.microsoft.com)  Vous pouvez également déléguer l’accès de gestion à un partenaire de votre choix pour l’une ou l’autre des options.
 
-Avec Microsoft Teams d’administration, vous pouvez :
+Avec Microsoft Teams Centre d’administration, vous pouvez :
 
 - Effectuer une gestion des appareils telle que le redémarrage des appareils et le téléchargement des journaux des appareils
 - Appliquer Teams paramètres spécifiques
 - Vérifier l’état d’Microsoft Teams périphériques de la salle et de ses périphériques, notamment les caméras, les écrans, les microphones, et ainsi de suite.
-- Passer en revue l’activité en cours et passée des réunions (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
+- Passer en revue l’activité des réunions passées et présentes (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
 - Voir les périphériques (tels que les caméras et les projecteurs) connectés à un Microsoft Teams de salle
 
 Pour gérer salles Teams appareils mobiles, ouvrez le [Centre Microsoft Teams’administration](https://admin.teams.microsoft.com) et allez sur **Appareils**  >  **salles Teams.**
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="salles Teams pages de synthèse dans Teams centre d’administration":::
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="salles Teams pages de synthèse dans Teams centre d’administration.":::
 
 > [!IMPORTANT]
-> Pour gérer les appareils à l Teams d’administration, vous devez avoir accès aux rôles Administrateur général, Administrateur Teams administrateur de périphériques ou Administrateur Teams périphériques.
+> Pour gérer les appareils à l’Teams d’administration, vous devez avoir accès aux rôles Administrateur général, Administrateur Teams administrateur de périphériques ou Administrateur Teams périphériques.
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Apporter des modifications à salles Teams appareils
 
@@ -62,7 +62,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Compte*                                                    |                                                        |                    |
 | **Email**                                                    | Adresse e-mail                                          | Non                 |
-| **Mode réunion pris en charge**                                   | Skype Entreprise (par défaut) et Microsoft Teams<br>Skype Entreprise et Microsoft Teams défaut<br>Skype Entreprise Uniquement|Oui|
+| **Mode réunion pris en charge**                                   | Skype Entreprise (par défaut) et Microsoft Teams<br>Skype Entreprise et Microsoft Teams (par défaut)<br>Skype Entreprise Uniquement|Oui|
 | **Authentification moderne**                                    | Activé<br>Désactivé                                              | Oui                |
 | **Exchange de l’adresse de l’équipe**                                         | Adresse e-mail                                          | Non                 |
 | **Domaine \nom d’utilisateur (facultatif)**                               | Nom d’utilisateur et domaine du compte                           | Non                 |
@@ -94,7 +94,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 Les modifications apportées aux paramètres de l’appareil ne prennent effet qu’après le redémarrage des appareils. Lorsque vous a apporter des modifications qui ont besoin d’un redémarrage, vous pouvez choisir de redémarrer immédiatement les appareils ou de planifier un redémarrage. Voici les options de redémarrage disponibles :
 
 - **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous sélectionnerez cette option.
-- **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils sur qui vous a apporter des modifications à un moment moins perturbateur pour votre organisation.
+- **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils que vous modifiez à un moment moins perturbateur pour votre organisation.
   - **Sélectionnez la date et l’heure** : choisissez la date et l’heure spécifiques pour redémarrer l’appareil. La date et l’heure choisies sont locales pour l’appareil en cours de redémarrage. 
   - **Quitter la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
 
@@ -137,7 +137,7 @@ Pour afficher des informations détaillées sur un appareil, sélectionnez son n
 - **État d’état** Présente l’état global de l’appareil Teams salle. L’état de santé peut être **sain** **ou défectueux.**
 - **Hors connexion depuis** Indique la dernière fois que Microsoft 365 pu communiquer avec l’appareil.
 - **État de l’appareil** Indique l’état actuel de l’appareil : **Inactive,** réunion **Teams,** réunion Skype **réunion** ou **Ingest.**
-- **Périphériques** Affiche les périphériques connectés à votre Teams de salle et leur état d’état. L’état d’état peut **être Connecté** **ou Déconnecté.**
+- **Périphériques** Affiche les périphériques connectés à votre périphérique Teams de salle et leur état d’état. L’état d’état peut **être Connecté** **ou Déconnecté.**
 - **État d’santé** Affiche des informations détaillées sur les périphériques connectés à votre appareil salle Teams, la connectivité réseau, l’état de connexion aux services requis et les informations de version logicielle.
 - **Détails** Affiche les informations du fabricant, l’adresse IP réseau et l’Teams de série/MAC du périphérique de salle de réunion.
 - **Activité** Affiche les détails de la réunion passée, notamment la date et l’heure de la réunion, le nombre de participants, la durée et la qualité audio. Pour plus d’informations sur les détails de la réunion, voir la section [détails](#meeting-activity-details) sur l’activité de la réunion plus loin dans cet article.
@@ -147,18 +147,18 @@ Pour afficher des informations détaillées sur un appareil, sélectionnez son n
 
 **L’onglet** Activité Teams détails de l’appareil de salle affiche des informations détaillées et générales sur toutes les réunions à qui l’appareil a participé au fil du temps. Dans **l’onglet** Activité, vous pouvez voir quand une réunion a été tenue, le nombre de participants à la réunion participé à la réunion et la qualité de l’audio pendant la réunion.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Liste de résumé de l’activité sur les appareils de salle":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Liste de résumé de l’activité sur les appareils de salle.":::
 
-Pour voir les informations détaillées sur une réunion spécifique, sélectionnez la date et l’heure de la réunion pour plus d’informations. Si une réunion ne compte que deux participants, vous verrez la page des détails des participants, sans quoi vous verrez une page de résumé des participants.
+Pour voir les informations détaillées sur une réunion spécifique, sélectionnez la date et l’heure de la réunion pour plus d’informations. Si une réunion ne compte que deux participants, vous verrez la page des détails des participants, sinon vous verrez une page de résumé des participants.
 
 ##### <a name="participant-summary"></a>Résumé des participants
 
 La page de résumé des participants affiche tous les participants qui ont participé à la réunion. Vous pouvez voir quand chaque participant a rejoint la réunion, son nom, sa qualité audio et les fonctionnalités utilisées pendant la session. Pour afficher les détails de la session d’un participant, sélectionnez l’heure de début de la session pour ce participant.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Détails des conférences de périphériques de salle":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Détails de la conférence sur les appareils de salle.":::
 
 ##### <a name="participant-details"></a>Détails du participant
 
-La page des détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme illustré dans le graphique **suivant,** les informations sur le **périphérique,** le système et la connectivité sont fournies pour le participant et pour salles Teams appareil.  **Les informations** de diagnostic réseau entre le participant et salles Teams appareil sont également fournies. Sélectionnez l’icône du contexte pour lequel vous souhaitez plus d’informations. Pour plus d’informations de diagnostic, sélectionnez **l’onglet** Avancé.
+La page des détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme illustré dans le graphique **suivant,** les informations sur l’appareil, le système et la connectivité sont fournies pour le participant et pour salles Teams appareil.  **Les informations** de diagnostic réseau entre le participant et salles Teams appareil sont également fournies. Sélectionnez l’icône du contexte pour lequel vous souhaitez plus d’informations. Pour plus d’informations de diagnostic, sélectionnez **l’onglet** Avancé.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Détails des appels d’un appareil de salle":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Détails des appels sur l’appareil de salle.":::

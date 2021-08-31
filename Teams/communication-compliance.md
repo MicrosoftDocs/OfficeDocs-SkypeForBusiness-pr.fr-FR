@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 767c69d2c529b7fe6c93b667d6150e7b64d46ef2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: accdfbb8edc7e47013a96574c1a0a0b1ed46a89e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631368"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731073"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Conformité des communications avec les Microsoft Teams
 
@@ -52,18 +52,18 @@ Teams administrateurs peuvent configurer les stratégies de conformité aux comm
 
 Après avoir configuré vos stratégies et reçu des alertes de conformité aux communications pour les messages Microsoft Teams, les réviseurs de la conformité de votre organisation doivent agir sur ces messages. Les réviseurs peuvent vous aider à protéger votre organisation en filant les alertes de conformité aux communications et en supprimant les messages marqués d’un Microsoft Teams.
 
-![Supprimer un message dans Teams](./media/communication-compliance-remove-teams-message.png)
+![Supprimer un message dans Teams.](./media/communication-compliance-remove-teams-message.png)
 
 Les messages et le contenu supprimés sont remplacés par des notifications pour les utilisateurs qui leur expliquent que le message ou le contenu a été supprimé et quelle stratégie est applicable à la suppression. L’expéditeur du message ou du contenu supprimé est également informé de l’état de suppression et fournit le contenu du message d’origine pour le contexte relatif à sa suppression. L’expéditeur peut également afficher la condition de stratégie spécifique qui s’applique à la suppression du message.
 
 Exemple de conseil de stratégie vu par l’expéditeur :
 
-![Conseil de stratégie pour l’expéditeur](./media/communication-compliance-warning-1.png)
+![Conseil de stratégie pour l’expéditeur.](./media/communication-compliance-warning-1.png)
 
 Exemple de notification de condition de stratégie vu par l’expéditeur :
 
-![Informations sur les conditions de stratégie de l’expéditeur](./media/communication-compliance-warning-2.png)
+![Informations sur les conditions de stratégie de l’expéditeur.](./media/communication-compliance-warning-2.png)
 
 Exemple de conseil de stratégie vu par le destinataire :
 
-![Conseil de stratégie pour le destinataire](./media/communication-compliance-warning-3.png)
+![Conseil de stratégie pour le destinataire.](./media/communication-compliance-warning-3.png)

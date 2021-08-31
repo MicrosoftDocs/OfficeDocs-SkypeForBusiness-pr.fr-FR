@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631638"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730903"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Composants et topologies pour le contrôle d’admission des appels dans Skype Entreprise
 
-Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique à Skype Entreprise Server Voix Entreprise.
+Planification du contrôle d’admission des appels (CAC) si vous avez un réseau MPLS, une ligne SIP ou une passerelle PSTN ou un PBX tiers. S’applique Skype Entreprise Server Voix Entreprise.
 
 Les rubriques de cette section donnent des informations sur les considérations spécifiques de déploiement du contrôle d’admission des appels (CAC) avec différents types de topologies réseau.
 
@@ -35,13 +35,13 @@ Dans un réseau MPLS (Multiprotocol Label Switching), tous les sites sont connec
 
 **Exemple de réseau MPLS**
 
-![CAC avec MPLS](../../media/CAC_MPLS_1.jpg)
+![Cac avec MPLS.](../../media/CAC_MPLS_1.jpg)
 
 Pour déployer le contrôle d’admission des appels dans un réseau MPLS, vous devez créer une région sur le réseau pour représenter le cloud MPLS et créer un site réseau pour représenter chaque site satellite MPLS. La figure suivante montre comment la région et les sites du réseau doivent être configurés pour représenter le réseau MPLS exemple dans la figure précédente. Les limites globales de bande passante et de session de bande passante sont ensuite basées sur la capacité de la liaison WAN de chaque site vers la région qui représente le cloud MPLS.
 
 **Région et sites d’un réseau MPLS**
 
-![Contrôle d’admission des appels (CAC) avec diagramme MPLS](../../media/CAC_MPLS_2.jpg)
+![Contrôle d’admission des appels (CAC) avec diagramme MPLS.](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>Contrôle d’admission des appels sur une trunk SIP
 
@@ -51,7 +51,7 @@ La figure suivante montre un exemple de déploiement du contrôle d’admission 
 
 **Configuration du contrôle d’admission des appels sur une jonction SIP**
 
-![Diagramme de la trunking SIP du contrôle d’admission des appels](../../media/CAC_SIP_trunk_1.jpg)
+![Diagramme de la trunking SIP du contrôle d’admission des appels.](../../media/CAC_SIP_trunk_1.jpg)
 
 Pour configurer le contrôle d’admission des appels sur une jonction SIP, vous devrez exécuter les tâches suivantes pendant le déploiement du contrôle d’admission des appels :
 
@@ -74,9 +74,9 @@ Le service Cac peut être déployé sur la liaison de réseau wan à partir de l
 
 **Cas 1 : Contrôle d’accès au contrôle d’accès entre le serveur de médiation et une passerelle PSTN**
 
-![Cas 1 : Contrôle d’accès au contrôle d’accès entre passerelle PSTN du serveur de médiation](../../media/CAC_gateways_1.jpg)
+![Cas 1 : contrôle d’accès au contrôle d’accès entre la passerelle PSTN du serveur de médiation.](../../media/CAC_gateways_1.jpg)
 
-Dans cet exemple, le service Cac est appliqué entre le serveur de médiation et une passerelle PSTN. Si un Skype Entreprise client sur le Site réseau 1 passe un appel PSTN via la passerelle PSTN dans le site réseau 2, le média passe par la liaison wan. Par conséquent, deux vérifications cac sont effectuées pour chaque session PSTN :
+Dans cet exemple, le service Cac est appliqué entre le serveur de médiation et une passerelle PSTN. Si un Skype Entreprise client sur le site réseau 1 passe un appel PSTN via la passerelle PSTN dans le site réseau 2, le média passe par la liaison wan. Par conséquent, deux vérifications cac sont effectuées pour chaque session PSTN :
 
 - Entre l’application Skype Entreprise client et le serveur de médiation
 
@@ -99,7 +99,7 @@ Cette configuration est similaire au cas 1. Dans les deux cas, le serveur de mé
 
 **Cas 2 : CONTRÔLE D’accès au contrôle d’accès entre le serveur de médiation et un PBX tiers avec MTP**
 
-![Cas 2 : CONTRÔLE D’accès au contrôle d’accès entre pbX du serveur de médiation avec MTP](../../media/CAC_gateways_2.jpg)
+![Cas 2 : Contrôle d’accès au contrôle d’accès entre pbX du serveur de médiation avec MTP.](../../media/CAC_gateways_2.jpg)
 
 Dans cet exemple, le service Cac est appliqué entre le serveur de médiation et le PBX/MTP. Si un Skype Entreprise client sur le site réseau 1 passe un appel PSTN via le PBX/MTP situé dans le site réseau 2, le média passe par la liaison wan. Par conséquent, pour chaque session PSTN, deux contrôles d’intégrité du contrôle d’intégrité sont effectués :
 
@@ -124,7 +124,7 @@ Le cas 3 est légèrement différent des deux premiers cas. S’il n’existe au
 
 **Cas 3 : CONTRÔLE D’accès au contrôle d’accès entre le serveur de médiation et un PBX tiers sans MTP**
 
-![Cas 3 : CONTRÔLE D’accès au contrôle d’accès entre le PBX du serveur de médiation sans MTP](../../media/CAC_gateways_3.jpg)
+![Cas 3 : CAC entre le PBX du serveur de médiation sans MTP.](../../media/CAC_gateways_3.jpg)
 
 Dans cet exemple, si un utilisateur client Skype Entreprise sur le site réseau 1 appelle un utilisateur via le PBX, le serveur de médiation peut effectuer des vérifications cac uniquement sur la partie proxy (entre l’application cliente Skype Entreprise et le serveur de médiation). Étant donné que le serveur de médiation ne comprend pas d’informations sur le périphérique de point de terminaison pendant la demande de session, les vérifications du contrôle d’accès au contrôle d’accès ne peuvent pas être effectuées sur la liaison wan (entre le serveur de médiation et le point de terminaison tiers) avant l’établissement de l’appel. Cependant, une fois la session établie, le serveur de médiation facilite la gestion de la bande passante utilisée sur la connexion.
 

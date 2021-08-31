@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Résumé : Lisez cette rubrique pour découvrir comment planifier le serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: e4bce3145c3f2e3974c2f57d75afbe297ce8d304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623556"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731093"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -45,7 +45,7 @@ Le serveur de conversation permanente peut vous aider à améliorer la communica
 
 Le diagramme suivant présente une vue de haut niveau de l’architecture du serveur de conversation permanente. 
   
-![Architecture de haut niveau du serveur de conversation permanente](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
+![Architecture d'High-Level de conversation permanente.](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
 La conversation permanente se compose d’un rôle serveur frontal qui fournit les services de conversation permanente, ainsi qu’un composant de base de données SQL principal. Les composants frontaux et principaux sont inclus dans un pool de conversation permanente dédié. Chaque ordinateur qui héberge le serveur de conversation permanente doit avoir accès à une topologie Skype Entreprise Server 2015 existante. Dans ce diagramme, il existe un pool de serveurs de conversation permanente (A), qui dépend de Skype Entreprise Server pool A pour le routage des messages vers celui-ci.
   
@@ -57,7 +57,7 @@ Skype Entreprise Server 2015 communique avec le service de conversation permanen
 
 Le diagramme suivant illustre les services frontaux du serveur de conversation permanente et la façon dont ces services communiquent avec les composants de base de données principaux. Les composants frontaux incluent les services de conversation permanente et le service de conformité. Les composants principaux incluent le magasin de conversation permanente et le magasin de conformité de conversation permanente.
   
-![Services de haut niveau du serveur de conversation permanente](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
+![Serveur de conversation permanente High-Level Services.](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
 ### <a name="chat-service"></a>Service de conversation
 

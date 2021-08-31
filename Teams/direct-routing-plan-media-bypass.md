@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation média avec Système téléphonique routage direct, ce qui vous permet de raccourcir le chemin d’accès au trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3350f1152f26841489a846749eecc6ad58117215
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8231a57d844539272c65709270b0a0477c50e214
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610331"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730483"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
 ## <a name="about-media-bypass-with-direct-routing"></a>À propos de la dérivation média avec le routage direct
 
-La dérivation média vous permet de raccourcir le chemin d’accès au trafic de médias et de réduire le nombre de sauts en transit pour de meilleures performances. Avec la dérivation média, le média est conservé entre le contrôleur de bordure de session (SBC) et le client au lieu de l’envoyer via le Téléphone Microsoft média. Pour configurer la dérivation média, le SBC et le client doivent se trouver dans le même emplacement ou réseau.
+La dérivation média vous permet de raccourcir le chemin d’accès au trafic de médias et de réduire le nombre de sauts en transit pour de meilleures performances. Avec la dérivation média, le média est conservé entre le contrôleur de bordure de session (SBC) et le client au lieu de l’envoyer via Téléphone Microsoft système informatique. Pour configurer la dérivation média, le SBC et le client doivent se trouver dans le même emplacement ou réseau.
 
 Vous pouvez contrôler la dérivation média pour chaque SBC à l’aide de la commande **Set-CSOnlinePSTNGateway** avec le paramètre **-MediaBypass** définie sur true ou false. Si vous activez la dérivation média, cela ne signifie pas que tout le trafic de médias restera au sein du réseau d’entreprise. Cet article décrit le flux d’appels dans différents scénarios.
 
@@ -37,7 +37,7 @@ Les diagrammes ci-dessous illustrent la différence de flux d’appels avec et s
 Sans contournement média, lorsqu’un client effectue ou reçoit un appel, le trafic de signalisation et le flux de médias entre le SBC, le système Téléphone Microsoft et le client Teams, comme illustré dans le diagramme suivant :
 
 > [!div class="mx-imgBorder"]
-> ![Affiche les signaux et le flux de médias sans contournement multimédia](media/direct-routing-media-bypass-1.png)
+> ![Affiche les signaux et le flux de médias sans contournement multimédia.](media/direct-routing-media-bypass-1.png)
 
 
 Supposons toutefois qu’un utilisateur se trouve dans le même bâtiment ou le même réseau que le SBC. Par exemple, supposons qu’un utilisateur se trouve dans un bâtiment dans Le Monde appelle un utilisateur PSTN : 
@@ -49,7 +49,7 @@ Supposons toutefois qu’un utilisateur se trouve dans le même bâtiment ou le 
 - **Avec la dérivation** média, le média est conservé directement entre l Teams un utilisateur et le SBC, comme illustré dans le diagramme suivant :
 
   > [!div class="mx-imgBorder"]
-  > ![Affiche le trafic de signalisation et le flux multimédia avec contournement des médias](media/direct-routing-media-bypass-2.png)
+  > ![Affiche la signalisation et le flux multimédia avec contournement des médias.](media/direct-routing-media-bypass-2.png)
 
 La dérivation média s’appuie sur des protocoles appelés ice (Interactive Connectivity Connectivity Connectivity Connectivité) sur le client Teams et ICE sur le SBC. Ces protocoles permettent au routage direct d’utiliser le chemin de médias le plus direct pour une qualité optimale. ICE et ICE Lite sont des normes WebRTC. Pour plus d’informations sur ces protocoles, voir RFC 5245.
 
@@ -75,7 +75,7 @@ Le diagramme suivant montre le flux d’appels lorsque la dérivation média est
 - Le trafic de signalisation SIP prend toujours les chemins 4 et 4' (selon le sens de trafic). Les médias restent locaux et prennent le chemin 5b.
 
 > [!div class="mx-imgBorder"]
-> ![Présente le flux d’appels avec contournement multimédia activé, le client est interne](media/direct-routing-media-bypass-3.png)
+> ![Présente le flux d’appels avec contournement multimédia activé, le client est interne.](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique du SBC
@@ -96,7 +96,7 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation média e
 - Le média est relayé par les chemins d’accès 3, 3', 4 et 4'
 
 > [!div class="mx-imgBorder"]
-> ![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique du SBC](media/direct-routing-media-bypass-4.png)
+> ![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique du SBC.](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flux d’appels si un utilisateur se trouve en dehors du réseau et a accès à l’adresse IP publique du SBC
@@ -104,14 +104,14 @@ Le diagramme suivant illustre le flux d’appels lorsque la dérivation média e
 > [!NOTE]
 > Cette configuration n’est pas recommandée, car elle ne prend pas en Teams relais de transport. Au lieu de cela, vous devez tenir compte du scénario précédent où l’utilisateur n’a pas accès à l’adresse IP publique du SBC. 
 
-Le diagramme suivant montre le flux d’appels lorsque la dérivation média est activée, que le client est externe et que le client peut atteindre l’adresse IP publique du média SBC.
+Le diagramme suivant montre le flux d’appels lorsque la dérivation média est activée, que le client est externe et que le client peut atteindre l’adresse IP publique du support SBC.
 
 - Les flèches et les valeurs numériques des chemins d’accès sont conformes à l’article [Microsoft Teams flux d’appels.](./microsoft-teams-online-call-flows.md)
 
 - Le trafic de signalisation SIP prend toujours les chemins 3 et 3' (selon le sens du trafic). Flux multimédias en utilisant le chemin d’accès 2.
 
 > [!div class="mx-imgBorder"]
-> ![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique du SBC](media/direct-routing-media-bypass-5.png)
+> ![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique du SBC.](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Utilisation de processeurs multimédias et de relais de transport
@@ -120,7 +120,7 @@ Microsoft Cloud peut utiliser deux composants dans le chemin d’accès du trafi
 
 - Le processeur de média est un composant public qui gère les éléments multimédias dans les cas qui ne contournent pas et gère les médias pour les applications vocales.
 
-   Les processeurs multimédias sont toujours dans le chemin pour les appels sans contournement de l’utilisateur final, mais jamais dans le chemin pour les appels contournements. Les processeurs multimédias sont toujours dans le chemin d’accès pour toutes les applications vocales telles que le parc des appels, les Standard automatique de l’organisation et les files d’attente d’appels.
+   Les processeurs multimédias sont toujours dans le chemin pour les appels sans contournement de l’utilisateur final, mais jamais dans le chemin pour les appels contournements. Les processeurs multimédias sont toujours dans le chemin d’accès de toutes les applications vocales, telles que le parc des appels, les Standard automatique de l’organisation et les files d’attente d’appels.
 
 - Le relais de transport est utilisé pour se connecter au service de transport le plus proche pour envoyer le trafic en temps réel.
 
@@ -136,7 +136,7 @@ Le diagramme suivant montre deux flux d’appels : un avec la dérivation média
 - Le proxy SIP est un composant qui traduit le signalisation HTTP REST utilisé dans Teams en SIP.    
 
 > [!div class="mx-imgBorder"]
-> ![Présente les flux d’appels avec la dérivation média activée et désactivée](media/direct-routing-media-bypass-6.png)
+> ![Affiche les flux d’appels avec la dérivation média activée et désactivée.](media/direct-routing-media-bypass-6.png)
 
 
 Le tableau ci-dessous résume la différence entre les processeurs de média et les relais de transport.
@@ -146,7 +146,7 @@ Le tableau ci-dessous résume la différence entre les processeurs de média et 
 Chemin de médias pour les appels non contournements pour les utilisateurs finaux | Toujours | Si le client ne parviennent pas à joindre le processeur de média directement | 
 Dans le chemin de médias pour les appels contournements pour les utilisateurs finaux | Jamais | Si le client ne peut pas accéder au SBC sur l’adresse IP publique | 
 Dans le chemin multimédia des applications vocales | Toujours | Jamais | 
-Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison. | 
+Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison | 
 Nombre d’instances dans le monde et emplacement | 10 total : 2 dans la région Est et Ouest des États-Unis ; 2 à Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 en Australie de l’Est et du Sud-est | Multiple
 
 Les plages d’adresses IP sont les plus diverses :
@@ -209,13 +209,13 @@ Le point de connexion pour le routage direct est le FQDN suivant :
 
 **sip.pstnhub.dod.teams.microsoft.us** – FQDN global. Étant donné que l’Office 365 DoD existe uniquement dans les centres de données américains, il n’existe aucun nom de fQDN secondaire et secondaire.
 
-Le problème de sip.pstnhub.dod.teams.microsoft.us de sip.pstnhub.dod.teams.microsoft.us sera résolu en tant qu’adresse IP provenant du sous-réseau suivant :
+Le sip.pstnhub.dod.teams.microsoft.us de sip.pstnhub.dod.teams.microsoft.us de votre FQDN sera résolu en une adresse IP provenant du sous-réseau suivant :
 
 - 52.127.64.0/21
 
 Vous devez ouvrir des ports pour toutes ces plages d’adresses IP de votre pare-feu pour autoriser le trafic entrant et sortant à se rendre ou à partir des adresses pour le trafic de signalisation.  Si votre pare-feu prend en charge les noms DNS, le sip.pstnhub.dod.teams.microsoft.us de noms de domaine (FQDN) est résolu pour tous ces sous-réseaux IP. 
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 Cloud de la communauté du secteur public haute
+### <a name="office-365-gcc-high-environment"></a>Office 365 Cloud de la communauté du secteur public environnement élevé
 
 Le point de connexion pour le routage direct est le FQDN suivant :
 
@@ -245,7 +245,7 @@ SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Défini sur le SBC |
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>Trafic de médias : ip et plages de ports
 
-Le trafic de médias circule entre le client SBC et le client Teams si une connectivité directe est disponible ou via des relais de transport Teams si le client ne peut pas accéder au SBC à l’aide de l’adresse IP publique.
+Le trafic de médias est acheminé entre le client SBC et le client Teams si une connectivité directe est disponible ou via des relais de transport Teams si le client ne peut pas accéder au SBC à l’aide de l’adresse IP publique.
 
 ### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>Exigences pour le trafic de médias directs (entre le client Teams et le SBC) 
 
@@ -275,7 +275,7 @@ Les relais de transport sont dans la même plage que les processeurs multimédia
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 Cloud de la communauté du secteur public haute
+### <a name="office-365-gcc-high-environment"></a>Office 365 Cloud de la communauté du secteur public environnement élevé
 
 - 52.127.88.0/21
 
@@ -298,9 +298,9 @@ UDP/SRTP | Relais de transport | SBC | 50 000 -59 999    | Défini sur le SBC |
 
 Pour l’instant, la dérivation média ne prend en charge que la version v4 des relais de transport. Nous introduirons la prise en charge de la v6 à l’avenir. 
 
-Vous devez ouvrir les ports 3478-3481 pour la transition. Lorsque Microsoft introduit la prise en charge des relais de transport v6 avec la dérivation média, vous n’avez pas besoin de reconfigurer votre équipement réseau ou SBCs. 
+Vous devez ouvrir les ports 3478-3481 pour la transition. Lorsque Microsoft introduit la prise en charge des relais de transport v6 avec la dérivation média, vous n’avez pas besoin de reconfigurer votre équipement réseau ou SBCS. 
 
-### <a name="requirements-for-using-media-processors"></a>Conditions requises pour l’utilisation de processeurs multimédias
+### <a name="requirements-for-using-media-processors"></a>Exigences pour l’utilisation de processeurs multimédias
 
 Les processeurs de média sont toujours dans le chemin de médias des applications vocales et des clients web (par exemple, Teams clients dans Edge ou Google Chrome). La configuration requise est la même que pour une configuration sans contournement.
 
@@ -315,7 +315,7 @@ La plage IP du trafic de médias est
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 Cloud de la communauté du secteur public haute
+### <a name="office-365-gcc-high-environment"></a>Office 365 Cloud de la communauté du secteur public environnement élevé
 
 - 52.127.88.0/21
 
@@ -330,7 +330,7 @@ UDP/SRTP | Processeur multimédia | SBC | 3478-3481 et 49 152 – 53 247    | D�
 
 Si vous migrez vers la dérivation média à partir d’une dérivation non multimédia et souhaitez confirmer la fonctionnalité avant de migrer toute utilisation vers la dérivation média, vous pouvez créer une ligne distincte et une stratégie de routage vocale en ligne distinctes pour router vers la ligne de dérivation média et affecter à des utilisateurs spécifiques. 
 
-Étapes de configuration de haut niveau :
+Étapes de configuration générales :
 
 - Identifiez les utilisateurs qui testent la dérivation média.
 
@@ -352,7 +352,7 @@ Utilisateurs avec ligne de dérivation média | 20 | sbc2.contoso.com:5060 | tru
 Les deux ligne peuvent pointer vers le même SBC avec la même adresse IP publique. Les ports de signalisation TLS sur le SBC doivent être différents, comme illustré dans le diagramme suivant. Notez que vous devez vous assurer que votre certificat prend en charge les deux ligne. En san san, vous devez avoir deux noms **(sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
 
 > [!div class="mx-imgBorder"]
-> ![Affiche les deux ligne peut pointer vers le même SBC avec la même adresse IP publique](media/direct-routing-media-bypass-7.png)
+> ![Affiche les deux ligne peut pointer vers le même SBC avec la même adresse IP publique.](media/direct-routing-media-bypass-7.png)
 
 Pour plus d’informations sur la configuration de deux ligne sur le même SBC, consultez la documentation fournie par votre fournisseur SBC :
 

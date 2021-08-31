@@ -20,25 +20,25 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Découvrez comment attribuer des licences gratuites Système téléphonique utilisateur virtuel ou une licence utilisateur Système téléphonique utilisateur payant aux comptes de ressources de votre organisation.
-ms.openlocfilehash: 0b45bc0c44ae8d3719636b85409c669dcadf07db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9ffe0e5f489aebb2aff75988dbbe557e88c845d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627082"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734193"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Système téléphonique – Licence utilisateur virtuel
 
 Les organisations Système téléphonique utilisateurs titulaires d’une licence peuvent attribuer une licence gratuite Microsoft 365 Système téléphonique un utilisateur virtuel ou une licence d’Système téléphonique utilisateur payant à des comptes de ressources. Un forfait d’appels n’est pas nécessaire. Tous les attendants automatiques ou files d’attente d’appels nécessitent un compte de ressource associé. Les comptes de ressources nécessitant un numéro de téléphone ont besoin d’une Microsoft 365 Système téléphonique gratuite (licence utilisateur virtuel ou licence d’utilisateur Système téléphonique payée) pour pouvoir appliquer un numéro de téléphone au compte de ressource.
 
 > [!TIP]
-> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des attendants automatiques imbrmbrés ou des files d’attente d’appels sans numéro de téléphone. Pour référence, consultez le diagramme suivant : 
+> Aucune licence n’est nécessaire pour les comptes de ressources qui seront utilisés avec des attendants automatiques ou des files d’attente d’appels imbrmbrés sans numéro de téléphone. Pour référence, consultez le diagramme suivant : 
 
-![Licences utilisateur virtuel](../media/resource-account.png)
+![Licences utilisateur virtuel.](../media/resource-account.png)
 
 ## <a name="virtual-user-license-allocation"></a>Attribution de licences utilisateur virtuel
 
-Votre organisation est attribuée sous Microsoft 365 Système téléphonique utilisateur virtuel selon sa taille globale. Toute organisation qui dispose d’au moins une licence Système téléphonique a Système téléphonique a ajouté 25 licences utilisateur virtuels disponibles gratuitement. Lorsque vous ajoutez 10 Système téléphonique utilisateur dans votre organisation, une nouvelle licence Microsoft 365 Système téléphonique - Une licence utilisateur virtuel devient disponible.
+Votre organisation est attribuée sous Microsoft 365 Système téléphonique utilisateur virtuel en fonction de sa taille globale. Toute organisation qui dispose d’au moins une licence Système téléphonique a Système téléphonique a ajouté 25 licences utilisateur virtuels disponibles gratuitement. Lorsque vous ajoutez 10 Système téléphonique utilisateur dans votre organisation, une nouvelle licence Microsoft 365 Système téléphonique - Une licence utilisateur virtuel devient disponible.
 
 > [!NOTE]
 > Système téléphonique est une licence de module ajout disponible avec les Microsoft 365 et Office 365 E1 et E3. Système téléphonique est également inclus dans le cadre des licences Microsoft 365 E5, Office 365 E5 et Microsoft 365 Business Voice licences.

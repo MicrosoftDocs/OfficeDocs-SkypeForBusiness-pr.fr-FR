@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'Découvrez comment configurer des Skype Entreprise pour laisser les utilisateurs parler aux utilisateurs d’une autre organisation ou laisser des contacts extérieurs parler à eux. '
-ms.openlocfilehash: 987fc8120a06e1a96df4d33cf3f42ba90bc123ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98f30718bb44a3ca2e5f48560d7f38552a2ef49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602019"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731113"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise
 
@@ -53,7 +53,7 @@ Suivez la procédure décrite dans cet article lorsque :
 
 Vous devez avoir [des autorisations d’administrateur](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Microsoft 365 ou Office 365 les deux organisations pour cette communication.
 
-![Icône montrant le logo ](../images/teams-logo-30x30.png) **Microsoft Teams’aide du Centre Teams’administration**
+![Icône représentant le Microsoft Teams logo.](../images/teams-logo-30x30.png) **Utilisation du Teams d’administration**
   
 1. Connectez-vous à l’Microsoft 365 votre Office 365 administrateur.
 
@@ -83,7 +83,7 @@ Vous devez avoir [des autorisations d’administrateur](https://support.office.c
 
 10. **ATTENDEZ JUSQU’À 24 HEURES POUR EFFECTUER UN TEST**. Lorsque vous modifiez les paramètres de communications externes, jusqu’à 24 heures peuvent être nécessaires avant que les modifications ne s’insérez dans tous les centres de données.
 
-![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Vous pouvez permettre à vos utilisateurs de rechercher et contacter par messagerie instantanée toute personne utilisant l'application gratuite Skype. Pour en savoir plus, voir [Laisser les utilisateurs Skype Entreprise ajouter Skype contacts.](let-skype-for-business-users-add-skype-contacts.md)
+![Skype.](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Vous pouvez autoriser vos utilisateurs à rechercher et à utiliser la messagerie instantanée avec toute personne utilisant Skype, l’application gratuite pour le grand public. Pour en savoir plus, voir [Laisser les utilisateurs Skype Entreprise ajouter Skype contacts.](let-skype-for-business-users-add-skype-contacts.md)
   
 ## <a name="test-and-troubleshoot"></a>Test et dépannage
 
@@ -135,13 +135,13 @@ Après l'activation de la communication externe pour l'ensemble de votre entrepr
 
 3. Dans la liste des utilisateurs, choisissez l'utilisateur, puis sous **Paramètres supplémentaires**, cliquez sur **Modifier les propriétés de Skype Entreprise**.
 
-    ![Choose Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![Sélectionnez Skype Entreprise.](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
 4. Dans le Skype Entreprise **d’administration,** sélectionnez **Communications externes.**
 
-    Dans la page **Options,** tous les choix sont sélectionnés. Désactivez les communications que vous voulez désactiver. L'image suivante indique que Jakob pourra communiquer avec le personnel d'autres entreprises approuvées, mais pas avec d'autres utilisateurs Skype.
+    Dans la page **Options,** toutes les options sont sélectionnées. Désactivez les communications que vous voulez désactiver. L'image suivante indique que Jakob pourra communiquer avec le personnel d'autres entreprises approuvées, mais pas avec d'autres utilisateurs Skype.
 
-    ![Choose External contacts](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![Sélectionnez Contacts externes.](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. Cliquez sur **Enregistrer**.
 
@@ -150,7 +150,7 @@ Après l'activation de la communication externe pour l'ensemble de votre entrepr
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 <a name="bk_preview"> </a>
 

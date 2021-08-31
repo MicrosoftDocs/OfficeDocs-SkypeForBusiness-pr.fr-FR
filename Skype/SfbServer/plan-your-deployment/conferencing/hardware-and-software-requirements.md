@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: 4f3eff319165a50aa52108903c5f091415a1018d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603853"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733533"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server
 
@@ -29,7 +29,7 @@ Par exemple, si vous souhaitez autoriser les conférences téléphoniques, vous 
 
 **Fonctionnalités et exigences de conférence**
 
-![Composants de conférence](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
+![Composants de conférence.](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
  Pour plus d’informations sur les considérations sur la topologie, voir [Plan your conferencing topology for Skype Entreprise Server](conferencing-topology.md).
 
@@ -85,7 +85,7 @@ Si vous déployez la conférence audio sur votre réseau, vos utilisateurs auron
 
 ## <a name="requirements-for-dial-in-conferencing"></a>Conditions requises pour les conférences téléphoniques
 
-La conférence rendez-vous est une fonctionnalité facultative de la charge de travail Skype Entreprise Server conférence qui inclut une variété de composants. Certains composants sont spécifiques à la conférence téléphonique et d’autres sont Voix Entreprise composants. Cette section décrit les conditions requises pour les composants nécessaires pour les conférences téléphoniques. Pour plus d’informations sur les conditions requises pour le serveur de médiation et la passerelle PSTN, voir Composant du serveur de médiation dans [Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) et Déployer un serveur de médiation dans le Générateur de topologies [dans Skype Entreprise Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+La conférence rendez-vous est une fonctionnalité facultative de la charge de travail Skype Entreprise Server conférence qui inclut une variété de composants. Certains composants sont spécifiques à la conférence téléphonique et d’autres Voix Entreprise composants. Cette section décrit les conditions requises pour les composants nécessaires pour les conférences téléphoniques. Pour plus d’informations sur les conditions requises pour le serveur de médiation et la passerelle PSTN, voir Composant du serveur de médiation dans [Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) et Déployer un serveur de médiation dans le Générateur de topologies [dans Skype Entreprise Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
 
 ### <a name="required-components"></a>Composants requis
 
@@ -109,7 +109,7 @@ application Assistant de conférence et application Annonce de conférence que l
 
 Skype Entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences téléphoniques. Toutefois, si vous avez un besoin métier fort qui nécessite de modifier les fichiers audio par défaut, consultez l’article de la Base de connaissances Microsoft 961177, Comment personnaliser les invites vocales ou les fichiers de musique pour les conférences [audio rendez-vous](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
 
-Vous pouvez également utiliser l’utilitaire de gestion des [invites vocales personnalisées de Microsoft Lync Server Assistant de conférence,](https://go.microsoft.com/fwlink/p/?LinkId=396880) qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant rejoint une réunion Skype Entreprise avec des invites personnalisées pour fournir une expérience d’entrée de réunion différente. Les invites vocales personnalisées peuvent être installées sur un Enterprise ou Édition Standard serveur.
+Vous pouvez également utiliser l’utilitaire de gestion des [invites vocales personnalisées de Microsoft Lync Server Assistant de conférence,](https://go.microsoft.com/fwlink/p/?LinkId=396880) qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant rejoint une réunion Skype Entreprise avec des invites personnalisées pour fournir une expérience d’entrée de réunion différente. Les invites vocales personnalisées peuvent être installées sur un serveur Enterprise ou Édition Standard serveur.
 
 application Assistant de conférence et application Annonce de conférence les conditions suivantes pour les fichiers d’attente musicale, de nom enregistré et d’invite audio :
 
@@ -132,7 +132,7 @@ Pour utiliser les fonctionnalités de conférence, Skype Entreprise Server certa
 **Ports serveur requis**
 
 
-|**Rôle serveur**|**Nom du service**|**Port**|**Protocole**|**Notes**|
+|**Rôle serveur**|**Nom du service**|**Port**|**Protocole**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
 |Serveurs frontaux  <br/> |Skype Entreprise Server Service de conférence de messagerie instantanée  <br/> |5062  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  <br/> |
 |Serveurs frontaux  <br/> |Skype Entreprise Server Service de conférence web  <br/> |8057  <br/> |TCP (TLS)  <br/> |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  <br/> |
@@ -150,7 +150,7 @@ Pour utiliser les fonctionnalités de conférence, Skype Entreprise Server certa
 **Ports clients requis**
 
 
-|**Port**|**Protocole**|**Notes**|
+|**Port**|**Protocole**|**Remarques**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |Utilisé pour que les utilisateurs externes puissent accéder aux sessions de conférence web.  <br/> |
 |443  <br/> |TCP (STUN/MSTURN)  <br/> |Utilisé pour que les utilisateurs externes puissent accéder aux sessions A/V et multimédias (TCP).  <br/> |

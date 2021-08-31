@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques des Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: 57cd28fef4a1e24ecc4f29344a6ec91af5e2dbec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73ffd8e993a3dacd0412123d49e19c704df0cb8c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593288"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731383"
 ---
 # <a name="what-are-the-requirements"></a>Quelles sont les exigences ? 
 Vous devez avoir installé Power BI Desktop installées. Vous pouvez l’installer à partir du [Microsoft Windows Store.](https://aka.ms/pbidesktopstore)
@@ -48,7 +48,7 @@ Effectuez les étapes suivantes :
 
 - Vous serez invité à sélectionner la région du pipeline de données du CQD. Sélectionnez la région dans laquelle se trouve votre client.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration.":::
 
  - Vous pouvez voir la région à l’aide de Skype Entreprise de service PS en ligne (Get-CsTenant). Sortie ServiceInstance. 
  La région s’affichera après le / comme dans cet exemple : 
@@ -59,11 +59,11 @@ Effectuez les étapes suivantes :
  
  - Pour voir vos propres  données, cliquez sur Actualiser sous l’onglet Accueil sous Requêtes Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration.":::
 
 - Vous serez alors invité à vous connectez. Sélectionnez **le compte de** l’organisation, puis **connectez-vous.**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration.":::
 
 - Sélectionnez **Connecter** et regardez les données s’actualiser.
 
@@ -83,11 +83,11 @@ Les étapes suivantes supposent que vous avez déjà effectué les étapes d’i
 Effectuez les étapes suivantes :
 - Sélectionnez **l’onglet** Affichage du ruban.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration.":::
 
 - Sélectionnez le schéma de couleurs dans la liste drop-down.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Capture d’écran du bouton Du tableau de bord qualité des appels Teams centre d’administration.":::
 
 
 ## <a name="cqd-fields-description"></a>Description des champs du CQD
@@ -98,15 +98,15 @@ Effectuez les étapes suivantes :
 |Standard automatique début de la chaîne         |DateHeure                 |Heure de début d’une chaîne AA                    |
 |Standard automatique de recherche dans l’annuaire  |chaîne                   |Méthode de recherche du dernier carnet d’adresses        |
 |Standard automatique action de transfert          |chaîne                   |Type cible de transfert d’appel<br>Valeurs possibles ;<br>§ inconnu - Le type d’entité n’a pas été spécifié<br>§ user - user entity<br>§ orgaa - Entité Standard automatique organisation<br>§ hunt_group - Entité de la file d’attente d’appels<br>Application § - entité d’application vocale<br>§ external_pstn - entité PSTN externe<br>§ shared_voicemail - entité de messagerie vocale partagée|
-|Standard automatique’appel              |chaîne                   |Résultat de l’appel :<br>§ inconnu - Échec de l’appel de configuration ou de transfert et le service n’a reçu aucun motif d’échec significatif <br>§ transferred_to_user - Appel transféré vers un utilisateur via la numérotation par nom/extension ou une option de menu configurée <br>§ transferred_to_operator - L’appel a été transféré vers un opérateur configuré, par exemple, si AA est configuré avec un opérateur pour les heures de travail supplémentaires <br>§ failover_to_operator : la récupération de l’opérateur en cas d’échec du transfert ou la reconnaissance du nom ne fonctionne pas après trois tentatives<br>§ user_terminated - L’appelant a terminé l’appel <br>§ service_declined - Appel refusé par le service, cela peut se produire si le service ne parvient pas à récupérer Standard automatique configuration <br>§ service_terminated : le service principale a mis fin à l’appel, éventuellement en cas d’échec du transfert vers la cible et qu’aucun opérateur n’est configuré comme une récupération. <br>§ failed_to_establish_media - Échec de la mise en place des médias entre l’appelant et le service <br>§ terminated_no_operator - Échec de la reconnaissance des noms après trois tentatives et aucun opérateur n’est configuré <br>§ terminated_transfer_failed - Échec du transfert à la cible et aucun opérateur n’est configuré <br>§ terminated_automatic_selection - Si aucune action n’est configurée pendant ou après les heures d’ouverture, l’appel prend fin par défaut. <br>§ transferred_to_shared_voicemail - Appel transféré vers la messagerie vocale partagée s’il est configuré comme cible <br>§ oaa_chain_too_long - Lorsqu’une chaîne de Standard automatique excède cinq attendants automatiques l’un après l’autre, l’appel se termine pour éviter les boucles d’appel possibles <br>§ oaa_session_too_long - L’appel a dépassé la durée maximale de la session et a dépassé le délai d’attente |
+|Standard automatique’appel              |chaîne                   |Résultat de l’appel :<br>§ inconnu - Échec de l’appel de configuration ou de transfert et le service n’a reçu aucun motif d’échec significatif <br>§ transferred_to_user - Appel transféré vers un utilisateur via la numérotation par nom/extension ou une option de menu configurée <br>§ transferred_to_operator - L’appel a été transféré vers un opérateur configuré, par exemple, si AA est configuré avec un opérateur pour les heures de travail supplémentaires <br>§ failover_to_operator : la récupération de l’opérateur en cas d’échec du transfert ou la reconnaissance du nom ne fonctionne pas après trois tentatives<br>§ user_terminated - L’appelant a terminé l’appel <br>§ service_declined - Appel refusé par le service, cela peut se produire si le service ne parvient pas à récupérer Standard automatique configuration <br>§ service_terminated : le service principale a mis fin à l’appel, peut-être en cas d’échec du transfert vers la cible et qu’aucun opérateur n’est configuré comme une récupération. <br>§ failed_to_establish_media - Échec de la mise en place des médias entre l’appelant et le service <br>§ terminated_no_operator - Échec de la reconnaissance des noms après trois tentatives et aucun opérateur n’est configuré <br>§ terminated_transfer_failed - Échec du transfert à la cible et aucun opérateur n’est configuré <br>§ terminated_automatic_selection - Si aucune action n’est configurée pendant ou après les heures d’ouverture, l’appel prend fin par défaut. <br>§ transferred_to_shared_voicemail - Appel transféré vers la messagerie vocale partagée si configuré en tant que cible <br>§ oaa_chain_too_long - Lorsqu’une chaîne de Standard automatique excède cinq attendants automatiques l’un après l’autre, l’appel se termine pour éviter les boucles d’appel possibles <br>§ oaa_session_too_long - L’appel a dépassé la durée maximale de la session et a dépassé le délai d’attente |
 |Standard automatique la Flow                |chaîne                   |Encapsule les différents états d’un Standard automatique<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ annonce|
 |Is Standard automatique Involved              |Boolean                  |Indiqué si AA participer à l’appel |
-|Standard automatique d’actions de l’appelant      |int                      |Nombre d’actions utilisées par l’appelant         |
+|Standard automatique d’action de l’appelant      |int                      |Nombre d’actions utilisées par l’appelant         |
 |Standard automatique durée de la chaîne   |int                      |Durée de l’appel dans AA                 |
 |Résultat des appels de la file d’attente d’appels                  |String                   |État final de l’appel de la file d’attente d’appels<br>valeurs possibles :<br>§ erreur<br>§ refusé<br>§ au-dessus<br>L’échec de §<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|Action d’état final de la file d’attente d’appels           |String                   |Action finale de la file d’attente d’appels<br>valeurs possibles :<br>§ avancer<br>§ déconnecter<br>§ voicemail<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ autre|
+|Action d’état final de la file d’attente d’appels           |String                   |Action finale de la file d’attente d’appels<br>valeurs possibles :<br>§ avancer<br>§ déconnecter<br>§ messagerie vocale<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ autre|
 |Identité de la file d’attente d’appels                     |String                   |Nom du compte de ressource joint au QQ<br>Exemple : aa_test@microsoft.com|
-|La file d’attente d’appels est en mode conférence           |Boolean                  |Définir sur 1 si le mode conférence est activé sur CQ |
+|La file d’attente d’appels est en mode conférence           |Boolean                  |Définir sur 1 si le mode conférence est activé sur le QQ |
 |Type cible de la file d’attente d’appels                  |String                   |Type cible de redirection d’appel attendu     |
 |Transfert de l’identité de la file d’attente d’appels    |Boolean                  |Nom du compte de ressource joint au QQ à partir duquel cet appel a été transféré<br>Exemple : aa_test@microsoft.com|
 |Call Queue Agent Opt In Count           |int                      |Nombre d’agents disponibles dans cette file d’attente au moment de l’appel |
@@ -127,10 +127,10 @@ Effectuez les étapes suivantes :
 |AAStartTime                             |chaîne                   |Heure d’appel au UTC                            |
 |AATransferAction                        |chaîne                   |Destinataire de l’appel :<br>§ inconnu - Le type d’entité n’a pas été spécifié<br>§ user - user entity<br>§ AA - Entité Standard automatique’organisation<br>§ CQ - Entité de la file d’attente d’appels<br>Application § - entité d’application vocale<br>§ external_pstn - entité PSTN externe<br>§ shared_voicemail - entité de messagerie vocale partagée      |
 |PSTNMinutes                             |int                      |Utilisation totale des minutes                          |
-|Résultat des appels de la file d’attente d’appels                  |chaîne                   |État final de l’appel de la file d’attente d’appels<br>valeurs possibles :<br>§ erreur<br>§ refusé<br>§ au-dessus<br>§ a échoué<br> timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
+|Résultat des appels de la file d’attente d’appels                  |chaîne                   |État final de l’appel de la file d’attente d’appels<br>valeurs possibles :<br>§ erreur<br>§ refusé<br>§ au-dessus<br>L’échec de §<br> timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
 |Identité de la file d’attente d’appels                     |chaîne                   |Nom du compte de ressource joint au QQ     |
 |Type cible de la file d’attente d’appels                  |chaîne                   |Type cible de redirection d’appel attendu :<br>§ Utilisateur<br>§ Application Endpoint<br>§ Autre     |
-|Résultat des appels de la file d’attente d’appels                  |chaîne                   |État final de l’appel de la file d’attente d’appels<br>valeurs possibles :<br>§ erreur<br>§ refusé<br>§ au-dessus<br>§ a échoué<br> timed_out<br>§ transferred_to_agent<br>agent_joined_conference           |
+|Résultat des appels de la file d’attente d’appels                  |chaîne                   |État final de l’appel de la file d’attente d’appels<br>valeurs possibles :<br>§ erreur<br>§ refusé<br>§ au-dessus<br>L’échec de §<br> timed_out<br>§ transferred_to_agent<br>agent_joined_conference           |
 |Action d’état final de la file d’attente d’appels           |chaîne                   |Action finale de la file d’attente d’appels<br>valeurs possibles :<br>§ avancer<br>§ déconnecter<br>§ messagerie vocale<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ autre             |
 |Nom de l’agent                              |chaîne                   |Nom d’utilisateur utilisateur (UPN)               |
 
@@ -176,7 +176,7 @@ Effectuez les étapes suivantes :
 |:-------------------------------------------------------|:--------------------------------------|
 |# appels par l’agent                                        |Distribution de l’appel par file d’attente d’appels et par agent                 |
 |Durée totale des appels (secondes) par l’agent et la file d’attente d’appels   |Durée totale (secondes) des appels par l’agent et la file d’attente d’appels     |
-|Durée moyenne d’appel (secondes) par nom de l’agent            |Durée moyenne (secondes) d’un appel par un agent                  |
+|Durée moyenne de l’appel (secondes) par nom de l’agent            |Durée moyenne (secondes) d’un appel par un agent                  |
 
 
 

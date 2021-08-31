@@ -19,19 +19,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5503ceefb331098e62ef8aa72bc82119a6e563
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dfe5daabc060a3d6a6e83ba78d90a33b35ec4398
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625986"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730463"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>Planifier les Office 365 Secteur Public - DoD
 
 Ces conseils sont adaptés aux professionnels de l’informatique qui conduisent des déploiements de Office 365 dans des entités gouvernementales fédérale aux États-Unis ou d’autres entités qui gèrent des données soumises à des réglementations gouvernementales et des exigences, où l’utilisation de Office 365 Secteur Public – DoD est appropriée pour répondre à ces exigences.
 
 > [!NOTE]
-> Si votre organisation a déjà satisfait aux conditions d’éligibilité Office 365 Secteur Public – DoD et a demandé et accepté dans le programme, vous pouvez ignorer les étapes 1 et 2 et passer directement à l’étape 3.
+> Si votre organisation a déjà satisfait aux conditions d’éligibilité Office 365 Secteur Public – DoD et a accepté l’application dans le programme, vous pouvez ignorer les étapes 1 et 2 et passer directement à l’étape 3.
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---dod-and-meets-eligibility-requirements"></a>Étape 1. Déterminer si votre organisation a besoin Office 365 Secteur Public - DoD et satisfait aux conditions d’éligibilité. 
 
@@ -53,7 +53,7 @@ La [Office 365 description du service public](/office365/servicedescriptions/off
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si Office 365 Secteur Public - DoD est approprié pour votre organisation.</li><li>Confirmez que votre organisation répond aux conditions d’éligibilité requises.</li></ul> |
+| ![Icône représentant des points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si Office 365 Secteur Public - DoD est approprié pour votre organisation.</li><li>Confirmez que votre organisation répond aux conditions d’éligibilité requises.</li></ul> |
 
 > [!Note]
 > Office 365 Secteur Public - DoD est disponible uniquement aux États-Unis. Les clients non-us Government peuvent choisir parmi un certain nombre [d’Office 365 Secteur Public.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -69,7 +69,7 @@ Nous vous recommandons de prendre le temps de passer en revue soigneusement vos 
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous devez modifier l’un des paramètres de sécurité par défaut Office 365 Secteur Public - DoD, en résolvant pour comprendre d’abord l’impact des modifications que vous pourriez apporter.</li></ul> |
+| ![Icône représentant un point de décision.](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous devez modifier l’un des paramètres de sécurité par défaut Office 365 Secteur Public - DoD, en résolvant pour comprendre d’abord l’impact des modifications que vous pourriez apporter.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---dod"></a>Étape 4. Comprendre les Teams fonctionnalités disponibles actuellement dans Office 365 Secteur Public - DoD
@@ -84,11 +84,11 @@ Déterminez vos exigences de gouvernance et la manière dont vous pouvez les res
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Point de décision |<ul><li>Déterminez et consignez vos besoins de gouvernance, en suivant les recommandations du Plan de [gouvernance de Teams.](plan-teams-governance.md) </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Point de décision |<ul><li>Déterminez et consignez vos besoins de gouvernance, en suivant les recommandations du Plan de [gouvernance dans Teams.](plan-teams-governance.md) </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Étape 6. Déployer des Teams pour la collaboration
 
-Une fois que vous avez été intégré à Office 365 Secteur Public – DoD, suivez la trajectoire de déploiement recommandée décrite dans la manière de déployer [Microsoft Teams.](./deploy-overview.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion des changements, ainsi Teams équipe.
+Une fois que vous avez été intégré à Office 365 Secteur Public – DoD, suivez la trajectoire de déploiement recommandée décrite dans la manière de déployer [Microsoft Teams.](./deploy-overview.md) N’oubliez pas de vous impliquer avec votre équipe Adoption et gestion du changement et des équipes Teams équipe.
 
 Vous pouvez également travailler avec [FastTrack](https://www.microsoft.com/fasttrack) partenaire choisi pour intégrer le service.
 

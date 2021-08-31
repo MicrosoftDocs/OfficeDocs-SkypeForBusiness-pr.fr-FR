@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b47f0d9229a695b595255d26da773204e5b21a2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eaeec25c90e800fcc688dad924ecac8de687841a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608702"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733713"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Démarrage rapide pour la gouvernance de Microsoft Teams
 
@@ -37,7 +37,7 @@ Les activités suivantes se produisent simultanément et peuvent impliquer l’e
 
 Pour en savoir plus, lisez [Plan de gouvernance dans](plan-teams-governance.md) Teams et Planifier la gestion du cycle de vie dans [Teams.](plan-teams-lifecycle.md)
 
-## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Icône montrant les points de décision](media/teams-adoption-decision-icon.png)Décisions
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Icône représentant un point de décision.](media/teams-adoption-decision-icon.png)Décisions
 
 Prendre les décisions suivantes (à ce stade, ces décisions s’appliquent uniquement à la Phase 2) :
 
@@ -59,7 +59,7 @@ L’utilisation la plus Teams inclut l’intégration d’autres applications à
 
 ### <a name="decision-5-are-meetings-included-in-your-test"></a>Décision 5 : Les réunions sont-elles incluses dans votre test ? 
 
-La Teams de réunion est de haute qualité, prend en charge la conversation vidéo et rassemble vos employés pour être plus efficaces. Consultez votre équipe technique pour vous assurer que votre environnement est prêt à inclure des réunions VoIP simples. L’activation de l’audioconférence ou des services vocaux serait normalement exclue de cette phase de votre expérimentation . toutefois, cela dépend de votre équipe de projet principale, de votre préparation technique et de l’état des autres services vocaux/de réunion dans votre organisation. La préparation technique doit inclure des éléments tels que l’équipement de salle de réunion, les appareils et accessoires des utilisateurs finaux, et le réseau. Nous vous recommandons d’inclure les conversations vidéo et les réunions VoIP lors de votre expérimentation afin de tirer encore plus de valeur de Teams implémentation. 
+La Teams de réunion est de haute qualité, prend en charge la conversation vidéo et rassemble vos employés pour être plus efficaces. Consultez votre équipe technique pour vous assurer que votre environnement est prêt à inclure des réunions VoIP simples. L’activation de l’audioconférence ou des services vocaux serait normalement exclue de cette phase de votre expérimentation ; toutefois, cela dépend de votre équipe de projet principale, de votre préparation technique et de l’état des autres services vocaux/de réunion dans votre organisation. La préparation technique doit inclure des éléments tels que l’équipement de salle de réunion, les appareils et accessoires des utilisateurs finaux, et le réseau. Nous vous recommandons d’inclure les conversations vidéo et les réunions VoIP lors de votre expérimentation afin de tirer encore plus de valeur de Teams implémentation. 
 
 ### <a name="decision-6-content-management-and-structure"></a>Décision 6 : structure et gestion du contenu
 Teams fonctionne de façon efficace lorsque les utilisateurs travaillent de bout en bout au sein de la plateforme, au lieu de les obliger à revenir continuellement à des systèmes et services hérités, et offrent de nouvelles façons de travailler différentes de celle à laquelle les utilisateurs sont habitués. Dans le cadre de vos expérimentations, collaborez avec vos participants afin d’envisager les structures et canaux d’équipe qui adoptent les méthodes multi modales de collaboration au sein d’Teams et évitez simplement de répliquer les dossiers et structures de stockage existants. En outre, envisagez les exigences de conformité pour le contenu stocké en dehors de systèmes pris en charge existants tels que les systèmes de gestion des enregistrements ou de sauvegarde.
@@ -72,4 +72,4 @@ En vue de votre déploiement à grande échelle, vous pouvez choisir d’utilise
 
 Une phase Teams implémentation continue à un rythme sain afin de garantir une dynamique, une attention et des apprentissages appropriés. Nous vous recommandons d’avoir 60 jours pour que les premiers utilisateurs terminent un cycle d’entreprise suffisant. Étendre la pratique d’une durée trop longue accroît le risque d’échec d’un programme de modification . toutefois, cette période peut varier pour chaque organisation.  
 
-![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) définir [des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Définir [des scénarios d’utilisation](teams-adoption-define-usage-scenarios.md)

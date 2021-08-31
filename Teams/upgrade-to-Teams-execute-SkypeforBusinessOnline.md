@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf9563a38a299ba4de56f309776bc6f01a8e82ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8bb2924dfe6bab5afedda2b02b1027de057c9e86
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604274"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733933"
 ---
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Mise à niveau de Skype Entreprise Online vers Teams
 
-![Diagramme de voyage de mise à niveau mettant en relief le déploiement et l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
+![Diagramme de voyage de mise à niveau mettant en relief le déploiement et l’implémentation.](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre voyage de mise à niveau. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
@@ -48,7 +48,7 @@ Suivez les instructions de cet article si vous avez déployé Skype Entreprise O
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Attribuer le mode de coexistence et de mise à niveau
 
-Vous pouvez mettre à niveau vos utilisateurs vers le mode TeamsOnly en attribuant l’instance UpgradeToTeams de TeamsUpgradePolicy, qui peut être effectuée à l’aide du Centre d’administration Microsoft Teams ou d’une session Skype Entreprise remote Windows PowerShell. Vous pouvez le faire soit par utilisateur, soit à l’échelle du client si vous voulez mettre à niveau l’intégralité du client en une seule étape. 
+Vous pouvez mettre à niveau vos utilisateurs vers le mode TeamsOnly en attribuant l’instance UpgradeToTeams de TeamsUpgradePolicy, qui peut être effectuée à l’aide du Centre d’administration Microsoft Teams ou d’une session Skype Entreprise remote Windows PowerShell. Vous pouvez le faire à l’échelle d’un utilisateur ou à l’échelle du client si vous voulez mettre à niveau l’intégralité du client en une seule étape. 
 
 Pour plus d’informations, voir Définir vos paramètres de [coexistence](./setting-your-coexistence-and-upgrade-settings.md) et de mise à niveau et [TeamsUpgradePolicy :](upgrade-to-teams-on-prem-tools.md)gestion de la migration et de la coexistence.
 
@@ -107,6 +107,6 @@ Système téléphonique avec Teams est pris en charge lorsque l’utilisateur es
 
 Lorsque vous envisagez d’envisager des options de connectivité de réseau téléphonique commuté (PSTN), deux scénarios peuvent s’offrent à vous lorsque vous basculez de Skype Entreprise Online vers le mode TeamsOnly :
 
-- Un utilisateur dans Skype Entreprise Online, avec un plan d’appels Microsoft. Lors de la mise à niveau, cet utilisateur continuera à avoir une offre Microsoft Calling. Il s’agit du scénario le plus simple nécessitant seulement quelques étapes. Pour plus d’informations, voir [À partir Skype Entreprise Online avec les plans d’appel Microsoft.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)
+- Un utilisateur dans Skype Entreprise Online, avec un plan d’appels Microsoft. Lors de la mise à niveau, cet utilisateur continuera à avoir une offre Microsoft Calling. Il s’agit du scénario le plus simple nécessitant seulement quelques étapes. Pour plus d’informations, voir [À partir Skype Entreprise Online avec les plans d’appels Microsoft.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)
 
 - Un utilisateur dans Skype Entreprise Online, avec des fonctionnalités vocales en local via Skype Entreprise version en local ou Cloud Connector. La mise à niveau de l’utilisateur vers Teams doit être coordonnée avec la migration de l’utilisateur vers le routage direct afin de s’assurer que l’utilisateur TeamsOnly dispose des fonctionnalités PSTN.  Pour plus d’informations, voir Skype Entreprise Online avec voix [sur site.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)

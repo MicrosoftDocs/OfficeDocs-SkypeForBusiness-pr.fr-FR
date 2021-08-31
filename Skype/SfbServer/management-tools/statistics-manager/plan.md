@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques Skype Entreprise Server.'
-ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612073"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730753"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
 
@@ -73,7 +73,7 @@ Le Gestionnaire de statistiques vous permet de :
 
 - Afficher les KHIs en temps réel, y compris les mises à jour. Si l’affichage Historique est activé, seuls les nouveaux échecs sont affichés.
 
-  - Afficher toutes les khis en même temps
+  - Afficher tous les KHIs en même temps
 
   - Afficher les KHIs par serveur (mode Paysage)
 
@@ -88,7 +88,7 @@ Ce qui suit décrit les nouveautés de la version 2.0. Si vous avez un déploiem
 
 - De nombreux nouveaux compteurs ont été ajoutés pour SQL serveurs, d’autres compteurs Skype Entreprise d’utilisation, etc.
 
-- Intégration du nœud de l’observeur pour l’agent du gestionnaire de statistiques : si l’agent est installé sur un nœud observeur, il signale les statistiques de transaction synthétique sous forme de compteurs au gestionnaire de statistiques.
+- Intégration du nœud de l’observeur pour l’agent du gestionnaire de statistiques : si l’agent est installé sur un nœud observeur, il signale les statistiques de transaction synthétique sous forme de compteurs au Gestionnaire de statistiques.
 
 - De nombreuses améliorations en matière de fiabilité et de performances.
 
@@ -122,7 +122,7 @@ Dans un déploiement local, un seul serveur héberge tous les composants du Gest
 
 Le diagramme suivant illustre un déploiement local, dans lequel le site web du gestionnaire de statistiques, le système de mise en cache Hub, Listener et Redis sont hébergés sur un seul ordinateur. Le Gestionnaire de statistiques surveille trois serveurs Skype Entreprise, chacun d’eux avec un seul agent transmettant des données à l’écoute. Les utilisateurs se connectent à un site web unique pour afficher toutes les données agrégées par le Gestionnaire de statistiques :
 
-![Déploiement local du gestionnaire des statistiques](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Déploiement local du gestionnaire de statistiques.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>Configuration requise
 <a name="BKMK_Requirements"> </a>
@@ -166,7 +166,7 @@ Dans un déploiement local, dans lequel un seul serveur héberge tous les compos
 
 Tout le trafic entre les serveurs est chiffré.
 
-- Le trafic HTTPS chiffré sera envoyé sur le port 8443 (par défaut) de l’agent vers le serveur d’écoute.
+- Le trafic HTTPS chiffré sera envoyé sur le port 8443 (par défaut) de l’Agent vers le serveur d’écoute.
 
 - L’agent vérifie l’empreinte SSL sur le serveur pour s’assurer que le serveur d’écoute est le destinataire attendu. Notez que l’agent utilise la vérification de l’empreinte numérique du certificat (au lieu de la vérification de chaîne). Il n’aura pas la validation complète du certificat, car il est possible d’utiliser des certificats auto-signés.
 

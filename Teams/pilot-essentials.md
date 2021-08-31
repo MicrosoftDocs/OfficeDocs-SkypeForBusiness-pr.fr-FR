@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6164d1db4117550519c170b982cc8285196203a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 521e5eb81d2688c924e3f2c76a25c86f6645b02d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613613"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733293"
 ---
 # <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
 
-![Diagramme de voyage de mise à niveau, mettant en évidence le déploiement et l’implémentation](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accentuation sur l’étape déploiement et implémentation")
+![Diagramme de voyage de mise à niveau, mettant en évidence le déploiement et l’implémentation.](media/upgrade-banner-deployment.png "Étapes du parcours de mise à niveau, avec l’accent sur l’étape déploiement et implémentation")
 
 Cet article fait partie de la phase déploiement et implémentation de votre parcours de mise à niveau et partage des informations pour la mise en place d’un pilote efficace. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
@@ -44,8 +44,8 @@ Pour obtenir les résultats les plus réalistes, le pilote doit impliquer des ut
 
 | | |
 |---|---|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Comment utiliserez-vous un pilote pour informer l’orientation du projet ?</li></ul> |
-| ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez les instructions ci-dessous pour concevoir et exécuter votre pilote formel.</li></ul>|
+| ![Icône représentant un point de décision.](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Comment utiliserez-vous un pilote pour informer l’orientation du projet ?</li></ul> |
+| ![Icône représentant l’étape suivante.](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez les instructions ci-dessous pour concevoir et exécuter votre pilote formel.</li></ul>|
 
 > [!Tip]
 > Utilisez les [exemples de ressources pilotes pour](https://aka.ms/UpgradeSuccessKit) vous aider à concevoir vos communications, votre plan de test et votre enquête de commentaires.
@@ -61,7 +61,7 @@ Commencez modestement et ajoutez-y le cas échéant, que vous ajoutiez des charg
 L'une des plus importantes tâches d'une planification pilote consiste à sélectionner des participants de manière judicieuse. N’oubliez pas que Teams est optimisé pour le travail d’équipe. Assurez-vous donc de sélectionner des participants pilotes non seulement en fonction de rôles ou de rôles, mais également en fonction de leur projet et du travail entre équipes. Vous pouvez commencer par demander à vos parties prenantes et responsables de département des projets réels que vous pouvez valider dans Teams. Un exemple de projet basé sur un rôle peut être d’utiliser Teams avec votre organisation commerciale pour vous assurer que les représentants de champ peuvent facilement accéder aux ressources dont ils ont besoin et partager des informations avec d’autres membres de champ. La coordination d’un événement de lancement de produit avec les équipes de marketing, de formation, de relations publiques et de planification d’événements est un exemple de travail basé sur un projet. Quels que soient les scénarios que vous sélectionnez, le pilote doit s’étendre aux personnes clés du service it, de la formation et de votre aide, afin que vous pouvez valider la solution de façon approfondie tout en optimisant pleinement les ressources de gestion de projet.
 
 > [!Tip]
-> Lorsque vous sélectionnez votre Teams participants au groupe pilote, n’oubliez pas d’inclure les principaux utilisateurs de Skype Entreprise. Consultez ces utilisateurs pour comprendre comment ils utilisent Skype Entreprise aujourd’hui, puis créez un plan de test pour vérifier que les utilisateurs Teams peuvent répondre à leurs besoins actuels.
+> Lorsque vous sélectionnez votre Teams participants au groupe pilote, n’oubliez pas d’inclure les principaux utilisateurs de Skype Entreprise. Consultez ces utilisateurs pour comprendre comment ils utilisent Skype Entreprise aujourd’hui, puis créez un plan de test pour vérifier que Teams peuvent répondre à leurs besoins actuels.
 
 ## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. Concevoir votre plan de test et votre enquête de commentaires
 
@@ -71,7 +71,7 @@ Votre organisation peut choisir de piloter toutes les fonctionnalités en une fo
 
 ## <a name="4-create-your-communications-plan"></a>4. Créer votre plan de communication
 
-Pour réussir votre pilote, il est essentiel d’informer les participants pilotes sur ce qui se passe, quand, pourquoi et ce qu’on attend d’eux. Pour stimuler l’enthousiasme et le nombre maximal de participants, n’oubliez pas d’inclure la messagerie de valeur utilisateur en plus des liens vers la formation et le support technique, qui permet aux utilisateurs d’obtenir des informations supplémentaires tout au long de la phase pilote. Voici quelques exemples de ressources pour commencer à travailler sur votre plan de communication pilote :
+Pour réussir votre pilote, il est essentiel d’informer les participants pilotes sur ce qui se passe, quand, pourquoi et ce qu’on attend d’eux. Pour stimuler l’enthousiasme et le nombre maximal de participants, n’oubliez pas d’inclure la messagerie de valeur utilisateur en plus des liens vers la formation et le support technique, qui permet aux utilisateurs d’obtenir des informations supplémentaires tout au long de la phase pilote. Voici quelques exemples de ressources pour vous aider à prendre en compte votre plan de communication pilote :
 
 - [Ressources pilotes,](https://aka.ms/UpgradeSuccessKit)notamment des modèles de courrier électronique et des exemples de questions d’enquête de commentaires
 - [Basculez vers Teams l’Skype Entreprise](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), un guide de démarrage rapide conçu pour aider les utilisateurs à prendre en Skype Entreprise de l’Teams
@@ -113,4 +113,4 @@ Si vos résultats indiquent :
 - Votre pilote n’a pas obtenu les résultats **souhaités (par exemple,** la satisfaction des utilisateurs et la qualité du réseau), prenez le temps d’apporter les ajustements appropriés à votre plan et de revoir votre pilote.
 
 > [!Tip]
-> Demandez à vos participants pilotes en tant que pairs champions de contribuer à l’intégration et à la intégration de nouveaux utilisateurs Teams. Les pairs champions peuvent facilement s’y mettre en relation avec d’autres utilisateurs, partager leurs propres expériences et apprentissages, et offrir de l’aide et des conseils à leurs collègues. Découvrez les [champions et](https://go.microsoft.com/fwlink/?linkid=859068) la manière de les utiliser dans votre propre déploiement.
+> Demandez à vos participants pilotes en tant qu’homologues de contribuer à l’intégration et à la intégration de nouveaux utilisateurs Teams. Les pairs champions peuvent facilement s’y mettre en relation avec d’autres utilisateurs, partager leurs propres expériences et apprentissages, et offrir de l’aide et des conseils à leurs collègues. Découvrez les [champions et](https://go.microsoft.com/fwlink/?linkid=859068) la manière de les utiliser dans votre propre déploiement.

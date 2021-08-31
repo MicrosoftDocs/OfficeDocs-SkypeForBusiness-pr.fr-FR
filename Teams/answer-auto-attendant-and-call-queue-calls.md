@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580288"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733363"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 
-Teams utilisateurs peuvent recevoir des appels et y répondre à partir de travailleurs automatiques cloud et de files d’attente directement à partir de leur Teams client.
+Teams utilisateurs peuvent recevoir des appels et y répondre à partir de attendants automatiques cloud et de files d’attente d’appels directement à partir Teams client client.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>Que sont les files d’attente et les files d’attente automatiques ?
 
@@ -40,9 +40,9 @@ Les files d’attente d’appels cloud incluent des salutations qui sont utilis�
 
 Les utilisateurs pourront différencier les appels entrants d’un traitement automatique ou d’une file d’attente d’appels avant de répondre à l’appel. En plus du nom et/ou du numéro de l’appelant, chaque appel inclut des informations sur les personnes que l’appelant essayait de joindre, afin de donner aux utilisateurs un meilleur contexte pour s’adresser à l’appelant.
 
-L’illustration suivante montre comment un appel entrant d’un employé de façon automatique ou d’une file d’attente d’appels s’affiche pour un utilisateur.
+L’illustration suivante montre comment un appel entrant d’un employé de service automatique ou d’une file d’attente d’appels s’affiche pour un utilisateur.
 
-![Capture d’écran d’une notification d’appel entrant](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Capture d’écran d’une notification d’appel entrant.](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Une fois qu’un attendant automatique ou un appel de la file d’attente d’appels a été reçu, l’utilisateur peut traiter l’appel comme n’importe quel autre &#x2014; il peut ajouter ou conférencer dans un autre utilisateur ou transférer l’appel à une autre partie. Par ailleurs, les appels du attendant automatique seront transmis en fonction de la configuration de l’utilisateur.
 
@@ -71,7 +71,7 @@ Pour recevoir des appels de attendant automatique et de file d’attente d’app
 Lorsqu’un agent de la file d’attente d’appels reçoit un appel sur son appareil mobile, les appels peuvent être mis en attente si l’appareil est verrouillé. L’utilisateur doit tout d’abord déverrouiller l’appareil, puis répondre à l’appel.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 -    [Qu’est-Système téléphonique dans Microsoft 365 ou Office 365](what-is-phone-system-in-office-365.md)
 -    [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)

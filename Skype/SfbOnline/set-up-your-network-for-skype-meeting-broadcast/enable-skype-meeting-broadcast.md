@@ -19,19 +19,19 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Pour que les membres de votre organisation Réunion Skype la diffusion de groupe, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un partenaire Microsoft pour effectuer cette étape pour vous.
-ms.openlocfilehash: 4f16444a07c81b44e4078a2c294208f59e4d7775
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec42de04b139537f05cadabbdffb84f645edcf2a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599669"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731263"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Activer une diffusion de réunion Skype
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Skype Entreprise Online prend fin le 31 juillet 2021, date à laquelle l’accès au service prendra fin. Nous encourageons les clients à commencer la mise à niveau vers Microsoft Teams, le client principal pour les communications et le travail d’équipe au Microsoft 365.
+> Skype Entreprise Online prend fin le 31 juillet 2021, date à laquelle l’accès au service prendra fin. Nous encourageons les clients à commencer la mise à niveau vers Microsoft Teams, le client principal pour les communications et le travail d’équipe dans Microsoft 365.
 
 Pour que les membres de votre organisation Réunion Skype la diffusion de groupe, vous devez l’activer. Pour ce faire, vous devez savoir comment utiliser Windows PowerShell. Si vous ne connaissez pas Windows PowerShell, envisagez de demander l'aide d'un [partenaire Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) pour effectuer cette étape pour vous.
 
@@ -43,9 +43,9 @@ Pour que les membres de votre organisation Réunion Skype la diffusion de groupe
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Activer la diffusion de réunion Skype au moyen du Centre d'administration de Skype Entreprise
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
 
-1. Connectez-vous avec votre compte d’administrateur global ou Skype Entreprise compte d’administrateur à [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) .
+1. Connectez-vous à l’adresse de votre Skype Entreprise administrateur global. [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)
     
 2. Dans le Centre d’administration, allez sur Centres **d’administration**  >  **Teams.**
     
@@ -53,7 +53,7 @@ Pour que les membres de votre organisation Réunion Skype la diffusion de groupe
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Activer la diffusion de réunion Skype avec PowerShell
 
-1. Installez le [module Teams PowerShell.](/microsoftteams/teams-powershell-install)
+1. Installez le [Teams module PowerShell.](/microsoftteams/teams-powershell-install)
     
 2. Ouvrez une invite Windows PowerShell commande et exécutez les commandes suivantes : 
 
@@ -97,7 +97,7 @@ Si vous n'avez pas l'habitude de configurer votre pare-feu, envisagez de demande
   
 Pour ignorer cette étape et ajouter une autre entreprise à votre fédération, consultez [Autoriser les utilisateurs à contacter des utilisateurs externes de Skype Entreprise](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Présentation de Windows PowerShell et de Skype Entreprise Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

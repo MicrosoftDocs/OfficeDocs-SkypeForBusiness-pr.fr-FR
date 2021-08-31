@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: Préparez et implémentez la désactivation de TLS 1.0 et 1.1 dans vos environnements.
-ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608081"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731463"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Désactiver TLS 1.0/1.1 dans Skype Entreprise Server 2015
 
@@ -35,12 +35,12 @@ Microsoft a produit un livre blanc sur TLS disponible ici [et](https://cloudblog
 
 ## <a name="supportability-scope"></a>Étendue de prise en charge
 
-*L’étendue* fait référence aux limites de prise en charge. *Les tests* complets et pris en charge signifient que nous activons entièrement et avons testé la désactivation de TLS 1.0 et 1.1 pour les versions de produits répertoriées. *L’examen en cours* signifie simplement cela ; Nous sommes activement en train d’examiner l’application de ces produits à l’étendue de la désactivation de la prise en charge de TLS. *Hors de portée signifie* que ces versions de produit ne peuvent pas désactiver TLS 1.0 ou 1.1 et ne fonctionneront pas, avec des exceptions notées.
+*L’étendue* fait référence aux limites de prise en charge. *Les tests* complets et pris en charge signifient que nous activons entièrement et avons testé la désactivation de TLS 1.0 et 1.1 pour les versions de produits répertoriées. *L’examen en cours* signifie simplement cela ; Nous sommes activement en train d’examiner l’application de ces produits dans l’étendue de la désactivation de la prise en charge de TLS. *Hors de portée signifie* que ces versions de produit ne peuvent pas désactiver TLS 1.0 ou 1.1 et ne fonctionneront pas, avec des exceptions notées.
 
 ### <a name="fully-tested-and-supported-servers"></a>Serveurs entièrement testés et pris en charge
 
 - Skype Entreprise Server CU1 2019 17.0.2046.123 (juin 2019) ou une date supérieure
-- Skype Entreprise Server 2015 CU9 6.0.9319.548 (mai 2019) ou version supérieure sur Windows Server 2012 (avec mise à jour de [la 3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) ou de la mise à jour de la ko), 2012 R2 ou 2016.
+- Skype Entreprise Server 2015 CU9 6.0.9319.548 (mai 2019) ou version supérieure sur Windows Server 2012 (avec mise à jour de [la 3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) ou de la mise à jour de la mise à jour de la Ko), 2012 R2 ou 2016.
 - Mise à niveau sur place Skype Entreprise Server 2015, avec CU9 6.0.9319.548 (mai 2019) ou version supérieure sur Windows Server 2008 R2, 2012 (avec mise à jour de [la 3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) ou de la mise à jour de la mise à jour de la ko) ou 2012 R2.
 - Exchange Connectivité et Outlook Web App avec Exchange Server 2010 SP3 RU19 ou une valeur supérieure, [conseils ici](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)
 - Survivable Branch Appliance (SBA) avec Skype Entreprise Server 2015 CU6 HF2 ou version supérieure (confirmez auprès de votre fournisseur qu’il a empaqueté les mises à jour appropriées et qu’il a été mis à disposition pour votre appliance)
@@ -150,7 +150,7 @@ Une mise à jour complète des dépendances est nécessaire avant de commencer �
      - [Objets de gestion partagés pour SQL Server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=53164)
      - [SQLSysClrTypes pour SQL server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=42295)
 
-### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>Étapes de base pour installer les conditions préalables, dans l’ordre d’opérations recommandé
+### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>Étapes de base pour installer les conditions préalables, dans l’ordre recommandé des opérations
 
 1. Installez la mise Skype Entreprise Server cu9 sur tous les serveurs. 
     1. Installez la mise à jour sur les composants à l’aide du programme de mise à jour.
@@ -168,7 +168,7 @@ Une mise à jour complète des dépendances est nécessaire avant de commencer �
     1. Référence : [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
     2. Télécharger SQL 2014 SP2 
         - Référence : [https://www.microsoft.com/download/details.aspx?id=53168](https://www.microsoft.com/download/details.aspx?id=53168)
-    3. Copiez le support d’installation dans un dossier sur le serveur (Ex : C:\01_2014SqlSp2)
+    3. Copiez le support d’installation dans un dossier sur le serveur (ex : C:\01_2014SqlSp2)
     4. Vérifier Skype Entreprise Server services 2015 sont arrêtés sur le serveur frontal 
         - Ex (Édition Standard) :```Stop-CsWindowsService```
         - Ex (Êdition Entreprise) :```Invoke-CsComputerFailover```
@@ -462,7 +462,7 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
 7. Revenir dans Internet Explorer et désactiver l’option d’utilisation de **TLS 1.2** uniquement.
 8. Parcourez à nouveau l’URL du service Web interne de votre pool SfB 2015 (si la connexion échoue).
 
-![Internet Options](../../media/internet-options.jpg)
+![Options Internet.](../../media/internet-options.jpg)
 
 ## <a name="advanced-deployment-scenarios"></a>Scénarios de déploiement avancés
 
@@ -514,21 +514,21 @@ Vous pouvez également utiliser Internet Explorer pour tester les connexions TLS
 6. Mettre à jour les composants principaux : 
     - Téléchargez le programme Skype Entreprise update installer.
     - Exécutez le programme d’installation pour mettre à jour les composants principaux et installer les compteurs de performance.
-    - **Remarque :** À la publication de CU6HF2, la fonctionnalité de mise à jour automatique ne sera installée que jusqu’à CU6. Par conséquent, le programme de mise à jour doit être exécuté séparément pour mettre à jour les composants principaux vers 6.0.9319.516.
+    - **Remarque :** À la publication de CU6HF2, la fonctionnalité de mise à jour automatique ne s’installe actuellement que jusqu’à CU6. Par conséquent, le programme de mise à jour doit être exécuté séparément pour mettre à jour les composants principaux vers 6.0.9319.516.
     - Référence : https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
 7. Installer les outils d’administration (facultatif) : 
-    - Cela installera les types CLR Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects (x64) et Microsoft System CLR pour SQL Server 2014 (x64) à l’aide des fichiers mis à jour. En outre, le Skype Entreprise Server de topologie 2015 et le Panneau de contrôle seront disponibles sur l’ordinateur local.
+    - Cela installera les types Microsoft SQL Server 2012 Native Client, SQL Server 2014 Management Objects (x64) et Microsoft System CLR Types pour SQL Server 2014 (x64) à l’aide des fichiers mis à jour. En outre, le Skype Entreprise Server de topologie 2015 et le Panneau de contrôle seront disponibles sur l’ordinateur local.
 8. Installer le magasin de configurations local (étape 1) : 
-     - Ouvrez l’Assistant Déploiement, cliquez sur Installer ou  mettre à jour Skype Entreprise Server système, puis cliquez sur Exécuter à l’étape 1 : Installer le magasin de configurations local.
+     - Ouvrez l’Assistant Déploiement, cliquez sur Installer ou  mettre Skype Entreprise Server jour et sur Exécuter à l’étape 1 : Installer le magasin de configurations local.
      - Cliquez **sur Suivant** dans la boîte de dialogue Installer le magasin de **configurations** local.
-     ![Boîte de dialogue Installer le magasin de configurations local](../../media/local-configuration-store.png)
+     ![Boîte de dialogue Installer le magasin de configurations local.](../../media/local-configuration-store.png)
      - Examinez les résultats et assurez-vous que l’état de la tâche est terminé. Examinez le fichier journal résultant en cliquant sur **Afficher le journal.**
-     ![L’état de la tâche s’affiche comme terminé](../../media/local-configuration-task-completed.png)
+     ![L’état de la tâche s’affiche comme Terminé.](../../media/local-configuration-task-completed.png)
      - Cliquez sur **Terminer**.
 9. Configurer ou supprimer Skype Entreprise Server composants (étape 2) :
     - Ouvrez l’Assistant Déploiement, cliquez sur Installer  ou mettre à **jour Skype Entreprise Server système,** puis cliquez sur Exécuter à l’étape 2 : Configurer ou supprimer Skype Entreprise Server composants
     - Cliquez **sur Suivant** dans la boîte de dialogue Skype Entreprise Server composants.
-    ![Fenêtre Configurer Skype Entreprise Server composants](../../media/set-up-skype-for-business-server-components-window.png)
+    ![fenêtre Configurer Skype Entreprise Server composants.](../../media/set-up-skype-for-business-server-components-window.png)
     - Consultez le journal à l’aide du journal d’affichage et validez que l’installation s’est terminée sans problème. 
     - Cliquez sur **Terminer**.
 10. Procédez à l’installation et à la configuration supplémentaires si nécessaire (vous pouvez reprendre les procédures d’installation normales à ce stade).

@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lisez cette rubrique pour en savoir plus sur la mise Skype comptes Room System dans Microsoft 365 ou Office 365.
-ms.openlocfilehash: d1b116308f091c535beceb5a82994ee155507548
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3976d5763128354c934f477003532bf6bbcd3f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585948"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731103"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Approvisionnement Skype comptes Room System dans Microsoft 365 et Office 365
  
 Lisez cette rubrique pour en savoir plus sur la mise Skype comptes Room System dans Microsoft 365 ou Office 365.
   
-La section suivante traite de la Skype de compte Room System.
+La section suivante couvre la Skype de compte Room System.
   
 ## <a name="microsoft-365-and-office-365-prerequisites"></a>Microsoft 365 et Office 365 conditions préalables
 
@@ -57,7 +57,7 @@ Pour le compte Skype salle de réunion, la licence suivante est requise :
 
 Le diagramme suivant fournit une vue d’ensemble du Skype de mise en service du compte Room System.
   
-![Skype Étapes de mise en service du système de salle](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype Étapes de mise en service du système de salle.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identifier une nouvelle salle de conférence
 
@@ -87,7 +87,7 @@ $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-Les commandes précédentes définissent ou créent un compte de boîte Exchange de ressources pour l’Skype du système de salle en activant le compte.
+Les commandes précédentes définissent ou créent un compte de boîte Exchange de ressources pour l Skype l’utilisation de Room System en activant le compte.
   
 Après avoir créé la boîte aux lettres, vous pouvez utiliser la cmdlet Set-CalendarProcessing dans Exchange Online PowerShell pour configurer la boîte aux lettres. Reportez-vous aux étapes 3 à 6 sous Déploiements locaux à forêt unique pour plus d’informations
 

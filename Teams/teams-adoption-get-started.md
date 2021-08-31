@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f3055c30c0b524927faa016ff5b1d371152a208
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab173455ea4de3ee141fb1d498945f22a3e3e9ae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613493"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733733"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Commencer à faire adopter Microsoft Teams
 
-L’adoption d’Microsoft Teams vous permet d’offrir une expérience utilisateur excellente et une valeur accrue au sein de votre entreprise. Notre objectif est de vous rendre rapidement opérationnel afin que vous pouvez commencer votre voyage avec Teams. Ce guide traite de l’adoption d’Teams par les utilisateurs et a des dépendances sur la préparation technique de votre environnement, qui sont traitées dans d’autres sections de notre documentation.
+L’adoption d’Microsoft Teams vous permet d’offrir une expérience utilisateur excellente et une valeur accrue au sein de votre entreprise. Notre objectif est de vous rendre rapidement opérationnel afin que vous pouvez commencer votre voyage avec Teams. Ce guide traite de l’adoption d’Teams par les utilisateurs et a des dépendances vis-à-vis de la préparation technique de votre environnement, qui sont traitées dans d’autres sections de notre documentation.
 
 ## <a name="adoption-prerequisites"></a>Conditions préalables à l’adoption
 
@@ -59,4 +59,4 @@ La taille et la complexité de chaque projet d’adoption varient en fonction de
 Chacune de ces phases d’adoption dépend de votre préparation technique et de l’environnement pour Teams. Commençons !
 
 
-![Icône représentant l’étape suivante : Microsoft Teams ](media/teams-adoption-next-icon.png) [phase d’adoption 1 : démarrer](teams-adoption-phase1.md)|
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Microsoft Teams [phase d’adoption 1 : Démarrer](teams-adoption-phase1.md)|

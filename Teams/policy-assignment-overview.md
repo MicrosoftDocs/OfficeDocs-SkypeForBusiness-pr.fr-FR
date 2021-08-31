@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’attribuer des stratégies e
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb85ae05925a44db75ed63ada899c6fca92cbceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e17b468d2c3336dd6b34d0574b7a7c4e7c069186
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621986"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731053"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Attribuer des stratégies dans Teams mise en place
 
@@ -43,17 +43,17 @@ Un utilisateur a une stratégie efficace pour chaque type de stratégie. Il est 
 
 Si un utilisateur est affecté directement à une stratégie (individuellement ou par le biais d’une affectation de lot), cette stratégie est prioritaire. Dans l’exemple visuel suivant, la stratégie efficace de l’utilisateur est la stratégie de réunion carrée qu’il est directement affecté à l’utilisateur.
 
-![Diagramme montrant la priorité d’une stratégie assignée directement](media/assign-policies-example-directly-assigned.png)
+![Diagramme montrant comment une stratégie assignée directement prend le pas.](media/assign-policies-example-directly-assigned.png)
 
-Si un utilisateur n’est pas directement affecté à une stratégie d’un type donné, la stratégie assignée à un groupe dont l’utilisateur est membre est prioritaire. Si un utilisateur est membre de plusieurs groupes, la stratégie dont le classement d’affectation de groupe est le plus élevé[pour](assign-policies-users-and-groups.md#group-assignment-ranking)le type de stratégie donné est prioritaire.
+Si un utilisateur n’est pas directement affecté à une stratégie d’un type donné, la stratégie assignée à un groupe dont l’utilisateur est membre est prioritaire. Si un utilisateur est membre de plusieurs groupes, la[](assign-policies-users-and-groups.md#group-assignment-ranking)stratégie ayant le classement d’affectation de groupe le plus élevé pour le type de stratégie donné est prioritaire.
 
 Dans cet exemple visuel, la stratégie efficace de l’utilisateur est la stratégie Exec Teams et HD, qui présente le classement d’affectation le plus élevé par rapport aux autres groupes dont l’utilisateur est membre et pour lesquels une stratégie du même type de stratégie est également attribuée.  
 
-![Diagramme montrant comment une stratégie héritée d’un groupe est prioritaire](media/assign-policies-example-group.png)
+![Diagramme montrant comment une stratégie héritée d’un groupe est prioritaire.](media/assign-policies-example-group.png)
 
 Si un utilisateur n’est pas directement affecté à une stratégie ou n’est membre d’aucun groupe à qui une stratégie est attribuée, l’utilisateur reçoit la stratégie globale (à l’échelle de l’organisation par défaut) pour ce type de stratégie. Voici un exemple visuel.
 
-![Diagramme montrant la manière dont une stratégie globale prend le pas](media/assign-policies-example-global.png)
+![Diagramme montrant comment une stratégie globale prend le pas.](media/assign-policies-example-global.png)
 
 Pour en savoir plus, voir ([Règles de priorité).](assign-policies-users-and-groups.md#precedence-rules)
 
@@ -82,7 +82,7 @@ Pour définir les stratégies globales (à l’échelle de l’organisation par 
 2. Sélectionnez **la stratégie globale (à l’échelle de l’organisation par défaut)** pour afficher les paramètres actuels.
 3. Mettez à jour la stratégie si nécessaire, puis sélectionnez **Appliquer.**
 
-![Mettre à jour la stratégie globale dans Teams centre d’administration](media/assign-globalpolicy.png)
+![Mettre à jour la stratégie globale Teams centre d’administration.](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -122,7 +122,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 Lorsque vous attribuez des stratégies à des utilisateurs dans le Microsoft Teams d’administration, vous pouvez afficher l’état de ces affectations de stratégie dans le journal d’activité. Le journal d’activité affiche les affectations de stratégie à des lots de plus de 20 utilisateurs via le Centre Microsoft Teams d’administration à partir des 30 derniers jours. Gardez à l’esprit que le journal d’activité n’affiche pas les affectations de packages de stratégie, les affectations de stratégie à des lots de moins de 20 utilisateurs via le Centre d’administration Microsoft Teams ou les affectations de stratégies via PowerShell.
 
-![Capture d’écran de la page du journal d’activité](media/activity-log.png)
+![Capture d’écran de la page du journal d’activité.](media/activity-log.png)
 
 ## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>Afficher vos activités d’affectation de stratégie dans le journal d’activité
 
@@ -132,7 +132,7 @@ Pour afficher vos affectations de stratégie dans le journal d’activité :
 2. Vous pouvez afficher toutes les affectations de stratégie ou filtrer la liste par état pour afficher uniquement les affectations Non **commencées,** En **cours** ou **Terminées.** Vous verrez les informations suivantes sur chaque devoir :
     - **Nom**: nom de l’affectation de stratégie. Cliquez sur le lien pour afficher plus de détails. Cela inclut le nombre d’utilisateurs à qui la stratégie a été attribuée, ainsi que le nombre d’affectations terminées, en cours et non démarrées. Vous verrez également la liste des utilisateurs dans le lot, ainsi que l’état et le résultat pour chaque utilisateur. Voici un exemple :
 
-        ![Capture d’écran du](media/activity-log-policy-assignment-detail.png)
+        ![Capture d’écran du.](media/activity-log-policy-assignment-detail.png)
 
     - **Soumis**: Date et heure de soumettre l’affectation de stratégie.
     - **Heure d’achèvement**: date et heure d’achèvement de l’affectation de stratégie.
@@ -142,7 +142,7 @@ Pour afficher vos affectations de stratégie dans le journal d’activité :
 > [!NOTE]
 > Vous pouvez également ouvrir le journal d’activité à partir de la page **Utilisateurs.** Après avoir **cliqué sur Appliquer** pour envoyer une affectation de stratégie en bloc, une bannière s’affiche en haut de la page. Cliquez sur le **lien Journal d’activité** dans la bannière.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Attribuer des stratégies aux utilisateurs et aux groupes](assign-policies-users-and-groups.md)
 - [Attribuer des packages de stratégies à des utilisateurs et groupes](assign-policy-packages.md)

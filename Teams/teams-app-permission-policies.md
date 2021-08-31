@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 841f471d548e26d9eb7eb876433330d3ecd20f67
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3cacf0ef5305ac1e7bc32ba1f0c8c91ab8ec723
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627446"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730833"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gérer les stratégies d’autorisation d’application dans Microsoft Teams
 
@@ -35,7 +35,7 @@ En tant qu’administrateur, vous pouvez utiliser des stratégies d’autorisati
 
 Vous gérez les stratégies d’autorisation d'applications dans le Centre d'administration Microsoft Teams. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée. Après avoir modifié ou attribué une stratégie, l’application des modifications peut prendre quelques heures.
 
-![Capture d’écran de la stratégie d’autorisation d’application](media/app-permission-policies.png)
+![Capture d’écran de la stratégie d’autorisation d’application.](media/app-permission-policies.png)
 
 > [!NOTE]
 > Les paramètres de l’application à l’échelle de l’organisation remplacent la stratégie globale et les stratégies personnalisées que vous créez et affectez aux utilisateurs.
@@ -53,7 +53,7 @@ Si vous voulez contrôler les applications disponibles pour différents groupes 
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Stratégies d’autorisation**.
 2. Cliquez sur **Ajouter**.<br>
-    ![Capture d’écran de la nouvelle stratégie d’autorisation d’application](media/app-permission-policies-new-policy.png)
+    ![Capture d’écran de la nouvelle stratégie d’autorisation d’application.](media/app-permission-policies-new-policy.png)
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 4. Sous **Applications Microsoft**, **Applications tierces** et **Applications personnalisées**, sélectionnez l’une des options suivantes :
 
@@ -90,13 +90,13 @@ Dans le cadre d’un déploiement Microsoft 365 Government - GCCH et DoD de Team
 
 Dans GCCH et DoD, toutes les applications tierces sont bloquées par défaut. En outre, vous trouverez la note suivante sur la gestion des applications tierces sur la page des stratégies de permission des applications dans le Centre d'administration de Microsoft Teams.
 
-![Capture d’écran de la stratégie d’autorisation d’application dans GCCH et DoD](media/app-permission-policies-gcc.png)
+![Capture d’écran de la stratégie d’autorisation d’application dans GCCH et DoD.](media/app-permission-policies-gcc.png)
 
 Utilisez les paramètres de l’application à l’échelle de l’organisation pour contrôler si les utilisateurs peuvent installer des applications tierces. Les paramètres de l’application à l’échelle de l’organisation contrôlent le comportement de tous les utilisateurs et remplacent les autres stratégies d’autorisation d’application attribuées à des utilisateurs. Vous pouvez les utiliser pour contrôler des applications malveillantes ou problématiques.
 
 1. Dans la page **Stratégies d’autorisations** , sélectionnez **Paramètres de l’application à l'échelle de l'organisation**. Vous pouvez ensuite configurer les paramètres voulus dans le panneau.
 
-    ![Capture d’écran des paramètres de l’application à l’échelle de l’organisation](media/app-permission-policies-gcc-org-wide.png)
+    ![Capture d’écran des paramètres d’application à l’échelle de l’organisation.](media/app-permission-policies-gcc-org-wide.png)
     
 2. Sous **Applications tierces**, désactiver ou activer ces paramètres pour contrôler l’accès à des applications tierces :
 

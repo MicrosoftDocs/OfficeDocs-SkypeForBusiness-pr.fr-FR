@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment envoyer à vos utilisateurs un courrier électronique avec leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20050f2e4c0e2c8905b552e914c39b72de63c439
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594496"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733233"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Envoyer à un utilisateur par courrier électronique ses informations d’audioconférence dans Microsoft Teams.
 
@@ -40,14 +40,14 @@ Parfois Microsoft Teams utilisateurs peuvent avoir besoin que vous leur envoyiez
    
 Voici un exemple du message électronique envoyé :
   
-![Exemple de message électronique de conférences téléphoniques](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Exemple de message électronique de conférences téléphoniques.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un courrier électronique avec des informations d’audioconférence à un utilisateur
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) Utilisation du centre d’administration Microsoft Teams
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) Utiliser le centre d’administration Microsoft Teams
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -71,6 +71,6 @@ Voici un exemple du message électronique envoyé :
     
   - Lorsque Microsoft est le fournisseur de services d’audioconférence d’un utilisateur.
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

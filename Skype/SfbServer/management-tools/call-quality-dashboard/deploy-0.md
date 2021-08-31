@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Résumé : Découvrez le processus de déploiement du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: af43865c76b565ac126d80193b3b32b0bd870260
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc07bb721c0319d041bd7bbee4a4a327d77f28b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596568"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733593"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Déployer le Tableau de bord de qualité des appels pour Skype Entreprise Server
  
@@ -34,13 +34,13 @@ Le tableau de bord de qualité des appels (CQD) se compose de trois composants p
     
 - **Portail,** où les utilisateurs peuvent facilement interroger et visualiser des données QoE.
     
-![Composants CQD](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![Composants CQD.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 Le processus de configuration de l’archive QoE implique la création de la base de données d’archivage QoE, le déploiement d’une procédure stockée SQL Server qui déplace les données de la base de données de mesures QoE source vers la base de données d’archivage QoE et la configuration du travail de l’agent SQL Server pour exécuter la procédure stockée à intervalles réguliers. 
   
 Le déploiement de cube obtient des informations de l’utilisateur sur l’emplacement de l’archive QoE, déploie le cube et définit un travail d’agent SQL Server normal qui actualisera le cube à intervalles réguliers.
   
-L’installation du portail crée une base de données de référentiel qui stocke le mappage des utilisateurs CQD aux rapports/requêtes de chaque utilisateur. Il définit ensuite une application web IIS qui est le tableau de bord dans lequel les utilisateurs peuvent voir un ensemble prédéfinis de rapports, ainsi que personnaliser et créer leurs propres requêtes pour visualiser les données à partir du cube. L’installation du portail crée deux applications web supplémentaires qui exposent des API pour que les utilisateurs accèdent par programme au référentiel et au cube. (Ces API sont également utilisées en interne par le tableau de bord.)
+L’installation du portail crée une base de données de référentiel qui stocke le mappage des utilisateurs CQD aux rapports/requêtes de chaque utilisateur. Il définit ensuite une application web IIS qui est le tableau de bord dans lequel les utilisateurs peuvent voir un ensemble prédéfinis de rapports, ainsi que personnaliser et créer leurs propres requêtes pour visualiser les données à partir du cube. L’installation du portail crée deux applications web supplémentaires qui exposent des API pour que les utilisateurs accèdent par programmation au référentiel et au cube. (Ces API sont également utilisées en interne par le tableau de bord.)
   
 
 |**Étape**|**Étapes**|**Rôles et appartenance à un groupe**|**Documentation**|
@@ -62,7 +62,7 @@ Le déploiement du tableau de bord de qualité des appels implique la configurat
     
 3. Acceptez le CLA.
     
-4. Sélectionnez le dossier de destination où se trouvent les fichiers liés aux composants du Tableau de bord de qualité des appels ou acceptez l’emplacement par défaut.
+4. Sélectionnez le dossier de destination dans lequel se trouvent les fichiers liés aux composants du Tableau de bord de qualité des appels ou acceptez l’emplacement par défaut.
     
 5. Sélectionnez toutes les fonctionnalités.
     
@@ -83,7 +83,7 @@ Le déploiement du tableau de bord de qualité des appels implique la configurat
      > [!NOTE]
      > La sélection de l’option Utiliser plusieurs partitions ne peut pas être modifiée une fois l’installation terminée. Pour la modifier, la fonctionnalité Cube doit d’abord être désinstallée, puis réinstallée à l’aide de l’option « Modifier » dans le Panneau de contrôle. 
   
-   - **Répertoire de fichiers de partition :** Chemin d’accès à l’endroit où les partitions de la base de données d’archivage QoE doivent être placées. Il doit se faire sur un lecteur (HDD3 dans la configuration matérielle recommandée) distinct du lecteur de système d’exploitation et SQL de fichiers journaux de base de données. Étant donné que les noms de fichiers sont résolus dans l’installation, pour éviter tout conflit potentiel, il est recommandé d’utiliser un répertoire vide sans fichier.
+   - **Répertoire de fichiers de partition :** Chemin d’accès à l’endroit où les partitions de la base de données d’archivage QoE doivent être placées. Il doit se faire sur un lecteur (HDD3 dans la configuration matérielle recommandée) distinct du lecteur de système d’exploitation et du lecteur de fichiers journaux SQL base de données. Étant donné que les noms de fichiers sont résolus dans l’installation, pour éviter tout conflit potentiel, il est recommandé d’utiliser un répertoire vide sans fichier.
     
    - **SQL de travail de l’agent - Nom d’utilisateur &amp;** Mot de passe : nom de compte de service de domaine et mot de passe (masqué) qui seront utilisés pour exécuter l’étape « Données d’archivage QoE » du travail de l’agent SQL Server (qui exécutera la procédure stockée pour extraire des données de la base de données de mesures QoE dans la base de données d’archivage, ce compte doit donc avoir un accès en lecture à la base de données de mesures QoE, comme indiqué dans la section Comptes). Ce compte doit également avoir une connexion dans l’instance d’archivage QoE SQL Server).
     
@@ -133,7 +133,7 @@ Une fois le programme d’installation terminé, il est fort probable que le tra
 > [!NOTE]
 > Notez que l’URL de vérification de l’état du traitement du cube de téléchargement est sensible à la cas. Si vous entrez « health » l’URL ne fonctionne pas. Vous devez entrer « Health » à la fin de l’URL avec un H majuscule. 
   
-Les messages journaux détaillés s’afficheront si le mode débogage est activé. Pour activer le mode débogage, go to **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**, and update the following line so the value is set to **True:**
+Les messages journaux détaillés s’afficheront si le mode débogage est activé. Pour activer le mode débogage, go to **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**, and update the following line so the value is set to **True**:
 
 ```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
@@ -146,18 +146,18 @@ Pour gérer l’autorisation des utilisateurs sur le portail, nous vous recomman
   
 Tout site web ou application web hérite de l’autorisation d’URL par défaut configurée pour l’ensemble des services Internet (IIS), qui est généralement « Autoriser tous les utilisateurs ». Si l’accès au portail doit être plus restrictif, les administrateurs peuvent accorder l’accès uniquement au groupe spécifique d’utilisateurs en éditant les « règles d’autorisation ».
   
-![Déployer la qualité des appels : règles d’autorisation dans IIS](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
+![Déployer la qualité des appels : règles d’autorisation dans IIS.](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
 > L’icône Règles d’autorisation ne doit pas être confondue avec « Autorisation .NET » sous la section ASP.NET, qui est un mécanisme d’autorisation différent. 
   
 Les administrateurs doivent d’abord supprimer la règle héritée « Autoriser tous les utilisateurs ». Cela empêche les utilisateurs non autorisés d’accéder au portail.
   
-![Déployer le CQD](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
+![Déployez le CQD.](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
   
 Ensuite, les administrateurs doivent ajouter de nouvelles règles d’autorisation et accorder à des utilisateurs spécifiques l’autorisation d’accéder au portail. Il est recommandé de créer un groupe local appelé « CQDPortalUsers » pour gérer les utilisateurs.
   
-![Déployer le tableau de bord de la qualité des appels](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
+![Déployer le tableau de bord de qualité des appels.](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
 Les détails de configuration sont stockés dans le web.config situé dans le répertoire physique du portail.
   
@@ -174,15 +174,15 @@ L’étape suivante consiste à configurer le tableau de bord du tableau de bord
 
 1. Ouvrez l’Éditeur de configuration pour le CQD.
     
-     ![Déployer le tableau de bord de la qualité des appels](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
+     ![Déployer le tableau de bord de qualité des appels.](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
 2. Sous Section, choisissez **system.webServer/serverRuntime**.
     
-     ![Déployer le tableau de bord de la qualité des appels](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
+     ![Déployer le tableau de bord de qualité des appels.](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
 3. Remplacez authenticatedUserOverride par **UseWorkerProcessUser**.
     
-     ![Déployer le tableau de bord de qualité des appels - Éditeur de configuration](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
+     ![Déployer le tableau de bord de qualité des appels - Éditeur de configuration.](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
 4. Cliquez **sur** Appliquer sur le côté droit de la page.
     
@@ -213,19 +213,19 @@ Dans de rares cas, le programme d’installation ne parvient pas à créer les p
   
 1. Ouvrez le Gestionnaire des services Internet et accédez au site Web par défaut.
     
-     ![Déployer le tableau de bord de la qualité des appels](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
+     ![Déployer le tableau de bord de qualité des appels.](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
 2. Cliquez sur « Authentification ». Si les paramètres « Authentification anonyme », « emprunt d’identité ASP.NET », « Authentification de formulaire » et « Authentification Windows » ne correspondent pas aux paramètres indiqués ci-dessous, modifiez-les manuellement pour qu’ils correspondent aux paramètres ci-dessous. Tous les autres mécanismes d’authentification doivent être désactivés.
     
-     ![Déployer le tableau de bord de la qualité des appels](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
+     ![Déployer le tableau de bord de qualité des appels.](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
 3. Pour « Authentification Windows », cliquez sur Advanced Paramètres sur le côté droit.
     
-     ![Déployer le tableau de bord de la qualité des appels](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
+     ![Déployer le tableau de bord de qualité des appels.](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
 4. Définissez « Protection étendue » pour accepter et cochez la case « Activer l’authentification en mode noyau ».
     
-     ![Déployer le tableau de bord de la qualité des appels](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
+     ![Déployer le tableau de bord de qualité des appels.](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. Répétez les étapes ci-dessus pour chacune des entrées « CQD », « QoEDataService » et « QoERepositoryService » sous « Site Web par défaut ».
     
@@ -269,12 +269,12 @@ Après avoir installé le CQD, effectuez les tâches de configuration suivantes 
     
 ### <a name="define-building-types"></a>Définir les types de construction
 
-Les types de bâtiment sont utilisés pour décrire les différentes définitions ou types de bâtiments au sein de votre organisation. 
+Les types de construction sont utilisés pour décrire les différentes définitions ou types de bâtiments au sein de votre organisation. 
   
 > [!NOTE]
 > Cette étape est facultative, mais recommandée. 
   
-範例
+Exemples
   
 - Headquarters
     
@@ -303,7 +303,7 @@ Les types de propriété sont utilisés pour distinguer les biens propriétaires
 > [!NOTE]
 > Cette étape est facultative, mais recommandée. 
   
-範例
+Exemples
   
 - Contoso Leased non-RE &amp; F
     
@@ -337,7 +337,7 @@ Les types de réseau sont utilisés pour décrire différents types de réseaux 
 > [!NOTE]
 > Il est vivement recommandé de définir des noms de réseau, mais il est facultatif. Si vous décidez de ne pas définir de noms réseau, assurez-vous que chaque entrée CqdNetwork a un BuildingId de 0. 
   
-範例
+Exemples
   
 - VPN
     
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (vous devez utiliser la forme délimitée)  <br/> |
 |Contrôleur  <br/> |Création  <br/> |Aruba AP 7  <br/> |
-|Appareil  <br/> |ess  <br/> |Controller1  <br/> |
+|Device  <br/> |ess  <br/> |Controller1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>Traitement des données importées
