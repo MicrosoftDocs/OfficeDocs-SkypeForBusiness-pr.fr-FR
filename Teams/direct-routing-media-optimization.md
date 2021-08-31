@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2513a72502573689b0ab988ea9647384688c9255
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365651"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725513"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planifier l’optimisation des médias locaux pour le routage direct
 
@@ -181,7 +181,7 @@ Le diagramme suivant illustre le flux de trafic lorsqu’un utilisateur est en d
 
 Diagramme 4. Flux de trafic lorsque l’utilisateur est externe avec un SBC proxy et des SBC en aval connectés
 
-![Diagramme de nouveau affiche l’optimisation du flux de trafic multimédia locale](media/direct-routing-media-op-4.png "Flux de trafic en cas de SBC proxy avec SBC en aval connectés lorsque l’utilisateur est externe")
+![De nouveau, le diagramme affiche l’optimisation du flux de trafic multimédia local.](media/direct-routing-media-op-4.png "Flux de trafic en cas de SBC proxy avec SBC en aval connectés lorsque l’utilisateur est externe")
 
 ## <a name="local-media-optimization-modes"></a>Modes d’optimisation des médias locaux
 
@@ -258,7 +258,7 @@ Le diagramme suivant illustre le flux de trafic de haut niveau lorsque l’utili
 
 Diagramme 6.  Flux de trafic avec le mode « Toujours contournement » et l’utilisateur n’est pas sur le site « domicile » mais dans le réseau interne
 
-![A diagram shows traffic flow Local Media Optimisation](media/direct-routing-media-op-6.png "Flux de trafic avec le mode « Toujours contourner » et l’utilisateur n’est pas sur le site « domicile » mais dans le réseau interne")
+![Un diagramme affiche l’optimisation du flux de trafic multimédia locale.](media/direct-routing-media-op-6.png "Flux de trafic avec le mode « Toujours contourner » et l’utilisateur n’est pas sur le site « domicile » mais dans le réseau interne")
 
 ### <a name="mode-2-only-for-local-users"></a>Mode 2 : uniquement pour les utilisateurs locaux
 

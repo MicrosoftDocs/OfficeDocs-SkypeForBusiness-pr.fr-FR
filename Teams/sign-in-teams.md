@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f259b77e5d572adde2dcaea1eb4ffb0555ae36c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577828"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727813"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 
@@ -80,7 +80,7 @@ Teams pour iOS et Android prend en charge l’utilisation de plusieurs comptes p
 
 Les images suivantes montrent comment les utilisateurs peuvent ajouter plusieurs comptes dans les applications mobile Teams.
 
-:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Ajout de plusieurs comptes dans Teams":::
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Ajout de plusieurs comptes dans Teams.":::
 
 ## <a name="restrict-sign-in-to-teams"></a>Restreindre la connexion à Teams
 

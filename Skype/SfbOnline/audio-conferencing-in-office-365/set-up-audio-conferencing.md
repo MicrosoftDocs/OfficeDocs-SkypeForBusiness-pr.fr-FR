@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: 72abf99895924e70f3a57ae0f8d1e1cd8c0f9bcd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580048"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725973"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurer l’audioconférence pour Skype Entreprise
 
@@ -64,7 +64,7 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
 
 Pour les audioconférences, vous ne pouvez pas utiliser les numéros de téléphone pour les utilisateurs ; vous devez leur obtenir des numéros de service. Vous pouvez obtenir des numéros de service payants ou gratuits pour vos ponts de conférence. Il existe trois façons d’obtenir des numéros de service payants et gratuits  : 
   
-- **Utilisez le centre Skype Entreprise d’administration de l’utilisateur.** Pour certains pays/certaines régions, vous pouvez obtenir des numéros de service pour vos ponts de conférence à l’aide du Skype Entreprise d’administration. Voir [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).
+- **Utilisez le centre Skype Entreprise d’administration de l’utilisateur.** Pour certains pays ou certaines régions, vous pouvez obtenir des numéros de service pour vos ponts de conférence à l’aide du Skype Entreprise d’administration. Voir [Obtention de numéros de téléphone de service](/microsoftteams/getting-service-phone-numbers).
     
 - **Portage de vos numéros de service existants**. Pour porter ou transférer des numéros existants de votre fournisseur de service ou de votre téléphone actuel vers Microsoft 365 ou Office 365. Vous pouvez consulter [Transfert des numéros de téléphone vers Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) ou [Gestion des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization) pour plus d’informations pour vous aider à effectuer ces opérations.  
   
@@ -77,7 +77,7 @@ Une fois que vous obtenez vos numéros de téléphone payants et/ou gratuits pou
 
 Affecter un nouveau numéro de téléphone à votre pont d’audioconférence :
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **utilisant le Centre d’administration Skype Entreprise :**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **À l’aide Skype Entreprise centre d’administration :**
 
  1. Accédez au **Centre d’administration Microsoft 365** > **Centres d’administration** > **Teams** > **Portail de l'héritage**.
  2. Sélectionnez **Voice** > **Numéros de téléphone**.
@@ -90,12 +90,12 @@ Pour plus d’informations, consultez la rubrique [Modifier les numéros de tél
 
 Vous pouvez ensuite définir les [langues](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) du attendant automatique pour l’audioconférence que le attendant de conférence utilise pour accueillir les appelants lorsqu’ils appellent un numéro de téléphone pour l’audioconférence. 
 
-![Icône affichant le logo Microsoft Teams](../images/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** :
+![Icône représentant le Microsoft Teams logo.](../images/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
 1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
 2. Sélectionnez le numéro de téléphone de pont de conférence, cliquez sur **Modifier**, puis choisissez la langue par défaut.
 
-![Icône représentant le logo ](../images/sfb-logo-30x30.png) **Skype Entreprise’aide du Centre d’administration Skype Entreprise' :**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **À l’aide Skype Entreprise centre d’administration :**
 
 1. Allez dans le Centre d’administration > **centres d’administration**  >  **Teams**  >  **portail hérité.**
 2. Sélectionnez **Audioconférences**  >  **Pont Microsoft.** 
@@ -106,14 +106,14 @@ Vous pouvez ensuite définir les [langues](../audio-conferencing-in-office-365/s
     
 Après avoir configuré votre pont de conférence, vérifiez que les paramètres par défaut, tels que les notifications d’entrée/sortie et la longueur du code confidentiel sont ceux que vous souhaitez utiliser. Si ce n’est pas le cas, vous pouvez les modifier. 
 
-![Icône affichant le logo Microsoft Teams](../images/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** :
+![Icône représentant le Microsoft Teams logo.](../images/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
 1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
 2. Sélectionnez **Paramètres de Bridge**. Cela ouvrira le volet **Paramètres de pont**. 
 
 Pour plus d’informations, voir [Changement des paramètres de pont d’audioconférence](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **utilisant le Centre d’administration Skype Entreprise :**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **À l’aide Skype Entreprise centre d’administration :**
 
 1. Accédez au **Centre d’administration Microsoft 365** > **Centres d’administration** > **Teams** > **Portail de l'héritage**.
 2. Sélectionnez **Les paramètres du pont** Microsoft de  >  **l’audioconférence.** Cela ouvrira la page **Paramètres de pont Microsoft**. 
@@ -126,12 +126,12 @@ Après avoir créé un pont d’audioconférence, vous devez définir les numér
 
 Vous devez effectuer cette opération pour toutes les personnes de votre entreprise qui animent ou qui planifient des réunions. 
 
-![Icône affichant le logo Microsoft Teams](../images/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams** :
+![Icône représentant le Microsoft Teams logo.](../images/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
 1. Dans le tableau de bord, cliquez sur **Utilisateurs**, sélectionnez l’utilisateur dans la liste, puis sélectionnez **Modifier**.
 2. Sélectionnez **Modifier** à côté de **Audioconférence**, puis dans le volet **Audioconférence**, choisissez un numéro dans les listes de **numéros payants** et de **numéros gratuits**.
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **utilisant le Centre d’administration Skype Entreprise :**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **À l’aide Skype Entreprise centre d’administration :**
 
 1. Go to the **Centre d’administration Microsoft 365**  >  **Teams**  >  **legacy portal.**
 2. Sélectionnez **Utilisateurs de l’audioconférence,** sélectionnez l’utilisateur dans la liste  >  et cliquez sur **Modifier.** 

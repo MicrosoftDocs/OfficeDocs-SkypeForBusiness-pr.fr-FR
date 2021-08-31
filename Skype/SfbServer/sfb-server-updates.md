@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour Skype Entreprise Server 2015/2019 et Lync 2013 au même endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 6071dabddebcce05c3dffee7578a432217a0f6cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa9ae8c2b3b28790028635a9604687995549e6eb
+ms.sourcegitcommit: 22328f851153f3768175321b8b128a672d6adc50
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590948"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58807447"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -56,6 +56,7 @@ La base de 4470124 est la base de données principale pour Skype Entreprise Serv
 
 |Nom du package|Numéro KB|Date de publication|
 |:--- |:--- |:--- |
+|Skype Entreprise Server cumulative 2015 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2021 |
 |Skype Entreprise Server 2015 Mise à jour cumulative 11 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Juillet 2020 |
 |Skype Entreprise Server cumulative 2015 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 13 mai 2020 |
 |Skype Entreprise Server 2015 Mise à jour cumulative 10 Correctif logiciel 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Août 2019 |
@@ -266,8 +267,9 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, mises à jour cumulatives, Service Packs, Feature Packs, mises à jour critiques, mises à jour de sécurité ou correctifs logiciels. Pour obtenir la terminologie standard utilisée pour décrire les mises à jour logicielles de Microsoft, consultez l’[KB 824684](https://support.microsoft.com/kb/824684).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Rubriques connexes
 
 - [Installer Skype Entreprise Server 2015](./deploy/install/install.md)
 - [Mise à niveau vers Skype Entreprise Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [Dernières mises à jour pour les versions de Skype Entreprise qui utilisent Windows Installer (MSI)](sfb-client-updates.md)
+- 

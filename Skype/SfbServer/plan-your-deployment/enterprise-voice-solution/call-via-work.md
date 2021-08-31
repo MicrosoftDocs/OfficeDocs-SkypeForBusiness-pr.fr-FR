@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planification de l’appel via le travail dans Skype Entreprise Server, qui permet l’intégration entre Skype Entreprise et votre système téléphonique PBX, afin que les utilisateurs peuvent utiliser Skype Entreprise pour contrôler leurs téléphones PBX.
-ms.openlocfilehash: 287f549d0b416e432eea771c07a7331e38a0b594
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592528"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732583"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planifier l’appel via le Skype Entreprise Server
  

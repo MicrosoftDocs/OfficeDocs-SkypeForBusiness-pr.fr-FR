@@ -17,24 +17,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a433a7a372c89a2d22bac7991effdd5081ac298d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fe0ac66b8d1ff9afe43d4d57783e803f426c23c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616250"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732953"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Mise en place de l’interopérabilité de la vidéo cloud de Microsoft Teams
 
-Une fois que vous avez choisi votre ou vos partenaires [Interop Cloud Video,](cloud-video-interop.md)vous devez planifier votre déploiement, configurer avec les détails de mise en service et la clé du client partenaire, et donner votre consentement à l’application d’interop vidéo dans votre organisation. Le diagramme suivant décrit le processus. 
+Une fois que vous avez choisi votre ou vos partenaires [Cloud Video Interop,](cloud-video-interop.md)vous devez planifier votre déploiement, configurer avec les détails de mise en service et la clé de client partenaire, et donner votre consentement à l’application d’interop vidéo dans votre organisation. Le diagramme suivant décrit le processus. 
 
-![Déploiement de CVI dans votre organisation](media/deploying-cvi.png)
+![Déploiement de CVI dans votre organisation.](media/deploying-cvi.png)
 
 ## <a name="plan"></a>Plan
 
 Pour [plus d’informations sur l’Microsoft Teams](cloud-video-interop.md) d’un partenaire ou d’un partenaire à utiliser dans votre organisation, voir Cloud Video Interop. 
 
-Pour planifier l’enablement à l’échelle de l’utilisateur, des concurrents/des sites : 
+Pour planifier l’enablement à l’échelle de l’utilisateur, du concurrent/du site : 
 
 - Sélectionner un modèle de déploiement/hébergé pour votre utilisation
 - Sélectionnez le plan de licences idéal pour votre organisation. 
@@ -44,7 +44,7 @@ Pour planifier l’enablement à l’échelle de l’utilisateur, des concurrent
 
 Pour configurer Cloud Video Interop, suivez ces étapes. 
 
-1. Obtenez des informations de configuration auprès des partenaires ou partenaires que vous avez choisis (clé client, appIds, etc.). Vous pouvez utiliser un ou plusieurs partenaires d’interop vidéo dans votre organisation 
+1. Obtenez des informations de configuration auprès du partenaire/partenaire que vous avez choisi (clé client, appIds, etc.). Vous pouvez utiliser un ou plusieurs partenaires d’interop vidéo dans votre organisation 
 
 2. Assurez-vous que votre réseau est correctement configuré. Configurez votre pare-feu vidéo basé sur les normes pour le travers de réseau de périmètre à prendre en charge. Par exemple : 
     - Cisco VCS-e                  
@@ -57,7 +57,7 @@ Pour configurer Cloud Video Interop, suivez ces étapes.
  
 La clé client sera l’appel sortant vers le service partenaire. Dans l’exemple suivant, 813878896@t.plcm.vc est la clé client. 
 
-![Exemple de clé de client](media/tenant-key-example.png) 
+![Exemple de clé client.](media/tenant-key-example.png) 
 
 Vous devrez exécuter les cmdlets suivantes pour mettre en service la clé client et permettre également à certains utilisateurs ou à l’ensemble de votre organisation de créer des réunions avec des coordonnées d’interop vidéo.
 

@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez comment utiliser le parc d’appels et récupérer pour mettre un appel en attente dans Microsoft Teams.
-ms.openlocfilehash: 44884c98f3e98c15106b3d1a341eaa75b2176b0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e58cf8ead120cb7265665abecc0683ea9a96f559
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628416"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732543"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parcage et récupération d’appel dans Microsoft Teams
 
@@ -34,20 +34,20 @@ La fonctionnalité Parcer et récupérer des appels permet à un utilisateur de 
 
 Voici quelques-uns des scénarios courants d’utilisation du parc d’appels :
 
-- Un appelant appelle une personne travaillant dans une usine. Le réceptioniste annonce ensuite l’appel et le numéro de code sur le système d’adresses public. L’utilisateur pour qui l’appel est en cours peut alors prendre un téléphone Teams aux ateliers et entrer le code pour récupérer l’appel.
+- Un réceptioniste appelle une personne travaillant dans une usine. Le réceptioniste annonce ensuite l’appel et le numéro de code sur le système d’adresses public. L’utilisateur pour qui l’appel est en cours peut alors prendre un téléphone Teams aux ateliers et entrer le code pour récupérer l’appel.
 - Un utilisateur relaient un appel sur un appareil mobile parce que la batterie de l’appareil est à court de courant. L’utilisateur peut ensuite entrer le code pour récupérer l’appel à partir Teams téléphone de bureau.
 - Un représentant du support technique appelle un client et envoie une annonce sur un canal Teams un expert pour récupérer l’appel et aider le client. Un expert entre le code dans Teams clients pour récupérer l’appel
 
 Pour parer et récupérer des appels, un utilisateur doit être un Voix Entreprise et doit être inclus dans une stratégie de parc d’appels.
 
 > [!NOTE]
-> Le parcage et la récupération d’appels sont disponibles uniquement [dans Teams mode](teams-and-skypeforbusiness-coexistence-and-interoperability.md) déploiement uniquement et ne sont pas pris en charge Skype Entreprise téléphones IP.
+> Le parcage d’appel et la récupération sont disponibles uniquement [Teams mode](teams-and-skypeforbusiness-coexistence-and-interoperability.md) déploiement uniquement et ne sont pas pris en charge Skype Entreprise téléphones IP.
 
 ## <a name="configure-call-park-and-retrieve"></a>Configurer le parc d’appel et la récupération
 
 Vous devez être un administrateur Teams configuration du parc d’appels et de la récupération. Il est désactivé par défaut. Vous pouvez l’activer pour les utilisateurs et créer des groupes d’utilisateurs à l’aide de la stratégie de parc d’appels. Lorsque vous appliquez la même stratégie à un groupe d’utilisateurs, ceux-là peuvent se parer et récupérer des appels entre eux.
 
-La plage de numéros d’appel est prédéfinée de 10 à 99 et ne peut pas être modifiée. Le premier appel paré s’intituera sur un code de pick-up du 10, le code d’appel 11, etc. sera restituer l’appel en place. jusqu’à ce que 99 soit rendu en tant que code de pick-up. Par la suite, les codes d’pick-up restituer à partir de 10 recommencent.  S’il y a plus de 89 appels en cours parés, les codes d’pick-up restituer continueront d’être incrémentés au-delà de 99, de telle telle que le 90e appel par parcé sera rendu 100 pour un code de pick-up, le 91e appel en cours sera rendu avec le code de collecte 101.
+La plage de numéros d’appel est prédéfinée de 10 à 99 et ne peut pas être modifiée. Le premier appel paré s’intituera sur un code de pick-up du 10, le code d’appel 11, etc. sera restituer l’appel en place. jusqu’à ce que le code 99 soit rendu comme un code de pick-up. Par la suite, les codes d’pick-up restituer à partir de 10 recommencent.  S’il y a plus de 89 appels en cours parés, les codes d’pick-up restituer continueront d’être incrémentés au-delà de 99, de telle telle que le 90e appel par parcé sera rendu 100 pour un code de pick-up, le 91e appel en cours sera rendu avec le code de collecte 101.
 
 Pour activer une stratégie de parc d’appels
 
@@ -55,13 +55,13 @@ Pour activer une stratégie de parc d’appels
 2. Sous **l’onglet Gérer les stratégies,** cliquez sur **Ajouter.**
 3. Donnez un nom à la stratégie, puis basculez **l’accès au parc d’appels** **sur On.** (La plage d’appel et le délai d’appel ne peuvent pas être personnalisés.)
 
-    ![Capture d’écran des paramètres de stratégie de parc d’appel](media/call-park-add-policy.png)
+    ![Capture d’écran des paramètres de stratégie de parc d’appel.](media/call-park-add-policy.png)
 
 4. Sélectionnez **Enregistrer**.
 
 Vous pouvez modifier la stratégie en la sélectionnant dans la liste et en cliquant sur **Modifier.**
 
-Pour que la stratégie fonctionne, elle doit être affectée aux utilisateurs. Vous pouvez [affecter la stratégie à des utilisateurs individuellement](assign-policies.md) ou à un groupe.
+Pour que la stratégie fonctionne, elle doit être attribuée aux utilisateurs. Vous pouvez [affecter la stratégie à des utilisateurs individuellement](assign-policies.md) ou à un groupe.
 
 Pour affecter une stratégie de parc d’appel à un groupe
 
@@ -70,11 +70,11 @@ Pour affecter une stratégie de parc d’appel à un groupe
 3. Choisissez un rang comparé aux autres affectations de groupe.
 4. Sous **Sélectionner une stratégie,** choisissez la stratégie à qui vous voulez affecter ce groupe.
 
-    ![Image stratégies de parc](media/call-park-assign-policy-to-group.png)
+    ![image stratégies de parc.](media/call-park-assign-policy-to-group.png)
 
 5. Sélectionnez **Appliquer.**
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Par parcer un appel dans Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b12ed0ad9b662f4cc36a68ae7ee3b4340960517f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d3cae31f89b625c840fcc946d2b282a58bca445
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616140"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725443"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Préparer votre environnement pour la mise à niveau vers Teams
 
-![Diagramme de voyage de mise à niveau mettant en relief la phase de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase de préparation technique")
+![Diagramme de voyage de mise à niveau mettant en relief la phase de préparation technique.](media/upgrade-banner-tech-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase de préparation technique")
 
-Cet article fait partie de l’étape de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
+Cet article fait partie de la phase de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
 - [Étendue définie de votre projet](./upgrade-define-project-scope.md)

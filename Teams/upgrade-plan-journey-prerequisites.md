@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ade37518da516d219c3c54fd0ce4a280720c373
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f10df8849e6efe4e6ceac38cb46d118dff5a8ff8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631148"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725453"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Conditions préalables et dépendances de l’environnement pour Teams
 
-![Diagramme de voyage de mise à niveau mettant en relief la phase de préparation technique](media/upgrade-banner-tech-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase de préparation technique")
+![Diagramme de voyage de mise à niveau mettant en relief la phase de préparation technique.](media/upgrade-banner-tech-readiness.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase de préparation technique")
 
 Cet article fait partie de la phase de préparation technique de votre voyage de mise à niveau, une activité que vous terminez en parallèle de la phase de préparation utilisateur. Avant de poursuivre, confirmez que vous avez effectué ces activités à partir des étapes précédentes :
 
@@ -38,7 +38,7 @@ Cet article fait partie de la phase de préparation technique de votre voyage de
 
 Teams combine plusieurs services Microsoft 365 Office 365 et dépend donc de l’implémentation et de l’opération correctes de ces services. Ces services comprennent , mais ne sont pas limités, SharePoint Online, Exchange Online et OneDrive Entreprise.
 
-Bien que certains services ne soient pas obligatoires, nous vous recommandons vivement de les implémenter tous. Si vous choisissez de ne pas implémenter certains services, cela affectera les fonctionnalités que Teams pouvez offrir à votre organisation. Par exemple, même si vous n’avez pas à implémenter SharePoint Online, Teams s’appuie sur SharePoint Online pour certaines fonctionnalités telles que le partage de fichiers dans les conversations de groupe. Par donc, si vous ne l’implémentez pas, les fonctionnalités offertes par le client seront réduites.
+Bien que certains services ne soient pas obligatoires, nous vous recommandons vivement de les implémenter tous. Si vous choisissez de ne pas implémenter certains services, cela affectera les fonctionnalités que Teams pouvez offrir à votre organisation. Par exemple, même si vous n’avez pas à implémenter SharePoint Online, Teams utilise SharePoint Online pour certaines fonctionnalités telles que le partage de fichiers dans les conversations de groupe. Par donc, si vous ne l’implémentez pas, les fonctionnalités offertes par le client seront réduites.
 
 Consultez les articles suivants pour en savoir plus sur les conditions préalables et Teams interactions entre les autres technologies :
 
@@ -58,7 +58,7 @@ Consultez les articles suivants pour en savoir plus sur les conditions préalabl
 
 - Si votre organisation envisage d’envisager des options d’appel de réseau téléphonique commuté (RST), consultez la connectivité Voix - Système téléphonique et [RSTN,](cloud-voice-landing-page.md)le [plan](calling-plan-landing-page.md)d’appel qui vous est le plus exact et [Système téléphonique routage direct.](direct-routing-landing-page.md)
 
-- Pour vous assurer que toutes les exigences réseau ont été respectées avant de les Teams, voir Préparer le réseau de votre organisation [pour l’Microsoft Teams.](prepare-network.md)
+- Pour vous assurer que toutes les exigences réseau ont été respectées avant de Teams, voir Préparer le réseau de votre organisation [pour l’Microsoft Teams.](prepare-network.md)
 
 - Si vous utilisez actuellement Skype Entreprise Online Connector pour gérer vos services, vous devez passer au module Teams PowerShell et mettre à jour vos scripts PowerShell existants. Pour [plus d’Skype Entreprise, voir Déplacer du connecteur en ligne vers Teams module PowerShell.](teams-powershell-move-from-sfbo.md)
 

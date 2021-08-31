@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: Découvrez comment Teams utilise Office 365 flux dans plusieurs topologies, ainsi que des flux d’équipe uniques utilisés pour la communication multimédia p22.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2e0e3ed2c9f0ac4e636b97065f9e2a4050f954b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f152caaa90562a5223590ebcf97623646237e40
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607151"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727843"
 ---
 # <a name="microsoft-teams-call-flows"></a>Carrousel Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "58607151"
 
 ## <a name="overview"></a>Présentation
 
-Cet article décrit comment un Teams utilise Microsoft 365 ou Office 365 flux d’appels dans différentes topologies. En outre, il décrit les flux Teams de médias d’égal à égal utilisés pour la communication multimédia. Le document décrit ces flux, leur objet, leur origine et leur résiliation sur le réseau. Aux fins de cet article, assumez ce qui suit :
+Cet article décrit comment un Teams utilise Microsoft 365 ou Office 365 flux d’appels dans différentes topologies. Il décrit également les flux de Teams qui sont utilisés pour la communication multimédia P2 P2. Le document décrit ces flux, leur objet, leur origine et leur résiliation sur le réseau. Aux fins de cet article, assumez ce qui suit :
 
 - Flow X est utilisé par le client local pour communiquer avec le service Microsoft 365 ou Office 365 dans le cloud. Elle provient du réseau du client et se termine en tant que point de terminaison Microsoft 365 ou Office 365.
 
@@ -50,7 +50,7 @@ Cet article couvre les informations suivantes :
 
 ### <a name="network-segments"></a>Segments réseau
 
-**Réseau du client.** Il s’agit du segment réseau que vous contrôlez et gérez. Cela inclut toutes les connexions client au sein des bureaux clients, qu’il s’agit d’un réseau câblé ou sans fil, les connexions entre les immeubles de bureaux, les connexions aux centres de données locaux et vos connexions à des fournisseurs Internet, Express Route ou toute autre propriété d’peering privée.
+**Réseau du client.** Il s’agit du segment réseau que vous contrôlez et gérez. Cela inclut toutes les connexions client au sein des bureaux des clients, qu’elles soient câblés ou sans fil, les connexions entre les immeubles de bureaux, les connexions aux centres de données locaux et vos connexions à des fournisseurs Internet, Express Route ou toute autre propriété d’peering privée.
 
 En règle générale, un réseau de client possède plusieurs périmètres de réseau avec des pare-feu et/ou des serveurs proxy, qui appliquent les stratégies de sécurité de votre organisation et qui autorisent uniquement le trafic réseau que vous avez configuré et configuré. Étant donné que vous gérez ce réseau, vous contrôlez directement les performances du réseau et nous vous recommandons d’effectuer des évaluations du réseau pour valider les performances à la fois au sein des sites de votre réseau et à partir de votre réseau vers le réseau Microsoft 365 ou Office 365.
 
@@ -73,7 +73,7 @@ En règle générale, un réseau de client possède plusieurs périmètres de r�
 
 ### <a name="connectivity-to-microsoft-365-or-office-365"></a>Connectivité à des Microsoft 365 ou des Office 365
 
-Teams nécessite [une connectivité à Internet.](/office365/enterprise/assessing-network-connectivity) Teams URL et plages d’adresses IP de point de terminaison sont répertoriées dans Office 365 [URL et plages d’adresses IP.](/office365/enterprise/urls-and-ip-address-ranges) (Notez qu’une connectivité ouverte aux ports TCP 80 et 443 et aux ports UDP 3478 à 3481 est requise.) En outre, Teams a une dépendance sur Skype Entreprise Online, qui doit également être connecté à Internet.
+Teams nécessite [une connectivité à Internet.](/office365/enterprise/assessing-network-connectivity) Teams URL et plages d’adresses IP sont répertoriées dans Office 365 URL et [plages d’adresses IP.](/office365/enterprise/urls-and-ip-address-ranges) (Notez qu’une connectivité ouverte aux ports TCP 80 et 443 et aux ports UDP 3478 à 3481 est requise.) En outre, Teams a une dépendance sur Skype Entreprise Online, qui doit également être connecté à Internet.
 
 Teams connectivité des flux multimédias est implémentée à l’aide de procédures ICE (Interactive Connectivity Connectivity)standard.
 
@@ -114,20 +114,20 @@ Pour en savoir plus sur le chemin de médias choisi, voir Comprendre les flux mu
 
 Cette topologie est utilisée par les clients qui tirent parti de services Teams du cloud sans déploiement local, tel qu’un routage Skype Entreprise Server ou Système téléphonique direct. De plus, l’interface d’Microsoft 365 ou Office 365 se fait sur Internet sans Azure Express Route.
 
-[![Microsoft Teams Flux d’appels en ligne Figure 01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 01.](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
 
 *Figure 1 - Topologie Teams données*
 
 Notez que :
 
-- La direction des flèches sur le diagramme ci-dessus reflète la direction initiation de la communication qui affecte la connectivité au périmètre d’entreprise. Dans le cas d’UDP pour les éléments multimédias, le ou les premiers paquets peuvent circuler dans la direction inverse, mais ces paquets peuvent être bloqués jusqu’à ce que les paquets dans le sens inverse s’écoulent.
+- La direction des flèches sur le diagramme ci-dessus reflète la direction initiation de la communication qui affecte la connectivité au périmètre d’entreprise. Dans le cas d’UDP pour les éléments multimédias, le ou les premiers paquets peuvent circuler dans la direction inverse, mais ces paquets peuvent être bloqués jusqu’à ce que des paquets dans le sens inverse s’écoulent.
 - Teams est déployé côte à côte avec Skype Entreprise Online, les clients sont donc affichés comme « utilisateur Teams/SFB ».
 
 Vous trouverez plus d’informations sur les topologies facultatives suivantes plus loin dans cet article :
 
 - Skype Entreprise déploiement local est décrit dans la topologie Teams **hybride.**
 - Système téléphonique Le routage direct (pour la connectivité RST) est décrit dans Teams avec **topologie de routage direct.**
-- Express Route est décrit dans Teams **optimisation de l’itinéraire express.**
+- Express Route est décrit dans **Teams’optimisation de l’itinéraire express.**
 
 **Flow descriptions**:
 
@@ -135,12 +135,12 @@ Vous trouverez plus d’informations sur les topologies facultatives suivantes p
 - **Flow 2'** – Représente un flux initié par un utilisateur mobile distant Teams, avec un réseau VPN vers le réseau du client.
 - **Flow 3** – Représente un flux initié par un utilisateur mobile à distance Teams des points de terminaison Microsoft 365 ou Office 365/Teams’utilisateur.
 - **Flow 4** – Représente un flux initié par un utilisateur sur le réseau du client vers Microsoft 365 ou Office 365/Teams points de terminaison.
-- **Flow 5** – Représente un flux de médias d’égal à égal entre un utilisateur Teams et un autre utilisateur Teams ou Skype Entreprise au sein du réseau du client.
+- **Flow 5** – Représente un flux de médias d’égal à égal entre un utilisateur Teams et un autre utilisateur Teams ou Skype Entreprise du réseau du client.
 - **Flow 6** – Représente un flux de médias d’égal à égal entre un utilisateur Teams mobile distant et un autre utilisateur Teams ou Skype Entreprise mobile distant via Internet.
 
 #### <a name="use-case-one-to-one"></a>Cas d’utilisation : un-à-un
 
-Les appels un-à-un utilisent un modèle courant dans lequel l’appelant obtient un ensemble de candidats composés d’adresses IP/ports, y compris les candidats locaux, relais et réflexes (adresse IP publique du client telle que vue par le relais). L’appelant envoie ces candidats à l’appelé ; L’appelé obtient également un groupe de candidats similaire et les envoie à l’appelant. Les messages de vérification de la connectivité STUN sont utilisés pour rechercher les chemins d’accès multimédias d’appel/appelés, et le chemin d’accès le plus professionnel est sélectionné. Les médias (autrement dit, les paquets RTP/RTCP sécurisés à l’aide du protocole SRTP) sont envoyés à l’aide de la paire de candidats sélectionnée. Le relais de transport est déployé dans le cadre des déploiements Microsoft 365 et Office 365.
+Les appels un-à-un utilisent un modèle courant dans lequel l’appelant obtient un ensemble de candidats composés d’adresses IP/ports, y compris les candidats locaux, relais et réflexes (adresse IP publique du client telle que vue par le relais). L’appelant envoie ces candidats à l’appelé ; L’appelé obtient également un groupe de candidats similaire et les envoie à l’appelant. Les messages de vérification de la connectivité STUN sont utilisés pour rechercher les chemins d’accès multimédias d’appel/appelés, et le chemin d’accès le plus professionnel est sélectionné. Les médias (autrement dit, les paquets RTP/RTCP sécurisés à l’aide du protocole SRTP) sont envoyés à l’aide de la paire de candidats sélectionnée. Le relais de transport est déployé dans le cadre des déploiements Microsoft 365'Office 365.
 
 Si l’adresse IP locale/les candidats au port ou les candidats réflexes ont une connectivité, le chemin d’accès direct entre les clients (ou à l’aide d’un NAT) est sélectionné pour les médias. Si les clients se sont tous les deux sur le réseau du client, le chemin d’accès direct doit être sélectionné. Cela nécessite une connectivité UDP directe au sein du réseau du client. Si les clients sont tous les deux des utilisateurs du cloud, selon le NAT/pare-feu, les médias peuvent utiliser une connectivité directe.
 
@@ -159,7 +159,7 @@ Si un client est interne sur le réseau du client et un client externe (par exem
 
 **Au sein du réseau du client :**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 02.](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
 
 *Figure 2 - Au sein du réseau du client*
 
@@ -169,7 +169,7 @@ Les médias sont bidirectionnels. Le sens du flux 5 indique qu’un côté décl
 
 **Réseau client vers un utilisateur externe (média relayé par Teams Relais de transport ) :**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 03.](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
 
 *Figure 3 : réseau du client à l’utilisateur externe (média relayé Teams Relais de transport)*
 
@@ -179,7 +179,7 @@ Les médias sont bidirectionnels, où la direction indique le côté qui déclen
 
 **Réseau client vers un utilisateur externe (média direct) :**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 04.](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
 
 *Figure 4 : réseau du client à l’utilisateur externe (média direct)*
 
@@ -189,9 +189,9 @@ Les médias sont bidirectionnels, où la direction indique le côté qui déclen
 
 - Les médias sont bidirectionnels. Le sens du flux 2 vers l’utilisateur mobile distant indique qu’un côté déclenche la communication à partir d’une perspective de connectivité.
 
-**Utilisateur VPN à un utilisateur interne (média relayé Teams Relais de transport)**
+**Utilisateur VPN à un utilisateur interne (média relayé par Teams Relais de transport)**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 05.](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
 
 *Figure 5 : utilisateur VPN à l’utilisateur interne (média relayé Teams Relais de transport)*
 
@@ -199,7 +199,7 @@ La signalisation entre le vpn et le réseau du client utilise le flux 2'. La sig
 
 **Utilisateur VPN à l’utilisateur interne (média direct)**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 06.](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
 
 *Figure 6 : utilisateur VPN à l’utilisateur interne (média direct)*
 
@@ -209,7 +209,7 @@ Les médias sont bidirectionnels. Le sens du flux 2 vers l’utilisateur mobile 
 
 **Utilisateur VPN à l’utilisateur externe (média direct)**
 
-[![Microsoft Teams flux d’appels Figure 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
+[![Microsoft Teams flux d’appels Figure 07.](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
 
 *Figure 7 : utilisateur VPN à l’utilisateur externe (média direct)*
 
@@ -221,13 +221,13 @@ Les médias sont bidirectionnels. Le sens du flux 6 vers l’utilisateur mobile 
 
 Microsoft 365 et Office 365 avez un Système téléphonique permettant de passer et recevoir des appels à partir du réseau téléphonique commuté (RSTN). Si la ligne PSTN est connectée à l’aide du plan d Système téléphonique d’appels, il n’y a pas de exigences particulières de connectivité pour ce cas d’utilisation. (Si vous voulez connecter votre propre ligne PSTN Microsoft 365 ou Office 365, vous pouvez utiliser Système téléphonique routage direct.)
 
-[![Microsoft Teams Flux d’appels en ligne Figure 08](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 08.](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
 
 *Figure 8 : Teams de la ligne PSTN à Office 365 ligne*
 
 #### <a name="use-case-teams-meeting"></a>Cas d’utilisation : Teams réunion
 
-Le serveur de partage audio/vidéo/écran (VBSS) fait partie des Microsoft 365 et des Office 365. Il présente une adresse IP publique qui doit être accessible à partir du réseau du client et doit être accessible à partir d’un client Cloud 1002. Chaque client/point de terminaison doit être en mesure de se connecter au serveur de conférence.
+Le serveur de partage audio/vidéo/écran (VBSS) fait partie des Microsoft 365 et Office 365. Il présente une adresse IP publique qui doit être accessible à partir du réseau du client et doit être accessible à partir d’un client Cloud 1002. Chaque client/point de terminaison doit être en mesure de se connecter au serveur de conférence.
 
 Les clients internes obtiennent des candidats locaux, réflexes et relayés de la même manière que pour les appels un-à-un. Les clients envoient ces candidats au serveur de conférence dans une invitation. Le serveur de conférence n’utilise pas de relais, car il possède une adresse IP accessible publiquement. Il répond donc avec son candidat à l’adresse IP locale. Le serveur de client et de conférence vérifie la connectivité de la même manière que pour les appels un-à-un.
 
@@ -237,9 +237,9 @@ Notez que :
 
 - En fonction de l’organisateur de la réunion, la fonction d’appel RST et/ou de conférence peut être un utilisateur PSTN « Dials IN » ou « Dialed OUT ».
 
-- Un utilisateur invité ou un utilisateur client peut rejoindre la équipe à partir d’un réseau privé invité protégé par FW/NAT à l’aide de règles strictes.
+- Un utilisateur invité ou un utilisateur client peut rejoindre la équipe à partir d’un réseau privé invité protégé à l’aide de FW/NAT à l’aide de règles strictes.
 
-[![Microsoft Teams Flux d’appels en ligne Figure 09](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 09.](media/microsoft-teams-online-call-flows-figure09-thumbnail.png)](media/microsoft-teams-online-call-flows-figure09.png)
 
 *Figure 9 : réunion Teams réunion*
 
@@ -247,7 +247,7 @@ Notez que :
 
 **Média relayé par un Teams de transport dans Microsoft 365 ou Office 365**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 10](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 10.](media/microsoft-teams-online-call-flows-figure10-thumbnail.png)](media/microsoft-teams-online-call-flows-figure10.png)
 
 *Figure 10 : média relayé par Teams relais de transport dans Office 365*
 
@@ -255,7 +255,7 @@ Notez que :
 
 - Par définition, la fédération est une communication entre deux locataires. Dans ce cas, le client A, qui Teams client, se fédéré avec le client B, qui Skype Entreprise local. Si le client B utilise également Microsoft 365 ou Office 365, le client Skype Entreprise aurait utilisé le flux 3 pour se connecter à Microsoft 365 ou Office 365.
 
-- Le signalisation et le média à partir du client Skype Entreprise fédéré vers l’Skype Entreprise Server locaux ne sont plus dans l’étendue de ce document. Toutefois, il est illustré ici pour la clarté.
+- La signalisation et le média à partir du client Skype Entreprise fédéré vers l’Skype Entreprise Server locaux ne sont plus dans l’étendue de ce document. Toutefois, il est illustré ici pour la clarté.
 
 - La signalisation entre Teams et Skype Entreprise est ponte par une passerelle.
 
@@ -263,21 +263,21 @@ Notez que :
 
 **Média relayé par Skype Entreprise Relais multimédia dans un client fédéré**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 11](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 11.](media/microsoft-teams-online-call-flows-figure11-thumbnail.png)](media/microsoft-teams-online-call-flows-figure11.png)
 
 *Figure 11 - Média relayé par Skype Entreprise Relais multimédia dans un client fédéré*
 
 Notez que :
 
-- La signalisation et le média à partir du client Skype Entreprise fédéré vers un client Skype Entreprise Server l’étendue de ce document ne sont plus dans l’étendue de ce document. Toutefois, il est illustré ici pour la clarté.
+- La signalisation et le média à partir du client Skype Entreprise fédéré vers un client Skype Entreprise Server n’est plus dans l’étendue de ce document. Toutefois, il est illustré ici pour la clarté.
 
 - Le signalisation entre Teams et Skype Entreprise est ponte par une passerelle.
 
 - Dans ce cas, les médias sont relayés Skype Entreprise relais multimédia local sur le réseau du client à l’aide du flux 2. (Notez que le trafic provenant d’un utilisateur Teams vers le relais multimédia distant dans le réseau de clients fédérés sera initialement bloqué par le relais multimédia jusqu’à ce que le trafic dans le sens inverse commence à circuler. Toutefois, le flux bidirectionnel ouvre une connectivité dans les deux directions.)
 
-**Direct (P2D)**
+**Direct (D’égal à égal)**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 12](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 12.](media/microsoft-teams-online-call-flows-figure12-thumbnail.png)](media/microsoft-teams-online-call-flows-figure12.png)
 
 *Figure 12 - Direct (P2 P2)*
 
@@ -285,11 +285,11 @@ Notez que :
 
 Cette topologie inclut Teams avec un Skype Entreprise local.
 
-[![Microsoft Teams Flux d’appels en ligne Figure 13](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 13.](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
 
 *Figure 13 : Teams topologie hybride*
 
-- La direction des flèches sur le diagramme ci-dessus reflète la direction initiation de la communication qui affecte la connectivité au périmètre d’entreprise. Dans le cas d’UDP pour les éléments multimédias, le ou les premiers paquets peuvent circuler dans la direction inverse, mais ces paquets peuvent être bloqués jusqu’à ce que les paquets dans le sens inverse s’écoulent.
+- La direction des flèches sur le diagramme ci-dessus reflète la direction initiation de la communication qui affecte la connectivité au périmètre d’entreprise. Dans le cas d’UDP pour les éléments multimédias, le ou les premiers paquets peuvent circuler dans la direction inverse, mais ces paquets peuvent être bloqués jusqu’à ce que des paquets dans le sens inverse s’écoulent.
 
 - Teams est déployé côte à côte avec Skype Entreprise Online, les clients sont donc affichés comme « utilisateur Teams/SFB ».
 
@@ -301,7 +301,7 @@ Flux supplémentaire (par-dessus Teams topologie) :
 
 **Hybride au sein du réseau du client**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 14.](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
 
 *Figure 14 - Hybride au sein du réseau du client*
 
@@ -309,7 +309,7 @@ La signalisation entre Teams et Skype Entreprise est ponte par une passerelle. T
 
 **Réseau client hybride avec un utilisateur Skype Entreprise externe, relayé par l’Microsoft 365 ou Office 365**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 15](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 15.](media/microsoft-teams-online-call-flows-figure15-thumbnail.png)](media/microsoft-teams-online-call-flows-figure15.png)
 
 *Figure 15 : réseau de clients hybride avec un utilisateur Skype Entreprise externe- relayé par Office 365*
 
@@ -323,7 +323,7 @@ Notez que :
 
 **Réseau client hybride avec un utilisateur Skype Entreprise externe, relayé par le edge local**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 16.](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
 *Figure 16 - Réseau de clients hybride avec un utilisateur Skype Entreprise externe - relayé par edge sur site*
 
@@ -343,13 +343,13 @@ Le routage direct vous permet d’utiliser un fournisseur de services RST (Publi
 
 Pour prendre en charge ce scénario, le client doit déployer un SBC certifié pour le routage direct à partir de l’un des partenaires certifiés de Microsoft. Le SBC doit être configuré comme recommandé par le fournisseur et routable à partir d’Microsoft 365 ou Office 365 pour le trafic UDP direct. Le média peut circuler directement entre le Teams et/ou le client Skype Entreprise vers le SBC (sans passer par la passerelle Teams) ou traverser la passerelle Teams réseau. La connectivité avec le SBC, lorsque la ligne est configurée pour contourner la passerelle Teams, est basée sur ICE, où SBC prend en charge ICE-Lite, tandis que le point de terminaison multimédia Teams/Skype Entreprise prend en charge la forme complète ICE.
 
-[![Microsoft Teams Flux d’appels en ligne Figure 17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 17.](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
 
 *Figure 17 : Teams topologie Système téléphonique routage direct
 
 Notez que :
 
-- La direction des flèches sur le diagramme ci-dessus reflète la direction initiation de la communication qui affecte la connectivité au périmètre d’entreprise. Dans le cas d’UDP pour les éléments multimédias, le ou les premiers paquets peuvent circuler dans la direction inverse, mais ces paquets peuvent être bloqués jusqu’à ce que les paquets dans le sens inverse s’écoulent.
+- La direction des flèches sur le diagramme ci-dessus reflète la direction initiation de la communication qui affecte la connectivité au périmètre d’entreprise. Dans le cas d’UDP pour les éléments multimédias, le ou les premiers paquets peuvent circuler dans la direction inverse, mais ces paquets peuvent être bloqués jusqu’à ce que des paquets dans le sens inverse s’écoulent.
 
 - Teams est déployé côte à côte avec Skype Entreprise Online, les clients sont donc affichés comme « utilisateur Teams/SFB ».
 
@@ -361,7 +361,7 @@ Flux supplémentaires (topologie de Teams online) :
 
 **Utilisateur interne avec routage direct (média relayé Teams relais de transport)**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 18](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 18.](media/microsoft-teams-online-call-flows-figure18-thumbnail.png)](media/microsoft-teams-online-call-flows-figure18.png)
 
 *Figure 18 : Utilisateur interne avec routage direct (média relayé Teams relais de transport)*
 
@@ -375,9 +375,9 @@ Notez que :
 
 **Utilisateur distant avec routage direct (les médias sont acheminés via un serveur multimédia (MP))**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 19](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 19.](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
 
-*Figure 19 : Utilisateur distant avec routage direct (les médias sont acheminés via un serveur multimédia (MP))*
+*Figure 19 : Utilisateur distant avec routage direct (les médias sont roudés via un serveur multimédia (MP))*
 
 Notez que :
 
@@ -389,7 +389,7 @@ Notez que :
 
 **Routage direct (dérivation média) de l’utilisateur interne**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 20](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 20.](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
 
 *Figure 20 : routage direct de l’utilisateur interne (dérivation média)*
 
@@ -405,7 +405,7 @@ Notez que :
 
 **Utilisateur distant avec routage direct (dérivation média relayée par Teams relais de transport)**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 21](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 21.](media/microsoft-teams-online-call-flows-figure21-thumbnail.png)](media/microsoft-teams-online-call-flows-figure21.png)
 
 *Figure 21 : Utilisateur distant avec routage direct (dérivation média relayé Teams Relais de transport)*
 
@@ -421,7 +421,7 @@ Notez que :
 
 **Routage direct de l’utilisateur distant (dérivation directe sur les médias)**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 22.](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
 
 *Figure 22 : routage direct de l’utilisateur distant (dérivation média direct)*
 
@@ -437,7 +437,7 @@ Notez que :
 
 **Routage direct (dérivation média) : appel en épingle à cheveux PSTN (à cause d’un transfert/transfert d’appel)**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 23.](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
 
 *Figure 23 - Routage direct (dérivation média) - Appel en épingle à cheveux PSTN (en raison d’un transfert/transfert d’appel)*
 
@@ -453,7 +453,7 @@ Notez que :
 
 **Routage direct (média via Microsoft 365 ou Office 365) : appel en épingle à cheveux PSTN entre deux locataires**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 24.](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
 
 *Figure 24 - Routage direct (média via Microsoft 365 ou Office 365) : appel en épingle à cheveux PSTN entre deux locataires*
 
@@ -469,7 +469,7 @@ Notez que :
 
 ## <a name="teams-with-express-route-optimization"></a>Teams’optimisation de l’itinéraire Express
 
-[![Microsoft Teams Flux d’appels en ligne Figure 25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 25.](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
 
 *Figure 25 : Teams l’optimisation de la route Express*
 
@@ -482,7 +482,7 @@ Pour éviter des flux asymétriques, le routage doit être dans les deux sens. E
 
 **Réseau client vers un utilisateur externe (média relayé par Teams Relais de transport ) :**
 
-[![Microsoft Teams Flux d’appels en ligne Figure 26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
+[![Microsoft Teams Flux d’appels en ligne Figure 26.](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
 
 *Figure 26 : réseau du client à l’utilisateur externe (média relayé Teams Relais de transport)*
 

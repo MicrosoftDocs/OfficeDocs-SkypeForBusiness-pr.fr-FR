@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vous devez vérifier que les services hérités ont été configurés et démarrés. Il est important d’identifier les principaux services et fonctionnalités qui existent dans votre environnement hérité avant de déployer un pool pilote Skype Entreprise Server 2019. Avant de déployer XMPP Microsoft Skype Entreprise Server 2019 dans un état de coexistence avec un déploiement XMPP hérité, vous devez vérifier que les services XMPP hérités ont été configurés et démarrés, et identifier le partenaire fédéré pris en charge par la configuration XMPP héritée.
-ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 208b508eb6b2b5c62da51aa6317cde6e2a95bbb7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586238"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727743"
 ---
 # <a name="verify-the-legacy-environment"></a>Vérifier l’environnement hérité
 
@@ -36,7 +36,7 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
 2. Vérifiez que les services suivants sont exécutés sur le serveur frontal :
     
-     ![Liste des services en cours d’exécution sur le serveur frontal](../media/migration_lyncserver_config_w14_services.jpg)
+     ![Liste des services en cours d’exécution sur le serveur frontal.](../media/migration_lyncserver_config_w14_services.jpg)
   
 ## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Examiner la topologie héritée dans le Skype Entreprise Server de contrôle
 
@@ -46,7 +46,7 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
 3. Sélectionnez **Topologie**. Vérifiez que les différents serveurs de votre déploiement hérité sont répertoriés.
     
-     ![Page topologie du Panneau de contrôle](../media/migration_lyncserver_2010_topology.JPG)
+     ![Page topologie du Panneau de contrôle.](../media/migration_lyncserver_2010_topology.JPG)
   
 ## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Passer en revue les utilisateurs hérités dans le Skype Entreprise Server de contrôle
 
@@ -56,7 +56,7 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
 3. Vérifiez que la colonne **Pool de** bureaux d’inscriptions pointe vers le pool hérité pour chaque utilisateur répertorié. 
     
-     ![Panneau de contrôle répertoriant les utilisateurs](../media/migration_lyncserver_2010_allusers.JPG)
+     ![Panneau de contrôle répertoriant les utilisateurs.](../media/migration_lyncserver_2010_allusers.JPG)
   
 ## <a name="verify-legacy-edge-and-federation-settings"></a>Vérifier les paramètres edge et de fédération hérités
 
@@ -68,17 +68,17 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
 4. Développez le nœud d’installation hérité pour révéler les différents rôles serveur dans le déploiement.
     
-5. Sélectionnez le nœud de site et vérifiez qu’une valeur d’affectation d’itinéraire de **fédération de** site est définie. 
+5. Sélectionnez le nœud de site et vérifiez qu’une valeur d’affectation **d’itinéraire de fédération de** site est définie. 
     
-     ![Générateur de topologie, itinéraire de fédération de site](../media/migration_lyncserver_w14_federation.jpg)
+     ![Générateur de topologie, itinéraire de fédération de site.](../media/migration_lyncserver_w14_federation.jpg)
   
 6. Sélectionnez le Édition Standard serveur ou Êdition Entreprise pool frontal. Déterminez si un pool edge a été configuré pour les médias sous **Associations.** 
     
-     ![Générateur de topologie affichant les serveurs et les pools](../media/migration_lyncserver_w14_edgepool_media.jpg)
+     ![Générateur de topologie affichant les serveurs et les pools.](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
 7. Sélectionnez le pool edge et identifiez si un pool du saut suivant est configuré sous **la sélection du saut suivant.**
     
-     ![Générateur de topologie, sélection du saut suivant](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![Générateur de topologie, sélection du saut suivant.](../media/migration_lyncserver_w14_nexthop.jpg)
   
 ## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Vérifier la configuration des partenaires fédérés XMPP hérités
 
@@ -86,6 +86,6 @@ Avant de déployer Skype Entreprise Server 2019 dans un état de coexistence, vo
     
 2. Vérifiez que le service de passerelle XMPP Office Communications Server est démarré. 
     
-     ![Office Service de passerelle XMPP Communications Server](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Office Service de passerelle XMPP Communications Server.](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 

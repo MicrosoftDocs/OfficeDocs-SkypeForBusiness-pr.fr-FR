@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Découvrez comment récupérer des Microsoft Teams dans le journal d’audit du Centre de conformité Microsoft 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91111f211234058d9b438f8100e0310eec7a9db0
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: b0e2c1cf68097aede8fefd6410791ac103fcea68
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386693"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725663"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Rechercher des événements Microsoft Teams dans le journal d'audit
 
@@ -63,11 +63,11 @@ La durée pendant qu’un enregistrement d’audit est conservé et utilisable d
 
 Voici des conseils pour rechercher des Teams dans le journal d’audit.
 
-![Capture d’écran de la page de recherche dans le journal d’audit](media/audit-log-search-page.png)
+![Capture d’écran de la page de recherche dans le journal d’audit.](media/audit-log-search-page.png)
 
 - Vous pouvez sélectionner des activités spécifiques à rechercher en cliquant sur le nom de l’activité. Vous pouvez également rechercher toutes les activités d’un groupe (par exemple, activités sur les fichiers et les **dossiers)** en cliquant sur le nom du groupe. Si une activité est sélectionnée, vous pouvez cliquer dessus pour annuler la sélection. Vous pouvez également utiliser la zone de recherche pour afficher les activités qui contiennent le mot clé que vous tapez.
 
-  ![Capture d’écran de la recherche dans le journal d’audit](media/audit-log-search.png)
+  ![Capture d’écran de la recherche dans le journal d’audit.](media/audit-log-search.png)
 
 - Pour afficher les événements pour les activités s’exécutent à l’aide d’lets de cmdlets, sélectionnez Afficher les résultats pour **toutes** les activités dans **la liste Activités.** Si vous connaissez le nom de l’opération pour ces activités, recherchez toutes les activités, puis filtrez les résultats en tapant le nom de l’opération dans la zone de la colonne **Activité.** Pour en savoir plus, voir [l’étape 3 : filtrer les résultats de recherche.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)
 
@@ -87,13 +87,13 @@ Une fois que vous avez définie une stratégie de détection d’activité, elle
 
 L’un des scénarios que vous voudrez peut-être garder à l’œil, du point de vue de l’entreprise, est l’ajout d’utilisateurs externes à votre Teams personnel. Si les utilisateurs externes sont activés, il est bon de surveiller leur présence.  Vous pouvez utiliser des [Sécurité des applications cloud](/cloud-app-security/what-is-cloud-app-security) pour identifier les menaces potentielles.
 
-![Stratégie de surveillance de l’ajout d’utilisateurs externes](media/TeamsExternalUserAddPolicy.png)
+![Stratégie de surveillance de l’ajout d’utilisateurs externes.](media/TeamsExternalUserAddPolicy.png)
 
 La capture d’écran de cette stratégie pour surveiller l’ajout d’utilisateurs externes vous permet de nommer la stratégie, de définir la gravité en fonction des besoins de votre entreprise, de la définir en tant qu’activité unique (dans ce cas), puis d’établir les paramètres qui surveilleront spécifiquement l’ajout d’utilisateurs non internes et limiteront cette activité à Teams.
 
 Les résultats de cette stratégie peuvent être vus dans le journal d’activité :
 
-![Événements déclenchés par une stratégie d’utilisateurs externes](media/TeamsExternalUserList.png)
+![Événements déclenchés par une stratégie d’utilisateurs externes.](media/TeamsExternalUserList.png)
 
 Vous pouvez passer en revue les correspondances à la stratégie que vous avez définie et apporter les ajustements nécessaires, ou exporter les résultats pour les utiliser ailleurs.
 
@@ -101,13 +101,13 @@ Vous pouvez passer en revue les correspondances à la stratégie que vous avez d
 
 Comme mentionné précédemment, vous pouvez surveiller les scénarios de suppression. Il est possible de créer une stratégie qui surveille la suppression de masse de Teams sites. Dans cet exemple, une stratégie basée sur les alertes est définie pour détecter la suppression de masse des équipes sur une période de 30 minutes.
 
-![Stratégie montrant la configuration d’une stratégie pour la détection de la suppression de masse des équipes](media/TeamsMassDeletePolicy.png)
+![Stratégie montrant la configuration d’une stratégie pour la détection de la suppression de masse des équipes.](media/TeamsMassDeletePolicy.png)
 
 Comme le montre la capture d’écran, vous pouvez définir de nombreux paramètres différents pour cette stratégie afin de surveiller les suppressions d’Teams, notamment la gravité, les actions simples ou répétées et les paramètres limitant cette action à Teams et la suppression de site. Cette fonction peut être effectuée indépendamment d’un modèle, ou vous pouvez créer un modèle pour baser cette stratégie sur les besoins de votre organisation.
 
 Après avoir établi une stratégie qui fonctionne pour votre entreprise, vous pouvez examiner les résultats dans le journal d’activité à mesure que les événements sont déclenchés :
 
-![Événements de capture d’écran déclenchés par des suppressions de masse](media/TeamsMassDeleteList.png)
+![Capture d’écran d’événements déclenchés par des suppressions de masse.](media/TeamsMassDeleteList.png)
 
 Vous pouvez filtrer vers le bas jusqu’à la stratégie que vous avez définie pour voir ses résultats. Si les résultats que vous avez obtenus dans le journal d’activité ne sont pas satisfaisants (vous voyez peut-être un grand nombre de résultats ou rien du tout), cela peut vous aider à affiner la requête pour la rendre plus pertinente en rapport avec ce que vous avez besoin de faire.
 
@@ -115,7 +115,7 @@ Vous pouvez filtrer vers le bas jusqu’à la stratégie que vous avez définie 
 
 Vous pouvez définir des alertes et envoyer des courriers électroniques aux administrateurs et aux autres utilisateurs lorsqu’une stratégie d’activité est déclenchée. Vous pouvez définir des actions de gouvernance automatisées, telles que la suspension d’un utilisateur ou le fait de faire en sorte qu’un utilisateur se connecte à nouveau de manière automatisée. Cet exemple montre comment un compte d’utilisateur peut être suspendu lorsqu’une stratégie d’activité est déclenchée et détermine qu’un utilisateur a supprimé plusieurs équipes en 30 minutes.
 
-![Capture d’écran des alertes et des actions de gouvernance pour une stratégie d’activité](media/audit-log-governance.png)
+![Capture d’écran des alertes et des actions de gouvernance pour une stratégie d’activité.](media/audit-log-governance.png)
 
 ## <a name="teams-activities"></a>Teams activités
 

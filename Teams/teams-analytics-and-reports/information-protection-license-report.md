@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport sur les licences Teams de pr
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fc9dd7dc39c8803a87f71f9ef80e2a5609603a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ab006bdbc08ea3b93f46faf9df0f62955814e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625856"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732653"
 ---
 # <a name="microsoft-teams-information-protection-license-report"></a>Microsoft Teams de licence de protection des informations
 
@@ -37,7 +37,7 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 2. Sous **Plage de dates,** sélectionnez une plage.
 3. Sous **Applications,** sélectionnez une application, puis **sélectionnez Exécuter le rapport.**
 
-    ![Capture d’écran du Teams licence de protection des informations dans le Centre Teams’administration avec des appels](../media/teams-info-protection-license-report-with-callouts.png "Capture d’écran du Teams licence de protection des informations dans le Centre Teams’administration avec des appels")
+    ![Capture d’écran Teams rapport sur les licences de protection des informations Teams centre d’administration avec des appels.](../media/teams-info-protection-license-report-with-callouts.png "Capture d’écran du Teams licence de protection des informations dans le Centre Teams’administration avec des appels")
 
 ## <a name="interpret-the-report"></a>Interpréter le rapport
 

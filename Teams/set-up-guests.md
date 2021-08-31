@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Découvrez comment activer ou désactiver la fonctionnalité d'accès invité dans Microsoft Teams en tant qu'administrateur d'Office 365.
-ms.openlocfilehash: e9701defbf987d68f2c0ce79a9797064a07111bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 433d0f3b73da465cdfd11382889b9cd13a1e7b06
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590738"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725523"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activer ou désactiver l'accès invité dans Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "58590738"
 
 3. Définissez l’option **Autoriser l’accès invité dans Microsoft Teams** sur **Activé**.
 
-    ![Bouton Autoriser l’accès invité sur On ](media/guest-access-setting.png)
+    ![Autoriser le commutateur d’accès invité sur On.](media/guest-access-setting.png)
 
 4. Sous **Appel**, **Réunion**, et **Messagerie** sélectionnez **Activé** ou **Désactivé** pour chaque fonctionnalité, en fonction de ce que vous souhaitez autoriser pour les utilisateurs invités.
 
@@ -70,7 +70,7 @@ ms.locfileid: "58590738"
       - **Utiliser memes dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Memes dans les conversations.
       - **Utiliser des Autocollants dans les conversations** : mettre ce paramètre sur **On** pour permettre aux invités d’utiliser des Autocollants dans les conversations.
 
-    ![Paramètres des permissions des invités dans Teams](media/manage-guest-access-image1.png)
+    ![Paramètres des autorisations invité dans Teams.](media/manage-guest-access-image1.png)
 
 5. Sélectionnez **Enregistrer**.
 

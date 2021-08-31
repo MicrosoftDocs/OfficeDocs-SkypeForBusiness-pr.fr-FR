@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39452a659f1a95d66aeac4a18a4d7801764437ae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e48b29ec04d10c899d646f4a28605e40fc2da09
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618640"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725503"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interopérabilité de la vidéo cloud de Microsoft Teams
 
 Cloud Video Interop (CVI) est une solution tierce qualifiée par Microsoft qui permet à des salles de réunion tierces (téléconférence) et des périphériques vidéo personnels (VTCs) de participer à Microsoft Teams réunion.
  
-Grâce Microsoft Teams, vous pouvez enrichir la collaboration de contenu en ligne au cours de réunions qui incluent l’audio, la vidéo et le partage de contenu. Cela peut être apprécié via le client de bureau et web, ainsi que par le biais de nombreux appareils partenaires qui s’intègrent en natif avec Microsoft Teams. Toutefois, de nombreux clients ont déjà investi dans la vidéoconférence et les périphériques de communication vidéo personnels, qui peuvent être coûteux à la mise à niveau. Cloud Video Interop fournit une solution simple qui vous permet de continuer à utiliser vos solutions existantes jusqu’à ce que vous soyez prêt à mettre à niveau.
+Grâce Microsoft Teams, vous pouvez enrichir la collaboration de contenu en ligne au cours de réunions qui incluent l’audio, la vidéo et le partage de contenu. Cela peut être apprécié via le client de bureau et web, ainsi que par le biais de nombreux appareils partenaires qui s’intègrent en natif avec Microsoft Teams. Toutefois, de nombreux clients ont déjà investi dans la téléconférence vidéo et les périphériques de communication vidéo personnels, qui peuvent être coûteux à la mise à niveau. Cloud Video Interop fournit une solution simple qui vous permet de continuer à utiliser vos solutions existantes jusqu’à ce que vous soyez prêt à mettre à niveau.
 
 Grâce à Cloud Video Interop, Microsoft Teams permet d’offrir une expérience de réunion native à tous les participants, dans des salles de réunion ou à l’intérieur Teams clients.
 
@@ -41,7 +41,7 @@ Cloud Video Interop fournit un service intermédiaire pendant la transition vers
 
 Cloud Video Interop est destiné aux clients qui répondent aux critères suivants :
 
-- Déploiement important d’appareils de salle de réunion et de périphériques vidéo personnels (plus de 50 appareils) qui ne sont pas admissibles à une intégration directe avec Microsoft Teams
+- Déploiement important d’appareils de salle de réunion et de périphériques vidéo personnels (plus de 50 appareils) qui ne peuvent pas être intégrés directement à Microsoft Teams
 - Sont pris en charge par l’un de nos partenaires Cloud Video Interop
 - Vous souhaitez conserver la valeur de leur investissement dans les appareils de salle de réunion et les périphériques vidéo personnels pendant la migration vers une solution Microsoft Teams native
 
@@ -53,16 +53,16 @@ Office 365 permet d’intégrer des applications tierces dans des sites SharePoi
 
 
 
-### <a name="partners-certified-for-microsoft-teams"></a>Partenaires certifiés pour Microsoft Teams
+### <a name="partners-certified-for-microsoft-teams"></a>Partenaires certifiés pour les Microsoft Teams
 
 Les partenaires suivants ont des solutions d’interop vidéo pour Microsoft Teams. Votre entreprise peut choisir de travailler avec n’importe quelle combinaison de ces partenaires au sein de votre entreprise. 
 
 |Partenaire|Solution partenaire|
 |----|---|
-|![Logo représentant Poly RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect Service</a> |
-|![Logo représentant Pexip Infini](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infini pour Microsoft Teams</a> | 
-|![Logo représentant la passerelle BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle BlueJeans pour Microsoft Teams</a> |
-|![Logo représentant Cisco CVI](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Intégration de Cisco Webex Video pour Microsoft Teams</a>|
+|![Logo représentant Poly RealConnect.](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect Service</a> |
+|![Logo représentant Pexip Infini.](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infini pour Microsoft Teams</a> | 
+|![Logo représentant la passerelle BlueJeans.](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Passerelle BlueJeans pour Microsoft Teams</a> |
+|![Logo représentant Cisco CVI.](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Intégration de Cisco Webex Video pour Microsoft Teams</a>|
 
 ### <a name="cloud-video-interop-overview"></a>Vue d’ensemble d’Interop Cloud Video
 
@@ -72,14 +72,14 @@ Les solutions proposées par nos partenaires se composent de composants qui peuv
      
 Le diagramme suivant illustre l’architecture de haut niveau de nos solutions partenaires.
 
-![Diagramme décrivant une solution partenaire Teams Cloud Video Interop](media/teams-cloud-video-interop-partner-solution.png)
+![Diagramme décrivant une solution Teams Cloud Video Interop.](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## <a name="deploy-cloud-video-interop"></a>Déployer Cloud Video Interop
 
-Lors du déploiement d’une solution Cloud Video Interop, il est important de comprendre que vous déployez une solution partenaire. Les étapes générales à suivre pour déployer Cloud Video Interop sont répertoriées dans le diagramme suivant.
+Lors du déploiement d’une solution Cloud Video Interop, il est important de comprendre que vous déployez une solution partenaire. Les étapes générales que vous devez suivre pour déployer Cloud Video Interop sont répertoriées dans le diagramme suivant.
 
-![Diagramme décrivant le déploiement de CVI dans votre organisation](media/deploying-cvi.png)
+![Diagramme décrivant le déploiement de CVI dans votre organisation.](media/deploying-cvi.png)
 
 ### <a name="plan"></a>Plan
 
@@ -93,7 +93,7 @@ Le partenaire que vous avez choisi pour votre déploiement DVI vous fournira un 
 
 ### <a name="provision"></a>Approvisionnement  
 
-Au cours de la phase de configuration, vous attribuerez des licences aux utilisateurs appropriés, conformément au guide de configuration du partenaire. Vous devrez également passer par le processus de consentement Azure pour fournir au partenaire l’accès à votre Teams professionnel. Pour [plus d’informations sur](/azure/active-directory/develop/v2-permissions-and-consent) le processus de consentement Azure, voir Autorisations et consentement dans Plateforme d’identités Microsoft point de terminaison.
+Au cours de la phase de configuration, vous attribuerez des licences aux utilisateurs appropriés, conformément au guide de configuration du partenaire. Vous devrez également passer par le processus d’accord Azure pour fournir au partenaire l’accès à votre Teams professionnel. Pour [plus d’informations sur](/azure/active-directory/develop/v2-permissions-and-consent) le processus de consentement Azure, voir Autorisations et consentement dans Plateforme d’identités Microsoft point de terminaison.
 
 ### <a name="schedule"></a>Planifier
 
@@ -107,7 +107,7 @@ Selon la solution partenaire, plusieurs méthodes s’offrent à vous pour parti
   - Vous pouvez appeler les IVR du partenaire à l’aide de la tenantkey@domain.
   - Lorsque vous êtes dans l’IVR partenaire, vous êtes invité à entrer le VTC conferenceId, qui vous connecte ensuite à la Teams partenaire.
 - Numérotation directe 
-  - Vous pouvez appeler directement la réunion Teams sans interagir avec les IVR du partenaire à l’aide de la fonctionnalité de numérotation directe, en utilisant la chaîne complète de touches client. VTC ConferenceId@domain.
+  - Vous pouvez appeler directement la réunion Teams sans interagir avec les IVR du partenaire à l’aide de la fonctionnalité de numérotation directe, en utilisant la chaîne complète de clés client. VTC ConferenceId@domain.
 - Numérotation à une pression 
   - Si vous avez une salle de numérotation Teams intégrée, vous pouvez utiliser les fonctionnalités de numérotation à une pression offertes par votre partenaire (sans avoir à taper de chaîne de numérotation).
 
@@ -132,4 +132,4 @@ Les cmdlets PowerShell suivantes sont disponibles pour automatiser (partiellemen
 - **New-CsVideoInteropServiceProvider**: utilisez cette cmdlet pour spécifier les informations sur un partenaire CVI pris en charge que votre organisation souhaite utiliser.
 - **Set-CsVideoInteropServiceProvider**: utilisez cette cmdlet pour mettre à jour les informations sur un partenaire CVI pris en charge que votre organisation utilise.
 - **Get-CsVideoInteropServiceProvider**: utilisez cette cmdlet pour obtenir tous les fournisseurs configurés pour une utilisation au sein de l’organisation.
-- **Remove-CsVideoInteropServiceProvider**: cette cmdlet permet de supprimer toutes les informations de fournisseur concernant un fournisseur que votre organisation n’utilise plus.
+- **Remove-CsVideoInteropServiceProvider**: cette cmdlet permet de supprimer toutes les informations sur un fournisseur que votre organisation n’utilise plus.

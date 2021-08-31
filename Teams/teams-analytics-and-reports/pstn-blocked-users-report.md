@@ -17,12 +17,12 @@ description: Utilisez le rapport sur le blocage d’utilisateurs PSTN dans le Ce
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da60a0005fbccd04e3257f3dd7466d5b1a32a544
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c1f703c672859c68d79a56af754dc087f68407c1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594466"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733093"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams Rapport sur le blocage d’utilisateurs PSTN
 
@@ -40,7 +40,7 @@ Dans la barre de navigation gauche du Centre Microsoft Teams’administration, c
 |--------|-------------|
 |**1**   |Chaque rapport indique la date à laquelle il a été généré. Les rapports reflètent généralement une latence de 24 à 48 heures par rapport à l'heure de l'activité. |
 |**2**   |L’axe X est la date. L’axe Y est le nombre d’utilisateurs. <br>Pointez sur le point à une date donnée pour voir le nombre d’utilisateurs bloqués à cette date. |
-|**3**   |Le tableau détailne tous les utilisateurs bloqués et ne peuvent plus effectuer d’appels PSTN.  Il affiche tous les utilisateurs Système téléphonique ou l’audioconférence et vous donne des informations supplémentaires sur chacun d’eux. <ul><li>**Le nom d’affichage** est le nom d’affichage de l’utilisateur. Vous pouvez cliquer sur le nom d’affichage pour aller à la page de paramètres de l’utilisateur dans le Microsoft Teams d’administration. </li> <li>**Téléphone** est le numéro affecté à l’utilisateur.</li> <li>**La raison du blocage** est la raison pour laquelle l’utilisateur est bloqué et ne peut plus effectuer d’appels.</li><li>**L’action** bloquée vous indique si l’utilisateur est bloqué ou débloqué contre les appels PSTN dans Teams.</li> <li>**L’heure bloquée** est la date et l’heure (UTC) à laquelle l’utilisateur a été bloqué.</li></li> </ul>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**3**   |Le tableau détailne tous les utilisateurs bloqués et ne peuvent plus effectuer d’appels PSTN.  Il affiche tous les utilisateurs Système téléphonique ou l’audioconférence et vous donne des informations supplémentaires sur chacun d’eux. <ul><li>**Le nom d’affichage** est le nom d’affichage de l’utilisateur. Vous pouvez cliquer sur le nom d’affichage pour aller à la page de paramètres de l’utilisateur dans le Microsoft Teams d’administration. </li> <li>**Téléphone** est le numéro affecté à l’utilisateur.</li> <li>**La raison du blocage** est la raison pour laquelle l’utilisateur est bloqué et ne peut plus effectuer d’appels.</li><li>**L’action** bloquée vous indique si l’utilisateur est bloqué ou débloqué contre les appels PSTN dans Teams.</li> <li>**L’heure** bloquée est la date et l’heure (UTC) à laquelle l’utilisateur a été bloqué.</li></li> </ul>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**4**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 |**5**   |Sélectionnez **Plein écran** pour afficher le rapport en mode Plein écran.|
 

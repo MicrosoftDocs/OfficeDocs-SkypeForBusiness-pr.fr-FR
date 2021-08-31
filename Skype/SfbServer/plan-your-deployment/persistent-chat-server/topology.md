@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Résumé : Consultez cette rubrique pour en savoir plus sur les topologies et les composants du serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: 67b1e322bd8b367dafdee32f331e597471ba2189
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 63c82eee1a640616aaf8f390a66b2d67678b36ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598738"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725943"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planifier la topologie du serveur de conversation permanente
  
@@ -99,7 +99,7 @@ La figure suivante montre tous les composants d’une topologie pour un serveur 
   
 **Topologie à un seul serveur**
 
-![Serveur de conversation permanente - Topologie à serveur unique](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
+![Serveur de conversation permanente - Topologie à serveur unique.](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Êdition Entreprise Serveur avec plusieurs serveurs de conversation permanente
 
@@ -109,7 +109,7 @@ La figure suivante montre tous les composants d’une topologie à plusieurs ser
   
 **Topologie à plusieurs serveurs**
 
-![Serveur de conversation permanente - Topologie à plusieurs serveurs](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
+![Serveur de conversation permanente : topologie à plusieurs serveurs.](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
 Les topologies à plusieurs serveurs permettent de regrouper les fonctionnalités des serveurs. Dans un pool de serveurs, les services de conversation permanente communiquent et partagent des données. Par exemple, l’historique de conversation initialement publié dans un service de conversation permanente est disponible à partir de n’importe quel service de conversation permanente dans le système. Un fichier téléchargé via un service de conversation permanente est accessible par n’importe quel service de conversation permanente. Les utilisateurs peuvent être connectés à différents serveurs frontaux du serveur de conversation permanente et peuvent communiquer entre eux. Le port par défaut du port TCP 8011 connecte un serveur à un pool de serveurs et est utilisé par les services de conversation permanente pour communiquer entre eux ou à des fins d’administration.
   

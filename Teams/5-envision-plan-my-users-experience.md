@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5176f40886bdc086df43a130cb9d8414bd8f40a3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624836"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732963"
 ---
 # <a name="plan-my-users-experience"></a>Planifier l’expérience de mes utilisateurs
 
-Cet article donne une vue d’ensemble des conditions requises pour identifier correctement les éléments de déploiement de vos services vocaux cloud qui affectent directement l’expérience de vos utilisateurs. En vous préparez à ces éléments avant le déploiement, vous augmentez vos chances de fournir une expérience haute qualité et fiable aux utilisateurs. 
+Cet article donne une vue d’ensemble des conditions requises pour identifier correctement les éléments de déploiement de vos services vocaux cloud qui affectent directement l’expérience de vos utilisateurs. En vous préparez à ces éléments avant le déploiement, vous augmentez vos chances de fournir une expérience fiable et de haute qualité aux utilisateurs. 
 
 ## <a name="client-deployment"></a>Déploiement du client
 
@@ -43,7 +43,7 @@ L’un des principaux avantages d Teams est que le client est automatiquement te
 
 Comme le montre le diagramme ci-dessous, les points de terminaison jouent un rôle essentiel dans la fourniture d’une expérience de qualité aux utilisateurs.
 
-![Diagramme décrivant les trois composants de la qualité](media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composants de la qualité et la manière dont la gestion des services chevauche les trois composants. Avec le focus sur les points de terminaison.")
+![Diagramme décrivant les trois composants de la qualité.](media/plan-my-users-experience-image1.png "Diagramme décrivant les trois composants de la qualité et la manière dont la gestion des services chevauche les trois composants. Avec le focus sur les points de terminaison.")
 
 Teams points de terminaison peuvent s’exécuter sur de nombreux appareils, notamment des PC, des Mac, des tablettes et des appareils mobiles. Une partie de l’expérience englobe non seulement l’appareil, mais également la façon dont un utilisateur se connecte à l’appareil, par exemple, en utilisant le micro/haut-parleur intégré de l’appareil, les écouteurs ou un casque optimisé. L'utilisation d'un casque optimisé peut enrichir l'expérience globale de l'utilisateur.
 

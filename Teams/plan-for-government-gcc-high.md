@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: daro
-description: Conseils pour les professionnels de l’informatique Office 365 les déploiements au cours d’entités qui gèrent les données soumises à la réglementation du gouvernement américain.
+description: Conseils pour les professionnels de l’Office 365 les déploiements au cours d’entités qui gèrent les données soumises à la réglementation du gouvernement américain.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ef18970aa601c359aacbcfd8239d9fca2419d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ba5a17ab83cd390a4aae121ccae93adcdda3595
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625976"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732893"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Planifier les déploiements Office 365 Secteur Public- Cloud de la communauté du secteur public haut niveau
 
@@ -53,7 +53,7 @@ La [Office 365 description du service public](/office365/servicedescriptions/off
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si Office 365 Secteur Public niveau Cloud de la communauté du secteur public haute convient à votre organisation.</li><li>Confirmez que votre organisation répond aux conditions d’éligibilité requises.</li></ul> |
+| ![Icône représentant des points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si Office 365 Secteur Public niveau Cloud de la communauté du secteur public haute convient à votre organisation.</li><li>Confirmez que votre organisation répond aux conditions d’éligibilité requises.</li></ul> |
 
 > [!Note]
 > Office 365 Secteur Public - Cloud de la communauté du secteur public haute n’est disponible qu’aux États-Unis. Les clients non-us Government peuvent choisir parmi un certain nombre [d’Office 365 Secteur Public.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -69,10 +69,10 @@ Nous vous recommandons de prendre le temps de passer en revue soigneusement vos 
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous devez modifier l’un des paramètres de Office 365 Secteur Public par défaut - Cloud de la communauté du secteur public Haute sécurité, en résolvant pour comprendre d’abord l’impact des modifications que vous pourriez apporter.</li></ul> |
+| ![Icône représentant un point de décision.](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous devez modifier l’un des paramètres de Office 365 Secteur Public par défaut - Cloud de la communauté du secteur public Haute sécurité, en résolvant pour comprendre d’abord l’impact des modifications que vous pourriez apporter.</li></ul> |
 
 
-## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>Étape 4. Comprendre les fonctionnalités Teams fonctionnalités disponibles actuellement dans Office 365 Secteur Public - Cloud de la communauté du secteur public Haute
+## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>Étape 4. Comprendre les Teams fonctionnalités disponibles actuellement dans Office 365 Secteur Public - Cloud de la communauté du secteur public Haute
 
 Pour répondre aux besoins de nos clients cloud du gouvernement, il existe certaines différences entre Teams dans Office 365 Secteur Public - haut et Cloud de la communauté du secteur public haut et Teams dans les Enterprise clients. Consultez le tableau suivant pour voir quelles fonctionnalités sont disponibles.
 

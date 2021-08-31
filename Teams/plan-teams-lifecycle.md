@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df39e778998d01b31b08ec0f537d4a35905a2ce2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622002"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727823"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planifier la gestion du cycle de vie dans Teams
 
@@ -153,8 +153,8 @@ Utilisez ces liens pour obtenir plus d’informations sur l'organisation de vos 
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quelle est la finalité de l’équipe ?</li><li>Qui fait partie de l’équipe ?</li><li>L’équipe sera-t-elle privée ou publique ?</li><li>Les nouveaux membres peuvent-ils s’ajouter eux-mêmes ou les propriétaires de l’équipe les ajoutent-ils ?</li><li>Qui aura l’autorisation de créer des canaux ou d’ajouter des onglets, des bots et des connecteurs ?</li></ul> |
-| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez l’équipe.</li><li>Planifiez les canaux.</li></ul>|
+| ![Icône montrant les points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quelle est la finalité de l’équipe ?</li><li>Qui fait partie de l’équipe ?</li><li>L’équipe sera-t-elle privée ou publique ?</li><li>Les nouveaux membres peuvent-ils s’ajouter eux-mêmes ou les propriétaires de l’équipe les ajoutent-ils ?</li><li>Qui aura l’autorisation de créer des canaux ou d’ajouter des onglets, des bots et des connecteurs ?</li></ul> |
+| ![Icône montrant les étapes suivantes.](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez l’équipe.</li><li>Planifiez les canaux.</li></ul>|
 
 
 #### <a name="set-up-channels"></a>Configurer les canaux
@@ -167,8 +167,8 @@ Envisagez des noms des canaux avant de les créer, car si vous renommez un canal
 
 |    |     |
 |-----------|------------|
-| ![Icône représentant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quels sont les canaux initiaux qui seront ajoutés à l’équipe ?</li><li>Quelles indications, le cas échéant, seront-elles fournies pour l’ajout de nouveaux canaux ? (Seront-ils configurés par projet, thème, ou...?)</li></ul> |
-| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez les canaux initiaux.</li><li>Publiez un message de bienvenue.</li><li>Commencez la collaboration.</li></ul>|
+| ![Icône montrant les points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Quels sont les canaux initiaux qui seront ajoutés à l’équipe ?</li><li>Quelles indications, le cas échéant, seront-elles fournies pour l’ajout de nouveaux canaux ? (Seront-ils configurés par projet, thème, ou...?)</li></ul> |
+| ![Icône montrant les étapes suivantes.](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Créez les canaux initiaux.</li><li>Publiez un message de bienvenue.</li><li>Commencez la collaboration.</li></ul>|
 
 ### <a name="stage-2-middle"></a>Stade 2: milieu
 
@@ -188,8 +188,8 @@ Les équipes étant des organismes vivants, elles peuvent avoir parfois besoin d
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Qui contrôlera l’utilisation pour identifier les problèmes ?</li><li>Quelles sont les mesures qui seront utilisées pour déterminer si une équipe est intègre ?</li><li>Identifiez les équipes qui sont arrivées à la fin de leur durée de vie utile.</li><li>Identifiez les équipes non intègres qui servent toujours un objectif mais qui ont besoin d’être dynamisées.</li></ul> |
-| ![Icône montrant l’étape suivante](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Implémentez un processus pour contrôler l’intégrité des équipes individuelles.</li></ul>|
+| ![Icône montrant les points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Qui contrôlera l’utilisation pour identifier les problèmes ?</li><li>Quelles sont les mesures qui seront utilisées pour déterminer si une équipe est intègre ?</li><li>Identifiez les équipes qui sont arrivées à la fin de leur durée de vie utile.</li><li>Identifiez les équipes non intègres qui servent toujours un objectif mais qui ont besoin d’être dynamisées.</li></ul> |
+| ![Icône montrant l’étape suivante.](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Implémentez un processus pour contrôler l’intégrité des équipes individuelles.</li></ul>|
 
 ### <a name="stage-3-end"></a>Stade 3: fin
 
@@ -205,8 +205,8 @@ Pour obtenir des informations sur la configuration des stratégies d’expiratio
 
 |    |     |
 |-----------|------------|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Définissez à quoi ressemble la fin de la durée de vie d’une équipe.</li><li>Décidez si le contenu de l’équipe doit rester disponible ou non, et pendant combien de temps.</li></ul> |
-| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les meilleures pratiques et les leçons apprises.</li><li>Archivez les données si nécessaire.</li></ul>|
+| ![Icône montrant les points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Définissez à quoi ressemble la fin de la durée de vie d’une équipe.</li><li>Décidez si le contenu de l’équipe doit rester disponible ou non, et pendant combien de temps.</li></ul> |
+| ![Icône montrant les étapes suivantes.](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Documentez les meilleures pratiques et les leçons apprises.</li><li>Archivez les données si nécessaire.</li></ul>|
 
 ## <a name="related-topics"></a>Rubriques connexes
 

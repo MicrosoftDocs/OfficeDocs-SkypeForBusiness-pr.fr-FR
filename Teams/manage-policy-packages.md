@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: 2db3b926a7e241a83ab46de4285cc4b7ef0882e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a9e7c8a83d7700840a49febdf0ab88104a7e2d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637070"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58750040"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams : gérer les packages de stratégie
 
@@ -33,7 +33,7 @@ Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et 
 
 Vous pouvez utiliser les [packages de stratégie inclus dans Teams](#policy-packages-included-in-teams) créer vos propres [packages de stratégie personnalisés.](#custom-policy-packages)
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Capture d’écran de la page Packages de stratégie dans le Centre d’administration":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Capture d’écran de la page Packages de stratégie dans le Centre d’administration.":::
 
 Vous pouvez personnaliser les paramètres des stratégies dans un package de stratégies pour répondre aux besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package, tous les utilisateurs affectés à ce package obtiennent les paramètres mis à jour. Vous gérez les packages de stratégies à l’aide Microsoft Teams centre d’administration ou PowerShell.
 
@@ -79,7 +79,7 @@ Teams inclut actuellement les packages de stratégie suivants.
 Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie.
 Par exemple, lorsque vous affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire, une stratégie nommée Education_Teacher est créée pour chaque stratégie du package.
 
-![Capture d’écran du package de stratégie Éducation (enseignant)](media/policy-packages-education_teacher.png)
+![Capture d’écran du package de stratégie Éducation (enseignant).](media/policy-packages-education_teacher.png)
 
 ## <a name="custom-policy-packages"></a>Packages de stratégie personnalisée
 
@@ -91,11 +91,11 @@ Pour créer un package de stratégie personnalisé :
 
 1. Dans la barre de navigation gauche du Microsoft Teams d’administration, sélectionnez **Packages** de stratégie, puis cliquez sur **Ajouter.**
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Capture d’écran du bouton Ajouter dans la page Packages de stratégie du Centre d’administration":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Capture d’écran du bouton Ajouter dans la page Packages de stratégie du Centre d’administration.":::
 
 2. Entrez un nom et une description pour votre package.
 
-    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Capture d’écran de l’ajout d’un nouveau package de stratégie personnalisée":::
+    :::image type="content" source="media/policy-packages-add-custom.png" alt-text="Capture d’écran de l’ajout d’un nouveau package de stratégie personnalisée.":::
 
 3. Sélectionnez les types de stratégies et les noms de stratégies à inclure dans le package.
 
@@ -105,11 +105,11 @@ Pour créer un package de stratégie personnalisé :
 
 L’exemple suivant explique comment utiliser des packages de stratégie dans votre organisation.
 
-![Vue d’ensemble de l’utilisation des packages de stratégie](media/manage-policy-packages-overview.png)
+![Vue d’ensemble de l’utilisation des packages de stratégie.](media/manage-policy-packages-overview.png)
 
 - **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant de l’affecter. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
 
-    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous attribuez le package de stratégie.
+    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous affectez le package de stratégie.
 
 - **[Personnaliser](#customize-policies-in-a-policy-package)**: personnalisez les paramètres des stratégies dans le package de stratégies pour répondre aux besoins de votre organisation.
 
@@ -142,7 +142,7 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **Packages**
 
 Vous pouvez attribuer un package de stratégie à un utilisateur, un groupe ou un lot d’utilisateurs. Pour plus d’informations sur l’attribution de packages de stratégie, voir [Attribuer des packages de stratégie à des utilisateurs et groupes.](assign-policy-packages.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Attribuer des packages de stratégie](assign-policy-packages.md)
 - [Teams packages de stratégie pour les administrateurs edu](policy-packages-edu.md)

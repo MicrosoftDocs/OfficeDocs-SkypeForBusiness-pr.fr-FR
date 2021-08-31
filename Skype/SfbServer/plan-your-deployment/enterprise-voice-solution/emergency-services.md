@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Découvrez les services Enhanced 9-1-1 (E9-1-1) dans Skype Entreprise Server Voix Entreprise, notamment l’acquisition d’emplacement et le routage des appels.
-ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592508"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732753"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planifier les services d’urgence dans Skype Entreprise Server
 
@@ -37,7 +37,7 @@ Skype Entreprise Server prend en charge les services Enhanced 9-1-1 (E9-1-1) aux
 
 Skype Entreprise Server prend en charge les appels Enhanced 9-1-1 (E9-1-1) depuis des clients Skype Entreprise et des appareils Lync Téléphone Edition. Lorsque vous configurez Skype Entreprise Server pour E9-1-1, les appels d’urgence émis depuis Skype Entreprise ou Lync Téléphone Edition incluent des informations d’emplacement d’intervention d’urgence (ERL) à partir de la base de données du service d’informations sur l’emplacement. Les ERL se composent d’adresses géographiques (c’est-à-dire, de rue) et d’autres informations qui permettent d’identifier un emplacement plus précis dans les immeubles de bureaux et d’autres installations multi-clients. Lorsqu’un utilisateur passe un appel d’urgence, Skype Entreprise Server route l’audio de l’appel, ainsi que les informations d’emplacement et de rappel, via un serveur de médiation vers un fournisseur de services E9-1-1. Le fournisseur de services E9-1-1 utilise l’adresse géographique de l’appelant pour router l’appel vers le centre d’appels de la sécurité publique (PSAP) qui sert l’emplacement de l’appelant et envoie le long d’une clé de requête de service d’urgence (ESQK) que le centre d’appels de sécurité publique utilise pour rechercher l’ERL de l’appelant.
 
-Skype Entreprise Server deux méthodes de routage des appels d’urgence vers un fournisseur de services E9-1-1 :
+Skype Entreprise Server prend en charge deux méthodes pour le routage des appels d’urgence vers un fournisseur de services E9-1-1 :
 
 - une connexion de jonction SIP (Session Initiation Protocol) vers un fournisseur de services E9-1-1 certifié ;
 
@@ -45,7 +45,7 @@ Skype Entreprise Server deux méthodes de routage des appels d’urgence vers un
 
 Lorsque vous utilisez un fournisseur de services E9-1-1 de trunk SIP, vous ajoutez des ERL à la base de données du service Informations d’emplacement, puis vous validez les emplacements par rapport à un MSAG (Master Street Address Guide) qui est maintenu par le fournisseur de services E9-1-1. Si un fournisseur de services E9-1-1 reçoit un appel qui ne dispose pas d’informations d’emplacement ou dont l’emplacement n’a pas été validé par rapport au MSAG, le fournisseur de services E9-1-1 route l’appel vers un centre national/régional de réponse aux appels d’urgence (ECRC), qui est formé avec du personnel spécialement formé qui obtient verbalement l’emplacement de l’appelant, si possible, et route manuellement l’appel vers le centre PSAP approprié. (Certains fournisseurs de services E9-1-1 de jonction SIP transmettent également aux clients un numéro SDA (sélection directe à l’arrivée) PSTN vers le centre ECRC, qui offre un autre moyen d’acheminer les appels 9-1-1 si la jonction SIP échoue pour une raison quelconque.)
 
-Contrairement aux téléphones TDM (multiplexage de division de temps) et PBX IP, qui ont des emplacements fixes, un point de terminaison Skype Entreprise peut être très mobile. Lorsque vous déployez la fonctionnalité E9-1-1, Skype Entreprise Server permet de s’assurer que, quel que soit l’endroit où se trouve un appelant, l’appel d’urgence peut être acheminé vers le centre téléphonique de sécurité publique qui dessert l’emplacement de l’appelant. Par exemple, si le bureau principal d’un utilisateur est situé à Redmond, Washington, mais que l’utilisateur passe un appel d’urgence à partir d’un ordinateur d’une filiale de Wichita, àPéraïa, la ligne SIP ou le fournisseur de services E9-1-1 basé sur PSTN route l’appel vers le centre de sécurité publique de Wichita, et non vers le centre de sécurité publique de Redmond.
+Contrairement aux téléphones TDM (multiplexage de division de temps) et PBX (auto-service privé IP), qui ont des emplacements fixes, un point de terminaison Skype Entreprise peut être très mobile. Lorsque vous déployez la fonctionnalité E9-1-1, Skype Entreprise Server permet de s’assurer que, quel que soit l’endroit où se trouve un appelant, l’appel d’urgence peut être acheminé vers le centre téléphonique de sécurité publique qui dessert l’emplacement de l’appelant. Par exemple, si le bureau principal d’un utilisateur est situé à Redmond, Washington, mais que l’utilisateur passe un appel d’urgence à partir d’un ordinateur d’une filiale de Wichita, àPéraïa, la ligne SIP ou le fournisseur de services E9-1-1 basé sur PSTN route l’appel vers le centre de sécurité publique de Wichita, et non vers le centre de sécurité publique de Redmond.
 
 Lorsque vous utilisez une passerelle ELIN, vous ajoutez également des ERL à la base de données du service Informations d’emplacement, mais vous incluez également un numéro ELIN pour chaque emplacement. Ce numéro devient le numéro d’appel d’urgence durant l’appel d’urgence. Vous devez alors vous assurer que votre opérateur RTC télécharge les numéros ELIN vers la base de données ALI (Automatic Location Identification.
 
@@ -78,7 +78,7 @@ Le client Skype Entreprise inclut les données PIDF-LO dans le cadre d’un appe
 
 Le diagramme suivant montre comment un client Skype Entreprise acquiert un emplacement (à l’exception de la méthode d’emplacement basée sur l’adresse MAC du client tiers) :
 
-![Diagramme d’acquisition d’un emplacement par le client](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![Comment le client acquiert un diagramme d’emplacement.](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 Pour qu’un client acquière un emplacement, les étapes suivantes doivent être effectuées :
 
@@ -98,7 +98,7 @@ Le diagramme suivant montre comment un appel d’urgence est acheminé de Skype 
 
 **Routage des appels E9-1-1 via une jonction SIP**
 
-![Routage des appels d’urgence de Lync Server vers PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![Routage des appels d’urgence de Lync Server vers psap.](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 Lorsqu’un appel d’urgence est passé à partir d’un client Skype Entreprise Server compatible :
 

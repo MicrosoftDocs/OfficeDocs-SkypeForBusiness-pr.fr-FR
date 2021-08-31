@@ -20,31 +20,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60951df95cca59b3b3a64104351bca8294800d2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 49ca0fb50f6e78f8c9ee3cd37aaba21c0929e014
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583508"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732783"
 ---
 # <a name="define-your-project-scope"></a>Définition de l’étendue de votre projet
 
-![Mettre à niveau le diagramme de voyage, en mettant en Project la phase Définition](media/upgrade-banner-project-definition.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la Project phase Définition")
+![Mettre à niveau le diagramme de voyage, en mettant en Project la phase Définition.](media/upgrade-banner-project-definition.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la Project phase Définition")
 
 Cet article fait partie de la phase Project Définition de votre parcours vers la mise à niveau, une activité que vous avez terminée après la création d’un parrainage et d’une équipe de projet de la part des parties prenantes que vous avez identifiées sont clés pour la réussite de votre projet. Avant de poursuivre, confirmez que vous avez effectué les activités suivantes :
 
 - [Participations aux parties prenantes au projet](upgrade-enlist-stakeholders.md)
 
-Prenez le temps de définir votre vision, votre étendue, vos objectifs et votre gouvernance de projet pour vous assurer que toutes les parties prenantes du projet sont alignées et travaillent sur les mêmes résultats finals. Ce point est particulièrement critique dans la la direction où l’équipe de préparation technique et l’équipe de préparation des utilisateurs travailleront de manière indépendante afin de réunir leurs éléments respectifs. Une fois que vous avez terminé cette section, consultez-la tout au long de votre projet pour vous assurer que vous êtes sur la bonne voie pour atteindre l’état final souhaité. Utilisez les objectifs que vous identifiez ci-dessous pour mesurer par rapport à vos résultats et réduire au besoin.
+Prenez le temps de définir votre vision, votre étendue, vos objectifs et votre gouvernance de projet pour vous assurer que toutes les parties prenantes du projet sont alignées et travaillent sur les mêmes résultats finals. Ce point est particulièrement critique dans la la direction où l’équipe de préparation technique et l’équipe de préparation des utilisateurs travailleront de manière indépendante afin de réunir leurs éléments respectifs. Une fois que vous avez terminé cette section, consultez-la tout au long de votre projet pour vous assurer que vous êtes sur la bonne voie pour atteindre l’état final souhaité. Utilisez les objectifs ci-dessous pour mesurer par rapport à vos résultats et réduire au besoin.
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Que voulez-vous accomplir avec ce projet (en d’autres termes, pourquoi le faites-vous ) ?</li><li>À quoi ressemble le succès ?</li><li>Quels sont les risques et quel est votre plan d’atténuation de ces risques ?</li></ul> |
-| ![Icône montrant les étapes suivantes](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Discutez des sections suivantes avec votre équipe de projet et les sponsors.</li><li>Documentez votre vision, l’étendue, les objectifs et les risques pour ce projet.</li><li>Revisitez votre équipe de projet pour vérifier que vous avez impliqué l’équipe qui vous a fait la bonne.</li></ul>|
+| ![Icône représentant des points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Que voulez-vous accomplir avec ce projet (en d’autres termes, pourquoi le faites-vous ) ?</li><li>À quoi ressemble le succès ?</li><li>Quels sont les risques et quel est votre plan d’atténuation de ces risques ?</li></ul> |
+| ![Icône illustrant les étapes suivantes.](media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Discutez des sections suivantes avec votre équipe de projet et les sponsors.</li><li>Documentez votre vision, l’étendue, les objectifs et les risques pour ce projet.</li><li>Revisitez votre équipe de projet pour vérifier que vous avez impliqué l’équipe qui vous a été la bonne.</li></ul>|
 
 ## <a name="project-vision"></a>Project vision
 
-Votre vision est celle d’une « vue d’ensemble » ou de l’état final, qui répond à la question « Pourquoi ce projet est-il en cours ? ». Une vision idéale traite des facteurs d’entreprise de votre organisation et des perspectives d’ajout de valeurs utilisateur, comme illustré dans les exemples suivants :
+Votre vision est la « grande image » ou l’état final final qui répond à la question « Pourquoi ce projet est-il en cours ? Une vision idéale traite des facteurs d’entreprise de votre organisation et des perspectives d’ajout de valeurs utilisateur, comme illustré dans les exemples suivants :
 
 - **Pilote d’entreprise** d’organisation : la standardisation sur Microsoft Teams s’aligne sur notre transformation numérique d’espace de travail et nous permet d’accroître l’efficacité opérationnelle, d’éliminer les solutions redondantes et d’économiser 5 millions de dollars.
 - **Ajout de** valeur utilisateur : Microsoft Teams (1) permet de gagner du temps en fournissant un emplacement unique pour les notes de projet, les documents Office, les membres de l’équipe, les conversations et les réunions ; (2) simplifie la communication en utilisant une liste de contacts centralisée et un suivi des conversations permanentes pour accéder rapidement à vos conversations, et (3) réduire la frustration d’essayer de retrouver une pièce jointe perdue en stockant et en accédant aux fichiers au même endroit.
@@ -53,7 +53,7 @@ Prenez en compte les points de discussion suivants pour améliorer votre vision 
 
 - Description du processus commercial actuel
 
-- Défis liés au processus d’entreprise existant
+- Défis du processus d’entreprise existant
 
 - Comment la technologie peut aider à surmonter ces difficultés
 
@@ -64,7 +64,7 @@ Prenez en compte les points de discussion suivants pour améliorer votre vision 
 
 ## <a name="project-scope"></a>Project étendue
 
-Votre vision se réalisera peut-être seulement au fil du temps, à travers différentes phases. L’étendue du projet définit  le focus de votre projet à ce moment-là et sert à conserver l’attention de votre équipe de projet sur ses tâches actuelles, ce qui vous permet de réaliser votre vision à long terme. Par exemple, votre étendue peut vous demander d’exécuter un pilote, de déployer une charge de travail spécifique, comme des appels vocaux ou des réunions, ou d’activer des Teams en parallèle avec des Skype Entreprise lorsque vous planifiez votre mise à niveau au fil du temps. Dans le cadre de l’étendue du projet, vous devez évaluer :
+Votre vision se réalisera peut-être seulement au fil du temps, à travers différentes phases. L’étendue du projet définit  le focus de votre projet pour le moment et permet à votre équipe de projet de se concentrer sur ses tâches actuelles, ce qui vous permet d’avoir une vision à long terme. Par exemple, votre étendue peut vous demander d’exécuter un pilote, de déployer une charge de travail spécifique, comme des appels vocaux ou des réunions, ou d’activer des Teams en parallèle avec des Skype Entreprise lorsque vous planifiez votre mise à niveau au fil du temps. Dans le cadre de l’étendue du projet, vous devez évaluer :
 
 - [Les différents modes de coexistence,](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)et qui seraient optimaux pour votre organisation.
 - La meilleure façon Skype Entreprise et Teams coexister avant de passer à l’Teams.
@@ -72,7 +72,7 @@ Votre vision se réalisera peut-être seulement au fil du temps, à travers diff
 
 ## <a name="project-goals"></a>Project objectifs
 
-Vos objectifs définissent le résultat souhaité et vous permettent de mesurer le succès du projet. Les objectifs peuvent  être définis comme objectifs et résultats clés (OKR), et les mesures de la réussite des projets peuvent être _définies_ en tant qu’indicateurs de réussite clés (KSI). Il est essentiel que vous obtenez une participation complète des parties prenantes du projet en définissant les okR et les KSI afin de leur permettre de s’assurer qu’elles ont un sentiment de propriété et d’aligner ces mesures de réussite sur les tâches de projet définies. Les objectifs doivent inclure un mélange de réussites techniques et axées sur les utilisateurs.
+Vos objectifs définissent le résultat souhaité et vous permettent d’évaluer le succès du projet. Les objectifs peuvent  être définis comme objectifs et résultats clés (OKR), et les mesures de la réussite des projets peuvent être _définies_ en tant qu’indicateurs de réussite clés (KSI). Il est essentiel que vous receviez une participation complète des parties prenantes du projet en définissant les okR et les KSI afin de leur permettre de s’assurer qu’elles ont un sentiment de propriété et d’aligner ces mesures de réussite sur les tâches de projet définies. Les objectifs doivent inclure un mélange de réussites techniques et axées sur les utilisateurs.
 
 - **Les okR contiennent** les objectifs que vous avez définis au début du projet et les principaux résultats que vous mesurez sur une cadence définie (par exemple, mensuelle ou trimestrielle). L’examen de vos principaux résultats vous permet de vous assurer que les livrables de votre projet respectent les délais, ou d’identifier et d’atténuer les problèmes pour remettre votre projet sur de bons rails. Les ok sont généralement classés comme « atteints » ou « non atteints ».
 - **Les KSI mesurent** la qualité et le succès des résultats clés et complètent la nature binaire des ok en détaillant les résultats positifs et/ou mauvais. Lorsque vous définissez des indicateurs de performance clés, nous vous recommandons d’utiliser des critères SMART (« spécifiques, mesurables, assignables, réalistes, liés à l’heure » :
@@ -86,24 +86,24 @@ Le tableau suivant présente des exemples d’OKR et d’KSI pour les phases ini
 
 | Objectif | Résultat de la clé | À faire |
 |---|---|---|
-| Phase pilote Teams en parallèle Skype Entreprise, [en mode collaboration uniquement](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | Pour plus d’informations : phase pilote et terminée pour 500 utilisateurs | <ul><li>Identifier les utilisateurs pilotes</li><li>Créer un plan de test pilote</li><li>Permettre aux utilisateurs pilotes d’Teams</li><li>Mettre en œuvre le pilote</li><li>Exécuter une enquête pilote de commentaires</li><li>Mesurer le succès du pilote</li></ul> |
-| Exécuter le mode collaboration uniquement pour tous les utilisateurs de l’organisation en même temps que Skype Entreprise | <ul><li>60 % des Skype Entreprise utilisateurs utilisent Teams dans les 30 jours suivant leur déploiement</li><li>La satisfaction des utilisateurs par Teams est &#8805;80 %</li></ul> | <ul><li>Concevoir et exécuter un plan de communication et de formation étendu</li><li>Activer tous les utilisateurs pour Teams en mode collaboration uniquement</li><li>Suivre l’utilisation mensuelle</li><li>Recueillir les commentaires des utilisateurs</li><li>Surveiller l’état/la qualité du réseau</li><li>Réduire au besoin</li></ul> |
+| Phase pilote Teams en parallèle Skype Entreprise, [en mode collaboration uniquement](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | Pour plus d’informations : phase pilote et terminée pour 500 utilisateurs | <ul><li>Identifier les utilisateurs pilotes</li><li>Créer un plan de test pilote</li><li>Activer les utilisateurs pilotes sur Teams</li><li>Mettre en œuvre le pilote</li><li>Exécuter une enquête pilote de commentaires</li><li>Mesurer le succès du pilote</li></ul> |
+| Exécuter le mode collaboration uniquement pour tous les utilisateurs de l’organisation en même temps que Skype Entreprise | <ul><li>60 % des Skype Entreprise utilisateurs utilisent Teams dans les 30 jours suivant leur déploiement</li><li>La satisfaction des utilisateurs Teams’est &#8805;80 %</li></ul> | <ul><li>Concevoir et exécuter un plan de communication et de formation étendu</li><li>Activer tous les utilisateurs pour Teams en mode collaboration uniquement</li><li>Suivre l’utilisation mensuelle</li><li>Recueillir les commentaires des utilisateurs</li><li>Surveiller l’état/la qualité du réseau</li><li>Réduire au besoin</li></ul> |
 
 | Type | Indicateur de réussite clé | Comment les mesurer | Critères de réussite | Mesurés |
 |---|---|---|---|---|
 | **Réseau et qualité** | Le pourcentage d’appels audio médiocres doit être minimal. | [Tableau de bord de qualité des appels](https://aka.ms/sof-cqd) | \<3 % des appels médiocres avec Teams | Hebdomadaire, puis mensuel |
 | **Utilisation et sensibilisation** | L’expérience de conversation, de réunion et d’appel est égale ou préférable à Skype Entreprise | Enquête | 80 % sont d’accord ou tout à fait d’accord | À une fois par semaine, après le déploiement |
 | **Utilisation et adoption** | Les utilisateurs utilisent activement la solution | Microsoft 365 de travail ou le CQD | Participation de 90 % des utilisateurs pilotes, meilleure que la solution actuelle | Hebdomadaire, puis mensuel |
-| **Utilisation et formation** | J’ai eu des ressources de formation/aide suffisantes pour utiliser Teams | Enquête post-pilote | 80 % sont d’accord ou tout à fait d’accord | Post-pilote, après déploiement |
+| **Utilisation et formation** | J’ai eu accès à des ressources de formation et d’aide suffisantes pour utiliser Teams | Enquête post-pilote | 80 % sont d’accord ou tout à fait d’accord | Post-pilote, après déploiement |
 | **Satisfaction des utilisateurs** | Je vous recommande Teams d’autres personnes | [Net Promoter Score (NPS)](http://www.npscalculator.com/en) via une enquête post-pilote | NPS \> 0 | Post-pilote, après déploiement |
 | **Pilote d’entreprise** | Économies | Comptes payables | \$X millions de dépenses en coûts dans les solutions tierces | Six mois, puis un an, puis cinq ans après le déploiement |
 
 > [!TIP]
-> Pour vous assurer que votre projet reste sur la bonne voie, envisagez de définir des jalons plus petits et à court terme en plus des objectifs à long terme. Il peut s’agir de mesures que vous allez capturer dans le cadre de votre pilote utilisateur. Lorsque vous considérez votre chronologie, utilisez la feuille [de Microsoft 365](https://aka.ms/O365Roadmap) feuille de route si vous attendez des fonctionnalités qui ne sont pas encore disponibles dans Teams.
+> Pour vous assurer que votre projet reste sur les rails, envisagez de définir des jalons plus petits et à court terme en plus des objectifs à long terme. Il peut s’agir de mesures que vous allez capturer dans le cadre de votre pilote utilisateur. Lorsque vous considérez votre chronologie, utilisez la feuille [de Microsoft 365](https://aka.ms/O365Roadmap) feuille de route si vous attendez des fonctionnalités qui ne sont pas encore disponibles dans Teams.
 
 ## <a name="risks-and-mitigation"></a>Risques et atténuation
 
- Pour tout projet, des événements imprévisibles ou d’autres facteurs peuvent survenir et faire en cas de non-suivi de votre projet. Il est important d’évaluer de façon proactive les risques potentiels et de définir un plan d’atténuation pour atténuer les problèmes qui peuvent survenir, afin que votre projet puisse atteindre vos objectifs. Un _registre des risques_ est un excellent outil de suivi des risques des projets( ainsi que de leur incidence potentielle) et de la capture de votre plan d’atténuation. Le tableau suivant présente un exemple de registre des risques.
+ En cas de projet, des événements imprévus ou d’autres facteurs peuvent survenir et faire en cas de dif« projet ». Il est important d’évaluer de façon proactive les risques potentiels et de définir un plan d’atténuation pour atténuer les problèmes qui peuvent survenir, afin que votre projet puisse atteindre vos objectifs. Un _registre des risques_ est un excellent outil de suivi des risques des projets( ainsi que de leur incidence potentielle) et de la capture de votre plan d’atténuation. Le tableau suivant présente un exemple de registre des risques.
 
 | Risque | Probabilité | Impact | Global | Plan d’atténuation |
 |---|---|---|---|-------|
@@ -113,7 +113,7 @@ Le tableau suivant présente des exemples d’OKR et d’KSI pour les phases ini
 
 ## <a name="timeline"></a>Chronologie
 
-Dans le cadre de votre parcours de mise à niveau, assurez-vous de définir une chronologie pour les jalons clés (par exemple, l’activation de Teams en parallèle de Skype Entreprise pour tous les utilisateurs) en plus de la date d’achèvement. Une chronologie définie permet à votre équipe de projet d’atteindre un état final cohérent et d’informer le bon échéancier de travail, ce qui permet de veiller à ce que votre projet reste sur les rails. Réfléchissez à une chronologie qui n’est pas trop accélérée (dans laquelle des tâches peuvent être ignorées) ou trop distante (où une période de momentum pourrait être perdue). Les comptes de chronologie idéals pour :
+Dans le cadre de votre parcours de mise à niveau, assurez-vous de définir une chronologie pour les jalons clés (par exemple, l’activation de Teams en parallèle de Skype Entreprise pour tous les utilisateurs) en plus de la date d’achèvement. Une chronologie définie permet à votre équipe de projet d’atteindre un état final cohérent et d’informer le bon échéancier de travail, ce qui permet de veiller à ce que votre projet reste sur les rails. Réfléchissez à une chronologie qui n’est pas trop accélérée (où l’on risque d’ignorer des tâches) ou trop distante (où une période de momentum pourrait être perdue). Les comptes de chronologie idéals pour :
 
 - **Préparation du produit pour la conformité** et [](https://aka.ms/O365Roadmap) les exigences de scénarios utilisateur : reportez-vous à la feuille de route du produit pour évaluer le moment où Teams sera prêt pour votre organisation.
 - **Groupes de mise** à niveau : déterminez si vous allez activer Teams ou mettre à niveau des utilisateurs par groupes de mise à niveau, ce qui peut affecter la chronologie de votre parcours de mise à niveau global.

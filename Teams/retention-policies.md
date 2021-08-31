@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634838"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727403"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Gérer les stratégies de rétention pour Microsoft Teams
 
@@ -81,16 +81,16 @@ Cette page présente des informations supplémentaires sur la création et la ge
 
 Pour les conversations privées (conversations en tête à tête) ou de groupe, les utilisateurs constatent que les conversations plus anciennes que la configuration de la stratégie de rétention sont supprimées, et un message généré automatiquement affichant « Nous avons supprimé d’anciens messages en raison de la stratégie de rétention de votre organisation » en haut des messages encore non supprimés. Par exemple :
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="Un utilisateur est informé dans Teams que le message de conversation est supprimé en raison d’une stratégie de rétention Teams":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Un utilisateur est informé Teams message de conversation sont supprimés en raison d’une stratégie Teams rétention.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="Utilisateur dans Teams expliquant que les messages sont supprimés suite à une stratégie de rétention Teams":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Les utilisateurs Teams’explication des messages sont supprimés à la suite d’Teams stratégie de rétention.":::
 
 Pour les messages de canal, les utilisateurs (membres du canal) voient les messages supprimés disparaître de l’affichage à l’expiration des messages. Si le message supprimé était un message parent d’une conversation à thread, un message indiquant « Ce message a été supprimé en raison d’une stratégie de rétention » s’affiche à la place du message parent. Par exemple :
 
-:::image type="content" source="media/retention-policies-image3.png" alt-text="Capture d’écran d’un canal avant la rétention":::
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Capture d’écran du canal avant la rétention.":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="Capture d’écran d’un canal après la rétention":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Capture d’écran du canal après la rétention.":::
 
 > [!NOTE]
 > Pour l’instant, les messages affichés qui résultent de la suppression ne sont pas configurables.

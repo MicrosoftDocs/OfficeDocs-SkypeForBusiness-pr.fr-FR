@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Découvrez comment personnaliser une stratégie de messagerie sécurisée pour Microsoft Teams qui peut inclure des accusés de lecture et des notifications de priorité.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: efad01c1731ba3c7bacbae012c0062350bd92b39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72a0ab4ebce59a9fa65ec67b413892afa0b1e045
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595078"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727243"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Messagerie sécurisée pour les organismes de santé
 
@@ -37,11 +37,11 @@ Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’o
 
 Les stratégies peuvent être facilement gérées dans le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com) en vous connectant avec des informations d’identification d’administrateur et en choisissant **Stratégies de messagerie** dans le volet de navigation gauche.
 
- ![Capture d’écran de la page Stratégies de messagerie](../../media/hc-messaging-policy-admin-center.png)
+ ![Capture d’écran de la page Stratégies de messagerie.](../../media/hc-messaging-policy-admin-center.png)
 
 Pour modifier la stratégie de messagerie par défaut existante pour votre organisation, cliquez sur **Globale (à l’échelle de l’organisation)**, puis apportez vos modifications. Pour créer une stratégie de messagerie personnalisée, cliquez sur **Ajouter** puis sélectionnez vos paramètres. Sélectionnez **Enregistrer** lorsque vous avez terminé.
 
-![Capture d’écran des paramètres de stratégie de messagerie](../../media/hc-messaging-policy.png)
+![Capture d’écran des paramètres de stratégie de messagerie.](../../media/hc-messaging-policy.png)
 
 Les paramètres suivants sont particulièrement spécifiques aux applications du secteur de la santé et doivent être pris en considération lors de la conception d’une stratégie personnalisée utilisée dans le champ Soins de santé :
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df3dbdcaf0668caa4a58490371dd0a323ae8a3ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5743dda03b7495bc8f7c275fb955f83d7db6be2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583668"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727203"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archiver ou supprimer une équipe dans Microsoft Teams
 
@@ -45,7 +45,7 @@ Suivez ces étapes pour archiver une équipe. Vous devez être un administrateur
 2. Sélectionnez une équipe en cliquant sur le nom de l’équipe.
 3. Sélectionnez **Archiver**. Le message suivant s’affichera.
 
-    ![Capture d’écran du message archive d’équipe](media/teams-archive-message.png)
+    ![Capture d’Teams d’un message d’archivage.](media/teams-archive-message.png)
 
 4. Pour empêcher les utilisateurs de modifier le contenu du site SharePoint et de l’onglet Wiki associés à l’équipe, sélectionnez Rendre le site SharePoint en lecture seule pour les membres de **l’équipe.** (Teams propriétaires pourront toujours modifier ce contenu.)
 5. Sélectionnez **Archiver** pour archiver l’équipe. Le statut de l’équipe passera à **Archivé**.
@@ -69,7 +69,7 @@ Si l’équipe ne sera pas nécessaire, vous pouvez la supprimer plutôt que de 
 
 ## <a name="restore-a-deleted-team"></a>Restaurer une équipe supprimée
 
-Suivez ces étapes pour restaurer une équipe supprimée en restaurant Microsoft 365 groupe associé à l’équipe. La restauration du Microsoft 365 d’une équipe restaure le contenu de l’équipe, y compris les onglets, les canaux standard et les canaux privés et les collections de sites associées.
+Suivez ces étapes pour restaurer une équipe supprimée en restaurant Microsoft 365 groupe associé à l’équipe. La restauration du Microsoft 365 d’une équipe restaure le contenu de l’équipe, y compris les onglets, les canaux standard et les canaux privés et les collections de sites qui lui sont associées.
 
 Par défaut, un groupe de Microsoft 365 supprimé est conservé pendant 30 jours. Cette période de 30 jours est appelée « suppression réversible », car vous avez la possibilité de le restaurer. Pour en savoir plus, voir [Restaurer un groupe supprimé.](/microsoft-365/admin/create-groups/restore-deleted-group)
 
@@ -114,6 +114,6 @@ Par défaut, un groupe de Microsoft 365 supprimé est conservé pendant 30 jours
 
     L’exécution du processus de restauration peut prendre jusqu’à 24 heures, après quoi l’équipe et le contenu associé à l’équipe, y compris les onglets et les canaux, s’affichent dans Teams.
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Archiver ou restaurer une équipe](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 

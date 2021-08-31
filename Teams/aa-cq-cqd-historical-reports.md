@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: cd32c732162c15cdaf4cfeac4c83cb53ebd5fe10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a474b2f8e4acc89a92edcc0b20f1414d8cf38fde
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598618"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732733"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Standard automatique & historique de la file d’attente d’appels
 
@@ -60,11 +60,11 @@ Effectuez les étapes suivantes :
 
 - Double-cliquez sur le fichier zip pour l’ouvrir.
 
-- Double-cliquez sur le fichier de modèle « CQ et AA combined Analytics 20201105.pbit » et Power BI Desktop le lancer.
+- Double-cliquez sur le fichier de modèle « CQ et AA combined Analytics 20201105.pbit » et Power BI Desktop’analyse doit se lancer.
 
 - Vous serez invité à sélectionner la région du pipeline de données du CQD. Sélectionnez la région dans laquelle se trouve votre client.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran de la sélection de la région du pipeline de données du CQD":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Capture d’écran de la sélection de la région du pipeline de données du CQD.":::
 
 - La région dans laquelle se trouve votre client peut être obtenue à l’aide de l’cmdlet [Get-CsTenant.](/powershell/module/skype/get-cstenant)
 
@@ -81,17 +81,17 @@ Effectuez les étapes suivantes :
  
  - Pour consulter vos propres données, sélectionnez **Actualiser** sous l’onglet Accueil sous Requêtes Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran de la sélection de l’option d’actualisation":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Capture d’écran de la sélection de l’option d’actualisation.":::
 
 - Vous serez alors invité à vous connectez. Sélectionnez **le compte de** l’organisation, puis **connectez-vous.**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran montrant la connexion":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Capture d’écran montrant la connexion.":::
 
 - Sélectionnez **Connecter** et regardez les données s’actualiser.
 
-## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analyse du & de qualité des données
+## <a name="data-latency-and-aa--cq-analytics"></a>Latence des données et analyse de qualité des & données
 
-Les données seront disponibles dans le pipeline de données du DQD dans les 30 minutes.
+Les données seront disponibles dans le pipeline de données du CQD dans les 30 minutes.
 
 Vous devez actualiser les données pour voir les nouvelles données d’analyse. 
 
@@ -108,11 +108,11 @@ Les étapes suivantes supposent que vous avez déjà effectué les étapes d’i
 Effectuez les étapes suivantes :
 - Sélectionnez **l’onglet** Affichage du ruban.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran de la sélection de l’onglet Affichage pour modifier le modèle de couleurs":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Capture d’écran de la sélection de l’onglet Affichage pour modifier le modèle de couleurs.":::
 
 - Sélectionnez le schéma de couleurs dans la liste drop-down.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Capture d’écran montrant différents modèles de couleurs":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Capture d’écran montrant différents modèles de couleurs.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Standard automatique définitions des rapports historiques de la file d’attente d’appels
 
@@ -188,7 +188,7 @@ Effectuez les étapes suivantes :
 |Taux d’appels abandonnés                   |Ratio du nombre d’appels réussis à l’abandon                        |
 |Durée moyenne de la session (secondes)        |Durée des appels en secondes groupées par appels abandonnés/réussis       |
 
-#### <a name="report-to-cqd-table-and-field-mapping"></a>Rapport sur la table et le mappage de champs du tableau de table des champs du tableau de recherche
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Report to CQD table and field mapping
 
 |Onglet Rapport         |Noms de tables de rapports                                                          |Filtre global |
 |:------------------|:---------------------------------------------------------------------------|:-------------|
@@ -208,7 +208,7 @@ Effectuez les étapes suivantes :
 |Source d’appel entrant<sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |Appels externes : Le type d’appel est externe<br>Appels internes : le type d’appel est interne |
 |Avg Waiting Time                    |fCallQueueFinalStateAction -> Durée moyenne des appels (secondes) |Avant transfert : le résultat des appels de la file d’attente agent_joined_conference ou transferred_to_agent<br>Avant de raccrocher : le résultat des appels de la file d’attente n’est agent_joined_conference ou transferred_to_agent |
 |Résultat de l’appel                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> d’appel dans la file d’attente | Aucun |
-|Action totale des appels de dépassement de délai d’dépassement de capacité |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> File d’attente d’appels Final State Action |L’action d’état final de la file d’attente d’appels n’est pas en avance |
+|Action totale des appels de dépassement de délai d’dépassement de capacité |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> File d’attente d’appels - Action finale d’état |L’action d’état final de la file d’attente d’appels n’est pas en avance |
 |Totaux cibles des transferts/forards       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Type de cible de la file d’attente d’appels |Aucun |
 |Volumes d’appel                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Identification de la file d’attente d’appels<br>fCallQueueAnalytics -> Date |Aucun |
 |Appels abandonnés                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned est True |
@@ -225,7 +225,7 @@ Effectuez les étapes suivantes :
 |Nom                                    |Type de données                |Description                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |Nombre d’appels                              |nombre entier             |Résumer : Somme<br>Nombre d'appels                                          |
-|Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>§ a échoué<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
+|Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>L’échec de §<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
 |Identité de la file d’attente d’appels                     |texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
 |Type cible de la file d’attente d’appels                  |texte                     |***Type cible de redirection d’appel : valeurs possibles :***<br><br>§ ApplicationEndpoint<br>§ Boîte aux lettres<br>§ Autre<br>§ Utilisateur |
 |Type<sup>d’appel 1</sup>                   |texte                     |Type d’appel : valeurs possibles :<br><br>§ Externe<br>§ Interne           |
@@ -248,7 +248,7 @@ Effectuez les étapes suivantes :
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |Durée moyenne de l’appel (secondes)         |nombre décimal           |Résumer : Somme<br>Durée moyenne de l’appel en secondes |
 |Nombre d’appels                              |nombre entier             |Résumer : Somme<br>Nombre d'appels                  |
-|Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>§ a échoué<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
+|Résultat des appels de la file d’attente d’appels                  |texte                     |État final de l’appel de la file d’attente d’appels : valeurs possibles :<br><br>§ agent_joined_conference<br>§ refusé<br>§ déconnecté<br>§ erreur<br>L’échec de §<br>§ non valide<br>§ au-dessus<br>§ timed_out<br>§ transferred_to_agent |
 |Action d’état final de la file d’attente d’appels           |texte                     |Action finale de la file d’attente d’appels - valeurs possibles :<br><br>§ déconnecter<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ avancer<br>§ shared_voicemail<br>§ autre<br>§ messagerie vocale |
 |Identité de la file d’attente d’appels                     |texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
 |Date                                    |date/heure                |Date et heure de début des appels en file d’attente (heure) (UTC)   |
@@ -281,15 +281,15 @@ Effectuez les étapes suivantes :
 |Nom de la file d’attente d’appels                               |Nom de la file d’attente d’appels                       |Aucun                  |
 |#Calls par agent                               |Nom de l’agent<br>Nombre d’appels<br>Date      |Aucun                  |
 |Distribution par agent et file d’attente d’appels          |Nom de l’agent<br>Nombre d’appels<br>Durée de l’appel (minutes)<br>Nom de la file d’attente d’appels |Aucun                      |
-|Bas à gauche                                   |Nom de l’agent<br>Durée moyenne de l’appel (deuxième)<br>Nombre d’appels<br>Durée de l’appel (minute)<br>Nom de la file d’attente d’appels | Aucun |
-|Durée moyenne de l’appel (secondes) par nom de l’agent |Nom de l’agent<br>Durée moyenne de l’appel (deuxième)<br>Nombre d’appels<br>Durée de l’appel (minute)<br>Nom de la file d’attente d’appels | Aucun |
+|Bas à gauche                                   |Nom de l’agent<br>Durée moyenne de l’appel (seconde)<br>Nombre d’appels<br>Durée de l’appel (minute)<br>Nom de la file d’attente d’appels | Aucun |
+|Durée moyenne de l’appel (secondes) par nom de l’agent |Nom de l’agent<br>Durée moyenne de l’appel (seconde)<br>Nombre d’appels<br>Durée de l’appel (minute)<br>Nom de la file d’attente d’appels | Aucun |
 
 #### <a name="fagenttimelineanalytics-cqd-fields-description"></a>fAgentTimelineAnalytics CQD fields description
 
 |Nom                                    |Type de données                |Description                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Nom de l’agent                              |texte                     |Nom d’utilisateur utilisateur (UPN)<br>Si le nom **d’utilisateur complet user@microsoft.com** alors cette valeur est : **utilisateur** |
-|Durée moyenne de l’appel (deuxième)          |nombre décimal           |Résumer : Somme<br>Durée moyenne des appels de la file d’attente en secondes |
+|Durée moyenne de l’appel (seconde)          |nombre décimal           |Résumer : Somme<br>Durée moyenne des appels de la file d’attente en secondes |
 |Nombre d’appels                              |nombre entier             |Résumer : Somme<br>Nombre d’appels gérés par l’agent                    |
 |Durée de l’appel (minute)                  |nombre entier             |Résumer : Somme<br>Durée totale des appels de la file d’attente en minutes  |
 |Nom de la file d’attente d’appels                         |texte                     |Nom du compte de ressource joint à la file d’attente d’appels<br><br>Si le nom complet du compte de **ressource cq_test@microsoft.com** alors cette valeur est **: cq_test** |
@@ -298,7 +298,7 @@ Effectuez les étapes suivantes :
 
 > [!NOTE]
 > 1) Ce rapport indique le nombre d’appels du point de vue des agents. Par conséquent, le nombre total d’appels dans ce rapport sera généralement supérieur au nombre total d’appels dans le rapport **d’analyse** de la file d’attente d’appels cloud. Chaque appel dans la file d’attente peut être présenté à un ou plusieurs agents au moins une fois avant la réponse. Chaque appel de la file d’attente d’appels présenté à un agent est comptabilisé dans ce rapport, même si l’agent n’a pas répondu à celui-ci. La différence du nombre d’appels entre ces deux rapports est plus prononcé avec l’option de **routage d’Attendant** qui sonne pour chaque agent pour chaque appel. 
-> 2) Lorsqu’un appel arrive pour la première fois dans la première file d’attente, si le nombre d’appels déjà en attente dans cette file d’attente dépasse la limite de gestion des appels en dépassement de capacité et si l’option de redirection envoie des appels à une deuxième file d’attente, les agents de la deuxième file d’attente d’appels sont affichés comme étant dans la première file d’attente d’appels de ce rapport.  
+> 2) Lorsqu’un appel arrive pour la première fois dans la première file d’attente d’appels, si le nombre d’appels déjà en attente dans cette file d’attente dépasse la limite de gestion des dépassements d’appel et si l’option de redirection envoie des appels vers une deuxième file d’attente, les agents de la deuxième file d’attente d’appels sont affichés comme étant dans la première file d’attente d’appels de ce rapport.  
 
 ## <a name="known-issues"></a>Problèmes connus
 

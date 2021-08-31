@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Découvrez comment activer ou désactiver l’accès des appelants anonymes à une réunion à partir du Teams d’administration. '
-ms.openlocfilehash: 7b67cf357b9230b4dfd2448d84d4ce007149efe9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604403"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732743"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Démarrer une audioconférence par téléphone sans code confidentiel dans Microsoft Teams
 
 Il peut être frustrant pour des utilisateurs qui se sont appelés à une réunion d’être placés dans la salle d’accueil de la réunion à l’écoute de la musique, car l’organisateur de la réunion Microsoft Teams n’a pas commencé la réunion. 
   
-Si l’organisateur de la réunion appelle la réunion, un code confidentiel est nécessaire par défaut pour commencer une réunion. Vous pouvez configurer de sorte que tout le monde puisse composer le numéro de téléphone d’une réunion sans être invité à composer un code confidentiel pour commencer la réunion. Vous pouvez utiliser le Centre d’administration pour activer ou désactiver ce paramètre pour un seul utilisateur.
+Si l’organisateur de la réunion appelle la réunion, un code confidentiel est requis par défaut pour commencer une réunion. Vous pouvez configurer de sorte que tout le monde puisse composer le numéro de téléphone d’une réunion sans être invité à composer un code confidentiel pour commencer la réunion. Vous pouvez utiliser le Centre d’administration pour activer ou désactiver ce paramètre pour un seul utilisateur.
   
 Un code confidentiel n’est pas nécessaire pour l’organisateur de la réunion si quelqu’un a commencé la réunion à partir de l Microsoft Teams appeille de messagerie. Un code confidentiel n'est nécessaire que lorsque l'organisateur d'une réunion participe à sa réunion sur un téléphone. Le code confidentiel des réunions est envoyé à l’utilisateur audio lorsqu’il est affecté à la licence **Audioconférence** et activé pour l’audioconférence. Consultez Envoyer [un courrier](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) électronique à un utilisateur avec ses informations d’audioconférence et ses courriers électroniques envoyés automatiquement aux utilisateurs en cas de modification de [leurs paramètres.](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
@@ -42,7 +42,7 @@ Un code confidentiel n’est pas nécessaire pour l’organisateur de la réunio
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Autorisation ou refus des appelants anonymes à participer à une réunion
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le groupe de navigation de gauche, cliquez sur **Utilisateurs.** 
 
@@ -60,7 +60,7 @@ Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powers
 
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Si vous voulez réinitialiser le code confidentiel, consultez Réinitialiser le code confidentiel de [l’audioconférence.](reset-the-audio-conferencing-pin-in-teams.md)
+- Si vous voulez réinitialiser le code confidentiel, consultez Réinitialiser le code confidentiel [de l’audioconférence.](reset-the-audio-conferencing-pin-in-teams.md)
     
 - Si l’accès est anonyme ou si vous n’avez pas besoin d’un code confidentiel pour commencer une réunion, est désactivé :
     
@@ -70,7 +70,7 @@ Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powers
     
 - Si l’accès est anonyme ou si vous n’avez pas besoin d’un code confidentiel pour commencer une réunion, est activé :
     
-  - Si la réunion n’a pas démarré (personne n'a encore joint la réunion) : l'organisateur ne sera pas invité et il ne lui sera jamais demandé de saisir son code confidentiel. Étant donné que le paramètre de l’organisateur est définie sur Off, la réunion démarre et les appelants anonymes la rejoignent.
+  - Si la réunion n’a pas démarré (personne n'a encore joint la réunion) : l'organisateur ne sera pas invité et il ne lui sera jamais demandé de saisir son code confidentiel. Étant donné que le paramètre de l’organisateur est réglé sur Off, la réunion démarre et les appelants anonymes la rejoignent.
     
   - Si la réunion a déjà démarré (une autre personne a déjà rejoint la réunion) : l’appelant ne recevra pas d'invite, même s'il est l’organisateur, et il ne lui sera pas demandé de code confidentiel ; la réunion a déjà démarré, et il pourra la rejoindre.
     

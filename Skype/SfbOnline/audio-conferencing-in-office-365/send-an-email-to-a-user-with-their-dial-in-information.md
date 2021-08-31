@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Envoyez à vos utilisateurs un courrier électronique avec leurs informations d’audioconférence dans Skype Entreprise Online.
-ms.openlocfilehash: 8cb4d51fedc5cd12a3ee7a95b0d83c254526abd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 428ff78fe501200ef9607a03d76c034007517cf0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584448"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727673"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Envoyer un courrier électronique à un utilisateur avec ses informations d’audioconférence dans Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Pour plus d’informations sur l’envoi d’informations sur l’audioconférence à des utilisateurs dans Microsoft Teams, consultez Envoyer un courrier électronique à un utilisateur avec ses informations d’audioconférence dans [Microsoft Teasms.](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)
+> Pour plus d’informations sur l’envoi d’informations sur l’audioconférence à des utilisateurs dans Microsoft Teams, voir Envoyer un courrier électronique à un utilisateur avec ses informations d’audioconférence dans [Les thés Microsoft.](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)
 
 Parfois Skype Entreprise utilisateurs peuvent avoir besoin que vous leur envoyiez leurs informations d’audioconférence. Pour ce faire, utilisez le Centre d’administration **Skype Entreprise** et cliquez sur Envoyer les informations sur la conférence **par** courrier électronique sous les propriétés d’un utilisateur. Lorsque vous envoyez ce message électronique, il contient toutes les informations sur l’audioconférence, notamment :
   
@@ -44,7 +44,7 @@ Parfois Skype Entreprise utilisateurs peuvent avoir besoin que vous leur envoyie
    
 Voici un exemple du message électronique envoyé :
   
-![Courrier électronique de conférence rendez-vous](../images/audio-conferencing-info.png)
+![Courrier électronique de conférences téléphoniques.](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -66,7 +66,7 @@ Voici un exemple du message électronique envoyé :
 4. Dans le volet Action, cliquez sur **Envoyer les informations sur la conférence par courrier électronique**.
     
 > [!TIP]
-> Vous pouvez également envoyer un courrier électronique à l’utilisateur avec les paramètres de conférence audio en modifier les propriétés, puis en cliquant sur Audioconférence Envoyer les informations sur la conférence par  >  **courrier électronique.** 
+> Vous pouvez également envoyer un courrier électronique à l’utilisateur avec les paramètres de conférence audio en modifier les propriétés, puis en cliquant sur Audioconférence Envoyer les informations sur la conférence  >  **par courrier électronique.** 
 
 ## <a name="what-else-should-you-know-about-this-email"></a>Que devez-vous savoir d'autre sur les courriers électroniques ?
 
@@ -124,6 +124,6 @@ Voici un exemple du message électronique envoyé :
     > [!NOTE]
     > Le module Windows PowerShell pour Skype Entreprise Online permet de créer une session Windows PowerShell à distance qui se connecte à Skype Entreprise Online. Ce module est pris en charge uniquement sur les systèmes 64 bits. Il peut être téléchargé à partir du Centre de téléchargement Microsoft accessible à l'emplacement suivant : [Module Windows PowerShell pour Skype Entreprise Online](https://go.microsoft.com/fwlink/?LinkId=294688).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

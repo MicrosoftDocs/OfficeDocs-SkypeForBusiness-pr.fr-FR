@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbc7deee746679b4e82b34dae8a0dd89b07ed37d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b62032ac94bed2c8f393e36724249abd4c9bb81
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583578"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727783"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Intégrer des utilisateurs précoces et recueillir des commentaires sur Microsoft Teams
 
@@ -43,10 +43,10 @@ Pour les premiers utilisateurs, vous de suivre les étapes suivantes :
 
 Utilisez les composants des Microsoft 365 ou Office 365 recueillir des commentaires pour votre projet.
   
-![Icône montrant les points de décision](media/teams-adoption-decision-icon.png) Décision : si votre organisation a déjà un investissement dans un réseau Yammer, vous pouvez l’utiliser comme forum de commentaires pour votre programme de premiers utilisateurs. Si ce n’est pas le cas et que votre premier programme d’adoption compte moins de 5 000 membres, créez une équipe dans Teams pour recueillir des commentaires et fournir une formation.
+![Icône représentant un point de décision.](media/teams-adoption-decision-icon.png) Décision : si votre organisation a déjà un investissement dans un réseau Yammer, vous pouvez l’utiliser comme forum de commentaires pour votre programme de premiers utilisateurs. Si ce n’est pas le cas et que votre premier programme d’adoption compte moins de 5 000 membres, créez une équipe dans Teams pour recueillir des commentaires et fournir une formation.
   
 > [!Note]
-> Certaines organisations combineront les canaux pour les commentaires des premiers utilisateurs dans l’équipe de champions du travail d’équipe. Il s’agit d’une bonne approche, car de nombreux utilisateurs précoces risquent de devenir des champions à l’avenir et elle permettra de créer une communauté plus forte. 
+> Certaines organisations combineront les canaux pour les commentaires des premiers utilisateurs dans l’équipe de champions du travail d’équipe. Il s’agit d’une bonne approche, car de nombreux utilisateurs précoces risquent de devenir des champions à l’avenir, et elle permettra de créer une communauté plus forte. 
 
 
-![Icône représentant l’étape suivante : ](media/teams-adoption-next-icon.png) prise en charge de [l’intégration.](teams-adoption-onboard-support.md)
+![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : Prise [en charge d’intégration.](teams-adoption-onboard-support.md)

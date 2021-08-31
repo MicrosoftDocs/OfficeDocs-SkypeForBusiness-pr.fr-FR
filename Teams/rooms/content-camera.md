@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Utilisez une caméra de contenu dans une salle Microsoft Teams, qui interagit avec le logiciel de traitement des images pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
-ms.openlocfilehash: e24a90e65a5d844a5431951283153a5de2406498
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613003"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726013"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
@@ -48,7 +48,7 @@ Le placement idéal d’une caméra de contenu est centré verticalement et hori
 
 Vous pouvez installer l’appareil photo jusqu’à 6 dans. (152 mm) au-dessus du tableau blanc et centré sur le tableau blanc, comme illustré. Assurez-vous que l’image de l’appareil photo en contient au moins 6. (152 mm) bordure horizontale des deux côtés. Vous pouvez utiliser l’aperçu de la caméra dans l Salles Microsoft Teams pour déterminer la position finale de la caméra.
 
-![Diagramme de placement de la caméra de contenu](../media/Magic-whiteboard.png)
+![Diagramme de placement de la caméra de contenu.](../media/Magic-whiteboard.png)
 
 ### <a name="camera-distances"></a>Distances de la caméra
 
@@ -86,14 +86,14 @@ Ou, consultez le marketplace des Microsoft Teams’appareils pris en charge pour
 
 ## <a name="camera-settings"></a>Paramètres de la caméra
 
-Une fois la caméra installée dans la salle, installez-la sur la console d’Salles Microsoft Teams de cette salle :
+Une fois la caméra installée dans la salle, installez-la sur la console Salles Microsoft Teams de cette salle :
 
-1. Sélectionnez **Paramètres** ![ Paramètres, ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) connectez-vous en tant qu’administrateur, puis sélectionnez **Appareil Paramètres.**
+1. Sélectionnez **Paramètres** ![ Paramètres icône. Connectez-vous en tant qu’administrateur, puis sélectionnez ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **Appareil Paramètres.**
 2. Dans la section **Caméra par défaut,** sélectionnez la caméra de contenu et assurez-vous que l’option Améliorations **du** contenu est sélectionnée.
 3. (Facultatif) Si l’appareil photo a été installé à l’envers parce qu’il était installé à partir du plafond, vérifiez l’option Faire pivoter la caméra de contenu **à 180°.**
 4. Sélectionnez **Enregistrer et quitter.**
 
-![Configuration de la caméra de contenu](../media/content-camera.png)
+![Configuration de la caméra de contenu.](../media/content-camera.png)
 
 Vous pouvez également ajuster ces paramètres à distance à l’aide [d’un fichier de configuration XML.](xml-config-file.md)
 

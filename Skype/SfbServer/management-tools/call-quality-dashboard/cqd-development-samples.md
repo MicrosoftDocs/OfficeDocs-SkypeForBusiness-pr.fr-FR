@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Résumé : Examinez un didacticiel et des exemples de développement pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603873"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727513"
 ---
 # <a name="cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels (TBQA)
 
@@ -28,7 +28,7 @@ Cet article fournit un didacticiel et des exemples sur le développement du tabl
 
 ## <a name="call-quality-dashboard-cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels
 
-Didacticiel : création d’une présentation de rapport personnalisée à l’aide du service de données CQD et de l’API du service de référentiel.
+Didacticiel : création d’une présentation de rapport personnalisée à l’aide des API du service de données et du référentiel CQD.
 
 ### <a name="introduction-to-cqd"></a>Présentation du CQD
 
@@ -42,19 +42,19 @@ Le CQD offre un accès rapide et facile aux informations de qualité d’appel a
 
 Les rapports affichés sur le portail web sont regroupés en « ensembles de rapports ». La figure illustre un ensemble de rapports avec deux rapports. Chaque rapport de ce tableau de bord ci-dessous présente les résultats des requêtes sur le nombre d’appels de qualité, les appels médiocres et le pourcentage d’appels médiocres pendant plusieurs mois, avec différents filtres appliqués. 
 
-![Exemple de rapport CQD](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![Exemple de rapport CQD.](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 Le CQD est créé selon la méthodologie de qualité des appels (CQM), de sorte que l’ensemble de rapports par défaut est conçu pour s’aligner sur le flux d’examen introduit par CQM. Les utilisateurs ont également la possibilité de modifier ou de créer des rapports personnalisés pour répondre à leurs besoins. Toutefois, étant donné qu’il existe plusieurs façons de visualiser les données, la visualisation fournie par CQD peut ne pas répondre entièrement aux besoins de chaque utilisateur. Dans de telles situations, un utilisateur peut tirer parti des API de données et des API de référentiel pour créer des pages de rapport personnalisées. Nous allons passer en suivant une série d’exemples dans ce didacticiel.
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>Consommation du service de données par le tableau de bord
 
-Lorsque vous naviguez vers la page d’accueil du CQD (par exemple, l’ensemble de rapports et les rapports correspondants pour un utilisateur authentifié et autorisé sont récupérés à partir du service de http://localhost/cqd) référentiel. Une URL complète sera construite à partir de l’ID de l’ensemble de rapports et de l’ID year-month (l’ID de l’ensemble de rapports est le nombre entier après la section « /#/ » dans l’URL et, par défaut, le mois de l’année en cours est ajouté à la fin de l’ID d’ensemble de rapports après la barre oblique). Les définitions de rapport sont stockées au format JSON et lorsqu’elles sont récupérées à partir du service de référentiel, elles sont ensuite utilisées comme entrées pour le service de données. Le service de données génère des requêtes MDX (Multi-Dimension expressions) en fonction de l’entrée, puis exécute ces requêtes MDX sur le cube pour récupérer des données pour chaque rapport. 
+Lorsque vous naviguez vers la page d’accueil du CQD (par exemple, l’ensemble de rapports et les rapports correspondants d’un utilisateur authentifié et autorisé sont récupérés à partir du service de http://localhost/cqd) référentiel. Une URL complète sera construite à partir de l’ID de l’ensemble de rapports et de l’ID year-month (l’ID de l’ensemble de rapports est le nombre entier après la section « /#/ » dans l’URL et, par défaut, le mois de l’année en cours est ajouté à la fin de l’ID d’ensemble de rapports après la barre oblique). Les définitions de rapport sont stockées au format JSON et lorsqu’elles sont récupérées à partir du service de référentiel, elles sont ensuite utilisées comme entrées pour le service de données. Le service de données génère des requêtes MDX (Multi-Dimension expressions) en fonction de l’entrée, puis exécute ces requêtes MDX sur le cube pour récupérer des données pour chaque rapport. 
 
 ### <a name="building-customized-reports"></a>Création de rapports personnalisés
 
-Le CQD offre déjà beaucoup de flexibilité dans la personnalisation des rapports, mais il peut y avoir des situations dans lesquelles les utilisateurs peuvent vouloir agréger des données dans plusieurs rapports créés dans le CQD. Par exemple, il peut être nécessaire de créer un rapport qui indique les pourcentages d’appels médiocres de toutes les combinaisons possibles d’appels câblés dans une table (résultat tel que la figure) :
+Le CQD offre déjà beaucoup de flexibilité dans la personnalisation des rapports, mais il peut y avoir des situations dans lesquelles les utilisateurs peuvent vouloir agréger des données dans plusieurs rapports créés dans le CQD. Par exemple, il peut être nécessaire de créer un rapport qui indique les pourcentages d’appels médiocres de toutes les combinaisons possibles d’appels câblés dans une table (un résultat comme la figure) :
 
-![CQD Table](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![Table CQD.](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
 À l’aide du portail fourni par le CQD, un utilisateur doit accéder à plusieurs rapports pour extraire et enregistrer le pourcentage d’appels médiocres pour chacun d’eux, ce qui peut être laborieux si de nombreux points de données doivent être collectés. Les API de données permettent aux utilisateurs d’effectuer cette tâche par programme, en récupérant des données à partir du service de données (par exemple, via des appels AJAX). 
 
@@ -62,7 +62,7 @@ Le CQD offre déjà beaucoup de flexibilité dans la personnalisation des rappor
 
 Prenons d’abord un exemple simple. Si nous voulons afficher le nombre de flux Audio Good Stream et Audio Bad de février 2015 sur une page HTML comme dans la figure :
 
-![Exemple de rapport de CQD](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![Exemple de rapport de CQD.](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 Nous devons envoyer un appel au service de données avec les paramètres appropriés et afficher les résultats de la requête dans une table HTML. Voici un exemple de code JavaScript :
 
@@ -114,7 +114,7 @@ Cet exemple peut être déconstruit en trois étapes :
 
      c. Une ou plusieurs mesures.
 
-2. Envoyez la requête au service de données via l’appel AJAX. Les paramètres de requête suivants doivent être fournis :
+2. Envoyez la requête au service de données via un appel AJAX. Les paramètres de requête suivants doivent être fournis :
 
    a. url (qui doit être http://[ServerName]/QoEDataService/RunQuery).
 
@@ -199,9 +199,9 @@ Il peut être difficile pour quelqu’un de déterminer comment écrire la liste
 
 Dans cet exemple, nous allons créer une page web comme celle présentée dans la figure dans laquelle un utilisateur peut entrer l’ID de n’importe quel ensemble de rapports (ou rapport) existant et afficher la définition de l’ensemble de rapports ou du rapport sur la page web. L’utilisateur peut ensuite brancher la chaîne JSON de chaque rapport dans du code semblable à celui de l’exemple 1 et construire n’importe quel rapport personnalisé souhaité par l’utilisateur. 
 
-![Exemple de CQD](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![Exemple de CQD.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
-Pour créer l’outil visionneuse de définitions de rapports, nous devons envoyer des appels au service de référentiel pour récupérer les représentations de chaîne JSON des définitions de chaque ensemble de rapports de notre recherche. L’API Référentiel retourne la définition de l’ensemble de rapports en fonction d’un ID d’ensemble de rapports donné. 
+Pour créer l’outil visionneuse de définition de rapport, nous devons envoyer des appels au service de référentiel pour récupérer les représentations de chaîne JSON des définitions de chaque ensemble de rapports que nous voulons. L’API Référentiel retourne la définition de l’ensemble de rapports en fonction d’un ID d’ensemble de rapports donné. 
 
 Voici un exemple rapide : le code contient un bloc qui est un exemple simple d’envoi d’une requête au service référentiel pour obtenir le contenu d’un élément de référentiel en fonction de son identificateur. Et la partie suivante du code (méthode processReportSetData) envoie des appels AJAX pour obtenir la définition de chaque rapport au sein de cet ensemble de rapports. Étant donné que l’ID dans le portail web CQD est l’ID d’un ensemble de rapports, l’appel AJAX retourne un élément d’ensemble de rapports. Vous pouvez trouver plus de détails sur l’API du référentiel et, plus spécifiquement, GetItems, dans [l’article Obtenir des éléments.](get-items.md) 
 

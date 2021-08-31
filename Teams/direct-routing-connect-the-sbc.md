@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Découvrez comment configurer et connecter votre SBC à Système téléphonique routage direct.
-ms.openlocfilehash: 97b3bc7df52a431f1b3c64edaf7767b242838c22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d18ff8a8f0c398979a2c04d3aca1ff69b8bdc8f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608991"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726123"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Connecter votre contrôleur de bordure de session (SBC) vers le routage direct
 
 Cet article explique comment configurer un contrôleur de session border Controller (SBC) et le connecter à Système téléphonique routage direct.  Voici l’étape 1 des étapes suivantes pour configurer le routage direct :
 
 - **Étape 1. Connecter votre SBC avec votre Système téléphonique et valider la connexion** (cet article)
-- Étape 2. [Permettre aux utilisateurs d’obtenir un routage direct](direct-routing-enable-users.md)
+- Étape 2. [Activer le routage direct pour les utilisateurs](direct-routing-enable-users.md)
 - Étape 3. [Configurer le routage des appels](direct-routing-voice-routing.md)
 - Étape 4. [Traduire des nombres dans un autre format](direct-routing-translate-numbers.md)
 
@@ -43,7 +43,7 @@ Vous pouvez utiliser le [centre Microsoft Teams d’administration](#using-the-m
 3. Entrez un FQDN pour le SBC. <br><br>Assurez-vous que la partie nom de domaine du nom de domaine complet correspond à un domaine enregistré dans votre client et gardez à l’esprit que le nom de domaine n’est pas pris en charge pour le nom de domaine `*.onmicrosoft.com` FQDN SBC. Par exemple, si vous avez deux noms de domaine et `contoso.com` `contoso.onmicrosoft.com` , utilisez-le `sbc.contoso.com` comme nom SBC. Si vous utilisez un sous-domaine, assurez-vous que ce sous-domaine est également enregistré dans votre client. Par exemple, si vous voulez l’utiliser, `sbc.service.contoso.com` vous devez être `service.contoso.com` inscrit.
 4. Configurez les paramètres suivants pour le SBC, en fonction des besoins de votre organisation. Pour plus d’informations sur chacun de ces paramètres, voir [les paramètres SBC.](#sbc-settings)
 
-    ![Capture d’écran de l’ajout d’une page SBC dans le Centre Microsoft Teams’administration](media/direct-routing-add-sbc.png)
+    ![Capture d’écran de l’ajout d’une page SBC dans Microsoft Teams centre d’administration.](media/direct-routing-add-sbc.png)
 
 5. Une fois que vous avez terminé, cliquez sur **Enregistrer**.
 
@@ -171,7 +171,7 @@ Ce tableau répertorie les options que vous pouvez définir pour le SBC dans le 
 |Non|**Heures deover (secondes)**|FailoverTimeSeconds |Lorsque vous définissez une valeur, les appels sortants qui ne répondent pas par la passerelle dans le temps que vous définissez sont acheminés vers la ligne disponible suivante. S’il n’y a pas de ligne supplémentaire, l’appel est automatiquement supprimé. La valeur par défaut est 10 secondes. Dans une organisation qui a des réseaux lents et des réponses aux passerelles, cela peut potentiellement entraîner la chute inutile d’appels.|10|Numéro|Int|
 |Non|**Pays ou région préféré(s) pour le trafic de médias**|MediaRelayRoutingLocationOverride |Utilisez cette option pour définir manuellement le pays ou la région de votre choix pour le trafic de médias. Nous vous recommandons de définir cette option uniquement si les journaux d’appels indiquent clairement que l’affectation par défaut du centre de données pour le chemin de médias n’utilise pas le chemin le plus proche du centre de données SBC. Par défaut, le routage direct affecte un centre de données basé sur l’adresse IP publique du SBC et sélectionne toujours le chemin d’accès le plus proche du centre de données SBC. Toutefois, dans certains cas, le chemin d’accès par défaut peut ne pas être optimal. Ce paramètre vous permet de définir manuellement la région préférée pour le trafic de médias. |Aucun|Codes de pays au format ISO||
 |Non|**SBC prend en charge piDF/LO pour les appels d’urgence**|Pid pieSupported|Indiquez si le SBC prend en charge l’objet PIDF/LO (Presence Information Data Format Location Object) pour les appels d’urgence.||||
-|Non| - |MediaBypass|Ce paramètre indique si le SBC prend en charge la dérivation média et si vous souhaitez l’utiliser pour ce SBC. |Aucun|Vrai<br/>False|Boolean|
+|Non| - |MediaBypass|Ce paramètre indique si le DBC prend en charge la dérivation média et si vous souhaitez l’utiliser pour ce SBC. |Aucun|Vrai<br/>False|Boolean|
 
 ## <a name="see-also"></a>Voir aussi
 

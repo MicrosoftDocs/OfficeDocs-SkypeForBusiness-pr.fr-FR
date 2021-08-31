@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608971"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727833"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gérer l’application Plannings pour votre organisation dans Microsoft Teams
 
@@ -78,7 +78,7 @@ Teams inclut une stratégie de configuration intégrée de l’application First
 
 Pour afficher la stratégie FirstLineWorker, dans le menu de navigation gauche du Centre d’administration Microsoft Teams, voir Teams **de** configuration d’application.  >  
 
-![Capture d’écran de la stratégie de configuration de l’application FirstLineWorker](../../media/firstline-worker-app-setup-policy.png "Capture d’écran de la stratégie de configuration de l’application FirstLineWorker dans le Microsoft Teams d’administration")
+![Capture d’écran de la stratégie de configuration de l’application FirstLineWorker.](../../media/firstline-worker-app-setup-policy.png "Capture d’écran de la stratégie de configuration de l’application FirstLineWorker dans le Microsoft Teams d’administration")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>Affecter la stratégie de configuration de l’application FirstLineWorker aux utilisateurs
 

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment configurer votre infrastructure Skype Entreprise Server 2019 pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: cdb201280afb1419e5b8975b31e3c7725902cd72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 90c40560ef1d39b462ce58b39804006dc7121024
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582008"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727593"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gérer Skype Entreprise Server 2019 à l’aide du pack d’administration SCOM
  
@@ -58,7 +58,7 @@ Le tableau suivant indique la capacité et la exigences du système d’exploita
 |**Composant matériel**|**Configuration minimale**|
 |:-----|:-----|
 |UC  <br/> |Un des processeurs suivants :  <br/> Processeur 64 bits, quadruple cœur, 2,33 GHz ou supérieur  <br/> Processeur 64 bits 2 voies, bi cœur, 2,33 GHz ou supérieur  <br/> |
-|Mémoire  <br/> |8 Go  <br/> |
+|Mémoire  <br/> |8 Go  <br/> |
 |Système d’exploitation  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
 |Réseau  <br/> |1 carte réseau à 1 Gbps  <br/> |
    
@@ -70,7 +70,7 @@ Pour exécuter un nœud d’observation de transaction synthétique, vous devez 
     
 -  Microsoft .NET Framework 4.5
     
-- Skype Entreprise Server d’installation principaux (OcsCore.msi) et unified Communications Managed API (UCMA) (les versions doivent correspondre à la version Skype Entreprise Server WatcherNode.msi)
+- Skype Entreprise Server d’installation principale (OcsCore.msi) et l’API UCMA (Unified Communications Managed API) (les versions doivent correspondre à la version Skype Entreprise Server WatcherNode.msi)
     
 ## <a name="files-in-this-monitoring-pack"></a>Fichiers dans ce pack d’analyse
 
@@ -114,7 +114,7 @@ Les alertes sont classées dans les catégories suivantes :
   
  **Alertes à priorité élevée :** Ces alertes indiquent les conditions qui provoquent des pannes de service pour de grands groupes d’utilisateurs et nécessitent une action immédiate. Les pannes détectées par les transactions synthétiques et les services hors connexion (tels que Skype Entreprise Server audio/vidéoconférence) sont considérées comme des alertes à priorité élevée. En revanche, une défaillance de composant sur un seul ordinateur n’est pas une alerte de haute priorité. Skype Entreprise Server 2019 comporte des fonctionnalités de haute disponibilité intégrées pour ces situations, par exemple, plusieurs serveurs frontaux derrière des équilibreurs de charge.
   
- **Alertes de priorité moyenne :** Ces alertes indiquent des conditions qui affectent un sous-ensemble d’utilisateurs ou indiquent des problèmes de qualité des appels, par exemple, des défaillances de composants, la latence de l’établissement des appels ou une qualité audio moindre dans les appels. Les alertes de cette catégorie sont avec état (autrement dit, la nature de l’alerte change en fonction de l’état de la connexion réseau.) Par exemple, si les heures d’établissement d’appel indiquent une latence, puis reviennent à un seuil normal, cette alerte de priorité moyenne est automatiquement résolue dans System Center Operations Manager et les administrateurs n’ont pas besoin d’agir. Les alertes qui ne peuvent pas être résolues automatiquement sont généralement traitées par les administrateurs le même jour oué.
+ **Alertes de priorité moyenne :** Ces alertes indiquent des conditions qui affectent un sous-ensemble d’utilisateurs ou indiquent des problèmes de qualité des appels , par exemple, des défaillances de composant, une latence dans l’établissement des appels ou une qualité audio moindre dans les appels. Les alertes de cette catégorie sont avec état (autrement dit, la nature de l’alerte change en fonction de l’état de la connexion réseau.) Par exemple, si les heures d’établissement d’appel indiquent une latence, puis reviennent à un seuil normal, cette alerte de priorité moyenne est automatiquement résolue dans System Center Operations Manager et les administrateurs n’ont pas besoin d’agir. Les alertes qui ne peuvent pas être résolues automatiquement sont généralement traitées par les administrateurs le même jour oué.
   
  **Autres alertes :** Ces alertes sont générées à partir de composants qui peuvent affecter un utilisateur ou un sous-ensemble spécifique d’utilisateurs. Par exemple, une alerte classique serait que le service de carnet d’adresses n’a pas pu l'® Active Directory® Domain Services (AD DS) pour l’utilisateur : testuser@contoso.com. Les administrateurs peuvent traiter ces alertes chaque fois qu’ils disposent de temps.
   
@@ -126,9 +126,9 @@ Skype Entreprise Server packs d’administration 2019 offrent une couverture acc
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |Inscription (connexion utilisateur)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|2   <br/> |Service de carnet d’adresses (téléchargement de fichiers)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|3   <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|1  <br/> |Inscription (connexion utilisateur)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|2  <br/> |Service de carnet d’adresses (téléchargement de fichiers)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
+|3  <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
 |4   <br/> |Présence  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
 |5   <br/> |Magasin de contacts unifié  <br/> |Lync Server 2013 disponible et au-delà  <br/> |
    
@@ -151,7 +151,7 @@ Skype Entreprise Server packs d’administration 2019 offrent une couverture acc
 |10   <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |11   <br/> |Conférence par message instantané  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
 |12   <br/> | Conversation permanente <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|13   <br/> |Rejoindre Lanceur (réunions prévues)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
+|13  <br/> |Rejoindre Lanceur (réunions prévues)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
 |14   <br/> |Conférences téléphoniques  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
 |15   <br/> |Conférence de partage d’application  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
 |16   <br/> |Conférence UCWA (rejoindre une réunion web)  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
@@ -185,13 +185,13 @@ Le tableau suivant indique l’état d’état d’Skype Entreprise Server le pa
 |Skype Entreprise Server Port Watcher  <br/> |Instance de vérifications de port en cours d’exécution sur un pool.  <br/> |
 |Simple URL Watcher  <br/> |Effectue une analyse HTTPS des URL simples configurées dans un déploiement.  <br/> |
    
-![SCOM Rollup](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![Rollup SCOM.](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 Un pool Skype Entreprise Server peut contenir plusieurs systèmes Skype Entreprise Server individuels (avec plusieurs rôles Skype Entreprise Server, un service Skype Entreprise Server et un composant Skype Entreprise Server client). Par conséquent, la défaillance d’un serveur ou d’un composant individuel est moins critique pour l’état global du pool Skype Entreprise Server, car d’autres serveurs du même pool peuvent fournir le service d’application au client. L’état d’Skype Entreprise Server un pourcentage. 
   
 L Skype Entreprise Server de pool exécute des transactions synthétiques sur un pool Skype Entreprise Server pool. Les échecs consécutifs d’une ou de plusieurs transactions synthétiques (processus appelé intervalle d’interrogation consécutif) relaient l’état d’état d’état critique au niveau du pool (pire de toute transaction synthétique), comme illustré dans le diagramme suivant. 
   
-![Interrogation consécutive de l’opération de déploiement SCOM](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![Interrogation consécutive du rollup SCOM.](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>Meilleure pratique : créer un pack d’administration pour les personnalisations
 
@@ -201,7 +201,7 @@ Lorsque vous créez un pack d’administration pour stocker les paramètres pers
   
 La création d’un pack d’administration pour le stockage des personnalisations de chaque pack d’administration sealed facilite l’exportation des personnalisations d’un environnement de test vers un environnement de production. Cela facilite également la suppression d’un pack d’administration, car vous devez supprimer toutes les dépendances avant de pouvoir supprimer un pack d’administration. Si les personnalisations de tous les packs d’administration sont enregistrées dans le pack d’administration par défaut et que vous devez supprimer un seul pack d’administration, vous devez d’abord supprimer le pack d’administration par défaut, qui supprime également les personnalisations d’autres packs d’administration. 
   
-## <a name="links"></a>Liens
+## <a name="links"></a>Links
 
 Les liens suivants vous connectent à des informations sur les tâches courantes associées System Center packs d’analyse 2012 :
   
@@ -243,7 +243,7 @@ Pour plus d’informations sur Operations Manager, consultez les blogs suivants 
   
 - [Blog de l’équipe Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Blog OpsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
+- [Blog opsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
     
 - [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     

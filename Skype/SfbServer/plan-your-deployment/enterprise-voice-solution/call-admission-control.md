@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Découvrez le contrôle d’admission des appels, qui peut empêcher les appels d’avoir lieu s’ils auraient une qualité multimédia médiocre, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623596"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725963"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planifier le contrôle d’admission des appels dans Skype Entreprise Server
 
@@ -98,7 +98,7 @@ La figure suivante illustre la façon dont le contrôle d’admission des appels
 
 **Application du contrôle d’admission des appels sur des connexions PSTN**
 
-![Application de la connexion de contournement de média CAC vocal](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Application de la connexion de contournement de média CAC vocal.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>Définition des conditions requises pour le contrôle d’admission des appels
 

@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239beb9f7b3fcc53ed6870a265c45740d1523db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b48f06d0a7a380756f391e98103bd0be24179795
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618380"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733023"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Ez le meilleur des Teams après la mise à niveau
 
-![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle](media/upgrade-banner-op-excellence.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase d’excellence opérationnelle")
+![Diagramme de voyage de mise à niveau mettant en relief la phase d’excellence opérationnelle.](media/upgrade-banner-op-excellence.png "Étapes du parcours de mise à niveau, avec l’accent sur la phase d’excellence opérationnelle")
 
 Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé la mise à niveau d’Skype Entreprise vers Teams.
 

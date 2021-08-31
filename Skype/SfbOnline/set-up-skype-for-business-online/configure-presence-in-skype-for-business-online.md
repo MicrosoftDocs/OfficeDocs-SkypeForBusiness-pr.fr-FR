@@ -20,19 +20,19 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Découvrez comment configurer des Skype Entreprise vous pouvez voir la disponibilité de vos collègues. '
-ms.openlocfilehash: d1505546fa51268dc40107ca309553f0826c0da5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 256bb8c47ebf3096a5bc6e11a5f33101fae91d03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597378"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727363"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuration de la présence dans Skype Entreprise Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Le Microsoft Teams d’administration principal a remplacé Skype Entreprise centre d’administration principal (portail hérité). Tous les paramètres de gestion des Skype Entreprise sont désormais dans le Centre Teams’administration. Le rôle d’administrateur [Azure AD](/azure/active-directory/roles/permissions-reference) de l’administrateur global ou de l’Skype Entreprise doit vous aider à gérer les fonctionnalités de gestion des Skype Entreprise dans le Teams d’administration. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> Le Microsoft Teams d’administration a remplacé Skype Entreprise centre d’administration principal (portail hérité). Tous les paramètres de gestion des Skype Entreprise sont désormais dans le Centre Teams’administration. Le rôle d’administrateur [Azure AD](/azure/active-directory/roles/permissions-reference) de l’administrateur global ou de l’administrateur de Skype Entreprise vous doit être attribué pour gérer les fonctionnalités de gestion des Skype Entreprise dans le Teams d’administration. Pour plus d’informations, consultez [Gérer les paramètres de Skype Entreprise dans le centre d’administration Microsoft Teams](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 Par défaut, les personnes qui peuvent communiquer avec l’une des personnes de votre organisation à l’aide de Skype Entreprise peuvent également voir si cette personne est en ligne. Skype Entreprise indique si une personne est disponible en ligne, en réunion, hors connexion ou si elle présente un autre indicateur.
 
@@ -40,7 +40,7 @@ Par défaut, les personnes qui peuvent communiquer avec l’une des personnes de
 
 En tant **[qu’administrateur](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** pour tous les utilisateurs de votre entreprise, vous pouvez choisir qui voit leur présence en ligne dans Skype Entreprise.
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
 
 1. Allez dans le Centre d’administration > **centres d’administration**  >  **Skype Entreprise.**
 

@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4cb617c1d3d73e38ce1d66c4c261f9b0e74e845b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606965"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732843"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Expérience client Teams et conformité aux modes coexistence
 
 <a name="about-upgrade-basic"></a>
 
-L’objectif des modes de coexistence Skype Entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) est d’offrir aux utilisateurs finaux une expérience simple et prévisible au sein de la transition entre Skype Entreprise et Teams.  Pour une organisation passant à Teams, le mode **Teams** Seul est la destination finale pour chaque utilisateur, même si tous ne doivent pas être affectés Teams Seul **(ou** tout autre mode) en même temps.  Avant que les utilisateurs n’atteignent le mode TeamsOnly, les organisations peuvent utiliser n’importe quel mode de coexistence Skype Entreprise pour assurer une communication prévisible entre les utilisateurs qui sont en mode **Teams** uniquement et ceux qui ne le sont pas encore. 
+L’objectif des modes de coexistence Skype Entreprise (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) est d’offrir aux utilisateurs finaux une expérience simple et prévisible au sein de la transition entre Skype Entreprise et Teams.  Pour une organisation passant à Teams, le mode **Teams** Seul est la destination finale pour chaque utilisateur, même si tous ne doivent pas être affectés **Teams** Seul (ou tout autre mode) en même temps.  Avant que les utilisateurs n’atteignent le mode TeamsOnly, les organisations peuvent utiliser n’importe quel mode de coexistence Skype Entreprise pour assurer une communication prévisible entre les utilisateurs qui sont en mode **Teams** uniquement et ceux qui ne le sont pas encore. 
 
 Lorsqu’un utilisateur est dans l’un des modes Skype Entreprise, toutes les conversations et appels entrants sont acheminés vers le client de messagerie Skype Entreprise’utilisateur. Pour éviter la confusion des utilisateurs finaux et garantir un routage approprié, les fonctionnalités d’appel et de conversation dans le client Teams sont désactivées lorsqu’un utilisateur est dans l’un Skype Entreprise modes. De même, la planification de réunions dans Teams est explicitement désactivée lorsque les utilisateurs sont dans les modes SfBOnly ou SfBWithTeamsCollab et sont explicitement activés lorsqu’un utilisateur est en mode SfBWithTeamsCollabAndMeetings.
 
@@ -50,14 +50,14 @@ Les fonctionnalités disponibles dans Teams dépendent du mode de coexistence de
 
 Les captures d’écran suivantes illustrent la différence **entre Teams** **mode** Îles uniquement et tous les autres modes. Notez que les icônes de conversation et d’appel sont disponibles par défaut avec le **mode** **Teams** Uniquement ou Îles (capture d’écran de gauche), mais pas avec les autres modes (capture d’écran de droite) :
 
-![Comparaison des modes d’affichage Teams côte à côte](media/teams-mode-comparison.png)
+![Comparaison des différents modes d’Teams côte à côte.](media/teams-mode-comparison.png)
 
 De plus, la présence automatique n’est pas disponible dans les autres modes, comme illustré ici.
 
-![Capture d’écran de l’auto-présence dans Réunions d’abord](media/meetings-first-no-self-presence-general.png)
+![Capture d’écran de l’auto-présence dans Réunions en premier.](media/meetings-first-no-self-presence-general.png)
  
 **Remarque :** 
- <sup>1</sup> Pour le moment, SfBwithTeamsCollab et SfBOnly se comportent à l’identique, mais l’objectif est que le mode SfBOnly désactive également la fonctionnalité Canaux et fichiers dans Teams. Les canaux peuvent être masqués temporairement à l’aide de la stratégie Autorisations d’application.
+ <sup>1</sup> Actuellement, SfBwithTeamsCollab et SfBOnly se comportent à l’identique, mais l’objectif est que le mode SfBOnly désactive également la fonctionnalité Canaux et fichiers dans Teams. Les canaux peuvent être masqués temporairement à l’aide de la stratégie Autorisations d’application.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Impact du mode sur les autres paramètres de stratégie
@@ -79,7 +79,7 @@ Les administrateurs n’ont pas besoin de définir explicitement ces paramètres
 |SfBWithTeamsCollab ou SfBOnly|Désactivé|Désactivé|Désactivé|Désactivé|
 ||||||
 
-Lors de l’utilisation de PowerShell, l’cmdlet vérifie la configuration des `Grant-CsTeamsUpgradePolicy` paramètres correspondants dans TeamsMess niveauPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces paramètres doivent être supersedés par TeamsUpgradePolicy et, si c’est le cas, un message d’information est fourni dans PowerShell.  Comme indiqué ci-dessus, il n’est plus nécessaire de définir ces autres paramètres de stratégie. Voici un exemple de l’avertissement PowerShell :
+Lors de l’utilisation de PowerShell, l’cmdlet vérifie la configuration des `Grant-CsTeamsUpgradePolicy` paramètres correspondants dans TeamsMess niveauPolicy, TeamsCallingPolicy et TeamsMeetingPolicy pour déterminer si ces paramètres doivent être suivis par TeamsUpgradePolicy et, si c’est le cas, un message d’information est fourni dans PowerShell.  Comme indiqué ci-dessus, il n’est plus nécessaire de définir ces autres paramètres de stratégie. Voici un exemple de l’avertissement PowerShell :
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 
@@ -87,6 +87,6 @@ Lors de l’utilisation de PowerShell, l’cmdlet vérifie la configuration des 
 
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Guide de la migration et de l’interopérabilité pour les organisations qui utilisent Teams avec Skype Entreprise](./migration-interop-guidance-for-teams-with-skype.md)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df7d051f6ea140ab74532904994ea3ed5914d066
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c52409d8487462aeab900bc9f0565285ab094e5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624866"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732973"
 ---
 # <a name="plan-my-service-management"></a>Planifier ma gestion des services
 
@@ -36,9 +36,9 @@ La gestion des services est un vaste sujet qui couvre les opérations quotidienn
 La notion de gestion des services n'est probablement pas un concept nouveau pour la plupart des organisations. Vous avez probablement déjà mis en œuvre des processus et des tâches qui sont associés à des services existants. Cela dit, vous pouvez probablement augmenter ce que vous avez en place lorsque vous planifiez la gestion des services aujourd'hui pour soutenir Microsoft Teams à l'avenir.
 
 La gestion des services englobe toutes les activités et processus impliqués dans la gestion de bout en bout de Microsoft Teams. Certains composants de la gestion des services, à savoir les composants d’infrastructure qu’est le service Microsoft 365 ou Office 365 proprement dit, sont de la responsabilité de Microsoft, tandis que le client doit gérer les différents aspects des Teams, réseau et points de terminaison qu’il fournit.
-Pour une discussion complète de la responsabilité du client vis-à-vis de la gestion des services Teams et de sa relation avec les composants clés sous-tendent la qualité de l’expérience utilisateur, voir Plan pour la gestion du service et la [qualité.](./prepare-network.md)
+Pour une discussion complète de la responsabilité du client sur la gestion des services Teams et sur sa relation avec les composants clés sous-tendent la qualité de l’expérience utilisateur, voir Plan pour la gestion et la qualité de [service.](./prepare-network.md)
 
-![Diagramme des trois composants de la qualité](media/plan-my-service-management-image1.png "Diagramme des trois composants de la qualité (service Microsoft 365 ou Office 365, réseau et points de terminaison) et de la manière dont la gestion du service chevauche ces trois éléments.")
+![Diagramme des trois composants de la qualité.](media/plan-my-service-management-image1.png "Diagramme des trois composants de la qualité (service Microsoft 365 ou Office 365, réseau et points de terminaison) et de la manière dont la gestion du service chevauche ces trois éléments.")
 
 <!--ENDOFSECTION-->
 
@@ -93,7 +93,7 @@ Les tâches et activités associées au rôle sont consignées dans le Guide des
 
 Le guide de révision de l’expérience de qualité présente un ensemble d’activités qui évaluent et fournissent des recommandations de correction dans les domaines clés qui ont le plus fort impact sur l’amélioration de l’expérience utilisateur, comme le montre la figure ci-dessous.
 
-![Illustration des principaux domaines à examiner pendant l’examen de l’expérience de qualité](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de l’expérience de qualité : audio, fiabilité et résultats des enquêtes utilisateur.")
+![Illustration des principaux domaines à examiner lors de la révision de l’expérience qualité.](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de l’expérience de qualité : audio, fiabilité et résultats des enquêtes utilisateur.")
 
 En évaluant et en corrigeant continuellement les zones décrites dans ce document, vous pouvez réduire leur potentiel d'affecter négativement l'expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
@@ -111,7 +111,7 @@ En évaluant et en corrigeant continuellement les zones décrites dans ce docume
 
 Les conseils fournis dans le Guide d'examen de l'expérience de qualité portent sur l'utilisation du CQD en ligne comme outil principal pour rapporter et enquêter sur chaque domaine décrit, en mettant l'accent sur l'audio pour maximiser l'adoption et l'impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Il est vivement recommandé de désigner le champion de la qualité tout de suite. Une fois qu’ils ont été désignés, ils doivent se familiariser avec le contenu du guide de révision [de l’expérience de qualité.](./quality-of-experience-review-guide.md)
+Il est vivement recommandé de désigner le champion de la qualité rapidement. Une fois qu’ils ont été désignés, ils doivent se familiariser avec le contenu du guide de révision [de l’expérience de qualité.](./quality-of-experience-review-guide.md)
 
 
 

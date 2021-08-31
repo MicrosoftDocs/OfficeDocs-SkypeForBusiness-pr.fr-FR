@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8cad14108d7cdfe8ca049124cdffdda2f433088
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6312b9d6fb75c625c175fbb8b64d64f4cb6c5f99
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631158"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733003"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Mise à Microsoft Teams version gratuite vers la version par abonnement
 
@@ -36,7 +36,7 @@ Si votre organisation utilise la version gratuite de Microsoft Teams, vous pouve
 
 ## <a name="how-does-teams-free-compare-to-the-full-version-of-teams"></a>Quelle est la Teams gratuite par rapport à la version complète de Teams ?
 
-Teams gratuite est conçue pour les petites et moyennes entreprises et offre les fonctionnalités suivantes :
+Teams gratuite est conçu pour les petites et moyennes entreprises et offre les fonctionnalités suivantes :
 
 - 500 000 utilisateurs au maximum
 - Messages de conversation illimités et recherche
@@ -83,7 +83,7 @@ Gardez les limitations suivantes à l’esprit :
 
 Pour mettre à niveau vers la version complète de Teams, **sélectionnez Mettre à niveau** dans Teams.
 
-![Capture d’écran montrant le bouton Mettre à niveau](media/teams-freemium-upgrade-image1.png)
+![capture d’écran montrant le bouton Mettre à niveau.](media/teams-freemium-upgrade-image1.png)
 
 Entrez l’adresse e-mail que vous utilisez pour vous Teams, puis achetez un Microsoft 365 Business Standard plan. Si vous voulez acheter une version Microsoft 365 Business Basic ou une édition Enterprise d’Office 365, [contactez le support technique.](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)
 
@@ -93,7 +93,7 @@ Une fois la mise [](get-started-with-teams-quick-start.md) à niveau terminée, 
 
 ## <a name="more-information"></a>Plus d’informations
 
-- Pour en savoir plus sur Teams versions complètes et leurs fonctionnalités, voir [Comparer Teams plans.](https://products.office.com/microsoft-teams/free)
+- Pour en savoir plus sur Teams versions et leurs fonctionnalités, voir [Comparer les Teams disponibles.](https://products.office.com/microsoft-teams/free)
 - Pour plus d’informations sur la mise à niveau vers la version complète de Teams, voir Mettre à niveau de [Teams version gratuite vers Teams.](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)
 - Pour plus d’informations sur les tâches d’administration associées à la mise à niveau des utilisateurs, notamment l’ajout de licences utilisateur, la modification des noms d’utilisateur et l’affectation de mots de passe temporaires, voir Pour les [administrateurs](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)qui peuvent effectuer la mise à niveau d’Teams gratuit vers un abonnement payant.
 - Pour plus d’informations sur la Teams gratuite dans votre organisation, voir Gérer la version gratuite [d’Microsoft Teams.](manage-freemium.md)

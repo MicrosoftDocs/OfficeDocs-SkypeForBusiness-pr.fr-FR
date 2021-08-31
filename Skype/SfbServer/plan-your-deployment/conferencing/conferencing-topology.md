@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification de votre topologie de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: d5a048603e68b020f0aba750a4dd34cfd334f182
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599909"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732633"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planifier votre topologie de conférence pour Skype Entreprise Server
  
@@ -92,10 +92,10 @@ Skype Entreprise Server propose les méthodes suivantes pour configurer Office W
     
 Pour plus d’informations, voir [Configurer l’intégration Office Web Apps Server dans Skype Entreprise Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
   
-Quelle que soit la topologie que vous sélectionnez, il est essentiel que les ports de pare-feu corrects soient ouverts. Vous devez vous assurer que les noms DNS, les adresses IP et les ports ne sont pas bloqués par des pare-feu sur le serveur/Office Online Server Office Web Apps, l’équilibrage de charge ou les Skype Entreprise Server.
+Quelle que soit la topologie que vous sélectionnez, il est essentiel que les ports de pare-feu corrects soient ouverts. Vous devez vous assurer que les noms DNS, les adresses IP et les ports ne sont pas bloqués par des pare-feu sur le serveur/Office Online Server Office Web Apps, l’équilibrage de charge ou le Skype Entreprise Server.
   
 > [!NOTE]
-> Une autre option permettant de fournir un accès externe à Office Web Apps Server/Office Online Server consiste à déployer le serveur dans le réseau de périmètre. Si vous le souhaitez, n’oubliez pas que le programme d’installation Office Web Apps Server/Office Online Server nécessite que l’ordinateur serveur soit membre de votre domaine Active Directory. À moins que votre stratégie réseau autorise les ordinateurs du réseau de périmètre à être membres du domaine Active Directory, il est recommandé de ne pas installer Office Web Apps Server/Office Online Server dans le réseau de périmètre. Au lieu de cela, vous devez installer Office Web Apps Server/Office Online Server dans le réseau interne et fournir un accès des utilisateurs externes via votre serveur proxy inverse. 
+> Une autre option permettant de fournir un accès externe à Office Web Apps Server/Office Online Server consiste à déployer le serveur dans le réseau de périmètre. Si vous le souhaitez, n’oubliez pas que le programme d’installation Office Web Apps Server/Office Online Server nécessite que l’ordinateur serveur soit membre de votre domaine Active Directory. À moins que votre stratégie réseau autorise les ordinateurs du réseau de périmètre à être membres du domaine Active Directory, il est recommandé de ne pas installer Office Web Apps Server/Office Online Server dans le réseau de périmètre. Au lieu de cela, vous devez installer Office Web Apps Server/Office Online Server dans le réseau interne et fournir aux utilisateurs externes un accès via votre serveur proxy inverse. 
   
 ## <a name="topology-requirements-for-large-meetings"></a>Exigences en matière de topologie pour les grandes réunions
 
@@ -103,7 +103,7 @@ Une grande réunion nécessite au moins un serveur frontal et un serveur princip
   
 **Topologie de grandes réunions**
 
-![Topologie de grandes réunions](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![Topologie de grandes réunions.](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
 L’utilisateur qui héberge les grandes réunions doit avoir son compte d’utilisateur dans le pool frontal. Cependant, nous ne recommandons pas que vous hébergiez d’autres comptes d’utilisateur dans ce pool. Utilisez-le uniquement pour les grandes réunions. La meilleure pratique consiste à créer un compte d’utilisateur spécial dans ce pool qui sera utilisé pour héberger les grandes réunions. Étant donné que le paramètre de grande réunion est optimisé pour les performances, son utilisation en tant qu’utilisateur normal peut rencontrer des problèmes tels que l’impossibilité de promouvoir une session P2P en réunion lorsqu’un point de terminaison PSTN est impliqué.
   

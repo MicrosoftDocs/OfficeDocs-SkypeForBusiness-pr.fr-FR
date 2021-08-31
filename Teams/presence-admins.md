@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66c3aec34baa10dc0cda644d84611800a8e9d97a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597668"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725823"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -38,21 +38,21 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et d
 
 |L'utilisateur est configuré|L'application est configurée|
 |:--- |:---|
-| ![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|
+| ![Une coche verte pleine indique une Présence disponible](media/Presence_Available.png) Disponible|![Une coche verte pleine indique une Présence : Disponible](media/Presence_Available.png) Disponible|
 || ![Une coche verte ouverte indique une Absence du bureau](media/Presence_Available_OOF.png) Disponible, Absent(e) du bureau. Remarque : Absent(e) du bureau est automatiquement configurée pour les périodes pendant lesquelles l’utilisateur définit « Réponses automatiques » Si l’utilisateur utilise l’application pendant ces périodes, une double présence peut s’afficher, telle que « Absent(e) du bureau, disponible ». |
 |  ![Un cercle rouge plein indique Occupé](media/Presence_Busy.png) Occupé |  ![Un cercle rouge plein indique Occupé](media/Presence_Busy.png) Occupé  |
-|| ![Un cercle rouge plein indique Occupé au téléphone](media/Presence_Busy.png) Pendant un appel|
-|| ![Un cercle rouge plein indique Occupé en réunion](media/Presence_Busy.png) En réunion |
+|| ![Un cercle rouge plein indique Occupé au téléphone.](media/Presence_Busy.png) Pendant un appel|
+|| ![Un cercle rouge plein indique Occupé en réunion.](media/Presence_Busy.png) En réunion |
 || ![Un cercle rouge ouvert indique Occupé](media/Presence_Busy_OOF.png) Au téléphone, absent du bureau|
-|  ![Un cercle rouge avec une ligne blanche indique Ne pas déranger](media/Presence_DND.png) Ne pas déranger ||
-|| ![Un cercle rouge avec une ligne blanche indique En cours de présentation](media/Presence_DND.png) En cours de présentation|
+|  ![Un cercle rouge avec une ligne blanche indique Ne pas déranger.](media/Presence_DND.png) Ne pas déranger ||
+|| ![Un cercle rouge avec une ligne blanche indique En cours de présentation.](media/Presence_DND.png) Présentation|
 || ![Un cercle rouge avec une ligne blanche indique un Travail individuel en cours](media/Presence_DND.png) Ne pas déranger (travail individuel). Le travail individuel se produit lorsque les utilisateurs planifient un temps de travail individuel dans MyAnalytics/Insights de leur calendrier.|
-| ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent| ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent|
+| ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent(e)| ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent|
 || ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent, *heure* de Vu pour la dernière fois|
 |![Une icône d’horloge jaune indique l’absence, de retour dans quelques minutes](media/Presence_Away.png) De retour dans quelques minutes| |
-|![Un cercle gris avec un x indique un mode Hors connexion](media/Presence_Offline.png) Apparaître Hors connexion|![Un cercle gris avec un x indique un mode Hors connexion](media/Presence_Offline.png) Hors ligne. Lorsque les utilisateurs ne sont pas connectés sur l’un de leurs appareils, ils apparaissent hors ligne. | |
-|| ![Un cercle gris ouvert indique un statut inconnu](media/Presence_Unknown.png) Statut inconnu|
-|| ![Un cercle violet avec une flèche indique Absent(e) du bureau](media/Presence_OOF.png) Absent(e) du bureau. Absent(e) du bureau est utilisé lorsque vous définissez une réponse automatique. |
+|![Un cercle gris avec un x indique un mode Hors connexion.](media/Presence_Offline.png) Apparaître Hors connexion|![Un cercle gris avec un x indique un mode Hors connexion](media/Presence_Offline.png) Hors ligne. Lorsque les utilisateurs ne sont pas connectés sur l’un de leurs appareils, ils apparaissent hors ligne. | |
+|| ![Un cercle gris ouvert indique un statut inconnu.](media/Presence_Unknown.png) Statut inconnu|
+|| ![Un cercle violet avec une flèche indique Absent(e) du bureau.](media/Presence_OOF.png) Absent(e) du bureau. Absent(e) du bureau est utilisé lorsque vous définissez une réponse automatique. |
 |||
  > [!NOTE]
  > Pour les utilisateurs dont la boîte aux lettres est hébergée localement, des retards de présence d’une heure (maximum) sont attendus.

@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: c82cdd40eb69ea06443e06ed21ab5d613f0a220b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634068"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727263"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Forfaits d’appels Microsoft 365
 
@@ -49,7 +49,7 @@ Consultez [la disponibilité des pays](country-and-region-availability-for-audio
   
 > [!IMPORTANT]
 > Le pays/la région est basé sur l’emplacement de la licence de l’utilisateur dans le **Centre d’administration Microsoft 365**  >  **Utilisateurs** actifs et **NON** sur l’adresse de facturation répertoriée sous le profil de l’organisation dans le **Centre d’administration Microsoft 365.**    
-![Capture d’écran de l’emplacement de la licence de l’utilisateur](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![Capture d’écran de l’emplacement de la licence de l’utilisateur.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Pour plus d’informations sur les limites d’utilisation et les conditions d’utilisation, consultez la période d’appel sortant complémentaire [d’audioconférence.](complimentary-dial-out-period.md)
   

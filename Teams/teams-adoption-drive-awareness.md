@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625866"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725533"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
@@ -45,7 +45,7 @@ Vos phases pilotes doivent respecter des étapes minimum :
 
 Une fois que vous avez travaillé tout au long de la phase pilote initiale, vous pouvez développer les efforts ci-dessus pour atteindre l’ensemble de votre organisation. Selon votre taille, cette approche peut prendre du temps et s’aborder par région, profil utilisateur ou organisation. Pendant ce déploiement à grande échelle, encouragez la participation des communicateurs au sein de votre organisation. Nous recommandons à ces personnes d’être impliquées de façon anticipée et souvent lorsque vous utilisez les documents d’adoption disponibles ou créez vos propres documents.
 
-Si votre entreprise dispose d’un portail intranet central pour les actualités, les informations ou le support, vous pouvez l’utiliser comme hub pour obtenir des informations sur ce déploiement. La fourniture d’informations, de formations et de conseils écrits largement disponibles permet aux utilisateurs d’être rapidement intégrés. De nombreux utilisateurs passeront simplement à l’Teams dès que celle-ci sera disponible et nous encourageons cela. Nous savons également que chaque individu apprend de différentes façons ; Un portail d’informations central peut prendre en charge tous les styles d’apprentissage au sein de votre organisation.
+Si votre entreprise dispose d’un portail intranet central pour les actualités, les informations ou le support, vous pouvez l’utiliser comme hub pour obtenir des informations sur ce déploiement. La fourniture d’informations, de formations et de conseils écrits à grande échelle permet aux utilisateurs d’être rapidement intégrés. De nombreux utilisateurs passeront simplement à l’Teams dès que celle-ci sera disponible et nous encourageons cela. Nous savons également que chaque individu apprend de différentes façons ; Un portail d’informations central peut prendre en charge tous les styles d’apprentissage au sein de votre organisation.
 
 ## <a name="implement-end-user-training"></a>Mettre en œuvre la formation des utilisateurs finux
 
@@ -71,4 +71,4 @@ Partagez les idées que vous obtenez de vos canaux de commentaires avec le hasht
 
 [En savoir plus sur les Microsoft Teams d’utilisation dans le Centre d’administration Microsoft 365.](teams-activity-reports.md)
 
-![Icône illustrant les étapes suivantes : ](media/teams-adoption-next-icon.png) planifier [des révisions d’état du service](teams-adoption-schedule-service-health-reviews.md)
+![Icône illustrant les étapes suivantes.](media/teams-adoption-next-icon.png) Suivant : Planifier [les avis sur l’état du service](teams-adoption-schedule-service-health-reviews.md)

@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Découvrez comment activer ou désactiver les notifications par téléphone mobile pour que vos utilisateurs reçoivent des alertes concernant la messagerie vocale et les messages instantanés entrants et manqués.
-ms.openlocfilehash: f44daa163dcce9298a43310b9157256c4b44fbb2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c085c02dbae8fa07b73c39c6592f4ffa0da12d55
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584418"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727563"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activation ou désactivation des notifications par téléphone mobile
 
@@ -41,9 +41,9 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>Activer ou désactiver les notifications Push pour tous les appareils Windows Phone ou Apple dans votre organisation
 <a name="__top"> </a>
 
-![Icône affichant le logo Skype Entreprise](../images/sfb-logo-30x30.png) **Utiliser le Centre d’administration Skype Entreprise**
+![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
 
-1. Connectez-vous à Microsoft 365.
+1. Connectez-vous pour Microsoft 365.
     
 2. Go to admin center > **Skype Entreprise.**
     
@@ -60,7 +60,7 @@ Sur les téléphones Android et Windows, les notifications Skype Entreprise s'af
 - Une fois les notifications Push désactivées, les utilisateurs ne peuvent plus les réactiver.
     
 > [!IMPORTANT]
->  Microsoft utilise d'autres sociétés pour fournir des notifications Skype Entreprise pour appareils mobiles en temps réel aux utilisateurs de Windows Phone, iPhone et iPad. Consultez [la Déclaration de confidentialité pour les produits Microsoft Skype Entreprise.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
+>  Microsoft utilise d'autres sociétés pour fournir des notifications Skype Entreprise pour appareils mobiles en temps réel aux utilisateurs de Windows Phone, iPhone et iPad. Consultez [la Déclaration de confidentialité pour les Skype Entreprise Microsoft.](https://go.microsoft.com/fwlink/p/?linkid=247732) 
   
 ## <a name="related-topics"></a>Rubriques connexes
 
