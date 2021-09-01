@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607691"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733433"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de bureau
 
@@ -216,11 +216,11 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies de configuration**.
 2. Cliquez sur  **Ajouter**.  
 3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple, la stratégie de configuration de l’application Frontline Manager.
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Capture d’écran de l’exemple de nom et de description de la stratégie de configuration d’application du gestionnaire de première ligne":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Capture d’écran de l’exemple de nom et de description de la stratégie de configuration d’application du gestionnaire de première ligne.":::
 
 4. Désactivez l’option **Charger des applications personnalisées**.
 5. Désactivez l’option **Autoriser l’épinglage de l’utilisateur**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Capture d’écran du paramètre Autoriser l’épinglage d’utilisateur":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Capture d’écran du paramètre Autoriser l’épinglage d’utilisateur.":::
 
 6. Si ce n’est pas déjà fait, ajoutez l’application **Shifts**. Pour plus d’informations sur Shifts, cliquez [ici](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Capture d’écran de l’écran Ajouter des applications épinglées, montrant le bouton Ajouter pour l’application Shifts":::
@@ -234,7 +234,7 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
     - Calendrier
     - Plannings
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Capture d’écran des applications pour les responsables de première ligne répertoriées dans l’ordre":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Capture d’écran des applications pour les gestionnaires de première ligne répertoriées dans l’ordre.":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Créer la stratégie de configuration de l’application des employés de première ligne
 
@@ -243,11 +243,11 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies de configuration**.
 2. Cliquez sur  **Ajouter**.
 3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple, la stratégie de configuration de l’application des employés de première ligne.
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Capture d’écran de l’exemple de nom et de description de la stratégie de configuration de l’application des employés de première ligne":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Capture d’écran de l’exemple de nom et de description de la stratégie de configuration de l’application des employés de première ligne.":::
 
 4. Désactivez l’option **Charger des applications personnalisées**.
 5. Désactivez l’option **Autoriser l’épinglage de l’utilisateur**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Capture d’écran du paramètre Autoriser l’épinglage d’utilisateur":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Capture d’écran du paramètre Autoriser l’épinglage d’utilisateur.":::
 
 6. Si ce n’est pas déjà fait, ajoutez l’application **Shifts**. Pour plus d’informations sur Shifts, cliquez [ici](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
@@ -260,7 +260,7 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
     - Équipes
     - Plannings
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Capture d’écran des applications pour les employés de première ligne répertoriées dans l’ordre":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Capture d’écran des applications pour les employés de première ligne répertoriées dans l’ordre.":::
 
 ### <a name="create-teams-app-permission-policies"></a>Créer des stratégies d’autorisation d’application d’équipes
 
@@ -275,7 +275,7 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies d’autorisation**.
 2. Cliquez sur  **Ajouter**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Capture d’écran de la page Ajouter une stratégie d’autorisation d’application":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Capture d’écran de la page Ajouter une stratégie d’autorisation d’application.":::
 
 3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple, la stratégie d’autorisation d’application du gestionnaire de ligne de front.net.
 4. Sous  **Microsoft Apps**, sélectionnez **Autoriser toutes les applications**.
@@ -290,7 +290,7 @@ Les paramètres suivants peuvent être personnalisés en fonction des besoins de
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux  **applications Teams** > **Stratégies d’autorisation**.
 2. Cliquez sur  **Ajouter**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Capture d’écran de la page Ajouter une stratégie d’autorisation d’application":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Capture d’écran de la page Ajouter une stratégie d’autorisation d’application.":::
 
 3. Entrez un nom pour votre stratégie, ainsi qu’une description. Par exemple, une stratégie d’autorisation d’application de travail de première ligne.
 4. Sous  **Microsoft Apps**, sélectionnez **Autoriser toutes les applications**.
