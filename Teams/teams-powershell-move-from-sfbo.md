@@ -12,12 +12,12 @@ ms.collection:
 description: Découvrez comment passer d’Skype Entreprise Online Connector au module PowerShell Teams à gérer les Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdd6460e6a17a15193104a0871a57fa6dbff8105
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299004"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866356"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Migration d’Skype Entreprise Online Connector vers le module Teams PowerShell
 
@@ -27,9 +27,6 @@ Teams Le module PowerShell fournit un ensemble complet d’lets de commande pour
 > Teams administrateur ont été informés via la publication du Centre de messages (MC244740, spécifiée le 16 mars 2021 ; MC250940, dated April 16 2021) about this change.
 >
 > Teams Le module PowerShell utilise l’authentification moderne, mais le client Windows gestion à distance (WinRM) sous-jacent doit être configuré pour autoriser l’authentification de base. Pour obtenir des instructions sur [l’Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) de l’authentification de base, voir Télécharger et installer.
-
-> [!WARNING]
-> Skype Entreprise Les connexions Connecteur en ligne seront refusées à partir du 17 mai 2021. Contactez le Support Microsoft pour obtenir de l’aide et une assistance pour la migration vers Teams module PowerShell.
 
 ## <a name="how-to-migrate"></a>Comment migrer
 
@@ -76,21 +73,7 @@ La migration d’Skype Entreprise Online Connector vers Teams module PowerShell 
          Disconnect-MicrosoftTeams
     ```
 
-## <a name="online-support"></a>Support en ligne
-
-Gagnez du temps en commençant votre demande de service en ligne. Nous vous aiderons à trouver une solution ou à vous mettre en relation avec le support technique.
-
-1.  Pour ce faire, voir le Centre [https://admin.microsoft.com](https://admin.microsoft.com) d’administration. Si un message vous indique que vous n’êtes pas autorisé à accéder à cette page ou à effectuer cette action, cela indique que vous n’êtes pas un administrateur. Qui avez des autorisations d’administrateur dans mon entreprise ?
-
-2.  Sélectionnez **l’aide nécessaire**? .
-
-3.  Vous avez besoin **d’aide**? , indiquez-nous ce sur quoi vous avez besoin d’aide, puis appuyez sur Entrée.
-
-4.  Si les résultats ne vous aident pas, sélectionnez **Contacter le support.**
-
-5.  Entrez une description de votre problème, confirmez votre numéro de contact et votre adresse de courrier, sélectionnez votre méthode de contact préférée, puis **Contactez-moi.** Le temps d’attente attendu est indiqué dans le cas où vous avez besoin d’aide ? .
-
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Installer Microsoft Teams PowerShell](teams-powershell-install.md)
 

@@ -16,12 +16,12 @@ f1.keywords:
 description: Optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e30b5928fb775453db9a4b149f4f464b30401a80
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725513"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866396"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planifier l’optimisation des médias locaux pour le routage direct
 
@@ -340,3 +340,4 @@ Voici une liste des problèmes connus actuellement présents dans l’optimisati
 | Une escalade d’appel entraîne l’abandon d’appels lorsque Teams client est identifié comme interne.| Désactivez l’optimisation des médias locaux sur le SBC de routage direct.|
 | Escalade d’appels de 1 à 1 appel entre clients internes en appel à plusieurs avec des clients externes/résultat d’appels supprimés | Travaillez en cours sur un correctif. Vous pouvez également désactiver l’optimisation des médias locaux sur le SBC de routage direct.|
 | Teams’utilisateur place l’appel en attente. Musique à l’extrémité du réseau PSTN et l’optimisation des médias locaux fonctionne. L Teams un utilisateur reprend l’appel. L’appel vers le réseau PSTN reprend, mais l’optimisation des médias locaux ne fonctionne pas et l’appel continue via SBC central (proxy) | Lorsqu’un utilisateur appelle un appel pour lancer une musique en attente (MoH), le contrôleur d’appel passe de 1h à 1h à un appel à plusieurs pour appeler le contrôleur de média et le processeur multimédia (également appelé mixer AVMCU) par lequel MoH arrive en attente. L’escalade vers un appel à deux après le reprise ne se produit jamais comme d’après les modèles. Désactivez l’optimisation des médias locaux sur le SBC de routage direct.|
+|Pendant quelques secondes, l’utilisateur peut entendre son silence.| En raison de la complexité de l’architecture de l’optimisation des médias locaux, cela peut se produire dans certains cas.|

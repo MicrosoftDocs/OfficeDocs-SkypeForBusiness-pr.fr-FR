@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Découvrez quels périphériques et périphériques USB (casques, téléphones haut-parleurs, webcams et moniteurs) sont certifiés pour Microsoft Teams.
-ms.openlocfilehash: 3512ea4dd830a3fcd8469c86061c2b1d641b96a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 747884e7d159753518ad3424c2d3d1b69728d088
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624666"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866376"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Périphériques audio et vidéo USB certifiés pour Microsoft Teams
 
@@ -52,9 +52,9 @@ Parcourez [les périphériques certifiés pour Microsoft Teams.](https://product
 ### <a name="new-teams-certification-benefits"></a>Nouveaux avantages Teams certification
 
 - Bouton Teams dédié et voyant lumineux.
-- Notification utilisateur des événements et alertes du client d Teams réunion (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
+- Notification utilisateur des événements et alertes du client Teams (par exemple, démarrage d’une réunion, messagerie vocale ou appel manqué).
 - Possibilité d’activer Teams client ou de répondre à une notification en cliquant sur le bouton (par exemple, pour participer à une réunion).
-- Certification conçue pour l’extensibilité (nouvelles fonctionnalités d’appareil/client à fournir via la mise à jour du microprogramme).
+- Certification conçue pour l’extensibilité (nouveaux appareils/fonctionnalités client à fournir via la mise à jour du microprogramme).
 
 ### <a name="core-certification-benefits"></a>Principaux avantages de certification
 
@@ -70,14 +70,15 @@ Parcourez [les périphériques certifiés pour Microsoft Teams.](https://product
 - Aucune mise en service requise
 - Tous les appareils supportent les mises à jour du microprogramme pour permettre l’amélioration des nouvelles fonctionnalités et des performances.
 
-Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez la procédure d’adhésion pour les exigences et les programmes disponibles. [](/skypeforbusiness/certification/how-to-join)
+Si vous êtes fabricant et que vous souhaitez participer au programme de certification, consultez [la](/skypeforbusiness/certification/how-to-join) procédure d’adhésion pour les exigences et les programmes disponibles.
 
 ## <a name="certified-devices"></a>Périphériques certifiés
 
-*Table Updated August 2021*
+*Table Updated September 2021*
 
 | Fabricant        | Modèle                                                     | Qualifié      | Programme certifié                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|AudioCodes           |RXVCam10                                                   |8/26/2021       |Certifié pour les Microsoft Teams                           |
 |Poly                 |Voyager 4320                                               |8/6/2021        |Certifié pour les Microsoft Teams                           |
 |Poly                 |Voyager 4310                                               |8/6/2021        |Certifié pour les Microsoft Teams                           |
 |COLONS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Certifié pour les Microsoft Teams                           |

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3406e14b64c0c15b2f76a84e42d22a2f726d9b3e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e4b67041b0fa78a43705f5421881ae751175fcdb
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730873"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866366"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Gérer les contrôles de technologie de reconnaissance vocale pour un haut-parleur intelligent
 
@@ -82,7 +82,7 @@ Voici les stratégies requises pour définir un haut-parleur intelligent et la r
 |Stratégie|Description|Valeurs et comportement|
 |-|-|-|
 |inscrireUserOverride|Permet de définir la capture de profil vocal, ou l’inscription, Teams paramètres de messagerie pour un client. |**Désactivé**<br><ul><li> Les utilisateurs qui n’ont jamais été inscrits ne peuvent pas afficher, inscrire ou ré-inscrire.<li>Le point d’entrée vers le flux d’inscription est masqué.<li>Si les utilisateurs sélectionnent un lien vers la page d’inscription, un message leur indique que cette fonctionnalité n’est pas activée pour leur organisation.  <li>Les utilisateurs inscrits peuvent afficher et supprimer leur profil vocal dans les Teams messagerie. Une fois qu’il a supprimé son profil vocal, il ne peut plus afficher, consulter ou terminer le flux d’inscription.</li></ul><br>**Activé**<br><ul><li> Les utilisateurs peuvent afficher, consulter et terminer le flux d’inscription.<li>Le point d’entrée s’affiche dans Teams de paramètres de l’onglet **Reconnaissance.**</li></ul>|
-|roomAttributeUserOverride|Contrôlez l’identification de l’utilisateur vocal dans les salles de réunion. Ce paramètre est requis pour les salles Teams comptes.| **Désactivé**<br><ul><li>Le salles Teams n’envoie pas de bande passante audio l’enregistrement de flux de la pièce. <li>Les utilisateurs de salle de réunion ne seront pas attribués ou distinctionés, et leurs signatures vocales ne seront pas récupérées ni utilisées.<li>Les utilisateurs de salle de réunion sont inconnus.</li></ul> <br>**Attribut**<br><ul><li>Les utilisateurs des salles seront attribuées en fonction de leur état d’inscription.<li>Le nom des utilisateurs inscrits s’affiche avec leur nom dans la transcription.  <li>Utilisateurs qui ne sont pas inscrits à la conférence en tant que Haut-parleur n.<li>Le salles Teams envoie sept flux audio depuis la salle.</ul> <br>**Distinguer**<br> *Ce paramètre sera disponible à une date ultérieure.*|
+|roomAttributeUserOverride|Contrôlez l’identification de l’utilisateur vocal dans les salles de réunion. Ce paramètre est requis pour les salles Teams comptes.| **Désactivé**<br><ul><li>Le salles Teams n’envoie pas de bande passante audio l’enregistrement de flux de la pièce. <li>Les utilisateurs de salle de réunion ne seront pas attribués ou distinctionés, et leurs signatures vocales ne seront pas récupérées ni utilisées.<li>Les utilisateurs de salle de réunion sont inconnus.</li></ul> <br>**Attribut**<br><ul><li>Les utilisateurs des salles seront attribuées en fonction de leur état d’inscription.<li>Le nom des utilisateurs inscrits s’affiche avec leur nom dans la transcription.  <li>Utilisateurs non inscrits à l’affiche en tant que \<n> haut-parleur.<li>Le salles Teams envoie sept flux audio depuis la salle.</ul> <br>**Distinguer**<br> <ul><li>Les utilisateurs des salles seront séparés par haut-parleur 1, haut-parleur 2, .... dans \<n> la transcription.</li><li>Quel que soit le statut d’inscription de l’utilisateur, son nom n’est pas s’afficher dans la transcription.</li><li>Le salles Teams envoie sept flux audio depuis la salle.</li></ul>
 |AllowTranscription|Requis pour les comptes d’Teams utilisateur et de salles.|**Vrai** et **Faux**|
 ||||
 
