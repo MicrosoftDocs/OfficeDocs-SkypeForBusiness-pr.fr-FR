@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730683"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864194"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Gérer l’accès des utilisateurs à Education Insights
 
@@ -64,7 +64,7 @@ Si vous utilisez le [format de fichier SDS V2.1](/schooldatasync/sds-v2.1-csv-fi
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Autorisations basées sur des rôles.":::
   
-  S’il existe un rôle sur plus d’un niveau de l’organisation, celui-ci s’affiche plusieurs fois, une fois par niveau. Dans la capture d’écran, nous avons des chefs d’établissement au niveau de l’établissement scolaire et du district. Il y a donc deux lignes pour « chef d’établissement ».
+  S’il existe un rôle sur plus d’un niveau de l’organisation, celui-ci s’affiche plusieurs fois, une fois par niveau. Dans la capture d'écran, nous avons des directeurs au niveau de l'école, du district et du département, il y a donc trois lignes pour « directeur ».
   
 * Pour chaque rôle, cliquez sur l’icône crayon pour sélectionner le niveau d'autorisation. Le rôle par défaut ne dispose pas de l’autorisation pour afficher des informations.
 * Sélectionnez le niveau d'autorisation : **Afficher les données pour leur organisation** ou **Aucun**.

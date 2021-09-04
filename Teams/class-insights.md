@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726663"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866406"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -171,6 +171,8 @@ Nous avons conçu Insights pour prendre en charge les élèves et les enseignant
 
 ### <a name="licensing"></a>Gestion des licences
 L’accès à Insights nécessite une licence Microsoft 365 A1, A3 ou A5 pour les enseignants.
+
+*Éducation Informations Premium* est une mise à niveau payante qui fournit aux responsables de l’éducation une vue au niveau de l’organisation des données éducation Informations ainsi qu’un accès étendu aux vues de données historiques pour les enseignants. Les établissements d’enseignement éligibles peuvent acheter une licence de module Informations *Premium Éducation par* le biais de Enrollment for Education Solutions (EES), de fournisseurs de services Cloud et de Centre d'administration Microsoft 365 (web direct).
 
 ## <a name="student-information-system-sis-integration"></a>Intégration du système d'informations sur les élèves (SIE)
 Plus Insights reçoit de données, plus les enseignants peuvent aider leurs élèves, et plus les responsables de l’éducation peuvent aider les enseignants.
