@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
-ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726633"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935850"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
 
@@ -156,7 +156,7 @@ Le connecteur prend en charge les patients qui rejoignent des visites virtuelles
 
 Principales fonctionnalités de l’expérience du patient :
 
-- Les patients peuvent rejoindre les visites virtuelles à partir de navigateurs web modernes sur ordinateurs de bureau et mobiles sans installation de l’application.
+- Les patients peuvent rejoindre des visites virtuelles à partir de navigateurs web modernes sur un ordinateur de bureau ou [un appareil mobile sans installation d’application.](../mobile-browser-join.md)
 
 - Les patients peuvent rejoindre les visites virtuelles d'un simple clic et aucun autre compte ou connexion n'est nécessaire.
 
@@ -177,6 +177,6 @@ L'intégration Teams dans les systèmes de DMI optimise la quantité de données
 
 Le connecteur DMI de Microsoft Teams ne stocke ni ne transfère les données personnelles identifiables ou les dossiers médicaux des patients ou fournisseurs de santé à partir du système de gestion des dossiers médicaux. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams). L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les discussions, enregistrements et autres données entrés dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Pour plus d’informations sur l’emplacement des données dans Microsoft Teams, consultez [Emplacements des données dans Teams](../../location-of-data-in-teams.md).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Teams visites virtuelles](ehr-admin-reports.md)
