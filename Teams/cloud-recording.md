@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f88345045a24fc664458e3c67eb71243a663287
+ms.sourcegitcommit: 8ea133b6ac867496930efb933e84531e5617fb37
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620700"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58924078"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -263,7 +263,7 @@ La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien compre
 > 
 > Nous fournissons des informations sur le fonctionnement de cette fonctionnalité dans l’avenir, afin que vous puissiez planifier cette modification et modifier les paramètres de stratégie Teams à l’avance. 
 >
-> La commande CMD permettant de modifier à titre préventif le paramètre MeetingExpirationDays dans Teams (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) n'est pas encore disponible.  Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié.
+> La commande CMD pour modifier de manière préventive le paramètre Jours d'expiration de la réunion dans Teams n'est pas encore disponible pour être définie.  Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié.
 >
 >
 
@@ -309,7 +309,7 @@ Oui, la date d’expiration est définie par fichier. Les utilisateurs peuvent m
 
 **Comment un administrateur peut-il modifier la date d’expiration ?**
   
-Les administrateurs pourront modifier le paramètre d’expiration par défaut dans PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) ou le Centre d’administration Teams avant la publication de la fonctionnalité. Le paramètre n’est pas encore disponible pour modification. Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
+Les administrateurs pourront modifier le paramètre d’expiration par défaut dans PowerShell ou le Centre Teams d’administration des utilisateurs avant la publication de la fonctionnalité. Le paramètre n’est pas encore disponible pour modification. Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
 
 Les valeurs de jours d’expiration peuvent être définies comme suit :
   
@@ -320,7 +320,7 @@ Les administrateurs ne peuvent pas modifier la date d’expiration des tmrs exis
   
 **Un administrateur peut-il définir les TMR pour qu’ils n’expirent jamais ?**
   
- Oui, les administrateurs peuvent configurer les TMR pour qu’ils n’expirent jamais via la cmdlet PowerShell suivante : (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
+ Oui, les administrateurs peuvent configurer les TMR pour qu’ils n’expirent jamais.
   
 **La lecture de l’enregistrement modifie-t-elle la date d’expiration ?**
 
@@ -332,17 +332,7 @@ La date d'expiration sera effacée lors du nouveau chargement, indépendamment d
   
 **Que se passe-t-il si je copie ou déplace le TMR vers un autre emplacement ou site ?**
 
-La date est conservée uniquement pour un fichier TMR déplacé. Un fichier copié n'aura pas de date d'expiration, tout comme un TMR rechargé.
-  
-  Exemple de commande PowerShell : 
-  
-  ```powershell
-  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
-  ```
-  
-**Quelle est l’étendue du contrôle de la stratégie d’administration ?**
-  
-Les réunions et les appels sont contrôlés par le même `CsTeamsMeetingPolicy`paramètre,`MeetingRecordingExpirationDays`. 
+La date est conservée uniquement pour un fichier TMR déplacé. Un fichier copié n'aura pas de date d'expiration, tout comme un TMR rechargé. 
   
 **Comment les utilisateurs finaux peuvent-ils modifier la date d’expiration sur un fichier TMR spécifique ?**
   
