@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617450"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973012"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -102,7 +102,7 @@ L’accès externe (appelé auparavant « fédération ») permet à vos utilisa
 
 ### <a name="guest-access"></a>Accès invité
 
-L’accès invité dans Teams permet à des personnes en dehors de votre organisation d’avoir accès aux équipes et canaux. Vous pouvez utiliser les paramètres d’accès invité pour contrôler les fonctionnalités que les invités peuvent ou ne peuvent pas utiliser. L’accès invité est désactivé par défaut. Pour plus d’informations, consultez [Accès invité dans Teams](./guest-access.md).
+L’accès invité dans Teams permet à des personnes en dehors de votre organisation d’avoir accès aux équipes et canaux. Vous pouvez utiliser les paramètres d’accès invité pour contrôler les fonctionnalités que les invités peuvent ou ne peuvent pas utiliser. L’accès invité est activé par défaut. Pour plus d’informations, voir [Accès invité dans Teams](./guest-access.md).
 
 > [!NOTE]
 > Pour plus d’informations sur l’accès externe et l’accès hôte, consultez ici [Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams](communicate-with-users-from-other-organizations.md)
@@ -226,7 +226,7 @@ Microsoft Teams repose largement sur Entreprise Online, SharePoint Online et Sky
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|<br>Est-ce que je devrai configurer l’accès conditionnel pour Teams ?|<ul><li>Pour comprendre comment fonctionnent les stratégies, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Pour configurer l’authentification multifacteur (MFA) Multi-Factor Authentication pour Teams, voir :<ul><li>[Démarrage rapide : exiger l’authentification multifacteur MFA pour des applications spécifiques avec l’accès conditionnel Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Paramètres d’accès conditionnel Azure Active Directory : guide de référence](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Est-ce que je devrai configurer l’accès conditionnel pour Teams ?|<ul><li>Pour comprendre comment fonctionnent les stratégies, voir [Comment fonctionnent les stratégies d’accès conditionnel pour Teams ?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)</li><li>Pour configurer l’authentification multifacteur (MFA) pour Teams, voir :<ul><li>[Démarrage rapide : exiger l’authentification multifacteur MFA pour des applications spécifiques avec l’accès conditionnel Azure Active Directory](/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Paramètres d’accès conditionnel Azure Active Directory : guide de référence](/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 
