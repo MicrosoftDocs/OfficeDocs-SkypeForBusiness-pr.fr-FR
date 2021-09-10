@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f88345045a24fc664458e3c67eb71243a663287
-ms.sourcegitcommit: 8ea133b6ac867496930efb933e84531e5617fb37
+ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58924078"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935880"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -263,7 +263,7 @@ La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien compre
 > 
 > Nous fournissons des informations sur le fonctionnement de cette fonctionnalité dans l’avenir, afin que vous puissiez planifier cette modification et modifier les paramètres de stratégie Teams à l’avance. 
 >
-> La commande CMD pour modifier de manière préventive le paramètre Jours d'expiration de la réunion dans Teams n'est pas encore disponible pour être définie.  Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié.
+> Le CMD permettant de modifier de manière préemptive le paramètre d’expiration par défaut dans Teams n’est pas encore disponible pour être défini.  Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié.
 >
 >
 
