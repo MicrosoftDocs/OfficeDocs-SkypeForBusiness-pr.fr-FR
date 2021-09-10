@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: e7696878ba84942c2dcc88a1df3d5fc29144f883
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 308eb31592b6b98d613ccfb4ed41f421d51bd9e2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728733"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973002"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -74,11 +74,11 @@ Pour [plus d’Teams, voir Gérer Teams comptes](manage-resource-accounts.md) de
 
 ![Capture d’écran des paramètres d’ID d’appel.](media/call-queue-assign-calling-id.png)
 
-Si vous envisagez d’utiliser un canal Teams pour vos télétribueurs, vous pouvez leur attribuer un numéro d’ID d’appelant sortant en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone.
+Si vous envisagez d’utiliser un canal Teams pour vos téléphonés, vous pouvez leur attribuer un numéro d’ID d’appelant sortant en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone.
 
 Cliquez **sur** Ajouter, recherchez les comptes de ressources que vous voulez autoriser les agents à appeler à des fins d’ID lors des appels sortants, cliquez sur **Ajouter,** puis sur **Ajouter.**
 
-Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance de l’agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
+Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance à un agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
 
 ## <a name="language"></a>Langue
 
@@ -137,7 +137,7 @@ Pour ajouter un groupe à la file d’attente, cliquez sur **Ajouter des groupes
 Le **mode conférence** réduit considérablement le temps nécessaire à la mise en relation d’un appelant avec un agent, une fois que l’agent a accepté l’appel. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
 
   - la dernière version du client Microsoft Teams pour ordinateur de bureau, de l’application Android ou de l’application iOS
-  - la version 1449/1.0.94.2020051601 ou une version ultérieure du téléphone Microsoft Teams
+  - Microsoft Teams Téléphone version 1449/1.0.94.2020051601 ou ultérieure
   
 Les comptes Teams des agents doivent être définis sur le mode Teams uniquement. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels. Nous vous recommandons d’activer le mode conférence pour vos files d’attente des appels si tous vos agents utilisent des clients compatibles.
 
@@ -160,6 +160,9 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 > [!TIP]
 > Il est recommandé de définir la **méthode de routage** sur **Rond-rond** ou **Inactif** le plus long.
 
+> [!NOTE]
+> Si [l’enregistrement de](teams-recording-policy.md) conformité est activé sur les agents, la combinaison du **mode** conférence et du **routage d’Attendant** n’est pas prise en charge. Si vous avez besoin d’utiliser le **mode** Conférence, sélectionnez **Routage** en **série,** Relecteur arrondi ou Inactif le plus **long** comme méthode **de routage.** Si vous devez utiliser le **routage d’Attendant,** définissez **le mode** Conférence sur **Off**.
+
 ![Capture d’écran des paramètres de routage, de désinspondage et d’heure d’alerte.](media/call-queue-presence-agents-time.png)
 
 Le **routage basé sur la présence** utilise le statut de disponibilité des agents d’appel pour déterminer si un agent doit être inclus dans la liste de routage des appels pour la méthode de routage sélectionnée. Les agents d’appel dont le statut de disponibilité est défini sur **Disponible** sont inclus dans la liste de routage des appels et peuvent recevoir des appels. Les agents dont le statut de disponibilité est défini sur un autre statut sont exclus de la liste de routage des appels et ne recevront pas d’appels tant que leur statut de disponibilité ne sera pas défini sur **Disponible**. 
@@ -176,7 +179,7 @@ Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste d
 > Les agents qui utilisent le client Skype Entreprise ne sont pas inclus dans la liste de routage des appels lorsque le routage basé sur la présence est activé. Si certains de vos agents utilisent Skype Entreprise, n’activez pas le routage des appels basé sur la présence.
 
 > [!TIP]
-> Il est recommandé de définir le **routage en fonction** de **la** présence vers Le.
+> Il est recommandé de définir le **routage en fonction** **de** la présence vers Le.
 
 La **durée de l’alerte pour un agent** spécifie la durée pendant laquelle le téléphone d’un agent sonnera avant que la file d’attente ne redirige l’appel vers l’agent suivant.
 
@@ -247,7 +250,7 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)
+[Voici ce que vous obtenez avec Microsoft Teams Téléphone](here-s-what-you-get-with-phone-system.md)
 
 [Obtenir des numéros de téléphone de service](getting-service-phone-numbers.md)
 

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams et les utiliser pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627336"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973042"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Gérer les stratégies de réunion dans Microsoft Teams
 
@@ -100,12 +100,12 @@ Lorsque vous sélectionnez une stratégie existante dans la page **Stratégies d
 
 - [Général](meeting-policies-in-teams-general.md)
 - [Vidéo et audio](meeting-policies-audio-and-video.md)
+- [Enregistrement & transcription](meetings-policies-recording-and-transcription.md)
 - [Partage de contenu](meeting-policies-content-sharing.md)
 - [Participants et invités](meeting-policies-participants-and-guests.md)
-
 
 ## <a name="related-topics"></a>Sujets associés
 
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+- [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)
 - [Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs](meeting-policies-restricted-anonymous-access.md)

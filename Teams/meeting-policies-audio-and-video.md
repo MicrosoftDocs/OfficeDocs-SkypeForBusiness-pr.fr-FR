@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726563"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973032"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -33,40 +33,12 @@ ms.locfileid: "58726563"
 
 Cet article décrit les paramètres de stratégie de réunion spécifiques à l’audio et à la vidéo. Il s’agit des éléments suivants :
 
-- [Autoriser la transcription](#allow-transcription)
-- [Autoriser l’enregistrement dans le cloud](#allow-cloud-recording)
 - [Mode pour l’audio sur IP](#mode-for-ip-audio)
 - [Mode pour la vidéo sur IP](#mode-for-ip-video)
 - [Autoriser la vidéo sur IP](#allow-ip-video)
 - [Vitesse de transmission du média (Ko)](#media-bit-rate-kbs)
 - [Mode filtres vidéo](#video-filters-mode)
 - [Autoriser les paramètres d’arrière-plan personnalisés](#allow-custom-background-settings)
-
-### <a name="allow-transcription"></a>Autoriser la transcription
-
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette option, les options **Recherche** et **CC** ne sont pas disponibles pendant la lecture d’un enregistrement de réunion. La personne qui a démarré l’enregistrement a besoin de ce paramètre activé de sorte que l’enregistrement inclut également la transcription.
-
-Notez que la transcription pour les réunions enregistrées est prise en charge pour l’instant uniquement pour les utilisateurs qui ont la langue dans Teams réglée sur anglais et lorsque l’anglais est parlé pendant la réunion.
-
-### <a name="allow-cloud-recording"></a>Autoriser l’enregistrement dans le Cloud
-
-Il s’agit d’une combinaison d’une stratégie par organisateur et par utilisateur. Ce paramètre détermine si les réunions de cet utilisateur peuvent être enregistrées. L’enregistrement peut être démarré par l’organisateur de la réunion ou par un autre participant à la réunion si le paramètre de stratégie est activé pour le participant et s’il s’agit d’un utilisateur authentifié de la même organisation.
-
-Les personnes extérieures à votre organisation, telles que les utilisateurs fédérés et anonymes, ne peuvent pas démarrer l’enregistrement. Les utilisateurs invités ne peuvent ni démarrer ni arrêter l’enregistrement.
-
-![Capture d’écran montrant les options d’enregistrement.](media/meeting-policies-recording.png)
-
-Examinons l’exemple suivant.
-
-|Utilisateur |Stratégie de réunion  |Autoriser l’enregistrement dans le Cloud |
-|---------|---------|---------|
-|Daniela | Global   | Désactivé |
-|Geneviève | Location1MeetingPolicy | Activé|
-|John (utilisateur externe) | Non applicable | Non applicable|
-
-Les réunions organisées par Daniela ne peuvent pas être enregistrées et Amanda, dont le paramètre de stratégie est activé, ne peut pas enregistrer les réunions organisées par Daniela. Les réunions organisées par Amanda peuvent être enregistrées, toutefois, Daniela, qui a désactivé le paramètre de stratégie et John qui est un utilisateur externe, ne peuvent pas enregistrer les réunions organisées par Amanda.
-
-Pour en savoir plus sur l’enregistrement de réunions cloud, consultez [Enregistrement de réunion cloud Teams](cloud-recording.md).
 
 ### <a name="mode-for-ip-audio"></a>Mode pour l’audio sur IP
 
@@ -116,7 +88,7 @@ Les réunions organisées par un utilisateur pour lequel ce paramètre de strat�
 
 | Ordinateur de bureau et client web Teams |Client mobile Teams  |
 |:-------:|:-------:|
-|![Capture d’écran montrant la réunion avec les paramètres audio/vidéo sur le Bureau.](media/meeting-policies-audio-video-settings.png)    |![Capture d’écran montrant une jointure de réunion avec les paramètres audio/vidéo sur appareil mobile](media/meeting-policies-mobile-join.png)          |
+|![Capture d’écran montrant la participation à une réunion avec les paramètres audio /vidéo sur le bureau.](media/meeting-policies-audio-video-settings.png)    |![Capture d’écran montrant une jointure de réunion avec les paramètres audio/vidéo sur appareil mobile](media/meeting-policies-mobile-join.png)          |
 
 Examinons l’exemple suivant.
 
@@ -212,7 +184,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
    - Taille minimale 360 px
    - Taille maximale 2 048 px
    - Type de fichier PNG, JPG ou BMP
-   - Vous pouvez charger jusqu’à 50 images
+   - Vous pouvez charger au maximum 50 images
 
 7. Affichez un aperçu des images que vous avez sélectionnées, puis sélectionnez **Fermer.**
 
@@ -228,4 +200,4 @@ Les participants à la réunion voient une sélection d’images d’arrière-pl
 ## <a name="related-topics"></a>Sujets associés
 
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+- [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)

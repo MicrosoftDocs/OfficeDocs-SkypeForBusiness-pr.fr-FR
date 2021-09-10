@@ -26,12 +26,12 @@ description: Découvrez les fonctionnalités de soins de santé telles que la t�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0fa0976c4e69f205feda03a4047a6bbcb26b1183
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730673"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972902"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Prise en main de Teams pour les organismes de santé
 
@@ -70,7 +70,7 @@ Les scénarios suivants sont disponibles pour les organismes de santé :
 Utilisez la plateforme complète de réunions de Microsoft Teams pour programmer, gérer et effectuer des visites virtuelles avec les patients.
 
 - Si votre organisation utilise déjà les dossiers médicaux informatisés, ou DMI, vous pouvez intégrer Microsoft Teams pour une expérience plus transparente. Le connecteur de dossier médical informatisé (DMI) de Microsoft Teams permet aux cliniciens de lancer facilement une visite virtuelle d'un patient ou de consulter un autre fournisseur dans Teams, directement à partir du système DMI. Pour en savoir plus, consultez [Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)](ehr-admin.md).
-- Si vous n'utilisez pas un DMI pris en charge, vous pouvez utiliser Microsoft Bookings et l'application Bookings dans Teams. Si vous souhaitez en savoir plus, consultez [App Books et visites virtuelles dans Microsoft Teams](../../bookings-app-admin.md).
+- Si vous n'utilisez pas un DMI pris en charge, vous pouvez utiliser Microsoft Bookings et l'application Bookings dans Teams. Pour en savoir plus, consultez les visites virtuelles [avec Teams et l’application Bookings.](../bookings-virtual-visits.md)
 
 ![Visites virtuelles avec Microsoft Teams.](../../media/virtual-visits-teams.png)
 
