@@ -589,6 +589,8 @@ items:
                 href: meeting-policies-in-teams-general.md
               - name: Stratégies audio et vidéo
                 href: meeting-policies-audio-and-video.md
+              - name: Politiques d’enregistrement et transcription
+                href: meetings-policies-recording-and-transcription.md
               - name: Stratégies de partage de contenu et d'écran
                 items:
                   - name: Partage de contenu
@@ -763,6 +765,8 @@ items:
                 href: rooms/obtaining-assigning-license.md
               - name: S'inscrire au service géré par MTRP
                 href: rooms/enrolling-mtrp-managed-service.md
+              - name: Configurer des comptes pour les Salles Microsoft Teams
+                href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: Planification
             items:
               - name: Présentation de la planification des Salles Microsoft Teams
@@ -1347,6 +1351,8 @@ items:
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: Applications de Microsoft
         items:
+          - name: Gérer l’application Shifts
+            href: bookings-app-admin.md
           - name: Gérer l’application Listes
             href: manage-lists-app.md
           - name: Gérer l’application Tâches
@@ -1355,7 +1361,7 @@ items:
             href: manage-praise-app.md
           - name: Gérer l’application Approbations de Teams
             href: approval-admin.md
-          - name: Gérer l’application Shifts pour votre organisation dans Teams
+          - name: Gérer l’application Shifts
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
       - name: Applications tierces
         items:
@@ -1416,8 +1422,14 @@ items:
           - name: Shifts pour Teams
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
-              - name: Gérer l’application Shifts pour votre organisation dans Teams
+              - name: Gérer l’application Shifts
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: Bookings dans Teams
+            items:
+              - name: Visites virtuelles avec Bookings et Teams
+                href: expand-teams-across-your-org/bookings-virtual-visits.md
+              - name: Gérer l’application Shifts
+                href: bookings-app-admin.md
       - name: Teams pour la santé publique
         items:
           - name: Prise en main de Teams pour les organismes de santé
@@ -1429,7 +1441,7 @@ items:
               - name: Rapports d’administration de dossier médical informatisé
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: Visites virtuelles avec Bookings et Teams
-                href: bookings-app-admin.md
+                href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Gérer l’expérience de jointure sur les navigateurs mobiles
                 href: expand-teams-across-your-org/mobile-browser-join.md
           - name: Afficher et attribuer des packages de stratégie
@@ -1588,6 +1600,8 @@ items:
             href: sharepoint-onedrive-interact.md
       - name: Appareils Teams pour l’éducation
         href: devices-for-education.md
+      - name: Guide des salles de réunion pour les équipes
+        href: teams-meeting-room-guidance.md
       - name: Appareils pris en charge
         items:
           - name: Gérer vos périphériques dans Teams
