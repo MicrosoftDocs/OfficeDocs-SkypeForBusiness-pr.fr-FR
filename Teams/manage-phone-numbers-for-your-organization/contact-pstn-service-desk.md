@@ -52,7 +52,7 @@ Pour contacter l’assistance :
 
 - **Centre de services de numéro de téléphone** – accédez à la page d’accueil du portail. 
 
-- **[Créer un cas](#create-a-new-case)** – soumettre une nouvelle demande ou une demande générale. 
+- **[Créer un cas](#create-a-new-case)** – soumettre une nouvelle demande ou une demande d'information générale. 
 
 - **[Afficher mes cas existants](#view-and-manage-existing-cases)**– Suivre et surveiller vos cas existants. 
 
@@ -69,7 +69,7 @@ Pour créer un nouveau cas, procédez comme suit :
 
 1. Sélectionnez **Créer un cas** à partir de l’un des emplacements suivants :  
 
-   - À partir de la page **Centre de services de numéro de téléphone** , en haut de la page ou en bas de la vignette.
+   - À partir de la page **Centre de services de numéro de téléphone**, en haut de la page ou en bas de la vignette.
 
    - À partir de la page **Afficher mes cas existants**  .
 
@@ -97,7 +97,7 @@ Un cas peut avoir l’une des deux catégories suivantes :
 
 - **Soumettre une nouvelle demande**- Choisissez cette option si vous souhaitez envoyer une nouvelle demande. Par exemple, vous souhaitez envoyer une demande de port ou acheter des numéros de téléphone auprès de Microsoft.  
 
-- **Investigation générale** - Choisissez cette option si vous avez des questions qui vous aideront à déterminer votre demande. Par exemple, vous devez savoir si vous pouvez porter vos numéros sans fil vers Microsoft ou si Microsoft prend en charge les numéros gratuits personnalisés. 
+- **Demande d'information générale** - Choisissez cette option si vous avez des questions qui vous aideront à déterminer votre demande. Par exemple, vous devez savoir si vous pouvez porter vos numéros sans fil vers Microsoft ou si Microsoft prend en charge les numéros gratuits personnalisés. 
 
 #### <a name="country-or-region"></a>Pays ou région
 
@@ -111,7 +111,7 @@ Le type de cas peut être l’un des suivants :
 
   - **Nom d’appel personnalisé à définir (15 caractères uniquement)** : nom d’appel personnalisé que vous souhaitez définir. Le nom a une limite maximale de 15 caractères.  
 
-  - **Liste des numéros de téléphone** : liste des numéros de téléphone pour lesquels vous souhaitez définir une valeur de nom d’appel personnalisée. Chargez un fichier csv avec la liste des numéros de téléphone.  
+  - **Liste des numéros de téléphone** : liste des numéros de téléphone pour lesquels vous souhaitez définir une valeur de nom d’appel personnalisée. Joignez un fichier csv avec la liste des numéros de téléphone.  
 
 - **Port inter-client**– déplacer des numéros de téléphone d’un client à un autre. Par exemple, vous avez deux clients différents au sein de Microsoft et vous souhaitez déplacer vos numéros de téléphone d’un client vers l’autre.  
 
@@ -125,23 +125,23 @@ Le type de cas peut être l’un des suivants :
 
   - **Date et heure demandées*** : date et heure auxquelles vous souhaitez déplacer vos numéros du client source vers le client de destination. Consultez Date et heure.
 
-  - **Liste des numéros de téléphone** : liste des numéros de téléphone que vous souhaitez déplacer du client source vers le client de destination. Chargez un fichier csv avec la liste des numéros de téléphone. 
+  - **Liste des numéros de téléphone** : liste des numéros de téléphone que vous souhaitez déplacer du client source vers le client de destination. Joignez un fichier csv avec la liste des numéros de téléphone. 
 
-- **Modification du type d’inventaire**– Modifier le type de numéro de téléphone. Par exemple, vous souhaitez remplacer vos numéros d’abonné Microsoft par des numéros de service. Pour plus d’informations sur les types de numéros de téléphone pris en charge par Microsoft, consultez [Types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+- **Modification du type d’inventaire**– Modifier le type de numéro de téléphone. Par exemple, vous souhaitez remplacer vos numéros d'utilisateur Microsoft par des numéros de service. Pour plus d’informations sur les types de numéros de téléphone pris en charge par Microsoft, consultez [Types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
   - **Convertir en** - Sélectionnez cette option pour convertir vos numéros en numéros d’utilisateur ou en numéros de service. 
 
-  - **Datetime préférée*** : date et heure auxquelles vous souhaitez modifier le type d’inventaire de vos numéros. Pour plus d’informations, consultez Date et heure.
+  - **Date/heure souhaitée*** : date et heure auxquelles vous souhaitez modifier le type d’inventaire de vos numéros. Pour plus d’informations, consultez Date et heure.
 
   - **case à cocher :je comprends que pour pouvoir mettre à jour le type d’inventaire, mes numéros de téléphone doivent être non attribués** - Microsoft ne peut pas traiter les demandes de modification de type de numéro de téléphone, sauf si les numéros de téléphone au sein de votre client ne sont pas attribués. Si vous demandez cette modification pour une date ultérieure, vous devez vous assurer que les numéros ne sont pas attribués avant la date et l’heure que vous avez demandées. 
 
-  - **Liste des numéros de téléphone** : liste des numéros de téléphone dont vous souhaitez modifier le type. Chargez un fichier csv avec la liste des numéros de téléphone. 
+  - **Liste des numéros de téléphone** : liste des numéros de téléphone dont vous souhaitez modifier le type. Joignez un fichier csv avec la liste des numéros de téléphone. 
 
 - **Nouvelle acquisition TN**– Achetez de nouveaux numéros de téléphone auprès de Microsoft.  
 
-  - **Type de nombre** - Sélectionnez le type de vos nombres. Consultez [Types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+  - **Type de numéros** - Sélectionnez le type de vos nombres. Consultez [Types de numéros de téléphone](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
-  - **Essai d’obtention des numéros de téléphone à partir du portail du centre d’administration Teams** - Avez-vous essayé d’acheter ces numéros de téléphone à partir du portail du Centre d’administration Microsoft Teams, où vous pouvez effectuer un libre-service ?  
+  - **Essai d’obtention des numéros de téléphone à partir du portail du centre d’administration Teams** - Avez-vous essayé d’acheter ces numéros de téléphone à partir du portail du Centre d’administration Microsoft Teams, où vous pouvez commander en libre-service ?  
 
   - **Quantité de numéros de téléphone requis** : nombre de numéros de téléphone que vous souhaitez acheter.  
 
@@ -149,17 +149,17 @@ Le type de cas peut être l’un des suivants :
 
   - **City** : ville au sein de l’état/province pour lequel vous souhaitez obtenir des numéros de téléphone.  
 
-  - **Adresse d’Office** : cela est spécifique à certains pays uniquement. Il s’agit de l’adresse de site de votre bureau.  
+  - **Adresse de votre bureau** : cela est spécifique à certains pays uniquement. Il s’agit de l’adresse de votre bureau.  
 
-  - **Référencement de répertoire** : ceci est spécifique à certains pays uniquement. Voulez-vous publier les informations de votre entreprise avec les numéros de téléphone ?  
+  - **Référencement au répertoire** : ceci est spécifique à certains pays uniquement. Voulez-vous publier les informations de votre entreprise avec les numéros de téléphone ?  
 
-- **Porter dans** Porter – les numéros de téléphone existants de votre fournisseur de services actuel vers Microsoft.  
+- **Porter vers** – Porter les numéros de téléphone existants de votre fournisseur de services actuel vers Microsoft.  
 
-  - **Nommez votre de commande de port** : fournissez un nom facile à mémoriser pour votre demande de port. 
+  - **Nommez votre demande de port** : fournissez un nom facile à mémoriser pour votre demande de port. 
 
-  -  **Date/heure de portage demandée*** : date et heure auxquelles vous souhaitez que les numéros sont transférés vers Microsoft. Notez qu’il ne s’agit pas d’une date de portage garantie, car le propriétaire du numéro actuel doit d’abord approuver notre demande de port. Consultez Date et heure. 
+  -  **Date/heure de portage demandée*** : date et heure auxquelles vous souhaitez que les numéros soient transférés vers Microsoft. Notez qu’il ne s’agit pas d’une date de portage garantie, car le propriétaire du numéro actuel doit d’abord approuver notre demande de port. Consultez Date et heure. 
 
-  - **Liste des numéros de portage** : liste des numéros de téléphone que vous souhaitez porter vers Microsoft. Chargez un fichier csv avec la liste des numéros de téléphone. 
+  - **Liste des numéros à porter** : liste des numéros de téléphone que vous souhaitez porter vers Microsoft. Joignez un fichier csv avec la liste des numéros de téléphone. 
 
   - **Courrier d'autorisation (LOA)** : joignez un courrier d'autorisation signé et rempli ici. Microsoft ne peut pas traiter une demande de port sans courrier d’autorisation.  
 
@@ -167,9 +167,9 @@ Le type de cas peut être l’un des suivants :
 
   - **Id d’emplacement** : ID d’emplacement de votre adresse d’urgence. 
 
-  - **Liste des numéros de téléphone** : liste des numéros de téléphone pour lesquels vous souhaitez modifier l’adresse d’urgence (entrez l’adresse souhaitée dans le champ Description). Chargez un fichier csv avec la liste des numéros de téléphone. 
+  - **Liste des numéros de téléphone** : liste des numéros de téléphone pour lesquels vous souhaitez modifier l’adresse d’urgence (entrez l’adresse souhaitée dans le champ Description). Joignez un fichier csv avec la liste des numéros de téléphone. 
 
-***Date et heure.** Si vous sélectionnez Pays = France, date = 14/08/2021 et heure = 10h00, la demande sera exécutée le 14/08/2021 à 10h00. Français heure. 
+***Date et heure.** Si vous sélectionnez Pays = France, date = 14/08/2021 et heure = 10h00, la demande sera exécutée le 14/08/2021 à 10h00. Heure française. 
 
 #### <a name="case-title"></a>Titre de l’incident
 
@@ -177,7 +177,7 @@ Entrez un titre qui résume votre demande.
 
 #### <a name="additional-contacts-for-notifications"></a>Contacts supplémentaires pour les notifications
 
-Entrez la liste des personnes qui recevront des notifications d’état automatisées de Microsoft. Par exemple, vous souhaitez placer un port dans l’ordre et vous souhaitez que deux autres collègues, en plus de vous-même, reçoivent des notifications d’état automatisées. Indiquez les adresses e-mail de vos collègues dans la section **Notification par e-mail**. Ces informations sont facultatives. 
+Entrez la liste des personnes qui recevront des notifications de status automatisées de Microsoft. Par exemple, vous souhaitez soumettre une demande de portage et vous souhaitez que deux autres collègues, en plus de vous-même, reçoivent des notifications de status automatisées. Indiquez les adresses e-mail de vos collègues dans la section **Notification par e-mail**. Ces informations sont facultatives. 
 
 #### <a name="description"></a>Description
 
@@ -204,7 +204,7 @@ Vous pouvez afficher vos cas en sélectionnant **Afficher mes cas existants** et
 
 ## <a name="related-topics-and-additional-resources"></a>Rubriques connexes et ressources supplémentaires
 
-- Pour obtenir de l’aide sur la configuration et la configuration des numéros, les licences, les frais ou la facturation, consultez [Contact de support pour les produits professionnels - Aide de l’administrateur](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
+- Pour obtenir de l’aide sur la mise en place et la configuration des numéros, les licences, les frais ou la facturation, consultez [Contact de support pour les produits professionnels - Aide de l’administrateur](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide).
 
 - Pour plus d’informations sur les forfaits d’appels disponibles dans votre pays/région, consultez la[Disponibilité des pays et de la région pour l’audioconférence et les forfaits d’appels](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
