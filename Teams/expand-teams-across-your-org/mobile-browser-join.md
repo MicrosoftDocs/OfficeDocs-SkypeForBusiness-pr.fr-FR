@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Découvrez l’expérience de jointisation pour les Teams virtuelles sur les navigateurs mobiles.
-ms.openlocfilehash: 4017947d53078b33ce2a4195a6ace9af92adc85c
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58936144"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432686"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gérer l’expérience de jointisation pour Teams visites virtuelles sur les navigateurs mobiles
 
@@ -82,7 +82,7 @@ Voici les navigateurs mobiles actuellement pris en charge. Sauf indication contr
 
 ## <a name="related-articles"></a>Articles connexes
 
-- [Visites virtuelles avec Teams et l’application Bookings](../bookings-app-admin.md)
+- [Visites virtuelles avec Teams et l’application Bookings](bookings-virtual-visits.md)
 - [Créer un type de rendez-vous Bookings](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Rejoindre un rendez-vous Bookings en tant que participant](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)](healthcare/ehr-admin.md)

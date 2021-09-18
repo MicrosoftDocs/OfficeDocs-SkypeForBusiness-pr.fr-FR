@@ -12,16 +12,16 @@ appliesto:
 localization_priority: Normal
 description: En savoir plus sur la configuration de ServiceNow dans le portail salles Teams Premium’entreprise
 f1keywords: ''
-ms.openlocfilehash: a7e1313321c5e556be814d7aa0bd0b80ae9bcb35
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: a8f1e43ca52ee9fa155115fb911f88221cb6fdd0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973192"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432706"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Configurer ServiceNow pour salles Teams
 
-Cet article décrit les conditions préalables et les étapes nécessaires à la configuration de votre environnement ServiceNow dans le salles Teams Premium web.
+Cet article décrit les conditions préalables et les étapes de configuration de votre environnement ServiceNow dans le salles Teams Premium web.
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
@@ -36,20 +36,20 @@ Cet article décrit les conditions préalables et les étapes nécessaires à la
 - Rôle d’un incident_manager supérieur ou supérieur
 - Version logicielle de ServiceNow qui prend en charge l’API Table
 
-## <a name="set-up-servicenow-configuration-to-teams-rooms"></a>Configurer la configuration de ServiceNow pour salles Teams
+## <a name="configure-your-environment"></a>Configurer votre environnement
 
 La configuration de votre environnement est hautement personnalisable et dépend des besoins de votre organisation. Les étapes suivantes duivent comment copier votre configuration existante dans ServiceNow vers le salles Teams Premium web.
 
-1. Ouvrez l’instance ServiceNow que vous voulez copier. Vous devrez vous y référencé lorsque vous remplirez le formulaire de configuration dans le salles Teams Premium’équipe.
+1. Ouvrez l’instance ServiceNow que vous voulez copier. Vous devrez vous y référencer lorsque vous remplirez le formulaire de configuration dans le portail salles Teams Premium’équipe.
 2. Dans un nouvel onglet de navigateur, allez sur le [portail salles Teams Premium’équipe,](https://portal.rooms.microsoft.com/) puis sur **Paramètres.** Ensuite, sélectionnez **ServiceNow** dans le menu de navigation gauche pour ouvrir le formulaire de configuration.
 3. Sélectionnez une méthode d’authentification pour vous connectez et entrez votre hôte d’instance ServiceNow et votre URI d’API.
 4. Tous les éléments requis dans la colonne Champ ServiceNow de la section Mappage des champs doivent être pré-remplis. Le tableau ci-dessous contient chaque champ ServiceNow et Salles Microsoft Teams champ correspondant. Terminez l’action pour chaque ligne de la section Mappage des champs. Pour les définitions de chaque champ ServiceNow, voir [Définitions de champ ServiceNow.](#servicenow-field-definitions)
 
-| **Champ ServiceNow** | **Salles Microsoft Teams champ** | **Action** |
+| Champ ServiceNow | Salles Microsoft Teams champ | Action |
 | --- | --- | --- |
 | short_description | Description de l’incident | Aucune action n’est requise. La salles Teams de champ est remplie automatiquement. |
 | description | Premier message | Aucune action n’est requise. La salles Teams de champ est remplie automatiquement. |
-| assignment_group | Groupe de salles | Copiez la assignment_group dans votre instance ServiceNow et collez-la dans le champ de valeur ServiceNow du formulaire de configuration. Si vous avez plusieurs assignment_group, **sélectionnez Ajouter un** groupe de salles pour chaque valeur personnalisée supplémentaire. |
+| assignment_group | Groupe de salles | Copiez la assignment_group dans votre instance ServiceNow et collez-la dans le champ de valeur ServiceNow dans le formulaire de configuration. Si vous avez plusieurs assignment_group, **sélectionnez Ajouter un** groupe de salles pour chaque valeur personnalisée supplémentaire. |
 | gravité | Anneaux | La gravité est une valeur personnalisée dans ServiceNow. Il s’agit du quatrième élément dans la deuxième colonne de votre instance ServiceNow. Copiez la valeur et collez-la dans le champ de valeur ServiceNow dans le formulaire de configuration. Si vous avez plusieurs valeurs de gravité, sélectionnez **Ajouter un anneau** pour chaque valeur personnalisée supplémentaire. |
 | Commentaires (facultatif) | Valeur personnalisée* | Pour ajouter un champ Commentaires au formulaire de configuration, **sélectionnez Ajouter** en haut de la section de mappage de champ. Copiez la valeur de commentaire dans votre instance ServiceNow et collez-la dans le champ ServiceNow du formulaire de configuration. Attribuez-lui un Microsoft Teams Salle dans le menu déroulant, puis copiez-collez la valeur ServiceNow. |
 | état (résolu) | Valeur personnalisée* | Copiez l’état de résolution de votre instance ServiceNow et collez-la dans le champ de valeur ServiceNow dans le formulaire de configuration. |
@@ -62,11 +62,11 @@ La configuration de votre environnement est hautement personnalisable et dépend
 
 Pour ajouter d’autres champs obligatoires à la section Résoudre l’incident, sélectionnez **Ajouter.**
 
-## <a name="test-and-enable-your-servicenow-configuration"></a>Testez et activez votre configuration ServiceNow
+## <a name="test-and-enable"></a>Tester et activer
 
 Après avoir complété le formulaire de configuration, **sélectionnez Test** au bas de la page. Un test est nécessaire pour soumettre votre configuration.
 
-Une fois votre test réussi, sélectionnez **Soumettre** pour enregistrer vos modifications. Lorsque vous êtes prêt à activer ServiceNow pour votre organisation, basculez le bouton bascule **Do you want to enable ServiceNow?** (Activer). 
+Une fois votre test réussi, sélectionnez **Soumettre** pour enregistrer vos modifications. Lorsque vous êtes prêt à activer ServiceNow pour votre organisation, basculez le bouton bascule Do **you want to enable ServiceNow?** **(Activer).**
 
 ## <a name="servicenow-field-definitions"></a>Définitions de champs ServiceNow
 
@@ -78,8 +78,8 @@ Une fois votre test réussi, sélectionnez **Soumettre** pour enregistrer vos mo
 
 - **gravité :** Le champ gravité dans ServiceNow est utilisé pour organiser les incidents par priorité. Les valeurs qui désignent la priorité peuvent être personnalisées. La gravité est équivalente au champ Anneau dans le portail salles Teams Premium’équipe. Pour personnaliser les anneaux dans le salles Teams Premium de navigation, voir Mises **à** jour dans le menu de navigation gauche. Ensuite, dans **l’onglet Anneaux,** **sélectionnez Ajouter un anneau.**
 
-- Commentaires est un champ facultatif dans ServiceNow utilisé pour inclure des champs **obligatoires personnalisés** de votre instance ServiceNow dans votre configuration salles Teams Premium portail. L’équivalent des commentaires est une valeur personnalisée dans le portail salles Teams Premium’équipe.
+- commentaires : Commentaires est un champ facultatif dans ServiceNow qui est utilisé pour inclure des champs **obligatoires personnalisés** à partir de votre instance ServiceNow dans votre configuration salles Teams Premium portail. L’équivalent des commentaires est une valeur personnalisée dans le portail salles Teams Premium’équipe.
 
-- **état (résolu)**: le champ État (résolu) dans ServiceNow est utilisé pour indiquer la façon dont un incident a été résolu et est requis pour fermer un incident. La valeur état (résolu) est personnalisable. L’équivalent de l’état (résolu) est une valeur personnalisée dans le portail salles Teams Premium’état.
+- **état (résolu)**: le champ État (résolu) dans ServiceNow est utilisé pour désigner la façon dont un incident a été résolu et est requis pour fermer un incident. La valeur état (résolu) est personnalisable. L’équivalent de l’état (résolu) est une valeur personnalisée dans le salles Teams Premium’état.
 
 - **close_code**: un code de fermeture doit être affecté à un incident une fois qu’il a été complètement résolu. Cette valeur est personnalisable dans ServiceNow. L’équivalent du code de fermeture est une valeur personnalisée dans le salles Teams Premium’entreprise.

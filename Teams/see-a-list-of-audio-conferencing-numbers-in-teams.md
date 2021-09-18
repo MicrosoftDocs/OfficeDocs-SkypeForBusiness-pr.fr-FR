@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment rechercher les numéros de conférences dial-in disponibles pour l’audioconférence à partir d’Microsoft Teams.
-ms.openlocfilehash: ccf10c9ce1a7869f271b781a9f772bffb00934d7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65db16f0472c9d743d956baf18f7f1d20028837
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734013"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432256"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Afficher la liste des numéros d'audioconférence dans Microsoft Teams
 
 Lorsque vous définissez l’audioconférence Microsoft Teams utilisateurs, vous pouvez afficher les numéros de téléphone qui leur sont accessibles pour l’audioconférence. Cette liste inséra tous les numéros de téléphone d’audioconférence disponibles pour votre organisation.
   
- **Vous recherchez les prix ?** Consultez [les tarifs de l’audioconférence.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+ **Vous recherchez les prix ?** Examinez la section **des tarifs d’audioconférence** [de l’audioconférence.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
 S'il n'existe qu'un numéro de téléphone disponible pour votre organisation, il est utilisé comme numéro par défaut pour tous vos utilisateurs. Lorsque plusieurs numéros de téléphone sont disponibles, vous pouvez sélectionner le numéro de téléphone par défaut pour chaque utilisateur. Ce numéro par défaut sera inclus dans les invitations Microsoft Teams réunion.
   
@@ -44,7 +44,7 @@ Vous pouvez voir [Définir les numéros de téléphone inclus dans les invitatio
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>Pour afficher vos numéros de téléphone d’audioconférence
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le navigateur de gauche, allez sur **des ponts de conférence**  >  **Réunions.** 
 2. Affichez les numéros de téléphone disponibles pour l’audioconférence.

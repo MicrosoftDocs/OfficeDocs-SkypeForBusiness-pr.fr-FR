@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Découvrez comment configurer des Salles Microsoft Teams, notamment planifier, déployer et gérer le système afin de créer votre salle de réunion virtuelle idéale.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: f95d2ef04e4021a91b6881d4ca7537aa4e756420
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: beaae12c62ca39315275df58e4c95b5163a10843
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730426"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432286"
 ---
 # <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "58730426"
        Pour une présentation rapide de salles Teams, cliquez sur la vidéo à droite.
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -45,7 +45,7 @@ ms.locfileid: "58730426"
 |  **[Plan](./rooms-plan.md)** |  **[Déployer](./rooms-deploy.md)** |  **[Gestion](./rooms-manage.md)** |
 
 
-[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Salles Microsoft Teams Vidéo microsoft Mechanics.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
 > Salles Microsoft Teams est destiné à être utilisé avec Microsoft Teams, Skype Entreprise Online, Skype Entreprise Server 2019 ou Skype Entreprise Server 2015.

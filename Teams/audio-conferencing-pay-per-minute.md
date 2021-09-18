@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Découvrez l’option de paiement à la minute pour activer les fonctionnalités d’audioconférence pour les organisations qui utilisent le programme de licence en volume Microsoft.
-ms.openlocfilehash: ef741bfba6667711c03bd90d2018d7da2093eac8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcad09e00c106b38ad5f5a42add2e01b011c04ed
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593158"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432676"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconférence en paiement à la minute
 
@@ -52,10 +52,10 @@ Alors que l’offre de licence d’audioconférence par utilisateur inclut l’u
 - Appels sortants placés vers des numéros de téléphone externes à partir d’une réunion de votre organisation.
     
 > [!NOTE]
-> Vous trouverez les tarifs d’appels d’accès et d’appels sortants associés à ces types d’appels en consultant la **section** Tarifs d’appel pour l’endroit où vous souhaitez passer des appels dans [l’audioconférence.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
+> Vous trouverez les tarifs d’appels d’accès et d’appels  sortants associés à ces types d’appels à la section des tarifs d’audioconférence de [l’Audioconférence.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
   
-Le paiement à la minute nécessite la mise en place de [crédits de communication](what-are-communications-credits.md) pour votre organisation. Pour plus d’informations, consultez Configurer les [crédits](set-up-communications-credits-for-your-organization.md) de communication pour votre organisation et/ou Microsoft Teams [de modules add-on.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Le paiement à la minute nécessite la mise en place de [crédits de communication](what-are-communications-credits.md) pour votre organisation. Pour plus d’informations, consultez Configurer les [crédits](set-up-communications-credits-for-your-organization.md) de communication pour votre organisation et/ou Microsoft Teams [de modules add-on.](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
   
 Pour activer l’audioconférence à la minute pour les utilisateurs de votre organisation, consultez la vidéoconférence essayer ou acheter l’audioconférence dans Microsoft Office 365 ou [Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
@@ -84,7 +84,7 @@ Pour activer l’audioconférence à la minute pour les utilisateurs de votre or
     
 - [Tarifs de forfaits d'appels](https://www.microsoft.com/microsoft-teams/voice-calling)
     
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
   
 [Licences de module complémentaire Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
