@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973062"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432436"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -309,13 +309,13 @@ Oui, la date d’expiration est définie par fichier. Les utilisateurs peuvent m
 
 **Comment un administrateur peut-il modifier la date d’expiration ?**
   
-Les administrateurs pourront modifier le paramètre d’expiration par défaut dans PowerShell ou le Centre Teams d’administration des utilisateurs avant la publication de la fonctionnalité. Le paramètre n’est pas encore disponible pour modification. Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date.
+Les administrateurs pourront modifier le paramètre d’expiration par défaut dans PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) ou le Centre d’administration Teams avant la publication de la fonctionnalité. **Le paramètre n’est pas encore disponible pour la modification**. Nous publierons une publication mise à jour du centre de messages lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
 
 Les valeurs de jours d’expiration peuvent être définies comme suit :
   
-- La valeur peut être de 1 à 99 999 (273 ans maximum).
-- La valeur peut également être -1 pour que le TMR n’expire jamais.
-
+- La valeur peut être de 1 à 9 999.
+- La valeur peut également être -1 pour que le TMR n’expire jamais. 
+ 
 Les administrateurs ne peuvent pas modifier la date d’expiration des TMRs existants déjà chargés sur OneDrive ou SharePoint avant la publication de cette fonctionnalité. Cela protège l’intention de l’utilisateur propriétaire du TMR.
   
 **Un administrateur peut-il définir les TMR pour qu’ils n’expirent jamais ?**
@@ -333,6 +333,11 @@ La date d'expiration sera effacée lors du nouveau chargement, indépendamment d
 **Que se passe-t-il si je copie ou déplace le TMR vers un autre emplacement ou site ?**
 
 La date est conservée uniquement pour un fichier TMR déplacé. Un fichier copié n'aura pas de date d'expiration, tout comme un TMR rechargé.
+  
+
+**Quelle est l’étendue du contrôle de la stratégie d’administration ?**
+  
+Les réunions et les appels sont contrôlés par le même `CsTeamsMeetingPolicy`paramètre,`MeetingRecordingExpirationDays`. 
   
 **Comment les utilisateurs finaux peuvent-ils modifier la date d’expiration sur un fichier TMR spécifique ?**
   
@@ -369,7 +374,7 @@ Le propriétaire du fichier reçoit une notification par e-mail lorsque le TMR e
   
 **Quelles sont les références SKU requises pour cette fonctionnalité ?**
   
-Toutes les références SKU auront cette fonctionnalité par défaut. Les utilisateurs A1 ont par défaut une période d’expiration de 30 jours et ne ’ peuvent pas modifier la date d’expiration
+Toutes les références SKU auront cette fonctionnalité par défaut. Les utilisateurs A1 ont par défaut une période d’expiration de 30 jours.
   
 **L’expiration du fichier est-elle un événement audité et puis-je le voir dans mes journaux d’audit ?**
   

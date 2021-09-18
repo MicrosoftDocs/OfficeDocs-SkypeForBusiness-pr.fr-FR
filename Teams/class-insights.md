@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: cc920db842d37129a122ed69a8816e66a4c16d9e
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866406"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432446"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Guide d’administration informatique sur Education Insights dans Microsoft Teams
 
@@ -133,6 +133,7 @@ Pour l’instant, ces données proviennent des domaines suivants dans les équip
 | **Fichiers** |   Charger, télécharger, consulter, modifier, commenter et partager un fichier (à l'exclusion du contenu du fichier).|
 | **Bloc-notes OneNote pour la classe** |  Modification d’une page ou d’une section d’un bloc-notes (sans inclure le contenu de la page).|
 | **Réunions** |    Présence (à l'exclusion du contenu des réunions).|
+| **[Progrès en lecture](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    Taux de précision, mots les plus complexes et mots par minute.  |
 | **[Reflect](reflect.md)** |   Vérifications (incluant des valeurs)|
 
 > [!NOTE]

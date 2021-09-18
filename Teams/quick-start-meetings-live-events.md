@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a089b94cdb8d5568fe864a91e2c98ef26ecc9b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631978"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432536"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Démarrage rapide : réunions, webinaires et événements en direct 
 
@@ -156,8 +156,7 @@ Le tableau suivant répertorie les articles pour plus d’informations :
 | Article | Description | 
 |----------|--------|
 | [Applications, bots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) | Présentation des applications et comment déployer des applications pour votre organisation. |
-| [Applications pour les réunions Teams](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Vue d’ensemble de l’extensibilité des applications de réunion, des références d’API et de la façon d’activer et de configurer des applications pour les réunions. |
-| [En savoir plus sur les applications pour les réunions Teams](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Inclut des liens vers des applications disponibles pour les réunions Teams. |
+| [Applications pour Teams réunions] (/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | Vue d’ensemble de l’extensibilité des applications de réunion, des références d’API et de la façon d’activer et de configurer des applications pour les réunions. |
 | [Gérer le tableau blanc dans Teams](manage-whiteboard.md) | Décrit les fonctionnalités du Tableau blanc et comment l’activer et désactiver pour votre organisation. |
 ||
 
