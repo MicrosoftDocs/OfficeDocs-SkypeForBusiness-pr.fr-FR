@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: bc8a29e5a312d4a5a77b98929330ee9770e5543c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db4b2eecbc6620c8f6d76a4ee4b80fd68eebc268
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729583"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456514"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft Teams
 
@@ -57,8 +57,8 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
     
 3. Nous vous recommandons également d’affecter des licences de crédits de communications (elles ne coûtent rien) aux mêmes personnes à qui vous avez attribué des licences à l’étape précédente. Pour savoir comment configurer les Crédits de communications, voir [Configurer les Crédits de communications pour votre entreprise](set-up-communications-credits-for-your-organization.md).
     
-> [!NOTE]
-> Vous pouvez également configurer les [audioconférences en mode « payer à la minute »](audio-conferencing-pay-per-minute.md).
+   > [!NOTE]
+   > Vous pouvez également configurer les [audioconférences en mode « payer à la minute »](audio-conferencing-pay-per-minute.md).
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>Étape 3 : Obtenir les numéros de service pour vos ponts de conférence
 <a name="__top"> </a>
@@ -91,7 +91,7 @@ Pour plus d’informations, consultez la rubrique [Modifier les numéros de tél
 
 ![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
-1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
+1. Depuis la page d’accueil, allez sur **des ponts de conférence**  >  **Réunions.**
 2. Sélectionnez le numéro de téléphone de pont de conférence, cliquez sur **Modifier**, puis choisissez la langue par défaut.
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>Étape 6 : Définir vos paramètres de pont de conférence
@@ -101,7 +101,7 @@ Après avoir configuré votre pont de conférence, vérifiez que les paramètres
 
 ![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
-1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
+1. Depuis la page d’accueil, allez sur **des ponts de conférence**  >  **Réunions.**
 2. Sélectionnez **Paramètres de Bridge**. Cela ouvrira le volet **Paramètres de pont**. 
 
 Pour plus d’informations, voir [Changement des paramètres de pont d’audioconférence](change-the-settings-for-an-audio-conferencing-bridge.md).
@@ -114,7 +114,7 @@ Vous devez effectuer cette opération pour toutes les personnes de votre entrepr
 
 ![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
-1. Dans le tableau de bord, cliquez sur **Utilisateurs**, sélectionnez l’utilisateur dans la liste, puis sélectionnez **Modifier**.
+1. Dans la page d’accueil, cliquez **sur Utilisateurs,** sélectionnez l’utilisateur dans la liste, puis sélectionnez **Modifier.**
 2. Sélectionnez **Modifier** à côté de **Audioconférence**, puis dans le volet **Audioconférence**, choisissez un numéro dans les listes de **numéros payants** et de **numéros gratuits**.
 
 Si vous avez besoin de plus de détails, consultez [Sélectionner Microsoft en tant que fournisseur d’audioconférences](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).

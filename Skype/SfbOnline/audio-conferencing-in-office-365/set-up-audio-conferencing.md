@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 55edb015df6e0faf77eb644246677f637b7bace7
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725973"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456554"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurer l’audioconférence pour Skype Entreprise
 
@@ -56,8 +56,8 @@ Allez à la page [Disponibilité des pays et des régions pour les audioconfére
     
 3. Nous vous recommandons également d’affecter des licences de crédits de communications (elles ne coûtent rien) aux mêmes personnes à qui vous avez attribué des licences à l’étape précédente. Pour savoir comment configurer les Crédits de communications, voir [Configurer les Crédits de communications pour votre entreprise](/microsoftteams/set-up-communications-credits-for-your-organization).
     
-> [!NOTE]
-> Vous pouvez également configurer les [audioconférences en mode « payer à la minute »](/microsoftteams/audio-conferencing-pay-per-minute).
+   > [!NOTE]
+   > Vous pouvez également configurer les [audioconférences en mode « payer à la minute »](/microsoftteams/audio-conferencing-pay-per-minute).
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>Étape 3 : Obtenir les numéros de service pour vos ponts de conférence
 <a name="__top"> </a>
@@ -92,7 +92,7 @@ Vous pouvez ensuite définir les [langues](../audio-conferencing-in-office-365/s
 
 ![Icône représentant le Microsoft Teams logo.](../images/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
-1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
+1. Depuis votre domicile, vers des **ponts de conférence**  >  **Réunions.**
 2. Sélectionnez le numéro de téléphone de pont de conférence, cliquez sur **Modifier**, puis choisissez la langue par défaut.
 
 ![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **À l’aide Skype Entreprise centre d’administration :**
@@ -108,7 +108,7 @@ Après avoir configuré votre pont de conférence, vérifiez que les paramètres
 
 ![Icône représentant le Microsoft Teams logo.](../images/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
-1. Dans le tableau de bord, accédez à **Réunions** > **Ponts de conférence**.
+1. Depuis votre domicile, vers des **ponts de conférence**  >  **Réunions.**
 2. Sélectionnez **Paramètres de Bridge**. Cela ouvrira le volet **Paramètres de pont**. 
 
 Pour plus d’informations, voir [Changement des paramètres de pont d’audioconférence](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
@@ -128,12 +128,12 @@ Vous devez effectuer cette opération pour toutes les personnes de votre entrepr
 
 ![Icône représentant le Microsoft Teams logo.](../images/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
 
-1. Dans le tableau de bord, cliquez sur **Utilisateurs**, sélectionnez l’utilisateur dans la liste, puis sélectionnez **Modifier**.
+1. À partir de la page **d’accueil,** cliquez sur Utilisateurs, sélectionnez l’utilisateur dans la liste, puis sélectionnez **Modifier.**
 2. Sélectionnez **Modifier** à côté de **Audioconférence**, puis dans le volet **Audioconférence**, choisissez un numéro dans les listes de **numéros payants** et de **numéros gratuits**.
 
 ![Icône représentant le logo Skype Entreprise’affichage.](../images/sfb-logo-30x30.png) **À l’aide Skype Entreprise centre d’administration :**
 
-1. Go to the **Centre d’administration Microsoft 365**  >  **Teams**  >  **legacy portal.**
+1. Go to the **Centre d'administration Microsoft 365**  >  **Teams**  >  **legacy portal.**
 2. Sélectionnez **Utilisateurs de l’audioconférence,** sélectionnez l’utilisateur dans la liste  >  et cliquez sur **Modifier.** 
 
 Si vous avez besoin de plus de détails, consultez [Sélectionner Microsoft en tant que fournisseur d’audioconférences](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).

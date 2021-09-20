@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’attribuer des stratégies �
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 858a28843fc883712ab12b868eca505069e5ab4f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ed0ed4b03d6472a646cd19897b33a22b2fc4df06
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727883"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456364"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 
@@ -136,7 +136,7 @@ Vous pouvez également :
 
 ### <a name="use-powershell"></a>Utiliser PowerShell
 
-Chaque type de stratégie dispose de son propre ensemble d’lets de cmdlets pour le gérer. Utilisez ```Grant-``` l’cmdlet pour un type de stratégie donné pour affecter la stratégie. Par exemple, utilisez l’cmdlet pour affecter une stratégie ```Grant-CsTeamsMeetingPolicy``` Teams réunion aux utilisateurs. Ces cmdlets sont incluses dans le module Teams PowerShell et sont documentées dans la référence [Skype Entreprise cmdlet.](/powershell/skype/intro?view=skype-ps)
+Chaque type de stratégie dispose de son propre ensemble d’lets de cmdlets pour le gérer. Utilisez `Grant-` l’cmdlet pour un type de stratégie donné pour affecter la stratégie. Par exemple, utilisez l’cmdlet pour affecter une stratégie `Grant-CsTeamsMeetingPolicy` Teams réunion aux utilisateurs. Ces cmdlets sont incluses dans le module Teams PowerShell et sont documentées dans la référence [Skype Entreprise cmdlet.](/powershell/skype/intro?view=skype-ps&preserve-view=true)
 
 Téléchargez et installez [la Teams publique PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si vous ne l’avez pas déjà fait), puis exécutez l’application suivante pour vous connecter.
 
@@ -308,7 +308,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Voici un exemple de la façon de modifier la stratégie efficace pour un utilisateur à qui une stratégie est directement attribuée.
 
-Tout d’abord, nous utilisons la cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) avec le paramètre pour obtenir les détails des stratégies de diffusion de réunion Teams associées à `PolicySource` l’utilisateur.
+Tout d’abord, nous utilisons la cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) avec le paramètre pour obtenir les détails des stratégies de diffusion de réunion Teams associées à ```PolicySource``` l’utilisateur.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -394,7 +394,7 @@ Lorsque vous y êtes invité, connectez-vous à l’aide des mêmes informations
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>Affecter une stratégie d’installation à un lot d’utilisateurs
 
-Dans cet exemple, nous utilisons la cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour affecter une stratégie de configuration d’application nommée Hr App Setup Policy à un lot d’utilisateurs répertoriés dans le fichier Users_ids.txt.
+Dans cet exemple, nous utilisons la cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour affecter une stratégie de configuration d’application nommée HR App Setup Policy à un lot d’utilisateurs répertoriés dans le fichier Users_ids.text.
 
 ```powershell
 $users_ids = Get-Content .\users_ids.txt
@@ -461,6 +461,11 @@ Lorsque vous attribuez le package de stratégie, il est immédiatement affecté 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Attribuer un package de stratégie à un groupe d’utilisateurs dans le Centre d’administration
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
+2. Dans le dossier de navigation de gauche, allez à la page du package de stratégie.
+3. Sélectionnez l’onglet d’affectation du package de groupe.
+4. Sélectionnez **Ajouter un groupe,** puis dans le volet Affecter un package de stratégie au volet de groupe, comme suit :
+
+   - Recherchez et ajoutez le groupe à qui vous voulez affecter le package de stratégie.
 
 2. Dans le dossier de navigation de gauche, allez à la page du package de stratégie.
 

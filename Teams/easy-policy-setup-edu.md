@@ -15,20 +15,20 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser l’Assistant Stratégie de Teams pour l’éducation pour appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
+description: Découvrez comment utiliser l’Assistant Stratégie de Teams pour l'éducation pour appliquer facilement des stratégies pour les étudiants et les enseignants afin de préserver la sécurité de votre environnement d’apprentissage.
 f1keywords: ''
-ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cafe6e9725f8b365601d3d9152187b546cf2205a
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733863"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456324"
 ---
-# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant Teams pour l’éducation stratégie d’entreprise pour appliquer facilement des stratégies à un environnement d’apprentissage sécurisé
+# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Utiliser l’Assistant Teams pour l'éducation stratégie d’entreprise pour appliquer facilement des stratégies à un environnement d’apprentissage sécurisé
 
 ## <a name="overview"></a>Présentation
 
-L Microsoft Teams pour l’éducation Assistant Stratégie simplifie la gestion des stratégies pour vos étudiants et enseignants. Utilisez-la pour appliquer facilement et rapidement l’ensemble le plus important de stratégies pertinentes pour créer une expérience d’apprentissage sécurisée et productive.
+L Microsoft Teams pour l'éducation Assistant Stratégie simplifie la gestion des stratégies pour vos étudiants et enseignants. Utilisez-la pour appliquer facilement et rapidement l’ensemble le plus important de stratégies pertinentes pour créer une expérience d’apprentissage sécurisée et productive.
 
 Les stratégies Teams vous permet de contrôler le comportement Teams de votre environnement et les fonctionnalités disponibles pour les utilisateurs. Par exemple, il existe des stratégies d’appel, des stratégies de réunion et des stratégies de messagerie, entre autres, et chaque zone de stratégie peut être personnalisée pour répondre aux besoins de votre organisation.
 
@@ -41,7 +41,7 @@ Les stratégies doivent être ajustées pour les étudiants et les enseignants a
 Cet article vous explique comment exécuter l’Assistant.
 
 > [!IMPORTANT]
-> Les stratégies appliquées par l’Assistant répondent aux besoins de la plupart des Teams pour l’éducation clients. L’Assistant ajuste la définition globale (à l’échelle de l’organisation par défaut) d’un ensemble principal de stratégies avec des paramètres que nous recommandons pour la sécurité des étudiants et les applique aux étudiants. L’Assistant crée et affecte également un ensemble de stratégies personnalisées aux enseignants et aux membres du personnel. La plupart Teams pour l’éducation clients n’auront pas besoin d’utiliser d’autres méthodes d’affectation de stratégie après avoir exécutez cet Assistant. Utilisez d’autres méthodes *d’affectation* de stratégies uniquement si vous voulez créer et gérer manuellement des stratégies pour vos étudiants, enseignants et membres du personnel.
+> Les stratégies appliquées par l’Assistant répondent aux besoins de la plupart des Teams pour l'éducation clients. L’Assistant ajuste la définition globale (à l’échelle de l’organisation par défaut) d’un ensemble principal de stratégies avec des paramètres que nous recommandons pour la sécurité des étudiants et les applique aux étudiants. L’Assistant crée et affecte également un ensemble de stratégies personnalisées aux enseignants et aux membres du personnel. La plupart Teams pour l'éducation clients n’auront pas besoin d’utiliser d’autres méthodes d’affectation de stratégie après avoir exécutez cet Assistant. Utilisez d’autres méthodes *d’affectation* de stratégies uniquement si vous voulez créer et gérer manuellement des stratégies pour vos étudiants, enseignants et membres du personnel.
 
 ## <a name="teams-for-education-policy-wizard"></a>Teams pour l'éducation Assistant Stratégie
 
@@ -69,7 +69,7 @@ Commençons dès à présent !
 
 Suivez ces étapes pour exécuter l’Assistant.
 
-1. Si vous débutez sur Teams, l’Assistant démarre automatiquement. Sinon, vous pouvez démarrer l’Assistant à tout moment à partir du tableau de bord. Dans le navigation gauche du centre d’administration Microsoft Teams, sélectionnez Tableau de **bord,** puis dans la vignette Configurer les stratégies d’un environnement d’apprentissage sécurisé, sélectionnez **Configuration rapide.** 
+1. Si vous débutez sur Teams, l’Assistant démarre automatiquement. Sinon, vous pouvez démarrer l’Assistant à tout moment à partir du tableau de bord. Dans le navigation gauche du centre d’administration Microsoft Teams, sélectionnez  **Accueil,** puis dans la vignette Stratégie facile pour un environnement d’apprentissage sécurisé, sélectionnez Configuration **rapide.**
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Capture d’écran de l’Assistant dans le tableau de bord.":::
 
@@ -139,7 +139,7 @@ Voir [Maintenir la sécurité des étudiants lors de l’Teams’enseignement à
 
 Pour l’instant, l’Assistant applique les stratégies recommandées lorsque vous l’exécutez. Il est important de savoir qu’à mesure que de nouvelles stratégies deviennent disponibles dans Teams, les paramètres globaux (par défaut à l’échelle de l’organisation) pour la sécurité des étudiants sont automatiquement mis à jour par l’Assistant. 
 
-Consultez régulièrement le Centre de messages [(dans](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) le Centre d’administration Microsoft 365) pour être au courant des nouvelles fonctionnalités, ainsi que de leurs stratégies et paramètres de stratégie dans Teams. 
+Consultez régulièrement le Centre de messages [(dans](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) le Centre d'administration Microsoft 365) pour être au courant des nouvelles fonctionnalités, ainsi que de leurs stratégies et paramètres de stratégie dans Teams. 
 
 ## <a name="make-changes-in-the-wizard"></a>Apporter des modifications dans l’Assistant
 
@@ -147,7 +147,7 @@ Consultez régulièrement le Centre de messages [(dans](https://admin.microsoft.
 
 Si vous devez apporter des modifications après avoir exécuté l’Assistant, vous pouvez le ré-exécuter et modifier vos sélections.
 
-1. Dans le navigation gauche du centre d’administration Microsoft Teams, sélectionnez  Tableau de **bord,** puis dans la vignette Configurer les stratégies d’un environnement d’apprentissage sécurisé, sélectionnez **Modifier.**
+1. Dans le navigation gauche du centre d’administration Microsoft Teams, sélectionnez  **Accueil,** puis dans la vignette Configurer les stratégies d’un environnement d’apprentissage sécurisé, sélectionnez **Modifier.**
 2. À partir de là, continuez à travers chaque page de l’Assistant pour apporter vos modifications. Vous pouvez modifier le type de votre établissement, le groupe d’enseignants et de membres du personnel auquel vous voulez attribuer des stratégies, ou les deux.
 
 Le tableau suivant récapitule ce qui se produit lorsque vous a modifiez l’Assistant.

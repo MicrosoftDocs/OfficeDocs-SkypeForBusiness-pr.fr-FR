@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58df214ec15153abcee4275f42c6ae6208b5d4b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731243"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456494"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Afficher vos affectations de stratégie dans le journal d’activité
 
@@ -35,7 +35,7 @@ Lorsque vous attribuez des stratégies à des utilisateurs dans le Microsoft Tea
 
 Pour afficher vos affectations de stratégie dans le journal d’activité :
 
-1. Dans le navigation gauche du centre d Microsoft Teams d’administration, allez dans Tableau de **bord,** puis sous Journal d’activité, sélectionnez Afficher les **détails.**
+1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, sélectionnez **Accueil,** puis sous Journal d’activité, sélectionnez Afficher les **détails.**
 2. Vous pouvez afficher toutes les affectations de stratégie ou filtrer la liste par état pour afficher uniquement les affectations Non **commencées,** En **cours** ou **Terminées.** Vous verrez les informations suivantes sur chaque devoir :
     - **Nom**: nom de l’affectation de stratégie. Cliquez sur le lien pour afficher plus de détails. Cela inclut le nombre d’utilisateurs à qui la stratégie a été attribuée, ainsi que le nombre d’affectations terminées, en cours et non démarrées. Vous verrez également la liste des utilisateurs dans le lot, ainsi que l’état et le résultat pour chaque utilisateur. Voici un exemple :
 

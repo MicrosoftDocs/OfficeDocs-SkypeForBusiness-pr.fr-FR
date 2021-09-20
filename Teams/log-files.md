@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, multimédias et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider dans la surveillance et la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235319"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456524"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utilisez les fichiers journaux pour surveiller les données et résoudre les Microsoft Teams
 
@@ -46,16 +46,28 @@ Windows : Cliquez avec le bouton droit sur l’icône Teams dans la tray systèm
 
 Mac : sélectionnez le menu Aide, puis **sélectionnez Recueillir les fichiers de support.**
 
+
 Les journaux de débogage, de bureau et multimédia sont collectés dans un dossier avec le nom Journal de diagnostic MSTeams. <local data and time> Ce dossier peut être compressé et partagé lorsque vous ouvrez une demande de support auprès du Support Microsoft. Le dossier contiendra des dossiers pour bureau, réunion (média) et débogage (web). Vous pouvez collecter les fichiers à l’aide des raccourcis clavier suivants :
 
 Windows : Ctrl + Alt + Shift + 1
 
 Mac : Option + Commande + Shift + 1
 
+
 La journalisation multimédia est désactivée par défaut. Pour activer la journalisation des médias, les utilisateurs doivent activer l’option dans Teams client. Allez à **Paramètres,** puis sélectionnez Activer la journalisation pour les diagnostics de réunion  >   **(nécessite un redémarrage Teams).** Le Teams client doit être redémarré pour que la journalisation commence.
+
+Si un problème se produit avec une réunion ou un événement en direct spécifique, il est utile que l’URL soit associée à la réunion. Cela fournit des informations supplémentaires pour identifier précisément la réunion ou l’événement en direct dans les journaux. Ces informations peuvent être collectées auprès de n’importe quel participant à une réunion ou du présentateur ou du producteur d’un événement en direct. Cette URL peut être capturée en pointant sur l’URL de jointage et en choisissant **Copier le lien hypertexte.**
 
 > [!NOTE]
 > Si la journalisation multimédia est activée, des fichiers supplémentaires seront inclus dans le dossier Réunion, lesquels seront nécessaires pour examiner les problèmes audio et vidéo. Si la journalisation multimédia n’est pas activée, le nombre de journaux sera limité.
+  
+> [!NOTE]
+> Les journaux de débogage étaient précédemment collectés à l’aide des raccourcis clavier ci-dessous. Ceux-ci continuent de fonctionner et complètent la même capture de journal que l’option **Recueillir les fichiers de support.**
+
+> Windows : Crtl + Alt + Shift + 1
+
+> Mac : Option + Commande + Shift + 1
+
 
 Le tableau suivant présente les différents clients et les journaux associés. Les fichiers journaux sont stockés à des emplacements spécifiques au client et au système d’exploitation.
 

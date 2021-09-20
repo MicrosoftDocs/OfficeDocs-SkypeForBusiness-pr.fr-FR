@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d0c85019878305764477d6d5902e49d8b69376e0
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726213"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456304"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -53,7 +53,7 @@ Pour déployer l’application Approbations, vous devez obtenir une autorisation
 
 - Rôle d’administrateur dans l’environnement cible.
 
-- Licence pour une [Power Automate](/power-automate/get-started-approvals), Office 365 ou Dynamics 365.
+- Licence pour [Power Automate,](/power-automate/get-started-approvals)Office 365 ou Dynamics 365.
 
 - Une licence microsoft Forms est requise pour que les utilisateurs définissent de nouveaux modèles d’approbation.
 
