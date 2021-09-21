@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b02bd27f15b6db4fed2835513d043c7f6561a681
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432656"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456534"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -75,11 +75,11 @@ Si vous avez des questions sur le programme de certification SBC pour le routage
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      Pris en charge 3.20 (recommandé 4.0)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 pour le contournement du média)      | &#10004; | &#10004; |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour routeurs de services intégrés de la série 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |   |  
-|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés de la série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |   &#10004;      |    |  
-|                                   |     Cisco Unified Border Element (CUBE) pour le routeur de services cloud de la série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |    |  
-|                                 |     Cisco Unified Border Element (CUBE) pour les routeurs des services d’agrégation de la série 1000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (recommandé 17.3.2)         |    &#10004;     |    |
-|                                 |     Cisco Unified Border Element (CUBE) pour les plateformes Edge Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    &#10004;     |    |
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) pour routeurs de services intégrés de la série 1000        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (17.6.1a recommandé)         |    &#10004;     |   |  
+|                                   |     Cisco Unified Border Element (CUBE) pour les routeurs de services intégrés de la série 4000        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r pris en charge (17.6.1a recommandé)         |   &#10004;      |    |  
+|                                   |     Cisco Unified Border Element (CUBE) pour le routeur de services cloud de la série 1000V       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (17.3.3 recommandé)         |    &#10004;     |    |  
+|                                 |     Cisco Unified Border Element (CUBE) pour les routeurs des services d’agrégation de la série 1000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r pris en charge (17.6.1a recommandé)         |    &#10004;     |    |
+|                                 |     Cisco Unified Border Element (CUBE) pour les plateformes Edge Catalyst 8000      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2 pris en charge (17.6.1a recommandé)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Contrôleur de frontière de session Avaya pour Entreprise (ASBCE)    |     &#10004;     |       &#10004;     |       Version 8.1.1 (8.1.2 pour le contournement du média)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Contrôleur de bordure de session Nokia    |     &#10004;     |           |       20.8       |      &#10004;        |    |
