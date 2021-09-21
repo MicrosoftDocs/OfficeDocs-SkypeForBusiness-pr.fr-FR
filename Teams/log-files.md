@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, multimédias et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider dans la surveillance et la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456524"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460643"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utilisez les fichiers journaux pour surveiller les données et résoudre les Microsoft Teams
 
@@ -46,8 +46,7 @@ Windows : Cliquez avec le bouton droit sur l’icône Teams dans la tray systèm
 
 Mac : sélectionnez le menu Aide, puis **sélectionnez Recueillir les fichiers de support.**
 
-
-Les journaux de débogage, de bureau et multimédia sont collectés dans un dossier avec le nom Journal de diagnostic MSTeams. <local data and time> Ce dossier peut être compressé et partagé lorsque vous ouvrez une demande de support auprès du Support Microsoft. Le dossier contiendra des dossiers pour bureau, réunion (média) et débogage (web). Vous pouvez collecter les fichiers à l’aide des raccourcis clavier suivants :
+Les journaux de débogage, de bureau et multimédia sont collectés dans un dossier avec le nom Journal de _diagnostic MSTeams. \<local data and time\>_ Ce dossier peut être compressé et partagé lorsque vous ouvrez une demande de support auprès du Support Microsoft. Le dossier contiendra des dossiers pour bureau, réunion (média) et débogage (web). Vous pouvez collecter les fichiers à l’aide des raccourcis clavier suivants :
 
 Windows : Ctrl + Alt + Shift + 1
 
