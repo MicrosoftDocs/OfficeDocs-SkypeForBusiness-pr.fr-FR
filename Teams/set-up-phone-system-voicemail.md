@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Découvrez comment configurer des Messagerie vocale infonuagique pour vos utilisateurs. '
-ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37cf89d4c728cab491d0312762a2c845bb711dcd
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590728"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482418"
 ---
 # <a name="set-up-cloud-voicemail"></a>Configurer la Messagerie vocale cloud
 
@@ -45,21 +45,22 @@ Pour Teams utilisateurs, Messagerie vocale infonuagique est automatiquement inst
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Configurer des utilisateurs Messagerie vocale infonuagique boîtes aux Exchange Server
 
-Les informations suivantes ont pour but de configurer Messagerie vocale infonuagique de manière à ce qu’ils fonctionnent avec les utilisateurs qui utilisent une boîte aux lettres en ligne Système téléphonique dont la boîte aux lettres est Exchange Server. 
+Les informations suivantes ont pour but de configurer des Messagerie vocale infonuagique de manière à ce qu’ils fonctionnent avec les utilisateurs qui utilisent une boîte aux lettres en ligne Système téléphonique dont la boîte aux lettres est Exchange Server. 
   
 1. Les messages vocaux sont remis aux boîtes aux lettres des Exchange via SMTP acheminés via Exchange Online Protection. Pour permettre la remise de ces messages, assurez-vous que les connecteurs Exchange sont correctement configurés entre vos serveurs Exchange et vos Exchange Online Protection ; [Utiliser des connecteurs pour configurer l’Flow.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
-2. Pour activer les fonctionnalités de messagerie vocale telles que la personnalisation des messages d’accueil et de la messagerie vocale visuelle dans les clients Skype Entreprise, une connexion de Microsoft 365 ou Office 365 à la boîte aux lettres de serveur Exchange via les services web Exchange est requise. Pour activer cette connectivité, vous devez configurer le nouveau protocole d’authentification Oauth Exchange décrit dans configurer l’authentification [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)entre les organisations Exchange et Exchange Online, ou exécuter l’Assistant Exchange Hybride à partir d’Exchange 2013 CU5 ou version supérieure. En outre, vous devez configurer l’intégration et Oauth entre Skype Entreprise Online et le serveur Exchange décrits dans Configurer l’intégration et [oAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)entre Skype Entreprise Online et Exchange Server. 
+2. Pour activer les fonctionnalités de messagerie vocale, telles que la personnalisation des messages d’accueil et de la messagerie vocale visuelle dans les clients Skype Entreprise, une connectivité de Microsoft 365 ou Office 365 à la boîte aux lettres de serveur Exchange via les services web Exchange est requise. Pour activer cette connectivité, vous devez configurer le nouveau protocole d’authentification Oauth Exchange décrit dans configurer l’authentification [OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)entre les organisations Exchange et Exchange Online, ou exécuter l’Assistant Exchange Hybride à partir d’Exchange 2013 CU5 ou version supérieure. De plus, vous devez configurer l’intégration et Oauth entre Skype Entreprise Online et le serveur Exchange décrits dans Configurer l’intégration et [oAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)entre Skype Entreprise Online et Exchange Server. 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Configurer des Messagerie vocale infonuagique pour Skype Entreprise Server utilisateurs
 
-Pour configurer les utilisateurs Skype Entreprise serveur pour Messagerie vocale infonuagique, consultez le service Messagerie vocale infonuagique pour les [utilisateurs locaux.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
+Pour configurer les utilisateurs Skype Entreprise serveur pour Messagerie vocale infonuagique, consultez le service Messagerie vocale infonuagique de plan pour les [utilisateurs locaux.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Activation de la messagerie vocale protégée dans votre organisation
 
-Lorsqu’un utilisateur laisse un message vocal pour un utilisateur de votre organisation, ce dernier est remis dans la boîte aux lettres de l’utilisateur sous la mesure d’une pièce jointe. En utilisant des règles de flux de courrier pour appliquer le chiffrement des messages, vous pouvez empêcher le courrier d’être transmis à d’autres destinataires. Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans des Skype Entreprise ou Microsoft Teams.
+Lorsqu’un utilisateur laisse un message vocal pour un utilisateur de votre organisation, ce dernier est remis dans sa boîte aux lettres sous la mesure où il est joint à un message électronique. En utilisant des règles de flux de courrier pour appliquer le chiffrement des messages, vous pouvez empêcher le courrier d’être transmis à d’autres destinataires. Lorsque vous activez des messages vocaux protégés, les utilisateurs peuvent écouter les messages vocaux protégés en appelant leur boîte aux lettres vocale ou en ouvrant le message dans Outlook, Outlook sur le web ou Outlook pour Android ou iOS. Les messages vocaux protégés ne peuvent pas être ouverts dans des Skype Entreprise ou Microsoft Teams.
 
-Pour plus d’informations sur le chiffrement des messages, voir [Chiffrement des messages.](/microsoft-365/compliance/email-encryption?view=o365-worldwide)
+Pour plus d’informations sur le chiffrement des messages, voir [Chiffrement des e-mails.](/microsoft-365/compliance/email-encryption?view=o365-worldwide)
+
 
 Pour configurer une messagerie vocale protégée, vous pouvez :
 
@@ -68,12 +69,15 @@ Pour configurer une messagerie vocale protégée, vous pouvez :
 3. Dans le Centre Exchange d’administration, sélectionnez **Règles de flux de**  >  **courrier.**
 4. Sélectionnez **+** **Ajouter,** puis sélectionnez Appliquer chiffrement de messages Office 365 protection des droits **et des droits aux messages.**
 5. Donnent un nom à la nouvelle règle de flux de courrier, puis sous Appliquer cette règle si **,** sélectionnez les propriétés du **message** Inclure le type de  >  **message**  >  **Messagerie vocale.** Sélectionnez **OK.**
-6. Sous **Faire les choses suivantes,** sélectionnez Appliquer chiffrement de messages Office 365 protection des droits et droits au **message,** puis **sélectionnez-en un.** Sous **Modèle RMS,** sélectionnez **Ne pas avancer.** Sélectionnez **OK,** puis **Enregistrer.**
+6. Sous **Faire ce qui suit,** sélectionnez Appliquer chiffrement de messages Office 365 protection des droits et droits au **message,** puis **sélectionnez-en un.** Sous **Modèle RMS,** sélectionnez **Ne pas avancer.** Sélectionnez **OK,** puis **Enregistrer.**
     > [!NOTE]
     > Si la **liste de modèles RMS** est vide, vous devez configurer le chiffrement des messages. Pour plus d’informations sur la configuration du chiffrement des messages, voir les articles suivants :
     > - [Configurer de nouvelles fonctionnalités de chiffrement de messages](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
     > - [Configuration et gestion des modèles pour Azure Information Protection](/information-protection/deploy-use/configure-policy-templates)
     > - [Option Ne pas forwarder pour les e-mails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
+
+    > [!NOTE]
+    > Vous devez définir la clé de Registre suivante pour les utilisateurs, les entreprises et les organisations qui souhaitent que le formulaire de messagerie vocale apparaisse : [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] « AllowVoicemailForm »=dword:00000001                           
 
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>Aider vos utilisateurs à découvrir Teams fonctionnalités de messagerie vocale
 
@@ -83,13 +87,13 @@ Nous vous avons accès aux informations suivantes pour vos utilisateurs sur la g
 
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>Aider vos utilisateurs à découvrir les fonctionnalités de messagerie vocale de Skype Entreprise
 
-Nous vous indions des informations de formation et des articles pour aider vos utilisateurs à Skype Entreprise messagerie vocale. Orientez-les vers les articles suivants :
+Nous vous indions des informations de formation et des articles pour aider vos utilisateurs à se Skype Entreprise messagerie vocale. Orientez-les vers les articles suivants :
 
 - Consultez Skype Entreprise messagerie vocale et vos [options](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8): cet article explique comment écouter vos messages vocaux dans Skype Entreprise, modifier votre message d’accueil vocal, modifier vos paramètres de messagerie vocale et écouter vos messages vocaux à des vitesses différentes.
 
 - [Formation Skype Entreprise 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [Les avantages du système téléphonique](here-s-what-you-get-with-phone-system.md)

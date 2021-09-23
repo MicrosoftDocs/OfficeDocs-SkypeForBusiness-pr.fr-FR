@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Découvrez comment Téléphone Microsoft routage direct du système vous permet de connecter un contrôleur de session en bordure (SBC) fourni par un client pris en charge à Téléphone Microsoft système.
-ms.openlocfilehash: 1239445effd958b97e9f50d4be9ed686ed594685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 546a26422ff4f907f88c3a47808ff0f9ea546d00
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728893"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482408"
 ---
 # <a name="plan-direct-routing"></a>Planifier le routage direct
 
@@ -235,12 +235,6 @@ Les noms de accès (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com et sip
 - 52.120.0.0/14
 
 Vous devez ouvrir des ports pour toutes ces plages d’adresses IP dans votre pare-feu pour autoriser le trafic entrant et sortant à se rendre ou à partir des adresses pour le trafic de signalisation.  Si votre pare-feu prend en charge les noms DNS, le sip-all.pstnhub.microsoft.com **de** noms de domaine (FQDN) est résolu pour tous ces sous-réseaux IP. 
-
-> [!IMPORTANT]
-> Dans le cadre Teams développement et l’amélioration du service de routage direct, nous avons déployé de nouvelles instances d’infrastructure de routage direct en Australie en novembre 2020. Cela se reflète dans deux autres adresses IP (52.114.16.74 et 52.114.20.29) dans lesquelles les noms de fqdn suivants seront résolus pour les clients australiens (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com et sip3.pstnhub.microsoft.com). Vous devez vous assurer que ces deux adresses IP (52.114.16.74 et 52.114.20.29) sont autorisées dans vos listes de contrôle d’accès IP et que les ports sont ouverts pour toutes ces adresses IP de votre pare-feu afin d’autoriser le trafic entrant et sortant vers et depuis les adresses pour le trafic de signalisation.
-
-> [!IMPORTANT]
-> Dans le cadre Teams développement et l’amélioration du service de routage direct, nous avons déployé de nouvelles instances d’infrastructure de routage direct au Japon en mai 2021. Cela se reflète dans deux adresses IP supplémentaires (52.114.36.156 et 52.114.32.169) dans lesquelles les noms de fqdn suivants seront résolus pour les clients japonais (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com et sip3.pstnhub.microsoft.com). Vous devez vous assurer que ces deux adresses IP (52.114.36.156 et 52.114.32.169) sont autorisées dans vos listes de contrôle d’accès IP et que des ports sont ouverts pour toutes ces adresses IP de votre pare-feu pour autoriser le trafic entrant et sortant vers et depuis les adresses pour le trafic de signalisation.
 
 ### <a name="office-gcc-dod-environment"></a>Office Cloud de la communauté du secteur public Environnement DoD
 
