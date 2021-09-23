@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973032"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482388"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -149,16 +149,16 @@ Pour les réunions qui nécessitent une expérience vidéo de la plus haute qual
 
 Il s’agit d’un paramètre par participant. Ce paramètre contrôle si les utilisateurs peuvent personnaliser leur arrière-plan vidéo lors d'une réunion.
 
-Pour l’instant, vous pouvez uniquement utiliser PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
+Vous pouvez utiliser le Centre Teams’administration et PowerShell pour définir cette stratégie. Vous pouvez modifier une stratégie de réunion Teams existante à l’aide de l’applet de commande [CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) . Vous pouvez également créer une stratégie de réunion Teams à l’aide de l’applet de commande [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy), puis attribuer la stratégie aux utilisateurs.
 
-Pour spécifier si les utilisateurs peuvent personnaliser l’arrière-plan de la vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** comme suit :
+Pour spécifier si les utilisateurs peuvent personnaliser leur arrière-plan vidéo dans une réunion, définissez le paramètre **VideoFiltersMode** (sélectionnez le paramètre de filtres vidéo dans le Centre d’administration Teams) comme suit :
 
-|Définition de la valeur dans PowerShell |Comportement  |
-|---------|---------|
-|**NoFilters**     |L'utilisateur ne peut pas personnaliser l'arrière-plan vidéo.|
-|**BlurOnly**     |L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo. |
-|**BlurandDefaultBackgrounds**     |L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo ou de choisir parmi l'ensemble d'images par défaut à utiliser comme arrière-plan. |
-|**AllFilters**     |L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo, de choisir parmi l'ensemble d'images par défaut ou de télécharger des images personnalisées à utiliser comme arrière-plan. |
+|Définition de la valeur dans PowerShell|Définition de la valeur dans Teams d’administration |Comportement  |
+|---------|---------|---------|
+|**NoFilters** |**Aucun filtre**    |L'utilisateur ne peut pas personnaliser l'arrière-plan vidéo.|
+|**BlurOnly**     |**Flou d’arrière-plan uniquement**|L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo. |
+|**BlurandDefaultBackgrounds**|**Flou d’arrière-plan et images par défaut**     |L'utilisateur a la possibilité de flouter l'arrière-plan de la vidéo ou de choisir parmi l'ensemble d'images par défaut à utiliser comme arrière-plan. |
+|**AllFilters**|**Tous les filtres**     |L’utilisateur a la possibilité de flouter l’arrière-plan de la vidéo, de choisir parmi l’ensemble des images par défaut ou de télécharger des images personnalisées pour les utiliser comme arrière-plan. |
 
 > [!NOTE]
 > Les images chargées par les utilisateurs ne sont pas filtrées par Teams. Lorsque vous utilisez le paramètre de **AllFilters**, vous devez disposer de stratégies d’organisation interne pour empêcher les utilisateurs de télécharger des images choquantes ou inappropriées, ou des images que votre organisation n’a pas le droit d’utiliser pour Teams.
@@ -184,7 +184,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
    - Taille minimale 360 px
    - Taille maximale 2 048 px
    - Type de fichier PNG, JPG ou BMP
-   - Vous pouvez charger au maximum 50 images
+   - Vous pouvez charger jusqu’à 50 images
 
 7. Affichez un aperçu des images que vous avez sélectionnées, puis sélectionnez **Fermer.**
 

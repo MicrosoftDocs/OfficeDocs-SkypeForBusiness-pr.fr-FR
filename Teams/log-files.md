@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez les journaux de débogage, multimédias et de bureau produits par Microsoft Teams, où ils sont trouvés et comment ils peuvent vous aider dans la surveillance et la résolution des problèmes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460643"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482378"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Utilisez les fichiers journaux pour surveiller les données et résoudre les Microsoft Teams
 
@@ -94,9 +94,11 @@ Les journaux de débogage contiennent les flux de données suivants :
 
 -   Appel/conversation
 
-Pour collecter les journaux pour Linux : raccourci clavier : Ctrl + Alt + Shift + 1 Les fichiers seront disponibles dans ~/Downloads
+Pour collecter les journaux pour Linux : raccourci clavier : Ctrl + Alt + Shift + 1  
+      Les fichiers seront disponibles dans ~/Downloads
 
-Pour collecter des journaux pour le navigateur : Raccourci clavier : Ctrl + Alt + Shift + 1 Les fichiers seront disponibles dans %userprofile%\Downloads
+Pour collecter des journaux pour le navigateur et Windows : Raccourci clavier : Ctrl + Alt + Shift + 1  
+      Les fichiers seront disponibles dans %userprofile%\Downloads
 
 ## <a name="media-logs"></a>Journaux des médias
 
@@ -106,7 +108,11 @@ La journalisation multimédia est désactivée par défaut. Pour enregistrer des
 
 Lorsque vous envoyez les fichiers journaux au support Microsoft, vérifiez l’heure et l’heure des fichiers journaux pour vous assurer que les journaux couvrent la période lors de la reproduction du problème.
 
-Pour collecter des journaux pour Linux : Les fichiers seront disponibles dans ~/.config/Microsoft/Microsoft Teams/media-stack/ .blog et *~/.config/Microsoft/Microsoft Teams/skylib/*.blog.
+Pour collecter des journaux pour Linux :  
+Les fichiers seront disponibles dans ~/.config/Microsoft/Microsoft Teams/media-stack/blog \* \. et ~/.config/Microsoft/Microsoft Teams/skylib/blog. \* \.
+
+Pour collecter les journaux des Windows :  
+Les fichiers seront disponibles dans %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack \\ \* \. blog et %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib \\ \* \. blog.  
 
 Voici une liste des fichiers journaux générés et des informations qu’ils contiennent.
 
@@ -123,7 +129,10 @@ Voici une liste des fichiers journaux générés et des informations qu’ils co
 Consultez la section _Recueillir et activer la journalisation_ pour consulter Windows instructions pour Mac. Les journaux de bureau, également appelés journaux de la pipette, contiennent des données de journal qui se produisent entre le client de bureau et le navigateur. Comme les journaux multimédias, ces journaux ne sont nécessaires que si Microsoft les demande. Les journaux sont textuels et peuvent être lus à l’aide de n’importe quel éditeur textuel dans un format de haut en bas.
 
 Pour collecter des journaux pour Linux : Cliquez sur l’icône Microsoft Teams dans votre bac système, puis **sélectionnez Obtenir les journaux.**
-Les fichiers seront disponibles dans ~/.config/Microsoft/Microsoft Teams/logs.txt.  
+Les fichiers seront disponibles dans ~/.config/Microsoft/Microsoft Teams/logs.txt.
+  
+Pour collecter les journaux des Windows : Cliquez sur l’icône Microsoft Teams dans votre bac système, puis sélectionnez **Obtenir les journaux.**
+Le logs.txt fichier sera ouvert automatiquement dans Bloc-notes automatique.    
 
 ## <a name="browser-trace"></a>Suivi du navigateur
 
