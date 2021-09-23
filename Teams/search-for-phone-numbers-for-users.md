@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment rechercher des numéros de téléphone que vous pouvez affecter à vos utilisateurs, par pays ou région et ville, et spécifier la quantité de numéros dont vous avez besoin.
-ms.openlocfilehash: fc7edf9c31f0b934bb2e1dea2fb44437b8092c59
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: cb4bcac5a79f782e87ce53eb9cb93f8a024260bf
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432246"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496681"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Rechercher des numéros de téléphone pour les utilisateurs
 
@@ -65,13 +65,13 @@ Pour rechercher des numéros de téléphone pour vos utilisateurs :
 8. Dans la page **Obtenir des** numéros, sélectionnez les numéros de téléphone de votre choix, cliquez sur Acquérir les **numéros,** puis sur **Suivant.**
 
     > [!IMPORTANT]
-    > Vous pouvez acquérir plus de numéros de téléphone que le nombre de licences Microsoft. Pour déterminer le nombre de numéros de téléphone que vous pouvez acquérir, prenez votre nombre de licences Microsoft Calling Plan, ajoutez 10 pour cent du nombre de licences, puis ajoutez 10, puis supprimez le nombre de licences que vous avez déjà acquises. Par exemple, si vous avez des  licences 100 Forfaits d’appels nationaux Microsot et/ou Microsoft **International Calling Plan,** vous pouvez réserver 120 numéros de téléphone, en supposant que vous n’avez pas encore acquis certains numéros de téléphone pour ces 100 utilisateurs. Pour plus d’informations, voir [combien de numéros de téléphone pouvez-vous obtenir ?](./how-many-phone-numbers-can-you-get.md)
+    > Vous pouvez acquérir plus de numéros de téléphone que le nombre de licences Microsoft. Pour déterminer le nombre de numéros de téléphone que vous pouvez acquérir, prenez votre nombre de licences Microsoft Calling Plan, ajoutez 10 pour cent du nombre de licences, puis ajoutez 10, puis supprimez le nombre de licences que vous avez déjà acquises. Par exemple, si vous avez 100 licences **Plan** d’appels nationaux Microsoft et/ou **Plan** d’appels internationaux Microsoft, vous pouvez réserver 120 numéros de téléphone, en supposant que vous n’avez pas encore acquis certains numéros de téléphone pour ces 100 utilisateurs. Pour plus d’informations, voir [combien de numéros de téléphone pouvez-vous obtenir ?](./how-many-phone-numbers-can-you-get.md)
 
 9. Dans la page **de confirmation,** vérifiez vos choix, puis cliquez **sur Placer une commande.**
 
 10. Lorsque vous revenir à la page **Téléphone** numéros de téléphone, sélectionnez les  numéros de téléphone à affecter, puis cliquez sur Modifier pour l’affecter à un utilisateur.  
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer les numéros de téléphone pour votre organisation](manage-phone-numbers-landing-page.md)
 

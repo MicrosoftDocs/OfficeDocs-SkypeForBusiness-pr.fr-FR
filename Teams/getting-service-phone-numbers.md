@@ -22,16 +22,14 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Découvrez comment obtenir de nouveaux numéros de téléphone et transférer ou transférer des numéros existants pour l’Audioconférence, les attendants automatiques et les files d’attente (numéros de service) pour les Teams.
-ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432496"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491724"
 ---
-# <a name="srvice-phone-numbers-for-calling-plans"></a>Numéros de téléphone Srvice pour les forfaits d’appels
-
-**REMARQUE POUR LES RÉVISEURS : CETTE SITUATION SEMBLE SPÉCIFIQUE AUX PLANS D’APPEL. DOIS-JE LE DÉPLACER SOUS LE NŒUD DES PLANS D’APPELS ?**
+# <a name="service-phone-numbers-for-calling-plans"></a>Numéros de téléphone de service pour les forfaits d’appels
 
 Outre l’obtention de numéros de téléphone pour vos [utilisateurs,](./getting-phone-numbers-for-your-users.md)vous pouvez obtenir des numéros de téléphone gratuits ou gratuits pour des services tels que l’audioconférence (pour les ponts de conférence), le attendant automatique et les files d’attente (également appelées numéros de service). Les numéros de téléphone de service disposent d'une capacité d'appels simultanés plus élevée que les numéros de téléphone d'utilisateur ou d'abonné. Par exemple, un numéro de service peut gérer des centaines d’appels simultanément, alors qu’un numéro de téléphone d’utilisateur ne peut gérer que quelques appels à la fois.
   

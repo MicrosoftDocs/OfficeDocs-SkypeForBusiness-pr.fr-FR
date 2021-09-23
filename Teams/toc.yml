@@ -755,6 +755,8 @@ items:
         items:
           - name: Vue d’ensemble
             href: rooms/index.md
+          - name: Guide des salles de réunion Teams
+            href: teams-meeting-room-guidance.md
           - name: Service géré de salles Microsoft Teams
             items:
               - name: Gestion du plan
@@ -1608,8 +1610,6 @@ items:
             href: sharepoint-onedrive-interact.md
       - name: Appareils Teams pour l’éducation
         href: devices-for-education.md
-      - name: Guide des salles de réunion pour les équipes
-        href: teams-meeting-room-guidance.md
       - name: Appareils pris en charge
         items:
           - name: Gérer vos périphériques dans Teams

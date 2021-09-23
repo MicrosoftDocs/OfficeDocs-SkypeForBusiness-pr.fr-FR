@@ -7,8 +7,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: ''
-search.appverid: MET150
-description: Découvrez comment gérer les paramètres à l’échelle du client et des utilisateurs pour Teams lors de la transition de Teams dans le Centre d’administration Microsoft 365 vers le nouveau Teams d’administration.
+ROBOTS: NOINDEX, NOFOLLOW
+description: Découvrez comment gérer les paramètres à l’échelle du client et des utilisateurs pour Teams lors de la transition de Teams dans le Centre d'administration Microsoft 365 vers le nouveau Teams d’administration.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 32e863b244453599bed9c71fc2dede4df14ff1a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 727aa58f3e7a91336355730ce5f0a552ea09fdc9
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615330"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491734"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gérer Teams lors de la transition vers le nouveau Centre d’administration de Microsoft Teams
 
@@ -37,13 +37,13 @@ ms.locfileid: "58615330"
 
 La nouvelle expérience du Centre d’administration vous fournira une expérience unifiée pour gérer à la fois les Teams et les Skype Entreprise. Nous vous fournirons des fonctionnalités supplémentaires, des informations de bout en bout et nous avons la possibilité de gérer les paramètres Teams au niveau de l’utilisateur.
 
-![Capture d’écran du Microsoft Teams d’administration de l’utilisateur.](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Capture d’écran du Microsoft Teams d’administration.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
 ## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>Paramètres migré vers le nouveau Centre Microsoft Teams’administration
 
 Le tableau suivant identifie les sections de l’expérience Teams qui ont été migrées et indique la relation entre les paramètres actuels et les stratégies dans le nouveau portail d’administration.
 
-|Section des Teams dans Centre d’administration Microsoft 365  |Nom du paramètre (niveau client)  |Microsoft Teams centre d’administration   |Niveau : Client ou Utilisateur   |
+|Section des Teams dans Centre d'administration Microsoft 365  |Nom du paramètre (niveau client)  |Microsoft Teams centre d’administration   |Niveau : Client ou Utilisateur   |
 |---------|---------|---------|---------|
 |Général     |Afficher l’organigramme dans le profil personnel        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  Client       |
 |Général     |Utilisez Skype Entreprise pour les destinataires qui ne l’ont pas Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Client         |
@@ -77,7 +77,7 @@ Le tableau suivant identifie les sections de l’expérience Teams qui ont été
 |Messagerie     |Autoriser les utilisateurs à supprimer leurs propres messages         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Utilisateur         |
 |Messagerie     |Permet aux utilisateurs de discuter en privé         |[TeamsMesspolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |Utilisateur         |
 
-<sup>1</sup> Deprecated for Guest. L’activation ou la désactivation de l’invité peut désormais être gérée dans le centre Microsoft Teams’administration. L’activation ou la désactivation Teams pour les Enterprise, l’éducation pour les étudiants et les enseignants de l’éducation seront bientôt désactivées. Pour ce faire, vous devez affecter des licences dans le Centre d’administration Microsoft 365. Voir [Gérer l’accès des utilisateurs à Microsoft Teams.](user-access.md)
+<sup>1</sup> Deprecated for Guest. L’activation ou la désactivation de l’invité peut désormais être gérée dans le centre Microsoft Teams’administration. L’activation ou la désactivation Teams pour les Enterprise, l’éducation pour les étudiants et les enseignants de l’éducation seront bientôt désactivées. Pour ce faire, vous devez affecter des licences dans le Centre d'administration Microsoft 365. Voir [Gérer l’accès des utilisateurs à Microsoft Teams.](user-access.md)
 <br><br>
 <sup>2 Le</sup> chargement débordage est fractioné comme suit :
 
@@ -87,11 +87,11 @@ Le tableau suivant identifie les sections de l’expérience Teams qui ont été
 <sup>3 Les</sup> applications et applications externes par défaut peuvent être activées et désactivées au niveau de l’utilisateur dans TeamsAppPermissionPolicy. En outre, les applications peuvent être bloquées au niveau du client dans les paramètres d’application à l’échelle de l’organisation qui remplacent tous les paramètres utilisateur et client.
 
 > [!NOTE]
-> Vous continuerez à utiliser le tableau de bord Groupes dans le Centre d’administration Microsoft 365 pour la configuration liée aux Teams et aux canaux. Paramètres applications reste dans la zone Teams du Centre d’administration Microsoft 365 et est migré plus tard.
+> Vous continuerez à utiliser le tableau de bord Groupes dans le Centre d'administration Microsoft 365 pour la configuration liée aux Teams et aux canaux. Paramètres applications reste dans la zone Teams du Centre d'administration Microsoft 365 et est migré plus tard.
 
 ## <a name="manage-settings-during-the-migration"></a>Gérer les paramètres pendant la migration
 
-Vous pouvez continuer à modifier les paramètres du Centre d’administration Centre d’administration Microsoft 365 et Skype Entreprise’administration jusqu’à ce que la migration d’une section soit terminée pour votre client.
+Vous pouvez continuer à modifier les paramètres du Centre d’administration Centre d'administration Microsoft 365 et Skype Entreprise’administration jusqu’à ce que la migration d’une section soit terminée pour votre client.
 
 Le tableau suivant indique où vous pouvez gérer les fonctionnalités pendant la migration.
 
@@ -114,4 +114,4 @@ Le tableau suivant indique où vous pouvez gérer les fonctionnalités pendant l
 
 ## <a name="manage-settings-after-the-migration"></a>Gérer les paramètres après la migration
 
-Une fois la migration de ces paramètres terminée, nous les désactivons dans le centre d’administration Centre d’administration Microsoft 365 et Skype Entreprise. Ils peuvent ensuite être gérés dans le nouveau Centre d’administration Microsoft Teams.
+Une fois la migration de ces paramètres terminée, nous les désactivons dans le centre d’administration Centre d'administration Microsoft 365 et Skype Entreprise. Ils peuvent ensuite être gérés dans le nouveau Centre d’administration Microsoft Teams.
