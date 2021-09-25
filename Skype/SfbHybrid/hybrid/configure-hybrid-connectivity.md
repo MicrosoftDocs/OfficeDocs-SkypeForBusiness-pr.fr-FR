@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions pour l’implémentation de la connectivité hybride entre Skype Entreprise Server et Teams.
-ms.openlocfilehash: 272166852ef86da6318aa5fa2908697a93d65e02
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
+ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491694"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59682809"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>Configurer la connectivité hybride entre Skype Entreprise Server et Teams
 
@@ -45,11 +45,11 @@ Le tableau suivant répertorie les tâches requises pour configurer Skype Entrep
 
 ## <a name="dns-implications-for-on-premises-organizations-that-become-hybrid"></a>Implications DNS pour les organisations locales qui deviennent hybrides
 
-Par défaut, les locataires sont créés en mode TeamsOnly. Les administrateurs ne peuvent pas modifier cette configuration. Toutefois, les organisations hybrides ne doivent pas être en mode TeamsOnly, car cela rompreait la fédération pour leurs utilisateurs locaux. Teams dispose d’un mécanisme intégré pour s’assurer que la configuration TeamsOnly à l’échelle du client n’est pas appliquée aux nouveaux clients hybrides et qu’elle n’est pas supprimée des clients existants qui deviennent hybrides. Ce mécanisme est basé sur la valeur d’un enregistrement DNS LyncDiscover pour tout domaine Microsoft 365 vérifié (car un déploiement Skype Entreprise Server local aura dans la plupart des cas cet enregistrement), comme décrit ci-dessous.
+Par défaut, les locataires sont créés en mode TeamsOnly. Les administrateurs ne peuvent pas modifier cette configuration. Toutefois, les organisations hybrides ne doivent pas être en mode TeamsOnly, car cela rompreait la fédération pour leurs utilisateurs locaux. Teams dispose d’un mécanisme intégré pour garantir que la configuration TeamsOnly à l’échelle du client n’est pas appliquée pour les nouveaux clients hybrides, et que la configuration TeamsOnly à l’échelle du client est supprimée des clients *existants* qui deviennent hybrides. Ce mécanisme est basé sur la valeur de l’enregistrement DNS LyncDiscover pour tout domaine Microsoft 365 vérifié (car un déploiement local Skype Entreprise Server aura dans la plupart des cas cet enregistrement), comme décrit ci-dessous.
 
 Lorsqu’un nouvel Microsoft 365 est d’abord traitée, les opérations suivantes se produisent :
 - S’il n’existe pas encore de Microsoft 365 vérifiés, le client est créé en mode TeamsOnly. La valeur est définie par le biais de TeamsUpgradeOverridePolicy, qui peut uniquement être définie par Microsoft. Si la valeur de stratégie est UpgradeToTeams, elle est prioritaire sur n’importe quelle valeur de TeamsUpgradePolicy.
-- S’il existe des domaines Microsoft 365 vérifiés, mais qu’aucun enregistrement DNS lyncDiscover public n’est détecté, ou si des enregistrements LyncDiscover détectés pointent tous vers Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us, etc.), le client est créé en mode TeamsOnly (via TeamsUpgradeOverridePolicy).
+- S’il existe des domaines Microsoft 365 vérifiés, mais qu’aucun enregistrement DNS LyncDiscover public n’est détecté, ou si des enregistrements LyncDiscover détectés pointent tous vers Microsoft 365 (sipfed.online.lync.com, sipfed.online.gov.skypeforbusiness.us, etc.), le client est créé en mode TeamsOnly (via TeamsUpgradeOverridePolicy).
 - S’il existe au moins un domaine Microsoft 365 vérifié pour lequel un enregistrement LyncDiscover est détecté et que cet enregistrement pointe ailleurs que Microsoft 365, le client est créé en mode îles.
 
 Lorsqu’un client Microsoft 365 existant est réapprovisionnement (généralement en raison d’une modification dans les domaines vérifiés ou dans les détails de l’abonnement), les problèmes suivants se produisent :
