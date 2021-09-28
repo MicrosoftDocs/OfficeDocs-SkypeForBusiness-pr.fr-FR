@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lorsque vous obtenez des numéros de téléphone ou des numéros de port (transfert) pour votre organisation, vous devrez peut-être obtenir de l’aide et du support auprès de l’assistance RTC.
-ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 65ebe954fb9a8b101489c9add7739b24bdd529bc
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598468"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941857"
 ---
 # <a name="pstn-service-desk"></a>Assistance RTC 
 
@@ -61,7 +61,6 @@ Pour contacter l’assistance :
 - **[Faites part de vos commentaires](#view-and-manage-existing-cases)**– partagez vos commentaires avec nous. 
 
 - **[Votre nom]**  : mettre à jour votre page de profil. 
-
 
 ## <a name="create-a-new-case"></a>Créer un nouveau cas
 

@@ -3,6 +3,41 @@
 
 
 
+## <a name="week-of-september-20-2021"></a>Semaine du 20 septembre 2021
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 9/20/2021 | [Afficher vos affectations de stratégie dans le journal d’activité du Centre Microsoft Teams’administration](/MicrosoftTeams/activity-log) | modifié |
+| 9/20/2021 | [Disponibilité des applications Approbations dans Teams](/MicrosoftTeams/approval-admin) | modifié |
+| 9/20/2021 | [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.](/MicrosoftTeams/assign-policies) | modifié |
+| 9/20/2021 | [Contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
+| 9/20/2021 | [Teams pour l'éducation Assistant Stratégie pour appliquer facilement des stratégies pour un apprentissage sécurisé](/MicrosoftTeams/easy-policy-setup-edu) | modifié |
+| 9/20/2021 | [Obtenir des clients pour Microsoft Teams](/MicrosoftTeams/get-clients) | modifié |
+| 9/20/2021 | [Accès invité dans Microsoft Teams](/MicrosoftTeams/guest-access) | modifié |
+| 9/20/2021 | [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](/MicrosoftTeams/log-files) | modifié |
+| 9/20/2021 | [Migrer de Slack vers Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modifié |
+| 9/20/2021 | [Planifier la gestion du cycle de vie](/MicrosoftTeams/plan-teams-lifecycle) | modifié |
+| 9/20/2021 | [Préparer le réseau de votre organisation pour Microsoft Teams](/MicrosoftTeams/prepare-network) | modifié |
+| 9/20/2021 | [Configurer Audioconférence pour Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | modifié |
+| 9/20/2021 | [Configurer des webinaires dans Microsoft Teams](/MicrosoftTeams/set-up-webinars) | modifié |
+| 9/20/2021 | [Microsoft Teams Vue d’ensemble de PowerShell](/MicrosoftTeams/teams-powershell-overview) | modifié |
+| 9/20/2021 | [Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion](/MicrosoftTeams/tmr-meeting-recording-change) | modifié |
+| 9/20/2021 | [Salles Microsoft Teams](/MicrosoftTeams/rooms/index) | modifié |
+| 9/20/2021 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
+| 9/21/2021 | [Configurer l’administrateur pour l’application Microsoft Parents pour l’éducation](/MicrosoftTeams/edu-parents-app) | ajouté |
+| 9/21/2021 | [Gérer les stratégies de réunion dans Teams](/MicrosoftTeams/meeting-policies-in-teams) | modifié |
+| 9/22/2021 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
+| 9/22/2021 | [Utiliser les fichiers journaux pour le dépannage de Microsoft Teams](/MicrosoftTeams/log-files) | modifié |
+| 9/22/2021 | [Gérer les stratégies de réunion pour l’audio et la vidéo](/MicrosoftTeams/meeting-policies-audio-and-video) | modifié |
+| 9/22/2021 | [Configuration Messagerie vocale Cloud](/MicrosoftTeams/set-up-phone-system-voicemail) | modifié |
+| 9/23/2021 | [Obtenir des numéros de téléphone de service pour les forfaits d’appels](/MicrosoftTeams/getting-service-phone-numbers) | modifié |
+| 9/23/2021 | [Gérer Teams transition vers le nouveau Centre Teams’administration](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modifié |
+| 9/23/2021 | [Rechercher des numéros de téléphone pour les utilisateurs](/MicrosoftTeams/search-for-phone-numbers-for-users) | modifié |
+| 9/23/2021 | [Étiquettes de sensibilité pour Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | modifié |
+| 9/24/2021 | [Microsoft Teams Notes de publication de PowerShell](/MicrosoftTeams/teams-powershell-release-notes) | modifié |
+
+
 ## <a name="week-of-september-13-2021"></a>Semaine du 13 septembre 2021
 
 

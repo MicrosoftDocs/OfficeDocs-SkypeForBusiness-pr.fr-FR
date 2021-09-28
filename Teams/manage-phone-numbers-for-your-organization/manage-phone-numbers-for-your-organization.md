@@ -1,9 +1,8 @@
 ---
 title: Gérer les numéros de téléphone pour une forfait d’appels
-author: CarolynRowe
-ms.author: crowe
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -27,19 +26,19 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Découvrez comment obtenir et gérer les utilisateurs (abonnés) et les numéros de téléphone de service (gratuits et gratuits) pour les utilisateurs Microsoft Teams de votre organisation.
-ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432526"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942337"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>Gérer les numéros de téléphone pour une forfait d’appels
 
-Il existe quatre façons d’obtenir des numéros de téléphone d’utilisateur (abonnés) et de service (gratuits et gratuits) pour une offre d’appels :
+Il existe quatre façons d’obtenir des numéros de téléphone des utilisateurs (abonnés) et des services (gratuits et gratuits) pour les forfaits d’appels :
 
 - [Obtention de nouveaux numéros de téléphone utilisateur dans le Microsoft Teams d’administration.](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)
-- [Obtention de nouveaux numéros de téléphone de service dans le Microsoft Teams’administration.](../getting-service-phone-numbers.md#get-new-service-numbers)
+- [Obtention de nouveaux numéros de téléphone de service dans le Microsoft Teams d’administration.](../getting-service-phone-numbers.md#get-new-service-numbers)
 - [Transférez _ou transférez_ vos numéros de téléphone existants.](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)
 - Utilisez un formulaire de demande pour les nouveaux numéros de téléphone non répertoriés dans le Microsoft Teams d’administration.
 
@@ -47,7 +46,7 @@ Il existe quatre façons d’obtenir des numéros de téléphone d’utilisateur
 > Pour les nouveaux numéros de téléphone en Australie, voir [Services de téléphonie Telstra](https://aka.ms/TelstraVoicePlan). Pour les nouveaux numéros de téléphone au Japon, voir [SoftBank Voice Services.](https://aka.ms/SoftBankVoicePlan)
 
 ***
-Si vous connaissez le type de formulaire que vous recherchez, utilisez la zone de sélection pour sélectionner le pays/la région dans lequel vous voulez obtenir des numéros.
+Si vous connaissez le type de formulaire que vous recherchez, utilisez la zone de la zone de sélection pour sélectionner le pays/la région dans lequel vous voulez obtenir des numéros.
 
 **Sélectionnez votre pays ou région pour trouver les formulaires de LOA PDF téléchargeables dont vous aurez besoin**
 > [!div class="op_single_selector"]
@@ -56,8 +55,10 @@ Si vous connaissez le type de formulaire que vous recherchez, utilisez la zone d
 > - [Autriche](phone-number-management-for-austria.md)
 > - [Belgique](phone-number-management-for-belgium.md)
 > - [Canada](phone-number-management-for-canada.md)
+> - [Croatie](phone-number-management-for-croatia.md)
 > - [République Tchèque](phone-number-management-for-czech-republic.md)
 > - [Danemark](phone-number-management-for-denmark.md)
+> - [Estonie](phone-number-management-for-estonia.md)
 > - [Finlande](phone-number-management-for-finland.md)
 > - [France](phone-number-management-for-france.md)
 > - [Allemagne](phone-number-management-for-germany.md)
@@ -65,6 +66,8 @@ Si vous connaissez le type de formulaire que vous recherchez, utilisez la zone d
 > - [Irlande](phone-number-management-for-ireland.md)
 > - [Italie](phone-number-management-for-italy.md)
 > - [Japon](phone-number-management-for-japan.md)
+> - [Lettonie](phone-number-management-for-latvia.md)
+> - [Lituanie](phone-number-management-for-lithuania.md)
 > - [Luxembourg](phone-number-management-for-luxembourg.md)
 > - [Nouvelle-Zélande](phone-number-management-for-new-zealand.md)
 > - [Norvège](phone-number-management-for-norway.md)
@@ -73,6 +76,7 @@ Si vous connaissez le type de formulaire que vous recherchez, utilisez la zone d
 > - [Roumanie](phone-number-management-for-romania.md)
 > - [Singapour](phone-number-management-for-singapore.md)
 > - [République de Slovaquie](phone-number-management-for-slovakia.md)
+> - [Slovénie](phone-number-management-for-slovenia.md)
 > - [Espagne](phone-number-management-for-spain.md)
 > - [Suède](phone-number-management-for-sweden.md)
 > - [Suisse](phone-number-management-for-switzerland.md)
@@ -90,7 +94,7 @@ Les sections suivantes décrivent les formulaires de demande de nouveaux numéro
 
 Chaque pays ou région dispose d’instructions différentes, de différents types de numéros de téléphone (géographiques/non géographiques et de services (gratuits/gratuits) et de règles/réglementations pour obtenir des numéros de téléphone afin qu’ils soient utilisés dans Microsoft Teams.
 
-Parfois(en fonction de votre pays ou région) vous ne pourrez pas obtenir de nouveaux numéros de téléphone d’utilisateur (abonnés)  ou de service (gratuits ou gratuits) à l’aide du Centre d’administration Microsoft Teams ou vous aurez peut-être besoin de numéros de téléphone spécifiques (demandes personnalisés) ou d’indicatifs régionaux spécifiques. 
+Parfois (en fonction de votre pays ou région) vous ne pourrez pas obtenir de nouveaux numéros de téléphone d’utilisateur (abonnés) ou de service  (gratuits ou gratuits) à l’aide du Centre d’administration Microsoft Teams ou vous aurez peut-être besoin de numéros de téléphone spécifiques (demandes personnalisés) ou d’indicatifs régionaux spécifiques. 
 
 Si c’est le cas, vous devez télécharger le formulaire de LOA PDF correct (par pays ou région et type de numéros de téléphone) et nous le renvoyer. Notre service prend la demande à partir de là et commence à traiter votre demande.
 
@@ -113,11 +117,11 @@ Si vous avez besoin d’aide, contactez le service [PSTN Service Desk.](./contac
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- Pour savoir _si et_ quels plans d’appel sont disponibles dans votre pays ou région, lisez la disponibilité des pays et de la région pour les forfaits [d’audioconférence et d’appel.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+- Pour savoir _si et_ quelles sont les forfaits d’appels disponibles dans votre pays ou région, lisez la disponibilité des pays et de la région pour les forfaits [d’audioconférence et d’appel.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - Pour vous aider à choisir le type de numéros de téléphone correct, lisez les différents types de numéros utilisés [pour les plans d’appel.](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - Pour obtenir de l’aide sur la configuration des numéros de téléphone pour votre organisation, lisez : Contact du support pour les [produits pour les entreprises - Aide de l’administrateur.](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Conditions générales relatives aux appels d'urgence](../emergency-calling-terms-and-conditions.md)
 
