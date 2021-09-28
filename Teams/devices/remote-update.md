@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Mettez à jour Microsoft Teams téléphones portables, Teams panneaux et barres de collaboration à distance à l’aide du Centre Teams d’administration
-ms.openlocfilehash: c35fc24be2456c4ee1583e7a073a7c4dcf8e7214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 68abf87a0e7e84f3fe5b9e6d7e4f57db55c63450
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727463"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984729"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Mettre à jour Microsoft Teams appareils à distance
 
@@ -49,7 +49,7 @@ Les mises à jour du microprogramme de l’appareil sont appliquées automatique
 Pour choisir le comportement de mise à jour automatique pour vos appareils, vous pouvez :
 
 1. Connectez-vous Microsoft Teams centre d’administration en vous rendant sur le https://admin.teams.microsoft.com site.
-2. Naviguez **entre les téléphones** IP des  >  **appareils** ou les barres de **collaboration** **ou Teams panneaux.**
+2. Naviguez **Teams téléphones**  >  **IP des appareils** ou barres de **collaboration** ou **Teams panneaux.**
 3. Sélectionnez un ou plusieurs appareils, puis mettre **à jour.**
 4. Sous **Mise à jour automatique du microprogramme,** sélectionnez l’une des actions suivantes :
     - **Dès que disponible** La mise à jour du microprogramme de l’appareil le deuxième plus récent est appliquée le premier week-end après la publication de la dernière mise à jour.
@@ -66,7 +66,7 @@ Lorsque vous mettez à jour un ou plusieurs appareils à l’aide du Centre d’
 Pour mettre à jour manuellement les appareils distants, vous pouvez :
 
 1. Connectez-vous Microsoft Teams centre d’administration en vous rendant sur le https://admin.teams.microsoft.com site.
-2. Naviguez **entre les téléphones** IP des  >  **appareils** ou les barres de **collaboration** **ou Teams panneaux.**
+2. Naviguez **Teams téléphones**  >  **IP des appareils** ou barres de **collaboration** ou **Teams panneaux.**
 3. Sélectionnez un ou plusieurs appareils, puis mettre **à jour.**
 4. Sous **Mises à jour manuelles,** **sélectionnez Planifier** si vous voulez planifier la mise à jour pour une date et une heure futures. Les mises à jour sont appliquées à la date et l’heure du fuseau horaire sélectionné dans **le fuseau horaire.**
 

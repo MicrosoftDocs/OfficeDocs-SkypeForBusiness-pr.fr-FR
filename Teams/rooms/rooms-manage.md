@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter la maintenance et les opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733583"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984669"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
@@ -34,7 +34,7 @@ Avec Microsoft Teams Centre d’administration, vous pouvez :
 - Passer en revue l’activité des réunions passées et présentes (par exemple, détails sur la qualité des appels, l’état du réseau et la connectivité, et nombre de participants)
 - Voir les périphériques (tels que les caméras et les projecteurs) connectés à un Microsoft Teams de salle
 
-Pour gérer salles Teams appareils mobiles, ouvrez le [Centre Microsoft Teams’administration](https://admin.teams.microsoft.com) et allez sur **Appareils**  >  **salles Teams.**
+Pour gérer salles Teams appareils mobiles, ouvrez le Centre [Microsoft Teams’administration](https://admin.teams.microsoft.com) des appareils mobiles et Teams **la**  >  salles Teams.
 
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="salles Teams pages de synthèse dans Teams centre d’administration.":::
 
@@ -109,7 +109,7 @@ Si vous supprimez un appareil alors qu’il est toujours configuré avec un nom 
 
 Pour supprimer un ou plusieurs appareils, vous pouvez :
 
-1. Sélectionnez **les** salles Teams appareils à  >   supprimer.
+1. Sélectionnez **Teams la**  >  **salles Teams** et sélectionnez les appareils que vous voulez supprimer.
 1. Sélectionnez **Supprimer**.
 
 ## <a name="download-device-logs"></a>Télécharger les journaux de l’appareil
@@ -118,7 +118,7 @@ Vous pouvez télécharger une copie des fichiers journaux de diagnostic d’un a
 
 Pour télécharger les journaux d salles Teams appareil sur votre ordinateur, vous pouvez :
 
-1. Allez sur **Appareils** salles Teams sélectionnez le nom de l’appareil à partir de qui vous  >   voulez télécharger les journaux.
+1. Allez à **Teams la** salles Teams et sélectionnez le nom de l’appareil à partir de qui vous voulez télécharger les  >   journaux.
 1. Sélectionnez **Télécharger les journaux de l’appareil.** L’accès aux journaux de l’appareil peut prendre plusieurs minutes.
 1. Sélectionnez **l’onglet** Historique, puis sélectionnez le lien du fichier journal sous **Fichier diagnostics.** Un fichier zip contenant les fichiers journaux de diagnostic de votre appareil est téléchargé dans le dossier Téléchargements par défaut de votre navigateur.
 

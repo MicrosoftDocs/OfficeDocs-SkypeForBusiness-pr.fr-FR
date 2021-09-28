@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams pour l’audio et la vidéo.
-ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482388"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984619"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Paramètres de stratégie de réunion pour l’audio & vidéo
 
@@ -169,7 +169,7 @@ Vous pouvez ajouter des images d’arrière-plan personnalisées à utiliser par
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Sélectionnez **Stratégies de**  >  **réunion Personnaliser les images de réunion.**
+2. Sélectionnez **Stratégies de**  >  **réunion , Personnaliser** les images de  >  **réunion.**
 
    ![Sélection des stratégies de réunion avec le bouton Personnaliser les images de réunion mis en évidence.](media/custom-background-image-button.png)
 

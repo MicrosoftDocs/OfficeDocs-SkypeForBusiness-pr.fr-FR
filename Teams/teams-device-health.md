@@ -17,16 +17,16 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 40f03e6713cd68d2de61c6ee1368f3fd44b288ad
-ms.sourcegitcommit: fd3d9118afa15d4750c0b1a98c2c85fcc76cfdc5
+ms.openlocfilehash: d5e98e65c35b8319a7e4f8675b68d530fa382c31
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684675"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984769"
 ---
 # <a name="manage-the-health-of-teams-devices"></a>Gérer l’état d’Teams appareils
 
-Les administrateurs peuvent surveiller l’état des appareils installés Microsoft Teams’aide de leur état d’état, ce qui indique la gravité des problèmes. Pour vérifier l’état d’un appareil, vous pouvez consulter la liste des appareils présente sous la **section** Appareils du Teams d’administration. La colonne d’état d’état dans cette liste indique l’état d’état actuel de l’appareil. La sélection de ce statut ouvre le **panneau État** d’état d’santé, qui fournit des détails sur les problèmes d’état.
+Les administrateurs peuvent surveiller l’état des appareils installés Microsoft Teams’aide de leur état d’état, ce qui indique la gravité des problèmes. Pour vérifier l’état d’un appareil, vous pouvez consulter la liste des appareils présente sous la **section** appareils Teams du Centre d’administration Teams’utilisateur. La colonne d’état d’état dans cette liste indique l’état d’état actuel de l’appareil. La sélection de ce statut ouvre le **panneau État** d’état d’santé, qui fournit des détails sur les problèmes d’état.
 
 De nombreux types de problèmes peuvent contribuer à l’état d’état des appareils, et le système du centre d’administration Teams évalue la gravité de ces problèmes à mesure qu’ils se produisent.
 
@@ -41,12 +41,12 @@ Lorsque vous affichez les détails périphériques sur une page d’un appareil,
 Par défaut, tous les périphériques ont un **impact critique sur** l’état de l’appareil. Si un périphérique est déconnecté, l’état  de l’appareil parent devient critique et ce problème s’affiche sous Problèmes **critiques** dans le panneau d’état d’état d’état.
 
 > [!NOTE]
-> Les catégories périphériques **HDMI ingest** et **Compute** ne sont pas disponibles pour la personnalisation, car elles sont essentielles au fonctionnement de l’appareil parent.
+> Les catégories périphériques **HDMI ingest** et **Compute** ne sont pas disponibles pour la personnalisation, car elles sont essentielles au fonctionnement du dispositif parent.
 
 ## <a name="how-does-this-work"></a>Comment cela fonctionne-t-il ?
 
 1. Un administrateur peut sélectionner les périphériques dont il souhaite modifier l’impact sur l’état d’état. Ils peuvent ensuite sélectionner Gérer **l’impact sur l’état d’santé.** Ils peuvent également trouver l’option Gérer **l’impact sur** l’état sous l’onglet **Périphériques** sur chaque carte périphérique.
-1. Le **panneau d’impact** sur l’état d’santé s’ouvre et l’administrateur peut sélectionner le niveau d’impact souhaité pour les périphériques sélectionnés et l’enregistrer.
+1. Le **panneau d’impact** sur l’état d’santé s’ouvre, et l’administrateur peut sélectionner le niveau d’impact souhaité pour les périphériques sélectionnés et l’enregistrer.
 
 | Paramètres Options | Description |
 |------------------|-------------|
@@ -63,4 +63,4 @@ Actuellement, cette fonctionnalité est disponible pour gérer l’impact sur l�
 
 Si l’impact sur l’état des périphériques est moindre, les administrateurs peuvent ne pas remarquer de problèmes lorsqu’ils se produisent. Vous devez être attentif aux appareils à haute priorité qui ont besoin d’une surveillance étroite.
 
-Par exemple, si une alerte est configurée pour être déclenchée pour confroom1 si son état devient **Critique.** L’administrateur a réduit l’impact sur l’affichage et le **haut-parleur** pour cette salle de réunion de la valeur par défaut **Critique** à Non urgent. Si l’affichage est déconnecté, l’état de la conférence ConfRoom1 **n’est plus urgent.** Dans ce cas, l’alerte ne sera pas déclenchée.
+Par exemple, si une alerte est configurée pour être déclenchée pour confroom1 si son état devient **Critique.** L’administrateur a réduit l’impact sur l’affichage et le **haut-parleur** pour cette salle de réunion de la valeur par défaut **Critique** à Non urgent. Désormais, si l’affichage est déconnecté, l’état de la conférence ConfRoom1 **n’est pas urgent.** Dans ce cas, l’alerte ne sera pas déclenchée.

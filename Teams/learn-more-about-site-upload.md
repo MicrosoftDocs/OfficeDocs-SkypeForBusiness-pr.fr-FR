@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 189b821e7238911190c4c72c07b863fc961f3074
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589718"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984609"
 ---
 # <a name="add-and-update-reporting-labels"></a>Ajouter et mettre à jour les étiquettes de rapport
 
@@ -40,7 +40,7 @@ Les étiquettes et les données de localisation des rapports que vous fournissez
 
 **Pour modifier le tableau des sous-réseaux et des emplacements**
 
-1. Dans le navigation gauche du Centre Microsoft Teams d’administration, cliquez sur **Étiquettes**  >  **de rapport d’emplacements.**
+1. Dans le navigation gauche du Centre Microsoft Teams d’administration, cliquez sur **Analyse & étiquettes**  >  **de rapports de rapports.**
 2. Cliquez **Télécharger données.**
 3. Dans le **Télécharger données,** cliquez sur Sélectionner un **fichier,** puis recherchez et chargez votre fichier .csv ou .tsv.
 4. Cliquez **Télécharger**.
@@ -61,7 +61,7 @@ Utilisez l’exemple suivant pour créer votre fichier de données.
 
 Pour plus d’informations sur la mise en forme de votre fichier de données, voir Format de fichier de données client et [Structure du fichier de données du bâtiment.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer l’analyse des appels](set-up-call-analytics.md)
 

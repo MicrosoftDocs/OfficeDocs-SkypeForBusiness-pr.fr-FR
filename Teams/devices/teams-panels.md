@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article donne une vue d’ensemble des fonctionnalités qui sont Microsoft Teams panneaux.
-ms.openlocfilehash: 5779d9e41cb7adb4a502e590c87babbb277cc33e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596238"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984579"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams panneaux
 
@@ -45,7 +45,7 @@ Pour en savoir plus sur ces fonctionnalités et sur leur utilisation, voir [Util
 
 ## <a name="partners-certified-for-teams-panels"></a>Partenaires certifiés pour les Teams panneaux
 
-Vous pouvez acheter vos panneaux Teams l’un des partenaires suivants :
+Vous pouvez acquérir vos Teams panneaux de l’un des partenaires suivants :
 
 - Crestron
 - Yealink
@@ -56,7 +56,7 @@ La configuration matérielle, logicielle et requise pour le réseau pour déploy
 
 ## <a name="license-requirement"></a>Conditions de licence requises
 
-Pour utiliser Teams panneaux, vous devez Salles Microsoft Teams [licence standard.](../rooms/rooms-licensing.md)
+Pour utiliser Teams panneaux, vous devez utiliser [Salles Microsoft Teams Standard licence.](../rooms/rooms-licensing.md)
 
 > [!Note]
 > Si vous avez déjà Salles Microsoft Teams déployé dans l’espace de réunion où vous installez des panneaux Teams, vous n’avez pas besoin d’une licence supplémentaire pour utiliser des Teams panneaux.
@@ -84,7 +84,7 @@ Les espaces de réunion dans votre organisation peuvent avoir des configurations
 
 ## <a name="site-readiness"></a>État de préparation du site
 
-Pendant la livraison des appareils commandés à votre organisation, travaillez avec votre réseau, vos installations et vos équipes audio-visuelles pour vous assurer que les exigences de déploiement sont respectées et que chaque espace de réunion et de site est prêt en termes de puissance et de mise en réseau.
+Pendant la livraison des appareils commandés à votre organisation, travaillez avec votre réseau, vos installations et vos équipes audio-visuelles pour vous assurer que les exigences de déploiement sont respectées et que chaque site et espace de réunion est prêt en termes de puissance et de mise en réseau.
 
 Nos recommandations pour les sites Teams panneaux sont les suivantes :
 
@@ -105,11 +105,11 @@ La planification de la configuration et du déploiement couvre les aspects clés
 
 Chaque périphérique Teams panneaux nécessite un compte Microsoft 365 ressource de salle. Vous utilisez les informations d’identification du compte de ressource pour vous Microsoft Teams’application sur l’appareil des panneaux.
 
-Pour configurer un compte de Microsoft 365 pour les panneaux Teams, nous vous recommandons d’acheter une licence Salles Microsoft Teams [Standard.](#license-requirement) Pour plus d’informations sur la création d’un compte de ressource et l’attribution d’une licence, voir Créer un compte de ressource à l’aide de [la Centre d’administration Microsoft 365.](resource-account-ui.md)
+Pour configurer un compte de ressource Microsoft 365 pour les panneaux de Teams, nous vous recommandons d’acheter [une Salles Microsoft Teams Standard licence.](#license-requirement) Pour plus d’informations sur la création d’un compte de ressource et l’attribution d’une licence, voir Créer un compte de ressource à l’aide de [la Centre d'administration Microsoft 365.](resource-account-ui.md)
 
 > [!NOTE]
 >
->- Si vous avez déjà un compte de ressource de salle déjà créé pour l’espace de réunion où vous installez des panneaux, utilisez le même compte de ressource de salle pour vous connectez sur le périphérique des panneaux. Toutefois, assurez-vous que la licence standard Salles Microsoft Teams de salle est attribuée au compte de ressource de salle afin de l’utiliser en tant que compte de ressource de groupement.
+>- Si vous avez déjà un compte de ressource de salle déjà créé pour l’espace de réunion où vous installez des panneaux, utilisez le même compte de ressource de salle pour vous connectez sur le périphérique des panneaux. Toutefois, assurez-vous que la licence de ressource Salles Microsoft Teams Standard de salle est attribuée au compte de ressource de salle afin de l’utiliser en tant que compte de ressource de groupement.
 >
 >- Si vous avez déjà un Salles Microsoft Teams déployé dans l’espace de réunion où vous installez des panneaux de Teams, vous n’avez pas besoin d’acheter une licence distincte pour le déploiement de panneaux. L’administrateur se connecté à l’appareil panneaux avec les mêmes informations d’identification que Salles Microsoft Teams pour le même espace.
 >
@@ -125,7 +125,7 @@ Une fois que vous avez déployé des panneaux, vous devez les tester. Vérifiez 
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Gérer Teams panneaux dans votre organisation
 
-Pour gérer vos panneaux Teams panneaux, dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur Panneaux Teams  >  **panneaux.** À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams.](device-management.md)
+Pour gérer vos panneaux Teams panneaux, dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez sur Teams **panneaux** Teams  >  **appareils.** À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams.](device-management.md)
 
 ## <a name="next-steps"></a>Étapes suivantes
 

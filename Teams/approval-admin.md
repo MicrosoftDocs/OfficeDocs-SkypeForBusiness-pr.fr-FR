@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0c85019878305764477d6d5902e49d8b69376e0
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: cc74480316bca0c958d5badc7168ce6d1651e581
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456304"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984719"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -120,7 +120,7 @@ L’application Approbations est disponible par défaut. Vous pouvez désactiver
 
   5. Sélectionnez le bouton bascule pour désactiver l’application pour votre organisation.
 
-     ![affiche les détails de l’application Approbations.](media/approvals-details.png)
+     ![affiche les détails de l’application Approbations.](media/approvals-details-new.png)
 
 ## <a name="retention-policy"></a>Stratégie de rétention
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment mettre en service à distance et vous connectez pour Teams appareils Android
-ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733313"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984739"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Mise en service à distance et se connectez pour Teams appareils Android
 
@@ -61,7 +61,7 @@ La liste suivante présente les conditions requises pour le microprogramme de l�
 Pour mettre en service un nouvel appareil, vous suivrez les étapes suivantes.
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
-2. Développez **Périphériques.**
+2. Développez **Teams Appareils mobiles.**
 3. Sélectionnez **Provision new device** from the **Actions** tab.
 
 Dans la **fenêtre Provision de nouveaux appareils,** vous pouvez ajouter l’adresse mac manuellement ou télécharger un fichier.
