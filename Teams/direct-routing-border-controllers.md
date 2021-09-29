@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b02bd27f15b6db4fed2835513d043c7f6561a681
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 9177f4fd3a95cfd0f69aeb122c6de1b1b244f9f9
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456534"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942359"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -157,6 +157,12 @@ Le tableau suivant répertorie les appareils vérifiés pour l’interopérabili
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  Logiciel VME version 8.3.0.1.2 |     &#10004;     |
 | [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000. Version logicielle : 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000. Version logicielle : 8.1.1 (build 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 302. Version logicielle : 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 304. Version logicielle : 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 2900A. Version logicielle : 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 4806. Version logicielle : 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 4808. Version logicielle : 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
+| [Ruban](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Version logicielle : 16.2.0](https://support.sonus.net/display/VOSDOC162/Configuring+VOS+for+Microsoft+Teams+Direct+Routing)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode avec Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
 Pour nous faire part de vos commentaires sur Teams, tels que des idées de nouvelles fonctionnalités, consultez [Uservoice](https://microsoftteams.uservoice.com).
