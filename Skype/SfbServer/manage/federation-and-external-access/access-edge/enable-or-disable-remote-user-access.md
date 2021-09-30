@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Si vous activez l’accès des utilisateurs distants pour les utilisateurs distants, les utilisateurs distants pris en charge se connectent via Internet et n’ont pas besoin de se connecter à l’aide d’un VPN pour collaborer avec des utilisateurs internes à l’aide de Skype Entreprise Server.
-ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 743ec476cc1541fa4163a838f333419280779611
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608191"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014528"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Activer ou désactiver l’accès des utilisateurs distants dans Skype Entreprise Server
 
@@ -45,9 +45,9 @@ Pour prendre en charge l’accès des utilisateurs distants, vous devez l’acti
 
 5.  Dans **Modifier la configuration du serveur Edge d’accès**, effectuez l’une des opérations suivantes :
     
-      - Pour activer l’accès des utilisateurs distants pour votre entreprise, activez la case à cocher **Activer l’accès des utilisateurs distants**.
+    - Pour activer l’accès des utilisateurs distants pour votre entreprise, activez la case à cocher **Activer l’accès des utilisateurs distants**.
     
-      - Pour désactiver l’accès des utilisateurs distants pour votre entreprise, désactivez la case à cocher **Activer l’accès des utilisateurs distants**.
+    - Pour désactiver l’accès des utilisateurs distants pour votre entreprise, désactivez la case à cocher **Activer l’accès des utilisateurs distants**.
 
 6.  Cliquez sur **Valider**.
 
@@ -60,14 +60,16 @@ L’accès des utilisateurs distants peut être géré à l’Windows PowerShell
 
 ## <a name="to-enable-remote-user-access"></a>Pour activer l’accès des utilisateurs distants
 
-  - Pour activer l’accès des utilisateurs distants, définissez la valeur de la propriété **AllowOutsideUsers** sur True ($True) :
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+Pour activer l’accès des utilisateurs distants, définissez la valeur de la propriété **AllowOutsideUsers** sur True ($True) :
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+```
 
 ## <a name="to-disable-remote-user-access"></a>Pour désactiver l’accès des utilisateurs distants
 
-  - Pour désactiver l’accès des utilisateurs distants, définissez la valeur de la propriété **AllowOutsideUsers** sur False ($False) :
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+Pour désactiver l’accès des utilisateurs distants, définissez la valeur de la propriété **AllowOutsideUsers** sur False ($False) :
 
-
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+```

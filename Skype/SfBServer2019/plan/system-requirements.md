@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: 'Résumé : Préparez vos serveurs Skype Entreprise Server 2019 et votre infrastructure de domaine avec cette rubrique. Le matériel, le système d’exploitation, les bases de données, les logiciels, la configuration système requise et les recommandations, ainsi que le DNS de certificat, le partage de fichiers et les informations Active Directory, sont là pour garantir une installation et un déploiement réussis de votre batterie de serveurs.'
-ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cb1d7464406ae089fd31c31971cb246d79a83edb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728363"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011748"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>System requirements for Skype Entreprise Server 2019
  
@@ -49,31 +49,31 @@ Une fois votre topologie en panne (et si ce n’est pas le cas, consultez la rub
   
 Matériel recommandé pour les Édition Standard serveurs :
 
-|**Composant matériel**|**Recommandée**|
+|Composant matériel|Recommandé|
 |:-----|:-----|
-|UC  <br/> |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2019.  <br/> |
-|Mémoire  <br/> |32 gigaoctets (Go).  <br/> |
-|Disque  <br/> |SOIT :  <br/> • 8 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (deux disques utilisant RAID 1 et 6 utilisant RAID 10).  <br/> OU  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 8 disques mécaniques 10000 RPM.  <br/> |
-|Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux et les serveurs Édition Standard serveurs. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.  <br/> |
+|UC   |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2019.   |
+|Mémoire   |32 gigaoctets (Go).   |
+|Disque   |SOIT :  <br/> • 8 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (deux disques utilisant RAID 1 et 6 utilisant RAID 10).  <br/> OR  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 8 disques mécaniques 10000 RPM.   |
+|Réseau   |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux et les serveurs Édition Standard serveurs. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.   |
 
 
 Matériel recommandé pour les serveurs frontux et les serveurs frontux :
   
-|**Composant matériel**|**Recommandée**|
+|Composant matériel|Recommandé|
 |:-----|:-----|
-|UC  <br/> |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur. <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2019.  <br/> |
-|Mémoire  <br/> |64 gigaoctets (Go).  <br/> |
-|Disque  <br/> |SOIT :  <br/> • 8 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (deux disques utilisant RAID 1 et 6 utilisant RAID 10).  <br/> OU  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 8 disques mécaniques 10000 RPM.  <br/> |
-|Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux et les serveurs Édition Standard serveurs. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.  <br/> |
+|UC   |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur. <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2019.   |
+|Mémoire   |64 gigaoctets (Go).   |
+|Disque   |SOIT :  <br/> • 8 disques durs ou plus de 1 0000 TPM avec au moins 72 Go d’espace disque libre (deux disques utilisant RAID 1 et 6 utilisant RAID 10).  <br/> OR  <br/> • Des disques SSD (Solid State Drives) capables de fournir le même espace libre et des performances similaires à 8 disques mécaniques 10000 RPM.   |
+|Réseau   |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double  ou multi-accueil ne sont pas pris en charge pour les serveurs frontaux, les serveurs frontaux et les serveurs Édition Standard serveurs. <br/> Tant qu’ils ne sont pas exposés au système d’exploitation et qu’ils sont utilisés pour surveiller et gérer le matériel du serveur, vous pouvez avoir des systèmes de gestion hors bande, tels que DRAC ou ILO. Ce scénario ne constitue pas un serveur multi-accueil et il est pris en charge.   |
    
 Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonomes et les directeurs :
   
-|**Composant matériel**|**Recommandée**|
+|Composant matériel|Recommandé|
 |:-----|:-----|
-|UC  <br/> |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2019.  <br/> |
-|Mémoire  <br/> |32 gigaoctets.  <br/> |
-|Disque  <br/> |SOIT :  <br/> • 4 disques durs ou plus de 1 0000 MPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x).  <br/> OU  <br/> • Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.  <br/> |
-|Réseau  <br/> |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double ou multi-accueil ne **sont** pas pris en charge pour les serveurs d’interopation vidéo et les directeurs. <br/> Les serveurs Edge nécessitent deux interfaces réseau qui sont des cartes réseau double port, 1 Gbits/s ou plus (ou deux cartes réseau couplées, pour un total de quatre, chaque paire étant associé à une seule adresse MAC et une seule adresse IP, pour un total de deux paires).  <br/> Sur les serveurs de médiation autonomes, l’installation de cartes d’interface réseau supplémentaires pour permettre la configuration d’une adresse IP PSTN spécifique est prise en charge.  <br/> |
+|UC   |Processeur double Intel Xeon E5-2673 v3, 6 cœurs, 2,4 gigahertz (GHz) ou supérieur.  <br/> Les processeurs Intel Itanium ne sont pas pris en charge pour Skype Entreprise Server 2019.   |
+|Mémoire   |32 gigaoctets.   |
+|Disque   |SOIT :  <br/> • 4 disques durs ou plus de 1 0000 MPM avec au moins 72 Go d’espace disque libre (les disques doivent être dans une configuration RAID 1 2x).  <br/> OR  <br/> • Disques SSD (Solid State Drive) capables de fournir le même espace libre et des performances similaires à 4 disques mécaniques 10000 RPM.   |
+|Réseau   |1 carte réseau double port, 1 Gbits/s ou plus (2 cartes réseau peuvent être utilisées, mais elles doivent être liées à une seule adresse MAC et une seule adresse IP).  <br/> Les configurations à double ou multi-accueil ne **sont** pas pris en charge pour les serveurs d’interopation vidéo et les directeurs. <br/> Les serveurs Edge nécessitent deux interfaces réseau qui sont des cartes réseau double port, 1 Gbits/s ou plus (ou deux cartes réseau couplées, pour un total de quatre, chaque paire étant associé à une seule adresse MAC et une seule adresse IP, pour un total de deux paires).  <br/> Sur les serveurs de médiation autonomes, l’installation de cartes d’interface réseau supplémentaires pour permettre la configuration d’une adresse IP PSTN spécifique est prise en charge.   |
 
 
 > [!NOTE]
@@ -88,11 +88,8 @@ Matériel recommandé pour les serveurs Edge, les serveurs de médiation autonom
 
 Une fois le matériel en place, vous devez installer le système d’exploitation qui vous permettra d’installer et d’utiliser correctement Skype Entreprise Server 2019.
   
-|||
-|:-----|:-----|
-|Windows Server 2019 <br/> |
-|Windows Server 2016 <br/> ||
-||
+- Windows Server 2019 
+- Windows Server 2016
    
 Tout autre que les systèmes d’exploitation répertoriés ici ne fonctionne pas correctement ; N’essayez pas d’installer Skype Entreprise Server 2019. Par exemple, l’option Server Core n’est pas répertoriée et n’est donc pas prise en charge.
 
@@ -117,21 +114,21 @@ Vous devrez installer ou configurer certains éléments pour n’importe quel se
   
  **Tous les serveurs :**
   
-|**Logiciel/rôle**|**Détails**|
+|Logiciel/rôle|Détails|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |Tous Skype Entreprise Server serveurs doivent Windows PowerShell 3.0.  <br/> • Il doit être installé par défaut avec Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |Les services WCF sont une fonctionnalité installée en tant que fonctionnalité Windows, sous Le Gestionnaire de serveur **,** initialement aucun téléchargement n’est nécessaire.  <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et que vous l’activez, que l’option **d’activation HTTP** est également cochée et installée, comme ceci : <br/> ![Capture d’écran montrant l’option d’activation HTTP .NET Framework fonctionnalités 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre vidéo supplémentaire vous disant que d’autres éléments doivent être installés pour que l’activation HTTP soit installée. C’est normal . cliquez sur OK et allez de l’avant. Si vous n’obtenez pas cette fenêtre fenêtre, vous pouvez supposer que ces éléments sont déjà installés et continuer.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Skype Entreprise Server nécessite microsoft .NET Framework 4.7 ou 4.8, vous devrez probablement le mettre à jour. Vous trouverez la mise à jour [ici.](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
-|Media Foundation  <br/> |Par Windows Server 2016, le Windows du format multimédia s’installe avec Microsoft Media Foundation.  <br/> Tous les serveurs frontaux et serveurs Édition Standard utilisés pour les conférences nécessitent le runtime du format multimédia Windows pour exécuter les fichiers Windows Media Audio (.wma) lés par les applications Parcage d’appel, Annonce et Response Group pour les annonces et la musique.  <br/> |
-|Windows Identity Foundation  <br/> |Nous devons Windows Identity Foundation 3.5 pour prendre en charge les scénarios d’authentification de serveur à serveur pour Skype Entreprise Server 2019.  <br/> • Pour Windows Server 2016, il n’est pas nécessaire de télécharger quoi que ce soit. Ouvrez **le Gestionnaire de** serveur et allez à l’Assistant Ajout de **rôles et de fonctionnalités.** **Windows Identity Foundation 3.5** est répertorié dans la section **Fonctionnalités.** Si elle est sélectionnée, vous êtes bon. Sinon, sélectionnez-le et **cliquez sur Suivant** pour accéder au **bouton** Installer. <br/> |
-|Outils d'administration de serveur distant  <br/> |Outils d’administration des rôles : outils AD DS et AD LDS  <br/> |
+|Windows PowerShell 3.0   |Tous Skype Entreprise Server serveurs doivent Windows PowerShell 3.0.  <br/> • Il doit être installé par défaut avec Windows Server 2016. |
+|Microsoft .NET Framework   |Les services WCF sont une fonctionnalité installée en tant que fonctionnalité Windows, sous Le Gestionnaire de serveur **,** initialement aucun téléchargement n’est nécessaire.  <br/> • Vous devez vous assurer, lorsque vous installez cette fonctionnalité, ou si elle est déjà installée et que vous l’activez, que l’option **d’activation HTTP** est également cochée et installée, comme ceci : <br/>![Capture d’écran montrant l’option d’activation HTTP .NET Framework fonctionnalités 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Ne vous inquiétez pas si vous obtenez une fenêtre vidéo supplémentaire vous disant que d’autres éléments doivent être installés pour que l’activation HTTP soit installée. C’est normal . cliquez sur OK et allez de l’avant. Si vous n’obtenez pas cette fenêtre fenêtre, vous pouvez supposer que ces éléments sont déjà installés et continuer.  <br/> Microsoft .NET Framework est généralement installé lorsque Windows Server 2016 est installé. Skype Entreprise Server nécessite microsoft .NET Framework 4.7 ou 4.8, vous devrez probablement le mettre à jour. Vous trouverez la mise à jour [ici.](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) |
+|Media Foundation   |Par Windows Server 2016, le Windows du format multimédia s’installe avec Microsoft Media Foundation.  <br/> Tous les serveurs frontaux et serveurs Édition Standard utilisés pour les conférences nécessitent le runtime du format multimédia Windows pour exécuter les fichiers Windows Media Audio (.wma) lés par les applications Parcage d’appel, Annonce et Response Group pour les annonces et la musique.   |
+|Windows Identity Foundation   |Nous devons Windows Identity Foundation 3.5 pour prendre en charge les scénarios d’authentification de serveur à serveur pour Skype Entreprise Server 2019.  <br/> • Pour Windows Server 2016, il n’est pas nécessaire de télécharger quoi que ce soit. Ouvrez **le Gestionnaire de** serveur et allez à l’Assistant Ajout de **rôles et de fonctionnalités.** **Windows Identity Foundation 3.5** est répertorié dans la section **Fonctionnalités.** Si elle est sélectionnée, vous êtes bon. Sinon, sélectionnez-le et **cliquez sur Suivant** pour accéder au **bouton** Installer.  |
+|Outils d'administration de serveur distant   |Outils d’administration des rôles : outils AD DS et AD LDS   |
    
  **Les serveurs frontux et Édition Standard serveur frontal ont également besoin des ressources nécessaires :**
   
-|**Logiciel/rôle**|**Détails**|
+|Logiciel/rôle|Détails|
 |:-----|:-----|
-|Internet Information Services (IIS)  <br/> |IIS est nécessaire sur tous les serveurs frontaux, ainsi que tous les serveurs Édition Standard, avec les modules suivants sélectionnés :  <br/> • Fonctionnalités HTTP courantes : document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification par mappage de certificat client, authentification Windows client  <br/> • Développement d’applications : extensibilité .NET 3.5, extensibilité .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensions ISAPI, filtres ISAPI  <br/> • Outils de gestion : Console de gestion IIS, scripts et outils de gestion IIS  <br/> Notez que l’accès anonyme est également nécessaire, mais que vous l’obtenez lors de l’installation d’IIS, vous n’avez donc pas d’endroit pour le sélectionner dans la liste.  <br/> |
-|Module d’exécution du format Windows Media  <br/> | Pour Windows Server 2016, vous devez installer la fonctionnalité **Media Foundation** dans le Gestionnaire **de serveur.** Vous pouvez en fait démarrer votre installation Skype Entreprise Server 2019 sans cela, mais vous serez invité à l’installer, puis à redémarrer le serveur, avant de poursuivre l’installation de Skype Entreprise Server 2019. Il est préférable de le faire à l’avance. <br/> |
-|Silverlight  <br/> |Vous pouvez installer la dernière version de Silverlight [ici.](https://www.microsoft.com/silverlight/)  <br/> |
+|Internet Information Services (IIS)   |IIS est nécessaire sur tous les serveurs frontaux, ainsi que tous les serveurs Édition Standard, avec les modules suivants sélectionnés :  <br/> • Fonctionnalités HTTP courantes : document par défaut, erreurs HTTP, contenu statique  <br/> • Santé et diagnostics : journalisation HTTP, outils de journalisation, suivi  <br/> • Performances : compression de contenu statique, compression de contenu dynamique  <br/> • Sécurité : filtrage des demandes, authentification par mappage de certificat client, authentification Windows client  <br/> • Développement d’applications : extensibilité .NET 3.5, extensibilité .NET 4.5, ASP.NET 3.5, ASP.NET 4.5, extensions ISAPI, filtres ISAPI  <br/> • Outils de gestion : Console de gestion IIS, scripts et outils de gestion IIS  <br/> Notez que l’accès anonyme est également nécessaire, mais que vous l’obtenez lors de l’installation d’IIS, vous n’avez donc pas d’endroit pour le sélectionner dans la liste.   |
+|Module d’exécution du format Windows Media   | Pour Windows Server 2016, vous devez installer la fonctionnalité **Media Foundation** dans le Gestionnaire **de serveur.** Vous pouvez en fait démarrer votre installation Skype Entreprise Server 2019 sans cela, mais vous serez invité à l’installer, puis à redémarrer le serveur, avant de poursuivre l’installation de Skype Entreprise Server 2019. Il est préférable de le faire à l’avance.  |
+|Silverlight   |Vous pouvez installer la dernière version de Silverlight [ici.](https://www.microsoft.com/silverlight/)   |
    
 Pour vous aider, voici un exemple de script PowerShell que vous pouvez exécuter pour automatiser ceci :
   
@@ -200,11 +197,9 @@ Lors de l’installation Skype Entreprise Server 2019 Édition Standard, vous au
 
 Skype Entreprise Server 2019 Êdition Entreprise nécessite une SQL Server complète, comme indiqué ci-dessous (édition 64 bits uniquement ; n’utilisez pas les éditions 32 bits) :
   
-||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 (édition 64 bits) et vous devez exécuter avec les dernières mises à jour.  <br/> |Microsoft SQL Server 2017 (édition 64 bits) et vous devez exécuter avec les dernières mises à jour.  <br/> |
-Microsoft SQL Server 2016 (édition 64 bits) et vous devez exécuter avec les dernières mises à jour.|
- |
+- Microsoft SQL Server 2019 (édition 64 bits) et vous devez exécuter avec les dernières mises à jour.
+- Microsoft SQL Server 2017 (édition 64 bits) et vous devez exécuter avec les dernières mises à jour.
+- Microsoft SQL Server 2016 (édition 64 bits) et vous devez exécuter avec les dernières mises à jour.
 
 Si vous ne voyez pas l’édition SQL Server que vous souhaitez utiliser répertoriée ici, vous ne pouvez pas l’utiliser.
   
@@ -244,15 +239,15 @@ N’installez aucun logiciel client Microsoft Internet Security and Acceleration
 
 Bien que la plupart des données de configuration pour les serveurs et les services soient stockées dans le magasin central de gestion Skype Entreprise Server 2019, certains éléments sont toujours stockés dans Active Directory :
   
-|**Objets Active Directory**|**Types d’objets**|
+|Objets Active Directory|Types d’objets|
 |:-----|:-----|
-|Extensions de schéma  <br/> |Extensions de l’objet utilisateur  <br/> |
-||Extensions pour Skype Entreprise Server 2015 et Lync Server 2013, afin de maintenir la compatibilité ascendante avec les versions précédentes pris en charge  <br/> |
-|Données  <br/> |URI SIP utilisateur et autres paramètres utilisateur  <br/> |
-||Objets contact pour les applications (comme l’application Response Group et le application Assistant de conférence)  <br/> |
-||Données publiées pour la compatibilité ascendante  <br/> |
-||Un point de contrôle de service (SCP) pour le magasin central de gestion  <br/> |
-||Compte d’authentification Kerberos (un objet ordinateur facultatif)  <br/> |
+|Extensions de schéma   |Extensions de l’objet utilisateur   |
+||Extensions pour Skype Entreprise Server 2015 et Lync Server 2013, afin de maintenir la compatibilité ascendante avec les versions précédentes pris en charge   |
+|Data   |URI SIP utilisateur et autres paramètres utilisateur   |
+||Objets contact pour les applications (comme l’application Response Group et le application Assistant de conférence)   |
+||Données publiées pour la compatibilité ascendante   |
+||Un point de contrôle de service (SCP) pour le magasin central de gestion   |
+||Compte d’authentification Kerberos (un objet ordinateur facultatif)   |
    
 ### <a name="os-for-domain-controllers"></a>Système d’exploitation pour contrôleurs de domaine
 
@@ -461,39 +456,39 @@ Pour des raisons simples, nous avons placé les certificats requis pour les serv
     
 Certificats pour Édition Standard serveurs :
   
-|**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
+|Certificat|Nom du sujet/nom commun|Autre nom du sujet|Exemple|Commentaires|
 |:-----|:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet du pool  <br/> |FQDN du pool et FQDN du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |Sur Édition Standard serveurs, le nom deqdn du serveur est le même que celui du pool.  <br/> L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui est identique au nom de groupe du serveur)  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OU  <br/> • Une entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |Vous ne pouvez pas remplacer le FQDN web interne dans le Générateur de topologies.  <br/> Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes comme DESN.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • URL simple de numérotation  <br/> • Rencontrez des URL simples par domaine SIP  <br/> OU  <br/> • Une entrée générique pour les URL simples  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Par défaut   |Nom de domaine complet du pool   |FQDN du pool et FQDN du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).   |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.   |Sur Édition Standard serveurs, le nom deqdn du serveur est le même que celui du pool.  <br/> L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.   |
+|Web interne   |Nom de domaine complet du serveur   |Pour chaque élément suivant :  <br/> • FQDN web interne (qui est identique au nom de groupe du serveur)  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples   |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com   |Vous ne pouvez pas remplacer le FQDN web interne dans le Générateur de topologies.  <br/> Si vous avez plusieurs URL simples Meet, vous devez les inclure toutes comme DESN.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.   |
+|Web externe   |Nom de domaine complet du serveur   |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • URL simple de numérotation  <br/> • Rencontrez des URL simples par domaine SIP  <br/> OR  <br/> • Une entrée générique pour les URL simples   |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com   |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.   |
    
 Certificats pour les serveurs frontaux dans un pool frontal :
   
-|**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|**Comments**|
+|Certificat|Nom du sujet/nom commun|Autre nom du sujet|Exemple|Commentaires|
 |:-----|:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet du pool  <br/> |FQDN du pool et FQDN du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui n’est PAS le même que le nom de groupe du serveur)  <br/> • FQDN du serveur  <br/> • Skype Entreprise FQDN du pool  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OU  <br/> • Une entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
-|Web externe  <br/> |Nom de domaine complet du pool  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OU  <br/> • Une entrée générique pour les URL simples  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.  <br/> |
+|Par défaut   |Nom de domaine complet du pool   |FQDN du pool et FQDN du serveur  <br/> Si vous disposez de plusieurs domaines SIP et avez activé la configuration automatique des clients, l’Assistant Certificat détecte et ajoute le nom complet de chaque domaine SIP pris en charge.  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS (Domain Name System) stricte est requise dans la stratégie de groupe, vous avez également besoin d’entrées pour sip.sipdomain (pour chacun des domaines SIP dont vous disposez).   |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Si ce pool est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.   |L’Assistant détecte les domaines SIP indiqués lors de l’installation et les ajoute automatiquement à l’autre nom du sujet.  <br/> Vous pouvez également utiliser ce certificat pour l’authentification de serveur à serveur.   |
+|Web interne   |Nom de domaine complet du pool   |Pour chaque élément suivant :  <br/> • FQDN web interne (qui n’est PAS le même que le nom de groupe du serveur)  <br/> • FQDN du serveur  <br/> • FQDN du pool Skype Entreprise  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples   |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com   |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.   |
+|Web externe   |Nom de domaine complet du pool   |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples   |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com   |Si vous disposez de plusieurs URL simples Meet, vous devez les inclure toutes en tant qu’autres noms du sujet.  <br/> Les entrées de caractères génériques sont prises en charge pour les entrées d’URL simples.   |
    
 Certificats pour le directeur :
   
-|**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|
+|Certificat|Nom du sujet/nom commun|Autre nom du sujet|Exemple|
 |:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |pool directeur  <br/> |FQDN du directeur, FQDN du pool directeur.  <br/> Si ce pool est le serveur d’accès automatique pour les clients et que la correspondance DNS stricte est requise dans la stratégie de groupe, vous aurez également besoin d’entrées pour sip.sipdomain (pour chaque domaine SIP dont vous avez).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Si ce pool directeur est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.  <br/> |
-|Web interne  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web interne (qui est identique au nom de groupe du serveur)  <br/> • FQDN du serveur  <br/> • Skype Entreprise FQDN du pool  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OU  <br/> • Une entrée générique pour les URL simples  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|Web externe  <br/> |Nom de domaine complet du serveur  <br/> |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • Rencontrez des URL simples par domaine SIP  <br/> • URL simple de numérotation  <br/> OU  <br/> • Une entrée générique pour les URL simples  <br/> |Le FQDN web externe du directeur doit être différent du pool frontal ou du serveur frontal.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|Par défaut   |pool directeur   |FQDN du directeur, FQDN du pool directeur.  <br/> Si ce pool est le serveur d’accès automatique pour les clients et que la correspondance DNS stricte est requise dans la stratégie de groupe, vous aurez également besoin d’entrées pour sip.sipdomain (pour chaque domaine SIP dont vous avez).   |pool.contoso.com; SAN=dir01.contoso.com  <br/> Si ce pool directeur est le serveur d’ouverture de session automatique pour les clients et si la correspondance DNS stricte est requise dans la stratégie de groupe, SAN=sip.contoso.com et SAN=sip.fabrikam.com sont également nécessaires.   |
+|Web interne   |Nom de domaine complet du serveur   |Pour chaque élément suivant :  <br/> • FQDN web interne (qui est identique au nom de groupe du serveur)  <br/> • FQDN du serveur  <br/> • FQDN du pool Skype Entreprise  <br/> AND  <br/> • Rencontrez des URL simples  <br/> • URL simple de numérotation  <br/> • URL simple d’administration  <br/> OR  <br/> • Une entrée générique pour les URL simples   |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com   |
+|Web externe   |Nom de domaine complet du serveur   |Pour chaque élément suivant :  <br/> • FQDN web externe  <br/> AND  <br/> • Rencontrez des URL simples par domaine SIP  <br/> • URL simple de numérotation  <br/> OR  <br/> • Une entrée générique pour les URL simples   |Le FQDN web externe du directeur doit être différent du pool frontal ou du serveur frontal.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Utilisation d’un certificat de caractère générique :  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com   |
    
 Certificats pour le serveur de médiation autonome :
   
-|**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|
+|Certificat|Nom du sujet/nom commun|Autre nom du sujet|Exemple|
 |:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet du pool  <br/> |Nom de domaine complet du pool  <br/> FQDN du serveur membre du pool  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
+|Par défaut   |Nom de domaine complet du pool   |Nom de domaine complet du pool  <br/> FQDN du serveur membre du pool   |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net   |
    
 Certificats pour le Survivable Branch Appliance (en particulier, Survivable Branch Appliance 2015 pour Skype Entreprise Server 2019) :
   
-|**Certificat**|**Nom du sujet/nom commun**|**Autre nom du sujet**|**Exemple**|
+|Certificat|Nom du sujet/nom commun|Autre nom du sujet|Exemple|
 |:-----|:-----|:-----|:-----|
-|Par défaut  <br/> |Nom de domaine complet de l’appliance  <br/> |SIP.\<sipdomain\> (Vous n’avez besoin que d’une seule entrée par domaine SIP)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
+|Par défaut   |Nom de domaine complet de l’appliance   |SIP.\<sipdomain\> (Vous n’avez besoin que d’une seule entrée par domaine SIP)   |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com   |
    
 ### <a name="certificates-for-external-user-access-edge"></a>Certificats pour l’accès des utilisateurs externes (Edge)
 
@@ -521,18 +516,18 @@ Si c’est ce que vous regardez et si vous avez un grand nombre de domaines SIP 
   
 Exigences relatives aux certificats de pool directeur et de pool frontal :
   
-|**Description**|**Entrée SAN**|
+|Description|Entrée SAN|
 |:-----|:-----|
-|URL du service de découverte automatique interne  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
-|URL du service de découverte automatique externe  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|URL du service de découverte automatique interne   |SAN=lyncdiscoverinternal.\<sipdomain\>   |
+|URL du service de découverte automatique externe   |SAN=lyncdiscover.\<sipdomain\>   |
    
 Vous pouvez également utiliser SAN= \* .\<sipdomain\>
   
 Conditions requises pour le certificat de proxy inverse (CA publique) :
   
-|**Description**|**Entrée SAN**|
+|Description|Entrée SAN|
 |:-----|:-----|
-|URL du service de découverte automatique externe  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
+|URL du service de découverte automatique externe   |SAN=lyncdiscover.\<sipdomain\>   |
    
 Ce SAN doit être affecté au certificat affecté à l’écoute SSL sur votre proxy inverse.
   

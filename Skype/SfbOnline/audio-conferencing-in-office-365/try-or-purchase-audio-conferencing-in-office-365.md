@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Apprenez comment essayer ou acheter des licences d’audioconférence (conférence RTC) pour Office 365 afin de mettre en place des conférences téléphoniques auxquelles les gens peuvent se connecter. '
-ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8830457873ee5555e503e88a27151d15233e217
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597428"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012338"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Essayer ou acheter l’audioconférence dans Microsoft 365 ou Office 365 pour Skype Entreprise Online
 
@@ -40,7 +40,7 @@ Parfois, des personnes de votre organisation devront utiliser un téléphone pou
 
 Il vous suffit de configurer l’audioconférence pour les personnes qui prévoient de planifier ou de mener des réunions. Les participants à la réunion qui se connectent par téléphone n’ont pas besoin de licence ou de configuration particulière.
 
-Pour les informations de tarification, consultez [Prix appliqués à l’audioconférence](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Pour plus d’informations sur les tarifs, [consultez l’audioconférence.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Étape 1 : acheter et affecter des licences d’audioconférence
 
@@ -96,7 +96,7 @@ Les étapes suivantes sont **facultatives**, mais un grand nombre d’administra
 > [!NOTE]
 > Cette fonctionnalité n’est pas encore disponible pour les clients qui Microsoft 365 ou Office 365 gérés par 21Vianet en Chine. Pour en savoir plus, consultez [en savoir Microsoft 365 ou Office 365 gérés par 21Vianet.](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Configurer Skype entreprise Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

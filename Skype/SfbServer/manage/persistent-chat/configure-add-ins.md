@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Résumé : Découvrez comment configurer des add-ins pour les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: f6ff42e57f72a6fa875e8123af91caa7f4e3efc0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599979"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013388"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurer des add-ins pour les salles de conversation permanente dans Skype Entreprise Server 2015
  
@@ -71,7 +71,7 @@ Vous pouvez configurer des add-ins pour les salles de conversation à l’aide d
 
 Vous pouvez créer un nouveau add-in à l’aide de l’cmdlet **New-CsPersistentChatAddin.**
   
-Par exemple, la commande suivante crée un nouveau module (avec le nom ITPersistentChatAddin) pour le pool atl-cs-001.contoso.com. Le paramètre URL et la valeur de paramètre spécifient l’emplacement de la page http://atl-cs-001.contoso.com/itchat web du add-in :
+Par exemple, la commande suivante crée un nouveau module (avec le nom ITPersistentChatAddin) pour le `atl-cs-001.contoso.com` pool. Le paramètre URL et la valeur de paramètre spécifient l’emplacement de la page `http://atl-cs-001.contoso.com/itchat` web du add-in :
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>Configurer les paramètres d’un add-in existant
 
-Vous pouvez configurer les paramètres d’un application existante à l’aide de l’cmdlet **Set-CsPersistentChatAddIn.** Par exemple, la commande suivante modifie l’URL attribuée au module de conversation permanente ITPersistentChatAddin. Dans ce cas, l’URL est modifiée en http://atl-cs-001.contoso.com/itchat2:
+Vous pouvez configurer les paramètres d’un application existante à l’aide de l’cmdlet **Set-CsPersistentChatAddIn.** Par exemple, la commande suivante modifie l’URL attribuée au module de conversation permanente ITPersistentChatAddin. Dans ce cas, l’URL est modifiée en `http://atl-cs-001.contoso.com/itchat2` :
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Supprimer un add-in
 
-Vous pouvez supprimer un add-in à l’aide de **l’cmdlet Remove-CsPersistentChatAddIn.** Par exemple, la commande suivante supprime le add-in de conversation permanente ITChatAddin trouvé sur le pool atl-cs-001.contoso.com :
+Vous pouvez supprimer un add-in à l’aide de **l’cmdlet Remove-CsPersistentChatAddIn.** Par exemple, la commande suivante supprime le add-in de conversation permanente ITChatAddin trouvé sur le pool `atl-cs-001.contoso.com` :
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

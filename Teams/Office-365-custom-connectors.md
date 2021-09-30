@@ -17,16 +17,16 @@ description: Avec les connecteurs, votre équipe reste au courant des dernières
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 63dc00716afebf7e9789430b339c6a32e7d414f95852b832168370e12a86628f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3cc7bcd060caf737b23193e006dad20e316eec7
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318603"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011768"
 ---
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des Microsoft 365 et des connecteurs personnalisés dans Microsoft Teams
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Utiliser des Microsoft 365 et des connecteurs personnalisés dans Microsoft Teams 
 
-Les connecteurs vous aideront à maintenir votre équipe à jour en leur adant le contenu fréquemment utilisé et les mises à jour de service directement dans un canal. Avec les connecteurs, vos utilisateurs Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services dans le flux de conversation de leur équipe.
+Les connecteurs vous aideront à maintenir votre équipe à jour en leur adant le contenu fréquemment utilisé et les mises à jour de service directement dans un canal. Avec les connecteurs, vos utilisateurs Microsoft Teams peuvent recevoir des mises à jour de services populaires tels que Trello, Wunderlist, GitHub et Azure DevOps Services dans le flux de conversation de leur équipe. 
 
 Tout membre d’une équipe peut connecter son équipe aux services cloud populaires avec les connecteurs si les autorisations d’équipe le permettent et tous les membres de l’équipe sont informés des activités de ce service. Les connecteurs continueront à fonctionner même après le membre qui a initialement configuré le connecteur gauche. Tout membre de l’équipe autorisée à ajouter\supprimer peut modifier la configuration des connecteurs par les autres membres.
 

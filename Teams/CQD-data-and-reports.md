@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: En savoir plus sur les données et rapports disponibles dans le tableau de bord de qualité des appels de Microsoft.
-ms.openlocfilehash: e184137c927361b1a557973d4ac8e55ea49cf1ea
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0f54b6c3c69d65b12aa248f7180dec3617273857
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731803"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014618"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Données et rapports dans le tableau de bord de qualité des appels
 
@@ -38,7 +38,7 @@ Le tableau de bord de qualité des appels de Microsoft utilise un flux de donné
 
 Vous pouvez accéder aux données du CQD par différentes façons. Choisissez celui qui répond le mieux à vos besoins :
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |Teams d’administration [de https://admin.teams.microsoft.com) l’administration (](https://admin.teams.microsoft.com)    | Les données du CQD sont incluses dans la **page** Utilisateurs du Centre d’administration Teams. Elles affichent les données les plus courantes dont vous avez besoin dans un format facile à lire. Vous ne pouvez pas personnaliser les données de CQD disponibles sous **Utilisateurs.**  |
 |Portail du CQD [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Synthèse robuste et rapports détaillés qui répondent à la plupart des besoins, avec un filtrage détaillé. Vous pouvez également personnaliser les rapports dans le portail du CQD. <br><br>Obtenez deux [modèles de rapport du CQD](#import-the-cqd-report-templates) pour vous aider à analyser les données dans le portail du deQD.       |
@@ -398,7 +398,7 @@ Lors de l’examen de vos données, vous pouvez constater des différences entre
 
 
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Améliorer et surveiller la qualité des appels pour les Teams](monitor-call-quality-qos.md)
 

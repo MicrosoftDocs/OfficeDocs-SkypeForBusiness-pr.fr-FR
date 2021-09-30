@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Utilisez Power BI pour analyser les données du CQD à des Microsoft Teams.
-ms.openlocfilehash: 67e6c8750d064c8472865a22f1367d297fd4fee5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4a96a53454f1f4d89feed3ea87342a7991d7975c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616320"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013768"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Utiliser Power BI pour analyser les données du sous-Microsoft Teams
 
@@ -33,7 +33,7 @@ Pour pouvoir utiliser ces fichiers PBIT, vous devez installer le connecteur Powe
 
 Assurez-vous que vous avez le rôle [d’accès du CQD droit pour](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) accéder aux Power BI rapports. 
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |<strong>(Nouveau!)</strong> CQD Teams Standard automatique & Call Queue Historical Report.pbit     |  Ce modèle fournit les trois rapports suivants :</p><li>Standard automatique affiche les données d’analyse des appels qui arrivent dans vos attendants automatiques.</li><li>File d’attente d’appels affichant les données d’analyse des appels qui arrivent dans vos files d’attente.</li><li>Chronologie de l’agent : affichage chronologique des agents actifs dans les appels de la file d’attente d’appels.</li><br>Pour en savoir plus, lisez Standard automatique & [historique de la file d’attente d’appels.](aa-cq-cqd-historical-reports.md)        |
 |CQD Helpdesk Report.pbit     |En intégrant les données bâtiment et EUII, ce rapport est conçu pour vous permettre d’aller d’un utilisateur à l’autre afin de trouver la cause première en amont d’une mauvaise qualité des appels pour cet utilisateur (par exemple, l’utilisateur se trouve dans un bâtiment qui rencontre des problèmes de réseau).         |
@@ -48,7 +48,7 @@ Assurez-vous que vous avez le rôle [d’accès du CQD droit pour](turning-on-an
 > Une fois que vous avez Power BI de tableau de qualité des Power BI, ajoutez-les sous la direction d’un onglet à un canal. Après avoir sélectionné **+** dans un canal, **sélectionnez Power BI** recherchez votre rapport. Pour en savoir plus, [lisez Incorporer le rapport avec l’Power BI’onglet pour Teams.](/power-bi/service-embed-report-microsoft-teams) Rappelez-vous que seules les personnes Power BI licence utilisateur et les informations d’identification d’administrateur du CQD peuvent accéder à ces rapports.
 
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Dimensions et mesures disponibles dans le tableau de bord de qualité des appels](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

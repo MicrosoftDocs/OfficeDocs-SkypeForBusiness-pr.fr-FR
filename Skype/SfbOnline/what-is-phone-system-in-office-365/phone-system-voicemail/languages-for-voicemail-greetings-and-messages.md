@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les langues que vous pouvez définir dans Skype Entreprise pour les messages système et les messages d’accueil de la messagerie vocale par défaut.
-ms.openlocfilehash: 4138af4dfd73fd419416b76bc5e3e5bb3997be15
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 10f3d98ac8fad1c37257aae7077e96d2b5087448
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607411"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011578"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Langues pour les messages d'accueil et les messages de la messagerie vocale
 
@@ -35,47 +35,47 @@ Vous pouvez configurer Skype Entreprise pour que l'application lise les message
 
 Pour modifier la langue que Skype Entreprise utilise pour les messages d'accueil de la messagerie vocale, reportez-vous à la rubrique [Modifier la langue par défaut des messages d'accueil de la messagerie vocale et des courriers électroniques dans votre organisation](/microsoftteams/change-the-default-language-for-greetings-and-emails?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json).
 
-|||||||
+
+|Langue  |Pays/région |Code langue |Disponible pour qu'un utilisateur la voie dans un courrier électronique ? |Disponible lorsque l'utilisateur appelle ?  |Transcription disponible ? |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Langue** <br/> |**Pays/région** <br/> |**Code langue** <br/> |**Disponible pour qu'un utilisateur la voie dans un courrier électronique ?** <br/> |**Disponible lorsque l'utilisateur appelle ?** <br/> |**Transcription disponible ?** <br/> |
-|Arabe <br/> |Égypte  <br/> |ar-EG  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Catalan  <br/> |Catalan  <br/> |ca-ES  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Chinois (simplifié)  <br/> |Chine  <br/> |zh-hans  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Chinois (Hong Kong R.A.S.)  <br/> |Chine  <br/> |zh-hk  <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> | Oui <br/> |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  <br/> |
-|Chinois (traditionnel)  <br/> |Taïwan  <br/> |zh-hant  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Croate<br/> |Croatie  <br/> |hr-HR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Tchèque <br/> |République tchèque  <br/> |cs-CZ  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Danois  <br/> |Danemark  <br/> |da-DK  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Néerlandais  <br/> |Pays-Bas  <br/> |nl-NL  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Anglais  <br/> |Australie  <br/> |en-AU  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
-|Anglais  <br/> |Canada  <br/> |en-CA  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
-|Anglais  <br/> |Inde  <br/> |en-IN  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
-|Anglais  <br/> |Royaume-Uni  <br/> |en-GB  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  <br/> |
-|Anglais  <br/> |États-Unis  <br/> |en-US  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Finnois  <br/> |Finlande  <br/> |fi-FI  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Français  <br/> |Canada  <br/> |fr-CA  <br/> |Mais le français de France (fr-FR) est utilisé.  <br/> |Oui  <br/> |Mais le français de France (fr-FR) est utilisé.  <br/> |
-|Français  <br/> |France  <br/> |fr-FR  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Allemand  <br/> |Allemagne  <br/> |de-DE  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Grec <br/> |Grèce  <br/> |el-GR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Hongrois <br/> |Hongrie  <br/> |hu-HU  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Indonésien <br/> |Indonésie  <br/> |id-ID  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Italien  <br/> |Italie  <br/> |it-IT  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Japonais  <br/> |Japon  <br/> |ja-JP  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Coréen  <br/> |Coréen  <br/> |ko-KR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Norvégien  <br/> |Norvège  <br/> |nb-NO  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |
-|Polonais  <br/> |Pologne  <br/> |pl-PL  <br/> |Oui  <br/> | Oui <br/> |Non  <br/> |
-|Portugais  <br/> |Brésil  <br/> |pt-BR  <br/> |Oui, mais le portugais du Portugal (pt-PT) est utilisé.  <br/> |Oui  <br/> |Oui  <br/> |
-|Portugais  <br/> |Portugal  <br/> |pt-PT  <br/> |Oui  <br/> |Oui  <br/> |Oui, mais le portugais du Brésil (pt-BR) est utilisé.  <br/> |
-|Roumain<br/> |Roumanie  <br/> |ro-RO  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Russe  <br/> |Russie  <br/> |ru-RU  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Slovaque <br/> |Slovaquie  <br/> |sk-SK  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Slovène <br/> |Slovénie  <br/> |sl-SI  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Espagnol  <br/> |Espagne  <br/> |es-ES  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Espagnol  <br/> |Mexique  <br/> |es-MX  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |Oui  <br/> |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.  <br/> |
-|Suédois  <br/> |Suède  <br/> |sv-SE  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Thaï <br/> |Thaïlande  <br/> |th-TH  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Turc  <br/> |Turquie  <br/> |tr-TR  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
-|Vietnamien <br/> |Vietnam  <br/> |vi-VN  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
+|Arabe  |Égypte   |ar-EG   |Oui   |Oui   |Non   |
+|Catalan   |Catalan   |ca-ES   |Oui   |Oui   |Non   |
+|Chinois (simplifié)   |Chine  |zh-hans   |Oui   |Oui   |Oui   |
+|Chinois (Hong Kong R.A.S.)   |Chine   |zh-hk   |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.  | Oui  |Oui, mais le chinois (traditionnel) (zh-hant) est utilisé.   |
+|Chinois (traditionnel)   |Taïwan   |zh-hant   |Oui   |Oui   |Non  |
+|Croate |Croatie   |hr-HR  |Oui  |Oui   |Non   |
+|Tchèque  |République tchèque   |cs-CZ   |Oui   |Oui   |Non   |
+|Danois  |Danemark   |da-DK  |Oui   |Oui   |Non   |
+|Néerlandais   |Pays-Bas   |nl-NL  |Oui   |Oui   |Non   |
+|Anglais   |Australie   |en-AU   |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  |Oui  |Oui, mais l'anglais des États-Unis (en-US) est utilisé. |
+|Anglais   |Canada   |en-CA   |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  |Oui  |Oui, mais l'anglais des États-Unis (en-US) est utilisé.   |
+|Anglais   |Inde  |en-IN   |Oui, mais l'anglais des États-Unis (en-US) est utilisé.   |Oui   |Oui, mais l'anglais des États-Unis (en-US) est utilisé.  |
+|Anglais   |Royaume-Uni   |en-GB   |Oui, mais l'anglais des États-Unis (en-US) est utilisé.   |Oui   |Oui, mais l'anglais des États-Unis (en-US) est utilisé.   |
+|Anglais  |États-Unis   |en-US   |Oui  |Oui  |Oui  |
+|Finnois   |Finlande   |fi-FI  |Oui  |Oui  |Non  |
+|Français   |Canada   |fr-CA  |Mais le français de France (fr-FR) est utilisé.  |Oui  |Mais le français de France (fr-FR) est utilisé.  |
+|Français   |France   |fr-FR  |Oui  |Oui  |Oui  |
+|Allemand   |Allemagne   |de-DE   |Oui   |Oui  |Oui   |
+|Grec  |Grèce   |el-GR   |Oui   |Oui   |Non   |
+|Hongrois  |Hongrie   |hu-HU   |Oui   |Oui  |Non   |
+|Indonésien  |Indonésie   |id-ID   |Oui   |Oui   |Non  |
+|Italien   |Italie   |it-IT   |Oui  |Oui   |Oui   |
+|Japonais   |Japon   |ja-JP   |Oui   |Oui   |Oui   |
+|Coréen   |Coréen   |ko-KR   |Oui  |Oui   |Non   |
+|Norvégien   |Norvège  |nb-NO   |Oui   |Non  |Non   |
+|Polonais   |Pologne   |pl-PL   |Oui   | Oui  |Non   |
+|Portugais   |Brésil   |pt-BR   |Oui, mais le portugais du Portugal (pt-PT) est utilisé.   |Oui  |Oui  |
+|Portugais  |Portugal  |pt-PT   |Oui   |Oui   |Oui, mais le portugais du Brésil (pt-BR) est utilisé.   |
+|Roumain |Roumanie   |ro-RO  |Oui   |Oui   |Non   |
+|Russe  |Russie   |ru-RU  |Oui   |Oui   |Non   |
+|Slovaque  |Slovaquie   |sk-SK  |Oui   |Oui  |Non   |
+|Slovène  |Slovénie  |sl-SI   |Oui   |Oui   |Non   |
+|Espagnol   |Espagne   |es-ES   |Oui   |Oui   |Oui   |
+|Espagnol   |Mexique   |es-MX   |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.   |Oui   |Oui, mais l'espagnol d'Espagne (es-ES) est utilisé.   |
+|Suédois   |Suède   |sv-SE   |Oui   |Oui   |Non   |
+|Thaï  |Thaïlande   |th-TH   |Oui   |Oui   |Non   |
+|Turc   |Turquie   |tr-TR   |Oui   |Oui   |Non   |
+|Vietnamien  |Vietnam   |vi-VN   |Oui   |Oui   |Non   |
 
 ## <a name="related-topics"></a>Rubriques connexes
 

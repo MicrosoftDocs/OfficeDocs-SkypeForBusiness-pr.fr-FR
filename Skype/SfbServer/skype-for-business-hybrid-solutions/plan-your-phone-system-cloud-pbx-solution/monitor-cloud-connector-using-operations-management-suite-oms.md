@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lisez cette rubrique pour découvrir comment surveiller votre déploiement de Cloud Connector version 2.1 et ultérieure à l’aide de Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729023"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012308"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Surveiller Cloud Connector à l’aide d’Operations Management Suite (OMS)
 
@@ -164,7 +164,7 @@ Pour créer cette paire d’alertes :
 
     La requête utilise le filtre d’ordinateur  *où l’ordinateur contient « MediationServer*  ». Le filtre sélectionne uniquement l’ordinateur dont le nom contient la chaîne « MediationServer ».
 
-     Vous devez remplacer le filtre par votre propre filtre d’ordinateur ou simplement le supprimer. Vous pouvez créer des filtres de chaîne complexes sans expressions régulières. Pour plus d’informations, voir [Opérateurs de chaîne.](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators) Vous pouvez également choisir d’utiliser des expressions régulières. En outre, vous pouvez créer un groupe d’ordinateurs en enregistrer une requête de recherche et en utilisant ce groupe comme filtre d’ordinateur dans votre requête d’alerte. Pour plus d’informations, voir [Groupes d’ordinateurs dans les](/azure/log-analytics/log-analytics-computer-groups)recherches du journal Log Analytics.
+     Vous devez remplacer le filtre par votre propre filtre d’ordinateur ou simplement le supprimer. Vous pouvez créer des filtres de chaîne complexes sans expressions régulières. Vous pouvez également choisir d’utiliser des expressions régulières. En outre, vous pouvez créer un groupe d’ordinateurs en enregistrer une requête de recherche et en utilisant ce groupe comme filtre d’ordinateur dans votre requête d’alerte. Pour plus d’informations, voir [Groupes d’ordinateurs dans les](/azure/log-analytics/log-analytics-computer-groups)recherches du journal Log Analytics.
 
     Pour chaque ordinateur, la requête d’erreur reçoit le dernier journal des événements pour le démarrage et l’arrêt du service RTCMEDSRV. Elle retourne un journal si le dernier événement est l’événement d’arrêt de service ; Elle ne retourne rien si le dernier événement est l’événement de démarrage du service. En bref, la requête retourne une liste de serveurs dont la rtCMEDSRV est arrêtée dans la fenêtre de temps. 
 
@@ -251,8 +251,6 @@ Les listes suivantes répertorient les compteurs de capacité des appels qui doi
 Pour plus d’informations sur l’working with OMS, consultez les informations suivantes :
 
 - [Rechercher des données à l’aide des recherches de journaux dans Log Analytics](/azure/log-analytics/log-analytics-log-searches)
-
-- [Référence du langage Azure Log Analytics](https://docs.loganalytics.io/docs/Language-Reference)
 
 - [Comprendre les alertes dans Log Analytics](/azure/log-analytics/log-analytics-alerts)
 

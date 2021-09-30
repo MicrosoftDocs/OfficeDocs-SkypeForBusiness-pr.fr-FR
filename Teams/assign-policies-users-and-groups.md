@@ -14,55 +14,55 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez les différentes façons d’attribuer des stratégies aux utilisateurs et groupes dans Microsoft Teams.
+description: Découvrez les différentes façons d’attribuer des stratégies aux utilisateurs et aux groupes dans Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: a8182e1fe9058a5b7b7e8c88d0fdbac4070d48b7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b896e823339b1b40ff31036c0e53308bbbe1107b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732079"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011498"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>Attribuer des stratégies aux utilisateurs et aux groupes
 
-Cet article décrit les différentes manières d’affecter des stratégies aux utilisateurs et aux groupes Microsoft Teams. Avant de lire, veillez à lire Attribuer des stratégies [Teams mise en place.](policy-assignment-overview.md)
+Cet article décrit les différentes manières d’affecter des stratégies aux utilisateurs et aux groupes dans Microsoft Teams. Avant de lire, assurez-vous de lire Attribuer [des stratégies dans Teams.](policy-assignment-overview.md)
 
 ## <a name="assign-a-policy-to-individual-users"></a>Attribuer une stratégie à des utilisateurs individuels
 
 Pour affecter une stratégie à un utilisateur individuel ou à un petit nombre d’utilisateurs à la fois, suivez ces étapes.
 
-### <a name="use-the-microsoft-teams-admin-center"></a>Utiliser le Microsoft Teams d’administration
+### <a name="use-the-microsoft-teams-admin-center"></a>Utiliser le Centre d’administration Microsoft Teams
 
 Pour affecter une stratégie à un utilisateur :
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, sélectionnez Utilisateurs, puis l’utilisateur.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, sélectionnez Utilisateurs, puis l’utilisateur.
 2. Sélectionnez l’utilisateur en cliquant à gauche du nom d’utilisateur, puis **sélectionnez Modifier les paramètres.**
 3. Sélectionnez la stratégie que vous voulez attribuer, puis sélectionnez **Appliquer.**
 
-![Assignez une stratégie à un utilisateur dans le Teams d’administration.](media/assign-policy-user.png)
+![Assignez une stratégie à un utilisateur dans le Centre d’administration Teams.](media/assign-policy-user.png)
 
 Vous pouvez également :
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur la page stratégie.
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez sur la page stratégie.
 2. Sélectionnez la stratégie que vous voulez attribuer en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
 5. Lorsque vous avez terminé d’ajouter des utilisateurs, sélectionnez **Appliquer.**
 
-![Attribuez une stratégie à un utilisateur dans le centre Teams’administration via une deuxième méthode.](media/assign-policy-user2.png)
+![Affectez une stratégie à un utilisateur dans le Centre d’administration Teams via une deuxième méthode.](media/assign-policy-user2.png)
 
 ### <a name="use-powershell"></a>Utiliser PowerShell
 
-Chaque type de stratégie dispose de son propre ensemble d’lets de cmdlets pour le gérer. Utilisez ```Grant-``` l’cmdlet pour un type de stratégie donné pour affecter la stratégie. Par exemple, utilisez l’cmdlet pour affecter une stratégie ```Grant-CsTeamsMeetingPolicy``` Teams réunion aux utilisateurs. Ces cmdlets sont incluses dans le module Teams PowerShell et sont documentées dans la référence [Skype Entreprise cmdlet.](/powershell/skype)
+Chaque type de stratégie dispose de son propre ensemble d’lets de cmdlets pour le gérer. Utilisez `Grant-` l’cmdlet pour un type de stratégie donné pour affecter la stratégie. Par exemple, utilisez `Grant-CsTeamsMeetingPolicy` l’cmdlet pour affecter une stratégie de réunion Teams aux utilisateurs. Ces cmdlets sont incluses dans le module Teams PowerShell et sont documentées dans la référence de [l’cmdlet Skype Entreprise.](/powershell/skype)
 
- Téléchargez et installez [la Teams publique PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si vous ne l’avez pas déjà fait), puis exécutez l’application suivante pour vous connecter.
+ Téléchargez et installez la version [publique Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si vous ne l’avez pas déjà fait), puis exécutez l’application suivante pour vous connecter.
 
 > [!NOTE]
 > Skype Entreprise Online Connector fait actuellement partie du dernier module PowerShell Teams.
 >
-> Si vous utilisez la dernière version [Teams public PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
+> Si vous utilisez la dernière version publique [de Teams PowerShell,](https://www.powershellgallery.com/packages/MicrosoftTeams/)vous n’avez pas besoin d’installer Skype Entreprise Online Connector.
 
 ```powershell
   # When using Teams PowerShell Module
@@ -72,7 +72,7 @@ Chaque type de stratégie dispose de son propre ensemble d’lets de cmdlets pou
    Connect-MicrosoftTeams -Credential $credential
 ```
 
-Dans cet exemple, nous affectons une stratégie Teams réunion nommée Stratégie de réunion étudiant à un utilisateur nommé Reda.
+Dans cet exemple, nous affectons une stratégie de réunion Teams nommée Stratégie de réunion étudiant à un utilisateur nommé Reda.
 
 ```powershell
 Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeting Policy"
@@ -114,21 +114,21 @@ Lorsque vous attribuez une stratégie à un groupe, vous spécifiez un classemen
 
 Le classement d’affectation de groupe est relatif aux autres affectations de groupe du même type. Par exemple, si vous affectez une stratégie d’appel à deux groupes, définissez le classement d’une affectation sur 1 et l’autre sur 2, 1 étant le plus élevé. Le classement d’affectation de groupe indique quelle appartenance au groupe est plus importante ou plus pertinente que d’autres appartenances de groupe en ce qui concerne l’héritage.
 
-Par exemple, vous avez deux groupes, Employés du Store et Responsables de magasin. Les deux groupes se sont respectivement attribué une stratégie Teams d’appel, la stratégie d’appel du Store Employees et la Stratégie d’appel des responsables du Store. Pour un responsable de magasin faisant partie des deux groupes, son rôle de responsable est plus pertinent que son rôle d’employé. Par ailleurs, la stratégie d’appel attribuée au groupe Responsables de magasin doit avoir un classement plus élevé.
+Par exemple, vous avez deux groupes, Employés du Store et Responsables de magasin. Les deux groupes ont respectivement une stratégie d’appel Teams, une stratégie d’appel des employés du Store et une stratégie d’appel pour les responsables du Magasin. Pour un responsable de magasin faisant partie des deux groupes, son rôle de responsable est plus pertinent que son rôle d’employé. Par ailleurs, la stratégie d’appel attribuée au groupe Responsables de magasin doit avoir un classement plus élevé.
 
-|Grouper |Teams de la stratégie d’appel  |Classement|
+|Grouper |Nom de la stratégie d’appel Teams  |Classement|
 |---------|---------|---|
 |Responsables de magasin   |Stratégie d’appel des responsables de magasin         |1|
 |Employés du Store    |Stratégie d’appel du Store Employees      |2|
 
 Si vous ne spécifiez pas de classement, l’affectation de stratégie se voir attribué le classement le plus faible.
 
-### <a name="in-the-teams-admin-center"></a>Dans le Teams d’administration
+### <a name="in-the-teams-admin-center"></a>Dans le Centre d’administration Teams
 
 > [!NOTE]
-> Pour l’instant, l’affectation de stratégies à des groupes à l’aide du Centre d’administration Microsoft Teams est disponible uniquement pour la stratégie d’appel Teams, la stratégie de parcage d’appel Teams, la stratégie Teams, la stratégie d’événements en direct Teams, la stratégie de réunion Teams et la stratégie de messagerie Teams. Pour d’autres types de stratégie, utilisez PowerShell.
+> Pour l’instant, l’affectation de stratégies à des groupes utilisant le Centre d’administration Microsoft Teams est disponible uniquement pour la stratégie d’appel de Teams, la stratégie de parc d’appels Teams, la stratégie Teams, la stratégie d’événements en direct Teams, la stratégie de réunion Teams et la stratégie de messagerie Teams. Pour d’autres types de stratégie, utilisez PowerShell.
 
-1. Dans le navigation gauche du Microsoft Teams d’administration, allez à la page du type de stratégie. Par exemple, allez à **Stratégies de**  >  **réunion.**
+1. Dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez sur la page du type de stratégie. Par exemple, allez à **Stratégies de**  >  **réunion.**
 2. Sélectionnez **l’onglet Affectation de stratégie de** groupe.
 3. Sélectionnez **Ajouter un** groupe, puis dans le volet **Affecter** une stratégie à un groupe, comme suit :
     1. Recherchez et ajoutez le groupe à qui vous voulez affecter la stratégie.
@@ -136,7 +136,7 @@ Si vous ne spécifiez pas de classement, l’affectation de stratégie se voir a
     3. Sélectionnez la stratégie à affecter.
     4. Sélectionnez **Appliquer.**
     
-![Assignez une stratégie à un groupe dans le centre Teams’administration.](media/assign-policy-group.png)
+![Assignez une stratégie à un groupe dans le Centre d’administration Teams.](media/assign-policy-group.png)
 
 Pour supprimer une affectation de  stratégie de groupe, dans l’onglet Affectation de stratégie de groupe de la page stratégie, sélectionnez l’affectation de groupe, puis sélectionnez **Supprimer.**
 
@@ -145,17 +145,17 @@ Pour modifier le classement d’une affectation de groupe, vous devez d’abord 
 ### <a name="use-the-powershell-option"></a>Utiliser l’option PowerShell
 
 > [!NOTE]
-> Actuellement, l’affectation de stratégies à des groupes à l’aide de PowerShell n’est pas disponible pour tous Teams types de stratégies. Pour obtenir la liste des types de stratégies pris en charge, voir [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
+> Actuellement, l’affectation de stratégies à des groupes à l’aide de PowerShell n’est pas disponible pour tous les types de stratégie Teams. Pour obtenir la liste des types de stratégies pris en charge, voir [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
 
-#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module PowerShell Microsoft Teams’équipe
+#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module Microsoft Teams PowerShell
 
-Pour obtenir des instructions pas à pas, voir [Installer Teams PowerShell.](teams-powershell-install.md)
+Pour obtenir une aide étape par étape, voir [Installer Teams PowerShell.](teams-powershell-install.md)
 
 #### <a name="assign-a-policy-to-a-group-of-users"></a>Affecter une stratégie à un groupe d’utilisateurs
 
 Utilisez [l’cmdlet New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) pour affecter une stratégie à un groupe. Vous pouvez spécifier un groupe à l’aide de l’ID d’objet, de l’adresse SIP ou de l’adresse de messagerie.
 
-Dans cet exemple, nous affectons une stratégie Teams réunion nommée Stratégie de réunion des responsables de vente au détail à un groupe avec un classement d’affectations de 1.
+Dans cet exemple, nous affectons une stratégie de réunion Teams nommée Stratégie de réunion des responsables de vente au détail à un groupe avec un classement d’affectations de 1.
 
 ```powershell
 New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -PolicyType TeamsMeetingPolicy -PolicyName "Retail Managers Meeting Policy" -Rank 1
@@ -225,7 +225,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Voici un exemple de la façon de modifier la stratégie efficace pour un utilisateur à qui une stratégie est directement attribuée.
 
-Tout d’abord, nous utilisons la cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) avec le paramètre pour obtenir les détails des stratégies de diffusion de réunion Teams associées à ```PolicySource``` l’utilisateur.
+Tout d’abord, nous utilisons la cmdlet [Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) avec le paramètre pour obtenir les détails des stratégies de diffusion de réunion Teams associées à `PolicySource` l’utilisateur.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -325,13 +325,13 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMessagingPolicy -PolicyNam
 
 #### <a name="get-the-status-of-a-batch-assignment"></a>Obtenir l’état d’une affectation de lot
 
-Exécutez ce qui suit pour obtenir l’état d’une affectation de lot, où OperationId est l’ID d’opération renvoyé par ```New-CsBatchPolicyAssignmentOperation``` l’cmdlet pour un lot donné.
+Exécutez ce qui suit pour obtenir l’état d’une affectation de lot, où OperationId est l’ID d’opération renvoyé par `New-CsBatchPolicyAssignmentOperation` l’cmdlet pour un lot donné.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-Si la sortie indique qu’une erreur s’est produite, exécutez l’erreur suivante pour obtenir plus d’informations sur les erreurs, qui se trouver dans la ```UserState``` propriété.
+Si la sortie indique qu’une erreur s’est produite, exécutez l’erreur suivante pour obtenir plus d’informations sur les erreurs, qui se trouver dans la `UserState` propriété.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -339,7 +339,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 Pour en savoir plus, [consultez Get-CsBatchPolicyAssignmentOperation.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les Teams des stratégies](manage-teams-with-policies.md)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

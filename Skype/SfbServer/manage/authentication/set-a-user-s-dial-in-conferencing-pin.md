@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Résumé : Définissez le code confidentiel de conférence d’un utilisateur pour Skype Entreprise Server.'
-ms.openlocfilehash: d3871fe99de89bdd1430e2b870f5ddd36be188ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0532a5972a373bd92d9fb72d0883d6c40542a91e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614214"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012318"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Définir le code confidentiel de conférence d’un utilisateur dans Skype Entreprise Server
  
@@ -81,7 +81,7 @@ Pour participer à une conférence rendez-vous en tant qu’utilisateur authenti
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Affectation d’un code confidentiel utilisateur à l’aide Windows PowerShell cmdlets
 
-Vous pouvez également affecter des numéros de code confidentiel à l’aide Set-CsClientPin cmdlet. Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server. 
+Vous pouvez également affecter des numéros de code confidentiel à l’aide Set-CsClientPin cmdlet. Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>Pour attribuer automatiquement un code confidentiel à un utilisateur
 

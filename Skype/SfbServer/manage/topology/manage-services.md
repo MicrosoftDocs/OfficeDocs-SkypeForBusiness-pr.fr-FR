@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Découvrez comment afficher l’état du service, démarrer et arrêter des services et empêcher les sessions pour les services.
-ms.openlocfilehash: 8c1f527e32d50624fddc1b4b261f6fbd20e97a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604819"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015108"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Gérer les services dans Skype Entreprise Server
 
-Vous pouvez utiliser le Panneau de Skype Entreprise Server pour afficher la liste de tous les ordinateurs exécutant des Skype Entreprise Server dans votre topologie, afficher l’état des services, démarrer ou arrêter des services et empêcher les sessions pour les services.
+Vous pouvez utiliser le Panneau de Skype Entreprise Server pour afficher la liste de tous les ordinateurs qui exécutent des Skype Entreprise Server dans votre topologie, afficher l’état des services, démarrer ou arrêter des services et empêcher les sessions pour les services.
 
 - [Afficher la liste des ordinateurs exécutant Skype Entreprise Server](#view-a-list-of-computers-running-skype-for-business-server)
 - [Afficher l’état des services en cours d’exécution sur un ordinateur Skype Entreprise](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
@@ -77,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-Pour plus d’informations, [voir Get-CsWindowsService.](/powershell/module/skype/Get-CsWindowsService)
+Pour plus d’informations, [voir Get-CsWindowsService.](/powershell/module/skype/get-cswindowsservice)
 
 ## <a name="start-or-stop-skype-for-business-services"></a>Démarrer ou arrêter Skype Entreprise services
 

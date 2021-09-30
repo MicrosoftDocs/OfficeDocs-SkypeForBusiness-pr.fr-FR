@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Résoudre les problèmes de création d’une session PowerShell distante pour vous connecter à Skype Entreprise Online, notamment l’importation-module, l’environnement de ligne de commande simultané, l’ID Live ID et les erreurs d’autorisation.
-ms.openlocfilehash: 9157c556eaa2952adf2b67a514eebfb1a9d3abff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b585a1d4e830fdd692c85f48fbc3d4ae7b65ab57
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617090"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013318"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostiquer des problèmes de connexion avec le connecteur Skype Entreprise Online
 
@@ -51,13 +51,6 @@ Cette rubrique fournit des informations qui vous aideront à diagnostiquer et r�
 - [Le nombre maximal de shells simultanés pour cet utilisateur dans Skype Entreprise Online a été dépassé.](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
 
 - [Le nombre maximal de shells simultanés pour ce client dans Skype Entreprise Online a été dépassé.](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
-    
-
-> [!IMPORTANT]
-> Par défaut, les sessions PowerShell sont en cours de retard après 60 minutes. Pour vous reconnecter, vous devez fermer la session et lancer une nouvelle session PowerShell. Une nouvelle version de [Skype Entreprise Online, module Windows PowerShell (2046.123 - Publié le 02/10/2019)](https://www.microsoft.com/download/details.aspx?id=39366)a été récemment lancée, qui inclut une nouvelle cmdlet appelée **Enable-CsOnlineSessionForReconnection** qui réduit le problème de délai d’utilisation de 60 minutes.
-> La session PowerShell se reconnecte et s’authentifier, ce qui permet de la ré-utiliser sans avoir à lancer une nouvelle instance pour se reconnecter.
-
-
 
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Import-Module provoquée par une stratégie d’Windows PowerShell exécution
 <a name="BKMKPowerShellExecutionPolicy"> </a>
@@ -77,14 +70,14 @@ La stratégie d’exécution de PowerShell permet de déterminer les fichiers de
 
 Le Skype Entreprise module Connecteur en ligne ne peut être exécuté qu’Windows PowerShell 3.0. Si vous essayez d’importer le module sous une version précédente de PowerShell, le processus d’importation échoue et un message d’erreur semblable au message suivant s’offre à vous :
   
-  - **Erreur**: Import-Module : La version de PowerShell chargée est *« 2.0 ». Le module « D : Program \\ Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1 » nécessite une version PowerShell « \\ 3.0 » minimale à exécuter. Vérifiez l’installation de PowerShell et essayez à nouveau.*
+  - **Erreur**: Import-Module : La version de PowerShell chargée est *« 2.0 ». Le module « D : Program \\ Files Common Files Microsoft \\ \\ Lync Server 2013 \\ Modules \\ LyncOnlineConnector \\ LyncOnlineConnector.psd1 » nécessite une version PowerShell minimale de « 3.0 » à exécuter. Vérifiez l’installation de PowerShell et essayez à nouveau.*
 
 - **Résolution**: la seule façon de résoudre ce problème consiste à installer Windows PowerShell 3.0, accessible à partir du Centre de téléchargement Microsoft sur [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) .
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>L’authentification moderne échoue lorsque l’authentification WinRM Basic est désactivée
 <a name="BKMKWinRMBasicAuth"> </a>
 
-La dernière version du module Skype Entreprise Online Connector utilise l’authentification moderne, mais le client Windows Remote Management (WinRM) sous-jacent doit être configuré pour autoriser l’authentification de base.  L’authentification moderne utilise des jetons de support, qui sont généralement transmis dans l’en-tête *Authorization: Bearer.* Windows PowerShell, sur lequel est Skype Entreprise PowerShell, ne permet pas de manipuler cet en-tête.  À la place, Skype Entreprise PowerShell utilise *l’autorisation :* en-tête de base pour transmettre le jeton de porteur.
+La dernière version du module Skype Entreprise Online Connector utilise l’authentification moderne, mais le client Windows Remote Management (WinRM) sous-jacent doit être configuré pour autoriser l’authentification de base.  L’authentification moderne utilise des jetons de support, qui sont généralement transmis dans l’en-tête *Authorization: Bearer.* Windows PowerShell, sur lequel est Skype Entreprise PowerShell, ne permet pas de manipuler cet en-tête.  À la place, Skype Entreprise PowerShell utilise *l’autorisation : en-tête de* base pour transmettre le jeton de porteur.
 
 Pour obtenir des instructions sur [l’Windows PowerShell](./download-and-install-windows-powershell-5-1.md) de l’authentification de base, voir Télécharger et installer.
 
@@ -96,7 +89,7 @@ Pour obtenir des instructions sur [l’Windows PowerShell](./download-and-instal
 
 Il existe généralement trois raisons pour lesquelles votre tentative de connexion peut échouer avec le message d’erreur suivant :
 
-  - **Erreur**: Get-CsWebTicket : échec de la connexion aux *serveurs d’id live. Assurez-vous que le proxy est activé ou que l’ordinateur dispose d’une connexion réseau à des serveurs d’ID en direct.*
+  - **Erreur**: *Get-CsWebTicket : Échec de la connexion aux serveurs d’id live. Assurez-vous que le proxy est activé ou que l’ordinateur dispose d’une connexion réseau à des serveurs d’ID en direct.*
 
 - **Résolution**: souvent, cette erreur signifie que l’Assistant Microsoft Online Services de se connecteur n’est pas en cours d’exécution. Vous pouvez vérifier l’état de ce service en exécutant la commande suivante à partir de l’invite PowerShell : 
     ```PowerShell
@@ -114,7 +107,7 @@ Il existe généralement trois raisons pour lesquelles votre tentative de connex
 ## <a name="failed-to-load-live-id-module"></a>Échec du chargement du module Live ID
 <a name="BKMKFailedLoad"> </a>
 
-Une des conditions préalables à l’utilisation de PowerShell pour gérer Skype Entreprise Online consiste à installer l’Assistant de Microsoft Online Services de base. Si l’Assistant de session n’est pas installé, le message d’erreur suivant s’affiche lorsque vous tentez d’établir une session distante avec Skype Entreprise Online :
+L’une des conditions préalables à l’utilisation de PowerShell pour gérer Skype Entreprise Online consiste à installer l’Assistant de Microsoft Online Services de base. Si l’Assistant de session n’est pas installé, le message d’erreur suivant s’affiche lorsque vous tentez d’établir une session distante avec Skype Entreprise Online :
 
 - **Erreur**: *Get-CsWebTicket : vous ne pouvez pas charger le module Live ID. Assurez-vous que la version correcte de l’Assistant de connect-vous Live Id est installée.*
 
@@ -162,11 +155,11 @@ Chaque administrateur est autorisé à avoir jusqu’à trois connexions distant
 
 Bien que chaque administrateur soit autorisé à avoir jusqu’à trois connexions simultanées à un client Skype Entreprise Online, aucun client n’est autorisé à avoir plus de 20 connexions simultanées. Par exemple, six administrateurs peuvent avoir chacun trois sessions ouvertes. Si un quatrième administrateur tente d’établir plus de deux connexions (pour un total de 21 connexions simultanées), cette tentative échoue et le message d’erreur suivant s’agit :
   
-- **Erreur**: *New-PSSession : [admin.vdomain.com] La connexion au serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : le service WS-Management ne peut pas traiter la demande. Le nombre maximal de shells simultanés pour ce client a été dépassé. Fermez des shells existants ou élèvez le quota pour ce client. Pour plus d’informations, voir [le dépannage à distance.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )*
+- **Erreur**: *New-PSSession : [admin.vdomain.com] La connexion au serveur distant admin.vdomain.com a échoué avec le message d’erreur suivant : le service WS-Management ne peut pas traiter la demande. Le nombre maximal de commandes simultanées pour ce client a été dépassé. Fermez des shells existants ou élèvez le quota pour ce client. Pour plus d’informations, voir [la résolution des problèmes à distance.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )*
 
 - **Résolution**: la seule façon de résoudre ce problème consiste à fermer une ou plusieurs des connexions précédentes. Lorsque vous en avez fini avec une session Skype Entreprise Online, nous vous recommandons d’utiliser l’cmdlet **Remove-PSSession** pour mettre fin à cette session. Cela vous permettra d’éviter ce problème.  
  
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer votre ordinateur pour la gestion de Skype Entreprise Online à l’aide d’Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

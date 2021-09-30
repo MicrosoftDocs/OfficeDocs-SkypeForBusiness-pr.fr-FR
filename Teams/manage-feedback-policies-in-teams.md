@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler Teams utilisateurs de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
-ms.openlocfilehash: 582c5e39fca8dc37cefe8b480b2ff886779f6fa0
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942099"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013008"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft Teams
 
@@ -47,6 +47,7 @@ Accédez aux commentaires sur les appareils mobiles à **l’aide**  >  **Param�
  Les données  envoyées  via Envoyer des commentaires et Envoyer des commentaires sont considérées comme des « données de support » dans le cadre de votre accord Microsoft 365 ou Office 365, y compris les informations qui seraient autrement considérées comme « Données client » ou « Données personnelles ».
 
 
+
 **Enquêtes**
 
 Les utilisateurs peuvent également évaluer leur expérience avec Teams et nous envoyer des détails sur l’évaluation qu’ils donnent. Cette enquête pop-up est affichée aux utilisateurs de temps à autre dans Teams. Lorsqu’un utilisateur sélectionne Fournir **des commentaires** dans la notification, l’enquête est affichée pour lui.
@@ -66,7 +67,9 @@ Vous gérez les stratégies de commentaires à l’aide de PowerShell. Utilisez 
 Pour désactiver et activer les fonctionnalités, définissez les paramètres suivants :
 
  - **Donnez des** commentaires : Définissez le  **paramètre userInitiatedMode** pour permettre aux utilisateurs affectés à la stratégie de faire part de leurs commentaires. La désactivation du paramètre **désactive** la fonctionnalité et les utilisateurs à qui la stratégie est attribuée n’ont pas la possibilité d’apporter des commentaires.
+
  - **Enquêtes**: définissez le **paramètre ReceiveSurveysMode** pour permettre aux utilisateurs affectés à la stratégie de recevoir l’enquête.  Pour que les utilisateurs reçoivent l’enquête et les autorisent à se désavertr, définissez le paramètre sur **enabledUserOverride.** Dans Teams, les utilisateurs peuvent ensuite se rendre sur Paramètres confidentialité et choisir s’ils  >   souhaitent participer à des enquêtes. La désactivation du paramètre **désactive** la fonctionnalité et les utilisateurs à qui la stratégie est attribuée ne recevront pas l’enquête.
+
  - **E-mail**: utilisez **l’indicateur AllowEmailCollection** pour ajouter un champ de courrier.
  - **Collection de** journaux : Utilisez **l’indicateur AllowLogCollection** pour ajouter l’option d’option de collection de journaux pour les utilisateurs. La collecte de journaux est actuellement activée uniquement sur mobile. Pour plus d’informations sur les données partagées via les [journaux, en savoir plus.](https://go.microsoft.com/fwlink/?linkid=2168178)
 

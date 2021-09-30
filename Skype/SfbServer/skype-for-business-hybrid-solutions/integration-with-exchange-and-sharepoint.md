@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez l’intégration Skype Entreprise Server 2015 avec Exchange et SharePoint.'
-ms.openlocfilehash: 5859e247f816739f9febadb9d973ab081d1e4ccc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2caf4cf409f3631ebc0a85cd2957b30e9d36d2a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593338"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013138"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration avec Exchange et Microsoft Office SharePoint Online
 
@@ -54,7 +54,7 @@ Les tableaux suivants listent les fonctionnalités prise en charge dans un dépl
 |Publier l’état en fonction Outlook informations de libre/occupé du calendrier  <br/> ||
 |Liste des contacts (via le magasin de contacts unifié)  <br/> |Nécessite Exchange 2016 ou Exchange 2013.  <br/> Un client de bureau Lync 2013 ou Skype Entreprise de bureau est requis.  <br/>  Pour plus d’informations, [voir Configure Skype Entreprise Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Photo de contact haute résolution dans le client Lync 2013, Skype Entreprise client et Lync Web App.  <br/> |Nécessite Exchange 2016 ou Exchange 2013.  <br/> Pour plus d’informations, [voir Configure the use of high-resolution photos in Skype Entreprise Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Pour les photos sur l’application Skype Entreprise pour MAC et Mobile, l’intégration entre Skype Entreprise Server 2015 et Exchange Server doit être configurée comme décrit dans Configurer les applications partenaires dans [Skype Entreprise Server et Exchange Server](../deploy/integrate-with-exchange-server/configure-partner-applications.md). <br/> |
-|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont en ligne dans la même forêt, ou que les deux sont tous deux locaux. Pour plus d’informations, [voir Skype Entreprise solutions hybrides.](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
+|Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont en ligne dans la même forêt, ou que les deux sont tous deux locaux. Pour plus d’informations, voir Configurer la connectivité hybride [entre Skype Entreprise Server et Teams](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md). <br/> |
 |L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange de l’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Nécessite Exchange 2016 ou Exchange 2013.  <br/> Pour plus d’informations, [voir Deployment Checklist for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving).  <br/> |
 |Rechercher du contenu archivé  <br/> |Nécessite Exchange 2016 ou Exchange 2013.  <br/> |

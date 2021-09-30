@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’attribuer des packages de s
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 553e30fa694403b2ad5e2edfd86b53fe8231eed3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727193"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015068"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Attribuer des packages de stratégies à des utilisateurs et groupes
 
@@ -39,7 +39,9 @@ Un package de stratégie dans Teams est un ensemble de stratégies et paramètre
 ### <a name="assign-a-policy-package-to-one-user"></a>Attribuer un package de stratégie à un utilisateur
 
 1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, sélectionnez Utilisateurs, puis l’utilisateur.
+
 2. Dans la page de l’utilisateur, sélectionnez **Stratégies,** puis, à côté du **package** de stratégie, sélectionnez **Modifier.**
+
 3. Dans le **volet Attribuer un package** de stratégie, sélectionnez le package à attribuer, puis sélectionnez **Enregistrer.**
 
 ![Teams capture d’écran du Centre d’administration pour l’affectation d’un package de stratégie à un utilisateur.](media/assign-policypackages-user.png)
@@ -47,11 +49,16 @@ Un package de stratégie dans Teams est un ensemble de stratégies et paramètre
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Attribuer un package de stratégie à plusieurs utilisateurs
 
 1. Dans le navigation gauche du Centre d’administration Microsoft Teams, sélectionnez Packages de **stratégie,** puis sélectionnez le package de stratégie à attribuer en cliquant à gauche du nom du package.
+
 2. Sélectionnez **Gérer les utilisateurs**.
+
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
+
 4. Lorsque vous avez terminé d’ajouter des utilisateurs, sélectionnez **Enregistrer.**
 
+
 ![Teams d’administration pour l’affectation d’un package de stratégie à plusieurs utilisateurs.](media/assign-policypackages-multipleusers.png)
+
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Attribuer le package stratégie à un groupe
 
@@ -67,21 +74,26 @@ Lorsque vous attribuez le package de stratégie, il est immédiatement affecté 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Attribuer un package de stratégie à un groupe d’utilisateurs dans le Centre d’administration
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
+
 2. Dans le dossier de navigation de gauche, allez à la page du package de stratégie.
+
 3. Sélectionnez l’onglet Affectation de stratégie de groupe.
+
 4. Sélectionnez **Ajouter un groupe,** puis dans le volet Affecter un package de stratégie au volet de groupe, comme suit :
 
-    a. Recherchez et ajoutez le groupe à qui vous voulez affecter le package de stratégie.
+    1. Recherchez et ajoutez le groupe à qui vous voulez affecter le package de stratégie.
 
-    b. Sélectionnez un package de stratégie.
+    1. Sélectionnez un package de stratégie.
 
-    c. Définissez le classement pour chaque type de stratégie.
+    1. Définissez le classement pour chaque type de stratégie.
 
-    d. Sélectionnez **Appliquer.**
+    1. Sélectionnez **Appliquer.**
 
-![affiche l’affectation de stratégie de groupe.](media/group-pkg-assignment.png)
+
+       ![affiche l’affectation de stratégie de groupe.](media/group-pkg-assignment.png)
 
 5. Pour gérer le classement d’un type de stratégie spécifique, accédez à la page de stratégie spécifique.
+
 6. Pour réattribuer un package de stratégie à un groupe, supprimez tout d’abord l’affectation de stratégie de groupe. Ensuite, suivez les étapes ci-dessus pour affecter le package de stratégie à un groupe.
 
 ### <a name="work-with-powershell"></a>Travailler avec PowerShell
@@ -134,13 +146,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="see-the-status-of-a-batch-assignment"></a>Voir l’état d’une affectation de lot
 
-Exécutez ce qui suit pour obtenir l’état d’une affectation de lot, où OperationId est l’ID d’opération renvoyé par ```New-CsBatchPolicyAssignmentOperation``` l’cmdlet pour un lot donné.
+Exécutez ce qui suit pour obtenir l’état d’une affectation de lot, où OperationId est l’ID d’opération renvoyé par `New-CsBatchPolicyAssignmentOperation` l’cmdlet pour un lot donné.
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-Si la sortie indique qu’une erreur s’est produite, exécutez l’erreur suivante pour obtenir plus d’informations sur les erreurs, qui se trouver dans la ```UserState``` propriété.
+Si la sortie indique qu’une erreur s’est produite, exécutez l’erreur suivante pour obtenir plus d’informations sur les erreurs, qui se trouver dans la `UserState` propriété.
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -148,7 +160,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 Pour en savoir plus, [consultez Get-CsBatchPolicyAssignmentOperation.](/powershell/module/teams/get-csbatchpolicyassignmentoperation)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer les Teams des stratégies](manage-teams-with-policies.md)
 - [Gérer les packages de stratégie dans Microsoft Teams](manage-policy-packages.md)

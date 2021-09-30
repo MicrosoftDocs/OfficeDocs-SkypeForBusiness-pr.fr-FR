@@ -1,5 +1,5 @@
 ---
-title: Configurer la conférence d’accès dans Skype Entreprise Server
+title: Configurer les conférences téléphoniques dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
-description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la conférence téléphonique dans Skype Entreprise Server.'
-ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la conférence d’accès dans Skype Entreprise Server.'
+ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609951"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013788"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurer la conférence d’accès dans Skype Entreprise Server
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurer les conférences téléphoniques dans Skype Entreprise Server
  
 **Résumé :** Lisez cette rubrique pour découvrir comment configurer la conférence Skype Entreprise Server.
   
@@ -60,7 +60,7 @@ Les utilisateurs de conférences rendez-vous participent à des conférences en 
   
 Pour configurer des plans de numérotation pour les conférences téléphoniques :
   
-- Que vous déployiez ou non Voix Entreprise, modifiez le plan de numérotation global pour ajouter une région de conférence rendez-vous et pour vous assurer qu’une règle de normalisation convertit précisément vos numéros d’accès aux conférences rendez-vous. Pour obtenir des instructions détaillées, voir [Créer ou modifier un plan](../../deploy/deploy-enterprise-voice/dial-plans.md)de numérotation dans Skype Entreprise Server .
+- Que vous déployiez ou non Voix Entreprise, modifiez le plan de numérotation global pour ajouter une région de conférence rendez-vous et pour vous assurer qu’une règle de normalisation convertit avec précision vos numéros d’accès aux conférences rendez-vous. Pour obtenir des instructions détaillées, voir [Créer ou modifier un plan](../../deploy/deploy-enterprise-voice/dial-plans.md)de numérotation dans Skype Entreprise Server .
     
 - Si vous n’avez pas déployé Voix Entreprise, créez des plans de numérotation pour vos numéros d’accès aux conférences téléphoniques. Veillez à inclure une région de conférence rendez-vous. Pour obtenir des instructions détaillées, voir [Créer ou modifier un plan](../../deploy/deploy-enterprise-voice/dial-plans.md)de numérotation dans Skype Entreprise Server .
     
@@ -157,7 +157,7 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
     
 6. Dans **Nom d’affichage,** tapez une description pour le numéro d’accès à la connexion. Il s’agit du nom associé au numéro d’accès à la connexion dans les Skype Entreprise de recherche. Ce nom s’affiche dans le client lorsqu’un utilisateur appelle le numéro d’accès. 
     
-7. Dans **l’URI** de ligne, tapez le numéro E.164 du numéro d’accès à la numérotation au format URI TEL, en incluant le symbole + avant le numéro et en excluant les espaces. Par exemple, tel:+14255550200.
+7. Dans **l’URI** de ligne, tapez le numéro E.164 du numéro d’accès à la numérotation au format URI TEL, en incluant le symbole + avant le numéro et en excluant les espaces. Par exemple, `tel:+14255550200`.
     
     > [!NOTE]
     > Le même URI de ligne ne peut pas être réutilisé par un autre numéro d’accès aux conférences téléphoniques. 
@@ -186,7 +186,7 @@ Avant de créer des numéros d’accès aux conférences rendez-vous, vous devez
     
 12. Pour ajouter une région pour le numéro d’accès à la connexion, sous Régions associées, cliquez sur **Ajouter,** cliquez sur une ou plusieurs régions associées aux plans de numérotation pour ce numéro d’accès, puis cliquez sur **OK.**
     
-13. Pour supprimer une région du numéro d’accès à la connexion, sous **Régions** associées, cliquez sur la région à supprimer, puis cliquez sur **Supprimer.**
+13. Pour supprimer une région du numéro d’accès à la connexion, sous Régions **associées,** cliquez sur la région à supprimer, puis cliquez sur **Supprimer.**
     
 14. Cliquez sur **Valider**.
     

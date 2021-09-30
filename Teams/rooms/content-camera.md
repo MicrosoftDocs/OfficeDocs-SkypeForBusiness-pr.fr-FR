@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Utilisez une caméra de contenu dans une salle Microsoft Teams, qui interagit avec le logiciel de traitement des images pour permettre aux présentateurs de dessiner sur un tableau blanc analogique.
-ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 61c0a1a36630fa31190e57de08379d6e80321a34
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726013"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013158"
 ---
 # <a name="content-cameras"></a>Caméras de contenu
 
@@ -65,7 +65,7 @@ La distance de l’appareil photo par rapport au tableau blanc se combine avec l
 | 100°        | 1,26 p. (0,38 m)| 2,52 p. (0,77 m)   | 3,78 p. (1,15 m)   |5,03 p. (1,53 m)   |5,29 p. (1,61 m) |
 | 110°        | 1,05 p. (0,32 m)| 2,10 m. (0,64 m)   | 3,15 p. (0,96 m)   |4,2 p. (1,28 m)    |4,41 p. (1,31 m) |
 | 120°        | 0,87 p. (0,26 m)| 1,73 p. (0,52 m)   | 2,60 m. (0,79 m)   |3,46 pieds (1,05 m)   |3,64 p. (1,10 m) |
-|             |               |                  |                  |        |                    |                  |
+             
 
 La distance entre la caméra de contenu et le mur sur lequel le tableau blanc est installé dépend du HFoV pour ce modèle de caméra, qui varie. Installez les caméras avec un HFoV plus grand (120 degrés par exemple) plus proche du mur, et les caméras dont le HFoV est plus étroit et plus éloigné du mur. Vérifiez le HFoV avant de commencer à installer l’appareil photo choisi.
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ba5a17ab83cd390a4aae121ccae93adcdda3595
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b093cfae82c8cf5b41b40f1636f0a2f4a3571012
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732893"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013528"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Planifier les déploiements Office 365 Secteur Public- Cloud de la communauté du secteur public haut niveau
 
@@ -51,9 +51,9 @@ La [Office 365 description du service public](/office365/servicedescriptions/off
 > Vous pouvez transférer les tables d’informations de la description du service dans un Excel et ajouter deux colonnes : Pertinentes pour mon organisation **Y/N** et Répondre aux besoins de mon organisation **Y/N.** Vous pouvez ensuite consulter cette liste avec vos collègues pour vérifier que ce service répond aux besoins de votre organisation.
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Icône représentant des points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si Office 365 Secteur Public niveau Cloud de la communauté du secteur public haute convient à votre organisation.</li><li>Confirmez que votre organisation répond aux conditions d’éligibilité requises.</li></ul> |
+| ![Icône montrant les points de décision.](media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si Office 365 Secteur Public niveau Cloud de la communauté du secteur public haute convient à votre organisation.</li><li>Confirmez que votre organisation répond aux conditions d’éligibilité requises.</li></ul> |
 
 > [!Note]
 > Office 365 Secteur Public - Cloud de la communauté du secteur public haute n’est disponible qu’aux États-Unis. Les clients non-us Government peuvent choisir parmi un certain nombre [d’Office 365 Secteur Public.](https://products.office.com/en/government/compare-office-365-government-plans)
@@ -67,9 +67,9 @@ Ayant décidé que ce service est exact pour votre organisation, commencez le pr
 
 Nous vous recommandons de prendre le temps de passer en revue soigneusement vos [paramètres](enable-features-office-365.md) d’administration et de sécurité avant de les modifier, et de prendre en compte les conséquences sur la conformité avant de modifier les paramètres de sécurité par défaut.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
-| ![Icône représentant un point de décision.](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous devez modifier l’un des paramètres de Office 365 Secteur Public par défaut - Cloud de la communauté du secteur public Haute sécurité, en résolvant pour comprendre d’abord l’impact des modifications que vous pourriez apporter.</li></ul> |
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Décidez si vous devez modifier l’un des paramètres de Office 365 Secteur Public par défaut - Cloud de la communauté du secteur public Haute sécurité, en résolvant pour comprendre d’abord l’impact des modifications que vous pourriez apporter.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>Étape 4. Comprendre les Teams fonctionnalités disponibles actuellement dans Office 365 Secteur Public - Cloud de la communauté du secteur public Haute
@@ -82,7 +82,7 @@ Pour répondre aux besoins de nos clients cloud du gouvernement, il existe certa
 
 Déterminez vos exigences de gouvernance et la manière dont vous pouvez les respecter. Pour plus [d’informations, voir](plan-teams-governance.md) Planifier la gouvernance Teams’aide.
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Point de décision |<ul><li>Déterminez et consignez vos besoins de gouvernance, en suivant les recommandations du Plan de [gouvernance dans Teams.](plan-teams-governance.md) </li></ul>|
 

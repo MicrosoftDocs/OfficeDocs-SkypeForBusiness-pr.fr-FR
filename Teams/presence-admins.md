@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725823"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012958"
 ---
 # <a name="user-presence-in-teams"></a>Présence des utilisateurs dans Teams
 
@@ -33,6 +33,7 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et d
 
  > [!NOTE]
  > Teams respecte votre configuration de confidentialité. Par conséquent, si vous avez activé le mode de confidentialité, votre présence ne sera pas visible pour les utilisateurs externes.
+
 ## <a name="presence-states-in-teams"></a>États de présence dans Teams
 
 
@@ -50,10 +51,10 @@ La présence fait partie du profil d’un utilisateur dans Microsoft Teams (et d
 | ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent(e)| ![Une icône d’horloge jaune indique l’absence.](media/Presence_Away.png) Absent|
 || ![Une icône d’horloge jaune indique l’absence](media/Presence_Away.png) Absent, *heure* de Vu pour la dernière fois|
 |![Une icône d’horloge jaune indique l’absence, de retour dans quelques minutes](media/Presence_Away.png) De retour dans quelques minutes| |
-|![Un cercle gris avec un x indique un mode Hors connexion.](media/Presence_Offline.png) Apparaître Hors connexion|![Un cercle gris avec un x indique un mode Hors connexion](media/Presence_Offline.png) Hors ligne. Lorsque les utilisateurs ne sont pas connectés sur l’un de leurs appareils, ils apparaissent hors ligne. | |
+|![Un cercle gris avec un x indique un mode Hors connexion.](media/Presence_Offline.png) Apparaître Hors connexion|![Un cercle gris avec un x indique un mode Hors connexion](media/Presence_Offline.png) Hors ligne. Lorsque les utilisateurs ne sont pas connectés sur l’un de leurs appareils, ils apparaissent hors ligne. |
 || ![Un cercle gris ouvert indique un statut inconnu.](media/Presence_Unknown.png) Statut inconnu|
 || ![Un cercle violet avec une flèche indique Absent(e) du bureau.](media/Presence_OOF.png) Absent(e) du bureau. Absent(e) du bureau est utilisé lorsque vous définissez une réponse automatique. |
-|||
+
  > [!NOTE]
  > Pour les utilisateurs dont la boîte aux lettres est hébergée localement, des retards de présence d’une heure (maximum) sont attendus.
 
@@ -82,7 +83,6 @@ Les états configurés d’un utilisateur ont des paramètres d’expiration par
 | Occupé|1 jour|
 | Ne pas déranger|1 jour|
 | Autres|7 jours|
-|||
 
 > [!NOTE]
 > Un utilisateur peut également configurer manuellement la durée de sa présence. Par exemple, une utilisatrice peut se définir sur Apparaître hors ligne jusqu’au lendemain matin.

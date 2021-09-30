@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Fournit aux professionnels de l’informatique des liens vers les dernières informations de mise à jour pour les versions perpétuelles des clients Skype Entreprise 2016, Skype Entreprise 2015 et Lync 2013
-ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581338"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013938"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Dernières mises à jour pour les versions de Skype Entreprise qui utilisent Windows Installer (MSI)
 
@@ -27,7 +27,7 @@ Utilisez les liens de cette page pour obtenir plus d’informations sur les mise
 > - Les informations de cet article s’appliquent uniquement aux versions perpétuelles de Skype Entreprise qui utilisent la technologie d’installation Windows Installer (MSI). Par exemple, si vous avez installé une version avec licence en volume de Skype Entreprise, par exemple Skype Entreprise incluse dans Office Professionnel Plus 2016.
 > - Les informations de cet article ne s’appliquent pas aux versions Microsoft 365 ou Office 365 de Skype Entreprise, telles que Skype Entreprise incluses dans Applications Microsoft 365 pour les grandes entreprises.
 > - Pour les dernières mises à jour du client mobile, consultez l’App Store de votre client mobile (iTunes, Google Play ou Microsoft Store) pour afficher les détails et installer les mises à jour.
-> - Pour connaître la version de Skype Entreprise que vous utilisez, consultez quelle version de [Skype Entreprise-je ?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
+> - Pour connaître la version de Skype Entreprise que vous utilisez, voir quelle version de [Skype Entreprise-je ?](https://support.microsoft.com/help/3195481/how-to-check-the-version-of-skype-for-business-2016)
 > - Pour plus d’informations sur l’installation des mises à jour d’Office, consultez l’article [Installer les mises à jour d’Office](https://support.office.com/article/2ab296f3-7f03-43a2-8e50-46de917611c5).
 
 Skype Entreprise compatibilité avec les Microsoft 365 ou Office 365 et votre environnement local dépend de la contrainte système requise pour votre déploiement :
@@ -245,15 +245,15 @@ Nom du package|Numéro KB|Date de publication|
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>Clients Lync Téléphone Edition dans le Centre de téléchargement
 
-Nom du package|Date de publication|
-|:--- |:--- |:--- |
+| Nom du package | Date de publication|
+|:--- |:--- |
 |[Lync Téléphone Edition pour HP 4110 et HP 4120](https://www.microsoft.com/download/en/details.aspx?id=28158) | Avril 2017 |
 |[Lync Téléphone Edition pour Polycom CX500, Polycom CX600 et Polycom CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | Avril 2017 |
 |[Lync Téléphone Edition pour Polycom CX700 et LG-Nortel IP Téléphone 8540](https://www.microsoft.com/download/en/details.aspx?id=21644) | Décembre 2015 |
 
 ### <a name="lync-basic-2013-software"></a>Logiciel Lync Basic 2013
 
-Nom du package|Date de publication|
+|Nom du package|Date de publication| |
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35451) | Octobre 2012 |
 |[Lync Basic 2013 (64 bits)](https://www.microsoft.com/download/details.aspx?id=35450) | Octobre 2012 |
@@ -316,6 +316,6 @@ Nom du package|Numéro KB|Date de publication|
 | [Lync 2010 Attendee - Installation au niveau administrateur](https://www.microsoft.com/download/en/details.aspx?id=23396) | Avril 2013   |
 | [Lync 2010 Attendee - Installation au niveau de l’utilisateur](https://www.microsoft.com/download/en/details.aspx?id=15755)  | Juin 2014    |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Mises à jour de Skype Entreprise Server](sfb-server-updates.md)

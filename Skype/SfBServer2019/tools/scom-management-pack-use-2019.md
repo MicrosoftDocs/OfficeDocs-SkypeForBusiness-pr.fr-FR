@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment configurer votre infrastructure Skype Entreprise Server 2019 pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: 90c40560ef1d39b462ce58b39804006dc7121024
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727593"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011588"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gérer Skype Entreprise Server 2019 à l’aide du pack d’administration SCOM
  
@@ -42,25 +42,25 @@ Identifiez [et configurez le serveur de gestion principal.](../../SfbServer/mana
 
 Les packs d’administration peuvent être utilisés avec System Center Operations Manager 2007 R2 (64 bits) (pris en charge uniquement à des fins de migration) ou System Center Operations Manager 2012 SP1 &amp; R2 (64 bits). Le tableau suivant indique les configurations prise en charge pour les packs d’administration Skype Entreprise Server 2019 : 
   
-|**Configuration**|**Pris en charge ?**|
+|Configuration|Pris en charge ?|
 |:-----|:-----|
-|Système d’exploitation Windows Server 2008 R2  <br/> Windows Server 2012 Système d’exploitation R2  <br/> |Oui. Les deux sur Skype Entreprise Server serveur 2019 et les serveurs de transaction synthétique.  <br/> |
-|Serveurs en cluster  <br/> |Non prise en charge.  <br/> |
-|Surveillance sans agent  <br/> |Non prise en charge.  <br/> |
-|Environnement virtuel  <br/> |Oui.  <br/> |
-|Rôles serveur joints au domaine  <br/> |Tous les rôles Skype Entreprise Server 2019 doivent être joints au domaine.  <br/> |
-|Rôles serveur autonomes  <br/> |Skype Entreprise Server serveurs Edge 2019 n’ont pas besoin d’être joints à un domaine.  <br/> |
-|Limitations de topologie  <br/> |Tous les rôles serveur dans un déploiement doivent être surveillés à partir du même groupe de gestion Operations Manager.  <br/> |
-|Nœud d’observation des transactions synthétiques  <br/> |La surveillance de la disponibilité des scénarios avec un nœud d’analyse des transactions synthétiques est prise en charge (configuration supplémentaire requise). Les nodes de l’observeur ne doivent pas obligatoirement être joints au domaine.  <br/> |
+|Système d’exploitation Windows Server 2008 R2  <br/> Windows Server 2012 Système d’exploitation R2   |Oui. Les deux sur Skype Entreprise Server serveur 2019 et les serveurs de transaction synthétique.   |
+|Serveurs en cluster   |Non prise en charge.   |
+|Surveillance sans agent   |Non prise en charge.   |
+|Environnement virtuel   |Oui.   |
+|Rôles serveur joints au domaine   |Tous les rôles Skype Entreprise Server 2019 doivent être joints au domaine.   |
+|Rôles serveur autonomes   |Skype Entreprise Server serveurs Edge 2019 n’ont pas besoin d’être joints à un domaine.   |
+|Limitations de topologie   |Tous les rôles serveur dans un déploiement doivent être surveillés à partir du même groupe de gestion Operations Manager.   |
+|Nœud d’observation des transactions synthétiques   |La surveillance de la disponibilité des scénarios avec un nœud d’analyse des transactions synthétiques est prise en charge (configuration supplémentaire requise). Les nodes de l’observeur ne doivent pas obligatoirement être joints au domaine.   |
    
 Le tableau suivant indique la capacité et la exigences du système d’exploitation pour un nœud d’watcher de transaction synthétique :
   
-|**Composant matériel**|**Configuration minimale**|
+|Composant matériel|Spécification minimale|
 |:-----|:-----|
-|UC  <br/> |Un des processeurs suivants :  <br/> Processeur 64 bits, quadruple cœur, 2,33 GHz ou supérieur  <br/> Processeur 64 bits 2 voies, bi cœur, 2,33 GHz ou supérieur  <br/> |
-|Mémoire  <br/> |8 Go  <br/> |
-|Système d’exploitation  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
-|Réseau  <br/> |1 carte réseau à 1 Gbps  <br/> |
+|UC   |Un des processeurs suivants :  <br/> Processeur 64 bits, quadruple cœur, 2,33 GHz ou supérieur  <br/> Processeur 64 bits 2 voies, bi cœur, 2,33 GHz ou supérieur   |
+|Mémoire   |8 Go   |
+|Système d’exploitation   |Windows Server 2008 R2 Windows Server 2012 R2   |
+|Réseau   |1 carte réseau à 1 Gbps   |
    
 ## <a name="prerequisites"></a>Configuration requise
 
@@ -70,7 +70,7 @@ Pour exécuter un nœud d’observation de transaction synthétique, vous devez 
     
 -  Microsoft .NET Framework 4.5
     
-- Skype Entreprise Server d’installation principale (OcsCore.msi) et l’API UCMA (Unified Communications Managed API) (les versions doivent correspondre à la version Skype Entreprise Server WatcherNode.msi)
+- Skype Entreprise Server d’installation principaux (OcsCore.msi) et unified Communications Managed API (UCMA) (les versions doivent correspondre à la version Skype Entreprise Server WatcherNode.msi)
     
 ## <a name="files-in-this-monitoring-pack"></a>Fichiers dans ce pack d’analyse
 
@@ -100,13 +100,13 @@ Les fonctionnalités suivantes sont nouvelles Skype Entreprise Server packs d’
 
 Le pack Skype Entreprise Server 2019 Management Pack tire parti de nombreuses fonctionnalités pour vous aider à détecter et diagnostiquer les problèmes. Ces fonctionnalités offrent une visibilité en temps réel de l’état d’Skype Entreprise Server environnement 2019.
   
-|**Scénario de surveillance**|**Description**|
+|Scénario de surveillance|Description|
 |:-----|:-----|
-|Transactions synthétiques  <br/> | Windows PowerShell cmdlets pour tester et garantir la haute disponibilité des scénarios tels que la signature, la présence, la messagerie instantanée et les conférences pour les utilisateurs. <br/> Les transactions synthétiques peuvent être exécutés à partir de n’importe quel emplacement géographique, y compris à l’intérieur de l’entreprise, en dehors de l’entreprise et dans les succursales.  <br/> En cas d’échec d’une transaction synthétique, des journaux HTML sont créés pour vous aider à déterminer la nature exacte de l’échec. Cela inclut la compréhension de l’action qui a échoué, de la latence de chaque action, de la ligne de commande utilisée pour exécuter le test et de l’erreur spécifique qui s’est produite.  <br/> |
-|Alertes de fiabilité des appels  <br/> |Les enregistrements des détails des appels écrits par les serveurs Skype Entreprise Server 2019 précisent si les utilisateurs sont en mesure de se connecter à un appel ou pourquoi un appel est interrompu. Les alertes de fiabilité des appels interrogent la base de données d’appels pour produire des alertes qui indiquent quand un grand nombre d’utilisateurs sont en situation de problèmes de connectivité pour les appels d’égal à égal ou la fonctionnalité de conférence de base.  <br/> La couverture des scénarios inclut les appels audio, la messagerie instantanée d’égal à égal et d’autres fonctionnalités de conférence.  <br/> |
-|Alertes de qualité des médias  <br/> |Requêtes de base de données qui se rapportent aux rapports de qualité de l’expérience (QoE) publiés par les clients Skype Entreprise Server 2019 à la fin de chaque appel. Ces requêtes produisent des alertes qui identifient les scénarios où les utilisateurs sont les plus susceptibles d’être compromis par la qualité des médias pendant les appels et les conférences. Les données reposent sur des mesures clés, telles que la latence et la perte de paquets, qui contribuent directement à la qualité de l’expérience utilisateur.  <br/> |
-|Alertes d’état des composants  <br/> |Les composants serveur individuels lèvent des alertes via les journaux des événements et les compteurs de performances pour indiquer les conditions de défaillance qui peuvent avoir une incidence significative sur les scénarios utilisateur. Ces alertes indiquent diverses conditions, telles que les services qui ne fonctionnent pas, les taux d’échec élevés, la latence des messages élevée ou les problèmes de connectivité.  <br/> |
-|Surveillance de l’état des dépendances  <br/> |Skype Entreprise Server peuvent échouer pour diverses raisons externes. Le pack d’administration surveille et collecte des données pour les dépendances externes critiques qui peuvent indiquer des problèmes graves. Ces dépendances incluent la Internet Information Services (IIS) et le processeur des serveurs utilisés pour Skype Entreprise Server.  <br/> |
+|Transactions synthétiques   | Windows PowerShell cmdlets pour tester et garantir la haute disponibilité des scénarios tels que la signature, la présence, la messagerie instantanée et les conférences pour les utilisateurs. <br/> Les transactions synthétiques peuvent être exécutés à partir de n’importe quel emplacement géographique, y compris à l’intérieur de l’entreprise, en dehors de l’entreprise et dans les succursales.  <br/> En cas d’échec d’une transaction synthétique, des journaux HTML sont créés pour vous aider à déterminer la nature exacte de l’échec. Cela inclut la compréhension de l’action qui a échoué, de la latence de chaque action, de la ligne de commande utilisée pour exécuter le test et de l’erreur spécifique qui s’est produite.   |
+|Alertes de fiabilité des appels   |Les enregistrements des détails des appels écrits par les serveurs Skype Entreprise Server 2019 précisent si les utilisateurs sont en mesure de se connecter à un appel ou pourquoi un appel est interrompu. Les alertes de fiabilité des appels interrogent la base de données d’appels pour produire des alertes qui indiquent quand un grand nombre d’utilisateurs sont en situation de problèmes de connectivité pour les appels d’égal à égal ou la fonctionnalité de conférence de base.  <br/> La couverture des scénarios inclut les appels audio, la messagerie instantanée d’égal à égal et d’autres fonctionnalités de conférence.   |
+|Alertes de qualité des médias   |Requêtes de base de données qui se rapportent aux rapports de qualité de l’expérience (QoE) publiés par les clients Skype Entreprise Server 2019 à la fin de chaque appel. Ces requêtes produisent des alertes qui identifient les scénarios où les utilisateurs sont les plus susceptibles d’être compromis par la qualité des médias pendant les appels et les conférences. Les données reposent sur des mesures clés, telles que la latence et la perte de paquets, qui contribuent directement à la qualité de l’expérience utilisateur.   |
+|Alertes d’état des composants   |Les composants serveur individuels lèvent des alertes via les journaux des événements et les compteurs de performances pour indiquer les conditions de défaillance qui peuvent avoir une incidence significative sur les scénarios utilisateur. Ces alertes indiquent diverses conditions, telles que les services qui ne fonctionnent pas, les taux d’échec élevés, la latence des messages élevée ou les problèmes de connectivité.   |
+|Surveillance de l’état des dépendances   |Skype Entreprise Server peuvent échouer pour diverses raisons externes. Le pack d’administration surveille et collecte des données pour les dépendances externes critiques qui peuvent indiquer des problèmes graves. Ces dépendances incluent la Internet Information Services (IIS) et le processeur des serveurs utilisés pour Skype Entreprise Server.   |
    
 ### <a name="alert-prioritization"></a>Priorité des alertes
 
@@ -114,7 +114,7 @@ Les alertes sont classées dans les catégories suivantes :
   
  **Alertes à priorité élevée :** Ces alertes indiquent les conditions qui provoquent des pannes de service pour de grands groupes d’utilisateurs et nécessitent une action immédiate. Les pannes détectées par les transactions synthétiques et les services hors connexion (tels que Skype Entreprise Server audio/vidéoconférence) sont considérées comme des alertes à priorité élevée. En revanche, une défaillance de composant sur un seul ordinateur n’est pas une alerte de haute priorité. Skype Entreprise Server 2019 comporte des fonctionnalités de haute disponibilité intégrées pour ces situations, par exemple, plusieurs serveurs frontaux derrière des équilibreurs de charge.
   
- **Alertes de priorité moyenne :** Ces alertes indiquent des conditions qui affectent un sous-ensemble d’utilisateurs ou indiquent des problèmes de qualité des appels , par exemple, des défaillances de composant, une latence dans l’établissement des appels ou une qualité audio moindre dans les appels. Les alertes de cette catégorie sont avec état (autrement dit, la nature de l’alerte change en fonction de l’état de la connexion réseau.) Par exemple, si les heures d’établissement d’appel indiquent une latence, puis reviennent à un seuil normal, cette alerte de priorité moyenne est automatiquement résolue dans System Center Operations Manager et les administrateurs n’ont pas besoin d’agir. Les alertes qui ne peuvent pas être résolues automatiquement sont généralement traitées par les administrateurs le même jour oué.
+ **Alertes de priorité moyenne :** Ces alertes indiquent des conditions qui affectent un sous-ensemble d’utilisateurs ou indiquent des problèmes de qualité des appels, par exemple, des défaillances de composants, la latence de l’établissement des appels ou une qualité audio moindre dans les appels. Les alertes de cette catégorie sont avec état (autrement dit, la nature de l’alerte change en fonction de l’état de la connexion réseau.) Par exemple, si les heures d’établissement d’appel indiquent une latence, puis reviennent à un seuil normal, cette alerte de priorité moyenne est automatiquement résolue dans System Center Operations Manager et les administrateurs n’ont pas besoin d’agir. Les alertes qui ne peuvent pas être résolues automatiquement sont généralement traitées par les administrateurs le même jour oué.
   
  **Autres alertes :** Ces alertes sont générées à partir de composants qui peuvent affecter un utilisateur ou un sous-ensemble spécifique d’utilisateurs. Par exemple, une alerte classique serait que le service de carnet d’adresses n’a pas pu l'® Active Directory® Domain Services (AD DS) pour l’utilisateur : testuser@contoso.com. Les administrateurs peuvent traiter ces alertes chaque fois qu’ils disposent de temps.
   
@@ -124,66 +124,66 @@ Skype Entreprise Server packs d’administration 2019 offrent une couverture acc
   
 **Transactions synthétiques prise en charge pour l’inscription, la présence et les contacts**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|1  <br/> |Inscription (connexion utilisateur)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|2  <br/> |Service de carnet d’adresses (téléchargement de fichiers)  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|3  <br/> |Requête web du carnet d’adresses  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|4   <br/> |Présence  <br/> |Lync Server 2010 disponible et au-delà  <br/> |
-|5   <br/> |Magasin de contacts unifié  <br/> |Lync Server 2013 disponible et au-delà  <br/> |
+|1   |Inscription (connexion utilisateur)   |Lync Server 2010 disponible et au-delà   |
+|2   |Service de carnet d’adresses (téléchargement de fichiers)   |Lync Server 2010 disponible et au-delà   |
+|3   |Requête web du carnet d’adresses   |Lync Server 2010 disponible et au-delà   |
+|4    |Présence   |Lync Server 2010 disponible et au-delà   |
+|5   |Magasin de contacts unifié   |Lync Server 2013 disponible et au-delà   |
    
 **Transactions synthétiques prise en charge pour les services D’égal à égal**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|6   <br/> |Messagerie instantanée D’égal à égal  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|7   <br/> |Vidéo audio d’égal à égal  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|8   <br/> |Message instantané D’égal à égal MCX (mobile)  <br/> |Disponible dans la version de septembre 2011 de Lync Server 2010 Skype Entreprise 2019  <br/> |
+|6    |Messagerie instantanée D’égal à égal   |Disponible dans Lync Server 2010 et au-delà   |
+|7    |Vidéo audio d’égal à égal   |Disponible dans Lync Server 2010 et au-delà   |
+|8    |Message instantané D’égal à égal MCX (mobile)   |Disponible dans la version de septembre 2011 de Lync Server 2010 Skype Entreprise 2019   |
  
 > [!NOTE]
 > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
   
 **Transactions synthétiques prise en charge pour les conférences et la conversation permanente**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|9   <br/> |Conférence audio-vidéo  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|10   <br/> |Conférence de données  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|11   <br/> |Conférence par message instantané  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|12   <br/> | Conversation permanente <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|13  <br/> |Rejoindre Lanceur (réunions prévues)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|14   <br/> |Conférences téléphoniques  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
-|15   <br/> |Conférence de partage d’application  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
-|16   <br/> |Conférence UCWA (rejoindre une réunion web)  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà <br/> |
+|9    |Conférence audio-vidéo   |Disponible dans Lync Server 2010 et au-delà   |
+|10   |Conférence de données   |Disponible dans Lync Server 2013 et au-delà   |
+|11   |Conférence par message instantané   |Disponible dans Lync Server 2010 et au-delà   |
+|12    | Conversation permanente  |Disponible dans Lync Server 2013 et au-delà   |
+|13   |Rejoindre Lanceur (réunions prévues)   |Disponible dans Lync Server 2013 et au-delà   |
+|14    |Conférences téléphoniques   |Disponible dans Skype Entreprise Server 2015 et au-delà  |
+|15    |Conférence de partage d’application   |Disponible dans Skype Entreprise Server 2015 et au-delà  |
+|16   |Conférence UCWA (rejoindre une réunion web)   |Disponible dans Skype Entreprise Server 2015 et au-delà  |
    
 **Transactions synthétiques prise en charge pour les dépendances de réseau et de partenaire**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|17   <br/> |Connectivité Edge AV  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|18   <br/> |Connectivité Edge antivirus Exchange connectivité de message unifiée (messagerie vocale)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-|19  <br/> |Appel PSTN D’égal à égal  <br/> |Disponible dans Lync Server 2010 et au-delà  <br/> |
-|20  <br/> |Messagerie instantanée XMPP (fédération)  <br/> |Disponible dans Lync Server 2013 et au-delà  <br/> |
-| 21  <br/> |Serveur VIS (serveur d’interopérabilité vidéo)  <br/> |Disponible dans Skype Entreprise Server 2015 et au-delà  <br/> |
+|17    |Connectivité Edge AV   |Disponible dans Lync Server 2013 et au-delà   |
+|18    |Connectivité Edge antivirus Exchange connectivité de message unifiée (messagerie vocale)   |Disponible dans Lync Server 2013 et au-delà   |
+|19   |Appel PSTN D’égal à égal   |Disponible dans Lync Server 2010 et au-delà   |
+|20   |Messagerie instantanée XMPP (fédération)   |Disponible dans Lync Server 2013 et au-delà   |
+| 21   |Serveur VIS (serveur d’interopérabilité vidéo)   |Disponible dans Skype Entreprise Server 2015 et au-delà   |
    
 ## <a name="how-health-rolls-up"></a>Comment l’état d’health rolls up
 
 Le tableau suivant indique l’état d’état d’Skype Entreprise Server le pack d’analyse.
   
-|**Management Pack, objet**|**Description**|
+|Management Pack, objet|Description|
 |:-----|:-----|
-|Skype Entreprise Server Déploiement  <br/> |Représente le déploiement de Skype Entreprise Server 2019 dans l’organisation.  <br/> |
-|Skype Entreprise Server Site  <br/> |Représente différents emplacements géographiques où les services sont déployés.  <br/> |
-|Skype Entreprise Server Pool  <br/> |Pool (au sein d’un site) qui fournit des services de communication, tels que la messagerie instantanée et les conférences, aux utilisateurs. Applicable aux pools frontux, aux pools edge et aux pools directeurs, même s’il n’existe qu’un seul ordinateur dans un pool donné.  <br/> |
-|Skype Entreprise Server Rôle  <br/> |Rôle serveur qui héberge Skype Entreprise Server Service.  <br/> |
-|Skype Entreprise Server Service  <br/> |Représente une fonctionnalité déployée sur un ordinateur spécifique (par exemple, le service utilisateur sur fp01.contoso.com).  <br/> |
-|Skype Entreprise Server Composant  <br/> |Composant du service (par exemple, le composant de téléchargement de carnet d’adresses fait partie du service Web).  <br/> |
-|Skype Entreprise Server Pool Watcher  <br/> |Instance de transactions synthétiques en cours d’exécution sur un pool.  <br/> |
-|Skype Entreprise Server Registrar Watcher  <br/> |Instance de transactions synthétiques qui s’exécutent sur un pool de bureaux d’inscriptions.  <br/> |
-|Skype Entreprise Server User Services Pool Watcher  <br/> |Instance de transactions synthétiques qui s’exécutent sur un pool de services d’utilisateurs.  <br/> |
-|Skype Entreprise Server Voice Pool Watcher  <br/> |Instance de transactions synthétiques qui s’exécutent sur un pool de voix.  <br/> |
-|Skype Entreprise Server Port Watcher  <br/> |Instance de vérifications de port en cours d’exécution sur un pool.  <br/> |
-|Simple URL Watcher  <br/> |Effectue une analyse HTTPS des URL simples configurées dans un déploiement.  <br/> |
+|Skype Entreprise Server Déploiement   |Représente le déploiement de Skype Entreprise Server 2019 dans l’organisation.   |
+|Skype Entreprise Server Site   |Représente différents emplacements géographiques où les services sont déployés.   |
+|Skype Entreprise Server Pool   |Pool (au sein d’un site) qui fournit des services de communication, tels que la messagerie instantanée et les conférences, aux utilisateurs. Applicable aux pools frontux, aux pools edge et aux pools directeurs, même s’il n’existe qu’un seul ordinateur dans un pool donné.   |
+|Skype Entreprise Server Rôle   |Rôle serveur qui héberge Skype Entreprise Server Service.   |
+|Skype Entreprise Server Service   |Représente une fonctionnalité déployée sur un ordinateur spécifique (par exemple, le service utilisateur sur fp01.contoso.com).   |
+|Skype Entreprise Server Composant   |Composant du service (par exemple, le composant de téléchargement de carnet d’adresses fait partie du service Web).   |
+|Skype Entreprise Server Pool Watcher   |Instance de transactions synthétiques en cours d’exécution sur un pool.   |
+|Skype Entreprise Server Registrar Watcher   |Instance de transactions synthétiques qui s’exécutent sur un pool de bureaux d’inscriptions.   |
+|Skype Entreprise Server User Services Pool Watcher   |Instance de transactions synthétiques qui s’exécutent sur un pool de services d’utilisateurs.   |
+|Skype Entreprise Server Voice Pool Watcher   |Instance de transactions synthétiques qui s’exécutent sur un pool de voix.   |
+|Skype Entreprise Server Port Watcher   |Instance de vérifications de port en cours d’exécution sur un pool.   |
+|Simple URL Watcher   |Effectue une analyse HTTPS des URL simples configurées dans un déploiement.   |
    
 ![Rollup SCOM.](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
@@ -201,7 +201,7 @@ Lorsque vous créez un pack d’administration pour stocker les paramètres pers
   
 La création d’un pack d’administration pour le stockage des personnalisations de chaque pack d’administration sealed facilite l’exportation des personnalisations d’un environnement de test vers un environnement de production. Cela facilite également la suppression d’un pack d’administration, car vous devez supprimer toutes les dépendances avant de pouvoir supprimer un pack d’administration. Si les personnalisations de tous les packs d’administration sont enregistrées dans le pack d’administration par défaut et que vous devez supprimer un seul pack d’administration, vous devez d’abord supprimer le pack d’administration par défaut, qui supprime également les personnalisations d’autres packs d’administration. 
   
-## <a name="links"></a>Links
+## <a name="links"></a>Liens
 
 Les liens suivants vous connectent à des informations sur les tâches courantes associées System Center packs d’analyse 2012 :
   
@@ -243,18 +243,11 @@ Pour plus d’informations sur Operations Manager, consultez les blogs suivants 
   
 - [Blog de l’équipe Operations Manager](https://blogs.technet.com/momteam/default.aspx)
     
-- [Blog opsMgr de Kevin Holman](https://blogs.technet.com/kevinholman/default.aspx)
-    
 - [Thoughts on OpsMgr](https://thoughtsonopsmgr.blogspot.com/)
     
-- [Blog de Yézy](https://rburri.wordpress.com/)
-    
-- [Espace de gestion BWren](https://blogs.technet.com/brianwren/default.aspx)
-    
-- [Ops Mgr ++](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
-> Toutes les informations et le contenu des sites autres que Microsoft sont fournis par le propriétaire ou les utilisateurs du site web. Microsoft n’offre aucune garantie, express, implicite ou statutaire, concernant les informations de ce site web. 
+> Toutes les informations et le contenu des sites autres que Microsoft sont fournis par le propriétaire ou les utilisateurs du site web. Microsoft n’offre aucune garantie, express, implicite ou statutaire, concernant les informations de ce site web.
   
 ## <a name="see-also"></a>Voir aussi
 

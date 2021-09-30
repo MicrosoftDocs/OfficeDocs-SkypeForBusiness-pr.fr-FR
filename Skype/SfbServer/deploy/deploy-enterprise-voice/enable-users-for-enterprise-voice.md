@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Résumé : Découvrez comment permettre aux utilisateurs de prendre et de recevoir des appels à l’aide de Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 68e12d072e01f9df3691401569a7759ef842570f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04533245348672afedfac113f3fd64188a2efba2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607257"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012768"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server
  
@@ -54,7 +54,7 @@ Après avoir déployé Voix Entreprise ou appel via le travail, vous pouvez util
     
 7. Dans la page **Modifier Skype Entreprise Server utilisateur,** sous **Téléphonie,** cliquez **sur Voix Entreprise**.
     
-8. Cliquez **sur URI** de ligne, puis tapez un numéro de téléphone unique et normal (par exemple, tel:+14255550200).
+8. Cliquez **sur URI** de ligne, puis tapez un numéro de téléphone unique et normal (par exemple, `tel:+14255550200` ).
     
 9. Cliquez sur **Valider**.
     

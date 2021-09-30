@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Résumé : Découvrez les étapes à suivre pour configurer Réunion Skype diffusion pour votre déploiement hybride Skype Entreprise Server local.'
-ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596028"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013708"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurer votre déploiement local pour la diffusion Réunion Skype local
  
@@ -48,12 +48,10 @@ Pour activer la fédération avec Skype Entreprise Online, vous devez configurer
     
 3. Configurez le nouveau fournisseur avec les paramètres suivants :
     
-|||
-|:-----|:-----|
-|**Activez les communications avec ce fournisseur :** <br/> |Sélectionné  <br/> |
-|**Nom du fournisseur :** propriété requise. <br/> |LyncOnlineResources  <br/> |
-|**Service Edge d’accès (FQDN) :** propriété requise. <br/> |sipfed.resources.lync.com  <br/> |
-|**Niveau de vérification par défaut :** <br/> |Autoriser les utilisateurs à communiquer avec tout le monde à l’aide de ce fournisseur.  <br/> |
+   - **Activez les communications avec ce fournisseur :** Sélectionné
+   - **Nom du fournisseur :** LyncOnlineResources
+   - **Service Edge d’accès (FQDN)** : sipfed.resources.lync.com
+   - **Niveau de vérification par défaut :** Autoriser les utilisateurs à communiquer avec tout le monde à l’aide de ce fournisseur. 
    
 Vous pouvez également activer la fédération avec Skype Entreprise Online en exécutant l’cmdlet suivante dans Skype Entreprise Server Management Shell :
   
@@ -69,7 +67,7 @@ Ensuite, vous devez ajouter des domaines fédérés SIP à la liste des domaines
     
 2. Sélectionnez **Domaines fédérés SIP** et cliquez sur **Nouveau.**
     
-3. Pour le **nom de domaine (ou nom** de domaine complet) : entrez le domaine en répétant cette procédure pour chacun des domaines suivants :
+3. Pour le **nom de domaine (ou nom de** domaine complet) : entrez le domaine, en répétant cette procédure pour chacun des domaines suivants :
     
    - noammeetings.lync.com
     

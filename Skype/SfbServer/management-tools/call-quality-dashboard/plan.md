@@ -1,5 +1,5 @@
 ---
-title: Planifier le tableau de bord de qualité des appels pour Skype Entreprise Server
+title: 'Skype Entreprise Server : Planifier le tableau de bord de qualité des appels'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Résumé : Découvrez les éléments à prendre en compte lorsque vous planifiez le tableau de bord de qualité des appels.'
-ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6e77e3e6dc4441c7089df9ef6cc0d08c9f3ad270
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728853"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011548"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planifier le tableau de bord de qualité des appels pour Skype Entreprise Server 
+# <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>Skype Entreprise Server : Planifier le tableau de bord de qualité des appels 
  
 **Résumé :** Découvrez les éléments à prendre en compte lorsque vous planifiez le Tableau de bord de qualité des appels.
   
@@ -85,7 +85,7 @@ Les données CQD peuvent être vues via le portail CQD et accessibles via des ap
 
 Le portail est le moyen le plus rapide d’afficher les données dans le cube. Le portail est livré avec plusieurs rapports intégrés qui sont utilisables immédiatement. Les rapports intégrés sont liés de manière structurée pour guider l’utilisateur vers des tranches de données d’appel successivement plus petites et plus petites. Les rapports intégrés mettent également en évidence les différentes façons dont les données peuvent être affichées en montrant une combinaison de graphiques et de tableaux avec différents tableaux croisés dynamiques, filtres et mesures. Chaque utilisateur qui accède au portail peut avoir son propre ensemble de rapports qu’il peut modifier et partager. Pour plus d’informations sur l’utilisation du portail Web CQD, voir Utiliser le tableau de bord de qualité des [appels pour Skype Entreprise Server](use.md).
   
-Systèmes d’exploitation pris en charge pour le portail CQD : Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 et Windows Server 2016 (Skype Entreprise Server 2019 CQD uniquement).
+Systèmes d’exploitation pris en charge pour le portail CQD : Windows 8.1, Windows 8, Windows Server 2012 R2, Windows Server 2012 et Windows Server 2016 (Skype Entreprise Server CQD 2019 uniquement).
   
 Navigateurs pris en charge pour le portail CQD : Internet Explorer 11, Internet Explorer 10 et Internet Explorer 9.
   
@@ -118,15 +118,15 @@ Le CQD fournit l’archivage des données QoE et une analyse rapide et approfond
 Le CQD est fourni avec plusieurs composants et permet de comprendre les exigences de chaque composant et leur relation les uns avec les autres pour obtenir le déploiement de l’outil le plus simple et le plus performant. Le tableau suivant décrit le composant dépendant pour chaque composant CQD.
   
 
-|**Nom du composant**|**Composant dépendant**|
+|Nom du composant|Composant dépendant|
 |:-----|:-----|
-|QoE Archive  <br/> |Microsoft SQL Server  <br/> |
-|Cube  <br/> |Microsoft SQL Server Analysis Services  <br/> |
-|Portail  <br/> |Services d’information Microsoft  <br/> |
-|Service de référentiel (partie de l’installation du portail)  <br/> |Microsoft SQL Server  <br/> |
+|QoE Archive   |Microsoft SQL Server   |
+|Cube   |Microsoft SQL Server Analysis Services   |
+|Portail   |Services d’information Microsoft   |
+|Service de référentiel (partie de l’installation du portail)   |Microsoft SQL Server   |
    
 > [!NOTE]
-> Pour l’archivage et le cube QoE, certaines options de déploiement nécessitent l’Enterprise ou des éditions Microsoft SQL Server. Pour plus d’informations, reportez-vous à la section Conditions requises pour l’infrastructure pour [le](plan.md#Infrastructure_Req) tableau de qualité des besoins ci-dessous.
+> Pour l’archivage et le cube QoE, certaines options de déploiement nécessitent des éditions d’Microsoft SQL Server. Pour plus d’informations, reportez-vous à la section Conditions requises pour l’infrastructure pour [le](plan.md#Infrastructure_Req) tableau de qualité des besoins ci-dessous.
   
 ![Composants CQD.](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
@@ -134,7 +134,7 @@ Le CQD est fourni avec plusieurs composants et permet de comprendre les exigence
 
 Tous les composants CQD et les composants dépendants peuvent être installés sur un seul ordinateur. La configuration à case unique est la configuration la plus simple et permet à CQD d’être autonome. Le CQD doit simplement accéder à la base de données de mesures QoE sur le serveur de surveillance. Le serveur CQD peut être un ordinateur autonome, un ordinateur virtuel ou même le serveur de surveillance, en fonction des ressources disponibles de l’ordinateur hôte et des exigences de performances. 
   
-Pendant l’installation, l’utilisateur qui effectue l’installation doit simplement fournir les instances Microsoft SQL Server et Microsoft SQL Server Analysis Services qui ont été précédemment définies sur l’ordinateur sur lequel le CQD doit être installé. Pour plus d’informations, reportez-vous au Tableau de bord de qualité [des appels pour Skype Entreprise Server’informations.](deploy-0.md)
+Pendant l’installation, l’utilisateur qui effectue l’installation doit simplement fournir les instances Microsoft SQL Server et Microsoft SQL Server Analysis Services qui ont été précédemment définies sur l’ordinateur sur lequel le CQD doit être installé. Pour plus d’informations, reportez-vous au Tableau de bord de qualité des appels pour Skype Entreprise [Server.](deploy-0.md)
   
 ### <a name="multiserver-configuration"></a>Configuration multiserveur
 
@@ -154,26 +154,26 @@ Dans une configuration multiserveur, l’archive QoE, le cube et le portail peuv
   
 ### <a name="supported-topologies"></a>Topologies prises en charge
 
-Le CQD ne fusionne pas les données de plusieurs bases de données QoEMetrics, comme c’est le cas lorsqu’il existe plusieurs topologies Skype Entreprise Server, chacune avec son propre serveur de surveillance. Chaque instance de CQD doit pointer vers une base de données QoEMetrics. Toutefois, étant donné que le CQD déplace une grande partie de la charge de travail de rapport du serveur de surveillance, les grandes organisations qui devaient déployer un serveur de surveillance par topologie Skype Entreprise Server doivent envisager d’utiliser un serveur de surveillance pour toutes les topologies.
+Le CQD ne fusionne pas les données de plusieurs bases de données QoEMetrics, comme c’est le cas lorsqu’il existe plusieurs topologies Skype Entreprise Server, chacune avec son propre serveur de surveillance. Chaque instance de CQD doit pointer vers une base de données QoEMetrics. Toutefois, étant donné que le CQD déplace une grande partie de la charge de travail de rapports du serveur de surveillance, les grandes organisations qui ont besoin de déployer un serveur de surveillance par topologie Skype Entreprise Server doivent envisager d’utiliser un serveur de surveillance pour toutes les topologies.
   
 ## <a name="infrastructure-requirements-for-cqd"></a>Conditions requises pour l’infrastructure pour le CQD
 <a name="Infrastructure_Req"> </a>
 
 Le CQD, y compris tous ses composants et composants dépendants, peut être déployé sur une machine virtuelle, un seul ordinateur ou sur plusieurs ordinateurs. La configuration logicielle et matérielle minimale requise est répertoriée ci-dessous. La disponibilité des données et les performances des requêtes peuvent varier de minutes à heures, en fonction du nombre d’utilisateurs de Skype Entreprise Server actifs, du matériel et de la configuration, de sorte que certaines mesures de performances sont données ci-dessous.
   
-|||
-|:-----|:-----|
-|Pour CQD 2015 <br/> |  <br/> |
-|Systèmes d’exploitation pris en charge   <br/> |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2  <br/> |
-|Prise en charge SQL Server  <br/> |SQL Server 2012, SQL Server 2014, SQL Server 2016  <br/> |
 
-|||
+|Pour CQD 2015 |&nbsp;  |
 |:-----|:-----|
-|Pour CQD 2019 <br/> |  <br/> |
-|Systèmes d’exploitation pris en charge   <br/> |Windows Server 2016, Windows Server 2019  <br/> |
-|Prise en charge SQL Server  <br/> |SQL Server 2017, SQL Server 2019  <br/> |
+|Systèmes d’exploitation pris en charge    |Windows Server 2008 R2, Windows Server 2012, Windows Server 2012 R2   |
+|Prise en charge SQL Server   |SQL Server 2012, SQL Server 2014, SQL Server 2016   |
+
+
+|Pour CQD 2019  |&nbsp;  |
+|:-----|:-----|
+|Systèmes d’exploitation pris en charge    |Windows Server 2016, Windows Server 2019   |
+|Prise en charge SQL Server   |SQL Server 2017, SQL Server 2019   |
    
-Le CQD utilise Microsoft SQL Server, Microsoft SQL Server Analysis Services et Microsoft Internet Information Services de sorte que la configuration matérielle et logicielle minimale requise du CQD soit fondamentalement identique à celle de ces composants dépendants. Toutefois, en fonction des besoins de l’organisation en matière d’actualité des données (qui dépendent en partie du volume de données QoE générés par l’organisation) et du coût de déploiement, des considérations supplémentaires sur le déploiement doivent être prises en compte.
+Le CQD utilise Microsoft SQL Server, Microsoft SQL Server Analysis Services et Microsoft Internet Information Services afin que la configuration matérielle et logicielle minimale requise du CQD soit fondamentalement identique à celle de ces composants dépendants. Toutefois, en fonction des besoins de l’organisation en matière d’actualité des données (qui dépendent en partie du volume de données QoE générés par l’organisation) et du coût de déploiement, des considérations supplémentaires sur le déploiement doivent être prises en compte.
   
 Le traitement des données dans le CQD est divisé en deux étapes principales : 
   
@@ -183,7 +183,7 @@ Le traitement des données dans le CQD est divisé en deux étapes principales :
     
   **Traitement de l’archive QoE.** La tâche de traitement de l’archivage QoE copie les données de la base de données de mesures QoE du serveur de surveillance vers la base de données d’archivage QoE. Il existe deux situations dans lesquelles le temps de traitement de la tâche aurait des caractéristiques de performances fondamentalement différentes. La première est après l’installation initiale du CQD. Lorsque la tâche est exécuté pour la première fois après une nouvelle installation, la tâche de traitement de l’archive QoE copie toutes les données de la base de données de mesures QoE dans la base de données d’archivage QoE. La seconde est le traitement périodique après cette série initiale. La tâche de traitement de l’archivage QoE s’exécutera toutes les 15 minutes et traitera tous les nouveaux enregistrements QoE de la base de données de mesures QoE. En règle générale, le temps de traitement initial n’est pas un problème, car il est exécuté uniquement la première fois, lors de l’installation du CQD. Toutefois, si le serveur CQD est gravement sous-mis en service, cette tâche peut prendre plusieurs heures. Reportez-vous au tableau ci-dessous pour obtenir des exemples de temps de traitement initial de l’archive QoE.
   
-  **Traitement du cube CQD.** La tâche de traitement du cube regroupe les données de la base de données d’archivage QoE dans le cube. Le temps de traitement initial du cube et le temps de traitement de cube suivant sont déterminés par la SQL Server Analysis Services utilisée pour le cube CQD. Si l’édition Standard est utilisée, il n’y a aucune différence entre le temps de traitement initial du cube et le temps de traitement de cube suivant, car chaque fois que les données du cube sont actualisées, il s’agit toujours d’un traitement complet de toutes les données disponibles. (Cela signifie que le temps de traitement du cube augmente à mesure que la quantité de données dans la base de données d’archivage QoE augmente.) Étant donné que l’édition d’aide à la décision et les Êdition Entreprise de SQL Server ont une prise en charge de partition, si l’une ou l’autre édition est utilisée, seule l’édition initiale traitera toutes les données de la base de données d’archivage QoE. Dans les séries suivantes, lorsque la tâche est déclenchée toutes les 15 minutes, elle ne traitera que les nouveaux enregistrements ajoutés à la base de données d’archivage QoE depuis la dernière fois que la tâche a été exécuté. Une fois par jour, il y aura également un traitement complet sur la partition qui contient les données du mois en cours.
+  **Traitement du cube CQD.** La tâche de traitement du cube regroupe les données de la base de données d’archivage QoE dans le cube. Le temps de traitement initial du cube et le temps de traitement de cube suivant sont déterminés par la SQL Server Analysis Services utilisée pour le cube CQD. Si l’édition Standard est utilisée, il n’y a aucune différence entre le temps de traitement initial du cube et le temps de traitement de cube suivant, car chaque fois que les données du cube sont actualisées, il s’agit toujours d’un traitement complet de toutes les données disponibles. (Cela signifie que le temps de traitement du cube augmente à mesure que la quantité de données dans la base de données d’archivage QoE augmente.) Étant donné que business Intelligence Edition et Enterprise Edition de SQL Server ont une prise en charge de partition, si l’une ou l’autre édition est utilisée, seule l’édition initiale traitera toutes les données de la base de données d’archivage QoE. Dans les séries suivantes, lorsque la tâche est déclenchée toutes les 15 minutes, elle ne traitera que les nouveaux enregistrements ajoutés à la base de données d’archivage QoE depuis la dernière fois que la tâche a été exécuté. Une fois par jour, il y aura également un traitement complet sur la partition qui contient les données du mois en cours.
   
 Les caractéristiques de l’ordinateur physique peuvent affecter les performances du CQD, ainsi que les fonctionnalités logicielles disponibles à partir SQL Server composants. Le composant d’archivage QoE sera plus important en disque que les autres composants, tandis que le composant cube sera plus important en processeur et en mémoire. Tous ces facteurs contribuent au temps total de traitement des données du CQD, ce qui affecte directement l’actualité et la disponibilité des données. Les organisations doivent prendre des décisions sur le matériel et les logiciels en fonction des besoins individuels de l’organisation. 
   
@@ -193,27 +193,27 @@ Cette section suppose qu’il existe une seule base de données QoEMetrics dans 
   
 **Profils d’ordinateur**
 
-|**Ordinateur**|**Cœurs d’UC**|**Mémoire RAM**|**Archive QoE et cube sur le même disque**|**Archivage QoE et SQL temp DB sur le même disque**|
+|Ordinateur|Cœurs d’UC|Mémoire RAM|Archive QoE et cube sur le même disque|Archivage QoE et SQL temp DB sur le même disque|
 |:-----|:-----|:-----|:-----|:-----|
-|Machine virtuelle  <br/> |4   <br/> |7 Go  <br/> |Oui  <br/> |Oui  <br/> |
-|4 cœurs  <br/> |4   <br/> |20 Go  <br/> |Oui  <br/> |Non  <br/> |
-|8 cœurs  <br/> |8   <br/> |32 Go   <br/> |Oui  <br/> |Non  <br/> |
-|16 cœurs  <br/> |16   <br/> |128 Go  <br/> |Non  <br/> |Non  <br/> |
+|Machine virtuelle   |4    |7 Go   |Oui   |Oui   |
+|4 cœurs   |4    |20 Go   |Oui   |Non   |
+|8 cœurs   |8    |32 Go    |Oui   |Non   |
+|16 cœurs   |16   |128 Go   |Non   |Non   |
    
 **Résultats des performances**
 
-|**Ordinateur**|**Taille de la DB des mesures QoE**|**SQL partitions**|**Type de disque**|**Nombre de flux**|**Processus d’archivage initial**|**Processus initial du cube**|**Processus d’archivage ultérieur**|**Processus de cube suivant**|
+|Ordinateur|Taille de la DB des mesures QoE|SQL partitions|Type de disque|Nombre de flux|Processus d’archivage initial|Processus initial du cube|Processus d’archivage ultérieur|Processus de cube suivant|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Machine virtuelle  <br/> |900 Mo  <br/> |Unique  <br/> |DISQUE DUR (taille variable)  <br/> |0,5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|Machine virtuelle  <br/> |9 Go  <br/> |Unique  <br/> |DISQUE DUR (taille variable)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Machine virtuelle  <br/> |9 Go  <br/> |Unique  <br/> |DISQUE DUR (taille fixe)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Machine virtuelle  <br/> |30+ Go  <br/> |Unique  <br/> |DISQUE DUR (taille fixe)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 cœurs  <br/> |9 Go  <br/> |Unique  <br/> |Disques multiples  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
-|8 cœurs  <br/> |9 Go  <br/> |Multiple  <br/> |Disques multiples  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 cœurs  <br/> |30+ Go  <br/> |Unique  <br/> |Disques multiples  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
-|8 cœurs  <br/> |30+ Go  <br/> |Multiple  <br/> |Disques multiples  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 cœurs  <br/> |200 Go  <br/> |Unique  <br/> |Disques multiples  <br/> |125 M  <br/> |6+ jours  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
-|16 cœurs  <br/> |500 Go  <br/> |Multiple  <br/> |Plusieurs spindles  <br/> |250 M  <br/> |8 jours  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
+|Machine virtuelle   |900 Mo   |Unique   |DISQUE DUR (taille variable)   |0,5 M   |30 m   |2 m   |30 s   |1 m   |
+|Machine virtuelle   |9 Go   |Unique   |DISQUE DUR (taille variable)   |5 M   |4 h   |15 m   |1 m   |5 m   |
+|Machine virtuelle   |9 Go   |Unique   |DISQUE DUR (taille fixe)   |5 M   |2 h   |5 m   |1 m   |5 m   |
+|Machine virtuelle   |30+ Go   |Unique   |DISQUE DUR (taille fixe)   |10 M   |15 h   |20 m   |2 m   |45 m   |
+|8 cœurs   |9 Go   |Unique   |Disques multiples   |5 M   |2 h   |5 m   |25 s   |5 m   |
+|8 cœurs   |9 Go   |Multiple   |Disques multiples   |5 M   |2 h   |15 m   |35 s   |2 m   |
+|8 cœurs   |30+ Go   |Unique   |Disques multiples   |20 M   |9 h   |20 m   |1 m   |20 m   |
+|8 cœurs   |30+ Go   |Multiple   |Disques multiples   |20 M   |9 h   |30 m   |2 m   |2 m   |
+|4 cœurs   |200 Go   |Unique   |Disques multiples   |125 M   |6+ jours   |7 h   |2 m   |6 h   |
+|16 cœurs   |500 Go   |Multiple   |Plusieurs spindles   |250 M   |8 jours   |2 h   |2 m   |10 m   |
    
 \*Ces problèmes ne sont pas censés être rencontrés dans des déploiements réels, car la base de données de mesures QoE doit avoir respectivement 9 et 18 mois de données, mais elles sont fournies ici pour être complètes.
   
@@ -295,11 +295,9 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 ```
 
 Les versions suivantes de SQL Server sont pris en charge :
-  
-|||
-|:-----|:-----|
-| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
-|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
+
+- CQD 2015 : SQL Server 2012, SQL Server 2014, SQL Server 2016
+- CQD 2019 : SQL Server 2017, SQL Server 2019 
     
 Il est recommandé d’Enterprise d’intelligence décisionnelle ou d’Enterprise édition pour des raisons de performances. Ces éditions permettent d’utiliser plusieurs fichiers de partition qui peuvent être traitées en parallèle, ce qui est utile pour le traitement des données sur plusieurs mois ou plus. 
   

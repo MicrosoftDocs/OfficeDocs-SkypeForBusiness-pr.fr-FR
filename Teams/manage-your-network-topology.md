@@ -19,12 +19,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment configurer les paramètres réseau pour les fonctionnalités vocales cloud dans Microsoft Teams.
-ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 571b2e2f4c502a41604b5e2660d7e59990dd49bb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726573"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015338"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Gérer votre topologie de réseau pour les fonctionnalités vocales cloud dans Microsoft Teams
 
@@ -116,7 +116,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 Le tableau suivant indique les sites réseau définis dans cet exemple.
 
-||Site 1 |Site 2 |
+|&nbsp;|Site 1 |Site 2 |
 |---------|---------|---------|
 |Site ID    |    Site 1 (Syz)     |  Site 2 (Syz)       |
 |ID de région  |     Région 1 (Inde)    |   Région 1 (Inde)      |
@@ -140,7 +140,7 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 
 Le tableau suivant montre les sous-réseaux définis dans cet exemple.
 
-||Site 1 |Site 2 |
+|&nbsp;|Site 1 |Site 2 |
 |---------|---------|---------|
 |ID de sous-réseau   |    192.168.0.0     |  2001:4898:e8:25:844e:926f:85ad:dd8e     |
 |Masque  |     24    |   120      |
@@ -182,6 +182,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 Voir également [Set-CsTenantTrustedIPAddress.](/powershell/module/skype/set-cstenanttrustedipaddress)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

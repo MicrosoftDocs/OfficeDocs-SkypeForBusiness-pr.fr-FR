@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Résumé : Stage AV and OAuth certificates for Skype Entreprise Server.'
-ms.openlocfilehash: 82dd1e88330bec6af7a9832fbb23429fbe457d04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6925b8b042da41f82c505a79afcc5b7678454fbd
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619840"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012718"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Affecter une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server
 
@@ -80,7 +80,7 @@ Lorsque vous aurez créé au moins une stratégie de code confidentiel par utili
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Affectation d’une stratégie Per-User de code confidentiel à l’aide Windows PowerShell cmdlets
 
-Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’Windows PowerShell et à l’cmdlet **Grant-CsPinPolicy.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez affecter des stratégies de code confidentiel par utilisateur à l’Windows PowerShell et à l’cmdlet **Grant-CsPinPolicy.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distants pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration ».](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>Pour affecter une stratégie de code confidentiel par utilisateur à un seul utilisateur
 

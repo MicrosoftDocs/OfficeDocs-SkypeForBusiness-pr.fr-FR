@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft retire le service de messagerie Exchange Online (ExchUMO) d’ici le 28 février 2020. Cet article récapitule ce que les clients concernés doivent savoir et faire pour planifier leur continuité d’activité.
-ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6d24b05b8f1c6b8d2b47533edbd9ad79c5022e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606823"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013288"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Prise en charge de la migration en ligne de la messagerie unifiée Exchange
 
 > [!IMPORTANT]
-> **Le service de messagerie unifiée dans Exchange Online n’est plus prise en charge depuis le 28 février 2020, 17 h (heure du Pacifique). Tous les comptes de messagerie vocale ont été migrés vers Messagerie vocale infonuagique service de messagerie vocale par Microsoft. Le trafic restant du service de surveillance automatique ne sera pas surveillé et risque d’être interrompu à tout moment.**
+> **Le service de messagerie unifiée dans Exchange Online n’est plus prise en charge depuis le 28 février 2020, 17 h (heure du Pacifique). Tous les comptes de messagerie vocale ont été migrés vers Messagerie vocale infonuagique service de messagerie vocale par Microsoft. Le trafic restant du service de surveillance automatique n’est pas surveillé et peut être interrompu à tout moment.**
 
 En référence [](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) à l’annonce du 8 février 2019, Microsoft retire le service de messagerie unifiée Exchange Online (ExchUMO) d’ici le 28 février 2020. Cet article récapitule ce que les clients concernés doivent savoir et faire pour planifier leur continuité d’activité.
 
@@ -49,9 +49,9 @@ Microsoft a identifié différents déploiements de clients qui utilisent des fo
 
 |Groupe de clients |Chronologie  |Détails  |
 |---------|---------|---------|
-|Clients prêts à migrer<br><br>Fonctionnalités à migrer :<br><ul><li>Messagerie vocale</ul>   |   Mars - Mai 2019  |Exemples :<ul><li>    Clients avec un déploiement et une utilisation simples de la messagerie vocale<li>Clients pour qui toutes les conditions requises sont établies pour que Microsoft exécute la migration<ul>|
-|Clients avec conditions préalables<br><br>Fonctionnalités à migrer :<br><ul><li>Messagerie vocale<li>Standard automatique<li>File d’attente des appels</ul> |  Mai - Décembre 2019 |Exemples : <br><ul><li>La configuration hybride n’est pas terminée<li>Les numéros PSTN hybrides ne sont pas mis en place</ul>|
-|Clients qui nécessitent l’implication de l’administrateur & investissement client<br><br>Fonctionnalités à migrer :<ul><li>voicemail<li>Standard automatique<li>Files d’attente d’appels<li>Intégration des télécopies</ul>| D’ici février 2020  | Exemples : <br><ul><li>Le service ExchUMO est consommé par un PBX tiers<li>Clients ayant des exigences d’accès abonné PSTN<li>Clients sur SFB 2010 (non pris en charge)<li>Intégration des télécopies</ul> |
+|Clients prêts à migrer<br><br>Fonctionnalités à migrer :<br><ul><li>Messagerie vocale</ul>   |   Mars - Mai 2019  |Exemples :<ul><li>    Clients avec un déploiement et une utilisation simples de la messagerie vocale<li>Clients pour qui toutes les conditions requises sont établies pour que Microsoft exécute la migration<ul>|
+|Clients avec conditions préalables<br><br>Fonctionnalités à migrer :<br><ul><li>Messagerie vocale<li>Standard automatique<li>File d’attente des appels</ul> |  Mai - Décembre 2019 |Exemples : <br><ul><li>La configuration hybride n’est pas terminée<li>Les numéros PSTN hybrides ne sont pas mis en place</ul>|
+|Clients qui nécessitent l’implication de l’administrateur & investissement client<br><br>Fonctionnalités à migrer :<ul><li>voicemail<li>Standard automatique<li>Files d’attente d’appels<li>Intégration des télécopies</ul>| D’ici février 2020  | Exemples : <br><ul><li>Le service ExchUMO est consommé par un PBX tiers<li>Clients ayant des exigences d’accès abonné PSTN<li>Clients sur SFB 2010 (non pris en charge)<li>Intégration des télécopies</ul> |
 
 ## <a name="voicemail-migration-guidelines"></a>Recommandations en matière de migration de la messagerie vocale
 
@@ -84,14 +84,14 @@ La migration de la messagerie vocale est pilotée par Microsoft. Les administrat
 Regardez une notification dans le Centre de notifications d’administration avec des détails supplémentaires et une chronologie concernant la migration de vos utilisateurs. Les notifications sont envoyées au moins 30 jours avant votre période de migration.
 
 > [!Note]
-> Si vous avez reçu une notification avec la chronologie de migration de vos utilisateurs et que vous souhaitez différer votre migration pour une raison critique pour l’entreprise, vous pouvez le faire en contactant le Support Microsoft. Vous ne pouvez pas reporter votre migration au-delà de la date de retrait du 28 février 2020. Pour les clients qui peuvent avoir d’autres questions, contactez votre équipe de compte ou le Support Microsoft. Les clients qui utilisent Microsoft 365 ou Office 365 peuvent soumettre un dossier de support via le Centre d’administration Microsoft 365.
+> Si vous avez reçu une notification avec la chronologie de migration de vos utilisateurs et que vous souhaitez différer votre migration pour une raison critique pour l’entreprise, vous pouvez le faire en contactant le Support Microsoft. Vous ne pouvez pas reporter votre migration au-delà de la date de retrait du 28 février 2020. Pour les clients qui peuvent avoir d’autres questions, contactez votre équipe de compte ou le Support Microsoft. Les clients qui utilisent Microsoft 365 ou Office 365 peuvent soumettre un dossier de support via le Centre d'administration Microsoft 365.
 
 ### <a name="consider-opting-in-for-a-planned-migration"></a>Envisager d’opter pour une migration planifiée
 
 Vous pouvez opter pour une migration planifiée du service de messagerie vocale vers la gestion des cvm. Avant d’opter, examinez les détails de cet article, en particulier les sections suivantes :
 
 - Étapes de migration (cette section)
-- Matrice de fonctionnalités des services cloud ExchUMO et Azure
+- Matrice des fonctionnalités des services cloud ExchUMO et Azure
 - Impact sur l’expérience utilisateur
 
 Lorsque vous choisissez une migration gérée, vous ne recevrez pas de notification préalable à la migration de 30 jours dans le centre de messages Microsoft 365 d’administration.
@@ -113,10 +113,15 @@ Les administrateurs d’Microsoft 365 et d’Office 365 sont tenus de créer à 
 Nous vous conseillons vivement de commencer la configuration de vos nouveaux attendants automatiques tôt pour éviter les problèmes de dernière minute et pour vous familiariser avec les fonctionnalités et l’expérience du service Cloud Standard automatique. Pour les attendants automatiques qui nécessitent une ou plusieurs fonctionnalités d’intervalle, vous pouvez créer et tester les attendants automatiques lorsque les fonctionnalités d’intervalle sont disponibles pour préparer le déploiement. Pour plus d’informations sur les fonctionnalités d’écart, consultez [l’Annexe.](#appendix)
 
 1. Utilisez les Exchange UMO pour exporter la configuration des attendants automatiques existants à l’aide de [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+
 2. Utilisez la cmdlet [Export-UMprompt](/powershell/module/exchange/unified-messaging/export-umprompt) dans Exchange Online PowerShell pour exporter les fichiers multimédias de message d’accueil (s’ils sont utilisés) et les convertir au format .mp3 format.
-3. Suivez les instructions de [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant) to create auto attendants by using the Microsoft Teams admin center or Powershell.
+
+3. Suivez les instructions de [Plan Cloud auto attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) and [Set up a Cloud auto attendant](/microsoftteams/create-a-phone-system-auto-attendant) to create auto attendants by using the Microsoft Teams admin center or PowerShell.
+
 4. Examinez vos message d’accueil si les options de menu ont été modifiées.
+
 5. Configurez les [transferts](#known-issues) vers vos groupes Response Groups à l’aide de la solution de contournement « Standard automatique Call Transfer to PSTN » dans la section Problèmes connus de cet article.  
+
 6. Testez les nouveaux attendants automatiques en les appelant en interne ou en attribuant un numéro de téléphone de test.  
 
 ### <a name="cutover"></a>Basculement
@@ -127,7 +132,7 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux att
 
 ## <a name="appendix"></a>Annexe
 
-### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrice de fonctionnalités des services cloud ExchUMO et Azure
+### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrice des fonctionnalités des services cloud ExchUMO et Azure
 
 | Service | Niveau de fonctionnalité | Fonctionnalité | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
@@ -155,23 +160,23 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux att
 | VM | Fonctionnalités utilisateur | Forward a voicemail  | Forward a received voicemail to other users | v | v    |
 | VM | Fonctionnalités utilisateur | Envoi d’un message vocal à un groupe d’utilisateurs  |Diffusion de messagerie vocale   | N | O   |
 | VM | Fonctionnalités utilisateur | Notification de messagerie vocale à l’aide de SMS    | Les utilisateurs peuvent recevoir un SMS lorsqu’ils ont un nouveau message vocal    | N | O    |
-| VM | Fonctionnalités utilisateur | Langues d’accueil prise en charge | Détails ici : https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| VM | Fonctionnalités utilisateur | Langues d’accueil prise en charge | Détails ici : [Qu’est-ce que les attendants automatiques cloud ?](/microsoftteams/what-are-phone-system-auto-attendants) | v | v    |
 | VM | Fonctionnalités utilisateur | Règles de répondeur automatique |  | v | v    |
-| VM | Fonctionnalités utilisateur | Lire au téléphone (PSTN) : lire un message | M’appeler sur ma cellule pour écouter le message vocal  | N | O    |
+| VM | Fonctionnalités utilisateur | Lire sur le téléphone (PSTN) : lire un message | M’appeler sur ma cellule pour écouter le message vocal  | N | O    |
 | VM | Fonctionnalités utilisateur | Lire sur le téléphone (th)- pour lire un message | M’appeler sur mon appareil authentifié  | N | O    |
 | VM | Fonctionnalités utilisateur | Boîte aux lettres partagée entre plusieurs utilisateurs |  | v | v    |
 | VM | Fonctionnalités de l’appelant  | Expérience de l’appelant : messagerie vocale protégée | L’appelant peut choisir une option pour marquer un message enregistré comme protégé| N | O    |
-| VM | Fonctionnalités de l’appelant  | Expérience de l’appelant — messagerie vocale privée | L’appelant peut choisir une option pour marquer un message enregistré comme privé  | N | O    |
+| VM | Fonctionnalités de l’appelant  | Expérience de l’appelant : messagerie vocale privée | L’appelant peut choisir une option pour marquer un message enregistré comme privé  | N | O    |
 | VM | Fonctionnalités de l’appelant  | Détection du silence   |  | N | O    |
 | VM | Tenant-Admin fonctionnalités | Messagerie vocale protégée au niveau du serveur    | L’administrateur client peut configurer une règle de niveau de service pour marquer la messagerie vocale entrante comme étant protégée | v | v    |
-| VM | Tenant-Admin fonctionnalités | Modifier la durée d’enregistrement  |     | v | v    |
-| VM | Tenant-Admin fonctionnalités | Modifier le délai d’out de détection du silence    |  | N/A    | O    |
+| VM | Tenant-Admin fonctionnalités | Modifier la durée limite de l’enregistrement  |     | v | v    |
+| VM | Tenant-Admin fonctionnalités | Modifier le délai d’out de détection du silence    |  | S/O    | O    |
 | VM | Tenant-Admin fonctionnalités | Modifier le nombre d’échecs d’entrée | CVM : codé en dur sur 3 | N | O    |
 | VM | Tenant-Admin fonctionnalités | Modifier la langue par défaut |  | v | v    |
 | VM | Tenant-Admin fonctionnalités | Désactiver/activer la transcription |  | v | v    |
 | VM | Tenant-Admin fonctionnalités | Désactiver/activer la notification d’appel manqué |  | N | O    |
 | VM | Tenant-Admin fonctionnalités | Aider Microsoft à améliorer l'aperçu de messagerie vocale    |  | v | v    |
-| VM | Tenant-Admin fonctionnalités | Personnaliser le message texte pour les utilisateurs activés|  | N/A    | O    |
+| VM | Tenant-Admin fonctionnalités | Personnaliser le message texte pour les utilisateurs activés|  | S/O    | O    |
 | VM | Tenant-Admin fonctionnalités | Masquage de la transcription|  | v | N    |
 | VM | Tenant-Admin fonctionnalités | Stratégie de messagerie vocale    |   | v | v    |
 | VM | Tenant-Admin fonctionnalités | Administration du portail web   |  | CY19   | O    |
@@ -182,7 +187,7 @@ Nous vous conseillons vivement de commencer la configuration de vos nouveaux att
 | AA | Fonctionnalités de service | Prise en charge Microsoft Teams|  | v | N    |
 | AA | Fonctionnalités de service | Numérotation par nom, entrée DTMF    |  | v | v    |
 | AA | Fonctionnalités de service | Numérotation par nom, saisie vocale  |  | v | v    |
-| AA | Fonctionnalités de service | Prise en charge multi-langue | Détails de la langue ici : https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| AA | Fonctionnalités de service | Prise en charge multi-langue | Détails linguistiques ici : [qu’est-ce que les attendants automatiques cloud ?](/microsoftteams/what-are-phone-system-auto-attendants) | v | v    |
 | AA | Fonctionnalités de service | Transférer vers un opérateur, un CQ ou un utilisateur |  | v | v    |
 | AA | Fonctionnalités de service | Transférer vers le numéro PSTN en interne (DID RNL)  |  | v | v    |
 | AA | Fonctionnalités de service | Transférer vers le numéro PSTN en externe  |  | Consultez la section Problèmes connus ci-dessous | O    |

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5209b024ae3e5f5161e7ff777c30b66c3237b3c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733533"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013378"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server
 
@@ -109,8 +109,6 @@ application Assistant de conférence et application Annonce de conférence que l
 
 Skype Entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences téléphoniques. Toutefois, si vous avez un besoin métier fort qui nécessite de modifier les fichiers audio par défaut, consultez l’article de la Base de connaissances Microsoft 961177, Comment personnaliser les invites vocales ou les fichiers de musique pour les conférences [audio rendez-vous](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
 
-Vous pouvez également utiliser l’utilitaire de gestion des [invites vocales personnalisées de Microsoft Lync Server Assistant de conférence,](https://go.microsoft.com/fwlink/p/?LinkId=396880) qui permet aux administrateurs de remplacer les invites vocales par défaut utilisées lorsqu’un appelant rejoint une réunion Skype Entreprise avec des invites personnalisées pour fournir une expérience d’entrée de réunion différente. Les invites vocales personnalisées peuvent être installées sur un serveur Enterprise ou Édition Standard serveur.
-
 application Assistant de conférence et application Annonce de conférence les conditions suivantes pour les fichiers d’attente musicale, de nom enregistré et d’invite audio :
 
 - Format de fichier audio Windows Media (.wma)
@@ -132,7 +130,7 @@ Pour utiliser les fonctionnalités de conférence, Skype Entreprise Server certa
 **Ports serveur requis**
 
 
-|**Rôle serveur**|**Nom du service**|**Port**|**Protocole**|**Remarques**|
+|**Rôle serveur**|**Nom du service**|**Port**|**Protocole**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
 |Serveurs frontaux  <br/> |Skype Entreprise Server Service de conférence de messagerie instantanée  <br/> |5062  <br/> |TCP  <br/> |Utilisé pour les demandes SIP entrantes dans le cadre de conférences de messagerie instantanée.  <br/> |
 |Serveurs frontaux  <br/> |Skype Entreprise Server Service de conférence web  <br/> |8057  <br/> |TCP (TLS)  <br/> |Utilisé pour l’écoute des connexions PSOM (Persistent Shared Object Model) à partir d’un client.  <br/> |
@@ -150,7 +148,7 @@ Pour utiliser les fonctionnalités de conférence, Skype Entreprise Server certa
 **Ports clients requis**
 
 
-|**Port**|**Protocole**|**Remarques**|
+|**Port**|**Protocole**|**Notes**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |Utilisé pour que les utilisateurs externes puissent accéder aux sessions de conférence web.  <br/> |
 |443  <br/> |TCP (STUN/MSTURN)  <br/> |Utilisé pour que les utilisateurs externes puissent accéder aux sessions A/V et multimédias (TCP).  <br/> |

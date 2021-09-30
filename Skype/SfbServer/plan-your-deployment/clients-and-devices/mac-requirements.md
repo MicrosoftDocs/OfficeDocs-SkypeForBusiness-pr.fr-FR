@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lisez cette rubrique pour en savoir plus sur la configuration matérielle, logicielle et d’infrastructure requise pour l’Skype Entreprise sur un Mac.
-ms.openlocfilehash: dd7dc17c4166838a76b11d9905335575205f4b2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604773"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014468"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype Entreprise client sur Mac
  
@@ -31,7 +31,7 @@ Le [Skype Entreprise client Mac est](https://products.office.com/skype-for-busin
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Configuration matérielle et logicielle requise pour Skype Entreprise sur Mac
 
-Le Skype Entreprise client Mac nécessite Mac OS X El Capitan et des niveaux supérieurs, et utilise au moins 100 Mo d’espace disque. Nous supportons l’utilisation de tous les périphériques audio et vidéo intégrés. Les appareils externes doivent se trouver dans [Skype Entreprise catalogue de solutions.](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 
+Le Skype Entreprise client Mac nécessite Mac OS X El Capitan et des niveaux supérieurs, et utilise au moins 100 Mo d’espace disque. Nous supportons l’utilisation de tous les périphériques audio et vidéo intégrés. Les appareils externes doivent être répertoriés à [l Microsoft Teams périphériques.](https://www.microsoft.com/microsoft-teams/across-devices/devices) 
   
 > [!NOTE]
 > Cette liste est préliminaire et certains appareils peuvent être qualifiés pour Lync, mais ne sont pas pris en charge Skype Entreprise sur Mac. Reportez-vous [à la configuration système](https://products.office.com/office-system-requirements) requise pour le matériel minimal requis.
@@ -42,7 +42,7 @@ Skype Entreprise Server 2015 prend également en charge les clients hérités su
   
 - Microsoft Lync pour Mac 2011 (voir le Guide de déploiement [de Lync pour Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     
-- Microsoft Communicator pour Mac 2011 (voir Communicator [pour Mac 2011 Deployment Guide)](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))
+- Microsoft Communicator pour Mac 2011 (voir Communicator guide de déploiement [pour Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))
  
 Ces clients ne sont pas pris en charge Skype Entreprise Server 2019.
    

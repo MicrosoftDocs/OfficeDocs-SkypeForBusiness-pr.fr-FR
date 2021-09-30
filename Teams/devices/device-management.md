@@ -20,14 +20,14 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2baa4755f63bbb5867a1e259c9edc9a3aeca0718
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: c53dc5fb9188cbfa8f32ddacae5486dd62f6a5fc
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59993195"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015990"
 ---
-# <a name="manage-your-devices-in-microsoft-teams"></a>Gérer vos périphériques dans Microsoft Teams
+# <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams : gestion de vos appareils 
 
 Vous pouvez gérer les appareils utilisés avec des Microsoft Teams dans votre organisation à partir du Microsoft Teams d’administration. Vous pouvez afficher et gérer l’inventaire des appareils pour votre organisation et effectuer des tâches telles que la mise à jour, le redémarrage et le suivi des diagnostics pour les appareils. Vous pouvez également créer et attribuer des profils de configuration à un appareil ou à des groupes d’appareils.
 

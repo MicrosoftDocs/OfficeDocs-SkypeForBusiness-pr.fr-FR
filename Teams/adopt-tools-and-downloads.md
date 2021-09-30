@@ -17,21 +17,21 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 052ab1111c2f090b1e0d107b082ffd95c166186e092742f35ef2a88aa7ed327c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6e144a664036ea864f14c104212cb76db9160a48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314280"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012778"
 ---
-# <a name="tools-for-driving-adoption"></a>Outils pour favoriser l’Adoption 
+# <a name="tools-for-driving-adoption"></a>Outils pour favoriser l’Adoption
 
 Utilisez les outils ci-dessous pour prendre en charge chaque phase de votre plan d’adoption de service.  
 
-|               |               |               |               |               |               |
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" width="40 px" height="40 px" alt="clock icon">| [Plans de Projet d’Adoption](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" width="40 px" height="40 px" alt="people icon">| [Exemple de personnages et de styles de travail](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px" alt="checklist icon"> | [Utilisez ce modèle pour attribuer des flux de travail aux membres de l’équipe clés et communiquer avec les parties prenantes](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
-| <img src="https://docs.microsoft.com/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px" alt="best practices icon">| [Inspirez vos employés grâce à l’option «Day in the Life quicksheets»](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="tutorial icon">| [Ressources vidéo intégrables pour les spécialistes et les professionnels de l’informatique](https://aka.ms/CoffeeintheCloud) | <img src="https://docs.microsoft.com/office/media/icons/success.svg" width="40 px" height="40 px" alt="success icon">| [Préparez votre réseau pour Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
+| <img src="/office/media/icons/clock-teams.svg" width="40 px" height="40 px" alt="clock icon">| [Plans de Projet d’Adoption](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip) | <img src="/office/media/icons/users-people.svg" width="40 px" height="40 px" alt="people icon">| [Exemple de personnages et de styles de travail](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-example-personas.zip) | <img src="/office/media/icons/task-checklist-planning-teams.svg" width="40 px" height="40 px" alt="checklist icon"> | [Utilisez ce modèle pour attribuer des flux de travail aux membres de l’équipe clés et communiquer avec les parties prenantes](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-work-assign-and-stakeholders.zip) |
+| <img src="/office/media/icons/best-practices-teams.svg" width="40 px" height="40 px" alt="best practices icon">| [Inspirez vos employés grâce à l’option «Day in the Life quicksheets»](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-day-in-the-life-quicksheets.zip) | <img src="/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="tutorial icon">| [Ressources vidéo intégrables pour les spécialistes et les professionnels de l’informatique](https://aka.ms/CoffeeintheCloud) | <img src="/office/media/icons/success.svg" width="40 px" height="40 px" alt="success icon">| [Préparez votre réseau pour Microsoft Teams](/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-helpdesk-guide.pdf) |
 
 ### <a name="microsoft-365-or-office-365-champions-program"></a>Microsoft 365 champions du monde Office 365'autres programmes
 Le programme Champions est un programme gratuit qui permet aux personnes qui souhaitent davantage de savoir Microsoft Teams et d’autres services Microsoft 365 d Office 365'équipe. Nous combinons notre communauté en ligne dans la [Communauté Technique Microsoft](https://aka.ms/DriveAdoption) avec des appels Communauté mensuels qui mettent en avant tous les composants afin de favoriser l’adoption de gouvernance pour les meilleures pratiques aux nouvelles fonctionnalités. Rejoignez notre communauté https://aka.ms/O365Champions et accédez aux publications au plus tôt, prenez contacte avec les clients et apprenez auprès d’experts Microsoft.  

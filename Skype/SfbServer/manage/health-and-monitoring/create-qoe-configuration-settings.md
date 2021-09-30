@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 'Résumé : Découvrez les paramètres de qualité de l’expérience (QoE) dans Skype Entreprise Server.'
-ms.openlocfilehash: 564ab88b349b578cf577893e4119e5e1ebf26fb1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8c92f5844562e3a99cfc8d8701d7a72b9022267c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585098"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012168"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Créer des paramètres de configuration de la qualité de l’expérience dans Skype Entreprise Server
  
@@ -63,7 +63,7 @@ Les paramètres de configuration QoE peuvent être créés à l’Skype Entrepri
     
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>Création d’une configuration QoE Paramètres l’aide Windows PowerShell cmdlets
 
-Vous pouvez créer des paramètres de configuration QoE à l’aide Windows PowerShell l'New-CsQoEConfiguration cmdlet. Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez créer des paramètres de configuration QoE à l’aide Windows PowerShell l'New-CsQoEConfiguration cmdlet. Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>Pour créer une collection de paramètres de configuration QoE
 

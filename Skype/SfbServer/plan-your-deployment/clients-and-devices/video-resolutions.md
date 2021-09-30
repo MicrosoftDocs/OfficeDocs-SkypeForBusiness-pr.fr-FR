@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Résumé : Examinez la vidéo client requise lors de la planification de Skype Entreprise Server.'
-ms.openlocfilehash: efd1bfe80f770b62e974fe598d791d7b179a8b48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 75929db21edec514865b6cdc0d48cbda9e21fbbe
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606103"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014728"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype Entreprise résolutions vidéo clientes
  
@@ -29,7 +29,7 @@ ms.locfileid: "58606103"
   
 Cet article décrit la prise en charge du matériel vidéo pour les appels vidéo Skype Entreprise et explique comment déterminer la qualité vidéo attendue pour différentes configurations d’ordinateur, de tablette et d’appareil mobile. 
   
-Les professionnels de l’informatique trouveront ces informations utiles pour évaluer l’pertinence des ordinateurs portables déjà utilisés dans leur organisation, ou en cas d’utilisation. Ils peuvent également rechercher des [informations sur](https://partnersolutions.skypeforbusiness.com/solutionscatalog) des appareils spécifiques dans le catalogue de solutions.
+Les professionnels de l’informatique trouveront ces informations utiles pour évaluer l’pertinence des ordinateurs portables déjà utilisés dans leur organisation, ou en cas d’utilisation. Ils peuvent également rechercher sur les [Microsoft Teams des](https://www.microsoft.com/microsoft-teams/across-devices/device) informations sur des appareils spécifiques.
   
 ## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows et fonctionnalités vidéo pour ordinateur de bureau, Mac et tablette
 
@@ -75,7 +75,7 @@ Les trois tableaux suivants expliquent les capacités d’encodage et de décoda
 |640 x 360  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 4,5  <br/> |
 |1280 x 720  <br/> |1280 x 720  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
 |1280 x 720  <br/> |1920x1080  <br/> |4 cœurs et VideoEncodeScore ≥ 7,3  <br/> |
-|1920x1080  <br/> |1920x1080  <br/> |N/A  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |S/O  <br/> |
    
 **Ordinateur avec DXVA mais sans encodeur matériel accéléré**
 

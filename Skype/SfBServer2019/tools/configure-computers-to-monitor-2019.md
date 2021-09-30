@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Installez les fichiers de l’agent Operations Manager sur l’ordinateur Skype Entreprise Server 2019 à surveiller et configurez l’ordinateur pour qu’il agisse en tant que proxy System Center serveur proxy.'
-ms.openlocfilehash: 06d44ec8ec46ceff07955eea8615bb00ed46c01c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8dce9edf44557632fc4e84188606152c76d646
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605743"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012178"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Configurer les ordinateurs Skype Entreprise Server à surveiller
 
@@ -31,7 +31,7 @@ Chaque Skype Entreprise Server 2019 que vous souhaitez surveiller doit être en 
 
 System Center Les agents Operations Manager qui s’exécutent dans un réseau de périmètre (tel qu’un serveur Edge Skype Entreprise Server), en dehors de l’entreprise (par exemple, un nœud d’observation des transactions synthétiques externes) ou à travers une limite d’confiance Active Directory, peuvent nécessiter la configuration d’un serveur de passerelle System Center Operations Manager. Ce rôle serveur permet aux agents qui n’ont pas de relation d’confiance avec le serveur d’administration racine de lever des alertes. Pour plus d’informations, voir [Managing Gateway Servers in Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12)).
 
-Si vous déployez un agent dans l’un de ces emplacements, vous devrez également demander et configurer un certificat qui permet au nœud watcher d’envoyer des alertes à System Center Operations Manager. Pour simplifier ce processus, l’équipe Operations Manager a créé un ensemble d’utilitaires qui vous permettent de demander et d’installer le type de certificat correct sur l’ordinateur du nœud observeur. Pour plus d’informations et pour télécharger ces [utilitaires,](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)voir Obtenir des certificats pour les agents non joints à un domaine facilité avec l’Assistant Génération de certificat.
+Si vous déployez un agent dans l’un de ces emplacements, vous devrez également demander et configurer un certificat qui permet au nœud watcher d’envoyer des alertes à System Center Operations Manager. Pour simplifier ce processus, l’équipe Operations Manager a créé un ensemble d’utilitaires qui vous permettent de demander et d’installer le type de certificat correct sur l’ordinateur du nœud observeur. Pour plus d’informations et pour télécharger ces [utilitaires,](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)voir Obtenir des certificats pour les agents non joints à un domaine facilité avec l’Assistant Génération de certificat.
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Installation des fichiers de l’agent Operation Manager
 
@@ -57,7 +57,7 @@ Si vous déployez un agent dans l’un de ces emplacements, vous devrez égaleme
 
 11. Cliquez sur **Quitter**.
 
-Pour System Center 2012, vous pouvez vérifier que l’agent a été créé en cliquant sur **Démarrer,** sur Tous les **programmes,** sur **System Center Operations Manager 2012,** puis sur **Operations 2012 Manager Shell.** Dans la interpréteur de commandes d’Operations Manager, tapez la commande Windows PowerShell suivante, puis appuyez sur Entrée :
+Pour System Center 2012, vous pouvez vérifier que l’agent a été créé en cliquant sur **Démarrer,** sur Tous les **programmes,** sur **System Center Operations Manager 2012,** puis sur **Operations 2012 Manager Shell.** Dans la interpréteur de commandes d'Operations Manager, tapez la commande Windows PowerShell suivante, puis appuyez sur Entrée :
 ```PowerShell
 Get-SCOMAgent
 ```

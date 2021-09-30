@@ -411,6 +411,8 @@ items:
                 href: set-up-call-analytics.md
               - name: Utiliser l’analyse des appels pour résoudre les problèmes de qualité des appels
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+              - name: Utiliser la télémétrie en temps réel pour résoudre des problèmes de qualité de réunion médiocre
+                href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
           - name: Qualité de service (QoS)
             items:
               - name: Configurer la qualité de service dans Teams
@@ -1548,7 +1550,7 @@ items:
       - name: Teams pour la vente au détail
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Démarrage avec les modèles d’équipe pour la vente au détail
+          - name: Utiliser les modèles d’équipe au détail
             href: get-started-with-retail-teams-templates.md
       - name: Teams pour le secteur public
         href: expand-teams-across-your-org/teams-for-government-landing-page.md

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Configurez votre serveur de gestion principal, installez System Center Operations Manager et importez des packs d’administration pour Skype Entreprise Server 2019.'
-ms.openlocfilehash: 4e0d8a1176beb9d5c82418b65c1a4ce67d587c6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5bbe28afbc3b579700686b1fab1af3f420dd83e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594898"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012538"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype Entreprise Server : configurer le serveur de gestion principal
 
@@ -43,13 +43,9 @@ Lorsque vous installez System Center Operations Manager, vous devez installer to
 - Data Warehouse
 
 > [!IMPORTANT]
-> Le «[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/download/details.aspx?id=6442)» doit être installé avant d’installer System Center Operations Manager 2012.
+> Le Microsoft Report Viewer Redistributable Package 2010 doit être installé avant d’installer System Center Operations Manager 2012.
 
-Pour plus d’informations sur ces produits et leur installation, consultez les liens suivants :
-
-- [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
-
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
+Pour plus d’informations sur ces produits et leur installation, [voir System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
 N’oubliez pas que vous ne pouvez avoir qu’un seul serveur d’administration racine par Skype Entreprise Server déploiement.
 
@@ -62,7 +58,7 @@ Vous pouvez étendre les fonctionnalités de System Center Operations Manager en
     > [!NOTE]
     >  Pour plus d’informations sur la configuration de la notification Operations Manager, voir [Configuring Notification](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10)).
 
-- Le pack d’administration **Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) teste de manière proactive les composants de Skype Entreprise Server clés, tels que la signature du système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RSTN). Ces tests sont effectués à l’aide Skype Entreprise Server cmdlets de transaction synthétique. Par exemple, l’applet de commande **Test-CsIM** est utilisée pour simuler une conversation de messagerie instantanée entre deux utilisateurs de test. Si cette conversation simulée échoue, une alerte est générée.
+- Le pack d’administration **Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) teste de manière proactive les composants de Skype Entreprise Server clés, tels que la signature au système, l’échange de messages instantanés ou l’appel à un téléphone situé sur le réseau téléphonique commuté (RSTN). Ces tests sont effectués à l’aide Skype Entreprise Server cmdlets de transaction synthétique. Par exemple, l’applet de commande **Test-CsIM** est utilisée pour simuler une conversation de messagerie instantanée entre deux utilisateurs de test. Si cette conversation simulée échoue, une alerte est générée.
 
 L’importation des packs d’administration est une étape cruciale. Si les packs d’administration ne sont pas importés, vous ne pourrez pas utiliser Operations Manager pour surveiller Skype Entreprise Server événements ou exécuter Skype Entreprise Server transactions synthétiques.
 
@@ -75,7 +71,7 @@ Vous pouvez utiliser l’un des outils suivants pour importer les packs d’admi
 
 - **System Center Operations Manager** Avec cette méthode, vous utilisez Operations Manager pour ajouter la surveillance des Skype Entreprise Server.
 
-- **interpréteur de commandes d’Operations Manager** Vous pouvez utiliser le interpréteur de commandes d’Operations Manager pour importer directement ou pour résoudre les problèmes que vous rencontrez lorsque vous importez des packs d’administration à l’aide de la console System Center Operations Manager.
+- **interpréteur de commandes d'Operations Manager** Vous pouvez utiliser le interpréteur de commandes d'Operations Manager pour importer directement ou pour résoudre les problèmes que vous rencontrez lorsque vous importez des packs d’administration à l’aide de la console System Center Operations Manager.
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importation des packs d’administration à l’aide System Center Operations Manager
 
@@ -95,13 +91,13 @@ Vous pouvez utiliser l’un des outils suivants pour importer les packs d’admi
 
 8. Dans la boîte de dialogue **Sélectionner les packs d’administration**, cliquez sur **Fermer**. Le processus d’importation et d’installation peut nécessiter plusieurs minutes.
 
-## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importation des packs d’administration à l’aide du interpréteur de commandes d’Operations Manager
+## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importation des packs d’administration à l’aide du interpréteur de commandes d'Operations Manager
 
-En règle générale, il est plus facile d’importer les packs d’administration à l’aide de la console Operations Manager. Toutefois, si une erreur se produit et que l’importation échoue, la console ne fournit pas toujours de rapports d’erreurs adéquats. En comparaison, le interpréteur de commandes d’Operations Manager fournit des informations détaillées. Si vous utilisez Operations Manager et que vous rencontrez des problèmes lors de l’importation d’un pack d’administration, importez-le à l’aide du interpréteur de commandes d’Operations Manager. Les informations fournies par interpréteur de commandes d’Operations Manager peuvent vous aider à déterminer pourquoi l’importation a échoué.
+En règle générale, il est plus facile d’importer les packs d’administration à l’aide de la console Operations Manager. Toutefois, si une erreur se produit et que l’importation échoue, la console ne fournit pas toujours de rapports d’erreurs adéquats. En comparaison, le interpréteur de commandes d'Operations Manager fournit des informations détaillées. Si vous utilisez Operations Manager et que vous rencontrez des problèmes lors de l’importation d’un pack d’administration, importez-le à l’aide du interpréteur de commandes d'Operations Manager. Les informations fournies par interpréteur de commandes d'Operations Manager peuvent vous aider à déterminer pourquoi l’importation a échoué.
 
-1. Cliquez **sur** Démarrer, **sur** Tous les programmes, sur Microsoft **System Center 2012,** sur **Operations Manager,** puis sur **interpréteur de commandes d’Operations Manager**.
+1. Cliquez **sur** Démarrer, **sur** Tous les programmes, sur Microsoft **System Center 2012,** sur **Operations Manager,** puis sur **interpréteur de commandes d'Operations Manager**.
 
-2. Dans interpréteur de commandes d’Operations Manager, tapez la commande suivante à l’invite de commandes, en utilisant le chemin d’accès réel à votre copie du fichier Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp, puis appuyez sur Entrée :
+2. Dans interpréteur de commandes d'Operations Manager, tapez la commande suivante à l’invite de commandes, en utilisant le chemin d’accès réel à votre copie du fichier Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp, puis appuyez sur Entrée :
 
    ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp"

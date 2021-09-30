@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Résumé : Examinez les considérations sur les composants réseau ci-dessous avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: 272ac60f4322d1d9153a6518e20d02c07e066def
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623576"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014668"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planifier les exigences réseau pour les Skype Entreprise
 
@@ -104,7 +104,7 @@ Le tableau suivant présente les paramètres recommandés pour les exceptions IP
 ## <a name="conferencing-network-requirements"></a>Conditions requises pour le réseau de conférence
 <a name="Conf_req"> </a>
 
-La bande passante utilisée pour télécharger le contenu de conférence à partir Internet Information Services (IIS) dépend de la taille du contenu. Vous pouvez choisir de surveiller l’utilisation réelle et d’ajuster la planification de la bande passante en conséquence.
+La bande passante utilisée pour télécharger le contenu des conférences à partir du serveur IIS (Internet Information Services) dépend de la taille du contenu. Vous pouvez choisir de surveiller l’utilisation réelle et d’ajuster la planification de la bande passante en conséquence.
 
 ## <a name="network-bandwidth-requirements-for-media-traffic"></a>Besoins en bande passante réseau pour le trafic multimédia
 <a name="Conf_req"> </a>
@@ -114,7 +114,7 @@ Une partie importante de la planification réseau consiste à s’assurer que vo
 ### <a name="media-traffic-network-usage"></a>Utilisation du réseau de trafic multimédia
 <a name="Net_req"> </a>
 
-L’utilisation de la bande passante par le trafic multimédia peut être difficile à calculer en raison du nombre de variables différentes, comme l’utilisation du codec, la résolution et les niveaux d’activité. L’utilisation de la bande passante est une fonction du codec utilisé et de l’activité du flux, qui peut varier d’un scénario à l’autre. Le tableau suivant répertorie les codecs audio généralement utilisés dans Skype Entreprise Server scénarios.
+L’utilisation de la bande passante par le trafic multimédia peut être difficile à calculer en raison du nombre de variables différentes, comme l’utilisation du codec, la résolution et les niveaux d’activité. L’utilisation de la bande passante est une fonction du codec utilisé et de l’activité du flux, qui peut varier d’un scénario à l’autre. Le tableau suivant répertorie les codecs audio généralement utilisés dans les scénarios Skype Entreprise Server.
 
 **Bande passante du codec audio**
 
@@ -154,13 +154,13 @@ La version stéréo du codec G.722 est utilisée par les systèmes basés sur le
 |H.264  <br/> |1280 x 192 (20:3)  <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1920 x 288 (20:3)  <br/> |2000  <br/> |500  <br/> |
 
-Le codec par défaut de la vidéo est la norme H.264/MPEG-4 Part 10 Advanced Video Coding, ainsi que ses extensions de codage vidéo évolutives pour l’évolutivité temporelle. Pour maintenir l’interopérabilité avec les clients hérités, le codec RTVideo est toujours utilisé pour les appels d’égal à égal entre Skype Entreprise Server clients hérités. Dans les sessions de conférence avec des clients Skype Entreprise Server et hérités, le point de terminaison Skype Entreprise Server peut coder la vidéo à l’aide de codecs vidéo et envoyer le flux de bits H.264 aux clients Skype Entreprise Server et au flux de bits RTVideo aux clients hérités.
+Le codec par défaut de la vidéo est la norme H.264/MPEG-4 Part 10 Advanced Video Coding, ainsi que ses extensions de codage vidéo évolutives pour l’évolutivité temporelle. Pour maintenir l’interopérabilité avec les clients hérités, le codec RTVideo est toujours utilisé pour les appels d’égal à égal entre Skype Entreprise Server clients hérités. Dans les sessions de conférence avec des clients Skype Entreprise Server et hérités, le point de terminaison Skype Entreprise Server peut encoder la vidéo à l’aide de codecs vidéo et envoyer le flux bitstream H.264 aux clients Skype Entreprise Server et rtVideo bitstream aux clients hérités.
 
 La bande passante requise dépend de la résolution, de la qualité, de la fréquence d’images et de la quantité de mouvement ou de changement dans l’image. Pour chaque résolution, il existe deux taux de bits pertinents :
 
 - **Vitesse de bits de charge utile maximale** Il s’agit de la vitesse de bits qu’un point de terminaison utilisera pour la résolution à la fréquence d’images maximale. Il s’agit de la valeur qui permet la meilleure qualité vidéo et sonore.
 
-- **Vitesse de bits de charge utile minimale** Il s’agit de la vitesse de bits en dessous de laquelle Skype Entreprise Server point de terminaison passe à la résolution inférieure suivante. Pour garantir une certaine résolution, la vitesse de bits de la charge utile vidéo disponible ne doit pas être inférieure à cette vitesse de bits minimale pour cette résolution. Cette valeur vous permet de comprendre la valeur la plus faible possible si la vitesse de bits maximale n’est pas disponible ou pratique. Pour certains utilisateurs, une telle vidéo à faible vitesse de bits peut offrir une expérience vidéo inacceptable, donc utilisez avec précaution ces vitesses de bits de charge utile vidéo minimales. Notez que pour les scènes vidéo statiques et immuables, la vitesse de bits réelle peut temporairement être inférieure à la vitesse de bits minimale.
+- **Vitesse de bits de charge utile minimale** Il s’agit de la vitesse de bits en dessous de laquelle Skype Entreprise Server point de terminaison passe à la résolution inférieure suivante. Pour garantir une certaine résolution, la vitesse de bits de la charge utile vidéo disponible ne doit pas être inférieure à cette vitesse de bits minimale pour cette résolution. Cette valeur vous permet de comprendre la valeur la plus faible possible si la vitesse de bit maximale n’est pas disponible ou pratique. Pour certains utilisateurs, une telle vidéo à faible vitesse de bits peut offrir une expérience vidéo inacceptable, donc utilisez avec précaution ces vitesses de bits de charge utile vidéo minimales. Notez que pour les scènes vidéo statiques et immuables, la vitesse de bits réelle peut temporairement être inférieure à la vitesse de bits minimale.
 
 Skype Entreprise Server prend en charge de nombreuses résolutions. Cela permet aux Skype Entreprise Server de s’ajuster à différentes bandes passantes réseau et aux fonctionnalités du client de réception. Le rapport d’aspect par Skype Entreprise Server est de 16:9. Les proportions 4:3 héritées sont toujours pris en charge pour les webcams qui n’autorisent pas la capture dans les proportions 16:9.
 
@@ -192,8 +192,8 @@ Outre la bande passante requise pour le trafic RTP (Real-Time Transport Protocol
 
 |**Media**|**Bande passante maximale RTCP (Kbits/s)**|
 |:-----|:-----|
-|Audio  <br/> |5   <br/> |
-|Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)  <br/> |10   <br/> |
+|Audio  <br/> |5  <br/> |
+|Vidéo (uniquement H.264 ou RTVideo envoyé/reçu)  <br/> |10  <br/> |
 |Vidéo (H.264 et RTVideo envoyé/reçu)  <br/> |15   <br/> |
 
 Pour la planification de la capacité, les deux statistiques suivantes sont d’intérêt :
@@ -202,7 +202,7 @@ Pour la planification de la capacité, les deux statistiques suivantes sont d’
 
 - **Bande passante maximale avec fec** Bande passante maximale consommée par un flux. Cela inclut l’activité classique du flux et le codec classique utilisé dans le scénario avec FEC. Il s’agit de la bande passante lorsque l’activité du flux est maximale et qu’une perte de paquets vient déclencher l’utilisation de la correction d’erreur de transfert pour améliorer la qualité. Cela est utile pour calculer la quantité de bande passante qui doit être allouée pour permettre l’utilisation du codec dans un scénario donné et permettre l’utilisation de la fec pour préserver la qualité dans des conditions de perte de paquets.
 
-Les tableaux ci-dessous répertorient également une valeur de bande passante supplémentaire, la **bande passante type**. Il s’agit de la bande passante moyenne consommée par un flux. Cela inclut l’activité classique du flux et le codec type utilisé dans le scénario. Cette bande passante peut être utilisée pour environ la quantité de bande passante consommée par le trafic multimédia à un moment spécifique, mais ne doit pas être utilisée pour la planification de la capacité, car les appels individuels dépasseront cette valeur lorsque le niveau d’activité est supérieur à la moyenne. La bande passante de flux vidéo classique dans les tableaux ci-dessous est basée sur une combinaison de différentes résolutions vidéo telles que observées dans les données client mesurées, et les installations plus petites sont susceptibles d’avoir des nombres réels qui diffèrent des données du tableau. Par exemple, dans les sessions d’égal à égal, la plupart des utilisateurs utilisent la fenêtre de rendu vidéo par défaut, tandis qu’un pourcentage d’utilisateurs augmente ou agrandit l’application Skype Entreprise Server pour permettre de meilleures résolutions vidéo.
+Les tableaux ci-dessous répertorient également une valeur de bande passante supplémentaire, la **bande passante type**. Il s’agit de la bande passante moyenne consommée par un flux. Cela inclut l’activité classique du flux et le codec type utilisé dans le scénario. Cette bande passante peut être utilisée pour l’aroximation de la quantité de bande passante consommée par le trafic multimédia à un moment spécifique, mais ne doit pas être utilisée pour la planification de la capacité, car les appels individuels dépasseront cette valeur lorsque le niveau d’activité est supérieur à la moyenne. La bande passante de flux vidéo classique dans les tableaux ci-dessous est basée sur une combinaison de différentes résolutions vidéo telles que observées dans les données client mesurées, et les installations plus petites sont susceptibles d’avoir des nombres réels qui diffèrent des données du tableau. Par exemple, dans les sessions d’égal à égal, la plupart des utilisateurs utilisent la fenêtre de rendu vidéo par défaut, tandis qu’un pourcentage d’utilisateurs augmente ou agrandit l’application Skype Entreprise Server pour permettre de meilleures résolutions vidéo.
 
 Les tableaux suivants fournissent des valeurs pour les différents scénarios.
 
@@ -270,13 +270,13 @@ Skype Entreprise Server offre une prise en charge complète de la qualité de se
 
 - [Configuration des plages de ports et d’une](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation. Vous devez réserver un ensemble unique de ports pour différents types de paquets, tels que les paquets audio et vidéo. En utilisant Skype Entreprise Server vous n’activez pas ou ne désactivez pas QoS en activant une valeur de propriété sur True ou False. Au lieu de cela, vous activez QoS en configurant des plages de ports, puis en créant et en appliquant une stratégie de groupe. Si vous décidez ultérieurement de ne pas utiliser QoS, vous pouvez « désactiver » la QoS en supprimant les objets de stratégie de groupe appropriés.
 
-- [Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs Edge.](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md) Bien que cela ne soit pas requis, vous pouvez configurer vos serveurs Edge de façon à utiliser les mêmes plages de ports que vos autres serveurs. La configuration d’une stratégie QoS s’fait uniquement pour le côté interne de vos serveurs Edge. En raison du fait que la QoS est conçue pour être utilisé sur votre réseau interne et non sur Internet.
+- [Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs Edge.](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md) Bien que cela ne soit pas requis, vous pouvez configurer vos serveurs Edge de façon à utiliser les mêmes plages de ports que vos autres serveurs. La configuration d’une stratégie QoS s’fait uniquement pour le côté interne de vos serveurs Edge. En raison du fait que la QoS est conçue pour une utilisation sur votre réseau interne et non sur Internet.
 
 - [Configuration des plages de ports et d’une](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md)stratégie de qualité de service pour vos clients dans Skype Entreprise Server . Ces plages de ports s’appliquent uniquement aux ordinateurs clients et sont généralement différentes des plages de ports configurées sur vos serveurs. Notez que Skype Entreprise Server ne prend pas en charge la QoS pour les Windows d’exploitation autres que Windows 10.
 
 
 > [!NOTE]
-> Si vous utilisez Windows Server 2012 ou Windows Server 2012 R2, vous pouvez être intéressé par le nouvel ensemble de cmdlets Windows PowerShell disponibles pour la gestion de QoS sur cette plateforme. Pour plus d’informations, [voir les cmdlets de QoS](https://go.microsoft.com/fwlink/p/?LinkId=285379)réseau dans Windows PowerShell .
+> Si vous utilisez Windows Server 2012 ou Windows Server 2012 R2, vous pouvez être intéressé par le nouvel ensemble de cmdlets Windows PowerShell disponibles pour la gestion de QoS sur cette plateforme. Pour plus d’informations, [voir Windows PowerShell Cmdlets for Networking](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11)).
 
 QoS est également abordée dans le livre blanc Network [Planning, Monitoring, and Troubleshooting with Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) with additional details and depth. Bien que le contenu se réfère explicitement à Lync 2010 et Lync 2013, les considérations pour Skype Entreprise Server restent inchangées.
 
@@ -285,6 +285,6 @@ QoS est également abordée dans le livre blanc Network [Planning, Monitoring, a
 
 [Planifier IPv6 dans Skype Entreprise](ipv6.md)
 
-[Exigences d’équilibrage de charge pour Skype Entreprise](load-balancing.md)
+[Exigences relatives à l’équilibrage de charge Skype Entreprise](load-balancing.md)
 
 [DNS requirements for Skype Entreprise Server](dns.md)

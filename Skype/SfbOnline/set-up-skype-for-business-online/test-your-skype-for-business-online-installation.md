@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a8efe71507b6270181fb0451f06f10a80c7a578b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729903"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014568"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Test de votre installation de Skype Entreprise Online
 
@@ -107,7 +107,7 @@ Vérifiez que les principales fonctionnalités de Skype Entreprise Online sont e
 |[Se connecter et se déconnecter de Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |L'écran de connexion Skype Entreprise s'affiche.  <br/> |
 |[Se connecter et se déconnecter de Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |La fenêtre Skype Entreprise se ferme et l'icône Skype Entreprise n'est plus affichée dans la zone de notification Windows.  <br/> |
 
-Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes de connexion dans Skype Entreprise Online](https://support.microsoft.com/kb/2541980).
+Vous ne parvenez pas à vous connecter ? Voir [Résolution des problèmes Skype Entreprise de l’utilisateur.](/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users)
 
  **Contacts, présence et messagerie instantanée**
 
@@ -139,7 +139,7 @@ Vous ne parvenez pas à vous connecter ? Accédez à [Dépannage des problèmes 
 |[Présentation de diapositives PowerPoint dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |Votre présentation PowerPoint est affichée sur l'ordinateur de tous les utilisateurs dans la fenêtre de partage de réunion Skype Entreprise.  <br/> |
 |[Transfert d'un fichier dans une réunion Skype Entreprise (Lync)](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |Une fois la pièce jointe téléchargée, tous les participants à la réunion peuvent l'afficher et la télécharger.  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 [Configurer Skype entreprise Online](set-up-skype-for-business-online.md)
 
 [Autoriser les utilisateurs Skype Entreprise à ajouter des contacts Skype](let-skype-for-business-users-add-skype-contacts.md)

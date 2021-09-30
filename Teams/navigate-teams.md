@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5e9c92d977cc7ca5d61a4cf35fd00288e6151a5
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617220"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014818"
 ---
 # <a name="navigate-microsoft-teams"></a>Naviguer dans Microsoft Teams
 
-À présent que vous avez une compréhension claire du chemin unique et des besoins de votre organisation, il est temps de commencer votre chemin vers une collaboration puissante. Utilisez la section ci-dessous pour découvrir comment naviguer dans les fonctionnalités de Txtiala complétées au sein d’Teams.
+À présent que vous avez une compréhension claire du chemin unique et des besoins de votre organisation, il est temps de commencer votre chemin vers une collaboration puissante. Utilisez la section ci-dessous pour découvrir comment naviguer dans les fonctionnalités de Quniala complétées au sein d’Teams.
 
 ## <a name="getting-started"></a>Prise en main
 
@@ -36,13 +36,13 @@ Communiquez efficacement en commençant des appels à deux ou de groupe avec l�
 
 ## <a name="getting-work-done"></a>Travail
 
-La fonctionnalité des cartes d Kaizala’action existe actuellement dans Microsoft Teams. Dans le temps, les outils qui s’offrent à vous peuvent permettre d’améliorer l’efficacité. Plus de 300 applications externes sont disponibles dans Microsoft Teams. Continuez à lire pour découvrir comment utiliser des applications et des modèles pour créer des [invitations](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)à des réunions, des annonces et des vérifications précises de l’emplacement pour rester connecté au sein de votre organisation.
+La fonctionnalité des cartes d Kaizala’action existe actuellement dans Microsoft Teams. En matière de travail, les outils qui s’offrent à vous peuvent vous permettre d’être plus efficace. Plus de 300 applications externes sont disponibles dans Microsoft Teams. Continuez à lire pour découvrir comment utiliser des applications et des modèles pour créer des [invitations](https://support.microsoft.com/office/meetings-in-teams-e0b0ae21-53ee-4462-a50d-ca9b9e217b67)à des réunions, des annonces et des vérifications précises de l’emplacement pour rester connecté au sein de votre organisation.
 
 ### <a name="announcements"></a>Annonces
 
 Vous pouvez partager des mises à jour et des informations importantes avec votre personnel grâce aux [annonces Teams.](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)
 
-Créez et envoyez des messages destinés à plusieurs équipes ou à un grand nombre d’employés par discussion avec [l’application Communicator de l’entreprise.](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) Son interface simple permet aux utilisateurs désignés de créer, prévisualiser, collaborer et envoyer des messages de manière ciblée. Créez des fonctionnalités personnalisées de communication ciblée, telles que la télémétrie personnalisée, sur le nombre d’utilisateurs reconnus ou ayant interagi avec un message avec des informations directement liées aux décisions de gestion.
+Créez et envoyez des messages destinés à plusieurs équipes ou à un grand nombre d’employés par discussion avec [l’application Communicator de l’entreprise.](/microsoftteams/platform/samples/app-templates#company-communicator) Son interface simple permet aux utilisateurs désignés de créer, prévisualiser, collaborer et envoyer des messages de manière ciblée. Créez des fonctionnalités personnalisées de communication ciblée, telles que la télémétrie personnalisée, sur le nombre d’utilisateurs reconnus ou ayant interagi avec un message avec des informations directement liées aux décisions de gestion.
 
 ### <a name="check-ins"></a>Check-ins
 

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Recherchez et gérez les mises à jour Skype Entreprise Server 2015/2019 et Lync 2013 au même endroit. Utilisez les liens répertoriés sur cette page pour obtenir plus d’informations sur les mises à jour et les télécharger.
-ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432306"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012378"
 ---
 # <a name="skype-for-business-server-updates"></a>Mises à jour de Skype Entreprise Server
 
@@ -104,7 +104,7 @@ La base de 4470124 est la base de données principale pour Skype Entreprise Serv
 |Mise à jour cumulative 9 de Lync Server 2013  |[KB 4019183](https://support.microsoft.com/kb/4019183) |Juillet 2017 |
 |Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |Mars 2017 |
 |Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |Janvier 2017 |
-|Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 |[KB 3212869](https://support.microsoft.com/kb/3212869) |Décembre 2016 |
+|Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 2 |[KB 3212869](https://support.microsoft.com/kb/3212869) |Décembre 2016 |
 |Correctif logiciel 8 de la mise à jour cumulative 8 de Lync Server 2013 1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |Novembre 2016 |
 |Mise à jour cumulative 8 de Lync Server 2013 |[KB 3175336](https://support.microsoft.com/kb/3175336)|Août 2016 |
 |Mise à jour cumulative 7 de Lync Server 2013  |[KB 3140581](https://support.microsoft.com/kb/3140581)|Avril 2016 |
@@ -157,7 +157,7 @@ Nom du package |Date de publication|
 | Lync Connectivity Analyzer (64 bits) RETIRÉ |Juin 2017 |
 | Lync Server 2013 Best Practices Analyzer |Octobre 2012 |
 |[Calculateur de capacité Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=36828) |Juillet 2013 |
-|[Outils de débogage Lync Server 2013](https://www.microsoft.com/download/details.aspx?id=35453) |Janvier 2014 |
+|Outils de débogage Lync Server 2013 |Janvier 2014 |
 | Pack d’administration Lync Server 2013 |Mai 2016 |
 | Kit de ressources de conversation permanente Lync Server 2013 |Juillet 2013 |
 | Outil de planification Lync Server 2013 |Juillet 2013 |
@@ -271,7 +271,7 @@ Nom/lien du package|Date de publication|
 
 Les mises à jour logicielles incluent l’ensemble des mises à jour, mises à jour cumulatives, Service Packs, Feature Packs, mises à jour critiques, mises à jour de sécurité ou correctifs logiciels. Pour obtenir la terminologie standard utilisée pour décrire les mises à jour logicielles de Microsoft, consultez l’[KB 824684](https://support.microsoft.com/kb/824684).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Installer Skype Entreprise Server 2015](./deploy/install/install.md)
 - [Mise à niveau vers Skype Entreprise Server 2015](./deploy/upgrade-to-skype-for-business-server.md)

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19333badf3df580129ab7a805cf27c670748d299
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991143"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011778"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Utiliser des modèles d’équipe dans le Centre d’administration Teams’équipe
 
@@ -134,10 +134,10 @@ Pour contrôler les modèles que les utilisateurs voient dans Teams pour créer 
 
 Utilisez les cmdlets suivantes pour gérer vos modèles dans PowerShell.
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
 - [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-articles"></a>Articles connexes

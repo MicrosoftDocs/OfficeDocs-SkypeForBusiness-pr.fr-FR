@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lisez cette rubrique pour savoir comment vérifier si vous avez une licence en volume Skype Entreprise logiciels.
-ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583328"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011528"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Système de salle : Skype Entreprise licence logicielle
  
@@ -30,8 +30,6 @@ Skype Room System utilise un client Skype Entreprise installé, qui nécessite u
 Si KMS sont en place et distribuent Skype Entreprise activations de licence en volume, Skype Room System active automatiquement le client Skype Entreprise volume. Pour savoir si des KMS sont en place :
   
 À partir d’une invite de commandes, exécutez :  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-Pour plus d’informations, voir Comment découvrir les hôtes Office et Windows KMS via DNS et supprimer les [instances non autorisées.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
   
 Pour configurer une KMS, voir KMS activation de [Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) et de clés GVK pour l’activation KMS et Active Directory de [Office 2013](/DeployOffice/vlactivation/gvlks)
   
@@ -47,7 +45,7 @@ Pour obtenir une clé MAK, accédez au Centre de gestion des licences en volume 
   
 ## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>MAK pour les Microsoft 365 ou Office 365 sans accès VLSC
 
-Si le client n’a pas de contrat de licence en volume, les activations Skype Entreprise seront beaucoup plus difficiles à gérer. Toutefois, les Microsoft 365 et Office 365 qui n’ont pas accès au VLSC peuvent obtenir une mak promotionnelle en fournissant les informations suivantes au OEM qui vend le Skype Room System :
+Si le client n’a pas de contrat de licence en volume, les activations Skype Entreprise seront beaucoup plus difficiles à gérer. Toutefois, Microsoft 365 et Office 365 clients sans accès VLSC peuvent obtenir une MAK promotionnelle en fournissant les informations suivantes au OEM qui vend le Skype Room System :
   
 - Nom de la société
     

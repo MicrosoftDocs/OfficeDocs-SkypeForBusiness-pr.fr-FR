@@ -16,43 +16,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
-description: "Résumé : Découvrez comment créer, publier et vérifier une nouvelle topologie avant d’installer Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Résumé : Découvrez comment créer, publier et vérifier une nouvelle topologie avant d’installer Skype Entreprise Server. Téléchargez une version d’évaluation gratuite de Skype Entreprise Server à partir du Centre d’évaluation Microsoft à l’adresse : https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server'
+ms.openlocfilehash: d50a2d2e89435bed7ae60c471c76fcca9f766567
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725993"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013358"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Créer et publier une nouvelle topologie dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment créer, publier et vérifier une nouvelle topologie avant d’installer Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) l':.
+**Résumé :** Découvrez comment créer, publier et vérifier une nouvelle topologie avant d’installer Skype Entreprise Server. Téléchargez une version d’évaluation gratuite de Skype Entreprise Server à partir du Centre d’évaluation Microsoft à l’adresse : [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
-Avant de pouvoir installer le système Skype Entreprise Server sur chacun des serveurs de la topologie, vous devez créer une topologie et la publier. Lorsque vous publiez une topologie, vous chargez les informations de topologie dans la base de données du magasin central de gestion. S’il s’agit d’un pool Êdition Entreprise, vous créez la base de données du magasin central de gestion la première fois que vous publiez une nouvelle topologie. S’il Édition Standard, vous devez exécuter le processus Préparer le premier serveur Édition Standard à partir de l’Assistant Déploiement avant de publier une topologie. Cela permet de préparer les Édition Standard en installant une instance SQL Server Express Edition et en créant le magasin central de gestion. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. La création et la publication d’une nouvelle topologie sont décrites à l’étape 6 sur 8.
+Avant de pouvoir installer le système Skype Entreprise Server sur chacun des serveurs de la topologie, vous devez créer une topologie et la publier. Lorsque vous publiez une topologie, vous chargez les informations de topologie dans la base de données du magasin central de gestion. S’il s’agit d’un pool Enterprise Edition, vous créez la base de données du magasin central de gestion la première fois que vous publiez une nouvelle topologie. S’il s’agit de Standard Edition, vous devez exécuter le processus Préparer d’abord le serveur Standard Edition Server à partir de l’Assistant Déploiement avant de publier une topologie. Pour préparer Standard Edition, installez une instance Express Edition SQL Server et créez le magasin central de gestion. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. La création et la publication d’une nouvelle topologie sont décrites à l’étape 6 sur 8.
   
 ![Diagramme de vue d’ensemble.](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## <a name="create-and-publish-new-topology"></a>Créer et publier une nouvelle topologie
 
-Vous pouvez utiliser Skype Entreprise Server de topologie pour concevoir, définir, configurer et publier des topologies. Cet outil a été installé lors de l’installation des outils d’administration plus tôt dans l’article. Vous pouvez faire de nombreux choix différents lorsque vous créez une topologie. Dans cette procédure, vous allez créer une topologie de base avec conférence.
+Vous pouvez utiliser le Générateur de topologies Skype Entreprise Server pour concevoir, définir, configurer et publier des topologies. Cet outil a été installé lors de l’installation des outils d’administration plus tôt dans l’article. Vous pouvez faire de nombreux choix différents lorsque vous créez une topologie. Dans cette procédure, vous allez créer une topologie de base avec conférence.
   
 > [!IMPORTANT]
-> Skype Entreprise Server nécessite SQL Server pour fonctionner. Les bases de données principales sont appelées magasin central de gestion. Si vous déployez des Êdition Entreprise, ces bases de données sont créées lorsque vous publiez la topologie en suivant les étapes ci-dessous. Dans ce cas, le Générateur de topologie vous demandera les informations de connexion à une SQL Server’installation. Si vous envisagez de déployer Édition Standard, vous devez installer SQL Server Express Edition avant de définir et de publier la nouvelle topologie. Pour installer SQL Server Express Edition, vous devez ouvrir l’Assistant Déploiement sur le serveur qui fera fonction du serveur frontal, puis exécuter Préparer d’Édition Standard Server. Lorsque vous cliquez sur Préparer Édition Standard Server, l’Assistant Déploiement installe automatiquement SQL Server Express Edition et crée les bases de données du magasin central de gestion. 
+> Skype Entreprise Server nécessite des SQL Server pour fonctionner. Les bases de données principales sont appelées magasin central de gestion. Si vous déployez Enterprise Edition, ces bases de données sont créées lorsque vous publiez la topologie en suivant les étapes ci-dessous. Dans ce cas, le Générateur de topologie vous demandera les informations de connexion à une SQL Server’installation. Si vous envisagez de déployer Standard Edition, vous devez installer SQL Server Express Edition avant de définir et de publier la nouvelle topologie. Pour installer SQL Server Express Edition, ouvrez l’Assistant Déploiement sur le serveur qui fera fonction du serveur frontal, puis exécutez Préparer d’abord le serveur Standard Edition Server. Lorsque vous cliquez sur Préparer le premier serveur Standard Edition Server, l’Assistant Déploiement installe automatiquement SQL Server Express Edition et crée les bases de données du magasin central de gestion. 
   
 ### <a name="create-a-new-topology"></a>Créer une topologie
 
 1. Connectez-vous en tant qu’utilisateur standard ayant accès au Générateur de topologies.
     
-2. Ouvrez Skype Entreprise Server générateur de topologie.
+2. Ouvrez le Générateur de topologies Skype Entreprise Server.
     
 3. Sélectionnez **Nouvelle topologie,** puis cliquez sur **OK.**
     
 4. Sélectionnez un emplacement et un nom de fichier pour le fichier de configuration de la topologie.
     
     > [!NOTE]
-    > La configuration de la topologie est enregistrée en tant que fichier XML du Générateur de topologie (.tbxml). Lorsque vous publiez une topologie, vous poussez les informations de configuration du fichier vers la base SQL Server données. Lorsque vous ouvrirez le Générateur de topologies à l’avenir, vous pouvez télécharger la configuration existante à partir de SQL Server directement dans le Générateur de topologies et la publier sur SQL Server ou l’enregistrer en tant que fichier de configuration du Générateur de topologies. 
+    > La configuration de la topologie est enregistrée en tant que fichier XML du Générateur de topologie (.tbxml). Lorsque vous publiez une topologie, vous poussez les informations de configuration du fichier vers la base de données SQL Server données. Lorsque vous ouvrirez le Générateur de topologies à l’avenir, vous pouvez télécharger la configuration existante à partir de SQL Server directement dans le Générateur de topologies et la publier sur SQL Server ou l’enregistrer en tant que fichier de configuration du Générateur de topologies. 
   
-5. Dans **l’écran Définir le domaine principal,** entrez le domaine **SIP** principal, puis cliquez sur **Suivant**. Dans cet exemple, nous utilisons **contoso.local**, comme illustré dans la figure.
+5. Dans **l’écran Définir le domaine principal,** entrez le domaine **SIP** principal, puis cliquez sur **Suivant**. Dans cet exemple, nous utilisons `contoso.local` , comme illustré dans la figure.
     
      ![Définissez le domaine sip principal.](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
@@ -66,14 +66,14 @@ Vous pouvez utiliser Skype Entreprise Server de topologie pour concevoir, défin
     
 9. Cliquez **sur Terminer** pour terminer le processus de définition d’une nouvelle topologie. L’Assistant Nouveau frontal se lance automatiquement.
     
-### <a name="define-a-front-end-pool-or-standard-edition-server"></a>Définir un pool frontal ou un serveur Édition Standard serveur
+### <a name="define-a-front-end-pool-or-standard-edition-server"></a>Définir un pool frontal ou un serveur Standard Edition Server
 
 1. Examinez les conditions préalables de l’Assistant, puis cliquez sur **Suivant.**
     
-2. Entrez le nom de domaine complet (FQDN) du pool, puis sélectionnez **Êdition Entreprise Pool** frontal ou **serveur Édition Standard,** puis cliquez sur **Suivant,** comme illustré dans la figure.
+2. Entrez le nom de domaine complet (FQDN) du pool, sélectionnez le pool frontal **Enterprise Edition** ou le serveur **Standard Edition,** puis cliquez sur Suivant, comme illustré dans la figure. 
     
     > [!TIP]
-    > Skype Entreprise Server Êdition Entreprise peut inclure plusieurs serveurs qui travaillent ensemble pour fournir le rôle frontal. Lorsque plusieurs serveurs sont utilisés pour remplir le rôle, il s’agit d’un pool. Par conséquent, plusieurs serveurs travaillant ensemble pour fournir le rôle frontal sont également appelés pool frontal. Skype Entreprise Server Édition Standard ne peut inclure qu’un seul serveur pour fournir le rôle frontal. Il est courant de faire référence au pool frontal même si un seul serveur fournit le rôle. 
+    > Skype Entreprise Server Enterprise Edition peut inclure plusieurs serveurs qui travaillent ensemble pour fournir le rôle frontal. Lorsque plusieurs serveurs sont utilisés pour remplir le rôle, il s’agit d’un pool. Par conséquent, plusieurs serveurs travaillant ensemble pour fournir le rôle frontal sont également appelés pool frontal. Skype Entreprise Server Standard Edition ne peut inclure qu’un seul serveur pour fournir le rôle frontal. Il est courant de faire référence au pool frontal même si un seul serveur fournit le rôle. 
   
      ![Définissez le pool frontal.](../../media/c1447557-261e-4260-a362-ab8d19070eb9.png)
   
@@ -90,7 +90,7 @@ Vous pouvez utiliser Skype Entreprise Server de topologie pour concevoir, défin
   
 5. Dans **la** page Sélectionner des rôles serveur cococérés, vous pouvez choisir de calérer le serveur de médiation sur le serveur frontal, ou vous pouvez choisir de le déployer en tant que serveur autonome.
     
-    Si vous avez l’intention de cochez le serveur de médiation sur Êdition Entreprise pool frontal, assurez-vous que la case à cocher est cocher. Les rôles serveur seront déployés sur les serveurs du pool. Si vous avez l’intention de déployer le serveur de médiation en tant que serveur autonome, cochez la case appropriée. Vous allez déployer le serveur de médiation dans une étape de déploiement distincte après avoir déployé entièrement le serveur frontal. Pour plus d’informations sur la planification d’une cocation, voir [Topology Basics for Skype Entreprise Server](../../plan-your-deployment/topology-basics/topology-basics.md).
+    Si vous avez l’intention de cochez le serveur de médiation sur le pool frontal Enterprise Edition, assurez-vous que la case à cocher est cocher. Les rôles serveur seront déployés sur les serveurs du pool. Si vous avez l’intention de déployer le serveur de médiation en tant que serveur autonome, cochez la case appropriée. Vous allez déployer le serveur de médiation dans une étape de déploiement distincte après avoir déployé entièrement le serveur frontal. Pour plus d’informations sur la planification d’une cocation, voir [Topology Basics for Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md).
     
 6. À l’aide de la page Associer des rôles serveur à cette page **de pool** frontal, vous pouvez définir et associer des rôles serveur au pool frontal. Le rôle suivant est disponible :
     
@@ -108,11 +108,11 @@ Vous pouvez utiliser Skype Entreprise Server de topologie pour concevoir, défin
     
    - Dans ce cas, vous allez sélectionner les rôles que vous avez l’intention de déployer ou d’associer au nouveau serveur frontal. Dans les deux cas, vous devez définir les rôles, configurer le matériel nécessaire et effectuer l’installation.
     
-7. Ensuite, vous allez définir le magasin SQL Server qui sera utilisé avec la topologie. Dans cet exemple, nous utilisons l’instance Par défaut. Pour plus d’informations SQL Server fonctionnalités, telles que la haute disponibilité, voir Planifier la haute disponibilité et la récupération d’urgence [dans Skype Entreprise Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+7. Ensuite, vous allez définir le magasin SQL Server qui sera utilisé avec la topologie. Dans cet exemple, nous utilisons l’instance Par défaut. Pour plus d’informations SQL Server fonctionnalités, telles que la haute disponibilité, voir Planifier la haute disponibilité et la récupération d’urgence [dans Skype Entreprise Server.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
     
    - Pour utiliser un magasin SQL Server qui a déjà été défini dans votre topologie, sélectionnez une instance dans **Magasin SQL**.
     
-   - Pour définir une nouvelle instance SQL Server pour stocker les informations du pool, cliquez sur **Nouveau,** puis spécifiez le **SQL Server FQDN** dans la boîte de dialogue Définir un nouveau pool **SQL Store.**
+   - Pour définir une nouvelle instance SQL Server pour stocker les informations du pool, cliquez sur **Nouveau,** puis spécifiez le **SQL Server FQDN** dans la boîte de dialogue Définir SQL **Store.**
     
    - Pour spécifier le nom d’une instance SQL Server, sélectionnez **Instance nommée**, puis spécifiez le nom de l’instance.
     
@@ -121,11 +121,11 @@ Vous pouvez utiliser Skype Entreprise Server de topologie pour concevoir, défin
    - Pour utiliser SQL miroir, sélectionnez Activer **SQL** mise en miroir, sélectionnez une instance existante ou créez une nouvelle instance.
 
      > [!NOTE]
-     > SQL La mise en miroir est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.
+     > SQL miroir est disponible dans Skype Entreprise Server 2015, mais n’est plus pris en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.
     
-     Pour cet exemple, nous entrons le nom de SQL Server **FQDN** et configurons les paramètres de haute disponibilité pertinents, puis cliquez sur **OK,** comme illustré dans la figure.
+     Pour cet exemple, nous entrons le **nom SQL Server FQDN** et configurons les paramètres de haute disponibilité pertinents, puis cliquez sur **OK,** comme illustré dans la figure.
     
-     ![Créez un SQL Server de données.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
+     ![Créez un magasin SQL Server de données.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
 8. Décidez si vous souhaitez activer SQL Server de mise en miroir ou SQL Server témoin de mise en miroir, puis cliquez sur **Suivant**.
     
@@ -138,21 +138,21 @@ Vous pouvez utiliser Skype Entreprise Server de topologie pour concevoir, défin
      Pour cet exemple, nous allons cliquer sur Définir un nouveau magasin de **fichiers,** entrer le nom **deqdn** du serveur de fichiers et le partage de **fichiers,** puis cliquer sur **Suivant**.
     
      > [!NOTE]
-     > Le partage de fichiers pour Skype Entreprise Server peut être coqueté, mais il n’est pas recommandé pour des raisons de performances. Notez que dans cet exemple, le partage de fichiers a été localisé sur un seul serveur dédié qui fera fonction du partage de fichiers. Toutefois, d’autres systèmes de partage de fichiers plus robustes, tels que DFS Windows Server 2012 R2, sont recommandés. Pour plus d’informations sur les systèmes de partage de fichiers pris en charge, voir [Requirements for your Skype Entreprise environment.](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) Pour plus d’informations sur la création du partage de fichiers, voir Créer un partage de fichiers [dans Skype Entreprise Server](create-a-file-share.md). Vous pouvez définir le partage de fichiers sans qu’il soit nécessaire de le créer. Vous devrez créer le partage de fichiers à l’emplacement que vous définissez avant de publier la topologie. 
+     > Le partage de fichiers pour Skype Entreprise Server peut être coqueté, mais il n’est pas recommandé pour des raisons de performances. Notez que dans cet exemple, le partage de fichiers a été localisé sur un seul serveur dédié qui fera fonction du partage de fichiers. Toutefois, d’autres systèmes de partage de fichiers plus robustes, tels que DFS utilisant Windows Server 2012 R2, sont recommandés. Pour plus d’informations sur les systèmes de partage de fichiers pris en charge, voir [Requirements for your Skype Entreprise environment.](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) Pour plus d’informations sur la création du partage de fichiers, voir Créer un partage de fichiers [dans Skype Entreprise Server](create-a-file-share.md). Vous pouvez définir le partage de fichiers sans qu’il soit nécessaire de le créer. Vous devrez créer le partage de fichiers à l’emplacement que vous définissez avant de publier la topologie. 
   
 10. Dans la page Spécifier l’URL des services Web, vous devez décider si vous devez remplacer l’URL de base du pool de services web internes. La raison de ce remplacement est l’équilibrage de charge. Le trafic SIP de base peut être équilibrée par le biais d’un équilibrage de charge DNS simple. Toutefois, le trafic réseau des services Web HTTP/S doit utiliser une solution d’équilibrage de charge matérielle ou logicielle prise en charge. Pour les équilibreurs de charge pris en charge, [voir Infrastructure for Skype Entreprise](../../../SfbPartnerCertification/certification/infra-gateways.md). Dans cet exemple, nous avons utilisé l’équilibrage de charge DNS pour le trafic SIP et une solution d’équilibrage de charge logicielle prise en charge. Étant donné que nous divisons le trafic de cette façon, nous devons remplacer le FQDN du pool de services web internes. Sinon, si nous avons un équilibreur de charge de ligne supérieure et que nous avons envoyé tout le trafic via celui-ci au lieu d’utiliser l’équilibrage de charge DNS pour le trafic SIP, nous n’avons pas besoin de remplacer l’URL des services Web. 
     
-    Dans la section DNS de cette rubrique, nous avons créé un enregistrement A pour webint.contoso.local. Il s’agit de l’URL que nous utilisons pour le trafic HTTP/S des services web et elle doit passer par l’équilibreur de charge logiciel pris en charge que nous avons installé. Par conséquent, dans cet exemple, nous allons remplacer l’URL pour faire savoir à Skype Entreprise Server que tout le trafic HTTP/S doit accéder à webint.contoso.local au lieu de pool.contoso.local, comme illustré dans la figure. Pour plus d’informations sur l’équilibrage de charge, consultez [la](../../plan-your-deployment/network-requirements/load-balancing.md)Skype Entreprise .
+    Dans la section DNS de cette rubrique, nous avons créé un enregistrement A pour `webint.contoso.local` . Il s’agit de l’URL que nous utilisons pour le trafic HTTP/S des services web et elle doit passer par l’équilibreur de charge logiciel pris en charge que nous avons installé. Par conséquent, dans cet exemple, nous allons remplacer l’URL pour Skype Entreprise Server savoir que tout le trafic HTTP/S doit se rendre à la place, comme illustré `webint.contoso.local` `pool.contoso.local` dans la figure. Pour plus d’informations sur l’équilibrage de charge, consultez [la](../../plan-your-deployment/network-requirements/load-balancing.md)Skype Entreprise .
     
     > [!IMPORTANT]
-    > L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète des services Web du pool est , l’URL de base est https://webint.contoso.local webint.contoso.local. 
+    > L’URL de base correspond à l’identité des services web pour l’URL, moins https://. Par exemple, si l’URL complète des services Web du pool est `https://webint.contoso.local` , l’URL de base est `webint.contoso.local` . 
   
     - Si vous configurez l’équilibrage de charge DNS, comme nous le faisons dans cet exemple, cochez la case Remplacer le nom de domaine de domaine public du pool de **services web** internes, puis entrez l’URL de base interne (qui doit être différente du nom de domaine de domaine public du pool) dans l’URL de base **interne.** 
     
     > [!CAUTION]
     > Si vous décidez de remplacer les services web internes par un FQDN auto-défini, chaque FQDN doit être unique à partir de n’importe quel autre pool frontal, directeur ou pool directeur. **Utilisez uniquement** des caractères standard (Y compris A-Z, a-z, 0-9 et tirets) lorsque vous définissez des URL ou des noms de domaine complets. N’utilisez ni caractère Unicode ni trait de soulignement. Les caractères nonstandards d’une URL ou d’un nom de domaine complet ne sont souvent pas pris en charge par le DNS externe et les autorités de certification publiques (c’est-à-dire, lorsque l’URL ou le nom de domaine complet doit être affecté au nom du sujet ou à l’autre nom du sujet dans le certificat).
   
-    - Éventuellement, entrez l’URL de base externe dans **l’URL de base externe.** Entrez l’URL de base externe pour la différencier de votre nom de domaine interne. Par exemple, votre domaine interne est contoso.local, mais votre nom de domaine externe est contoso.com. Vous pouvez définir l’URL à l’contoso.com nom de domaine car elle doit pouvoir être résolu à partir d’un DNS public. Ceci est également important dans le cas d’un proxy inverse. Le nom de domaine de l’URL de base externe est le même que le nom de domaine du nom de domaine complet du proxy inverse. L’accès HTTP au pool frontal est requis pour la messagerie instantanée et la présence sur les clients mobiles.
+    - Éventuellement, entrez l’URL de base externe dans **l’URL de base externe.** Entrez l’URL de base externe pour la différencier de votre nom de domaine interne. Par exemple, votre domaine interne est `contoso.local` , mais votre nom de domaine externe est `contoso.com` . Vous devez définir l’URL à l’aide du nom de domaine, car elle doit pouvoir être résolu à partir d’un `contoso.com` DNS public. Ceci est également important dans le cas d’un proxy inverse. Le nom de domaine de l’URL de base externe est le même que le nom de domaine du nom de domaine complet du proxy inverse. L’accès HTTP au pool frontal est requis pour la messagerie instantanée et la présence sur les clients mobiles.
     
       ![Remplacer les services web.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
@@ -174,7 +174,7 @@ Vous pouvez utiliser Skype Entreprise Server de topologie pour concevoir, défin
   
 2. Dans  le volet URL simples, sélectionnez soit **Téléphone’accès** aux URL : (Dial-in) ou **Meeting URLs:** (Meet) pour modifier, puis cliquez sur **Modifier l’URL**.
     
-3. Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer. Vous devez configurer l’URL simple à l’aide du domaine SIP externe afin que les utilisateurs externes peuvent participer à des réunions, par exemple contoso.com, qui est externe, par opposition à contoso.local, qui est un domaine interne. Par conséquent, le domaine SIP doit pouvoir être résolu par un DNS externe.
+3. Mettez à jour l’URL avec la valeur voulue, puis cliquez sur **OK** pour l’enregistrer. Vous devez configurer l’URL simple à l’aide du domaine SIP externe afin que les utilisateurs externes peuvent participer à des réunions, par exemple, qui est externe, par opposition à , qui est un domaine `contoso.com` `contoso.local` interne. Par conséquent, le domaine SIP doit pouvoir être résolu par un DNS externe.
     
 4. Modifiez l’URL Meet en procédant de la même manière, si nécessaire.
     
@@ -185,10 +185,10 @@ Vous pouvez utiliser Skype Entreprise Server de topologie pour concevoir, défin
 2. Dans la **zone URL d’accès administratif,** entrez l’URL simple que vous souhaitez pour l’accès administratif à Skype Entreprise Server panneau de Skype Entreprise Server, puis cliquez sur **OK.**
     
     > [!TIP]
-    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple https://admin est ... _\<domain\>_ L’URL d’administration peut être un domaine interne ou externe, par exemple, contoso.local ou contoso.com, tant que l’un ou l’autre enregistrement peut être résolu dans le DNS interne. 
+    > Nous vous recommandons d’utiliser l’URL la plus simple possible pour l’URL Admin. L’option la plus simple https://admin est ... _\<domain\>_ L’URL d’administration peut être un domaine interne ou externe, par exemple, ou, tant que l’un ou l’autre enregistrement peut être résolu dans `contoso.local` `contoso.com` le DNS interne. 
   
     > [!IMPORTANT]
-    > Si vous modifiez une URL simple après le déploiement initial, vous devez connaître les modifications qui ont une incidence sur vos enregistrements et certificats DNS (Domain Name System) pour les URL simples. Si la modification a un impact sur la base d’une URL simple, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous changez l’URL de base de sfb.contoso.com en meet.contoso.com, vous devez modifier les enregistrements et les https://sfb.contoso.com/Meet certificats DNS pour faire référence https://meet.contoso.com à meet.contoso.com. Si vous avez modifié l’URL simple de , l’URL de base de sfb.contoso.com reste la même, de sorte qu’aucune modification de DNS ou de certificat https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings n’est nécessaire. Toutefois, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter l’cmdlet **Enable-CsComputer** sur chaque directeur et serveur frontal pour enregistrer la modification.
+    > Si vous modifiez une URL simple après le déploiement initial, vous devez connaître les modifications qui ont une incidence sur vos enregistrements et certificats DNS (Domain Name System) pour les URL simples. Si la modification a un impact sur la base d’une URL simple, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, la modification de l’URL de base à `https://sfb.contoso.com/Meet` `https://meet.contoso.com` partir de sfb.`contoso.com` to `meet.contoso.com` , so you would need to change the DNS records and certificates to refer to `meet.contoso.com` . Si vous avez modifié l’URL simple de , l’URL de base de reste identique, donc aucune modification de DNS ou de certificat `https://sfb.contoso.com/Meet` `https://sfb.contoso.com/Meetings` `sfb.contoso.com` n’est nécessaire. Toutefois, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter l’cmdlet **Enable-CsComputer** sur chaque directeur et serveur frontal pour enregistrer la modification.
   
 ### <a name="publish-and-verify-the-topology"></a>Publier et vérifier la topologie
 

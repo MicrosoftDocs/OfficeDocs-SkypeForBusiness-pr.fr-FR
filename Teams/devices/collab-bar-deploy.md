@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lisez cet article pour en savoir plus sur le déploiement d Salles Microsoft Teams sur Android.
-ms.openlocfilehash: 2f513bdd8d286c256de97e00373bf8e392080b33
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 4ac068e008b53882dceba5f4ceef6e730a47b3f3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984569"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011708"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Déployer Salles Microsoft Teams sur Android
 
@@ -51,7 +51,7 @@ Pour des raisons d’installation physique, consultez la documentation du fabric
 >
 > Nous vous déconseillons de placer des serveurs proxy entre Teams appareils et Internet. Pour plus d’informations sur les serveurs proxy et Teams serveurs proxy, consultez [les serveurs proxy pour Teams.](../proxy-servers-for-skype-for-business-online.md)
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Confirmez que vos sites répondent aux exigences de disponibilité du site pour les barres de collaboration pour Microsoft Teams.</li><li>Confirmez que vous avez fourni suffisamment de bande passante pour chaque site.</li></ul>|
 | ![Icône illustrant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement et la configuration de votre barre de collaboration.</li></ul>|
@@ -72,7 +72,7 @@ Lorsque vous créez un compte de ressource, vous pouvez choisir d’autoriser ou
 
 Pour plus d’informations sur Microsoft 365 comptes de ressources, voir Créer un compte de ressource à l’aide [du Centre d'administration Microsoft 365.](resource-account-ui.md)
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez si vous souhaitez effectuer ou recevoir des appels téléphoniques externes et identifier les conditions de licence requises pour vos comptes de ressources.</li></ul>|
 | ![Icône illustrant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Préparer les comptes de ressources.</li></ul>|
@@ -96,7 +96,7 @@ Si vous souhaitez affecter des salles Teams utilisateurs individuels pour leur u
 > [!TIP]
 > Rendez les noms d’affichage de vos Microsoft 365 ressources descriptifs et faciles à comprendre. Voici les noms que les utilisateurs voient lorsqu’ils recherchent et ajoutent des salles Teams aux réunions. Vous pourriez utiliser une convention telle que Le nom de la salle de site (Capacité maximale de la salle), par exemple Domaine, une salle de réunion de 4 personnes à Londres, avec le nom complet - LON-S(4).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez de la convention d’affectation de noms pour vos comptes de ressources dédiés.</li><li>Décidez si vous devez créer des comptes individuels ou utiliser des scripts d’approvisionnement en bloc.</li></ul>|
 | ![Icône illustrant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Commencez à planifier le déploiement de votre appareil.</li></ul>|
@@ -105,7 +105,7 @@ Si vous souhaitez affecter des salles Teams utilisateurs individuels pour leur u
 
 Ensuite, vous devez créer votre plan pour remettre les appareils et leurs périphériques affectés à vos salles, puis procéder à l’installation et à la configuration.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Icône montrant les points de décision.](../media/audio_conferencing_image7.png) <br/>Points de décision|<ul><li>Décidez qui gérera le déploiement site par site.</li><li> Identifiez les ressources qui seront en mesure d’installer salles Teams site et entreprenons la configuration et les tests.</li></ul>|
 | ![Icône illustrant les étapes suivantes.](../media/audio_conferencing_image9.png)<br/>Étapes suivantes|<ul><li>Démarrez le test de l’appareil.</li></ul>|

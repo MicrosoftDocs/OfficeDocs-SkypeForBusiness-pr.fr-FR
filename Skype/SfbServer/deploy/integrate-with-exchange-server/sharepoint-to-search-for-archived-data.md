@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Résumé : Configurez SharePoint server pour rechercher des données archivées par Exchange Server et Skype Entreprise Server.'
-ms.openlocfilehash: 8a27bb170f0e089d702417a32d93eee96c7c6299
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 081b32ad57d97a793867e56f85ad36d62424bacb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604203"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013568"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurer SharePoint server pour rechercher des données Skype Entreprise archivées
  
@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > Utilisez l’URI de votre service de découverte automatique. N’utilisez pas l’exemple d’URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 . 
   
-Après avoir créé l’émetteur de jeton et configuré le service d’émission de jeton, exécutez ces commandes, en vous assurez de remplacer l’URL de votre site SharePoint par l’URL d’exemple.http://atl-sharepoint-001:
+Une fois que vous avez créé l’émetteur de jeton et configuré le service de jeton, exécutez ces commandes, en vous assurez de remplacer l’URL de votre site SharePoint par l’URL d’exemple `http://atl-sharepoint-001` :
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -112,17 +112,17 @@ Lorsque le nouveau site est prêt, l’étape suivante consiste à configurer Ex
     
 3. Dans le volet **Nouvelle origine des résultats**, attribuez un nom à la nouvelle origine des résultats (par exemple, **Microsoft Exchange**) dans la zone **Nom**. Sélectionnez **Exchange** comme protocole d’origine des **résultats,** puis entrez l’URL source des services web pour votre serveur Exchange dans la **zone EXCHANGE URL source.** L’URL source doit ressembler à ceci :
     
-    https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
+    `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. Vérifiez que **Utiliser la découverte automatique** n’est pas sélectionné, puis cliquez sur **OK**.
     
-Enfin, créez un nouveau cas eDiscovery et un nouvel ensemble eDiscovery en effectuant la procédure suivante à partir du site SharePoint Discovery (par exemple,https://atl-sharepoint-001/sites/discovery):
+Enfin, créez un nouveau cas eDiscovery et un nouvel ensemble eDiscovery en effectuant la procédure suivante à partir du site de découverte SharePoint (par exemple, `https://atl-sharepoint-001/sites/discovery` :
   
 1. Dans la page Contenu du site, cliquez sur **Créer un cas**.
     
 2. Dans la page Contenu du site : Nouveau site SharePoint, entrez l’alias de messagerie de l’utilisateur (par exemple, **kenmyer**) dans la zone **Titre**, puis ajoutez cette URL dans la zone **Adresse du site web**. Vous obtenez alors une URL similaire à celle-ci :
     
-    https://atl-sharepoint-001/sites/eDiscovery/kenmyer
+    `https://atl-sharepoint-001/sites/eDiscovery/kenmyer`
     
 3. Cliquez sur **Créer**.
     

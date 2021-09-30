@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment planifier la dérivation média avec Système téléphonique routage direct, ce qui vous permet de raccourcir le chemin d’accès au trafic multimédia et d’améliorer les performances.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8231a57d844539272c65709270b0a0477c50e214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 35d67f2547011d15fe7d72ab99a34ca507394f7a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730483"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013128"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planifier le contournement de média avec un routage direct
 
@@ -114,6 +114,7 @@ Le diagramme suivant montre le flux d’appels lorsque la dérivation média est
 > ![Affiche le flux d’appels si l’utilisateur n’a pas accès à l’adresse IP publique du SBC.](media/direct-routing-media-bypass-5.png)
 
 
+
 ## <a name="use-of-media-processors-and-transport-relays"></a>Utilisation de processeurs multimédias et de relais de transport
 
 Microsoft Cloud peut utiliser deux composants dans le chemin d’accès du trafic de médias : Processeurs de média et Relais de transport. 
@@ -141,13 +142,13 @@ Le diagramme suivant montre deux flux d’appels : un avec la dérivation média
 
 Le tableau ci-dessous résume la différence entre les processeurs de média et les relais de transport.
 
-|    | Processeurs multimédias | Relais de transport|
+|  &nbsp; | Processeurs multimédias | Relais de transport|
 | :--------------|:---------------|:------------|
-Chemin de médias pour les appels non contournements pour les utilisateurs finaux | Toujours | Si le client ne parviennent pas à joindre le processeur de média directement | 
-Dans le chemin de médias pour les appels contournements pour les utilisateurs finaux | Jamais | Si le client ne peut pas accéder au SBC sur l’adresse IP publique | 
-Dans le chemin multimédia des applications vocales | Toujours | Jamais | 
-Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison | 
-Nombre d’instances dans le monde et emplacement | 10 total : 2 dans la région Est et Ouest des États-Unis ; 2 à Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 en Australie de l’Est et du Sud-est | Multiple
+|Chemin de médias pour les appels non contournements pour les utilisateurs finaux | Toujours | Si le client ne parviennent pas à joindre le processeur de média directement |
+|Dans le chemin de médias pour les appels contournements pour les utilisateurs finaux | Jamais | Si le client ne peut pas accéder au SBC sur l’adresse IP publique |
+|Dans le chemin multimédia des applications vocales | Toujours | Jamais |
+|Can do transcoding (B2BUA)\* | Oui | Non, seul l’audio est relayé entre les points de terminaison |
+|Nombre d’instances dans le monde et emplacement | 10 total : 2 dans la région Est et Ouest des États-Unis ; 2 à Amsterdam et Dublin ; 2 à Hong Kong et Singapour ; 2 au Japon ; 2 en Australie de l’Est et du Sud-est | Multiple|
 
 Les plages d’adresses IP sont les plus diverses :
 - 52.112.0.0/14 (adresses IP de 52.112.0.1 à 52.115.255.254)
@@ -239,7 +240,7 @@ Vous devez utiliser les ports suivants :
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Défini sur le SBC |
+| SIP/TLS| SIP Proxy | SBC | 1024 - 65535 | Défini sur le SBC |
 | SIP/TLS | SBC | SIP Proxy | Défini sur le SBC | 5061 |
 
 
@@ -256,7 +257,7 @@ Le client doit avoir accès aux ports spécifiés (voir tableau) sur l’adresse
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Client | SBC | 3478-3481 et 49152 – 53247| Défini sur le SBC |
+| UDP/SRTP | Client | SBC | 3478-3481 et 49152 – 53247| Défini sur le SBC |
 | UDP/SRTP | SBC | Client | Défini sur le SBC | 3478-3481 et 49152 – 53247  |
 
 
@@ -285,7 +286,7 @@ La plage de ports des Teams relais de transport (applicable à tous les environn
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Relais de transport | SBC | 50 000 -59 999    | Défini sur le SBC |
+| UDP/SRTP | Relais de transport | SBC | 50 000 -59 999    | Défini sur le SBC |
 | UDP/SRTP | SBC | Relais de transport | Défini sur le SBC | 50 000 – 59 999, 3478-3481     |
 
 
@@ -323,7 +324,7 @@ La plage de ports des processeurs multimédias (applicable à tous les environne
 
 | Trafic | De | À | Port source | Port de destination|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Processeur multimédia | SBC | 3478-3481 et 49 152 – 53 247    | Défini sur le SBC |
+| UDP/SRTP | Processeur multimédia | SBC | 3478-3481 et 49 152 – 53 247    | Défini sur le SBC |
 | UDP/SRTP | SBC | Processeur multimédia | Défini sur le SBC | 3478-3481 et 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Configurer des ligne distinctes pour la dérivation média et la dérivation non multimédia  
@@ -346,8 +347,8 @@ L’exemple ci-dessous illustre cette logique.
 
 | Ensemble d’utilisateurs | Nombre d’utilisateurs | Trunk FQDN assigned in OVRP | Contournement multimédia activé |
 | :------------ |:----------------- |:--------------|:--------------|
-Utilisateurs avec ligne de contournement non multimédia | 980 | sbc1.contoso.com:5061 | false |
-Utilisateurs avec ligne de dérivation média | 20 | sbc2.contoso.com:5060 | true | 
+| Utilisateurs avec ligne de contournement non multimédia | 980 | sbc1.contoso.com:5061 | false |
+| Utilisateurs avec ligne de dérivation média | 20 | sbc2.contoso.com:5060 | true | 
 
 Les deux ligne peuvent pointer vers le même SBC avec la même adresse IP publique. Les ports de signalisation TLS sur le SBC doivent être différents, comme illustré dans le diagramme suivant. Notez que vous devez vous assurer que votre certificat prend en charge les deux ligne. En san san, vous devez avoir deux noms **(sbc1.contoso.com** et **sbc2.contoso.com**) ou avoir un certificat générique.
 

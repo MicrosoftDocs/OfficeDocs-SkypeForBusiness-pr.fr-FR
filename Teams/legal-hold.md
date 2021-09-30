@@ -15,16 +15,16 @@ f1.keywords:
 description: Découvrez comment placer un utilisateur ou une équipe Microsoft Teams en conservation légale à l'aide du Centre de sécurité et de conformité et quels sont les éléments nécessaires à une conservation légale en fonction des données requises.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 714b96f4ba2ea49d158bcc360a6fa95814674f1551935db64a87fd684ed0010c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ace4098b56539408e8c29e5d16e43c8ae255f372
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321316"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013348"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Placer un utilisateur ou une équipe Microsoft Teams en conservation légale
 
-Lorsqu’une attente raisonnable concernant un litige existe, les organisations doivent conserver électroniquement des informations stockées (ESI), Teams messages de conversation pertinents pour un cas particulier. Les organisations doivent conserver tous les messages liés à un sujet spécifique ou à certaines personnes. Cet article traite de la Microsoft Teams. Pour conserver du contenu Microsoft 365, voir [Créer une hold eDiscovery.](https://docs.microsoft.com/microsoft-365/compliance/create-ediscovery-holds)
+Lorsqu’une attente raisonnable concernant un litige existe, les organisations doivent conserver électroniquement des informations stockées (ESI), Teams messages de conversation pertinents pour un cas particulier. Les organisations doivent conserver tous les messages liés à un sujet spécifique ou à certaines personnes. Cet article traite de la Microsoft Teams. Pour conserver du contenu Microsoft 365, voir [Créer une hold eDiscovery.](/microsoft-365/compliance/create-ediscovery-holds)
 
 > [!NOTE]
 > En février 2020, nous avons désactivé l’action légale pour les canaux privés. Les conversations de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, tandis que les conversations de canal normales sont stockées dans la boîte aux lettres Teams groupe de l’utilisateur. Si une boîte aux lettres utilisateur est déjà en place, la stratégie de confidentialité s’applique désormais automatiquement aux messages de canal privé stockés dans cette boîte aux lettres. Aucune action supplémentaire n’est requise pour qu’un administrateur l’activer. La propriété légale des fichiers partagés dans des canaux privés est également prise en charge.
@@ -37,14 +37,14 @@ Dans Microsoft Teams, une équipe entière ou des utilisateurs sélectionnés pe
 
 Pour placer un utilisateur ou une équipe en attente légale dans un cas de découverte électronique principal :
 
-1. Allez à la [Centre de conformité Microsoft 365.](https://compliance.microsoft.com) Lorsque vous créez un cas, la possibilité de placer des boîtes aux lettres ou des sites en attente s’offre à vous.
+1. Allez à la [Centre de conformité Microsoft 365.](https://compliance.microsoft.com) Lorsque vous créez un cas, la possibilité de placer des boîtes aux lettres ou des sites en attente s’offre à vous.
 
 2. Allez à **eDiscovery**  >  **Core** et créez un cas en cliquant **sur Créer un cas.** Une fois le cas créé, ouvrez-le.
   
    ![Microsoft Teams’onglet eDiscovery est sélectionné, affichant le bouton Créer un cas.](media/LegalHold1.png)
 
    > [!NOTE]
-   > Vous pouvez également placer un utilisateur en attente associé à Advanced eDiscovery cas. Pour plus d’informations, voir [Gérer les Advanced eDiscovery.](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)
+   > Vous pouvez également placer un utilisateur en attente associé à Advanced eDiscovery cas. Pour plus d’informations, voir [Gérer les Advanced eDiscovery.](/microsoft-365/compliance/managing-holds)
 
 3. Dans le menu **supérieur,** sous l’onglet Attentes, cliquez **sur** Créer pour créer une attente. Le placement en attente d’un utilisateur ou d’une équipe conserve tous les messages échangés par ces utilisateurs ou messages. Lorsque vous créez un cas, la possibilité de placer des boîtes aux lettres ou des sites en attente s’offre à vous.
 
@@ -77,8 +77,8 @@ Une fois la rétention légale créée, vous pouvez effectuer une recherche dans
 |Teams contenu du fichier (par exemple, du contenu wiki et des fichiers)     |SharePoint site utilisé par l’équipe.         |
 |Teams fichiers de canal privé     |Site dédié SharePoint pour les canaux privés.     |
 |Contenu privé de l’utilisateur     |Le compte de l’OneDrive Entreprise utilisateur.         |
-|Contenu de la carte dans les conversations|Boîte aux lettres utilisateur pour les conversations en tête-à-tête, les conversations de groupe en tête-à-tête et les conversations de canal privé ou la boîte aux lettres de groupe pour le contenu de la carte dans les messages de canal. Pour plus d’informations, voir la section « Conserver le contenu de la carte » dans Créer une [conservation eDiscovery.](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)
-||||
+|Contenu de la carte dans les conversations|Boîte aux lettres utilisateur pour les conversations en tête-à-tête, les conversations de groupe en tête-à-tête et les conversations de canal privé ou la boîte aux lettres de groupe pour le contenu de la carte dans les messages de canal. Pour plus d’informations, voir la section « Conserver le contenu de la carte » dans Créer une [conservation eDiscovery.](/microsoft-365/compliance/create-ediscovery-holds#preserve-card-content)|
+
 
 > [!NOTE]
 > Pour conserver les communications dans les canaux privés, vous devez mettre les boîtes aux lettres des utilisateurs (utilisateurs de canaux privés) en attente et, lorsque vous utilisez l’outil eDiscovery pour effectuer une recherche, vous devez effectuer une recherche dans la boîte aux lettres de cet utilisateur. Comme indiqué précédemment, les conversations de canal privé sont stockées dans les boîtes aux lettres des utilisateurs, et non dans la boîte aux lettres de groupe d’une équipe.

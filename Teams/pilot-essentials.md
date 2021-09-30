@@ -1,5 +1,5 @@
 ---
-title: Conduire un pilote d’utilisateur pour évaluer et tester Microsoft Teams comment fonctionneront les projets dans votre organisation
+title: Conduire un pilote d’utilisateur pour évaluer et tester le fonctionnement de Microsoft Teams dans votre organisation
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Instructions pour commencer Microsoft Teams pilote d’explorer tout ce que Teams peut offrir à votre organisation, tandis que vous continuez à utiliser Skype Entreprise
+description: Instructions pour démarrer un pilote Microsoft Teams afin d’explorer tout ce que Teams peut offrir à votre organisation, tandis que vous continuez à utiliser Skype Entreprise
 ms.localizationpriority: medium
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 521e5eb81d2688c924e3f2c76a25c86f6645b02d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 22ee8e22f7954814aa98b43d1eac250ac38b17cd
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733293"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014608"
 ---
 # <a name="conduct-a-user-pilot"></a>Réaliser un pilote utilisateur
 
@@ -33,7 +33,7 @@ Cet article fait partie de la phase déploiement et implémentation de votre par
 
 - [Demandez aux parties prenantes de votre projet](upgrade-enlist-stakeholders.md)
 - [Étendue définie de votre projet](./upgrade-define-project-scope.md)
-- [Coexistence et interopérabilité comprises entre les systèmes Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [Coexistence et interopérabilité comprises de Skype Entreprise et Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Nous avons choisi votre chemin de mise à niveau](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Préparé votre environnement](./upgrade-prepare-environment.md)
 - [Préparé votre organisation](./upgrade-prepare-organization.md)
@@ -42,10 +42,10 @@ En déployant de nouvelles technologies, votre organisation peut réaliser des �
 
 Pour obtenir les résultats les plus réalistes, le pilote doit impliquer des utilisateurs réels, reproduire la façon dont ils communiquent et collaborent, et vérifier les expériences tant techniques que utilisateur. Que votre organisation envisage d’utiliser Skype Entreprise et Teams côte à côte, de mettre à niveau vers Teams à l’avenir ou de déployer de nouvelles fonctionnalités telles que les appels ou les conférences, un pilote peut vous aider à identifier le bon chemin d’accès pour votre organisation. Parfois considéré comme la phase 1 d’un déploiement, le pilote idéal tire parti de la préparation que vous avez déjà commencée et implémente votre plan défini avec un groupe d’utilisateurs ciblé.
 
-| | |
+|&nbsp; | &nbsp;|
 |---|---|
-| ![Icône représentant un point de décision.](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Comment utiliserez-vous un pilote pour informer l’orientation du projet ?</li></ul> |
-| ![Icône représentant l’étape suivante.](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez les instructions ci-dessous pour concevoir et exécuter votre pilote formel.</li></ul>|
+| ![Icône montrant les points de décision](media/audio_conferencing_image7.png) <br/>Point de décision|<ul><li>Comment utiliserez-vous un pilote pour informer l’orientation du projet ?</li></ul> |
+| ![Icône montrant l’étape suivante.](media/audio_conferencing_image9.png)<br/>Étape suivante|<ul><li>Utilisez les instructions ci-dessous pour concevoir et exécuter votre pilote formel.</li></ul>|
 
 > [!Tip]
 > Utilisez les [exemples de ressources pilotes pour](https://aka.ms/UpgradeSuccessKit) vous aider à concevoir vos communications, votre plan de test et votre enquête de commentaires.
@@ -54,14 +54,14 @@ Pour obtenir les résultats les plus réalistes, le pilote doit impliquer des ut
 
 Un pilote réussi a défini des dates de début et de fin, et des objectifs clairement [définis](upgrade-define-project-scope.md#project-goals) pour mesurer le succès. Ces objectifs doivent s’aligner sur l’étendue de votre projet à grande échelle, comme indiqué lorsque vous avez défini l’étendue du [projet,](upgrade-define-project-scope.md)et seront utilisés pour informer votre chemin d’accès une fois votre pilote terminé. Vous devez également vous assurer d’avoir inclus les parties prenantes concernées pendant toute la durée du projet. Nous vous conseillons de laisser suffisamment de temps pour exécuter le pilote et évaluer son impact : nous vous recommandons d’avoir au moins 30 jours.
 
-Commencez modestement et ajoutez-y le cas échéant, que vous ajoutiez des charges de travail ou des fonctionnalités ou des utilisateurs supplémentaires, en faisant le temps d’évaluer les résultats et de modifier votre pilote à mesure que vous l’itétiez. Vous pouvez même choisir d’exécuter d’autres pilotes lorsque de Teams nouvelles fonctionnalités sont publiées dans la feuille de route.
+Commencez modestement et ajoutez-y le cas échéant, que vous ajoutiez des charges de travail ou des fonctionnalités ou des utilisateurs supplémentaires, en faisant le temps d’évaluer les résultats et de modifier votre pilote à mesure que vous l’itétiez. Vous pouvez même choisir d’exécuter d’autres phases pilotes lorsque de nouvelles fonctionnalités de Teams sont publiées dans la feuille de route.
 
 ## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. Sélectionnez vos participants pilotes et scénarios de test
 
-L'une des plus importantes tâches d'une planification pilote consiste à sélectionner des participants de manière judicieuse. N’oubliez pas que Teams est optimisé pour le travail d’équipe. Assurez-vous donc de sélectionner des participants pilotes non seulement en fonction de rôles ou de rôles, mais également en fonction de leur projet et du travail entre équipes. Vous pouvez commencer par demander à vos parties prenantes et responsables de département des projets réels que vous pouvez valider dans Teams. Un exemple de projet basé sur un rôle peut être d’utiliser Teams avec votre organisation commerciale pour vous assurer que les représentants de champ peuvent facilement accéder aux ressources dont ils ont besoin et partager des informations avec d’autres membres de champ. La coordination d’un événement de lancement de produit avec les équipes de marketing, de formation, de relations publiques et de planification d’événements est un exemple de travail basé sur un projet. Quels que soient les scénarios que vous sélectionnez, le pilote doit s’étendre aux personnes clés du service it, de la formation et de votre aide, afin que vous pouvez valider la solution de façon approfondie tout en optimisant pleinement les ressources de gestion de projet.
+L'une des plus importantes tâches d'une planification pilote consiste à sélectionner des participants de manière judicieuse. N’oubliez pas que Teams est optimisé pour le travail d’équipe. Assurez-vous donc de sélectionner des participants pilotes non seulement en fonction de rôles ou de rôles, mais également en fonction de leur projet et du travail entre équipes. Vous pouvez commencer par demander à vos parties prenantes et responsables de département les projets réels que vous pouvez valider dans Teams. Un exemple de projet basé sur un rôle peut être d’utiliser Teams avec votre organisation commerciale pour vous assurer que les représentants de champ peuvent facilement accéder aux ressources dont ils ont besoin et partager des informations avec d’autres membres de champ. La coordination d’un événement de lancement de produit avec les équipes de marketing, de formation, de relations publiques et de planification d’événements est un exemple de travail basé sur un projet. Quels que soient les scénarios que vous sélectionnez, le pilote doit s’étendre aux personnes clés du service it, de la formation et de votre aide, afin que vous pouvez valider la solution de façon approfondie tout en optimisant pleinement les ressources de gestion de projet.
 
 > [!Tip]
-> Lorsque vous sélectionnez votre Teams participants au groupe pilote, n’oubliez pas d’inclure les principaux utilisateurs de Skype Entreprise. Consultez ces utilisateurs pour comprendre comment ils utilisent Skype Entreprise aujourd’hui, puis créez un plan de test pour vérifier que Teams peuvent répondre à leurs besoins actuels.
+> Lorsque vous sélectionnez les participants de votre groupe pilote Teams, n’oubliez pas d’inclure les principaux utilisateurs de Skype Entreprise. Vérifiez avec ces utilisateurs comment ils utilisent Skype Entreprise aujourd’hui, puis créez un plan de test pour vérifier que Teams peut répondre à leurs besoins actuels.
 
 ## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. Concevoir votre plan de test et votre enquête de commentaires
 
@@ -74,13 +74,13 @@ Votre organisation peut choisir de piloter toutes les fonctionnalités en une fo
 Pour réussir votre pilote, il est essentiel d’informer les participants pilotes sur ce qui se passe, quand, pourquoi et ce qu’on attend d’eux. Pour stimuler l’enthousiasme et le nombre maximal de participants, n’oubliez pas d’inclure la messagerie de valeur utilisateur en plus des liens vers la formation et le support technique, qui permet aux utilisateurs d’obtenir des informations supplémentaires tout au long de la phase pilote. Voici quelques exemples de ressources pour vous aider à prendre en compte votre plan de communication pilote :
 
 - [Ressources pilotes,](https://aka.ms/UpgradeSuccessKit)notamment des modèles de courrier électronique et des exemples de questions d’enquête de commentaires
-- [Basculez vers Teams l’Skype Entreprise](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), un guide de démarrage rapide conçu pour aider les utilisateurs à prendre en Skype Entreprise de l’Teams
+- [Basculez vers Teams à partir de Skype Entreprise,](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)un guide de démarrage rapide conçu pour aider les utilisateurs de Skype Entreprise à commencer à utiliser Teams
 
 ## <a name="5-conduct-your-pilot"></a>5. Conduire votre pilote
 
 Avec toute la logistique en place, vous êtes maintenant prêt à commencer votre pilote. La conduite de votre pilote inclut la communication avec vos utilisateurs, une surveillance de votre réseau et de votre utilisation pour garantir que les performances et la qualité des appels réseau demeurent saines, rassemblez les commentaires des participants et examinez les tickets de service d’aide pour les questions liées à Teams.
 
-### <a name="tips-for-pilot-success"></a>Astuces pour la réussite du pilote
+### <a name="tips-for-pilot-success"></a>Conseils pour la réussite du pilote
 
 Les conseils suivants peuvent vous aider à garantir la réussite de votre pilote :
 
@@ -108,9 +108,9 @@ Si vos résultats indiquent :
 
 - **Vos objectifs pilotes (par exemple,** la satisfaction des utilisateurs et la qualité du réseau) ont été atteints, vous devriez être prêt à passer à la phase suivante de votre déploiement. Selon les objectifs de votre projet, cela peut être l’un des suivants :
   - Extension du pilote à d’autres participants
-  - [Activation Teams le Skype Entreprise **(mode** Îles) pour l’ensemble ou une partie de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
-  - [Mise à niveau des utilisateurs Skype Entreprise vers Teams **(Teams** uniquement) pour tout ou partie de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
+  - [Activation de Teams avec Skype Entreprise (mode **Îles)** pour l’ensemble ou une partie de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
+  - [Mise à niveau des utilisateurs de Skype Entreprise vers Teams (mode **Teams** uniquement) pour tout ou partie de votre organisation](./setting-your-coexistence-and-upgrade-settings.md)
 - Votre pilote n’a pas obtenu les résultats **souhaités (par exemple,** la satisfaction des utilisateurs et la qualité du réseau), prenez le temps d’apporter les ajustements appropriés à votre plan et de revoir votre pilote.
 
 > [!Tip]
-> Demandez à vos participants pilotes en tant qu’homologues de contribuer à l’intégration et à la intégration de nouveaux utilisateurs Teams. Les pairs champions peuvent facilement s’y mettre en relation avec d’autres utilisateurs, partager leurs propres expériences et apprentissages, et offrir de l’aide et des conseils à leurs collègues. Découvrez les [champions et](https://go.microsoft.com/fwlink/?linkid=859068) la manière de les utiliser dans votre propre déploiement.
+> Demandez à vos participants pilotes en tant qu’homologues de contribuer à l’intégration et à la intégration de nouveaux utilisateurs à Teams. Les pairs champions peuvent facilement s’y mettre en relation avec d’autres utilisateurs, partager leurs propres expériences et apprentissages, et offrir de l’aide et des conseils à leurs collègues. Découvrez les [champions et](https://go.microsoft.com/fwlink/?linkid=859068) la manière de les utiliser dans votre propre déploiement.

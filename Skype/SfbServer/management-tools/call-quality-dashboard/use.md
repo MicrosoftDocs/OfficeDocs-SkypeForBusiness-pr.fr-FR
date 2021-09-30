@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Résumé : Découvrez comment utiliser le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728263"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015078"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Utiliser le Tableau de bord de qualité des appels pour Skype Entreprise Server
 
@@ -103,7 +103,7 @@ Les données utilisées pour ces tables sont définies comme suit :
 
 **CqdBuilding**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |BuildingKey |int |Non |Clé primaire de la table CqdBuilding. |
 |BuildingName |varchar(80) |Non |Nom du bâtiment. |
@@ -119,53 +119,53 @@ Les données utilisées pour ces tables sont définies comme suit :
 |InsideCorp |bit |Oui |Bit indique si le bâtiment fait partie du réseau d’entreprise. |
 |BuildingOfficeType |nvarchar(150) |Oui |Description du type de bureau de bâtiment. |
 |Région |varchar(25) |Oui |Région où se trouve le bâtiment. |
-|||||
+
 
 **CqdNetwork**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |Réseau |varchar(25) |Non |Adresse de sous-réseau. |
 |NetworkRange |tinyint |Oui |Masque de sous-réseau. |
 |NetworkNameID |int |Oui |Mapille éventuellement à une ligne dans la table CqdNetworkName. |
 |BuildingKey |int |Oui |Clé étrangère, correspond à l’une des entrées de la table CqdBuilding. |
 |UpdatedDate |DateHeure |Non |Date et heure de la dernière mise à jour de l’entrée. |
-||||||
+
 
 Par défaut, le tableau suivant possède une entrée (0, « Inconnu »).
 
 **CqdBuildingType**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |Non |Clé primaire de la table CqdBuildingType. |
 |BuildingTypeDesc |char(18) |Non |Description du type de bâtiment. |
-|||||
+
 
 Par défaut, le tableau suivant possède une entrée (0, « Inconnu » et 0, null).
 
 **CqdBuildingOwnershipType**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId |int |Non |Clé primaire de la table CqdBuildingOwnershipType. |
 |OwnershipTypeDesc |varchar(25) |Non |Description du type de propriété. |
 |LeaseInd |tinyint |Oui |Index référencant une autre ligne dans la table CqdBuildingOwnershipType, utilisée pour identifier les bâtiments en bail. |
 |Propriétaire |varchar(50) |Oui |Propriétaire du bâtiment. |
-|||||
+
 
 Par défaut, le tableau suivant possède une entrée (0, « Inconnu » et 0, null).
 
 **CqdBssid**
 
-|Colonne|Type de données|Autoriser les valeurs Null ?|Détails|
+|Column|Type de données|Autoriser les valeurs Null ?|Détails|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |Non |Clé primaire de la table CqdBssid. Est le BSSID du point d’accès WiFi. |
 |ess |nvarchar(50) |Oui |Informations sur le contrôleur de point d’accès Wifi. |
 |phy |nvarchar(50) |Oui |Informations sur Phy. |
 |ap |nvarchar(50) |Oui |Nom du point d’accès Wifi. |
 |Création |nvarchar(500) |Oui |Nom du bâtiment où se trouve le point d’accès WiFi. |
-||||
+
 
 ## <a name="cqd-streams"></a>CQD Flux
 
@@ -186,7 +186,7 @@ Un flux CQD est considéré comme bon, médiocre ou non classifié. CQM 1.5 util
 |PacketLossRate |Supérieur à 0,1 (10 %) |
 |JitterInterArrival |Supérieur à 30 |
 |RatioConcealedSamplesAvg |Supérieur à 0,07 |
-|||
+
 
 Définition JPDR = Définition d’appel médiocre moins RatioConcealedSamplesAvg
 
@@ -205,7 +205,7 @@ Le CQD n’utilise pas les champs Appelant/Appelé, mais « Premier » et « Sec
 |2 (AVMCU) |4 (Skype Entreprise) |Point de terminaison 1 |Point de terminaison 2 |
 |2 (AVMCU) |1 (mMediationServer) |Point de terminaison 2 |Point de terminaison 1 |
 |4 (Skype Entreprise) |4 (Skype Entreprise) |L’appelant dans MediaLine |Appelé dans MMediaLine |
-|||||
+
 
 Si les deux points de terminaison sont du même type, le CQD fait de l’entrée de l’appelant la première et la deuxième de l’appelé. Pour plus d’informations sur les noms des points de terminaison, [consultez ce blog.](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks)
 
@@ -222,7 +222,7 @@ Une requête bien formée contient les trois paramètres suivants :
 
 - Mesure
 - Dimension
-- Filtrer
+- Filtre
 
 Un exemple de requête bien formée serait « Show me Poor Flux [Measurement] by Subnet [Dimension] for Building 6 [Filter]. »
 

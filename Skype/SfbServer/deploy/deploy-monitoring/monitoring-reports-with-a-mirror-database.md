@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Résumé : Découvrez comment associer des rapports de surveillance à une base de données miroir utilisée par Skype Entreprise Server.'
-ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600659"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014398"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associer des rapports de surveillance à une base de données miroir dans Skype Entreprise Server 
  
@@ -33,15 +33,15 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
    - **Préfixe http:**
     
-   - Nom de domaine complet (FQDN) de l’ordinateur sur lequel Reporting Services est installé (par exemple, **atl-sql-001.litwareinc.com**).
+   - Nom de domaine complet (FQDN) de l’ordinateur sur lequel Reporting Services est installé (par exemple, `atl-sql-001.litwareinc.com` ).
     
    - Chaîne de **caractères /Reports_**.
     
    - Nom de l’instance de base de données où les rapports de surveillance sont installés (par exemple, **archinst**).
     
-     Par exemple, si SQL Server Reporting Services a été installé sur l’ordinateur atl-sql-001.litwareinc.com et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil ressemble à ceci :
+     Par exemple, si SQL Server Reporting Services été installé sur l’ordinateur et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil se `atl-sql-001.litwareinc.com` ressemblerait à ceci :
     
-     **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
 2. Une fois que vous avez accédé à la page d’accueil de Reporting Services, cliquez sur **ServerReports,** puis cliquez sur **Reports_Content**. Cela vous permettra d’Reports_Content **page** de la Skype Entreprise Server de surveillance.
     
@@ -63,7 +63,7 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
 7. Dans la page **CDRDB,** cliquez sur **Reports_Content** lien. Cliquez sur la source de **données QMSDB,** puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
     
-    Data source=(local)\archinst; Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics
+    `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. Cliquez sur **Appliquer**.
     

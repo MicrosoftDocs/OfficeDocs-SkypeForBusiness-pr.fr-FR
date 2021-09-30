@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Apprenez quels pays et quelles régions ont des numéros d'appel de conférence, et comment ils sont automatiquement affectés.
-ms.openlocfilehash: 9ad8f10a35ff712d8ee80822343c5098f0b2a907
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2db747bafbce39bbf6fa9331dc9331e52d1ffd55
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586142"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013118"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Numéros de téléphone pour l'Audioconférence dans Skype Entreprise Online
 
@@ -43,7 +43,7 @@ Lorsque vous configurationnez **l’audioconférence** Skype Entreprise, les num
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Couverture et tarification de l'audioconférence
 
-Pour une liste complète de tous les pays/régions et villes où l'Audioconférence est disponible, voir [Disponibilité par pays et par région de l'Audioconférence et des Plans d’appels](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). Pour plus d’informations sur [les tarifs, voir Tarification de l’audioconférence.](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+Pour une liste complète de tous les pays/régions et villes où l'Audioconférence est disponible, voir [Disponibilité par pays et par région de l'Audioconférence et des Plans d’appels](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). Pour plus d’informations, [consultez l’audioconférence.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Numéros de téléphone d'accès à composer figurant dans l'invitation à la réunion
 
@@ -77,7 +77,7 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
   
 ## <a name="what-else-should-you-know"></a>Informations supplémentaires
 
-- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues prise en charge pour [l’audioconférence.](/MicrosoftTeams/audio-conferencing-supported-languages)
+- Pour obtenir la liste des langues prise en charge pour l’audioconférence, consultez les langues qui sont prise en charge pour [l’audioconférence.](/MicrosoftTeams/audio-conferencing-supported-languages)
     
 - Vous pouvez utiliser l’cmdlet [Get-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Get-CsOnlineDialInConferencingServiceNumber) pour consulter les numéros de téléphone dédiés pour l’audioconférence pour votre organisation.
     
@@ -85,10 +85,10 @@ Pour voir une liste des pays/régions qui ont des numéros de téléphone automa
     
 - Vous pouvez configurer jusqu’à quatre langues pour chaque numéro de téléphone d’audioconférence (une langue principale et trois langues secondaires). Vous pouvez également définir des langues sur un numéro de téléphone d’audioconférence dédié.
     
-- Pour définir le numéro de téléphone à composer d’un utilisateur, consultez Définir [les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites.md)
+- Pour définir le numéro de téléphone à composer d’un utilisateur, consultez [Définir les numéros de téléphone inclus dans les invitations.](set-the-phone-numbers-included-on-invites.md)
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Essayez ou achetez l’audioconférence dans Microsoft 365 ou Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -21,20 +21,21 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les langues que vous pouvez définir dans Skype Entreprise pour les messages système et les messages d’accueil de la messagerie vocale par défaut.
-ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8393e8a50913548a8e6ec64bcf26154e0af5b148
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590798"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011938"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams langues pour les messages d’accueil de la messagerie vocale
 
 Teams prend en charge les langues suivantes pour les messages d’accueil de la messagerie vocale.
   
-||||||
+
+
+|Langue  |Pays/région |Disponible pour qu'un utilisateur la voie dans un courrier électronique ? |Disponible lorsque l'utilisateur appelle ? |Transcription disponible ?  |
 |:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
-|**Langue**  |**Pays/région** |**Disponible pour qu'un utilisateur la voie dans un courrier électronique ?** |**Disponible lorsque l'utilisateur appelle ?** |**Transcription disponible ?**  |
 |Arabe        |Égypte              |Oui                                          |Oui                                   |Non  |
 |Arabe        |Arabie saoudite       |Oui, mais l’arabe (Égypte) est utilisé.             |Non                                    |Non  |
 |Bulgare     |Bulgarie           |Oui                                          |Oui                                   |Non  |

@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype Entreprise Server s’appuie sur des certificats pour l’authentification du serveur et pour établir une chaîne de confiance entre les clients et les serveurs et entre les différents rôles serveur. L’infrastructure à clé publique (PKI) Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 et Windows Server 2008 fournit l’infrastructure pour établir et valider cette chaîne d’confiance.
-ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1e9e7844641fae3c864f9ae15e7a639cdeb8724
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627926"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014698"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Infrastructure à clé publique pour Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Même si les informations du certificat sont valides, il doit être possible de 
 Chaque certificat est lié à une clé publique. Le serveur nommé dans le certificat détient une clé privée correspondante qu’il est le seul à connaître. Lorsqu’un client ou un serveur se connecte, il utilise la clé publique pour chiffrer une information aléatoire qu’il envoie au serveur. Si le serveur déchiffre les informations et les renvoie sous forme de texte simple, l’entité connectée est sûre que le serveur détient la clé privée du certificat et qu’il s’agit donc bien du serveur nommé dans le certificat.
   
 > [!NOTE]
-> Toutes les CA publiques ne sont pas conformes aux exigences de Skype Entreprise Server certificats. Nous vous recommandons de vous reporter à la liste des fournisseurs d’autorités de certification publiques certifiées selon vos besoins de certificats publics. Pour plus d’informations, voir [Partenaires de certificats de communications unifiées.](https://go.microsoft.com/fwlink/p/?LinkId=140898) 
+> Toutes les CAs publiques ne sont pas conformes aux exigences de Skype Entreprise Server certificats. Nous vous recommandons de vous reporter à la liste des fournisseurs d’autorités de certification publiques certifiées selon vos besoins de certificats publics. 
   
 ## <a name="crl-distribution-points"></a>Points de distribution de liste de révocation de certificats (CRL)
 

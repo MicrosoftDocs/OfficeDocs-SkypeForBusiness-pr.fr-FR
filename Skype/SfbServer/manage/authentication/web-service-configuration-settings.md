@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Résumé : Gérez les paramètres de configuration du service Web dans Skype Entreprise Server.'
-ms.openlocfilehash: f007a93eb71fc015f71ddef51011008315de82e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875993a006cf175432984dc78fc37a34b45e92ee
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633608"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015168"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration du service Web dans Skype Entreprise Server
  
@@ -102,7 +102,7 @@ Suivez ces étapes pour supprimer les paramètres de configuration du service we
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Suppression de la configuration du service Web Paramètres l’aide Windows PowerShell cmdlets
 
-Vous pouvez supprimer des paramètres de configuration de service web à l’Windows PowerShell et à l’aide de l';cmdlet **Remove-CsWebServiceConfiguration.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation des Windows PowerShell distantes pour vous connecter à Skype Entreprise Server, consultez l’article de blog « Démarrage rapide : Gestion de [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)à l’aide de Remote PowerShell ». Le processus est le même dans Skype Entreprise Server.
+Vous pouvez supprimer des paramètres de configuration de service web à l’Windows PowerShell et à l’aide de l';cmdlet **Remove-CsWebServiceConfiguration.** Vous pouvez exécuter cette applet de commande à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Pour supprimer une collection de paramètres de configuration des services web
 

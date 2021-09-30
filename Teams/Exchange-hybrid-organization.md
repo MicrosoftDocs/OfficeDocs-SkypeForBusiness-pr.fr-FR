@@ -18,14 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3ef36b7bc50d21131dd10294566549bb8b642600
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d1b5cb89f28a334b24aecf982dd3913dfce079ac
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632648"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014869"
 ---
-<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Configurer une organisation Exchange hybride à utiliser avec Microsoft Teams
-======================================================================
+# <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Configurer une organisation Exchange hybride à utiliser avec Microsoft Teams
 
 En règle générale, vous ne devez configurer aucune fonctionnalité Exchange Online à utiliser avec Microsoft Teams. Toutefois, pour Exchange scénarios hybrides, il existe des étapes nécessaires pour s’assurer que les appartenances aux groupes sont synchronisées entre Exchange Server (local) et Exchange Online. Cela implique l’enablement de la fonctionnalité de écriture de groupe dans Azure AD Connecter ainsi que divers scripts d’initialisation : configurer des groupes Microsoft 365 avec une solution Exchange hybride en [local.](/exchange/hybrid-deployment/set-up-microsoft-365-groups)

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment personnaliser des applications dans Microsoft Teams.
-ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5e42bd498c1332d2b36c03ec661ae488fcf16aa
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730223"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015018"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Personnaliser des applications dans Microsoft Teams
 
@@ -50,7 +50,9 @@ Consultez le [Teams de manifeste pour](/microsoftteams/platform/resources/schema
 Pour commencer à personnaliser une application, terminez les étapes suivantes :
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
+
 2. Développez **Teams Applications et** **sélectionnez Gérer les applications.**
+
 3. Consultez **la colonne Personnalisable** de la liste des applications et t triez par applications personnalisables.
 
    ![La colonne de personnalisation triée.](media/customize-column.png)
@@ -85,11 +87,11 @@ Pour commencer à personnaliser une application, terminez les étapes suivantes 
 
 5. Développez la section **Icône.**
 
-   a. Télécharger une icône. Utilisez une icône en couleur (192 x 192 pixels) au format PNG.
+   1. Télécharger une icône. Utilisez une icône en couleur (192 x 192 pixels) au format PNG.
 
-   b. Choisissez une couleur de contour d’icône. Utilisez un contour transparent (32 x 32) pixels au format PNG.
+   1. Choisissez une couleur de contour d’icône. Utilisez un contour transparent (32 x 32) pixels au format PNG.
 
-   c. Sélectionnez une couleur d’accentuage de l’application qui correspond à l’icône.
+   1. Sélectionnez une couleur d’accentuage de l’application qui correspond à l’icône.
 
     ![Personnalisez les options de couleur du panneau d’icônes.](media/customize-app-colors.png)
 

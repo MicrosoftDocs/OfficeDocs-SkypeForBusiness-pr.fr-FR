@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment attribuer, modifier ou supprimer un numéro de téléphone privé pour vos utilisateurs Teams entreprise et clients externes.
-ms.openlocfilehash: 44254c8d8c8886e72b699c3890017a2b817cd135
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 91460769639fc773877105003e8f6b00cd87eb7d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727503"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013538"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur (forfaits d’appels)
 
@@ -38,17 +38,22 @@ Lorsque vous voulez que les utilisateurs peuvent effectuer et recevoir des appel
 Pour savoir comment obtenir des forfaits d’appels Teams prix, consultez Teams [de licences de modules supplémentaires.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 > [!NOTE]
-> Pour savoir si une licence a été attribuée à un utilisateur, vous pouvez vous rendre dans le Centre d’administration Microsoft Teams d'> **utilisateurs.** Si une licence est attribuée, elle sera indiquée dans la page.  Vous pouvez également utiliser l’Centre d’administration Microsoft 365.
+> Pour savoir si une licence a été attribuée à un utilisateur, vous pouvez vous rendre dans le Centre d’administration Microsoft Teams d'> **utilisateurs.** Si une licence est attribuée, elle sera indiquée dans la page.  Vous pouvez également utiliser l’Centre d'administration Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Affectation d’un numéro de téléphone à un utilisateur
  
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
     
 1. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
+
 2. Dans la page **Téléphone numéros** de téléphone, sélectionnez un numéro non publié dans la liste, puis cliquez sur **Modifier.**  
+
 3. Dans le **volet Édition,** sous **Affecté à,** recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **Attribuer.**
+
 4. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
+
 5. Selon que vous voulez envoyer un courrier électronique à l’utilisateur avec ses informations de numéro de téléphone, désactiver ou activer l’utilisateur de courrier avec des **informations de numéro de téléphone.** Par défaut, c’est le cas. 
+
 6. Cliquez sur **Enregistrer**.
 
 Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
@@ -59,33 +64,45 @@ Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/mo
   
 ## <a name="change-a-phone-number-for-a-user"></a>Modifier le numéro de téléphone d’un utilisateur
  
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
     
 1. Dans la barre de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
+
 2. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
+
 3. Dans la page **Téléphone numéros** de téléphone, sélectionnez le numéro identifié à l’étape 1, puis cliquez sur **Modifier.**  
+
 4. Dans le **volet Édition,** sous **Affecté à,** cliquez sur **le X** pour supprimer l’utilisateur.
+
 5. Cliquez sur **Enregistrer**.
+
 6. Dans la page **Téléphone numéros** de téléphone, sélectionnez un numéro non publié dans la liste, puis cliquez sur **Modifier.**  
+
 7. Dans le **volet Édition,** sous **Affecté à,** recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **Attribuer.**
+
 8. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
+
 9. Cliquez sur **Enregistrer**.
 
 Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Supprimer le numéro de téléphone d’un utilisateur
  
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans la barre de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
+
 2. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
+
 3. Dans la page **Téléphone numéros** de téléphone, sélectionnez le numéro identifié à l’étape 2, puis cliquez sur **Modifier.**  
+
 4. Dans le **volet Édition,** sous **Affecté à,** cliquez sur **le X** pour supprimer l’utilisateur.
+
 5. Cliquez sur **Enregistrer**.
 
 Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Qu’est-ce que la validation d’adresse ?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

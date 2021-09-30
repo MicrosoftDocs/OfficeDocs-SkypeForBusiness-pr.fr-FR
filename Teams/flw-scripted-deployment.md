@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733433"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012758"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de bureau
 
@@ -203,7 +203,7 @@ En tant qu’administrateur, vous pouvez utiliser les stratégies de configurati
 
 Les applications sont épinglées à la barre des applications. Il s’agit de la barre située sur le côté du client de bureau Teams et en bas des clients mobiles Teams (iOS et Android).
 
-|Client de bureau Teams  |         |Client mobile Teams  |
+|Client de bureau Teams  | &nbsp; |Client mobile Teams  |
 |---------|---------|---------|
 |![Capture d’écran du client de bureau Teams avec les applications épinglées à la barre des applications.](media/flw-teams-desktop-client.png)         |         |![Capture d’écran du client mobile Teams avec les applications épinglées à la barre inférieure.](media/flw-teams-mobile-client.png) |
 

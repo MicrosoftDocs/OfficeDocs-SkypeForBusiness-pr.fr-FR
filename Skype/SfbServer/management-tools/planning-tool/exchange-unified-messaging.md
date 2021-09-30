@@ -13,13 +13,13 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: Skype Entreprise Server 2015 prend en charge l’intégration à la messagerie unifiée Exchange pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.
-ms.openlocfilehash: 48f16058379867e02017712e0c88cfb793326766
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Skype Entreprise Server 2015 prend en charge l’intégration à Exchange messagerie unifiée pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure unique.
+ms.openlocfilehash: d0c18a212d1628c81a09a94c4ca1f668612a6370
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632738"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014958"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>Exchange Outil de planification de la messagerie unifiée
 

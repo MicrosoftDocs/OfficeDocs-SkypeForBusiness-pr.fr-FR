@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment se connecter à Skype Entreprise Server client Skype client. Également appelée Skype de connexion.'
-ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729883"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013188"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déployer Skype connectivité dans Skype Entreprise Server
 
@@ -34,7 +34,7 @@ Skype La connectivité permet Skype Entreprise utilisateurs de rechercher et d�
 
 Skype La fonctionnalité de recherche dans l’Skype Entreprise permet aux utilisateurs de rechercher Skype contacts. La fonctionnalité de recherche permet aux utilisateurs d’effectuer des recherches à l’aide des fonctionnalités suivantes :
   
-- **Recherche par nom d’affichage, par exemple** « John Doe » : cela peut renvoyer de nombreux résultats, de sorte que vous ne trouvez peut-être pas ce que vous recherchez.
+- **Recherche par nom d’affichage, par exemple « John Doe** » : cela peut renvoyer de nombreux résultats, de sorte que vous ne trouvez peut-être pas ce que vous recherchez.
     
 - **Recherche par nom d’affichage plus emplacement,** par exemple « John Doe à Domaine » : cela réduit considérablement les résultats de la recherche.
     
@@ -52,11 +52,11 @@ Skype La fonctionnalité de recherche dans l’Skype Entreprise permet aux utili
 Le tableau suivant décrit la prise en charge de Skype recherche dans l’annuaire.
   
 
-||**Skype Entreprise Server Frontal**|**Serveur frontal Lync Server 2013 (ou plus ancien)**|**Comments**|
+|&nbsp;|Skype Entreprise Server Frontal|Serveur frontal Lync Server 2013 (ou plus ancien)|Commentaires|
 |:-----|:-----|:-----|:-----|
-|Skype Entreprise Server Edge  <br/> |Pris en charge  <br/> |Non pris en charge  <br/> |Skype Entreprise Server et Edge sont des conditions préalables pour Skype recherche dans l’annuaire  <br/> |
-|Skype Entreprise Server Edge + Lync Server 2013 Edge déployé côte à côte  <br/> |Pris en charge  <br/> |Non pris en charge  <br/> |Skype Le trafic de recherche dans l’annuaire passe par Skype Entreprise Server serveurs Edge. Le trafic de fédération passe par edge configuré par l’administrateur. Par exemple, l’administrateur peut décider de continuer à envoyer le trafic de fédération via les serveurs Edge Lync Server 2013 qui ne pourraient pas prendre en charge Skype recherche dans l’annuaire.  <br/> |
-|Serveur Edge Lync Server 2013 (ou plus ancien)  <br/> |Non pris en charge  <br/> |Non pris en charge  <br/> ||
+|Skype Entreprise Server Edge   |Pris en charge   |Non pris en charge   |Skype Entreprise Server et Edge sont des conditions préalables pour Skype recherche dans l’annuaire   |
+|Skype Entreprise Server Edge + Lync Server 2013 Edge déployé côte à côte   |Pris en charge   |Non pris en charge   |Skype Le trafic de recherche dans l’annuaire passe par Skype Entreprise Server serveurs Edge. Le trafic de fédération passe par edge configuré par l’administrateur. Par exemple, l’administrateur peut décider de continuer à envoyer le trafic de fédération via les serveurs Edge Lync Server 2013 qui ne pourraient pas prendre en charge Skype recherche dans l’annuaire.   |
+|Serveur Edge Lync Server 2013 (ou plus ancien)   |Non pris en charge   |Non pris en charge   ||
    
 > [!NOTE]
 > Le service de carnet d’adresses Skype Entreprise Server frontal recherche le serveur Edge en fonction de l’existence du port Skype Search 4443 sur le serveur Edge. 
@@ -75,9 +75,9 @@ Le tableau suivant décrit la prise en charge de Skype recherche dans l’annuai
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Déploiement de Skype connectivity pour Skype Entreprise Online
 
-Skype La connectivité est également une fonctionnalité de Skype Entreprise Online, qui fait partie de Microsoft 365 et Office 365. Vous pouvez activer la fonctionnalité Skype connectivité à partir du centre d Skype Entreprise’administration dans le Centre d’administration Microsoft 365.
+Skype La connectivité est également une fonctionnalité de Skype Entreprise Online, qui fait partie de Microsoft 365 et Office 365. Vous pouvez activer la fonctionnalité Skype connectivité à partir du centre d Skype Entreprise’administration dans le Centre d'administration Microsoft 365.
   
-Pour Microsoft 365 moyenne entreprise, Office 365 Entreprise, Microsoft 365 Éducation et Office 365 pour le gouvernement : connectez-vous au Centre d’administration Microsoft 365 et accédez au Centre d’administration Skype Entreprise. Go to External Communications. Sous Fournisseurs de services de messagerie instantanée publics, cliquez sur Activer. Si vous souhaitez contrôler l’accès des utilisateurs individuels à Skype connectivité, vous pouvez le faire en éditant les paramètres de communications externes des utilisateurs individuels.
+Pour Microsoft 365 moyenne entreprise, Office 365 Entreprise, Microsoft 365 Éducation et Office 365 pour le gouvernement : connectez-vous au Centre d'administration Microsoft 365 et accédez à la Skype Entreprise Centre d’administration. Go to External Communications. Sous Fournisseurs de services de messagerie instantanée publics, cliquez sur Activer. Si vous souhaitez contrôler l’accès des utilisateurs individuels à Skype connectivité, vous pouvez le faire en éditant les paramètres de communications externes des utilisateurs individuels.
   
 Pour Office 365 Petite Entreprise Premium : connectez-vous à Office 365, puis Paramètres service d’administration pour la messagerie instantanée, les réunions et \> \> les conférences. Activer les communications externes. Le commutateur de communications externes Skype la connectivité et les communications avec d’autres organisations qui utilisent Skype Entreprise.
   
@@ -93,7 +93,7 @@ Pour plus d’informations sur Skype Entreprise Administration en ligne, voir :
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Déploiement de Skype connectivité pour Skype Entreprise Server
 
-Skype Entreprise Server utilise l’architecture d’accès de fédération pour prendre en charge la connectivité avec Skype. Cette connectivité permet à vos utilisateurs Skype Entreprise Server d’ajouter des Skype. Skype clients peuvent également ajouter Skype Entreprise utilisateurs à leur liste de contacts. En fonction des stratégies définies administrativement dans Skype Entreprise Server les utilisateurs pourront communiquer à l’aide de la messagerie instantanée, voir la présence des autres utilisateurs et lancer des appels audio et vidéo. Skype connectivité est également une fonctionnalité de Skype Entreprise Online et peut être activée pour les clients Skype Entreprise Online à partir du Centre d’administration Skype Entreprise au sein du Centre d’administration Microsoft 365.
+Skype Entreprise Server utilise l’architecture d’accès de fédération pour prendre en charge la connectivité avec Skype. Cette connectivité permet à vos utilisateurs Skype Entreprise Server d’ajouter des Skype. Skype clients peuvent également ajouter Skype Entreprise utilisateurs à leur liste de contacts. En fonction des stratégies définies administrativement dans Skype Entreprise Server les utilisateurs pourront communiquer à l’aide de la messagerie instantanée, voir la présence des autres utilisateurs et lancer des appels audio et vidéo. Skype connectivité est également une fonctionnalité de Skype Entreprise Online et peut être activée pour les clients Skype Entreprise Online à partir du Centre d’administration Skype Entreprise au sein du Centre d'administration Microsoft 365.
   
 > [!NOTE]
 > Si Skype Entreprise Server est déjà configuré pour se connecter à Windows Messenger à l’aide de la connectivité PIC (Public Instant Messaging Connectivity), votre déploiement est déjà configuré pour Skype connectivité. La seule modification que vous souhaitez peut-être prendre en compte est de renommer votre entrée Messenger PIC existante en tant que Skype. 
@@ -120,7 +120,7 @@ Les déploiements locaux sont nécessaires pour publier un enregistrement SRV DN
 
 Vous pouvez trouver des instructions supplémentaires concernant les certificats externes dans [la planification des certificats.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)
 
-#### <a name="faqs"></a>FAQ
+#### <a name="faqs"></a>Foire aux questions
 
 **Pourquoi le site web d’approvisionnement est-il arrêté ?**
 Le mécanisme d’approvisionnement PIC (Public IM Provisioning Mechanism) (pic.lync.com) qui a été déployé en 2006 n’est plus utilisable et sera arrêté le 15/08/2019. Au lieu de cela, la fédération de messagerie instantanée publique suppose le même modèle de fédération que celui utilisé par Skype Entreprise Online, appelé « découverte de partenaires », dans lequel un déploiement local est publiquement découvrable par ses enregistrement(s) SRV DNS de fédération.
@@ -185,7 +185,7 @@ Pour les nouvelles installations, vous pouvez configurer Skype Connectivity en a
   
 La configuration Skype la connectivité peut également être effectuée à l’aide de PowerShell uniquement. Pour configurer la Skype à l’aide de PowerShell :
   
-1. À partir d Skype Entreprise Server serveur frontal, ouvrez Skype Entreprise Server Management Shell.
+1. À partir d Skype Entreprise Server serveur frontal, ouvrez l’Skype Entreprise Server Management Shell.
     
 2. Exécutez les deux commandes suivantes :
     
@@ -221,29 +221,29 @@ La configuration Skype la connectivité peut également être effectuée à l’
 Le tableau suivant décrit l’état de l’interopération entre la dernière version du consommateur Skype et la dernière version de Skype Entreprise.
   
 
-|**Skype Clients**|**Ajouter des contacts, la messagerie instantanée, la présence, l’audio et les appels vidéo**|**Comment**|
+|Skype Clients|Ajouter des contacts, la messagerie instantanée, la présence, l’audio et les appels vidéo|Commentaire|
 |:-----|:-----|:-----|
-|Skype Windows Bureau  <br/> |7.6 ou supérieure, Windows XP et supérieur  <br/> |**NOUVEAU**: prise en charge ajoutée pour Windows Skype client s’exécutant sur Windows XP et Windows Vista (nécessite la **dernière version du client 7.26 ou version supérieure)** <br/> |
-|Skype Mobile - Android Téléphone et tablette  <br/> |Version 6.19 ou supérieure, exécutant Android OS version 4.0.3 ou supérieure  <br/> |Les périphériques à faible spécification peuvent ne pas prendre en charge les appels vidéo  <br/> |
-|Skype Mobile - iOS  <br/> |6.11 ou supérieur, sur IOS 7 ou supérieur  <br/> |Non pris en charge iPhone 4 et antérieures, iPod 4e génération et iPad 1re génération  <br/> |
-|Skype Mac  <br/> |7.19 ou supérieur, sur Mac OS X 10.9 (Contrôles) ou supérieur  <br/> |Nécessite Mac OSX 10.9 ou supérieur  <br/> |
-|Skype Universal Windows App (Windows 10) Desktop and Mobile  <br/> |Windows 10 (mise à jour de Redstone 1 ou version ultérieure)  <br/> |Windows L’application universelle recevra la mise à jour à l’automne 2016, ce qui ajoutera la prise en charge de l’interop.  <br/> |
+|Skype Windows Bureau   |7.6 ou supérieure, Windows XP et supérieur   |**NOUVEAU**: prise en charge ajoutée pour Windows Skype client s’exécutant sur Windows XP et Windows Vista (nécessite la **dernière version du client 7.26 ou version supérieure)**  |
+|Skype Mobile - Android Téléphone et tablette   |Version 6.19 ou supérieure, exécutant Android OS version 4.0.3 ou supérieure   |Les périphériques à faible spécification peuvent ne pas prendre en charge les appels vidéo   |
+|Skype Mobile - iOS   |6.11 ou supérieur, sur IOS 7 ou supérieur   |Non pris en charge iPhone 4 et antérieures, iPod 4e génération et iPad 1re génération   |
+|Skype Mac   |7.19 ou supérieur, sur Mac OS X 10.9 (Vitesses) ou supérieure   |Nécessite Mac OSX 10.9 ou supérieur   |
+|Skype Universal Windows App (Windows 10) Desktop and Mobile   |Windows 10 (mise à jour de Redstone 1 ou version ultérieure)   |Windows L’application universelle recevra la mise à jour à l’automne 2016, ce qui ajoutera la prise en charge de l’interop.   |
    
 Le tableau suivant décrit l’état de l’interopération entre la dernière version de Skype Entreprise et la dernière version de Skype client. 
   
-|**Client**|**Skype Recherche dans l’annuaire et ajout de contacts**|**Skype A/V, iop de messagerie instantanée**|
+|Client|Skype Recherche dans l’annuaire et ajout de contacts|Skype A/V, iop de messagerie instantanée|
 |:-----|:-----|:-----|
-|Skype Entreprise  <br/> |Oui  <br/> |Oui  <br/> |
-|Skype Entreprise sur Mac  <br/> |Peut ajouter (aucune recherche)  <br/> |Oui  <br/> |
-|Lync Desktop 2013  <br/> |Peut ajouter (aucune recherche)  <br/> |Oui  <br/> |
-|Lync Web App : en ligne et en local  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync Mobile - Windows Phone  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
-|Lync Mobile - Android  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
-|Lync Mobile - iOS  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
-|Lync Room System  <br/> |Bientôt disponible  <br/> |Oui  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |Oui  <br/> |Oui  <br/> |
-|Lync Mac 2011  <br/> |Peut ajouter (aucune recherche)  <br/> |Oui  <br/> |
-|Lync Desktop 2010  <br/> |Peut ajouter (aucune recherche)  <br/> |Oui  <br/> |
-|Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync Attendant  <br/> |N/A  <br/> |N/A  <br/> |
+|Skype Entreprise   |Oui   |Oui   |
+|Skype Entreprise sur Mac   |Peut ajouter (aucune recherche)   |Oui   |
+|Lync Desktop 2013   |Peut ajouter (aucune recherche)   |Oui   |
+|Lync Web App : en ligne et en local   |N/A   |N/A   |
+|Lync Mobile - Windows Phone   |Bientôt disponible   |Oui   |
+|Lync Mobile - Android   |Bientôt disponible   |Oui   |
+|Lync Mobile - iOS   |Bientôt disponible   |Oui   |
+|Lync Room System   |Bientôt disponible   |Oui   |
+|Lync Modern App (Win 8.1)   |Oui   |Oui   |
+|Lync Mac 2011   |Peut ajouter (aucune recherche)   |Oui   |
+|Lync Desktop 2010   |Peut ajouter (aucune recherche)   |Oui   |
+|Lync Phone Edition   |N/A   |N/A   |
+|Lync Attendant   |N/A   |S/O   |
    
