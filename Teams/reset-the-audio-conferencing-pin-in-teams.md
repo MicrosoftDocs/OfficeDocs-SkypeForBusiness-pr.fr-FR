@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment réinitialiser le code confidentiel d’audioconférence d’un utilisateur dans Microsoft Teams comment consulter des informations importantes sur les code confidentiels.
-ms.openlocfilehash: 206d625fdf656af5c4b30fdcc9f87dae760807cd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6e2e25f05be1b2e14a41d8a102e05f735ef6c09b
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730093"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60007774"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rej
 
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -52,11 +52,12 @@ Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rej
    
 ## <a name="have-a-user-reset-their-own-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
-1. Aider l’utilisateur à se rendre sur [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) .
+1. Aider l’utilisateur à se rendre sur [https://dialin.teams.microsoft.com/usp](https://dialin.teams.microsoft.com/usp) .
 2. Cliquez sur **Réinitialiser le code confidentiel.** 
 
 > [!NOTE]
-> Pour GCCH, voir https://webdir2g.online.gov.skypeforbusiness.us/lscp/usp/pstnconferencing :
+> Pour GCCH, voir https://dialin.cpc.gov.teams.microsoft.us/usp :
+> Pour DoD, voir https://dialin.cpc.dod.teams.microsoft.us/usp : .
 
 ## <a name="what-else-should-you-know-about-pins"></a>Que devez-vous savoir d'autre sur les codes confidentiels ?
 
