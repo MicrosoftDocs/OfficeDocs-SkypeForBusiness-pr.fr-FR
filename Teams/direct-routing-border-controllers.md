@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9177f4fd3a95cfd0f69aeb122c6de1b1b244f9f9
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 04f0a500a22868156850ef1ddcf800aeb0ec07c7
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942359"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012298"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -114,13 +114,13 @@ Le tableau suivant décrit les fournisseurs SBC qui prennent en charge L’[opti
 | Fournisseur | Product |    Version logicielle requise |
 |:------------|:-------|:-------|
 | [CodesAudio](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
-|            |  Mediant 800 SBC |   7.20A.256 | 
-|            |  Mediant 2600 SBC |  7.20A.256 | 
-|            |  Mediant 4000 SBC |  7.20A.256 | 
+|            |  Mediant 800 SBC |   7.40A.100 | 
+|            |  Mediant 2600 SBC |  7.40A.100 | 
+|            |  Mediant 4000 SBC |  7.40A.100 | 
 |            |  Mediant 1000B SBC | 7.20A.256 | 
-|            |  Mediant 9000 SBC |  7.20A.256 | 
-|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
-|            |  Mediant Cloud Edition SBC | 7.20A.256 |
+|            |  Mediant 9000 SBC |  7.40A.100 | 
+|            |  Mediant Virtual Edition SBC |   7.40A.100 | 
+|            |  Mediant Cloud Edition SBC | 7.40A.100 |
 | [SBC Core du ruban](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)   |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |
