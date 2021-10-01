@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport d Teams’utilisation des ap
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fcf56c69824d1926a61b7fe09afc4e0d7cf474d9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f58634bea7a2846e35ddc4dbc8da0be13396e616
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730843"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046010"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams d’utilisation des applications
 
@@ -48,8 +48,10 @@ Le Teams d’utilisation des applications dans le Centre Microsoft Teams d’adm
 |**4**   |Pointez sur le point représentant une utilisation des applications à une date donnée pour voir le nombre d’instances du nombre total d’utilisateurs actifs de cette application à cette date donnée.  |
 |**5**   |Toutes les applications seront incluses, mais en choisissant l’icône Filtrer, des filtres supplémentaires sont disponibles.  |
 |**6**   |Le tableau vous offre une répartition par nom d’application des utilisateurs et équipes actifs.<br><ul><li>**Le nom d’application** est le nom d’affichage de l’application utilisée dans Teams.</li><li>**Le nombre** d’utilisateurs actifs a ouvert l’application au moins une fois au cours de la période spécifiée.</li><li>**Le type d’application** est une valeur statique de « Microsoft » ou de « Tiers ».</li><li>**Les équipes** actives sont le nombre d’équipes qui ont ouvert l’application par au moins un membre de l’équipe et pendant les périodes spécifiées.</li><li>**Publisher** est l’éditeur du logiciel de l’application.</li><li>**Version** est la version logicielle de l’application, de l’éditeur de l’application.</li></ul><b> Remarque :</b> Pour l’instant, les applications « Utilisateurs actifs » et « Équipes actives » sont calculées pour les applications utilisées uniquement dans les canaux.     
-
-<br>![Capture d’écran d’un rapport Utilisation des applications.](media/app-usage-report4.png)  | | **7**  | Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.<br><br>![Capture d’écran de la page Modifier les colonnes.](media/app-usage-report5.png)  | | **8**  | Vous pouvez exporter le rapport dans un fichier CSV à des fin d’analyse en mode hors connexion. Cliquez **sur Exporter vers Excel,** puis sous l’onglet **Téléchargements,** cliquez sur Télécharger pour télécharger le rapport lorsqu’il est prêt. <br>![Capture d’écran de la page Téléchargements.](media/app-usage-report7.png)  | | **9** | Lorsque vous affichez le rapport dans Excel, vous voyez également une colonne **ID** qui représente l’ID d’application. Un ID d’équipe est généralement une chaîne alphanumérique. Si la **colonne ID** indique **\n*****, cela signifie qu’un utilisateur a demandé la suppression de ses informations.<br>![Capture d’écran du Excel téléchargement.](media/app-usage-report8.png)  |
+<br>![Capture d’écran d’un rapport Utilisation des applications.](media/app-usage-report4.png)|
+|**7**  |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.<br><br>![Capture d’écran de la page Modifier les colonnes.](media/app-usage-report5.png)  |
+|**8**  |Vous pouvez exporter le rapport dans un fichier CSV à des fin d’analyse en mode hors connexion. Cliquez **sur Exporter vers Excel,** puis sous l’onglet **Téléchargements,** cliquez sur Télécharger pour télécharger le rapport lorsqu’il est prêt. <br>![Capture d’écran de la page Téléchargements.](media/app-usage-report7.png)  |
+|**9**   |Lorsque vous affichez le rapport dans Excel, vous voyez également une colonne **ID** qui représente l’ID d’application. Un ID d’équipe est généralement une chaîne alphanumérique. Si la **colonne ID** indique **\n*****, cela signifie qu’un utilisateur a demandé la suppression de ses informations.<br>![Capture d’écran du Excel téléchargement.](media/app-usage-report8.png)  |
 
 ## <a name="related-topics"></a>Voir aussi
 

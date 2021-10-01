@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Découvrez comment afficher une liste des utilisateurs de votre organisation qui sont activés pour les conférences téléphoniques à partir d’Microsoft Teams. '
-ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579588"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045880"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Afficher la liste des utilisateurs pour lesquels l'audioconférence est activée dans Microsoft Teams
 
@@ -39,7 +39,6 @@ Après avoir activé Microsoft Teams utilisateurs de votre organisation pour l�
 ## <a name="viewing-a-list-of-users"></a>Afficher une liste d'utilisateurs
 
 - Dans le Microsoft Teams d’administration, dans le panneau de navigation de gauche, cliquez sur **Utilisateurs.**
-
 
 ## <a name="what-else-should-i-know"></a>Informations supplémentaires
 
@@ -58,7 +57,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
+Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps&preserve-view=true).
     
 ## <a name="related-topics"></a>Rubriques connexes
 

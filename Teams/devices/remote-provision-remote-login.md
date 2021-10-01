@@ -1,7 +1,7 @@
 ---
 title: Mise en service à distance et se connectez pour Teams appareils Android
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prgholve
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment mettre en service à distance et vous connectez pour Teams appareils Android
-ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984739"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046150"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Mise en service à distance et se connectez pour Teams appareils Android
 
@@ -68,9 +68,9 @@ Dans la **fenêtre Provision de nouveaux appareils,** vous pouvez ajouter l’ad
 
 ### <a name="manually-add-a-device-mac-address"></a>Ajouter manuellement une adresse MAC de périphérique
 
-1. Dans **l’onglet Activation en** attente, **sélectionnez Ajouter un ID MAC.**
+1. Dans **l’onglet En attente d’activation,** **sélectionnez Ajouter un ID MAC.**
 
-   ![ajouter manuellement une adresse Mac de périphérique.](../media/remote-provision-6.png)
+   ![ajouter manuellement une adresse Mac de périphérique.](../media/remote-provision-6-new.png)
 
 1. Entrez l’ID MAC.
 1. Entrez un emplacement pour aider les techniciens à identifier l’emplacement d’installation des appareils.
@@ -78,7 +78,7 @@ Dans la **fenêtre Provision de nouveaux appareils,** vous pouvez ajouter l’ad
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>Télécharger fichier pour ajouter l’adresse MAC d’un appareil
 
-1. Dans **l’onglet Activation** en attente, **sélectionnez Télécharger ID MAC.**
+1. Dans **l’onglet En attente d’activation,** **sélectionnez Télécharger ID MAC.**
 2. Téléchargez le modèle de fichier.
 3. Entrez l’ID MAC et l’emplacement, puis enregistrez le fichier.
 4. **Sélectionnez le** fichier, puis **sélectionnez Télécharger.**
@@ -87,7 +87,7 @@ Dans la **fenêtre Provision de nouveaux appareils,** vous pouvez ajouter l’ad
 
 Vous avez besoin d’un code de vérification pour les appareils. Le code de vérification est généré en bloc ou au niveau de l’appareil et est valable pendant 24 heures.
 
-1. Dans **l’onglet Activation** en attente, sélectionnez un ID MAC existant.
+1. Dans **l’onglet En attente d’activation,** sélectionnez un ID MAC existant.
    Un mot de passe est créé pour l’adresse MAC et s’affiche dans la colonne **Code de** vérification.
 
 2. Fournissez la liste des ID MAC et des codes de vérification aux techniciens de champ. Vous pouvez exporter les détails directement dans un fichier et le partager avec le technicien qui travaille sur l’installation réelle.
@@ -110,9 +110,9 @@ Lorsque l’appareil est sous tension et connecté au réseau, le technicien le 
 
 ## <a name="sign-in-remotely"></a>Se connectez à distance
 
-Le périphérique en attente apparaît dans **l’onglet De confirmation de** la mise en service. Démarrez le processus de inscription à distance en sélectionnant le périphérique individuel.
+Le périphérique est sous l’onglet En **attente de la** signature. Démarrez le processus de inscription à distance en sélectionnant le périphérique individuel.
 
-1. Sélectionnez un appareil dans **l’onglet Se connectez en** attente.
+1. Sélectionnez un appareil dans **l’onglet En attente de la connectez-vous.**
 
    ![Fenêtre avec une liste d’appareils prêts à être connectés.](../media/remote-device1.png)
 

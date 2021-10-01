@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez les files d’attente et les files d’attente automatiques et comment les utiliser pour aider les appelants à se déplacer dans un système de menus pour atteindre des personnes ou des services de votre organisation.
-ms.openlocfilehash: 1bd9f1d299123812c4a2621e48578730126fe619
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 04cebedc40e64531b272fb5420d19120e15329f1
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729573"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045730"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>Planifier la mise Teams automatiques et des files d’attente d’appels
 
@@ -71,8 +71,11 @@ Pour configurer des files d’attente et des files d’attente automatiques, vou
 
 - Un compte de ressource pour chaque employé automatique et chaque file d’attente d’appels
 - Licence utilisateur Système téléphonique virtuel pour chaque compte de ressource
-- Au moins un numéro [de service Microsoft,](getting-service-phone-numbers.md)un numéro de routage direct ou un numéro hybride pour chaque compte de ressource à composer directement
+- Au moins un numéro de [service Microsoft,](getting-service-phone-numbers.md)un numéro de Connecter d’opérateur, un numéro de routage direct ou un numéro hybride pour chaque compte de ressource à composer directement
  - Le numéro de service peut être un numéro gratuit ou gratuit
+
+> [!NOTE]
+> Les comptes de ressources sont désactivés pour la se connecte et doivent le rester. La conversation et la présence ne sont pas disponibles pour ces comptes.
 
 Les agents qui reçoivent des appels depuis les files d’attente doivent être Voix Entreprise des utilisateurs en ligne ou sur site. De plus, si les files d’attente d’appels utilisent des numéros de routage direct, les agents qui ont besoin de conférences ou de transferts d’appels requièrent également :
 
@@ -84,11 +87,14 @@ Si vos agents utilisent l’application Microsoft Teams pour les appels de la fi
 Lors du transfert d’appels vers un numéro de téléphone externe, le compte de ressource qui effectue le transfert (c’est-à-dire celui associé au attendant automatique ou à la file d’attente d’appels) doit avoir une licence d’utilisateur virtuel Microsoft 365 Système téléphonique et l’une des opérations suivantes doit lui être attribuée :
 
 - Licence [forfait d’appels](calling-plans-for-office-365.md) et numéro de téléphone affecté
+- Un [opérateur Connecter](operator-connect-plan.md) numéro de téléphone affecté
 - Une [stratégie de routage vocal en ligne](manage-voice-routing-policies.md) (l’affectation de numéros de téléphone est facultative lors de l’utilisation du routage direct)
 
 > [!NOTE]
-> Les numéros de service de routage direct pour le support automatique et les files d’attente d’appels sont pris en charge Microsoft Teams et les agents d’appel uniquement.<br>
-> Les transferts entre les ligne du plan d’appel et le routage direct ne sont pas pris en charge.<br>
+> Les numéros de service de routage direct pour le support automatique et les files d’attente d’appels sont pris en charge Microsoft Teams et les agents d’appel uniquement.
+> 
+> Les transferts entre le plan d’appel, Connecter ligne de routage et le routage direct ne sont pas pris en charge.
+> 
 > Dans un scénario hybride, le compte de ressource doit être créé en local. Pour plus d’informations, voir [Planifier les files d’attente d’appels cloud.](/skypeforbusiness/hybrid/plan-call-queue)
 
 ## <a name="business-decisions"></a>Décisions d’entreprise
@@ -125,7 +131,7 @@ Si vous avez déjà un service de traitement automatique et une infrastructure d
 *Le mode* conférence est une option dans les files d’attente d’appels qui réduit de façon significative la durée de connexion Teams appels VOIP et appels PSTN à un agent. Pour que le mode conférence fonctionne, les agents de la file d’attente des appels doivent utiliser l’un des clients suivants :
 
 - la dernière version du client Microsoft Teams pour ordinateur de bureau, de l’application Android ou de l’application iOS
-  - la version 1449/1.0.94.2020051601 ou une version ultérieure du téléphone Microsoft Teams
+- Microsoft Teams Téléphone version 1449/1.0.94.2020051601 ou ultérieure
   
 Définissez le mode Teams comptes des agents en mode Teams’accès seul. Les agents qui ne répondent pas aux exigences ne sont pas inclus dans la liste de routage des appels.
 
@@ -220,7 +226,7 @@ Consultez les articles suivants pour plus d’informations sur la création de a
 
 Si vous avez besoin de fonctionnalités plus étendues, telles que l’intégration aux flux de travail, bots et SMS, envisagez [Azure Communication Services.](/azure/communication-services/overview)
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Planifier le routage direct](direct-routing-plan.md)
 

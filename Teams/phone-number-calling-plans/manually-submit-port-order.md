@@ -1,7 +1,7 @@
 ---
 title: Envoyer manuellement une demande de transfert
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment envoyer manuellement une demande de demande de port.
-ms.openlocfilehash: 5313e7f19554c3c4a82514a247b1bb81b589b5a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577938"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045870"
 ---
 # <a name="manually-submit-a-port-order"></a>Envoyer manuellement une demande de transfert
 
 Dans certains pays et certaines régions, vous pouvez devoir envoyer manuellement une demande de service pour obtenir des numéros de téléphone, transférer des numéros de téléphone, libérer des numéros de téléphone ou modifier des adresses. Pour connaître les besoins de chaque pays et région, ou pour en savoir plus sur le portage de numéros, consultez Gérer les numéros de [téléphone pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-Utilisez les étapes de cet article pour envoyer manuellement une demande de port si votre pays ou région n’est pas répertorié dans l’Assistant De portage du Microsoft Teams [d’administration.](transfer-phone-numbers-to-teams.md)
+Utilisez les étapes de cet article pour envoyer manuellement une demande de port si votre pays ou région n’est pas répertorié dans l’Assistant [De port de Microsoft. ](transfer-phone-numbers-to-teams.md)
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Envoyer manuellement une nouvelle demande de demande de port
 
@@ -45,7 +45,7 @@ Pour envoyer manuellement une nouvelle demande de port, envoyez votre formulaire
 
 - Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Consultez [Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

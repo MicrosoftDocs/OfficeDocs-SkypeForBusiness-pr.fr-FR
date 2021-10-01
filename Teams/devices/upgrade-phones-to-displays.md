@@ -1,7 +1,7 @@
 ---
 title: Mettre à Teams niveau des téléphones Teams’affichage
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Découvrez comment mettre à niveau Teams téléphones portables vers Teams’affichages dans le Microsoft Teams d’administration.
-ms.openlocfilehash: e84c6157db4c7f98d94b276830f71afb52175740
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: b090522f93d8d41e9bf0e5a188030fd694672a5c
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984559"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045840"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Mettre à Teams niveau des téléphones Teams’affichage
 
@@ -55,7 +55,7 @@ N’oubliez pas qu’après avoir mis à niveau un téléphone Teams vers un Tea
 1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur **Teams Téléphones pour appareils**  >  **mobiles.**
 2. Sélectionnez les Teams téléphones à mettre à niveau, puis sélectionnez **Mettre à niveau.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Capture d’Teams les téléphones sélectionnés pour la mise à niveau vers Teams’affichage.":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select-new.png" alt-text="Capture d’Teams les téléphones sélectionnés pour la mise à niveau vers Teams’affichage." lightbox="../media/upgrade-phones-to-displays-select-new.png":::
 
 3. Dans la **boîte de dialogue Teams** à  afficher, sélectionnez Planifier la mise à niveau pour définir une date et une heure pour la mise à niveau ou la mise à **niveau maintenant.**
 

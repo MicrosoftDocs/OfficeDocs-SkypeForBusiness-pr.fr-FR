@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article donne une vue d’ensemble des fonctionnalités qui sont Microsoft Teams panneaux.
-ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 872aeed96b12679c809194425a1c7823ac6e663a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984579"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045610"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams panneaux
 
@@ -125,7 +125,7 @@ Une fois que vous avez déployé des panneaux, vous devez les tester. Vérifiez 
 
 ## <a name="manage-teams-panels-in-your-organization"></a>Gérer Teams panneaux dans votre organisation
 
-Pour gérer vos panneaux Teams panneaux, dans le panneau de navigation gauche du Centre d’administration Microsoft Teams, allez sur Teams **panneaux** Teams  >  **appareils.** À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams.](device-management.md)
+Pour gérer vos panneaux Teams panneaux, dans le navigation gauche du Centre d’administration Microsoft Teams, allez sur panneaux Teams  >  **périphériques.** À partir de cet écran, vous pouvez modifier le profil de configuration de l’appareil, gérer les mises à jour, redémarrer des appareils, ajouter et supprimer des balises d’appareil, et bien plus encore. Pour plus d’informations, [voir Gérer vos appareils dans Teams.](device-management.md)
 
 ## <a name="next-steps"></a>Étapes suivantes
 

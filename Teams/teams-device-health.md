@@ -17,14 +17,15 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: d5e98e65c35b8319a7e4f8675b68d530fa382c31
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: fae26365a09cab2705d4c7fee5d57c2135203a65
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984769"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045810"
 ---
 # <a name="manage-the-health-of-teams-devices"></a>Gérer l’état d’Teams appareils
+
 
 Les administrateurs peuvent surveiller l’état des appareils installés Microsoft Teams’aide de leur état d’état, ce qui indique la gravité des problèmes. Pour vérifier l’état d’un appareil, vous pouvez consulter la liste des appareils présente sous la **section** appareils Teams du Centre d’administration Teams’utilisateur. La colonne d’état d’état dans cette liste indique l’état d’état actuel de l’appareil. La sélection de ce statut ouvre le **panneau État** d’état d’santé, qui fournit des détails sur les problèmes d’état.
 

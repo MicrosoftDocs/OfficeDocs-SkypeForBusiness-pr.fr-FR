@@ -15,52 +15,62 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da44a5eb25e56a974214472782e424cda735b6dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 060604853b29111372a605ff0ad6212ba1e56a8a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636802"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046420"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Utilisez l’Assistant Intégration des employés en avant-première pour rendre votre personnel en avant-première opérationnel
 
 > [!NOTE]
-> Cet article décrit une fonctionnalité qui n’a pas encore été publiée. Elle sera bientôt disponible. Si vous êtes un administrateur, vous pouvez découvrir quand cette fonctionnalité sera publiée dans le Centre de messages (dans le [Centre d’administration Microsoft 365).](https://portal.office.com/adminportal/home) Pour rester à jour sur les fonctionnalités de Teams à venir, consultez la feuille [de route Microsoft 365'utilisation.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
+> Cette fonctionnalité n’est pas encore présente ? Il est en cours de déployé et n’est peut-être pas encore disponible dans votre organisation. Pour rester à jour sur les fonctionnalités de Teams à venir, consultez la feuille [de route Microsoft 365'utilisation.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
 
 ## <a name="overview"></a>Présentation
 
-L’Assistant d’intégration des travailleurs en ligne dans le Centre d’administration Microsoft 365 l’intégration des employés en avant-première à votre organisation. L’Assistant vous permet de déployer rapidement une expérience de Microsoft Teams adaptée à votre personnel en première ligne. L’Assistant vous permet de lancer facilement votre déploiement pilote d’Teams pour les employés en ligne de votre organisation.
+L’Assistant d’intégration des travailleurs en ligne dans le Centre d'administration Microsoft 365 l’intégration des employés en avant-première à votre organisation. L’Assistant vous permet de déployer rapidement une expérience de Microsoft Teams adaptée à votre personnel de première ligne. L’Assistant vous permet de lancer facilement votre déploiement pilote d’Teams pour les employés en ligne de votre organisation.
 
 L’Assistant met en place une équipe pour vos employés en ligne et attribue des licences et [des packages](manage-policy-packages.md) de stratégie à chaque membre de l’équipe. Vous pouvez créer votre équipe [](get-started-with-teams-templates-in-the-admin-console.md)de toutes pièces ou à partir d’un modèle d’équipe, puis ajouter des utilisateurs et attribuer des rôles. Le rôle détermine le package de stratégie que l’Assistant affecte à chaque utilisateur.
+
+Actuellement, l’Assistant prend en charge l’ajout de 100 utilisateurs à chaque fois que vous l’exécutez. Nous travaillons à l’augmentation prochaine du nombre d’utilisateurs par run. Consultez de nouveau cette liste pour obtenir les dernières mises à jour.
 
 L’Assistant est disponible pour toutes les organisations qui ont au moins Microsoft 365 F. Vous pouvez exécuter l’Assistant autant de fois que nécessaire pour déployer des Teams en avant-première sur différents sites ou sites de votre organisation.
 
 > [!NOTE]
-> Cet Assistant vous permet d’intégrer rapidement vos employés en ligne Teams employés via les Centre d’administration Microsoft 365. Pour plus d’informations sur la manière dont les employés de Teams qui travaillent en avant-première à l’aide de scripts, voir Comment mettre en service des Teams à l’échelle des employés [en](flw-scripted-deployment.md)première ligne.
+> Cet Assistant vous permet d’intégrer rapidement vos employés en ligne Teams employés via les Centre d'administration Microsoft 365. Pour plus d’informations sur la manière dont les employés de Teams qui travaillent en avant-première à l’aide de scripts, voir Comment mettre en service des Teams à l’échelle des employés [en](flw-scripted-deployment.md)première ligne.
 
 ## <a name="run-the-wizard"></a>Exécuter l’Assistant
 
-1. Dans le navigation gauche du [Centre d’administration Microsoft 365,](https://admin.microsoft.com/)sélectionnez **Configuration.** Allez à la section **Applications et courrier,** puis, sous Obtenir votre personnel en **avant-première** opérationnel, sélectionnez **Afficher.** Ici, vous pouvez en savoir plus sur les fonctionnalités qui s’offrent Microsoft 365 employés en ligne.
+1. Dans le navigation gauche du [Centre d'administration Microsoft 365,](https://admin.microsoft.com/)sélectionnez **Configuration.** Allez à la section **Applications et courrier,** puis, sous Obtenir votre personnel en **avant-première** opérationnel, sélectionnez **Afficher.** Ici, vous pouvez en savoir plus sur les fonctionnalités qui s’offrent Microsoft 365 employés en ligne.
+
+    :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Capture d’écran de la page de détails de l’expérience d’intégration des travailleurs en avant-première dans le Centre d'administration Microsoft 365":::
 
 2. Lorsque vous êtes prêt, sélectionnez Commencer **à** exécuter l’Assistant.
 
-3. Entrez le nom de votre équipe, sélectionnez un paramètre de confidentialité et ajoutez un ou plusieurs propriétaires d’équipe. Ensuite, choisissez si vous souhaitez créer votre équipe de toutes pièces ou à partir d’un modèle d’équipe. Les modèles d’équipe sont disponibles avec des onglets et des canaux prédéfinés, qui optimisent l’équipe pour des besoins ou projets spécifiques à l’entreprise.
+3. Entrez le nom de votre équipe, ajoutez un ou plusieurs propriétaires d’équipe et sélectionnez un paramètre de confidentialité. Ensuite, choisissez si vous souhaitez créer votre équipe de toutes pièces ou à partir d’un modèle d’équipe. Les modèles d’équipe sont disponibles avec des onglets et des canaux prédéfinés, qui optimisent l’équipe pour des besoins ou projets spécifiques à l’entreprise.
+
+    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Capture d’écran de la page Configurer une équipe de l’Assistant":::
 
 4. Ajoutez des utilisateurs à l’équipe. Vous pouvez également ajouter des groupes. Si vous ajoutez des groupes, n’oubliez pas que les licences et packages de stratégie sont directement attribués à chaque utilisateur du groupe, et non au groupe proprement dit.
 
-5. Attribuez l’un des rôles suivants à chaque membre de l’équipe.
+    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Capture d’écran de la page Ajouter des utilisateurs de l’Assistant dans laquelle vous ajoutez des utilisateurs et des groupes à votre équipe":::
 
-    - Employé en ligne
-    - Gestionnaire en ligne
-    - Aucun
+5. Attribuez l’un des rôles suivants à chaque membre de l’équipe : Employé en avant-première, responsable en première ligne, Aucun. 
+  
+    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Capture d’écran de la page Attribuer des rôles de rôle de l’Assistant dans laquelle vous attribuez des rôles, des emplacements et des licences aux membres de l’équipe":::
 
-    En attribuant un rôle de collègue ou de responsable en première ligne, cet utilisateur recevra une expérience Teams adaptée à son rôle. Cela inclut des applications et stratégies pré-épinglées pour communiquer et collaborer avec les employés en contact direct avec les employés et les responsables en bonne santé.
+    En attribuant un rôle de collègue en avant-première ou de gestionnaire en ligne, cet utilisateur recevra un package de stratégie. Le package de stratégie crée une expérience Teams adaptée à son rôle. Cette expérience inclut des applications et stratégies pré-épinglées pour communiquer et collaborer avec les employés en contact direct avec les responsables.
 
-    Attribuez ensuite une licence Microsoft 365 F à chaque membre de l’équipe. Si vous n’avez pas assez de licences, vous pouvez sélectionner Acheter plus de **licences** pour acheter plus de licences.  
+    Ensuite, sélectionnez un emplacement et attribuez une licence Microsoft 365 F à chaque membre de l’équipe. Si vous n’avez pas assez de licences, vous pouvez sélectionner Acheter plus de **licences** pour acheter plus de licences.  
 
 6. Choisissez qui reçoit l’e-mail de statut une fois l’Assistant terminé. Le message contient des informations sur les actions de réussite et d’échec effectuées par l’Assistant lors de la création de l’équipe, de l’ajout de membres de l’équipe et de l’attribution d’une licence et d’un package de stratégie à chaque membre de &mdash; l’équipe. Utilisez ces informations pour résoudre les erreurs qui peuvent se produire.
 
+    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Capture d’écran de la page Ajouter des destinataires du message d’état de l’Assistant":::
+
 7. Examinez vos sélections, puis sélectionnez **Confirmer.**
+
+    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Capture d’écran de la page De révision de l’équipe de l’Assistant dans laquelle vous examinez les paramètres de votre équipe":::
 
     L’Assistant crée votre équipe et attribue des licences et packages de stratégies aux membres de l’équipe. L’envoi de cette liste peut prendre quelques minutes, après quoi les destinataires que vous avez choisis reçoivent un message de statut.
 
@@ -73,7 +83,7 @@ Après avoir exécuté l’Assistant, il est important de :
 - Faites savoir à vos employés et responsables en ligne qu’ils ne Teams licences.
 - Si vous utilisez des appareils partagés, assurez-vous Teams l’installer sur ces appareils. Si votre organisation utilise un modèle « apportez votre propre appareil », indiquez à vos employés et responsables qu’ils doivent télécharger et installer des Teams sur leurs appareils.
 
-Lorsque l’employé en première ligne ouvre Teams pour la première fois, il recevra une expérience de première exécuter personnalisée, qui comprend des conversations, des canaux, des appels et une gestion des tâches au sein Teams.
+Lorsque l’employé en première ligne ouvre Teams pour la première fois, il bénéficiera d’une expérience de première exécuter personnalisée, qui comprend des conversations, des canaux, des appels et une gestion des tâches au sein Teams.
 
 ## <a name="related-articles"></a>Articles connexes
 

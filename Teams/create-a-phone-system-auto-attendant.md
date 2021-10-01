@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour les grandes organisations dans Microsoft Teams.
-ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729083"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046030"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un attendant automatique
 
@@ -143,7 +143,7 @@ Le format requis pour entrer l’extension dans le champ Numéro de téléphone 
 - Exemple 2 : Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber « +1555555678x5678 »
 - Exemple 3 : Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber « x5678 »
 
-Vous pouvez définir l’extension dans le [Centre d’administration Microsoft 365](https://admin.microsoft.com/) ou le [Azure Active Directory d’administration.](https://aad.portal.azure.com) Jusqu’à 12 heures peuvent être nécessaires avant que les modifications ne soient disponibles pour les attendants automatiques et les files d’attente d’appels.
+Vous pouvez définir l’extension dans le [Centre d'administration Microsoft 365](https://admin.microsoft.com/) ou le [Azure Active Directory d’administration.](https://aad.portal.azure.com) Jusqu’à 12 heures peuvent être nécessaires avant que les modifications ne soient disponibles pour les attendants automatiques et les files d’attente d’appels.
 
 > [!NOTE]
 > Si vous souhaitez utiliser les fonctionnalités Numérotation **par** nom et Numérotation par **numérotation** par numérotation de poste, vous pouvez affecter une touche de numérotation sur votre postes de service automatique principal afin d’atteindre un postes de numérotation automatique activé pour la numérotation **par nom.** Dans ce attendant automatique, vous pouvez affecter la touche 1 (qui ne possède aucune lettre associée) pour atteindre le numéro par numérotation par **numérotation** automatique de poste.
@@ -223,13 +223,13 @@ Pour [plus d’Teams, voir Gérer Teams comptes](manage-resource-accounts.md) de
 
 Reportez-vous [aux conditions préalables](plan-auto-attendant-call-queue.md#prerequisites) pour autoriser les travailleurs automatiques à transférer des appels en externe.  De plus,:
 
-- Pour un compte [](calling-plans-for-office-365.md)de ressource titulaire d’une licence Forfait d’appels, le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code du pays][code de zone][numéro de téléphone]).
+- Pour un compte [](calling-plans-for-office-365.md) de ressource avec une licence Plan d’appels ou un numéro d’opérateur [Connecter,](operator-connect-plan.md) le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code pays][code de zone][numéro de téléphone]).
 
 - Pour un compte de ressource ayant une stratégie de routage voix de licence Système téléphonique et de routage direct, le format du numéro de téléphone de transfert externe dépend des paramètres du contrôleur de session en bordure [(SBC).](direct-routing-connect-the-sbc.md)
 
 Le numéro de téléphone sortant affiché est déterminé comme suit :
 
-  - Pour les numéros de plan d’appel, le numéro de téléphone de l’appelant d’origine s’affiche.
+  - Pour le plan d’appels et Connecter numéros de téléphone, le numéro de téléphone de l’appelant d’origine s’affiche.
   - Pour les numéros de routage direct, le nombre envoyé est basé sur le paramètre P-Ed-Identity (NT) sur le SBC, comme suit :
     - S’il est désactivé, le numéro de téléphone de l’appelant d’origine s’affiche. Il s’agit du paramètre par défaut et recommandé.
     - S’il est activé, le numéro de téléphone du compte de ressource s’affiche.

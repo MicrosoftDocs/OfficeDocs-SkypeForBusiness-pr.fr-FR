@@ -1,5 +1,5 @@
 ---
-title: Transferts de données entre les opérateurs et Microsoft pour les opérateurs Connecter
+title: Transferts de données entre opérateurs et microsoft pour les opérateurs Connecter
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: alaina, creager
@@ -16,25 +16,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 202303954ed2a730589f965bb4e81e663605b005
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582188"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045800"
 ---
-# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Transferts de données entre les opérateurs et Microsoft pour les opérateurs Connecter
+# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Transferts de données entre opérateurs et microsoft pour les opérateurs Connecter
 
-## <a name="provisioned-and-assigned-numbers"></a>Numéros provisionés et affectés
+Microsoft est le contrôleur des données personnelles qu’il traite en relation avec l’opérateur Connecter. Le client doit informer ses utilisateurs finaux des informations suivantes :
 
-Pour garantir le bon fonctionnement du programme d’opérateur Connecter, Microsoft informe chaque opérateur participant, via une API, des numéros de téléphone qui ont été attribués dans le Centre d’administration Teams, ainsi que l’URI SIP (Session Initiation Protocol Uniform Resource Identifiers) de ce numéro de téléphone.
+- Les fonctionnalités d’Connecter opérateur de Microsoft pour Microsoft Teams permettent aux utilisateurs finaux de communiquer avec d’Teams via des réseaux d’appel via Microsoft Teams.
+- Lorsque cette fonctionnalité est activée par votre organisation, Microsoft partage des informations avec le/les opérateurs de services de communication de votre organisation (chacun d’eux, un opérateur) afin d’assurer le bon fonctionnement du service et de résoudre les problèmes.
 
-## <a name="call-detail-records-and-quality-data"></a>Enregistrements des détails des appels et données de qualité
+Les informations que Microsoft partage avec l’opérateur lorsque vous utilisez l’opérateur Connecter inclut :
 
-Microsoft fournira des enregistrements de détails des appels et des données de qualité à chaque opérateur participant via une API. Cette étape est nécessaire pour que Microsoft et l’opérateur effectuent des dépannages et assurent le bon fonctionnement du service.
+- votre numéro de téléphone et, le cas échéant, l’URI SIP (Identificateurs de ressources uniformes du protocole d’initiation de session) attribuée à Microsoft ;
+- les détails des appels et les données de qualité des appels, telles que l’appelant et les numéros de téléphone des destinataires ; invitation et heures de fin des appels ; certains identificateurs d’appelant ; durée de l’appel ; et des informations sur les connexions de service (par exemple, adresses IP et systèmes d’exploitation de l’appelant et du destinataire de l’appel) ; et
+- emplacement des appels d’urgence.
 
-## <a name="call-duration-data"></a>Données de durée d’appel
+Les opérateurs pourront exporter et télécharger les informations répertoriées ci-dessus.
 
-Chaque opérateur fournira à Microsoft, via une API, la durée des appels passé par ses clients à l’aide d’Microsoft Teams. Microsoft utilisera ces enregistrements pour fournir aux clients des informations d’utilisation et s’assurer que nos enregistrements sont cohérents avec ceux de l’opérateur. Microsoft stockera et traitera ces enregistrements conformément aux lois et réglementations en vigueur, ainsi qu’à la Déclaration de confidentialité Microsoft.
-
-Pour plus [d’informations : Acheter, configurer et activer des](career-coach.md) Conseiller d’orientation pour Microsoft Teams
+Ces informations seront gérées par votre opérateur conformément aux pratiques de votre opérateur en matière de confidentialité. Pour plus d’informations, reportez-vous aux conditions d’utilisation et à la politique de confidentialité de votre opérateur. Pour plus d’informations sur les pratiques de Microsoft en matière de confidentialité, reportez-vous à la notification de confidentialité Microsoft applicable Teams [ce lien.](https://go.microsoft.com/fwlink/?LinkId=521839)

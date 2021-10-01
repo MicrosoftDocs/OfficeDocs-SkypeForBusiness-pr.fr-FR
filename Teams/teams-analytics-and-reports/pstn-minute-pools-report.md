@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rapport sur les pools de minutes PSTN
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Comment utiliser le rapport Teams pools de minutes PSTN dans le Cen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6ea18ce789ab08a92849833f72d1bf291ebaec9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef2e207352bf4ad7ee3d0f6c8fae674c4022e0b0
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730273"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045990"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams Rapport sur les pools de minutes PSTN
 
@@ -30,7 +30,7 @@ Le rapport Teams pools de minutes PSTN dans le Centre d’administration Microso
 
 ## <a name="view-the-pstn-minute-pools-report"></a>Afficher le rapport sur les pools de minutes PSTN
 
-Dans la barre de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les rapports,** sous **Rapport,** sélectionnez des pools de **minutes PSTN,** puis cliquez sur **Exécuter le rapport.**
+Dans la barre de navigation gauche du Centre Microsoft Teams’administration, cliquez sur **Analyse & rapports**  >  **d’utilisation.** Sous **l’onglet Afficher les** rapports, sous **Rapport,** sélectionnez minute PSTN et pools **SMS (aperçu),** puis cliquez sur **Exécuter le rapport.**
 
 ![Capture d’écran du Teams des groupes de minutes PSTN dans le Centre d’administration.](../media/teams-reports-pstn-minute-pools-with-callouts.png "Capture d’écran du Teams des groupes de minutes PSTN dans le Centre d’administration Microsoft Teams avec des appels numéroés")
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
-ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
+ms.openlocfilehash: 5d942e268639e30a95878485a931cf1af5be87d5
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58744457"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045690"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -74,9 +74,9 @@ Le tableau suivant décrit les actions que les propriétaires, les membres et le
 
 |Action  |Propriétaire d’une équipe|Membre de l’équipe|Invité de l’équipe|Propriétaire du canal privé|Membre du canal privé|Invité du canal privé|
 |---------|---------|---------|---------|---------|---------|---------|
-|Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|S/O|S/O|
+|Créer un canal privé|Contrôlée par l’administrateur|Contrôlée par l’administrateur et le propriétaire de l’équipe|Non|N/A|N/A|S/O|
 |Supprimer un canal privé|Oui|Non|Non|Oui|Non|Non|
-|Quitter un canal privé|S/O|S/O|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
+|Quitter un canal privé|S/O|N/A|S/O|Oui, à moins qu’il ne soit le dernier propriétaire|Oui|Oui|
 |Modifier un canal privé|Non|N/A|N/A|Oui|Non|Non|
 |Restaurer un canal privé supprimé|Oui|Non|Non|Oui|Non|Non|
 |Ajouter des membres|Non|N/A|N/A|Oui|Non|Non|
@@ -130,6 +130,8 @@ Chaque équipe peut avoir un maximum de 30 canaux privés et chaque canal privé
 Lorsque vous créez une équipe à partir d’une équipe existante, les canaux privés de l’équipe existante ne seront pas copiés.
 
 Pour l’instant, les notifications des canaux privés ne sont pas incluses dans les messages électroniques d’activité manqués.
+
+Les réunions de canal ne peuvent pas être programmées.
 
 ## <a name="related-topics"></a>Sujets associés
 

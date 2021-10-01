@@ -3,7 +3,7 @@ title: Affectation, modification ou suppression du numéro de téléphone d’un
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: davelick, roykuntz, jastark
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
@@ -20,29 +20,28 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment attribuer, modifier ou supprimer un numéro de téléphone privé pour vos utilisateurs Teams entreprise et clients externes.
-ms.openlocfilehash: 91460769639fc773877105003e8f6b00cd87eb7d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a6e2c8075134817b61d99366633f29140599b447
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013538"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046180"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur (forfaits d’appels)
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
-Lorsque vous définissez des forfaits d’appels, vous affectez des numéros de téléphone à vos utilisateurs. Dans Microsoft Teams, le numéro de téléphone que vous affectez est répertorié lorsqu’un utilisateur clique sur **Appels.** Pour obtenir des instructions sur l’attribution, la modification ou la suppression du numéro de téléphone d’un utilisateur dans un scénario de routage direct, voir Activer le [routage direct,](./direct-routing-enable-users.md)la voix et la messagerie vocale des utilisateurs.
+Lorsque vous définissez des forfaits **d’appels ou des** Connecter, vous affectez des numéros de téléphone à vos utilisateurs. Dans Microsoft Teams, le numéro de téléphone que vous affectez est répertorié lorsqu’un utilisateur clique sur **Appels.** 
 
-![Numéro de téléphone de l’utilisateur affiché dans Teams.](media/teams-phone-number.png)
+**Cet article s’applique aux forfaits d’appels et aux Connecter.** Pour plus d’informations sur l’attribution, la modification ou la suppression d’un numéro de téléphone d’un utilisateur dans un scénario de routage direct, voir Activer le [routage direct,](./direct-routing-enable-users.md)la voix et la messagerie vocale des utilisateurs.
 
-Lorsque vous voulez que les utilisateurs peuvent effectuer et recevoir des appels téléphoniques, vous devez tout d’abord utiliser le Centre d’administration Microsoft Teams et attribuer un numéro de téléphone. Vous pouvez modifier ou supprimer le numéro de téléphone si nécessaire.
-  
-Pour savoir comment obtenir des forfaits d’appels Teams prix, consultez Teams [de licences de modules supplémentaires.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+**Avant d’affecter un numéro pour un plan d’appels ou un Connecter utilisateur, vous devez obtenir des numéros pour vos utilisateurs. Pour plus d’informations, voir Obtenir des numéros pour les utilisateurs [d’un plan](getting-phone-numbers-for-your-users.md) d’appels ou Configurer des numéros pour les utilisateurs [Connecter d’appels.](operator-connect-configure.md#set-up-phone-numbers)**
+
   
 > [!NOTE]
 > Pour savoir si une licence a été attribuée à un utilisateur, vous pouvez vous rendre dans le Centre d’administration Microsoft Teams d'> **utilisateurs.** Si une licence est attribuée, elle sera indiquée dans la page.  Vous pouvez également utiliser l’Centre d'administration Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Affectation d’un numéro de téléphone à un utilisateur
- 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+
+Pour attribuer un numéro à l’aide du Centre Teams’administration :
     
 1. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
 
@@ -52,19 +51,32 @@ Pour savoir comment obtenir des forfaits d’appels Teams prix, consultez Teams 
 
 4. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
 
+   > [!NOTE]
+   > **Si vous affectez des numéros à l’opérateur Connecter utilisateurs, il est possible que vous ne soyez pas en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.**
+
 5. Selon que vous voulez envoyer un courrier électronique à l’utilisateur avec ses informations de numéro de téléphone, désactiver ou activer l’utilisateur de courrier avec des **informations de numéro de téléphone.** Par défaut, c’est le cas. 
 
 6. Cliquez sur **Enregistrer**.
 
-Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
+Pour attribuer des nombres à l’aide de PowerShell, utilisez l’cmdlet [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) comme suit :
+
+
+''PowerShell Set-CsOnlineVoiceUser -Identity <user>   -TelephoneNumber <phone number> 
+```
+
+For example:
+
+```PowerShell
+Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+```
 
 > [!NOTE]
-> En raison de la latence entre Microsoft 365 ou Office 365 et Teams, l’activé peut prendre jusqu’à 24 heures pour les utilisateurs. Si le numéro de téléphone n’est pas attribué correctement après 24 heures, contactez le support technique pour les produits pour les entreprises [- Aide de l’administrateur.](/microsoft-365/admin/contact-support-for-business-products) Nous sommes là pour vous aider !
+> En raison de la latence entre Microsoft 365 et Teams, l’activé peut prendre jusqu’à 24 heures pour les utilisateurs. Si le numéro de téléphone n’est pas attribué correctement après 24 heures, consultez Téléphone [Centre de services de numéros.](https://pstnsd.powerappsportals.com/) 
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>Modifier le numéro de téléphone d’un utilisateur
- 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+
+Pour modifier le numéro de téléphone d’un utilisateur à l’aide du Centre Teams’administration :
     
 1. Dans la barre de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
 
@@ -82,13 +94,16 @@ Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/mo
 
 8. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
 
+      > [!NOTE]
+      > **Si vous changez de numéro pour l’opérateur Connecter utilisateurs, il est possible que vous ne soyez pas en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.**
+
 9. Cliquez sur **Enregistrer**.
 
-Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
+Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Supprimer le numéro de téléphone d’un utilisateur
- 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+
+Pour supprimer un numéro de téléphone à l’aide du Teams d’administration :
 
 1. Dans la barre de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
 
@@ -100,7 +115,7 @@ Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/mo
 
 5. Cliquez sur **Enregistrer**.
 
-Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
+Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
 
 ## <a name="related-topics"></a>Voir aussi
 
@@ -114,4 +129,3 @@ Pour obtenir un exemple PowerShell, voir [Set-CsOnlineVoiceUser.](/powershell/mo
 
 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
-[Forfaits d’appels Microsoft 365](./calling-plans-for-office-365.md)

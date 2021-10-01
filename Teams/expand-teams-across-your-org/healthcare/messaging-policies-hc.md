@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Découvrez comment personnaliser une stratégie de messagerie sécurisée pour Microsoft Teams qui peut inclure des accusés de lecture et des notifications de priorité.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72a0ab4ebce59a9fa65ec67b413892afa0b1e045
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727243"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045516"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Messagerie sécurisée pour les organismes de santé
 
@@ -37,9 +37,9 @@ Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’o
 
 Les stratégies peuvent être facilement gérées dans le [Centre d’administration Microsoft Teams](https://admin.teams.microsoft.com) en vous connectant avec des informations d’identification d’administrateur et en choisissant **Stratégies de messagerie** dans le volet de navigation gauche.
 
- ![Capture d’écran de la page Stratégies de messagerie.](../../media/hc-messaging-policy-admin-center.png)
-
-Pour modifier la stratégie de messagerie par défaut existante pour votre organisation, cliquez sur **Globale (à l’échelle de l’organisation)**, puis apportez vos modifications. Pour créer une stratégie de messagerie personnalisée, cliquez sur **Ajouter** puis sélectionnez vos paramètres. Sélectionnez **Enregistrer** lorsque vous avez terminé.
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Capture d’écran de la page Stratégies de messagerie." lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ 
+ Pour modifier la stratégie de messagerie par défaut existante pour votre organisation, cliquez sur **Globale (à l’échelle de l’organisation)**, puis apportez vos modifications. Pour créer une stratégie de messagerie personnalisée, cliquez sur **Ajouter** puis sélectionnez vos paramètres. Sélectionnez **Enregistrer** lorsque vous avez terminé.
 
 ![Capture d’écran des paramètres de stratégie de messagerie.](../../media/hc-messaging-policy.png)
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Découvrez comment configurer des files d’attente d’appels pour les petites entreprises dans Microsoft 365 Business Voice.
-ms.openlocfilehash: 3a67771127d5c359d798dd5de688d4f26b3cf39e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 527d0512ae7e58e2141fcc913ba633ea991cc6e5
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732116"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045740"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Créer une file d’attente d’appels - Didacticiel pour les petites entreprises
 
@@ -51,7 +51,7 @@ Cette vidéo montre comment créer une file d’attente d’appels dans Teams.
 
 #### <a name="before-you-begin"></a>Avant de commencer
 
-Obtenez des [Système téléphonique licences utilisateur virtuel si](../teams-add-on-licensing/virtual-user.md) vous ne les avez pas encore. Obtenez une file d’attente pour chaque file d’attente d’appels et chaque personne de service automatique que vous prévoyez de configurer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier votre installation ultérieurement.
+Obtenez des [Système téléphonique - Licences](../teams-add-on-licensing/virtual-user.md) utilisateur virtuel si vous ne les avez pas encore. Obtenez une file d’attente pour chaque file d’attente d’appels et chaque personne de service automatique que vous prévoyez de configurer. Ces licences sont gratuites. Nous vous suggérons donc d’en obtenir quelques supplémentaires si vous décidez de modifier votre installation ultérieurement.
 
 Étant donné que des agents dans une file d’attente d’appels peuvent appeler pour renvoyer un appel client, envisagez de définir l’ID d’appelant de vos agents d’appel sur votre numéro de téléphone principal ou le numéro d’un traitement automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](../caller-id-policies.md) pour en savoir plus.
 
@@ -96,17 +96,17 @@ Pour ajouter un canal
 
 # <a name="step-2brresource-accounts"></a>[Étape 2 Comptes <br> de ressources](#tab/resource-account)
 
-Chaque file d’attente d’appels que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un moyen de service automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une *Microsoft 365 Système téléphonique -licence* Utilisateur virtuel, puis l’utiliser pour commencer à créer la file d’attente d’appels.
+Chaque file d’attente d’appels que vous créez nécessite un compte de ressource. Ce compte est similaire à un compte d’utilisateur, sauf qu’il est associé à un service de attendant automatique ou à une file d’attente d’appels au lieu d’une personne. Dans cette étape, nous allons créer le compte, lui attribuer une *Microsoft 365 Système téléphonique -licence* Utilisateur virtuel, puis l’utiliser pour commencer à créer la file d’attente d’appels.
 
 ### <a name="create-a-resource-account"></a>Créer un compte de ressource
 
 Vous pouvez créer un compte de ressource dans le Teams d’administration.
 
-1. Dans le Teams d’administration, développez les **paramètres** à l’échelle de l’organisation, puis cliquez **sur Comptes de ressources.**
+1. Dans le Teams d’administration, développez **Voix,** puis cliquez sur **Comptes de ressources.**
 
 2. Cliquez sur **Ajouter**.
 
-3. Dans le **volet Ajouter un compte** de ressource, remplissez Nom **d’affichage,** Nom d’utilisateur et sélectionnez **File** d’attente d’appels pour le type de compte **de ressource.**  Les agents peuvent voir le nom complet lorsqu’ils reçoivent un appel entrant depuis la file d’attente.
+3. Dans le **volet Ajouter un compte de** ressource, remplissez Nom **d’affichage,** Nom d’utilisateur et sélectionnez **File** d’attente d’appels pour le type de compte de **ressource.**  Les agents peuvent voir le nom complet lorsqu’ils reçoivent un appel entrant depuis la file d’attente.
 
     ![Capture d’écran de l’interface utilisateur Ajouter un compte de ressource.](../media/resource-account-add-cq.png)
 
@@ -120,13 +120,13 @@ Vous pouvez créer un compte de ressource dans le Teams d’administration.
 
 Vous devez affecter une *Microsoft 365 Système téléphonique - Licence Utilisateur* virtuel au compte de ressource.
 
-1. Dans la Centre d’administration Microsoft 365 utilisateurs  actifs, cliquez sur le compte de ressource auquel vous voulez attribuer une licence.
+1. Dans la Centre d'administration Microsoft 365 utilisateurs  actifs, cliquez sur le compte de ressource auquel vous voulez attribuer une licence.
 
 2. Sous **l’onglet Licences et** applications, sous **Licences,** sélectionnez **Microsoft 365 Système téléphonique - Utilisateur virtuel.**
 
 3. Cliquez sur **Enregistrer les modifications**.
 
-    ![Capture d’écran de l’interface utilisateur d’attribution de licences dans Centre d’administration Microsoft 365.](../media/resource-account-assign-virtual-user-license.png)
+    ![Capture d’écran de l’interface utilisateur d’attribution de licences dans Centre d'administration Microsoft 365.](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez les étapes permettant de réinitialiser l’ID de conférence d’un utilisateur dans Microsoft Teams et obtenez des liens vers les outils de mise à jour et de migration de réunion.
-ms.openlocfilehash: 6ef5bd8fed266990e5a21edc34e874c218199e87
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9faff7e86480d85c08e4aba4efdce218ee74a9b0
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728883"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045510"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Réinitialiser l'ID de conférence d'un utilisateur dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Un ID de conférence dynamique est inclus au bas des invitations aux réunions, 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Réinitialisation de l’ID de conférence d’un utilisateur
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -46,7 +46,6 @@ Un ID de conférence dynamique est inclus au bas des invitations aux réunions, 
 3. Sous **Audioconférence, cliquez** sur **Réinitialiser l’ID de conférence.**
 
 2. Dans la fenêtre **Réinitialiser l’ID de conférence,** cliquez sur **Réinitialiser.** A conference ID will be automatically created and an email sent to the user with the new conference ID. Par défaut, les courriers électroniques sont envoyés aux utilisateurs, mais cette option peut être désactivée.   
-
     
 > [!NOTE]
 > Une fois l'ID de conférence réinitialisé, un message électronique contenant le nouvel ID de conférence est envoyé à l'utilisateur. Ce courrier électronique est envoyé à son adresse de messagerie principale, le plus souvent, Microsoft 365 ou Office 365 boîte aux lettres. Le message électronique contient le nouvel ID de conférence, le ou les numéros de téléphone à composer par défaut et les instructions de mise à jour des réunions existantes. 
@@ -72,7 +71,7 @@ Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions q
     
   - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps).
+Pour plus d’informations sur Windows PowerShell, consultez la rubrique [Microsoft Teams PowerShell ](/powershell/module/teams/?view=teams-ps&preserve-view=true).
     
 ## <a name="related-topics"></a>Rubriques connexes
 

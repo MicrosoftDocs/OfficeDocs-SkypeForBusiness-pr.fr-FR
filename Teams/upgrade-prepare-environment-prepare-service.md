@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 056e2e8d626e8993577b945a38b560cc41a1e90b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727043"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045540"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Préparer votre service pour la mise à niveau vers Teams
 
@@ -66,7 +66,7 @@ Bien qu’il soit recommandé de suivre les listes de vérification dans l’ord
 Lorsque vous intégration des utilisateurs sur une base par site, nous vous recommandons vivement d’utiliser le manuel d' allocation du site pour [Voix](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) comme guide supplémentaire pour ces listes de vérification.
 
 >[!NOTE]
->La plupart des paramètres de configuration sont courants entre Teams et Skype Entreprise Online. Vous pouvez utiliser le Microsoft Teams d’administration pour configurer ces paramètres.
+> La plupart des paramètres de configuration sont courants entre Teams et Skype Entreprise Online. Vous pouvez utiliser le Microsoft Teams d’administration pour configurer ces paramètres.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Point de décision</td><td><ul><li>Qui responsable de la surveillance de l’achèvement des listes de vérification d’intégration ?</li></ul></td></tr>

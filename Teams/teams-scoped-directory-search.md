@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 844681b4941ef19db21d90e9e1bbc9ed7ee1dde9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f69a4d94743e443fd20f53f5eb35d26b6d69e3b3
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733073"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046230"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Utiliser la recherche d’annuaire étendue Microsoft Teams
 
@@ -58,7 +58,6 @@ Pour découvrir comment utiliser les stratégies du carnet d’adresses, lisez l
 3. Sous **Rechercher,** en face de la recherche dans l’étendue du répertoire Teams à l’aide d’une stratégie de carnet d’Exchange de données **(ABP),** activer le **basculement.**
 
     ![Recherche dans l’annuaire dans Microsoft Teams centre d’administration.](media/teams-scoped-directory-search-image1.png)
-
 
 > [!IMPORTANT]
 > La réplique de cette modification peut prendre quelques heures.

@@ -1009,6 +1009,8 @@ items:
             href: how-many-phone-numbers-can-you-get.md
           - name: Rechercher des numéros de téléphone pour les utilisateurs
             href: search-for-phone-numbers-for-users.md
+          - name: 'Affectation, modification ou suppression du numéro de téléphone d’un utilisateur'
+            href: assign-change-or-remove-a-phone-number-for-a-user.md
           - name: Afficher la liste des numéros de téléphone de votre organisation
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: Gérer les numéros de téléphone utilisés pour le Forfait d’appel
@@ -1017,8 +1019,6 @@ items:
                 href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
               - name: Obtention de numéros de téléphone pour vos utilisateurs
                 href: getting-phone-numbers-for-your-users.md
-              - name: 'Affectation, modification ou suppression du numéro de téléphone d’un utilisateur'
-                href: assign-change-or-remove-a-phone-number-for-a-user.md
               - name: Obtenir des numéros de téléphone
                 href: getting-service-phone-numbers.md
               - name: Transfert de numéros de téléphone

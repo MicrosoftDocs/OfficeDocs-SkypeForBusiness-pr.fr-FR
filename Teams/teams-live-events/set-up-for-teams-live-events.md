@@ -1,7 +1,7 @@
 ---
 title: Configurer des événements en direct dans Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Configurer des événements en direct dans Teams, notamment configu
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f33490fdccbb67a000278d1e9085b0305204c8f5
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432326"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046190"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurer des événements en direct dans Microsoft Teams
 
@@ -50,16 +50,16 @@ Les stratégies d’événements en direct sont utilisées pour contrôler qui d
 
 <a name="bkcreatepolicy"> </a>
 
-1. Dans le navigation gauche du centre Microsoft Teams d’administration, allez à **stratégies d’événements**  >  **en direct Meetings.**
+1. Dans le navigation gauche du centre Microsoft Teams d’administration, allez à l’onglet Gérer les stratégies pour les **événements** en direct  >    >  **de Réunions.**
 2. Faites l’une des options suivantes :
 
     - Si vous voulez modifier la stratégie par défaut existante, sélectionnez **Globale (par défaut à l’échelle de l’organisation)**.
-    - Si vous voulez créer une stratégie personnalisée, sélectionnez **Ajouter.**
+    - Si vous voulez créer une stratégie personnalisée, sélectionnez **+Ajouter.**
     - Si vous voulez modifier une stratégie personnalisée, sélectionnez-la, puis choisissez **Modifier**.
 
     Voici les paramètres que vous pouvez modifier en fonction des besoins de votre organisation.
 
-    ![Capture d’écran des paramètres de stratégie des événements en direct.](../media/teams-live-events-policies.png "Capture d’écran des paramètres de stratégie d’événements en direct dans le centre d’administration de Microsoft Teams.")
+    ![Capture d’écran des paramètres de stratégie des événements en direct.](../media/teams-live-events-policies-new.png "Capture d’écran des paramètres de stratégie d’événements en direct dans le centre d’administration de Microsoft Teams.")
 
 |Paramètres  |Description  |
 |---------|---------|
@@ -114,7 +114,7 @@ Une fois que vous avez configuré la solution SDN ou eCDN, vous pouvez configure
 
 Accédez à [Configurer les paramètres d’événements en direct dans Teams](configure-teams-live-events.md).
 
-### <a name="related-topics"></a>Sujets associés
+### <a name="related-topics"></a>Voir aussi
 
 - [Comprendre un événement en direct Teams](what-are-teams-live-events.md)
 - [Offre pour les événements en direct Teams](plan-for-teams-live-events.md)
