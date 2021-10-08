@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to manage the Music on Hold feature in Phone System.
-ms.openlocfilehash: 845e85fbf7fb4fa9f5ee70769c6a66f49cd8bb4e
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 18bf6a1d97ef52d711aa11c1abc7fceed02e6726
+ms.sourcegitcommit: a0f6d7dc524edbb82ab8edc0a9602310a74bff43
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432781"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "60238136"
 ---
 # <a name="music-on-hold"></a>Musique en attente
 
@@ -99,8 +99,6 @@ Pour supprimer un fichier audio chargé, utilisez la cmdlet Remove-CsOnlineAudio
 - Musique La fonction de attente n’est disponible que dans le cloud commercial.
 
 - Musique La fonction de attente n’est disponible que lorsque l’utilisateur est en Teams mode uniquement.
-
-- Musique La fonction de attente n’est pas disponible lorsque l Teams un utilisateur a mis en place un transfert consultatif.
 
 - Si l’Teams d’appels est activé pour lLocation-Based routage des appels, l’Musique en attente ne peut pas être joué à l’appelant.
 
