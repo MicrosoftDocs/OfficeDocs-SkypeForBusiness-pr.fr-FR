@@ -1,7 +1,7 @@
 ---
 title: Configurer des jours fériés dans Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Découvrez comment configurer des jours fériés dans Microsoft Teams à utiliser avec vos attendants automatiques.
-ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9c86f28b855b7f92d7e4f5d850c2d97baa2a106
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733203"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249496"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurer des jours fériés dans Microsoft Teams
 
@@ -49,12 +49,12 @@ Pour créer des vacances
 
 6. Utilisez la liste de listes pour sélectionner une heure de début pour les fêtes de fin d’année.
 
-7. Sous **Heure de fin,** sélectionnez l’icône de calendrier et choisissez la date de fin des jours fériés.
+7. Sous **Heure de** fin, sélectionnez l’icône de calendrier et choisissez la date de fin des jours fériés.
 
 8. Utilisez la liste de listes pour sélectionner une heure de fin pour les vacances. **L’heure de** fin doit être après **l’heure de début.**  
 
    > [!NOTE]
-   > Si les jours fériés ont une journée entière (période de  24 heures), l’heure de fin doit être définie sur le jour suivant et sur 12:00. Par exemple, si votre organisation est fermée le 1er  janvier pour le jour de l’an, définissez  l’heure de début sur le 1er janvier (12 h 00) et définissez l’heure de fin sur 02 /12:00.
+   > Si les jours fériés ont une journée entière (période de  24 heures), l’heure de fin doit être définie sur le jour suivant et sur 12:00. Par exemple, si votre organisation est fermée le 1er  janvier pour le jour de l’an, définissez  l’heure de début sur le 1er janvier (12 h 00) et définissez l’heure de fin sur 2 janvier @ 12:00.
 
 9. Vous pouvez également ajouter des dates pour des jours fériés périodiques.
 
@@ -74,7 +74,7 @@ Pour modifier un jour férié
 
 4. Utilisez la liste de listes pour sélectionner une heure de début pour les fêtes de fin d’année.
 
-5. Sous **Heure de fin,** sélectionnez l’icône de calendrier et choisissez la date de fin des jours fériés. 
+5. Sous **Heure de** fin, sélectionnez l’icône de calendrier et choisissez la date de fin des jours fériés. 
 
 6. Utilisez la liste de listes pour sélectionner une heure de fin pour les vacances. **L’heure de** fin doit être après **l’heure de début.**  
 

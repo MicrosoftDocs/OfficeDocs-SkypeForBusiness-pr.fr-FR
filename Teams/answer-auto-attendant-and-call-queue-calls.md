@@ -1,8 +1,8 @@
 ---
 title: Répondre aux appels du attendant automatique et de la file d’attente d’appels
 ms.reviewer: colongma
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733363"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249486"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Répondre aux appels dans la file d’attente ou du standard automatique directement à partir de Teams
 
@@ -38,7 +38,7 @@ Les files d’attente d’appels cloud incluent des salutations qui sont utilis�
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Gestion d’un traitement automatique ou d’un appel de la file d’attente d’appels
 
-Les utilisateurs pourront différencier les appels entrants d’un traitement automatique ou d’une file d’attente d’appels avant de répondre à l’appel. En plus du nom et/ou du numéro de l’appelant, chaque appel inclut des informations sur les personnes que l’appelant essayait de joindre, afin de donner aux utilisateurs un meilleur contexte pour s’adresser à l’appelant.
+Les utilisateurs pourront différencier les appels entrants à partir d’un traitement automatique ou d’une file d’attente d’appels avant de répondre à l’appel. En plus du nom et/ou du numéro de l’appelant, chaque appel inclut des informations sur les personnes que l’appelant essayait de joindre, afin de donner aux utilisateurs un meilleur contexte pour s’adresser à l’appelant.
 
 L’illustration suivante montre comment un appel entrant d’un employé de service automatique ou d’une file d’attente d’appels s’affiche pour un utilisateur.
 
@@ -73,8 +73,9 @@ Lorsqu’un agent de la file d’attente d’appels reçoit un appel sur son app
 
 ## <a name="related-topics"></a>Sujets associés
 
--    [Qu’est-Système téléphonique dans Microsoft 365 ou Office 365](what-is-phone-system-in-office-365.md)
--    [Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
--    [Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
--    [Configurer un standard automatique dans le cloud](create-a-phone-system-auto-attendant.md)
+[Créer une file d’attente d’appels cloud](create-a-phone-system-call-queue.md)
+
+[Un standard Cloud automatique, qu’est-ce que c’est ?](what-are-phone-system-auto-attendants.md)
+
+[Configurer un standard automatique dans le cloud](create-a-phone-system-auto-attendant.md)
 

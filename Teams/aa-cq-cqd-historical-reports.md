@@ -1,7 +1,7 @@
 ---
 title: Standard automatique & historique de la file d’attente d’appels
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,13 +21,13 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques Standard automatique de la file d’attente d’appels.
-ms.openlocfilehash: a474b2f8e4acc89a92edcc0b20f1414d8cf38fde
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Découvrez comment utiliser le tableau de bord de qualité des appels Power BI rapport pour afficher les données historiques des Standard automatique de la file d’attente d’appels.
+ms.openlocfilehash: 4594a673225a167e762bcfee63067f70e7fe10b4
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732733"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249556"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Standard automatique & historique de la file d’attente d’appels
 
@@ -60,7 +60,7 @@ Effectuez les étapes suivantes :
 
 - Double-cliquez sur le fichier zip pour l’ouvrir.
 
-- Double-cliquez sur le fichier de modèle « CQ et AA combined Analytics 20201105.pbit » et Power BI Desktop’analyse doit se lancer.
+- Double-cliquez sur le fichier de modèle « CQ et AA combined Analytics 20201105.pbit » et Power BI Desktop le lancer.
 
 - Vous serez invité à sélectionner la région du pipeline de données du CQD. Sélectionnez la région dans laquelle se trouve votre client.
 
@@ -159,7 +159,7 @@ Effectuez les étapes suivantes :
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |Nom AA                                 |texte                     |Nom du compte de ressource joint à Standard automatique<br><br>Si le nom complet du compte de **ressource aa_test@microsoft.com** alors cette valeur est : **aa_test** |
 |AACallerActionCount                     |nombre entier             |Résumer : Somme<br>Nombre d’actions sélectionnées par l’appelant dans Standard automatique’appel  |
-|AACallFlow                              |texte                     |Encapsule les différents états d’un Standard automatique appel (valeurs possibles) :<br><br>§ abs_search<br>§ annonce<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallFlow                              |texte                     |Encapsule les différents états des Standard automatique appel (valeurs possibles) :<br><br>§ abs_search<br>§ annonce<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
 |AACallResult                            |texte                     |Résultat de l’appel final - valeurs possibles :<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ inconnu<br>§ user_terminated |
 |AAChainDuration                         |nombre décimal           |Résumer : Somme<br>Durée de l’appel dans Standard automatique                     |
 |AAChainIndex                            |texte                     |                                                                         |
@@ -188,7 +188,7 @@ Effectuez les étapes suivantes :
 |Taux d’appels abandonnés                   |Ratio du nombre d’appels réussis à l’abandon                        |
 |Durée moyenne de la session (secondes)        |Durée des appels en secondes groupées par appels abandonnés/réussis       |
 
-#### <a name="report-to-cqd-table-and-field-mapping"></a>Report to CQD table and field mapping
+#### <a name="report-to-cqd-table-and-field-mapping"></a>Rapport sur la table et le mappage de champs du tableau de table des champs du tableau de recherche
 
 |Onglet Rapport         |Noms de tables de rapports                                                          |Filtre global |
 |:------------------|:---------------------------------------------------------------------------|:-------------|
@@ -208,7 +208,7 @@ Effectuez les étapes suivantes :
 |Source d’appel entrant<sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Type    |Appels externes : Le type d’appel est externe<br>Appels internes : le type d’appel est interne |
 |Avg Waiting Time                    |fCallQueueFinalStateAction -> Durée moyenne des appels (secondes) |Avant transfert : le résultat des appels de la file d’attente agent_joined_conference ou transferred_to_agent<br>Avant de raccrocher : le résultat des appels de la file d’attente n’est agent_joined_conference ou transferred_to_agent |
 |Résultat de l’appel                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> d’appel dans la file d’attente | Aucun |
-|Action totale des appels de dépassement de délai d’dépassement de capacité |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> File d’attente d’appels - Action finale d’état |L’action d’état final de la file d’attente d’appels n’est pas en avance |
+|Action totale des appels de dépassement de délai d’dépassement de capacité |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> File d’attente d’appels Final State Action |L’action d’état final de la file d’attente d’appels n’est pas en avance |
 |Totaux cibles des transferts/forards       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Type de cible de la file d’attente d’appels |Aucun |
 |Volumes d’appel                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Identification de la file d’attente d’appels<br>fCallQueueAnalytics -> Date |Aucun |
 |Appels abandonnés                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned est True |
@@ -298,7 +298,7 @@ Effectuez les étapes suivantes :
 
 > [!NOTE]
 > 1) Ce rapport indique le nombre d’appels du point de vue des agents. Par conséquent, le nombre total d’appels dans ce rapport sera généralement supérieur au nombre total d’appels dans le rapport **d’analyse** de la file d’attente d’appels cloud. Chaque appel dans la file d’attente peut être présenté à un ou plusieurs agents au moins une fois avant la réponse. Chaque appel de la file d’attente d’appels présenté à un agent est comptabilisé dans ce rapport, même si l’agent n’a pas répondu à celui-ci. La différence du nombre d’appels entre ces deux rapports est plus prononcé avec l’option de **routage d’Attendant** qui sonne pour chaque agent pour chaque appel. 
-> 2) Lorsqu’un appel arrive pour la première fois dans la première file d’attente d’appels, si le nombre d’appels déjà en attente dans cette file d’attente dépasse la limite de gestion des dépassements d’appel et si l’option de redirection envoie des appels vers une deuxième file d’attente, les agents de la deuxième file d’attente d’appels sont affichés comme étant dans la première file d’attente d’appels de ce rapport.  
+> 2) Lorsqu’un appel arrive pour la première fois dans la première file d’attente, si le nombre d’appels déjà en attente dans cette file d’attente dépasse la limite de gestion des appels en dépassement de capacité et si l’option de redirection envoie des appels à une deuxième file d’attente, les agents de la deuxième file d’attente d’appels sont affichés comme étant dans la première file d’attente d’appels de ce rapport.  
 
 ## <a name="known-issues"></a>Problèmes connus
 

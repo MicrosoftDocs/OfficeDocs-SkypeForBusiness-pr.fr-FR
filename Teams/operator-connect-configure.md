@@ -3,7 +3,7 @@ title: Configurer l’Connecter
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 04/12/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32745682712261b6fe88f4735a1b54974c440a39
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 47ed8fc4f8ca36a1d987456ff393a1b771c6fb10
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045920"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249676"
 ---
 # <a name="configure-operator-connect"></a>Configurer l’Connecter
 
@@ -140,6 +140,6 @@ Pour libérer des numéros de téléphone à partir Teams centre d’administrat
 
 - Si le numéro de téléphone est affecté à un utilisateur, vous devez désaffecter ce numéro. Sélectionnez **Modifier,** puis **Supprimer l’utilisateur.** Après avoir enregistrer vos modifications, sélectionnez **Publication.**
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Planifier la mise Teams automatiques et des files d’attente d’appels](plan-auto-attendant-call-queue.md)

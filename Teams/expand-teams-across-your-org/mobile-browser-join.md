@@ -19,16 +19,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: Découvrez l’expérience de jointisation pour les Teams virtuelles sur les navigateurs mobiles.
-ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432686"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249756"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Gérer l’expérience de jointisation pour Teams visites virtuelles sur les navigateurs mobiles
 
-Microsoft Teams permet aux personnes de facilement prendre des rendez-vous sur leurs appareils mobiles sans avoir à les Teams. Pour une expérience plus transparente, les participants peuvent rejoindre des rendez-vous tels que des visites médicales, des consultations financières, des enseignants, etc. à partir d’un navigateur mobile. Les participants n’ont pas besoin d’installer Teams’application mobile sur leurs appareils mobiles Android ou iOS.
+Microsoft Teams permet aux personnes de facilement prendre des rendez-vous sur leurs appareils mobiles sans avoir à les Teams. Pour une expérience plus transparente, les participants peuvent rejoindre des rendez-vous tels que des visites médicales, des consultations financières, des enseignants, etc., à partir d’un navigateur mobile. Les participants n’ont pas besoin d’installer Teams’application mobile sur leurs appareils mobiles Android ou iOS.
 
 Lorsqu’un participant rejoint un navigateur mobile, lorsqu’un participant rejoint un rendez-vous à partir d’un appareil mobile, il n’est pas invité à télécharger Teams. Au lieu de cela, Teams s’ouvre dans un navigateur mobile, où le participant peut sélectionner **Rejoindre maintenant** pour rejoindre la réunion. Cette fonctionnalité vous permet de garder à l’esprit que si Teams est déjà installé sur l’appareil mobile d’un participant, Teams s’ouvre dans un navigateur mobile et non dans l’application.
 
@@ -76,6 +76,10 @@ Voici les navigateurs mobiles actuellement pris en charge. Sauf indication contr
 &sup1; Les applications iOS sur Safari ne peuvent pas sélectionner de périphériques de micro et de haut-parleur. Par exemple, Bluetooth appareils mobiles. Il s’agit d’une limitation du système d’exploitation, qui contrôle la sélection de l’appareil par défaut.
 
 &sup2; Safari 14+ et macOS 11+ sont requis pour la prise en charge vidéo sortante.
+
+## <a name="things-to-consider"></a>Éléments à prendre en compte
+
+Le membre du personnel qui dirige la visite virtuelle peut partager son écran à partir de son client Teams de bureau, mobile ou Web avec un participant qui rejoint la réunion à partir d’un navigateur mobile. Toutefois, les participants ne peuvent pas partager leur écran à partir d’un navigateur mobile.
 
 > [!NOTE]
 > Nous ajoutons d’autres fonctionnalités à l’expérience de réunion dans les prochaines version de Teams. Consultez à nouveau les informations les plus à jour. Pour rester à jour sur les fonctionnalités de Teams à venir, consultez la feuille [de route Microsoft 365'utilisation.](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)
