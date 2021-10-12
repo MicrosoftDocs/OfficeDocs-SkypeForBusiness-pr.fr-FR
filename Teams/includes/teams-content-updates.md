@@ -3,6 +3,46 @@
 
 
 
+## <a name="week-of-october-04-2021"></a>Semaine du 4 octobre 2021
+
+
+| Publié le |Titre de la rubrique | Modification |
+|------|------------|--------|
+| 10/5/2021 | [Diffuser en continu Teams réunions](/MicrosoftTeams/stream-teams-meetings) | ajouté |
+| 10/5/2021 | Utiliser la fonctionnalité d’unité d’administration dans Microsoft Teams | supprimé |
+| 10/5/2021 | [Contrôleurs de frontière de session certifiés pour le routage direct](/MicrosoftTeams/direct-routing-border-controllers) | modifié |
+| 10/5/2021 | [Configurer l’optimisation des médias locaux pour le routage direct](/MicrosoftTeams/direct-routing-media-optimization-configure) | modifié |
+| 10/5/2021 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
+| 10/5/2021 | [Gérez l’accès externe (fédération)](/MicrosoftTeams/manage-external-access) | modifié |
+| 10/5/2021 | Déployer Microsoft Teams pour Surface Hub | supprimé |
+| 10/5/2021 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
+| 10/5/2021 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
+| 10/5/2021 | [Expérience de conversation native pour les utilisateurs externes (fédérés) dans Microsoft Teams](/MicrosoftTeams/native-chat-for-external-users) | modifié |
+| 10/5/2021 | [Spécifications des salles Microsoft Teams](/MicrosoftTeams/rooms/requirements) | modifié |
+| 10/5/2021 | [Activer ou désactiver l'accès invité dans Microsoft Teams](/MicrosoftTeams/set-up-guests) | modifié |
+| 10/5/2021 | [Configurer des webinaires dans Microsoft Teams](/MicrosoftTeams/set-up-webinars) | modifié |
+| 10/5/2021 | [Utiliser la télémétrie en temps réel pour résoudre les problèmes de qualité des réunions](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | modifié |
+| 10/6/2021 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
+| 10/6/2021 | [Utiliser les conversations surveillées](/MicrosoftTeams/supervise-chats-edu) | modifié |
+| 10/7/2021 | [Planifier le routage direct](/MicrosoftTeams/direct-routing-plan) | modifié |
+| 10/7/2021 | [Teams comparaison des fonctionnalités des appareils pour les espaces partagés entre Windows et Android](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | ajouté |
+| 10/8/2021 | [Créer une file d’attente des appels dans Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | modifié |
+| 10/8/2021 | [Standard automatique & historique de la file d’attente d’appels](/MicrosoftTeams/aa-cq-cqd-historical-reports) | modifié |
+| 10/8/2021 | [Répondre aux appels du attendant automatique et de la file d’attente d’appels](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | modifié |
+| 10/8/2021 | [Configurer un attendant automatique pour les Microsoft Teams - Didacticiel pour les petites entreprises](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | modifié |
+| 10/8/2021 | [Créer une file d’attente d’appels Microsoft Teams didacticiel - Petite entreprise](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | modifié |
+| 10/8/2021 | [Parcage et récupération d’appel dans Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modifié |
+| 10/8/2021 | [Configurer un attendant automatique pour les Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
+| 10/8/2021 | [Microsoft Teams des langues prise en charge par la file d’attente d’appels](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | modifié |
+| 10/8/2021 | [Référence de la reconnaissance vocale et de la numérotation automatique et de la file d’attente des appels](/MicrosoftTeams/dial-voice-reference) | modifié |
+| 10/8/2021 | [Gérer l’expérience de jointisation pour Teams visites virtuelles sur les navigateurs mobiles](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | modifié |
+| 10/8/2021 | [Gérer les comptes de ressource dans Teams](/MicrosoftTeams/manage-resource-accounts) | modifié |
+| 10/8/2021 | [Configurer l’Connecter](/MicrosoftTeams/operator-connect-configure) | modifié |
+| 10/8/2021 | [Connecter](/MicrosoftTeams/operator-connect-plan) | modifié |
+| 10/8/2021 | [Planifier la mise Teams automatiques et des files d’attente d’appels](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
+| 10/8/2021 | [Configurer des jours fériés dans Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | modifié |
+
+
 ## <a name="week-of-september-27-2021"></a>Semaine du 27 septembre 2021
 
 
@@ -11,7 +51,7 @@
 | 9/27/2021 | [Téléphone gestion des nombres pour la Croatie](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-croatia) | ajouté |
 | 9/27/2021 | [Téléphone gestion des nombres pour l’Estonie](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-estonia) | ajouté |
 | 9/27/2021 | [Téléphone gestion des nombres pour la Lettonie](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-latvia) | ajouté |
-| 9/27/2021 | [Téléphone gestion des nombres pour la Lituanie](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania) | ajouté |
+| 9/27/2021 | [Téléphone gestion des nombres en Lituanie](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania) | ajouté |
 | 9/27/2021 | [Téléphone gestion des nombres pour la Slovénie](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia) | ajouté |
 | 9/27/2021 | [Disponibilité en Pologne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-poland) | modifié |
 | 9/27/2021 | [Disponibilité en Slovénie](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-slovenia) | modifié |
@@ -33,7 +73,7 @@
 | 9/28/2021 | [Mise en service à distance et se connectez pour Teams appareils Android](/MicrosoftTeams/devices/remote-provision-remote-login) | modifié |
 | 9/28/2021 | [Mettre à jour Microsoft Teams appareils à distance](/MicrosoftTeams/devices/remote-update) | modifié |
 | 9/28/2021 | [Microsoft Teams panneaux](/MicrosoftTeams/devices/teams-panels) | modifié |
-| 9/28/2021 | [Mettre à niveau Teams téléphones portables vers Teams’affichage](/MicrosoftTeams/devices/upgrade-phones-to-displays) | modifié |
+| 9/28/2021 | [Mettre à Teams niveau des téléphones Teams’affichage](/MicrosoftTeams/devices/upgrade-phones-to-displays) | modifié |
 | 9/28/2021 | [Ajouter et mettre à jour les étiquettes de rapport](/MicrosoftTeams/learn-more-about-site-upload) | modifié |
 | 9/28/2021 | [Gérer les stratégies de réunion pour l’audio et la vidéo](/MicrosoftTeams/meeting-policies-audio-and-video) | modifié |
 | 9/28/2021 | [Gérer les Salles Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | modifié |
@@ -60,7 +100,7 @@
 | 9/29/2021 | [Adopter Microsoft Teams](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | modifié |
 | 9/29/2021 | [Outils et téléchargements pour l’adoption](/MicrosoftTeams/adopt-tools-and-downloads) | modifié |
 | 9/29/2021 | [Affectation, modification ou suppression du numéro de téléphone d’un utilisateur](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | modifié |
-| 9/29/2021 | [Affecter des stratégies à des utilisateurs et groupes](/MicrosoftTeams/assign-policies-users-and-groups) | modifié |
+| 9/29/2021 | [Attribuer des stratégies aux utilisateurs et aux groupes](/MicrosoftTeams/assign-policies-users-and-groups) | modifié |
 | 9/29/2021 | [Attribuer des packages de stratégies à des utilisateurs et groupes](/MicrosoftTeams/assign-policy-packages) | modifié |
 | 9/29/2021 | [Rechercher dans le journal d’audit des événements dans Microsoft Teams](/MicrosoftTeams/audit-log-events) | modifié |
 | 9/29/2021 | [Partage d’appel et prise d’appel de groupe](/MicrosoftTeams/call-sharing-and-group-call-pickup) | modifié |
@@ -106,12 +146,12 @@
 | 9/30/2021 | [Configurer un attendant automatique pour les Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modifié |
 | 9/30/2021 | [Mise en service à distance et se connectez pour Teams appareils Android](/MicrosoftTeams/devices/remote-provision-remote-login) | modifié |
 | 9/30/2021 | [Microsoft Teams panneaux](/MicrosoftTeams/devices/teams-panels) | modifié |
-| 9/30/2021 | [Mettre à niveau Teams téléphones portables vers Teams’affichage](/MicrosoftTeams/devices/upgrade-phones-to-displays) | modifié |
+| 9/30/2021 | [Mettre à Teams niveau des téléphones Teams’affichage](/MicrosoftTeams/devices/upgrade-phones-to-displays) | modifié |
 | 9/30/2021 | [Messagerie sécurisée pour les organismes de santé utilisant Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | modifié |
 | 9/30/2021 | [Gérer l’application Plannings pour votre organisation dans Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | modifié |
 | 9/30/2021 | [Utilisez l’Assistant Intégration des employés en avant-première pour rendre votre personnel en avant-première opérationnel](/MicrosoftTeams/flw-onboarding-wizard) | modifié |
 | 9/30/2021 | [Configurer l’Connecter](/MicrosoftTeams/operator-connect-configure) | modifié |
-| 9/30/2021 | [Transferts de données entre les opérateurs et Microsoft pour les opérateurs Connecter](/MicrosoftTeams/operator-connect-data-transfer) | modifié |
+| 9/30/2021 | [Transferts de données entre opérateurs et microsoft pour les opérateurs Connecter](/MicrosoftTeams/operator-connect-data-transfer) | modifié |
 | 9/30/2021 | [Connecter](/MicrosoftTeams/operator-connect-plan) | modifié |
 | 9/30/2021 | [Envoyer manuellement une demande de transfert](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | modifié |
 | 9/30/2021 | [Planifier la mise Teams automatiques et des files d’attente d’appels](/MicrosoftTeams/plan-auto-attendant-call-queue) | modifié |
