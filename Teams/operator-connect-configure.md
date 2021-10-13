@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47ed8fc4f8ca36a1d987456ff393a1b771c6fb10
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 6c19981f4cc7edb556b245da2aac0b320705cc64
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249676"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275568"
 ---
 # <a name="configure-operator-connect"></a>Configurer l’Connecter
 
@@ -108,7 +108,7 @@ Pour plus d’informations sur les appels d’urgence, voir [Gérer](what-are-em
    Supprimez l’URI On-prem Line en exécutant la commande PowerShell suivante :  
 
    ```
-   Set-CsUser -identity <user> - OnPremLineURI $null 
+   Set-CsUser -Identity <user> -OnPremLineURI $null 
    ```
 
 2. Supprimez les problèmes d’utilisation PSTNUsage associés à vos utilisateurs, sans quoi les appels seront acheminés vers la passerelle spécifiée dans l’utilisation PSTN. Pour savoir comment supprimer l’utilisation PSTN, voir [Set-CsOnlinePstnUsage.](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)

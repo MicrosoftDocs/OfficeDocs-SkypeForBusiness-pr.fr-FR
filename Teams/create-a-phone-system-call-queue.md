@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 2967c2ce5f6d058415e39e68f6870aacf575377c
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 073f1fa2fbc96ed78cddb6e16201476df2cafa96
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249516"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275608"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -155,13 +155,15 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 
 - Le **tourniquet (round robin)** équilibre le routage des appels entrants afin que chaque agent d’appel reçoive le même nombre d’appels provenant de la file d’attente. Ceci peut être utile dans un environnement de ventes entrantes pour assurer l’égalité des chances entre tous les agents d’appel.
 
-- L’**inactivité la plus longue** achemine chaque appel vers l’agent qui a été inactif le plus longtemps. Un agent est considéré comme inactif si son état de présence est défini sur Disponible ou si son état de présence est défini sur Absent depuis moins de 10 minutes. Les agents dont l’état de présence est définie sur Absent depuis plus de 10 minutes ne sont pas considérés comme inactifs et ne pourront pas recevoir d’appels tant qu’ils n’auront pas changé leur présence en Disponible. 
+- L’**inactivité la plus longue** achemine chaque appel vers l’agent qui a été inactif le plus longtemps. Un agent est considéré comme inactif si son état de présence est disponible. Les agents dont l’état de présence n’est pas disponible ne peuvent pas recevoir d’appels tant qu’ils n’ont pas changé leur présence en Disponible. 
 
 > [!TIP]
 > Il est recommandé de définir la **méthode de routage** sur **Rond-rond** ou **Inactif** le plus long.
 
 > [!NOTE]
 > Si [l’enregistrement de](teams-recording-policy.md) conformité est activé sur les agents, la combinaison du **mode** conférence et du **routage d’Attendant** n’est pas prise en charge. Si vous avez besoin d’utiliser **le mode** Conférence, sélectionnez **Routage** en **série,** Relecteur arrondi ou Inactif le plus **long** comme méthode **de routage.** Si vous devez utiliser le **routage d’Attendant,** définissez **le mode** Conférence sur **Off**.
+> 
+> Lorsque  vous utilisez l’inactivité la plus longue, il peut se parfois qu’un agent reçoit un appel de la file d’attente peu de temps après être indisponible ou si la réception d’un appel de la file d’attente prend un peu de temps après être devenue disponible.
 
 ![Capture d’écran des paramètres de routage, de désinspondage et d’heure d’alerte.](media/call-queue-presence-agents-time.png)
 
