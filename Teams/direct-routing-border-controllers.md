@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Découvrez quels contrôleurs de frontière de session (SBC) ont été certifiés pour le routage direct.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e5aeecf93146a628c897e22868dc6b4f6ed7b795
-ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
+ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
+ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60268278"
+ms.lasthandoff: 10/12/2021
+ms.locfileid: "60275578"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Contrôleurs de frontière de session certifiés pour le routage direct
 
@@ -38,8 +38,14 @@ Microsoft collabore avec chaque fournisseur pour :
 
   > [!NOTE]
   > Microsoft prend uniquement en charge le système téléphonique si un ou plusieurs appareils certifiés sont connectés via le routage direct. Microsoft se réserve le droit de rejeter les cas de support où un appareil non certifié est connecté au système téléphonique via le routage direct. Si Microsoft détermine que le problème de routage direct d’un client concerne l’appareil SBC d’un fournisseur, le client devra contacter le fournisseur SBC pour obtenir de l’aide.
+  >
   > La certification est accordée à des versions de microprogramme SBC spécifiques. Les versions de microprogramme SBC ci-dessous sont certifiées et prises en charge. Les versions de microprogramme supérieures à celles qui sont documentées sont prises en charge tant que la version principale.mineure est identique.
-  > Exemple : La version 6.10.258 est prise en charge. Dans ce cas, nous prenons également en charge les versions de microprogramme 6.10. (258 ou plus) La version 6.20.100 est recommandée. Dans ce cas, nous recommandons également les versions de microprogramme 6.20. (100 ou plus) Pour les questions de prise en charge concernant une version spécifique, interrogez votre fournisseur SBC.
+  >
+  > Exemple :
+  >
+  > - Pris en charge 6.10.258 – dans ce cas, nous prenons également en charge les versions de firmware 6.10. (258 ou supérieures).
+  > - Recommandé 6.20.100 – dans ce cas, nous recommandons également les versions de firmware 6.20. (100 ou supérieures).
+  > - Pour toute question relative à la prise en charge d'une version spécifique, contactez votre fournisseur SBC.
 
 Les tableaux qui suivent répertorient les appareils certifiés pour le routage direct. (Pour plus d’informations sur les fournisseurs SBC qui prennent en charge l’optimisation des médias locaux, consultez [Configurer l’optimisation des médias locaux pour le routage direct](direct-routing-media-optimization-configure.md).)
 
