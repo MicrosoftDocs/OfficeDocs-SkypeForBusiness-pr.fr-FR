@@ -1,5 +1,5 @@
 ---
-title: Effectuer une enquête de découverte électronique sur du contenu
+title: Effectuer une enquête eDiscovery sur du contenu
 author: markjjo
 ms.author: markjjo
 manager: laurawi
@@ -17,16 +17,16 @@ description: Découvrez ce que vous devez faire lorsque vous devez effectuer une
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95f284211f76017ee4dca85fbbf03c8a454aaa26
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733883"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356482"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Mener une recherche eDiscovery de contenu dans Microsoft Teams
 
-Les grandes entreprises sont souvent exposées à de importantes procédures légales de demande de soumission de toutes les informations stockées électroniquement (ESI). Microsoft Teams de contenu peut être recherché et utilisé pendant les enquêtes de découverte électronique.
+Les grandes entreprises sont souvent exposées à de hautes procédures juridiques qui demandent l’envoi de toutes les informations stockées électroniquement (ESI). Microsoft Teams de contenu peut être recherché et utilisé pendant les enquêtes de découverte électronique.
 
 ## <a name="overview"></a>Présentation
 
@@ -39,7 +39,7 @@ Tous les Teams contenu ne sont pas eDiscoverables. Le tableau suivant indique le
 | Type de contenu | eDiscoverable | Remarques |
 |:--- | :--- |:--- |
 |Enregistrements audio | Non | |
-|Contenu de la carte|Oui|Pour [plus d’informations, voir](#search-for-card-content) Rechercher le contenu de la carte.|
+|Contenu de la carte|Oui|Pour [plus d’informations, voir](#search-for-card-content) Rechercher le contenu d’une carte.|
 |Liens de conversation | Oui | |
 |Messages de conversation | Oui |Cela inclut le contenu Teams, les conversations en tête-à-tête, les conversations de groupe 1:N et les conversations avec des participants invités.  |
 |Extraits de code | Non | |
@@ -47,11 +47,11 @@ Tous les Teams contenu ne sont pas eDiscoverables. Le tableau suivant indique le
 |Emojis, GIF et autocollants | Oui | |
 |Images en ligne | Oui | |
 |Conversations de réunion par messagerie instantanée | Oui | |
-|Métadonnées<sup>de réunion 1</sup> | Oui |  |
+|Métadonnées de<sup>réunion 1</sup> | Oui |  |
 |Nom du canal | Non | |
 |Messages de canal privé | Oui | |
 |Devis | Oui | Le contenu cité peut faire l’l’objectif d’une recherche. Toutefois, les résultats de la recherche n’indiquent pas que le contenu a été cité. |
-|Réactions (par exemple, j’aime, cœurs et autres réactions) | Non | |
+|Réactions (par exemple, likes, cœurs et autres réactions) | Non | |
 |Objet | Oui | |
 |Tableaux | Oui | |
 |Notifications de flux | Non | |
@@ -62,7 +62,7 @@ Tous les Teams contenu ne sont pas eDiscoverables. Le tableau suivant indique le
 - Heure de début et de fin et durée de la réunion
 - Participer à une réunion et quitter des événements pour chaque participant
 - VoIP join/calls
-- Rejoindre une équipe anonyme
+- Rejoindre une équipe de façon anonyme
 - Rejoindre un utilisateur fédéré
 - Rejoindre un utilisateur invité
 
@@ -78,7 +78,7 @@ Voici un exemple de conversation par messagerie instantanée entre des participa
 > [!div class="mx-imgBorder"]
 > ![Conversation entre les participants dans les résultats de recherche eDiscovery.](media/MeetingImConversation2.png)
 
-Pour plus d’informations sur la conduite d’une investigation eDiscovery, voir Commencer à travailler avec la découverte [électronique principale.](/microsoft-365/compliance/get-started-core-ediscovery)
+Pour plus d’informations sur la conduite d’une investigation eDiscovery, voir Commencer avec la découverte [électronique principale.](/microsoft-365/compliance/get-started-core-ediscovery)
 
 Microsoft Teams données s’affichent sous la la mesure d’une messagerie instantanée ou de conversations Excel la sortie d’exportation eDiscovery. Vous pouvez ouvrir le `.pst` fichier dans Outlook pour afficher ces messages après les avoir exportés.
 
@@ -100,7 +100,7 @@ Pour identifier les fichiers et messages d’un canal privé à inclure dans vot
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>Inclure des fichiers de canal privé dans une recherche eDiscovery
 
-Avant d’effectuer ces étapes, installez SharePoint Online Management Shell et [connectez-vous à SharePoint Online.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+Avant d’effectuer ces étapes, installez [SharePoint Online Management Shell et connectez-vous à SharePoint Online.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 1. Exécutez l’information suivante pour obtenir la liste de SharePoint collections de sites associées à des canaux privés de l’équipe.
 
@@ -115,13 +115,15 @@ Avant d’effectuer ces étapes, installez SharePoint Online Management Shell et
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. Pour chaque ID d’équipe ou de groupe, exécutez le script PowerShell suivant pour identifier tous les sites de canaux privés pertinents, où $groupID est l’ID de groupe de l’équipe.
+3. Pour chaque équipe ou ID de groupe, exécutez le script PowerShell suivant pour identifier tous les sites de canaux privés pertinents, à savoir l’ID de groupe `$groupID` de l’équipe.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
+> [!NOTE]
+> SharePoint sites pour les canaux privés créés après le 28 juin 2021 utilisent la valeur de `teamchannel#1` l’ID de modèle personnalisé. Par exemple, pour les canaux privés créés après cette date, utilisez la valeur lors de l’exécution des `teamchannel#1` deux scripts précédents.
 
 ### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>Inclure les messages de canal privé dans une recherche eDiscovery
 
@@ -147,9 +149,9 @@ Vous pouvez utiliser les outils eDiscovery pour rechercher du contenu Teams asso
 
 Pour rechercher du contenu pour les utilisateurs invités :
 
-1. Connecter Azure AD PowerShell. Pour obtenir des instructions, consultez la section « Connecter avec la Azure Active Directory PowerShell » dans Connecter [à Microsoft 365 PowerShell.](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) Veillez à effectuer les étapes 1 et 2 de la rubrique précédente.
+1. Connecter à Azure AD PowerShell. Pour obtenir des instructions, consultez la section « Connecter avec la Azure Active Directory PowerShell » dans Connecter [à Microsoft 365 PowerShell.](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) Veillez à effectuer les étapes 1 et 2 de la rubrique précédente.
 
-2. Une fois que vous êtes connecté à Azure AD PowerShell, exécutez la commande suivante pour afficher le nom d’utilisateur principal (UPN) de tous les utilisateurs invités de votre organisation. Vous devez utiliser le nom d’utilisateur utilisateur (UPN) de l’utilisateur invité lorsque vous créez la recherche à l’étape 4.
+2. Une fois connecté à Azure AD PowerShell, exécutez la commande suivante pour afficher le nom d’utilisateur principal (UPN) de tous les utilisateurs invités de votre organisation. Vous devez utiliser le nom d’utilisateur utilisateur (UPN) de l’utilisateur invité lorsque vous créez la recherche à l’étape 4.
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
@@ -200,13 +202,13 @@ Comme les autres Teams, où le contenu de la carte est stocké est basé sur l�
 
 Pour rechercher du contenu de carte, vous pouvez utiliser les `kind:microsoftteams` conditions ou les conditions de `itemclass:IPM.SkypeTeams.Message` recherche. Lorsque vous examinez les résultats de la recherche, le contenu de la carte généré par des bots dans un canal Teams a la propriété de courrier **Expéditeur/Auteur,** comme , où se trouve le nom de l’application qui a généré le contenu de la `<appname>@teams.microsoft.com` `appname` carte. Si le contenu de la carte a été généré par un utilisateur, la valeur **Expéditeur/Auteur** identifie l’utilisateur.
 
-Lorsque vous affichez le contenu d’une carte dans les résultats de la recherche de contenu, celui-ci s’affiche en tant que pièce jointe du message. La pièce jointe est nommée, à l’endroit où se trouve le `appname.html` nom de l’application qui a généré le contenu de la `appname` carte. Les captures d’écran suivantes montrent comment le contenu de la carte (pour une application nommée Asana) apparaît dans Teams résultats d’une recherche.
+Lorsque vous affichez le contenu d’une carte dans les résultats de la recherche de contenu, celui-ci s’affiche en tant que pièce jointe du message. La pièce jointe s’appelle , à l’endroit où se trouve le nom de `appname.html` l’application qui a généré le contenu de la `appname` carte. Les captures d’écran suivantes montrent comment le contenu de la carte (pour une application nommée Asana) apparaît dans Teams résultats d’une recherche.
 
 **Contenu de la carte dans Teams**
 
 ![Contenu de la carte Teams message de canal.](media/CardContentTeams.png)
 
-**Contenu de la carte dans les résultats de la recherche**
+**Contenu de la carte dans les résultats de recherche**
   
 ![Même contenu de carte dans les résultats d’une recherche de contenu.](media/CardContentEdiscoverySearchResults.png)
 
@@ -216,6 +218,6 @@ Lorsque vous affichez le contenu d’une carte dans les résultats de la recherc
 ## <a name="related-topics"></a>Sujets associés
 
 - [Microsoft 365 solutions eDiscovery](/microsoft-365/compliance/ediscovery)
-- [Commencer à travailler avec Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Commencer à travailler avec core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)
 - [Teams flux de travail dans Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)

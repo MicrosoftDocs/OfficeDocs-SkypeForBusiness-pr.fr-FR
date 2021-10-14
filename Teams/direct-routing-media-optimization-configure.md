@@ -16,16 +16,16 @@ f1.keywords:
 description: Configurer l’optimisation des médias locaux pour le routage direct
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e383a9d0435dde2c17a38d8a1879b3bf3fb6e4d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 59524c620525505b9fcc19d909f5b4b84cc60720
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127401"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356432"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Configurer l’optimisation des médias locaux pour le routage direct
 
-La configuration de l’optimisation des médias locaux est basée sur les paramètres réseau courants pour d’autres fonctionnalités vocales cloud, telles que le routage Location-Based et les appels d’urgence dynamiques. Pour en savoir plus sur les régions réseau, les sites réseau, les sous-réseaux et les adresses IP de confiance, voir Paramètres réseau des [fonctionnalités vocales cloud.](cloud-voice-network-settings.md)
+La configuration de l’optimisation des médias locaux est basée sur des paramètres réseau courants avec d’autres fonctionnalités voix cloud, telles que le routage Location-Based et les appels d’urgence dynamiques. Pour en savoir plus sur les régions réseau, les sites réseau, les sous-réseaux et les adresses IP de confiance, consultez Paramètres réseau pour les [fonctionnalités vocales cloud.](cloud-voice-network-settings.md)
 
 Avant de configurer l’optimisation des médias locaux, consultez l’optimisation des médias [locaux pour le routage direct.](direct-routing-media-optimization.md)  
 
@@ -51,10 +51,8 @@ Pour configurer l’utilisateur et les sites SBC, vous devez :
 3. [Définissez la topologie](#define-the-virtual-network-topology) de réseau virtuel en attribuant un ou plusieurs SBC aux sites avec les modes appropriés et les valeurs SBC de proxy.
 
 > [!NOTE]
-> La logique d’optimisation des médias locaux repose sur les adresses des clients configurées comme externes ou internes, par rapport aux réseaux d’entreprise ayant accès à une interface interne de contrôleur de session certifié de routage direct (SBC). L’emplacement du client (interne/externe) est déterminé pendant le traitement de chaque appel, en observant l’adresse utilisée pour atteindre les relais de transport.
-> 
-> Dans les scénarios VPN avec tunnel fractionnel où les relais sont accessibles via le fournisseur de services Internet, la logique de meilleur itinéraire du client préfère l’itinéraire par défaut de l’interface locale (par exemple, WiFi public). Microsoft signale au SBC que le client est externe, même s’il peut accéder à l’interface interne du SBC de routage direct du client. Les clients de routage direct à l’aide de l’optimisation des médias locaux peuvent connaître des heures de configuration d’appel et, dans certains cas, aucun son lors de la réception d’appels du réseau PSTN.
-> 
+> L’optimisation des médias locaux s’appuie sur la détection d’emplacements clients comme étant des emplacements externes ou internes par rapport aux réseaux de l’entreprise, avec accès à une interface interne de contrôleur de session de routage direct (SBC).
+> Dans les scénarios VPN avec tunnel fractionnel lorsque le point de terminaison du client est détecté comme externe au réseau du client, Microsoft signale l’emplacement externe au SBC, même si le client peut accéder à l’interface interne du SBC de routage direct du client. Le routage direct des clients à l’aide de l’optimisation des médias locaux peut connaître des heures de configuration d’appel et, dans certains cas, aucun son lors de la réception d’appels du réseau PSTN.
 > Pour éviter cela, les administrateurs VPN doivent bloquer l’accès entre les utilisateurs VPN distants et l’interface interne SBC de routage direct.
 
 
@@ -150,7 +148,7 @@ Remarques :
    - Si le paramètre SBC n’a pas de paramètre -BypassMode, les en-têtes X-MS ne seront pas envoyés. 
    - Tous les paramètres respectent la cas. Vous devez donc vous assurer d’utiliser le même cas que lors de l’installation.  (Par exemple, les valeurs GatewaySiteID « Vietnam » et « vietnam » seront traitées comme des sites différents.)
 
-L’exemple suivant ajoute trois SBE aux sites réseau du Vietnam, de l’Indonésie et de Singapour dans la région APAC avec le mode Toujours ignorer :
+L’exemple suivant ajoute trois SBE aux sites réseau vietnam, Indonésie et Singapour dans la région APAC avec le mode Toujours contourner :
 
 ```powershell
 Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
@@ -161,7 +159,7 @@ Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indo
 ```
 
 > [!NOTE]
-> Pour garantir la interruption des opérations lorsque l’optimisation des médias locaux et le routage Location-Based sont configurés en même temps, les SLB en aval doivent être activés pour LBR en configurant le paramètre GatewaySiteLbrEnabled sur $true pour chaque SBC en aval. (Ce paramètre n’est pas obligatoire pour le serveur SBC proxy.)
+> Pour garantir la interruption des opérations lorsque l’optimisation des médias locaux et le routage Location-Based sont configurés en même temps, les SLB en aval doivent être activés pour LBR en configurant le paramètre GatewaySiteLbrEnabled sur $true pour chaque SBC en aval. (Ce paramètre n’est pas obligatoire pour le SBC proxy.)
 
 D’après les informations ci-dessus, le routage direct inclura trois en-têtes SIP propriétaires pour les invitations et les invitations siP, comme indiqué dans le tableau suivant.
 
@@ -215,7 +213,7 @@ Le tableau suivant indique la configuration et l’action de l’utilisateur fin
 | Vietnam | +84 4 3926 3000 | +84 4 5555 5555   | Priorité 1 : ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Priorité 2 : .* - proxysbc.contoso.com   | VNsbc.contoso.com – Toujours contourner <br> proxysbc.contoso.com – Toujours contourner
 
 
-Le diagramme suivant montre l’évolution SIP d’un appel sortant avec le mode de contournement Toujours et l’utilisateur situé au même emplacement que le SBC.
+Le diagramme suivant montre l’évolution SIP d’un appel sortant avec le mode de dérivation toujours et l’utilisateur situé au même emplacement que le SBC.
 
 > [!div class="mx-imgBorder"]
 > ![Diagramme montrant les appels sortants.](media/direct-routing-media-op-10.png "Appels sortants")
@@ -226,7 +224,7 @@ Le tableau suivant indique les en-têtes X-MS envoyés par routage direct :
 |:------------|:-------|
 | Inviter+8443926300@VNsbc.contoso.com | Le nom de sécurité (FQDN) cible du SBC défini dans la stratégie de routage voix en ligne est envoyé dans l’URI de demande | 
 | X-MS-UserLocation : interne | Le champ indique que l’utilisateur se trouve dans le réseau d’entreprise |
-| X-MS-MediaPath : VNsbc.contoso.com |   Indique quel SBC le client doit traverser jusqu’au SBC cible. Dans ce cas, comme nous avons Toujours contourné, et le client est interne au nom de la cible envoyé comme seul nom dans l’en-tête. | 
+| X-MS-MediaPath : VNsbc.contoso.com |   Indique quel SBC le client doit traverser jusqu’au SBC cible. Dans ce cas, comme nous avons Toujours contournement, et le client est interne au nom de la cible envoyé en tant que seul nom dans l’en-tête. | 
 |X-MS-UserSite : Vietnam |   Champ indiqué sur le site où se trouve l’utilisateur. |
 
 
@@ -252,7 +250,7 @@ Le diagramme suivant montre l’évolution SIP d’un appel entrant avec le mode
 
 | Mode |    Utilisateur |  Site |  Direction de l’appel
 |:------------|:-------|:-------|:-------|
-AlwaysBypass |  Externe |  N/A | Sortant |
+AlwaysBypass |  Externe |  S/O | Sortant |
 
 
 Le diagramme suivant illustre l’évolution SIP d’un appel sortant avec le mode AlwaysBypass et l’utilisateur est externe :
@@ -264,7 +262,7 @@ Le tableau suivant indique les en-têtes X-MS envoyés par le service de routage
 
 | Paramètre |   Explication |
 |:------------|:-------|
-|Inviter+8443926300@VNsbc.contoso.com | Le nom de fQDN cible du SBC défini dans la stratégie de routage voix en ligne est envoyé dans l’URI de demande.|
+|Inviter+8443926300@VNsbc.contoso.com | Le nom de sécurité (FQDN) cible du SBC tel que défini dans la stratégie de routage voix en ligne est envoyé dans l’URI de demande.|
 | X-MS-UserLocation : externe | Le champ indique que l’utilisateur se trouve en dehors du réseau d’entreprise. |
 | X-MS-MediaPath : proxysbc.contoso.com, VNsbc.contoso.com    | Indique quel SBC le client doit traverser jusqu’au SBC cible. Dans ce cas, nous avons Toujours contourné et le client est externe. |
 
@@ -274,9 +272,9 @@ Le tableau suivant indique les en-têtes X-MS envoyés par le service de routage
 |:------------|:-------|:-------|:-------|
 AlwaysBypass |  Externe |  N/A |   Entrant |
 
-Pour un appel entrant, le SBC connecté au routage direct doit envoyer une nouvelle invitation (par défaut, les candidats aux médias locaux sont toujours proposés) si l’emplacement de l’utilisateur est externe.  Le X-MediaPath est calculé sur la base des Record-Route et de l’utilisateur SBC spécifié.
+Pour un appel entrant, le SBC connecté au routage direct doit envoyer une nouvelle invitation (par défaut, les supports multimédias locaux sont toujours proposés) si l’emplacement de l’utilisateur est externe.  Le X-MediaPath est calculé sur la base des Record-Route et de l’utilisateur SBC spécifié.
 
-Le diagramme suivant illustre l’évolution SIP d’un appel entrant avec le mode AlwaysBypass et l’utilisateur est externe.
+Le diagramme suivant montre l’évolution SIP d’un appel entrant avec le mode AlwaysBypass et l’utilisateur est externe.
 
 > [!div class="mx-imgBorder"]
 > ![Diagramme montrant de nouveau l’évolution de SIP.](media/direct-routing-media-op-13.png)
@@ -317,7 +315,7 @@ Le diagramme suivant illustre un appel sortant avec le mode OnlyForLocalUsers et
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |   Interne | Identique à SBC | Entrant |
 
-Le diagramme suivant montre un appel entrant en mode OnlyForLocalUsers, et l’utilisateur se trouve au même emplacement que le SBC. Il s’agit du même flux que celui affiché dans les appels entrants lorsque l’utilisateur se trouve au même emplacement [que le SBC.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
+Le diagramme suivant illustre un appel entrant avec le mode OnlyForLocalUsers et l’utilisateur se trouve au même emplacement que le SBC. Il s’agit du même flux que celui affiché dans les appels entrants lorsque l’utilisateur se trouve au même emplacement [que le SBC.](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
 
 > [!div class="mx-imgBorder"]
 > ![Autre diagramme montrant l’évolution de SIP.](media/direct-routing-media-op-15.png)
