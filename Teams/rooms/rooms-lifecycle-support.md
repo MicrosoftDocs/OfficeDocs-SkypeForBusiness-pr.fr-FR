@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Découvrez la prise en charge du cycle de Salles Microsoft Teams, notamment la structure de support dynamique et ses phases.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e7a82d7643a925d5c997c9d6fe5661a421d47ab
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 937c6b43ebdc7c775251f0a7fc576cc11e666a7f
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356422"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367496"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Salles Microsoft Teams prise en charge de la version de l’application
  
@@ -30,7 +30,7 @@ La structure de prise en charge salles Teams est dynamique et dépend de la disp
 Toutes les publication sont répertoriées dans les notes [Salles Microsoft Teams publication.](rooms-release-note.md)
 
 > [!IMPORTANT]
-> Lors de l’installation d’un nouvel appareil avec une version antérieure de l’application de salle Teams, il est recommandé de mettre à jour [l’application](manual-update.md) manuellement après la configuration du compte, avant de télécharger les mises à jour Windows automatiques. Cela garantit la mise à jour et la version du système d’exploitation en correbt sur votre appareil.  
+> Lors de l’installation d’un nouvel appareil avec une version antérieure de l’application de salle Teams, il est recommandé de mettre à jour [l’application](manual-update.md) manuellement après la configuration du compte, avant de télécharger les mises à jour Windows automatiques. Cela garantit la version correcte du système d’exploitation et Windows mises à jour sont installées sur votre appareil.  
 
 ## <a name="windows-10-release-support"></a>Windows 10 prise en charge de la publication
 
