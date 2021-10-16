@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432436"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356448"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette option, les options **Recherche** et **CC** ne sont pas disponibles pendant la lecture d’un enregistrement de réunion. La personne qui a démarré l’enregistrement a besoin de ce paramètre activé de sorte que l’enregistrement inclut également la transcription.
 
 > [!NOTE]
-> Cette transcription pour les réunions enregistrées est pour l’instant prise en charge uniquement pour les utilisateurs dont la langue est définie sur anglais dans Teams et lorsque l’anglais est parlé pendant la réunion. Ils sont stockés avec les enregistrements de réunion dans OneDrive Entreprise et le stockage cloud SharePoint Online.
+> Cette transcription de réunions enregistrées est prise en charge uniquement pour l’anglais (États-Unis), l’anglais (Canada), l’anglais (Inde), l’anglais (Australie), l’anglais (Nouvelle-Zélande), l’allemand (Allemagne), le portugais (Brésil), le néerlandais (Pays-Bas), le néerlandais (Belgique), le français (France), l’espagnol (Espagne), le japonais (Japon), le français (Canada), le chinois (cantonais, traditionnel), chinois (Mandarin, Simplifié), hindi (Inde), italien (Italie), coréen (Corée), espagnol (Mexique), suédois (Suède), Polonais (Pologne), arabe (Émirats arabes unis), arabe (Arabie saoudite), danois (Danemark), finnois (Finlande), norvégien (Norvège) et russe (Russie). Ils sont stockés avec les enregistrements de réunion dans OneDrive Entreprise et le stockage cloud SharePoint Online.
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si l’initiateur d’enregistrement peut transcrire le choix de transcrire l’enregistrement de la réunion.
 
@@ -309,7 +309,7 @@ Oui, la date d’expiration est définie par fichier. Les utilisateurs peuvent m
 
 **Comment un administrateur peut-il modifier la date d’expiration ?**
   
-Les administrateurs pourront modifier le paramètre d’expiration par défaut dans PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) ou le Centre d’administration Teams avant la publication de la fonctionnalité. **Le paramètre n’est pas encore disponible pour la modification**. Nous publierons une publication mise à jour du centre de messages lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
+Les administrateurs pourront modifier le paramètre d’expiration par défaut dans PowerShell ou le Centre Teams d’administration des utilisateurs avant la publication de la fonctionnalité. **Le paramètre n’est pas encore disponible pour la modification**. Nous publierons une publication mise à jour du centre de messages lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
 
 Les valeurs de jours d’expiration peuvent être définies comme suit :
   
@@ -411,7 +411,7 @@ Les sous-titres pour le fichier vidéo de l’enregistrement sont aujourd’hui 
 Les modifications futures apportées au lien entre la transcription dans Teams et l’enregistrement seront précisées ici et dans les notifications du centre de messages. Si nous apportons des modifications à l’avenir, nous nous assurerons que les fichiers d’enregistrement datant de moins de 60 jours affichent la transcription de la réunion sous forme de sous-titre.
 
 > [!NOTE]
-> Il y aura des sous-titres en anglais uniquement (la transcription de réunion n’est pas encore disponible dans GCC).
+> La transcription de réunion n’est pas encore disponible dans le Cloud de la communauté du secteur public.
 
 ## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>eDiscovery et conformité pour les enregistrements de réunion
 
