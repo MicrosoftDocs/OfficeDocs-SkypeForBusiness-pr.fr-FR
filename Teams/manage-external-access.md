@@ -21,12 +21,12 @@ description: Vos équipes ou votre administrateur informatique peuvent configure
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0fac6c236fba7b8cc17af2bc4c21211a5160d06e
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127371"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462328"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
@@ -163,6 +163,20 @@ Pour activer la fédération entre les utilisateurs de votre organisation et les
 
 > [!IMPORTANT]
 > Vous n'avez pas besoin d'ajouter de **domaines Skype** en tant que domaines autorisés pour permettre aux utilisateurs Teams ou Skype Entreprise Online de communiquer avec les utilisateurs Skype à l'intérieur ou à l'extérieur de votre organisation. Tous les **domaines Skype** sont autorisés.
+
+## <a name="federation-diagnostic-tool"></a>Outil de diagnostic de fédération
+
+Si vous êtes administrateur, vous pouvez utiliser l'outil de diagnostic suivant pour valider qu'un utilisateur Teams peut communiquer avec un utilisateur Teams fédéré :
+
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365. 
+
+   > [!div class="nextstepaction"]
+   > [Exécuter des tests : fédération d'équipes](https://aka.ms/TeamsFederationDiag)
+
+2. Dans le volet Exécuter le diagnostic, saisissez **l'adresse SIP (Session Initiation Protocol)** et le **nom de domaine du locataire fédéré**, puis sélectionnez **Exécuter les tests**.
+
+3. Les tests renverront les meilleures prochaines étapes pour traiter les configurations de locataire ou de stratégie qui empêchent la communication avec l'utilisateur fédéré.
+
 
 ## <a name="related-topics"></a>Sujets associés
 

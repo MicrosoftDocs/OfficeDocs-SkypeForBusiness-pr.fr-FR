@@ -17,26 +17,39 @@ f1.keywords:
 - NOCSH
 description: Découvrez comment surveiller et résoudre les problèmes de configuration du routage direct, notamment les contrôleurs de bordure de session, les composants de routage direct et les ligne de télécommunications.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 97bc8afb3645fca4e06b859b765dfbf1e3fe1859
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726883"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462318"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Contrôler et dépanner le routage direct
 
-Cet article explique comment surveiller et dépanner votre configuration de routage direct. 
+Cet article explique comment surveiller et dépanner votre configuration du routage direct. 
 
 La possibilité d’effectuer et de recevoir des appels à l’aide du routage direct implique les composants suivants : 
 
-- Contrôleurs de session en bordure 
+- Contrôleurs de session en bordure (SBCs) 
 - Composants de routage direct dans Microsoft Cloud 
 - Telecom trunks 
 
 Si vous avez des difficultés à résoudre des problèmes, vous pouvez ouvrir un cas de support auprès de votre fournisseur SBC ou de Microsoft. 
 
 Microsoft travaille à la fourniture d’autres outils pour la résolution des problèmes et la surveillance. Consultez régulièrement la documentation pour les mises à jour. 
+
+## <a name="direct-routing-diagnostic-tool"></a>Outil de diagnostic de routage direct
+
+Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suivant pour vérifier qu’un utilisateur est correctement configuré pour le routage direct :
+
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplit l’outil de diagnostic dans Administration Microsoft 365 de diagnostic. 
+
+   > [!div class="nextstepaction"]
+   > [Exécuter des tests : routage direct](https://aka.ms/TeamsDirectRoutingDiag)
+
+2. Dans le volet Exécuter l’outil de diagnostic, entrez  l’adresse e-mail de l’utilisateur que vous voulez tester dans le champ Nom d’utilisateur ou Courrier électronique, puis sélectionnez **Exécuter les tests.**
+
+3. Les tests permettent de renvoyer les meilleures étapes suivantes pour prendre en compte les configurations de stratégie, d’utilisateur ou de client afin de vérifier que l’utilisateur est correctement configuré pour le routage direct dans Microsoft Teams.
 
 ## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Surveillance de la disponibilité des contrôleurs de session en bordure à l’aide des messages d’options SIP (Session Initiation Protocol)
 
@@ -60,7 +73,7 @@ Lorsqu’un appel est effectué, la logique suivante s’applique :
 
 Le routage direct prend les options d’intervalle régulier trois fois (l’intervalle régulier est d’une minute). Si des options ont été envoyés au cours des trois dernières minutes, le SBC est considéré comme étant sain.
 
-Si la donnée SBC de l’exemple a été envoyée à n’importe quel moment entre 11:12 et 11:15 (heure à l’heure de l’appel), elle est considérée comme saine. Si ce n’est pas le cas, le SBC est rétrogradé de l’itinéraire. 
+Si le SBC de l’exemple a été envoyé à des options à n’importe quel moment entre 11:12 et 11:15 (heure à l’heure de l’appel), il est considéré comme étant sain. Si ce n’est pas le cas, le SBC est rétrogradé de l’itinéraire. 
 
 Demotion signifie que le SBC ne sera pas tenté en premier. Par exemple, nous avons des sbc1.contoso.com et sbc2.contoso.com priorité égale.  
 
@@ -83,6 +96,6 @@ Le tableau de bord de qualité des appels fournit des informations sur la qualit
 
 En cas d’échec d’appel, l’analyse des appels fournit des codes SIP standard pour vous aider à résoudre les problèmes. 
 
-![Exemple de code SIP pour l’échec de l’appel.](media/failed-response-code.png)
+![Exemple de code SIP pour l’échec d’appel.](media/failed-response-code.png)
 
-Toutefois, l’analyse des appels ne peut être utile que lorsque les appels atteignent les composants internes du routage direct et échouent. En cas de problèmes de jumelage SBC ou de problèmes de rejet de l’invitation siP (par exemple, le nom de la ligne de nom de domaine complet n’est pas configuré de façon configurée), l’analyse des appels n’est pas utile. Dans ce cas, consultez les journaux SBC. Le routage direct envoie une description détaillée des problèmes aux SCS. ces problèmes peuvent être lus à partir des journaux SBC.
+Toutefois, l’analyse des appels ne peut être utile que lorsque les appels atteignent les composants internes du routage direct et échouent. En cas de problèmes de jumelage SBC ou de problèmes de rejet de l’invitation siP (par exemple, le nom de la ligne de nom de domaine complet est mal configuré), l’analyse des appels n’est pas utile. Dans ce cas, consultez les journaux SBC. Le routage direct envoie une description détaillée des problèmes aux SCS. ces problèmes peuvent être lus à partir des journaux SBC.

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez comment développer et exécuter la maintenance et les opérations continues pour vous assurer que vos systèmes Salles Microsoft Teams sont disponibles pour vos utilisateurs.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984669"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462308"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Gérer les Salles Microsoft Teams
 
@@ -62,7 +62,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *Compte*                                                    |                                                        |                    |
 | **Email**                                                    | Adresse e-mail                                          | Non                 |
-| **Mode réunion pris en charge**                                   | Skype Entreprise (par défaut) et Microsoft Teams<br>Skype Entreprise et Microsoft Teams (par défaut)<br>Skype Entreprise Uniquement|Oui|
+| **Mode réunion pris en charge**                                   | Skype Entreprise (par défaut) et Microsoft Teams<br>Skype Entreprise et Microsoft Teams défaut<br>Skype Entreprise Uniquement|Oui|
 | **Authentification moderne**                                    | Activé<br>Désactivé                                              | Oui                |
 | **Exchange de l’adresse de l’équipe**                                         | Adresse e-mail                                          | Non                 |
 | **Domaine \nom d’utilisateur (facultatif)**                               | Nom d’utilisateur et domaine du compte                           | Non                 |
@@ -70,7 +70,7 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 | *Réunions*                                                   |                                                        |                    |
 | **Partage d’écran automatique**                                 | Activé<br>Désactivé                                              | Oui                |
 | **Afficher les noms des réunions**                                       | Activé<br>Désactivé                                              | Oui                |
-| **Quitter automatiquement la réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
+| **Quitter automatiquement une réunion si tous les autres personnes ont quitté la réunion**                 | Activé<br>Désactivé                                              | Oui                |
 | *Device*                                                     |                                                        |                    |
 | **Mode à deux moniteurs**                                        | Activé<br>Désactivé                                              | Oui                |
 | **Bluetooth balises**                                      | Activé<br>Désactivé                                              | Oui                |
@@ -86,8 +86,30 @@ Si vous sélectionnez plusieurs appareils, les paramètres qui supportent la mod
 | **Caméra de contenu**                                           | Liste des caméras disponibles                              | Non                 |
 | **Améliorations apportées aux caméras de contenu**                              | Activé<br>Désactivé                                              | Non                 |
 | **Faire pivoter la caméra de contenu de 180 degrés**                        | Activé<br>Désactivé                                              | Non                 |
-| *Theming*                                                    |                                                        |                    |
+| *Avec le theming*                                                    |                                                        |                    |
 |                                                              | Par défaut<br>Aucun thème<br>Personnalisé<br>Liste des thèmes intégrés   | Oui                |
+
+## <a name="cortana-settings"></a>Cortana de configuration 
+Vous pouvez activer Cortana _activation_ vocale ou _Push_ pour parler à l’aide de PowerShell pour tous les appareils de votre organisation, ou pour chaque appareil séparément. 
+-   Au niveau de l’organisation et du groupe, vous devez utiliser PowerShell.
+-   Au niveau de l’appareil, plusieurs options s’offrent à vous. Vous pouvez utiliser PowerShell, modifier le fichier de configuration XML ou modifier les paramètres dans Teams d’administration. 
+
+Pour en savoir plus sur l’utilisation de PowerShell pour configurer des Cortana, voir Contrôle de l’administrateur et limitations pour les Cortana [dans Teams.](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
+
+Pour en savoir plus sur la configuration de votre appareil à l’aide du fichier de configuration XML, voir Gérer un Salles Microsoft Teams de console à distance avec un [fichier de configuration XML.](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)
+
+Au niveau de l’appareil, vous pouvez configurer Cortana à activer pour :
+- _Appuyer pour parler à l’aide_ de PowerShell  
+  - Comment l’activer : Cortana _Push to talk_ est activé par défaut pour tous les appareils qui sont configurer avec des paramètres régionaux, quelle que soit la région géographique
+  - Comment le désactiver : utiliser PowerShell. 
+- _Activation vocale à l’aide_ d’un fichier de configuration XML ou Teams centre d’administration.
+  - Comment l’activer : définir dans le fichier de configuration XML ou utiliser le paramètre correspondant dans Teams `<CortanaWakeWord>true</>` d’administration
+  - Comment le désactiver : l’activation Cortana voix est désactivation par défaut 
+  
+  Gardez à l’esprit que trois conditions doivent être remplies pour que Cortana _activation vocale_ sur votre appareil :
+    1. Votre organisation doit avoir Cortana activée
+    2. Votre appareil doit être avec l’un des paramètres régionaux suivants : en-au, en-ca, en-gb, en-in, en-us
+    3. Vous devez avoir un Cortana certifié connecté à votre salle Teams [En savoir plus](/microsoftteams/cortana-in-teams)   
 
 ### <a name="device-restart-options"></a>Options de redémarrage de l’appareil
 
@@ -96,7 +118,7 @@ Les modifications apportées aux paramètres de l’appareil ne prennent effet q
 - **Redémarrage immédiat** Si vous choisissez cette option, tous les appareils que vous modifiez redémarreront dès que vous sélectionnerez cette option.
 - **Redémarrage prévu** Si vous choisissez cette option, vous pouvez redémarrer les appareils que vous modifiez à un moment moins perturbateur pour votre organisation.
   - **Sélectionnez la date et l’heure** : choisissez la date et l’heure spécifiques pour redémarrer l’appareil. La date et l’heure choisies sont locales pour l’appareil en cours de redémarrage. 
-  - **Quitter la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
+  - **Laisser la mise à jour pour le redémarrage nocturne** Les appareils sont redémarrés chaque nuit pour effectuer une maintenance. Les modifications que vous a apportées aux appareils seront appliquées pendant ce redémarrage.
 
 > [!CAUTION]
 > Les appareils en cours d’utilisation au moment du redémarrage deviennent indisponibles pendant toute la durée du processus de redémarrage. Ils seront déconnectés des réunions en cours et ne pourront pas participer à de nouvelles réunions.
@@ -124,7 +146,7 @@ Pour télécharger les journaux d salles Teams appareil sur votre ordinateur, vo
 
 ## <a name="view-device-information"></a>Afficher les informations sur l’appareil
 
-À partir Teams centre d’administration, vous pouvez consulter l’état global de tous les appareils de votre organisation et afficher les détails de chaque appareil individuellement.
+À partir Teams centre d’administration, vous pouvez afficher l’état global de tous les appareils de votre organisation et afficher les détails de chaque appareil individuellement.
 
 ### <a name="teams-rooms-system-dashboard"></a>salles Teams tableau de bord système
 
@@ -161,4 +183,4 @@ La page de résumé des participants affiche tous les participants qui ont parti
 
 La page des détails du participant affiche des informations de diagnostic de bout en bout pour la session de ce participant. Comme illustré dans le graphique **suivant,** les informations sur l’appareil, le système et la connectivité sont fournies pour le participant et pour salles Teams appareil.  **Les informations** de diagnostic réseau entre le participant et salles Teams appareil sont également fournies. Sélectionnez l’icône du contexte pour lequel vous souhaitez plus d’informations. Pour plus d’informations de diagnostic, sélectionnez **l’onglet** Avancé.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Détails des appels sur l’appareil de salle.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Détails d’appel de l’appareil de salle.":::

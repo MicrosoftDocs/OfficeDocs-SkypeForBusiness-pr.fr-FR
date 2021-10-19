@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Découvrez comment configurer des files d’attente d’appels pour les grandes organisations dans Microsoft Teams, qui fournit un message de salutation, des attentes musicales, la redirection d’appels et d’autres fonctionnalités.
-ms.openlocfilehash: 073f1fa2fbc96ed78cddb6e16201476df2cafa96
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275608"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462350"
 ---
 # <a name="create-a-call-queue"></a>Créer une file d’attente des appels
 
@@ -74,11 +74,11 @@ Pour [plus d’Teams, voir Gérer Teams comptes](manage-resource-accounts.md) de
 
 ![Capture d’écran des paramètres d’ID d’appel.](media/call-queue-assign-calling-id.png)
 
-Si vous envisagez d’utiliser un canal Teams pour vos télétribueurs, vous pouvez leur attribuer un numéro d’ID d’appelant sortant en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone.
+Si vous envisagez d’utiliser un canal Teams pour vos téléphonés, vous pouvez leur attribuer un numéro d’ID d’appelant sortant en spécifiant un ou plusieurs comptes de ressources avec un numéro de téléphone.
 
 Cliquez **sur** Ajouter, recherchez les comptes de ressources que vous voulez autoriser les agents à appeler à des fins d’ID lors des appels sortants, cliquez sur **Ajouter,** puis sur **Ajouter.**
 
-Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance de l’agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
+Si vous n’utilisez pas de canal Teams pour contrôler l’appartenance à un agent, vous pouvez définir directement l’ID d’appelant pour les membres de la file d’attente d’appels sur le numéro de service de la file d’attente d’appels ou le personnel automatique approprié. Consultez l’article [Gérer les stratégies d’identification de l’appelant dans Microsoft Teams](caller-id-policies.md) pour en savoir plus.
 
 ## <a name="language"></a>Langue
 
@@ -95,7 +95,7 @@ Indiquez si vous souhaitez diffuser un message d’accueil aux appelants lorsqu�
 Teams fournit une musique par défaut aux appelants lorsqu’ils sont en attente dans une file d’attente. La musique par défaut fournie dans les files d’attente des appels Teams est exempte de toute redevance payable par votre organisation. Si vous souhaitez diffuser un fichier audio spécifique, choisissez **Lire un fichier audio** et téléchargez un fichier MP3, WAV ou WMA.
 
 > [!NOTE]
-> Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations d’utilisation de la musique ou du fichier audio avec votre service Microsoft Teams, qui peuvent inclure des droits de propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques de musique, les noms et autres contenus du fichier audio de tous les titulaires des droits concernés, notamment des artistes,  des acteurs, des acteurs, des professionnels, des fêtes, des composers, des étiquettes d’enregistrement, des éditeurs de musique, des fêtes, des fêtes, des organisations de gestion collectives et toute autre partie qui possède, contrôle ou licence les droits d’auteur, les effets sonores, les droits audio et autres droits de propriété intellectuelle.
+> Vous êtes responsable de la suppression et de la sécurisation indépendantes de tous les droits et autorisations d’utilisation de la musique ou du fichier audio avec votre service Microsoft Teams, qui peuvent inclure des droits de propriété intellectuelle et d’autres droits sur la musique, les effets sonores, l’audio, les marques de musique, les noms et autres contenus du fichier audio de tous les titulaires des droits concernés, notamment des artistes,  des acteurs, des acteurs, des professionnels, des fêtes, des composers, des étiquettes d’enregistrement, des éditeurs de musique, des éditeurs de musique, des fêtes, des droits d’auteur, des organisations de gestion collectives et toute autre partie qui possède, contrôle ou licence les droits d’auteur, les effets sonores, les droits audio et autres droits de propriété intellectuelle.
 
 ## <a name="call-agents"></a>Agents d’appel
 
@@ -145,7 +145,7 @@ Les comptes Teams des agents doivent être définis sur le mode Teams uniquement
 > Le mode conférence n’est pas pris en charge si les appels téléphoniques sont acheminés vers la file d’attente à partir d’une passerelle de routage direct activée pour le routage en fonction de l’emplacement.
 
 > [!TIP]
-> Nous **vous recommandons** de définir le mode Conférence sur **Sur.**
+> Nous **vous recommandons** de définir le mode Conférence sur **On.**
 
 La **méthode de routage** détermine l’ordre dans lequel les agents reçoivent les appels de la file d’attente. Sélectionnez l’une des options suivantes :
 
@@ -163,7 +163,7 @@ La **méthode de routage** détermine l’ordre dans lequel les agents reçoiven
 > [!NOTE]
 > Si [l’enregistrement de](teams-recording-policy.md) conformité est activé sur les agents, la combinaison du **mode** conférence et du **routage d’Attendant** n’est pas prise en charge. Si vous avez besoin d’utiliser **le mode** Conférence, sélectionnez **Routage** en **série,** Relecteur arrondi ou Inactif le plus **long** comme méthode **de routage.** Si vous devez utiliser le **routage d’Attendant,** définissez **le mode** Conférence sur **Off**.
 > 
-> Lorsque  vous utilisez l’inactivité la plus longue, il peut se parfois qu’un agent reçoit un appel de la file d’attente peu de temps après être indisponible ou si la réception d’un appel de la file d’attente prend un peu de temps après être devenue disponible.
+> Lors  de l’utilisation de la durée la plus longue d’inactivité, il peut être possible qu’un agent reçoie un appel de la file d’attente peu de temps après être indisponible ou si la réception d’un appel de la file d’attente prend un peu de temps après être devenue disponible.
 
 ![Capture d’écran des paramètres de routage, de désinspondage et d’heure d’alerte.](media/call-queue-presence-agents-time.png)
 
@@ -174,7 +174,7 @@ Vous pouvez activer le routage des appels basé sur la présence avec toutes les
 Si un agent refuse de recevoir des appels, il ne sera pas inclus dans la liste de routage des appels, quel que soit son statut de disponibilité. 
 
 > [!NOTE]
-> Lorsque  l’inactivité la plus longue est sélectionnée comme méthode de routage, un routage basé sur la  présence est nécessaire et activé automatiquement, même si le basculement de routage en fonction de la présence est éteint et grisé.
+> Lorsque  l’inactive la plus longue est sélectionnée comme méthode de routage, un routage basé sur la  présence est nécessaire et activé automatiquement, même si le basculement de routage en fonction de la présence est éteint et grisé.
 >
 > Si le routage basé sur la présence n’est pas activé et qu’il y a plusieurs appels dans la file d’attente, le système présentera ces appels simultanément aux agents, quel que soit leur statut de présence. Cela entraînera plusieurs notifications d’appels aux agents, en particulier si certains agents ne répondent pas à l’appel initial qui leur est présenté.
 > 
@@ -250,7 +250,20 @@ Vous pouvez également utiliser Windows PowerShell pour créer et configurer des
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="call-queue-diagnostic-tool"></a>Outil de diagnostic de files d’attente d’appels
+
+Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suivant pour vérifier qu’une file d’attente d’appels peut recevoir des appels :
+
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplit l’outil de diagnostic dans Administration Microsoft 365 de l’outil de diagnostic. 
+
+   > [!div class="nextstepaction"]
+   > [Exécuter des tests : gérer Teams file d’attente d’appels](https://aka.ms/TeamsCallQueueDiag)
+
+2. Dans le volet Exécuter un diagnostic,  entrez le compte de ressource dans le champ Nom d’utilisateur ou Courrier électronique, puis sélectionnez **Exécuter les tests.**
+
+3. Les tests permettent de renvoyer les meilleures étapes suivantes pour s’adresser aux configurations de compte de client, de stratégie et de ressource afin de vérifier que la file d’attente d’appels peut recevoir des appels.
+
+## <a name="related-topics"></a>Sujets associés
 
 [Voici ce que vous obtenez avec Microsoft Teams Téléphone](here-s-what-you-get-with-phone-system.md)
 

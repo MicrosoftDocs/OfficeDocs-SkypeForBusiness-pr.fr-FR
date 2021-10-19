@@ -1,7 +1,7 @@
 ---
-title: Gérer les stratégies d’appel d’urgence Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: Gérer les stratégies d’appels d’urgence Microsoft Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -20,16 +20,20 @@ description: Découvrez comment utiliser et gérer les stratégies d’appel d�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: c05318f34f7c52570a061aa66644cde4b8ac020c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4b44cf8ae822a3ab390e4247396ff326eb39501
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632088"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465984"
 ---
-# <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gérer les stratégies d’appel d’urgence Microsoft Teams
+# <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gérer les stratégies d’appels d’urgence Microsoft Teams
 
-Si votre [](set-up-calling-plans.md) organisation utilise des plans d’appel ou un routage direct [Système téléphonique,](direct-routing-landing-page.md)vous pouvez utiliser des stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams dans votre organisation effectue un appel d’urgence. Vous pouvez définir les personnes à informer et la manière dont ils sont avertis lorsqu’un utilisateur affecté à la stratégie appelle les services d’urgence. Par exemple, vous pouvez configurer les paramètres de stratégie pour avertir automatiquement le service de sécurité de votre organisation et lui faire écouter les appels d’urgence.  
+**Si votre organisation utilise les plans d’appel Microsoft, l’opérateur Connecter ou le routage direct comme [option](pstn-connectivity.md)de connectivité RSTN, vous pouvez utiliser les stratégies d’appel d’urgence dans Microsoft Teams pour définir ce qui se passe lorsqu’un utilisateur Teams dans votre organisation effectue un appel d’urgence.**
+
+**TOUTES LES CHOSES SUIVANTES S’APPLIQUENT AUX 3 ?**
+
+Vous pouvez définir les personnes à informer et la manière dont ils sont avertis lorsqu’un utilisateur affecté à la stratégie appelle les services d’urgence. Par exemple, vous pouvez configurer les paramètres de stratégie pour avertir automatiquement le service de sécurité de votre organisation et lui faire écouter les appels d’urgence.  
 
 Pour gérer les stratégies d’appel d’urgence, vous devez vous rendre dans le Centre d’administration Microsoft Teams d’urgence ou à l’aide de  >   Windows PowerShell. Les stratégies peuvent être affectées à des utilisateurs et [à des sites réseau.](cloud-voice-network-settings.md)
 
@@ -74,7 +78,7 @@ Voir [Set-CsTeamsEmergencyCallingPolicy.](/powershell/module/skype/set-csteamsem
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-Voir également [Grant-CsTeamsEmergencyCallingPolicy.](/powershell/module/skype/grant-csteamsemergencycallingpolicy)
+Voir aussi [Grant-CsTeamsEmergencyCallingPolicy.](/powershell/module/skype/grant-csteamsemergencycallingpolicy)
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>Affecter une stratégie personnalisée d’appel d’urgence à un site réseau
 
@@ -86,7 +90,7 @@ L’exemple suivant montre comment affecter une stratégie appelée Stratégie d
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Gérer les stratégies de routage d’appel d’urgence Teams](manage-emergency-call-routing-policies.md)
 

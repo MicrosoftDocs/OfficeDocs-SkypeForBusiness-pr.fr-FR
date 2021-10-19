@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Découvrez comment envoyer à vos utilisateurs un courrier électronique avec leurs informations d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: e9954f85d9f5676635dc8d4616c08d0e0d3ac6be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057c9a91e1eab20ab7f9ece6c427b6c39ef762b9
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617170"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462378"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Mode partage de lignes dans Microsoft Teams
 
@@ -48,7 +48,7 @@ La délégation et l’apparence de ligne partagée sont des fonctionnalités pi
 
 L’administrateur des locataires peut activer la délégation via le paramètre **TeamsCallingPolicy AllowDelegation** ou via Teams portail d’administration pour que cette fonctionnalité fonctionne. 
 
-L’administrateur des clients peut également configurer des relations de délégation pour un utilisateur dans le Teams d’administration. En outre, l’utilisateur final peut également configurer ses relations de délégation directement dans Teams. L’administrateur client ou l’utilisateur ne peuvent pas bloquer la configuration l’un après l’autre, mais le Centre d’administration Teams et le client Teams doivent afficher cette relation avec précision aux deux endroits. 
+L’administrateur des clients peut également configurer des relations de délégation pour un utilisateur dans le Teams d’administration. En outre, l’utilisateur final peut également configurer ses relations de délégation directement dans Teams. L’administrateur client ou l’utilisateur ne peut pas bloquer la configuration l’un après l’autre, mais le Centre d’administration Teams et le client Teams doivent afficher cette relation avec précision aux deux endroits. 
 
 > [!IMPORTANT]
 > Lorsque l’administrateur des clients désactivé la délégation pour un utilisateur (après l’avoir désactivée), il doit également nettoyer les relations de délégation pour cet utilisateur dans le Centre d’administration Teams pour éviter un routage d’appel incorrect.
@@ -63,10 +63,10 @@ L’apparence de ligne partagée est actuellement prise en charge par les applic
 | Recevoir des appels au nom d’un autre | Oui | Oui | Oui | Oui | Oui |
 | Appeler un numéro de téléphone pour le compte d’un autre | Oui | Oui | Oui | Oui | Oui |
 | Appeler un Teams de la part d’un autre utilisateur | Oui | Oui | Oui | Oui | Oui |
-| Afficher l’affichage administrateur des lignes partagées | Oui | Oui | Oui | Non | Non |
-| Afficher l’affichage administrateur des activités d’appels du responsable | Oui | Oui | Oui | Non | Non |
+| Afficher l’affichage délégué des lignes partagées | Oui | Oui | Oui | Non | Non |
+| Afficher l’affichage délégué des activités d’appels du responsable | Oui | Oui | Oui | Non | Non |
 | Afficher l’affichage des délégués par le responsable | Oui | Oui | Oui | Non | Non |
-| Un administrateur ou un responsable peut maintenir ou reprendre | Oui | Oui | Oui | Non | Non |
+| Un délégué ou un responsable peut maintenir ou reprendre | Oui | Oui | Oui | Non | Non |
 
 ## <a name="limitations"></a>Limites
 

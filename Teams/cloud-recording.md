@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356448"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462388"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 Ce paramètre détermine si les fonctionnalités de légende et de transcription sont disponibles lors de la lecture des enregistrements de réunion. Si vous désactivez cette option, les options **Recherche** et **CC** ne sont pas disponibles pendant la lecture d’un enregistrement de réunion. La personne qui a démarré l’enregistrement a besoin de ce paramètre activé de sorte que l’enregistrement inclut également la transcription.
 
 > [!NOTE]
-> Cette transcription de réunions enregistrées est prise en charge uniquement pour l’anglais (États-Unis), l’anglais (Canada), l’anglais (Inde), l’anglais (Australie), l’anglais (Nouvelle-Zélande), l’allemand (Allemagne), le portugais (Brésil), le néerlandais (Pays-Bas), le néerlandais (Belgique), le français (France), l’espagnol (Espagne), le japonais (Japon), le français (Canada), le chinois (cantonais, traditionnel), chinois (Mandarin, Simplifié), hindi (Inde), italien (Italie), coréen (Corée), espagnol (Mexique), suédois (Suède), Polonais (Pologne), arabe (Émirats arabes unis), arabe (Arabie saoudite), danois (Danemark), finnois (Finlande), norvégien (Norvège) et russe (Russie). Ils sont stockés avec les enregistrements de réunion dans OneDrive Entreprise et le stockage cloud SharePoint Online.
+> Cette transcription pour les réunions enregistrées n'est actuellement prise en charge que pour l'anglais (États-Unis), l'anglais (Canada), l'anglais (Inde), l'anglais (Royaume-Uni), l'anglais (Australie), l'anglais (Nouvelle-Zélande), l'allemand (Allemagne), le portugais (Brésil), néerlandais (Pays-Bas), néerlandais (Belgique), français (France), espagnol (Espagne), japonais (Japon), français (Canada), chinois (cantonais, traditionnel), chinois (mandarin, simplifié), hindi (Inde) , italien (Italie), coréen (Corée), espagnol (Mexique), suédois (Suède), polonais (Pologne), arabe (Émirats arabes unis), arabe (Arabie saoudite), danois (Danemark), finnois (Finlande), norvégien (Norvège) et russe (Russie). Ils sont stockés avec les enregistrements de réunion dans OneDrive Entreprise et le stockage cloud SharePoint Online.
 
 Vous pouvez utiliser le Centre d’administration Microsoft Teams ou PowerShell pour définir une stratégie de réunion Teams afin de contrôler si l’initiateur d’enregistrement peut transcrire le choix de transcrire l’enregistrement de la réunion.
 
@@ -435,6 +435,33 @@ Vous pouvez appliquer des stratégies DLP aux fichiers d’enregistrement de ré
 - Valeur = *Media.Meeting*
 
 Pour en savoir plus sur la protection contre la perte de données, consultez l’article [En savoir plus sur la protection contre la perte de données](/microsoft-365/compliance/dlp-learn-about-dlp)
+
+## <a name="meeting-recording-diagnostic-tools"></a>Outils de diagnostic d'enregistrement de réunion
+  ### <a name="user-cannot-record-meetings"></a>L'utilisateur ne peut pas enregistrer les réunions
+
+Si vous êtes administrateur, vous pouvez utiliser l'outil de diagnostic suivant pour valider que l'utilisateur est correctement configuré pour enregistrer une réunion dans Teams :
+
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365. 
+
+   > [!div class="nextstepaction"]
+   > [Exécuter des tests : enregistrement de réunion](https://aka.ms/MeetingRecordingDiag)
+
+2. Dans le volet Exécuter le diagnostic, saisissez l'e-mail de l'utilisateur qui ne peut pas enregistrer de réunions dans le **champ Nom d'utilisateur ou E-mail**, puis sélectionnez **Exécuter les tests**.
+
+3. Les tests renverront les meilleures étapes suivantes pour traiter les configurations de locataire ou de stratégie afin de valider que l'utilisateur est correctement configuré pour enregistrer une réunion dans Teams.
+  
+  ### <a name="meeting-record-is-missing"></a>L'enregistrement de la réunion est manquant
+
+Si vous êtes un administrateur, vous pouvez utiliser l'outil de diagnostic suivant pour valider que l'enregistrement de la réunion s'est terminé avec succès et qu'il a été téléchargé sur Stream ou OneDrive, en fonction de l'ID de la réunion et de l'heure de début de l'enregistrement :
+
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365. 
+
+   > [!div class="nextstepaction"]
+   > [Exécuter des tests : enregistrement de réunion manquant](https://aka.ms/MissingRecordingDiag)
+
+2. Dans le volet Exécuter le diagnostic, saisissez l'URL de la réunion dans le champ **URL de la réunion qui a été enregistrée** (généralement trouvée dans l'invitation à la réunion) ainsi que la date de la réunion dans le champ **Quand la réunion a-t-elle été enregistrée ? ** , puis sélectionnez **Exécuter les tests**.
+
+3. Les tests valideront que l'enregistrement de la réunion s'est terminé avec succès et qu'il a été téléchargé sur Stream ou OneDrive.
 
 ## <a name="related-topics"></a>Sujets associés
 
