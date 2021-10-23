@@ -23,18 +23,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Un administrateur Microsoft 365 ou Office 365 peut modifier les paramètres d’audioconférence Teams, notamment le fournisseur, un numéro gratuit ou gratuit par défaut, l’ID de conférence ou le code confidentiel d’un utilisateur.
-ms.openlocfilehash: c565537adfc8eeae295c1608a335b8282d3372df
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a6a514b116cab63e321848d24785c3dab8b096dc
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732483"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537035"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence d'un utilisateur dans Microsoft Teams
 
 En tant qu’administrateur Microsoft 365 ou Office 365, vous pouvez modifier les paramètres d’audioconférence (fournisseur, numéro gratuit ou gratuit par défaut, ID de conférence ou code confidentiel) pour un utilisateur de votre organisation. Si vous voulez modifier les paramètres de votre organisation, consultez Gérer les [paramètres d’audioconférence pour votre organisation.](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) Utiliser le centre d’administration Microsoft Teams
+##  <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 

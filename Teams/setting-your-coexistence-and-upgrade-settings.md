@@ -18,12 +18,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39d2592d15e0c74f21109edae9e5af29206e6050
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 489f5315df8c818fd674e30fdaef7c057e9a8ff3
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725983"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536495"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>Configuration de vos paramètres de coexistence et de mise à niveau
 
@@ -38,7 +38,7 @@ Vous pouvez mieux comprendre les modes disponibles en lisant « Comprendre les M
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>Définir les options de mise à niveau pour tous les utilisateurs de votre organisation
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le [Microsoft Teams d’administration,](https://admin.teams.microsoft.com/)dans le panneau de navigation de gauche, allez dans les **paramètres** de l’Teams  >  **mise à niveau.** 
 
@@ -70,7 +70,7 @@ Vous pouvez mieux comprendre les modes disponibles en lisant « Comprendre les M
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>Définir les options de mise à niveau pour un seul utilisateur dans votre organisation
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigateur de gauche, **sélectionnez Utilisateurs,** puis sélectionnez l’utilisateur dans la liste. 
 2. Sous **l’onglet** Compte de l’utilisateur, sous Teams mise à **niveau,** cliquez sur **Modifier.**

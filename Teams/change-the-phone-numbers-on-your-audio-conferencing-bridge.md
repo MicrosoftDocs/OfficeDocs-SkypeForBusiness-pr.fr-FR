@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez les étapes requises pour affecter un nouveau numéro de téléphone de service à votre pont de conférence afin de développer la couverture pour vos utilisateurs.
-ms.openlocfilehash: ba12596ea7a10a0d2b0c5fea75beb4ae96b10f07
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f39a963759e768f4fab70d2a06e6d90b480699e0
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726933"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536715"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Modifier les numéros de téléphone de votre pont d’audioconférence
 
@@ -43,7 +43,7 @@ Outre les numéros de téléphone déjà affectés à votre pont de conférence,
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Étape 1 : affecter le nouveau numéro de téléphone à votre pont de conférence audio
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le volet de navigation gauche, allez sur **Numéros** Téléphone  >  **voix.**
 
@@ -57,7 +57,7 @@ Le numéro de téléphone par défaut de votre pont de conférence définit l’
 
 Seul un numéro de service gratuit peut être réglé comme numéro par défaut pour votre pont de conférence. **les numéros gratuits de service** ne peuvent pas être définir comme numéro par défaut de votre pont de conférence. Si vous attribuez un numéro de service gratuit et que vous souhaitez le définir comme nouveau numéro par défaut de votre pont de conférence audio, effectuez les étapes suivantes :
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le volet de navigation gauche, allez sur **ponts de** conférence  >  **Réunions.**
 
@@ -69,7 +69,7 @@ Seul un numéro de service gratuit peut être réglé comme numéro par défaut 
 
 Les numéros de téléphone par défaut d’un utilisateur sont inclus dans son invitation lorsqu’il planifiera une réunion. Pour plus d’informations, notamment sur la manière dont les numéros de téléphone par défaut sont attribués aux nouveaux [utilisateurs,](set-the-phone-numbers-included-on-invites-in-teams.md) voir Définir les numéros de téléphone inclus dans les invitations dans Microsoft Teams ou Définir les numéros de téléphone inclus dans les [invitations dans Skype Entreprise Online.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le volet de navigation  gauche, cliquez sur Le nom d’affichage de l’utilisateur souhaité dans la liste.
 
@@ -181,7 +181,7 @@ Pour gagner du temps en automatisant ce processus, vous pouvez utiliser les [cmd
   ```
 
     > [!NOTE]
-    > L’emplacement utilisé ci-dessus doit correspondre aux informations de contact du ou des utilisateurs définies dans le Centre d’administration Microsoft 365.
+    > L’emplacement utilisé ci-dessus doit correspondre aux informations de contact du ou des utilisateurs définies dans le Centre d'administration Microsoft 365.
 
 ## <a name="troubleshooting"></a>Résolution des problèmes
 
@@ -209,7 +209,7 @@ Avec Windows PowerShell, vous pouvez gérer les utilisateurs et leurs autorisati
 
   - [Windows PowerShell est axé sur la gestion des utilisateurs et sur les actions qu'ils sont autorisés ou non à effectuer. En utilisant Windows PowerShell, vous pouvez gérer Office 365 depuis un seul point d'administration, ce qui simplifiera votre travail quotidien si vous devez effectuer de nombreuses tâches différentes. Pour commencer à utiliser Windows PowerShell, reportez-vous aux rubriques suivantes :](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d’administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
+Windows PowerShell présente de nombreux avantages en matière de vitesse, de simplicité et de productivité par rapport à l’utilisation de la Centre d'administration Microsoft 365 uniquement, par exemple lorsque vous modifiez des paramètres pour de nombreux utilisateurs en même temps. Découvrez ces avantages dans les rubriques suivantes :
 
   - [Meilleures méthodes de gestion des Microsoft 365 des Office 365'Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

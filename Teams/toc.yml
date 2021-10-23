@@ -359,8 +359,6 @@ items:
             items:
               - name: À propos de l’accès invité
                 href: guest-access.md
-              - name: Liste de vérification pour l’accès invité
-                href: /microsoft-365/solutions/collaborate-as-team
               - name: Expérience des invités
                 href: guest-experience.md
               - name: Activer ou désactiver l’accès invité

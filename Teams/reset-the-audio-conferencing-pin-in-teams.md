@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment réinitialiser le code confidentiel d’audioconférence d’un utilisateur dans Microsoft Teams comment consulter des informations importantes sur les code confidentiels.
-ms.openlocfilehash: 6e2e25f05be1b2e14a41d8a102e05f735ef6c09b
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: 8c7525605f0dedaed05ba9b98db689715e468865
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007774"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537295"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Réinitialiser le code confidentiel d’audioconférence dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Les réunions peuvent être démarrées lorsqu’un utilisateur authentifié rej
 
 ## <a name="reset-a-users-pin"></a>Réinitialiser le code confidentiel d’un utilisateur
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 

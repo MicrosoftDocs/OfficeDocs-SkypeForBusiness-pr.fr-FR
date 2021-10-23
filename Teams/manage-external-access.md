@@ -21,12 +21,12 @@ description: Vos équipes ou votre administrateur informatique peuvent configure
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462328"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536515"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
@@ -67,7 +67,7 @@ Par défaut, l’accès externe est activé dans Teams, ce qui signifie que votr
 
 ## <a name="allow-or-block-domains"></a>Autoriser ou bloquer des domaines
 
-![Icône affichant le logo Microsoft Teams.](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft Teams**
+  **Utiliser le centre d’administration Microsoft Teams**
 
 Pour autoriser des domaines spécifiques
 
@@ -103,7 +103,7 @@ Assurez-vous que l'administrateur de l'autre organisation Teams effectue ces mê
 
 Pour permettre aux membres Teams de votre organisation de discuter avec et d’appeler des utilisateurs de Skype, procédez comme suit. Les membres de Teams peuvent ensuite rechercher et démarrer une conversation texte privée ou un appel audio/vidéo avec des utilisateurs de Skype, et vice-versa.
 
-![Icône affichant le logo Microsoft Teams.](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft Teams**
+  **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la navigation de gauche, accédez à **Utilisateurs** > **Accès externe**.
 

@@ -20,26 +20,28 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment attribuer, modifier ou supprimer un numéro de téléphone privé pour vos utilisateurs Teams entreprise et clients externes.
-ms.openlocfilehash: a6e2c8075134817b61d99366633f29140599b447
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046180"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536505"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
-Lorsque vous définissez des forfaits **d’appels ou des** Connecter, vous affectez des numéros de téléphone à vos utilisateurs. Dans Microsoft Teams, le numéro de téléphone que vous affectez est répertorié lorsqu’un utilisateur clique sur **Appels.** 
+Lorsque vous définissez des forfaits d’appels ou des Connecter, vous affectez des numéros de téléphone à vos utilisateurs. Dans Microsoft Teams, le numéro de téléphone que vous affectez est répertorié lorsqu’un utilisateur clique sur **Appels.** 
 
-**Cet article s’applique aux forfaits d’appels et aux Connecter.** Pour plus d’informations sur l’attribution, la modification ou la suppression d’un numéro de téléphone d’un utilisateur dans un scénario de routage direct, voir Activer le [routage direct,](./direct-routing-enable-users.md)la voix et la messagerie vocale des utilisateurs.
+Cet article s’applique aux forfaits d’appels et aux Connecter. Pour plus d’informations sur l’attribution, la modification ou la suppression d’un numéro de téléphone d’un utilisateur dans un scénario de routage direct, voir Activer le [routage direct,](./direct-routing-enable-users.md)la voix et la messagerie vocale des utilisateurs.
 
-**Avant d’affecter un numéro pour un plan d’appels ou un Connecter utilisateur, vous devez obtenir des numéros pour vos utilisateurs. Pour plus d’informations, voir Obtenir des numéros pour les utilisateurs [d’un plan](getting-phone-numbers-for-your-users.md) d’appels ou Configurer des numéros pour les utilisateurs [Connecter d’appels.](operator-connect-configure.md#set-up-phone-numbers)**
+Avant d’affecter un numéro pour un plan d’appels ou un Connecter utilisateur, vous devez obtenir des numéros pour vos utilisateurs. Pour plus d’informations, voir Obtenir des numéros pour les utilisateurs [d’un plan](getting-phone-numbers-for-your-users.md) d’appels ou Configurer des numéros pour les utilisateurs [Connecter d’appels.](operator-connect-configure.md#set-up-phone-numbers)
 
   
 > [!NOTE]
 > Pour savoir si une licence a été attribuée à un utilisateur, vous pouvez vous rendre dans le Centre d’administration Microsoft Teams d'> **utilisateurs.** Si une licence est attribuée, elle sera indiquée dans la page.  Vous pouvez également utiliser l’Centre d'administration Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Affectation d’un numéro de téléphone à un utilisateur
+
+Lorsque vous affectez un numéro de téléphone à un utilisateur, assurez-vous que le numéro de téléphone et l’emplacement d’utilisation de l’utilisateur sont dans le même pays.
 
 Pour attribuer un numéro à l’aide du Centre Teams’administration :
     
@@ -52,7 +54,7 @@ Pour attribuer un numéro à l’aide du Centre Teams’administration :
 4. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
 
    > [!NOTE]
-   > **Si vous affectez des numéros à l’opérateur Connecter utilisateurs, il est possible que vous ne soyez pas en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.**
+   > Si vous affectez des numéros à l’opérateur Connecter utilisateurs, il est possible que vous ne soyez pas en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.
 
 5. Selon que vous voulez envoyer un courrier électronique à l’utilisateur avec ses informations de numéro de téléphone, désactiver ou activer l’utilisateur de courrier avec des **informations de numéro de téléphone.** Par défaut, c’est le cas. 
 
@@ -95,7 +97,7 @@ Pour modifier le numéro de téléphone d’un utilisateur à l’aide du Centre
 8. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
 
       > [!NOTE]
-      > **Si vous changez de numéro pour l’opérateur Connecter utilisateurs, il est possible que vous ne soyez pas en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.**
+      > Si vous changez de numéro pour l’opérateur Connecter utilisateurs, il est possible que vous ne soyez pas en mesure d’affecter ou de modifier l’emplacement d’urgence associé. Cette fonctionnalité dépend de votre opérateur. Pour plus d’informations, contactez votre opérateur.
 
 9. Cliquez sur **Enregistrer**.
 
@@ -117,7 +119,7 @@ Pour supprimer un numéro de téléphone à l’aide du Teams d’administration
 
 Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Qu’est-ce que la validation d’adresse ?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

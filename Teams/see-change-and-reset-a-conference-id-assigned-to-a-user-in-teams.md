@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Découvrez comment affecter un ID de conférence à un utilisateur Microsoft Teams les paramètres d’ID de conférence.
-ms.openlocfilehash: 62cbb281af4db60db15676b109b2573c03eb7552
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 74e43f6dcb5599039007f784ad7ebdd5a053251e
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733253"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536865"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Afficher et réinitialiser un ID de conférence attribué à un utilisateur dans Microsoft Teams
 
-Un ID de conférence est automatiquement attribué à un utilisateur de Microsoft Teams lorsqu’il est prêt pour l’audioconférence dans Microsoft 365 ou Office 365 et utilise Microsoft comme fournisseur de services d’audioconférence. L’ID de conférence attribué est envoyé dans l’invitation à la réunion lorsque la réunion est programmée. Chaque réunion qu’un utilisateur planifiera se voit attribuer un ID de conférence unique. 
+Un ID de conférence est automatiquement attribué à un utilisateur de Microsoft Teams lorsqu’il est configurer pour l’audioconférence dans Microsoft 365 ou Office 365 et utilise Microsoft comme fournisseur de services d’audioconférence. L’ID de conférence attribué est envoyé dans l’invitation à la réunion lorsque la réunion est programmée. Chaque réunion qu’un utilisateur planifiera se voit attribuer un ID de conférence unique. 
   
 Bien qu’un ID de conférence soit automatiquement créé et attribué à un utilisateur, il peut arrive qu’un utilisateur ne souhaite pas l’utiliser et que vous le définissez sur un nombre donné, ou que vos utilisateurs ne peuvent pas se souvenir de leur ID de conférence ou qu’ils l’ont perdu. Vous pouvez utiliser le Microsoft Teams d’administration ou Windows PowerShell pour afficher, modifier et réinitialiser leur ID de conférence.
   
@@ -43,7 +43,7 @@ Un e-mail contenant l’ID de conférence et les numéros de téléphone de conf
 
 ### <a name="to-view-the-conference-id"></a>Pour afficher l’ID de conférence
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -52,7 +52,7 @@ Un e-mail contenant l’ID de conférence et les numéros de téléphone de conf
 3. Sous **Audioconférence,** regardez sous **ID de conférence.**
 
     > [!TIP]
-    > Vous pouvez envoyer toutes les informations sur les conférences à l’utilisateur dans un message électronique qui inclut l’ID de conférence et les numéros de téléphone audio en cliquant sur Envoyer les informations sur la conférence dans le lien du message **électronique.**
+    > Vous pouvez envoyer toutes les informations sur les conférences à l’utilisateur dans un message  électronique qui inclut l’ID de conférence et les numéros de téléphone audio en cliquant sur Envoyer les informations sur la conférence dans un lien électronique.
   
 **Reportez-vous à la rubrique **Envoyer un message électronique à un utilisateur avec leurs informations de conférence Audio**.**
 
@@ -63,7 +63,7 @@ Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powers
 
 Vous pouvez réinitialiser un ID de conférence pour un utilisateur, en cas d'oubli par exemple.
   
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 

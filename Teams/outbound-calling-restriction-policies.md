@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Les administrateurs peuvent contrôler le type d’audioconférence et d’appels PSTN d’utilisateur final qui peuvent être effectués par les utilisateurs.
-ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730323"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536875"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Stratégies de restriction des appels sortants pour l’audioconférence et les appels RTC des utilisateurs
 
@@ -49,7 +49,7 @@ Pour savoir quels pays et quelles régions sont considérés comme zone A, consu
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Restreindre les appels sortants de conférence audio
 
-![la Microsoft Teams logo de l’équipe.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+**Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la barre de navigation de gauche, **sélectionnez** Utilisateurs, puis le nom d’affichage de l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -59,20 +59,6 @@ Pour savoir quels pays et quelles régions sont considérés comme zone A, consu
 
 5. Sélectionnez **Enregistrer**.
 
-![Icône représentant le logo Skype Entreprise’affichage.](media/sfb-logo-30x30.png) **Utilisation du Skype Entreprise d’administration**
-
-1. Dans le **Skype Entreprise d’administration,** dans le panneau de navigation de gauche, sélectionnez Utilisateurs de l’audioconférence, puis sélectionnez l’utilisateur dans la liste des   >  utilisateurs disponibles.
-
-2. Dans le volet Action, sélectionnez **Modifier.**
-
-3.  Sous **Restrictions de numérotation des réunions de cet utilisateur**, sélectionnez l’option de restriction d’appel sortant souhaitée.
-
-      ![Restrictions sur les options de sorties sortantes.](media/restrictions-to-dial-outs.png)
-
-4. Sélectionnez **Enregistrer**.
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **Utiliser PowerShell**
 
@@ -82,13 +68,13 @@ Vous pouvez utiliser l'Get-CSOnlineDialOutPolicy cmdlet pour afficher les strat�
 
 **Définissez la stratégie au niveau utilisateur avec l’cmdlet suivante.** (La cmdlet Grant ne contient pas le mot « En ligne » comme le fait la cmdlet Get.)
 
-```
+```powershell
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
 **Définissez la stratégie au niveau du client avec l’cmdlet suivante.**
 
-```
+```powershell
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
 ```
 

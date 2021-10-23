@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment obtenir de nouveaux numéros, transférer ou transférer des numéros existants pour Teams et comment montrer les modifications à vos utilisateurs.
-ms.openlocfilehash: 09b42acef400f28760c50cd8a570f5c1cb1e3392
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012108"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537075"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -45,7 +45,7 @@ Il existe trois façons d’obtenir des numéros d’utilisateur :
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Obtention de nouveaux numéros de téléphone pour vos utilisateurs
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
@@ -77,7 +77,7 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Afficher les numéros de téléphone pour votre organisation
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 Dans le panneau de navigation gauche du Centre d’administration, allez sur Numéros de Téléphone voix pour afficher les numéros pour votre organisation, y compris l’emplacement, le type de numéro et les informations  >   de statut.
   

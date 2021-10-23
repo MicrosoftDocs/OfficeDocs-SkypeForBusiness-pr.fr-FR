@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Découvrez comment configurer et tester les attendants automatiques pour les grandes organisations dans Microsoft Teams.
-ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 28f3334ed2ddfdff8e43ba7853f6a4d279211b96
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462354"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536905"
 ---
 # <a name="set-up-an-auto-attendant"></a>Configurer un attendant automatique
 
@@ -38,12 +38,12 @@ Les employés automatiques peuvent appeler votre organisation et parcourir un sy
 
 Veillez à lire l’article [Planifier les standards automatiques et les files d’attente des appels pour Teams](plan-auto-attendant-call-queue.md), puis à suivre les [étapes de démarrage](plan-auto-attendant-call-queue.md#getting-started) avant de suivre les procédures de cet article.
 
-Les serveurs automatiques peuvent diriger les appels, sur la base des commentaires des appelants, vers l’une des destinations suivantes : <a name="call-routing-options" ></a>
+Les attendants automatiques peuvent diriger les appels, sur la base de l’entrée des appelants, vers l’une des destinations suivantes : <a name="call-routing-options" ></a>
 
 - **Opérateur** (opérateur défini pour le transport automatique). La définition d’un opérateur est facultative. L’opérateur peut être défini comme n’importe quelle autre destination dans cette liste.
 - **Une personne de votre organisation** qui peut recevoir des appels vocux. Cette personne peut être un utilisateur en ligne ou hébergé sur site à l’aide d’Skype Entreprise Server.
-- **Application vocale :** un autre attendant automatique ou une file d’attente d’appels. (Choisissez le compte de ressource associé au port automatique ou à la file d’attente d’appels lorsque vous choisissez cette destination.)
-- **Messagerie vocale** : boîte vocale associée à Microsoft 365 groupe de messagerie que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messages vocaux et le message « Veuillez laisser un message après le ton ». invite système.
+- **Application vocale :** un autre service de messagerie automatique ou une file d’attente d’appels. (Choisissez le compte de ressource associé au port automatique ou à la file d’attente d’appels lorsque vous choisissez cette destination.)
+- **Messagerie vocale** (boîte vocale associée à Microsoft 365 groupe de messagerie vocale que vous spécifiez. Vous pouvez choisir si vous voulez des transcriptions de messages vocaux et le message « Veuillez laisser un message après le ton ». invite système.
 - **Numéro de téléphone externe -** n’importe quel numéro de téléphone. (Voir [les détails techniques du transfert externe).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
 - **Annonce (fichier audio)** : lire un fichier audio. Message d’annonce enregistré que vous téléchargez enregistré en tant qu’audio dans . WAV, .MP3, ou . Format WMA. L’enregistrement ne peut pas avoir une taille supérieure à 5 Mo. Le système lit l’annonce, puis revient au menu du transport automatique.
 - **Annonce (tapée)** : taper un message. Texte que le système doit lire. Vous pouvez entrer jusqu’à 1 000 caractères. Le système lit l’annonce, puis revient au menu du transport automatique.
@@ -83,7 +83,7 @@ Cette vidéo montre un exemple de base de la création d’un attendant automati
 
 Choisissez si vous voulez lire un message d’accueil lorsque le attendant automatique répond à un appel.
 
-Si vous **sélectionnez Lire un** fichier audio, vous pouvez utiliser le bouton Télécharger **fichier** pour télécharger un message d’accueil enregistré en tant qu’audio dans . WAV, .MP3, ou . Format WMA. L’enregistrement ne peut pas avoir une taille supérieure à 5 Mo.
+Si vous **sélectionnez Lire un** fichier audio, vous pouvez utiliser le bouton **Télécharger** fichier pour télécharger un message d’accueil enregistré en tant qu’audio dans . WAV, .MP3, ou . Format WMA. L’enregistrement ne peut pas avoir une taille supérieure à 5 Mo.
 
 Si vous sélectionnez Taper un **message** d’accueil, le système lit le texte que vous tapez (jusqu’à 1 000 caractères) lorsque le attendant automatique répond à un appel.
 
@@ -111,13 +111,13 @@ Pour chaque option de menu, spécifiez les paramètres suivants :
 
 - **Touche de numérotation** (clé du clavier téléphonique pour accéder à cette option). Si des entrées vocales sont disponibles, les appelants peuvent également dire ce numéro pour accéder à l’option.
 
-- **Commande vocale** : définit la commande vocale qu’un appelant peut lui donner pour accéder à cette option, si les entrées vocales sont activées. Il peut contenir plusieurs mots tels que « Service clientèle » ou « Activités et activités ». Par exemple, l’appelant peut appuyer sur 2, dire « deux » ou dire « Ventes » pour sélectionner l’option mappée vers les deux touches. Ce texte est également restituer par sms par reconnaissance vocale pour l’invite de confirmation de service, ce qui peut être un peu comme « Transfert de votre appel vers les ventes ».
+- **Commande vocale** : définit la commande vocale qu’un appelant peut lui donner pour accéder à cette option, si les entrées vocales sont activées. Il peut contenir plusieurs mots tels que « Service clientèle » ou « Activités et activités ». Par exemple, l’appelant peut appuyer sur 2, dire « deux » ou dire « Ventes » pour sélectionner l’option mappée vers les deux touches. Ce texte est également restituel par sms par reconnaissance vocale pour l’invite de confirmation de service, par exemple, « Transfert de votre appel vers les ventes ».
 
 - **Rediriger vers** (destination de routage des appels utilisée lorsque les appelants choisissent cette option). Si vous redirigez vers un service de service automatique ou une file d’attente d’appels, sélectionnez le compte de ressource qui lui est associé.
 
 ### <a name="directory-search"></a>Recherche dans l’annuaire
 
-Si vous attribuez des touches de numérotation aux destinations, nous vous recommandons de choisir l’opération **Aucune** pour **la recherche dans l’annuaire.** Si un appelant tente de composer un nom ou une extension à l’aide de touches affectées à des destinations spécifiques, il se peut qu’ils soient acheminés de manière inattendue vers une destination avant qu’ils n’tentent de terminer la saisie du nom ou de l’extension. Nous vous recommandons de créer un attendant automatique distinct pour la recherche dans l’annuaire et de lier votre attendant automatique principal à celui-ci à l’aide d’une clé de numérotation.
+Si vous attribuez des touches de  numérotation aux destinations, nous vous recommandons de choisir l’aucune pour **la recherche dans l’annuaire.** Si un appelant tente de composer un nom ou une extension à l’aide de touches affectées à des destinations spécifiques, il se peut qu’ils soient acheminés de manière inattendue vers une destination avant qu’ils n’tentent de terminer la saisie du nom ou de l’extension. Nous vous recommandons de créer un attendant automatique distinct pour la recherche dans l’annuaire et de lier votre attendant automatique principal à celui-ci à l’aide d’une clé de numérotation.
 
 Si vous n’avez pas attribué les touches de numérotation, choisissez une option pour **la recherche dans l’annuaire.**
 
@@ -146,7 +146,7 @@ Le format requis pour entrer l’extension dans le champ Numéro de téléphone 
 Vous pouvez définir l’extension dans le [Centre d'administration Microsoft 365](https://admin.microsoft.com/) ou le [Azure Active Directory d’administration.](https://aad.portal.azure.com) Jusqu’à 12 heures peuvent être nécessaires avant que les modifications ne soient disponibles pour les attendants automatiques et les files d’attente d’appels.
 
 > [!NOTE]
-> Si vous souhaitez utiliser les fonctionnalités Numérotation **par** nom et Numérotation par numérotation par **numérotation** de poste, vous pouvez affecter une touche de numérotation sur votre postes de service automatique principal pour joindre un personnel automatique activé pour la numérotation par **nom.** Dans ce attendant automatique, vous pouvez affecter la touche 1 (qui ne possède aucune lettre associée) pour atteindre le numéro par numérotation par **numérotation** automatique de poste.
+> Si vous souhaitez utiliser les fonctionnalités Numérotation **par** nom et Numérotation par **numérotation** par numérotation de poste, vous pouvez affecter une touche de numérotation sur votre postes de service automatique principal afin d’atteindre un postes de numérotation automatique activé pour la numérotation **par nom.** Dans ce attendant automatique, vous pouvez affecter la touche 1 (qui ne possède aucune lettre associée) pour atteindre le numéro par numérotation par **numérotation** automatique de poste.
 
 Une fois que vous avez sélectionné une option **de recherche dans l’annuaire,** sélectionnez **Suivant.**
 
@@ -156,9 +156,9 @@ Une fois que vous avez sélectionné une option **de recherche dans l’annuaire
 
 Les heures d’ouverture peuvent être définies pour chaque employé de service automatique. Si ce n'est pas le cas, tous les jours et toutes les heures de la semaine seront considérés comme heures d'ouverture, car une planification 24/24 est définie par défaut. Les heures d’ouverture peuvent être définies avec des pauses au cours de la journée et toutes les heures non définies comme heures d’ouverture sont considérées comme des heures d’ouverture en de suite. Vous pouvez définir différentes options de traitement des appels entrants et des messages d’accueil pour les heures de travail en de suite.
 
-Selon la configuration de vos files d’attente automatiques et de vos files d’attente, il se peut que vous devrez uniquement spécifier le routage des appels en de après-heures pour les travailleurs automatiques avec des numéros de téléphone directs.
+Selon la configuration de vos files d’attente et de vos files d’attente automatiques, il se peut que vous devrez uniquement spécifier le routage des appels en de après-heures pour les travailleurs automatiques avec des numéros de téléphone directs.
 
-Si vous souhaitez un routage d’appel distinct pour les appelants en de suite, spécifiez vos heures d’ouverture pour chaque jour. Sélectionnez **Ajouter un nouvel horaire** pour spécifier plusieurs jeux d’heures pour une journée donnée, par exemple pour spécifier une pause déjeuner.
+Si vous souhaitez un routage d’appel distinct pour les appelants en de suite, spécifiez vos heures d’ouverture pour chaque jour. Sélectionnez **Ajouter un nouvel horaire** pour spécifier plusieurs ensembles d’heures pour un jour donné, par exemple pour spécifier une pause déjeuner.
 
 Une fois que vous avez spécifié vos heures d’ouverture, sélectionnez vos options de routage des appels pour les heures de fermeture. Les mêmes options sont disponibles que pour le routage des appels aux heures d’ouverture spécifiés ci-dessus.
 
@@ -209,9 +209,9 @@ Lorsque vous avez terminé de définir l’étendue de la numérotation, sélect
 
 Tous les attendants automatiques doivent avoir un compte de ressource associé.  Les travailleurs automatiques de premier niveau auront besoin d’au moins un compte de ressource associé à un numéro de service. Si vous le souhaitez, vous pouvez affecter plusieurs comptes de ressources à un service automatique, chacun avec un numéro de service distinct.
 
-![Capture d’écran du panneau Ajouter des comptes du compte de ressource.](media/auto-attendant-add-resource-account.png)
+![Capture d’écran du panneau Ajouter des comptes du compte de ressources.](media/auto-attendant-add-resource-account.png)
 
-Pour ajouter un compte de ressource, **sélectionnez Ajouter un compte et** recherchez le compte à ajouter. Sélectionnez **Ajouter,** puis **Ajouter.**
+Pour ajouter un compte de ressource, **sélectionnez Ajouter un compte et** recherchez le compte à ajouter. **Sélectionnez** Ajouter, puis **Ajouter.**
 
 ![Capture d’écran de la liste des comptes de ressources affichant le compte de ressource avec le numéro de service affecté.](media/auto-attendant-resource-account-assigned.png)
 
@@ -225,7 +225,7 @@ Reportez-vous [aux conditions préalables](plan-auto-attendant-call-queue.md#pre
 
 - Pour un compte [](calling-plans-for-office-365.md) de ressource avec une licence Plan d’appels ou un numéro d’opérateur [Connecter,](operator-connect-plan.md) le numéro de téléphone de transfert externe doit être entré au format E.164 (+[code pays][code de zone][numéro de téléphone]).
 
-- Pour un compte de ressource ayant une stratégie de routage vocal en ligne de licence Système téléphonique et de routage direct, le format du numéro de téléphone de transfert externe dépend des paramètres du contrôleur de session en bordure [(SBC).](direct-routing-connect-the-sbc.md)
+- Pour un compte de ressource ayant une stratégie de routage voix de licence Système téléphonique et de routage direct, le format du numéro de téléphone de transfert externe dépend des paramètres du contrôleur de session en bordure [(SBC).](direct-routing-connect-the-sbc.md)
 
 Le numéro de téléphone sortant affiché est déterminé comme suit :
 
@@ -262,10 +262,10 @@ Vous pouvez également utiliser PowerShell pour créer et configurer des attenda
 
 Si vous êtes administrateur, vous pouvez utiliser l’outil de diagnostic suivant pour vérifier qu’un employé automatique peut recevoir des appels :
 
-1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplit l’outil de diagnostic dans Administration Microsoft 365 de diagnostic. 
+1. Sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic dans le Centre d'Administration Microsoft 365. 
 
    > [!div class="nextstepaction"]
-   > [Exécuter des tests : fédération Teams’équipe](https://aka.ms/TeamsAADiag)
+   > [Exécuter des tests : Teams Standard automatique](https://aka.ms/TeamsAADiag)
 
 2. Dans le volet Exécuter un diagnostic,  entrez le compte de ressource dans le champ Nom d’utilisateur ou Courrier électronique, puis sélectionnez **Exécuter les tests.**
 

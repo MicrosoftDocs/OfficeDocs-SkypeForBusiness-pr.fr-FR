@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: L'accès invité dans Microsoft Teams permet aux équipes de votre organisation de collaborer avec des personnes extérieures en leur accordant l'accès aux équipes et aux canaux.
-ms.openlocfilehash: 2064ca1fdd816f1948af1f0efcda3021a1c7d2cb
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 80c1fcb9012efbc1809b1d1d4252c9801d148ba9
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462338"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537085"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Accès invité dans Microsoft Teams
 
-Avec l'accès invité, vous pouvez fournir l'accès aux équipes, aux documents dans les canaux, aux ressources, aux discussions et aux applications à des personnes extérieures à votre organisation, tout en gardant le contrôle sur vos données d'entreprise. Voir [Configurer une collaboration sécurisée avec Microsoft 365 et Microsoft Teams](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+L’accès invité vous permet d’accéder à Teams, aux documents dans des canaux, aux ressources, aux conversations et aux applications pour les personnes extérieures à votre organisation, tout en gardant le contrôle sur vos données d’entreprise. Voir [Configurer une collaboration sécurisée avec Microsoft 365 et Microsoft Teams ](/microsoft-365/solutions/setup-secure-collaboration-with-teams). L'accès invité dans Teams est un paramètre à l'échelle de l'organisation et est activé par défaut. Vous pouvez contrôler l’accès invité à des équipes individuelles à l’aide d’[étiquettes de confidentialité](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!NOTE]
 > Si vous voulez simplement rechercher, appeler, discuter et configurer des réunions avec des personnes d’autres organisations, utilisez [Accès externe](manage-external-access.md).
@@ -52,8 +52,6 @@ L’accès invité dans Teams nécessite la configuration d’autres paramètres
 
 - Pour configurer l’accès invité pour Teams à des fins d’utilisation générale, consultez [Collaborer avec des invités dans une équipe](/microsoft-365/solutions/collaborate-as-team).
 - Pour collaborer avec une organisation partenaire qui utilise Azure Active Directory et autoriser les invités à s’inscrire automatiquement pour l’accès d’équipe, consultez [créer un extranet B2B avec des invités gérés](/microsoft-365/solutions/b2b-extranet).
-
-L'accès invité dans Teams est un paramètre à l'échelle de l'organisation et est activé par défaut. Vous pouvez contrôler l’accès invité à des équipes individuelles à l’aide d’[étiquettes de confidentialité](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!NOTE]
 > Si vous êtes un administrateur et que vous rencontrez des problèmes avec l'accès invité dans Microsoft Teams, sélectionnez **Exécuter les tests** ci-dessous, qui remplira le diagnostic d'accès invité dans le centre d’Administration Microsoft 365. Ces tests vérifieront votre configuration et recommanderont rapidement les prochaines étapes pour activer l'accès invité pour votre locataire.

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282667"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536755"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Appliance de branche (SBA) survivable pour le routage direct
 
@@ -46,6 +46,11 @@ Pour obtenir la dernière version du microprogramme du contrôleur de session en
 - Le SBC doit être configuré pour la dérivation média pour s’assurer que le client Microsoft Teams dans le site de branche peut faire circuler du média directement avec le SBC. 
 
 - TLS1.2 doit être activé sur le système d’exploitation VM SBA.
+- Les ports 3443, 4444 et 8443 sont utilisés par Microsoft SBA Server pour communiquer avec le client Teams et doivent être autorisés sur le pare-feu. 
+- Le port 5061 (ou celui configuré sur le SBC) est utilisé par Microsoft SBA Server pour communiquer avec le SBC et doit être autorisé par le pare-feu. 
+- Le port UDP 123 est utilisé par Microsoft SBA Server pour communiquer avec le serveur NTP et doit être autorisé par le pare-feu.
+- Le port 443 est utilisé par Microsoft SBA Server pour communiquer avec les Microsoft 365 et doit être autorisé par le pare-feu.
+- Les plages d’adresses IP et balises de service Azure pour le cloud public doivent être définies conformément aux directives décrites dans : https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>Clients clients Teams pris en charge
 
@@ -57,11 +62,11 @@ La fonctionnalité SBA est prise en charge sur les clients Microsoft Teams suiva
 
 ## <a name="how-it-works"></a>Mode de fonctionnement
 
-En cas d’interruption d’Internet, Teams client doit basculer automatiquement vers le SBA et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte que vous avez accès à Internet et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte à d’Teams services. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de telle sorte que ces informations soient disponibles pour révision par l’administrateur client. 
+En cas de panne d’Internet, Teams client doit basculer automatiquement vers le SBA et les appels en cours doivent continuer sans interruptions. Aucune action n’est requise de la part de l’utilisateur. Dès que le client Teams détecte que vous avez accès à Internet et que tous les appels sortants sont terminés, le client revient en mode d’utilisation normal et se connecte à d’Teams services. Le SBA charge les enregistrements de données d’appel collectés dans le cloud et l’historique des appels est mis à jour de telle sorte que ces informations soient disponibles pour révision par l’administrateur client. 
 
 Lorsque le Microsoft Teams client est en mode hors connexion, la fonctionnalité d’appel suivante est disponible : 
 
-- Passer des appels PSTN via SBA/SBC local avec les médias s’écoule dans le SBC.
+- Passer des appels PSTN via SBA/SBC local avec les médias qui parsèment le SBC.
 
 - Réception d’appels PSTN via SBA/SBC local, avec trafic de médias par le SBC. 
 
@@ -157,7 +162,7 @@ Pour plus d’informations sur l’inscription des applications, voir les inform
 
 - [Développez des applications métier pour Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Enregistrez une application auprès du Plateforme d’identités Microsoft.](/azure/active-directory/develop/quickstart-register-app)  
+- [Enregistrez une application auprès du Plateforme d'identités Microsoft.](/azure/active-directory/develop/quickstart-register-app)  
 
 Vous ne devez inscrire qu’une seule application pour être utilisé par tous les SBE de votre client. 
 
@@ -170,12 +175,12 @@ Pour l’application SBA, gardez les choses suivantes à l’esprit :
 
 - Le nom peut être ce que vous décidez.  
 - Types de comptes pris en charge = Compte dans cet annuaire de l’organisation uniquement. 
-- The Web Redirect Uri = https://login.microsoftonline.com/common/oauth2/nativeclient .
+- Uri de redirection web = https://login.microsoftonline.com/common/oauth2/nativeclient .
 - Jetons d’octroi implicites = jetons Access et ID. 
 - Autorisations de l’API = Skype et Teams’accès de l’administrateur client ->'application - > application_access_custom_sba_appliance.
 - Secret client : vous pouvez utiliser n’importe quelle description et expiration. 
 - N’oubliez pas de copier le secret client immédiatement après l’avoir créé. 
-- L’ID d’application (client) s’affiche sous l’onglet Vue d’ensemble.
+- L’ID d’application (client) s’affiche dans l’onglet Vue d’ensemble.
 
 Ensuite, suivez ces étapes :
 
@@ -207,7 +212,7 @@ Signalez les problèmes à l’organisation de support de votre fournisseur SBC.
 
 - Lorsque vous affectez une stratégie d’équipement de branche survivable à un utilisateur, l’utilisation de SBA dans la sortie de Get-CsOnlineUser peut prendre un certain temps. 
 
-- La recherche inversée de nombre par rapport aux contacts Azure AD n’est pas effectuée. 
+- La recherche inversée de nombre par rapport Azure AD Contacts n’est pas effectuée. 
 
 - Le SBA ne prend pas en charge les paramètres de forwardage d’appel. 
 

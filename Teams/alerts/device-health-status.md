@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Surveillance et alertes sur les appareils
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ description: Découvrez comment utiliser les fonctionnalités Teams de surveilla
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735351"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536915"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams d’état des appareils
 
@@ -72,7 +72,7 @@ Tous les appareils de connexion utilisés par la liste d’utilisateurs sélecti
 
 ## <a name="notifications-in-teams-client"></a>Notifications dans Teams client
 
-Les notifications sont remis dans le canal **MonitoringAlerts** créé automatiquement de l’équipe d’alertes et de notifications de **l’administrateur.**
+Les notifications sont remis dans le canal **MonitoringAlerts** créé automatiquement de l’équipe d’alertes et de notifications de **l’administrateur.** Vous recevrez une alerte dans les 15 minutes après que l’appareil sera hors connexion. 
 
 Une notification hors connexion d’appareil peut inclure les informations suivantes :
 

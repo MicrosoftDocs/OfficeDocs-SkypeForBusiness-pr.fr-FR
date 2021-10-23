@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez les étapes permettant de réinitialiser l’ID de conférence d’un utilisateur dans Microsoft Teams et obtenez des liens vers les outils de mise à jour et de migration de réunion.
-ms.openlocfilehash: 9faff7e86480d85c08e4aba4efdce218ee74a9b0
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 3a308be01f84509ea93793d7c2b1bdfd6e084268
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045510"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536485"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Réinitialiser l'ID de conférence d'un utilisateur dans Microsoft Teams
 
@@ -37,7 +37,7 @@ Un ID de conférence dynamique est inclus au bas des invitations aux réunions, 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Réinitialisation de l’ID de conférence d’un utilisateur
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 

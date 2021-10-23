@@ -21,25 +21,25 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment router des appels vers des numéros non insignés dans votre organisation.
-ms.openlocfilehash: 630ee818113cfb69bc25eb893ab384d186ff4137
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60466037"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536995"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Routage des appels vers des numéros non instanés
 
 > [!NOTE]
-> Cette fonctionnalité est disponible sous la version d’aperçu public.
+> Cette fonctionnalité est disponible en version d’aperçu public.
 
-En tant qu’administrateur, vous pouvez router les appels vers des numéros non inscrits dans votre organisation. Par exemple, vous souhaitez peut-être router les appels vers des numéros non insignés comme suit : 
+En tant qu’administrateur, vous pouvez router les appels vers des numéros non inscrits dans votre organisation. Par exemple, vous souhaitez peut-être router les appels vers des numéros non instéraux comme suit : 
 
 - Routez tous les appels vers un numéro non attribué donné vers une annonce personnalisée.
 
-- Routez tous les appels vers un numéro non attribué donné vers le tableau général principal.
+- Routez tous les appels vers un numéro non attribué donné vers le tableau de bord principal.
 
-Vous pouvez router des appels vers des numéros non affectationés vers un utilisateur, un compte de ressource associé à un Standard automatique ou à une file d’attente d’appels, ou vers un service d’annonces qui liera un fichier audio personnalisé à l’appelant. Le fichier audio est liffé à plusieurs reprises jusqu’à ce que l’appelant raccroche.
+Vous pouvez router des appels vers des numéros non affectationés vers un utilisateur, un compte de ressource associé à un Standard automatique ou à une file d’attente d’appels, ou vers un service d’annonces qui liera un fichier audio personnalisé à l’appelant.
 
 ## <a name="configuration"></a>Configuration
 
@@ -51,7 +51,7 @@ Vous devez spécifier le numéro ou la plage de numéros appelés et le routage 
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
 
 
-New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -Priority 1
+New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
 L’exemple suivant spécifie que tous les appels vers la plage de numéro +1 (555) 333-0000 à +1 (555) 333-9999 seront acheminés vers le service d’annonces, qui liera le fichier audio MainAnnouncement.wav à l’appelant.
@@ -63,7 +63,7 @@ $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content 
 
 $fid = [System.Guid]::Parse($AudioFile.Id)
 
-New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -Priority 2
+New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -TreatmentPriority 2
 ```
 
 ## <a name="notes"></a>Remarques

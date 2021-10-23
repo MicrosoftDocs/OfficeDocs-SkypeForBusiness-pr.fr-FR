@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Consultez Microsoft Teams pour affecter une licence de conférence rendez-vous et un ID de conférence à un utilisateur et de nombreux autres paramètres de conférence rendez-vous. '
-ms.openlocfilehash: df2dc849424eed7b6c72cf4a63496a73deb53035
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 24133a85a306aef673660d5b1d7a6dde61ecb23c
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731353"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537015"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Gérer les paramètres d'audioconférence de votre organisation dans Microsoft Teams.
 
@@ -40,13 +40,13 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence Micr
 ## <a name="assign-an-audio-conferencing-license"></a>Affecter une licence d’audioconférence
 
 > [!NOTE]
-> Vous ne pouvez pas attribuer de licences à l’aide Teams. Vous devez utiliser l’Centre d’administration Microsoft 365. Voir [Attribuer Microsoft Teams licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
+> Vous ne pouvez pas attribuer de licences à l’aide Teams. Vous devez utiliser l’Centre d'administration Microsoft 365. Voir [Attribuer Microsoft Teams licences de modules add-on.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
   
  **Pour attribuer une licence à un utilisateur**
   
 1. Connectez-vous Microsoft 365 votre compte scolaire ou scolaire.
     
-2. Dans le navigation gauche du **Centre d’administration Microsoft 365,** sélectionnez Utilisateurs actifs, puis sélectionnez le ou les utilisateurs dans la liste  >  des utilisateurs disponibles.
+2. Dans le navigation gauche du **Centre d'administration Microsoft 365,** sélectionnez Utilisateurs actifs, puis sélectionnez le ou les utilisateurs dans la liste  >  des utilisateurs disponibles.
     
     > [!NOTE]
     > Si vous affectez des licences à 20 utilisateurs maximum simultanément, vous pouvez utiliser la liste déroulante **Sélectionner un affichage**, puis choisir l'une des options ou créer votre propre affichage. Cliquez ensuite sur **Modifier**, deux fois sur **Suivant**, puis sélectionnez la licence et cliquez sur **Envoyer**.  
@@ -60,7 +60,7 @@ Il peut être plus facile de voir tous les paramètres d’audioconférence Micr
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Activer ou désactiver les messages électroniques envoyés aux utilisateurs de l’audioconférence
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
@@ -77,7 +77,7 @@ Pour plus [d’informations, Microsoft Teams la référence PowerShell.](/powers
   
 ## <a name="reset-the-meeting-conference-id"></a>Réinitialisation de l'ID de conférence
 
-![Icône représentant le logo Teams’affichage.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+**Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -91,7 +91,7 @@ Reportez-vous à la rubrique [Réinitialiser l'ID de conférence d'un utilisateu
 
 Chaque réunion qu’un utilisateur planifiera se voit attribuer un ID de conférence unique. Bien qu’un ID de conférence soit automatiquement créé et attribué à un utilisateur, il arrive qu’un utilisateur ne souhaite pas l’utiliser et que vous le définissez sur un nombre donné, ou que vos utilisateurs ne se souvenent pas ou ont perdu leur ID de conférence. 
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -103,7 +103,7 @@ Consultez [réinitialiser le code confidentiel de l’audioconférence.](reset-t
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Envoyer un courrier électronique avec des informations d’audioconférence à un utilisateur
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -116,7 +116,7 @@ Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>Définir les numéros de téléphone inclus dans les invitations
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans le navigation à gauche, cliquez **sur Utilisateurs,** puis sélectionnez l’utilisateur dans la liste des utilisateurs disponibles.
 
@@ -133,7 +133,7 @@ Consultez [Définir les numéros de téléphone inclus dans les invitations.](se
 
 **Définir l’expérience de réunion lorsque les appelants participent à une réunion**
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
@@ -186,7 +186,7 @@ Reportez-vous à la rubrique [Envoyer un message électronique à un utilisateur
     
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Consulter et définir la langue principale (par défaut) et les langues secondaires (secondaires) d’un pont d’audioconférence
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 
@@ -201,7 +201,7 @@ Reportez-vous à la rubrique [Définir les langues du standard automatique pour 
   
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Consulter les numéros d’accès pour les conférences audio
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence). 
 

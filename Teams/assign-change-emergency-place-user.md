@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: Dans cet article, vous allez découvrir comment affecter ou modifier l’emplacement d’urgence d’un emplacement pour les utilisateurs de votre organisation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465974"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537205"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Affectation ou modification de l’emplacement d’urgence d’un utilisateur
 
-Chaque numéro de téléphone actif doit avoir un emplacement d’urgence associé lorsque vous attribuez le numéro de téléphone à un utilisateur. **Vous associez l’adresse lorsque vous obtenez un numéro de téléphone dans Microsoft 365, lorsque vous transférez un numéro de téléphone vers Microsoft 365 ou lorsque vous obtenez un numéro de téléphone de votre fournisseur.**
+Chaque numéro de téléphone actif doit avoir un emplacement d’urgence associé lorsque vous attribuez le numéro de téléphone à un utilisateur. Vous associez l’adresse lorsque vous obtenez un numéro de téléphone dans Microsoft 365, lorsque vous transférez un numéro de téléphone vers Microsoft 365 ou lorsque vous obtenez un numéro de téléphone de votre fournisseur.
 
-Lorsque vous associez le numéro à un emplacement d’urgence, vous pouvez également ajouter un emplacement pour fournir un emplacement plus exact dans un emplacement physique. Il peut s’agit de l’étage, de l’aile d’un bâtiment ou du numéro du bureau où se trouve l’utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour un emplacement d’urgence donné, et vous pouvez changer d’emplacement si l’utilisateur change de bureau ou de bâtiment. Par exemple, si l’utilisateur passe de l’étage 34 au 35e.
+Lorsque vous associez le numéro à un emplacement d’urgence, vous pouvez également ajouter un emplacement pour fournir un emplacement plus exact dans un emplacement physique. Il peut s’agit de l’étage, de l’aile d’un bâtiment ou du numéro du bureau où se trouve l’utilisateur. Vous pouvez avoir un nombre illimité d’emplacements pour un emplacement d’urgence donné, et vous pouvez changer d’emplacement si l’utilisateur change de bureau ou de bâtiment. Par exemple, si l’utilisateur passe du 34e au 35e étage.
   
 Vous pouvez affecter ou modifier l’emplacement d’urgence d’un utilisateur dans le Microsoft Teams d’administration ou à l’aide de PowerShell.
 
@@ -55,7 +55,7 @@ Voir [Set-CsOnlineLisLocation.](/powershell/module/skype/set-csonlinelislocation
     
 ## <a name="related-topics"></a>Sujets associés
 
-- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Affecter ou modifier un emplacement d’urgence pour un utilisateur](assign-change-emergency-location-user.md)

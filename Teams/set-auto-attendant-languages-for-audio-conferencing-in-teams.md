@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Découvrez comment sélectionner les langues du attendant automatique d’audioconférence pour un numéro d’audioconférence dans Microsoft Teams.
-ms.openlocfilehash: e96ebaff3c14dc9c7f09ceea63de7bec2d409758
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ce436d7671cf9467371ee6ddda4ab79b9805ddd8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731973"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537065"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Définir les langues de standard automatique pour l’audioconférence dans Microsoft Teams
 
@@ -43,7 +43,7 @@ Choisir une langue principale et jusqu’à quatre langues secondaires. La langu
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Définir les langues du attendant automatique de conférence
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **Utiliser le centre d’administration Microsoft Teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Dans la barre de navigation de gauche, accédez à **Réunions** > **Conference Bridges** (Ponts de conférence).
 

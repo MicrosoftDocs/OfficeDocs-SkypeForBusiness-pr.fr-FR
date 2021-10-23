@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Découvrez comment configurer la Conférence rendez-vous ou l’Audioconférence pour les membres de votre entreprise qui doivent utiliser un téléphone pour participer à des téléconférences. '
-ms.openlocfilehash: f520d9c77fb04a27dbb43194edb24f1080627a51
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: b61e03301f7d45cabd846c96097aee4cb971b635
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046300"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537025"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurer l’audioconférence pour Microsoft Teams
 
@@ -78,18 +78,17 @@ Une fois que vous obtenez vos numéros de téléphone payants et/ou gratuits pou
 
 Suivez ces étapes pour affecter un nouveau numéro de téléphone à votre pont d’audioconférence.
 
-![Icône représentant le logo Skype Entreprise’affichage.](media/sfb-logo-30x30.png) **À l’aide Skype Entreprise centre d’administration :**
+ **À l’aide Microsoft Teams centre d’administration :**
 
- 1. Accédez au **Centre d’administration Microsoft 365** > **Centres d’administration** > **Teams** > **Portail de l'héritage**.
- 2. Sélectionnez **Voice** > **Numéros de téléphone**.
- 3. Sélectionnez le numéro de téléphone, puis cliquez sur **Affecter**.
+ 1. À partir de la page d’accueil, **allez à Voice**  >  **Téléphone.**
+ 2. Sélectionnez le numéro de téléphone, puis cliquez sur **Affecter**.
 
 Pour plus d’informations, consultez la rubrique [Modifier les numéros de téléphone sur votre pont d’audioconférence](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>Étape 5 : définition des langues par défaut et autres langues de remplacement pour un pont de conférence
 <a name="__top"> </a>Ensuite, vous devez [Définir les langues du standard automatique pour les audioconférences dans Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que le standard automatique de la conférence utilisera pour accueillir les appelants lorsqu’ils se connecteront à un numéro de téléphone pour une audioconférence. 
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
+ **À l’aide Microsoft Teams centre d’administration :**
 
 1. Depuis la page d’accueil, allez sur **des ponts de conférence**  >  **Réunions.**
 2. Sélectionnez le numéro de téléphone de pont de conférence, cliquez sur **Modifier**, puis choisissez la langue par défaut.
@@ -99,7 +98,7 @@ Pour plus d’informations, consultez la rubrique [Modifier les numéros de tél
     
 Après avoir configuré votre pont de conférence, vérifiez que les paramètres par défaut, tels que les notifications d’entrée/sortie et la longueur du code confidentiel sont ceux que vous souhaitez utiliser. Si ce n’est pas le cas, vous pouvez les modifier. 
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
+ **À l’aide Microsoft Teams centre d’administration :**
 
 1. Depuis la page d’accueil, allez sur **des ponts de conférence**  >  **Réunions.**
 2. Sélectionnez **Paramètres de Bridge**. Cela ouvrira le volet **Paramètres de pont**. 
@@ -112,7 +111,7 @@ Après avoir créé un pont d’audioconférence, vous devez définir les numér
 
 Vous devez effectuer cette opération pour toutes les personnes de votre entreprise qui animent ou qui planifient des réunions. 
 
-![Icône représentant le Microsoft Teams logo.](media/teams-logo-30x30.png) **À l’aide Microsoft Teams centre d’administration :**
+ **À l’aide Microsoft Teams centre d’administration :**
 
 1. Dans la page d’accueil, cliquez **sur Utilisateurs,** sélectionnez l’utilisateur dans la liste, puis sélectionnez **Modifier.**
 2. Sélectionnez **Modifier** à côté de **Audioconférence**, puis dans le volet **Audioconférence**, choisissez un numéro dans les listes de **numéros payants** et de **numéros gratuits**.
