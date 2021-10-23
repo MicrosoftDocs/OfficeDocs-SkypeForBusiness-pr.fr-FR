@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 34c255dab5f2f231735abeba9a03ed091d10c205
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731943"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536565"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Présentation des équipes et des canaux dans Microsoft Teams
 
@@ -73,11 +73,11 @@ De plus, si la modération est mise en place, les propriétaires et les membres 
 
 **Paramètres de l’équipe** 
 
-Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Microsoft Teams. Les paramètres incluent la possibilité d’ajouter un avatar pour l’équipe, de définir les autorisations entre les membres pour créer des canaux standards et des [canaux privés](private-channels.md), d’ajouter des onglets et des connecteurs, de @mentionner toute l’équipe ou le canal, et d’utiliser des fichiers GIF, des autocollants et des mèmes.
+Les propriétaires d’équipe peuvent gérer les paramètres à l’échelle de l’équipe directement dans Teams. Les paramètres incluent la possibilité d’ajouter un avatar pour l’équipe, de définir les autorisations entre les membres de l’équipe pour créer des canaux standards et des [canaux privés](private-channels.md), d’ajouter des onglets et des connecteurs, de @mentionner toute l’équipe ou le canal, et d’utiliser des fichiers GIF, des autocollants et des mèmes.
 
 Si vous êtes administrateur Teams dans Microsoft 365, vous avez accès aux paramètres à l’échelle du système dans le Centre d’administration Teams. Ces paramètres peuvent avoir une incidence sur les options et valeurs par défaut que les propriétaires d'équipe voient sous les paramètres de l’équipe. Par exemple, vous pouvez activer un canal « Général » par défaut, pour les annonces, discussions et ressources de l’équipe, qui s’afficheront pour toutes les équipes.
 
-Par défaut, tous les utilisateurs sont autorisés à créer une équipe dans Microsoft Teams. Pour modifier cela, consultez [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md).
+Par défaut, tous les utilisateurs sont autorisés à créer une équipe. Pour modifier ceci, consultez la rubrique [Attribuer des rôles et des autorisations dans Teams](assign-roles-permissions.md).
 
 L’une des principales activités de planification pour impliquer les utilisateurs dans Teams consiste à aider les utilisateurs à réfléchir et à comprendre comment Teams peut améliorer la collaboration dans leur vie quotidienne. Discutez avec les utilisateurs et aidez-les à sélectionner les scénarios d’entreprise dans lesquels ils collaborent actuellement de manière fragmentée. Rassemblez-les dans un canal avec les onglets pertinents qui les aideront à effectuer leur travail. Un des cas d’utilisation les plus puissants de Teams est un processus inter-organisationnel.
 
@@ -111,7 +111,7 @@ Il est possible de créer des équipes qui s’alignent sur la structure organis
 
 ## <a name="org-wide-teams"></a>Équipes à l’échelle de l’organisation
 
-Si votre organisation a pas plus de 5 000 utilisateurs, vous pouvez créer une équipe de l’échelle de l’organisation. Les équipes à l’échelle de l’organisation fournissent un moyen automatique pour tous les membres d’une organisation de faire partie d’une équipe unique pour la collaboration. Pour plus d’informations, notamment les meilleures pratiques pour créer et gérer une équipe l’échelle de l’organisation, voir [Créer une équipe de l’échelle de l’organisation dans Microsoft Teams](create-an-org-wide-team.md).
+Si votre organisation a pas plus de 10 000 utilisateurs, vous pouvez créer une équipe à l’échelle de l’organisation. Les équipes à l’échelle de l’organisation fournissent un moyen automatique pour tous les membres d’une organisation de faire partie d’une équipe unique pour la collaboration. Pour plus d’informations, notamment les meilleures pratiques pour créer et gérer une équipe l’échelle de l’organisation, voir [Créer une équipe de l’échelle de l’organisation dans Microsoft Teams](create-an-org-wide-team.md).
 
 ## <a name="next-steps"></a>Étapes suivantes
 

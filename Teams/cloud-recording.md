@@ -19,12 +19,12 @@ description: Conseil pratique pour le déploiement de fonctionnalités vocales c
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462388"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536895"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Enregistrement de réunion cloud Teams
 
@@ -261,9 +261,9 @@ La taille d’un enregistrement de 1 heure est de 400 Mo. Veillez à bien compre
 >
 > La fonctionnalité d’expiration automatique décrite dans cet article n’est pas encore lancée. Veuillez-vous référer à [la feuille de route (ID de fonctionnalité : 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) pour plus d’informations sur sa date de livraison.
 > 
-> Nous fournissons des informations sur le fonctionnement de cette fonctionnalité dans l’avenir, afin que vous puissiez planifier cette modification et modifier les paramètres de stratégie Teams à l’avance.
+> Nous fournissons des informations sur le futur fonctionnement de cette fonctionnalité dans l’avenir, afin que vous puissiez planifier cette modification et modifier les paramètres de stratégie Teams à l’avance.
 >
-> Le CMD permettant de modifier de manière préemptive le paramètre d’expiration par défaut dans Teams n’est pas encore disponible pour être défini.  Nous publierons une publication du centre de messages mise à jour lorsque le paramètre pourra être modifié.
+> La commande qui modifie de façon préventive le paramètre d’expiration par défaut dans Teams est en cours de déploiement, mais vous pouvez peut-être voir l’attribut dans PowerShell. Le paramètre n’est actuellement pas disponible dans les Centres d’administration Teams. Ces paramètres seront disponibles et communiqués dans un billet du centre de messages au moins 30 jours avant le lancement de la fonctionnalité.
 >
 >
 
@@ -309,14 +309,20 @@ Oui, la date d’expiration est définie par fichier. Les utilisateurs peuvent m
 
 **Comment un administrateur peut-il modifier la date d’expiration ?**
   
-Les administrateurs pourront modifier le paramètre d’expiration par défaut dans PowerShell ou le Centre Teams d’administration des utilisateurs avant la publication de la fonctionnalité. **Le paramètre n’est pas encore disponible pour la modification**. Nous publierons une publication mise à jour du centre de messages lorsque le paramètre pourra être modifié. Au lancement de la fonctionnalité, les administrateurs peuvent modifier ce paramètre dans le Centre d’administration Teams. La modification des paramètres d’expiration aura un impact uniquement sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. 
+Les administrateurs peuvent modifier le paramètre d’expiration par défaut dans PowerShell ou le Centre d’administration Teams des utilisateurs avant la publication de la fonctionnalité. La modification des paramètres d’expiration aura uniquement un impact sur les TMRs nouvellement créés à partir de ce point. Cela n’aura aucun impact sur les enregistrements effectués avant cette date. Les nouveaux enregistrements n’expireront pas automatiquement jusqu’à la publication de la fonctionnalité, même si vous pouvez définir l’attribut de stratégie avant sa publication.
 
-Les valeurs de jours d’expiration peuvent être définies comme suit :
+La valeur de jours d’expiration peut être définie comme suit :
   
 - La valeur peut être de 1 à 9 999.
 - La valeur peut également être -1 pour que le TMR n’expire jamais. 
  
 Les administrateurs ne peuvent pas modifier la date d’expiration des TMRs existants déjà chargés sur OneDrive ou SharePoint avant la publication de cette fonctionnalité. Cela protège l’intention de l’utilisateur propriétaire du TMR.
+  
+Pour modifier le comportement d’expiration automatique par défaut de votre client, modifiez l’attribut suivant dans PowerShell. Dans cet exemple, la valeur par défaut est remplacée par 50 jours.
+ 
+Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDays 50
+
+La possibilité de modifier le paramètre par défaut dans le Centre d’administration Teams sera déployée ultérieurement, au moins 30 jours avant notre activation de la fonctionnalité d’expiration automatique par défaut.
   
 **Un administrateur peut-il définir les TMR pour qu’ils n’expirent jamais ?**
   
@@ -459,7 +465,7 @@ Si vous êtes un administrateur, vous pouvez utiliser l'outil de diagnostic suiv
    > [!div class="nextstepaction"]
    > [Exécuter des tests : enregistrement de réunion manquant](https://aka.ms/MissingRecordingDiag)
 
-2. Dans le volet Exécuter le diagnostic, saisissez l'URL de la réunion dans le champ **URL de la réunion qui a été enregistrée** (généralement trouvée dans l'invitation à la réunion) ainsi que la date de la réunion dans le champ **Quand la réunion a-t-elle été enregistrée ? ** , puis sélectionnez **Exécuter les tests**.
+2. Dans le volet Exécuter le diagnostic, saisissez l'URL de la réunion dans le champ **URL de la réunion qui a été enregistrée** (généralement trouvée dans l'invitation à la réunion), ainsi que la date de la réunion dans le champ **Quand la réunion a-t-elle été enregistrée ?**, puis sélectionnez **Exécuter les tests**.
 
 3. Les tests valideront que l'enregistrement de la réunion s'est terminé avec succès et qu'il a été téléchargé sur Stream ou OneDrive.
 
