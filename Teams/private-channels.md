@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer les canaux privés dans Microsoft Teams.
-ms.openlocfilehash: 5d942e268639e30a95878485a931cf1af5be87d5
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 1f86ceba18a234d7b3a1f41ebdbfe58c777beedf
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045690"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536555"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canaux privés dans Microsoft Teams
 
@@ -93,7 +93,6 @@ Chaque canal privé possède ses propres sites SharePoint. Le site séparé vise
 
 > [!NOTE]
 > Seuls les utilisateurs ayant des autorisations de propriétaire ou de membre Microsoft Teams ont accès au contenu du site de canal privé.
-> Les sites SharePoint des canaux privés ne sont pas inclus dans la page Sites actifs du nouveau Centre d'administration SharePoint.
 > Les sites SharePoint de canal privé créés après le 28 juin 2021 auront l’ID de modèle personnalisé TEAMCHANNEL#1.
 
 Un site de canaux privés synchronise la classification des données et hérite des autorisations d’accès invité du site de l’équipe parente. L’adhésion au propriétaire du site et aux groupes de membres, est synchronisée avec l’adhésion au canal privé au sein de Teams. Les autorisations de site pour un site de canal privé ne peuvent pas être gérées indépendamment via SharePoint. 

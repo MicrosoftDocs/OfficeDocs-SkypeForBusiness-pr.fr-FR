@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973012"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536705"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, équipes, canaux et applications dans Microsoft Teams
 
@@ -34,11 +34,11 @@ Teams offre une expérience de collaboration prête à l’utilisation pour votr
 
 Pour commencer, regardez notre courte vidéo sur les conversations, équipes et canaux Teams (4:30 minutes) :
 
+<br/>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*Nouveautés de novembre 2019*
- - Vous pouvez désormais [Utiliser Advisor pour Teams (préversion) pour faciliter le déploiement de Microsoft Teams](use-advisor-teams-roll-out.md). Advisor for Teams (préversion) vous guide tout au long du processus de déploiement de Teams. Il évalue votre environnement Microsoft 365 ou Office 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.
- - [Les indispensables de Microsoft Teams pour les canaux IT YouTube](https://aka.ms/MicrosoftTeamsforIT), y compris les vidéos courtes (8-10 minutes) qui montrent comment déployer, configurer et gérer Teams.
+Vous pouvez utiliser [Advisor pour Teams](use-advisor-teams-roll-out.md) pour vous aider à déployer Microsoft Teams. Advisor for Teams vous guide tout au long de votre déploiement Teams. Il évalue votre environnement Microsoft 365 et identifie les configurations les plus courantes que vous devrez peut-être mettre à jour ou modifier avant de pouvoir déployer Teams.
 
 > [!TIP]
 > Nous vous recommandons d’inclure nos applications proposées (par exemple, le Planificateur) dans votre déploiement initial concernant Teams. Ajoutez d’autres [applications, bots et connecteurs](deploy-apps-microsoft-teams-landing-page.md) pour favoriser l’adoption des services Teams.
@@ -102,7 +102,7 @@ L’accès externe (appelé auparavant « fédération ») permet à vos utilisa
 
 ### <a name="guest-access"></a>Accès invité
 
-L’accès invité dans Teams permet à des personnes en dehors de votre organisation d’avoir accès aux équipes et canaux. Vous pouvez utiliser les paramètres d’accès invité pour contrôler les fonctionnalités que les invités peuvent ou ne peuvent pas utiliser. L’accès invité est activé par défaut. Pour plus d’informations, voir [Accès invité dans Teams](./guest-access.md).
+L’accès invité dans Teams permet à des personnes en dehors de votre organisation d’avoir accès aux équipes et canaux. Vous pouvez utiliser les paramètres d’accès invité pour contrôler les fonctionnalités que les invités peuvent ou ne peuvent pas utiliser. L’accès invité est désactivé par défaut. Pour plus d’informations, consultez [Accès invité dans Teams](./guest-access.md).
 
 > [!NOTE]
 > Pour plus d’informations sur l’accès externe et l’accès hôte, consultez ici [Communiquer avec des utilisateurs d’autres organisations dans Microsoft Teams](communicate-with-users-from-other-organizations.md)

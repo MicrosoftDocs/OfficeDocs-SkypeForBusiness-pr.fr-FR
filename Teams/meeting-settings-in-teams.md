@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730643"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537095"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -37,7 +37,7 @@ En tant qu'administrateur, vous utilisez les paramètres de réunions Teams pour
 
 Avec l'association de façon anonyme, tout le monde peut participer à la réunion en tant qu’utilisateur anonyme en cliquant sur le lien dans l’invitation à la réunion. Pour en savoir plus, voir [Rejoindre une réunion sans disposer de compte Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 Vous devez être un administrateur du service Teams pour apporter ces modifications. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
@@ -59,7 +59,7 @@ Les utilisateurs anonymes héritent désormais de la stratégie d’autorisation
 > [!IMPORTANT]
 > Par défaut, le paramètre permettant aux utilisateurs anonymes d’interagir avec les applications dans les réunions est activé.
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 Vous devez être administrateur du service Teams pour accéder à ce paramètre. Voir [Gérer Teams grâce aux rôles d’administrateur Teams](./using-admin-roles.md) afin d’en savoir plus sur l’obtention de rôles et d’autorisations d’administrateur.
 
@@ -86,7 +86,7 @@ Vous pouvez personnaliser les invitations aux réunions Teams pour répondre aux
 
 ### <a name="customize-your-meeting-invitations"></a>Personnalisez vos invitations à des réunions
 
-![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+ **Utiliser le centre d’administration Microsoft Teams**
 
 1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
@@ -111,7 +111,7 @@ Si vous utilisez la fonctionnalité Qualité de service (QoS) pour hiérarchiser
 > [!IMPORTANT]
 > Si vous activez la Qualité de service (QoS) ou si vous modifiez les paramètres dans le centre d’administration Microsoft Teams pour le service Teams, vous devez également [appliquer les paramètres correspondants à tous les appareils d’utilisateurs](QoS-in-Teams-clients.md) et tous les appareils de réseau interne afin d’implémenter totalement les modifications apportées à QoS dans Teams.
 
- ![Icône affichant le logo Microsoft Teams](media/teams-logo-30x30.png) **Utilisation du centre d’administration Microsoft teams**
+  **Utiliser le centre d’administration Microsoft Teams**
 1. Accédez au centre d’administration.
 2. Dans la barre de navigation de gauche, accédez à **Réunions** > **Paramètres de réunions**.
 3. Sous **Réseau**, procédez comme suit :
@@ -121,9 +121,9 @@ Si vous utilisez la fonctionnalité Qualité de service (QoS) pour hiérarchiser
     - Pour autoriser l’utilisation de la fonctionnalité de marquage DSCP pour la qualité de service (QoS), activez **Insérer des marqueurs de Qualité de service (QoS) pour le trafic média en temps réel**. Vous avez seulement la possibilité d’utiliser ou de ne pas utiliser des marqueurs. Vous ne pouvez pas créer des marqueurs personnalisés par type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method).
         > [!NOTE]
         > Le balisage DSCP est généralement effectué via les ports source et le trafic UDP acheminera vers le relais de transport avec le port de destination 3478 par défaut. Si votre entreprise exige un marquage sur les ports de destination, contactez le support technique pour activer la communication vers le relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
-    - Pour spécifier des plages de ports, près de **Sélectionner une plage de port par type de trafic média en temps réel**, sélectionnez **Spécifiez les plages de ports**, puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est nécessaire pour implémenter QoS. 
+    - Pour spécifier des plages de ports, près de **Sélectionnez une plage de ports pour chaque type de trafic de multimédia en temps réel**, sélectionnez **Spécifier des plages de ports**, puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est requise pour implémenter QoS. 
         > [!Note]
-        > Si **Marqueurs de qualité de service (QoS) pour le trafic multimédia en temps réel** est activé, vous devez gérer les paramètres de vos ports. Ils ne sont pas gérés automatiquement.
+        > Si **Marques de qualité de Service (QoS) pour le trafic multimédia en temps réel** est activé, vous devez gérer les paramètres de vos ports. Ils ne sont pas gérés automatiquement.
         
         > [!IMPORTANT]
         > Si vous sélectionnez **Utiliser automatiquement les ports disponibles**, les ports disponibles entre 1024 et 65535 sont utilisés. Utilisez cette option uniquement lorsque la Qualité de service n’est pas mise en œuvre.
@@ -143,4 +143,4 @@ Type de trafic média| Plage de port source du client \* |Protocole|Valeur DSCP|
 
 \* Les plages de ports que vous attribuez ne peuvent pas se chevaucher et doivent être adjacentes.
 
-Une fois que vous utilisez QoS depuis un certain temps, vous disposez d’informations sur la demande de chacune de ces trois charges de travail, et vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. Le [Tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md) est utile avec cette fonctionnalité.
+Une fois que vous utilisez QoS depuis un certain temps, vous disposez des informations d’utilisation sur la demande de chacune de ces trois charges de travail et vous pouvez choisir les modifications à apporter en fonction de vos besoins spécifiques. Le [Tableau de bord de qualité des appels](turning-on-and-using-call-quality-dashboard.md) est utile pour cette opération.

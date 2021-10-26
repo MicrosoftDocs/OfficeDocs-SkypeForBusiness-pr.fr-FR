@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727813"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537055"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Se connecter à Microsoft Teams
 
@@ -99,8 +99,8 @@ Configurez les paramètres de configuration suivants dans le portail Azure Intun
 |Plateforme |Clé  |Valeur  |
 |---------|---------|---------|
 |iOS     |  **IntuneMAMAllowedAccountsOnly**       | **Activé** : le seul compte autorisé est le compte d’utilisateur géré défini par la clé IntuneMAMUPN.<br> **Désactivé** (ou toute valeur qui n’est pas une correspondance non sensible à la casse à **Activé**) : tout compte est autorisé.        |
-|iOS     |   **IntuneMAMUPN**      |   Nom d’utilisateur principal du compte autorisé à se connecter à Teams.<br> Pour les appareils inscrits sur Intune, le jeton {{userPrincipalName}} peut être utilisé pour représenter le compte d’utilisateur inscrit.       |
-|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Seul le ou les comptes autorisés sont les comptes d’utilisateur gérés définis par cette clé.<br> Un ou plusieurs point-virgule ;] - UPN délimités.<br> Pour les appareils inscrits sur Intune, le jeton {{userPrincipalName}} peut être utilisé pour représenter le compte d’utilisateur inscrit.
+|iOS     |   **IntuneMAMUPN**      |   Nom d’utilisateur principal du compte autorisé à se connecter à Teams.<br> Pour les appareils inscrits sur Intune, le jeton {{userprincipalname}} peut être utilisé pour représenter le compte d’utilisateur inscrit.       |
+|Android     |**com.microsoft.intune.mam.AllowedAccountUPNs**         |    Seul le ou les comptes autorisés sont les comptes d’utilisateur gérés définis par cette clé.<br> Un ou plusieurs point-virgule ;] - UPN délimités.<br> Pour les appareils inscrits sur Intune, le jeton {{userprincipalname}} peut être utilisé pour représenter le compte d’utilisateur inscrit.
 
 Une fois la configuration du compte définie, Teams restreint la possibilité de se connecter, de sorte que seuls les comptes autorisés sur les appareils inscrits bénéficient de l'accès.
 
@@ -119,7 +119,7 @@ Lorsque cette stratégie est configurée sur un appareil, les utilisateurs peuve
 >1. La stratégie restreint uniquement les connexions. Cela ne limite pas la possibilité pour les utilisateurs d'être invités en tant qu'invités dans d'autres clients Azure AD, ou de passer à ces autres clients (où les utilisateurs ont été invités en tant qu'invités).
 >2. La stratégie requiert Teams pour Windows version 1.3.00.30866 ou ultérieure, et Teams pour MacOS version 1.3.00.30882 (publiée mi-novembre 2020).
 
-**Les stratégies pour Windows** Fichiers de modèles d’administration (ADMX/ADML) sont disponibles dans le [Centre de téléchargement](https://www.microsoft.com/download/details.aspx?id=49030) (le nom descriptif du paramètre de stratégie dans le fichier modèle d’administration est « Restreindre la connexion à Teams aux comptes de clients spécifiques »). En outre, vous pouvez spécifier manuellement les clés dans le Registre Windows :
+**stratégies pour les fichiers de modèles d’administration Windows** (ADMX/ADML) sont disponibles à partir du [centre de téléchargement](https://www.microsoft.com/download/details.aspx?id=49030) (le nom descriptif du paramètre de stratégie dans le fichier de modèle d’administration est « Restreindre la connexion à Teams aux comptes dans des locataires spécifiques »). En outre, vous pouvez définir manuellement des clés dans le Registre Windows :
 
 - Nom de la valeur : RestrictTeamsSignInToAccountsFromTenantList
 - Type de valeur : chaîne
@@ -145,10 +145,8 @@ L’expérience de connexion est similaire à l’expérience de signature Teams
 
 ## <a name="urls-and-ip-address-ranges"></a>URL et plages d’adresses IP
 
-Teams a besoin d’une connexion à Internet. Pour comprendre les points de terminaison pouvant être atteints pour les clients qui utilisent Teams dans les plans Office 365, Secteur Public et autres cloud, consultez [URLs et plages d’adresses IP d’Office 365](/office365/enterprise/urls-and-ip-address-ranges).
+Microsoft Teams requiert un accès à internet pour comprendre les points de terminaison pouvant être atteints pour les clients qui utilisent Teams dans les plans Office 365, Secteur Public et autres cloud, consultez [URLs et plages d’adresses IP d’Office 365](/office365/enterprise/urls-and-ip-address-ranges).
 
-> [!IMPORTANT]
-> Pour l’instant, Teams a besoin d’accéder (port TCP 443) au service Google ssl.gstatic.com pour tous les utilisateurs, c’est vrai même si vous n’utilisez pas Gstatic. Teams supprimera cette exigence prochainement (début 2020). nous mettrons à jour cet article en conséquence.
 
 ## <a name="related-topics"></a>Voir aussi
 
