@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instructions sur la gestion des entrées DNS lors de la désaffectation de votre environnement Skype Entreprise local.
-ms.openlocfilehash: 70255314ecf87d55ef578a4daa0390b46179349c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7c6e803b089d8a34703dc26ea93e207c6d7aedf6
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735321"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579664"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>Mettre à jour les entrées DNS pour permettre à votre organisation d’être Teams uniquement
 
@@ -35,7 +35,7 @@ Lorsque vous tentez d’accorder TeamsOnly à l’ensemble du client, Teams vér
 
 ## <a name="how-to-identify-stale-dns-records"></a>Comment identifier les enregistrements DNS obsolètes
 
-Pour identifier les enregistrements DNS qui empêchent votre organisation de devenir tous les enregistrements Teams Uniquement, vous pouvez utiliser le Centre d’administration Teams pour modifier le mode de coexistence en TeamsOnly. Go to **Org-wide setting**  ->  **Teams Upgrade**. Tous les enregistrements DNS qui empêchent l’organisation de devenir Teams Uniquement seront inclus dans le message d’erreur.  Si aucun enregistrement DNS n’est trouvé, le mode de coexistence de votre organisation est changé en TeamsOnly.   
+Pour identifier les enregistrements DNS qui empêchent votre organisation de devenir tous les enregistrements Teams Uniquement, vous pouvez utiliser le Centre d’administration Teams pour modifier le mode de coexistence en TeamsOnly. Go to **Teams**  >  **Teams upgrade settings**. Tous les enregistrements DNS qui empêchent l’organisation de devenir Teams Uniquement seront inclus dans le message d’erreur.  Si aucun enregistrement DNS n’est trouvé, le mode de coexistence de votre organisation est changé en TeamsOnly.   
 
 Vous pouvez également utiliser Teams PowerShell pour faire la même chose, comme illustré ci-dessous :
 
@@ -68,7 +68,7 @@ En outre, les enregistrements CNAME pour la meet ou dialin (le cas présent) peu
 >
 > - Toutes les organisations fédérées qui utilisent l’ancien modèle de fédération directe (également appelé serveur partenaire autorisé) doivent mettre à jour leurs entrées de domaine autorisées pour que leur organisation supprime le nom de domaine réservé au proxy. Ce modèle de fédération hérité n’est pas basé sur des enregistrements DNS SRV, de sorte qu’une telle configuration ne sera plus à jour une fois que votre organisation sera installée dans le cloud.
 > 
-> - Toute organisation fédérée qui n’a pas de fournisseur d’hébergement activé pour sipfed.online.lync. <span> com devra mettre à jour sa configuration pour l’activer. Cette situation n’est possible que si l’organisation fédérée est purement sur site et n’a jamais été fédérée avec un client hybride ou en ligne. Dans ce cas, la fédération avec ces organisations ne fonctionne pas tant qu’elles n’ont pas activé leur fournisseur d’hébergement.
+> - Toute organisation fédérée qui n’a pas de fournisseur d’hébergement activé pour sipfed.online.lync. <span> com devra mettre à jour sa configuration pour l’activer. Cette situation n’est possible que si l’organisation fédérée est purement en local et n’a jamais été fédérée avec un client hybride ou en ligne. Dans ce cas, la fédération avec ces organisations ne fonctionne pas tant qu’elle n’a pas activé son fournisseur d’hébergement.
 >
 > Si vous pensez que l’un de vos partenaires fédérés peut utiliser la fédération directe ou n’avoir été fédéré avec aucune organisation en ligne ou hybride, nous vous suggérons de leur envoyer une communication à ce sujet lorsque vous vous préparez à terminer votre migration vers le cloud.
   

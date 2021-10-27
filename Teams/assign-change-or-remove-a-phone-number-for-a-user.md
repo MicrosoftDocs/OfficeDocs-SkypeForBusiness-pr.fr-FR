@@ -20,36 +20,39 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment attribuer, modifier ou supprimer un numéro de téléphone privé pour vos utilisateurs Teams entreprise et clients externes.
-ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536505"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579514"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Affectation, modification ou suppression du numéro de téléphone d’un utilisateur
 
 Lorsque vous définissez des forfaits d’appels ou des Connecter, vous affectez des numéros de téléphone à vos utilisateurs. Dans Microsoft Teams, le numéro de téléphone que vous affectez est répertorié lorsqu’un utilisateur clique sur **Appels.** 
 
-Cet article s’applique aux forfaits d’appels et aux Connecter. Pour plus d’informations sur l’attribution, la modification ou la suppression d’un numéro de téléphone d’un utilisateur dans un scénario de routage direct, voir Activer le [routage direct,](./direct-routing-enable-users.md)la voix et la messagerie vocale des utilisateurs.
+Cet article s’applique aux forfaits d’appels et aux Connecter. Pour plus d’informations sur l’attribution, la modification ou la suppression du numéro de téléphone d’un utilisateur dans un scénario de routage direct, voir Activer le [routage direct,](./direct-routing-enable-users.md)la voix et la messagerie vocale pour les utilisateurs.
 
-Avant d’affecter un numéro pour un plan d’appels ou un Connecter utilisateur, vous devez obtenir des numéros pour vos utilisateurs. Pour plus d’informations, voir Obtenir des numéros pour les utilisateurs [d’un plan](getting-phone-numbers-for-your-users.md) d’appels ou Configurer des numéros pour les utilisateurs [Connecter d’appels.](operator-connect-configure.md#set-up-phone-numbers)
+Avant d’affecter un numéro pour un plan d’appels ou un Connecter utilisateur, vous devez obtenir des numéros pour vos utilisateurs. Pour plus d’informations, voir Obtenir des numéros pour les utilisateurs d’un [plan](getting-phone-numbers-for-your-users.md) d’appels ou Configurer des numéros pour les utilisateurs [de l Connecter d’appels.](operator-connect-configure.md#set-up-phone-numbers)
 
   
 > [!NOTE]
 > Pour savoir si une licence a été attribuée à un utilisateur, vous pouvez vous rendre dans le Centre d’administration Microsoft Teams d'> **utilisateurs.** Si une licence est attribuée, elle sera indiquée dans la page.  Vous pouvez également utiliser l’Centre d'administration Microsoft 365.
+
+> [!NOTE]
+> Cette remarque s’applique aux clients qui ont un déploiement hybride avec un Active Directory local. Si vous voulez affecter un plan d’appels ou un numéro de téléphone d’opérateur Connecter à un compte d’utilisateur ou de ressource, vous devez vous assurer que le numéro de téléphone dans l’Active Directory local a été supprimé et que la modification a été synchronisée avec Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Affectation d’un numéro de téléphone à un utilisateur
 
-Lorsque vous affectez un numéro de téléphone à un utilisateur, assurez-vous que le numéro de téléphone et l’emplacement d’utilisation de l’utilisateur sont dans le même pays.
+Lors de l’attribution d’un numéro de téléphone à un utilisateur, assurez-vous que le numéro de téléphone et l’emplacement d’utilisation de l’utilisateur sont dans le même pays.
 
-Pour attribuer un numéro à l’aide du Centre Teams’administration :
+Pour attribuer un numéro à l’aide du Teams d’administration :
     
 1. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
 
 2. Dans la page **Téléphone numéros** de téléphone, sélectionnez un numéro non publié dans la liste, puis cliquez sur **Modifier.**  
 
-3. Dans le **volet Édition,** sous **Affecté à,** recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **Attribuer.**
+3. Dans le **volet Modifier,** sous **Affecté à,** recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **Attribuer.**
 
 4. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
 
@@ -80,7 +83,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 Pour modifier le numéro de téléphone d’un utilisateur à l’aide du Centre Teams’administration :
     
-1. Dans la barre de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
+1. Dans le groupe de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
 
 2. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
 
@@ -92,7 +95,7 @@ Pour modifier le numéro de téléphone d’un utilisateur à l’aide du Centre
 
 6. Dans la page **Téléphone numéros** de téléphone, sélectionnez un numéro non publié dans la liste, puis cliquez sur **Modifier.**  
 
-7. Dans le **volet Édition,** sous **Affecté à,** recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **Attribuer.**
+7. Dans le **volet Modifier,** sous **Affecté à,** recherchez l’utilisateur par nom d’affichage ou nom d’utilisateur, puis cliquez sur **Attribuer.**
 
 8. Pour attribuer ou modifier l’emplacement d’urgence associé, sous Emplacement d’urgence, recherchez et sélectionnez l’emplacement.
 
@@ -107,7 +110,7 @@ Pour obtenir un exemple PowerShell, [voir Set-CsOnlineVoiceUser.](/powershell/mo
 
 Pour supprimer un numéro de téléphone à l’aide du Teams d’administration :
 
-1. Dans la barre de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
+1. Dans le groupe de navigation de gauche, cliquez sur Utilisateurs, localisez et double-cliquez sur l’utilisateur voulu, cliquez sur **Compte,** puis sous Informations générales, notez le numéro de téléphone attribué à l’utilisateur.
 
 2. Dans le navigateur de gauche, cliquez **sur Numéros**  >  **Téléphone.**
 
