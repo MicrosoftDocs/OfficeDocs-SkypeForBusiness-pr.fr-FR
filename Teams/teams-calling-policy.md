@@ -20,14 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88e4da290fe19f852d18687227768535d405ebd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636748"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60596887"
 ---
-#  <a name="calling-and-call-forwarding-in-teams"></a>Appels et appels de Teams
+# <a name="calling-and-call-forwarding-in-teams"></a>Appels et appels de Teams
 
 Dans Microsoft Teams, les stratégies d’appel contrôlent les fonctionnalités d’appel et de forwardage disponibles pour les utilisateurs. Les stratégies d’appel déterminent si un utilisateur peut passer des appels privés, utiliser le forwarding d’appel ou une sonnerie simultanée vers d’autres utilisateurs ou des numéros de téléphone externes, router les appels vers la messagerie vocale, envoyer des appels à des groupes d’appels, utiliser la délégation pour les appels entrants et sortants, etc.
 
@@ -65,7 +65,7 @@ Ce paramètre contrôle toutes les fonctionnalités d’appel Teams. Désactiver
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Call forwarding and simultaneous ringing to people in your organization
 
-Ce paramètre contrôle si les appels entrants peuvent être transmis à d’autres utilisateurs ou faire sonner une autre personne en même temps. 
+Ce paramètre contrôle si les appels entrants peuvent être transmis à d’autres utilisateurs ou faire sonner une autre personne en même temps.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Call forwarding and simultaneous ringing to external phone numbers
 

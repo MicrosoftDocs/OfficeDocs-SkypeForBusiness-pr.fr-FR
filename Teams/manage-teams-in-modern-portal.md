@@ -1,5 +1,5 @@
 ---
-title: Gérer Microsoft Teams dans le Centre d’administration Microsoft Teams
+title: Gérer les équipes dans le Centre d’administration Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733834"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579534"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gérer les équipes dans le Centre d’administration Microsoft Teams
 
@@ -117,7 +117,7 @@ Les modifications que vous apportez à une équipe sont enregistrées. Si vous m
 
 Certaines de vos équipes sont manquantes dans la liste des équipes dans la grille de vue d’ensemble de Teams.
 
-**Cause**: Ce problème se produit lorsque l’équipe a été incorrectement (ou pas encore) profilée par le système, ce qui peut entraîner une propriété manquante pour qu’elle soit reconnue.
+**Cause** : ce problème se produit lorsque l’équipe a été profilée de façon incorrecte (ou pas encore) par le système, ce qui peut entraîner une propriété manquante pour qu’elle soit reconnue.
 
 **Résolution : Définir manuellement la propriété sur la valeur correcte via MS Graph**
 
