@@ -257,6 +257,8 @@ items:
         items:
           - name: Guide sur la sécurité
             href: teams-security-guide.md
+          - name: Chiffrement de bout en bout
+            href: teams-end-to-end-encryption.md
           - name: Azure Sentinel et Teams
             href: teams-sentinel-guide.md
           - name: Modèles d’identité et authentification
@@ -325,7 +327,7 @@ items:
         href: manage-teams-overview.md
       - name: Rôles d'administrateur
         href: using-admin-roles.md
-      - name: Gérer Teams dans le Centre d’administration Microsoft Teams
+      - name: Gérer les équipes dans le centre d’administration Microsoft Teams
         href: manage-teams-in-modern-portal.md
       - name: Gérer les paramètres de Teams pour votre organisation
         href: enable-features-office-365.md
