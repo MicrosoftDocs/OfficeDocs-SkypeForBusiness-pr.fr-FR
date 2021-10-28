@@ -17,22 +17,22 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft Teams modifier ou bloquer l’ID d’appelant des Teams utilisateurs dans votre organisation.
-ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Découvrez comment utiliser et gérer les stratégies d’ID d’appelant dans Microsoft Teams pour modifier ou bloquer l’ID d’appelant des Teams utilisateurs dans votre organisation.
+ms.openlocfilehash: a511e86efcaba8ec5dd81718bf768cc45fbf2ad0
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731223"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605430"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gérer les stratégies d’ID d’appelant dans Microsoft Teams
 
 > [!NOTE]
-> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Microsoft Teams d’administration.) 
+> Pour définir l’ID d’appelant sur un numéro de téléphone de compte de ressource et définir le nom de l’appelant, utilisez les cmdlets PowerShell New-CsCallingLineIdentity ou Set-CsCallingLineIdentity dans le module Teams PowerShell 2.3.1 ou une ultérieure. (Ces options ne sont actuellement pas disponibles dans le Centre Microsoft Teams’administration.) 
 
-Par défaut, lorsqu’Teams un utilisateur appelle un téléphone PSTN, le numéro de téléphone de l’Teams est visible. De même, lorsqu’un appelant PSTN appelle un Teams, le numéro de téléphone de l’appelant PSTN est visible.
+Par défaut, lorsqu’Teams un utilisateur appelle un téléphone PSTN, le numéro de téléphone de l’Teams est visible. De même, lorsqu’un appelant PSTN appelle un utilisateur Teams, le numéro de téléphone de l’appelant PSTN est visible.
 
-En tant qu’administrateur, vous pouvez utiliser les stratégies d’ID d’appelant pour modifier ou bloquer l’ID de l’appelant (également appelé ID de ligne d’appel). Vous pouvez utiliser les stratégies d’ID d’appelant pour afficher un autre numéro de téléphone pour les Teams utilisateurs de votre organisation, bloquer l’affichage du numéro de téléphone sortant, bloquer l’affichage d’un numéro entrant ou définir le nom de l’appelant (CNAM). Par exemple, lorsqu’un utilisateur passe un appel, vous pouvez modifier l’ID de l’appelant pour afficher le numéro de téléphone principal et le nom de la société de votre organisation à la place du numéro de téléphone de l’utilisateur.
+En tant qu’administrateur, vous pouvez utiliser les stratégies d’ID d’appelant pour modifier ou bloquer l’ID de l’appelant (également appelé ID de ligne d’appel). Vous pouvez utiliser les stratégies d’ID d’appelant pour afficher un autre numéro de téléphone pour les Teams utilisateurs de votre organisation, bloquer l’affichage du numéro de téléphone sortant, bloquer l’affichage d’un numéro entrant ou définir le nom de l’appelant (CNAM). Par exemple, lorsqu’un utilisateur effectue un appel, vous pouvez modifier l’ID de l’appelant pour afficher le numéro de téléphone principal et le nom de la société de votre organisation à la place du numéro de téléphone de l’utilisateur.
 
 Pour gérer les stratégies d’ID d’appelant, vous devez vous rendre sur les stratégies d’ID d’appelant vocal dans le   >   Microsoft Teams d’administration. Vous pouvez utiliser la stratégie globale (par défaut à l’échelle de l’organisation) ou créer et attribuer des stratégies personnalisées. Les utilisateurs de votre organisation recevront automatiquement la stratégie globale, sauf si vous créez et leur attribuez une stratégie personnalisée.
 
@@ -70,8 +70,8 @@ Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalis
 
 ## <a name="related-topics"></a>Sujets associés
 
-[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
 
-[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
 
-[Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+[Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams. Utilisez les paramètres de stratégie pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par les utilisateurs.
-ms.openlocfilehash: 3abdf46229884996d2a0ba180a36928983c4f7d2
-ms.sourcegitcommit: 4a9ea18808d17e2eb6e4e2e7e3894e33c14e8631
+ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59474949"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605240"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gérer les stratégies de réunion dans Teams
 
@@ -579,6 +579,6 @@ Les réactions pendant les réunions sont désactivées par défaut. La désacti
 ## <a name="related-topics"></a>Sujets associés
 
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+- [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)
 - [Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs](meeting-policies-restricted-anonymous-access.md)
 - [Configurer des webinaires dans Microsoft Teams](set-up-webinars.md)

@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584628"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605820"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Configurer Microsoft Teams dans votre entreprise
 
@@ -95,7 +95,7 @@ Le **système d’audioconférence** permet aux participants de rejoindre les r�
 | Decision | Description |
 |--|--|
 | Paramètres de réunion à l’échelle de l’organisation qui doivent être appliqués| Les stratégies de réunion contrôlent les fonctionnalités de réunion disponibles pour les organisateurs et les participants aux réunions. Vous pouvez contrôler si les participants anonymes peuvent rejoindre des réunions, personnaliser les invitations, contrôler la gestion des médias en temps réel, etc. Lorsque vous apportez des modifications à ces paramètres, ils s’appliquent à toutes les réunions de votre organisation. <p>[Gérer les paramètres de réunion dans Microsoft Teams](meeting-settings-in-teams.md)|
-| Quelles stratégies de réunion doivent être appliquées ? | Stratégies de réunion: elles sont utilisées pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par des utilisateurs au sein de votre organisation. Vous pouvez contrôler si les utilisateurs peuvent planifier des réunions privées, activer l’option Conférence maintenant, autoriser l’enregistrement des réunions, etc. Teams a une stratégie globale qui s’applique à tout le monde.<p> Si vous voulez que la même stratégie s’applique à tout le monde, il vous suffit d’apporter des modifications à cette stratégie globale (par exemple, désactiver l’enregistrement des réunions). <p>Si vous souhaitez utiliser différentes stratégies pour différents groupes de personnes (par exemple, une stratégie pour les employés de bureau et une autre pour les cadres), vous pouvez créer et attribuer des stratégies. Lorsque vous affectez une stratégie à un utilisateur, la stratégie globale ne s’applique plus à celui-ci.<p> [Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md)|
+| Quelles stratégies de réunion doivent être appliquées ? | Stratégies de réunion: elles sont utilisées pour contrôler les fonctionnalités disponibles aux participants à la réunion pour les réunions planifiées par des utilisateurs au sein de votre organisation. Vous pouvez contrôler si les utilisateurs peuvent planifier des réunions privées, activer l’option Conférence maintenant, autoriser l’enregistrement des réunions, etc. Teams a une stratégie globale qui s’applique à tout le monde.<p> Si vous voulez que la même stratégie s’applique à tout le monde, il vous suffit d’apporter des modifications à cette stratégie globale (par exemple, désactiver l’enregistrement des réunions). <p>Si vous souhaitez utiliser différentes stratégies pour différents groupes de personnes (par exemple, une stratégie pour les employés de bureau et une autre pour les cadres), vous pouvez créer et attribuer des stratégies. Lorsque vous affectez une stratégie à un utilisateur, la stratégie globale ne s’applique plus à celui-ci.<p> [Gérer les stratégies de réunion dans Teams](meeting-policies-overview.md)|
 | Voulez-vous autoriser l’enregistrement et l’archivage des réunions ?| Les organisateurs de réunion peuvent enregistrer et archiver des réunions dans le cloud. Vous pouvez activer ou désactiver l’enregistrement et l’archivage des réunions à l’aide de stratégies de réunion.<p> [Enregistrement de réunion cloud Teams](cloud-recording.md) |
 
 ### <a name="audio-conferencing"></a>Audioconférence
@@ -145,12 +145,12 @@ Teams et Microsoft 365 fournissent de nombreux outils qui peuvent vous aider à 
 | [Conformité des communications](communication-compliance.md)| Permet de réduire les risques de communication en identifiant et en agissant sur le langage choquant, blasphématoire et harcelant, sur les images racées et sanglantes des adultes et sur le partage d'informations sensibles. |
 | [Enregistrement basé sur une stratégie pour les appels et réunions](teams-recording-policy.md)| Vous permet de contrôler quand et si les appels et réunions doivent être enregistrés et stockés automatiquement pour traitement ultérieur, rétention ou analyse.|
 | [Étiquettes de confidentialité](sensitivity-labels.md)| Permet de protéger et de contrôler l’accès aux informations sensibles en créant des étiquettes qui appliquent les options de confidentialité sélectionnées.|
-| [Protection contre la perte de données](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Permet de créer des règles qui déterminent la manière dont certaines informations, telles que les numéros de sécurité sociale, les numéros de carte de crédit, etc. doivent être gérées. Vous pouvez empêcher l’envoi de certaines informations, les empêcher de quitter votre organisation, etc.|
+| [Protection contre la perte de données](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Permet de créer des règles qui déterminent la manière dont certaines informations, telles que les numéros de sécurité sociale, les numéros de carte de crédit, etc. doivent être gérées. Vous pouvez empêcher l’envoi de certaines informations, les empêcher de quitter votre organisation, etc.|
 | [eDiscovery](eDiscovery-investigation.md)| Vous permet de rechercher et de récupérer du contenu dans votre organisation lorsque votre organisation reçoit des demandes de découverte dans le cadre de procédures légales. |
 | [Conservation légale](legal-hold.md)| Vous permet de conserver les informations de votre organisation, même si elles sont supprimées par un utilisateur, au besoin pendant une procédure légale afin de pouvoir les découvrir dans le cadre d’enquêtes eDiscovery. |
 | [Recherche de contenu](content-search.md)| Fournit un moyen de interroger les informations Teams sur Exchange, SharePoint Online et OneDrive Entreprise.|
 | [Auditing](audit-log-events.md)| Vous permet de voir des informations sur une action spécifique, y compris qui a effectué l'action, quand l'action a été effectuée, l'adresse IP qui a été utilisée, et ainsi de suite. Les actions comprennent la création ou la suppression d'équipes, la création de canaux, la modification des paramètres Teams, etc.|
-| [Clé client](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Vous permet de créer une stratégie de chiffrement des données à l’aide de clés de chiffrement que vous fournissez.|
+| [Clé client](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Vous permet de créer une stratégie de chiffrement des données à l’aide de clés de chiffrement que vous fournissez.|
 
 ## <a name="clients"></a>Clients
 

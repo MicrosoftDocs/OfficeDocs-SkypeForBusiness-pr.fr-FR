@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729813"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605840"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Prise en main de Microsoft Teams pour l'apprentissage à distance
 
@@ -93,12 +93,12 @@ Pour un parcours guidé sur la création d’équipes, voir : [Créer une équip
 
 Les stratégies Teams offrent la possibilité de contrôler les options disponibles pour des utilisateurs ou groupes d’utilisateurs précis. Les stratégies peuvent être appliquées pour définir qui peut être autorisé à utiliser la conversation privée, l’appel privé, la planification de réunions, les types de contenus pouvant être partagés, etc.
 
-**Le personnel de l’enseignement supérieur, les enseignants et les étudiants** bénéficient des fonctionnalités incluses par défaut dans les stratégies (générales). Certains paramètres de stratégie supplémentaires peuvent être activés pour ajouter des fonctionnalités à Teams, notamment [l’activation des fonctionnalités de traduction dans la stratégie de messagerie](messaging-policies-in-teams.md#messaging-policy-settings) et [la transcription automatique des réunions](meeting-policies-in-teams.md#allow-transcription) dans la stratégie de réunion.
+**Le personnel de l’enseignement supérieur, les enseignants et les étudiants** bénéficient des fonctionnalités incluses par défaut dans les stratégies (générales). Certains paramètres de stratégie supplémentaires peuvent être activés pour ajouter des fonctionnalités à Teams, notamment [l’activation des fonctionnalités de traduction dans la stratégie de messagerie](messaging-policies-in-teams.md#messaging-policy-settings) et [la transcription automatique des réunions](meetings-policies-recording-and-transcription.md#allow-transcription) dans la stratégie de réunion.
 
 Des fonctionnalités restreintes peuvent être nécessaires pour les **étudiants de l’enseignement primaire et secondaire**. Les stratégies définissent des limites relatives à ce que les étudiants peuvent faire. La population étudiante représente souvent le plus grand nombre d’utilisateurs et reçoit, le plus souvent, les paramètres les plus restrictifs. Il est donc recommandé d’apporter des modifications à la stratégie étudiant et de la configurer sur « Général » (à l’échelle de l’organisation par défaut).
 
 > [!IMPORTANT]
-> Pour les stratégies de réunion attribuées aux utilisateurs, nous vous recommandons de définir le paramètre « Admettre automatiquement les personnes » sur « Tous les membres de votre organisation ». Ce paramètre permet de s’assurer que les utilisateurs non authentifiés doivent être admis à partir de la salle d’attente pour pouvoir participer aux réunions Teams. Pour plus d’informations, voir [Gérer les stratégies de réunion dans Teams](./meeting-policies-in-teams.md#automatically-admit-people).
+> Pour les stratégies de réunion attribuées aux utilisateurs, nous vous recommandons de définir le paramètre « Admettre automatiquement les personnes » sur « Tous les membres de votre organisation ». Ce paramètre permet de s’assurer que les utilisateurs non authentifiés doivent être admis à partir de la salle d’attente pour pouvoir participer aux réunions Teams. Pour plus d’informations, voir [Gérer les stratégies de réunion dans Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 **Les employés et enseignants d'école primaire** doivent se voir affecter des stratégies autorisant des fonctionnalités de base pouvant être limitées pour les étudiants. Créez des stratégies qui autorisent la conversation privée et la planification de réunions (paramètres par défaut pour une nouvelle stratégie). [Assignez ces stratégies en bloc à vos employés et enseignants](batch-group-policy-assignment-edu.md).
 

@@ -21,12 +21,12 @@ description: Découvrez comment utiliser et gérer les stratégies de routage vo
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0e7744f87d4fe5be9fb0788166a172ea9709206b
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: f7a62338cc8fe3fbdc73e88cfca5dd9e525ff150
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465804"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605200"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Gérer les stratégies de routage vocal d’urgence pour le routage direct
 
@@ -45,7 +45,7 @@ Si vous avez affecté une stratégie de routage voix d’urgence à un site rés
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, cliquez sur Stratégies d’urgence vocale, puis sur l’onglet Stratégies  >   **de routage des** appels.
+1. Dans le panneau de navigation de gauche Microsoft Teams d’administration, allez dans Stratégies d’urgence vocale, puis cliquez sur l’onglet Stratégies  >   **de routage des** appels.
 2. Cliquez sur **Ajouter**.
 3. Entrez un nom pour votre stratégie, ainsi qu’une description.
 4. Pour activer les appels d’urgence dynamiques, activez **l’appel d’urgence dynamique.** Lorsque les appels d’urgence dynamiques sont activés, Teams récupère les informations de stratégie et d’emplacement du service et les inclut dans le cadre de l’appel d’urgence.
@@ -71,7 +71,7 @@ Voir [New-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/new-cstea
 
 Vous pouvez modifier la stratégie globale ou toutes les stratégies personnalisées que vous créez.
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, cliquez sur Stratégies d’urgence vocale, puis sur l’onglet Stratégies  >   **de routage des** appels.
+1. Dans le panneau de navigation de gauche Microsoft Teams d’administration, allez dans Stratégies d’urgence vocale, puis cliquez sur l’onglet Stratégies  >   **de routage des** appels.
 2. Sélectionnez la stratégie en cliquant à gauche du nom de celle-ci, puis cliquez sur **Modifier**.
 3. A apporter les modifications de votre souhaitez, puis cliquez sur **Enregistrer.**
 
@@ -101,4 +101,4 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency
 
 [Présentation de Teams PowerShell](teams-powershell-overview.md)
 
-[Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+[Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)

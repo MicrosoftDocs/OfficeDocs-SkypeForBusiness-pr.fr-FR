@@ -1,7 +1,7 @@
 ---
 title: Utiliser OneDrive Entreprise et SharePoint pour les enregistrements de réunion
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edacf3cd2691a4f037882e25251ead3ec2521882
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011908"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605210"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Utiliser OneDrive Entreprise et SharePoint ou Stream pour les enregistrements de réunion
 
 > [!NOTE]
-> La modification du stockage des enregistrements de réunion Teams de Classic Stream vers OneDrive et SharePoint (ODSP) est terminée depuis le 30 août 2021. Tous les enregistrements sont désormais stockés dans ODSP. Cette modification remplace la stratégie RecordingStorageMode et la modification du paramètre dans PowerShell n’a plus d’impact.
+> Le stockage des enregistrements Teams de la version Classique Stream vers OneDrive et SharePoint (ODSP) est terminé depuis le 30 août 2021. Tous les enregistrements sont désormais stockés dans ODSP. Cette modification remplace la stratégie RecordingStorageMode et la modification du paramètre dans PowerShell n’a plus d’impact.
 
 |Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Événement&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ ms.locfileid: "60011908"
 Microsoft Teams offre une nouvelle méthode d’enregistrement des réunions. Comme première phase d’une transition du système Microsoft Stream classique vers la [nouvelle version de Stream](/stream/streamnew/new-stream), cette méthode stocke les enregistrements sur Microsoft OneDrive Entreprise et SharePoint dans Microsoft 365, puis offre de nombreux avantages.
 
 > [!NOTE]
-> Si l’enregistrement d’une réunion Teams ne parvient pas à être téléchargé sur OneDrive/SharePoint, un message d’erreur « L’enregistrement s’est terminé de manière inattendue » s’affiche et l’enregistrement est enregistré temporairement dans Azure Media Services (AMS). Une fois stocké dans AMS, aucune nouvelle tentative n’est faite pour charger automatiquement l’enregistrement sur OneDrive/SharePoint ou Stream.
+> Si le chargement d’une réunion Teams échoue sur OneDrive/SharePoint, un message d’erreur « L’enregistrement s’est terminé de manière inattendue » s’affiche et l’enregistrement est enregistré temporairement dans Azure Media Services (AMS). Une fois stocké dans AMS, aucune nouvelle tentative n’est faite pour télécharger automatiquement l’enregistrement sur OneDrive/SharePoint stream.
 
 Les enregistrements de réunion stockés dans AMS sont disponibles pendant 21 jours avant d’être automatiquement supprimés. Les utilisateurs peuvent télécharger la vidéo à partir d’AMS s’ils doivent conserver une copie.
 
@@ -96,7 +96,7 @@ L’option d’enregistrement de la réunion est un paramètre au niveau de la s
    ```
 
 > [!Note]
-> Si certains de vos utilisateurs ont affecté une stratégie par organisateur ou par utilisateur et s’ils doivent également stocker les enregistrements de réunion dans OneDrive Entreprise et SharePoint, vous devez définir ce paramètre sur cette stratégie. Si vous souhaitez en savoir plus d’informations, veuillez consulter la rubrique [Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md).
+> Si certains de vos utilisateurs ont affecté une stratégie par organisateur ou par utilisateur et s’ils doivent également stocker les enregistrements de réunion dans OneDrive Entreprise et SharePoint, vous devez définir ce paramètre sur cette stratégie. Si vous souhaitez en savoir plus d’informations, veuillez consulter la rubrique [Gérer les stratégies de réunion dans Teams](meeting-policies-overview.md).
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Désactiver OneDrive Entreprise et SharePoint pour continuer à utiliser Stream
 
@@ -155,7 +155,7 @@ Par défaut, tous les fichiers d’enregistrement arrivent sur le compte OneDriv
 
 **Comment gérer les légendes ?**
 
-Les sous-titres des enregistrements de réunion Teams ne seront disponibles pendant la lecture que si la transcription de l’utilisateur était activée au moment de l’enregistrement. Les administrateurs doivent [activer l’enregistrement de la transcription via la stratégie](/microsoftteams/cloud-recording) pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer des réunions avec la transcription.
+Les sous-titres des enregistrements de réunion Teams ne seront disponibles pendant la lecture que si la transcription de l’utilisateur était activée au moment de l’enregistrement. Les administrateurs doivent [activer la transcription d’enregistrement](meetings-policies-recording-and-transcription.md#allow-transcription) pour s’assurer que leurs utilisateurs ont la possibilité d’enregistrer les réunions avec transcription.
 
 Les légendes permettent de créer du contenu inclusif pour les visiteurs de tous niveaux. En tant que propriétaire, vous pouvez masquer les sous-titres de l’enregistrement de la réunion, bien que la transcription de la réunion soit toujours disponible sur Teams, sauf si vous l’avez supprimé de cet emplacement.
 
@@ -186,7 +186,7 @@ Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Application au
 
 **Comment attribuer des stratégies à mes utilisateurs dans Microsoft Teams et quelles sont les stratégies prioritaires ?**
 
-Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Which policy takes precedence?](./assign-policies.md#which-policy-takes-precedence) (Quelle est la stratégie prioritaire ?).
+Si vous souhaitez en savoir plus, veuillez consulter la rubrique [Which policy takes precedence?](./policy-assignment-overview.md#which-policy-takes-precedence) (Quelle est la stratégie prioritaire ?).
 
 **Où se trouve l’enregistrement si l’utilisateur ne OneDrive Entreprise pas SharePoint stockage, ou si le quota de stockage est plein ?**
 

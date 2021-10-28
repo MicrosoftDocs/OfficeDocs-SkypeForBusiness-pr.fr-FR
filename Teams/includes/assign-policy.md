@@ -1,3 +1,3 @@
 Vous pouvez attribuer directement une stratégie à des utilisateurs, soit individuellement, soit à grande échelle par le bais d’une attribution de lot, (si pris en charge pour ce type de stratégie), ou bien à un groupe dont les utilisateurs sont membres (si pris en charge pour ce type de stratégie). 
 
-Pour en savoir plus sur les différentes façons dont vous pouvez affecter des stratégies à des utilisateurs, consultez [Affecter des stratégies à vos utilisateurs dans Teams](../assign-policies.md).
+Pour en savoir plus sur les différentes façons dont vous pouvez affecter des stratégies à des utilisateurs, consultez [Affecter des stratégies à vos utilisateurs dans Teams](../policy-assignment-overview.md).

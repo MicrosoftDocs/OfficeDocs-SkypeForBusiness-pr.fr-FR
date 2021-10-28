@@ -1,7 +1,7 @@
 ---
 title: Packages de stratégie Teams pour la santé publique
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Découvrez comment utiliser et gérer les packages de stratégies Teams pour votre organisation de santé publique.
-ms.openlocfilehash: d71945508055ddc7b6f6661d93e8918879d59d23
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: af72046569b0f3bcc36fcc93bfbc5b57d57d631e
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731963"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605710"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Packages de stratégie Teams pour la santé publique
 
@@ -52,7 +52,7 @@ Teams inclut actuellement les packages de stratégies de santé suivants.
 |Travailleurs de l’information sur le secteur de la santé  |Travailleurs de l’information de votre organisation de santé |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs de l’information, par exemple, le personnel de l’information, l’informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
 |Salle de soins de santé  |Appareils de salle des patients|Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles des patients dans votre organisation de santé.|
 
-![Capture d’écran des packages de stratégies de santé.](media/policy-packages-healthcare.png)
+![Capture d’écran des packages de stratégies médicales.](media/policy-packages-healthcare.png)
 
 Chaque stratégie individuelle reçoit le nom du package de stratégie afin de vous permettre d’identifier facilement les stratégies liées à un package de stratégie. Par exemple, lorsque vous affectez le package de stratégie des professionnels de la santé à des médecins de votre organisation, une stratégie nommée Healthcare_ClinicalWorker est créée pour chaque stratégie du package.
 
@@ -95,7 +95,7 @@ Pour attribuer un package de stratégie à un ou plusieurs utilisateurs, dans le
 
 ![Capture d’écran de l’attribution d’un package de stratégie dans le Centre d’administration.](media/policy-packages-healthcare-assign.png)
 
-Pour plus d’informations, consultez la section [Attribuer un package de stratégie](manage-policy-packages.md#assign-a-policy-package).
+Pour plus d’informations, consultez la section [Attribuer un package de stratégie](assign-policy-packages.md).
 
 Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
 
@@ -105,13 +105,13 @@ Si une stratégie est attribuée à un utilisateur et que vous affectez une autr
 
 Attribution de package de stratégie aux groupes vous permet d’attribuer plusieurs stratégies à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une liste de distribution. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence. Cette méthode est recommandée pour les groupes disposant jusqu’à 50 000 utilisateurs, mais aussi pour les groupes de plus grande taille.
 
-Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un groupe](assign-policies.md#assign-a-policy-package-to-a-group).
+Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un groupe](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Attribuer un package de stratégie à un grand ensemble (lot) d’utilisateurs
 
 Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
 
-Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des utilisateurs à l’aide de leur ID d’objet, de leur nom d’utilisateur, de leur adresse SIP ou de leur adresse de courrier. Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un lot d’utilisateurs](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des utilisateurs à l’aide de leur ID d’objet, de leur nom d’utilisateur, de leur adresse SIP ou de leur adresse de courrier. Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un lot d’utilisateurs](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

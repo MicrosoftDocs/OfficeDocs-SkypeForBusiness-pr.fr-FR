@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Découvrez comment gérer les paramètres de stratégie de réunion dans Teams partage de contenu.
-ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726503"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605620"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Paramètres de stratégie de réunion : partage de contenu
 
@@ -79,7 +79,7 @@ Examinons l’exemple suivant.
 |Daniela   | Global   | Activé       |
 |Babek    | Location1MeetingPolicy        | Désactivé   |
 
-Daniela peut donner le contrôle du Bureau ou de la fenêtre partagé(e) aux autres participants d’une réunion organisée par Danielk. Toutefois, il ne peut pas donner le contrôle aux autres participants.
+Daniela peut donner le contrôle du Bureau ou de la fenêtre partagé aux autres participants d’une réunion organisée par Kék. Toutefois, il ne peut pas donner le contrôle aux autres participants.
 
 Pour utiliser PowerShell afin de contrôler qui peut donner le contrôle ou accepter les demandes de contrôle, utilisez l’applet de commande AllowParticipantGiveRequestControl.
 
@@ -144,5 +144,5 @@ Daniela peut prendre des notes dans les réunions d’Amanda et Amanda ne peut p
 ## <a name="related-topics"></a>Sujets associés
 
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+- [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)
 - [Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs](meeting-policies-restricted-anonymous-access.md)

@@ -17,21 +17,21 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser les stratégies de commentaires pour contrôler Teams utilisateurs de votre organisation peuvent envoyer des commentaires sur Teams à Microsoft.
-ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 4cb8914a793ddb6342b047caada087006da8f670
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013008"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605770"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gérer les stratégies de commentaires dans Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Les utilisateurs de votre organisation peuvent envoyer des commentaires sur Microsoft Teams pour nous faire savoir comment nous travaillons directement à partir du bureau, des clients web et des appareils mobiles Teams. Nous améliorons continuellement l Teams expérience utilisateur et nous utilisons ces commentaires pour améliorer Teams améliorations.
+Les utilisateurs de votre organisation peuvent envoyer des commentaires sur Microsoft Teams pour nous faire savoir comment nous travaillons directement à partir du bureau, des clients web et des appareils mobiles Teams. Nous améliorons continuellement l Teams expérience utilisateur et nous utilisons ces commentaires pour nous Teams améliorés.
 
 > [!NOTE]
-> Les stratégies de commentaires ne sont pas disponibles Cloud de la communauté du secteur public, Cloud de la communauté du secteur public haute ou de dod.
+> Les stratégies de commentaires ne sont pas disponibles Cloud de la communauté du secteur public, Cloud de la communauté du secteur public haute ou dod.
 
 **La **fonctionnalité Donner des** commentaires**
 
@@ -40,7 +40,7 @@ Les utilisateurs peuvent nous envoyer des commentaires et des suggestions Teams�
 
 ![Option Donner des commentaires dans Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-Accédez aux commentaires sur les appareils mobiles à **l’aide**  >  **Paramètres’aide & commentaires** Envoyer des  >  **commentaires.**
+Accédez aux commentaires sur les appareils mobiles à **l’Paramètres**  >  **de l& pour envoyer** des  >  **commentaires.**
 
 ![Option Donner des commentaires dans Teams sur appareil mobile](media/feedback3.jpg)
 
@@ -60,7 +60,7 @@ En tant qu’administrateur, vous pouvez contrôler si les utilisateurs de votre
 
 Vous pouvez modifier la stratégie globale ou créer et affecter une stratégie personnalisée. Une fois que vous avez modifié la stratégie globale ou attribué une stratégie personnalisée, l’application des modifications peut prendre quelques heures.
 
-Par exemple, vous voulez autoriser tous les utilisateurs de votre organisation à envoyer des commentaires et recevoir des enquêtes, à l’exception des nouvelles recrues en formation. Dans ce scénario, vous créez une stratégie personnalisée pour désactiver à la fois les fonctionnalités et l’affecter à de nouvelles recrues. Tous les autres utilisateurs de votre organisation obtiennent la stratégie globale avec les fonctionnalités désactivées.  
+Par exemple, vous voulez autoriser tous les utilisateurs de votre organisation à envoyer des commentaires et à recevoir des enquêtes, à l’exception des nouvelles recrues en formation. Dans ce scénario, vous créez une stratégie personnalisée pour désactiver à la fois les fonctionnalités et l’affecter à de nouvelles recrues. Tous les autres utilisateurs de votre organisation obtiennent la stratégie globale avec les fonctionnalités désactivées.  
 
 Vous gérez les stratégies de commentaires à l’aide de PowerShell. Utilisez [ **l’cmdlet New-CsTeamsFeedbackPolicy**](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) pour créer une stratégie personnalisée. Utilisez **l’cmdlet Grant-CsTeamsFeedbackPolicy** pour l’affecter à un ou plusieurs utilisateurs ou groupes d’utilisateurs, tels qu’un groupe de sécurité ou un groupe de distribution. Utilisez **Set-CsTeamsFeedbackPolicy pour** définir des indicateurs spécifiques.
 
@@ -75,7 +75,7 @@ Pour désactiver et activer les fonctionnalités, définissez les paramètres su
 
 ## <a name="create-a-custom-feedback-policy"></a>Créer une stratégie de commentaires personnalisée
 
-Dans cet exemple, nous créons une stratégie de commentaires appelée Stratégie de commentaires sur les nouvelles recrues et nous cessons la possibilité de donner des commentaires via l’envoi de **commentaires** et l’enquête.
+Dans cet exemple, nous créons une stratégie de commentaires appelée Stratégie de commentaires sur les nouvelles recrues et nous cessons de donner des commentaires via l’envoi de **commentaires** et l’enquête.
 
 ```PowerShell
 New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled -receiveSurveysMode disabled
@@ -91,7 +91,7 @@ Dans cet exemple, nous affectons une stratégie personnalisée nommée Stratégi
 Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Aperçu de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+- [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)

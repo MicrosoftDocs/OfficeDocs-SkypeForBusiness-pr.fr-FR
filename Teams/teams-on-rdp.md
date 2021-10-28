@@ -1,7 +1,7 @@
 ---
 title: Utiliser des Teams avec les services Bureau à distance
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635638"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605570"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams dans les Services Bureau à distance
 
@@ -47,14 +47,14 @@ Vous pouvez définir des stratégies à l’aide du Microsoft Teams d’administ
 
 [**Polices d’appel**](teams-calling-policy.md): Teams inclut la stratégie d’appel DisallowCalling intégrée, dans laquelle toutes les fonctionnalités d’appel sont désactivées. Affectez la stratégie DisallowCalling à tous les utilisateurs de votre organisation qui utilisent Teams dans un environnement virtualisé.
 
-[**Stratégies de**](meeting-policies-in-teams.md)réunion : Teams inclut la stratégie de réunion AllOff intégrée, dans laquelle toutes les fonctionnalités de réunion sont désactivées. Affectez la stratégie AllOff à tous les utilisateurs de votre organisation qui utilisent Teams dans un environnement virtualisé.
+[**Stratégies de**](meeting-policies-overview.md)réunion : Teams inclut la stratégie de réunion AllOff intégrée, dans laquelle toutes les fonctionnalités de réunion sont désactivées. Affectez la stratégie AllOff à tous les utilisateurs de votre organisation qui utilisent Teams dans un environnement virtualisé.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Attribuer des stratégies à l’aide Microsoft Teams centre d’administration
 
 Pour affecter la stratégie d’appel DisallowCalling et la stratégie de réunion AllOff à un utilisateur :
 
 1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez à **Utilisateurs.**
-2. Sélectionnez l’utilisateur en le sélectionnant à gauche du nom d’utilisateur, puis en sélectionnant **Modifier les paramètres.**
+2. Sélectionnez l’utilisateur en sélectionnant à gauche du nom d’utilisateur, puis **sélectionnez Modifier les paramètres.**
 3. Pour ce faire, vous pouvez :
 
     a.  Sous **Stratégie d’appel,** **sélectionnez DisallowCalling.**
@@ -73,8 +73,8 @@ Vous pouvez également suivre les étapes suivantes :
 
 1. Dans le navigation gauche du Microsoft Teams d’administration, allez à la stratégie que vous voulez attribuer. Par exemple :
 
-    - Allez aux  >  **stratégies d’appel** vocal, puis **sélectionnez DisallowCalling.**
-    - Allez dans **stratégies**  >  **de réunion Réunions,** puis sélectionnez **AllOff.**
+    - Allez à **la**  >  **stratégie d’appel** vocal, puis **sélectionnez DisallowCalling.**
+    - Allez dans **stratégies**  >  **de réunion Réunions,** puis **sélectionnez AllOff.**
 
 2. Sélectionnez **Gérer les utilisateurs**.
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
@@ -90,7 +90,7 @@ Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 
 Pour en savoir plus sur l’utilisation de PowerShell pour gérer les stratégies d’appel, voir [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy)
 
-L’exemple suivant montre comment utiliser [grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
+L’exemple suivant montre comment utiliser la stratégie de réunion [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) pour affecter la stratégie de réunion AllOff à un utilisateur.
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"

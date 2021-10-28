@@ -1,7 +1,7 @@
 ---
 title: Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,18 +16,18 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: Découvrez comment supprimer la stratégie de réunion RestrictedAnonymousAccess Teams utilisateurs de votre organisation.
-ms.openlocfilehash: fbb34974c435db12880ab68b7af4372a17a6b63b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ba00e8d68a4c30a31ca929e1a41e07cc0fbc104
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590778"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605760"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs
 
-[Les stratégies](meeting-policies-in-teams.md) de réunion Microsoft Teams sont utilisées pour contrôler les fonctionnalités disponibles pour les participants à la réunion qui sont programmées par les utilisateurs de votre organisation. 
+[Les stratégies](meeting-policies-overview.md) de réunion Microsoft Teams sont utilisées pour contrôler les fonctionnalités disponibles pour les participants à la réunion qui sont programmées par les utilisateurs de votre organisation. 
 
-Teams inclut une stratégie intégrée nommée RestrictedAnonymousAccess, qui contient des paramètres prédéfinie qui incluent la restriction des utilisateurs anonymes de commencer une réunion. (Les utilisateurs anonymes sont des utilisateurs qui n’ont pas été authentifiés.) Les paramètres prédéfinyés dans la stratégie de réunion ne peuvent pas être modifiés ni modifiés par les administrateurs.
+Teams inclut une stratégie intégrée nommée RestrictedAnonymousAccess, qui contient des paramètres prédéfinie qui incluent la restriction des utilisateurs anonymes de commencer une réunion. (Les utilisateurs anonymes sont des utilisateurs qui n’ont pas été authentifiés.) Les paramètres prédéfinés dans la stratégie de réunion ne peuvent pas être modifiés ni modifiés par les administrateurs.
 
 Cet article vous explique comment utiliser PowerShell pour supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs à qui cette stratégie est affectée. Pour en savoir plus sur la gestion des Teams à l’aide de PowerShell, voir [Teams vue d’ensemble de PowerShell.](teams-powershell-overview.md)
 
@@ -37,13 +37,13 @@ Installez le module [PowerShell Skype Entreprise et connectez-vous.](/microsoft-
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Obtenir les affectations Teams stratégie de réunion pour votre organisation
 
-Exécutez l’une des commande suivantes pour obtenir les Teams stratégie de réunion pour votre organisation.
+Exécutez l’une des commande suivantes pour Teams affectations de stratégie de réunion pour votre organisation.
 
 ```powershell
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
 ```
 
-Dans cet exemple, la sortie suivante est renvoyée, ce qui indique que deux utilisateurs ont la stratégie de réunion RestrictedAnonymousAccess.
+Dans cet exemple, la sortie suivante est renvoyée, qui montre que deux utilisateurs ont la stratégie de réunion RestrictedAnonymousAccess.
 
 ```console
 Count  Name                               Group
@@ -55,11 +55,11 @@ Count  Name                               Group
 
 ## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>Désaffecter la stratégie de réunion RestrictedAnonymous des utilisateurs
 
-Pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs, vous pouvez utiliser l’let [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) si vous avez un petit nombre d’utilisateurs (par exemple, moins de 100 utilisateurs). Si vous avez un grand nombre d’utilisateurs (par exemple, plus de 100 utilisateurs), il est plus efficace d’utiliser la cmdlet  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) pour envoyer une opération de lot.
+Pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs, vous pouvez utiliser l’let [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) si vous avez un petit nombre d’utilisateurs (par exemple, moins de 100 utilisateurs). Si vous avez un grand nombre d’utilisateurs (par exemple, plus de 100 utilisateurs), il est plus efficace d’utiliser la cmdlet  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour envoyer une opération de lot.
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>Utiliser l'Grant-CsTeamsMeeting de stratégie de gestion des biens
 
-Exécutez la suivante pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs.
+Exécutez ce qui suit pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs.
 
 ```powershell
 Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}
@@ -67,10 +67,10 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 
 ### <a name="use-the-new-csbatchpolicyassignmentoperation-cmdlet"></a>Utiliser l'New-CsBatchPolicyAssignmentOperation de cmdlet
 
-Avec [l’affectation de](assign-policies.md#assign-a-policy-to-a-batch-of-users)stratégie de lot, le nombre maximal d’utilisateurs pour lesquels vous pouvez supprimer ou mettre à jour des stratégies est de 5 000 à la fois. Par exemple, si vous avez plus de 5 000 utilisateurs, vous devez envoyer plusieurs lots. Pour de meilleurs résultats, n’envoyez pas plusieurs lots à la fois. Autorisez le traitement des lots avant l’envoi d’autres lots.
+Avec [l’affectation de](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)stratégie de lot, le nombre maximal d’utilisateurs pour lesquels vous pouvez supprimer ou mettre à jour des stratégies est de 5 000 à la fois. Par exemple, si vous avez plus de 5 000 utilisateurs, vous devez envoyer plusieurs lots. Pour de meilleurs résultats, n’envoyez pas plusieurs lots à la fois. Autorisez le traitement des lots avant l’envoi d’autres lots.
 
 > [!NOTE]
-> La [cmdlet New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) est dans le module Teams PowerShell. Avant de suivre ces étapes, installez le module PowerShell Teams et [connectez-vous à celui-ci.](https://www.powershellgallery.com/packages/MicrosoftTeams) Pour obtenir des instructions pas à pas, voir [Installer Microsoft Teams PowerShell.](teams-powershell-install.md)
+> La [cmdlet New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) est dans le module Teams PowerShell. Avant de suivre ces étapes, installez le module PowerShell Teams et [connectez-vous à celui-ci.](https://www.powershellgallery.com/packages/MicrosoftTeams) Pour obtenir des instructions pas à pas, voir [Installer Microsoft Teams PowerShell.](teams-powershell-install.md)
 
 Exécutez les commandes suivantes pour supprimer la stratégie de réunion RestrictedAnonymousAccess d’un lot d’utilisateurs.
 
@@ -92,8 +92,8 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454
 
 Assurez-vous **que le nombre d’erreurs** est de **0** (zéro) et **que État** Global est **terminé.**
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
-- [Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md)
+- [Gérer les stratégies de réunion dans Teams](meeting-policies-overview.md)
 - [Présentation de Teams PowerShell](teams-powershell-overview.md)
-- [Attribuer des stratégies à vos utilisateurs](assign-policies.md)
+- [Attribuer des stratégies à vos utilisateurs](policy-assignment-overview.md)

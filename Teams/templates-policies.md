@@ -1,7 +1,7 @@
 ---
 title: Gérer les modèles d’équipe dans le Centre d’administration
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les modèles d’équipe dans le Centre d’administration
-ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732823"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605370"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration
 
@@ -38,7 +38,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Développez **Teams**  >  **stratégies modèles.**
+2. Développez **Teams**  >  **stratégies de modèles.**
 
 3. Sélectionnez **Ajouter**.
 
@@ -65,7 +65,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
    Les modèles sélectionnés apparaissent dans votre table **de modèles consultables.**
 3. Sélectionnez **Enregistrer**.
 
-   Votre nouvelle stratégie de modèle est affichée dans la liste **Stratégies de** modèles.
+   Votre nouvelle stratégie de modèle s’affiche dans la liste **Stratégies de** modèles.
 
 ## <a name="assign-users-to-the-template-policies"></a>Attribuer des utilisateurs aux stratégies de modèle
 
@@ -90,7 +90,7 @@ Vous pouvez masquer jusqu’à 100 modèles par stratégie. Le **bouton** Masque
 
 **Q : Puis-je affecter par lots des utilisateurs à des stratégies de modèles d’équipe ?**
   
-R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [Pour en savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+R : Oui, nous prise en charge l’affectation de lots pour une stratégie de modèle dans PowerShell. Le type de stratégie pour cette action est TeamsTemplatePermissionPolicy. [En savoir plus](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q : Les groupes peuvent-ils être affectés à des stratégies de modèles d’équipe ?**
 
@@ -111,15 +111,14 @@ R : Oui.
 1. Dans le Centre d’administration, voir **Utilisateurs.**
 1. Dans la table Liste d’utilisateurs, sélectionnez les utilisateurs que vous voulez affecter à une certaine stratégie de modèles.
 1. Sélectionnez Modifier les paramètres, puis modifiez le champ De stratégies Templates.
-1. Sélectionnez Appliquer.
-   Pour plus [d’informations, voir Attribuer des stratégies à vos utilisateurs Microsoft Teams - Microsoft Teams \| Microsoft Docs.](./assign-policies.md#assign-a-policy-to-a-batch-of-users)
+1. Sélectionnez Appliquer. [En savoir plus](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **Q : Comment afficher tous les utilisateurs affectés à une stratégie spécifique ?**
 
 R : Dans le Centre d’administration :
 
 1. Allez à la section **Utilisateurs.**
-2. Sélectionnez le filtre dans la table Liste des utilisateurs et filtrez la stratégie de modèle d’équipe.
+2. Sélectionnez le filtre dans le tableau de la liste Utilisateurs, puis filtrez la stratégie de modèle d’équipe.
 3. Sélectionnez **Appliquer.**
 
 ![Stratégie de modèle sélectionnée et afficher les utilisateurs.](media/template-policies-5.png)
@@ -142,6 +141,6 @@ R : Non, les stratégies de modèle pour EDU ne sont pas pris en charge.
 
 - [Créer un modèle d’équipe à partir d’un modèle d’équipe existant](./create-template-from-existing-template.md)
 
-- [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [Affecter des utilisateurs par lots à une stratégie](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

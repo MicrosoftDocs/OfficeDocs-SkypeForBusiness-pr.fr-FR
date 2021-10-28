@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7ed3de69ed5deffcd0681f9f040dfeb074b2aa1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c41219f080e2270ed27d52688a03891f74ac26d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596348"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605360"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Réunions et conférences dans Microsoft Teams
 
@@ -103,7 +103,7 @@ Les stratégies de réunion sont utilisés pour contrôler les fonctionnalités 
 
 | Posez-vous la question | Action |
 |--------------|--------|
-|<ul><li>Est-ce que je vais personnaliser les stratégies de réunion initiales ?</li><li>Est-ce que j’ai besoin de plusieurs stratégies de réunion ?</li><li>Comment déterminer quelles stratégies de réunion sont appliqués à quels groupes d’utilisateurs?</li></ul>|<br>Voir [Gérer les stratégies de réunion dans Teams](meeting-policies-in-teams.md).|
+|<ul><li>Est-ce que je vais personnaliser les stratégies de réunion initiales ?</li><li>Est-ce que j’ai besoin de plusieurs stratégies de réunion ?</li><li>Comment déterminer quelles stratégies de réunion sont appliqués à quels groupes d’utilisateurs?</li></ul>|<br>Voir [Gérer les stratégies de réunion dans Teams](meeting-policies-overview.md).|
 |||
 
 ### <a name="audio-conferencing"></a>Audioconférence
@@ -137,12 +137,12 @@ Utilisez les rapports d’activité pour voir la manière dont les utilisateurs 
 
 Vous souhaiterez peut-être modifier ces paramètres en fonction des besoins et de la configuration de votre organisation.
 
-### <a name="bandwidth-planning"></a>Planification de la bande passante 
+### <a name="bandwidth-planning"></a>Planification de la bande passante
 
 La planification de la bande passante permet aux organisations d’estimer la bande passante requise pour prendre en charge des réunions avec leurs réseaux étendus et les liaisons internet afin de confirmer que le réseau est correctement configuré pour prendre en charge une mise à l’échelle des services de réunion.
 
 > [!IMPORTANT]
-> Teams ne permet pas aux utilisateurs de planifier de réunions ou d’événements en direct lorsqu’ils sont hors connexion ou qu’ils utilisent une bande passante limitée. 
+> Teams ne permet pas aux utilisateurs de planifier de réunions ou d’événements en direct lorsqu’ils sont hors connexion ou qu’ils utilisent une bande passante limitée.
 
 | Posez-vous la question | Action |
 |--------------|--------|
@@ -160,7 +160,7 @@ Pour plus d’informations, voir [Enregistrement de réunion Teams dans le nuage
 
 | Posez-vous la question | Action |
 |--------------|--------|
-| Est-ce que je vais activer le service de transcription pour la réunion ?|Voir [activer ou désactiver la transcription de l’enregistrement](cloud-recording.md#turn-on-or-turn-off-cloud-recording)|
+| Est-ce que je vais activer le service de transcription pour la réunion ?|Voir [activer ou désactiver la transcription de l’enregistrement](meetings-policies-recording-and-transcription.md#allow-transcription)|
 |||
 
 

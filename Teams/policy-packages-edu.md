@@ -21,19 +21,19 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez les stratégies dans un cadre éducatif ou EDU, ainsi que l’utilisation et la gestion des packages de stratégie dans Microsoft Teams.
-ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728163"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605380"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Stratégies et packages de stratégies Teams pour l’éducation
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Pour plus d’informations sur les stratégies dans Microsoft Teams, voir [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams](assign-policies.md).
+> Pour plus d’informations sur les stratégies dans Microsoft Teams, voir [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams](policy-assignment-overview.md).
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administrateurs : prise en main de la gestion de stratégie Microsoft Teams
 
@@ -41,7 +41,7 @@ Microsoft Teams permet aux utilisateurs de faire des choses comme participer à 
 
 Voici la liste des domaines de stratégie principaux disponibles dans Microsoft Teams. Pour en savoir plus sur les stratégies de chaque domaine et les fonctionnalités qu’elles contrôlent, utilisez les liens ci-dessous:
 
-- [Réunions](meeting-policies-in-teams.md)
+- [Réunions](meeting-policies-overview.md)
 - [Événements en direct](teams-live-events/configure-teams-live-events.md)
 - [Appel](teams-calling-policy.md) 
 - [Messagerie](messaging-policies-in-teams.md)
@@ -121,7 +121,7 @@ Un package de stratégie dans Teams recueille les stratégies prédéfinies et p
 
 Les établissements d’enseignement en général ont de nombreux utilisateurs ayant des besoins uniques, en fonction de l’âge et de la maturité des étudiants. Par exemple, vous souhaiterez sans doute accorder aux enseignants et au personnel l’accès complet à Microsoft Teams, mais limiter les fonctionnalités de Microsoft Teams pour permettre aux étudiants d’encourager l’environnement d’apprentissage en toute sécurité. Vous pouvez utiliser les packages de stratégie pour personnaliser les paramètres en fonction des besoins des différentes cohortes de la communauté de l’établissement d’enseignement.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Notre recommandation principale est d’utiliser la définition de stratégie Globale (à l’échelle de l’Organisation par défaut) pour les étudiants au lieu d’un package de stratégie. Ainsi, les nouveaux utilisateurs au sein de votre organisation disposent toujours de l’ensemble de stratégies le plus strict approprié aux étudiants. Si cette recommandation ne répond pas aux besoins de votre établissement, l’un des packages de stratégie étudiant ci-dessous peut être une bonne alternative. 
 
 À l’instar de la liste de stratégies susmentionnée dans cet article, les packages de stratégie prédéfinissent les stratégies suivantes pour ce qui suit :
@@ -180,7 +180,7 @@ Pour attribuer un package de stratégie à un ou plusieurs utilisateurs, dans le
 
 ![Capture d’écran de l’attribution d’un package de stratégie dans le Centre d’administration.](media/policy-packages-healthcare-assign.png)
 
-Pour plus d’informations, consultez la section [Attribuer un package de stratégie](manage-policy-packages.md#assign-a-policy-package).
+Pour plus d’informations, consultez la section [Attribuer un package de stratégie](assign-policy-packages.md).
 
 Si une stratégie est attribuée à un utilisateur et que vous affectez une autre stratégie plus tard, l’affectation la plus récente prend la priorité.
 
@@ -190,13 +190,13 @@ Si une stratégie est attribuée à un utilisateur et que vous affectez une autr
 
 Attribution de package de stratégie aux groupes vous permet d’attribuer plusieurs stratégies à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une liste de distribution. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence. Cette méthode est recommandée pour les groupes disposant jusqu’à 50 000 utilisateurs, mais aussi pour les groupes de plus grande taille.
 
-Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un groupe](assign-policies.md#assign-a-policy-package-to-a-group).
+Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un groupe](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Attribuer un package de stratégie à un grand ensemble (lot) d’utilisateurs
 
 Utilisez l’attribution de package de stratégie de traitement par lots pour attribuer un package de stratégie à d’importants ensembles d’utilisateurs à la fois. L’applet de commande [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) vous permet de soumettre un lot d’utilisateurs et le package de stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot.
 
-Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des utilisateurs à l’aide de leur ID d’objet, de leur nom d’utilisateur, de leur adresse SIP ou de leur adresse de courrier. Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un lot d’utilisateurs](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+Un lot peut contenir jusqu’à 5 000 utilisateurs. Vous pouvez spécifier des utilisateurs à l’aide de leur ID d’objet, de leur nom d’utilisateur, de leur adresse SIP ou de leur adresse de courrier. Pour plus d’informations, consultez la section [Attribuer un package de stratégie à un lot d’utilisateurs](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Stratégies à attribuer pour la sécurité des étudiants
 

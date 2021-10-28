@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1505d8e9bd385d2dce35cb0c7dad24b5988bf0cc
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012758"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605810"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Mettre en service Microsoft Teams à grande échelle pour les employés de bureau
 
@@ -387,7 +387,7 @@ Une gestion des erreurs minime a été implémentée dans ces exemples de script
 
 ## <a name="further-reading"></a>Lectures supplémentaires
 
-- [Nouveau canal d’équipe (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [Nouvelle stratégie de messagerie Teams (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
-- [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [Nouveau canal d’équipe (PowerShell)](/powershell/module/teams/new-teamchannel)
+- [Nouvelle stratégie de messagerie Teams (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy)
+- [Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.](policy-assignment-overview.md)
 - [Attribuez des licences et des comptes d’utilisateur avec Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
