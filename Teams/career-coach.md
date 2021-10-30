@@ -1,5 +1,5 @@
 ---
-title: Acheter, configurer et activer des Conseiller d’orientation pour Microsoft Teams
+title: Acheter, configurer et activer des Conseiller d'orientation pour Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: alaina.creager
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez comment acheter, configurer et activer des Conseiller d’orientation pour Microsoft Teams.
+description: Découvrez comment acheter, configurer et activer des Conseiller d'orientation pour Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,20 +16,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dd2bb016498df23a98c1e289679fd1c4e4cfa38
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8be2464d765ef45097a1f78681933fa798c129c3
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729693"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624235"
 ---
-# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Acheter, configurer et activer des Conseiller d’orientation pour Microsoft Teams
+# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Acheter, configurer et activer des Conseiller d'orientation pour Microsoft Teams
 
-Conseiller d’orientation est une application Microsoft Teams pour l’éducation optimisée par LinkedIn qui fournit des conseils personnalisés aux étudiants de l’enseignement supérieur pour parcourir leur parcours professionnel. Conseiller d’orientation offre aux établissements d’enseignement une solution de carrière unifiée qui permet aux étudiants de découvrir leur carrière, de développer leurs compétences réelles et de développer leur réseau au même endroit.
+Conseiller d'orientation est une application Microsoft Teams pour l'éducation optimisée par LinkedIn qui fournit des conseils personnalisés aux étudiants de l’enseignement supérieur pour parcourir leur parcours professionnel. Conseiller d'orientation offre aux établissements d’enseignement une solution de carrière unifiée qui permet aux étudiants de découvrir leur carrière, de développer leurs compétences réelles et de développer leur réseau au même endroit.
 
 ## <a name="supported-languages"></a>Langues prise en charge
 
-Conseiller d’orientation langues sont localisées dans les langues suivantes :
+Conseiller d'orientation langues sont localisées dans les langues suivantes :
 
 - Chinois (simplifié, Chine de mer)
 - Chinois (traditionnel, Taïwan)
@@ -43,14 +43,14 @@ Conseiller d’orientation langues sont localisées dans les langues suivantes :
 - Espagnol (Espagne)
 - Espagnol (Mexique)
 
-En savoir plus sur [Conseiller d’orientation.](https://aka.ms/career-coach)
+En savoir plus sur [Conseiller d'orientation.](https://aka.ms/career-coach)
 
 > [!NOTE]
-> Utilisez les meilleures pratiques et les conseils utiles de ce guide pour activer les fonctionnalités de Conseiller d’orientation pour les étudiants, enseignants et membres du personnel. Consultez [l’article du guide de planification](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) rapide.
+> Utilisez les meilleures pratiques et les conseils utiles de ce guide pour activer les fonctionnalités de Conseiller d'orientation pour les étudiants, enseignants et membres du personnel. Consultez [l’article du guide de planification](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) rapide.
 
 ## <a name="review-the-requirements"></a>Examiner les conditions requises
 
-Pour activer Conseiller d’orientation de votre établissement d’enseignement, examinez ce dont vous avez besoin pour rendre l’application opérationnel.
+Pour activer Conseiller d'orientation de votre établissement d’enseignement, examinez ce dont vous avez besoin pour rendre l’application opérationnel.
 
 **Configuration technique requise**
 
@@ -67,7 +67,7 @@ Pour activer Conseiller d’orientation de votre établissement d’enseignement
 - Étudiants
 
 > [!NOTE]
-> Une Conseiller d’orientation pour les enseignants doit être attribuée à l’administrateur informatique qui finalie la configuration.
+> Une Conseiller d'orientation pour les enseignants doit être attribuée à l’administrateur informatique qui finalie la configuration.
 
 **Données et fichiers de votre établissement d’enseignement**
 
@@ -79,9 +79,9 @@ Pour activer Conseiller d’orientation de votre établissement d’enseignement
 
 - Abonnement Learning Campus LinkedIn (préféré)
 
-## <a name="purchase-the-career-coach-licenses"></a>Acheter les licences Conseiller d’orientation licences d’utilisation
+## <a name="purchase-the-career-coach-licenses"></a>Acheter les licences Conseiller d'orientation licences d’utilisation
 
-Conseiller d’orientation est disponible dans le monde entier (à l’exception de la Chine et de la Russie) pour les établissements d’enseignement supérieur qualifiés sous la forme d’une licence de module add-on via Enrollment for Education Solutions (EES), les fournisseurs de services Cloud et Centre d’administration Microsoft 365 (web direct). En tant qu’Microsoft Teams, les clients doivent avoir Microsoft 365 A3/A5 ou Office 365 A1/A3/A5 pour acheter la licence de Conseiller d’orientation logiciels.
+Conseiller d'orientation est disponible dans le monde entier (à l’exception de la Chine et de la Russie) pour les établissements d’enseignement supérieur qualifiés sous la forme d’une licence de module add-on via Enrollment for Education Solutions (EES), les fournisseurs de services Cloud et Centre d'administration Microsoft 365 (web direct). En tant qu’Microsoft Teams, les clients doivent avoir Microsoft 365 A3/A5 ou Office 365 A1/A3/A5 pour acheter la licence de Conseiller d'orientation logiciels.
 
 ### <a name="assign-app-licenses-to-users"></a>Attribuer des licences d’application aux utilisateurs
 
@@ -89,9 +89,9 @@ Pour obtenir des instructions détaillées, voir [Attribuer des licences aux uti
 
 ### <a name="turn-on-linkedin-account-connections"></a>Activer les connexions de compte LinkedIn
 
-Conseiller d’orientation **nécessite** que les utilisateurs de votre établissement d’enseignement ont la possibilité de connecter leur compte Microsoft 365 à leur compte LinkedIn, qui est facilité au sein d’Conseiller d’orientation
+Conseiller d'orientation **nécessite** que les utilisateurs de votre établissement d’enseignement ont la possibilité de connecter leur compte Microsoft 365 à leur compte LinkedIn, qui est facilité au sein d’Conseiller d'orientation
 
-1. Connectez-vous [au Centre d’administration Azure AD](https://aad.portal.azure.com/) avec un compte administrateur global pour l’organisation Azure AD.
+1. Connectez-vous [au Azure AD d’administration](https://aad.portal.azure.com/) avec un compte administrateur global pour l’Azure AD organisation.
 
 2. Sélectionnez **Utilisateurs.**
 
@@ -107,21 +107,21 @@ Conseiller d’orientation **nécessite** que les utilisateurs de votre établis
 
 Découvrez comment intégrer [des connexions de compte LinkedIn dans Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
 
-## <a name="configure-career-coach-in-the-teams-admin-center"></a>Configurer des Conseiller d’orientation dans le Centre Teams’administration
+## <a name="configure-career-coach-in-the-teams-admin-center"></a>Configurer des Conseiller d'orientation dans le Centre Teams’administration
 
-En utilisant les paramètres d’administration du Microsoft Teams d’administration, vous pouvez configurer Conseiller d’orientation pour votre établissement d’enseignement et l’activer pour les utilisateurs.
+En utilisant les paramètres d’administration du Microsoft Teams d’administration, vous pouvez configurer Conseiller d'orientation pour votre établissement d’enseignement et l’activer pour les utilisateurs.
 
 **Éléments à prendre en compte**
 
-- Les sections suivantes doivent être complètes avant que Conseiller d’orientation puisse être utilisé - Marque et préférences, LinkedIn
+- Les sections suivantes doivent être complètes avant que Conseiller d'orientation puisse être utilisé - Marque et préférences, LinkedIn
 - Les formats CSV pour le catalogue de cours et le champ d’étude ont les formats requis et une taille maximale de 18 Mo.
 
-- Si le Conseiller d’orientation « Une mise à jour est en cours de Conseiller d’orientation pour une utilisation prochaine » s’Conseiller d’orientation les sections requises n’ont pas été terminées.
+- Si le Conseiller d'orientation « Une mise à jour est en cours de Conseiller d'orientation pour une utilisation prochaine » s’Conseiller d'orientation les sections requises n’ont pas été terminées.
 
 - Sur les pages de paramètres avec des champs obligatoires, si les champs ne sont pas achevés, la page ne sera pas soumission
   - Les utilisateurs ne voient pas de message d’avertissement, la page n’est tout simplement pas envoyé
 
-## <a name="access-the-career-coach-app-settings"></a>Accéder aux paramètres Conseiller d’orientation’application de messagerie
+## <a name="access-the-career-coach-app-settings"></a>Accéder aux paramètres Conseiller d'orientation’application de messagerie
 
 Utilisez la [page Gérer les applications](/microsoftteams/manage-apps) pour afficher les Teams dans le catalogue d’applications de votre établissement d’enseignement.
 
@@ -132,15 +132,15 @@ Utilisez la [page Gérer les applications](/microsoftteams/manage-apps) pour aff
     > [!NOTE]
     > Vous devez être un administrateur global ou un Teams de service pour accéder à la page.
 
-3. Recherchez des **Conseiller d’orientation.**  
+3. Recherchez des **Conseiller d'orientation.**  
 
-4. Sélectionnez **Conseiller d’orientation,** puis **sélectionnez Paramètres.**  
+4. Sélectionnez **Conseiller d'orientation,** puis **sélectionnez Paramètres.**  
 
-    ![affiche le Conseiller d’orientation l’application sélectionnée avec l’option Paramètres’affichage.](media/career-coach-app.png)
+    ![affiche le Conseiller d'orientation l’application sélectionnée avec l’option Paramètres’affichage.](media/career-coach-app.png)
 
-### <a name="configure-the-career-coach-app-settings"></a>Configurer les paramètres Conseiller d’orientation’application de messagerie
+### <a name="configure-the-career-coach-app-settings"></a>Configurer les paramètres Conseiller d'orientation’application de messagerie
 
-Conseiller d’orientation a cinq catégories de configuration :
+Conseiller d'orientation a cinq catégories de configuration :
 
 - [Marque et préférences](#brand-and-preferences)
 
@@ -160,13 +160,13 @@ Conseiller d’orientation a cinq catégories de configuration :
 Définissez le nom, le logo et la langue par défaut de votre établissement d’enseignement sur la page des paramètres de marque et de préférences.
 
 > [!NOTE]
-> Il s’agit d’une section Conseiller d’orientation ne peut pas être activée sans la marque et les préférences soumises.
+> Il s’agit d’une section Conseiller d'orientation ne peut pas être activée sans la marque et les préférences soumises.
 
-![la Conseiller d’orientation de marque du Centre d’administration.](media/career-coach-brand.png)
+![la Conseiller d'orientation de marque du Centre d’administration.](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>Icône établissement d’enseignement
 
-L’icône d’un établissement d’enseignement est utilisée dans tout Conseiller d’orientation pour identifier le contenu propre à votre établissement d’enseignement, les ressources du catalogue de cours dans l’application et la section expériences réelles du tableau de bord. Pour ce faire, il est préférable d’avoir la mise en forme la plus à jour :
+L’icône d’un établissement d’enseignement est utilisée dans tout Conseiller d'orientation pour identifier le contenu propre à votre établissement d’enseignement, les ressources du catalogue de cours dans l’application et la section expériences réelles du tableau de bord. Pour ce faire, il est préférable d’avoir la mise en forme la plus à jour :
 
 - A transparent PNG
 - Proportions de 1:1
@@ -182,10 +182,10 @@ L’icône d’un établissement d’enseignement sera utilisée pour les ressou
 
 #### <a name="linkedin-connection"></a>Connexion LinkedIn
 
-La configuration de LinkedIn se connecte Conseiller d’orientation aux données publiques liées à LinkedIn.
+La configuration de LinkedIn se connecte Conseiller d'orientation aux données publiques liées à LinkedIn.
 
 > [!NOTE]
-> Il s’agit d’une section Conseiller d’orientation ne peut pas être activée sans la connexion à la page LinkedIn vérifiée.
+> Il s’agit d’une section Conseiller d'orientation ne peut pas être activée sans la connexion à la page LinkedIn vérifiée.
 
 ##### <a name="add-and-confirm-the-linkedin-page"></a>Ajouter et confirmer la page LinkedIn
 
@@ -193,7 +193,7 @@ Déterminez la page LinkedIn de l’établissement d’enseignement. Recherchez 
   
 1. Connectez-vous au **Teams d’administration.**
 
-1. Sélectionnez **Teams applications Gérer** les applications  >    >  **Conseiller d’orientation**  >  **connexion LinkedIn.**
+1. Sélectionnez **Teams applications Gérer** les applications  >    >  **Conseiller d'orientation**  >  **connexion LinkedIn.**
 
 2. Recherchez la page LinkedIn en recherchant sur LinkedIn et en sélectionnant Filtre scolaire. Ou communiquez avec un membre du personnel des services de carrière pour déterminer la page d’établissement LinkedIn correcte à utiliser. [Comment identifier les pages LinkedIn](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
 
@@ -211,10 +211,10 @@ Déterminez la page LinkedIn de l’établissement d’enseignement. Recherchez 
 
 6. Copiez le lien de vérification et partagez-le avec l’administrateur de la page LinkedIn de votre établissement d’enseignement. En savoir plus sur le rôle d’administrateur de la page LinkedIn sur la [documentation d’administration de la page LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
 
-7. L’administrateur principal de la page LinkedIn utilisera le lien de vérification unique pour Conseiller d’orientation la page de votre établissement scolaire. [Documentation supplémentaire sur la vérification de la page LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
+7. L’administrateur principal de la page LinkedIn utilisera le lien de vérification unique pour Conseiller d'orientation la page de votre établissement scolaire. [Documentation supplémentaire sur la vérification de la page LinkedIn.](https://www.linkedin.com/help/linkedin/answer/102672)
 
 > [!NOTE]
-> La vérification par l’administrateur super de la page LinkedIn est requise pour terminer la connexion LinkedIn pour Conseiller d’orientation.
+> La vérification par l’administrateur super de la page LinkedIn est requise pour terminer la connexion LinkedIn pour Conseiller d'orientation.
 
    ![vérification de la page Linkedin dans le portail de développement Linkedin.](media/career-coach-linkedin-verification.png)
 
@@ -223,7 +223,7 @@ Déterminez la page LinkedIn de l’établissement d’enseignement. Recherchez 
 Le catalogue de cours représente les cours et les cours proposés aux étudiants par votre établissement d’enseignement.
 
 > [!NOTE]
-> Il s’agit d’une section obligatoire . Conseiller d’orientation ne peut pas être activé sans un catalogue de cours.
+> Il s’agit d’une section obligatoire . Conseiller d'orientation ne peut pas être activé sans un catalogue de cours.
 
 Ces cours sont utilisés au sein de l’application dans deux zones :
 
@@ -259,7 +259,7 @@ Le tableau suivant répertorie les éléments à inclure dans le catalogue des c
 
 1. Connectez-vous au **Teams d’administration.**
 
-1. Sélectionnez **Teams applications Gérer les** applications &gt;  &gt; **Conseiller d’orientation** &gt; **Paramètres** &gt; **catalogue de cours.**  
+1. Sélectionnez **Teams applications Gérer les** applications &gt;  &gt; **Conseiller d'orientation** &gt; **Paramètres** &gt; **catalogue de cours.**  
 
 2. Télécharger cours au format CSV avec les colonnes requises : courseId, titre, sourceLink. Chaque ligne doit inclure des données pour chacune des colonnes requises.
 
@@ -274,7 +274,7 @@ L’inclure dans les champs recommandés améliore l’expérience pour les étu
 Les champs d’étude sont synonymes de domaines d’intérêt majeurs, de réussites universitaires et de degrés. Ces titres sont référencés par les étudiants lorsqu’ils commencent à utiliser l’application et commencent à définir leur profil personnalisé.
 
 > [!NOTE]
-> Il s’agit d’une section Conseiller d’orientation ne peut pas être activée sans liste de champs d’étude.
+> Il s’agit d’une section Conseiller d'orientation ne peut pas être activée sans liste de champs d’étude.
 
 Ajoutez tous les champs d’étude disponibles aux étudiants tels que Ingénierie, Anglais, Entreprise, etc. La liste de champs permet aux étudiants de découvrir des champs d’étude qui peuvent les intéresser et d’ajouter leur zone de focus à leur profil.
 
@@ -290,7 +290,7 @@ Le tableau suivant indique les éléments à inclure dans les champs d’étude 
 ##### <a name="add-the-fields-of-study"></a>Ajouter les champs de l’étude
 
 1. Connectez-vous au **Teams d’administration.**
-1. Sélectionnez **Teams applications Gérer** &gt; **les** applications &gt; **Conseiller d’orientation** &gt; **Paramètres** &gt; **d’étude.**  
+1. Sélectionnez **Teams applications Gérer** &gt; **les** applications &gt; **Conseiller d'orientation** &gt; **Paramètres** &gt; **d’étude.**  
 
 2. Télécharger d’étude au format CSV.
 
@@ -298,42 +298,42 @@ Le tableau suivant indique les éléments à inclure dans les champs d’étude 
 
 #### <a name="customization"></a>Personnalisation
 
-Conseiller d’orientation pouvez personnaliser pour être unique dans votre établissement d’enseignement. La personnalisation prend en charge l’ajout d’expériences au tableau de bord. Il est recommandé d’ajouter des liens vers des offres d’emploi, des événements, des services de carrière, des événements professionnels, des clubs d’étudiants et toute autre ressource qui aident les étudiants à acquérir une expérience réelle.
+Conseiller d'orientation pouvez personnaliser pour être unique dans votre établissement d’enseignement. La personnalisation prend en charge l’ajout d’expériences au tableau de bord. Il est recommandé d’ajouter des liens vers des offres d’emploi, des événements, des services de carrière, des événements professionnels, des clubs d’étudiants et toute autre ressource qui aident les étudiants à acquérir une expérience réelle.
 
 ##### <a name="add-customized-experiences"></a>Ajouter des expériences personnalisées
 
 1. Connectez-vous au **Teams d’administration.**
 
-1. Sélectionnez **Teams applications Gérer** les applications &gt;  &gt; **Conseiller d’orientation**  >  **Paramètres** &gt; **personnalisation.**
+1. Sélectionnez **Teams applications Gérer** les applications &gt;  &gt; **Conseiller d'orientation**  >  **Paramètres** &gt; **personnalisation.**
 
 2. Ajoutez chaque URL, un titre et une courte description.  
   
 3. Sélectionnez **Envoyer.**
 
-## <a name="making-career-coach-available-to-your-organization"></a>Rendre Conseiller d’orientation disponibles pour votre organisation
+## <a name="making-career-coach-available-to-your-organization"></a>Rendre Conseiller d'orientation disponibles pour votre organisation
 
-À présent que Conseiller d’orientation est configuré pour votre organisation. Suivez ces étapes pour vous assurer que Conseiller d’orientation est disponible pour l’organisation dans Microsoft Teams.
+À présent que Conseiller d'orientation est configuré pour votre organisation. Suivez ces étapes pour vous assurer que Conseiller d'orientation est disponible pour l’organisation dans Microsoft Teams.
 
 ### <a name="enable-the-app"></a>Activer l’application
 
-Une fois la configuration terminée, activez l’application pour les étudiants et les utilisateurs titulaires d’une licence afin qu’ils ont accès à Conseiller d’orientation.  
+Une fois la configuration terminée, activez l’application pour les étudiants et les utilisateurs titulaires d’une licence afin qu’ils ont accès à Conseiller d'orientation.  
   
 > [!NOTE]
 > Vous devez avoir des autorisations de rôle d Teams global ou d’administrateur.
 
 1. Connectez-vous au **Teams d’administration.**
 
-1. Sélectionnez **Teams applications Gérer** les applications &gt;  &gt; **Conseiller d’orientation.**
+1. Sélectionnez **Teams applications Gérer** les applications &gt;  &gt; **Conseiller d'orientation.**
 
 2. Déplacez le basculement Statut sur **Autorisé.**  
 
   > [!NOTE]
   > Autorisé signifie que l’application est disponible pour les utilisateurs de votre établissement d’enseignement. Bloqué signifie que l’application n’est pas disponible pour les étudiants.
 
-### <a name="add-career-coach-as-an-installed-app"></a>Ajouter des Conseiller d’orientation en tant qu’application installée
+### <a name="add-career-coach-as-an-installed-app"></a>Ajouter des Conseiller d'orientation en tant qu’application installée
 
 > [!NOTE]
-> Cette étape permet de s’assurer 1) Conseiller d’orientation est correctement configuré pour votre organisation 2) que les étudiants trouvent Conseiller d’orientation.
+> Cette étape permet de s’assurer 1) Conseiller d'orientation est correctement configuré pour votre organisation 2) que les étudiants trouvent Conseiller d'orientation.
 
 1. Connectez-vous au **Teams d’administration.**
 
@@ -345,7 +345,7 @@ Une fois la configuration terminée, activez l’application pour les étudiants
 
 ### <a name="pin-the-app"></a>Épingler l’application
 
-L’épinglage Conseiller d’orientation rendre l’application plus accessible et visible pour les étudiants.
+L’épinglage Conseiller d'orientation rendre l’application plus accessible et visible pour les étudiants.
 
 1. Connectez-vous au **Teams d’administration.**
 
@@ -353,18 +353,30 @@ L’épinglage Conseiller d’orientation rendre l’application plus accessible
 
 3. Sous **Applications épinglées,** **sélectionnez Ajouter des applications.**
 
-4. Recherchez des **Conseiller d’orientation,** puis sélectionnez **Ajouter.**
+4. Recherchez des **Conseiller d'orientation,** puis sélectionnez **Ajouter.**
 
 5. Choisissez l’ordre d’apparition de l’application, puis sélectionnez **Enregistrer.**
 
 > [!NOTE]
-> Les étudiants seront avertis dans un Microsoft Teams’Conseiller d’orientation ont été épinglés.
+> Les étudiants seront avertis dans un Microsoft Teams’Conseiller d'orientation ont été épinglés.
 
 Pour plus [d’informations,](/microsoftteams/teams-app-setup-policies) référez-vous à Gérer les stratégies de configuration d’application dans Microsoft.
 
+## <a name="removing-your-tenant-data"></a>Suppression de vos données client
+
+Vos données client incluent des informations téléchargées ou générées dans le cadre de la configuration de l’application. Pour supprimer toutes les données d’un client Conseiller d'orientation, demandez à l’administrateur général de votre client d’ouvrir un ticket de [support](https://edusupport.microsoft.com/support?product_id=career_coach) demandant la suppression définitive des données du client. N’oubliez pas que ce processus est une opération irréversible. Une fois la suppression des données terminée, l’application Conseiller d'orientation revient à son état pré-configuré et non personnalisé pour tous les utilisateurs et un administrateur Teams devra configurer de nouveau l’application pour continuer à l’utiliser.
+
+La procédure suivante explique le processus de suppression :
+
+- Un ticket de support doit être déposé par un administrateur global du client et indiquer clairement la demande de suppression définitive des données de votre client. **Il n’est pas possible de limiter le jeu de** données ou la fenêtre Délai de la suppression.
+
+- Une fois classé, le ticket de support sera traité après une semaine pour répondre à la stratégie de rétention minimale de conformité. Vous pouvez annuler l’opération pendant cette période.
+
+- Après une semaine, l’équipe Conseiller d'orientation s’assure que toutes les données liées au client sont supprimées. Le support microsoft surveille le ticket et vous avertira une fois le processus de suppression terminé, dans un total de **30 jours.**
+
 ## <a name="resources"></a>Ressources
 
-Les ressources suivantes vous aideront à planifier votre Conseiller d’orientation’application.
+Les ressources suivantes vous aideront à planifier votre Conseiller d'orientation’application.
 
 - [Bienvenue dans Microsoft Teams](Teams-overview.md)
 
