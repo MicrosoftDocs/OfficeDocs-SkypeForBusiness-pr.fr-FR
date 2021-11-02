@@ -16,26 +16,28 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation dans le Microsoft Teams d’administration. '
+description: 'Découvrez comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 601d8ce50d5fcf06574f08abb2c78c73a40fefda
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 4d9c7c56b4e2b2fd14f703d51b4c07cfc173dfa3
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536535"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634853"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Ajouter, modifier ou supprimer un emplacement pour votre organisation d'urgence
 
-Quelle que soit l’option de connectivité [RST que](pstn-connectivity.md) vous choisissez (plans d’appel Microsoft, Connecter d’opérateur ou routage direct), des emplacements d’urgence peuvent être associés à un numéro de téléphone. Toutefois, en fonction de votre option de connectivité PSTN, les exigences d’emplacement peuvent varier.
+Quelle que soit l’option de connectivité [RST que](pstn-connectivity.md) vous choisissez, les plans d’appel Microsoft, les Connecter d’opérateur ou les emplacements d’urgence de routage direct peuvent être associés à &mdash; un numéro de &mdash; téléphone.
 
-**Pour les plans d’appel,** un emplacement d’urgence doit être associé à un numéro de téléphone, mais lorsque cela se produit, cette situation peut varier d’un pays ou d’une région à l’autre. Par exemple, aux États-Unis, vous devez associer un emplacement d’urgence lorsque vous attribuez le numéro de téléphone à l’utilisateur. Au Royaume-Uni, vous devez associer un emplacement d’urgence au numéro de téléphone lorsque vous obtenez les numéros de téléphone d’Microsoft 365 ou transférez des numéros de téléphone de votre fournisseur de services actuel.
+Toutefois, en fonction de l’option de connectivité PSTN, la façon dont vous gérez les emplacements d’urgence et les exigences d’emplacement peut varier. Pour plus d’informations, voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
 
-Quel que soit le pays ou la région dans lesquels vous vous trouvez, vous pouvez ajouter un ou plusieurs emplacements à un emplacement d’urgence et supprimer un emplacement d’urgence. Selon le nombre d’emplacements physiques existant dans votre organisation, vous pouvez créer des bâtiments, des étages et des bureaux. Voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
+Cet article décrit comment ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation. 
 
-Vous gérez les emplacements d’urgence pour votre organisation dans le Microsoft Teams d’administration de l’entreprise ou à l’aide de PowerShell.
+Cet article s’applique aux plans d’appel Microsoft, aux Connecter opérateurs et au routage direct.
 
-Pour affecter un emplacement d’urgence, les utilisateurs, les numéros de téléphone et les emplacements d’urgence doivent tous se trouver dans le même pays.  Pour plus d’informations, [voir Affecter ou modifier un emplacement d’urgence pour un utilisateur.](assign-change-emergency-location-user.md)
+Vous gérez les emplacements d’urgence pour votre organisation via le Microsoft Teams d’administration de l’entreprise ou à l’aide de PowerShell.
+
+Pour affecter un emplacement d’urgence, les utilisateurs, les numéros de téléphone et les emplacements d’urgence doivent tous se trouver dans le même pays. Pour plus d’informations, [voir Affecter ou modifier un emplacement d’urgence pour un utilisateur.](assign-change-emergency-location-user.md)
   
 ## <a name="add-an-emergency-location"></a>Ajouter un emplacement d’urgence
 
@@ -49,7 +51,7 @@ Pour affecter un emplacement d’urgence, les utilisateurs, les numéros de tél
    > [!NOTE]
    > En Belgique, en France, en Allemagne, en Irlande, aux Pays-Bas et en Espagne, il est important de comprendre que, pour activer correctement un numéro de téléphone dans Microsoft 365, l’adresse définie dans l’emplacement d’urgence, qui est utilisée pour acquérir le numéro, doit correspondre à l’code de la zone du numéro de téléphone.
 
-5. Si l’adresse est in trouvée et que vous voulez la modifier manuellement, vous pouvez activer modifier l’adresse **manuellement.**
+5. Si l’adresse est in trouvée et que vous voulez la modifier manuellement, activer la modification **manuelle de l’adresse.**
 6. Cliquez sur **Enregistrer**.
 
 ### <a name="using-powershell"></a>Utiliser PowerShell
@@ -85,7 +87,7 @@ Voir [Remove-CsOnlineLisCivicAddress.](/powershell/module/skype/remove-csonlinel
 
 ## <a name="related-topics"></a>Sujets associés
 
-- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)

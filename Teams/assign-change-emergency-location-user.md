@@ -18,18 +18,22 @@ f1.keywords:
 - NOCSH
 description: Dans cet article, vous allez découvrir comment affecter ou modifier un emplacement d’urgence pour les utilisateurs de votre organisation.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537285"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634903"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Affecter ou modifier un emplacement d’urgence pour un utilisateur
 
-Un emplacement d’urgence doit être affecté à chaque numéro de téléphone ou utilisateur. Pour plus d’informations sur les adresses de secours et les emplacements d’urgence, voir Que sont les emplacements d’urgence, les lieux et le [routage des appels](./what-are-emergency-locations-addresses-and-call-routing.md)?
+Quelle que soit l’option de connectivité [RST que](pstn-connectivity.md) vous choisissez, vous choisissez plans d’appel Microsoft, opérateur Connecter ou routage direct un emplacement d’urgence doit être affecté à chaque numéro de téléphone ou &mdash; &mdash; utilisateur.
 
-Pour les plans d’appel Microsoft, dans les pays européens, l’emplacement d’urgence est associé au numéro de téléphone lorsque vous l’obtenez à Microsoft 365 ou lorsque vous transférez un numéro de téléphone vers Microsoft 365. Aux États-Unis, l’emplacement d’urgence est associé au numéro de téléphone lorsqu’il est affecté à l’utilisateur. L’adresse de secours peut être modifiée si l’utilisateur à qui elle est affectée change d’emplacement.
+Toutefois, en fonction de l’option de connectivité RSTN, la façon dont vous gérez et attribuez des emplacements d’urgence à un utilisateur peut varier. Pour plus d’informations, voir [Gérer les appels d’urgence.](what-are-emergency-locations-addresses-and-call-routing.md)
+
+Cet article explique comment affecter ou modifier un emplacement d’urgence pour un utilisateur. 
+
+Cet article s’applique aux forfaits d’appels et aux Connecter.
   
 Vous pouvez affecter ou modifier un emplacement d’urgence pour un utilisateur dans le centre d Microsoft Teams’administration ou à l’aide de PowerShell.
 
@@ -56,10 +60,9 @@ Voir [Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser)
     
 ## <a name="related-topics"></a>Sujets associés
 
-- [Gérer les appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Gestion des appels d’urgence](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Ajouter, modifier ou supprimer un emplacement d’urgence pour votre organisation](add-change-remove-emergency-location-organization.md)
-- [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Affecter ou modifier un lieu pour un emplacement d’urgence pour un utilisateur](assign-change-emergency-place-user.md)
+- [Ajouter, modifier ou supprimer un lieu pour un emplacement d’urgence dans votre organisation](add-change-remove-emergency-place-organization.md)
 - [Gérer des numéros de téléphone pour votre entreprise](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Conditions générales relatives aux appels d'urgence](./emergency-calling-terms-and-conditions.md)
-- [Présentation de Teams PowerShell](teams-powershell-overview.md)
