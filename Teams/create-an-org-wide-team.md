@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 058aa530508c03587eae3ff6a55e218bc109bbd2
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728203"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641174"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Créer une équipe à l’échelle de l’organisation dans Microsoft Teams
 
@@ -32,11 +32,11 @@ Avec les équipes à l’échelle de l’organisation, les administrateurs globa
 - Permet de retirer tous les utilisateurs de l’organisation 
 - Permet de maintenir l’appartenance à jour avec Active Directory, car les utilisateurs rejoignent et quittent l’organisation.
 
-Seuls les administrateurs globaux peuvent créer des équipes à l’échelle de l’organisation. Actuellement, une équipe à l’échelle de l’organisation est limitée aux organisations qui ne comptent pas plus de 10 000 utilisateurs. Par ailleurs, cinq équipes à l’échelle de l’organisation par client sont limitées. Lors de la création d’une équipe, si  ces conditions sont remplies, les administrateurs globaux voient l’organisation comme option lorsqu’ils sélectionnent Créer une équipe de **toutes pièces.** 
+Seuls les administrateurs globaux peuvent créer des équipes à l’échelle de l’organisation. Actuellement, une équipe à l’échelle de l’organisation est limitée aux organisations qui ne comptent pas plus de 10 000 utilisateurs. Par ailleurs, la limite est de cinq équipes à l’échelle de l’organisation par client. Lors de la création d’une équipe, si  ces conditions sont remplies, les administrateurs globaux voient l’organisation comme option lorsqu’ils sélectionnent Créer une équipe de **toutes pièces.** 
 
 ![Capture d’écran de l’option à l’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation.](media/create-org-wide-team.png "Capture d’écran de l’option à l’échelle de l’organisation pour créer une équipe à l’échelle de l’organisation")
 
-Lorsqu’une équipe est créée à l’échelle de l’organisation, tous les administrateurs globaux et administrateurs de services Teams sont ajoutés en tant que propriétaires d’équipe et tous les utilisateurs actifs sont ajoutés en tant que membres d’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se Teams, une licence de licence Microsoft Teams’utilisateur s’affiche. Pour en savoir plus sur la licence Sous-licence, consultez Gérer la licence [Microsoft Teams de l’équipe.](teams-exploratory.md) 
+Lorsqu’une équipe est créée à l’échelle de l’organisation, tous les administrateurs globaux et administrateurs de services Teams sont ajoutés en tant que propriétaires d’équipe et tous les utilisateurs actifs sont ajoutés en tant que membres d’équipe. Les utilisateurs sans licence sont également ajoutés à l’équipe. La première fois qu’un utilisateur sans licence se Teams un utilisateur, une licence de licence Microsoft Teams’utilisation. Pour en savoir plus sur la licence Errité, consultez Gérer la [licence Microsoft Teams de l’équipe.](teams-exploratory.md) 
 
 Les types de comptes suivants ne sont pas ajoutés à l’équipe à l’échelle de votre organisation :
 
@@ -62,8 +62,8 @@ Pour 100%2010, nous recommandons aux propriétaires d’équipe d’effectuer le
 
 Réduisez les bruits de canal en faisant en sorte que seuls les propriétaires d’équipe publient sur le canal général. 
 
-1. Allez dans l’équipe, recherchez le canal Général, puis sélectionnez « contrôle général » et « Canal de gestion » plus   >  **d’options.** 
-2. Sous **l’onglet Paramètres du** canal, cliquez **sur Autorisations,** puis sélectionnez **Seuls les propriétaires peuvent publier des messages.**
+1. Allez dans l’équipe, recherchez le canal Général, puis sélectionnez « contrôle général » et « Canal de gestion » pour plus   >  **d’options.** 
+2. Sous **l’onglet Paramètres du** canal, cliquez sur **Autorisations,** puis sélectionnez **Seuls les propriétaires peuvent publier des messages.**
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Désactiver les mentions @team et @ [nom de l’équipe]
 
@@ -82,27 +82,27 @@ Envisagez de configurer la modération des canaux et d’octroyer des fonctionna
 
 - Contrôler qui peut commencer une nouvelle publication dans un canal
 - Ajouter et supprimer des modérateurs
-- Contrôler si les membres de l’équipe peuvent répondre aux messages de canal existants
+- Contrôler si les membres d’une équipe peuvent répondre aux messages de canal existants
 - Contrôler si les robots et connecteurs peuvent envoyer des messages de canal.
 
 Pour plus d’informations, consultez [Configurer et gérer la modération des canaux dans Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Supprimez les comptes sans propriétaire
 
-Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire de l’équipe, vous pouvez gérer la liste de l’équipe en supprimant les comptes qui n’appartiennent pas. **Veillez à utiliser Teams pour supprimer des utilisateurs de votre équipe à l’échelle de l’organisation**. Si vous utilisez une autre manière de supprimer un utilisateur, tel que le Centre d’administration Microsoft 365 ou d’un groupe dans Outlook, l’utilisateur peut être rajouté à l’équipe à l’échelle de l’organisation.
+Même si les membres ne peuvent pas quitter une équipe à l’échelle de l’organisation, en tant que propriétaire de l’équipe, vous pouvez gérer la liste de l’équipe en supprimant les comptes qui n’appartiennent pas à l’équipe. **Veillez à utiliser Teams pour supprimer des utilisateurs de votre équipe à l’échelle de l’organisation**. Si vous utilisez une autre manière de supprimer un utilisateur, tel que le Centre d'administration Microsoft 365 ou d’un groupe dans Outlook, l’utilisateur peut être rajouté à l’équipe à l’échelle de l’organisation.
 
 ## <a name="faq"></a>FAQ
 
 ### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>Existe-t-il un moyen de créer une équipe à l’échelle de l’organisation autre que l’Teams client ?
 
-Les administrateurs globaux peuvent uniquement créer une équipe à l’échelle de l’organisation à l’aide Teams client. Si votre organisation limite la création d’équipes à l’aide de PowerShell, la solution de contournement recommandée consiste à ajouter vos administrateurs généraux au groupe de sécurité des utilisateurs qui peuvent créer une équipe.
+Seuls les administrateurs globaux peuvent créer une équipe à l’échelle de l’organisation à l’aide Teams client. Si votre organisation limite la création d’équipes à l’aide de PowerShell, la solution de contournement recommandée consiste à ajouter vos administrateurs généraux au groupe de sécurité des utilisateurs qui peuvent créer une équipe.
 
 Pour plus d’informations, [voir Gérer les personnes qui peuvent créer des groupes.](/microsoft-365/admin/create-groups/manage-creation-of-groups)
 
 Si cette solution de contournement n’est pas une option, vous pouvez utiliser PowerShell pour créer une équipe publique et ajouter un administrateur général en tant que propriétaire de l’équipe. Ensuite, demandez à l’administrateur général de cliquer sur **Autres options** en regard du nom de l’équipe, de cliquer sur **Modifier l’équipe**, puis de modifier la confidentialité en **à l’échelle de l’organisation : tous les membres de votre organisation seront ajoutés automatiquement**. 
 
 > [!NOTE]
-> Seuls les propriétaires d’équipe peuvent **accéder** à l’option Modifier l’équipe et seuls les administrateurs globaux peuvent voir l’option à **l’échelle de l’organisation.**
+> Seuls les propriétaires d’équipe peuvent accéder **à** l’option Modifier l’équipe et seuls les administrateurs globaux peuvent voir cette option à **l’échelle de l’organisation.**
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>Existe-t-il un moyen de convertir une équipe existante en équipe à l’échelle de l’organisation ?
 

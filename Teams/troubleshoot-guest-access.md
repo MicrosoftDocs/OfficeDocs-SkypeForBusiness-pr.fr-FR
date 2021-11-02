@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b539116fb5e81156a56c5f73146b92eea898765
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8d54e236583211c2a8169987bf03ceba756facf
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600929"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641214"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Résolution des problèmes liés à l’accès invité dans Microsoft Teams
 
@@ -41,14 +41,10 @@ L’accès invité dans Teams utilise Azure Active Directory (Azure AD) Business
 > [!NOTE]
 > Teams clients doivent être activés sur le client d’un invité pour que les invités puissent se connecter et utiliser Teams en tant qu’invité sur un autre client (ressource).
 
-Si vous voyez des erreurs de licence, veillez à lire le modèle de facturation pour les [identités externes Azure AD](/azure/active-directory/external-identities/external-identities-pricing) afin de déterminer les conditions de licence requises pour répondre à vos besoins en matière d’accès invité dans votre organisation.
+Si vous voyez des erreurs de licence, veillez à lire le modèle de facturation pour [les identités externes Azure AD](/azure/active-directory/external-identities/external-identities-pricing) afin de déterminer les conditions de licence requises pour répondre à vos besoins en matière d’accès invité dans votre organisation.
 
 - Les licences invité sont décomptées du nombre existant au sein de l’organisation qui invite. Tenez-en compte au moment de calculer le nombre de licences dont vous avez besoin.
 - Les licences sont comptabilisées dans votre organisation, que les invités proviennent d’une autre Microsoft 365 organisation ou utilisent leur adresse de messagerie personnelle.
-
-## <a name="support-for-b2b-user-types"></a>Prise en charge des types d’utilisateur B2B
-
-Actuellement, Teams prend uniquement en charge les types d’États 1 et 2 des utilisateurs invités [définis par Azure B2B.](/azure/active-directory/b2b/user-properties)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

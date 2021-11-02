@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: En savoir plus sur la structure des équipes et des canaux Microsoft Teams comment utiliser des Teams pour la collaboration entre les organisations.
+description: En savoir plus sur la structure des équipes et des canaux Microsoft Teams et comment utiliser des Teams pour la collaboration entre les organisations.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6ba80c74e905fa80f42095afd7a524d202661f21
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733983"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641194"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Comprendre les équipes et les canaux dans Microsoft Teams
 
@@ -41,7 +41,7 @@ Pour en savoir plus sur les équipes et les canaux, veuillez consulter la [vue d
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| Regardez cette courte vidéo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| Regardez cette courte vidéo   | <iframe width="350" height="200" src="https://youtu.be/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
 
 
 
@@ -61,4 +61,4 @@ Dans une équipe d’organisation (indiquée à gauche), des informations clés 
   
 Vous travaillerez davantage sur la structure de vos équipes à l’[étape 2](teams-adoption-phase2-experiment.md) de votre implémentation.
 
-![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Créer vos [premières équipes](teams-adoption-your-first-teams.md)
+![Icône montrant l’étape suivante.](media/teams-adoption-next-icon.png) Créer vos [premières équipes](teams-adoption-your-first-teams.md)
