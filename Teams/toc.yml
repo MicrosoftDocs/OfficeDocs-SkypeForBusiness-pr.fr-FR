@@ -533,6 +533,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Modèles d’équipe de la catégorie fabrication
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Modèles d’équipe de catégorie association
+            href: team-templates-nonprofit.md
           - name: Gérer les stratégies de modèles d’équipe
             href: templates-policies.md
       - name: Collaborer avec des personnes externes à l’organisation
@@ -945,7 +947,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: 'Étape 2 : activer les utilisateurs'
                     href: direct-routing-enable-users.md
-                  - name: 'Étape 3 : Configurez le routage des appels.'
+                  - name: "Étape\_3\_: configurer le routage des appels"
                     href: direct-routing-voice-routing.md
                   - name: 'Étape 4 : traduire des numéros de téléphone'
                     href: direct-routing-translate-numbers.md
@@ -1553,6 +1555,11 @@ items:
             href: flw-realwear.md
           - name: Talkie-walkie
             href: walkie-talkie.md
+      - name: Teams pour les associations
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: Utiliser les modèles d’équipe pour les associations
+            href: team-templates-nonprofit.md
       - name: Teams pour la vente au détail
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:

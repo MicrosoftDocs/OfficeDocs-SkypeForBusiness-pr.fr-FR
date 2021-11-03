@@ -21,12 +21,12 @@ description: Vos équipes ou votre administrateur informatique peuvent configure
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536515"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634923"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Gérer l’accès externe dans Microsoft Teams
 
@@ -110,6 +110,22 @@ Pour permettre aux membres Teams de votre organisation de discuter avec et d’a
 2. Activez le paramètre **Autoriser les utilisateurs de mon organisation à communiquer avec les utilisateurs Skype**.
 
 Pour en savoir plus sur la manière dont les utilisateurs de Teams et les utilisateurs de Skype peuvent communiquer, y compris les limitations qui s’appliquent, voir [Interopérabilité Skype et Teams](teams-skype-interop.md).
+
+## <a name="block-unsolicited-contact-with-external-unmanaged-teams-users"></a>Bloquer les contacts non sollicités avec des utilisateurs externes non Teams
+
+Pour empêcher les utilisateurs de votre Teams contact non sollicité avec des utilisateurs Teams externes dont les comptes ne sont pas gérés par une organisation, suivez ces étapes.
+
+  **Utiliser le centre d’administration Microsoft Teams**
+
+1. Dans la navigation de gauche, accédez à **Utilisateurs** > **Accès externe**.
+
+2. Suivez l’une des étapes suivantes :
+
+    - Pour empêcher les utilisateurs Teams de votre organisation de communiquer avec des utilisateurs Teams externes dont les comptes ne sont pas gérés par une organisation, désactiver les personnes de mon organisation peuvent communiquer avec des Teams utilisateurs dont les comptes ne sont pas gérés par un paramètre **d’organisation** et effacer les utilisateurs externes avec des comptes Teams non gérés par une organisation peuvent contacter les utilisateurs de mon **organisation case** à cocher Contrôle.
+
+    - Pour que les utilisateurs de Teams de votre organisation communiquent avec des utilisateurs de Teams externes dont les comptes ne sont pas gérés par une organisation si vos utilisateurs Teams ont commencé le contact, activer les personnes de mon organisation peuvent communiquer avec des utilisateurs Teams dont les comptes ne sont pas gérés par un paramètre **d’organisation** et effacer les utilisateurs externes avec des comptes **Teams  non gérée par une organisation ne peut contacter les utilisateurs dans la case à cocher de mon** organisation.
+
+    - Pour que les utilisateurs de Teams de votre organisation communiquent avec des utilisateurs de **Teams externes dont les comptes ne sont pas gérés par une organisation et reçoivent des demandes de communication avec ces** utilisateurs Teams **externes,** activer La fonction Personnes de mon organisation peut communiquer avec les utilisateurs de Teams dont les comptes ne sont pas gérés par un paramètre de l’organisation et sélectionner les utilisateurs externes dont les comptes Teams ne sont pas gérés par une organisation peut contacter les utilisateurs de mon organisation.
 
 ## <a name="test-access"></a>Tester l’accès
 
