@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment envoyer manuellement une demande de demande de port.
-ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045870"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733495"
 ---
 # <a name="manually-submit-a-port-order"></a>Envoyer manuellement une demande de transfert
 
@@ -33,11 +33,11 @@ Utilisez les étapes de cet article pour envoyer manuellement une demande de por
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Envoyer manuellement une nouvelle demande de demande de port
 
-Pour envoyer manuellement une nouvelle demande de port, envoyez votre formulaire de lettre d’autorisation complété directement au service RSP de votre région.
+Pour envoyer manuellement une nouvelle demande de port, envoyez votre formulaire de lettre d’autorisation complété directement au service TNS de votre région.
 
 1. Téléchargez [le LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) de votre pays ou région.
 2. Remplissez le formulaire.
-3. Envoyez-le au service [PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) de votre région.
+3. Envoyez-le au [service TNS de](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) votre région.
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>Informations d’autres informations sur le portage de numéro
 
@@ -45,7 +45,7 @@ Pour envoyer manuellement une nouvelle demande de port, envoyez votre formulaire
 
 - Vous devez attribuer les nouveaux numéros de téléphone à chacun de vos utilisateurs. Consultez [Attribuer, modifier ou supprimer le numéro de téléphone d’un utilisateur.](../assign-change-or-remove-a-phone-number-for-a-user.md)
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

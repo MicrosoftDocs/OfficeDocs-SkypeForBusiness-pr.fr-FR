@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams en Russie.
-ms.openlocfilehash: cad4334c71a3b704dacdd68845fb565e4cde84db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac85b5d1a19716a8f5e8d0b16cd0283b59fa8868
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626336"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733055"
 ---
 # <a name="availability-in-russia"></a>Disponibilité en Russie
 
@@ -69,7 +69,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Moscou <li>St. Petersburg[(sur demande)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul>|
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |<ul><li>Moscou <li>St. Petersburg[(sur demande)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul>|
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    
@@ -83,7 +83,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

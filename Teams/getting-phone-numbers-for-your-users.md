@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Découvrez comment obtenir de nouveaux numéros, transférer ou transférer des numéros existants pour Teams et comment montrer les modifications à vos utilisateurs.
-ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8fdc0e2341bd48afb0635f554d7d25b3e4244cf1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537075"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733295"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtention de numéros de téléphone Skype Entreprise pour vos utilisateurs
 
@@ -73,7 +73,7 @@ Vous devez être un administrateur du service Teams pour apporter ces modificati
   
 - Si vous avez besoin d’au moins 999 numéros de téléphone pour vos utilisateurs, utilisez l’Assistant De portage du Microsoft Teams d’administration. Suivez les étapes de [la procédure de transfert de numéros de téléphone Teams.](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) Si votre pays ou région n’est pas répertorié(e) dans l’Assistant [](/microsoftteams/manage-phone-numbers-for-your-organization) Demande de portage, vous pouvez envoyer manuellement une demande de port ou consulter gérer les numéros de téléphone de votre organisation pour télécharger la lettre d’autorisation appropriée. [](phone-number-calling-plans/manually-submit-port-order.md)
 
-- Si vous devez transférer plus de 999 [](phone-number-calling-plans/manually-submit-port-order.md) numéros de téléphone, [](/microsoftteams/manage-phone-numbers-for-your-organization) vous pouvez envoyer manuellement une demande de transfert ou consulter Gérer les numéros de téléphone pour votre organisation afin de télécharger la lettre d’autorisation appropriée, puis l’envoyer au service de service [RSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) pour obtenir tous vos numéros transférés.
+- Si vous devez transférer plus de 999 [](phone-number-calling-plans/manually-submit-port-order.md) numéros de téléphone, [](/microsoftteams/manage-phone-numbers-for-your-organization) vous pouvez envoyer manuellement une demande de transfert ou consulter Gérer les numéros de téléphone pour votre organisation afin de télécharger la lettre d’autorisation appropriée, puis l’envoyer au service desk [TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) pour obtenir tous vos numéros transférés.
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Afficher les numéros de téléphone pour votre organisation
 

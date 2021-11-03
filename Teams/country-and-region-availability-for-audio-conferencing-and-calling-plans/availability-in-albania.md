@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services de Microsoft 365 et Office 365 pour les services Skype Entreprise et Microsoft Teams pour l’Albanie.
-ms.openlocfilehash: a0bcffec1ad4e147abf0d0ca21877541dedd3dae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a886e43ead05024e745d960db51d38e038e7730d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592348"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733824"
 ---
 # <a name="availability-in-albania"></a>Disponibilité en Albanie
 
@@ -69,7 +69,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Tirana <br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md).
@@ -82,7 +82,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

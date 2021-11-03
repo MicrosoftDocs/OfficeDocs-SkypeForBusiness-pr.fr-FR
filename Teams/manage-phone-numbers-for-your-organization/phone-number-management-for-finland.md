@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Finlande Microsoft Teams.
-ms.openlocfilehash: 4e84704a7587236a84100d7a05d00bd0e1f577a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 584d8956ea44a206d1e8b911af6f2ca79fc794e1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617370"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733675"
 ---
 # <a name="phone-number-management-for-finland"></a>Téléphone gestion des nombres pour la Finlande
 
@@ -37,11 +37,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.<br/> |En Finlande, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en [contactant ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)<br/><br/>Demande de nouveau numéro de téléphone pour la Finlande (v.1.0) (en-fi)]().<br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client pour la Finlande [(v.1.0) (fi-FI)](https://download.microsoft.com/download/d/5/3/d5393c6b-eb6e-45e3-975e-d8a501571366/new-phone-number-request-for-finland-(v1.0)-(fi-FI).pdf) Connaissez votre formulaire client, complétez-le et envoyez-le-nous.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.   |
-|Obtenez les numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour la Finlande (tous les nombres) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) <br/><br/>Le transfert de numéros peut prendre deux à trois semaines pour s’effectuer sur ce marché. <br/><br/> Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.   |
-|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
-|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de la file d’attente automatique, contactez le [service PSTN pour obtenir des instructions.](contact-pstn-service-desk.md) |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams.<br/> |En Finlande, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en contactant le service de service [TNS pour obtenir des instructions.](contact-tns-service-desk.md)<br/><br/>Demande de nouveau numéro de téléphone pour la Finlande (v.1.0) (en-fi)]().<br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client pour la Finlande [(v.1.0) (fi-FI)](https://download.microsoft.com/download/d/5/3/d5393c6b-eb6e-45e3-975e-d8a501571366/new-phone-number-request-for-finland-(v1.0)-(fi-FI).pdf) Connaissez votre formulaire client, complétez-le et envoyez-le-nous.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.   |
+|Obtenez les numéros de téléphone qui nous sont transférés.| Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour la Finlande (tous les nombres) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions.](contact-tns-service-desk.md) <br/><br/>Le transfert de numéros peut prendre de deux à trois semaines dans ce marché. <br/><br/> Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment.   |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour](contact-tns-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous souhaitez publier/publier. <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |Pour obtenir des instructions sur la liste des numéros d’utilisateur à convertir en numéros de service, contactez le service [TNS.](contact-tns-service-desk.md) <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente ou de service automatique, contactez le [service TNS pour obtenir des instructions.](contact-tns-service-desk.md) |
    
 ## <a name="related-topics"></a>Rubriques connexes
 

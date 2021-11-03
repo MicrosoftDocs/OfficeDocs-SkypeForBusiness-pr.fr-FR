@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 services de Skype Entreprise et Microsoft Teams disponibles pour la Chine.
-ms.openlocfilehash: 52d62a5f4c5835debf5784ed40c646451d831531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584778"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733685"
 ---
 # <a name="availability-in-china"></a>Disponibilité en Chine
 
@@ -71,7 +71,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 |:-----|:-----|
 |Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Pékin  <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
-|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui[(sur demande),](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)sauf pour les clients qui achètent le service en Chine. Les numéros gratuits ne sont pas disponibles pour les clients qui achètent le service depuis la Chine. <br/> |
+|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui[(sur demande),](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)sauf pour les clients qui achètent le service en Chine. Les numéros gratuits ne sont pas disponibles pour les clients qui achètent le service depuis la Chine. <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md).
   

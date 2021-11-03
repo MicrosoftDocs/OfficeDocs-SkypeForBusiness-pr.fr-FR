@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365'aide Skype Entreprise et Microsoft Teams disponibles pour le Nicaragua.
-ms.openlocfilehash: 6954f5a708f624637f338aedbb1c2971c430ca44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Voici les services Microsoft 365 et Office 365 pour l Skype Entreprise et Microsoft Teams pour le Nicaragua.
+ms.openlocfilehash: d289a6283d5854e427a35dcf7cac9fd11fbbec29
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598588"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733645"
 ---
 # <a name="availability-in-nicaragua"></a>Disponibilité au Nicaragua
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365'aide Skype Entreprise et Microsoft Teams disponibles pour le Nicaragua.
+Voici les services Microsoft 365 et Office 365 pour l Skype Entreprise et Microsoft Teams pour le Nicaragua.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -68,8 +68,8 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Mans[(sur demande)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?   | Mans[(sur demande)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|Les numéros payants sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Non  <br/> |
    
  Si vous souhaitez obtenir des numéros de téléphone payants et gratuits pour l'audioconférence, les standards automatiques et les files d'attente des appels, reportez-vous à la rubrique [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md).
@@ -82,7 +82,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

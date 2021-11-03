@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenez les instructions nécessaires pour le port de vos numéros de téléphone vers Microsoft Teams.
-ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598388"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733315"
 ---
 # <a name="more-information-about-porting"></a>Informations supplémentaires sur le portage
 
@@ -32,7 +32,7 @@ Vous trouverez ici des informations supplémentaires sur le portage de vos numé
 
 Pour obtenir des instructions détaillées complètes, voir Transférer des numéros [de téléphone vers Teams.](transfer-phone-numbers-to-teams.md)
 
-Si vous avez besoin d’aide ou si vous avez besoin d’obtenir plus de numéros de téléphone, contactez l’aide [du service PSTN.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Si vous avez besoin d’aide ou si vous avez besoin d’obtenir plus de numéros de téléphone, contactez l’aide du [service DNS.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="port-order-account-information"></a>Informations sur le compte de demande de transfert
 
@@ -82,7 +82,7 @@ Le numéro de téléphone de facturation (BTN) est le numéro de téléphone pri
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>Que dois-je inclure comme numéro de compte ?
 
-En règle générale, vous trouverez le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou connectez-vous au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
+En règle générale, vous pouvez trouver le numéro de compte sur une facture de votre opérateur ou fournisseur de services, ou vous pouvez vous connecter au site web de votre opérateur. Si vous ne connaissez toujours pas le numéro de compte, vous pouvez contacter votre opérateur ou fournisseur de services pour l’obtenir.
   
 > [!CAUTION]
 >  Il est important de ne pas utiliser d’espaces, de tirets ou de tirets lorsque vous entrez le numéro de compte de votre opérateur ou fournisseur de services.
@@ -110,7 +110,7 @@ Lorsque vous soumettez une demande de port, vous devez utiliser un fichier CSV c
 
 Quel [est le statut de vos demande de port ?](port-order-status.md)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Qu’est-ce qu’une demande de transfert ?](port-order-overview.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour les Skype Entreprise et Microsoft Teams disponibles pour le Brésil.
-ms.openlocfilehash: 68379b9c48ed70f590eb3d57a171a6af9f4042be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 059876da21906264bc1961785b7cddcdc49dd132
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609041"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732735"
 ---
 # <a name="availability-in-brazil"></a>Disponibilité au Brésil
 
@@ -69,7 +69,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Rio de Janeiro <li>  São Paulo <li>Autres villes [sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> | <ul><li>Rio de Janeiro <li>  São Paulo <li>Autres villes [sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
 |Les numéros gratuits sont-ils disponibles ?  <br/> |Oui  <br/> |
    
@@ -87,7 +87,7 @@ Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les c
 
 #### <a name="other-resources"></a>Autres ressources
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Microsoft 365 et Office 365 services d’urgence Skype Entreprise et Microsoft Teams la Lettonie.
-ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: Microsoft 365 et Office 365 services disponibles Skype Entreprise et Microsoft Teams pour la Lettonie.
+ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942399"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733045"
 ---
 # <a name="availability-in-latvia"></a>Disponibilité en Lettonie
 
@@ -68,9 +68,9 @@ Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Mi
 
 |**Fonctionnalité**|**Détails**|
 |:-----|:-----|
-|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Riiga[(sur demande)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Pour quelles capitales ou villes principales est-il possible d'obtenir des numéros payants ?  <br/> |Riiga[(sur demande)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Les numéros payants sont-ils disponibles ?  <br/> |Oui  <br/> |
-|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Les numéros gratuits sont-ils disponibles ?  <br/> |Oui ([sur demande](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
    
 Pour obtenir des numéros de téléphone gratuits et gratuits pour l’audioconférence, les attendants automatiques et les files d’attente d’appels, consultez Obtenir des numéros de téléphone de service pour les Skype Entreprise et [Microsoft Teams.](../getting-service-phone-numbers.md)
   
@@ -82,7 +82,7 @@ Pour obtenir des numéros de téléphone gratuits et gratuits pour l’audioconf
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

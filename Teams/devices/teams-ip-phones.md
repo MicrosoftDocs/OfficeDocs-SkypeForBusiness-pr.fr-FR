@@ -21,22 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 5cd7cfcbacd2799c89e764fe456954c2cf61f0ec
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 6be1415d752bdde9afd6c34419b94912a61eb35d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579554"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733705"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
 Les Microsoft Teams de certification s’assurent que les clients qui utilisent des téléphones de bureau et des téléphones de conférence certifiés expérienceront des appels audio de haute qualité et des réunions.
 
-Microsoft Teams Les programmes de certification garantissent une barre de qualité supérieure avec des objectifs de performance plus élevés et des mesures de qualité audio. Les partenaires travaillent activement pour répondre à cette barre supérieure et sont des appareils éligibles pour répondre aux exigences de certification. Certains de nos partenaires travaillent également à la prise en charge du service Skype Entreprise sur le même matériel que les Teams téléphones. Les avantages Microsoft Teams appareils certifiés sont les suivants :
-
-- Expérience de Teams native avec l’intégration des boutons matériels et les notifications LED
-- Intégration du calendrier et rejoindre une réunion à l’écran tactile
-- Déployé et géré via le Centre Teams’administration avec l’intégration Intune
+Microsoft Teams Les programmes de certification garantissent une barre de qualité supérieure avec des objectifs de performance plus élevés et des mesures de qualité audio. Les partenaires travaillent activement pour répondre à cette barre supérieure et sont des appareils éligibles pour répondre aux exigences de certification. Certains de nos partenaires travaillent également à assurer la prise en charge du service Skype Entreprise sur le même matériel que les Teams téléphones. 
 
 ## <a name="currently-certified-teams-phones"></a>Téléphones de produit Teams actuellement certifiés
 
@@ -55,7 +51,7 @@ Les appareils suivants sont certifiés dans le cadre du programme Microsoft Team
 | AudioCodes C448HD (mode Cap uniquement)      | `C450HD_TEAMS_0.225`                                       | Mars 2019                   |
 | Crestron UC-2                          |`1.0.1.46`                                                 | Juillet 2020                    |
 | Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | Avril 2020                   |
-| Poly Premierc C60,Sin C60 NR, Celaa C60 ND | `5.9.3.6155`                                              | Avril 2020                   |
+| Poly Premierc C60,Sin C60 NR, Série C60 ND | `5.9.3.6155`                                              | Avril 2020                   |
 | Poly CCX400                            | `1.0.0.0200`                                               | Janvier 2020                 |
 | Poly CCX600                            | `5.9.12.1122`                                              | Janvier 2020                 |
 | Poly CCX500                            | `5.9.12.1122`                                              | Décembre 2019                |                                                                                                                                                           
@@ -71,16 +67,16 @@ Les appareils suivants sont certifiés sous le programme Salles Microsoft Teams 
 
 | Modèle d’appareil | Version du microprogramme | Date de publication  | Taille de la salle                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
-| BASE DE DONNÉES EXPAND 80T | `1.2.2.21182.10` | Octobre 2021 | Fourni avec l’offre PERSONNELLES Vision 3T |
+| BASE DE DONNÉES EXPAND 80T | `1.2.2.21182.10` | Octobre 2021 | Fourni avec le groupement AUTX Vision 3T |
 | Logitech Tap Device     | `1.2.982`     |      Août 2021   | Compatible avec la barre d’enfants Logitech Ainsi que la barre d’enfants Mini |
 | Logitech Cat Bar Mini | `1.2.982`     |      Août 2021   |    Petite Salle de réunion (4,5 m x 4,5 m) |
 | Logitech Cat Bar      | `1.2.788`     |       Juin 2021    |    Taille moyenne (4,5 m x 6 m)       |
-| AudioCodes RXV80 | `1.9.155`        |   Mai 2021  | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
-| CESSEURS DÉVELOPPENT VISION 3T       | `1.2.0.21102.03`    | Avril 2021 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
+| AudioCodes RXV80 | `1.9.155`        |   Mai 2021  | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
+| CESSEURS DÉVELOPPENT VISION 3T       | `1.2.0.21102.03`    | Avril 2021 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 | Barre de réunions Yealink A30       | `133.15.0.52`    | Mars 2021 | Taille moyenne (4,5 m x 6 m) |
 | Console tactile CTP18 Yealink  | `137.15.0.28`    | Mars 2021 | Compatible avec Yealink MeetingBar A20 et Yealink MeetingBar A30 |
-| Barre de réunions Yealink A20  | `133.15.0.19`      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
-| Poly Studio X30         | `3.1.1.216109`     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Salle de réunion petite(4,5 m x 4,5 m) |
+| Barre de réunions Yealink A20  | `133.15.0.19`      | Novembre 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
+| Poly Studio X30         | `3.1.1.216109`     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 | Poly Studio X50         | `3.1.1.216109`     | Juin 2020     | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
 | Poly TC8                | `3.3.2.210441`     | Mars 2021    | Compatible avec Poly Studio X30 et Poly Studio X50 |
 | Yealink VC210           | `118.15.0.14`      | Février 2020 | Salle de focus(3 m x 3 m) </br> Petite salle de réunion (4,5 m x 4,5 m) |
@@ -154,7 +150,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 | Yealink VP59        | `91.15.0.54`         | Mise à jour 2020 n°7           |
 | Yealink CP960       | `73.15.0.115`      | Mise à jour 2020 n°7           |
 
-Consultez [Microsoft Teams l’ensemble des fonctionnalités des téléphones](phones-for-teams.md) pour plus d’informations sur les fonctionnalités qui sont pris en charge par ces appareils.
+Consultez [Microsoft Teams l’ensemble des fonctionnalités des téléphones](phones-for-teams.md) pour obtenir des informations sur les fonctionnalités qui sont pris en charge par ces appareils.
 
 Voir [Microsoft Teams les affichages.](teams-displays.md)
 
@@ -176,7 +172,7 @@ Voici les dernières versions de l salles Teams pour Android et les versions de 
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d'entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Recherchez ensuite la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d'entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse |
 |:--------------|:-----------------|:-------------------------|
@@ -217,7 +213,7 @@ Voici les versions les plus récentes Microsoft Teams’application et du microp
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d'entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Recherchez ensuite la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d'entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
@@ -236,7 +232,7 @@ Voici les dernières versions de l’Microsoft Teams Panneaux et du microprogram
 
 #### <a name="firmware-versions"></a>Versions de microprogramme
 
-Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions de l’application  Microsoft Teams, du Portail d'entreprise et de l’Agent d’administration correspondantes qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit. Recherchez ensuite la version du produit dans le **tableau versions de l’application** ci-dessus.
+Lorsque vous installez une nouvelle version du microprogramme sur votre appareil, vous pouvez déterminer les versions correspondantes de l’application Microsoft Teams, du Portail d'entreprise et de l’Agent d’administration qui sont installées en trouvant la version du produit dans la colonne de publication incluse du produit.  Ensuite, recherchez la version du produit dans le **tableau versions de l’application** ci-dessus.
 
 | Modèle d’appareil  | Version du microprogramme | Version de produit incluse|
 |:--------------|:-----------------|:-------------------------|
@@ -248,7 +244,7 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 ## <a name="more-resources"></a>Plus de ressources
 
-Consultez [Microsoft Teams l’ensemble des fonctionnalités des téléphones](phones-for-teams.md) pour plus d’informations sur les fonctionnalités qui sont pris en charge par ces appareils.
+Consultez [Microsoft Teams l’ensemble des fonctionnalités des téléphones](phones-for-teams.md) pour obtenir des informations sur les fonctionnalités qui sont pris en charge par ces appareils.
 
 Consultez [La recherche de la version du microprogramme sur un appareil mobile](phones-for-teams.md) pour déterminer la version du microprogramme de l’appareil sur votre appareil mobile.
 

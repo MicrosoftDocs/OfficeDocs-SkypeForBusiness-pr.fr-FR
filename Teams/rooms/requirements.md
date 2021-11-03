@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Découvrez les conditions requises pour la prise en charge Salles Microsoft Teams, notamment le choix du périphérique approprié, des microphones, des haut-parleurs, des caméras et des écrans.
+description: Découvrez les conditions requises pour la prise en charge Salles Microsoft Teams, notamment le choix du périphérique, des microphones, des haut-parleurs, des caméras et de l’affichage appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2634f7f48a1735f8b8421bc43598fc142db1a53b
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: e9c379fd289c1fb7512a15b4d8f36f412279b121
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600258"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733355"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -56,9 +56,9 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |[Crestron Flex UC-B140-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 Go |128 Go |
   [Crestron Flex UC-C140-T with Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 Go |128 Go|
   |[Crestron Flex UC-M150-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)  +  [CCS-NT-MIC](https://www.crestron.com/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 Go |128 Go |
-  |[Crestron Flex UC-MX150-T avec Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 Go |128 Go |
+  |[Crestron Flex UC-MX150-T with Intel NUC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 Go |128 Go |
    [Crestron Flex UC-B160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 Go |128 Go|
-  |[Crestron Flex UC-C160-T with Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 Go|128 Go|
+  |[Crestron Flex UC-C160-T avec Intel NUC](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 Go|128 Go|
   |[Crestron Flex UC-MMX30-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5|8 Go |128 Go |
   |[Crestron Flex UC-BX30-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|Core i5|8 Go |128 Go |
   |[Crestron Flex UC-CX100-T avec UC Presentation Presentation (UC-PR) et ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 Go |128 Go |
@@ -70,7 +70,6 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
    |[Crestron Flex UC-MX70-T avec ASUS PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 Go |128 Go |
   |[Crestron Mercure Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 Go |128 Go |
   |[Dell OptiPlex 7080 avec Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 Go |128 Go|
-  |Dell OptiPlex 7080 Compute avec Poly GC8 Console | Core i5 |8 Go |128 Go|
   |[HP Elite Slice pour salles de réunion G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 Go |128 Go |
   |[Élément audio HP Elite G2 prêt avec les Salles Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 Go |128 Go |
   |[Partenaire Secteur HP prêt avec Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 Go|128 Go| 
@@ -82,6 +81,8 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |Logitech TAP Console with Lenovo Core Compute |Core i5|8 Go|128 Go|
   |[Logitech Tap et Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 Go |128 Go|
   |[Poly G10-T avec Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 Go | 128 Go|
+  |Poly GC10-T avec Lenovo Thinksmart Core|Core i5|8 Go|128 Go|
+  |Poly GC10-T avec Dell 7080|Core i5|8 Go|128 Go|
   |[Yealink MVC300 avec Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC800 avec Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 Go|
@@ -128,7 +129,7 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
-|[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7400.03 |
+|[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 Camera Soundbar](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Hub de conférence Biamp Devio SCR-20CX Web-Based avec microphone plafond](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
@@ -138,8 +139,8 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[Iqdly](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Appareil photo IQ bldly](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
-|[Jabra Journalcast3 Appareil photo](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Barre vidéo JabraCast 50](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.9.3|
+|[JabraCast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
+|[Barre vidéo JabraCast 50](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
@@ -181,14 +182,14 @@ Ces appareils sont disponibles dans la [Vitrine de produits d'accessoires pour l
 |[YealinkTEXTC40 All-in-one Video bar](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300)+</br></br> [Micro de table Shure MXA 310 ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 avec micro de matrice de plafond Intellimix](https://www.shure.com/products/microphones/mxa910) | 4.1|
-|[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300)+</br></br> [Mic de matrice de tableau MXA 310 De Shure ](https://www.shure.com/products/microphones/mxa310) +</br></br> [Haut-parleur de plafond MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP : 4.1.11 </br> MXA310 Table Array mic: 4.1.41 </br> Haut-parleur MXN5W-C : 1.0.4 |
+|[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300)+</br></br> [Mic de tableau MXA 310 De Shure ](https://www.shure.com/products/microphones/mxa310) +</br></br> [Haut-parleur de plafond MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP : 4.1.11 </br> MXA310 Table Array mic: 4.1.41 </br> Haut-parleur MXN5W-C : 1.0.4 |
 |[Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 avec micro de tableau de plafond Intellimix](https://www.shure.com/products/microphones/mxa910) +</br></br> [Haut-parleur de plafond MXN5W-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP : 4.1.11 </br> MXA910 Ceiling Array mic: 4.1.41 </br> Haut-parleur MXN5W-C : 1.0.4 |
-|[Microphone de tableau linéaire MXA 710 MXA 2ft](https://www.shure.com/products/microphones/mxa710) + </br></br> [Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br></br> [Haut-parleur de plafond MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP : 4.4.8 </br> Haut-parleur MXN5-C : 1.1.1 |
-|[Shure MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br></br> [Haut-parleur de plafond MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP : 4.4.8 </br> Haut-parleur MXN5-C : 1.1.1 |
+|[Microphone de tableau linéaire MXA 710 MXA 2ft](https://www.shure.com/products/microphones/mxa710) + </br></br> [Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br></br> [Haut-parleur de plafond MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 Micro de tableau linéaire de 2ft : 1,2,0 </br> P300 DSP : 4.4.8 </br> Haut-parleur MXN5-C : 1.1.1 |
+|[Microphone de tableau linéaire wallé MXA 710 4ft](https://www.shure.com/products/microphones/mxa710) + </br></br> [Processeur d’audioconférence Shure Intellimix P300](https://www.shure.com/products/mixers/p300) +</br></br> [Haut-parleur de plafond MXN5-C](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP : 4.4.8 </br> Haut-parleur MXN5-C : 1.1.1 |
 |[Shure MXA 910 avec microphone de tableau de plafond Intellimix](https://www.shure.com/products/microphones/mxa910) + </br> [Logiciel de salle Shure Intellimix](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Logiciel de salle Shure Intellimix : 3.0.4.14 </br> Shure MXA 910 avec microphone de tableau de plafond Intellimix : 4.4.11 </br> Plusieurs haut-parleurs MXN5-C : 1.2.1 </br> Crestron UC-C100-T : version du système d’exploitation IOT 19h2/20h2 avec la version de l’application MTR 4.8.31.0 </br> BIOS : ASUS Tek Computer INC 9934 27/08/2020 </br> UC : i5-9500TCPU </br> Mémoire physique : 8 Go de RAM |
 |[Biamp Tesira premier plan AVB VT4 DSP audio fixe](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Microphone Sennheiser TeamConnect Ceiling 2](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Micro de plafond Biamp Parlé TCM-XA](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 ceiling mounted loudspeaker](https://www.biamp.com/products/tesira-speakers)| Audio FW version : 3.15|
-|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Micro tableau)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UETT]() |Audio FW version : 3.15|
+|[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X(Micro du tableau)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UETT]() |Audio FW version : 3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Amplificateur Bose P2600A AmpLink +</br> Microphone Sennheiser TCC2 Ceiling + </br> Haut-parleur Bose EdgeMax EM180 Ceiling](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink Amplifier + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Amplifier +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [Haut-parleur DesignMax DM2C -LP Ceiling](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  | 

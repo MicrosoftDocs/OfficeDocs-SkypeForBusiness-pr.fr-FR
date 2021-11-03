@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Slovaquie pour Microsoft Teams.
-ms.openlocfilehash: f3d108d5e2c28c86ff5c6104f18dc9c5095a5b10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6c89267fb4e22f2d69c5cfa5c8372292291c54d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611663"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732685"
 ---
 # <a name="phone-number-management-for-slovakia"></a>Téléphone gestion des nombres pour la Slovaquie
 
@@ -37,11 +37,11 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
   
 |**Que voulez-vous faire ?**|**Télécharger les formulaires corrects**|
 |:-----|:-----|
-|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |En Slovaquie, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en [contactant ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md)<br/><br/>Nouvelle demande de numéro de téléphone pour la [Slovaquie (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, vous devez télécharger le formulaire Connaître votre client, le compléter en entier et contacter le service [ptSN Service Desk](contact-pstn-service-desk.md)pour obtenir des instructions.<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
-|Obtenez les numéros de téléphone qui nous sont transférés.   | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour la Slovaquie (tous les numéros) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf). <br/> <br/>[Lettre d’autorisation (LOA) pour la Slovaquie (tous les numéros) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf). <br/><br/>Remplissez-le et [contactez le service ptSN Service Desk pour obtenir des instructions.](contact-pstn-service-desk.md) <br/><br/>Le transfert de numéros peut prendre de quatre à cinq semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment. |
-|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous voulez publier/publier. <br/> |
-|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |[Contactez le service PTSN pour](contact-pstn-service-desk.md) obtenir des instructions sur la liste des numéros d’utilisateur que vous souhaitez convertir en numéros de service. <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente ou de service automatique, contactez le service de service [PTSN pour obtenir des instructions.](contact-pstn-service-desk.md) |
+|Obtenez de nouveaux numéros de téléphone d’utilisateur ou de service qui ne sont pas répertoriés dans le Centre d’administration Microsoft Teams. |En Slovaquie, vous pouvez obtenir des numéros de téléphone pour votre organisation à l’aide du Microsoft Teams d’administration. Vous pouvez également envoyer une nouvelle demande de numéro de téléphone en téléchargeant le formulaire et en contactant le service de service [TNS pour obtenir des instructions.](contact-tns-service-desk.md)<br/><br/>Nouvelle demande de numéro de téléphone pour la [Slovaquie (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf). <br/><br/> Pour pouvoir vous attribuer des numéros de téléphone, téléchargez le formulaire Connaître votre client, complétez-le et contactez le service de service TNS pour obtenir [des instructions.](contact-tns-service-desk.md)<br/><br/>Le remplissage de ce marché peut prendre de deux à trois semaines.  |
+|Obtenez les numéros de téléphone qui nous sont transférés.   | Téléchargez ce formulaire. <br/>[Lettre d’autorisation (LOA) pour la Slovaquie (tous les numéros) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf). <br/> <br/>[Lettre d’autorisation (LOA) pour la Slovaquie (tous les numéros) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf). <br/><br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions.](contact-tns-service-desk.md) <br/><br/>Le transfert de numéros peut prendre de quatre à cinq semaines dans ce marché. <br/><br/>Ces numéros ne peuvent pas être utilisés pour les conférences pour le moment. |
+|Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour](contact-tns-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous souhaitez publier/publier. <br/> |
+|Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |Pour obtenir des instructions sur la liste des numéros d’utilisateur à convertir en numéros de service, contactez le service [TNS.](contact-tns-service-desk.md) <br/> |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier les numéros de file d’attente ou de numéro du personnel de service automatique, contactez le service de service [TNS pour obtenir des instructions.](contact-tns-service-desk.md) |
    
 ## <a name="related-topics"></a>Rubriques connexes
 
