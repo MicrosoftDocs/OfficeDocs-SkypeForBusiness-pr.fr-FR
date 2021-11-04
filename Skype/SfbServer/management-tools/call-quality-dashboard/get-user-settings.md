@@ -1,7 +1,7 @@
 ---
 title: Obtention des paramètres utilisateur
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Résumé : Découvrez l’opération Get User Paramètres, qui fait partie du service d’Paramètres utilisateur. Le service Paramètres utilisateur fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 9ac219a46a1a747650c9f89feaf6e017d0d56bed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Résumé : Découvrez l’opération Get User Paramètres, qui fait partie du service d’Paramètres utilisateur. Le service Paramètres utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
+ms.openlocfilehash: b7be08df46aa63287d931a566d26671bfecfc3b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592538"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778174"
 ---
 # <a name="get-user-settings"></a>Obtention des paramètres utilisateur
  
-**Résumé :** Découvrez l’opération Get User Paramètres, qui fait partie du service d’Paramètres utilisateur. Le service Paramètres utilisateur fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez l’opération Get User Paramètres, qui fait partie du service d’Paramètres utilisateur. Le service Paramètres utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
 L’opération Get User Paramètres fait partie du service d’Paramètres utilisateur dans l’API référentiel pour le tableau de bord de qualité des appels.
   

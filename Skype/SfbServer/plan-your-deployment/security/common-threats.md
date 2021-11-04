@@ -1,7 +1,7 @@
 ---
 title: Menaces de sécurité courantes dans l’informatique moderne
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/22/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: Comme Skype Entreprise Server est un système de communication de classe entreprise, vous devez être conscient des attaques de sécurité courantes qui peuvent affecter son infrastructure et ses communications.
-ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dcc889ea43c06c2f8166d588b8d7e5eb7075b52c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629507"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741920"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Menaces de sécurité courantes dans l’informatique moderne
  
@@ -49,7 +49,7 @@ Une attaque par déni de service se produit lorsqu’une personne malveillante e
     
 - empêcher les utilisateurs d’accéder aux ressources réseau.
     
-## <a name="eavesdropping-sniffing-snooping"></a>Écoute clandestine (renifleur, snooping)
+## <a name="eavesdropping-sniffing-snooping"></a>Écoute (renifleur, snooping)
 
 Une attaque par écoute peut se produire lorsqu’une personne malveillante parvient à accéder au chemin d’accès des données d’un réseau et qu’elle peut ainsi surveiller et lire le trafic. Cette attaque est également appelée reniflage (« sniffing ») ou surveillance (« snooping »). Si le trafic consiste en du texte simple, l’intrus peut lire le trafic lorsqu’il accède au chemin d’accès des données. Par exemple, une attaque peut être lancée en contrôlant un routeur sur le chemin de données. 
   
@@ -67,13 +67,13 @@ Dans le contexte du Skype Entreprise Server, l’usurpation d’adresse IP n’e
     
 - Marqué les adresses IP de ces connexions comme hôtes de confiance.
     
-Il s’agit moins d’un problème pour les connexions TLS (Transport Layer Security), car TLS authentifier toutes les parties et chiffre tout le trafic. L’utilisation de TLS empêche un attaquant d’effectuer une usurpation d’adresse IP sur une connexion spécifique (par exemple, des connexions TLS mutuelles). Toutefois, un attaquant peut toujours usurper l’adresse du serveur DNS qu’Skype Entreprise Server utilise. Toutefois, étant donné que l’authentification dans Skype Entreprise est effectuée avec des certificats, un attaquant n’a pas de certificat valide requis pour usurper l’identité de l’une des parties dans la communication.
+Il s’agit moins d’un problème pour les connexions TLS (Transport Layer Security), car TLS authentifier toutes les parties et chiffre tout le trafic. L’utilisation de TLS empêche un attaquant d’effectuer une usurpation d’adresse IP sur une connexion spécifique (par exemple, des connexions TLS mutuelles). Toutefois, un attaquant peut toujours usurper l’adresse du serveur DNS qu’Skype Entreprise Server utilise. Toutefois, étant donné que l’authentification dans Skype Entreprise est effectuée avec des certificats, une personne malveillante ne doit pas avoir de certificat valide pour usurper l’identité de l’une des parties dans la communication.
 
 En revanche, l’usurpation d’ID d’appelant entre en jeu lorsque vous avez établi une trunk SIP entre un fournisseur, une passerelle PSTN ou un autre système PBX et Skype Entreprise Server. Dans ce cas, Skype Entreprise Server n’offre aucune protection contre l’usurpation d’ID d’appelant. Cela signifie qu’un utilisateur Skype Entreprise peut recevoir un appel à partir de la ligne SIP avec un ID d’appelant usurpé affichant le numéro de téléphone ou le nom complet (si la recherche de numéro inversée s’applique) d’un autre Skype Entreprise utilisateur. La protection doit être appliquée côté fournisseur, PSTN ou passerelle PBX.
   
-## <a name="man-in-the-middle-attack"></a>Attaque de l’intermédiaire de l’homme
+## <a name="man-in-the-middle-attack"></a>Man-in-the-Middle Attack
 
-Une attaque de l’intermédiaire se produit lorsqu’une personne malveillante redirige la communication entre deux utilisateurs via l’ordinateur de l’attaquant à l’insu des deux utilisateurs en communication. L’attaquant peut surveiller et lire le trafic avant de l’envoyer au destinataire prévu. Chaque utilisateur de la communication envoie sans le savoir le trafic vers et reçoit le trafic de l’attaquant, tout en pensent communiquer uniquement avec l’utilisateur prévu. Cela peut se produire si une personne malveillante peut modifier les services de domaine Active Directory pour ajouter son serveur en tant que serveur approuvé ou modifier le DNS (Domain Name System) pour que les clients se connectent via l’attaquant lors de leur accès au serveur. Une attaque de l’intermédiaire peut également se produire avec le trafic multimédia entre deux clients. Toutefois Skype Entreprise Server, dans le partage audio, vidéo et d’application de point à point, les flux sont chiffrés avec SRTP, à l’aide de clés de chiffrement négociées entre les homologues qui utilisent le protocole SIP (Session Initiation Protocol) sur TLS. Les serveurs tels que la conversation de groupe utilisent HTTPS pour améliorer la sécurité du trafic web.
+Une attaque de l’intermédiaire se produit lorsqu’une personne malveillante redirige la communication entre deux utilisateurs via l’ordinateur de l’attaquant à l’insu des deux utilisateurs en communication. L’attaquant peut surveiller et lire le trafic avant de l’envoyer au destinataire prévu. Chaque utilisateur de la communication envoie sans le savoir le trafic vers et reçoit le trafic de l’attaquant, tout en pensez qu’il communique uniquement avec l’utilisateur prévu. Cela peut se produire si une personne malveillante peut modifier les services de domaine Active Directory pour ajouter son serveur en tant que serveur approuvé ou modifier le DNS (Domain Name System) pour que les clients se connectent via l’attaquant lors de leur accès au serveur. Une attaque de l’intermédiaire peut également se produire avec le trafic multimédia entre deux clients. Toutefois Skype Entreprise Server, dans le partage audio, vidéo et d’application de point à point, les flux sont chiffrés avec SRTP, à l’aide de clés de chiffrement négociées entre les homologues qui utilisent le protocole SIP (Session Initiation Protocol) sur TLS. Les serveurs tels que la conversation de groupe utilisent HTTPS pour améliorer la sécurité du trafic web.
   
 ## <a name="rtp-replay-attack"></a>Attaque par relecture RTP
 
@@ -89,7 +89,7 @@ Un virus est une unité de code dont le seul rôle consiste à reproduire d’au
   
 ## <a name="personally-identifiable-information"></a>Informations d’identification personnelle
 
-Skype Entreprise Server risque de divulguer des informations sur un réseau public qui peuvent être liées à un individu. Les types d’informations peuvent être décomposés en deux catégories spécifiques :
+Skype Entreprise Server peut divulguer des informations sur un réseau public qui peuvent être liées à un individu. Les types d’informations peuvent être décomposés en deux catégories spécifiques :
   
 - **Données de présence améliorées** Les données de présence améliorées sont des informations qu’un utilisateur peut choisir de partager ou non sur un lien vers un partenaire fédéré ou avec des contacts au sein d’une organisation. Ces données ne sont pas partagées avec les utilisateurs sur un réseau de messagerie instantanée public. Les stratégies de client et d’autres configurations client peuvent placer un certain contrôle auprès de l’administrateur système. Dans Skype Entreprise Server, le mode de confidentialité améliorée de la présence peut être configuré pour un utilisateur individuel afin d’empêcher les utilisateurs Skype Entreprise qui ne sont pas sur la liste contacts de l’utilisateur de voir les informations de présence de l’utilisateur. Le mode de confidentialité améliorée de la présence n’empêche pas les utilisateurs de Microsoft Office Communicator 2007 et Microsoft Office Communicator 2007 R2 de voir les informations de présence d’un utilisateur. Pour plus d’informations sur le déploiement du client et de la présence, voir [Deploy clients for Skype Entreprise Server](../../deploy/deploy-clients/deploy-clients.md) and Plan for instant [messaging and presence in Skype Entreprise Server](../../plan-your-deployment/instant-messaging-and-presence.md).
     
@@ -101,9 +101,9 @@ Les tableaux suivants indiquent les données exposées sur un réseau public.
 
 |**Données divulguées**|**Possibilités Paramètres**|
 |:-----|:-----|
-|Données personnelles  <br/> |Nom, Titre, Société, Adresse e-mail, fuseau horaire  <br/> |
+|Données personnelles  <br/> |Nom, Titre, Société, Adresse de messagerie, Fuseau horaire  <br/> |
 |Numéros de téléphone  <br/> |Travail, Mobile, Domicile  <br/> |
-|Informations de calendrier  <br/> |Informations de libre-service, d’informations sur l’out-of-Town, de réunion (pour les personnes ayant accès à votre calendrier)  <br/> |
+|Informations de calendrier  <br/> |Informations de libre-service, d’informations sur l’out-of-town, de réunion (pour les personnes ayant accès à votre calendrier)  <br/> |
 |Statut de présence  <br/> |Absent,Disponible, Occupé, Ne pas déranger, Hors connexion  <br/> |
    
 **Données obligatoires**
@@ -111,6 +111,6 @@ Les tableaux suivants indiquent les données exposées sur un réseau public.
 
 | **Données divulguées** | **Exemple d’informations**                            |
 |:-------------------|:---------------------------------------------------|
-| Adresse IP  <br/>  | Adresse réelle de l’ordinateur ou de l’adresse NATed  <br/> |
+| Adresse IP  <br/>  | Adresse réelle de l’ordinateur ou adresse NATed  <br/> |
 | URI SIP  <br/>     | jeremylos@litwareinc.com  <br/>                    |
 

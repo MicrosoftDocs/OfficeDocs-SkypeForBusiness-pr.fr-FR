@@ -5,7 +5,7 @@ ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur répertoriée dans Skype Entreprise Server Panneau de Skype Entreprise Server dans la page Stratégie d’accès externe.
-ms.openlocfilehash: dc8ebdd0fc37d638f4d129dd995ebd2f179b0026
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 53be2748328211c901a2daeeb0ca84e70cfd6511
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582758"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765452"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Suppression d’une stratégie utilisateur ou d’un site pour l’accès des utilisateurs externes
 
@@ -31,7 +31,7 @@ Si vous avez créé ou configuré des stratégies d’accès des utilisateurs ex
   - Réinitialisez la stratégie globale à ses paramètres par défaut. Si vous appliquez les paramètres par défaut de la stratégie globale, l’accès des utilisateurs externes est refusé. La stratégie globale ne peut pas être supprimée.
 
 
-Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur répertoriée dans le Panneau de Skype Entreprise Server sur la page Stratégie **d’accès externe.** La suppression de la stratégie globale ne la supprime pas réellement, mais la réinitialise uniquement aux paramètres par défaut, qui n’incluent pas la prise en charge des options d’accès des utilisateurs externes. Pour plus d’informations sur la réinitialisation de la stratégie globale, voir [Réinitialiser la stratégie globale pour l’accès des utilisateurs externes.](reset-the-global-policy-for-external-user-access.md)
+Vous pouvez supprimer n’importe quelle stratégie de site ou d’utilisateur répertoriée dans le Panneau de Skype Entreprise Server dans la page Stratégie **d’accès externe.** La suppression de la stratégie globale ne la supprime pas réellement, mais la réinitialise uniquement aux paramètres par défaut, qui n’incluent pas la prise en charge des options d’accès des utilisateurs externes. Pour plus d’informations sur la réinitialisation de la stratégie globale, voir [Réinitialiser la stratégie globale pour l’accès des utilisateurs externes.](reset-the-global-policy-for-external-user-access.md)
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Pour supprimer une stratégie de site ou d’utilisateur pour l’accès des utilisateurs externes

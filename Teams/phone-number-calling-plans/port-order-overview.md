@@ -1,6 +1,6 @@
 ---
 title: Qu’est-ce qu’une demande de transfert ?
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenez une vue d’ensemble des commandes de transfert et de la manière de transférer des numéros de téléphone de votre fournisseur de services vers Teams.
-ms.openlocfilehash: d84db7c5f1ced9c8b0d23ea423d41b18c9e49005
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 936c915a79f7271ba85830122e374840f1a7050b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598378"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740240"
 ---
 # <a name="whats-a-port-order"></a>Qu’est-ce qu’une demande de transfert ?
 
@@ -31,7 +31,7 @@ Si vous êtes opérateur ou fournisseur de services téléphoniques et que vous 
   
 Une fois vos numéros de téléphone Teams, Microsoft devient votre fournisseur de services et vous pouvez déconnecter votre service auprès de votre ancien opérateur ou fournisseur de services.
 
-Examinez les informations de cet article pour vous familiariser avec le portage de numéro. Après cela, vous devriez être prêt à créer une demande de transfert et à transférer vos numéros de téléphone. Pour obtenir des instructions [détaillées, consultez](transfer-phone-numbers-to-teams.md) la Teams transfert de numéros de téléphone.
+Examinez les informations de cet article pour vous familiariser avec le portage de numéro. Après cela, vous devriez être prêt à créer une demande de transfert et à transférer vos numéros de téléphone. Pour obtenir des instructions [détaillées, voir](transfer-phone-numbers-to-teams.md) Transférer des numéros de Teams des numéros de téléphone.
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>Quels pays ou régions le portage de numéro est prise en charge ?
 
@@ -81,7 +81,7 @@ En règle générale, vous pouvez transférer n’importe quel numéro de télé
     Si vous portez le numéro de téléphone vers Teams, vous pouvez affecter ce numéro de téléphone à un utilisateur de votre organisation au lieu de l’utiliser pour la télécopie.
 
     > [!NOTE]
-    > Pour le moment, au Royaume-Uni, le transfert de numéros non géographiques au Royaume-Uni n’est pas prise en charge, y compris les numéros partagés pour les indicatifs régionaux 0843, 0844, 0845, 0870, 0871, 0872.
+    > Pour l’instant, au Royaume-Uni, le transfert de numéros non géographiques au Royaume-Uni n’est pas prise en charge, y compris les numéros partagés pour les indicatifs régionaux 0843, 0844, 0845, 0870, 0871, 0872.
   
 ## <a name="what-information-do-i-need-to-provide"></a>Quelles informations dois-je fournir ?
 
@@ -93,7 +93,7 @@ Lorsque vous transférez des numéros de téléphone vers Teams, vous avez la po
   
 - **Port total** Il s’agit du transfert de tous vos numéros de téléphone à partir de votre fournisseur de services actuel vers Teams. Lorsque vous êtes invité à transférer les numéros  de téléphone, vous devez inclure le numéro de téléphone de facturation (BTN) ainsi que tous les autres numéros de téléphone sur votre compte.
 
-    Par exemple, supposons que votre numéro de téléphone portable (BTN) *est +1 425 555 1234* et que vous voulez faire passer l’ensemble de vos 25 numéros de téléphone (+1 *425 555 1235 à 1259).* Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir : **+14255551234 - +14255551259**.
+    Par exemple, supposons que votre numéro de téléphone btn est *+1 425 555 1234* et que vous voulez faire passer l’ensemble de vos 25 numéros de téléphone (+1 *425 555 1235 à 1259).* Lorsque vous suivez les instructions ci-dessous pour transférer vos numéros, vous devez saisir : **+14255551234 - +14255551259**.
 
 - **Port partiel** Il s’agit du transfert de certains de vos numéros de téléphone entre votre fournisseur de services actuel et Teams. Lorsque vous souhaitez porter certains des numéros de téléphone liés au même réseau téléphonique (BTN), **** ne devez pas inclure ** le réseau btn avec tous les autres numéros de téléphone sur votre compte.
 
@@ -112,7 +112,7 @@ Vous devez par exemple envoyer une demande de transfert de numéro unique pour c
 
 - les numéros de téléphone mobile et
 
-- Les numéros de service qui peuvent être utilisés pour l’audioconférence dans Microsoft 365 ou Office 365.
+- Des numéros de service qui peuvent être utilisés pour l’audioconférence dans Microsoft 365 ou Office 365.
 
 Voici plus d’informations sur l’soumission des demandes de portage de numéros pour chacun de ces types de numéros :
   
@@ -131,7 +131,7 @@ Voici plus d’informations sur l’soumission des demandes de portage de numér
 
 Une fois que vous avez terminé la demande de demande de port, son traitement peut prendre entre 7 et 14 jours. Toutefois, en fonction de votre fournisseur de services, cela peut prendre jusqu'à 30 jours. Une fois les numéros de téléphone portés, vous recevrez un e-mail de notre part pour vous faire part que vous êtes paré pour la suite.
   
-Pour vérifier l’état de votre demande de port, dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur Numéros de voice Téléphone, puis cliquez sur  >  Historique **des commandes.** Le statut de chaque commande de port est répertorié dans la **colonne** Statut.
+Pour vérifier l’état de votre demande de port, dans le navigation gauche du Centre d’administration Microsoft Teams, cliquez sur Numéros de Téléphone voix, puis cliquez sur  >  Historique **des commandes.** Le statut de chaque commande de port est répertorié dans la **colonne** Statut.
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Les numéros de téléphone des utilisateurs (abonnés) peuvent-ils être convertis en numéros de service ?
 <a name="bkmk_type_1"> </a>
@@ -171,7 +171,7 @@ Voici les erreurs le plus fréquentes commises lors des transferts de numéros. 
 
 - Assurez-vous que votre service est actif. Le fait de figer le compte empêche la modification des opérateurs téléphoniques sur le compte. La personne autorisée à modifier le compte doit envoyer une commande à l’opérateur actuel pour supprimer le blocage. Selon l’opérateur, ce processus peut prendre de une à trois semaines.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Quel est le statut de vos demandes de transfert ?](port-order-status.md)
 - [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -1,7 +1,7 @@
 ---
 title: Gérer l’authentification à deux facteurs dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Résumé : Gérez l’authentification à deux facteurs dans Skype Entreprise Server.'
-ms.openlocfilehash: 2b354c99b4e02536ff3db2043ec18fcd092d766e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5d5500cbcab93f53e58626bf5826dcc060903e2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621100"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747170"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gérer l’authentification à deux facteurs dans Skype Entreprise Server
  
@@ -28,7 +28,7 @@ L’authentification à deux facteurs améliore la sécurité en exigeant que le
   
 L’utilisation de cartes à puce est un exemple classique d’authentification à deux facteurs avec un certificat. Une carte à puce contient un certificat associé au compte d’utilisateur et peut être validée par rapport aux informations utilisateur et de certificat stockées sur un serveur. En comparant les informations utilisateur (nom d’utilisateur et mot de passe) au certificat fourni, le serveur valide les informations d’identification et authentifier l’utilisateur.
   
-Prenez en compte les sujets suivants lors de la configuration d’un environnement Skype Entreprise Server pour prendre en charge l’authentification à deux facteurs.
+Prenons les sujets suivants lors de la configuration d’un environnement Skype Entreprise Server pour prendre en charge l’authentification à deux facteurs.
   
 ## <a name="client-support"></a>Prise en charge du client
 

@@ -1,7 +1,7 @@
 ---
 title: 'Fusion héritée : ajouter un serveur Edge étendu'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype Entreprise Server ne prend pas en charge la fusion d’Office configuration de serveur Edge étendu à Communications Server 2007 R2. Le serveur Edge étendu doit d’abord être converti en configuration de serveur Edge consolidé avant de fusionner les informations du serveur Edge.
-ms.openlocfilehash: 6ba8417aa81b53bbe32944a9ee53ebad833a8518
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7593af5bc0adc85e66b36c4c2cbeffc5e07825f9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602879"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778524"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Fusion héritée : ajouter un serveur Edge étendu
  

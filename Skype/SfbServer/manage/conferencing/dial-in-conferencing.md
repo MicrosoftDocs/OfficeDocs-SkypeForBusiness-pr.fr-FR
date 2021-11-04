@@ -1,7 +1,7 @@
 ---
 title: Gérer les conférences téléphoniques dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Résumé : Découvrez comment gérer les conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: b15a3c8b6a92faaf552bb727e05afa5a618ddd12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c6f72d3e2c5e19ef970e7d8e5410dcc9cad2d14
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595536"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772060"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Gérer les conférences téléphoniques dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "58595536"
   
 Cette rubrique décrit comment gérer les conférences téléphoniques. Pour plus d’informations sur la façon de planifier et de configurer la conférence rendez-vous lors du déploiement, voir [Plan for dial-in conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and [Configure dial-in conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
   
-Vous pouvez effectuer les tâches suivantes pour gérer les conférences téléphoniques : activer ou désactiver la conférence d’accès, gérer les numéros d’accès, gérer les stratégies de code confidentiel pour les conférences téléphoniques, gérer les annonces de connexion et de départ de conférence, modifier les mappages de touches pour les commandes DTMF et accueillir les utilisateurs à la conférence téléphonique. 
+Vous pouvez effectuer les tâches suivantes pour gérer les conférences dial-in : activer ou désactiver la conférence d’accès, gérer les numéros d’accès, gérer les stratégies de code confidentiel pour les conférences téléphoniques, gérer les annonces de connexion et de départ de conférence, modifier les mappages de touches pour les commandes DTMF et accueillir les utilisateurs à la conférence téléphonique. 
   
 Pour plus d’informations sur la gestion des plans de numérotation, voir Créer ou modifier un plan de numérotation [dans Skype Entreprise Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   

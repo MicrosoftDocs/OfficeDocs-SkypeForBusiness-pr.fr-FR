@@ -5,7 +5,7 @@ ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Si vous déployez Skype Entreprise dans votre organisation, vous pouvez vous fédérer avec les domaines d’un ou plusieurs Skype Entreprise Online. '
-ms.openlocfilehash: 282b6c3808670eac9ee2833d7248de978611124e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7d41073aadae59c6b01c7eeeb1c5072a6ca21e24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612343"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747140"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configuration de la prise en charge de la fédération pour un client Skype Entreprise Online dans Skype Entreprise Server
 
@@ -50,10 +50,10 @@ Pour vous fédérer avec un Skype Entreprise Online, vous devez avoir déjà eff
 
 La fédération avec un client Skype Entreprise Online nécessite que vous complétiez les étapes suivantes :
 
-- Configurez la prise en charge du domaine du client Skype Entreprise Online 2010 (par exemple, contoso.onmicrosoft.com). Comme indiqué dans les conditions préalables à la fédération [avec un client Skype Entreprise Online,](#prerequisites-for-federating-with-a-skype-for-business-online-customer)vous devez avoir déjà activé la fédération pour votre organisation. L’activation de la fédération nécessite de spécifier la méthode à utiliser pour contrôler l’accès par les domaines fédérés. Si vous avez configuré votre organisation pour utiliser la découverte, l’ajout du domaine à la liste autorisée de votre organisation est facultatif. Si vous n’avez pas activé la découverte de domaine, vous devez ajouter le nom de domaine du client Skype Entreprise Online à votre liste des domaines autorisés. Vous pouvez ajouter un nom de domaine à l’aide Skype Entreprise Server panneau de Skype Entreprise Server ou en exécutant l’cmdlet **New-CSAllowedDomain.** Pour plus d’informations sur l’utilisation Skype Entreprise Server panneau de Skype Entreprise Server, y compris l’activation de la découverte de domaines, voir Gérer les fournisseurs fédérés [SIP](../sip-providers/manage-sip-federated-providers-for-your-organization.md)pour votre organisation dans Skype Entreprise Server . Pour plus d’informations sur l’utilisation de l’cmdlet **New-CSAllowedDomain** pour ajouter un domaine, voir [New-CsAllowedDomain](/powershell/module/skype/New-CsAllowedDomain).
+- Configurez la prise en charge du domaine du client Skype Entreprise Online 2010 (par exemple, contoso.onmicrosoft.com). Comme indiqué dans les conditions préalables à la fédération [avec un client Skype Entreprise Online,](#prerequisites-for-federating-with-a-skype-for-business-online-customer)vous devez avoir déjà activé la fédération pour votre organisation. L’activation de la fédération nécessite de spécifier la méthode à utiliser pour contrôler l’accès par les domaines fédérés. Si vous avez configuré votre organisation pour utiliser la découverte, l’ajout du domaine à la liste autorisée de votre organisation est facultatif. Si vous n’avez pas activé la découverte de domaine, vous devez ajouter le nom de domaine du client Skype Entreprise Online à votre liste des domaines autorisés. Vous pouvez ajouter un nom de domaine à l’aide Skype Entreprise Server panneau de Skype Entreprise Server ou en exécutant l’cmdlet **New-CSAllowedDomain.** Pour plus d’informations sur l’utilisation du Panneau de Skype Entreprise Server, y compris l’activation de la découverte de domaines, voir Gérer les fournisseurs fédérés [SIP](../sip-providers/manage-sip-federated-providers-for-your-organization.md)pour votre organisation dans Skype Entreprise Server . Pour plus d’informations sur l’utilisation de l’cmdlet **New-CSAllowedDomain** pour ajouter un domaine, voir [New-CsAllowedDomain](/powershell/module/skype/New-CsAllowedDomain).
 
   > [!NOTE]  
-  > Un Skype Entreprise Online peut avoir plusieurs domaines. Si vous souhaitez vous fédérer avec plusieurs domaines, vous devez configurer la prise en charge de chaque domaine avec lequel vous souhaitez prendre en charge la fédération, et l’administrateur du client Skype Entreprise Online doit activer la fédération pour chacun des domaines à fédérer.
+  > Un Skype Entreprise Online peut avoir plusieurs domaines. Si vous souhaitez vous fédérer avec plusieurs domaines, vous devez configurer la prise en charge de chaque domaine individuel avec lequel vous souhaitez prendre en charge la fédération, et l’administrateur du client Skype Entreprise Online doit activer la fédération pour chacun des domaines à fédérer.
 
 - Configurez la prise en charge du fournisseur d’hébergement du domaine Skype Entreprise Online avec lequel vous souhaitez vous fédérer. Utilisez la procédure de cette section pour configurer la prise en charge du fournisseur d’hébergement.
 
@@ -98,6 +98,6 @@ Pour permettre Skype Entreprise utilisateurs de votre organisation de communique
 
 - Toutes les conditions préalables sont remplies. Cela inclut le déploiement de vos serveurs internes et edge, l’activation de la prise en charge de la fédération pour votre organisation et la configuration de comptes d’utilisateurs. Pour plus d’informations, voir Conditions préalables à la fédération [avec un Skype Entreprise Online.](#prerequisites-for-federating-with-a-skype-for-business-online-customer)
 - Vous avez configuré la prise en charge de l’accès au domaine dans votre déploiement interne. Cela inclut la création d’une entrée de fournisseur d’hôtes et la configuration de votre déploiement pour autoriser l’accès à Skype Entreprise domaine du client Skype Entreprise Online. Pour plus d’informations, voir [Configure federation support for a Skype Entreprise Online domain](#configure-federation-support-for-a-skype-for-business-online-domain).
-- Vous avez configuré les comptes de vos utilisateurs de sorte qu’ils prennent en charge la fédération. Pour plus d’informations, voir [Configure user access for federation with a Skype Entreprise Online customer](#configure-user-access-for-federation-with-a-skype-for-business-online-customer).
+- Vous avez configuré les comptes de vos utilisateurs de sorte qu’ils prennent en charge la fédération. Pour plus d’informations, voir [Configure user access for federation with a Skype Entreprise Online customer.](#configure-user-access-for-federation-with-a-skype-for-business-online-customer)
 
 Une fois que vous avez effectué toutes ces étapes et que l’administrateur du client Skype Entreprise Online a terminé la configuration de ses services en ligne pour prendre en charge la fédération avec votre organisation, vérifiez les communications en testant les communications entre un utilisateur interne de votre organisation et un utilisateur du client Skype Entreprise Online. Si la communication ne réussit pas, utilisez l’outil de journalisation de votre serveur Edge pour capturer les fichiers journaux et de suivi afin de résoudre le problème.

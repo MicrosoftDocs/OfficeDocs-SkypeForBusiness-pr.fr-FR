@@ -1,7 +1,7 @@
 ---
 title: Gérer les annonces de rejoindre et de quitter une conférence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Résumé : Découvrez comment gérer les annonces de participer à une conférence et de laisser des annonces dans Skype Entreprise Server.'
-ms.openlocfilehash: f2219fc8d55485a4c34a8730fbec6b556d57b728
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 375cd1da4e60ccd9c6d7e4eb2864d49279e3c62a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625206"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765482"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Gérer les annonces de rejoindre et de quitter une conférence dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment gérer les annonces de rejoindre et de laisser des conférences dans Skype Entreprise Server.
+**Résumé :** Découvrez comment gérer les annonces de participer à une conférence et de laisser des annonces dans Skype Entreprise Server.
   
 Lorsque des utilisateurs d’appels sortants rejoignent ou quittent une conférence, les application Annonce de conférence peuvent annoncer leur entrée ou leur sortie en nonant une tonalité ou en nonant leurs noms. Vous pouvez modifier le fonctionnement des annonces à l’aide de Skype Entreprise Server Management Shell et de l’cmdlet **Set-CsDialinConferencing** avec les paramètres suivants :
   
@@ -38,7 +38,7 @@ Vous pouvez configurer ces paramètres globalement ou au niveau d’un site. (Le
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou membre du rôle Cs-ServerAdministratorr ou CsAdministrator.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. Exécutez la commande suivante à l’invite de commandes :
     

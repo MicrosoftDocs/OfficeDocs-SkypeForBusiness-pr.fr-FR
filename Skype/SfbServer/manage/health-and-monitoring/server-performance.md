@@ -1,7 +1,7 @@
 ---
-title: Rapport sur les performances du serveur Skype Entreprise Server
+title: Rapport de performances du serveur dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Résumé : Découvrez le rapport sur les performances du serveur dans Skype Entreprise Server.'
-ms.openlocfilehash: 2e51832cf3d5d4b7dca816aa17ded0483dc88efd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d276d0dd4deec374ff88ca32d143855dae8919b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632858"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746910"
 ---
-# <a name="server-performance-report-in-skype-for-business-server"></a>Rapport sur les performances du serveur Skype Entreprise Server
+# <a name="server-performance-report-in-skype-for-business-server"></a>Rapport de performances du serveur dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de performances du serveur dans Skype Entreprise Server.
   
@@ -43,7 +43,7 @@ Il est important de noter que le classement indiqué dans ce rapport est relatif
   
 ## <a name="accessing-the-server-performance-report"></a>Accès au rapport de performances du serveur
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport de liste d’appels [Skype Entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
+Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport des listes d’appels [Skype Entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
   
 - Volume d’appels
     
@@ -53,7 +53,7 @@ De plus, vous pouvez accéder au rapport de tendance de la qualité des médias 
   
 - Trend
     
-## <a name="making-the-best-use-of-the-server-performance-report"></a>Utilisation du rapport de performances du serveur
+## <a name="making-the-best-use-of-the-server-performance-report"></a>Utilisation de la meilleure utilisation du rapport de performances du serveur
 
 Le rapport de performances du serveur fournit plusieurs moyens pour filtrer les données ; par exemple, vous pouvez filtrer sur un type de réseau (appels passés via une connexion câblée ou sans fil) et un type d’accès (appels passés à l’intérieur du pare-feu ou à l’extérieur). Il est conseillé d’utiliser ces filtres quand vous affichez le rapport de performances du serveur. Par exemple, vous avez un serveur de médiation avec un pourcentage d’appels médiocre de 3,24 %. Si vous considérez uniquement les appels sans fil, ce même serveur peut avoir un pourcentage d’appels médiocres de 20 %. Cela signifie que ce serveur ne gère pas bien les appels sans fil, mais ce problème peut être partiellement masqué par les appels câblés qui ne posent pas de problème.
   
@@ -65,7 +65,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres de rapport de performances du serveur**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/> |
@@ -81,7 +81,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
   
 **Mesures du rapport de performances du serveur : synthèse des appels audio**
 
-|**Nom**|**Tri possible**|**Description**|
+|**Name**|**Tri possible**|**Description**|
 |:-----|:-----|:-----|
 |**Server** <br/> |Non  <br/> |Nom/adresse IP du serveur  <br/> |
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels effectués.  <br/> |
@@ -96,7 +96,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
    
 **Mesures du rapport de performances du serveur : synthèse des appels vidéo**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’appel/type de système d’extrémité** <br/> |Non  <br/> | Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants : <br/>  Appels d’égal à égal UC <br/>  Sessions de conférence UC <br/>  Sessions de conférence PSTN <br/>  Appels PSTN : contournement du média <br/>  Appels PSTN (sans contournement) : partie UC <br/>  Appels PSTN (sans contournement) : partie passerelle <br/>  Autres types d’appels <br/> |
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels par type d’appel.  <br/> |
@@ -115,7 +115,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de per
    
 **Mesures du rapport de performances du serveur : synthèse des appels de partage d’application**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’appel/type de système d’extrémité** <br/> |Non  <br/> | Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants : <br/>  Appels d’égal à égal UC <br/>  Sessions de conférence UC <br/>  Sessions de conférence PSTN <br/>  Appels PSTN : contournement du média <br/>  Appels PSTN (sans contournement) : partie UC <br/>  Appels PSTN (sans contournement) : partie passerelle <br/>  Autres types d’appels <br/> |
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels par type d’appel.  <br/> |

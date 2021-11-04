@@ -1,7 +1,7 @@
 ---
 title: Planifier plusieurs numéros d’urgence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lisez cette rubrique pour découvrir comment planifier plusieurs numéros d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634228"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741961"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planifier plusieurs numéros d’urgence dans Skype Entreprise Server
  
@@ -46,7 +46,7 @@ Lorsque vous planifiez plusieurs numéros d’urgence, gardez les points suivant
   
 - Pour chaque numéro d’urgence, vous pouvez spécifier zéro ou plusieurs masques de numérotation d’urgence, qui sont propres à une stratégie d’emplacement donnée.
     
-    Un masque de numérotation est un numéro que vous souhaitez traduire en valeur de numéro de numéro d’urgence lorsqu’il est composé. Par exemple, supposons que vous entrez la valeur 212 dans ce champ et que le champ numéro de numéro d’urgence a la valeur 911. Lorsqu’un utilisateur compose le 212, le numéro est converti en 911. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’accéder aux services d’urgence (par exemple, si une personne d’un pays ou d’une région dont le numéro d’urgence est différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La limite de chaîne pour un masque de numérotation est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
+    Un masque de numérotation est un numéro que vous souhaitez traduire en valeur de numéro d’urgence lorsqu’il est composé. Par exemple, supposons que vous entrez la valeur 212 dans ce champ et que le champ numéro de numéro d’urgence a la valeur 911. Lorsqu’un utilisateur compose le 212, le numéro est converti en 911. Cela permet de composer d’autres numéros d’urgence tout en permettant à l’appel d’accéder aux services d’urgence (par exemple, si une personne d’un pays ou d’une région dont le numéro d’urgence est différent tente de composer le numéro de ce pays ou de cette région plutôt que le numéro du pays ou de la région où elle se trouve actuellement). Vous pouvez définir plusieurs masques d’appel d’urgence en séparant les valeurs par des points-virgules. Par exemple, 212;414. La limite de chaîne pour un masque de numérotation est de 100 caractères. Chaque caractère doit être un chiffre compris entre 0 et 9.
     
 - Chaque stratégie d’emplacement a une utilisation PSTN (réseau téléphonique commuté) unique qui permet de déterminer l’itinéraire des communications vocales utilisé pour router les appels d’urgence des clients à l’aide de cette stratégie. L’utilisation peut avoir un itinéraire unique par numéro d’urgence.
     
@@ -61,7 +61,7 @@ Avant de configurer plusieurs numéros d’urgence, gardez les points suivants �
   
 - Pour configurer plusieurs numéros d’urgence, vous devez utiliser l’cmdlet New-CsEmergencyNumber et définir des stratégies d’emplacement qui prendre en charge plusieurs numéros d’urgence en spécifiant le paramètre EmergencyNumbers avec les cmdlets [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) et [Set-CsLocationPolicy.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
     
-- Si des numéros existants sont définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask, les valeurs spécifiées avec le paramètre EmergencyNumbers seront prioritaires sur les anciennes valeurs. Autrement dit, les valeurs des paramètres EmergencyDialString et EmergencyDialMask seront ignorées.
+- Si vous avez des numéros existants définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask, les valeurs spécifiées avec le paramètre EmergencyNumbers prévalent sur les anciennes valeurs. Autrement dit, les valeurs des paramètres EmergencyDialString et EmergencyDialMask seront ignorées.
     
 - Si vous avez des numéros existants définis à l’aide de la cmdlet Set-CsLocationPolicy ou New-CsLocationPolicy avec les paramètres EmergencyDialString et EmergencyDialMask  *et*  que vous ne configurez pas de nouveaux numéros d’urgence, les numéros existants continueront d’être utilisés.
     
@@ -92,11 +92,11 @@ Le tableau suivant présente des exemples de stratégies d’emplacement (pour l
 ## <a name="client-support"></a>Prise en charge des clients
 <a name="BKMK_Clients"> </a>
 
-Le tableau suivant indique la prise en charge de plusieurs numéros d’urgence par les clients. Microsoft continuera à tester et à publier la prise en charge pour d’autres clients. N’hésitez pas à la consulter souvent.
+Le tableau suivant indique la prise en charge de plusieurs numéros d’urgence par le client. Microsoft continuera à tester et publier la prise en charge pour d’autres clients. N’hésitez pas à la consulter souvent.
 
-|**Windows**|**Version**|
+|**Fenêtres**|**Version**|
 |:-----|:-----|
-|**Démarrer en un clic** <br/> |CC (Canal actuel) publié le 10 mai 2016 - Version 1604 (build 6868.2062)  <br/> |
+|**Démarrer en un clic** <br/> |Cc (canal actuel) publié le 10 mai 2016 - Version 1604 (build 6868.2062)  <br/> |
 ||FRDC (First Release Current Channel) publiée le 14 juin 2016 - Version 1605 (build 6965.2058)  <br/> |
 ||DC (Canal différé) publié le 11 octobre 2016 - Version 1605 (build 6965.2092)  <br/> |
 |**MSI** <br/> |Mise à jour du 7 juin - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Planifier l’archivage dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Résumé : Lisez cette rubrique pour découvrir comment planifier l’archivage dans Skype Entreprise Server.'
-ms.openlocfilehash: e9ebe5aa0b2e4e84d436d24f9d8b7db3b450825d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629576"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740452"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planifier l’archivage dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Skype Entreprise Server utilise les composants d’archivage suivants :
   
 - **Argents d’archivage**. Les agents d’archivage (également appelés agents de collecte de données unifiée) sont installés et activés automatiquement sur chaque pool frontal Êdition Entreprise serveur Édition Standard. Bien que les agents d’archivage soient activés automatiquement, aucun message n’est réellement capturé tant que l’archivage n’est pas activé et correctement configuré. Par défaut, l’archivage est désactivé.
     
-- **Stockage des données d’archivage**. Le stockage des données Skype Entreprise Server peut être implémenté sous la Skype Entreprise Server SQL Server bases de données ou, si vous avez un déploiement Exchange, intégré à Exchange stockage. 
+- **Stockage des données d’archivage**. Le stockage de données pour Skype Entreprise Server peut être implémenté sous la Skype Entreprise Server SQL Server bases de données ou, si vous avez un déploiement Exchange, intégré à Exchange stockage. 
     
 L’archivage nécessite également un stockage de fichiers, mais l’archivage utilise le même stockage de fichiers que les serveurs frontux ou Édition Standard server.
 
@@ -82,7 +82,7 @@ Pour implémenter l’archivage, vous devez déterminer comment répondre aux ex
     > [!NOTE]
     > Le contrôle de l’archivage pour les communications internes ou externes n’est disponible que pour Skype Entreprise stratégie. Pour Exchange’archivage intégré, les communications internes et externes sont archivées ou non. 
   
-- **S’il faut implémenter le mode critique**. Si l’archivage est une condition requise pour votre organisation, la configuration du mode critique bloque les sessions de messagerie instantanée et de conférence en cas de défaillance de Skype Entreprise Server qui empêcherait l’archivage. Par exemple : 
+- **S’il faut implémenter le mode critique**. Si l’archivage est une condition requise pour votre organisation, la configuration du mode critique bloque les sessions de messagerie instantanée et de conférence en cas de défaillance de Skype Entreprise Server qui empêcherait l’archivage. Par exemple : 
     
   - Un problème avec le service Skype Entreprise Server stockage. Dans ce cas, la messagerie instantanée est bloquée pour les utilisateurs activés pour l’archivage.
     
@@ -99,7 +99,7 @@ L’archivage est automatiquement installé sur chaque serveur frontal lorsque v
 - Utiliser le stockage Skype Entreprise Server stockage
     
 > [!NOTE]
-> Si vous implémentez les deux bases de données d’archivage Skype Entreprise Server et activez l’intégration de Microsoft Exchange, les stratégies Exchange remplacent les stratégies d’archivage Skype Entreprise Server, mais uniquement pour les utilisateurs qui sont Exchange et dont les boîtes aux lettres ont été mises en archive In-Place. Skype Entreprise’archivage dépend de la stratégie de Exchange In-Place Microsoft. 
+> Si vous implémentez les deux bases de données d’archivage Skype Entreprise Server et activez l’intégration de Microsoft Exchange, les stratégies Exchange remplacent les stratégies d’archivage Skype Entreprise Server, mais uniquement pour les utilisateurs qui sont Exchange et dont les boîtes aux lettres ont été activées In-Place en attente. Skype Entreprise’archivage dépend de la stratégie de Exchange In-Place Microsoft. 
   
 Si vous déployez l’archivage pour un pool frontal ou un serveur Édition Standard, vous devez l’activer pour tous les autres pools frontux et serveurs Édition Standard de votre déploiement. Si l’archivage n’est pas activé sur le pool où une conversation ou une réunion est hébergée, il se peut que toutes les données de conférence ne soient pas archivées. L’archivage fonctionne toujours pour les messages instantanés, mais il est possible que le contenu et les événements de conférence ne soient pas archivés.
   
@@ -119,7 +119,7 @@ Si vous déployez l’archivage pour un pool frontal ou un serveur Édition Stan
     
 - Sélection de l’option d’Exchange Microsoft pour utiliser Exchange stockage des données archivées
     
-Pour plus d’informations sur la configuration des stratégies et des paramètres Exchange In-Place hold pour prendre en charge l’archivage, voir la documentation Exchange produit.
+Pour plus d’informations sur la configuration des stratégies et des paramètres de Exchange In-Place en attente pour prendre en charge l’archivage, voir la documentation Exchange produit.
   
 ### <a name="skype-for-business-server-storage"></a>Skype Entreprise Server stockage
 
@@ -136,7 +136,7 @@ Lorsque vous ajoutez SQL Server bases de données de stockage à votre topologie
 > [!NOTE]
 > Le serveur qui héberge la base de données d’archivage peut également héberger d’autres bases de données. Toutefois, quand vous envisagez de colocaliser la base de données d’archivage avec d’autres bases de données, sachez que si vous archivez les messages d’un certain nombre d’utilisateurs, les besoins en espace disque de la base de données d’archivage peuvent devenir très importants. C’est la raison pour laquelle nous vous déconseillons de colocaliser la base de données d’archivage avec la base de données principale. 
   
-Si vous coloquez la base de données d’archivage avec la base de données de surveillance, la base de données principale ou ces deux bases de données, vous pouvez utiliser une seule instance SQL pour une ou l’ensemble des bases de données, ou vous pouvez utiliser une instance SQL distincte pour chaque base de données, avec la limitation suivante : Chaque instance de SQL ne peut contenir qu’une seule base de données principale, une seule base de données de surveillance et une seule base de données d’archivage.
+Si vous coloquez la base de données d’archivage avec la base de données de surveillance, la base de données principale ou ces deux bases de données, vous pouvez utiliser une seule instance SQL pour une ou l’ensemble des bases de données, ou vous pouvez utiliser une instance de SQL distincte pour chaque base de données, avec la limitation suivante : Chaque instance SQL ne peut contenir qu’une seule base de données principale,  base de données de surveillance unique et base de données d’archivage unique.
   
 Pour plus d’informations sur la cocation de tous les rôles serveur et bases de données, voir [Topology Basics for Skype Entreprise Server](../../plan-your-deployment/topology-basics/topology-basics.md). Pour plus d’informations sur la mise à jour de votre topologie pour inclure des bases de données de stockage, voir Créer et publier une nouvelle [topologie dans Skype Entreprise Server](../../deploy/install/create-and-publish-new-topology.md).
   
@@ -160,11 +160,11 @@ Skype Entreprise Server Les options d’archivage peuvent être spécifiées aux
     
     Par exemple, si vous activez l’archivage pour les communications internes et externes dans votre configuration globale et que vous créez une configuration de site dans laquelle vous désactivez l’archivage pour les communications externes, seules les communications internes sont archivées pour ce site. Par exemple, si vous activez l’archivage uniquement pour la messagerie instantanée dans votre configuration globale et que vous créez une configuration de site dans laquelle vous activez l’archivage pour la messagerie instantanée et les conférences, la conférence ne sera archivée que pour le site, et non pour le reste de votre organisation.
     
-- **Options au niveau du pool.** Vous pouvez spécifier des paramètres d’archivage pour un ou plusieurs pools spécifiques en créant et en configurant une configuration au niveau du pool pour chaque pool. Une configuration d’archivage au niveau du pool n’existe que si vous la créez. Vous pouvez modifier et supprimer toute configuration d’archivage au niveau du pool. Une configuration d’archivage au niveau du pool remplace la configuration globale et toute configuration d’archivage de site que vous avez peut-être créée. 
+- **Options au niveau du pool.** Vous pouvez spécifier des paramètres d’archivage pour un ou plusieurs pools spécifiques en créant et en configurant une configuration au niveau du pool pour chaque pool. Une configuration d’archivage au niveau du pool n’existe que si vous la créez. Vous pouvez modifier et supprimer n’importe quelle configuration d’archivage au niveau du pool. Une configuration d’archivage au niveau du pool remplace la configuration globale et toute configuration d’archivage de site que vous avez peut-être créée. 
     
     Par exemple, supposons que vous activez l’archivage pour la messagerie instantanée uniquement dans votre configuration globale, que vous créez une configuration au niveau du site dans laquelle vous activez l’archivage pour la messagerie instantanée et les conférences, puis créez une configuration au niveau du pool dans laquelle vous activez l’archivage uniquement pour la messagerie instantanée. Les communications sont archivées à la fois pour la messagerie instantanée et les conférences pour tous les utilisateurs du site, à l’exception des utilisateurs qui sont situés dans le pool spécifié dans la configuration au niveau du pool. Pour tous les autres utilisateurs de votre organisation, l’archivage est activé uniquement pour la messagerie instantanée.
     
-- **Stratégies d’archivage utilisateur.** Vous pouvez activer ou désactiver l’archivage pour un ou plusieurs utilisateurs et groupes d’utilisateurs spécifiques en créant, configurant et appliquant une stratégie d’archivage au niveau de l’utilisateur pour les utilisateurs et les groupes d’utilisateurs spécifiés. Vous pouvez supprimer toute stratégie d’archivage au niveau de l’utilisateur que vous créez et modifier les utilisateurs et groupes d’utilisateurs auquel s’applique la stratégie d’archivage. Une stratégie d’archivage au niveau de l’utilisateur remplace la stratégie globale et les stratégies de site, mais uniquement pour les utilisateurs et les groupes d’utilisateurs auxquels la stratégie est appliquée. 
+- **Stratégies d’archivage utilisateur.** Vous pouvez activer ou désactiver l’archivage pour un ou plusieurs utilisateurs et groupes d’utilisateurs spécifiques en créant, configurant et appliquant une stratégie d’archivage au niveau de l’utilisateur pour les utilisateurs et les groupes d’utilisateurs spécifiés. Vous pouvez supprimer toute stratégie d’archivage au niveau de l’utilisateur que vous créez et modifier les utilisateurs et groupes d’utilisateurs auquel la stratégie d’archivage s’applique. Une stratégie d’archivage au niveau de l’utilisateur remplace la stratégie globale et les stratégies de site, mais uniquement pour les utilisateurs et les groupes d’utilisateurs auxquels la stratégie est appliquée. 
     
     Par exemple, supposons que vous désactiviez l’archivage pour les communications internes et externes dans votre configuration globale, créez une stratégie au niveau du site dans laquelle vous activez l’archivage pour les communications internes et externes, puis créez une stratégie au niveau de l’utilisateur dans laquelle vous désactivez l’archivage pour les communications externes. Les communications sont archivées à la fois pour les communications externes et internes pour tous les utilisateurs du site à l’exception des utilisateurs auxquels vous appliquez la stratégie de niveau utilisateur; pour ces utilisateurs, seules les communications internes sont archivées.
     
@@ -172,7 +172,7 @@ Pour plus d’informations sur la configuration des configurations d’archivage
   
 ## <a name="archiving-configuration-tools"></a>Outils de configuration de l’archivage
 
- Vous contrôlez la plupart des options d’archivage à l’aide Skype Entreprise Server panneau de bord. Toutefois, il existe quelques options disponibles uniquement à l’aide de Skype Entreprise Server Management Shell. Ces options incluent l’archivage des messages en double et l’exportation des données archivées. Pour plus d’informations sur l’utilisation du Panneau de Skype Entreprise Server et de Skype Entreprise Server Management Shell pour gérer les stratégies d’archivage, voir Gérer l’archivage [dans Skype Entreprise Server](../../manage/archiving/archiving.md).
+ Vous contrôlez la plupart des options d’archivage à l’aide Skype Entreprise Server panneau de commande. Toutefois, il existe quelques options disponibles uniquement à l’aide de Skype Entreprise Server Management Shell. Ces options incluent l’archivage des messages en double et l’exportation des données archivées. Pour plus d’informations sur l’utilisation du Panneau de Skype Entreprise Server et de Skype Entreprise Server Management Shell pour gérer les stratégies d’archivage, voir Gérer l’archivage [dans Skype Entreprise Server](../../manage/archiving/archiving.md).
   
 ## <a name="access-archived-data"></a>Accéder aux données archivées
 

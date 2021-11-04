@@ -1,7 +1,7 @@
 ---
 title: Utiliser le Panneau de Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
 description: Pour plus d’informations sur les différentes procédures que vous pouvez effectuer à l’aide du Panneau de Skype Entreprise Server, voir Manage Skype Entreprise Server 2015.
-ms.openlocfilehash: fd335a6ddc01b65ce32ca91b1cd104c38036490a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f494063180fc64833f9da5bdb6bec6c50ed687e8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617930"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742180"
 ---
 # <a name="use-the-skype-for-business-server-2015-control-panel"></a>Utiliser le Panneau de Skype Entreprise Server 2015
  

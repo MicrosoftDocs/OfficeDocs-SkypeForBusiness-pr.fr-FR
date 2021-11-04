@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres de la passerelle PSTN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 'Pour éditer les paramètres d’une passerelle réseau téléphonique commuté (PSTN), modifiez les champs suivants :'
-ms.openlocfilehash: 63c85e5cb9d08761496ffb94d3b719b4fdb11e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a2da96ccb52beffd99f4a4d900c57acd8a841e7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615730"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765692"
 ---
 # <a name="pstn-gateway-settings-expander"></a>Expandeur des paramètres de la passerelle PSTN
  

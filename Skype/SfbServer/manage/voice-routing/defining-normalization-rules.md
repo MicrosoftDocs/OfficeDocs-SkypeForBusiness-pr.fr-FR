@@ -1,7 +1,7 @@
 ---
 title: Définition de règles de normalisation dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Skype Entreprise Server règles de normalisation utilisent .NET Framework expressions régulières pour traduire les numéros de téléphone composés au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertissent ce numéro au format utilisé en interne par Skype Entreprise Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
-ms.openlocfilehash: 4b78207f90bb013b8be4161b7319cb605ad148e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Skype Entreprise Server de normalisation utilisent .NET Framework expressions régulières pour traduire les numéros de téléphone composés au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertissent ce numéro au format utilisé en interne par Skype Entreprise Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
+ms.openlocfilehash: e2cf2deaefa18323dcd69e9f09703d6994f101c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602489"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778284"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Définition de règles de normalisation dans Skype Entreprise Server
 
-Skype Entreprise Server règles de normalisation utilisent .NET Framework expressions régulières pour traduire les numéros de téléphone composés au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertissent ce numéro au format utilisé en interne par Skype Entreprise Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
+Skype Entreprise Server de normalisation utilisent .NET Framework expressions régulières pour traduire les numéros de téléphone composés au format E.164 ; en d’autres termes, les règles de normalisation prennent le numéro de téléphone composé par un utilisateur et convertissent ce numéro au format utilisé en interne par Skype Entreprise Server. Une ou plusieurs règles de normalisation doivent être affectées à chaque plan de numérotation.
 
 Pour plus d’informations sur les règles de normalisation, voir [Plans de numérotation et règles de normalisation.](/previous-versions/office/lync-server-2013/lync-server-2013-dial-plans-and-normalization-rules)
 
@@ -32,7 +32,7 @@ Vous pouvez utiliser l’une des méthodes suivantes pour définir ou modifier u
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Créer ou modifier une règle de normalisation à l’aide de La création d’une règle de normalisation
 
-Pour créer ou modifier une règle de normalisation dans le Panneau de Skype Entreprise Server, vous devez effectuer les étapes suivantes. 
+Si vous souhaitez créer ou modifier une règle de normalisation dans le Panneau de Skype Entreprise Server, complétez les étapes suivantes. 
 
 **Pour définir une règle à l’aide de la section Créer une règle de normalisation**
 
@@ -60,7 +60,7 @@ Pour créer ou modifier une règle de normalisation dans le Panneau de Skype Ent
 8. (Optionnel) Si la règle de normalisation se traduit par un numéro de téléphone interne à votre entreprise, sélectionnez **Poste interne**.
 9. (Optionnel) Entrez un numéro pour tester la règle de normalisation, puis cliquez sur **OK**. Les résultats du test apparaissent sous **Numéro composé à tester**.
     > [!Note] 
-    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Tester le routage des voix.](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing) 
+    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Test voice routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing). 
 
 10. Cliquez sur **OK** pour enregistrer la règle de normalisation.
 11. Cliquez sur **OK** pour enregistrer le plan de numérotation.
@@ -90,7 +90,7 @@ Suivez cette procédure si vous souhaitez créer ou modifier manuellement une r�
 9. (Optionnel) Entrez un numéro pour tester la règle de normalisation, puis cliquez sur **OK**. Les résultats du test apparaissent sous **Numéro composé à tester**.
 
     > [!Note]
-    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Tester le routage des voix.](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing) 
+    > Vous pouvez enregistrer une règle de normalisation n’ayant pas encore passé le test afin de la reconfigurer ultérieurement. Pour plus d’informations, voir [Test voice routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing). 
 
 10. Cliquez sur **OK** pour enregistrer la règle de normalisation.
 11. Cliquez sur **OK** pour enregistrer le plan de numérotation.

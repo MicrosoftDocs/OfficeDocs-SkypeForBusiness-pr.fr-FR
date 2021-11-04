@@ -5,7 +5,7 @@ ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment configurer des plages de ports pour les serveurs Edge et comment configurer une stratégie de qualité de service pour vos serveurs Edge A/V.
-ms.openlocfilehash: 9e9ec2e3f6aff938866655f3534b2a45ab77f726
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f455ab417ed111a34134e3581806b4ce2a4bd57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634278"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778304"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs Edge dans Skype Entreprise Server
 
@@ -28,7 +28,7 @@ Cet article explique comment configurer des plages de ports pour les serveurs Ed
 
 ## <a name="configure-port-ranges"></a>Configurer des plages de ports
 
-Avec les serveurs Edge, vous n’avez pas besoin de configurer des plages de ports distinctes pour l’audio, la vidéo et le partage d’applications . De même, les plages de ports utilisées pour les serveurs Edge n’ont pas besoin de correspondre aux plages de ports utilisées avec vos serveurs de conférence, d’application et de médiation. Avant de poursuivre notre exemple, il est important de souligner que même si cette option existe, nous vous recommandons de ne pas modifier les plages de ports, car cela peut nuire à certains scénarios si vous vous déplacez hors de la plage de ports 50000.
+Avec les serveurs Edge, vous n’avez pas besoin de configurer des plages de ports distinctes pour l’audio, la vidéo et le partage d’application . De même, les plages de ports utilisées pour les serveurs Edge n’ont pas besoin de correspondre aux plages de ports utilisées avec vos serveurs de conférence, d’application et de médiation. Avant de poursuivre notre exemple, il est important de souligner que même si cette option existe, nous vous recommandons de ne pas modifier les plages de ports, car cela peut nuire à certains scénarios si vous vous déplacez hors de la plage de ports 50000.
 
 Par exemple, supposons que vous ayez configuré vos serveurs de conférence, d’applications et de médiation afin d’utiliser ces plages de ports :
 
@@ -84,7 +84,7 @@ Là encore, bien que nous fournissions ces options, nous vous recommandons vivem
 
 ## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurer une stratégie QoS pour vos serveurs Edge A/V
 
-En plus de créer des stratégies de QoS pour vos serveurs de conférence, d’application et de médiation, vous devez également créer des stratégies audio et vidéo pour le côté interne de vos serveurs Edge A/V. Toutefois, les stratégies utilisées sur vos serveurs Edge sont différentes des stratégies utilisées sur vos serveurs de conférence, d’application et de médiation. Pour les serveurs de conférence, d’application et de médiation, vous avez spécifié une plage de ports source ; avec les serveurs Edge, vous devez spécifier une plage de ports de destination. Pour cette raison, vous ne pouvez pas simplement appliquer les stratégies de qualité de service de conférence, d’application et de serveur de médiation à vos serveurs Edge : ces stratégies ne fonctionneront simplement pas. Au lieu de cela, vous devez créer de nouvelles stratégies et appliquer ces stratégies à vos serveurs Edge uniquement.
+En plus de créer des stratégies de QoS pour vos serveurs de conférence, d’application et de médiation, vous devez également créer des stratégies audio et vidéo pour le côté interne de vos serveurs Edge A/V. Toutefois, les stratégies utilisées sur vos serveurs Edge sont différentes des stratégies utilisées sur vos serveurs de conférence, d’application et de médiation. Pour les serveurs de conférence, d’application et de médiation, vous avez spécifié une plage de ports source ; avec les serveurs Edge, vous devez spécifier une plage de ports de destination. Pour cette raison, vous ne pouvez pas simplement appliquer les stratégies de qualité de service de conférence, d’application et de serveur de médiation à vos serveurs Edge : ces stratégies ne fonctionneront tout simplement pas. Au lieu de cela, vous devez créer de nouvelles stratégies et appliquer ces stratégies à vos serveurs Edge uniquement.
 
 La procédure suivante décrit le processus de création d’objets de stratégie de groupe Active Directory qui peuvent être utilisés pour gérer la qualité de service sur les serveurs Edge. Bien entendu, il est possible que vos serveurs Edge soient des serveurs autonomes qui n’ont pas de compte Active Directory. Si c’est le cas, vous pouvez utiliser la stratégie de groupe locale au lieu de la stratégie de groupe Active Directory : la seule différence est que vous devez créer ces stratégies locales à l’aide de l’Éditeur de stratégie de groupe local et créer individuellement le même ensemble de stratégies sur chaque serveur Edge. Pour démarrer l’Éditeur de stratégie de groupe locale sur un serveur Edge, vous pouvez :
 
@@ -122,9 +122,9 @@ Après avoir créé la stratégie QoS pour le trafic audio, vous devez créer un
 
   - Attribuez à la valeur DSCP la valeur **34** au lieu de 46. (Notez que vous n’êtes pas obligé d’attribuer la valeur 34 à la valeur DSCP. Le seul impératif est d’utiliser une valeur DSCP pour la vidéo différente de celle utilisée pour l’audio).
 
-  - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 57501 à 65535 pour la vidéo, définissez la plage de ports sur celle-ci : **57501:65535**. Là encore, il doit être configuré en tant que plage de ports de destination.
+  - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 57501 à 65535 pour la vidéo, définissez la plage de ports sur celle-ci : **57501:65535**. Là encore, il doit être configuré comme plage de ports de destination.
 
-Si vous décidez de créer une stratégie pour la gestion du trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
+Si vous décidez de créer une stratégie pour gérer le trafic de partage d’application, vous devez créer une troisième stratégie, en faisant les substitutions suivantes :
 
   - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server partage d’application).**
 
@@ -136,7 +136,7 @@ Les nouvelles stratégies que vous avez créées ne prennent effet qu’une fois
 
  **Gpudate.exe /force**
 
-Cette commande peut être exécuté à partir de l’Skype Entreprise Server ou de toute fenêtre de commande qui s’exécute sous les informations d’identification de l’administrateur. Pour exécuter une fenêtre de commande avec des droits d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Notez que vous devrez peut-être redémarrer le serveur Edge même après avoir Gpudate.exe.
+Cette commande peut être exécuté à partir de l’Skype Entreprise Server ou de n’importe quelle fenêtre de commande qui s’exécute sous les informations d’identification de l’administrateur. Pour exécuter une fenêtre de commande avec des droits d’administrateur, cliquez sur **Démarrer**, cliquez avec le bouton droit sur **Invite de commandes**, puis cliquez sur **Exécuter en tant qu’administrateur**. Notez que vous devrez peut-être redémarrer le serveur Edge même après avoir Gpudate.exe.
 
 Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP appropriée, vous devez également créer une entrée de Registre sur chaque ordinateur. Pour cela, procédez comme suit :
 

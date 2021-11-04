@@ -1,7 +1,7 @@
 ---
 title: Rapport de synthèse de la qualité des médias dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 'Résumé : Découvrez le rapport de synthèse de la qualité des médias dans Skype Entreprise Server.'
-ms.openlocfilehash: 8478ed9d4ba3bc35451c140346bec4e407c25596
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7dad97de5c763dd578b90559653606911e03c78a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598848"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765402"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de la qualité des médias dans Skype Entreprise Server
  
@@ -47,7 +47,7 @@ Le rapport de synthèse de la qualité des médias vous permet d’appliquer des
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Accès au rapport de synthèse de la qualité des médias
 
-Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport de liste d’appels [Skype Entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
+Le rapport de synthèse de la qualité des médias est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport des listes d’appels [Skype Entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
   
 - Volume d’appels
     
@@ -77,7 +77,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres du rapport de synthèse de la qualité des médias**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/> |
@@ -91,7 +91,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
   
 **Mesures du rapport de synthèse de la qualité des médias : synthèse des appels audio**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’appel/type de système d’extrémité** <br/> |Non  <br/> | Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants : <br/>  Appels d’égal à égal UC <br/>  Sessions de conférence UC <br/>  Sessions de conférence PSTN <br/>  Appels PSTN : contournement du média <br/>  Appels PSTN (sans contournement) : partie UC <br/>  Appels PSTN (sans contournement) : partie passerelle <br/>  Autres types d’appels <br/> |
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels par type d’appel.  <br/> |
@@ -100,7 +100,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
 |**Volume d’appels (appels VPN)** <br/> |Non  <br/> |Nombre total d’appels qui utilisaient une connexion VPN.  <br/> |
 |**Volume d’appels (appels externes)** <br/> |Non  <br/> |Nombre d’appels qui utilisaient une connexion externe (c’est-à-dire une connexion en dehors du réseau interne).  <br/> |
 |**Boucle (ms)** <br/> |Non  <br/> |Temps moyen (en millisecondes) nécessaire à un package RTP (Real-Time Transport Protocol) pour effectuer un aller-retour vers un autre point de terminaison. Des boucles de 100 millisecondes ou moins sont considérées qualitativement acceptables.  <br/> Des boucles avec des temps plus élevés peuvent être causées par le routage international des appels, une mauvaise configuration du routage ou un serveur multimédia surchargé. Les temps d’aller-retour élevés créent des difficultés dans le cadre de conversations audio bidirectionnelles réalisées en temps réel.  <br/> |
-|**Dégradation (MOS)** <br/> |Non  <br/> |Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Skype Entreprise Server un ensemble d’algorithmes prédisent comment les utilisateurs auraient évalué un appel.  <br/> Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un système d’extrémité surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
+|**Dégradation (MOS)** <br/> |Non  <br/> |Taux moyen de dégradation de la note moyenne d’opinion (MOS) observé au cours d’un appel. Les valeurs de dégradation peuvent aller de 0,0 (la plus faible) à 5,0 (la plus élevée). Une valeur de 0,5 ou moins signifie une dégradation acceptable. Traditionnellement, les notes moyennes d’opinion sont calculées en demandant aux utilisateurs d’évaluer la qualité d’un appel sur une échelle de 1 à 5. Dans Skype Entreprise Server ensemble d’algorithmes prédisent comment les utilisateurs auraient évalué un appel.  <br/> Les valeurs de dégradation élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou bien d’un serveur multimédia ou d’un système d’extrémité surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Perte de paquets** <br/> |Non  <br/> |Taux moyen de pertes de paquets RTP. (La perte de paquets survient lorsque des paquets RTP, protocole employé pour la transmission audio et vidéo sur Internet, n’atteignent pas leur point de destination.) Les valeurs de perte élevées peuvent provenir d’une congestion, d’un dépassement de la bande passante disponible, d’une congestion/interférence dans la liaison sans fil ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Gigue (ms)** <br/> |Non  <br/> |Gigue moyenne détectée entre les arrivées de paquets RTP. (La gigue permet de mesurer les fluctuations d’un appel.) Les valeurs de gigue élevées peuvent provenir d’une congestion ou d’un serveur multimédia surchargé, ce qui se traduit par une distorsion ou une perte de l’audio.  <br/> |
 |**Taux de masquage de la réparation** <br/> |Non  <br/> |Ratio moyen d’échantillons audio masqués par rapport au nombre total d’échantillons. (Un échantillon audio masqué est une technique employée pour adoucir les effets de transition violents généralement causés par des paquets réseau perdus.) Des valeurs élevées indiquent des niveaux importants de masquage des pertes appliqués suite à la perte de paquets ou des phénomènes de gigue. Elles se traduisent par une distorsion ou une perte de l’audio.  <br/> |
@@ -109,7 +109,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
    
 **Mesures du rapport de synthèse de la qualité des médias : synthèse des appels vidéo**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’appel/type de système d’extrémité** <br/> |Non  <br/> | Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants : <br/>  Appels d’égal à égal UC <br/>  Sessions de conférence UC <br/>  Sessions de conférence PSTN <br/>  Appels PSTN : contournement du média <br/>  Appels PSTN (sans contournement) : partie UC <br/>  Appels PSTN (sans contournement) : partie passerelle <br/>  Autres types d’appels <br/> |
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels par type d’appel.  <br/> |
@@ -128,7 +128,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
    
 **Mesures du rapport de synthèse de la qualité des médias : synthèse des appels de partage d’application**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Type d’appel/type de système d’extrémité** <br/> |Non  <br/> | Lorsque vous cliquez sur cet élément, le rapport affiche des informations détaillées sur les appels en fonction de ce type. Les types d’appels sont les suivants : <br/>  Appels d’égal à égal UC <br/>  Sessions de conférence UC <br/>  Sessions de conférence PSTN <br/>  Appels PSTN : contournement du média <br/>  Appels PSTN (sans contournement) : partie UC <br/>  Appels PSTN (sans contournement) : partie passerelle <br/>  Autres types d’appels <br/> |
 |**Volume d’appels** <br/> |Non  <br/> |Nombre total d’appels par type d’appel.  <br/> |

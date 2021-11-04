@@ -1,7 +1,7 @@
 ---
 title: Exemple de script PowerShell - Créer & stratégie de messagerie
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c76f7441e335532fcacaf3fe41561fc0ef7ef516
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 922bbd88f8a470a19edf799b737a349043ebfeed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605190"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741550"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Exemple de script PowerShell : créer et attribuer une stratégie de messagerie
 

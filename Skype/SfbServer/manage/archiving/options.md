@@ -1,7 +1,7 @@
 ---
 title: Gérer les options d’archivage dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Résumé : Découvrez comment configurer les options d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: c38142f9a3c4e0db6c856bb1c75846399e9d62dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ab0f64db30638b29367f113acc342077b84b113
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616610"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747308"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Gérer les options d’archivage dans Skype Entreprise Server
 
@@ -66,5 +66,5 @@ Vous pouvez également configurer les options d’archivage à l’aide Windows 
 |:-----|:-----|
 |Get-CsArchivingConfiguration  <br/> |Retourne des informations sur les paramètres de configuration de l’archivage dans votre organisation.  <br/> |
 |New-CsArchivingConfiguration  <br/> |Crée un nouvel ensemble de paramètres de messagerie instantanée, qui peuvent être utilisés pour activer ou désactiver l’enregistrement automatique des sessions de messagerie instantanée et pour bloquer les messages instantanés qui ne peuvent pas être archivés.  <br/> |
-|Remove-CsArchivingConfiguration  <br/> |Supprime la collection spécifiée de paramètres d’archivage utilisés pour activer ou désactiver l’enregistrement automatique des sessions de messagerie instantanée et pour bloquer éventuellement les messages instantanés qui ne peuvent pas être archivés.  <br/> |
+|Remove-CsArchivingConfiguration  <br/> |Supprime la collection spécifiée de paramètres d’archivage utilisés pour activer ou désactiver l’enregistrement automatique des sessions de messagerie instantanée et pour éventuellement bloquer les messages instantanés qui ne peuvent pas être archivés.  <br/> |
 |Set-CsArchivingConfiguration  <br/> |Modifie une collection existante d’options de configuration de l’archivage de la messagerie instantanée.  <br/> |

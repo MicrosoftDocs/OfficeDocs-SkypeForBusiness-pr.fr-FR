@@ -1,7 +1,7 @@
 ---
 title: Gérer les comptes d’utilisateur pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: Les sections de cet article décrivent comment activer, désactiver temporairement ou supprimer des utilisateurs Active Directory d’Skype Entreprise Server.
-ms.openlocfilehash: 8e33d22c8a4e3359a7fdbbb4c8420f3a0e65f5a4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: e079895d80366ecbd6a10be864b78b0d625e495a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015158"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742080"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Gérer les comptes d’utilisateur pour Skype Entreprise Server
 
@@ -115,7 +115,7 @@ Vous pouvez utiliser la procédure suivante pour désactiver un compte d’utili
 
 ### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Utiliser Windows PowerShell pour désactiver ou réactiver des comptes d’utilisateurs
 
-Les comptes d’utilisateur peuvent être temporairement désactivés, puis  réactivés par la suite, à l’aide de l'; Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
+Les comptes d’utilisateur peuvent être temporairement désactivés, puis  réactivés par la suite, à l’aide de l'; Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
 
 ### <a name="to-disable-a-user-account"></a>Pour désactiver un compte d’utilisateur
 
@@ -161,7 +161,7 @@ Utilisez la procédure suivante pour désactiver la Voix Entreprise d’un compt
 
 8. Cliquez sur **Valider**.
 
-L’utilisateur ne peut désormais pas utiliser la fonctionnalité Voix Entreprise de l’utilisateur. Informations connexes : <br/>[Voix Entreprise mobilité](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype Entreprise Server Management Shell](../management-shell.md)
+L’utilisateur ne peut désormais pas utiliser la fonctionnalité Voix Entreprise’utilisateur. Informations connexes : <br/>[Voix Entreprise mobilité](/previous-versions/office/lync-server-2013/lync-server-2013-managing-enterprise-voice-for-users)<br/> [Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)<br/> [Skype Entreprise Server Management Shell](../management-shell.md)
 ## <a name="remove-a-user-account-with-the-skype-for-business-server-management-shell"></a>Supprimer un compte d’utilisateur avec Skype Entreprise Server Management Shell
 <a name="Remove"> </a>
 

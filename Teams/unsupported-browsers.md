@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams réunions sur des navigateurs non pris en défaut
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Découvrez comment Teams prend en charge l’audio et la vidéo dans les navigateurs non pris en charge.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba55bd7a199731956c37e4cd12ff1684c9a9a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 213de938360754efd95b5fb460c0cf5a3c735203
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613433"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740140"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams réunions sur des navigateurs non pris en défaut
 
@@ -30,7 +30,7 @@ Certains navigateurs, tels qu’Internet Explorer 11, Safari et Firefox, peuvent
 > [!Note]
 > Microsoft 365 applications et services ne prendra pas en charge Internet Explorer 11 à compter du 17 août 2021 (Microsoft Teams ne prendra pas en charge Internet Explorer 11 plus tôt, à partir du 30 novembre 2020). [En savoir plus](https://aka.ms/AA97tsw). Veuillez noter que le navigateur Internet Explorer 11 restera un navigateur pris en charge. Internet Explorer 11 est un composant du [](/lifecycle/faq/internet-explorer-microsoft-edge) Windows d’exploitation et suit la politique de cycle de vie du produit sur lequel il est installé.
 
-Lorsque Teams détecte un navigateur non pris en place, un message expliquant le problème et les limites de la session s’affiche automatiquement. Le message fournit des instructions supplémentaires pour accéder à l’audio de la réunion, par exemple en conseillant à l’utilisateur de laisser un numéro de rappeler afin que Teams puisse appeler l’utilisateur, ou en lui demandez d’appeler le numéro de conférence inclus dans l’invitation à la réunion. Ce message encourage également l’utilisateur à télécharger et à utiliser [Teams client](https://teams.microsoft.com/downloads) de bureau pour une expérience Teams entière.
+Lorsque Teams détecte un navigateur non pris en défaut, un message s’affiche automatiquement expliquant le problème et les limites de la session. Le message fournit des instructions supplémentaires pour accéder à l’audio de la réunion, par exemple en conseillant à l’utilisateur de laisser un numéro de rappeler afin que Teams puisse appeler l’utilisateur, ou en lui demandez d’appeler le numéro de conférence inclus dans l’invitation à la réunion. Ce message encourage également l’utilisateur à télécharger et à utiliser [Teams client](https://teams.microsoft.com/downloads) de bureau pour une expérience Teams complète.
 
 Si PSTN n’est pas disponible, l’utilisateur ne voit pas les instructions pour accéder à la réunion et ne peut pas participer à la réunion.
 
@@ -48,6 +48,6 @@ Les personnes qui utilisent Teams’application web sur des navigateurs non pris
 
 Pour plus d’informations sur la prise en charge du navigateur Teams, voir [Limites et spécifications pour Teams.](./limits-specifications-teams.md#browsers)
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Participer à Teams réunion sur un navigateur non pris en défaut](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

@@ -1,7 +1,7 @@
 ---
 title: Mise à niveau du Gestionnaire de statistiques pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment mettre à niveau le Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: caa2a5f7576a046c990315b638e618a379dd039e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2196f07d25fb761055df4432f0c2fd930368474d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611983"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772000"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Mise à niveau du Gestionnaire de statistiques pour Skype Entreprise Server
  
@@ -57,13 +57,13 @@ Le script collecte les informations de certificat et le mot de passe de l’éco
    ```
 
 > [!NOTE]
-> Le mot de passe du service Gestionnaire de statistiques s’affiche en texte clair sur la ligne de commande lors de son passage au programme d’installation. Assurez-vous de protéger votre moniteur selon vos besoins. 
+> Le mot de passe du service Gestionnaire de statistiques s’affiche en texte clair sur la ligne de commande lors de sa passage au programme d’installation. Assurez-vous de protéger votre moniteur selon vos besoins. 
   
 1. Lors de l’exécution du script, vous devez être invité à désinstaller l’ancienne version du produit. Réponse Oui.
     
-2. Si le service d’écoute est en cours d’exécution, vous serez invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’écoute du Gestionnaire de statistiques sera arrêté).
+2. Si le service d’écoute est en cours d’exécution, vous êtes invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’écoute du Gestionnaire de statistiques sera arrêté).
     
-3. Poursuivez le processus d’installation. Notez que le mot de passe de service et l’empreinte numérique du certificat sont pré-remplis. Si ce n’est pas le cas, ajoutez les valeurs que vous avez enregistrées avant de continuer.
+3. Poursuivez le processus d’installation. Notez que le mot de passe du service et l’empreinte numérique du certificat sont pré-rempli. Si ce n’est pas le cas, ajoutez les valeurs que vous avez enregistrées avant de continuer.
     
 4. Ouvrez une fenêtre d’administration PowerShell. Mettre à niveau le composant Site web :
     
@@ -75,7 +75,7 @@ Le script collecte les informations de certificat et le mot de passe de l’éco
     
 6. Si le service Agent est en cours d’exécution, vous êtes invité à fermer l’application avant de continuer. Autorisez la fermeture de l’application (le service d’agent StatsMan est arrêté).
     
-7. Poursuivez le processus d’installation. Notez que le mot de passe de service et l’empreinte numérique du certificat sont pré-remplis. Si ce n’est pas le cas, ajoutez les valeurs que vous avez enregistrées avant de continuer.
+7. Poursuivez le processus d’installation. Notez que le mot de passe du service et l’empreinte numérique du certificat sont pré-rempli. Si ce n’est pas le cas, ajoutez les valeurs que vous avez enregistrées avant de continuer.
     
 8. Ouvrez une fenêtre d’administration PowerShell. Mettre à niveau le composant Agent :
     

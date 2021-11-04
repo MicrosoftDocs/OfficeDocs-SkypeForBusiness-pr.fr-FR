@@ -1,7 +1,7 @@
 ---
 title: Planifier la connectivité PSTN dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Planifiez la connectivité PSTN dans Voix Entreprise dans Skype Entreprise Server.
-ms.openlocfilehash: 803b613e3b78465f1dd8d9d04fd552b8bee553d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3cbc7c6a6069fef3a8898121dba287edcec5b4c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593538"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746760"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planifier la connectivité PSTN dans Skype Entreprise Server
  
 Planifiez la connectivité PSTN dans Voix Entreprise dans Skype Entreprise Server.
   
-Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (PSTN) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas connaître la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure Voix Entreprise et le réseau téléphonique (PSTN) doit se faire comme s’il s’agit d’un autre appel téléphonique.
+Une solution VoIP à l’échelle de l’entreprise doit de toute évidence assurer l’acheminement des appels depuis et vers le réseau téléphonique commuté (PSTN) avec une qualité de service constante. Les utilisateurs qui passent et reçoivent des appels ne doivent pas connaître la technologie sous-jacente : du point de vue de l’utilisateur, un appel entre l’infrastructure Voix Entreprise et le réseau téléphonique (RSTN) doit se faire comme un autre appel téléphonique.
   
 Skype Entreprise Server fournit une connectivité PSTN fiable et évolutive à l’aide des options suivantes :
   

@@ -1,7 +1,7 @@
 ---
 title: Table UserAgent
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: La table UserAgent est une table de prise en charge qui stocke la liste des différents agents utilisateurs qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un agent utilisateur
-ms.openlocfilehash: 0c23582550e659f4a48661c80770c385e168ed3c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e870e9d63f3d1c9e199df36c5225af704388746
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590058"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771820"
 ---
 # <a name="useragent-table"></a>Table UserAgent
  
 La table UserAgent est une table de prise en charge qui stocke la liste des différents agents utilisateurs qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de la table représente un agent utilisateur
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**UserAgentKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique qui identifie cet agent utilisateur.  <br/> |
 |**UserAgent** <br/> |nvarchar(256)  <br/> |Uniques  <br/> |Chaîne de l’agent utilisateur.  <br/> |

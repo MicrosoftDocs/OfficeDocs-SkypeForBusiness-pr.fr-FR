@@ -1,7 +1,7 @@
 ---
 title: Planification de l’authentification moderne (ADAL) avec Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Cet article explique ce qu’est l’authentification moderne (basée sur la bibliothèque d’authentification Active Directory (ADAL) et OAuth 2.0).
-ms.openlocfilehash: 29bbe33754b2363e84f449115bd51396ad9af932
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af2ab64b2719348f2c1bb860ae560ea79509921f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614014"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759496"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Comment utiliser l’authentification moderne (ADAL) avec Skype Entreprise
  
@@ -37,7 +37,7 @@ Les conversations d’authentification moderne (basées sur ADAL et OAuth 2.0) o
     
 - Il existe une connexion OAuth, en d’autres  termes, une connexion dédiée à l’autorisation d’un utilisateur à accéder à une ressource. (OAuth est également connu sous le nom plus descriptif « Th de serveur à serveur » et est souvent abrégé en S2S.)
     
-Dans Skype Entreprise Server d’authentification moderne (ADAL), Skype Entreprise Server communique via ADFS (ADFS 3.0 dans Windows Server 2012 R2). L’authentification peut se produire à l’aide d’un autre fournisseur d’identité (IdP), mais Skype Entreprise serveur doit être configuré pour communiquer directement avec ADFS. Si vous n’avez pas configuré ADFS pour qu’il fonctionne Skype Entreprise Server terminez [l’installation ADFS.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))
+Dans Skype Entreprise Server d’authentification moderne (ADAL), Skype Entreprise Server communique via ADFS (ADFS 3.0 dans Windows Server 2012 R2). L’authentification peut se produire à l’aide d’un autre fournisseur d’identité (IdP), mais le serveur Skype Entreprise doit être configuré pour communiquer directement avec ADFS. Si vous n’avez pas configuré ADFS pour qu’il fonctionne Skype Entreprise Server terminez [l’installation ADFS.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))
   
 ADAL est inclus dans la mise à jour cumulative de mars 2016 pour Skype Entreprise Server 2015,  et la mise à jour cumulative de mars 2016 pour Skype Entreprise doit être installée et nécessaire pour réussir la configuration. Pour Skype Entreprise Server 2019, il est disponible à partir de la version initiale du produit.
   

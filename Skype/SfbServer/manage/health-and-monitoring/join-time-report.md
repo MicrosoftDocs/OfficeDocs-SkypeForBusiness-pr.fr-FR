@@ -1,7 +1,7 @@
 ---
 title: Rapport de temps d’adhésion aux conférences Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 'Résumé : Découvrez le rapport de synthèse des heures de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 1a7a5ec6b4ed5d5b3c2f9281766cb83079dc2f05
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1208802aa82bfe93951919403882477aa608889
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591178"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740520"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Rapport de temps d’adhésion aux conférences Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Les filtres vous offrent la possibilité de retourner un ensemble de données mi
   
 **Filtres du rapport des heures d’arrivée aux conférences**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -49,7 +49,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport des heu
   
 **Mesures du rapport des heures d’arrivée aux conférences**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Date** <br/> Le titre réel de cette mesure varie en fonction de l’intervalle sélectionné.  <br/> |Non  <br/> |Date et heure des conférences.  <br/> |
 |**Nombre total de sessions** <br/> |Non  <br/> |Nombre total de sessions qui comprend les sessions ayant abouti, les sessions ayant échoué (à la fois les échecs attendus et les échecs inattendus) et les sessions non catégorisées.  <br/> |

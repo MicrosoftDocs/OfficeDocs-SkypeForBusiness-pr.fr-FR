@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres généraux du serveur d’archivage
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le Générateur de topologie, vous pouvez modifier les propriétés d’un serveur individuel exécutant l’archivage en cliquant avec le bouton droit sur le serveur exécutant l’archivage dans l’arborescence de la console et en cliquant sur Action dans la barre d’outils, ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur Modifier les propriétés et en modifiant l’une des options suivantes :'
-ms.openlocfilehash: a16c239706bfc83a2798f26b05386429dfa80c6b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f12b43f027ef0a562f8e15aeb265091e3e85d0a9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584198"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778564"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Expandeur des paramètres généraux du serveur d’archivage
  
@@ -36,6 +36,6 @@ Dans le Générateur de topologie, vous pouvez modifier les propriétés d’un 
 > Pour modifier les pools associés à un serveur exécutant l’archivage, sélectionnez l’option **Modifier les propriétés** du nœud du pool frontal individuel ou du nœud Survivable Branch Appliance actuellement associé au serveur exécutant l’archivage.
   
 > [!NOTE]
-> Le nœud Archivage contient un serveur exécutant l’archivage si vous avez précédemment ajouté un serveur exécutant l’archivage à la topologie dans le Générateur de topologie. Vous pouvez modifier les propriétés de n’importe quel serveur exécutant l’archivage dans la liste. Toutefois, la messagerie instantanée ou la conférence web (messagerie) ne peut pas être archivée tant que vous n’avez pas également mis en place le service pour le serveur exécutant l’archivage. 
+> Le nœud Archivage contient un serveur exécutant l’archivage si vous avez précédemment ajouté un serveur exécutant l’archivage à la topologie dans le Générateur de topologie. Vous pouvez modifier les propriétés de n’importe quel serveur exécutant l’archivage dans la liste. Toutefois, la messagerie instantanée ou la conférence web (messagerie) ne peut pas être archivée tant que vous n’avez pas également installé le service pour le serveur exécutant l’archivage. 
   
 

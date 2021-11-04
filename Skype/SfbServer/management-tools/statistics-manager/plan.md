@@ -1,7 +1,7 @@
 ---
 title: Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,13 +12,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques Skype Entreprise Server.'
-ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Résumé : Lisez cette rubrique pour en savoir plus sur le Gestionnaire de statistiques pour Skype Entreprise Server.'
+ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730753"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778144"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planifier le Gestionnaire de statistiques pour Skype Entreprise Server
 
@@ -32,7 +32,7 @@ Vous pouvez déployer le Gestionnaire de statistiques dans un déploiement local
 
 Cette rubrique comprend les sections suivantes :
 
-- [Fonctionnalités et fonctions](plan.md#BKMK_Features)
+- [Produits et fonctionnalités](plan.md#BKMK_Features)
 
 - [Nouveautés de la version 2.0](plan.md#BKMK_WhatsNew)
 
@@ -44,7 +44,7 @@ Cette rubrique comprend les sections suivantes :
 
 - [Considérations relatives à la sécurité](plan.md#BKMK_Security)
 
-## <a name="features-and-capabilities"></a>Fonctionnalités et fonctions
+## <a name="features-and-capabilities"></a>Produits et fonctionnalités
 <a name="BKMK_Features"> </a>
 
 Le Gestionnaire de statistiques vous permet de :
@@ -61,7 +61,7 @@ Le Gestionnaire de statistiques vous permet de :
 
 - Utilisez des plages de dates ou des points dans l’heure pour filtrer les données.
 
-- Afficher les performances du serveur en fonction des indicateurs d’état de santé clés établis. Les khis représentent une collection de compteurs de performance avec une plage d’état d’santé définie.
+- Afficher les performances du serveur en fonction des indicateurs d’état de santé clés établis. Les khis représentent une collection de compteurs de performance avec une plage saine définie.
 
 - Afficher des mesures détaillées pour chaque compteur.
 
@@ -73,7 +73,7 @@ Le Gestionnaire de statistiques vous permet de :
 
 - Afficher les KHIs en temps réel, y compris les mises à jour. Si l’affichage Historique est activé, seuls les nouveaux échecs sont affichés.
 
-  - Afficher tous les KHIs en même temps
+  - Afficher toutes les khis en même temps
 
   - Afficher les KHIs par serveur (mode Paysage)
 
@@ -86,7 +86,7 @@ Ce qui suit décrit les nouveautés de la version 2.0. Si vous avez un déploiem
 
 - Des affichages de scénario ont été ajoutés pour les scénarios edge media, Fabric Health, Pool Failover et Registration.
 
-- De nombreux nouveaux compteurs ont été ajoutés pour SQL serveurs, d’autres compteurs Skype Entreprise d’utilisation, etc.
+- De nombreux nouveaux compteurs ont été ajoutés pour SQL serveurs, d’autres compteurs Skype Entreprise’utilisation, etc.
 
 - Intégration du nœud de l’observeur pour l’agent du gestionnaire de statistiques : si l’agent est installé sur un nœud observeur, il signale les statistiques de transaction synthétique sous forme de compteurs au Gestionnaire de statistiques.
 
@@ -122,7 +122,7 @@ Dans un déploiement local, un seul serveur héberge tous les composants du Gest
 
 Le diagramme suivant illustre un déploiement local, dans lequel le site web du gestionnaire de statistiques, le système de mise en cache Hub, Listener et Redis sont hébergés sur un seul ordinateur. Le Gestionnaire de statistiques surveille trois serveurs Skype Entreprise, chacun d’eux avec un seul agent transmettant des données à l’écoute. Les utilisateurs se connectent à un site web unique pour afficher toutes les données agrégées par le Gestionnaire de statistiques :
 
-![Déploiement local du gestionnaire de statistiques.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Déploiement local du gestionnaire des statistiques.](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>Configuration requise
 <a name="BKMK_Requirements"> </a>

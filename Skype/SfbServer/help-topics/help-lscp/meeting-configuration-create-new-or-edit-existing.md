@@ -1,7 +1,7 @@
 ---
 title: 'Configuration de réunion : création d’une réunion ou modification d’une configuration existante'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres s’appliquent uniquement aux réunions planifiées. Elles ne s’appliquent pas aux réunions ad hoc créées en cliquant sur l’option Conférence maintenant dans le client.
-ms.openlocfilehash: 32a1aea2c8cf62f886b1a695efb29d041afe62c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5812c73fd3f72d3c61994a95c977f9d4046be07f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608221"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742280"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuration de la réunion : création d’une nouvelle ou modification d’une configuration existante
 

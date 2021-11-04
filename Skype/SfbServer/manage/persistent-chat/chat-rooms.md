@@ -1,7 +1,7 @@
 ---
-title: Gérer les salles de conversation dans le serveur de conversation permanente Skype Entreprise Server 2015
+title: Gestion des salles de conversation dans le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Résumé : Découvrez comment gérer les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: 928fef65d63165721957ca0622b959860d82704e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5eb69b3f852ce8e093947cdd04cc00b6bfdc19e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630568"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746880"
 ---
-# <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer les salles de conversation dans le serveur de conversation permanente Skype Entreprise Server 2015
+# <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gestion des salles de conversation dans le serveur de conversation permanente Skype Entreprise Server 2015
  
 **Résumé :** Découvrez comment gérer les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.
   
@@ -33,13 +33,13 @@ Vous pouvez configurer et gérer des salles de conversation à l’aide de l’i
   
 Les salles de conversation peuvent être de deux types : Normal et Auditorium. Une salle de conversation normale permet à tous les membres de publier et de lire des messages. Un auditorium est un type de salle de conversation dans laquelle seuls les présentateurs peuvent publier, mais où tout le monde peut lire.
   
-Qui pouvez accéder aux salles de conversation et les gérer dépend des rôles d’utilisateur suivants :
+Qui pouvez accéder aux salles de conversation et les gérer dépend des rôles utilisateur suivants :
   
 - Les utilisateurs doivent être membres d’une salle de conversation pour pouvoir publier et lire des messages.
     
 - Les présentateurs sont autorisés à publier dans les salles auditorium.
     
-- Les administrateurs peuvent supprimer du contenu précédant, par exemple du contenu publié avant une certaine date, d’une salle de conversation afin que la base de données ne devienne pas ingérable de part sa taille. Les administrateurs peuvent également supprimer ou remplacer des messages qui sont considérés inappropriés pour une salle de conversation particulière.
+- Les administrateurs peuvent supprimer du contenu précédant, par exemple du contenu publié avant une certaine date, d’une salle de conversation afin que la base de données ne devienne pas ingérable de part sa taille. Les administrateurs peuvent également supprimer ou remplacer des messages qui sont considérés comme inappropriés pour une salle de conversation particulière.
     
 - Les utilisateurs finaux, y compris les auteurs de messages, ne peuvent pas supprimer du contenu de salle de conversation.
     
@@ -63,13 +63,13 @@ Vous utilisez l’cmdlet **New-CsPersistentChatRoom** pour créer des salles de 
   
 - Désactivé. Permet de désactiver ou d’activer une salle de conversation. 
     
-- Invitations. Permet d’activer ou de désactiver les invitations aux salles de conversation, qui sont utilisées pour informer les utilisateurs lorsqu’ils ont été ajoutés en tant que membres de la salle de conversation. Le paramètre par défaut pour les invitations dans hérite, ce qui a entraîné l’adoption par la salle de conversation du paramètre d’invitation configuré sur la catégorie à laquelle elle appartient. La configuration du paramètre d’invitations sur False au niveau de la salle de conversation permet de faire en place le paramètre de catégorie. 
+- Invitations. Permet d’activer ou de désactiver les invitations aux salles de conversation, qui sont utilisées pour informer les utilisateurs lorsqu’ils ont été ajoutés en tant que membres de la salle de conversation. Le paramètre par défaut pour les invitations dans hériter, ce qui a provoqué l’adoption par la salle de conversation du paramètre d’invitation configuré sur la catégorie à laquelle elle appartient. La configuration du paramètre d’invitations sur False au niveau de la salle de conversation permet de faire en place le paramètre de catégorie. 
     
 - Confidentialité. Permet de spécifier si une salle de conversation est ouverte, fermée ou secrète. Les salles ouvertes peuvent être recherchés et accessibles par tout le monde. Les salles fermées peuvent être recherchés par n’importe qui, mais sont accessibles uniquement par les membres. Les salles secrètes ne sont accessibles qu’aux membres de la salle. Par défaut, chaque nouvelle salle est initialement configurée comme fermée.
     
 - Type. Permet de spécifier si une salle de conversation est une salle normale, qui accepte les messages publiés par un membre, ou une salle auditorium, qui accepte les messages publiés uniquement par un présentateur.
     
-- Addin. Permet d’associer un add-in précédemment configuré à une salle de conversation, ce qui permet aux membres d’afficher le contenu de l’URL tout en participant.
+- Addin. Permet d’associer un add-in précédemment configuré à une salle de conversation, ce qui permet aux membres d’afficher le contenu d’URL tout en participant.
     
 Outre les paramètres ci-dessus, l’cmdlet **Set-CsPersistentChatRoom** vous permet d’affecter des utilisateurs à la salle de conversation comme suit :
   
@@ -125,7 +125,7 @@ Si la rubrique d’une salle de conversation permanente n’est plus pertinente,
   
 Si l’historique de la salle de conversation persiste, le contenu est conservé lorsque la salle de conversation est désactivée. Toutefois, le contenu n’apparaîtra pas dans les recherches tant que la salle de conversation demeurera dans son état de désactivation. Si vous activez ensuite la salle de conversation, les utilisateurs peuvent alors rechercher des messages ayant été publiés avant la désactivation de la salle. Pour plus d’informations sur la configuration de l’historique des salles de conversation, voir [Manage categories in Persistent Chat Server in Skype Entreprise Server 2015](categories.md). 
   
-Si une salle de conversation est désactivée, sa liste d’adhésion et d’autres paramètres sont conservés. En tant qu’administrateur, vous pouvez activer une salle qui a été désactivée et vous n’avez pas besoin de créer manuellement les paramètres.
+Si une salle de conversation est désactivée, sa liste d’adhésion et d’autres paramètres sont conservés. En tant qu’administrateur, vous pouvez activer une salle qui a été désactivée et vous n’avez pas besoin de créer les paramètres manuellement.
   
 Vous pouvez désactiver une salle à l’aide de l’cmdlet **Set-CsPersistentChatRoom** et définir le paramètre Disabled sur True :
   

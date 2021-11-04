@@ -1,7 +1,7 @@
 ---
 title: Rapport d’enregistrement de l’utilisateur Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Résumé : Découvrez le rapport d’enregistrement de l’utilisateur Skype Entreprise Server.'
-ms.openlocfilehash: 6424d3b0c90bf8b9286f03f7997e286b38193d6d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e137fae97f9b39f45dd619d2ed90a4180897c713
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593678"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778324"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Rapport d’enregistrement de l’utilisateur Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport d’enregistrement de l’utilisateur dans Skype Entreprise Server.
   
-Le rapport d’enregistrement de l’utilisateur fournit une vue d’ensemble de l’activité d’ouverture de session des utilisateurs, notamment des informations sur le nombre d’utilisateurs qui se sont connectés à Skype Entreprise Server pendant une période spécifiée (toutes les heures, tous les jours, toutes les semaines, tous les mois). N’oubliez pas que le rapport vous indique uniquement le nombre de personnes qui ont ouvert une session. Il ne vous apprend pas qui a ouvert une session. Les rapports de surveillance ne fournissent pas d’informations sur les utilisateurs spécifiques qui utilisent Skype Entreprise Server (et ceux qui ne le sont pas). Vous pouvez toutefois obtenir des informations approximatives sur les utilisateurs à l’aide du rapport d’activité de l’utilisateur.
+Le rapport d’enregistrement de l’utilisateur fournit une vue d’ensemble de l’activité d’ouverture de session utilisateur, notamment des informations sur le nombre d’utilisateurs qui se sont connectés à Skype Entreprise Server pendant une période spécifiée (toutes les heures, tous les jours, toutes les semaines, tous les mois). N’oubliez pas que le rapport vous indique uniquement le nombre de personnes qui ont ouvert une session. Il ne vous apprend pas qui a ouvert une session. Les rapports de surveillance ne fournissent pas d’informations sur les utilisateurs spécifiques qui utilisent Skype Entreprise Server (et ceux qui ne le sont pas). Vous pouvez toutefois obtenir des informations approximatives sur les utilisateurs à l’aide du rapport d’activité de l’utilisateur.
   
 Lorsqu’il donne des informations sur les ouvertures de session d’utilisateurs, le rapport d’enregistrement de l’utilisateur établit deux distinctions importantes. Tout d’abord, il décompose les ouvertures de session en deux catégories principales : ouvertures de session internes et ouvertures de session externes. Les ouvertures de session internes représentent les utilisateurs qui ont ouvert une session à l’intérieur du pare-feu de votre organisation (c’est-à-dire tout en étant connecté au réseau d’entreprise). Les connexions externes représentent les utilisateurs qui se sont connectés à l’extérieur du pare-feu via un serveur Edge (par exemple, un utilisateur qui s’est connecté à partir d’un café Internet compte comme une connexion externe). Si vous devez connaître le nombre d’utilisateurs qui ouvrent une session à l’extérieur du pare-feu, le rapport d’enregistrement de l’utilisateur peut vous donner cette information.
   
@@ -44,7 +44,7 @@ Pour mieux expliquer la différence entre le nombre total d’ouvertures de sess
 |**Utilisateur**|**Date/heure d’ouverture de session**|
 |:-----|:-----|
 |Ken Myer  <br/> |7/7/2015 8:45  <br/> |
-|Ken Myer  <br/> |7/7/2015 8:46 AM  <br/> |
+|Ken Myer  <br/> |7/7/2015 8:46  <br/> |
 |Pilar Ackerman  <br/> |7/7/2015 9:17  <br/> |
 |Ken Myer  <br/> |7/7/2015 09:22  <br/> |
 |Pilar Ackerman  <br/> |7/7/2015 09:31  <br/> |
@@ -62,7 +62,7 @@ Si la commande précédente renvoie une valeur de 1 236 et que la mesure Utilisa
 > [!CAUTION]
 > Gardez à l’esprit que les mesures d’ouverture de session enregistrent les utilisateurs qui ont ouvert une session pendant la période spécifiée. Elles ne gardent pas trace des utilisateurs qui avaient déjà ouvert une session sur le système. Par exemple, si votre mesure Utilisateurs uniques par ouverture de session indique 667 ouvertures de session et que vous avez 1 236 utilisateurs, cela suggère qu’environ la moitié de vos utilisateurs ouvrent une session sur le système. Cependant, supposons que 300 utilisateurs avaient déjà ouvert une session sur le système au moment où vous avez commencé à regarder les données d’ouverture de session. Cela signifie que près de 1 000 utilisateurs se sont connectés à Skype Entreprise Server, ce qui signifie que près de 80 % de vos utilisateurs ont ouvert une session. 
   
-Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La mesure Utilisateurs actifs uniques vous indique le nombre d’utilisateurs uniques qui ont réellement utilisé des Skype Entreprise Server : ils ont effectué un appel téléphonique, rejoint une réunion Skype Entreprise Server ou ont participé à une session de messagerie instantanée. Il s’agit d’informations utiles, Skype Entreprise Server peuvent être configurées pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, vous pouvez avoir un grand nombre d’utilisateurs qui se connectent automatiquement à Skype Entreprise lorsqu’ils se connectent à Windows chaque jour, mais qui n’utilisent jamais réellement Skype Entreprise Server pendant cette période.
+Vous devez également comparer la valeur Utilisateurs uniques par ouverture de session avec la valeur de la mesure Utilisateurs actifs uniques. La mesure Utilisateurs actifs uniques vous indique le nombre d’utilisateurs uniques qui ont réellement utilisé des Skype Entreprise Server : ils ont effectué un appel téléphonique, rejoint une réunion Skype Entreprise Server ou ont participé à une session de messagerie instantanée. Il s’agit d’informations utiles, Skype Entreprise Server peuvent être configurées pour démarrer automatiquement chaque fois qu’un utilisateur démarre Windows. Pour cette raison, vous pouvez avoir un grand nombre d’utilisateurs qui se connectent automatiquement à Skype Entreprise lorsqu’ils se connectent à Windows chaque jour, mais n’utilisent jamais réellement Skype Entreprise Server pendant cette période.
   
 La mesure Utilisateurs actifs uniques fournit également des données plus significatives dans une organisation où les utilisateurs ne se déconnectent généralement Windows à la fin de la journée. Au lieu de cela, ils verrouillent simplement leurs ordinateurs et laissent Windows et Skype Entreprise en cours d’exécution. Dans ce cas, vous pouvez vous retrouver avec un nombre d’ouvertures de session par jour très restreint, car vos utilisateurs ont ouvert leur session plusieurs jours auparavant et ne l’ont jamais fermée. Toutefois, les utilisateurs actifs uniques vous indiquent si les utilisateurs utilisent activement Skype Entreprise ou un autre Skype Entreprise Server client.
   
@@ -74,7 +74,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres du rapport d’enregistrement de l’utilisateur**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -87,7 +87,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’en
   
 **Mesures du rapport d’enregistrement de l’utilisateur**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Toutes les heures** <br/> **Tous les jours** <br/> **Toutes les semaines** <br/> **Mensuelle** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
 |**Nombre total d’ouvertures de sessions** <br/> |Non  <br/> |Nombre total d’ouvertures de sessions réussies.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Planifier les déploiements de serveurs Edge dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Résumé : Planifiez votre environnement Skype Entreprise Server Edge. Cette rubrique présente les concepts Edge et vous permet de vous organiser avec nos rubriques plus détaillées.'
-ms.openlocfilehash: 9acdb42e4ebc46fd6597ab047ee523b0ff309fb5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad92c0d61381595ac2274bf52aa108efe5703a90
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602459"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746860"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planifier les déploiements de serveurs Edge dans Skype Entreprise Server
  
@@ -45,7 +45,7 @@ L’accès des utilisateurs externes, qui est fourni par les serveurs Edge, perm
     
 - Conférence web : vos utilisateurs externes autorisés peuvent participer à Skype Entreprise conférences. Vous pouvez également activer la participation pour les utilisateurs distants, les utilisateurs fédérés et les utilisateurs anonymes si vous le souhaitez. Les utilisateurs de messagerie instantanée publique ne peuvent pas participer à des conférences. Il existe également des options pour laisser ces utilisateurs participer au partage d’application et de bureau, et même agir en tant qu’organisateurs ou présentateurs de réunion.
     
-L’accès aux appareils mobiles est pris en charge, Voix Entreprise. Vous pouvez inviter des utilisateurs externes à participer à ces réunions, même anonymes, si vous souhaitez leur accorder des autorisations.
+L’accès aux appareils mobiles est pris en charge, Voix Entreprise. Vous pouvez inviter des utilisateurs externes à participer à ces réunions, même des utilisateurs anonymes, si vous souhaitez leur accorder des autorisations.
   
 Si cela ressemble à quelque chose dont votre organisation a besoin, la planification d’un environnement Edge sera très utile pour son déploiement. Pour plus d’informations, les rubriques ci-dessous sont répertoriées.
 
@@ -56,7 +56,7 @@ Si cela ressemble à quelque chose dont votre organisation a besoin, la planific
 
 Les articles de planification sont les suivants :
   
-- [Conditions requises pour le système du serveur Edge Skype Entreprise Server 2015](system-requirements.md)
+- [Système de serveur Edge requis dans Skype Entreprise Server 2015](system-requirements.md)
     
 - [Exigences environnementales du serveur Edge Skype Entreprise Server 2015](edge-environmental-requirements.md)
     

@@ -1,6 +1,6 @@
 ---
 title: Déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lisez cette rubrique pour plus d’informations sur la manière de déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365, où Teams, Skype Entreprise et Exchange sont tous les deux en ligne.
-ms.openlocfilehash: 91c6b1ecfa12e24daded5f821da44d72084aed72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d052683b1f393afd777f6e17a4b38b96f17d6b5a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615220"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741580"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
 
    - SuppressionSubject : $false (conserver l’objet des demandes de réunion entrantes).)
 
-   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.)
+   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.)
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
@@ -124,7 +124,7 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   Cet exemple définit le mot de passe du compte pour Rigel1@contoso.onmicrosoft.com à n’expirer jamais.
+   Cet exemple définit le mot de passe du compte Rigel1@contoso.onmicrosoft.com à n’expirer jamais.
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
@@ -149,7 +149,7 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
     > [!NOTE]
     > Si le mot de passe n’est pas réglé sur Jamais expirer, le compte ne se connecte plus sur l’appareil une fois la période d’expiration atteinte. Le mot de passe devra alors être modifié pour le compte et mis à jour localement sur l’appareil MTR.
 
-6. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ou Skype Entreprise ne fonctionne pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles pour Microsoft 365 ou Office 365 organisation comme suit :
+6. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ou Skype Entreprise ne fonctionne pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles pour votre organisation Microsoft 365 ou Office 365 organisation comme suit :
 
    ```Powershell
    Get-MsolAccountSku

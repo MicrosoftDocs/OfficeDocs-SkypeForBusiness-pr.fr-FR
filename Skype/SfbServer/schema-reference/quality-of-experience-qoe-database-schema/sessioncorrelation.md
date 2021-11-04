@@ -1,7 +1,7 @@
 ---
 title: Table SessionCorrelation
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: La table SessionCorrelation est une table de prise en charge. Chaque enregistrement représente un CorrelationID qui est utilisé pour corréler plusieurs sessions.
-ms.openlocfilehash: a0ec0a2e1435aab02ba1733530271b2ad648869e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3b0e3208ec019d205ab74fec8318e0221b70b8ea
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634118"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771850"
 ---
 # <a name="sessioncorrelation-table"></a>Table SessionCorrelation
  
 La table SessionCorrelation est une table de prise en charge. Chaque enregistrement représente un CorrelationID qui est utilisé pour corréler plusieurs sessions. 
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**Somme de contrôle** <br/> |int  <br/> |||
 |**CorrelationKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant ce serveur de conférence A/V.  <br/> |

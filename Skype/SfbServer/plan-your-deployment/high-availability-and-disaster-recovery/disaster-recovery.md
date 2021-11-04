@@ -1,7 +1,7 @@
 ---
 title: Récupération d’urgence du pool frontal dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Pour la récupération d’urgence, Skype Entreprise Server offre le jumelage de pool avec leover en cas de panne d’un pool.
-ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728833"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740430"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Récupération d’urgence du pool frontal dans Skype Entreprise Server
  
@@ -28,11 +28,11 @@ Pour les options de récupération d’urgence les plus robustes Skype Entrepris
   
 ![Affiche les pools frontux sur deux sites différents, associés l’un à l’autre.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
-Si le pool d’un site échoue, vous pouvez faire échouer les utilisateurs de ce pool vers le pool de l’autre site, qui sert ensuite tous les utilisateurs des deux pools. Pour la planification de la capacité, vous devez concevoir chaque pool pour gérer la charge de travail de tous les utilisateurs des deux pools en cas d’incident.
+Si le pool d’un site échoue, vous pouvez faire échouer les utilisateurs de ce pool vers le pool de l’autre site, qui sert ensuite tous les utilisateurs des deux pools. Pour la planification de la capacité, vous devez concevoir chaque pool pour être en mesure de gérer la charge de travail de tous les utilisateurs des deux pools en cas d’incident.
   
 Deux centres de données qui incluent des pools frontaux associés l’un à l’autre peuvent être séparés à n’importe quelle distance. Nous vous recommandons de coupler deux centres de données dans la même région du monde, avec des liens haut débit entre eux. 
   
-Il est possible d’avoir deux centres de données dans différentes régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence dans la réplication des données.
+Il est possible d’avoir deux centres de données dans différentes régions du monde, mais cela peut augmenter la perte de données en cas d’urgence, en raison de la latence de la réplication des données.
   
 Lorsque vous planifiez les pools à jumeler, vous devez garder à l’esprit que seuls les jumelages suivants sont pris en charge :
   
@@ -88,7 +88,7 @@ Bien que le risque d’attaques de l’intermédiaire au sein du réseau d’ent
 
 Vous avez plusieurs façons d’améliorer la protection de la sécurité pour le trafic du service de sauvegarde. Cela va de la restriction de l’accès aux centres de données à la sécurisation du transport WAN entre les deux centres de données. Dans la plupart des cas, les entreprises qui déploient Skype Entreprise Server ont peut-être déjà l’infrastructure de sécurité requise. Pour les entreprises qui recherchent des conseils, Microsoft fournit une solution qui illustre comment créer une infrastructure informatique sécurisée. Pour plus d’informations, voir [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) . 
   
-Nous ne voulons pas dire qu’il s’agit de la seule solution, ni qu’il s’agit de la solution préférée pour Skype Entreprise Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques, en fonction de leurs besoins et de leur infrastructure de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine.
+Nous ne voulons pas dire qu’il s’agit de la seule solution, ni qu’il s’agit de la solution préférée pour Skype Entreprise Server. Nous recommandons aux clients d’entreprise de choisir la solution qui répond à leurs besoins spécifiques, en fonction de leur infrastructure et de leurs exigences en matière de sécurité informatique. L’exemple de solution Microsoft utilise IPSec et la stratégie de groupe pour l’isolation de serveur et de domaine.
   
 Une autre solution possible consiste à utiliser IPSec uniquement pour sécuriser les données envoyées par le service de sauvegarde lui-même. Si vous choisissez cette méthode, vous devez configurer les règles IPSec pour le protocole SMB pour les serveurs suivants, où le pool A et le pool B sont deux pools frontaux couplés.
   

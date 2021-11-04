@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue des jonctions
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Cliquez avec le bouton droit sur Trunks dans le Générateur de topologie pour effectuer les choses suivantes :'
-ms.openlocfilehash: d9fbd8b8eef0a06cc510808966af36a9c7566d50
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e1bdae7079807a842342cecb59748dd3c0cc0764
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731493"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747408"
 ---
 # <a name="trunks-scope-node"></a>Nœud d’étendue des jonctions
  

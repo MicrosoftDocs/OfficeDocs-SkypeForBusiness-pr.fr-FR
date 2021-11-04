@@ -1,7 +1,7 @@
 ---
 title: API de données pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Résumé : Découvrez l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 2497b978944ec860d7188560ecaf72091df3f626
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a305ce3c6b4a1bbfcc0fbdedbb575477f76d62c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586916"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742040"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de données pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server
  
@@ -38,13 +38,13 @@ Les opérations REST sont incluses dans le tableau suivant.
 |[Obtenir un cube](get-cube.md) <br/> |Obtenir la liste des dimensions et mesures disponibles.  <br/> |
 |[Obtenir les membres de dimension](get-dimension-members.md) <br/> |L’opération Obtenir les membres de dimension renvoie la liste des membres d’une dimension spécifique. Il permet également de filtrer la liste des membres et d’obtenir un sous-ensemble, afin de réduire le coût de transfert de câblage.  <br/> |
 |[Exécuter la requête](run-query.md) <br/> |L’opération Exécuter une requête permet d’exécuter une requête sur le cube en fonction des dimensions, mesures et filtres spécifiés et de renvoyer les données.  <br/> |
-|[Vider le cache](clear-cache.md) <br/> |L’opération Effacer le cache supprime le cache sur le serveur pour les requêtes et les données. Cela réinitialise le cache et nous allons obtenir des données à jour à partir du cube QoE par la suite pour les nouvelles demandes.  <br/> |
+|[Vider le cache](clear-cache.md) <br/> |L’opération Effacer le cache supprime le cache sur le serveur pour les requêtes et les données. Cela réinitialise le cache et nous recevons des données à jour à partir du cube QoE par la suite pour les nouvelles demandes.  <br/> |
 |[Obtenir le journal d’intégration](get-integration-log.md) <br/> |L’opération Obtenir le journal d’intégration renvoie une liste d’entrées de journal décrivant les activités dans le traitement du cube QoE.  <br/> |
 |[Obtenir les données de la dernière intégration](get-last-integration-data.md) <br/> |Obtenez les dernières données d’intégration à partir du cube.  <br/> |
    
  **Prise en charge du partage de ressources d’origine croisée (CORS) pour l’API de données**
   
-L’API de données prend en charge le partage de ressources d’origine croisée (CORS). CORS est une fonctionnalité HTTP qui permet à une application web s’exécutant sous un domaine d’accéder aux ressources d’un autre domaine. Les navigateurs web implémentent une restriction de sécurité appelée stratégie de même origine qui empêche une page web d’appeler des API dans un autre domaine. [](https://www.w3.org/Security/wiki/Same_Origin_Policy) CORS offre un moyen sécurisé d’autoriser un domaine (le domaine d’origine) à appeler des API dans un autre domaine. Pour plus [d’informations sur CORS,](https://www.w3.org/TR/cors/) voir la spécification CORS.
+L’API de données prend en charge le partage de ressources d’origine croisée (CORS). CORS est une fonctionnalité HTTP qui permet à une application web s’exécutant sous un domaine d’accéder aux ressources d’un autre domaine. Les navigateurs web implémentent une restriction de sécurité appelée stratégie d’origine identique qui empêche une page web d’appeler des API dans un autre domaine. [](https://www.w3.org/Security/wiki/Same_Origin_Policy) CORS offre un moyen sécurisé d’autoriser un domaine (le domaine d’origine) à appeler des API dans un autre domaine. Pour plus [d’informations sur CORS,](https://www.w3.org/TR/cors/) voir la spécification CORS.
   
  **Activation de CORS pour l’API de données**
   

@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue des composants partagés
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
-description: Cliquez avec le bouton droit sur Composants partagés dans l’arborescence de la hiérarchie du Générateur de topologie pour créer des composants partagés ou accéder aux options de niveau topologie.
-ms.openlocfilehash: 9090ced9082a989fdb2894b94b6ce4caf1609937
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Cliquez avec le bouton droit sur Composants partagés dans l’arborescence de la hiérarchie du Générateur de topologies pour créer des composants partagés ou accéder aux options de niveau topologie.
+ms.openlocfilehash: 770db8099e670837343b7925d5bfd8a6eca29628
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726003"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740660"
 ---
 # <a name="shared-components-scope-node"></a>Nœud d’étendue des composants partagés
  
@@ -35,7 +35,7 @@ Sélectionnez **Nouveau** pour créer un magasin de fichiers, une passerelle IP/
   
 ![Nœud d’étendue des composants partagés.](../../media/Shared_Components_Scope_NodeB.jpg)
   
-Vous **sélectionnez Topologie pour** cliquer sur les options d’ouverture d’un document nouvelle topologie. Ouvrez un document de topologie existant, téléchargez la topologie actuelle à partir du magasin central de gestion, enregistrez une copie du document de topologie actuel, publiez le document de topologie actuel, installez la base de données pour créer les configurations de base de données actuellement configurées, fusionnez Office Communications Server 2007 R2 dans le déploiement actuel ou supprimez le déploiement.
+Vous **sélectionnez Topologie** pour cliquer sur les options d’ouverture d’un document nouvelle topologie. Ouvrez un document de topologie existant, téléchargez la topologie actuelle à partir du magasin central de gestion, enregistrez une copie du document de topologie actuel, publiez le document de topologie actuel, installez la base de données pour créer les configurations de base de données actuellement configurées, fusionnez Office Communications Server 2007 R2 dans le déploiement actuel ou supprimez le déploiement.
   
 ![Nœud d’étendue des composants partagés C.](../../media/Shared_Components_Scope_NodeC.jpg)
   

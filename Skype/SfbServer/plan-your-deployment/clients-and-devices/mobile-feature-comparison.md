@@ -1,6 +1,6 @@
 ---
-title: Comparaison des fonctionnalités du client mobile pour Skype Entreprise
-ms.author: v-cichur
+title: Comparaison des fonctionnalités des clients mobiles pour Skype Entreprise
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,14 +17,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Résumé : Examinez la prise en charge des fonctionnalités pour le client mobile lors de la planification de Skype Entreprise Server.'
-ms.openlocfilehash: 576947499c506052c5204d4826489ae9a2a60037
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b619219666a89e40870caf4cea80a683011775c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614124"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759566"
 ---
-# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités du client mobile pour Skype Entreprise
+# <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparaison des fonctionnalités des clients mobiles pour Skype Entreprise
  
 **Résumé :** Examinez la prise en charge des fonctionnalités pour le client mobile lors de la planification de Skype Entreprise Server.
   
@@ -53,7 +53,7 @@ Cet article compare les fonctionnalités entre Skype Entreprise clients mobiles 
 Les tableaux suivants listent les fonctionnalités disponibles Skype Entreprise utilisateurs dans un déploiement local de Skype Entreprise Server. Les mêmes fonctionnalités sont également disponibles pour Skype Entreprise Online et Microsoft 365 ou Office 365 utilisateurs, sauf indication contraire dans les notes de bas de page du tableau.
   
 > [!NOTE]
-> Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, [voir Découvrir Skype Entreprise](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
+> Pour obtenir de l’aide et des ressources en ligne pour les utilisateurs finaux, voir [Découvrir Skype Entreprise](https://go.microsoft.com/fwlink/p/?LinkId=528686). 
   
 > [!NOTE]
 > Pour comparer les fonctionnalités disponibles dans d’Skype Entreprise clients de bureau, voir comparaison des fonctionnalités du client de bureau [pour Skype Entreprise](desktop-feature-comparison.md). 
@@ -125,7 +125,7 @@ Sur les appareils iOS, Skype Entreprise se connecte automatiquement lorsque le c
 |Afficher ou masquer les photos des contacts  <br/> |&#x2714;|&#x2714;|||
 |Épingler un contact à votre écran d’accueil  <br/> ||&#x2714;|||
    
- &#x2776; n’est pas disponible pour Skype Entreprise Online et/ou Microsoft 365 ou Office 365 utilisateurs.
+ &#x2776; n’est pas disponible pour Skype Entreprise en ligne et/ou Microsoft 365 ou Office 365 utilisateurs.
   
 ## <a name="instant-messaging-support"></a>Prise en charge de la messagerie instantanée
 
@@ -206,7 +206,7 @@ Sur les appareils iOS, Skype Entreprise se connecte automatiquement lorsque le c
 |accéder à sa messagerie vocale ;  <br/> |&#x2714;|&#x2714;|&#x2714;||
 |Utiliser le clavier dans Skype Entreprise  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
- &#x2776; disponible pour les utilisateurs Skype Entreprise Online et/ou Office 365 E5 et les utilisateurs Skype Entreprise Server ou Lync Server 2013 Voix Entreprise activés.
+ &#x2776; disponible pour les utilisateurs Skype Entreprise Online et/ou Office 365 E5 et les utilisateurs Skype Entreprise Server ou Lync Server 2013 avec l’Voix Entreprise activée.
   
  &#x2777; pour Skype Entreprise Online et/ou Microsoft 365 ou Office 365 utilisateurs, cette fonctionnalité est prise en charge par les partenaires Microsoft.
   
@@ -221,7 +221,7 @@ Sur les appareils iOS, Skype Entreprise se connecte automatiquement lorsque le c
 |Démarrer une conversation par messagerie instantanée avec un contact fédéré  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Mener des appels à deux avec des utilisateurs externes  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Mener des appels à plusieurs avec des utilisateurs externes  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Utiliser l’appel via le lieu de travail pour joindre un contact fédéré sur son téléphone mobile en appelant son numéro de travail publié &#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
+|Utiliser l’appel via le travail pour joindre un contact fédéré sur son téléphone mobile en appelant son numéro de travail publié &#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
    
  &#x2776; par défaut, le niveau de confidentialité Contacts externes est affecté aux utilisateurs fédérés. Pour pouvoir joindre un contact fédéré sur son téléphone mobile en appelant son numéro de travail publié, le contact fédéré doit vous affecter manuellement le niveau de confidentialité Collègues.
   
@@ -241,13 +241,13 @@ Sur les appareils iOS, Skype Entreprise se connecte automatiquement lorsque le c
 |Fournir l’archivage côté client  <br/> |&#x2714;||||
 |Fournir l’enregistrement côté client  <br/> |&#x2714; &#x2776; ||||
    
- &#x2776; n’est pas disponible pour Skype Entreprise Online et/ou Microsoft 365 ou Office 365 utilisateurs.
+ &#x2776; n’est pas disponible pour Skype Entreprise en ligne et/ou Microsoft 365 ou Office 365 utilisateurs.
   
 ## <a name="modern-authentication"></a>Authentification moderne
 
 Ce tableau couvre les fonctionnalités nécessitant la prise en charge de l’authentification moderne.
   
-L’authentification moderne nécessite également une topologie décrite dans [Skype Entreprise topologies pris en charge avec l’authentification moderne.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
+L’authentification moderne nécessite également une topologie décrite [dans Skype Entreprise topologies pris en charge avec l’authentification moderne.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
   
 
  | Fonctionnalité/fonctionnalité  | Skype Entreprise client de bureau  | Windows Phone  | iOS  | Android |

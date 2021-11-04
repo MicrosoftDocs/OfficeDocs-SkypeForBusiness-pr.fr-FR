@@ -1,7 +1,7 @@
 ---
 title: Configurer l’intégration avec Office Web Apps Server dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’intégration entre Office Web Apps Server et Skype Entreprise Server pour activer les présentations PowerPoint pour les conférences web.'
-ms.openlocfilehash: 753ab05e533d77311c9910cb26fe7980b83b1a36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27f5010b0e95ce7a84847ca52747f581697bde9c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595998"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740120"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurer l’intégration avec Office Web Apps Server dans Skype Entreprise Server
  
@@ -72,7 +72,7 @@ Si vous souhaitez que les utilisateurs externes (c’est-à-dire, les utilisateu
   
 ## <a name="validate-the-configuration"></a>Valider la configuration
 
-Une fois Office Web Apps Server a été ajouté à la topologie et une fois cette topologie publiée, vous devez voir deux nouveaux événements de journal des événements dans le journal des événements Skype Entreprise Server. Tout d’abord, un événement LS Data MCU (ID d’événement 41034) doit être ajouté ; Cet événement signale que l’Office Web Apps Server a été découvert :
+Une fois Office Web Apps Server a été ajouté à la topologie et une fois cette topologie publiée, vous devez voir deux nouveaux événements de journal des événements dans le journal des événements Skype Entreprise Server. Tout d’abord, un événement LS Data MCU (ID d’événement 41034) doit être ajouté . Cet événement signale que l’Office Web Apps Server a été découvert :
   
  **Le serveur de conférence web Office Web Apps Server est découvert, PowerPoint contenu est activé.**
   
@@ -90,7 +90,7 @@ Si vous avez configuré l’accès pour les utilisateurs externes, vous verrez �
   
  **Office Page du participant interne Web Apps Server : <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> ;**
   
-Si un événement LS Data MCU ayant l’ID d’événement 41033 s’affiche, cela signifie que la découverte d’Office Web Apps Server na pas fonctionné. Dans ce cas, Skype Entreprise Server essaiera autant de fois que nécessaire de découvrir le serveur Web Apps server Office nouvellement configuré. Si le processus de découverte ne fonctionne pas à chaque essai, nous vous conseillons de supprimer Office Web Apps Server de votre document de topologie, de publier la topologie mise à niveau, puis d’essayer de rajouter Office Web Apps Server à votre topologie une fois les problèmes de topologie résolus.
+Si un événement LS Data MCU ayant l’ID d’événement 41033 s’affiche, cela signifie que la découverte d’Office Web Apps Server na pas fonctionné. Dans ce cas, Skype Entreprise Server essaiera autant de fois que nécessaire de découvrir le serveur Web Apps Server Office nouvellement configuré. Si le processus de découverte ne fonctionne pas à chaque essai, nous vous conseillons de supprimer Office Web Apps Server de votre document de topologie, de publier la topologie mise à niveau, puis d’essayer de rajouter Office Web Apps Server à votre topologie une fois les problèmes de topologie résolus.
   
 Si Office Web Apps Server semble configuré correctement et a été reconnu par le processus de découverte, vous pouvez vérifier que Office Web Apps Server fonctionne comme prévu en partageant une présentation PowerPoint entre deux clients Skype Entreprise. Si l’utilisateur A peut charger et afficher la présentation PowerPoint et si l’utilisateur B peut ensuite rejoindre la réunion et consulter la présentation, alors Office Web Apps Server fonctionne correctement.
   

@@ -1,7 +1,7 @@
 ---
 title: Affichage ClientVersions
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: L’affichage ClientVersions stocke des informations sur les différents types et versions de clients qui ont participé à des sessions enregistrées dans la base de données. Chaque enregistrement de l’affichage représente une version du client. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: bb17827f018919ba7b6088da884904a959bd6398
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 91f206a482803cbecd2704638cffdff1aec5c8c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593478"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740310"
 ---
 # <a name="clientversions-view"></a>Affichage ClientVersions
  
@@ -27,7 +27,7 @@ L’affichage ClientVersions stocke des informations sur les différents types e
 > [!NOTE]
 > Il peut y avoir plusieurs enregistrements pour certaines colonnes. 
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**VersionId** <br/> |int  <br/> |Numéro unique identifiant le type et la version de ce client.  <br/> |
 |**Version** <br/> |nvarchar(256)  <br/> |Représente l’agent utilisateur.  <br/> |

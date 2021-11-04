@@ -1,7 +1,7 @@
 ---
 title: Rapport d’inventaire Téléphone IP dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Résumé : Découvrez le rapport d’inventaire des Téléphone IP dans Skype Entreprise Server.'
-ms.openlocfilehash: 00677d5ed31303cd87df6547d2cab99323f6ed53
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7c3854148c9eb04268c5a3491a6efb00168e5544
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630588"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740550"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Rapport d’inventaire Téléphone IP dans Skype Entreprise Server
  
@@ -95,7 +95,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres de rapport d’inventaire de téléphonie IP**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines commencent le dimanche et se terminent le samedi.  <br/> |
@@ -103,8 +103,8 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
 |**Version du matériel** <br/> |Numéro de version du téléphone IP ; les filtres Fabricant et Version du matériel vous permettent d’identifier de manière unique un type de téléphone particulier. Les valeurs pour ce filtre sont remplies automatiquement pour vous en fonction des téléphones IP actuellement présents dans la base de données.  <br/> |
 |**Agent utilisateur** <br/> |Identifiant du logiciel utilisé par le téléphone IP. Les valeurs pour ce filtre sont remplies automatiquement pour vous en fonction des téléphones IP actuellement présents dans la base de données.  <br/> |
 |**Adresse MAC** <br/> |Identifiant unique de l’interface réseau sur le téléphone IP. L’adresse MAC (Media Access Control) est généralement assignée lors de la fabrication du téléphone ; elle est codée en dur dans le matériel du périphérique.  <br/> Pour rechercher des enregistrements associés à une adresse MAC spécifique, il vous suffit d’entrer cette adresse. Par exemple :  <br/> 00-08-5D-16-16-48  <br/> Vous devez entrer l’adresse complète. Une adresse partielle (par exemple 00-08-5D) ne renvoie aucune donnée.  <br/> |
-|**Dernière activité avant les jours** <br/> | Sélectionnez l’une des valeurs suivantes : <br/>  [Tous] <br/>  10  <br/>  20 <br/>  30 <br/> |
-|**Heure de la dernière fermeture de session avant les jours** <br/> | Sélectionnez l’une des valeurs suivantes : <br/>  [Tous] <br/>  10  <br/>  20 <br/>  30 <br/> |
+|**Dernière activité avant les jours** <br/> | Sélectionnez l’une des valeurs suivantes : <br/>  [Tous] <br/>  10 <br/>  20 <br/>  30 <br/> |
+|**Heure de la dernière fermeture de session avant les jours** <br/> | Sélectionnez l’une des valeurs suivantes : <br/>  [Tous] <br/>  10 <br/>  20 <br/>  30 <br/> |
 |**Préfixe URI de l’utilisateur** <br/> |Adresse SIP de l’utilisateur qui a utilisé le téléphone IP.  <br/> |
    
 ## <a name="metrics"></a>Mesures
@@ -113,7 +113,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport d’in
   
 **Mesures du rapport d’inventaire de téléphonie IP**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Fabricant** <br/> |Oui  <br/> |Nom de la société ayant fabriqué le téléphone IP.  <br/> |
 |**Version du matériel** <br/> |Oui  <br/> |Numéro de version du téléphone IP.  <br/> |

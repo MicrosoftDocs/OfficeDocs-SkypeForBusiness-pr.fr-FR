@@ -1,7 +1,7 @@
 ---
 title: Table ConferenceSessionDetails dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Chaque enregistrement représente une session de conférence. Il peut s’agir de la session avec le service Focus ou de celle avec un serveur de conférence spécifique.
-ms.openlocfilehash: e64f1d93714a89c8140d4e8f55d6aab8076ed88c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 087dd056dae0041ab63934b25038672a74410343
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615550"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759446"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Table ConferenceSessionDetails dans Skype Entreprise Server 2015
  
 Chaque enregistrement représente une session de conférence. Il peut s’agir de la session avec le service Focus ou de celle avec un serveur de conférence spécifique.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |Datetime  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session ; utilisée conjointement avec **SessionIdSeq** pour identifier de manière unique une session de conférence. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’ID pour identifier la session. Utilisé conjointement avec **SessionIdTime pour** identifier de manière unique une session de conférence. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) * <br/> |

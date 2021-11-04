@@ -1,7 +1,7 @@
 ---
 title: Configurer une application partenaire sur site pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Résumé : Configurez une application partenaire sur site pour Skype Entreprise Server.'
-ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 65e5d32787b13043d30b6cb03a7d9cdbc047c46a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012618"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772120"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurer une application partenaire sur site pour Skype Entreprise Server
  
@@ -88,7 +88,7 @@ Le paramètre Realm n’étant pas utilisé lors de l’appel de Set-CsOAuthConf
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-Après avoir apporté ces modifications, vous pouvez exécuter le script et configurer Exchange 2013 et SharePoint en tant qu’applications partenaires en exécutant le fichier de script à partir de Skype Entreprise Server Management Shell. Par exemple :
+Après avoir apporté ces modifications, vous pouvez exécuter le script et configurer Exchange 2013 et SharePoint en tant qu’applications partenaires, en exécutant le fichier de script à partir de Skype Entreprise Server Management Shell. Par exemple :
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1
@@ -106,7 +106,7 @@ Si vous recevez ce message d’erreur, de deux choses l’une : soit l’une de
   
 Après avoir créé l’application partenaire pour Skype Entreprise Server vous devez ensuite configurer Skype Entreprise Server en tant qu’application partenaire pour Exchange 2013. Vous pouvez configurer des applications partenaires pour Exchange 2013 en exécutant le script Configure-EnterprisePartnerApplication.ps1 ; Il vous suffit de spécifier l’URL des métadonnées pour Skype Entreprise Server et d’indiquer Skype Entreprise Server est la nouvelle application partenaire. 
   
-Pour configurer Skype Entreprise Server en tant qu’application partenaire pour Exchange, ouvrez Exchange Management Shell et exécutez une commande semblable à celle-ci.
+Pour configurer Skype Entreprise Server en tant qu’application partenaire pour Exchange, ouvrez Exchange Management Shell et exécutez une commande semblable à celle-ci
   
 ```PowerShell
 "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://SkypePro.contoso.com/metadata/json/1" -ApplicationType "Lync"

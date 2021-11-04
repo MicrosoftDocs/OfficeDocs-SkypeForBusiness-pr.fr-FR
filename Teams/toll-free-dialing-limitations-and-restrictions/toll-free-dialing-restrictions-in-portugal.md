@@ -1,6 +1,6 @@
 ---
 title: Restrictions de numérotation gratuit au Portugal
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays/région pour composer le numéro gratuit.
-ms.openlocfilehash: 8a0a09b55aa4bf133b78bd173bbef908c8785070
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31535bb8ecd578edde90c133c88031d42f61e027
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603217"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740190"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Restrictions de numérotation gratuit au Portugal
 
@@ -45,7 +45,7 @@ ms.locfileid: "58603217"
 |Disponibilité de réseau mobile  <br/> |Oui. Disponible à tarif surtaxé  <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
    
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

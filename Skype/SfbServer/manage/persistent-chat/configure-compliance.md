@@ -1,7 +1,7 @@
 ---
 title: Configurer le service de conformité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Résumé : Découvrez comment configurer le service de conformité du serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602519"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778314"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurer le service de conformité pour le serveur de conversation permanente dans Skype Entreprise Server 2015
 
@@ -45,7 +45,7 @@ Ces informations peuvent être récupérées à partir de la base de données de
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurer le service de conformité à l’aide de Windows PowerShell
 
-Une fois que le service de conformité a été activé à l’aide du Générateur de topologie, vous pouvez configurer le service à l’aide de l’cmdlet **Set-CsPersistenChatComplianceConfiguration** :
+Une fois que le service de conformité a été activé à l’aide du Générateur de topologie, vous pouvez configurer le service à l’aide de l';; 
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
@@ -138,7 +138,7 @@ Le tableau suivant décrit les attributs de message Type, Content et ID.
 
 |**Attribut**|**Description**|**Facultatif/Obligatoire**|
 |:-----|:-----|:-----|
-|Type  <br/> |Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.  <br/> |Obligatoire  <br/> |
+|Type  <br/> |Spécifie le type de message. Les types de message sont décrits dans la table Éléments de message Types de message.  <br/> |Requis  <br/> |
 |Contenu  <br/> |Contient le contenu du message. Les messages de type Join ou Part n’utilisent pas cet attribut.  <br/> |Facultatif  <br/> |
 |ID  <br/> |Spécifie l’ID unique du contenu. Cet attribut est utilisé uniquement avec les messages de type Chat.  <br/> |Facultatif  <br/> |
 
@@ -149,10 +149,10 @@ Chaque élément Sender contient cinq attributs : username, ID, email, internal
 |**Attribut**|**Description**|**Facultatif/Obligatoire**|
 |:-----|:-----|:-----|
 |Nom d’utilisateur  <br/> |Nom de l’expéditeur.  <br/> |Facultatif  <br/> |
-|ID  <br/> |ID unique de l’expéditeur.  <br/> |Obligatoire  <br/> |
+|ID  <br/> |ID unique de l’expéditeur.  <br/> |Requis  <br/> |
 |E-mail  <br/> |Adresse e-mail de l’expéditeur.  <br/> |Facultatif  <br/> |
 |Interne  <br/> |Détermine si l’utilisateur est un utilisateur interne ou fédéré. Si la valeur est Vraie, l’utilisateur est interne.  <br/> |Facultatif  <br/> |
-|Uri  <br/> |URI SIP de l’utilisateur.  <br/> |Obligatoire  <br/> |
+|Uri  <br/> |URI SIP de l’utilisateur.  <br/> |Requis  <br/> |
 
 Les exemples suivants montrent les types de messages que l’élément Messages peut contenir. Elle fournit également des exemples de la manière avec laquelle chaque élément est utilisé.
 

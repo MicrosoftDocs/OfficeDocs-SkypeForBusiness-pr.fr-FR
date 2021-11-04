@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres du magasin de fichiers
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d316ae0-2a37-48b0-a3dc-468616ab4135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les propriétés des magasins de fichiers définis :'
-ms.openlocfilehash: ffa774ae6cab3ec681c0a7e228f92a6eb0db9a50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78ac3a49221a90df966785d995d51163a5450150
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628986"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752493"
 ---
 # <a name="file-store-settings-expander"></a>Expandeur des paramètres du magasin de fichiers
  

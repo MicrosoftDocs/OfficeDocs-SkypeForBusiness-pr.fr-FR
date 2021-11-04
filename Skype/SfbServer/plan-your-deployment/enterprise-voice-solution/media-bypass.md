@@ -1,7 +1,7 @@
 ---
 title: Planifier le contournement de média dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Décisions nécessaires à la planification du contournement de média dans Skype Entreprise Server Voix Entreprise. Inclut l’interopérabilité avec le contrôle d’admission des appels (CAC).
-ms.openlocfilehash: b931d2415e0ac7563735181e76f539723330fe92
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef06cd7e97623024ab921bf71a006645d1d97a07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733143"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759526"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planifier le contournement de média dans Skype Entreprise
 
@@ -92,7 +92,7 @@ Le contournement de média et le contrôle d’admission des appels (CAC) foncti
 
 - Le cac et le contournement de média sont tous deux activés. La déviation du média doit être définie pour **utiliser les informations de site et de région.** Ces informations de site et de région sont identiques à celles utilisées pour le cac.
 
-    Si vous activez le service Cac, vous ne pouvez pas sélectionner **Always Bypass** et vice-versa, car les deux configurations s’excluent mutuellement. Autrement dit, une seule des deux s’applique à un appel PSTN donné. Tout d’abord, une vérification est réalisée pour déterminer si la déviation du média s’applique à l’appel. Si c’est le cas, le cac n’est pas utilisé. Cela est logique, car si un appel est éligible pour le contournement, il utilise par définition une connexion où le cac n’est pas nécessaire. Si le contournement ne peut pas être appliqué à l’appel (c’est-à-dire, si les ID de contournement du client et de la passerelle ne correspondent pas), le service Cac est appliqué à l’appel.
+    Si vous activez le service Cac, vous ne pouvez pas sélectionner **Always Bypass** et vice-versa, car les deux configurations s’excluent mutuellement. Autrement dit, une seule des deux s’applique à un appel PSTN donné. Tout d’abord, une vérification est réalisée pour déterminer si la déviation du média s’applique à l’appel. Si c’est le cas, le cac n’est pas utilisé. Cela est logique, car si un appel est éligible pour le contournement, il s’agit par définition d’utiliser une connexion où le cac n’est pas nécessaire. Si le contournement ne peut pas être appliqué à l’appel (c’est-à-dire, si les ID de contournement du client et de la passerelle ne correspondent pas), le service Cac est appliqué à l’appel.
 
 - Cac not enabled and Media Bypass set to **Always Bypass**.
 
@@ -100,7 +100,7 @@ Le contournement de média et le contrôle d’admission des appels (CAC) foncti
 
 - Cac not enabled and Media Bypass set to **Use Site and Region Information**.
 
-    Lorsque **l’utilisation des informations** de site et de région est activée, la détermination du contournement fonctionne essentiellement de la même manière, que le service Cac soit activé ou non. Autrement dit, pour tout appel PSTN donné, le sous-réseau du client est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. De même, le sous-réseau de la passerelle est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. Ce n’est que si les deux ID de contournement sont identiques que le contournement se produit pour l’appel. S’ils ne sont pas identiques, le contournement de média ne se produit pas.
+    Lorsque **l’utilisation des informations** de site et de région est activée, la détermination du contournement fonctionne essentiellement de la même manière, que le service CAC soit activé ou non. Autrement dit, pour tout appel PSTN donné, le sous-réseau du client est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. De même, le sous-réseau de la passerelle est mappé à un site particulier et l’ID de contournement de ce sous-réseau est extrait. Ce n’est que si les deux ID de contournement sont identiques que le contournement se produit pour l’appel. S’ils ne sont pas identiques, le contournement de média ne se produit pas.
 
     Même si le contrôle d’accès au client est désactivé globalement, une stratégie de bande passante doit être définie pour chaque site et lien si vous souhaitez utiliser la configuration de site et de région pour contrôler la décision de contournement. La valeur réelle de la contrainte de bande passante ou de sa modalité n’a pas d’importance. L’objectif final est que le système calcule automatiquement différents ID de contournement à associer à différents paramètres régionaux qui ne sont pas bien connectés. La définition d’une contrainte de bande passante par définition signifie qu’un lien n’est pas bien connecté.
 

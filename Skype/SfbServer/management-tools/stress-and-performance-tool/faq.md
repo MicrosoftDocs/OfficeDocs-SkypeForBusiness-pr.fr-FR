@@ -1,7 +1,7 @@
 ---
-title: FAQ sur l Skype Entreprise Server 2015 Stress and Performance Tool
+title: FAQ sur l’outil Skype Entreprise Server stress and performance 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 11/11/2015
 manager: serdars
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype Entreprise 2015 stress and performance tool frequently asked questions (FAQ), useful for finding out what tool configurations are supported, troubleshooting tool issues, and clarifieing comportements you may see when running the Stress and Performance tools.
-ms.openlocfilehash: 42fdf53965e190e98e716df0780eac04565d0767
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a922293b4e8b938d6ed9c1d3f763a47b70a5c6c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611933"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771940"
 ---
-# <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>FAQ sur l Skype Entreprise Server 2015 Stress and Performance Tool
+# <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>FAQ sur l’outil Skype Entreprise Server stress and performance 2015
  
 Skype Entreprise 2015 stress and performance tool frequently asked questions (FAQ), useful for finding out what tool configurations are supported, troubleshooting tool issues, and clarifieing comportements you may see when running the Stress and Performance tools.
   
- Ce FAQ couvre certaines des questions les plus fréquemment posées sur l’outil stress and performance Skype Entreprise Server 2015, et peut vous aider à résoudre les problèmes et à choisir la configuration des outils.
+ Ce FAQ traite de certaines des questions les plus fréquemment posées sur l’outil stress and performance Skype Entreprise Server 2015, et peut vous aider à résoudre les problèmes et à choisir la configuration des outils.
   
 ## <a name="can-i-run-lyncperftoolexe-in-production"></a>Puis-je exécuter LyncPerfTool.exe production ?
 
@@ -33,7 +33,7 @@ Cela **n’est** pas recommandé. L’outil aura un impact sur les performances,
   
 ## <a name="im-logging-my-users-on-for-the-first-time-why-are-my-servers-running-a-high-load"></a>Je connecte mes utilisateurs pour la première fois. Pourquoi mes serveurs exécutent-ils une charge élevée ?
 
-La première fois que les utilisateurs se connectent, des opérations supplémentaires se produisent en arrière-plan. Par conséquent, les performances du serveur Microsoft SQL Server principal peuvent être dégradées. Il est recommandé d’exécuter un court test qui connecte tous vos utilisateurs, puis de redémarrer les clients avant de commencer à mesurer les résultats avec l’outil. Skype Entreprise Server ne prend pas en charge plus de 12 sessions d’ouverture de session utilisateur simultanées par seconde, mais sachez que le nombre réel qui peut être géré par vos serveurs dépend de votre configuration matérielle et peut être inférieur à la valeur prise en charge.
+La première fois que les utilisateurs se connectent, des opérations supplémentaires se produisent en arrière-plan. Par conséquent, les performances du serveur Microsoft SQL Server principal peuvent être dégradées. Il est recommandé d’exécuter un test court qui connecte tous vos utilisateurs, puis de redémarrer les clients avant de commencer à mesurer les résultats avec l’outil. Skype Entreprise Server ne prend pas en charge plus de 12 sessions d’ouverture de session utilisateur simultanées par seconde, mais sachez que le nombre réel qui peut être géré par vos serveurs dépend de votre configuration matérielle et peut être inférieur à la valeur prise en charge.
   
 ## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>Mes clients sont à court de mémoire ! Que dois-je faire ?
 
@@ -41,7 +41,7 @@ Si les clients sont à court de mémoire, vous devez réduire le nombre d’util
   
 ## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>Puis-je exécuter cet outil sur un serveur Skype Entreprise, lui-même ?
 
-Vous ne devez pas le faire. Ce scénario n’est pas pris en charge car il peut échouer en raison d’une insaluration binaire, et aussi parce que l’objectif est de mesurer la consommation des ressources sur le serveur. En fait, l’exécution de l’outil aurait un impact sur les performances du serveur et invaliderait vos données et mesures.
+Vous ne devez pas le faire. Ce scénario n’est pas pris en charge car il peut échouer en raison d’une insaluration binaire, et aussi parce que l’objectif est de mesurer la consommation des ressources sur le serveur. En réalité, l’exécution de l’outil aurait un impact sur les performances du serveur et invaliderait vos données et mesures.
   
 ## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Puis-je LyncPerfTool.exe sur un serveur virtuel ou sur Microsoft Hyper-V Server 2008/2012 ?
 

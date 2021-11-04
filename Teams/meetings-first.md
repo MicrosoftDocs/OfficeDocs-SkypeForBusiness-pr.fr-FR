@@ -1,7 +1,7 @@
 ---
 title: Réunion en premier - Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f2bb9cc09625bcaaa27115745f19efbcaa14f7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2aafa115d6da600df17ac18e4b1af66358efb16b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728403"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741640"
 ---
 # <a name="meetings-first"></a>Commencer par les réunions
 
@@ -107,7 +107,7 @@ Pour que vos utilisateurs offrent la meilleure expérience possible lors Teams r
 
 Une fois que vous avez autorisé vos utilisateurs et préparé votre organisation pour Teams réunions, il est temps d’activer d’abord vos utilisateurs pour les réunions. Nous avons fait en sorte que tout soit facile : un seul paramètre vous permettra d’y voir plus facilement.
 
-Toutes les fonctionnalités et expériences utilisateur dans Les réunions [](teams-client-experience-and-conformance-to-coexistence-modes.md) tout d’abord, y compris la configuration du client Teams et la conformité automatique de l’expérience utilisateur, le service de migration de réunions et les fonctionnalités Better Together, sont configurées en octroyant à l’utilisateur (ou au groupe d’utilisateurs ou au client par défaut) le mode de [coexistence SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) dans le Centre d’administration [Microsoft Teams](manage-teams-in-modern-portal.md) ou à l’aide de [PowerShell.](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+Toutes les fonctionnalités et les expériences utilisateur dans Les [](teams-client-experience-and-conformance-to-coexistence-modes.md) réunions tout d’abord, y compris la configuration du client Teams et la conformité automatique de l’expérience utilisateur, le service de migration de réunions et les fonctionnalités Better Together, sont configurées en octroyant à l’utilisateur (ou au groupe d’utilisateurs ou au client par défaut) le mode de [coexistence SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) dans le Centre d’administration [Microsoft Teams](manage-teams-in-modern-portal.md) ou à l’aide [de PowerShel l](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Capture d’écran des paramètres d’administration permettant d’activer tout d’abord les réunions.](media/teams-meeting-admin-settings.png)
 

@@ -1,7 +1,7 @@
 ---
 title: Gestion des profils de stratégie de bande passante réseau
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Utilisez les procédures de cet article pour afficher, créer, modifier ou supprimer des profils de stratégie de bande passante réseau.
-ms.openlocfilehash: f8a710dffce93c7dc3a0c54be1e3830ce87f41de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c109c5512bfc3e0876aef036b8bb645cd2791fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631618"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742120"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Gestion de profils de stratégie de bande passante réseau dans Skype Entreprise Server
 
@@ -41,7 +41,7 @@ La stratégie de bande passante utilisée dans le cadre du contrôle d’admissi
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de profil de stratégie de bande passante réseau à l’Windows PowerShell cmdlets
 
-Les profils de bande passante réseau peuvent être Windows PowerShell l’aide Get-CsNetworkBandwidthPolicyProfile cmdlet. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher les profils de bande passante réseau à l’Windows PowerShell l'Get-CsNetworkBandwidthPolicyProfile cmdlet. Cette cmdlet peut être exécuté à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>Pour afficher les informations de profil de stratégie de bande passante réseau

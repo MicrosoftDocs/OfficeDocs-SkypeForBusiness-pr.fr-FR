@@ -1,6 +1,6 @@
 ---
 title: Planifier l’expérience Skype Entreprise client 2015 pour vos utilisateurs
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,21 +16,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Résumé : Découvrez la nouvelle Skype Entreprise et les étapes à suivre pour préparer votre environnement et vos utilisateurs à la mise à jour, que vous utilisiez Skype Entreprise Online, Skype Entreprise Server 2019, Skype Entreprise Server 2015, Lync Server 2013 ou Lync Server 2010.'
-ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Résumé : Découvrez la nouvelle Skype Entreprise et les étapes à suivre pour préparer votre environnement et vos utilisateurs à la mise à jour, que vous utilisiez Skype Entreprise Online, Skype Entreprise Server 2019, Skype Entreprise Server 2015, Lync Server 2013 ou Lync Serveur 2010.'
+ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586866"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740456"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planifier l’expérience Skype Entreprise client 2015 pour vos utilisateurs
  
 **Résumé :** Découvrez la nouvelle Skype Entreprise et les étapes à suivre pour préparer votre environnement et vos utilisateurs à la mise à jour, que vous utilisiez Skype Entreprise Online, Skype Entreprise Server 2019, Skype Entreprise Server 2015, Lync Server 2013 ou Lync Server 2010.
   
-La mise à jour Office Lync 2013 du 14 avril 2015 inclut la nouvelle interface Skype Entreprise utilisateur. Cette mise à jour permet aux administrateurs de contrôler l’apparence du client et de choisir s’il faut conserver l’expérience client Lync 2013 ou utiliser l’expérience Skype Entreprise client améliorée. Le client Skype Entreprise remplace effectivement le client Lync 2013 et permet aux administrateurs de choisir entre l’expérience client Lync existante et la nouvelle expérience client Skype Entreprise client. Pour plus d’informations sur cette mise à jour, voir la mise à jour du [14 avril 2015 pour Lync 2013 (Skype Entreprise) (KB2889923).](https://support.microsoft.com/kb/2889923/)
+La mise à jour Office Lync 2013 du 14 avril 2015 inclut la nouvelle interface Skype Entreprise utilisateur. Cette mise à jour permet aux administrateurs de contrôler l’apparence du client et de choisir s’il faut conserver l’expérience client Lync 2013 ou utiliser l’expérience Skype Entreprise client améliorée. Le client Skype Entreprise a effectivement remplacé le client Lync 2013 et a ajouté la possibilité aux administrateurs de choisir entre l’expérience client Lync existante et la nouvelle expérience client Skype Entreprise client. Pour plus d’informations sur cette mise à jour, voir la mise à jour du [14 avril 2015 pour Lync 2013 (Skype Entreprise) (KB2889923).](https://support.microsoft.com/kb/2889923/)
   
-Le 12 mai 2015, une autre mise à jour mensuelle de Office inclut le client Skype Entreprise mis à jour. De nombreux clients qui n’ont pas appliqué la mise à jour d’avril choisiront la mise à jour du 12 mai Office 2013. Les informations de cette rubrique vous aideront à préparer votre organisation, votre environnement et vos utilisateurs pour la mise à jour du client. Pour faciliter la transition pour vos utilisateurs et les équipes de support, utilisez les informations de cette rubrique pour vous aider à déterminer l’expérience client que vous souhaitez pour vos utilisateurs, puis a apporter les modifications à votre environnement avant de déployer la mise à jour du client dans votre organisation.
+Le 12 mai 2015, une autre mise à jour mensuelle de Office inclut le client Skype Entreprise mis à jour. De nombreux clients qui n’ont pas appliqué la mise à jour d’avril choisiront la mise à jour du 12 mai Office 2013. Les informations de cette rubrique vous aideront à préparer votre organisation, votre environnement et vos utilisateurs pour la mise à jour du client. Pour faciliter la transition pour vos utilisateurs et les équipes de support, utilisez les informations de cette rubrique pour vous aider à déterminer l’expérience client que vous souhaitez pour vos utilisateurs, puis a apporté les modifications à votre environnement avant de déployer la mise à jour du client dans votre organisation.
   
 - [Quelle expérience client souhaitez-vous pour vos utilisateurs ?](user-experience.md#clientexperience)
     
@@ -63,7 +63,7 @@ Vous devez faire certaines choses pour préparer votre environnement à la mise 
   
 Une fois que vous avez confirmé que vous utilisez une version de Skype Entreprise Server ou de Lync Server qui prend en charge les paramètres de stratégie pour contrôler l’expérience client, vous devez configurer les paramètres de stratégie dans votre environnement. Les étapes spécifiques que vous devez suivre dépendent de la version de Skype Entreprise Server ou de Lync Server que vous utilisez, et selon que vos utilisateurs sont locaux ou en ligne. 
   
-Vous souhaiterez apporter ces modifications avant la livraison de la mise à jour du client à vos utilisateurs afin de pouvoir contrôler l’expérience client à partir du premier démarrage du client Skype Entreprise client. Les tableaux suivants vous indiquent les étapes à suivre pour configurer votre environnement pour l’expérience client souhaitée pour vos utilisateurs.
+Vous devez apporter ces modifications avant la livraison de la mise à jour du client à vos utilisateurs afin de pouvoir contrôler l’expérience client à partir du premier démarrage du client Skype Entreprise client. Les tableaux suivants vous indiquent les étapes à suivre pour configurer votre environnement pour l’expérience client souhaitée pour vos utilisateurs.
   
 |**Déploiement**|**Skype Entreprise client**|**Expérience client Lync**|
 |:-----|:-----|:-----|
@@ -82,7 +82,7 @@ Suivez les étapes de cette section si vous souhaitez configurer l’expérience
     
 - **Lync Server 2010** - Vous devez être en cours d’exécution de la mise à jour cumulative de février 2015 (4.0.7577.710) pour Lync Server 2010 ou une mise à jour ultérieure. Pour plus d’informations, [voir Mises à jour pour Lync Server 2010.](https://go.microsoft.com/fwlink/p/?LinkId=532771)
     
-  **Étape 2 :** Ensuite, utilisez une stratégie de client pour définir l’expérience Skype client avec le client Skype Entreprise client. Il existe **3 options d’utilisation** d’une stratégie de client pour définir l’expérience client.
+  **Étape 2 :** Ensuite, utilisez une stratégie de client pour définir l Skype client avec le client Skype Entreprise client. Il existe **3 options d’utilisation** d’une stratégie de client pour définir l’expérience client.
   
   **Option 1 :** Définissez l Skype client à l’aide d’une stratégie globale. Notez que la stratégie globale s’applique à tous les utilisateurs de votre déploiement, mais que les stratégies au niveau de l’utilisateur et du site prévalent sur la stratégie globale :
   
@@ -108,12 +108,12 @@ Affectez ensuite la stratégie aux utilisateurs, en utilisant le nom de la strat
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
- **Étape 3 :** Après avoir configuré vos stratégies de client, déployez le client Skype Entreprise, build 4711.1002 (avril 2015) ou ultérieur.
+ **Étape 3 :** Après avoir configuré vos stratégies client, déployez le client Skype Entreprise, build 4711.1002 (avril 2015) ou ultérieur.
   
 ## <a name="use-the-lync-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Utiliser l’expérience client Lync avec Lync Server 2013 ou Lync Server 2010 en local
 <a name="LyncwithLynconprem"> </a>
 
-Il s’agit de l’expérience par défaut lorsque Skype Entreprise client est déployé dans un déploiement Lync Server local. Vous n’avez pas besoin de configurer de stratégies client pour utiliser l’expérience client Lync, mais vous souhaitez peut-être contrôler le comportement de première utilisation du client. Par défaut, la première fois que les utilisateurs démarrent le client Skype Entreprise, l’expérience client Skype est utilisée et une notification s’affiche aux utilisateurs qui leur demande de redémarrer le client pour obtenir l’expérience client Lync. Vous pouvez configurer votre environnement de sorte que l’expérience client Lync s’affiche la première fois que les utilisateurs démarrent le client, et désactiver le didacticiel client en modifiant le Registre système sur les ordinateurs clients. Pour obtenir la procédure à suivre avant de déployer le client Skype Entreprise, consultez l’une des rubriques suivantes :
+Il s’agit de l’expérience par défaut lorsque Skype Entreprise client est déployé dans un déploiement Lync Server local. Vous n’avez pas besoin de configurer de stratégies client pour utiliser l’expérience client Lync, mais vous pouvez contrôler le comportement de première utilisation du client. Par défaut, la première fois que les utilisateurs démarrent le client Skype Entreprise, l’expérience client Skype est utilisée et une notification s’affiche aux utilisateurs qui leur demande de redémarrer le client pour obtenir l’expérience client Lync. Vous pouvez configurer votre environnement de sorte que l’expérience client Lync s’affiche la première fois que les utilisateurs démarrent le client, ainsi que désactiver le didacticiel client en modifiant le Registre système sur les ordinateurs clients. Pour obtenir la procédure à suivre avant de déployer le client Skype Entreprise, consultez l’une des rubriques suivantes :
   
 - **Lync Server 2013**, see [Configure the client experience with Skype Entreprise in Lync Server 2013](/previous-versions/office/lync-server-2013/configure-the-skype-for-business-client-in-lync-server-2013)
     
@@ -156,7 +156,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 
  Étape **3** : Facultatif : par défaut, la première fois que les utilisateurs démarrent le client Skype Entreprise, l’expérience client Skype est utilisée et une notification s’affiche pour les utilisateurs leur demandant de redémarrer le client pour obtenir l’expérience client Lync. Vous pouvez configurer votre environnement de sorte que l’expérience client Lync s’affiche la première fois que les utilisateurs démarrent le client, ainsi que désactiver le didacticiel client, en modifiant le Registre système sur les ordinateurs clients. Pour connaître les étapes à suivre avant de déployer le client Skype Entreprise consultez Configurer l’expérience [client avec Skype Entreprise](../../deploy/deploy-clients/configure-the-client-experience.md).
   
- **Étape 4 :** Après avoir configuré vos stratégies de client, déployez le client Skype Entreprise, build 4711.1002 (avril 2015) ou ultérieur.
+ **Étape 4 :** Après avoir configuré vos stratégies client, déployez le client Skype Entreprise, build 4711.1002 (avril 2015) ou ultérieur.
   
 ## <a name="use-the-lync-client-experience-with-skype-for-business-online"></a>Utiliser l’expérience client Lync avec Skype Entreprise Online
 <a name="LyncwithSfBO"> </a>
@@ -183,9 +183,9 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 
-Après avoir configuré vos stratégies de client, déployez le client Skype Entreprise, build 4711.1002 (avril 2015) ou ultérieur.
+Après avoir configuré vos stratégies client, déployez le client Skype Entreprise, build 4711.1002 (avril 2015) ou ultérieur.
   
-Pour plus d’informations sur la configuration de l’expérience client avec Skype Entreprise Online, y compris les étapes de contrôle de l’expérience de première utilisation et les scripts PowerShell que vous pouvez utiliser pour configurer votre environnement, voir Basculer entre les interfaces utilisateur du client Skype Entreprise et [Lync.](../../../SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md)
+Pour plus d’informations sur la configuration de l’expérience client avec Skype Entreprise Online, notamment la procédure de contrôle de l’expérience de première utilisation et les scripts PowerShell que vous pouvez utiliser pour configurer votre environnement, voir Basculer entre les interfaces utilisateur clientes Skype Entreprise et [Lync.](../../../SfbOnline/set-up-skype-for-business-online/switching-the-skype-for-business-and-the-lync-client-user-interfaces.md)
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>Ressources pour vous aider à préparer vos équipes de support et vos utilisateurs finaux pour la mise à jour
 <a name="support"> </a>

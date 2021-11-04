@@ -1,7 +1,7 @@
 ---
 title: Vider le cache
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
 description: 'Résumé : Découvrez l’opération Effacer le cache, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 9cbe9d629dca02c7745431e1bc03718ed1b25e04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f48c2308785a03ca9e344a31eddc7f5cc7f38a92
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602469"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778194"
 ---
 # <a name="clear-cache"></a>Vider le cache
  
@@ -28,7 +28,7 @@ L’opération Effacer le cache fait partie de l’API de données du Tableau de
   
 ## <a name="clear-cache"></a>Vider le cache
 
-L’opération Effacer le cache supprime le cache sur le serveur pour les requêtes et les données. Cela réinitialise le cache et nous allons obtenir des données à jour à partir du cube QoE par la suite pour les nouvelles demandes.
+L’opération Effacer le cache supprime le cache sur le serveur pour les requêtes et les données. Cela réinitialise le cache et nous recevons des données à jour à partir du cube QoE par la suite pour les nouvelles demandes.
   
 
 |**Méthode**|**URI de demande**|**HTTP Version**|

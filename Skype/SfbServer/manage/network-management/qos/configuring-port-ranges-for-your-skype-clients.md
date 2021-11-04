@@ -5,7 +5,7 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment configurer des plages de ports pour vos clients et configurer des stratégies de qualité de service dans Skype Entreprise Server pour les clients qui s’exécutent sur Windows 10.
-ms.openlocfilehash: d43b79d82e3099cbc471b12fba5ad7155de43e77
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2382a5060d0723f76312a089ab50b0b41314c8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591158"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742110"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuration des plages de ports et d’une stratégie de qualité de service pour vos clients dans Skype Entreprise Server
 
@@ -58,7 +58,7 @@ Ceci est important car, lorsque cette propriété est définie sur False, les cl
 
 **Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
-La commande précédente active les plages de ports de média client pour la collection globale de paramètres de configuration de conférence ; toutefois, ces paramètres peuvent également être appliqués à l’étendue Site et/ou Service (pour le service Serveur de conférence uniquement). Pour activer les plages de ports multimédias client pour un site ou un serveur spécifique, spécifiez l’identité de ce site ou serveur lors de l’appel de Set-CsConferencingConfiguration :
+La commande précédente active les plages de ports de média client pour la collection globale de paramètres de configuration de conférence ; toutefois, ces paramètres peuvent également être appliqués à l’étendue Site et/ou Service (pour le service Serveur de conférence uniquement). Pour activer les plages de ports de média client pour un site ou un serveur spécifique, spécifiez l’identité de ce site ou serveur lors de l’appel de Set-CsConferencingConfiguration :
 
 **Set-CsConferencingConfiguration -Identity « site:Redmond » -ClientMediaPortRangeEnabled $True**
 
@@ -123,10 +123,10 @@ Vous pouvez également utiliser cette commande pour affecter ces mêmes plages d
 
 **Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20**
 
-Les utilisateurs individuels doivent se déconnecter de Skype Entreprise puis se déconnecter pour que ces modifications prennent effet.
+Les utilisateurs individuels doivent se déconnecter Skype Entreprise puis se déconnecter pour que ces modifications prennent effet.
 
 > [!NOTE]  
-> Vous pouvez également activer les plages de ports multimédias client, puis les affecter à l’aide d’une seule commande. Par exemple :<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
+> Vous pouvez également activer les plages de ports multimédias client, puis les affecter à l’aide d’une seule commande. Par exemple :<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
 ## <a name="configure-quality-of-service-policies-for-clients-running-on-windows-10"></a>Configurer des stratégies de qualité de service pour les clients qui s’exécutent sur Windows 10
 
@@ -205,11 +205,11 @@ Si vous décidez de créer une stratégie pour la gestion du trafic de partage d
 
   - Attribuez à la valeur DSCP la valeur **24** au lieu de 46. (Là encore, cette valeur ne doit pas être 24 ; elle doit simplement être différente des valeurs DSCP utilisées pour l’audio et la vidéo.)
 
-  - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 42000 à 42019 pour le partage d’application, définissez la plage de ports sur celle-ci : **42000:42019**.
+  - Utilisez la plage de ports précédemment configurée pour le trafic vidéo. Par exemple, si vous avez réservé les ports 42000 à 42019 pour le partage d’application, définissez la plage de ports comme ceci : **42000:42019**.
 
 Pour une stratégie de transfert de fichiers :
 
-  - Utilisez un nom de stratégie différent (et unique) (par exemple, **Skype Entreprise Server transferts de fichiers).**
+  - Utilisez un nom de stratégie différent (et unique) (par **exemple, Skype Entreprise Server transferts de fichiers).**
 
   - Définissez la valeur DSCP sur **14**. (Là encore, cette valeur ne doit pas être 14 ; il doit simplement s’agit d’un code DSCP unique.)
 
@@ -241,7 +241,7 @@ Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP
 
 ### <a name="configure-quality-of-service-on-computers-with-multiple-network-adapters"></a>Configurer la qualité de service sur des ordinateurs avec plusieurs cartes réseau
 
-Si vous disposez d’un ordinateur qui possède plusieurs cartes réseau, vous pouvez parfois vous exécuter dans des problèmes où les valeurs DSCP sont affichées en tant que 0x00 plutôt que la valeur configurée. Cela se produit généralement sur les ordinateurs sur lequel une ou plusieurs cartes réseau ne sont pas en mesure d’accéder à votre domaine Active Directory (par exemple, si ces cartes sont utilisées pour un réseau privé). Dans ce cas, les valeurs DSCP sont marquées pour les cartes qui peuvent accéder au domaine, mais pas pour les adaptateurs qui ne peuvent pas accéder au domaine.
+Si vous disposez d’un ordinateur qui possède plusieurs cartes réseau, vous pouvez parfois vous exécuter dans des problèmes où les valeurs DSCP sont affichées en tant que 0x00 plutôt que la valeur configurée. Cela se produit généralement sur les ordinateurs sur lequel une ou plusieurs cartes réseau ne sont pas en mesure d’accéder à votre domaine Active Directory (par exemple, si ces cartes sont utilisées pour un réseau privé). Dans ce cas, les valeurs DSCP sont marquées pour les adaptateurs qui peuvent accéder au domaine, mais pas pour les adaptateurs qui ne peuvent pas accéder au domaine.
 
 Si vous souhaitez baliser des valeurs DSCP pour toutes les cartes réseau d’un ordinateur, y compris les cartes qui n’ont pas accès à votre domaine, vous devez ajouter et configurer une valeur dans le Registre. Pour cela, effectuez la procédure suivante :
 

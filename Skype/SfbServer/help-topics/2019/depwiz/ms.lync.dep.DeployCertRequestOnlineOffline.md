@@ -1,7 +1,7 @@
 ---
 title: Demande de certificat (en ligne et hors connexion)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour créer une demande différée ou hors connexion, sélectionnez Préparer la demande maintenant, mais l’envoyer ultérieurement (demande de certificat hors connexion). Pour créer une demande immédiate à une autorité de certification en ligne (généralement un système interne dans l’infrastructure à clé publique de votre organisation), sélectionnez Envoyer la demande immédiatement à une autorité de certification en ligne.
-ms.openlocfilehash: 25cd965e58fc18f0aa62e6483f76cbb0aec1826f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f599a6ded2ee30e4898bd906b12e2ecc947f70e8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597188"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753023"
 ---
 # <a name="certificate-request-online-offline"></a>Demande de certificat (en ligne et hors connexion)
  

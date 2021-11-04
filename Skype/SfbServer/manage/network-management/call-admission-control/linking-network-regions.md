@@ -1,7 +1,7 @@
 ---
 title: Liaison de régions réseau
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Vous pouvez configurer les liens entre deux régions réseau dans le cadre du service Contrôle d’admission des appels (CAC). '
-ms.openlocfilehash: 56e94f6cc9e9bf0bd43c607eef53561a6129d468
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d194daf8e35a3e4b6b23c1c34fc8b4d4c2fea14f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600069"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746890"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Liaison des régions réseau dans Skype Entreprise Server
 
@@ -33,7 +33,7 @@ Vous pouvez afficher les liens entre deux régions réseau dans le cadre du serv
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Lien de région.**
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez afficher.
     
@@ -71,7 +71,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Lien de région.**
 
 4.  Dans la page **Lien de région**, cliquez sur **Nouveau**.
 
@@ -80,7 +80,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
     > [!NOTE]  
     > Cette valeur doit être unique au sein de votre Skype Entreprise Server déploiement.
 
-6.  Dans la liste de listes listes de la région Réseau **\# 1,** sélectionnez l’une des deux régions à l lié.
+6.  Dans la liste de listes de listes listes de la région Réseau **\# 1,** sélectionnez l’une des deux régions à l lié.
 
 7.  Dans la liste de listes bas Région réseau **\# 2,** sélectionnez l’autre région à l’l lié. Cette région doit être différente de la région sélectionnée pour la région \# réseau 1.
 
@@ -94,7 +94,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Lien de région.**
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez modifier.
 
@@ -115,7 +115,7 @@ Vous pouvez configurer les liens entre deux régions réseau dans le cadre du se
 
 2.  Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir Skype Entreprise Server panneau de bord. 
 
-3.  Dans la barre de navigation de gauche, cliquez sur **Configuration réseau,** puis cliquez sur **Lien de région.**
+3.  Dans la barre de navigation de gauche, cliquez **sur Configuration réseau,** puis sur **Lien de région.**
 
 4.  Dans la page **Lien de région**, cliquez sur le lien de région que vous souhaitez supprimer.
  

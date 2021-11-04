@@ -1,7 +1,7 @@
 ---
 title: Affichage ConferenceSessionDetails
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: L’affichage ConferenceSessionDetails stocke les informations relatives aux sessions entre plusieurs participants. Chaque enregistrement représente une session de conférence, laquelle peut être la session ayant le focus ou la session basée sur un serveur de conférence spécifique. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 49d351030019d6d42862352913b90af68191c19a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cebd4acd218d551f7f43dba39334c342441e216a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590088"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771900"
 ---
 # <a name="conferencesessiondetails-view"></a>Affichage ConferenceSessionDetails
  
 L’affichage ConferenceSessionDetails stocke les informations relatives aux sessions entre plusieurs participants. Chaque enregistrement représente une session de conférence, laquelle peut être la session ayant le focus ou la session basée sur un serveur de conférence spécifique. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |

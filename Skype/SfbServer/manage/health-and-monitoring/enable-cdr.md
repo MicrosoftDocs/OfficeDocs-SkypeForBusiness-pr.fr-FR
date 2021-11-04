@@ -1,7 +1,7 @@
 ---
 title: Activer l’enregistrement des détails des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Résumé : Découvrez comment activer les enregistrements des détails des appels dans Skype Entreprise Server.'
-ms.openlocfilehash: 51c2dcd1f1ecf77647ded6dbbc41ea9cdc2c13d8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 7adfc44c97387fc99244b0d2dea1cd7f884b6e6e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014558"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740580"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Activer l’enregistrement des détails des appels dans Skype Entreprise Server
 
@@ -45,7 +45,7 @@ Procédez comme suit pour activer l’enregistrement des détails des appels dan
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Activation de l’cdr à l’Windows PowerShell cmdlets
 
-Vous pouvez activer l’Windows PowerShell à l’aide de **l’Windows PowerShell set-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
+Vous pouvez activer l’Windows PowerShell à l’aide de **l’Windows PowerShell set-CsCdrConfiguration.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>Pour activer l’enregistrement des détails des appels pour un seul site
 
