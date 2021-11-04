@@ -17,18 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b79319da9f901fc4546c25d5165f4d2361521a7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8cd05f6ad2b238b4db2d611a6fc00e5f8a57189f
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537005"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785147"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Déploiement de l’application parents dans Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-L’activation de l’application Parents dans Microsoft Teams est un processus simple pour les administrateurs, qui offre aux enseignants une méthode sécurisée pour communiquer aux étudiants et à leurs contacts qui restent dans le client, et qui s’adressera à l’ensemble de votre organisation enseignant.
+L’application parent permet aux enseignants de communiquer et de s’impliquer en toute sécurité avec les parents et tuteurs des étudiants dans leurs cours à l’aide d’une conversation Teams qui s’échellera au sein de l’organisation enseignant. Toutes les données des parents et tuteurs sont approvisionnementées à l’Synchronisation des données scolaires, ce qui permet aux enseignants et au personnel administratif de configurer les choses en douceur.
 
 ## <a name="requirements"></a>Conditions requises
 
@@ -45,7 +43,7 @@ L’activation de l’application Parents dans Microsoft Teams est un processus 
 
 - Le propriétaire de la classe doit activer la conversation
 - Le propriétaire de la classe doit avoir un accès externe **avec Teams non gérés par une organisation.** 
-  - Ce paramètre se trouve dans les paramètres à l’échelle de l’organisation > Accès externe pour le niveau client, ou si vous souhaitez activer pour un certain ensemble d’utilisateurs, voir PowerShell ci-dessous.
+  - Ce paramètre est accessible dans Utilisateurs > Accès externe pour le niveau client, ou si vous voulez activer pour un certain ensemble d’utilisateurs, consultez powerShell ci-dessous.
 
 ## <a name="enabling-federated-chat-on-a-per-user-basis"></a>Activation d’une conversation fédérée par utilisateur
 
@@ -63,7 +61,7 @@ L’activation de l’application Parents dans Microsoft Teams est un processus 
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-Par défaut, le paramètre au niveau du client qui contrôle Teams’accès externe du client (AllowTeamsConsumer) est désactivé. Toutefois, le paramètre de stratégie qui Teams un accès externe grand public au niveau de l’utilisateur (EnableTeamsConsumerAccess) est activé par défaut pour toutes les stratégies d’accès externe au niveau utilisateur. Le paramètre au niveau du client et le paramètre de stratégie au niveau utilisateur doivent être activés pour qu’un utilisateur Teams un accès externe grand public. Si vous ne souhaitez pas que tous les membres de votre client activent l’accès externe grand public, vous devez mettre à jour les stratégies d Teams’accès externe au niveau utilisateur à vos utilisateurs avant d’activer le paramètre au niveau du client.
+Le paramètre de stratégie qui Teams un accès externe grand public au niveau de l’utilisateur (EnableTeamsConsumerAccess) est activé par défaut pour toutes les stratégies d’accès externe au niveau utilisateur. Le paramètre au niveau du client (AllowTeamsConsumer) et le paramètre de stratégie au niveau utilisateur doivent être activés pour qu’un utilisateur Teams un accès externe grand public. Si vous ne souhaitez pas que tous les membres de votre client activent l’accès externe grand public, vous devez mettre à jour les stratégies d Teams’accès externe au niveau utilisateur à vos utilisateurs avant d’activer le paramètre au niveau du client.
 
 Si vous avez besoin de vérifier quelles stratégies d’accès externe utilisateur existent et à qui elles sont affectées, vous pouvez utiliser les étapes suivantes :
     
@@ -76,7 +74,7 @@ Si vous avez besoin de vérifier quelles stratégies d’accès externe utilisat
 4. Pour chaque stratégie autre que la stratégie « globale » , vérifiez quels utilisateurs ont affecté la stratégie. Remarque : tous les utilisateurs qui n’ont pas de stratégie spécifique sont de nouveau affectés à la stratégie « Global »
 
     ```powershell
-    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq “<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
+    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
 ### <a name="further-powershell-options"></a>Options PowerShell supplémentaires

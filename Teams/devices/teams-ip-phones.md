@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Découvrez quels téléphones de bureau et de conférence sont certifiés Microsoft Teams pour obtenir les meilleurs résultats.
-ms.openlocfilehash: 6be1415d752bdde9afd6c34419b94912a61eb35d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: a69393b4f433a5a057a4481db04e97eafee47f3f
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733705"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785057"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams certifiés
 
@@ -106,6 +106,7 @@ Voici les dernières versions de l’Teams pour téléphone et du microprogramme
 
 | Version de produit | Date de publication  | Microsoft Teams version de l’application | Portail d'entreprise version complète | Version de l’agent d’administration |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| Mise à jour 2021 n°3  | 3 novembre 2021   | 1449/1.0.94.2021101205 | 5.0.5304.0 | 298 |
 | Mise à jour pour 2021 #2A | 10 juin 2021  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | Mise à jour 2021 n°2  | 8 juin 2021  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | Mise à jour pour 2021 #1A | 5 avril 2021  |`1449/1.0.94.2021033002`|  `5.0.5045.0` |  `1.0.0.202101280722.product (253)` |
@@ -122,6 +123,16 @@ Lorsque vous installez une nouvelle version du microprogramme sur votre appareil
 
 | Modèle d’appareil        | Version du microprogramme     | Version de produit incluse  |
 |:--------------------|:---------------------|:-------------------------|
+|Audiocodes C448HD  | C448HD_TEAMS_1.14.449 | Mise à jour 2021 n°3  |
+|Audiocodes C450HD  | C450HD_TEAMS_1.14.449 | Mise à jour 2021 n°3  |
+|Audiocodes C470HD  | C470HD_TEAMS_1.14.449 | Mise à jour 2021 n°3  |
+|PolySoin C60      | 7.1.3.0985            | Mise à jour 2021 n°3  |
+|Poly CCX400/CCX500/CCX600 | 7.1.3.0991     | Mise à jour 2021 n°3  |
+|Crestron UC-2      | 1.0.4.57              | Mise à jour 2021 n°3  |
+|Yealink T55A/T56A/T58A   | 58.15.0.143     | Mise à jour 2021 n°3  |
+|Yealink MP54/MP56/MP58   | 122.15.0.60     | Mise à jour 2021 n°3  |
+|Yealink VP59             | 91.15.0.77      | Mise à jour 2021 n°3  |
+|Yealink CP960            | 73.15.0.139     | Mise à jour 2021 n°3  |
 | PolySoin C60   | `7.0.3.0517`  | Mise à jour 2021 n°2                        |
 | Poly CCX400/CCX500/CCX600   | `7.0.3.0515` | Mise à jour 2021 n°2                     |
 | Audio Codes C448HD/C450HD/C470HD   | `1.10.143`  | Mise à jour 2021 n°2           |

@@ -1,7 +1,7 @@
 ---
 title: Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire
-author: serdars
-ms.author: serdars
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,19 +17,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment attribuer des stratégies à un grand nombre d’utilisateurs de votre établissement d’enseignement en fonction de l’appartenance à un groupe ou directement par le biais d’une affectation par lot à des fins d’établissement scolaire distant (télé-école, télé-école).
 f1keywords: ''
-ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745700"
+ms.locfileid: "60785077"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Attribuer des stratégies à un grand nombre d’utilisateurs dans votre établissement scolaire
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Pour plus d’Microsoft Teams sur l’attribution de stratégies, voir Attribuer des stratégies [à vos utilisateurs dans Teams.](policy-assignment-overview.md)
+> Pour en savoir plus sur l’attribution de stratégies dans Microsoft Teams, voir Attribuer des stratégies à [vos utilisateurs dans Teams.](policy-assignment-overview.md)
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -45,13 +45,13 @@ N’oubliez pas que, Teams, les utilisateurs obtiennent automatiquement la strat
 
 - Créez une stratégie personnalisée qui autorise des fonctionnalités essentielles telles que la conversation privée et la planification de réunions, et affecter la stratégie à votre personnel et aux enseignants.
 - Attribuez la stratégie personnalisée à votre personnel et aux enseignants.
-- Modifiez et appliquez la stratégie globale (à l’échelle de l’organisation par défaut) pour limiter les fonctionnalités pour les étudiants.
+- Modifiez et appliquez la stratégie globale (à l’échelle de l’organisation par défaut) pour restreindre les fonctionnalités pour les étudiants.
 
 N’oubliez pas que la stratégie globale s’appliquera à tous les utilisateurs de votre établissement scolaire jusqu’à ce que vous créez une stratégie personnalisée et l’affectiez à votre personnel et à vos enseignants.
 
 Dans ce didacticiel, les étudiants auront accès à la stratégie de réunion globale et nous attribuerons une stratégie de réunion personnalisée nommée EducatorMeetingPolicy au personnel et aux enseignants. Nous partons du principe que vous avez modifié la [](policy-packages-edu.md) stratégie globale pour personnaliser les paramètres de réunion pour les étudiants et que vous avez créé une stratégie personnalisée qui définit l’expérience de réunion pour le personnel et les enseignants.
 
-![Capture d’écran de la page Stratégies de réunion dans Teams centre d’administration.](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Capture d’écran de la page Stratégies de réunion dans le Teams d’administration.](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>Affecter une stratégie à un groupe
 
@@ -76,7 +76,7 @@ Tout d’abord, créez un groupe de sécurité pour votre personnel et vos ensei
 
 Avec [Synchronisation des données scolaires](/SchoolDataSync/) (SDS), vous pouvez facilement créer des groupes de sécurité pour les enseignants et [les](/SchoolDataSync/edu-security-groups) étudiants de votre établissement scolaire. Nous vous recommandons d’utiliser SDS pour créer les groupes de sécurité dont vous avez besoin pour gérer les stratégies pour votre établissement scolaire.
 
-Si vous ne parvenez pas à déployer SDS au sein de votre environnement, utilisez ce [script PowerShell](scripts/powershell-script-security-groups-edu.md) pour créer deux groupes de sécurité, un pour tous les membres du personnel et les enseignants à qui une licence pour les enseignants est attribuée et l’autre pour tous les étudiants titulaires d’une licence Étudiant. Vous devrez exécuter régulièrement ce script pour maintenir les groupes à jour.
+Si vous ne parvenez pas à déployer SDS au sein de votre environnement, utilisez ce [script PowerShell](scripts/powershell-script-security-groups-edu.md) pour créer deux groupes de sécurité, un pour tous les membres du personnel et les enseignants à qui une licence pour les enseignants est attribuée et l’autre pour tous les étudiants titulaires d’une licence Étudiant. Vous devrez exécuter régulièrement ce script pour tenir les groupes à jour.
 
 ### <a name="assign-a-policy-to-a-security-group"></a>Affecter une stratégie à un groupe de sécurité
 
@@ -134,7 +134,7 @@ N’oubliez pas que si un utilisateur a été directement affecté à une strat�
 
 Pour en savoir plus, [consultez ce que vous devez savoir sur l’affectation de stratégies à des groupes.](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)
 
-Suivez ces étapes pour supprimer la stratégie de réunion qui a été directement attribuée à votre personnel et aux enseignants.
+Pour supprimer la stratégie de réunion directement attribuée à votre personnel et aux enseignants, suivez ces étapes.
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installer et se connecter au module PowerShell Microsoft Teams’équipe
 
@@ -253,7 +253,7 @@ Dans cet exemple, la sortie indique que la licence SKUId pour les enseignants es
 > [!NOTE]
 > Pour consulter la liste des références SKU pour l’éducation et références de référence SKU Pour l’éducation, consultez la [référence SKU pour l’éducation.](sku-reference-edu.md)
 
-Ensuite, nous exécuterons l’une des étapes suivantes pour identifier les utilisateurs qui ont cette licence et les collecter tous ensemble.
+Ensuite, nous exécuterons l’article suivant pour identifier les utilisateurs qui ont cette licence et les collecter tous ensemble.
 
 ```powershell
 $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370"}
@@ -312,7 +312,7 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>FAQ
 
-**Je n’ai pas l’air familiarisé avec PowerShell Teams. Où puis-je obtenir plus d’informations ?**
+**Je n’ai pas l’familiarisé avec PowerShell Teams. Où puis-je obtenir plus d’informations ?**
 
 Pour une vue d’ensemble de l’utilisation de PowerShell pour Teams, voir [Teams vue d’ensemble de PowerShell.](teams-powershell-overview.md) Pour plus d’informations sur les cmdlets utilisées dans cet article, voir :
 
