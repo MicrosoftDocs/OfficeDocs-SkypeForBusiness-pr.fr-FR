@@ -1,6 +1,6 @@
 ---
 title: Skype Gestion et outils du système de salle
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lisez cette rubrique pour en savoir plus sur les outils de gestion Skype Room System.
-ms.openlocfilehash: 92fe780565728c457d6853e0210ec7981386ca0b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04b609e14b6ccffb5224a3041b1e8be25dcf7574
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592878"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758136"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Gestion et outils du système de salle
  
@@ -36,11 +36,11 @@ Pour plus d’informations, voir l’article suivant :
 
 - Confirmez que la découverte automatique est bien définie et qu’un enregistrement DNS A/CNAME interne est disponible pour autodiscover.domain.com.
     
-- Ping autodiscover (par exemple, Ping Autodiscover.contoso.com).
+- Découverte automatique ping (par exemple, ping Autodiscover.contoso.com).
     
 - Testez votre service de découverte automatique à l’aide de l’outil Analyseur de connectivité Microsoft. Choisissez le premier test, « Je ne peux pas me connecter avec Office Outlook ».
     
-- Si la salle de réunion possède déjà une boîte aux lettres de ressources, étendez ce compte pour Skype Room System (exemple de script en bas de la page).
+- Si la salle de réunion dispose déjà d’une boîte aux lettres de ressources, étendez ce compte pour Skype Room System (exemple de script en bas de la page).
     
 ## <a name="skype-for-business-checklist"></a>Skype Entreprise Liste de contrôle
 
@@ -50,7 +50,7 @@ Pour plus d’informations, voir l’article suivant :
   - Skype Entreprise Outil d’analyse d’Excel    
   - Skype Entreprise Analyseur de connectivité 32 bits ou 64 bits
     
-- Passer [en revue les nouveaux outils](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365)de dépannage et d’analyse utiles pour Office 365 . Confirmez que vous avez un pool Skype Entreprise et un serveur Web Apps Office et que vous pouvez partager une PowerPoint à l’aide du client Skype Entreprise client.
+- Passer [en revue les nouveaux outils de dépannage](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365)et d’analyse utiles pour Office 365 . Confirmez que vous avez un pool Skype Entreprise et un serveur Web Apps Office et que vous pouvez partager une PowerPoint à l’aide du client Skype Entreprise client.
     
 - Si la salle de réunion possède déjà une boîte aux lettres de ressources, activez-la pour Skype Entreprise.
     
@@ -124,7 +124,7 @@ Importez le fichier de certificat (.crt) dans le Skype room system si vous utili
 
 Vérifiez que votre autorité de certification dispose d’un chemin d’accès http pour la liste de révocation de certificats. Si ce n’est pas le cas, mettez à jour votre ca pour en inclure un.
   
-Installez les certificats dans la configuration d’administration du Skype Room System sous System Paramètres \> Certificate Manager. Vous avez besoin de Enterprise l’ac racine pour votre certificat interne.
+Installez les certificats dans la configuration d’administration du Skype Room System sous System Paramètres \> Certificate Manager. Vous avez besoin de l Enterprise’ac racine pour votre certificat interne.
   
 Une façon d’obtenir les certificats dont vous avez besoin consiste à découvrir l’ac qui a émis vos certificats. Pour Skype Entreprise Server, sur un PC de Skype Entreprise, cliquez sur Paramètres \> \> conférence Paramètres. Cela ouvre une page web sécurisée par l’ac qui a émis les certificats internes. Cliquez sur l’icône Verrouiller dans la barre d’adresses du navigateur pour afficher un rapport de sécurité. Cliquez sur Afficher les certificats et examinez la propriété point de distribution de la CRL. Le deuxième paramètre CN doit être le nom de serveur de l’ac. Ouvrez Windows Explorer pour cette adresse \\ \< CA Server Name \> \CertEnroll. Copiez les deux fichiers .crl et le fichier .crt sur un disque mémoire flash et placez-le dans le côté gauche du tableau SMART.
   

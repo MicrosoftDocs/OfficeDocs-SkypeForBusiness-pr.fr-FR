@@ -1,7 +1,7 @@
 ---
 title: Configuration de l’archivage
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement Skype Entreprise Server, notamment l’activation et la désactivation des options suivantes :'
-ms.openlocfilehash: 08849f41248d78d28f2feb972bcedcde7a2cc768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f67e43d42bb13f0d0c192f7ac9a2710e05578ed5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622856"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773024"
 ---
 # <a name="archiving-configuration"></a>Configuration de l’archivage
  
@@ -54,7 +54,7 @@ La page **Configuration d’archivage** répertorie toutes les stratégies d’a
     
   - **Afficher les détails** Cette option ouvre une boîte de dialogue dans laquelle vous pouvez modifier les options d’archivage pour la configuration d’archivage sélectionnée. Vous ne pouvez afficher les détails que pour une configuration d’archivage à la fois.
     
-  - **Sélectionner tout** Cette option sélectionne toutes les configurations d’archivage de la liste.
+  - **Sélectionner tout** Cette option sélectionne toutes les configurations d’archivage dans la liste.
     
   - **Supprimer** Cette option supprime toutes les configurations d’archivage sélectionnées.
     
@@ -68,5 +68,5 @@ La page **Configuration d’archivage** répertorie toutes les stratégies d’a
     
 - **Actualiser** Vous pouvez actualiser la page **Configuration de l’archivage** pour vérifier l’état des options de toutes les configurations d’archivage.
     
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server,](../../../plan-your-deployment/archiving/archiving.md)Déployer l’archivage pour [Skype Entreprise Server](../../../deploy/deploy-archiving/deploy-archiving.md)et Gérer l’archivage dans [Skype Entreprise Server](../../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server,](../../../plan-your-deployment/archiving/archiving.md)Déployer l’archivage pour [Skype Entreprise Server](../../../deploy/deploy-archiving/deploy-archiving.md)et Gérer l’archivage [dans Skype Entreprise Server ](../../../manage/archiving/archiving.md).
 

@@ -5,7 +5,7 @@ ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
 ms:contentKeyID: 49733872
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Comment activer et désactiver l’accès des utilisateurs anonymes dans Skype Entreprise Server.
-ms.openlocfilehash: 541ca4feabb91db29d15bb727b4a2f64b05cdd9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2378ac478faf4f14d7bbfbe0adfdef466a5a8121
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614144"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750343"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Activer ou désactiver l’accès des utilisateurs anonymes dans Skype Entreprise Server
 
@@ -52,7 +52,7 @@ Si vous souhaitez par la suite empêcher temporairement ou définitivement l’a
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Activation ou désactivation de l’accès des utilisateurs anonymes à l’Windows PowerShell cmdlets
 
-Vous pouvez gérer l’accès des utilisateurs anonymes à l’Windows PowerShell et à l’aide de l';cmdlet **Set-CsAccessEdgeConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez gérer l’accès des utilisateurs anonymes à l’Windows PowerShell et à l’aide de l’cmdlet **Set-CsAccessEdgeConfiguration.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ## <a name="to-enable-anonymous-user-access"></a>Pour activer l’accès des utilisateurs anonymes
 

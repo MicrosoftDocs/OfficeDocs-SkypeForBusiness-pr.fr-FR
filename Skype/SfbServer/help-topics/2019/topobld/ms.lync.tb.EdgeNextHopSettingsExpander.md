@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres du tronçon suivant du serveur Edge
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir ou modifier le pool du saut suivant que les serveurs Edge utiliseront pour communiquer avec l’infrastructure interne, sélectionnez un directeur, un pool directeur, un serveur frontal ou un pool de serveurs frontux dans la liste. Seuls les directeurs ou les serveurs frontux qui ont été configurés dans le Générateur de topologie apparaissent dans la liste.
-ms.openlocfilehash: f1c852ad908b9985dfe74016790589fb5e36d1fe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cef9c72da22c70814ad5dc3af07eea076339dde1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590208"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771012"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expandeur des paramètres du tronçon suivant du serveur Edge
 

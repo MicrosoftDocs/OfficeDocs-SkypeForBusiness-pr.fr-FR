@@ -1,7 +1,7 @@
 ---
 title: Déléguer le contrôle administratif des Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 580a0c31d3321564d76f248408facaffa4f399a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1ee1cdce6bae163ea51ebb73ac9b536e75b204a8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580518"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743420"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>Déléguer le contrôle administratif des Skype Entreprise Server 
 
@@ -46,6 +46,6 @@ Pour attribuer un rôle RBAC à un utilisateur, vous devez l’ajouter au groupe
 6. Dans la boîte de dialogue Sélectionner des utilisateurs, des ordinateurs, des **contacts** ou des groupes, tapez le nom  d’utilisateur ou le nom complet de l’utilisateur à ajouter au groupe (par exemple, Ken Myer) dans la zone Entrer les noms des objets à sélectionner, puis cliquez sur **OK**.
 7. Dans la boîte de dialogue **Propriétés**, cliquez sur **OK**.
 
-Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de commande Get-CsAdminRoleAssignment, en indiquant le nom SamAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez cette commande à partir de l’Skype Entreprise Server Management Shell :
+Pour vérifier que le rôle RBAC a été affecté, utilisez l’applet de commande Get-CsAdminRoleAssignment, en indiquant le nom SamAccountName (nom de connexion Active Directory) de l’utilisateur. Par exemple, exécutez cette commande à partir de Skype Entreprise Server Management Shell :
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`

@@ -5,7 +5,7 @@ ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Vous activez et configurez l’accès des utilisateurs externes pour contrôler si les utilisateurs externes pris en charge peuvent collaborer avec des utilisateurs Skype Entreprise Server internes.
-ms.openlocfilehash: aab0a4c5a3613f285b47a886819d524e37480341
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2521d3f4d4134c4edb89904e5a7db4e4026b79e6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590138"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743550"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Gestion de la fédération et de l’accès externe aux Skype Entreprise Server
 

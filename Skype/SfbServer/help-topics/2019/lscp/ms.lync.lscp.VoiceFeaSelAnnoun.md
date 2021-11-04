@@ -1,7 +1,7 @@
 ---
 title: Sélectionner un service d’annonce
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner un service d’annonce pour sélectionner un service d’annonce qui gèrera les appels entrants destinés à une plage de numéros non attribués.
-ms.openlocfilehash: 1b67c1564703cd0080b73819e6d09ad0a5e5c412
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b166b673554702728bf01f3a66fa871f76644a3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613053"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771202"
 ---
 # <a name="select-an-announcement-service"></a>Sélectionner un service d’annonce
  

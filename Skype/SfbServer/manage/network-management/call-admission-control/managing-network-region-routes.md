@@ -1,7 +1,7 @@
 ---
 title: Gestion des itinéraires de région réseau
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Un itinéraire de région réseau définit l’itinéraire entre deux régions réseau. Chaque paire de régions réseau dans votre déploiement de contrôle d’admission des appels requiert un itinéraire de région réseau.
-ms.openlocfilehash: 962fba52ab3c937a7479c690c43f0bc5cfe9756d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 30782564076c5a6bb5961f904fe30b1cfe0d0ef5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612153"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750193"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Gestion d’itinéraires de région réseau dans Skype Entreprise Server
 
@@ -60,7 +60,7 @@ Les informations d’itinéraire de région réseau peuvent être vues à l’Wi
     NetworkRegionLinks : {NorthwestToNortheast}<br/>
     InterNetworkRegionRouteID : TransAmericaRoute<br/>
     NetworkRegionID1 : Nord-Ouest pacifique<br/>
-    NetworkRegionID2 : Nord-est<br/>
+    NetworkRegionID2 : nord-est<br/>
 
 Pour plus d’informations, voir la rubrique d’aide relative à l’applet de commande [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute).
 

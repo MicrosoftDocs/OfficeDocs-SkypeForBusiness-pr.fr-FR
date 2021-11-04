@@ -1,7 +1,7 @@
 ---
 title: Skype Entreprise Server Outil de planification de l’infrastructure vocale
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Skype Entreprise Server 2015 fournit une connectivité PSTN fiable et évolutive à l’aide de connexions SIP, de connexions SIP directes à une passerelle PSTN ou de connexions SIP directes à un PBX. Pour plus d’informations, voir Plan for PSTN connectivity in Skype Entreprise Server 2015.
-ms.openlocfilehash: 0238c2d0b821276953fff304d258bcb96dba32f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 91722e1ea5577ad4a639216309a1f1db07a51941
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622516"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770672"
 ---
 # <a name="skype-for-business-server-voice-infrastructure-planning-tool"></a>Skype Entreprise Server Outil de planification de l’infrastructure vocale
  

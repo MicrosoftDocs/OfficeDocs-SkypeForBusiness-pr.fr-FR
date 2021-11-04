@@ -1,7 +1,7 @@
 ---
 title: Affecter une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Résumé : Stage AV and OAuth certificates for Skype Entreprise Server.'
-ms.openlocfilehash: 6925b8b042da41f82c505a79afcc5b7678454fbd
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2ca870ff500c5a963db17f90262c2f128c847d60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012718"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750353"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Affecter une stratégie de code confidentiel par utilisateur dans Skype Entreprise Server
 
 **Résumé :** Stage AV and OAuth certificates for Skype Entreprise Server.
   
-La stratégie de code confidentiel (PIN) de conférence d’accès est l’un des paramètres individuels d’un compte d’utilisateur qui peuvent être configurés dans le Panneau de configuration Skype Entreprise Server client.
+La stratégie de code confidentiel de conférence d’accès est l’un des paramètres individuels d’un compte d’utilisateur qui peuvent être configurés dans le Panneau de configuration Skype Entreprise Server client.
   
 Le déploiement d’une ou plusieurs stratégies de code confidentiel par utilisateur est facultatif. Vous pouvez également déployer une stratégie de code confidentiel au niveau global ou au niveau d’un site. Si vous déployez des stratégies au niveau utilisateur, vous devez les attribuer de manière explicite aux objets User, Group ou Contact. Les droits et autorisations des utilisateurs concernant l’utilisation des codes confidentiels pour les conférences rendez-vous sont automatiquement définis sur ceux de la stratégie de code confidentiel globale si aucune stratégie par utilisateur ou au niveau d’un site spécifique n’est attribuée.
   
@@ -69,7 +69,7 @@ Lorsque vous aurez créé au moins une stratégie de code confidentiel par utili
     > [!NOTE]
     > Étant donné que vous pouvez configurer plusieurs  stratégies à l’aide de la boîte de dialogue Attribuer des stratégies, cette option est sélectionnée par défaut pour chaque stratégie de **\<Keep as is\>** la boîte de dialogue. Continuez à utiliser la stratégie précédemment attribuée à l’utilisateur sans apporter de modification au paramètre.
   
-   - Autoriser Skype Entreprise Server choisir automatiquement la stratégie de niveau global ou, si elle est définie, la stratégie au niveau du site.
+   - Autorisez Skype Entreprise Server choisir automatiquement la stratégie de niveau global ou, si elle est définie, la stratégie au niveau du site.
     
    - Cliquez sur le nom d’une stratégie de code confidentiel par utilisateur que vous avez définie dans la page **Stratégie de code confidentiel**.
     

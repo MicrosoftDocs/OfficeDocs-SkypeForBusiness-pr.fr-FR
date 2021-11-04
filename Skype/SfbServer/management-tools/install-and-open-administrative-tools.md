@@ -1,7 +1,7 @@
 ---
 title: Installer et ouvrir les outils d’administration
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cette rubrique décrit comment installer et ouvrir les outils d’administration dont vous avez besoin pour déployer et gérer Skype Entreprise.
-ms.openlocfilehash: 70f7732c9db49f5a089e9d5008a27902e5aac51c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630478"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743430"
 ---
 # <a name="install-and-open-administrative-tools"></a>Installer et ouvrir les outils d’administration
 
@@ -53,7 +53,7 @@ Utilisez la procédure suivante pour démarrer localement l’Assistant Déploie
 **Pour démarrer l’Assistant Skype Entreprise Server déploiement**
 
 1. Log on the computer where the Skype Entreprise Server Deployment Wizard is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.
-2. Cliquez **sur** Démarrer, sur Tous les **programmes,** **sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
+2. Cliquez **sur Démarrer,** sur Tous les **programmes,** **sur Skype Entreprise Server,** puis sur Skype Entreprise Server **Déploiement.**
 
 
 ## <a name="topology-builder"></a>Générateur de topologies 
@@ -64,7 +64,7 @@ Utilisez la procédure suivante pour ouvrir le Générateur de topologie afin de
 
 1. Ouvrez une session sur l’ordinateur sur lequel le Générateur de topologies est installé, en tant que membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins.
     > [!NOTE]
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe Utilisateurs local, mais pour lire, publier ou activer une topologie, qui est requis pour installer Skype Entreprise Server sur un serveur, vous devez utiliser un compte membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins, et qui dispose d’autorisations de contrôle total (c’est-à-dire, lecture, écriture et modification) sur le partage de fichiers que vous allez utiliser pour le magasin de fichiers d’archivage afin que le Générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire requise (DACL) ou un compte avec des droits d’utilisateur équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe Utilisateurs local, mais pour lire, publier ou activer une topologie requise pour installer Skype Entreprise Server sur un serveur, vous devez utiliser un compte membre du groupe Administrateurs du domaine et du groupe RTCUniversalServerAdmins.  et qui dispose d’autorisations de contrôle total (c’est-à-dire, lecture, écriture et modification) sur le partage de fichiers que vous allez utiliser pour le magasin de fichiers d’archivage afin que le Générateur de topologie puisse configurer la liste de contrôle d’accès discrétionnaire (DAC) requise ou un compte avec des droits d’utilisateur équivalents.
  
 2. Démarrez le Générateur de topologies : **cliquez** sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **générateur de topologies.**
 
@@ -98,8 +98,8 @@ Utilisez la procédure suivante pour ouvrir l’environnement Skype Entreprise S
 
 **Pour ouvrir Skype Entreprise Server Management Shell**
 
-Si vous ouvrez une fenêtre Windows PowerShell plutôt que l’Skype Entreprise Server Management Shell, vous ne pouvez pas exécuter les cmdlets Skype Entreprise Server par défaut. Pour exécuter les cmdlets Skype Entreprise Server à partir de Windows PowerShell, tapez ce qui suit à l’invite Windows PowerShell commande suivante :
+Si vous ouvrez une fenêtre Windows PowerShell plutôt que l’Skype Entreprise Server Management Shell, vous ne pouvez pas exécuter les cmdlets Skype Entreprise Server par défaut. Pour exécuter les cmdlets Skype Entreprise Server’Windows PowerShell, tapez ce qui suit à l’invite Windows PowerShell commande suivante :
 
 `Import-Module Lync`
 
-Démarrez l Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **Management Shell.**
+Démarrez l’Skype Entreprise Server Management Shell : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server,** puis sur Skype Entreprise Server **Management Shell.**

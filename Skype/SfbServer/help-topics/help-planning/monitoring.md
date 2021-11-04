@@ -1,7 +1,7 @@
 ---
 title: 'Skype Entreprise Server : outil de planification de surveillance'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: Dans Skype Entreprise Server 2015, la surveillance est utilisée pour collecter des informations d’utilisation et des données de qualité de l’expérience (QoE) sur les sessions de communication dans qui vos utilisateurs sont impliqués.
-ms.openlocfilehash: a6410745ed1bdcf54f9ecd4356bad27e6e41d79b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 94e7b4f89a637a7fcba7993f9c9671514bf69ed3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596718"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770642"
 ---
 # <a name="skype-for-business-server-monitoring-planning-tool"></a>Skype Entreprise Server : outil de planification de surveillance
 

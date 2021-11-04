@@ -1,6 +1,6 @@
 ---
 title: Approvisionnement Skype comptes Room System dans Microsoft 365 et Office 365
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: Lisez cette rubrique pour en savoir plus sur la mise Skype comptes Room System dans Microsoft 365 ou Office 365.
-ms.openlocfilehash: e3976d5763128354c934f477003532bf6bbcd3f6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Lisez cette rubrique pour en savoir plus sur l’approvisionnement Skype comptes Room System dans Microsoft 365 ou Office 365.
+ms.openlocfilehash: 1f4262453735baa08e16e7da03909e48ef12f4ff
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731103"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758116"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Approvisionnement Skype comptes Room System dans Microsoft 365 et Office 365
  
-Lisez cette rubrique pour en savoir plus sur la mise Skype comptes Room System dans Microsoft 365 ou Office 365.
+Lisez cette rubrique pour en savoir plus sur l’approvisionnement Skype comptes Room System dans Microsoft 365 ou Office 365.
   
 La section suivante couvre la Skype de compte Room System.
   
@@ -43,7 +43,7 @@ Votre client en ligne doit respecter les conditions suivantes :
     
   - Windows Azure Active Directory module de Windows PowerShell accès Microsoft 365 ou Office 365'annuaire
     
-Pour le compte Skype salle de réunion, la licence suivante est requise :
+Pour le Skype salle de réunion, la licence suivante est requise :
   
 - Une licence Skype Entreprise Online Plan 2, Office 365 E1 ou E3 est nécessaire pour activer Skype réunions.
     
@@ -87,7 +87,7 @@ $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-Les commandes précédentes définissent ou créent un compte de boîte Exchange de ressources pour l Skype l’utilisation de Room System en activant le compte.
+Les commandes précédentes définissent ou créent un compte de boîte Exchange de ressources pour l’Skype du système de salle en activant le compte.
   
 Après avoir créé la boîte aux lettres, vous pouvez utiliser la cmdlet Set-CalendarProcessing dans Exchange Online PowerShell pour configurer la boîte aux lettres. Reportez-vous aux étapes 3 à 6 sous Déploiements locaux à forêt unique pour plus d’informations
 

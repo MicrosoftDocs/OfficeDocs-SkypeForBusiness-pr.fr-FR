@@ -1,7 +1,7 @@
 ---
 title: Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Résumé : Découvrez comment définir une règle de traduction à l’aide de l’outil Créer une règle de traduction dans Skype Entreprise Server.'
-ms.openlocfilehash: 2d920f7706514df56c1814b5a61f40e0182412d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 780fc46c93d1f183263192edb33999d758b95c8c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597278"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738940"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Créer ou modifier une règle de traduction pour la présentation de l’ID appelé dans Skype Entreprise Server
 
@@ -105,7 +105,7 @@ Si vous souhaitez définir une règle de traduction, suivez  ces étapes en entr
 
 [Configurer une trunk avec déviation du média dans Skype Entreprise Server](configure-trunk-with-media-bypass.md)
 
-[Configurer une trunk sans déviation du média dans Skype Entreprise Server](configure-trunk-without-media-bypass.md)
+[Configurer une trunk sans contournement de média dans Skype Entreprise Server](configure-trunk-without-media-bypass.md)
 
 [Publier les modifications en attente de la configuration du routage des Skype Entreprise](voice-route-config-changes.md)
 

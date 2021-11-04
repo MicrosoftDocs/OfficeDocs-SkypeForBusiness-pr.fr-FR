@@ -1,7 +1,7 @@
 ---
 title: 'Filtre d’URL : création d’une url ou modification d’un filtre existant'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 0ede27bc8a1a8dc831fb72bcae768e6c084add78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79cb3114f1e83c4ca8f0787a3ea2ac3467d33aa2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590508"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773074"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>Filtre d’URL : création d’un nouveau ou modification d’un filtre existant
 

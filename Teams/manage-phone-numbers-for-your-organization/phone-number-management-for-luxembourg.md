@@ -1,7 +1,7 @@
 ---
 title: Téléphone gestion des nombres pour le Luxembourg
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone au Luxembourg pour Microsoft Teams.
-ms.openlocfilehash: a0ec9b407199a480ae0e7ed3ac204ae251e96504
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: a272512e257f09bbfd27a9b29ebb23124802a6bc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733155"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743860"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Téléphone gestion des nombres pour le Luxembourg
 

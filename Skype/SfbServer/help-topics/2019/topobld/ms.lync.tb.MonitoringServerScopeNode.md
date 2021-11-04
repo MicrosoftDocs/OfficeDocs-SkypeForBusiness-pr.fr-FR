@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue de surveillance
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dans le Générateur de topologie, vous pouvez effectuer des tâches relatives à un serveur individuel exécutant la surveillance en cliquant avec le bouton droit sur le serveur exécutant la surveillance dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur l’une des options suivantes pour le serveur exécutant la surveillance :'
-ms.openlocfilehash: e352bdb67fa8957c9d25e9e876f512fce38fc5a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8bbd3bb046e8628963d6663ebf752a80274ab8bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622686"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764352"
 ---
 # <a name="monitoring-scope-node"></a>Nœud d’étendue de surveillance
  

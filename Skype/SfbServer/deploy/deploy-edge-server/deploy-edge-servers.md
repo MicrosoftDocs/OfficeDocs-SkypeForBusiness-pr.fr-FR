@@ -1,7 +1,7 @@
 ---
 title: Déployer des serveurs Edge dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Résumé : Découvrez comment déployer des serveurs Edge dans votre environnement Skype Entreprise Server web.'
-ms.openlocfilehash: 611e2e6b4bbc3ef8f1d140b02d8dc3f2bc719953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623026"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773324"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Déployer des serveurs Edge dans Skype Entreprise Server
  
@@ -66,9 +66,9 @@ Comme indiqué dans la planification, vous allez configurer votre interface rés
   
 2. Sur votre interface externe, vous allez configurer l’une **des** opérations suivantes :
     
-   a. Trois adresses IP statiques sur le sous-réseau du réseau de périmètre externe. Vous devez également configurer la passerelle par défaut sur l’interface externe, par exemple en définissant le routeur internet ou le pare-feu externe comme passerelle par défaut. Configurez les paramètres DNS de la carte pour qu’ils pointent vers un serveur DNS externe, dans l’idéal une paire de serveurs DNS externes.
+   a. Trois adresses IP statiques sur le sous-réseau du réseau de périmètre externe. Vous devez également configurer la passerelle par défaut sur l’interface externe, par exemple en définissant le routeur côté Internet ou le pare-feu externe comme passerelle par défaut. Configurez les paramètres DNS de la carte pour qu’ils pointent vers un serveur DNS externe, dans l’idéal une paire de serveurs DNS externes.
     
-   b. Une adresse IP statique sur le sous-réseau du réseau de périmètre externe. Vous devez également configurer la passerelle par défaut sur l’interface externe, par exemple en définissant le routeur internet ou le pare-feu externe comme passerelle par défaut. Configurez les paramètres DNS de la carte pour qu’ils pointent vers un serveur DNS externe, ou dans l’idéal une paire de serveurs DNS externes. Cette configuration n’est acceptable que si vous avez précédemment configuré votre topologie pour qu’elle présente des valeurs non standard dans les affectations de ports, ce qui est décrit dans l’article Créer votre topologie Edge pour [Skype Entreprise Server.](create-your-edge-topology.md)
+   b. Une adresse IP statique sur le sous-réseau du réseau de périmètre externe. Vous devez également configurer la passerelle par défaut sur l’interface externe, par exemple en définissant le routeur côté Internet ou le pare-feu externe comme passerelle par défaut. Configurez les paramètres DNS de la carte pour qu’ils pointent vers un serveur DNS externe, ou dans l’idéal une paire de serveurs DNS externes. Cette configuration n’est acceptable que si vous avez précédemment configuré votre topologie pour qu’elle présente des valeurs non standard dans les affectations de ports, ce qui est décrit dans l’article Créer votre topologie Edge pour [Skype Entreprise Server.](create-your-edge-topology.md)
     
 3. Sur votre interface interne, configurez une adresse IP statique sur le sous-réseau du réseau de périmètre interne et ne définissez pas de passerelle par défaut. Laissez également les paramètres DNS de l’adaptateur vides.
     
@@ -78,9 +78,9 @@ Comme indiqué dans la planification, vous allez configurer votre interface rés
     
 ## <a name="installation"></a>Installation
 
-Pour effectuer ces étapes correctement, vous devez avoir suivi les étapes de l’article Créer votre topologie [Edge Skype Entreprise Server](create-your-edge-topology.md) article.
+Pour effectuer ces étapes correctement, vous devez avoir suivi les étapes de l’article Créer votre topologie [Edge pour Skype Entreprise Server](create-your-edge-topology.md) article.
   
-1. Connectez-vous au serveur que vous avez configuré pour le rôle serveur Edge avec un compte du groupe Administrateur local.
+1. Connectez-vous au serveur que vous avez configuré pour le rôle serveur Edge avec un compte qui se connecte au groupe Administrateur local.
     
 2. Vous aurez besoin du fichier de configuration de topologie que vous avez copié à la fin de la documentation sur la topologie du serveur Edge sur cet ordinateur. Accédez au support externe sur qui vous avez placé ce fichier de configuration (comme un lecteur USB ou un partage).
     
@@ -90,9 +90,9 @@ Pour effectuer ces étapes correctement, vous devez avoir suivi les étapes de l
     
 5. L’Assistant exécute des vérifications pour voir si quelque chose est déjà installé. Comme il s’agit de la première exécution de l’Assistant, vous pouvez commencer à **l’étape 1. Installez le magasin de configurations local.**
     
-6. La **boîte de dialogue Configurer le réplica local du magasin central de** gestion s’affiche. Vous devez cliquer sur **Importer à partir d’un fichier (recommandé pour les serveurs Edge).**
+6. La boîte de dialogue Configurer **le réplica local du magasin central de** gestion s’affiche. Vous devez cliquer sur **Importer à partir d’un fichier (recommandé pour les serveurs Edge).**
     
-7. À partir d’ici, accédez à l’emplacement de la topologie que vous avez exportée précédemment, sélectionnez le fichier .zip, cliquez sur **Ouvrir,** puis cliquez sur **Suivant**.
+7. À partir de là, accédez à l’emplacement de la topologie que vous avez exportée précédemment, sélectionnez le fichier .zip, cliquez sur **Ouvrir,** puis sur **Suivant**.
     
 8. L’Assistant Déploiement lit le fichier de configuration et écrit le fichier de configuration XML sur l’ordinateur local.
     
@@ -104,7 +104,7 @@ Pour effectuer ces étapes correctement, vous devez avoir suivi les étapes de l
     
 ## <a name="certificates"></a>Certificats
 
-Les exigences en matière de certificats pour le serveur Edge se trouvent dans la documentation de planification des certificats Edge. Les étapes de configuration des certificats sont ci-dessous.
+Les certificats requis pour le serveur Edge se trouvent dans la documentation de planification des certificats Edge. Les étapes de configuration des certificats sont ci-dessous.
   
 > [!NOTE]
 > Lorsque vous exécutez l’Assistant Certificat, vous devez être connecté en tant que compte avec les autorisations correctes pour le type de modèle de certificat que vous allez utiliser. Par défaut, une demande Skype Entreprise Server certificat va utiliser le modèle de certificat serveur Web. Si vous êtes connecté avec un compte membre du groupe RTCUniversalServerAdmins pour demander un certificat via ce modèle, vérifiez que le groupe a reçu les autorisations d’inscription pour utiliser ce modèle. 
@@ -119,7 +119,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Connectez-vous à Skype Entreprise Server votre réseau interne en tant que membre du groupe Administrateurs local.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Ouvrez **Démarrer** et **Exécuter** (ou **Rechercher** **et** exécuter), puis tapez ce qui suit :
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Ouvrez **Démarrer** et **Exécuter** (ou **Rechercher** et **exécuter),** puis tapez ce qui suit :
     
   ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
@@ -141,7 +141,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 ### <a name="nbspnbspnbspb-export-using-mmc"></a>&nbsp;&nbsp;&nbsp;b. Exporter à l’aide de MMC
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Vous pouvez exporter le certificat racine de l’ac à partir d’un ordinateur joint à un domaine à l’aide de la MMC. Go to **Start** and **Run**, or open **Search**, and type **MMC** to open.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Vous pouvez exporter le certificat racine de l’ac à partir de n’importe quel ordinateur joint au domaine à l’aide de la MMC. Go to **Start** and **Run**, or open **Search**, and type **MMC** to open.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. Dans la console MMC, cliquez sur **Fichier,** puis sur **Ajouter/Supprimer un logiciel en snap-in**.
     
@@ -153,7 +153,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vi. **L’Assistant Exportation de** certificat s’ouvre. Cliquez sur **Suivant**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. Dans la **boîte de dialogue Exporter le format de** fichier, sélectionnez le format vers le format vers qui vous souhaitez exporter. Notre recommandation est la norme de syntaxe de message de chiffrement **- PKCS #7 Certificates (P7b).** Si c’est également votre choix, n’oubliez pas de cocher inclure tous les certificats dans le chemin d’accès de certification si **possible,** car cela permet également d’exporter la chaîne de certificats, y compris le certificat d’ac racine et les certificats intermédiaires. Cliquez sur **Suivant**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vii. Dans la **boîte de dialogue Exporter le format de** fichier, sélectionnez le format vers le format vers qui vous souhaitez exporter. Notre recommandation est la norme de syntaxe de message de chiffrement **- Certificats PKCS #7 (P7b).** Si c’est également votre choix, n’oubliez pas de cocher inclure tous les certificats dans le chemin d’accès de certification si **possible,** car cela permet également d’exporter la chaîne de certificats, y compris le certificat d’ac racine et les certificats intermédiaires. Cliquez sur **Suivant**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;viii. Dans la **boîte** de dialogue Fichier à exporter, dans l’entrée du nom de fichier, tapez un chemin d’accès et un nom de fichier (l’extension par défaut serait .p7b) pour le certificat exporté. Si c’est plus facile  pour vous, cliquez sur le bouton Parcourir pour aller à l’emplacement où vous souhaitez enregistrer le certificat exporté et nommez le certificat exporté ici. Cliquez **sur** Enregistrer, puis **sur Suivant** lorsque vous êtes prêt.
     
@@ -189,7 +189,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
 
 &nbsp;&nbsp;&nbsp;a. Connectez-vous à l’un de vos serveurs Edge, démarrez l’Assistant Déploiement, puis à l’étape 3 : Demander, installer ou attribuer des **certificats,** cliquez sur Exécuter **(ou** exécuter à **nouveau,** si vous avez déjà exécuté cet Assistant).
     
-&nbsp;&nbsp;&nbsp;b. Dans la page **Demande de** certificat, assurez-vous que le certificat **Edge** interne est sélectionné, puis cliquez sur **Demander.**
+&nbsp;&nbsp;&nbsp;b. Dans la page **Demande de** certificat, assurez-vous que le certificat **Edge** interne est sélectionné, puis cliquez sur **Demander**.
     
 &nbsp;&nbsp;&nbsp;c. Dans la **page** Demandes différées ou immédiates, sélectionnez Envoyer la demande immédiatement à une autorité de **certification** en ligne si vous avez accès à une demande à partir de votre environnement Edge, ou préparez la demande **maintenant,** mais envoyez-la ultérieurement.
     
@@ -213,13 +213,13 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;i. Dans la page **Nom du sujet/Autres noms du** sujet, ce nom doit être rempli automatiquement par l’Assistant.
     
-&nbsp;&nbsp;&nbsp;j. Dans la page **Configurer d’autres** noms du sujet supplémentaires, vous devez ajouter les autres noms du sujet supplémentaires dont vous avez besoin.
+&nbsp;&nbsp;&nbsp;j. Dans la page **Configurer d’autres noms** du sujet supplémentaires, vous devez ajouter d’autres noms de sujet supplémentaires dont vous avez besoin.
     
 &nbsp;&nbsp;&nbsp;k. Dans la page **Résumé de la** demande, regardez les informations de certificat qui seront utilisées pour générer votre demande. Si vous devez apporter des modifications, revenir en arrière et le faire maintenant.
     
 &nbsp;&nbsp;&nbsp;l. Cliquez ensuite sur **Suivant** pour générer le fichier CSR que vous  devrez fournir à l’ac (vous pouvez également cliquer sur Afficher le journal pour consulter le journal de la demande de certificat).
     
-&nbsp;&nbsp;&nbsp;m. Une fois la demande générée, vous pouvez cliquer sur  **Afficher** pour examiner le certificat et terminer pour fermer la fenêtre. Le contenu du fichier CSR doit être attribué à votre ca, afin qu’il puisse générer un certificat que vous pouvez importer sur cet ordinateur dans la section suivante.
+&nbsp;&nbsp;&nbsp;m. Une fois la demande générée, vous pouvez cliquer sur  **Afficher** pour examiner le certificat et terminer pour fermer la fenêtre. Le contenu du fichier CSR doit être attribué à votre ca, afin qu’il puisse générer un certificat que vous pourrez importer sur cet ordinateur dans la section suivante.
     
 
 ### <a name="4-import-the-certificate"></a>4. Importer le certificat
@@ -239,11 +239,11 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
  
 ### <a name="5-export-the-certificate"></a>5. Exporter le certificat
 
-&nbsp;&nbsp;&nbsp;a. Assurez-vous d’avoir ouvert une session sur le serveur Edge sur qui vous avez importé le certificat précédemment, en tant que membre du groupe Administrateurs local.
+&nbsp;&nbsp;&nbsp;a. Assurez-vous que vous êtes connecté au serveur Edge sur qui vous avez importé le certificat précédemment, en tant que membre du groupe Administrateurs local.
     
 &nbsp;&nbsp;&nbsp;b. Cliquez **sur Démarrer,** **Exécuter** (ou **ouvrir la** recherche), puis **tapez MMC**.
     
-&nbsp;&nbsp;&nbsp;c. Dans la console MMC, cliquez sur **Fichier,** puis sur **Ajouter/Supprimer un logiciel en snap-in.**
+&nbsp;&nbsp;&nbsp;c. Dans la console MMC, cliquez sur **Fichier,** puis sur **Ajouter/Supprimer un logiciel en snap-in**.
     
 &nbsp;&nbsp;&nbsp;d. Dans la **zone Ajouter ou supprimer des logiciels** en un clin d’œil, cliquez sur **Certificats,** puis cliquez sur **Ajouter**.
     
@@ -271,7 +271,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
   
 &nbsp;&nbsp;&nbsp;k. Si vous souhaitez attribuer un mot de passe pour protéger la clé privée, vous pouvez taper un mot de passe pour la clé privée. Reentez le mot de passe pour confirmer, puis cliquez sur **Suivant**.
     
-&nbsp;&nbsp;&nbsp;l. Tapez un chemin d’accès et un nom de fichier pour le certificat exporté, à l’aide de l’extension **de fichier .pfx**. Le chemin d’accès doit être accessible par les autres serveurs Edge du pool, ou vous devez déplacer le fichier au moyen d’un support externe (par exemple, un lecteur USB). Cliquez **sur Suivant** lorsque vous avez fait votre choix.
+&nbsp;&nbsp;&nbsp;l. Tapez un chemin d’accès et un nom de fichier pour le certificat exporté, à l’aide de l’extension de fichier **.pfx**. Le chemin d’accès doit être accessible par les autres serveurs Edge du pool, ou vous devez déplacer le fichier au moyen d’un support externe (par exemple, un lecteur USB). Cliquez **sur Suivant** lorsque vous avez fait votre choix.
     
 &nbsp;&nbsp;&nbsp;m. Consultez le résumé de la boîte de dialogue **Fin de** l’Assistant Exportation de certificat, puis cliquez sur **Terminer.**
     
@@ -292,7 +292,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;f. Dans la page d’achèvement de l’Assistant, cliquez sur **Terminer.**
     
-&nbsp;&nbsp;&nbsp;g. Une fois cette procédure terminée, il est vraiment bon d’ouvrir le logiciel en snap-in MMC Certificats sur chaque serveur Edge, de développer les **certificats (ordinateur local),** de développer **Personnel,** de cliquer sur **Certificats** et de confirmer que le certificat Edge interne est répertorié dans le volet d’informations.
+&nbsp;&nbsp;&nbsp;g. Une fois cette procédure terminée, il est vraiment bon d’ouvrir le logiciel en snap-in MMC Certificats sur chaque serveur Edge, de développer **certificats (ordinateur local),** de développer **Personnel,** de cliquer sur **Certificats** et de confirmer que le certificat Edge interne est répertorié dans le volet d’informations.
     
 ### <a name="external-edge-interface-certificates"></a>Certificats d’interface Edge externe
 
@@ -315,7 +315,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   i. Dans **le nom convivial,** entrez un nom complet pour le certificat (par exemple, Edge externe).
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. En **longueur de bit,** choisissez votre longueur de bits (la valeur par défaut est 2048, vous pouvez aller plus haut et être plus sécurisé, mais cela ralentit les performances).
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ii. En **longueur de bit,** choisissez votre longueur de bit (la valeur par défaut est 2048, vous pouvez aller plus haut et être plus sécurisé, mais cela ralentit les performances).
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  iii. Si vous avez besoin d’un certificat exportable, vous devez cocher la case à cocher Marquer la clé privée du certificat comme **exportable.**
     
@@ -354,9 +354,9 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;b. Dans l’Assistant Déploiement, à côté de **l’étape 3. Demander, installer ou attribuer des certificats,** cliquez **sur Exécuter à nouveau.**
     
-&nbsp;&nbsp;&nbsp;c. Dans la page **Tâches de certificats disponibles,** cliquez **sur Importer un certificat à partir d’un . Fichier P7b, .pfx ou .cer**.
+&nbsp;&nbsp;&nbsp;c. Dans la page **Tâches de certificats disponibles,** cliquez sur **Importer un certificat à partir d’un . Fichier P7b, .pfx ou .cer**.
     
-&nbsp;&nbsp;&nbsp;d. Dans la page **Importer** un certificat, tapez le chemin d’accès complet et  le nom de fichier du certificat que vous avez obtenu dans la section précédente (ou vous pouvez cliquer sur Parcourir pour rechercher et choisir le fichier de cette façon). Si votre certificat contient une clé privée, veillez à sélectionner Le fichier de certificat contient la clé privée du certificat **et** entrez le mot de passe de la clé privée. Cliquez **sur Suivant** lorsque vous êtes prêt.
+&nbsp;&nbsp;&nbsp;d. Dans la page **Importer** un certificat, tapez le chemin d’accès complet et  le nom de fichier du certificat que vous avez obtenu dans la section précédente (ou vous pouvez cliquer sur Parcourir pour rechercher et choisir le fichier de cette façon). Si votre certificat contient une clé privée, veillez à sélectionner le fichier de certificat contenant la clé privée du **certificat,** puis entrez le mot de passe de la clé privée. Cliquez **sur Suivant** lorsque vous êtes prêt.
     
 &nbsp;&nbsp;&nbsp;e. Dans la page **Résumé de l’importation de** certificat, consultez les informations récapitulatifs, puis cliquez sur **Suivant**.
     
@@ -373,7 +373,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;c. Dans la console MMC, cliquez sur **Fichier,** puis sur **Ajouter/Supprimer un logiciel en snap-in.**
     
-&nbsp;&nbsp;&nbsp;d. Dans la **zone Ajouter ou supprimer des logiciels** en un clin d’œil, cliquez sur **Certificats,** puis cliquez sur **Ajouter**.
+&nbsp;&nbsp;&nbsp;d. Dans la zone Ajouter ou supprimer des logiciels en **snap-in,** cliquez sur **Certificats,** puis cliquez sur **Ajouter**.
     
 &nbsp;&nbsp;&nbsp;e. Dans la **boîte de dialogue Certificats** en ligne, sélectionnez **Compte d’ordinateur.** Cliquez sur **Suivant**.
     
@@ -382,14 +382,14 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
 &nbsp;&nbsp;&nbsp;g. Double-cliquez **sur Certificats (ordinateur local)** pour développer les magasins de certificats. **Double-cliquez sur Personnel,** puis cliquez **sur Certificats.**
     
    > [!NOTE]
-   > Vous êtes peut-être là et vous ne voyez aucun certificat dans le magasin personnel de certificats pour l’ordinateur local. Vous n’avez pas besoin de vous déplacer, si la clé n’est pas là, aucune clé privée n’est associée au certificat importé. Essayez une fois de plus les étapes de demande et d’importation ci-dessus, et si vous êtes sûr d’avoir obtenu tout ce droit, demandez à votre administrateur ou fournisseur d’ac. 
+   > Vous êtes peut-être là et vous ne voyez aucun certificat dans le magasin personnel de certificats pour l’ordinateur local. Vous n’avez pas besoin de vous déplacer, si la clé n’est pas là, aucune clé privée n’est associée au certificat importé. Essayez les étapes de demande et d’importation ci-dessus une fois de plus, et si vous êtes sûr d’avoir tout ce qu’il faut, demandez à votre administrateur d’ac ou fournisseur. 
   
-&nbsp;&nbsp;&nbsp;h. Dans le **magasin personnel certificats** de l’ordinateur local, cliquez avec le bouton droit sur le certificat que vous exportez. **Sélectionnez Toutes les** tâches dans le menu résultant, puis cliquez sur **Exporter.**
+&nbsp;&nbsp;&nbsp;h. Dans le **magasin personnel de certificats** de l’ordinateur local, cliquez avec le bouton droit sur le certificat que vous exportez. **Sélectionnez toutes les** tâches dans le menu résultant, puis cliquez sur **Exporter.**
     
 &nbsp;&nbsp;&nbsp;i. Dans l’**Assistant Exportation de certificat**, cliquez sur **Suivant**. Sélectionnez **Oui, exporter la clé privée.** Cliquez sur **Suivant**.
     
    > [!NOTE]
-   > Si **oui, l’exportation de** la clé privée n’est pas disponible, alors la clé privée de ce certificat n’a pas été marquée pour exportation avant que vous ne l’avez obtenu. Vous devez demander à nouveau le certificat au fournisseur, avec la clé privée définie pour l’exportation, avant de réussir cette étape.
+   > Si **oui, l’exportation de** la clé privée n’est pas disponible, alors la clé privée de ce certificat n’a pas été marquée pour exportation avant que vous ne l’avez obtenu. Vous devez demander à nouveau le certificat au fournisseur, avec la clé privée définie pour l’exportation, avant de réussir.
   
 &nbsp;&nbsp;&nbsp;j. Dans la boîte de dialogue Exporter les formats de fichiers, sélectionnez Informations Exchange - PKCS#12 (. PFX), puis sélectionnez ce qui suit :
     
@@ -404,7 +404,7 @@ Les exigences en matière de certificats pour le serveur Edge se trouvent dans l
     
 &nbsp;&nbsp;&nbsp;l. Tapez un chemin d’accès et un nom de fichier pour le certificat exporté, à l’aide de l’extension de fichier **.pfx**. Le chemin d’accès doit être accessible par les autres serveurs Edge du pool, ou vous devez déplacer le fichier au moyen d’un support externe (par exemple, un lecteur USB). Cliquez **sur Suivant** lorsque vous avez fait votre choix.
     
-&nbsp;&nbsp;&nbsp;m. Consultez le résumé de la boîte de dialogue Fin de l’Assistant **Exportation de** certificat, puis cliquez sur **Terminer.**
+&nbsp;&nbsp;&nbsp;m. Consultez le résumé de la boîte de dialogue **Fin de** l’Assistant Exportation de certificat, puis cliquez sur **Terminer.**
     
 &nbsp;&nbsp;&nbsp;n. Cliquez **sur OK** dans la boîte de dialogue d’exportation réussie.
     

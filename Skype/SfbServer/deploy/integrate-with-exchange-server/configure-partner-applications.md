@@ -1,7 +1,7 @@
 ---
 title: Configurer des applications partenaires dans Skype Entreprise Server 2015 et Exchange Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Résumé : Configurez l’authentification de serveur à serveur pour Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.'
-ms.openlocfilehash: 4d88676b3c2cfc01935388b49b120ca99d1b7025
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f85c617558ae348eaa554efcb5aff1fb4a624d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607611"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771462"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configurer des applications partenaires dans Skype Entreprise Server et Exchange Server
  
@@ -33,7 +33,7 @@ Pour configurer l’authentification de serveur à serveur entre Skype Entrepris
   
 ## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>Configuration Skype Entreprise Server être une application partenaire pour Exchange Server
 
-Le moyen le plus simple de configurer Skype Entreprise Server en tant qu’application partenaire avec Exchange Server 2016 ou Exchange Server 2013 consiste à exécuter le script Configure-EnterprisePartnerApplication.ps1, un script Windows PowerShell qui est Exchange Server. Pour exécuter ce script, vous devez fournir l’URL du document de métadonnées Skype Entreprise Server’authentification de l’utilisateur . Il s’agit généralement du nom de domaine complet du pool Skype Entreprise Server suivi du suffixe /metadata/json/1. Par exemple :
+Le moyen le plus simple de configurer Skype Entreprise Server en tant qu’application partenaire avec Exchange Server 2016 ou Exchange Server 2013 consiste à exécuter le script Configure-EnterprisePartnerApplication.ps1, un script Windows PowerShell qui est Exchange Server. Pour exécuter ce script, vous devez fournir l’URL du document de métadonnées Skype Entreprise Server’authentification de l’utilisateur . Il s’agit généralement du nom de domaine complet du pool Skype Entreprise Server suivi du suffixe /metadata/json/1. Par exemple :
   
 ```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
@@ -55,13 +55,13 @@ Cette commande peut être exécuté à partir de l’Exchange Management Shell o
   
 ## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>Configuration Exchange Server être une application partenaire pour Skype Entreprise Server
 
-Après avoir configuré Skype Entreprise Server en tant qu’application partenaire pour Exchange Server 2016 ou Exchange Server 2013, vous devez configurer Exchange Server en tant qu’application partenaire pour Skype Entreprise Server. Pour ce faire, vous pouvez utiliser l’Skype Entreprise Server Management Shell et spécifier le document de métadonnées d’authentification pour Exchange ; Il s’agit généralement de l’URI Exchange service de découverte automatique suivi du suffixe /metadata/json/1. Par exemple :
+Après avoir configuré Skype Entreprise Server en tant qu’application partenaire pour Exchange Server 2016 ou Exchange Server 2013, vous devez configurer Exchange Server en tant qu’application partenaire pour Skype Entreprise Server. Pour ce faire, vous pouvez utiliser l’Skype Entreprise Server Management Shell et spécifier le document de métadonnées d’authentification pour Exchange ; Il s’agit généralement de l’URI Exchange service de découverte automatique suivi du suffixe /metadata/json/1. Par exemple :
   
 ```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-Dans Skype Entreprise Server, les applications partenaires sont configurées à l’aide de l’cmdlet [New-CsPartnerApplication.](/powershell/module/skype/new-cspartnerapplication?view=skype-ps) En plus de spécifier l’URI des métadonnées, vous devez également définir le niveau de confiance de l’application sur Complet . Cela permet aux Exchange de représenter à la fois lui-même et tout utilisateur autorisé dans le domaine. Par exemple :
+Dans Skype Entreprise Server, les applications partenaires sont configurées à l’aide de l’cmdlet [New-CsPartnerApplication.](/powershell/module/skype/new-cspartnerapplication?view=skype-ps) En plus de spécifier l’URI des métadonnées, vous devez également définir le niveau de confiance de l’application sur Complet . Cela permet aux Exchange de représenter à la fois lui-même et tout utilisateur autorisé dans le domaine. Par exemple :
   
 ```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"

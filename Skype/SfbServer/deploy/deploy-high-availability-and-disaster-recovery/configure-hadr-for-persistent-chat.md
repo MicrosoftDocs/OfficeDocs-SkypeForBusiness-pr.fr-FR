@@ -1,7 +1,7 @@
 ---
 title: 'Business Server 2015 : Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Découvrez comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015.
-ms.openlocfilehash: 9b7157b0f1bd3d1891edac752310343b7211b961
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce69159126a134893e03ca97e6ac3c2fc20bfda5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608581"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738890"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015 : Configuration de la haute disponibilité et de la récupération d’urgence pour le serveur de conversation permanente
  
@@ -51,7 +51,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
     f. Publiez la topologie.
     
-## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journaux de serveurs de conversation permanente pour la base de données principale du serveur de conversation permanente
+## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journal pour la base de données principale du serveur de conversation permanente
 
 À l’SQL Server Management Studio, connectez-vous à l’instance de base de données de livraison de journaux secondaire du serveur de conversation permanente et assurez-vous que SQL Server Agent est en cours d’exécution. Connectez-vous ensuite à l’instance de base de données principale de conversation permanente et effectuez les étapes suivantes :
   
@@ -100,7 +100,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
 ## <a name="set-up-sql-server-log-shipping-between-the-primary-mirror-and-the-secondary-database"></a>Configurer la SQL Server des journaux de livraison entre le miroir principal et la base de données secondaire
 
-Effectuez les étapes suivantes pour que la livraison des journaux de bord continue si la base de données de conversation permanente principale est retentée vers sa base de données miroir.
+Effectuez les étapes suivantes pour que la livraison des journaux de route continue si la base de données de conversation permanente principale est retentée vers sa base de données miroir.
   
 1. Faire échouer manuellement la base de données de conversation permanente principale vers le miroir. Pour ce faire, utilisez l’Skype Entreprise Server Management Shell et l’cmdlet **Invoke-CsDatabaseFailover.**
     
@@ -149,7 +149,7 @@ Effectuez les étapes suivantes pour que la livraison des journaux de bord conti
 20. Sélectionnez et exécutez la première moitié de la requête (voir l’étape 18) jusqu’à la ligne : -- Fin : script à exécuter au niveau \* \* \* \* \* \* principal : \* \* \* \* \* \* .
     
     > [!IMPORTANT]
-    > L’exécution manuelle de ce script est nécessaire, SQL Server Management Studio ne prend pas en charge plusieurs bases de données primaires dans une configuration SQL Server’envoi de journaux de bord. 
+    > L’exécution manuelle de ce script est nécessaire, car SQL Server Management Studio ne prend pas en charge plusieurs bases de données principales dans une configuration SQL Server’envoi de journaux de bord. 
   
 21. Sélectionnez **Annuler** pour fermer le panneau de configuration de copie des journaux de transaction et établir une configuration de travail qui implémente correctement la copie des journaux de transaction pour la base de données primaire et la base de données en miroir (en cas de basculement).
     

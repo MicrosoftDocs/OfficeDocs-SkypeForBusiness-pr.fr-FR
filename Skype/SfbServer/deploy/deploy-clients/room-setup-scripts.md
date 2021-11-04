@@ -1,6 +1,6 @@
 ---
 title: Skype Scripts de configuration de salle système de salle
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: Consultez cette rubrique pour trouver des exemples de scripts de mise en service Skype comptes Room System.
-ms.openlocfilehash: 3786f4b25fc05ba8fda2583aad6d83bde6bd4f89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Consultez cette rubrique pour trouver des exemples de scripts d’approvisionnement Skype comptes Room System.
+ms.openlocfilehash: 02c356896608987fc52aae8aa613b1b5bff6eb6d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585938"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771686"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Scripts de configuration de salle système de salle
  
-Consultez cette rubrique pour trouver des exemples de scripts de mise en service Skype comptes Room System.
+Consultez cette rubrique pour trouver des exemples de scripts d’approvisionnement Skype comptes Room System.
   
 Cette section illustre des exemples de scripts qui peuvent être utilisés pour mettre en service Skype comptes Room System. Ces scripts sont uniquement à titre d’illustration. Elles ne doivent être utilisées qu’après avoir consulté votre expert informatique ou votre administrateur de domaine.
   

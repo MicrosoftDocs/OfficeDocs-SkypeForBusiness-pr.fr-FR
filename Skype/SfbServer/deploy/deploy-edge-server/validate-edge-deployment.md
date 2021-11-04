@@ -1,7 +1,7 @@
 ---
 title: Valider votre déploiement Edge dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 manager: serdars
@@ -15,22 +15,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Résumé : Découvrez comment vérifier que votre déploiement de serveur Edge ou de pool de serveurs Edge fonctionne dans Skype Entreprise Server.'
-ms.openlocfilehash: 175baab9770e6013820e0e632712bf75b7669a57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3552d814a9b30433cbeb53674737563b11f8283
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583238"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771606"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Valider votre déploiement Edge dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment vérifier que votre déploiement de serveur Edge ou de pool de serveurs Edge fonctionne Skype Entreprise Server.
+**Résumé :** Découvrez comment vérifier que votre déploiement de serveur Edge ou de pool de serveurs Edge fonctionne dans Skype Entreprise Server.
   
 Une fois que vous avez déployé votre serveur Edge ou votre pool de serveurs Edge, vous devez savoir s’il fonctionne correctement. Voici quelques éléments qui peuvent vous aider à confirmer que votre environnement Edge est connecté à vos serveurs internes et que vos utilisateurs externes peuvent se connecter à votre environnement Skype Entreprise Server via votre serveur Edge.
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Vérifier la connectivité entre vos serveurs internes et vos serveurs Edge
 
-Bien que la validation de la connectivité soit effectuée automatiquement dans le serveur Edge ou le pool de serveurs Edge lorsque les serveurs Edge sont installés, vous pouvez toujours le confirmer par vous-même avec Windows PowerShell. Exécutez la cmdlet Get-CsManagementStoreReplicationStatus sur le serveur interne qui possède le magasin central de gestion ou sur tout ordinateur joint au domaine sur lequel Skype Entreprise Server Core Components (OcsCore.msi) sont installés.
+Bien que la validation de la connectivité soit effectuée automatiquement dans le serveur Edge ou le pool de serveurs Edge lors de l’installation des serveurs Edge, vous pouvez toujours le confirmer par vous-même avec Windows PowerShell. Exécutez la cmdlet Get-CsManagementStoreReplicationStatus sur le serveur interne qui possède le magasin central de gestion ou sur tout ordinateur joint au domaine sur lequel Skype Entreprise Server Core Components (OcsCore.msi) sont installés.
   
 Le résultat initial de l’exécution de cette commande peut donner un état False, plutôt que True, pour la réplication. Si cela se produit, exécutez Invoke-CsManagementStoreReplication cmdlet. Donnez-lui le temps de terminer la réplication, puis ré-exécutez Get-CsManagementStoreReplicationStatus cmdlet.
   
@@ -40,7 +40,7 @@ Nous avons un excellent outil pour confirmer votre configuration de serveur Edge
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Éléments à prendre en compte lors du test de la connectivité des utilisateurs externes
 
-Tout test d’accès des utilisateurs externes doit inclure chaque type d’utilisateur interne que votre organisation prend en charge, ce qui peut inclure tout ou partie des facteurs suivants :
+Tout test d’accès des utilisateurs externes doit inclure chaque type d’utilisateur interne que votre organisation prend en charge, ce qui peut inclure l’une ou l’ensemble des opérations suivantes :
   
 - Utilisateurs d’au moins un domaine fédéré (nous vous recommandons toutefois de les tester tous).
     

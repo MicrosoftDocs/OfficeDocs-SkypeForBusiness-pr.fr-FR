@@ -1,7 +1,7 @@
 ---
 title: File d’attente de groupes Response Groups
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
-ms.openlocfilehash: 1343425fd84ad2d0ad8f09513f996dfe5c30cdc3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c421bc858cab3377bff5acd759e97b182920100e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579008"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750413"
 ---
 # <a name="response-groups-queue"></a>File d’attente des services Response Groups
 
@@ -30,7 +30,7 @@ La page **File d’attente Response Groups** affiche la liste de toutes les file
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes à partir de la page File **d’attente des groupes Response Groups**  -   :
+Vous pouvez effectuer les tâches suivantes à partir de la page **File d’attente Response Groups**  -   :
 
 - Créer une file d’attente
 

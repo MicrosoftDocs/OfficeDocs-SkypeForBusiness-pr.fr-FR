@@ -1,7 +1,7 @@
 ---
 title: 'Configuration de l’archivage : création d’une configuration ou modification d’une configuration existante'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: 01c14b482fb546a83d9cff8bdbbfd75f8f81f1bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a9e3a64560e347c959b464fe8da57e994f2e5c9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597728"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757906"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
  
@@ -64,7 +64,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
 - **Intégration Exchange Microsoft** Sélectionnez cette option si vous avez des utilisateurs qui sont Exchange. Avec cette option, Exchange est utilisé pour stocker les données de ces utilisateurs, si leurs boîtes aux lettres ont été placées en In-Place. Si tous vos utilisateurs sont Exchange, vous n’avez pas besoin de configurer des bases de données SQL Server pour le stockage des données d’archivage.
     
-- **Activer le purge des données d’archivage** Sélectionnez cette option pour activer la purge et spécifier les options de purge, notamment :
+- **Activer le purge des données d’archivage** Sélectionnez cette option pour activer le purgement et spécifier les options de purge, qui incluent les options suivantes :
     
   - Vidage après un nombre spécifique de jours que vous spécifiez.
     
@@ -73,5 +73,5 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     > [!NOTE]
     > Si vous activez l’intégration de Microsoft Exchange, la purge pour les utilisateurs Exchange et dont les boîtes aux lettres sont placées en In-Place est contrôlée par Exchange. La seule exception concerne les fichiers de conférence, qui sont stockés sur le partage de fichiers Lync Server. Ces fichiers sont vidés du partage de fichiers une fois seulement que les fichiers ont été exportés (téléchargés vers Exchange) si vous sélectionnez l’option consistant à vider les données après l’exportation des données d’archivage, ou après le nombre maximal de jours spécifié si vous spécifiez un nombre maximal de jours de rétention. 
   
-Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server,](../../../plan-your-deployment/archiving/archiving.md)Déployer l’archivage pour [Skype Entreprise Server](../../../deploy/deploy-archiving/deploy-archiving.md)et Gérer l’archivage dans [Skype Entreprise Server](../../../manage/archiving/archiving.md).
+Pour plus d’informations sur la fonctionnalité d’archivage et les fonctionnalités, notamment l’intégration Exchange, voir Planifier l’archivage dans [Skype Entreprise Server,](../../../plan-your-deployment/archiving/archiving.md)Déployer l’archivage pour [Skype Entreprise Server](../../../deploy/deploy-archiving/deploy-archiving.md)et Gérer l’archivage [dans Skype Entreprise Server ](../../../manage/archiving/archiving.md).
 

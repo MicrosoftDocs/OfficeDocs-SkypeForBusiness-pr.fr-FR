@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue des serveurs de surveillance
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Serveurs de surveillance répertorie les serveurs de surveillance de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: e4424bfca3c59f8b38cbd267b9b76fa59625618b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6e1211e8c34c1e34567a9a3f8a49479c8aa49f6d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587546"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764332"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nœud d’étendue des serveurs de surveillance
  

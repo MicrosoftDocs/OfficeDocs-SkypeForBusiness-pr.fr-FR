@@ -1,7 +1,7 @@
 ---
 title: CLS Logger pour Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/25/2017
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Résumé : Découvrez comment utiliser l’enregistreur clS (Centralized Logging Service) dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: bd468818335125e764dc6094ad32f7c7cad7f72e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730233"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739080"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger pour Skype Entreprise Server 2015
  
@@ -39,7 +39,7 @@ Pour utiliser correctement CLS Logger, vous devez vous assurer que les valeurs s
 
 Utilisez les commandes suivantes pour vérifier l’état de la journalisation :
   
-1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence de la topologie.
+1. Dans l’onglet « Scénarios de démarrage/arrêt », sélectionnez un regroupement de pools et/ou d’ordinateurs dans l’arborescence topologie.
     
 2. Cliquez sur le bouton État de la journalisation.
     
@@ -83,9 +83,9 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
 > 
 > **Pools** Pools d’ordinateurs pour effectuer la recherche de journal par rapport à, il s’est s’il s’t des nodes parents de l’arborescence. (Obligatoire)
 > 
-> **Ordinateurs** Ordinateurs individuels pour effectuer la recherche dans le journal : il s’hui de tous les nodes enfants dans l’arborescence. (Obligatoire)
+> **Ordinateurs** Ordinateurs individuels sur qui effectuer la recherche dans les journaux, il s’hui de tous les nodes enfants dans l’arborescence. (Obligatoire)
 > 
-> **Heure de début** Période à partir de laquelle clS interrogera les journaux. (Obligatoire)
+> **Heure de début** Période à partir de laquelle le CLS interrogera les journaux. (Obligatoire)
 > 
 > **Heure de fin** Période à partir de laquelle le CLS cessera d’interroger les journaux. (Obligatoire)
 > 
@@ -113,7 +113,7 @@ Pour rechercher des journaux, sélectionnez l’onglet « Rechercher les journau
   
 ## <a name="create-a-scenario"></a>Créer un scénario
 
-1. Dans **l’onglet Modifier les scénarios,** cliquez sur **le bouton Créer un** scénario.
+1. Dans **l’onglet Modifier les scénarios,** cliquez sur le **bouton Créer un** scénario.
     
     > [!NOTE]
     > La création d’un scénario clonera la configuration du scénario actuellement sélectionné. Si vous cliquez **sur Effacer Paramètres** avant de créer un nouveau scénario, aucun composant et aucun indicateur n’est sélectionné.

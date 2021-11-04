@@ -1,7 +1,7 @@
 ---
 title: Classes de schéma et descriptions dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: Cette section décrit toutes les classes de schéma utilisées par Skype Entreprise Server .
-ms.openlocfilehash: ec9c4a7612455df6d004289f88ccdb7efb3d6334
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7f05cd76074740e49f3972c97875e8993dd7b06
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596438"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743260"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Classes de schéma et descriptions dans Skype Entreprise Server
  
@@ -28,7 +28,7 @@ Cette section décrit toutes les classes de schéma utilisées par Skype Entrepr
 
 |**Classe**|**Description**|**Comments**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Exchange Destinataire du courrier de messagerie unifiée.  <br/> |Cette classe auxiliaire est partagée avec la Exchange de la poste.  <br/> |
+|Mail-Recipient  <br/> |Exchange Destinataire du courrier de messagerie unifiée.  <br/> |Cette classe auxiliaire est partagée avec la Exchange um.  <br/> |
 |msRTCSIP-ApplicationContacts  <br/> |Cette classe est un conteneur de contacts d’application et ne possède pas d’attributs propres.  <br/> |Nouveauté de Microsoft Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |Cette classe contient l’entrée correspondant au point de contrôle de service d’une instance des services d’applications de communications unifiées (UCAS).  <br/> |Nouveauté de Office Communications Server 2007 R2.  <br/> |
 |msRTCSIP-ApplicationServerService  <br/> |Cette classe fournit une association d’un pool spécifique à son service d’application.  <br/> |Nouveauté de Communications Server 2007 R2.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: DNS requirements for simple URLs in Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 'Résumé : Examinez les considérations sur les URL simples dans cette rubrique avant d’implémenter des enregistrements DNS pour Skype Entreprise Server.'
-ms.openlocfilehash: cbc8a6f99704f9c450847d0ca3c5173b0066715e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 'Résumé : Examinez les considérations sur les URL simples de cette rubrique avant d’implémenter des enregistrements DNS pour Skype Entreprise Server.'
+ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011718"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777914"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS requirements for simple URLs in Skype Entreprise Server
 
@@ -31,7 +31,7 @@ Skype Entreprise Server prend en charge les trois URL simples suivantes : Meet, 
 
 Vous pouvez configurer les URL simples de sorte que leur étendue soit globale mais vous pouvez également spécifier des URL simples différentes pour chaque site central dans votre organisation. Si une URL simple globale et une URL simple de site sont spécifiées, l’URL simple de site prévaut. 
 
-Dans la plupart des cas, nous vous recommandons de définir des URL simples uniquement au niveau global, afin que l’URL simple Meet d’un utilisateur ne change pas s’il passe d’un site à un autre. L’exception serait que les organisations doivent utiliser des numéros de téléphone différents pour les utilisateurs de connexion sur différents sites. Notez que si vous définissez une URL simple (telle que l’URL simple dial-in) sur un site comme URL simple au niveau du site, vous devez également définir les autres URL simples sur ce site pour qu’elles soient également au niveau du site.
+Dans la plupart des cas, nous vous recommandons de définir des URL simples uniquement au niveau global, afin que l’URL simple Meet d’un utilisateur ne change pas si elles se déplacent d’un site à un autre. L’exception serait que les organisations doivent utiliser des numéros de téléphone différents pour les utilisateurs de connexion sur différents sites. Notez que si vous définissez une URL simple (telle que l’URL simple dial-in) sur un site comme URL simple au niveau du site, vous devez également définir les autres URL simples sur ce site pour qu’elles soient également au niveau du site.
 
 Vous pouvez définir des URL simples globales dans le Générateur de topologies. Pour définir une URL simple au niveau du site, utilisez Set-CsSimpleURLConfiguration cmdlet.
 
@@ -49,7 +49,7 @@ Les URL simples peuvent uniquement contenir des caractères alphanumériques, c�
 ## <a name="changing-simple-urls-after-deployment"></a>Modification des URL simples après le déploiement
 <a name="BK_Valid"> </a>
 
-Si vous modifiez une URL simple après le déploiement initial, vous devez connaître l’impact de la modification sur vos enregistrements et certificats DNS pour les URL simples. Si la base d’une URL simple change, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous changez d’URL de base en , vous devez modifier les enregistrements DNS et les `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` `SfB2015.contoso.com` `meet.contoso.com` certificats à `meet.contoso.com` référencer. Si vous avez modifié l’URL simple de , l’URL de base de reste identique, donc aucune modification de DNS ou de certificat `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings` `SfB2015.contoso.com` n’est nécessaire.
+Si vous modifiez une URL simple après le déploiement initial, vous devez connaître l’impact de la modification sur vos enregistrements et certificats DNS pour les URL simples. Si la base d’une URL simple change, vous devez également modifier les enregistrements et les certificats DNS. Par exemple, si vous changez d’URL de base en , vous devez modifier les enregistrements DNS et les `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` `SfB2015.contoso.com` `meet.contoso.com` certificats à `meet.contoso.com` référencer. Si vous avez modifié l’URL simple de , l’URL de base de reste identique, de sorte qu’aucune modification de DNS ou de certificat `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings` `SfB2015.contoso.com` n’est nécessaire.
 
 Toutefois, chaque fois que vous modifiez un nom d’URL simple, vous devez exécuter **Enable-CsComputer** sur chaque directeur et serveur frontal pour enregistrer la modification.
 

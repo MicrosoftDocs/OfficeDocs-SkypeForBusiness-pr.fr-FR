@@ -1,7 +1,7 @@
 ---
 title: Créer ou modifier un groupe d’agents dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Créez ou modifiez un groupe d’agents dans Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 367e8e752042d7b8585fdae918f747aa77085223
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f17b3839e483f1886e69f84b33980f5384b50066
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589016"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771559"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype Entreprise
  
@@ -40,7 +40,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
 > [!IMPORTANT]
 > Lorsque vous affectez des utilisateurs en tant qu’agents au groupe de réponses, informez-les que, s’ils ont activé le mode de confidentialité, ils doivent rechercher des contacts « RGS Presence Watcher » et les ajouter à leur liste de contacts. Les agents qui ont activé le mode de confidentialité, mais qui n’ont pas « RGS Presence Watcher » dans leur liste de contacts, ne peuvent pas recevoir d’appels au groupe Response Group. Cela ne concerne pas les agents qui n’ont pas activé le mode de confidentialité. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Pour utiliser Skype Entreprise Server panneau de bord pour créer ou modifier un groupe d’agents
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Pour utiliser Skype Entreprise Server de contrôle d’agent pour créer ou modifier un groupe d’agents
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
@@ -107,7 +107,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
       - Si la liste de distribution contient des utilisateurs pour lesquels Lync Server 2010 est activé, mais que Voix Entreprise n’est pas activé, ils sont ajoutés au groupe d’agents en tant qu’agents d’exécution. Assurez-vous que tous les membres de la liste de distribution Voix Entreprise activés pour leurs comptes d’utilisateur.
     
     > [!IMPORTANT]
-    > Si vous utilisez une liste de distribution de courrier électronique, les appartenances masquées ou les listes masquées peuvent devenir visibles par l’administrateur ou les utilisateurs response Group. 
+    > Si vous utilisez une liste de distribution de courrier électronique, les appartenances masquées ou les listes masquées peuvent devenir visibles pour l’administrateur ou les utilisateurs Response Group. 
   
     Les appartenances au groupe d’agents masquées ou les listes masquées peuvent devenir visibles comme suit :
     

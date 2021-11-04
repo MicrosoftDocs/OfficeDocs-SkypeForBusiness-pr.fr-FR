@@ -1,7 +1,7 @@
 ---
 title: Skype Entreprise Server Management Shell
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: L’Skype Entreprise Server Management Shell fournit l’interface de ligne de commande pour l’administration et la gestion des serveurs. Il s’Windows PowerShell et inclut un ensemble complet d’cmdlets de gestion et d’administration spécifiques aux Skype et aux produits serveur Lync hérités.
-ms.openlocfilehash: dbff67d52d616d55d8e183ffab91126f8546f1b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8caadfb1dfe80af74861cf20fa0b155dd20d1a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609291"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750313"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype Entreprise Server Management Shell
  
@@ -52,9 +52,9 @@ Ce qu’il faut savoir Windows PowerShell dans Skype Entreprise Server :
     > [!CAUTION]
     > Si vous ouvrez une fenêtre Windows PowerShell plutôt que l’Skype Entreprise Server Management Shell, vous ne pourrez peut-être pas exécuter les cmdlets Skype par défaut. Pour exécuter Skype Entreprise Server cmdlets à partir de Windows PowerShell, tapez d’abord ce qui suit à l’invite Windows PowerShell commande suivante : >`Import-Module SkypeforBusiness`
   
-- Skype Entreprise Server Management Shell est installé automatiquement sur chaque serveur Skype Entreprise Server Êdition Entreprise frontal ou Édition Standard serveur frontal.
+- Skype Entreprise Server Management Shell est automatiquement installé sur chaque serveur Skype Entreprise Server Êdition Entreprise frontal ou Édition Standard serveur frontal.
     
-- Vous pouvez mettre à jour le Skype Entreprise Server d’aide de l’Skype Entreprise Server Management Shell en exécutant la cmdlet [Update-Help.](/powershell/module/microsoft.powershell.core/update-help) La cmdlet Update-Help télécharge et installe les derniers fichiers d’aide disponibles pour tous les modules installés sur votre ordinateur, y compris les mises à jour Skype Entreprise cmdlets.
+- Vous pouvez mettre à jour le Skype Entreprise Server’aide de l’Skype Entreprise Server Management Shell en exécutant la cmdlet [Update-Help.](/powershell/module/microsoft.powershell.core/update-help) La cmdlet Update-Help télécharge et installe les derniers fichiers d’aide disponibles pour tous les modules installés sur votre ordinateur, y compris les mises à jour Skype Entreprise cmdlets.
     
     Par défaut, **l’cmdlet Update-Help** met à jour tous les modules installés sur votre Skype Entreprise Server. Si vous souhaitez mettre à jour uniquement certains modules, vous pouvez utiliser le paramètre _Module_ pour limiter l’étendue de la cmdlet. L’exemple suivant met à jour uniquement Skype Entreprise module.
     
@@ -74,4 +74,4 @@ Ce qu’il faut savoir Windows PowerShell dans Skype Entreprise Server :
     Pour plus d’informations, voir [à propos de l’aide updatable.](/powershell/module/microsoft.powershell.core/about/about_updatable_help)
     
     > [!NOTE]
-    > Si vous utilisez PowerShell à distance, vous devrez peut-être autoriser la communication via un pare-feu. Pour en savoir plus sur les ports utilisés par la technologie à remoting PowerShell, voir Quel port utilise la technologie [à remoting PowerShell ?](/archive/blogs/christwe/what-port-does-powershell-remoting-use)
+    > Si vous utilisez PowerShell à distance, vous devrez peut-être autoriser la communication via un pare-feu. Pour en savoir plus sur les ports utilisés par la technologie à remoting PowerShell, consultez l’utilisation de la technologie [à remoting PowerShell.](/archive/blogs/christwe/what-port-does-powershell-remoting-use)

@@ -1,7 +1,7 @@
 ---
 title: Configurer l’intégration entre l’application Skype Entreprise Server locale et Outlook Web App
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/7/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Résumé : Intégrez Skype Entreprise Server et Outlook Web App.'
-ms.openlocfilehash: 9edbd804347cd8eba8db609c73066b9030c73ba7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9555303ad5bcb3ad15702f0cf1768549330e33cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621756"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738860"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurer l’intégration entre l’application Skype Entreprise Server locale et Outlook Web App
 
@@ -92,6 +92,6 @@ Vérifiez si les informations affichées sont en correspondance avec les modific
 
 ## <a name="see-also"></a>Voir aussi
 
-[Fourniture de Skype Entreprise Server messagerie vocale aux utilisateurs sur une messagerie Exchange messagerie un Exchange hébergée](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
+[Fourniture de Skype Entreprise Server messagerie vocale aux utilisateurs sur une messagerie Exchange hébergée](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 
 [Intégration de Exchange messagerie unifiée hébergée dans Skype Entreprise Server](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)

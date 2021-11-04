@@ -1,7 +1,7 @@
 ---
 title: 'Skype Entreprise Server : supprimer une collection existante de paramètres de configuration de la trunk SIP'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Résumé : Découvrez comment supprimer une collection de paramètres de configuration de Skype Entreprise Server panneau de configuration.'
-ms.openlocfilehash: ffc9a5cf91c9cdc19c47e3558ace3a040e7fb33e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19de05f2b31bc7a083aca7a04d71c32f17d0ea85
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592838"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771539"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype Entreprise Server : supprimer une collection existante de paramètres de configuration de la trunk SIP 
  
@@ -45,7 +45,7 @@ Les administrateurs peuvent aussi créer des paramètres de configuration de jon
     
 ### <a name="to-remove-trunk-configuration-settings-with-skype-for-business-server-control-panel"></a>Pour supprimer les paramètres de configuration de la Skype Entreprise Server panneau de configuration
 
-1. Dans Skype Entreprise Server panneau de configuration, cliquez **sur Routage** des voix, puis sur **Configuration de la trunk .**
+1. Dans Skype Entreprise Server panneau de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
     
 2. Sous **l’onglet Configuration** de la trunk, sélectionnez la collection de paramètres de configuration de la trunk SIP à supprimer, cliquez sur **Modifier,** puis cliquez sur **Supprimer**. Pour supprimer plusieurs collections dans la même opération, cliquez sur la première collection à supprimer, maintenez la touche Ctrl plus bas, puis cliquez sur les autres collections à supprimer.
     

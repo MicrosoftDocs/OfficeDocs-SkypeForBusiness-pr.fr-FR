@@ -1,7 +1,7 @@
 ---
 title: Configurer votre déploiement local pour la diffusion Réunion Skype local
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -17,18 +17,18 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Résumé : Découvrez les étapes à suivre pour configurer Réunion Skype diffusion pour votre déploiement hybride Skype Entreprise Server local.'
-ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 9d1ccadfc6a8bed52a7f6d4aa72bd72c2a5e94c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013708"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771696"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configurer votre déploiement local pour la diffusion Réunion Skype local
  
 **Résumé :** Découvrez les étapes à suivre pour configurer Réunion Skype diffusion pour votre déploiement local Skype Entreprise Server hybride.
   
-Réunion Skype La diffusion est un service en ligne qui fait partie de Office 365. Si vous exécutez Skype Entreprise Server sur site et que vous souhaitez utiliser Réunion Skype Broadcast dans votre environnement, vous devez suivre les étapes de configuration de cette rubrique. Avant de commencer, votre environnement doit être configuré pour un environnement hybride avec Skype Entreprise Online. Pour plus d’informations, voir Planifier la connectivité hybride entre Skype Entreprise Server et [Skype Entreprise Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) et déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise [Online.](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+Réunion Skype La diffusion est un service en ligne qui fait partie de Office 365. Si vous exécutez Skype Entreprise Server en local et que vous souhaitez utiliser Réunion Skype Broadcast dans votre environnement, vous devez suivre les étapes de configuration de cette rubrique. Avant de commencer, votre environnement doit être configuré pour un environnement hybride avec Skype Entreprise Online. Pour plus d’informations, voir Planifier la connectivité hybride entre Skype Entreprise Server et [Skype Entreprise Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) et déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise [Online.](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurer votre environnement hybride pour la diffusion Réunion Skype hybride
 
@@ -40,7 +40,7 @@ Pour préparer votre environnement à la diffusion Réunion Skype, vous devez :
     
 ### <a name="configure-federation-with-skype-for-business-online-resources"></a>Configurer la fédération avec les ressources Skype Entreprise Online
 
-Pour activer la fédération avec Skype Entreprise Online, vous devez configurer l’accès externe pour un fournisseur fédéré SIP. Pour ce faire, utilisez Skype Entreprise Server panneau de Skype Entreprise Server les étapes suivantes :
+Pour activer la fédération avec Skype Entreprise Online, vous devez configurer l’accès externe pour un fournisseur fédéré SIP. Pour ce faire, utilisez le Panneau de Skype Entreprise Server de contrôle, suivez les étapes suivantes :
   
 1. Démarrez le panneau Skype Entreprise Server de contrôle d’accès externe et sélectionnez **Accès** externe sur la gauche.
     
@@ -65,7 +65,7 @@ Ensuite, vous devez ajouter des domaines fédérés SIP à la liste des domaines
   
 1. Démarrez le panneau Skype Entreprise Server de contrôle d’accès externe et sélectionnez **Accès** externe sur la gauche.
     
-2. Sélectionnez **Domaines fédérés SIP** et cliquez sur **Nouveau.**
+2. Sélectionnez **Domaines fédérés SIP,** puis cliquez sur **Nouveau.**
     
 3. Pour le **nom de domaine (ou nom de** domaine complet) : entrez le domaine, en répétant cette procédure pour chacun des domaines suivants :
     

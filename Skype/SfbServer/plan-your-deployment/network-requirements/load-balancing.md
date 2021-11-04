@@ -1,7 +1,7 @@
 ---
-title: Exigences relatives à l’équilibrage de charge Skype Entreprise
+title: Exigences d’équilibrage de charge pour Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Résumé : Examinez les considérations d’équilibrage de charge avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: ba8ab3e4659ea7e17e91b4bf725e8bd1fe8b59ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a738a615c773b3f2861899e061fbdbd664e05636
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733393"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777944"
 ---
-# <a name="load-balancing-requirements-for-skype-for-business"></a>Exigences relatives à l’équilibrage de charge Skype Entreprise
+# <a name="load-balancing-requirements-for-skype-for-business"></a>Exigences d’équilibrage de charge pour Skype Entreprise
  
 **Résumé :** Examinez les considérations d’équilibrage de charge avant d’implémenter Skype Entreprise Server.
   
@@ -76,7 +76,7 @@ Les conditions requises pour l’équilibrage de la charge matérielle pour les 
     
 - L’interface interne Edge doit se trouver sur un autre réseau que l’interface externe Edge Server, et le routage entre elles doit être désactivé. 
     
-- L’interface externe du serveur Edge qui exécute le service Edge A/V doit utiliser des adresses IP publiquement routables et aucune traduction nat ou de port sur l’une des adresses IP externes Edge. 
+- L’interface externe du serveur Edge qui exécute le service Edge A/V doit utiliser des adresses IP publiquement routables et aucune traduction nat ou de port sur l’une des adresses IP externes edge. 
     
 - L’équilibreur de charge ne doit pas modifier l’adresse source du client.
     
@@ -112,7 +112,7 @@ Si vous déployez des appareils mobiles, votre équilibreur de la charge matéri
 > Si vous déployez des appareils mobiles, votre programme d’équilibrage de la charge matérielle doit pouvoir équilibrer individuellement la charge de chaque demande au sein d’une connexion TCP. Les dernières applications pour mobile iOS d’Apple requièrent la version 1.2 de TLS (Transport Layer Security).  
   
 > [!CAUTION]
-> Pour plus d’informations sur les équilibreurs de charge matériel tiers, voir [Infrastructure for Skype Entreprise](../../../SfbPartnerCertification/certification/infra-gateways.md).  
+> Pour plus d’informations sur les équilibreurs de la charge matérielle tiers, voir [Infrastructure for Skype Entreprise](../../../SfbPartnerCertification/certification/infra-gateways.md).  
   
 La configuration requise de l’équilibreur de la charge matérielle des services web du directeur et du pool de serveurs frontaux est la suivante :
   
@@ -136,14 +136,14 @@ Vous définissez la surveillance des ports sur les équilibreurs de la charge ma
   
 **Pool d’utilisateurs du serveur frontal - Interface interne HLB**
 
-|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTPS  <br/> |
 |\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Serveur frontal  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
    
 **Pool d’utilisateurs du serveur frontal - Interface externe HLB**
 
-|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Remarques**|
+|**IP/Port virtuel**|**Port de nœud**|**Nœud Ordinateur/Écran**|**Profil de persistance**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucun  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Serveur frontal  <br/> 5061  <br/> |Aucun  <br/> |HTTP  <br/> |
@@ -155,9 +155,9 @@ Skype Entreprise Server active l’équilibrage de charge DNS, une solution logi
   
 Si vous déployez l’équilibrage de charge DNS, la charge d’administration de votre organisation pour les équilibreurs de charge matérielle sera réduite. De plus, le travail ardu de dépannage qu’imposent les problèmes découlant d’une mauvaise configuration des programmes d’équilibrage de la charge pour le trafic SIP sera évité. Vous pouvez aussi empêcher les connexions serveur afin de mettre les serveurs hors connexion. L’équilibrage de la charge DNS permet également d’éviter que des problèmes liés aux programmes d’équilibrage de la charge matérielle n’aient une incidence sur des éléments du trafic SIP, notamment le routage de base des appels.
 
-Le diagramme suivant illustre un exemple qui inclut l’équilibrage de charge DNS interne et externe : 
+Le diagramme suivant montre un exemple qui inclut l’équilibrage de charge DNS interne et externe : 
   
-**Diagramme réseau Edge utilisant des adresses IPv4 publiques**
+**Diagramme du réseau Edge à l’aide d’adresses IPv4 publiques**
 
 ![exemple de diagramme réseau DNS.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
@@ -208,7 +208,7 @@ Si plusieurs enregistrements DNS sont renvoyés par une requête DNS SRV, le ser
     
 - Le champ de pondération spécifie une pondération relative pour les entrées ayant la même priorité. Les pondérations plus importantes doivent avoir une probabilité proportionnellement plus élevée d’être sélectionnées. Les administrateurs DNS doivent utiliser le poids 0 lorsqu’il n’y a aucune sélection de serveur à faire. En présence d’enregistrements contenant des poids supérieurs à 0, les enregistrements ayant une pondération 0 ont très peu de chances d’être sélectionnés.
     
-Si plusieurs enregistrements SRV DNS de même priorité et de même poids sont renvoyés, le service Edge d’accès sélectionne l’enregistrement SRV qui a été reçu en premier à partir du serveur DNS.
+Si plusieurs enregistrements SRV DNS de même priorité et de même poids sont renvoyés, le service Edge d’accès sélectionne l’enregistrement SRV reçu en premier à partir du serveur DNS.
   
 ### <a name="dns-load-balancing-on-front-end-pools-and-director-pools"></a>Équilibrage de la charge DNS dans les pools frontaux et les pools directeurs
 

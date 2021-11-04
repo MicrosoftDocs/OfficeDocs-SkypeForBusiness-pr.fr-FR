@@ -1,7 +1,7 @@
 ---
 title: Service de journalisation centralisée Skype Entreprise 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Résumé : Découvrez les composants de service et les paramètres de configuration du service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: 844492e0dddc5337a208bcf4e82fc8de88302884
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 35d73182ec720ac712e5fb6336a3c1c51d7e3cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582678"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739110"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Service de journalisation centralisée Skype Entreprise 2015
  
@@ -46,13 +46,13 @@ Le service de journalisation centralisée peut :
     
 Le service de journalisation centralisée est un outil puissant de dépannage pour les problèmes de grande ou petite taille, de l’analyse des causes premières aux problèmes de performances. Tous les exemples sont présentés à l’aide Skype Entreprise Server Management Shell. L’aide est fournie pour l’outil en ligne de commande par le biais de l’outil lui-même, mais il existe un ensemble limité de fonctions que vous pouvez exécuter à partir de la ligne de commande. En utilisant Skype Entreprise Server Management Shell, vous avez accès à un ensemble de fonctionnalités beaucoup plus large et beaucoup plus configurable, ce qui doit toujours être votre premier choix. 
   
-## <a name="logging-service-components"></a>Journalisation des composants du service
+## <a name="logging-service-components"></a>Composants du service de journalisation
 
  Le service de journalisation centralisée s’exécute sur tous les serveurs de votre déploiement et est composé des agents et services suivants :
   
-- L’agent clsAgent du service de journalisation centralisée s’exécute sur chaque ordinateur Skype Entreprise Server déployé. Il écoute ( sur les ports **TCP 50001-50003**) les commandes de ClsController sur WCF et renvoie des réponses au contrôleur. Il gère les sessions de journal (démarrage/arrêt/mise à jour) et recherche les journaux. Il effectue également des opérations de nettoyage telles que l’archivage des journaux et les purges. 
+- Centralized Logging Service Agent ClsAgent s’exécute sur chaque ordinateur avec Skype Entreprise Server déployé. Il écoute ( sur les ports **TCP 50001-50003**) les commandes de ClsController sur WCF et renvoie des réponses au contrôleur. Il gère les sessions de journal (démarrage/arrêt/mise à jour) et recherche les journaux. Il effectue également des opérations de nettoyage telles que l’archivage des journaux et les purges. 
     
-- Cmdlets du contrôleur de service de journalisation centralisée L’Skype Entreprise Server Management Shell envoie les commandes Démarrer, Arrêter, Vider et Rechercher au ClsAgent. Lorsque des commandes de recherche sont envoyées, les journaux résultants sont renvoyés à l'ClsControllerLib.dll et agrégés. Le contrôleur envoie des commandes à l’agent, reçoit l’état de ces commandes et gère les données du fichier journal de recherche telles qu’elles sont renvoyées par tous les agents sur n’importe quel ordinateur de l’étendue de recherche, et agrège les données du journal dans un jeu de sorties significatif et ordonné. Les informations des rubriques suivantes sont axées sur l’utilisation de Skype Entreprise Server Management Shell.
+- Cmdlets du contrôleur de service de journalisation centralisée L’Skype Entreprise Server Management Shell envoie les commandes Start, Stop, Flush et Search au ClsAgent. Lorsque des commandes de recherche sont envoyées, les journaux résultants sont renvoyés à l'ClsControllerLib.dll et agrégés. Le contrôleur envoie des commandes à l’agent, reçoit l’état de ces commandes et gère les données du fichier journal de recherche telles qu’elles sont renvoyées par tous les agents sur n’importe quel ordinateur de l’étendue de recherche, et agrège les données du journal dans un jeu de sorties significatif et ordonné. Les informations des rubriques suivantes sont axées sur l’utilisation de Skype Entreprise Server Management Shell.
     
 **Communications ClsController avec ClsAgent**
 
@@ -60,7 +60,7 @@ Le service de journalisation centralisée est un outil puissant de dépannage po
   
 Vous pouvez émettre des commandes à l’aide Windows’interface de ligne de commande Skype Entreprise Server Management Shell. Les commandes sont exécutées sur l’ordinateur sur qui vous êtes connecté et envoyées au ClsAgent localement ou aux autres ordinateurs et pools de votre déploiement.
   
-ClsAgent conserve un fichier d’index de tous. Fichiers CACHE qu’il possède sur l’ordinateur local. ClsAgent les alloue afin qu’ils soient uniformément répartis sur les volumes définis par l’option CacheFileLocalFolders, ne consommant jamais plus de 80 % de chaque volume (c’est-à-dire, l’emplacement du cache local et le pourcentage sont configurables à l’aide de l';cmdlet **Set-CsClsConfiguration).** ClsAgent est également responsable de l’ancien fichier journal de suivi des événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (autrement dit, la période est configurable à l’aide de l’cmdlet **Set-CsClsConfiguration),** ces fichiers sont copiés sur un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, [voir Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Lorsqu’une demande de recherche est reçue, les critères de recherche sont utilisés pour sélectionner l’ensemble des fichiers .etl mis en cache pour effectuer la recherche en fonction des valeurs de l’index maintenu par l’agent.
+ClsAgent conserve un fichier d’index de tous. Fichiers CACHE qu’il possède sur l’ordinateur local. ClsAgent les alloue afin qu’ils soient uniformément répartis sur les volumes définis par l’option CacheFileLocalFolders, ne consommant jamais plus de 80 % de chaque volume (c’est-à-dire, l’emplacement du cache local et le pourcentage sont configurables à l’aide de l'; cmdlet **Set-CsClsConfiguration).** ClsAgent est également responsable de l’ancien fichier journal de suivi des événements mis en cache (.etl) sur l’ordinateur local. Après deux semaines (autrement dit, la période est configurable à l’aide de l’cmdlet **Set-CsClsConfiguration),** ces fichiers sont copiés sur un partage de fichiers et supprimés de l’ordinateur local. Pour plus d’informations, [voir Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Lorsqu’une demande de recherche est reçue, les critères de recherche sont utilisés pour sélectionner l’ensemble de fichiers .etl mis en cache pour effectuer la recherche en fonction des valeurs de l’index maintenu par l’agent.
   
 > [!NOTE]
 > Les fichiers déplacés vers le partage de fichiers à partir de l’ordinateur local peuvent être recherchés par ClsAgent. Une fois que ClsAgent déplace les fichiers vers le partage de fichiers, l’âge et la suppression des fichiers ne sont pas conservés par ClsAgent. Vous devez définir une tâche administrative pour surveiller la taille des fichiers dans le partage de fichiers et les supprimer ou les archiver. 
@@ -85,7 +85,7 @@ Lorsqu’un problème se produit, démarrez un deuxième scénario lié au probl
 > [!TIP]
 > Lorsqu’un scénario de problème est présenté dans Skype Entreprise Server, commencez par vous poser la question « Que sais-je déjà sur le problème ? » Si vous quantifiez les limites du problème, vous pouvez éliminer une grande partie des entités opérationnelles dans Skype Entreprise Server. 
   
-Prenons un exemple de scénario dans lequel vous savez que les utilisateurs n’ont pas de résultats actuels lors de la recherche d’un contact. Il n’est pas important de chercher des problèmes dans les composants multimédias, les Voix Entreprise, les conférences et un certain nombre d’autres composants. Vous ne savez peut-être pas où se trouve réellement le problème : sur le client, ou s’agit-il d’un problème côté serveur ? Les contacts sont collectés à partir d’Active Directory par le réplicateur d’utilisateurs et remis au client par le serveur de carnet d’adresses (ABServer). AbServer obtient ses mises à jour à partir de la base de données RTC (où le réplicateur d’utilisateurs les a écrites) et les collecte dans des fichiers de carnet d’adresses, par défaut - 1 h 30. Les Skype Entreprise Server récupèrent le nouveau carnet d’adresses selon une planification aléatoire. Étant donné que vous savez comment fonctionne le processus, vous pouvez réduire votre recherche de la cause potentielle d’un problème lié à la collecte des données à partir d’Active Directory par le réplicateur d’utilisateurs, au serveur ABServer qui ne récupère pas et ne crée pas les fichiers de carnet d’adresses ou aux clients qui ne téléchargent pas le fichier de carnet d’adresses.
+Prenons un exemple de scénario dans lequel vous savez que les utilisateurs n’ont pas de résultats actuels lors de la recherche d’un contact. Il ne sert à rien de chercher des problèmes dans les composants multimédias, les Voix Entreprise, les conférences et un certain nombre d’autres composants. Vous ne savez peut-être pas où se trouve réellement le problème : sur le client, ou s’agit-il d’un problème côté serveur ? Les contacts sont collectés à partir d’Active Directory par le réplicateur d’utilisateurs et remis au client par le serveur de carnet d’adresses (ABServer). AbServer obtient ses mises à jour à partir de la base de données RTC (où le réplicateur d’utilisateurs les a écrites) et les collecte dans des fichiers de carnet d’adresses, par défaut - 1 h 30. Les Skype Entreprise Server récupèrent le nouveau carnet d’adresses selon une planification aléatoire. Étant donné que vous savez comment fonctionne le processus, vous pouvez réduire votre recherche de la cause potentielle d’un problème lié à la collecte des données à partir d’Active Directory par le réplicateur d’utilisateurs, au serveur ABServer qui ne récupère pas et ne crée pas les fichiers de carnet d’adresses ou aux clients qui ne téléchargent pas le fichier de carnet d’adresses.
   
 ## <a name="current-configuration"></a>Configuration actuelle
 

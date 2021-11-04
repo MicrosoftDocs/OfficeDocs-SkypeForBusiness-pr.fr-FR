@@ -5,7 +5,7 @@ ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Découvrez comment gérer et configurer des domaines SIP avec qui vous pouvez vous fédérer,
-ms.openlocfilehash: b2fc05f6837b48e353693b7d25a8bb469ca9d6b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455cac695ead7f073269fe3df0e70ea5b26ccb0e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628726"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743540"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Gérer les domaines fédérés SIP pour votre organisation dans Skype Entreprise Server
 
@@ -49,7 +49,7 @@ Si vous avez configuré la prise en charge des partenaires fédérés, vous pouv
       - Dans **Nom de domaine complet (ou FQDN)**, tapez le nom de domaine du partenaire fédéré.       
 
         > [!NOTE]  
-        > Ce nom doit être unique et ne doit pas déjà exister en tant que domaine autorisé pour ce serveur exécutant le service Edge d’accès. Il peut contenir jusqu’à 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Skype Entreprise Server’empêche cette situation de se produire afin de ne pas avoir à synchroniser vos listes.
+        > Ce nom doit être unique et ne doit pas déjà exister en tant que domaine autorisé pour ce serveur exécutant le service Edge d’accès. Il peut contenir jusqu’à 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Skype Entreprise Server empêche cela de se produire afin que vous n’avez pas à synchroniser vos listes.
     
       - Si vous souhaitez restreindre l’accès pour ce domaine fédéré aux utilisateurs d’un serveur spécifique qui exécute le service Edge d’accès, dans **Service Edge d’accès (FQDN)**, tapez le nom de domaine complet du serveur de domaine fédéré exécutant le service Edge d’accès.    
       - Si vous souhaitez fournir des informations supplémentaires, dans **Commentaire**, tapez les informations sur cette configuration que vous voulez partager avec les autres administrateurs système.
@@ -79,7 +79,7 @@ Empêchez un ou plusieurs domaines externes de se connecter à votre organisatio
       - Dans **Nom de domaine complet (ou FQDN)**, tapez le nom de domaine du partenaire fédéré que vous souhaitez bloquer.
 
         > [!NOTE]  
-        > Il peut contenir jusqu’à 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Skype Entreprise Server’empêche cette situation de se produire afin de ne pas avoir à synchroniser vos listes.
+        > Il peut contenir jusqu’à 256 caractères.<BR><br>La recherche du nom de domaine du partenaire fédéré établit une correspondance à partir du suffixe. Par exemple, si vous tapez **contoso.com**, la recherche renverra également le domaine **it.contoso.com**.<BR><br>Un domaine de partenaire fédéré ne peut pas être simultanément bloqué et autorisé. Skype Entreprise Server empêche cela de se produire afin que vous n’avez pas à synchroniser vos listes.
    
       - (Facultatif) Dans **Commentaire**, tapez les informations sur cette configuration que vous voulez partager avec les autres administrateurs système.
 

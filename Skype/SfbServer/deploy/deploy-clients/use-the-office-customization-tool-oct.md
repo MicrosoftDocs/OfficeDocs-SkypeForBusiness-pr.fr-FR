@@ -1,7 +1,7 @@
 ---
 title: Utiliser l Office PERSONNALISATION (PERSONNALISATION) dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Résumé : Comment utiliser l’outil Office Personnalisation avec le client Skype Entreprise client.'
-ms.openlocfilehash: d1fa867326ec1c613793831253dc693783132b57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 435ce2e1b9644fe5f30968a0766abe69165ca387
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587836"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738950"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Utiliser l Office PERSONNALISATION (PERSONNALISATION) dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "58587836"
   
 L’outil de personnalisation Office fait partie du programme d’installation et est recommandé pour de nombreuses personnalisations. Grâce à cet outil, personnalisez Office et enregistrez vos personnalisations dans un fichier .msp de personnalisation de l’installation. Placez ensuite le fichier dans le dossier Updates sur le point d’installation réseau. Quand vous installez Office, le programme d’installation recherche un fichier de personnalisation de l’installation dans le dossier Updates et applique les personnalisations. Le dossier Updates peut être utilisé uniquement pour déployer des mises à jour logicielles lors d’une installation initiale de Office.
   
-L' OCT fait partie de l’installation et est utilisé uniquement pour les versions sous licence en volume du produit. Vous exécutez l' OCT en tapant à la ligne de commande à partir de la racine du point d’installation réseau qui contient les `setup.exe /admin` Office sources. Par exemple, utilisez la commande suivante :
+L' OCT fait partie de l’installation et est utilisé uniquement pour les versions avec licence en volume du produit. Vous exécutez l' OCT en tapant à la ligne de commande à partir de la racine du point d’installation réseau qui contient les `setup.exe /admin` Office sources. Par exemple, utilisez la commande suivante :
   
  ```console
 \\server\share\Office15\setup.exe /admin
@@ -33,7 +33,7 @@ L' OCT fait partie de l’installation et est utilisé uniquement pour les versi
   
 Les administrateurs utilisent l’PERSONNALISATION pour créer un fichier .msp de personnalisation de l’installation et peuvent personnaliser les domaines suivants :
   
-- **Installation** Permet de spécifier l’emplacement d’installation par défaut sur le client et le nom de l’organisation par défaut, des sources d’installation réseau supplémentaires, la clé de produit, le contrat de licence utilisateur final, le niveau d’affichage, les versions antérieures de Office à supprimer, les programmes personnalisés à exécuter pendant l’installation, les paramètres de sécurité et les propriétés d’installation.
+- **Configuration** Permet de spécifier l’emplacement d’installation par défaut sur le client et le nom de l’organisation par défaut, des sources d’installation réseau supplémentaires, la clé de produit, le contrat de licence utilisateur final, le niveau d’affichage, les versions antérieures de Office à supprimer, les programmes personnalisés à exécuter pendant l’installation, les paramètres de sécurité et les propriétés d’installation.
     
 - **Fonctionnalités** Permet de configurer les paramètres utilisateur et de personnaliser la façon dont Office fonctionnalités sont installées. Les administrateurs peuvent utiliser l’outil de personnalisation Office pour spécifier les valeurs par défaut initiales des paramètres de l’application Office pour les utilisateurs. Ces derniers peuvent modifier la plupart des paramètres après l’installation.
     
@@ -41,4 +41,4 @@ Les administrateurs utilisent l’PERSONNALISATION pour créer un fichier .msp d
     
 - **Outlook** Permet de personnaliser le profil Outlook par défaut d’un utilisateur, de spécifier des paramètres Exchange, d’ajouter des comptes, de supprimer des comptes et d’exporter des paramètres et de spécifier des groupes d’envoi/réception.
     
-Pour plus d’informations sur l’PERSONNALISATION, voir [Use the OCT to customize Office 2013](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Notez que ces informations s’appliquent également aux versions ultérieures Office.
+Pour plus d’informations sur l’PERSONNALISATION, voir Utiliser l' OCT pour [personnaliser Office 2013.](/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)) Notez que ces informations s’appliquent également aux versions ultérieures Office.

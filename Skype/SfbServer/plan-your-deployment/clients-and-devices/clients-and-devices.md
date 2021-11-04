@@ -1,6 +1,6 @@
 ---
 title: Planifier les clients et les appareils
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Résumé : Examen des applications et des clients pris en charge pour Skype Entreprise.'
-ms.openlocfilehash: 5bf793c052d665c579294529b78a5fd69c81be3c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d5319f8511bca22ae9feba10983cfa8ffd8233c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598758"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749973"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planifier les clients et les appareils
 
@@ -32,19 +32,19 @@ Aujourd’hui, le personnel est constamment en déplacement. Les employés doive
 
 ## <a name="available-clients"></a>Clients disponibles
 
-Skype Entreprise Server prend en charge plusieurs types de clients, notamment les logiciels clients installés par ordinateur, les clients web et les clients pour les appareils mobiles. Les clients principaux sont présentés dans cette section, pour obtenir une liste détaillée de tous les clients pris en charge, voir comparaison des fonctionnalités client de bureau pour [Skype Entreprise Server 2015](desktop-feature-comparison.md) ou Comparaison des fonctionnalités client de bureau pour [Skype Entreprise Server 2019.](../../../SfBServer2019/plan/feature-comparison.md) Si vous avez déjà utilisé une combinaison de clients Lync, notez qu’il existe des [clients](clients-and-devices.md#Legacy) hérités non pris en Skype Entreprise Server 2019. Les mises à jour ont lieu régulièrement. Consultez cette rubrique régulièrement pour obtenir les dernières informations client.
+Skype Entreprise Server prend en charge plusieurs types de clients, notamment les logiciels clients installés par ordinateur, les clients web et les clients pour les appareils mobiles. Les principaux clients sont présentés dans cette section, pour obtenir une liste détaillée de tous les clients pris en charge, voir comparaison des fonctionnalités clientes de bureau pour [Skype Entreprise Server 2015](desktop-feature-comparison.md) ou comparaison des fonctionnalités client de bureau pour [Skype Entreprise Server 2019.](../../../SfBServer2019/plan/feature-comparison.md) Si vous avez déjà utilisé une combinaison de clients Lync, notez qu’il existe des [clients](clients-and-devices.md#Legacy) hérités non pris en Skype Entreprise Server 2019. Les mises à jour ont lieu régulièrement. Consultez cette rubrique régulièrement pour obtenir les dernières informations client.
 
 ### <a name="skype-for-business-2019"></a>Skype Entreprise (2019)
 
 Skype Entreprise (2019) est le client complet recommandé pour Skype Entreprise Server 2015 et 2019. Pour obtenir une description des nouvelles [fonctionnalités, consultez](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) les dernières mises à jour Skype Entreprise la suite. La prise en charge des fonctionnalités client est détaillée dans la comparaison des fonctionnalités du client de bureau pour [Skype Entreprise,](desktop-feature-comparison.md)et la documentation de l’utilisateur est [Skype Entreprise’aide.](https://support.office.com/Skype-for-business) Ce client est inclus lorsqu’un utilisateur installe Microsoft 365 ou Office 365.
 
-Un client de base gratuit qui offre moins de fonctionnalités est également disponible. Les deux versions sont disponibles en téléchargement à l’Skype Entreprise [sur tous vos appareils.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) Les différences entre les clients Complet et De base sont décrites dans la section [Limitations des clients de base.](desktop-feature-comparison.md#Full-Basic)
+Un client de base gratuit qui offre moins de fonctionnalités est également disponible. Les deux versions sont disponibles en téléchargement sur le Skype Entreprise [sur tous vos appareils.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) Les différences entre les clients Complet et De base sont décrites dans la section [Limitations du client de base.](desktop-feature-comparison.md#Full-Basic)
 
 ### <a name="skype-for-business-2016"></a>Skype Entreprise 2016
 
 Skype Entreprise 2016 est un client complet pour Skype Entreprise Server 2015 ou 2019. Consultez [les nouveautés de Skype Entreprise 2016](https://support.office.com/article/What-s-new-in-Skype-for-Business-2016-cece9f93-add1-4d93-9a38-56cc598e5781) pour obtenir une description des nouvelles fonctionnalités. La prise en charge des fonctionnalités client est détaillée dans la comparaison des fonctionnalités du client de bureau pour [Skype Entreprise,](desktop-feature-comparison.md)et la documentation de l’utilisateur est [Skype Entreprise’aide.](https://support.office.com/Skype-for-business) Ce client est inclus lorsqu’un utilisateur installe Office 365.
 
-Un client de base gratuit qui offre moins de fonctionnalités est également disponible. Les deux versions sont disponibles en téléchargement à l’Skype Entreprise [sur tous vos appareils.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) Les différences entre les clients Complet et De base sont décrites dans la section [Limitations des clients de base.](desktop-feature-comparison.md#Full-Basic)
+Un client de base gratuit qui offre moins de fonctionnalités est également disponible. Les deux versions sont disponibles en téléchargement sur le Skype Entreprise [sur tous vos appareils.](https://products.office.com/skype-for-business/download-app?tab=tabs-3) Les différences entre les clients Complet et De base sont décrites dans la section [Limitations du client de base.](desktop-feature-comparison.md#Full-Basic)
 
 ### <a name="skype-for-business-2015"></a>Skype Entreprise 2015
 
@@ -65,7 +65,7 @@ Les clients sont disponibles pour Windows Phone, iPhone/iPad et Android. Les uti
 
 Le add-in de réunion en ligne pour Skype Entreprise prend en charge la gestion des réunions à partir de Microsoft Outlook client de messagerie et de collaboration sur Windows. Le module de réunion en ligne pour Skype Entreprise logiciels s’installe automatiquement avec Skype Entreprise.
 
-### <a name="skype-for-business-web-app-and-skype-meetings-app"></a>application Application Web Skype Entreprise et Skype Meetings
+### <a name="skype-for-business-web-app-and-skype-meetings-app"></a>application Application Web Skype Entreprise réunions Skype réunion
 
 Si Skype Entreprise n’est pas installé sur l’ordinateur d’un utilisateur et que l’utilisateur clique sur un lien de réunion dans une demande de réunion sur un ordinateur Windows, l’application ou le Application Web Skype Entreprise Skype Meetings sera installé et ouvert.  Skype L’application Réunions est le client de choix pour les participants externes à votre organisation. (Notez que sur un Mac, Skype Entreprise sur Mac sera installé et ouvert.) Consultez [la page Planifier les clients de réunions (application web](meetings-clients.md) et application de réunion) pour obtenir les conditions requises pour utiliser ces clients.
 
@@ -76,11 +76,11 @@ Si Skype Entreprise n’est pas installé sur l’ordinateur d’un utilisateur 
 
 ### <a name="vdi-plugins"></a>Plug-ins VDI
 
-Un environnement VDI (Virtual Desktop Infrastructure) est utilisé dans certaines organisations où les problèmes de sécurité et de conformité sont particulièrement sensibles. L Skype Entreprise’utilisation de l’audio et de la vidéo complètes sur une connexion de ce genre nécessite de nombreuses charges de traitement audio et vidéo sur le client sur un bureau virtuel. Un logiciel de plug-in VDI supplémentaire est disponible, qui décharge ce traitement sur l’ordinateur local de l’utilisateur final et réduit la charge sur le bureau virtuel. Pour plus d’informations sur l’utilisation [de ces plug-ins,](vdi-environments.md) voir Planifier Skype Entreprise dans les environnements VDI.
+Un environnement VDI (Virtual Desktop Infrastructure) est utilisé dans certaines organisations où les problèmes de sécurité et de conformité sont particulièrement sensibles. L’Skype Entreprise avec un audio et une vidéo complets sur une connexion de ce genre nécessite de nombreuses charges de traitement audio et vidéo sur le client sur un bureau virtuel. Un logiciel de plug-in VDI supplémentaire est disponible, qui décharge ce traitement sur l’ordinateur local de l’utilisateur final et réduit la charge sur le bureau virtuel. Pour plus d’informations sur l’utilisation [de ces plug-ins,](vdi-environments.md) voir Planifier Skype Entreprise dans les environnements VDI.
 
 ### <a name="microsoft-teams-rooms"></a>Salles Microsoft Teams
 
-Salles Microsoft Teams est la dernière solution de conférence de Microsoft qui utilise une interface familière et est facilement déployée et gérée, en tirant parti de l’équipement existant tel que les panneaux PANELS pour faciliter l’installation. Salles Microsoft Teams utilise une application UWP conçue pour s’exécuter sur un Surface Pro 4 ou une Surface Pro en mode console (une fois déployée, l’application UWP est la seule application qui s’exécutera sur l’appareil) et nécessite son propre compte d’appareil sur votre implémentation. Les logiciels sont mis à jour via Windows store et Windows Update. Pour https://aka.ms/MTRDocs plus d’informations sur l’utilisation de ces consoles de salle dans votre déploiement. 
+Salles Microsoft Teams est la dernière solution de conférence de Microsoft qui utilise une interface familière et est facilement déployée et gérée, en tirant parti de l’équipement existant tel que les panneaux PARTIEL pour faciliter l’installation. Salles Microsoft Teams utilise une application UWP conçue pour s’exécuter sur un Surface Pro 4 ou une Surface Pro en mode console (une fois déployée, l’application UWP est la seule application qui s’exécutera sur l’appareil) et nécessite son propre compte d’appareil sur votre implémentation. Le logiciel est mis à jour à la fois Windows store et Windows Update. Pour https://aka.ms/MTRDocs plus d’informations sur l’utilisation de ces consoles de salle dans votre déploiement. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype Entreprise sur Surface Hub
 
@@ -95,14 +95,14 @@ Vos utilisateurs peuvent installer le client eux-mêmes à partir du [Skype Entr
 
 Certaines fonctionnalités disponibles avec Skype Entreprise Server 2015 ne sont pas disponibles dans Skype Entreprise Online ou Skype Entreprise Server 2019. Pour plus d’informations, consultez les limitations de compte d’utilisateur en ligne ou hybride pour [2015](desktop-feature-comparison.md#Online-Hybrid) ou en ligne ou hybride pour [2019.](desktop-feature-comparison.md#Online-Hybrid) Skype Entreprise Les administrateurs en ligne peuvent consulter Skype Entreprise Description du [service](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) en ligne pour obtenir des informations sur les différents plans qui leur sont proposés.
 
- Avant de déployer ou de mettre à niveau Skype Entreprise, vérifiez quels clients sont déjà utilisés dans votre organisation. Utilisez la [comparaison des fonctionnalités](desktop-feature-comparison.md) client de bureau pour Skype Entreprise comprendre l’impact de la prise en charge des fonctionnalités sur ces clients. Cela peut vous aider à communiquer les modifications apportées aux utilisateurs, à suivre le processus de déploiement et à bien comprendre les avantages de la mise à niveau vers le dernier client.
+ Avant de déployer ou de mettre à niveau Skype Entreprise, vérifiez quels clients sont déjà utilisés dans votre organisation. Utilisez la [comparaison des fonctionnalités](desktop-feature-comparison.md) du client de bureau pour Skype Entreprise comprendre l’impact de la prise en charge des fonctionnalités sur ces clients. Cela peut vous aider à communiquer les modifications apportées aux utilisateurs, à suivre le processus de déploiement et à bien comprendre les avantages de la mise à niveau vers le dernier client.
 
 ## <a name="ways-to-deploy-the-client-to-your-users"></a>Méthodes de déploiement du client pour vos utilisateurs
 <a name="BK_User_Deploy"> </a>
 
 Les programme d’installation clients sont disponibles pour les programme d’installation de type MSI et « click-to-run ». La Skype Entreprise de maintien du client peut avoir une incidence sur vos choix. Vous devez donc comprendre les points suivants :
 
-- En général, Skype Entreprise n’ajoute PAS de nouvelles fonctionnalités aux clients publiés précédemment
+- En règle générale, Skype Entreprise n’ajoute PAS de nouvelles fonctionnalités aux clients publiés précédemment
 
 - En règle générale, Skype Entreprise ne prévoit PAS d’expédition de nouvelles fonctionnalités dans le Skype Entreprise MSI après sa publication initiale. Les améliorations MSI entre les publications sont principalement de nature qualité/sécurité.
 
@@ -151,7 +151,7 @@ Consultez les articles suivants pour comprendre les fonctionnalités, plateforme
 
 - [Comparaison des fonctionnalités du client de bureau pour Skype Entreprise](desktop-feature-comparison.md)
 
-- [Comparaison des fonctionnalités du client mobile pour Skype Entreprise](mobile-feature-comparison.md)
+- [Comparaison des fonctionnalités des clients mobiles pour Skype Entreprise](mobile-feature-comparison.md)
 
 - [Windows client et prise en charge des logiciels](windows-requirements.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Planifier votre solution Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,22 +16,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Résumé : Découvrez les options de planification d’une solution de voix et de communications unifiées dans Skype Entreprise Server.'
-ms.openlocfilehash: 186836f1640402ba2b92dea349525d8f15ef644f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2cd47f1b3655166ced3bec5591a7b8197639544a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583858"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749953"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planifier votre solution Voix Entreprise dans Skype Entreprise Server
  
 **Résumé :** Découvrez les options de planification d’une solution de voix et de communications unifiées dans Skype Entreprise Server.
   
-Skype Entreprise Server offre deux options de Voix Entreprise sur site ( Voix Entreprise et Appel via le bureau) pour vous aider à intégrer le système téléphonique de votre organisation à votre déploiement Skype Entreprise Server, ce qui constitue une véritable solution de communication unifiée. Les deux options permettent aux utilisateurs d’utiliser leur client Skype Entreprise pour lancer des appels vocaux avec d’autres utilisateurs, à l’intérieur et à l’extérieur de votre organisation.
+Skype Entreprise Server offre deux options de Voix Entreprise sur site ( Voix Entreprise et Appel via le bureau) pour vous aider à intégrer le système téléphonique de votre organisation à votre déploiement Skype Entreprise Server, ce qui permet d’obtenir de vraies communications unifiées solution. Les deux options permettent aux utilisateurs d’utiliser leur client Skype Entreprise pour lancer des appels vocaux avec d’autres utilisateurs, à l’intérieur et à l’extérieur de votre organisation.
   
 Vous pouvez également utiliser les deux Voix Entreprise et Appel via le travail ensemble.
   
-- Voix Entreprise est l’offre vocale la plus complète. Il s’agit d’une solution VoIP (Voice over IP) logicielle qui fournit un ensemble de fonctionnalités très riche, notamment une intégration enrichie avec Outlook et Exchange, ainsi que de nombreuses fonctionnalités puissantes telles que les groupes Response Group, le parcage d’appel, les appels d’équipe, la prise d’appel de groupe et la prise en charge enhanced Emergency E9-1-1. Avec Voix Entreprise, les utilisateurs utilisent un périphérique audio tel qu’un casque avec leur ordinateur ou un téléphone VoIP, au lieu d’un téléphone PSTN ou PBX traditionnel.
+- Voix Entreprise est l’offre vocale la plus complète. Il s’agit d’une solution VoIP (Voice over IP) logicielle qui fournit un ensemble de fonctionnalités très riche, y compris une intégration enrichie avec Outlook et Exchange, ainsi que de nombreuses fonctionnalités puissantes telles que les groupes Response Group, le parcage d’appel, les appels d’équipe, la prise d’appel de groupe et la prise en charge enhanced Emergency E9-1-1. Avec Voix Entreprise, les utilisateurs utilisent un périphérique audio tel qu’un casque avec leur ordinateur ou un téléphone VoIP, au lieu d’un téléphone PSTN ou PBX traditionnel.
     
 - L’appel via le travail vous permet d’intégrer votre solution Skype Entreprise à vos systèmes téléphoniques PBX existants. Un utilisateur activé pour l’appel via le travail peut cliquer dans Skype Entreprise pour appeler un autre utilisateur, au sein de votre déploiement ou un utilisateur externe. L’appel est effectué à l’aide du téléphone PBX de l’utilisateur. En outre, ces utilisateurs peuvent cliquer dans Skype Entreprise pour participer à des conférences.
     
@@ -42,7 +42,7 @@ Vous pouvez également utiliser les deux Voix Entreprise et Appel via le travail
 Bien entendu, certains de vos utilisateurs peuvent être activés pour Voix Entreprise tandis que d’autres utilisent des téléphones PBX. En outre, pendant la transition vers une solution Voix Entreprise complète, vous pouvez activer les utilisateurs qui ont encore des téléphones PBX pour Voix Entreprise. Ces utilisateurs peuvent utiliser leur téléphone PBX à leur bureau et utiliser Voix Entreprise pour prendre ou recevoir des appels à l’aide d’appareils VoIP à d’autres emplacements. Si ces utilisateurs sont activés pour l’appel via le bureau, ils peuvent utiliser leur client Skype Entreprise pour contrôler leur téléphone PBX lorsqu’ils sont au bureau.
   
 > [!NOTE]
-> Le contrôle d’appel distant était une fonctionnalité proposée dans les versions précédentes de Lync Server, permettant aux utilisateurs d’utiliser leur client Skype Entreprise pour effectuer et recevoir des appels téléphoniques sur leurs téléphones PBX. Le contrôle d’appel distant n’est pas pris en charge pour les utilisateurs sur des serveurs Skype Entreprise Server, mais est pris en charge pour les utilisateurs avec des clients Skype Entreprise qui sont toujours sur des serveurs exécutant Lync Server 2013. 
+> Le contrôle d’appel distant était une fonctionnalité proposée dans les versions précédentes de Lync Server, permettant aux utilisateurs d’utiliser leur client Skype Entreprise pour effectuer et recevoir des appels téléphoniques sur leurs téléphones PBX. Le contrôle d’appel distant n’est pas pris en charge pour les utilisateurs sur des serveurs Skype Entreprise Server, mais pour les utilisateurs avec des clients Skype Entreprise qui sont toujours sur des serveurs exécutant Lync Server 2013. 
   
 ## <a name="see-also"></a>Voir aussi
 

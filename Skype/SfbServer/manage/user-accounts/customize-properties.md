@@ -1,7 +1,7 @@
 ---
 title: Personnaliser les propriétés de compte d’utilisateur Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Les procédures dans cette section vous permettent de modifier les propriétés de chaque compte d’utilisateur.
-ms.openlocfilehash: 9f145b1d1c0abd584a3771950d9960ccea30b85e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 47e1c09e898a023bbebacbeb57f855568a9a0131
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634248"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750153"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personnaliser les propriétés de compte d’utilisateur Skype Entreprise Server
  
@@ -38,7 +38,7 @@ Skype Entreprise Server options de téléphonie utilisateur sont les suivantes :
   
 - **Audio/vidéo désactivé** L’utilisateur ne peut pas effectuer d’appels avec l’audio et la vidéo.
     
-- **PC à PC uniquement** L’utilisateur peut uniquement effectuer des appels audio ou vidéo de PC à PC.
+- **PC à PC uniquement** L’utilisateur ne peut effectuer que des appels audio ou vidéo de PC à PC.
     
 - **Voix Entreprise** L’utilisateur peut utiliser l’infrastructure Skype Entreprise Server pour router tous les appels entrants et sortants. L’utilisateur peut aussi effectuer des appels de PC à PC.
     
@@ -74,7 +74,7 @@ Pour plus d’informations sur la configuration de la téléphonie pour une orga
 Vous pouvez utiliser Skype Entreprise Server de contrôle d’accès pour affecter des utilisateurs à un serveur ou pool spécifique.
   
 > [!TIP]
-> Le déplacement de tous les utilisateurs existants d’un pool source exécutant Lync Server 2010 ou une antérieure vers un pool de destination Skype Entreprise Server dans un environnement Active Directory complexe peut entraîner une réplication Active Directory plus lente. Pour éviter cela, vous pouvez utiliser des filtres de recherche pour déplacer des utilisateurs de pools exécutant Lync Server 2010 ou une édition antérieure séparément, ou vous pouvez utiliser Skype Entreprise Server Management Shell pour déplacer des utilisateurs avec des cmdlets. En outre, la fonctionnalité de filtre fonctionne avec Skype Entreprise Server utilisateurs. 
+> Le déplacement de tous les utilisateurs existants d’un pool source exécutant Lync Server 2010 ou une antérieure vers un pool de destination Skype Entreprise Server dans un environnement Active Directory complexe peut entraîner une réplication Active Directory plus lente. Pour éviter cela, vous pouvez utiliser des filtres de recherche pour déplacer des utilisateurs à partir de pools qui exécutent Lync Server 2010 ou une antérieure séparément, ou vous pouvez utiliser Skype Entreprise Server Management Shell pour déplacer des utilisateurs avec des cmdlets. En outre, la fonctionnalité de filtrage fonctionne avec Skype Entreprise Server utilisateurs. 
   
 ### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>Pour déplacer les utilisateurs sélectionnés vers un autre serveur ou pool
 
@@ -124,7 +124,7 @@ Vous pouvez utiliser Skype Entreprise Server de contrôle d’accès pour affect
     
 3. Dans la barre de navigation de gauche, cliquez sur **Utilisateurs**.
     
-4. Dans **la recherche d’utilisateur,** cliquez **sur Rechercher,** puis sur **Ajouter un filtre.**
+4. Dans **la recherche d’utilisateur,** **cliquez sur Rechercher,** puis sur **Ajouter un filtre.**
     
 5. Dans les critères de recherche, sélectionnez **Pool de serveurs d’inscriptions**, **Égal à**, **Nom de domaine complet du pool actuel**, puis cliquez sur **Rechercher**.
     

@@ -1,6 +1,6 @@
 ---
-title: Skype Système de salle et partenaires Skype Entreprise fédérés
-ms.author: v-cichur
+title: Skype Système de salle et Skype Entreprise partenaires fédérés
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: Lisez cette rubrique pour découvrir comment configurer Skype Room System pour Skype Entreprise partenaires fédérés.
-ms.openlocfilehash: 2f0a44538839fd6c722021f806bd8623f0c210ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57c143559af533e1a2a8ef6577a1fe6e9f9de660
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620510"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771666"
 ---
-# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Système de salle et partenaires Skype Entreprise fédérés
+# <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Système de salle et Skype Entreprise partenaires fédérés
  
 Lisez cette rubrique pour découvrir comment configurer Skype Room System pour Skype Entreprise partenaires fédérés.
   
-## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Système de salle et partenaires Skype Entreprise fédérés
+## <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype Système de salle et Skype Entreprise partenaires fédérés
 
 Skype Le système de salle s’appuie sur le lien Skype Entreprise réunion dans la demande de réunion du calendrier. Le lien de connexion se trouve généralement dans le corps d’une demande de réunion. Toutefois, Skype Room System dépend de ce lien pour être présent dans les propriétés MAPI du message. Lorsque cette demande de réunion est envoyée à des organisations distantes (partenaires fédérés Skype Entreprise), par défaut le système Skype Room de l’organisation distante n’affiche pas le lien de la réunion dans le calendrier. En fait, les Outlook utilisateurs de l’organisation distante ne pourront pas participer à la réunion Skype Entreprise en cliquant avec le bouton droit sur l’élément de calendrier ou à partir du rappel de réunion. Ils doivent ouvrir l’invitation à la réunion et cliquer sur Rejoindre Skype Entreprise réunion dans le corps du message. 
   

@@ -1,7 +1,7 @@
 ---
 title: Planification de la capacité de l’utilisation du modèle utilisateur pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,19 +13,19 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Cet article fournit des instructions sur le nombre de serveurs dont vous avez besoin sur un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans les modèles utilisateur dans Skype Entreprise Server.
-ms.openlocfilehash: e445311a61de36b4a291c0033f882af3147e8bd0
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 4f2027debf7a8c2f787a77149212bccf2f8c90c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011918"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750003"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planification de la capacité de l’utilisation du modèle utilisateur pour Skype Entreprise Server
 
 Cet article fournit des instructions sur le nombre de serveurs dont vous avez besoin sur un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans les modèles utilisateur dans [Skype Entreprise Server](user-models.md).
 
 > [!NOTE]
-> Toutes les recommandations de cet article supposent que vous avez installé Skype Entreprise mise à jour cumulative de novembre 2015 ou version ultérieure sur vos serveurs.
+> Toutes les recommandations de cet article supposent que vous avez installé Skype Entreprise mise à jour cumulative de novembre 2015 ou ultérieure sur vos serveurs.
 
 ## <a name="tested-hardware-platform"></a>Plateforme matérielle testée
 
@@ -46,13 +46,13 @@ Le tableau suivant résume nos recommandations.
 
 |Rôle serveur|Nombre maximal d’utilisateurs pris en charge|
 |:-----|:-----|
-|Pool frontal avec douze serveurs frontux et un serveur principal ou une paire de serveurs principal en miroir.   |80 000 utilisateurs uniques connectés simultanément, plus 50 % de points de présence multiples (MPOP) représentant des instances non mobiles, plus 40 % d’utilisateurs activés pour la mobilité pour un total de 152 000 points de terminaison.   |
+|Pool frontal avec douze serveurs frontux et un serveur principal ou une paire de serveurs frontux en miroir.   |80 000 utilisateurs uniques connectés simultanément, plus 50 % de points de présence multiples (MPOP) représentant des instances non mobiles, plus 40 % d’utilisateurs activés pour la mobilité pour un total de 152 000 points de terminaison.   |
 |Conférence A/V   |Le service de conférence A/V fourni par un pool frontal prend en charge les conférences du pool en supposant une taille maximale de conférence de 250 utilisateurs et une seule conférence de ce type s’exécutant à la fois.  <br/> **Remarque :** En outre, vous pouvez prendre en charge de grandes conférences de 250 à 1 000 utilisateurs en déployant un pool frontal distinct avec deux serveurs frontaux pour héberger les grandes conférences. Pour plus d’informations, [voir Planifier les grandes réunions dans Skype Entreprise Server](../../plan-your-deployment/conferencing/large-meetings.md).   |
 |Un serveur Edge   |12 000 utilisateurs distants simultanés.   |
 |Un directeur   |12 000 utilisateurs distants simultanés.   |
 |Surveillance et archivage   |Les services frontaux de surveillance et d’archivage s’exécutent sur chaque serveur frontal, et non sur des rôles serveur distincts.  <br/> La surveillance et l’archivage requièrent chacun leurs propres magasins de bases de données. Si vous exécutez également Exchange 2013 ou une ultérieure, vous pouvez conserver vos données d’archivage dans Exchange, plutôt que dans une base de données SQL dédiée.   |
 |Un serveur de médiation   |Le serveur de médiation coqueté avec le serveur frontal s’exécute sur chaque serveur frontal d’un pool et doit fournir une capacité suffisante pour les utilisateurs du pool. Pour un serveur de médiation autonome, consultez la section « Serveur de médiation » plus loin dans cette rubrique.   |
-|Un serveur Standard Edition Server   |Si vous utilisez des serveurs Édition Standard pour héberger des utilisateurs, nous vous recommandons vivement d’utiliser toujours deux serveurs, associés à l’aide des recommandations de planning pour la haute disponibilité et la récupération [d’urgence.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Chaque serveur de la paire peut héberger jusqu’à 2 500 utilisateurs, et en cas d’échec d’un serveur, le serveur restant peut prendre en charge 5 000 utilisateurs dans un scénario de failover.  <br/>  Si votre déploiement inclut une quantité importante de trafic audio ou vidéo, les performances du serveur peuvent être en baisse avec plus de 2 500 utilisateurs par serveur. Dans ce cas, vous devez envisager d’ajouter des serveurs Édition Standard serveurs ou de passer à Skype Entreprise Server Êdition Entreprise.  |
+|Un serveur Standard Edition Server   |Si vous utilisez des serveurs Édition Standard pour héberger des utilisateurs, nous vous recommandons vivement d’utiliser toujours deux serveurs, associés à l’aide des recommandations de planning pour la haute disponibilité et la récupération [d’urgence.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Chaque serveur de la paire peut héberger jusqu’à 2 500 utilisateurs, et si un serveur tombe en panne, le serveur restant peut prendre en charge 5 000 utilisateurs dans un scénario de failover.  <br/>  Si votre déploiement inclut une quantité importante de trafic audio ou vidéo, les performances du serveur peuvent être en baisse avec plus de 2 500 utilisateurs par serveur. Dans ce cas, vous devez envisager d’ajouter des serveurs Édition Standard serveurs ou de passer à Skype Entreprise Server Êdition Entreprise.  |
 
 ## <a name="front-end-server"></a>serveur frontal
 
@@ -69,7 +69,7 @@ Si, à la place, vous aviez démarré avec six serveurs frontaux pour vos 30 000
 
 Le nombre maximal d’utilisateurs dans un pool frontal est de 80 000. Le nombre maximal de serveurs frontux dans un pool est de 12.
 
-Pour un pool frontal de 80 000 utilisateurs, douze serveurs frontaux sont performants, dans des déploiements classiques qui suivent les modèles utilisateur dans [Skype Entreprise Server](user-models.md). Les déploiements conçus pour prendre en charge le failover de récupération d’urgence supposent qu’un maximum de 40 000 utilisateurs peuvent être hébergés dans chacun des deux pools frontaux couplés, dans lesquels chaque pool dispose de suffisamment de serveurs frontaux pour contenir les utilisateurs dans les deux pools, si un pool doit être re failed vers l’autre.
+Pour un pool frontal de 80 000 utilisateurs, douze serveurs frontaux sont performants, dans des déploiements classiques qui suivent les modèles utilisateur dans [Skype Entreprise Server](user-models.md). Les déploiements conçus pour prendre en charge leover de récupération d’urgence supposent qu’un maximum de 40 000 utilisateurs peuvent être hébergés dans chacun des deux pools frontaux couplés, dans lesquels chaque pool dispose de suffisamment de serveurs frontaux pour contenir les utilisateurs dans les deux pools, si un pool doit être retenté sur l’autre.
 
 Le nombre d’utilisateurs pris en charge avec de bonnes performances par un pool frontal particulier peut différer de ces nombres pour les raisons suivantes :
 
@@ -126,7 +126,7 @@ Lorsque vous comptez le nombre d’utilisateurs pour les directeurs, ajoutez les
 
 Si vous coloyez le serveur de médiation avec un serveur frontal, celui-là s’exécute sur chaque serveur frontal du pool et doit fournir une capacité suffisante pour les utilisateurs du pool.
 
-Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, notamment le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP que vous avez, le nombre d’homologues de passerelle que chaque pool de serveurs de médiation contrôle, le trafic aux heures de pointe via ces passerelles et le pourcentage d’appels avec un média qui contourne le serveur de médiation.
+Si vous déployez un pool de serveurs de médiation autonome, le nombre de serveurs de médiation à déployer dépend de nombreux facteurs, notamment le matériel utilisé pour le serveur de médiation, le nombre d’utilisateurs VoIP que vous avez, le nombre d’homologues de passerelle que chaque pool de serveurs de médiation contrôle, le trafic aux heures de pointe via ces passerelles et le pourcentage d’appels avec média qui contournent le serveur de médiation.
 
 Les tableaux suivants fournissent des indications sur le nombre d’appels simultanés qu’un serveur de médiation peut gérer, en supposant que le matériel des serveurs de médiation répond aux exigences des [plateformes matérielles](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) serveur et que l’hyper-thread est activé. Pour plus d’informations sur l’évolutivité du serveur de médiation, voir [Estimateing voice usage and traffic for Skype Entreprise Server](estimating-voice-traffic.md) and Deployment guidelines for Mediation Server in [Skype Entreprise Server](mediation-server-deployment-guidelines.md).
 
@@ -146,7 +146,7 @@ Tous les tableaux suivants supposent une utilisation telle qu’elle est résum�
 
 |Matériel serveur|Nombre maximal d’appels|
 |:-----|:-----|
-|Bi-processeur, hex core, processeur hyper-thread 2,26 GHz, avec 32 Go de mémoire et 2 cartes réseau de 1 Go.   |150   |
+|Bi-processeur, cœur hexadaire, processeur hyper-threadé 2,26 GHz, avec 32 Go de mémoire et 2 cartes réseau de 1 Go.   |150   |
 
 > [!NOTE]
 > Ce nombre est beaucoup plus petit que le nombre pour le serveur de médiation autonome. En effet, le serveur frontal doit gérer d’autres fonctionnalités et fonctions pour les 6 600 utilisateurs qui y sont homed, en plus du transcodage nécessaire pour les appels vocaux.

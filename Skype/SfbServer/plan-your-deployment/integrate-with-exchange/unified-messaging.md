@@ -1,7 +1,7 @@
 ---
 title: Planifier l’intégration Exchange la messagerie unifiée dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Résumé : Examinez cette rubrique lors de la planification de l’intégration Skype Entreprise Server avec Exchange 2013 ou 2016.'
-ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725673"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777984"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planifier l’intégration Exchange la messagerie unifiée dans Skype Entreprise
 
@@ -63,13 +63,13 @@ Skype Entreprise Server, Voix Entreprise utilise l’infrastructure de messageri
 
 ### <a name="exchange-server-components"></a>Composants d’Exchange Server
 
-Pour fournir les fonctionnalités et services de messagerie unifiée Exchange décrits dans fonctionnalités de messagerie unifiée et de [Skype Entreprise Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) intégrées aux utilisateurs Voix Entreprise de votre organisation, vous devez déployer un serveur de boîtes aux lettres Microsoft Exchange et un serveur d’accès au client, qui hébergent des boîtes aux lettres utilisateur et fournissent un emplacement de stockage unique pour la messagerie électronique et la messagerie vocale. Exchange La messagerie un jour s’exécute en tant que service Exchange serveurs de boîtes aux lettres et d’accès au client.
+Pour fournir les fonctionnalités et services de messagerie unifiée Exchange décrits dans fonctionnalités de messagerie unifiée et [de Skype Entreprise Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) intégrées aux utilisateurs Voix Entreprise de votre organisation, vous devez déployer un serveur de boîtes aux lettres Microsoft Exchange et un serveur d’accès au client, qui hébergent des boîtes aux lettres utilisateur et fournissent un serveur unique emplacement de stockage de la messagerie électronique et de la messagerie vocale; Exchange La messagerie un jour s’exécute en tant que service Exchange serveurs de boîtes aux lettres et d’accès au client.
 
 Pour plus d’informations sur Exchange composants de messagerie un Microsoft Exchange Server 2010, voir [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail) .
 
 ### <a name="supported-topologies"></a>Topologies prises en charge
 
-Vous pouvez déployer Skype Entreprise Server et Exchange messagerie unifiée dans la même forêt ou plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes Exchange’intégration pour chaque forêt Exchange de la Exchange de l’utilisateur. En outre, vous devez configurer chaque forêt microsoft Exchange pour qu’elle utilise la forêt Skype Entreprise Server et la forêt Skype Entreprise Server pour qu’elle utilise chaque forêt Exchange de la Exchange un jour. En plus de cette relation d’Exchange forêt, les paramètres de la Exchange de tous les utilisateurs doivent être définies sur les objets utilisateur dans la forêt Skype Entreprise Server de données.
+Vous pouvez déployer Skype Entreprise Server et Exchange messagerie unifiée dans la même forêt ou plusieurs forêts. Si le déploiement s’étend sur plusieurs forêts, vous devez effectuer les étapes Exchange’intégration pour chaque forêt Exchange de la Exchange’utilisateur. En outre, vous devez configurer chaque forêt microsoft Exchange pour qu’elle utilise la forêt Skype Entreprise Server et la forêt Skype Entreprise Server pour qu’elle utilise chaque forêt Exchange de la Exchange un jour. En plus de cette relation d’Exchange forêt, les paramètres de la Exchange de tous les utilisateurs doivent être définies sur les objets utilisateur dans la forêt Skype Entreprise Server données.
 
 Skype Entreprise Server prend en charge les topologies suivantes pour l’intégration Exchange de la Exchange :
 
@@ -91,14 +91,14 @@ Les recommandations et les meilleures pratiques à prendre en compte lors du dé
 > [!IMPORTANT]
 > Exchange La messagerie unifiée prend en charge IPv6 uniquement si vous utilisez également UCMA 4.
 
-- Déployez un Skype Entreprise Server Édition Standard ou un pool frontal.
+- Déployez un Skype Entreprise Server Édition Standard serveur ou un pool frontal.
 
 - Collaborez avec les administrateurs Exchange pour confirmer les tâches que chacun effectuera afin de garantir une intégration réussie en toute transparence.
 
 - Déployez les rôles Exchange serveur de boîtes aux lettres dans chaque forêt Exchange messagerie unifiée dans laquelle vous souhaitez activer les utilisateurs pour Exchange messagerie unifiée. Pour plus d’informations sur l’installation Exchange rôles serveur, voir Microsoft Exchange Server documentation.
 
     > [!IMPORTANT]
-    > Lorsque Exchange messagerie unifiée est installée, elle est configurée pour utiliser un certificat auto-signé. Le certificat auto-signé ne permet pas à Skype Entreprise Server et à la messagerie un Exchange de s’entre-faire mutuellement, c’est pourquoi il est nécessaire de demander un certificat distinct auprès d’une autorité de certification à laquelle les deux serveurs font confiance.
+    > Lorsque Exchange messagerie unifiée est installée, elle est configurée pour utiliser un certificat auto-signé. Le certificat auto-signé ne permet pas à la messagerie un Skype Entreprise Server et à la messagerie un Exchange de s’entre-faire mutuellement, c’est pourquoi il est nécessaire de demander un certificat distinct auprès d’une autorité de certification à laquelle les deux serveurs font confiance.
 
 - Si Skype Entreprise Server et Exchange sont installées dans des forêts différentes, configurez chaque forêt Exchange pour qu’elle fait confiance à la forêt Skype Entreprise Server et à la forêt Skype Entreprise Server pour qu’elles font confiance à chaque forêt Exchange. Définissez également les paramètres de la Exchange de l’utilisateur sur les objets utilisateur dans la forêt Skype Entreprise Server, généralement à l’aide d’un script ou d’un outil entre forêts, tel que Identity Lifecycle Manager (ILM).
 
@@ -138,7 +138,7 @@ Pour plus d’informations sur la façon d’activer ou de désactiver la messag
 
 - [Désactiver la messagerie unifiée sur Exchange 2010](/previous-versions/office/exchange-server-2010/bb123529(v=exchg.141))
 
-### <a name="exchange-server-2019"></a>Exchange Server 2019
+### <a name="exchange-server-2019"></a>Exchange Server 2019
 
 Exchange La messagerie unifiée n’est plus présente dans Exchange 2019, si vous avez Exchange 2019 et que vous souhaitez des fonctionnalités équivalentes, vous devrez utiliser le service Messagerie vocale infonuagique décrit dans [plan Messagerie vocale infonuagique service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 

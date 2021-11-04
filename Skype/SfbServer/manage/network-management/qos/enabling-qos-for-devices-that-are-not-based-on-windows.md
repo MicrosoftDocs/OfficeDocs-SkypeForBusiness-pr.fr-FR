@@ -5,7 +5,7 @@ ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Découvrez comment activer la QoS pour les appareils utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows.
-ms.openlocfilehash: eda6f1c825d00c7e8b1804ad866603b3429273d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 597f2df19ac2379bea3f618280ea1c86b2e1f8eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634258"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750173"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Activation de la QoS dans Skype Entreprise Server pour les appareils qui ne sont pas basés sur Windows
 
 
-Lorsque vous installez Skype Entreprise Server, la qualité de service (QoS) n’est pas activée pour les appareils utilisés dans votre organisation qui utilisent un système d’exploitation autre que Windows. Vous pouvez le vérifier en exécutant la commande suivante à partir de Skype Entreprise ServerManagement Shell :
+Lorsque vous installez Skype Entreprise Server, la qualité de service (QoS) n’est activée pour aucun appareil utilisé dans votre organisation qui utilise un système d’exploitation autre que Windows. Vous pouvez le vérifier en exécutant la commande suivante à partir de Skype Entreprise ServerManagement Shell :
 
 **Get-CsMediaConfiguration**
 
@@ -59,7 +59,7 @@ Si vous souhaitez activer simultanément QoS pour tous vos paramètres de config
 
 **Get-CsMediaConfiguration | Set-CsMediaConfiguration -EnableQoS $True**
 
-Vous pouvez désactiver la qualité de service pour les appareils qui utilisent un système d’exploitation autre que Windows en fixant la valeur de la propriété EnableQoS sur False. Par exemple :
+Vous pouvez désactiver la qualité de service pour les appareils qui utilisent un système d’exploitation autre que Windows en fixant la valeur de la propriété EnableQoS sur False. Par exemple :
 
 **Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False**
 

@@ -1,7 +1,7 @@
 ---
 title: Obtenir un cube
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Résumé : Découvrez l’opération Obtenir un cube, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 67ac59589de8516d6b374d61646cc88763ef7234
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb5edc6bba4c374600845d18c371332a62a6085e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617810"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739150"
 ---
 # <a name="get-cube"></a>Obtenir un cube
  
-**Résumé :** Découvrez l’opération Obtenir un cube, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez l’opération Obtenir un cube, qui fait partie de l’API de données du tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
 L’opération Obtenir un cube fait partie de l’API de données du tableau de bord de qualité des appels.
   
@@ -97,6 +97,6 @@ L’opération Obtenir un cube renvoie la liste des dimensions et mesures dispon
   
  *Dimensions*  : liste des dimensions qui peuvent être utilisées dans les sections Filtres et dimensions d’une charge utile de requête pour exécuter une requête. Pour utiliser une dimension dans une expression de filtre, vous devez spécifier un membre de dimension, qui peut être obtenu à l’aide de l’opération Obtenir les membres de dimension.
   
- *Mesures :*  liste des mesures qui peuvent être utilisées dans la section Mesures d’une charge utile de demande pour exécuter une opération de requête.
+ *Mesures :*  liste des mesures qui peuvent être utilisées dans la section Mesures d’une charge utile de demande pour exécuter une requête.
   
 
