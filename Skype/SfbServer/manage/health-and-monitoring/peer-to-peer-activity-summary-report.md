@@ -1,7 +1,7 @@
 ---
 title: Rapport de synthèse des activités D’égal à égal dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Résumé : Découvrez le rapport de synthèse des activités D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: cd228175d0b254e70d4df0019566ee7e8784b2de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0614e113ad258bd66f436d0dc74106ddd35a26cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622256"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774824"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Rapport de synthèse des activités D’égal à égal dans Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Le rapport de synthèse des activités d’égal à égal vous aide à répondre
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Accès au rapport de synthèse des activités d’égal à égal
 
-Vous pouvez accéder au rapport de synthèse des activités d’égal à égal à partir de la page d’accueil des rapports de surveillance. Vous ouvrez [le rapport de](im-report.md) messagerie instantanée D’égal à égal dans Skype Entreprise Server en cliquant sur l’une des mesures suivantes :
+Vous pouvez accéder au rapport de synthèse des activités d’égal à égal à partir de la page d’accueil des rapports de surveillance. Vous ouvrez [le rapport de messagerie](im-report.md) instantanée D’égal à égal dans Skype Entreprise Server en cliquant sur l’une des mesures suivantes :
   
 - Nombre total de sessions de messagerie instantanée d’égal à égal
     
@@ -63,11 +63,11 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres du rapport de synthèse des activités d’égal à égal**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date et heure de début de la période. Pour afficher les données par heure, entrez à la fois la date et l’heure de début comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
-|**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, Si vous sélectionnez l’intervalle Quotidien avec une date de début du 17/07/12015 et une date de fin du 28/02/2015, les données s’affichent pour les jours 8/7/12015 de 12:00 au 07/09/12015 12:00 (autrement dit, un total de 31 jours d’activité de données). <br/> |
+|**Interval** <br/> | Intervalle de temps. Sélectionnez l’une des options suivantes : <br/>  Toutes les heures (il est possible d’afficher un maximum de 25 heures) <br/>  Tous les jours (il est possible d’afficher un maximum de 31 jours) <br/>  Toutes les semaines (il est possible d’afficher un maximum de 12 semaines) <br/>  Tous les mois (il est possible d’afficher un maximum de 12 mois) <br/>  Si la période comprise entre les dates de début et de fin dépasse le nombre maximal de valeurs autorisé pour l’intervalle sélectionné, seul le nombre maximal de valeurs (à compter de la date de début) s’affiche. Par exemple, Si vous sélectionnez l’intervalle Tous les jours avec une date de début du 17/07/12015 et une date de fin du 28/02/2015, les données s’affichent pour les jours 8/7/12015 12:00 au 07/09/12015 12:00 (autrement dit, un total de 31 jours de données). <br/> |
    
 ## <a name="metrics"></a>Mesures
 
@@ -75,7 +75,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
   
 **Mesures du rapport de synthèse des activités d’égal à égal**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Toutes les heures** <br/> **Tous les jours** <br/> **Toutes les semaines** <br/> **Mensuelle** <br/> |Non  <br/> |Indique l’intervalle de temps que vous avez sélectionné dans la barre d’outils des filtres. Le cas échéant, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 17/07/12015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
 |**Nombre total de sessions d’égal à égal** <br/> |Non  <br/> |Nombre total de sessions d’égal à égal menées, quel qu’en soit le type.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Démarrer ou arrêter la capture du journal CLS dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Résumé : Découvrez comment démarrer ou arrêter une session de capture du journal du service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 051ea00f65e6bdcce563c9f4e9d3c0f634e8c09b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726953"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774610"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Démarrer ou arrêter la capture du journal CLS dans Skype Entreprise Server 2015
  
@@ -92,7 +92,7 @@ Notez que dans cet exemple, les scénarios AlwaysOn et UserReplicator sont exéc
 Vous pouvez arrêter une session de journalisation en cours avec l’applet de commande Stop-CsClsLogging. En règle générale, il n’existe pas beaucoup de situations dans lesquelles vous devez arrêter une session de journalisation. Par exemple, vous pouvez faire des recherches dans les journaux et modifier des configurations sans devoir arrêter d’abord la journalisation. Si deux scénarios sont en cours d’exécution, par exemple AlwaysOn et UserReplicator, alors que vous devez recueillir des informations relatives à l’authentification, vous devez arrêter un de ces deux scénarios (au niveau global, du site, du pool ou de l’ordinateur) avant de pouvoir lancer l’exécution du scénario  d’authentification. Pour plus d’informations, voir [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps).
   
 > [!NOTE]
-> Lorsque vous déterminez les scénarios que vous pouvez exécuter sur un déploiement, un pool ou un ordinateur donné, vous devez vous souvenir que vous êtes limité à l’exécution de deux **scénarios** par ordinateur : AlwaysOn et un scénario personnalisé. Si vous procédez à la journalisation de l’activité d’un pool, vous devez traiter ce pool globalement. Dans la plupart des cas, il n’est pas judicieux d’exécuter différents scénarios sur chaque ordinateur dans un pool. Il n’est pas non plus logique d’examiner le problème pour lequel vous recherchez des données et vous demander alors quel scénario convient le mieux pour un ordinateur donné dans le déploiement entier. Par exemple, si vous envisagez le scénario UserReplicator, l’exécution de UserReplicator sur un serveur Edge ou un pool edge n’aura que très peu de valeur. 
+> Lorsque vous déterminez les scénarios que vous pouvez exécuter sur un déploiement, un pool ou un ordinateur donné, vous devez vous souvenir que vous êtes limité à l’exécution de deux **scénarios** par ordinateur : AlwaysOn et un scénario personnalisé. Si vous procédez à la journalisation de l’activité d’un pool, vous devez traiter ce pool globalement. Dans la plupart des cas, il n’est pas judicieux d’exécuter différents scénarios sur chaque ordinateur dans un pool. Il n’est pas non plus logique d’examiner le problème pour lequel vous recherchez des données et vous demander alors quel scénario convient le mieux pour un ordinateur donné dans le déploiement entier. Par exemple, si vous envisagez le scénario UserReplicator, l’exécution de UserReplicator sur un serveur Edge ou un pool de serveurs Edge ne serait pas très importante. 
   
 Une fois que vous avez compris l’origine du problème et avez déterminé son impact, vous devez choisir soigneusement les scénarios à exécuter sur quels ordinateurs et pools. Bien qu’il soit judicieux d’exécuter le scénario AlwaysOn pour une application large, car il recueille des informations sur une grande variété de fournisseurs, certains scénarios ne sont utiles que sur certains ordinateurs ou pools. De plus, lorsque vous lancez une session de journalisation vous devez choisir au préalable le scénario offrant les meilleurs résultats. Si vous utilisez un scénario inapproprié, ou si vous utilisez un scénario qui est approprié pour la tâche mais pas adapté au niveau d’application envisagé (global, site, pool ou ordinateur), vous risquez d’obtenir des données inutiles, comme si vous n’aviez pas exécuté de scénario du tout.
   
@@ -102,14 +102,14 @@ Pour contrôler les fonctions du service de journalisation centralisée à l’a
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-Par exemple :
+Par exemple :
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Vous vous demandez peut-être : maintenant que vous avez activé la journalisation, où sont conservés les journaux ? Étant donné que vous accéderez aux informations stockées dans les journaux à l’aide de requêtes de l’shell de gestion envoyées aux agents CLS, et que vous pouvez obtenir les résultats dans plusieurs formats de fichier possibles, où, sur chaque serveur, un agent CLS conserve ses enregistrements n’est pas vraiment important à connaître.  Les fichiers journaux peuvent être enregistrés à un emplacement que vous spécifiez, que vous lisez et analysez à l’aide de divers outils, notamment **Snooper.exe** et tout outil qui peut lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie des outils de débogage Skype Entreprise Server 2015 et est disponible en téléchargement [Web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
+> Vous vous demandez peut-être : maintenant que vous avez activé la journalisation, où sont conservés les journaux ? Étant donné que vous accéderez aux informations stockées dans les journaux à l’aide de requêtes de l’shell de gestion envoyées aux agents CLS, et que vous pouvez obtenir les résultats dans plusieurs formats de fichiers possibles, où, sur chaque serveur, un agent CLS conserve ses enregistrements n’est pas vraiment important à connaître.  Les fichiers journaux peuvent être enregistrés à un emplacement que vous spécifiez, que vous lisez et analysez à l’aide de divers outils, notamment **Snooper.exe** et tout outil qui peut lire un fichier texte, tel que **Notepad.exe**. Snooper.exe fait partie des outils de débogage Skype Entreprise Server 2015 et est disponible en téléchargement [Web.](https://go.microsoft.com/fwlink/p/?LinkId=285257)
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>Pour arrêter une session du service de journalisation centralisée en cours d’exécution
 

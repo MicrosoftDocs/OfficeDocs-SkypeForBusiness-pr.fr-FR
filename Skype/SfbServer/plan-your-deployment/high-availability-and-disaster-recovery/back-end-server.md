@@ -1,7 +1,7 @@
 ---
 title: Haute disponibilité du serveur principal dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Découvrez les options de haute disponibilité du serveur principal pris en charge dans Skype Entreprise Server, notamment les groupes de disponibilité AlwaysOn, les instances de cluster de failover AlwaysOn, la mise en miroir de bases de données et le clustering de SQL de base de données.
-ms.openlocfilehash: ce84429d77b8da426913d873d99d2f70badc4d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6020f1a474c450da66fcb6fd5249db39fb0c29be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595482"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773504"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Haute disponibilité du serveur principal dans Skype Entreprise Server
  
@@ -58,7 +58,7 @@ Skype Entreprise Server prend en charge la mise en miroir avec les logiciels de 
 > [!NOTE]
 > SQL La mise en miroir est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont les seules options prise en charge avec Skype Entreprise Server 2019.
     
-La mise en miroir asynchrone des bases de données n’est pas prise en charge pour la haute disponibilité du serveur principal dans Skype Entreprise Server. Dans le reste de ce document, la mise en miroir de bases de données signifie la mise en miroir synchrone des bases de données, sauf indication contraire explicite. 
+La mise en miroir asynchrone des bases de données n’est pas prise en charge pour la haute disponibilité du serveur principal dans Skype Entreprise Server. Dans le reste de ce document, la mise en miroir de bases de données signifie la mise en miroir synchrone des bases de données, sauf mention explicite. 
   
 Lorsque vous déployez la mise en miroir de bases de données dans un pool frontal, toutes les bases de données Skype Entreprise Server du pool sont en miroir, y compris le magasin central de gestion, si elle se trouve dans ce pool, ainsi que la base de données d’application Response Group et la base de données d’application de parcage d’appel, si ces applications sont en cours d’exécution dans le pool. 
   
@@ -68,7 +68,7 @@ Vous pouvez choisir de déployer la mise en miroir de bases de données avec ou 
   
 Si vous utilisez un témoin, celui-ci peut servir pour plusieurs paires de serveurs principaux. Il n’y a aucune correspondance stricte un-à-un entre les témoins et les paires de serveurs principaux. Les déploiements utilisant un seul témoin pour plusieurs paires de serveurs principaux ne sont simplement pas aussi résilients que les topologies faisant appel à un témoin à part pour chaque paire de serveurs principaux. 
   
-### <a name="guidelines-for-planning-back-end-server-mirroring"></a>Recommandations en matière de planification de la mise en miroir de serveur principal
+### <a name="guidelines-for-planning-back-end-server-mirroring"></a>Recommandations en matière de planification de la mise en miroir de serveurs principal
 
 En général, la configuration de la mise en miroir SQL entre deux serveurs principaux avec un témoin exige ce qui suit :
   
@@ -85,7 +85,7 @@ Avant de configurer la mise en miroir de serveur, vous devez d’abord configure
 Avec la mise en miroir SQL, le mode de récupération de la base de données a toujours la valeur **Complète**, ce qui signifie que vous devez surveiller de près la taille du journal des transactions et sauvegarder les journaux des transactions de manière régulière afin d’éviter toute insuffisance d’espace disque sur les serveurs principaux. La fréquence des sauvegardes des journaux des transactions dépend de la vitesse à laquelle leur taille augmente, laquelle dépend à son tour des transactions de base de données induites par les activités des utilisateurs sur le pool frontal. Nous vous recommandons d’estimer l’accroissement des journaux des transactions pour la charge de travail de votre déploiement Lync afin de procéder à une planification en conséquence. Les articles suivants fournissent des informations supplémentaires sur la gestion des journaux et sauvegardes SQL :
   
 > [!IMPORTANT]
-> L’utilisation du Générateur de topologie ou des cmdlets pour configurer et supprimer la mise en miroir SQL est prise en charge uniquement lorsque les serveurs principal, miroir et témoin (si vous le souhaitez) appartiennent tous au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, voir votre documentation SQL Server. 
+> L’utilisation du Générateur de topologie ou des cmdlets pour configurer et supprimer la mise en miroir SQL n’est prise en charge que lorsque les serveurs principal, miroir et témoin (si vous le souhaitez) appartiennent tous au même domaine. Si vous voulez configurer la mise en miroir SQL entre des serveurs de différents domaines, voir votre documentation SQL Server. 
 
 > [!NOTE]
 > SQL La mise en miroir est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge dans Skype Entreprise Server 2019. Les groupes de disponibilité AlwaysOn, les instances de cluster de SQL AlwaysOn et les méthodes de clustering de SQL sont préférés avec Skype Entreprise Server 2019.
@@ -129,7 +129,7 @@ Skype Entreprise Server prend en charge AlwaysOn avec les logiciels de base de d
 - SQL Server 2012 SP2 et CU2 Êdition Entreprise
 
 > [!NOTE]
-> SQL Server 2019, 2017 et 2016 sont les seules versions Skype Entreprise Server 2019.
+> SQL Server 2019, 2017 et 2016 sont les seules versions prise en charge par Skype Entreprise Server 2019.
 
 > [!NOTE]
 > Les groupes de  disponibilité Always On ne sont pas pris en charge dans SQL 2016, 2017 et 2019 Standard Editions, mais vous pouvez utiliser les instances de cluster de failover Always On. Pour en savoir plus, consultez les éditions et [les fonctionnalités SQL Server 2016.](/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017)

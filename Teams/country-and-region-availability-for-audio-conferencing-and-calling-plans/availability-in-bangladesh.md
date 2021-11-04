@@ -1,7 +1,7 @@
 ---
 title: Disponibilité au Bangladesh
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams disponibles pour le Bangladesh.
-ms.openlocfilehash: 38632bc3f6d6a6c0fb7b6b81a67ff3016bd228e1
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 0c932677099389d06aaa19145a56873d96059901
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733275"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761772"
 ---
 # <a name="availability-in-bangladesh"></a>Disponibilité au Bangladesh
 

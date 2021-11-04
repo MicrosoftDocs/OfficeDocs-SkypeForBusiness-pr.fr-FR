@@ -1,7 +1,7 @@
 ---
 title: Gérer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
-description: 'Résumé : Découvrez comment gérer la haute disponibilité et la récupération d’urgence du serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: 5383a5bc1cb61e4886dcbe2087c6fb319ec4701e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Résumé : Découvrez comment gérer la haute disponibilité et la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015.'
+ms.openlocfilehash: 3b45f38f1a530e91b75693196c5e64e206b10121
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580568"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774764"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
  
-**Résumé :** Découvrez comment gérer la haute disponibilité et la récupération d’urgence du serveur de conversation permanente Skype Entreprise Server 2015.
+**Résumé :** Découvrez comment gérer la haute disponibilité et la récupération d’urgence du serveur de conversation permanente dans Skype Entreprise Server 2015.
   
 Cette rubrique décrit comment faire échouer et faire échouer le serveur de conversation permanente. Avant de lire cette rubrique, veillez à lire Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) et à configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 
@@ -49,7 +49,7 @@ La base de données de conformité de conversation permanente (mgccomp) n’est 
   
 Pour faire échouer le serveur de conversation permanente :
   
-1. Supprimer la copie des journaux de livraison de la base de données d’envoi des journaux de sauvegarde du serveur de conversation permanente.
+1. Supprimez la copie des journaux de livraison de la base de données de copie des journaux de sauvegarde du serveur de conversation permanente.
     
    - À l SQL Server Management Studio, connectez-vous à l’instance de base de données où se trouve la base de données mgc de sauvegarde du serveur de conversation permanente.
     
@@ -98,7 +98,7 @@ En cas de défaillance du serveur de conversation permanente, le centre de donn�
   
 La procédure suivante rétablit le fonctionnement normal une fois le centre de données principal sauvegardé et les serveurs reconstruits. La procédure suppose que le centre de données principal a été récupéré après une panne totale et que la base de données mgc et la base de données mgccomp ont été reconstruites et réinstallées à l’aide du Générateur de topologie.
   
-La procédure suppose également qu’aucun nouveau serveur miroir et serveur de sauvegarde n’a été déployé pendant la période de failover, et que le seul serveur déployé est le serveur de sauvegarde et son serveur miroir, comme défini précédemment dans le serveur de conversation permanente Fail over Persistent Chat Server.
+La procédure suppose également qu’aucun nouveau serveur miroir et serveur de sauvegarde n’a été déployé pendant la période de failover, et que le seul serveur déployé est le serveur de sauvegarde et son serveur miroir, comme défini précédemment dans Le serveur de conversation permanente fail over Persistent Chat.
   
 Ces étapes visent à récupérer la configuration telle qu’elle existait avant la défaillance, cette dernière ayant provoqué le basculement du serveur principal vers le serveur de sauvegarde.
   

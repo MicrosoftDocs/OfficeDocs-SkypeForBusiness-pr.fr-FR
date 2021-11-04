@@ -1,7 +1,7 @@
 ---
 title: Instructions de déploiement pour le serveur de médiation dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: Cette rubrique décrit les instructions de planification pour le déploiement du serveur de médiation.
-ms.openlocfilehash: a524d478797c534950637d10efc39e0827d2f2a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b65ff1335c32c17e61da97d90d290cf81b38ca33
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629536"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773554"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Instructions de déploiement pour le serveur de médiation dans Skype Entreprise Server
  
@@ -34,7 +34,7 @@ Le serveur de médiation est, par défaut, coqueté sur le serveur Édition Stan
     
 - Pourcentage d’appels dont le média contourne le serveur de médiation.
     
-Lors de la planification, prenez en compte les exigences de traitement multimédia pour les appels PSTN et les conférences A/V qui ne prennent pas en charge le contournement de média, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels aux heures de pointe qui doivent être pris en charge. Si vous n’avez pas assez d’UC, vous devez déployer un pool autonome de serveurs de médiation. En outre, les passerelles PSTN, les SYSTÈMES IP-PBX et les SCS doivent être divisés en sous-ensembles contrôlés par les serveurs de médiation cococérés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
+Lors de la planification, prenez en compte les exigences de traitement multimédia pour les appels PSTN et les conférences A/V qui ne prennent pas en charge le contournement de média, ainsi que le traitement nécessaire pour gérer les interactions de signalisation pour le nombre d’appels aux heures de pointe qui doivent être pris en charge. Si vous n’avez pas assez de processeur, vous devez déployer un pool autonome de serveurs de médiation. En outre, les passerelles PSTN, les SYSTÈMES IP-PBX et les SCS doivent être divisés en sous-ensembles contrôlés par les serveurs de médiation cococérés dans un pool et les serveurs de médiation autonomes dans un ou plusieurs pools autonomes.
   
 Si vous avez déployé des passerelles PSTN, des PBX IP ou des contrôleurs de frontière de session (SDC) qui n’ont pas la possibilité d’interagir avec un pool de serveurs de médiation, ils doivent être associés à un pool autonome constitué d’un serveur de médiation unique. Voici quelques-unes des choses que vos passerelles PSTN, IP-PBXs ou SCS doivent faire :
   
@@ -42,7 +42,7 @@ Si vous avez déployé des passerelles PSTN, des PBX IP ou des contrôleurs de f
     
 - Acceptez le trafic provenant de n’importe quel serveur de médiation d’un pool.
     
-Vous pouvez utiliser l’outil Skype Entreprise Planning Tool pour déterminer si la cococation du serveur de médiation avec votre pool frontal peut gérer la charge. Si votre environnement ne répond pas à ces exigences, vous devez déployer un pool de serveurs de médiation autonome.
+Vous pouvez utiliser l’Skype Entreprise de planification pour déterminer si la cococation du serveur de médiation avec votre pool frontal peut gérer la charge. Si votre environnement ne répond pas à ces exigences, vous devez déployer un pool de serveurs de médiation autonome.
   
 ## <a name="central-site-and-branch-site-considerations"></a>Considérations relatives au site central et aux sites de succursale
 
@@ -51,7 +51,7 @@ Vous pouvez utiliser l’outil Skype Entreprise Planning Tool pour déterminer s
 > [!NOTE]
 > Le contournement de média ne fonctionne pas avec toutes les passerelles PSTN, IP-PBX et SBC. Microsoft a testé un ensemble de passerelles PSTN et de SCS avec des partenaires certifiés et a effectué des tests avec cisco IP-PBX. Le contournement de média est pris en charge uniquement avec les produits et versions répertoriés dans le programme d’interopérabilité d’ouverture des communications [unifiées](http://partnersolutions.skypeforbusiness.com/solutionscatalog)- Lync Server lors de l’exploration des périphériques, de l’infrastructure et des outils testés qui la prise en charge et l’extension de Skype Entreprise expérience. 
   
-Si la résistance de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, d’un serveur de médiation et d’une passerelle doit être déployé sur le site de succursale. (L’hypothèse avec la résilience de site de succursale est que la présence et la conférence ne sont pas résilientes sur le site.) Pour obtenir des conseils sur la planification des sites de succursale pour la voix, voir [Planifier Voix Entreprise résilience dans Skype Entreprise Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
+Si la résistance de site de succursale est requise, un Survivable Branch Appliance ou une combinaison d’un serveur frontal, d’un serveur de médiation et d’une passerelle doit être déployé sur le site de succursale. (L’hypothèse avec la résilience de site de succursale est que la présence et les conférences ne sont pas résilientes sur le site.) Pour obtenir des conseils sur la planification des sites de succursale pour la voix, voir [Planifier Voix Entreprise résilience dans Skype Entreprise Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
 Pour les interactions avec un IP-PBX, si le PBX IP ne prend pas correctement en charge les interactions multimédias précoces avec plusieurs boîtes de dialogue anticipées et les interactions RFC 3960, il peut y avoir un découpage des premiers mots du message d’accueil pour les appels entrants du PBX IP vers les points de terminaison Lync. Ce comportement peut s’aggraver si un serveur de médiation sur le site central achemine les appels pour un IP-PBX là où s’arrête l’itinéraire sur un site de succursale, car la signalisation a besoin de plus de temps pour se terminer. Si vous faites l’expérience de ce comportement, le déploiement d’un serveur de médiation sur le site de succursale est le seul moyen de réduire le découpage des premiers mots.
   

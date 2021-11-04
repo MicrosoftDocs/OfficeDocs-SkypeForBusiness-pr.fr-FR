@@ -1,7 +1,7 @@
 ---
 title: Rapport de diagnostic de conférence en Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Résumé : Découvrez le rapport de diagnostic de conférence utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 578f4f2a60ca5dd1706d3b366e4decc35effeb7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c62a45c6bff7a91e6d0252ecc1a8010e5098f42b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630638"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773584"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Rapport de diagnostic de conférence en Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Notez que le compte des succès et des échecs attendus et inattendus ne corresp
   
 |**Réussites**|**Échecs attendus**|**Échecs inattendus**|**Nombre total de sessions**|
 |:-----|:-----|:-----|:-----|
-|2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
+|2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
 Si vous ajoutez 2 024 + 469 + 16, vous obtenez un total de 2 509 sessions et, pour l’instant, la colonne Nombre total de sessions affiche un total de 2 521 sessions. Les 12 sessions « manquantes » sont des sessions que le système n’a pas pu catégoriser comme réussies ou infructueuses. Ce sera parfois le cas lorsqu’un produit tiers introduit un nouveau code de diagnostic qui n’est pas familier au serveur de surveillance. Lorsque cela arrive, les appels effectués à l’aide de ce produit, et qui indiquent ce code de diagnostic, ne peuvent pas toujours être classés comme des succès ou des échecs attendus ou inattendus.
   
@@ -57,7 +57,7 @@ Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapp
   
 **Filtres du rapport de diagnostic de conférence**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -71,7 +71,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de diag
   
 **Mesures du rapport de diagnostic de conférence**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Volume d’opération réussie** <br/> |Non  <br/> |Nombre total de conférences réussies.  <br/> |
 |**Pourcentage d’opération réussie** <br/> |Non  <br/> |Pourcentage de conférences qui se sont terminées avec des problèmes importants. Calculé en divisant le volume des opérations réussies par le nombre total de sessions.  <br/> |

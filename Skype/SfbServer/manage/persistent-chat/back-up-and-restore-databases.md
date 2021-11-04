@@ -1,7 +1,7 @@
 ---
 title: Back up and restore Persistent Chat databases in Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 'Résumé : Découvrez comment back up and restore Persistent Chat Server databases in Skype Entreprise Server 2015.'
-ms.openlocfilehash: aba6ead1d666f9f257e9cd7bfa1e7d2343049b9d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f875fd62eab26873b8dcc3617de709a397f4ba8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622246"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762342"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Back up and restore Persistent Chat databases in Skype Entreprise Server 2015
  
@@ -35,9 +35,9 @@ Il existe deux façons de la backing up Persistent Chat data.
   
 - SQL Server Sauvegarde
     
-- **L’cmdlet Export-CsPersistentChatData,** qui exporte les données de conversation permanente en tant que fichier
+- Cmdlet **Export-CsPersistentChatData,** qui exporte les données de conversation permanente en tant que fichier
     
-Les données créées à l’aide de la sauvegarde SQL Server nécessitent beaucoup plus d’espace disque (20 fois plus éventuellement) que celles créées par **l';export-CsPersistentChatData,** mais la sauvegarde SQL Server est probablement une procédure que vous connaissez déjà.
+Les données créées à l’aide d’une sauvegarde SQL Server nécessitent beaucoup plus d’espace disque (20 fois plus éventuellement) que celles créées par **l';export-CsPersistentChatData,** mais la sauvegarde SQL Server est probablement une procédure que vous connaissez déjà.
   
 Si vous souhaitez utiliser des procédures SQL Server de sauvegarde, consultez la documentation de votre SQL pour plus d’informations. 
   
@@ -61,7 +61,7 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 ## <a name="restore-the-databases"></a>Restaurer les bases de données
 
-La façon dont vous restituer vos données de conversation permanente dépend de la méthode que vous avez utilisée pour les restaurer. Si vous avez utilisé SQL Server procédures de sauvegarde, vous devez utiliser SQL Server de restauration automatique. Si vous avez utilisé l’cmdlet **Export-CsPersistentChatData** pour la protection des données de conversation permanente, vous devez utiliser l';import-CsPersistentChatData pour restaurer les données : 
+La façon dont vous restituer vos données de conversation permanente dépend de la méthode que vous avez utilisée pour les restaurer. Si vous avez utilisé SQL Server procédures de sauvegarde, vous devez utiliser SQL Server de restauration automatique. Si vous avez utilisé l’cmdlet **Export-CsPersistentChatData** pour la restauration des données de conversation permanente, vous devez utiliser l’cmdlet **Import-CsPersistentChatData** pour restaurer les données :
   
 ```PowerShell
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>

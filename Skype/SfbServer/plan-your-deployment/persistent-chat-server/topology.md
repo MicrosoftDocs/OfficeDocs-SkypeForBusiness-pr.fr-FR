@@ -1,7 +1,7 @@
 ---
 title: Planifier la topologie du serveur de conversation permanente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/17/2016
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Résumé : Consultez cette rubrique pour en savoir plus sur les topologies et les composants du serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: 63c82eee1a640616aaf8f390a66b2d67678b36ff
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f50059617ca777b283a62eb8a487b59c3742327a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725943"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749933"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planifier la topologie du serveur de conversation permanente
  
-**Résumé :** Lisez cette rubrique pour en savoir plus sur les topologies et les composants du serveur de conversation permanente Skype Entreprise Server 2015.
+**Résumé :** Consultez cette rubrique pour en savoir plus sur les topologies et les composants du serveur de conversation permanente Skype Entreprise Server 2015.
   
 Le serveur de conversation permanente prend en charge les configurations à serveur unique et à plusieurs serveurs. Vous pouvez installer le serveur de conversation permanente sur un serveur Skype Entreprise Server 2015 Êdition Entreprise ou Édition Standard Server. 
 
@@ -56,7 +56,7 @@ Vous pouvez déployer un serveur de conversation permanente dans des pools à se
     
 -  Édition Standard Serveur avec serveur de conversation permanente sur un serveur distinct
     
--  Êdition Entreprise Serveur avec un serveur de conversation permanente unique sur un serveur distinct
+-  Êdition Entreprise Serveur avec un seul serveur de conversation permanente sur un serveur distinct
     
 -  Êdition Entreprise Serveur avec plusieurs serveurs de conversation permanente sur des serveurs distincts
     
@@ -99,11 +99,11 @@ La figure suivante montre tous les composants d’une topologie pour un serveur 
   
 **Topologie à un seul serveur**
 
-![Serveur de conversation permanente - Topologie à serveur unique.](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
+![Serveur de conversation permanente : topologie à serveur unique.](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Êdition Entreprise Serveur avec plusieurs serveurs de conversation permanente
 
-Avec Êdition Entreprise, vous pouvez déployer une topologie à plusieurs serveurs pour une capacité et une fiabilité accrues. Une topologie à plusieurs serveurs est identique à la topologie à serveur unique, sauf que plusieurs serveurs hébergent un serveur de conversation permanente et peuvent être plus importantes. La topologie à plusieurs serveurs peut inclure jusqu’à quatre ordinateurs actifs exécutant le serveur de conversation permanente (les configurations de haute disponibilité et de récupération d’urgence autorisent jusqu’à huit, mais seuls quatre peuvent être actifs et les quatre autres en veille). Chaque serveur peut prendre en charge jusqu’à 20 000 utilisateurs simultanés, pour un total de 80 000 utilisateurs simultanés connectés à un pool de serveurs de conversation permanente avec 4 serveurs. Plusieurs ordinateurs exécutant le serveur de conversation permanente doivent résider dans le même domaine services de domaine Active Directory que Skype Entreprise Server et le service de conformité.
+Avec Êdition Entreprise, vous pouvez déployer une topologie à plusieurs serveurs pour une capacité et une fiabilité accrues. Une topologie à plusieurs serveurs est identique à la topologie à serveur unique, sauf que plusieurs serveurs hébergent un serveur de conversation permanente et peuvent se mettre à l’échelle supérieure. La topologie à plusieurs serveurs peut inclure jusqu’à quatre ordinateurs actifs exécutant le serveur de conversation permanente (les configurations de haute disponibilité et de récupération d’urgence autorisent jusqu’à huit, mais seuls quatre peuvent être actifs et les quatre autres en veille). Chaque serveur peut prendre en charge jusqu’à 20 000 utilisateurs simultanés, pour un total de 80 000 utilisateurs simultanés connectés à un pool de serveurs de conversation permanente avec 4 serveurs. Plusieurs ordinateurs exécutant le serveur de conversation permanente doivent résider dans le même domaine services de domaine Active Directory que Skype Entreprise Server et le service de conformité.
   
 La figure suivante montre tous les composants d’une topologie à plusieurs serveurs avec plusieurs ordinateurs exécutant le serveur de conversation permanente, le service de conformité facultatif et une base de données de conformité distincte.
   

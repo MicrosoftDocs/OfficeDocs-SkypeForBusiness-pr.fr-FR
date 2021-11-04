@@ -1,7 +1,7 @@
 ---
 title: 'Fusion héritée : ajouter un ordinateur'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour définir les ordinateurs qui font partie du pool de serveurs Edge, entrez le nom de domaine complet (FQDN) d’au moins un ordinateur faisant partie du pool edge consolidé et à charge équilibrée hérité.
-ms.openlocfilehash: 133d7d212ff624098af73c41a776fbc1519d83fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5c70f907ee1e9953cfebe5d1677c6e7c46f3453c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602869"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775344"
 ---
 # <a name="legacy-merge-add-machine"></a>Fusion héritée : ajouter un ordinateur
  

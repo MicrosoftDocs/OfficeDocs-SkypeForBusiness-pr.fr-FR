@@ -1,6 +1,6 @@
 ---
 title: Déployer des clients web téléchargeables dans Skype Entreprise Server
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Résumé : Déployez l’application Application Web Skype Entreprise et Skype Réunions utilisée avec Skype Entreprise.'
-ms.openlocfilehash: 65b786cbdd999971c5825406087cd8d7f35a155e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c262ab4e9180ae9e02bc899793437a86ffe12ead
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601949"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761592"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Déployer des clients web téléchargeables dans Skype Entreprise Server
 
@@ -40,7 +40,7 @@ Application Web Skype Entreprise, Skype Meetings App et Skype Entreprise pour Ma
 
 - L’authentification ADFS multifacteur fonctionne si le participant à la réunion et l’organisateur font tous deux partie de la même organisation ou d’une organisation fédérée AD FS. L’authentification ADFS multifacteur ne fonctionne pas pour les utilisateurs fédérés Lync, car l’infrastructure web Lync Server ne la prend actuellement pas en charge.
 
-- Si vous utilisez des équilibreurs de charge matérielle, activez la persistance des cookies sur les équilibreurs de charge afin que toutes les demandes provenant des clients Application Web Skype Entreprise ou d’application Réunions soient gérées par le même serveur frontal.
+- Si vous utilisez des équilibreurs de charge matérielle, activez la persistance des cookies sur les équilibreurs de charge afin que toutes les demandes des clients Application Web Skype Entreprise ou d’application Réunions soient gérées par le même serveur frontal.
 
 - Lorsque vous établissez une relation d’confiance entre les serveurs Skype Entreprise Server et AD FS, attribuez une durée de vie de jeton suffisamment longue pour englober la durée maximale de vos réunions Skype Entreprise. Une durée de vie de jeton de 240 minutes est généralement suffisante.
 
@@ -48,9 +48,9 @@ Application Web Skype Entreprise, Skype Meetings App et Skype Entreprise pour Ma
 
 ### <a name="configure-multi-factor-authentication"></a>Configurer l’authentification multifacteur
 
-1. Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, voir le guide de déploiement des services de fédération [Active Directory 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
+1. Installez un rôle de serveur de fédération AD FS. Pour plus d’informations, voir le Guide de déploiement des services de fédération [Active Directory 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
 
-2. Créez des certificats pour AD FS. Pour plus d’informations, voir la section « [Certificats](/previous-versions/azure/azure-services/jj205462(v=azure.100)) de serveur de fédération » de la rubrique Plan for and deploy AD FS for use with single sign-on.
+2. Créez des certificats pour AD FS. Pour plus d’informations, voir la section « [Certificats](/previous-versions/azure/azure-services/jj205462(v=azure.100)) de serveur de fédération » de la rubrique Plan for and deploy AD FS for use with single sign-on topic.
 
 3. À partir Windows PowerShell’interface de ligne de commande, exécutez la commande suivante :
 
@@ -123,13 +123,13 @@ Cette procédure est facultative et s’applique Skype Entreprise Server cu5 201
 
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Activer l’application de réunion Skype réunions simplifiée
 
-1. Lorsque vous activez l’accès au réseau de distribution de contenu (CDN), les utilisateurs ont la possibilité de se connecter à CDN en ligne et d’obtenir Skype Meetings App (sur Windows) et Skype Entreprise pour Mac (sur Mac), et utilisent l’expérience simplifiée de rejoindre une réunion.
+1. Lorsque vous activez l’accès au réseau de distribution de contenu (CDN), les utilisateurs ont la possibilité de se connecter à CDN en ligne et d’obtenir l’application Skype Meetings (sur Windows) et Skype Entreprise pour Mac (sur Mac), et utilisent la réunion simplifiée. expérience.
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
-2. Autoriser l’envoi de la télémétrie de journalisation côté client à partir de la page web de connexion à une réunion ou de l’application Skype Meetings aux serveurs Microsoft (la commande par défaut est false).
+2. Autoriser l’envoi de la télémétrie de journalisation côté client à partir de la page web de connexion à une réunion ou de l’application Skype Meetings aux serveurs Microsoft (la commande est false par défaut).
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
@@ -137,7 +137,7 @@ Cette procédure est facultative et s’applique Skype Entreprise Server cu5 201
 
     Les informations envoyées à Microsoft sont strictement conformes aux [pratiques Skype Entreprise de collecte de données.](/skypeforbusiness/legal-and-regulatory/data-collection-practices)
 
-3. Définissez le délai avant de revenir à l’expérience de Application Web Skype Entreprise hébergée localement si CDN n’est pas disponible. La valeur par défaut est 6 secondes. Si cette valeur est définie sur 0, il n’y aura pas de délai d’accès.
+3. Définissez le délai avant de revenir à l’expérience Application Web Skype Entreprise hébergée localement si CDN n’est pas disponible. La valeur par défaut est 6 secondes. Si cette valeur est définie sur 0, il n’y aura pas de délai d’accès.
 
    ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)

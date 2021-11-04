@@ -1,7 +1,7 @@
 ---
 title: Table SessionDetails
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Chaque enregistrement représente une session d’égal à égal ; il peut s’agir d’un appel téléphonique VoIP-VoIP, d’une session de messagerie instantanée à deux participants ou de tout autre type de session. Vous pouvez effectuer une jointage de table avec la table Media pour rechercher les détails de chaque média impliqué dans cette session.
-ms.openlocfilehash: 830e6e2266d77487848c4e49daeaa8462460c2dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2dee827e93da94378e529964b2911ff1f79793ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615510"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762022"
 ---
 # <a name="sessiondetails-table"></a>Table SessionDetails
  
@@ -26,7 +26,7 @@ Chaque enregistrement représente une session d’égal à égal ; il peut s’
   
 Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDeskPhone ont été supprimés de la table SessionDetails utilisée dans Skype Entreprise Server 2015.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Primaire, étrangère  <br/> |Heure de la demande de session. Utilisée conjointement avec **SessionIdSeq** pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Numéro d’ID pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session.* Pour plus d’informations, voir la table Dialogs Skype Entreprise Server [2015.](dialogs.md) <br/> |
@@ -44,8 +44,8 @@ Notez que les champs IsUser1IntegratedWithDeskPhone et IsUser2IntegratedWithDesk
 |**ServerId** <br/> |int  <br/> |Étranger  <br/> |ID du serveur frontal utilisé pour cette session. Pour plus [d’informations, voir](servers.md) la table Servers. <br/> |
 |**PoolId** <br/> |int  <br/> |Étranger  <br/> |ID du pool dans lequel la session a été capturée. Pour plus [d’informations, voir](pools.md) la table Pools. <br/> |
 |**ContentTypeID** <br/> |int  <br/> |Étranger  <br/> |Type de contenu utilisé dans la session. Pour plus d’informations, voir la [table ContentTypes Skype Entreprise Server 2015.](contenttypes.md) <br/> |
-|**User1ClientVerId** <br/> |int  <br/> |Étranger  <br/> |Version de client utilisée par User1. Pour plus [d’informations, voir la table ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
-|**User2ClientVerId** <br/> |int  <br/> |Étranger  <br/> |Version de client utilisée par User2. Pour plus [d’informations, voir la table ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
+|**User1ClientVerId** <br/> |int  <br/> |Étranger  <br/> |Version de client utilisée par User1. Pour plus [d’informations, voir le tableau ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
+|**User2ClientVerId** <br/> |int  <br/> |Étranger  <br/> |Version de client utilisée par User2. Pour plus [d’informations, voir le tableau ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
 |**User1EdgeServerid** <br/> |int  <br/> |Étranger  <br/> |Serveur Edge utilisé par User1. Pour plus d’informations, voir la [table EdgeServers Skype Entreprise Server 2015.](edgeservers.md) <br/> |
 |**User2EdgeServerid** <br/> |int  <br/> |Étranger  <br/> |Serveur Edge utilisé par User2. Pour plus d’informations, voir la [table EdgeServers Skype Entreprise Server 2015.](edgeservers.md) <br/> |
 |**IsUser1Internal** <br/> |bit  <br/> ||Indique si User1 est connecté en interne.  <br/> |

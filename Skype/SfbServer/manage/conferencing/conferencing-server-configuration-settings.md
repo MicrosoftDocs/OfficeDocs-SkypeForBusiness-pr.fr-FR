@@ -1,7 +1,7 @@
 ---
 title: Gérer les paramètres de configuration du serveur de conférence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Résumé : Découvrez comment gérer les paramètres de configuration du serveur de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 7ba225920fd511d70efe1e063cb77dbd77d9721f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14fed927e18d291cf17a5c00ee82dac7ef80a6d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623726"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773704"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration du serveur de conférence dans Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Cette rubrique décrit comment gérer les paramètres de configuration de confé
   
 Les paramètres de configuration de conférence déterminent des éléments tels que la taille maximale autorisée pour le contenu et les handouts de réunion. quantité maximale de bande passante pour le service de conférence de partage d’application ; limites de stockage et périodes d’expiration ; URL pour les téléchargements internes et externes du client pris en charge ; pointeurs vers des URL internes et externes où les utilisateurs peuvent obtenir de l’aide et des ressources de conférence ; et les ports utilisés pour le partage d’application, l’audio client, les transferts de fichiers et le trafic multimédia. Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres peuvent être définies à l’aide Skype Entreprise Server Management Shell.
   
-Lorsque vous installez Skype Entreprise Server, le système vous fournit une collection unique de paramètres de configuration de conférence (la collection globale). Si vous souhaitez créer des paramètres personnalisés pour un site ou un service, utilisez l’applet de commande **New-CsConferencingConfiguration**. Notez que les nouveaux paramètres ne peuvent être appliqués qu’au niveau de l’étendue Site ou Service . Vous ne pouvez pas créer une collection globale de paramètres de configuration de  conférence, mais vous pouvez modifier la collection globale à l’aide de l'; En outre, aucun site ou service ne peut héberger plus d’une collection de paramètres. Si vous essayez de créer de nouveaux paramètres pour le site Redmond et que le site Redmond héberge déjà une collection de paramètres de configuration de conférence, votre commande échouera.
+Lorsque vous installez Skype Entreprise Server, le système vous fournit une collection unique de paramètres de configuration de conférence (la collection globale). Si vous souhaitez créer des paramètres personnalisés pour un site ou un service, utilisez l’applet de commande **New-CsConferencingConfiguration**. Notez que les nouveaux paramètres ne peuvent être appliqués qu’au niveau de l’étendue Site ou Service . Vous ne pouvez pas créer une collection globale de paramètres de configuration de conférence, mais vous pouvez modifier la collection globale à l’aide de **l';set-CsConferencingConfiguration.** En outre, aucun site ou service ne peut héberger plus d’une collection de paramètres. Si vous essayez de créer de nouveaux paramètres pour le site Redmond et que le site Redmond héberge déjà une collection de paramètres de configuration de conférence, votre commande échouera.
   
 ## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Gérer les paramètres de configuration de conférence à l’aide Skype Entreprise Server Management Shell
 

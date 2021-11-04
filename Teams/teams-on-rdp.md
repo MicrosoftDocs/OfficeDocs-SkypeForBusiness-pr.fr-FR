@@ -1,7 +1,7 @@
 ---
 title: Utiliser des Teams avec les services Bureau à distance
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 063ded4b2e2963ab30126c5af967017bf4981cef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605570"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774364"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams dans les Services Bureau à distance
 
@@ -35,7 +35,7 @@ Les services Bureau à distance sont la plateforme de choix pour créer des solu
 Les services RdS offrent une flexibilité, une efficacité de coût et une extensibilité du déploiement. Les services Bureau à jour sont disponibles via diverses options de déploiement, notamment des Windows Server 2016 pour les déploiements locaux, des Microsoft Azure pour les déploiements dans le cloud et un vaste éventail de solutions partenaires.
 En fonction de votre environnement et de vos préférences, vous pouvez configurer la solution rds pour la virtualisation basée sur les sessions, en tant qu’infrastructure VDI (Virtual Desktop Infrastructure).
 
-Pour le moment, Teams dans un environnement de services Bureau à distance est disponible avec la prise en charge de la collaboration et de la fonctionnalité de conversation. Pour garantir une expérience utilisateur optimale, suivez les instructions de cet article.
+Pour l’instant, Teams dans un environnement de services Bureau à distance est disponible avec la prise en charge de la collaboration et de la fonctionnalité de conversation. Pour garantir une expérience utilisateur optimale, suivez les instructions de cet article.
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams sur les rds avec la conversation et la collaboration
 
@@ -74,7 +74,7 @@ Vous pouvez également suivre les étapes suivantes :
 1. Dans le navigation gauche du Microsoft Teams d’administration, allez à la stratégie que vous voulez attribuer. Par exemple :
 
     - Allez à **la**  >  **stratégie d’appel** vocal, puis **sélectionnez DisallowCalling.**
-    - Allez dans **stratégies**  >  **de réunion Réunions,** puis **sélectionnez AllOff.**
+    - Allez dans **stratégies**  >  **de réunion Réunions,** puis sélectionnez **AllOff.**
 
 2. Sélectionnez **Gérer les utilisateurs**.
 3. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.

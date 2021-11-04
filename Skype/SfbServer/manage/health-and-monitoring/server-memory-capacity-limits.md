@@ -1,7 +1,7 @@
 ---
 title: Surveiller les limites de capacité de mémoire du serveur dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Résumé : Découvrez comment surveiller les limites de capacité de mémoire des serveurs dans Skype Entreprise Server.'
-ms.openlocfilehash: 224de5c2727efe02ba2303a2eeb30e189ed4d67e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df24f96c8fca1927c1222e2bf42981f5cebf7aac
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595514"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768702"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Surveiller les limites de capacité de mémoire du serveur dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ ms.locfileid: "58595514"
   
 Deux compteurs de performances de mobilité peuvent vous aider à déterminer votre utilisation actuelle et à planifier la capacité du service Skype Entreprise Server Mobility Service (Mcx), ainsi qu’à surveiller l’utilisation de la mémoire pour UCWA. Pour UCWA, la catégorie de compteur est **LS:WEB - UCWA**. Pour le service de mobilité (Mcx), les compteurs sont sous la catégorie **LS:WEB - Mobile Communication Service**. Les compteurs à surveiller sont :
   
-- Nombre de **sessions actives** avec abonnements de présence actifs, qui est le nombre actuel de points de terminaison enregistrés via UCWA ou le service de mobilité (Mcx) qui ont des abonnements de présence actifs (nombre d’utilisateurs mobiles toujours connectés)
+- Nombre de sessions actuellement actives avec **abonnements** de présence actifs, qui est le nombre actuel de points de terminaison enregistrés via UCWA ou le service de mobilité (Mcx) qui disposent d’abonnements de présence actifs (nombre d’utilisateurs mobiles toujours connectés)
     
 - **Nombre de sessions** actuellement actives, qui est le nombre actuel de points de terminaison enregistrés via UCWA ou le service de mobilité
     
@@ -44,7 +44,7 @@ Pour déterminer les limites appropriées, vous devez d’abord déterminer la q
 Mémoire totale utilisée par le service de mobilité Mcx (Mo) = 164 + (400 + 134) / 1024 * Nombre de **sessions actives** avec abonnements de présence actifs + 400 / 1024 * ( Nombre de **sessions** actuellement actives avec abonnements de présence  -  **actifs)**
   
 > [!IMPORTANT]
-> Le calculateur de capacité Microsoft Lync Server 2010 est une feuille de calcul prérepxée avec toutes les formules qui permettent à un planificateur de déterminer les conditions requises pour les serveurs Skype Entreprise, y compris le processeur, la mémoire et le disque dur. Vous pouvez [télécharger la feuille de calcul et un document associé.](https://go.microsoft.com/fwlink/p/?LinkID=212657) 
+> La calculatrice de capacité Microsoft Lync Server 2010 est une feuille de calcul prérepxée avec toutes les formules qui permettent à un planificateur de déterminer les conditions requises pour les serveurs Skype Entreprise, y compris le processeur, la mémoire et le disque dur. Vous pouvez [télécharger la feuille de calcul et un document associé.](https://go.microsoft.com/fwlink/p/?LinkID=212657) 
   
 Le serveur frontal a besoin de suffisamment de mémoire disponible pour prendre en charge le service de mobilité en cas de panne. Vous pouvez surveiller la mémoire disponible actuelle sur le serveur frontal à l’aide du compteur **Memory\Available Mbytes,** ou à l’aide de l’équation mentionnée précédemment, pour planifier la quantité de mémoire que le service de mobilité utilisera.
   

@@ -1,7 +1,7 @@
 ---
 title: Utilisation des rapports de surveillance dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Résumé : Découvrez les rapports de surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: 88f5a092c1bf8bc2879be40ed2b3e8f29911b257
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aee3f8b3b53bf0d1273775ddd05f83ec74861904
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596578"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774924"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Utilisation des rapports de surveillance dans Skype Entreprise Server 
  
@@ -33,7 +33,7 @@ Pour utiliser ces rapports, vous devez installer les rapports de surveillance su
     
 - [Rapports d’utilisation du système Skype Entreprise Server](system-usage-reports.md) Fournit des informations d’utilisation système basées sur les données d’Skype Entreprise Server.
     
-- [Rapports de diagnostic des appels (par utilisateur) Skype Entreprise Server](call-diagnostic-reports-per-user.md) Fournit des informations par utilisateur sur les sessions d’égal à égal et de conférence qui ont échoué.
+- [Rapports de diagnostic des appels (par utilisateur) dans Skype Entreprise Server](call-diagnostic-reports-per-user.md) Fournit des informations par utilisateur sur les sessions d’égal à égal et de conférence qui ont échoué.
     
 - [Rapports de diagnostic des appels dans Skype Entreprise Server](call-diagnostic-reports.md) Fournit des informations récapitulatifs et des données de diagnostic pour les sessions d’égal à égal et de conférence qui ont échoué.
     
@@ -41,7 +41,7 @@ Pour utiliser ces rapports, vous devez installer les rapports de surveillance su
     
 ## <a name="locating-records"></a>Recherche d’enregistrements
 
-Les rapports de surveillance affichent uniquement une quantité limitée d’enregistrements à l’écran. La quantité réelle d’enregistrements affichés sur un écran dépend du rapport. Pour afficher les enregistrements qui ne sont pas actuellement affichés à l’écran, vous pouvez utiliser le contrôle avant et arrière standard (disponible dans la barre d’outils de chaque rapport) qui vous permet de consulter les données. Vous pouvez également accéder rapidement à la première ou dernière page du jeu de données.
+Les rapports de surveillance affichent uniquement une quantité limitée d’enregistrements à l’écran. La quantité réelle d’enregistrements affichés sur un écran dépend du rapport. Pour afficher les enregistrements qui ne sont pas actuellement affichés à l’écran, vous pouvez utiliser les contrôles standard avant et arrière (disponibles dans la barre d’outils de chaque rapport) qui vous permettent de consulter les données. Vous pouvez également accéder rapidement à la première ou dernière page du jeu de données.
   
 Outre ces contrôles, vous pouvez accéder à une page quelconque du jeu de données en tapant simplement son numéro dans la zone **Page actuelle**, puis en appuyant sur Entrée.
   

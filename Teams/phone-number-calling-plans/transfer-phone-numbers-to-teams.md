@@ -1,7 +1,7 @@
 ---
 title: Transférer des numéros de téléphone vers Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser l’Assistant Transfert pour transférer votre numéro de téléphone de votre fournisseur de services actuel vers Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733075"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761742"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transférer des numéros de téléphone vers Microsoft Teams
 
@@ -38,11 +38,11 @@ Avant de commencer, nous vous recommandons de passer en revue les informations d
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Créer une demande de transfert et transférer vos numéros de téléphone vers Teams
 
 > [!NOTE]
-> Pour l’instant, vous pouvez utiliser cet Assistant pour obtenir des numéros de téléphone pour le **Royaume-Uni, les États-Unis et le Canada.** Pour obtenir des numéros de téléphone pour d’autres pays et régions, vous pouvez [envoyer manuellement une demande de port.](manually-submit-port-order.md) Pour obtenir le formulaire que vous devez envoyer manuellement une demande de port, sélectionnez votre pays ou région dans la liste de listes de listes dans Gérer les numéros de téléphone [pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+> Pour l’instant, vous pouvez utiliser cet Assistant pour obtenir des numéros de téléphone pour le **Royaume-Uni, les États-Unis et le Canada.** Pour obtenir des numéros de téléphone pour d’autres pays et régions, vous pouvez [envoyer manuellement une demande de port.](manually-submit-port-order.md) Pour obtenir le formulaire dont vous avez besoin pour envoyer manuellement une demande de port, sélectionnez votre pays ou région dans la liste de listes de listes dans Gérer les numéros de téléphone [pour votre organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur **Numéros** Téléphone  >  **voix.** Cliquez **sur Numéros,** puis sur **Port** pour démarrer l’Assistant De portage.
 2. Consultez les informations de **la** page Commencer, puis cliquez sur Suivant lorsque vous **êtes prêt.**
-3. Dans la page **Sélectionner un emplacement et un type de** numéro, spécifiez ce qui suit, puis cliquez sur **Suivant**:
+3. Dans la page **Sélectionner un emplacement et le type de** numéro, spécifiez ce qui suit, puis cliquez sur **Suivant**:
 
     - **Pays ou région**: pays ou région dans lequel vous avez des numéros.
     - **Téléphone type de numéro**: Type de numéro, par exemple des numéros géographiques ou gratuits.

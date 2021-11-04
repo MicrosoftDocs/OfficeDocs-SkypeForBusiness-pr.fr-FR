@@ -1,7 +1,7 @@
 ---
 title: 'Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
-ms.openlocfilehash: 3af54cc96418fdd5d55576947e6a0e59b1cbc485
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be0e6ee522d3bff98ab87cc8bbab7057499b0ede
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596798"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775204"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante
 
@@ -68,7 +68,7 @@ La liste suivante décrit les champs de la page.
 - **Autoriser plusieurs flux vidéo** Si vous avez activé la vidéo en **audio/vidéo,** activez cette case à cocher pour permettre aux utilisateurs d’organiser des conférences avec la vidéo de la vue Galerie. Lorsque cette case à cocher est sélectionnée, ce paramètre permet aux utilisateurs d’organiser des conférences qui envoient plusieurs flux vidéo. Lorsque cette case à cocher n’est pas sélectionnée, les utilisateurs peuvent uniquement organiser des conférences qui envoient un flux vidéo unique.
 
     > [!NOTE]
-    > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option Activer **la participation des participants à plusieurs** flux vidéo détermine si les participants peuvent recevoir plusieurs flux vidéo.
+    > Cette option détermine le type de flux vidéo pris en charge par la conférence. Il ne détermine pas si les participants peuvent recevoir plusieurs flux vidéo. L’option Activer **la participation des participants à** plusieurs flux vidéo détermine si les participants peuvent recevoir plusieurs flux vidéo.
 
 - **Collaboration de données** Spécifiez si la conférence autorise ou non la collaboration de données. Les options sont **Aucune ou** Activer la collaboration **de données.**
 
@@ -76,7 +76,7 @@ La liste suivante décrit les champs de la page.
 
   - **Autoriser les participants fédérés et anonymes à télécharger du contenu** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les utilisateurs externes et non authentifiés à télécharger du contenu, tel que des diapositives ou des présentations, à partir d’une conférence.
 
-  - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les transferts de fichiers vers tous les participants pendant une conférence.
+  - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les transferts de fichiers à tous les participants pendant une conférence.
 
   - **Activer les annotations** Si vous autorisez la collaboration de données, cochez cette case pour permettre aux participants d’effectuer des annotations à l’écran sur le contenu partagé pendant la conférence.
 

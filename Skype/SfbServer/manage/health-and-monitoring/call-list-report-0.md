@@ -1,7 +1,7 @@
 ---
 title: Rapport de liste d’appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Résumé : Découvrez le rapport de liste d’appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599003"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762412"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Rapport de liste d’appels dans Skype Entreprise Server
  
@@ -59,7 +59,7 @@ Le rapport de liste d’appels est accessible à partir de l’un des rapports s
     
 - Rapport [sur les performances du serveur Skype Entreprise Server](server-performance.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
-À partir du rapport de liste d’appels, vous pouvez accéder au rapport détaillé des appels [Skype Entreprise Server](call-detail-report.md) en cliquant sur la mesure Détail.
+À partir du rapport de liste d’appels, vous pouvez accéder au rapport détaillé des appels [Skype Entreprise Server](call-detail-report.md) en cliquant sur la mesure Détails.
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>Utilisation du rapport des listes d’appels au mieux
 
@@ -73,11 +73,11 @@ Aucun. Vous ne pouvez pas filtrer le rapport de liste d’appels.
 
 Le tableau suivant répertorie les informations fournies dans le rapport des listes d’appels pour chaque appel.
   
-**Mesures du rapport de liste d’appels**
+**Mesures du rapport des listes d’appels**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
-|**Details** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport affiche des informations supplémentaires sur l’appel.  <br/> |
+|**Détails** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport affiche des informations supplémentaires sur l’appel.  <br/> |
 |**Caller** <br/> |Oui  <br/> |Adresse SIP de la personne qui a initié l’appel.  <br/> |
 |**Appelé** <br/> |Oui  <br/> |Adresse SIP de la personne qui a été appelée.  <br/> |
 |**Heure de début** <br/> |Oui  <br/> |Date et heure de début de l’appel.  <br/> |

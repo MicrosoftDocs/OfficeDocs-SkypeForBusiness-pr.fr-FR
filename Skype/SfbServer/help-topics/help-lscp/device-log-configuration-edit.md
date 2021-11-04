@@ -1,7 +1,7 @@
 ---
 title: Modification de la configuration du journal des périphériques
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Vous pouvez ajouter une nouvelle configuration de fichier journal de périphérique dans la page Modifier les paramètres de journalisation qui détermine la taille maximale du cache des journaux, la taille maximale des fichiers journaux ou la durée de conservation d’un fichier journal avant sa suppression. Vous pouvez modifier ces paramètres en fonction des besoins de votre organisation.
-ms.openlocfilehash: ff199e0fcf7257137307211827bd6d9a0e8a4c4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7f4dbd16ca9bbf03a74f84cfba15ca93e695743
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579018"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768972"
 ---
 # <a name="device-log-configuration-edit"></a>Configuration du fichier journal de l’appareil : Modifier
  
@@ -41,11 +41,11 @@ Vous pouvez effectuer les tâches suivantes dans la page **Modifier les paramèt
 
 Les listes suivantes décrivent les menus, commandes, champs et propriétés de la page.
   
-- **Étendue** Identifie l’étendue (globale ou site) de la configuration du journal de l’appareil.
+- **Étendue** Identifie l’étendue (globale ou site) de la configuration du journal de périphérique.
     
-- **Nom** Vous pouvez ajouter ou modifier le nom de la configuration du journal de l’appareil.
+- **Nom** Vous pouvez ajouter ou modifier le nom de la configuration du journal de périphérique.
     
-- **Taille de fichier maximale (octets)** Vous pouvez spécifier la taille maximale qu’un fichier journal peut atteindre avant d’être purgé. La valeur par défaut est 1 024 000 octets (1 Mo).
+- **Taille maximale du fichier (octets)** Vous pouvez spécifier la taille maximale qu’un fichier journal peut atteindre avant d’être purgé. La valeur par défaut est 1 024 000 octets (1 Mo).
     
 - **Taille maximale du cache (octets)** Vous pouvez spécifier la quantité maximale d’informations (en octets) qui peut être détenue dans le cache de fichiers journaux avant que ce cache ne soit effacé et que les données soient écrites dans un fichier journal. La valeur par défaut est 512 000 octets (0,5 Mo).
     

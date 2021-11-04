@@ -1,7 +1,7 @@
 ---
-title: Création de données de qualité de l’expérience (QoE) ou modification d’une donnée existante
+title: Les données de qualité de l’expérience (QoE) en créent une autre ou en modifient une existante
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 6f00f9351d6c1bc9939c49c674bfa89218867842
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5dbb15b9bb6aef0ea9f144488c22c5f32564b649
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593988"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775644"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Données de qualité de l’expérience (QoE) : création de nouvelles données ou modification de données existantes
  

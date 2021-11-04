@@ -1,7 +1,7 @@
 ---
 title: Activer le parc d’appel pour les utilisateurs Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Activez les utilisateurs pour le parc Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: bb83631b86171ad113a1009c5efc927b754411ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 262821cfef675c3af631cacd38f0cca4f2195fe7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585676"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775784"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Activer le parc d’appel pour les utilisateurs Skype Entreprise
  
@@ -29,7 +29,7 @@ Activez les utilisateurs pour le parc Skype Entreprise Server Voix Entreprise.
   
 Par défaut, le parc d’appel est désactivé pour tous les utilisateurs. Les utilisateurs ne peuvent pas parer des appels ou récupérer des appels par parcés tant qu’ils n’ont pas été activés pour le parcier d’appel dans la stratégie de voix.
   
-Vous pouvez activer le parc d’appel au niveau de l’étendue globale, de l’étendue Site ou utilisateur. L’étendue d’utilisateur est prioritaire sur l’étendue du site et l’étendue du site est prioritaire sur l’étendue globale. Si vous avez plusieurs stratégies de voix, examinez toutes les stratégies pour activer le parcier d’appel, pas seulement la stratégie globale.
+Vous pouvez activer le parcer d’appel au niveau de l’étendue globale, du site ou de l’utilisateur. L’étendue d’utilisateur est prioritaire sur l’étendue du site et l’étendue du site est prioritaire sur l’étendue globale. Si vous avez plusieurs stratégies de voix, examinez toutes les stratégies pour activer le parcier d’appel, et pas seulement la stratégie globale.
   
 ### <a name="to-use-skype-for-business-server-control-panel-to-enable-call-park-for-users"></a>Pour utiliser le Panneau de Skype Entreprise Server pour activer le parcier d’appel pour les utilisateurs
 

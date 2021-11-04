@@ -1,7 +1,7 @@
 ---
 title: Outil de planification du contrôle d’admission des appels
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: Le contrôle d’admission des appels (CAC) détermine s’il faut autoriser l’établir des sessions de communication en temps réel, telles que des appels vocaux ou vidéo, en fonction de la bande passante réseau disponible.
-ms.openlocfilehash: 854fa2bae096854b472d295557894ef7274565b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 627de89fa2294b4dc9766bab415e1fde9cb08933
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593588"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762252"
 ---
 # <a name="call-admission-control-planning-tool"></a>Outil de planification du contrôle d’admission des appels
  

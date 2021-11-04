@@ -1,7 +1,7 @@
 ---
 title: Considérations relatives au mode Teams uniquement
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
@@ -22,16 +22,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f1c33f102c76b6443e9b206ebcdf6921dff08e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93c45670207729cbfcf42620aa235803b3c50e02
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636448"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774334"
 ---
 # <a name="teams-only-mode-considerations"></a>Considérations relatives au mode Teams uniquement
 
-Les administrateurs de Microsoft 365 organisations Office 365 peuvent mettre à niveau des utilisateurs individuels ou l’ensemble du client vers Teams mode uniquement.  
+Les administrateurs de Microsoft 365 organisations Office 365 peuvent mettre à niveau des utilisateurs individuels ou du client entier vers Teams mode Uniquement.  
 
 [!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement.md)]
 
@@ -42,13 +42,13 @@ Bien que des milliers de clients soient passé à Microsoft Teams, certains él�
 > [!IMPORTANT]
 > Si vous ne faites que commencer votre planification de mise à niveau, n’oubliez pas de consulter notre guide de mise à niveau Microsoft Teams votre équipe de [mise à](upgrade-start-here.md) niveau. 
 
-**Considérations en coexistence**: Les organisations qui utilisent déjà Skype Entreprise Online et/ou Skype Entreprise Server peuvent introduire des Teams dans leur environnement au rythme de leurs besoins. Les organisations peuvent déployer de façon incrémentielle Teams vers un ensemble d’utilisateurs souhaité, et les utilisateurs qui utilisent Teams peuvent communiquer avec les utilisateurs qui utilisent Skype Entreprise et inversement. Pour gérer cette expérience, les administrateurs utilisent les modes de coexistence qui définissent l’expérience client des utilisateurs finaux, le comportement de routage des conversations et appels entrants, et le fait que les nouvelles réunions soient programmées dans Teams ou Skype Entreprise. Les utilisateurs peuvent se fédérer avec des utilisateurs d’autres organisations si la mise à niveau vers **Teams uniquement**; Toutefois, la meilleure expérience est fournie lorsque les deux utilisateurs utilisent Teams. Les utilisateurs qui ont été mis à niveau vers Teams peuvent tout de même participer Skype Entreprise réunions. 
+**Considérations en coexistence**: Les organisations qui utilisent déjà Skype Entreprise Online et/ou Skype Entreprise Server peuvent introduire des Teams dans leur environnement au rythme de leurs besoins. Les organisations peuvent déployer incrémentiellement des Teams vers un ensemble d’utilisateurs souhaité, et les utilisateurs qui utilisent Teams peuvent communiquer avec les utilisateurs qui utilisent Skype Entreprise et inversement. Pour gérer cette expérience, les administrateurs utilisent les modes de coexistence qui définissent l’expérience client des utilisateurs finaux, le comportement de routage des conversations et appels entrants, et le fait que les nouvelles réunions soient programmées dans Teams ou Skype Entreprise. Les utilisateurs peuvent se fédérer avec des utilisateurs d’autres organisations si la mise à niveau vers **Teams uniquement**; Toutefois, la meilleure expérience est fournie lorsque les deux utilisateurs utilisent Teams. Les utilisateurs qui ont été mis à niveau vers Teams peuvent tout de même participer Skype Entreprise réunions. 
 
 > [!IMPORTANT]
 > Pour plus d’informations sur la coexistence, voir Comprendre la coexistence et Microsoft Teams et Skype Entreprise coexistence et [l’interopérabilité.](teams-and-skypeforbusiness-coexistence-and-interoperability.md) Pour plus d’informations sur Teams et Skype (grand public), voir Teams [et Skype interopérabilité.](teams-skype-interop.md)
 
 
-**Considérations spécifiques** à l’utilisateur : certains scénarios utilisateur évoluent toujours et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs dans l’organisation. En particulier, nous travaillons toujours sur la recherche de scénarios pour les utilisateurs dont l’appareil principal est VDI. Pour les annonces de site, surveillez la feuille [de route Microsoft 365'action.](https://www.microsoft.com/microsoft-365/roadmap)
+**Considérations spécifiques** à l’utilisateur : Certains scénarios d’utilisateurs évoluent toujours et les administrateurs peuvent décider de différer temporairement la mise à niveau de certains utilisateurs lors de la mise à niveau d’autres utilisateurs dans l’organisation. En particulier, nous travaillons toujours sur la recherche de scénarios pour les utilisateurs dont l’appareil principal est VDI. Pour les annonces de site, surveillez la feuille [Microsoft 365 de projet.](https://www.microsoft.com/microsoft-365/roadmap)
 
 > [!NOTE]
 > Avant de passer en Teams vous devez remplacer ou mettre à jour les appareils qui ne le sont pas Teams. 

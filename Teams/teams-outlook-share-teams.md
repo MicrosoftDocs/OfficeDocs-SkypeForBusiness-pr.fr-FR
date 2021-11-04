@@ -1,7 +1,7 @@
 ---
-title: Partager avec d’autres Teams
+title: Partager en Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -14,18 +14,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebbfeecf72be2d042e3686d11be98d3343a3d5f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd8e31f83927c459f4a188f7316d000c13e5ef91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633978"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774264"
 ---
 # <a name="share-to-teams-from-outlook"></a>Partager du Teams à partir de Outlook
 
 Partager vers Teams à partir d’Outlook (Partager vers Teams) permet aux utilisateurs de partager des messages électroniques, y compris des pièces jointes, de Outlook à une conversation ou un canal dans Teams.
 
-## <a name="outlook-add-in-for-share-to-teams"></a>Outlook pour partager avec les Teams 
+## <a name="outlook-add-in-for-share-to-teams"></a>Outlook le partage avec les Teams 
 
 La fonctionnalité Partager Teams nécessite un module pour les Outlook. Ce module est installé automatiquement chaque fois qu’un utilisateur se connecte à l’application Teams Web ou au client Teams bureau.
 
@@ -36,7 +36,7 @@ La boîte de Teams utilise le même mécanisme de transport que lorsqu’un util
 
 Le Outlook pour partager vers Teams utilise l’exigence 1.7, comme détaillé dans la documentation des [modules](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)Outlook, qui comprend des détails sur les Outlook, les exigences d’environnement pour les Outlook et les clients Outlook spécifiques pris en charge avec l’exigence définie 1,7.
 
-## <a name="enabling-or-disabling-share-to-teams"></a>Activation ou désactivation du partage sur Teams
+## <a name="enabling-or-disabling-share-to-teams"></a>Activation ou désactivation de l’action Partager sur Teams
 
 Le Outlook pour le partage à Teams peut être désactivé ou activé de manière sélective pour chaque utilisateur à l’aide des cmdlets PowerShell suivantes.
 
@@ -54,4 +54,4 @@ Share to Teams, dans les clients Outlook sur le web et Outlook bureau, utilise u
 > [!IMPORTANT]
 > Le partage Teams nécessite que les cookies tiers et l’accès au stockage local soient activés pour les navigateurs des utilisateurs.
 
-La fonction Partager vers Teams utilise l' signer unique, ce qui signifie que les utilisateurs n’ont pas besoin de fournir leurs informations d’identification lors de l’utilisation du module via l’outil Partager Teams. L’osO Outlook sur le web prend en charge les URL de réponse https://outlook.office365.com/owa/extSSO.aspx et les prend en charge par https://outlook.office.com/owa/extSSO.aspx défaut. Pour les domaines personnel, les administrateurs doivent ajouter les adresses appropriées Azure Active Directory URL de réponse.
+La fonction Partager vers Teams utilise l' signer unique, ce qui signifie que les utilisateurs n’ont pas besoin de fournir leurs informations d’identification lors de l’utilisation du module via l’outil Partager Teams. L’oSO Outlook sur le web prend en charge les URL de réponse https://outlook.office365.com/owa/extSSO.aspx et les prend en charge par https://outlook.office.com/owa/extSSO.aspx défaut. Pour les domaines personnel, les administrateurs doivent ajouter les adresses appropriées Azure Active Directory URL de réponse.

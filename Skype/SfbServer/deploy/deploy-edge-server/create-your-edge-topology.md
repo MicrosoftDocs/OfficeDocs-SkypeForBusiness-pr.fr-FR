@@ -1,7 +1,7 @@
 ---
 title: Créer votre topologie Edge pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Résumé : Découvrez comment créer, publier et exporter votre topologie de serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ff7c2e69c3ee18da5c798fbdf96719bd14146d45
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584348"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775804"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Créer votre topologie Edge pour Skype Entreprise Server
  
@@ -41,7 +41,7 @@ Nous couvrent les rubriques suivantes de cet article :
   
 - RTCUniversalServerAdmins
     
-- Admins du domaine
+- Administrateurs du domaine
     
 ## <a name="build-your-edge-server-topology"></a>Créer votre topologie de serveur Edge
 
@@ -85,7 +85,7 @@ Si vous n’êtes pas sûr de ce dont vous avez besoin, avant de commencer à su
     
    - Activer IPv6 sur l’interface externe
     
-   Ces éléments sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 10). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool edge pour utiliser une adresse NAT (Network Address Translation) pour l’adresse IP externe. Pour ce faire, cochez la case NAT pour sélectionner l’adresse IP externe de ce **pool edge.** Cliquez **sur Suivant** lorsque vous êtes prêt.
+   Ces éléments sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 10). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool de serveurs Edge pour utiliser une adresse NAT (Network Address Translation) pour l’adresse IP externe. Pour ce faire, cochez la case NAT pour sélectionner l’adresse IP externe de ce **pool edge.** Cliquez **sur Suivant** lorsque vous êtes prêt.
     
 9. Dans l’écran Des FQDN externes, vos choix dépendent de la sélection que vous avez faite à l’étape 7 ci-dessus.
     
@@ -147,7 +147,7 @@ Si vous n’êtes pas sûr de ce dont vous avez besoin, avant de commencer à su
     
    - Activer IPv6 sur l’interface externe
     
-     Elles sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 11). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool edge pour utiliser une adresse NAT (Network Address Translation) pour l’adresse IP externe. Pour ce faire, cochez la case NAT pour sélectionner l’adresse IP externe de ce **pool edge.** Cliquez **sur Suivant** lorsque vous êtes prêt.
+     Elles sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 11). Vous avez également la possibilité de configurer votre serveur Edge ou votre pool de serveurs Edge pour utiliser une adresse NAT (Network Address Translation) pour l’adresse IP externe. Pour ce faire, cochez la case NAT pour sélectionner l’adresse IP externe de ce **pool edge.** Cliquez **sur Suivant** lorsque vous êtes prêt.
     
 9. Dans l’écran Des FQDN externes, vos choix dépendent de la sélection que vous avez faite à l’étape 7 ci-dessus.
     
@@ -215,10 +215,10 @@ Si vous n’êtes pas sûr de ce dont vous avez besoin, avant de commencer à su
     
    - Activer IPv6 sur l’interface externe
     
-     Elles sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 11).
+     Ces éléments sont assez explicites, que vous utilisiez des adresses IPv4 ou IPv6 et que vous appliquiez ces adresses sur votre serveur Edge en interne ou en externe (vous devez garder cela à l’esprit pour l’étape 11).
     
      > [!NOTE]
-     > Contrairement aux deux autres options de topologie, lorsque  vous utilisez un équilibreur de charge matérielle, vous NE DEVEZ PAS sélectionner l’option L’adresse IP externe du **pool edge** est traduite par NAT . Cela **n’est pas pris en charge.**
+     > Contrairement aux deux autres options de topologie, lorsque  vous utilisez un équilibreur de charge matérielle, vous ne devez PAS sélectionner l’option L’adresse IP externe du **pool de** périphérie est traduite par NAT . Cela **n’est pas pris en charge.**
   
 9. Dans l’écran Des FQDN externes, vos choix dépendent de la sélection que vous avez faite à l’étape 7 ci-dessus.
     
@@ -274,7 +274,7 @@ Une fois que vous avez terminé les étapes ci-dessus, il est temps de publier c
     
 ## <a name="export-your-edge-server-topology"></a>Exporter votre topologie de serveur Edge
 
-Pour un déploiement réussi, l’Assistant Skype Entreprise Server déploiement doit accéder aux données du magasin central de gestion. Pour les serveurs internes de votre domaine ou forêt, cette procédure est généralement simple. Les serveurs Edge sont en dehors du domaine et il est donc nécessaire d’exporter manuellement le fichier de topologie vers l’emplacement du serveur Edge, généralement sur un support physique. Cette exportation est effectuée via PowerShell :
+Pour un déploiement réussi, l’Assistant Skype Entreprise Server déploiement a besoin d’accéder aux données du magasin central de gestion. Pour les serveurs internes de votre domaine ou forêt, cette procédure est généralement simple. Les serveurs Edge sont en dehors du domaine et il est donc nécessaire d’exporter manuellement le fichier de topologie vers l’emplacement du serveur Edge, généralement sur un support physique. Cette exportation est effectuée via PowerShell :
   
 1. Démarrez le **Skype Entreprise Server Management Shell.**
     

@@ -1,6 +1,6 @@
 ---
 title: Skype Entreprise compatibilité avec Office applications
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprendre les façons dont vous pouvez accéder Skype Entreprise fonctionnalités à partir de Outlook et d’autres applications Microsoft Office applications.
-ms.openlocfilehash: e8d2ec9d3785d03c0f853021bcb4f33f6eb2c4aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4b826cf6ba79b8db31ec5dec57c8d6bfca5280f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599919"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773564"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype Entreprise compatibilité avec Office applications
  
@@ -53,7 +53,7 @@ Le tableau suivant décrit les fonctionnalités Skype Entreprise qui sont pris e
 |Messagerie instantanée et présence dans les fichiers Microsoft Word et Microsoft Excel (balises actives activées)    |Microsoft Word uniquement    |Microsoft Word uniquement    |Non    |
 |Messagerie instantanée et présence sur les sites Microsoft SharePoint (Outlook doit être installé)    |Oui    |Oui    |Non    |
    
-&#x2776; - Suppose que vous avez installé et que vous exécutez actuellement un client Skype Entreprise sur Mac ou le client Lync 2011 pour Mac.
+&#x2776; : suppose que vous avez installé et que vous exécutez actuellement un client Skype Entreprise sur Mac ou le client Lync 2011 pour Mac.
   
 ## <a name="exchange-server-and-skype-for-business"></a>Exchange Server et Skype Entreprise
 

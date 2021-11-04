@@ -1,7 +1,7 @@
 ---
 title: Obtenir un utilisateur
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 'Résumé : Découvrez l’opération Obtenir un utilisateur, qui fait partie du service utilisateur. Le service utilisateur fait partie de l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 31dd511cedc6a9ebe606a2594ca3df0dfae2277c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: adcb832d03d97eee978e3eb4c0f9027bd44ac7ce
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629586"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768672"
 ---
 # <a name="get-user"></a>Obtenir un utilisateur
  
@@ -58,7 +58,7 @@ Get User renvoie un enregistrement utilisateur à partir du référentiel.
 
  *userId*  : ID de l’utilisateur.
   
- *loginName*  : identification des utilisateurs externes pour les utilisateurs réguliers. Si Windows’authentification est utilisée pour authentifier les utilisateurs, il peut s’agit d’un nom de groupe de l’utilisateur.
+ *loginName :*  identification des utilisateurs externes pour les utilisateurs réguliers. Si Windows’authentification est utilisée pour authentifier les utilisateurs, il peut s’agit d’un nom de sujet de l’utilisateur.
   
  *defaultItemId*  - ID de l’élément par défaut pour cet utilisateur. L’élément par défaut est l’élément le plus haut associé à l’utilisateur. Tous les autres éléments dont cet utilisateur est propriétaire peuvent être accédés à partir de l’élément par défaut.
   

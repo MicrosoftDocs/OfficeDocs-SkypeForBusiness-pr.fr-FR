@@ -1,7 +1,7 @@
 ---
 title: Sélection des membres refusés
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrateur de conversation permanente peut créer et gérer des catégories de salle de conversation. Dans le cadre de la création et de la gestion des catégories de salle de conversation, un administrateur de conversation permanente peut configurer les principaux (groupes/conteneurs/utilisateurs des services de domaine Active Directory) qui ont accès aux membres/créateurs des salles de conversation d’une catégorie particulière. Un administrateur de conversation permanente peut également ajouter des membres refusés à une catégorie et ceux-ci deviennent des exclusions explicites à la liste autorisée. DeniedMembers remplace ce qui se passe dans AllowedMembers.
-ms.openlocfilehash: ee1221e7d6b7e898018018e0b7be930f289bec50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c888368f5f26ccfb9f37445c0a0fdddf563a4c71
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612483"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764062"
 ---
 # <a name="select-denied-members"></a>Sélection des membres refusés
 

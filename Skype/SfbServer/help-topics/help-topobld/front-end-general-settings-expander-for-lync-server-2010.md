@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres généraux du serveur frontal pour Lync Server 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant ou en configurant les attributs suivants. La page de configuration s’organise autour des sections suivantes :'
-ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600129"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768772"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expandeur des paramètres généraux du serveur frontal pour Lync Server 2010
 
@@ -39,11 +39,11 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
 
     **Fonctionnalités**
 
-- **Conférence** : activez cette case à cocher si vous voulez mettre en œuvre des fonctionnalités de conférence dans votre déploiement. Ces dernières comprennent l’audio, la vidéo, le partage des applications, le partage du Bureau et la conférence web. Vous devez créer et associer un serveur Office Web Apps Server pour la conférence Web (défini plus loin dans cette page Propriétés).
+- **Conférence** : activez cette case à cocher si vous voulez mettre en œuvre des fonctionnalités de conférence dans votre déploiement. Ces dernières comprennent l’audio, la vidéo, le partage des applications, le partage du Bureau et la conférence web. Vous devez créer et associer un serveur web apps Office pour la conférence Web (défini plus loin dans cette page Propriétés).
 
 - Si vous avez sélectionné Conférence, **Conférence rendez-vous (PSTN)** peut l’être également. Activez cette case à cocher pour mettre en œuvre les fonctionnalités de conférence rendez-vous.
 
-- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), y compris la possibilité de déployer des téléphones combinés, des trunks SIP ou une connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul, en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, voir [Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) et Planifier Voix Entreprise dans [Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Activez la case à cocher **Voix Entreprise** si vous avez l’intention de déployer des fonctionnalités permettant à Lync Server 2013 d’agir en tant que système vocal téléphonique à l’aide des technologies VoIP (Voice over IP), notamment l’option de déploiement de téléphones combinés, de connexions SIP ou de connectivité réseau téléphonique commuté public à l’aide du serveur de médiation, des passerelles PSTN et du système IP-PBX, en combinaison ou seul,  en fonction de la conception et des exigences. Pour plus d’Voix Entreprise, voir [Voix Entreprise](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) et Planifier Voix Entreprise dans [Skype Entreprise Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associations**
 
@@ -91,7 +91,7 @@ Vous modifiez les propriétés du serveur frontal ou du pool frontal en éditant
     Si plusieurs passerelles sont associées à un serveur de médiation, vous pouvez spécifier la passerelle par défaut en sélectionnant la passerelle que vous souhaitez utiliser par défaut, puis en cliquant sur Utiliser par **défaut.** Si vous choisissez de supprimer la passerelle par défaut actuelle, sélectionnez-la, puis cliquez sur **Annuler Par défaut**.
 
 > [!IMPORTANT]
-> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant déploiement Skype Entreprise Server doit être exécuté est fournie sous forme de lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l Skype Entreprise Server de déploiement, voir [Outils d’administration Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
+> Si vous modifiez les propriétés de cette boîte de dialogue, vous devez publier la topologie et exécuter l’Assistant Déploiement Skype Entreprise Server sur tous les serveurs concernés. Après la publication de la nouvelle topologie, une liste des serveurs affectés sur lequel l’Assistant déploiement Skype Entreprise Server doit être exécuté est fournie sous forme de lien sur l’écran récapitulatif de publication de la topologie. Pour plus d’informations sur la publication de la topologie mise à jour, voir [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Pour plus d’informations sur l Skype Entreprise Server de déploiement, voir [outils d’administration Lync Server.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
 
 Cliquez sur **OK** pour enregistrer et valider les modifications que vous avez apportées au document de topologie.
 

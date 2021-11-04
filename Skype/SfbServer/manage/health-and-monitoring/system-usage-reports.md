@@ -1,7 +1,7 @@
 ---
 title: Rapports d’utilisation du système Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Résumé : Découvrez les rapports d’utilisation du système Skype Entreprise Server.'
-ms.openlocfilehash: 0f98e78319e872f978004ac32e24802c6b62bd36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e0572b35cf29cf69e9c0515b5f94384b226d8ed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598828"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774774"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Rapports d’utilisation du système Skype Entreprise Server
  
@@ -45,11 +45,11 @@ Les rapports d’utilisation du système fournissent des informations d’utilis
     
 - [Rapport d’utilisation de Response Group dans Skype Entreprise Server](response-group-usage-report.md)
     
-    Fournit un résumé de l’utilisation de Response Group. L’application Response Group vous permet de router automatiquement les appels téléphoniques vers des entités telles qu’une ligne de support technique ou de support technique.
+    Fournit un résumé de l’utilisation de Response Group. L’application Response Group vous permet de router automatiquement les appels téléphoniques vers des entités telles qu’un support technique ou une ligne de support client.
     
 - [Rapport d’inventaire Téléphone IP dans Skype Entreprise Server](ip-phone-inventory-report.md)
     
-    Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De même, vous pouvez également avoir de nouveaux téléphones qui n’entrent pas dans le rapport simplement parce que les utilisateurs ne se sont pas encore connectés à Skype Entreprise Server avec leurs nouveaux téléphones.
+    Fournit des informations sur les téléphones IP actuellement en cours d’utilisation dans l’organisation. Le rapport est basé sur les inscriptions et les connexions des téléphones. Il ne doit pas être considéré comme un inventaire complet. Par exemple, vous ne possédez peut-être plus certains téléphones qui sont encore répertoriés dans le rapport (car ils se sont connectés au moins une fois). De même, vous pouvez également avoir de nouveaux téléphones qui ne s’afficheront pas dans le rapport simplement parce que les utilisateurs ne se sont pas encore connectés à Skype Entreprise Server avec leurs nouveaux téléphones.
     
 - [Rapport de contrôle d’admission des appels Skype Entreprise Server](call-admission-control-report.md)
     

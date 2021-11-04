@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue des serveurs Office Web Apps Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
-description: Cliquez avec le bouton droit sur Office Web Apps Server et sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant.
-ms.openlocfilehash: fb63610d8f887011d77d90d6426cd2351bb73a63
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Cliquez avec le bouton droit Office Web Apps Server et sélectionnez Nouveau serveur Office Web Apps Server pour ouvrir l’Assistant.
+ms.openlocfilehash: f2ab79d43e1b9d9725aeeeff72af9e02e8f7a96c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729103"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769212"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nœud d’étendue des serveurs Office Web Apps Server
 

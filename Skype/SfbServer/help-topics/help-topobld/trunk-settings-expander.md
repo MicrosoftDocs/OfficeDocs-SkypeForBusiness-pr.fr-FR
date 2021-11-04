@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres de la jonction
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Pour modifier les paramètres d’une jonction SIP, procédez comme suit :'
-ms.openlocfilehash: cdbd7a5fc1d49022516298923c61153d78679c0a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ea10af8363cd2298f00d06b09c40f6df97014e48
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731513"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774984"
 ---
 # <a name="trunk-settings-expander"></a>Expandeur des paramètres de la jonction
 
@@ -39,7 +39,7 @@ Pour modifier les paramètres d’une jonction SIP, procédez comme suit :
 > [!NOTE]
 > Seule la troncation racine peut être associée à un serveur de médiation Lync Server 2010 ou Lync Server 2013.
 
- **Port du serveur de médiation** associé : valeur requise, définie sur la valeur que le serveur de médiation est configuré pour écouter.
+ **Port du serveur de** médiation associé : valeur requise, définie sur la valeur que le serveur de médiation est configuré pour écouter.
 
 ![Trunk Paramètres Expander.](../../media/Trunk_Settings_Expander.jpg)
 

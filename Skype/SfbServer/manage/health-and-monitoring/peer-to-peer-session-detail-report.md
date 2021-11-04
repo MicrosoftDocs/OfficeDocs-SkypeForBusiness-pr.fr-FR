@@ -1,7 +1,7 @@
 ---
 title: Rapport détaillé de session D’égal à égal dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 'Résumé : Découvrez le rapport détaillé de session D’égal à égal dans Skype Entreprise Server.'
-ms.openlocfilehash: 014851a7c070a11366ec54682b9f94d999ac73de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ca45f05c3ee8346c6c6cac5bf5a1845be2d3a20
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591168"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774804"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Rapport détaillé de session D’égal à égal dans Skype Entreprise Server
  
@@ -61,7 +61,7 @@ Le tableau suivant liste les informations fournies dans le Rapport détaillé de
   
 **Mesures des informations de session**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**FQDN du pool** <br/> |Nom de domaine complet (FQDN) du pool de serveurs d’inscriptions ou serveur Edge impliqué dans la session.  <br/> |
 |**Heure d’invitation** <br/> |Date et heure auxquelles l’invitation a été envoyée à l’origine.  <br/> |
@@ -88,7 +88,7 @@ Le tableau suivant liste les informations fournies dans le Rapport détaillé de
   
 **Mesures des modalités**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Modalités** <br/> |Non  <br/> |Modalités utilisées dans la session. Par exemple, messagerie instantanée ou transfert de fichier.  <br/> |
 |**Messages de l’expéditeur** <br/> |Non  <br/> |Nombre de messages envoyés par l’utilisateur qui a démarré la session.  <br/> |
@@ -100,7 +100,7 @@ Le tableau suivant liste les informations fournies dans le Rapport détaillé de
   
 **Mesures pour les rapports de diagnostic**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Detail** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport montre le rapport de diagnostic pour la session.  <br/> |
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Planifier des stratégies d’emplacement pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lisez cette rubrique pour découvrir comment planifier des stratégies d’emplacement pour un déploiement des services d’urgence améliorés (E9-1-1) dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: b250108fb20a9a1d75069b1036ab7c2fba332443
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d305d2e453c375616dbba7e077c552372767f2ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601409"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762132"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planifier des stratégies d’emplacement pour Skype Entreprise Server
  
@@ -38,7 +38,7 @@ Chaque stratégie d’emplacement contient les informations suivantes :
   
 Lorsque cette valeur est activée, le client est activé pour les services d’urgence améliorés (E9-1-1). Lorsqu’un client s’inscrit, il tente d’acquérir un emplacement auprès du service Informations d’emplacement et inclut les informations d’emplacement dans le cadre d’un appel d’urgence.
   
- **Emplacement**
+ **Location**
   
 Ce paramètre est utilisé uniquement lorsque **l’enable enhanced 9-1-1** est activé.
   
@@ -55,7 +55,7 @@ Vous pouvez configurer le paramètre **Emplacement** pour définir le comporteme
   
  **Exclusion de responsabilité du service d’urgence amélioré**
   
-Ce paramètre spécifie la clause d’exclusion de responsabilité que les utilisateurs voient s’ils rejettent l’invite pour un emplacement. Dans Skype Entreprise Server, vous pouvez utiliser la stratégie d’emplacement pour définir différentes clauses d’exclusion de responsabilité pour différents paramètres régionaux ou différents ensembles d’utilisateurs.
+Ce paramètre spécifie la clause d’exclusion de responsabilité que les utilisateurs voient s’ils font disparaître l’invite d’un emplacement. Dans Skype Entreprise Server, vous pouvez utiliser la stratégie d’emplacement pour définir différentes clauses d’exclusion de responsabilité pour différents paramètres régionaux ou différents ensembles d’utilisateurs.
   
  **Chaîne de numérotation d’urgence (numéro E9-1-1)**
   
@@ -66,14 +66,14 @@ Cette chaîne de numérotation (moins le « + » de début, mais incluant toute 
   
  **Masques de chaîne de numérotation d’urgence (masque de numérotation E9-1-1)**
   
-Liste de chaînes de numérotation séparées par des points-virgules qui est traduite dans la chaîne de numérotation **d’urgence spécifiée.** Par exemple, vous pouvez ajouter 112, qui est le numéro de service d’urgence pour la plupart de l’Europe. Un utilisateur Skype Entreprise d’Europe peut ne pas savoir que le 911 est le numéro d’urgence américain, mais il peut composer le 112 et obtenir le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de « + » avant chaque numéro et, si vous utilisez des codes d’accès aux lignes externes, veillez à ce que la stratégie de plan de numérotation de l’utilisateur applique des règles de normalisation pour le chiffre du code d’accès.
+Liste de chaînes de numérotation séparées par des points-virgules qui est traduite dans la chaîne de numérotation **d’urgence spécifiée.** Par exemple, vous pouvez ajouter 112, qui est le numéro de service d’urgence pour la plupart de l’Europe. Un utilisateur Skype Entreprise d’Europe peut ne pas savoir que le 911 est le numéro d’urgence américain, mais il peut composer le 112 et obtenir le même résultat. Comme pour la chaîne de numérotation d’urgence, n’incluez pas de « + » avant chaque numéro et, si vous utilisez des codes d’accès aux lignes externes, assurez-vous que la stratégie de plan de numérotation de l’utilisateur comprend des règles de normalisation pour le dédessage du chiffre du code d’accès.
   
  **Utilisation PSTN**
   
 Nom de l’utilisation PSTN qui contient les chemins de routage qui déterminent la passerelle SIP, la passerelle PSTN ou la passerelle ELIN vers laquelle les appels d’urgence seront appelés.
   
 > [!NOTE]
-> Une seule utilisation peut être affectée à une stratégie d’emplacement. Cette utilisation PSTN remplace les utilisations PSTN affectées à la stratégie de voix de l’utilisateur, mais s’applique uniquement aux appels placés sur la chaîne de numérotation d’urgence ou sur l’un des masques de chaîne de numérotation d’urgence. 
+> Une seule utilisation peut être affectée à une stratégie d’emplacement. Cette utilisation PSTN remplace les utilisations PSTN affectées à la stratégie de voix de l’utilisateur, mais s’applique uniquement aux appels passé à la chaîne de numérotation d’urgence ou à l’un des masques de chaîne de numérotation d’urgence. 
   
  **URI de notification**
   
@@ -81,7 +81,7 @@ Spécifie une ou plusieurs UR SIP du personnel de sécurité qui reçoit une not
   
  **URI de la conférence**
   
-Spécifie un numéro SDN (direct à l’intérieur) (généralement un numéro de service de sécurité) qui doit être pris en compte lors d’un appel d’urgence. 
+Spécifie un numéro SDN (numéro de service de sécurité) qui doit être pris en compte lors d’un appel d’urgence. 
   
  **Mode conférence**
   

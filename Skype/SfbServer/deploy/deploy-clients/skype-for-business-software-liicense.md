@@ -1,6 +1,6 @@
 ---
 title: Skype Licence logicielle Skype Entreprise système de salle
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lisez cette rubrique pour savoir comment vérifier si vous avez une licence en volume Skype Entreprise logiciels.
-ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: dc605af5bc4f922e1da1669fb471ad46173a7646
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011528"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761572"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Système de salle : Skype Entreprise licence logicielle
  
@@ -45,14 +45,14 @@ Pour obtenir une clé MAK, accédez au Centre de gestion des licences en volume 
   
 ## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>MAK pour les Microsoft 365 ou Office 365 sans accès VLSC
 
-Si le client n’a pas de contrat de licence en volume, les activations Skype Entreprise seront beaucoup plus difficiles à gérer. Toutefois, Microsoft 365 et Office 365 clients sans accès VLSC peuvent obtenir une MAK promotionnelle en fournissant les informations suivantes au OEM qui vend le Skype Room System :
+Si le client n’a pas de contrat de licence en volume, les activations Skype Entreprise seront beaucoup plus difficiles à gérer. Toutefois, les Microsoft 365 et Office 365 qui n’ont pas accès au VLSC peuvent obtenir une mak promotionnelle en fournissant les informations suivantes au OEM qui vend le Skype Room System :
   
 - Nom de la société
     
-- Nom, adresse e-mail et numéro de téléphone du contact de déploiement
+- Nom du contact de déploiement, e-mail et numéro de téléphone
     
 - Nombre de systèmes déployés
     
 - Date de déploiement
     
-- Si le client dispose d’un gestionnaire de compte technique Microsoft, le nom et les informations de contact du responsable technique de l’analyseur technique
+- Si le client dispose d’un gestionnaire de compte technique Microsoft, le nom et les coordonnées du responsable technique de compte Microsoft
