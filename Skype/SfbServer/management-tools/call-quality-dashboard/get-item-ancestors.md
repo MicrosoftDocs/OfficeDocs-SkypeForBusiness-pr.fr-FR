@@ -1,7 +1,7 @@
 ---
 title: Obtenir les ancêtres d’élément
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: 'Résumé : Découvrez l’opération Obtenir des ancêtres d’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: f6977d1519b487003460e8d4eb5300fe4d98e84f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 96fae0992ed6952d36ff966a559ef74da76e2606
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633618"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765342"
 ---
 # <a name="get-item-ancestors"></a>Obtenir les ancêtres d’élément
  
-**Résumé :** Découvrez l’opération Obtenir des ancêtres d’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
+**Résumé :** Découvrez l’opération Obtenir les ancêtres d’élément, qui fait partie du service d’élément. Le service d’élément fait partie de l’API de référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
 L’opération Obtenir des ancêtres d’élément fait partie du service d’élément dans l’API référentiel pour le tableau de bord de qualité des appels.
   

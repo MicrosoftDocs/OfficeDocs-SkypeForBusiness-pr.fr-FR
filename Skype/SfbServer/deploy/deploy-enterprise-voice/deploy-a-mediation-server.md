@@ -1,7 +1,7 @@
 ---
 title: Déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Résumé : Découvrez comment définir et déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server.'
-ms.openlocfilehash: fd6561ee90751eaedd2ef3fdd5ccb6a2ef950b56
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9eb3f00d8530739b3a4e9986da14038ff7d6ed26
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579988"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764892"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Déployer un serveur de médiation dans le Générateur de topologies dans Skype Entreprise Server
  
@@ -32,7 +32,7 @@ La charge de travail Voix Entreprise, les conférences téléphoniques et les ap
   
 La seule exception est si vous configurez une jonction SIP pour la connexion à un contrôleur SBC (Session Border Controller) pour un fournisseur de services de téléphonie Internet. Pour connecter votre infrastructure Voix Entreprise réseau à votre fournisseur de trunks SIP, un serveur de médiation distinct doit être déployé.
   
-La connexion entre Skype Entreprise Server (soit un serveur de médiation cocté sur un pool frontal, soit un serveur de médiation autonome) et une passerelle est définie comme une association logique appelée une connexion. Les rubriques de cette section décrivent comment définir une jonction et déployer un serveur de médiation autonome, si vous vous connectez à une jonction SIP.
+La connexion entre Skype Entreprise Server (un serveur de médiation cocté sur un pool frontal ou un serveur de médiation autonome) et une passerelle est définie en tant qu’association logique appelée « trunk ». Les rubriques de cette section décrivent comment définir une jonction et déployer un serveur de médiation autonome, si vous vous connectez à une jonction SIP.
   
 ## <a name="define-a-mediation-server-in-topology-builder"></a>Définition d’un serveur de médiation dans le générateur de topologie
 
@@ -57,7 +57,7 @@ Vous pouvez ajouter un serveur de médiation en tant que rôle c colloc sur un p
     > Le **pool du saut suivant** utilisé par le serveur de médiation sera le pool frontal sur lequel le serveur de médiation est coqueté.
   
     > [!NOTE]
-    > Le **pool de serveurs** Edge utilisé par le serveur de médiation sera le même pool de serveurs Edge associé au pool frontal sur lequel le serveur de médiation est coqueté.
+    > Le **pool de serveurs Edge** utilisé par le serveur de médiation sera le même pool de serveurs Edge associé au pool frontal sur lequel le serveur de médiation est coqueté.
   
 6. Cliquez **sur Utiliser par** défaut pour utiliser ce pool frontal pour router les appels vers le PSTN.
     
@@ -93,7 +93,7 @@ Vous pouvez ajouter un serveur de médiation en tant que rôle c colloc sur un p
     
 8. Dans la page **Sélectionner un serveur Edge**, effectuez l’une des opérations suivantes :
     
-   - Si vous souhaitez fournir une connectivité PSTN aux utilisateurs externes activés pour Voix Entreprise, sous Sélectionner un **pool de** serveurs Edge utilisé par ce serveur de médiation, cliquez sur le nom de groupe du pool de serveurs Edge qui utilisera ce pool de serveurs de médiation pour fournir une connectivité PSTN à ces utilisateurs externes, puis cliquez sur **Suivant**.
+   - Si vous souhaitez fournir une connectivité PSTN à des utilisateurs externes activés pour Voix Entreprise, sous Sélectionner un **pool de** serveurs Edge utilisé par ce serveur de médiation, cliquez sur le nom de groupe du pool de serveurs Edge qui utilisera ce pool de serveurs de médiation pour fournir une connectivité PSTN à ces utilisateurs externes, puis cliquez sur **Suivant**.
     
    - Si vous ne prévoyez pas d’activer les utilisateurs externes pour Voix Entreprise, ou si vous ne souhaitez pas fournir de connectivité PSTN aux utilisateurs lorsqu’ils sont en dehors du réseau interne, cliquez sur **Suivant**.
     
@@ -107,7 +107,7 @@ Suivez les étapes de cette rubrique pour utiliser le Générateur de topologie 
 
 1. Démarrez le Générateur de topologie : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server 2015,** puis sur Skype Entreprise Server **2015Topology Builder**.
     
-2. Dans le Générateur de topologies, dans l’arborescence de la console, développez le nœud **pools** de médiation, puis cliquez avec le bouton droit sur le serveur de médiation précédemment créé.
+2. Dans le Générateur de topologie, dans l’arborescence de la console, développez le nœud **pools** de médiation et cliquez avec le bouton droit sur le serveur de médiation précédemment créé.
     
 3. Par défaut, les ports d’écoute SIP sur le serveur de médiation sont 5070 pour le trafic TLS à partir de Skype Entreprise Server et 5067 pour le trafic TLS provenant d’homologues (par exemple, passerelles, PBXes ou SCS). Le port TCP est désactivé par défaut. Vous devez activer le port TCP si vous disposez de passerelles qui ne prennent pas en charge le protocole TLS.
     

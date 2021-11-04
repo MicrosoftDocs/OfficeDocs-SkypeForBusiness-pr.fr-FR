@@ -1,7 +1,7 @@
 ---
 title: Configurer une région réseau en créer une autre ou en modifier une existante
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 349cdaee95a1ab42081702e6d44cabbeb92ddee6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 71d9377ef58455e360333e6e676dae1678a131ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599479"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764632"
 ---
 # <a name="configure-a-network-region-create-new-or-edit-existing"></a>Configuration d’une région de réseau : création d’une nouvelle ou modification d’une configuration existante
 

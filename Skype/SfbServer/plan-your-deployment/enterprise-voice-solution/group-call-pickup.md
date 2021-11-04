@@ -1,7 +1,7 @@
 ---
 title: Planifier la prise d’appel de groupe dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planification de la prise d’appel de groupe Skype Entreprise Server Voix Entreprise, qui permet aux utilisateurs de répondre aux appels destinés à l’origine à d’autres personnes.
-ms.openlocfilehash: 1127c1bb01e39d784f82dd7d451f3445f4210510
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27d0ae55891981c715127cf6d61aab7135448cc3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590118"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765252"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planifier la prise d’appel de groupe dans Skype Entreprise
  
@@ -33,7 +33,7 @@ La fonctionnalité de prise d’appel de groupe est conçue en particulier pour 
   
 Dans les environnements où les utilisateurs ne sont pas situés dans une disposition de bureau ouverte ou où les utilisateurs qui partagent une responsabilité commune sont répartis géographiquement, l’appel d’équipe présente la solution la plus appropriée. La principale différence entre la prise d’appel de groupe et l’appel d’équipe est que, avec la prise d’appel de groupe, un appel entrant sonne uniquement à la destination prévue, mais tout le monde peut toujours choisir d’y répondre en composant un numéro de groupe. Avec l’appel d’équipe, l’appel sonne sur tous les téléphones des membres de l’équipe, et tous les utilisateurs de l’équipe peuvent prendre le téléphone pour répondre à l’appel. Une autre différence entre la prise d’appel de groupe et l’appel d’équipe est que la prise d’appel de groupe est gérée par un administrateur, Skype Entreprise Server. Avec l’appel d’équipe, les utilisateurs finaux gèrent la fonctionnalité à l’aide Skype Entreprise client. Par conséquent, avec la prise d’appel de groupe, cet aspect de la gestion des appels peut être centralisé.
   
-La prise d’appel de groupe repose sur l’application de parcage d’appel. Lorsque vous déployez la prise d’appel de groupe, vous configurez la table des orbites de parcage d’appel avec des plages distinctes de numéros de poste désignés comme numéros de groupe de prise d’appel. Comme les numéros de numéros d’appels par parcage, les numéros de groupe de prise d’appel doivent être des extensions virtuelles qui ne sont affectées à aucun utilisateur ou téléphone. Chaque pool frontal sur lequel vous déployez la prise d’appel de groupe peut avoir une ou plusieurs plages de numéros de groupe de prise d’appel. Les plages de numéro de groupe doivent être globalement uniques dans Skype Entreprise Server déploiement. 
+La prise d’appel de groupe repose sur l’application de parcage d’appel. Lorsque vous déployez la prise d’appel de groupe, vous configurez la table des orbites de parcage d’appel avec des plages distinctes de numéros de poste désignés comme numéros de groupe de prise d’appel. Tout comme les numéros de numéros d’appels par parcage, les numéros de groupe de prise d’appel doivent être des extensions virtuelles qui ne sont pas affectées à un utilisateur ou à un téléphone. Chaque pool frontal sur lequel vous déployez la prise d’appel de groupe peut avoir une ou plusieurs plages de numéros de groupe de prise d’appel. Les plages de numéro de groupe doivent être globalement uniques dans l’ensemble Skype Entreprise Server déploiement. 
   
 > [!NOTE]
 > Les plages de numéros désignées en tant que numéros de prise d’appel de groupe dans la table des numéros d’appels par parcage ne peuvent pas être gérées ou vues à l’aide du Panneau de Skype Entreprise Server de contrôle. La seule façon d’voir toutes les plages de numéro dans la table de numéro d’appel par parcé consiste à utiliser Skype Entreprise Server Management Shell. De même, la seule façon d’ajouter, de modifier ou de supprimer des numéros de prise d’appel de groupe consiste à utiliser Skype Entreprise Server Management Shell. 

@@ -1,7 +1,7 @@
 ---
 title: Composants VoIP du serveur frontal pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: Découvrez les composants Voix Entreprise qui se trouvent sur les serveurs frontaux dans Skype Entreprise Server, y compris le service de traduction et divers composants de routage.
-ms.openlocfilehash: d3baa24366b36d1962c1102b4c25c1745a4ea625
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb57e3c4d06ff77661453321a7b4f3254c780822
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585018"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751563"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Composants VoIP du serveur frontal pour Skype Entreprise Server
 
@@ -79,8 +79,8 @@ Le composant de routage Intercluster est responsable du routage des appels vers 
 
 Les autres composants résidant sur le serveur frontal ou le directeur qui fournissent une prise en charge essentielle pour VoIP, mais qui ne sont pas eux-mêmes des composants VoIP, sont les suivants :
 
-- **Services d’utilisateurs** : effectuent une recherche inversée de numéros sur le numéro de téléphone de destination de chaque appel entrant et associent ce numéro à l’URI SIP de l’utilisateur de destination. À l’aide de ces informations, le composant de routage entrant distribue l’appel aux points de terminaison SIP enregistrés de cet utilisateur. Les services d’utilisateurs sont un composant essentiel de tous les serveurs frontaux et directeurs.
+- **Services d’utilisateurs** : effectuent une recherche inversée de numéros sur le numéro de téléphone de destination de chaque appel entrant et associent ce numéro à l’URI SIP de l’utilisateur de destination. À l’aide de ces informations, le composant de routage entrant distribue l’appel aux points de terminaison SIP inscrits de cet utilisateur. Les services d’utilisateurs sont un composant essentiel de tous les serveurs frontaux et directeurs.
 
 - **Réplicateur d’utilisateurs** Extrait les numéros de téléphone des services de domaine Active Directory et les écrit dans des tables de la base de données RTC, où ils sont disponibles pour les services d’utilisateurs et le serveur de carnet d’adresses. Le réplicateur d’utilisateurs est un composant principal sur tous les serveurs frontux.
 
-- **Serveur de carnet d’adresses** Fournit des informations de liste d’adresses globale des services de domaine Active Directory Skype Entreprise Server clients. Il récupère également les informations d’utilisateur et de contact de la base de données RTC, écrit les informations dans les fichiers de carnet d’adresses, puis stocke les fichiers dans un dossier partagé où ils sont téléchargés par les clients Skype Entreprise. Le serveur de carnet d’adresses écrit les informations dans la base de données RTCAb, qui est utilisée par le service de requête Web du carnet d’adresses pour répondre aux requêtes de recherche des utilisateurs à partir Skype Entreprise mobile. Elle normalise éventuellement les numéros de téléphone des utilisateurs d’entreprise qui sont écrits dans la base de données RTC dans le but de mettre en service les contacts des utilisateurs dans Skype Entreprise. Le service de carnet d’adresses est installé par défaut sur tous les serveurs frontux. Le service de requête Web du carnet d’adresses est installé par défaut avec les services Web sur chaque serveur frontal.
+- **Serveur de carnet d’adresses** Fournit des informations de liste d’adresses globales des services de domaine Active Directory Skype Entreprise Server clients. Il récupère également les informations d’utilisateur et de contact de la base de données RTC, écrit les informations dans les fichiers de carnet d’adresses, puis stocke les fichiers dans un dossier partagé où ils sont téléchargés par les clients Skype Entreprise. Le serveur de carnet d’adresses écrit les informations dans la base de données RTCAb, qui est utilisée par le service de requête Web du carnet d’adresses pour répondre aux requêtes de recherche des utilisateurs à partir Skype Entreprise mobile. Elle normalise éventuellement les numéros de téléphone des utilisateurs d’entreprise qui sont écrits dans la base de données RTC dans le but de mettre en service les contacts des utilisateurs dans Skype Entreprise. Le service de carnet d’adresses est installé par défaut sur tous les serveurs frontux. Le service de requête Web du carnet d’adresses est installé par défaut avec les services Web sur chaque serveur frontal.

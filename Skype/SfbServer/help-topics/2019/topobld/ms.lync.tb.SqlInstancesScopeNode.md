@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue des instances SQL
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le SQL stocke les listes SQL Server bases de données de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: f8c19da041c532c623604d4513230089d91fb97a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22d46de950a01c5ee153e4af901b3f8383dc77eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626806"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766842"
 ---
 # <a name="sql-instances-scope-node"></a>Nœud d’étendue des instances SQL
  

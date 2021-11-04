@@ -1,7 +1,7 @@
 ---
 title: Gérer Skype Entreprise Server 2019 à l’aide du pack d’administration SCOM
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/26/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez comment configurer votre infrastructure Skype Entreprise Server 2019 pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 69954c7568702e4e3d6e9618bdd7e37243c61ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011588"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751493"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gérer Skype Entreprise Server 2019 à l’aide du pack d’administration SCOM
  
@@ -49,7 +49,7 @@ Les packs d’administration peuvent être utilisés avec System Center Operatio
 |Surveillance sans agent   |Non prise en charge.   |
 |Environnement virtuel   |Oui.   |
 |Rôles serveur joints au domaine   |Tous les rôles Skype Entreprise Server 2019 doivent être joints au domaine.   |
-|Rôles serveur autonomes   |Skype Entreprise Server serveurs Edge 2019 n’ont pas besoin d’être joints à un domaine.   |
+|Rôles serveur autonomes   |Skype Entreprise Server serveurs Edge 2019 n’ont pas besoin d’être joints au domaine.   |
 |Limitations de topologie   |Tous les rôles serveur dans un déploiement doivent être surveillés à partir du même groupe de gestion Operations Manager.   |
 |Nœud d’observation des transactions synthétiques   |La surveillance de la disponibilité des scénarios avec un nœud d’analyse des transactions synthétiques est prise en charge (configuration supplémentaire requise). Les nodes de l’observeur ne doivent pas obligatoirement être joints au domaine.   |
    
@@ -70,11 +70,11 @@ Pour exécuter un nœud d’observation de transaction synthétique, vous devez 
     
 -  Microsoft .NET Framework 4.5
     
-- Skype Entreprise Server d’installation principaux (OcsCore.msi) et unified Communications Managed API (UCMA) (les versions doivent correspondre à la version Skype Entreprise Server WatcherNode.msi)
+- Skype Entreprise Server d’installation principale (OcsCore.msi) et l’API UCMA (Unified Communications Managed API) (les versions doivent correspondre à la version Skype Entreprise Server WatcherNode.msi)
     
 ## <a name="files-in-this-monitoring-pack"></a>Fichiers dans ce pack d’analyse
 
-Le pack de surveillance pour Skype Entreprise Server 2019 inclut les fichiers suivants :
+Le pack d’analyse Skype Entreprise Server 2019 inclut les fichiers suivants :
   
 - Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp
     
@@ -92,17 +92,17 @@ Les fonctionnalités suivantes sont nouvelles Skype Entreprise Server packs d’
     
 - **Intervalles d’exécuter des transactions synthétiques personnalisées** Pour simplifier le processus de mise en place des nodes watcher, les transactions synthétiques peuvent partager des comptes d’utilisateur. Cela ralentit la fréquence à laquelle les tests sont exécutés à mesure que les tests sont sérialisés afin d’éviter les conflits. Par défaut, les transactions synthétiques s’exécutent toutes les 15 minutes pour s’assurer que tous les tests ont le temps de s’exécuter. Les administrateurs qui choisissent d’utiliser plus d’utilisateurs ou moins de tests par utilisateur peuvent désormais réduire l’intervalle d’utilisation.
     
-- **Transaction synthétique Video Interop Services** Les clients qui migrent vers Skype Entreprise Server 2019 à partir d’autres solutions de fournisseur souhaitent souvent continuer à utiliser les périphériques de téléconférence vidéo (VTC) de ces autres fournisseurs. Video Interop Server est un nouveau rôle serveur Skype Entreprise Server 2019 qui permet aux clients de continuer à utiliser des VTC Cisco dans leurs salles de conférence en se connectant à Cisco CUCM via une connexion SIP vidéo. Cette fonctionnalité ajoute également une transaction synthétique pour vérifier que le serveur d’opation vidéo est en cours d’opération et qu’il peut gérer les connexions entrantes sur une connexion SIP vidéo.
+- **Transaction synthétique vis-à-vis des services d’interconnexion vidéo** Les clients qui migrent vers Skype Entreprise Server 2019 à partir d’autres solutions de fournisseur souhaitent souvent continuer à utiliser les périphériques de téléconférence vidéo (VTC) de ces autres fournisseurs. Video Interop Server est un nouveau rôle serveur Skype Entreprise Server 2019 qui permet aux clients de continuer à utiliser des VTC Cisco dans leurs salles de conférence en se connectant à Cisco CUCM via une connexion SIP vidéo. Cette fonctionnalité ajoute également une transaction synthétique pour vous aider à vérifier que le serveur d’interopation vidéo est en cours d’opération et qu’il peut gérer les connexions entrantes sur une connexion SIP vidéo.
     
 - **Transaction synthétique de conférence de partage d’application** La validation de scénario de bout en bout pour les conférences de partage d’application est désormais prise en charge.
     
 ## <a name="monitoring-scenarios"></a>Scénarios de surveillance
 
-Le pack Skype Entreprise Server 2019 Management Pack tire parti de nombreuses fonctionnalités pour vous aider à détecter et diagnostiquer les problèmes. Ces fonctionnalités offrent une visibilité en temps réel de l’état d’Skype Entreprise Server environnement 2019.
+Le pack d Skype Entreprise Server 2019 tire parti d’une variété de fonctionnalités pour vous aider à détecter et diagnostiquer les problèmes. Ces fonctionnalités offrent une visibilité en temps réel de l’état d’Skype Entreprise Server environnement 2019.
   
 |Scénario de surveillance|Description|
 |:-----|:-----|
-|Transactions synthétiques   | Windows PowerShell cmdlets pour tester et garantir la haute disponibilité des scénarios tels que la signature, la présence, la messagerie instantanée et les conférences pour les utilisateurs. <br/> Les transactions synthétiques peuvent être exécutés à partir de n’importe quel emplacement géographique, y compris à l’intérieur de l’entreprise, en dehors de l’entreprise et dans les succursales.  <br/> En cas d’échec d’une transaction synthétique, des journaux HTML sont créés pour vous aider à déterminer la nature exacte de l’échec. Cela inclut la compréhension de l’action qui a échoué, de la latence de chaque action, de la ligne de commande utilisée pour exécuter le test et de l’erreur spécifique qui s’est produite.   |
+|Transactions synthétiques   | Windows PowerShell cmdlets pour tester et garantir la haute disponibilité des scénarios tels que la signature, la présence, la messagerie instantanée et les conférences pour les utilisateurs. <br/> Les transactions synthétiques peuvent être exécutés à partir de n’importe quel emplacement géographique, y compris à l’intérieur de l’entreprise, en dehors de l’entreprise et dans les succursales.  <br/> En cas d’échec d’une transaction synthétique, des journaux HTML sont créés pour vous aider à déterminer la nature exacte de l’échec. Cela inclut la compréhension de l’action qui a échoué, la latence de chaque action, la ligne de commande utilisée pour exécuter le test et l’erreur spécifique qui s’est produite.   |
 |Alertes de fiabilité des appels   |Les enregistrements des détails des appels écrits par les serveurs Skype Entreprise Server 2019 précisent si les utilisateurs sont en mesure de se connecter à un appel ou pourquoi un appel est interrompu. Les alertes de fiabilité des appels interrogent la base de données d’appels pour produire des alertes qui indiquent quand un grand nombre d’utilisateurs sont en situation de problèmes de connectivité pour les appels d’égal à égal ou la fonctionnalité de conférence de base.  <br/> La couverture des scénarios inclut les appels audio, la messagerie instantanée d’égal à égal et d’autres fonctionnalités de conférence.   |
 |Alertes de qualité des médias   |Requêtes de base de données qui se rapportent aux rapports de qualité de l’expérience (QoE) publiés par les clients Skype Entreprise Server 2019 à la fin de chaque appel. Ces requêtes produisent des alertes qui identifient les scénarios où les utilisateurs sont les plus susceptibles d’être compromis par la qualité des médias pendant les appels et les conférences. Les données reposent sur des mesures clés, telles que la latence et la perte de paquets, qui contribuent directement à la qualité de l’expérience utilisateur.   |
 |Alertes d’état des composants   |Les composants serveur individuels lèvent des alertes via les journaux des événements et les compteurs de performances pour indiquer les conditions de défaillance qui peuvent avoir une incidence significative sur les scénarios utilisateur. Ces alertes indiquent diverses conditions, telles que les services qui ne fonctionnent pas, les taux d’échec élevés, la latence des messages élevée ou les problèmes de connectivité.   |
@@ -187,7 +187,7 @@ Le tableau suivant indique l’état d’état d’Skype Entreprise Server le pa
    
 ![Rollup SCOM.](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-Un pool Skype Entreprise Server peut contenir plusieurs systèmes Skype Entreprise Server individuels (avec plusieurs rôles Skype Entreprise Server, un service Skype Entreprise Server et un composant Skype Entreprise Server client). Par conséquent, la défaillance d’un serveur ou d’un composant individuel est moins critique pour l’état global du pool Skype Entreprise Server, car d’autres serveurs du même pool peuvent fournir le service d’application au client. L’état d’Skype Entreprise Server un pourcentage. 
+Un pool Skype Entreprise Server peut contenir plusieurs systèmes Skype Entreprise Server individuels (avec plusieurs rôles Skype Entreprise Server, un service Skype Entreprise Server et un Skype Entreprise Server composant). Par conséquent, la défaillance d’un serveur ou d’un composant individuel est moins critique pour l’état global du pool Skype Entreprise Server, car d’autres serveurs du même pool peuvent fournir le service d’application au client. L’état d’Skype Entreprise Server un pourcentage. 
   
 L Skype Entreprise Server de pool exécute des transactions synthétiques sur un pool Skype Entreprise Server pool. Les échecs consécutifs d’une ou de plusieurs transactions synthétiques (processus appelé intervalle d’interrogation consécutif) relaient l’état d’état d’état critique au niveau du pool (pire de toute transaction synthétique), comme illustré dans le diagramme suivant. 
   
@@ -197,7 +197,7 @@ L Skype Entreprise Server de pool exécute des transactions synthétiques sur un
 
 Par défaut, Operations Manager enregistre toutes les personnalisations, telles que les remplacements dans le pack d’administration par défaut. En tant que meilleure pratique, vous devez créer un pack d’administration distinct pour chaque pack d’administration sealed que vous souhaitez personnaliser. 
   
-Lorsque vous créez un pack d’administration pour stocker les paramètres personnalisés d’un pack d’administration sealed, nous vous recommandons d’nommer le nouveau pack d’administration de manière appropriée, par exemple « Personnalisations Skype Entreprise Server 2019 ».
+Lorsque vous créez un pack d’administration pour stocker les paramètres personnalisés d’un pack d’administration sealed, nous vous recommandons d’nommer le nouveau pack d’administration de manière appropriée, par exemple « Skype Entreprise Server 2019 Customizations ».
   
 La création d’un pack d’administration pour le stockage des personnalisations de chaque pack d’administration sealed facilite l’exportation des personnalisations d’un environnement de test vers un environnement de production. Cela facilite également la suppression d’un pack d’administration, car vous devez supprimer toutes les dépendances avant de pouvoir supprimer un pack d’administration. Si les personnalisations de tous les packs d’administration sont enregistrées dans le pack d’administration par défaut et que vous devez supprimer un seul pack d’administration, vous devez d’abord supprimer le pack d’administration par défaut, qui supprime également les personnalisations d’autres packs d’administration. 
   

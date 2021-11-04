@@ -1,7 +1,7 @@
 ---
 title: Configurer le contournement de média dans Skype Entreprise Server pour toujours contourner le serveur de médiation
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: Activez la déviation du média pour qu’elle contourne toujours le serveur de médiation dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 1158d397225c9a46650d6c8f8f1fb0c22555aeea
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Activez le contournement de média pour qu’il contourne toujours le serveur de médiation dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: ada5ce953086fe2182314bbe4904964683cb868c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597308"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764902"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurer le contournement de média dans Skype Entreprise Server pour toujours contourner le serveur de médiation
  
-Activez la déviation du média pour qu’elle contourne toujours le serveur de médiation dans Skype Entreprise Server Voix Entreprise. 
+Activez le contournement de média pour qu’il contourne toujours le serveur de médiation dans Skype Entreprise Server Voix Entreprise. 
   
  Si vous utilisez les étapes de cette rubrique pour configurer les paramètres globaux du contournement de média, nous partons du principe que vous avez une bonne connectivité entre les points de terminaison Skype Entreprise et tout homologue pour lequel vous avez configuré le contournement de média sur la connexion de liaison.
   

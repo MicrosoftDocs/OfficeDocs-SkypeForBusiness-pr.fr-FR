@@ -1,7 +1,7 @@
 ---
 title: Surveiller, démarrer et arrêter les services de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 'Résumé : Découvrez comment démarrer, arrêter et surveiller les services de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 3bc40e0e338cb2ef30b417482185121b26b8cd34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2b2c964659b3de5045d414736bc5c1e5ddadd28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580548"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766482"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>Surveiller, démarrer et arrêter les services de conversation permanente dans Skype Entreprise Server 2015
  
@@ -28,7 +28,7 @@ Les services de conversation permanente et les services de conformité de conver
   
 |Cmdlet|Fonction|
 |:-----|:-----|
-|get-CsWindowsService  <br/> |Retourne des informations détaillées sur Skype Entreprise Server 2015 qui s’exécutent en tant que services Windows de sécurité.  <br/> |
+|get-CsWindowsService  <br/> |Retourne des informations détaillées sur Skype Entreprise Server 2015 qui s’exécutent en tant Windows services.  <br/> |
 |start-CsWindowsService  <br/> |Démarre le service.  <br/> |
 |stop-CsWindowsService  <br/> |Arrête le service.  <br/> |
    

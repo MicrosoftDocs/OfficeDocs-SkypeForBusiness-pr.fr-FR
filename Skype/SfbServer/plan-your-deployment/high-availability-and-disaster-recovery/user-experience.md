@@ -1,7 +1,7 @@
 ---
 title: Expérience utilisateur lors de la défaillance d’un pool Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Découvrez ce que les utilisateurs peuvent faire lorsqu’un pool frontal échoue ou revient en arrière pendant la récupération d’urgence dans Skype Entreprise Server.
-ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 568f0bce49379e10da8e64ca1eb4507b9319d250
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609231"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744160"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Expérience utilisateur lors de la défaillance d’un pool Skype Entreprise Server
  
@@ -38,7 +38,7 @@ Lorsqu’un utilisateur se trouve dans un pool qui échoue, il est déconnecté.
   
 ## <a name="user-experience-during-failback"></a>Expérience utilisateur pendant la récupération
 
-La restauration automatique du pool peut survenir pendant qu’un utilisateur affecté est connecté au pool de sauvegarde ; l’utilisateur reste connecté et opérationnel pendant la restauration. Notez que le processus de récupération prend plusieurs minutes. À titre de référence, il devrait prendre jusqu’à 60 minutes pour un pool de 20 000 utilisateurs.
+La restauration automatique du pool peut survenir pendant qu’un utilisateur affecté est connecté au pool de sauvegarde ; l’utilisateur reste connecté et opérationnel pendant la restauration. Notez que le processus de récupération de l’échec prend plusieurs minutes. À titre de référence, il devrait prendre jusqu’à 60 minutes pour un pool de 20 000 utilisateurs.
   
 Les tableaux suivants montrent plus de détails sur la façon dont un utilisateur est affecté pendant et après la récupération, ainsi que sur la façon dont les utilisateurs d’autres pools voient et interagissent avec un utilisateur d’un pool en cours de revenir en arrière. 
   
@@ -54,8 +54,8 @@ Le terme utilisateur affecté fait référence à tous les utilisateurs qui ont 
 |Conférences en cours organisées par un utilisateur non affecté  <br/> |La conférence se poursuit et l’utilisateur affecté peut rester dans la conférence. L’utilisateur affecté est limité à ce qu’il peut faire en mode Résistance.  <br/> |La conférence se poursuit. L’utilisateur affecté peut rester dans la conférence et toutes les modalités fonctionnent une fois que l’utilisateur a quitté le mode Résistance.  <br/> |
 |Planification ou modification de réunions planifiées, création de conférences ad hoc  <br/> |Impossibles pendant que l’utilisateur est en mode Résistance.  <br/> |Disponibles pour toutes les modalités.  <br/> |
 |Présence telle qu’elle est vue par les autres utilisateurs du même pool  <br/> |Présence inconnue pendant que l’utilisateur est connecté au pool de sauvegarde en mode Résistance.  <br/> |Affiche le dernier état de présence défini par l’utilisateur, et les changements du statut de présence sont maintenant reflétés.  <br/> |
-|Disponibilité de la liste de contacts et du Service de carnet d’adresses  <br/> |Non disponibles  <br/> |Available  <br/> |
-|Ensemble des sessions et modalités pair à pair  <br/> |Available  <br/> |Available  <br/> |
+|Disponibilité de la liste de contacts et du Service de carnet d’adresses  <br/> |Non disponibles  <br/> |Disponible  <br/> |
+|Ensemble des sessions et modalités pair à pair  <br/> |Disponible  <br/> |Disponible  <br/> |
    
 **Expérience utilisateur pour un utilisateur hébergé dans un pool non affecté pendant la restauration automatique d’un autre pool**
 
@@ -64,6 +64,6 @@ Le terme utilisateur affecté fait référence à tous les utilisateurs qui ont 
 |Affichage de la présence de l’utilisateur affecté  <br/> |Affiche le dernier état de présence défini par l’utilisateur.  <br/> |Opérationnel. Les utilisateurs non affectés voient les mises à jour effectuées par les utilisateurs affectés.  <br/> |
 |Conférences en cours organisées par un utilisateur affecté  <br/> |Toutes les modalités de conférence sont terminées.  <br/> |Toutes les modalités fonctionnent à présent. Chaque participant doit cliquer pour participer à la conférence.  <br/> |
 |Conférences en cours organisées par un utilisateur non affecté  <br/> |La conférence se poursuit. L’utilisateur affecté peut rester dans la conférence et toutes les modalités fonctionnent.  <br/> |La conférence se poursuit. L’utilisateur affecté peut rester dans la conférence et toutes les modalités fonctionnent.  <br/> |
-|Ensemble des sessions et modalités pair à pair  <br/> |Available  <br/> |Available  <br/> |
+|Ensemble des sessions et modalités pair à pair  <br/> |Disponible  <br/> |Disponible  <br/> |
    
 

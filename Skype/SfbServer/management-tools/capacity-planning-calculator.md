@@ -1,7 +1,7 @@
 ---
 title: Calculateur de planification de la capacité Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/1/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Résumé : Utilisation de l’outil calculatrice de capacité.'
-ms.openlocfilehash: d7e7a5f59017ad87df894dbc294b60a01a8ff5bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfceeb643f9043053c70670f19cbc91b325acbb4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632828"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745920"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Calculateur de planification de la capacité Skype Entreprise Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58632828"
 > - Skype Entreprise Server 2019.
 > - Skype Entreprise Server 2015.
   
-La calculatrice de capacité [Skype Entreprise Server 2015](https://www.microsoft.com/download/details.aspx?id=51196) et la calculatrice de capacité [Skype Entreprise Server 2019](https://www.microsoft.com/download/details.aspx?id=57509) complètent l’outil de planification [Skype Entreprise](https://www.microsoft.com/download/details.aspx?id=50357) et votre documentation de déploiement ( Planifiez respectivement votre déploiement[Skype Entreprise Server 2015](../plan-your-deployment/plan-your-deployment.md) et votre déploiement [Skype Entreprise Server 2019).](../../SfBServer2019/plan/plan-your-deployment-2019.md) Utilisez la calculatrice après avoir consulté le guide et créé une topologie recommandée à l’aide de l’outil de planification.
+La calculatrice de capacité [Skype Entreprise Server 2015](https://www.microsoft.com/download/details.aspx?id=51196) et la calculatrice de capacité [Skype Entreprise Server 2019](https://www.microsoft.com/download/details.aspx?id=57509) complètent l’outil de planification [Skype Entreprise](https://www.microsoft.com/download/details.aspx?id=50357) et votre documentation de déploiement ( Planifiez respectivement votre déploiement[Skype Entreprise Server 2015](../plan-your-deployment/plan-your-deployment.md) et planifiez votre déploiement [Skype Entreprise Server 2019).](../../SfBServer2019/plan/plan-your-deployment-2019.md) Utilisez la calculatrice après avoir consulté le guide et créé une topologie recommandée à l’aide de l’outil de planification.
   
 La calculatrice Skype Entreprise Server capacité vous permet de déterminer les besoins du serveur en fonction du nombre d’utilisateurs et des outils de communication utilisés par votre organisation. Une fois que vous avez déterminé votre profil utilisateur et les fonctions que vous souhaitez activer pour vos utilisateurs, utilisez la calculatrice pour déterminer le nombre de serveurs, de mémoire et de bande passante dont vous aurez besoin. Cette version de la calculatrice ne fournit pas de conseils pour les besoins en matière d’entrée/de-fin de disque.
   
@@ -48,13 +48,13 @@ Le modèle d’utilisation contient les sections suivantes. Pour calculer vos be
   
 - Sous **Nombre d’utilisateurs,** tapez le nombre d’utilisateurs qui seront signés à la fois. Ce nombre est généralement de 80 % du nombre total d’utilisateurs provisionnés. Dans la plupart des cas, 100 % de vos utilisateurs simultanés seront activés pour la messagerie instantanée et la présence. La valeur par défaut est 80 000 pour Skype Entreprise Server 2015 et 106 000 utilisateurs pour Skype Entreprise Server 2019.
     
-- **Le nombre moyen de contacts dans la** liste des contacts indique le nombre de contacts que nous utilisons pour valider votre système requis. Ce nombre est fixe et ne doit pas être changé.
+- **Le nombre moyen de contacts dans la liste des** contacts indique le nombre de contacts que nous utilisons pour valider votre système requis. Ce nombre est fixe et ne doit pas être changé.
     
   **Voix Entreprise**
   
 - Dans **Utilisateurs activés pour Voix Entreprise,** tapez le pourcentage de vos utilisateurs activés pour Voix Entreprise. La valeur par défaut est 60 %. 
     
-- En **nombre moyen d’appels par** utilisateur et par heure (pointe), tapez le nombre d’appels par heure que l’utilisateur moyen doit participer aux heures de pointe. La valeur par défaut est 4. 
+- En **nombre moyen d’appels** par utilisateur et par heure (pointe), tapez le nombre d’appels par heure que l’utilisateur moyen doit participer aux heures de pointe. La valeur par défaut est 4. 
     
 - Dans **Pourcentage d’appels qui utilisent le contournement de** média, tapez le pourcentage d’appels passé par vos utilisateurs qui contournera le serveur de médiation. La valeur par défaut est de 65 %, mais elle peut être inférieure si vous êtes dispersé géographiquement ou si vous avez un grand pourcentage d’utilisateurs qui travaillent à domicile.
     
@@ -78,7 +78,7 @@ Le modèle d’utilisation contient les sections suivantes. Pour calculer vos be
     
   - Si 50 % de vos conférences vocales incluent également le partage d’application, cochez la case Inclure **le partage d’application.**
     
-  - Si 20 % de vos conférences vocales incluent des téléchargements de données, tels que des présentations PowerPoint, cochez la case Inclure la conférence **web.**
+  - Si 20 % de vos conférences vocales incluent des téléchargements de données, tels que PowerPoint présentations, cochez la case Inclure la conférence **web.**
     
   **Mobilité**
   
@@ -98,7 +98,7 @@ Les cellules vertes indiquent des recommandations pour le modèle d’utilisatio
     
     Notez que l’activation de l’hyperthreading est recommandée et a été démontrée pour améliorer les performances pour les serveurs qui la prise en charge de l’audio/vidéo.
     
-- **Serveurs Edge**: nombre de serveurs Edge requis, basé sur 30 % de tous les utilisateurs simultanés communiquant via les serveurs Edge. Ce pourcentage ne peut pas être modifié dans la calculatrice. 
+- **Serveurs Edge :** nombre de serveurs Edge requis, sur la base de 30 % de tous les utilisateurs simultanés communiquant via les serveurs Edge. Ce pourcentage ne peut pas être modifié dans la calculatrice. 
     
 - Magasin de services d’archivage/d’enregistrement des détails des **appels/qualité** de l’expérience : nombre de magasins requis pour les fonctionnalités d’archivage ou de surveillance, s’ils sont activés dans votre organisation.
     
@@ -114,6 +114,6 @@ En outre, dans la ligne en face du nombre total de serveurs frontaux, des inform
     
 ### <a name="adjusting-for-your-processors"></a>Ajustement pour vos processeurs
 
-Toutes les figures d’utilisation de l’UC dans la feuille de calcul supposent que chaque serveur Skype Entreprise Server 2015 dispose d’un double processeur, d’un cœur hexadest avec 2,26 GHz, d’au moins 32 Go de mémoire et d’au moins 8 disques durs de 10 000 MPM avec au moins 72 Go d’espace disque libre. Pour chaque serveur Skype Entreprise Server 2019, toutes les figures d’utilisation de l’UC dans la feuille de calcul supposent que chaque serveur dispose d’un double processeur, d’un cœur hexadest avec Intel Xeon E5-2673 v3, d’au moins 64 Go de mémoire et d’au moins 10 000 disques durs RPM avec au moins 72 Go d’espace disque libre.
+Toutes les figures d’utilisation de l’UC dans la feuille de calcul supposent que chaque serveur Skype Entreprise Server 2015 dispose d’un double processeur, d’un cœur hex core avec 2,26 GHz, d’au moins 32 Go de mémoire et d’au moins 8 disques durs de 10 000 MPM avec au moins 72 Go d’espace disque libre. Pour chaque serveur Skype Entreprise Server 2019, toutes les figures d’utilisation de l’UC dans la feuille de calcul supposent que chaque serveur dispose d’un double processeur, d’un cœur hexadest avec Intel Xeon E5-2673 v3, d’au moins 64 Go de mémoire et d’au moins 10 000 disques durs RPM avec au moins 72 Go d’espace disque libre.
   
 Si vos serveurs ont des processeurs différents, vous pouvez ajuster les chiffres pour qu’ils correspondent à votre matériel.

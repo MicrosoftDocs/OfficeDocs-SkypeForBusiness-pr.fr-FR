@@ -1,7 +1,7 @@
 ---
 title: Gérer les emplacements pour les fournisseurs de services de trunk SIP dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: add2bc3ffea29d6fb61db84b899d3e39ef50fd02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602429"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751543"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Gérer les emplacements pour les fournisseurs de services de trunk SIP dans Skype Entreprise Server
 
 Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de fournisseurs de trunking SIP, Skype Entreprise Server Voix Entreprise.
 
-Pour configurer Skype Entreprise Server afin de localiser automatiquement des clients au sein d’un réseau, vous devez remplir la base de données du service Informations d’emplacement avec un schéma de câblage réseau et publier les emplacements, ou établir un lien vers une base de données externe qui contient déjà les mappages corrects. Dans le cadre de ce processus, vous devez valider les adresses géographiques des emplacements avec votre fournisseur de services E9-1-1. Pour plus d’informations, voir [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) dans la documentation de déploiement.
+Pour configurer Skype Entreprise Server afin de localiser automatiquement les clients au sein d’un réseau, vous devez remplir la base de données du service Informations d’emplacement avec un schéma de câblage réseau et publier les emplacements, ou établir un lien vers une base de données externe qui contient déjà les mappages corrects. Dans le cadre de ce processus, vous devez valider les adresses géographiques des emplacements avec votre fournisseur de services E9-1-1. Pour plus d’informations, voir [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) dans la documentation de déploiement.
 
 Vous renseignez la base de données du service Informations d’emplacement avec un emplacement d’intervention d’urgence (ERL), composé d’une adresse géographique et de l’adresse spécifique au sein d’un bâtiment. Le champ Emplacement **du** service Informations sur l’emplacement, qui est l’emplacement spécifique dans un bâtiment, a une longueur maximale de 20 caractères (espaces compris). En respectant cette limite, essayez d’inclure les éléments suivants :
 

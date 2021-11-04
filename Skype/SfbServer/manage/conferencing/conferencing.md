@@ -1,7 +1,7 @@
 ---
 title: Gérer les conférences dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,22 +12,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Résumé : Découvrez comment gérer les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: 8f91e6c7e87c5e7a2032e6c3eb9d6b220ec3da51
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef1afdecaec5ae237020b1681d95b556a37e2ab8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636068"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751773"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Gérer les conférences dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment gérer les conférences dans Skype Entreprise Server.
   
-Cette rubrique décrit comment gérer les conférences. Pour plus d’informations sur la façon de planifier et de déployer la conférence, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Cette rubrique décrit comment gérer les conférences. Pour plus d’informations sur la façon de planifier et de déployer des conférences, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Dans Skype Entreprise Server, vous gérez les détails de la conférence en spécifiant les paramètres de configuration et de stratégie comme suit. Notez que les termes conférence et réunion sont parfois utilisés indifféremment. Toutefois, en règle générale, vous pouvez penser à une réunion comme une instance spécifique de conférence.
+Dans Skype Entreprise Server, vous gérez les détails des conférences en spécifiant les paramètres de configuration et de stratégie comme suit. Notez que les termes conférence et réunion sont parfois utilisés indifféremment. Toutefois, en règle générale, vous pouvez penser à une réunion comme une instance spécifique de conférence.
   
-- Les **paramètres** de stratégie de conférence englobent un large éventail d’options de planification et de participation, allant du fait qu’une réunion peut inclure de l’audio et de la vidéo IP ou le nombre maximal de personnes pouvant y participer. Vous pouvez utiliser des stratégies de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
+- Les **paramètres** de stratégie de conférence englobent un large éventail d’options de planification et de participation, allant du fait qu’une réunion peut inclure du son et de la vidéo IP ou le nombre maximal de personnes pouvant y participer. Vous pouvez utiliser des stratégies de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
     
     Notez que les stratégies de conférence sont appliquées à l’utilisateur ou au site et ne peuvent pas être appliquées à une réunion spécifique. Par conséquent, l’invitation à la réunion peut être créée quelques semaines à l’avance, mais la stratégie de conférence restrictive doit être appliquée au compte Skype Entreprise de l’organisateur de la réunion juste avant le début de la conférence. 
     
@@ -39,7 +39,7 @@ Dans Skype Entreprise Server, vous gérez les détails de la conférence en spé
     
     Ces paramètres vous permettent de gérer les serveurs eux-mêmes. Ces paramètres ne peuvent être définies qu’à l’aide Skype Entreprise Server Management Shell. 
     
-- **Les paramètres d’accès à la** connexion vous permettent de définir des informations sur la façon dont les utilisateurs appellent à partir d’un téléphone. Vous spécifiez certaines des informations d’accès à la conférence, telles que le numéro d’accès, à partir de l’onglet Conférence du Panneau de contrôle et certaines informations de numérotation,telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN, à partir de l’onglet Routage des voix du Panneau de contrôle.
+- **Les paramètres d’accès à la** connexion vous permettent de définir des informations sur la façon dont les utilisateurs appellent un numéro à partir d’un téléphone. Vous spécifiez certaines des informations d’accès à la conférence, telles que le numéro d’accès, à partir de l’onglet Conférence du Panneau de contrôle et certaines informations de numérotation,telles que le plan de numérotation, la stratégie de voix, l’itinéraire et l’utilisation PSTN, à partir de l’onglet Routage des voix du Panneau de contrôle.
     
 - **Les paramètres de stratégie de code** confidentiel vous permettent de nommer et de définir le code confidentiel que les participants utilisent pour l’accès à la connexion.
     
@@ -165,11 +165,11 @@ Vous pouvez utiliser les cmdlets Skype Entreprise Server Management Shell suivan
 |**Applet de commande**|**Description**|
 |:-----|:-----|
 |[Test-CsASConference](/powershell/module/skype/test-csasconference?view=skype-ps) <br/> |Teste l’aptitude de deux utilisateurs à prendre part à une conférence de partage d’application.  <br/> |
-|[Test-CsAudioConferencingProvider](/powershell/module/skype/test-csaudioconferencingprovider?view=skype-ps) <br/> |Teste si un utilisateur peut se connecter à son fournisseur de services d’audioconférence. Un fournisseur de services d’audioconférence est une société tierce qui propose des services de conférence aux entreprises. Entre autres choses, les fournisseurs d’audioconférence permettent aux utilisateurs situés hors site et non connectés au réseau d’entreprise ou à Internet de participer à la partie audio d’une conférence ou d’une réunion.  <br/> |
+|[Test-CsAudioConferencingProvider](/powershell/module/skype/test-csaudioconferencingprovider?view=skype-ps) <br/> |Teste pour voir si un utilisateur peut se connecter à son fournisseur de services d’audioconférence. Un fournisseur de services d’audioconférence est une société tierce qui propose des services de conférence aux entreprises. Entre autres choses, les fournisseurs d’audioconférence permettent aux utilisateurs situés hors site et non connectés au réseau d’entreprise ou à Internet de participer à la partie audio d’une conférence ou d’une réunion.  <br/> |
 |[Test-CsAVConference](/powershell/module/skype/test-csavconference?view=skype-ps) <br/> |Teste l’aptitude de deux utilisateurs à prendre part à une conférence audio/vidéo (A/V).  <br/> |
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Vérifie si deux utilisateurs peuvent ou non participer à une conférence web Skype Entreprise Server qui inclut des activités telles que le partage ou l’affichage de PowerPoint diapositives, tableaux blancs ou sondages. L’cmdlet vérifie également que le service de conférence web Skype Entreprise Server peut découvrir Office Web Apps Server et qu’un client peut télécharger un fichier PowerPoint pour diffusion par Office Web Apps Server.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Vérifie si un utilisateur peut participer à une session de conférence rendez-vous.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Teste un numéro de téléphone par rapport à un plan de numérotation (anciennement appelé « profil d’emplacement ») et retourne la règle de normalisation qui sera appliquée au numéro, ainsi que le numéro traduit après application de la règle de normalisation.  <br/> |
 |[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Teste la capacité de trois utilisateurs à participer à une conférence Skype Entreprise Server Mobility Service. Le service de mobilité permet aux utilisateurs de téléphones mobiles tels que des iPhone et Windows Phone d’échanger des messages instantanés et des informations de présence. stocker et récupérer la messagerie vocale en interne plutôt qu’avec son fournisseur sans fil ; et tirez parti Skype Entreprise Server fonctionnalités telles que l’appel via le travail et la conférence sortante.  <br/> **Remarque :** Les clients qui utilisent MCX ne sont pas pris en charge Skype Entreprise Server 2019.|
-|[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Teste la capacité d’une paire d’utilisateurs à planifier, rejoindre et mener une conférence en ligne à l’aide de l’API web de communications unifiées (UCWA).  <br/> |
+|[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Teste la capacité d’une paire d’utilisateurs à planifier, rejoindre et mener une conférence en ligne à l’aide de l’API UCWA (Unified Communications Web API).  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Renvoie des informations de diagnostic pour les fonctionnalités de conférence de données incluses dans Skype Entreprise Server.  <br/> |

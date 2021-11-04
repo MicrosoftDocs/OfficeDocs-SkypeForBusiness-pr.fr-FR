@@ -1,7 +1,7 @@
 ---
 title: Configurer les types d’adresses IP dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Résumé : Examinez les considérations sur le type d’adresse IP ci-dessous avant d’implémenter Skype Entreprise Server.'
-ms.openlocfilehash: cc091a7d075af1f0ad8c48e615baa304ec162072
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 931d0af8dd064ebec854c08442abfe573333bf8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584958"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765222"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurer les types d’adresses IP dans Skype Entreprise
 
@@ -78,7 +78,7 @@ Vous déployez des types d’adresses IP à l’aide des paramètres de topologi
 
   - **Adresse IP PSTN** : entrez l’adresse IP PSTN à utiliser lorsqu’un serveur de médiation est colocalisé sur le serveur frontal. Cette adresse IP doit correspondre au format du type d’adresse que vous avez sélectionné.
 > [!IMPORTANT]
-> Nous 5 000 cartes réseau uniquement sur *des serveurs de* médiation dédiés. Si le rôle Sserver de médiation est coqueté sur le serveur frontal, les cartes réseau doubles ne sont pas pris en charge. 
+> Nous 2 000 cartes réseau uniquement sur *des serveurs de* médiation dédiés. Si le rôle Sserver de médiation est coqueté sur le serveur frontal, les cartes réseau doubles ne sont pas pris en charge. 
 
 > [!NOTE]
 > - Pour plus d’informations sur les configurations de Skype Entreprise Server 2015, voir [Hardware for Skype Entreprise Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)

@@ -1,7 +1,7 @@
 ---
 title: Exemples de développement du tableau de bord de qualité des appels (TBQA)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Résumé : Examinez un didacticiel et des exemples de développement pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ba49af8e8ce79b87c57d761a47b54b6574f3a7f5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727513"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751713"
 ---
 # <a name="cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels (TBQA)
 
 **Résumé :** Examinez un didacticiel et des exemples de développement pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
 
-Cet article fournit un didacticiel et des exemples sur le développement du tableau de bord de qualité des appels (CQD).
+Cet article fournit un didacticiel et des exemples sur le développement pour le Tableau de bord de qualité des appels (CQD).
 
 ## <a name="call-quality-dashboard-cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels
 
@@ -52,7 +52,7 @@ Lorsque vous naviguez vers la page d’accueil du CQD (par exemple, l’ensemble
 
 ### <a name="building-customized-reports"></a>Création de rapports personnalisés
 
-Le CQD offre déjà beaucoup de flexibilité dans la personnalisation des rapports, mais il peut y avoir des situations dans lesquelles les utilisateurs peuvent vouloir agréger des données dans plusieurs rapports créés dans le CQD. Par exemple, il peut être nécessaire de créer un rapport qui indique les pourcentages d’appels médiocres de toutes les combinaisons possibles d’appels câblés dans une table (un résultat comme la figure) :
+Le CQD offre déjà beaucoup de flexibilité dans la personnalisation des rapports, mais il peut y avoir des situations dans lesquelles les utilisateurs peuvent vouloir agréger des données dans plusieurs rapports créés dans le CQD. Par exemple, il peut être nécessaire de créer un rapport qui indique les pourcentages d’appels médiocres de toutes les combinaisons possibles d’appels câblés dans une table (résultat tel que la figure) :
 
 ![Table CQD.](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
@@ -195,13 +195,13 @@ Jusqu’à présent, le rapport est toujours très simple. L’utilisateur peut 
 
  **Exemple 2 : exemple de définition de rapport**
 
-Il peut être difficile pour quelqu’un de déterminer comment écrire la liste complète des mesures/dimensions/filtres et leurs valeurs correspondantes lors de la construction d’une requête. Dans ce cas, vous pouvez aller sur le portail, créer un rapport à l’aide de l’éditeur de rapport, afficher la chaîne JSON de la définition du rapport, puis copier la définition dans un rapport personnalisé. 
+Il peut être difficile pour quelqu’un de déterminer comment écrire la liste complète des mesures/dimensions/filtres et leurs valeurs correspondantes lors de la construction d’une requête. Dans ce cas, vous pouvez aller sur le portail, créer un rapport à l’aide de l’éditeur de rapport, afficher la chaîne JSON de la définition de rapport, puis copier la définition dans un rapport personnalisé. 
 
-Dans cet exemple, nous allons créer une page web comme celle présentée dans la figure dans laquelle un utilisateur peut entrer l’ID de n’importe quel ensemble de rapports (ou rapport) existant et afficher la définition de l’ensemble de rapports ou du rapport sur la page web. L’utilisateur peut ensuite brancher la chaîne JSON de chaque rapport dans du code semblable à celui de l’exemple 1 et construire n’importe quel rapport personnalisé souhaité par l’utilisateur. 
+Dans cet exemple, nous allons créer une page web comme celle présentée dans la figure où un utilisateur peut entrer l’ID de n’importe quel ensemble de rapports (ou rapport) existant et afficher la définition de l’ensemble de rapports ou du rapport sur la page web. L’utilisateur peut ensuite brancher la chaîne JSON de chaque rapport dans du code semblable à celui de l’exemple 1 et construire n’importe quel rapport personnalisé souhaité par l’utilisateur. 
 
 ![Exemple de CQD.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
-Pour créer l’outil visionneuse de définition de rapport, nous devons envoyer des appels au service de référentiel pour récupérer les représentations de chaîne JSON des définitions de chaque ensemble de rapports que nous voulons. L’API Référentiel retourne la définition de l’ensemble de rapports en fonction d’un ID d’ensemble de rapports donné. 
+Pour créer l’outil visionneuse de définitions de rapports, nous devons envoyer des appels au service de référentiel pour récupérer les représentations de chaîne JSON des définitions de chaque ensemble de rapports de notre recherche. L’API Référentiel retourne la définition de l’ensemble de rapports en fonction d’un ID d’ensemble de rapports donné. 
 
 Voici un exemple rapide : le code contient un bloc qui est un exemple simple d’envoi d’une requête au service référentiel pour obtenir le contenu d’un élément de référentiel en fonction de son identificateur. Et la partie suivante du code (méthode processReportSetData) envoie des appels AJAX pour obtenir la définition de chaque rapport au sein de cet ensemble de rapports. Étant donné que l’ID dans le portail web CQD est l’ID d’un ensemble de rapports, l’appel AJAX retourne un élément d’ensemble de rapports. Vous pouvez trouver plus de détails sur l’API du référentiel et, plus spécifiquement, GetItems, dans [l’article Obtenir des éléments.](get-items.md) 
 
@@ -312,7 +312,7 @@ Voici un exemple rapide : le code contient un bloc qui est un exemple simple d�
 </html>
 ```
 
-La page web ci-dessus se présente comme celle de la figure (sans la définition du rapport lors de la visite initiale). Obtenir l’ID de l’ensemble de rapports à partir du portail CQD (après la signature « /# / » dans l’URL du portail CQD (par exemple, dans la première figure, l’ID de l’ensemble de rapports est 3024, puis placez cet ID de jeu de rapports dans la section d’entrée de cette page web. Appuyez sur le bouton « charger » et voir la définition complète (mesures, dimensions, listes de filtres) de l’ensemble de rapports.
+La page web ci-dessus se présente comme celle de la figure (sans la définition du rapport lors de la visite initiale). Obtenir l’ID du jeu de rapports à partir du portail CQD (après la signature « /# / » dans l’URL du portail CQD (par exemple, dans la première figure, l’ID de l’ensemble de rapports est 3024, puis placez cet ID de jeu de rapports dans la section d’entrée de cette page web. Appuyez sur le bouton « charger » et voir la définition complète (mesures, dimensions, listes de filtres) de l’ensemble de rapports.
 
 En résumé, afin d’obtenir rapidement la définition complète d’un ensemble de rapports/rapports. Voici comment procéder :
 
@@ -324,7 +324,7 @@ En résumé, afin d’obtenir rapidement la définition complète d’un ensembl
 
    **Exemple 3 : Exemple de carte de performance**
 
-Temps pour une tâche plus complexe. Que se passe-t-il si nous voulons créer une page web comme la figure ? Nous devons mettre à jour l’exemple 1 (à l’aide de la page web générée dans l’exemple 2 pour récupérer la définition complète d’un rapport) afin de pouvoir gérer une plus grande quantité de données.
+Temps pour une tâche plus complexe. Que se passe-t-il si nous voulons créer une page web comme la figure ? Nous devons mettre à jour l’exemple 1 (à l’aide de la page web générée dans l’exemple 2 pour récupérer la définition complète de n’importe quel rapport) afin de pouvoir gérer une plus grande quantité de données.
 
 Dans ce cas, nous devons mettre à jour la liste de mesures et de dimensions. Pour déterminer comment ajouter/modifier une mesure et/ou une dimension, suivez les instructions de l’exemple 2 et récupérez la définition complète du rapport, y compris les listes complètes de mesures et de dimensions. Branchez la définition complète du rapport dans l’exemple de code. 
 
@@ -356,7 +356,7 @@ Voici les étapes détaillées pour obtenir la page de carte de performance dans
 4. Parse the results from the AJAX calls and place them in the correct position of the table. Étant donné qu’il s’agit principalement de manipulations HTML et JavaScript, nous n’allons pas entrer dans les détails ici. Au lieu de cela, le code est fourni dans l’Annexe A.
 
     > [!NOTE]
-    >  Si le partage des ressources d’origine croisée (CORS) est activé, les utilisateurs peuvent rencontrer des erreurs telles que « Aucun en-tête Access-Control-Allow-Origin » n’est présent sur la ressource demandée. L’origine « null » n’est donc pas autorisée à accéder ». Pour résoudre le problème, placez le fichier HTML sous le dossier où le portail est installé (par défaut, il doit `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` l’être). Accédez ensuite au code HTML via n’importe quel navigateur avec  `http://<servername>/cqd/<html_file_name>` l’URL. (L’URL par défaut du tableau de bord CQD local est  `http://<servername>/cqd.` ) 
+    >  Si le partage des ressources d’origine croisée (CORS) est activé, les utilisateurs peuvent rencontrer des erreurs telles que « Aucun en-tête Access-Control-Allow-Origin » n’est présent sur la ressource demandée. L’origine « null » n’est donc pas autorisée à accéder ». Pour résoudre le problème, placez le fichier HTML sous le dossier où le portail est installé (par défaut, il doit `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` l’être). Accédez ensuite au code html via n’importe quel navigateur avec  `http://<servername>/cqd/<html_file_name>` l’URL. (L’URL par défaut du tableau de bord CQD local est  `http://<servername>/cqd.` ) 
 
 ### <a name="appendix-a"></a>Annexe A
 

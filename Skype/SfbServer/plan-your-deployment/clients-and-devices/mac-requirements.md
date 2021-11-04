@@ -1,6 +1,6 @@
 ---
 title: Skype Entreprise client sur Mac
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lisez cette rubrique pour en savoir plus sur la configuration matérielle, logicielle et d’infrastructure requise pour l’Skype Entreprise sur un Mac.
-ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 3a4d80bea5bd56f94b5239a537d059c4409d8f33
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014468"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745910"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype Entreprise client sur Mac
  
@@ -42,7 +42,7 @@ Skype Entreprise Server 2015 prend également en charge les clients hérités su
   
 - Microsoft Lync pour Mac 2011 (voir le Guide de déploiement [de Lync pour Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     
-- Microsoft Communicator pour Mac 2011 (voir Communicator guide de déploiement [pour Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))
+- Microsoft Communicator pour Mac 2011 (voir Communicator [pour Mac 2011 Deployment Guide)](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))
  
 Ces clients ne sont pas pris en charge Skype Entreprise Server 2019.
    

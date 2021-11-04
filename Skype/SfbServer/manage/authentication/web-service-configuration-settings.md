@@ -1,7 +1,7 @@
 ---
 title: Gérer les paramètres de configuration du service Web dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Résumé : Gérez les paramètres de configuration du service Web dans Skype Entreprise Server.'
-ms.openlocfilehash: 875993a006cf175432984dc78fc37a34b45e92ee
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5311609fa1c554364f1b91ea2ddf9643840dea05
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015168"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746000"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration du service Web dans Skype Entreprise Server
  
@@ -120,7 +120,7 @@ La commande suivante supprime tous les paramètres de sécurité des services we
   Get-CsWebServiceConfiguration -Filter "service:*" | Remove-CsWebServiceConfiguration
   ```
 
-### <a name="to-delete-all-of-the-web-service-configuration-settings-that-allow-certificate-authentication"></a>Pour supprimer tous les paramètres de configuration du service web qui autorisent l’authentification de certificat
+### <a name="to-delete-all-of-the-web-service-configuration-settings-that-allow-certificate-authentication"></a>Pour supprimer tous les paramètres de configuration du service web qui autorisent l’authentification par certificat
 
 La commande suivante supprime tous les paramètres de sécurité des services web qui autorisent l’authentification des certificats :
     

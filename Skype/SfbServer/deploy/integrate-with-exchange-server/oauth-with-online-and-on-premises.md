@@ -1,7 +1,7 @@
 ---
 title: Intégration entre Skype Entreprise Online et Exchange server
 ms.reviewer: cbland
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/2/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: La configuration de l’authentification OAuth entre Exchange local et Skype Entreprise Online active les fonctionnalités d’intégration Skype Entreprise et Exchange décrites dans la prise en charge des fonctionnalités.
-ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621776"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764772"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurer l’intégration et OAuth entre Skype Entreprise Online et Exchange Server 
 
@@ -126,7 +126,7 @@ Ensuite, utilisez Windows PowerShell pour télécharger le certificat d’autori
 
 3. Exécutez le script PowerShell que vous avez créé à l'étape précédente. Par exemple :  `.\UploadAuthCert.ps1`
 
-4. Une fois le script lancé, une boîte de dialogue d'informations d'identification s'affiche. Entrez les informations d’identification du compte d’administrateur client de votre organisation Microsoft Online Azure AD. Après avoir exécuté le script, laissez la session Windows PowerShell pour Azure AD ouverte. Vous l'utiliserez pour exécuter un script PowerShell à l'étape suivante.
+4. Une fois le script lancé, une boîte de dialogue d'informations d'identification s'affiche. Entrez les informations d’identification du compte d’administrateur client de votre organisation Microsoft Online Azure AD client. Après avoir exécuté le script, laissez la session Windows PowerShell pour Azure AD ouverte. Vous l'utiliserez pour exécuter un script PowerShell à l'étape suivante.
 
 ### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Étape 6 : Vérifier que le certificat a été téléchargé vers le principal Skype Entreprise service
 1. Dans le PowerShell ouvert et authentifié Azure Active Directory, exécutez la liste suivante :
@@ -146,7 +146,7 @@ Vérifiez que la configuration est correcte en vérifiant que certaines fonction
 
 3. Confirmez que les messages de conversation archivés sont déposés dans la boîte aux lettres sur site de l’utilisateur dans le dossier Purges à l’aide [d’EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor).
 
-Vous pourz également examiner votre trafic. Le trafic dans une poignée de main OAuth est vraiment distinct (et ne ressemble pas à l’authentification de base), en particulier autour des domaines, où vous allez commencer à voir le trafic de l’émetteur qui ressemble à ceci : 00000004-0000-0ff1-ce00-000000000000@ (parfois avec un / avant le signe @), dans les jetons transmis. Vous ne verrez pas de nom d’utilisateur ou de mot de passe, qui est le point d’OAuth. Mais vous verrez l’émetteur « Office » (dans ce cas, « 4 » est Skype Entreprise) et le domaine de votre abonnement.
+Vous pourz également examiner votre trafic. Le trafic dans une poignée de main OAuth est vraiment distinct (et ne ressemble pas à l’authentification de base), en particulier autour des domaines, où vous allez commencer à voir le trafic de l’émetteur qui ressemble à ceci : 00000004-0000-0ff1-ce00-000000000000@ (parfois avec un / avant le signe @), dans les jetons transmis. Vous ne verrez pas de nom d’utilisateur ou de mot de passe, qui est le point d’OAuth. Mais vous verrez l’émetteur « Office » (dans ce cas, « 4 » est Skype Entreprise ) et le domaine de votre abonnement.
 
 Si vous voulez être sûr d’utiliser OAuth avec succès, assurez-vous que vous savez à quoi vous attendre et à quoi le trafic doit ressembler. Voici donc ce à quoi vous devez vous attendre, voici un exemple assez standard de trafic [OAuth](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) dans une application Microsoft (vraiment utile pour lire, bien [qu’il](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)n’utilise pas de jetons d’actualisation), et il existe des extensions Fiddler qui vous permet d’examiner votre JWT OAuth (jeton web JSON).
 

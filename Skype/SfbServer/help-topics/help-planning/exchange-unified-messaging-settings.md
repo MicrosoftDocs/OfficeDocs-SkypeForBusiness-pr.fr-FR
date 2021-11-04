@@ -1,7 +1,7 @@
 ---
 title: Skype Entreprise Server Exchange outil de planification de Paramètres messagerie unifiée
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: Skype Entreprise Server prend en charge l’intégration Exchange messagerie unifiée pour combiner la messagerie vocale et la messagerie électronique dans une infrastructure de messagerie unique.
-ms.openlocfilehash: 1bda2e8506836e20b84016f2cd5d0fdea4a13b84
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e4641d405996a733cc5b77a238fe9d6134262fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633708"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746090"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-settings-planning-tool"></a>Skype Entreprise Server Exchange outil de planification de Paramètres messagerie unifiée
 

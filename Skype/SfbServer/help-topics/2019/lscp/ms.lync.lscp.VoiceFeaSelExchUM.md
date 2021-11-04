@@ -1,7 +1,7 @@
 ---
 title: Sélectionner le standard automatique de la messagerie unifiée Exchange
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner le standard automatique de la messagerie unifiée Exchange pour sélectionner un standard automatique de la messagerie unifiée Exchange qui gèrera les appels entrants destinés à une plage de numéros non attribués.
-ms.openlocfilehash: 06976c1e6652f808623971cf2282e72c55f6d13f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82a9c69ba935ccbbfb8d2ff17baee02b7c3eea4f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577968"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750953"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Sélectionner le standard automatique de la messagerie unifiée Exchange
 

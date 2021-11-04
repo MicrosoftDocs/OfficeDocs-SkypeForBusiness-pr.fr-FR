@@ -1,14 +1,14 @@
 ---
 title: Teams comportement des applications pour les utilisateurs non standard
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez le comportement des applications Microsoft Teams’utilisateurs non standard.
+description: Découvrez le comportement des applications Microsoft Teams utilisateurs non standard.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619400"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745540"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams comportement des applications pour les utilisateurs non standard
 
@@ -78,12 +78,12 @@ Les utilisateurs externes ne peuvent pas installer, mettre à jour ou supprimer 
 
 Les utilisateurs anonymes ne peuvent pas installer, mettre à jour ou supprimer des applications dans les réunions.
 
-### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs anonymes
+### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation des utilisateurs anonymes
 
 Les utilisateurs anonymes ne peuvent pas utiliser directement des applications dans les réunions. Les utilisateurs natifs peuvent continuer à utiliser les applications de réunion si des utilisateurs anonymes sont présents. Si une application envoie une carte adaptative dans la conversation, les utilisateurs anonymes peuvent interagir avec la carte. Pour plus d’informations, [voir Autoriser les utilisateurs anonymes à participer à des réunions.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ils peuvent interagir avec des applications dans Teams réunions si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Gérer les stratégies de mise en application dans Microsoft Teams](teams-app-setup-policies.md)

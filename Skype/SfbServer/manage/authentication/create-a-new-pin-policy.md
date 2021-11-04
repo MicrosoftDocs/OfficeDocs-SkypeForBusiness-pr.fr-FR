@@ -1,7 +1,7 @@
 ---
 title: Créer une stratégie de code confidentiel dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 'Résumé : Créez une stratégie de code confidentiel dans Skype Entreprise Server.'
-ms.openlocfilehash: 2b777cbf3f130222cda40811e0bb310cf895c79e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24d131792fdc7ae90a8799f231dd94a3e854c576
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583948"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751783"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Créer une stratégie de code confidentiel dans Skype Entreprise Server
  

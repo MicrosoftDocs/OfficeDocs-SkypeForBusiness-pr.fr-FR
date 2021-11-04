@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies de conférence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 'Résumé : Découvrez comment gérer les stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 1dd9c13735d08826316c8b9f80c5274759363040
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2678c964cc56de44aff37d49aae5f3c61ebc298
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606213"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766622"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Gérer les stratégies de conférence dans Skype Entreprise Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "58606213"
   
 Cette rubrique décrit comment gérer les stratégies de conférence. Pour plus d’informations sur la façon de planifier et de déployer la conférence, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Les stratégies de conférence vous permettent de définir un large éventail d’options de planification et de participation, allant de l’option d’accès audio et vidéo IP à la participation maximale. Vous pouvez utiliser des stratégies de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
+Les stratégies de conférence vous permettent de définir un large éventail d’options de planification et de participation, allant de l’option d’utilisation de l’audio et de la vidéo IP à la participation maximale. Vous pouvez utiliser des stratégies de conférence pour gérer la sécurité, la bande passante et les aspects juridiques des réunions.
   
 Vous pouvez définir une stratégie de conférence sur trois niveaux : étendue globale, étendue de site et étendue d’utilisateur. Les paramètres s’appliquent à un utilisateur de l’étendue la plus étroite à la plus large. Si vous affectez une stratégie à un utilisateur, ces paramètres sont prioritaires. Si vous n’affectez pas une stratégie utilisateur à un utilisateur, les paramètres de la stratégie par site s’appliquent. Si vous n’appliquez aucune stratégie par utilisateur ou par site, la stratégie globale fournit les paramètres par défaut.
   
@@ -39,7 +39,7 @@ Pour gérer les stratégies de conférence à l’aide Skype Entreprise Server P
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
     
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Gérer les stratégies de conférence à l’aide Skype Entreprise Server Management Shell
 

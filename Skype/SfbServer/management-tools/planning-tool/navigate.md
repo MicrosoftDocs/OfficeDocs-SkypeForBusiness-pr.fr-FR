@@ -1,7 +1,7 @@
 ---
 title: Naviguer dans l’outil de planification Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: Vous naviguez dans l’outil de planification Skype Entreprise Server 2015 à l’aide d’une barre d’outils, de boutons et de liens spécifiques à une page et de volets contextés. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
-ms.openlocfilehash: 37a5a3e9ba2934422ef9a89ef7c0cb3df25f1a4a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Vous naviguez dans Skype Entreprise Server Outil de planification 2015 à l’aide d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques au contexte. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
+ms.openlocfilehash: 6601b4830c1bee071ea5ad7e9dbaaa533d7d761a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725703"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751593"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Naviguer dans l’outil de planification Skype Entreprise Server 2015
 
-Vous naviguez dans l’outil de planification Skype Entreprise Server 2015 à l’aide d’une barre d’outils, de boutons et de liens spécifiques à une page et de volets contextés. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
+Vous naviguez dans Skype Entreprise Server Outil de planification 2015 à l’aide d’une barre d’outils, de boutons et de liens spécifiques à une page, et de volets spécifiques au contexte. Les volets spécifiques au contexte fournissent des informations de conception pour la planification et la capacité qui sont pertinentes pour les options de sélection sur une page spécifique.
 
 Au démarrage de l’outil de planification, un concepteur voit d’abord la page Bienvenue dans l’outil de planification **Skype Entreprise Server 2015.**
 

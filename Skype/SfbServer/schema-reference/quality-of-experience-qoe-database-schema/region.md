@@ -1,7 +1,7 @@
 ---
 title: Table Region
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
 description: La table Region est une table de prise en charge. Chaque enregistrement représente une région ou un pays défini dans les paramètres de configuration réseau.
-ms.openlocfilehash: ba0937fba73810fce834a6da7472315147fbd501
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f829e0da77874202ff6f00acfba33a838d5fe13
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578568"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765032"
 ---
 # <a name="region-table"></a>Table Region
  
 La table Region est une table de prise en charge. Chaque enregistrement représente une région ou un pays défini dans les paramètres de configuration réseau.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**RegionKey** <br/> |int  <br/> |Primaire  <br/> |Numéro unique d’identification de ce pays ou cette région.  <br/> |
 |**RegionName** <br/> |nvarchar(128)  <br/> |Uniques  <br/> |Nom de ce pays ou cette région.  <br/> |

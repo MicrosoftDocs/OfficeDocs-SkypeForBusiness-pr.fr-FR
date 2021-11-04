@@ -1,7 +1,7 @@
 ---
 title: Les partenaires fédérés XMPP en créent une autre ou en modifient une existante
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: f5961015fdbfd074d7d7b6189861fbcc6f7a6e3b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e02ce6ad94db08b5ed6b245af5b194c3e31d507
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610851"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746300"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>Partenaires fédérés XMPP : création d’un nouveau ou modification d’un partenaire existant
 

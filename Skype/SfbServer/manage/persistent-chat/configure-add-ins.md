@@ -1,7 +1,7 @@
 ---
 title: Configurer des add-ins pour les salles de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Résumé : Découvrez comment configurer des add-ins pour les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 183ac4cbbdcdddfea65b3a6acab44ef4c81fe662
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013388"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745950"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurer des add-ins pour les salles de conversation permanente dans Skype Entreprise Server 2015
  
 **Résumé :** Découvrez comment configurer des add-ins pour les salles de conversation du serveur de conversation permanente Skype Entreprise Server 2015.
   
-Les add-ins sont utilisés pour étendre l’expérience dans la salle en associant des URL à des salles de conversation. Ces URL apparaissent dans le volet d’extensibilité de conversation client. Un add-in type peut inclure une URL pointant vers une application Silverlight qui intercepte lorsqu’un ticker de stock est publié dans une salle de conversation et affiche l’historique des actions dans le volet d’extensibilité. En guise d’autre exemple, citons l’incorporation d’une URL OneNote 2013 dans la salle de conversation en tant que complément pour inclure un contexte partagé, tel que « Tête de liste » ou « Sujet du jour ».
+Les add-ins sont utilisés pour étendre l’expérience dans la salle en associant des URL à des salles de conversation. Ces URL apparaissent dans le volet d’extensibilité de conversation client. Un application type peut inclure une URL pointant vers une application Silverlight qui intercepte lorsqu’un ticker de titres est publié dans une salle de conversation et affiche l’historique des actions dans le volet d’extensibilité. En guise d’autre exemple, citons l’incorporation d’une URL OneNote 2013 dans la salle de conversation en tant que complément pour inclure un contexte partagé, tel que « Tête de liste » ou « Sujet du jour ».
   
  Pour que les utilisateurs voient un add-in dans le client, vous devez l’ajouter à la liste des add-ins inscrits, et les responsables ou créateurs de salles de conversation doivent associer des salles au module.
   
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>Configurer les paramètres d’un add-in existant
 
-Vous pouvez configurer les paramètres d’un application existante à l’aide de l’cmdlet **Set-CsPersistentChatAddIn.** Par exemple, la commande suivante modifie l’URL attribuée au module de conversation permanente ITPersistentChatAddin. Dans ce cas, l’URL est modifiée en `http://atl-cs-001.contoso.com/itchat2` :
+Vous pouvez configurer les paramètres d’un add-in existant à l’aide de l’cmdlet **Set-CsPersistentChatAddIn.** Par exemple, la commande suivante modifie l’URL attribuée au module de conversation permanente ITPersistentChatAddin. Dans ce cas, l’URL est modifiée en `http://atl-cs-001.contoso.com/itchat2` :
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"

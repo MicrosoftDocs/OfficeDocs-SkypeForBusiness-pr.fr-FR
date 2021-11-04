@@ -1,7 +1,7 @@
 ---
 title: Table AppSharingStream
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) pour les flux de données réseau utilisés pour le partage d’application. Ce tableau a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 5577777c96618e6cf601e8b80763f74acdad5a5a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8ff42466ce5919b42c39e9e4cc84daefadf803fd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592418"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765052"
 ---
 # <a name="appsharingstream-table"></a>Table AppSharingStream
  
 La table AppSharingStream contient la mesure Qualité de l’expérience (QoE) pour les flux de données réseau utilisés pour le partage d’application. Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |dateTime  <br/> |Primaire, étrangère  <br/> |Date et heure de début de la session.  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primaire, étrangère  <br/> |Identificateur séquentiel utilisé pour distinguer les sessions qui ont débuté à la même date et à la même heure.  <br/> |

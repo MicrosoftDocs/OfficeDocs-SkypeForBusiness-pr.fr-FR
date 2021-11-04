@@ -1,7 +1,7 @@
 ---
 title: Modifications apportées par la préparation de la forêt dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Cette section décrit les paramètres globaux, les objets et les groupes de services universels et d’administration créés pendant la préparation de la forêt.
-ms.openlocfilehash: c21e6dfac6cd3b6a9bb3c0b6b040138e6d8f8a52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3da4c97a5dab0b7738f01201f9c0cc5b4e34a782
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613994"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745870"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Modifications apportées par la préparation de la forêt dans Skype Entreprise Server
 
@@ -26,7 +26,7 @@ Cette section décrit les paramètres globaux, les objets et les groupes de serv
 
 ## <a name="active-directory-global-settings-and-objects"></a>Paramètres globaux et objets Active Directory
 
-Si vous stockez les paramètres globaux dans le conteneur de configuration (comme c’est le cas pour tous les nouveaux déploiements Skype Entreprise Server), la préparation de la forêt utilise le conteneur services existant et ajoute un objet **RTC Service** sous l’objet Configuration\Services. Sous l’objet RTC Service, la préparation de la forêt ajoute un objet **Paramètres globaux** de type msRTCSIP-GlobalContainer. L’objet de paramètres globaux contient tous les paramètres qui s’appliquent au Skype Entreprise Server déploiement. Si vous choisissez de stocker les paramètres globaux dans le conteneur système, la préparation de la forêt ajoute un conteneur Microsoft sous le conteneur système du domaine racine et un nouvel objet RTC Service sous l’objet System\Microsoft.
+Si vous stockez les paramètres globaux dans le conteneur de configuration (comme c’est le cas pour tous les nouveaux déploiements Skype Entreprise Server), la préparation de la forêt utilise le conteneur services existant et ajoute un objet **RTC Service** sous l’objet Configuration\Services. Sous l’objet RTC Service, la préparation de la forêt ajoute un objet **Paramètres globaux** de type msRTCSIP-GlobalContainer. L’objet paramètres globaux contient tous les paramètres qui s’appliquent au Skype Entreprise Server déploiement. Si vous choisissez de stocker les paramètres globaux dans le conteneur système, la préparation de la forêt ajoute un conteneur Microsoft sous le conteneur système du domaine racine et un nouvel objet RTC Service sous l’objet System\Microsoft.
 
 La préparation de la forêt ajoute également un nouvel objet **msRTCSIP-Domain** pour le domaine racine dans lequel la procédure est exécutée.
 
@@ -58,10 +58,10 @@ Le tableau suivant présente les groupes d’infrastructure.
 
 |**Groupe d’infrastructure**|**Description**|
 |:-----|:-----|
-|RTCUniversalGlobalWriteGroup  <br/> |Accorde l’accès en écriture aux objets de paramètre global pour Skype Entreprise Server.  <br/> |
+|RTCUniversalGlobalWriteGroup  <br/> |Accorde l’accès en écriture aux objets de paramètre global Skype Entreprise Server.  <br/> |
 |RTCUniversalGlobalReadOnlyGroup  <br/> |Accorde un accès en lecture seule aux objets de paramètre global pour Skype Entreprise Server.  <br/> |
 |RTCUniversalUserReadOnlyGroup  <br/> |Accorde un accès en lecture seule Skype Entreprise Server paramètres utilisateur.  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |Accorde un accès en lecture seule Skype Entreprise Server paramètres. Ce groupe n’a pas accès aux paramètres de niveau pool, mais uniquement aux paramètres spécifiques à un serveur donné.  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |Accorde un accès en lecture seule à Skype Entreprise Server paramètres. Ce groupe n’a pas accès aux paramètres de niveau pool, mais uniquement aux paramètres spécifiques à un serveur donné.  <br/> |
 |RTCUniversalSBATechnicians  <br/> |Accorde un accès en lecture seule à Skype Entreprise Server configuration et est placé dans le groupe Administrateurs locaux des survivable Branch Appliances lors de l’installation.  <br/> |
 
 Le tableau suivant présente les groupes de services.
@@ -110,7 +110,7 @@ La préparation de forêt crée également les groupes de rôles RBAC (Contrôl
 
 Pour plus d’informations sur les rôles RBAC et les tâches que chaque rôle est autorisé à effectuer, voir [Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) dans la documentation de planification.
 
-La préparation de la forêt crée des ace privées et publiques. Il crée des ace privées sur le conteneur de paramètres globaux utilisé par Skype Entreprise Server. Ce conteneur est utilisé uniquement par Skype Entreprise Server et se trouve soit dans le conteneur Configuration, soit dans le conteneur Système dans le domaine racine, selon l’emplacement où vous stockez les paramètres globaux. Les ace publiques créées par la préparation de la forêt sont répertoriées dans le tableau suivant.
+La préparation de la forêt crée des ace privées et publiques. Il crée des ace privées sur le conteneur de paramètres globaux utilisé par Skype Entreprise Server. Ce conteneur est utilisé uniquement par Skype Entreprise Server et se trouve soit dans le conteneur configuration, soit dans le conteneur système dans le domaine racine, selon l’emplacement où vous stockez les paramètres globaux. Les ace publiques créées par la préparation de la forêt sont répertoriées dans le tableau suivant.
 
 **Entrées de contrôle d’accès publiques créées par la préparation de la forêt**
 

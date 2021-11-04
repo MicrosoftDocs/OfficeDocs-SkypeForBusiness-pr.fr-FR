@@ -1,7 +1,7 @@
 ---
 title: Configuration des stratégies de démarrage de clients
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Résumé : Comment gérer les stratégies de groupe.'
-ms.openlocfilehash: 3fccd578b18686ea6c9ce1a5686042f5c25c4f54
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0cf5dedc464dfbfb542d41cbf0477011cd1fbfd4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578148"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751383"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Configuration des stratégies de démarrage de clients
  
@@ -31,9 +31,9 @@ Pour Skype Entreprise clients, il existe plusieurs stratégies d’a bootstrappi
 
 |Paramètre de stratégie de groupe|Description|
 |:-----|:-----|
-|Spécifier un serveur (ConfigurationMode)  <br/> | Spécifie la façon dont Skype Entreprise identifie le transport et le serveur à utiliser lors de la signature. Dans ce paramètre, vous spécifiez les paramètres suivants : <br/>  ServerAddressExternal : spécifie le nom du serveur ou l’adresse IP utilisé par les clients et les contacts fédérés lors de la connexion depuis l’extérieur du pare-feu externe. <br/>  ServerAddressInternal : spécifie le nom du serveur ou l’adresse IP utilisé lorsque les clients se connectent à l’intérieur du pare-feu de l’organisation. <br/>  Transport : spécifie le protocole TCP (Transmission Control Protocol) ou le protocole TLS (Transport Layer Security). <br/> |
+|Spécifier un serveur (ConfigurationMode)  <br/> | Spécifie comment Skype Entreprise identifie le transport et le serveur à utiliser lors de la signature. Dans ce paramètre, vous spécifiez les paramètres suivants : <br/>  ServerAddressExternal : spécifie le nom du serveur ou l’adresse IP utilisé par les clients et les contacts fédérés lors de la connexion depuis l’extérieur du pare-feu externe. <br/>  ServerAddressInternal : spécifie le nom du serveur ou l’adresse IP utilisé lorsque les clients se connectent à l’intérieur du pare-feu de l’organisation. <br/>  Transport : spécifie le protocole TCP (Transmission Control Protocol) ou le protocole TLS (Transport Layer Security). <br/> |
 |Versions de serveur supplémentaires prise en charge (ConfiguredServerCheckValues)  <br/> |Spécifie une liste de noms de version de serveur séparés par des points-virgules sur Skype Entreprise Server se connectera, en plus des versions de serveur qui sont pris en charge par défaut.  <br/> |
-|Désactiver le chargement automatique des journaux d’échec de connexion (DisableAutomaticSendTracing)  <br/> |Charge automatiquement les journaux d’échec de connexion Skype Entreprise Server pour analyse. Aucun journal n’est téléchargé automatiquement si la connexion réussit. Si cette stratégie n’est pas configurée, les choses suivantes se produisent :  <br/> Pour Skype Entreprise en ligne : les journaux d’échec de connexion sont téléchargés automatiquement. Pour Skype Entreprise utilisateurs locaux : une boîte de dialogue de confirmation s’affiche pour l’utilisateur avant le téléchargement. Lorsque ce paramètre est désactivé, les journaux de connexion sont téléchargés automatiquement vers le Skype Entreprise Server pour les utilisateurs Skype Entreprise en local et Skype Entreprise Online. Lorsque ce paramètre est activé, les journaux de connexion ne sont jamais téléchargés automatiquement.  <br/> |
+|Désactiver le chargement automatique des journaux d’échec de connexion (DisableAutomaticSendTracing)  <br/> |Charge automatiquement les journaux d’échec de connexion vers Skype Entreprise Server pour analyse. Aucun journal n’est téléchargé automatiquement si la connexion réussit. Si cette stratégie n’est pas configurée, les choses suivantes se produisent :  <br/> Pour Skype Entreprise en ligne : les journaux d’échec de connexion sont téléchargés automatiquement. Pour Skype Entreprise utilisateurs locaux : une boîte de dialogue de confirmation s’affiche pour l’utilisateur avant le téléchargement. Lorsque ce paramètre est désactivé, les journaux de connexion sont téléchargés automatiquement vers le Skype Entreprise Server pour les utilisateurs Skype Entreprise en local et Skype Entreprise Online. Lorsque ce paramètre est activé, les journaux de connexion ne sont jamais téléchargés automatiquement.  <br/> |
 |Désactiver le secours HTTP pour la connexion SIP (DisableHttpConnect)  <br/> |Empêche Skype Entreprise Server d’essayer de se connecter au serveur à l’aide du protocole HTTP, si TLS ou TCP ne sont pas disponibles. Par défaut, Skype Entreprise tente d’abord de se connecter au serveur à l’aide de TLS ou TCP et, si aucune de ces méthodes de transport ne réussit, Skype Entreprise tente de se connecter à l’aide du protocole HTTP. Utilisez cette stratégie pour désactiver la tentative de remplacement de la connexion HTTP.  <br/> |
 |Exiger des informations d’identification de connexion (DisableNTCredentials)  <br/> |Oblige l’utilisateur à fournir des informations d’identification d’Skype Entreprise au lieu d’utiliser automatiquement Windows d’identification lors de la connexion à un serveur SIP.  <br/> |
 |Désactiver la vérification de version du serveur (DisableServerCheck)  <br/> |Si vous définissez cette stratégie sur 1, empêche les Skype Entreprise de vérifier le nom et la version du serveur avant la signature. Par défaut, Skype Entreprise effectue ces vérifications avant de se signer.  <br/> |
@@ -51,9 +51,9 @@ Les stratégies configurées sur le serveur prévalent toujours sur les paramèt
 
 |**Precedence**|**Emplacement ou méthode de définition**|
 |:-----|:-----|
-|1   <br/> |Skype Entreprise Server la mise en service dans la bande  <br/> |
-|2   <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|1  <br/> |Skype Entreprise Server la mise en service dans la bande  <br/> |
+|2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4   <br/> |Boîte de dialogue Options dans Skype Entreprise  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>Pour définir les paramètres de stratégie de groupe à l’aide Skype Entreprise fichiers de modèles d’administration

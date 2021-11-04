@@ -1,7 +1,7 @@
 ---
 title: Guide de démarrage rapide - Configuration des forfaits d’appels
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 8/21/2018
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a222dd7734fd8df3885b0601a5e511d1936922a3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aeb9fae94d186e841cdacbd05879ab2891b9ba2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726413"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745690"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 
@@ -51,7 +51,7 @@ De plus, pour Teams utilisateurs uniquement, vous devez vous assurer que la stra
 > Vous pouvez également utiliser le routage direct pour permettre à vos utilisateurs d’effectuer et de recevoir des appels RSTN. Pour découvrir comment configurer le routage direct, lisez [Configurer le routage direct.](./direct-routing-configure.md)
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Utilisation de TeamsUpgradePolicy pour contrôler la place des appels
-Pour contrôler l’accès aux appels entrants (et aux conversations) dans Teams ou Skype Entreprise, les administrateurs utilisent TeamsUpgradePolicy, à l’aide du Centre d’administration [Microsoft Teams](https://aka.ms/teamsadmincenter) ou d’une session de Windows PowerShell distante avec les [cmdlets Skype Entreprise.](/powershell/module/skype)
+Pour contrôler l’accès aux appels entrants (et aux conversations) dans Teams ou Skype Entreprise, les administrateurs utilisent TeamsUpgradePolicy, en utilisant le Centre d’administration [Microsoft Teams](https://aka.ms/teamsadmincenter) ou une session de Windows PowerShell distante avec le [Skype Entreprise](/powershell/module/skype) des cmdlets.
 
 
 La configuration par défaut de TeamsUpgradePolicy est le mode Îles, qui est conçu pour garantir que les flux de travail existants d’entreprise ne soient pas interrompus pendant un Teams automatique. Par défaut, les appels VoIP, PSTN et fédérés vers vos utilisateurs continueront d’être acheminés vers Skype Entreprise jusqu’à ce que vous mettez à jour la stratégie pour activer les appels entrants vers Teams.  Lorsque les destinataires sont en mode îles :
@@ -68,7 +68,7 @@ Pour vous assurer que les appels VOIP et PSTN entrants arrivent toujours dans le
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Comment configurer les utilisateurs pour recevoir tous les appels VOIP et PSTN entrants dans Teams
-Pour vous assurer que les utilisateurs reçoivent tous les appels VOIP et PSTN entrants dans Teams, définissez le mode de coexistence de l’utilisateur sur TeamsOnly dans le Centre d’administration Microsoft Teams Skype Entreprise ou utilisez une session de Windows PowerShell distante pour mettre à jour TeamsUpgradePolicy comme suit :
+Pour vous assurer que les utilisateurs reçoivent tous les appels VOIP et PSTN entrants dans Teams, définissez le mode de coexistence de l’utilisateur sur TeamsOnly dans le Centre d’administration Microsoft Teams ou utilisez une session Windows PowerShell distante de Skype Entreprise pour mettre à jour TeamsUpgradePolicy comme suit :
 
 ```powershell
 Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com

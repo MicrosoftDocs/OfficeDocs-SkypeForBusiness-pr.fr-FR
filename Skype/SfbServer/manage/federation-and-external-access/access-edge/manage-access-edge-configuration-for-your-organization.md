@@ -5,7 +5,7 @@ ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
 ms:contentKeyID: 48679555
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Après avoir déployé un ou plusieurs serveurs Edge, vous devez activer les types d’accès de domaine ou de fournisseur externe, l’accès des utilisateurs distants et l’accès des utilisateurs anonymes aux conférences via les serveurs Edge qui seront pris en charge pour votre organisation.
-ms.openlocfilehash: af03dbd058884d0a09b5cb68c5f43e030c84fb06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18d4f6e0225c14d3eb5198cb1dc9214c10875267
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634328"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766512"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Gestion de la configuration du serveur Microsoft Edge d’accès pour votre organisation
 
@@ -30,11 +30,11 @@ Ces options couvrent les types d’accès suivants configurables via la page **C
 
   - **Activer la fédération et la connectivité DE MESSAGERIE INSTANTANÉE publique**   Activez-le si vous souhaitez prendre en charge l’accès des utilisateurs aux domaines des partenaires fédérés. Ce paramètre s’applique à la fédération SIP configurée pour les étendues globale, de site ou utilisateur dans la page Stratégie **d’accès** externe. Pour appliquer les paramètres de fédération, vous devez configurer la prise en charge de la fédération sur les deux pages.
     
-    Il existe deux options qui sont facultatives pour la façon dont les partenaires fédérés sont découverts et si les notifications d’exclusion de responsabilité d’archivage (notification aux contacts fédérés avec qui vous communiquez que l’archivage est activé dans votre déploiement et que les détails des communications seront archivés) seront envoyés aux contacts :
+    Il existe deux options qui sont facultatives pour la façon dont les partenaires fédérés sont découverts et si les notifications d’exclusion de responsabilité d’archivage (notification aux contacts fédérés avec qui vous communiquez que l’archivage de votre déploiement est activé et que les détails des communications seront archivés) seront envoyés aux contacts :
     
       - **Activer la découverte de domaine partenaire**   La sélection de cette option permet la découverte automatique des domaines avec qui vous pouvez vous fédérer. Skype Entreprise Server utilise des enregistrements DNS (Domain Name System) pour essayer de découvrir les domaines non répertoriés dans la liste des domaines autorisés, en évaluant automatiquement le trafic entrant provenant de partenaires fédérés découverts et en limitant ou bloquant ce trafic en fonction du niveau de confiance, de la quantité de trafic et des paramètres d’administrateur. Si vous ne sélectionnez pas cette option, l’accès des utilisateurs fédérés est uniquement activé pour les utilisateurs des domaines inclus dans la liste des domaines autorisés. Que vous choisissiez ou non cette option, vous pouvez bloquer ou autoriser des domaines individuels, et restreindre l’accès à des serveurs spécifiques exécutant le service Edge d’accès dans le domaine fédéré. Pour plus d’informations, voir [Configurer la prise en charge des domaines externes autorisés.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
     
-      - **Envoyer une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés**   La sélection de cette option permet l’envoi d’un message de clause d’exclusion de responsabilité d’archivage aux partenaires fédérés qui les informe que les détails des communications sont enregistrés. Si vous archivez des communications externes avec des domaines de partenaires fédérés, vous devez activer l’envoi d’une notification d’exclusion relative à l’archivage pour indiquer aux partenaires que leurs messages et communications sont archivés par votre déploiement. Pour plus d’informations sur l’archivage, voir Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité [d’archivage au partenaire fédéré.](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
+      - **Envoyer une clause d’exclusion de responsabilité d’archivage aux partenaires fédérés**   La sélection de cette option active l’envoi d’un message de clause d’exclusion de responsabilité d’archivage aux partenaires fédérés qui les informe que les détails des communications sont enregistrés. Si vous archivez des communications externes avec des domaines de partenaires fédérés, vous devez activer l’envoi d’une notification d’exclusion relative à l’archivage pour indiquer aux partenaires que leurs messages et communications sont archivés par votre déploiement. Pour plus d’informations sur l’archivage, voir Activer ou désactiver l’envoi d’une clause d’exclusion de responsabilité [d’archivage au partenaire fédéré.](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
   - **Activer l’accès des utilisateurs distants**   Activez cette option si vous souhaitez que les utilisateurs de votre organisation qui sont en dehors de votre pare-feu, tels que les télétravailleurs et les utilisateurs en déplacement, puissent se connecter à Skype Entreprise Server. Pour plus d’informations, voir [Activer ou désactiver l’accès des utilisateurs distants.](enable-or-disable-remote-user-access.md)
 

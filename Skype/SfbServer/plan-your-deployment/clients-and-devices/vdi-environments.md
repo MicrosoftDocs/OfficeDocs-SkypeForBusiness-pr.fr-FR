@@ -1,7 +1,7 @@
 ---
 title: Planifier les Skype Entreprise dans les environnements VDI
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: Cette rubrique traite des considérations de planification pour l’utilisation Skype Entreprise lors de la connexion à un bureau virtuel distant.
-ms.openlocfilehash: 7b169db870ad652dcf8b64552d9351e47e7117bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 441f31dc2de7d07c01070bd4ad3c88070564609e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621010"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745890"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planifier les Skype Entreprise dans les environnements VDI
  
 Cette rubrique traite des considérations de planification pour l’utilisation Skype Entreprise lors de la connexion à un bureau virtuel distant. 
   
-Un environnement VDI (Virtual Desktop Infrastructure) est utilisé dans certaines organisations où les problèmes de sécurité et de conformité sont particulièrement sensibles. Leurs utilisateurs font leur travail sur un bureau virtuel avec toutes leurs applications et fichiers de bureau à l’aide des services Bureau à distance ou d’une connexion distante similaire. L Skype Entreprise’utilisation de l’audio et de la vidéo complètes sur une connexion de ce genre nécessite de nombreuses charges de traitement audio et vidéo sur le client sur un bureau virtuel. Un logiciel de plug-in VDI supplémentaire est disponible, qui décharge ce traitement sur l’ordinateur local de l’utilisateur final et réduit la charge sur le bureau virtuel.
+Un environnement VDI (Virtual Desktop Infrastructure) est utilisé dans certaines organisations où les problèmes de sécurité et de conformité sont particulièrement sensibles. Leurs utilisateurs font leur travail sur un bureau virtuel avec toutes leurs applications et fichiers de bureau à l’aide des services Bureau à distance ou d’une connexion distante similaire. L’Skype Entreprise avec un audio et une vidéo complets sur une connexion de ce genre nécessite de nombreuses charges de traitement audio et vidéo sur le client sur un bureau virtuel. Un logiciel de plug-in VDI supplémentaire est disponible, qui décharge ce traitement sur l’ordinateur local de l’utilisateur final et réduit la charge sur le bureau virtuel.
   
 Trois solutions sont disponibles pour le composant de plug-in VDI, proposées par Microsoft, Citrix ou VMWare. Pour les nouveaux déploiements, Microsoft recommande d’utiliser la solution Citrix HDX RealTime Optimization Pack ou VMWare Horizon Virtualization Pack. Le plug-in VDI Lync d’origine est toujours pris en charge pour le restant de son cycle de vie.
   
@@ -35,7 +35,7 @@ Trois solutions sont disponibles pour le composant de plug-in VDI, proposées pa
     
 - Le pack **d’optimisation Citrix RealTime** s’appuie sur le plug-in Lync VDI et fonctionne avec les clients Lync 2013 ou Skype Entreprise 2016 sur un bureau virtuel. Il a été co-développé par Citrix et Microsoft pour améliorer le plug-in VDI d’origine. Il peut être installé sur des clients avec des systèmes Windows et non Windows (y compris Windows 10, Mac et Linux). Il se compose de deux composants : le connecteur RealTime (qui est installé sur le bureau virtuel) et le moteur RealTime Media (qui est installé sur l’ordinateur local de l’utilisateur final). Ces deux composants permettent à l’ordinateur local de l’utilisateur d’utiliser le client Skype Entreprise s’exécutant sur le bureau virtuel avec le traitement A/V déplacé vers l’ordinateur local. Pour les environnements de bureau virtuel Citrix, le pack d’optimisation Citrix RealTime est recommandé et une prise en charge supplémentaire est planifiée.
     
-- Le pack **VMWare Horizon Virtualization Pack** pour Skype Entreprise, développé en collaboration avec VMWare, vous permet de fournir des Skype Entreprise dans un bureau virtuel tout en offrent une expérience utilisateur réussie. La solution fonctionne en tirant parti d’un moteur multimédia sur le client pour créer une solution optimisée, avec le point de terminaison client fournissant des fonctionnalités de déchargement multimédia pour les appels audio et vidéo. Cette solution qui peut fournir de l’audio et de la vidéo soit directement entre les points de terminaison pour une collaboration un-à-un, soit la décharger vers une unité centrale de contrôle multipoint (MCU) pour les conférences ou réunions à plusieurs.
+- Le pack **VMWare Horizon Virtualization Pack** pour Skype Entreprise, développé en collaboration avec VMWare, vous permet de fournir des Skype Entreprise sur un bureau virtuel tout en offrent une expérience utilisateur réussie. La solution fonctionne en tirant parti d’un moteur multimédia sur le client pour créer une solution optimisée, avec le point de terminaison client fournissant des fonctionnalités de déchargement multimédia pour les appels audio et vidéo. Cette solution qui peut fournir de l’audio et de la vidéo soit directement entre les points de terminaison pour une collaboration un-à-un, soit la décharger vers une unité centrale de contrôle multipoint (MCU) pour les conférences ou réunions à plusieurs.
     
 > [!NOTE]
 > Les clients Skype Entreprise de base ne sont pas pris en charge avec citrix HDX RealTime Optimization Pack ou VMWare Horizon Virtualization Pack. 
@@ -45,7 +45,7 @@ Trois solutions sont disponibles pour le composant de plug-in VDI, proposées pa
 
 Le plug-in d’environnement VDI de Citrix (une fonctionnalité de XenApp et XenDesktop) est compatible avec les clients Lync 2013 et Skype Entreprise 2015 et 2016 (clients complets utilisant un clic pour exécuter le programme d’installation, ou les installers MSI publiés après la mise à jour publique de janvier 2017) installés sur un bureau virtuel. Son fonctionnement global repose sur le plug-in Microsoft Lync VDI, mais fonctionne sur un plus grand nombre de systèmes d’exploitation clients, notamment Windows 10, Macintosh et Linux.
   
-Vous pouvez trouver la liste complète des fonctionnalités et technologies pris en charge sur le site Web Citrix à l’adresse [Delivering Microsoft Skype Entreprise to XenApp and XenDesktop Users](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
+Vous pouvez trouver la liste complète des fonctionnalités et des technologies pris en charge sur le site Web Citrix à l’adresse [Delivering Microsoft Skype Entreprise to XenApp and XenDesktop Users](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
 Pour plus d’informations, ez les liens suivants :
   
@@ -58,7 +58,7 @@ Pour plus d’informations, ez les liens suivants :
 ## <a name="vmware-horizon-virtualization-pack"></a>VMWare Horizon Virtualization Pack
 <a name="Citrix_RT"> </a>
 
-La solution d’environnement VDI de VMWare est compatible avec Skype Entreprise 2015 et 2016 Les clients complets sont installés sur un bureau virtuel. Son fonctionnement global repose sur le plug-in Microsoft Lync VDI, mais fonctionne sur un plus grand nombre de systèmes d’exploitation clients, notamment Windows 10, Macintosh et Linux. 
+La solution d’environnement VDI de VMWare est compatible avec les clients Skype Entreprise 2015 et 2016 Full installés sur un bureau virtuel. Son fonctionnement global repose sur le plug-in Microsoft Lync VDI, mais fonctionne sur un plus grand nombre de systèmes d’exploitation clients, notamment Windows 10, Macintosh et Linux. 
   
 Vous pouvez trouver une discussion complète des fonctionnalités et des technologies pris en charge sur le site web VMWare à l’aide des liens suivants :
   
@@ -83,7 +83,7 @@ Avec la solution de plug-in Microsoft Lync VDI, l’utilisateur doit se trouver 
     
 Une fois la connexion établie, l’utilisateur est prêt à passer et recevoir des appels audio et vidéo. Le trafic sur le réseau et la charge sur le bureau virtuel sont réduits, car l’ordinateur local gère le traitement audio/vidéo.
   
-Le plug-in Lync VDI de Microsoft est uniquement pris en charge sur certains systèmes d’exploitation Windows et prend uniquement en charge les clients Lync 2013 Skype Entreprise 2015. Voir technologies de virtualisation pris en charge [et limitations connues](vdi-environments.md#Supported_virt) pour plus d’informations sur les technologies et limitations pris en charge.
+Le plug-in Lync VDI de Microsoft est uniquement pris en charge sur certains systèmes d’exploitation Windows et prend uniquement en charge les clients Lync 2013 Skype Entreprise 2015. Consultez les technologies de virtualisation prise en charge [et les limitations connues](vdi-environments.md#Supported_virt) pour plus d’informations sur les technologies et limitations pris en charge.
   
 Pour plus d’informations, ez les liens suivants :
   
@@ -95,7 +95,7 @@ Pour plus d’informations, ez les liens suivants :
     
 - Article du Centre de connaissances Citrix [CTX138408](https://support.citrix.com/article/CTX138408)
     
-Le plug-in Microsoft VDI est disponible dans le plug-in [Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) ou plug-in [Microsoft Lync VDI 2013 (64 bits).](https://www.microsoft.com/download/details.aspx?id=35454) Ce plug-in est pris en charge avec le client Skype Entreprise 2015, malgré son nom.
+Le plug-in Microsoft VDI est disponible dans le plug-in [Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) ou dans le [plug-in Microsoft Lync VDI 2013 (64 bits).](https://www.microsoft.com/download/details.aspx?id=35454) Ce plug-in est pris en charge avec le client Skype Entreprise 2015, malgré son nom.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>Technologies de virtualisation et limitations connues pris en charge
 <a name="Supported_virt"> </a>
@@ -110,7 +110,7 @@ Le plug-in Lync VDI prend en charge les sessions de bureau à distance complète
     
 - **Non pris en charge : sessions Bureau à distance.** Dans ce scénario, chaque utilisateur se connecte à une session de bureau virtuel générique qui ne peut pas être personnalisée. Par exemple, Bureau à distance Microsoft sessions de chiffrement (RDSH) et Citrix XenApp combinées avec Citrix Receiver.
     
-Le plug-in Lync VDI ne prend pas en charge les autres technologies de virtualisation, telles que la virtualisation d’application, qui permet l’utilisation d’une application sans nécessiter l’installation locale de l’application complète. Citrix XenApp et Microsoft Application Virtualization (App-V) sont des exemples d’implémentations. Les modes de diffusion en continu d’application, d’accès à la remoting d’application et de virtualisation mixte (par exemple, la mise à l’accès à la ligne à l’aide d’une technologie à remoting de bureau complet) ne sont pas pris en charge.
+Le plug-in Lync VDI ne prend pas en charge les autres technologies de virtualisation, telles que la virtualisation d’application, qui permet l’utilisation d’une application sans nécessiter l’installation locale de l’application complète. Citrix XenApp et Microsoft Application Virtualization (App-V) sont des exemples d’implémentations. Les modes de diffusion en continu d’application, d’accès à la remoting d’application et de virtualisation mixte (par exemple, la mise à l’accès à l’aide d’une mise à l’accès à la ligne dans un bureau complet) ne sont pas pris en charge.
   
 Le plug-in Lync VDI a été conçu pour utiliser des API indépendantes de la plateforme appelées canaux virtuels dynamiques (DVCs). Pour les scénarios qui ne sont pas explicitement pris en charge, reportez-vous aux instructions de support du fournisseur de solutions VDI.
   
@@ -122,9 +122,9 @@ Dans un environnement VDI, les ordinateurs virtuels et l’ordinateur local de l
 > [!NOTE]
 >  Votre fournisseur de solutions de virtualisation peut fournir des détails sur l’installation et le déploiement de son environnement. Pour obtenir des informations générales sur le déploiement d’un environnement virtualisé basé sur Hyper-V et les services Bureau à distance, voir les articles suivants dans la bibliothèque Microsoft : [Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)), Services Bureau à distance dans [Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
   
-Les ordinateurs virtuels doivent être configurés avec Windows 8, Windows 7 ou Windows Server 2008 R2 avec les Derniers Service Packs.
+Les machines virtuelles doivent être configurées avec Windows 8, Windows 7 ou Windows Server 2008 R2 avec les Derniers Service Packs.
   
-L’ordinateur local de l’utilisateur doit répondre aux exigences suivantes :
+L’ordinateur local de l’utilisateur doit respecter les conditions suivantes :
   
 - L’utilisateur doit être Skype Entreprise Server ou Lync Server 2013.
     
@@ -132,11 +132,11 @@ L’ordinateur local de l’utilisateur doit répondre aux exigences suivantes :
     
 - Si vous utilisez les services Bureau à distance, choisissez le plug-in Lync VDI 32 bits ou 64 bits pour correspondre au système d’exploitation de l’ordinateur local. Il n’est pas nécessaire que l’ordinateur local et la machine virtuelle ont des systèmes d’exploitation 32 bits ou 64 bits. Si vous utilisez une autre solution ou plateforme de virtualisation, reportez-vous aux exigences de votre fournisseur.
     
-- L’ordinateur local doit être en cours d’exécution [de la dernière version du client bureau à distance.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) Installez les dernières mises à jour du client Des services Bureau à distance à partir de Microsoft ou le dernier logiciel client bureau à distance à partir de votre fournisseur de solutions de virtualisation. 
+- L’ordinateur local doit être en cours d’exécution [de la dernière version du client bureau à distance.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) Installez les dernières mises à jour du client Services Bureau à distance à partir de Microsoft ou le dernier logiciel client bureau à distance à partir de votre fournisseur de solutions de virtualisation. 
     
 - Sur l’ordinateur local, les paramètres du client Bureau à distance doivent être configurés pour que l’audio soit l’écoute sur l’ordinateur local et que l’enregistrement à distance soit désactivé. Pour configurer ces paramètres pour la connexion Bureau à distance dans Windows, consultez la section suivante, « Pour configurer les paramètres de connexion Bureau à distance ». 
     
-Le plug-in Microsoft VDI est disponible dans le plug-in [Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) ou plug-in [Microsoft Lync VDI 2013 (64 bits).](https://www.microsoft.com/download/details.aspx?id=35454)
+Le plug-in Microsoft VDI est disponible dans le plug-in [Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/download/details.aspx?id=35457) ou dans le [plug-in Microsoft Lync VDI 2013 (64 bits).](https://www.microsoft.com/download/details.aspx?id=35454)
   
 #### <a name="known-feature-limitations"></a>Limitations connues des fonctionnalités
 <a name="VDI_prereq"> </a>
@@ -153,7 +153,7 @@ Il n’existe pas de prise en charge pour les fonctionnalités suivantes :
     
 - enregistrement des conversations ;
     
-- Participer à des réunions de manière anonyme (c’est-à-dire rejoindre Skype Entreprise réunions hébergées par une organisation qui ne se fédérera pas avec votre organisation).
+- Participer à des réunions de manière anonyme (autrement dit, rejoindre Skype Entreprise réunions hébergées par une organisation qui ne fédérera pas avec votre organisation).
     
 - Utilisation du plug-in Lync VDI avec un appareil Lync Téléphone Edition.
     
@@ -164,7 +164,7 @@ Il n’existe pas de prise en charge pour les fonctionnalités suivantes :
 Le plug-in Lync VDI n’est pas pris en charge dans Microsoft 365 ou Office 365 environnements.
   
 > [!NOTE]
-> Le pack d’optimisation Citrix RealTime prend en charge Microsoft 365 et Office 365. Pour les environnements virtuels Citrix, examinez la documentation [De](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) présentation technique de Citrix pour obtenir la liste des fonctionnalités et versions pris en charge.
+> Le pack d’optimisation Citrix RealTime prend en charge Microsoft 365 et Office 365. Pour les environnements virtuels citrix, examinez la documentation [de](https://docs.citrix.com/en-us/hdx-optimization/2-0/hdx-realtime-optimization-pack-about.mdl) Présentation technique de Citrix pour obtenir la liste des fonctionnalités et versions pris en charge.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="Citrix_RT"> </a>

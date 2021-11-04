@@ -1,7 +1,7 @@
 ---
 title: Téléphone gestion des nombres pour la Suisse
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Suisse Microsoft Teams.
-ms.openlocfilehash: 4fdab301299e39f82fb545f5b2e3d228f7d140b9
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 8730acfa92a42f349296b756d8783d2240d6b533
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732925"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775954"
 ---
 # <a name="phone-number-management-for-switzerland"></a>Téléphone gestion des nombres pour la Suisse
 

@@ -1,7 +1,7 @@
 ---
 title: Gérer les catégories dans le serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Résumé : Découvrez comment gérer les catégories de serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: a69d8ec3119f9f94f9f5c864ec0e0d2d613b0e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e9892f032d5af24d1394fddc6965ead6e769472e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622216"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776194"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer les catégories dans le serveur de conversation permanente dans Skype Entreprise Server 2015
  
 **Résumé :** Découvrez comment gérer les catégories de serveur de conversation permanente dans Skype Entreprise Server 2015.
   
-Une catégorie est une structure logique pour l’organisation des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour contrôler les utilisateurs et les groupes d’utilisateurs qui peuvent créer ou rejoindre les salles de conversation. Les catégories de salles de conversation contiennent des salles de conversation, mais pas d’autres catégories. Chaque catégorie décrit son contenu avec des métadonnées, telles que Nom et Description. La catégorie possède des propriétés qui peuvent être définies pour contrôler le comportement des salles de conversation qui lui appartiennent ; par exemple, si les salles de conversation autorisent les invitations ou les téléchargements de fichiers, ou contiennent l’historique de conversation. 
+Une catégorie est une structure logique pour l’organisation des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour contrôler les utilisateurs et les groupes d’utilisateurs qui peuvent créer ou rejoindre les salles de conversation. Les catégories de salles de conversation contiennent des salles de conversation, mais pas d’autres catégories. Chaque catégorie décrit son contenu avec des métadonnées, telles que Nom et Description. La catégorie possède des propriétés qui peuvent être définies pour contrôler le comportement des salles de conversation qui lui appartiennent . par exemple, si les salles de conversation autorisent les invitations ou les téléchargements de fichiers, ou contiennent l’historique de conversation. 
   
 La création et la gestion des salles de conversation sont beaucoup plus faciles avec l’utilisation correcte des catégories. En tant qu’administrateur de serveur de conversation permanente, vous pouvez définir AllowedMembers et Creators pour chaque catégorie, ainsi que les paramètres et comportements de salle de conversation par défaut qui seront appliqués à toutes les salles de conversation créées dans la catégorie. Par exemple, si vous définissez allowedMembers de la catégorie sur contoso.com, vous pouvez ajouter n’importe quel groupe ou utilisateur de Contoso en tant que membre aux salles de conversation de cette catégorie. Si vous définissez les membres autorisés d’une catégorie sur Ventes, seuls les groupes et les utilisateurs de cette liste de distribution peuvent être ajoutés en tant que membres aux salles de conversation de cette catégorie. La propriété Creators vous permet de contrôler qui peut créer des salles de conversation dans cette catégorie. Une fois la salle de conversation créée, toute personne du groupe AllowedMembers peut être désignée comme responsable des opérations de gestion en cours sur les salles (par exemple, modification de l’appartenance et approbation).
   
@@ -63,7 +63,7 @@ Vous pouvez configurer et gérer des catégories à l’aide du Panneau de confi
     
    - Dans **Description**, fournissez une description détaillée de la catégorie de salle (exemple : catégorie de salle pour Contoso).
     
-   - Pour contrôler si les invitations peuvent être activées pour les salles de conversation appartenant à cette catégorie, activez ou activez la case à cocher Activer les **invitations.** S’il est sélectionné, les salles de cette catégorie peuvent avoir des invitations en cours ou non ; si elles sont effacées, les salles de cette catégorie ne sont pas autorisées à recevoir des invitations. Si une salle a des invitations, lorsqu’un nouveau membre est ajouté à une salle, il reçoit une notification de la nouvelle salle dans son client de conversation permanente.
+   - Pour contrôler si les invitations peuvent être activées pour les salles de conversation appartenant à cette catégorie, activez ou videz la case à cocher Activer **les invitations.** S’il est sélectionné, les salles de cette catégorie peuvent avoir des invitations en cours ou non ; si elles sont effacées, les salles de cette catégorie ne sont pas autorisées à recevoir des invitations. Si une salle a des invitations, lorsqu’un nouveau membre est ajouté à une salle, il reçoit une notification de la nouvelle salle dans son client de conversation permanente.
     
    - Pour contrôler les téléchargements de fichiers dans les salles de conversation appartenant à cette catégorie, activez ou désactivez la case à cocher **Activer le téléchargement de fichiers**. Si la case à cocher est activée, les salles de cette catégorie peuvent activer ou désactiver les téléchargements de fichiers. Si la case à cocher est désactivée, les salles de cette catégorie ne sont pas autorisées à activer les téléchargements de fichiers.
     
@@ -75,7 +75,7 @@ Vous pouvez configurer et gérer des catégories à l’aide du Panneau de confi
     
    - Dans **l’appartenance**, dans la **section** Membres refusés, ajoutez ou supprimez des utilisateurs et d’autres principaux Active Directory associés à des membres refusés de la salle.
     
-   - Dans **l’appartenance,** dans la section **Créateurs,** ajoutez ou supprimez des utilisateurs et d’autres principaux Active Directory associés aux créateurs de la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
+   - Dans **Appartenance,** dans la section **Créateurs,** ajoutez ou supprimez des utilisateurs et d’autres principaux Active Directory associés aux créateurs de la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
     
 8. Cliquez sur **Valider**.
     
@@ -95,9 +95,9 @@ Vous pouvez configurer les paramètres suivants pour les catégories :
   
 - EnableFileUpload. Autorise les téléchargements de fichiers dans les salles de conversation de la catégorie.
     
-- EnableInvitations. Active les invitations pour la catégorie. Les utilisateurs de la liste AllowedMembers reçoivent automatiquement une invitation à rejoindre une nouvelle salle de conversation au moment de sa création.
+- EnableInvitations. Active les invitations pour la catégorie. Les utilisateurs de la liste AllowedMembers recevront automatiquement une invitation à rejoindre une nouvelle salle de conversation au moment de la création de la nouvelle salle.
     
-- ChatHistory. Active ou désactive la fonctionnalité d’historique de conversation.
+- ChatHistory. Active ou désactive la fonctionnalité d’historique des conversation.
     
 - Créateurs. Spécifie les utilisateurs autorisés à créer des salles de conversation dans la catégorie.
     

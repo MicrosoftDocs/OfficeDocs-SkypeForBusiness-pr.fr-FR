@@ -1,7 +1,7 @@
 ---
 title: Créer des stratégies de conférence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Résumé : Découvrez comment créer des stratégies de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: d067ce36b600a3dbfca3df318a2fd6d449518160
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1b90a081470cd2df1182bc32d0558a86f860b36a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595576"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766602"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Créer des stratégies de conférence dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Vous pouvez créer des stratégies de conférence à l’Skype Entreprise Server
     
 2. Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur Stratégie **de conférence.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Stratégie **de conférence.**
     
 4. Cliquez sur **Nouveau**, puis effectuez l’une des opérations suivantes :
     

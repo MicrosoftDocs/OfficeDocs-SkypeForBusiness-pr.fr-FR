@@ -1,7 +1,7 @@
 ---
 title: Skype Entreprise ServerModify siP trunk configuration settings
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Les paramètres de configuration de la liaison siP définissent la relation et les fonctionnalités entre un serveur de médiation et la passerelle du réseau téléphonique commuté, un pbX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services. '
-ms.openlocfilehash: dbc7dec8af1f27769505b39b5cd2778f66dec0a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ebec5a350dc46a4deb85546e885429ff72737cb2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582728"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751723"
 ---
 # <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype Entreprise ServerModify siP trunk configuration settings
 
@@ -60,6 +60,6 @@ Lorsque vous modifiez les paramètres de configuration de la Skype Entreprise Se
 1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
 2. Sous l’onglet **Configuration de la jonction**, double-cliquez sur les paramètres de configuration de la jonction à modifier. Notez que vous ne pouvez modifier qu’une collection de paramètres à la fois. Si vous voulez apporter les mêmes modifications à plusieurs collections, utilisez Windows PowerShell à la place.
 3. Dans la **boîte de dialogue Modifier la configuration** de la trunk, faites les sélections appropriées, puis cliquez sur **OK**.
-4. La propriété État de la collection est mise à jour et présente la valeur Non validé. Pour valider les modifications et supprimer la collection, cliquez sur **Valider,** puis sur **Valider tout.**
+4. La propriété État de la collection est mise à jour et présente la valeur Non validé. Pour valider les modifications et supprimer la collection, cliquez sur **Valider,** puis sur **Valider tout**.
 5. Dans la **boîte de dialogue Paramètre de configuration** de la voix noncommand, cliquez sur **OK.**
-6. Dans la **boîte Skype Entreprise Server panneau de bord,** cliquez sur **OK.**
+6. Dans la **boîte de Skype Entreprise Server du Panneau de** Skype Entreprise Server, cliquez sur **OK.**

@@ -1,7 +1,7 @@
 ---
 title: Téléphone gestion des nombres pour la Norvège
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Norvège Microsoft Teams.
-ms.openlocfilehash: 5daf1b16c1704f487279904056bad3a1a2768c4b
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: eafc5ae311d9c021c62a47c17482a3f6cc32229f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732675"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745570"
 ---
 # <a name="phone-number-management-for-norway"></a>Téléphone gestion des nombres pour la Norvège
 

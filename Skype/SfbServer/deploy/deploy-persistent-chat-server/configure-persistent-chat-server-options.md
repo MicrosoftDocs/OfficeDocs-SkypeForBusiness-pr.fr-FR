@@ -1,7 +1,7 @@
 ---
 title: Configurer les options du serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Résumé : Découvrez comment configurer les options du serveur de conversation permanente au niveau global, du site ou du pool dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 73ed46368041cab611576f4d8fadb9b586165dfc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 76ad47a45f8883064b712107ec54b20939437dcb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620110"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751313"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurer les options du serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -26,7 +26,7 @@ ms.locfileid: "58620110"
   
 Vous pouvez spécifier plusieurs options pour le serveur de conversation permanente qui peuvent être appliquées globalement, à tous les pools au sein d’un site ou à un pool spécifique au sein d’un site. Les options de serveur de conversation permanente sont les suivantes : 
   
-- Historique de conversation par défaut. Nombre de messages de conversation disponibles pour chaque salle de conversation lors de la première demande. La valeur par défaut globale est de 30 messages de conversation. 
+- Historique de conversation par défaut. Nombre de messages de conversation disponibles pour chaque salle de conversation lors de la première demande. La valeur globale par défaut est de 30 messages de conversation. 
     
 - Taille maximale du fichier. Taille maximale d’un fichier qui peut être téléchargé à partir d’une salle. La valeur globale par défaut est 20 Mo.
     

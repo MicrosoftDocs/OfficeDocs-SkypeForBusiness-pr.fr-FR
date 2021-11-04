@@ -1,7 +1,7 @@
 ---
 title: Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server.
-ms.openlocfilehash: ff270b2a2bdf4fd489cca1922a6b1635a3654f91
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00bd7a4c6f119f80ac4fb76938e8c9533c595a21
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620230"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751333"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server
  
 Déployer des fonctionnalités Voix Entreprise avancées dans Skype Entreprise Server.
   
-Une fois que vous avez configuré les fonctionnalités de Voix Entreprise de base pour votre organisation, vous pouvez éventuellement déployer une ou plusieurs fonctionnalités Voix Entreprise avancées en suivant les procédures de cette section. 
+Après avoir configuré les fonctionnalités de Voix Entreprise de base pour votre organisation, vous pouvez éventuellement déployer une ou plusieurs fonctionnalités Voix Entreprise avancées en suivant les procédures de cette section. 
   
 - [Planifier le contournement de média dans Skype Entreprise](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
     

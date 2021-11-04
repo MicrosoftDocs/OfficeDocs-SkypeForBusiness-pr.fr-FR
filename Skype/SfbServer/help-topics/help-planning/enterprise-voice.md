@@ -1,7 +1,7 @@
 ---
 title: Skype Entreprise Server Voix Entreprise de planification
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: Avec Voix Entreprise, Skype Entreprise Server 2015 propose une offre VoIP (Voice over Internet Protocol) autonome pour améliorer ou remplacer les systèmes PBX traditionnels. Voix Entreprise utilisateurs peuvent appeler des collègues sur le réseau VoIP ou le PBX de votre organisation, et ils peuvent appeler des numéros de téléphone traditionnels en dehors de votre organisation. La solution Voix Entreprise inclut des fonctionnalités d’appel courantes telles que la réponse, le transfert, le transfert, la mise en attente, le transfert, le transfert, la libération et le parc. Les appels Enhanced 9-1-1 (E9-1-1) sont disponibles uniquement aux États-Unis.) Voix Entreprise prend également en charge un large éventail de périphériques IP et USB actuels et plus anciens.
-ms.openlocfilehash: bf75c220a955d24fa088997f257b9ce5dd448643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1bdb1c297bec7f720561f0bfbacac290c45bad69
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628786"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746100"
 ---
 # <a name="skype-for-business-server-enterprise-voice-planning-tool"></a>Skype Entreprise Server Voix Entreprise de planification
  

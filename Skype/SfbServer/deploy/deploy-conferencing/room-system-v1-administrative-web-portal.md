@@ -1,7 +1,7 @@
 ---
 title: Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Le portail Web d’administration Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.
-ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729113"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751343"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server
 
 Le portail Web d’administration Skype Entreprise Server Skype Room Systems v1 (SRS v1, anciennement appelé Lync Room System) est un portail web que les organisations peuvent utiliser pour gérer leurs salles de conférence Skype Room Systems. Les administrateurs peuvent utiliser le portail Web d’administration de SRS v1 pour surveiller l’état de l’appareil, par exemple en surveillant les périphériques audio/vidéo. Grâce à ce portail, les administrateurs peuvent collecter à distance des informations de diagnostic pour surveiller l’état de la salle de conférence.
 
-Pour utiliser cette fonctionnalité, le portail Web d’administration de SRS v1 doit être déployé sur chaque serveur Skype Entreprise Server frontal. Ce guide fournit des instructions aux administrateurs sur l’installation et la configuration du portail Web d’administration SRS. Il est destiné aux administrateurs qui connaissent l’administration Skype Entreprise Server et qui ont des droits d’utilisateur d’administrateur pour modifier la topologie Skype Entreprise Server’administration.
+Pour utiliser cette fonctionnalité, le portail Web d’administration de SRS v1 doit être déployé sur chaque serveur Skype Entreprise Server frontal. Ce guide fournit des instructions aux administrateurs sur l’installation et la configuration du portail Web d’administration SRS. Il est destiné aux administrateurs qui connaissent l’administration Skype Entreprise Server et qui ont des droits d’utilisateur d’administrateur pour modifier la topologie Skype Entreprise Server de gestion.
 
 Une fois le portail Web d’administration SRS v1 déployé sur le serveur, les administrateurs peuvent vérifier l’état des appareils SRS v1 en se connectant au site à partir de leurs ordinateurs ou ordinateurs portables.
 
@@ -104,7 +104,7 @@ Pour installer le portail Web d’administration de SRS v1, utilisez les étapes
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
-5. Étant donné que le portail d’administration SRS v1 est une application fiable, vous n’avez pas besoin de fournir le mot de passe dans la configuration du portail. Si cet utilisateur utilise un bureau d’enregistrement différent du bureau d’enregistrement local, vous devez le spécifier en ajoutant la ligne suivante dans Web.Config fichier :
+5. Étant donné que le portail d’administration SRS v1 est une application fiable, vous n’avez pas besoin de fournir le mot de passe dans la configuration du portail. Si cet utilisateur utilise un bureau d’enregistrement différent du bureau d’enregistrement local, vous devez spécifier le bureau d’enregistrement pour celui-ci en ajoutant la ligne suivante dans Web.Config fichier :
 
    ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
@@ -139,7 +139,7 @@ Pour vérifier l’installation du portail Web d’administration de SRS v1, vou
 
 Après avoir déployé SRS sur le serveur, vous pouvez vérifier l’état de toutes les salles SRS en vous inscrivant dans le portail Web d’administration de SRS v1 à partir d’un navigateur.
 
-### <a name="sign-in"></a>Se connecter
+### <a name="sign-in"></a>Connexion
 
 1. Accédez à l’URL suivante :
 
@@ -180,7 +180,7 @@ Dans la section Paramètres, vous pouvez définir le mot de passe, la balise de 
 
 #### <a name="details"></a>Détails
 
-La section Détails fournit un résumé en lecture seule des paramètres de la salle SRS, y compris : l’heure de la dernière actualisation ; réunion suivante ; dernières mises à jour, maintenance et étalonnage ; paramètres de haut-parleur, de micro et de sonnerie par défaut ; version; URI SIP ; nombre d’écrans et de détails sur chaque écran ; statut et activité.
+La section Détails fournit un résumé en lecture seule des paramètres de la salle SRS, y compris : l’heure de la dernière actualisation ; réunion suivante ; dernières mises à jour, maintenance et étalonnage ; paramètres par défaut du haut-parleur, du micro et de la sonnerie ; version; URI SIP ; nombre d’écrans et de détails sur chaque écran ; statut et activité.
 
 ![Affichage détaillé du portail d’administration Lync Room System.](../../media/LRS_AdminPortal_Detail_view.png)
 
@@ -209,7 +209,7 @@ Il n’existe aucune limite au nombre de salles SRS que vous pouvez sélectionne
 
 Pour effectuer une opération de gestion en bloc, sélectionnez les salles à surveiller, puis cliquez sur le menu Gestion en bloc.
 
-### <a name="frequently-asked-questions"></a>Foire aux questions
+### <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>Pourquoi ne puis-je pas me connecter au portail web d’administration ?
 

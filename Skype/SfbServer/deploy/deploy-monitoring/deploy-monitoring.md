@@ -1,7 +1,7 @@
 ---
 title: Déployer la surveillance dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Résumé : Découvrez comment déployer la surveillance dans Skype Entreprise Server.'
-ms.openlocfilehash: c05cddb344f97b066d8d6ea0121cb5942c59d131
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbb5fe0974e1b02ce5be472ba91d01221fb7df82
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604213"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764842"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Déployer la surveillance dans Skype Entreprise Server
 
@@ -25,13 +25,13 @@ ms.locfileid: "58604213"
 
 Avant d’effectuer ces tâches, [examinez planifier la surveillance dans Skype Entreprise Server](../../plan-your-deployment/monitoring.md).
 
-En règle générale, vous implémentez des services de surveillance au sein de votre topologie en effectuant les deux étapes suivantes :
+Vous implémentez généralement des services de surveillance au sein de votre topologie en effectuant les deux étapes suivantes :
 
 1. Activation de la surveillance en même temps que la mise en place d’Skype Entreprise Server pool. (Dans Skype Entreprise Server, la surveillance est activée ou désactivée pool par pool.) Notez que vous pouvez activer la surveillance pour un pool sans réellement collecter de données de surveillance, un processus expliqué dans la section Configuration de l’enregistrement des détails des appels et de la qualité de l’expérience Paramètres de cette documentation.
 
 2. Association d’un magasin d’analyse (c’est-à-dire une base de données de surveillance) au nouveau pool. Notez qu’un seul magasin d’analyse peut être associé à plusieurs pools. Selon le nombre d’utilisateurs hébergés sur vos pools de serveurs d’inscriptions, cela signifie que vous n’avez pas besoin de configurer une base de données de surveillance distincte pour chacun de vos pools. Un seul magasin d’analyse peut être utilisé par plusieurs pools.
 
-Bien qu’il soit souvent plus simple d’activer la surveillance en même temps que vous créez un nouveau pool, il est également possible de créer un nouveau pool en désactivant la surveillance. Dans ce cas, vous pouvez ultérieurement utiliser le Générateur de topologie pour activer le service : le Générateur de topologie permet d’activer ou de désactiver la surveillance pour un pool ou d’associer un pool à un magasin d’analyse différent. N’oubliez pas que même s’il n’existe plus de rôle serveur de surveillance, vous devrez créer un ou plusieurs magasins de surveillance : des bases de données principale utilisées pour stocker les données recueillies par le service de surveillance. Ces bases de données principale peuvent être créées à l’aide de Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012, Microsoft SQL Server 2014 ou Microsoft SQL Server 2019.
+Bien qu’il soit souvent plus simple d’activer la surveillance en même temps que vous créez un nouveau pool, il est également possible de créer un nouveau pool en désactivant la surveillance. Dans ce cas, vous pouvez ultérieurement utiliser le Générateur de topologie pour activer le service : le Générateur de topologie permet d’activer ou de désactiver la surveillance pour un pool ou d’associer un pool à un magasin d’analyse différent. N’oubliez pas que même s’il n’existe plus de rôle serveur de surveillance, vous devrez créer un ou plusieurs magasins de surveillance : bases de données principale utilisées pour stocker les données recueillies par le service de surveillance. Ces bases de données principale peuvent être créées à l’aide de Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012, Microsoft SQL Server 2014 ou Microsoft SQL Server 2019.
 
 > [!NOTE]
 > Si la surveillance a été activée pour un pool, vous pouvez désactiver le processus de collecte des données de surveillance sans avoir à modifier votre topologie : Skype Entreprise Server vous permet de désactiver (puis de réactiver) la collecte de données d’enregistrement des détails des appels (CDR) ou de qualité de l’expérience (QoE). Pour plus d’informations, voir la section Configuration de l’enregistrement des détails des appels et de la qualité de l’expérience de ce document.
@@ -39,7 +39,7 @@ Bien qu’il soit souvent plus simple d’activer la surveillance en même temps
 Une autre amélioration importante de la surveillance dans Skype Entreprise Server est le fait que les rapports de surveillance Skype Entreprise Server désormais prendre en charge IPv6 : les rapports qui utilisent le champ Adresse IP affichent les adresses IPv4 ou IPv6 en fonction de : 1) la requête SQL utilisée ; et, 2) où l’adresse IPv6 est stockée ou non dans la base de données de surveillance.
 
 > [!NOTE]
-> Assurez-vous que le type de démarrage du service d’agent SQL Server est automatique et que le service d’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient les bases de données de surveillance, afin que les travaux de maintenance de l’SQL Server de surveillance par défaut peuvent s’exécuter sur leur base programmée sous le contrôle du service d’agent SQL Server.
+> Assurez-vous que le type de démarrage du service d’agent SQL Server est automatique et que le service d’agent SQL Server est en cours d’exécution pour l’instance SQL qui contient les bases de données de surveillance, afin que les travaux de maintenance de l’SQL Server de surveillance par défaut peuvent s’exécuter sur une base programmée sous le contrôle du service d’agent SQL Server.
 
 Cette documentation vous indique le processus d’installation et de configuration des rapports de surveillance et de surveillance pour Skype Entreprise Server. La documentation donne des instructions détaillées qui vous aideront à effectuer les opérations suivantes :
 

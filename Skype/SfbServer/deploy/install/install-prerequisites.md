@@ -1,7 +1,7 @@
 ---
 title: Installer les conditions préalables pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
-description: "Résumé : Découvrez les serveurs et les rôles serveur que vous devez configurer avant d’installer Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 998fa2371e0d0b0d62ce3755a6be881f49956eef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: "Résumé : Découvrez les serveurs et les rôles serveur que vous devez configurer avant d’installer Skype Entreprise Server. Téléchargez une version d’Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
+ms.openlocfilehash: 8b646ea95b13454d1b025cfbfdae186c927859e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624366"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751153"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Installer les conditions préalables pour Skype Entreprise Server
  
@@ -44,7 +44,7 @@ Skype Entreprise Server nécessite le système d’exploitation Windows Server e
   
 ![Windows Serveur à jour.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
-Regardez les étapes de la vidéo pour **les conditions préalables à l’installation**:
+Regardez les étapes de la vidéo **pour les conditions préalables à l’installation**:
   
 > [!video https://www.microsoft.com/videoplayer/embed/02447c2a-5b26-432f-aad6-b9b05cc93478?autoplay=false]
   
@@ -65,6 +65,6 @@ Vous pouvez installer les rôles et fonctionnalités requis à l’aide du Gesti
 
 
 > [!IMPORTANT]
-> Les conditions préalables pour les serveurs qui jouent des rôles autres que les serveurs frontaux, tels que le rôle de directeur, de conversation permanente ou de serveur Edge, ont leurs propres conditions préalables. Pour plus d’informations sur les conditions préalables exactes requises par chaque type de [serveur,](../../../SfBServer2019/plan/system-requirements.md)voir La Skype Entreprise Server . 
+> Les conditions préalables pour les serveurs qui jouent des rôles autres que les serveurs frontaux, tels que le rôle directeur, la conversation permanente ou Edge, ont leurs propres conditions préalables. Pour plus d’informations sur les conditions préalables exactes requises par chaque type de serveur, voir [La](../../../SfBServer2019/plan/system-requirements.md)Skype Entreprise Server . 
   
 

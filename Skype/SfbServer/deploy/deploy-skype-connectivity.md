@@ -1,7 +1,7 @@
 ---
 title: Déployer Skype connectivité dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Résumé : Découvrez comment se connecter à Skype Entreprise Server client Skype client. Également appelée Skype de connexion.'
-ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 003e9a69dc4213b662795b0570afb3ca152d7e00
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013188"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751303"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Déployer Skype connectivité dans Skype Entreprise Server
 
@@ -28,7 +28,7 @@ Cet article décrit le déploiement de Skype Connectivity.
   
 ## <a name="skype-connectivity-overview-for-it-professionals"></a>Skype Vue d’ensemble de la connectivité pour les professionnels de l’informatique
 
-Skype La connectivité permet Skype Entreprise utilisateurs de rechercher et d’ajouter des Skype utilisateurs. Skype La connectivité est une fonctionnalité de Skype Entreprise qui vous permet d’activer la fédération et la recherche dans l’annuaire avec Skype utilisateurs. Une fois que vous avez Skype la connectivité Skype Entreprise utilisateurs de votre entreprise pourront rechercher et ajouter des Skype utilisateurs.
+Skype La connectivité permet Skype Entreprise utilisateurs de rechercher et d’ajouter des Skype utilisateurs. Skype La connectivité est une fonctionnalité de Skype Entreprise qui vous permet d’activer la fédération et la recherche dans l’annuaire avec Skype utilisateurs. Une fois que vous avez Skype la connectivité Skype Entreprise utilisateurs pourront rechercher et ajouter des Skype utilisateurs.
   
 ## <a name="skype-directory-search"></a>Skype Recherche dans l’annuaire
 
@@ -36,7 +36,7 @@ Skype La fonctionnalité de recherche dans l’Skype Entreprise permet aux utili
   
 - **Recherche par nom d’affichage, par exemple « John Doe** » : cela peut renvoyer de nombreux résultats, de sorte que vous ne trouvez peut-être pas ce que vous recherchez.
     
-- **Recherche par nom d’affichage plus emplacement,** par exemple « John Doe à Domaine » : cela réduit considérablement les résultats de la recherche.
+- **Recherche par nom d’affichage plus emplacement,** par exemple « John Doe à État » : cela réduit considérablement les résultats de la recherche.
     
 - **Recherche par courrier électronique, par exemple « johndoe@outlook.com** » : cela doit renvoyer un résultat dans la plupart des cas ; celle qui correspond exactement à l’e-mail spécifié. Toutefois, si le même e-mail est associé à plusieurs comptes, plusieurs résultats peuvent être renvoyés.
     
@@ -55,7 +55,7 @@ Le tableau suivant décrit la prise en charge de Skype recherche dans l’annuai
 |&nbsp;|Skype Entreprise Server Frontal|Serveur frontal Lync Server 2013 (ou plus ancien)|Commentaires|
 |:-----|:-----|:-----|:-----|
 |Skype Entreprise Server Edge   |Pris en charge   |Non pris en charge   |Skype Entreprise Server et Edge sont des conditions préalables pour Skype recherche dans l’annuaire   |
-|Skype Entreprise Server Edge + Lync Server 2013 Edge déployé côte à côte   |Pris en charge   |Non pris en charge   |Skype Le trafic de recherche dans l’annuaire passe par Skype Entreprise Server serveurs Edge. Le trafic de fédération passe par edge configuré par l’administrateur. Par exemple, l’administrateur peut décider de continuer à envoyer le trafic de fédération via les serveurs Edge Lync Server 2013 qui ne pourraient pas prendre en charge Skype recherche dans l’annuaire.   |
+|Skype Entreprise Server Edge + Lync Server 2013 Edge déployé côte à côte   |Pris en charge   |Non pris en charge   |Skype Le trafic de recherche dans l’annuaire passe par Skype Entreprise Server serveurs Edge. Le trafic de fédération passe par edge configuré par l’administrateur. Par exemple, l’administrateur peut décider de continuer à envoyer du trafic de fédération via des serveurs Edge Lync Server 2013 qui ne pourraient pas prendre en charge Skype recherche dans l’annuaire.   |
 |Serveur Edge Lync Server 2013 (ou plus ancien)   |Non pris en charge   |Non pris en charge   ||
    
 > [!NOTE]
@@ -107,7 +107,7 @@ La communication entre tout déploiement Skype Entreprise local et les utilisate
 > [!NOTE]
 > Aucune action n’est nécessaire pour la plupart des clients, y compris tous les déploiements fédérés avec Skype Entreprise Online.
   
-Les déploiements locaux sont nécessaires pour publier un enregistrement SRV DNS de fédération pour chaque domaine qu’ils hébergent. Des conseils sont disponibles dans la [planification DNS.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) Chaque domaine doit être résolu par une requête DNS SRV vers un nom de domaine pleinement attribué au serveur Edge qui satisfait à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine « contoso.com » :
+Les déploiements locaux sont nécessaires pour publier un enregistrement SRV DNS de fédération pour chaque domaine qu’ils hébergent. Des conseils sont disponibles dans la [planification DNS.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning) Chaque domaine doit être résolu par une requête DNS SRV vers un nom de domaine pleinement indiqué du serveur Edge qui satisfait à une correspondance de suffixe de niveau supérieur du domaine. Par exemple, considérez le domaine « contoso.com » :
 
 |**FQDNs valides**|**Comment**|
 |:-----|:-----|
@@ -120,15 +120,15 @@ Les déploiements locaux sont nécessaires pour publier un enregistrement SRV DN
 
 Vous pouvez trouver des instructions supplémentaires concernant les certificats externes dans [la planification des certificats.](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning)
 
-#### <a name="faqs"></a>Foire aux questions
+#### <a name="faqs"></a>Foires aux questions
 
 **Pourquoi le site web d’approvisionnement est-il arrêté ?**
-Le mécanisme d’approvisionnement PIC (Public IM Provisioning Mechanism) (pic.lync.com) qui a été déployé en 2006 n’est plus utilisable et sera arrêté le 15/08/2019. Au lieu de cela, la fédération de messagerie instantanée publique suppose le même modèle de fédération que celui utilisé par Skype Entreprise Online, appelé « découverte de partenaires », dans lequel un déploiement local est publiquement découvrable par ses enregistrement(s) SRV DNS de fédération.
+Le mécanisme d’approvisionnement PIC (Public IM Provisioning Mechanism) (pic.lync.com) qui a été déployé en 2006 n’est plus utilisable et sera arrêté le 15/08/2019. Au lieu de cela, la fédération de messagerie instantanée publique suppose le même modèle de fédération que celui utilisé par Skype Entreprise Online, appelé « découverte de partenaires », dans lequel un déploiement local est publiquement découvrable par ses enregistrement(s) DNS SRV de fédération.
 
 **Cette modification signifie-t-elle que la fédération de messagerie instantanée publique est en cours d’precaté ?**
 Non. La fédération de messagerie instantanée publique continuera d’être prise en charge pendant de nombreuses années, probablement jusqu’à ce que Skype Entreprise produit local atteigne la fin de vie.
 
-**Notre entreprise a une relation hybride (espace d’adressas partagé) avec Skype Entreprise Online, sommes-nous affectés ?**
+**Notre entreprise a une relation hybride (espace d’adressas partagé) avec Skype Entreprise Online, est-ce que nous sommes affectés ?**
 Non, étant donné que vous êtes déjà fédéré avec Skype Entreprise Online, cette modification ne vous affectera pas.
  
 **Cette modification signifie-t-elle que notre entreprise doit activer la fédération avec Skype Entreprise Online ?**
@@ -139,7 +139,7 @@ Toute organisation sur site qui ne peut pas modifier sa configuration de serveur
 
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Activation de la fédération et de la connectivité PIC (Public IM Connectivity)
 
-À présent, concentrez-vous sur l Skype Entreprise Server et les tâches administratives requises pour configurer Skype connectivité. Dans cette section, nous partons du principe que l’administrateur a déployé Skype Entreprise Server et configuré l’accès externe, également appelé serveurs Edge. 
+À présent, concentrez-vous sur Skype Entreprise Server et les tâches administratives requises pour configurer Skype connectivité. Dans cette section, nous partons du principe que l’administrateur a déployé Skype Entreprise Server et configuré l’accès externe, également appelé serveurs Edge. 
   
 Trois étapes principales sont requises pour activer la fédération et pic. Il s’agit des éléments suivants :
   
@@ -171,7 +171,7 @@ Cette procédure termine les tâches administratives qui doivent être effectué
   
 #### <a name="3-configure-the-skype-pic-provider-setting"></a>3. Configurer le paramètre Skype fournisseur PIC
 
-À l’aide Skype Entreprise Server Management Shell, un administrateur doit configurer la stratégie de client Skype Entreprise pour afficher Skype en tant que fournisseur PIC supplémentaire. 
+À l’aide Skype Entreprise Server Management Shell, un administrateur doit configurer la stratégie de client Skype Entreprise pour afficher les Skype en tant que fournisseur PIC supplémentaire. 
   
 > [!NOTE]
 > Les utilisateurs des fournisseurs de services PIC (Public Instant Messaging Connectivity) ne peuvent pas participer à des conférences ou des messages instantanés dans votre organisation tant que vous n’avez pas configuré au moins une stratégie (étape 2, plus haut dans cette procédure) pour prendre en charge la connectivité PIC. 
@@ -185,7 +185,7 @@ Pour les nouvelles installations, vous pouvez configurer Skype Connectivity en a
   
 La configuration Skype la connectivité peut également être effectuée à l’aide de PowerShell uniquement. Pour configurer la Skype à l’aide de PowerShell :
   
-1. À partir d Skype Entreprise Server serveur frontal, ouvrez l’Skype Entreprise Server Management Shell.
+1. À partir d Skype Entreprise Server serveur frontal, ouvrez Skype Entreprise Server Management Shell.
     
 2. Exécutez les deux commandes suivantes :
     
@@ -204,7 +204,7 @@ La configuration Skype la connectivité peut également être effectuée à l’
     
    - ProxyFqdn : emplacement du Skype de fédération (propriété/gestion par Microsoft)
     
-   - IconURL : icône utilisée par le client Skype Entreprise Lync pour identifier &amp; visuellement Skype contacts
+   - IconURL : icône utilisée par le client Skype Entreprise Lync pour &amp; identifier visuellement Skype contacts
     
    - NameDecorationRoutingDomain et NameDecorationExcludedDomainList : la définition de ces paramètres permet aux utilisateurs d’entrer les MSA des utilisateurs de Skype sans avoir à connaître la « décoration » des domaines non-Microsoft avec « msn.com ». Cela élimine la nécessité de taper « user(contoso.com)@msn.com » pour tous les domaines qui ne sont PAS dans excludedDomainList. Le client SfB formate automatiquement le compte MSA si le domaine n’est PAS dans la liste des domaines exclus. Nous avons ajouté les domaines de compte Microsoft les plus courants à la liste des domaines exclus.
     
@@ -212,7 +212,7 @@ La configuration Skype la connectivité peut également être effectuée à l’
      > Si des modifications sont apportées, le fournisseur public doit être supprimé et ajouté. Aucune modification sur place n’est autorisée. 
   
      > [!NOTE]
-     > Ajouté dans le client de bureau Lync Lync 2013 CU5 dans &amp; Office 2013 SP1, nameDecorationRoutingDomain et NameDecorationExcludedDomainList améliorent la situation dans laquelle les utilisateurs Lync ajoutent des contacts Skype nécessaires à la « décoration » des domaines non-Microsoft pour les identifier et les router vers Skype (format : user(contoso.com)@msn.com). Ces nouveaux paramètres autorisent la mise en forme automatique de l’entrée de l’utilisateur d’adresse dans la boîte de dialogue « Ajouter un contact de Skype » avec nameDecorationRoutingDomain (qui doit être définie sur msn.com) s’il ne contient pas les domaines dans la liste NameDecorationExcludedDomainList (nous pouvons actuellement prendre en charge msn.com, live.com, Hotmail.com, outlook.com). 
+     > Ajouté dans le client de bureau Lync Lync 2013 CU5 dans &amp; Office 2013 SP1, nameDecorationRoutingDomain et NameDecorationExcludedDomainList améliorent la situation dans laquelle les utilisateurs Lync ajoutent des contacts Skype nécessaires à la « décoration » des domaines non-Microsoft pour les identifier et les router vers Skype (format : user(contoso.com)@msn.com). Ces nouveaux paramètres autorisent la mise en forme automatique de l’entrée de l’utilisateur d’adresse dans la boîte de dialogue « Ajouter un contact de Skype » avec nameDecorationRoutingDomain (qui doit être définie sur msn.com) s’il ne contient pas les domaines dans nameDecorationExcludedDomainList (nous pouvons actuellement prendre en charge msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. À partir d Skype Entreprise utilisateurs clients peuvent désormais rechercher et ajouter un Skype utilisateur.
     
@@ -227,7 +227,7 @@ Le tableau suivant décrit l’état de l’interopération entre la dernière v
 |Skype Mobile - Android Téléphone et tablette   |Version 6.19 ou supérieure, exécutant Android OS version 4.0.3 ou supérieure   |Les périphériques à faible spécification peuvent ne pas prendre en charge les appels vidéo   |
 |Skype Mobile - iOS   |6.11 ou supérieur, sur IOS 7 ou supérieur   |Non pris en charge iPhone 4 et antérieures, iPod 4e génération et iPad 1re génération   |
 |Skype Mac   |7.19 ou supérieur, sur Mac OS X 10.9 (Vitesses) ou supérieure   |Nécessite Mac OSX 10.9 ou supérieur   |
-|Skype Universal Windows App (Windows 10) Desktop and Mobile   |Windows 10 (mise à jour de Redstone 1 ou version ultérieure)   |Windows L’application universelle recevra la mise à jour à l’automne 2016, ce qui ajoutera la prise en charge de l’interop.   |
+|Skype Universal Windows App (Windows 10) Desktop and Mobile   |Windows 10 (mise à jour de Redstone 1 ou version ultérieure)   |Windows L’application universelle recevra la mise à jour à l’automne 2016, avec prise en charge de l’interop.   |
    
 Le tableau suivant décrit l’état de l’interopération entre la dernière version de Skype Entreprise et la dernière version de Skype client. 
   
@@ -241,9 +241,9 @@ Le tableau suivant décrit l’état de l’interopération entre la dernière v
 |Lync Mobile - Android   |Bientôt disponible   |Oui   |
 |Lync Mobile - iOS   |Bientôt disponible   |Oui   |
 |Lync Room System   |Bientôt disponible   |Oui   |
-|Lync Modern App (Win 8.1)   |Oui   |Oui   |
+|Application moderne Lync (Win 8.1)   |Oui   |Oui   |
 |Lync Mac 2011   |Peut ajouter (aucune recherche)   |Oui   |
 |Lync Desktop 2010   |Peut ajouter (aucune recherche)   |Oui   |
 |Lync Phone Edition   |N/A   |N/A   |
-|Lync Attendant   |N/A   |S/O   |
+|Lync Attendant   |N/A   |N/A   |
    

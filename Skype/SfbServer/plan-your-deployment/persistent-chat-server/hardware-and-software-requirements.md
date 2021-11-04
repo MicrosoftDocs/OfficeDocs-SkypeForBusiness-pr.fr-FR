@@ -1,7 +1,7 @@
 ---
 title: Configuration matérielle et logicielle requise pour le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/19/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Résumé : Consultez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour le serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: a8ee506d9bee1e99727dab2da18f70f3c6278664
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f0abc9bde21a4bd5b8e198edad76ff420ce8074e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630428"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765172"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configuration matérielle et logicielle requise pour le serveur de conversation permanente Skype Entreprise Server 2015
  
@@ -32,7 +32,7 @@ Avant de déployer le serveur de conversation permanente, vous devez vous assure
     
 - Système d’exploitation et logiciels de base de données pris en charge.
     
-    Pour plus d’informations sur les systèmes d’exploitation et les logiciels de base de données pris en charge, ainsi que Windows des mises à jour requises, voir [Server requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+    Pour plus d’informations sur les systèmes d’exploitation et les logiciels de base de données pris en charge, ainsi que Windows de mise à jour requises, voir [Server requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
     
 - Skype Entreprise Server serveur frontal 2015. Le serveur frontal est la base du routage SIP (Session Initiation Protocol), ce qui rend possible la communication entre les ordinateurs exécutant le serveur de conversation permanente et la fonctionnalité de conversation permanente. 
     
@@ -69,7 +69,7 @@ Sur le serveur de base de données, assurez-vous que l’une des applications lo
 
 - Microsoft SQL Server 2017 avec le dernier Service Pack.
 
-- Microsoft SQL Server 2016 avec Service Pack 1 et vous devez l’exécuter Skype Entreprise Server la mise à jour cumulative 7 ou ultérieure. Nous vous recommandons d’SQL Server 2016 avec le dernier Service Pack. Pour plus d’informations sur l’installation Microsoft SQL Server 2016, voir [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
+- Microsoft SQL Server 2016 avec Service Pack 1 et vous devez l’exécuter Skype Entreprise Server la mise à jour cumulative 7 ou ultérieure. Nous vous recommandons d’SQL Server 2016 avec le service pack le plus récent. Pour plus d’informations sur l’installation Microsoft SQL Server 2016, voir [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2016).
 
 - Microsoft SQL Server 2014 et vous devez l’exécuter Skype Entreprise Server la mise à jour cumulative 6 ou ultérieure. Nous vous recommandons d’SQL Server 2014 avec le dernier Service Pack. Pour plus d’informations sur l’installation Microsoft SQL Server 2014, voir [Install SQL Server 2014](/sql/database-engine/install-windows/install-sql-server?view=sql-server-2014).
 

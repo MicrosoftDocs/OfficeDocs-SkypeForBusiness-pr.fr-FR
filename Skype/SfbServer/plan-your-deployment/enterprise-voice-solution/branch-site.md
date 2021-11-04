@@ -1,7 +1,7 @@
 ---
 title: Branch site SIP trunking in Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Découvrez la trunking SIP sur les sites de succursale dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: bb8fcc1755e73bba6689f07d2f97cc01cc77549d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9fd9bb742b61516ca450082c187fb460bacdf11d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582598"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765292"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Branch site SIP trunking in Skype Entreprise Server
  
@@ -37,6 +37,6 @@ Pour savoir si une jonction SIP distribuée à New York est rentable, identifiez
   
 ## <a name="other-branch-site-sip-trunk-requirements"></a>Autres conditions requises pour le déploiement d’une jonction SIP sur un site de succursale
 
-Pour déterminer si vous devez déployer une jonction SIP ou une passerelle, comparez le coût des appels PSTN (Public Switched Telephone Network, réseau téléphonique commuté) longue distance de ces deux options. Si vous déployez une connexion SIP de site de succursale, vous devez également déterminer vos besoins en résilience et en bande passante. Si la liaison entre votre site de succursale et votre site central est résiliente et dispose d’une bande passante suffisante, vous pouvez déployer une connexion SIP ou une passerelle. Vous n’avez pas besoin de déployer un Survivable Branch Appliance sur le site de succursale. Si la liaison entre votre site de succursale et votre site central n’est pas résiliente, déployez un Survivable Branch Appliance ou déployez un serveur Survivable Branch Server avec une passerelle ou une connexion SIP sur le site de succursale. 
+Pour déterminer si vous devez déployer une jonction SIP ou une passerelle, comparez le coût des appels PSTN (Public Switched Telephone Network, réseau téléphonique commuté) longue distance de ces deux options. Si vous déployez une connexion SIP de site de succursale, vous devez également déterminer vos besoins en résilience et en bande passante. Si la liaison entre votre site de succursale et votre site central est résiliente et dispose d’une bande passante suffisante, vous pouvez déployer une passerelle ou une connexion SIP. Vous n’avez pas besoin de déployer un Survivable Branch Appliance sur le site de succursale. Si la liaison entre votre site de succursale et votre site central n’est pas résiliente, déployez un Survivable Branch Appliance ou déployez un serveur Survivable Branch Server avec une passerelle ou une connexion SIP sur le site de succursale. 
   
 

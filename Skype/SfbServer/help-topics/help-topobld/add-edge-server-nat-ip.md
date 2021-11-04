@@ -1,7 +1,7 @@
 ---
 title: Ajouter l’adresse IP NAT du serveur Edge
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: L’adresse IP publique est l’adresse IP utilisée par la traduction d’adresses réseau (NAT). L’adresse IP doit être publiquement routable. Cela est obligatoire car vous avez sélectionné l’option L’adresse IP externe de ce pool est traduite par NAT dans la page Sélectionner les fonctionnalités de cet Assistant.
-ms.openlocfilehash: 949ec86c7af3b17746d2e16e87f8180b6ab901af
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6aa2a3444158e32f62288dc9c572aad8c067f8ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595758"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776354"
 ---
 # <a name="add-edge-server-nat-ip"></a>Ajouter l’adresse IP NAT du serveur Edge
 

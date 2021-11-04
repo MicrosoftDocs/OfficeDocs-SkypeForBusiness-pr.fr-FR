@@ -1,7 +1,7 @@
 ---
 title: Ajouter un magasin SQL Server frontal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Un déploiement Édition Standard serveur de gestion installe automatiquement les logiciels Microsoft SQL Server Express base de données SQL Server base de données. Par conséquent, toutes les options sont pré-préruplées et vous ne pouvez pas apporter de modifications à la configuration par défaut.
-ms.openlocfilehash: 0ffacd52b8f00e58eec77829f4f540faaefc8d4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 211e3213489d26682e12b8b39955ad4e1577abf6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624196"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776774"
 ---
 # <a name="add-front-end-sql-server-store"></a>Ajouter un magasin SQL Server frontal
 

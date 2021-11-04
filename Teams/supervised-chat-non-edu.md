@@ -1,7 +1,7 @@
 ---
-title: Utiliser des conversations surveillées pour les locataires non scolaires
+title: Utiliser des conversations surveillées pour les locataires hors enseignement
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: En savoir plus sur les conversations encadrées pour les locataires non scolaires dans Microsoft Teams réunions.
-ms.openlocfilehash: f7e0ad99f50e8d0089aa6edf122458f429792aba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d56a41e3c168aea1d5454fb38ae2aac0c033fe64
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586496"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745480"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>Conversations supervised for non-educational tenants
 
-La conversation surveillée permet aux responsables désignés d’entamer des conversations avec l’un des membres de son organisation et de bloquer l’accès des utilisateurs restreints au démarrage de nouvelles conversations, sauf si un responsable approprié est présent. Lorsque la surveillance des conversations est activée, les superviseurs ne sont pas autorisés à quitter des conversations et les autres participants ne sont pas autorisés à les supprimer, ce qui garantit que les conversations impliquant des utilisateurs restreints sont correctement encadrées.
+La conversation surveillée permet aux responsables désignés d’entamer des conversations avec l’un des membres de son organisation et de bloquer l’accès des utilisateurs restreints au démarrage de nouvelles conversations, sauf si un responsable approprié est présent. Lorsque la supervision de la conversation est activée, les superviseurs ne sont pas autorisés à quitter des conversations et les autres participants ne sont pas autorisés à les supprimer, ce qui garantit que les conversations impliquant des utilisateurs restreints sont correctement encadrées.
 
-Ces limitations s’appliquent uniquement aux nouvelles conversations privées créées une fois la conversation surveillée activée. Elles ne s’appliquent pas aux conversations privées, aux conversations de réunion ou aux canaux existants.
+Ces limitations s’appliquent uniquement aux nouvelles conversations privées créées une fois la conversation surveillée activée. Elles ne s’appliquent pas aux conversations privées, aux réunions ou aux canaux existants.
 
 La conversation encadrée est adaptée aux besoins des établissements d’enseignement, mais elle est également accessible aux clients hors enseignement.
 
@@ -38,7 +38,7 @@ La conversation encadrée est adaptée aux besoins des établissements d’ensei
 > [!NOTE]
 > Veillez à configurer les rôles d’autorisation de conversation et les stratégies d’autorisation de conversation basées sur les rôles avant d’activer la conversation pour votre établissement afin d’éviter que les utilisateurs ne limitent l’accès indésirable aux conversations non sollicitées.
 
-**Définir des rôles d’autorisation de conversation pour chaque utilisateur de votre environnement**
+**Définir les rôles d’autorisation de conversation pour chaque utilisateur dans votre environnement**
 
 Pour que la conversation surveillée fonctionne comme prévu, chaque utilisateur au sein de votre environnement doit avoir le rôle d’autorisation de conversation correct. Un utilisateur peut avoir attribué trois rôles :
 
@@ -54,7 +54,7 @@ Des rôles ne peuvent pas être attribués aux invités dans votre client. Un r�
 
 ## <a name="allow-supervised-chat"></a>Autoriser la conversation surveillée
 
-La conversation surveillée est désactivée par défaut pour votre client. Une fois que vous avez créé les rôles d’autorisations de conversation pour vos utilisateurs, vous pouvez activer la conversation surveillée au sein de votre client en allant dans les **paramètres** à l’échelle de l’organisation Teams Paramètres et en définissez la stratégie d’autorisations de conversation basée sur un rôle sur  >   **Activé.**  Vous pouvez également utiliser PowerShell pour activer la conversation surveillée en fixant AllowRoleBasedChatPermissions sur True. Cette cmdlet se trouve sous [CsTeamsClientConfiguration.](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)
+La conversation supervise est désactivée par défaut pour votre client. Une fois que vous avez créé les rôles d’autorisations de conversation pour vos utilisateurs, vous pouvez activer la conversation surveillée au sein de votre client en allant dans les **paramètres** à l’échelle de l’organisation Teams Paramètres et en définissez la stratégie d’autorisations de conversation basée sur un rôle sur  >   **Activé.**  Vous pouvez également utiliser PowerShell pour activer la conversation surveillée en fixant AllowRoleBasedChatPermissions sur True. Cette cmdlet se trouve [sous CsTeamsClientConfiguration.](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)
 
 La conversation supervise doit être activée pour tous les utilisateurs du client et ne peut pas l’être pour seulement une partie de vos utilisateurs.
 
