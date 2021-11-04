@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Découvrez la gestion des paramètres pour les réunions Teams que les utilisateurs planifient dans votre organisation.
-ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 731ed3aa7b9cb7b2511d7ffa1614bdf06522ac0e
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537095"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641234"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gérer les paramètres de réunion dans Microsoft Teams
 
@@ -106,9 +106,17 @@ Vous pouvez personnaliser les invitations aux réunions Teams pour répondre aux
 
 <a name="bknetwork"> </a>
 
-Si vous utilisez la fonctionnalité Qualité de service (QoS) pour hiérarchiser le trafic réseau, vous pouvez activer les marqueurs QoS et définir des plages de ports pour chaque type de trafic média. La définition de plages de ports pour différents types de trafic n'est qu'une des étapes dans la gestion des médias en temps réel. Pour plus d’informations, voir [Qualité de service (QoS) dans Teams](qos-in-teams.md).
+Si vous utilisez la qualité de service (QoS) pour hiérarchiser le trafic réseau, vous pouvez activer les marqueurs de qualité de service et définir des plages de ports pour chaque type de trafic multimédia. La définition de plages de ports pour différents types de trafic n'est qu'une des étapes dans la gestion des médias en temps réel. Pour plus d’informations, voir [Qualité de service (QoS) dans Teams](qos-in-teams.md).
 
 > [!IMPORTANT]
+> Systèmes basés d’Apple : La seule instance que nous connaissons de la façon dont les appareils Apple définissent réellement la valeur DSCP est si toutes les conditions suivantes sont remplies :
+> - iOS.
+> - Réseau WiFi.
+> - Commutateurs Cisco.
+> - L’administrateur réseau a ajouté l’application à la liste approuvée.
+>
+> Systèmes Android : il n’existe aucune limitation connue.
+>
 > Si vous activez la Qualité de service (QoS) ou si vous modifiez les paramètres dans le centre d’administration Microsoft Teams pour le service Teams, vous devez également [appliquer les paramètres correspondants à tous les appareils d’utilisateurs](QoS-in-Teams-clients.md) et tous les appareils de réseau interne afin d’implémenter totalement les modifications apportées à QoS dans Teams.
 
   **Utiliser le centre d’administration Microsoft Teams**
@@ -119,6 +127,10 @@ Si vous utilisez la fonctionnalité Qualité de service (QoS) pour hiérarchiser
     ![Capture d'écran des paramètres de réseau pour les réunions dans le centre d'administration](media/meeting-settings-network.png "Capture d'écran des paramètres de réseau pour les réunions Teams dans le centre d'administration Microsoft Teams")
 
     - Pour autoriser l’utilisation de la fonctionnalité de marquage DSCP pour la qualité de service (QoS), activez **Insérer des marqueurs de Qualité de service (QoS) pour le trafic média en temps réel**. Vous avez seulement la possibilité d’utiliser ou de ne pas utiliser des marqueurs. Vous ne pouvez pas créer des marqueurs personnalisés par type de trafic. Pour plus d’informations sur les marqueurs DSCP, voir [Sélectionner une méthode d’implémentation QoS](QoS-in-Teams.md#select-a-qos-implementation-method).
+
+        > [!IMPORTANT]
+        > Notez que l’activation de QoS est effectuée uniquement sur les points de terminaison pour le marquage des paquets qui sortant du client. Nous vous recommandons toujours d’appliquer des règles de QoS correspondantes sur tous les périphériques réseau internes pour le trafic entrant.
+        
         > [!NOTE]
         > Le balisage DSCP est généralement effectué via les ports source et le trafic UDP acheminera vers le relais de transport avec le port de destination 3478 par défaut. Si votre entreprise exige un marquage sur les ports de destination, contactez le support technique pour activer la communication vers le relais de transport avec les ports UDP 3479 (audio), 3480 (vidéo) et 3481 (partage).
     - Pour spécifier des plages de ports, près de **Sélectionnez une plage de ports pour chaque type de trafic de multimédia en temps réel**, sélectionnez **Spécifier des plages de ports**, puis entrez les ports de début et de fin pour l'audio, la vidéo et le partage d'écran. La sélection de cette option est requise pour implémenter QoS. 
