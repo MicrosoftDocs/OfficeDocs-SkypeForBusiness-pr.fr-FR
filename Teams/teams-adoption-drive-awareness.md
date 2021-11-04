@@ -1,7 +1,7 @@
 ---
 title: Faire connaître et implémenter une formation
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725533"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753885"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
@@ -69,6 +69,6 @@ Comme pour toute campagne d’adoption et de communication, vous voudrez identif
 
 Partagez les idées que vous obtenez de vos canaux de commentaires avec le hashtag #TeamsStories pour faciliter l’extraction. Partagez une #TeamsStory par mois sur votre intranet pour mettre en avant les employés qui adhèrent au changement afin d’accroître la productivité et la collaboration dans votre environnement. Partagez-les également avec nous dans notre forum Adoption de la conduite sur le site du groupe Community Microsoft. Le partage de ces exemples réels au sein de votre propre entreprise est extrêmement précieux pour réaliser un changement durable au fil du temps avec la communauté des utilisateurs.
 
-[En savoir plus sur les Microsoft Teams d’utilisation dans le Centre d’administration Microsoft 365.](teams-activity-reports.md)
+[En savoir plus sur les Microsoft Teams d’utilisation dans le Centre d'administration Microsoft 365.](teams-activity-reports.md)
 
-![Icône illustrant les étapes suivantes.](media/teams-adoption-next-icon.png) Suivant : Planifier [les avis sur l’état du service](teams-adoption-schedule-service-health-reviews.md)
+![Icône montrant les étapes suivantes.](media/teams-adoption-next-icon.png) Suivant : Planifier [les avis sur l’état du service](teams-adoption-schedule-service-health-reviews.md)

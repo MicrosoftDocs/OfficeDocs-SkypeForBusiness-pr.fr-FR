@@ -1,7 +1,7 @@
 ---
 title: Skype Entreprise Server 2015 Stress and Performance Tool
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 4/6/2016
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: L Skype Entreprise Server 2015 Stress and Performance Tool est utilisé lors de la planification de la capacité et de l’optimisation des performances dans les environnements de non-production ou de test.
-ms.openlocfilehash: 0ce2c4f4a608f6ecba980d7f8fe77fbc2863d81d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 565f868ae81915b6bcb595f13c2d184d82db62b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012368"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766262"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype Entreprise Server 2015 Stress and Performance Tool
  
@@ -74,10 +74,10 @@ Pour en savoir plus, vous devez consulter les articles suivants :
     
   - [Mise en service de la topologie pour exécuter la charge dans les scénarios de contrainte et de performances](provisioning-the-topology-to-run-load.md)
     
-  - [Configuration des stratégies pour l Skype Entreprise Server 2015 Stress and Performance Tool](configuring-policies.md)
+  - [Configuration des stratégies pour Skype Entreprise Server 2015 Stress and Performance Tool](configuring-policies.md)
     
 - [Utilisation de l Skype Entreprise Server 2015 Stress and Performance Tool](using-the-tool.md)
     
-- [FAQ sur l Skype Entreprise Server 2015 Stress and Performance Tool](faq.md)
+- [FAQ sur l’outil Skype Entreprise Server stress and performance 2015](faq.md)
     
 

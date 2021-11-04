@@ -1,7 +1,7 @@
 ---
 title: Rapport de contrôle d’admission des appels Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Résumé : Découvrez les rapports de contrôle d’admission des appels utilisés dans Skype Entreprise Server.'
-ms.openlocfilehash: a48e7aed8c18823a6bae279a1f1484f5f981d279
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83259ed107113d5a013aa3a239ce9ef1eeab833b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606193"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754765"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Rapport de contrôle d’admission des appels Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Le rapport de contrôle d’admission des appels est accessible à partir de la 
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Utilisation du rapport de contrôle d’admission des appels
 
-Pour obtenir la liste des appels qui ont échoué en raison d’une bande passante insuffisante, sélectionnez Appels rejetés en raison du contrôle d’admission des appels dans la liste de listes des catégories d’appels. La plupart des appels renvoyés auront probablement un ID de diagnostic de 5 :
+Pour obtenir la liste des appels qui ont échoué en raison d’une bande passante insuffisante, sélectionnez Appels rejetés en raison du contrôle d’admission des appels dans la liste de listes listes des catégories d’appels. La plupart des appels renvoyés auront probablement un ID de diagnostic de 5 :
   
 Bande passante insuffisante pour établir une session. Tentez le ré-itinéraire PSTN.
   
@@ -49,7 +49,7 @@ Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapp
   
 **Filtres du rapport de contrôle d’admission des appels**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 17/07/12015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/17/12015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/13/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -63,7 +63,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de cont
   
 **Mesures des sessions P2D**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Detail** <br/> |Non  <br/> |Lorsque vous cliquez sur cet élément, le rapport vous présente un rapport détaillé de session P2D pour la session spécifiée.  <br/> |
 |**De l’utilisateur** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur ayant initié la session.  <br/> |
@@ -80,7 +80,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de cont
   
 **Mesures des sessions de conférence**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**URI de la conférence** <br/> |Oui  <br/> |Identificateur unique de la conférence. Lorsque vous cliquez sur cet élément, le rapport affiche les participants individuels à la conférence.  <br/> |
 |**Organizer** <br/> |Oui  <br/> |Adresse SIP de l’utilisateur qui a organisé la conférence.  <br/> |
@@ -94,7 +94,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de cont
   
 **Mesures pour les participants individuels à la conférence**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Role** <br/> |Non  <br/> |Rôle (par exemple, présentateur) joué par le participant à la conférence.  <br/> |
 |**Participant** <br/> |Non  <br/> |Adresse SIP du participant à la conférence.  <br/> |

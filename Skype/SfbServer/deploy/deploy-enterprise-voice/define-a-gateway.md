@@ -1,7 +1,7 @@
 ---
 title: Définir une passerelle dans le Générateur de topologies dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Résumé : Découvrez comment définir une passerelle PSTN dans le Générateur de topologies dans Skype Entreprise Server.'
-ms.openlocfilehash: fe570a849a9a63199eddce63280741c39a8a65eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ea9b02f39b3ef93c7c725735599a3940f33641
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625616"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753605"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Définir une passerelle dans le Générateur de topologies dans Skype Entreprise Server
  
@@ -33,7 +33,7 @@ Suivez ces étapes pour utiliser le Générateur de topologie afin de définir u
 
 1. Démarrez le Générateur de topologie : cliquez sur Démarrer, sur Tous les **programmes,** sur **Skype Entreprise Server 2015,** puis sur Skype Entreprise Server **2015Topology Builder**.
     
-2. Sous Skype Entreprise Server, nom de votre site, Composants partagés, cliquez avec le bouton droit sur le nœud **Passerelles PSTN,** puis cliquez sur Nouvelle passerelle **PSTN.**
+2. Sous Skype Entreprise Server, le nom de votre site, Composants partagés, cliquez avec le bouton droit sur le nœud **Passerelles PSTN,** puis cliquez sur Nouvelle passerelle **PSTN.**
 3. Dans **Définir une nouvelle passerelle IP/PSTN**, tapez le nom de domaine complet ou l’adresse IP de l’homologue, puis cliquez sur **Suivant**.
     
     > [!NOTE]
@@ -61,7 +61,7 @@ Suivez ces étapes pour utiliser le Générateur de topologie afin de définir u
 9. Sous le port du serveur de médiation **associé,** tapez le port d’écoute que le serveur de médiation utilisera pour les messages SIP de la passerelle.
     
     > [!NOTE]
-    > Avec la prise en charge de plusieurs Skype Entreprise Server, vous pouvez définir plusieurs ports de signalisation SIP sur le serveur de médiation pour la communication avec plusieurs passerelles PSTN. Lors de la définition d’une trunk, le **port** du serveur de médiation associé doit se trouver dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype Entreprise Server pools de médiation. Cliquez avec le bouton droit sur le pool de serveurs de médiation qui vous intéresse, puis sélectionnez **Modifier les propriétés.** Spécifiez la plage de ports dans le champ **Ports d’écoute**.
+    > Avec la prise en charge de plusieurs Skype Entreprise Server, vous pouvez définir plusieurs ports de signalisation SIP sur le serveur de médiation pour la communication avec plusieurs passerelles PSTN. Lors de la définition d’une trunk, le **port** du serveur de médiation associé doit se trouver dans la plage des ports d’écoute pour le protocole respectif autorisé par le serveur de médiation. Cette plage de ports est définie sous Skype Entreprise Server pools de médiation. Cliquez avec le bouton droit sur le pool de serveurs de médiation qui vous intéresse, puis **sélectionnez Modifier les propriétés.** Spécifiez la plage de ports dans le champ **Ports d’écoute**.
   
 10. Assurez-vous que l’homologue que vous avez défini est en cours d’exécution et qu’il utilise le FQDN ou l’adresse IP que vous avez spécifié. Cliquez ensuite sur **Terminer**.
     

@@ -1,7 +1,7 @@
 ---
 title: Configurer et gérer la modération de canal
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment configurer des canaux pour la modération dans Microsoft Teams, y compris comment ajouter des membres de l’équipe comme modérateurs de canaux.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a012eb26ac9017e0d6a1110505aa1d1025c6a779
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726133"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753987"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurer et gérer la modération de canal dans Microsoft Teams
 
@@ -39,12 +39,12 @@ Les propriétaires d’équipe peuvent également ajouter des membres de l’éq
 Les modérateurs de canaux peuvent :
 
 - Commencez de nouvelles publications dans le canal. Lorsque la modération est désactivée pour un canal, seuls les modérateurs peuvent commencer de nouvelles publications dans ce canal.
-- Ajoutez et supprimez des membres de l’équipe en tant que modérateurs d’un canal. Gardez à l’esprit que, par défaut, les propriétaires d’équipe sont des modérateurs de canaux et ne peuvent pas être supprimés.
+- Ajoutez et supprimez des membres de l’équipe comme modérateurs d’un canal. Gardez à l’esprit que, par défaut, les propriétaires d’équipe sont des modérateurs de canaux et ne peuvent pas être supprimés.
 - Contrôler si les membres de l’équipe peuvent répondre aux messages de canal existants et si les bots et connecteurs peuvent envoyer des messages de canal.
 
 ## <a name="scenarios"></a>Scénarios
 
-Voici quelques exemples de la façon dont votre organisation peut utiliser la modération de canal Teams.
+Voici quelques exemples de la façon dont votre organisation peut utiliser la modération de canal dans Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Utiliser un canal comme canal d’annonce
 
@@ -52,15 +52,15 @@ L’équipe marketing utilise un canal spécifique pour partager les annonces et
 
 Dans ce scénario, le propriétaire de l’équipe ajoute des prospects marketing en tant que modérateurs afin qu’ils peuvent publier des annonces dans le canal et les membres de l’équipe ne peuvent plus répondre aux messages dans ce canal.
 
-### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Utiliser un canal pour les discussions de classe dans Teams pour l’éducation
+### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Utiliser un canal pour les discussions de classe dans Teams pour l'éducation
 
-Dans Teams pour l’éducation, un enseignant de science souhaite utiliser un canal pour impliquer les étudiants dans des discussions axées sur des sujets de classe spécifiques.
+Dans Teams pour l'éducation, un enseignant de science souhaite utiliser un canal pour impliquer les étudiants dans des discussions axées sur des sujets de classe spécifiques.
 
 Dans ce scénario, l’enseignant autorise ses assistants d’enseignement à modérer le canal. Les assistants enseignants peuvent ensuite créer des billets pour lancer et conduire des discussions avec les étudiants.
 
 ## <a name="manage-channel-moderation"></a>Gérer la modération de canal
 
-Dans Teams, sur le canal, cliquez sur **Autres options...**  >  **Gérer le canal.** À partir de là, vous pouvez activer et désactiver la modération, ajouter des membres de l’équipe comme modérateurs et définir des préférences.
+Dans Teams, sur le canal, cliquez **sur Autres options...**  >  **Gérer le canal.** À partir de là, vous pouvez activer et désactiver la modération, ajouter des membres de l’équipe comme modérateurs et définir des préférences.
 
 La modération de canal est un paramètre par canal. Il n’existe aucun paramètre de modération au niveau du client. Si vous souhaitez que nous ajoutons un paramètre de modération de canal au niveau du client, demandez-le [sur Teams UserVoice.](https://microsoftteams.uservoice.com/)
 

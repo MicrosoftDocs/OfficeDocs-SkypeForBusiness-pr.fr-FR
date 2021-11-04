@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies d’archivage dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Résumé : Découvrez comment gérer les stratégies utilisateur pour l’archivage des Skype Entreprise Server.'
-ms.openlocfilehash: 47c88ea294a3b8ea96f7904041a95fa6f0330816
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 53292377876f63a016c0720ec61f65da31650077
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616580"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754943"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Gérer les stratégies d’archivage dans Skype Entreprise Server
 
@@ -47,7 +47,7 @@ Vous pouvez gérer les stratégies d’archivage à l’aide du Panneau de contr
     
 ## <a name="manage-archiving-policies-by-using-windows-powershell"></a>Gérer les stratégies d’archivage à l’aide Windows PowerShell
 
-Vous pouvez également configurer des stratégies d’archivage à l’aide Windows PowerShell cmdlets répertoriées dans le tableau suivant. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server Management Shell.](../management-shell.md)
+Vous pouvez également configurer des stratégies d’archivage à l’aide Windows PowerShell cmdlets répertoriées dans le tableau suivant. Pour plus d’informations sur la syntaxe, y compris tous les paramètres disponibles, [voir Skype Entreprise Server Management Shell](../management-shell.md).
   
 
 |**Applet de commande**|**Description**|
@@ -56,6 +56,6 @@ Vous pouvez également configurer des stratégies d’archivage à l’aide Wind
 |Grant-CsArchivingPolicy  <br/> |Affecte des stratégies d’archivage de session de messagerie instantanée à des utilisateurs ou à des ensembles d’utilisateurs. Ces stratégies vous donnent la possibilité d’archiver les sessions de messagerie instantanée qui ont lieu entre des utilisateurs internes, et/ou d’archiver toutes les sessions de messagerie instantanée qui ont lieu entre des utilisateurs internes et des partenaires extérieurs.  <br/> |
 |New-CsArchivingPolicy  <br/> |Crée des stratégies d’archivage des sessions de messagerie instantanée. Ces stratégies permettent d’archiver toutes les sessions entre les utilisateurs internes et/ou d’archiver toutes les sessions de messagerie instantanée entre les utilisateurs internes et les partenaires externes.  <br/> |
 |Remove-CsArchivingPolicy  <br/> |Supprime la stratégie d’archivage de messagerie instantanée spécifiée qui détermine si Skype Entreprise Server enregistre automatiquement toutes les sessions de messagerie instantanée qui ont lieu entre les utilisateurs internes et/ou toutes les sessions de messagerie instantanée entre les utilisateurs internes et les partenaires fédérés.  <br/> |
-|Set-CsArchivingPolicy  <br/> |Modifie une stratégie d’archivage de messagerie instantanée existante. Une stratégie d’archivage vous permet d’archiver toutes les sessions de messagerie instantanée et les conférences qui ont lieu entre des utilisateurs internes ; vous pouvez également archiver des sessions qui ont lieu entre des utilisateurs internes et des partenaires fédérés.  <br/> |
+|Set-CsArchivingPolicy  <br/> |Modifie une stratégie d’archivage de messagerie instantanée existante. Une stratégie d’archivage vous permet d’archiver toutes les sessions de messagerie instantanée et les conférences qui ont lieu entre des utilisateurs internes ; vous pouvez également archiver les sessions qui ont lieu entre les utilisateurs internes et les partenaires fédérés.  <br/> |
    
 

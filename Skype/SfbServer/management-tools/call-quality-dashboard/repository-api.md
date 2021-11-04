@@ -1,7 +1,7 @@
 ---
 title: API de référentiel pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Résumé : Découvrez l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: c042ace733782fe7a514fec6a5d0e875ddf6b728
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21765c4766e7fc729988f2b8ba23241175a96584
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618820"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759696"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de référentiel pour le tableau de bord de qualité des appels (CQD) dans Skype Entreprise Server
  
 **Résumé :** Découvrez l’API référentiel pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.
   
-L’API Repository fournit un accès par programme au tableau de bord de qualité des appels pour Skype Entreprise Server.
+L’API Référentiel fournit un accès par programme au Tableau de bord de qualité des appels pour Skype Entreprise Server.
   
 ## <a name="repository-api-for-call-quality-dashboard"></a>API de référentiel pour le tableau de bord de qualité des appels
 
@@ -50,7 +50,7 @@ Le tableau de bord de qualité des appels utilise l’API référentiel pour gé
     
   **Prise en charge du partage de ressources d’origine croisée (CORS) pour l’API de référentiel**
   
-L’API de référentiel prend en charge le partage de ressources d’origine croisée (CORS). CORS est une fonctionnalité HTTP qui permet à une application web s’exécutant sous un domaine d’accéder aux ressources d’un autre domaine. Les navigateurs web implémentent une restriction de sécurité appelée stratégie de même origine qui empêche une page web d’appeler des API dans un autre domaine. [](https://www.w3.org/Security/wiki/Same_Origin_Policy) CORS offre un moyen sécurisé d’autoriser un domaine (le domaine d’origine) à appeler des API dans un autre domaine. Pour plus [d’informations sur CORS,](https://www.w3.org/TR/cors/) voir la spécification CORS.
+L’API de référentiel prend en charge le partage de ressources d’origine croisée (CORS). CORS est une fonctionnalité HTTP qui permet à une application web s’exécutant sous un domaine d’accéder aux ressources d’un autre domaine. Les navigateurs web implémentent une restriction de sécurité appelée stratégie d’origine identique qui empêche une page web d’appeler des API dans un autre domaine. [](https://www.w3.org/Security/wiki/Same_Origin_Policy) CORS offre un moyen sécurisé d’autoriser un domaine (le domaine d’origine) à appeler des API dans un autre domaine. Pour plus [d’informations sur CORS,](https://www.w3.org/TR/cors/) voir la spécification CORS.
   
  **Activation de CORS pour l’API référentiel**
   

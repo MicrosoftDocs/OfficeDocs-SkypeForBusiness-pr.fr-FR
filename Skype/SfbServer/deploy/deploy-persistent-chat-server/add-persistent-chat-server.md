@@ -1,7 +1,7 @@
 ---
 title: Ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Résumé : Lisez cette rubrique pour découvrir comment ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015.'
-ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607237"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753411"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015
  
 **Résumé :** Lisez cette rubrique pour découvrir comment ajouter un serveur de conversation permanente à votre topologie Skype Entreprise Server 2015.
   
-Après avoir installé le logiciel prérequis sur chaque serveur sur lequel vous prévoyez de déployer le serveur de conversation permanente, utilisez le Générateur de topologie pour : 
+Après avoir installé le logiciel prérequis sur chaque serveur sur lequel vous prévoyez de déployer le serveur de conversation permanente, vous utilisez le Générateur de topologie pour : 
   
 - Mettre à jour votre topologie pour inclure le serveur de conversation permanente
     
@@ -42,7 +42,7 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
 1. Sur un ordinateur qui exécute Skype Entreprise Server ou sur lequel les outils d’administration Skype Entreprise Server sont installés, connectez-vous à l’aide d’un compte membre du groupe Utilisateurs local (ou d’un compte avec des droits d’utilisateur équivalents).
     
     > [!NOTE]
-    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe Utilisateurs local. toutefois, pour publier une topologie requise pour installer Skype Entreprise Server, vous devez utiliser un compte membre du groupe **Administrateurs** du domaine et du groupe **RTCUniversalServerAdmins,** qui dispose des autorisations de contrôle total (lecture, écriture et modification) sur le magasin de fichiers que vous allez utiliser pour le magasin de fichiers du serveur de conversation permanente (afin que le Générateur de topologie puisse configurer les DACL requises) ou un compte avec des droits équivalents.
+    > Vous pouvez définir une topologie à l’aide d’un compte membre du groupe Utilisateurs local, mais pour publier une topologie requise pour installer Skype Entreprise Server, vous devez utiliser un compte membre du groupe **Administrateurs** du domaine et du groupe **RTCUniversalServerAdmins,** qui dispose d’autorisations de contrôle total (lecture,  écrire et modifier) sur le magasin de fichiers que vous allez utiliser pour le magasin de fichiers du serveur de conversation permanente (afin que le Générateur de topologie puisse configurer les DACL requises) ou un compte avec des droits équivalents.
   
 2. Démarrez le Générateur de topologie.
     
@@ -53,7 +53,7 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
     > [!IMPORTANT]
     > Si le rôle serveur de conversation permanente est en cours d’installation sur un serveur Édition Standard, le nom de groupe doit correspondre au nom de Édition Standard serveur. 
   
-4. Définissez un nom complet simple **pour** le pool de serveurs de conversation permanente. Le nom d’affichage peut être utilisé par des clients personnalisés, en particulier lorsqu’il existe plusieurs pools de serveurs de conversation permanente pour différencier les salles.
+4. Définissez un nom **complet** simple pour le pool de serveurs de conversation permanente. Le nom d’affichage peut être utilisé par des clients personnalisés, en particulier lorsqu’il existe plusieurs pools de serveurs de conversation permanente pour différencier les salles.
     
 5. Définissez le port utilisé par le serveur de conversation permanente pour communiquer avec Skype Entreprise Server serveurs frontux. Le port par défaut est 5041.
     
@@ -105,11 +105,11 @@ Pour déployer plusieurs pools de serveurs de conversation permanente, répétez
 ## <a name="publish-the-updated-topology"></a>Publier la topologie mise à jour
 <a name="BKMK_PublishTopology"> </a>
 
-Après avoir mis à jour votre topologie dans le Générateur de topologies, vous devez la publier dans le magasin central de gestion avant de pouvoir configurer et utiliser Skype Entreprise Server. Les copies en lecture seule des données sont répliquées sur tous les serveurs de la topologie afin de maintenir la synchronisation de tous les serveurs avec la topologie et d’autres modifications intervenues dans la configuration.
+Après avoir mis à jour votre topologie dans le Générateur de topologie, vous devez la publier dans le magasin central de gestion avant de pouvoir configurer et utiliser Skype Entreprise Server. Les copies en lecture seule des données sont répliquées sur tous les serveurs de la topologie afin de maintenir la synchronisation de tous les serveurs avec la topologie et d’autres modifications intervenues dans la configuration.
   
 Avant de publier votre topologie, installez les bases de données pour le serveur de conversation permanente. Utilisez le Générateur de topologie pour installer des bases de données en sélectionnant **Action** et **Installer la base de données.**
   
-1. Sur un ordinateur qui exécute Skype Entreprise Server ou sur lequel les outils d’administration Skype Entreprise Server sont installés, connectez-vous à l’aide d’un compte membre du groupe **Administrateurs** du domaine et du groupe **RTCUniversalServerAdmins,** et qui dispose des autorisations de contrôle total (lecture, écriture et modification) sur le magasin de fichiers à utiliser pour le magasin de fichiers du serveur de conversation permanente (afin que le Générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaire (DACL) requises) ou un compte avec des droits d’utilisateur équivalents.
+1. Sur un ordinateur qui exécute Skype Entreprise Server ou sur lequel les outils d’administration Skype Entreprise Server sont installés, connectez-vous à l’aide d’un compte membre du groupe **Administrateurs** du domaine et du groupe **RTCUniversalServerAdmins,** et qui dispose d’autorisations de contrôle total (lecture, écriture et modification) sur le magasin de fichiers à utiliser pour le groupe Persiste Magasin de fichiers nt Chat Server (afin que le Générateur de topologie puisse configurer les listes de contrôle d’accès discrétionnaire (DACL) requises) ou un compte avec des droits d’utilisateur équivalents.
     
 2. Démarrez le Générateur de topologie. Sélectionnez **Ouvrir la topologie à partir d’un fichier local** si vous l’avez enregistré localement.
     

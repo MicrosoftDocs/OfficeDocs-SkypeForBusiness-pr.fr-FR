@@ -1,7 +1,7 @@
 ---
 title: Ajout du nom de domaine complet de la passerelle vidéo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server.
-ms.openlocfilehash: 42b65e212fde1dd952d1633ae1f2009b3d58d3eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e2c55d64d8e09103b8439d6b2de3d0bb3e5c9073
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591708"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772824"
 ---
 # <a name="add-video-gateway-fqdn"></a>Ajout du nom de domaine complet de la passerelle vidéo
  

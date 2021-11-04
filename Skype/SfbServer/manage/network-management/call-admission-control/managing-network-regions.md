@@ -1,7 +1,7 @@
 ---
 title: Gestion des régions réseau
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: La région réseau* sont les concentrateurs réseau ou les dorsales utilisées dans la configuration du contrôle d’admission des appels, du système E9-1-1 et du contournement de média.
-ms.openlocfilehash: 0fc7b1cdc41f73535aef83e6ec46f9bd4622da48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5bfe3051404b41cd6a1d96bfac240e83070bbdbc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630578"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759736"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gestion des régions réseau dans Skype Entreprise Server
 
@@ -29,7 +29,7 @@ Utilisez les procédures de cet article pour afficher les informations de régio
 
 Une région réseau interconnecte diverses parties d’un réseau sur plusieurs zones géographiques. Chaque région réseau doit être associée à un site central. Le site central est celui du centre de données dans lequel le service de stratégie de bande passante du contrôle d’admission des appels (CAC) s’exécute. Vous pouvez utiliser Skype Entreprise Server panneau de Skype Entreprise Server pour afficher les régions réseau. Les régions réseau incluent des paramètres qui déterminent si d’autres chemins via Internet peuvent être empruntés pour les connexions audio et vidéo. Utilisez cette rubrique pour afficher des régions réseau existantes. 
 
-### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>Pour afficher des informations sur une région réseau à l’Skype Entreprise Server panneau de bord
+### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>Pour afficher des informations sur une région réseau à l’Skype Entreprise Server panneau de commande
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 
@@ -47,7 +47,7 @@ Une région réseau interconnecte diverses parties d’un réseau sur plusieurs 
 
 ### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>Affichage des informations de région réseau à l’aide Windows PowerShell cmdlets
 
-Vous pouvez afficher les informations de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegion.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
+Vous pouvez afficher les informations de région réseau à l’Windows PowerShell et à l’aide de l’cmdlet **Get-CsNetworkRegion.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. 
 
 ### <a name="to-view-network-region-information"></a>Pour afficher les informations de région réseau
 

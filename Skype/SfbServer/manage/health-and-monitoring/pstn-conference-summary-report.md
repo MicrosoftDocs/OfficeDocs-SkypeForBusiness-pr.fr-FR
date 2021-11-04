@@ -1,7 +1,7 @@
 ---
 title: Rapport de synthèse de conférence PSTN en Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Résumé : Découvrez le rapport de synthèse des conférences PSTN Skype Entreprise Server.'
-ms.openlocfilehash: c1f652e6c99db1e011624ee368244795555b61f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 145207e296fb14462e204bb9c8091612ff89b7da
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591148"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754713"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de conférence PSTN en Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de synthèse de conférence PSTN dans Skype Entreprise Server.
   
-Dans Skype Entreprise Server, une conférence PSTN est une conférence dans laquelle au moins un participant se compose de la partie audio à l’aide d’un téléphone PSTN (réseau téléphonique commuté). (Un téléphone PSTN est une « ligne fixe », un téléphone portable ou tout autre téléphone qui n’utilise pas Voice over IP.) Bien que appelées conférences PSTN dans les rapports de surveillance, ces conférences sont peut-être plus communément appelées conférences d’accès.
+Dans Skype Entreprise Server, une conférence PSTN est une conférence dans laquelle au moins un participant se compose de la partie audio à l’aide d’un téléphone PSTN (réseau téléphonique commuté). (Un téléphone PSTN est une « ligne fixe », un téléphone mobile ou tout autre téléphone qui n’utilise pas Voice over IP.) Bien que appelées conférences PSTN dans les rapports de surveillance, ces conférences sont peut-être plus communément appelées conférences d’accès.
   
 Le rapport de synthèse de conférence PSTN fournit des informations sur toutes les conférences PSTN qui ont lieu au sein de votre organisation (c’est-à-dire, toutes les conférences comportant au moins un utilisateur connecté). Ce rapport comprend des informations sur le nombre total de conférences PSTN, le nombre total de personnes ayant participé à ces conférences, et, peut-être plus important, le nombre total d’utilisateurs connectés (la mesure Nombre total de participants PSTN).
   
@@ -61,7 +61,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres du rapport de synthèse des conférences PSTN**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -73,7 +73,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de syn
   
 **Mesures du rapport de synthèse des conférences PSTN**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Toutes les heures** <br/> **Tous les jours** <br/> **Toutes les semaines** <br/> **Mensuelle** <br/> |Non  <br/> |Indique l’intervalle de temps sélectionné. Si applicable, vous pouvez cliquer sur un intervalle de temps donné pour afficher des informations détaillées sur l’intervalle en question. Par exemple, si vous utilisez l’intervalle Tous les jours et que vous cliquez sur 07/07/2015, vous voyez une répartition horaire de l’activité d’inscription de l’utilisateur pour cette date.  <br/> |
 |**Nombre total de conférences PSTN** <br/> |Non  <br/> |Nombre total de conférences ayant autorisé l’accès de rendez-vous.  <br/> |

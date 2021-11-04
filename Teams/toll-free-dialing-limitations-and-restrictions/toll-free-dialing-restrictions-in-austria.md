@@ -1,6 +1,6 @@
 ---
 title: Restrictions de numérotation gratuites en Autriche
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -21,13 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
-ms.openlocfilehash: 873077344d366b8887fa109a86cc85af267821c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Cela vous permettra de découvrir comment appeler des numéros gratuits dans chaque pays/région. Une fois que vous avez sélectionné le pays/la région, vous devez vous rendre sur une page spécifique du pays qui contient des détails, des restrictions et des limites spécifiques sur la disponibilité du service gratuit où un service gratuit est disponible. Le format ou les formats de numérotation vous indiquent les codes d’accès requis dans chaque pays ou région pour composer le numéro gratuit.
+ms.openlocfilehash: cc658d961624bd719f2f2d1d0868c8783ce48c05
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604373"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766052"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>Restrictions de numérotation gratuites en Autriche
 
@@ -45,7 +45,7 @@ ms.locfileid: "58604373"
 |Disponibilité de réseau mobile  <br/> | Oui (certains numéros peuvent être premium) <br/> |
 |Problèmes de commentaires, restrictions et accès  <br/> |Aucun  <br/> |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Limitations et restrictions concernant la composition de numéros verts](../toll-free-dialing-limitations-and-restrictions.md)
 

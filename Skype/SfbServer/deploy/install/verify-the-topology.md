@@ -1,7 +1,7 @@
 ---
 title: Vérifier la topologie dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: "Résumé : Découvrez comment vérifier que la topologie Skype Entreprise Server serveurs Active Directory fonctionnent comme prévu. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 0d8bc0a8ead8d435acf23965c461b57dab93edc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba098dd808fec192cc944ed3796d5e11b0d8af31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605523"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753237"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Vérifier la topologie dans Skype Entreprise Server
  
@@ -50,7 +50,7 @@ La dernière étape consiste à tester le pool frontal et à vérifier que les c
   
 3. Utilisez le compte d’administration pour vous connecter à l’ordinateur Skype Entreprise Server panneau de Skype Entreprise Server est installé.
     
-4. Démarrez Skype Entreprise Server panneau de bord, puis fournissez les informations d’identification, si vous y êtes invité. Skype Entreprise Server Le Panneau de contrôle affiche les informations de déploiement.
+4. Démarrez Skype Entreprise Server panneau de contrôle, puis fournissez les informations d’identification, si vous y êtes invité. Skype Entreprise Server Le Panneau de contrôle affiche les informations de déploiement.
     
 5. Dans la barre de navigation de gauche, cliquez sur Topologie, puis vérifiez que l’état du service affiche un ordinateur avec une flèche verte et qu’une coche verte pour l’état de la réplication est en regard de chaque rôle Skype Entreprise Server qui a été déployé et mis en ligne. 
     
@@ -90,7 +90,7 @@ La dernière étape consiste à tester le pool frontal et à vérifier que les c
     
      ![Activez les utilisateurs dans le Panneau de contrôle.](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
-11. Une page récapitulatif s’affiche et affiche une coche dans la colonne **Enabled** pour indiquer que les utilisateurs sont en cours d’installation. La **colonne d’adresse SIP** affiche l’adresse dont vous avez besoin pour la configuration de la connectez-vous de l’utilisateur.
+11. Une page récapitulatif s’affiche et affiche une coche dans la colonne **Enabled** pour indiquer que les utilisateurs sont en cours d’installation. La **colonne d’adresse SIP** affiche l’adresse dont vous avez besoin pour la configuration de la signature utilisateur.
     
      ![Utilisateurs ajoutés au Panneau de Skype Entreprise Server de contrôle.](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
   

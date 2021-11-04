@@ -1,7 +1,7 @@
 ---
 title: Gérer Skype Entreprise Server 2015 à l’aide du pack d’administration SCOM
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Résumé : Découvrez comment configurer votre infrastructure Skype Entreprise Server 2015 pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: 0349949afe27c5351f9eefda7a5cc5f44a0a072d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 43fba4fa3672621052d51314e1d39ead5f4d568b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014938"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766272"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gérer Skype Entreprise Server 2015 à l’aide du pack d’administration SCOM
  
@@ -50,7 +50,7 @@ Les packs d’administration peuvent être utilisés avec System Center Operatio
 |Surveillance sans agent   |Non prise en charge.   |
 |Environnement virtuel   |Oui.   |
 |Rôles serveur joints au domaine   |Tous les rôles Skype Entreprise Server 2015 doivent être joints au domaine.   |
-|Rôles serveur autonomes   |Skype Entreprise Server 2015 edge servers are not required to be domain-joined.   |
+|Rôles serveur autonomes   |Skype Entreprise Server serveurs Edge 2015 ne doivent pas obligatoirement être joints à un domaine.   |
 |Limitations de topologie   |Tous les rôles serveur dans un déploiement doivent être surveillés à partir du même groupe de gestion Operations Manager.   |
 |Nœud d’observation des transactions synthétiques   |La surveillance de la disponibilité des scénarios avec un nœud d’analyse des transactions synthétiques est prise en charge (configuration supplémentaire requise). Les nodes de l’observeur ne doivent pas obligatoirement être joints au domaine.   |
    
@@ -60,7 +60,7 @@ Le tableau suivant indique la capacité et la exigences du système d’exploita
 |:-----|:-----|
 |UC   |Un des processeurs suivants :  <br/> Processeur 64 bits, quadruple cœur, 2,33 GHz ou supérieur  <br/> Processeur 64 bits 2 voies, bi cœur, 2,33 GHz ou supérieur   |
 |Mémoire   |8 Go   |
-|Système d’exploitation   |Windows Server 2008 R2  <br/> Windows Server 2012 R2   |
+|Système d’exploitation   |Windows Server 2008 R2  <br/> Windows Server 2012 R2   |
 |Réseau   |1 carte réseau à 1 Gbps   |
    
 ## <a name="prerequisites"></a>Configuration requise
@@ -71,7 +71,7 @@ Pour exécuter un nœud d’observation de transaction synthétique, vous devez 
     
 -  Microsoft .NET Framework 4.5
     
-- Skype Entreprise Server d’installation principaux (OcsCore.msi) et unified Communications Managed API (UCMA) (les versions doivent correspondre à la version Skype Entreprise Server WatcherNode.msi)
+- Skype Entreprise Server d’installation principale (OcsCore.msi) et l’API UCMA (Unified Communications Managed API) (les versions doivent correspondre à la version Skype Entreprise Server WatcherNode.msi)
     
 ## <a name="files-in-this-monitoring-pack"></a>Fichiers dans ce pack d’analyse
 
@@ -93,18 +93,18 @@ Les fonctionnalités suivantes sont nouvelles pour Skype Entreprise Server packs
     
 - **Intervalles d’exécuter des transactions synthétiques personnalisées** Pour simplifier le processus de mise en place des nodes watcher, les transactions synthétiques peuvent partager des comptes d’utilisateur. Cela ralentit la fréquence à laquelle les tests sont exécutés à mesure que les tests sont sérialisés afin d’éviter les conflits. Par défaut, les transactions synthétiques s’exécutent toutes les 15 minutes pour s’assurer que tous les tests ont le temps de s’exécuter. Les administrateurs qui choisissent d’utiliser plus d’utilisateurs ou moins de tests par utilisateur peuvent désormais réduire l’intervalle d’utilisation.
     
-- **Transaction synthétique Video Interop Services** Les clients qui migrent vers Skype Entreprise Server 2015 à partir d’autres solutions de fournisseur souhaitent souvent continuer à utiliser les périphériques de téléconférence vidéo (VTC) de ces autres fournisseurs. Video Interop Server est un nouveau rôle serveur Skype Entreprise Server 2015 qui permet aux clients de continuer à utiliser des VTC Cisco dans leurs salles de conférence en se connectant à Cisco CUCM via une connexion SIP vidéo. Cette fonctionnalité ajoute également une transaction synthétique pour vérifier que le serveur d’opation vidéo est en cours d’opération et qu’il peut gérer les connexions entrantes sur une connexion SIP vidéo.
+- **Transaction synthétique vis-à-vis des services d’interconnexion vidéo** Les clients qui migrent vers Skype Entreprise Server 2015 à partir d’autres solutions de fournisseur souhaitent souvent continuer à utiliser les périphériques de téléconférence vidéo (VTC) de ces autres fournisseurs. Video Interop Server est un nouveau rôle serveur Skype Entreprise Server 2015 qui permet aux clients de continuer à utiliser des VTC Cisco dans leurs salles de conférence en se connectant à Cisco CUCM via une connexion SIP vidéo. Cette fonctionnalité ajoute également une transaction synthétique pour vous aider à vérifier que le serveur d’interopation vidéo est en cours d’opération et qu’il peut gérer les connexions entrantes sur une connexion SIP vidéo.
     
 - **Transaction synthétique de conférence de partage d’application** La validation de scénario de bout en bout pour les conférences de partage d’application est désormais prise en charge.
     
 ## <a name="monitoring-scenarios"></a>Scénarios de surveillance
 
-Le pack d Skype Entreprise Server 2015 tire parti d’une variété de fonctionnalités pour vous aider à détecter et diagnostiquer les problèmes. Ces fonctionnalités offrent une visibilité en temps réel de l’état d’Skype Entreprise Server environnement 2015.
+Le pack d’administration Skype Entreprise Server 2015 tire parti d’une variété de fonctionnalités pour vous aider à détecter et diagnostiquer les problèmes. Ces fonctionnalités offrent une visibilité en temps réel de l’état d’Skype Entreprise Server environnement 2015.
   
 |Scénario de surveillance|Description|
 |:-----|:-----|
-|Transactions synthétiques   | Windows PowerShell cmdlets pour tester et garantir la haute disponibilité des scénarios tels que la signature, la présence, la messagerie instantanée et les conférences pour les utilisateurs. <br/> Les transactions synthétiques peuvent être exécutés à partir de n’importe quel emplacement géographique, y compris à l’intérieur de l’entreprise, en dehors de l’entreprise et dans les succursales.  <br/> En cas d’échec d’une transaction synthétique, des journaux HTML sont créés pour vous aider à déterminer la nature exacte de l’échec. Cela inclut la compréhension de l’action qui a échoué, de la latence de chaque action, de la ligne de commande utilisée pour exécuter le test et de l’erreur spécifique qui s’est produite.   |
-|Alertes de fiabilité des appels   |Les enregistrements des détails des appels écrits par les serveurs Skype Entreprise Server 2015 reflètent si les utilisateurs peuvent se connecter à un appel ou pourquoi un appel est interrompu. Les alertes de fiabilité des appels interrogent la base de données d’appels pour produire des alertes qui indiquent quand un grand nombre d’utilisateurs sont en situation de problèmes de connectivité pour les appels d’égal à égal ou la fonctionnalité de conférence de base.  <br/> La couverture des scénarios inclut les appels audio, la messagerie instantanée d’égal à égal et d’autres fonctionnalités de conférence.   |
+|Transactions synthétiques   | Windows PowerShell cmdlets pour tester et garantir la haute disponibilité des scénarios tels que la signature, la présence, la messagerie instantanée et les conférences pour les utilisateurs. <br/> Les transactions synthétiques peuvent être exécutés à partir de n’importe quel emplacement géographique, y compris à l’intérieur de l’entreprise, en dehors de l’entreprise et dans les succursales.  <br/> En cas d’échec d’une transaction synthétique, des journaux HTML sont créés pour vous aider à déterminer la nature exacte de l’échec. Cela inclut la compréhension de l’action qui a échoué, la latence de chaque action, la ligne de commande utilisée pour exécuter le test et l’erreur spécifique qui s’est produite.   |
+|Alertes de fiabilité des appels   |Les enregistrements des détails des appels écrits par les serveurs Skype Entreprise Server 2015 reflètent si les utilisateurs sont en mesure de se connecter à un appel ou pourquoi un appel est interrompu. Les alertes de fiabilité des appels interrogent la base de données d’appels pour produire des alertes qui indiquent quand un grand nombre d’utilisateurs sont en situation de problèmes de connectivité pour les appels d’égal à égal ou la fonctionnalité de conférence de base.  <br/> La couverture des scénarios inclut les appels audio, la messagerie instantanée d’égal à égal et d’autres fonctionnalités de conférence.   |
 |Alertes de qualité des médias   |Requêtes de base de données qui se rapportent aux rapports de qualité de l’expérience (QoE) publiés par les clients Skype Entreprise Server 2015 à la fin de chaque appel. Ces requêtes produisent des alertes qui identifient les scénarios où les utilisateurs sont les plus susceptibles d’être compromis par la qualité des médias pendant les appels et les conférences. Les données reposent sur des mesures clés, telles que la latence et la perte de paquets, qui contribuent directement à la qualité de l’expérience utilisateur.   |
 |Alertes d’état des composants   |Les composants serveur individuels lèvent des alertes via les journaux des événements et les compteurs de performances pour indiquer les conditions de défaillance qui peuvent avoir une incidence significative sur les scénarios utilisateur. Ces alertes indiquent diverses conditions, telles que les services qui ne fonctionnent pas, les taux d’échec élevés, la latence des messages élevée ou les problèmes de connectivité.   |
 |Surveillance de l’état des dépendances   |Skype Entreprise Server peuvent échouer pour diverses raisons externes. Le pack d’administration surveille et collecte des données pour les dépendances externes critiques qui peuvent indiquer des problèmes graves. Ces dépendances incluent la Internet Information Services (IIS) et le processeur des serveurs utilisés pour Skype Entreprise Server.   |
@@ -188,7 +188,7 @@ Le tableau suivant indique l’état d’état d’Skype Entreprise Server le pa
    
 ![Rollup SCOM.](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-Un pool Skype Entreprise Server peut contenir plusieurs systèmes Skype Entreprise Server individuels (avec plusieurs rôles Skype Entreprise Server, un service Skype Entreprise Server et un composant Skype Entreprise Server client). Par conséquent, la défaillance d’un serveur ou d’un composant individuel est moins critique pour l’état global du pool Skype Entreprise Server, car d’autres serveurs du même pool peuvent fournir le service d’application au client. L’état d’Skype Entreprise Server un pourcentage. 
+Un pool Skype Entreprise Server peut contenir plusieurs systèmes Skype Entreprise Server individuels (avec plusieurs rôles Skype Entreprise Server, un service Skype Entreprise Server et un Skype Entreprise Server composant). Par conséquent, la défaillance d’un serveur ou d’un composant individuel est moins critique pour l’état global du pool Skype Entreprise Server, car d’autres serveurs du même pool peuvent fournir le service d’application au client. L’état d’Skype Entreprise Server un pourcentage. 
   
 L Skype Entreprise Server de pool exécute des transactions synthétiques sur un pool Skype Entreprise Server pool. Les échecs consécutifs d’une ou de plusieurs transactions synthétiques (processus appelé intervalle d’interrogation consécutif) relaient l’état d’état d’état critique au niveau du pool (pire de toute transaction synthétique), comme illustré dans le diagramme suivant. 
   
@@ -214,7 +214,7 @@ Les liens suivants vous connectent à des informations sur les tâches courantes
     
 - [Comment créer un compte Exécuter en tant que dans Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh321655(v=sc.12))
     
-- [Gestion des comptes et des profils d’exécuter en tant que](/previous-versions/system-center/system-center-2012-R2/hh212714(v=sc.12))
+- [Gestion des comptes et des profils Exécuter en tant que](/previous-versions/system-center/system-center-2012-R2/hh212714(v=sc.12))
     
 - [Comment exporter un pack d’administration Operations Manager](/previous-versions/system-center/system-center-2012-R2/hh320149(v=sc.12))
     

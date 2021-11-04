@@ -1,7 +1,7 @@
 ---
 title: Intégrer des Skype Entreprise Server avec Exchange Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Résumé : Examinez les étapes d’intégration pour Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.'
-ms.openlocfilehash: 44b27328252384d6c7635cee2f0c98dafdd180ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46e7380669ee93a9fa4a61511f362a809387a022
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621786"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778844"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Intégrer des Skype Entreprise Server avec Exchange Server
 
@@ -27,11 +27,11 @@ ms.locfileid: "58621786"
 
 Exchange Server 2013 ou une Skype Entreprise Server sont compatibles et s’intègrent bien. Par exemple, les Skype Entreprise de présence de l’utilisateur peuvent être signalées dans Microsoft Outlook; de même, Skype Entreprise peut accéder au calendrier Outlook d’un utilisateur, noter qu’une réunion est prévue pour l’utilisateur et afficher la présence de l’utilisateur comme occupé pendant la réunion. Bien que vous n’avez pas besoin d’exécuter Exchange Server pour exécuter Skype Entreprise Server (ou vice versa), les deux produits améliorent l’expérience utilisateur l’un de l’autre.
 
-Cette documentation fournit des informations sur l’intégration de Skype Entreprise Server et Exchange Server 2016 ou Exchange Server 2013, mais elle suppose que la configuration initiale de ces deux produits a déjà eu lieu. Pour plus d’informations sur le déploiement Skype Entreprise Server voir le [Tech Center Skype Entreprise Server.](../../../Hub/index.yml) Pour plus d’informations sur le déploiement Exchange Server consultez la documentation de déploiement de votre version de Exchange.
+Cette documentation fournit des informations sur l’intégration de Skype Entreprise Server et Exchange Server 2016 ou Exchange Server 2013, mais elle suppose que la configuration initiale de ces deux produits a déjà eu lieu. Pour plus d’informations sur le déploiement Skype Entreprise Server consultez le [Tech Center Skype Entreprise Server.](../../../Hub/index.yml) Pour plus d’informations sur le déploiement Exchange Server consultez la documentation de déploiement de votre version de Exchange.
 
 Si vous intégrez une installation locale de Skype Entreprise Server à Microsoft Exchange Online, voir Configurer l’intégration entre Skype Entreprise Server local et [Outlook Web App.](outlook-web-app.md)
 
-Si vous intégrez Skype Entreprise Online à Exchange Server local, voir [Configurer OAuth](oauth-with-online-and-on-premises.md)entre Skype Entreprise Online et Exchange local.
+Si vous intégrez Skype Entreprise Online à Exchange Server en local, voir [Configurer OAuth](oauth-with-online-and-on-premises.md)entre Skype Entreprise Online et Exchange local.
 
 ## <a name="in-this-section"></a>Dans cette section
 

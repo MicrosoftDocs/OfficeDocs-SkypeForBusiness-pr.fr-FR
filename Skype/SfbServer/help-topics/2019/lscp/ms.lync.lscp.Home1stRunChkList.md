@@ -1,7 +1,7 @@
 ---
 title: Liste de vérification de première exécution pour le panneau de configuration de Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: Bienvenue dans le Panneau de Skype Entreprise Server, l’interface utilisateur web pour l’administration et la gestion des Skype Entreprise Server. Vous pouvez utiliser le panneau de contrôle pour effectuer les types de tâches administratives qui ont été effectuées à l’aide de la console de gestion Microsoft dans les versions précédentes.
-ms.openlocfilehash: 05f2882622325ed9b4bdb837811941ccb34b0401
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21f4f2f3add2ba287357243463967e93d3ebe7b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609773"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742760"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Liste de vérification de première exécution pour le panneau de configuration de Skype Entreprise Server
 
@@ -35,7 +35,7 @@ Il existe un certain nombre de tâches importantes que nous vous recommandons vi
 
 Nous vous recommandons vivement de passer en revue les tâches mentionnées dans cette rubrique, puis d’effectuer les procédures appropriées pour le déploiement dans votre organisation.
 
-|**Task**|**Groupe Panneau de contrôle**|**Documentation**|
+|**Tâche**|**Groupe Panneau de contrôle**|**Documentation**|
 |:-----|:-----|:-----|
 |Vérifiez que les services que vous avez installés dans votre topologie sont exécutés comme prévu.  <br/> |**Topologie** <br/> |[Afficher les détails d’un service](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service) <br/> |
 |Activez les utilisateurs pour Skype Entreprise Server. Éventuellement et, si vous migrez à partir d’une version précédente, déplacez les utilisateurs vers Skype Entreprise Server.  <br/> |**Utilisateurs** <br/> |[Gestion des utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |

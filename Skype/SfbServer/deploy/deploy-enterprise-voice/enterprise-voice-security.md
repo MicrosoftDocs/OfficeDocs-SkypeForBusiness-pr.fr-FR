@@ -1,7 +1,7 @@
 ---
 title: Conditions préalables à la sécurité et à la configuration Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Résumé : Découvrez les conditions préalables de sécurité et de configuration requises pour Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 0f46de6fa8b8c2027a3828df67a0330212392e45
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 48cb415208008441f306dd0384c494149f65c4e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617020"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778914"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Conditions préalables à la sécurité et à la configuration Voix Entreprise dans Skype Entreprise Server
  
@@ -31,7 +31,7 @@ Avant de déployer Voix Entreprise, vérifiez que votre infrastructure répond a
   
 ## <a name="administrative-rights-and-certificate-infrastructure"></a>Droits d’administration et infrastructure de certificats
 
-Avant de déployer, vérifiez ce qui suit :
+Avant de déployer, vérifiez les choses suivantes :
   
 - Les administrateurs déployant Voix Entreprise doivent être membres du groupe RTCUniversalServerAdmins.
     
@@ -61,7 +61,7 @@ Si vous procédez à un nouveau déploiement de la charge de travail de Voix Ent
 
 Après avoir vérifié les conditions préalables logicielles et environnementales pour Voix Entreprise vous pouvez :
   
-- Installez le serveur de médiation, comme décrit dans Déployer un serveur de médiation dans le Générateur de topologies dans [Skype Entreprise Server,](deploy-a-mediation-server.md)mais uniquement si vous souhaitez déployer un serveur de médiation ou un pool autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement du pool frontal ou du serveur Édition Standard lors de la c cocation.
+- Installez le serveur de médiation, comme décrit dans Déployer un serveur de médiation dans le Générateur de topologies dans [Skype Entreprise Server,](deploy-a-mediation-server.md)mais uniquement si vous souhaitez déployer un serveur de médiation ou un pool autonome, car les serveurs de médiation sont installés dans le cadre du processus de déploiement d’un pool frontal ou d’un serveur Édition Standard lors de la cocation.
     
 - Vous pouvez également commencer à configurer les paramètres pour router les appels pour Voix Entreprise [utilisateurs,](configure-trunks.md)comme décrit dans La configuration des Skype Entreprise Server .
     

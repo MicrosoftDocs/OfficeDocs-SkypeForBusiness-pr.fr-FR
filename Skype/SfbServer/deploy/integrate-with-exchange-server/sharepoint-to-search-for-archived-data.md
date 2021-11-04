@@ -1,7 +1,7 @@
 ---
 title: Configurer SharePoint server pour rechercher des données Skype Entreprise archivées
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Résumé : Configurez SharePoint server pour rechercher des données archivées par Exchange Server et Skype Entreprise Server.'
-ms.openlocfilehash: 081b32ad57d97a793867e56f85ad36d62424bacb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ab7fe3127f4837334142dd1f4138df81f7dadf21
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013568"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765852"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurer SharePoint server pour rechercher des données Skype Entreprise archivées
  
-**Résumé :** Configurez SharePoint server pour rechercher des données archivées par Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.
+**Résumé :** Configurez SharePoint Server pour rechercher des données archivées par Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.
   
 L’un des principaux avantages du stockage des transcriptions de messagerie instantanée et de conférence Web dans Exchange Server au lieu de Skype Entreprise Server est que le stockage de données au même emplacement permet aux administrateurs d’utiliser un seul outil pour rechercher des données Exchange archivées et/ou des données Skype Entreprise Server archivées. Étant donné que toutes les données sont stockées au même endroit (Exchange), tout outil qui peut rechercher des données Exchange archivées peut également rechercher des données Skype Entreprise Server archivées.
   
@@ -51,7 +51,7 @@ Une fois le fichier téléchargé, procédez comme suit sur le serveur SharePoin
    iisreset
    ```
 
-Une fois Exchange services Web, vous devez configurer l’authentification de serveur à serveur entre SharePoint Server et Exchange Server. Pour ce faire, ouvrez d’abord SharePoint Management Shell et exécutez l’ensemble de commandes suivant :
+Une Exchange services Web est installé, vous devez configurer l’authentification de serveur à serveur entre SharePoint Server et Exchange Server. Pour ce faire, ouvrez d’abord SharePoint Management Shell et exécutez l’ensemble de commandes suivant :
   
 ```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"

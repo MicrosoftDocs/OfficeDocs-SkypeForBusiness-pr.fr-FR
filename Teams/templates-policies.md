@@ -1,7 +1,7 @@
 ---
 title: Gérer les modèles d’équipe dans le Centre d’administration
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les modèles d’équipe dans le Centre d’administration
-ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605370"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766062"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Gérer les modèles d’équipe dans le Centre d’administration
 
@@ -38,7 +38,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
 
 1. Se connecter au Centre d’administration de Microsoft Teams.
 
-2. Développez **Teams**  >  **stratégies de modèles.**
+2. Développez **Teams**  >  **stratégies modèles.**
 
 3. Sélectionnez **Ajouter**.
 
@@ -65,7 +65,7 @@ Regardez cette courte vidéo pour découvrir comment gérer les stratégies de m
    Les modèles sélectionnés apparaissent dans votre table **de modèles consultables.**
 3. Sélectionnez **Enregistrer**.
 
-   Votre nouvelle stratégie de modèle s’affiche dans la liste **Stratégies de** modèles.
+   Votre nouvelle stratégie de modèle est affichée dans la liste **Stratégies de** modèles.
 
 ## <a name="assign-users-to-the-template-policies"></a>Attribuer des utilisateurs aux stratégies de modèle
 
@@ -118,7 +118,7 @@ R : Oui.
 R : Dans le Centre d’administration :
 
 1. Allez à la section **Utilisateurs.**
-2. Sélectionnez le filtre dans le tableau de la liste Utilisateurs, puis filtrez la stratégie de modèle d’équipe.
+2. Sélectionnez le filtre dans la table Liste des utilisateurs et filtrez la stratégie de modèle d’équipe.
 3. Sélectionnez **Appliquer.**
 
 ![Stratégie de modèle sélectionnée et afficher les utilisateurs.](media/template-policies-5.png)

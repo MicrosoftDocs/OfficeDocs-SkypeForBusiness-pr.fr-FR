@@ -1,7 +1,7 @@
 ---
 title: Comprendre les équipes et les canaux dans Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: En savoir plus sur la structure des équipes et des canaux Microsoft Teams et comment utiliser des Teams pour la collaboration entre les organisations.
+description: En savoir plus sur la structure des équipes et des canaux Microsoft Teams comment utiliser des Teams pour la collaboration entre les organisations.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ba80c74e905fa80f42095afd7a524d202661f21
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: 7af581966c2822e88ce439d5c590331f220cef7a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641194"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766072"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Comprendre les équipes et les canaux dans Microsoft Teams
 

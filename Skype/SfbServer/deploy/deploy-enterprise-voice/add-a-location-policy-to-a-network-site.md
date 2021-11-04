@@ -1,7 +1,7 @@
 ---
 title: Ajouter une stratégie d’emplacement à un site réseau dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Affecter des stratégies d’emplacement E9-1-1 aux sites réseau Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 85a6d589a02c427382c0145a531bcc47ecab703f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9d248d91703284d58b27e5fd593af95ddf4edaf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612783"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765952"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Ajouter une stratégie d’emplacement à un site réseau dans Skype Entreprise Server
  

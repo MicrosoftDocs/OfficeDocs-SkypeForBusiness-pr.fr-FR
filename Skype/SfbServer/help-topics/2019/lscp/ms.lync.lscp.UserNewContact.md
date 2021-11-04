@@ -1,7 +1,7 @@
 ---
 title: Utilisateurs Nouveaux objets contact
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 92e43524f4d99203eb22191dd1e8dc143937408f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ae05591ffe38dfa560924cf38b27880763fa7f5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590408"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760174"
 ---
 # <a name="users-new-contact-objects"></a>Utilisateurs : nouveaux objets contact
 

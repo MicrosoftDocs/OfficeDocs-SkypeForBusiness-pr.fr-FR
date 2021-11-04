@@ -1,7 +1,7 @@
 ---
 title: Processus de déploiement de Response Group dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
-description: Processus de déploiement et étapes de Response Group dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: ef3c5810758d7d3c4df070ca2adf70ef80025ffe
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Processus de déploiement et étapes pour Response Group dans Skype Entreprise Server Voix Entreprise.
+ms.openlocfilehash: cbc8a26e88cc98f32042ba00fab1ecf181af67d4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015298"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765872"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processus de déploiement de Response Group dans Skype Entreprise
 
-Processus de déploiement et étapes de Response Group dans Skype Entreprise Server Voix Entreprise.
+Processus de déploiement et étapes pour Response Group dans Skype Entreprise Server Voix Entreprise.
 
 Response Group est une fonctionnalité Voix Entreprise qui route et place en file d’attente les appels entrants vers des groupes de personnes, appelés agents, tels qu’un service d’assistance ou un service clientèle.
 
@@ -43,7 +43,7 @@ Pour configurer les groupes Response Group, vous devez être membre d’au moins
 |**CsViewOnlyAdministrator** <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |
 
 > [!NOTE]
-> **(1)** Un objet utilisateur des services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié répertorié. Un administrateur ou un autre membre du groupe Active Directory délégué ayant les autorisations appropriées pour ajouter des utilisateurs à un groupe de sécurité (par exemple, Administrateur, Opérateurs de compte) doit ajouter un objet utilisateur au groupe ou au groupe de sécurité répertorié pour que l’utilisateur puisse effectuer les fonctions répertoriées. **(2)** Uniquement pour les flux de travail que le CsResponseGroupAdministrator a affectés à CsResponseGroupManager. **(3)** Un gestionnaire Response Group peut affecter un autre membre de CsResponseGroupManager à un flux de travail que le responsable actuel gère déjà. **(4)** CsViewOnlyAdministrator ne peut exécuter que des cmdlets verbe « Get ».
+> **(1)** Un objet utilisateur des services de domaine Active Directory doit être membre du groupe de sécurité Active Directory spécifié répertorié. Un administrateur ou un autre membre du groupe Active Directory délégué ayant les autorisations appropriées pour ajouter des utilisateurs à un groupe de sécurité (par exemple, Administrateur, Opérateurs de compte) doit ajouter un objet utilisateur au groupe ou au groupe de sécurité répertorié pour que l’utilisateur puisse effectuer les fonctions répertoriées. **(2)** Uniquement pour les flux de travail que le CsResponseGroupAdministrator a affectés au CsResponseGroupManager. **(3)** Un gestionnaire Response Group peut affecter un autre membre de CsResponseGroupManager à un flux de travail que le responsable actuel gère déjà. **(4)** CsViewOnlyAdministrator ne peut exécuter que des cmdlets verbe « Get ».
 
 ## <a name="response-group-configuration-prerequisites"></a>Conditions préalables à la configuration de Response Group
 
@@ -71,7 +71,7 @@ Vous devrez peut-être effectuer les tâches suivantes avant de configurer Respo
 
 ### <a name="enabling-users"></a>Activation des utilisateurs
 
-La première étape de la configuration de Response Group consiste à créer des groupes d’agents. Avant de pouvoir créer un groupe d’agents, vous devez activer les utilisateurs qui seront agents de Response Group pour Skype Entreprise et Voix Entreprise. L’activation des utilisateurs pour Skype Entreprise est généralement une étape du déploiement du serveur Enterprise Edition ou Standard Edition. Pour plus d’informations sur l’activation des utilisateurs pour Skype Entreprise, voir [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). L’activation des utilisateurs pour Voix Entreprise se déroule généralement lors d’une étape du déploiement de Voix Entreprise. Pour plus d’informations, voir [Enable users for Voix Entreprise in Skype for Business Server](enable-users-for-enterprise-voice.md).
+La première étape de la configuration de Response Group consiste à créer des groupes d’agents. Avant de pouvoir créer un groupe d’agents, vous devez activer les utilisateurs qui seront agents de Response Group pour Skype Entreprise et Voix Entreprise. L’activation des utilisateurs Skype Entreprise est généralement une étape du déploiement Êdition Entreprise serveur ou Édition Standard serveur. Pour plus d’informations sur l’activation des utilisateurs pour Skype Entreprise, voir [Enable or Disable Users for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server). L’activation des utilisateurs pour Voix Entreprise se déroule généralement lors d’une étape du déploiement de Voix Entreprise. Pour plus d’informations, voir [Enable users for Voix Entreprise in Skype Entreprise Server](enable-users-for-enterprise-voice.md).
 
 ### <a name="complying-with-fips-requirements"></a>Respect des normes FIPS
 
@@ -93,7 +93,7 @@ Pour modifier le fichier Web.config, procédez comme suit :
 
 4. Enregistrez le fichier Web.config.
 
-5. Redémarrez le service IIS (Internet Information Services) en exécutant la commande suivante à l’invite de commandes :
+5. Redémarrez le service Internet Information Services (IIS) en exécutant la commande suivante à une invite de commandes :
 
    ```console
    iisreset
@@ -136,7 +136,7 @@ Vous pouvez modifier le classement à l’aide de Microsoft SQL Server Manageme
 
 |**Étape**|**Étapes**|**Autorisations**|**Documentation de déploiement**|
 |:-----|:-----|:-----|:-----|
-|Activer les utilisateurs pour Skype Entreprise et pour Voix Entreprise  <br/> |Activez les utilisateurs qui seront des agents pour Skype Entreprise et Voix Entreprise. Les utilisateurs doivent être activés pour pouvoir être ajoutés aux groupes d’agents. En règle générale, les utilisateurs sont activés Skype Entreprise pendant le déploiement Êdition Entreprise ou Édition Standard serveur. Les utilisateurs sont activés pour Voix Entreprise pendant le Voix Entreprise déploiement.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Activer ou désactiver les utilisateurs pour Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server](enable-users-for-enterprise-voice.md) <br/> |
+|Activer les utilisateurs pour Skype Entreprise et pour Voix Entreprise  <br/> |Activez les utilisateurs qui seront des agents Skype Entreprise et Voix Entreprise. Les utilisateurs doivent être activés pour pouvoir être ajoutés aux groupes d’agents. En règle générale, les utilisateurs sont activés Skype Entreprise pendant le déploiement Êdition Entreprise ou Édition Standard serveur. Les utilisateurs sont activés pour Voix Entreprise pendant le Voix Entreprise déploiement.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Activer ou désactiver les utilisateurs pour Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [Activer les utilisateurs pour Voix Entreprise dans Skype Entreprise Server](enable-users-for-enterprise-voice.md) <br/> |
 |Créer et configurer les groupes Response Group, qui sont composés de groupes d’agents, de files d’attente et de flux de travail  <br/> |1. Utilisez le Panneau de Skype Entreprise Server ou Skype Entreprise Server Management Shell pour :  <br/> a. Créez et configurez des groupes d’agents.  <br/> b. Créez et configurez des files d’attente.  <br/> 2. Vous pouvez éventuellement utiliser Skype Entreprise Server Management Shell pour créer des heures ouvées et des congés response group prédéfinés.  <br/> 3. Utilisez l’outil de configuration Response Group ou Skype Entreprise Server Management Shell pour créer des flux de travail (groupe de recherche ou flux d’appels de réponse vocale interactive( IVR), y compris les heures d’ouverture et les congés des groupes Response Group personnalisés.  <br/> Vous pouvez accéder à l’outil de configuration Response Group via Skype Entreprise Server Panneau de configuration.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Créer des groupes d'agents Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Créer des files d’attente Response Group](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Facultatif) Définir les heures d’ouverture de Response Group dans Skype Entreprise](optional-define-response-group-business-hours.md) <br/> [(Facultatif) Définir des groupes de congés Response Group dans Skype Entreprise](optional-define-response-group-holiday-sets.md) <br/> [Conception et création de flux de travail Response Group dans Skype Entreprise](designing-and-creating-response-group-workflows.md) <br/> |
 |(Facultatif) Personnaliser les paramètres au niveau de l’application  <br/> |Utilisez Skype Entreprise Server Management Shell pour personnaliser la configuration de l’attente musicale par défaut, le fichier audio d’attente musicale par défaut, la période de grâce de rappel de l’agent et la configuration du contexte de l’appel.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Gestion des paramètres Response Group au niveau de l’application dans Skype Entreprise](managing-application-level-response-group-settings.md) <br/> |
 |(Facultatif) Déléguer la gestion des groupes Response Group  <br/> |Attribuez aux utilisateurs le rôle CsResponseGroupManager pour déléguer la configuration des groupes Response Group. Les responsables Response Group peuvent ensuite configurer les groupes Response Group qui leur sont affectés.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planification du contrôle d’accès basé sur un rôle](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) <br/> |

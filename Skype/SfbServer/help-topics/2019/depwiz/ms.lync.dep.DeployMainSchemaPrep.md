@@ -1,7 +1,7 @@
 ---
 title: Préparer un schéma
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
-description: Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l’Skype Entreprise Server Déploiement. Cliquez sur Exécuter pour commencer la préparation du schéma.
-ms.openlocfilehash: f5dd2a7958eafc65f69a6df4344f10973714b58a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l Skype Entreprise Server De déploiement. Cliquez sur Exécuter pour commencer la préparation du schéma.
+ms.openlocfilehash: 6eb657bab4f4985c6ea5dd6d75c93f2e42cd6ef0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626056"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738621"
 ---
 # <a name="prepare-schema"></a>Préparer un schéma
  
-Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l’Skype Entreprise Server Déploiement. Cliquez sur **Exécuter** pour commencer la préparation du schéma. L’étape Préparer le schéma lit les fichiers de définition de schéma fournis dans le répertoire \Program Files\Skype Entreprise Server 2019\Deployment\Setup sur le système sur qui l’Assistant Déploiement est en cours d’exécution. Ces fichiers sont également disponibles sur le support d’installation, dans le répertoire \Support\Schema. L’étape Préparer un schéma développera le schéma et rapportera le statut du processus. Elle vous notifiera également l’achèvement du processus. L’écran de résumé vous permettra d’afficher les journaux du processus. Passez en revue les journaux pour vous assurer que la préparation était complète et qu’elle a abouti.
+Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l Skype Entreprise Server De déploiement. Cliquez sur **Exécuter** pour commencer la préparation du schéma. L’étape Préparer le schéma lit les fichiers de définition de schéma fournis dans le répertoire \Program Files\Skype Entreprise Server 2019\Deployment\Setup sur le système sur qui l’Assistant Déploiement est en cours d’exécution. Ces fichiers sont également disponibles sur le support d’installation, dans le répertoire \Support\Schema. L’étape Préparer un schéma développera le schéma et rapportera le statut du processus. Elle vous notifiera également l’achèvement du processus. L’écran de résumé vous permettra d’afficher les journaux du processus. Passez en revue les journaux pour vous assurer que la préparation était complète et qu’elle a abouti.
   
 > [!IMPORTANT]
 > Pour étendre le schéma, vous devez être connecté au domaine en tant que membre du groupe Administrateurs du schéma et du groupe Administrateurs d’entreprise. 

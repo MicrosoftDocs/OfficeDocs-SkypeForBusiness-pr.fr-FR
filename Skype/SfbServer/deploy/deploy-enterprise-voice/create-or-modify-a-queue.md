@@ -1,7 +1,7 @@
 ---
 title: Créer ou modifier une file d’attente dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Créez ou modifiez une file d’attente Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7cc079b458f4aae2748c212dd5c0bcf710142716
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611259"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765902"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Créer ou modifier une file d’attente dans Skype Entreprise
  
 Créez ou modifiez une file d’attente Response Group, Skype Entreprise Server Voix Entreprise.
   
-Les files d’attente placent les appelants en attente jusqu’à ce qu’un agent réponde à l’appel. Lorsque l’application Response Group recherche un agent disponible, elle recherche les groupes d’agents dans l’ordre où vous les avez répertoriés. Vous pouvez sélectionner les groupes d’agents qui sont affectés à la file d’attente et spécifier le comportement de la file d’attente, par exemple en limitant le nombre d’appels que la file d’attente peut contenir et la période d’attente d’un appel jusqu’à ce qu’un agent réponde à l’appel.
+Les files d’attente placent les appelants en attente jusqu’à ce qu’un agent réponde à l’appel. Lorsque l’application Response Group recherche un agent disponible, elle recherche les groupes d’agents dans l’ordre dans le but de les lister. Vous pouvez sélectionner les groupes d’agents qui sont affectés à la file d’attente et spécifier le comportement de la file d’attente, par exemple en limitant le nombre d’appels que la file d’attente peut contenir et la période d’attente d’un appel jusqu’à ce qu’un agent réponde à l’appel.
   
 Utilisez l’une des procédures suivantes pour créer ou modifier une file d’attente.
   
@@ -73,7 +73,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **to voice mail,** puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
     
-   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
+   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ d’adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
     
    - Pour passer l’appel à un autre utilisateur, cliquez sur Forward vers l’adresse **SIP,** puis dans le champ d’adresse **SIP,** tapez l’URI de l’utilisateur au format sip: _\<username\>_ @  _\<domainname\>_ .
     
@@ -91,7 +91,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     
    - Pour envoyer l’appel à la messagerie vocale, cliquez sur Forward **to voice mail,** puis dans le champ d’adresse **SIP,** tapez une adresse de messagerie vocale au format sip: *\<username\>* @  *\<domainname\>* (par exemple, sip:bob@contoso.com).
     
-   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ Adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
+   - Pour passer l’appel vers un autre numéro de téléphone, cliquez sur Forward **vers** le numéro de téléphone, puis dans le champ d’adresse **SIP,** tapez le numéro de téléphone au format sip *\<number\>* @  *\<domainname\>* : (par exemple, sip:+14255550121@contoso.com).
     
    - Pour passer l’appel à un autre utilisateur, cliquez sur Forward vers l’adresse **SIP,** puis dans le champ d’adresse **SIP,** tapez l’URI de l’utilisateur au format sip: _\<username\>_ @  _\<domainname\>_ .
     
@@ -162,7 +162,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une file d’
     > [!NOTE]
     > Pour plus d’informations sur les actions possibles et leur syntaxe, voir [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps). 
   
-    Par exemple :
+    Par exemple :
     
    ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate

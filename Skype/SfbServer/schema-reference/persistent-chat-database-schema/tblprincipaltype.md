@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: La table tblPrincipalType contient les types principaux qui permettent de catégoriser le contenu de la table tblPrincipal.
-ms.openlocfilehash: 5a4e38c7e29de235c4244e0617575f0732ab4362
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3fa86d3cfed058387681ff0fc5eb2b3ec7afb26d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633498"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743110"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -43,14 +43,14 @@ La table tblPrincipalType contient les types principaux qui permettent de catég
 
 |**ID**|**Role**|**Description**|**Utilisateur**|
 |:-----|:-----|:-----|:-----|
-|1   <br/> |N’importe lequel  <br/> |Principal générique sans type connu. Inutilisé dans la table tblPrincipal.  <br/> ||
-|2   <br/> |AnyUser  <br/> |Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.  <br/> |Oui  <br/> |
-|3   <br/> |AnyGroup  <br/> |Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.  <br/> ||
+|1  <br/> |N’importe lequel  <br/> |Principal générique sans type connu. Inutilisé dans la table tblPrincipal.  <br/> ||
+|2  <br/> |AnyUser  <br/> |Principal générique de type utilisateur. Inutilisé dans table tblPrincipal.  <br/> |Oui  <br/> |
+|3  <br/> |AnyGroup  <br/> |Principal générique avec sémantique de groupe. Inutilisé dans table tblPrincipal.  <br/> ||
 |4   <br/> |SystemUser  <br/> |Principal utilisé en interne par le serveur de conversation permanente.  <br/> ||
-|5   <br/> |Utilisateur  <br/> |Utilisateur régulier.  <br/> |Oui  <br/> |
+|5  <br/> |Utilisateur  <br/> |Utilisateur régulier.  <br/> |Oui  <br/> |
 |8   <br/> |DC  <br/> |Contrôleur de domaine des services de domaine Active Directory.  <br/> ||
-|9   <br/> |Groupe  <br/> |Groupe de sécurité Active Directory.  <br/> ||
-|10   <br/> |Folder  <br/> |Conteneur ou unité d’organisation Active Directory.  <br/> ||
+|9   <br/> |Group  <br/> |Groupe de sécurité Active Directory.  <br/> ||
+|10  <br/> |Folder  <br/> |Conteneur ou unité d’organisation Active Directory.  <br/> ||
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,7 +1,7 @@
 ---
 title: Attribuer Teams licences de modules add-on aux utilisateurs
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Découvrez comment affecter des Teams de modules supplémentaires aux utilisateurs pour des fonctionnalités telles que l’audioconférence, les Système téléphonique et les plans d’appel.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36b644f983bc24304ff35f8ada0f8628e3b99e56974a8e434345a2c9e2c3c26d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324783"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766122"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Attribuer Teams licences de modules add-on aux utilisateurs
 
@@ -30,7 +30,7 @@ Les licences de modules supplémentaires sont des licences Teams de fonctionnali
 > [!NOTE]
 > Consultez [Teams licences de modules](./microsoft-teams-add-on-licensing.md) Teams fonctionnalités disponibles avec des licences de modules supplémentaires. Vous trouverez également des informations sur les licences que vous devez acheter et sur la manière de les acheter (selon votre offre), afin que les utilisateurs disposent de fonctionnalités telles que l’audioconférence, les numéros gratuits et la possibilité d’appeler des numéros de téléphone en dehors de votre organisation. Après avoir décidé des fonctionnalités que vous souhaitez pour vos utilisateurs, attribuez-leur les licences.
 
-Vous pouvez utiliser l’Centre d’administration Microsoft 365 ou PowerShell pour attribuer des licences aux utilisateurs de votre organisation. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
+Vous pouvez utiliser l’Centre d'administration Microsoft 365 ou PowerShell pour attribuer des licences aux utilisateurs de votre organisation. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>Ce que vous devez savoir avant d’affecter Système téléphonique licences pour le plan d’appel et les crédits de communication
 
@@ -46,13 +46,13 @@ Avant de commencer, examinez les conditions suivantes :
 
 - Après avoir attribué des licences de plan d’appel ou de crédit de communication à vos utilisateurs, vous devrez obtenir les numéros de téléphone pour votre organisation, puis les affecter aux utilisateurs. Pour obtenir des instructions détaillées, [consultez Configurer les forfaits d’appels.](../set-up-calling-plans.md)
 
-## <a name="using-the-microsoft-365-admin-center"></a>Utilisation de la Centre d’administration Microsoft 365
+## <a name="using-the-microsoft-365-admin-center"></a>Utilisation de la Centre d'administration Microsoft 365
 
-Utilisez l’Centre d’administration Microsoft 365 pour attribuer des licences à des utilisateurs individuels ou à de petits ensembles d’utilisateurs à la fois. Vous attribuez des **licences** dans la page Licences (jusqu’à 20 utilisateurs à la fois) ou sur la **page** Utilisateurs actifs (jusqu’à 40 utilisateurs à la fois). La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
+Utilisez l’Centre d'administration Microsoft 365 pour attribuer des licences à des utilisateurs individuels ou à de petits ensembles d’utilisateurs à la fois. Vous attribuez des **licences** dans la page Licences (jusqu’à 20 utilisateurs à la fois) ou sur la **page** Utilisateurs actifs (jusqu’à 40 utilisateurs à la fois). La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
 
 Pour obtenir des instructions détaillées, voir [Attribuer des licences aux utilisateurs.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
-Si vous devez attribuer des licences à un grand nombre d’utilisateurs(par exemple, des centaines ou des milliers d’utilisateurs), utilisez PowerShell ou des licences basées sur les groupes [dans Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
+Si vous devez attribuer des licences à un grand nombre d’utilisateurs (par exemple, des centaines ou des milliers d’utilisateurs), utilisez PowerShell ou des licences basées sur des groupes [dans Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -138,7 +138,7 @@ Pour en savoir plus, consultez Afficher les licences et services avec [PowerShel
 | Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 Business Basic | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 Business Standard | O365_BUSINESS_PREMIUM|
-| Microsoft 365 Business | SPB|
+| Microsoft 365 Business | SPB|
 | Microsoft Business Voice (Canada)| BUSINESS_VOICE_MED  |
 | Microsoft Business Voice (Royaume-Uni) | BUSINESS_VOICE  |
 | Microsoft Business Voice (États-Unis) | BUSINESS_VOICE_MED2  |
@@ -153,10 +153,10 @@ Pour en savoir plus, consultez Afficher les licences et services avec [PowerShel
 | Forfait d’appels nationaux (240 minutes par utilisateur/mois pour chaque pays) </br>*Cette offre n’est pas disponible aux États-Unis.* | MCOPSTN6 |
 | Crédits de communication | MCOPSTNPP |
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Licences de module complémentaire Teams](./microsoft-teams-add-on-licensing.md)
-- [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)
+- [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)
 - [Afficher les licences et services avec PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [Noms de produits et identificateurs de plans de service pour la gestion des licences](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Référence SKU pour l’éducation](../sku-reference-edu.md)

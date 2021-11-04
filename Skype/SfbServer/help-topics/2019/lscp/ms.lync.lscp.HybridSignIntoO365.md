@@ -1,7 +1,7 @@
 ---
 title: Assistant hybride Connectez-vous Microsoft 365 ou Office 365
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -19,12 +19,12 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez l Skype Entreprise Server de gestion hybride hybride pour vous aider à configurer votre environnement hybride avec Skype Entreprise Online.
-ms.openlocfilehash: fa7299fc612974e5f1f79e815284d68403527b49
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 545cdd86397c5f8b358d87f2aef279fc11796e0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609731"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742750"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Assistant hybride : connectez-vous Microsoft 365 ou Office 365
 

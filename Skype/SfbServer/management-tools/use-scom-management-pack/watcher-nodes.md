@@ -1,7 +1,7 @@
 ---
 title: Comment installer et configurer des nodes d’observation
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/20/2015
@@ -13,19 +13,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: Découvrez comment installer et configurer des nodes d’observation pour Skype Entreprise Server transactions synthétiques.
-ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Découvrez comment installer et configurer des nodes d’Skype Entreprise Server transactions synthétiques.
+ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637009"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766212"
 ---
-# <a name="learn-how-to-install-and-configure-watcher-nodes"></a>Découvrez comment installer et configurer des nodes d’observation
+# <a name="how-to-install-and-configure-watcher-nodes"></a>Comment installer et configurer des nodes d’observation
  
 **Résumé :** Installez et configurez des nodes d’Skype Entreprise Server pour les transactions synthétiques.
   
-Les nodes watcher sont des ordinateurs qui exécutent régulièrement Skype Entreprise Server transactions synthétiques. Les transactions synthétiques Windows PowerShell cmdlets qui vérifient que les scénarios utilisateur clés, tels que la possibilité de se connecter ou d’échanger des messages instantanés, fonctionnent comme prévu. Pour Skype Entreprise Server 2015, System Center Operations Manager peut exécuter les transactions synthétiques indiquées dans le tableau suivant, qui inclut trois types de transaction synthétique :
+Les nodes watcher sont des ordinateurs qui exécutent régulièrement Skype Entreprise Server transactions synthétiques. Les transactions synthétiques sont Windows PowerShell cmdlets qui vérifient que les scénarios utilisateur clés, tels que la possibilité de se connecter ou d’échanger des messages instantanés, fonctionnent comme prévu. Pour Skype Entreprise Server 2015, System Center Operations Manager peut exécuter les transactions synthétiques indiquées dans le tableau suivant, qui inclut trois types de transaction synthétique :
   
 - **Valeur par défaut** Transactions synthétiques qu’un nœud d’observation exécute par défaut. Lorsque vous créez un nœud d’observation, vous pouvez spécifier les transactions synthétiques qui s’exécuteront. (C’est l’objectif du paramètre Tests utilisé par l'New-CsWatcherNodeConfiguration cmdlet.) Si vous n’utilisez pas le paramètre Tests lors de la création du nœud observeur, il exécute automatiquement toutes les transactions synthétiques par défaut et n’exécute aucune des transactions synthétiques non par défaut. Cela signifie, par exemple, que le nœud de l'Test-CsAddressBookService sera configuré pour exécuter le test Test-CsAddressBookService, mais pas pour exécuter le test Test-CsExumConnectivity test.
     
@@ -62,7 +62,7 @@ Parmi les transactions synthétiques accessibles aux nœuds observateur, citons 
 |Test-CsUnifiedContactStore (UnifiedContactStore)  <br/> |Confirme que les contacts d’un utilisateur sont accessibles via le magasin de contacts unifié. Le magasin de contacts unifié permet aux utilisateurs de gérer un ensemble unique de contacts accessibles à l’aide de Skype Entreprise Server 2015, du client de messagerie et de collaboration Outlook et/ou de Outlook Web Access.  <br/> |
 |Test-CsXmppIM (XmppIM)  <br/> |Confirme qu’un message instantané peut être envoyé sur la passerelle XMPP (Extensible Messaging and Presence Protocol).  <br/> Les passerelles et les proxies XMPP sont disponibles dans Skype Entreprise Server 2015, mais ne sont plus pris en charge dans Skype Entreprise Server 2019.  |
 
-Vous n’avez pas besoin d’installer des nodes d’observation pour utiliser System Center Operations Manager. Si vous n’installez pas ces derniers, vous pouvez toujours obtenir des alertes en temps réel à partir de Skype Entreprise Server 2015 chaque fois qu’un problème se produit. (Le pack d’administration des composants et des utilisateurs n’utilise pas de nodes d’observation.) Toutefois, les nodes observateurs sont requis si vous souhaitez surveiller des scénarios de bout en bout à l’aide du pack d’administration Active Monitoring.
+Vous n’avez pas besoin d’installer des nodes d’observation pour utiliser System Center Operations Manager. Si vous n’installez pas ces derniers, vous pouvez toujours obtenir des alertes en temps réel à partir de Skype Entreprise Server 2015 chaque fois qu’un problème se produit. (Le pack d’administration des composants et des utilisateurs n’utilise pas de nodes d’observation.) Toutefois, les nodes observateurs sont requis si vous souhaitez surveiller les scénarios de bout en bout à l’aide du pack d’administration Active Monitoring.
   
 > [!NOTE]
 > Les administrateurs peuvent également exécuter des transactions synthétiques manuellement, sans utiliser ou installer Operations Manager. Selon la taille de votre déploiement Skype Entreprise Server, les transactions synthétiques peuvent utiliser une grande quantité de mémoire ordinateur et de temps processeur. Pour cette raison, nous vous recommandons d’utiliser un ordinateur dédié comme nœud d’observation. Par exemple, vous ne devez pas configurer un serveur Skype Entreprise Server frontal pour qu’il agisse en tant que nœud d’observation. Les nodes de l’observeur doivent respecter la même configuration matérielle de base que tout autre ordinateur de votre topologie Skype Entreprise Server de base. 
@@ -74,7 +74,7 @@ Les serveurs d’observation Lync Server 2013 peuvent être déployés à l’in
   
 - Connectivité aux pools pour les utilisateurs au sein de l’entreprise
     
-- Connectivité via les réseaux de périmètre pour les utilisateurs distants travaillant en dehors de l’entreprise.
+- Connectivité via des réseaux de périmètre pour les utilisateurs distants travaillant en dehors de l’entreprise.
     
 - Connectivité aux Branch Office Appliances
     
@@ -98,7 +98,7 @@ Une fois que les conditions préalables sont remplies, vous pouvez configurer le
   
 1. Installez les Skype Entreprise Server 2015 principaux sur l’ordinateur du nœud de l’observeur.
     
-2. Installez System Center’agent Operations Manager sur l’ordinateur du nœud de l’observeur.
+2. Installez System Center’agent Operations Manager sur l’ordinateur du nœud observeur.
     
 3. Exécutez le Watchernode.msi exécutable.
     
@@ -112,7 +112,7 @@ Pour installer les fichiers Skype Entreprise Server 2015 et la base de données 
   
 1. Sur l’ordinateur nœud observateur, cliquez sur Démarrer, sur Tous les programmes, sur Accessoires, cliquez avec le bouton droit sur Invite de commandes, puis cliquez sur Exécuter en tant qu’administrateur.
     
-2. Dans la fenêtre de console, tapez la commande suivante et appuyez sur Entrée. N’oubliez pas d’entrer le chemin d’accès approprié à vos fichiers d’installation Skype Entreprise Server : D:\Setup.exe /BootstrapLocalMgmtTo verify that the core Skype Entreprise Server components are successfully installed, click **Start**, click **All Programs**, click **Skype Entreprise Server 2015**, and then click **Skype Entreprise Server Management Shell**. Dans l’Skype Entreprise Server Management Shell, tapez la commande Windows PowerShell suivante et appuyez sur Entrée :
+2. Dans la fenêtre de console, tapez la commande suivante et appuyez sur Entrée. N’oubliez pas d’entrer le chemin d’accès approprié à vos fichiers d’installation Skype Entreprise Server : D:\Setup.exe /BootstrapLocalMgmtTo vérifier que les composants de Skype Entreprise Server principaux sont correctement installés, cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise Server 2015** et puis cliquez **sur Skype Entreprise Server Management Shell.** Dans l’Skype Entreprise Server Management Shell, tapez la commande Windows PowerShell commande suivante et appuyez sur Entrée :
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -123,7 +123,7 @@ Get-CsWatcherNodeConfiguration
   
 Si votre ordinateur de nœud observeur se trouve à l’intérieur de votre réseau de périmètre, vous pouvez exécuter la commande suivante pour vérifier l’installation de Skype Entreprise Server 2015 :
   
-Get-CsPinPolicyYou recevrez des informations semblables à ceci, selon le nombre de stratégies de code confidentiel configurées pour être utilisés dans votre organisation :
+Get-CsPinPolicyYou recevrez des informations similaires, selon le nombre de stratégies de code confidentiel configurées pour être utilisés dans votre organisation :
   
 Identité : global
   
@@ -141,11 +141,11 @@ MaximumLogonAttempts :
   
 Si vous voyez des informations sur vos stratégies de code confidentiel, les composants principaux ont été correctement installés.
   
-## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>Installer les fichiers de l’agent Operation Manager sur un nœud de l’watcher
+## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>Installer les fichiers de l’agent Operation Manager sur un nœud de l’observeur
 
-À l’Skype Entreprise Server pour la signalement des alertes de composant, un nœud Skype Entreprise Server 2015 requiert l’installation System Center’agent Operations Manager. Cela permet d’exécuter les transactions synthétiques et de faire état d’alertes au serveur d’administration racine System Center Operations Manager.
+À l’Skype Entreprise Server de rapports d’alertes de composant, un nœud Skype Entreprise Server 2015 requiert l’installation System Center’agent Operations Manager. Cela permet d’exécuter les transactions synthétiques et de faire état d’alertes au serveur d’administration racine System Center Operations Manager.
   
-Pour installer les fichiers d’agent, suivez les procédures répertoriées dans Configurer les Skype Entreprise Server [qui seront surveillés.](configure-computers-to-monitor.md)
+Pour installer les fichiers de l’agent, suivez les procédures répertoriées dans [Configure the Skype Entreprise Server ordinateurs qui seront surveillés.](configure-computers-to-monitor.md)
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>Configurer un nœud watcher pour exécuter des transactions synthétiques
 <a name="enable_synthetic_trans"> </a>
@@ -156,7 +156,7 @@ Lorsque vous configurez un nœud observateur, vous devez également choisir le t
   
 |&nbsp;|**Description**|**Emplacements pris en charge**|
 |:-----|:-----|:-----|
-|TrustedServer  <br/> |Utilise un certificat pour emprunter l’identité d’un serveur interne et contourner les demandes d’authentification.  <br/> Utile pour les administrateurs qui préfèrent gérer un certificat unique, au lieu de nombreux mots de passe utilisateur sur chaque nœud de l’observation.  <br/> |Au sein de l’entreprise.  <br/> Avec cette méthode, le nœud observateur doit se trouver dans le même domaine que les pools surveillés. Si le nœud de l’observation et les pools sont dans des domaines différents, utilisez plutôt l’authentification des informations d’identification.  <br/> |
+|TrustedServer  <br/> |Utilise un certificat pour emprunter l’identité d’un serveur interne et contourner les demandes d’authentification.  <br/> Utile pour les administrateurs qui préfèrent gérer un certificat unique, au lieu de nombreux mots de passe utilisateur sur chaque nœud de l’utilisateur.  <br/> |Au sein de l’entreprise.  <br/> Avec cette méthode, le nœud observateur doit se trouver dans le même domaine que les pools surveillés. Si le nœud de l’observation et les pools sont dans des domaines différents, utilisez plutôt l’authentification des informations d’identification.  <br/> |
 |Négocier  <br/> |Stocke les noms d’utilisateur et mots de passe de manière sécurisée dans le Gestionnaire d’informations d’identification Windows sur chaque nœud observateur.  <br/> Ce mode nécessite davantage de gestion des mots de passe, mais il s’agit de la seule option pour les nodes observeur en dehors de l’entreprise. Ces nœuds observateurs ne peuvent pas être traités comme un point de terminaison approuvé pour l’authentification.  <br/> |En dehors de l’entreprise.  <br/> Au sein de l’entreprise.  <br/> |
    
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>Configurer un nœud watcher pour utiliser l’authentification de serveur approuvé
@@ -182,7 +182,7 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
-Après avoir créé le pool d’applications fiables, vous pouvez configurer l’ordinateur du nœud observeur pour qu’il exécute des transactions synthétiques en tant qu’application de confiance à l’aide de l';cmdlet **New-CsTrustedApplication** et d’une commande semblable à celle-ci :
+Après avoir créé le pool d’applications de confiance, vous pouvez configurer l’ordinateur du nœud observeur pour qu’il exécute des transactions synthétiques en tant qu’application de confiance à l’aide de l’cmdlet **New-CsTrustedApplication** et d’une commande semblable à celle-ci :
   
 ```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
@@ -202,7 +202,7 @@ Pour vérifier que la nouvelle application de confiance a été créée, tapez c
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
-## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurer un certificat par défaut sur le nœud de l’watcher
+## <a name="configure-a-default-certificate-on-the-watcher-node"></a>Configurer un certificat par défaut sur le nœud de l’observation
 <a name="enable_synthetic_trans"> </a>
 
 Chaque nœud observateur qui utilise l’authentification TrustedServer doit avoir un certificat par défaut affecté à l’aide de l Skype Entreprise Server De déploiement. 
@@ -211,7 +211,7 @@ Pour affecter un certificat par défaut :
   
 1. Cliquez sur Démarrer, sur Tous les programmes, Skype Entreprise Server 2015, puis sur Skype Entreprise Server Déploiement. 
     
-2. Dans l’Assistant Skype Entreprise Server Déploiement, cliquez sur Installer ou mettre à jour Skype Entreprise Server System, puis cliquez sur Exécuter sous le titre Demander, installer ou attribuer un certificat. 
+2. Dans l’Assistant Skype Entreprise Server Déploiement, cliquez sur Installer ou mettre à jour Skype Entreprise Server système, puis cliquez sur Exécuter sous le titre Demander, installer ou attribuer un certificat. 
     
 > [!NOTE]
 > Si le bouton Exécuter est désactivé, vous devrez peut-être d’abord cliquer sur Exécuter sous Installer le magasin de configurations local. 

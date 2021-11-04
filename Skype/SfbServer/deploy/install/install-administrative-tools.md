@@ -1,7 +1,7 @@
 ---
 title: Installer les outils d’administration dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
-description: "Résumé : Découvrez comment installer les outils d’administration requis pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 346022633f4c15d2e1601fddbca174f5b0e6f67d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: "Résumé : Découvrez comment installer les outils d’administration requis pour une installation de Skype Entreprise Server. Téléchargez une version d’Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
+ms.openlocfilehash: d2f80627aceee47559a06ab604e1cc8827d310b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726293"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753247"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Installer les outils d’administration dans Skype Entreprise Server
  
-**Résumé :** Découvrez comment installer les outils d’administration requis pour une installation de Skype Entreprise Server. Téléchargez une version d’évaluation Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) l':.
+**Résumé :** Découvrez comment installer les outils d’administration requis pour une installation de Skype Entreprise Server. Téléchargez une version d’Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) l':.
   
 Les outils d’administration incluent le Générateur de topologie et le Panneau de contrôle. Les outils d’administration doivent être installés sur au moins un serveur de la topologie ou sur une station de travail de gestion 64 bits exécutant une version du système d’exploitation Windows prise en charge pour Skype Entreprise Server. Vous pouvez suivre les étapes 1 à 5 dans n’importe quel ordre. Toutefois, vous devez suivre les étapes 6, 7 et 8 dans l’ordre et après les étapes 1 à 5, comme indiqué dans le diagramme. L’installation des outils d’administration est l’étape 3 sur 8.
   
@@ -49,7 +49,7 @@ Regardez les étapes vidéo pour **installer les outils d’administration**:
     
 2. Le support d’installation nécessite Microsoft Visual C++'exécuter. Une boîte de dialogue apparaît pour vous demander si vous souhaitez l’installer. Cliquez sur **Oui**.
     
-3. À l’aide du programme d’installation intelligente, une nouvelle fonctionnalité de Skype Entreprise Server, vous pouvez vous connecter à Internet pour vérifier les mises à jour au cours du processus d’installation. Cela permet d’améliorer l’expérience en vous assurez que vous disposez des mises à jour les plus récentes du produit lors de l’installation. Cliquez sur **Installer** pour commencer l’installation.
+3. À l’aide de Smart Setup, une nouvelle fonctionnalité de Skype Entreprise Server, vous pouvez vous connecter à Internet pour vérifier les mises à jour au cours du processus d’installation. Cela permet d’améliorer l’expérience en vous assurez que vous disposez des mises à jour les plus récentes du produit lors de l’installation. Cliquez sur **Installer** pour commencer l’installation.
     
 4. Examinez attentivement le contrat de licence et, si vous acceptez, sélectionnez **J’accepte** les termes du contrat de licence, puis cliquez sur **OK**.
     

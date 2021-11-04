@@ -1,7 +1,7 @@
 ---
 title: Outil de planification de l’audioconférence
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype Entreprise Server conférence audio/vidéo (A/V) 2015 permet aux utilisateurs de participer à des conférences audio ou vidéo en temps réel.
-ms.openlocfilehash: 7fb68bc9ca4bca4dc8f17da1b425233e7417481d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 95f364af5bbbb9bd23f7881003420c9ab051dc75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615640"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766302"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Outil de planification de l’audioconférence
  
@@ -27,6 +27,6 @@ Skype Entreprise Server conférence audio/vidéo (A/V) 2015 permet aux utilisate
   
 Pour plus d’informations sur la planification de l’activation de la conférence A/V dans votre organisation, consultez la rubrique suivante et ses sous-rubriques : 
   
-- [Planifier la conférence dans Skype Entreprise Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
+- [Planifier les conférences dans Skype Entreprise Server 2015](../../plan-your-deployment/conferencing/conferencing.md)
     
 

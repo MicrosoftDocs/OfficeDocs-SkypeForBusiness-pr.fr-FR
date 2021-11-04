@@ -1,7 +1,7 @@
 ---
 title: Configurer la base de données d’emplacements dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurez, remplissez et publiez la base de données d’emplacements E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 0eb2fd8e09c09688cf8c8282b35328ca7eb1761b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 759dffbaf5f9370b2604534e2868cdd87933d1ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597738"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748910"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurer la base de données d’emplacements dans Skype Entreprise Server
  
@@ -120,7 +120,7 @@ Si vous utilisez une passerelle ELIN, incluez-la dans le champ **CompanyName** p
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>Pour valider des adresses situées dans la base de données des emplacements
 
-1.  Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1.  Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 2. Exécutez les applets de commande suivantes pour configurer la connexion du fournisseur de service d’urgence.
     
@@ -145,7 +145,7 @@ Si vous utilisez des passerelles ELIN (Emergency Location Identification Number)
   
 ### <a name="to-publish-the-location-database"></a>Pour publier la base de données d’emplacements
 
--  Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+-  Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 - Exécutez l’cmdlet suivante pour publier la base de données d’emplacements.
     

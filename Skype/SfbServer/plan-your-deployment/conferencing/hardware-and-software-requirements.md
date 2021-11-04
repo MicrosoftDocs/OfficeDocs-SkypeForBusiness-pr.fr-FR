@@ -1,7 +1,7 @@
 ---
 title: Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server.'
-ms.openlocfilehash: 5209b024ae3e5f5161e7ff777c30b66c3237b3c3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 16f5d44258474657e901933cdbf9bb66c178b5e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013378"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754471"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server
 
 **Résumé :** Lisez cette rubrique pour en savoir plus sur la configuration matérielle et logicielle requise pour les conférences dans Skype Entreprise Server.
 
-Cette section décrit la configuration matérielle et logicielle requise pour les conférences web, les conférences audio et vidéo (A/V), les conférences d’appels et les conférences par messagerie instantanée. Toutes les fonctionnalités de conférence s’exécutent sur les serveurs frontux ; il existe des exigences supplémentaires pour différents types de conférences, comme illustré dans le diagramme suivant.
+Cette section décrit la configuration matérielle et logicielle requise pour les conférences web, les conférences audio et vidéo (A/V), les conférences téléphoniques et les conférences par messagerie instantanée. Toutes les fonctionnalités de conférence s’exécutent sur les serveurs frontux ; il existe des exigences supplémentaires pour différents types de conférences, comme illustré dans le diagramme suivant.
 
 Par exemple, si vous souhaitez autoriser les conférences téléphoniques, vous devez déployer un serveur de médiation et une passerelle pour la connexion au réseau téléphonique commuté (PSTN). Si vous souhaitez autoriser la conférence web, vous devez vous assurer que les Skype Entreprise Server peuvent se connecter à Office Web Apps Server. Si vous souhaitez autoriser les utilisateurs externes à participer à des conférences, vous devez déployer un serveur Edge.
 
@@ -35,7 +35,7 @@ Par exemple, si vous souhaitez autoriser les conférences téléphoniques, vous 
 
 ## <a name="hardware-and-software-requirements-for-front-end-servers"></a>Configuration matérielle et logicielle requise pour les serveurs frontux
 
-Étant donné que les conférences web, les conférences A/V, les conférences téléphoniques et les conférences par messagerie instantanée sont toutes cingliquées avec le serveur frontal, la configuration matérielle et logicielle requise pour le serveur est la même que pour les serveurs frontux. Pour plus d’informations sur ces exigences, voir Server [requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype Entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Étant donné que la conférence web, la conférence A/V, la conférence d’accès et la conférence par messagerie instantanée sont toutes cingliquées avec le serveur frontal, la configuration matérielle et logicielle requise pour le serveur est la même que pour les serveurs frontux. Pour plus d’informations sur ces exigences, voir Server [requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Environmental requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype Entreprise Server 2019](../../../SfBServer2019/plan/system-requirements.md).
 
 ## <a name="requirements-for-web-conferencing"></a>Conditions requises pour les conférences web
 
@@ -103,11 +103,11 @@ Vous devez installer les composants de Skype Entreprise Server suivants avant de
 
 Pour les conférences téléphoniques, le service d’application, application Assistant de conférence et application Annonce de conférence ont les mêmes exigences de système d’exploitation que les serveurs frontux. Pour plus d’informations, [voir Server requirements for Skype Entreprise Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
-application Assistant de conférence et application Annonce de conférence que le Windows format multimédia soit installé sur les serveurs frontaux. Windows Media Format Runtime est nécessaire pour lire Windows fichiers audio multimédias (WMA) utilisés pour l’attente musicale, les noms enregistrés et les invites. Si vous installez sur Windows Server 2012 ou Windows Server 2012 R2 (ce que nous vous recommandons), vous devez installer Microsoft Media Foundation pour obtenir Windows format multimédia runtime. Si vous installez sur une version d’Windows Server antérieure à Windows 2012, vous devez vous assurer que l’expérience utilisateur Windows est installée pour obtenir Windows Media Format Runtime.
+application Assistant de conférence et application Annonce de conférence que le Windows format multimédia soit installé sur les serveurs frontaux. Windows Media Format Runtime est nécessaire pour lire Windows fichiers audio multimédias (WMA) utilisés pour l’attente musicale, les noms enregistrés et les invites. Si vous installez sur Windows Server 2012 ou Windows Server 2012 R2 (ce que nous vous recommandons), vous devez installer Microsoft Media Foundation pour obtenir Windows format multimédia runtime. Si vous installez sur une version de Windows Server antérieure à Windows 2012, vous devez vous assurer que l’expérience expérience utilisateur Windows est installée pour obtenir le runtime du format Windows Média.
 
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>Conditions requises pour les fichiers audio pour les conférences téléphoniques
 
-Skype Entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences téléphoniques. Toutefois, si vous avez un besoin métier fort qui nécessite de modifier les fichiers audio par défaut, consultez l’article de la Base de connaissances Microsoft 961177, Comment personnaliser les invites vocales ou les fichiers de musique pour les conférences [audio rendez-vous](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
+Skype Entreprise Server ne prend pas en charge la personnalisation des invites vocales et de la musique pour les conférences téléphoniques. Toutefois, si vous avez un besoin métier fort qui nécessite de modifier les fichiers audio par défaut, consultez l’article de la Base de connaissances Microsoft 961177, comment personnaliser les [invites vocales](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)ou les fichiers de musique pour l’audioconférence rendez-vous.
 
 application Assistant de conférence et application Annonce de conférence les conditions suivantes pour les fichiers d’attente musicale, de nom enregistré et d’invite audio :
 
@@ -127,7 +127,7 @@ Les utilisateurs de la conférence rendez-vous doivent avoir un numéro de tél�
 
 Pour utiliser les fonctionnalités de conférence, Skype Entreprise Server certains ports doivent être ouverts. Le tableau suivant répertorie les ports requis pour les conférences. Pour plus d’informations sur toutes les conditions requises pour les ports, voir [Port et protocole requis pour les serveurs.](../../plan-your-deployment/network-requirements/ports-and-protocols.md)
 
-**Ports serveur requis**
+**Ports de serveur requis**
 
 
 |**Rôle serveur**|**Nom du service**|**Port**|**Protocole**|**Notes**|

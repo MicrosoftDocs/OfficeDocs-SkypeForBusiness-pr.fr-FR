@@ -1,6 +1,6 @@
 ---
 title: Utiliser Config.xml pour effectuer des tâches d’installation dans Skype Entreprise clients
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Résumé : Comment utiliser le fichier Config.xml pour spécifier des instructions d’installation supplémentaires.'
-ms.openlocfilehash: f79dcc1d31fdd862ca8705552d7894dcdd90fcd7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 76bf5980f7ced3c2e92f53ade8a51eaf3835054d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620490"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742940"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Utiliser Config.xml pour effectuer des tâches d’installation dans Skype Entreprise clients
 
@@ -52,9 +52,9 @@ Les Config.xml les plus couramment utilisés pour Skype Entreprise’installatio
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuration  <br/>     | Élément de niveau supérieur (obligatoire). Contient l’attribut Product, par exemple : Product=Lync (cela fonctionne pour Skype Entreprise clients)  <br/>                                                                                                                                                          |
 | OptionState  <br/>       | Spécifie la façon dont des fonctionnalités de produits spécifiques sont gérées pendant l’installation. Utilisez les attributs suivants pour empêcher l’installation de Services Business Connectivity, qui inclut des composants partagés qui interfèrent avec les Outlook : <br/>  Id="LOBiMain » <br/>  State="Absent » <br/>  Children="Force » <br/> |
-| Afficher  <br/>           | Niveau d’interface utilisateur affiché pour l’utilisateur par le programme d’installation. Les attributs type sont les suivants : <br/>  CompletionNotice="Yes »                                                                                                                                                                                |
+| Affichage  <br/>           | Niveau d’interface utilisateur affiché pour l’utilisateur par le programme d’installation. Les attributs type sont les suivants : <br/>  CompletionNotice="Yes »                                                                                                                                                                                |
 | Logging  <br/>           | Options déterminant le type de journalisation mis en œuvre par le programme d’installation. Les attributs types sont les suivants : <br/>  Type ="Off »                                                                                                                                                                                       |
-| Paramètre  <br/>           | Spécifie les valeurs des propriétés de Windows Installer. Les attributs type sont les suivants :<br/>  Setting Id= » *name*" (nom de la propriété Windows Installer)  <br/>  Value= » *value*" (valeur à affecter à la propriété)  <br/>                                                             |
+| Setting  <br/>           | Spécifie les valeurs des propriétés de Windows Installer. Les attributs type sont les suivants :<br/>  Setting Id= » *name*" (nom de la propriété Windows Installer)  <br/>  Value= » *value*" (valeur à affecter à la propriété)  <br/>                                                             |
 | DistributionPoint  <br/> | Chemin d’accès complet du point d’installation réseau à partir duquel l’installation doit s’exécuter. Comprend l’attribut Location :<br/>  Location= » *path*»  <br/>                                                                                                                                     |
 
 L’exemple suivant montre un fichier Config.xml pour une installation silencieuse classique du client Skype Entreprise client. 

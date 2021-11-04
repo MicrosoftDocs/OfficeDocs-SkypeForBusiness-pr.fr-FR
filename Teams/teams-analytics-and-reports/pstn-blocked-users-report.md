@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Rapport sur le blocage d’utilisateurs PSTN
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Utilisez le rapport sur le blocage d’utilisateurs PSTN dans le Ce
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1f703c672859c68d79a56af754dc087f68407c1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef39298142b2cf3fcf16f1acaeba9c3a62e606e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733093"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742980"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams Rapport sur le blocage d’utilisateurs PSTN
 

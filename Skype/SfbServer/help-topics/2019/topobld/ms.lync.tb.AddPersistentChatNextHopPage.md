@@ -1,7 +1,7 @@
 ---
 title: Page Ajouter un tronçon suivant de la conversation permanente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez cette page pour définir le saut suivant à partir du serveur de conversation permanente dans votre déploiement. Pour plus d’informations sur le déploiement d’un serveur de conversation permanente, voir Deploy Persistent Chat Server in Skype Entreprise Server 2015.
-ms.openlocfilehash: e4335a156c0e46ae6298423aa179810d1b0fc134
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 155601d5db39703fb233ecfb90dbdf10a01e0f2e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631828"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759956"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>Page Ajouter un tronçon suivant de la conversation permanente
 

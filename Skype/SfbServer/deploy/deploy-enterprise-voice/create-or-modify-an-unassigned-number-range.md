@@ -1,7 +1,7 @@
 ---
 title: Créer ou modifier une plage de numéro non Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Créez, modifiez ou supprimez des plages de numéro non Skype Entreprise Server Voix Entreprise. Cela affecte la façon dont les appels vers des numéros non affectés sont gérés.
-ms.openlocfilehash: eb20f43729c29911cb9f45888564c8ab5a0ac739
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad3193994d41d26546da36614baee64c2298cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620240"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753751"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Créer ou modifier une plage de numéro non Skype Entreprise Server
  
@@ -29,7 +29,7 @@ Créez, modifiez ou supprimez des plages de numéro non Skype Entreprise Server 
   
 Skype Entreprise Server vous permet de dire ce qu’il advient des appels entrants vers des numéros de téléphone valides pour votre organisation, mais qui ne sont pas attribués à un utilisateur ou à un téléphone. Pour gérer ces appels, vous devez configurer une table des chiffres non gérés. Vous pouvez utiliser le tableau pour router les appels vers une application d’annonce ou vers Exchange serveur de messagerie un peu plus rapide.
   
-La manière dont vous configurez la table des numéros non attribués dépend de la façon dont vous comptez l’utiliser. Vous pouvez configurer la table avec toutes les numéros de poste valides de votre organisation, avec uniquement les numéros de poste non attribués ou avec une combinaison des deux types de numéros. La table des numéros non attribués peut comporter des numéros attribués et des numéros non attribués, mais elle appelée uniquement lorsqu’un appelant compose un numéro qui n’est pas attribué. Si vous intégrez tous les numéros de poste valides dans la table des numéros non attribués, vous pouvez spécifier la réponse si une personne quitte l’organisation, sans avoir à reconfigurer la table. Si vous incluez des extensions non signées dans le tableau, vous pouvez modifier l’action qui se produit pour des numéros spécifiques. Par exemple, si vous modifiez le poste de votre service clientèle, vous pouvez inclure l’ancien numéro de service client dans la table, puis l’affecter à une annonce qui fournit le nouveau numéro.
+La manière dont vous configurez la table des numéros non attribués dépend de la façon dont vous comptez l’utiliser. Vous pouvez configurer la table avec toutes les numéros de poste valides de votre organisation, avec uniquement les numéros de poste non attribués ou avec une combinaison des deux types de numéros. La table des numéros non attribués peut comporter des numéros attribués et des numéros non attribués, mais elle appelée uniquement lorsqu’un appelant compose un numéro qui n’est pas attribué. Si vous intégrez tous les numéros de poste valides dans la table des numéros non attribués, vous pouvez spécifier la réponse si une personne quitte l’organisation, sans avoir à reconfigurer la table. Si vous incluez des extensions non signées dans le tableau, vous pouvez modifier l’action qui se produit pour des numéros spécifiques. Par exemple, si vous modifiez le poste de votre service clientèle, vous pouvez inclure l’ancien numéro de service clientèle dans la table, puis l’affecter à une annonce qui fournit le nouveau numéro.
   
 ## <a name="configure-unassigned-phone-numbers"></a>Configurer des numéros de téléphone non assignés
 
@@ -85,7 +85,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de numéro
 10. Dans la page **Numéro non attribué**, vérifiez que les plages de numéros non attribués apparaissent dans l’ordre voulu. Pour déplacer une plage dans la table, cliquez sur un ou plusieurs noms consécutifs dans la liste de plages, puis cliquez sur la flèche vers le haut ou vers le bas.
     
     > [!TIP]
-    > Skype Entreprise Server recherche de haut en bas dans la table des chiffres non signés et utilise la première plage qui correspond au numéro non assigné. Si des plages se chevauchent et qu’une plage spécifie une action de dernier recours, vérifiez qu’elle se trouve en bas de la liste. 
+    > Skype Entreprise Server recherche de haut en bas la table des nombres non assignés et utilise la première plage qui correspond au numéro non assigné. Si des plages se chevauchent et qu’une plage spécifie une action de dernier recours, vérifiez qu’elle se trouve en bas de la liste. 
   
 11. Une fois que vous disposez des plages de numéros non attribués dans l’ordre souhaité, cliquez sur **Valider tout**.
     
@@ -114,7 +114,7 @@ Utilisez l’une des procédures suivantes pour configurer des plages de numéro
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
      ```
 
-     Par exemple :
+     Par exemple :
     
      ```powershell
      New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com

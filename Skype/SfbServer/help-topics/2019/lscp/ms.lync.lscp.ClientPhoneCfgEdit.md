@@ -1,7 +1,7 @@
 ---
-title: 'Configuration de l’appareil : création d’une configuration ou modification d’un périphérique existant'
+title: 'Configuration de l’appareil : création d’un périphérique ou modification d’une configuration existante'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la page Nouvelle configuration d’appareil ou Modifier la configuration de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Téléphone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 472076f3241158571467bc7093c609eded17c199
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80063cf2a369b5b6322cc87cc54489ebcd87ea9b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600579"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742790"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuration de l’appareil : création d’une nouvelle ou modification d’une configuration existante
  
@@ -44,7 +44,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
     
 - **Sécurité SIP** Vous pouvez configurer les exigences de transport et d’authentification pour les Skype Entreprise Téléphone Édition. Vous pouvez sélectionner l’une des options suivantes :
     
-  - **Faible** Autoriser tout type d’autorisation ou de transport.
+  - **Faible** Autorisez tout type d’autorisation ou de transport.
     
   - **Moyen** NTLM ou Kerberos est requis pour l’authentification des utilisateurs.
     
@@ -54,13 +54,13 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
     
 - **Qualité de service vocale (QoS)** Vous pouvez spécifier la valeur DSCP affectée au trafic vocal provenant d’un Skype Entreprise Téléphone Edition. La valeur par défaut est 40. Toutefois, 40 n’est pas la valeur généralement utilisée pour le trafic audio ; au lieu de cela, le trafic audio est presque toujours marqué avec le code DSCP 46. Afin de maintenir la cohérence dans l’ensemble de votre réseau, vous pouvez modifier cette valeur sur 46.
     
-- **Téléphone verrouillage** Vous pouvez spécifier si les téléphones UC se verrouilleront automatiquement après une période d’inactivité spécifiée. Les paramètres que vous pouvez configurer sont les suivants :
+- **Téléphone verrouillage** Vous pouvez spécifier si les téléphones UC se verrouilleront automatiquement après une période d’inactivité spécifiée. Voici les paramètres que vous pouvez configurer :
     
   - **Appliquer le verrouillage de l’appareil** Vous pouvez appliquer le verrouillage de l’appareil en cocher cette case.
     
   - **Longueur minimale du code confidentiel** Vous pouvez spécifier la longueur minimale du code confidentiel utilisé pour déverrouiller le téléphone. Ce code peut être constitué de quatre à quinze chiffres. La longueur par défaut est six chiffres.
     
-  - **Téléphone délai d’Téléphone verrouillage** Vous pouvez spécifier la durée minimale avant que le téléphone ne se verrouille lui-même. Ce délai est compris entre 0 et 60 minutes ; la valeur par défaut est 10 minutes. Le format de cette valeur est HH:MM:SS.
+  - **Téléphone délai d’Téléphone verrouillage** Vous pouvez spécifier la durée minimale avant le verrouillage du téléphone proprement dit. Ce délai est compris entre 0 et 60 minutes ; la valeur par défaut est 10 minutes. Le format de cette valeur est HH:MM:SS.
     
 ## <a name="see-also"></a>Voir aussi
 

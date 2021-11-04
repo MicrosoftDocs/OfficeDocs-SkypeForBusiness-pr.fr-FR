@@ -1,7 +1,7 @@
 ---
 title: Configurer des scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Résumé : Découvrez comment créer, modifier et supprimer des scénarios pour le service de journalisation centralisée Skype Entreprise Server 2015.'
-ms.openlocfilehash: b4dea0146cfb80d8f28a102d4cf719a28b7bb188
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: da9a3c431be78a3abeab929fab86f1bf45e6cfa7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619710"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766342"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurer des scénarios pour le service de journalisation centralisée dans Skype Entreprise Server 2015
  
@@ -42,7 +42,7 @@ Par exemple :
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-Le reste de cette rubrique met l’accent sur la définition d’un scénario, la modification d’un scénario, la récupération des scénarios en cours d’exécution, la suppression d’un scénario et la spécification du contenu d’un scénario afin d’optimiser votre dépannage. Vous pouvez utiliser l’environnement de Skype Entreprise Server Management Shell pour émettre Windows PowerShell commandes. Lorsque vous utilisez Windows PowerShell, vous pouvez définir de nouveaux scénarios à utiliser dans vos sessions de journalisation.
+Le reste de cette rubrique met l’accent sur la définition d’un scénario, la modification d’un scénario, la récupération des scénarios en cours d’exécution, la suppression d’un scénario et la spécification du contenu d’un scénario afin d’optimiser votre dépannage. Vous pouvez utiliser l’environnement Skype Entreprise Server Management Shell pour émettre Windows PowerShell commandes. Lorsque vous utilisez Windows PowerShell, vous pouvez définir de nouveaux scénarios à utiliser dans vos sessions de journalisation.
   
 Comme introduit dans le service de journalisation centralisée [Skype Entreprise 2015,](centralized-logging-service.md)les éléments d’un scénario sont les suivants :
   
@@ -219,7 +219,7 @@ L’applet de commande **Remove-CsClsScenario** supprime le scénario spécifié
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
    ```
 
-    -Loglevel peut être du type Fatal, Error, Warning, Info, Verbose, Debug ou All. -Flags peut être l’un des indicateurs que le fournisseur prend en charge, tels que TF_COMPONENT, TF_DIAG. -Flags peut également être de valeur ALL
+    -Loglevel peut être du type Fatal, Error, Warning, Info, Verbose, Debug ou All. -Flags peut être l’un des indicateurs que le fournisseur prend en charge, tels que TF_COMPONENT, TF_DIAG. -Flags peut également avoir la valeur ALL
     
    Il est aussi possible de taper l’exemple précédent à l’aide de la fonctionnalité positionnelle de l’applet de commande. Par exemple, pour ajouter le fournisseur ChatServer au scénario AlwaysOn, tapez :
     

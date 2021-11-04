@@ -1,7 +1,7 @@
 ---
 title: Teams pour les visites virtuelles
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Utiliser Microsoft Teams pour configurer votre système de visites virtuelles
-ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935850"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743040"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Visites virtuelles avec Teams – Intégration dans le dossier médical informatisé (DMI)
 
@@ -49,7 +49,7 @@ Avant d’intégrer le connecteur DMI, vous devez vous assurer que vous disposez
 
 - Accès à l’utilisation de l’application Microsoft Teams dans [Marketplace de l’application Orchard Epic](https://apporchard.epic.com/Gallery?id=6153).
 
-- Abonnement actif à Microsoft Cloud pour les soins de santé ou abonnement à Microsoft Teams’offre autonome de connecteur EHR (appliquée uniquement lors des tests de production).
+- Abonnement actif à Microsoft Cloud pour la santé abonnement à Microsoft Teams’offre autonome de connecteur EHR (appliqué uniquement lors des tests de production).
 
 - Les utilisateurs doivent avoir une licence Microsoft 365 ou Office 365 appropriée qui inclut les réunions Microsoft Teams.
 
@@ -177,6 +177,6 @@ L'intégration Teams dans les systèmes de DMI optimise la quantité de données
 
 Le connecteur DMI de Microsoft Teams ne stocke ni ne transfère les données personnelles identifiables ou les dossiers médicaux des patients ou fournisseurs de santé à partir du système de gestion des dossiers médicaux. Les seules données stockées par le connecteur DMI sont l’ID unique de l’utilisateur DMI (utilisé lors de l’installation d’une réunion Teams). L’ID unique de l’utilisateur DMI est stocké dans l’une des trois zones géographiques décrites dans [Emplacement de stockage des données client Microsoft 365](/microsoft-365/enterprise/o365-data-locations). Toutes les discussions, enregistrements et autres données entrés dans Teams par les participants à la réunion sont stockés conformément aux stratégies de stockage existantes. Pour plus d’informations sur l’emplacement des données dans Microsoft Teams, consultez [Emplacements des données dans Teams](../../location-of-data-in-teams.md).
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 [Teams visites virtuelles](ehr-admin-reports.md)

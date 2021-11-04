@@ -1,7 +1,7 @@
 ---
 title: Modifier l’expanseur des paramètres de l’ordinateur Edge pour Lync Server 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Vous modifiez les paramètres du serveur Edge ou du pool de serveurs Edge en configurant les propriétés suivantes :'
-ms.openlocfilehash: b7784e15d7446a51dfa9aed03dd1154bba157485
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb94c152fae183af3198f3fae99501ee33759bca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635328"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765778"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Modifier l’expandeur des paramètres de l’ordinateur Edge pour Lync Server 2010
  
@@ -35,7 +35,7 @@ Vous modifiez les paramètres du serveur Edge ou du pool de serveurs Edge en con
     > [!IMPORTANT]
     > Vous ne pouvez définir qu’un seul serveur Edge ou pool edge activement pour la fédération. La configuration indiquée dans la capture d’écran associée indique qu’un autre serveur Edge ou pool de serveurs Edge est déjà configuré pour la fédération. L’enregistrement SRV DNS externe pour la fédération (_sipfederationtls._tcp. ) pointe vers le serveur Edge ou le \<external domain name\> pool edge pour la fédération. 
   
-- Le port de réplication de configuration **interne (HTTPS),** par défaut sur le port TCP 4443, est le port sur le port sur qui la copie locale (c’est-à-dire, locale des serveurs Edge) du magasin central de gestion est répliquée. La copie locale du magasin central de gestion se trouve dans la base de données **RTCLOCAL** du SQL Server sur chaque ordinateur. La réplication est à sens unique, initiée à partir du serveur central de gestion (ou du serveur frontal ou du pool frontal qui détient le rôle serveur de gestion centralisée) vers les serveurs Edge et est un port d’interface interne.
+- Le port de réplication de configuration interne **(HTTPS),** par défaut sur le port TCP 4443, est le port sur le port sur qui la copie locale (c’est-à-dire, locale des serveurs Edge) du magasin central de gestion est répliquée. La copie locale du magasin central de gestion se trouve dans la base de données **RTCLOCAL** du SQL Server sur chaque ordinateur. La réplication est à sens unique, initiée à partir du serveur central de gestion (ou du serveur frontal ou du pool frontal qui détient le rôle serveur de gestion centralisée) vers les serveurs Edge et est un port d’interface interne.
     
   **Sélection du tronçon suivant**
   
@@ -62,7 +62,7 @@ Cette section des propriétés vous permet de modifier les propriétés des para
 - Pour modifier le **service Edge A/V,** vous définissez un nom de pool pour le service Edge A/V tel que défini dans DNS par les enregistrements d’hôte (A et AAAA si IPv6 est utilisé) et une valeur de port 
     
     > [!IMPORTANT]
-    > Si vous avez activé la case à cocher Activer un FQDN et une adresse IP distincts pour la conférence web et **A/V,** seul le FQDN du pool du service Edge d’accès sera disponible pour modification. Assignez des ports distincts à chacun des trois services Edge.
+    > Si vous avez activé la case à cocher Activer un FQDN et une adresse IP distincts pour la conférence web et **A/V,** seul le FQDN du pool de services Edge d’accès sera disponible pour modification. Assignez des ports distincts à chacun des trois services Edge.
   
   **OK** permet d’accepter et de valider les modifications de la boîte de dialogue.
   

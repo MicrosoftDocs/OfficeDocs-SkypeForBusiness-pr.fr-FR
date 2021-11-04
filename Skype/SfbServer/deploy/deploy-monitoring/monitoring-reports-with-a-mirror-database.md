@@ -1,7 +1,7 @@
 ---
 title: Associer des rapports de surveillance à une base de données miroir dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Résumé : Découvrez comment associer des rapports de surveillance à une base de données miroir utilisée par Skype Entreprise Server.'
-ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014398"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748850"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associer des rapports de surveillance à une base de données miroir dans Skype Entreprise Server 
  
@@ -29,7 +29,7 @@ Si vous configurez un miroir pour votre base de données de surveillance, cette 
   
 Pour que les rapports de surveillance soient automatiquement mis à jour vers la base de données miroir, vous devez ajouter la base de données miroir en tant que « partenaire deover » aux deux bases de données utilisées par les rapports de surveillance (une base de données pour les données d’enregistrement des détails des appels et l’autre pour les données de qualité de l’expérience (QoE). (Notez que cette étape doit être effectuée après l’installation des rapports de surveillance.) Vous pouvez ajouter les informations du partenaire deover en éditant manuellement les valeurs de chaîne de connexion utilisées par ces deux bases de données. Pour ce faire, procédez de la manière suivante :
   
-1. Utilisez Internet Explorer pour ouvrir la **page d SQL Server Reporting Services** d’accueil. L’URL de la page d’accueil reporting Services inclut :
+1. Utilisez Internet Explorer pour ouvrir la **SQL Server Reporting Services** d’accueil. L’URL de la page d’accueil de Reporting Services inclut :
     
    - **Préfixe http:**
     
@@ -39,7 +39,7 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
    - Nom de l’instance de base de données où les rapports de surveillance sont installés (par exemple, **archinst**).
     
-     Par exemple, si SQL Server Reporting Services été installé sur l’ordinateur et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil se `atl-sql-001.litwareinc.com` ressemblerait à ceci :
+     Par exemple, si SQL Server Reporting Services a été installé sur l’ordinateur et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil ressemble à `atl-sql-001.litwareinc.com` ceci :
     
      `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
@@ -61,7 +61,7 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
 6. Après avoir mis à jour la chaîne de connexion, cliquez sur **Appliquer.**
     
-7. Dans la page **CDRDB,** cliquez sur **Reports_Content** lien. Cliquez sur la source de **données QMSDB,** puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
+7. Dans la page **CDRDB,** cliquez sur **Reports_Content** lien. Cliquez sur la source de **données QMSDB,** puis modifiez la chaîne de connexion pour la base de données QoE. Par exemple :
     
     `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     

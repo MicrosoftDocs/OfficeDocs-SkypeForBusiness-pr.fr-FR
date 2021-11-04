@@ -1,7 +1,7 @@
 ---
 title: Déployer SQL mise en miroir pour la haute disponibilité du serveur principal dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir Package de mise à jour cumulative 9 SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 5432d7715a9fa6f73d7dcc663cf7a092369b746e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 862b7ba5a381ea422c63dfc96bde202a5330bfd5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595988"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742870"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Déployer SQL miroir pour la haute disponibilité du serveur principal dans Skype Entreprise server 2015
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Déployer SQL mise en miroir pour la haute disponibilité du serveur principal dans Skype Entreprise server 2015
 
 
 Pour pouvoir déployer la mise en miroir SQL, vos serveurs doivent exécuter au moins SQL Server 2008 R2. Cette version doit s’exécuter sur tous les serveurs impliqués : principal, miroir et témoin. Pour plus d’informations, voir Package de mise à jour [cumulative 9 pour SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
@@ -32,7 +32,7 @@ En général, la configuration de la mise en miroir SQL entre deux serveurs prin
 
 - Le principal et le miroir doivent disposer de la même édition de SQL Server. Le témoin peut en avoir une différente.
 
-Pour SQL meilleures pratiques en matière de SQL versions de base de données sont pris en charge pour un rôle témoin, voir Témoin de mise en miroir de base [de données.](/sql/database-engine/database-mirroring/database-mirroring-witness)
+Pour SQL meilleures pratiques en matière de SQL versions de base de données sont pris en charge pour un rôle témoin, voir Témoin de mise en miroir [de base de données.](/sql/database-engine/database-mirroring/database-mirroring-witness)
 
 Vous utilisez le Générateur de topologie pour déployer SQL miroir. Vous sélectionnez une option dans le Générateur de topologie pour mettre en miroir les bases de données, et le Générateur de topologies définit la mise en miroir (y compris la configuration d’un témoin, si vous le souhaitez) lorsque vous publiez la topologie. Notez que vous configurez ou supprimez le témoin en même temps que le miroir. Il n’existe pas de commande distincte pour déployer ou supprimer uniquement un témoin.
 
@@ -81,7 +81,7 @@ Avec la mise en miroir SQL, vous pouvez configurer la topologie pour la mise en 
 
     c. Spécifiez le numéro de port (7022 par défaut) et cliquez sur **OK**.
 
-6. Une fois que vous avez terminé de définir votre pool frontal et tous les autres rôles de votre topologie, utilisez le Générateur de topologie pour publier la topologie. Lorsque la topologie est publiée, si la mise en miroir du pool frontal qui héberge le magasin central de gestion SQL été activée, vous verrez une option permettant de créer des bases de données principales et miroir SQL magasin.
+6. Une fois que vous avez terminé de définir votre pool frontal et tous les autres rôles de votre topologie, utilisez le Générateur de topologie pour publier la topologie. Lorsque la topologie est publiée, si la mise en miroir du pool frontal qui héberge le magasin central de gestion SQL été activée, une option s’offre à vous pour créer à la fois des bases de données principales et miroirs SQL banque d’données.
 
     Cliquez sur **Paramètres**, puis tapez le chemin d’accès à utiliser en tant que partage de fichiers pour la sauvegarde de mise en miroir.
 

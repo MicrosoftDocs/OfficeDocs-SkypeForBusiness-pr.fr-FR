@@ -1,7 +1,7 @@
 ---
 title: Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,18 +16,18 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: Découvrez comment supprimer la stratégie de réunion RestrictedAnonymousAccess Teams utilisateurs de votre organisation.
-ms.openlocfilehash: 3ba00e8d68a4c30a31ca929e1a41e07cc0fbc104
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e1b5cc0f72419bc17fcca34e3a586ef781f93c93
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605760"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766133"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Supprimer la stratégie de réunion Teams RestrictedAnonymousAccess des utilisateurs
 
 [Les stratégies](meeting-policies-overview.md) de réunion Microsoft Teams sont utilisées pour contrôler les fonctionnalités disponibles pour les participants à la réunion qui sont programmées par les utilisateurs de votre organisation. 
 
-Teams inclut une stratégie intégrée nommée RestrictedAnonymousAccess, qui contient des paramètres prédéfinie qui incluent la restriction des utilisateurs anonymes de commencer une réunion. (Les utilisateurs anonymes sont des utilisateurs qui n’ont pas été authentifiés.) Les paramètres prédéfinés dans la stratégie de réunion ne peuvent pas être modifiés ni modifiés par les administrateurs.
+Teams inclut une stratégie intégrée nommée RestrictedAnonymousAccess, qui contient des paramètres prédéfinie qui incluent la restriction des utilisateurs anonymes de commencer une réunion. (Les utilisateurs anonymes sont des utilisateurs qui n’ont pas été authentifiés.) Les paramètres prédéfinyés dans la stratégie de réunion ne peuvent pas être modifiés ni modifiés par les administrateurs.
 
 Cet article vous explique comment utiliser PowerShell pour supprimer la stratégie de réunion RestrictedAnonymousAccess des utilisateurs à qui cette stratégie est affectée. Pour en savoir plus sur la gestion des Teams à l’aide de PowerShell, voir [Teams vue d’ensemble de PowerShell.](teams-powershell-overview.md)
 
@@ -37,7 +37,7 @@ Installez le module [PowerShell Skype Entreprise et connectez-vous.](/microsoft-
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Obtenir les affectations Teams stratégie de réunion pour votre organisation
 
-Exécutez l’une des commande suivantes pour Teams affectations de stratégie de réunion pour votre organisation.
+Exécutez l’une des commande suivantes pour obtenir les Teams stratégie de réunion pour votre organisation.
 
 ```powershell
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
@@ -59,7 +59,7 @@ Pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs, v
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>Utiliser l'Grant-CsTeamsMeeting de stratégie de gestion des biens
 
-Exécutez ce qui suit pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs.
+Exécutez la suivante pour supprimer la stratégie de réunion RestrictedAnonymous des utilisateurs.
 
 ```powershell
 Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}

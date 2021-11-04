@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue des serveurs Edge
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Pool de serveurs Edge répertorie les pools de serveurs de périphérie de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: b8e546cf3195899bf179ebcb01a073279c20bf57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee61bfb119a86b94c256b4ca099a20df5883d458
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616780"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759926"
 ---
 # <a name="edge-servers-scope-node"></a>Nœud d’étendue des serveurs Edge
  

@@ -1,7 +1,7 @@
 ---
 title: 'Déployer un magasin de contacts unifié dans Skype Entreprise Server '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Résumé : Activez le magasin de contacts unifié dans Skype Entreprise Server.'
-ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 459626fe40f76cc19534aaff67d1b1b39c268469
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609931"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748830"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Déployer un magasin de contacts unifié dans Skype Entreprise Server
  
@@ -44,7 +44,7 @@ Lorsque vous déployez Skype Entreprise Server et publiez la topologie, le magas
     
 2. Effectuez l’une des opérations suivantes :
     
-   - Pour activer le magasin de contacts unifié globalement pour tous Skype Entreprise Server utilisateurs, inter-cmdlet suivante dans l Windows PowerShell interface de ligne de commande suivante :
+   - Pour activer le magasin de contacts unifié globalement pour tous les Skype Entreprise Server utilisateurs, inter-cmdlet suivante dans l’interface Windows PowerShell ligne de commande suivante :
     
    ```powershell
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
@@ -56,7 +56,7 @@ Lorsque vous déployez Skype Entreprise Server et publiez la topologie, le magas
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   Par exemple :
+   Par exemple :
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +68,7 @@ Lorsque vous déployez Skype Entreprise Server et publiez la topologie, le magas
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   Par exemple :
+   Par exemple :
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
@@ -139,8 +139,8 @@ L’importation des données d’un magasin de contacts unifié à partir d’un
 - Si vous exportez des données utilisateur après avoir migré des utilisateurs vers Exchange 2013, revenir en arrière de la migration, puis pour une raison quelconque vous importez les données après la migration, les données du magasin de contacts unifié et les listes de contacts seront endommagées.
     
 > [!IMPORTANT]
-> Avant de déplacer une boîte aux lettres Exchange de Exchange 2013 vers Exchange 2010, l’administrateur Exchange doit s’assurer que l’administrateur Skype Entreprise Server a d’abord retourné les contacts utilisateur Skype Entreprise Server de Exchange 2013 à Skype Entreprise Server. Pour revenir aux contacts du magasin de contacts unifié vers Skype Entreprise Server, consultez la procédure « Pour faire revenir les contacts du magasin de contacts unifié de Exchange 2013 à Skype Entreprise Server », plus loin dans cette section. 
+> Avant de déplacer une boîte aux lettres Exchange de Exchange 2013 vers Exchange 2010, l’administrateur Exchange doit s’assurer que l’administrateur Skype Entreprise Server a d’abord retourné l’utilisateur Skype Entreprise Server de Exchange 2013 à Skype Entreprise Server. Pour revenir aux contacts du magasin de contacts unifié vers Skype Entreprise Server, consultez la procédure « Pour faire revenir les contacts du magasin de contacts unifié de Exchange 2013 à Skype Entreprise Server », plus loin dans cette section. 
   
- **Comment récupérer les contacts utilisateur :** Si vous utilisez l';; cmdlet **Move-CsUser** pour déplacer des utilisateurs entre Skype Entreprise Server 2015 et Lync Server 2010, vous pouvez ignorer ces étapes, car l';cmdlet **Move-CsUser** effectue automatiquement la suppression du magasin de contacts unifié lors du déplacement des utilisateurs de Skype Entreprise Server 2015 vers Lync Server 2010. **Move-CsUser** ne désactive pas la stratégie de magasin de contacts unifié, de sorte que la migration vers le magasin de contacts unifié se reproduira si l’utilisateur est revenir à Skype Entreprise Server 2015.
+ **Comment récupérer les contacts utilisateur :** Si vous utilisez l’cmdlet **Move-CsUser** pour déplacer des utilisateurs entre Skype Entreprise Server 2015 et Lync Server 2010, vous pouvez ignorer ces étapes, car l’cmdlet **Move-CsUser** permet de revenir automatiquement au magasin de contacts unifié lorsqu’elle déplace les utilisateurs de Skype Entreprise Server 2015 vers Lync Server 2010. **Move-CsUser** ne désactive pas la stratégie de magasin de contacts unifié, de sorte que la migration vers le magasin de contacts unifié se reproduira si l’utilisateur est revenir à Skype Entreprise Server 2015.
   
 

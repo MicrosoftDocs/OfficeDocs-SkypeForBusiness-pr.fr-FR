@@ -1,7 +1,7 @@
 ---
 title: API communications unifiées de l’Assistant Déploiement
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour plus d’informations sur l’utilisation de l’Assistant Déploiement pour installer Skype Entreprise Server, voir Install Skype Entreprise Server.
-ms.openlocfilehash: 6180963da2e8d480347e7a14220a642832f4b58b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 97bf14b94708e4bcdc3768947b90576c836b22fb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606563"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738570"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>Assistant Déploiement : API web Communications unifiées
  

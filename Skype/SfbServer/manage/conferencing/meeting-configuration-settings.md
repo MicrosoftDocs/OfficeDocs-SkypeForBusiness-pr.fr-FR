@@ -1,7 +1,7 @@
 ---
 title: Gérer les paramètres de configuration de réunion dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 'Résumé : Découvrez comment gérer les paramètres de configuration de réunion dans Skype Entreprise Server.'
-ms.openlocfilehash: 14e84021e398308fe1b2d3d2187329c30dcb8412
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe622a04e25795471e8f757c352fcaebd7fb1e3b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603923"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754833"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Gérer les paramètres de configuration de réunion dans Skype Entreprise Server
  
 **Résumé :** Découvrez comment gérer les paramètres de configuration de réunion dans Skype Entreprise Server.
   
-Cette rubrique décrit comment gérer les paramètres de configuration de réunion. Pour plus d’informations sur la façon de planifier et de déployer la conférence, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+Cette rubrique décrit comment gérer les paramètres de configuration de réunion. Pour plus d’informations sur la façon de planifier et de déployer des conférences, voir [Plan for conferencing in Skype Entreprise Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype Entreprise Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Les paramètres de configuration de réunion déterminent le type de réunion que les utilisateurs peuvent créer, en plus de contrôler comment (ou même si) les utilisateurs anonymes et les utilisateurs de conférence rendez-vous peuvent participer à ces réunions. Notez que ces paramètres affectent uniquement les réunions prévues ; elles n’affectent pas les réunions ad hoc créées en cliquant sur l’option Conférence maintenant dans Skype Entreprise.
   
@@ -49,7 +49,7 @@ Pour gérer les paramètres de réunion à l’aide Skype Entreprise Server pann
     
 2.  Ouvrez Skype Entreprise Server panneau de contrôle.
     
-3. Dans la barre de navigation de gauche, cliquez sur **Conférence,** puis sur **Configuration de la réunion.**
+3. Dans la barre de navigation de gauche, **cliquez** sur Conférence, puis sur Configuration de **la réunion.**
     
 ## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>Gérer les paramètres de réunion à l’aide Skype Entreprise Server Management Shell
 
