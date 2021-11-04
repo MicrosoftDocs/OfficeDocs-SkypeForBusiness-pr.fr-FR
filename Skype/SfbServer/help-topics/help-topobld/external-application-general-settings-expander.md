@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres généraux d’une application externe
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: Pour modifier les propriétés d’un serveur d’applications approuvées qui a déjà été défini, suivez ces instructions.
-ms.openlocfilehash: 1bcb822ee6a48383f45a10f5ee3db1f5222c00a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21f7fa671690852953a49c91e657f6be8db3437d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606323"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737850"
 ---
 # <a name="external-application-general-settings-expander"></a>Expandeur des paramètres généraux d’une application externe
  
@@ -40,7 +40,7 @@ Sélectionnez **Activer la réplication des données de configuration sur ce poo
   
 ## <a name="next-hop-settings"></a>Paramètres du tronçon suivant
 
-Vous pouvez spécifier le serveur du saut suivant du pool de serveurs d’applications approuvé en sélectionnant le pool frontal Êdition Entreprise défini ou le serveur frontal Édition Standard dans la liste liste. Un directeur ou un pool de directeurs n’est pas un choix valide pour un tronçon suivant de serveur d’applications approuvées et n’apparaîtra pas dans la liste.
+Vous pouvez spécifier le serveur du saut suivant du pool de serveurs d’applications approuvé en sélectionnant le pool frontal Êdition Entreprise ou le serveur frontal Édition Standard défini dans la liste liste. Un directeur ou un pool de directeurs n’est pas un choix valide pour un tronçon suivant de serveur d’applications approuvées et n’apparaîtra pas dans la liste.
   
 
 

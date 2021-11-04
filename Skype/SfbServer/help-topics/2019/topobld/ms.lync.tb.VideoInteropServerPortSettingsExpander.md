@@ -1,7 +1,7 @@
 ---
 title: Expandeur des paramètres de port du serveur d’interopérabilité vidéo (VIS)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server.
-ms.openlocfilehash: 6cbac23f76557cb62e8c7c8853e1bc496532c55c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7926092f419130fbc15ce11dbb05a5aea79aa477
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619970"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738060"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Expandeur des paramètres de port du serveur d’interopérabilité vidéo (VIS)
  

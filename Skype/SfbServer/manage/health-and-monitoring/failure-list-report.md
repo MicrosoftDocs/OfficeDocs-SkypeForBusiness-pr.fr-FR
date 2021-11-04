@@ -1,7 +1,7 @@
 ---
 title: Rapport des listes d’échecs Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Résumé : Découvrez le rapport des listes d’échecs Skype Entreprise Server.'
-ms.openlocfilehash: 3943c802bd6f6bce593c8fdfafb05179252712b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6853da551f65de835f6966cf0a59af57d80e1f75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582738"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763632"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Rapport des listes d’échecs Skype Entreprise Server 
  
@@ -101,7 +101,7 @@ Le tableau qui suit répertorie les informations fournies dans le Rapport des li
   
 **Mesures du Rapport des listes d’échecs**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Heure du rapport** <br/> |Non  <br/> |Date et heure d’enregistrement du rapport.  <br/> |
 |**Demande** <br/> |Non  <br/> |Type de demande SIP ayant échoué. Par exemple, INVITE ou BYE.  <br/> |

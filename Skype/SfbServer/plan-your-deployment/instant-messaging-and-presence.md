@@ -1,7 +1,7 @@
 ---
 title: Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Résumé : Découvrez comment planifier la messagerie instantanée et la présence dans Skype Entreprise Server.'
-ms.openlocfilehash: 8498526c97794dce29d791318b025321e932081b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599889"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737660"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
  
@@ -27,7 +27,7 @@ Planifiez la messagerie instantanée et la présence dans Skype Entreprise Serve
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planifier la messagerie instantanée et la présence dans Skype Entreprise Server
 
-Les serveurs frontux fournissent des fonctionnalités de Skype Entreprise Server essentielles telles que la messagerie instantanée et la présence et sont inclus dans chaque déploiement Skype Entreprise Server de messagerie instantanée. Deux éditions sont disponibles : Skype Entreprise Server Êdition Entreprise, qui est principalement conçu pour les grandes organisations, et Skype Entreprise Server Édition Standard, qui est principalement conçu pour les petites organisations qui souhaitent un plus petit investissement matériel et ne nécessitent pas d’options de haute disponibilité complètes. Les deux éditions sont Skype Entreprise Server charges de travail de messagerie instantanée, de présence, de conférence et de Voix Entreprise.
+Les serveurs frontux fournissent des fonctionnalités de Skype Entreprise Server essentielles telles que la messagerie instantanée et la présence, et sont inclus dans chaque déploiement Skype Entreprise Server de messagerie instantanée. Deux éditions sont disponibles : Skype Entreprise Server Êdition Entreprise, qui est principalement conçu pour les grandes organisations, et Skype Entreprise Server Édition Standard, qui est principalement conçu pour les petites organisations qui souhaitent une plus petite taille investissement matériel et ne nécessitent pas d’options de haute disponibilité complètes. Les deux éditions sont Skype Entreprise Server charges de travail de messagerie instantanée, de présence, de conférence et de Voix Entreprise.
   
 La messagerie instantanée permet aux utilisateurs de communiquer en temps réel les uns avec les autres sur leurs ordinateurs à l’aide des messages textuels.. Les sessions de messagerie unifiée à deux ou à plusieurs personnes sont prises en charge. Un participant à une conversation de messagerie instantanée peut ajouter un troisième participant à la conversation à tout moment. Lorsque cela arrive, la fenêtre Conversation change pour prendre en charge des fonctionnalités de conférence.
   

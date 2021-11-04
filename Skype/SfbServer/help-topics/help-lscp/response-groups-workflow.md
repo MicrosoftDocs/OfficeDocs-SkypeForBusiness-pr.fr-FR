@@ -1,7 +1,7 @@
 ---
 title: Workflow Response Groups
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: Les groupes Response Group sont constitués de groupes d’agents, de files d’attente et de flux de travail. Les flux de travail Response Group définissent les actions qui sont prises lorsque l’application Response Group reçoit un appel téléphonique.
-ms.openlocfilehash: 0f29bfd64cbe01026bc4959d35fa17d5640b3538
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 07f3612a2d4ef5359cb1054b75df7922ebb84131
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628166"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740880"
 ---
 # <a name="response-groups-workflow"></a>Flux de travail des services Response Groups
 
@@ -56,7 +56,7 @@ La liste suivante décrit les champs de la page.
 
 - **Langue** Langue utilisée pour la reconnaissance vocale et la reconnaissance vocale.
 
-- **Réponse vocale vocale (IVR)** Indique si le flux de travail est un groupement de recherche ou un flux de travail interactif.
+- **Système de réponse vocale vocale (IVR** Indique si le flux de travail est un groupement de recherche ou un flux de travail interactif.
 
 - **Activé** Indique si le flux de travail est activé pour recevoir des appels.
 

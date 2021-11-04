@@ -1,7 +1,7 @@
 ---
 title: Planifier les conférences téléphoniques dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur la planification des conférences Skype Entreprise Server.'
-ms.openlocfilehash: 04d0202e9d5187e33172e8bb4c4f1e51f5563d19
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec4bfdbb514f1027ff11098cc1ba78045faf1553
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593558"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763522"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planifier les conférences téléphoniques dans Skype Entreprise Server
  
@@ -40,7 +40,7 @@ La conférence à numérotation nécessite que vous fournissiez une connectivit�
 - Prise en charge des utilisateurs d’entreprise et anonymes
     
 > [!NOTE]
-> Si vous déployez la conférence téléphonique, vous devez la déployer dans chaque pool où vous déployez Skype Entreprise Server conférence. Il n’est pas nécessaire d’affecter des numéros d’accès (les numéros appelés par les participants pour participer à une conférence) dans chaque pool, mais vous devez déployer la fonctionnalité de numérotation dans chaque pool. Cette exigence prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès à partir d’un pool pour participer à Skype Entreprise Server conférence dans un autre pool. 
+> Si vous déployez la conférence téléphonique, vous devez la déployer dans chaque pool où vous déployez Skype Entreprise Server conférence. Il n’est pas nécessaire d’affecter des numéros d’accès (les numéros appelés par les participants pour participer à une conférence) dans chaque pool, mais vous devez déployer la fonctionnalité d’accès dans chaque pool. Cette exigence prend en charge la fonctionnalité de nom enregistré lorsqu’un utilisateur appelle un numéro d’accès à partir d’un pool pour participer Skype Entreprise Server conférence dans un autre pool. 
   
 ## <a name="plan-for-pstn-connectivity"></a>Planifier la connectivité PSTN
 
@@ -66,7 +66,7 @@ Pour configurer la conférence téléphonique, vous devez créer des plans de nu
     
 Lorsque vous créez un plan de numérotation, vous spécifiez la région de conférence qui s’applique au plan de numérotation. Lorsque vous créez le numéro d’accès, vous sélectionnez les régions qui associent le numéro d’accès aux plans de numérotation appropriés.
   
-Vous spécifiez également l’étendue du plan de numérotation : étendue utilisateur, étendue du pool ou étendue du site. Le plan de numérotation de l’étendue la plus étroite qui s’applique à l’utilisateur est attribué à chaque utilisateur. Par exemple, un plan de numérotation au niveau de l’utilisateur est affecté à un utilisateur, si un plan s’applique. Si un plan de numérotation au niveau de l’utilisateur ne s’applique pas, un plan de numérotation au niveau du pool est attribué à l’utilisateur. Si un plan de numérotation au niveau du pool ne s’applique pas, un plan de numérotation au niveau du site est attribué à l’utilisateur. Si un plan de numérotation au niveau du site ne s’applique pas, le plan de numérotation global est attribué à l’utilisateur. 
+Vous spécifiez également l’étendue du plan de numérotation : étendue utilisateur, étendue du pool ou étendue du site. Le plan de numérotation de l’étendue la plus étroite qui s’applique à l’utilisateur est attribué à chaque utilisateur. Par exemple, un plan de numérotation au niveau de l’utilisateur est affecté à un utilisateur, si un plan s’applique. Si un plan de numérotation au niveau de l’utilisateur ne s’applique pas, un plan de numérotation au niveau du pool est affecté à l’utilisateur. Si un plan de numérotation au niveau du pool ne s’applique pas, un plan de numérotation au niveau du site est affecté à l’utilisateur. Si un plan de numérotation au niveau du site ne s’applique pas, le plan de numérotation global est attribué à l’utilisateur. 
   
 Avant de configurer les plans de numérotation, il est important de planifier le nom et l’utilisation des régions. Les considérations suivantes s’appliquent aux régions de conférences téléphoniques :
   
@@ -117,16 +117,16 @@ La conférence téléphonique prend en charge à la fois les utilisateurs d’en
 Enterprise utilisateurs ou responsables de conférence qui rejoignent une conférence qui est activée pour l’accès entrant, composent l’un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Si un responsable n’a pas encore rejoint la réunion, les utilisateurs peuvent entrer leur poste de communications unifiées (ou leur numéro de téléphone complet) et leur code confidentiel ou attendre d’être admis par un responsable. L’organisateur de la réunion peut participer à la réunion en tant qu’organisateur en entrant simplement son code confidentiel. Le serveur frontal utilise la combinaison d’un numéro de téléphone complet ou d’une extension, et d’un code confidentiel, pour ma propres aux utilisateurs d’entreprise à leurs informations d’identification Active Directory. Par conséquent, les utilisateurs d’entreprise sont authentifiés et identifiés par leur nom dans la conférence. Enterprise utilisateurs peuvent également assumer un rôle de conférence prédéféré par l’organisateur.
   
 > [!NOTE]
-> Enterprise utilisateurs qui appellent à partir d’un téléphone IP de bureau ou d’un Skype Entreprise Server Attendant ne sont pas invités à composer leur numéro de téléphone, car ils sont déjà authentifiés. 
+> Enterprise utilisateurs qui appellent à partir d’un téléphone IP de bureau ou d’un Skype Entreprise Server Ne sont pas invités à composer leur numéro de téléphone, car ils sont déjà authentifiés. 
   
-Les utilisateurs anonymes qui souhaitent participer à une conférence entrante composent l’un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Les utilisateurs anonymes non authentifiés sont également invités à enregistrer leur nom. Le nom enregistré identifie les utilisateurs non authentifiés dans la conférence. Les utilisateurs anonymes ne sont pas admis à la conférence tant qu’au moins un dirigeant ou un utilisateur authentifié n’a pas rejoint la conférence et ne peuvent pas se voir attribuer un rôle prédéféré.
+Les utilisateurs anonymes qui souhaitent participer à une conférence entrante composent l’un des numéros d’accès à la conférence, puis sont invités à entrer l’ID de conférence. Les utilisateurs anonymes non authentifiés sont également invités à enregistrer leur nom. Le nom enregistré identifie les utilisateurs non authentifiés dans la conférence. Les utilisateurs anonymes ne sont pas admis à la conférence tant qu’au moins un dirigeant ou un utilisateur authentifié n’a pas rejoint la conférence et qu’un rôle prédéféré ne leur est pas attribué.
   
 > [!NOTE]
 > Enterprise utilisateurs qui choisissent de ne pas entrer leur numéro de téléphone et leur code confidentiel ne sont pas authentifiés. Ils sont invités à enregistrer leur nom et sont traités comme des utilisateurs anonymes dans la conférence. 
   
 Lors de la planification d’une réunion, l’organisateur de la réunion peut choisir de restreindre l’accès à la réunion en la rendant fermée ou verrouillée. Dans ce cas, les utilisateurs de connexion sont invités à s’authentifier. 
   
-- Si les utilisateurs de connexion échouent ou choisissent de ne pas s’authentifier, ils sont transférés vers la salle d’accueil où ils sont transférés jusqu’à ce qu’un responsable les accepte ou les rejette, ou qu’ils délai d’authentification et soient déconnectés.
+- Si les utilisateurs d’appels sortants échouent ou choisissent de ne pas s’authentifier, ils sont transférés vers la salle d’accueil où ils sont transférés jusqu’à ce qu’un responsable les accepte ou les rejette, ou qu’ils délai d’authentification et soient déconnectés.
     
 - Une fois admis à une conférence, les utilisateurs d’appels peuvent participer à la partie audio de la conférence et peuvent utiliser des commandes DTMF (numérotation en fréquences vocales) à l’aide du clavier du téléphone.
     

@@ -1,7 +1,7 @@
 ---
 title: Validation de la configuration vocale non Paramètres
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: Vous pouvez utiliser la boîte de dialogue Configuration vocale non Paramètres pour passer en revue toutes les modifications que vous avez apportées. Parcourez la boîte de dialogue pour passer en revue toutes les modifications non validées ou cliquez sur les flèches pour développer ou réduire les différentes sections. Lorsque vous avez terminé, cliquez sur Valider pour valider toutes ces modifications ou cliquez sur Annuler pour revenir en arrière et modifier vos modifications.
-ms.openlocfilehash: 60a66d45a90f6d37f342b66d793b16639589f846
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ed10ec5ec0b8bf882add97eb763cc9ee413d5aef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618000"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737900"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Paramètres de configuration de la voix non validés : valider
  

@@ -1,7 +1,7 @@
 ---
 title: Scénarios de serveur Edge dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,26 +16,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Résumé : Examinez ces scénarios pour vous aider à planifier votre topologie de serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7d5c3b90f2b99b51eb74e0880c5a35f79025282a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732081"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763502"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Scénarios de serveur Edge dans Skype Entreprise Server
  
 **Résumé :** Examinez ces scénarios pour vous aider à planifier votre topologie de serveur Edge dans Skype Entreprise Server.
   
-Nous avons des diagrammes de scénarios pour faciliter la visualisation et le choix de la topologie Skype Entreprise Server serveur Edge que vous souhaitez implémenter. Une fois que vous avez choisi un bon candidat, vous pouvez consulter les exigences environnementales que vous devrez répondre. Les exemples suivants s’appliquent à tous les scénarios, c’est pourquoi nous le mentionnons en premier.
+Nous avons des diagrammes de scénarios pour vous aider à visualiser et à choisir la topologie Skype Entreprise Server serveur Edge que vous souhaitez implémenter. Une fois que vous avez choisi un bon candidat, vous pouvez consulter les exigences environnementales que vous devrez répondre. Les exemples suivants s’appliquent à tous les scénarios, c’est pourquoi nous le mentionnons en premier.
   
 Ces chiffres, qui sont affichés à titre d’exemple uniquement (et qui contiennent des exemples de données IPv4 et IPv6), ne représentent pas le flux de communication réel, mais plutôt une vue d’ensemble de votre trafic possible. Les détails des ports sont également visibles dans les diagrammes de port pour chaque scénario ci-dessous.
   
 Les diagrammes montrent .com pour l’interface externe et .net pour l’interface interne, qui est également un exemple de matériel ; Bien entendu, vos propres entrées peuvent être assez différentes lorsque vous rassemblez votre propre plan Edge final.
   
-Nous n’incluons pas le directeur (qui est un composant facultatif) dans les diagrammes, mais vous pouvez en savoir plus séparément (il est mentionné dans d’autres rubriques de planification).
+Nous n’incluons pas le directeur (qui est un composant facultatif) dans l’un des diagrammes, mais vous pouvez en savoir plus séparément (il est mentionné dans d’autres rubriques de planification).
   
-Comme indiqué ci-dessus, il existe des exemples de données IPv6 dans les diagrammes. La majeure partie de la documentation de plan pour les [déploiements](edge-server-deployments.md) de serveurs Edge dans Skype Entreprise Server fait référence à IPv4, mais vous êtes certainement pris en charge si vous souhaitez utiliser IPv6. Notez que vous aurez besoin d’adresses IPv6 dans votre espace d’adressare affecté et qu’elles devront fonctionner avec l’adressare interne et externe, comme avec les adresses IP IPv4. Grâce à Windows, vous pouvez utiliser la fonctionnalité double pile, qui est une pile réseau distincte pour IPv4 et IPv6. Cela vous permettra, si nécessaire, d’affecter simultanément des adresses IPv4 et IPv6.
+Comme indiqué ci-dessus, il existe des exemples de données IPv6 dans les diagrammes. La majeure partie de la documentation de plan pour les [déploiements](edge-server-deployments.md) de serveurs Edge dans Skype Entreprise Server fait référence à IPv4, mais vous êtes certainement pris en charge si vous souhaitez utiliser IPv6. Notez que vous aurez besoin d’adresses IPv6 dans votre espace d’adressare affecté et qu’elles devront fonctionner avec l’adressare interne et externe, comme avec les adresses IP IPv4. Grâce à Windows, vous pouvez utiliser la fonctionnalité double pile, qui est une pile réseau distincte et distincte pour IPv4 et IPv6. Cela vous permettra, si nécessaire, d’affecter simultanément des adresses IPv4 et IPv6.
   
 Il existe des périphériques NAT qui autorisent NAT64 (IPv6 vers IPv4) et NAT66 (IPv6 vers IPv6)), et cela est valide pour une utilisation avec Skype Entreprise Server.
   
@@ -66,7 +66,7 @@ Nous avons également un diagramme pour les ports pour les serveurs Edge consoli
   
 ![Périmètre réseau pour le périmètre consolidé unique du scénario Edge.](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Mise à l’échelle consolidée Skype Entreprise Server pool edge, avec équilibrage de charge DNS, adresses IP privées et NAT
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>Mise à l’échelle Skype Entreprise Server pool Edge consolidé, avec équilibrage de charge DNS, adresses IP privées et NAT
 
 Avec ce scénario, vous pouvez bénéficier d’une haute disponibilité dans votre déploiement Edge, ce qui vous offre les avantages de l’évolutivité et de la prise en charge duover.
   
@@ -90,7 +90,7 @@ Nous avons également un diagramme pour les pools Edge consolidés à l’échel
   
 ![Périmètre réseau pour le scénario Edge consolidé mis à l’échelle à l’aide de la base de données DNS.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
-## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Mise à l’échelle consolidée Skype Entreprise Server pool Edge, avec équilibrage de la charge matérielle
+## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Mise à l’échelle consolidée Skype Entreprise Server pool edge, avec équilibrage de la charge matérielle
 
 Avec ce scénario, vous pouvez bénéficier d’une haute disponibilité dans votre déploiement Edge, ce qui vous offre les avantages de l’évolutivité et de la prise en charge duover.
   

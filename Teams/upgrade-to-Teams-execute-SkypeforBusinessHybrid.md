@@ -1,7 +1,7 @@
 ---
 title: Mettre à Skype Entreprise niveau vers un déploiement hybride Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df0d3923ccf7078e810217a59aad4b9b7bac1126
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 24dc9deedc23456efcd1dc646ba05bff6ef818d8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731173"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777144"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Mettre à niveau à partir d Skype Entreprise déploiement hybride vers un déploiement Teams
 

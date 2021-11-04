@@ -1,7 +1,7 @@
 ---
 title: 'Configuration de réunion : création d’une réunion ou modification d’une configuration existante'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les paramètres de configuration de réunion définissent la participation des utilisateurs pour les conférences planifiées par des utilisateurs. Ces paramètres s’appliquent uniquement aux réunions planifiées. Elles ne s’appliquent pas aux réunions ad hoc créées en cliquant sur l’option Conférence maintenant dans le client.
-ms.openlocfilehash: 13eb6ffb440bf50da7525b36307b56e158f6f93f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95e9f30ab485b80824c31e700fc7f88714a7a5b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607227"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741250"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuration de la réunion : création d’une nouvelle ou modification d’une configuration existante
 
@@ -52,7 +52,7 @@ La liste suivante décrit les champs de la page.
 
 - **URL de l’aide** Tapez l’URL d’un site web où les utilisateurs peuvent obtenir de l’aide pour participer à la conférence.
 
-- **URL de texte légal** Tapez l’URL d’un site web qui dispose des informations légales et des clauses d’exclusion de responsabilité pour la conférence.
+- **URL de texte légal** Tapez l’URL d’un site web qui possède les informations légales et les clauses d’exclusion de responsabilité pour la conférence.
 
 - **Texte de pied de groupe personnalisé** Tapez le texte à utiliser sur les invitations aux conférences personnalisées.
 

@@ -1,7 +1,7 @@
 ---
 title: Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Vous pouvez décider d’utiliser des pools frontux couplés pour fournir une protection contre la récupération d’urgence, mais cela n’est pas obligatoire.
-ms.openlocfilehash: 9c56ad7a0af5b50f4843a84205c48a11a9177a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9aec106905b2d8628e30461dce130f301aef1b25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608571"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741330"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Déployer des pools frontux couplés pour la récupération d’urgence dans Skype Entreprise Server
  
@@ -53,7 +53,7 @@ Vous pouvez facilement déployer la topologie de récupération d’urgence des 
 
     Cela permet de configurer les autres services requis pour un fonctionnement correct du jumelage de sauvegarde.
     
-9. Une fois que Bootstrapper a terminé l’installation des composants requis pour le jumelage de sauvegarde sur chaque serveur frontal des deux pools, n’oubliez pas de réappl attention à appliquer à nouveau toute mise à jour cumulative existante précédemment appliquée sur ces serveurs frontaux dans les deux pools, puis de poursuivre l’étape suivante.
+9. Une fois que Bootstrapper a terminé l’installation des composants requis pour le jumelage de sauvegarde sur chaque serveur frontal des deux pools, n’oubliez pas de réapplinger toute mise à jour cumulative existante précédemment appliquée sur ces serveurs frontaux dans les deux pools, puis de continuer à l’étape suivante.
 
 10. À partir d Skype Entreprise Server’invite de commandes Management Shell, exécutez la commande suivante : 
     

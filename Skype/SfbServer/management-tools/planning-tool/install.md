@@ -1,7 +1,7 @@
 ---
 title: Installer l’outil de planification Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Avant de commencer à concevoir et planifier votre infrastructure Skype Entreprise Server 2015 à l’aide de l’outil de planification Skype Entreprise Server 2015, vous devez d’abord installer l’outil de planification. L’outil de planification n’a pas besoin d’être déployé sur une station de travail ou un serveur qui fait partie du domaine ou de l’infrastructure où vous prévoyez d’installer Skype Entreprise Server 2015. Le fichier Lisez-moi qui accompagne l’outil de planification détaille des informations importantes sur l’installation et l’utilisation de l’outil. Certaines informations du fichier Lisez-moi sont dupliquées ici pour plus de clarté.
-ms.openlocfilehash: 2cfa5e67d567c108d46db1bc52b5426971aa8ca8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b476d5d39515fe14d3f13a3ee9dc0c5b5298fdc1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616510"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756883"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installer l’outil de planification Skype Entreprise Server 2015
 
@@ -30,7 +30,7 @@ Avant de commencer à concevoir et planifier votre infrastructure Skype Entrepri
 
 Les systèmes d’exploitation pris en charge pour l’installation et le fonctionnement de l’outil de planification sont :
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 
@@ -100,7 +100,7 @@ L’exportation de votre conception vers Microsoft Excel crée un rapport qui af
 L’exportation de votre conception vers Microsoft Visio crée un diagramme à utiliser dans la documentation de votre topologie et infrastructure configurée. Le diagramme importé peut être modifié et réorganisé pour répondre aux besoins de votre documentation. Un diagramme Visio classique inclut les éléments suivants :
 
 > [!NOTE]
-> Si votre conception est suffisamment grande pour nécessiter plus de trois serveurs frontaux, une page supplémentaire est créée pour le pool frontal, les serveurs frontaux, l’ordinateur exécutant SQL Server, les adresses IP et les noms de groupe.
+> Si votre conception est suffisamment grande pour nécessiter plus de trois serveurs frontaux, une page supplémentaire est créée pour le pool frontal, les serveurs frontaux, l’ordinateur exécutant SQL Server, les adresses IP et les noms de famille.
 
 - Topologie globale : diagramme des sites configurés Skype Entreprise Server 2015.
 

@@ -1,7 +1,7 @@
 ---
 title: Déployer les services d’urgence dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: Déployez E9-1-1 dans Skype Entreprise Server Voix Entreprise. Comprend les conditions préalables et la liste de contrôle du processus de déploiement.
-ms.openlocfilehash: 51c877fd285bd9db31de697e72458a44d44d0b71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce0175f3f249ab013ae425686f8ea167117d2bc1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600709"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741360"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>Déployer les services d’urgence dans Skype Entreprise Server
  

@@ -1,7 +1,7 @@
 ---
 title: 'Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Les paramètres de configuration de la configuration de la liaison de session SIP définissent la relation entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un PBX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services.
-ms.openlocfilehash: a2117858b34bc6c90c30444b3ab53a025f062152
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Les paramètres de configuration de la liaison de session SIP définissent la relation entre un serveur de médiation et la passerelle du réseau téléphonique commuté (PSTN), un PBX IP ou un contrôleur SBC (Session Border Controller) chez le fournisseur de services.
+ms.openlocfilehash: 863123c21db831146a03de946992a1eb7ed06840
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602509"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763552"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk
 
@@ -27,7 +27,7 @@ Les paramètres de configuration de jonction SIP définissent la relation et les
 
 Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement).
 
-Lorsque vous créez des paramètres de configuration de la trunk SIP à l’aide du Panneau de configurationSkype for Business Server, les options suivantes sont disponibles :
+Lorsque vous créez des paramètres de configuration de trunk SIP à l’aide du Panneau de configurationSkype for Business Server, les options suivantes sont disponibles :
 
 |Paramètre de l’interface utilisateur | Paramètre PowerShell | Description |
 |--|--|--|
@@ -58,7 +58,7 @@ Lorsque vous créez des paramètres de configuration de la trunk SIP à l’aide
 
 1. Dans le Skype Entreprise Server de configuration, cliquez sur **Routage** des voix, puis sur **Configuration de la trunk .**
 2. Sous l’onglet **Configuration de la jonction**, cliquez sur **Nouveau**, puis cliquez sur **Jonction de site** pour créer les paramètres au niveau de l’étendue Site, ou cliquez sur **Jonction de pool** pour créer les paramètres au niveau de l’étendue Service.
-3. Dans la boîte de dialogue Sélectionner un **site** ou Un **service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue site ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK.** Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun endroit pour créer les nouveaux paramètres ; Par exemple,  si la boîte de dialogue Sélectionner un site est vide, cela signifie que tous vos sites ont déjà été affectés à une collection de sites de configuration de troncation, et que chaque site (et chaque service) ne peut héberger qu’une seule collection de ce type. Dans ce cas, vous pouvez supprimer la collection existante et créer une nouvelle collection, ou simplement modifier la collection existante.
+3. Dans la boîte de dialogue Sélectionner un **site** ou Sélectionner un **service** (la boîte de dialogue qui s’affiche varie selon que vous créez des paramètres d’étendue site ou de service), sélectionnez l’emplacement des nouveaux paramètres de configuration, puis cliquez sur **OK.** Si la boîte de dialogue est vide, cela signifie qu’il n’y a aucun endroit pour créer les nouveaux paramètres ; Par exemple,  si la boîte de dialogue Sélectionner un site est vide, cela signifie que tous vos sites ont déjà été affectés à une collection de sites de configuration de trunk, et que chaque site (et chaque service) ne peut héberger qu’une seule collection de ce type. Dans ce cas, vous pouvez supprimer la collection existante et créer une nouvelle collection, ou simplement modifier la collection existante.
 4. Dans la boîte de dialogue **Nouvelle configuration de jonction**, effectuez les sélections appropriées, puis cliquez sur **OK**.
 5. La propriété **État** de la collection aura la valeur **Non validé**. Pour valider les modifications et pour supprimer la collection, cliquez sur **Valider**, puis sur **Valider tout**.
 6. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.

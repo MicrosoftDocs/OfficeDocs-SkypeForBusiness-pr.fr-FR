@@ -1,7 +1,7 @@
 ---
 title: Résolution des problèmes du Gestionnaire de statistiques pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Résumé : Lisez cette rubrique pour résoudre les problèmes de déploiement du Gestionnaire de statistiques pour Skype Entreprise Server.'
-ms.openlocfilehash: 622e3fdecc9cbe0def1f87a623692cb93889bb00
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f3bade7c7696e7361b63dc2f539534b6072d34a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612053"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777304"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Résolution des problèmes du Gestionnaire de statistiques pour Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
 ## <a name="agent-events"></a>Événements de l’agent
 <a name="BKMK_Agent"> </a>
 
-- **1000** — Impossible de configurer le limiteur de processeur (Objet travail) — Raison inconnue
+- **1000** — Impossible de configurer le limiteur de processeur (objet de travail) — Raison inconnue
     
 - **1001** — La limitation des processus n’est pas autorisée sur le processus (probablement déjà à l’intérieur d’un objet Job)
     
@@ -56,7 +56,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
   
 - **2000** — Échec de l’initialisation du client
     
-- **2001**— Aucune connexion au service n’a pu être réalisée sur une adresse IP source
+- **2001**— Aucune connexion au service n’a pu être réalisée sur n’importe quelle adresse IP source
     
     Si l’agent ne peut pas se connecter à l’ordinateur d’écoute, vérifiez ce qui suit :
     
@@ -72,19 +72,19 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **4001** — Serveur in trouvé dans la topologie d’écoute
     
-    Cette erreur se produit si le serveur se connecte avec succès à l’écoute, mais que le serveur n’a pas été ajouté à la topologie dans le cache de l’écoute. Options de résolution :
+    Cette erreur se produit si le serveur se connecte correctement à l’écoute, mais que le serveur n’a pas été ajouté à la topologie dans le cache de l’écoute. Options de résolution :
     
   - Assurez-vous que vous avez suivi les instructions d’importation de la topologie. Voir [Importer la topologie.](deploy.md#BKMK_ImportTopology) 
     
-  - Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’instruction [Import the topology](deploy.md#BKMK_ImportTopology).
+  - Si l’agent se trouve sur un serveur qui n’est pas répertorié dans la topologie (par exemple, les nodes dans un [](deploy.md#BKMK_ImportTopology)cluster SQL AlwaysOn), vous devez ajouter l’agent manuellement en suivant les instructions de l’importation de la topologie.
     
   - **4002** — Mot de passe d’écoute non valide
     
-    Le mot de passe chiffré que l’agent tente d’utiliser ne correspond pas au mot de passe du service sur l’écoute lui-même. Désinstallez l’agent et réinstallez-le à l’aide du mot de passe de service correct.
+    Le mot de passe chiffré que l’agent tente d’utiliser ne correspond pas au mot de passe du service sur l’écoute proprement dite. Désinstallez l’agent et réinstallez-le à l’aide du mot de passe de service correct.
     
   - **4003** — Non-matage de l’empreinte numérique du certificat
     
-    L’empreinte numérique de certificat donnée à l’agent au moment de l’installation ne correspond pas à l’empreinte du certificat que l’écoute utilise actuellement et par conséquent, la connexion sera refusée. Désinstallez l’agent et réinstallez-le à l’aide de l’empreinte de certificat correcte.
+    L’empreinte numérique du certificat donnée à l’agent au moment de l’installation ne correspond pas à l’empreinte du certificat que l’écoute utilise actuellement et par conséquent, la connexion sera refusée. Désinstallez l’agent et réinstallez-le à l’aide de l’empreinte de certificat correcte.
     
   - **4004** — Réponse non valide ou HttpStatusCode
     
@@ -101,7 +101,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
 ## <a name="listener-events"></a>Événements d’écoute
 <a name="BKMK_Listener"> </a>
 
-- **10000** — Échec du démarrage Raison inconnue (ces erreurs sont irrécables et le service s’arrête/se crashe en conséquence)
+- **10000** — Échec du démarrage Pour une raison inconnue (ces erreurs sont irrécables et le service s’arrête/se crashe en conséquence)
     
   - **10001** — Problème de configuration
     
@@ -109,7 +109,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **10002** — Erreur d’initialisation de l’écoute HTTP
     
-    Cet événement est généralement enregistré lorsque l’ACL de l’URL n’a pas été correctement définie lors de l’installation ou que le cert SSL n’est pas valide. Assurez-vous que le certificat de votre configuration est valide. Si c’est le cas, réinstallez l’écoute en suivant les instructions de [Deploy Statistics Manager](deploy.md#BKMK_Deploy).
+    Cet événement est généralement enregistré lorsque la liste decl d’URL n’a pas été correctement définie lors de l’installation ou que le cert SSL n’est pas valide. Assurez-vous que le certificat de votre configuration est valide. Si c’est le cas, réinstallez l’écoute en suivant les instructions de [Deploy Statistics Manager](deploy.md#BKMK_Deploy).
     
   - **10003** — Échec de Redis
     
@@ -127,13 +127,13 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
   - **10101** — Panne continue de redis PING (toutes les 60 secondes)
     
-  - **30100** — Restauration de la panne ping de Redis
+  - **30100** — Restauration de la panne PING de Redis
     
     Ceux-ci sont enregistrés lorsque l’écoute ne peut pas se connecter à Redis. Assurez-vous que Redis est démarré et que la connectivité réseau entre l’écoute et Redis est disponible.
     
 - **10200** — Panne d’écriture de Redis
     
-  - **10201** — La panne d’écriture de Redis a continué (toutes les 60 secondes)
+  - **10201** — Panne d’écriture de Redis continue (toutes les 60 secondes)
     
   - **30100** — Panne d’écriture de Redis résolue
     
@@ -145,7 +145,7 @@ Cette rubrique décrit comment résoudre les problèmes de déploiement de votre
     
 - **22000** : l’initialisation de l’agent du gestionnaire de statistiques a réussi.
     
-- **23000** — Initialisation de EventLogQueryManager réussi (première fois ou après un échec)
+- **23000** : l’initialisation de EventLogQueryManager a réussi (première fois ou après un échec)
     
 - **24000** : l’initialisation de serverinfo a réussi (première fois ou après échec)
     

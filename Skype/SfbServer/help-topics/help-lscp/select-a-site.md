@@ -1,7 +1,7 @@
 ---
 title: Sélection d’un site
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Utilisez la boîte de dialogue Sélectionner un site pour rechercher les sites disponibles dans votre environnement. Pour utiliser un site existant, cliquez sur un site dans la liste, puis sur OK.
-ms.openlocfilehash: 376cb057e4351581440562c3d24a88d872ab4d35
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e73d7db8b652f3d4ece5618dd2a29e56ead3b0ea
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636238"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748170"
 ---
 # <a name="select-a-site"></a>Sélection d’un site
 

@@ -1,7 +1,7 @@
 ---
 title: Page des options Installer une base de données
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 'Vous configurez des options avancées pour l’emplacement des fichiers de base de données et des fichiers journaux sur SQL Server. Les options disponibles sont les suivantes :'
-ms.openlocfilehash: c8b26656f894fbf2c27b2321f30c174fe10472b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3bf2eaacd374234795806d3a3ff21ad1d38dc646
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587338"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777384"
 ---
 # <a name="install-database-options-page"></a>Page des options Installer une base de données
 
@@ -29,9 +29,9 @@ Vous configurez des options avancées pour l’emplacement des fichiers de base 
 > [!IMPORTANT]
 > Sélectionnez l’option qui correspond le mieux à vos exigences et stratégies relatives à l’emplacement des données et des fichiers journaux sur SQL Server ordinateurs.
 
- **Déterminer** automatiquement l’emplacement du fichier de base de données : l’option par défaut utilise un algorithme qui détermine l’espace disponible sur le SQL Server et distribue la base de données et les fichiers journaux pour des performances optimales.
+ **Déterminer** automatiquement l’emplacement des fichiers de base de données : l’option par défaut utilise un algorithme qui détermine l’espace disponible sur le SQL Server et distribue la base de données et les fichiers journaux pour des performances optimales.
 
- **Utilisez SQL Server défaut de l’instance** de base de données : sélectionnez cette option pour placer les fichiers de base de données et les fichiers journaux en fonction des paramètres de l’instance SQL Server. Généralement, les options sont gérées et configurées par votre administrateur de base de données.
+ **Utilisez SQL Server défaut de l’instance**: sélectionnez cette option pour placer les fichiers de base de données et les fichiers journaux en fonction des paramètres de l’instance SQL Server. Généralement, les options sont gérées et configurées par votre administrateur de base de données.
 
  Us **these path on target SQL Server:** Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
 

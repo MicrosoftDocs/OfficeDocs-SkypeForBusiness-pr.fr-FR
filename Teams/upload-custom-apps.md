@@ -1,7 +1,7 @@
 ---
 title: Télécharger vos applications personnalisées dans le Centre d’administration Microsoft Teams’administration
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment télécharger vos applications personnalisées dans le magasin d’applications de votre organisation dans le Microsoft Teams d’administration.
-ms.openlocfilehash: a5f145f32f86f47aac65573303fb4e7a08a8a368
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f5e2bffa1f725f9fa741d96bdea17be3096f75f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727583"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777104"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Publier une application personnalisée en chargeant un package d’application
 
@@ -59,11 +59,11 @@ Pour autoriser les utilisateurs de confiance à télécharger des applications p
 1. Activer le paramètre **d’application Autoriser l’interaction avec** des applications personnalisées à l’échelle de l’organisation. Pour ce faire :
     1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez dans Teams **Applications** Gérer les applications, puis cliquez sur Paramètres de l’application à  >  l’échelle **de l’organisation.**
     2. Sous **Applications personnalisées,** activer Autoriser **l’interaction avec** les applications personnalisées, puis cliquez sur **Enregistrer.**
-2. Désactiver le paramètre **Télécharger d’applications personnalisées** dans la stratégie de configuration globale de l’application. Pour ce faire :
+2. Désactiver le paramètre **d Télécharger d’applications personnalisées** dans la stratégie de configuration globale de l’application. Pour ce faire :
     1. Dans le navigation gauche du Centre d’administration Microsoft Teams, allez dans les stratégies de configuration des applications Teams, puis cliquez sur la stratégie globale (à l’échelle de l’organisation  >   **par** défaut).
     2. Désactiver Télécharger **applications personnalisées,** puis cliquez sur **Enregistrer.**
 3. Créez une stratégie de configuration d’application qui permet de télécharger des applications personnalisées et de les affecter à votre ensemble d’utilisateurs de confiance. Pour ce faire :
-    1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, cliquez sur **Teams de** configuration des applications, puis cliquez sur  >   **Ajouter.** Donnez un nom et une description à la nouvelle stratégie, Télécharger des applications personnalisées, puis cliquez sur **Enregistrer.**
+    1. Dans le navigation gauche du centre Microsoft Teams d’administration, cliquez sur **Teams de** configuration des applications, puis cliquez  >  sur **Ajouter.** Donnez un nom et une description à la nouvelle stratégie, Télécharger des applications personnalisées, puis cliquez sur **Enregistrer.**
     2. Sélectionnez la nouvelle stratégie que vous avez créée, puis cliquez sur **Gérer les utilisateurs.** Recherchez un utilisateur, cliquez **sur Ajouter,** puis sur **Appliquer.** Répétez cette étape pour affecter la stratégie à tous vos utilisateurs de confiance.
 
         ![Capture d’écran de la page « Ajouter une stratégie de configuration d’application »](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -107,7 +107,7 @@ Si vous avez créé et attribué une stratégie de configuration d’application
 
 Pour mettre à jour une application, les [](#develop) développeurs doivent continuer à suivre les étapes des [sections](#validate) Développer et valider.
 
-Vous pouvez mettre à jour l’application dans la page Gérer les applications du Microsoft Teams d’administration. Pour ce faire, dans le navigation gauche du Microsoft Teams d’administration, allez dans Teams  >  **Gérer les applications.** Cliquez sur le nom de l’application, puis sur **Mettre à jour.** Cette faisant, vous remplacez l’application existante, et toutes les stratégies d’autorisation d’application et stratégies de configuration d’application demeurent appliquées pour l’application mise à jour.
+Vous pouvez mettre à jour l’application dans la page Gérer les applications du Microsoft Teams d’administration. Pour ce faire, dans le navigation gauche du Microsoft Teams d’administration, allez dans Teams  >  **Gérer les applications.** Cliquez sur le nom de l’application, puis sur **Mettre à jour.** Cette faisant, vous remplacez l’application existante, et toutes les stratégies d’autorisation d’application et toutes les stratégies de configuration d’application demeurent appliquées pour l’application mise à jour.
 
 ### <a name="end-user-update-experience"></a>Expérience de mise à jour des utilisateurs finux
 

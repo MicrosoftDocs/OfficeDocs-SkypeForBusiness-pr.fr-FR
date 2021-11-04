@@ -1,7 +1,7 @@
 ---
 title: Ajouter l’adresse IP du NAT de l’ordinateur Edge
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Si l’adresse IP publique de ce serveur Edge est traduite par une traduction d’adresses réseau (NAT), vous devez spécifier l’adresse IP publique à traduire. Il doit s’agir de l’adresse IP externe du service Edge A/V.
-ms.openlocfilehash: 206db8bb6c7674f2818f4adea2b8c86fef2e2e2a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03decce6d76ef5f7e30e45c7beba20d4462cd576
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629136"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757746"
 ---
 # <a name="add-edge-machine-nat-ip"></a>Ajouter l’adresse IP du NAT de l’ordinateur Edge
  

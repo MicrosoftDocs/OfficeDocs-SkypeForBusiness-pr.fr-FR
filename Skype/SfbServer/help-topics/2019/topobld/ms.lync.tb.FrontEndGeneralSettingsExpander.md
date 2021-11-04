@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres généraux du serveur frontal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour modifier les paramètres d’un pool frontal existant ou d’un serveur Survivable Branch Server, consultez les sections suivantes :'
-ms.openlocfilehash: 2501ad035950582b67167089972c7d84f25be052
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 655ee2e4bd49e63aaeade7b0c0bfab5f244adae9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628996"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748520"
 ---
 # <a name="front-end-general-settings-expander"></a>Expandeur des paramètres généraux du serveur frontal
 

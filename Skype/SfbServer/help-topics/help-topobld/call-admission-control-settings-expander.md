@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres du contrôle d’admission des appels
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: Le contrôle d’admission des appels est un réseau de régions, de sites et de sous-réseaux vous permettant de placer des restrictions sur les transmissions audio et vidéo en fonction de la bande passante disponible. Après avoir configuré le réseau pour le contrôle d’admission des appels, vous devez activer le contrôle d’admission des appels pour appliquer les restrictions de bande passante.
-ms.openlocfilehash: 23a881bf502a161a5a81e17a23a889ff1324f6c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7cd2a5d6637ce6d486bdaf70bc279ab4db10fc0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582768"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747764"
 ---
 # <a name="call-admission-control-settings-expander"></a>Expandeur des paramètres du contrôle d’admission des appels
  

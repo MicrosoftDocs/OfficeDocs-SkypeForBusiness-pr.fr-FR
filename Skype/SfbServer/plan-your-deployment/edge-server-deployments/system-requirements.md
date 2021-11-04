@@ -1,7 +1,7 @@
 ---
 title: Conditions requises pour le système du serveur Edge dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Résumé : Découvrez la requise pour le serveur Edge dans Skype Entreprise Server.'
-ms.openlocfilehash: bc8a6666f46d093c9f3d2da41f2663c79e94ddf3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 573c9c71493c4bed59ce6fbde4dafa95848b469f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622156"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763492"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Conditions requises pour le système du serveur Edge dans Skype Entreprise Server
  
@@ -75,7 +75,7 @@ Un serveur proxy inverse (RP) n’a Skype Entreprise Server rôle principal, mai
   
 - se connecter à des réunions ou des conférences rendez-vous à l’aide d’URL simples.
     
-- télécharger le contenu de la réunion.
+- téléchargez le contenu de la réunion.
     
 - développer des groupes de distribution.
     
@@ -89,9 +89,9 @@ Et pour les appareils mobiles :
   
 - Il leur permet de découvrir automatiquement les serveurs frontaux offrant des services de mobilité.
     
-- il active les notifications Push à partir Microsoft 365 ou Office 365 aux appareils mobiles.
+- il active les notifications Push depuis Microsoft 365 ou Office 365 aux appareils mobiles.
     
-Nos recommandations actuelles en matière de proxy inverse sont présentes dans la page Infrastructure de téléphonie [Skype Entreprise](../../../SfbPartnerCertification/certification/infra-gateways.md) web. Votre proxy inverse :
+Nos recommandations actuelles en matière de proxy inverse sont présentes dans la page Infrastructure téléphonique [Skype Entreprise](../../../SfbPartnerCertification/certification/infra-gateways.md) web. Votre proxy inverse :
   
 - doit être en mesure d’utiliser le TLS (Transport Layer Security) introduit dans votre environnement via des certificats publics pour se connecter aux services Web externes publiés de :
     
@@ -101,9 +101,9 @@ Nos recommandations actuelles en matière de proxy inverse sont présentes dans 
     
 - doit être en mesure de publier des sites Web internes à l’aide de certificats pour le chiffrement, ou de les publier sur un moyen non chiffré, si nécessaire.
     
-- doit être en mesure de publier un site web hébergé en interne en externe à l’aide d’un nom de domaine complet ( FQDN).
+- doit être en mesure de publier un site web hébergé en interne en externe à l’aide d’un nom de domaine complet (FQDN).
     
-- doit pouvoir publier tout le contenu de votre site web hébergé. Par défaut, vous pouvez utiliser la directive _ qui est reconnue par la plupart des serveurs web pour signifier « Publier tout le contenu **/\\** sur le serveur web ». Vous pouvez également modifier la directive( par exemple, _*/Uwca/ ***), ce qui signifie « Publier tout le contenu sous le répertoire virtuel \\ Ucwa ».
+- doit être en mesure de publier tout le contenu de votre site web hébergé. Par défaut, vous pouvez utiliser la directive _ qui est reconnue par la plupart des serveurs web pour signifier « Publier tout le contenu **/\\** sur le serveur web ». Vous pouvez également modifier la directive( par exemple, _*/Uwca/ ***), ce qui signifie « Publier tout le contenu sous le répertoire virtuel \\ Ucwa ».
     
 - doit exiger des connexions TLS avec les clients qui demandent du contenu à partir de votre site web publié.
     
@@ -131,7 +131,7 @@ Vous devez placer votre déploiement Edge derrière un pare-feu externe, mais no
 
 Il s’agit d’un rôle facultatif. Il peut s’agit d’un serveur unique ou d’un pool de serveurs exécutant le rôle directeur. Il s’agit d’un rôle trouvé dans l’environnement Skype Entreprise Server interne.
   
-Le directeur est un serveur de saut suivant interne qui reçoit le trafic SIP entrant des serveurs Edge destinés aux serveurs Skype Entreprise Server internes. Il authentifier préalablement les demandes entrantes et les redirige vers le pool ou le serveur d’accueil d’un utilisateur. Cette pré-authentication vous permet de déposer des demandes de comptes d’utilisateur non identifiés.
+Le directeur est un serveur du saut suivant interne qui reçoit le trafic SIP entrant provenant des serveurs Edge destinés à Skype Entreprise Server serveurs internes. Il authentifier préalablement les demandes entrantes et les redirige vers le pool ou le serveur d’accueil d’un utilisateur. Cette pré-authentication vous permet d’abandonner les demandes de comptes d’utilisateur non identifiés.
   
 Pourquoi cela importe-t-il ? Une fonction importante pour un directeur consiste à protéger les serveurs Édition Standard et les serveurs frontaux ou les pools frontaux contre le trafic malveillant, tel que les attaques par déni de service. Si votre réseau est submergé par du trafic externe non valide, le trafic s’arrête au niveau du directeur.
   
@@ -164,18 +164,18 @@ Pour n’importe quel serveur Edge exécutant le service Edge A/V, voici les con
     
 #### <a name="hlb-requirements"></a>Conditions requises pour l’programme d’programme d
 
-Skype Entreprise Server n’a pas beaucoup d’exigences d’affinité basée sur les cookies. Par conséquent, vous n’avez pas besoin d’utiliser une persistance basée sur les cookies, sauf **si** (et c’est spécifique à Skype Entreprise Server 2015) vous allez avoir des serveurs frontux ou des pools frontux Lync Server 2010 dans votre environnement Skype Entreprise Server. Ils doivent avoir une affinité basée sur les cookies dans la méthode de configuration recommandée pour Lync Server 2010.
+Skype Entreprise Server n’a pas beaucoup de conditions requises en matière d’affinité basée sur les cookies. Par conséquent, vous n’avez pas besoin d’utiliser une persistance basée sur les cookies, sauf **si** (et c’est spécifique à Skype Entreprise Server 2015) vous allez avoir des serveurs frontux ou des pools frontux Lync Server 2010 dans votre environnement Skype Entreprise Server. Ils doivent avoir une affinité basée sur les cookies dans la méthode de configuration recommandée pour Lync Server 2010.
   
 > [!NOTE]
 > Si vous décidez d’activer l’affinité basée sur les cookies pour votre programme d’hlb, cela ne pose aucun problème, même si votre environnement n’en a pas besoin. 
   
 Si votre environnement **n’a pas besoin d’affinité** basée sur les cookies :
   
-- Sur la règle de publication du proxy inverse pour le port 443, définissez l’en-tête d’hôte **Forward** sur **True**. Cela garantit le forwarded de l’URL d’origine.
+- Sur la règle de publication du proxy inverse pour le port 443, définissez l’en-tête d’hôte **Forward** sur **True**. Cela permet de s’assurer que l’URL d’origine est bien transmis.
     
 Pour les déploiements **qui ont besoin d’affinité** basée sur les cookies :
   
-- Sur la règle de publication du proxy inverse pour le port 443, définissez l’en-tête d’hôte **Forward** sur **True**. Cela garantit le forwarded de l’URL d’origine.
+- Sur la règle de publication du proxy inverse pour le port 443, définissez l’en-tête d’hôte **Forward** sur **True**. Cela permet de s’assurer que l’URL d’origine est bien transmis.
     
 - Le cookie de l’équilibreur de **charge matérielle ne doit pas** être marqué httpOnly.
     
@@ -186,7 +186,7 @@ Pour les déploiements **qui ont besoin d’affinité** basée sur les cookies :
 - Le **cookie** du programme d’équilibrage de la charge matérielle doit être définie dans chaque réponse HTTP pour laquelle la demande HTTP entrante n’a pas de cookie, qu’une réponse HTTP précédente sur cette même connexion TCP a obtenu ou non un cookie. Si votre programme d’équilibrage de la charge matérielle optimise l’insertion des cookies pour qu’elle ne se produise qu’une seule fois par connexion TCP, cette optimisation ne **doit pas** être utilisée.
     
 > [!NOTE]
-> Il est courant que les configurations hLB utilisent l’affinité source et la durée de vie des sessions TCP de 20 minutes, ce qui est bien pour Skype Entreprise Server et ses clients, car l’état de session est maintenu par le biais de l’utilisation du client et/ou de l’interaction de l’application. 
+> Il est courant que les configurations hLB utilisent l’affinité source et la durée de vie des sessions TCP de 20 minutes, ce qui est bien pour Skype Entreprise Server et ses clients, car l’état de session est maintenu par le biais de l’utilisation du client et/ou de l’interaction avec l’application. 
   
 Si vous déployez des appareils mobiles, votre programme d’équilibrage de la charge réseau doit pouvoir équilibrer la charge des demandes individuelles au sein d’une session TCP (en fait, vous devez être en mesure d’équilibrer la charge d’une demande individuelle en fonction de l’adresse IP cible).
   

@@ -1,7 +1,7 @@
 ---
 title: Disponibilité des applications Approbations dans Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc74480316bca0c958d5badc7168ce6d1651e581
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 35491e8f55e55741f8567c3711f8612464c968e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984719"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769992"
 ---
 # <a name="teams-approvals-app-availability"></a>Disponibilité de l’application Approbations Teams
 
@@ -102,7 +102,7 @@ Autorisations des modèles d’approbation
 - Lorsqu’un administrateur crée un modèle pour l’ensemble de son organisation pour la première fois, il crée automatiquement une équipe Teams pour tous les administrateurs du client, y compris les administrateurs de services de l’équipe et de l’ensemble. Ces administrateurs sont ajoutés en tant que propriétaires de l’équipe, afin qu’ils peuvent co-gérer les modèles d’organisation. Les administrateurs qui débutent dans l’organisation après la création de l’équipe doivent être ajoutés manuellement en tant que propriétaires d’équipe afin qu’ils disposent des mêmes autorisations pour gérer les modèles à l’échelle de l’organisation.
 
 > [!Note]
-> Si un administrateur supprime l’équipe, vous avez un mois pour la restaurer dans le portail Azure Active Directory ad (AAD) afin de restaurer toutes les données associées. Après un mois, ou si l’administrateur supprime cette équipe dans la Corbeille, vous perdrez toutes les données associées.
+> Si un administrateur supprime l’équipe, vous avez un mois pour la restaurer dans le portail Azure Active Directory (AAD) afin de restaurer toutes les données associées. Après un mois, ou si l’administrateur supprime cette équipe dans la Corbeille, vous perdrez toutes les données associées.
 
 ## <a name="disable-the-approvals-app"></a>Gérer l'application Approbations
 

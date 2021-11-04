@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Résumé : Découvrez comment gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server.'
-ms.openlocfilehash: 03f18a74045c7ea2af4ec3a80b25e65b3c2c5cb6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d82be95a3e6ff6fcfc65c5fd7449f9035ee64635
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618840"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763812"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gérer les stratégies de code confidentiel pour les conférences téléphoniques dans Skype Entreprise Server
  
@@ -90,7 +90,7 @@ Vous pouvez modifier la stratégie de code confidentiel globale à l’Skype Ent
     
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Modifier la stratégie globale de code confidentiel des conférences téléphoniques à l’aide Skype Entreprise Server Management Shell
 
-Pour modifier la stratégie globale de code confidentiel de conférence téléphonique, utilisez l’cmdlet **Set-CsPinPolicy.**
+Pour modifier la stratégie globale de code confidentiel des conférences téléphoniques, utilisez l’cmdlet **Set-CsPinPolicy.**
   
 La commande suivante modifie la valeur de MinPasswordLength pour toutes les stratégies de code confidentiel configurées pour être utilisés dans l’organisation. Pour ce faire, la commande appelle d’abord l’cmdlet **Get-CsPinPolicy** sans paramètre afin de récupérer une collection de toutes les stratégies de code confidentiel existantes. Cette collection est ensuite canalée vers l’cmdlet **Set-CsPinPolicy,** qui modifie la valeur de la propriété MinPasswordLength pour chaque stratégie de la collection :
   

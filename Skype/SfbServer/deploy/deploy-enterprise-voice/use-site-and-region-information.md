@@ -1,7 +1,7 @@
 ---
 title: Configurer les paramètres globaux de contournement de média dans Skype Entreprise Server pour utiliser les informations de site et de région
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configurez le contournement de média pour qu’il soit utilisé uniquement pour certains sites et régions dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: d90393c19dffaac425025379258a0ceae24da9cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d1c10ce06421635783a50bf97286c8d752f478b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588986"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741350"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurer les paramètres globaux de contournement de média dans Skype Entreprise Server pour utiliser les informations de site et de région
  

@@ -1,7 +1,7 @@
 ---
 title: Ajouter un magasin SQL Server de conversation permanente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: Vous configurez les magasins SQL Server qui fourniront des bases de données pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente.
-ms.openlocfilehash: 7d3f9754e402c6049c4d0fd8cec9dd97758b5d32
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27063ed9a2858714e6fd26db9fad98db1c47f95e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630838"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763942"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Ajouter un magasin SQL Server de conversation permanente
  
@@ -28,17 +28,17 @@ Vous configurez les magasins SQL Server qui fourniront des bases de données pou
   
  **SQL Server :** sélectionnez une instance de conversation SQL Server et éventuellement une instance pour la conversation permanente.
   
-Cliquez **sur** Nouveau pour définir une nouvelle SQL Server et éventuellement une nouvelle instance pour les données de conversation permanente.
+Cliquez **sur Nouveau** pour définir une nouvelle SQL Server et éventuellement une nouvelle instance pour les données de conversation permanente.
   
 Activez **la case à cocher Activer SQL Server** de mise en miroir pour configurer une base de données SQL Server et une instance facultative qui fournira une base de données en miroir pour les données de conversation permanente.
   
-Dans la liste Mise en **miroir SQL Server** stockez une instance SQL Server et facultative pour agir en tant que miroir SQL Server pour le SQL Server de conversation permanente.
+Sélectionnez dans la liste Mise en **miroir SQL Server** stocker une instance SQL Server et facultative pour agir en tant que miroir SQL Server pour le SQL Server de conversation permanente.
   
 Cliquez **sur** Nouveau pour définir une nouvelle SQL Server et éventuellement une nouvelle instance pour la mise en miroir SQL Server conversation permanente.
   
 Sélectionnez la liste Utiliser **SQL Server** témoin de mise en miroir pour activer le SQL Server automatique qui fera fonction de serveur témoin dans les scénarios de failover. Le serveur témoin ne reflète pas ou n’héberge pas de données pour les serveurs de conversation permanente, mais s’assure qu’une seule SQL Server dans une configuration en miroir est la SQL Server active à tout moment.
   
-Cliquez **sur Nouveau** pour définir un nouveau témoin SQL Server éventuellement une instance pour le témoin de mise en miroir SQL Server conversation permanente.
+Cliquez **sur Nouveau** pour définir un nouveau témoin SQL Server éventuellement une instance pour le témoin de mise en SQL Server conversation permanente.
   
 Cliquez sur **Précédent** pour revenir à la boîte de dialogue précédente de définition de pool.
   

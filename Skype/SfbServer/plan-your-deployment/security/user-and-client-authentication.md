@@ -1,7 +1,7 @@
 ---
 title: Authentification des utilisateurs et des clients pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: Un utilisateur approuvé est un utilisateur dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype Entreprise Server. Il s’agit généralement d’un serveur Standard Edition, d’un serveur frontal Enterprise Edition ou d’un directeur. Skype Entreprise Server s’appuie sur les services de domaine Active Directory comme référentiel unique et approuvé des informations d’identification utilisateur.
-ms.openlocfilehash: 069ce556f37591f7332e8e968dc02e657b090d03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Un utilisateur approuvé est un utilisateur dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype Entreprise Server. Il s’agit généralement d’un serveur Standard Edition, d’un serveur frontal Enterprise Edition ou d’un directeur. Skype Entreprise Server s’appuie sur les services de domaine Active Directory comme référentiel unique et approuvé des informations d’identification de l’utilisateur.
+ms.openlocfilehash: d256efdf69afce16a06b3b055a9446b29deb7cb0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627796"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737640"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Authentification des utilisateurs et des clients pour Skype Entreprise Server
  
-Un utilisateur approuvé est un utilisateur dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype Entreprise Server. Il s’agit généralement d’un serveur Standard Edition, d’un serveur frontal Enterprise Edition ou d’un directeur. Skype Entreprise Server s’appuie sur les services de domaine Active Directory comme référentiel unique et approuvé des informations d’identification utilisateur.
+Un utilisateur approuvé est un utilisateur dont les informations d’identification ont été authentifiées par un serveur approuvé dans Skype Entreprise Server. Il s’agit généralement d’un serveur Standard Edition, d’un serveur frontal Enterprise Edition ou d’un directeur. Skype Entreprise Server s’appuie sur les services de domaine Active Directory comme référentiel unique et approuvé des informations d’identification de l’utilisateur.
   
 L’authentification consiste à donner des informations d’identification des utilisateurs à un serveur approuvé. Skype Entreprise Server utilise les protocoles d’authentification suivants, en fonction de l’état et de l’emplacement de l’utilisateur.
   

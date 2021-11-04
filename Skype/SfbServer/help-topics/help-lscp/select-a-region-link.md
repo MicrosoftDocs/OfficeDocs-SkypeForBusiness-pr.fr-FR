@@ -1,7 +1,7 @@
 ---
 title: Sélectionner un lien de région
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: Utilisez la boîte de dialogue Lien de région pour rechercher les liens de région disponibles dans votre environnement. Pour utiliser un lien de région existant, cliquez sur un lien de région dans la liste, puis sur OK.
-ms.openlocfilehash: 1af8db1402d9fd54768f904024acb178faaa4094
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eb59076ce89f0796f74e3564bfaeb3b2913b2097
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578988"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740850"
 ---
 # <a name="select-a-region-link"></a>Sélectionner un lien de région
  

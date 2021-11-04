@@ -1,7 +1,7 @@
 ---
 title: Complément de conversation permanente – Page principale
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
-description: Vous pouvez utiliser la section De la page Conversation permanente pour associer des URL à des salles de conversation permanente. Ces URL apparaissent dans le client dans la salle de conversation dans le volet d’extensibilité de conversation. Un administrateur doit ajouter des modules à la liste des modules et les créateurs/gestionnaires de salles de conversation doivent associer les salles à l’un des modules ajoutés pour que les utilisateurs voient cette mise à niveau dans leur client.
-ms.openlocfilehash: 0d3f09ee5f2ab130a54d60424ee2966d36e54142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Vous pouvez utiliser la section De la page Conversation permanente pour associer des URL à des salles de conversation permanente. Ces URL apparaissent dans le client dans la salle de conversation dans le volet d’extensibilité de conversation. Un administrateur doit ajouter des modules à la liste des modules et les créateurs/gestionnaires de salles de conversation doivent associer des salles à l’un des modules ajoutés pour que les utilisateurs voient cette mise à niveau dans leur client.
+ms.openlocfilehash: 226810dd7fca7327085a4c715269423ef962a816
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614344"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757316"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Complément de conversation permanente – Page principale
 
-Vous pouvez utiliser la section  **De la** page Conversation permanente pour associer des URL à des salles de conversation permanente. Ces URL apparaissent dans le client dans la salle de conversation dans le volet d’extensibilité de conversation. Un administrateur doit ajouter des modules à la liste des modules et les créateurs/gestionnaires de salles de conversation doivent associer les salles à l’un des modules ajoutés pour que les utilisateurs voient cette mise à niveau dans leur client.
+Vous pouvez utiliser la section **De la** **page** Conversation permanente pour associer des URL à des salles de conversation permanente. Ces URL apparaissent dans le client dans la salle de conversation dans le volet d’extensibilité de conversation. Un administrateur doit ajouter des modules à la liste des modules et les créateurs/gestionnaires de salles de conversation doivent associer des salles à l’un des modules ajoutés pour que les utilisateurs voient cette mise à niveau dans leur client.
 
 Les compléments servent à étendre l’expérience dans la salle. Un add-in type peut inclure une URL pointant vers une application Silverlight qui intercepte lorsqu’un ticker de stock est publié dans une salle de conversation et affiche l’historique des actions dans le volet d’extensibilité. En guise d’autre exemple, citons l’incorporation d’une URL OneNote 2013 dans la salle de conversation en tant que complément pour inclure un contexte partagé, tel que « Tête de liste » ou « Sujet du jour ».
 

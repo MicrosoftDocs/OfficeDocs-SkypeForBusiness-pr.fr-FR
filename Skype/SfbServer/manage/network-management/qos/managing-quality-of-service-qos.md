@@ -5,7 +5,7 @@ ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: La Qualité de service (QoS) est une technologie réseau utilisée dans certaines organisations afin de fournir des performances optimales à l’utilisateur final pour les communications audio et vidéo.
-ms.openlocfilehash: 33c580e61be0dcd2a5a193a654294a5ea9087d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 646d06e7fbd710b8c623b2d54dae773192227d91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612163"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757259"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>Gestion de la qualité de service (QoS) dans Skype Entreprise Server
 
@@ -31,7 +31,7 @@ La Qualité de service (QoS) est une technologie réseau utilisée dans certaine
 > [!NOTE]  
 > En règle générale, la Qualité de service s’applique uniquement aux sessions de communication sur votre réseau interne. Lorsque vous implémentez QoS, vous configurez vos serveurs et routeurs afin de prendre en charge le marquage de paquets ; toutefois, vous configurez ces périphériques pour que cette prise en charge s’effectue d’une manière particulière. Vous ne pouvez pas considérer que la Qualité de service sera prise en charge sur Internet ou sur d’autres réseaux. Même si c’est le cas, il n’est pas garanti que la configuration de QoS sera identique à celle que vous avez faite de ce service sur votre réseau.
 
-Skype Entreprise Server ne nécessite pas la qualité de service ; si vous n’utilisez pas actuellement QoS, il n’est pas nécessaire d’installer le service avant d’installer Skype Entreprise Server. Si vous rencontrez une perte considérable de paquets sur votre réseau, il est recommandé d’ajouter de la bande passante supplémentaire afin de résoudre ce problème. Si ce n’est pas possible, vous pouvez alors implémenter la Qualité de service à la place.
+Skype Entreprise Server ne nécessite pas la qualité de service ; si vous n’utilisez pas QoS actuellement, il n’est pas nécessaire d’installer le service avant d’installer Skype Entreprise Server. Si vous rencontrez une perte considérable de paquets sur votre réseau, il est recommandé d’ajouter de la bande passante supplémentaire afin de résoudre ce problème. Si ce n’est pas possible, vous pouvez alors implémenter la Qualité de service à la place.
 
 Skype Entreprise Server offre une prise en charge complète de la qualité de service : cela signifie que les organisations qui utilisent déjà QoS peuvent facilement intégrer des Skype Entreprise Server à leur infrastructure réseau existante. Pour cela, vous devez effectuer les tâches suivantes :
 

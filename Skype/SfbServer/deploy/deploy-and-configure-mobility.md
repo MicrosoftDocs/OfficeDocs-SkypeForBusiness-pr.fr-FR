@@ -1,7 +1,7 @@
 ---
 title: Déployer et configurer la mobilité pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Cet article vous explique comment configurer une installation Skype Entreprise Server existante pour utiliser le service de mobilité, ce qui permet à vos appareils mobiles de tirer parti des fonctionnalités de mobilité Skype Entreprise Server.
-ms.openlocfilehash: c0b8a3e2902a8605f952683d6a3629af9e075798
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611333"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741500"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Déployer et configurer la mobilité pour Skype Entreprise Server  
  
@@ -27,10 +27,10 @@ Après avoir consulté [l’article Plan for Mobility for Skype Entreprise Serve
   
 |**Étape**|**Autorisations**|
 |:-----|:-----|
-|[Créer des enregistrements DNS](deploy-and-configure-mobility.md#CreateDNSRec) <br/> |Admins du domaine  <br/> DNSAdmins  <br/> |
+|[Créer des enregistrements DNS](deploy-and-configure-mobility.md#CreateDNSRec) <br/> |Administrateurs du domaine  <br/> Administrateurs DNS  <br/> |
 |[Modifier les certificats](deploy-and-configure-mobility.md#ModCerts) <br/> |Administrateur local  <br/> |
 |[Configurer le proxy inverse](deploy-and-configure-mobility.md#ConfigRP) <br/> |Administrateur local  <br/> |
-|[Configurer la découverte automatique pour la mobilité avec des déploiements hybrides](deploy-and-configure-mobility.md#ConfigAutoD) <br/> |Admins du domaine  <br/> |
+|[Configurer la découverte automatique pour la mobilité avec des déploiements hybrides](deploy-and-configure-mobility.md#ConfigAutoD) <br/> |Administrateurs du domaine  <br/> |
 |[Tester votre déploiement de mobilité](deploy-and-configure-mobility.md#TestMobility) <br/> |CsAdministrator  <br/> |
 |[Configurer les notifications de type push](deploy-and-configure-mobility.md#ConfigPush) <br/> |RtcUniversalServerAdmins  <br/> |
 |[Configurer la stratégie de mobilité](deploy-and-configure-mobility.md#ConfigMob) <br/> |CsAdministrator  <br/> |
@@ -55,7 +55,7 @@ Ces enregistrements peuvent être des noms A (hôte) ou des enregistrements CNAM
 
 1. Connectez-vous à un serveur DNS de votre réseau qui est membre du groupe **Administrateurs** du domaine ou du groupe **DnsAdmins.**
     
-2. Cliquez sur Démarrer, Choisissez outils  d’administration **(vous** devrez peut-être le rechercher s’il ne s’agit pas d’une option de la menu Démarrer), puis cliquez sur **DNS** pour ouvrir le logiciel en ligne d’administration DNS.
+2. Cliquez sur Démarrer, Choisissez outils  d’administration **(vous** devrez peut-être le rechercher s’il ne s’agit pas d’une option en dehors du menu Démarrer), puis cliquez sur **DNS** pour ouvrir le logiciel en ligne d’administration DNS.
     
 3. Dans le volet gauche de la fenêtre de la console, vous devez aller dans le domaine qui est le domicile des serveurs frontux de votre Skype Entreprise Server et y développer les **zones** de recherche avant.
     
@@ -97,7 +97,7 @@ Ces enregistrements peuvent être des noms A (hôte) ou des enregistrements CNAM
 
 1. Connectez-vous à un serveur DNS de votre réseau qui est membre du groupe **Administrateurs** du domaine ou du groupe **DnsAdmins.**
     
-2. Cliquez sur Démarrer, Choisissez outils  d’administration **(vous** devrez peut-être le rechercher s’il ne s’agit pas d’une option de la menu Démarrer), puis cliquez sur **DNS** pour ouvrir le logiciel en ligne d’administration DNS.
+2. Cliquez sur Démarrer, Choisissez outils  d’administration **(vous** devrez peut-être le rechercher s’il ne s’agit pas d’une option en dehors du menu Démarrer), puis cliquez sur **DNS** pour ouvrir le logiciel en ligne d’administration DNS.
     
 3. Dans le volet gauche de la fenêtre de la console, vous devez aller dans le domaine qui est le domicile des serveurs frontux de votre Skype Entreprise Server et y développer les **zones** de recherche avant.
     
@@ -113,7 +113,7 @@ Ces enregistrements peuvent être des noms A (hôte) ou des enregistrements CNAM
     
 7. Dans la boîte de texte Adresse **IP,** tapez l’adresse IP des services web internes pour votre pool frontal (ou serveur frontal unique, ou pool directeur ou directeur), identifiée à l’étape 4 ci-dessus.
     
-8. Lorsque cela est terminé, cliquez sur **Ajouter** un hôte, puis cliquez sur **OK.**
+8. Lorsque cela est terminé, cliquez **sur Ajouter** un hôte, puis cliquez sur **OK.**
     
 9. Vous devez créer un nouvel enregistrement A ou AAAA de découverte automatique dans la zone de recherche avant pour chaque domaine SIP pris en charge dans votre environnement Skype Entreprise Server. Pour ce faire, répétez les étapes 6 à 8 autant de fois que nécessaire.
     
@@ -158,7 +158,7 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
     
 2. Ouvrez Skype Entreprise Server Management Shell (vous pouvez utiliser la recherche pour la trouver si vous ne l’avez pas épinglée à votre menu Démarrer ou barre des tâches).
     
-3. Il sera essentiel pour vous de savoir quels certificats ont été affectés avant d’essayer d’ajouter un certificat mis à jour. À partir de la commande, tapez :
+3. Il sera essentiel de savoir quels certificats ont été affectés avant d’essayer d’ajouter un certificat mis à jour. À partir de la commande, tapez :
     
    ```powershell
    Get-CsCertificate
@@ -208,7 +208,7 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
 
 - En fonction de ce que vous avez trouvé dans la section « Ai-je besoin de nouvelles certifications ci-dessus , vous devez **exécuter** l’une des procédures suivantes .
     
-  - Si vous avez un seul certificat pour tout (les empreintes sont identiques), vous devez exécuter cette :
+  - Si vous avez un certificat unique pour tout (les empreintes sont identiques), vous devez exécuter cette :
     
   ```powershell
   Set-CsCertificate -Type <certificate(s) from the Use parameter> -Thumbprint <unique identifier>
@@ -224,11 +224,11 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
 
 ### <a name="viewing-certificates-in-the-microsoft-management-console-mmc"></a>Affichage des certificats dans la console MMC (Microsoft Management Console)
 
-1. Vous avez la possibilité d’examiner vos certificats à l’aide du logiciel en snap-in Certificats pour la MMC. Il vous suffit de taper MMC dans la recherche et elle doit apparaître en tant qu’option d’application.
+1. Vous avez la possibilité d’examiner vos certificats à l’aide du logiciel en snap-in Certificats pour la MMC. Il vous suffit de taper MMC dans la recherche et il doit apparaître en tant qu’option d’application.
     
 2. Pour ajouter le logiciel en un clin d’œil Certificats, vous devez cliquer sur **Fichier,** puis **Ajouter/Supprimer** un logiciel en un clin d’œil... (ou le raccourci clavier **Ctrl+M** fonctionne également). **Les certificats** seront une option dans le volet de  gauche, sélectionnez-la, puis compte d’ordinateur dans la fenêtre fenêtre pop-up, puis **Suivant**.
     
-3. Toujours dans la fenêtre pop-up, il est fort probable que vous le faisiez sur l’ordinateur qui est le domicile des certificats que vous devez examiner. Laissez donc la sélection sur l’ordinateur **local** si c’est le cas. Si vous travaillez sur un ordinateur distant, modifiez la bouton d’radio sur **Un** autre  ordinateur, puis entrez le nom deqdn de cet ordinateur ou utilisez le bouton Parcourir pour rechercher cet ordinateur via AD. Après avoir sélectionné l’ordinateur, vous  devez cliquer sur Terminer lorsque vous êtes prêt, puis **OK** pour ajouter le logiciel en snap-in à la MMC.
+3. Toujours dans la fenêtre pop-up, selon toute probabilité que vous le faites sur l’ordinateur qui est le domicile des certificats que vous devez examiner, laissez la sélection sur l’ordinateur **local** si c’est le cas. Si vous travaillez sur un ordinateur distant, modifiez la bouton d’radio sur **Un** autre  ordinateur, puis entrez le nom deqdn de cet ordinateur ou utilisez le bouton Parcourir pour rechercher cet ordinateur via AD. Après avoir sélectionné l’ordinateur, vous  devez cliquer sur Terminer lorsque vous êtes prêt, puis **OK** pour ajouter le logiciel en snap-in à la MMC.
     
 4. Développez la section **Certificats** dans le volet gauche de la MMC. Développez **également le** dossier Personnel, puis sélectionnez **Certificats.** Cela vous permet de voir les certificats dans ce magasin.
     
@@ -237,7 +237,7 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
     > [!NOTE]
     > Comment savoir quel certificat s’agit-il ? Ce doit être le certificat unique affecté à tous les éléments de votre batterie de serveurs, ou vous pouvez avoir plusieurs certificats pour différents éléments, tels que default, Internal Web Services, etc., auquel cas vous devrez peut-être examiner plusieurs certificats. Plusieurs certificats auront la même empreinte numérique. 
   
-6. Une fois que vous  avez obtenu l’affichage Certificat, choisissez **Détails**. Cela vous permet de voir le nom de l’objet du certificat lorsque vous sélectionnez **Objet,** et le nom du sujet affecté et les propriétés associées sont affichés.
+6. Une fois que vous  avez obtenu l’affichage Certificat, choisissez **Détails**. Cela vous permet de voir le nom de l’objet du certificat lorsque vous sélectionnez **Objet** et le nom du sujet affecté et les propriétés associées sont affichés.
     
 7. Vous devez également vérifier les entrées de **l’autre nom du** sujet. Vous trouverez une ou plusieurs des informations suivantes :
     
@@ -260,7 +260,7 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
 ## <a name="configure-the-reverse-proxy"></a>Configurer le proxy inverse
 <a name="ConfigRP"> </a>
 
-Les étapes ci-dessous ne sont pas destinées à être suivies exactement. En effet, dans les versions précédentes du produit, nous vous avons parcourus, par exemple, en configurant la passerelle de gestion des menaces (TMG) et si vous n’utilisiez pas cette version, vous devrez trouver votre propre version à partir de là.
+Les étapes ci-dessous ne sont pas destinées à être suivies exactement. En effet, dans les versions précédentes du produit, nous vous avons parcourus, par exemple, en configurant TMG (Threat Management Gateway) et si vous n’utilisiez pas cette version, vous devrez trouver votre propre version à partir de là.
   
 TMG n’est plus proposé par Microsoft en tant que produit, et si vous devez encore le configurer, vous pouvez examiner les étapes [de Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-the-reverse-proxy-for-mobility) Toutefois, les informations suivantes sont destinées à être plus généralement utiles, même s’il n’existe aucun moyen de fournir des étapes de procédure pas à pas spécifiques pour chaque proxy inverse.
   
@@ -283,11 +283,11 @@ Nous devons prendre en compte deux éléments principaux :
     
 2. Vous devez localiser votre règle de publication web et choisir l’option Modifier (elle peut se trouver dans un menu ou un onglet, selon votre configuration de proxy inverse).
     
-3. Il doit y avoir une zone qui indique à quoi s’applique cette règle de publication web. Vous devez modifier cette règle pour les sites entrants ou les demandes de sites. Vous allez ajouter **une** nouvelle entrée.
+3. Il doit y avoir une zone qui indique à quoi cette règle de publication web s’applique. Vous devez modifier cette règle pour les sites entrants ou les demandes de sites. Vous allez ajouter **une** nouvelle entrée.
     
 4. Tapez le nom de votre site de découverte automatique (l’exemple que nous allons utiliser est lyncdiscover.contoso.com), puis cliquez sur **OK** ou **Enregistrer,** en fonction du format de votre proxy inverse.
     
-5. Vous disposez peut-être d’un nouveau certificat avec l’entrée SAN de découverte automatique. Il doit également être installé et configuré pour être utilisé en fonction des paramètres de votre proxy inverse. N’oubliez pas de tout enregistrer une fois la configuration terminée.
+5. Vous disposez peut-être d’un nouveau certificat avec l’entrée SAN de découverte automatique. Celui-ci doit également être installé et configuré pour être utilisé en fonction des paramètres de votre proxy inverse. N’oubliez pas de tout enregistrer une fois la configuration terminée.
     
 6. Si votre proxy inverse dispose d’une fonctionnalité **test,** utilisez-la pour vous assurer que tout fonctionne correctement.
     
@@ -351,7 +351,7 @@ Nous devons prendre en compte deux éléments principaux :
     
    - **Action de** la règle :  dans ce cas, il s’agit d’une règle d’autoriser, vous laissez quelque chose passer par votre proxy inverse.
     
-   - La **règle de** publication ou l’option que vous choisissez serait un site web unique ou un **équilibrage de charge.**
+   - La **règle de** publication ou l’option que vous choisissez serait un site web unique ou un **équilibreur de charge.**
     
    - Il doit s’agit d’une connexion non sécurisée pour se connecter au serveur Web ou à la batterie **de serveurs publié.**
     
@@ -388,7 +388,7 @@ Nous devons prendre en compte deux éléments principaux :
 
 Les environnements hybrides Skype Entreprise Server sont des environnements qui combinent un environnement local et un environnement O365. Lorsque vous avez Skype Entreprise Server dans un environnement hybride, le service de découverte automatique doit pouvoir localiser un utilisateur à partir de l’un de ces environnements.
   
-Pour que les clients mobiles trouvent l’emplacement d’un utilisateur, le service de découverte automatique doit être configuré avec une nouvelle URL (Uniform Resource Locator). Voici comment procéder :
+Pour que les clients mobiles découvrent l’emplacement d’un utilisateur, le service de découverte automatique doit être configuré avec une nouvelle URL (Uniform Resource Locator). Voici comment procéder :
   
 1. Ouvrez Skype Entreprise Server Management Shell.
     
@@ -420,7 +420,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
 
 1. Log on as a member of the **CsAdministrator** role on any computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
-2. Démarrez **l Skype Entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou aller à Tous les programmes et le choisir). 
+2. Démarrez **l Skype Entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou aller à **Tous** les programmes et le choisir).
     
 3. À partir de la ligne de commande, entrez :
     
@@ -428,7 +428,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
    Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
    ```
 
-   Il est également possible de définir des informations d’identification dans un script et de les transmettre à la cmdlet de test. Nous en avons un exemple ci-dessous.
+   Il est également possible de définir des informations d’identification dans un script et de les transmettre à l’cmdlet de test. Nous en avons un exemple ci-dessous.
     
    ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
@@ -445,7 +445,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
 
 1. Log on as a member of the **CsAdministrator** role on any computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
-2. Démarrez **l Skype Entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou aller à Tous les programmes et le choisir). 
+2. Démarrez **l Skype Entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou aller à **Tous** les programmes et le choisir).
     
 3. À partir de la ligne de commande, entrez :
     
@@ -453,7 +453,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
    Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
    ```
 
-   Il est également possible de définir des informations d’identification dans un script et de les transmettre à la cmdlet de test. Nous en avons un exemple ci-dessous.
+   Il est également possible de définir des informations d’identification dans un script et de les transmettre à l’cmdlet de test. Nous en avons un exemple ci-dessous.
     
    ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
@@ -468,7 +468,7 @@ Pour passer en revue les procédures de commande, vous pouvez consulter [Test-Cs
 ## <a name="configure-for-push-notifications"></a>Configurer les notifications de type push
 <a name="ConfigPush"> </a>
 
-Les notifications Push, sous forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un appareil mobile même lorsque l’application Skype ou Lync est inactive. Mais qu’est-ce que les notifications Push ? Il s’agit d’alertes d’événement, telles qu’une invitation de messagerie instantanée nouvelle ou manquée, ou pour une messagerie vocale reçue. Le service de mobilité Skype Entreprise Server envoie ces notifications au service de notification push Skype Entreprise Server basé sur le cloud, qui envoie ensuite les notifications au service MSNS (Microsoft Push Notification Service) pour les Windows Phone utilisateurs.
+Les notifications Push, sous forme de badges, d’icônes ou d’alertes, peuvent être envoyées à un appareil mobile même lorsque l’application Skype ou Lync est inactive. Mais qu’est-ce que les notifications Push ? Il s’agit d’alertes d’événement, telles qu’une invitation de messagerie instantanée nouvelle ou manquée, ou pour une messagerie vocale reçue. Le service de mobilité Skype Entreprise Server envoie ces notifications au service de notification push Skype Entreprise Server basé sur le cloud, qui envoie ensuite les notifications au service de notifications Push de Microsoft (MSNS) pour les Windows Phone utilisateurs.
   
 Cette fonctionnalité est inchangée par rapport à Lync Server 2013, mais si vous avez une Skype Entreprise Server, vous devez :
   
@@ -480,7 +480,7 @@ Cette fonctionnalité est inchangée par rapport à Lync Server 2013, mais si vo
     
 ### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>Configurer votre serveur Edge Skype Entreprise pour les notifications Push
 
-1. Connectez-vous, avec un compte membre du rôle **CsAdministrator,** à un ordinateur sur lequel **Skype Entreprise Server Management Shell** et **Ocscore** sont installés.
+1. Log on, with an account that’s a member of the **CsAdministrator** role, to a computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
 2. Démarrez le **Skype Entreprise Server Management Shell.**
     
@@ -507,7 +507,7 @@ Cette fonctionnalité est inchangée par rapport à Lync Server 2013, mais si vo
 
 ### <a name="enable-push-notifications"></a>Activer les notifications Push
 
-1. Connectez-vous, avec un compte membre du rôle **CsAdministrator,** à un ordinateur sur lequel **Skype Entreprise Server Management Shell** et **Ocscore** sont installés.
+1. Log on, with an account that’s a member of the **CsAdministrator** role, to a computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
 2. Démarrez le **Skype Entreprise Server Management Shell.**
     
@@ -525,7 +525,7 @@ Cette fonctionnalité est inchangée par rapport à Lync Server 2013, mais si vo
 
 ### <a name="test-federation-and-push-notifications"></a>Tester la fédération et les notifications Push
 
-1. Connectez-vous, avec un compte membre du rôle **CsAdministrator,** à un ordinateur sur lequel **Skype Entreprise Server Management Shell** et **Ocscore** sont installés.
+1. Log on, with an account that’s a member of the **CsAdministrator** role, to a computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
 2. Démarrez le **Skype Entreprise Server Management Shell.**
     
@@ -556,7 +556,7 @@ Cette fonctionnalité est inchangée par rapport à Lync Server 2013, mais si vo
 ## <a name="configure-mobility-policy"></a>Configurer la stratégie de mobilité
 <a name="ConfigMob"> </a>
 
-Vous avez la possibilité avec Skype Entreprise Server de déterminer qui peut utiliser votre service de mobilité, Appel via le travail, VoIP (Voice over IP) ou vidéo, ainsi que si le WiFi sera requis pour voIP ou vidéo. L’appel via le lieu de travail permet à un utilisateur mobile d’utiliser son numéro de téléphone de travail, au lieu de son numéro de téléphone mobile, pour passer et recevoir des appels. La personne à l’autre extrémité de la ligne ne verra pas le numéro de téléphone portable de cet utilisateur mobile et elle lui permet d’éviter les frais d’appels sortants. Lorsque voIP et vidéo sont mis en place, les utilisateurs peuvent prendre et effectuer des appels VoIP et de la vidéo. Les paramètres d’utilisation du WiFi déterminent si l’appareil mobile d’un utilisateur doit utiliser un réseau WiFi sur un réseau de données cellulaires.
+Vous avez la possibilité avec Skype Entreprise Server de déterminer qui peut utiliser votre service de mobilité, Appel via le travail, VoIP (Voice over IP) ou vidéo, ainsi que si le WiFi sera requis pour voIP ou vidéo. L’appel via le lieu de travail permet à un utilisateur mobile d’utiliser son numéro de téléphone de travail, au lieu de son numéro de téléphone mobile, lors de l’appel et de la réception d’appels. La personne à l’autre extrémité de la ligne ne verra pas le numéro de téléphone portable de cet utilisateur mobile et elle lui permet d’éviter les frais d’appels sortants. Lorsque voIP et vidéo sont mis en place, les utilisateurs peuvent prendre et effectuer des appels VoIP et vidéo. Les paramètres d’utilisation du WiFi déterminent si l’appareil mobile d’un utilisateur doit utiliser un réseau WiFi sur un réseau de données cellulaires.
   
 La mobilité, l’appel via le travail et les fonctionnalités VoIP et vidéo sont toutes activées par défaut. Le paramètre pour exiger le WiFi pour VoIP et la vidéo est désactivé. Un administrateur a la possibilité de modifier cela, globalement, par site ou par utilisateur.
   

@@ -1,7 +1,7 @@
 ---
 title: Haute disponibilité et gestion du pool frontal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Découvrez la gestion des pools frontux dans Skype Entreprise Server, notamment la gestion des pools, la perte de quorum et les étapes spéciales pour les pools avec seulement deux serveurs frontux.
-ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585008"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737680"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Haute disponibilité et gestion du pool frontal
  
@@ -45,25 +45,25 @@ La première fois que vous démarrez un nouveau pool frontal, il est essentiel q
   
 |Nombre total de serveurs dans le pool  <br/> |Nombre de serveurs devant être en cours d’exécution pour que le pool soit démarré pour la première fois  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
-|3   <br/> |3   <br/> |
-|4   <br/> |3   <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
+|2  <br/> |1  <br/> |
+|3  <br/> |3  <br/> |
+|4   <br/> |3  <br/> |
+|5  <br/> |4   <br/> |
+|6   <br/> |5  <br/> |
+|7   <br/> |5  <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
-|10   <br/> |8   <br/> |
-|11   <br/> |9   <br/> |
-|12   <br/> |10   <br/> |
+|10  <br/> |8   <br/> |
+|11  <br/> |9   <br/> |
+|12   <br/> |10  <br/> |
 |16 **pour Skype Entreprise Server 2019** <br/> |12   <br/> |
 
 
    
-Chaque fois que le pool est démarré, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). Si ce nombre de serveurs ne peut pas être démarré (mais qu’un nombre suffisant de serveurs peut être démarré afin de ne pas être en perte de quorum au niveau du pool), vous pouvez utiliser la cmdlet pour permettre au pool de récupérer de cette perte de quorum au niveau du groupe de routage et  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` d’avancer. Pour plus d’informations sur l’utilisation de cette cmdlet, voir [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
+Chaque fois que le pool est démarré, 85 % des serveurs doivent être démarrés (comme indiqué dans le tableau précédent). Si ce nombre de serveurs ne peut pas être démarré (mais que suffisamment de serveurs peuvent être démarrés afin de ne pas être en perte de quorum au niveau du pool), vous pouvez utiliser la cmdlet pour permettre au pool de récupérer de cette perte de quorum au niveau du groupe de routage et  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` d’avancer. Pour plus d’informations sur l’utilisation de cette cmdlet, voir [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
-> Dans les pools avec un nombre de serveurs Skype Entreprise Server, la base de données SQL principal en tant que témoin. Dans un pool comme celui-ci, si vous fermez la base de données principale et que vous basculez vers la copie miroir, et que vous fermez suffisamment de serveurs frontux afin que suffisamment de serveurs ne fonctionnent pas en fonction du tableau précédent, tout le pool est arrêté. Pour plus d’informations, [voir Témoin de mise en miroir de bases de données.](/sql/database-engine/database-mirroring/database-mirroring-witness) 
+> Dans les pools avec un nombre de serveurs Skype Entreprise Server utilise la base de données SQL comme témoin. Dans un pool comme celui-ci, si vous fermez la base de données principale et que vous basculez vers la copie miroir, et que vous fermez suffisamment de serveurs frontux afin que suffisamment de serveurs ne fonctionnent pas en fonction du tableau précédent, tout le pool est arrêté. Pour plus d’informations, [voir Témoin de mise en miroir de bases de données.](/sql/database-engine/database-mirroring/database-mirroring-witness) 
   
 #### <a name="pool-level-quorum-loss"></a>Perte de quorum au niveau du pool
 
@@ -71,7 +71,7 @@ Pour qu’un pool frontal fonctionne, il ne peut pas se trouver dans une perte d
   
 |Nombre total de serveurs frontaux dans le pool  <br/> |Nombre de serveurs devant s’exécuter pour que le pool soit opérationnel  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|2  <br/> |1  <br/> |
 |3-4  <br/> |N’importe quel 2  <br/> |
 |5-6  <br/> |N’importe quel 3  <br/> |
 |7   <br/> |N’importe quel 4  <br/> |
@@ -94,7 +94,7 @@ Vous devez surveiller quelques autres facteurs pour vous assurer que vos pools f
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Pool frontal avec deux serveurs frontux
 
-Nous vous déconseillons de déployer un pool frontal qui ne contient que deux serveurs frontiers. Ce petit pool ne fournit pas de solution de haute disponibilité robuste comme le ferait un pool plus important et nécessite une attention supplémentaire en ce qui a été fait. En outre, si le serveur principal d’un pool à deux serveurs est en panne, l’intégralité du pool proprement dit sera probablement bientôt également en panne. Si vous souhaitez déployer un ou deux serveurs exécutant Skype Entreprise Server, nous vous recommandons de les déployer en tant que Édition Standard serveurs.
+Nous vous déconseillons de déployer un pool frontal qui ne contient que deux serveurs frontux. Ce petit pool ne fournit pas de solution de haute disponibilité robuste comme le ferait un pool plus important et nécessite une attention supplémentaire en ce qui a été fait. En outre, si le serveur principal d’un pool à deux serveurs est en panne, il est probable que l’intégralité du pool proprement dit soit bientôt également en panne. Si vous souhaitez déployer un ou deux serveurs exécutant Skype Entreprise Server, nous vous recommandons de les déployer en tant que Édition Standard serveurs.
   
 Si vous avez besoin de déployer un pool avec deux serveurs frontux, suivez les instructions suivantes :
   

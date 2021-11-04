@@ -2,7 +2,7 @@
 title: Gestion de la récupération d’urgence, de la haute disponibilité et du service de sauvegarde
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Découvrez les procédures relatives aux opérations de récupération d’urgence, ainsi que la maintenance du service de sauvegarde, qui synchronise les données dans les pools frontaux couplés.
-ms.openlocfilehash: b8635728710efbd2c820b6ca57333f77b56d04e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 962f595dffb56f36ce8d6008db62308c352706cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612263"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763702"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gestion Skype Entreprise Server récupération d’urgence, haute disponibilité et service de sauvegarde
 

@@ -1,7 +1,7 @@
 ---
 title: Configurer le serveur d’interconnexion vidéo dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Résumé : Configurez le rôle VIS (Video Interop Server) dans Skype Entreprise Server.'
-ms.openlocfilehash: cebfb35f740a0060a22bd125ccc2448c0092e87c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61ab8f8b5c6538491de63696d9445672ce9211cf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595978"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741300"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurer le serveur d’interconnexion vidéo dans Skype Entreprise Server
  
-**Résumé :** Configurez le rôle vis (Video Interop Server) dans Skype Entreprise Server.
+**Résumé :** Configurez le rôle VIS (Video Interop Server) dans Skype Entreprise Server.
   
  Configurez les paramètres que le VIS associera aux trunks vidéo à l’aide de Windows PowerShell. Une configuration de trunk vidéo avec une étendue globale est créée une fois le service VIS installé. Cette configuration de trunk vidéo est appliquée par le VIS à toutes les trunks qui n’ont pas de configuration de trunk vidéo avec une portée plus spécifique. Notez que la configuration de la vidéoconférente est une collection de paramètres applicables aux trunks vidéo.
   
@@ -30,7 +30,7 @@ ms.locfileid: "58595978"
 
 Utilisez les commandes de Windows PowerShell suivantes pour spécifier la configuration de la vidéo et le plan de numérotation à associer aux nouvelles connexions définies dans le document de topologie entre le VIS et toutes les passerelles vidéo. Tous ces paramètres peuvent être définies aux niveaux global, site ou service (passerelle vidéo). 
   
-Un plan de numérotation avec une étendue globale est créé par déploiement Skype Entreprise Server déploiement. Ce plan de numérotation est appliqué par le VIS à toutes les trunks qui n’ont pas de plan de numérotation avec une étendue plus spécifique. 
+Un plan de numérotation avec une étendue globale est créé par déploiement Skype Entreprise Server déploiement. Ce plan de numérotation est appliqué par le VIS à toutes les connexions qui n’ont pas de plan de numérotation avec une étendue plus spécifique. 
   
 ### <a name="configure-the-vis-using-windows-powershell"></a>Configurer le VIS à l’aide Windows PowerShell
 

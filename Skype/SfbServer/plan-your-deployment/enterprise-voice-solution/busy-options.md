@@ -1,7 +1,7 @@
 ---
 title: Planifier les options Busy pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Découvrez la fonctionnalité Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: c43a5a0cae0a798f3c38c62b4a1c7895d9704fbb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d47b31c53b5357a520f6aa0b3a6c0a02c18df8f2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583878"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756541"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planifier les options Busy pour Skype Entreprise Server
  
@@ -36,7 +36,7 @@ Cette rubrique décrit les fonctionnalités de Busy Options. Pour plus d’infor
 
 Si Busy Options est activée pour l’organisation, tous les utilisateurs de votre organisation, les utilisateurs Voix Entreprise et non Voix Entreprise, peuvent utiliser les fonctionnalités suivantes :
   
-- Occupé (occupé) : les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
+- Occupé(s) : dans lequel les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
     
 - Messagerie vocale sur Busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
     
@@ -96,7 +96,7 @@ Busy Options offre une interopérabilité avec les applications Voice suivantes 
     
   - Les options Busy on Busy et Voicemail on Busy natives de l’apparence de ligne partagée seront honorées à la place.
     
-- Service de parc public d’appel 
+- Service de parc d’appel 
     
   - Les appels par parcés qui n’ont pas été récupérés et qui sonnent en raison du délai d’arrêt seront autorisés à sonner pour l’utilisateur qui a par parcé l’appel par busy options. 
     

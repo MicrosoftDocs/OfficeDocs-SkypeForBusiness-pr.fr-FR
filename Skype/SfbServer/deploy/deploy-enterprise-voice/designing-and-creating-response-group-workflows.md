@@ -1,7 +1,7 @@
 ---
 title: Conception et création de flux de travail Response Group dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Concevez et créez des flux de travail Response Group, Skype Entreprise Server Voix Entreprise. Les flux de travail de groupe de recherche et les flux de travail interactifs sont abordés.
-ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730953"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755757"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Conception et création de flux de travail Response Group dans Skype Entreprise
 
@@ -280,10 +280,10 @@ Vous pouvez utiliser la réponse vocale interactive (IVR) pour obtenir des infor
 
 L’application Response Group offre des fonctionnalités de reconnaissance vocale et de reconnaissance vocale dans 26 langues. Vous pouvez entrer les questions du système de réponse vocale interactive à l’aide de la conversion de texte par synthèse vocale, d’un fichier wave (.wav) ou d’un fichier audio Windows Media (.wma). Les appelants peuvent répondre à l’aide de la voix ou de réponses de numérotation en fréquences vocales (DTMF).
 
-Les workflows interactifs prennent en charge jusqu’à deux niveaux de questions, chaque question comportant un maximum de quatre réponses possibles. Le système de réponse vocale (IVR) pose une question à l’appelant et, selon la réponse de l’appelant, l’approvisionnement vers une file d’attente ou une deuxième question. Quatre réponses sont également possibles pour la deuxième question. Selon la réponse à la question de second niveau, l’appelant est acheminé vers la file d’attente appropriée.
+Les workflows interactifs prennent en charge jusqu’à deux niveaux de questions, chaque question comportant un maximum de quatre réponses possibles. Le système de réponse vocale (IVR) pose une question à l’appelant et, selon la réponse de l’appelant, l’approvisionnement vers une file d’attente ou lui pose une deuxième question. Quatre réponses sont également possibles pour la deuxième question. Selon la réponse à la question de second niveau, l’appelant est acheminé vers la file d’attente appropriée.
 
 > [!NOTE]
-> Lorsque vous concevez des flux d’appels à l’aide de Skype Entreprise Server Management Shell, vous pouvez définir n’importe quel nombre de niveaux de questions du système de réponse vocale vocale (IVR) et n’importe quel nombre de réponses. Toutefois, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. En outre, si vous concevez un flux d’appels qui a plus de deux niveaux de questions avec plus de quatre réponses, vous ne pouvez pas modifier le flux d’appels à l’aide du Panneau de Skype Entreprise Server.
+> Lorsque vous concevez des flux d’appels à l’aide de Skype Entreprise Server Management Shell, vous pouvez définir n’importe quel nombre de niveaux de questions du système de réponse vocale vocale et n’importe quel nombre de réponses. Toutefois, pour faciliter l’utilisation par l’appelant, nous vous conseillons de vous limiter à trois niveaux de questions et cinq réponses par niveau. En outre, si vous concevez un flux d’appels qui a plus de deux niveaux de questions avec plus de quatre réponses, vous ne pouvez pas modifier le flux d’appels à l’aide du Panneau de Skype Entreprise Server.
 
 Les questions du système de réponse vocale vocale (IVR) et les réponses de l’appelant sont fournies à l’agent qui accepte l’appel.
 
@@ -460,7 +460,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
 
 20. Si vous créez un planning personnalisé pour ce workflow, activez les cases à cocher correspondant aux jours de la semaine pendant lesquels le groupe Response Group est disponible.
 
-21. Si vous créez une planification  personnalisée, tapez les heures d’ouverture et de fermeture lorsque le groupe Response Group sera disponible. 
+21. Si vous créez une planification personnalisée, tapez les **heures** d’ouverture et de fermeture lorsque le groupe Response Group sera disponible. 
 
      > [!NOTE]
      > Les heures **Ouverture** et **Fermeture** doivent être au format 24 heures. Par exemple, si votre bureau est ouvert de 9 heures à 17 heures et ferme à midi pour le déjeuner, les heures d’ouverture sont spécifiées comme suit : **Ouverture** 9:00, **Fermeture** 12:00, **Ouverture** 13:00 et **Fermeture** 17:00.
@@ -483,7 +483,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
 
     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale *\<username\>* @ *\<domainname\>* est (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _\<username\>_ @ _\<domainname\>_ .
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _\<username\>_ @ _\<domainname\>_ .
 
     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone *\<number\>* @ *\<domainname\>* est (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
 
@@ -510,7 +510,7 @@ La liste suivante décrit certaines meilleures pratiques lorsque vous concevez v
 
     - Pour transférer l’appel vers la messagerie vocale, cliquez sur **Transférer à la messagerie vocale**, puis tapez l’adresse de la messagerie vocale. Le format de l’adresse de messagerie vocale *\<username\>* @ *\<domainname\>* est (par exemple, bob@contoso.com).
 
-    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse de l’utilisateur est _\<username\>_ @ _\<domainname\>_ .
+    - Pour transférer l’appel vers un autre utilisateur, cliquez sur **Transférer à l’URI SIP**, puis tapez l’adresse de l’utilisateur. Le format de l’adresse utilisateur est _\<username\>_ @ _\<domainname\>_ .
 
     - Pour transférer l’appel vers un autre numéro de téléphone, cliquez sur **Transférer au numéro de téléphone**, puis tapez le numéro de téléphone. Le format du numéro de téléphone *\<number\>* @ *\<domainname\>* est (par exemple, +14255550121@contoso.com). Le nom de domaine est utilisé pour acheminer l’appelant vers la destination appropriée.
 

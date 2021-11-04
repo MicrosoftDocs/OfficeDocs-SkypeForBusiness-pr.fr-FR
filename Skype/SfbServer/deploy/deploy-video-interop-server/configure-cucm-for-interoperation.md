@@ -1,7 +1,7 @@
 ---
 title: Configurer CUCM pour l’interopération avec Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,19 +13,19 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Résumé : Configurez CUCM pour qu’il fonctionne avec Skype Entreprise Server.'
-ms.openlocfilehash: a27af30cd4934743f8b83260ffd46fa3c65cbcd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 809ad19e89f398c507673ec677b4ce882d341327
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585630"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741320"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurer CUCM pour l’interopération avec Skype Entreprise Server
  
 **Résumé :** Configurez CUCM pour qu’il fonctionne avec Skype Entreprise Server.
   
 > [!CAUTION]
-> Cette fonctionnalité est testée avec Cisco Unified Communications Manager (CallManager, ou CUCM) version 10.5 à l’aide de l’installation de Trunks sur TCP uniquement. Vérifiez que l’environnement CUCM répond à ces critères avant de poursuivre. 
+> Cette fonctionnalité est testée avec Cisco Unified Communications Manager (CallManager, ou CUCM) version 10.5 à l’aide de l’installation de trunks sur TCP uniquement. Vérifiez que l’environnement CUCM répond à ces critères avant de poursuivre. 
   
 Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon dont CUCM peut être configuré pour fonctionner avec un VIS. D’autres paramètres et/ou utilisations d’autres fonctionnalités CUCM peuvent également être utilisés pour obtenir le même résultat. Aucune recommandation n’est implicite quant à la configuration optimale pour un scénario particulier.
   
@@ -39,13 +39,13 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     
 3. Accédez à Administration CM unifiée Cisco - \> Routage des appels - \> Classe de contrôle - Espace de recherche \> d’appel.
     
-4. Dans l’écran Configuration de l’espace de recherche d’appel, entrez le nom de l’espace de recherche appelant, puis dans Partitions sélectionnées, entrez le nom de la partition que vous avez créée. Cliquez **sur Enregistrer** lorsque vous avez terminé.
+4. Dans l’écran Configuration de l’espace de recherche d’appel, entrez le nom de l’espace de recherche appelant, puis, dans Partitions sélectionnées, entrez le nom de la partition que vous avez créée. Cliquez **sur Enregistrer** lorsque vous avez terminé.
     
 5. Accédez à Administration CM unifiée Cisco – \> Système - Sécurité - Profil de sécurité de la ligne \> \> SIP.
     
 6. Dans l’écran Configuration du profil de sécurité de la trunk SIP, définissez les options d’informations de profil de sécurité de la trunk SIP comme indiqué, puis cliquez sur **Ajouter nouveau**.
     
-   |**Parameter**|**Valeur recommandée**|
+   |**Paramètre**|**Valeur recommandée**|
    |:-----|:-----|
    |Nom  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
    |Mode sécurité de l’appareil  <br/> |Non sécurisé  <br/> |
@@ -57,7 +57,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     
 8. Dans l’écran Configuration du profil SIP, définissez les options Informations de profil SIP comme indiqué. 
     
-   |**Parameter**|**Valeur recommandée**|
+   |**Paramètre**|**Valeur recommandée**|
    |:-----|:-----|
    |Nom  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    |Description  <br/> |SfBVideoInterop_SIPProfile  <br/> |
@@ -80,15 +80,15 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     
 17. Faites défiler vers le bas. Définissez les options d’appels entrants et de Paramètres comme indiqué.
     
-    |**Parameter**|**Valeur recommandée**|
+    |**Paramètre**|**Valeur recommandée**|
     |:-----|:-----|
     |Appel de l’espace de recherche  <br/> |CSS_SfBVideoInterop  <br/> |
     |Espace de recherche d’appel AAR  <br/> |CSS_SfBVideoInterop  <br/> |
     |CSS de transformation de partie connectée  <br/> |CSS_SfBVideoInterop  <br/> |
    
-18. Faites défiler vers le bas. Sous la section Destination des informations SIP de la configuration de tronçon SIP, spécifiez le FQDN du pool VIS ou l’adresse IP des serveurs VIS individuels du pool (ajout de plusieurs entrées). Dans le port de destination, spécifiez le port d’écoute du VIS pour les connexions à partir de CUCM (la valeur par défaut est 6001). Spécifiez également le profil de sécurité de la trunk SIP et le profil SIP que vous avez créés précédemment, comme illustré.
+18. Faites défiler vers le bas. Sous la section Destination des informations SIP de la configuration de tronçon SIP, spécifiez le FQDN du pool VIS ou l’adresse IP des serveurs VIS individuels du pool (ajout de plusieurs entrées). Dans le port de destination, spécifiez le port sur qui le VIS écoute les connexions à partir de CUCM (la valeur par défaut est 6001). Spécifiez également le profil de sécurité de la trunk SIP et le profil SIP que vous avez créés précédemment, comme illustré.
     
-    |**Parameter**|**Valeur recommandée**|
+    |**Paramètre**|**Valeur recommandée**|
     |:-----|:-----|
     |Profil de sécurité des trunks SIP  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
     |Réroutage de l’espace de recherche d’appel  <br/> |CSS_SfBVideoInterop  <br/> |
@@ -105,7 +105,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     
 22. Dans l’écran Configuration du modèle d’itinéraire, entrez les paramètres de définition de modèle indiqués ci-dessous. Faites défiler vers le bas jusqu’à la section Transformations de l’appelé et définissez le masque comme indiqué, puis cliquez sur Ajouter **nouveau** lorsque vous avez terminé.
     
-    |**Parameter**|**Valeur recommandée**|
+    |**Paramètre**|**Valeur recommandée**|
     |:-----|:-----|
     |Modèle d’itinéraire  <br/> |7779999  <br/> |
     |Partition de l’itinéraire  <br/> |SfBVideoInterop_RoutePartition  <br/> |
@@ -117,7 +117,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     
 24. Dans l’écran Configuration du modèle d’itinéraire SIP, définissez les options de définition de modèle comme indiqué, puis cliquez sur **Ajouter nouveau**.
     
-    |**Parameter**|**Valeur recommandée**|
+    |**Paramètre**|**Valeur recommandée**|
     |:-----|:-----|
     | Utilisation des modèles <br/> |Routage de domaine  <br/> |
     |Modèle IPv4  <br/> |contoso.com (laisser vide si vous utilisez IPv6)  <br/> |
@@ -125,11 +125,11 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     |Description  <br/> |Modèle SIPRoute vers mediarv  <br/> |
     |Partition de l’itinéraire  <br/> |SfBVideoInterop_RoutePartition  <br/> |
     |Liste des itinéraires/liaisons SIP  <br/> |SfBVideoInterop_SIPTrunk  <br/> |
-    |Case à cocher Motif de blocage  <br/> |laisser désactivé  <br/> |
+    |Case à cocher Motif de bloc  <br/> |laisser désactivé  <br/> |
    
 25. Si vous avez modifié les taux de bits audio ou vidéo par rapport aux paramètres par défaut, vous devez les renvoyer aux valeurs par défaut. Pour définir la vitesse de bits pour les appels audio/vidéo, accédez à Administration cm unifiée Cisco - Système - Informations \> sur la région - \> \> Région. Les valeurs par défaut sont indiquées ci-dessous pour référence :
     
-    |**Parameter**|**Valeur recommandée**|
+    |**Paramètre**|**Valeur recommandée**|
     |:-----|:-----|
     |Région  <br/> |Par défaut  <br/> |
     |Liste des préférences de codec audio  <br/> |Système par défaut  <br/> |

@@ -5,7 +5,7 @@ ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Lorsque vous configurez des stratégies pour prendre en charge les communications avec des partenaires fédérés, les stratégies s’appliquent aux utilisateurs de domaines fédérés. '
-ms.openlocfilehash: 86d3988df429b3bc9ef2972aa27e0a6ed03ceb72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 892ba1207f0c3426b3577364f19652514e8e2110
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588586"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763752"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurer des stratégies pour contrôler l’accès des utilisateurs fédérés dans Skype Entreprise Server
 
@@ -61,7 +61,7 @@ Lorsque vous configurez des stratégies pour prendre en charge les communication
 
 Pour activer l’accès des utilisateurs fédérés, vous devez également activer la prise en charge de la fédération dans votre organisation. Pour plus d’informations, [voir Activer ou désactiver la fédération et la connectivité DE messagerie instantanée publique.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 
-S’il s’agit d’une stratégie utilisateur, vous devez également appliquer la stratégie aux utilisateurs que vous souhaitez pouvoir collaborer avec des utilisateurs fédérés. Pour plus d’informations, voir [Attribuer une stratégie d’accès des utilisateurs externes.](assign-an-external-user-access-policy.md)
+S’il s’agit d’une stratégie utilisateur, vous devez également appliquer la stratégie aux utilisateurs que vous souhaitez pouvoir collaborer avec des utilisateurs fédérés. Pour plus d’informations, voir [Affecter une stratégie d’accès des utilisateurs externes.](assign-an-external-user-access-policy.md)
 
 ## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Pour configurer une stratégie existante à l’aide de Windows PowerShell pour prendre en charge l’accès par les utilisateurs de domaines fédérés
 
@@ -99,7 +99,7 @@ S’il s’agit d’une stratégie utilisateur, vous devez également appliquer 
     ```
 
 
-## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Pour supprimer ou réinitialiser une stratégie à l’aide Windows PowerShell pour prendre en charge l’accès par les utilisateurs de domaines fédérés
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Pour supprimer ou réinitialiser une stratégie à l’Windows PowerShell pour prendre en charge l’accès par les utilisateurs de domaines fédérés
 
 1.  Avec un compte d’utilisateur membre du groupe RTCUniversalServerAdmins (ou d’un compte avec des droits d’utilisateur équivalents) ou assigné au rôle CsAdministrator, ouvrez une session sur un ordinateur dans votre déploiement interne.
 

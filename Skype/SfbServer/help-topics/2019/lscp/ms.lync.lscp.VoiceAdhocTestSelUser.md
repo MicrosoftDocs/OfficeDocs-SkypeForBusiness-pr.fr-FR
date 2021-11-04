@@ -1,7 +1,7 @@
 ---
 title: Sélectionner des utilisateurs Voix Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilisez la boîte de dialogue Sélectionner Voix Entreprise utilisateurs pour rechercher les utilisateurs activés pour Voix Entreprise. Dans la zone de recherche, tapez l’adresse SIP ou le nom d’affichage de l’utilisateur que vous souhaitez trouver, puis cliquez sur Rechercher. Pour sélectionner un utilisateur, cliquez sur l’utilisateur dans la liste des résultats de la recherche, puis cliquez sur OK. Si vous ne trouvez pas l’utilisateur que vous recherchez, il se peut que cet utilisateur ne soit pas activé pour Voix Entreprise.
-ms.openlocfilehash: 25430def4c98cc074ca76058b54df51da9b5a758
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec938682874589a3592e266fe6ee217453b88793
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583128"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748660"
 ---
 # <a name="select-enterprise-voice-users"></a>Sélectionner des utilisateurs Voix Entreprise
  

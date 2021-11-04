@@ -1,7 +1,7 @@
 ---
 title: Événements UCWA dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Résumé : Découvrez l’API UCWA (Unified Communications Web API) dans Skype Entreprise Server.'
-ms.openlocfilehash: 9fb052e1494354bc62f097152704bec1888e6523
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Résumé : Découvrez l’API web de communications unifiées (UCWA) dans Skype Entreprise Server.'
+ms.openlocfilehash: 32022d44635e9560e28723812c1247fda38cf00d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598814"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763622"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>Événements UCWA dans Skype Entreprise Server
  

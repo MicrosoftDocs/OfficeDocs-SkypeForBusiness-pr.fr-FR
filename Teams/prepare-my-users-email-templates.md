@@ -1,7 +1,7 @@
 ---
 title: Modèles d’e-mail de notification de l’utilisateur pour le déploiement du système téléphonique en ligne
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28cd5ad822863876527877ca0bf633577e21914d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617200"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737490"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Faciliter l’adoption par les utilisateurs de votre nouveau système téléphonique en ligne
 
@@ -29,7 +29,7 @@ Un téléphone peut être la ligne de vie d’un utilisateur. Le basculement d�
 
 Cet article contient des modèles de courrier électronique personnalisables pour aider les utilisateurs à se tenir informés de leur nouveau système téléphonique. Personnalisez et envoyez les e-mails appropriés pour les adapter à votre déploiement vocal spécifique. Nous avons utilisé des crochets pour indiquer des sections afin de faciliter la personnalisation, mais nous vous recommandons d’ajouter une messagerie spécifique à l’organisation pour rendre l’annonce plus pertinente pour vos utilisateurs. Le cas échéant pour votre déploiement, remplacez toutes les références à « Teams » par « Skype Entreprise ».
 
-## <a name="email-number-1-send-three-weeks-before-launch"></a>Numéro d’e-mail 1 : Envoyer trois semaines avant le lancement
+## <a name="email-number-1-send-three-weeks-before-launch"></a>Numéro de courrier 1 : envoyer trois semaines avant le lancement
 
 Ligne d’objet :
 

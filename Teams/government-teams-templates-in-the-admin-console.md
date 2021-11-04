@@ -1,7 +1,7 @@
 ---
 title: Utiliser des modèles d’équipe gouvernementale dans le Centre d’administration
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 466eeb8c412bb09bf6eedcccb8becf49ff0c08a0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603403"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777194"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>Utiliser des modèles d’équipe gouvernementale dans le Centre d’administration
 
@@ -40,9 +40,9 @@ Pour en savoir plus sur les modèles d’équipe en général, voir [Commencer �
 
 ## <a name="coordinate-incident-response"></a>Coordonner la réponse à un incident
 
-Centralisez la communication et les ressources critiques pour votre équipe de gestion de la crise ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure différents types de fichiers pour vous aider à créer un espace central pour tous vos documents. Utilisez les réunions en ligne pour améliorer la flux d’informations et la connaissance de la situation.
+Centralisez la communication et les ressources critiques pour votre équipe de gestion de la crise ou de réponse aux incidents. Au sein de cette équipe, vous pouvez inclure de nombreux types de fichiers pour vous aider à créer un espace central pour tous vos documents. Utilisez les réunions en ligne pour améliorer la connaissance de la flux d’informations et de la situation.
 
 | Type de modèle de base |baseTemplateId | Propriétés fournies avec ce modèle de base |
 |-------------------|-------|---------------------------------------------------------------------------|
-|Coordonner la réponse à un incident|`com.microsoft.teams.template.CoordinateIncidentResponse`|Canaux : <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Récupération</li><li>Urgent</li></ul> Applications : <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planificateur</li></ul>|
+|Coordonner la réponse à un incident|`com.microsoft.teams.template.CoordinateIncidentResponse`|Canaux : <ul><li>Général<li>Annonces</li><li>Logistique</li><li>Planification</li><li>Récupération</li><li>Urgent</li></ul> Applications : <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>Microsoft Office SharePoint Online</li><li>Planificateur</li></ul>|
 ||||

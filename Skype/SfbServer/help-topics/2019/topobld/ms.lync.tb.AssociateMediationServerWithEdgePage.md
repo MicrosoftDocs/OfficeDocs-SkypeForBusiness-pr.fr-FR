@@ -1,7 +1,7 @@
 ---
 title: Associer un serveur de médiation à un serveur Edge
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Pour définir un serveur de médiation, indiquez les paramètres qui associent le serveur de médiation à un serveur frontal et à un serveur Edge ou à un pool de serveurs Edge. Pour associer le serveur de médiation ou le pool à un serveur Edge ou à un pool de serveurs Edge, procédez comme suit :'
-ms.openlocfilehash: 418715aa100cb0abdfad76c7e4482da422c4be97
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbeb3b5fe3b129f61109d4f93e3dc9b7fa4ad185
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635598"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757736"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Associer un serveur de médiation à un serveur Edge
  

@@ -1,7 +1,7 @@
 ---
 title: Demander, installer ou assigner des certificats
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 description: 'L’Étape 3 : Demander, installer ou assigner les certificats démarre l’Assistant Certificat lorsque vous cliquez sur Exécuter. Les certificats configurés par le biais de l’Assistant sont basés sur la définition de la topologie Skype Entreprise Server 2015 configurée et publiée par le Générateur de topologies dans le magasin central de gestion. Pour exécuter correctement l’Assistant Certificat pour une autorité de certification en ligne dans votre organisation, vous devez être connecté à un ordinateur en tant que membre du groupe Administrateurs local de cet ordinateur. Vous devez également être un utilisateur de domaine authentifié dans le domaine où l’ordinateur et l’autorité de certification existent. L’Assistant Certificat permet de spécifier d’autres informations d’identification pour accéder à l’ac de votre organisation.'
-ms.openlocfilehash: 58902f9de92f7011247cfeeda7b49a5af35ed218
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 475f5863fe4c8906a8ce416f983b1b5fd5e858fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612503"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748320"
 ---
 # <a name="request-install-or-assign-certificates"></a>Demander, installer ou assigner des certificats
  

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Surveillance et alerte
 author: vaibhav
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -16,20 +16,20 @@ description: Découvrez les fonctionnalités Teams d’alertes et de notificatio
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 38380adecf3ce54d12b06e74f4467e39697d67f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f97905320912ec1a63aa4580018c134bed3589c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592358"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737470"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams surveillance et alertes
 
-De nouvelles fonctionnalités de surveillance et d’alerte Microsoft Teams fonctionnalités sont disponibles dans le Teams d’administration. Utilisez différents jeux de règles disponibles sous la section **Notifications & alertes** dans le Centre d’administration Teams pour surveiller Teams fonctionnalités et recevoir des alertes. Par exemple, vous pouvez surveiller activement l’état d’Teams de certains appareils, tels que les téléphones IP, les barres de collaboration, etc., s’ils se déconnectent de manière inattendue.  
+De nouvelles fonctionnalités de surveillance et d’alerte Microsoft Teams fonctionnalités sont disponibles dans le Teams d’administration. Utilisez différents jeux de règles disponibles sous la section **Notifications & alertes** dans le Centre d’administration Teams pour surveiller Teams fonctionnalités et recevoir des alertes. Par exemple, vous pouvez surveiller activement l’état d’Teams appareils tels que les téléphones IP, les barres de collaboration et d’autres personnes s’ils sont déconnectés de manière inattendue.  
 
 Votre organisation peut utiliser la surveillance Teams’alerte pour les éléments suivants :
 
-- Gérer automatiquement les Teams fonctionnalités
+- Gérer automatiquement les Teams fonctionnalités de gestion des ressources
 - Soyez averti s’ils indiquent quelque chose d’inattendu.
 - Pour revenir sur de bonnes rails, vous avez recours à des actions correctives.
 

@@ -1,7 +1,7 @@
 ---
 title: Modifier les paramètres de qualité de l’expérience dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Résumé : Découvrez comment spécifier la rétention des données QoE dans Skype Entreprise Server.'
-ms.openlocfilehash: c8480b5deb8007c050968c399ee20eb14755e6ba
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 38bc88866e4bd8b677873b2d502e9268305ccf49
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013948"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770242"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modifier les paramètres de qualité de l’expérience dans Skype Entreprise Server
 
@@ -48,7 +48,7 @@ La procédure suivante décrit comment configurer des paramètres de vidage pour
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Spécification de la rétention QoE à l’aide Windows PowerShell cmdlets
 
-Vous pouvez créer des paramètres de rétention QoE à l’aide de Windows PowerShell et de l’cmdlet **Set-CsQoEConfiguration.** Vous pouvez exécuter cette cmdlet à partir de Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
+Vous pouvez créer des paramètres de rétention QoE à l’aide de Windows PowerShell et de l’cmdlet **Set-CsQoEConfiguration.** Vous pouvez exécuter cette cmdlet à partir de l’Skype Entreprise Server Management Shell ou d’une session distante de Windows PowerShell. Pour plus d’informations sur l’utilisation de Windows PowerShell distant pour vous connecter à Skype Entreprise Server, voir [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Le processus est le même dans Skype Entreprise Server.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>Pour spécifier la conservation des données QoE pour un emplacement spécifique
 
@@ -66,7 +66,7 @@ Vous pouvez créer des paramètres de rétention QoE à l’aide de Windows Powe
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-Pour plus d’informations, voir la rubrique d’aide pour l';cmdlet [Set-CsQoEConfiguration.](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
+Pour plus d’informations, voir la rubrique d’aide de l’cmdlet [Set-CsQoEConfiguration.](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
 
 ## <a name="see-also"></a>Voir aussi
 

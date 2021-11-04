@@ -1,7 +1,7 @@
 ---
 title: Gérer les emplacements des passerelles ELIN dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Décisions nécessaires à la planification d’une base de données d’informations d’emplacement ou d’une base de données externe similaire pour un déploiement E9-1-1 à l’aide de passerelles ELIN, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596504"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756521"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gérer les emplacements des passerelles ELIN dans Skype Entreprise Server
 
@@ -62,11 +62,11 @@ Après avoir déterminé comment diviser l’espace de votre bâtiment en emplac
 
 **Exemples d’affectations d’emplacements et de numéros ELIN**
 
-|**Zone de l’immeuble**|**Emplacement**|**ELIN**|
+|**Zone de l’immeuble**|**Location**|**ELIN**|
 |:-----|:-----|:-----|
-|Premier étage  <br/> |1   <br/> |425-555-0100  <br/> |
-|Deuxième étage  <br/> |2   <br/> |425-555-0111  <br/> |
-|Troisième étage  <br/> |3   <br/> |425-555-0123  <br/> |
+|Premier étage  <br/> |1  <br/> |425-555-0100  <br/> |
+|Deuxième étage  <br/> |2  <br/> |425-555-0111  <br/> |
+|Troisième étage  <br/> |3  <br/> |425-555-0123  <br/> |
 
 Les emplacements définis doivent satisfaire les exigences suivantes :
 

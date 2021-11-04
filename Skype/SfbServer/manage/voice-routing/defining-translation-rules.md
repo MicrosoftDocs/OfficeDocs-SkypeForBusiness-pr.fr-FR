@@ -1,7 +1,7 @@
 ---
 title: Définition de règles de traduction dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype Entreprise Server Voix Entreprise les appels basés sur des numéros de téléphone normalisation au format E.164. Cela signifie que toutes les chaînes composés doivent être normalisées au format E.164 dans le but d’effectuer une recherche inversée de numéro (RNL) afin qu’elles soient traduites dans leur URI SIP correspondant. Skype Entreprise Server permet de manipuler l’ID appelé et la présentation de l’ID de l’appelant.
-ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9dee0e90a9cd06abef43d190cc391861f4ad1438
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629636"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737720"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Définition de règles de traduction dans Skype Entreprise Server
 
@@ -65,7 +65,7 @@ Si vous souhaitez définir une règle de traduction, suivez ces étapes en entra
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir [Déléguer les autorisations de configuration.](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Panneau de Skype Entreprise, voir Installer et ouvrir les [outils d’administration.](../../management-tools/install-and-open-administrative-tools.md)
-3. Pour commencer la définition d’une règle de traduction, suivez les étapes de la procédure de configuration d’une trunk [avec](GET LINK AFTER MIGRATION)déviation du média à l’étape 10 ou configurez une trunk [sans](GET LINK AFTER MIGRATION) contournement de média à l’étape 9.
+3. Pour commencer la définition d’une [](GET LINK AFTER MIGRATION)règle de traduction, suivez les étapes de configuration d’une trunk avec déviation du média jusqu’à l’étape 10 ou configurez une trunk [sans](GET LINK AFTER MIGRATION) contournement de média à l’étape 9.
 4. Sous **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
 5. (Facultatif) Sous **Description**, tapez une description de la règle de traduction , par exemple, la numérotation longue distance internationale **des États-Unis.**
 6. Dans la section **Créer une règle de traduction** de la boîte de dialogue, entrez des valeurs dans les champs suivants :
@@ -87,7 +87,7 @@ Si vous souhaitez définir une règle de traduction, suivez ces étapes en entra
     Lorsque cette règle de traduction est appliquée, +441235551010 devient 011441235551010.
 7. Cliquez sur **OK** pour enregistrer la règle de traduction.
 8. Cliquez sur **OK** pour enregistrer la configuration de la jonction.
-9. Dans la page **Configuration de la trunk** n, cliquez sur **Valider,** puis sur **Valider tout.** 
+9. Dans la page **Configuration de la** trunk n, cliquez sur **Valider,** puis sur **Valider tout.** 
 
 > [!Note]
 > Chaque fois que vous créez ou modifiez une règle de traduction, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publier les modifications en attente de la configuration du routage des voix.](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration) 
@@ -100,7 +100,7 @@ Effectuez cette procédure si vous voulez définir une règle de traduction en �
 
 1. Ouvrez une session sur l’ordinateur en tant que membre du groupe RTCUniversalServerAdmins ou du rôle CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Pour plus d’informations, voir [Déléguer les autorisations de configuration.](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)
 2. Ouvrez une fenêtre de navigateur, puis entrez l’URL d’administration pour ouvrir le Panneau de contrôle. Pour plus d’informations sur les différentes méthodes que vous pouvez utiliser pour démarrer le Panneau de Skype Entreprise, voir Installer et ouvrir les [outils d’administration.](../../management-tools/install-and-open-administrative-tools.md)
-3. Pour commencer la définition d’une règle de traduction, suivez les étapes de la procédure de configuration d’une trunk [avec](GET LINK AFTER MIGRATION)déviation du média à l’étape 10 ou configurez une trunk [sans](GET LINK AFTER MIGRATION) contournement de média à l’étape 9.
+3. Pour commencer la définition d’une [](GET LINK AFTER MIGRATION)règle de traduction, suivez les étapes de configuration d’une trunk avec déviation du média jusqu’à l’étape 10 ou configurez une trunk [sans](GET LINK AFTER MIGRATION) contournement de média à l’étape 9.
 4. Dans le champ **Nom** dans la page **Nouvelle règle de traduction** ou **Modifier la règle de traduction**, tapez un nom décrivant le modèle de numéro en cours de traduction.
 5. (Facultatif) Dans **Description**, tapez une description de la règle de traduction ; par exemple, la numérotation longue distance internationale **des États-Unis.**
 6. Cliquez sur **Modifier** au bas de la section **Créer une règle de traduction**.

@@ -1,6 +1,6 @@
 ---
 title: Windows client et prise en charge des logiciels
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Résumé : Examinez les exigences Windows prise en charge du client lors de la planification Skype Entreprise Server.'
-ms.openlocfilehash: 755f60030c905bfb5a5f488e2573c12b3396ab1e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 143fdf0e03f6ea125e7b1cbfb3aa0e7a6a93788b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627946"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770212"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows client et prise en charge des logiciels
  
@@ -37,9 +37,9 @@ Cette section récapitule les logiciels requis pour prendre en charge Skype Entr
 
 |**Composant système**|**Versions prises en charge**|
 |:-----|:-----|
-|Windows Système d'exploitation  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 ou version ultérieure avec le dernier Service Pack  <br/> **Remarque :** Skype Entreprise et le Skype Entreprise de réunion en ligne ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
+|Windows Système d'exploitation  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 ou version ultérieure avec le dernier Service Pack  <br/> **Remarque :** Skype Entreprise et le Skype Entreprise de réunion en ligne ne sont pas pris en charge sur Windows Vista ou Windows XP (n’importe quelle version). <br/> |
 |Installation et mises à jour  <br/> |Droits et autorisations d’administrateur  <br/> |
-|Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet Explorer 11  <br/>  Internet Explorer 10 navigateur Internet <br/> Navigateur Internet Internet d’Internet Explorer 9  <br/> Navigateur Internet Explorer 8  <br/> Navigateur Internet Internet d’Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur web Google Chrome  <br/>**Remarque :** Si vous utilisez Skype Entreprise avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou une ultérieure est requis.           |
+|Navigateur  <br/> |Microsoft Edge  <br/> Navigateur Internet Explorer 11  <br/>  Internet Explorer 10 navigateur Internet <br/> Navigateur Internet Explorer 9  <br/> Navigateur Internet Explorer 8  <br/> Navigateur Internet Explorer 7  <br/> Navigateur web Mozilla Firefox  <br/>  Navigateur web Google Chrome  <br/>**Remarque :** Si vous utilisez Skype Entreprise avec Microsoft Exchange Online et que votre organisation a déployé un proxy HTTP d’authentification, Internet Explorer 8 ou une ultérieure est requis.           |
 |Intégration à Microsoft Office  <br/> | Outlook 2010 ou version ultérieure |
 |Intégration à Microsoft Exchange  <br/> | Microsoft Exchange Server 2010 ou ultérieure  | 
    
@@ -66,7 +66,7 @@ Les conditions préalables Skype Entreprise pour Windows Phone suivantes sont le
   
 - Windows Phone 8.1 ou ultérieure.
     
-- Le Windows Phone doit avoir les dernières mises à jour disponibles auprès de Microsoft. Pour plus d’informations, consultez la section Windows Phone 8.1 sur [Windows Phone 8 historique des](https://go.microsoft.com/fwlink/p/?LinkID=281961)mises à jour.
+- Le Windows Phone doit avoir les dernières mises à jour disponibles auprès de Microsoft. Pour plus d’informations, voir la section Windows Phone 8.1 à [l’Windows Phone de mise](https://go.microsoft.com/fwlink/p/?LinkID=281961)à jour 8.
     
 - L’appareil doit avoir 22 Mo d’espace disque disponible.
     

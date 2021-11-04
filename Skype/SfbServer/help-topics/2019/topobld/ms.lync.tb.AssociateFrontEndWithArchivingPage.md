@@ -1,7 +1,7 @@
 ---
 title: Associer un pool frontal à un serveur d’archivage
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
 description: Chaque pool frontal et serveur Survivable Branch Appliance ne peut être associé qu’à un seul serveur d’archivage. Une fois l’archivage activé pour le site, le serveur d’archivage collecte et enregistre le contenu des messages instantanés et des conférences web à partir des conversations impliquant les utilisateurs hébergés dans les pools et sur les Survivable Branch Appliances associés.
-ms.openlocfilehash: 71b8c9fe38ea292d541c180a997ae4d0551068b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 59245f68fb75a1e2cd459ab342ea2eaf2c818291
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631778"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741100"
 ---
 # <a name="associate-front-end-with-archiving"></a>Associer un pool frontal à un serveur d’archivage
  

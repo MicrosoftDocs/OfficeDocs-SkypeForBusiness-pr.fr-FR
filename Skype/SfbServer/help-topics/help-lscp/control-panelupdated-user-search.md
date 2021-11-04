@@ -1,7 +1,7 @@
 ---
 title: Panneau de contrôle - Recherche utilisateur mise à jour
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/21/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Vous pouvez utiliser les résultats d’une requête de recherche pour configurer les utilisateurs pour Skype Entreprise Server. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne. Vous pouvez également rechercher des utilisateurs à l’aide du Panneau de contrôle Lync Server ou du logiciel en ligne Utilisateurs et ordinateurs Active Directory.
-ms.openlocfilehash: 2333a92d95a3d93ef9e10c0db89eba0c77c9f809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee155a1c81ffe45007d813d64fb8cc4586ba268e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608231"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740900"
 ---
 # <a name="control-panel---updated-user-search"></a>Panneau de configuration - Mise à jour : recherche d’un utilisateur
 

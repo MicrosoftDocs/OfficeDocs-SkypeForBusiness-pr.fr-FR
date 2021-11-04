@@ -1,7 +1,7 @@
 ---
 title: Configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 265065a5b4ff52dc65dccb4b0e045e3d9e21c452
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015.'
+ms.openlocfilehash: b4377d2151adfccd591bb7c59d7d8854f03e453b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601879"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755633"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurer la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
  
@@ -32,7 +32,7 @@ Skype Entreprise Server prend en charge plusieurs modes de haute disponibilité 
 > [!NOTE] 
 > La conversation permanente est disponible Skype Entreprise Server 2015, mais n’est plus prise en charge Skype Entreprise Server 2019. La même fonctionnalité est disponible dans Teams. Pour plus d’informations, voir [Mise en Microsoft Teams mise à niveau.](/microsoftteams/upgrade-start-here) Si vous devez utiliser la conversation permanente, vous pouvez soit migrer des utilisateurs nécessitant cette fonctionnalité vers Teams, soit continuer à utiliser Skype Entreprise Server 2015.
   
-Avant de configurer votre déploiement de conversation permanente pour la haute disponibilité et la récupération d’urgence, assurez-vous que vous êtes familiarisé avec les concepts de plan de haute disponibilité et de récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans ces rubriques repose sur un pool de serveurs de conversation permanente étiré. Le contenu de planification décrit les besoins en ressources et la topologie de pool étirée qui permet la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et de la livraison des journaux de SQL Server pour la récupération d’urgence.
+Avant de configurer votre déploiement de conversation permanente pour la haute disponibilité et la récupération d’urgence, assurez-vous que vous êtes familiarisé avec les concepts de plan de haute disponibilité et de récupération d’urgence pour le serveur de conversation permanente dans [Skype Entreprise Server 2015.](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) La solution de récupération d’urgence pour le serveur de conversation permanente décrite dans ces rubriques repose sur un pool de serveurs de conversation permanente étiré. Le contenu de planification décrit les besoins en ressources, ainsi que la topologie de pool étirée qui permet la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente, y compris l’utilisation de la mise en miroir SQL Server pour la haute disponibilité et de l’envoi de journaux SQL Server pour la récupération d’urgence.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Utiliser le Générateur de topologie pour configurer la haute disponibilité et la récupération d’urgence
 
@@ -54,9 +54,9 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
     f. Publiez la topologie.
     
-## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journal pour la base de données principale du serveur de conversation permanente
+## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurer la SQL Server de journaux de serveurs de conversation permanente pour la base de données principale du serveur de conversation permanente
 
-À l’SQL Server Management Studio, connectez-vous à l’instance de base de données de livraison de journaux secondaire du serveur de conversation permanente et assurez-vous que SQL Server Agent est en cours d’exécution. Connectez-vous ensuite à l’instance de base de données principale de conversation permanente et effectuez les étapes suivantes :
+À l SQL Server Management Studio, connectez-vous à l’instance de base de données de livraison de journaux secondaire du serveur de conversation permanente et assurez-vous que SQL Server Agent est en cours d’exécution. Connectez-vous ensuite à l’instance de base de données principale de conversation permanente et effectuez les étapes suivantes :
   
 1. Cliquez avec le bouton droit sur la base de données mgc, puis cliquez sur **Propriétés**.
     
@@ -103,7 +103,7 @@ Dans le Générateur de topologie, effectuez les étapes suivantes pour configur
     
 ## <a name="set-up-sql-server-log-shipping-between-the-primary-mirror-and-the-secondary-database"></a>Configurer la SQL Server des journaux de livraison entre le miroir principal et la base de données secondaire
 
-Effectuez les étapes suivantes pour que la livraison des journaux de bord continue si la base de données de conversation permanente principale est retentée vers sa base de données miroir.
+Effectuez les étapes suivantes pour que la livraison des journaux de route continue si la base de données de conversation permanente principale est retentée vers sa base de données miroir.
   
 1. Faire échouer manuellement la base de données de conversation permanente principale vers le miroir. Pour ce faire, utilisez l’Skype Entreprise Server Management Shell et l’cmdlet **Invoke-CsDatabaseFailover.**
     

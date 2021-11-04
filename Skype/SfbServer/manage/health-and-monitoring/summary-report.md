@@ -1,7 +1,7 @@
 ---
 title: Rapport de synthèse de diagnostic des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Résumé : Découvrez le rapport de synthèse de diagnostic des appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: b3da3315566db66876329ab257ff6fa8d78f81b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 88537a3f52679883fb5cf051a28d2c0c42294d16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585078"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757296"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de diagnostic des appels dans Skype Entreprise Server
  
@@ -37,7 +37,7 @@ Le rapport de synthèse de diagnostic des appels fournit une vue d’ensemble de
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Accès au rapport de synthèse de diagnostic des appels
 
-Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. À partir du rapport de synthèse de diagnostic des appels, vous pouvez accéder au rapport de diagnostic des activités P2E dans [Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure Taux d’échec sous la section Synthèse de session P2E du rapport. Vous pouvez également accéder au rapport de diagnostic de conférence [dans Skype Entreprise Server](conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes :
+Le rapport de synthèse de diagnostic des appels est accessible à partir de la page d’accueil Rapports de surveillance. À partir du rapport de synthèse de diagnostic des appels, vous pouvez accéder au rapport de diagnostic des activités D’égal à égal dans [Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md) en cliquant sur la mesure Taux d’échec sous la section Synthèse de session P2E du rapport. Vous pouvez également accéder au rapport de diagnostic de conférence [dans Skype Entreprise Server](conference-diagnostic-report.md) en cliquant sur l’une des mesures de conférence suivantes :
   
 - Taux d’échec de session global
     
@@ -57,7 +57,7 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres de rapport de synthèse de diagnostic des appels**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -70,7 +70,7 @@ Le tableau suivant décrit les informations fournies dans le rapport de synthès
   
 **Mesures pour les sessions d’égal à égal**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Nombre total de sessions** <br/> |Non  <br/> |Nombre total de sessions d’égal à égal ayant eu lieu.  <br/> |
 |**Taux d’échec** <br/> |Non  <br/> |Pourcentage de sessions d’égal à égal ayant échoué. Lorsque vous cliquez sur cet élément, le rapport affiche le rapport de diagnostic des activités d’égal à égal, qui fournit des informations plus détaillées sur les sessions d’égal à égal ayant échoué.  <br/> |
@@ -81,7 +81,7 @@ Le tableau suivant décrit les informations fournies dans le rapport de diagnost
   
 **Mesures pour les sessions de conférence**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Nombre total de conférences** <br/> |Non  <br/> |Nombre total de conférences ayant eu lieu.  <br/> |
 |**Nombre total de sessions de conférence** <br/> |Non  <br/> |Nombre total de sessions de conférence ayant eu lieu.  <br/> |

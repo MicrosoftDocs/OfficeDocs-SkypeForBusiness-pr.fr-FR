@@ -1,7 +1,7 @@
 ---
 title: Gérer l'accès des utilisateurs à Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4a83d0da32c11406f76b9bc355ceb666d4ea308
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 433996fe1a883bff1c019000acf912606b3ecb91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728063"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741520"
 ---
 # <a name="manage-user-access-to-teams"></a>Gérer l’accès des utilisateurs à Microsoft Teams
 
@@ -33,18 +33,18 @@ Vous gérez l’accès Teams utilisateur en attribuant ou en supprimant une Micr
 Par défaut, lorsqu’un plan de gestion des licences (par exemple, Microsoft 365 Entreprise E3 ou Microsoft 365 Business Premium) est attribué à un utilisateur, une licence Teams est attribuée automatiquement et l’utilisateur est activé pour les Teams. Vous pouvez désactiver ou activer Teams utilisateur en supprimant ou en attribuant une licence à tout moment.
 
 Utilisez les stratégies de <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>messagerie, gérées à partir du Centre Teams’administration, pour contrôler les fonctionnalités de conversation et de messagerie de canal disponibles pour les utilisateurs Teams. Vous pouvez utiliser la stratégie par défaut ou créer une ou plusieurs stratégies de messagerie personnalisées pour les membres de votre organisation. Pour en savoir plus, lisez Gérer les stratégies de [messagerie dans Teams.](messaging-policies-in-teams.md)
-Vous gérez Teams licences dans le Centre d’administration Microsoft 365 ou à l’aide de PowerShell. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
+Vous gérez Teams licences dans le Centre d'administration Microsoft 365 ou à l’aide de PowerShell. Pour gérer les licences, vous devez être administrateur global ou administrateur de gestion des utilisateurs.
 
 > [!NOTE]
 > Nous vous recommandons d’activer Teams pour tous les utilisateurs afin que les équipes soient formés de manière interne pour les projets et autres initiatives dynamiques. Même si vous exécutez un pilote, il peut s’avérer utile de garder les Teams activées pour tous les utilisateurs, mais de cibler uniquement les communications avec le groupe pilote d’utilisateurs.
 
-## <a name="using-the-microsoft-365-admin-center"></a>Utilisation de la Centre d’administration Microsoft 365
+## <a name="using-the-microsoft-365-admin-center"></a>Utilisation de la Centre d'administration Microsoft 365
 
-Teams licences utilisateur sont gérées directement via les interfaces Centre d’administration Microsoft 365 gestion des utilisateurs. Un administrateur peut attribuer des licences aux nouveaux utilisateurs lors de la création de comptes d’utilisateurs, ou aux utilisateurs qui ont déjà des comptes. 
+Teams licences utilisateur sont gérées directement via les interfaces Centre d'administration Microsoft 365 gestion des utilisateurs. Un administrateur peut attribuer des licences aux nouveaux utilisateurs lors de la création de comptes d’utilisateurs, ou aux utilisateurs qui ont déjà des comptes. 
 
 > [!IMPORTANT]
 > L’administrateur doit avoir des privilèges d’administrateur général ou d’administrateur de gestion des utilisateurs pour Microsoft Teams licences.
-Utilisez l’Centre d’administration Microsoft 365 pour gérer Teams licences utilisateur individuel ou petit groupe d’utilisateurs à la fois. Vous pouvez gérer Teams licences dans la page Licences (jusqu’à 20 utilisateurs à la **fois)** ou la page **Utilisateurs** actifs. La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
+Utilisez l’Centre d'administration Microsoft 365 pour gérer Teams licences utilisateur individuel ou petit groupe d’utilisateurs à la fois. Vous pouvez gérer Teams licences dans la page Licences (jusqu’à 20 utilisateurs à la **fois)** ou la page **Utilisateurs** actifs. La méthode que vous choisissez dépend de la gestion des licences de produits pour des utilisateurs spécifiques ou de la gestion des licences utilisateur de produits spécifiques.
 
 Si vous devez gérer des licences Teams pour un grand nombre d’utilisateurs (par exemple, des centaines ou des milliers d’utilisateurs), utilisez [PowerShell](#using-powershell) ou des licences basées sur les groupes [dans Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign) 
 

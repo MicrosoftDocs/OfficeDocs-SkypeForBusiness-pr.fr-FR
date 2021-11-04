@@ -1,7 +1,7 @@
 ---
 title: Affichage d’inscription
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: L’affichage Inscription stocke les informations relatives à l’inscription de l’utilisateur. Cette vue a été introduite dans Lync Server 2013.
-ms.openlocfilehash: d754c4027c6440aa8f53a9dac78f1ce1b00c9488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4714a4cb0f24a359157ede44b5ab2271a2ff1c7a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611883"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763302"
 ---
 # <a name="registration-view"></a>Affichage d’inscription
  
 L’affichage Inscription stocke les informations relatives à l’inscription de l’utilisateur. Cette vue a été introduite dans Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |

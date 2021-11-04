@@ -1,7 +1,7 @@
 ---
 title: Planifier le serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Résumé : Lisez cette rubrique pour découvrir comment planifier le serveur de conversation permanente Skype Entreprise Server 2015.'
-ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a697337570dfbf66e752234435d1335661638c54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731093"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763462"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -103,7 +103,7 @@ Si vous décidez de déployer un serveur de conversation permanente, vous devez 
     
 - Quel genre de compléments voulez-vous approvisionner ? Les add-ins améliorent l’expérience dans la salle en tirant parti du volet d’extensibilité dans le client Skype Entreprise pour fournir un contexte pertinent pour la salle. Vous pouvez choisir les compléments généraux les plus utiles à vos yeux (par exemple, le site de votre entreprise, des documents de collaboration internes, etc.). Les gestionnaires de salles de conversation peuvent choisir l’un des compléments inscrits et l’associer à leurs salles, le cas échéant. 
     
-- Quels types d’exigences en matière de haute disponibilité et de récupération d’urgence avez-vous ? Le serveur de conversation permanente prend en charge SQL Server mise en miroir et SQL Server clustering pour la haute disponibilité. Pour la récupération d’urgence, le serveur de conversation permanente prend en charge jusqu’à 8 serveurs (4 actifs et 4 de secours) dans un pool étiré avec la SQL Server de journaux de livraison. 
+- Quel type de besoins en matière de haute disponibilité et de récupération d’urgence avez-vous ? Le serveur de conversation permanente prend en charge SQL Server mise en miroir et SQL Server clustering pour la haute disponibilité. Pour la récupération d’urgence, le serveur de conversation permanente prend en charge jusqu’à 8 serveurs (4 actifs et 4 de secours) dans un pool étiré avec la SQL Server de journaux de livraison. 
     
 - Existe-t-il des exigences en matière de réglementation ? Si votre entreprise se trouve dans un pays ou une région où les données doivent être conservées dans le pays, vous devrez peut-être déployer plusieurs pools de serveurs de conversation permanente, chacun local dans une zone géographique spécifique. Une salle, une catégorie ou un add-in ne couvre pas les pools ; il n’appartient qu’à un seul pool de serveurs de conversation permanente. 
     

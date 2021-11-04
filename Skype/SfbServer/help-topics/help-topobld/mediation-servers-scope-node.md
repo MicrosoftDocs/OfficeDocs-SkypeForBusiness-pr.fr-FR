@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue des serveurs de médiation
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 description: 'Le nœud Pools de médiation répertorie les pools de médiation de votre topologie. Vous pouvez effectuer l’action suivante :'
-ms.openlocfilehash: 74db8c3a41867d1aecef0fc44fe993cf39b2a363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 647d1333042ba450aaa492e7fa9f5d2e60a63935
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591202"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740680"
 ---
 # <a name="mediation-servers-scope-node"></a>Nœud d’étendue des serveurs de médiation
  
