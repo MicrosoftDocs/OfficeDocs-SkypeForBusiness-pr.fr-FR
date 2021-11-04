@@ -1,7 +1,7 @@
 ---
 title: Gérer les packages de stratégie dans Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -20,14 +20,14 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment utiliser et gérer des packages de stratégie dans Microsoft Teams simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs.
-ms.openlocfilehash: 3ea2a0b88b5c412cde4b4b6cbd3da6e1d7282e94
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 37e4c54dca61adacf7d573f9effd11563818bc29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60081612"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783085"
 ---
-# <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams : gérer les packages de stratégie
+# <a name="manage-policy-packages-in-microsoft-teams"></a>Gérer les packages de stratégie dans Microsoft Teams
 
 Un package de stratégie dans Microsoft Teams est un ensemble de stratégies et de paramètres de stratégie prédéfinis que vous pouvez affecter aux utilisateurs ayant des rôles similaires dans votre organisation. Nous avons créé des packages de stratégies pour simplifier, rationaliser et offrir une cohérence dans le cadre de la gestion des stratégies pour des groupes d’utilisateurs au sein de votre organisation.  
 
@@ -35,7 +35,7 @@ Vous pouvez utiliser les [packages de stratégie inclus dans Teams](#policy-pack
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Capture d’écran de la page Packages de stratégie dans le Centre d’administration.":::
 
-Vous pouvez personnaliser les paramètres des stratégies dans un package de stratégies pour répondre aux besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package, tous les utilisateurs affectés à ce package obtiennent les paramètres mis à jour. Vous gérez les packages de stratégie à l’aide Microsoft Teams centre d’administration ou PowerShell.
+Vous pouvez personnaliser les paramètres des stratégies dans un package de stratégies pour répondre aux besoins de vos utilisateurs. Lorsque vous modifiez les paramètres des stratégies dans un package, tous les utilisateurs affectés à ce package obtiennent les paramètres mis à jour. Vous gérez les packages de stratégies à l’aide Microsoft Teams centre d’administration ou PowerShell.
 
 > [!NOTE]
 > Chaque utilisateur aura besoin du module complémentaire Communications avancées pour recevoir une attribution de package de stratégie personnalisée. Pour plus d’informations, consultez [Module complémentaire Communications avancées pour Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
@@ -44,7 +44,7 @@ Vous pouvez personnaliser les paramètres des stratégies dans un package de str
 
 Les packages de stratégie vous permettent de Teams fonctionnalités que vous voulez autoriser ou restreindre pour des ensembles spécifiques de personnes au sein de votre organisation. Chaque package de stratégie dans Teams est conçu autour d’un rôle d’utilisateur et inclut des stratégies et paramètres de stratégie prédéfinés qui supportent les activités de collaboration et de communication classiques pour ce rôle.
 
-Les packages de stratégies prisent en charge Teams types de stratégies suivants :
+Les packages de stratégies prisent en charge les types Teams suivants :
 
 - Stratégie de messagerie
 - Stratégie de réunion
@@ -65,12 +65,12 @@ Teams inclut actuellement les packages de stratégie suivants.
 |Éducation (enseignant du primaire utilisant l’apprentissage à distance)    |Création d’un groupe de stratégies qui s’appliquent aux enseignants du primaire pour optimiser la sécurité et la collaboration des étudiants lors de l’utilisation de l’apprentissage à distance.      |
 |Éducation (étudiant du primaire à l’aide de l’apprentissage à distance)    |Création d’un groupe de stratégies qui s’appliquent aux étudiants du primaire pour optimiser la sécurité et la collaboration des étudiants lors de l’utilisation de l’apprentissage à distance.      |
 |Gestionnaire en ligne |Crée un ensemble de stratégies et applique ces paramètres aux responsables en ligne de votre organisation. |
-|Employé en ligne |Crée un ensemble de stratégies et applique ces paramètres aux employés en ligne de votre organisation. |
+|Employé en ligne |Crée un ensemble de stratégies et applique ces paramètres aux employés de votre organisation en ligne. |
 |Professionnel de la santé  |Crée un ensemble de stratégies et de paramètres de stratégies qui offrent aux travailleurs cliniques tels que les infirmières autorisées, les infirmières responsables, les médecins et les travailleurs sociaux un accès complet à la conversation, aux appels, à la gestion des équipes et aux réunions. |
 |Travailleurs de l’information sur le secteur de la santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui donnent aux travailleurs de l’information, par exemple, le personnel de l’information, l’informatique, le personnel financier et les responsables de la mise en conformité, un accès total aux discussions, aux appels et aux réunions.|
 |Salle de soins de santé  |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux salles des patients dans votre organisation de santé.|
 |Petite et moyenne entreprise (Business Voice) |Crée une stratégie de configuration d’application qui inclut les applications pour une expérience vocale professionnelle.|
-|Petite et moyenne entreprise (sans Voix Entreprise) |Crée une stratégie de configuration d’application pertinente pour les petites et moyennes Teams d’utilisateurs (expérience vocale non professionnelle).
+|Petite et moyenne entreprise (sans Voix Entreprise) |Crée une stratégie de configuration d’application pertinente pour les utilisateurs de pme Teams d’entreprise (expérience voice non professionnelle).
 |Responsable de la sécurité publique   |Crée un ensemble de stratégies et de paramètres de stratégie qui s’appliquent aux responsables de la sécurité publique de votre organisation.|
 
 > [!NOTE]
@@ -107,7 +107,7 @@ L’exemple suivant explique comment utiliser des packages de stratégie dans vo
 
 - **[Affichage](#view-the-settings-of-a-policy-in-a-policy-package)**: afficher les stratégies dans un package de stratégie. Vous pouvez ensuite afficher les paramètres de chaque stratégie dans un package avant de l’affecter. Assurez-vous de comprendre chaque paramètre. Déterminez si les valeurs prédéfinies sont appropriées pour votre organisation ou si vous devez les modifier pour qu’elles soient plus restrictives ou moins restrictives en fonction des besoins de votre organisation.
 
-    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous attribuez le package de stratégie.
+    Si une stratégie est supprimée, vous pouvez toujours afficher les paramètres, mais vous ne pouvez pas modifier les paramètres. Une stratégie supprimée est re-créée avec les paramètres prédéfinés lorsque vous affectez le package de stratégie.
 
 - **[Personnaliser](#customize-policies-in-a-policy-package)**: personnalisez les paramètres des stratégies dans le package de stratégies pour répondre aux besoins de votre organisation.
 
@@ -116,7 +116,7 @@ L’exemple suivant explique comment utiliser des packages de stratégie dans vo
 > [!NOTE]
 > Vous pouvez également modifier les paramètres des stratégies dans un package de stratégie après avoir attribué un package. Les modifications que vous apportez aux paramètres de stratégie sont automatiquement appliquées aux utilisateurs auxquels le package est attribué.
 
-Voici comment afficher, attribuer et personnaliser des packages de stratégie dans le Centre d’administration Microsoft Teams’administration.
+Voici comment afficher, attribuer et personnaliser des packages de stratégie dans le Microsoft Teams d’administration.
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Afficher les paramètres d’une stratégie dans un package de stratégie
 
@@ -138,7 +138,7 @@ Vous pouvez modifier les paramètres d’une stratégie via la page **Packages**
 
 ### <a name="assign-a-policy-package"></a>Attribuer un package de stratégie
 
-Vous pouvez affecter un package de stratégie à un utilisateur, un groupe ou un lot d’utilisateurs. Pour plus d’informations sur l’attribution de packages de stratégie, voir [Attribuer des packages de stratégie à des utilisateurs et groupes.](assign-policy-packages.md)
+Vous pouvez attribuer un package de stratégie à un utilisateur, un groupe ou un lot d’utilisateurs. Pour plus d’informations sur l’attribution de packages de stratégie, voir [Attribuer des packages de stratégie à des utilisateurs et groupes.](assign-policy-packages.md)
 
 ## <a name="related-topics"></a>Sujets associés
 

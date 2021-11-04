@@ -17,14 +17,14 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2c40e3a79ab8cf3776ecfdb9c6488f219b24e407
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86c1982e358f725d8965d8b6b5c4d43a01066584
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636812"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783087"
 ---
-# <a name="microsoft-teams-monitor-and-improve-call-quality"></a>Microsoft Teams : surveiller et améliorer la qualité des appels
+# <a name="monitor-and-improve-call-quality-for-microsoft-teams"></a>Surveiller et améliorer la qualité des appels pour les Microsoft Teams
 
 Cet article présente trois outils clés que vous pouvez utiliser pour surveiller, résoudre des problèmes, gérer et améliorer la qualité des appels Microsoft Teams. 
 
@@ -49,7 +49,7 @@ Vous utiliserez l’analyse des  appels et le tableau de bord de qualité des ap
 ## <a name="prioritize-important-network-traffic-using-qos"></a>Hiérarchiser le trafic réseau important à l’aide de QoS
 Lorsque vos utilisateurs commencent à utiliser des Teams pour les appels et les réunions, ils peuvent rencontrer la coupure de voix d’un appelant ou la coupure ou l’coupure d’un appel ou d’une réunion. La vidéo partagée peut se figer ou pixelner, ou échouer. Cela est dû aux paquets IP qui représentent le trafic voix et vidéo rencontré une congestion du réseau et l’arrivée ou non d’une séquence. Si cela se produit (ou pour éviter qu’il se produise en premier lieu), utilisez la qualité de **service (QoS).** 
 
-Avec QoS, vous hiérarchisez le trafic réseau qui demande un délai important (par exemple, les flux vocaux ou vidéo), ce qui permet de l’aligner sur le trafic moins sensible (par exemple, le téléchargement d’une nouvelle application, qui ne demande pas une seconde supplémentaire de téléchargement). QoS identifie et marque tous les paquets dans des flux en temps réel à l’aide d’objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée Listes de contrôle d’accès basée sur les ports, qui demande à votre réseau de fournir à la voix, à la vidéo et au partage d’écran sa propre bande passante réseau dédiée.
+Avec QoS, vous hiérarchisez le trafic réseau qui demande un délai important (par exemple, les flux vocaux ou vidéo), ce qui permet de l’aligner sur le trafic moins sensible (par exemple, le téléchargement d’une nouvelle application, qui ne demande pas une seconde supplémentaire de téléchargement). QoS identifie et marque tous les paquets dans des flux en temps réel à l’aide des objets de stratégie de groupe Windows et d’une fonctionnalité de routage appelée Listes de contrôle d’accès basée sur les ports, qui demande à votre réseau de fournir à la voix, à la vidéo et au partage d’écran sa propre bande passante réseau dédiée.
 
 Dans l’idéal, vous devez implémenter QoS sur votre réseau interne lorsque vous êtes prêt à déployer Teams, mais vous pouvez le faire à tout moment. Si vous êtes assez petit, vous n’aurez peut-être pas besoin de QoS.
 
