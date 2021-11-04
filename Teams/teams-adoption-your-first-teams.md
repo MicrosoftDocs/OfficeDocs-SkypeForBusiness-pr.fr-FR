@@ -1,7 +1,7 @@
 ---
 title: Créer vos premières équipes dans Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a72fba1a2bfd8d0546d2f757df9a73b0aa55287e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732403"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749583"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Créer vos premières équipes dans Microsoft Teams
 
@@ -51,7 +51,7 @@ Dans vos équipes initiales, nous vous suggérons d’épingler les éléments s
 | Sensibilisation et adoption | [Teams Hub d’adoption](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de réussite des clients de Microsoft Teams](https://aka.ms/TeamsCustomerSuccess)|
 | Engagement commercial | Wiki - Conseils d’engagement<br/>Formulaire – Demande de consultation Teams réunion<br/>Liste – Demandes d’engagement |
 |Premiers utilisateurs | Communauté de commentaires épinglés <br/> OneNote faq et thèmes courants |
-| Commentaires et rapports | Rapport d’Microsoft 365 utilisation Office 365 données épinglée (Microsoft 365 administrateurs Office 365 utilisateurs uniquement) |
+| Commentaires et rapports | Rapport d’Microsoft 365 utilisation Office 365 données épinglée (pour les administrateurs Microsoft 365 administrateurs Office 365 utilisateurs uniquement) |
 | Sécurité et conformité | Portail d’aide à la trust Microsoft <br/> [Documentation relative à la sécurité et à la conformité](/office365/securitycompliance/index)<br/> [Roadmap](/office365/securitycompliance/security-roadmap) |
 | Stratégie et planification | Collaboration north star PowerPoint <br/> Plan d’adoption Project service |
 | Formation | Apprentissage personnalisé de formation <br/> [Formation en ligne Teams](https://aka.ms/TeamsTraining) |
@@ -66,4 +66,4 @@ Dans vos équipes initiales, nous vous suggérons d’épingler les éléments s
 
 Lorsque vous commencez à utiliser Teams, il est important pour vous et le reste de l’équipe de projet de vous engager à utiliser Teams conversation instantanée, des canaux et des ressources pour exécuter votre projet. Votre propre utilisation d’Teams est essentielle pour la qualité de votre projet d’adoption. Nous vous recommandons de résistance au fragmentation de votre projet en continuant à discuter par courrier électronique avec l’équipe de projet de base. En passant à Teams vous modélisez le comportement que vous souhaitez finalement que vos employés adoptent. Définissez le ton, commencez par vous lancer et commencez à profiter des informations de votre projet dans un seul endroit !  
 
-![Icône représentant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : [Votre organisation est-elle prête à l’Microsoft Teams ?](teams-adoption-assess-readiness.md)
+![Icône montrant l’étape suivante.](media/teams-adoption-next-icon.png) Suivant : [Votre organisation est-elle prête à l’Microsoft Teams ?](teams-adoption-assess-readiness.md)

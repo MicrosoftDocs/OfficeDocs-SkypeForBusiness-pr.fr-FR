@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams E-mails et enquêtes de transition | Mise à niveau de base
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583468"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760362"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemples de courriers électroniques et d’enquêtes pour les communications De base de mise à niveau
 
@@ -84,7 +84,7 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>Rappeler aux utilisateurs de recevoir un courrier électronique à l’étape 6
 
-Ligne d’objet : RAPPEL : Préparez-vous pour la mise à niveau vers Teams
+Ligne d’objet : RAPPEL : Préparez votre mise à niveau vers Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams

@@ -1,7 +1,7 @@
 ---
 title: Configurer les paramètres de parcier d’appel dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modifiez les paramètres de parc Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 2946d0a1082b8e2b2ce9473dcff18a057c8c01f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81d523991f1df5d9bc24f19d212ae63fa5b0beb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585928"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759136"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configurer les paramètres de parcier d’appel dans Skype Entreprise
 
@@ -42,9 +42,9 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
 | **MaxCallPickupAttempts** <br/>      | Nombre de sonnerie de rappel d’un appel parqué avant qu’il ne soit transféré vers l’URI de remplacement spécifié pour le paramètre **OnTimeoutURI**. La valeur par défaut est 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | Adresse SIP de l’utilisateur ou groupe Response Group vers laquelle l’appel parqué sans réponse est routé lorsque la valeur **MaxCallPickupAttempts** est atteinte. <br/> La valeur doit être une URI SIP et commencer par la chaîne « sip: ». Par exemple, sip:bob@contoso.com. La valeur par défaut est aucune adresse de transfert.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>Pour configurer les paramètres du parcier d’appel
+### <a name="to-configure-call-park-settings"></a>Pour configurer les paramètres de parcment d’appel
 
-1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 2. Exécutez :  
 
@@ -55,7 +55,7 @@ Les applets de commande **New-CsCpsConfiguration** et **Set-CsCpsConfiguration**
    > [!TIP]
    > L’applet de commande **Get-CsSite** permet d’identifier le site. Pour plus d’informations, voir Skype Entreprise Server Management Shell.
 
-    Par exemple :
+    Par exemple :
 
    ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com

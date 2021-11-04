@@ -1,7 +1,7 @@
 ---
 title: Définir les propriétés et les options de pool de conversations permanentes
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Vous configurez les options de votre serveur de conversation permanente ou pool de serveurs de conversation permanente en définissant les propriétés suivantes :'
-ms.openlocfilehash: 242490ebe6be0f68e8c25e0c01b77088c15836d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11b4731228f3690ce0fbe2675b5cef35faa3378e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622436"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760802"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Définir les propriétés et les options de pool de conversations permanentes
  
@@ -30,14 +30,14 @@ Vous configurez les options de votre serveur de conversation permanente ou pool 
   
  **Port de conversation permanente**: propriété obligatoire qui définit le numéro de port que ce serveur de conversation permanente ou ce pool de serveurs de conversation permanente écoutera.
   
- **Activer la conformité**: activez la case à cocher si vous prévoyez de déployer et d’implémenter la base de données et la fonctionnalité de conformité de conversation permanente facultatives.
+ **Activer la conformité**: activez la case à cocher si vous envisagez de déployer et d’implémenter la base de données et la fonctionnalité de conformité de conversation permanente facultatives.
   
  Utilisez les magasins **d’SQL Server** de sauvegarde pour activer la récupération d’urgence : activez cette case à cocher si vous envisagez de déployer et d’implémenter la récupération d’urgence des magasins de SQL Server de conversation permanente à partir d’un ensemble configuré de magasins sur une autre SQL Server. Pour plus d’informations, voir [Configure high availability and disaster recovery for Persistent Chat Server in Skype Entreprise Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
   
 > [!NOTE]
 > Cette option est disponible uniquement pour les pools avec plusieurs serveurs. 
   
- **Utilisez ce pool par \<site that this server or pool is being configured in\>** défaut pour le site : cochez cette case s’il s’utilise comme serveur de conversation permanente ou pool de serveurs de conversation permanente par défaut pour le site. Vous devez avoir un serveur de conversation permanente ou un serveur de conversation permanente par défaut par site.
+ **Utilisez ce pool par \<site that this server or pool is being configured in\> défaut** pour le site : cochez cette case s’il s’utilise comme serveur de conversation permanente ou pool de serveurs de conversation permanente par défaut pour le site. Vous devez avoir un serveur de conversation permanente ou un serveur de conversation permanente par défaut par site.
   
 > [!NOTE]
 > Si votre topologie comprend plusieurs sites, une case à cocher utiliser ce pool par défaut pour tous les **sites** s’affiche également.

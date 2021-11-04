@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue racine Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Le nœud Lync Server répertorie les sites centraux de votre topologie. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: b7039c1b6104aff272dbd956f3641372088aa1c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 85ffad884f54ff0bc2bb523b45f80690e4580791
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604053"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752363"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nœud d’étendue racine Skype Entreprise Server
  

@@ -1,7 +1,7 @@
 ---
 title: Panneau de contrôle - Recherche utilisateur mise à jour
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous pouvez utiliser les résultats d’une requête de recherche pour configurer les utilisateurs pour Skype Entreprise Server. Vous pouvez rechercher des utilisateurs par nom d’affichage, prénom, nom de famille, nom de compte SAM (Security Accounts Manager, Gestionnaire de comptes de sécurité), adresse SIP ou URI (Uniform Resource Identifier) de ligne. Vous pouvez également rechercher des utilisateurs à l’aide du Panneau de contrôle Lync Server ou du logiciel en ligne Utilisateurs et ordinateurs Active Directory.
-ms.openlocfilehash: f3a605ae5352507319ec1ee5d626a20688c1beea
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efcb183eb9f763113d5db4c49c86b1d3594173c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579218"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758846"
 ---
 # <a name="control-panel---updated-user-search"></a>Panneau de configuration - Mise à jour : recherche d’un utilisateur
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser les résultats d’une requête de recherche pour configure
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 
-Vous pouvez effectuer les tâches suivantes dans la page Panneau de contrôle de recherche **de** l’utilisateur :
+Vous pouvez effectuer les  tâches suivantes dans la page Panneau de contrôle de recherche d’utilisateur :
 
 - [Rechercher des utilisateurs](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 

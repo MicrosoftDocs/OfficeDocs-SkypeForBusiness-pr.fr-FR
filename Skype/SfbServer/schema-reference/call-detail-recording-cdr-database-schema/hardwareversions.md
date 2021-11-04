@@ -1,7 +1,7 @@
 ---
 title: Table HardwareVersions dans Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
-description: La table HardwareVersions est une table de prise en charge. Chaque enregistrement stocke des informations sur une version matérielle d’appareil.
-ms.openlocfilehash: 81522e0c49516667114045956a035b3ce6f160b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: La table HardwareVersions est une table de prise en charge. Chaque enregistrement stocke des informations sur une version matérielle d’un appareil.
+ms.openlocfilehash: 698ceaa0e446c6a29fd48b2d8694636f3937c26b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618700"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746680"
 ---
 # <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>Table HardwareVersions dans Skype Entreprise Server 2015
  
-La table HardwareVersions est une table de prise en charge. Chaque enregistrement stocke des informations sur une version matérielle d’appareil.
+La table HardwareVersions est une table de prise en charge. Chaque enregistrement stocke des informations sur une version matérielle d’un appareil.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**VersionId** <br/> |int  <br/> |Primaire  <br/> |Numéro unique identifiant cette version du matériel.  <br/> |
 |**Version** <br/> |nvarchar(256)  <br/> | <br/> |Version matérielle.  <br/> |

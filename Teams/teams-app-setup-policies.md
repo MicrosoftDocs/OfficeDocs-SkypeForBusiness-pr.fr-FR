@@ -1,7 +1,7 @@
 ---
 title: Gérer les stratégies de mise en application dans Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aa3bcdc05107722554b6fbce9074c0462ac6d73c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f28204f524cb04a94c4c18934c737a83384ff2ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728873"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760382"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gérer les stratégies de mise en application dans Microsoft Teams
 
@@ -50,7 +50,7 @@ Les applications sont épinglées à la barre de l’application, qui est la bar
 |![Le Teams de bureau.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Le client Teams mobile](media/mobile-app-ui.png)      |
 
 > [!NOTE]
-> Si vous avez Teams pour l’éducation, il est important de savoir que l’application Devoirs est épinglée par défaut dans la stratégie globale, même si actuellement elle n’est pas répertoriée dans la stratégie globale. Il s’agit de la quatrième application dans la liste des applications épinglées sur Teams clients.
+> Si vous avez Teams pour l'éducation, il est important de savoir que l’application Devoirs est épinglée par défaut dans la stratégie globale, même si actuellement elle n’est pas répertoriée dans la stratégie globale. Il s’agit de la quatrième application dans la liste des applications épinglées sur Teams clients.
 
 Pour créer une stratégie de configuration d’application afin d’épingler des applications, vous pouvez suivre les étapes suivantes :
 
@@ -170,9 +170,9 @@ Toutes les applications ne peuvent pas être épinglées Teams via une stratégi
 
 N’oubliez pas que le magasin Teams’application répertorie toutes Teams applications. Le **volet Ajouter des applications épinglées** inclut uniquement les applications qui peuvent être épinglées à Teams via une stratégie.
 
-#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Je suis un Teams pour l’éducation administrateur. Que dois-je savoir sur les stratégies de configuration d’application dans Teams pour l’éducation
+#### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>Je suis un Teams pour l'éducation administrateur. Que dois-je savoir sur les stratégies de configuration d’application dans Teams pour l'éducation
 
-L’application Appels n’est pas disponible dans Teams pour l’éducation. Lorsque vous créez une stratégie de configuration d’application personnalisée, l’application Appels s’affiche dans la liste des applications. Toutefois, l’application n’est pas épinglée à Teams clients et Teams pour l’éducation utilisateurs ne voient pas l’application Appels dans Teams.
+L’application Appels n’est pas disponible dans Teams pour l'éducation. Lorsque vous créez une stratégie de configuration d’application personnalisée, l’application Appels s’affiche dans la liste des applications. Toutefois, l’application n’est pas épinglée à Teams clients et Teams pour l'éducation utilisateurs ne voient pas l’application Appels dans Teams.
 
 #### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>Combien d’applications épinglées peuvent être ajoutées à une stratégie
 

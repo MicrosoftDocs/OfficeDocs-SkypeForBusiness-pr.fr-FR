@@ -1,7 +1,7 @@
 ---
 title: Installer et configurer Busy Options pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Découvrez comment installer et configurer Busy Options dans Skype Entreprise Server.
-ms.openlocfilehash: 58c70360a9e25ccefcd62181ab5a1a5b222ae9a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60ff279d1d763cda8ed5c03809c7244a05aec1e9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600679"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759066"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installer et configurer Busy Options pour Skype Entreprise Server
 
@@ -30,7 +30,7 @@ Busy Options est une nouvelle stratégie de voix introduite dans la mise à jour
 
 Si Busy Options est activée pour l’organisation, tous les utilisateurs du Enterprise, les utilisateurs Voix Entreprise et non Voix Entreprise, peuvent utiliser les options de configuration suivantes :
 
-- Occupé (occupé) : les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
+- Occupé(s) : dans lequel les nouveaux appels entrants sont rejetés avec une signal occupé si l’utilisateur est occupé.
 
 - Messagerie vocale sur Busy : dans laquelle les nouveaux appels entrants sont transmis à la messagerie vocale si l’utilisateur est occupé.
 
@@ -46,7 +46,7 @@ Assurez-vous que vous avez installé la dernière version de Skype Entreprise Se
 
 2. Exécutez le programme SkypeServerUpdateInstaller.exe installer sur chaque serveur frontal d’un pool.
 
-3. Exécutez le programme SkypeServerUpdateInstaller.exe sur chaque serveur Survivable Branch Server (SBS), si vous souhaitez assurer la prise en charge du failover sur SBS.
+3. Exécutez le programme SkypeServerUpdateInstaller.exe d’installation sur chaque serveur Survivable Branch Server (SBS), si vous souhaitez garantir la prise en charge duover sur SBS.
 
 Le programme d’installation déploie la dernière version de l’application Busy Options. Toutefois, l’application n’est pas activée par défaut. Pour activer l’application, effectuez les étapes suivantes :
 
@@ -107,7 +107,7 @@ Par exemple, la commande suivante configure les options busy pour l’utilisateu
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
-Dans l’exemple suivant, la commande configure les options occupé pour l’utilisateur « Contrôletal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Contrôletal Velasquez » sont transmis à la messagerie vocale lorsqu’elle est déjà en appel :
+Dans l’exemple suivant, la commande configure les options busy pour l’utilisateur « Contrôletal Velasquez ». Dans cette configuration, les nouveaux appels entrants vers « Contrôletal Velasquez » sont transmis à la messagerie vocale lorsqu’elle est déjà en appel :
 
 ```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy

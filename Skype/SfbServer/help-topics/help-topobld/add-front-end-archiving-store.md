@@ -1,7 +1,7 @@
 ---
 title: Ajouter un magasin d’archivage frontal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
-description: L’archivage nécessite une édition 64 bits prise en charge du logiciel de base de données Microsoft SQL Server pour stocker les données d’archivage. Vous pouvez soit sélectionner une base de données SQL Server précédemment définie à utiliser pour l’archivage, soit définir une nouvelle base de données SQL Server en spécifiant un nom de domaine complet (FQDN) du serveur sur lequel la base de données SQL Server doit résider, en plus de l’instance de SQL Server que vous souhaitez utiliser pour la nouvelle base de données SQL Server (qui peut être l’instance par défaut, ou une instance nommée que vous spécifiez).
-ms.openlocfilehash: 60b30d9395b6b81174b0e037325280e2919fb231
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: L’archivage nécessite une édition 64 bits prise en charge du logiciel Microsoft SQL Server base de données pour stocker les données d’archivage. Vous pouvez soit sélectionner une base de données SQL Server précédemment définie à utiliser pour l’archivage, soit définir une nouvelle base de données SQL Server en spécifiant un nom de domaine complet (FQDN) du serveur sur lequel la base de données SQL Server doit résider, en plus de l’instance de SQL Server que vous souhaitez utiliser pour la nouvelle base de données SQL Server (qui peut être l’instance par défaut, ou une instance nommée que vous spécifiez).
+ms.openlocfilehash: b2c882501b662964f1458b7b17fef43432721bab
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601519"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749285"
 ---
 # <a name="add-front-end-archiving-store"></a>Ajouter un magasin d’archivage frontal
 
-L’archivage nécessite une édition 64 bits prise en charge du logiciel de base de données Microsoft SQL Server pour stocker les données d’archivage. Vous pouvez soit sélectionner une base de données SQL Server précédemment définie à utiliser pour l’archivage, soit définir une nouvelle base de données SQL Server en spécifiant un nom de domaine complet (FQDN) du serveur sur lequel la base de données SQL Server doit résider, en plus de l’instance de SQL Server que vous souhaitez utiliser pour la nouvelle base de données SQL Server (qui peut être l’instance par défaut, ou une instance nommée que vous spécifiez).
+L’archivage nécessite une édition 64 bits prise en charge du logiciel Microsoft SQL Server base de données pour stocker les données d’archivage. Vous pouvez soit sélectionner une base de données SQL Server précédemment définie à utiliser pour l’archivage, soit définir une nouvelle base de données SQL Server en spécifiant un nom de domaine complet (FQDN) du serveur sur lequel la base de données SQL Server doit résider, en plus de l’instance de SQL Server que vous souhaitez utiliser pour la nouvelle base de données SQL Server (qui peut être l’instance par défaut, ou une instance nommée que vous spécifiez).
 
 > [!NOTE]
 > Si le compte utilisé pour publier la topologie dispose des droits d’utilisateur et autorisations adéquats, vous pouvez créer une base de données de surveillance lorsque vous publiez votre topologie. Vous pouvez également créer la base de données plus tard, lors de la procédure d’installation.

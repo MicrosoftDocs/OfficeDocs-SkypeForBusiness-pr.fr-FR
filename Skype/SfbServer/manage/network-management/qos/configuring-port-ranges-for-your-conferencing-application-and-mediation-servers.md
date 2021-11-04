@@ -5,7 +5,7 @@ ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Cet article explique comment configurer des plages de ports et une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation.
-ms.openlocfilehash: 6e5b420b4ccc8cc59a45834cbd898ccc5b2ec180
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6785756af5c79eb27d2b4e15b86155d1d58bbc88
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634288"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760722"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuration des plages de ports et d’une stratégie de qualité de service pour vos serveurs de conférence, d’application et de médiation
 
@@ -173,7 +173,7 @@ Pour vérifier que les nouvelles stratégies QoS ont été appliquées, procéde
 
 2.  Dans la **boîte de** dialogue Exécuter, tapez **regedit,** puis appuyez sur Entrée.
 
-3.  Dans l’Éditeur du Registre, développez **Ordinateur,** développez **HKEY \_ LOCAL \_ MACHINE,** développez **SOFTWARE,** développez **Stratégies,** **développez Microsoft,** développez **Windows,** puis cliquez sur **QoS**. Sous **QoS** des clés de registre pour chaque stratégie QoS créée doivent s’afficher. Par exemple, si vous avez créé deux nouvelles stratégies (l’une nommée Skype Entreprise Server Audio QoS et l’autre appelée Skype Entreprise Server Video QoS), vous devriez voir des entrées de Registre pour la qualité de service audio Skype Entreprise Server et la qualité de service Skype Entreprise Server Video.
+3.  Dans l’Éditeur du Registre, développez **Ordinateur,** développez **HKEY \_ LOCAL \_ MACHINE,** développez **SOFTWARE,** développez **Stratégies,** **développez Microsoft,** développez **Windows,** puis cliquez sur **QoS**. Sous **QoS** des clés de registre pour chaque stratégie QoS créée doivent s’afficher. Par exemple, si vous avez créé deux nouvelles stratégies (une nommée Skype Entreprise Server Audio QoS et l’autre appelée Skype Entreprise Server Video QoS), vous devriez voir des entrées de Registre pour Skype Entreprise Server Audio QoS et Skype Entreprise Server Video QoS.
 
 Pour vous assurer que les paquets réseau sont bien marqués avec la valeur DSCP appropriée, vous devez également créer une entrée de Registre sur chaque ordinateur. Pour cela, procédez comme suit :
 

@@ -1,7 +1,7 @@
 ---
 title: Préparer un schéma (appeler)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
-description: 'La page Exécution de commandes affiche un résumé des commandes émises pour étendre le schéma pour Skype Entreprise Server 2015. Une fois les tâches terminées, le volet récapitulatif indique si les tâches ont réussi ou ont échoué. Examinez l’écran récapitulatif et assurez-vous que l’état de la tâche : Terminé est affiché sous le volet récapitulatif. La liste récapitulatif sous le volet récapitulatif vous permet de sélectionner et d’afficher le fichier journal, Préparer le schéma. Cliquez sur Afficher le journal pour examiner le fichier journal. Si vous avez reçu des erreurs pendant la préparation du schéma, les erreurs rencontrées par la tâche sont consignées ici. Vous pouvez ensuite prendre des mesures pour corriger toute erreur et ré-exécuter la préparation du schéma.'
-ms.openlocfilehash: d9afe37485f771ea81ce6adedb308178b925eef9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'La page Exécution de commandes affiche un résumé des commandes émises pour étendre le schéma pour Skype Entreprise Server 2015. Une fois les tâches terminées, le volet récapitulatif indique si les tâches ont réussi ou ont échoué. Examinez l’écran récapitulatif et assurez-vous que l’état de la tâche : Terminé est affiché sous le volet récapitulatif. La liste récapitulatif sous le volet résumé vous permet de sélectionner et d’afficher le fichier journal, Préparer le schéma. Cliquez sur Afficher le journal pour examiner le fichier journal. Si vous avez reçu des erreurs pendant la préparation du schéma, les erreurs rencontrées par la tâche sont consignées ici. Vous pouvez ensuite prendre des mesures pour corriger toute erreur et ré-exécuter la préparation du schéma.'
+ms.openlocfilehash: 9ef4aaeca2d4bb90b8333c7272fab5162beecbdc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628936"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752333"
 ---
 # <a name="prepare-schema-invoke"></a>Préparer un schéma (appeler)
  
-La page **Exécution de** commandes affiche un résumé des commandes émises pour étendre le schéma pour Skype Entreprise Server 2015. Une fois les tâches terminées, le volet récapitulatif indique si les tâches ont réussi ou ont échoué. Examinez l’écran récapitulatif  et assurez-vous que l’état de la tâche : Terminé est affiché sous le volet récapitulatif. La liste récapitulatif sous le volet récapitulatif vous permet de sélectionner et d’afficher le fichier journal, Préparer le schéma. Cliquez **sur Afficher le journal** pour examiner le fichier journal. Si vous avez reçu des erreurs pendant la préparation du schéma, les erreurs rencontrées par la tâche sont consignées ici. Vous pouvez ensuite prendre des mesures pour corriger toute erreur et ré-exécuter la préparation du schéma.
+La page **Exécution de** commandes affiche un résumé des commandes émises pour étendre le schéma pour Skype Entreprise Server 2015. Une fois les tâches terminées, le volet récapitulatif indique si les tâches ont réussi ou ont échoué. Examinez l’écran récapitulatif  et assurez-vous que l’état de la tâche : Terminé est affiché sous le volet récapitulatif. La liste récapitulatif sous le volet résumé vous permet de sélectionner et d’afficher le fichier journal, Préparer le schéma. Cliquez **sur Afficher le journal** pour examiner le fichier journal. Si vous avez reçu des erreurs pendant la préparation du schéma, les erreurs rencontrées par la tâche sont consignées ici. Vous pouvez ensuite prendre des mesures pour corriger toute erreur et ré-exécuter la préparation du schéma.
   
 Cliquez sur **Terminer** pour terminer la tâche.
   

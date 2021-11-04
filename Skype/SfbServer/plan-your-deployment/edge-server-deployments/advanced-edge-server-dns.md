@@ -1,7 +1,7 @@
 ---
 title: Planifier le déploiement de serveurs Edge avancés pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Examinez les scénarios pour Skype Entreprise Server options de déploiement, que vous vouliez un serveur unique ou préférez un pool de serveurs avec DNS ou HLB.
-ms.openlocfilehash: a5086d68f8cac1fd68dbc3c0414b0136e463efff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5b58d9aa79566f7aee3ac102f1c5e73996bc6dae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595492"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767642"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>Planifier le déploiement de serveurs Edge avancés pour Skype Entreprise Server
  
@@ -83,7 +83,7 @@ Si vous avez envie de le faire, vous pouvez configurer votre appareil mobile pou
     
 - Pour l’accès interne : https:// \<IntPoolFQDN\> /AutoDiscover/AutoDiscover.svc/Root
     
-Nous vous recommandons d’utiliser la découverte automatique plutôt que la découverte manuelle. Toutefois, si vous faites des tests ou des dépannages, les paramètres manuels peuvent s’avérer très utiles.
+Nous vous recommandons d’utiliser la découverte automatique par opposition à la découverte manuelle. Toutefois, si vous faites des tests ou des dépannages, les paramètres manuels peuvent s’avérer très utiles.
   
 ## <a name="split-brain-dns"></a>Split-brain DNS
 <a name="SplitBrainDNS"> </a>
@@ -106,7 +106,7 @@ Nous allons énumérer les enregistrements DNS pour les zones internes et extern
     
   - Enregistrements DNS A et AAAA (si vous utilisez l’adressare IPv6) pour votre interface interne Edge pour chaque serveur Edge Skype Entreprise Server de votre réseau de périmètre.
     
-  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) pour l’interface  interne de chaque serveur proxy inverse de votre réseau de périmètre (facultatif pour la gestion d’un proxy inverse).
+  - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) pour l’interface  interne de chaque serveur proxy inverse dans votre réseau de périmètre (facultatif pour la gestion d’un proxy inverse).
     
   - Enregistrements DNS A et AAAA (si vous utilisez l’adressag IPv6) et SRV pour  la configuration automatique du client Skype Entreprise Server interne (facultatif).
     
@@ -114,7 +114,7 @@ Nous allons énumérer les enregistrements DNS pour les zones internes et extern
     
 - Toutes vos interfaces Edge internes Skype Entreprise Server votre réseau de périmètre utilisent cette zone DNS interne pour résoudre les requêtes en contoso.com.
     
-- Tous les serveurs exécutant Skype Entreprise Server et les clients exécutant des Skype Entreprise Server dans le réseau d’entreprise pointent vers des serveurs DNS internes pour résoudre les requêtes en contoso.com, ou ils utilisent le fichier hôte sur chaque serveur Edge et rép. rép. les enregistrements A et AAAA (si vous utilisez l’adressare IPv6) pour le serveur du saut suivant (spécifiquement pour l’adresse IP ip du directeur ou du pool directeur, l’adresse IP ip du pool frontal ou le serveur Édition Standard).
+- Tous les serveurs exécutant Skype Entreprise Server et les clients exécutant des Skype Entreprise Server dans le réseau d’entreprise pointent vers des serveurs DNS internes pour résoudre les requêtes en contoso.com, ou ils utilisent le fichier hôte sur chaque serveur Edge et rép. rép. les enregistrements A et AAAA (si vous utilisez l’adressare IPv6) pour le serveur du saut suivant (spécifiquement pour l’adresse IP ip du directeur ou du pool directeur,  VIP du pool frontal ou serveur Édition Standard serveur frontal).
     
 ### <a name="external-dns"></a>DNS externe
 
@@ -168,7 +168,7 @@ Maintenant que nous savons tout cela, si vous avez besoin d’une exigence autom
     
 - **Repérer la zone interne**
     
-    Si la création d’une zone entière dans votre DNS interne n’est pas une option pour vous, vous pouvez créer des zones de point d’épingle (dédiées) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd.exe. Dnscmd.exe est nécessaire, car l’interface utilisateur DNS ne permet pas de créer des zones de point d’épingle.
+    Si la création d’une zone entière dans votre DNS interne n’est pas une option pour vous, vous pouvez créer des zones de point d’pin (dédié) qui correspondent aux enregistrements SRV requis pour la configuration automatique et remplir ces zones à l’aide de dnscmd.exe. Dnscmd.exe est nécessaire, car l’interface utilisateur DNS ne permet pas de créer des zones de point d’épingle.
     
     Par exemple, si votre domaine SIP est contoso.com et que vous avez un pool frontal appelé pool01 qui contient deux serveurs frontaux, vous aurez besoin des zones de point d’épingle et des enregistrements A suivants dans votre DNS interne :
     
@@ -195,7 +195,7 @@ Maintenant que nous savons tout cela, si vous avez besoin d’une exigence autom
   ```
 
 > [!NOTE]
-> Le FQDN du pool frontal apparaît deux fois, mais avec deux adresses IP différentes. Cela est dû au fait que l’équilibrage de charge DNS est utilisé. Si l’lb de hlb est utilisé, il n’y aurait qu’une seule entrée de pool frontal. 
+> Le FQDN du pool frontal apparaît deux fois, mais avec deux adresses IP différentes. Cela est dû au fait que l’équilibrage de charge DNS est utilisé. Si l’lb de hlb est utilisé, il n’y a qu’une seule entrée de pool frontal. 
   
 > [!NOTE]
 > En outre, les valeurs de nom de pool frontal changent entre les exemples contoso.com et fabrikam.com, mais les adresses IP restent identiques. En effet, les utilisateurs qui se sont signés à partir de l’un ou l’autre domaine SIP utiliseront le même pool frontal pour la configuration automatique. 
@@ -211,14 +211,14 @@ Tous les enregistrements DNS de ce tableau sont des exemples.
   
 |**Enregistrement GeoDNS**|**Enregistrements de pool**|**Enregistrements CNAME**|**Paramètres DNS (sélectionnez une option)**|
 |:-----|:-----|:-----|:-----|
-|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-int.geolb.contoso.com  <br/>   <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-ext.geolb.contoso.com  <br/>   <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-int.geolb.contoso.com   <br/>   <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
-|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-ext.geolb.contoso.com   <br/>  <br/> |Round Robin entre pools  <br/> **OU** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-int.geolb.contoso.com  <br/>   <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-ext.geolb.contoso.com  <br/>   <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-int.geolb.contoso.com   <br/>   <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-ext.geolb.contoso.com  <br/>  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-int.geolb.contoso.com   <br/>  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Meet.contoso.com à Meet-ext.geolb.contoso.com   <br/>  <br/> |Round Robin entre pools  <br/> **OR** <br/> Utiliser le principal, se connecter au secondaire en cas d’échec  <br/> |
    
 ## <a name="dns-load-balancing"></a>équilibrage de charge DNS
 <a name="DNSLB"> </a>
@@ -235,7 +235,7 @@ Par exemple, s’il existe trois serveurs frontux dans un pool nommé pool01.con
    |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
    |pool01.contoso.com  <br/> |192.168.10.92  <br/> |
    
-- Le client tente d’établir une connexion TCP à l’une des adresses IP. En cas d’échec, il essaiera l’adresse IP suivante mise en cache à partir de cette liste.
+- Le client tente d’établir une connexion TCP à l’une des adresses IP. En cas d’échec, il essaiera l’adresse IP suivante qu’il est mis en cache à partir de cette liste.
     
 - Si la connexion TCP réussit, le client négocie TLS pour se connecter au bureau d’enregistrement principal sur pool01.contoso.com.
     
@@ -248,7 +248,7 @@ Vous utilisez l’équilibrage de charge DNS pour :
   
 - Équilibrez la charge sip de serveur à serveur sur les serveurs Edge.
     
-- Équilibrer la charge des applications des services d’application de communication unifiée (UCAS), telles que les Standard automatique conférence, Response Group et le parcage d’appel.
+- Équilibrer la charge des applications UCAS (Unified Communication Application Services), telles que Standard automatique conférence, Response Group et parcage d’appel.
     
 - Empêcher les nouvelles connexions aux applications UCAS (également appelées drainage).
     

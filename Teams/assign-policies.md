@@ -1,7 +1,7 @@
 ---
 title: Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tomkau, saragava, ritikag, jastark
 ms.topic: article
@@ -18,12 +18,12 @@ description: Découvrez les différentes façons d’attribuer des stratégies �
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ed0ed4b03d6472a646cd19897b33a22b2fc4df06
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: e29ee61183b0c831fc6d638bf20e6edaab050e8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456364"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760552"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Attribuer des stratégies à vos utilisateurs dans Microsoft Teams.
 
@@ -37,9 +37,9 @@ Cet article décrit les différentes manières d’affecter des stratégies aux 
 
 ## <a name="which-policy-takes-precedence"></a>Quelle stratégie prend le pas ?
 
-Un utilisateur a une stratégie efficace pour chaque type de stratégie. Il est possible, voire probable, qu’une stratégie soit attribuée directement à un utilisateur et qu’il soit également membre d’un ou plusieurs groupes à qui une stratégie du même type a été attribuée. Dans ces types de scénarios, quelle stratégie prend le pas ? La stratégie efficace d’un utilisateur est déterminée selon les règles de priorité, comme suit.
+Un utilisateur a une stratégie efficace pour chaque type de stratégie. Il est possible, voire probable, qu’une stratégie soit attribuée directement à un utilisateur et qu’il soit également membre d’un ou plusieurs groupes pour qui une stratégie du même type est affectée. Dans ces types de scénarios, quelle stratégie prend le pas ? La stratégie efficace d’un utilisateur est déterminée selon les règles de priorité, comme suit.
 
-Si un utilisateur est affecté directement à une stratégie (individuellement ou par le biais d’une affectation de lot), cette stratégie est prioritaire. Dans l’exemple visuel suivant, la stratégie efficace de l’utilisateur est la stratégie de réunion carrée qu’il est directement affecté à l’utilisateur.
+Si un utilisateur est affecté directement à une stratégie (individuellement ou par le biais d’une affectation de lot), cette stratégie est prioritaire. Dans l’exemple visuel suivant, la stratégie efficace de l’utilisateur est la stratégie de réunion carrée qu’il trouve directement à l’utilisateur.
 
 ![Diagramme montrant comment une stratégie assignée directement prend le pas.](media/assign-policies-example-directly-assigned.png)
 
@@ -51,7 +51,7 @@ Dans cet exemple visuel, la stratégie efficace de l’utilisateur est la strat�
 
 Si un utilisateur n’est pas directement affecté à une stratégie ou n’est membre d’aucun groupe à qui une stratégie est attribuée, l’utilisateur reçoit la stratégie globale (à l’échelle de l’organisation par défaut) pour ce type de stratégie. Voici un exemple visuel.
 
-![Diagramme montrant comment une stratégie globale prend le pas.](media/assign-policies-example-global.png)
+![Diagramme montrant la manière dont une stratégie globale prend le pas.](media/assign-policies-example-global.png)
 
 Pour en savoir plus, consultez [les règles de priorité.](#precedence-rules)
 
@@ -65,7 +65,7 @@ Avant d’affecter des stratégies à des utilisateurs ou groupes individuels, c
 |---------|---------|----|
 |[Attribuer une stratégie à des utilisateurs individuels](#assign-a-policy-to-individual-users)    | Vous débutez dans Teams vous débutez, ou vous n’avez besoin d’affecter qu’une ou plusieurs stratégies à un petit nombre d’utilisateurs. |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module
 |[Affecter une stratégie à un groupe](#assign-a-policy-to-a-group) |Attribuer des stratégies en fonction de l’appartenance d’un utilisateur à un groupe. Par exemple, affectez une stratégie à tous les utilisateurs d’un groupe de sécurité ou d’une liste de distribution.| The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
-|[Affecter une stratégie à un lot d’utilisateurs](#assign-a-policy-to-a-batch-of-users)   | Attribuer des stratégies à de grands ensembles d’utilisateurs. Par exemple, affectez une stratégie à des centaines ou des milliers d’utilisateurs à la fois dans votre organisation. |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
+|[Affecter une stratégie à un lot d’utilisateurs](#assign-a-policy-to-a-batch-of-users)   | Attribuer des stratégies à un grand nombre d’utilisateurs. Par exemple, affectez une stratégie à des centaines ou des milliers d’utilisateurs à la fois dans votre organisation. |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 | [Attribuer un package de stratégies aux utilisateurs](#assign-a-policy-package-to-users)  |Attribuez plusieurs stratégies à des ensembles spécifiques d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, affectez le package de stratégie Éducation (Enseignant) aux enseignants de votre établissement scolaire pour leur donner un accès total aux conversations, appels et réunions. Affectez le package de stratégie Éducation (étudiant secondaire) aux étudiants secondaires afin de limiter certaines fonctionnalités telles que les appels privés.  |The Microsoft Teams admin center or PowerShell cmdlets in the Teams PowerShell module|
 | [Affecter un package de stratégie à un groupe](#assign-a-policy-package-to-a-group) (en prévisualisation privée)   |Attribuer plusieurs stratégies à un groupe d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, affectez un package de stratégie à tous les utilisateurs d’un groupe de sécurité ou d’une liste de distribution. |Le Microsoft Teams d’administration powershell (bientôt disponible) ou les cmdlets PowerShell dans Teams module PowerShell|
 | [Affecter un package de stratégie à un lot d’utilisateurs](#assign-a-policy-package-to-a-batch-of-users)|Affectez plusieurs stratégies à un lot d’utilisateurs de votre organisation qui ont des rôles identiques ou similaires. Par exemple, affectez le package de stratégie Éducation (Enseignant) à tous les enseignants de votre établissement en utilisant un devoir de lot pour leur donner un accès total aux conversations, appels et réunions. Affectez le package de stratégie Éducation (étudiant secondaire) à un lot d’étudiants secondaires afin de limiter certaines fonctionnalités telles que les appels privés.|Cmdlets PowerShell dans le module Teams PowerShell|
@@ -128,7 +128,7 @@ Pour affecter une stratégie à un utilisateur :
 
 Vous pouvez également :
 
-1. Dans le panneau de navigation gauche du Microsoft Teams d’administration, allez sur la page stratégie.
+1. Dans le navigation gauche du Microsoft Teams d’administration, allez sur la page stratégie.
 2. Sélectionnez la stratégie que vous voulez attribuer en cliquant à gauche du nom de la stratégie.
 3. Sélectionnez **Gérer les utilisateurs**.
 4. Dans le volet **Gérer les utilisateurs**, recherchez l’utilisateur par son nom complet ou son nom d’utilisateur, sélectionnez le nom, puis sélectionnez **Ajouter**. Répétez cette étape pour chaque utilisateur que vous souhaitez ajouter.
@@ -136,7 +136,7 @@ Vous pouvez également :
 
 ### <a name="use-powershell"></a>Utiliser PowerShell
 
-Chaque type de stratégie dispose de son propre ensemble d’lets de cmdlets pour le gérer. Utilisez `Grant-` l’cmdlet pour un type de stratégie donné pour affecter la stratégie. Par exemple, utilisez l’cmdlet pour affecter une stratégie `Grant-CsTeamsMeetingPolicy` Teams réunion aux utilisateurs. Ces cmdlets sont incluses dans le module Teams PowerShell et sont documentées dans la référence [Skype Entreprise cmdlet.](/powershell/skype/intro?view=skype-ps&preserve-view=true)
+Chaque type de stratégie possède son propre ensemble d’lets de cmdlets pour le gérer. Utilisez `Grant-` l’cmdlet pour un type de stratégie donné pour affecter la stratégie. Par exemple, utilisez l’cmdlet pour affecter une stratégie `Grant-CsTeamsMeetingPolicy` Teams réunion aux utilisateurs. Ces cmdlets sont incluses dans le module Teams PowerShell et sont documentées dans la référence [Skype Entreprise cmdlet.](/powershell/skype/intro?view=skype-ps&preserve-view=true)
 
 Téléchargez et installez [la Teams publique PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) (si vous ne l’avez pas déjà fait), puis exécutez l’application suivante pour vous connecter.
 
@@ -187,7 +187,7 @@ Pour un type de stratégie donné, la stratégie efficace d’un utilisateur est
 
 La stratégie efficace d’un utilisateur est mise à jour en fonction des règles ci-après :
 
-- lorsqu’un utilisateur est ajouté ou supprimé d’un groupe pour qui une stratégie est assignée.
+- lorsqu’un utilisateur est ajouté ou supprimé d’un groupe à l’aide d’une stratégie.
 - une stratégie n’est pas signée à partir d’un groupe.
 - une stratégie directement attribuée à l’utilisateur est supprimée.
 
@@ -360,7 +360,7 @@ Pour afficher l’état de votre affectation de stratégie, dans la bannière  q
 
 L’affectation de stratégie de lot vous permet d’affecter une stratégie à de grands ensembles d’utilisateurs à la fois sans utiliser de script. Vous utilisez la [cmdlet New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour envoyer un lot d’utilisateurs et la stratégie que vous voulez attribuer. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot. Vous pouvez ensuite utiliser la cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) pour suivre l’avancement et l’état des devoirs d’un lot.
 
-Spécifiez les utilisateurs selon leur ID d’objet ou leur adresse SIP (Session Initiation Protocol). L’adresse SIP d’un utilisateur a souvent la même valeur que le nom d’utilisateur principal (UPN) ou l’adresse de courrier, mais cela n’est pas obligatoire. Si un utilisateur est spécifié à l’aide de son nom d’utilisateur supérieur ou de son adresse de courrier, mais que sa valeur est différente de celle de son adresse SIP, l’attribution de stratégie échoue pour l’utilisateur. Si un lot inclut des utilisateurs en double, les doublons sont supprimés du lot avant que le traitement et l’état ne soient fournis qu’aux utilisateurs uniques restants du lot.
+Spécifiez les utilisateurs selon leur ID d’objet ou adresse SIP (Session Initiation Protocol). L’adresse SIP d’un utilisateur a souvent la même valeur que le nom d’utilisateur principal (UPN) ou l’adresse de courrier, mais cela n’est pas obligatoire. Si un utilisateur est spécifié à l’aide de son nom d’utilisateur supérieur ou de son adresse de courrier, mais que sa valeur est différente de celle de son adresse SIP, l’attribution de stratégie échoue pour l’utilisateur. Si un lot inclut des utilisateurs en double, les doublons sont supprimés du lot avant que le traitement et l’état ne soient fournis qu’aux utilisateurs uniques restants du lot.
 
 Un lot peut contenir jusqu’à 5 000 utilisateurs. Pour de meilleurs résultats, n’envoyez pas plus de quelques lots à la fois. Autorisez le traitement des lots avant l’envoi d’autres lots.
 
@@ -380,9 +380,9 @@ Connect-MicrosoftTeams
 
 Lorsque vous y êtes invité, connectez-vous à l’aide de vos informations d’identification d’administrateur.
 
-#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Installer et se connecter au module Azure AD PowerShell Graph (facultatif)
+#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Installer et se connecter au module Azure AD PowerShell pour Graph (facultatif)
 
-Vous pouvez également télécharger et installer le [module Azure AD PowerShell](/powershell/azure/active-directory/install-adv2) pour Graph (si ce n’est déjà fait) et vous connecter à Azure AD afin de récupérer la liste des utilisateurs de votre organisation.
+Vous pouvez également télécharger et installer le [module Azure AD PowerShell](/powershell/azure/active-directory/install-adv2) pour Graph (si ce n’est déjà fait) et vous connecter à Azure AD afin de pouvoir récupérer la liste des utilisateurs de votre organisation.
 
 Exécutez ce qui suit pour vous connecter à Azure AD.
 
@@ -435,7 +435,7 @@ Un package de stratégie dans Teams est un ensemble de stratégies et paramètre
 
 2. Dans la page de l’utilisateur, sélectionnez **Stratégies,** puis, à côté du **package** de stratégie, sélectionnez **Modifier.**
 
-3. Dans le **volet Attribuer un package** de stratégie, sélectionnez le package à attribuer, puis sélectionnez **Enregistrer.**
+3. Dans le **volet Attribuer un package** de stratégie, sélectionnez le package que vous voulez attribuer, puis sélectionnez **Enregistrer.**
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Attribuer un package de stratégie à plusieurs utilisateurs
 
@@ -451,7 +451,7 @@ Un package de stratégie dans Teams est un ensemble de stratégies et paramètre
 
 Attribution de package de stratégie aux groupes vous permet d’attribuer plusieurs stratégies à un groupe d’utilisateurs, tel qu’un groupe de sécurité ou une liste de distribution. L’affectations de stratégie est propagée aux membres du groupe en fonction de règles de priorité. Lorsque les membres sont ajoutés à un groupe ou supprimés de ceux-ci, leurs affectations de stratégie héritées sont mises à jour en conséquence.
 
-L’affectation de package de stratégie à des groupes est recommandée pour les groupes de jusqu’à 50 000 utilisateurs, mais elle fonctionne également avec les groupes plus importants.
+L’affectation d’un package de stratégie à des groupes est recommandée pour les groupes de jusqu’à 50 000 utilisateurs, mais elle fonctionne également avec des groupes plus importants.
 
 Lorsque vous attribuez le package de stratégie, il est immédiatement affecté au groupe. Toutefois, la propagation de l’affectation de stratégie aux membres du groupe est effectuée comme une opération en arrière-plan et peut prendre du temps, selon la taille du groupe. Il en va de même lorsqu’une stratégie est non signée dans un groupe, ou lorsque des membres sont ajoutés ou supprimés d’un groupe.
 
@@ -465,7 +465,7 @@ Lorsque vous attribuez le package de stratégie, il est immédiatement affecté 
 3. Sélectionnez l’onglet d’affectation du package de groupe.
 4. Sélectionnez **Ajouter un groupe,** puis dans le volet Affecter un package de stratégie au volet de groupe, comme suit :
 
-   - Recherchez et ajoutez le groupe à qui vous voulez affecter le package de stratégie.
+   - Recherchez et ajoutez le groupe à qui vous voulez attribuer le package de stratégie.
 
 2. Dans le dossier de navigation de gauche, allez à la page du package de stratégie.
 
@@ -473,7 +473,7 @@ Lorsque vous attribuez le package de stratégie, il est immédiatement affecté 
 
 4. Sélectionnez **Ajouter un groupe,** puis dans le volet Affecter un package de stratégie au volet de groupe, comme suit :
 
-    1. Recherchez et ajoutez le groupe à qui vous voulez affecter le package de stratégie.
+    1. Recherchez et ajoutez le groupe à qui vous voulez attribuer le package de stratégie.
     
     1. Sélectionnez un package de stratégie.
     
@@ -489,7 +489,7 @@ Lorsque vous attribuez le package de stratégie, il est immédiatement affecté 
 
 ### <a name="work-with-powershell"></a>Travailler avec PowerShell
 
-#### <a name="get-the-teams-powershell-module"></a>Obtenir le module PowerShell Teams’équipe
+#### <a name="get-the-teams-powershell-module"></a>Obtenir le module Teams PowerShell
 
 Pour obtenir des instructions pas à pas, voir [Installer Teams PowerShell.](teams-powershell-install.md)
 
@@ -505,7 +505,7 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ## <a name="assign-a-policy-package-to-a-batch-of-users"></a>Affecter un package de stratégie à un lot d’utilisateurs
 
-L’affectation de package de stratégie de lot vous permet d’affecter un package de stratégie à de grands ensembles d’utilisateurs à la fois sans utiliser de script. Vous utilisez la cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour envoyer un lot d’utilisateurs et le package de stratégie que vous souhaitez affecter. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot. Vous pouvez ensuite utiliser la cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) pour suivre l’avancement et l’état des devoirs d’un lot.
+L’affectation de package de stratégie de lot vous permet d’affecter un package de stratégie à de grands ensembles d’utilisateurs à la fois sans utiliser de script. Vous utilisez la cmdlet [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) pour envoyer un lot d’utilisateurs et le package de stratégie à affecter. Les attributions sont traitées comme une opération d’arrière-plan et un ID d’opération est généré pour chaque lot. Vous pouvez ensuite utiliser la cmdlet [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) pour suivre l’avancement et l’état des devoirs d’un lot.
 
 Spécifiez les utilisateurs selon leur ID d’objet ou leur adresse SIP (Session Initiation Protocol). L’adresse SIP d’un utilisateur a souvent la même valeur que le nom d’utilisateur principal (UPN) ou l’adresse de courrier, mais cela n’est pas obligatoire. Si un utilisateur est spécifié à l’aide de son nom d’utilisateur supérieur ou de son adresse de courrier, mais que sa valeur est différente de celle de son adresse SIP, l’attribution de stratégie échoue pour l’utilisateur. Si un lot inclut des utilisateurs en double, les doublons sont supprimés du lot avant que le traitement et l’état ne soient fournis qu’aux utilisateurs uniques restants du lot.
 

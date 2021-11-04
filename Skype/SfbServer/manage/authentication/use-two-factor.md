@@ -1,7 +1,7 @@
 ---
 title: Utiliser l’authentification à deux facteurs Skype Entreprise client et Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Résumé : Utilisez l’authentification à deux facteurs Skype Entreprise Server et Skype Entreprise.'
-ms.openlocfilehash: 5b1003c78020e1181112a0ccadaf66a7d1dd4da4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3bcba5d4bdd6aacee794b40273b2cb92c83df50a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587122"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767862"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Utiliser l’authentification à deux facteurs Skype Entreprise client et Skype Entreprise Server
  
@@ -51,7 +51,7 @@ Lorsque vous avez terminé d’utiliser Skype Entreprise, vous pouvez fermer l�
 |**Option**|**Fonction**|**Comment l’effectuer**|
 |:-----|:-----|:-----|
 |Fermer  <br/> |Ferme votre affichage, mais permet à la session Skype Entreprise identifiée avec votre ID d’utilisateur de continuer à s’exécuter. Ainsi, vous pouvez continuer à recevoir des notifications et interagir avec d’autres personnes. <br/> <br/> Vous pouvez obtenir l’affichage à tout moment en cliquant sur l’icône Skype Entreprise dans la barre des tâches ou dans la zone de notification en bas de l’écran.  <br/> | Dans la Skype Entreprise principale, faites l’une des choses suivantes : <br/> 1. Sélectionnez le **bouton Options,** puis sélectionnez **Fermer**  >  **le fichier.**  <br/> 2. Cliquez sur **le bouton** Fermer (X) dans le coin supérieur droit de la fenêtre. <br/> |
-|Se sortir  <br/> |Met fin à la session associée à votre ID d’utilisateur, mais Skype Entreprise continue de s’exécuter en arrière-plan. Lorsque vous vous connectez, la fenêtre de signature s’affiche.  <br/> **Conseil :** Sélectionnez **Supprimer mes informations de connectez-vous** lorsque vous vous dé connectez pour supprimer l’enregistrement de votre ID d’inscription et de votre mot de passe de l’ordinateur. Cela peut faciliter la résolution des problèmes de connect. Il peut également vous aider à vous assurer que vos informations de connexion sont plus sécurisées en rendant difficile pour les utilisateurs non autorisés de se connecter avec vos informations d’identification. <br/> |Dans la Skype Entreprise principale, sélectionnez le bouton **Options,** puis **sélectionnez** Se  >  **sortir du fichier.**  <br/> |
+|Se sortir de l’affichage  <br/> |Met fin à la session associée à votre ID d’utilisateur, mais Skype Entreprise continue de s’exécuter en arrière-plan. Lorsque vous vous connectez, la fenêtre de signature s’affiche.  <br/> **Conseil :** Sélectionnez **Supprimer mes informations de connectez-vous** lorsque vous vous dé connectez pour supprimer l’enregistrement de votre ID d’inscription et de votre mot de passe de l’ordinateur. Cela peut faciliter la résolution des problèmes de connect. Il peut également vous aider à vous assurer que vos informations de connexion sont plus sécurisées en rendant difficile pour les utilisateurs non autorisés de se connecter avec vos informations d’identification. <br/> |Dans la Skype Entreprise principale, sélectionnez le bouton **Options,** puis **sélectionnez** Se  >  **sortir du fichier.**  <br/> |
 |Quitter  <br/> |Met fin à Skype Entreprise session et arrête Skype Entreprise sur votre ordinateur. Après avoir quitté, si vous souhaitez redémarrer, sélectionnez **Démarrer** tous  >  **les** programmes > Skype Entreprise. <br/> |Dans la Skype Entreprise principale, sélectionnez le bouton **Options,** puis sélectionnez **Quitter**  >  **le fichier.**  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Connectez-vous Skype Entreprise avec une carte à puce
@@ -64,7 +64,7 @@ Certaines organisations utilisent désormais un processus de authentification en
     
 ### <a name="enroll-your-smart-card"></a>Inscrire votre carte à puce
 
-Avant de vous inscrire avec une carte à puce, celle-ci doit être « inscrite », c’est-à-dire que vos informations d’identification utilisateur doivent être identifiées avec la carte. C’est le cas si la carte est physique ou virtuelle. Ce processus a peut-être déjà été effectué par votre Skype Entreprise Server administrateur. Consultez-les si vous ne savez pas si cela a été fait.
+Avant de pouvoir vous inscrire avec une carte à puce, la carte doit être « inscrite », c’est-à-dire que vos informations d’identification utilisateur doivent être identifiées avec la carte. C’est le cas si la carte est physique ou virtuelle. Ce processus a peut-être déjà été effectué par Skype Entreprise Server administrateur. Consultez-les si vous ne savez pas si cela a été fait.
   
 > [!NOTE]
 > Étant donné que chaque carte à puce virtuelle est associée uniquement à l’appareil sur qui elle est installée, une carte distincte doit être inscrite pour chaque ordinateur Windows 8 que vous utilisez. 
@@ -90,7 +90,7 @@ Avant de vous inscrire avec une carte à puce, celle-ci doit être « inscrite �
     
 7. Vous verrez maintenant une page appelée Station d’inscription de carte à puce. Approuvez la demande d’installation du contrôle ActiveX, puis remplissez le formulaire Demande de certificat avancée comme suit :
     
-    a. Sélectionnez **l’utilisateur de carte à puce** dans **la** liste liste de listes de listes listes des modèles de certificats.
+    a. Sélectionnez **l’utilisateur de carte à puce** dans **la** liste liste de listes listes des modèles de certificats.
     
     b. Sélectionnez **Créer un jeu de clés.**
     

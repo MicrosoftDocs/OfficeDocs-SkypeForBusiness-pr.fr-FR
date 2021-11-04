@@ -1,7 +1,7 @@
 ---
 title: Ajouter un magasin d’analyse de directeur
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous pouvez définir le magasin SQL Server pour la surveillance en configurant les propriétés suivantes :'
-ms.openlocfilehash: 79ebe44a4855e5b538a74f791d2183390f6509ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2dd13a9c3fee71f4e639ca8d7fbf6826bb941aec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590348"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758746"
 ---
 # <a name="add-director-monitoring"></a>Ajouter un magasin d’analyse de directeur
  
 Vous pouvez **définir le magasin SQL Server pour la surveillance** en configurant les propriétés suivantes :
   
-- **Surveillance SQL Server magasin**: sélectionnez un nom de domaine complet (FQDN) SQL Server (et, éventuellement, une instance SQL Server nommée) dans la liste.
+- **Surveillance SQL Server magasin**: sélectionnez un SQL Server de domaine complet (FQDN) (et éventuellement une instance SQL Server nommée) dans la liste.
     
     Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin du serveur de surveillance.
     

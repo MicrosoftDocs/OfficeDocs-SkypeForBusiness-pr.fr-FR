@@ -1,7 +1,7 @@
 ---
 title: Étendue de la passerelle vidéo
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,19 +14,19 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 ROBOTS: NOINDEX, NOFOLLOW
-description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server.
-ms.openlocfilehash: 0cffcb27b62587ba07ef5ea7f0d125b9f330f714
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool de vis dans Skype Entreprise Server.
+ms.openlocfilehash: 2719deb54e44a46281582836fe53de901db519da
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624026"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761072"
 ---
 # <a name="video-gateways-scope"></a>Étendue de la passerelle vidéo
  
 Les étapes nécessaires pour définir un nouveau vis ou une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool de vis [dans Skype Entreprise Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-Les étapes nécessaires à l’attribution d’un rôle serveur d’interconnexion vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur [VIS dans Skype Entreprise Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Les étapes nécessaires à l’attribution d’un rôle serveur d’opation vidéo sur un serveur à l’aide de Windows PowerShell sont décrites en ligne dans Déployer le rôle serveur [VIS dans Skype Entreprise Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
   
 Les étapes de configuration d’un nouveau serveur d’interopation vidéo utilisant Windows PowerShell sont décrites en ligne à l’emplacement [Configure the Video Interop Server in Skype Entreprise Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
   

@@ -1,7 +1,7 @@
 ---
 title: Configurer des stratégies d’archivage pour Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer des stratégies d’archivage initiales pour Skype Entreprise Server utilisateurs.'
-ms.openlocfilehash: 545febf0e84aa7ff9ad6295978f88a2dca406792
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 62e61d951c7e05effa68afd13c849c027b40a896
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611293"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749523"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configurer des stratégies d’archivage pour Skype Entreprise Server
  
@@ -34,7 +34,7 @@ Dans Skype Entreprise Server, vous utilisez des stratégies pour activer et dés
 Vous définissez initialement les stratégies d’archivage lorsque vous déployez l’archivage, mais vous pouvez modifier, ajouter et supprimer des stratégies après le déploiement. Dans Skype Entreprise Server de contrôle d’archivage, vous pouvez utiliser  la **page** Stratégie d’archivage du groupe Archivage et surveillance pour gérer les stratégies au niveau global, du site et de l’utilisateur.
   
 > [!NOTE]
-> Pour contrôler l’implémentation de l’archivage, vous devez spécifier des options, telles que l’archivage de la messagerie instantanée ou de la conférence, l’utilisation du mode critique et les options de purge. Par défaut, aucune option n’est activée dans la configuration de l’archivage global ou dans toute configuration d’archivage de site ou de pool. Vous devez spécifier toutes les options appropriées avant d’activer l’archivage pour les communications internes ou externes. Pour plus d’informations, [voir Configure archiving options for Skype Entreprise Server](configure-archiving-options.md). 
+> Pour contrôler l’implémentation de l’archivage, vous devez spécifier des options, telles que l’archivage de la messagerie instantanée ou de la conférence, l’utilisation du mode critique et les options de purge. Par défaut, aucune option n’est activée dans la configuration d’archivage globale ou dans toute configuration d’archivage de site ou de pool. Vous devez spécifier toutes les options appropriées avant d’activer l’archivage pour les communications internes ou externes. Pour plus d’informations, [voir Configure archiving options for Skype Entreprise Server](configure-archiving-options.md). 
   
 > [!NOTE]
 > Si vous activez l’intégration de Microsoft Exchange pour votre déploiement, les stratégies de Exchange In-Place Hold contrôlent si l’archivage est activé pour les utilisateurs qui sont Exchange et dont les boîtes aux lettres sont mises en In-Place. 
@@ -134,7 +134,7 @@ Une stratégie utilisateur ne s’applique qu’aux utilisateurs auxquels vous a
     
 4. Dans le tableau répertoriant les résultats de la recherche, cliquez sur le compte d’utilisateur, sur **Modifier**, puis sur **Afficher les détails**.
     
-5. Dans **Modifier Skype Entreprise Server’utilisateur sous** stratégie d’archivage, sélectionnez la stratégie utilisateur d’archivage que vous souhaitez appliquer. 
+5. Dans **Modifier Skype Entreprise Server’utilisateur sous** stratégie d’archivage, sélectionnez la stratégie utilisateur d’archivage à appliquer. 
     
     > [!NOTE]
     > Les **\<Automatic\>** paramètres appliquent les paramètres d’installation du serveur par défaut. Ces paramètres sont appliqués automatiquement par le serveur.

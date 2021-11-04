@@ -1,6 +1,6 @@
 ---
 title: Déployer Teams téléphones mobiles, Teams s’affiche et Salles Microsoft Teams sur Android à l’aide d’Intune
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: weizxue
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Cet article fournit une vue d’ensemble des fonctionnalités qui sont Microsoft Teams aux affichages.
-ms.openlocfilehash: 9ea9f9ee88bb1d580a0e8a1ded9f6586229d062d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d89dce290d241eebd3d71da560bb383a81f6a2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632538"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746470"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Déployer Teams téléphones mobiles, Teams s’affiche et Salles Microsoft Teams sur Android à l’aide d’Intune
 
@@ -29,7 +29,7 @@ Cet article vous donne une vue d’ensemble de la manière de déployer Teams t�
 
 ## <a name="conditional-access"></a>Accès conditionnel
 
-L’accès conditionnel est Azure Active Directory (Azure AD) qui vous permet de vous assurer que les appareils qui accèdent à vos ressources Office 365 sont correctement gérés et sécurisés.  Si vous appliquez des stratégies d’accès conditionnel au service Teams, les appareils Android (y compris les téléphones Teams, les affichages Teams et les Salles Microsoft Teams sur Android) qui accèdent à Teams doivent être inscrits à Intune et leurs paramètres doivent se conformer à vos stratégies.  Si l’appareil n’est pas inscrit à Intune, ou s’il est inscrit mais que ses paramètres ne respectent pas vos stratégies, l’accès conditionnel empêche un utilisateur de se connecté ou d’utiliser l’application Teams sur l’appareil.
+L’accès conditionnel est une fonctionnalité Azure Active Directory (Azure AD) qui vous permet de vous assurer que les appareils qui accèdent à vos ressources Office 365 sont correctement gérés et sécurisés.  Si vous appliquez des stratégies d’accès conditionnel au service Teams, les appareils Android (y compris les téléphones Teams, les affichages Teams et les Salles Microsoft Teams sur Android) qui accèdent à Teams doivent être inscrits à Intune et leurs paramètres doivent se conformer à vos stratégies.  Si l’appareil n’est pas inscrit à Intune, ou s’il est inscrit mais que ses paramètres ne respectent pas vos stratégies, l’accès conditionnel empêche un utilisateur de se connecté ou d’utiliser l’application Teams sur l’appareil.
 
 En règle générale, les stratégies de conformité définies dans Intune sont affectées à des groupes d’utilisateurs.  Cela signifie que si vous attribuez une politique de conformité Android à user@contoso.com, cette stratégie s’appliquera également à leur smartphone Android et à tout appareil Teams Android user@contoso.com connecté.
 
@@ -61,7 +61,7 @@ Teams Les appareils Android sont gérés par Intune via la gestion de l’admini
 
    1. Créer une stratégie de conformité d’administrateur d’appareil Android.
 
-   1. Affectez-la au groupe Azure Active Directory qui contient les utilisateurs qui doivent se Teams appareils mobiles. Voir [Utiliser des stratégies de conformité pour définir des règles pour les appareils que vous gérez avec Intune.](/mem/intune/protect/device-compliance-get-started)
+   1. Affectez-la au groupe Azure Active Directory qui contient les utilisateurs qui doivent se Teams appareils mobiles. Voir [Utiliser les stratégies de conformité pour définir des règles pour les appareils que vous gérez avec Intune.](/mem/intune/protect/device-compliance-get-started)
 
 ## <a name="see-also"></a>Voir aussi
 

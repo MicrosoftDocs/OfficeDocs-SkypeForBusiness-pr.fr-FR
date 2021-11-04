@@ -1,7 +1,7 @@
 ---
 title: Modules add-on advanced Communications for Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 audience: Admin
@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium
-description: En savoir plus sur la référence SKU du module SKU advanced Communications Microsoft Teams.
+description: En savoir plus sur la référence SKU du module add-on Communications avancé pour Microsoft Teams.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f7b4ba9aa51f73fbe293f1516e265a877cfa1b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ea12429b0ae8e63e0e1ee43ae66af4aea1a81672
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581208"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759206"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Modules add-on advanced Communications for Microsoft Teams
 
@@ -37,7 +37,7 @@ Advanced Communications inclut une personnalisation avancée des réunions, des 
 - Surveillez, suivez et analysez les données sur les utilisateurs et appareils pour garantir une expérience fluide avec la télémétrie en temps réel.
 - Expériences personnalisées avec packages de stratégies personnalisées en regroupant votre propre ensemble de stratégies pour les utilisateurs ayant des rôles similaires au sein de votre organisation à l’aide du Centre d’administration Teams ou PowerShell. Chaque utilisateur aura besoin d’une licence pour recevoir une affectation de package de stratégie personnalisé. 
 
-Advanced Communications est disponible sur tous les Microsoft 365 et en tant que modules add-on à n’importe quel Microsoft 365 payant ou Office 365 abonnement. Les fonctionnalités incluses dans les communications avancées ne sont pas ajoutées à d’autres plans Microsoft 365 ou Office 365 et ne peuvent pas être achetées séparément. Pour obtenir les fonctionnalités, vous devez acheter celui-ci.
+Advanced Communications est disponible sur tous les Microsoft 365 et en tant que module add-on à n’importe quel abonnement Microsoft 365 abonnement Office 365 payant. Les fonctionnalités incluses dans les communications avancées ne sont pas ajoutées à d’autres plans Microsoft 365 ou Office 365 et ne peuvent pas être achetées séparément. Pour obtenir les fonctionnalités, vous devez acheter celui-ci.
 
 > [!NOTE]
 > Les fonctionnalités seront publiées dès qu’elles seront disponibles. Consultez la [feuille Microsoft 365 feuille de route publique pour](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) consulter le minutage des fonctionnalités le plus récent.

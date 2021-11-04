@@ -1,7 +1,7 @@
 ---
 title: Rapport de répartition des défaillances Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Résumé : Découvrez le rapport de répartition des défaillances dans Skype Entreprise Server.'
-ms.openlocfilehash: e2b925a84237ed0ef88012e63f9e5db4b561dd27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f34c326225fd4b923027b4f476b89cc68b5f224
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636058"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767692"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Rapport de répartition des défaillances Skype Entreprise Server
  
@@ -53,7 +53,7 @@ Vous pouvez accéder au rapport de répartition des défaillances à partir de l
     
 - [Rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md)
     
-Dans le rapport de répartition des défaillances, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le rapport des listes d’échecs [dans Skype Entreprise Server](failure-list-report.md):
+Dans le rapport de répartition des défaillances, vous pouvez cliquer sur l’une des mesures suivantes pour afficher le rapport des listes [d’échecs dans Skype Entreprise Server](failure-list-report.md):
   
 - Motifs de diagnostic principaux (sessions)
     
@@ -89,7 +89,7 @@ Le tableau suivant répertorie les filtres que vous pouvez utiliser avec le rapp
   
 **Filtres du rapport de répartition des défaillances**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
@@ -104,7 +104,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les principales raisons de diagnostic**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction des ID de diagnostic. L’ID de diagnostic est un identificateur unique (sous la forme d’un en-tête ms-diagnostics) joint à un message SIP qui fournit souvent des informations utiles pour la résolution des erreurs.  <br/> |
 |**Principales raisons de diagnostic** <br/> |Non  <br/> |ID de diagnostic généré dans une session.  <br/> |
@@ -116,7 +116,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures des modalités principales**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif basé sur les sessions qui ont échoué en fonction du type de session (par exemple, une conférence audio/vidéo ou une session de transfert de fichiers d’égal à égal).  <br/> |
 |**Modalités principales** <br/> |Non  <br/> |Type de session.  <br/> |
@@ -128,7 +128,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les pools principaux**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du pool de serveurs d’inscriptions ou du serveur Edge sur lequel la session a été menée.  <br/> |
 |**Pools principaux** <br/> |Non  <br/> |Nom du pool de serveurs d’inscriptions ou du serveur Edge.  <br/> |
@@ -140,7 +140,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les sources principales**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Le classement relatif des sessions a échoué par ordinateur.  <br/> |
 |**Sources principales** <br/> |Non  <br/> |Nom de l’ordinateur impliqué dans la session qui a échoué.  <br/> |
@@ -152,7 +152,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures des principaux composants**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction du composant (par exemple, ExumRouting, GroupChat ou MediationServer).  <br/> |
 |**Principaux composants** <br/> |Non  <br/> |Nom du composant impliqué dans la session qui a échoué.  <br/> |
@@ -164,7 +164,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les utilisateurs de premier niveau**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué en fonction de l’utilisateur qui a été invité à rejoindre la session.  <br/> |
 |**Utilisateurs les plus à l’avant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur invité à rejoindre la session.  <br/> |
@@ -174,7 +174,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
 
 Le tableau suivant répertorie les informations fournies dans le rapport de répartition des défaillances en fonction des utilisateurs qui ont connu le plus d’échecs lorsqu’un autre utilisateur a tenté de les appeler (appelés utilisateurs « À »).
   
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions ayant échoué en fonction de l’utilisateur qui a initié la session.  <br/> |
 |**Utilisateurs les plus à l’avant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur ayant initié la session.  <br/> |
@@ -186,7 +186,7 @@ Le tableau suivant répertorie les informations fournies dans le rapport de rép
   
 **Mesures pour les principaux agents utilisateurs**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Rank** <br/> |Non  <br/> |Classement relatif des sessions qui ont échoué en fonction de l’agent utilisateur (logiciel) impliqué dans la session. Par exemple : RTCC/4.0.0.0 Routage entrant/4.0.0.0.  <br/> |
 |**Principaux agents utilisateurs** <br/> |Non  <br/> |Nom de l’agent utilisateur impliqué dans la session qui a échoué.  <br/> |

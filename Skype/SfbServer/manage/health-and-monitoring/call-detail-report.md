@@ -1,7 +1,7 @@
 ---
 title: Rapport détaillé des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 'Résumé : Découvrez le rapport détaillé des appels utilisé dans Skype Entreprise Server.'
-ms.openlocfilehash: 173df324b61fc719ee989a6102ccfbb9cf850f92
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 550c218d4799623359f68930286210116628b005
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617860"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767742"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>Rapport détaillé des appels dans Skype Entreprise Server
  
-**Résumé :** Découvrez le rapport détaillé des appels utilisé dans Skype Entreprise Server.
+**Résumé :** Découvrez le rapport détaillé de l’appel utilisé dans Skype Entreprise Server.
   
 Le rapport détaillé de l’appel fournit une analyse détaillée d’un appel individuel . Le rapport inclut presque toutes les mesures et statistiques de qualité de l’expérience collectées par Skype Entreprise Server, divisées en sections de rapport telles que :
   
@@ -51,7 +51,7 @@ Le rapport sur le détail de l’appel s’avère particulièrement utile pour i
 
 Le rapport sur le détail de l’appel est accessible à partir des rapports suivants :
   
-- [Rapport d’emplacement dans Skype Entreprise Server (location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
+- [Rapport d’emplacement en Skype Entreprise Server (location-report.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
 - [Media Quality Summary Report in Skype Entreprise Server (summary.md) (en cliquant sur la mesure Volume d’appels ou Pourcentage d’appels médiocres)
     
@@ -87,7 +87,7 @@ Le tableau suivant liste les informations fournies dans le rapport sur le détai
   
 **Mesures du rapport sur le détail de l’appel**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**PAI de l’appelant** <br/> |Non  <br/> |PAI (P-Asserted-Identity) de l’utilisateur qui a initié l’appel. La PAI sert à transmettre l’identité prouvée d’un utilisateur au sein d’un réseau approuvé.  <br/> |
 |**URI de l’appelant** <br/> |Non  <br/> |Adresse SIP de l’utilisateur qui a initié l’appel.  <br/> |

@@ -1,7 +1,7 @@
 ---
-title: Numéro d’Téléphone non Téléphone création d’un numéro ou modification d’un numéro existant
+title: Unassigned Téléphone Number Create New or Edit Existing
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Les numéros non attribués sont des numéros de téléphone valides pour votre organisation mais qui ne sont pas attribués à un utilisateur ou un téléphone. Le tableau des numéros non attribués identifie le mode de traitement des appels vers les numéros non attribués.
-ms.openlocfilehash: be5a937938c3d20b19b6b5dc561c0e65cb1dd7bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a8038c1b3fb9b09b3c8f45b51b412c45dc3731f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633738"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746370"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Numéro de téléphone non attribué : créer un nouveau ou modifier un numéro existant
 
@@ -47,12 +47,12 @@ La liste suivante décrit les champs de la page.
 
 - Si vous avez sélectionné **Annonce** comme **Service d’annonce** :
 
-  - **FQDN du serveur de destination** Sélectionnez l’ID de service du service d’application qui exécute l’application d’annonce qui gérera les appels entrants vers cette plage de numéros non assignés.
+  - **FQDN du serveur de destination** Sélectionnez l’ID de service du service d’application qui exécute l’application Annonce qui gérera les appels entrants vers cette plage de numéros non assignés.
 
   - **Annonce** Sélectionnez l’annonce à lire pour cette plage de numéros non signés.
 
 - Si vous avez sélectionné **Messagerie unifiée Exchange** comme **Service d’annonce** :
 
-  - **Standard automatique numéro de téléphone** Sélectionnez le numéro de téléphone de la Exchange de Standard automatique.
+  - **Standard automatique téléphone** Sélectionnez le numéro de téléphone de la Exchange de Standard automatique.
 
 Pour plus d’informations sur les fonctionnalités d’annonce, voir [Plan for the Announcement application in Skype Entreprise 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) in the Planning documentation. Pour plus d’informations sur l’utilisation de plages de numéros non attribués, voir [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) dans la documentation des opérations.

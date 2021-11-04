@@ -1,7 +1,7 @@
 ---
 title: Activer le routage géodépendant pour le routage direct
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: de233212a4baf6ce5cfaf771bb809d5522d7ad0a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6c4fdd18e6ae7f3d583451bf8be2ce12e8e87ba3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013338"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749040"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Activer le routage géodépendant pour le routage direct
 
-Avant de suivre les étapes de cet article, assurez-vous que vous avez lu Plan [de routage Location-Based](location-based-routing-plan.md) pour le routage direct et que vous avez suivi les étapes de configuration des paramètres réseau pour le Location-Based [routage.](location-based-routing-configure-network-settings.md)
+Avant de suivre les étapes de cet article, assurez-vous que vous avez lu Plan [de routage Location-Based](location-based-routing-plan.md) pour le routage direct et que vous avez suivi les étapes de la procédure Configurer les paramètres réseau pour le [Location-Based routage.](location-based-routing-configure-network-settings.md)
 
-Cet article décrit comment activer Location-Based routage pour le routage direct. Une fois que vous avez déployé le routage direct du système téléphonique et que vous avez installé les régions, sites et sous-réseaux réseau, vous êtes prêt à activer Location-Based routage. Pour suivre les étapes de cet article, vous devez être familiarisé avec les cmdlets PowerShell. Pour en savoir plus, voir [Vue d’ensemble de Teams PowerShell.](teams-powershell-overview.md)
+Cet article décrit comment activer Location-Based routage pour le routage direct. Une fois que vous Système téléphonique un routage direct et que vous avez installé des régions, des sites et des sous-réseaux réseau, vous êtes prêt à activer Location-Based routage. Pour suivre les étapes de cet article, vous devez être familiarisé avec les cmdlets PowerShell. Pour en savoir plus, voir [Teams vue d’ensemble de PowerShell.](teams-powershell-overview.md)
 
  Vous devez activer Location-Based routage pour les suivantes :
 - Utilisateurs
@@ -36,7 +36,7 @@ Cet article décrit comment activer Location-Based routage pour le routage direc
 - Configurations de la passerelle
 - Stratégies d’appel
 
-Vous pouvez utiliser le Centre [d’administration Microsoft Teams](#using-the-microsoft-teams-admin-center) ou [PowerShel](#using-powershell)l pour activer Location-Based routage.
+Vous pouvez utiliser le [Centre Microsoft Teams’administration](#using-the-microsoft-teams-admin-center) de l’utilisateur ou [PowerShel](#using-powershell)l pour activer Location-Based routage.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Utiliser le centre d’administration Microsoft Teams
 
@@ -48,11 +48,11 @@ Vous pouvez utiliser le Centre [d’administration Microsoft Teams](#using-the-m
     - Utilisez les utilisations PSTN associées aux itinéraires vocaux qui utilisent une passerelle PSTN située dans une région où Location-Based restrictions de routage ne sont pas nécessaires.
 2. Affectez la stratégie de routage voix aux utilisateurs qui ont besoin d’appliquer des restrictions de routage.
 
-Pour en savoir plus sur la création de stratégies de routage voix et leur attribution aux utilisateurs, voir Gérer les stratégies de routage vocal [dans Microsoft Teams.](manage-voice-routing-policies.md)
+Pour en savoir plus sur la création de stratégies de routage voix et leur attribution aux utilisateurs, voir Gérer les stratégies de [routage vocal dans Microsoft Teams.](manage-voice-routing-policies.md)
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>Activer Location-Based routage pour les sites réseau
 
-Activez Location-Based routage pour vos sites qui ont besoin d’appliquer des restrictions de routage. Pour ce faire, dans le navigation gauche du Centre d’administration Microsoft Teams, allez à la topologie du réseau Emplacements, sélectionnez un site réseau, cliquez sur Modifier, puis activer le routage basé sur  >   **l’emplacement.**   
+Activez Location-Based routage pour vos sites qui ont besoin d’appliquer des restrictions de routage. Pour ce faire, dans le navigation gauche du Centre d’administration Microsoft Teams, sélectionnez la topologie du réseau d’emplacements, sélectionnez un site réseau, cliquez sur Modifier, puis activer le routage basé sur  >   **l’emplacement.**   
 
 Pour plus d’informations, [voir Gérer votre topologie de réseau.](manage-your-network-topology.md)
 
@@ -70,7 +70,7 @@ Activez Location-Based routage vers des passerelles qui routent des appels vers 
 
 Pour appliquer Location-Based routage pour des utilisateurs spécifiques, définissez la stratégie d’appel de l’utilisateur afin d’empêcher la dérivation PSTN (contournement) toll. Pour ce faire, vous pouvez activer le **paramètre** Prévenir le contournement toll dans la stratégie d’appel.
 
-Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-calling-policy.md)
+Pour en savoir plus, [consultez les stratégies d’appel dans Teams.](teams-calling-policy.md)
 
 ## <a name="using-powershell"></a>Utiliser PowerShell
 
@@ -125,7 +125,7 @@ Pour en savoir plus, consultez [les stratégies d’appel dans Teams.](teams-cal
     Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
     Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
-    Le tableau suivant indique les sites activés pour le Location-Based routage des sites dans cet exemple.
+    Le tableau suivant indique les sites activés pour le Location-Based routage dans cet exemple.
 
     |&nbsp;|Site 1 (Syz)  |Site 2 (Syz)  |
     |---------|---------|---------|
@@ -190,6 +190,6 @@ Dans cet exemple, nous empêchons la dérivation PSTN contre les stratégies d�
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
-## <a name="related-topics"></a>Voir aussi
+## <a name="related-topics"></a>Sujets associés
 
 - [Paramètres réseau pour les fonctionnalités vocales cloud dans Teams](cloud-voice-network-settings.md)

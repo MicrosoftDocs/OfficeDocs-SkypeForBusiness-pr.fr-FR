@@ -1,7 +1,7 @@
 ---
 title: Intégration avec Exchange et Microsoft Office SharePoint Online
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez l’intégration Skype Entreprise Server 2015 avec Exchange et SharePoint.'
-ms.openlocfilehash: a2caf4cf409f3631ebc0a85cd2957b30e9d36d2a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6805296716970df896a42a3e01a89eb212930ecb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013138"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746510"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration avec Exchange et Microsoft Office SharePoint Online
 
@@ -77,7 +77,7 @@ Les tableaux suivants listent les fonctionnalités prise en charge dans un dépl
 |Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont en ligne dans la même forêt, ou que les deux sont tous deux locaux. Pour plus d’informations, [voir Skype Entreprise solutions hybrides.](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
 |L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Pour plus d’informations, [voir Deployment Checklist for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving).  <br/> |
-|Rechercher du contenu archivé  <br/> |Pour plus d’informations, consultez [la Exchange configurer SharePoint centre eDiscovery](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
+|Rechercher du contenu archivé  <br/> |Pour plus d’informations, consultez la [Exchange configurer SharePoint centre eDiscovery](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
 |Messagerie vocale  <br/> |Pour plus d’informations, voir [Providing Lync Server 2013 Users Voice Mail on Hosted Exchange UM](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um).  <br/> |
 
 

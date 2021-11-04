@@ -1,7 +1,7 @@
 ---
 title: Disponibilité en Ouganda
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Voici les services Microsoft 365 et Office 365 disponibles pour les Skype Entreprise et Microsoft Teams pour l’Ouganda.
-ms.openlocfilehash: 4ef6ddc83ede675f73512e5dc0749ce561ab635b
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 746d4d368964e19c74a94b8ff623b4bbc639eff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733475"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760492"
 ---
 # <a name="availability-in-uganda"></a>Disponibilité en Ouganda
 

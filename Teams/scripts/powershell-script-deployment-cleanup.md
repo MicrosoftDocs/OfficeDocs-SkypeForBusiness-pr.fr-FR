@@ -1,7 +1,7 @@
 ---
 title: Exemple de script PowerShell - nettoyage Teams de déploiement
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe59604f6257d6bab736540d48775ffec36e5b9f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4853cf99bc6d600f8673df065c3dee3e0068207b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577788"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767152"
 ---
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>Exemple de script PowerShell - nettoyage Teams de déploiement
 
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 - [Installer Microsoft Teams à l’aide de Microsoft Endpoint Configuration Manager](../msi-deployment.md)
 - [Déployer des Teams à l’Microsoft 365 Apps](/deployoffice/teams-install)

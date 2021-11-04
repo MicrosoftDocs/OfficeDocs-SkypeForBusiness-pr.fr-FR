@@ -1,7 +1,7 @@
 ---
 title: Affichage SessionDetails
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: La vue SessionDetails stocke des informations sur les sessions d’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou tout autre type de session. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 454cefc905409e0488121addab2cac5df55ef34d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a278960912ac38dc75fe398e3d75de710785800
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625126"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767452"
 ---
 # <a name="sessiondetails-view"></a>Affichage SessionDetails
  
 La vue SessionDetails stocke des informations sur les sessions d’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou tout autre type de session. Cette vue a été introduite dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Details**|
+|**Colonne**|**Type de données**|**Détails**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session. Utilisé conjointement avec SessionIdSeq pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Numéro d’identification de la session. Utilisé conjointement avec SessionIdTime pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
@@ -73,7 +73,7 @@ La vue SessionDetails stocke des informations sur les sessions d’égal à éga
 |**FromUserFlag** <br/> |smallint  <br/> |Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attributs suivantes sont autorisées :  <br/> 0x01 - Intégré dans téléphone de bureau  <br/> |
 |**ToUserFlag** <br/> |smallint  <br/> |Indique les attributs de l’utilisateur qui a démarré la session. Les définitions d’attributs suivantes sont autorisées :  <br/> 0x01 - Intégré dans téléphone de bureau  <br/> |
 |**CallFlag** <br/> |smallint  <br/> |Indique les attributs de l’appel. Les définitions d’attributs suivantes sont autorisées :  <br/> 0x01 - Nouvelle tentative de session  <br/> 0x02 : appel effectué par un agent au nom d’un groupe Response Group  <br/> |
-|**Emplacement** <br/> |varchar(max)  <br/> |Emplacement de l’appel d’urgence.  <br/> |
+|**Location** <br/> |varchar(max)  <br/> |Emplacement de l’appel d’urgence.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> |Réservé à un usage interne par le service de surveillance.  <br/> Ce champ a été introduit dans Skype Entreprise Server 2015.  <br/> |
    
 

@@ -1,7 +1,7 @@
 ---
 title: Liste de vérification finale du déploiement du contrôle d’admission des appels Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: Liste de vérification finale pour le déploiement du contrôle d’admission des appels dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 70fadce643fa21d9551a6a6ba26a2883579eee1f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11bf5a69b273f1311399090cc893bee1f4732443
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594142"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759076"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Déploiement du contrôle d’admission des appels : liste de contrôle finale pour Skype Entreprise Server
  
@@ -34,7 +34,7 @@ Utilisez la liste de vérification suivante pour vérifier que vous avez effectu
     > [!NOTE]
     > Les serveurs Edge ne sont pas requis pour implémenter le service Cac. 
   
-- Assurez-vous que le contrôle d’admission des appels est activé, comme indiqué dans Activer le contrôle d’admission des [appels dans Skype Entreprise Server](enable-call-admission-control.md).
+- Assurez-vous que le contrôle d’admission des appels est activé, comme spécifié dans Activer le contrôle d’admission des [appels dans Skype Entreprise Server](enable-call-admission-control.md).
     
 - Vérifiez que le contrôle d’admission des appels est activé sur tous les sites centraux. Pour ce faire, vous pouvez utiliser le Générateur de topologies. Si un avertissement est généré lors de la publication,  *ne l’ignorez*  pas.
     

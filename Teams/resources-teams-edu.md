@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Teams : Ressources pour les administrateurs Éducation'
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9cf78332ea9ed37a7d91d7ab2e038329b7e7c1fb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2342f68403120f04e865203c304c2c4e14d41c0a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727433"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767192"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Ressources Microsoft Teams pour les administrateurs dans l’éducation
 
@@ -56,8 +56,8 @@ N’oubliez pas de consulter le [guide Shared Computer Toolkit numérique](https
 
 ## <a name="call-to-action"></a>Appel à l’action
 
-- Visitez la [page Teams pour l’éducation des formations,](https://www.microsoft.com/en-us/education/products/teams/default.aspx) des vidéos et des démonstrations interactives
-- Activer les Teams dans la [Centre d’administration Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (connectez-vous en tant qu’Office 365 administrateur)
+- Visitez la [page Teams pour l'éducation des formations,](https://www.microsoft.com/en-us/education/products/teams/default.aspx) des vidéos et des démonstrations interactives
+- Activer les Teams dans la [Centre d'administration Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (connectez-vous en tant qu’Office 365 administrateur)
 - Télécharger les clients Teams : [Obtenir Teams sur tous vos périphériques](https://teams.microsoft.com/downloads)
 - En savoir plus sur Office 365 pour l’éducation dans le [centre d’aide pour l’éducation](https://support.office.com/education)
 

@@ -1,7 +1,7 @@
 ---
 title: Windows PowerShell et Skype Entreprise Server gestion des données
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 'Dans Skype Entreprise Server, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell comprend un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Skype Entreprise Server outils implémentés à l’Windows PowerShell sont les suivants :'
-ms.openlocfilehash: ff8cafa49f502c14bd9d6f67de35e0109b30e44b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c9707a9af4befc9a055021426ebd5041c534d7d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595326"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767502"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell et Skype Entreprise Server gestion des données
  
@@ -27,8 +27,8 @@ Dans Skype Entreprise Server, les outils de gestion sont implémentés à l’ai
     
 - **Skype Entreprise Server Management Shell**. Vous pouvez utiliser Skype Entreprise Server Management Shell pour la gestion complète de la ligne de commande de votre déploiement.
     
-- **Skype Entreprise Server panneau de bord.** Vous pouvez utiliser l’interface Skype Entreprise Server’utilisateur du Panneau de Skype Entreprise Server pour gérer les tâches les plus courantes dans votre déploiement.
+- **Skype Entreprise Server panneau de bord.** Vous pouvez utiliser l’interface Skype Entreprise Server’utilisateur du Panneau de Skype Entreprise Server pour gérer les tâches les plus courantes de votre déploiement.
     
 Ces outils utilisent des applets de commande Windows PowerShell pour la gestion de votre déploiement, y compris presque 550 applets de commande spécifiques au produit. Les cmdlets de sécurité incluses dans Skype Entreprise Server sont principalement utilisées pour gérer l’authentification, ainsi que les droits et autorisations des utilisateurs. Une large gamme d’applets de commande sont disponibles pour gérer l’authentification, dont certaines pour l’authentification de certificats et de codes confidentiels (PIN). En outre, un certain nombre d’cmdlets vous permettent d’utiliser la nouvelle fonctionnalité de contrôle d’accès Role-Based (RBAC) pour déléguer le contrôle administratif des Skype Entreprise Server. Pour plus d’informations sur les cmdlets Skype Entreprise Server, voir [Skype Entreprise Server Management Shell.](../../manage/management-shell.md)
   
-Les fonctionnalités de sécurité de script pour Windows PowerShell sont spécifiquement conçues pour éviter certains des problèmes de sécurité liés aux scripts des technologies plus anciennes, notamment Microsoft Visual Basic Scripting Edition (VBScript). Les Windows PowerShell de sécurité sont conçues pour créer un environnement dans lequel les utilisateurs ne peuvent pas exécuter facilement ou sans le savoir des scripts. Par défaut, les Windows PowerShell sécurité de l’utilisateur sont activées. Vous pouvez modifier l’état de ces fonctionnalités pour répondre à vos besoins en matière de scripts et à divers objectifs de sécurité. Cela ne veut pas dire que l’shell empêche les utilisateurs d’exécuter des scripts. Au lieu de cela, il est difficile, par défaut, pour les utilisateurs d’exécuter des scripts sans se rendre compte qu’ils le font. Pour plus d’informations, [voir Windows PowerShell Script Security](/previous-versions/msdn10/gg261722(v=msdn.10)).
+Les fonctionnalités de sécurité des scripts pour Windows PowerShell sont spécialement conçues pour éviter certains problèmes de sécurité liés aux scripts des technologies plus anciennes, notamment Microsoft Visual Basic Scripting Edition (VBScript). Les Windows PowerShell de sécurité sont conçues pour créer un environnement dans lequel les utilisateurs ne peuvent pas exécuter facilement ou sans le savoir des scripts. Par défaut, les Windows PowerShell sécurité de l’utilisateur sont activées. Vous pouvez modifier l’état de ces fonctionnalités pour répondre à vos besoins en matière de scripts et à divers objectifs de sécurité. Cela ne veut pas dire que l’shell empêche les utilisateurs d’exécuter des scripts. Au lieu de cela, il est difficile, par défaut, pour les utilisateurs d’exécuter des scripts sans se rendre compte qu’ils le font. Pour plus d’informations, [voir Windows PowerShell Script Security](/previous-versions/msdn10/gg261722(v=msdn.10)).

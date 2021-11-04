@@ -1,7 +1,7 @@
 ---
 title: High Availability (Planning Tool)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le principal schéma de haute disponibilité pour la plupart des rôles serveur dans Skype Entreprise Server est basé sur la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
-ms.openlocfilehash: 173f6313e0f70a1f2deef26e94256bcb281face3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57a12aeb3ea3997f160949d374f2d430137c32c2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593948"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758766"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  

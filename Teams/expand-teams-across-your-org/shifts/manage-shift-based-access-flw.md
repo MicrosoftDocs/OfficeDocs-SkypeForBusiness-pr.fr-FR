@@ -1,7 +1,7 @@
 ---
 title: Gérer l’accès par équipe pour les employés en première ligne dans Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaku
 manager: serdars
 ms.topic: article
@@ -15,19 +15,19 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd02c93639f0756982c35972e563e06cc41a0687
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db646690e61696857a3fdcfc051ccc03216ebb24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726823"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749070"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Gérer l’accès par équipe pour les employés en première ligne dans Teams
 
 > [!IMPORTANT]
 > Microsoft StaffHub n’existe plus depuis le 30 juin 2020. Nous sommes en train de transformer les fonctionnalités de StaffHub en Microsoft Teams. Aujourd’hui, Teams inclut l’application Plannings pour la gestion des plannings et des fonctionnalités supplémentaires seront déployées à l’avenir. StaffHub a cessé de fonctionner pour tous les utilisateurs le 30 juin 2020. Toute personne qui essaie d’ouvrir StaffHub s’afficher un message lui permettant de télécharger Teams. Pour en savoir plus, consultez l’article [Microsoft StaffHub n’existe plus](microsoft-staffhub-to-be-retired.md).  
 
-## <a name="overview"></a>Présentation
+## <a name="overview"></a>Vue d’ensemble
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
@@ -53,7 +53,7 @@ Voici les états de présence en fonction de l’horaire.
 |---------|---------|---------|
 |![Coche verte une, indique Sur shift.](../../media/flw-presence-on-shift.png) Sur shift     |         |Définir automatiquement au début d’un shift         |
 |![Cercle gris avec x, indique Shift décalé](../../media/flw-presence-off-shift.png) Congé     |         |Définir automatiquement à la fin d’un shift         |
-|![Cercle rouge plein, indique Occupé.](../../media/flw-presence-busy.png) Occupé      | ![Un cercle rouge plein indique Occupé](../../media/flw-presence-busy.png) Occupé         |Définir automatiquement. Peut également être manuellement définie lorsque le collègue en première ligne est en shift.|
+|![Un cercle rouge plein indique Occupé](../../media/flw-presence-busy.png) Occupé      | ![Un cercle rouge plein indique Occupé](../../media/flw-presence-busy.png) Occupé         |Définir automatiquement. Peut également être manuellement définie lorsque le collègue en première ligne est en shift.|
 
 ## <a name="off-shift-access-to-teams"></a>Accès par shift à l’Teams
 

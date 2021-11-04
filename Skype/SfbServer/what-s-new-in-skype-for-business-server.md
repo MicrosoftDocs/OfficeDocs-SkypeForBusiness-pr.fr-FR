@@ -1,7 +1,7 @@
 ---
 title: Nouveautés de Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2017
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Résumé : Lisez cette rubrique pour en savoir plus sur les nouvelles fonctionnalités Skype Entreprise Server 2015. Pour plus d’informations sur la nouvelle expérience client, consultez la Skype Entreprise Lync : découvrez les nouveautés.'
-ms.openlocfilehash: df0a16855ab7430e87847a392d263f35c6ec2993
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aac68c369983b85ecb95b5000dc41d95e2080d6d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617620"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760562"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Nouveautés de Skype Entreprise Server 2015
 
@@ -30,7 +30,7 @@ Lync est désormais Skype Entreprise, une plateforme de communication et de coll
 Les nouvelles fonctionnalités Skype Entreprise Server 2015 incluent des améliorations apportées aux éléments suivants :
   
 - Expérience utilisateur  
-- Prise en charge de la voix et de la vidéo
+- Prise en charge vocale et vidéo
 - Prise en charge mobile
 - Gestion des serveurs locaux
 - Déploiement et gestion de solutions hybrides
@@ -55,18 +55,18 @@ La fonctionnalité Évaluer mon appel permet aux administrateurs Skype Entrepris
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>Interopérabilité améliorée avec les systèmes de téléconférence vidéo tiers
 
-Le vis (Video Interop Server) joue le rôle d’intermédiaire entre les systèmes de téléconférence Skype Entreprise Server et cisco video teleconferencing (VTC). Lorsque vous rejoignez une réunion, les utilisateurs peuvent désormais sélectionner un système Cisco VTC. Le vis (Video Interop Server) est implémenté en tant que rôle serveur autonome pour les déploiements locaux. Pour plus d’informations, voir [Plan for Video Interop Server in Skype Entreprise Server 2015](plan-your-deployment/video-interop-server.md).
+Le vis (Video Interop Server) joue le rôle d’intermédiaire entre les systèmes de téléconférence vidéo Skype Entreprise Server et Cisco. Lorsque vous rejoignez une réunion, les utilisateurs peuvent désormais sélectionner un système Cisco VTC. Le vis (Video Interop Server) est implémenté en tant que rôle serveur autonome pour les déploiements locaux. Pour plus d’informations, voir [Plan for Video Interop Server in Skype Entreprise Server 2015](plan-your-deployment/video-interop-server.md).
   
 ### <a name="call-via-work"></a>Appel via le travail
 
-La fonctionnalité Appel via le travail permet aux utilisateurs d’entreprise d’effectuer des appels vocaux à partir Skype Entreprise client. Lorsqu’un utilisateur passe un appel vocal, il est acheminé de Skype Entreprise vers le téléphone PBX ou PSTN de l’utilisateur d’origine. Une fois que l’appelant répond au téléphone, l’appel est dirigé vers le numéro de destination. Le destinataire de l’appel répond et l’appel est établi avec Skype Entreprise en tant que panneau de contrôle. L’auteur peut gérer sa présence et ses contrôles d’appel à partir Skype Entreprise. Les administrateurs de serveur activent et configurent l’appel via le bureau pour l’entreprise. Pour plus d’informations, voir [Plan for Call Via Work in Skype Entreprise Server 2015](plan-your-deployment/enterprise-voice-solution/call-via-work.md). 
+La fonctionnalité Appel via le travail permet aux utilisateurs d’entreprise d’effectuer des appels vocaux à partir Skype Entreprise client. Lorsqu’un utilisateur passe un appel vocal, il est acheminé de Skype Entreprise vers le téléphone PBX ou PSTN de l’utilisateur d’origine. Une fois que l’appelant répond au téléphone, l’appel est dirigé vers le numéro de destination. Le destinataire de l’appel répond et l’appel est établi avec Skype Entreprise servant de panneau de contrôle. L’initiateur peut gérer sa présence et les contrôles d’appel à partir Skype Entreprise. Les administrateurs de serveur activent et configurent l’appel via le bureau pour l’entreprise. Pour plus d’informations, voir [Plan for Call Via Work in Skype Entreprise Server 2015](plan-your-deployment/enterprise-voice-solution/call-via-work.md). 
   
 ## <a name="mobile-device-support-improvements"></a>Améliorations de la prise en charge des appareils mobiles
 
 Les améliorations apportées à la prise en charge des appareils mobiles incluent des fonctionnalités qui améliorent l’expérience mobile pour les utilisateurs de Êdition Entreprise, telles que l’accès à l’historique des conversations et aux données de journal, l’amélioration des expériences de réunion mobile et la prise en charge de l' connecter unique dans Office. En outre, des améliorations ont été apportées à la prise en charge d’Android, aux améliorations des performances et aux fonctionnalités pour simplifier l’intégration via Common App Framework. 
   
 > [!NOTE]
-> Les serveurs UCWA Lync 2013 doivent être mis à niveau vers Skype Entreprise Server 2015 pour prendre en charge les clients mobiles. 
+> Les serveurs Lync 2013 UCWA doivent être mis à niveau vers Skype Entreprise Server 2015 pour prendre en charge les clients mobiles. 
   
 ### <a name="server-side-conversation-history-is-now-available-on-mobile-devices"></a>L’historique des conversations côté serveur est désormais disponible sur les appareils mobiles
 
@@ -101,7 +101,7 @@ Skype Entreprise Server 2015 propose plusieurs nouvelles fonctionnalités pour a
   
 ### <a name="in-place-upgrade-for-on-premises-servers"></a>Mise à niveau sur place pour les serveurs locaux
 
-Vous pouvez désormais mettre à niveau les systèmes Lync Server 2013 vers Skype Entreprise Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur place, qui utilise les investissements matériels et serveur Lync Server 2013 existants, réduisant ainsi le coût global du déploiement de Skype Entreprise Server 2015.
+Vous pouvez désormais mettre à niveau les systèmes Lync Server 2013 vers Skype Entreprise Server 2015 à l’aide de la nouvelle fonctionnalité de mise à niveau sur place, qui utilise des investissements matériels et serveur Lync Server 2013 existants, réduisant ainsi le coût global du déploiement de Skype Entreprise Server 2015.
   
 Il existe deux scénarios de mise à niveau sur place : la méthode Move User, qui ne nécessite aucun temps d’arrêt, et la méthode Hors connexion, qui nécessite un temps d’arrêt. Pour plus d’informations sur la procédure de mise à niveau qui est la plus pertinente pour votre entreprise, voir [Plan to upgrade to Skype Entreprise Server 2015](plan-your-deployment/upgrade.md). 
   
@@ -112,7 +112,7 @@ Il existe deux scénarios de mise à niveau sur place : la méthode Move User, q
 
 La fonctionnalité d’installation intelligente, qui détecte et télécharge automatiquement les mises à jour, fait désormais partie du programme d’installation. Pendant le processus d’installation, l’utilisateur est invité à vérifier si le processus d’installation doit vérifier les mises à jour. Pour plus d’informations, [voir Install Skype Entreprise Server 2015](deploy/install/install.md).
   
-### <a name="improved-front-end-server-patching-and-upgrade-process"></a>Amélioration du processus de mise à jour et de mise à jour des correctifs du serveur frontal
+### <a name="improved-front-end-server-patching-and-upgrade-process"></a>Amélioration du processus de mise à niveau et de correction du serveur frontal
 
 Skype Entreprise Server introduit deux nouvelles cmdlets qui facilitent la mise à niveau ou l’application de correctifs aux serveurs frontaux par rapport aux versions précédentes de Lync Server.
   
@@ -128,7 +128,7 @@ Skype Entreprise Server 2015 ajoute la prise en charge des groupes de disponibil
   
 SQL Server Les groupes de disponibilité AlwaysOn sont une solution de haute disponibilité et de récupération d’urgence dans SQL Server 2012 et SQL Server 2014 qui offre une alternative à la mise en miroir de bases de données. Un groupe de disponibilité prend en charge un environnement de failover pour un ensemble discret de bases de données (appelées bases de données de disponibilité) qui échouent ensemble. Un groupe de disponibilité prend en charge un ensemble de bases de données primaires en lecture-écriture et un à quatre ensembles de bases de données secondaires correspondantes. Éventuellement, les bases de données secondaires peuvent être rendues disponibles pour l’accès en lecture seule et pour certaines opérations de sauvegarde.
   
-SQL Server Les instances de cluster de Windows tirent parti de la fonctionnalité WSFC (Server Failover Clustering) pour fournir une haute disponibilité locale via la redondance au niveau de l’instance de serveur ( instance de cluster de failover). Un FCI est une instance unique de SQL Server qui est installée sur les serveurs de clustering de Windows (WSFC) et, éventuellement, sur plusieurs sous-réseaux.
+SQL Server Les instances de cluster de Windows exploitent la fonctionnalité WSFC (Server Failover Clustering) pour fournir une haute disponibilité locale par le biais de la redondance au niveau de l’instance de serveur ( instance de cluster de failover). Un FCI est une instance unique de SQL Server qui est installée sur les serveurs de clustering de Windows (WSFC) et, éventuellement, sur plusieurs sous-réseaux.
   
 Pour plus d’informations, voir [Plan for high availability and disaster recovery in Skype Entreprise Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
@@ -140,7 +140,7 @@ Skype Entreprise Server 2015 utilise Windows PowerShell cmdlets pour gérer les 
   
 Le service de journalisation centralisée peut s’exécuter sur Skype Entreprise Server 2015. Les scénarios intégrés (suivis prédéfinits) restent les mêmes, tout comme la possibilité de créer des scénarios personnalisés. Il existe un scénario spécial appelé AlwaysOn qui est toujours en cours d’exécution et qui permet aux administrateurs de localiser les problèmes courants en temps quasi réel.
   
-L’outil de débogage Snooper a également été mis à jour pour permettre le débogage des journaux de mobilité et fonctionne avec les appareils se connectant à Lync 2013 ou Skype Entreprise Server 2015. L’outil est disponible en téléchargement Web à partir [des outils de débogage.](https://go.microsoft.com/fwlink/?LinkId=285257)
+L’outil de débogage Snooper a également été mis à jour pour permettre le débogage des journaux de mobilité et fonctionne avec les appareils qui se connectent à Lync 2013 ou Skype Entreprise Server 2015. L’outil est disponible en téléchargement Web à partir [des outils de débogage.](https://go.microsoft.com/fwlink/?LinkId=285257)
   
 ## <a name="hybrid-deployment-and-management"></a>Déploiement et gestion hybrides
 
@@ -151,8 +151,8 @@ Skype Entreprise Server 2015 active les fonctionnalités d’administration et d
 - Améliorations du Panneau de configuration qui permet aux administrateurs de se connectent à un client Microsoft 365 ou Office 365 et de configurer une configuration hybride avec Skype Entreprise Online à l’aide de l’Assistant configuration hybride.
 - Prise en charge du Panneau de contrôle pour le déplacement d’utilisateurs locaux vers Skype Entreprise Online ou le déplacement Skype Entreprise les utilisateurs en ligne vers l’local.
 - Fonctionnalités du Panneau de contrôle permettant d’identifier et de filtrer les objets utilisateur locaux qui ont été déplacés vers Skype Entreprise Online (c’est-à-dire, les utilisateurs hybrides) des utilisateurs locaux.
-- Fonctionnalités du Centre d’administration permettant d’identifier et de filtrer les utilisateurs cloud initialement créés dans Skype Entreprise Online à partir d’utilisateurs hybrides migrés en local vers Online.
-- La possibilité d’administrer des utilisateurs hybrides à l’aide du Panneau de Skype Entreprise Online pour les propriétés gérables à partir de l’local et du Centre d’administration.
+- Fonctionnalités du Centre d’administration permettant d’identifier et de filtrer les utilisateurs cloud initialement créés dans Skype Entreprise Online à partir d’utilisateurs hybrides migrés de l’local vers l’online.
+- La possibilité d’administrer les utilisateurs hybrides à l’aide du Panneau de Skype Entreprise Online pour les propriétés gérables à partir de l’local et du Centre d’administration pour les propriétés gérables à partir de Skype Entreprise Online.
 - À l’aide de la synchronisation de mot de passe avec DirSync, la possibilité de synchroniser les mots de passe Active Directory locaux avec le client en ligne. Si elle est configurée, cette fonctionnalité supprime la nécessité de déployer AD FS pour l’authentification fédérée, mais AD FS est toujours requis pour l’authentification multifacteur. 
 - Prise en charge continue de la coexistence entre Skype Entreprise Online et Exchange en local.
     
@@ -161,7 +161,7 @@ Skype Entreprise Server 2015 active les fonctionnalités d’administration et d
   
 ## <a name="multi-factor-authentication"></a>Authentification multifacteur
 
-L’authentification multifacteur est une méthode d’authentification qui nécessite l’utilisation de plusieurs méthodes de vérification et ajoute une deuxième couche critique de sécurité aux transactions et aux signatures des utilisateurs. Par exemple, l’utilisation d’un nom d’utilisateur et d’un mot de passe, ainsi que d’un certificat. Skype Entreprise Server 2015 continue de s’appuyer sur les fonctionnalités d’authentification multifacteur disponibles dans les mises à jour cumulatives de Lync Server 2013. Les modifications importantes apportées à l’authentification multifacteur sont les suivants :
+L’authentification multifacteur est une méthode d’authentification qui nécessite l’utilisation de plusieurs méthodes de vérification et ajoute une deuxième couche critique de sécurité aux transactions et aux signatures des utilisateurs. Par exemple, la nécessité d’un nom d’utilisateur et d’un mot de passe, ainsi qu’un certificat. Skype Entreprise Server 2015 continue de s’appuyer sur les fonctionnalités d’authentification multifacteur disponibles dans les mises à jour cumulatives de Lync Server 2013. Les modifications importantes apportées à l’authentification multifacteur sont les suivants :
   
 - Utilisation de la bibliothèque d’authentification Active Directory Office 2013 SP1 pour l’intégration avec Exchange et SharePoint
 - Prise en charge de la fonctionnalité d’authentification multifacteur dans le client Application Web Skype Entreprise client

@@ -1,7 +1,7 @@
 ---
 title: Configurer les options d’archivage pour gérer les défaillances dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Résumé : Découvrez comment bloquer les sessions de messagerie instantanée et de conférence en cas d’Skype Entreprise Server qui empêcherait l’archivage.'
-ms.openlocfilehash: f86b26178963621b4d71a657e589a63f1351aeef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24bfa5190f4aa86a51d7737c952e6536a7d89b34
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592568"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767922"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurer les options d’archivage pour gérer les défaillances dans Skype Entreprise Server
 
@@ -35,7 +35,7 @@ Pour spécifier si les sessions de communication doivent être autorisées en ca
     
 3. Dans la barre de navigation de gauche, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
     
-4. Cliquez sur le nom de la configuration globale, de site ou de pool appropriée dans la liste des configurations d’archivage, cliquez sur **Modifier,** puis sur Afficher **les détails.**
+4. Cliquez sur le nom de la configuration globale, de site ou de pool appropriée dans la liste des configurations d’archivage, cliquez sur **Modifier,** puis cliquez sur Afficher **les détails.**
     
 5. Pour définir le comportement de l’archivage en cas d’échec, cochez ou décochez la case **Bloquer les sessions de messagerie instantanée ou de conférence Web en cas d’échec de l’archivage**.
     

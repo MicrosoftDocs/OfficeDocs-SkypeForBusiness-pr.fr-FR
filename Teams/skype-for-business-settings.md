@@ -1,7 +1,7 @@
 ---
 title: Gérer Skype Entreprise de données dans le Centre Microsoft Teams’administration
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez comment gérer les paramètres des fonctionnalités Skype Entreprise dans le Centre Microsoft Teams’administration.
-ms.openlocfilehash: a21ea4d51902fc755f1a36e58e3faf0f70fa837b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 90748d968b2540ea6ee7e5c542623ceb0bc0fbb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731743"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767132"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Gérer Skype Entreprise de données dans le Centre Microsoft Teams’administration
 
@@ -42,7 +42,7 @@ Vous verrez uniquement la page **Skype Entreprise** de coexistence si le mode de
 > [!NOTE]
 > Skype Entreprise de gestion de données étaient auparavant dans **le portail hérité** du Centre Microsoft Teams’administration. Avec l’abandon de l’ancien portail, nous avons migré les paramètres vers ces nouveaux emplacements dans le centre d’administration Teams pour Skype Entreprise gestion.
 
-Le rôle d’administrateur [Azure AD](/azure/active-directory/roles/permissions-reference) de l’administrateur global ou de l’administrateur de Skype Entreprise doit vous aider à gérer les fonctionnalités de gestion des Skype Entreprise dans le Microsoft Teams d’administration.
+Vous devez avoir le rôle [d Azure AD administrateur](/azure/active-directory/roles/permissions-reference) global ou d’administrateur Skype Entreprise pour gérer les fonctionnalités Skype Entreprise dans le Microsoft Teams d’administration.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Gérer Skype Entreprise de gestion des paramètres pour votre organisation
 

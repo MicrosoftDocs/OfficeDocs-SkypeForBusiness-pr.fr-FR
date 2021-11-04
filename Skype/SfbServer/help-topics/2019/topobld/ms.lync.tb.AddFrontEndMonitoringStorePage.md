@@ -1,7 +1,7 @@
 ---
 title: Page Ajouter un magasin d’analyse frontal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous pouvez définir le magasin SQL Server pour la surveillance en configurant les propriétés suivantes :'
-ms.openlocfilehash: caaf519fd65e4262b48eddcec335a06539684eb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 074d7aefa6e5b724d7266fbfb9d2b05dd558e4fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601749"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766922"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Page Ajouter un magasin d’analyse frontal
  
@@ -34,7 +34,7 @@ Vous pouvez **définir le magasin SQL Server pour la surveillance** en configura
     
     Sélectionnez un **Miroir du magasin SQL Server de surveillance** existant dans la liste.
     
-    Cliquez **sur** Nouveau pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin miroir.
+    Cliquez **sur Nouveau** pour créer une définition SQL Server FQDN et éventuellement un nom d’instance pour le magasin miroir.
     
 - Si vous avez sélectionné Activer la mise en **miroir** du magasin SQL Server , sélectionnez éventuellement Utiliser le témoin de mise en miroir SQL Server pour activer le **failover** automatique afin de sélectionner un magasin de témoins de mise en miroir SQL Server dans la liste.
     

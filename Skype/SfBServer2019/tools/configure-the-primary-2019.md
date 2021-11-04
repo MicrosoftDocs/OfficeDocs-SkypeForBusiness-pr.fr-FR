@@ -1,7 +1,7 @@
 ---
 title: Configurer le serveur de gestion principal
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Configurez votre serveur de gestion principal, installez System Center Operations Manager et importez des packs d’administration pour Skype Entreprise Server 2019.'
-ms.openlocfilehash: e5bbe28afbc3b579700686b1fab1af3f420dd83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012538"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760342"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype Entreprise Server : configurer le serveur de gestion principal
 
@@ -38,7 +38,7 @@ Lorsque vous installez System Center Operations Manager, vous devez installer to
 
 - Console web
 
-- Rapports
+- Reporting
 
 - Data Warehouse
 
@@ -51,7 +51,7 @@ N’oubliez pas que vous ne pouvez avoir qu’un seul serveur d’administration
 
 ## <a name="importing-the-skype-for-business-server-2019-management-packs"></a>Importation des packs d Skype Entreprise Server 2019
 
-Vous pouvez étendre les fonctionnalités de System Center Operations Manager en installant des packs d’administration : logiciels qui déterminent les éléments que System Center Operations Manager peut surveiller, comment ces éléments doivent être surveillés et comment les alertes doivent être déclenchées et signalées. Skype Entreprise Server 2019 inclut deux packs d’administration System Center Operations Manager qui offrent les fonctionnalités suivantes :
+Vous pouvez étendre les fonctionnalités de System Center Operations Manager en installant des packs d’administration : logiciels qui déterminent les éléments que System Center Operations Manager peut surveiller, comment ces éléments doivent être surveillés et comment les alertes doivent être déclenchées et signalées. Skype Entreprise Server 2019 inclut deux packs d’administration System Center Operations Manager qui fournissent les fonctionnalités suivantes :
 
 -  Le pack d’administration des composants et des utilisateurs (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) suit les problèmes Skype Entreprise Server enregistrés dans les journaux des événements, enregistrés par des compteurs de performance ou enregistrés dans les enregistrements des détails des appels ou les bases de données de qualité de l’expérience (QoE). Pour les problèmes critiques, System Center Operations Manager peut être configuré pour avertir immédiatement les administrateurs par courrier électronique, message instantané ou messagerie SMS. (SMS, ou Short Message Service, est la technologie utilisée pour envoyer des messages texte d’un appareil mobile à un autre.)
 
@@ -93,7 +93,7 @@ Vous pouvez utiliser l’un des outils suivants pour importer les packs d’admi
 
 ## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importation des packs d’administration à l’aide du interpréteur de commandes d'Operations Manager
 
-En règle générale, il est plus facile d’importer les packs d’administration à l’aide de la console Operations Manager. Toutefois, si une erreur se produit et que l’importation échoue, la console ne fournit pas toujours de rapports d’erreurs adéquats. En comparaison, le interpréteur de commandes d'Operations Manager fournit des informations détaillées. Si vous utilisez Operations Manager et que vous rencontrez des problèmes lors de l’importation d’un pack d’administration, importez-le à l’aide du interpréteur de commandes d'Operations Manager. Les informations fournies par interpréteur de commandes d'Operations Manager peuvent vous aider à déterminer pourquoi l’importation a échoué.
+En règle générale, il est plus facile d’importer les packs d’administration à l’aide de la console Operations Manager. Toutefois, si une erreur se produit et que l’importation échoue, la console ne fournit pas toujours de rapports d’erreurs adéquats. En comparaison, le interpréteur de commandes d'Operations Manager fournit des informations détaillées. Si vous utilisez Operations Manager et que vous rencontrez des problèmes lors de l’importation d’un pack d’administration, importez-le à l’aide du interpréteur de commandes d'Operations Manager. Les informations fournies par interpréteur de commandes d'Operations Manager peuvent vous aider à déterminer la raison de l’échec de l’importation.
 
 1. Cliquez **sur** Démarrer, **sur** Tous les programmes, sur Microsoft **System Center 2012,** sur **Operations Manager,** puis sur **interpréteur de commandes d'Operations Manager**.
 

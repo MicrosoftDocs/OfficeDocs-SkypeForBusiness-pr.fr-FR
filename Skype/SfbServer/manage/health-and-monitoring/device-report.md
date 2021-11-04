@@ -1,7 +1,7 @@
 ---
 title: Rapport de périphérique dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Résumé : Découvrez le rapport de périphérique dans Skype Entreprise Server.'
-ms.openlocfilehash: f8c3368132dc1924ababfa6fe71b36daa412afee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fd03c402209f5ab33db91038406ac0a5b930ba9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632908"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767722"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Rapport de périphérique dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de périphérique dans Skype Entreprise Server.
   
-Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par les téléphones IP (également communément appelés « périphériques »), utilisez le rapport d’inventaire Téléphone [IP](ip-phone-inventory-report.md) Skype Entreprise Server à la place.
+Le Rapport de périphérique devrait plutôt s’appeler le Rapport de microphone et de haut-parleurs : en effet, le Rapport de périphérique récupère toutes les mesures de l’appel (comme le pourcentage d’appels médiocres, les échos et la durée du basculement vocal) regroupées par les microphones et les haut-parleurs utilisés pendant l’appel. Si vous êtes intéressé par les téléphones IP (également communément appelés « périphériques »), utilisez le rapport d’inventaire Téléphone IP dans [Skype Entreprise Server](ip-phone-inventory-report.md) à la place.
   
 Le rapport de périphérique est très utile pour les administrateurs souhaitant déterminer si un type d’appareil spécifique rencontre un plus grand nombre d’appels médiocres que d’autres appareils. Ce rapport pourrait, à son tour, influencer les décisions que vous devez prendre au moment de l’achat de nouveaux périphériques ou du remplacement des périphériques existants.
   
@@ -128,12 +128,12 @@ Le tableau qui suit dresse la liste des filtres que vous pouvez utiliser avec le
   
 **Filtres du rapport de périphérique**
 
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |**From** <br/> |Date/heure de début de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de début comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de début, le rapport commence automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**To** <br/> |Date/heure de fin de la période. Pour afficher les données par heures, entrez à la fois la date et l’heure de fin comme suit :  <br/> 7/7/2015 13:00  <br/> Si vous ne précisez aucune heure de fin, le rapport se termine automatiquement à midi (12:00 AM) à la date du jour défini. Pour afficher les données par jour, entrez simplement la date :  <br/> 7/7/2015  <br/> Pour afficher les données par semaine ou mois, entrez une date tombant un jour quelconque de la semaine ou du mois que vous souhaitez visualiser (nul besoin d’entrer le premier jour de la semaine ou du mois) :  <br/> 7/3/2015  <br/> Les semaines s’étalent toujours du dimanche au samedi.  <br/> |
 |**Cause du basculement vocal** <br/> |Raison pour laquelle un appel a dû être émis en mode semi-duplex afin d’empêcher l’écho. En mode semi-duplex, la communication peut voyager dans un seul sens à la fois, de la même façon que les utilisateurs attendent leur tour pour communiquer à l’aide d’un talkie-walkie. Sélectionnez l’une des options suivantes :  <br/> [Tous] Aucun signal d’écho d’écho d’timestamp mauvais (processeur nonligne dynamique) Faible complexité État de l’appareil Mauvais état Post-AEC écho (annulation de l’écho sonore) |
-|**Cause de l’écho** <br/> |Raison pour laquelle un écho au-dessus du niveau acceptable a été détecté dans un appel. (Dans le domaine des télécommunications, un écho est la réflexion d’un son, il s’agit du même phénomène que vous entendez lorsque vous hélez en direction du fond d’un puits.) Sélectionnez l’une des options suivantes :  <br/> [Tous] Aucun mauvais timestamp écho post-AEC (annulation de l’écho sonore) Découpage du microphone ANLP (processeur nonligne adaptatif) DNLP (processeur dynamique nonligne) |
+|**Cause de l’écho** <br/> |Raison pour laquelle un écho au-dessus du niveau acceptable a été détecté dans un appel. (Dans le domaine des télécommunications, un écho est la réflexion d’un son, il s’agit du même phénomène que vous entendez lorsque vous hélez en direction du fond d’un puits.) Sélectionnez l’une des options suivantes :  <br/> [Tous] Aucun mauvais timestamp écho post-AEC (annulation d’échos sonores) Découpage du microphone ANLP (processeur nonligne adaptatif) DNLP (processeur dynamique nonligne) |
 |**Type d’appel** <br/> |Indique le type d’appel émis. Sélectionnez l’une des options suivantes :  <br/> [Tous] Appel client PSTN call Conference call |
 |**Type d’accès** <br/> |Indique si le client était connecté au réseau interne ou au réseau externe au moment de passer l’appel. Sélectionnez l’une des options suivantes :  <br/> [Tous] Interne externe |
 |**Type de réseau** <br/> |Indique le type de réseau auquel le client était connecté au moment où l’appel a été émis. Sélectionnez l’une des options suivantes :  <br/> [Tous] Fil câblé sans fil |
@@ -147,7 +147,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de pé
   
 **Mesures du rapport de périphérique**
 
-|**Nom**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
+|**Name**|**Est-il possible d’effectuer un tri sur cet élément ?**|**Description**|
 |:-----|:-----|:-----|
 |**Périphérique de capture** <br/> |Oui  <br/> |Périphérique (par exemple, un microphone ou une webcam) utilisé pour transmettre de l’audio.  <br/> |
 |**Périphérique de rendu** <br/> |Oui  <br/> |Périphérique (par exemple, un casque ou des haut-parleurs) utilisé pour recevoir de l’audio.  <br/> |
@@ -158,7 +158,7 @@ Le tableau qui suit répertorie les informations fournies dans le rapport de pé
 |**Ratio du microphone ne fonctionnant pas** <br/> |Oui  <br/> |Pourcentage de l’appel pendant lequel le périphérique de capture ne fonctionnait pas à un niveau acceptable. Une valeur élevée suggère que les problèmes de qualité de l’appel étaient principalement dus au fonctionnement incorrect du périphérique de capture.  <br/> |
 |**Ratio du haut-parleur ne fonctionnant pas** <br/> |Oui  <br/> |Pourcentage de l’appel pendant lequel le périphérique de rendu ne fonctionnait pas à un niveau acceptable. Une valeur élevée suggère que les problèmes de qualité de l’appel étaient principalement dus au fonctionnement incorrect du périphérique de rendu.  <br/> |
 |**Appels avec basculement vocal (%)** <br/> |Oui  <br/> |Pourcentage du nombre total d’appels qui ont dû être émis en mode semi-duplex. En mode semi-duplex, la communication peut voyager dans un seul sens à la fois, de la même façon que les utilisateurs attendent leur tour pour communiquer à l’aide d’un talkie-walkie.  <br/> |
-|**Écho en entrée du microphone (%)** <br/> |Oui  <br/> |Pourcentage du temps où un écho a été détecté dans le flux de capture du microphone. En règle générale, les valeurs sont faibles pour les casques ou combinés, et plus élevées pour les téléphones mains libres ou les haut-parleurs autonomes. Pour les appareils qui supportent l’annulation de l’écho sonore à l’aide de l’appareil, des valeurs élevées indiquent une fuite d’écho. Pour les autres appareils, cette mesure ne doit pas être utilisée pour évaluer la qualité de l’appareil.  <br/> |
+|**Écho en entrée du microphone (%)** <br/> |Oui  <br/> |Pourcentage du temps où un écho a été détecté dans le flux de capture du microphone. En règle générale, les valeurs sont faibles pour les casques ou les combinés, et plus élevées pour les téléphones mains libres ou les haut-parleurs autonomes. Pour les appareils qui supportent l’annulation de l’écho sonore à bord, des valeurs élevées indiquent une fuite d’écho. Pour les autres appareils, cette mesure ne doit pas être utilisée pour évaluer la qualité de l’appareil.  <br/> |
 |**Source-réverbération (%)** <br/> |Oui  <br/> |Pourcentage d’écho transmis à d’autres utilisateurs.  <br/> |
 |**Appels avec écho (%)** <br/> |Oui  <br/> |Pourcentage du nombre total d’appels dont l’écho a dépassé le niveau acceptable.  <br/> |
    

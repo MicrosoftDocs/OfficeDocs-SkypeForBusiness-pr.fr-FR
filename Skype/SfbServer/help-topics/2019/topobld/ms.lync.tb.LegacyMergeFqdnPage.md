@@ -1,7 +1,7 @@
 ---
 title: 'Fusion héritée : nom de domaine complet'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le FQDN interne du pool Edge d’accès est utilisé pour divers scénarios dans lequel les utilisateurs internes communiquent avec des utilisateurs externes pour la fédération, l’accès des utilisateurs distants et la connectivité de messagerie instantanée publique. Si un serveur de périphérie avec charge équilibrée a été déployé dans votre environnement hérité, entrez le nom de domaine complet (FQDN) du programme d’équilibrage de la charge
-ms.openlocfilehash: 25d366e963110e5f41e5fcc5787ef6c952784b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3a2017f62ffabe8f427f7e5bd048f8c6e5c3d67
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628966"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752383"
 ---
 # <a name="legacy-merge-fqdn"></a>Fusion héritée : nom de domaine complet
  

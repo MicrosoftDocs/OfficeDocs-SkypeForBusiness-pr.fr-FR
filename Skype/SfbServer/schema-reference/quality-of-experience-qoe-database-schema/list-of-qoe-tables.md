@@ -1,7 +1,7 @@
 ---
 title: Liste des tables de qualité de l’expérience (QoE)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Le schéma de base de données comprend les tables suivantes.
-ms.openlocfilehash: 1d6d60d06dcb6cbfdde6a4fdbbd2746d00aa8531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0532d1574bcbbe80a58195d2c14ea6920375153f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601269"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767292"
 ---
 # <a name="list-of-qoe-tables"></a>Liste des tables de qualité de l’expérience (QoE)
  
@@ -47,7 +47,7 @@ Le schéma de base de données comprend les tables suivantes.
 |[Table PayloadDescription](payloaddescription.md) <br/> |Stocke le Codec utilisé dans les appels audio/vidéo.  <br/> |
 |[Table AppliedBandwidthSource](appliedbandwidthsource.md) <br/> |Stocke la source de la bande passante utilisée dans les appels audio/vidéo.  <br/> |
 |[Table MacAddress](macaddress.md) <br/> |Stocke l’adresse MAC des systèmes d’extrémité participant à des sessions audio et vidéo.  <br/> |
-|[Table de dialogue](dialog.md) <br/> |Stocke l’ID de dialogue des sessions audio et vidéo.  <br/> |
+|[Table dialog](dialog.md) <br/> |Stocke l’ID de dialogue des sessions audio et vidéo.  <br/> |
 |[Table Region](region.md) <br/> |Stocke la région du réseau définie dans le paramètre NCS.  <br/> |
 |[Table UserSite](usersite.md) <br/> |Stocke le site réseau défini dans le paramètre NCS.  <br/> |
 |[Table Subnet](subnet.md) <br/> |Stocke le sous-réseau défini dans le paramètre NCS.  <br/> |

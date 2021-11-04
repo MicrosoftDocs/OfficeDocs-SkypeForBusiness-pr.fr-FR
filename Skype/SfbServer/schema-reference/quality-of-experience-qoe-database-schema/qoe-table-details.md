@@ -1,7 +1,7 @@
 ---
 title: Détails des tables de qualité de l’expérience (QoE)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: Ces sections détaillent les colonnes de chacune des tables de schéma de base de données de qualité de l’expérience (QoE).
-ms.openlocfilehash: ddbdbce9a50c62e271c7c10532214e7391fcc566
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e929341780a917d675843347d0332fec326c8f2b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746490"
 ---
 # <a name="qoe-table-details"></a>Détails des tables de qualité de l’expérience (QoE)
  

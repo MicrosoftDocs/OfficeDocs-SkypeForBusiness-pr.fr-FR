@@ -1,7 +1,7 @@
 ---
 title: Haute disponibilité du partage de fichiers dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: Découvrez comment garantir la haute disponibilité de vos partages de fichiers dans Skype Entreprise Server, à l’aide de DFS.
-ms.openlocfilehash: 6abdf9656ddca5148c9b04c6dbe11cdc5da7e840
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd51464aa1588f672134c0d9ce5b2c8fc3faa97f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603813"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767522"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Haute disponibilité du partage de fichiers dans Skype Entreprise Server
  
@@ -28,6 +28,6 @@ Pour garantir la haute disponibilité du partage de fichiers dans Skype Entrepri
   
 En fonction de la taille de votre réseau et du niveau de résistance souhaité, vous pouvez utiliser une paire de serveurs pour héberger tous les partages de fichiers d’un site, ou utiliser une paire de serveurs par pool frontal.
   
-DFS est un mécanisme de réplication de fichiers recommandé, sans engagement d’objectif de temps de récupération (RTO, Recovery Time Objective) ou d’objectif de point de récupération (RPO, Recovery Point Objective) publié. Un failover entre des serveurs DFS doit être effectué rapidement, mais le délai de réplication des données peut empêcher les utilisateurs de poursuivre le travail en cours lorsque le failover se produit.
+DFS est un mécanisme de réplication de fichiers recommandé, sans engagement d’objectif de temps de récupération (RTO, Recovery Time Objective) ou d’objectif de point de récupération (RPO, Recovery Point Objective) publié. Un failover entre les serveurs DFS doit être effectué rapidement, mais le délai de réplication des données peut empêcher les utilisateurs de poursuivre le travail en cours lorsque le retentage se produit.
   
 Si vous utilisez DFS et que le magasin de données sur le partage de fichiers est essentiel, vous devez les stocker fréquemment, par exemple toutes les 4 à 8 heures. Lorsqu’un partage de fichiers tombe en panne et que la réplication n’est pas à jour, vous pouvez utiliser la sauvegarde pour restaurer le contenu du serveur défaillant sur l’autre serveur qui est associé à ce serveur à présent indisponible.

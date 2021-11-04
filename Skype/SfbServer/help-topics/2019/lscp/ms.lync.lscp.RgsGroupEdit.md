@@ -1,7 +1,7 @@
 ---
 title: 'Groupes Response Group : création d’un groupe d’agents ou modification d’un groupe d’agents existant'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les groupes d’agents définissent les personnes qui peuvent répondre aux appels adressés à un groupe Response Group (appelées agents), ainsi que les paramètres qui s’appliquent à tous les agents dans le groupe.
-ms.openlocfilehash: 95e2cac8f98dd25811b093aee3dbdd3ce8459b7a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac9743327483ace0baf92e93e4de14451fdb47de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599343"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758876"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Services Response Group : création d’un nouveau ou modification d’un groupe existant
 

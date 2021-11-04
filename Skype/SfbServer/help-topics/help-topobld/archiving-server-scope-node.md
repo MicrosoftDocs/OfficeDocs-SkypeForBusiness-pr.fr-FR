@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue du serveur d’archivage
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 description: Dans le Générateur de topologie, vous pouvez effectuer des tâches liées au serveur exécutant l’archivage en cliquant avec le bouton droit sur le pool dans l’arborescence de la console, puis en sélectionnant Modifier les propriétés. Dans la page Modifier les propriétés, vous pouvez modifier le nom de domaine complet (FQDN) du serveur exécutant l’archivage, la base de données SQL Server d’archivage et le magasin de fichiers d’archivage.
-ms.openlocfilehash: 43b8aed8e8d5bb7c6c82eab38f8c5302f8d54b5f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e1481e94d174ef1099ab601d75dd69cdcea545df
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581378"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752103"
 ---
 # <a name="archiving-server-scope-node"></a>Nœud d’étendue du serveur d’archivage
  

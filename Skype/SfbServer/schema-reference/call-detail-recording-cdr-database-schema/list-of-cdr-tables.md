@@ -1,7 +1,7 @@
 ---
 title: Liste des tables d’Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Le schéma de base de données de l’enregistrement des détails des appels comprend les tables suivantes.
-ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e8c76080089005977154c3e23d924a4b98dc6b5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635128"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746660"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste des tables d’Skype Entreprise Server 2015
  
@@ -90,7 +90,7 @@ Le schéma de base de données de l’enregistrement des détails des appels com
 |[Table VoipDetails](voipdetails-0.md) <br/> |Pour chaque appel VoIP/PSTN à deux utilisateurs, stocke des informations sur l’appel, telles que l’ID téléphonique du téléphone VoIP, la passerelle utilisée, et quel participant a été déconnecté. Fait référence à la [table SessionDetails pour les](sessiondetails.md) heures de début/fin des appels et le code de réponse. <br/> |
    
 > [!NOTE]
-> Si l’un des participants à l’appel est un utilisateur VoIP ou si un serveur de médiation a été impliqué dans cet appel, un enregistrement sera créé dans cette table. Les informations sur les appels VoIP/VoIP qui n’impliquent pas de téléphone PSTN (réseau téléphonique commuté) sont capturées dans la [table SessionDetails](sessiondetails.md). 
+> Si l’un des participants à l’appel est un utilisateur VoIP ou si un serveur de médiation a été impliqué dans cet appel, un enregistrement sera créé dans cette table. Les informations sur les appels VoIP/VoIP n’impliquant pas de téléphone PSTN (réseau téléphonique commuté) sont capturées dans la [table SessionDetails](sessiondetails.md). 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>Table pour l’audit d’appel E9-1-1
 
@@ -107,7 +107,7 @@ Le schéma de base de données de l’enregistrement des détails des appels com
 |:-----|:-----|
 |[Table Application dans Skype Entreprise Server 2015](application.md) <br/> |Stocke des informations sur différents processus Skype Entreprise Server 2015 impliqués dans le routage et les connexions.  <br/> |
 |[Table CallType dans Skype Entreprise Server 2015](calltype.md) <br/> |Stocke des informations sur les types d’appel, tels que « audio », « Messagerie instantanée », « audio et vidéo » et « partage d’application ».  <br/> |
-|[Table ErrorCategory dans Skype Entreprise Server 2015](errorcategory.md) <br/> |Stocke le nom convivial de chaque classification de diagnostic Skype Entreprise Server 2015.  <br/> |
+|[Table ErrorCategory dans Skype Entreprise Server 2015](errorcategory.md) <br/> |Stocke le nom convivial de chaque classification Skype Entreprise Server diagnostic 2015.  <br/> |
 |[Table ErrorDef dans Skype Entreprise Server 2015](errordef.md) <br/> |Stocke des informations sur les types d’erreurs et leurs définitions.  <br/> |
 |[Table ErrorReport dans Skype Entreprise Server 2015](errorreport.md) <br/> |Stocke des informations sur les erreurs qui se sont produites.  <br/> |
 |[Table ProgressReport](progressreport.md) <br/> |Stocke des informations sur les rapports d’avancement des différentes étapes Skype Entreprise Server processus 2015.  <br/> |

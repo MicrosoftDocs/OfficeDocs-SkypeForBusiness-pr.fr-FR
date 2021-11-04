@@ -1,7 +1,7 @@
 ---
 title: Planifier l’appel via le Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planification de l’appel via le travail dans Skype Entreprise Server, qui permet l’intégration entre Skype Entreprise et votre système téléphonique PBX, afin que les utilisateurs peuvent utiliser Skype Entreprise pour contrôler leurs téléphones PBX.
-ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 268ee3a6caa7b304cc63b4e7e16c2a7565f9ced3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732583"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768562"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planifier l’appel via le Skype Entreprise Server
  
@@ -47,13 +47,13 @@ Call Via Work utilise unified Communications Web API (UCWA) en tant qu’agent u
 
 L’exemple suivant montre comment un utilisateur activé pour l’appel via le travail peut utiliser la Skype Entreprise Server pour effectuer un appel :
   
-![Indique les étapes d’un appel via le lieu de travail ; d’abord, l’appelant clique pour appeler une personne dans le client Skype Entreprise client ; puis l’UCWA fait sonner le téléphone de l’appelant. Lorsque l’appelant prend le téléphone, le destinataire est appelé.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![Indique les étapes d’un appel via le lieu de travail ; tout d’abord, l’appelant clique pour appeler une personne dans le client Skype Entreprise client ; puis l’UCWA fait sonner le téléphone de l’appelant. Lorsque l’appelant prend le téléphone, le destinataire est appelé.](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. L’utilisateur sélectionne un utilisateur dans son client Skype Entreprise client, puis clique sur l’icône du téléphone pour l’appeler. Ou, au cours d’une conversation par messagerie instantanée, l’utilisateur clique pour appeler l’utilisateur avec qui il a la session.
     
 2. Le téléphone PBX de l’utilisateur qui a passé l’appel commence à sonner. L’ID de l’appelant pour ce téléphone affiche un numéro de téléphone global que vous avez installé pour l’afficher dans l’ID d’appelant de tous les utilisateurs passant des appels via le téléphone. Ce numéro de téléphone global n’est pas un numéro de téléphone réel qui correspond au téléphone d’une personne. Au lieu de cela, il s’agit d’un signal visuel pour indiquer à un utilisateur qu’il s’agit de son propre appel sortant, et non d’un appel entrant qui se produit en même temps. Lorsque vous déployez appel via le travail, vous devez informer ces utilisateurs de ce numéro de téléphone global et de ce qu’il signifie.
     
-3. L’utilisateur qui a passé l’appel prend son téléphone PBX. Skype Entreprise lance ensuite l’appel vocal à l’appelé. 
+3. L’utilisateur qui a passé l’appel sélectionne son téléphone PBX. Skype Entreprise lance ensuite l’appel vocal à l’appelé. 
     
 4. Lorsque l’appelé répond, l’appel vocal commence. Si les deux utilisateurs avaient déjà une session de messagerie instantanée en cours, elle peut continuer.
     
@@ -67,13 +67,13 @@ Un utilisateur d’appel via le travail peut également se rendre à une réunio
   
 ### <a name="incoming-calls"></a>Appels entrants
 
-Lorsqu’un utilisateur activé pour l’appel via le travail reçoit un appel Skype Entreprise, le téléphone PBX et les clients Skype Entreprise de l’utilisateur sonnent tous simultanément (si l’utilisateur a activé la sonnerie simultanée). L’utilisateur peut accepter l’appel en sélectionnant le téléphone PBX ou en cliquant sur **Accepter** sur la notification Skype Entreprise message. Si l’utilisateur accepte l’appel à l’Skype Entreprise, la fenêtre Skype Entreprise de l’appel reste ouverte. Toutefois, si l’utilisateur accepte l’appel en sélectionnant le téléphone PBX, la fenêtre de notification Skype Entreprise se ferme et il n’y a pas de session Skype Entreprise, uniquement l’appel vocal sur le téléphone PBX.
+Lorsqu’un utilisateur activé pour l’appel via le travail reçoit un appel Skype Entreprise, le téléphone PBX et les clients Skype Entreprise de l’utilisateur sonnent tous simultanément (si l’utilisateur a installé la sonnerie simultanée). L’utilisateur peut accepter l’appel en sélectionnant le téléphone PBX ou en cliquant sur **Accepter** sur la notification Skype Entreprise message. Si l’utilisateur accepte l’appel à l’Skype Entreprise, la fenêtre Skype Entreprise de l’appel reste ouverte. Toutefois, si l’utilisateur accepte l’appel en sélectionnant le téléphone PBX, la fenêtre de notification Skype Entreprise se ferme et il n’y a pas de session Skype Entreprise, uniquement l’appel vocal sur le téléphone PBX.
   
 Lorsqu’un utilisateur activé pour l’appel via le réseau téléphonique reçoit un appel PBX, seul le téléphone PBX sonne.
   
 ## <a name="limitations-of-call-via-work"></a>Limitations de l’appel via le travail
 
-Call Via Work est une solution vocale qui nécessite peu de configuration matérielle, mais présente des limitations par rapport aux fonctionnalités disponibles en Voix Entreprise ou contrôle d’appel distant. L’appel via le travail présente les limitations suivantes :
+Call Via Work est une solution vocale qui nécessite peu de configuration matérielle, mais présente des limitations par rapport aux fonctionnalités disponibles dans le contrôle d’appel Voix Entreprise ou distant. L’appel via le travail présente les limitations suivantes :
   
 - Si un utilisateur d’appel via le travail a mis en place le forwarding d’appel vers le numéro de rappel Appel via le travail et qu’une personne tente d’inviter cet utilisateur à une réunion par le numéro de téléphone de l’utilisateur, l’invitation n’atteint pas l’utilisateur. Vous devez informer vos utilisateurs afin qu’ils invitent les participants aux réunions en cliquant sur le nom et non sur le numéro de téléphone. 
     
@@ -85,7 +85,7 @@ Call Via Work est une solution vocale qui nécessite peu de configuration matér
     
 - Les utilisateurs ne peuvent pas utiliser l’appel via le travail pour accéder à leurs messages vocaux PBX.
     
-- Les utilisateurs de l’appel via le travail ne peuvent pas faire d’une session qui a commencé comme un appel vocal une réunion de collaboration qui inclut des communications telles que vidéo, Powerpoint, tableau blanc ou One Note.
+- Les utilisateurs d’Appel via le travail ne peuvent pas faire d’une session qui a commencé comme un appel vocal une réunion de collaboration qui inclut des communications telles que vidéo, Powerpoint, tableau blanc ou One Note.
     
 - Les utilisateurs d’Appel via le travail ne peuvent pas ajouter d’utilisateurs à un appel à deux personnes.
     

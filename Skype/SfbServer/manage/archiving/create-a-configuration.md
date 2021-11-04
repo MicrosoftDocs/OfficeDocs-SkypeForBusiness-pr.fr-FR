@@ -1,7 +1,7 @@
 ---
 title: Créer une configuration d’archivage dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Résumé : Découvrez comment créer une configuration d’archivage pour Skype Entreprise Server.'
-ms.openlocfilehash: 68ea35ef81c3a387aa95c54172bb1decc6c5624b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: abb7f6c894dae734a45d7668f5b1b590d869c9c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606223"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767902"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Créer une configuration d’archivage dans Skype Entreprise Server
 
@@ -45,7 +45,7 @@ Pour configurer les options d’archivage pour un site ou un pool spécifique :
     
    - Pour activer l’archivage pour les sessions de messagerie instantanée et les conférences web, cliquez sur Archiver les sessions de messagerie instantanée et de conférence **web.**
     
-   - Pour désactiver l’archivage pour cette configuration, cliquez sur Désactiver **l’archivage.**
+   - Pour désactiver l’archivage pour cette configuration, cliquez **sur Désactiver l’archivage.**
     
 6. Dans **Créer un paramètre d’archivage**, procédez comme suit :
     

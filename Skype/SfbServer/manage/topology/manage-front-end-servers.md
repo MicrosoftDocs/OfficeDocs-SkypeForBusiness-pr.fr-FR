@@ -1,7 +1,7 @@
 ---
 title: Gérer les serveurs frontux dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Résumé : Découvrez comment ajouter, supprimer, patcher ou mettre à jour des serveurs frontux dans Skype Entreprise Server.'
-ms.openlocfilehash: 4a58eb7ab54102d1287a61a9f736b9d0c1a87108
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4322d9456488201f029a80d3f91aaa94c9a2d3d0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578788"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760642"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Gérer les serveurs frontux dans Skype Entreprise Server
  
@@ -54,7 +54,7 @@ Vous pouvez utiliser la procédure suivante lors de l’ajout ou de la suppressi
     > Lorsque vous ajoutez ou supprimez un serveur au pool dans votre topologie, puis publiez la topologie mise à jour, tous les serveurs du pool redémarrent en même temps. Pendant que les serveurs redémarrent le pool est hors connexion, ce qui interrompt le service pour vos utilisateurs connectés à ce pool. Pour éviter toute interruption de service pour les utilisateurs, prévoyez de publier la topologie avec le nouveau serveur dans le pool en de nouvelles heures d’ouverture. 
   
   > [!NOTE]
-> En outre, lorsque vous ajoutez ou supprimez un serveur au pool, vous devez exécuter l’Assistant Déploiement de Skype Entreprise Server sur chaque ordinateur ajouté ou supprimé. Pour plus d’informations, voir [Install Skype Entreprise Server on servers in the topology.](../../deploy/install/install-skype-for-business-server.md)
+> En outre, lorsque vous ajoutez ou supprimez un serveur dans le pool, vous devez exécuter l’Assistant Déploiement de Skype Entreprise Server sur chaque ordinateur ajouté ou supprimé. Pour plus d’informations, voir [Install Skype Entreprise Server on servers in the topology.](../../deploy/install/install-skype-for-business-server.md)
   
 4. Si vous avez modifié le nombre de serveurs dans votre pool frontal de l’une des manières suivantes, réinitialisez-le en tapant l’applet de la cmdlet suivante : Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     
@@ -100,7 +100,7 @@ Lorsque vous patchez les serveurs d’un pool frontal, vous le faites d’un ser
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
-    Cette applet de bord déplace tous les services vers d’autres serveurs frontaux du pool et met ce serveur hors connexion.
+    Cette applet de cmdlet déplace tous les services vers d’autres serveurs frontaux du pool et met ce serveur hors connexion.
     
 3. Appliquez la mise à niveau ou le correctif à ce serveur.
     
