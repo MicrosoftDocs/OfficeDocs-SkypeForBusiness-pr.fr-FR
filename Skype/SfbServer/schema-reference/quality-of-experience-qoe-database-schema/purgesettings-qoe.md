@@ -1,7 +1,7 @@
 ---
 title: Table PurgeSettings (QoE)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: 'La table PurgeSettings contient des informations indiquant si (et quand) les enregistrements de qualité de l’expérience obsolètes doivent être automatiquement supprimés de la base de données QoE. Notez que les informations relatives au purge peuvent également être obtenues à partir de l’Skype Entreprise Server Management Shell en exécutant la commande suivante :'
-ms.openlocfilehash: eb5b0570073498580ec2ad468ea50474e0246b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2c6eada1b64d5ba4ac1ee34185d89c31abcbd3c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620820"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763112"
 ---
 # <a name="purgesettings-table-qoe"></a>Table PurgeSettings (QoE)
  
@@ -30,7 +30,7 @@ Get-CsQoEConfiguration
 
 Ce tableau a été introduit dans Microsoft Lync Server 2013.
   
-|**Colonne**|**Type de données**|**Clé/Index**|**Details**|
+|**Colonne**|**Type de données**|**Clé/Index**|**Détails**|
 |:-----|:-----|:-----|:-----|
 |**ID** <br/> |int  <br/> |Primaire  <br/> |Identificateur unique pour la collecte des paramètres de vidage QoE.  <br/> |
 |**EnablePurge** <br/> |bit  <br/> ||Lorsque la valeur est True (1), Microsoft Lync Server 2013 purge régulièrement les enregistrements obsolètes de la base de données QoE. LA suppression a lieu tous les jours à l’heure indiquée par le paramètre PurgeHour. Si la valeur est False (0), les enregistrements ne sont pas supprimés automatiquement de la base de données. La valeur par défaut est True.  <br/> |

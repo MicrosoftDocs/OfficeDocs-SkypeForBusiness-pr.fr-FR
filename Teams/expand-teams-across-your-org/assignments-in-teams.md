@@ -1,7 +1,7 @@
 ---
 title: Affectations pour Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,22 +17,22 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: Découvrez comment gérer les devoirs dans le Centre d’administration Microsoft Teams dans Teams pour l’éducation.
+description: Découvrez comment gérer les devoirs dans le Centre d’administration Microsoft Teams dans Teams pour l'éducation.
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef615924a4c449a3b2b408d929cf3d2678e4a1e6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1c2dbc67fdbc55c9ff2a7b2e16cb0957886de3dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728673"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758306"
 ---
 # <a name="assignments-in-teams-for-education"></a>Devoirs dans Teams pour l’éducation
 
-Les fonctionnalités Devoirs et Notes Teams pour l’éducation aux enseignants d’attribuer des tâches, du travail ou des questionnaires à leurs étudiants. Les enseignants peuvent gérer la chronologie des devoirs, les instructions, ajouter des ressources à rendre, notes avec des rubriques, etc. Ils peuvent également suivre la progression de la classe et de l’étudiant individuel dans l’onglet Notes.
+Les fonctionnalités Devoirs et Notes Teams pour l'éducation aux enseignants d’attribuer des tâches, du travail ou des questionnaires à leurs étudiants. Les enseignants peuvent gérer la chronologie des devoirs, les instructions, ajouter des ressources à rendre, notes avec des rubriques, etc. Ils peuvent également suivre la progression de la classe et de l’étudiant individuel dans l’onglet Notes.
 
-[En savoir plus sur les devoirs et les notes dans Teams pour l’éducation.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[En savoir plus sur les devoirs et les notes dans Teams pour l'éducation.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
 > Pour plus d’informations sur Teams devoirs sur différentes plateformes, voir Teams [fonctionnalités par plateforme.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)

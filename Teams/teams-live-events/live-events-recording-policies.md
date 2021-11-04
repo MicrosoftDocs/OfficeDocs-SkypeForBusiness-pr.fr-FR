@@ -1,7 +1,7 @@
 ---
 title: Stratégies d’enregistrement des événements en direct
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: En savoir plus sur les stratégies d’enregistrement d’événeme
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bd9f800ed85d994f797c5e49d64ae0e84f90885c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 01fe1b00a4c8367dfd9c1274e3591a03b3c09634
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613453"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769802"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Stratégies d’enregistrement d’événements en direct Microsoft Teams
 
@@ -46,7 +46,7 @@ Deux options d’organisateur sont disponibles lors de la planification de l’e
 
 ## <a name="broadcast-recording-policy-setting"></a>Paramètre de stratégie d’enregistrement de diffusion
 
-Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement d’un événement en direct à partir d’un paramètre.
+Dans le cadre de la stratégie de diffusion, vous pouvez activer ou désactiver l’enregistrement pour un événement en direct.
 
 | &nbsp;| Enregistrement disponible pour les producteurs et les présentateurs | Enregistrement disponible pour les participants |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |

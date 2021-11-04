@@ -1,7 +1,7 @@
 ---
 title: Configurer Skype Entreprise Server pour utiliser l’archivage Exchange Server’archivage
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Résumé : Configurez les transcriptions de messagerie instantanée pour Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.'
-ms.openlocfilehash: f264b347660df032b67f06ddf605e99ba97a32b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44dbe1418176d7f0c33a6355480913a68baea0dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603061"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745290"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurer Skype Entreprise Server pour utiliser l’archivage Exchange Server’archivage
 
@@ -63,7 +63,7 @@ Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableE
 > [!NOTE]
 > Si la propriété EnableArchiving est définie sur Aucun, Skype Entreprise Server archivera pas du tout les transcriptions de messagerie instantanée et de conférence Web. Dans ce cas, le serveur ignorera simplement la valeur configurée pour EnableExchangeArchiving.
 
-Exchange’archivage peut également être activé (ou désactivé) à l’aide de la Skype Entreprise Server. Pour ce faire, procédez de la manière suivante :
+Exchange’archivage peut également être activé (ou désactivé) à l’aide du Skype Entreprise Server. Pour ce faire, procédez de la manière suivante :
 
 1. Dans le Panneau de configuration, cliquez sur **Surveillance et archivage**, puis sur **Configuration de l’archivage**.
 
@@ -76,7 +76,7 @@ Exchange’archivage peut également être activé (ou désactivé) à l’aide 
 > [!NOTE]
 > La case à cocher **Intégration Exchange Server** n’est pas disponible si **Paramètre d’archivage** est défini sur **Désactiver l’archivage**. Vous devez d’abord activer l’archivage, puis Exchange’archivage.
 
-Si Skype Entreprise Server et Exchange Server sont situés dans la même forêt, l’archivage pour des utilisateurs individuels (ou au moins pour les utilisateurs ayant des comptes de messagerie sur Exchange Server) est géré à l’aide de stratégies de Exchange In-Place. Si vous avez des utilisateurs qui sont homed sur une version antérieure de Exchange l’archivage de ces utilisateurs sera géré à l’aide de Skype Entreprise Server d’archivage. Notez que seuls les utilisateurs ayant des comptes sur Exchange Server 2016 ou Exchange Server 2013 peuvent archiver leurs transcriptions de Skype Entreprise dans Exchange.
+Si Skype Entreprise Server et Exchange Server sont situés dans la même forêt, l’archivage pour des utilisateurs individuels (ou au moins pour les utilisateurs ayant des comptes de messagerie sur Exchange Server) est géré à l’aide de stratégies de Exchange In-Place. Si vous avez des utilisateurs qui sont homed sur une version antérieure de Exchange l’archivage de ces utilisateurs sera géré à l’aide de Skype Entreprise Server d’archivage. Notez que seuls les utilisateurs ayant un compte sur Exchange Server 2016 ou Exchange Server 2013 peuvent archiver leurs transcriptions de Skype Entreprise dans Exchange.
 
 Si Skype Entreprise Server et Exchange Server sont situés dans des forêts différentes, l’archivage des utilisateurs individuels est géré en configurant la propriété ExchangeArchivingPolicy pour chaque compte d’utilisateur individuel. Pour plus d’informations, voir l’étape 3.
 
@@ -106,7 +106,7 @@ Si vous créez une stratégie par utilisateur, vous devrez affecter cette strat�
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
-Les stratégies d’archivage peuvent également être gérées à l’aide Skype Entreprise Server panneau de bord. Dans le Panneau de configuration, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**. Pour modifier une stratégie existante, double-cliquez sur la stratégie (par exemple, Global) puis, dans le volet **Stratégie d’archivage**, activez ou désactivez les cases à cocher **Archiver les communications internes** et **Archiver les communications externes** en fonction des besoins. Pour créer une stratégie d’archivage, cliquez sur Nouveau, puis sélectionnez Stratégie **de site** ou **Stratégie utilisateur.**  Si vous créez une nouvelle stratégie d’utilisateur, vous devez accéder aux comptes d’utilisateurs appropriés (sous l’onglet **Utilisateurs**), puis affecter à ces utilisateurs les nouvelles stratégies.
+Les stratégies d’archivage peuvent également être gérées à l’aide du Skype Entreprise Server de contrôle. Dans le Panneau de configuration, cliquez sur **Surveillance et archivage**, puis sur **Stratégie d’archivage**. Pour modifier une stratégie existante, double-cliquez sur la stratégie (par exemple, Global) puis, dans le volet **Stratégie d’archivage**, activez ou désactivez les cases à cocher **Archiver les communications internes** et **Archiver les communications externes** en fonction des besoins. Pour créer une stratégie d’archivage, cliquez sur Nouveau, puis sélectionnez Stratégie **de site** ou **Stratégie utilisateur.**  Si vous créez une nouvelle stratégie d’utilisateur, vous devez accéder aux comptes d’utilisateurs appropriés (sous l’onglet **Utilisateurs**), puis affecter à ces utilisateurs les nouvelles stratégies.
 
 ## <a name="step-3-configuring-the-exchangearchivingpolicy-property"></a>Étape 3 : Configuration de la propriété ExchangeArchivingPolicy
 

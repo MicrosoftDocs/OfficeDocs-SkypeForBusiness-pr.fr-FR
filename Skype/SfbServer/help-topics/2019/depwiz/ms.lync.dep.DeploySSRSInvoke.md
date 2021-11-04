@@ -1,7 +1,7 @@
 ---
 title: SQL Server Reporting Services (Invoke)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Après avoir fourni les informations requises pour le déploiement des rapports du serveur de surveillance à Microsoft SQL Server 2008 R2 ou à Microsoft SQL Server 2012 Report Services, la page Exécuter des commandes affiche un résumé des commandes émises pour installer les rapports sur le SQL Server Reporting Services.
-ms.openlocfilehash: 7db18c7ed3917d3710340445dea8ce5552335d6c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37fa7f1c56c9e65e04c0b33993e5dee67561bb92
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592798"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755215"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (appeler)
  
-Après avoir fourni les informations requises pour le déploiement des rapports du serveur de surveillance aux services de rapports Microsoft SQL Server, la page Exécuter des commandes affiche un résumé des commandes émises pour installer les rapports sur le serveur SQL Server Reporting Services.
+Après avoir fourni les informations requises pour le déploiement des rapports du serveur de surveillance aux services de rapports Microsoft SQL Server, la page Exécuter des commandes affiche un résumé des commandes émises pour installer les rapports sur le SQL Server Reporting Services.
   
 Passez en revue le résumé des commandes et notez les messages d’erreur ou d’avertissement affichés depuis les commandes. Si un fichier journal est généré, sélectionnez-le dans la liste déroulante sous la fenêtre du résumé et cliquez sur **Afficher le journal** pour afficher le fichier journal.
   

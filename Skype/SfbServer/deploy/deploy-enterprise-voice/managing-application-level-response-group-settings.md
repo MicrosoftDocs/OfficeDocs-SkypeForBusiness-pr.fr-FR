@@ -1,7 +1,7 @@
 ---
 title: Gestion des paramètres Response Group au niveau de l’application dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gestion des paramètres Response Group au niveau de l’application, tels que les paramètres d’attente musicale et de rappel, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 75a9216251b44048811cf1308be431c0eaeae045
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cce6872bc0e1ee017d46eee4ee547c6e9aabd25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620170"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769612"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gestion des paramètres Response Group au niveau de l’application dans Skype Entreprise
  
@@ -35,7 +35,7 @@ L’attente musicale par défaut est lue lorsqu’un appel est mis en attente un
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
     
 3. À partir de la ligne de commande, exécutez la commande suivante :
     

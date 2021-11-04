@@ -1,7 +1,7 @@
 ---
 title: Gérer l’Compliment dans le Centre d’administration Teams’administration
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
 audience: admin
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: En savoir plus sur les paramètres d’administration dans l Compliment appappil dans le Centre Microsoft Teams’administration
-ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733413"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763052"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’Compliment dans le Centre d’administration Microsoft Teams’administration
 
@@ -97,7 +97,7 @@ Vous trouverez ci-dessous une liste d’exemples de couleurs pour bien commencer
 |![hex color #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
 |![couleur hexadée #FF75F0.](media/hexColor3.png)|  #FF75F0   |
 |![hex color #00BFFF.](media/hexColor4.png)|  #00BFFF   |
-|![couleur hexadée #800080.](media/hexColor5.png)|  #800080   |
+|![hex color #800080.](media/hexColor5.png)|  #800080   |
 |![hex color #000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>

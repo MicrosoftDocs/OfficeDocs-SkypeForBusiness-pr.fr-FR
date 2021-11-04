@@ -1,7 +1,7 @@
 ---
 title: Sélectionner les créateurs
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
-description: La création et la gestion de salles de conversation permanente sont beaucoup plus faciles avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir AllowedMembers et Creators pour chaque catégorie, et peut également définir les paramètres et comportements de salle de conversation par défaut qui seront appliqués à toutes les salles de conversation créées dans la catégorie. Les administrateurs de conversation permanente créent et gèrent des catégories à l’Skype Entreprise Server panneau de Windows PowerShell cmdlets.
-ms.openlocfilehash: 742ec61eca055e9bf6c8d0578023da2b6553cb84
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: La création et la gestion des salles de conversation permanente sont beaucoup plus faciles avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir AllowedMembers et Creators pour chaque catégorie, et peut également définir les paramètres et comportements de salle de conversation par défaut qui seront appliqués à toutes les salles de conversation créées dans la catégorie. Les administrateurs de conversation permanente créent et gèrent des catégories à l’Skype Entreprise Server panneau de Windows PowerShell cmdlets.
+ms.openlocfilehash: e3494f80864b14a3aae457f3a2c808690df52c77
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609401"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739520"
 ---
 # <a name="select-creators"></a>Sélectionner les créateurs
 
-La création et la gestion de salles de conversation permanente sont beaucoup plus faciles avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir **AllowedMembers** et **Creators** pour chaque catégorie, et peut également définir les paramètres et comportements de salle de conversation par défaut qui seront appliqués à toutes les salles de conversation créées dans la catégorie. Les administrateurs de conversation permanente créent et gèrent des catégories à l’Skype Entreprise Server panneau de Windows PowerShell cmdlets.
+La création et la gestion des salles de conversation permanente sont beaucoup plus faciles avec l’utilisation correcte des catégories. Un administrateur de conversation permanente peut définir **AllowedMembers** et **Creators** pour chaque catégorie, et peut également définir les paramètres et comportements de salle de conversation par défaut qui seront appliqués à toutes les salles de conversation créées dans la catégorie. Les administrateurs de conversation permanente créent et gèrent des catégories à l’Skype Entreprise Server panneau de Windows PowerShell cmdlets.
 
 ## <a name="tasks-that-you-can-perform"></a>Tâches que vous pouvez effectuer
 

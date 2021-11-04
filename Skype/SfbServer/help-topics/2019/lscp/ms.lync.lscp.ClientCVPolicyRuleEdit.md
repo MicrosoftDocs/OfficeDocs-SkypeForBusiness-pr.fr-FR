@@ -1,7 +1,7 @@
 ---
 title: Règle de version du client
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de version du client est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
-ms.openlocfilehash: 44f47f0281d03e63a87ce0e56ecfa1c77c516f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e24921156470b1a91dc9f7421913c1fa6da1ef35
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597178"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769532"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 
@@ -87,7 +87,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
 
   - **Autoriser** Permet au client de se connecter.
 
-  - **Autoriser et mettre à niveau** Permet au client de se connecter et de recevoir des mises à jour de Windows Service de mise à jour serveur ou Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
+  - **Autoriser et mettre à niveau** Permet au client de se connecter et de recevoir des mises à jour de Windows Service de mise à jour du serveur ou Microsoft Update. Cette action est uniquement disponible lorsque l’agent utilisateur **OC** est sélectionné.
 
     > [!NOTE]
     > La sélection de cette action entraîne l’affichage d’une notification la prochaine fois que les utilisateurs se connectent Skype Entreprise. La notification indique qu’une mise à jour est disponible, même si les mises à jour n’ont pas encore été publiées sur Windows Server Update Service ou Microsoft Update. Pour éviter toute confusion, vous avez tout intérêt à choisir cette action après que des mises à jour ont été mises à disposition uniquement.

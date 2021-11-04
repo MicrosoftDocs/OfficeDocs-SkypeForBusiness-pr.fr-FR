@@ -1,7 +1,7 @@
 ---
 title: Règle de version du client
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
-description: Une stratégie de version des clients est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
-ms.openlocfilehash: 5f952c1a1c04e98a2635876d3746e828a086daf9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Une stratégie de version du client est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
+ms.openlocfilehash: 91026c625e2fde1bafe99a1b3ffd8a669130fc70
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609541"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758506"
 ---
 # <a name="client-version-rule"></a>Règle de version du client
 
-Une stratégie de version des clients est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
+Une stratégie de version du client est composé d’un ensemble de règles de version des clients. Ces règles définissent les actions à prendre lorsque les utilisateurs tentent de se connecter avec des clients et des versions de clients spécifiques.
 
 ## <a name="tasks-you-can-perform"></a>Tâches que vous pouvez effectuer
 

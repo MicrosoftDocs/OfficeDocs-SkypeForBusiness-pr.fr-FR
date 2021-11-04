@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres généraux de conversation permanente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Vous modifiez les paramètres généraux du serveur de conversation permanente ou du pool de serveurs de conversation permanente en configurant ou en définissant ces propriétés :'
-ms.openlocfilehash: 25208b2d4c7e4bc04e648998254406ff4e299d4f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4de31f3fd6af4dfea023d490ea849f5b58963085
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610761"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762542"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expandeur des paramètres généraux de conversation permanente
  
@@ -34,7 +34,7 @@ Vous modifiez les **paramètres généraux** du serveur de conversation permanen
     
 - **Port de conversations permanentes** : spécifiez le port à utiliser pour la conversation permanente.
     
-Vous modifiez les **paramètres Associations** pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente en configurant ou en définissant ces propriétés :
+Vous modifiez les **paramètres d’associations** pour le serveur de conversation permanente ou le pool de serveurs de conversation permanente en configurant ou en définissant ces propriétés :
   
  **Associations**
   

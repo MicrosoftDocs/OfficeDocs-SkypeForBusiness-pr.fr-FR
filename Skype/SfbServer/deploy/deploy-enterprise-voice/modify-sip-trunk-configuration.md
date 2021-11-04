@@ -1,7 +1,7 @@
 ---
 title: 'Skype Entreprise Server : modifier les paramètres de configuration de la trunk SIP'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Résumé : Découvrez comment modifier les paramètres de configuration de la Skype Entreprise Server SIP.'
-ms.openlocfilehash: 370e6522d07461276c881798d094fa31fb71e9bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83cad666b07c011b2b0a23ad4d51532e52a623c5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620120"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745350"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype Entreprise Server : modifier les paramètres de configuration de la trunk SIP 
  
@@ -35,7 +35,7 @@ Les paramètres de configuration de la liaison siP définissent la relation et l
     
 - Si le chiffrement SRTP (Secure Realtime Transport Protocol) est requis sur chaque trunk.
     
-Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). Ces collections peuvent ensuite être modifiées à l’aide du Panneau de Skype Entreprise Server ou de Skype Entreprise Server Management Shell.
+Lorsque vous installez Skype Entreprise Server, une collection globale de paramètres de configuration de la trunk SIP est créée pour vous. En outre, les administrateurs peuvent créer des collections personnalisées sur l’étendue du site ou l’étendue du service (pour le service de passerelle PSTN, uniquement). L’une de ces collections peut ultérieurement être modifiée à l’aide Skype Entreprise Server Panneau de Skype Entreprise Server Management Shell.
   
 Lorsque vous modifiez les paramètres de configuration d’une Skype Entreprise Server SIP à l’aide du Panneau de configuration, les options suivantes sont disponibles.
   
@@ -61,7 +61,7 @@ Lorsque vous modifiez les paramètres de configuration d’une Skype Entreprise 
 |Numéro appelé  <br/> |N/A  <br/> |Indique que le numéro de téléphone à tester est celui de la personne appelée.  <br/> |
    
 > [!NOTE]
-> Les cmdlets CsTrunkConfiguration Lync Server prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [Set-CsTrunkConfiguration.](/powershell/module/skype/set-cstrunkconfiguration)
+> Les cmdlets CsTrunkConfiguration Lync Server prendre en charge des propriétés supplémentaires qui ne sont pas affichées dans le Panneau de configuration Lync Server. Pour plus d’informations, voir la rubrique d’aide pour [l';set-CsTrunkConfiguration.)](/powershell/module/skype/set-cstrunkconfiguration)
   
 ### <a name="to-modify-sip-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Pour modifier les paramètres de configuration d’une Skype Entreprise Server SIP à l’aide du Panneau de configuration
 
@@ -75,4 +75,4 @@ Lorsque vous modifiez les paramètres de configuration d’une Skype Entreprise 
     
 5. Dans la boîte de dialogue **Paramètres de configuration de la voix non validés**, cliquez sur **OK**.
     
-6. Dans la **boîte Skype Entreprise Server panneau de Skype Entreprise Server,** cliquez sur **OK.**
+6. Dans la **boîte Skype Entreprise Server de dialogue Panneau de** Skype Entreprise Server cliquez sur **OK.**

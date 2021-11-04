@@ -1,7 +1,7 @@
 ---
 title: 'File d’attente Response Groups : création d’une file d’attente ou modification d’une file d’attente existante'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les files d’attente Response Group tiennent les appels à un groupe Response Group jusqu’à ce qu’un agent réponde à l’appel.
-ms.openlocfilehash: 194fd2f0660c4aaf8447ff692bf964719ad0b2e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 995a2ec25184f451fe28a7f32ac9335b1b7248e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587718"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745220"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>File d’attente des services Response Groups : création d’une nouvelle ou modification d’une file existante
 
@@ -42,7 +42,7 @@ La liste suivante décrit les champs de la page.
 
   - **Délai d’attente (secondes)** Sélectionnez ou tapez le nombre maximal de secondes qu’un appelant peut attendre avant qu’un agent réponde à l’appel.
 
-  - **Action d’appel** Sélectionnez l’action qui se produit lorsqu’un appel arrive à son moment d’attente. Vous avez le choix entre :
+  - **Action d’appel** Sélectionnez l’action qui se produit à l’attente d’un appel. Vous avez le choix entre :
 
   - **Disconnect**
 

@@ -1,7 +1,7 @@
 ---
 title: Disponibilité à Antigua-et-Barbuda
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams à Antigua-et-Barbuda.
-ms.openlocfilehash: 438a68188bb89b502c9e7e319e025bfcbaf6467a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams à Antigua-et-Barbuda.
+ms.openlocfilehash: 66cc66d614ccd579267d7b1fe384b80ca802ed89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628366"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777674"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>Disponibilité à Antigua-et-Barbuda
 
 [Trouvez un autre pays ou une autre](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)région, ou apprenez-en davantage sur la disponibilité du pays et de la région pour les forfaits d’audioconférence et d’appel.
 
-Voici les services de Microsoft 365 et de Office 365 pour Skype Entreprise et Microsoft Teams à Antigua-et-Barbuda.
+Voici les services Microsoft 365 et Office 365 disponibles pour Skype Entreprise et Microsoft Teams à Antigua-et-Barbuda.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 
@@ -83,7 +83,7 @@ Si les forfaits d’appels ne sont pas disponibles à l’achat, pensez à utili
    
 Si vous souhaitez les configurer, reportez-vous à la rubrique [Configurer les crédits de communication pour votre organisation](../set-up-communications-credits-for-your-organization.md).
   
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Sujets associés
 
 [Obtenir des numéros de téléphone de service pour Skype Entreprise et Microsoft Teams](../getting-service-phone-numbers.md)
 

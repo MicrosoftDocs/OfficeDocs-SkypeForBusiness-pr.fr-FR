@@ -1,7 +1,7 @@
 ---
 title: Mise à niveau vers Skype Entreprise Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2016
@@ -17,25 +17,25 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: "Résumé : Découvrez comment mettre à niveau Lync Server 2013 vers Skype Entreprise Server 2015. Téléchargez une version d’évaluation gratuite Skype Entreprise Server 2015 à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: 14fe3926fbf3cb6ffcee368227fcaf5ead9ec0c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02455d4c013f55363e173f16c9f4de60b71939d9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590548"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740080"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Mise à niveau vers Skype Entreprise Server 2015
  
 **Résumé :** Découvrez comment mettre à niveau Lync Server 2013 vers Skype Entreprise Server 2015. Téléchargez une version d’évaluation gratuite Skype Entreprise Server 2015 à partir du [Centre d’évaluation Microsoft.](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)
   
-Utilisez les procédures de ce document pour mettre à niveau de Lync Server 2013 vers Skype Entreprise Server 2015 à l’aide du Générateur de topologies Skype Entreprise Server et de la nouvelle fonctionnalité In-Place Upgrade. Si vous souhaitez mettre à niveau à partir de Lync Server 2010 ou Office Communications Server 2007 R2, voir [Plan to upgrade to Skype Entreprise Server 2015](../plan-your-deployment/upgrade.md).
+Utilisez les procédures de ce document pour mettre à niveau de Lync Server 2013 vers Skype Entreprise Server 2015 à l’aide du Générateur de topologie Skype Entreprise Server et de la nouvelle fonctionnalité In-Place Upgrade. Si vous souhaitez mettre à niveau Lync Server 2010 ou Office Communications Server 2007 R2, voir [Plan to upgrade to Skype Entreprise Server 2015](../plan-your-deployment/upgrade.md).
 
 > [!NOTE]
 > Les mises à niveau sur place étaient disponibles Skype Entreprise Server 2015, mais ne sont plus Skype Entreprise Server 2019. La coexistence côte à côte est prise en charge, voir [Migration vers Skype Entreprise Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) pour plus d’informations.
   
 ## <a name="upgrade-from-lync-server-2013"></a>Mise à niveau à partir de Lync Server 2013
 
-La mise à niveau de Lync Server 2013 vers Skype Entreprise Server 2015 implique l’installation des logiciels prérequis, l’utilisation du Générateur de topologie Skype Entreprise Server pour mettre à niveau les bases de données dans le pool et l’utilisation de la mise à niveau Skype Entreprise Server In-Place sur chacun des serveurs associés au pool. Pour terminer la mise à niveau, vous suivrez les huit étapes de cette rubrique.
+La mise à niveau de Lync Server 2013 vers Skype Entreprise Server 2015 implique l’installation des logiciels prérequis, l’utilisation du Générateur de topologie Skype Entreprise Server pour mettre à niveau les bases de données dans le pool et l’utilisation de la mise à niveau Skype Entreprise Server In-Place sur chacun des serveurs associés au pool. Pour terminer la mise à niveau, vous allez au bout des huit étapes de cette rubrique.
   
 ### <a name="before-you-begin"></a>Avant de commencer
 
@@ -45,7 +45,7 @@ La mise à niveau de Lync Server 2013 vers Skype Entreprise Server 2015 implique
     
 - [Installez les conditions préalables Skype Entreprise Server 2015.](install/install-prerequisites.md)
     
-- [Installez Skype Entreprise Server 2015](install/install.md) .
+- [Installez Skype Entreprise Server 2015.](install/install.md)
     
 ### <a name="step-1-install-administrator-tools-and-download-topology"></a>Étape 1 : Installer les outils d’administrateur et télécharger la topologie
 
@@ -79,13 +79,13 @@ Avant de commencer le processus de mise à niveau, tous les services doivent êt
 > [!NOTE]
 > Si la topologie dispose d’une base de données principale mise en miroir, les  bases de données Principale et Miroir s’afficheront lorsque vous publierez la topologie à l’aide du Générateur de topologies. Assurez-vous que toutes les bases de données sont en cours d’exécution sur le principal et sélectionnez uniquement le principal, et non le miroir, lors de la publication de la topologie, sinon vous verrez un avertissement après la publication de la topologie.
   
-Choisissez l’une des options ci-dessous pour mettre à niveau et publier une nouvelle topologie à l’aide Skype Entreprise Server 2015 Topology Builder. Une fois que vous avez terminé les étapes et publié la topologie mise à jour, passer à l’étape 3 de cette rubrique.
+Choisissez l’une des options ci-dessous pour mettre à niveau et publier une nouvelle topologie à l’aide du Générateur de topologies Skype Entreprise Server 2015. Une fois que vous avez terminé les étapes et publié la topologie mise à jour, passer à l’étape 3 de cette rubrique.
   
 #### <a name="option-1-upgrade-an-isolated-front-end-pool-and-associated-archiving-and-monitoring-stores"></a>Option 1 : mettre à niveau un pool frontal isolé et les magasins d’archivage et de surveillance associés
 
 Si le pool que vous mettre à niveau possède une dépendance au magasin d’archivage et de surveillance, lorsque vous utilisez les étapes suivantes, le magasin d’archivage et de surveillance est également mis à niveau.
   
-1. Dans le Générateur de topologie, cliquez avec le bouton droit sur un pool Lync Server 2013, sélectionnez Mettre à niveau vers **Skype Entreprise Server 2015** et suivez les étapes. 
+1. Dans le Générateur de topologie, cliquez avec le bouton droit sur un pool Lync Server 2013, sélectionnez Mettre à niveau **vers Skype Entreprise Server 2015** et suivez les étapes. 
     
      ![Capture d’écran du menu avec clic droit avec option de mise à niveau pour Lync Server 2013.](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
@@ -182,7 +182,7 @@ Nous vous recommandons d'Disable-CsComputer, car vous devrez peut-être redémar
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Étape 5 : Mettre à niveau les pools frontux et les serveurs de pools non frontiers
 
 > [!NOTE]
->  Avant la mise à niveau, installez tous les nouveaux prérequis requis pour Skype Entreprise Server 2015 qui incluent :> au moins 32 Go d’espace libre avant de tenter une mise à niveau. En outre, assurez-vous que le lecteur est un lecteur local fixe, qu’il n’est pas connecté par USB ou Firewire, est formaté avec le système de fichiers NTFS, n’est pas compressé et ne contient pas de fichier de page.> PowerShell version 6.2.9200.0 ou version ultérieure.> La dernière mise à jour cumulative Lync Server 2013 installée.> SQL Server 2012 SP1 installé.> La base de données suivante est installée (installée automatiquement) en cas d’utilisation de Microsoft Update :> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Avant la mise à niveau, installez toutes les nouvelles conditions préalables requises pour Skype Entreprise Server 2015 qui incluent :> au moins 32 Go d’espace libre avant de tenter une mise à niveau. En outre, assurez-vous que le lecteur est un lecteur local fixe, qu’il n’est pas connecté par USB ou Firewire, est mis en forme avec le système de fichiers NTFS, n’est pas compressé et ne contient pas de fichier de page.> PowerShell version 6.2.9200.0 ou ultérieure.> La dernière mise à jour cumulative Lync Server 2013 installée.> SQL Server 2012 SP1 installé.> La base de données suivante est installée (installée automatiquement si vous utilisez Microsoft Update) : > Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Utilisez la In-Place sur chaque serveur pour mettre à jour le pool frontal, le pool edge, le serveur de médiation et le pool de conversation permanente.
   
@@ -195,7 +195,7 @@ Utilisez la In-Place sur chaque serveur pour mettre à jour le pool frontal, le 
 > [!NOTE]
 > Il se peut que vous soyez invité à redémarrer le serveur pendant la mise In-Place à niveau. C'est d'accord. Après le redémarrage, la mise à niveau In-Place continue là où elle s’est éteinte. 
   
-Lorsque la In-Place de mise à niveau se termine correctement, le message suivant s’envoie.
+Une fois la In-Place mise à niveau terminée, vous voyez le message suivant.
   
 ![Capture d’écran shows in-place upgrade completed successfully.](../media/2f52cb50-9bb4-4714-a982-9c7a0865f78a.png)
   
@@ -219,7 +219,7 @@ Lorsque la In-Place de mise à niveau se termine correctement, le message suivan
   Start-CsWindowsService
   ```
 
-Une fois que vous avez cliqué sur **OK** sur In-Place page Mise à niveau, vous verrez le rappel suivant pour effectuer cette étape.
+Une fois que vous avez **cliqué** sur OK sur In-Place page Mise à niveau, vous verrez le rappel suivant pour effectuer cette étape.
   
 ![Capture d’écran shows the next steps after the in-place upgrade completes successfully.](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
   
@@ -239,7 +239,7 @@ Si la In-Place mise à niveau échoue, vous pouvez voir un message semblable à 
   
 Examinez le message complet au bas de la page pour vous aider à résoudre le problème. Cliquez **sur Afficher les journaux** pour obtenir plus de détails.
   
-Si la mise à niveau  In-Place échoue lors de la vérification de la préparation à la mise à niveau ou de l’installation des conditions **préalables manquantes,** assurez-vous que toutes les dernières mises à jour de Windows Server, Lync Server et SQL Server sont appliquées au serveur, et que tous les logiciels et rôles requis sont installés. Pour obtenir la liste des conditions requises, voir Server [requirements for Skype Entreprise Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Install prerequisites for Skype Entreprise Server 2015](install/install-prerequisites.md).
+Si la mise à niveau  In-Place échoue lors de la vérification de la préparation à la mise à niveau ou de l’installation des prérequis **manquants,** assurez-vous que toutes les dernières mises à jour Windows Server, Lync Server et SQL Server sont appliquées au serveur, et que tous les logiciels et rôles requis sont installés. Pour obtenir la liste des conditions requises, voir Server [requirements for Skype Entreprise Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and [Install prerequisites for Skype Entreprise Server 2015](install/install-prerequisites.md).
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -247,6 +247,6 @@ Si la mise à niveau  In-Place échoue lors de la vérification de la préparati
   
 [Server requirements for Skype Entreprise Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Conditions préalables à l’installation Skype Entreprise Server 2015](install/install-prerequisites.md)
+[Installation des prérequis Skype Entreprise Server 2015](install/install-prerequisites.md)
   
 [Installer Skype Entreprise Server 2015](install/install.md)

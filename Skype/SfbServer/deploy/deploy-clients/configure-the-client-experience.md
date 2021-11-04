@@ -1,7 +1,7 @@
 ---
 title: Configurer l’expérience client avec Skype Entreprise 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’expérience client pour Skype Entreprise utilisateurs.'
-ms.openlocfilehash: 61bb5e83378215561be2e073883b2e573d141000
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f7cbbe60de10d50d231faa201f3c8830c14f7450
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581828"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773384"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurer l’expérience client avec Skype Entreprise 2015
  
@@ -81,7 +81,7 @@ Par défaut, lorsque les utilisateurs lancent Skype Entreprise 2015 pour la prem
   
 Si vous souhaitez afficher l’interface utilisateur Lync lorsque les utilisateurs lancent le client Skype Entreprise pour la première fois, suivez ces étapes avant de démarrer pour la première fois après avoir été mis à jour :
   
-1. Confirmez que la valeur est définie sur $False la stratégie que vous  `EnableSkypeUI` utilisez comme décrit précédemment.
+1. Confirmez que la valeur est définie sur $False la stratégie que vous  `EnableSkypeUI` utilisez, comme décrit précédemment.
     
 2. Mettez à jour le Registre système sur l’ordinateur de l’utilisateur. Vous devez le faire avant la première fois que les utilisateurs lancent Skype Entreprise client, et vous ne devez le faire qu’une seule fois. Pour plus d’informations sur la création d’un objet de stratégie de groupe pour mettre à jour le Registre sur un ordinateur joint à un domaine, consultez la section plus loin dans cette rubrique.
     
@@ -127,7 +127,7 @@ Vous pouvez activer de nouveau le didacticiel en fixant les données **de la** v
   
 ## <a name="default-client-behaviors"></a>Comportements des clients par défaut
 
-Si votre organisation a déployé Skype Entreprise Server et Lync Server, l’expérience client varie en fonction des versions du serveur et du Skype’interface utilisateur. Le tableau suivant indique l’expérience client initiale basée sur la version du serveur et le paramètre d’interface utilisateur :
+Si votre organisation a déployé Skype Entreprise Server et Lync Server, l’expérience client varie en fonction des versions du serveur et du Skype’interface utilisateur. Le tableau suivant présente l’expérience client initiale basée sur la version du serveur et le paramètre d’interface utilisateur :
   
 
 |**Version du serveur**|**Paramètre EnableSkypeUI**|**Expérience client**|
@@ -161,7 +161,7 @@ Les versions de correctif requises pour gérer la configuration du client Skype 
 
 La mise à jour du Registre pour afficher l’expérience client Lync la première fois qu’un utilisateur lance le client Skype Entreprise 2015 ne doit être effectuée qu’une seule fois. Si vous utilisez un objet de stratégie de groupe (GPO) pour mettre à jour le Registre, vous devez définir l’objet pour créer une valeur au lieu de mettre à jour les données de la valeur. Lorsque l’GPO est appliqué, si la nouvelle valeur n’existe pas, l’objectif de groupe la crée et lui donne la valeur 0. 
   
-La procédure suivante décrit comment modifier le Registre afin que l’expérience client Lync s’affiche la première fois qu’un utilisateur lance le client Skype Entreprise 2015. Vous pouvez également utiliser cette procédure pour mettre à jour le Registre afin de désactiver le didacticiel sur l’écran d’accueil, comme décrit précédemment.
+La procédure suivante décrit comment modifier le Registre afin que l’expérience client Lync s’affiche la première fois qu’un utilisateur lance le client Skype Entreprise 2015. Vous pouvez également utiliser cette procédure pour mettre à jour le Registre afin de désactiver le didacticiel sur l’écran d’accueil comme décrit précédemment.
   
 ### <a name="to-create-the-gpo"></a>Pour créer l’GPO
 
@@ -183,8 +183,8 @@ La procédure suivante décrit comment modifier le Registre afin que l’expéri
     
    |**Field**|**Valeur à sélectionner ou à entrer**|
    |:-----|:-----|
-   |**Action** <br/> |**Create** <br/> |
-   |**Ruche** <br/> | HKEY_CURRENT_USER <br/> |
+   |**Action** <br/> |**Créer** <br/> |
+   |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
    |**Chemin d’accès de la touche** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**Nom de la valeur** <br/> |EnableSkypeUI  <br/> |
    |**Type de valeur** <br/> |REG_BINARY  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: Rapports de diagnostic des appels dans Skype Entreprise Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 'Résumé : Découvrez les rapports de diagnostic des appels multi-utilisateurs utilisés dans Skype Entreprise Server.'
-ms.openlocfilehash: 4487c320d591c5d64fd209818824ffd1ce045d48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b98dfdfd6f39893c70297f837355dcccbe0096a1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623646"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762452"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Rapports de diagnostic des appels dans Skype Entreprise Server
  
@@ -29,13 +29,13 @@ Les rapports de diagnostic des appels fournissent des informations récapitulati
 
 - [Rapport de synthèse de diagnostic des appels dans Skype Entreprise Server](summary-report.md) Fournit un résumé global des sessions p2D et des sessions de conférence qui ont échoué. Les sessions d’égal à égal sont des sessions qui n’impliquent que deux participants. Les sessions de conférence impliquent trois participants ou plus.
     
-- [Rapport de diagnostic des activités D’égal](peer-to-peer-activity-diagnostic-report.md) à égal dans Skype Entreprise Server Fournit une vue de tendance globale des sessions p2D qui ont échoué. Une session d’égal à égal implique uniquement deux participants.
+- [Rapport de diagnostic des activités D’égal à égal dans Skype Entreprise Server](peer-to-peer-activity-diagnostic-report.md) Fournit une vue de tendance globale des sessions pair à pair qui ont échoué. Une session d’égal à égal implique uniquement deux participants.
     
 - [Rapport de diagnostic de conférence en Skype Entreprise Server](conference-diagnostic-report.md) Fournit une vue de tendance globale des sessions de conférence qui ont échoué et des affichages de tendance pour chaque modalité de conférence. Les sessions de conférence impliquent au moins trois participants.
     
 - [Rapport des principales défaillances dans Skype Entreprise Server](top-failures-report.md) Fournit une liste des défaillances les plus fréquentes et de leurs tendances au fil du temps.
     
-- [Rapport de répartition des défaillances Skype Entreprise Server](failure-distribution-report.md) Fournit une analyse des sessions qui ont échoué.
+- [Rapport de répartition des défaillances dans Skype Entreprise Server](failure-distribution-report.md) Fournit une analyse des sessions qui ont échoué.
     
 - [Rapport des listes d’échecs Skype Entreprise Server](failure-list-report.md) Fournit des informations détaillées sur les participants individuels impliqués dans une conférence qui a échoué.
     

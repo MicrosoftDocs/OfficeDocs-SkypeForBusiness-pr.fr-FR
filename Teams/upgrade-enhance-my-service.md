@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams conditions requises | Service Améliorer
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b48f06d0a7a380756f391e98103bd0be24179795
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4cfb52a796f0b4636773bced09f68336b1f90df2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733023"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773424"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Ez le meilleur des Teams après la mise à niveau
 
@@ -37,7 +37,7 @@ Cet article donne une vue d’ensemble des conditions requises pour exploiter au
 
 Après avoir déployé des Teams dans votre organisation et utilisé le service avec qualité et fiabilité, l’étape suivante consiste à évaluer régulièrement si vous avez la possibilité d’améliorer vos services. Cela fait partie d’une planification d’amélioration continue du service qui est une norme moderne en matière de gestion des services cloud.
 
-Un bon moyen de vous assurer de toujours 1000 points d’intérêt de vos services consiste à surveiller les feuilles de route [publiques d’Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) en ce qui a trait aux nouvelles améliorations des fonctionnalités qui pourraient intéresser votre organisation. Si vous avez accès au Centre d’administration Microsoft 365, vous recevrez des mises à jour régulières de notre part concernant les nouvelles fonctionnalités et la modification de fonctionnalités via notre Centre de messages.
+Un bon moyen de vous assurer de toujours 1000 points d’intérêt de vos services consiste à surveiller les feuilles de route [publiques d’Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) en ce qui a trait aux nouvelles améliorations des fonctionnalités qui pourraient intéresser votre organisation. Si vous avez accès au Centre d'administration Microsoft 365, vous recevrez des mises à jour régulières de notre part concernant les nouvelles fonctionnalités et la modification de fonctionnalités via notre Centre de messages.
 
 Si vous voyez des possibilités d’améliorer votre service, prenez le temps de le faire. Revisitez [la conversation, les équipes,](deploy-chat-teams-channels-microsoft-teams-landing-page.md) les canaux et les applications dans Microsoft Teams [phases](deploy-chat-teams-channels-microsoft-teams-landing-page.md) d’implémentation et appliquez de bout en bout les mêmes conseils. Lors de petites modifications incrémentielles, il est peu probable que vous devrez effectuer l’intégralité de vos activités et tâches, mais vous devez être sûr d’évaluer chaque activité et tâche tout au long du processus afin de vous donner la meilleure chance de mener à bien votre projet.
 

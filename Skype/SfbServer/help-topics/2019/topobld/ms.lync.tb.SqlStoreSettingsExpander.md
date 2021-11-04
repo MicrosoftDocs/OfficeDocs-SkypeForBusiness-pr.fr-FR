@@ -1,7 +1,7 @@
 ---
 title: Expanseur des paramètres du magasin SQL
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour modifier les propriétés d’une base SQL Server de données, vous devez modifier l’instance SQL Server base de données. Vous ne pouvez pas utiliser la boîte de dialogue Modifier les propriétés pour effectuer des tâches comme le déplacement de votre base de données de serveur d’archivage d’un ordinateur sur un autre. En outre, vous ne pouvez pas utiliser la boîte de dialogue Modifier les propriétés pour modifier l’instance de SQL Server qui héberge le magasin central de gestion.
-ms.openlocfilehash: 46fc03549c4ced4f0a3c44882eab3fcfc03e7df5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 53d0092b634e102f7fd2511ff57d32fe575e886e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625376"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739690"
 ---
 # <a name="sql-store-settings-expander"></a>Expandeur des paramètres du magasin SQL
  

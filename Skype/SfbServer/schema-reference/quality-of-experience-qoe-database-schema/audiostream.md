@@ -1,7 +1,7 @@
 ---
 title: Table AudioStream
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Chaque enregistrement représente un flux audio. Une ligne de média audio contient généralement deux flux audio.
-ms.openlocfilehash: 5b442c011d9e65e67fdc5cb06dd79c0f5fbee8c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ca913e042b988d20aad644af65fed7970d2afa8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627756"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763252"
 ---
 # <a name="audiostream-table"></a>Table AudioStream
  
@@ -34,9 +34,9 @@ Chaque enregistrement représente un flux audio. Une ligne de média audio conti
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Gigue réseau maximum pendant l’appel.  <br/> |
 |**PacketLossRate** <br/> |decimal(5,4)  <br/> | <br/> |Taux moyen de perte de paquets pendant l’appel.  <br/> |
 |**PacketLossRateMax** <br/> |decimal(5,4)  <br/> | <br/> |Perte maximale de paquets observée pendant l’appel.  <br/> |
-|**BurstDensity** <br/> |decimal(9,4)  <br/> | <br/> |Densité moyenne de perte de paquets pendant les rafales de pertes pendant l’appel.  <br/> |
+|**BurstDensity** <br/> |décimal(9,4)  <br/> | <br/> |Densité moyenne de perte de paquets pendant les rafales de pertes pendant l’appel.  <br/> |
 |**BurstDuration** <br/> |int  <br/> | <br/> |Durée moyenne de perte de paquets pendant les rafales de pertes au cours de l’appel.  <br/> |
-|**BurstGapDensity** <br/> |decimal(9,4)  <br/> | <br/> |Densité moyenne de perte de paquets pendant les intervalles entre rafales de pertes de paquets.  <br/> |
+|**BurstGapDensity** <br/> |décimal(9,4)  <br/> | <br/> |Densité moyenne de perte de paquets pendant les intervalles entre rafales de pertes de paquets.  <br/> |
 |**BurstGapDuration** <br/> |int  <br/> | <br/> |Durée moyenne des intervalles entre les rafales de pertes de paquets.  <br/> |
 |**PacketUtilization** <br/> |Int  <br/> | <br/> |Nombre de paquets pour le flux audio.  <br/> |
 |**BandwidthEst** <br/> |Int  <br/> | <br/> |Estimations de la bande passante pour le flux audio.  <br/> |
@@ -46,7 +46,7 @@ Chaque enregistrement représente un flux audio. Une ligne de média audio conti
 |**DegradationPacketLossAvg** <br/> |décimal(3,2)  <br/> | <br/> |Dégradation de la note MOS qualité réseau causée par la perte de paquets.  <br/> |
 |**AudioPayloadDescription** <br/> |int  <br/> |Étranger  <br/> |Codec audio utilisé pour l’appel, référencé à partir de la table PayloadDescription.  <br/> |
 |**AudioSampleRate** <br/> |int  <br/> | <br/> |Taux d’échantillonnage pour le flux audio.  <br/> |
-|**RoundTrip** <br/> |int  <br/> | <br/> |Durée d’aller-retour d’après les statistiques RTCP. Pour une qualité acceptable, cette limite doit être inférieure à 100 ms.  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |Durée d’aller-retour d’après les statistiques RTCP. Pour une qualité acceptable, elle doit être inférieure à 100 ms.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Durée d’aller-retour maximale pour le flux audio.  <br/> |
 |**OverallAvgNetworkMOS** <br/> |décimal(3,2)  <br/> | <br/> |Note MOS qualité réseau moyenne en large bande pour l’appel. Cette mesure dépend de la perte de paquets, de la gigue et du codec utilisé. La plage est [1.0 à 5.0].  <br/> |
 |**OverallMinNetworkMOS** <br/> |décimal(3,2)  <br/> | <br/> |Mos réseau à bande large minimale pour l’appel.  <br/> |
@@ -68,7 +68,7 @@ Chaque enregistrement représente un flux audio. Une ligne de média audio conti
 |**HealerFECPacketUsedRatio** <br/> |float  <br/> ||Ratio des paquets de correction d’erreur avant utilisés par rapport au nombre total de paquets reçus.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**MaxCompressedSamples** <br/> |float  <br/> ||Nombre maximal de paquets audio compressés par le système de soins.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**LossCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage du temps où l’appel était dans un état de congestion de perte.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel pendant lequel la congestion a été causée par l’arrivée retardée de paquets réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**DelayCongestionPercent** <br/> |float  <br/> ||Indique le pourcentage de l’appel pendant lequel la congestion a été causée par l’arrivée différée de paquets réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**ContentionDetectedPercent** <br/> |float  <br/> ||Indique le pourcentage du temps où l’appel était en concurrence pour les ressources réseau.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**BandwidthEstMin** <br/> |int  <br/> ||Quantité minimale d’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**BandwidthEstMax** <br/> |int  <br/> ||Quantité maximale d’estimation de la bande passante mesurée pendant l’appel.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

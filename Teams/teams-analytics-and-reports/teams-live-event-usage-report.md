@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams d’utilisation d’événements en direct
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Découvrez comment utiliser le rapport Teams’utilisation des év�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a6c533a9c07c1c620dbc1bd2d26919bbf5251cf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729553"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763022"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams d’utilisation d’événements en direct
 
@@ -44,7 +44,7 @@ Le Teams d’utilisation des événements en direct dans le Microsoft Teams d’
 |**1**   |Le Teams des événements en direct peut être pris en compte pour les tendances des 7, 28 derniers jours ou une plage de dates personnalisée que vous avez définie. |
 |**2**   |Chaque rapport indique la date à laquelle il a été généré. Le rapport reflète l’activité en temps quasi réel lors de l’actualisation de la page. |
 |**3**   |<ul><li>L’axe X représente la plage de dates sélectionnée pour ce rapport.</li> <li> L’axe Y est le nombre total d’affichages.</li> </ul>Pointez sur le point sur une date donnée pour voir le nombre de vues sur tous les événements en direct de cette date.|
-|**4**   |Le tableau vous offre une répartition par événement en direct. <ul><li>**L’événement** est le nom d’affichage de l’événement en direct. Cliquez sur le nom de l’événement [pour obtenir plus de détails](#view-event-details) sur l’événement. </li> <li>**L’heure de** début fait référence à la date et à l’heure de début de l’événement.</li> <li>**Le statut de l’événement** indique si l’événement a eu lieu.  </li><li>**Organisateur** est le nom de l’organisateur de l’événement.</li> <li>**Les présentateurs** sont les noms des présentateurs de l’événement.</li><li>**Les producteurs** sont les noms des producteurs d’événements.</li><li>**Les affichages** sont le nombre d’affichages uniques à l’issue de l’événement.</li><li>**L’enregistrement** indique si le paramètre d’enregistrement est en cours ou non.</li><li>**Le type de** production indique si l’événement est produit dans une Teams par une application ou un appareil externe.</li></li> </ul>Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur s’affiche sous la forme « - » dans le tableau. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
+|**4**   |Le tableau vous offre une répartition par événement en direct. <ul><li>**L’événement** est le nom d’affichage de l’événement en direct. Cliquez sur le nom de l’événement [pour obtenir plus de détails](#view-event-details) sur l’événement. </li> <li>**L’heure de** début fait référence à la date et à l’heure de début de l’événement.</li> <li>**Le statut de l’événement** indique si l’événement a eu lieu.  </li><li>**Organisateur** est le nom de l’organisateur de l’événement.</li> <li>**Les présentateurs** sont les noms des présentateurs de l’événement.</li><li>**Les producteurs** sont les noms des producteurs d’événements.</li><li>**Les affichages** sont le nombre d’affichages uniques à l’issue de l’événement.</li><li>**L’enregistrement** indique si le paramètre d’enregistrement est en cours ou non.</li><li>**Le type de** production indique si l’événement est produit dans une Teams par une application ou un appareil externe.</li></li> </ul>Notez que si un compte d’utilisateur n’existe plus dans Azure AD, le nom d’utilisateur s’affiche en tant que « -- » dans le tableau. <br><br>Pour afficher les informations que vous souhaitez dans le tableau, veillez à ajouter les colonnes correspondantes au tableau. |
 |**5**   |Sélectionnez **Modifier les colonnes** pour ajouter ou supprimer des colonnes dans le tableau.|
 
 ## <a name="notes"></a>Remarques

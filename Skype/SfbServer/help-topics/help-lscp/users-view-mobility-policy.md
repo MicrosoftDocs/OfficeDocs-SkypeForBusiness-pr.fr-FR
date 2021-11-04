@@ -1,7 +1,7 @@
 ---
 title: Utilisateurs afficher la stratégie de mobilité
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: La boîte de dialogue Affichage – Stratégie de mobilité affiche les propriétés de la stratégie de mobilité sélectionnée.
-ms.openlocfilehash: e77e18155305f6c6242804f7e9bb276df6572a49
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b22768e32787e52d77570fe18970fbf51973ff4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582888"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744500"
 ---
 # <a name="users-view-mobility-policy"></a>Utilisateurs : afficher une stratégie de mobilité
 

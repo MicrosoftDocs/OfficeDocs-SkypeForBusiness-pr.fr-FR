@@ -1,7 +1,7 @@
 ---
 title: Créer ou modifier une plage d’orbites de parcur d’appel dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Créez ou modifiez une table de plages d’orbites de parc Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: 8a283ee9fd63a9c034385821d397d54156da9ba9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3962ecf42e704b09f3f28451be667fe714ce4817
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581098"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745380"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Créer ou modifier une plage d’orbites de parcur d’appel dans Skype Entreprise
 
@@ -64,7 +64,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une plage d�
 
    - La plage d’orbites doit être unique. Cette plage ne peut pas chevaucher une autre plage.
 
-   - Si la plage d’orbites commence par le caractère ou #, la plage doit \* être supérieure à 100.
+   - Si la plage d’orbites commence par le caractère ou #, la plage doit être supérieure \* à 100.
 
    - Valeurs valides : doit correspondre à la chaîne d’expression régulière ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Cela signifie que la valeur doit être une chaîne commençant par le caractère ou # ou un nombre de 1 à 9 (le premier caractère ne peut \* pas être un zéro). Si le premier caractère est ou #, le caractère suivant doit être un nombre \* de 1 à 9 (il ne peut pas être un zéro). Les caractères suivants peuvent être n’importe quel nombre de 0 à 9, jusqu’à sept caractères supplémentaires (par exemple, « #6000 », « \* 92000 », « 95551212 » et \* « 915551212 »). Si le premier caractère n’est pas ou #, le premier caractère doit être un nombre de 1 à 9 (il ne peut pas être zéro), suivi de huit caractères au plus, chacun un nombre \* 0 à 9 (par exemple, « 915551212 », « 41212 », « 300 »).
 
@@ -78,7 +78,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier une plage d�
 
 1. Connectez-vous à l’ordinateur sur lequel Skype Entreprise Server Management Shell est installé en tant que membre du groupe RTCUniversalServerAdmins ou avec les droits d’utilisateur nécessaires, comme décrit dans déléguer les **autorisations** d’installation.
 
-2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 3. Utilisez **New-CsCallParkOrbit** pour créer une plage de numéros d’orbite. Utilisez **Set-CsCallParkOrbit** pour modifier une plage existante de numéros d’orbite.
 

@@ -1,7 +1,7 @@
 ---
 title: Nœud d’étendue des serveurs d’archivage
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans le Générateur de topologie, vous pouvez effectuer des tâches liées à un serveur d’archivage individuel en cliquant avec le bouton droit sur le serveur d’archivage dans l’arborescence de la console, en cliquant sur Action dans la barre d’outils ou en cliquant sur une tâche dans le volet Actions, puis en cliquant sur l’option serveur d’archivage suivante.
-ms.openlocfilehash: 564797dc1a86fe0f0b8dd08218f810ae3c46a84d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 488d7a4909001cf34750a4a6faf15ed1ba21e99d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631818"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739840"
 ---
 # <a name="archiving-servers-scope-node"></a>Nœud d’étendue des serveurs d’archivage
  

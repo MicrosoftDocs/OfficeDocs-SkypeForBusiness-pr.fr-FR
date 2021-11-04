@@ -1,7 +1,7 @@
 ---
 title: Configuration des notifications Push du client mobile
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour configurer les notifications push Microsoft et les notifications push Apple, vous devez créer une stratégie pour définir les types de notification push dont vous avez besoin.
-ms.openlocfilehash: c26788cbe351888aef633cc21a08d46bf3f74deb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f52af141ad9ece3a967595039ca69e3cce3ef9e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613193"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739950"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Client mobile : configuration des notifications push
  
@@ -50,7 +50,7 @@ La création d’une stratégie et la modification d’une stratégie existante 
   
 - **Commit** L’action de validation crée ou met à jour la stratégie et enregistre les modifications
     
-- **Annuler** L’action d’annulation annule toutes les modifications qui ont été apportées depuis la dernière action de validation. Si vous annulez, les modifications apportées seront perdues.
+- **Annuler** L’action d’annulation annule toutes les modifications qui ont été apportées depuis la dernière action de validation. Si vous annulez, toutes les modifications apportées seront perdues.
     
 Deux paramètres sont possibles pour **Configuration des notifications push**. Les paramètres sont associés aux services de notification push pour Microsoft et Apple. Vous pouvez activer la notification push pour l’un ou l’autre service en activant la case à cocher en regard du nom du service. Vous pouvez désactiver la case à cocher en cliquant dessus à nouveau. Une fois vos sélections effectuées, vous pouvez valider ou annuler. Cliquez sur Valider pour enregistrer les modifications apportées à la stratégie.
   

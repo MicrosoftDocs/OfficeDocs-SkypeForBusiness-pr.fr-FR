@@ -1,7 +1,7 @@
 ---
 title: Vérifier la réplication de la préparation de la forêt
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 description: 'Pour vérifier que la réplication du catalogue global et la création d’objets au cours de la préparation de la forêt ont réussi, faites les opérations suivantes :'
-ms.openlocfilehash: 06f72e381ac44050253e2dfc181fe194700969fe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 845a53bc466dc586b63eaf8427c3e0ba23800886
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623996"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744770"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Vérifier la réplication de la préparation de la forêt
  

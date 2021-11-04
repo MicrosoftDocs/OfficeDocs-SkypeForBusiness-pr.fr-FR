@@ -1,7 +1,7 @@
 ---
 title: Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Résumé : Créez ou modifiez des stratégies de voix et configurez les enregistrements d’utilisation PSTN à l’aide Skype Entreprise Server panneau de configuration.'
-ms.openlocfilehash: 80e19ed7c271df8b27f53062d4647a39fd6e7491
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0188881fe91d527c64b95a8cac49ba91ed12bf5f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605573"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769602"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Créer ou modifier une stratégie de voix et configurer des enregistrements d’utilisation PSTN dans Skype Entreprise
 
@@ -56,7 +56,7 @@ ms.locfileid: "58605573"
      > [!NOTE]
      > Cette fonctionnalité est uniquement configurable via Skype Entreprise Server Management Shell
 
-   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le transport d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
+   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le forwarding d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
 
    - **Délégation** permet aux utilisateurs de spécifier d’autres utilisateurs pouvant passer et recevoir des appels à leur place. Dans Skype Entreprise Server, un délégué peut configurer la sonnerie simultanée qui permet aux appels entrants à son responsable de sonner toutes les cibles de sonnerie simultanée du délégué. Le délégué peut ainsi répondre avec une plus grande souplesse aux appels destinés au responsable. Activée par défaut.
 
@@ -77,7 +77,7 @@ ms.locfileid: "58605573"
 
    - **Le** suivi des appels malveillants permet aux utilisateurs de signaler des appels malveillants (tels que des menaces) à l’aide de l’interface utilisateur du client, qui à son tour signale les appels dans les enregistrements des détails des appels (CDR). Désactivé par défaut.
 
-   - **Busy options** active ou désactive Busy Options pour la stratégie de voix spécifiée. Busy Options permet d’router les appels entrants vers la messagerie vocale ou de les rejeter avec une signal d’occupé lorsque l’utilisateur cible de l’appel est au téléphone. Busy Options est une nouvelle stratégie de voix introduite dans la mise à jour cumulative de juillet 2016. La vérification de ce paramètre active Busy Options et la désactivation de ce paramètre désactive Busy Options. Pour plus d’informations, voir [Plan for Busy Options for Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and [configure Busy Options for Skype Entreprise Server](install-and-configure-busy-options.md).
+   - **Busy options** active ou désactive Busy Options pour la stratégie de voix spécifiée. Busy Options permet aux appels entrants d’être acheminés vers la messagerie vocale ou rejetés avec une signal d’occupé lorsque l’utilisateur cible de l’appel est au téléphone. Busy Options est une nouvelle stratégie de voix introduite dans la mise à jour cumulative de juillet 2016. La vérification de ce paramètre active Busy Options et la désactivation de ce paramètre désactive Busy Options. Pour plus d’informations, voir [Plan for Busy Options for Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and [configure Busy Options for Skype Entreprise Server](install-and-configure-busy-options.md).
 
 7. Afin d’associer et de configurer des enregistrements d’utilisation PSTN pour cette stratégie de voix, effectuez l’une des opérations suivantes :
 
@@ -185,7 +185,7 @@ ms.locfileid: "58605573"
     > [!NOTE]
     > À chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
 
-13. (Facultatif) La boîte d’écoute de messagerie vocale détecte qu’un appel a été immédiatement répondu par la messagerie vocale du téléphone mobile de l’utilisateur et déconnecte l’appel de la messagerie vocale du téléphone mobile. Cela permet à l’appel de continuer à sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Pour plus d’informations sur la configuration d’une stratégie de messagerie vocale, voir [Configure voice mail escape in Skype Entreprise](configure-voice-mail-escape.md).
+13. (Facultatif) La boîte d’écoute de messagerie vocale détecte qu’un appel a été immédiatement répondu par la messagerie vocale du téléphone mobile de l’utilisateur et déconnecte l’appel vers la messagerie vocale du téléphone mobile. Cela permet à l’appel de continuer à sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Pour plus d’informations sur la configuration d’une stratégie de messagerie vocale, voir [Configure voice mail escape in Skype Entreprise](configure-voice-mail-escape.md).
 
 ### <a name="to-modify-a-voice-policy"></a>Pour modifier une stratégie de voix
 
@@ -207,7 +207,7 @@ ms.locfileid: "58605573"
      > [!NOTE]
      > Cette fonctionnalité est uniquement configurable via Skype Entreprise Server Management Shell
 
-   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le forwarding d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
+   - **Transfert d’appel** permet aux utilisateurs de transférer des appels vers d’autres téléphones et périphériques clients. Skype Entreprise Server offre un éventail beaucoup plus large d’options de configuration pour le transport d’appel. Par exemple, si une organisation ne souhaite pas autoriser le transfert des appels entrants à l’extérieur vers le réseau téléphonique commuté (PSTN), un administrateur peut appliquer une stratégie de voix spéciale pour déployer cette restriction. Activée par défaut.
 
    - **Délégation** permet aux utilisateurs de spécifier d’autres utilisateurs pouvant passer et recevoir des appels à leur place. Dans Skype Entreprise Server, un délégué peut configurer la sonnerie simultanée qui permet aux appels entrants à son responsable de sonner toutes les cibles de sonnerie simultanée du délégué. Le délégué peut ainsi répondre avec une plus grande souplesse aux appels destinés au responsable. Activée par défaut.
 
@@ -334,7 +334,7 @@ ms.locfileid: "58605573"
     > [!NOTE]
     > Chaque fois que vous créez ou modifiez une stratégie de voix, vous devez exécuter la commande **Valider tout** pour publier la modification de la configuration. Pour plus d’informations, voir [Publish pending changes to the voice routing configuration in Skype Entreprise](voice-route-config-changes.md) in the Operations documentation.
 
-12. (Facultatif) La boîte d’écoute de messagerie vocale détecte qu’un appel a été immédiatement répondu par la messagerie vocale du téléphone mobile de l’utilisateur et déconnecte l’appel de la messagerie vocale du téléphone mobile. Cela permet à l’appel de continuer à sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Pour plus d’informations sur la configuration d’une stratégie de messagerie vocale, voir [Configure voice mail escape in Skype Entreprise](configure-voice-mail-escape.md).
+12. (Facultatif) La boîte d’écoute de messagerie vocale détecte qu’un appel a été immédiatement répondu par la messagerie vocale du téléphone mobile de l’utilisateur et déconnecte l’appel vers la messagerie vocale du téléphone mobile. Cela permet à l’appel de continuer à sonner sur les autres points de terminaison de l’utilisateur, ce qui permet à l’utilisateur de répondre à l’appel. Pour plus d’informations sur la configuration d’une stratégie de messagerie vocale, voir [Configure voice mail escape in Skype Entreprise](configure-voice-mail-escape.md).
 
 ## <a name="see-also"></a>Voir aussi
 
