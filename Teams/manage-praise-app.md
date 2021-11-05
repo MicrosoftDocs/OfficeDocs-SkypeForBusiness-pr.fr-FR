@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: En savoir plus sur les paramètres d’administration dans l Compliment appappil dans le Centre Microsoft Teams’administration
-ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
+ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763052"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60793452"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Gérer l’Compliment dans le Centre d’administration Microsoft Teams’administration
 
@@ -28,7 +28,7 @@ Les administrateurs peuvent contrôler les badges disponibles pour leur organisa
 ![Capture d’Paramètres de l’Compliment l’application.](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> La Compliment appapps n’est pas disponible pour les cloud U.S. Government.
+> L’Compliment est disponible pour l Cloud de la communauté du secteur public dans le cloud, mais pas pour les Cloud de la communauté du secteur public haute ou dod.
 
 ## <a name="use-built-in-badge-sets"></a>Utiliser des badges intégrés
 
