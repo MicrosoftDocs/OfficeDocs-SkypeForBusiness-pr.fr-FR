@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Découvrez comment appeler, discuter, rechercher, puis ajouter des utilisateurs extérieures à l’organisation dans Microsoft Teams à l’aide de l’accès externe (fédération) et de l’accès invité.
-ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 63077f500f1cf4953abf200913d39c37846eb4e5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729863"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763072"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Utiliser l’accès invité et l’accès externe pour collaborer avec des personnes extérieures à votre organisation
 
@@ -49,7 +49,7 @@ Si vous souhaitez configurer l’accès externe, veuillez consulter la rubrique 
 
 ## <a name="guest-access"></a>Accès invité
 
-L’accès invité permet d’ajouter une personne extérieure à votre organisation à une équipe, dans laquelle elle peut discuter, appeler, rencontrer des participants, puis collaborer sur des fichiers. Les invités peuvent bénéficier de presque toutes les mêmes fonctionnalités Teams que les membres d’équipe natifs.
+L’accès invité permet d’ajouter une personne extérieure à votre organisation à une équipe, dans laquelle elle peut discuter, appeler, rencontrer des participants, puis collaborer sur des fichiers. Les invités peuvent bénéficier de presque toutes les mêmes fonctionnalités Teams que les membres d’équipe natifs. Pour plus d’informations, voir [Expérience des invités dans Teams.](guest-experience.md)
 
 Les invités sont ajoutés au répertoire Azure Active Directory de votre organisation en tant qu’utilisateurs B2B, puis doivent se connecter à Teams à l’aide de leur compte invité. En d’autres termes, ils devront sans doute se déconnecter de leurs propres organisations pour se connecter à la vôtre.
 
