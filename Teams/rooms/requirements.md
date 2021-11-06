@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Découvrez les conditions requises pour la prise en charge Salles Microsoft Teams, notamment le choix du périphérique, des microphones, des haut-parleurs, des caméras et de l’affichage appropriés.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9c379fd289c1fb7512a15b4d8f36f412279b121
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 8faa67db5187fb2fa28f1241d969ef4e90b031fd
+ms.sourcegitcommit: ae60b65f866c7ca7556ba5b0cf6f1d902c4454fc
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733355"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60798487"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Spécifications des salles Microsoft Teams
 
@@ -82,7 +82,7 @@ Tous les appareils et offres groupées actuels de salle Microsoft Teams sont dis
   |[Logitech Tap et Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 Go |128 Go|
   |[Poly G10-T avec Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 Go | 128 Go|
   |Poly GC10-T avec Lenovo Thinksmart Core|Core i5|8 Go|128 Go|
-  |Poly GC10-T avec Dell 7080|Core i5|8 Go|128 Go|
+  |Console Poly GC8 avec Dell Optiplex 7080|Core i5|8 Go|128 Go|
   |[Yealink MVC300 avec Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC500 with Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 Go |128 Go |
   |[Yealink MVC800 avec Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 Go|128 Go|
