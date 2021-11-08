@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Cet article fournit une vue d’ensemble du nouveau Panneau de contrôle.
-ms.openlocfilehash: 8a4f8e073b424969951a69c620dd5f65a582fd75
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579871"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824642"
 ---
-# <a name="control-panel"></a>Panneau de contrôle
+# <a name="control-panel"></a>Panneau de configuration
 
 Le Panneau de contrôle actuel est une nouvelle version du Panneau de contrôle hérité, avec laquelle il existe en tandem. Le nouveau Panneau de contrôle a été mis en place à partir de la mise à jour cumulative de juillet 2019. Il permet de gérer la configuration des serveurs, des utilisateurs, des clients et des appareils dans l’environnement d’une organisation.
 
@@ -50,3 +50,11 @@ Le nouveau Panneau de contrôle inclut des éléments de menu couramment utilis�
 |Configuration de l’appareil         |    [Configuration des périphériques](use-powershell-client-menu.md#device-configuration)     |
 |Stratégie de mobilité         |    [Stratégie de mobilité](use-powershell-client-menu.md#mobility-policy)     |
 |Configuration des notifications Push         |    [Configuration des notifications Push](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## <a name="security"></a>Sécurité
+
+|Sous-menu  |Source d’informations pour la cmdlet  |
+|---------|---------|
+|Registrar         |    [Registrar](use-powershell-security-menu.md#registrar)     |
+|Service Web      |  [Service Web](use-powershell-security-menu.md#web-service)       |
+|Stratégie de code confidentiel    | [Stratégie de code confidentiel](use-powershell-security-menu.md#pin-policy)        |

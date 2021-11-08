@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: ''
-description: 'Résumé : Skype Entreprise Server panneau de commande au mappage des cmdlet.'
-ms.openlocfilehash: e4d72aad28167e3be427f203b8e5b80e2305a636
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+description: 'Résumé : Skype Entreprise Server panneau de commande au mappage de cmdlet pour le menu Client.'
+ms.openlocfilehash: 1dc0c3a9638af8fdec90fccb633909b9ccf40405
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579775"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824652"
 ---
 # <a name="client"></a>Client
 
@@ -43,7 +43,7 @@ Cet article décrit les sous-menus suivants :
 Considérons les différentes tâches qu’un utilisateur peut effectuer sur la STRATÉGIE DE VERSION DU **CLIENT** et les cmdlets Skype Entreprise que ces tâches m’indiquent.
 
 ---
-> **Scénario 1 :** liste de toutes les stratégies de version des clients
+> **Scénario 1 :** Liste de toutes les stratégies de version des clients
 
    ![Stratégie de version du client de liste](./media/clientversionpolicy-1.png)
 
@@ -177,12 +177,12 @@ Considérons les différentes tâches qu’un utilisateur peut effectuer sur la 
 
 ## <a name="client-version-configuration"></a>Configuration de version du client
 
- **L’élément de sous-menu CONFIGURATION DE** VERSION DU CLIENT retourne des informations sur les clients pris en charge Skype Entreprise Server’environnement.
+ **L’élément de sous-menu CONFIGURATION DE** VERSION DU CLIENT retourne des informations sur les clients pris en charge Skype Entreprise Server environnement.
 
 Considérons les différentes tâches qu’un utilisateur peut effectuer sur LA **CONFIGURATION DE VERSION** DU CLIENT et les cmdlets Skype Entreprise que ces tâches m’indiquent.
 
 ---
-> **Scénario 1 :** liste de toutes les configurations de version du client
+> **Scénario 1 :** Liste de toutes les configurations de version du client
 
    ![Configuration de la version du client de liste](./media/ClientVersionConfiguration-1.png)
 
@@ -214,7 +214,7 @@ Considérons les différentes tâches qu’un utilisateur peut effectuer sur LA 
 
 ---
 
-> **Scénario 3 :** obtenir les détails d’une configuration de version de client choisie
+> **Scénario 3 :** obtenir les détails d’une configuration de version du client choisie
 
    ![Obtenir la configuration de la version du client](./media/ClientVersionConfiguration-3.png)
 
@@ -317,7 +317,7 @@ Considérons les différentes tâches qu’un utilisateur peut effectuer sur **D
 
 ---
 
-> **Scénario 3 :** annuler les mises à jour des périphériques
+> **Scénario 3 :** Annuler les mises à jour des périphériques
 
    ![Annuler la mise à jour de périphérique](./media/device-update-3.png)
 
@@ -369,7 +369,7 @@ Considérons les différentes tâches qu’un utilisateur peut effectuer sur **D
 
 L’élément de sous-menu **TEST DEVICE** permet aux administrateurs de tester les mises à jour du microprogramme avant qu’elles ne soient distribuées à tous les périphériques d’une organisation.
 
-Considérons les différentes tâches qu’un utilisateur peut effectuer sur LE **PÉRIPHÉRIQUE DE TEST** et les cmdlets Skype Entreprise que ces tâches m’indiquent.
+Considérons les différentes tâches qu’un utilisateur peut effectuer sur LE PÉRIPHÉRIQUE DE **TEST** et les cmdlets Skype Entreprise que ces tâches m’indiquent.
 
 ---
 > **Scénario 1 :** Liste de tous les périphériques de test
@@ -523,7 +523,7 @@ Considérons les différentes tâches qu’un utilisateur peut effectuer sur **L
 
 ---
 
-> **Scénario 5 : mettre** à jour une configuration de journal d’appareil
+> **Scénario 5 : mettre** à jour la configuration d’un journal d’appareil
 
    ![Mettre à jour la configuration des journaux de périphériques](./media/device-log-configuration-5.png)
 
@@ -629,9 +629,9 @@ Considérons les différentes tâches qu’un utilisateur peut effectuer sur **L
 
 ## <a name="mobility-policy"></a>Stratégie de mobilité
 
-**LA STRATÉGIE DE** MOBILITÉ détermine si un utilisateur peut utiliser Skype Entreprise Mobile. Elles permettent également à un utilisateur de recourir à la fonctionnalité Appel via le bureau par laquelle ils peuvent passer et recevoir des appels téléphoniques sur leur téléphone mobile à l’aide de leur numéro de téléphone professionnel au lieu de leur numéro de téléphone mobile personnel. Les stratégies de mobilité peuvent également être utilisées pour Wi-Fi connexions requises lors de la prise ou de la réception d’appels.
+**LA STRATÉGIE DE** MOBILITÉ détermine si un utilisateur peut utiliser Skype Entreprise Mobile. Elles permettent également à un utilisateur de recourir à la fonctionnalité Appel via le bureau par laquelle ils peuvent passer et recevoir des appels téléphoniques sur leur téléphone mobile à l’aide de leur numéro de téléphone professionnel au lieu de leur numéro de téléphone mobile personnel. Les stratégies de mobilité peuvent également être utilisées pour rendre Wi-Fi connexions requises lors de la prise ou de la réception d’appels.
 
-Prenons en compte les différentes tâches qu’un utilisateur peut effectuer sur **la** STRATÉGIE de mobilité et les Skype Entreprise cmdlets sur Skype Entreprise ces tâches.
+Considérons les différentes tâches qu’un utilisateur peut effectuer sur **la** STRATÉGIE de MOBILITÉ et les cmdlets Skype Entreprise ces tâches.
 
 ---
 
@@ -717,7 +717,7 @@ Set-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
 ## <a name="push-notification-configuration"></a>Configuration des notifications Push
 
-Le service de notification push (service de notification push Apple et service de notification push de Microsoft) permet d’envoyer des notifications concernant des événements tels que de nouveaux messages instantanés ou de nouveaux messages vocaux à des appareils mobiles tels que des iPhone et des téléphones Windows. Ces notifications sont configurées pour être envoyées même si l’application Skype Entreprise sur ces appareils est actuellement suspendue ou en cours d’exécution en arrière-plan.
+Le service de notification push (service de notification Push Apple et service de notification push de Microsoft) permet d’envoyer des notifications concernant des événements tels que de nouveaux messages instantanés ou de nouveaux messages vocaux à des appareils mobiles tels que des iPhone et des téléphones Windows. Ces notifications sont configurées pour être envoyées même si l’application Skype Entreprise sur ces appareils est actuellement suspendue ou en cours d’exécution en arrière-plan.
 
 Considérons les différentes tâches qu’un utilisateur peut effectuer sur la CONFIGURATION DE **NOTIFICATION PUSH** et les cmdlets Skype Entreprise que ces tâches m’indiquent.
 
