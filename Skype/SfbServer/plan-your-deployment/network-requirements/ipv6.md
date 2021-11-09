@@ -2,7 +2,7 @@
 title: Planifier IPv6 dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Résumé : Implémentez IPv6 avant d’installer Skype Entreprise Server.'
-ms.openlocfilehash: 6126cd2211a2df0f0a24672d61cf11ce89ad23c7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 21fa37d187f32c9b679a49a3b8181b1a5e2732d1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770062"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849747"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planifier IPv6 dans Skype Entreprise
  
@@ -29,7 +29,7 @@ ms.locfileid: "60770062"
   
 Skype Entreprise Server inclut la prise en charge des adresses IP version 6 (IPv6), ainsi que la prise en charge continue des adresses IP version 4 (IPv4). 
 
-Les adresses IPv4 sont des adresses 32 bits qui permettent à un ordinateur de communiquer sur Internet. En raison du nombre croissant d’appareils dans le monde, les adresses IPv4 disponibles sont à court. C’est pourquoi de nombreux nouveaux appareils utilisent des adresses IPv6. Les adresses IPv6 exécutent la même fonction que les adresses IPv4 (avec certaines fonctionnalités supplémentaires), mais au lieu d’utiliser uniquement des adresses 32 bits, les adresses IPv6 utilisent des adresses 128 bits. Cela fournit non seulement un nouvel ensemble d’adresses, mais également un plus grand nombre d’adresses. 
+Les adresses IPv4 sont des adresses 32 bits qui permettent à un ordinateur de communiquer sur Internet. En raison du nombre croissant d’appareils dans le monde, les adresses IPv4 disponibles sont à court. C’est pourquoi de nombreux nouveaux appareils utilisent des adresses IPv6. Les adresses IPv6 exécutent la même fonction que les adresses IPv4 (avec certaines fonctionnalités supplémentaires), mais au lieu d’utiliser uniquement 32 bits, les adresses IPv6 utilisent des adresses 128 bits. Cela fournit non seulement un nouvel ensemble d’adresses, mais également un plus grand nombre d’adresses. 
 
 Une adresse IPv4 classique ressemble à ceci : 192.0.2.235, alors qu’une adresse IPv6 ressemble à ceci : 2001:0db8:85a3:0000:0000:8a2e:0370:7334. La modification de la mise en forme et des fonctionnalités pour les appareils qui utilisent des adresses IPv6 nécessite plusieurs considérations en ce qui concerne le déploiement et la configuration dans Skype Entreprise Server’installation. 
 
@@ -48,13 +48,13 @@ Si vous déterminez que vous utiliserez des adresses IPv6, reportez-vous à l’
 
 Vous avez trois options pour configurer des adresses IP dans Skype Entreprise Server. Vous pouvez configurer Skype Entreprise Server pour prendre en charge uniquement IP version 4 (IPv4), uniquement IP version 6 (IPv6) ou une combinaison des deux (appelée double pile). Il existe plusieurs problèmes à prendre en compte pour chaque type de configuration :
   
-- **IPv4 uniquement** IPv6 a été créé car le monde n’a plus d’adresses IPv4. En fin de compte, IPv6 sera entièrement pris en charge dans le monde entier, mais pour l’instant, de nombreuses entreprises et appareils avec qui votre entreprise devra peut-être communiquer ne ront peut-être pas encore prendre en charge IPv6 et ne le seront peut-être pas pendant un certain temps. Une configuration IPv4 uniquement permet de s’assurer que votre implémentation Skype Entreprise Server peut communiquer avec la plupart des appareils existants.
+- **IPv4 uniquement** IPv6 a été créé car le monde n’a plus d’adresses IPv4. En fin de compte, IPv6 sera entièrement pris en charge dans le monde entier, mais pour l’instant, de nombreuses sociétés et appareils avec qui votre entreprise devra peut-être communiquer ne ront peut-être pas encore prendre en charge IPv6 et ne le seront peut-être pas pendant un certain temps. Une configuration IPv4 uniquement permet de s’assurer que votre implémentation Skype Entreprise Server peut communiquer avec la plupart des appareils existants.
     
 - **IPv6 uniquement** À l’inverse, une implémentation IPv6 complète exclura la communication avec de nombreux appareils existants.
     
 - **Double pile** La double pile est un réseau sur lequel les adresses IPv4 et IPv6 sont activées. Cette configuration est prise en charge Skype Entreprise Server car, dans la plupart des cas, la transition de l’IPv4 complet au IPv6 complet prendra plusieurs années.
     
-Les sections suivantes décrivent la compatibilité entre ces trois configurations pour différentes Skype Entreprise Server de configuration.
+Les sections suivantes décrivent la compatibilité entre ces trois configurations pour diverses Skype Entreprise Server de configuration.
   
 > [!NOTE]
 > La configuration du client ou du serveur avec IPv6 uniquement est prise en charge uniquement à des fins d’atelier ou de validation. La configuration IPv6 uniquement n’est pas prise en charge dans le déploiement de production. 
@@ -156,7 +156,7 @@ Le tableau suivant est une matrice des combinaisons d’interfaces Edge internes
 ### <a name="advanced-enterprise-voice-support-for-ipv6"></a>Prise en charge Voix Entreprise avancé pour IPv6
 <a name="Ent_V"> </a>
 
-Les déploiements qui incluent le contrôle d’admission des appels(CAC), Enhanced 9-1-1 (E9-1-1) ou le contournement de média doivent être configurés en tant qu’IPv4 uniquement ou en tant qu’implémentation à double pile. Les points de terminaison utilisant uniquement IPv6 ne peuvent pas utiliser l’une de ces fonctionnalités.
+Les déploiements qui incluent le contrôle d’admission des appels (CAC), Enhanced 9-1-1 (E9-1-1) ou le contournement de média doivent être configurés en tant qu’IPv4 uniquement ou en tant qu’implémentation à double pile. Les points de terminaison utilisant uniquement IPv6 ne peuvent pas utiliser l’une de ces fonctionnalités.
   
 > [!NOTE]
 > Dans un déploiement à double pile, même si un client Skype Entreprise Server se connecte à un Skype Entreprise Server à l’aide d’IPv6, Skype Entreprise Server s’adressera au mieux à la carte d’une adresse IPv4 appropriée pour prendre en charge E9-1-1. 
@@ -165,7 +165,7 @@ Le service Informations d’emplacement avec adresses IPv6 n’est pas pris en c
   
 Exchange La messagerie unifiée ne prend pas en charge IPv6. Pour Exchange la um, assurez-vous que la résolution DNS ne retourne pas d’adresse IPv6. L’utilisation d’IPv6 peut entraîner un échec lorsque des appels sont envoyés à la messagerie vocale. 
   
-### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>Autres fonctionnalités Skype Entreprise Server prise en charge pour IPv6
+### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>Autres fonctionnalités Skype Entreprise Server prise en charge des fonctionnalités IPv6
 <a name="Ent_V"> </a>
 
 Outre les fonctionnalités et composants mentionnés précédemment, Skype Entreprise Server prend en charge IPv6 pour les fonctionnalités suivantes :
@@ -187,7 +187,7 @@ Si vous envisagez de configurer Skype Entreprise Server pour IPv6, gardez les ex
     
     Vous pouvez déployer les enregistrements d’hôte DNS IPv6 avant de commencer à utiliser IPv6. Si le client ou le serveur n’utilise pas IPv6, l’enregistrement ne sera pas référencé. Des technologies de transition décideront de l’enregistrement à utiliser, en fonction de la configuration des technologies de transition et des stratégies.
     
-- Chaque adresse IPv6 a une étendue. Les trois étendues que vous pouvez utiliser pour l’adressaînage IPv6 sont les adresses globales IPv6 (semblables aux adresses IPv4 publiques), les adresses locales uniques IPv6 (semblables aux plages d’adresses IPv4 privées) et les adresses IPv6 locales (semblables aux adresses IP privées automatiques dans Windows Server pour IPv4). Tous les serveurs au sein d’un pool doivent avoir des adresses IPv6 avec la même étendue. 
+- Chaque adresse IPv6 a une étendue. Les trois étendues que vous pouvez utiliser pour l’adressaînage IPv6 sont les adresses globales IPv6 (semblables aux adresses IPv4 publiques), les adresses locales uniques IPv6 (semblables aux plages d’adresses IPv4 privées) et les adresses locales de liaison IPv6 (semblables aux adresses IP privées automatiques dans Windows Server pour IPv4). Tous les serveurs au sein d’un pool doivent avoir des adresses IPv6 avec la même étendue. 
     
 > [!IMPORTANT]
 > IPv6 est un sujet complexe qui nécessite une planification minutieuse avec votre équipe réseau et votre fournisseur Internet pour vous assurer que les adresses que vous affectez au niveau du serveur Windows et au niveau du Skype Entreprise Server fonctionnent comme prévu. Consultez les liens à la fin de cette rubrique pour accéder à des ressources supplémentaires sur l’adressage et la planification IPv6. 

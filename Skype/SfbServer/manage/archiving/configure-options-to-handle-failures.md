@@ -2,7 +2,7 @@
 title: Configurer les options d’archivage pour gérer les défaillances dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Résumé : Découvrez comment bloquer les sessions de messagerie instantanée et de conférence en cas d’Skype Entreprise Server qui empêcherait l’archivage.'
-ms.openlocfilehash: 24bfa5190f4aa86a51d7737c952e6536a7d89b34
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f3f20bf53a784972c720ce5578d78462cbb222c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767922"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836466"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurer les options d’archivage pour gérer les défaillances dans Skype Entreprise Server
 

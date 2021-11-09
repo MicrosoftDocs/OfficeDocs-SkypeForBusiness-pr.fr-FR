@@ -2,7 +2,7 @@
 title: Déployer des régions réseau, des sites et des sous-réseaux dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Créez ou modifiez des régions réseau, des sites réseau et associez des sous-réseaux dans Skype Entreprise Server. Toutes ces fonctionnalités sont utilisées pour les fonctionnalités Voix Entreprise avancées : déviation du média, contrôle d’admission des appels et routage géolocal.'
-ms.openlocfilehash: 72c8fcf9bbdeb50df5806a0a8c020fcec4bb0022
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4d726466153f30b7c5fdd3ac478b1b2444838ae6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738910"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856301"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Déployer des régions réseau, des sites et des sous-réseaux dans Skype Entreprise
 
@@ -113,7 +113,7 @@ Toutefois, il est possible que vous soyez obligé de modifier la définition d�
 
 5. Cliquez sur **Modifier**, puis sur **Afficher les détails…**.
 
-6. Dans la page **Modifier la** région, modifiez les valeurs des paramètres de cette région réseau selon le cas.
+6. Dans la page **Modifier la** région, modifiez les valeurs des paramètres de cette région réseau, le cas échéant.
 
 7. Cliquez sur **Valider**.
 
@@ -226,7 +226,7 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>Pour associer un sous-réseau à un site réseau à l’aide de Skype Entreprise Server Management Shell
 
-1. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+1. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 2. Exécutez l’applet de commande **New-CsNetworkSubnet** pour associer un sous-réseau à un site réseau :
 
@@ -258,7 +258,7 @@ Toutes les adresses IP publiques configurées des serveurs Edge audio/vidéo de 
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. Démarrez l Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
+2. Démarrez l’Skype Entreprise Server Management Shell : cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Skype Entreprise 2015,** puis sur Skype Entreprise Server **Management Shell.**
 
 3. Exécutez l’cmdlet suivante pour importer **subnet.csv,** puis stockez son contenu dans le magasin de gestion Lync Server :
 

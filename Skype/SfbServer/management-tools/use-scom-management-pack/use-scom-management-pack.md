@@ -2,7 +2,7 @@
 title: Gérer Skype Entreprise Server 2015 à l’aide du pack d’administration SCOM
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Résumé : Découvrez comment configurer votre infrastructure Skype Entreprise Server 2015 pour qu’elle fonctionne avec System Center Operations Manager.'
-ms.openlocfilehash: 43fba4fa3672621052d51314e1d39ead5f4d568b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4fb6d0c900285b473012d5f9051f25c8c30320f6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766272"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836286"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Gérer Skype Entreprise Server 2015 à l’aide du pack d’administration SCOM
  
@@ -131,7 +131,7 @@ Skype Entreprise Server packs d’administration 2015 offrent une couverture acc
 |1   |Inscription (connexion utilisateur)   |Lync Server 2010 disponible et au-delà   |
 |2   |Service de carnet d’adresses (téléchargement de fichiers)   |Lync Server 2010 disponible et au-delà   |
 |3   |Requête web du carnet d’adresses   |Lync Server 2010 disponible et au-delà   |
-|4    |Présence   |Lync Server 2010 disponible et au-delà   |
+|4   |Présence   |Lync Server 2010 disponible et au-delà   |
 |5   |Magasin de contacts unifié   |Lync Server 2013 disponible et au-delà   |
 
   
@@ -188,7 +188,7 @@ Le tableau suivant indique l’état d’état d’Skype Entreprise Server le pa
    
 ![Rollup SCOM.](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-Un pool Skype Entreprise Server peut contenir plusieurs systèmes Skype Entreprise Server individuels (avec plusieurs rôles Skype Entreprise Server, un service Skype Entreprise Server et un Skype Entreprise Server composant). Par conséquent, la défaillance d’un serveur ou d’un composant individuel est moins critique pour l’état global du pool Skype Entreprise Server, car d’autres serveurs du même pool peuvent fournir le service d’application au client. L’état d’Skype Entreprise Server un pourcentage. 
+Un pool Skype Entreprise Server peut contenir plusieurs systèmes Skype Entreprise Server individuels (avec plusieurs rôles Skype Entreprise Server, un service Skype Entreprise Server et un composant Skype Entreprise Server client). Par conséquent, la défaillance d’un serveur ou d’un composant individuel est moins critique pour l’état global du pool Skype Entreprise Server, car d’autres serveurs du même pool peuvent fournir le service d’application au client. L’état d’Skype Entreprise Server un pourcentage. 
   
 L Skype Entreprise Server de pool exécute des transactions synthétiques sur un pool Skype Entreprise Server pool. Les échecs consécutifs d’une ou de plusieurs transactions synthétiques (processus appelé intervalle d’interrogation consécutif) relaient l’état d’état d’état critique au niveau du pool (pire de toute transaction synthétique), comme illustré dans le diagramme suivant. 
   
@@ -214,7 +214,7 @@ Les liens suivants vous connectent à des informations sur les tâches courantes
     
 - [Comment créer un compte Exécuter en tant que dans Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh321655(v=sc.12))
     
-- [Gestion des comptes et des profils Exécuter en tant que](/previous-versions/system-center/system-center-2012-R2/hh212714(v=sc.12))
+- [Gestion des comptes et des profils d’exécuter en tant que](/previous-versions/system-center/system-center-2012-R2/hh212714(v=sc.12))
     
 - [Comment exporter un pack d’administration Operations Manager](/previous-versions/system-center/system-center-2012-R2/hh320149(v=sc.12))
     

@@ -1,6 +1,6 @@
 ---
 title: Lever la main lors de réunions Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: raramaia
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrez la fonctionnalité de lever de main lors de réunions Microsoft Teams.
-ms.openlocfilehash: 6882258c98bca30a329dfe10751ae90380fef6eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3d86a929d1a5ec1fe8901c79b38042dc965f6166
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761712"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836022"
 ---
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Option de lever de main lors de réunions Teams
 

@@ -2,7 +2,7 @@
 title: Configurer l’authentification de serveur à serveur pour un environnement Skype Entreprise Server hybride
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Résumé : Configurez l’authentification de serveur à serveur pour un environnement Skype Entreprise Server hybride.'
-ms.openlocfilehash: fcec1e982af0c5ad778a83fe6af9b58fbd44c7e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 617c388dc4c4120beb457e4e2c90246e06c76d6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746070"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830928"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Configurez l’authentification de serveur à serveur pour un environnement Skype Entreprise Server hybride.
 
@@ -123,7 +123,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue) 
 ```
 
-Une fois que le certificat a été importé et codé, vous pouvez l’affecter à vos principaux de service Microsoft 365 ou Office 365 service. Pour ce faire, utilisez d’abord le Get-MsolServicePrincipal pour récupérer la valeur de la propriété AppPrincipalId pour les principaux de service Skype Entreprise Server et Microsoft Exchange . la valeur de la propriété AppPrincipalId sera utilisée pour identifier le principal de service affecté au certificat. Avec la valeur de propriété AppPrincipalId Skype Entreprise Server en main, utilisez la commande suivante pour affecter le certificat à Skype pour la version Entreprise Online :
+Une fois le certificat importé et codé, vous pouvez l’affecter à vos principaux de service Microsoft 365 ou Office 365 service. Pour ce faire, utilisez d’abord le Get-MsolServicePrincipal pour récupérer la valeur de la propriété AppPrincipalId pour les principaux de service Skype Entreprise Server et Microsoft Exchange . la valeur de la propriété AppPrincipalId sera utilisée pour identifier le principal de service affecté au certificat. Avec la valeur de propriété AppPrincipalId Skype Entreprise Server en main, utilisez la commande suivante pour affecter le certificat à la version Skype Entreprise Online :
 
 ```PowerShell
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 

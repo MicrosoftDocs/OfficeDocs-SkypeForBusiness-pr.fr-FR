@@ -2,7 +2,7 @@
 title: Page des options Installer une base de données miroir
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Vous configurez Paramètres de base de données miroir en définissant les éléments suivants :'
-ms.openlocfilehash: 050463b6323b2ec75b0bc2980eb79311f3200183
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ec4745074d14660844492227867c275c08cdb043
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748490"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828117"
 ---
 # <a name="install-mirror-database-option-page"></a>Page des options Installer une base de données miroir
  

@@ -2,7 +2,7 @@
 title: Déployer Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Résumé : Explorez ces liens pour découvrir comment installer et configurer Skype Entreprise Server 2015 et la mise à niveau à partir de versions antérieures de Lync Server.'
-ms.openlocfilehash: 0b7a43533708af8f3ab017b5796b5c9dc413cafc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 67643b7f28ea3155c9867dd7a4107e4630ddab15
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764782"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863081"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Déployer Skype Entreprise Server 2015
  
@@ -54,7 +54,7 @@ Les articles suivants sur l’installation et la configuration Skype Entreprise 
 |![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Déployer la connectivité hybride entre Skype Entreprise Server et Skype Entreprise Online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)  |Découvrez comment configurer les conditions préalables pour un déploiement hybride, puis configurer votre déploiement pour gérer les utilisateurs entre Skype Entreprise Server local et Skype Entreprise Online.   |
 |![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Déployer un serveur Edge dans Skype Entreprise Server 2015](deploy-edge-server/deploy-edge-server.md)  |Si les utilisateurs de votre organisation communiquent avec des utilisateurs externes qui ne sont pas connectés à votre réseau interne, vous pouvez déployer le serveur Edge.   |
 |![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Déployer Voix Entreprise dans Skype Entreprise Server 2015](deploy-enterprise-voice/deploy-enterprise-voice.md)  |Découvrez comment déployer une solution voix d’entreprise Voix sur IP (VoIP) complète, offrant une intégration enrichie avec Outlook et Exchange, ainsi que de nombreuses fonctionnalités puissantes telles que les groupes Response Group, le parcage d’appel, les appels d’équipe, la prise d’appel de groupe et la prise en charge enhanced Emergency E9-1-1.   |
-|![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Déployer un serveur de conversation permanente dans Skype Entreprise Server 2015](deploy-persistent-chat-server/deploy-persistent-chat-server.md)  |Si vous souhaitez que les utilisateurs de votre organisation participent à des conversations basées sur des rubriques qui persistent au fil du temps, vous pouvez déployer le serveur de conversation permanente.   |
+|![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Déployer un serveur de conversation permanente dans Skype Entreprise Server 2015](deploy-persistent-chat-server/deploy-persistent-chat-server.md)  |Si vous souhaitez que les utilisateurs de votre organisation participent à des conversations thématiques persistantes au fil du temps, vous devez déployer le serveur de conversation permanente.   |
 |![Icône Numérique How To.](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Déployer le serveur d’interconnexion vidéo dans Skype Entreprise Server 2015](deploy-video-interop-server/deploy-video-interop-server.md)  |Si vous souhaitez prendre en charge l’interopérabilité vidéo, découvrez comment déployer le serveur d’interopérabilité vidéo (VIS).   |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Ressources supplémentaires sur la planification des Skype Entreprise Server
@@ -63,7 +63,7 @@ Les ressources suivantes sur la façon de planifier les Skype Entreprise Server 
   
 |&nbsp;|Contenu|Description|
 |:-----|:-----|:-----|
-|![Icône de Docs.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml)  |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements et bien plus encore.   |
+|![Icône pour les documents.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml)  |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements et bien plus encore.   |
 |![Icône du contenu du développeur.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype Plateforme pour les développeurs](/skype-sdk/skypedeveloperplatform)  |Trouvez des ressources pour les développeurs Skype Entreprise Server, notamment des exemples de code, des formations et des SDK.   |
 |![Icône d’actualités, de blogs, etc.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png) | [Gestion et adoption des changements](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899)   <br/> [blog Skype’équipe](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Tenez-vous au fait des actualités des équipes qui créent et documentent des Skype Entreprise Server.   |
 

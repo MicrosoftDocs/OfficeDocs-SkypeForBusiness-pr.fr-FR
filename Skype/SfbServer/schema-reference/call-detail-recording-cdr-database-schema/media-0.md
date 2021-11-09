@@ -2,7 +2,7 @@
 title: Affichage multimédia
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 description: La vue Media stocke des informations sur un type de média utilisé au cours d’une session d’égal à égal. Une session est représentée par plusieurs enregistrements dans la table, si plusieurs types de médias sont utilisés. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 110f41e88fedd216641d67f975c1b19aa9da4770
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2ed8d66bf55594e3524a43b35df3bfa6d859055a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770032"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828557"
 ---
 # <a name="media-view"></a>Affichage multimédia
  

@@ -2,7 +2,7 @@
 title: Table MediaList
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/12/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: La table MediaList est une table statique qui stocke la liste de divers types de médias.
-ms.openlocfilehash: 00667806e5099db35cce29b07248569faf09ee24
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 643c373eb7e6a73cf8755f14ea0f5497efee6fed
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767492"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849627"
 ---
 # <a name="medialist-table"></a>Table MediaList
  

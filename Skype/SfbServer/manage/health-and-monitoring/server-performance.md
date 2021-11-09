@@ -1,8 +1,8 @@
 ---
-title: Rapport de performances du serveur dans Skype Entreprise Server
+title: Rapport sur les performances du serveur Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,15 +11,15 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Résumé : Découvrez le rapport sur les performances du serveur dans Skype Entreprise Server.'
-ms.openlocfilehash: 1d276d0dd4deec374ff88ca32d143855dae8919b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Résumé : Découvrez le rapport de performances du serveur dans Skype Entreprise Server.'
+ms.openlocfilehash: 6e13a12452fbdbf650a7e307340269803a2301b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746910"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836336"
 ---
-# <a name="server-performance-report-in-skype-for-business-server"></a>Rapport de performances du serveur dans Skype Entreprise Server
+# <a name="server-performance-report-in-skype-for-business-server"></a>Rapport sur les performances du serveur Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de performances du serveur dans Skype Entreprise Server.
   
@@ -43,7 +43,7 @@ Il est important de noter que le classement indiqué dans ce rapport est relatif
   
 ## <a name="accessing-the-server-performance-report"></a>Accès au rapport de performances du serveur
 
-Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport des listes d’appels [Skype Entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
+Le rapport de performances du serveur est accessible à partir de la page d’accueil Rapports de surveillance. Vous pouvez descendre dans le rapport de liste d’appels [Skype Entreprise Server](call-list-report-0.md) en cliquant sur l’une des mesures suivantes :
   
 - Volume d’appels
     
@@ -53,7 +53,7 @@ De plus, vous pouvez accéder au rapport de tendance de la qualité des médias 
   
 - Trend
     
-## <a name="making-the-best-use-of-the-server-performance-report"></a>Utilisation de la meilleure utilisation du rapport de performances du serveur
+## <a name="making-the-best-use-of-the-server-performance-report"></a>Utilisation du rapport de performances du serveur
 
 Le rapport de performances du serveur fournit plusieurs moyens pour filtrer les données ; par exemple, vous pouvez filtrer sur un type de réseau (appels passés via une connexion câblée ou sans fil) et un type d’accès (appels passés à l’intérieur du pare-feu ou à l’extérieur). Il est conseillé d’utiliser ces filtres quand vous affichez le rapport de performances du serveur. Par exemple, vous avez un serveur de médiation avec un pourcentage d’appels médiocre de 3,24 %. Si vous considérez uniquement les appels sans fil, ce même serveur peut avoir un pourcentage d’appels médiocres de 20 %. Cela signifie que ce serveur ne gère pas bien les appels sans fil, mais ce problème peut être partiellement masqué par les appels câblés qui ne posent pas de problème.
   

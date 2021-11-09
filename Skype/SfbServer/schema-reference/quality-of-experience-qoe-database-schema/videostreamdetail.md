@@ -2,7 +2,7 @@
 title: Vue VideoStreamDetail
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la base de données. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 1fc778060163047b80ad7c523e2ca93414a23e25
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756055"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863231"
 ---
 # <a name="videostreamdetail-view"></a>Vue VideoStreamDetail
  
@@ -49,7 +49,7 @@ La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la 
 |CalleeOS  <br/> |nvarchar(128)  <br/> |Système d’exploitation (OS) du point de terminaison de l’appelé.  <br/> |
 |CallerCPUName  <br/> |nvarchar(128)  <br/> |Nom du processeur du point de terminaison de l’appelant.  <br/> |
 |CalleeCPUName  <br/> |nvarchar(128)  <br/> |Nom du processeur du point de terminaison de l’appelé.  <br/> |
-|CallerCPUNumberOfCores  <br/> |smallint  <br/> |Nombre de cœurs d’UC du point de terminaison de l’appelant.  <br/> |
+|CallerCPUNumberOfCores  <br/> |smallint  <br/> |Nombre de cœurs de processeur du point de terminaison de l’appelant.  <br/> |
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |Nombre de cœurs d’UC du point de terminaison de l’appelé.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |Vitesse du processeur processeur du point de terminaison de l’appelant.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |Vitesse du processeur processeur du point de terminaison de l’appelé.  <br/> |
@@ -98,7 +98,7 @@ La vue VideoStreamDetail stocke des informations sur chaque flux vidéo dans la 
 |PacketUtilization  <br/> |int  <br/> |Nombre de paquets pour le flux vidéo (protocole de transport en temps réel, RTP).  <br/> |
 |BandwidthEst  <br/> |int  <br/> |Estimations de la bande passante pour le flux audio.  <br/> |
 |PayloadDescription  <br/> |int  <br/> |Codec audio utilisé pour l’appel, référencé à partir de la [table PayloadDescription](payloaddescription.md).  <br/> |
-|VideoResolution  <br/> |char(9)  <br/> |Résolution de la vidéo en pixels de largeur multipliée par la hauteur des pixels. Signalé sous la mesure d’une chaîne.  <br/> |
+|VideoResolution  <br/> |char(9)  <br/> |Résolution de la vidéo en pixels de largeur multipliée par la hauteur en pixels. Signalé sous la mesure d’une chaîne.  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |Vitesse de bit moyenne du flux vidéo.  <br/> |
 |InboundVideoFrameRateAvg  <br/> |décimal(9,4)  <br/> |Fréquence d’images de la vidéo reçue.  <br/> |
 |OutboundVideoFrameRateAvg  <br/> |décimal(9,4)  <br/> |Fréquence d’images de la vidéo envoyée.  <br/> |

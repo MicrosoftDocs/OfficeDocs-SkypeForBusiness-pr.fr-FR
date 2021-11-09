@@ -2,7 +2,7 @@
 title: Skype Entreprise Server Outil de planification de la haute disponibilité
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Le principal schéma de haute disponibilité pour la plupart des rôles serveur dans Skype Entreprise Server 2015 est basé sur la redondance des serveurs via la mise en pool. Si un serveur qui exécute un rôle serveur donné échoue, les autres serveurs du pool qui exécutent le même rôle prennent la charge de ce serveur.
-ms.openlocfilehash: 6a39d065349fb392dd54a7ff0d1872acc91e89cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 47b7eb48b3825cf86e4f24652ad38af2f0cf86d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774194"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862691"
 ---
 # <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype Entreprise Server Outil de planification de la haute disponibilité
  

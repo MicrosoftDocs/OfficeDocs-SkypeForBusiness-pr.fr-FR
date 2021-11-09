@@ -1,6 +1,6 @@
 ---
 title: Téléphone gestion des nombres pour l’Italie
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Utilisez ce tableau pour trouver des informations sur la obtention et la gestion des numéros de téléphone en Italie Microsoft Teams.
-ms.openlocfilehash: 1b74b96e37fdb4bbe98c68567e619d146e20fa06
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 39dc464ac855993aa5f3d1987f37ecb95692a8f1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737520"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836052"
 ---
 # <a name="phone-number-management-for-italy"></a>Téléphone gestion des nombres pour l’Italie
 
@@ -38,10 +38,10 @@ Pour plus d'informations, reportez-vous à la rubrique [Gérer les numéros de t
 |Obtenez les numéros de téléphone qui nous sont transférés.  <br/> | Téléchargez ce formulaire. <br/>[Lettre d’autorisation pour l’Italie (tous les nombres) (v.6.0) (it-it)](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>Remplissez-le et [contactez le service desk TNS pour obtenir des instructions.](contact-tns-service-desk.md) |
 |Publiez/annulez la publication du ou des numéros de téléphone dans l’annuaire téléphonique national.  <br/> |[Contactez le service TNS pour](contact-tns-service-desk.md) obtenir des instructions sur la liste des numéros de téléphone que vous souhaitez publier/publier.      <br/> |
 |Remplacez le numéro d’un utilisateur par un numéro de service.  <br/> |Pour obtenir des instructions sur la liste des numéros d’utilisateur à convertir en numéros de service, contactez le service [TNS.](contact-tns-service-desk.md) <br/> |
-|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de file d’attente ou de attendant automatique, téléchargez ce formulaire Services d’annuaire pour l’Italie [(version 1.0) (it-it), remplissez-le](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)et contactez [TNS](contact-tns-service-desk.md)pour obtenir des instructions. |
+|Mettre à jour le service d’annuaire pour appeler la file d’attente ou les numéros de standard automatique|Pour ajouter ou modifier des numéros de files d’attente ou de attendant automatique, téléchargez ce formulaire Services d’annuaire pour l’Italie [(version 1.0) (it-it), remplissez-le](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)et contactez [TNS](contact-tns-service-desk.md)pour obtenir des instructions. |
 |Révision de la Charte des services| Téléchargez et [lisez la Charte des services pour l’Italie (version 1.0) (it-it).](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true) |
 
-## <a name="related-topics"></a>Rubriques connexes
+## <a name="related-topics"></a>Voir aussi
 
 [Différents types de numéros de téléphone utilisés pour les offres d'appel](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

@@ -2,7 +2,7 @@
 title: Exécuter la requête
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Résumé : Découvrez l’opération Exécuter une requête, qui fait partie de l’API de données pour le tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: 65ff47013f1f11d6d9e5a26ea9031b993f134973
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00060baabff5bdcc4e930f56f7885de273060597
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766402"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849807"
 ---
 # <a name="run-query"></a>Exécuter la requête
 

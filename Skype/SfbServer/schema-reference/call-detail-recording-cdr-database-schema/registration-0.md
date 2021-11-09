@@ -2,7 +2,7 @@
 title: Affichage d’inscription
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: L’affichage Inscription stocke les informations relatives à l’inscription de l’utilisateur. Cette vue a été introduite dans Lync Server 2013.
-ms.openlocfilehash: 4714a4cb0f24a359157ede44b5ab2271a2ff1c7a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 62cfed96994f11ec7393bacc1e0b77edbe3374e7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763302"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842666"
 ---
 # <a name="registration-view"></a>Affichage d’inscription
  
@@ -31,7 +31,7 @@ L’affichage Inscription stocke les informations relatives à l’inscription d
 |**RegisterTime** <br/> |DateHeure  <br/> |Heure de l’enregistrement.  <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur inscrit.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur inscrit. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Locataire de l’utilisateur inscrit. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Locataire de l’utilisateur inscrit. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
 |**EndpointId** <br/> |uniqueidentifier  <br/> |Identificateur unique du point de terminaison auprès duquel l’utilisateur est inscrit.  <br/> |
 |**EndpointEra** <br/> |uniqueidentifier  <br/> |Identificateur unique utilisé pour différencier les inscriptions du même utilisateur auprès du même point de terminaison.  <br/> |
 |**DeRegisterType** <br/> |DateHeure  <br/> |Heure à laquelle la désinscription a eu lieu.  <br/> |

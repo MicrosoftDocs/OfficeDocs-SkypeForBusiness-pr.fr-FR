@@ -2,7 +2,7 @@
 title: Windows PowerShell et Skype Entreprise Server gestion des données
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
-description: 'Dans Skype Entreprise Server, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell comprend un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Skype Entreprise Server outils implémentés à l’Windows PowerShell sont les suivants :'
-ms.openlocfilehash: 0c9707a9af4befc9a055021426ebd5041c534d7d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Dans Skype Entreprise Server, les outils de gestion sont implémentés à l’aide Windows PowerShell. Windows PowerShell comprend un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Skype Entreprise Server outils implémentés à l’Windows PowerShell sont les suivants :'
+ms.openlocfilehash: 09726fa35caf569f9f3215b2d3d2217cce3be235
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767502"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849707"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell et Skype Entreprise Server gestion des données
  
-Dans Skype Entreprise Server, les outils de gestion sont implémentés à l’aide de Windows PowerShell. Windows PowerShell comprend un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Skype Entreprise Server outils implémentés à l’Windows PowerShell sont les suivants : 
+Dans Skype Entreprise Server, les outils de gestion sont implémentés à l’aide Windows PowerShell. Windows PowerShell comprend un environnement de ligne de commande, des commandes spécifiques aux produits et un langage de script complet. Skype Entreprise Server outils implémentés à l’Windows PowerShell sont les suivants : 
   
 - **Générateur de topologie**. Vous utilisez le Générateur de topologie pour créer, ajuster et publier votre topologie planifiée, et il valide votre topologie avant de commencer les installations du serveur. Lorsque vous installez Skype Entreprise Server sur des serveurs individuels, les serveurs lisent la topologie publiée dans le cadre du processus d’installation et le programme d’installation déploie le serveur comme indiqué dans la topologie. Après l’installation, les informations de configuration sont répliquées automatiquement sur tous les serveurs. Les composants peuvent être ajoutés à votre déploiement uniquement à l’aide du Générateur de topologie.
     
 - **Skype Entreprise Server Management Shell**. Vous pouvez utiliser Skype Entreprise Server Management Shell pour la gestion complète de la ligne de commande de votre déploiement.
     
-- **Skype Entreprise Server panneau de bord.** Vous pouvez utiliser l’interface Skype Entreprise Server’utilisateur du Panneau de Skype Entreprise Server pour gérer les tâches les plus courantes de votre déploiement.
+- **Skype Entreprise Server panneau de commande**. Vous pouvez utiliser l’interface Skype Entreprise Server’utilisateur du Panneau de Skype Entreprise Server pour gérer les tâches les plus courantes de votre déploiement.
     
 Ces outils utilisent des applets de commande Windows PowerShell pour la gestion de votre déploiement, y compris presque 550 applets de commande spécifiques au produit. Les cmdlets de sécurité incluses dans Skype Entreprise Server sont principalement utilisées pour gérer l’authentification, ainsi que les droits et autorisations des utilisateurs. Une large gamme d’applets de commande sont disponibles pour gérer l’authentification, dont certaines pour l’authentification de certificats et de codes confidentiels (PIN). En outre, un certain nombre d’cmdlets vous permettent d’utiliser la nouvelle fonctionnalité de contrôle d’accès Role-Based (RBAC) pour déléguer le contrôle administratif des Skype Entreprise Server. Pour plus d’informations sur les cmdlets Skype Entreprise Server, voir [Skype Entreprise Server Management Shell.](../../manage/management-shell.md)
   

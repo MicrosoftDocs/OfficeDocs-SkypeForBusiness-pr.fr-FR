@@ -1,7 +1,7 @@
 ---
 title: Déployer des clients web téléchargeables dans Skype Entreprise Server
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Résumé : Déployez l’application Application Web Skype Entreprise et Skype Réunions utilisée avec Skype Entreprise.'
-ms.openlocfilehash: c262ab4e9180ae9e02bc899793437a86ffe12ead
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: abb0a24d234043d793b09a538cbff23d0d549ac0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761592"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842496"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Déployer des clients web téléchargeables dans Skype Entreprise Server
 
@@ -137,14 +137,14 @@ Cette procédure est facultative et s’applique Skype Entreprise Server cu5 201
 
     Les informations envoyées à Microsoft sont strictement conformes aux [pratiques Skype Entreprise de collecte de données.](/skypeforbusiness/legal-and-regulatory/data-collection-practices)
 
-3. Définissez le délai avant de revenir à l’expérience Application Web Skype Entreprise hébergée localement si CDN n’est pas disponible. La valeur par défaut est 6 secondes. Si cette valeur est définie sur 0, il n’y aura pas de délai d’accès.
+3. Définissez le délai avant de revenir à l’expérience de Application Web Skype Entreprise hébergée localement si CDN n’est pas disponible. La valeur par défaut est 6 secondes. Si cette valeur est définie sur 0, il n’y aura pas de délai d’accès.
 
    ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 
 > [!NOTE]
-> With MeetingUxUseCdn in Skype Entreprise Server 2015 Cumulative Update 5, the default value is set to False. Cela provoque un problème dans lequel le client Skype Entreprise pour Mac ne peut pas participer aux réunions des partenaires non fédérés en tant qu’invité, même si l’administrateur Skype Entreprise Skype Entreprise définie MeetingUxUseCdn sur True. Pour que cela fonctionne, Skype Entreprise Server 2015 doit avoir la mise à jour cumulative 7, 6.0.9319.534 ou ultérieure. Voir Activer Skype l’application Réunions pour remplacer Application Web Skype Entreprise [dans Skype Entreprise Server 2015.](https://support.microsoft.com/kb/4132312)
+> With MeetingUxUseCdn in Skype Entreprise Server 2015 Cumulative Update 5, the default value is set to False. Cela provoque un problème dans lequel le client Skype Entreprise pour Mac ne peut pas participer aux réunions des partenaires non fédérés en tant qu’invité, même si l’administrateur Skype Entreprise Skype Entreprise définie MeetingUxUseCdn sur True. Pour que cela fonctionne, Skype Entreprise Server 2015 doit avoir la mise à jour cumulative 7, 6.0.9319.534 ou ultérieure. Voir Activer Skype l’application Réunions pour remplacer les [Application Web Skype Entreprise dans Skype Entreprise Server 2015.](https://support.microsoft.com/kb/4132312)
 
 
 ## <a name="see-also"></a>Voir aussi

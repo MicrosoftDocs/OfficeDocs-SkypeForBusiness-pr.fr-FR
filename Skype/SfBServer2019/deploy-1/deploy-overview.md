@@ -2,7 +2,7 @@
 title: Déployer Skype Entreprise Server 2019
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/9/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Résumé : Explorez ces liens pour découvrir comment installer et configurer Skype Entreprise Server 2019.'
-ms.openlocfilehash: defa81886e5ae2cda536776b35722d3c08e9700e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 47005c5b1b236e9f93dec33bf10ddef80c96a3c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761618"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842506"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Déployer Skype Entreprise Server 2019
  
@@ -54,7 +54,7 @@ Les ressources suivantes sur la façon de planifier les Skype Entreprise Server 
   
 |&nbsp;|Contenu|Description|
 |:-----|:-----|:-----|
-|![Icône pour les documents.](/office/media/icons/paragraph-writing-blue.svg)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml)  |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements, etc.|
+|![Icône de Docs.](/office/media/icons/paragraph-writing-blue.svg)|[Skype Entreprise Server pour les professionnels de l’informatique](../../Hub/index.yml)  |Visitez le centre de ressources pour accéder à des vidéos, des sites communautaires, de la documentation, des téléchargements et bien plus encore.|
 |![Icône du contenu du développeur.](/office/media/icons/developer-blue.svg)|[Skype Plateforme pour les développeurs](/skype-sdk/skypedeveloperplatform)  |Trouvez des ressources pour les développeurs Skype Entreprise Server, notamment des exemples de code, des formations et des SDK.   |
 |![Icône d’actualités, de blogs, etc.](/office/media/icons/blog-site-blue.svg)|[Gestion et adoption des changements](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [blog Skype’équipe](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Tenez-vous au fait des actualités des équipes qui créent et documentent des Skype Entreprise Server.   |
 

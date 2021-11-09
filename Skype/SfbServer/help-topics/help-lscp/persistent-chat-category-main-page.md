@@ -2,7 +2,7 @@
 title: Catégorie de conversation permanente – Page principale
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: Vous pouvez utiliser la section Catégorie de la page Conversation permanente pour configurer des catégories. Une catégorie de salle de conversation permanente est une structure logique d’organisation des salles de conversation. Une catégorie définit un ensemble par défaut de listes de contrôle d’accès pour le contrôle des utilisateurs et groupes d’utilisateurs autorisés à créer ou rejoindre les salles de conversation. Vous pouvez utiliser des catégories pour appliquer des limites éthiques entre différentes subdivisions au sein de leurs organisations.
-ms.openlocfilehash: dd03180802cc8844f2b0a5d43c35f9d78a48bb32
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbbfb0185b463a6f63bb9016b77e4539a003505e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768952"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836576"
 ---
 # <a name="persistent-chat-category-main-page"></a>Catégorie de conversation permanente – Page principale
  
@@ -60,7 +60,7 @@ Vous pouvez effectuer les tâches suivantes dans la page **Catégorie** :
     
 8. Dans **Description**, fournissez une description détaillée de la catégorie de salle (exemple : catégorie de salle pour Contoso).
     
-9. Pour contrôler si les invitations peuvent être activées pour les salles de conversation appartenant à cette catégorie, activez ou activez la case à cocher Activer les **invitations.** S’il est sélectionné, les salles de cette catégorie peuvent avoir des invitations en cours ou non ; si elles sont effacées, les salles de cette catégorie ne sont pas autorisées à recevoir des invitations. Si une salle a des invitations, lorsqu’un nouveau membre est ajouté à une salle, il reçoit une notification de la nouvelle salle dans son client de conversation permanente.
+9. Pour contrôler si les invitations peuvent être activées pour les salles de conversation appartenant à cette catégorie, activez ou videz la case à cocher Activer **les invitations.** S’il est sélectionné, les salles de cette catégorie peuvent avoir des invitations en cours ou non ; si elles sont effacées, les salles de cette catégorie ne sont pas autorisées à recevoir des invitations. Si une salle a des invitations, lorsqu’un nouveau membre est ajouté à une salle, il reçoit une notification de la nouvelle salle dans son client de conversation permanente.
     
 10. Pour contrôler les téléchargements de fichiers dans les salles de conversation appartenant à cette catégorie, activez ou désactivez la case à cocher **Activer le téléchargement de fichiers**. Si la case à cocher est activée, les salles de cette catégorie peuvent activer ou désactiver les téléchargements de fichiers. Si la case à cocher est désactivée, les salles de cette catégorie ne sont pas autorisées à activer les téléchargements de fichiers.
     

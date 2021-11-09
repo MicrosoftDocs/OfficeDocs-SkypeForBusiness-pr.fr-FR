@@ -1,7 +1,7 @@
 ---
 title: Skype Déploiements locaux à forêt unique du système de salle
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: Lisez cette rubrique pour découvrir comment déployer Skype Room System dans un environnement local à forêt unique.
-ms.openlocfilehash: 8768ecfa8aba01074bee5315580fde79ba9c3afc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759146"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828417"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Déploiements locaux à forêt unique du système de salle
  
@@ -27,7 +27,7 @@ Cette section fournit une vue d’ensemble des étapes de mise en service du com
   
 ## <a name="single-forest-on-premises-deployments"></a>Déploiements sur site d’une forêt unique
 
-Si vous avez déjà un compte de boîte aux lettres de ressources pour la salle de conférence, vous pouvez l’utiliser. Dans le cas contraire, vous devrez en créer un. Vous pouvez utiliser Exchange Management Shell (PowerShell) ou console de gestion Exchange pour créer un compte de boîte aux lettres de ressources. Nous vous recommandons d’utiliser une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System. Avant de supprimer les données de boîte aux lettres, veillez à les réexporter vers la boîte aux lettres re-créée à l’aide du client Outlook (pour plus d’informations, voir Exporter ou back up messages, calendrier, tâches et contacts). Pour restaurer les réunions perdues en supprimant la boîte aux lettres, consultez [la Connecter ou restituer une boîte aux lettres supprimée.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
+Si vous avez déjà un compte de boîte aux lettres de ressources pour la salle de conférence, vous pouvez l’utiliser. Dans le cas contraire, vous devrez en créer un. Vous pouvez utiliser Exchange Management Shell (PowerShell) ou console de gestion Exchange pour créer un compte de boîte aux lettres de ressources. Nous vous recommandons d’utiliser une nouvelle boîte aux lettres de ressources (supprimer l’ancienne boîte aux lettres et la re-créer) pour Skype Room System. Avant de supprimer les données de boîte aux lettres, veillez à les réexporter vers la boîte aux lettres re-créée à l’aide du client Outlook (pour plus d’informations, voir Exporter ou back up messages, calendrier, tâches et contacts). Pour restaurer les réunions perdues en supprimant la boîte aux lettres, voir Connecter ou restaurer [une boîte aux lettres supprimée.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
   
 Pour utiliser un compte de boîte aux lettres de ressources existant (par exemple, LRS-01), suivez les étapes ci-dessous :
   
@@ -100,7 +100,7 @@ Après avoir créé un compte de boîte aux lettres de ressources pour les salle
 > [!NOTE]
 > La procédure suivante suppose que vous avez activé le compte Skype Room System dans Active Directory. 
   
-1. Exécutez la commande suivante pour activer le compte Skype Room System sur un pool Skype Entreprise Server de salles :
+1. Exécutez la commande suivante pour activer le compte Skype Room System sur un pool Skype Entreprise Server de salle :
     
    ```powershell
    Enable-CsMeetingRoom -SipAddress "sip:LRS01@contoso.com" -domaincontroller DC-ND-001.contoso.com -RegistrarPool LYNCPool15.contoso.com -Identity LRS01
@@ -114,4 +114,4 @@ Après avoir créé un compte de boîte aux lettres de ressources pour les salle
    ```
 
 > [!NOTE]
-> Si vous activez Voix Entreprise pour le compte de salle de conférence Skype Room System, veillez à configurer une stratégie de voix restreinte adaptée à votre organisation. Si le Skype Entreprise Salle de réunion est une ressource disponible publiquement, tout le monde peut l’utiliser pour participer à une réunion, qu’elle soit programmée ou ad hoc. Après avoir rejoint une réunion, la personne peut composer n’importe quel numéro. Dans Skype Entreprise Server, la fonctionnalité d’appel sortant des conférences utilise la stratégie de voix de l’utilisateur, dans ce cas, le compte Skype Room System utilisé pour participer à la réunion. Dans les versions antérieures de Lync Server, la stratégie de voix de l’organisateur est utilisée. Par conséquent, si un utilisateur d’une version antérieure de Lync Server organise une salle de réunion et invite le compte de salle Skype Room System, tout le monde peut utiliser le Skype Entreprise Salle de réunion pour participer à la réunion et composer n’importe quel numéro de téléphone national/régional ou international, à condition que l’organisateur soit autorisé à composer ces numéros. 
+> Si vous activez Voix Entreprise pour le compte de salle de conférence Skype Room System, veillez à configurer une stratégie de voix restreinte adaptée à votre organisation. Si le Skype Entreprise Salle de réunion est une ressource disponible publiquement, tout le monde peut l’utiliser pour participer à une réunion, qu’elle soit programmée ou ad hoc. Après avoir rejoint une réunion, la personne peut composer n’importe quel numéro. Dans Skype Entreprise Server, la fonctionnalité d’appel sortant des conférences utilise la stratégie de voix de l’utilisateur, dans ce cas, le compte Skype Room System utilisé pour participer à la réunion. Dans les versions antérieures de Lync Server, la stratégie de voix de l’organisateur est utilisée. Par conséquent, si un utilisateur d’une version antérieure de Lync Server planifiera une salle de réunion et invite le compte de salle Skype Room System, toute personne pourrait utiliser le Skype Entreprise Salle de réunion pour participer à la réunion et composer n’importe quel numéro de téléphone national/régional ou international, à condition que l’organisateur soit autorisé à composer ces numéros. 

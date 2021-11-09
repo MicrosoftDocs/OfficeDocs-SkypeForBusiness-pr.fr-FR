@@ -2,7 +2,7 @@
 title: Assistant hybride Déplacer un utilisateur
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,13 +14,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Utilisez l’Assistant Déplacement des utilisateurs pour déplacer les comptes d’utilisateurs d’un pool local pour qu’ils soient Skype Entreprise Online. Pour plus d’informations, voir Utiliser l’Assistant Gestion hybride.
-ms.openlocfilehash: eba11b6d146b706c202f759762036fad01769b8a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Utilisez l’Assistant Déplacement des utilisateurs pour déplacer les comptes d’utilisateurs d’un pool local pour qu’ils soient Skype Entreprise Online. Pour plus d’informations, voir l’Assistant Gestion hybride.
+ms.openlocfilehash: 3758fda6c1b299329be991f2e061598e769e7e7b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771352"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828247"
 ---
 # <a name="hybrid-wizard-move-user"></a>Assistant hybride : déplacer un utilisateur
 

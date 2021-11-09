@@ -2,7 +2,7 @@
 title: Nœud d’étendue du serveur Edge
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Ce nœud indique le nom de domaine complet (FQDN) du pool et d'autres paramètres basiques pour ce pool de serveurs Edge.  Vous pouvez effectuer les actions suivantes :"
-ms.openlocfilehash: 210488bec24cf1a42f5c47755eacee7023ece121
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 43a0dac84692f72e54bdd7be27338ca97eb17a88
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776744"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849157"
 ---
 # <a name="edge-server-scope-node"></a>Nœud d’étendue du serveur Edge
  

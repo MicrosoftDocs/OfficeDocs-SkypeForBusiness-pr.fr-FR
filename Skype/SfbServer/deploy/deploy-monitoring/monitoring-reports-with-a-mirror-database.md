@@ -2,7 +2,7 @@
 title: Associer des rapports de surveillance à une base de données miroir dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Résumé : Découvrez comment associer des rapports de surveillance à une base de données miroir utilisée par Skype Entreprise Server.'
-ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748850"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856211"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Associer des rapports de surveillance à une base de données miroir dans Skype Entreprise Server 
  
@@ -39,7 +39,7 @@ Pour que les rapports de surveillance soient automatiquement mis à jour vers la
     
    - Nom de l’instance de base de données où les rapports de surveillance sont installés (par exemple, **archinst**).
     
-     Par exemple, si SQL Server Reporting Services a été installé sur l’ordinateur et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil ressemble à `atl-sql-001.litwareinc.com` ceci :
+     Par exemple, si SQL Server Reporting Services été installé sur l’ordinateur et que les rapports de surveillance utilisent l’instance de base de données archinst, l’URL de la page d’accueil se `atl-sql-001.litwareinc.com` ressemblerait à ceci :
     
      `http://atl-sql-001.litwareinc.com/Reports_archinst`
     

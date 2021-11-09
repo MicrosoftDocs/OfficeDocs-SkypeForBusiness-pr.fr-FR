@@ -2,7 +2,7 @@
 title: Table IPAddress
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec018b9-158e-4bbe-ad46-869e60315555
 description: La table IPAddress mappe les adresses IP à des identificateurs d’adresse IP uniques utilisés dans la base de données Qualité de l’expérience. Ce tableau a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 004bdbbe652a275788293bb42cda2e779b698d65
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7a99971192d0f72f4130e3b88bf6e620af78270c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756173"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849597"
 ---
 # <a name="ipaddress-table"></a>Table IPAddress
  

@@ -1,6 +1,6 @@
 ---
 title: Faire connaître et implémenter une formation
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Découvrez comment faire connaître et implémenter un programme de formation pour Microsoft Teams’adoption.
+description: Découvrez comment améliorer la sensibilisation et mettre en œuvre un programme de formation pour Microsoft Teams’adoption.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753885"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842526"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Faire connaître et implémenter une formation à Microsoft Teams
 
@@ -41,11 +41,11 @@ Vos phases pilotes doivent respecter des étapes minimum :
 
 - Tenir des réunions planifiées régulières pour tenir informés les intervenants du projet
 - Mettez à disposition des documents d'auto-assistance, notamment des vidéos sur le produit.
-- Organisez une réunion de lancement avec les utilisateurs pilotes pour les motiver. L’importance de créer une communauté avec un intérêt ne peut pas être surévaluée.
+- Organisez une réunion de lancement avec les utilisateurs pilotes pour les motiver. L’importance de créer un sentiment de communauté avec intérêt ne peut pas être surévaluée.
 
-Une fois que vous avez travaillé tout au long de la phase pilote initiale, vous pouvez développer les efforts ci-dessus pour atteindre l’ensemble de votre organisation. Selon votre taille, cette approche peut prendre du temps et s’aborder par région, profil utilisateur ou organisation. Pendant ce déploiement à grande échelle, encouragez la participation des communicateurs au sein de votre organisation. Nous recommandons à ces personnes d’être impliquées de façon anticipée et souvent lorsque vous utilisez les documents d’adoption disponibles ou créez vos propres documents.
+Une fois que vous avez travaillé au cours de la phase pilote initiale, vous pouvez développer les efforts ci-dessus pour atteindre l’ensemble de votre organisation. En fonction de votre taille, cette approche peut prendre du temps et s’aborder par région, profil utilisateur ou organisation. Pendant ce déploiement à grande échelle, encouragez la participation des communicateurs au sein de votre organisation. Nous recommandons à ces personnes d’être impliquées de façon anticipée et souvent lorsque vous utilisez les documents d’adoption disponibles ou créez vos propres documents.
 
-Si votre entreprise dispose d’un portail intranet central pour les actualités, les informations ou le support, vous pouvez l’utiliser comme hub pour obtenir des informations sur ce déploiement. La fourniture d’informations, de formations et de conseils écrits à grande échelle permet aux utilisateurs d’être rapidement intégrés. De nombreux utilisateurs passeront simplement à l’Teams dès que celle-ci sera disponible et nous encourageons cela. Nous savons également que chaque individu apprend de différentes façons ; Un portail d’informations central peut prendre en charge tous les styles d’apprentissage au sein de votre organisation.
+Si votre entreprise dispose d’un portail intranet central pour les actualités, les informations ou le support, vous pouvez l’utiliser comme hub pour obtenir des informations sur ce déploiement. La fourniture d’informations, de formations et de conseils écrits largement disponibles permet aux utilisateurs d’être rapidement intégrés. De nombreux utilisateurs passeront simplement à l’Teams dès que celle-ci sera disponible et nous encourageons cela. Nous savons également que chaque individu apprend de différentes façons ; Un portail d’informations central peut prendre en charge tous les styles d’apprentissage au sein de votre organisation.
 
 ## <a name="implement-end-user-training"></a>Mettre en œuvre la formation des utilisateurs finux
 

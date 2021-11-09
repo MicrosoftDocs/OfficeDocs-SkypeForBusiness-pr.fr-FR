@@ -2,7 +2,7 @@
 title: Expandeur des paramètres de jonction vidéo SIP
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les étapes nécessaires à la définition d’un nouveau vis ou d’une passerelle vidéo dans le Générateur de topologie sont décrites en ligne dans Créer un pool vis dans Skype Entreprise Server.
-ms.openlocfilehash: cc9bfa68170a994ff0a05790ec7498574717d63e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ce81153e314734882d84faa14ed369651facd32c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766852"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836716"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>Expandeur des paramètres de jonction vidéo SIP
  

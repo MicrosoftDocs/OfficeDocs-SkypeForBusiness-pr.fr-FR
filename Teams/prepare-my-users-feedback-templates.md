@@ -1,6 +1,6 @@
 ---
 title: Enquêtes de commentaires dans Teams ou Skype Entreprise
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e98ec763d93609d0b5b4a37cf6fa02b71c478def
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773434"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836032"
 ---
 # <a name="user-feedback-surveys"></a>Enquêtes de commentaires des utilisateurs 
 

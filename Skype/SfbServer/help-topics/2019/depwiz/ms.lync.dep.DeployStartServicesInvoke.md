@@ -2,7 +2,7 @@
 title: Démarrer les services (Invoke)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: Le volet Résumé du volet Exécution de commandes affiche l’état des tâches émises pour démarrer les services pour le serveur de rôles Skype Entreprise Server que vous déployez.
-ms.openlocfilehash: 8dfb735cb68e4af885cda0dec84a586f3891379f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4e1dcf8a9118e21bff1ebaeaa0816c7ea0c9fc75
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758926"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856191"
 ---
 # <a name="start-services-invoke"></a>Démarrer les services (appeler)
  

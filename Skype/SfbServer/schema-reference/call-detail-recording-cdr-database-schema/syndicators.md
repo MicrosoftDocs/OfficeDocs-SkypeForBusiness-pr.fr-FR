@@ -2,7 +2,7 @@
 title: Table Syndicators
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
 description: SyndicatorsTable est uniquement utilisé en interne. Ce tableau a été introduit dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 4d002913dad40c1f4e309e6baca5a2d8f893dc80
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 452d538701421ef68f30f6126dbcde89984b0525
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761942"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863371"
 ---
 # <a name="syndicators-table"></a>Table Syndicators
  

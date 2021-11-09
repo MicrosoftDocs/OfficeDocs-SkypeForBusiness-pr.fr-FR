@@ -2,7 +2,7 @@
 title: Table ErrorReport dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: La table ErrorReport stocke des informations sur les erreurs qui se sont produites. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyées à partir du client.
-ms.openlocfilehash: fd74743ed0b9dcd2fb9bb4cfa651f840528cb58c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3047ede92ec248f612249a27b7c04fc3c9f046c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745770"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849637"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Table ErrorReport dans Skype Entreprise Server 2015
  
@@ -35,9 +35,9 @@ La table ErrorReport stocke des informations sur les erreurs qui se sont produit
 |**SessionIdTime** <br/> |DateHeure  <br/> |Étranger  <br/> |Utilisée conjointement avec **SessionIdSeq** pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Étranger  <br/> |Numéro d’ID pour identifier la session. Utilisé conjointement avec **SessionIdTime** pour identifier de manière unique une session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |
 |**SourceId** <br/> |int  <br/> |Étranger  <br/> |Serveur qui a envoyé le rapport d’erreurs (si le rapport est envoyé à partir d’un composant serveur). Pour plus [d’informations, voir](servers.md) la table Servers. <br/> Ce champ a été introduit dans Microsoft Lync Server 2013.  <br/> |
-|**ApplicationId** <br/> |int  <br/> |Étranger  <br/> |Serveur qui a envoyé le rapport d’erreurs (si le rapport est envoyé à partir d’un composant serveur). Pour plus d’informations, voir le tableau [Application Skype Entreprise Server 2015.](application.md) <br/> Ce champ a été introduit dans Microsoft Lync Server 2013.  <br/> |
+|**ApplicationId** <br/> |int  <br/> |Étranger  <br/> |Serveur qui a envoyé le rapport d’erreurs (si le rapport est envoyé à partir d’un composant serveur). Pour plus [d’informations, voir la table Application Skype Entreprise Server 2015.](application.md) <br/> Ce champ a été introduit dans Microsoft Lync Server 2013.  <br/> |
 |**MsDiagHeader** <br/> |image  <br/> | <br/> |Plus d’informations sur l’erreur.  <br/> Ces données peuvent être converties au format texte à l’aide de cette syntaxe :  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |
-|**ClientVersionId** <br/> |int  <br/> |Étranger  <br/> |Version du client du point de terminaison qui envoie le rapport d’erreurs. Pour plus [d’informations, voir le tableau ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
+|**ClientVersionId** <br/> |int  <br/> |Étranger  <br/> |Version du client du point de terminaison qui envoie le rapport d’erreurs. Pour plus [d’informations, voir la table ClientVersions Skype Entreprise Server 2015.](clientversions.md) <br/> |
 |**IsCapturedByServer** <br/> |bit  <br/> ||Est-ce que le rapport d’erreurs est capturé par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyé par le client.  <br/> |
 |**Indicateur** <br/> |smallint  <br/> ||Réservé à un usage ultérieur.  <br/> |
 |**TelemetryId** <br/> |uniqueIdentifier  <br/> ||Identificateur unique corrélant les informations d’heure de participation pour les différents composants impliqués dans une conférence.  <br/> Ce champ a été introduit dans Microsoft Lync Server 2013.  <br/> |

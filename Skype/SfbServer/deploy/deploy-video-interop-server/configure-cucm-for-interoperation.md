@@ -2,7 +2,7 @@
 title: Configurer CUCM pour l’interopération avec Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,19 +13,19 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Résumé : Configurez CUCM pour qu’il fonctionne avec Skype Entreprise Server.'
-ms.openlocfilehash: 809ad19e89f398c507673ec677b4ce882d341327
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741320"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863091"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurer CUCM pour l’interopération avec Skype Entreprise Server
  
 **Résumé :** Configurez CUCM pour qu’il fonctionne avec Skype Entreprise Server.
   
 > [!CAUTION]
-> Cette fonctionnalité est testée avec Cisco Unified Communications Manager (CallManager, ou CUCM) version 10.5 à l’aide de l’installation de trunks sur TCP uniquement. Vérifiez que l’environnement CUCM répond à ces critères avant de poursuivre. 
+> Cette fonctionnalité est testée avec Cisco Unified Communications Manager (CallManager, ou CUCM) version 10.5 à l’aide de l’installation de Trunks sur TCP uniquement. Vérifiez que l’environnement CUCM répond à ces critères avant de poursuivre. 
   
 Les paramètres décrits ici ne sont destinés qu’à des exemples de la façon dont CUCM peut être configuré pour fonctionner avec un VIS. D’autres paramètres et/ou utilisations d’autres fonctionnalités CUCM peuvent également être utilisés pour obtenir le même résultat. Aucune recommandation n’est implicite quant à la configuration optimale pour un scénario particulier.
   
@@ -39,7 +39,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     
 3. Accédez à Administration CM unifiée Cisco - \> Routage des appels - \> Classe de contrôle - Espace de recherche \> d’appel.
     
-4. Dans l’écran Configuration de l’espace de recherche d’appel, entrez le nom de l’espace de recherche appelant, puis, dans Partitions sélectionnées, entrez le nom de la partition que vous avez créée. Cliquez **sur Enregistrer** lorsque vous avez terminé.
+4. Dans l’écran Configuration de l’espace de recherche d’appel, entrez le nom de l’espace de recherche appelant, puis dans Partitions sélectionnées, entrez le nom de la partition que vous avez créée. Cliquez **sur Enregistrer** lorsque vous avez terminé.
     
 5. Accédez à Administration CM unifiée Cisco – \> Système - Sécurité - Profil de sécurité de la ligne \> \> SIP.
     
@@ -70,7 +70,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     
 12. Lorsque vous avez terminé, cliquez sur **Ajouter nouveau**.
     
-13. Accédez à Administration CM unifiée Cisco - \> Appareil- \> Trunk. 
+13. Accédez à Administration CM unifiée Cisco - \> Appareil - \> Trunk. 
     
 14. Définissez le protocole de périphérique sur SIP et appuyez sur **Suivant**.
     
@@ -86,7 +86,7 @@ Un certain nombre de paramètres CUCM doivent être confirmés ou modifiés pour
     |Espace de recherche d’appel AAR  <br/> |CSS_SfBVideoInterop  <br/> |
     |CSS de transformation de partie connectée  <br/> |CSS_SfBVideoInterop  <br/> |
    
-18. Faites défiler vers le bas. Sous la section Destination des informations SIP de la configuration de tronçon SIP, spécifiez le FQDN du pool VIS ou l’adresse IP des serveurs VIS individuels du pool (ajout de plusieurs entrées). Dans le port de destination, spécifiez le port sur qui le VIS écoute les connexions à partir de CUCM (la valeur par défaut est 6001). Spécifiez également le profil de sécurité de la trunk SIP et le profil SIP que vous avez créés précédemment, comme illustré.
+18. Faites défiler vers le bas. Sous la section Destination des informations SIP de la configuration de tronçon SIP, spécifiez le FQDN du pool VIS ou l’adresse IP des serveurs VIS individuels du pool (ajout de plusieurs entrées). Dans le port de destination, spécifiez le port d’écoute du VIS pour les connexions à partir de CUCM (la valeur par défaut est 6001). Spécifiez également le profil de sécurité de la trunk SIP et le profil SIP que vous avez créés précédemment, comme illustré.
     
     |**Paramètre**|**Valeur recommandée**|
     |:-----|:-----|

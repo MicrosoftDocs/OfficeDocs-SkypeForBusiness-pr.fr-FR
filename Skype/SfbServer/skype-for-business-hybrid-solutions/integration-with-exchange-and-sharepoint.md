@@ -2,7 +2,7 @@
 title: Intégration avec Exchange et Microsoft Office SharePoint Online
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Résumé : Découvrez l’intégration Skype Entreprise Server 2015 avec Exchange et SharePoint.'
-ms.openlocfilehash: 6805296716970df896a42a3e01a89eb212930ecb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b599567742cf55d43c1c20c0efcce07a88c86d6c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746510"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863191"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Intégration avec Exchange et Microsoft Office SharePoint Online
 
@@ -75,9 +75,9 @@ Les tableaux suivants listent les fonctionnalités prise en charge dans un dépl
 |Liste des contacts (via le magasin de contacts unifié).  <br/> |Lync Server 2013 uniquement. Un client de bureau Lync 2013 ou Skype Entreprise de bureau est requis.  <br/> Pour plus d’informations, [voir Configure Skype Entreprise Server 2015 to use the unified contact store](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Photo de contact haute résolution dans le client Lync 2013, Skype Entreprise client et Lync Web App.  <br/> |Pour plus d’informations, [voir Configure the use of high-resolution photos in Skype Entreprise Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Pour les photos sur l’application Skype Entreprise pour MAC et Mobile, l’intégration entre Skype Entreprise Server 2015 et Exchange Server doit être configurée comme décrit dans Configurer l’intégration entre Skype Entreprise Server local et [Outlook Web App.](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |Délégation de réunion  <br/> |Pris en charge uniquement lorsque les deux utilisateurs sont en ligne dans la même forêt, ou que les deux sont tous deux locaux. Pour plus d’informations, [voir Skype Entreprise solutions hybrides.](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions) <br/> |
-|L’historique des conversations manquées et les journaux des appels sont écrits dans la boîte aux lettres Exchange’utilisateur  <br/> ||
+|L’historique des conversations manquées et les journaux d’appels sont écrits dans la boîte aux lettres Exchange’utilisateur  <br/> ||
 |Archivage de contenu (messagerie instantanée et réunion) dans Exchange  <br/> |Pour plus d’informations, [voir Deployment Checklist for Archiving](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving).  <br/> |
-|Rechercher du contenu archivé  <br/> |Pour plus d’informations, consultez la [Exchange configurer SharePoint centre eDiscovery](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
+|Rechercher du contenu archivé  <br/> |Pour plus d’informations, consultez [la Exchange configurer SharePoint centre eDiscovery](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
 |Messagerie vocale  <br/> |Pour plus d’informations, voir [Providing Lync Server 2013 Users Voice Mail on Hosted Exchange UM](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um).  <br/> |
 
 

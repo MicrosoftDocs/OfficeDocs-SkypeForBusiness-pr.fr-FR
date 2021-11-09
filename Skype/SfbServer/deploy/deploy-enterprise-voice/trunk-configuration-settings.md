@@ -1,8 +1,8 @@
 ---
-title: 'Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk'
+title: Créer une collection de paramètres de configuration de Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Résumé : Découvrez comment créer une collection de paramètres de configuration de Skype Entreprise Server panneau de configuration.'
-ms.openlocfilehash: 95eae0c14aad532b3f3f80e01c2acc0918751496
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2a6db1b82693ce78bd48ff8cc816503026871a09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755653"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856291"
 ---
-# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype Entreprise Server : créer une collection de paramètres de configuration de la trunk
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Créer une collection de paramètres de configuration de Skype Entreprise Server
 
 **Résumé :** Découvrez comment créer une collection de paramètres de configuration de la Skype Entreprise Server panneau de configuration.
   
@@ -53,12 +53,12 @@ Lorsque vous créez des paramètres de configuration de Skype Entreprise Server 
 |Activer les données de transfert P-Asserted-Identity  <br/> |ForwardPAI  <br/> |Indique si l’en-tête P-Asserted-Identity (PAI) sera transféré avec l’appel. L’en-tête PAI permet de vérifier l’identité de l’appelant.  <br/> |
 |Activer le minuteur de basculement de routage de trafic sortant  <br/> |EnableFastFailoverTimer  <br/> |Indique si les appels sortants auxquels la passerelle ne répond pas dans les 10 secondes seront acheminés vers la jonction suivante disponible ; s’il n’existe aucune jonction supplémentaire, l’appel est automatiquement abandonné. Dans une organisation avec des réponses de passerelle ou réseau lentes, cela peut entraîner l’abandon de nombreux appels.  <br/> |
 |Utilisations PSTN associées  <br/> |PSTNUsages  <br/> |Collection d’utilisations PSTN assignées à la jonction.  <br/> |
-|Numéro traduit à tester  <br/> |N/A  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.  <br/> |
+|Numéro traduit à tester  <br/> |S/O  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des paramètres de configuration des jonctions.  <br/> |
 |Règles de traduction associées  <br/> |OutboundTranslationRulesList  <br/> |Collection de règles de traduction de numéros de téléphone qui s’appliquent aux appels gérés par le routage sortant (appels acheminés vers les destinations PBX ou PSTN).  <br/> |
 |Règles de traduction du numéro appelé  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |Collection de règles de traduction de numéro d’appel sortant assignées à la jonction.  <br/> |
-|Numéro de téléphone à tester  <br/> |N/A  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.  <br/> |
-|Numéro appelant  <br/> |N/A  <br/> |Indique que le numéro de téléphone à tester est celui de l’appelant.  <br/> |
-|Numéro appelé  <br/> |N/A  <br/> |Indique que le numéro de téléphone à tester est celui de la personne appelée.  <br/> |
+|Numéro de téléphone à tester  <br/> |S/O  <br/> |Numéro de téléphone pouvant être utilisé pour effectuer un test ad hoc des règles de traduction.  <br/> |
+|Numéro appelant  <br/> |S/O  <br/> |Indique que le numéro de téléphone à tester est celui de l’appelant.  <br/> |
+|Numéro appelé  <br/> |S/O  <br/> |Indique que le numéro de téléphone à tester est celui de la personne appelée.  <br/> |
    
 > [!NOTE]
 > Les Skype Entreprise Server cmdlets CsTrunkConfiguration peuvent prendre en charge des propriétés supplémentaires qui ne sont pas affichées Skype Entreprise Server panneau de configuration. Pour plus d’informations, consultez la rubrique d’aide de l';cmdlet [New-CsTrunkConfiguration.](/powershell/module/skype/new-cstrunkconfiguration)

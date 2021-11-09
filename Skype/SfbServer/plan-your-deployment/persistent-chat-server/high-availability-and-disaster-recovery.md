@@ -2,7 +2,7 @@
 title: Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Résumé : Lisez cette rubrique pour découvrir comment planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: 55ab4da8fbb5e0ddd6c2eaa3c8912a472d8e112f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 042080aebf57a14554820eea9b5bb9d5c9bb1f71
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740390"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836226"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planifier la haute disponibilité et la récupération d’urgence pour le serveur de conversation permanente Skype Entreprise Server 2015
  
@@ -42,7 +42,7 @@ Avant de configurer le serveur de conversation permanente pour la haute disponib
     
 - Une instance de base de données dédiée qui sert de miroir SQL Server pour la base de données secondaire. Désignez éventuellement une SQL Server serveur en tant que témoin de mise en miroir. Elles doivent toutes deux se situer dans le même centre de données physique que la base de données secondaire.
     
-- Si la conformité du serveur de conversation permanente est activée, trois instances de base de données dédiées supplémentaires sont requises. Leur distribution est identique à celle précédemment décrite pour la base de données de conversation permanente. Bien qu’il soit possible pour la base de données de conformité de partager la même instance SQL Server que la base de données de conversation permanente, les instances autonomes pour la haute disponibilité et la récupération d’urgence sont recommandées.
+- Si la conformité du serveur de conversation permanente est activée, trois instances de base de données dédiées supplémentaires sont requises. Leur distribution est identique à celle précédemment décrite pour la base de données de conversation permanente. Bien qu’il soit possible pour la base de données de conformité de partager la même instance SQL Server que la base de données de conversation permanente, des instances autonomes pour la haute disponibilité et la récupération d’urgence sont recommandées.
     
 - Un partage de fichiers doit être créé et désigné pour les journaux de transaction de SQL Server journaux de transaction. Tous SQL serveurs des deux centres de données qui exécutent des bases de données de conversation permanente doivent avoir un accès en lecture/écriture à ce partage de fichiers. Il n’est pas défini avec un rôle FileStore.
     
@@ -66,7 +66,7 @@ La figure 1 illustre une topologie de pool de serveurs de conversation permanent
   
 - La topologie logique se compose des suivants :
     
-  - Un pool de conversation permanente sur les sites 1 et 2 contenant les serveurs 1 à 8.
+  - Pool de conversation permanente sur les sites 1 et 2 contenant les serveurs 1 à 8.
     
   - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non représentée dans le diagramme) résidant physiquement sur le site 1. 
     
@@ -78,9 +78,9 @@ La figure 1 illustre une topologie de pool de serveurs de conversation permanent
     
   - Un pool de conversation permanente, contenant les serveurs 5 à 8, deux actifs, deux inactifs sur site 2.
     
-  - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non affichée dans le diagramme) sur le site 1.
+  - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non représentée dans le diagramme) sur le site 1.
     
-  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de réception, sur le site 2.
+  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de livraison, sur le site 2.
     
 **Pool de serveurs de conversation permanente étiré lorsque les centres de données sont localisés géographiquement avec une bande passante élevée/faible latence**
 
@@ -90,7 +90,7 @@ La figure 2 illustre une topologie de pool de serveurs de conversation permanent
   
 - La topologie logique se compose des suivants :
     
-  - Un pool de conversation permanente sur les sites 1 et 2 contenant les serveurs 1 à 8.
+  - Pool de conversation permanente sur les sites 1 et 2 contenant les serveurs 1 à 8.
     
   - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non représentée dans le diagramme) résidant physiquement sur le site 1. 
     
@@ -102,9 +102,9 @@ La figure 2 illustre une topologie de pool de serveurs de conversation permanent
     
   - Un pool de conversation permanente, contenant les serveurs 5 à 8, tous inactifs, sur le site 2.
     
-  - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non affichée dans le diagramme) sur le site 1.
+  - Un pool de serveurs frontux, une base de données de conversation permanente, une base de données en miroir et, éventuellement, une base de données témoin (non représentée dans le diagramme) sur le site 1.
     
-  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de livraison, sur le site 2.
+  - Un pool de serveurs frontux et une base de données de sauvegarde, qui est la cible SQL copie des journaux de réception, sur le site 2.
     
 **Pool de serveurs de conversation permanente étiré lorsque les centres de données sont localisés géographiquement avec une bande passante faible/latence élevée**
 

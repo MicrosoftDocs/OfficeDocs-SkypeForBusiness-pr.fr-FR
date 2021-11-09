@@ -2,7 +2,7 @@
 title: 'Configuration d’un itinéraire de région réseau : création d’un itinéraire ou modification d’un itinéraire existant'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 694b3260-770f-489e-b2dd-cb8e026afdbe
 description: Que voulez-vous faire ? Cliquez sur le lien correspondant à la tâche que vous voulez effectuer.
-ms.openlocfilehash: 560cbf62c6cb223ca88070222c9c388c0a5391d5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c5e9899f9feff5d3701939d0301a29ce65fbef7e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750543"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828007"
 ---
 # <a name="configure-a-network-region-route-create-new-or-edit-existing"></a>Configuration d’un itinéraire de région réseau : création d’une nouvelle ou modification d’une configuration existante
 

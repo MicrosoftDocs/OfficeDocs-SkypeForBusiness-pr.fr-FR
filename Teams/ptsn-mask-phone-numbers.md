@@ -1,6 +1,6 @@
 ---
 title: Masquage des numéros de téléphone Microsoft Teams réunions
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: moakram
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Découvrir comment masquer des numéros de téléphone dans Microsoft Teams réunions
-ms.openlocfilehash: d34d2f38a3a1fe2219816184a5f127312cd0475e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: afdbaa4f2f437728aad14e3731ab3e26ba90f36d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758266"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828427"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Masquage des numéros de téléphone Microsoft Teams réunions
 
@@ -35,9 +35,9 @@ Pour des cas d’utilisation spécifiques dans le secteur, les administrateurs o
 
 - Téléphone de participants externes sont masqués uniquement. Les participants qui appartiennent au client de l’organisateur de la réunion voient toujours le numéro de téléphone complet.
 - Téléphone numéros sont masqués pour toutes les personnes de la réunion à l’exception de l’organisateur.
-- Téléphone numéros de réunion ne sont pas tâches, ce qui les rend visibles à tous les autres personnes de la réunion.
+- Téléphone de réunion ne sont pas tâches, ce qui les rend visibles à tous les autres personnes de la réunion.
 
-Ce paramètre s’applique à toutes les surfaces de la réunion où les numéros de téléphone sont exposés.
+Ce paramètre est appliqué à toutes les surfaces de la réunion où les numéros de téléphone sont exposés.
 
 ## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Utiliser Microsoft PowerShell pour définir le masquage des numéros de téléphone
 

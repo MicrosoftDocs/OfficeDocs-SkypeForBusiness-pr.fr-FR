@@ -2,7 +2,7 @@
 title: Table AudioStream
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Chaque enregistrement représente un flux audio. Une ligne de média audio contient généralement deux flux audio.
-ms.openlocfilehash: 0ca913e042b988d20aad644af65fed7970d2afa8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b9a5e184a258115934d3583e4f6cde8f659fb9fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763252"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856421"
 ---
 # <a name="audiostream-table"></a>Table AudioStream
  
@@ -34,9 +34,9 @@ Chaque enregistrement représente un flux audio. Une ligne de média audio conti
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Gigue réseau maximum pendant l’appel.  <br/> |
 |**PacketLossRate** <br/> |decimal(5,4)  <br/> | <br/> |Taux moyen de perte de paquets pendant l’appel.  <br/> |
 |**PacketLossRateMax** <br/> |decimal(5,4)  <br/> | <br/> |Perte maximale de paquets observée pendant l’appel.  <br/> |
-|**BurstDensity** <br/> |décimal(9,4)  <br/> | <br/> |Densité moyenne de perte de paquets pendant les rafales de pertes pendant l’appel.  <br/> |
+|**BurstDensity** <br/> |decimal(9,4)  <br/> | <br/> |Densité moyenne de perte de paquets pendant les rafales de pertes pendant l’appel.  <br/> |
 |**BurstDuration** <br/> |int  <br/> | <br/> |Durée moyenne de perte de paquets pendant les rafales de pertes au cours de l’appel.  <br/> |
-|**BurstGapDensity** <br/> |décimal(9,4)  <br/> | <br/> |Densité moyenne de perte de paquets pendant les intervalles entre rafales de pertes de paquets.  <br/> |
+|**BurstGapDensity** <br/> |decimal(9,4)  <br/> | <br/> |Densité moyenne de perte de paquets pendant les intervalles entre rafales de pertes de paquets.  <br/> |
 |**BurstGapDuration** <br/> |int  <br/> | <br/> |Durée moyenne des intervalles entre les rafales de pertes de paquets.  <br/> |
 |**PacketUtilization** <br/> |Int  <br/> | <br/> |Nombre de paquets pour le flux audio.  <br/> |
 |**BandwidthEst** <br/> |Int  <br/> | <br/> |Estimations de la bande passante pour le flux audio.  <br/> |
@@ -77,9 +77,9 @@ Chaque enregistrement représente un flux audio. Une ligne de média audio conti
 |**RelativeOneWayTotal** <br/> |float  <br/> ||Quantité totale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayAverage** <br/> |float  <br/> ||Quantité moyenne de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayMax** <br/> |float  <br/> ||Quantité maximale de latence unidirectionnelle. La latence unidirectionnelle relative mesure le retard entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||Densité totale des rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale des rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux de données régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences de rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |float  <br/> ||Densité totale des rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |float  <br/> ||Durée totale des rafales unidirectionnelles. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Nombre total d’occurrences d’intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayGapDensity** <br/> |float  <br/> ||Densité totale des intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |
 |**RelativeOneWayGapDuration** <br/> |float  <br/> ||Durée totale des intervalles unidirectionnels. Une transmission « par rafales » est une transmission dans laquelle les données sont diffusées en rafales imprévisibles par opposition à un flux régulier ; les intervalles indiquent des retards entre ces rafales. Cette valeur mesure le flux de données entre le client et le serveur.  <br/> Cette colonne a été introduite dans Microsoft Lync Server 2013.  <br/> |

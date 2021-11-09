@@ -2,7 +2,7 @@
 title: Créer un partage de fichiers dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: "Résumé : Découvrez comment créer un partage de fichiers Windows Server dans le cadre de l’installation de Skype Entreprise Server. Téléchargez une version d’Skype Entreprise Server gratuite à partir du Centre d’évaluation Microsoft à https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server l':."
-ms.openlocfilehash: c14d7a765a4b55e1fe909f33f4e038062427872b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2b1048d911243987313568acde2bccea068fff9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751173"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842376"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Créer un partage de fichiers dans Skype Entreprise Server
  
@@ -37,9 +37,9 @@ Skype Entreprise Server nécessite un partage de fichiers pour que les ordinateu
 Cette section vous présente la création d’un partage de Windows serveur de base. Un partage de Windows serveur de base est pris en charge avec Skype Entreprise Server. Toutefois, il ne fournit pas explicitement la haute disponibilité. Pour un environnement de haute disponibilité, un partage de fichiers DFS (Distributed File System) est recommandé. Pour plus d’informations sur un partage de fichiers haute disponibilité et DFS, voir Planifier la haute disponibilité et la récupération d’urgence [dans Skype Entreprise Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
-> Windows Server 2012 R2 a réalisé des sauts majeurs en fournissant des solutions de partage de fichiers de Stockage (SAN) à l’aide de la plateforme Windows Server. Comparée à une appliance SAN traditionnelle, une solution de stockage Windows Server 2012 R2 peut réduire les coûts de moitié avec un impact très faible sur les performances. Pour plus d’informations sur les options de partage de fichiers Windows Server 2012 R2, consultez le livre blanc [téléchargeable Windows Server 2012 R2 Stockage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 
+> Windows Server 2012 R2 a effectué des sauts majeurs dans la fourniture de solutions de partage de fichiers de Stockage (SAN) à l’aide de la plateforme Windows Server. Comparée à une appliance SAN traditionnelle, une solution de stockage Windows Server 2012 R2 peut réduire les coûts de moitié avec un impact très faible sur les performances. Pour plus d’informations sur les options de partage de fichiers Windows Server 2012 R2, consultez le livre blanc [téléchargeable Windows Server 2012 R2 Stockage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf). 
   
-Regardez les étapes de la vidéo **pour créer un partage de fichiers**:
+Regardez les étapes vidéo pour **créer un partage de fichiers**:
   
 > [!video https://www.microsoft.com/videoplayer/embed/dbef31be-e899-4a32-a1ca-370053284f56?autoplay=false]
   
@@ -66,7 +66,7 @@ Regardez les étapes de la vidéo **pour créer un partage de fichiers**:
 > [!NOTE]
 >Si le magasin de fichiers est hébergé sur un partage DFS, l’avertissement suivant est reçu :
 
-Avertissement : Impossible d’accéder aux autorisations de partage pour « \\ <domain> \<share> ».
+`Warning: Unable to access share permissions for "\\<domain>\<share>".`
 
 >Cela est attendu si vous n’êtes pas administrateur sur le serveur de fichiers ou s’il s’agit d’un partage de système de fichiers distribués (DFS). Si les autorisations de partage ont déjà été configurées, cet avertissement peut être ignoré. S’il s’agit d’un nouveau partage, reportez-vous à la documentation pour plus d’informations sur la configuration manuelle des autorisations de partage.
 

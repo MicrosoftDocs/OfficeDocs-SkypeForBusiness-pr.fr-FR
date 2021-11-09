@@ -2,7 +2,7 @@
 title: Utiliser l Office PERSONNALISATION (PERSONNALISATION) dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Résumé : Comment utiliser l’outil Office Personnalisation avec le client Skype Entreprise client.'
-ms.openlocfilehash: 435ce2e1b9644fe5f30968a0766abe69165ca387
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c561fe9865d06b26ea46981bdf528515a465deea
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738950"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830678"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Utiliser l Office PERSONNALISATION (PERSONNALISATION) dans Skype Entreprise Server
  
@@ -33,7 +33,7 @@ L' OCT fait partie de l’installation et est utilisé uniquement pour les versi
   
 Les administrateurs utilisent l’PERSONNALISATION pour créer un fichier .msp de personnalisation de l’installation et peuvent personnaliser les domaines suivants :
   
-- **Configuration** Permet de spécifier l’emplacement d’installation par défaut sur le client et le nom de l’organisation par défaut, des sources d’installation réseau supplémentaires, la clé de produit, le contrat de licence utilisateur final, le niveau d’affichage, les versions antérieures de Office à supprimer, les programmes personnalisés à exécuter pendant l’installation, les paramètres de sécurité et les propriétés d’installation.
+- **Installation** Permet de spécifier l’emplacement d’installation par défaut sur le client et le nom de l’organisation par défaut, des sources d’installation réseau supplémentaires, la clé de produit, le contrat de licence utilisateur final, le niveau d’affichage, les versions antérieures de Office à supprimer, les programmes personnalisés à exécuter pendant l’installation, les paramètres de sécurité et les propriétés d’installation.
     
 - **Fonctionnalités** Permet de configurer les paramètres utilisateur et de personnaliser la façon dont Office fonctionnalités sont installées. Les administrateurs peuvent utiliser l’outil de personnalisation Office pour spécifier les valeurs par défaut initiales des paramètres de l’application Office pour les utilisateurs. Ces derniers peuvent modifier la plupart des paramètres après l’installation.
     

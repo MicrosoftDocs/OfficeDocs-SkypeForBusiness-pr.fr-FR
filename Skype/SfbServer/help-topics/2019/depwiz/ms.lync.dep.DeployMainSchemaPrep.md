@@ -2,7 +2,7 @@
 title: Préparer un schéma
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Pour préparer le schéma pour les services de domaine Active Directory, exécutez l’étape Préparer le schéma dans l Skype Entreprise Server De déploiement. Cliquez sur Exécuter pour commencer la préparation du schéma.
-ms.openlocfilehash: 6eb657bab4f4985c6ea5dd6d75c93f2e42cd6ef0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 88a9ca5f93263b4d8a514db3c987bcd3a63d87a0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738621"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842346"
 ---
 # <a name="prepare-schema"></a>Préparer un schéma
  
@@ -29,7 +29,7 @@ Pour préparer le schéma pour les services de domaine Active Directory, exécut
 > [!IMPORTANT]
 > Pour étendre le schéma, vous devez être connecté au domaine en tant que membre du groupe Administrateurs du schéma et du groupe Administrateurs d’entreprise. 
   
-Des classes et des attributs sont ajoutés pour étendre le schéma des services de domaine Active Directory pour prendre en charge Skype Entreprise Server serveur, service et objets utilisateur. Avant d’étendre le schéma, effectuez une sauvegarde de l’état du système du contrôleur de domaine qui contient le rôle de contrôleur de schéma. 
+Des classes et des attributs sont ajoutés pour étendre le schéma des services de domaine Active Directory afin de prendre en charge Skype Entreprise Server serveur, service et objets utilisateur. Avant d’étendre le schéma, effectuez une sauvegarde de l’état du système du contrôleur de domaine qui contient le rôle de contrôleur de schéma. 
   
 > [!CAUTION]
 > Cette opération est irréversible. Vous devez faire tout votre possible pour limiter l’impact potentiel d’un échec de l’extension du schéma et pour garantir la réussite de l’extension du schéma. Ceci est particulièrement important en cas de perte de communication ou de toute autre défaillance côté serveur. Vous devez effectuer une sauvegarde du contrôleur de domaine contrôleur de schéma et une sauvegarde complète d’Active Directory. 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams licences de modules add-on
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: En savoir plus sur les licences de Microsoft Teams et les fonctionnalités dont vous disposez avec chaque licence.
-ms.openlocfilehash: 456d65bee894fa57483ac48223d79074c2b9e4c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 37b312c8fd3cf9632a1d38118637e9bcbdb62b4f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767122"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836002"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams licences de modules add-on
 
@@ -119,9 +119,9 @@ Audio Conferencing Communication Credits </td><td>Ou</td>
 </tbody>
 </table>
 
-Si l’Audioconférence n’est pas prise en charge dans votre pays ou région, vous avez la possibilité d’obtenir un Microsoft 365 Entreprise E5 sans audioconférence ou un Office 365 Entreprise E5 sans audioconférence.
+Si l’audioconférence n’est pas prise en charge dans votre pays ou région, vous avez la possibilité d’obtenir un Microsoft 365 Entreprise E5 sans audioconférence ou un Office 365 Entreprise E5 sans audioconférence.
 
-Si vous avez déjà Microsoft 365 Entreprise ou Office 365 Entreprise, vous pouvez toujours acheter des licences de modules supplémentaires pour les fonctionnalités vocales individuelles. Toutefois, vous avez la possibilité de basculer vers Microsoft 365 [business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan et [Microsoft 365 Business Voice.](https://www.microsoft.com/microsoft-365/business/business-voice) Dans certains cas, en fonction des fonctionnalités que vous souhaitez, il peut être plus rentable d’obtenir un plan Microsoft 365 entreprise avec Microsoft 365 Business Voice.
+Si vous avez déjà Microsoft 365 Entreprise ou Office 365 Entreprise, vous pouvez toujours acheter des licences de modules supplémentaires pour les fonctionnalités vocales individuelles. Toutefois, vous avez la possibilité de basculer vers Microsoft 365 [business](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr2) plan et [Microsoft 365 Business Voice.](https://www.microsoft.com/microsoft-365/business/business-voice) Dans certains cas, en fonction des fonctionnalités que vous souhaitez, il peut être plus rentable d’obtenir une offre Microsoft 365'entreprise avec Microsoft 365 Business Voice.
 
 > [!NOTE]
 > Si vous devez utiliser un service téléphonique [tiers,](../direct-routing-landing-page.md) le routage direct est déployé dans votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
@@ -161,7 +161,7 @@ Voici un résumé basé sur le plan de gestion des licences.
 </tbody>
 </table>
 
-Si l’Audioconférence n’est pas prise en charge dans votre pays ou région, vous avez la possibilité d’obtenir un Microsoft 365 Entreprise E5 sans audioconférence ou un Office 365 Entreprise E5 sans audioconférence.
+Si l’audioconférence n’est pas prise en charge dans votre pays ou région, vous avez la possibilité d’obtenir un Microsoft 365 Entreprise E5 sans audioconférence ou un Office 365 Entreprise E5 sans audioconférence.
 
 Pour en savoir plus, voir [Microsoft 365 Entreprise et](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans) Office 365 Entreprise [de projet.](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)
 
@@ -170,9 +170,9 @@ Pour en savoir plus, voir [Microsoft 365 Entreprise et](https://www.microsoft.co
 
 #### <a name="education"></a>[**Éducation**](#tab/education/)
 
-Pour les établissements d’enseignement et les autres organisations universitaires, vous disposez de trois façons d’obtenir des fonctionnalités de voix.
+Pour les établissements d’enseignement et les autres organisations universitaires, vous disposez de trois façons d’obtenir des fonctionnalités vocales.
 
-- Achetez une offre POUR l’éducation A1 ou A3 et Microsoft 365 Business Voice.
+- Achetez une offre pour l’éducation A1 ou A3 et Microsoft 365 Business Voice.
 - Achetez un plan EDU A1 ou A3 et ajoutez les fonctionnalités vocales individuellement.
 - Achetez une offre EDU A5, qui inclut des fonctionnalités vocales.
 
@@ -213,7 +213,7 @@ Voici un résumé basé sur le plan de gestion des licences.
 
   <sup>1</sup> Uniquement disponible pour les organisations de moins de 300 utilisateurs.
 
-Pour en savoir plus, voir [Microsoft 365 Éducation](https://www.microsoft.com/education/buy-license/microsoft365) et [Office 365 Éducation de projets.](https://www.microsoft.com/education/products/office)
+Pour en savoir plus, voir [Microsoft 365 Éducation](https://www.microsoft.com/education/buy-license/microsoft365) et [Office 365 Éducation de projet.](https://www.microsoft.com/education/products/office)
 
 > [!NOTE]
 > Si vous devez utiliser un service téléphonique [tiers,](../direct-routing-landing-page.md) le routage direct est déployé dans votre organisation, ou si les plans d’appel ne sont pas disponibles dans votre pays ou région, vous devez utiliser le routage direct pour les fonctionnalités vocales.
@@ -270,9 +270,9 @@ Pour plus d’informations, [voir Microsoft 365 administration publique](https:/
 
 #### <a name="nonprofit"></a>[**Association à but non lucratif**](#tab/nonprofit/)
 
-Si vous êtes une association, quatre possibilités s’offrent à vous pour obtenir des fonctionnalités vocales.
+Si vous êtes une organisation à but non lucratif, quatre méthodes s’offrent à vous pour obtenir des fonctionnalités vocales.
 
-- Achetez une offre Microsoft 365 pour les associations de base ou Microsoft 365 et une offre Standard pour les associations et Microsoft 365 Business Voice.
+- Achetez une offre Microsoft 365 pour les associations de base ou Microsoft 365 standard pour les associations et offre Microsoft 365 Business Voice.
 - Achetez une offre E1 ou E3 pour les associations et un compte Microsoft 365 Business Voice.
 - Achetez une offre E1 ou E3 pour les associations et ajoutez les fonctionnalités vocales individuellement.
 - Achetez une offre E5 pour les associations, qui inclut des fonctionnalités vocales.
@@ -329,7 +329,7 @@ Pour en savoir plus, [voir Microsoft 365 et Office 365 pour les associations off
 
 ### <a name="trial-offers-for-licensing-plans"></a>Offres d’essai pour les plans de gestion des licences
 
-Pour répondre à un besoin accru de travailler à distance (ou travailler à domicile), Microsoft propose plusieurs offres d’essai gratuit de Teams pour les organisations gouvernementales, éducatives et à but non lucratif. Des essais sont disponibles pour ces plans :
+En réponse à la nécessité accrue pour les personnes de travailler à distance (ou de travailler à domicile), Microsoft propose plusieurs offres d’essai Teams gratuites pour les organisations gouvernementales, éducatives et à but non lucratif. Des essais sont disponibles pour ces plans :
 
 - Office 365 Entreprise d’essai [E1](../e1-trial-license.md) (abandonnée à partir du 1er juillet 2020), d’une version d’essai E3 et d’une version d’essai E5
 - Office 365 Éducation [version d’essai de A1](../teams-edu-licensing.md)
@@ -362,7 +362,7 @@ Voici un résumé des offres d’essai des fonctionnalités vocales.
 <td>Affichez les fonctionnalités d’appels vocaux nationaux et internationaux, d’audioconférences et de fonctionnalités vocales avancées telles que les files d’attente et les files d’attente automatiques.</td>
 </tr>
 <tr>
-<td>Microsoft 365 Version d’essai de l’forfait d’appels nationaux</td>
+<td>Microsoft 365 Version d’essai du Plan d’appels nationaux</td>
 <td>Montrez les fonctionnalités d’appel vocal national.</td>
 </tr>
 <tr>
@@ -379,19 +379,19 @@ Voici un résumé des offres d’essai des fonctionnalités vocales.
 </tr>
 <tr>
 <td>Zone courante de Téléphone essai</td>
-<td>Présente les fonctionnalités des téléphones en zone commune.</td>
+<td>Présente les fonctionnalités des téléphones en commun.</td>
 </tr>
 </tbody>
 </table>
 
- Votre plan de base ne doit pas être une offre d’essai pour utiliser l’une de ces essais pour les fonctionnalités vocales. Vous pouvez utiliser une offre Microsoft 365 Entreprise ou une offre Enterprise, Secteur Public, Éducation ou Pour les associations avec l’une des offres d’essai pour les fonctionnalités vocales. Pour consulter les offres d’essai disponibles et les modules add-ons, dans le Centre d'administration Microsoft 365, sélectionnez Services d’achat de facturation, Autres catégories qui peuvent vous intéresser, puis Sélectionnez  >   **Modules add-ons.** 
+ Votre plan de base ne doit pas être une offre d’essai pour utiliser l’une de ces essais pour les fonctionnalités vocales. Vous pouvez utiliser une offre Microsoft 365 entreprise ou une offre Enterprise, Secteur public, Éducation ou Pour les associations avec l’une des offres d’essai pour les fonctionnalités vocales. Pour consulter les offres d’essai disponibles et les modules add-ons, dans le Centre d'administration Microsoft 365, sélectionnez Services d’achat de facturation, Autres catégories qui peuvent vous intéresser, puis Sélectionnez  >   **Modules add-ons.** 
 
-  Pour chaque option de voix et de conférence, les crédits de communication sont nécessaires si vous avez des numéros gratuits ou si vous avez besoin d’ajouter des minutes supplémentaires pour que les utilisateurs appellent à partir de réunions ou pour que les [utilisateurs](../set-up-communications-credits-for-your-organization.md) appellent des appels PSTN nationaux et internationaux.
+  Pour chaque option de voix et de conférence, des crédits de communication sont nécessaires si vous avez des numéros gratuits ou si vous avez besoin d’ajouter des minutes supplémentaires pour que les utilisateurs appellent en dehors des réunions ou pour que les [utilisateurs](../set-up-communications-credits-for-your-organization.md) utilisent des appels PSTN nationaux et internationaux.
 
  Vous pouvez également consulter les :
 
 - [Version gratuite de Teams](../manage-freemium.md)
-- [Teams’expérience en](../teams-exploratory.md) cours - Il n’existe actuellement aucune offre d’essai pour les fonctionnalités vocales à utiliser avec Teams l’expérience Enr.
+- [Teams’expérience en](../teams-exploratory.md) cours : il n’existe actuellement aucune offre d’essai des fonctionnalités vocales à utiliser avec l Teams l’expérience Enr.
 - [Téléphone Microsoft Système - Licence utilisateur](virtual-user.md) virtuel
 
 * * *
@@ -400,7 +400,7 @@ Voici un résumé des offres d’essai des fonctionnalités vocales.
 
 Vous devez parler à quelqu’un à propos des options de modules supplémentaires ? [Contacter le support relatif aux produits d’entreprises : aide de l’administrateur](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Attribuer Teams licences de modules add-on](assign-teams-add-on-licenses.md)
 - [Gérer l’accès des utilisateurs à Microsoft Teams](../user-access.md)

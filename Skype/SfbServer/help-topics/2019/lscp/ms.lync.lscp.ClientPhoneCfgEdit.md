@@ -1,8 +1,8 @@
 ---
-title: 'Configuration de l’appareil : création d’un périphérique ou modification d’une configuration existante'
+title: 'Configuration de l’appareil : création d’une configuration ou modification d’un périphérique existant'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Dans la page Nouvelle configuration d’appareil ou Modifier la configuration de l’appareil, vous pouvez créer ou modifier une collection de paramètres utilisés pour gérer Skype Entreprise Téléphone Edition. Ces paramètres vous permettent de configurer des choses telles que le mode de sécurité requis, le niveau de journalisation de périphérique, les paramètres de qualité de service des communications vocales et si les téléphones doivent ou non se verrouiller automatiquement après une période d’inactivité donnée.
-ms.openlocfilehash: 80063cf2a369b5b6322cc87cc54489ebcd87ea9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 377eaeb2be80fbebb402e1d3d2150d39c4ff1baa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742790"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828237"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuration de l’appareil : création d’une nouvelle ou modification d’une configuration existante
  
@@ -54,7 +54,7 @@ Les listes suivantes décrivent les menus, commandes, champs et propriétés de 
     
 - **Qualité de service vocale (QoS)** Vous pouvez spécifier la valeur DSCP affectée au trafic vocal provenant d’un Skype Entreprise Téléphone Edition. La valeur par défaut est 40. Toutefois, 40 n’est pas la valeur généralement utilisée pour le trafic audio ; au lieu de cela, le trafic audio est presque toujours marqué avec le code DSCP 46. Afin de maintenir la cohérence dans l’ensemble de votre réseau, vous pouvez modifier cette valeur sur 46.
     
-- **Téléphone verrouillage** Vous pouvez spécifier si les téléphones UC se verrouilleront automatiquement après une période d’inactivité spécifiée. Voici les paramètres que vous pouvez configurer :
+- **Téléphone verrouillage** Vous pouvez spécifier si les téléphones UC se verrouilleront automatiquement après une période d’inactivité spécifiée. Les paramètres que vous pouvez configurer sont les suivants :
     
   - **Appliquer le verrouillage de l’appareil** Vous pouvez appliquer le verrouillage de l’appareil en cocher cette case.
     

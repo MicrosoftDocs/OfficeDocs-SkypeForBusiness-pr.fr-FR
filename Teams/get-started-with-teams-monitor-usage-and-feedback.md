@@ -1,6 +1,6 @@
 ---
 title: Surveiller l’utilisation et les commentaires dans Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/20/2019
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb08816dddb29694c6983cd9172b3be8d04ed6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 577d6ca4085b6e985d5fccde436ea5f56048d1fd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777524"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856391"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Surveiller l’utilisation et les commentaires dans Microsoft Teams
 Il est important de savoir comment les utilisateurs utilisent Teams et quelle est leur expérience avec Teams. Les rapports d’utilisation peuvent vous aider à mieux comprendre les modèles d’utilisation et, avec les commentaires des utilisateurs, vous donne la perspective nécessaire pour procéder au déploiement à plus large échelle et savoir où hiérarchiser les efforts de formation et de communication.

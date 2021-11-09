@@ -2,7 +2,7 @@
 title: Définir l’étendue du déploiement E9-1-1 dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Décisions nécessaires à la planification d’un déploiement E9-1-1 dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: b576f2d9e7dbf9cb82484803ca6e93afb4440795
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1757477d9d4de2a0e26c3490bb6214e6c14e1e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777994"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836246"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Définir l’étendue du déploiement E9-1-1 dans Skype Entreprise Server
 
@@ -39,7 +39,7 @@ Avant de configurer Skype Entreprise pour E9-1-1, vous devez planifier votre dé
 
  **Comment allez-vous déployer E9-1-1 sur des sites de succursales ?**
 
- La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des branches SIP E-9-1-1 et qu’une panne de réseau wan se produit, les clients qui se connectent peuvent ne pas être en mesure d’obtenir un emplacement à partir du service Informations sur l’emplacement ou de se connecter au fournisseur de services d’urgence. Skype Entreprise propose plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une branche SIP dans chaque succursale ou faire passer des appels d’urgence vers la passerelle locale en cas de panne. Pour plus d’informations, voir [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
+ La résistance des communications vocales est un concept qu’il est important de comprendre si vous déployez E9-1-1 sur un site de succursale. Si vous avez centralisé des connexions SIP E-9-1-1 et qu’une panne de réseau wan se produit, les clients qui se connectent risquent de ne pas pouvoir obtenir un emplacement à partir du service Informations sur l’emplacement ou se connecter au fournisseur de services d’urgence. Skype Entreprise propose plusieurs stratégies de gestion de la résistance vocale dans les succursales, notamment : avoir des réseaux de données résilients, déployer une branche SIP dans chaque succursale ou faire passer des appels d’urgence vers la passerelle locale en cas de panne. Pour plus d’informations, voir [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
 
  **Allez-vous activer E9-1-1 pour les utilisateurs travaillant en dehors du réseau ?**
 

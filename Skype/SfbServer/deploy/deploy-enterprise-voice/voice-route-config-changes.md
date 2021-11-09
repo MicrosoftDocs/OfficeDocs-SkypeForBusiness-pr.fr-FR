@@ -2,7 +2,7 @@
 title: Publier les modifications en attente de la configuration du routage des Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 'Résumé : Découvrez comment examiner, publier ou annuler les modifications apportées à la configuration du routage des Skype Entreprise Server à l’aide du Skype Entreprise Server de configuration.'
-ms.openlocfilehash: bf859dd7ed31a9a08fcba18af1b65cd1f34e8d16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0ffa60557623eb217f7f43a61cad7b2e0923c77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764852"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856281"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publier les modifications en attente de la configuration du routage des Skype Entreprise
  
@@ -36,7 +36,7 @@ Après avoir modifié les paramètres de configuration dans les pages du groupe 
 > Toutes les modifications en attente doivent être publiées en même temps en exécutant la commande **Valider tout**. Vous ne pouvez pas sélectionner les modifications en attente que vous voulez publier. Avant de publier les modifications en attente, exécutez la commande **Vérifier les modifications non validées** et annulez les modifications de configuration que vous ne voulez pas publier.
   
 > [!NOTE]
-> Si vous quittez les pages du groupe **Routage des communications vocales** avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Toutefois, vous pouvez exporter la configuration en cours (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, [voir Exporter ou importer un fichier](voice-route-configuration-import-export.md)de configuration d’itinéraire de voix dans Skype Entreprise . 
+> Si vous quittez les pages du groupe **Routage des communications vocales** avant d’avoir validé les modifications en attente, toutes les modifications en attente seront perdues. Toutefois, vous pouvez exporter la configuration en cours (y compris les modifications en attente) vers un fichier de configuration des communications vocales, puis importer et publier la configuration mise à jour. Pour plus d’informations, voir Exporter ou importer un fichier de configuration de [l’itinéraire des](voice-route-configuration-import-export.md)Skype Entreprise . 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>Pour passer en revue, publier ou annuler les modifications de la configuration du routage des communications vocales
 

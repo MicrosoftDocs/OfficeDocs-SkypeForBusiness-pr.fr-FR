@@ -2,7 +2,7 @@
 title: Nœud d’étendue du serveur de médiation
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud montre les ports d’écoute et les passerelles PSTN associées pour ce pool de médiation. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: c7ac5621f718196836655316cd2eaae5e40f3971
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 17c435916a4ec082fcc729b58ef176a280254d63
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741070"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836726"
 ---
 # <a name="mediation-server-scope-node"></a>Nœud d’étendue du serveur de médiation
  
