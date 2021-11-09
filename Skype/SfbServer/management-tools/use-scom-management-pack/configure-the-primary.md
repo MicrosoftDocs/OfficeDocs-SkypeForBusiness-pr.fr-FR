@@ -2,7 +2,7 @@
 title: Comment configurer le serveur d’administration principal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Résumé : Configurez votre serveur de gestion principal, installez System Center Operations Manager et importez des packs d’administration pour Skype Entreprise Server 2015.'
-ms.openlocfilehash: 98a6cb9f18a5ff3fe008e7d07f5101884e5aa0f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774594"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852948"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Comment configurer le serveur d’administration principal
 
 **Résumé :** Configurez votre serveur de gestion principal, installez System Center Operations Manager et importez des packs d’administration pour Skype Entreprise Server 2015.
 
-Pour tirer pleinement parti des nouvelles fonctionnalités d’analyse d’état incluses dans Skype Entreprise Server 2015, vous devez d’abord désigner un ordinateur qui jouera le rôle de serveur de gestion principal. Vous devez ensuite installer System Center Operations Manager 2012 SP1 ou R2 ou System Center Operations Manager 2007 R2 sur cet ordinateur. En outre, vous devez d’abord installer une version prise en charge de SQL Server pour qu’elle fonctionne comme votre base de données principale Operations Manager.
+Pour tirer pleinement parti des nouvelles fonctionnalités d’analyse d’état incluses dans Skype Entreprise Server 2015, vous devez d’abord désigner un ordinateur qui jouera le rôle de serveur de gestion principal. Vous devez ensuite installer System Center Operations Manager 2012 SP1 ou R2 ou System Center Operations Manager 2007 R2 sur cet ordinateur. En outre, vous devez d’abord installer une version prise en charge de SQL Server pour fonctionner en tant que base de données principale Operations Manager.
 
 Lorsque vous installez System Center Operations Manager, vous devez installer tous les composants de ce produit, notamment :
 
@@ -67,7 +67,7 @@ L’importation des packs d’administration est une étape cruciale. Si les pac
 Le pack d’administration Des composants et des utilisateurs est utilisé pour surveiller uniquement Skype Entreprise Server 2015. Si vous êtes dans un scénario de coexistence où Skype Entreprise Server 2015 et Lync Server 2013 sont installés, vous devez continuer à utiliser les packs d’administration Lync Server 2013 pour vos ordinateurs Lync Server 2013.
 
 > [!NOTE]
-> Les packs d’administration pour Skype Entreprise Server 2015 incluent le pack d’administration Skype Entreprise Server 2015 Component and User Management Pack et le pack d’administration Active Monitoring Skype Entreprise Server 2015.
+> Les packs d’administration pour Skype Entreprise Server 2015 incluent le pack d’administration Skype Entreprise Server 2015 Component and User Management pack et le pack d’administration Active Monitoring Skype Entreprise Server 2015.
 
 Vous pouvez utiliser l’un des outils suivants pour importer les packs d’administration :
 

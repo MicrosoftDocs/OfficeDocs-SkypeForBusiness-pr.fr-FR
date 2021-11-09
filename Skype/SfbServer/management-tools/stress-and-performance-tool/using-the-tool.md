@@ -2,7 +2,7 @@
 title: Utilisation de l Skype Entreprise Server 2015 Stress and Performance Tool
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/13/2018
 manager: serdars
 audience: ITPro
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: Pour exécuter l’outil stress and performance Skype Entreprise Server 2015, vous devez être en mesure de gérer à la fois les utilisateurs, les contacts et les profils utilisateur, de configurer l’outil pour l’exécuter, puis de passer en revue les résultats produits par l’outil.
-ms.openlocfilehash: d54374e81319a6a95ec61fbb2ab5885e2ec368ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Pour exécuter l’outil stress and performance Skype Entreprise Server 2015, vous devez être en mesure de gérer les utilisateurs, les contacts et les profils utilisateur, de configurer l’outil pour l’exécuter, puis de passer en revue les résultats produits par l’outil.
+ms.openlocfilehash: b71148f4fcf26726b530861b147336a1c7b1d12e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751583"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839846"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Utilisation de l Skype Entreprise Server 2015 Stress and Performance Tool
  
-Pour exécuter l’outil stress and performance Skype Entreprise Server 2015, vous devez être en mesure de gérer à la fois les utilisateurs, les contacts et les profils utilisateur, de configurer l’outil pour l’exécuter, puis de passer en revue les résultats produits par l’outil.
+Pour exécuter l’outil stress and performance Skype Entreprise Server 2015, vous devez être en mesure de gérer les utilisateurs, les contacts et les profils utilisateur, de configurer l’outil pour l’exécuter, puis de passer en revue les résultats produits par l’outil.
   
 L’exécution de l’outil stress and performance Skype Entreprise Server 2015 implique quatre domaines (l’exécutable est LyncPerfTool.exe) :
   
@@ -50,14 +50,14 @@ Voici une liste de termes utiles qui peuvent être utiles lorsque vous lisez les
     
 - **Service** d’informations d’emplacement : service Skype Entreprise Server 2015 qui, lorsqu’il est activé et configuré par téléphone, permet la récupération de l’emplacement physique pour les services Enhanced 911 (E911).
     
-- Numéros de **Téléphone** aux États-Unis : numéros de Téléphone affectés à l’utilisateur en plus de l’URI SIP utilisé pour le routage des appels entrants et sortants dans la recherche de numéros inverses ( RNL).
+-  Numéros de Téléphone états-unis : numéros de Téléphone affectés à l’utilisateur en plus de l’URI SIP utilisé pour le routage des appels entrants et sortants dans la recherche de numéros inverses ( RNL).
     
 ### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Créer des utilisateurs et des contacts à l’aide UserProvisioningTool.exe
 
 > [!NOTE]
 > Avant même de commencer, assurez-vous d’être connecté en tant que membre du groupe de sécurité Administrateurs du domaine pour exécuter cet outil. Vous devez le faire, car vous allez créer des utilisateurs Active Directory. 
   
-Vous devez utiliser l’outil Skype Entreprise Server de mise en service des utilisateurs pour créer des utilisateurs et des contacts pour la simulation de chargement.
+Vous devez utiliser l’outil Skype Entreprise Server d’approvisionnement d’utilisateurs pour créer des utilisateurs et des contacts pour la simulation de chargement.
   
 **L Skype Entreprise Server approvisionnement** utilisateur est installé avec le package Skype Entreprise Server **Stress and Performance Tool.** Assurez-vous que le programme d’installation du package (CapacityPlanningTool.msi) a été exécuté sur le serveur frontal ou le serveur Édition Standard que vous avez l’intention de tester.
   
@@ -76,7 +76,7 @@ Si vous avez un fichier XML préconfiguré qui contient déjà vos paramètres p
 
 1. Dans le champ **FQDN** du pool frontal, tapez le nom de domaine complet (FQDN) du serveur Édition Standard ou le pool frontal dans lequel vous souhaitez héberger les utilisateurs.
     
-2. Dans le **champ Préfixe** de nom d’utilisateur, tapez un préfixe que vous souhaitez utiliser pour obtenir vos noms d’utilisateur à des fins de test (par exemple, « TestUser »).
+2. Dans le **champ Préfixe de** nom d’utilisateur, tapez un préfixe que vous souhaitez utiliser pour obtenir vos noms d’utilisateur à des fins de test (par exemple, « TestUser »).
     
 3. Dans le **champ Mot** de passe, tapez un mot de passe qui sera utilisé sur tous les comptes d’utilisateur test.
     
@@ -96,7 +96,7 @@ Si vous avez un fichier XML préconfiguré qui contient déjà vos paramètres p
   
 #### <a name="create-users-button"></a>Bouton Créer des utilisateurs
 
-Lorsque vous cliquez sur le bouton Créer **des** utilisateurs, les paramètres d’entrée que vous avez entrés sont validés. S’il existe des erreurs de validation, vous serez invité à les corriger. Ou, si toutes les valeurs sont correctes, les utilisateurs commencent à apparaître dans AD (quelle que soit l’ou que vous avez spécifiée). Vous verrez une barre de progression en bas de l’outil lors de son utilisation. Ne fermez pas l’application tant que la barre de progression est active.
+Lorsque vous cliquez sur le bouton Créer **des** utilisateurs, les paramètres d’entrée que vous avez entrés sont validés. S’il existe des erreurs de validation, vous serez invité à les corriger. Ou, si toutes les valeurs sont correctes, les utilisateurs commenceront à apparaître dans AD (quelle que soit l’ou que vous avez spécifiée). Vous verrez une barre de progression en bas de l’outil au cours de son utilisation. Ne fermez pas l’application tant que la barre de progression est active.
   
 La création d’utilisateurs prend du temps. Par conséquent, planifiez en conséquence. Ce processus peut prendre entre plusieurs minutes pour quelques utilisateurs et quelques heures pour un grand nombre d’utilisateurs.
   
@@ -119,7 +119,7 @@ Lorsque vous cliquez sur le bouton **Supprimer les** utilisateurs, les paramètr
 > Avant de créer des contacts, vous devez d’abord effectuer la réplication utilisateur (effectuée à partir de l’onglet Utilisateurs). 
   
 > [!IMPORTANT]
-> Si vous vient de créer vos utilisateurs, vous devrez attendre la fin de la réplication Skype Entreprise Server et remplir les comptes d’utilisateurs dans la base de données. **Si la réplication des utilisateurs n’est pas terminée, vous verrez une erreur.** Vous savez quand les utilisateurs ont terminé la réplication si le service frontal Skype Entreprise Server 2015 a démarré ou en exécutant correctement la cmdlet Get-CsUser sur le dernier utilisateur du nombre total que vous avez spécifié.
+> Si vous avez créé vos utilisateurs, vous devrez attendre la fin de la réplication Skype Entreprise Server et remplir les comptes d’utilisateurs dans la base de données. **Si la réplication des utilisateurs n’est pas terminée, vous verrez une erreur.** Vous savez quand les utilisateurs ont terminé la réplication si le service frontal Skype Entreprise Server 2015 a démarré ou en exécutant correctement la cmdlet Get-CsUser sur le dernier utilisateur du nombre total que vous avez spécifié.
   
 #### <a name="contacts-creation-tab"></a>Onglet Création de contacts
 
@@ -150,11 +150,11 @@ Cet onglet vous permet de fournir les détails des contacts des utilisateurs pou
   
 #### <a name="distribution-list"></a>Liste de distribution
 
-L Skype Entreprise Server 2015 Stress and Performance Tool peut simuler la fonctionnalité d’extension de liste de distribution (DL) dans le client Skype Entreprise 2015. Vous pouvez ignorer cette étape si vous n’avez pas l’intention d’activer le développement DL dans l’outil d’approvisionnement des utilisateurs.
+L Skype Entreprise Server 2015 Stress and Performance Tool peut simuler la fonctionnalité d’extension de liste de distribution (DL) dans le client Skype Entreprise 2015. Vous pouvez ignorer cette étape si vous n’avez pas l’intention d’activer l’extension DL dans l’outil d’approvisionnement des utilisateurs.
   
 ![Outil d’approvisionnement utilisateur affichant l’onglet Création de liste de distribution.](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
   
-L’onglet Liste de distribution vous permet de créer des DL que l’outil Stress and Performance utilisera pour la fonctionnalité d’extension de liste de distribution. Avant de créer des DL, Skype Entreprise Server 2015 doit être déployé, y compris avoir exécuté ForestPrep. Si ce n’est pas fait, les attributs DL n’existent pas dans le schéma AD, donc l’outil ne peut pas créer de DLs.
+L’onglet Liste de distribution vous permet de créer des DL que l’outil Stress and Performance utilisera pour la fonctionnalité d’extension de liste de distribution. Avant de créer des DLs, Skype Entreprise Server 2015 doit être déployé, y compris avoir exécuté ForestPrep. Si ce n’est pas fait, les attributs DL n’existent pas dans le schéma AD, donc l’outil ne peut pas créer de DLs.
   
 ### <a name="to-configure-distribution-lists"></a>Pour configurer des listes de distribution :
 
@@ -249,7 +249,7 @@ Vous pouvez configurer les niveaux de charge et les paramètres pour chacun des 
   
 - **Messagerie instantanée :** Cela inclut les conférences d’égal à égal ; choisissez la valeur appropriée pour le niveau de charge.
     
-- **Audioconférence -** Choisissez un niveau de charge pour l’audioconférence *uniquement.* Les appels d’égal à égal seront abordés un peu plus loin dans la section **Scénarios de voix.** Ouvrez **l’onglet** Avancé pour activer MultiView.
+- **Audioconférence -** Choisissez un niveau de charge pour l’audioconférence *uniquement.* Les appels d’égal à égal seront abordés un peu plus loin dans la section **Scénarios vocaux.** Ouvrez **l’onglet** Avancé pour activer MultiView.
     
 - **Partage d’application :** Choisissez un niveau de charge pour le partage d’application.
     
@@ -261,7 +261,7 @@ Vous pouvez configurer les niveaux de charge et les paramètres pour chacun des 
     
 - **Service Response Group -** Cliquez sur **le bouton** Avancé et spécifiez les URI des groupes Response Groups que vous avez déjà créés lorsque vous avez Service Response Group agents. Vous devez choisir au moins un groupe Response Group. Pour en utiliser plus, séparez les groupes Response Groups par des points-virgules. Mettez **à jour RGSUriSuffixStartIndex** et **RGSUriSuffixEndIndex** sur les valeurs réelles. Choisissez un niveau de charge.
     
-- **Services d’informations d’emplacement -** Sélectionnez un niveau de charge activé ou désactivé.
+- **Services d’informations d’emplacement :** Sélectionnez un niveau de charge activé ou désactivé.
     
 > [!NOTE]
 > Chacun des scénarios dispose d’un bouton Avancé situé en regard de celui-ci et d’un ensemble de cases à cocher qui activent les variantes au paramètre par défaut. 
@@ -274,7 +274,7 @@ Vous pouvez configurer les niveaux de charge et les paramètres pour chacun des 
     
 Ces boutons et cases à cocher sont des valeurs supplémentaires propres à chaque scénario et modifient le comportement de l’outil Stress and Performance et rendent la personnalisation possible.
   
-Pour chaque scénario sous l’onglet Scénarios généraux (à l’exception des services d’informations d’emplacement), si la valeur du niveau de charge est **Personnalisée,** la fréquence de conversation sera calculée à l’aide du champ correspondant dans la boîte de dialogue Avancé. Le nom du champ peut varier en fonction du scénario, mais la description du champ sera la suivante : REMARQUE Ce numéro ne sera utilisé que si Custom est sélectionné dans le *menu déroulant.*
+Pour chaque scénario sous l’onglet Scénarios généraux (à l’exception des services d’informations d’emplacement), si la valeur du niveau de charge est **Personnalisée,** la fréquence de conversation sera calculée à l’aide du champ correspondant dans la boîte de dialogue Avancé. Le nom du champ peut varier en fonction du scénario, mais la description du champ sera la suivante : REMARQUE Ce numéro sera utilisé uniquement si custom est sélectionné dans le *menu déroulant.*
   
 Les valeurs **Élevée,** **Moyenne** et **Faible,** modifient les taux de conversation par modalité en ligne avec le modèle utilisateur qui est un équilibre de tous les scénarios. S’il est nécessaire de modifier le niveau de charge par modalité en raison d’une différence d’utilisation attendue, utilisez un taux de conversation personnalisé.
   
@@ -431,7 +431,7 @@ Voici une liste des compteurs de performance clés :
 
 |**Compteur de performance**|**Description**|
 |:-----|:-----|
-|Tentatives de téléchargement de fichiers complets/delta du abs  <br/> |Nombre total de demandes de téléchargement de fichiers complètes ou delta tentées.  <br/> |
+|Tentatives de téléchargement de fichiers complets/delta DUA  <br/> |Nombre total de demandes de téléchargement de fichiers complètes ou delta tentées.  <br/> |
 |Téléchargements complets/delta du fichier ABS réussis  <br/> |Nombre total de demandes de téléchargement de fichiers complètes ou delta tentées.  <br/> |
 |Compteurs associés au service de requête web du carnet d’adresses  <br/> |Le fichier de carnet d’adresses télécharge les compteurs associés.  <br/> |
 |Tentatives d’appels WS ABS  <br/> |Nombre total de demandes de service de requête web de carnet d’adresses tentées.  <br/> |
@@ -494,7 +494,7 @@ Voici une liste des compteurs de performance clés :
 |Tentatives d’appels entrants/sortants  <br/> |Nombre total d’appels de partage d’application entrants/sortants tentés.  <br/> |
 |Appels entrants/sortants établis  <br/> |Nombre total d’appels de partage d’application entrants/sortants établis.  <br/> |
    
-**Informations d’appel de l’ACA**
+**Informations d’appel caA**
 
 |**Compteur de performance**|**Description**|
 |:-----|:-----|

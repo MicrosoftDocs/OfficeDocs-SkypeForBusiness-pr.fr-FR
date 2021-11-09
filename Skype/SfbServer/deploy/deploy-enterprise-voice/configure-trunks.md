@@ -2,7 +2,7 @@
 title: Configurer des trunks dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Résumé : Découvrez comment configurer une trunk entre un serveur de médiation et des homologues pour les Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 128be18c31802787c173c8d180de80f5ae5a64fb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f2d88d71476e428230aac0298cb0445844757e1c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748890"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839106"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Configurer des trunks dans Skype Entreprise Server
  
@@ -35,7 +35,7 @@ Dans le cadre du déploiement Voix Entreprise, vous pouvez configurer une connex
     
 - Autocommutateur privé (PBX)
     
-Pour plus d’informations, voir [Planifier la connectivité PSTN dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
+Pour plus d’informations, voir Planifier la connectivité [PSTN dans Skype Entreprise Server](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   
 Skype Entreprise Server de médiation prend en charge plusieurs associations entre les passerelles et les serveurs de médiation. Ces associations sont réalisées en définissant une trunk, qui est une association logique entre un pool de serveurs de médiation et une passerelle de réseau téléphonique commuté (PSTN), un contrôleur SBC (Session Border Controller) ou un SYSTÈME IP-PBX. Utilisez le Générateur de topologie pour associer des passerelles à des serveurs de médiation (c’est-à-dire, des trunks).
   

@@ -2,7 +2,7 @@
 title: Gérer l’état d’Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Résumé : Découvrez les tâches de configuration d’analyse et d’Skype Entreprise Server.'
-ms.openlocfilehash: 7484d28a3cf1ba457cf297d89c97fcb21e387be5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ca2f553a4b438b4aaaa6d16d98dc575705d4b0d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767682"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837546"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gérer l’état d’Skype Entreprise Server
 

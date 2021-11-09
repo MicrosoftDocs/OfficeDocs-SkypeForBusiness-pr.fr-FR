@@ -1,6 +1,6 @@
 ---
 title: Planifier des vérifications de l’état du service pour votre adoption de Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
@@ -20,12 +20,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fefb34068d85dce1d0333ff0998fe03662ebe3d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c59aa7777fd37228dbada179bae0fac199e36c4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745430"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865472"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Planifier des vérifications de l’état du service pour votre adoption de Microsoft Teams
 
@@ -36,4 +36,4 @@ En collaboration avec votre équipe de mise en œuvre technique, planifiez la te
 - **Feuille de route des fonctionnalités/projets** : quel est le planning d’intégration des employés restants ou de projets d’amélioration de la collaboration ? Quelles sont les fonctionnalités supplémentaires que votre organisation va activer ? Généralement dirigé par le gestionnaire de services ou le propriétaire du produit pour les services de collaboration en collaboration avec les principales parties prenantes pour l’entreprise.
 - Mise à jour des mesures de réussite **d’une campagne** et d’une formation – Inclut la participation, la participation, les thèmes de commentaires clés et l’ouverture des problèmes. Incluez les principales victoires et les succès. 
 
-Cette révision mensuelle peut être relativement formelle dans de grandes organisations ou virtuelle dans des entreprises de plus petite taille. Il est important de partager et de surveiller ces données pour garantir une implémentation saine et dynamique de Microsoft Teams. 
+Cette révision mensuelle peut être assez formelle dans de grandes organisations ou virtuelles dans des entreprises de plus petite taille. Il est important de partager et de surveiller ces données pour garantir une implémentation saine et dynamique de Microsoft Teams. 

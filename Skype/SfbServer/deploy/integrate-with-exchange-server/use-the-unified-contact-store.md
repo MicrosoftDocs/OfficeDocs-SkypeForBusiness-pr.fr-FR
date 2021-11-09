@@ -2,7 +2,7 @@
 title: Configurer Skype Entreprise Server pour utiliser le magasin de contacts unifié
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -14,25 +14,25 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Résumé : Configurez le magasin de contacts unifié pour Exchange Server et Skype Entreprise Server.'
-ms.openlocfilehash: d75db18a799d1384a88a0b66cd1cd73d5e01c639
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed28f57350e2ce1d7ed5f92d712bdf5ecc7f3de4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765832"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853668"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurer Skype Entreprise Server pour utiliser le magasin de contacts unifié
  
 **Résumé :** Configurez le magasin de contacts unifié pour Exchange Server 2016 ou Exchange Server 2013 et Skype Entreprise Server.
   
-À l’aide du magasin de contacts unifié, les utilisateurs conservent une seule liste de contacts, puis les ont disponibles dans plusieurs applications, notamment Skype Entreprise, Microsoft Outlook 2013 et Microsoft Outlook Web App 2013. Lorsque vous activez le magasin de contacts unifié pour un utilisateur, les contacts de cet utilisateur ne sont pas stockés dans Skype Entreprise Server et récupérés si nécessaire. Au lieu de cela, ses contacts sont stockés dans Exchange Server 2016 ou Exchange Server 2013 et sont récupérés à l’aide Exchange Web Services.
+À l’aide du magasin de contacts unifié, les utilisateurs conservent une seule liste de contacts, puis les ont disponibles dans plusieurs applications, notamment Skype Entreprise, Microsoft Outlook 2013 et Microsoft Outlook Web App 2013. Lorsque vous activez le magasin de contacts unifié pour un utilisateur, les contacts de cet utilisateur ne sont pas stockés dans Skype Entreprise Server et récupérés si nécessaire. Au lieu de cela, ses contacts sont stockés dans Exchange Server 2016 ou Exchange Server 2013 et sont récupérés à l’aide Exchange Services Web.
   
 > [!NOTE]
 > Techniquement, les informations de contact sont stockées dans deux dossiers trouvés dans la boîte aux lettres Exchange’utilisateur. Les contacts eux-mêmes sont stockés dans un dossier nommé Skype Entreprise contacts visibles par les utilisateurs finaux ; les métadonnées sur les contacts sont stockées dans un sous-foldeur qui n’est pas visible pour les utilisateurs finaux. 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>Activation du magasin de contacts unifié pour un utilisateur
 
-Si l’authentification de serveur à serveur entre Skype Entreprise Server et Exchange Server est déjà configurée, vous avez également activé le magasin de contacts unifié . aucune configuration serveur supplémentaire n’est requise. Cependant, il est nécessaire de configurer des comptes utilisateur supplémentaires pour déplacer les contacts d’un utilisateur dans le magasin de contacts unifié. Par défaut, les contacts utilisateur sont conservés dans Skype Entreprise Server et non dans le magasin de contacts unifié.
+Si l’authentification de serveur à serveur entre Skype Entreprise Server et Exchange Server est déjà configurée, vous avez également activé le magasin de contacts unifié . aucune configuration serveur supplémentaire n’est requise. Cependant, il est nécessaire de configurer des comptes utilisateur supplémentaires pour déplacer les contacts d’un utilisateur dans le magasin de contacts unifié. Par défaut, les contacts utilisateur sont conservés Skype Entreprise Server et non dans le magasin de contacts unifié.
   
 L’accès au magasin de contacts unifié est géré à l’aide de stratégies Skype Entreprise Server services d’utilisateurs. Les stratégies de services d’utilisateurs ne possèdent qu’une seule propriété (UcsAllowed) ; celle-ci permet de déterminer l’emplacement dans lequel les contacts de l’utilisateur sont stockés. Si un utilisateur est géré par une stratégie de services d’utilisateurs où UcsAllowed a été définie sur True ($True), les contacts de l’utilisateur sont stockés dans le magasin de contacts unifié. Si l’utilisateur est géré par une stratégie de services d’utilisateurs où UcsAllowed a été définie sur False ($False), ses contacts sont stockés dans Skype Entreprise Server.
   
@@ -44,7 +44,7 @@ Si vous préférez ne pas migrer tous vos contacts vers le magasin de contacts u
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
-Après avoir désactivé le magasin de contacts unifié dans la stratégie globale, vous pouvez créer une stratégie par utilisateur qui permet d’utiliser le magasin de contacts unifié . Cela vous permet de faire en sorte que certains utilisateurs conservent leurs contacts dans le magasin de contacts unifié, tandis que d’autres continuent à conserver leurs contacts Skype Entreprise Server. Vous pouvez créer une stratégie de services utilisateur par utilisateur à l’aide d’une commande semblable à celle-ci :
+Après avoir désactivé le magasin de contacts unifié dans la stratégie globale, vous pouvez créer une stratégie par utilisateur qui permet l’utilisation du magasin de contacts unifié . Cela vous permet de faire en sorte que certains utilisateurs conservent leurs contacts dans le magasin de contacts unifié, tandis que d’autres continuent à conserver leurs contacts Skype Entreprise Server. Vous pouvez créer une stratégie de services utilisateur par utilisateur à l’aide d’une commande semblable à celle-ci :
   
 ```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True

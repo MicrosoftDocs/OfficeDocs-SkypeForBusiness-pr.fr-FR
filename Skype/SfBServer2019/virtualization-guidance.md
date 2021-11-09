@@ -2,7 +2,7 @@
 title: 'Prise en charge de la virtualisation Skype Entreprise Server 2019 '
 ms.reviewer: corbinm
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 06/04/2020
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Découvrez la prise en charge de la virtualisation pour Skype Entreprise Server 2019.'
-ms.openlocfilehash: 850bfc0ae19aa8391baca6c9a8b6f1dde85cde2d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 73e9121e2b530e44395aefda50082682fb910e7d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767102"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853778"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>Prise en charge de la virtualisation Skype Entreprise Server 2019
 
@@ -29,7 +29,7 @@ Bien que la virtualisation soit prise en charge, il existe quelques points clés
 - Maintenez un rapport 1:1 entre l’UC virtuelle et l’UC physique.
 - Ne déplacez pas un serveur invité pendant son fonctionnement.
 - La migration d’un système en direct et la portabilité d’une machine virtuelle ne sont pas pris en charge.
-- Désactivez l’hyper-threading sur tous les hôtes.
+- Désactivez l’hyper-thread sur tous les hôtes.
 - Ne configurez pas la mémoire dynamique sur les serveurs hôtes.
 - Utilisez des disques fixes ou pass-through plutôt que des disques dynamiques.
 - Autorisez une surcharge de 6 à 10 % pour les hyperviseurs au-delà de ce dont l’invité virtuel a besoin.

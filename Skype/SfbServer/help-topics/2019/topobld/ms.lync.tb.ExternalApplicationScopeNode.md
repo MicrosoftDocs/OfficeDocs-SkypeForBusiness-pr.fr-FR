@@ -2,7 +2,7 @@
 title: Nœud d’étendue d’une application externe
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Ce nœud affiche le nom de domaine complet (FQDN) du pool, le paramètre de réplication et le pool du saut suivant pour ce pool d’applications fiables. Vous pouvez effectuer les actions suivantes :'
-ms.openlocfilehash: 02f865e486ce26ac65679ad20b395fa6b9ab7f70
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6886c835f309487a95e6f757d2ccd16e28a5809c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772814"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838146"
 ---
 # <a name="external-application-scope-node"></a>Nœud d’étendue d’une application externe
  

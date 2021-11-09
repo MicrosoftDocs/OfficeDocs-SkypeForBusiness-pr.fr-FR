@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Teams : Ressources pour les administrateurs Éducation'
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2342f68403120f04e865203c304c2c4e14d41c0a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767192"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865663"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Ressources Microsoft Teams pour les administrateurs dans l’éducation
 
 ## <a name="resources-for-remote-learning"></a>Ressources pour l’apprentissage à distance
 
-Votre établissement scolaire ou université doit-il activer Microsoft Teams l’apprentissage à distance ? De lancez-vous rapidement avec la page Mise en place d’une [page](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) et les documents d’adoption suivants .
+Votre établissement scolaire ou université doit-il activer Microsoft Teams l’apprentissage à distance ? De lancez-vous rapidement avec le document d’une [page](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) Mise en place et les documents d’adoption suivants.
 
 ## <a name="adoption-content"></a>Contenu d'adoption
 
@@ -42,7 +42,7 @@ Veuillez lire les [conditions générales avant](https://github.com/MicrosoftDoc
 |---------|---------|
 |Posters - [personnalisables](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) et [prêts à l’impression](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Photo d’une affiche.](media/edu-adoption-posters.png)     |[Handouts](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Photo d’un handout](media/edu-adoption-handouts.png)|
 |[Prospectus](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Photo d’un prospectus.](media/edu-adoption-flyers.png)   |[Publicités dans un livre](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Photo d’une publicité dans un livre.](media/edu-adoption-book-adverts.png)         |
-|[Photo du livret Astuces et astuces.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Photo d’un exemple de livret.](media/edu-adoption-get-started.png)    |
+|[Photo d’une Astuces d’astuces.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Photo d’un exemple de livret.](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Biens numériques
 

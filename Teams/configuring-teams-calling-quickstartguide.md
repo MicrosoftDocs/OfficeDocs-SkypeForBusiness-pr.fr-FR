@@ -1,6 +1,6 @@
 ---
 title: Guide de démarrage rapide - Configuration des forfaits d’appels
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 8/21/2018
@@ -19,18 +19,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aeb9fae94d186e841cdacbd05879ab2891b9ba2a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f40136a76de2fcc798c6505883901f79e6f97595
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745690"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852798"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guide de démarrage rapide : Configuration des forfaits d'appels dans Microsoft Teams
 
 Ce guide vous aide à rendre un ensemble d’utilisateurs opérationnels pour leur permettre d’explorer les forfaits d’appels Teams.
 
-Lire l’annonce des plans d’appels du 12 décembre 2017 dans Teams : Intelligent [Communications passe](https://aka.ms/ipyqus) à l’étape suivante avec les appels dans Teams
+Lire l’annonce des plans d’appels du 12 décembre 2017 dans Teams : Intelligent Communications passe à l’étape suivante avec les appels [dans Teams](https://aka.ms/ipyqus)
 
 > [!NOTE]
 > Nous vous recommandons, en parallèle de ce guide de démarrage rapide, de lire les Système téléphonique des [plans](calling-plan-landing-page.md) d’appels et des FastTrack pour planifier et conduire un déploiement réussi. [](https://aka.ms/cloudvoice)
@@ -39,7 +39,7 @@ En ajoutant des forfaits d’appels, une fonctionnalité de Microsoft 365 et de 
 
 ![Capture d’écran montrant la page Contacts dans Teams.](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Conditions préalables à l’activation **de l’onglet** Appels dans Teams
-Pour activer  l’onglet Appels dans Teams les utilisateurs doivent avoir activé les appels en face à face dans Teams et utiliser un client Teams qui prend en charge les appels Teams en deux temps. Pour découvrir comment gérer les appels 1:1 dans Teams, lisez [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy) Pour savoir quels clients prendre en charge les appels, consultez les [limites et spécifications pour Microsoft Teams.](./limits-specifications-teams.md)
+Pour activer  l’onglet Appels dans Teams les utilisateurs doivent activer les appels en deux:1 dans Teams et utiliser un client Teams qui prend en charge les appels Teams en deux temps. Pour découvrir comment gérer les appels 1:1 dans Teams, lisez [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy) Pour savoir quels clients prendre en charge les appels, consultez les [limites et spécifications pour Microsoft Teams.](./limits-specifications-teams.md)
 
 > [!NOTE]
 > Pour l’instant, la messagerie vocale ne sera pas disponible dans l’onglet Appels, sauf si l’utilisateur est activé pour les appels PSTN. 

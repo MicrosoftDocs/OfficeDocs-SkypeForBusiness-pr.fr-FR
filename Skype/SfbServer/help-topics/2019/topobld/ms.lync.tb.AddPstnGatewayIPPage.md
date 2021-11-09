@@ -2,7 +2,7 @@
 title: Définir l’adresse IP de la passerelle IP ou PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: Vous définissez les adresses IPv4 ou IPv6 pour la passerelle IP ou PSTN en sélectionnant Activer IPv4 ou Activer IPv6. Vous pouvez choisir soit Utiliser toutes les adresses IP configurées, soit Limiter l’utilisation des services aux adresses IP sélectionnées.
-ms.openlocfilehash: 3a88ce03cde7d4da4e4dec4959f84548ebf8288b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f6cceeba24106f4dea82e6f5c42832313ea6c533
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750753"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837036"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Définir l’adresse IP de la passerelle IP ou PSTN
 

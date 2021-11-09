@@ -2,7 +2,7 @@
 title: Exemples de requêtes de base de données de conversation permanente
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Cette section contient des exemples de requêtes pour la base de données de conversation permanente.
-ms.openlocfilehash: 9ae2f99817cae9eb892bf7c43d68900495878abf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b3bab28de1d53cd0ac4de787318aeb08d1275da4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756437"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852908"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Exemples de requêtes de base de données de conversation permanente
  

@@ -2,7 +2,7 @@
 title: Déployer et configurer la mobilité pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Cet article vous explique comment configurer une installation Skype Entreprise Server existante pour utiliser le service de mobilité, ce qui permet à vos appareils mobiles de tirer parti des fonctionnalités de mobilité Skype Entreprise Server.
-ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4ca8b229fb0d6fc15305bb15c32466a678955f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741500"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865422"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Déployer et configurer la mobilité pour Skype Entreprise Server  
  
@@ -35,7 +35,7 @@ Après avoir consulté [l’article Plan for Mobility for Skype Entreprise Serve
 |[Configurer les notifications de type push](deploy-and-configure-mobility.md#ConfigPush) <br/> |RtcUniversalServerAdmins  <br/> |
 |[Configurer la stratégie de mobilité](deploy-and-configure-mobility.md#ConfigMob) <br/> |CsAdministrator  <br/> |
    
-Toutes les sections suivantes contiennent des étapes qui supposent que vous avez lu la rubrique Planification. Si vous êtes déconcertant, n’hésitez pas à consulter ces informations.
+Toutes les sections suivantes contiennent des étapes qui supposent que vous avez lu la rubrique Planification. Si vous êtes déconcertant, n’hésitez pas à consulter les informations qu’il vous reste.
 
 > [!NOTE]
 > La prise en charge de MCX (Mobility Service) pour les clients mobiles hérités n’est plus disponible Skype Entreprise Server 2019. Tous les clients mobiles Skype Entreprise actuellement utilisent déjà l’API UCWA (Unified Communications Web API) pour prendre en charge la messagerie instantanée, la présence et les contacts. Les utilisateurs ayant des clients hérités utilisant MCX devront mettre à niveau vers un client actuel.
@@ -109,11 +109,11 @@ Ces enregistrements peuvent être des noms A (hôte) ou des enregistrements CNAM
     
 5. Une fois que vous avez noté cela, cliquez avec le bouton droit sur votre nom de domaine SIP, puis choisissez Nouvel hôte **(A ou AAAA)** dans le menu.
     
-6. Dans la **boîte de** texte Nom, tapez lyncdiscoverinternal pour votre nom d’hôte, pour l’URL du service de découverte automatique interne.
+6. Dans la **boîte de** texte Nom, tapez lyncdiscoverinternal comme nom d’hôte, pour l’URL du service de découverte automatique interne.
     
 7. Dans la boîte de texte Adresse **IP,** tapez l’adresse IP des services web internes pour votre pool frontal (ou serveur frontal unique, ou pool directeur ou directeur), identifiée à l’étape 4 ci-dessus.
     
-8. Lorsque cela est terminé, cliquez **sur Ajouter** un hôte, puis cliquez sur **OK.**
+8. Lorsque cela est terminé, cliquez sur **Ajouter** un hôte, puis cliquez sur **OK.**
     
 9. Vous devez créer un nouvel enregistrement A ou AAAA de découverte automatique dans la zone de recherche avant pour chaque domaine SIP pris en charge dans votre environnement Skype Entreprise Server. Pour ce faire, répétez les étapes 6 à 8 autant de fois que nécessaire.
     
@@ -208,7 +208,7 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
 
 - En fonction de ce que vous avez trouvé dans la section « Ai-je besoin de nouvelles certifications ci-dessus , vous devez **exécuter** l’une des procédures suivantes .
     
-  - Si vous avez un certificat unique pour tout (les empreintes sont identiques), vous devez exécuter cette :
+  - Si vous avez un seul certificat pour tout (les empreintes sont identiques), vous devez exécuter cette :
     
   ```powershell
   Set-CsCertificate -Type <certificate(s) from the Use parameter> -Thumbprint <unique identifier>
@@ -224,9 +224,9 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
 
 ### <a name="viewing-certificates-in-the-microsoft-management-console-mmc"></a>Affichage des certificats dans la console MMC (Microsoft Management Console)
 
-1. Vous avez la possibilité d’examiner vos certificats à l’aide du logiciel en snap-in Certificats pour la MMC. Il vous suffit de taper MMC dans la recherche et il doit apparaître en tant qu’option d’application.
+1. Vous avez la possibilité d’examiner vos certificats à l’aide du logiciel en snap-in Certificats pour la MMC. Il vous suffit de taper MMC dans la recherche et elle doit apparaître en tant qu’option d’application.
     
-2. Pour ajouter le logiciel en un clin d’œil Certificats, vous devez cliquer sur **Fichier,** puis **Ajouter/Supprimer** un logiciel en un clin d’œil... (ou le raccourci clavier **Ctrl+M** fonctionne également). **Les certificats** seront une option dans le volet de  gauche, sélectionnez-la, puis compte d’ordinateur dans la fenêtre fenêtre pop-up, puis **Suivant**.
+2. Pour ajouter le logiciel en un clin d’œil Certificats, vous devez cliquer sur **Fichier,** puis Ajouter/Supprimer un logiciel en un clin **d’œil...** (ou le raccourci clavier **Ctrl+M** fonctionne également). **Les certificats** seront une option dans le volet de  gauche, sélectionnez-la, puis compte d’ordinateur dans la fenêtre fenêtre pop-up, puis **Suivant**.
     
 3. Toujours dans la fenêtre pop-up, selon toute probabilité que vous le faites sur l’ordinateur qui est le domicile des certificats que vous devez examiner, laissez la sélection sur l’ordinateur **local** si c’est le cas. Si vous travaillez sur un ordinateur distant, modifiez la bouton d’radio sur **Un** autre  ordinateur, puis entrez le nom deqdn de cet ordinateur ou utilisez le bouton Parcourir pour rechercher cet ordinateur via AD. Après avoir sélectionné l’ordinateur, vous  devez cliquer sur Terminer lorsque vous êtes prêt, puis **OK** pour ajouter le logiciel en snap-in à la MMC.
     
@@ -237,7 +237,7 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
     > [!NOTE]
     > Comment savoir quel certificat s’agit-il ? Ce doit être le certificat unique affecté à tous les éléments de votre batterie de serveurs, ou vous pouvez avoir plusieurs certificats pour différents éléments, tels que default, Internal Web Services, etc., auquel cas vous devrez peut-être examiner plusieurs certificats. Plusieurs certificats auront la même empreinte numérique. 
   
-6. Une fois que vous  avez obtenu l’affichage Certificat, choisissez **Détails**. Cela vous permet de voir le nom de l’objet du certificat lorsque vous sélectionnez **Objet** et le nom du sujet affecté et les propriétés associées sont affichés.
+6. Une fois que vous  avez obtenu l’affichage Certificat, choisissez **Détails**. Cela vous permet de voir le nom de l’objet du certificat lorsque vous sélectionnez **Objet,** et le nom du sujet affecté et les propriétés associées sont affichés.
     
 7. Vous devez également vérifier les entrées de **l’autre nom du** sujet. Vous trouverez une ou plusieurs des informations suivantes :
     
@@ -260,7 +260,7 @@ Si vous avez des questions sur la planification des certificats, nous l’avons 
 ## <a name="configure-the-reverse-proxy"></a>Configurer le proxy inverse
 <a name="ConfigRP"> </a>
 
-Les étapes ci-dessous ne sont pas destinées à être suivies exactement. En effet, dans les versions précédentes du produit, nous vous avons parcourus, par exemple, en configurant TMG (Threat Management Gateway) et si vous n’utilisiez pas cette version, vous devrez trouver votre propre version à partir de là.
+Les étapes ci-dessous ne sont pas destinées à être suivies exactement. En effet, dans les versions précédentes du produit, nous vous avons parcourus, par exemple, en configurant la passerelle de gestion des menaces (TMG) et si vous n’utilisiez pas cette version, vous devrez trouver votre propre version à partir de là.
   
 TMG n’est plus proposé par Microsoft en tant que produit, et si vous devez encore le configurer, vous pouvez examiner les étapes [de Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-the-reverse-proxy-for-mobility) Toutefois, les informations suivantes sont destinées à être plus généralement utiles, même s’il n’existe aucun moyen de fournir des étapes de procédure pas à pas spécifiques pour chaque proxy inverse.
   
@@ -287,7 +287,7 @@ Nous devons prendre en compte deux éléments principaux :
     
 4. Tapez le nom de votre site de découverte automatique (l’exemple que nous allons utiliser est lyncdiscover.contoso.com), puis cliquez sur **OK** ou **Enregistrer,** en fonction du format de votre proxy inverse.
     
-5. Vous disposez peut-être d’un nouveau certificat avec l’entrée SAN de découverte automatique. Celui-ci doit également être installé et configuré pour être utilisé en fonction des paramètres de votre proxy inverse. N’oubliez pas de tout enregistrer une fois la configuration terminée.
+5. Vous disposez peut-être d’un nouveau certificat avec l’entrée SAN de découverte automatique. Il doit également être installé et configuré pour être utilisé en fonction des paramètres de votre proxy inverse. N’oubliez pas d’enregistrer tous les paramètres une fois la configuration terminée.
     
 6. Si votre proxy inverse dispose d’une fonctionnalité **test,** utilisez-la pour vous assurer que tout fonctionne correctement.
     
@@ -305,7 +305,7 @@ Nous devons prendre en compte deux éléments principaux :
     
    - **Action de** la règle :  dans ce cas, il s’agit d’une règle d’autoriser, vous laissez quelque chose passer par votre proxy inverse.
     
-   - La **règle de** publication ou l’option que vous choisissez serait un site web unique ou un **équilibrage de charge.**
+   - La **règle de** publication ou l’option que vous choisissez serait un site web unique ou un **équilibreur de charge.**
     
    - Il doit s’agit **du SSL pour** l’accès externe, choisissez cette option.
     
@@ -317,7 +317,7 @@ Nous devons prendre en compte deux éléments principaux :
     
    - **Acceptez les demandes,** mais il doit s’y prendre pour le nom de domaine.
     
-   - Pour le **nom,** vous devez entrer **lyncdiscover.** <sipdomain> (il s’agit de l’URL du service de découverte automatique externe). Maintenant, si vous créez une règle pour l’URL des services web externes sur le pool frontal, vous devez taper le nom de domaine final pour les services web externes sur votre pool frontal (par exemple, lyncwebextpool01.contoso.com).
+   - Pour le **nom,** vous devez entrer **lyncdiscover.**\<sipdomain> (il s’agit de l’URL du service de découverte automatique externe). Maintenant, si vous créez une règle pour l’URL des services web externes sur le pool frontal, vous devez taper le nom de domaine final pour les services web externes sur votre pool frontal (par exemple, lyncwebextpool01.contoso.com).
     
    - Il y aura une option **Chemin** d’accès, et vous devrez entrer **/\\** * ici.
     
@@ -363,7 +363,7 @@ Nous devons prendre en compte deux éléments principaux :
     
    - **Acceptez les demandes,** mais il doit s’y prendre pour le nom de domaine.
     
-   - Pour le **nom,** vous devez entrer **lyncdiscover.** <sipdomain> (il s’agit de l’URL du service de découverte automatique externe).
+   - Pour le **nom,** vous devez entrer **lyncdiscover.**\<sipdomain> (il s’agit de l’URL du service de découverte automatique externe).
     
    - Il y aura une option **Chemin** d’accès, et vous devrez entrer **/\\** * ici.
     
@@ -420,7 +420,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
 
 1. Log on as a member of the **CsAdministrator** role on any computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
-2. Démarrez **l Skype Entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou aller à **Tous** les programmes et le choisir).
+2. Démarrez **l Skype Entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou aller à Tous les programmes et le choisir). 
     
 3. À partir de la ligne de commande, entrez :
     
@@ -428,7 +428,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
    Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
    ```
 
-   Il est également possible de définir des informations d’identification dans un script et de les transmettre à l’cmdlet de test. Nous en avons un exemple ci-dessous.
+   Il est également possible de définir des informations d’identification dans un script et de les transmettre à la cmdlet de test. Nous en avons un exemple ci-dessous.
     
    ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
@@ -445,7 +445,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
 
 1. Log on as a member of the **CsAdministrator** role on any computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
-2. Démarrez **l Skype Entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou aller à **Tous** les programmes et le choisir).
+2. Démarrez **l Skype Entreprise Server Management Shell** (vous pouvez taper le nom dans la recherche ou aller à Tous les programmes et le choisir). 
     
 3. À partir de la ligne de commande, entrez :
     
@@ -453,7 +453,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
    Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
    ```
 
-   Il est également possible de définir des informations d’identification dans un script et de les transmettre à l’cmdlet de test. Nous en avons un exemple ci-dessous.
+   Il est également possible de définir des informations d’identification dans un script et de les transmettre à la cmdlet de test. Nous en avons un exemple ci-dessous.
     
    ```powershell
    $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
@@ -463,7 +463,7 @@ Pour les clients Lync Server 2010 sur Skype Entreprise Server 2015, vous devez e
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-Pour passer en revue les procédures de commande, vous pouvez consulter [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) et [Test-CsMcxP2PIM.](/powershell/module/skype/test-csmcxp2pim?view=skype-ps)
+Pour passer en revue les procédures de commande, vous pouvez consulter [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference) et [Test-CsMcxP2PIM](/powershell/module/skype/test-csmcxp2pim).
   
 ## <a name="configure-for-push-notifications"></a>Configurer les notifications de type push
 <a name="ConfigPush"> </a>
@@ -556,7 +556,7 @@ Cette fonctionnalité est inchangée par rapport à Lync Server 2013, mais si vo
 ## <a name="configure-mobility-policy"></a>Configurer la stratégie de mobilité
 <a name="ConfigMob"> </a>
 
-Vous avez la possibilité avec Skype Entreprise Server de déterminer qui peut utiliser votre service de mobilité, Appel via le travail, VoIP (Voice over IP) ou vidéo, ainsi que si le WiFi sera requis pour voIP ou vidéo. L’appel via le lieu de travail permet à un utilisateur mobile d’utiliser son numéro de téléphone de travail, au lieu de son numéro de téléphone mobile, lors de l’appel et de la réception d’appels. La personne à l’autre extrémité de la ligne ne verra pas le numéro de téléphone portable de cet utilisateur mobile et elle lui permet d’éviter les frais d’appels sortants. Lorsque voIP et vidéo sont mis en place, les utilisateurs peuvent prendre et effectuer des appels VoIP et vidéo. Les paramètres d’utilisation du WiFi déterminent si l’appareil mobile d’un utilisateur doit utiliser un réseau WiFi sur un réseau de données cellulaires.
+Vous avez la possibilité avec Skype Entreprise Server de déterminer qui peut utiliser votre service de mobilité, appel via le travail, voIP ou vidéo, ainsi que si le WiFi sera requis pour voIP ou vidéo. L’appel via le lieu de travail permet à un utilisateur mobile d’utiliser son numéro de téléphone de travail, au lieu de son numéro de téléphone mobile, pour passer et recevoir des appels. La personne à l’autre extrémité de la ligne ne verra pas le numéro de téléphone portable de cet utilisateur mobile et elle lui permet d’éviter les frais d’appels sortants. Lorsque voIP et vidéo sont mis en place, les utilisateurs peuvent prendre et effectuer des appels VoIP et de la vidéo. Les paramètres d’utilisation du WiFi déterminent si l’appareil mobile d’un utilisateur doit utiliser un réseau WiFi sur un réseau de données cellulaires.
   
 La mobilité, l’appel via le travail et les fonctionnalités VoIP et vidéo sont toutes activées par défaut. Le paramètre pour exiger le WiFi pour VoIP et la vidéo est désactivé. Un administrateur a la possibilité de modifier cela, globalement, par site ou par utilisateur.
   
@@ -579,7 +579,7 @@ Pour que les utilisateurs puissent utiliser l’appel via le travail, ils doiven
   
 ### <a name="modify-global-mobility-policy"></a>Modifier la stratégie de mobilité globale
 
-1. Connectez-vous, avec un compte membre du rôle **CsAdministrator,** à un ordinateur sur lequel **Skype Entreprise Server Management Shell** et **Ocscore** sont installés.
+1. Log on, with an account that’s a member of the **CsAdministrator** role, to a computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
 2. Démarrez le **Skype Entreprise Server Management Shell.**
     
@@ -592,11 +592,11 @@ Pour que les utilisateurs puissent utiliser l’appel via le travail, ils doiven
     > [!NOTE]
     > Vous pouvez désactiver l’appel via le travail sans désactiver l’accès à la mobilité. Toutefois, vous ne pouvez pas désactiver la mobilité sans également désactiver l’appel via le travail. 
   
-    Pour plus d’informations, [consultez Set-CsMobilityPolicy.](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps)
+    Pour plus d’informations, [consultez Set-CsMobilityPolicy.](/powershell/module/skype/set-csmobilitypolicy)
     
 ### <a name="modify-mobility-policy-by-site"></a>Modifier la stratégie de mobilité par site
 
-1. Connectez-vous, avec un compte membre du rôle **CsAdministrator,** à un ordinateur sur lequel **Skype Entreprise Server Management Shell** et **Ocscore** sont installés.
+1. Log on, with an account that’s a member of the **CsAdministrator** role, to a computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
 2. Démarrez le **Skype Entreprise Server Management Shell.**
     
@@ -606,11 +606,11 @@ Pour que les utilisateurs puissent utiliser l’appel via le travail, ils doiven
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    Pour plus [d’informations, ez-vous sur New-CsMobilityPolicy.](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)
+    Pour plus [d’informations, ez-vous sur New-CsMobilityPolicy.](/powershell/module/skype/new-csmobilitypolicy)
     
 ### <a name="modify-mobility-policy-by-user"></a>Modifier la stratégie de mobilité par utilisateur
 
-1. Connectez-vous, avec un compte membre du rôle **CsAdministrator,** à un ordinateur sur lequel **Skype Entreprise Server Management Shell** et **Ocscore** sont installés.
+1. Log on, with an account that’s a member of the **CsAdministrator** role, to a computer where **Skype Entreprise Server Management Shell** and **Ocscore** are installed.
     
 2. Démarrez le **Skype Entreprise Server Management Shell.**
     

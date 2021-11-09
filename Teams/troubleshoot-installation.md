@@ -1,6 +1,6 @@
 ---
 title: Résoudre les problèmes d’installation et de mise à jour de Microsoft Teams sur Windows
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Découvrez comment résoudre les problèmes d’installation et de mise à jour pour l’application client de bureau Teams sur Windows.
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777154"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865442"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Résoudre les problèmes d’installation et de mise à jour de Microsoft Teams sur Windows
 
@@ -123,7 +123,7 @@ Conseils de dépannage :
 - Pour confirmer qu’il s’agit du problème que vous rencontrez, quittez Teams (cliquez avec le bouton droit sur Teams dans la barre des tâches, puis cliquez sur **Quitter**). Ouvrez ensuite le Gestionnaire des tâches dans Windows pour voir si une instance de Teams est encore en cours d’exécution.  
 - Si vous n’utilisez pas l’ordinateur sur lequel vous rencontrez ce problème, examinez le fichier SquirrelTemp.log collecté à partir de l’ordinateur qui rencontre ce problème et recherchez l’entrée « Programme : impossible de terminer l’opération dans le journal ».
 - Pour déterminer ce qui empêche Teams.exe de quitter, consultez les journaux dll.txt et handles.txt. Ceux-ci indiquent les processus qui ont empêché Teams de quitter.
-- Un autre coupable de pouvoir empêcher Teams de quitter est le pilote de filtre de système de fichiers en mode noyau. Utilisez l’outil SysInternals, [ProcDump](/sysinternals/downloads/procdump), pour collecter le vidage du processus en mode noyau en exécutant ```procdump -mk <pid>```, où <pid> est l’ID de processus obtenu à partir du Gestionnaire des tâches. Vous pouvez également inspecter le fichier journal Driverquery.txt pour afficher les pilotes de filtre actifs qui peuvent interférer avec Teams.
+- Un autre coupable de pouvoir empêcher Teams de quitter est le pilote de filtre de système de fichiers en mode noyau. Utilisez l’outil SysInternals, [ProcDump](/sysinternals/downloads/procdump), pour collecter le vidage du processus en mode noyau en exécutant ```procdump -mk <pid>```, où \<pid> est l’ID de processus obtenu à partir du Gestionnaire des tâches. Vous pouvez également inspecter le fichier journal Driverquery.txt pour afficher les pilotes de filtre actifs qui peuvent interférer avec Teams.
 - Pour récupérer à partir de cet état, redémarrez l’ordinateur.
 
 #### <a name="file-permissions"></a>Autorisations d’accès aux fichiers

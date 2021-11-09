@@ -1,7 +1,7 @@
 ---
 title: Skype Gestion et outils du système de salle
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lisez cette rubrique pour en savoir plus sur les outils de gestion Skype Room System.
-ms.openlocfilehash: 04b609e14b6ccffb5224a3041b1e8be25dcf7574
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 976ed518941ded1278bf34a1c991a20adb8a0d8c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758136"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865411"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Gestion et outils du système de salle
  
@@ -32,7 +32,7 @@ Pour plus d’informations, voir l’article suivant :
 - [Déployer le portail Web d’administration de SRS v1 dans Skype Entreprise Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
   
-## <a name="exchange-checklist"></a>Exchange Liste de contrôle
+## <a name="exchange-checklist"></a>Exchange Liste de vérification
 
 - Confirmez que la découverte automatique est bien définie et qu’un enregistrement DNS A/CNAME interne est disponible pour autodiscover.domain.com.
     
@@ -40,7 +40,7 @@ Pour plus d’informations, voir l’article suivant :
     
 - Testez votre service de découverte automatique à l’aide de l’outil Analyseur de connectivité Microsoft. Choisissez le premier test, « Je ne peux pas me connecter avec Office Outlook ».
     
-- Si la salle de réunion dispose déjà d’une boîte aux lettres de ressources, étendez ce compte pour Skype Room System (exemple de script en bas de la page).
+- Si la salle de réunion possède déjà une boîte aux lettres de ressources, étendez ce compte pour Skype Room System (exemple de script en bas de la page).
     
 ## <a name="skype-for-business-checklist"></a>Skype Entreprise Liste de contrôle
 
@@ -50,7 +50,7 @@ Pour plus d’informations, voir l’article suivant :
   - Skype Entreprise Outil d’analyse d’Excel    
   - Skype Entreprise Analyseur de connectivité 32 bits ou 64 bits
     
-- Passer [en revue les nouveaux outils de dépannage](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365)et d’analyse utiles pour Office 365 . Confirmez que vous avez un pool Skype Entreprise et un serveur Web Apps Office et que vous pouvez partager une PowerPoint à l’aide du client Skype Entreprise client.
+- Passer [en revue les nouveaux outils](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365)de dépannage et d’analyse utiles pour Office 365 . Confirmez que vous avez un pool Skype Entreprise et un serveur Web Apps Office et que vous pouvez partager une PowerPoint à l’aide du client Skype Entreprise client.
     
 - Si la salle de réunion possède déjà une boîte aux lettres de ressources, activez-la pour Skype Entreprise.
     
@@ -80,7 +80,7 @@ Skype Room System est un système incorporé qui peut être entièrement intégr
     
   - Aucune application ou visionneuse standard ne réside sur le Skype Room System. Tout le contenu est rendu via des protocoles HTTP ou RDP.
     
-  - Le PC appliance exécute le Windows d’exploitation Embedded Standard 7. Tout le matériel, y compris les appareils, est fourni par les partenaires OEM.
+  - L’appliance PC exécute le Windows d’exploitation Embedded Standard 7. Tout le matériel, y compris les appareils, est fourni par les partenaires OEM.
     
   - Joindre un domaine facultatif aux services de domaine Active Directory (AD DS), ce qui permet la gestion et le contrôle des comptes de sécurité locaux.
     
@@ -96,7 +96,7 @@ Skype Room System est un système incorporé qui peut être entièrement intégr
     
 ## <a name="license"></a>Licence
 
-Vérifiez que vous utilisez un KMS pour l’activation des logiciels. Si c’est le cas, vous devrez peut-être vérifier ou ajouter Skype Entreprise clé KMS client. Si vous n’utilisez pas KMS, demandez la clé de licence en volume pour la clé SKYPE ENTREPRISE client.
+Vérifiez que vous utilisez une KMS pour activer le logiciel. Si c’est le cas, vous devrez peut-être vérifier ou ajouter Skype Entreprise clé KMS client. Si vous n’utilisez pas KMS, demandez la clé de licence en volume pour la clé SKYPE ENTREPRISE client.
   
 ## <a name="license-keys"></a>Clés de licence
 
@@ -118,13 +118,13 @@ Skype Room System exécute le client Skype Entreprise bureau en arrière-plan. S
 
 Confirmez que l’autorité de certification utilisée pour émettre le certificat Office Web Apps Server 2013 possède un chemin d’accès HTTP inclus dans la propriété Liste de révocation de certificats.
   
-Importez le fichier de certificat (.crt) dans le Skype room system si vous utilisez Skype Entreprise Server. Il est facilement obtenu à partir du partage CertEnroll du serveur ca, ou dans le dossier Racine de confiance d’un PC joint à un domaine.
+Importez le fichier de certificat (.crt) dans Skype room system si vous utilisez Skype Entreprise Server. Il est facilement obtenu à partir du partage CertEnroll du serveur ca, ou dans le dossier Racine de confiance d’un PC joint à un domaine.
   
 ## <a name="certificates"></a>Certificats
 
 Vérifiez que votre autorité de certification dispose d’un chemin d’accès http pour la liste de révocation de certificats. Si ce n’est pas le cas, mettez à jour votre ca pour en inclure un.
   
-Installez les certificats dans la configuration d’administration du Skype Room System sous System Paramètres \> Certificate Manager. Vous avez besoin de l Enterprise’ac racine pour votre certificat interne.
+Installez les certificats dans la configuration de l’administrateur du Skype Room System sous System Paramètres \> Certificate Manager. Vous avez besoin de Enterprise l’ac racine pour votre certificat interne.
   
 Une façon d’obtenir les certificats dont vous avez besoin consiste à découvrir l’ac qui a émis vos certificats. Pour Skype Entreprise Server, sur un PC de Skype Entreprise, cliquez sur Paramètres \> \> conférence Paramètres. Cela ouvre une page web sécurisée par l’ac qui a émis les certificats internes. Cliquez sur l’icône Verrouiller dans la barre d’adresses du navigateur pour afficher un rapport de sécurité. Cliquez sur Afficher les certificats et examinez la propriété point de distribution de la CRL. Le deuxième paramètre CN doit être le nom de serveur de l’ac. Ouvrez Windows Explorer pour cette adresse \\ \< CA Server Name \> \CertEnroll. Copiez les deux fichiers .crl et le fichier .crt sur un disque mémoire flash et placez-le dans le côté gauche du tableau SMART.
   

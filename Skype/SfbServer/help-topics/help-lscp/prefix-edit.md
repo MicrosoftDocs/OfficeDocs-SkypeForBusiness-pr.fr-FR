@@ -2,7 +2,7 @@
 title: Edition du préfixe
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: Pour définir des préfixes ou des chiffres de début, ajoutez les préfixes de numéro que cet itinéraire doit gérer, y compris le + si nécessaire. Par exemple, vous pouvez faire correspondre tous les numéros en commençant par +123.
-ms.openlocfilehash: 2e94dcc8eaf5624560fe7f140a7df46a0d9efc21
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b5094c06c33ab7603a23da0af32cce57b3be1854
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750513"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838736"
 ---
 # <a name="prefix-edit"></a>Edition du préfixe
  

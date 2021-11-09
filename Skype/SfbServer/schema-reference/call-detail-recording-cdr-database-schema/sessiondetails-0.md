@@ -2,7 +2,7 @@
 title: Affichage SessionDetails
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: La vue SessionDetails stocke des informations sur les sessions d’égal à égal, qui peuvent être un appel téléphonique VoIP-VoIP, une session de messagerie instantanée à deux ou tout autre type de session. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 5a278960912ac38dc75fe398e3d75de710785800
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a100fcd2143244bda5ad7273b5a681468ad5713
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767452"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852918"
 ---
 # <a name="sessiondetails-view"></a>Affichage SessionDetails
  
@@ -33,8 +33,8 @@ La vue SessionDetails stocke des informations sur les sessions d’égal à éga
 |**ToUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a rejoint la session.  <br/> |
 |**FromUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a démarré la session. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur qui a rejoint la session. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**FromTenant** <br/> |nvarchar(450)  <br/> |Client de l’utilisateur qui a démarré la session. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a rejoint la session. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
+|**FromTenant** <br/> |nvarchar(450)  <br/> |Client de l’utilisateur qui a démarré la session. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a rejoint la session. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
 |**FromEndpointId** <br/> |uniqueidentifier  <br/> |Identificateur unique du point de terminaison de l’utilisateur qui a démarré la session.  <br/> |
 |**ToEndpointId** <br/> |uniqueidentifier  <br/> |Identificateur unique du point de terminaison de l’utilisateur qui a rejoint la session.  <br/> |
 |**EndTime** <br/> |DateHeure  <br/> |Heure de fin de la session.  <br/> |
@@ -50,10 +50,10 @@ La vue SessionDetails stocke des informations sur les sessions d’égal à éga
 |**TargetUriType** <br/> |nvarchar(450)  <br/> |Type d’URI de l’utilisateur cible pour la session. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur pour le compte duquel la session a été démarrée.  <br/> |
 |**OnnnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Type de l’URI de l’utilisateur pour le compte duquel la session a été démarrée. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur pour le compte duquel la session a été démarrée. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur pour le compte duquel la session a été démarrée. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
 |**ReferredByUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur qui a référencé la session.  <br/> |
 |**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Type de l’URI de l’utilisateur qui a référencé la session. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**ReferredByTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a référencé la session. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
+|**ReferredByTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur qui a référencé la session. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
 |**DialogId** <br/> |varchar(775)  <br/> |ID de dialogue SIP. Le format est :  <br/> dialog;from-tag;to-tag  <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> |GUID utilisé pour corréler plusieurs sessions.  <br/> |
 |**ReplaceDialogIdTime** <br/> |DateHeure  <br/> |Heure de la boîte de dialogue qui a été remplacée par la session. Utilisé conjointement avec ReplaceDialogIdSeq pour identifier de manière unique une boîte de dialogue remplacée par la session. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |

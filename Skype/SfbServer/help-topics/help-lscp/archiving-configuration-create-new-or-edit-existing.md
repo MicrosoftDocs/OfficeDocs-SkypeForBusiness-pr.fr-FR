@@ -2,7 +2,7 @@
 title: 'Configuration de l’archivage : création d’une configuration ou modification d’une configuration existante'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Vous utilisez les configurations d’archivage pour contrôler les options d’archivage de votre déploiement. Les configurations d’archivage incluent la configuration globale et éventuellement une ou plusieurs configurations de site ou de pool :'
-ms.openlocfilehash: 7a6511d4a72f8771a9accb8a9582d947e232541a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1de397f6cefb8827e664cfe20bf169151c763049
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766742"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838826"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuration de l’archivage : création d’une nouvelle ou modification d’une configuration existante
  
@@ -44,7 +44,7 @@ Pour configurer les paramètres pour une configuration d’archivage nouvelle ou
     
   - **Configuration du pool** Spécifiez un nom approprié, qui peut être le nom d’un pool frontal ou d’un serveur Édition Standard spécifique dans votre déploiement. Par exemple, Division Marketing.
     
-- **Description** Cette option est facultative. Utilisez-le pour fournir des détails supplémentaires, tels que l’étendue ou l’utilisation de la configuration. Par exemple, Coordonner avec les services juridiques d’autres sites.
+- **Description** Cette option est facultative. Utilisez-le pour fournir des détails supplémentaires, tels que l’étendue ou l’utilisation de la configuration. Par exemple, coordonner avec les services juridiques d’autres sites.
     
 - **Paramètre d’archivage** Les options sont les suivantes :
     

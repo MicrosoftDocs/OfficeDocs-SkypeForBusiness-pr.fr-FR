@@ -2,7 +2,7 @@
 title: 'Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Une stratégie de conférence définit les fonctionnalités dont disposent les utilisateurs pendant une conférence (également appelée réunion).
-ms.openlocfilehash: 9d62ac561252c3cda025f040c2de335c49c12bae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7e5e32d474a915c8c91bfe13fa13feffe98d064
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753013"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837276"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Stratégie de conférence : création d’une stratégie ou modification d’une stratégie existante
 
@@ -76,7 +76,7 @@ La liste suivante décrit les champs de la page.
 
   - **Autoriser les participants fédérés et anonymes à télécharger du contenu** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les utilisateurs externes et non authentifiés à télécharger du contenu, tel que des diapositives ou des présentations, à partir d’une conférence.
 
-  - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les transferts de fichiers à tous les participants pendant une conférence.
+  - **Autoriser les participants à transférer des fichiers** Si vous autorisez la collaboration de données, cochez cette case pour autoriser les transferts de fichiers vers tous les participants pendant une conférence.
 
   - **Activer les annotations** Si vous autorisez la collaboration de données, cochez cette case pour permettre aux participants d’effectuer des annotations à l’écran sur le contenu partagé pendant la conférence.
 

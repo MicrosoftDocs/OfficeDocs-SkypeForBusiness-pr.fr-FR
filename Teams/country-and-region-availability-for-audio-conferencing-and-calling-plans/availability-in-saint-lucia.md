@@ -1,6 +1,6 @@
 ---
-title: Disponibilité à Saint Lucie
-author: cichur
+title: Disponibilité en Sainte Lucie
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams de Sainte-Lucie.
-ms.openlocfilehash: 9a75204e41d98f27bbb73c26b65262c7d29f3093
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour Saint-Lucie.
+ms.openlocfilehash: 11e5b37535ed3258ff388c0cfde55209021169b9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765022"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852758"
 ---
-# <a name="availability-in-saint-lucia"></a>Disponibilité à Saint Lucie
+# <a name="availability-in-saint-lucia"></a>Disponibilité en Sainte Lucie
 
 [Recherchez un autre pays ou une autre région](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou obtenez des informations sur la disponibilité des pays et des régions pour les forfaits d’audioconférences et d’appels.
 
-Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams de Sainte-Lucie.
+Voici les services Microsoft 365 et Office 365 pour Skype Entreprise et Microsoft Teams pour Saint-Lucie.
   
 ## <a name="audio-conferencing"></a>Audioconférence
 

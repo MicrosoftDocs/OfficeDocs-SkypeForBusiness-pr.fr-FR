@@ -2,7 +2,7 @@
 title: Stratégie de mobilité des clients
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: La page Stratégie de mobilité des clients affiche les stratégies de mobilité disponibles dans votre déploiement.
-ms.openlocfilehash: cdd6a4288e3653554e3572361ed62c9278bee99b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3319d6c409efb3d4a0e7d8924e934a05f9d5a6d7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757466"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838756"
 ---
 # <a name="clients-mobility-policy"></a>Clients : stratégie de mobilité
 

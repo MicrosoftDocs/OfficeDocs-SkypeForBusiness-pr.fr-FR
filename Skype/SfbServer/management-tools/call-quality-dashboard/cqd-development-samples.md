@@ -2,7 +2,7 @@
 title: Exemples de développement du tableau de bord de qualité des appels (TBQA)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Résumé : Examinez un didacticiel et des exemples de développement pour le Tableau de bord de qualité des appels. Le Tableau de bord de qualité des appels est un outil pour Skype Entreprise Server.'
-ms.openlocfilehash: ba49af8e8ce79b87c57d761a47b54b6574f3a7f5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 91e6f15f167000904626dc5a90d3766283396d7c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751713"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837506"
 ---
 # <a name="cqd-development-samples"></a>Exemples de développement du tableau de bord de qualité des appels (TBQA)
 
@@ -195,15 +195,15 @@ Jusqu’à présent, le rapport est toujours très simple. L’utilisateur peut 
 
  **Exemple 2 : exemple de définition de rapport**
 
-Il peut être difficile pour quelqu’un de déterminer comment écrire la liste complète des mesures/dimensions/filtres et leurs valeurs correspondantes lors de la construction d’une requête. Dans ce cas, vous pouvez aller sur le portail, créer un rapport à l’aide de l’éditeur de rapport, afficher la chaîne JSON de la définition de rapport, puis copier la définition dans un rapport personnalisé. 
+Il peut être difficile pour quelqu’un de déterminer comment écrire la liste complète des mesures/dimensions/filtres et leurs valeurs correspondantes lors de la construction d’une requête. Dans ce cas, vous pouvez aller sur le portail, créer un rapport à l’aide de l’éditeur de rapport, afficher la chaîne JSON de la définition du rapport, puis copier la définition dans un rapport personnalisé. 
 
-Dans cet exemple, nous allons créer une page web comme celle présentée dans la figure où un utilisateur peut entrer l’ID de n’importe quel ensemble de rapports (ou rapport) existant et afficher la définition de l’ensemble de rapports ou du rapport sur la page web. L’utilisateur peut ensuite brancher la chaîne JSON de chaque rapport dans du code semblable à celui de l’exemple 1 et construire n’importe quel rapport personnalisé souhaité par l’utilisateur. 
+Dans cet exemple, nous allons créer une page web comme celle présentée dans la figure dans laquelle un utilisateur peut entrer l’ID de n’importe quel ensemble de rapports (ou rapport) existant et afficher la définition de l’ensemble de rapports ou du rapport sur la page web. L’utilisateur peut ensuite brancher la chaîne JSON de chaque rapport dans du code semblable à celui de l’exemple 1 et construire n’importe quel rapport personnalisé souhaité par l’utilisateur. 
 
 ![Exemple de CQD.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
 Pour créer l’outil visionneuse de définitions de rapports, nous devons envoyer des appels au service de référentiel pour récupérer les représentations de chaîne JSON des définitions de chaque ensemble de rapports de notre recherche. L’API Référentiel retourne la définition de l’ensemble de rapports en fonction d’un ID d’ensemble de rapports donné. 
 
-Voici un exemple rapide : le code contient un bloc qui est un exemple simple d’envoi d’une requête au service référentiel pour obtenir le contenu d’un élément de référentiel en fonction de son identificateur. Et la partie suivante du code (méthode processReportSetData) envoie des appels AJAX pour obtenir la définition de chaque rapport au sein de cet ensemble de rapports. Étant donné que l’ID dans le portail web CQD est l’ID d’un ensemble de rapports, l’appel AJAX retourne un élément d’ensemble de rapports. Vous pouvez trouver plus de détails sur l’API du référentiel et, plus spécifiquement, GetItems, dans [l’article Obtenir des éléments.](get-items.md) 
+Voici un exemple rapide : le code contient un bloc qui est un exemple simple d’envoi d’une requête au service référentiel pour obtenir le contenu d’un élément de référentiel en fonction de son identificateur. Et la partie suivante du code (méthode processReportSetData) envoie des appels AJAX pour obtenir la définition de chaque rapport au sein de cet ensemble de rapports. Étant donné que l’ID dans le portail web CQD est l’ID d’un ensemble de rapports, l’appel AJAX retourne un élément d’ensemble de rapports. Vous pouvez trouver plus de détails sur l’API du référentiel et plus spécifiquement, GetItems, dans [l’article Obtenir des éléments.](get-items.md) 
 
 ```html
 <!DOCTYPE html>
@@ -312,7 +312,7 @@ Voici un exemple rapide : le code contient un bloc qui est un exemple simple d�
 </html>
 ```
 
-La page web ci-dessus se présente comme celle de la figure (sans la définition du rapport lors de la visite initiale). Obtenir l’ID du jeu de rapports à partir du portail CQD (après la signature « /# / » dans l’URL du portail CQD (par exemple, dans la première figure, l’ID de l’ensemble de rapports est 3024, puis placez cet ID de jeu de rapports dans la section d’entrée de cette page web. Appuyez sur le bouton « charger » et voir la définition complète (mesures, dimensions, listes de filtres) de l’ensemble de rapports.
+La page web ci-dessus se présente comme celle de la figure (sans la définition du rapport lors de la visite initiale). Obtenir l’ID de l’ensemble de rapports à partir du portail CQD (après la signature « /# / » dans l’URL du portail CQD (par exemple, dans la première figure, l’ID de l’ensemble de rapports est 3024, puis placez cet ID de jeu de rapports dans la section d’entrée de cette page web. Appuyez sur le bouton « charger » et voir la définition complète (mesures, dimensions, listes de filtres) de l’ensemble de rapports.
 
 En résumé, afin d’obtenir rapidement la définition complète d’un ensemble de rapports/rapports. Voici comment procéder :
 
@@ -324,7 +324,7 @@ En résumé, afin d’obtenir rapidement la définition complète d’un ensembl
 
    **Exemple 3 : Exemple de carte de performance**
 
-Temps pour une tâche plus complexe. Que se passe-t-il si nous voulons créer une page web comme la figure ? Nous devons mettre à jour l’exemple 1 (à l’aide de la page web générée dans l’exemple 2 pour récupérer la définition complète de n’importe quel rapport) afin de pouvoir gérer une plus grande quantité de données.
+Temps pour une tâche plus complexe. Que se passe-t-il si nous voulons créer une page web comme la figure ? Nous devons mettre à jour l’exemple 1 (à l’aide de la page web générée dans l’exemple 2 pour récupérer la définition complète d’un rapport) afin de pouvoir gérer une plus grande quantité de données.
 
 Dans ce cas, nous devons mettre à jour la liste de mesures et de dimensions. Pour déterminer comment ajouter/modifier une mesure et/ou une dimension, suivez les instructions de l’exemple 2 et récupérez la définition complète du rapport, y compris les listes complètes de mesures et de dimensions. Branchez la définition complète du rapport dans l’exemple de code. 
 

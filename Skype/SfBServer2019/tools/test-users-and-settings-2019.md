@@ -1,8 +1,8 @@
 ---
-title: Configurer les paramètres et les utilisateurs de test du nœud observeur
+title: Configurer les paramètres et les utilisateurs de test de nœuds de l’observeur
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: Configurez les paramètres des comptes d’utilisateurs test et des nœuds d’Skype Entreprise Server pour les transactions synthétiques.
-ms.openlocfilehash: f0f997ebcbb3c663fa9a63ac3060f476d627ef4f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Configurez les paramètres des comptes d’utilisateur test et des nœuds d’Skype Entreprise Server pour les transactions synthétiques.
+ms.openlocfilehash: b01b99136cf8fc8495dbf090b8e1def5f56ff77c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746380"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837436"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>Skype Entreprise Server : configurer les paramètres et les utilisateurs de test du nœud de l’observeur
  
@@ -30,10 +30,10 @@ Après avoir configuré l’ordinateur qui jouera le rôle de nœud observateur,
     
 2. mettre à jour les paramètres de configuration du nœud observateur.
     
-## <a name="configure-test-user-accounts"></a>Configurer des comptes d’utilisateur test
+## <a name="configure-test-user-accounts"></a>Configurer les comptes d’utilisateur test
 <a name="testuser"> </a>
 
-Les comptes de test n’ont pas besoin de représenter des personnes réelles, mais ils doivent être des comptes Active Directory valides. En outre, ces comptes doivent être activés pour Skype Entreprise Server, ils doivent avoir des adresses SIP valides et être activés pour Voix Entreprise (pour utiliser la transaction synthétique Test-CsPstnPeerToPeerCall). 
+Les comptes test n’ont pas besoin de représenter des personnes réelles, mais ils doivent être des comptes Active Directory valides. En outre, ces comptes doivent être activés pour Skype Entreprise Server, ils doivent avoir des adresses SIP valides et être activés pour Voix Entreprise (pour utiliser la transaction synthétique Test-CsPstnPeerToPeerCall). 
   
 Si vous utilisez la méthode d’authentification TrustedServer, il vous suffit de vous assurer que ces comptes existent et de les configurer comme indiqué. Affectez au moins trois utilisateurs de test pour chaque pool que vous souhaitez tester. Si vous utilisez la méthode d’authentification Negotiate, vous devez également utiliser la cmdlet Set-CsTestUserCredential et l’Skype Entreprise Server Management Shell pour permettre à ces comptes de test de fonctionner avec les transactions synthétiques. Pour ce faire, exécutez une commande semblable à la suivante (ces commandes supposent que les trois comptes d’utilisateur Active Directory ont été créés et que ces comptes sont activés pour Skype Entreprise Server) :
   
@@ -196,7 +196,7 @@ Registration IM GroupIM P2PAV AvConference Presence PersistentChatMessage DataCo
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
-Pour vérifier qu’un nœud d’observation a été créé, tapez la commande suivante à partir de Skype Entreprise Server Management Shell :
+Pour vérifier qu’un nœud d’observation a été créé, tapez la commande suivante à partir Skype Entreprise Server Management Shell :
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -271,7 +271,7 @@ Si votre ordinateur de nœud observeur se trouve en dehors de votre réseau de p
   
 1. Sur l’ordinateur du nœud observeur, cliquez sur **Démarrer,** sur Tous les **programmes,** sur **Accessoires,** sur Invite de **commandes,** puis cliquez sur Exécuter **en tant qu’administrateur.**
     
-2. Dans la fenêtre de la console, tapez la commande suivante, puis appuyez sur Entrée. 
+2. Dans la fenêtre de console, tapez la commande suivante, puis appuyez sur Entrée. 
     
 ```PowerShell
 bitsadmin /util /SetIEProxy NetworkService NO_PROXY
@@ -378,7 +378,7 @@ Pour plus d’informations sur l’exécuter, reportez-vous à la documentation 
 
 Par défaut, les transactions synthétiques s’exécutent avec les utilisateurs configurés toutes les 15 minutes. Les transactions synthétiques sont exécutés séquentiellement au sein d’un ensemble d’utilisateurs afin d’éviter que deux transactions synthétiques entrent en conflit. Un intervalle plus long est nécessaire pour que toutes les transactions synthétiques se terminent.
   
-S’il est souhaitable d’exécuter des transactions synthétiques plus fréquemment, le nombre de transactions synthétiques qui s’exécutent avec un ensemble d’utilisateurs donné doit être réduit afin que les tests se terminent dans la plage de temps souhaitée avec une certaine mémoire tampon pour les retards occasionnels du réseau. Si l’exécution de transactions synthétiques est souhaitable, créez davantage de jeux d’utilisateurs pour exécuter davantage de transactions synthétiques.
+S’il est souhaitable d’exécuter des transactions synthétiques plus fréquemment, le nombre de transactions synthétiques qui s’exécutent avec un ensemble donné d’utilisateurs doit être réduit afin que les tests se terminent dans la plage de temps souhaitée avec une certaine mémoire tampon pour les retards occasionnels du réseau. Si l’exécution de transactions synthétiques est souhaitable, créez davantage de jeux d’utilisateurs pour exécuter davantage de transactions synthétiques.
   
 Pour modifier la fréquence à laquelle les transactions synthétiques s’exécutent, suivez les étapes suivantes :
   

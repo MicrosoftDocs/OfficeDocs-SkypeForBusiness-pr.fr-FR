@@ -2,7 +2,7 @@
 title: Planifier l’application Annonce dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
-description: Planification de l’application d’annonce Skype Entreprise Server Voix Entreprise, qui configure l’utilisation des appels téléphoniques vers des numéros de téléphone non assignés dans vos organisations. Inclut les conditions requises pour les fichiers audio.
-ms.openlocfilehash: 26dbd9a0bf1513812cb08034216194ca67a92b39
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Planification de l’application d’annonce dans Skype Entreprise Server Voix Entreprise, qui configure ce qu’il faut faire avec les appels téléphoniques vers des numéros de téléphone non assignés dans vos organisations. Inclut les conditions requises pour les fichiers audio.
+ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778094"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838496"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planifier l’application Annonce dans Skype Entreprise
 
-Planification de l’application d’annonce Skype Entreprise Server Voix Entreprise, qui configure l’utilisation des appels téléphoniques vers des numéros de téléphone non assignés dans vos organisations. Inclut les conditions requises pour les fichiers audio.
+Planification de l’application d’annonce dans Skype Entreprise Server Voix Entreprise, qui configure ce qu’il faut faire avec les appels téléphoniques vers des numéros de téléphone non assignés dans vos organisations. Inclut les conditions requises pour les fichiers audio.
 
 L’application Skype Entreprise Server Announcement vous permet de configurer la gestion des appels téléphoniques entrants lorsque le numéro composé est valide pour votre organisation, mais n’est pas attribué à un utilisateur ou à un téléphone. Vous pouvez transférer ces appels vers une destination prédéterminée (numéro de téléphone, URI SIP ou messagerie vocale), lire une annonce audio, ou les deux. L’application Annonce vous permet d’éviter les situations dans lesquelles un appelant maldialisation et entend une tonalité de occupé ou le client SIP reçoit un message d’erreur. Cette section inclut des informations de planification spécifiques à l’application Annonce
 
@@ -39,7 +39,7 @@ L’application Annonce est automatiquement installée avec l’application Resp
 
 ### <a name="software-requirements"></a>Configuration logicielle requise
 
-Le runtime du format multimédia Windows doit être installé sur tous les serveurs frontaux ou Édition Standard qui exécutent l’application d’annonce pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime Windows format multimédia est installé dans le cadre de Windows Expérience utilisateur. Windows Media Format Runtime ou Microsoft Media Foundation est requis pour les fichiers Windows Media Audio (.wma) que l’application d’annonce lit pour les annonces et la musique.
+Le runtime du format multimédia Windows doit être installé sur tous les serveurs frontaux ou Édition Standard qui exécutent l’application d’annonce pour les serveurs exécutant Windows Server 2008 R2 ou Microsoft Media Foundation pour les serveurs exécutant Windows Server 2012 ou Windows Server 2012 R2. Pour Windows Server 2008 R2, le runtime Windows Format multimédia est installé dans le cadre de Windows Expérience utilisateur. Windows Media Format Runtime ou Microsoft Media Foundation est requis pour les fichiers Windows Media Audio (.wma) que l’application d’annonce lit pour les annonces et la musique.
 
 ### <a name="port-requirements"></a>Configuration requise pour les ports
 

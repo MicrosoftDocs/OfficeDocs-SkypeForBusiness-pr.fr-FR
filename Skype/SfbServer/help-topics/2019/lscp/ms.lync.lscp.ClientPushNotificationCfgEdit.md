@@ -2,7 +2,7 @@
 title: 'Client mobile : créer ou modifier la configuration des notifications Push'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Les notifications Push et le centre d’échange de notifications Push (PNCH) sont deux éléments clés de la fonctionnalité de mobilité. Une notification push correspond au processus dans lequel un message est envoyé au centre d’échanges de notifications push. Ce message y est conservé jusqu’à ce qu’il puisse être remis au client mobile ou que le délai d’expiration soit dépassé.
-ms.openlocfilehash: ebc548658fad03af743acdaa25db4b5307549b4c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 233cd1e9cccb56f65b72b7e47b6dffa093e45da1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751113"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839566"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Client mobile : Créer ou modifier une configuration des notifications push
  
@@ -38,7 +38,7 @@ Pour activer les notifications push, procédez comme suit :
   
 2. Sélectionnez les services de notification push que vous voulez activer en cochant la case correspondante :
     
-   - **Activer la notification Push De Microsoft** activera la notification Push au PNCH basé sur le cloud pour les Windows Phone l’application Skype Entreprise web
+   - **Activer la notification Push De Microsoft** activera la notification Push au PNCH basé sur le cloud pour Windows Phone avec l Skype Entreprise appl.
     
    - Activer **la notification Push Apple** activera la notification Push au PNCH Apple pour les appareils exécutant iOS d’Apple (par exemple, iPhone, iPad) et utilisant l’application Skype Entreprise
     

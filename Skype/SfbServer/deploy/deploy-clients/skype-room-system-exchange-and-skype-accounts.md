@@ -1,7 +1,7 @@
 ---
 title: Mise en service Skype comptes Exchange et Skype room system
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
-description: Lisez ces rubriques pour découvrir comment mettre en service Exchange et Skype des comptes Skype Room System.
-ms.openlocfilehash: 7fe7eb6b1c9fa010ae650115ca63bb59c66d9804
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Lisez ces rubriques pour découvrir comment mettre en service Exchange et Skype comptes de salle Skype système de salle.
+ms.openlocfilehash: fe92f11882ae2d4dcd3ddd509f747f310fd25e6f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775814"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837386"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Mise en service Skype comptes Exchange et Skype room system
  
-Lisez ces rubriques pour découvrir comment mettre en service Exchange et Skype des comptes Skype Room System. 
+Lisez ces rubriques pour découvrir comment mettre en service Exchange et Skype comptes de salle Skype système de salle. 
 
 > [!NOTE]
 > Salles Microsoft Teams est un produit différent avec différentes dépendances et procédures de déploiement. Pour plus d’informations Salles Microsoft Teams, voir la vue d’ensemble Salles Microsoft Teams [déploiement.](/MicrosoftTeams/rooms/rooms-deploy)

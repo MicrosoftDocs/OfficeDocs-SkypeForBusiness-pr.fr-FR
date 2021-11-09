@@ -2,7 +2,7 @@
 title: Gérer les catégories dans le serveur de conversation permanente dans Skype Entreprise Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Résumé : Découvrez comment gérer les catégories de serveur de conversation permanente dans Skype Entreprise Server 2015.'
-ms.openlocfilehash: e9892f032d5af24d1394fddc6965ead6e769472e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776194"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853008"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gérer les catégories dans le serveur de conversation permanente dans Skype Entreprise Server 2015
  
@@ -75,7 +75,7 @@ Vous pouvez configurer et gérer des catégories à l’aide du Panneau de confi
     
    - Dans **l’appartenance**, dans la **section** Membres refusés, ajoutez ou supprimez des utilisateurs et d’autres principaux Active Directory associés à des membres refusés de la salle.
     
-   - Dans **Appartenance,** dans la section **Créateurs,** ajoutez ou supprimez des utilisateurs et d’autres principaux Active Directory associés aux créateurs de la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
+   - Dans **l’appartenance,** dans la section **Créateurs,** ajoutez ou supprimez des utilisateurs et d’autres principaux Active Directory associés aux créateurs de la catégorie. Un créateur est un utilisateur qui dispose des autorisations nécessaires pour créer des salles de conversation et leur attribuer des gestionnaires et des membres.
     
 8. Cliquez sur **Valider**.
     
@@ -97,7 +97,7 @@ Vous pouvez configurer les paramètres suivants pour les catégories :
     
 - EnableInvitations. Active les invitations pour la catégorie. Les utilisateurs de la liste AllowedMembers recevront automatiquement une invitation à rejoindre une nouvelle salle de conversation au moment de la création de la nouvelle salle.
     
-- ChatHistory. Active ou désactive la fonctionnalité d’historique des conversation.
+- ChatHistory. Active ou désactive la fonctionnalité d’historique de conversation.
     
 - Créateurs. Spécifie les utilisateurs autorisés à créer des salles de conversation dans la catégorie.
     

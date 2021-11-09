@@ -2,7 +2,7 @@
 title: Créer ou modifier un groupe d’agents dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Créez ou modifiez un groupe d’agents dans Response Group, Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: f17b3839e483f1886e69f84b33980f5384b50066
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d4254a3851b434145eb3afa5cec1a721c51fe1f2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771559"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853758"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Créer ou modifier un groupe d’agents dans Skype Entreprise
  
@@ -40,7 +40,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
 > [!IMPORTANT]
 > Lorsque vous affectez des utilisateurs en tant qu’agents au groupe de réponses, informez-les que, s’ils ont activé le mode de confidentialité, ils doivent rechercher des contacts « RGS Presence Watcher » et les ajouter à leur liste de contacts. Les agents qui ont activé le mode de confidentialité, mais qui n’ont pas « RGS Presence Watcher » dans leur liste de contacts, ne peuvent pas recevoir d’appels au groupe Response Group. Cela ne concerne pas les agents qui n’ont pas activé le mode de confidentialité. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Pour utiliser Skype Entreprise Server de contrôle d’agent pour créer ou modifier un groupe d’agents
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Pour utiliser Skype Entreprise Server panneau de bord pour créer ou modifier un groupe d’agents
 
 1. Ouvrez une session en tant que membre du groupe RTCUniversalServerAdmins ou en tant que membre d’un des rôles d’administration prédéfinis prenant en charge Response Group.
     
@@ -138,7 +138,7 @@ Utilisez l’une des procédures suivantes pour créer ou modifier un groupe d�
     > [!IMPORTANT]
     > Le paramètre de temps d’alerte de l’agent ne peut pas dépasser 180 secondes. Si le temps d’alerte de l’agent est supérieur à 180 secondes, l’application cliente rejette l’appel, car le minuteur de transaction SIP atteint son délai d’attente maximal. 
   
-4. Confirmez que le groupe d’agents est créé. Exécutez :  
+4. Confirmez que le groupe d’agents est créé. Exécuter : 
     
    ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"

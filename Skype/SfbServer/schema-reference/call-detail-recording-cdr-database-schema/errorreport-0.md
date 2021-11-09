@@ -2,7 +2,7 @@
 title: Affichage ErrorReport
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: La vue ErrorReport stocke les informations sur les erreurs signalées. Chaque enregistrement correspond à une occurrence d’erreur. Les erreurs sont capturées par l’agent CDR en cours d’exécution sur le serveur frontal ou envoyées à partir du client. Cette vue a été introduite dans Microsoft Lync Server 2013.
-ms.openlocfilehash: 1937c463696be5b45534e9145b1a91bde80b7114
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5a35cc8b3a726549be7de10259c7e59a67ca5500
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763392"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852928"
 ---
 # <a name="errorreport-view"></a>Affichage ErrorReport
  
@@ -31,10 +31,10 @@ La vue ErrorReport stocke les informations sur les erreurs signalées. Chaque en
 |**MsDiagId** <br/> |int  <br/> |ID de diagnostic pour le rapport d’erreurs.  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur à l’origine de l’erreur.  <br/> |
 |**FromUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur à l’origine de l’erreur. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
-|**FromTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur à l’origine de l’erreur. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
+|**FromTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur à l’origine de l’erreur. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
 |**ToUri** <br/> |nvarchar(450)  <br/> |URI de l’utilisateur cible du rapport d’erreurs.  <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de l’utilisateur cible du rapport d’erreurs. Voir la table UriTypes pour plus d’informations.  <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur cible du rapport d’erreurs. Pour plus [d’informations, voir la table Tenants.](tenants.md) <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |Client de l’utilisateur cible du rapport d’erreurs. Pour plus [d’informations, voir le tableau Tenants.](tenants.md) <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |URI de la conférence cible du rapport d’erreurs.  <br/> |
 |**ConferenceUriType** <br/> |nvarchar(256)  <br/> |Type d’URI de la conférence cible du rapport d’erreurs. Pour plus [d’informations, voir la table UriTypes.](uritypes.md) <br/> |
 |**SessionIdTime** <br/> |DateHeure  <br/> |Heure de la demande de session à l’origine du rapport d’erreurs. Utilisé conjointement à SessionIdSeq pour identifier une session de manière unique. Pour plus [d’informations, voir la table Dialogs Skype Entreprise Server 2015.](dialogs.md) <br/> |

@@ -2,7 +2,7 @@
 title: Conditions préalables à la sécurité et à la configuration Voix Entreprise dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Résumé : Découvrez les conditions préalables de sécurité et de configuration requises pour Voix Entreprise dans Skype Entreprise Server.'
-ms.openlocfilehash: 48cb415208008441f306dd0384c494149f65c4e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 01f7be3bfe3e43d53d574632f228681be5af4ba4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778914"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839076"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Conditions préalables à la sécurité et à la configuration Voix Entreprise dans Skype Entreprise Server
  

@@ -2,7 +2,7 @@
 title: Modifications apportées par Grant-CsOUPermission dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: Pour déléguer l’administration Skype Entreprise Server, vous pouvez ajouter des autorisations aux unités d’organisation spécifiées afin que les membres des groupes universels RTC créés par la préparation de la forêt peuvent accéder aux unités d’organisation sans être membres du groupe Administrateurs du domaine.
-ms.openlocfilehash: b5c507cf91a880c73c7b377deafb672ed25b1125
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c8b7841fc6754c5f852945807a68089c922f6497
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745840"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838466"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Modifications apportées par Grant-CsOUPermission dans Skype Entreprise Server
  

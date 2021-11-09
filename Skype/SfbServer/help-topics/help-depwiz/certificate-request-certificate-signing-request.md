@@ -2,7 +2,7 @@
 title: Demande de certificat (demande de signature de certificat)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Pour créer une requête hors connexion, vous devez d'abord créer une demande de signature de certificat (CSR). Tapez le chemin d’accès et le nom du fichier CSR dans la zone de texte Nom de fichier. Vous pouvez cliquer sur Parcourir afin de choisir un emplacement pour créer la demande de signature de certificat. Cliquez sur Suivant pour continuer.
-ms.openlocfilehash: b2ff4494fa3f0345eb68d682cb4906b01bb6c19d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9a4844b88696a9c9bfcf2896513c7f6b84b5ede3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750583"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838936"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Demande de certificat (demande de signature de certificat)
  

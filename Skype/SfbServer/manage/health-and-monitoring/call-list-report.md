@@ -1,8 +1,8 @@
 ---
-title: Rapport des listes d’appels Response Group Skype Entreprise Server
+title: Rapport des listes d’appels Response Group dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Résumé : Découvrez l’application Response Group dans Skype Entreprise Server.'
-ms.openlocfilehash: 46193159c9cb29f63b3fc4ca9053a3e9dd098d01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: df1ff0cb6e7eb4fcae8a506cf62bf075734f97eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773614"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837596"
 ---
-# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Rapport des listes d’appels Response Group Skype Entreprise Server
+# <a name="response-group-call-list-report-in-skype-for-business-server"></a>Rapport des listes d’appels Response Group dans Skype Entreprise Server
 
 **Résumé :** Découvrez l’application Response Group dans Skype Entreprise Server.
 
-L’application Response Group permet à Skype Entreprise Server de répondre et d’router des appels téléphoniques en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si quelqu’un appelle le numéro de téléphone de votre service d’Skype Entreprise Server, il peut automatiquement router cet appel vers le premier agent du service d’aide disponible. Sinon, Skype Entreprise Server pouvez poser une série de questions ( Appuyez sur 1 si vous avez des problèmes matériels. Appuyez sur 2 pour des problèmes logiciels. Appuyez sur 3 si vous avez des problèmes réseau.) puis routez l’appel vers l’agent du service d’aide le plus approprié en fonction de la réponse à ces questions.
+L’application Response Group permet à Skype Entreprise Server de répondre et d’router les appels téléphoniques en fonction du numéro composé et, éventuellement, des réponses de l’appelant à une série de questions. En règle générale, les appels Response Group ne sont pas acheminés vers une personne, mais vers un ensemble de personnes connu sous le nom de groupe d’agents. Par exemple, si quelqu’un appelle le numéro de téléphone de votre service d’Skype Entreprise Server, il peut automatiquement router cet appel vers le premier agent du service d’aide disponible. Vous pouvez également Skype Entreprise Server poser une série de questions ( Appuyez sur 1 si vous avez des problèmes matériels. Appuyez sur 2 pour des problèmes logiciels. Appuyez sur 3 si vous avez des problèmes réseau.) puis routez l’appel vers l’agent du service d’aide le plus approprié en fonction de la réponse à ces questions.
 
 Le Rapport des listes d’appels Response Group représente une collection d’appels effectués pendant une période spécifiée et pour un type d’appel spécifié. Le Rapport d’utilisation de Response Group (qui doit être ouvert au préalable pour que vous puissiez ouvrir le Rapport des listes d’appels Response Group) reconnaît les types d’appels suivants :
 

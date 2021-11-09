@@ -1,6 +1,6 @@
 ---
 title: Niveau de qualité de l’expérience utilisateur | Microsoft Teams | QoS | Qualité de l’appel
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -20,24 +20,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc26e01559d30e07e580f5adbe266506280c4e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760372"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865533"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guide d’examen de l’expérience de qualité
 
-![Diagramme mettant en évidence l’excellence opérationnelle étape du voyage de mise à niveau.](media/upgrade-banner-op-excellence.png "Étapes du parcours de mise à niveau, avec l’accent sur la phase d’excellence opérationnelle")
+![Diagramme mettant en évidence l’excellence opérationnelle étape du voyage de mise à niveau.](media/upgrade-banner-op-excellence.png "Étapes du voyage de mise à niveau, avec l’accentuation sur la phase d’excellence opérationnelle")
 
-Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé la mise à niveau d’Skype Entreprise vers Teams.
+Cet article fait partie de la phase d’excellence opérationnelle de votre parcours de mise à niveau, qui commence dès que vous avez terminé votre mise à niveau de Skype Entreprise vers Teams.
 
 ## <a name="improve-and-monitor-call-quality"></a>Améliorer et surveiller la qualité des appels
 
 L’amélioration et le suivi de la qualité des appels pour [Teams](monitor-call-quality-qos.md) inclut un ensemble d’activités qui évaluent et fournissent des recommandations de correction dans les domaines clés qui ont le plus fort impact sur l’amélioration de l’expérience utilisateur, comme illustré ci-dessous.
 
-![Illustration des principales zones à examiner lors d’une révision.](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de la qualité de l’expérience : audio, fiabilité et résultats des enquêtes utilisateur.")
+![Illustration des principaux domaines à examiner lors d’une révision.](media/plan-my-service-management-image2.png "Principaux aspects à examiner lors d’une révision de la qualité de l’expérience : audio, fiabilité et résultats des enquêtes effectués par les utilisateurs.")
 
 En evaluant et en réstant les aspects décrits dans le guide, vous pouvez réduire leur risque d’affecter négativement l’expérience utilisateur. La plupart des problèmes d'expérience utilisateur rencontrés lors d'un déploiement peuvent être regroupés dans les catégories suivantes :
 
@@ -53,8 +53,8 @@ En evaluant et en réstant les aspects décrits dans le guide, vous pouvez rédu
 
 - Sous-réseaux ou périphériques réseau problématiques
 
-Les conseils fournis dans Améliorer et surveiller la qualité des appels pour [Teams](monitor-call-quality-qos.md) se concentrent sur l’utilisation du tableau de bord de qualité des appels online comme outil principal pour signaler et examiner chaque zone décrite, avec un focus sur l’audio afin d’optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
+Les conseils fournis dans Améliorer et surveiller la qualité des appels pour [Teams](monitor-call-quality-qos.md) se concentrent sur l’utilisation du tableau de bord de qualité des appels online comme principal outil pour signaler et examiner chaque zone décrite, avec un focus sur l’audio afin d’optimiser l’adoption et l’impact. Toutes les optimisations apportées au réseau pour améliorer l'expérience audio se traduiront aussi directement par des améliorations dans le partage de la vidéo et du bureau.
 
-Il est vivement recommandé de désigner le champion de la qualité tout de suite. Une fois désignées, elles doivent se familiariser avec le contenu du projet Améliorer et surveiller la qualité des appels des [Teams.](monitor-call-quality-qos.md)
+Il est vivement recommandé de désigner le champion de la qualité rapidement. Une fois désignées, elles doivent se familiariser avec le contenu du projet Améliorer et surveiller la qualité des appels des [Teams.](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->
