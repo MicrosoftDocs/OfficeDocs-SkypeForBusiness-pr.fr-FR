@@ -1,7 +1,7 @@
 ---
 title: Skype Licence logicielle Skype Entreprise système de salle
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lisez cette rubrique pour savoir comment vérifier si vous avez une licence en volume Skype Entreprise logiciels.
-ms.openlocfilehash: dc605af5bc4f922e1da1669fb471ad46173a7646
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761572"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845967"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Système de salle : Skype Entreprise licence logicielle
  
@@ -49,10 +49,10 @@ Si le client n’a pas de contrat de licence en volume, les activations Skype En
   
 - Nom de la société
     
-- Nom du contact de déploiement, e-mail et numéro de téléphone
+- Nom, adresse e-mail et numéro de téléphone du contact de déploiement
     
 - Nombre de systèmes déployés
     
 - Date de déploiement
     
-- Si le client dispose d’un gestionnaire de compte technique Microsoft, le nom et les coordonnées du responsable technique de compte Microsoft
+- Si le client dispose d’un gestionnaire de compte technique Microsoft, le nom et les informations de contact du responsable technique de l’analyseur technique

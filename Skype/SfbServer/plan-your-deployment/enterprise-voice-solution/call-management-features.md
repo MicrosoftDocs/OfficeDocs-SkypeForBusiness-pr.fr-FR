@@ -2,7 +2,7 @@
 title: Planifier les fonctionnalités de gestion des appels dans Skype Entreprise
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Vue d’ensemble des fonctionnalités de gestion des appels dans Skype Entreprise Server Voix Entreprise.
-ms.openlocfilehash: b5cf1b4eab7c0044acdb06b19a888f621e902098
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 459ec4558e39f01c87679227face57232f08ce41
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756531"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846327"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Planifier les fonctionnalités de gestion des appels dans Skype Entreprise
 
@@ -33,7 +33,7 @@ Les fonctionnalités de gestion des appels Voix Entreprise contrôlent la faço
 
 - **Prise de groupe**: permet aux utilisateurs vocaux de reprendre les appels qui sonnent pour d’autres utilisateurs qui sont affectés à des groupes de prise d’appel.
 
-- **Response Group :** approvisionnement des appels entrants vers des groupes d’agents à l’aide de groupements de recherche ou de questions et réponses interactives de réponse vocale (IVR).
+- **Response Group :** approvisionnement des appels entrants vers des groupes d’agents à l’aide de groupements de recherche ou de questions et réponses de réponse vocale interactive (IVR).
 
 - **Annonce** : lit un message pour les appels passés à un numéro non attribué et/ou achemine l’appel vers un autre emplacement.
 

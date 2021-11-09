@@ -2,7 +2,7 @@
 title: Configurer le serveur de gestion principal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Résumé : Configurez votre serveur de gestion principal, installez System Center Operations Manager et importez des packs d’administration pour Skype Entreprise Server 2019.'
-ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 15fecd23a4376eab64d49820da69f8ac0aec6c08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760342"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845997"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype Entreprise Server : configurer le serveur de gestion principal
 
@@ -93,7 +93,7 @@ Vous pouvez utiliser l’un des outils suivants pour importer les packs d’admi
 
 ## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importation des packs d’administration à l’aide du interpréteur de commandes d'Operations Manager
 
-En règle générale, il est plus facile d’importer les packs d’administration à l’aide de la console Operations Manager. Toutefois, si une erreur se produit et que l’importation échoue, la console ne fournit pas toujours de rapports d’erreurs adéquats. En comparaison, le interpréteur de commandes d'Operations Manager fournit des informations détaillées. Si vous utilisez Operations Manager et que vous rencontrez des problèmes lors de l’importation d’un pack d’administration, importez-le à l’aide du interpréteur de commandes d'Operations Manager. Les informations fournies par interpréteur de commandes d'Operations Manager peuvent vous aider à déterminer la raison de l’échec de l’importation.
+En règle générale, il est plus facile d’importer les packs d’administration à l’aide de la console Operations Manager. Toutefois, si une erreur se produit et que l’importation échoue, la console ne fournit pas toujours de rapports d’erreurs adéquats. En comparaison, le interpréteur de commandes d'Operations Manager fournit des informations détaillées. Si vous utilisez Operations Manager et que vous rencontrez des problèmes lors de l’importation d’un pack d’administration, importez-le à l’aide du interpréteur de commandes d'Operations Manager. Les informations fournies par interpréteur de commandes d'Operations Manager peuvent vous aider à déterminer pourquoi l’importation a échoué.
 
 1. Cliquez **sur** Démarrer, **sur** Tous les programmes, sur Microsoft **System Center 2012,** sur **Operations Manager,** puis sur **interpréteur de commandes d'Operations Manager**.
 

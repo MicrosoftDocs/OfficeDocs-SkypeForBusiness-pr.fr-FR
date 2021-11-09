@@ -1,6 +1,6 @@
 ---
 title: Teams comportement des applications pour les utilisateurs non standard
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Découvrez le comportement des applications Microsoft Teams utilisateurs non standard.
+description: Découvrez le comportement des applications Microsoft Teams’utilisateurs non standard.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745540"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846087"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams comportement des applications pour les utilisateurs non standard
 
@@ -35,13 +35,13 @@ Cet article décrit le comportement des applications dans Teams lorsque des util
   > [!Note]
   > Pour une comparaison plus détaillée des utilisateurs invités et externes, voir [Communiquer avec des utilisateurs d’autres organisations.](./communicate-with-users-from-other-organizations.md)
 
-- Un **utilisateur anonyme** est un concept dans le Teams au cours des réunions où l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou celui de son organisation.
+- Un **utilisateur anonyme** est un concept qui existe Teams réunions au cours des laquelle l’utilisateur a rejoint la réunion via un lien. L’utilisateur n’est pas connecté avec son compte Microsoft ou le compte de son organisation.
 
 ## <a name="guest-users"></a>Utilisateurs invités
 
 ### <a name="install-update-and-delete-for-guest-users"></a>Installer, mettre à jour et supprimer des utilisateurs invités
 
-Les invités ne peuvent pas installer, mettre à jour ou supprimer des applications dans un contexte partagé, tel qu’une conversation, un canal ou une réunion, mais ils peuvent l’utiliser dans leur étendue personnelle à l’aide d’extensions de messages et de liens directs. Les invités n’ont pas accès à l’App Store Teams à partir de l’application de bureau Teams, mais ils peuvent y accéder à l’aide d’un lien direct.
+Les invités ne peuvent pas installer, mettre à jour ou supprimer des applications dans un contexte partagé, tel qu’une conversation, un canal ou une réunion, mais ils peuvent l’avoir dans leur étendue personnelle à l’aide d’extensions de messages et de liens directs. Les invités n’ont pas accès à l’App Store Teams à partir de l’application de bureau Teams, mais ils peuvent y accéder à l’aide d’un lien direct.
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs invités
 
@@ -55,7 +55,7 @@ Les robots peuvent envoyer un message de façon proactive aux utilisateurs invit
 
 - Les invités respecteront les stratégies d’autorisation globales et à l’échelle de l’organisation définies pour le client hôte pour n’importe quelle application. Si une application est bloquée pour l’ensemble de l’organisation hôte, les invités ne peuvent pas non plus l’utiliser.
 - Les robots inclus dans la stratégie de configuration d’application par défaut globale sont également installés pour les invités.
-- Une fois qu’un bot est installé, les robots peuvent communiquer de façon proactive avec les invités et les invités peuvent communiquer avec les bots.
+- Une fois qu’un bot est installé, les robots peuvent communiquer de façon proactive avec les invités et les invités peuvent communiquer avec les robots.
 - Vous ne pouvez pas supprimer un invité de la stratégie de configuration globale par défaut de l’application.
 - Pour éviter que les invités accèdent aux bots, vous pouvez créer d’autres stratégies de configuration d’application, les affecter à des utilisateurs internes et installer des bots avec les stratégies personnalisées.
 
@@ -78,12 +78,12 @@ Les utilisateurs externes ne peuvent pas installer, mettre à jour ou supprimer 
 
 Les utilisateurs anonymes ne peuvent pas installer, mettre à jour ou supprimer des applications dans les réunions.
 
-### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation des utilisateurs anonymes
+### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Comportement et stratégie d’utilisation pour les utilisateurs anonymes
 
 Les utilisateurs anonymes ne peuvent pas utiliser directement des applications dans les réunions. Les utilisateurs natifs peuvent continuer à utiliser les applications de réunion si des utilisateurs anonymes sont présents. Si une application envoie une carte adaptative dans la conversation, les utilisateurs anonymes peuvent interagir avec la carte. Pour plus d’informations, [voir Autoriser les utilisateurs anonymes à participer à des réunions.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
-Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ils peuvent interagir avec des applications dans Teams réunions si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
+Les utilisateurs anonymes héritent de la stratégie d’autorisation globale par défaut au niveau utilisateur. Ils peuvent interagir avec les applications dans Teams réunions si la stratégie d’autorisation au niveau utilisateur a activé l’application. Les utilisateurs anonymes peuvent uniquement interagir avec les applications déjà disponibles dans une réunion et qui ne peuvent pas acquérir et/ou gérer ces applications.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 [Gérer les stratégies de mise en application dans Microsoft Teams](teams-app-setup-policies.md)

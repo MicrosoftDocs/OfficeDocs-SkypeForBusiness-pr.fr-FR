@@ -1,7 +1,7 @@
 ---
 title: Déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Lisez cette rubrique pour plus d’informations sur la manière de déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365, où Teams, Skype Entreprise et Exchange sont tous les deux en ligne.
-ms.openlocfilehash: d052683b1f393afd777f6e17a4b38b96f17d6b5a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Lisez cette rubrique pour plus d’informations sur le déploiement d’Salles Microsoft Teams avec Microsoft 365 ou Office 365, où Teams, Skype Entreprise et Exchange sont tous les deux en ligne.
+ms.openlocfilehash: cf323332b6c9b7742a2a10a12017553f462b8619
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741580"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846077"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Déployer des Salles Microsoft Teams avec Microsoft 365 ou Office 365
 
@@ -36,11 +36,11 @@ Pour activer Skype Entreprise, vous devez avoir les contrôles suivants :
 
 - Skype Entreprise En ligne (plan 2 ou Enterprise plan basé sur un plan supérieur) ou version Microsoft 365 ou Office 365 plan. Le plan doit autoriser les fonctionnalités de conférences téléphoniques.
 
-- Si vous avez besoin de fonctionnalités de rendez-vous pour une réunion, vous avez besoin d’une licence d’audioconférence et Système téléphonique conférence.  Si vous avez besoin de fonctionnalités d’appel sortant pour une réunion, vous avez besoin d’une licence d’audioconférence.
+- Si vous avez besoin de fonctionnalités de connexion à partir d’une réunion, vous avez besoin d’une licence d’audioconférence et Système téléphonique conférence.  Si vous avez besoin de fonctionnalités d’appel sortant pour une réunion, vous avez besoin d’une licence d’audioconférence.
 
 - Vos utilisateurs clients doivent avoir Exchange boîtes aux lettres.
 
-- Votre Salles Microsoft Teams nécessite au minimum une licence Skype Entreprise Online (plan 2), mais ne nécessite pas de licence Exchange Online licence utilisateur. Pour [plus d Salles Microsoft Teams, consultez](rooms-licensing.md) la liste des licences de licences en cours.
+- Votre compte Salles Microsoft Teams nécessite au minimum une licence Skype Entreprise Online (plan 2), mais pas Exchange Online licence utilisateur. Voir [Salles Microsoft Teams licences pour](rooms-licensing.md) plus d’informations.
 
 Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [description Skype Entreprise service en ligne.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
 
@@ -86,7 +86,7 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
 
 3. Dans Exchange Online PowerShell, configurez les paramètres suivants sur la boîte aux lettres de salle pour améliorer l’expérience de réunion :
 
-   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent directement la décision de réservation de salle sans intervention humaine : libre = accepter ; occupé = refus.)
+   - AutomateProcessing :accept automatique (les organisateurs de réunion reçoivent la décision de réservation de salle directement sans intervention humaine : libre = accepter ; occupé = refus.)
 
    - AddOrganizerToSubject: $false (L’organisateur de la réunion n’est pas ajouté à l’objet de la demande de réunion.)
 
@@ -94,11 +94,11 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
 
    - SuppressionSubject : $false (conserver l’objet des demandes de réunion entrantes).)
 
-   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion d’origine reste tel que spécifié.)
+   - RemovePrivateProperty : $false (garantit que l’indicateur privé envoyé par l’organisateur de la réunion dans la demande de réunion initiale reste tel que spécifié.)
 
    - AddAdditionalResponse: $true (Le texte spécifié par le paramètre AdditionalResponse est ajouté aux demandes de réunion.)
 
-   - Réponse supplémentaire : « Il s’agit d’Réunion Skype salle de réunion ! » (Le texte supplémentaire à ajouter à la demande de réunion.)
+   - Réponse supplémentaire : « Il s’agit d’Réunion Skype salle de réunion ! » (Texte supplémentaire à ajouter à la demande de réunion.
 
    Cet exemple configure ces paramètres sur la boîte aux lettres de salle rigel-01.
 
@@ -124,7 +124,7 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
    Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
    ```  -->
 
-   Cet exemple définit le mot de passe du compte Rigel1@contoso.onmicrosoft.com à n’expirer jamais.
+   Cet exemple définit le mot de passe du compte pour Rigel1@contoso.onmicrosoft.com à n’expirer jamais.
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -PasswordNeverExpires $true
@@ -149,7 +149,7 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
     > [!NOTE]
     > Si le mot de passe n’est pas réglé sur Jamais expirer, le compte ne se connecte plus sur l’appareil une fois la période d’expiration atteinte. Le mot de passe devra alors être modifié pour le compte et mis à jour localement sur l’appareil MTR.
 
-6. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ou Skype Entreprise ne fonctionne pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles pour votre organisation Microsoft 365 ou Office 365 organisation comme suit :
+6. Le compte d’appareil doit avoir une licence Microsoft 365 ou Office 365 valide, ou Exchange et Microsoft Teams ou Skype Entreprise ne fonctionne pas. Si vous disposez de la licence, vous devez affecter un emplacement d’utilisation à votre compte d’appareil ; cela permet de déterminer les SKU de licence disponibles pour votre compte. Vous pouvez utiliser `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> pour récupérer la liste des S SKUs disponibles pour Microsoft 365 ou Office 365 organisation comme suit :
 
    ```Powershell
    Get-MsolAccountSku
@@ -207,7 +207,7 @@ Pour plus d’informations sur Skype Entreprise de services en ligne, voir la [d
     Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool
    ```
 
-   Ensuite, activez ensuite votre Salles Microsoft Teams de compte Skype Entreprise Server en exécutant l’cmdlet suivante :
+   Ensuite, activez ensuite votre Salles Microsoft Teams de compte Skype Entreprise Server exécutez l’cmdlet suivante :
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity "Rigel1@contoso.onmicrosoft.com" -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress

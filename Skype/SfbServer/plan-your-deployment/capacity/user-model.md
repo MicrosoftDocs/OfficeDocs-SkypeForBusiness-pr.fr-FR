@@ -2,7 +2,7 @@
 title: Planification de la capacité de l’utilisation du modèle utilisateur pour Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Cet article fournit des instructions sur le nombre de serveurs dont vous avez besoin sur un site pour le nombre d’utilisateurs sur ce site, en fonction de l’utilisation décrite dans les modèles utilisateur dans Skype Entreprise Server.
-ms.openlocfilehash: 4f2027debf7a8c2f787a77149212bccf2f8c90c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 145e790c0f6c7ceeaa7330c0cd48ad68bc15b331
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750003"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846357"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planification de la capacité de l’utilisation du modèle utilisateur pour Skype Entreprise Server
 
@@ -46,7 +46,7 @@ Le tableau suivant résume nos recommandations.
 
 |Rôle serveur|Nombre maximal d’utilisateurs pris en charge|
 |:-----|:-----|
-|Pool frontal avec douze serveurs frontux et un serveur principal ou une paire de serveurs frontux en miroir.   |80 000 utilisateurs uniques connectés simultanément, plus 50 % de points de présence multiples (MPOP) représentant des instances non mobiles, plus 40 % d’utilisateurs activés pour la mobilité pour un total de 152 000 points de terminaison.   |
+|Pool frontal avec douze serveurs frontux et un serveur principal ou une paire de serveurs principal en miroir.   |80 000 utilisateurs uniques connectés simultanément, plus 50 % de points de présence multiples (MPOP) représentant des instances non mobiles, plus 40 % d’utilisateurs activés pour la mobilité pour un total de 152 000 points de terminaison.   |
 |Conférence A/V   |Le service de conférence A/V fourni par un pool frontal prend en charge les conférences du pool en supposant une taille maximale de conférence de 250 utilisateurs et une seule conférence de ce type s’exécutant à la fois.  <br/> **Remarque :** En outre, vous pouvez prendre en charge de grandes conférences de 250 à 1 000 utilisateurs en déployant un pool frontal distinct avec deux serveurs frontaux pour héberger les grandes conférences. Pour plus d’informations, [voir Planifier les grandes réunions dans Skype Entreprise Server](../../plan-your-deployment/conferencing/large-meetings.md).   |
 |Un serveur Edge   |12 000 utilisateurs distants simultanés.   |
 |Un directeur   |12 000 utilisateurs distants simultanés.   |
@@ -146,7 +146,7 @@ Tous les tableaux suivants supposent une utilisation telle qu’elle est résum�
 
 |Matériel serveur|Nombre maximal d’appels|
 |:-----|:-----|
-|Bi-processeur, cœur hexadaire, processeur hyper-threadé 2,26 GHz, avec 32 Go de mémoire et 2 cartes réseau de 1 Go.   |150   |
+|Bi-processeur, hex core, processeur hyper-thread 2,26 GHz, avec 32 Go de mémoire et 2 cartes réseau de 1 Go.   |150   |
 
 > [!NOTE]
 > Ce nombre est beaucoup plus petit que le nombre pour le serveur de médiation autonome. En effet, le serveur frontal doit gérer d’autres fonctionnalités et fonctions pour les 6 600 utilisateurs qui y sont homed, en plus du transcodage nécessaire pour les appels vocaux.

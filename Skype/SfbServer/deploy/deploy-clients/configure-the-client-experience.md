@@ -2,7 +2,7 @@
 title: Configurer l’expérience client avec Skype Entreprise 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Résumé : Lisez cette rubrique pour découvrir comment configurer l’expérience client pour Skype Entreprise utilisateurs.'
-ms.openlocfilehash: f7cbbe60de10d50d231faa201f3c8830c14f7450
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1baa06558f7f3dcc4829d1e03c387e9ab54fa32
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773384"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845977"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurer l’expérience client avec Skype Entreprise 2015
  
@@ -31,7 +31,7 @@ Skype Entreprise Server prend en charge la nouvelle Skype Entreprise client, ain
 > Si votre organisation a déployé Skype Entreprise Server et Lync Server, l’expérience client par défaut varie en fonction des versions du serveur et des paramètres d’interface utilisateur. Lorsque les utilisateurs lancent Skype Entreprise pour la première fois, ils voient toujours l’interface Skype Entreprise utilisateur, même si vous avez sélectionné l’expérience client Lync. Après plusieurs minutes, les utilisateurs sont invités à basculer en mode Lync. Pour plus d’informations, voir **Comportement du client** de premier lancement plus loin dans cette rubrique.
   
 > [!NOTE]
-> L’expérience client Lync 2013 n’est pas une option pour les versions Skype Entreprise client 2016 ou version ultérieure. Avant d’essayer de configurer votre environnement client pour utiliser le client Lync 2013, vérifiez sa version pour vous assurer qu’elle ne commence pas par le numéro 16 . par exemple : 16.x.x.x. 
+> L’expérience client Lync 2013 n’est pas une option pour Skype Entreprise versions clientes 2016 ou ultérieures. Avant d’essayer de configurer votre environnement client pour utiliser le client Lync 2013, vérifiez sa version pour vous assurer qu’elle ne commence pas par le numéro 16 . par exemple : 16.x.x.x. 
   
 ## <a name="configure-the-client-experience"></a>Configurer l’expérience client
 
@@ -194,7 +194,7 @@ La procédure suivante décrit comment modifier le Registre afin que l’expéri
     
 Ensuite, vous devez lier l’GPO que vous avez créé au groupe d’utilisateurs à qui vous souhaitez affecter la stratégie, tel qu’une ou plusieurs.
   
-### <a name="to-use-the-gpo-to-assign-the-policy"></a>Pour utiliser l’GPO afin d’affecter la stratégie
+### <a name="to-use-the-gpo-to-assign-the-policy"></a>Pour utiliser l’GPO pour affecter la stratégie
 
 1. Dans la console de gestion des stratégies de groupe, cliquez avec le bouton droit sur l’ou à qui vous souhaitez affecter la stratégie, puis sélectionnez Lien vers un **GPO existant.**
     

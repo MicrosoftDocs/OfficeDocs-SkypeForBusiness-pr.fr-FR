@@ -2,7 +2,7 @@
 title: Rapport de synthèse de conférence dans Skype Entreprise Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Résumé : Découvrez le rapport de synthèse de conférence dans Skype Entreprise Server.'
-ms.openlocfilehash: 8ad8bc35a014efd1cb84979f7cc05d75c3691673
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 029dac40c7bc52602f0403bdfd52559db662b0ca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751753"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846407"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Rapport de synthèse de conférence dans Skype Entreprise Server
  
 **Résumé :** Découvrez le rapport de synthèse de conférence dans Skype Entreprise Server.
   
-Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. Une conférence implique généralement plus de 2 utilisateurs et nécessite l’utilisation des services de conférence. En comparaison, une session d’égal à égal n’implique généralement que 2 utilisateurs et ne nécessite pas l’utilisation Skype Entreprise Server services de conférence. Les activités d’égal à égal sont signalées dans le rapport de synthèse des activités P22 dans [Skype Entreprise Server](peer-to-peer-activity-summary-report.md).
+Le rapport de synthèse de conférence fournit une vue d’ensemble de vos sessions de conférence en ligne. Une conférence implique généralement plus de 2 utilisateurs et nécessite l’utilisation des services de conférence. En comparaison, une session d’égal à égal n’implique généralement que 2 utilisateurs et ne nécessite pas l’utilisation de Skype Entreprise Server services de conférence. Les activités D’égal à égal sont signalées dans le rapport de synthèse des activités P22 dans [Skype Entreprise Server](peer-to-peer-activity-summary-report.md).
   
 Le rapport de synthèse de conférence vous indique non seulement le nombre de conférences qui ont eu lieu pendant une période donnée (toutes les heures, tous les jours, toutes les semaines, tous les mois), mais également le nombre total de personnes qui ont participé à ces conférences et le nombre total d’organisateurs de conférences uniques.
   
@@ -37,8 +37,8 @@ Un organisateur « unique » est toute personne qui planifiera au moins une conf
 |Pilar Ackerman  <br/> |7/7/2015 11:00  <br/> |
 |Ken Myer  <br/> |7/7/2015 13:00  <br/> |
 |Pilar Ackerman  <br/> |7/7/2015 14:00  <br/> |
-|Ken Myer  <br/> |2/07/2015 10:00  <br/> |
-|Pilar Ackerman  <br/> |2/07/2015 10:00  <br/> |
+|Ken Myer  <br/> |02/07/2015 10:00  <br/> |
+|Pilar Ackerman  <br/> |02/07/2015 10:00  <br/> |
    
 Le rapport de synthèse de conférence indique également le nombre de conférences incluant l’audio et/ou la vidéo.
   
@@ -62,8 +62,8 @@ Les valeurs totales de la plupart des mesures utilisées dans le rapport de synt
 |Pilar Ackerman  <br/> |7/7/2015 11:00  <br/> |
 |Ken Myer  <br/> |7/7/2015 13:00  <br/> |
 |Pilar Ackerman  <br/> |7/7/2015 14:00  <br/> |
-|Ken Myer  <br/> |2/07/2015 10:00  <br/> |
-|Pilar Ackerman  <br/> |2/07/2015 10:00  <br/> |
+|Ken Myer  <br/> |02/07/2015 10:00  <br/> |
+|Pilar Ackerman  <br/> |02/07/2015 10:00  <br/> |
    
 Pour vous faire une meilleure idée du nombre total d’utilisateurs uniques qui ont organisé des conférences, modifiez votre intervalle de temps. Par exemple, au lieu d’examiner les données par mois, examinez-les par jour.
   

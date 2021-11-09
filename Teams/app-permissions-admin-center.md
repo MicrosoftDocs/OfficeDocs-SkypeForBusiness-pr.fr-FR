@@ -1,6 +1,6 @@
 ---
 title: Afficher les autorisations des applications et accorder le consentement de l’administrateur dans le Microsoft Teams’administration
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: vaibhava
 manager: serdars
@@ -13,20 +13,20 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5076c80edfff8e4b36b53ad79c3b17805f4d6df
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5e2f773686fee965a9c80aa4a68987dc6280db66
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775994"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846127"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Afficher les autorisations des applications et accorder le consentement de l’administrateur dans le Microsoft Teams’administration
 
 La page [Gérer les](manage-apps.md) applications du Centre Microsoft Teams d’administration est l’endroit où vous affichez et gérez toutes Teams applications pour votre organisation. Par exemple, vous pouvez voir l’état et les propriétés des applications au niveau de l’organisation, approuver ou télécharger de nouvelles applications personnalisées sur le magasin d’applications de votre organisation, bloquer ou autoriser des applications au niveau de l’organisation, et gérer les paramètres des applications à l’échelle de l’organisation.
 
-Dans cette page, vous pouvez également accorder à l’administrateur de l’organisation l’autorisation d’accéder aux données et d’afficher les autorisations de consentement spécifique aux ressources pour les applications.
+Ici, vous pouvez également accorder à l’administrateur de l’organisation l’autorisation d’accéder aux données et d’afficher des autorisations d’autorisation spécifique aux ressources pour les applications.
 
-## <a name="grant-org-wide-admin-consent-to-an-app"></a>Accorder l’accord de l’administrateur à l’échelle de l’organisation à une application
+## <a name="grant-org-wide-admin-consent-to-an-app"></a>Accorder le consentement de l’administrateur à l’échelle de l’organisation à une application
 
 Si vous êtes un administrateur global, vous pouvez consulter et accorder votre consentement aux applications qui demandent des autorisations au nom de tous les utilisateurs de votre organisation. Ainsi, les utilisateurs n’ont pas à passer en revue et à accepter les autorisations demandées par l’application lorsqu’ils démarrent l’application. En outre, selon les [paramètres](/azure/active-directory/manage-apps/configure-user-consent) de consentement de l’utilisateur dans Azure Active Directory (Azure AD), certains utilisateurs peuvent ne pas être autorisés à accorder le consentement aux applications qui accèdent aux données de l’entreprise.
 
@@ -40,14 +40,14 @@ Pour accorder le consentement à l’échelle de l’organisation à une applica
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**.
 2. Effectuez l’une des opérations suivantes :
-    - Recherchez l’application de votre choix, cliquez sur son nom pour consulter la page des détails de l’application, puis sélectionnez **l’onglet Autorisations.**
-    - T **triez la colonne Autorisations** dans l’ordre décroit pour trouver l’application, puis sélectionnez **Afficher les détails.** Vous êtes alors autorisé à vous rendre sur **l’onglet Autorisations** de la page des détails de l’application.
+    - Recherchez l’application de votre choix, cliquez sur son nom pour aller à la page des détails de l’application, puis sélectionnez **l’onglet Autorisations.**
+    - T **triez la colonne Autorisations** dans l’ordre décroit pour rechercher l’application, puis sélectionnez **Afficher les détails.** Pour ce faire, vous êtes sur **l’onglet Autorisations** de la page des détails de l’application.
 
 3. Sous **Autorisations à l’échelle de l’organisation,** **sélectionnez Examiner les autorisations et le consentement.**
 
     :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Capture d’écran des autorisations à l’échelle de l’organisation sous l’onglet Autorisations d’une application.":::
 
-    Pour ce faire, vous devez être un administrateur global. Cette option n’est pas disponible Teams administrateurs de services.
+    Pour ce faire, vous devez être un administrateur global. Cette option n’est pas disponible pour les Teams de service.
 
 4. Sous **l’onglet Autorisations,** examinez les autorisations demandées par l’application.
 
@@ -72,12 +72,12 @@ Les autorisations RSC autorisent les propriétaires d’équipe à autoriser une
 
 Les autorisations RSC sont définies dans le manifeste de l’application et non dans Azure AD. Vous accordez l’accord aux autorisations RSC lorsque vous ajoutez l’application à une équipe. Pour en savoir plus, consultez le consentement spécifique [à la ressource.](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 
-Les administrateurs globaux et Teams de service peuvent afficher les autorisations RSC pour une application sous l’onglet **Autorisations** de la page des détails de l’application. 
+Les administrateurs globaux et Teams de service peuvent afficher les autorisations RSC d’une application sous l’onglet **Autorisations** de la page des détails de l’application. 
 
 Pour afficher les autorisations RSC d’une application, suivez ces étapes :
 
 1. Dans le volet de navigation gauche du Centre d’administration Microsoft Teams, accédez aux **applications Teams** > **Gérer les applications**.
-2. Recherchez l’application de votre choix, cliquez sur son nom pour consulter la page des détails de l’application, puis sélectionnez **l’onglet Autorisations.**
+2. Recherchez l’application de votre choix, cliquez sur son nom pour aller à la page des détails de l’application, puis sélectionnez **l’onglet Autorisations.**
 3. Sous **Microsoft Graph autorisations** de consentement spécifique aux ressources, examinez les autorisations RSC demandées par l’application.
 
     :::image type="content" source="media/app-perm-admin-center-rsc-new.png" alt-text="Capture d’écran des autorisations RSC pour une application.":::
@@ -88,7 +88,7 @@ Pour afficher les autorisations RSC d’une application, suivez ces étapes :
 
 Pour l’instant, la possibilité de passer en revue les autorisations et d’accorder le consentement n’est pas disponible pour toutes les applications tierces inscrites Azure AD qui demandent des autorisations. Au lieu du lien **Afficher les détails,** vous verrez dans **--** la colonne **Autorisations.** Nous travaillons avec des téléviseurs pour activer cette fonctionnalité pour leurs applications.
 
-## <a name="related-topics"></a>Sujets associés
+## <a name="related-topics"></a>Voir aussi
 
 - [Gérer vos applications dans le Centre Microsoft Teams’administration](manage-apps.md)
 - [Autorisations et consentement dans le point de terminaison Plateforme d'identités Microsoft’utilisateur](/azure/active-directory/develop/v2-permissions-and-consent)
